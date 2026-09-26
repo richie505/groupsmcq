@@ -1,0 +1,35 @@
+name: Build APK
+
+on:
+  push:
+    branches: ["**"]
+    paths-ignore: ["tools/generated/**", "**.md"]
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      ref:
+        description: Branch to build
+        type: string
+        required: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.ref }}
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Build assets (PYQs + generated notes MCQs)
+        run: python3 tools/build_assets.py
+      - name: Build release APK
+        run: ./gradlew --no-daemon assembleRelease
+      - uses: actions/upload-artifact@v4
+        with:
+          name: appsc-mcq-apk
+          path: app/build/outputs/apk/release/app-release.apk
+          if-no-files-found: error

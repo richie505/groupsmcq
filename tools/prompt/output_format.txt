@@ -1,0 +1,36 @@
+
+
+OUTPUT FORMAT — STRICT JSON
+Output only one JSON object, nothing before or after it: {"questions": [ ... ]}. Wherever the rules above say to output an empty array, output {"questions": []}. Each element must follow this exact schema:
+{
+  "question": "Consider the following statements about the Satavahanas:\n1. Gautamiputra Satakarni is described as 'Ekabrahmana' in the Nasik inscription.\n2. The Satavahanas issued coins only in gold.\n3. Pratishthana was one of their capitals.\nWhich of the statements given above are correct?",
+  "option_a": "1 and 2 only",
+  "option_b": "1 and 3 only",
+  "option_c": "2 and 3 only",
+  "option_d": "1, 2 and 3",
+  "correct_option": "b",
+  "explanation": "Statement 2 is false: Satavahana coins were mostly of lead and potin, not gold. Statements 1 and 3 are correct.",
+  "type": "statements",
+  "technique": "Statement 2 carries 'only', the extreme-word trap (68 in 100 such APPSC statements are wrong); statements 1 and 3 appear in most options.",
+  "subsection": "Satavahanas - coins and inscriptions"
+}
+
+Rules for each field:
+* question: full question text, self-contained, no source references. Statements, List-I/List-II, Assertion and Reason, and items to arrange go inside this field, each on its own line ("\n"), before the actual question line.
+* option_a–option_d: exactly four distinct, plausible options (no "a)", "(1)" prefixes inside the text).
+* correct_option: lowercase single letter a, b, c or d.
+* explanation: why the key is right; for statement, A–R, match and NOT questions also say which part is false and what the correct fact is. Exam-revision-worthy, 1–3 sentences, never mentions "the notes". Refer to the answer by its content, never by its letter (options are shuffled and shown as (1)–(4) in the app).
+* type: one of fact, statements, assertion_reason, match, chronology, negative, odd_one_out, confusable, numerical, application, comparison.
+* technique: one short sentence naming the APPSC technique from STEP 4 that this question trains (the trap in the false statement, the option-shape clue, or the thinking method such as "find one wrong statement", "start from the sure pair", "first and last", "split the options", "who would do this job?"). Plain words, no statistics beyond those given above.
+* subsection: the ■ heading (from the notes) the question's fact comes from, copied exactly.
+
+Valid JSON only: double-quoted keys/strings, no trailing commas, no comments.
+
+
+FINAL SELF-CHECK (perform silently before outputting)
+* [ ] Every examinable fact, number, date, name and list item in the notes maps to at least one question.
+* [ ] No question repeats, rephrases or reverses anything under "ALREADY IN THE BANK", and no two of my questions test the same fact.
+* [ ] The type mix, the false-statement traps and the answer-key balance follow STEP 4.
+* [ ] No question references "the notes", "the passage" or "the given text" in any form.
+* [ ] All four options are plausible and distinct; correct_option is accurate.
+* [ ] Output is a single valid JSON object {"questions": [...]} and nothing else.
