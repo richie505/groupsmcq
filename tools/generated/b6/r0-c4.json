@@ -1,0 +1,514 @@
+{
+ "book": 6,
+ "row": 0,
+ "chunk": 4,
+ "section": "Andhra Pradesh - government decisions, new schemes, appointments and administrative changes",
+ "subsections": [
+  "Scheme - department and target group",
+  "Health schemes - coverage and model",
+  "Flagship poverty eradication - P4",
+  "Sanitation - CLAP",
+  "Housing and welfare - houses, LPG, free bus",
+  "Schemes renamed after the 2024 change of government",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 41,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 3
+ },
+ "accepted": [
+  {
+   "s": "Jeeva Kranthi scheme of Andhra Pradesh is primarily associated with which department and beneficiary group?",
+   "o": [
+    "Rural Development; eligible housing beneficiaries",
+    "Animal Husbandry; women beneficiaries of YSR Cheyutha",
+    "Handlooms; powerloom weavers",
+    "Fisheries; marine fishermen during the fishing ban"
+   ],
+   "a": 1,
+   "x": "Jeeva Kranthi is implemented through the Animal Husbandry Department and provides livestock units to women beneficiaries of YSR Cheyutha.",
+   "ty": "fact",
+   "tq": "Match the scheme with its department and target group.",
+   "sec": "Scheme - department and target group"
+  },
+  {
+   "s": "The Adarana scheme, introduced in 1998 in Andhra Pradesh, was intended primarily to support:",
+   "o": [
+    "Persons with disabilities travelling by bus",
+    "Professional workmen and artisans",
+    "Women receiving livestock units",
+    "Marine fishermen during the fishing ban"
+   ],
+   "a": 1,
+   "x": "Adarana, introduced in 1998, provides support for professional workmen and artisans.",
+   "ty": "fact",
+   "tq": "Use a direct scheme-to-beneficiary association.",
+   "sec": "Scheme - department and target group"
+  },
+  {
+   "s": "Under Pasu Bhima Padhakam, the premium contribution is divided as follows:",
+   "o": [
+    "40% Centre, 40% State and 20% farmer",
+    "50% Centre, 25% State and 25% farmer",
+    "40% State, 40% farmer and 20% Centre",
+    "60% Centre, 20% State and 20% farmer"
+   ],
+   "a": 0,
+   "x": "Pasu Bhima Padhakam is a livestock insurance scheme in which the Centre pays 40%, the State 40% and the farmer 20%; it covers BPL, SC and ST farmers.",
+   "ty": "numerical",
+   "tq": "Split a percentage figure into its three contributors.",
+   "sec": "Scheme - department and target group"
+  },
+  {
+   "s": "Matsyakarula Sevalo provides financial assistance of ₹20,000 to marine fishermen during a fishing ban lasting:",
+   "o": [
+    "75–90 days",
+    "45–61 days",
+    "30–45 days",
+    "61–75 days"
+   ],
+   "a": 1,
+   "x": "Matsyakarula Sevalo provides ₹20,000 to marine fishermen during the 45–61-day fishing ban.",
+   "ty": "numerical",
+   "tq": "Distinguish the scheme amount from the associated duration.",
+   "sec": "Scheme - department and target group"
+  },
+  {
+   "s": "The assistance provided under Auto Driver Sevalo is:",
+   "o": [
+    "₹15,000 annually",
+    "₹12,000 annually",
+    "₹10,000 annually",
+    "₹20,000 annually"
+   ],
+   "a": 0,
+   "x": "Auto Driver Sevalo provides ₹15,000 to self-owned auto drivers.",
+   "ty": "numerical",
+   "tq": "Test a single welfare amount using nearby numerical distractors.",
+   "sec": "Scheme - department and target group"
+  },
+  {
+   "s": "Consider the following statements regarding recent welfare measures in Andhra Pradesh:\n1. Free power for weavers covers handloom and powerloom weavers.\n2. The free-power measure is to take effect from 1 April 2026.\n3. Divyang Shakti provides 100% free bus travel for persons with disabilities.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Free power is for handloom and powerloom weavers from 1 April 2026, while Divyang Shakti provides completely free bus travel for persons with disabilities.",
+   "ty": "statements",
+   "tq": "Combine date, target group and benefit in a coded statement question.",
+   "sec": "Scheme - department and target group"
+  },
+  {
+   "s": "Which of the following is associated with assistance for Haj and Jerusalem pilgrimages and honoraria for Imams and Mouzzans?",
+   "o": [
+    "Matsyakarula Sevalo",
+    "Pasu Bhima Padhakam",
+    "Adarana",
+    "Minority welfare measures"
+   ],
+   "a": 3,
+   "x": "The minority welfare measures include Haj and Jerusalem pilgrimage aid and honoraria for Imams and Mouzzans.",
+   "ty": "fact",
+   "tq": "Identify the beneficiary group from the nature of the assistance.",
+   "sec": "Scheme - department and target group"
+  },
+  {
+   "s": "Under the AP health protection framework, Dr. NTR Vaidya Seva provides cashless care for approximately how many families and covers how many procedures?",
+   "o": [
+    "1.43 crore families and 5,000 procedures",
+    "1.43 crore families and 3,257 procedures",
+    "1.25 crore families and 2,500 procedures",
+    "2.25 crore families and 3,257 procedures"
+   ],
+   "a": 1,
+   "x": "Dr. NTR Vaidya Seva covers 1.43 crore families and 3,257 procedures through cashless care.",
+   "ty": "numerical",
+   "tq": "Pair two quantitative facts belonging to the same scheme.",
+   "sec": "Health schemes - coverage and model"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched with the health scheme or service associated with the health trust?",
+   "o": [
+    "Working Journalists Health Scheme — working journalists",
+    "Aarogya Raksha — APL families",
+    "Employees Health Scheme — employees",
+    "Amrutha — marine fishermen"
+   ],
+   "a": 3,
+   "x": "Amrutha is intended for orphans, not marine fishermen. The other three pairings are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the one beneficiary group that belongs to a different scheme.",
+   "sec": "Health schemes - coverage and model"
+  },
+  {
+   "s": "Which of the following correctly describes the Sanjeevani health-screening rollout?",
+   "o": [
+    "It covers all eligible households with free LPG cylinders.",
+    "It covers 5 lakh high-risk people and 66 lakh hostel students.",
+    "It covers 66 lakh high-risk people and 5 lakh hostel students.",
+    "It covers only marine fishermen during the fishing ban."
+   ],
+   "a": 2,
+   "x": "Sanjeevani is planned to screen 66 lakh high-risk people and 5 lakh hostel students.",
+   "ty": "numerical",
+   "tq": "Separate the two target populations and their respective figures.",
+   "sec": "Health schemes - coverage and model"
+  },
+  {
+   "s": "P4, launched on Ugadi on 30 March 2025, stands for:",
+   "o": [
+    "Public-People-Partnership Programme",
+    "Poverty Prevention and Public Partnership",
+    "Public-Private-People Partnership",
+    "People’s Public Procurement Partnership"
+   ],
+   "a": 2,
+   "x": "P4 stands for Public-Private-People Partnership and was launched on 30 March 2025.",
+   "ty": "fact",
+   "tq": "Expand an acronym and connect it with its launch date.",
+   "sec": "Flagship poverty eradication - P4"
+  },
+  {
+   "s": "The principal goal of the P4 programme is to achieve:",
+   "o": [
+    "Universal free bus travel",
+    "Complete eradication of poverty",
+    "Universal LPG distribution",
+    "100% urban housing construction"
+   ],
+   "a": 1,
+   "x": "P4 aims at complete eradication of poverty, expressed through the Zero Poverty sutram.",
+   "ty": "fact",
+   "tq": "Identify the flagship objective rather than an associated activity.",
+   "sec": "Flagship poverty eradication - P4"
+  },
+  {
+   "s": "Consider the following statements about the P4 model:\n1. Well-off Margadarsis mentor poor Bangaru Kutumbam families.\n2. The government acts primarily as a facilitator.\n3. The model is designed as a compulsory tax-funded transfer programme.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. P4 is described as a voluntary, society-wide model in which the government facilitates rather than operating it as a compulsory tax-funded transfer programme.",
+   "ty": "statements",
+   "tq": "Reject the extreme description that reverses the nature of the model.",
+   "sec": "Flagship poverty eradication - P4"
+  },
+  {
+   "s": "Approximately how many families were included in the first phase of P4?",
+   "o": [
+    "9 lakh",
+    "15 lakh",
+    "21.8 lakh",
+    "28 lakh"
+   ],
+   "a": 2,
+   "x": "The first phase of P4 covered approximately 21.8 lakh families.",
+   "ty": "numerical",
+   "tq": "Test the programme’s phase-wise numerical coverage.",
+   "sec": "Flagship poverty eradication - P4"
+  },
+  {
+   "s": "The nodal body for implementing P4 is the:",
+   "o": [
+    "Swarna Andhra P4 Foundation under the Fisheries Department",
+    "Swarna Andhra P4 Foundation under the Planning Department",
+    "AP State Road Transport Corporation",
+    "Department of Animal Husbandry"
+   ],
+   "a": 1,
+   "x": "The Swarna Andhra P4 Foundation, under the Planning Department, is the nodal body for P4.",
+   "ty": "fact",
+   "tq": "Identify the nodal institution and its parent department.",
+   "sec": "Flagship poverty eradication - P4"
+  },
+  {
+   "s": "Which of the following correctly states the performance figures associated with CLAP?",
+   "o": [
+    "86.07% segregation at source, 6,890 tonnes processed daily and 104 STPs working",
+    "96.07% segregation at source, 6,890 tonnes processed daily and 104 STPs working",
+    "96.07% segregation at source, 8,690 tonnes processed daily and 140 STPs working",
+    "90.07% segregation at source, 5,890 tonnes processed daily and 104 STPs working"
+   ],
+   "a": 1,
+   "x": "CLAP recorded 96.07% waste segregation at source, processing of 6,890 tonnes daily and 104 functioning STPs.",
+   "ty": "numerical",
+   "tq": "Keep all three linked programme figures together and reject altered digits.",
+   "sec": "Sanitation - CLAP"
+  },
+  {
+   "s": "Which of the following statements is correct regarding recent sanitation-related developments in Andhra Pradesh?\n1. Swachh Andhra is one of the 10 Sutralu.\n2. A milestone of 500 ODF Plus villages was reported in January 2026.\n3. CLAP was launched on 15 August 2025.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. CLAP was launched on 2 October 2021, not on 15 August 2025.",
+   "ty": "statements",
+   "tq": "Find the date-swapped false statement while retaining the two sanitation facts.",
+   "sec": "Sanitation - CLAP"
+  },
+  {
+   "s": "Under the Housing for All initiative, the target is to construct how many houses by March 2027?",
+   "o": [
+    "5.52 lakh",
+    "7.60 lakh",
+    "9.52 lakh",
+    "10.60 lakh"
+   ],
+   "a": 0,
+   "x": "The current target is 5.52 lakh houses by March 2027, with a house for every eligible family by 2029.",
+   "ty": "numerical",
+   "tq": "Separate the current target from the earlier target figure.",
+   "sec": "Housing and welfare - houses, LPG, free bus"
+  },
+  {
+   "s": "Which of the following correctly describes the housing targets mentioned for Andhra Pradesh?",
+   "o": [
+    "7.60 lakh houses by March 2027 and universal housing by 2030",
+    "5.52 lakh houses by March 2027 and a house for every eligible family by 2029",
+    "5.52 lakh houses by 2026 and universal housing by 2027",
+    "7.60 lakh houses by 2026 and a house for every eligible family by 2029"
+   ],
+   "a": 1,
+   "x": "The current target is 5.52 lakh houses by March 2027 and a house for every eligible family by 2029; 7.60 lakh by 2026 was the earlier target.",
+   "ty": "comparison",
+   "tq": "Compare the present and earlier targets instead of treating them as identical.",
+   "sec": "Housing and welfare - houses, LPG, free bus"
+  },
+  {
+   "s": "Deepam-2 provides eligible households with:",
+   "o": [
+    "Four free LPG cylinders a year",
+    "Three free LPG cylinders a year",
+    "Two free LPG cylinders a year",
+    "One free LPG cylinder a year"
+   ],
+   "a": 1,
+   "x": "Deepam-2 provides three free LPG cylinders annually to eligible households.",
+   "ty": "numerical",
+   "tq": "Test the exact annual entitlement.",
+   "sec": "Housing and welfare - houses, LPG, free bus"
+  },
+  {
+   "s": "Stree Shakti provides free APSRTC bus travel for women from:",
+   "o": [
+    "1 January 2025",
+    "15 August 2025",
+    "2 October 2025",
+    "15 August 2026"
+   ],
+   "a": 1,
+   "x": "Free APSRTC bus travel for women under Stree Shakti began on 15 August 2025.",
+   "ty": "numerical",
+   "tq": "Use the commencement date as the discriminating fact.",
+   "sec": "Housing and welfare - houses, LPG, free bus"
+  },
+  {
+   "s": "Which of the following pair is correctly associated with the welfare measures cited on 15 August 2026?",
+   "o": [
+    "Anna Canteens and Mega DSC 2025 with 15,941 teachers appointed",
+    "Deepam-2 and 3,257 health procedures",
+    "P4 and 6,890 tonnes of waste processed daily",
+    "Stree Shakti and 104 sewage treatment plants"
+   ],
+   "a": 0,
+   "x": "The cited measures included Anna Canteens and Mega DSC 2025, through which 15,941 teachers were appointed.",
+   "ty": "match",
+   "tq": "Match the event reference with its associated welfare measures and figure.",
+   "sec": "Housing and welfare - houses, LPG, free bus"
+  },
+  {
+   "s": "Match List-I with List-II regarding renamed Andhra Pradesh schemes:\nList-I (Old name)\na. Amma Vodi\nb. YSR Rythu Bharosa\nc. YSR Pension Kanuka\nd. Jagananna Gorumudda\n\nList-II (New name)\ni. NTR Bharosa\nii. Talliki Vandanam\niii. Annadata Sukhibhava\niv. Dokka Seethamma mid-day meal\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-i, b-iv, c-iii, d-ii",
+    "a-iv, b-i, c-ii, d-iii"
+   ],
+   "a": 0,
+   "x": "Amma Vodi became Talliki Vandanam, YSR Rythu Bharosa became Annadata Sukhibhava, YSR Pension Kanuka became NTR Bharosa, and Jagananna Gorumudda became Dokka Seethamma mid-day meal.",
+   "ty": "match",
+   "tq": "Start from the sure pair and complete the one-to-one scheme renaming.",
+   "sec": "Schemes renamed after the 2024 change of government"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Jagananna Vidya Kanuka — Sarvepalli Radhakrishnan Vidyarthi Mitra",
+    "Rythu Bharosa Kendras — Rythu Seva Kendras",
+    "Amma Vodi — NTR Bharosa",
+    "YSR Aarogyasri — Dr. NTR Vaidya Seva"
+   ],
+   "a": 2,
+   "x": "Amma Vodi was renamed Talliki Vandanam. NTR Bharosa is the new name of YSR Pension Kanuka.",
+   "ty": "negative",
+   "tq": "Find the swapped new name among otherwise correct renamings.",
+   "sec": "Schemes renamed after the 2024 change of government"
+  },
+  {
+   "s": "Which of the following renamings occurred earlier, in 2014?",
+   "o": [
+    "Rajiv Aarogyasri became NTR Vaidya Seva and Indiramma housing became NTR Housing",
+    "Amma Vodi became Talliki Vandanam and YSR Rythu Bharosa became Annadata Sukhibhava",
+    "Jagananna Gorumudda became Dokka Seethamma mid-day meal",
+    "YSR Pension Kanuka became NTR Bharosa"
+   ],
+   "a": 0,
+   "x": "In 2014, Rajiv Aarogyasri was renamed NTR Vaidya Seva and Indiramma housing was renamed NTR Housing.",
+   "ty": "chronology",
+   "tq": "Separate the earlier renaming from the changes made after 2024.",
+   "sec": "Schemes renamed after the 2024 change of government"
+  },
+  {
+   "s": "The 8th Collectors' Conference held on 10–11 September 2026 reviewed which combination?",
+   "o": [
+    "CLAP and Deepam-2 only",
+    "Annadata Sukhibhava and NTR Bharosa only",
+    "Stree Shakti and Pasu Bhima Padhakam only",
+    "Super Six and P4"
+   ],
+   "a": 3,
+   "x": "The 8th Collectors' Conference reviewed the Super Six welfare programme and P4.",
+   "ty": "fact",
+   "tq": "Link the conference with the policy agenda it reviewed.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "As 13 Zilla Praja Parishads become 28, which elections are due?",
+   "o": [
+    "ZP and MPTC elections",
+    "Village secretariat and cooperative elections",
+    "Lok Sabha and Rajya Sabha elections",
+    "Municipal corporation and Assembly elections"
+   ],
+   "a": 0,
+   "x": "ZP and MPTC polls are due in the context of the increase from 13 ZPPs to 28.",
+   "ty": "fact",
+   "tq": "Match the administrative change with the relevant election bodies.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The opposition criticised the ₹2.5 lakh insurance plan on the ground that it could:",
+   "o": [
+    "End free bus travel for women",
+    "Replace P4 with a compulsory insurance model",
+    "Reduce the number of ODF Plus villages",
+    "Threaten Aarogyasri"
+   ],
+   "a": 3,
+   "x": "The opposition argued that the ₹2.5 lakh insurance plan posed a threat to Aarogyasri.",
+   "ty": "fact",
+   "tq": "Identify the policy criticism rather than the amount alone.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Swarna Andhra @2047 was presented by the Chief Minister at the NITI Aayog Governing Council on:",
+   "o": [
+    "15 August 2025",
+    "10 September 2026",
+    "11 June 2026",
+    "11 June 2025"
+   ],
+   "a": 2,
+   "x": "Swarna Andhra @2047 was presented at the NITI Aayog Governing Council on 11 June 2026. Its themes included zero poverty, RTGS and AWARE.",
+   "ty": "numerical",
+   "tq": "Distinguish the presentation date from the later Collectors' Conference review.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following best describes the significance of the P4 model?",
+   "o": [
+    "It makes the government a facilitator and seeks whole-of-society participation through a voluntary model.",
+    "It makes the government the sole provider of all poverty-related benefits.",
+    "It limits poverty reduction to direct cash transfers by the State.",
+    "It replaces all public welfare schemes with private insurance."
+   ],
+   "a": 0,
+   "x": "P4 makes the government a facilitator and calls for participation by the whole of society through a first-of-its-kind voluntary model.",
+   "ty": "application",
+   "tq": "Apply the institutional role and voluntary character to a conceptual question.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The 2019 secretariat model and the new Swarna Gramam system are described as the delivery arms of:",
+   "o": [
+    "Super Six welfare",
+    "Pasu Bhima Padhakam",
+    "CLAP sanitation services",
+    "Dr. NTR Vaidya Seva"
+   ],
+   "a": 0,
+   "x": "The 2019 secretariat model and Swarna Gramam are the delivery arms of Super Six welfare.",
+   "ty": "fact",
+   "tq": "Identify the programme whose delivery architecture is being described.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The first anniversary of Stree Shakti on 15 August 2026 was marked as:",
+   "o": [
+    "Free Travel Year — Equal Opportunity",
+    "Stree Shakti Year — Double Dignity",
+    "Women First — Universal Mobility",
+    "Super Six Year — Social Security"
+   ],
+   "a": 1,
+   "x": "The first anniversary was marked as “Stree Shakti Year - Double Dignity”.",
+   "ty": "fact",
+   "tq": "Recall the official commemorative theme attached to the anniversary.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Social security pension expenditure in Andhra Pradesh was reported to be ₹2,693 crore in:",
+   "o": [
+    "June 2026",
+    "September 2025",
+    "September 2026",
+    "May 2025"
+   ],
+   "a": 2,
+   "x": "Pension spending was reported as ₹2,693 crore in September 2026.",
+   "ty": "numerical",
+   "tq": "Pair the expenditure figure with its reporting month and year.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The criticism described as “new welfarism” argues that direct cash transfers may:",
+   "o": [
+    "Crowd out public goods and strain State finances",
+    "Increase the number of ZPPs through elections",
+    "Replace Margadarsis with Bangaru Kutumbam families",
+    "Increase the number of STPs and improve waste segregation"
+   ],
+   "a": 0,
+   "x": "The “new welfarism” critique is that direct cash transfers can crowd out public goods and place pressure on State finances.",
+   "ty": "application",
+   "tq": "Apply the stated criticism to its two linked consequences.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding farmer support in Telangana and Andhra Pradesh:\n1. Telangana’s Rythu Bharosa is ₹12,000 per acre.\n2. Andhra Pradesh’s Annadata Sukhibhava is ₹20,000 per farmer.\n3. Both schemes provide the identical unit of assistance and amount.\nWhich of the statements given above are correct?",
+   "o": [
+    "2 and 3 only",
+    "1 and 2 only",
+    "1, 2 and 3",
+    "1 only"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. The schemes differ both in the stated amount and in the unit: per acre in Telangana and per farmer in Andhra Pradesh.",
+   "ty": "comparison",
+   "tq": "Compare amount and unit of measurement before accepting a similarity statement.",
+   "sec": "Universal angles"
+  }
+ ]
+}

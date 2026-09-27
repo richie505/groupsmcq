@@ -1,0 +1,356 @@
+{
+ "book": 6,
+ "row": 3,
+ "chunk": 0,
+ "section": "Andhra Pradesh - awards, GI tags, cultural events, sports and persons in news",
+ "subsections": [
+  "Sportspersons from AP → discipline + event",
+  "National sports awards to AP athletes",
+  "Padma awards from AP - recipient → field"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 25,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Jyothi Yarraji, who hails from Visakhapatnam, is associated with which of the following events?",
+   "o": [
+    "Long jump",
+    "400 m hurdles",
+    "Javelin throw",
+    "100 m hurdles"
+   ],
+   "a": 3,
+   "x": "Jyothi Yarraji of Visakhapatnam is an athlete specialising in the 100 m hurdles.",
+   "ty": "fact",
+   "tq": "Use direct athlete-to-discipline identification.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "In June 2026, Jyothi Yarraji recorded 12.99 seconds at the National Inter-State meet held in:",
+   "o": [
+    "Gandhinagar",
+    "Hyderabad",
+    "Patiala",
+    "Bhubaneswar"
+   ],
+   "a": 3,
+   "x": "Jyothi Yarraji returned from a year-long injury and clocked 12.99 seconds at the National Inter-State meet in Bhubaneswar in June 2026.",
+   "ty": "numerical",
+   "tq": "Link the numerical performance with the event location.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding Jyothi Yarraji:\n1. She returned to competition after a year-long injury.\n2. She was included in India’s squad for the Aichi-Nagoya Asian Games.\n3. She specialises in the 100 m hurdles.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Jyothi Yarraji returned after a year-long injury, was selected for the Aichi-Nagoya Asian Games squad and competes in the 100 m hurdles.",
+   "ty": "statements",
+   "tq": "Check each statement against the athlete’s event, comeback and selection facts.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "Satwiksairaj Rankireddy, along with Chirag Shetty, is associated with which sporting discipline?",
+   "o": [
+    "Squash doubles",
+    "Table tennis doubles",
+    "Tennis doubles",
+    "Badminton doubles"
+   ],
+   "a": 3,
+   "x": "Satwiksairaj Rankireddy and Chirag Shetty form an Indian badminton doubles pair.",
+   "ty": "fact",
+   "tq": "Identify the sport from the athlete-pair combination.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs of tournaments was won by Satwiksairaj Rankireddy and Chirag Shetty in 2026?",
+   "o": [
+    "Singapore Open Super 750 and China Masters Super 750",
+    "Malaysia Open Super 500 and Japan Open Super 500",
+    "Indonesia Masters Super 750 and Thailand Open Super 500",
+    "All England Open and India Open"
+   ],
+   "a": 0,
+   "x": "The pair won the Singapore Open Super 750 in May 2026 and the China Masters Super 750 on 6 September 2026.",
+   "ty": "match",
+   "tq": "Match the athlete with the correct pair of recent tournaments.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "Valluri Ajaya Babu of Kondavelagada in Vizianagaram won which medal in the 79 kg weightlifting category at the Glasgow Commonwealth Games 2026?",
+   "o": [
+    "Silver",
+    "Gold",
+    "Bronze",
+    "No medal"
+   ],
+   "a": 0,
+   "x": "Valluri Ajaya Babu won the silver medal in the 79 kg weightlifting category at the Glasgow 2026 Commonwealth Games.",
+   "ty": "fact",
+   "tq": "Separate the athlete’s weight category from the medal colour.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "The 149 kg snatch lifted by Valluri Ajaya Babu at the Glasgow Commonwealth Games 2026 was notable as a:",
+   "o": [
+    "Asian record",
+    "Games record",
+    "World record",
+    "National record only"
+   ],
+   "a": 1,
+   "x": "Ajaya Babu’s 149 kg snatch was a Commonwealth Games record.",
+   "ty": "fact",
+   "tq": "Distinguish the level of record claimed by the performance.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "Arshad Shaikh, mentioned in connection with Andhra Pradesh sport, belongs to which discipline?",
+   "o": [
+    "Para-cycling",
+    "Para-archery",
+    "Wheelchair basketball",
+    "Para-swimming"
+   ],
+   "a": 0,
+   "x": "Arshad Shaikh is associated with para-cycling.",
+   "ty": "fact",
+   "tq": "Use direct athlete-to-discipline recall.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "At the UCI para track event held at Odense, Denmark, in August 2026, Arshad Shaikh won:",
+   "o": [
+    "Five medals, including two gold",
+    "Four medals, including one gold",
+    "Six medals, including four gold",
+    "Six medals, including two gold"
+   ],
+   "a": 3,
+   "x": "Arshad Shaikh won six medals at the event, including two gold medals.",
+   "ty": "numerical",
+   "tq": "Read the total medal count and gold-medal count together.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "Koneru Humpy was included in India’s women’s team for the 2026 Chess Olympiad. She is associated with:",
+   "o": [
+    "Weightlifting",
+    "Badminton",
+    "Chess",
+    "Athletics"
+   ],
+   "a": 2,
+   "x": "Koneru Humpy is a chess player and represented India in the women’s team at the 2026 Chess Olympiad.",
+   "ty": "fact",
+   "tq": "Identify the discipline from the athlete’s international team participation.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Koneru Humpy — Chess",
+    "Jyothi Yarraji — 100 m hurdles",
+    "Arshad Shaikh — Para-cycling",
+    "Valluri Ajaya Babu — Badminton doubles"
+   ],
+   "a": 3,
+   "x": "Valluri Ajaya Babu is associated with 79 kg weightlifting, not badminton doubles. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the athlete whose discipline has been swapped with a nearby sport.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "Karnam Malleswari won a bronze medal in which weight category at the Sydney Olympic Games held in 2000?",
+   "o": [
+    "53 kg",
+    "63 kg",
+    "69 kg",
+    "75 kg"
+   ],
+   "a": 2,
+   "x": "Karnam Malleswari won the bronze medal in the 69 kg weightlifting category at Sydney 2000.",
+   "ty": "numerical",
+   "tq": "Distinguish the athlete’s Olympic year from the precise weight category.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements about Karnam Malleswari is correct?\n1. She is from Srikakulam.\n2. Her Sydney 2000 medal remains Andhra Pradesh’s only Olympic medal.\n3. She won a bronze medal in weightlifting.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Karnam Malleswari is from Srikakulam, won a weightlifting bronze at Sydney 2000, and that remains the only Olympic medal for present-day Andhra Pradesh.",
+   "ty": "statements",
+   "tq": "Combine place, medal and state-record facts before selecting the coded option.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the National Sports Awards 2025 is correct?\n1. There were 17 Arjuna Awards.\n2. There were 5 Dronacharya Awards.\n3. No Khel Ratna was awarded.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The National Sports Awards 2025 included 17 Arjuna Awards and 5 Dronacharya Awards, while no Khel Ratna was awarded.",
+   "ty": "statements",
+   "tq": "Verify each numerical component of a multi-part awards statement.",
+   "sec": "National sports awards to AP athletes  [APPSC]"
+  },
+  {
+   "s": "The absence of a Khel Ratna in the National Sports Awards 2025 was notable because it was only the third such occasion since:",
+   "o": [
+    "1981",
+    "1991",
+    "2001",
+    "2011"
+   ],
+   "a": 1,
+   "x": "The National Sports Awards 2025 marked only the third occasion since 1991 on which no Khel Ratna was awarded.",
+   "ty": "numerical",
+   "tq": "Connect the exception with its reference year.",
+   "sec": "National sports awards to AP athletes  [APPSC]"
+  },
+  {
+   "s": "The Rashtriya Khel Protsahan Puraskar for 2025 was awarded to:",
+   "o": [
+    "National Sports University, Imphal",
+    "Indian Olympic Association, New Delhi",
+    "Sports Authority of India, Bengaluru",
+    "Army Paralympic Node, Pune"
+   ],
+   "a": 3,
+   "x": "The Rashtriya Khel Protsahan Puraskar went to the Army Paralympic Node, Pune.",
+   "ty": "fact",
+   "tq": "Use the award-to-recipient association and avoid substituting a sports authority.",
+   "sec": "National sports awards to AP athletes  [APPSC]"
+  },
+  {
+   "s": "I. Venkateswara Rao is associated with which of the following achievements?",
+   "o": [
+    "Dronacharya Award-winning boxing coaching",
+    "Dronacharya Award-winning chess coaching",
+    "Khel Ratna-winning badminton career",
+    "Arjuna Award-winning athletics performance"
+   ],
+   "a": 0,
+   "x": "I. Venkateswara Rao is a Dronacharya Award-winning boxing coach.",
+   "ty": "confusable",
+   "tq": "Distinguish the award category and role from an athlete’s award.",
+   "sec": "National sports awards to AP athletes  [APPSC]"
+  },
+  {
+   "s": "How many Padma Awards were announced in 2026, and how were they distributed among the three categories?",
+   "o": [
+    "113: 5 Padma Vibhushan, 13 Padma Bhushan and 95 Padma Shri",
+    "131: 5 Padma Vibhushan, 13 Padma Bhushan and 113 Padma Shri",
+    "136: 5 Padma Vibhushan, 18 Padma Bhushan and 113 Padma Shri",
+    "131: 13 Padma Vibhushan, 5 Padma Bhushan and 113 Padma Shri"
+   ],
+   "a": 1,
+   "x": "The 2026 Padma Awards comprised 131 awards: 5 Padma Vibhushan, 13 Padma Bhushan and 113 Padma Shri.",
+   "ty": "numerical",
+   "tq": "Check both the total and the category-wise distribution.",
+   "sec": "Padma awards from AP - recipient → field  [APPSC]"
+  },
+  {
+   "s": "Which of the following Padma awardees from Andhra Pradesh is an Indian-American radiation oncologist and a native of Mantada in Krishna district?",
+   "o": [
+    "Dr. Nori Dattatreyudu",
+    "Vempaty Kutumba Sastry",
+    "Garimella Balakrishna Prasad",
+    "Gadde Babu Rajendra Prasad"
+   ],
+   "a": 0,
+   "x": "Dr. Nori Dattatreyudu, a native of Mantada in Krishna district, received the Padma Bhushan for his work as an Indian-American radiation oncologist.",
+   "ty": "fact",
+   "tq": "Match the recipient with the specialised professional field and native place.",
+   "sec": "Padma awards from AP - recipient → field  [APPSC]"
+  },
+  {
+   "s": "Maganti Murali Mohan, a Padma Shri awardee from Andhra Pradesh in 2026, is associated with which field?",
+   "o": [
+    "Sanskrit scholarship",
+    "Acting",
+    "Radiation oncology",
+    "Carnatic instrumental music"
+   ],
+   "a": 1,
+   "x": "Maganti Murali Mohan, born at Chataparru in Eluru district, received the Padma Shri for acting.",
+   "ty": "fact",
+   "tq": "Use recipient-to-field matching with the award category.",
+   "sec": "Padma awards from AP - recipient → field  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Garimella Balakrishna Prasad — Singer of Annamacharya kirtanas",
+    "Gadde Babu Rajendra Prasad — Actor",
+    "Vempaty Kutumba Sastry — Sanskrit scholar",
+    "Maganti Murali Mohan — Radiation oncologist"
+   ],
+   "a": 3,
+   "x": "Maganti Murali Mohan is an actor, not a radiation oncologist. Dr. Nori Dattatreyudu is the radiation oncologist; the other pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the swapped professional field among closely related Padma recipients.",
+   "sec": "Padma awards from AP - recipient → field  [APPSC]"
+  },
+  {
+   "s": "Garimella Balakrishna Prasad received the Padma Shri posthumously for his contribution as a:",
+   "o": [
+    "Singer of Annamacharya kirtanas",
+    "Sanskrit grammarian",
+    "Classical dancer",
+    "Theatre actor"
+   ],
+   "a": 0,
+   "x": "Garimella Balakrishna Prasad was honoured posthumously as a singer of Annamacharya kirtanas.",
+   "ty": "fact",
+   "tq": "Match the awardee with the specific cultural contribution.",
+   "sec": "Padma awards from AP - recipient → field  [APPSC]"
+  },
+  {
+   "s": "Assertion (A): No Khel Ratna was awarded in the National Sports Awards 2025.\nReason (R): This was only the third time since 1991 that no Khel Ratna was awarded.\nSelect the correct answer using the code given below.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 1,
+   "x": "Both the assertion and reason are true. However, the reason describes the historical rarity of the event and does not explain why no Khel Ratna was awarded in 2025.",
+   "ty": "assertion_reason",
+   "tq": "Separate a true historical context from a genuine causal explanation.",
+   "sec": "National sports awards to AP athletes  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements about P.V. Sindhu is correct?\n1. She has won two Olympic medals.\n2. She has won five World Championship medals.\n3. She is associated with badminton.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "P.V. Sindhu is a badminton player with two Olympic medals and five World Championship medals.",
+   "ty": "statements",
+   "tq": "Confirm the athlete, sport and two medal records as a single information cluster.",
+   "sec": "Sportspersons from AP → discipline + event  [APPSC]"
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "book": 2,
+ "row": 40,
+ "chunk": 1,
+ "section": "Chief Minister and the State Council of Ministers; Advocate General of the State",
+ "subsections": [
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 9,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The 130th Constitution Amendment Bill, 2025 proposes amendments to which of the following Articles of the Constitution?\n1. Article 75\n2. Article 164\n3. Article 239AA\n4. Article 280\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "The Bill proposes amendments to Articles 75, 164 and 239AA. Article 280 is not included among the proposed amendments.",
+   "ty": "statements",
+   "tq": "Separate the relevant constitutional Articles from the unrelated Article 280.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Under the 130th Constitution Amendment Bill, 2025, a Prime Minister, Chief Minister or Minister held in custody would be liable to removal on the 31st day when the custody is connected with an offence punishable with imprisonment of:",
+   "o": [
+    "Three years or more",
+    "Five years or more",
+    "Ten years or more",
+    "Seven years or more"
+   ],
+   "a": 1,
+   "x": "The proposed provision applies when the offence is punishable with imprisonment of five years or more and the person remains in custody for 30 consecutive days.",
+   "ty": "numerical",
+   "tq": "Match the exact punishment threshold rather than choosing the more familiar seven- or ten-year figure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "According to the 130th Constitution Amendment Bill, 2025, the relevant removal from office would take effect on:",
+   "o": [
+    "The 60th day of custody",
+    "The 30th day of custody",
+    "The 31st day of custody",
+    "The date of conviction"
+   ],
+   "a": 2,
+   "x": "The Bill proposes removal on the 31st day when the Prime Minister, Chief Minister or Minister has been held in custody for 30 consecutive days in the specified circumstances.",
+   "ty": "fact",
+   "tq": "Distinguish the qualifying period of 30 days from the day on which the consequence takes effect.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The 130th Constitution Amendment Bill, 2025 was referred to which body for examination?",
+   "o": [
+    "The Law Commission of India",
+    "The Finance Commission",
+    "A Joint Parliamentary Committee",
+    "The Inter-State Council"
+   ],
+   "a": 2,
+   "x": "The 130th Constitution Amendment Bill, 2025 was referred to a Joint Parliamentary Committee for examination.",
+   "ty": "fact",
+   "tq": "Identify the parliamentary body entrusted with detailed examination of the Bill.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements correctly reflects the relationship between the Union and State Council of Ministers?",
+   "o": [
+    "The Chief Minister mirrors the Speaker of the Lok Sabha in the State, with the corresponding provisions being Articles 93 and 94.",
+    "The Chief Minister mirrors the President in the State, with the corresponding provisions being Articles 153 and 154.",
+    "The Chief Minister mirrors the Vice-President in the State, with the corresponding provisions being Articles 63 and 64.",
+    "The Chief Minister mirrors the Prime Minister in the State, with the corresponding constitutional provisions being Articles 74 and 75 at the Union level."
+   ],
+   "a": 3,
+   "x": "The Chief Minister is the State-level counterpart of the Prime Minister in the parliamentary system. Articles 74 and 75 deal with the Union Council of Ministers headed by the Prime Minister.",
+   "ty": "comparison",
+   "tq": "Use the institutional counterpart comparison and reject swaps with the President, Vice-President or Speaker.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to the constitutional arrangement of the States, which one of the following statements is correct?",
+   "o": [
+    "Every State has a Vice-President as the counterpart of the Union Vice-President.",
+    "The State has no constitutional counterpart of the Vice-President.",
+    "The Governor is the constitutional counterpart of the Vice-President in every respect.",
+    "The Chief Minister performs the constitutional functions of the Vice-President in the State."
+   ],
+   "a": 1,
+   "x": "The State constitutional structure has no counterpart of the Vice-President. The Governor and Chief Minister occupy different constitutional positions and do not replace that office.",
+   "ty": "confusable",
+   "tq": "Discriminate between an institutional counterpart and a merely similar constitutional office.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "In the West Bengal Assembly election held in May 2026, which one of the following combinations is correct?",
+   "o": [
+    "BJP—175 seats out of 294; the defeated Chief Minister resigned immediately",
+    "BJP—207 seats out of 175; the defeated Chief Minister was appointed Governor",
+    "BJP—294 seats out of 207; the defeated Chief Minister dissolved the Assembly",
+    "BJP—207 seats out of 294; the defeated Chief Minister stated that she would not resign"
+   ],
+   "a": 3,
+   "x": "The BJP won 207 of the 294 seats in West Bengal, while the defeated Chief Minister stated that she would not resign.",
+   "ty": "numerical",
+   "tq": "Check both numerical components together and avoid options that reverse the seat total and seats won.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The 11th meeting of the NITI Aayog Governing Council was notable because:",
+   "o": [
+    "All Union Cabinet Ministers were made permanent members",
+    "All Governors of the States attended for the first time",
+    "The Council was converted into a constitutional body",
+    "All 28 Chief Ministers were present for the first time"
+   ],
+   "a": 3,
+   "x": "The 11th NITI Aayog Governing Council saw the presence of all 28 Chief Ministers for the first time.",
+   "ty": "fact",
+   "tq": "Identify the distinctive participation fact instead of confusing Chief Ministers with Governors or Union Ministers.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Legislative Assembly of Andhra Pradesh has 175 seats. On the stated maximum-size rule for a State Council of Ministers, including the Chief Minister, the maximum number of ministers would be:",
+   "o": [
+    "25",
+    "26",
+    "27",
+    "30"
+   ],
+   "a": 1,
+   "x": "The stated maximum is 15 percent of the Assembly strength. Fifteen percent of 175 is 26.25, giving a maximum of 26 ministers when expressed as the applicable whole-number limit.",
+   "ty": "numerical",
+   "tq": "Apply the percentage limit to the Assembly strength and use the applicable whole-number maximum.",
+   "sec": "Universal angles"
+  }
+ ]
+}

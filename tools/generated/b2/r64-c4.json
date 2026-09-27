@@ -1,0 +1,498 @@
+{
+ "book": 2,
+ "row": 64,
+ "chunk": 4,
+ "section": "Electoral reforms - state funding, electoral bonds, criminalisation of politics, RPA 1951 provisions",
+ "subsections": [
+  "EVMs - FIRST use, capacity, manufacturers, NOTA",
+  "VVPAT - FIRST use, versions, court-ordered verification",
+  "EVM credibility debate - SC rulings, paper-ballot demand",
+  "Remote voting machine and totaliser proposals",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which State was the first to conduct its entire Assembly election using EVMs?",
+   "o": [
+    "Gujarat",
+    "Goa",
+    "Nagaland",
+    "Kerala"
+   ],
+   "a": 1,
+   "x": "Goa conducted the first whole-State Assembly election using EVMs in 1999. Gujarat was not the first State to do so.",
+   "ty": "fact",
+   "tq": "Separate pilot use from the first whole-State use.",
+   "sec": "EVMs - FIRST use, capacity, manufacturers, NOTA  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "EVMs were used at every polling station for the first time in which election?",
+   "o": [
+    "The 2004 Lok Sabha General Election",
+    "The 2014 Lok Sabha election",
+    "The 1999 Goa Assembly election",
+    "The 2013 Nagaland Assembly by-election"
+   ],
+   "a": 0,
+   "x": "The first nationwide use of EVMs at every polling station occurred during the Lok Sabha General Election of 2004.",
+   "ty": "fact",
+   "tq": "Match the scale of use with the correct milestone year.",
+   "sec": "EVMs - FIRST use, capacity, manufacturers, NOTA  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding the manufacture of EVMs:\n1. Bharat Electronics Limited manufactures EVMs.\n2. Electronics Corporation of India Limited manufactures EVMs.\n3. Both the manufacturing public sector undertakings are headquartered in Bengaluru.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "BEL, Bengaluru, and ECIL, Hyderabad, are the two public sector undertakings that manufacture EVMs. Statement 3 is false because ECIL is based in Hyderabad.",
+   "ty": "statements",
+   "tq": "Catch the swapped location in a manufacturer-location statement.",
+   "sec": "EVMs - FIRST use, capacity, manufacturers, NOTA  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "An M3 EVM can record up to how many votes?",
+   "o": [
+    "384",
+    "1,200",
+    "2,000",
+    "4,000"
+   ],
+   "a": 2,
+   "x": "An M3 EVM can record up to 2,000 votes.",
+   "ty": "numerical",
+   "tq": "Identify the machine-generation capacity rather than the candidate capacity.",
+   "sec": "EVMs - FIRST use, capacity, manufacturers, NOTA  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "With respect to the capacity of EVMs, which one of the following is correct?",
+   "o": [
+    "An M2 system can connect 24 ballot units and accommodate 384 candidates, whereas an M3 system can connect four ballot units and accommodate 64 candidates.",
+    "An M3 system can accommodate 2,000 candidates through 24 ballot units.",
+    "An M2 system can connect four ballot units and accommodate 64 candidates, whereas an M3 system can connect 24 ballot units and accommodate 384 candidates including NOTA.",
+    "Both M2 and M3 systems can accommodate 64 candidates through four ballot units."
+   ],
+   "a": 2,
+   "x": "M2 EVMs support four ballot units and 64 candidates; an M3 control unit can take up to 24 ballot units and accommodate 384 candidates including NOTA.",
+   "ty": "comparison",
+   "tq": "Split the comparison into ballot-unit capacity and candidate capacity.",
+   "sec": "EVMs - FIRST use, capacity, manufacturers, NOTA  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The NOTA button was introduced in India on which date pursuant to which judicial decision?",
+   "o": [
+    "27 September 2014, ADR v ECI",
+    "1 January 2014, N. Chandrababu Naidu v Union of India",
+    "25 January 2013, Subramanian Swamy v ECI",
+    "27 September 2013, PUCL v Union of India"
+   ],
+   "a": 3,
+   "x": "The NOTA button was added on 27 September 2013 following the Supreme Court decision in PUCL v Union of India.",
+   "ty": "fact",
+   "tq": "Link the date with the correct case instead of a nearby electoral case.",
+   "sec": "EVMs - FIRST use, capacity, manufacturers, NOTA  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which institution designed the NOTA symbol used on the ballot unit?",
+   "o": [
+    "Bharat Electronics Limited, Bengaluru",
+    "National Institute of Design, Ahmedabad",
+    "Election Commission of India",
+    "Electronics Corporation of India Limited, Hyderabad"
+   ],
+   "a": 1,
+   "x": "The NOTA symbol, depicting a ballot paper with a black cross, was designed by the National Institute of Design at Ahmedabad.",
+   "ty": "fact",
+   "tq": "Distinguish the symbol designer from the EVM manufacturers.",
+   "sec": "EVMs - FIRST use, capacity, manufacturers, NOTA  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The first Lok Sabha election in which the NOTA option was available was held in:",
+   "o": [
+    "2004",
+    "2009",
+    "2013",
+    "2014"
+   ],
+   "a": 3,
+   "x": "The first Lok Sabha election with the NOTA option was held in 2014.",
+   "ty": "fact",
+   "tq": "Do not confuse the introduction date of NOTA with the first Lok Sabha election using it.",
+   "sec": "EVMs - FIRST use, capacity, manufacturers, NOTA  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "In the first Lok Sabha election in which NOTA was available, its vote share was approximately:",
+   "o": [
+    "0.1%, comprising over 6 lakh votes",
+    "1.1%, comprising over 60 lakh votes",
+    "2.1%, comprising over 1.2 crore votes",
+    "11%, comprising over 6 crore votes"
+   ],
+   "a": 1,
+   "x": "In the 2014 Lok Sabha election, NOTA received approximately 1.1% of the votes, exceeding 60 lakh votes.",
+   "ty": "numerical",
+   "tq": "Retain both the percentage and the absolute vote figure.",
+   "sec": "EVMs - FIRST use, capacity, manufacturers, NOTA  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The first use of VVPAT in India took place in which election?",
+   "o": [
+    "The 2004 Lok Sabha General Election",
+    "The 1999 Goa Assembly election",
+    "The 2014 Lok Sabha election",
+    "The 2013 by-election in 51-Noksen Assembly constituency, Nagaland"
+   ],
+   "a": 3,
+   "x": "VVPAT was first used in the 2013 by-election to the 51-Noksen Assembly constituency in Nagaland, after the Conduct of Elections Rules, 1961 were amended.",
+   "ty": "fact",
+   "tq": "Distinguish the first VVPAT use from the first EVM milestones.",
+   "sec": "VVPAT - FIRST use, versions, court-ordered verification  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about the voter-verifiable paper audit trail:\n1. The voter can see the printed slip for about seven seconds.\n2. The slip provides immediate feedback to the voter.\n3. The slip is handed over to the voter after verification.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The voter sees the slip for about seven seconds and receives immediate feedback. Statement 3 is false because the slip drops into a sealed box rather than being handed to the voter.",
+   "ty": "statements",
+   "tq": "Find the false statement by checking what happens to the verified slip.",
+   "sec": "VVPAT - FIRST use, versions, court-ordered verification  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly represents the generations of VVPAT machines?",
+   "o": [
+    "M1, M2 and M3, with M3 being the current generation",
+    "M2, M3 and M4, with M4 being the current generation",
+    "Only M1 and M2, with M2 being the current generation",
+    "M1, M2 and M3, with M1 being the current generation"
+   ],
+   "a": 0,
+   "x": "The VVPAT generations are M1, M2 and M3; M3 is the current generation.",
+   "ty": "fact",
+   "tq": "Use the sequence of machine generations and identify the current version.",
+   "sec": "VVPAT - FIRST use, versions, court-ordered verification  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which two public sector undertakings manufacture VVPAT machines?",
+   "o": [
+    "BEL and ECIL",
+    "ECI and the Election Commission of a State",
+    "ECIL and the National Institute of Design",
+    "BEL and the Law Commission of India"
+   ],
+   "a": 0,
+   "x": "VVPATs are manufactured by Bharat Electronics Limited and Electronics Corporation of India Limited.",
+   "ty": "fact",
+   "tq": "Separate the machine manufacturers from the institutions involved in design or regulation.",
+   "sec": "VVPAT - FIRST use, versions, court-ordered verification  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which case held that VVPAT is necessary for free and fair elections and directed its introduction in phases?",
+   "o": [
+    "Subramanian Swamy v ECI",
+    "ADR v ECI",
+    "State of Karnataka v Prathik Parasrampuria",
+    "PUCL v Union of India"
+   ],
+   "a": 0,
+   "x": "In Subramanian Swamy v ECI (2013), the Supreme Court held that VVPAT was needed for free and fair polls and required phased introduction.",
+   "ty": "fact",
+   "tq": "Match the judicial case with its distinctive electoral reform.",
+   "sec": "VVPAT - FIRST use, versions, court-ordered verification  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The decision in N. Chandrababu Naidu v Union of India (2019) changed the random VVPAT-EVM tally from:",
+   "o": [
+    "Two to five polling stations per district",
+    "One to five polling stations per Assembly segment",
+    "One to ten polling stations per parliamentary constituency",
+    "Five to ten polling stations per Assembly segment"
+   ],
+   "a": 1,
+   "x": "The 2019 decision raised the random VVPAT-EVM tally from one to five polling stations per Assembly segment.",
+   "ty": "numerical",
+   "tq": "Remember both sides of the judicially ordered numerical increase.",
+   "sec": "VVPAT - FIRST use, versions, court-ordered verification  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding ADR v ECI (April 2024):\n1. The Supreme Court rejected the demand for 100% VVPAT slip counting.\n2. The Court rejected a return to paper ballots.\n3. Symbol-loading units were directed to be sealed for 45 days.\n4. Runners-up were permitted to seek verification of 5% of EVMs.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the directions or conclusions associated with ADR v ECI in April 2024.",
+   "ty": "statements",
+   "tq": "Check each judicial direction separately, especially the figures and time period.",
+   "sec": "VVPAT - FIRST use, versions, court-ordered verification  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Under the newer Election Commission rules, VVPAT slips must be counted when:",
+   "o": [
+    "EVM data do not match Form 17C",
+    "Postal ballots are counted before the EVMs in every constituency",
+    "The number of NOTA votes exceeds the winning margin",
+    "A losing candidate demands counting in every polling station"
+   ],
+   "a": 0,
+   "x": "VVPAT slips must be counted wherever the EVM data do not match Form 17C. The penultimate EVM/VVPAT round is counted only after postal ballots are completed.",
+   "ty": "application",
+   "tq": "Apply the rule to the specific trigger condition instead of a general demand for recounting.",
+   "sec": "VVPAT - FIRST use, versions, court-ordered verification  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following statements regarding the Supreme Court's position on EVMs is NOT correct?",
+   "o": [
+    "In ADR v ECI (2024), the Court refused to order a return to paper ballots.",
+    "The Supreme Court has repeatedly upheld the use of EVMs.",
+    "In ADR v ECI (2024), the Court ordered a return to paper ballots.",
+    "The Court has considered safeguards relating to VVPAT verification."
+   ],
+   "a": 2,
+   "x": "The Supreme Court refused to order a return to paper ballots in ADR v ECI (2024). The other statements correctly reflect the Court's approach to EVMs and verification safeguards.",
+   "ty": "negative",
+   "tq": "Identify the reversed judicial conclusion in the NOT question.",
+   "sec": "EVM credibility debate - SC rulings, paper-ballot demand  [GROUP-II]"
+  },
+  {
+   "s": "The Election Commission has described EVMs as:",
+   "o": [
+    "Still a subject of frequent public questioning",
+    "Devices whose use has been prohibited in Assembly elections",
+    "Machines that can be replaced only by paper ballots",
+    "Machines no longer subject to public scrutiny"
+   ],
+   "a": 0,
+   "x": "The Election Commission has stated that EVMs are still a subject of frequent public questioning.",
+   "ty": "fact",
+   "tq": "Recall the precise institutional characterisation rather than an inferred conclusion.",
+   "sec": "EVM credibility debate - SC rulings, paper-ballot demand  [GROUP-II]"
+  },
+  {
+   "s": "What is the principal purpose of a Remote Voting Machine (RVM) prototype?",
+   "o": [
+    "To permit domestic migrants to vote for up to 72 constituencies from one remote polling station",
+    "To count postal ballots together with EVM votes",
+    "To enable overseas citizens to vote in all constituencies without registration",
+    "To conceal booth-wise voting patterns by pooling control units"
+   ],
+   "a": 0,
+   "x": "The ECI's RVM prototype is intended to enable domestic migrants to vote for up to 72 constituencies from one remote polling station.",
+   "ty": "application",
+   "tq": "Distinguish remote voting from totaliser-based secrecy of booth results.",
+   "sec": "Remote voting machine and totaliser proposals  [GROUP-II]"
+  },
+  {
+   "s": "The ECI demonstrated its Remote EVM prototype to political parties in:",
+   "o": [
+    "January 2023",
+    "April 2024",
+    "September 2025",
+    "January 2022"
+   ],
+   "a": 0,
+   "x": "The Remote EVM prototype was demonstrated to political parties in January 2023.",
+   "ty": "numerical",
+   "tq": "Use the event date to distinguish the proposal from later court proceedings.",
+   "sec": "Remote voting machine and totaliser proposals  [GROUP-II]"
+  },
+  {
+   "s": "A totaliser is intended to:",
+   "o": [
+    "Replace all VVPAT slips with postal ballots",
+    "Pool the count of several control units so that booth-wise voting patterns remain hidden",
+    "Verify the identity of voters through biometric data",
+    "Allow one voter to cast votes in several constituencies"
+   ],
+   "a": 1,
+   "x": "A totaliser pools the counts of several control units, thereby concealing booth-wise voting patterns.",
+   "ty": "fact",
+   "tq": "Match the device with its core function and distinguish it from an RVM.",
+   "sec": "Remote voting machine and totaliser proposals  [GROUP-II]"
+  },
+  {
+   "s": "On 1 September 2026, the Supreme Court sought the Centre's response regarding totalisers as a:",
+   "o": [
+    "Fall-back option",
+    "Method of counting postal ballots",
+    "Mandatory replacement for all EVMs",
+    "Substitute for the electoral roll"
+   ],
+   "a": 0,
+   "x": "The Supreme Court sought the Centre's response on using totalisers as a “fall-back option.”",
+   "ty": "fact",
+   "tq": "Recall the exact status of the proposal rather than treating it as an implemented reform.",
+   "sec": "Remote voting machine and totaliser proposals  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following was an objection raised by the Election Commission to the use of totalisers?",
+   "o": [
+    "The Constitution expressly prohibits pooling of votes.",
+    "There is no legal framework in the RPA or the Conduct of Election Rules, and booth-wise checks would become harder.",
+    "Totalisers would make it impossible to count votes in urban constituencies.",
+    "The Law Commission had withdrawn its recommendation on totalisers."
+   ],
+   "a": 1,
+   "x": "The ECI objected that neither the RPA nor the Conduct of Election Rules provides a legal framework, and that pooling would make booth- and machine-wise checks involving EVMs, VVPATs and Form 17C harder.",
+   "ty": "statements",
+   "tq": "Combine the legal-framework objection with the practical verification objection.",
+   "sec": "Remote voting machine and totaliser proposals  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly describes the electoral status of Registered Unrecognised Political Parties (RUPPs) mentioned in current discussions?",
+   "o": [
+    "There are about 750 RUPPs, all of which contested the 2024 election.",
+    "There are about 280 RUPPs, of which 75 contested the 2024 election.",
+    "There are over 2,800 RUPPs, but only about 750 contested the 2024 election.",
+    "There are over 2,800 RUPPs, all of which contested the 2024 election."
+   ],
+   "a": 2,
+   "x": "The number of RUPPs exceeds 2,800, while only approximately 750 contested the 2024 election.",
+   "ty": "numerical",
+   "tq": "Check both numbers and avoid reversing the larger registered figure with the smaller contested figure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Under the current provision referred to in the context of RUPPs, donations are tax-exempt under:",
+   "o": [
+    "Section 12 of the Income Tax Act, 2025",
+    "Article 324 of the Constitution",
+    "Section 81 of the Representation of the People Act, 1951",
+    "Section 29A of the Representation of the People Act, 1951"
+   ],
+   "a": 0,
+   "x": "The stated provision is Section 12 of the Income Tax Act, 2025, under which the relevant donations are tax-exempt.",
+   "ty": "fact",
+   "tq": "Distinguish the tax-law provision from nearby election-law provisions.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which pair of actions was attributed to the Election Commission in relation to RUPPs?",
+   "o": [
+    "Recognising 808 RUPPs and capping candidates at 1,200 per constituency",
+    "Delisting 808 RUPPs and capping electors at 1,200 per polling station",
+    "Deregistering 1,200 RUPPs and capping polling stations at 808 per district",
+    "Delisting 750 RUPPs and permitting unlimited electors per polling station"
+   ],
+   "a": 1,
+   "x": "The Election Commission delisted 808 RUPPs and capped the number of electors per polling station at 1,200.",
+   "ty": "fact",
+   "tq": "Keep the two numerical administrative measures together.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The 2023 Act relating to the selection panel for the election referee has been criticised because it:",
+   "o": [
+    "Gives the judiciary a majority over the executive",
+    "Gives State Election Commissions exclusive control over the panel",
+    "Gives the executive a majority and removed the Chief Justice of India from the panel",
+    "Removes the Election Commission from the selection process entirely"
+   ],
+   "a": 2,
+   "x": "The criticism is that the 2023 Act gives the executive a majority on the panel and removes the Chief Justice of India from it.",
+   "ty": "comparison",
+   "tq": "Identify both linked changes instead of selecting only one part of the criticism.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "In State of Karnataka v Prathik Parasrampuria (2026), the Supreme Court treated which matter as a core duty of the Election Commission of India?",
+   "o": [
+    "Preparing the Union Budget",
+    "Curbing electoral black money",
+    "Recognising every registered political party",
+    "Conducting all local-body elections directly"
+   ],
+   "a": 1,
+   "x": "The Supreme Court made curbing electoral black money a core duty of the Election Commission in the 2026 case.",
+   "ty": "fact",
+   "tq": "Match the case with the specific institutional responsibility identified by it.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which limitation of the Election Commission is highlighted in relation to financial non-compliance by political parties?",
+   "o": [
+    "It cannot prepare electoral rolls for Parliament.",
+    "It lacks the power to deregister parties for financial non-compliance.",
+    "It has no power to scrutinise campaign expenditure.",
+    "It cannot conduct elections using EVMs."
+   ],
+   "a": 1,
+   "x": "The Election Commission still lacks the power to deregister political parties for financial non-compliance.",
+   "ty": "fact",
+   "tq": "Distinguish a specific statutory limitation from broader election powers.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following are identified as unfinished areas in electoral reform discussions?\n1. State funding of elections\n2. Disqualification upon framing of charges\n3. A cap on political party expenditure\n4. Universal compulsory voting\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "State funding, disqualification on framing of charges and a party spending cap are identified as unfinished agendas. Universal compulsory voting is not included in the stated list.",
+   "ty": "statements",
+   "tq": "Separate listed reform priorities from an unlisted but plausible electoral reform.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The expression “bahubali culture” in the context of electoral politics refers primarily to the erosion of trust in legislatures through:",
+   "o": [
+    "VVPAT verification",
+    "Muscle power",
+    "Postal ballots",
+    "Digital enumeration"
+   ],
+   "a": 1,
+   "x": "The expression refers to the use of muscle power and its adverse effect on trust in legislatures.",
+   "ty": "fact",
+   "tq": "Decode the contextual meaning of a politically significant phrase.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following developments was reported in relation to electoral reforms in February 2026?\n1. The Joint Parliamentary Committee was still examining the 129th Amendment Bill.\n2. The ECI and State Election Commissions declared that they would share EVMs, electoral rolls and ECINET.\n3. The declaration was associated with Chief Election Commissioner Gyanesh Kumar.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly describe the developments reported in February 2026.",
+   "ty": "statements",
+   "tq": "Verify the date, institutional cooperation and office-holder together.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly matches the institution or issue with the associated electoral reform debate?",
+   "o": [
+    "Electoral bonds — opaque corporate funding",
+    "Totaliser — replacement of the electoral roll",
+    "Remote EVM — pooling booth-wise counts to hide patterns",
+    "129th Amendment Bill — VVPAT slip design by NID Ahmedabad"
+   ],
+   "a": 0,
+   "x": "Electoral bonds have been criticised in relation to opaque corporate funding. A totaliser pools counts, an RVM facilitates remote voting, and NID Ahmedabad designed the NOTA symbol rather than the 129th Amendment Bill being related to VVPAT design.",
+   "ty": "match",
+   "tq": "Start with the sure conceptual pair and reject cross-linked distractors.",
+   "sec": "Universal angles"
+  }
+ ]
+}

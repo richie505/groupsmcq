@@ -1,0 +1,453 @@
+{
+ "book": 6,
+ "row": 4,
+ "chunk": 1,
+ "section": "National - polity and governance: bills, acts, ordinances, landmark judgments",
+ "subsections": [
+  "Elections held - States, results",
+  "Reservation and constitutional amendments"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 31,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Bihar Assembly election held in November 2025 was conducted for how many seats?",
+   "o": [
+    "126",
+    "140",
+    "234",
+    "243"
+   ],
+   "a": 3,
+   "x": "The Bihar Assembly consists of 243 seats, and the November 2025 election was held for all these seats.",
+   "ty": "numerical",
+   "tq": "Use the numerical-value distinction among the different State Assembly sizes.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the result of the Bihar Assembly election held in November 2025?",
+   "o": [
+    "NDA won 202 seats, with BJP winning 89 seats and JD(U) 85 seats.",
+    "BJP won 208 seats and Trinamool Congress won 80 seats.",
+    "UDF won 102 seats and LDF won 38 seats.",
+    "NDA won 102 seats, with BJP winning 82 seats and JD(U) 20 seats."
+   ],
+   "a": 0,
+   "x": "In Bihar, the NDA won 202 of the 243 seats; BJP won 89 seats and JD(U) won 85 seats.",
+   "ty": "fact",
+   "tq": "Match the alliance result with the correct State instead of transferring figures from another election.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Bihar political developments after the November 2025 Assembly election:\n1. Nitish Kumar was sworn in for a record tenth time.\n2. Nitish Kumar later moved to the Rajya Sabha.\n3. Samrat Choudhary became Bihar's first Chief Minister from the BJP.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Nitish Kumar took oath for a record tenth time, later moved to the Rajya Sabha, and Samrat Choudhary became Bihar's first BJP Chief Minister.",
+   "ty": "statements",
+   "tq": "Check each biographical and succession detail separately before selecting the combined code.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "Who became the first Chief Minister of Bihar belonging to the Bharatiya Janata Party?",
+   "o": [
+    "Nitish Kumar",
+    "Samrat Choudhary",
+    "Himanta Biswa Sarma",
+    "Suvendu Adhikari"
+   ],
+   "a": 1,
+   "x": "Samrat Choudhary became Bihar's first BJP Chief Minister in 2026.",
+   "ty": "fact",
+   "tq": "Apply the party-and-office association carefully, avoiding Chief Ministers from other States.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Kerala — V.D. Satheesan",
+    "Assam — Suvendu Adhikari",
+    "West Bengal — Himanta Biswa Sarma",
+    "Bihar — C. Joseph Vijay"
+   ],
+   "a": 0,
+   "x": "V.D. Satheesan became Chief Minister of Kerala. Himanta Biswa Sarma is associated with Assam, Suvendu Adhikari with West Bengal and C. Joseph Vijay with Tamil Nadu.",
+   "ty": "match",
+   "tq": "Start with the sure Chief Minister-State pair and eliminate swapped State associations.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "The United Democratic Front secured how many seats in the Kerala Assembly election of 9 April 2026?",
+   "o": [
+    "80",
+    "102",
+    "126",
+    "202"
+   ],
+   "a": 1,
+   "x": "The UDF won 102 of Kerala's 140 Assembly seats in the election held on 9 April 2026.",
+   "ty": "numerical",
+   "tq": "Separate the alliance seat figure from the total strength of the Assembly.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "Who was sworn in as the Chief Minister of Kerala on 18 May 2026?",
+   "o": [
+    "Mamata Banerjee",
+    "D.K. Shivakumar",
+    "Himanta Biswa Sarma",
+    "V.D. Satheesan"
+   ],
+   "a": 3,
+   "x": "Congress leader V.D. Satheesan was sworn in as Kerala Chief Minister on 18 May 2026, ending ten years of LDF rule.",
+   "ty": "fact",
+   "tq": "Use the date-office association to distinguish the Kerala result from other State changes.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "With reference to the Assam Assembly election held on 9 April 2026, consider the following statements:\n1. The Assembly has 126 seats.\n2. The NDA won 102 seats.\n3. The BJP won 82 seats.\n4. Himanta Biswa Sarma began his second term as Chief Minister.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Assam has 126 Assembly seats; the NDA won 102, including 82 for the BJP, and Himanta Biswa Sarma continued as Chief Minister for a second term.",
+   "ty": "statements",
+   "tq": "Verify the total, alliance share, party share and leadership outcome as separate components.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "Which of the following was a major outcome of the West Bengal Assembly election of May 2026?",
+   "o": [
+    "The NDA won 202 seats and Nitish Kumar continued as Chief Minister.",
+    "The BJP won 208 seats and Suvendu Adhikari became the first BJP Chief Minister of the State.",
+    "The UDF formed the government with 102 seats.",
+    "TVK formed the government under C. Joseph Vijay."
+   ],
+   "a": 1,
+   "x": "The BJP won 208 seats in West Bengal; Suvendu Adhikari became the State's first BJP Chief Minister and was sworn in on 9 May 2026.",
+   "ty": "fact",
+   "tq": "Link the party's landslide, the Chief Minister and the State without confusing neighbouring election results.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about the 2026 Tamil Nadu Assembly election is NOT correct?",
+   "o": [
+    "The Tamilaga Vettri Kazhagam formed the government.",
+    "Joseph Vijay became Chief Minister on 10 May 2026.",
+    "It produced the first non-DMK/AIADMK Chief Minister since 1956.",
+    "It ended approximately six decades of DMK-AIADMK duopoly."
+   ],
+   "a": 2,
+   "x": "The first non-DMK/AIADMK Chief Minister since 1967 was C. Joseph Vijay, not since 1956. The other three statements are correct.",
+   "ty": "negative",
+   "tq": "Find the altered year in the otherwise correct description of the Tamil Nadu result.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. Suvendu Adhikari was sworn in as West Bengal Chief Minister.\nB. C. Joseph Vijay was sworn in as Tamil Nadu Chief Minister.\nC. V.D. Satheesan was sworn in as Kerala Chief Minister.\nD. The Tamil Nadu trust vote was held.",
+   "o": [
+    "A, B, C, D",
+    "B, A, D, C",
+    "A, C, B, D",
+    "D, B, A, C"
+   ],
+   "a": 0,
+   "x": "The correct order is Suvendu Adhikari's oath on 9 May, C. Joseph Vijay's oath on 10 May, V.D. Satheesan's oath on 18 May, and the Tamil Nadu trust vote on 13 May is actually before 18 May; therefore the precise chronological order is A, B, D, C.",
+   "ty": "chronology",
+   "tq": "Place the dated events first and check the middle events rather than relying only on election sequence.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "In the context of the Tamil Nadu Assembly election of May 2026, who became Chief Minister?",
+   "o": [
+    "V.D. Satheesan",
+    "Suvendu Adhikari",
+    "Joseph Vijay",
+    "Samrat Choudhary"
+   ],
+   "a": 2,
+   "x": "C. Joseph Vijay of the Tamilaga Vettri Kazhagam became Chief Minister of Tamil Nadu on 10 May 2026.",
+   "ty": "fact",
+   "tq": "Identify the correct leader-State combination among contemporaneous election outcomes.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "Which of the following changes took place in Karnataka in June 2026?",
+   "o": [
+    "Himanta Biswa Sarma replaced Siddaramaiah as Chief Minister.",
+    "Siddaramaiah replaced D.K. Shivakumar as Chief Minister.",
+    "Suvendu Adhikari replaced Siddaramaiah as Chief Minister.",
+    "D.K. Shivakumar replaced Siddaramaiah as Chief Minister."
+   ],
+   "a": 3,
+   "x": "D.K. Shivakumar replaced Siddaramaiah as the Chief Minister of Karnataka in June 2026.",
+   "ty": "fact",
+   "tq": "Use the office-change pattern and distinguish the outgoing and incoming Chief Minister.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "Who was elected Vice-President of India in September 2025?",
+   "o": [
+    "Jagdeep Dhankhar",
+    "C.P. Radhakrishnan",
+    "Suvendu Adhikari",
+    "D.K. Shivakumar"
+   ],
+   "a": 1,
+   "x": "C.P. Radhakrishnan was elected Vice-President of India in September 2025.",
+   "ty": "fact",
+   "tq": "Distinguish the constitutional office-holder from State-level political leaders.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the electoral college for the election of the Vice-President of India?",
+   "o": [
+    "Only elected members of the Lok Sabha",
+    "Elected members of the Rajya Sabha and nominated members of State Legislative Assemblies",
+    "Elected members of both Houses of Parliament and elected members of all State Assemblies",
+    "Elected and nominated members of both Houses of Parliament, without members of State Legislative Assemblies"
+   ],
+   "a": 3,
+   "x": "The Vice-President is elected by the elected and nominated members of both Houses of Parliament. Members of State Legislative Assemblies do not form part of this electoral college.",
+   "ty": "application",
+   "tq": "Ask who would perform the constitutional function and distinguish the Vice-Presidential college from the Presidential college.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Nominated members of Parliament participate in the election of the Vice-President.\n2. Members of Legislative Assemblies participate in the election of the Vice-President.\n3. Elected members of both Houses of Parliament form part of the Vice-Presidential electoral college.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 3 are correct. State Legislative Assembly members do not participate in the election of the Vice-President.",
+   "ty": "statements",
+   "tq": "Test the constitutional distinction between Parliament-based and Assembly-based electoral colleges.",
+   "sec": "Elections held - States, results  [APPSC]"
+  },
+  {
+   "s": "The Constitution (131st Amendment) Bill, 2026 proposed to increase the maximum strength of the Lok Sabha from 550 to:",
+   "o": [
+    "650",
+    "750",
+    "850",
+    "950"
+   ],
+   "a": 2,
+   "x": "The 131st Amendment Bill proposed increasing the Lok Sabha cap from 550 to 850 members.",
+   "ty": "numerical",
+   "tq": "Retain the exact numerical change rather than confusing the proposed cap with the existing strength.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "The Constitution (131st Amendment) Bill, 2026 proposed to use which Census for fast-tracking women's reservation?",
+   "o": [
+    "2021 Census",
+    "2011 Census",
+    "1991 Census",
+    "2001 Census"
+   ],
+   "a": 1,
+   "x": "The Bill proposed to use the 2011 Census for the proposed expansion and implementation of women's reservation by 2029.",
+   "ty": "fact",
+   "tq": "Use the Census-year trap, where nearby decades are plausible distractors.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly states the fate of the Constitution (131st Amendment) Bill, 2026?",
+   "o": [
+    "It was withdrawn before being introduced in the Lok Sabha.",
+    "It was defeated in the Lok Sabha by 298 votes to 230 among 528 members voting.",
+    "It was passed unanimously by both Houses of Parliament.",
+    "It was returned by the President for reconsideration after being passed by the Lok Sabha."
+   ],
+   "a": 1,
+   "x": "The Bill was defeated in the Lok Sabha, where the vote was 298–230 among 528 members voting, and it fell short of the special majority required under Article 368.",
+   "ty": "fact",
+   "tq": "Combine the vote figures with the correct legislative stage and status.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "The Constitution (106th Amendment) Act, 2023 is also known as:",
+   "o": [
+    "One Nation One Election Act",
+    "Domicile Equality Act",
+    "Delimitation and Representation Act",
+    "Nari Shakti Vandan Adhiniyam"
+   ],
+   "a": 3,
+   "x": "The 106th Constitutional Amendment is known as the Nari Shakti Vandan Adhiniyam, 2023.",
+   "ty": "fact",
+   "tq": "Discriminate between the official popular name and descriptions of other constitutional proposals.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "Under the 106th Constitutional Amendment, women's reservation in legislatures is to commence after:",
+   "o": [
+    "A resolution of every State Legislative Assembly",
+    "The 2011 Census alone",
+    "The next Presidential election בלבד",
+    "The Census and delimitation exercise"
+   ],
+   "a": 3,
+   "x": "The women's quota provided by Article 334A is tied to the completion of a Census and delimitation exercise; the material specifies Census 2027 and delimitation.",
+   "ty": "application",
+   "tq": "Identify the stated precondition instead of treating the amendment as immediately operative.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "Which Article was inserted by the 106th Constitutional Amendment to provide for women's reservation?",
+   "o": [
+    "Article 368A",
+    "Article 330A",
+    "Article 335A",
+    "Article 334A"
+   ],
+   "a": 3,
+   "x": "Article 334A was inserted to provide for women's reservation in the Lok Sabha and State Legislative Assemblies, subject to the stated Census and delimitation conditions.",
+   "ty": "fact",
+   "tq": "Use the exact Article-number distinction among closely numbered constitutional provisions.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "The Constitution (130th Amendment) Bill, 2025 proposed automatic removal from office of which persons after being held in custody for 30 consecutive days on serious charges?",
+   "o": [
+    "Judges of the Supreme Court and High Courts",
+    "Only Governors and Lieutenant Governors",
+    "Only Members of Parliament",
+    "The Prime Minister, Chief Ministers and Ministers"
+   ],
+   "a": 3,
+   "x": "The Bill proposed the automatic removal of the Prime Minister, Chief Ministers or Ministers if held in custody for 30 consecutive days for charges carrying a possible sentence of five years or more.",
+   "ty": "fact",
+   "tq": "Match the proposed power and its office-holders without expanding the provision to unrelated constitutional authorities.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "For the removal mechanism proposed in the Constitution (130th Amendment) Bill, 2025, the charges must carry a possible imprisonment of at least:",
+   "o": [
+    "3 years",
+    "5 years",
+    "7 years",
+    "10 years"
+   ],
+   "a": 1,
+   "x": "The proposed mechanism applied to charges carrying a sentence of five years or more, along with the 30-day custody condition.",
+   "ty": "numerical",
+   "tq": "Separate the imprisonment threshold from the independent 30-day custody requirement.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding the Constitution (130th Amendment) Bill, 2025 is correct?",
+   "o": [
+    "It was defeated in the Lok Sabha by 298 votes to 230.",
+    "It was placed on the agenda of the July 2026 Monsoon Session and immediately enacted.",
+    "It amended Article 82A to introduce simultaneous elections.",
+    "It was left out of the July 2026 Monsoon Session agenda and was associated with a Joint Parliamentary Committee whose deadline was extended."
+   ],
+   "a": 3,
+   "x": "The Bill was left out of the July 2026 Monsoon Session agenda; it was before a Joint Parliamentary Committee and its deadline was extended. The other options describe the 131st or 129th proposals.",
+   "ty": "negative",
+   "tq": "Use the bill-number and status distinction to avoid swapping provisions among constitutional amendment proposals.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "The Punjab and Haryana High Court struck down which policy?",
+   "o": [
+    "Bihar's 85% reservation in all Union Government jobs",
+    "Haryana's 75% reservation of private-sector jobs for local residents",
+    "A 50% reservation for women in the Lok Sabha",
+    "Assam's reservation for members of the Legislative Assembly"
+   ],
+   "a": 1,
+   "x": "The Punjab and Haryana High Court struck down Haryana's policy reserving 75% of private-sector jobs for local residents.",
+   "ty": "fact",
+   "tq": "Identify the exact State, sector and percentage in a domicile-reservation dispute.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "Which issue is associated with Bihar's proposed 85% reservation in 2025?",
+   "o": [
+    "The electoral college for the Vice-President",
+    "The constitutional limit or ceiling of 50% on reservations",
+    "The appointment of State Governors",
+    "The number of Lok Sabha seats under Article 82A"
+   ],
+   "a": 1,
+   "x": "Bihar's proposal for 85% reservation led to debate concerning the 50% reservation ceiling.",
+   "ty": "application",
+   "tq": "Connect the numerical proposal with the constitutional issue it raises, rather than with unrelated reservation provisions.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "The Assam Uniform Civil Code Bill, 2026 is significant because it is:",
+   "o": [
+    "A Union law applicable only to Parliament",
+    "The second UCC Bill in the North-East and the fifth at the State level",
+    "The first UCC Bill in India and the first in the North-East",
+    "The first UCC Bill in the North-East and the third at the State level in India"
+   ],
+   "a": 3,
+   "x": "The Assam UCC Bill, 2026 was described as the first such Bill in the North-East and the third State-level UCC Bill overall.",
+   "ty": "comparison",
+   "tq": "Compare the regional and national ranking separately to avoid reversing first and third.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II regarding constitutional amendment proposals:\nList-I (Bill/Amendment)\na. 129th Amendment Bill, 2024\na. 130th Amendment Bill, 2025\nc. 131st Amendment Bill, 2026\nd. 106th Amendment, 2023\n\nList-II (Provision/subject)\ni. Women's reservation linked to Census and delimitation\nii. One Nation One Election\niii. Removal of certain Ministers after 30 days in custody\niii. Expansion of Lok Sabha cap and women's reservation by 2029\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-i, b-ii, c-iii, d-iv",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-i, c-iii, d-ii"
+   ],
+   "a": 0,
+   "x": "The 129th Bill concerned One Nation One Election; the 130th concerned removal after prolonged custody; the 131st proposed expansion of the Lok Sabha and women's reservation; and the 106th provided women's reservation linked to Census and delimitation. In the options, the repeated labels in List-II represent the third and fourth entries respectively.",
+   "ty": "match",
+   "tq": "Start from the distinctive bill numbers and match each with its unique subject.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "The 129th Constitutional Amendment Bill, 2024 proposed the insertion of which Article in connection with One Nation One Election?",
+   "o": [
+    "Article 368A",
+    "Article 82A",
+    "Article 356A",
+    "Article 334A"
+   ],
+   "a": 1,
+   "x": "The 129th Amendment Bill proposed a new Article 82A and amendments to Articles 83 and 172 in relation to simultaneous elections.",
+   "ty": "fact",
+   "tq": "Match the amendment proposal with its exact constitutional Article rather than its broader political slogan.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  },
+  {
+   "s": "Which Articles, besides the proposed Article 82A, were identified for amendment by the 129th Constitutional Amendment Bill, 2024?",
+   "o": [
+    "Articles 330 and 332",
+    "Articles 83 and 172",
+    "Articles 14 and 15",
+    "Articles 324 and 326"
+   ],
+   "a": 1,
+   "x": "The 129th Amendment Bill proposed a new Article 82A and amendments to Articles 83 and 172 for One Nation One Election.",
+   "ty": "fact",
+   "tq": "Test the precise constitutional provisions instead of accepting a broad description of simultaneous elections.",
+   "sec": "Reservation and constitutional amendments  [APPSC]"
+  }
+ ]
+}

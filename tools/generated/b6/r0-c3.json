@@ -1,0 +1,695 @@
+{
+ "book": 6,
+ "row": 0,
+ "chunk": 3,
+ "section": "Andhra Pradesh - government decisions, new schemes, appointments and administrative changes",
+ "subsections": [
+  "New districts and revenue divisions",
+  "Capital decisions - capital city, related Acts",
+  "Administrative reforms - secretariats, volunteers, services",
+  "Commissions, committees and institutions set up by AP",
+  "Education schemes - objective",
+  "Agriculture initiatives - partner and objective"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 51,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "With reference to the reorganisation of districts in Andhra Pradesh as on 31 December 2025, consider the following statements:\n1. The number of districts increased from 26 to 28.\n2. The boundaries of 17 districts were changed.\n3. Five new districts were created.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The number of districts increased from 26 to 28 and the boundaries of 17 districts were changed. The information specifies two new districts, not five.",
+   "ty": "statements",
+   "tq": "Use the numerical comparison and reject the swapped count.",
+   "sec": "New districts and revenue divisions  [GROUP-II]"
+  },
+  {
+   "s": "Polavaram district was carved out from which of the following areas?",
+   "o": [
+    "Western Prakasam district",
+    "Annamayya district",
+    "NTR district",
+    "ASR district"
+   ],
+   "a": 3,
+   "x": "Polavaram district was carved from the ASR district, comprising the Rampachodavaram and Chinturu divisions.",
+   "ty": "fact",
+   "tq": "Test the district–parent district relationship directly.",
+   "sec": "New districts and revenue divisions  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is the headquarters of Polavaram district?",
+   "o": [
+    "Rampachodavaram",
+    "Rayachoti",
+    "Chinturu",
+    "Polavaram"
+   ],
+   "a": 0,
+   "x": "Rampachodavaram is the headquarters of Polavaram district; it is not Polavaram itself.",
+   "ty": "confusable",
+   "tq": "Discriminate between the district name and its headquarters.",
+   "sec": "New districts and revenue divisions  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding Polavaram district:\n1. It includes the Rampachodavaram and Chinturu divisions of ASR district.\n2. It comprises 11 mandals.\n3. Its population is approximately 3.49 lakh and is mostly tribal.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly describe the composition and demographic profile of Polavaram district.",
+   "ty": "statements",
+   "tq": "Check each numerical and location detail independently.",
+   "sec": "New districts and revenue divisions  [GROUP-II]"
+  },
+  {
+   "s": "Markapuram district was formed from which part of the former Prakasam district?",
+   "o": [
+    "Eastern Prakasam comprising Ongole and Kandukur divisions",
+    "Southern Prakasam comprising Darsi and Podili divisions",
+    "Northern Prakasam comprising Chirala and Addanki divisions",
+    "Western Prakasam comprising Markapuram and Kanigiri divisions"
+   ],
+   "a": 3,
+   "x": "Markapuram district was carved from Western Prakasam, covering the Markapuram and Kanigiri divisions.",
+   "ty": "fact",
+   "tq": "Identify the correct parent region and constituent divisions.",
+   "sec": "New districts and revenue divisions  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly describes Markapuram district?",
+   "o": [
+    "Headquarters at Rayachoti, 25 mandals and 3.49 lakh people",
+    "Headquarters at Markapuram, 21 mandals and 11.42 lakh people",
+    "Headquarters at Kanigiri, 21 mandals and 3.49 lakh people",
+    "Headquarters at Rampachodavaram, 11 mandals and 11.42 lakh people"
+   ],
+   "a": 1,
+   "x": "Markapuram is the headquarters; the district has 21 mandals and approximately 11.42 lakh people.",
+   "ty": "comparison",
+   "tq": "Match the headquarters, mandal count and population as one cluster.",
+   "sec": "New districts and revenue divisions  [GROUP-II]"
+  },
+  {
+   "s": "The headquarters of Annamayya district was moved from Rayachoti to:",
+   "o": [
+    "Markapuram",
+    "Madanapalle",
+    "Pileru",
+    "Rampachodavaram"
+   ],
+   "a": 1,
+   "x": "The headquarters of Annamayya district was shifted from Rayachoti to Madanapalle.",
+   "ty": "fact",
+   "tq": "Test the administrative change through a before-and-after pair.",
+   "sec": "New districts and revenue divisions  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following divisions are associated with Annamayya district after the headquarters change?\n1. Madanapalle\n2. Pileru\n3. Rayachoti\n4. Kanigiri\nSelect the correct answer using the code below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "The three divisions are Madanapalle, Pileru and Rayachoti. Kanigiri belongs to the Markapuram district reorganisation details.",
+   "ty": "statements",
+   "tq": "Find the one geographically swapped division.",
+   "sec": "New districts and revenue divisions  [GROUP-II]"
+  },
+  {
+   "s": "How many mandals are included in the three divisions of Annamayya district mentioned in the administrative reorganisation?",
+   "o": [
+    "11",
+    "17",
+    "21",
+    "25"
+   ],
+   "a": 3,
+   "x": "The Madanapalle, Pileru and Rayachoti divisions together comprise 25 mandals.",
+   "ty": "numerical",
+   "tq": "Use the distinct numerical values to identify the stated count.",
+   "sec": "New districts and revenue divisions  [GROUP-II]"
+  },
+  {
+   "s": "Five new revenue divisions in Andhra Pradesh were notified in:",
+   "o": [
+    "January 2025",
+    "January 2026",
+    "April 2026",
+    "June 2026"
+   ],
+   "a": 1,
+   "x": "The five new revenue divisions were notified on 2 January 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish the notification month and year from other administrative dates.",
+   "sec": "New districts and revenue divisions  [GROUP-II]"
+  },
+  {
+   "s": "The designation of Amaravati as the sole, permanent capital under the AP Reorganisation (Amendment) Act, 2026 took effect from:",
+   "o": [
+    "31 December 2025",
+    "2 June 2014",
+    "1 October 2015",
+    "2 June 2024"
+   ],
+   "a": 3,
+   "x": "The amendment gave effect to Amaravati's status as sole, permanent capital from 2 June 2024.",
+   "ty": "numerical",
+   "tq": "Separate the effective date from the year of the amending legislation.",
+   "sec": "Capital decisions - capital city, related Acts  [GROUP-II]"
+  },
+  {
+   "s": "Which provision of the Andhra Pradesh Reorganisation Act, 2014 had provided for Hyderabad as the common capital?",
+   "o": [
+    "Section 7",
+    "Section 5",
+    "Section 3",
+    "Section 10"
+   ],
+   "a": 1,
+   "x": "Section 5 of the 2014 Act provided for Hyderabad to function as the common capital for ten years, up to June 2024.",
+   "ty": "fact",
+   "tq": "Test the exact statutory provision and duration together.",
+   "sec": "Capital decisions - capital city, related Acts  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Hyderabad was intended to be the common capital for ten years.\n2. The common-capital period extended up to June 2024.\n3. The 2026 amendment retained the three-capitals plan.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The common-capital arrangement was for ten years up to June 2024. The 2026 amendment ended, rather than retained, the three-capitals plan.",
+   "ty": "statements",
+   "tq": "Reject the reversed effect of the amendment.",
+   "sec": "Capital decisions - capital city, related Acts  [GROUP-II]"
+  },
+  {
+   "s": "The consultant hired by APCRDA during March–April 2026 was tasked with designing Amaravati's governance framework in conformity with:",
+   "o": [
+    "The 73rd and 74th Constitutional Amendments",
+    "The 101st and 103rd Constitutional Amendments",
+    "The 86th and 91st Constitutional Amendments",
+    "The 42nd and 44th Constitutional Amendments"
+   ],
+   "a": 0,
+   "x": "The governance framework was to be designed in line with the 73rd and 74th Constitutional Amendments concerning local self-government.",
+   "ty": "fact",
+   "tq": "Use the constitutional-amendment pair as the decisive clue.",
+   "sec": "Capital decisions - capital city, related Acts  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following projects are planned in Amaravati?\n1. A National Judicial Academy campus\n2. A Quantum Valley\n3. An International Innovation Corps campus\nSelect the correct answer using the code below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "A National Judicial Academy campus and a Quantum Valley are planned in Amaravati. The International Innovation Corps is associated with the AI revamp of the mid-day meal programme, not a planned Amaravati campus.",
+   "ty": "statements",
+   "tq": "Separate planned capital projects from an education-scheme partner.",
+   "sec": "Capital decisions - capital city, related Acts  [GROUP-II]"
+  },
+  {
+   "s": "Justice Lisa Gill was recommended as the Chief Justice of the Andhra Pradesh High Court in February 2026. This would make her the:",
+   "o": [
+    "First Chief Justice appointed under the 2026 Amendment Act",
+    "First Chief Justice from Andhra Pradesh",
+    "First woman Chief Justice of the Andhra Pradesh High Court",
+    "First woman Chief Justice of the Supreme Court of India"
+   ],
+   "a": 2,
+   "x": "Justice Lisa Gill was recommended as the first woman Chief Justice of the Andhra Pradesh High Court.",
+   "ty": "fact",
+   "tq": "Focus on the exact institution associated with the distinction.",
+   "sec": "Capital decisions - capital city, related Acts  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly describes the village and ward secretariat system introduced in Andhra Pradesh in 2019?",
+   "o": [
+    "More than 50,000 units providing 1,000 services",
+    "More than 10,000 units providing more than 500 services",
+    "500 units providing more than 10,000 services",
+    "About 1,000 units providing 50 services each"
+   ],
+   "a": 1,
+   "x": "The village and ward secretariat system consisted of more than 10,000 units and provided more than 500 services.",
+   "ty": "numerical",
+   "tq": "Match the scale of units with the scale of services.",
+   "sec": "Administrative reforms - secretariats, volunteers, services  [GROUP-II]"
+  },
+  {
+   "s": "Under the volunteer system associated with village and ward secretariats, one volunteer was assigned for every:",
+   "o": [
+    "25 households",
+    "40 households",
+    "100 households",
+    "50 households"
+   ],
+   "a": 3,
+   "x": "The volunteer system prescribed one volunteer for every 50 households.",
+   "ty": "numerical",
+   "tq": "Test the fixed household-to-volunteer ratio.",
+   "sec": "Administrative reforms - secretariats, volunteers, services  [GROUP-II]"
+  },
+  {
+   "s": "The village and ward secretariat system was renamed as:",
+   "o": [
+    "Swarna Gramam and Ward Secretariat system",
+    "Swarna Andhra Seva Kendras",
+    "Mana Gramam Administrative Mission",
+    "Andhra Citizen Service Network"
+   ],
+   "a": 0,
+   "x": "The system was renamed the Swarna Gramam & Ward Secretariat system.",
+   "ty": "fact",
+   "tq": "Recall the exact official name rather than a generic service label.",
+   "sec": "Administrative reforms - secretariats, volunteers, services  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly represents the household data associated with the renamed secretariat system?",
+   "o": [
+    "1.71 crore households mapped and e-KYC for 1.68 crore families",
+    "1.68 crore households mapped and e-KYC for 1.71 crore families",
+    "1.71 lakh households mapped and e-KYC for 1.68 crore families",
+    "1.68 lakh households mapped and e-KYC for 1.71 lakh families"
+   ],
+   "a": 1,
+   "x": "The system mapped 1.68 crore households and completed e-KYC for 1.71 crore families.",
+   "ty": "comparison",
+   "tq": "Discriminate between two close numerical figures and their associated actions.",
+   "sec": "Administrative reforms - secretariats, volunteers, services  [GROUP-II]"
+  },
+  {
+   "s": "How many zones and multi-zones were provided under the AP Public Employment Order, 2025?",
+   "o": [
+    "Six zones and two multi-zones",
+    "Two zones and six multi-zones",
+    "Five zones and two multi-zones",
+    "Seven zones and three multi-zones"
+   ],
+   "a": 0,
+   "x": "The AP Public Employment Order, 2025 provided for six zones and two multi-zones.",
+   "ty": "numerical",
+   "tq": "Test the paired administrative classification.",
+   "sec": "Administrative reforms - secretariats, volunteers, services  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following administrative measures was introduced in February 2026?",
+   "o": [
+    "e-KYC for all families",
+    "Notification of five new revenue divisions",
+    "Biometric attendance for Members of Legislative Assembly",
+    "Publication of Action Taken Reports on seven white papers"
+   ],
+   "a": 2,
+   "x": "Biometric attendance for MLAs was introduced in February 2026. The other measures belong to different dates or events.",
+   "ty": "negative",
+   "tq": "Find the measure correctly matched with its month.",
+   "sec": "Administrative reforms - secretariats, volunteers, services  [GROUP-II]"
+  },
+  {
+   "s": "Action Taken Reports were published against how many white papers?",
+   "o": [
+    "Five",
+    "Eight",
+    "Six",
+    "Seven"
+   ],
+   "a": 3,
+   "x": "Action Taken Reports were published against the seven white papers from 22 June 2026.",
+   "ty": "numerical",
+   "tq": "Use the exact count in the administrative follow-up measure.",
+   "sec": "Administrative reforms - secretariats, volunteers, services  [GROUP-II]"
+  },
+  {
+   "s": "The constitutional provisions associated with the State Election Commissioner are:",
+   "o": [
+    "Articles 315 and 320",
+    "Articles 243K and 243ZA",
+    "Articles 280 and 281",
+    "Articles 243G and 243H"
+   ],
+   "a": 1,
+   "x": "The State Election Commissioner is associated with Articles 243K and 243ZA, dealing with elections to Panchayats and Municipalities respectively.",
+   "ty": "fact",
+   "tq": "Test the exact Article pair rather than a neighbouring constitutional provision.",
+   "sec": "Commissions, committees and institutions set up by AP  [GROUP-II]"
+  },
+  {
+   "s": "The Swarna Andhra P4 Foundation functions under which department and is concerned with which objective?",
+   "o": [
+    "Agriculture Department — natural farming",
+    "Planning Department — poverty eradication",
+    "Education Department — adult literacy",
+    "Revenue Department — district reorganisation"
+   ],
+   "a": 1,
+   "x": "The Swarna Andhra P4 Foundation is under the Planning Department and is concerned with poverty eradication.",
+   "ty": "match",
+   "tq": "Start from the sure institution–objective pair and verify the department.",
+   "sec": "Commissions, committees and institutions set up by AP  [GROUP-II]"
+  },
+  {
+   "s": "Which institutions provide three-tier monitoring of Vision 2047 in Andhra Pradesh?",
+   "o": [
+    "Village Secretariats, Ward Secretariats and Rythu Seva Kendras",
+    "District Collectors, Gram Sabhas and Municipal Corporations",
+    "State Election Commission, APCRDA and Planning Department",
+    "District Vision Units, Mandal Vision Units and Constituency Development Committees"
+   ],
+   "a": 3,
+   "x": "District Vision Units, Mandal Vision Units and Constituency Development Committees together provide the three-tier monitoring structure for Vision 2047.",
+   "ty": "fact",
+   "tq": "Match the institutional structure with its stated function.",
+   "sec": "Commissions, committees and institutions set up by AP  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following developments was associated with July 2026?\n1. MoU with UN-Habitat\n2. Notification of Common Zoning Regulations, 2026\n3. Appointment of the State Election Commissioner\nSelect the correct answer using the code below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The MoU with UN-Habitat was associated with July 2026. Common Zoning Regulations were notified separately, while the State Election Commissioner was appointed in April 2026.",
+   "ty": "statements",
+   "tq": "Separate events by date and reject the administrative-date swap.",
+   "sec": "Commissions, committees and institutions set up by AP  [GROUP-II]"
+  },
+  {
+   "s": "Talliki Vandanam, formerly known as Amma Vodi, provides an annual amount of ₹15,000 to:",
+   "o": [
+    "The mother for each school-going child satisfying the conditions",
+    "The village secretariat for each eligible household",
+    "The school for every enrolled child",
+    "The father for every child in higher education"
+   ],
+   "a": 0,
+   "x": "Talliki Vandanam provides ₹15,000 per year to the mother for each eligible school-going child.",
+   "ty": "fact",
+   "tq": "Identify the beneficiary and avoid swapping the beneficiary with the implementing institution.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which conditions are associated with the Talliki Vandanam scheme?\n1. The child studies in Classes 1 to 10.\n2. The child must have 75 per cent attendance.\n3. The benefit is a conditional cash transfer.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Talliki Vandanam covers Classes 1–10, requires 75 per cent attendance and operates as a conditional cash transfer.",
+   "ty": "statements",
+   "tq": "Verify the eligibility, attendance and transfer character separately.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The allocation of ₹10,090 crore under Talliki Vandanam in January 2026 was intended for approximately how many students?",
+   "o": [
+    "5.40 lakh",
+    "24.70 lakh",
+    "27.97 lakh",
+    "67.27 lakh"
+   ],
+   "a": 3,
+   "x": "The January 2026 allocation of ₹10,090 crore covered approximately 67.27 lakh students.",
+   "ty": "numerical",
+   "tq": "Match the scheme allocation with its beneficiary count.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which scheme is primarily associated with upgrading school infrastructure, including an expenditure of ₹2 lakh per classroom?",
+   "o": [
+    "Sarvepalli Radhakrishnan Vidyarthi Mitra",
+    "Mana Badi Nadu-Nedu",
+    "Akshara Andhra",
+    "Vidya Shakti"
+   ],
+   "a": 1,
+   "x": "Mana Badi Nadu-Nedu is the school infrastructure upgradation programme, with ₹2 lakh provided per classroom in the stated detail.",
+   "ty": "fact",
+   "tq": "Match the scheme with its physical-infrastructure objective.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Apart from schools, Mana Badi Nadu-Nedu has also been used for upgrading:",
+   "o": [
+    "Primary and community health centres",
+    "Agricultural markets and warehouses",
+    "Village and ward secretariats",
+    "District courts and tribunals"
+   ],
+   "a": 0,
+   "x": "Nadu-Nedu has also upgraded Primary Health Centres and Community Health Centres.",
+   "ty": "fact",
+   "tq": "Identify the additional sector covered by a familiar scheme.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Sarvepalli Radhakrishnan Vidyarthi Mitra provides free student kits containing:",
+   "o": [
+    "Textbooks, uniforms, shoes and bags",
+    "Textbooks, examination fees and transport passes",
+    "Hostel accommodation, meals and uniforms only",
+    "Laptops, bicycles, tablets and scholarships"
+   ],
+   "a": 0,
+   "x": "The free kits include textbooks, uniforms, shoes and bags for students.",
+   "ty": "fact",
+   "tq": "Recall the complete list and reject substituted benefits.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The scheme that extended the mid-day meal to Intermediate students is:",
+   "o": [
+    "Talliki Vandanam",
+    "Vidya Shakti",
+    "Dokka Seethamma Madhyahna Bhojanam",
+    "Akshara Andhra"
+   ],
+   "a": 2,
+   "x": "Dokka Seethamma Madhyahna Bhojanam extended the mid-day meal programme to Intermediate students.",
+   "ty": "fact",
+   "tq": "Match the scheme name with its distinctive extension of coverage.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding Dokka Seethamma Madhyahna Bhojanam:\n1. It covered 27.97 lakh students.\n2. Its artificial-intelligence revamp was associated with an MoU with the International Innovation Corps.\n3. It was designed as an adult literacy programme.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The programme covered 27.97 lakh students and underwent an AI revamp under an MoU with the International Innovation Corps. Adult literacy is the objective of Akshara Andhra.",
+   "ty": "statements",
+   "tq": "Use the objective mismatch to eliminate the false statement.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Akshara Andhra is primarily a:",
+   "o": [
+    "Free student-kit distribution programme",
+    "School infrastructure modernisation programme",
+    "STEM coaching programme for Classes 3 to 12",
+    "100 per cent literacy drive of the Adult Education Department"
+   ],
+   "a": 3,
+   "x": "Akshara Andhra is the Adult Education Department's 100 per cent literacy drive.",
+   "ty": "fact",
+   "tq": "Distinguish the adult-literacy objective from school-based schemes.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly describes the reported progress under Akshara Andhra?",
+   "o": [
+    "27.97 lakh students received meals through 34,406 centres",
+    "24.7 lakh adults passed FLNAT-2026 through 34,406 centres",
+    "24.7 lakh school children received kits through 67.27 lakh centres",
+    "5.40 lakh adults received post-matric fee reimbursement"
+   ],
+   "a": 1,
+   "x": "The reported figures were 24.7 lakh adults passing FLNAT-2026 through 34,406 centres.",
+   "ty": "numerical",
+   "tq": "Match the programme with its distinctive examination, centre and beneficiary figures.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The stated literacy rate under Akshara Andhra was expected to rise from:",
+   "o": [
+    "83 per cent to 93 per cent",
+    "73 per cent to 83 per cent",
+    "75 per cent to 85 per cent",
+    "67 per cent to 73 per cent"
+   ],
+   "a": 1,
+   "x": "The literacy rate was stated to rise from 73 per cent to 83 per cent.",
+   "ty": "numerical",
+   "tq": "Test the direction and exact range of the percentage change.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "For 2025–26, post-matric fee reimbursement of ₹1,543.17 crore was provided for approximately how many Scheduled Caste students?",
+   "o": [
+    "2.47 lakh",
+    "5.40 lakh",
+    "24.70 lakh",
+    "67.27 lakh"
+   ],
+   "a": 1,
+   "x": "The allocation of ₹1,543.17 crore covered approximately 5.40 lakh Scheduled Caste students.",
+   "ty": "numerical",
+   "tq": "Link the financial allocation with the correct beneficiary category and count.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Vidya Shakti is implemented in collaboration with which institution for STEM coaching?",
+   "o": [
+    "IIT Madras",
+    "National Judicial Academy",
+    "International Innovation Corps",
+    "UN-Habitat"
+   ],
+   "a": 0,
+   "x": "Vidya Shakti involves collaboration with IIT Madras and provides STEM coaching for Classes 3–12.",
+   "ty": "fact",
+   "tq": "Match the education scheme with its institutional partner.",
+   "sec": "Education schemes - objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Andhra Pradesh Community Managed Natural Farming programme is implemented by:",
+   "o": [
+    "APCRDA",
+    "Rythu Sadhikara Samstha",
+    "State Election Commission",
+    "Adult Education Department"
+   ],
+   "a": 1,
+   "x": "APCNF is implemented by Rythu Sadhikara Samstha, commonly abbreviated as RySS.",
+   "ty": "fact",
+   "tq": "Identify the implementing agency rather than the scheme's field objective.",
+   "sec": "Agriculture initiatives - partner and objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following is associated with APCNF?\n1. Use of cow-based inputs such as Jeevamrutham\n2. Development of NTR district as a natural-farming model district\n3. QR traceability of produce\nSelect the correct answer using the code below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "APCNF uses cow-based inputs including Jeevamrutham, develops NTR district as a natural-farming model and uses QR traceability for produce.",
+   "ty": "statements",
+   "tq": "Confirm all three operational features before selecting the coded option.",
+   "sec": "Agriculture initiatives - partner and objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Under Annadata Sukhibhava, the total annual assistance per farmer, including PM-KISAN, is:",
+   "o": [
+    "₹6,000",
+    "₹14,000",
+    "₹20,000",
+    "₹26,000"
+   ],
+   "a": 2,
+   "x": "Annadata Sukhibhava provides ₹20,000 annually per farmer, comprising the State share of ₹14,000 and the Centre's ₹6,000 under PM-KISAN.",
+   "ty": "numerical",
+   "tq": "Add the two component shares and avoid choosing a component as the total.",
+   "sec": "Agriculture initiatives - partner and objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which statement correctly describes the division of assistance under Annadata Sukhibhava and PM-KISAN?",
+   "o": [
+    "State ₹14,000 and Centre ₹6,000",
+    "State ₹6,000 and Centre ₹14,000",
+    "State ₹10,000 and Centre ₹10,000",
+    "State ₹20,000 and Centre provides no share"
+   ],
+   "a": 0,
+   "x": "The State contributes ₹14,000 and the Centre contributes ₹6,000, making a total of ₹20,000 per farmer annually.",
+   "ty": "comparison",
+   "tq": "Discriminate between the State and Centre shares.",
+   "sec": "Agriculture initiatives - partner and objective  [GROUP-II]"
+  },
+  {
+   "s": "The ₹7,000 per farmer assistance under Annadata Sukhibhava mentioned for Kharif 2026 was associated with:",
+   "o": [
+    "46.85 lakh farmers and an expenditure of ₹3,125 crore",
+    "67.27 lakh farmers and an expenditure of ₹10,090 crore",
+    "24.70 lakh farmers and an expenditure of ₹1,543.17 crore",
+    "27.97 lakh farmers and an expenditure of ₹6,600 crore"
+   ],
+   "a": 0,
+   "x": "For Kharif 2026, ₹7,000 per farmer was provided to 46.85 lakh farmers, involving ₹3,125 crore.",
+   "ty": "numerical",
+   "tq": "Match the per-beneficiary amount with the farmer count and total allocation.",
+   "sec": "Agriculture initiatives - partner and objective  [GROUP-II]"
+  },
+  {
+   "s": "Polam Pilustondi, launched in August 2014, was intended to:",
+   "o": [
+    "Create natural-farming model districts",
+    "Provide post-matric fee reimbursement",
+    "Promote awareness about profitable farming",
+    "Provide free student kits"
+   ],
+   "a": 2,
+   "x": "Polam Pilustondi was an awareness programme focused on profitable farming.",
+   "ty": "fact",
+   "tq": "Match the initiative with its specific agricultural objective.",
+   "sec": "Agriculture initiatives - partner and objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Rythu Bharosa Kendras have been renamed as:",
+   "o": [
+    "RySS Natural Farming Units",
+    "Polam Pilustondi Kendras",
+    "Annadata Service Centres",
+    "Rythu Seva Kendras"
+   ],
+   "a": 3,
+   "x": "Rythu Bharosa Kendras are now known as Rythu Seva Kendras.",
+   "ty": "confusable",
+   "tq": "Test the exact renamed term in a confusable-pair format.",
+   "sec": "Agriculture initiatives - partner and objective  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "How many village farmer-service centres are covered by the Rythu Seva Kendras?",
+   "o": [
+    "5,400",
+    "10,606",
+    "11,000",
+    "46,850"
+   ],
+   "a": 1,
+   "x": "Rythu Seva Kendras comprise 10,606 village farmer-service centres.",
+   "ty": "numerical",
+   "tq": "Recall the exact institutional network count.",
+   "sec": "Agriculture initiatives - partner and objective  [APPSC, GROUP-II]"
+  }
+ ]
+}

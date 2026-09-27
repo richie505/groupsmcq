@@ -1,0 +1,665 @@
+{
+ "book": 6,
+ "row": 2,
+ "chunk": 2,
+ "section": "Andhra Pradesh - projects, investments, MoUs, industrial and infrastructure developments",
+ "subsections": [
+  "Ports, airports and harbours",
+  "New medical colleges and health institutions → location",
+  "Irrigation and river-linking projects",
+  "Capital city and urban infrastructure"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 47,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "As of August 2026, which one of the following ports had achieved approximately 81% progress?",
+   "o": [
+    "Mulapeta Port",
+    "Machilipatnam Port",
+    "Kakinada Gateway Port",
+    "Ramayapatnam Port"
+   ],
+   "a": 3,
+   "x": "Ramayapatnam Port was reported to be 81% complete as of August 2026. Mulapeta, Machilipatnam and Kakinada Gateway had different progress levels.",
+   "ty": "numerical",
+   "tq": "Use the exact progress figure to distinguish closely related infrastructure projects.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Ramayapatnam — Prakasam district",
+    "Machilipatnam — Srikakulam district",
+    "Mulapeta — Krishna district",
+    "Kakinada Gateway Port — Vizianagaram district"
+   ],
+   "a": 0,
+   "x": "Ramayapatnam Port is associated with Prakasam district in the progress table. Machilipatnam is in Krishna, Mulapeta in Srikakulam and Kakinada Gateway Port is in the Kakinada region.",
+   "ty": "match",
+   "tq": "Start from the sure location pair and eliminate swapped districts.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "Consider the following statements regarding Kakinada Gateway Port:\n1. It is located in the Kona area of the Kakinada SEZ.\n2. It has a capacity of 16 MMTPA.\n3. Its commissioning is expected in early 2027.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Kakinada Gateway Port is located at Kona in the Kakinada SEZ, has a capacity of 16 MMTPA and is expected to be commissioned in early 2027.",
+   "ty": "statements",
+   "tq": "Check each project-specific detail before choosing the inclusive combination.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "The four port projects together involve an investment of approximately:",
+   "o": [
+    "₹1,638.52 crore",
+    "₹6,105 crore",
+    "₹17,067 crore",
+    "₹28,000 crore"
+   ],
+   "a": 2,
+   "x": "The four ports involve an investment of ₹17,067 crore and are expected to add 108 MMTPA capacity.",
+   "ty": "numerical",
+   "tq": "Separate the aggregate investment from the smaller Phase-II allocation and unrelated project costs.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "The four port projects referred to in the development programme are expected to add how much capacity?",
+   "o": [
+    "108 MMTPA",
+    "34.04 MMTPA",
+    "76.70 MMTPA",
+    "16 MMTPA"
+   ],
+   "a": 0,
+   "x": "The four port projects together are expected to add 108 MMTPA of capacity.",
+   "ty": "numerical",
+   "tq": "Match the aggregate capacity figure with the aggregate project description.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "Which of the following statements about the port-related decisions is correct?",
+   "o": [
+    "Phase II was approved at ₹6,105 crore, and both ports received 30-km operating limits.",
+    "Phase II was approved at ₹15,000 crore, and the limits were removed completely.",
+    "Phase II was approved at ₹1,638.52 crore, and the operating limits of Machilipatnam and Ramayapatnam were reduced to 15 km under the Indian Ports Act, 2025.",
+    "Phase II was approved at ₹5,640 crore, and only Kakinada Gateway Port received a 15-km limit."
+   ],
+   "a": 2,
+   "x": "Phase II received approval of ₹1,638.52 crore, while the operating limits of Machilipatnam and Ramayapatnam were cut to 15 km under the Indian Ports Act, 2025.",
+   "ty": "fact",
+   "tq": "Distinguish the specific Phase-II amount from other infrastructure allocations.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "The Alluri Sitarama Raju International Airport is located at:",
+   "o": [
+    "Kuppam",
+    "Orvakal",
+    "Dagadarthi",
+    "Bhogapuram"
+   ],
+   "a": 3,
+   "x": "The Alluri Sitarama Raju International Airport is located at Bhogapuram in Vizianagaram district.",
+   "ty": "fact",
+   "tq": "Test the project-location pair directly against nearby proposed airport locations.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "Who inaugurated or opened the Alluri Sitarama Raju International Airport at Bhogapuram on 1 August 2026?",
+   "o": [
+    "The Governor of Andhra Pradesh",
+    "The Prime Minister of India",
+    "The Chief Minister of Andhra Pradesh",
+    "The Union Civil Aviation Minister"
+   ],
+   "a": 1,
+   "x": "The airport was opened by the Prime Minister on 1 August 2026.",
+   "ty": "fact",
+   "tq": "Use the authority-versus-event trap by identifying who performed the inauguration.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "Commercial flights at the Alluri Sitarama Raju International Airport commenced from:",
+   "o": [
+    "13 August 2026",
+    "17 August 2026",
+    "1 September 2026",
+    "1 August 2026"
+   ],
+   "a": 1,
+   "x": "Commercial flights began from 17 August 2026, after the airport was opened on 1 August 2026.",
+   "ty": "numerical",
+   "tq": "Discriminate between the inauguration date and the date of commencement of commercial operations.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched with the Alluri Sitarama Raju International Airport?",
+   "o": [
+    "Location — Bhogapuram",
+    "Runway length — 3,800 metres",
+    "Airport code — VTZ",
+    "Initial capacity — 16 million passengers per annum"
+   ],
+   "a": 3,
+   "x": "The airport's initial capacity is 6 million passengers per annum, not 16 million. Its location is Bhogapuram, its code is VTZ and its runway is 3,800 metres long.",
+   "ty": "negative",
+   "tq": "Find the single exaggerated numerical claim among otherwise correct project details.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "Consider the following statements about the Alluri Sitarama Raju International Airport:\n1. It was developed by GMR through GVIAL.\n2. It follows the PPP-DBFOT model.\n3. It replaced the civil enclave at INS Dega.\n4. It was described as the first greenfield airport since 2014.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the airport's developer, delivery model, replacement of the INS Dega civil enclave and greenfield status.",
+   "ty": "statements",
+   "tq": "Verify each statement separately when the option includes a complete combination.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "The reported cost of the Alluri Sitarama Raju International Airport, according to the main project figure, is:",
+   "o": [
+    "₹1,638.52 crore",
+    "₹4,700 crore",
+    "₹5,640 crore",
+    "₹17,067 crore"
+   ],
+   "a": 2,
+   "x": "The main reported project cost is ₹5,640 crore. Another source placed the cost above ₹4,700 crore, but the principal project figure is ₹5,640 crore.",
+   "ty": "numerical",
+   "tq": "Choose the stated project estimate while distinguishing it from an alternative source estimate.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "Which of the following statements regarding airports in Andhra Pradesh is correct?",
+   "o": [
+    "Bhogapuram replaced Vijayawada airport's civil enclave.",
+    "The State had three international airports—Visakhapatnam, Vijayawada and Tirupati—and Bhogapuram replaced Visakhapatnam's civil airport.",
+    "The three international airports were Bhogapuram, Orvakal and Kuppam.",
+    "The State had only one international airport, located at Bhogapuram."
+   ],
+   "a": 1,
+   "x": "The APPSC key identified Visakhapatnam, Vijayawada and Tirupati as the three international airports, while Bhogapuram replaced Visakhapatnam's civil airport.",
+   "ty": "fact",
+   "tq": "Avoid the famous-new-project trap by separating the existing airport count from the new airport.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "Which of the following is NOT included among the greenfield airport locations proposed in Andhra Pradesh?",
+   "o": [
+    "Srikakulam",
+    "Orvakal",
+    "Dagadarthi",
+    "Mangalagiri"
+   ],
+   "a": 3,
+   "x": "Dagadarthi, Orvakal and Srikakulam were among the proposed greenfield airport locations. Mangalagiri was not included in that list.",
+   "ty": "negative",
+   "tq": "Identify the location that does not belong to the stated proposal list.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Fishing harbour)\nA. Juvvaladinne\nB. Nizampatnam\nC. Machilipatnam\nD. Uppada\n\nList-II (District)\n1. Nellore\n2. Bapatla\n3. Krishna\n4. Kakinada\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "A-1, B-2, C-3, D-4",
+    "A-2, B-1, C-4, D-3",
+    "A-1, B-3, C-2, D-4",
+    "A-4, B-2, C-3, D-1"
+   ],
+   "a": 0,
+   "x": "Juvvaladinne is in Nellore, Nizampatnam in Bapatla, Machilipatnam in Krishna and Uppada in Kakinada.",
+   "ty": "match",
+   "tq": "Start from a sure harbour-district pair and complete the one-to-one matching.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "Phase I of Ramayapatnam Port involves which of the following combinations?",
+   "o": [
+    "RPDCL, ₹17,067 crore and sixteen berths",
+    "RPDCL, ₹4,922.62 crore and four berths",
+    "GVIAL, ₹1,638.52 crore and four berths",
+    "GMR, ₹5,640 crore and six berths"
+   ],
+   "a": 1,
+   "x": "Ramayapatnam Port Phase I is being developed by RPDCL at a cost of ₹4,922.62 crore and includes four berths.",
+   "ty": "fact",
+   "tq": "Link the developer, cost and physical component rather than relying on the project name alone.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "The designed capacity of Phase I of Ramayapatnam Port is:",
+   "o": [
+    "6 MPPA",
+    "34.04 MTPA",
+    "16 MMTPA",
+    "108 MMTPA"
+   ],
+   "a": 1,
+   "x": "Phase I of Ramayapatnam Port has a stated capacity of 34.04 MTPA.",
+   "ty": "numerical",
+   "tq": "Distinguish port cargo capacity in MTPA from airport passenger capacity in MPPA.",
+   "sec": "Ports, airports and harbours"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with a PPP medical college under Phase I?",
+   "o": [
+    "Markapuram — PPP medical college",
+    "Mangalagiri — PPP medical college",
+    "Tirupati — PPP medical college",
+    "Amaravati — PPP medical college"
+   ],
+   "a": 0,
+   "x": "Markapuram was included among the Phase-I PPP medical college locations. The other places listed are not identified as Phase-I PPP medical college locations in the material.",
+   "ty": "match",
+   "tq": "Distinguish the specified PPP locations from other medical and educational centres.",
+   "sec": "New medical colleges and health institutions → location"
+  },
+  {
+   "s": "The expected Viability Gap Funding for the PPP medical college programme is approximately:",
+   "o": [
+    "₹250 crore",
+    "₹1,468 crore",
+    "₹4,922.62 crore",
+    "₹15,000 crore"
+   ],
+   "a": 1,
+   "x": "The expected VGF for the PPP medical college programme is approximately ₹1,468 crore.",
+   "ty": "numerical",
+   "tq": "Match the funding figure to the correct health-sector programme rather than to infrastructure projects.",
+   "sec": "New medical colleges and health institutions → location"
+  },
+  {
+   "s": "On 12 September 2026, which combination of health facilities was opened under PM-ABHIM?",
+   "o": [
+    "12 Critical Care Blocks and 10 IPHLs",
+    "10 AYUSH colleges and 12 medical colleges",
+    "10 Critical Care Blocks and 12 IPHLs",
+    "17 medical colleges and 10 greyfield blocks"
+   ],
+   "a": 2,
+   "x": "Ten Critical Care Blocks and twelve Integrated Public Health Laboratories were opened on 12 September 2026 under PM-ABHIM.",
+   "ty": "numerical",
+   "tq": "Keep the two facility counts in their correct order and avoid reversing them.",
+   "sec": "New medical colleges and health institutions → location"
+  },
+  {
+   "s": "The facilities opened on 12 September 2026 under PM-ABHIM involved an expenditure of:",
+   "o": [
+    "₹250 crore",
+    "₹1,468 crore",
+    "₹1,638.52 crore",
+    "₹6,105 crore"
+   ],
+   "a": 0,
+   "x": "The 10 Critical Care Blocks and 12 IPHLs involved ₹250 crore under PM-ABHIM.",
+   "ty": "numerical",
+   "tq": "Associate the smaller health-infrastructure allocation with the correct programme.",
+   "sec": "New medical colleges and health institutions → location"
+  },
+  {
+   "s": "Which one of the following is correctly matched with a Critical Care Block location?",
+   "o": [
+    "GMC Kadapa",
+    "IIFT Kakinada",
+    "NID Amaravati",
+    "AIIMS Tirupati"
+   ],
+   "a": 0,
+   "x": "GMC Kadapa was among the locations of the Critical Care Blocks. The other options refer to unrelated institutions or incorrect locations.",
+   "ty": "match",
+   "tq": "Use the institution-type trap to distinguish medical facilities from higher-education institutions.",
+   "sec": "New medical colleges and health institutions → location"
+  },
+  {
+   "s": "The new Unani and Ayurveda colleges established in August 2026 were respectively located at:",
+   "o": [
+    "Proddatur and Dharmavaram",
+    "Eluru and Vizianagaram",
+    "Madanapalle and Markapuram",
+    "Dharmavaram and Proddatur"
+   ],
+   "a": 0,
+   "x": "The new Unani college was established at Proddatur and the Ayurveda college at Dharmavaram.",
+   "ty": "confusable",
+   "tq": "Preserve the discipline-location order when distinguishing two AYUSH institutions.",
+   "sec": "New medical colleges and health institutions → location"
+  },
+  {
+   "s": "The new medical colleges opened in September 2023 at the locations specifically identified in the APPSC key included:",
+   "o": [
+    "Markapuram, Adoni and Pulivendula",
+    "Anantapur, Nellore and Kurnool",
+    "Proddatur, Dharmavaram and Penukonda",
+    "Eluru, Vizianagaram and Machilipatnam"
+   ],
+   "a": 3,
+   "x": "The APPSC key identified Eluru, Vizianagaram and Machilipatnam among the colleges opened in September 2023.",
+   "ty": "fact",
+   "tq": "Use the date-location combination to separate opened colleges from proposed PPP colleges.",
+   "sec": "New medical colleges and health institutions → location"
+  },
+  {
+   "s": "Which statement regarding the new government medical colleges is correct?",
+   "o": [
+    "There were 17 new government medical colleges, with at least 10 proposed through PPP and VGF of about ₹1,468 crore.",
+    "There were 12 new government medical colleges funded only through PM-ABHIM.",
+    "There were 10 new government medical colleges, all established without PPP participation.",
+    "There were 17 new government medical colleges, all located in Amaravati."
+   ],
+   "a": 0,
+   "x": "The programme involved 17 new government medical colleges, at least 10 of them through PPP, with VGF of about ₹1,468 crore.",
+   "ty": "fact",
+   "tq": "Combine the count, PPP share and funding figure instead of selecting a partially altered statement.",
+   "sec": "New medical colleges and health institutions → location"
+  },
+  {
+   "s": "At which places were greyfield super-speciality blocks reported in February 2026?",
+   "o": [
+    "Amalapuram, Bapatla and Penukonda",
+    "Anantapur, Nellore and Eluru",
+    "Kadapa, Kurnool and Vijayawada",
+    "Proddatur, Dharmavaram and Adoni"
+   ],
+   "a": 1,
+   "x": "Greyfield super-speciality blocks were reported at Anantapur, Nellore and Eluru in February 2026.",
+   "ty": "fact",
+   "tq": "Distinguish greyfield super-speciality locations from PPP medical college locations.",
+   "sec": "New medical colleges and health institutions → location"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "IIFT campus — Kakinada",
+    "Central University of Andhra Pradesh — Anantapur",
+    "Central Tribal University of Andhra Pradesh — Vizianagaram",
+    "NID — Tirupati"
+   ],
+   "a": 3,
+   "x": "NID is located at Amaravati, not Tirupati. The Central University is at Anantapur, the Central Tribal University at Vizianagaram and the IIFT campus at Kakinada.",
+   "ty": "negative",
+   "tq": "Find the swapped institutional location among a list of central institutes.",
+   "sec": "New medical colleges and health institutions → location"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Institution)\nA. AIIMS\nB. IIT\nC. NIT\nD. IIM\n\nList-II (Location)\n1. Mangalagiri\n2. Tirupati\n3. Tadepalligudem\n4. Visakhapatnam\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "A-1, B-2, C-3, D-4",
+    "A-2, B-3, C-4, D-1",
+    "A-1, B-3, C-2, D-4",
+    "A-4, B-2, C-3, D-1"
+   ],
+   "a": 0,
+   "x": "AIIMS is at Mangalagiri, IIT at Tirupati, NIT at Tadepalligudem and IIM at Visakhapatnam.",
+   "ty": "match",
+   "tq": "Start with the distinctive AIIMS-Mangalagiri pair and complete the institutional matching.",
+   "sec": "New medical colleges and health institutions → location"
+  },
+  {
+   "s": "Which statement about the Central Tribal University of Andhra Pradesh is correct?",
+   "o": [
+    "It is located in Amaravati and ₹1,468 crore was released in August 2026.",
+    "It is located in Anantapur and ₹250 crore was released in September 2026.",
+    "It is located in Kakinada and Phase II was cleared in April 2026.",
+    "It is located in Vizianagaram and ₹320 crore was released in April 2026."
+   ],
+   "a": 3,
+   "x": "The Central Tribal University of Andhra Pradesh is located in Vizianagaram, and ₹320 crore was released in April 2026.",
+   "ty": "fact",
+   "tq": "Combine the institution's location with its release date and amount.",
+   "sec": "New medical colleges and health institutions → location"
+  },
+  {
+   "s": "The Phase-I Veligonda (Poola Subbaiah) Project was opened on 31 August 2026 at:",
+   "o": [
+    "Banakacherla",
+    "Nallamala Sagar",
+    "Gantavanipalli",
+    "Dornala"
+   ],
+   "a": 2,
+   "x": "Phase I of the Veligonda Project was opened at Gantavanipalli in Markapuram district on 31 August 2026.",
+   "ty": "fact",
+   "tq": "Distinguish the inauguration location from the feeder-canal and reservoir locations.",
+   "sec": "Irrigation and river-linking projects"
+  },
+  {
+   "s": "Which of the following correctly describes the Veligonda Project Phase I?",
+   "o": [
+    "It diverts Krishna water from Polavaram to North Coastal Andhra through pumps.",
+    "It carries surplus Godavari floodwater to Rayalaseema through a single canal.",
+    "It carries Krishna water from Srisailam to Nallamala Sagar through twin tunnels.",
+    "It links the Pennar and Krishna rivers through the Banakacherla regulator."
+   ],
+   "a": 2,
+   "x": "Veligonda Phase I carries Krishna water from Srisailam into Nallamala Sagar through twin tunnels.",
+   "ty": "fact",
+   "tq": "Separate the Veligonda scheme from the Polavaram-Nallamala Sagar link.",
+   "sec": "Irrigation and river-linking projects"
+  },
+  {
+   "s": "Consider the following statements about Veligonda Phase I:\n1. It has a water allocation of 10.7 TMC.\n2. It is intended to irrigate 1.19 lakh acres in its stated Phase-I benefit.\n3. Its ultimate irrigation potential is 4.47 lakh acres.\n4. Its foundation stone was laid on 5 March 1996.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The project has 10.7 TMC, initially benefits 1.19 lakh acres, has an ultimate potential of 4.47 lakh acres and had its foundation stone laid on 5 March 1996.",
+   "ty": "statements",
+   "tq": "Check the figures and dates individually before selecting the complete combination.",
+   "sec": "Irrigation and river-linking projects"
+  },
+  {
+   "s": "Which of the following districts are stated to benefit from the Veligonda Project?",
+   "o": [
+    "Markapuram, Prakasam, Nellore and Kadapa",
+    "Anantapur, Kurnool, Chittoor and Tirupati",
+    "Kakinada, Bapatla, Eluru and Visakhapatnam",
+    "Srikakulam, Vizianagaram, Krishna and Guntur"
+   ],
+   "a": 0,
+   "x": "The project benefits Markapuram, Prakasam, Nellore and Kadapa districts.",
+   "ty": "fact",
+   "tq": "Use the complete beneficiary-district list rather than a single familiar location.",
+   "sec": "Irrigation and river-linking projects"
+  },
+  {
+   "s": "The feeder canal associated with the Veligonda Project is located near:",
+   "o": [
+    "Dornala in Markapuram district",
+    "Polavaram in East Godavari district",
+    "Banakacherla in Kurnool district",
+    "Gantavanipalli in Nellore district"
+   ],
+   "a": 0,
+   "x": "The feeder canal is near Dornala in Markapuram district.",
+   "ty": "fact",
+   "tq": "Distinguish the feeder-canal location from the project inauguration site.",
+   "sec": "Irrigation and river-linking projects"
+  },
+  {
+   "s": "Which one of the following statements regarding the Polavaram Project is correct?",
+   "o": [
+    "It is a national project on the Godavari, with completion targeted for March 2027 and ₹6,105 crore provided in the 2026–27 Budget.",
+    "It is a river-linking project on the Godavari, already fully completed by September 2026.",
+    "It is a State project on the Krishna, with completion targeted for August 2026 and ₹1,638.52 crore provided.",
+    "It is a national project on the Pennar, with completion targeted for December 2027 and ₹15,000 crore provided."
+   ],
+   "a": 0,
+   "x": "Polavaram is a national project on the Godavari; completion was targeted for March 2027 and ₹6,105 crore was provided in the 2026–27 Budget.",
+   "ty": "fact",
+   "tq": "Check the river, project status, target date and budget together to reject swapped details.",
+   "sec": "Irrigation and river-linking projects"
+  },
+  {
+   "s": "As reported for 2026, which part of the Polavaram Project had reached 100% excavation?",
+   "o": [
+    "The left main canal and feeder canal",
+    "The right main canal and navigation lock",
+    "The dam and reservoir embankment",
+    "The spillway and powerhouse"
+   ],
+   "a": 3,
+   "x": "The spillway and powerhouse excavation of Polavaram had reached 100%. The project itself was not yet fully complete.",
+   "ty": "fact",
+   "tq": "Distinguish completion of a component from completion of the entire project.",
+   "sec": "Irrigation and river-linking projects"
+  },
+  {
+   "s": "The Polavaram-Banakacherla link was renamed as the:",
+   "o": [
+    "Krishna-Srisailam Link",
+    "Godavari-Rayalaseema Canal",
+    "Nallamala-Kadapa Irrigation Link",
+    "Polavaram-Nallamala Sagar Link"
+   ],
+   "a": 3,
+   "x": "The Polavaram-Banakacherla link was renamed the Polavaram-Nallamala Sagar Link, or PNLP.",
+   "ty": "confusable",
+   "tq": "Test the official renamed term rather than the earlier project name.",
+   "sec": "Irrigation and river-linking projects"
+  },
+  {
+   "s": "Consider the following statements about the Polavaram-Nallamala Sagar Link:\n1. It proposes to transfer surplus Godavari floodwater to Rayalaseema.\n2. Telangana has objected to the proposal.\n3. A CWC-led committee was constituted in January 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The PNLP is intended to transfer surplus Godavari floodwater to Rayalaseema, Telangana objected to it and a CWC-led committee was formed in January 2026.",
+   "ty": "statements",
+   "tq": "Combine purpose, opposing stakeholder and institutional response in one coded question.",
+   "sec": "Irrigation and river-linking projects"
+  },
+  {
+   "s": "Under which section of the Andhra Pradesh Reorganisation Act, 2014 does the national-project status of Polavaram fall?",
+   "o": [
+    "Section 89",
+    "Section 91",
+    "Section 90",
+    "Section 92"
+   ],
+   "a": 2,
+   "x": "The national-project status of Polavaram is associated with Section 90 of the Andhra Pradesh Reorganisation Act, 2014.",
+   "ty": "confusable",
+   "tq": "Discriminate between adjacent statutory section numbers.",
+   "sec": "Irrigation and river-linking projects"
+  },
+  {
+   "s": "Which of the following statements correctly describes the movement of Godavari water in September 2026?",
+   "o": [
+    "Water was sent to Rayalaseema through completed Polavaram tunnels after the dam was fully commissioned.",
+    "Godavari water was diverted only to Nallamala Sagar after completion of the main dam.",
+    "Krishna water was sent to North Coastal Andhra through the Right Main Canal without pumps.",
+    "Water was sent to North Coastal Andhra through the Left Main Canal using pumps, although the Polavaram dam itself was not finished."
+   ],
+   "a": 3,
+   "x": "In September 2026, Godavari water was sent to North Coastal Andhra through the Left Main Canal using pumps, even though the dam itself remained unfinished.",
+   "ty": "application",
+   "tq": "Separate interim water movement through a canal from full completion of the dam.",
+   "sec": "Irrigation and river-linking projects"
+  },
+  {
+   "s": "Which one of the following developments concerning Amaravati is correctly matched with its date or amount?",
+   "o": [
+    "Centre sanctioned ₹15,000 crore — August 2026",
+    "Seed Access Road opened — September 2026",
+    "Inner Ring Road land pooling — May 2026",
+    "World Bank-ADB review — August 2026"
+   ],
+   "a": 0,
+   "x": "The Centre sanctioned ₹15,000 crore for Amaravati in August 2026. The Seed Access Road opened in August, land pooling was reported in September and the World Bank-ADB review occurred in May.",
+   "ty": "match",
+   "tq": "Match each urban development event with its correct time rather than accepting a familiar amount alone.",
+   "sec": "Capital city and urban infrastructure"
+  },
+  {
+   "s": "The Seed Access Road (E3) in Amaravati has a reported length of:",
+   "o": [
+    "15 km",
+    "21.77 km",
+    "29 km",
+    "76.70 km"
+   ],
+   "a": 1,
+   "x": "The Seed Access Road, designated E3, is 21.77 km long and was opened on 13 August 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish the road length from the number of villages and the proposed metro length.",
+   "sec": "Capital city and urban infrastructure"
+  },
+  {
+   "s": "APCRDA works worth ₹1,437 crore were undertaken in how many villages?",
+   "o": [
+    "21",
+    "29",
+    "76",
+    "108"
+   ],
+   "a": 1,
+   "x": "APCRDA works worth ₹1,437 crore were reported in 29 villages.",
+   "ty": "numerical",
+   "tq": "Link the expenditure figure with the corresponding village count.",
+   "sec": "Capital city and urban infrastructure"
+  },
+  {
+   "s": "Land pooling for the Inner Ring Road in Amaravati covered approximately:",
+   "o": [
+    "15,000 acres",
+    "6,212.5 acres",
+    "1,437 acres",
+    "6,248.54 acres"
+   ],
+   "a": 1,
+   "x": "Land pooling for the Inner Ring Road covered 6,212.5 acres in September 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish the Inner Ring Road land-pooling figure from the separate port land figure.",
+   "sec": "Capital city and urban infrastructure"
+  },
+  {
+   "s": "Which statement about the proposed metro projects in Andhra Pradesh is correct?",
+   "o": [
+    "The Vijayawada proposal comprises four corridors covering 76.70 km and costing ₹1,437 crore; Visakhapatnam was excluded.",
+    "The Visakhapatnam proposal comprises four corridors covering 76.70 km and costing approximately ₹28,000 crore; Vijayawada metro projects were also approved.",
+    "The Visakhapatnam proposal comprises two corridors covering 21.77 km and costing ₹15,000 crore; Vijayawada was excluded.",
+    "Both projects were approved only after completion of the Amaravati Inner Ring Road."
+   ],
+   "a": 1,
+   "x": "The Visakhapatnam metro proposal has four corridors, 76.70 km and an estimated cost of about ₹28,000 crore; Vijayawada metro projects were also approved by the Governor in January 2026.",
+   "ty": "comparison",
+   "tq": "Compare the corridor, length and cost details without confusing the two metro proposals.",
+   "sec": "Capital city and urban infrastructure"
+  },
+  {
+   "s": "Who approved the Visakhapatnam and Vijayawada metro projects in January 2026?",
+   "o": [
+    "The Prime Minister of India",
+    "The APCRDA Commissioner",
+    "The Governor of Andhra Pradesh",
+    "The Union Cabinet"
+   ],
+   "a": 2,
+   "x": "The metro projects of Visakhapatnam and Vijayawada were approved by the Governor in January 2026.",
+   "ty": "fact",
+   "tq": "Apply the authority trap by identifying the approving institution or office.",
+   "sec": "Capital city and urban infrastructure"
+  }
+ ]
+}

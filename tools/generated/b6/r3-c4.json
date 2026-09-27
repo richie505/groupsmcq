@@ -1,0 +1,455 @@
+{
+ "book": 6,
+ "row": 3,
+ "chunk": 4,
+ "section": "Andhra Pradesh - awards, GI tags, cultural events, sports and persons in news",
+ "subsections": [
+  "Film and cultural festivals hosted → city + edition",
+  "State festivals, utsavs and tourism events → venue/district",
+  "Classical and folk arts in news → artistes honoured",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 33,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The Amaravati Avakaya Festival 2026 was hosted at which of the following locations?",
+   "o": [
+    "Undavalli Caves",
+    "Punnami Ghat, Bhavani Island, Vijayawada",
+    "Tirupati",
+    "Tummalapalli Kalakshetram, Vijayawada"
+   ],
+   "a": 1,
+   "x": "The Amaravati Avakaya Festival 2026 was held at Punnami Ghat, Bhavani Island, Vijayawada, from 8 to 10 January.",
+   "ty": "fact",
+   "tq": "Use the venue-city association to distinguish closely located cultural events.",
+   "sec": "Film and cultural festivals hosted → city + edition"
+  },
+  {
+   "s": "The Amaravati Avakaya Festival 2026, held from 8 to 10 January, prominently featured which combination?",
+   "o": [
+    "Tribal sports and adventure tourism",
+    "Telugu cinema, culture and literature",
+    "Handloom, fisheries and industrial exhibitions",
+    "Only classical dance and temple rituals"
+   ],
+   "a": 1,
+   "x": "The festival combined Telugu cinema, culture and literature.",
+   "ty": "fact",
+   "tq": "Identify the precise thematic description rather than the venue alone.",
+   "sec": "Film and cultural festivals hosted → city + edition"
+  },
+  {
+   "s": "Consider the following statements regarding the 81st Thyagaraja Music and Dance Festival:\n1. It was held at Tirupati.\n2. It was scheduled from 1 to 5 August.\n3. The title ‘Sapthagiri Sangeetha Vidwanmani’ was conferred on Srimushnam V. Raja Rao.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the festival was at Tirupati from 1 to 5 August, and Srimushnam V. Raja Rao received the stated title.",
+   "ty": "statements",
+   "tq": "Check the venue, dates and honour together before selecting the coded combination.",
+   "sec": "Film and cultural festivals hosted → city + edition"
+  },
+  {
+   "s": "The closing event of the Telugu Mahotsavam was held at the:",
+   "o": [
+    "Kondapalli village",
+    "Undavalli Caves",
+    "Nelapattu sanctuary",
+    "Punnami Ghat"
+   ],
+   "a": 1,
+   "x": "The closing event of the Telugu Mahotsavam was held at the Undavalli Caves.",
+   "ty": "fact",
+   "tq": "Test the distinctive venue attached to a cultural festival.",
+   "sec": "Film and cultural festivals hosted → city + edition"
+  },
+  {
+   "s": "Which one of the following statements regarding the Telugu Mahotsavam is correct?",
+   "o": [
+    "It is to be held every year.",
+    "It is held only once every five years.",
+    "It was organised exclusively as a sports event.",
+    "It is confined to Tirupati."
+   ],
+   "a": 0,
+   "x": "The Telugu Mahotsavam is intended to be held every year.",
+   "ty": "fact",
+   "tq": "Reject extreme or unrelated descriptions and identify the stated continuity feature.",
+   "sec": "Film and cultural festivals hosted → city + edition"
+  },
+  {
+   "s": "The logo of the AP Festival 2026 was unveiled in March at:",
+   "o": [
+    "Punnami Ghat, Bhavani Island",
+    "Tummalapalli Kalakshetram, Vijayawada",
+    "Undavalli Caves",
+    "Tirupati"
+   ],
+   "a": 1,
+   "x": "The AP Festival 2026 was associated with Tummalapalli Kalakshetram, Vijayawada, where its logo was unveiled in March.",
+   "ty": "fact",
+   "tq": "Separate similar Vijayawada venues by matching the event with its exact location.",
+   "sec": "Film and cultural festivals hosted → city + edition"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Festival)\na. Visakha Utsav\nb. Flamingo Festival\nc. Gandikota Festival\nd. Kondapalli Toys Festival\n\nList-II (Venue/District)\ni. Jammalamadugu, Kadapa\nii. Visakhapatnam\niii. Kondapalli, NTR\niv. Sullurpeta/Nelapattu, Tirupati\n\nSelect the correct answer using the codes given below:",
+   "o": [
+    "a–ii, b–iv, c–i, d–iii",
+    "a–iv, b–ii, c–iii, d–i",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–iii, b–iv, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "Visakha Utsav is linked with Visakhapatnam; Flamingo Festival with Sullurpeta/Nelapattu; Gandikota Festival with Jammalamadugu; and Kondapalli Toys Festival with Kondapalli, NTR.",
+   "ty": "match",
+   "tq": "Start from the sure venue pair and eliminate codes that disturb the remaining associations.",
+   "sec": "State festivals, utsavs and tourism events → venue/district"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Visakha Utsav — 23 to 31 January 2026\n2. Flamingo Festival — from 10 January 2026\n3. Gandikota Festival — from 11 January 2026\n4. Kondapalli Toys Festival — April 2026\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched with the stated 2026 schedules.",
+   "ty": "statements",
+   "tq": "Compare each event with its date and use the complete combination only after checking all four.",
+   "sec": "State festivals, utsavs and tourism events → venue/district"
+  },
+  {
+   "s": "The Kondapalli Toys Festival is scheduled to be held every year. It is associated with which district and month in 2026?",
+   "o": [
+    "NTR district and April",
+    "Visakhapatnam district and March",
+    "Kadapa district and January",
+    "Tirupati district and August"
+   ],
+   "a": 0,
+   "x": "The Kondapalli Toys Festival is associated with Kondapalli in NTR district and is scheduled for April 2026, with an annual observance planned.",
+   "ty": "fact",
+   "tq": "Combine the location, month and recurring-event clue in a single identification.",
+   "sec": "State festivals, utsavs and tourism events → venue/district"
+  },
+  {
+   "s": "The largest tent city planned for the Godavari Pushkarams 2027 is proposed at:",
+   "o": [
+    "Jammalamadugu, Kadapa",
+    "Kondapalli, NTR",
+    "Bridge Lanka, Rajamahendravaram",
+    "Sullurpeta, Tirupati"
+   ],
+   "a": 2,
+   "x": "Tent cities are planned at 21 temples, with the largest proposed at Bridge Lanka, Rajamahendravaram.",
+   "ty": "fact",
+   "tq": "Distinguish the largest facility from the overall number of facilities and their general locations.",
+   "sec": "State festivals, utsavs and tourism events → venue/district"
+  },
+  {
+   "s": "Molla Jayanti, declared a State festival in March 2026, honours Atukuri Molla of Gopavaram, who authored the:",
+   "o": [
+    "Molla Ramayanam",
+    "Amuktamalyada",
+    "Andhra Mahabharatam",
+    "Nannaya Ramayanam"
+   ],
+   "a": 0,
+   "x": "Molla Jayanti honours Atukuri Molla of Gopavaram in Kadapa, the author of Molla Ramayanam.",
+   "ty": "fact",
+   "tq": "Link the commemorative festival with the person, place and literary work.",
+   "sec": "State festivals, utsavs and tourism events → venue/district"
+  },
+  {
+   "s": "Which festival was the most popular festival under the Reddi kings?",
+   "o": [
+    "Vasantotsavam",
+    "Molla Jayanti",
+    "Flamingo Festival",
+    "Visakha Utsav"
+   ],
+   "a": 0,
+   "x": "Vasantotsavam was the most popular festival under the Reddi kings.",
+   "ty": "fact",
+   "tq": "Use the historical-period association to separate traditional festivals from modern events.",
+   "sec": "State festivals, utsavs and tourism events → venue/district"
+  },
+  {
+   "s": "Other than the festivals specifically listed with venues and dates, which of the following is included among the APTA festivals?\n1. Araku\n2. Anakapalli\n3. Pithapuram Sankranti\n4. Kondaveedu\nWhich of the above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Araku, Anakapalli, Pithapuram Sankranti and Kondaveedu are all included among the other APTA festivals.",
+   "ty": "statements",
+   "tq": "Treat a named list as a completeness question and verify every item.",
+   "sec": "State festivals, utsavs and tourism events → venue/district"
+  },
+  {
+   "s": "Which of the following is also identified as an APTA festival?",
+   "o": [
+    "Sapthagiri Sangeetha Vidwanmani",
+    "Nandi Natakotsavams only",
+    "Kangundi Bouldering",
+    "Molla Ramayanam"
+   ],
+   "a": 2,
+   "x": "Kangundi Bouldering is listed among the APTA festivals, along with events such as Pakala Beach.",
+   "ty": "fact",
+   "tq": "Distinguish an event name from titles, literary works and performing-arts programmes.",
+   "sec": "State festivals, utsavs and tourism events → venue/district"
+  },
+  {
+   "s": "The Guinness record for the largest Dhimsa dance was created at Bhogapuram on:",
+   "o": [
+    "31 July 2026",
+    "11 September 2026",
+    "1 August 2026",
+    "10 January 2026"
+   ],
+   "a": 0,
+   "x": "The largest Dhimsa dance Guinness record was created at Bhogapuram on 31 July 2026.",
+   "ty": "numerical",
+   "tq": "Use the exact date to distinguish the record event from nearby festival dates.",
+   "sec": "Classical and folk arts in news → artistes honoured"
+  },
+  {
+   "s": "Consider the following statements about the Dhimsa dance record at Bhogapuram:\n1. It involved more than 13,000 tribal women and girl students.\n2. The Hindu reported the count as 13,750.\n3. The event took place the day before the Prime Minister opened the Alluri Sitarama Raju International Airport.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The reported participation was 13,750, described as more than 13,000, and the event occurred one day before the airport inauguration by the Prime Minister.",
+   "ty": "statements",
+   "tq": "Check both the rounded figure and the precise reported count before judging the statements.",
+   "sec": "Classical and folk arts in news → artistes honoured"
+  },
+  {
+   "s": "Dhimsa is performed by which of the following communities?\n1. Bagata\n2. Valmiki\n3. Konda Dora\n4. Gadaba",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Dhimsa is performed by the Bagata, Valmiki, Konda Dora and Gadaba communities.",
+   "ty": "statements",
+   "tq": "Test the full composition of a named cultural group rather than one familiar member.",
+   "sec": "Classical and folk arts in news → artistes honoured"
+  },
+  {
+   "s": "The origin of Dhimsa is traced to:",
+   "o": [
+    "Koraput",
+    "Krishna district",
+    "Bhogapuram",
+    "Gopavaram"
+   ],
+   "a": 0,
+   "x": "The origin of Dhimsa is traced to Koraput.",
+   "ty": "fact",
+   "tq": "Separate the place of origin from the place where the record was created.",
+   "sec": "Classical and folk arts in news → artistes honoured"
+  },
+  {
+   "s": "Kuchipudi derives its name from a village in which district?",
+   "o": [
+    "Kadapa district",
+    "NTR district",
+    "Krishna district",
+    "Tirupati district"
+   ],
+   "a": 2,
+   "x": "Kuchipudi is named after a village in Krishna district.",
+   "ty": "fact",
+   "tq": "Apply the place-name association to identify the correct district.",
+   "sec": "Classical and folk arts in news → artistes honoured"
+  },
+  {
+   "s": "Who among the following received the Padma Shri in 2026 for Kuchipudi dance?",
+   "o": [
+    "Neelabonu Satyam",
+    "Deepika Reddy",
+    "Gorrela Krishna Murthy",
+    "Sivamma"
+   ],
+   "a": 1,
+   "x": "Kuchipudi dancer Deepika Reddy received the Padma Shri in 2026.",
+   "ty": "fact",
+   "tq": "Use the art-form and honour combination to distinguish artistes in news.",
+   "sec": "Classical and folk arts in news → artistes honoured"
+  },
+  {
+   "s": "Match the following artistes with the art forms for which they received Ugadi awards in 2026:\n\na. D. Sivamma\na. Gorrela Krishna Murthy\nc. Neelabonu Satyam\n\n1. Tappetagullu\n2. Tholu Bommalata\n3. Burrakatha\n\nSelect the correct answer using the codes given below:",
+   "o": [
+    "a–2, b–3, c–1",
+    "a–3, b–1, c–2",
+    "a–1, b–2, c–3",
+    "a–2, b–1, c–3"
+   ],
+   "a": 0,
+   "x": "D. Sivamma is associated with Tholu Bommalata, Gorrela Krishna Murthy with Burrakatha, and Neelabonu Satyam with Tappetagullu. The first list label is intended as b. for Gorrela Krishna Murthy.",
+   "ty": "match",
+   "tq": "Start with the distinctive artiste–art-form pair and eliminate codes that swap the remaining performers.",
+   "sec": "Classical and folk arts in news → artistes honoured"
+  },
+  {
+   "s": "In Burrakatha, the performance structure consists of a narrator with the burra and two:",
+   "o": [
+    "Vidwanmanis",
+    "Doras",
+    "Vantalu",
+    "Gadabas"
+   ],
+   "a": 2,
+   "x": "Burrakatha consists of a narrator with the burra accompanied by two vantalu.",
+   "ty": "fact",
+   "tq": "Discriminate between the technical vocabulary of a folk performance and names of communities or titles.",
+   "sec": "Classical and folk arts in news → artistes honoured"
+  },
+  {
+   "s": "Which of the following is NOT included in the July 2026 revival plan for traditional performing arts and festivals?",
+   "o": [
+    "Kangundi Bouldering",
+    "Burrakatha",
+    "Harikatha",
+    "Tholu Bommalata"
+   ],
+   "a": 0,
+   "x": "The revival plan included Tholu Bommalata, Harikatha, Burrakatha, Padya Natakam and the Nandi Natakotsavams. Kangundi Bouldering was listed as an APTA festival, not as part of this revival plan.",
+   "ty": "negative",
+   "tq": "Find the item belonging to a neighbouring list rather than the revival programme.",
+   "sec": "Classical and folk arts in news → artistes honoured"
+  },
+  {
+   "s": "The Asian Games scheduled in Aichi-Nagoya from September 2026 include which Andhra Pradesh-related athletes in the squad?",
+   "o": [
+    "Deepika Reddy and Neelabonu Satyam",
+    "Karnam Malleswari and Ajaya Babu",
+    "Jyothi Yarraji and Satwik",
+    "Srimushnam V. Raja Rao and D. Sivamma"
+   ],
+   "a": 2,
+   "x": "Jyothi Yarraji and Satwik were mentioned as members of the squad for the Aichi-Nagoya Asian Games.",
+   "ty": "fact",
+   "tq": "Match the current sporting event with the athletes specifically associated with it.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly describes the sports-system concern reported in Andhra Pradesh in 2026?",
+   "o": [
+    "The sports system was described as having ‘run dry’.",
+    "The State had acquired synthetic tracks in every district.",
+    "The sports system was described as expanding rapidly through AstroTurfs.",
+    "The State had completely solved its sports-quota recruitment disputes."
+   ],
+   "a": 0,
+   "x": "The sports system in Andhra Pradesh was described as having ‘run dry’, amid concerns over infrastructure and recruitment.",
+   "ty": "fact",
+   "tq": "Recognise the exact current-affairs expression and reject reversed trend statements.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about sports infrastructure and recruitment in Andhra Pradesh:\n1. The State was criticised for having few AstroTurfs.\n2. Vizag was reported to lack a synthetic track.\n3. Disputes existed over recruitment through the sports quota.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements reflect the reported criticism of sports infrastructure and sports-quota recruitment in Andhra Pradesh.",
+   "ty": "statements",
+   "tq": "Group related criticisms and verify whether the option captures all the stated issues.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to Padma awards and Article 18 of the Constitution, consider the following statements:\n1. Padma awards are not titles under Article 18.\n2. Padma awards cannot be used as a prefix or suffix.\n3. The position was affirmed in Balaji Raghavan (1996).\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Balaji Raghavan (1996) held that Padma awards are not titles under Article 18 and cannot be used as prefixes or suffixes.",
+   "ty": "statements",
+   "tq": "Combine the constitutional principle, consequence and judicial authority before selecting the code.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "How many people from Andhra Pradesh received Padma awards in 2026?",
+   "o": [
+    "Five",
+    "Three",
+    "Two",
+    "Four"
+   ],
+   "a": 3,
+   "x": "Four people from Andhra Pradesh received Padma awards in 2026.",
+   "ty": "numerical",
+   "tq": "Identify the exact count rather than inferring it from the number of artistes separately mentioned.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Ajaya Babu was in the news in July 2026 for winning a:",
+   "o": [
+    "Padma Shri for folk arts",
+    "Commonwealth Games silver medal",
+    "Guinness record in Dhimsa",
+    "National award in Kuchipudi"
+   ],
+   "a": 1,
+   "x": "Ajaya Babu was associated with a Commonwealth Games silver medal in July 2026.",
+   "ty": "fact",
+   "tq": "Separate the sporting achievement from the cultural awards and records reported in the same period.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which statement best captures the infrastructure-related criticism concerning Andhra Pradesh sports after 2014?",
+   "o": [
+    "Andhra Pradesh transferred all its sports infrastructure to Visakhapatnam after 2014.",
+    "Coaches stated that Hyderabad lost its sports infrastructure to Andhra Pradesh in 2014, while the SAAP centre at ANU expanded.",
+    "Coaches stated that Andhra Pradesh lost its sports infrastructure to Hyderabad in 2014, and the SAAP centre at ANU was later closed.",
+    "The SAAP centre at ANU was converted into the State’s principal airport."
+   ],
+   "a": 2,
+   "x": "Coaches said Andhra Pradesh lost sports infrastructure to Hyderabad in 2014 and that the SAAP centre at ANU, which trained Jyothi Yarraji, was later closed.",
+   "ty": "negative",
+   "tq": "Watch for reversed comparisons and altered institutional actions in a long statement.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which city in Andhra Pradesh hosts most of the major events such as IFR, MILAN, NCeG and BRICS?",
+   "o": [
+    "Rajamahendravaram",
+    "Tirupati",
+    "Vijayawada",
+    "Visakhapatnam"
+   ],
+   "a": 3,
+   "x": "Visakhapatnam hosts most of the major events listed, including IFR, MILAN, NCeG and BRICS.",
+   "ty": "fact",
+   "tq": "Match the concentration of major events with the correct host city.",
+   "sec": "Universal angles"
+  }
+ ]
+}

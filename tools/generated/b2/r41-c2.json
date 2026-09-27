@@ -1,0 +1,400 @@
+{
+ "book": 2,
+ "row": 41,
+ "chunk": 2,
+ "section": "State legislature - Assembly and Legislative Council; creation and abolition of the Council (Article 169)",
+ "subsections": [
+  "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings",
+  "AP Legislative Council - abolition, revival and later abolition resolution",
+  "States with Legislative Councils - present list and recent changes",
+  "Disqualification of state legislators - Arts 191-192",
+  "MLAs in indirect elections"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 31,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Under Article 170 of the Constitution, the normal strength of a State Legislative Assembly shall be—",
+   "o": [
+    "Not less than 60 and not more than 500 members",
+    "Not less than 50 and not more than 450 members",
+    "Not less than 70 and not more than 550 members",
+    "Not less than 40 and not more than 400 members"
+   ],
+   "a": 0,
+   "x": "A State Legislative Assembly ordinarily consists of not less than 60 and not more than 500 directly elected members under Article 170.",
+   "ty": "numerical",
+   "tq": "Use the constitutional minimum and maximum as the decisive numerical pair.",
+   "sec": "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings  [APPSC]"
+  },
+  {
+   "s": "Which one of the following States has a Legislative Assembly with 32 seats as a special constitutional exception?",
+   "o": [
+    "Goa",
+    "Sikkim",
+    "Mizoram",
+    "Arunachal Pradesh"
+   ],
+   "a": 1,
+   "x": "Sikkim has 32 Assembly seats under the special provisions of Article 371F.",
+   "ty": "fact",
+   "tq": "Discriminate between the States having Assembly strength below the normal constitutional minimum.",
+   "sec": "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the strength of State Legislative Assemblies:\n1. Goa has 40 Assembly seats.\n2. Mizoram has 40 Assembly seats.\n3. Arunachal Pradesh has 60 Assembly seats despite its special constitutional minimum of 30.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Goa and Mizoram have 40 seats, while Arunachal Pradesh actually has 60 seats although Article 371H permits a minimum of 30.",
+   "ty": "statements",
+   "tq": "Separate the special minimum permitted by the Constitution from the actual present strength.",
+   "sec": "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings  [APPSC]"
+  },
+  {
+   "s": "The normal term of a State Legislative Assembly is—",
+   "o": [
+    "Five years from the date of notification of election results",
+    "Five years from the date appointed for its first meeting",
+    "Six years from the date of its constitution",
+    "Four years from the date of its first sitting"
+   ],
+   "a": 1,
+   "x": "Under Article 172, the normal term of a State Legislative Assembly is five years from the date appointed for its first meeting, unless dissolved earlier.",
+   "ty": "fact",
+   "tq": "Distinguish the constitutional starting point of the term from election-related dates.",
+   "sec": "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings  [APPSC]"
+  },
+  {
+   "s": "During a National Emergency, the term of a State Legislative Assembly may be extended by Parliament—",
+   "o": [
+    "For six months at a time, but not beyond one year after the Emergency ends",
+    "For two years at a time, without any post-Emergency limit",
+    "For one year at a time, but not beyond six months after the Emergency ends",
+    "Indefinitely until Parliament revokes the Emergency"
+   ],
+   "a": 2,
+   "x": "Parliament may extend the Assembly's term by one year at a time during a National Emergency, but the extension cannot continue beyond six months after the Emergency has ceased.",
+   "ty": "numerical",
+   "tq": "Check both parts of the constitutional limitation: the interval and the post-Emergency ceiling.",
+   "sec": "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings  [APPSC]"
+  },
+  {
+   "s": "In a Legislative Assembly consisting of 70 members, the quorum for a sitting would be—",
+   "o": [
+    "7 members",
+    "10 members",
+    "35 members",
+    "70 members"
+   ],
+   "a": 1,
+   "x": "Quorum is 10 members or one-tenth of the total membership, whichever is greater. For a 70-member House, 10 is greater than 7.",
+   "ty": "application",
+   "tq": "Apply the ‘whichever is greater’ rule rather than simply calculating one-tenth.",
+   "sec": "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the authority competent to decide a disqualification of a State legislator on grounds other than defection?",
+   "o": [
+    "The Speaker, acting independently",
+    "The High Court, on the recommendation of the Governor",
+    "The Governor, who is bound by the Election Commission's opinion",
+    "The Election Commission, whose decision is advisory to the Governor"
+   ],
+   "a": 2,
+   "x": "Under Articles 191 and 192, the Governor decides such questions, but must act according to the opinion of the Election Commission. Defection matters are decided by the Speaker or Chairman.",
+   "ty": "confusable",
+   "tq": "Ask who performs the formal decision and who supplies the binding constitutional opinion.",
+   "sec": "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a ground of disqualification under Article 191 of the Constitution?",
+   "o": [
+    "Being an undischarged insolvent",
+    "Holding an office of profit",
+    "Being absent from the House for 60 days without permission",
+    "Being of unsound mind as declared by a competent court"
+   ],
+   "a": 2,
+   "x": "Absence for 60 days without permission results in vacation of the seat under Article 190(4), not disqualification under Article 191.",
+   "ty": "negative",
+   "tq": "Distinguish disqualification under Article 191 from vacation of seat under Article 190.",
+   "sec": "Disqualification of state legislators - Arts 191-192  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding disqualification under Article 191:\n1. A person who is not a citizen of India may be disqualified.\n2. Disqualification under a law made by Parliament may constitute a ground of disqualification.\n3. Defection under the Tenth Schedule is included among the constitutional grounds.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three are grounds associated with Article 191. They include loss of citizenship, disqualification under parliamentary law such as the Representation of the People Act, and defection under the Tenth Schedule.",
+   "ty": "statements",
+   "tq": "Test the complete list of constitutional grounds instead of recalling only the common grounds.",
+   "sec": "Disqualification of state legislators - Arts 191-192  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "A person elected to both Houses of a State Legislature is required to vacate one of the memberships because—",
+   "o": [
+    "The Constitution prohibits simultaneous membership of both Houses of the same State Legislature",
+    "An MLA cannot become an MLC under any circumstances",
+    "The Council is a nominated body and cannot have elected members",
+    "The Governor alone may permit only one membership"
+   ],
+   "a": 0,
+   "x": "Article 190 prevents a person from being a member of both Houses of the Legislature of a State at the same time. It also bars simultaneous membership of legislatures of two States.",
+   "ty": "fact",
+   "tq": "Use the constitutional incompatibility rule to eliminate explanations based on the composition of the Council.",
+   "sec": "Disqualification of state legislators - Arts 191-192  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Under Article 190(3)(b), the resignation of a member of a State Legislative Assembly takes effect only when—",
+   "o": [
+    "It is accepted by the Speaker",
+    "It is accepted by the Governor",
+    "It is published in the official gazette",
+    "It is accepted by the Election Commission"
+   ],
+   "a": 0,
+   "x": "The resignation of an MLA takes effect only upon acceptance by the Speaker. For a member of the Legislative Council, acceptance is by the Chairman.",
+   "ty": "confusable",
+   "tq": "Match the resignation with the presiding officer of the concerned House.",
+   "sec": "Disqualification of state legislators - Arts 191-192  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "If a member of a State Legislature remains absent without permission for 60 days, the consequence is—",
+   "o": [
+    "Vacation of the seat under Article 190(4)",
+    "Suspension by the Governor under Article 192",
+    "Dissolution of the House under Article 172",
+    "Automatic disqualification under Article 191"
+   ],
+   "a": 0,
+   "x": "Article 190(4) provides for vacation of the seat when a member remains absent without permission for 60 days, subject to the constitutional exclusions relating to periods when the House is prorogued or adjourned for more than four consecutive days.",
+   "ty": "fact",
+   "tq": "Identify the legal consequence instead of confusing absence with disqualification.",
+   "sec": "Disqualification of state legislators - Arts 191-192  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The rules governing the order of proceedings and conduct of business in a State Legislature are made under—",
+   "o": [
+    "Article 192",
+    "Article 172",
+    "Article 208",
+    "Article 189"
+   ],
+   "a": 2,
+   "x": "Article 208 deals with the rules of procedure of a State Legislature.",
+   "ty": "fact",
+   "tq": "Separate procedure-making provisions from provisions on term, quorum and disqualification.",
+   "sec": "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings  [APPSC]"
+  },
+  {
+   "s": "With reference to the Governor's address to the State Legislature, which one of the following is correct?",
+   "o": [
+    "It is delivered before every sitting of the Legislative Assembly.",
+    "It is delivered on the first day of the first session of each year and is followed by discussion.",
+    "It is delivered on the last day of every annual session.",
+    "It is delivered only when the Legislative Council demands it."
+   ],
+   "a": 1,
+   "x": "The Governor addresses the Legislature on the first day of the first session of each year, and the address is followed by discussion in the House.",
+   "ty": "fact",
+   "tq": "Use the time phrase ‘first day of the first session’ as the key discriminator.",
+   "sec": "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings  [APPSC]"
+  },
+  {
+   "s": "In the budgetary proceedings of a State, demands for grants are voted only in the—",
+   "o": [
+    "Joint sitting of both Houses",
+    "Committee on Public Accounts",
+    "Legislative Assembly",
+    "Legislative Council"
+   ],
+   "a": 2,
+   "x": "Demands for grants are voted exclusively by the Legislative Assembly. The Legislative Council has no power to vote on demands for grants.",
+   "ty": "comparison",
+   "tq": "Identify the exclusive financial power of the directly elected House.",
+   "sec": "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly presents the present strength of the Legislative Assemblies of Andhra Pradesh, Telangana and Uttar Pradesh respectively?",
+   "o": [
+    "175, 117 and 402",
+    "175, 120 and 400",
+    "175, 119 and 403",
+    "176, 119 and 403"
+   ],
+   "a": 2,
+   "x": "The Legislative Assemblies of Andhra Pradesh, Telangana and Uttar Pradesh have 175, 119 and 403 seats respectively.",
+   "ty": "numerical",
+   "tq": "Read the three figures as a fixed sequence and reject near-value substitutions.",
+   "sec": "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings  [APPSC]"
+  },
+  {
+   "s": "Arrange the following events relating to the Andhra Pradesh Legislative Council in chronological order:\nA. Revival of the Council\nB. Abolition under the NTR Government\nC. Creation of the Council in united Andhra Pradesh\nD. Assembly resolution for abolition of the Council in January 2020",
+   "o": [
+    "C, B, A, D",
+    "B, C, A, D",
+    "C, A, B, D",
+    "A, B, C, D"
+   ],
+   "a": 0,
+   "x": "The Council was created in 1958, abolished in 1985, revived in 2007, and the Assembly passed an abolition resolution in January 2020.",
+   "ty": "chronology",
+   "tq": "Anchor the sequence with the dated milestones 1958, 1985, 2007 and 2020.",
+   "sec": "AP Legislative Council - abolition, revival and later abolition resolution"
+  },
+  {
+   "s": "Which one of the following statements regarding the Andhra Pradesh Legislative Council is correct?",
+   "o": [
+    "The Council was abolished in 2021 after the resolution was withdrawn.",
+    "The abolition resolution was withdrawn in November 2021 and the Council continued.",
+    "The Council was revived in 2020 after having been abolished in 2014.",
+    "The abolition resolution passed in January 2020 took effect immediately without further action."
+   ],
+   "a": 1,
+   "x": "The Andhra Pradesh Assembly withdrew its abolition resolution in November 2021; consequently, the Legislative Council continued.",
+   "ty": "fact",
+   "tq": "Watch the reversal trap involving the withdrawal of an earlier resolution.",
+   "sec": "AP Legislative Council - abolition, revival and later abolition resolution"
+  },
+  {
+   "s": "The Andhra Pradesh Reorganisation Act, 2014 provided for a maximum of how many members in the Legislative Councils of Andhra Pradesh and Telangana respectively?",
+   "o": [
+    "50 and 40",
+    "58 and 40",
+    "40 and 50",
+    "50 and 36"
+   ],
+   "a": 0,
+   "x": "The 2014 Reorganisation Act provided for a maximum of 50 members for Andhra Pradesh and 40 members for Telangana. A later amendment raised Andhra Pradesh's permitted strength to 58.",
+   "ty": "numerical",
+   "tq": "Distinguish the original reorganisation figures from the later amendment figure.",
+   "sec": "AP Legislative Council - abolition, revival and later abolition resolution"
+  },
+  {
+   "s": "Which one of the following changes was made by the 2015 amendment relating to the Andhra Pradesh Legislative Council?",
+   "o": [
+    "Its maximum strength was increased to 75 members.",
+    "Its Council was converted into a nominated body.",
+    "Its maximum strength was reduced from 50 to 40.",
+    "Its maximum strength was increased to 58 members."
+   ],
+   "a": 3,
+   "x": "The 2015 amendment raised the maximum permissible strength of the Andhra Pradesh Legislative Council from the reorganisation limit of 50 to 58 members.",
+   "ty": "fact",
+   "tq": "Use the later amendment figure to distinguish it from the original reorganisation provision.",
+   "sec": "AP Legislative Council - abolition, revival and later abolition resolution"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Jammu and Kashmir — Council continues after the 2019 Reorganisation Act",
+    "Andhra Pradesh — Council abolished in 1986 and revived in 2007",
+    "Tamil Nadu — Council abolished in 1986",
+    "Andhra Pradesh — Council created for the first time in 2007"
+   ],
+   "a": 2,
+   "x": "Tamil Nadu abolished its Legislative Council in 1986. Andhra Pradesh abolished its Council in 1985 and revived it in 2007, while the Jammu and Kashmir Council was abolished in 2019.",
+   "ty": "negative",
+   "tq": "Find the correctly matched historical pair among closely related Council changes.",
+   "sec": "States with Legislative Councils - present list and recent changes  [APPSC]"
+  },
+  {
+   "s": "In the election of the Chairperson of the Karnataka Legislative Council mentioned in the recent report, Saleem Ahmed secured—",
+   "o": [
+    "38 votes against 30",
+    "35 votes against 25",
+    "30 votes against 28",
+    "40 votes against 32"
+   ],
+   "a": 0,
+   "x": "Saleem Ahmed was elected Chairperson of the Karnataka Legislative Council by a vote of 38 to 30.",
+   "ty": "numerical",
+   "tq": "Retain both the winning and opposing vote totals rather than only the name.",
+   "sec": "States with Legislative Councils - present list and recent changes  [APPSC]"
+  },
+  {
+   "s": "G.S. Patil became the ______ Speaker of the Karnataka Legislative Assembly.",
+   "o": [
+    "19th",
+    "18th",
+    "16th",
+    "17th"
+   ],
+   "a": 1,
+   "x": "G.S. Patil became the 18th Speaker of the Karnataka Legislative Assembly.",
+   "ty": "numerical",
+   "tq": "Test the ordinal number directly and avoid confusing the Assembly Speaker with the Council Chairperson.",
+   "sec": "States with Legislative Councils - present list and recent changes  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a valid statement regarding Article 191?",
+   "o": [
+    "It empowers the Election Commission to directly remove a legislator from office.",
+    "It includes disqualification on the ground of being an undischarged insolvent.",
+    "It includes disqualification under a law made by Parliament.",
+    "It includes disqualification on the ground of holding an office of profit."
+   ],
+   "a": 0,
+   "x": "Article 191 lists grounds of disqualification, but the Election Commission does not directly remove the member. Under Article 192, the Governor decides the question on the Election Commission's opinion.",
+   "ty": "negative",
+   "tq": "Separate the grounds of disqualification from the authority that formally decides the question.",
+   "sec": "Disqualification of state legislators - Arts 191-192  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "With reference to the participation of MLAs in indirect elections, consider the following statements:\n1. Elected MLAs are members of the electoral college for the election of the President.\n2. MLAs elect members of the Rajya Sabha by proportional representation through the single transferable vote.\n3. MLAs elect one-third of the members of the State Legislative Council.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Elected MLAs participate in the Presidential election, elect Rajya Sabha members by PR-STV, and elect one-third of the members of the State Legislative Council.",
+   "ty": "statements",
+   "tq": "Test the common participants across three indirect elections while excluding nominated members and the Vice-Presidential election.",
+   "sec": "MLAs in indirect elections  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes the participation of State Legislative Assembly members in the elections of the President and Vice-President?",
+   "o": [
+    "Elected MLAs vote in the Vice-Presidential election but not in the Presidential election.",
+    "Elected MLAs vote in the Presidential election but not in the Vice-Presidential election.",
+    "Elected MLAs vote in both elections.",
+    "Neither elected nor nominated MLAs vote in either election."
+   ],
+   "a": 1,
+   "x": "Elected MLAs are part of the electoral college for the President under Article 54. The Vice-President is elected only by Members of Parliament, so MLAs do not participate.",
+   "ty": "confusable",
+   "tq": "Discriminate between two similar indirect elections by identifying the composition of each electoral college.",
+   "sec": "MLAs in indirect elections  [other exams, GROUP-II]"
+  },
+  {
+   "s": "The Governor's power to nominate an Anglo-Indian member to a State Legislative Assembly was discontinued by the—",
+   "o": [
+    "102nd Constitutional Amendment Act",
+    "105th Constitutional Amendment Act",
+    "104th Constitutional Amendment Act",
+    "103rd Constitutional Amendment Act"
+   ],
+   "a": 2,
+   "x": "The 104th Constitutional Amendment Act, 2020 discontinued the provision for nomination of Anglo-Indian members to the Legislative Assemblies of States.",
+   "ty": "fact",
+   "tq": "Use the amendment-number trap to distinguish the discontinued nomination provision from other reservation amendments.",
+   "sec": "Legislative Assembly - quorum, term, strength, non-Tenth Schedule disqualification, order of proceedings  [APPSC]"
+  }
+ ]
+}

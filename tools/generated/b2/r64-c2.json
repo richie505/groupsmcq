@@ -1,0 +1,481 @@
+{
+ "book": 2,
+ "row": 64,
+ "chunk": 2,
+ "section": "Electoral reforms - state funding, electoral bonds, criminalisation of politics, RPA 1951 provisions",
+ "subsections": [
+  "Criminalisation of politics",
+  "State funding of elections"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Under the electoral disclosure requirements introduced in 2002, a candidate is required to file an affidavit regarding which of the following?\n1. Criminal cases\n2. Assets and liabilities\n3. Educational qualifications\n4. Party manifesto expenditure\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "The 2002 disclosure requirement covers criminal cases, assets, liabilities and educational qualifications. It does not require candidates to file an affidavit on party manifesto expenditure.",
+   "ty": "statements",
+   "tq": "Identify the precise scope of a disclosure requirement and reject the unrelated addition.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "The judgment in Lily Thomas v. Union of India (2013) is associated with which of the following conclusions?",
+   "o": [
+    "Disqualification of legislators was transferred from Parliament to the Election Commission.",
+    "Only a sitting legislator can be disqualified after a three-month period.",
+    "A convicted legislator remains protected until the disposal of the appeal.",
+    "A convicted legislator is disqualified immediately, without protection during the pendency of an appeal."
+   ],
+   "a": 3,
+   "x": "The Lily Thomas judgment held that conviction leads to immediate disqualification and that an appeal does not provide protection against that disqualification.",
+   "ty": "fact",
+   "tq": "Test the holding of a landmark judgment against closely related but reversed legal effects.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "Consider the following statements regarding Section 8 of the Representation of the People Act, 1951:\n1. Conviction resulting in imprisonment of two years or more attracts disqualification.\n2. The disqualification rule is contained in a law made by Parliament.\n3. Disqualification begins only after the appeal against conviction is finally decided.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Section 8 provides disqualification on conviction involving imprisonment of two years or more, and the rule is contained in a parliamentary law. Lily Thomas removed the protection during pendency of an appeal, making statement 3 incorrect.",
+   "ty": "statements",
+   "tq": "Use the immediate-effect rule to identify the false statement about the appeal period.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "In Public Interest Foundation v. Union of India (2018), the five-judge Bench directed political parties to do which of the following?",
+   "o": [
+    "Refer all criminal cases against candidates to the President.",
+    "Disqualify every candidate against whom charges have been framed.",
+    "Prevent candidates with pending cases from filing nomination papers.",
+    "Publicise the criminal records of selected candidates and the reasons for selecting them."
+   ],
+   "a": 3,
+   "x": "The Court ordered publicity of candidates’ criminal records and the reasons for their selection. It did not itself impose disqualification merely on the framing of charges.",
+   "ty": "fact",
+   "tq": "Separate judicial directions on transparency from the power to impose disqualification.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "With reference to Public Interest Foundation v. Union of India (2018), consider the following statements:\n1. The Court itself imposed disqualification upon the framing of charges in serious offences.\n2. The question of disqualification upon framing of charges was left to Parliament.\n3. Publicity of criminal records of candidates was ordered.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "The Court left the issue of disqualification on framing of charges to Parliament but ordered publicity of criminal records. It did not itself impose such disqualification.",
+   "ty": "statements",
+   "tq": "Distinguish between what a court ordered and what it left to the legislature.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "The Election Commission’s current requirement concerning candidates with criminal records includes publication of which of the following by political parties?\n1. Details of the candidates’ criminal records\n2. Reasons for selecting such candidates\n3. Mandatory withdrawal of their candidature\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Political parties must publish the criminal-record details of selected candidates and the reasons for their selection. Mandatory withdrawal of candidature is not part of the stated requirement.",
+   "ty": "statements",
+   "tq": "Reject the extreme consequence when the actual reform is based on disclosure and justification.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "The Law Commission’s recommendation to bar candidates after framing of charges was specifically related to which category of offences?",
+   "o": [
+    "Serious offences",
+    "Only offences under the Tenth Schedule",
+    "Only offences involving election expenditure",
+    "All civil disputes"
+   ],
+   "a": 0,
+   "x": "The Law Commission recommended barring candidates once charges were framed in serious offences.",
+   "ty": "fact",
+   "tq": "Focus on the qualifying phrase that limits the scope of a legal recommendation.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "The recommendation to bar candidates upon framing of charges in serious offences was made in which report of the Law Commission?",
+   "o": [
+    "170th Report, 1999",
+    "255th Report, 2015",
+    "2nd Administrative Reforms Commission Report",
+    "244th Report, 2014"
+   ],
+   "a": 3,
+   "x": "The recommendation was made in the Law Commission’s 244th Report of 2014.",
+   "ty": "numerical",
+   "tq": "Match the recommendation with its specific report number and year.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "According to the cited ADR data, what proportion of Members of Parliament and Members of Legislative Assemblies face serious criminal charges, respectively?",
+   "o": [
+    "31% and 29%",
+    "29% and 31%",
+    "31% and 14%",
+    "14% and 29%"
+   ],
+   "a": 0,
+   "x": "The cited ADR figures are 31% of MPs and 29% of MLAs facing serious criminal charges.",
+   "ty": "numerical",
+   "tq": "Keep the categories in the order asked and distinguish the two percentages.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "The share of Members of Parliament facing serious criminal charges increased from 14% in 2009 to what percentage in 2024?",
+   "o": [
+    "24%",
+    "29%",
+    "31%",
+    "41%"
+   ],
+   "a": 2,
+   "x": "The cited data show an increase in the share from 14% in 2009 to 31% in 2024.",
+   "ty": "numerical",
+   "tq": "Track the stated time trend rather than confusing it with the MLA figure.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "Which of the following statements regarding the current judicial and institutional response to criminalisation of politics is correct?",
+   "o": [
+    "A lifetime ban on convicted legislators has already been enacted and no petition is pending.",
+    "The Supreme Court has abolished all special courts for MPs and MLAs.",
+    "A PIL seeking a lifetime ban on convicted legislators is pending, and 12 special courts exist for MPs and MLAs.",
+    "Only one special court exists for all cases involving elected representatives."
+   ],
+   "a": 2,
+   "x": "A PIL seeking a lifetime ban on convicted legislators is pending, while 12 special courts have been established for cases involving MPs and MLAs.",
+   "ty": "fact",
+   "tq": "Distinguish a pending proposal from an already enacted reform.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Case)\nA. ADR v. Union of India\nB. PUCL v. Union of India\nC. Ramesh Dalal v. Union of India\nD. Krishnamurthy v. Sivakumar\n\nList-II (Year)\n1. 2002\n2. 2003\n3. 2005\n4. 2015\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "A-1, B-2, C-3, D-4",
+    "A-2, B-1, C-4, D-3",
+    "A-1, B-3, C-2, D-4",
+    "A-4, B-2, C-3, D-1"
+   ],
+   "a": 0,
+   "x": "ADR v. Union of India was decided in 2002, PUCL v. Union of India in 2003, Ramesh Dalal in 2005 and Krishnamurthy in 2015.",
+   "ty": "match",
+   "tq": "Start with the sure case-year pair and eliminate codes containing a mismatch.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Krishnamurthy v. Sivakumar — Introduction of electoral bonds",
+    "ADR v. Union of India — Mandatory disclosure of criminal cases, assets, liabilities and education",
+    "PUCL v. Union of India — Disqualification on framing of charges in every criminal offence",
+    "Ramesh Dalal v. Union of India — Abolition of the right to know"
+   ],
+   "a": 1,
+   "x": "ADR v. Union of India concerned mandatory disclosure of criminal cases, assets, liabilities and educational qualifications. The other cases are incorrectly associated with the stated subjects.",
+   "ty": "negative",
+   "tq": "Find the one accurate case-holding pair among swapped judicial subjects.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "The decision in PUCL v. Union of India recognised that the voter’s right to know is part of which constitutional right?",
+   "o": [
+    "Article 32",
+    "Article 19(1)(a)",
+    "Article 21A",
+    "Article 14"
+   ],
+   "a": 1,
+   "x": "PUCL v. Union of India recognised the voter’s right to know as part of the freedom of speech and expression under Article 19(1)(a).",
+   "ty": "fact",
+   "tq": "Identify the constitutional article linked to the specific fundamental right.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "What was the principal holding in Ramesh Dalal v. Union of India (2005)?",
+   "o": [
+    "A candidate is disqualified merely when an FIR is registered.",
+    "The Election Commission must fund all candidates in kind.",
+    "A sitting MP or MLA convicted and sentenced to two years or more is barred from contesting elections.",
+    "Political parties must publish their election manifestos in newspapers."
+   ],
+   "a": 2,
+   "x": "Ramesh Dalal v. Union of India held that a sitting MP or MLA convicted and sentenced to imprisonment of two years or more is barred from contesting elections.",
+   "ty": "fact",
+   "tq": "Link the case to the precise conviction threshold instead of the earlier stage of an FIR or charge.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "Non-disclosure of serious criminal cases by a candidate was held to vitiate the nomination in which case?",
+   "o": [
+    "Public Interest Foundation v. Union of India",
+    "Krishnamurthy v. Sivakumar",
+    "PUCL v. Union of India",
+    "ADR v. Union of India"
+   ],
+   "a": 1,
+   "x": "Krishnamurthy v. Sivakumar (2015) held that non-disclosure of serious criminal cases vitiates the nomination.",
+   "ty": "fact",
+   "tq": "Discriminate between cases dealing with disclosure, publicity and nomination validity.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "Which of the following correctly states the direction associated with Public Interest Foundation v. Union of India (2018)?",
+   "o": [
+    "Only the courts may publish criminal records after conviction.",
+    "The Election Commission must keep candidates’ criminal records confidential.",
+    "Political parties must publicise candidates’ criminal records on websites, in newspapers and on television.",
+    "Candidates may be barred solely by the Election Commission after an FIR."
+   ],
+   "a": 2,
+   "x": "The judgment directed political parties to publicise candidates’ criminal records through websites, newspapers and television.",
+   "ty": "fact",
+   "tq": "Use the complete set of prescribed publicity channels to identify the precise option.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "Disqualification under the Tenth Schedule is decided by the Speaker or Chairman, subject to which limitation?",
+   "o": [
+    "Approval by the President in all cases",
+    "Judicial review by the courts",
+    "A referendum among members of the House",
+    "Approval by the Election Commission before every decision"
+   ],
+   "a": 1,
+   "x": "The Speaker or Chairman decides disqualification under the Tenth Schedule, but the decision remains subject to judicial review, as recognised by the Supreme Court in 1992.",
+   "ty": "fact",
+   "tq": "Ask who exercises the power and then identify the constitutional check on that power.",
+   "sec": "Criminalisation of politics"
+  },
+  {
+   "s": "State funding of elections was recommended in 1998 by which committee?",
+   "o": [
+    "Vohra Committee",
+    "Estimates Committee",
+    "Indrajit Gupta Committee",
+    "Dinesh Goswami Committee"
+   ],
+   "a": 2,
+   "x": "The Indrajit Gupta Committee recommended state funding of elections in 1998.",
+   "ty": "fact",
+   "tq": "Match the reform proposal with the committee that made it.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "The Indrajit Gupta Committee recommended state funding of elections in which form?",
+   "o": [
+    "Funding only through foreign contributions",
+    "Loans from commercial banks to all contestants",
+    "Partial funding in kind to recognised parties and candidates",
+    "Full funding in cash to every individual candidate"
+   ],
+   "a": 2,
+   "x": "The committee recommended partial state funding in kind for recognised political parties and candidates.",
+   "ty": "fact",
+   "tq": "Separate the model, beneficiaries and mode of funding rather than remembering only the committee name.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "Which one of the following is correct regarding the status of the Indrajit Gupta Committee’s recommendation on state funding?",
+   "o": [
+    "It was adopted only for elections to the Rajya Sabha.",
+    "It was fully adopted throughout India in 1998.",
+    "It was repealed after being implemented for one election cycle.",
+    "It has not yet been adopted."
+   ],
+   "a": 3,
+   "x": "The recommendation for partial funding in kind has not yet been adopted.",
+   "ty": "fact",
+   "tq": "Distinguish a recommendation from its actual implementation.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "The Dinesh Goswami Committee and the Second Administrative Reforms Commission are associated with recommendations regarding which reform?",
+   "o": [
+    "Removal of the anti-defection law",
+    "Introduction of nominated legislatures",
+    "Public funding of elections",
+    "Abolition of the Election Commission"
+   ],
+   "a": 2,
+   "x": "Both the Dinesh Goswami Committee and the Second Administrative Reforms Commission recommended public funding of elections.",
+   "ty": "fact",
+   "tq": "Identify the common reform associated with two separate bodies.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "The Law Commission’s 170th Report stated that full state funding of elections would be desirable only if which condition were fulfilled?",
+   "o": [
+    "Only independent candidates received public funds.",
+    "The Election Commission was abolished.",
+    "Political parties were barred from obtaining funds from other sources.",
+    "All candidates were allowed unlimited private donations."
+   ],
+   "a": 2,
+   "x": "The Law Commission considered full state funding desirable only if political parties were barred from receiving funds from other sources.",
+   "ty": "fact",
+   "tq": "Test the conditional nature of a recommendation and reject an unconditional formulation.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "Consider the following statements about models of state funding of elections:\n1. Public funding may be full or partial.\n2. Funding may be provided in cash or in kind.\n3. Partial funding means that the State bears all legitimate costs and private donations are banned.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "State funding may be full or partial and may be in cash or in kind. Bearing all legitimate costs while banning private donations describes full funding, not partial funding.",
+   "ty": "statements",
+   "tq": "Use the definition of partial funding to catch the swapped meaning in statement 3.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "Which of the following best describes partial state funding of elections?",
+   "o": [
+    "The State bears all legitimate costs and private donations are prohibited.",
+    "The State provides no assistance but regulates private donations.",
+    "The State funds only the election deposits of losing candidates.",
+    "The State meets some costs, in cash or in kind, such as free airtime, fuel or rallies."
+   ],
+   "a": 3,
+   "x": "Under partial funding, the State meets some election costs, either in cash or in kind. Examples include free airtime, fuel and rallies.",
+   "ty": "fact",
+   "tq": "Select the option containing both the definition and the relevant examples.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "Which one of the following is NOT cited as a country having public funding of elections?",
+   "o": [
+    "Brazil",
+    "Japan",
+    "Sweden",
+    "Germany"
+   ],
+   "a": 0,
+   "x": "Germany, Sweden and Japan are cited as countries with public funding of elections. Brazil is not included in the stated list.",
+   "ty": "negative",
+   "tq": "Find the country outside the specifically stated group rather than relying on general knowledge.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "Which of the following is an argument in favour of state funding of elections?",
+   "o": [
+    "It does not stop off-book cash spending.",
+    "It imposes a heavy fiscal burden on the State.",
+    "It can curb black money and quid-pro-quo funding.",
+    "It guarantees that private donations will continue without regulation."
+   ],
+   "a": 2,
+   "x": "Curbing black money and quid-pro-quo funding is an argument in favour of state funding. Heavy fiscal burden and continued off-book spending are arguments against it.",
+   "ty": "fact",
+   "tq": "Separate arguments for and against a policy by their direction of effect.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "Which of the following is an argument against state funding of elections?",
+   "o": [
+    "It can curb quid-pro-quo funding.",
+    "It is linked with the equality principle under Article 14.",
+    "It may help create a level field for resource-poor candidates.",
+    "It places a heavy fiscal burden on the State."
+   ],
+   "a": 3,
+   "x": "The heavy fiscal burden on the State is an argument against public funding. A level field and curbing quid-pro-quo funding are arguments in favour.",
+   "ty": "fact",
+   "tq": "Identify the negative policy consequence among otherwise favourable effects.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "State funding of elections is associated with the objective of creating a level field for resource-poor candidates, a consideration linked with which constitutional provision?",
+   "o": [
+    "Article 32",
+    "Article 368",
+    "Article 14",
+    "Article 19(2)"
+   ],
+   "a": 2,
+   "x": "The level-playing-field rationale for resource-poor candidates is linked with Article 14, the equality provision.",
+   "ty": "fact",
+   "tq": "Match the policy rationale with the constitutional article expressly associated with it.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "According to the Supreme Court decision in State of Karnataka v. Prathik Parasrampuria (2026), eliminating black money from elections is primarily whose core responsibility?",
+   "o": [
+    "The Comptroller and Auditor General",
+    "The Parliament Secretariat",
+    "The Election Commission of India",
+    "The Finance Commission"
+   ],
+   "a": 2,
+   "x": "The Supreme Court described elimination of black money from elections as a core responsibility of the Election Commission of India.",
+   "ty": "fact",
+   "tq": "Ask which constitutional institution has the responsibility, avoiding a swap with an auditing or fiscal body.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "Which of the following proposals has been suggested as an alternative or supplementary measure for election funding reform?\n1. National Election Fund with pooling of corporate donations\n2. Democracy vouchers\n3. Zero-cash rule\n4. CAG audits of political parties\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The listed reform ideas include a National Election Fund, democracy vouchers, a zero-cash rule and bringing parties under CAG audits. The National Election Fund is envisaged as an IPL-style pooling mechanism linked to vote share.",
+   "ty": "statements",
+   "tq": "Use an all-inclusive option when every listed reform proposal belongs to the same policy package.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "The proposed National Election Fund has been compared to an IPL-style pooling mechanism in which corporate donations would be shared according to which basis?",
+   "o": [
+    "Age of the candidate",
+    "Number of criminal cases disclosed",
+    "Vote share",
+    "Order of filing nomination"
+   ],
+   "a": 2,
+   "x": "The proposed National Election Fund would pool corporate donations and distribute them according to the vote share of political parties.",
+   "ty": "fact",
+   "tq": "Identify the allocation criterion in a proposed institutional mechanism.",
+   "sec": "State funding of elections"
+  },
+  {
+   "s": "Which of the following combinations is correctly matched with a proposed electoral funding reform?\n1. Democracy vouchers — a proposed alternative funding mechanism\n2. Zero-cash rule — restriction on cash-based election transactions\n3. CAG audits — audit-based oversight of political parties\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Democracy vouchers, a zero-cash rule and CAG audits are all among the proposed ideas for electoral funding and governance reform.",
+   "ty": "statements",
+   "tq": "Confirm whether each reform is correctly paired with its broad purpose.",
+   "sec": "State funding of elections"
+  }
+ ]
+}
