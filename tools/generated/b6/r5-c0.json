@@ -1,0 +1,678 @@
+{
+ "book": 6,
+ "row": 5,
+ "chunk": 0,
+ "section": "National - economy: Union Budget and Economic Survey highlights, RBI policy, key data releases",
+ "subsections": [
+  "Payment systems and platforms → organisation + features",
+  "Banking developments - penalties, mergers, digital currency",
+  "Key data releases → agency + frequency + base year"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 48,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The National Payments Corporation of India (NPCI) was set up in which year?",
+   "o": [
+    "2006",
+    "2008",
+    "2010",
+    "2012"
+   ],
+   "a": 1,
+   "x": "NPCI was set up in 2008 as a Section 8 not-for-profit company.",
+   "ty": "fact",
+   "tq": "Use the numerical year directly and distinguish NPCI from the launch years of its products.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "NPCI was promoted by which of the following organisations?",
+   "o": [
+    "SEBI and Indian Banks’ Association",
+    "Ministry of Finance and SEBI",
+    "RBI and Indian Banks’ Association",
+    "RBI and NABARD"
+   ],
+   "a": 2,
+   "x": "NPCI was promoted by the Reserve Bank of India and the Indian Banks’ Association.",
+   "ty": "fact",
+   "tq": "Test the founding institutions by identifying the organisations responsible for the platform.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "Consider the following statements regarding NPCI:\n1. It is a Section 8 company.\n2. It is a not-for-profit company.\n3. It operates UPI, IMPS, RuPay and Bharat BillPay.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "NPCI is a Section 8 not-for-profit company and operates all the listed payment products.",
+   "ty": "statements",
+   "tq": "Check whether the institutional status and the product list are all correctly paired.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "Which one of the following is NOT a product of NPCI?",
+   "o": [
+    "NETC FASTag",
+    "Bharat BillPay",
+    "National Common Mobility Card",
+    "Payments Switching Service"
+   ],
+   "a": 3,
+   "x": "NCMC, NETC FASTag and Bharat BillPay are NPCI products. Payments Switching Service is an initiative under Payments Vision 2028.",
+   "ty": "negative",
+   "tq": "Find the item belonging to a related policy initiative rather than the organisation’s listed products.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "e-RUPI is best described as a:",
+   "o": [
+    "Central bank digital currency used for unrestricted payments",
+    "Purpose-bound digital voucher",
+    "Wholesale inter-bank settlement system",
+    "Credit card network operated by NPCI"
+   ],
+   "a": 1,
+   "x": "e-RUPI is a purpose-bound digital voucher intended for specified benefits or services.",
+   "ty": "confusable",
+   "tq": "Discriminate between a voucher, a payment network and a digital currency.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "Payments Vision 2028 of the Reserve Bank of India comprises how many initiatives?",
+   "o": [
+    "10",
+    "12",
+    "15",
+    "20"
+   ],
+   "a": 2,
+   "x": "Payments Vision 2028 contains 15 initiatives.",
+   "ty": "numerical",
+   "tq": "Test the exact numerical count using closely spaced alternatives.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "Which of the following is a feature of Payments Vision 2028?\n1. Shared liability of the sender and receiver banks for fraud\n2. RBI oversight of e-commerce marketplaces\n3. Introduction of a Payments Switching Service\n4. White-label AePS\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four listed measures are features or initiatives associated with Payments Vision 2028.",
+   "ty": "statements",
+   "tq": "When all statements belong to one policy package, verify the complete list before rejecting the comprehensive option.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "UPI was launched by NPCI on:",
+   "o": [
+    "11 April 2016",
+    "11 April 2015",
+    "11 April 2014",
+    "11 April 2017"
+   ],
+   "a": 0,
+   "x": "UPI was launched by NPCI on 11 April 2016.",
+   "ty": "fact",
+   "tq": "Use the exact date and distinguish the launch year from the later ten-year milestone.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "Which one of the following correctly describes the technological basis of UPI?",
+   "o": [
+    "UPI uses only account numbers and is built on NEFT",
+    "UPI uses a PAN-based identifier and is built on RTGS",
+    "UPI uses a card number and is built on SWIFT",
+    "UPI uses a VPA and is built on IMPS"
+   ],
+   "a": 3,
+   "x": "UPI uses a Virtual Payment Address (VPA) and is built on the Immediate Payment Service (IMPS).",
+   "ty": "confusable",
+   "tq": "Separate the identifier used by the platform from the underlying payment infrastructure.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "UPI completed ten years in 2026. The number of UPI transactions recorded in 2025–26 was approximately:",
+   "o": [
+    "14,161.69 crore",
+    "19,161.69 crore",
+    "24,161.69 crore",
+    "29,161.69 crore"
+   ],
+   "a": 2,
+   "x": "UPI completed ten years in 2026, and 24,161.69 crore transactions were recorded in 2025–26.",
+   "ty": "numerical",
+   "tq": "Combine the milestone year with the exact transaction figure and reject altered digits.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "BHIM is run by which entity?",
+   "o": [
+    "NPCI International Payments Ltd",
+    "BHIM Services Ltd",
+    "Bharat BillPay Services Ltd",
+    "RBI Payments Corporation"
+   ],
+   "a": 1,
+   "x": "BHIM is run by NPCI BHIM Services Ltd.",
+   "ty": "fact",
+   "tq": "Identify the operating entity rather than the parent organisation or an international subsidiary.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "Which of the following statements is correct regarding BHIM?\n1. BHIM was launched in 2016.\n2. BHIM 3.0 was introduced in 2025.\n3. BHIM is run by NPCI BHIM Services Ltd.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "BHIM was launched in 2016, BHIM 3.0 was introduced in 2025, and its operating entity is NPCI BHIM Services Ltd.",
+   "ty": "statements",
+   "tq": "Test the product’s launch, version and operating organisation together.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "Which country became the 11th country to accept UPI through NPCI International Payments Ltd?",
+   "o": [
+    "Bhutan",
+    "Nepal",
+    "Singapore",
+    "Uzbekistan"
+   ],
+   "a": 3,
+   "x": "Uzbekistan became the 11th country to accept UPI through NPCI International Payments Ltd. Bhutan was the first country to accept UPI.",
+   "ty": "fact",
+   "tq": "Use the country-number association and distinguish the 11th country from the first adopter.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "Which country was the first to accept UPI outside India?",
+   "o": [
+    "Sri Lanka",
+    "Bhutan",
+    "Nepal",
+    "Uzbekistan"
+   ],
+   "a": 1,
+   "x": "Bhutan was the first country outside India to accept UPI.",
+   "ty": "confusable",
+   "tq": "Discriminate between the first adopter and the later 11th country.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "The zero-MDR regime for UPI had applied since January 2020 under which provision?",
+   "o": [
+    "Section 10A of the Banking Regulation Act, 1949",
+    "Section 10A of the Payment and Settlement Systems Act, 2007",
+    "Section 43A of the Income-tax Act, 1961",
+    "Section 12 of the Payment and Settlement Systems Act, 2007"
+   ],
+   "a": 1,
+   "x": "Zero MDR had applied since January 2020 under Section 10A of the Payment and Settlement Systems Act, 2007.",
+   "ty": "fact",
+   "tq": "Match the precise statutory provision with the correct parent legislation.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "Under the revised UPI MDR framework effective from 15 October 2026, which statement is correct?",
+   "o": [
+    "All UPI payments attract a uniform MDR of 0.4%.",
+    "Consumers are charged MDR directly on every UPI transaction.",
+    "P2P payments attract MDR, while all P2M payments remain free.",
+    "P2P payments remain free, and P2M payments up to ₹2,000 remain free."
+   ],
+   "a": 3,
+   "x": "Person-to-person payments remain free, and person-to-merchant payments up to ₹2,000 also remain free under the revised framework.",
+   "ty": "comparison",
+   "tq": "Compare P2P and P2M categories before applying the threshold condition.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "The revised MDR fixed by NPCI for specified UPI P2M payments above ₹2,000 is:",
+   "o": [
+    "0.2%",
+    "0.4%",
+    "0.6%",
+    "1.0%"
+   ],
+   "a": 1,
+   "x": "NPCI fixed an MDR of 0.4% for specified UPI merchant payments above ₹2,000 from 15 October 2026.",
+   "ty": "numerical",
+   "tq": "Test the exact rate while keeping nearby percentage distractors.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "Which of the following statements regarding the revised UPI MDR is correct?\n1. A flat ₹5 charge applies above ₹2,000 in railways, telecom, insurance, fuel and agricultural inputs.\n2. The charge is capped at ₹300 for transactions of ₹75,000 and above.\n3. NPCI fixes UPI MDR through its UPI Steering Committee.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly describe the revised UPI MDR arrangements and the authority fixing the MDR.",
+   "ty": "statements",
+   "tq": "Verify the sectoral exception, upper cap and institutional authority separately.",
+   "sec": "Payment systems and platforms → organisation + features"
+  },
+  {
+   "s": "Under the CBDC-based DBT pilot, food subsidy under PM-GKAY was paid as:",
+   "o": [
+    "Purpose-bound e₹ tokens",
+    "RuPay prepaid cards",
+    "Physical food coupons",
+    "Unrestricted cash transfers through UPI"
+   ],
+   "a": 0,
+   "x": "The food subsidy was paid as purpose-bound e₹ tokens under the CBDC-based DBT pilot.",
+   "ty": "application",
+   "tq": "Identify the instrument from the purpose-bound condition in the policy scenario.",
+   "sec": "Banking developments - penalties, mergers, digital currency"
+  },
+  {
+   "s": "The CBDC-based DBT pilots for food subsidy were conducted in:",
+   "o": [
+    "Delhi and Puducherry",
+    "Jammu and Kashmir and Ladakh",
+    "Gujarat and Goa",
+    "Chandigarh and Dadra & Nagar Haveli"
+   ],
+   "a": 3,
+   "x": "The pilots were conducted in Chandigarh and Dadra & Nagar Haveli in August 2026.",
+   "ty": "fact",
+   "tq": "Match the pilot initiative with its specified locations.",
+   "sec": "Banking developments - penalties, mergers, digital currency"
+  },
+  {
+   "s": "Under the Draft RBI (Interest Rates on Loans and Advances) Directions, 2026, floating-rate personal and MSME loans must use:",
+   "o": [
+    "The marginal cost of funds only",
+    "An external benchmark",
+    "The bank’s fixed prime lending rate",
+    "The gold lending rate"
+   ],
+   "a": 1,
+   "x": "Floating-rate personal and MSME loans must use an external benchmark from 1 April 2027.",
+   "ty": "fact",
+   "tq": "Identify the prescribed benchmark and avoid substituting older internal benchmark terminology.",
+   "sec": "Banking developments - penalties, mergers, digital currency"
+  },
+  {
+   "s": "The requirement for floating-rate personal and MSME loans to use an external benchmark takes effect from:",
+   "o": [
+    "1 October 2026",
+    "1 April 2027",
+    "1 January 2027",
+    "1 April 2026"
+   ],
+   "a": 1,
+   "x": "The external-benchmark requirement takes effect from 1 April 2027.",
+   "ty": "numerical",
+   "tq": "Use the effective date rather than the year in which the draft directions were issued.",
+   "sec": "Banking developments - penalties, mergers, digital currency"
+  },
+  {
+   "s": "The Regional Rural Bank consolidation resulted in how many RRBs, earlier numbering 196, being merged into how many RRBs?",
+   "o": [
+    "196 into 28",
+    "196 into 20",
+    "196 into 42",
+    "196 into 35"
+   ],
+   "a": 0,
+   "x": "The One State One RRB initiative reduced the number of RRBs from 196 to 28.",
+   "ty": "numerical",
+   "tq": "Test the before-and-after figures as a banking consolidation pair.",
+   "sec": "Banking developments - penalties, mergers, digital currency"
+  },
+  {
+   "s": "The four RRBs merged into one Andhra Pradesh bank have their headquarters at:",
+   "o": [
+    "Guntur",
+    "Visakhapatnam",
+    "Tirupati",
+    "Vijayawada"
+   ],
+   "a": 0,
+   "x": "The merged Andhra Pradesh RRB has its headquarters at Guntur.",
+   "ty": "fact",
+   "tq": "Apply the location filter to distinguish the headquarters from other major cities in the State.",
+   "sec": "Banking developments - penalties, mergers, digital currency"
+  },
+  {
+   "s": "India’s gross non-performing assets reached a decade-low level of 2.3 per cent in:",
+   "o": [
+    "March 2023",
+    "March 2024",
+    "March 2026",
+    "March 2025"
+   ],
+   "a": 3,
+   "x": "Gross NPAs stood at a decade-low 2.3% in March 2025.",
+   "ty": "numerical",
+   "tq": "Link the percentage to the specific reference month and year.",
+   "sec": "Banking developments - penalties, mergers, digital currency"
+  },
+  {
+   "s": "Which one of the following is NOT listed as an asset-quality or financial-sector technology tool?",
+   "o": [
+    "MuleHunter.ai",
+    "DPIP",
+    "PaSS",
+    "ULI"
+   ],
+   "a": 2,
+   "x": "MuleHunter.ai, ULI and DPIP are listed as tools related to asset quality or financial-sector development. PaSS is a Payments Vision 2028 initiative.",
+   "ty": "negative",
+   "tq": "Separate banking and asset-quality tools from payment-system initiatives.",
+   "sec": "Banking developments - penalties, mergers, digital currency"
+  },
+  {
+   "s": "The Bharat Maritime Insurance Pool was launched by the:",
+   "o": [
+    "Insurance Regulatory and Development Authority of India",
+    "Ministry of Ports, Shipping and Waterways",
+    "Reserve Bank of India",
+    "Department of Financial Services, Ministry of Finance"
+   ],
+   "a": 3,
+   "x": "The Bharat Maritime Insurance Pool was launched by the Department of Financial Services under the Ministry of Finance on 12 May 2026.",
+   "ty": "fact",
+   "tq": "Use the responsible department trap by distinguishing DFS from sectoral regulators and ministries.",
+   "sec": "Banking developments - penalties, mergers, digital currency"
+  },
+  {
+   "s": "Which statement regarding the Bharat Maritime Insurance Pool is correct?\n1. It carries a sovereign guarantee of ₹12,980 crore.\n2. The first P&I policy was issued to the Shipping Corporation of India.\n3. It was launched on 12 May 2026.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The pool was launched on 12 May 2026, carries a ₹12,980 crore sovereign guarantee, and issued its first P&I policy to the Shipping Corporation of India.",
+   "ty": "statements",
+   "tq": "Combine the date, financial figure and beneficiary to test a current initiative comprehensively.",
+   "sec": "Banking developments - penalties, mergers, digital currency"
+  },
+  {
+   "s": "The Policyholders’ Education and Protection Fund is associated with which provision?",
+   "o": [
+    "Section 10A of the Payment and Settlement Systems Act, 2007",
+    "Section 80C of the Income-tax Act, 1961",
+    "Section 16A of the insurance law",
+    "Section 45 of the Banking Regulation Act, 1949"
+   ],
+   "a": 2,
+   "x": "The Policyholders’ Education and Protection Fund is provided under Section 16A, inserted by the Sabka Bima Sabki Raksha Act, 2025.",
+   "ty": "fact",
+   "tq": "Match the fund with its specific statutory section rather than a similar financial-sector provision.",
+   "sec": "Banking developments - penalties, mergers, digital currency"
+  },
+  {
+   "s": "The Sabka Bima Sabki Raksha Act, 2025 permits foreign direct investment in insurance up to:",
+   "o": [
+    "make 100%",
+    "51%",
+    "74%",
+    "49%"
+   ],
+   "a": 0,
+   "x": "The Act permits 100% foreign direct investment in insurance.",
+   "ty": "numerical",
+   "tq": "Test the exact investment limit and avoid confusing it with earlier sectoral caps.",
+   "sec": "Banking developments - penalties, mergers, digital currency"
+  },
+  {
+   "s": "Which organisation releases the new GDP series and the Consumer Price Index?",
+   "o": [
+    "Office of Economic Adviser, DPIIT",
+    "National Statistical Office, Ministry of Statistics and Programme Implementation",
+    "Reserve Bank of India",
+    "NITI Aayog"
+   ],
+   "a": 1,
+   "x": "The NSO under MoSPI releases both GDP and CPI data.",
+   "ty": "match",
+   "tq": "Start with the sure agency–indicator pair and distinguish NSO from the Office of Economic Adviser.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "The latest GDP series released on 27 February 2026 has which base year?",
+   "o": [
+    "2022–23",
+    "2020–21",
+    "2011–12",
+    "2015–16"
+   ],
+   "a": 0,
+   "x": "The latest GDP series uses 2022–23 as its base year, replacing 2011–12.",
+   "ty": "fact",
+   "tq": "Distinguish the new base year from the earlier base year shown in parentheses.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "Which of the following correctly describes the frequency of GDP data release?",
+   "o": [
+    "Half-yearly only",
+    "Quarterly and annual",
+    "Quarterly only",
+    "Monthly only"
+   ],
+   "a": 1,
+   "x": "GDP is released on a quarterly and annual basis by the NSO.",
+   "ty": "comparison",
+   "tq": "Compare the release frequency of GDP with the monthly frequency of price and production indices.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "The new GDP series recorded which of the following growth rates?",
+   "o": [
+    "FY 2025–26: 6.7% and Q1 FY 2026–27: 6.8%",
+    "FY 2025–26: 7.7% and Q1 FY 2026–27: 7.8%",
+    "FY 2025–26: 7.8% and Q1 FY 2026–27: 7.7%",
+    "FY 2025–26: 8.7% and Q1 FY 2026–27: 8.8%"
+   ],
+   "a": 1,
+   "x": "GDP growth was estimated at 7.7% for FY 2025–26 and 7.8% in Q1 of FY 2026–27.",
+   "ty": "comparison",
+   "tq": "Keep the annual and quarterly values in their correct order.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "The latest CPI series released with the January 2026 index has which base year and number of groups?",
+   "o": [
+    "2024 and 12 groups",
+    "2012 and 10 groups",
+    "2024 and 16 groups",
+    "2022–23 and 12 groups"
+   ],
+   "a": 0,
+   "x": "The CPI has a 2024 base year and comprises 12 groups under COICOP 2018.",
+   "ty": "numerical",
+   "tq": "Test the base year and the composition count together rather than separately.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "The weights in the latest CPI series are based on which survey?",
+   "o": [
+    "Periodic Labour Force Survey 2023–24",
+    "Annual Survey of Industries 2023–24",
+    "Economic Census 2023–24",
+    "Household Consumption Expenditure Survey 2023–24"
+   ],
+   "a": 3,
+   "x": "The CPI weights are based on the Household Consumption Expenditure Survey 2023–24.",
+   "ty": "fact",
+   "tq": "Use the survey-purpose association to distinguish consumption data from labour and industrial surveys.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "Which statement about recent CPI inflation is correct?\n1. CPI inflation was 4.45% in July 2026.\n2. July 2026 inflation was a 19-month high.\n3. CPI inflation was 4.8% in August 2026, a 20-month high.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The stated July and August 2026 inflation figures and their respective 19-month and 20-month highs are correct.",
+   "ty": "statements",
+   "tq": "Track month-specific values carefully and avoid replacing one month’s high with another’s.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "The latest IIP series is based on:",
+   "o": [
+    "2022–23, with 842 products",
+    "2015–16, with 1,042 products",
+    "2022–23, with 1,042 products",
+    "2011–12, with 1,000 products"
+   ],
+   "a": 2,
+   "x": "The tenth-revision IIP series uses 2022–23 as its base year and covers 1,042 products.",
+   "ty": "numerical",
+   "tq": "Pair the revision number’s base year with the exact product count.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "The weight of manufacturing in the latest IIP series is:",
+   "o": [
+    "66.1%",
+    "70.6%",
+    "76.1%",
+    "81.6%"
+   ],
+   "a": 2,
+   "x": "Manufacturing carries a weight of 76.1% in the latest IIP series.",
+   "ty": "numerical",
+   "tq": "Test the exact sectoral weight using close percentage alternatives.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "IIP data are released by the NSO on a:",
+   "o": [
+    "Quarterly basis",
+    "Weekly basis",
+    "Annual basis only",
+    "Monthly basis"
+   ],
+   "a": 3,
+   "x": "The Index of Industrial Production is released monthly by the NSO.",
+   "ty": "fact",
+   "tq": "Match the indicator with its release frequency and distinguish it from GDP.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "The Wholesale Price Index is compiled and released by the:",
+   "o": [
+    "Reserve Bank of India",
+    "Labour Bureau, Ministry of Labour",
+    "Office of Economic Adviser, DPIIT",
+    "National Statistical Office, MoSPI"
+   ],
+   "a": 2,
+   "x": "WPI is released monthly by the Office of Economic Adviser under DPIIT, Ministry of Commerce and Industry.",
+   "ty": "fact",
+   "tq": "Use the responsible-office trap to distinguish WPI from NSO-released indices.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "The new WPI series uses which base year?",
+   "o": [
+    "2011–12",
+    "2015–16",
+    "2020–21",
+    "2022–23"
+   ],
+   "a": 3,
+   "x": "The new WPI series uses 2022–23 as its base year, replacing the old 2011–12 series.",
+   "ty": "confusable",
+   "tq": "Contrast the new and old base years of the same index.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "The Index of Core Industries under the latest series comprises how many sectors?",
+   "o": [
+    "Twelve",
+    "Eight",
+    "Ten",
+    "Nine"
+   ],
+   "a": 3,
+   "x": "The Index of Core Industries comprises nine sectors under the latest series.",
+   "ty": "numerical",
+   "tq": "Use the exact sector count and distinguish it from the number of products in IIP.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "Which one of the following statements about the Index of Core Industries is correct?",
+   "o": [
+    "Coal has the highest weight and iron ore is excluded.",
+    "Manufacturing has the highest weight and petroleum is excluded.",
+    "Electricity has the highest weight and iron ore has been added.",
+    "Iron ore has the highest weight and electricity is excluded."
+   ],
+   "a": 2,
+   "x": "Electricity has the highest weight in the index, and iron ore was added under the latest series.",
+   "ty": "comparison",
+   "tq": "Test two linked composition features and reject reversed weight or inclusion claims.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "The Periodic Labour Force Survey is released on which basis in its revamped form?",
+   "o": [
+    "Annual only",
+    "Quarterly and decennial",
+    "Monthly and annual",
+    "Monthly and quarterly only"
+   ],
+   "a": 2,
+   "x": "PLFS is released monthly in its revamped form and also annually.",
+   "ty": "fact",
+   "tq": "Distinguish the revamped monthly release from the traditional annual survey cycle.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "Which of the following correctly represents the recent PLFS unemployment figures?",
+   "o": [
+    "5.1% in April–June 2026, 5.4% urban; 6.7% in July 2026",
+    "5.4% in April–June 2026, 5.1% urban; 6.7% in July 2026",
+    "5.4% in April–June 2026, 6.7% urban; 5.1% in July 2026",
+    "6.7% in April–June 2026, 5.4% urban; 5.1% in July 2026"
+   ],
+   "a": 2,
+   "x": "The unemployment rate was 5.4% in April–June 2026, including 6.7% in urban areas, and 5.1% in July 2026.",
+   "ty": "comparison",
+   "tq": "Keep the overall, urban and later-month figures in their correct positions.",
+   "sec": "Key data releases → agency + frequency + base year"
+  },
+  {
+   "s": "Which change has been made in the compilation of the latest IIP?",
+   "o": [
+    "IIP is now deflated by GDP instead of WPI.",
+    "IIP is now deflated by the Consumer Price Index instead of WPI.",
+    "IIP is now deflated by the Output Producer Price Index instead of WPI.",
+    "IIP is no longer deflated by any price index."
+   ],
+   "a": 2,
+   "x": "The latest IIP is deflated using the new Output Producer Price Index instead of the Wholesale Price Index.",
+   "ty": "confusable",
+   "tq": "Discriminate between the old deflator and the newly adopted price index.",
+   "sec": "Key data releases → agency + frequency + base year"
+  }
+ ]
+}

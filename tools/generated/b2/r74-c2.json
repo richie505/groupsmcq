@@ -1,0 +1,399 @@
+{
+ "book": 2,
+ "row": 74,
+ "chunk": 2,
+ "section": "Statutory bodies - NHRC and SHRCs, National Commission for Women, NCPCR, National Commission for Minorities",
+ "subsections": [
+  "National Commission for Minorities - notified communities, recent additions",
+  "AP State Human Rights Commission and AP State Commission for Women - establishment, location",
+  "Chairpersons of national commissions - present and first holders",
+  "State counterparts - State Minority Commissions, SCPCR, SHRC, State Commissions for Women"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 32,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Under Section 2(c) of the National Commission for Minorities Act, 1992, the expression “minority” refers to:",
+   "o": [
+    "Any community notified by the President",
+    "Any community notified by the Central Government",
+    "Any community recognised by the Supreme Court",
+    "Any community notified by the concerned State Government"
+   ],
+   "a": 1,
+   "x": "Section 2(c) does not define minority independently; it refers to any community notified by the Central Government.",
+   "ty": "fact",
+   "tq": "Test the exact statutory authority instead of assuming that the President or State Government issues the notification.",
+   "sec": "National Commission for Minorities - notified communities, recent additions"
+  },
+  {
+   "s": "Which one of the following communities was NOT among those notified as minority communities in 1993?",
+   "o": [
+    "Sikhs",
+    "Parsis",
+    "Muslims",
+    "Jains"
+   ],
+   "a": 3,
+   "x": "Muslims, Christians, Sikhs, Buddhists and Parsis were notified in 1993. Jains were added later, on 27 January 2014.",
+   "ty": "negative",
+   "tq": "Use the chronological distinction between the original notified communities and the later addition.",
+   "sec": "National Commission for Minorities - notified communities, recent additions"
+  },
+  {
+   "s": "Jains were notified as a minority community in India on:",
+   "o": [
+    "27 January 2015",
+    "27 January 2013",
+    "27 January 2014",
+    "27 January 2012"
+   ],
+   "a": 2,
+   "x": "Jains were added to the list of notified minority communities on 27 January 2014.",
+   "ty": "numerical",
+   "tq": "Distinguish the close year options by anchoring the later addition to its exact date.",
+   "sec": "National Commission for Minorities - notified communities, recent additions"
+  },
+  {
+   "s": "Consider the following statements regarding the notified minority communities in India:\n1. Muslims, Christians, Sikhs, Buddhists and Parsis were notified in 1993.\n2. Jains were added to the notified list in 2014.\n3. There are six notified minority communities after the addition of Jains.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The five communities notified in 1993 became six after Jains were added in 2014.",
+   "ty": "statements",
+   "tq": "Check the original list, the later addition and the resulting total separately.",
+   "sec": "National Commission for Minorities - notified communities, recent additions"
+  },
+  {
+   "s": "The National Commission for Minorities consists of:",
+   "o": [
+    "A Chairperson and five members appointed by the President",
+    "A Chairperson, two Vice-Chairpersons and four members",
+    "A Chairperson and six members, without a Vice-Chairperson",
+    "A Chairperson, a Vice-Chairperson and five members"
+   ],
+   "a": 3,
+   "x": "The Commission has seven members: a Chairperson, a Vice-Chairperson and five members. The Vice-Chairperson was added by the 1995 amendment.",
+   "ty": "fact",
+   "tq": "Test composition and the amendment-created office together, while using the President as the authority trap.",
+   "sec": "National Commission for Minorities - notified communities, recent additions"
+  },
+  {
+   "s": "With reference to the composition of the National Commission for Minorities, consider the following statements:\n1. The Commission consists of seven members.\n2. At least five members, including the Chairperson, must be from minority communities.\n3. The Vice-Chairperson was included through the 1995 amendment.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Commission has seven members, at least five including the Chairperson must belong to minority communities, and the Vice-Chairperson was added by the 1995 amendment.",
+   "ty": "statements",
+   "tq": "Verify the numerical composition, community representation and amendment detail independently.",
+   "sec": "National Commission for Minorities - notified communities, recent additions"
+  },
+  {
+   "s": "The term of office of the National Commission for Minorities is:",
+   "o": [
+    "Two years",
+    "Five years",
+    "Four years",
+    "Three years"
+   ],
+   "a": 3,
+   "x": "The Chairperson, Vice-Chairperson and members of the National Commission for Minorities have a three-year term.",
+   "ty": "numerical",
+   "tq": "Use the four-year-value set to distinguish the statutory tenure from common constitutional tenures.",
+   "sec": "National Commission for Minorities - notified communities, recent additions"
+  },
+  {
+   "s": "The Chairperson, Vice-Chairperson and members of the National Commission for Minorities are appointed by the:",
+   "o": [
+    "President of India",
+    "Parliament",
+    "Central Government",
+    "Union Cabinet collectively"
+   ],
+   "a": 2,
+   "x": "Appointments to the National Commission for Minorities are made by the Central Government, not by the President.",
+   "ty": "confusable",
+   "tq": "Apply the ‘who would do this job?’ method to distinguish the Central Government from the President.",
+   "sec": "National Commission for Minorities - notified communities, recent additions"
+  },
+  {
+   "s": "While inquiring into complaints, the National Commission for Minorities has:",
+   "o": [
+    "Powers of a civil court",
+    "Powers of the Supreme Court",
+    "Only criminal court powers",
+    "No power of a civil court under any circumstances"
+   ],
+   "a": 0,
+   "x": "The National Commission for Minorities has civil-court powers while inquiring into complaints.",
+   "ty": "fact",
+   "tq": "Discriminate between civil-court powers, criminal jurisdiction and constitutional judicial powers.",
+   "sec": "National Commission for Minorities - notified communities, recent additions"
+  },
+  {
+   "s": "The Andhra Pradesh State Human Rights Commission functions from:",
+   "o": [
+    "Vijayawada",
+    "Visakhapatnam",
+    "Kurnool",
+    "Tirupati"
+   ],
+   "a": 2,
+   "x": "The Andhra Pradesh State Human Rights Commission works from Kurnool.",
+   "ty": "fact",
+   "tq": "Use location discrimination among major Andhra Pradesh cities.",
+   "sec": "AP State Human Rights Commission and AP State Commission for Women - establishment, location  [APPSC]"
+  },
+  {
+   "s": "The Andhra Pradesh State Human Rights Commission was established under the:",
+   "o": [
+    "National Human Rights Commission Act, 1993",
+    "Andhra Pradesh Human Rights Act, 2005",
+    "Protection of Civil Rights Act, 1955",
+    "Protection of Human Rights Act, 1993"
+   ],
+   "a": 3,
+   "x": "The Andhra Pradesh State Human Rights Commission is a State Human Rights Commission established under the Protection of Human Rights Act, 1993.",
+   "ty": "fact",
+   "tq": "Distinguish the exact parent statute from similarly worded but nonexistent Acts.",
+   "sec": "AP State Human Rights Commission and AP State Commission for Women - establishment, location  [APPSC]"
+  },
+  {
+   "s": "Who is the Chairperson of the Andhra Pradesh State Commission for Women according to the 2026 information?",
+   "o": [
+    "Rekha Sharma",
+    "Vijaya Rahatkar",
+    "Jayanti Patnaik",
+    "Rayapati Sailaja"
+   ],
+   "a": 3,
+   "x": "Rayapati Sailaja is the Chairperson of the Andhra Pradesh State Commission for Women.",
+   "ty": "fact",
+   "tq": "Separate a State Commission appointment from the Chairpersons of the National Commission for Women.",
+   "sec": "AP State Human Rights Commission and AP State Commission for Women - establishment, location  [APPSC]"
+  },
+  {
+   "s": "In 2026, the Andhra Pradesh State Commission for Women ordered inquiries relating to:",
+   "o": [
+    "281 abortion registrations in Eluru Agency areas",
+    "281 cases of human trafficking in Kurnool",
+    "196 complaints regarding minority institutions in Eluru",
+    "196 petitions concerning Scheduled Caste schemes in Nellore"
+   ],
+   "a": 0,
+   "x": "The Commission investigated 281 abortion registrations in the Eluru Agency areas, including allegations of fake-abortion registrations.",
+   "ty": "numerical",
+   "tq": "Match the institution, subject and figure rather than relying on the number alone.",
+   "sec": "AP State Human Rights Commission and AP State Commission for Women - establishment, location  [APPSC]"
+  },
+  {
+   "s": "The Andhra Pradesh State Commission for Scheduled Castes and Scheduled Tribes was originally established under the Andhra Pradesh State Commission for SCs and STs Act of:",
+   "o": [
+    "1993",
+    "2001",
+    "2003",
+    "2016"
+   ],
+   "a": 2,
+   "x": "The Andhra Pradesh State Commission for SCs and STs was established under the 2003 Act and was reconstituted in 2016 through an amendment to that Act.",
+   "ty": "numerical",
+   "tq": "Distinguish the original establishing year from the later year of reconstitution.",
+   "sec": "AP State Human Rights Commission and AP State Commission for Women - establishment, location  [APPSC]"
+  },
+  {
+   "s": "Reports of State commissions constituted under State laws are submitted to the:",
+   "o": [
+    "President and laid before Parliament",
+    "Governor and laid before the State Legislature",
+    "Chief Minister and laid before the Union Cabinet",
+    "High Court and laid before the Legislative Council בלבד"
+   ],
+   "a": 1,
+   "x": "Reports of State commissions go to the Governor and are laid before the State Legislature.",
+   "ty": "fact",
+   "tq": "Apply the State-level reporting chain and reject the Union-level authority trap.",
+   "sec": "AP State Human Rights Commission and AP State Commission for Women - establishment, location  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly explains the relevance of Articles 338(9) and 338A(10)?",
+   "o": [
+    "They directly establish all State commissions.",
+    "They empower the President to appoint all State commission members.",
+    "They transfer the reports of State commissions to Parliament.",
+    "They require the Union and States to consult the concerned National Commission on policy matters affecting the communities concerned."
+   ],
+   "a": 3,
+   "x": "Articles 338(9) and 338A(10) concern consultation with the National Commissions on major policy matters; they do not create State commissions.",
+   "ty": "negative",
+   "tq": "Reject the wrong institutional function by distinguishing consultation clauses from establishment provisions.",
+   "sec": "AP State Human Rights Commission and AP State Commission for Women - establishment, location  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Commission)\na. National Commission for Women\nb. National Human Rights Commission\nc. National Commission for Scheduled Castes\nd. National Commission for Scheduled Tribes\n\nList-II (Present Chairperson)\ni. Antar Singh Arya\nii. Justice V. Ramasubramanian\niii. Kishor Makwana\niv. Vijaya Rahatkar\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-i, b-iii, c-ii, d-iv"
+   ],
+   "a": 0,
+   "x": "Vijaya Rahatkar chairs NCW, Justice V. Ramasubramanian chairs NHRC, Kishor Makwana chairs NCSC and Antar Singh Arya chairs NCST.",
+   "ty": "match",
+   "tq": "Start from the sure pair and eliminate codes with swapped chairpersons.",
+   "sec": "Chairpersons of national commissions - present and first holders  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Commission)\na. National Commission for Women\nb. National Human Rights Commission\nc. National Commission for Scheduled Castes\nd. National Commission for Scheduled Tribes\n\nList-II (First Chairperson)\ni. Kunwar Singh\nii. Jayanti Patnaik\niii. Justice Ranganath Misra\niv. Suraj Bhan\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-iv, b-i, c-iii, d-ii",
+    "a-i, b-iv, c-ii, d-iii"
+   ],
+   "a": 0,
+   "x": "Jayanti Patnaik was the first NCW Chairperson, Justice Ranganath Misra the first NHRC Chairperson, Suraj Bhan the first separate NCSC Chairperson and Kunwar Singh the first NCST Chairperson.",
+   "ty": "match",
+   "tq": "Use the institution-specific first-holder pairs and watch for NCSC–NCST swaps.",
+   "sec": "Chairpersons of national commissions - present and first holders  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "NCSC — Antar Singh Arya",
+    "NCW — Vijaya Rahatkar",
+    "NHRC — Justice V. Ramasubramanian",
+    "NCST — Antar Singh Arya"
+   ],
+   "a": 0,
+   "x": "Antar Singh Arya is the Chairperson of NCST. Kishor Makwana is the Chairperson of NCSC.",
+   "ty": "negative",
+   "tq": "Find the swapped institution–office-holder pair among closely related commissions.",
+   "sec": "Chairpersons of national commissions - present and first holders  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Jayanti Patnaik was the first Chairperson of the National Commission for Women in:",
+   "o": [
+    "1990",
+    "1992",
+    "1994",
+    "1996"
+   ],
+   "a": 1,
+   "x": "Jayanti Patnaik became the first Chairperson of the National Commission for Women in 1992.",
+   "ty": "numerical",
+   "tq": "Use the exact year attached to the first office-holder rather than the later appointment years.",
+   "sec": "Chairpersons of national commissions - present and first holders  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "NCSK Vice-Chairperson — Hardeep Singh Gill",
+    "NCSC — Hardeep Singh Gill",
+    "NCW — Munawari Begum",
+    "NCM — Jayanti Patnaik"
+   ],
+   "a": 0,
+   "x": "Hardeep Singh Gill is the Vice-Chairperson of the National Commission for Safai Karamcharis. The other pairs assign persons to incorrect commissions.",
+   "ty": "negative",
+   "tq": "Use the exact designation, especially where a person is a Vice-Chairperson rather than a Commission Chairperson.",
+   "sec": "Chairpersons of national commissions - present and first holders  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "How many State Minority Commissions are included in the listed set comprising Andhra Pradesh, Assam, Bihar, Chhattisgarh, Delhi, Jharkhand, Karnataka, Maharashtra, Madhya Pradesh, Manipur, Rajasthan, Tamil Nadu, Uttarakhand, Uttar Pradesh and West Bengal?",
+   "o": [
+    "13",
+    "14",
+    "15",
+    "16"
+   ],
+   "a": 2,
+   "x": "The listed set contains 15 State Minority Commissions.",
+   "ty": "numerical",
+   "tq": "Count the complete institutional list carefully and avoid omitting Delhi or double-counting a State.",
+   "sec": "State counterparts - State Minority Commissions, SCPCR, SHRC, State Commissions for Women  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding State Commissions for Protection of Child Rights:\n1. They function under the Commissions for Protection of Child Rights Act, 2005.\n2. They exist as State counterparts alongside the National Commission for Protection of Child Rights.\n3. They oversee child-rights directions such as those relating to menstrual hygiene in schools.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. SCPCRs operate under the CPCR Act, 2005, alongside the NCPCR, and address child-rights directions including school menstrual-hygiene measures.",
+   "ty": "statements",
+   "tq": "Combine the parent statute, institutional relationship and functional example before selecting the code.",
+   "sec": "State counterparts - State Minority Commissions, SCPCR, SHRC, State Commissions for Women  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Under the 2019 amendment relating to State Human Rights Commissions, the Chairperson of a State Human Rights Commission may be:",
+   "o": [
+    "Any sitting Member of Parliament",
+    "A former Chief Justice or Judge of a High Court",
+    "Only a serving Chief Justice of India",
+    "Only a retired District Judge"
+   ],
+   "a": 1,
+   "x": "After the 2019 amendment, the Chairperson may be a former Chief Justice or Judge of a High Court.",
+   "ty": "fact",
+   "tq": "Watch the qualifying words ‘former’ and ‘High Court’ in eligibility questions.",
+   "sec": "State counterparts - State Minority Commissions, SCPCR, SHRC, State Commissions for Women  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding State Human Rights Commissions:\n1. State Human Rights Commissions are established under the Protection of Human Rights Act, 1993.\n2. The Centre may assign human-rights functions relating to Union Territories to State Human Rights Commissions.\n3. Human-rights functions in Delhi remain with the National Human Rights Commission.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. SHRCs are governed by the PHRA, the Centre can assign them certain UT functions, but Delhi remains with the NHRC.",
+   "ty": "statements",
+   "tq": "Test the general rule and the Delhi-specific exception together.",
+   "sec": "State counterparts - State Minority Commissions, SCPCR, SHRC, State Commissions for Women  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "State Commissions for Women are generally established under:",
+   "o": [
+    "The Constitution directly",
+    "The Protection of Human Rights Act, 1993 alone",
+    "State Acts",
+    "Presidential ordinance in every State"
+   ],
+   "a": 2,
+   "x": "State Commissions for Women are established under laws enacted by the respective States.",
+   "ty": "fact",
+   "tq": "Distinguish statutory State bodies from bodies created directly by the Constitution or the President.",
+   "sec": "State counterparts - State Minority Commissions, SCPCR, SHRC, State Commissions for Women  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "A proposal to allow Chairpersons of State Human Rights Commissions to act as State Information Commissioners would principally arise in States having:",
+   "o": [
+    "A large number of pending RTI appeals",
+    "Very few RTI appeals",
+    "No State Human Rights Commission",
+    "No State Information Commission legislation"
+   ],
+   "a": 1,
+   "x": "The issue was raised in the context of States having few appeals under the Right to Information framework.",
+   "ty": "application",
+   "tq": "Apply the factual trigger to the administrative situation described in the question.",
+   "sec": "State counterparts - State Minority Commissions, SCPCR, SHRC, State Commissions for Women  [APPSC, GROUP-II]"
+  }
+ ]
+}

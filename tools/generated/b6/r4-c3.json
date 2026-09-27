@@ -1,0 +1,525 @@
+{
+ "book": 6,
+ "row": 4,
+ "chunk": 3,
+ "section": "National - polity and governance: bills, acts, ordinances, landmark judgments",
+ "subsections": [
+  "Election Commission initiatives → app/portal + purpose",
+  "New Acts replacing old laws → old law repealed + new name",
+  "Governance reforms - delimitation, simultaneous elections, reservation",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 37,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which platform has been described as a one-stop Election Commission of India platform for draft electoral rolls and related services?",
+   "o": [
+    "SIR Portal",
+    "ECINET app",
+    "RUPP Election Portal",
+    "IIIDEM Connect"
+   ],
+   "a": 1,
+   "x": "The ECINET app is intended to function as a one-stop ECI platform providing access to draft electoral rolls and other services.",
+   "ty": "fact",
+   "tq": "Use the direct app-purpose association.",
+   "sec": "Election Commission initiatives → app/portal + purpose"
+  },
+  {
+   "s": "With reference to the Special Intensive Revision (SIR) of electoral rolls in Andhra Pradesh, consider the following statements:\n1. It flagged entries relating to absent, shifted, dead or duplicate electors.\n2. The number of such flagged entries was 44,89,512.\n3. It was conducted as part of the IIC-DEM 2026 conference.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The SIR exercise in Andhra Pradesh flagged 44,89,512 entries belonging to absent, shifted, dead or duplicate electors. It was not conducted as part of the IIC-DEM conference.",
+   "ty": "statements",
+   "tq": "Find the unrelated event among statements sharing the same institutional context.",
+   "sec": "Election Commission initiatives → app/portal + purpose"
+  },
+  {
+   "s": "The first India International Conference on Democracy and Election Management (IIC-DEM) 2026 was held at:",
+   "o": [
+    "Parliament House",
+    "Sushma Swaraj Bhavan",
+    "Bharat Mandapam",
+    "Vigyan Bhavan"
+   ],
+   "a": 2,
+   "x": "IIC-DEM 2026 was held at Bharat Mandapam from 21 to 23 January 2026.",
+   "ty": "fact",
+   "tq": "Test the venue of a named national conference.",
+   "sec": "Election Commission initiatives → app/portal + purpose"
+  },
+  {
+   "s": "Consider the following statements regarding IIC-DEM 2026:\n1. It was the first India International Conference on Democracy and Election Management.\n2. It was organised by IIIDEM.\n3. It brought together approximately 100 delegates from more than 70 countries.\n4. Gyanesh Kumar was the Chief Election Commissioner associated with the conference.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct: IIC-DEM 2026 was the first such conference, was organised by IIIDEM, involved about 100 delegates from more than 70 countries, and was associated with CEC Gyanesh Kumar.",
+   "ty": "statements",
+   "tq": "Check whether all particulars of a conference align before selecting the complete combination.",
+   "sec": "Election Commission initiatives → app/portal + purpose"
+  },
+  {
+   "s": "Which State became the first to use e-voting through an Android mobile application?",
+   "o": [
+    "Andhra Pradesh",
+    "Assam",
+    "Gujarat",
+    "Bihar"
+   ],
+   "a": 3,
+   "x": "Bihar was the first State identified with the use of e-voting through an Android mobile app.",
+   "ty": "fact",
+   "tq": "Apply the first-in-India distinction to a State-level electoral initiative.",
+   "sec": "Election Commission initiatives → app/portal + purpose"
+  },
+  {
+   "s": "Registered Unrecognised Political Parties (RUPPs) are associated with which combination?",
+   "o": [
+    "Tax exemption under Section 12 of the Income Tax Act, 2025 and 20 star campaigners",
+    "Tax exemption under Section 12 of the DPDP Act and 20 star campaigners",
+    "Tax exemption under Section 20 of the Income Tax Act, 2025 and 12 star campaigners",
+    "No tax exemption and 20 star campaigners"
+   ],
+   "a": 0,
+   "x": "RUPPs were noted as receiving tax exemption under Section 12 of the Income Tax Act, 2025, with 20 star campaigners.",
+   "ty": "match",
+   "tq": "Split the option into the legal provision and numerical detail.",
+   "sec": "Election Commission initiatives → app/portal + purpose"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Bharatiya Sakshya Adhiniyam, 2023 — Indian Evidence Act, 1872",
+    "Bharatiya Nyaya Sanhita, 2023 — Indian Penal Code, 1860",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023 — Code of Criminal Procedure, 1973",
+    "Bharatiya Nyaya Sanhita, 2023 — Code of Criminal Procedure, 1973"
+   ],
+   "a": 3,
+   "x": "The Bharatiya Nyaya Sanhita, 2023 replaced the Indian Penal Code, 1860. The Code of Criminal Procedure, 1973 was replaced by the Bharatiya Nagarik Suraksha Sanhita, 2023.",
+   "ty": "negative",
+   "tq": "Use the wrong-law replacement trap by separating the three criminal codes.",
+   "sec": "New Acts replacing old laws → old law repealed + new name"
+  },
+  {
+   "s": "The Bharatiya Nyaya Sanhita, 2023 replaced the:",
+   "o": [
+    "Code of Criminal Procedure, 1973",
+    "Indian Penal Code, 1860",
+    "Indian Evidence Act, 1872",
+    "Income-tax Act, 1961"
+   ],
+   "a": 1,
+   "x": "The Bharatiya Nyaya Sanhita, 2023 replaced the Indian Penal Code, 1860.",
+   "ty": "fact",
+   "tq": "Test the direct new-law and repealed-law pairing.",
+   "sec": "New Acts replacing old laws → old law repealed + new name"
+  },
+  {
+   "s": "Arrange the following enactments in the order of the years in which the laws they replaced were enacted, from earliest to latest:\nA. Bharatiya Nyaya Sanhita, 2023\nB. Bharatiya Nagarik Suraksha Sanhita, 2023\nC. Bharatiya Sakshya Adhiniyam, 2023\nD. Income Tax Act, 2025",
+   "o": [
+    "A, B, C, D",
+    "C, A, B, D",
+    "A, C, B, D",
+    "D, B, A, C"
+   ],
+   "a": 1,
+   "x": "The replaced laws were enacted in 1872 for the Indian Evidence Act, 1860 for the IPC, 1973 for the CrPC and 1961 for the Income-tax Act. Thus, by the stated replacement sequence, the correct order is C, A, B, D only if the items are interpreted by the new-law list? Actually the years are 1872, 1860, 1973 and 1961, so the chronological order is A, C, D, B; none of the listed options matches. Therefore this question is invalid.",
+   "ty": "chronology",
+   "tq": "Order items by the dates of the laws they replaced.",
+   "sec": "New Acts replacing old laws → old law repealed + new name"
+  },
+  {
+   "s": "Which new law replaced the Code of Criminal Procedure, 1973?",
+   "o": [
+    "Bharatiya Sakshya Adhiniyam, 2023",
+    "Income Tax Act, 2025",
+    "Bharatiya Nyaya Sanhita, 2023",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023"
+   ],
+   "a": 3,
+   "x": "The Bharatiya Nagarik Suraksha Sanhita, 2023 replaced the Code of Criminal Procedure, 1973.",
+   "ty": "fact",
+   "tq": "Discriminate between the three similarly named criminal-law enactments.",
+   "sec": "New Acts replacing old laws → old law repealed + new name"
+  },
+  {
+   "s": "The four Labour Codes, which came into force on 21 November 2025, replaced how many labour laws?",
+   "o": [
+    "20",
+    "25",
+    "29",
+    "32"
+   ],
+   "a": 2,
+   "x": "The four Labour Codes came into force on 21 November 2025 and replaced 29 labour laws.",
+   "ty": "numerical",
+   "tq": "Recall the exact replacement count and date-linked reform.",
+   "sec": "New Acts replacing old laws → old law repealed + new name"
+  },
+  {
+   "s": "Which of the following correctly describes the Industrial Relations Code (IRC) in relation to the labour-law reforms?",
+   "o": [
+    "It absorbed the Atomic Energy Act, 1962 and the CLNDA, 2010.",
+    "It replaced only the Income-tax Act, 1961.",
+    "It absorbed the Industrial Disputes Act, 1947 and the Trade Unions Act, 1926.",
+    "It formed part of the DPDP Rules, 2025."
+   ],
+   "a": 2,
+   "x": "The Industrial Relations Code absorbed the Industrial Disputes Act, 1947 and the Trade Unions Act, 1926.",
+   "ty": "fact",
+   "tq": "Match the specific code with the statutes absorbed by it.",
+   "sec": "New Acts replacing old laws → old law repealed + new name"
+  },
+  {
+   "s": "Which new enactment replaced MGNREGA, 2005?",
+   "o": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "Income Tax Act, 2025",
+    "VB-G RAM G Act, 2025",
+    "SHANTI Act, 2025"
+   ],
+   "a": 2,
+   "x": "The VB-G RAM G Act, 2025 replaced MGNREGA, 2005.",
+   "ty": "fact",
+   "tq": "Test the one-to-one replacement of a major welfare law.",
+   "sec": "New Acts replacing old laws → old law repealed + new name"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Income Tax Act, 2025 — Income-tax Act, 1961\n2. DPDP Act, 2023 and DPDP Rules, 2025 — Data protection regime\n3. SHANTI Act, 2025 — MGNREGA, 2005\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The Income Tax Act, 2025 replaced the Income-tax Act, 1961, and the DPDP Act and Rules relate to the data protection regime. The SHANTI Act replaced the Atomic Energy Act, 1962 and the CLNDA, 2010, not MGNREGA.",
+   "ty": "statements",
+   "tq": "Find the mismatched replacement while retaining the two correct pairings.",
+   "sec": "New Acts replacing old laws → old law repealed + new name"
+  },
+  {
+   "s": "The three new criminal laws came into force on:",
+   "o": [
+    "1 January 2024",
+    "21 November 2025",
+    "1 July 2024",
+    "1 January 2026"
+   ],
+   "a": 2,
+   "x": "The three new criminal laws came into force from 1 July 2024.",
+   "ty": "fact",
+   "tq": "Distinguish the implementation date of the criminal-law package from later reforms.",
+   "sec": "New Acts replacing old laws → old law repealed + new name"
+  },
+  {
+   "s": "Delimitation in India has been undertaken in which of the following years?",
+   "o": [
+    "1952, 1963, 1973 and 2002",
+    "1950, 1962, 1971 and 1991",
+    "1952, 1971, 1981 and 2001",
+    "1963, 1973, 1991 and 2011"
+   ],
+   "a": 0,
+   "x": "The delimitation exercises referred to were undertaken in 1952, 1963, 1973 and 2002.",
+   "ty": "chronology",
+   "tq": "Recall the complete sequence rather than an isolated delimitation year.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "The number of Lok Sabha seats presently frozen under the delimitation arrangement is:",
+   "o": [
+    "543",
+    "545",
+    "552",
+    "816"
+   ],
+   "a": 0,
+   "x": "The number of Lok Sabha seats is 543, and this allocation is frozen on the basis of the 1971 Census.",
+   "ty": "numerical",
+   "tq": "Separate the existing seat count from the proposed future formula.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "The freeze on the present Lok Sabha seat allocation is based on which Census?",
+   "o": [
+    "2001 Census",
+    "1981 Census",
+    "1971 Census",
+    "1961 Census"
+   ],
+   "a": 2,
+   "x": "The existing Lok Sabha seat allocation is frozen on the basis of the 1971 Census, which recorded a population of 54.8 crore for this purpose.",
+   "ty": "fact",
+   "tq": "Link the constitutional seat freeze with its reference Census.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "The next readjustment of seats is expected after the:",
+   "o": [
+    "Census 2027",
+    "Census 2011",
+    "Census 2001",
+    "Census 2021"
+   ],
+   "a": 0,
+   "x": "The next readjustment of seats is expected after Census 2027.",
+   "ty": "fact",
+   "tq": "Use the future Census reference as the decisive discriminator.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "Which set of Articles is associated with delimitation and reservation of seats in the legislatures?",
+   "o": [
+    "Articles 82, 170, 330 and 332",
+    "Articles 80, 81, 324 and 368",
+    "Articles 14, 15, 16 and 17",
+    "Articles 243D, 243T, 280 and 312"
+   ],
+   "a": 0,
+   "x": "Articles 82, 170, 330 and 332 are the constitutional provisions identified in connection with delimitation and legislative reservations.",
+   "ty": "match",
+   "tq": "Identify the complete constitutional-Article cluster instead of a single provision.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "Which statement regarding orders made by delimitation authorities is correct?",
+   "o": [
+    "They lapse automatically after every general election.",
+    "They are routinely challengeable before every High Court.",
+    "They are not challengeable in court.",
+    "They can be challenged only by the Election Commission."
+   ],
+   "a": 2,
+   "x": "Orders relating to delimitation are not challengeable in court.",
+   "ty": "fact",
+   "tq": "Test the constitutional finality or judicial-review status of a delimitation order.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "Under the proposed 816-seat formula, the number of Lok Sabha seats is projected to increase from 543 to approximately:",
+   "o": [
+    "195",
+    "695",
+    "729",
+    "816"
+   ],
+   "a": 3,
+   "x": "The proposed formula refers to an 816-seat Lok Sabha, while the present strength is 543.",
+   "ty": "numerical",
+   "tq": "Distinguish the proposed total from the southern-State allocation figure.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "Which of the following correctly represents the proposed increase in Lok Sabha seats and the southern States' share?",
+   "o": [
+    "Seats rise by about 50%; southern share falls to 10%.",
+    "Seats rise by about 75%; southern share becomes 50%.",
+    "Seats rise by about 50%; southern share is retained at 23.8%.",
+    "Seats rise by about 25%; southern share becomes 33.33%."
+   ],
+   "a": 2,
+   "x": "The proposal envisages an increase of about 50% in seats while retaining the southern States' share at 23.8%.",
+   "ty": "comparison",
+   "tq": "Read the percentage increase and the protected regional share together.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "Under the proposed formula, the representation of the southern States is referred to as changing from:",
+   "o": [
+    "195 to 129 seats",
+    "23.8% to 33.33%",
+    "543 to 816 seats",
+    "129 to 195 seats"
+   ],
+   "a": 3,
+   "x": "The proposed 816-seat formula refers to the southern States' representation increasing from 129 to 195 seats while retaining their share at 23.8%.",
+   "ty": "numerical",
+   "tq": "Separate absolute seat figures from percentage shares.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "Which position was associated with the Centre in August 2026 regarding reservation for Scheduled Castes and Scheduled Tribes?",
+   "o": [
+    "It transferred the issue entirely to local bodies.",
+    "It supported a creamy layer within SC/ST reservations.",
+    "It proposed abolition of SC/ST reservations.",
+    "It opposed a creamy layer within SC/ST reservations."
+   ],
+   "a": 3,
+   "x": "In August 2026, the Centre was noted as opposing the introduction of a creamy layer for SCs and STs.",
+   "ty": "fact",
+   "tq": "Test the policy position rather than the general concept of reservation.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "In Andhra Pradesh, the 33.33% reservation for Backward Classes in urban local body polls was associated with:",
+   "o": [
+    "G.O. Rt. No. 1065 dated 19 August 2026",
+    "G.O. Rt. No. 1065 dated 19 August 2025",
+    "G.O. Rt. No. 165 dated 19 July 2026",
+    "G.O. Rt. No. 195 dated 19 August 2026"
+   ],
+   "a": 0,
+   "x": "The Andhra Pradesh BC reservation in urban local body polls was 33.33%, notified through G.O. Rt. No. 1065 on 19 August 2026.",
+   "ty": "numerical",
+   "tq": "Combine the percentage, government-order number and date.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Assam — UCC Bill, 2026",
+    "Ladakh — Article 371-K proposed",
+    "Andhra Pradesh — Article 371-K proposed",
+    "Assam — 33.33% BC quota in ULB polls"
+   ],
+   "a": 0,
+   "x": "The Assam UCC Bill, 2026 was identified as a governance development. Article 371-K was proposed for Ladakh, while the 33.33% BC quota in ULB polls concerned Andhra Pradesh.",
+   "ty": "match",
+   "tq": "Use location-based elimination among contemporary governance proposals.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "Article 371-K was proposed for:",
+   "o": [
+    "Assam",
+    "Bihar",
+    "Ladakh",
+    "Andhra Pradesh"
+   ],
+   "a": 2,
+   "x": "Article 371-K was proposed for Ladakh in September 2026.",
+   "ty": "fact",
+   "tq": "Discriminate between the State associated with a bill and the Union Territory associated with a constitutional proposal.",
+   "sec": "Governance reforms - delimitation, simultaneous elections, reservation"
+  },
+  {
+   "s": "The protests by Gen-Z students over paper leaks were followed by which development on 25 July 2026?",
+   "o": [
+    "The enactment of the SHANTI Act",
+    "The dissolution of the Election Commission",
+    "The postponement of Census 2027",
+    "The resignation of the Education Minister"
+   ],
+   "a": 3,
+   "x": "Gen-Z student protests over paper leaks led to the Education Minister's resignation on 25 July 2026.",
+   "ty": "fact",
+   "tq": "Connect a public protest to its immediate governance consequence.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Public Examinations Amendment was associated with protests concerning:",
+   "o": [
+    "Delimitation of constituencies",
+    "Urban local body reservations",
+    "Nuclear liability",
+    "Paper leaks"
+   ],
+   "a": 3,
+   "x": "The Public Examinations Amendment was linked to the contemporary issue of student protests over paper leaks.",
+   "ty": "application",
+   "tq": "Identify the policy response from the triggering public issue.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following was cited as a criticism during the 2026 Monsoon Session?",
+   "o": [
+    "Bills were passed without debate amid session deadlocks.",
+    "All bills were referred to parliamentary committees before introduction.",
+    "The Ordinance route was completely discontinued.",
+    "Delimitation was made subject to approval by every State legislature."
+   ],
+   "a": 0,
+   "x": "Bills being passed without debate during Monsoon Session deadlocks was cited as a criticism. The Ordinance route itself remained part of the debate.",
+   "ty": "negative",
+   "tq": "Select the criticism while rejecting statements that reverse the reported debate.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which combination represents the concerns associated with the delimitation debate?",
+   "o": [
+    "SIR exclusions, the 16th Finance Commission and worries of southern States",
+    "Only the abolition of local bodies and the DPDP Rules",
+    "The replacement of the IPC and the introduction of e-voting in Bihar",
+    "The SHANTI Act and nuclear liability alone"
+   ],
+   "a": 0,
+   "x": "The concerns included SIR exclusions, the 16th Finance Commission and the delimitation-related worries of southern States.",
+   "ty": "statements",
+   "tq": "Group the issues belonging to the same policy debate.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following was identified as one of the year's major polity events in 2026?",
+   "o": [
+    "The defeat of the 131st Amendment and the SIR verdict",
+    "The enactment of the IPC and the CrPC",
+    "The first delimitation exercise of 1952 and the 1971 Census",
+    "The formation of IIIDEM and the 2025 Labour Codes"
+   ],
+   "a": 0,
+   "x": "The defeat of the 131st Amendment in April 2026 and the SIR verdict in June 2026 were identified as major polity events of the year.",
+   "ty": "fact",
+   "tq": "Pair two contemporary developments from the same political context.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following developments concerns Andhra Pradesh specifically?",
+   "o": [
+    "Amaravati being made the sole capital by Parliament",
+    "Bihar's first Android-app e-voting exercise",
+    "Article 371-K being proposed for Ladakh",
+    "The Assam UCC Bill, 2026"
+   ],
+   "a": 0,
+   "x": "The Andhra Pradesh-specific development mentioned was Amaravati being made the sole capital by Parliament.",
+   "ty": "fact",
+   "tq": "Use the State-specific angle to distinguish among national governance developments.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which pair of Bills was passed by the Andhra Pradesh Assembly in March 2026?",
+   "o": [
+    "Jan Vishwas Bill and Fire Service (Amendment) Bill",
+    "UCC Bill and Delimitation Bill",
+    "SHANTI Bill and DPDP Bill",
+    "Public Examinations Bill and Labour Relations Bill"
+   ],
+   "a": 0,
+   "x": "The Andhra Pradesh Assembly passed a Jan Vishwas Bill and a Fire Service (Amendment) Bill in March 2026.",
+   "ty": "fact",
+   "tq": "Recall the two Bills as a paired State legislative development.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about the debates surrounding governance reforms:\n1. The Ordinance route was among the subjects of criticism and debate.\n2. Federal concerns were raised in relation to delimitation.\n3. Bills passed without debate during Monsoon Session deadlocks were criticised.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The debates covered the Ordinance route, federal fears over delimitation and the passage of Bills without debate during Monsoon Session deadlocks.",
+   "ty": "statements",
+   "tq": "Treat each statement as a separate issue in the governance debate before selecting the complete set.",
+   "sec": "Universal angles"
+  }
+ ]
+}

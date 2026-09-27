@@ -1,0 +1,666 @@
+{
+ "book": 6,
+ "row": 5,
+ "chunk": 2,
+ "section": "National - economy: Union Budget and Economic Survey highlights, RBI policy, key data releases",
+ "subsections": [
+  "RBI Monetary Policy - rates, MPC",
+  "Union Budget - new funds and schemes, fiscal deficit target, tax changes",
+  "Landmark economic decisions - announcement date and scope",
+  "GST Council decisions - rate changes, collections, meeting number",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 48,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "As at August 2026, which one of the following correctly represents the RBI policy rates and stance?",
+   "o": [
+    "Repo rate 5.00%, SDF 5.50%, MSF/Bank Rate 5.25%, with a calibrated tightening stance",
+    "Repo rate 5.25%, SDF 5.50%, MSF/Bank Rate 5.00%, with a withdrawal-of-accommodation stance",
+    "Repo rate 5.50%, SDF 5.25%, MSF/Bank Rate 5.00%, with an accommodative stance",
+    "Repo rate 5.25%, SDF 5.00%, MSF/Bank Rate 5.50%, with a neutral stance"
+   ],
+   "a": 3,
+   "x": "In August 2026, the repo rate was 5.25%, the SDF was 5.00%, the MSF and Bank Rate were 5.50%, and the monetary policy stance was neutral.",
+   "ty": "comparison",
+   "tq": "Use the comparison table and distinguish the floor rate from the ceiling rates.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "The repo rate was reduced by 25 basis points in December 2025. What was its rate after this reduction?",
+   "o": [
+    "5.00%",
+    "5.25%",
+    "5.50%",
+    "5.75%"
+   ],
+   "a": 1,
+   "x": "The repo rate became 5.25% after a 25-basis-point cut in December 2025 and remained unchanged in February, June and August 2026.",
+   "ty": "numerical",
+   "tq": "Convert the basis-point change into the resulting policy rate.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "Consider the following statements regarding the Cash Reserve Ratio (CRR):\n1. It was reduced by 100 basis points.\n2. It stood at 3% of Net Demand and Time Liabilities.\n3. It is the same as the Statutory Liquidity Ratio.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The CRR was cut by 100 basis points to 3% of NDTL. CRR and SLR are distinct requirements, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Identify the precise numerical facts and reject the swapped concept.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "Which one of the following correctly describes the Standing Deposit Facility (SDF)?",
+   "o": [
+    "It is the floor of the Liquidity Adjustment Facility corridor and operates in place of the reverse repo.",
+    "It is the ceiling of the Liquidity Adjustment Facility corridor and replaced the repo rate.",
+    "It is the statutory reserve maintained by banks with the RBI.",
+    "It is the rate at which the RBI lends overnight funds to the Union Government."
+   ],
+   "a": 0,
+   "x": "The SDF, at 5.00%, is the floor of the LAF corridor and operates in place of the reverse repo rate.",
+   "ty": "confusable",
+   "tq": "Discriminate between the floor and ceiling of the monetary-policy corridor.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "With reference to the Monetary Policy Committee (MPC), consider the following statements:\n1. It consists of six members.\n2. The Governor of the RBI chairs it and has a casting vote.\n3. All its members are appointed by the RBI.\n4. It must meet at least four times a year.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "The MPC has six members, is chaired by the RBI Governor who has a casting vote, and must meet at least four times a year. Three members are appointed by the Centre, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Split the composition, appointment and procedural statements before selecting the code.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "Which of the following is the correct composition of the six-member Monetary Policy Committee?",
+   "o": [
+    "Governor, three Deputy Governors and two external members",
+    "Finance Minister, RBI Governor, two Deputy Governors and two external members",
+    "Governor, one Deputy Governor, one RBI officer and three external members",
+    "Governor, two Deputy Governors, one Finance Ministry officer and two external members"
+   ],
+   "a": 2,
+   "x": "The MPC comprises the RBI Governor, one Deputy Governor, one RBI officer and three external members.",
+   "ty": "fact",
+   "tq": "Use the membership-count trap and check the institutional source of each member.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "The external members of the Monetary Policy Committee hold office for a term of:",
+   "o": [
+    "Five years",
+    "Three years",
+    "Four years",
+    "Two years"
+   ],
+   "a": 2,
+   "x": "The three external members of the MPC have four-year terms.",
+   "ty": "fact",
+   "tq": "Recall the fixed tenure rather than confusing it with the inflation-target cycle.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Section 45ZA — constitution of the MPC",
+    "Section 45ZB — inflation target",
+    "Section 45ZN — failure to meet the inflation target",
+    "Section 45ZN — appointment of external MPC members"
+   ],
+   "a": 2,
+   "x": "Section 45ZB creates the MPC, Section 45ZA concerns the inflation target, and Section 45ZN deals with failure to meet the target.",
+   "ty": "match",
+   "tq": "Match each statutory section with its exact monetary-policy function.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "Under the flexible inflation-targeting framework, the CPI inflation target is:",
+   "o": [
+    "6% with a tolerance band of ±1%",
+    "3% with a tolerance band of ±1%",
+    "4% with a tolerance band of ±2%",
+    "5% with a tolerance band of ±2%"
+   ],
+   "a": 2,
+   "x": "The target is 4% with a tolerance band of plus or minus 2%, making the permitted band 2% to 6%.",
+   "ty": "numerical",
+   "tq": "Separate the central target from the permissible tolerance band.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "The inflation target under Section 45ZA is reviewed and set once every:",
+   "o": [
+    "Three years",
+    "Ten years",
+    "Five years",
+    "Four years"
+   ],
+   "a": 2,
+   "x": "The inflation target of 4% with a tolerance band of ±2% is set every five years.",
+   "ty": "fact",
+   "tq": "Distinguish the five-year target cycle from the four-year tenure of external members.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "Under the failure clause relating to the inflation target, the target is considered to have been missed when inflation remains outside the tolerance band for:",
+   "o": [
+    "Two consecutive quarters",
+    "Four consecutive years",
+    "Three consecutive quarters",
+    "Three consecutive months"
+   ],
+   "a": 2,
+   "x": "Failure to meet the inflation target under Section 45ZN is associated with inflation remaining outside the band for three consecutive quarters.",
+   "ty": "fact",
+   "tq": "Reject the older month-based formulation and identify the current quarter-based condition.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "Consider the following statements about RBI monetary policy during 2026:\n1. The repo rate was held at 5.25% in February, April, June and August.\n2. The August 2026 decision was the fourth consecutive hold.\n3. The August decision was unanimous.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The repo rate remained at 5.25% in all four listed 2026 meetings; August represented the fourth consecutive hold and the decision was unanimous.",
+   "ty": "statements",
+   "tq": "Check the sequence, count and character of the policy decisions together.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "The December 2025 monetary-policy package included which of the following measures?",
+   "o": [
+    "A complete suspension of open-market operations and a 5-billion-dollar loan",
+    "₹1 lakh crore of open-market sales and a 5-billion-dollar currency auction",
+    "₹10,000 crore of open-market purchases and a 50-billion-dollar swap",
+    "₹1 lakh crore of open-market purchases and a 5-billion-dollar buy-sell swap"
+   ],
+   "a": 3,
+   "x": "The December 2025 package comprised ₹1 lakh crore of OMO purchases and a 5-billion-dollar buy-sell swap.",
+   "ty": "fact",
+   "tq": "Match the monetary instrument with its amount and direction.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "The cumulative repo-rate reduction since February 2025, reaching 5.25% in December 2025, was:",
+   "o": [
+    "75 basis points",
+    "100 basis points",
+    "150 basis points",
+    "125 basis points"
+   ],
+   "a": 3,
+   "x": "The easing cycle involved a cumulative reduction of 125 basis points since February 2025.",
+   "ty": "numerical",
+   "tq": "Use the cumulative-change figure rather than inferring it from a single meeting.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "Which one of the following correctly states the latest MPC projections mentioned for 2026-27?",
+   "o": [
+    "Real GDP growth 6.6% and CPI inflation 4.5%",
+    "Real GDP growth 6.7% and CPI inflation 5.1%",
+    "Real GDP growth 5.1% and CPI inflation 6.7%",
+    "Real GDP growth 6.9% and CPI inflation 4.5%"
+   ],
+   "a": 1,
+   "x": "The August 2026 projection for real GDP growth was 6.7%, while the June 2026 CPI projection was 5.1%.",
+   "ty": "comparison",
+   "tq": "Read the latest value in each column and avoid substituting earlier projections.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "Which of the following correctly represents the sequence of real GDP projections for 2026-27 in April, June and August 2026?",
+   "o": [
+    "6.9%, 6.6%, 6.7%",
+    "6.6%, 6.9%, 6.7%",
+    "6.7%, 6.6%, 6.9%",
+    "6.9%, 6.7%, 6.6%"
+   ],
+   "a": 0,
+   "x": "The real GDP projection was 6.9% in April, 6.6% in June and 6.7% in August 2026.",
+   "ty": "chronology",
+   "tq": "Arrange the dated projections in time before comparing the figures.",
+   "sec": "RBI Monetary Policy - rates, MPC"
+  },
+  {
+   "s": "Which institution prepares the Union Budget?",
+   "o": [
+    "RBI, Ministry of Corporate Affairs",
+    "Department of Revenue, Ministry of Commerce and Industry",
+    "Department of Economic Affairs, Ministry of Finance",
+    "NITI Aayog, Ministry of Finance"
+   ],
+   "a": 2,
+   "x": "The Union Budget is prepared by the Department of Economic Affairs under the Ministry of Finance.",
+   "ty": "fact",
+   "tq": "Use the ministry-department distinction to avoid a neighbouring-body swap.",
+   "sec": "Union Budget - new funds and schemes, fiscal deficit target, tax changes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Article 112 of the Constitution refers to the:",
+   "o": [
+    "Consolidated Fund of India",
+    "Appropriation Bill",
+    "Annual Financial Statement",
+    "Finance Commission report"
+   ],
+   "a": 2,
+   "x": "Article 112 provides for the Annual Financial Statement. The Constitution does not use the term “Budget” as the formal title.",
+   "ty": "confusable",
+   "tq": "Discriminate between the popular term Budget and the constitutional expression Annual Financial Statement.",
+   "sec": "Union Budget - new funds and schemes, fiscal deficit target, tax changes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The fiscal deficit target in Union Budget 2026-27 was:",
+   "o": [
+    "3.9% of GDP, amounting to ₹15.96 lakh crore",
+    "4.4% of GDP, amounting to ₹17.96 lakh crore",
+    "4.3% of GDP, amounting to ₹16.96 lakh crore",
+    "4.8% of GDP, amounting to ₹16.96 lakh crore"
+   ],
+   "a": 2,
+   "x": "The fiscal deficit was targeted at 4.3% of GDP, equivalent to ₹16.96 lakh crore, compared with 4.4% in FY 2025-26.",
+   "ty": "numerical",
+   "tq": "Match the percentage with its corresponding rupee amount.",
+   "sec": "Union Budget - new funds and schemes, fiscal deficit target, tax changes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Container manufacturing — ₹10,000 crore over five years",
+    "Biopharma SHAKTI — ₹20,000 crore over five years",
+    "SME Growth Fund — ₹10,000 crore",
+    "Infrastructure Risk Guarantee Fund — partial credit guarantees to lenders"
+   ],
+   "a": 1,
+   "x": "Biopharma SHAKTI was allocated ₹10,000 crore over five years. ₹20,000 crore over five years was provided for CCUS.",
+   "ty": "negative",
+   "tq": "Find the swapped amount by matching each fund with its stated allocation.",
+   "sec": "Union Budget - new funds and schemes, fiscal deficit target, tax changes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Self-Reliant India Fund was topped up by:",
+   "o": [
+    "₹1,000 crore",
+    "₹2,000 crore",
+    "₹5,000 crore",
+    "₹10,000 crore"
+   ],
+   "a": 1,
+   "x": "The Self-Reliant India Fund received a top-up of ₹2,000 crore alongside the SME Growth Fund.",
+   "ty": "numerical",
+   "tq": "Recall the specific top-up amount rather than the larger headline fund allocation.",
+   "sec": "Union Budget - new funds and schemes, fiscal deficit target, tax changes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly describes ISM 2.0 in Union Budget 2026-27?",
+   "o": [
+    "It finances only container manufacturing in coastal States.",
+    "It provides crop insurance and irrigation support to small farmers.",
+    "It establishes a universal urban housing subsidy.",
+    "It focuses on equipment, materials and full-stack Indian intellectual property."
+   ],
+   "a": 3,
+   "x": "ISM 2.0 covers equipment, materials and full-stack Indian intellectual property.",
+   "ty": "fact",
+   "tq": "Identify the scheme’s scope rather than its funding amount.",
+   "sec": "Union Budget - new funds and schemes, fiscal deficit target, tax changes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following tax changes was announced for implementation from 1 April 2026?",
+   "o": [
+    "MAT increased from 14% to 15%.",
+    "STT on futures reduced from 0.05% to 0.02%.",
+    "The new Income Tax Act, 2025 came into force.",
+    "STT on options abolished completely."
+   ],
+   "a": 2,
+   "x": "The new Income Tax Act, 2025 came into force on 1 April 2026. MAT was reduced to 14%, while STT rates on futures and options were increased.",
+   "ty": "fact",
+   "tq": "Use the commencement date and reject reversals in tax-rate changes.",
+   "sec": "Union Budget - new funds and schemes, fiscal deficit target, tax changes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly states the revised securities transaction tax rates?",
+   "o": [
+    "Futures 0.10% and options 0.20%",
+    "Futures 0.05% and options 0.15%",
+    "Futures 0.15% and options 0.05%",
+    "Futures 0.02% and options 0.10%"
+   ],
+   "a": 1,
+   "x": "STT on futures was increased to 0.05% and on options to 0.15%.",
+   "ty": "numerical",
+   "tq": "Keep the futures and options rates paired in the correct order.",
+   "sec": "Union Budget - new funds and schemes, fiscal deficit target, tax changes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Urban Infrastructure Development Fund (UIDF) was announced in:",
+   "o": [
+    "Union Budget 2026-27",
+    "Union Budget 2022-23",
+    "Union Budget 2023-24",
+    "Union Budget 2024-25"
+   ],
+   "a": 2,
+   "x": "UIDF was announced in Union Budget 2023-24.",
+   "ty": "fact",
+   "tq": "Distinguish the year of announcement from the year of later reference or implementation.",
+   "sec": "Union Budget - new funds and schemes, fiscal deficit target, tax changes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about UIDF:\n1. It is funded from the shortfall in priority-sector lending.\n2. It is operated by the National Housing Bank.\n3. It is intended for Tier-2 and Tier-3 cities.\n4. It provides ₹10,000 crore every year and ₹30,000 crore in total for FY 2024-FY 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe UIDF’s funding source, implementing institution, target cities and stated allocations.",
+   "ty": "statements",
+   "tq": "Verify each institutional, geographic and numerical feature before choosing the complete code.",
+   "sec": "Union Budget - new funds and schemes, fiscal deficit target, tax changes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which State was stated to have taken about ₹4,000 crore from UIDF?",
+   "o": [
+    "Karnataka",
+    "Tamil Nadu",
+    "Telangana",
+    "Andhra Pradesh"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh was stated to have taken approximately ₹4,000 crore from UIDF.",
+   "ty": "fact",
+   "tq": "Apply the AP-specific angle and distinguish the State from neighbouring options.",
+   "sec": "Union Budget - new funds and schemes, fiscal deficit target, tax changes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Demonetisation on 8 November 2016 related principally to the withdrawal of which notes?",
+   "o": [
+    "₹1,000 and ₹5,000 notes",
+    "₹200 and ₹2,000 notes",
+    "₹100 and ₹500 notes",
+    "₹500 and ₹1,000 notes"
+   ],
+   "a": 3,
+   "x": "The demonetisation decision announced on 8 November 2016 withdrew ₹500 and ₹1,000 banknotes.",
+   "ty": "fact",
+   "tq": "Match the announcement date with the exact denominations affected.",
+   "sec": "Landmark economic decisions - announcement date and scope  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Goods and Services Tax was rolled out in India on:",
+   "o": [
+    "1 April 2016",
+    "15 August 2017",
+    "1 January 2018",
+    "1 July 2017"
+   ],
+   "a": 3,
+   "x": "GST was rolled out on 1 July 2017 under the constitutional framework created by the 101st Amendment Act, 2016.",
+   "ty": "fact",
+   "tq": "Separate the amendment year from the actual rollout date.",
+   "sec": "Landmark economic decisions - announcement date and scope  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly describes GST 2.0?",
+   "o": [
+    "It was approved at the 56th GST Council meeting on 3 September 2025 and came into force on 22 September 2025.",
+    "It was approved at the 57th GST Council meeting on 12 September 2026 and came into force immediately.",
+    "It was introduced on 1 July 2017 under the 101st Amendment Act.",
+    "It was announced on 8 November 2016 along with demonetisation."
+   ],
+   "a": 0,
+   "x": "GST 2.0 was decided at the 56th GST Council meeting on 3 September 2025 and took effect on 22 September 2025.",
+   "ty": "chronology",
+   "tq": "Match the decision date, meeting number and implementation date.",
+   "sec": "Landmark economic decisions - announcement date and scope  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Under GST 2.0, which rate structure was adopted?",
+   "o": [
+    "5%, 12%, 18% and 28%",
+    "0%, 5%, 18% and 40%",
+    "0%, 8%, 18% and 30%",
+    "0%, 5%, 12% and 28%"
+   ],
+   "a": 1,
+   "x": "GST 2.0 adopted slabs of 0%, 5%, 18% and 40%; the 12% and 28% slabs were abolished.",
+   "ty": "numerical",
+   "tq": "Identify the retained and newly applicable slabs while spotting the abolished rates.",
+   "sec": "Landmark economic decisions - announcement date and scope  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Flexible inflation targeting in India was introduced in 2016 through the:",
+   "o": [
+    "RBI (Amendment) Act, with the Urjit Patel Committee having submitted its report in 2014",
+    "Finance Act, with the Kelkar Committee having submitted its report in 2016",
+    "101st Constitutional Amendment Act, with the Urjit Patel Committee having reported in 2017",
+    "Banking Regulation Act, with the Narasimham Committee having reported in 2014"
+   ],
+   "a": 0,
+   "x": "Flexible inflation targeting was introduced in 2016 through the RBI (Amendment) Act, following the Urjit Patel Committee’s 2014 recommendations.",
+   "ty": "match",
+   "tq": "Pair the policy with both its legal instrument and recommending committee.",
+   "sec": "Landmark economic decisions - announcement date and scope  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding the GST Council:\n1. It is constituted under Article 279A.\n2. It is chaired by the Union Finance Minister.\n3. The Centre has one-third of the weighted vote and the States together have two-thirds.\n4. Decisions require a three-fourths majority.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the constitutional basis, chairperson, voting distribution and decision threshold of the GST Council.",
+   "ty": "statements",
+   "tq": "Check constitutional article, chairperson, voting weights and threshold as separate elements.",
+   "sec": "GST Council decisions - rate changes, collections, meeting number  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following was a decision of the 56th GST Council meeting held on 3 September 2025?",
+   "o": [
+    "A return to four principal slabs of 0%, 5%, 12% and 28%",
+    "Two principal slabs of 5% and 18%, with a 40% demerit rate",
+    "A single uniform GST rate of 18%",
+    "Complete abolition of compensation cess, including on tobacco"
+   ],
+   "a": 1,
+   "x": "The 56th meeting adopted two main slabs of 5% and 18%, along with a 40% demerit rate. Compensation cess largely ended but continued on tobacco.",
+   "ty": "fact",
+   "tq": "Use the rate-structure and compensation-cess exceptions together.",
+   "sec": "GST Council decisions - rate changes, collections, meeting number  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following statements about the GST Council’s 57th meeting is correct?",
+   "o": [
+    "It was scheduled for 1 July 2026 in Hyderabad after a gap of one month.",
+    "It was held on 3 September 2025 in Mumbai.",
+    "It was held on 22 September 2025 in New Delhi.",
+    "It was scheduled for 12 September 2026 in New Delhi after a gap of more than a year."
+   ],
+   "a": 3,
+   "x": "The 57th GST Council meeting was scheduled for 12 September 2026 in New Delhi after a gap of more than a year.",
+   "ty": "fact",
+   "tq": "Distinguish a scheduled meeting from the preceding meeting and implementation date.",
+   "sec": "GST Council decisions - rate changes, collections, meeting number  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly states the GST collection figures mentioned for 2026?",
+   "o": [
+    "₹2.43 lakh crore in April and ₹1,99,853 crore gross in August",
+    "₹1,51,000 crore in April and ₹2.43 lakh crore gross in August",
+    "₹2.43 lakh crore in August and ₹1,51,000 crore gross in April",
+    "₹1.99 lakh crore in April and ₹2,43,000 crore gross in August"
+   ],
+   "a": 0,
+   "x": "GST collections reached a record ₹2.43 lakh crore in April 2026, while gross collections in August 2026 were ₹1,99,853 crore, up 14.8%.",
+   "ty": "numerical",
+   "tq": "Match each collection figure with its month and distinguish lakh-crore from crore notation.",
+   "sec": "GST Council decisions - rate changes, collections, meeting number  [GROUP-II]"
+  },
+  {
+   "s": "The taxpayer base under GST was reported to be approximately:",
+   "o": [
+    "51 lakh in 2025",
+    "2.51 crore in 2025",
+    "1.01 crore in 2025",
+    "1.51 crore in 2025"
+   ],
+   "a": 3,
+   "x": "The GST taxpayer base was reported at approximately 1.51 crore in 2025.",
+   "ty": "numerical",
+   "tq": "Read the magnitude carefully and reject the nearby digit trap.",
+   "sec": "GST Council decisions - rate changes, collections, meeting number  [GROUP-II]"
+  },
+  {
+   "s": "After rebasing, India’s GDP growth in the first quarter of FY 2026-27 and the corresponding CPI inflation were reported as:",
+   "o": [
+    "7.8% and 4.45%, respectively",
+    "4.45% and 7.8%, respectively",
+    "7.8% and 3.9%, respectively",
+    "6.7% and 4.9%, respectively"
+   ],
+   "a": 0,
+   "x": "After rebasing, GDP grew by 7.8% in Q1 FY27, while CPI inflation rose to 4.45%.",
+   "ty": "comparison",
+   "tq": "Keep the growth figure and inflation figure in their correct order.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which factor was associated with the rise in CPI to 4.45% after the Q1 FY27 GDP rebasing?",
+   "o": [
+    "Higher oil prices linked to the West Asia situation",
+    "A fall in domestic food production alone",
+    "A reduction in GST collections",
+    "The abolition of the repo rate"
+   ],
+   "a": 0,
+   "x": "The rise in CPI to 4.45% was associated with West Asia-related oil-price pressures.",
+   "ty": "application",
+   "tq": "Link the stated external shock with its inflationary effect.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements about the economic data and debates is correct?",
+   "o": [
+    "Youth unemployment in PLFS 2025 was 4.8%.",
+    "The new GDP series eliminated all debate over employment data.",
+    "Youth unemployment was reported at 14.8%, and the new series faced criticism over a downward revision of nominal GDP.",
+    "The new GDP series attracted criticism for an upward revision of nominal GDP."
+   ],
+   "a": 2,
+   "x": "The stated youth unemployment figure was 14.8% in PLFS 2025, while criticism focused on a downward revision of nominal GDP under the new series.",
+   "ty": "fact",
+   "tq": "Combine the correct numerical figure with the direction of the criticism.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly compares Andhra Pradesh’s retail inflation with the national rate mentioned for May 2026?",
+   "o": [
+    "AP 3.9%; national 4.9%",
+    "AP 4.45%; national 7.8%",
+    "AP 4.9%; national 3.9%",
+    "AP 6.7%; national 5.1%"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh’s CPI inflation was 4.9%, above the national rate of 3.9% mentioned for the comparison.",
+   "ty": "comparison",
+   "tq": "Check the direction of the State-versus-national comparison before the figures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about Andhra Pradesh’s economy:\n1. Its net GST growth in 2025-26 was 6%.\n2. It faced a ₹4,500 crore impact from GST 2.0.\n3. It was included in the Budget’s Rare Earth Corridors.\n4. Its retail inflation was below the national rate.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "AP recorded 6% net GST growth, faced a ₹4,500 crore GST 2.0 impact and was included in the Rare Earth Corridors. Its inflation was above, not below, the national rate, so statement 4 is false.",
+   "ty": "statements",
+   "tq": "Find the reversed comparison in the AP-specific statement set.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which institutions were associated with loans relevant to Andhra Pradesh’s development initiatives?",
+   "o": [
+    "World Bank through SALT and Asian Development Bank through VCIC",
+    "IMF through SALT and World Bank through VCIC",
+    "ADB through SALT and IMF through VCIC",
+    "UNDP through SALT and World Bank through GST 2.0"
+   ],
+   "a": 0,
+   "x": "The World Bank was associated with SALT, while the Asian Development Bank was associated with VCIC loans.",
+   "ty": "match",
+   "tq": "Match each acronym with the correct international financial institution.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements reflects the current monetary and payments-related developments mentioned?",
+   "o": [
+    "UPI MDR began in February 2025, and the August 2026 rate hike had already occurred.",
+    "UPI MDR was expected from 15 October 2026, and a rate hike was considered likely in October 2026.",
+    "UPI MDR was introduced with GST 2.0 in September 2025, and no policy change was expected.",
+    "UPI MDR was abolished from 15 October 2026, and a rate cut was certain in October 2026."
+   ],
+   "a": 1,
+   "x": "A change relating to UPI MDR was expected from 15 October 2026, while an October 2026 rate hike was considered likely after the inflation developments.",
+   "ty": "fact",
+   "tq": "Separate an expected future development from a completed policy action.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following correctly states the first RBI rate cut since May 2020?",
+   "o": [
+    "It occurred in February 2025 at the 53rd MPC meeting.",
+    "It occurred in December 2025 at the 56th MPC meeting.",
+    "It occurred in June 2025 at the 52nd MPC meeting.",
+    "It occurred in August 2026 at the 57th MPC meeting."
+   ],
+   "a": 0,
+   "x": "The first RBI rate cut since May 2020 took place in February 2025 at the 53rd MPC meeting.",
+   "ty": "fact",
+   "tq": "Match the policy milestone with its month and MPC meeting number.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with respect to UPI internationalisation?",
+   "o": [
+    "Uzbekistan — first UPI country; Bhutan — eleventh UPI country",
+    "Uzbekistan — eleventh UPI country; Bhutan — first UPI country",
+    "Uzbekistan — fifth UPI country; Bhutan — second UPI country",
+    "Uzbekistan — tenth UPI country; Bhutan — third UPI country"
+   ],
+   "a": 1,
+   "x": "Uzbekistan became the 11th country to adopt UPI, while Bhutan was the first UPI country.",
+   "ty": "match",
+   "tq": "Use the ordinal-number trap in a two-country comparison.",
+   "sec": "Universal angles"
+  }
+ ]
+}

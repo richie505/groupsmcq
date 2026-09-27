@@ -1,0 +1,341 @@
+{
+ "book": 2,
+ "row": 76,
+ "chunk": 0,
+ "section": "Central Information Commission and State Information Commissions; CBI and its legal basis",
+ "subsections": [
+  "Appointing authority pairing (CIC, SIC, CVC, Lokpal and others)",
+  "CBI - legal basis, recommending committee, year, first Director, Director's appointment"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 27,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Consider the following pairs:\n1. Chief Information Commissioner at the Centre — President\n2. State Chief Information Commissioner — Governor\n3. Central Vigilance Commissioner — Prime Minister\n4. State Election Commissioner — Governor\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1, 2 and 4 only",
+    "1 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "The Central Information Commissioner, State Chief Information Commissioner and State Election Commissioner are appointed by the President, Governor and Governor respectively. The Central Vigilance Commissioner is appointed by the President, not the Prime Minister.",
+   "ty": "statements",
+   "tq": "Match appointing authorities carefully and identify the authority swapped into a neighbouring office.",
+   "sec": "Appointing authority pairing (CIC, SIC, CVC, Lokpal and others)  [APPSC]"
+  },
+  {
+   "s": "With reference to the appointment of the State Chief Information Commissioner and State Information Commissioners, consider the following statements:\n1. The Governor appoints them.\n2. The Chief Minister is a member of the recommending committee.\n3. The Chief Justice of the concerned High Court is a member of the committee.\n4. A State Cabinet Minister nominated by the Chief Minister is a member of the committee.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only"
+   ],
+   "a": 2,
+   "x": "The Governor appoints the State Chief Information Commissioner and State Information Commissioners on the recommendation of a committee consisting of the Chief Minister, the Leader of Opposition in the Legislative Assembly and a Cabinet Minister nominated by the Chief Minister. The Chief Justice is not a member.",
+   "ty": "statements",
+   "tq": "Use the ‘wrong member’ trap in a committee-composition question.",
+   "sec": "Appointing authority pairing (CIC, SIC, CVC, Lokpal and others)  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Lokpal Chairperson and members:\n1. They are appointed by the President.\n2. The recommending committee includes the Speaker of the Lok Sabha.\n3. The recommending committee includes the Chief Justice of India or a nominee of the Chief Justice of India.\n4. The recommending committee includes an eminent jurist.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The President appoints the Lokpal Chairperson and members on the recommendation of a committee including the Prime Minister, Speaker, Leader of Opposition, Chief Justice of India or nominee, and an eminent jurist.",
+   "ty": "statements",
+   "tq": "When all listed components belong to the same statutory selection panel, test the complete combination.",
+   "sec": "Appointing authority pairing (CIC, SIC, CVC, Lokpal and others)  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding Public Information Officers is correct?",
+   "o": [
+    "They are nominated by the Central Vigilance Commission.",
+    "They are appointed by the Governor in every State.",
+    "They are appointed by the President for every public authority.",
+    "They are designated by each public authority under Section 5."
+   ],
+   "a": 3,
+   "x": "Public Information Officers are designated by each public authority under Section 5. Their designation is not made by the President or the Governor.",
+   "ty": "application",
+   "tq": "Apply the ‘who would do this job?’ method to distinguish the operational authority from constitutional appointing authorities.",
+   "sec": "Appointing authority pairing (CIC, SIC, CVC, Lokpal and others)  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Central Vigilance Commissioner — Governor",
+    "State Election Commissioner — Governor under State law",
+    "Chief Election Commissioner — President",
+    "CBI Director — Central Government"
+   ],
+   "a": 0,
+   "x": "The Central Vigilance Commissioner is appointed by the President, not the Governor. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the one authority deliberately transferred from the Union level to the State level.",
+   "sec": "Appointing authority pairing (CIC, SIC, CVC, Lokpal and others)  [APPSC]"
+  },
+  {
+   "s": "The Central Bureau of Investigation derives its investigative powers primarily from the",
+   "o": [
+    "Central Vigilance Commission Act, 2003",
+    "Lokpal and Lokayuktas Act, 2013",
+    "Delhi Special Police Establishment Act, 1946",
+    "Prevention of Corruption Act, 1988"
+   ],
+   "a": 2,
+   "x": "The CBI is neither a constitutional nor a statutory body in its own right; its powers derive from the Delhi Special Police Establishment Act, 1946.",
+   "ty": "confusable",
+   "tq": "Separate the agency’s institutional status from the statute that supplies its powers.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "With reference to the Central Bureau of Investigation, consider the following statements:\n1. It is a constitutional body.\n2. It is an attached office under the Department of Personnel and Training.\n3. It was initially set up by a resolution of the Ministry of Home Affairs.\n4. It derives its powers from the Delhi Special Police Establishment Act, 1946.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "The CBI is not a constitutional body. It is an attached office under DoPT, was set up by a Ministry of Home Affairs resolution, and derives its powers from the DSPE Act, 1946.",
+   "ty": "statements",
+   "tq": "Use the constitutional-versus-executive body distinction and check each institutional description separately.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "The Central Bureau of Investigation was set up in 1963 on the recommendation of the",
+   "o": [
+    "Second Administrative Reforms Commission",
+    "Sarkaria Commission",
+    "Santhanam Committee on Prevention of Corruption",
+    "Vohra Committee"
+   ],
+   "a": 2,
+   "x": "The CBI was set up in 1963 following the recommendation of the Santhanam Committee on Prevention of Corruption, constituted during 1962–64.",
+   "ty": "fact",
+   "tq": "Link an executive agency to the committee whose recommendation led to its creation.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "Arrange the following in chronological order of their establishment or enactment:\nA. Special Police Establishment\nB. Delhi Special Police Establishment Act\nC. Central Bureau of Investigation\nD. Central Vigilance Commission",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, A, B, C"
+   ],
+   "a": 0,
+   "x": "The Special Police Establishment originated in 1941, the DSPE Act was enacted in 1946, the CBI was set up in 1963, and the CVC was set up in 1964.",
+   "ty": "chronology",
+   "tq": "Fix the earliest institutional origin first, then place the legal framework and later bodies.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "The Special Police Establishment, which preceded the CBI, was originally set up to investigate",
+   "o": [
+    "tax evasion by princely states",
+    "electoral offences during the first general elections",
+    "bribery and corruption in wartime supplies",
+    "terrorism and organised crime across States"
+   ],
+   "a": 2,
+   "x": "The Special Police Establishment was set up in 1941 to probe bribery and corruption connected with wartime supplies.",
+   "ty": "fact",
+   "tq": "Distinguish an agency’s original mandate from its later and broader functions.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "The Director of the CBI is appointed by the Central Government on the recommendation of a committee comprising the",
+   "o": [
+    "Prime Minister, Speaker of the Lok Sabha and Attorney General of India",
+    "Union Home Minister, Leader of the largest opposition party and CVC",
+    "Prime Minister, Union Home Minister and CVC",
+    "Prime Minister, Leader of Opposition in the Lok Sabha and Chief Justice of India or his nominee"
+   ],
+   "a": 3,
+   "x": "The committee consists of the Prime Minister as Chairperson, the Leader of Opposition in the Lok Sabha or leader of the largest opposition party, and the Chief Justice of India or a Supreme Court judge nominated by the CJI.",
+   "ty": "fact",
+   "tq": "Split the options by identifying the required judicial member and the chairperson.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "The present procedure for selection of the CBI Director through a committee headed by the Prime Minister was introduced through the",
+   "o": [
+    "DSPE Act, 1946",
+    "Lokpal and Lokayuktas Act, 2013",
+    "CVC Act, 2003",
+    "Prevention of Corruption Act, 1988"
+   ],
+   "a": 1,
+   "x": "The Lokpal and Lokayuktas Act, 2013 amended the DSPE framework and introduced the present three-member selection committee. Until 2014, the process operated under the DSPE Act alone.",
+   "ty": "fact",
+   "tq": "Use the legal-amendment trap by separating the original statute from the later reforming Act.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the tenure of the CBI Director is correct?",
+   "o": [
+    "The minimum tenure is one year and it may be extended up to three years.",
+    "The tenure is coterminous with that of the Central Government.",
+    "The tenure is fixed at five years with no possibility of extension.",
+    "The minimum tenure is two years and it may be extended up to five years."
+   ],
+   "a": 3,
+   "x": "The CBI Director has a minimum tenure of two years, which was made extendable up to five years in 2021.",
+   "ty": "numerical",
+   "tq": "Compare the minimum and maximum periods rather than selecting the familiar-looking fixed-term option.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "The Directorate of Prosecution associated with the CBI is headed by an officer of at least the rank of",
+   "o": [
+    "Under Secretary",
+    "Joint Secretary",
+    "Deputy Secretary",
+    "Additional Secretary"
+   ],
+   "a": 1,
+   "x": "The Directorate of Prosecution is headed by an officer of at least Joint Secretary rank. The officer is appointed on the recommendation of the CVC for two years.",
+   "ty": "fact",
+   "tq": "Identify the precise minimum rank instead of choosing a higher neighbouring designation.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "Who recommends the appointment of the head of the Directorate of Prosecution associated with the CBI?",
+   "o": [
+    "Union Public Service Commission",
+    "Lokpal Selection Committee",
+    "Department of Personnel and Training",
+    "Central Vigilance Commission"
+   ],
+   "a": 3,
+   "x": "The head of the Directorate of Prosecution is appointed on the recommendation of the Central Vigilance Commission, for a period of two years.",
+   "ty": "fact",
+   "tq": "Apply the ‘which body performs the specialised supervisory function?’ approach.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "The Central Vigilance Commission exercises superintendence over the CBI in cases relating to offences under the",
+   "o": [
+    "Representation of the People Act",
+    "Official Secrets Act",
+    "Prevention of Corruption Act",
+    "Unlawful Activities (Prevention) Act"
+   ],
+   "a": 2,
+   "x": "For offences under the Prevention of Corruption Act, superintendence over the CBI lies with the Central Vigilance Commission.",
+   "ty": "application",
+   "tq": "Match the supervisory authority with the specific class of offences, not with the agency generally.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Central Vigilance Commission:\n1. It was set up in 1964 by an executive resolution.\n2. It became a statutory body under the CVC Act, 2003.\n3. It is a constitutional body.\n4. It functions as the apex vigilance body and advises on disciplinary action.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 4 only",
+    "1 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "The CVC was established by executive resolution in 1964, became statutory under the CVC Act, 2003, and functions as the apex vigilance body. It is not a constitutional body.",
+   "ty": "statements",
+   "tq": "Distinguish statutory status from constitutional status while tracking the body’s principal functions.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "The CBI Director selection committee was headed by the CVC before the present arrangement came into force. This statement is",
+   "o": [
+    "Correct, because the CVC continues to head the committee",
+    "Correct, because the CVC headed the committee until 2014",
+    "Incorrect, because the Union Home Minister headed it before 2014",
+    "Incorrect, because the Attorney General headed it before 2014"
+   ],
+   "a": 1,
+   "x": "Before 2014, the appointment process operated under the DSPE Act and the committee was headed by the CVC. The Lokpal Act-based arrangement subsequently placed the Prime Minister at the head of the selection committee.",
+   "ty": "confusable",
+   "tq": "Use the time marker ‘before 2014’ to separate the earlier and present selection procedures.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "The judgment in Vineet Narain v. Union of India is associated with the quashing of the",
+   "o": [
+    "power of the CBI to investigate corruption cases",
+    "two-year minimum tenure of the CBI Director",
+    "Single Directive requiring prior sanction to investigate senior officers",
+    "statutory status of the Central Vigilance Commission"
+   ],
+   "a": 2,
+   "x": "The Supreme Court in Vineet Narain v. Union of India (1997) quashed the Single Directive that required prior sanction to investigate senior officers. The judgment also reinforced the CBI’s autonomy in deciding whether to investigate.",
+   "ty": "fact",
+   "tq": "Associate a landmark judgment with its specific directive or legal mechanism rather than its broader institutional consequences.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about the Vineet Narain judgment is NOT correct?",
+   "o": [
+    "It transferred the decision to investigate every case from the CBI to the CVC.",
+    "It was reported as (1998) 1 SCC 226.",
+    "It was delivered in 1997.",
+    "It led to revision of the DSPE framework and the statutory CVC."
+   ],
+   "a": 0,
+   "x": "The judgment did not transfer every investigation decision to the CVC; the CBI alone decides whether to investigate. The other statements correctly describe the judgment and its reported citation.",
+   "ty": "negative",
+   "tq": "Reject the option that reverses institutional autonomy between the CBI and CVC.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "Officers of the rank of Superintendent of Police and above in the CBI are chosen by a committee led by the",
+   "o": [
+    "Director of the CBI",
+    "Union Home Secretary",
+    "Central Vigilance Commissioner",
+    "Secretary, Department of Personnel and Training"
+   ],
+   "a": 2,
+   "x": "Officers of SP rank and above in the CBI are chosen by a committee led by the Central Vigilance Commissioner.",
+   "ty": "fact",
+   "tq": "Identify the supervising authority for senior personnel selection without confusing it with the agency head.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding CBI cases pending investigation is correct?",
+   "o": [
+    "There were 13 such cases, including 755 Lokpal references.",
+    "There were 755 such cases, including 13 Lokpal references.",
+    "There were 7,229 such cases, including 13 Lokpal references.",
+    "There were 755 such cases, including 400 Lokpal references."
+   ],
+   "a": 1,
+   "x": "The reported number of CBI corruption cases pending investigation was 755, including 13 references from the Lokpal.",
+   "ty": "numerical",
+   "tq": "Separate the total pending investigation cases from the much larger pending-trial figure.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  },
+  {
+   "s": "Which of the following developments was reported in May 2026 in relation to the appointment of the new CBI Director?",
+   "o": [
+    "The Leader of Opposition recorded dissent over the selection.",
+    "The Chief Justice of India withdrew from the selection committee.",
+    "The CVC rejected the appointment unanimously.",
+    "The Prime Minister dissolved the selection committee."
+   ],
+   "a": 0,
+   "x": "In May 2026, the Leader of Opposition recorded dissent over the selection of the new CBI Director. The name of the selected Director is not material to this fact.",
+   "ty": "fact",
+   "tq": "Test the reported procedural development rather than inventing or recalling an unprovided name.",
+   "sec": "CBI - legal basis, recommending committee, year, first Director, Director's appointment  [APPSC]"
+  }
+ ]
+}

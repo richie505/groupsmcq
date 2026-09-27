@@ -1,0 +1,303 @@
+{
+ "book": 2,
+ "row": 98,
+ "chunk": 1,
+ "section": "Constitutional, statutory, executive, regulatory and quasi-judicial bodies - definitions and how to distinguish them",
+ "subsections": [
+  "Bodies → year of establishment",
+  "Bodies whose status changed (NCBC, SEBI, NCSC/NCST) → amendment or Act",
+  "Quasi-judicial bodies - defining features, civil court powers",
+  "State counterparts → Article/Act",
+  "Reports of constitutional bodies → to whom submitted and where laid",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 6,
+  "dupe_of_pyq": 3
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following bodies was established first?",
+   "o": [
+    "Finance Commission",
+    "National Development Council",
+    "Public Service Commission at the central level",
+    "Election Commission of India"
+   ],
+   "a": 2,
+   "x": "The predecessor of the UPSC, the Public Service Commission, was established in 1926. The Federal Public Service Commission followed under the Government of India Act, 1935, and the UPSC came into existence in 1950.",
+   "ty": "chronology",
+   "tq": "Use the earliest date to eliminate the later constitutional bodies.",
+   "sec": "Bodies → year of establishment"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Election Commission of India — 1950\n2. First Finance Commission — 1951\n3. National Development Council — 1952\n4. Inter-State Council — 1990\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. The Election Commission was established in 1950, the first Finance Commission in 1951, the National Development Council in 1952 and the Inter-State Council in 1990.",
+   "ty": "statements",
+   "tq": "Check each year independently before selecting the coded combination.",
+   "sec": "Bodies → year of establishment"
+  },
+  {
+   "s": "Which one of the following sequences correctly represents the establishment years of the Inter-State Council, NCM and NHRC?",
+   "o": [
+    "1990, 1992, 1993",
+    "1992, 1990, 1993",
+    "1990, 1993, 1992",
+    "1993, 1992, 1990"
+   ],
+   "a": 0,
+   "x": "The Inter-State Council was established in 1990, the NCM in 1992 and the NHRC in 1993.",
+   "ty": "chronology",
+   "tq": "Arrange the institutions by their establishment years.",
+   "sec": "Bodies → year of establishment"
+  },
+  {
+   "s": "With reference to the Securities and Exchange Board of India, consider the following statements:\n1. SEBI was initially set up by a resolution in 1988.\n2. SEBI acquired statutory status under the SEBI Act, 1992.\n3. SEBI was a constitutional body before becoming statutory.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. SEBI was initially established through a 1988 resolution and became a statutory body under the SEBI Act, 1992; it was not a constitutional body.",
+   "ty": "statements",
+   "tq": "Reject the wrong-status statement by distinguishing non-statutory, statutory and constitutional bodies.",
+   "sec": "Bodies whose status changed (NCBC, SEBI, NCSC/NCST) → amendment or Act"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "NCBC — 89th Constitutional Amendment Act, 2003",
+    "SEBI — SEBI Act, 1992",
+    "CVC — CVC Act, 2003",
+    "NCM — NCM Act, 1992"
+   ],
+   "a": 0,
+   "x": "The NCBC acquired constitutional status under the 102nd Constitutional Amendment Act, 2018, and Article 338B. The 89th Amendment Act, 2003, relates to the separation of the NCSC and NCST.",
+   "ty": "negative",
+   "tq": "Find the institution-amendment mismatch rather than the correctly matched statutory bodies.",
+   "sec": "Bodies whose status changed (NCBC, SEBI, NCSC/NCST) → amendment or Act"
+  },
+  {
+   "s": "Which one of the following best describes a quasi-judicial body?",
+   "o": [
+    "A constitutional court exercising the complete jurisdiction of the Supreme Court",
+    "A purely advisory body with no authority to apply law",
+    "An executive department that can make laws without statutory authority",
+    "A non-judicial body empowered to interpret and apply law, examine matters, summon persons and impose sanctions under statutory authority"
+   ],
+   "a": 3,
+   "x": "A quasi-judicial body is not a court, but it can interpret and apply law, examine matters, summon persons and impose sanctions under authority granted by a statute.",
+   "ty": "application",
+   "tq": "Identify the defining combination of statutory authority and non-court adjudicatory functions.",
+   "sec": "Quasi-judicial bodies - defining features, civil court powers"
+  },
+  {
+   "s": "Which one of the following is NOT generally regarded as a quasi-judicial body in the context described?",
+   "o": [
+    "NITI Aayog",
+    "Securities and Exchange Board of India",
+    "Central Information Commission",
+    "National Human Rights Commission"
+   ],
+   "a": 0,
+   "x": "NITI Aayog is an advisory body and is not quasi-judicial. NHRC, SEBI and CIC are examples of bodies having quasi-judicial features.",
+   "ty": "odd_one_out",
+   "tq": "Remove the advisory institution from the group of bodies that apply law or adjudicate statutory matters.",
+   "sec": "Quasi-judicial bodies - defining features, civil court powers"
+  },
+  {
+   "s": "Which of the following bodies has civil court powers such as summoning witnesses and requisitioning records?",
+   "o": [
+    "National Development Council",
+    "Law Commission of India",
+    "National Commission for Backward Classes",
+    "NITI Aayog"
+   ],
+   "a": 2,
+   "x": "The NCBC has powers of a civil court, including summoning witnesses and requisitioning records, particularly after it received constitutional status in 2018.",
+   "ty": "fact",
+   "tq": "Use the ‘civil court powers’ clue to distinguish commissions from advisory bodies.",
+   "sec": "Quasi-judicial bodies - defining features, civil court powers"
+  },
+  {
+   "s": "Consider the following statements:\n1. NHRC has powers of a civil court in specified matters.\n2. NCM has powers of a civil court in specified matters.\n3. CIC exercises such powers under the Right to Information Act.\n4. The Law Commission is a quasi-judicial body with civil court powers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 3 are correct. The Law Commission is advisory and is not a quasi-judicial body with civil court powers.",
+   "ty": "statements",
+   "tq": "Test the exception by separating advisory bodies from statutory quasi-judicial bodies.",
+   "sec": "Quasi-judicial bodies - defining features, civil court powers"
+  },
+  {
+   "s": "The State Election Commission derives its constitutional basis for conducting elections to Panchayats and municipalities respectively from:",
+   "o": [
+    "Articles 243I and 243Y",
+    "Articles 243K and 243ZA",
+    "Articles 315 and 323",
+    "Articles 338 and 338A"
+   ],
+   "a": 1,
+   "x": "Article 243K relates to elections to Panchayats and Article 243ZA relates to elections to municipalities. Both fall within the constitutional framework of the State Election Commission.",
+   "ty": "match",
+   "tq": "Match each state-level election function with its specific constitutional article.",
+   "sec": "State counterparts → Article/Act"
+  },
+  {
+   "s": "The State Finance Commission is constituted under Articles 243I and 243Y to review finances of:",
+   "o": [
+    "Parliament and State Legislatures",
+    "High Courts and subordinate courts",
+    "Panchayats and municipalities respectively",
+    "State Public Service Commissions and Joint Public Service Commissions"
+   ],
+   "a": 2,
+   "x": "Article 243I concerns the finances of Panchayats, while Article 243Y extends the corresponding framework to municipalities. The State Finance Commission is constituted every five years.",
+   "ty": "fact",
+   "tq": "Link the Finance Commission articles with the two levels of local government.",
+   "sec": "State counterparts → Article/Act"
+  },
+  {
+   "s": "With reference to State Commissions for Scheduled Castes and Scheduled Tribes, consider the following statements:\n1. They are established under State laws.\n2. Article 338(9) and Article 338A(9) make consultation with the national commissions mandatory on major policy matters.\n3. They are directly created as constitutional bodies under Article 338 and Article 338A.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "State SC and ST Commissions are established under State laws. Articles 338(9) and 338A(9) require consultation with the national commissions on major policy matters; the State commissions themselves are not directly created by Articles 338 and 338A.",
+   "ty": "statements",
+   "tq": "Distinguish the constitutional national commissions from state commissions created by state law.",
+   "sec": "State counterparts → Article/Act"
+  },
+  {
+   "s": "Which one of the following correctly describes the procedure for the UPSC annual report?",
+   "o": [
+    "It is submitted to the Prime Minister and laid before the Rajya Sabha only.",
+    "It is submitted directly to the Speaker of the Lok Sabha without any memorandum.",
+    "It is submitted to the President and laid before Parliament with a memorandum explaining non-acceptance of advice, if any.",
+    "It is submitted to the Governor and laid before the State Legislature."
+   ],
+   "a": 2,
+   "x": "Under Article 323, the UPSC submits its annual report to the President. It is laid before Parliament along with a memorandum explaining cases where its advice was not accepted.",
+   "ty": "fact",
+   "tq": "Use the constitutional recipient and the accompanying memorandum as the decisive clues.",
+   "sec": "Reports of constitutional bodies → to whom submitted and where laid"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Finance Commission — President; Parliament with an explanatory memorandum\n2. SPSC — Governor; State Legislature\n3. Joint SPSC — Each Governor concerned; Each State Legislature\n4. NCSC, NCST and NCBC — President; Parliament\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. The Finance Commission report is laid with an explanatory memorandum, while the other listed commissions follow the recipients and legislatures specified in the pairs.",
+   "ty": "statements",
+   "tq": "Verify both columns—recipient and legislature—rather than matching only the institution.",
+   "sec": "Reports of constitutional bodies → to whom submitted and where laid"
+  },
+  {
+   "s": "The report of the Special Officer for Linguistic Minorities is submitted to the President and:",
+   "o": [
+    "submitted to the Inter-State Council for approval",
+    "laid only before the Lok Sabha",
+    "laid before Parliament and sent to the States",
+    "laid only before the concerned State Legislatures"
+   ],
+   "a": 2,
+   "x": "Under Article 350B, the report of the Special Officer for Linguistic Minorities is submitted to the President, laid before Parliament and also sent to the concerned States.",
+   "ty": "fact",
+   "tq": "Remember the additional transmission to the States as the distinguishing feature.",
+   "sec": "Reports of constitutional bodies → to whom submitted and where laid"
+  },
+  {
+   "s": "Which one of the following statements regarding the consideration of annual reports of constitutional bodies is correct?",
+   "o": [
+    "Only the Lok Sabha considers them because financial accountability is involved.",
+    "Only the Rajya Sabha considers them because constitutional bodies are appointed by the Union.",
+    "They are considered only by the President and not by Parliament.",
+    "Both Houses consider them, and the Rajya Sabha has equal status with the Lok Sabha in this matter."
+   ],
+   "a": 3,
+   "x": "Both Houses of Parliament consider the annual reports of bodies such as the CAG, Finance Commission and UPSC. The Rajya Sabha has equal status with the Lok Sabha in this regard.",
+   "ty": "comparison",
+   "tq": "Reject the common trap that financial or constitutional reports belong exclusively to the Lok Sabha.",
+   "sec": "Reports of constitutional bodies → to whom submitted and where laid"
+  },
+  {
+   "s": "In the order of precedence, which of the following groups is placed at rank 9A?",
+   "o": [
+    "Chairperson of UPSC, Chief Election Commissioner and Comptroller and Auditor General",
+    "Chairpersons of NCM, NCSC and NCST",
+    "Chairperson of the Finance Commission, Attorney General and Cabinet Secretary",
+    "Chairpersons of the State Election Commission and State Finance Commission"
+   ],
+   "a": 0,
+   "x": "The Chairperson of the UPSC, the Chief Election Commissioner and the CAG are placed at rank 9A in the order of precedence. The Chairpersons of NCM, NCSC and NCST are placed at rank 17.",
+   "ty": "comparison",
+   "tq": "Compare the two stated rank groups instead of relying on the constitutional status of the bodies.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with rank in the order of precedence?",
+   "o": [
+    "Chairperson of NCM — Rank 9A",
+    "Chairperson of NCST — Rank 17",
+    "Chairperson of NCSC — Rank 9A",
+    "Chief Election Commissioner — Rank 17"
+   ],
+   "a": 1,
+   "x": "The Chairpersons of NCM, NCSC and NCST are placed at rank 17. The UPSC Chairperson, CEC and CAG are placed at rank 9A.",
+   "ty": "negative",
+   "tq": "Detect the reversed rank by comparing the three commission chairpersons with the constitutional office-holders.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following current developments is associated with the Andhra Pradesh State Commission for Scheduled Castes?",
+   "o": [
+    "It acquired constitutional status under the 102nd Amendment in August 2026.",
+    "It submitted the Union CAG report to Parliament in August 2026.",
+    "It reviewed SC/ST welfare schemes in Nellore district in August 2026.",
+    "It replaced the National Commission for Minorities in August 2026."
+   ],
+   "a": 2,
+   "x": "The Andhra Pradesh State SC Commission, chaired by K.S. Jawahar, reviewed SC/ST welfare schemes in Nellore district in August 2026.",
+   "ty": "application",
+   "tq": "Match the current event with the correct state commission, place and activity.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The withdrawal of general consent by States for the Central Bureau of Investigation is described as a continuing issue of:",
+   "o": [
+    "Linguistic minorities",
+    "Order of precedence",
+    "Federal relations",
+    "Judicial review"
+   ],
+   "a": 2,
+   "x": "Withdrawals of general consent for CBI investigations remain a federal flashpoint because they concern the relationship between the Union investigative agency and State governments.",
+   "ty": "application",
+   "tq": "Identify the federal dimension of a dispute involving Union and State executive authority.",
+   "sec": "Universal angles"
+  }
+ ]
+}
