@@ -1,0 +1,625 @@
+{
+ "book": 2,
+ "row": 159,
+ "chunk": 0,
+ "section": "Regional organisations - SAARC, BIMSTEC, ASEAN, EU, African Union, SCO, GCC, IORA, BBIN",
+ "subsections": [
+  "Organisation → founding year, founding members, HQ/secretariat, head",
+  "Membership - members, non-members, counts",
+  "SAARC and BBIN",
+  "BIMSTEC - name, members, sectors, Charter, Secretariat",
+  "EU - exit clause, enlargement, strategies",
+  "ASEAN - expansion, India's status, AIFTA, ARF, EAS, RCEP"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 44,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following organisations was established through the Bangkok Declaration of 1967?",
+   "o": [
+    "SAARC",
+    "BIMSTEC",
+    "ASEAN",
+    "SCO"
+   ],
+   "a": 2,
+   "x": "ASEAN was established in 1967 through the Bangkok Declaration.",
+   "ty": "fact",
+   "tq": "Identify the organisation from its founding declaration and year.",
+   "sec": "Organisation → founding year, founding members, HQ/secretariat, head  [APPSC]"
+  },
+  {
+   "s": "The headquarters of the South Asian Association for Regional Cooperation is located at",
+   "o": [
+    "Dhaka",
+    "Kathmandu",
+    "Colombo",
+    "Thimphu"
+   ],
+   "a": 1,
+   "x": "The SAARC Secretariat is located in Kathmandu, while its Charter was signed in Dhaka.",
+   "ty": "fact",
+   "tq": "Use the location trap involving the Charter venue and Secretariat headquarters.",
+   "sec": "Organisation → founding year, founding members, HQ/secretariat, head  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes BIMSTEC?",
+   "o": [
+    "Founded through the 1997 Bangkok Declaration and headquartered at Dhaka",
+    "Founded through the 1985 Dhaka Charter and headquartered at Kathmandu",
+    "Founded through the 1992 Maastricht Treaty and headquartered at Brussels",
+    "Founded through the 2001 Shanghai Declaration and headquartered at Beijing"
+   ],
+   "a": 0,
+   "x": "BIMSTEC originated through the 1997 Bangkok Declaration and its Secretariat is in Dhaka.",
+   "ty": "comparison",
+   "tq": "Match the organisation with its founding instrument, year and headquarters.",
+   "sec": "Organisation → founding year, founding members, HQ/secretariat, head  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. African Union — Addis Ababa\n2. Shanghai Cooperation Organisation — Beijing\n3. Gulf Cooperation Council — Riyadh\n4. Indian Ocean Rim Association — Ebene, Mauritius\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The African Union, SCO, GCC and IORA have their headquarters or secretariat at Addis Ababa, Beijing, Riyadh and Ebene respectively.",
+   "ty": "statements",
+   "tq": "Check each organisation-location pair before selecting the coded combination.",
+   "sec": "Organisation → founding year, founding members, HQ/secretariat, head  [APPSC]"
+  },
+  {
+   "s": "The headquarters of the Regional Anti-Terrorist Structure of the Shanghai Cooperation Organisation is located at",
+   "o": [
+    "Beijing",
+    "Tashkent",
+    "Shanghai",
+    "Astana"
+   ],
+   "a": 1,
+   "x": "The SCO is headquartered at Beijing, whereas its Regional Anti-Terrorist Structure is located at Tashkent.",
+   "ty": "confusable",
+   "tq": "Discriminate between the organisation’s headquarters and its specialised structure.",
+   "sec": "Organisation → founding year, founding members, HQ/secretariat, head  [APPSC]"
+  },
+  {
+   "s": "Which one of the following organisations replaced the Organisation of African Unity?",
+   "o": [
+    "IORA",
+    "Commonwealth",
+    "Council of Europe",
+    "African Union"
+   ],
+   "a": 3,
+   "x": "The African Union was established in 2002 and replaced the Organisation of African Unity, founded in 1963.",
+   "ty": "fact",
+   "tq": "Test the predecessor-successor relationship directly.",
+   "sec": "Organisation → founding year, founding members, HQ/secretariat, head  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. The European Union is associated with the Maastricht Treaty of 1992/93.\n2. The Council of Europe was founded in 1949.\n3. The Commonwealth was associated with the London Declaration of 1949.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The EU is associated with the Maastricht Treaty of 1992/93; the Council of Europe was founded in 1949; and the Commonwealth was associated with the London Declaration of 1949.",
+   "ty": "statements",
+   "tq": "Separate founding treaties and declarations from the organisations’ headquarters.",
+   "sec": "Organisation → founding year, founding members, HQ/secretariat, head  [APPSC]"
+  },
+  {
+   "s": "Who is the Secretary-General of the Commonwealth mentioned in the following context?",
+   "o": [
+    "Ngozi Okonjo-Iweala of Nigeria",
+    "Amina J. Mohammed of Nigeria",
+    "Shirley Ayorkor Botchwey of Ghana",
+    "António Guterres of Portugal"
+   ],
+   "a": 2,
+   "x": "Shirley Ayorkor Botchwey of Ghana is the Commonwealth Secretary-General referred to here.",
+   "ty": "fact",
+   "tq": "Use the person-organisation association rather than the organisation’s location.",
+   "sec": "Organisation → founding year, founding members, HQ/secretariat, head  [APPSC]"
+  },
+  {
+   "s": "How many members does SAARC have?",
+   "o": [
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "a": 2,
+   "x": "SAARC comprises eight members: Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan and Sri Lanka.",
+   "ty": "numerical",
+   "tq": "Recall the exact membership count and verify it against the member list.",
+   "sec": "Membership - members, non-members, counts  [APPSC]"
+  },
+  {
+   "s": "Which one of the following countries is a member of BIMSTEC but not of SAARC?",
+   "o": [
+    "Maldives",
+    "Myanmar",
+    "Afghanistan",
+    "Pakistan"
+   ],
+   "a": 1,
+   "x": "Myanmar is a BIMSTEC member but is not a member of SAARC.",
+   "ty": "confusable",
+   "tq": "Use the overlapping-membership trap between SAARC and BIMSTEC.",
+   "sec": "Membership - members, non-members, counts  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. China is not a member of BIMSTEC.\n2. Myanmar is not a member of SAARC.\n3. Myanmar is the only ASEAN state bordering India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. China is outside BIMSTEC, Myanmar is outside SAARC, and Myanmar is the only ASEAN country sharing a land border with India.",
+   "ty": "statements",
+   "tq": "Test closely related membership and geographical-relationship statements together.",
+   "sec": "Membership - members, non-members, counts  [APPSC]"
+  },
+  {
+   "s": "Myanmar joined both ASEAN and BIMSTEC in",
+   "o": [
+    "1994",
+    "1997",
+    "2004",
+    "2007"
+   ],
+   "a": 1,
+   "x": "Myanmar joined ASEAN and BIMSTEC in 1997.",
+   "ty": "numerical",
+   "tq": "Distinguish the common accession year from the years of other regional expansions.",
+   "sec": "Membership - members, non-members, counts  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding the membership of regional organisations is correct?",
+   "o": [
+    "The European Union has 28 members and the GCC has 6 members.",
+    "The European Union has 26 members and the GCC has 7 members.",
+    "The European Union has 27 members and the GCC has 8 members.",
+    "The European Union has 27 members and the GCC has 6 members."
+   ],
+   "a": 3,
+   "x": "The European Union has 27 members and the Gulf Cooperation Council has six members.",
+   "ty": "numerical",
+   "tq": "Split the option into two counts and check both figures.",
+   "sec": "Membership - members, non-members, counts  [APPSC]"
+  },
+  {
+   "s": "The ASEAN membership described as “10 + Timor-Leste” indicates a total of",
+   "o": [
+    "9 members",
+    "10 members",
+    "11 members",
+    "12 members"
+   ],
+   "a": 2,
+   "x": "With Timor-Leste included in 2025, the stated ASEAN membership is 11.",
+   "ty": "numerical",
+   "tq": "Convert the stated component count into the total membership.",
+   "sec": "Membership - members, non-members, counts  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about the Council of Europe is correct?",
+   "o": [
+    "It had 47 members in 2019, and Russia joined in March 2022.",
+    "It had 27 members in 2019, and Russia joined in March 2022.",
+    "It had 47 members in 2019, and Russia was expelled in March 2022.",
+    "It had 27 members in 2019, and Russia was expelled in March 2022."
+   ],
+   "a": 2,
+   "x": "The Council of Europe had 47 members in 2019; Russia was expelled in March 2022.",
+   "ty": "fact",
+   "tq": "Combine the membership count with the dated membership change.",
+   "sec": "Membership - members, non-members, counts  [APPSC]"
+  },
+  {
+   "s": "The SAARC Charter was signed at Dhaka in 1985, whereas its Secretariat was established at",
+   "o": [
+    "New Delhi",
+    "Thimphu",
+    "Colombo",
+    "Kathmandu"
+   ],
+   "a": 3,
+   "x": "The SAARC Charter was signed in Dhaka in 1985, while the Secretariat is located in Kathmandu.",
+   "ty": "confusable",
+   "tq": "Separate the Charter-signing venue from the Secretariat location.",
+   "sec": "SAARC and BBIN  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT included among the observers of SAARC?",
+   "o": [
+    "China",
+    "Japan",
+    "Australia",
+    "United States of America"
+   ],
+   "a": 2,
+   "x": "China, Japan, the United States and the European Union are among the listed SAARC observers; Australia is not included in that list.",
+   "ty": "negative",
+   "tq": "Find the outsider in a list of named observers.",
+   "sec": "SAARC and BBIN  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding SAFTA:\n1. It was signed in 2004.\n2. It came into force on 1 January 2006.\n3. It replaced SAPTA.\n4. Eligible goods must meet the Rules of Origin for zero-duty treatment.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "SAFTA was signed in 2004, came into force on 1 January 2006, replaced SAPTA, and provides zero duty for eligible goods satisfying the Rules of Origin.",
+   "ty": "statements",
+   "tq": "Check the chronology, replacement relationship and qualifying condition together.",
+   "sec": "SAARC and BBIN  [APPSC]"
+  },
+  {
+   "s": "The SAARC Development Fund is located at",
+   "o": [
+    "Thimphu",
+    "Dhaka",
+    "Islamabad",
+    "Kathmandu"
+   ],
+   "a": 0,
+   "x": "The SAARC Development Fund is located at Thimphu, Bhutan.",
+   "ty": "fact",
+   "tq": "Match the specialised regional institution with its headquarters.",
+   "sec": "SAARC and BBIN  [APPSC]"
+  },
+  {
+   "s": "Which of the following initiatives was proposed by India in the SAARC framework?\n1. South Asia Satellite\n2. COVID emergency fund\n3. Bangkok Vision 2030\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "India proposed the South Asia Satellite in 2017 and the COVID emergency fund in 2020. Bangkok Vision 2030 belongs to BIMSTEC.",
+   "ty": "statements",
+   "tq": "Identify the correct organisation behind each named initiative.",
+   "sec": "SAARC and BBIN  [APPSC]"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. Eighteenth SAARC Summit at Kathmandu\nB. Cancellation of the Nineteenth SAARC Summit at Islamabad\nC. Launch of the South Asia Satellite\nD. Establishment of the COVID emergency fund",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "C, A, B, D"
+   ],
+   "a": 0,
+   "x": "The 18th Summit was held in 2014, the 19th Summit was cancelled in 2016, the South Asia Satellite was proposed in 2017, and the COVID emergency fund was proposed in 2020.",
+   "ty": "chronology",
+   "tq": "Anchor the sequence using the dated summit and subsequent initiatives.",
+   "sec": "SAARC and BBIN  [APPSC]"
+  },
+  {
+   "s": "The 19th SAARC Summit, scheduled at Islamabad in 2016, was cancelled after the",
+   "o": [
+    "Mumbai attacks",
+    "Uri attack",
+    "Kargil conflict",
+    "Pulwama attack"
+   ],
+   "a": 1,
+   "x": "The 19th SAARC Summit at Islamabad was cancelled after the Uri attack. The 18th Summit at Kathmandu in 2014 remains the last summit.",
+   "ty": "fact",
+   "tq": "Link the cancelled event to its immediate stated cause.",
+   "sec": "SAARC and BBIN  [APPSC]"
+  },
+  {
+   "s": "Which one of the following countries has not ratified the BBIN Motor Vehicles Agreement?",
+   "o": [
+    "Nepal",
+    "Bhutan",
+    "Bangladesh",
+    "India"
+   ],
+   "a": 1,
+   "x": "The BBIN Motor Vehicles Agreement was signed by Bangladesh, Bhutan, India and Nepal at Thimphu in 2015, but Bhutan has not ratified it.",
+   "ty": "fact",
+   "tq": "Distinguish signing from ratification and identify the exceptional member.",
+   "sec": "SAARC and BBIN  [APPSC]"
+  },
+  {
+   "s": "BIMSTEC originally began as BIST-EC, comprising",
+   "o": [
+    "Bangladesh, India, Myanmar and Thailand",
+    "Bangladesh, India, Sri Lanka and Thailand",
+    "Bhutan, India, Sri Lanka and Thailand",
+    "Bangladesh, Bhutan, India and Nepal"
+   ],
+   "a": 1,
+   "x": "BIST-EC originally comprised Bangladesh, India, Sri Lanka and Thailand. Nepal and Bhutan joined in 2004.",
+   "ty": "fact",
+   "tq": "Recall the original founding membership before expansion.",
+   "sec": "BIMSTEC - name, members, sectors, Charter, Secretariat  [APPSC]"
+  },
+  {
+   "s": "BIMSTEC has how many members after the expansion that included Nepal and Bhutan?",
+   "o": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "a": 2,
+   "x": "BIMSTEC has seven members: Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka and Thailand.",
+   "ty": "numerical",
+   "tq": "Use the accession facts to reconstruct the present membership count.",
+   "sec": "BIMSTEC - name, members, sectors, Charter, Secretariat  [APPSC]"
+  },
+  {
+   "s": "The BIMSTEC Charter was adopted at the",
+   "o": [
+    "First Summit at Dhaka in 1997",
+    "Fourth Summit at Kathmandu in 2018",
+    "Sixth Summit at Bangkok in 2025",
+    "Fifth Summit at Colombo in 2022"
+   ],
+   "a": 3,
+   "x": "The BIMSTEC Charter was adopted at the Fifth Summit held at Colombo in 2022.",
+   "ty": "fact",
+   "tq": "Match the summit number, venue and year with the institutional development.",
+   "sec": "BIMSTEC - name, members, sectors, Charter, Secretariat  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about BIMSTEC:\n1. Its sectors were reduced from 14 to 7.\n2. Each sector has a lead country.\n3. India leads the security sector.\n4. Myanmar earlier led the energy sector.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. BIMSTEC reduced its sectors from 14 to 7, assigned a lead country to each, assigned security to India and had Myanmar earlier leading energy.",
+   "ty": "statements",
+   "tq": "Verify the numerical restructuring and the sector-leadership assignments separately.",
+   "sec": "BIMSTEC - name, members, sectors, Charter, Secretariat  [APPSC]"
+  },
+  {
+   "s": "Which one of the following was NOT an outcome associated with the Sixth BIMSTEC Summit held at Bangkok in April 2025?",
+   "o": [
+    "Adoption of the Kuala Lumpur Declaration",
+    "Bangkok Vision 2030",
+    "Maritime Transport Cooperation Agreement",
+    "The theme “Prosperous, Resilient, and Open”"
+   ],
+   "a": 0,
+   "x": "The Sixth BIMSTEC Summit produced the Bangkok Vision 2030, the Maritime Transport Cooperation Agreement and the stated theme. The Kuala Lumpur Declaration was adopted at the 20th East Asia Summit.",
+   "ty": "negative",
+   "tq": "Separate outcomes of BIMSTEC from those of the East Asia Summit.",
+   "sec": "BIMSTEC - name, members, sectors, Charter, Secretariat  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched in relation to BIMSTEC initiatives of India?",
+   "o": [
+    "MILEX — first BIMSTEC army exercise, Pune, 2018",
+    "Youth Summit — Colombo, February 2025",
+    "Cancer Care Programme — Bangkok, July 2025",
+    "Energy Centre Host Country Agreement — November 2022"
+   ],
+   "a": 0,
+   "x": "MILEX was the first BIMSTEC army exercise and was held at Pune in 2018. The first Youth Summit was at Gandhinagar in February 2025, the Cancer Care programme was at Tata Memorial in July 2025, and the Energy Centre agreement was signed in November 2024.",
+   "ty": "match",
+   "tq": "Use the sure date-place pair and reject the swapped locations or years.",
+   "sec": "BIMSTEC - name, members, sectors, Charter, Secretariat  [APPSC]"
+  },
+  {
+   "s": "Bangladesh held the chairmanship of BIMSTEC during",
+   "o": [
+    "2022–24",
+    "2023–25",
+    "2025–27",
+    "2024–26"
+   ],
+   "a": 3,
+   "x": "Bangladesh held the BIMSTEC chairmanship during 2024–26.",
+   "ty": "numerical",
+   "tq": "Read the two-year chairmanship period precisely rather than its starting year alone.",
+   "sec": "BIMSTEC - name, members, sectors, Charter, Secretariat  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT identified as a weakness or constraint affecting BIMSTEC?\n1. Few summits\n2. Broad focus\n3. Rohingya and border issues\n4. BCIM rivalry\n5. A common currency\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2, 3, 4 and 5",
+    "2 and 5 only",
+    "1 only",
+    "5 only"
+   ],
+   "a": 3,
+   "x": "Few summits, broad focus, Rohingya and border issues, and BCIM rivalry are identified constraints. A common currency is not listed as a BIMSTEC weakness.",
+   "ty": "negative",
+   "tq": "Find the item outside the stated list rather than being distracted by the regional context.",
+   "sec": "BIMSTEC - name, members, sectors, Charter, Secretariat  [APPSC]"
+  },
+  {
+   "s": "Article 50 of the Treaty on European Union, inserted through the Lisbon Treaty, provides for",
+   "o": [
+    "establishment of the European Parliament",
+    "withdrawal from the European Union",
+    "creation of the euro currency",
+    "admission of new members to the European Union"
+   ],
+   "a": 1,
+   "x": "Article 50 provides the legal procedure for a member state to withdraw from the European Union and was invoked for Brexit.",
+   "ty": "application",
+   "tq": "Identify the constitutional provision by applying it to the Brexit situation.",
+   "sec": "EU - exit clause, enlargement, strategies  [APPSC]"
+  },
+  {
+   "s": "The United Kingdom formally left the European Union on",
+   "o": [
+    "31 December 2020",
+    "1 January 2021",
+    "29 March 2019",
+    "31 January 2020"
+   ],
+   "a": 3,
+   "x": "The United Kingdom left the European Union on 31 January 2020 after invoking Article 50.",
+   "ty": "numerical",
+   "tq": "Distinguish the formal exit date from the dates of the withdrawal process and transition.",
+   "sec": "EU - exit clause, enlargement, strategies  [APPSC]"
+  },
+  {
+   "s": "Which country was the latest to join the European Union?",
+   "o": [
+    "Bulgaria",
+    "Romania",
+    "Slovenia",
+    "Croatia"
+   ],
+   "a": 3,
+   "x": "Croatia was the last country to join the European Union, in 2013.",
+   "ty": "fact",
+   "tq": "Recall the latest enlargement rather than an earlier enlargement round.",
+   "sec": "EU - exit clause, enlargement, strategies  [APPSC]"
+  },
+  {
+   "s": "The Digital Single Market is a strategy of the European Union introduced in",
+   "o": [
+    "2013",
+    "2014",
+    "2015",
+    "2016"
+   ],
+   "a": 2,
+   "x": "The European Union introduced the Digital Single Market strategy in 2015.",
+   "ty": "numerical",
+   "tq": "Select the precise year from closely spaced numerical distractors.",
+   "sec": "EU - exit clause, enlargement, strategies  [APPSC]"
+  },
+  {
+   "s": "Under the India–European Union FTA commitments referred to for 2026, the EU commitments cover how many services subsectors?",
+   "o": [
+    "124",
+    "134",
+    "144",
+    "154"
+   ],
+   "a": 2,
+   "x": "The stated EU commitments cover 144 services subsectors.",
+   "ty": "numerical",
+   "tq": "Test the exact quantitative commitment using nearby numerical distractors.",
+   "sec": "EU - exit clause, enlargement, strategies  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly states the sequence of India’s relations with ASEAN?",
+   "o": [
+    "Sectoral dialogue partner — 1992; full dialogue partner — 1996; summit-level partner — 2002; Comprehensive Strategic Partnership — 2022",
+    "Sectoral dialogue partner — 1996; full dialogue partner — 1992; summit-level partner — 2002; Comprehensive Strategic Partnership — 2022",
+    "Sectoral dialogue partner — 1992; full dialogue partner — 2002; summit-level partner — 1996; Comprehensive Strategic Partnership — 2022",
+    "Sectoral dialogue partner — 1992; full dialogue partner — 1996; summit-level partner — 2022; Comprehensive Strategic Partnership — 2002"
+   ],
+   "a": 0,
+   "x": "India became a sectoral dialogue partner in 1992, a full dialogue partner in 1996, a summit-level partner in 2002 and a Comprehensive Strategic Partner in 2022.",
+   "ty": "chronology",
+   "tq": "Arrange milestone labels with their exact years and watch for swapped stages.",
+   "sec": "ASEAN - expansion, India's status, AIFTA, ARF, EAS, RCEP  [other exams]"
+  },
+  {
+   "s": "The ASEAN-India Free Trade Agreement relating to goods came into force in",
+   "o": [
+    "2008",
+    "2009",
+    "2010",
+    "2011"
+   ],
+   "a": 2,
+   "x": "The ASEAN-India Free Trade Agreement on goods came into force in 2010.",
+   "ty": "numerical",
+   "tq": "Recall the implementation year and distinguish it from the dialogue-partnership years.",
+   "sec": "ASEAN - expansion, India's status, AIFTA, ARF, EAS, RCEP  [other exams]"
+  },
+  {
+   "s": "At the 32nd ASEAN Regional Forum held at Kuala Lumpur in July 2025, India sought early completion of the review of",
+   "o": [
+    "AITIGA",
+    "SAFTA",
+    "Digital Single Market",
+    "RCEP"
+   ],
+   "a": 0,
+   "x": "India sought early completion of the review of the ASEAN-India Trade in Goods Agreement, or AITIGA.",
+   "ty": "fact",
+   "tq": "Match the forum, year and policy objective with the exact agreement.",
+   "sec": "ASEAN - expansion, India's status, AIFTA, ARF, EAS, RCEP  [other exams]"
+  },
+  {
+   "s": "The ASEAN Regional Forum was established in",
+   "o": [
+    "1992",
+    "1994",
+    "1996",
+    "2002"
+   ],
+   "a": 1,
+   "x": "The ASEAN Regional Forum was established in 1994.",
+   "ty": "numerical",
+   "tq": "Separate the ARF founding year from India’s ASEAN partnership milestones.",
+   "sec": "ASEAN - expansion, India's status, AIFTA, ARF, EAS, RCEP  [other exams]"
+  },
+  {
+   "s": "Which one of the following statements regarding the East Asia Summit is correct?",
+   "o": [
+    "It was founded in 1994 at Jakarta and has 17 members.",
+    "It was founded in 2005 at Bangkok and has 18 members.",
+    "It was founded in 2005 at Kuala Lumpur and has 19 members.",
+    "It was founded in 2010 at Kuala Lumpur and has 19 members."
+   ],
+   "a": 2,
+   "x": "The East Asia Summit was founded in 2005 at Kuala Lumpur and has 19 members: 11 ASEAN members plus India, China, Japan, the United States, Russia, Australia, New Zealand and South Korea.",
+   "ty": "fact",
+   "tq": "Combine the founding venue, year and membership count.",
+   "sec": "ASEAN - expansion, India's status, AIFTA, ARF, EAS, RCEP  [other exams]"
+  },
+  {
+   "s": "The 20th East Asia Summit held at Kuala Lumpur in 2025 adopted the",
+   "o": [
+    "Colombo Declaration",
+    "Dhaka Charter",
+    "Bangkok Vision 2030",
+    "Kuala Lumpur Declaration"
+   ],
+   "a": 3,
+   "x": "The 20th East Asia Summit adopted the Kuala Lumpur Declaration in 2025.",
+   "ty": "fact",
+   "tq": "Distinguish the declaration of the East Asia Summit from BIMSTEC’s Bangkok Vision 2030.",
+   "sec": "ASEAN - expansion, India's status, AIFTA, ARF, EAS, RCEP  [other exams]"
+  },
+  {
+   "s": "India opted out of the Regional Comprehensive Economic Partnership in",
+   "o": [
+    "2017",
+    "2018",
+    "2019",
+    "2020"
+   ],
+   "a": 2,
+   "x": "India opted out of RCEP in 2019.",
+   "ty": "numerical",
+   "tq": "Identify the withdrawal year from closely spaced policy dates.",
+   "sec": "ASEAN - expansion, India's status, AIFTA, ARF, EAS, RCEP  [other exams]"
+  }
+ ]
+}

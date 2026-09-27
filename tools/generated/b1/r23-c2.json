@@ -1,0 +1,172 @@
+{
+ "book": 1,
+ "row": 23,
+ "chunk": 2,
+ "section": "The sixteen Mahajanapadas - list, capitals, monarchies vs ganasanghas (Anguttara Nikaya)",
+ "subsections": [
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 11,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "In September 2026, which institution opened 22 boxes of archaeological material from the Rajghat excavations conducted during 1957–1969?",
+   "o": [
+    "Archaeological Survey of India",
+    "University of Allahabad",
+    "Banaras Hindu University",
+    "Indian Museum, Kolkata"
+   ],
+   "a": 2,
+   "x": "Banaras Hindu University opened 22 boxes containing finds from the 1957–1969 Rajghat excavations.",
+   "ty": "fact",
+   "tq": "Direct fact recall using the institution-number association.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The re-studied Rajghat artefacts have been used to date the urban origins of Varanasi to approximately:",
+   "o": [
+    "1200 BCE",
+    "1000 BCE",
+    "800 BCE",
+    "600 BCE"
+   ],
+   "a": 2,
+   "x": "The Rajghat artefacts indicate that Varanasi’s urban origins date to approximately 800 BCE.",
+   "ty": "numerical",
+   "tq": "Use the archaeological date association and distinguish it from nearby period values.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding Rajghat and Kashi:\n1. Rajghat was the capital of the Kashi Janapada.\n2. Kashi was ruled by the Brahmadatta dynasty before its annexation by Kosala.\n3. Kashi remained independent after Kosala annexed it.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Rajghat was the capital of Kashi, which was ruled by the Brahmadatta dynasty until Kosala annexed it. Therefore, statement 3 is false.",
+   "ty": "statements",
+   "tq": "Find the statement that reverses the stated political succession.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which archaeological site near Ujjain is proposed for re-excavation by the Government of Madhya Pradesh?",
+   "o": [
+    "Bodh Gaya",
+    "Rajghat",
+    "Vaishya Tekri",
+    "Suktimati"
+   ],
+   "a": 2,
+   "x": "The Government of Madhya Pradesh proposed to re-excavate Vaishya Tekri near Ujjain.",
+   "ty": "fact",
+   "tq": "Direct site-identification question using geographically related distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about Avanti:\n1. Ujjain was the capital of Avanti.\n2. Avanti was situated on the Sipra River.\n3. Vaishya Tekri is located near the capital of Avanti.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Ujjain was the capital of Avanti, Avanti was associated with the Sipra River, and Vaishya Tekri lies near Ujjain. All three statements are correct.",
+   "ty": "statements",
+   "tq": "Combine capital, river and location facts and test the complete combination.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following Mahajanapadas is associated with the Telugu region and was located on the Godavari?",
+   "o": [
+    "Avanti",
+    "Kosala",
+    "Assaka",
+    "Kashi"
+   ],
+   "a": 2,
+   "x": "Assaka, also known as Ashmaka, was the Mahajanapada associated with the Telugu region and the Godavari valley.",
+   "ty": "fact",
+   "tq": "Direct regional association with an AP-specific historical fact.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following correctly expresses the historical significance of the rise of the Mahajanapadas and Magadha?\n1. They were associated with the second urbanisation.\n2. They marked the emergence of the first large Indian state.\n3. Their economic changes created conditions for the rise of heterodox sects.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Mahajanapadas and the rise of Magadha were linked with the second urbanisation, the emergence of the first large Indian state and the rise of heterodox sects amid economic change.",
+   "ty": "statements",
+   "tq": "Identify the option containing all the connected significance statements.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The expansion of the Nandas is particularly significant in relation to their reach into which regions?",
+   "o": [
+    "Malwa and Saurashtra only",
+    "Kalinga and the Deccan",
+    "Tamilakam and Kerala",
+    "Kashmir and Gandhara"
+   ],
+   "a": 1,
+   "x": "The Nanda expansion extended into Kalinga and the Deccan.",
+   "ty": "fact",
+   "tq": "Direct recall of the territorial extent of a ruling power.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements:\n1. Chandragupta Maurya adopted Jainism.\n2. Bhadrabahu is associated with the southward movement of Jainism.\n3. Chandragupta and Bhadrabahu are traditionally associated with the spread of Jainism towards southern India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Chandragupta Maurya and Bhadrabahu are traditionally associated with the southward movement of Jainism, and Chandragupta adopted Jainism. All three statements are correct.",
+   "ty": "statements",
+   "tq": "Test a ruler–religious tradition association through a complete statement set.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Assertion (A): Gana-sanghas could be slower and more divided in decision-making than monarchies.\nReason (R): Gana-sanghas followed a form of collective rule, whereas monarchies concentrated authority in a ruler and a succession system.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true. Collective decision-making in gana-sanghas could be slower and more divided than the more concentrated authority of monarchies.",
+   "ty": "assertion_reason",
+   "tq": "Test whether the institutional difference directly explains the administrative outcome.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following best distinguishes monarchies from gana-sanghas in the context of the Mahajanapadas?",
+   "o": [
+    "Gana-sanghas concentrated all authority in one ruler, while monarchies were governed by assemblies.",
+    "There was no difference in their systems of political decision-making.",
+    "Monarchies were always peaceful, whereas gana-sanghas were governed exclusively by hereditary kings.",
+    "Monarchies generally enabled quicker decisions, while gana-sanghas involved collective rule and could face slower decisions and internal division."
+   ],
+   "a": 3,
+   "x": "Monarchies generally permitted quicker decisions but could experience succession struggles, while gana-sanghas were collectively governed and could be slower and divided.",
+   "ty": "comparison",
+   "tq": "Compare the institutional features directly rather than selecting an absolute claim.",
+   "sec": "Universal angles"
+  }
+ ]
+}

@@ -1,0 +1,384 @@
+{
+ "book": 1,
+ "row": 5,
+ "chunk": 0,
+ "section": "Indus Valley Civilization - discovery, chronology, geographical extent, boundary sites",
+ "subsections": [
+  "Site → river and present state/district - Indian vs Pakistani sites",
+  "Site → discoverer/excavator and year",
+  "Harappan vs non-Harappan sites"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 28,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Mohenjodaro is located in which of the following present-day regions?",
+   "o": [
+    "Rajasthan, India",
+    "Sindh, Pakistan",
+    "Gujarat, India",
+    "Punjab, Pakistan"
+   ],
+   "a": 1,
+   "x": "Mohenjodaro lies in Sindh province of Pakistan, near Larkana, on the Indus River.",
+   "ty": "fact",
+   "tq": "Discriminate between the present-day locations of major Pakistani Harappan cities.",
+   "sec": "Site → river and present state/district - Indian vs Pakistani sites"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Chanhudaro — Indus — Sindh, Pakistan",
+    "Chanhudaro — Ravi — Punjab, India",
+    "Chanhudaro — Ghaggar — Rajasthan, India",
+    "Chanhudaro — Sutlej — Punjab, Pakistan"
+   ],
+   "a": 0,
+   "x": "Chanhudaro is situated on the Indus in Sindh, Pakistan, near Mohenjodaro.",
+   "ty": "match",
+   "tq": "Start from the sure site–river pair and verify the present location.",
+   "sec": "Site → river and present state/district - Indian vs Pakistani sites"
+  },
+  {
+   "s": "Lothal is situated at the confluence of which rivers?",
+   "o": [
+    "Ravi and Sutlej",
+    "Ghaggar and Hakra",
+    "Bhogava and Sabarmati",
+    "Indus and Chenab"
+   ],
+   "a": 2,
+   "x": "Lothal lies at the Bhogava–Sabarmati confluence in Ahmedabad district of Gujarat, near the head of the Gulf of Cambay.",
+   "ty": "fact",
+   "tq": "Test the distinctive river association of a site rather than its general state location.",
+   "sec": "Site → river and present state/district - Indian vs Pakistani sites"
+  },
+  {
+   "s": "Consider the following pairs:\na. Kalibangan — Ghaggar — Hanumangarh\nb. Ropar — Sutlej — Punjab\nc. Alamgirpur — Hindon — Meerut\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "a only",
+    "a and b only",
+    "b and c only",
+    "a, b and c"
+   ],
+   "a": 3,
+   "x": "All three pairs are correct. Kalibangan is in Hanumangarh, Rajasthan; Ropar is on the Sutlej in Punjab; and Alamgirpur is on the Hindon in Meerut, Uttar Pradesh.",
+   "ty": "statements",
+   "tq": "Check each site against both its river and present district before choosing the code.",
+   "sec": "Site → river and present state/district - Indian vs Pakistani sites"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Daimabad — Pravara — Maharashtra",
+    "Banawali — Rangoi — Haryana",
+    "Manda — Chenab — Jammu and Kashmir",
+    "Padri — Narmada — Gujarat"
+   ],
+   "a": 3,
+   "x": "Padri is in Gujarat, but it is not associated here with the Narmada; its river is not specified in the table. Manda is on the Chenab and Daimabad on the Pravara.",
+   "ty": "negative",
+   "tq": "Find the pair containing an unsupported or altered river association.",
+   "sec": "Site → river and present state/district - Indian vs Pakistani sites"
+  },
+  {
+   "s": "Which of the following sites is situated in Jammu and Kashmir?",
+   "o": [
+    "Daimabad",
+    "Padri",
+    "Banawali",
+    "Manda"
+   ],
+   "a": 3,
+   "x": "Manda is located on the Chenab in Jammu and Kashmir. Daimabad is in Maharashtra, Padri in Gujarat and Banawali in Haryana.",
+   "ty": "fact",
+   "tq": "Use state-based elimination among geographically distinct Harappan sites.",
+   "sec": "Site → river and present state/district - Indian vs Pakistani sites"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Site)\nA. Rakhigarhi\nB. Banawali\nC. Mandi\nD. Dholavira\nList-II (Present location)\n1. Kutch, Gujarat\n2. Hisar district, Haryana\n3. Muzaffarnagar, Uttar Pradesh\n4. Hisar–Fatehabad region, Haryana\nSelect the correct answer using the code below.",
+   "o": [
+    "A-2, B-4, C-3, D-1",
+    "A-4, B-2, C-1, D-3",
+    "A-2, B-3, C-4, D-1",
+    "A-1, B-4, C-3, D-2"
+   ],
+   "a": 0,
+   "x": "Rakhigarhi is in Hisar district, Banawali in the Hisar–Fatehabad region, Mandi in Muzaffarnagar and Dholavira in Kutch.",
+   "ty": "match",
+   "tq": "Start with the distinctive Kutch and Muzaffarnagar locations, then resolve the Haryana pair.",
+   "sec": "Site → river and present state/district - Indian vs Pakistani sites"
+  },
+  {
+   "s": "Which one of the following States and site combinations is NOT correctly matched?",
+   "o": [
+    "Haryana — Mitathal",
+    "Maharashtra — Daimabad",
+    "Gujarat — Rangpur",
+    "Rajasthan — Rakhigarhi"
+   ],
+   "a": 3,
+   "x": "Rakhigarhi is in Haryana, not Rajasthan. Kalibangan is the site listed for Rajasthan.",
+   "ty": "negative",
+   "tq": "Use the state-wise concentration table and identify the swapped site.",
+   "sec": "Site → river and present state/district - Indian vs Pakistani sites"
+  },
+  {
+   "s": "The highest concentration of Harappan settlements was found in which geographical system?",
+   "o": [
+    "Ghaggar–Hakra system",
+    "Narmada–Tapi system",
+    "Indus–Jhelum system",
+    "Ganga–Yamuna system"
+   ],
+   "a": 0,
+   "x": "The Ghaggar–Hakra system had the highest concentration of settlements, with about 250 sites, of which six were cities.",
+   "ty": "numerical",
+   "tq": "Associate the quantitative settlement concentration with the correct river system.",
+   "sec": "Site → river and present state/district - Indian vs Pakistani sites"
+  },
+  {
+   "s": "Who excavated Harappa in 1921 under the direction of John Marshall?",
+   "o": [
+    "Daya Ram Sahni",
+    "N. G. Majumdar",
+    "Y. D. Sharma",
+    "R. D. Banerji"
+   ],
+   "a": 0,
+   "x": "Daya Ram Sahni excavated Harappa in 1921 under John Marshall. Harappa is regarded as the first site in the discovery sequence.",
+   "ty": "fact",
+   "tq": "Distinguish the excavator of Harappa from those associated with Mohenjodaro and Chanhudaro.",
+   "sec": "Site → discoverer/excavator and year"
+  },
+  {
+   "s": "Mohenjodaro was first excavated in 1922 by whom?",
+   "o": [
+    "Ghosh",
+    "R. D. Banerji",
+    "S. R. Rao",
+    "Daya Ram Sahni"
+   ],
+   "a": 1,
+   "x": "R. D. Banerji excavated Mohenjodaro in 1922; later work was associated with Mackay, K. N. Dikshit and Marshall.",
+   "ty": "fact",
+   "tq": "Apply the site–excavator–year association and avoid swapping it with Harappa.",
+   "sec": "Site → discoverer/excavator and year"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Site)\nA. Chanhudaro\nB. Ropar\nC. Surkotada\nD. Banawali\nList-II (Excavator)\n1. R. S. Bisht\n2. J. P. Joshi\n3. N. G. Majumdar\n4. Y. D. Sharma\nSelect the correct answer using the code below.",
+   "o": [
+    "A-3, B-4, C-2, D-1",
+    "A-4, B-3, C-1, D-2",
+    "A-3, B-2, C-4, D-1",
+    "A-1, B-4, C-2, D-3"
+   ],
+   "a": 0,
+   "x": "N. G. Majumdar excavated Chanhudaro, Y. D. Sharma Ropar, J. P. Joshi Surkotada and R. S. Bisht Banawali.",
+   "ty": "match",
+   "tq": "Begin with the less-confusable excavator–site pairs and eliminate crossed combinations.",
+   "sec": "Site → discoverer/excavator and year"
+  },
+  {
+   "s": "The excavation of Kalibangan during 1961–69 was associated with which of the following archaeologists?",
+   "o": [
+    "Amarendra Nath, followed by N. G. Majumdar",
+    "Ghosh, followed by B. B. Lal and B. K. Thapar",
+    "J. P. Joshi, followed by R. S. Bisht",
+    "S. R. Rao, followed by Daya Ram Sahni"
+   ],
+   "a": 1,
+   "x": "A. Ghosh began work at Kalibangan in 1953, while B. B. Lal and B. K. Thapar were associated with the excavations of 1961–69.",
+   "ty": "fact",
+   "tq": "Test a multi-stage excavation attribution rather than a single excavator.",
+   "sec": "Site → discoverer/excavator and year"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Dholavira — J. P. Joshi found it; R. S. Bisht led its excavation",
+    "Dholavira — S. R. Rao found it; A. Ghosh led its excavation",
+    "Dholavira — Amarendra Nath found it; Y. D. Sharma led its excavation",
+    "Dholavira — N. G. Majumdar found it; R. D. Banerji led its excavation"
+   ],
+   "a": 0,
+   "x": "Dholavira was found by J. P. Joshi in 1967–68, and its excavation was led by R. S. Bisht, particularly from 1990 onward.",
+   "ty": "match",
+   "tq": "Separate discovery from later excavation leadership to avoid the swapped-person trap.",
+   "sec": "Site → discoverer/excavator and year"
+  },
+  {
+   "s": "Rakhigarhi was excavated by which archaeologist in 1997?",
+   "o": [
+    "Dhavalikar",
+    "R. S. Bisht",
+    "J. P. Joshi",
+    "Amarendra Nath"
+   ],
+   "a": 3,
+   "x": "Amarendra Nath excavated Rakhigarhi in 1997. R. S. Bisht is associated with Banawali and Dholavira excavations.",
+   "ty": "fact",
+   "tq": "Use the year as a confirmation clue for the archaeologist–site pair.",
+   "sec": "Site → discoverer/excavator and year"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. J. Fleet published Harappan seals\nB. Harappan bricks were used as railway ballast\nC. Daya Ram Sahni found Harappa\nD. Charles Masson described the ruins of Harappa",
+   "o": [
+    "D, B, A, C",
+    "B, D, A, C",
+    "D, A, B, C",
+    "A, D, B, C"
+   ],
+   "a": 0,
+   "x": "Charles Masson described the ruins during 1826–38, railway ballast use occurred in 1857, J. Fleet published seals in 1912 and Sahni found Harappa in 1921–22.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest events first, then place the 1857 and 1912 developments between them.",
+   "sec": "Site → discoverer/excavator and year"
+  },
+  {
+   "s": "Which one of the following statements about the discovery timeline is correct?",
+   "o": [
+    "Wheeler excavated Mohenjodaro in 1922 immediately after its discovery.",
+    "J. Fleet published Harappan seals in 1912, before Sahni’s discovery of Harappa.",
+    "Charles Masson described Harappa’s ruins only after the railway excavations of 1857.",
+    "Sahni discovered Harappa in 1950 after Wheeler’s excavation."
+   ],
+   "a": 1,
+   "x": "J. Fleet published Harappan seals in 1912, while Daya Ram Sahni found Harappa in 1921–22. Wheeler’s work at Mohenjodaro belongs to 1950.",
+   "ty": "statements",
+   "tq": "Use chronological contradiction to reject statements that reverse the discovery sequence.",
+   "sec": "Site → discoverer/excavator and year"
+  },
+  {
+   "s": "Which of the following sites is regarded as the westernmost Harappan port on the Makran coast?",
+   "o": [
+    "Sutkagendor",
+    "Daimabad",
+    "Alamgirpur",
+    "Rakhigarhi"
+   ],
+   "a": 0,
+   "x": "Sutkagendor was a Harappan westernmost coastal town or port on the Makran coast.",
+   "ty": "fact",
+   "tq": "Match the superlative geographical description with the appropriate boundary site.",
+   "sec": "Harappan vs non-Harappan sites"
+  },
+  {
+   "s": "Which one of the following is the easternmost Harappan site?",
+   "o": [
+    "Surkotada",
+    "Alamgirpur",
+    "Sutkagendor",
+    "Kot Diji"
+   ],
+   "a": 1,
+   "x": "Alamgirpur, a Late Harappan site in Meerut district of Uttar Pradesh, is identified as the easternmost Harappan site.",
+   "ty": "fact",
+   "tq": "Distinguish eastern and western boundary sites by their geographical descriptions.",
+   "sec": "Harappan vs non-Harappan sites"
+  },
+  {
+   "s": "Consider the following statements:\n1. Kot Diji was a pre-Harappan fortified settlement in Sindh.\n2. Kot Diji was destroyed by fire.\n3. Kot Diji is situated in Gujarat.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Kot Diji was a pre-Harappan fortified settlement in Sindh and was destroyed by fire. Statement 3 is false because Kot Diji is in Sindh, Pakistan.",
+   "ty": "statements",
+   "tq": "Check the two descriptive facts separately from the deliberately shifted location.",
+   "sec": "Harappan vs non-Harappan sites"
+  },
+  {
+   "s": "Surkotada is particularly associated with which archaeological finding?",
+   "o": [
+    "The first Buddhist stupa",
+    "A Mauryan copper-plate inscription",
+    "Horse bones, though the identification is disputed",
+    "The earliest known gold coin hoard"
+   ],
+   "a": 2,
+   "x": "Surkotada is a fortified Harappan site in Kutch associated with horse bones; the interpretation is disputed.",
+   "ty": "fact",
+   "tq": "Identify the distinctive but qualified finding and retain the caution in the wording.",
+   "sec": "Harappan vs non-Harappan sites"
+  },
+  {
+   "s": "Rakhigarhi is notable because it is regarded as which of the following?",
+   "o": [
+    "The westernmost Harappan port",
+    "The largest Harappan site in India",
+    "A non-Harappan Mauryan settlement",
+    "The easternmost site in Pakistan"
+   ],
+   "a": 1,
+   "x": "Rakhigarhi is identified as the largest Harappan site in India and is located in Haryana.",
+   "ty": "fact",
+   "tq": "Match the site with its size-based distinction rather than its river basin alone.",
+   "sec": "Harappan vs non-Harappan sites"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\nA. Sutkagendor — Harappan westernmost coastal town\nB. Sohgaura — Mauryan copper-plate site\nC. Pataliputra — Harappan city\nD. Mehrgarh — Neolithic site",
+   "o": [
+    "A and B only",
+    "A, B and D only",
+    "B, C and D only",
+    "A, B, C and D"
+   ],
+   "a": 1,
+   "x": "A, B and D are correct. Pataliputra was a later Magadhan and Mauryan capital, not a Harappan city.",
+   "ty": "statements",
+   "tq": "Spot the wrong civilizational classification and select the combination of correct pairs.",
+   "sec": "Harappan vs non-Harappan sites"
+  },
+  {
+   "s": "Mehrgarh is classified in relation to the Harappan sites as which of the following?",
+   "o": [
+    "A Mauryan copper-plate site",
+    "A Neolithic site dating to about 7000 BCE",
+    "A Harappan port on the Makran coast",
+    "A Late Harappan site in Uttar Pradesh"
+   ],
+   "a": 1,
+   "x": "Mehrgarh is a Neolithic site dating to approximately 7000 BCE; it is not classified as a Harappan site in the listed comparison.",
+   "ty": "fact",
+   "tq": "Use the civilizational-period distinction to separate Mehrgarh from Harappan sites.",
+   "sec": "Harappan vs non-Harappan sites"
+  },
+  {
+   "s": "Which of the following sites are located in present-day Pakistan?\n1. Harappa\n2. Mohenjodaro\n3. Chanhudaro\n4. Lothal",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Harappa, Mohenjodaro and Chanhudaro are in Pakistan. Lothal is located in Gujarat, India.",
+   "ty": "statements",
+   "tq": "Classify each site by present national boundary, not by its ancient cultural association.",
+   "sec": "Site → river and present state/district - Indian vs Pakistani sites"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding the Harappan sites listed in Uttar Pradesh?",
+   "o": [
+    "Rakhigarhi and Banawali are located in Uttar Pradesh.",
+    "Dholavira and Surkotada are located in Uttar Pradesh.",
+    "Kalibangan and Alamgirpur are both located in Uttar Pradesh.",
+    "Mandi and Hulas are located in Uttar Pradesh."
+   ],
+   "a": 3,
+   "x": "Mandi is in Muzaffarnagar and Hulas in Saharanpur, both in Uttar Pradesh. Rakhigarhi and Banawali are in Haryana, while Dholavira and Surkotada are in Gujarat.",
+   "ty": "fact",
+   "tq": "Use paired regional identification and eliminate sites belonging to Haryana, Gujarat and Rajasthan.",
+   "sec": "Site → river and present state/district - Indian vs Pakistani sites"
+  }
+ ]
+}

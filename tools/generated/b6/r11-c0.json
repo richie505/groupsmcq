@@ -1,0 +1,607 @@
+{
+ "book": 6,
+ "row": 11,
+ "chunk": 0,
+ "section": "Science and technology in news - space missions, defence tests, health and biotech developments",
+ "subsections": [
+  "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs",
+  "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 42,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "R78C, recently associated with malaria prevention, was developed through collaboration between which of the following?",
+   "o": [
+    "Novartis and Medicines for Malaria Venture",
+    "Gamaleya and Bharat Biotech",
+    "Takeda and Wockhardt",
+    "Oxford and Serum Institute of India"
+   ],
+   "a": 3,
+   "x": "R78C is a malaria vaccine developed by Oxford and the Serum Institute of India. It targets blood-stage antigens, including RIPR and CyPRA.",
+   "ty": "fact",
+   "tq": "Use the developer–product association rather than the disease alone.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "The R78C malaria vaccine targets which stage or component of the malaria parasite?",
+   "o": [
+    "Liver-stage antigens only",
+    "Bacterial toxins causing secondary infection",
+    "Mosquito-stage sporozoites only",
+    "Blood-stage antigens, including RIPR and CyPRA"
+   ],
+   "a": 3,
+   "x": "R78C targets blood-stage malaria antigens, specifically including RIPR and CyPRA.",
+   "ty": "fact",
+   "tq": "Test the precise scientific objective instead of the product name.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Coartem Baby — First malaria drug for newborns",
+    "Qdenga — First indigenous macrolide antibiotic",
+    "Nafithromycin — India's first dengue vaccine",
+    "IndOss — First drug for newborn malaria"
+   ],
+   "a": 0,
+   "x": "Coartem Baby is described as the first malaria drug for newborns and is WHO-prequalified. Nafithromycin is a macrolide antibiotic, Qdenga is a dengue vaccine, and IndOss is a bone substitute.",
+   "ty": "match",
+   "tq": "Start from the sure product–purpose pair and eliminate swapped descriptions.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "Coartem Baby was developed through collaboration between Novartis and which organisation?",
+   "o": [
+    "Coalition for Epidemic Preparedness Innovations",
+    "Medicines for Malaria Venture",
+    "Technology Development Board",
+    "Medicines and Healthcare products Regulatory Agency"
+   ],
+   "a": 1,
+   "x": "Coartem Baby was developed by Novartis in association with Medicines for Malaria Venture.",
+   "ty": "fact",
+   "tq": "Identify the collaborating organisation linked to a named product.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "Consider the following statements regarding Ervebo:\n1. It is also known as rVSV-ZEBOV.\n2. It is a single-dose Ebola vaccine.\n3. It is licensed for the Bundibugyo virus responsible for the 2026 outbreak.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Ervebo is also called rVSV-ZEBOV and is a single-dose Ebola vaccine. It is not licensed for the Bundibugyo virus associated with the 2026 outbreak.",
+   "ty": "statements",
+   "tq": "Find the false licensing statement while retaining the two direct product facts.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "The Democratic Republic of the Congo received how many doses of Ervebo in the context of the 2026 outbreak?",
+   "o": [
+    "7,000",
+    "17,000",
+    "70,000",
+    "700,000"
+   ],
+   "a": 2,
+   "x": "The Democratic Republic of the Congo received 70,000 doses of Ervebo.",
+   "ty": "numerical",
+   "tq": "Distinguish the exact figure from options differing by place value.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Sputnik V — Oxford-AstraZeneca vaccine made in India",
+    "Covishield — Oxford-AstraZeneca vaccine made by Serum Institute of India",
+    "Covishield — Gamaleya vaccine from Russia",
+    "Sputnik V — vaccine developed by Serum Institute of India"
+   ],
+   "a": 1,
+   "x": "Covishield is the Oxford-AstraZeneca vaccine manufactured by the Serum Institute of India. Sputnik V is associated with Russia's Gamaleya Institute.",
+   "ty": "confusable",
+   "tq": "Separate the two commonly confused vaccine–developer and country pairs.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "India was certified polio-free in which year?",
+   "o": [
+    "2012",
+    "2013",
+    "2014",
+    "2015"
+   ],
+   "a": 2,
+   "x": "India was certified polio-free in 2014.",
+   "ty": "numerical",
+   "tq": "Use the central year among closely spaced chronological options.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "Which authority, headed by the Drugs Controller General of India, grants clinical-trial and marketing approval?",
+   "o": [
+    "Central Pollution Control Board",
+    "DBT",
+    "Indian Council of Medical Research",
+    "CDSCO"
+   ],
+   "a": 3,
+   "x": "The Central Drugs Standard Control Organisation, headed by the DCGI, grants clinical-trial and marketing approval.",
+   "ty": "fact",
+   "tq": "Apply the authority–function association.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "With reference to regulatory oversight in biotechnology, consider the following statements:\n1. CDSCO gives clinical-trial and marketing approval.\n2. DBT oversees genetic manipulation and biosafety.\n3. DBT alone grants all marketing approvals for medicines.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "CDSCO grants clinical-trial and marketing approval, while DBT oversees genetic manipulation and biosafety. DBT does not alone grant all medicine marketing approvals.",
+   "ty": "statements",
+   "tq": "Match each regulator with its actual function and reject the extreme allocation of powers.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "From July 2026, Advanced Therapeutic Products came under the Central Licence Approving Authority through an amendment to which rules?",
+   "o": [
+    "Clinical Establishments Rules, 2012",
+    "Drugs Rules, 1945",
+    "Biological Diversity Rules, 2004",
+    "Medical Devices Rules, 2017"
+   ],
+   "a": 1,
+   "x": "The change was made through an amendment to the Drugs Rules, 1945, effective from July 2026.",
+   "ty": "fact",
+   "tq": "Identify the exact legal instrument linked to a regulatory change.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "Which of the following is included within Advanced Therapeutic Products?",
+   "o": [
+    "Gene therapies, cell or CAR-T products and xenografts",
+    "Only diagnostic imaging equipment",
+    "Only herbal nutritional supplements",
+    "Only conventional antibiotics"
+   ],
+   "a": 0,
+   "x": "Advanced Therapeutic Products include gene therapies, cell and CAR-T products, and xenografts.",
+   "ty": "fact",
+   "tq": "Use the inclusive definition and reject options narrowed by ‘only’.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "NexCAR19 is associated with which of the following descriptions?",
+   "o": [
+    "An indigenous bone substitute",
+    "India's first dengue vaccine",
+    "India's first indigenous CAR-T therapy for blood cancer",
+    "A macrolide antibiotic for pneumonia"
+   ],
+   "a": 2,
+   "x": "NexCAR19 is India's first indigenous CAR-T therapy for blood cancer and received CDSCO approval in 2023.",
+   "ty": "fact",
+   "tq": "Link the indigenous first to its therapeutic category.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "The dual-targeting CAR-T therapy using BCMA and CD19 was developed for which disease?",
+   "o": [
+    "Drug-resistant pneumonia",
+    "Melanoma",
+    "Multiple myeloma",
+    "Sickle cell disease"
+   ],
+   "a": 2,
+   "x": "The BCMA plus CD19 dual-targeting CAR-T therapy was co-developed with the Technology Development Board for multiple myeloma.",
+   "ty": "fact",
+   "tq": "Distinguish the disease indication from other therapies in the same biotechnology list.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "BIRSA 101 is significant because it is described as India's first CRISPR-based gene therapy for which condition?",
+   "o": [
+    "Sickle cell disease",
+    "Dengue",
+    "Melanoma",
+    "Multiple myeloma"
+   ],
+   "a": 0,
+   "x": "BIRSA 101 is India's first CRISPR-based gene therapy and is aimed at sickle cell disease, with a tribal focus.",
+   "ty": "fact",
+   "tq": "Test the first-in-country claim together with its disease indication.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Qdenga — Takeda — India's first dengue vaccine",
+    "Nafithromycin — Wockhardt — drug-resistant pneumonia",
+    "IndOss — CSIR-NCL — indigenous bone substitute",
+    "Wegovy — Bristol Myers — melanoma immunotherapy"
+   ],
+   "a": 3,
+   "x": "Wegovy is associated with Novo Nordisk and a new use for fatty liver disease. Bristol Myers is associated with nivolumab plus relatlimab for melanoma.",
+   "ty": "negative",
+   "tq": "Find the swapped manufacturer–product association.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "Which of the following correctly describes Qdenga?",
+   "o": [
+    "A dengue vaccine for ages 4–60, administered in two doses",
+    "A malaria drug for newborns, administered in one dose",
+    "A vaccine against the Bundibugyo virus only",
+    "A CAR-T therapy for blood cancer"
+   ],
+   "a": 0,
+   "x": "Qdenga, or TAK-003, is described as India's first dengue vaccine, for people aged 4 to 60 years, requiring two doses.",
+   "ty": "fact",
+   "tq": "Combine age range, dose schedule and disease to identify the correct product.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "Nivolumab combined with relatlimab was described as the first LAG-3 dual immunotherapy in India for which disease?",
+   "o": [
+    "Drug-resistant pneumonia",
+    "Sickle cell disease",
+    "Melanoma",
+    "Malaria"
+   ],
+   "a": 2,
+   "x": "Nivolumab plus relatlimab, associated with Bristol Myers, was described as the first LAG-3 dual immunotherapy in India for melanoma.",
+   "ty": "fact",
+   "tq": "Identify the therapy by its target and disease indication.",
+   "sec": "Vaccines, drugs and disease milestones → developer/manufacturer + country FIRSTs"
+  },
+  {
+   "s": "Gaganyaan is designed to place how many crew members in a 400-kilometre orbit for three days?",
+   "o": [
+    "Three",
+    "Four",
+    "Six",
+    "Two"
+   ],
+   "a": 0,
+   "x": "ISRO's Gaganyaan mission is designed to carry a crew of three to a 400-kilometre orbit for three days.",
+   "ty": "numerical",
+   "tq": "Read the mission profile as a combination of crew size, altitude and duration.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Which organisation is associated with the Gaganyaan mission, and which foreign agency is to provide ground-tracking support?",
+   "o": [
+    "ISRO and ESA",
+    "NASA and JAXA",
+    "ISRO and CNES",
+    "Skyroot Aerospace and ESA"
+   ],
+   "a": 0,
+   "x": "Gaganyaan is an ISRO mission, and the European Space Agency is to provide ground-tracking support.",
+   "ty": "match",
+   "tq": "Start with the agency–mission pair and then verify the support agency.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "The second Integrated Air Drop Test (IADT-02) for Gaganyaan was conducted on which date?",
+   "o": [
+    "10 July 2026",
+    "10 September 2026",
+    "10 April 2026",
+    "10 April 2025"
+   ],
+   "a": 2,
+   "x": "Gaganyaan's second Integrated Air Drop Test, IADT-02, was conducted on 10 April 2026 ahead of the uncrewed G1 flight.",
+   "ty": "numerical",
+   "tq": "Discriminate between closely spaced dates associated with the same mission.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "NISAR is a joint mission of NASA and ISRO that uses which type of radar?",
+   "o": [
+    "Optical infrared imaging without radar",
+    "Dual-frequency radar using L and S bands",
+    "Single-frequency X-band radar only",
+    "Ultraviolet radar using C and Ka bands"
+   ],
+   "a": 1,
+   "x": "NISAR is a NASA-ISRO joint Earth-observation mission using dual L-band and S-band synthetic aperture radar.",
+   "ty": "fact",
+   "tq": "Associate the joint agency with the mission's distinctive technical feature.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Which of the following statements about NISAR is correct?\n1. It was launched in July 2025 from Sriharikota.\n2. It is described as the costliest Earth-observation satellite, costing $1.5 billion.\n3. It was launched by the Japanese H3 rocket.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "NISAR was launched from Sriharikota in July 2025 and is described as a $1.5-billion Earth-observation satellite. The Japanese H3 rocket is associated with Chandrayaan-5/LUPEX, not NISAR.",
+   "ty": "statements",
+   "tq": "Separate mission date and cost from the deliberately swapped launch vehicle.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Chandrayaan-5, also referred to as LUPEX, is a collaboration between which agencies?",
+   "o": [
+    "ISRO and JAXA",
+    "ISRO and ESA",
+    "NASA and JAXA",
+    "NASA and CNES"
+   ],
+   "a": 0,
+   "x": "Chandrayaan-5 or LUPEX is an ISRO-JAXA mission planned for approximately 2028.",
+   "ty": "fact",
+   "tq": "Test the agency partnership attached to a named mission.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "What is the principal objective of Chandrayaan-5/LUPEX?",
+   "o": [
+    "To place a crew in low Earth orbit",
+    "To observe the Sun from the L1 point",
+    "To study water ice at the lunar south pole",
+    "To return samples from asteroid Bennu"
+   ],
+   "a": 2,
+   "x": "Chandrayaan-5/LUPEX is intended to investigate water ice at the lunar south pole and is planned to fly on Japan's H3 rocket.",
+   "ty": "application",
+   "tq": "Match the mission objective with the appropriate celestial location.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "EOS-05, formerly known as GISAT-1A, is to be launched using which vehicle?",
+   "o": [
+    "PSLV-C62",
+    "LVM3-M6",
+    "GSLV-F17",
+    "GSLV-F16"
+   ],
+   "a": 2,
+   "x": "EOS-05, earlier designated GISAT-1A, is associated with ISRO's GSLV-F17.",
+   "ty": "confusable",
+   "tq": "Separate similar launch-vehicle designations linked to different satellites.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Which mission is described as India's first Earth-imaging satellite in geosynchronous orbit?",
+   "o": [
+    "EOS-05",
+    "CMS-03",
+    "NISAR",
+    "TRISHNA"
+   ],
+   "a": 0,
+   "x": "EOS-05, formerly GISAT-1A, is described as India's first Earth-imaging satellite in geosynchronous orbit.",
+   "ty": "fact",
+   "tq": "Identify the first-in-country claim from the satellite's function and orbit.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Vikram-1, also called Aagaman, is associated with which organisation?",
+   "o": [
+    "Skyroot Aerospace of Hyderabad",
+    "ISRO's Satish Dhawan Space Centre",
+    "JAXA of Japan",
+    "CNES of France"
+   ],
+   "a": 0,
+   "x": "Vikram-1, or Aagaman, is being developed by Hyderabad-based Skyroot Aerospace.",
+   "ty": "fact",
+   "tq": "Link the named vehicle to its private developer and location.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Vikram-1 is significant because India became which position in the world after the United States and China in developing a private orbital rocket?",
+   "o": [
+    "Third",
+    "Fifth",
+    "Fourth",
+    "Second"
+   ],
+   "a": 0,
+   "x": "Vikram-1 is described as India's first private orbital rocket, making India the third country after the United States and China in this context.",
+   "ty": "numerical",
+   "tq": "Use the comparative ranking rather than confusing it with the launch date.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "TRISHNA is a thermal-infrared satellite mission being jointly developed by which agencies?",
+   "o": [
+    "NASA and ISRO",
+    "ESA and China National Space Administration",
+    "ISRO and JAXA",
+    "ISRO and CNES"
+   ],
+   "a": 3,
+   "x": "TRISHNA is an ISRO-CNES thermal-infrared satellite mission planned for launch on a PSLV.",
+   "ty": "fact",
+   "tq": "Identify the agency pair from the mission's technical objective.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Artemis II is notable as NASA's first crewed flight around the Moon in more than how many years?",
+   "o": [
+    "20 years",
+    "30 years",
+    "40 years",
+    "50 years"
+   ],
+   "a": 3,
+   "x": "Artemis II is described as NASA's first crewed lunar flight around the Moon in more than 50 years.",
+   "ty": "numerical",
+   "tq": "Identify the milestone by its duration-based comparison.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "OSIRIS-REx — renamed mission heading for asteroid Apophis",
+    "Aditya-L1 — observes the Sun from the L1 point",
+    "OSIRIS-APEX — returned Bennu samples to Earth in 2023",
+    "Artemis II — India's first Indian space station mission"
+   ],
+   "a": 1,
+   "x": "Aditya-L1 observes the Sun from the L1 point. OSIRIS-REx returned Bennu samples in 2023, while its renamed continuation, OSIRIS-APEX, is heading toward Apophis.",
+   "ty": "negative",
+   "tq": "Separate the original mission from its renamed continuation and avoid reversed objectives.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Who was the first Indian to travel to the International Space Station?",
+   "o": [
+    "Ravish Malhotra",
+    "Vikram Sarabhai",
+    "Shubhanshu Shukla",
+    "Rakesh Sharma"
+   ],
+   "a": 2,
+   "x": "Shubhanshu Shukla was the first Indian to travel to the ISS, during the Axiom-4 mission from 25 June to 15 July 2025.",
+   "ty": "fact",
+   "tq": "Distinguish the ISS milestone from earlier Indian space-flight associations.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "India's stated space roadmap includes establishing its own space station by which year and sending an Indian to the Moon by which year?",
+   "o": [
+    "2030 and 2035",
+    "2035 and 2040",
+    "2040 and 2045",
+    "2028 and 2035"
+   ],
+   "a": 1,
+   "x": "The stated targets are an Indian space station by 2035 and an Indian on the Moon by 2040.",
+   "ty": "chronology",
+   "tq": "Preserve the correct sequence of the two future milestones.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "NASA invited ISRO to join which programme under the Artemis Accords?",
+   "o": [
+    "Its lunar Moon Base programme",
+    "Its asteroid mining programme",
+    "Its Venus atmospheric programme",
+    "Its Mars Sample Return programme"
+   ],
+   "a": 0,
+   "x": "NASA invited ISRO to join its lunar Moon Base programme under the Artemis Accords.",
+   "ty": "fact",
+   "tq": "Match the international invitation with its specific programme.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with the mission and its launch vehicle?",
+   "o": [
+    "NISAR — GSLV-F16",
+    "EOS-N1 — LVM3-M6",
+    "BlueBird Block-2 — PSLV-C62",
+    "CMS-03 — GSLV-F17"
+   ],
+   "a": 0,
+   "x": "NISAR was launched on GSLV-F16. EOS-N1 used PSLV-C62, BlueBird Block-2 used LVM3-M6, and CMS-03 used LVM3.",
+   "ty": "match",
+   "tq": "Start from the mission–vehicle pair and eliminate cross-swapped launchers.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Which satellite was described as the heaviest communication satellite launched from Indian soil, weighing 4,410 kg and intended for the Navy?",
+   "o": [
+    "NISAR",
+    "EOS-05",
+    "BlueBird Block-2",
+    "CMS-03/GSAT-7R"
+   ],
+   "a": 3,
+   "x": "CMS-03, also designated GSAT-7R, weighed 4,410 kg and was described as the heaviest communication satellite launched from Indian soil for the Navy.",
+   "ty": "numerical",
+   "tq": "Combine payload mass, satellite identity and user organisation.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "BlueBird Block-2 was significant for carrying which payload from Indian soil?",
+   "o": [
+    "4,410 kg",
+    "5,100 kg",
+    "6,100 kg",
+    "7,100 kg"
+   ],
+   "a": 2,
+   "x": "BlueBird Block-2 carried a 6,100-kilogram payload, described as the heaviest payload launched from Indian soil. It was built by the US firm AST SpaceMobile.",
+   "ty": "numerical",
+   "tq": "Distinguish the payload record from the different CMS-03 satellite mass.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Which statement correctly describes EOS-N1?",
+   "o": [
+    "It was launched on PSLV-C62 on 12 January 2026 and failed.",
+    "It was launched on GSLV-F16 on 30 July 2025 and succeeded.",
+    "It was launched on LVM3-M6 on 24 December 2025 and carried BlueBird Block-2.",
+    "It was launched on H3 in 2028 for lunar ice exploration."
+   ],
+   "a": 0,
+   "x": "EOS-N1 was launched on PSLV-C62 on 12 January 2026 and the mission failed. The failure followed the earlier PSLV-C61/EOS-09 failure in May 2025.",
+   "ty": "fact",
+   "tq": "Check the mission date, vehicle and outcome together to defeat swapped entries.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "The failed EOS-N1 mission followed the failure of PSLV-C61/EOS-09 in May 2025, which involved a problem in which stage?",
+   "o": [
+    "Second stage",
+    "Fourth stage",
+    "Third stage",
+    "First stage"
+   ],
+   "a": 2,
+   "x": "The PSLV-C61/EOS-09 failure in May 2025 involved the third stage, and EOS-N1 subsequently failed on PSLV-C62.",
+   "ty": "fact",
+   "tq": "Identify the exact launch stage rather than the launch vehicle alone.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "The ESA-China SMILE mission was launched on which vehicle from French Guiana?",
+   "o": [
+    "LVM3",
+    "H3",
+    "PSLV",
+    "Vega-C"
+   ],
+   "a": 3,
+   "x": "The ESA-China SMILE mission was launched on a Vega-C rocket from French Guiana in May 2026.",
+   "ty": "fact",
+   "tq": "Match the international mission with its vehicle and launch location.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  },
+  {
+   "s": "Which of the following is correctly matched?",
+   "o": [
+    "Swift Boost — NASA space-tug mission",
+    "2024 YR4 — Japanese lunar lander",
+    "SMILE — Indian Earth-imaging satellite",
+    "Artemis II — Chinese space-tug mission"
+   ],
+   "a": 0,
+   "x": "NASA's Swift Boost is described as a space-tug mission. Asteroid 2024 YR4 was separately in the news, while SMILE is the ESA-China mission.",
+   "ty": "match",
+   "tq": "Use the mission-type association to reject unrelated agency and object swaps.",
+   "sec": "Space missions, satellites and launch vehicles → agency + objective (Gaganyaan, Chandrayaan, NISAR, H3)"
+  }
+ ]
+}

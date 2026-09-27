@@ -1,0 +1,399 @@
+{
+ "book": 2,
+ "row": 169,
+ "chunk": 0,
+ "section": "Important policies and programmes of the Government of Andhra Pradesh - agriculture, industry, IT and infrastructure",
+ "subsections": [
+  "AP agriculture programmes - purpose and benefit (Rythu Bharosa, zero-interest loans, Jala Kala, tenants, RBKs, APCNF, e-Crop, PMFBY)",
+  "AP industrial and startup policies - period, issuing department, goals",
+  "AP e-governance and land records - MeeSeva, BhuSeva, FiberNet, RTG, data centres",
+  "AP externally aided projects - funding agency"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 30,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Under YSR Rythu Bharosa–PM KISAN, what is the annual assistance provided to each farmer family, including the PM-KISAN component?",
+   "o": [
+    "₹10,000",
+    "₹12,000",
+    "₹13,500",
+    "₹15,000"
+   ],
+   "a": 2,
+   "x": "YSR Rythu Bharosa–PM KISAN provides ₹13,500 per year to each farmer family, of which ₹6,000 is provided under PM-KISAN.",
+   "ty": "numerical",
+   "tq": "Use the exact annual figure and split component to distinguish closely spaced amounts.",
+   "sec": "AP agriculture programmes - purpose and benefit (Rythu Bharosa, zero-interest loans, Jala Kala, tenants, RBKs, APCNF, e-Crop, PMFBY)"
+  },
+  {
+   "s": "Annadata Sukhibhava succeeded which Andhra Pradesh agricultural support programme?",
+   "o": [
+    "e-Crop",
+    "YSR Zero Interest Crop Loans",
+    "YSR Jala Kala",
+    "YSR Rythu Bharosa–PM KISAN"
+   ],
+   "a": 3,
+   "x": "Annadata Sukhibhava succeeded YSR Rythu Bharosa–PM KISAN. An allocation of ₹1,000 crore was provided for it in the Budget 2024–25 Budget Estimates.",
+   "ty": "fact",
+   "tq": "Test the succession relationship between similarly named farmer-support programmes.",
+   "sec": "AP agriculture programmes - purpose and benefit (Rythu Bharosa, zero-interest loans, Jala Kala, tenants, RBKs, APCNF, e-Crop, PMFBY)"
+  },
+  {
+   "s": "With reference to YSR Zero Interest Crop Loans, consider the following statements:\n1. The scheme was launched on 20 April 2021.\n2. Crop loans up to ₹1 lakh become interest-free when repaid on time.\n3. The benefit is available only for loans exceeding ₹1 lakh.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the scheme covers crop loans up to ₹1 lakh, subject to timely repayment.",
+   "ty": "statements",
+   "tq": "Find the wrong range statement by checking the upper limit and the word only.",
+   "sec": "AP agriculture programmes - purpose and benefit (Rythu Bharosa, zero-interest loans, Jala Kala, tenants, RBKs, APCNF, e-Crop, PMFBY)"
+  },
+  {
+   "s": "YSR Jala Kala is primarily associated with which of the following benefits?",
+   "o": [
+    "Crop insurance for tenant farmers",
+    "Free electricity connections to industries",
+    "Free borewells for small and marginal farmers",
+    "Procurement of agricultural produce through village centres"
+   ],
+   "a": 2,
+   "x": "YSR Jala Kala provides free borewells for small and marginal farmers.",
+   "ty": "fact",
+   "tq": "Match the programme name with its distinctive physical benefit.",
+   "sec": "AP agriculture programmes - purpose and benefit (Rythu Bharosa, zero-interest loans, Jala Kala, tenants, RBKs, APCNF, e-Crop, PMFBY)"
+  },
+  {
+   "s": "The Crop Cultivator Rights Card (CCRC) under the Andhra Pradesh Crop Cultivators Rights Act, 2019 is intended mainly to provide tenant farmers with:",
+   "o": [
+    "Loans, insurance and input subsidy without affecting the owner's title",
+    "Ownership title over the leased land",
+    "Exemption from all agricultural taxes",
+    "Permanent allotment of government land"
+   ],
+   "a": 0,
+   "x": "The CCRC enables tenant farmers to access loans, insurance and input subsidy without touching the landowner's title.",
+   "ty": "application",
+   "tq": "Separate the cultivator's access to benefits from ownership of the land.",
+   "sec": "AP agriculture programmes - purpose and benefit (Rythu Bharosa, zero-interest loans, Jala Kala, tenants, RBKs, APCNF, e-Crop, PMFBY)"
+  },
+  {
+   "s": "Rythu Bharosa Kendras in Andhra Pradesh function as village-level one-stop centres for which combination of services?",
+   "o": [
+    "Irrigation dam construction, road building, mining and power generation",
+    "Industrial licensing, exports, customs and banking",
+    "Seeds, fertilisers, advisory services and procurement",
+    "Land registration, court services, policing and taxation"
+   ],
+   "a": 2,
+   "x": "RBKs provide a village-level one-stop platform for seeds, fertilisers, agricultural advice and procurement. They were introduced in 2020.",
+   "ty": "fact",
+   "tq": "Identify the option containing the complete service cluster rather than a single service.",
+   "sec": "AP agriculture programmes - purpose and benefit (Rythu Bharosa, zero-interest loans, Jala Kala, tenants, RBKs, APCNF, e-Crop, PMFBY)"
+  },
+  {
+   "s": "Which one of the following correctly describes the Andhra Pradesh Community-Managed Natural Farming programme?",
+   "o": [
+    "It is community-managed natural farming run by Rythu Sadhikara Samstha since 2016.",
+    "It is an industrial credit programme implemented by APIIC.",
+    "It is a crop insurance programme administered by the ADB.",
+    "It is a centrally managed chemical farming subsidy programme."
+   ],
+   "a": 0,
+   "x": "APCNF is community-managed natural farming implemented through Rythu Sadhikara Samstha (RySS) since 2016.",
+   "ty": "fact",
+   "tq": "Use the implementing organisation and start year to distinguish APCNF from other agriculture programmes.",
+   "sec": "AP agriculture programmes - purpose and benefit (Rythu Bharosa, zero-interest loans, Jala Kala, tenants, RBKs, APCNF, e-Crop, PMFBY)"
+  },
+  {
+   "s": "The e-Crop system of Andhra Pradesh is best understood as a system for:",
+   "o": [
+    "Electronic auction of industrial plots",
+    "Digital booking of the crop cultivated on every field each season",
+    "Digital monitoring of groundwater levels only",
+    "Online registration of agricultural machinery manufacturers"
+   ],
+   "a": 1,
+   "x": "e-Crop digitally records the crop cultivated on every field during each season. This record forms the basis for insurance, input subsidy and procurement.",
+   "ty": "application",
+   "tq": "Link the digital record to its downstream uses in insurance, subsidy and procurement.",
+   "sec": "AP agriculture programmes - purpose and benefit (Rythu Bharosa, zero-interest loans, Jala Kala, tenants, RBKs, APCNF, e-Crop, PMFBY)"
+  },
+  {
+   "s": "Consider the following statements regarding the Pradhan Mantri Fasal Bima Yojana in Andhra Pradesh:\n1. Its coverage increased along with the rise in extreme-weather crop losses.\n2. The farmer premium is 2% for kharif crops, 1.5% for rabi crops and 5% for commercial and horticultural crops.\n3. It has been voluntary for all farmers since Kharif 2020.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. PMFBY coverage in Andhra Pradesh rose with extreme-weather losses, and the specified farmer premium rates apply; the scheme has been voluntary for all farmers since Kharif 2020.",
+   "ty": "statements",
+   "tq": "Check each rate and the time qualifier before selecting the complete coded option.",
+   "sec": "AP agriculture programmes - purpose and benefit (Rythu Bharosa, zero-interest loans, Jala Kala, tenants, RBKs, APCNF, e-Crop, PMFBY)"
+  },
+  {
+   "s": "What amount was provided for PMFBY in the Andhra Pradesh Budget 2024–25 Budget Estimates?",
+   "o": [
+    "₹625 crore",
+    "₹840 crore",
+    "₹1,023 crore",
+    "₹1,500 crore"
+   ],
+   "a": 2,
+   "x": "The Andhra Pradesh Budget 2024–25 Budget Estimates provided ₹1,023 crore for PMFBY.",
+   "ty": "numerical",
+   "tq": "Distinguish the scheme allocation from nearby project and policy figures.",
+   "sec": "AP agriculture programmes - purpose and benefit (Rythu Bharosa, zero-interest loans, Jala Kala, tenants, RBKs, APCNF, e-Crop, PMFBY)"
+  },
+  {
+   "s": "The suite of Andhra Pradesh policies designated as “4.0” for 2024–29 was notified on:",
+   "o": [
+    "23 February 2017",
+    "20 April 2021",
+    "April 2025",
+    "26 October 2024"
+   ],
+   "a": 3,
+   "x": "The listed 4.0 policies for 2024–29 were notified on 26 October 2024 and are valid for five years.",
+   "ty": "fact",
+   "tq": "Distinguish the common notification date from the separate startup-policy date and project-signing date.",
+   "sec": "AP industrial and startup policies - period, issuing department, goals"
+  },
+  {
+   "s": "Which of the following correctly represents the validity period of the Andhra Pradesh 4.0 policy suite?",
+   "o": [
+    "2020–23 for three years",
+    "2021–24 for three years",
+    "2024–29 for five years",
+    "2025–30 for five years"
+   ],
+   "a": 2,
+   "x": "The policies designated 4.0 are valid for the period 2024–29, amounting to five years.",
+   "ty": "fact",
+   "tq": "Read the policy period as a combined year-range and duration question.",
+   "sec": "AP industrial and startup policies - period, issuing department, goals"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Policy)\na. Industrial Development Policy 4.0\nb. MSME & Entrepreneur Development Policy 4.0\nc. Food Processing Policy 4.0\nd. Electronics Manufacturing Policy 4.0\n\nList-II (Headline goal)\ni. Production of USD 50 billion, investment of USD 10 billion and five lakh jobs\nii. One Family, One Entrepreneur and integration with global value chains\niii. Agricultural value addition, cold chains and mega food parks\niv. Promotion of sub-large to ultra-mega projects and an investment target of ₹30 lakh crore\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-i, b-ii, c-iv, d-iii"
+   ],
+   "a": 0,
+   "x": "The Industrial Development Policy targets large investment and higher project categories; the MSME policy carries the One Family, One Entrepreneur approach; the Food Processing Policy promotes value addition and cold chains; and the Electronics Manufacturing Policy has the stated production, investment and employment targets.",
+   "ty": "match",
+   "tq": "Start with the distinctive slogan and numerical target, then eliminate the remaining codes.",
+   "sec": "AP industrial and startup policies - period, issuing department, goals"
+  },
+  {
+   "s": "Which of the following is correctly matched?",
+   "o": [
+    "MSME & Entrepreneur Development Policy 4.0 — G.O.Ms.70, Industries & Commerce (P&I)",
+    "Industrial Development Policy 4.0 — G.O.Ms.68, Industries & Commerce (P&I)",
+    "Food Processing Policy 4.0 — G.O.Ms.69, Industries & Commerce",
+    "Electronics Manufacturing Policy 4.0 — G.O.Ms.71, Industries & Commerce (Prog.III)"
+   ],
+   "a": 1,
+   "x": "The Industrial Development Policy 4.0 was issued as G.O.Ms.68 by the Industries & Commerce (P&I) Department. G.O.Ms.69 relates to the MSME policy, G.O.Ms.70 to Electronics Manufacturing, and G.O.Ms.71 to Food Processing.",
+   "ty": "negative",
+   "tq": "Check the policy–government-order pairing instead of relying only on the policy name.",
+   "sec": "AP industrial and startup policies - period, issuing department, goals"
+  },
+  {
+   "s": "The principal goal of the Private Industrial Parks (Plug and Play) Policy 4.0 is to:",
+   "o": [
+    "Provide crop insurance to tenant farmers",
+    "Provide private industrial parks with ready infrastructure",
+    "Fund externally aided irrigation projects",
+    "Create village-level agricultural procurement centres"
+   ],
+   "a": 1,
+   "x": "The policy promotes private industrial parks equipped with ready infrastructure, following the plug-and-play approach.",
+   "ty": "fact",
+   "tq": "Identify the infrastructure feature directly indicated by the policy title.",
+   "sec": "AP industrial and startup policies - period, issuing department, goals"
+  },
+  {
+   "s": "Sustainable Electric Mobility Policy 4.0 primarily seeks to promote:",
+   "o": [
+    "A network of agricultural warehouses",
+    "An electric-vehicle ecosystem",
+    "A land-records digitisation system",
+    "A global food-processing value chain"
+   ],
+   "a": 1,
+   "x": "The headline goal of the Sustainable Electric Mobility Policy 4.0 is the development of an electric-vehicle ecosystem.",
+   "ty": "fact",
+   "tq": "Match the policy domain with its stated sectoral objective.",
+   "sec": "AP industrial and startup policies - period, issuing department, goals"
+  },
+  {
+   "s": "Which of the following statements regarding project classifications under the Andhra Pradesh industrial policy framework is correct?",
+   "o": [
+    "A large project is defined only by exports, while a mega project is defined only by land area.",
+    "A large project has fixed capital investment below ₹501 crore, while a mega project generates fewer than 2,000 direct jobs.",
+    "A large project has fixed capital investment above ₹501 crore and up to ₹1,000 crore, while a mega project generates 2,000 or more direct jobs.",
+    "A large project requires investment above ₹1,000 crore, while a mega project requires exactly 2,000 direct jobs."
+   ],
+   "a": 2,
+   "x": "A large project has fixed capital investment exceeding ₹501 crore and up to ₹1,000 crore. A mega project is associated with 2,000 or more direct jobs; mega and ultra-mega projects may receive case-by-case packages.",
+   "ty": "comparison",
+   "tq": "Keep the investment threshold and employment threshold separate while rejecting reversed ranges.",
+   "sec": "AP industrial and startup policies - period, issuing department, goals"
+  },
+  {
+   "s": "Consider the following statements:\n1. The draft Andhra Pradesh PPP Policy-2026 received Cabinet clearance in August 2026.\n2. The draft policy proposed a Viability Gap Funding amount of ₹1,500 crore.\n3. The draft AP Omnibus Ease of Doing Business Act, 2026 was cleared along with it.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. In August 2026, the Cabinet cleared the draft AP PPP Policy-2026 with VGF of ₹1,500 crore and the draft AP Omnibus Ease of Doing Business Act, 2026.",
+   "ty": "statements",
+   "tq": "Check the common event, amount and accompanying legislation before choosing the complete combination.",
+   "sec": "AP industrial and startup policies - period, issuing department, goals"
+  },
+  {
+   "s": "BhuSeva is an integrated land-records platform that assigns each land parcel a unique:",
+   "o": [
+    "FiberNet identity",
+    "Bhudhaar number",
+    "Rythu Code",
+    "RBK number"
+   ],
+   "a": 1,
+   "x": "BhuSeva assigns a unique Bhudhaar number to each land parcel as part of its integrated land-records system.",
+   "ty": "fact",
+   "tq": "Identify the exact official identifier associated with the land-records platform.",
+   "sec": "AP e-governance and land records - MeeSeva, BhuSeva, FiberNet, RTG, data centres"
+  },
+  {
+   "s": "AP FiberNet, launched in 2017, was designed to provide which combination of services to homes and offices?",
+   "o": [
+    "Low-cost broadband, television and telephone",
+    "Only mobile banking and insurance",
+    "Crop procurement and fertiliser distribution",
+    "Only land registration and mutation services"
+   ],
+   "a": 0,
+   "x": "AP FiberNet is a fibre grid launched in 2017 to provide low-cost broadband, television and telephone services to homes and offices.",
+   "ty": "fact",
+   "tq": "Select the complete service bundle linked to the fibre grid.",
+   "sec": "AP e-governance and land records - MeeSeva, BhuSeva, FiberNet, RTG, data centres"
+  },
+  {
+   "s": "A citizen grievance is being monitored continuously at a command centre located in the Secretariat. Which Andhra Pradesh system is being used?",
+   "o": [
+    "BhuSeva",
+    "Rythu Bharosa Kendra",
+    "Real Time Governance",
+    "e-Crop"
+   ],
+   "a": 2,
+   "x": "Real Time Governance operates through a command centre at the Secretariat for real-time monitoring of services and grievances.",
+   "ty": "application",
+   "tq": "Infer the institutional platform from the location and real-time monitoring function.",
+   "sec": "AP e-governance and land records - MeeSeva, BhuSeva, FiberNet, RTG, data centres"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Project)\na. AP Integrated Irrigation & Agriculture Transformation Project\nb. Visakhapatnam–Chennai Industrial Corridor\nc. AP Farmer Managed Groundwater Systems\n\nd. Amaravati capital loans\n\nList-II (Funding agency or arrangement)\ni. FAO-executed and Netherlands-funded\nii. World Bank and ADB\niii. World Bank\niv. ADB with contribution from the Government of Andhra Pradesh\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-i, c-iv, d-ii",
+    "a-iv, b-ii, c-i, d-iii"
+   ],
+   "a": 0,
+   "x": "The Integrated Irrigation and Agriculture Transformation Project is funded by the World Bank; VCIC combines ADB and Government of Andhra Pradesh funding; APFAMGS is FAO-executed and Netherlands-funded; and Amaravati capital loans involve the World Bank and ADB.",
+   "ty": "match",
+   "tq": "Begin with the distinctive FAO–Netherlands pair and then resolve the remaining funding relationships.",
+   "sec": "AP externally aided projects - funding agency"
+  },
+  {
+   "s": "With reference to the Visakhapatnam–Chennai Industrial Corridor, consider the following statements:\n1. The total financing arrangement is $840 million.\n2. The ADB contribution is $625 million and the Government of Andhra Pradesh contribution is $215 million.\n3. The shares of ADB and the Government of Andhra Pradesh are 74.4% and 25.6%, respectively.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the VCIC financing totals $840 million, comprising $625 million from ADB and $215 million from the Government of Andhra Pradesh, with respective shares of 74.4% and 25.6%.",
+   "ty": "statements",
+   "tq": "Verify the total, component amounts and percentages as a single financing structure.",
+   "sec": "AP externally aided projects - funding agency"
+  },
+  {
+   "s": "Which of the following correctly describes the two major loan components of the Visakhapatnam–Chennai Industrial Corridor project?",
+   "o": [
+    "The Policy-Based Loan is $125 million and fully financed by ADB; the Project Loan is $715 million with a 70:30 ADB–Government of Andhra Pradesh ratio.",
+    "The Policy-Based Loan is $715 million and fully financed by the Government of Andhra Pradesh; the Project Loan is $125 million with a 30:70 ratio.",
+    "The Policy-Based Loan is $125 million with a 70:30 ratio, while the Project Loan is $715 million fully financed by ADB.",
+    "Both loans are $420 million each and are equally financed by ADB and the Government of Andhra Pradesh."
+   ],
+   "a": 0,
+   "x": "The Policy-Based Loan is $125 million and is 100% financed by ADB. The $715 million Project Loan has a 70:30 ADB–Government of Andhra Pradesh financing ratio.",
+   "ty": "comparison",
+   "tq": "Compare the two loan components by amount, purpose and financing ratio.",
+   "sec": "AP externally aided projects - funding agency"
+  },
+  {
+   "s": "The Visakhapatnam–Chennai Industrial Corridor project agreement was signed on 23 February 2017. Which agency is its executing agency?",
+   "o": [
+    "APRDCL",
+    "DOIC",
+    "RySS",
+    "APIIC"
+   ],
+   "a": 1,
+   "x": "The VCIC project agreement was signed on 23 February 2017, and the executing agency is the Department of Industries and Commerce (DOIC).",
+   "ty": "fact",
+   "tq": "Distinguish the executing agency from the project implementation units.",
+   "sec": "AP externally aided projects - funding agency"
+  },
+  {
+   "s": "Which of the following agencies are identified as project implementation units for the Visakhapatnam–Chennai Industrial Corridor?",
+   "o": [
+    "APIIC, APRDC and AP Transco",
+    "AP Finance Corporation, MeeSeva and BhuSeva",
+    "ADB, World Bank and Netherlands Government",
+    "RySS, FAO and AP Transco"
+   ],
+   "a": 0,
+   "x": "The project implementation units include APIIC, the Andhra Pradesh Road Development Corporation (APRDC) and AP Transco.",
+   "ty": "fact",
+   "tq": "Distinguish implementation units from the funding and executing agencies.",
+   "sec": "AP externally aided projects - funding agency"
+  },
+  {
+   "s": "AP Farmer Managed Groundwater Systems (APFAMGS) is best described as a project that is:",
+   "o": [
+    "World Bank-executed and ADB-funded",
+    "FAO-executed and Netherlands-funded",
+    "ADB-executed and World Bank-funded",
+    "Government of India-executed and Japan-funded"
+   ],
+   "a": 1,
+   "x": "APFAMGS is FAO-executed and funded by the Netherlands.",
+   "ty": "confusable",
+   "tq": "Test the direction of the execution–funding relationship rather than just recognising the agencies.",
+   "sec": "AP externally aided projects - funding agency"
+  }
+ ]
+}

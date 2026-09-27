@@ -1,0 +1,582 @@
+{
+ "book": 1,
+ "row": 29,
+ "chunk": 1,
+ "section": "Buddhist councils (four), Hinayana-Mahayana-Vajrayana, Tripitakas and Pali literature",
+ "subsections": [
+  "Buddhist scholars → work",
+  "Buddhist texts → sect and language",
+  "Sects - Hinayana vs Mahayana vs Vajrayana",
+  "Stupa architecture, chaitya vs vihara, stupas by location",
+  "Early aniconic symbols"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Who among the following is associated with the Madhyamika Karika tradition and the work Suhrlekha?",
+   "o": [
+    "Nagarjuna",
+    "Aryadeva",
+    "Vasubandhu",
+    "Dharmakirti"
+   ],
+   "a": 0,
+   "x": "Nagarjuna is associated with the Madhyamika Karika tradition and wrote Suhrlekha.",
+   "ty": "fact",
+   "tq": "Use direct scholar–work identification.",
+   "sec": "Buddhist scholars → work"
+  },
+  {
+   "s": "Which of the following works were composed by Ashvaghosha?\n1. Buddhacharita\n2. Saundarananda\n3. Abhidharmakosa\n4. Tarkajvala\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Buddhacharita and Saundarananda were composed by Ashvaghosha. Abhidharmakosa is associated with Vasubandhu, while Tarkajvala is associated with Bhavaviveka.",
+   "ty": "statements",
+   "tq": "Separate a scholar’s works from closely related Buddhist works.",
+   "sec": "Buddhist scholars → work"
+  },
+  {
+   "s": "Ashvaghosha was associated with the court of which ruler?",
+   "o": [
+    "Samudragupta",
+    "Kanishka",
+    "Yajnasri Satakarni",
+    "Ashoka"
+   ],
+   "a": 1,
+   "x": "Ashvaghosha was associated with the court of Kanishka.",
+   "ty": "fact",
+   "tq": "Apply the ruler–scholar association trap.",
+   "sec": "Buddhist scholars → work"
+  },
+  {
+   "s": "Abhidharmakosa is associated with which Buddhist scholar?",
+   "o": [
+    "Vasubandhu",
+    "Asanga",
+    "Buddhaghosha",
+    "Nagarjuna"
+   ],
+   "a": 0,
+   "x": "Vasubandhu wrote Abhidharmakosa and was the brother of Asanga.",
+   "ty": "fact",
+   "tq": "Distinguish closely related scholars within Buddhist philosophy.",
+   "sec": "Buddhist scholars → work"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Dharmakirti — Nyaya Bindu",
+    "Aryadeva — Chatuhshataka",
+    "Bhavaviveka — Tarkajvala",
+    "Dignaga — Visuddhimagga"
+   ],
+   "a": 3,
+   "x": "Visuddhimagga was written by Buddhaghosha. Dignaga is associated with Pramana Samuccaya.",
+   "ty": "negative",
+   "tq": "Find the swapped author–work pair.",
+   "sec": "Buddhist scholars → work"
+  },
+  {
+   "s": "Buddhaghosha’s Visuddhimagga was composed at which place?",
+   "o": [
+    "Anuradhapura",
+    "Amaravati",
+    "Nalanda",
+    "Sriparvata"
+   ],
+   "a": 0,
+   "x": "Buddhaghosha composed Visuddhimagga at Anuradhapura.",
+   "ty": "fact",
+   "tq": "Test the scholar–centre association directly.",
+   "sec": "Buddhist scholars → work"
+  },
+  {
+   "s": "Buddhaghosha, associated with Pali commentarial literature, was born near which place?",
+   "o": [
+    "Salihundam near Srikakulam",
+    "Nagarjunakonda near Guntur",
+    "Jaggayyapeta near Krishna",
+    "Kota Nemapuri near Guntur"
+   ],
+   "a": 3,
+   "x": "Buddhaghosha was born near Guntur at Kota Nemapuri.",
+   "ty": "fact",
+   "tq": "Use precise birthplace discrimination.",
+   "sec": "Buddhist scholars → work"
+  },
+  {
+   "s": "Which of the following works is associated with Dignaga?",
+   "o": [
+    "Pramana Vartika",
+    "Mulamadhyamakakarika",
+    "Pramana Samuccaya",
+    "Chatuhshataka"
+   ],
+   "a": 2,
+   "x": "Dignaga wrote Pramana Samuccaya and is regarded as the father of Indian logic.",
+   "ty": "fact",
+   "tq": "Distinguish similar titles in Buddhist logic.",
+   "sec": "Buddhist scholars → work"
+  },
+  {
+   "s": "Who is known as the “Kant of India” in the field of Buddhist logic?",
+   "o": [
+    "Bhavaviveka",
+    "Nagarjuna",
+    "Dharmakirti",
+    "Dignaga"
+   ],
+   "a": 2,
+   "x": "Dharmakirti is known as the “Kant of India” and wrote Pramana Vartika and Nyaya Bindu.",
+   "ty": "fact",
+   "tq": "Test an identifying epithet with its scholar.",
+   "sec": "Buddhist scholars → work"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Nagarjuna — Mulamadhyamakakarika\n2. Asanga — Yogachara\n3. Buddhaghosha — Theravada and Pali tradition\n4. Dignaga — Buddhist logic\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Nagarjuna represents Madhyamaka, Asanga Yogachara, Buddhaghosha the Theravada Pali tradition, and Dignaga Buddhist logic.",
+   "ty": "statements",
+   "tq": "Confirm a cluster of scholar–school associations.",
+   "sec": "Buddhist scholars → work"
+  },
+  {
+   "s": "Which of the following Buddhist texts is written in Sanskrit and is regarded as a source of Buddhist legends?",
+   "o": [
+    "Dipavamsa",
+    "Milindapanho",
+    "Mahavamsa",
+    "Divyavadana"
+   ],
+   "a": 3,
+   "x": "Divyavadana is a Sanskrit collection of Buddhist legends and is associated with the Mahayana tradition.",
+   "ty": "fact",
+   "tq": "Match the text with its language and genre.",
+   "sec": "Buddhist texts → sect and language"
+  },
+  {
+   "s": "Avadanashataka is primarily associated with which language?",
+   "o": [
+    "Tamil",
+    "Sanskrit",
+    "Mixed Sanskrit-Prakrit only",
+    "Pali"
+   ],
+   "a": 1,
+   "x": "Avadanashataka is a Sanskrit work containing avadana tales.",
+   "ty": "fact",
+   "tq": "Use language-based text discrimination.",
+   "sec": "Buddhist texts → sect and language"
+  },
+  {
+   "s": "Which one of the following is a Sanskrit Mahayana-Vajrayana text containing historical data?",
+   "o": [
+    "Mahavastu",
+    "Aryamanjushrimulakalpa",
+    "Dipavamsa",
+    "Mahavamsa"
+   ],
+   "a": 1,
+   "x": "Aryamanjushrimulakalpa is a Sanskrit Mahayana-Vajrayana text containing historical data.",
+   "ty": "fact",
+   "tq": "Identify the text through its sectarian and linguistic features.",
+   "sec": "Buddhist texts → sect and language"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Mahavastu — Mixed Sanskrit-Prakrit biography of the Buddha",
+    "Milindapanho — Sanskrit chronicle of Sri Lanka",
+    "Mahavamsa — Mixed Sanskrit-Prakrit biography of the Buddha",
+    "Divyavadana — Pali dialogue between Milinda and Nagasena"
+   ],
+   "a": 0,
+   "x": "Mahavastu is a mixed Sanskrit-Prakrit biography of the Buddha. Milindapanho is a Pali dialogue, while Mahavamsa is a Pali Sri Lankan chronicle.",
+   "ty": "match",
+   "tq": "Start with the sure text–language pair.",
+   "sec": "Buddhist texts → sect and language"
+  },
+  {
+   "s": "Who wrote the Mahavamsa?",
+   "o": [
+    "Mahanama",
+    "Ashvaghosha",
+    "Buddhaghosha",
+    "Nagasena"
+   ],
+   "a": 0,
+   "x": "Mahavamsa is a Pali Sri Lankan chronicle written by Mahanama.",
+   "ty": "fact",
+   "tq": "Test the author of a named chronicle.",
+   "sec": "Buddhist texts → sect and language"
+  },
+  {
+   "s": "Which one of the following correctly describes the ideal of Hinayana or Theravada Buddhism?",
+   "o": [
+    "Worship of wrathful deities and Taras",
+    "Individual liberation through the ideal of the Arhat",
+    "Salvation through mantras, mudras and mandalas",
+    "Postponement of nirvana for the liberation of all beings"
+   ],
+   "a": 1,
+   "x": "Hinayana or Theravada emphasises individual liberation and the ideal of the Arhat.",
+   "ty": "comparison",
+   "tq": "Separate the three sects through their central ideals.",
+   "sec": "Sects - Hinayana vs Mahayana vs Vajrayana"
+  },
+  {
+   "s": "The Bodhisattva ideal is most closely associated with which Buddhist sect?",
+   "o": [
+    "Vajrayana only",
+    "Mahayana",
+    "Theravada only",
+    "Hinayana"
+   ],
+   "a": 1,
+   "x": "Mahayana emphasises the Bodhisattva who postpones nirvana for the welfare of all beings.",
+   "ty": "fact",
+   "tq": "Use the distinctive ideal of each sect.",
+   "sec": "Sects - Hinayana vs Mahayana vs Vajrayana"
+  },
+  {
+   "s": "Which of the following is a characteristic feature of Vajrayana Buddhism?",
+   "o": [
+    "Individual liberation through the Arhat alone",
+    "Rejection of all symbolic representation",
+    "Use of mantras, mudras and mandalas",
+    "Exclusive use of the Pali canon"
+   ],
+   "a": 2,
+   "x": "Vajrayana is characterised by mantras, mudras, mandalas and associated tantric practices.",
+   "ty": "fact",
+   "tq": "Identify the sect through its distinctive practices.",
+   "sec": "Sects - Hinayana vs Mahayana vs Vajrayana"
+  },
+  {
+   "s": "Consider the following statements:\n1. Hinayana primarily uses the Pali canon.\n2. Mahayana literature includes the Prajnaparamita and Lotus Sutra.\n3. Vajrayana is associated with tantras, mantras and mandalas.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The three traditions are distinguished partly by their textual and ritual traditions.",
+   "ty": "statements",
+   "tq": "Combine sect–text associations and select the complete code.",
+   "sec": "Sects - Hinayana vs Mahayana vs Vajrayana"
+  },
+  {
+   "s": "Which one of the following regions is NOT correctly associated with Mahayana Buddhism?",
+   "o": [
+    "China",
+    "Korea",
+    "Japan",
+    "Myanmar"
+   ],
+   "a": 3,
+   "x": "Myanmar is traditionally associated with Hinayana or Theravada. Mahayana spread prominently in China, Japan, Korea and Tibet.",
+   "ty": "negative",
+   "tq": "Find the region belonging to a neighbouring sect.",
+   "sec": "Sects - Hinayana vs Mahayana vs Vajrayana"
+  },
+  {
+   "s": "Vajrayana Buddhism developed approximately during which period?",
+   "o": [
+    "15th century CE",
+    "3rd century BCE",
+    "1st century BCE",
+    "8th century CE"
+   ],
+   "a": 3,
+   "x": "Vajrayana developed approximately in the 8th century CE.",
+   "ty": "numerical",
+   "tq": "Test the approximate chronological marker.",
+   "sec": "Sects - Hinayana vs Mahayana vs Vajrayana"
+  },
+  {
+   "s": "Which of the following is associated with the spread of Vajrayana Buddhism?",
+   "o": [
+    "Padmasambhava",
+    "Nagasena",
+    "Gautamiputra Satakarni",
+    "Mahanama"
+   ],
+   "a": 0,
+   "x": "Vajrayana is linked with Padmasambhava. Vikramashila and later Nalanda were important centres associated with it.",
+   "ty": "fact",
+   "tq": "Apply the founder–tradition association trap.",
+   "sec": "Sects - Hinayana vs Mahayana vs Vajrayana"
+  },
+  {
+   "s": "Which one of the following sets contains only the six paramitas of the Bodhisattva?",
+   "o": [
+    "Ahimsa, satya, asteya, aparigraha, brahmacharya, prajna",
+    "Dana, sila, kshanti, virya, dhyana, prajna",
+    "Dharma, artha, kama, moksha, dana, sila",
+    "Mantra, mudra, tantra, mandala, vajra, dhyana"
+   ],
+   "a": 1,
+   "x": "The six paramitas are dana, sila, kshanti, virya, dhyana and prajna.",
+   "ty": "fact",
+   "tq": "Check a complete named list without substitution.",
+   "sec": "Sects - Hinayana vs Mahayana vs Vajrayana"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched in the context of Buddhism in Andhra Pradesh?",
+   "o": [
+    "Hinayana — Amaravati",
+    "Mahayana — Salihundam",
+    "Vajrayana — Amaravati",
+    "Hinayana — Sriparvata"
+   ],
+   "a": 0,
+   "x": "In Andhra, Hinayana was associated with Amaravati, Mahayana with Sriparvata and Vajrayana with Salihundam.",
+   "ty": "match",
+   "tq": "Use location-based sect discrimination.",
+   "sec": "Sects - Hinayana vs Mahayana vs Vajrayana"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Purvasaila — Amaravati\n2. Aparasaila — Nagarjunakonda\n3. Uttarasaila — Jaggayyapeta\n4. Rajagirika — Guntupalli\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Siddhadhika was associated with Gudivada.",
+   "ty": "statements",
+   "tq": "Verify multiple branch–location pairs systematically.",
+   "sec": "Sects - Hinayana vs Mahayana vs Vajrayana"
+  },
+  {
+   "s": "In stupa architecture, the hemispherical dome symbolising the cosmos is called the:",
+   "o": [
+    "Anda",
+    "Harmika",
+    "Medhi",
+    "Vedika"
+   ],
+   "a": 0,
+   "x": "The anda is the hemispherical dome of a stupa and symbolises the cosmos.",
+   "ty": "fact",
+   "tq": "Identify the architectural term from its function.",
+   "sec": "Stupa architecture, chaitya vs vihara, stupas by location"
+  },
+  {
+   "s": "The railed square structure placed on top of the stupa dome is known as the:",
+   "o": [
+    "Chhatra",
+    "Harmika",
+    "Torana",
+    "Pradakshinapatha"
+   ],
+   "a": 1,
+   "x": "The harmika is the railed square placed above the dome. The chhatra is the umbrella above it.",
+   "ty": "fact",
+   "tq": "Distinguish adjacent architectural components.",
+   "sec": "Stupa architecture, chaitya vs vihara, stupas by location"
+  },
+  {
+   "s": "Which of the following is correctly matched?",
+   "o": [
+    "Medhi — raised circular terrace or drum at the base",
+    "Vedika — umbrella over the harmika",
+    "Torana — circumambulation path",
+    "Chhatra — railing around the stupa"
+   ],
+   "a": 0,
+   "x": "The medhi is the raised circular terrace or drum at the base of the stupa. Vedika is the railing, torana the gateway and chhatra the umbrella.",
+   "ty": "match",
+   "tq": "Match each architectural term with its precise meaning.",
+   "sec": "Stupa architecture, chaitya vs vihara, stupas by location"
+  },
+  {
+   "s": "A Buddhist structure intended primarily as a prayer hall is called a:",
+   "o": [
+    "Dhatugarbha",
+    "Harmika",
+    "Chaitya",
+    "Vihara"
+   ],
+   "a": 2,
+   "x": "A chaitya is a Buddhist prayer hall, whereas a vihara is a monastery or residence for monks.",
+   "ty": "confusable",
+   "tq": "Separate the commonly confused terms chaitya and vihara.",
+   "sec": "Stupa architecture, chaitya vs vihara, stupas by location"
+  },
+  {
+   "s": "A stupa containing relics is classified as a:",
+   "o": [
+    "Uddeshika stupa",
+    "Paribhogika stupa",
+    "Dhatugarbha stupa",
+    "Votive vihara"
+   ],
+   "a": 2,
+   "x": "A Dhatugarbha stupa contains relics. A Paribhogika stupa contains objects used by the Buddha, while an Uddeshika stupa is commemorative and has no relics.",
+   "ty": "confusable",
+   "tq": "Distinguish stupa types by their contents.",
+   "sec": "Stupa architecture, chaitya vs vihara, stupas by location"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Bharhut — Satna district, Madhya Pradesh",
+    "Devnimori — Aravalli district, Gujarat",
+    "Dhamek — East Champaran, Bihar",
+    "Sanchi — Raisen district, Madhya Pradesh"
+   ],
+   "a": 2,
+   "x": "Dhamek Stupa is located at Sarnath in Uttar Pradesh. Kesariya is located in East Champaran, Bihar.",
+   "ty": "negative",
+   "tq": "Find the swapped stupa location.",
+   "sec": "Stupa architecture, chaitya vs vihara, stupas by location"
+  },
+  {
+   "s": "Which of the following statements regarding Sanchi Stupa is correct?\n1. It was built by Ashoka in the 3rd century BCE.\n2. It was encased in stone during the Shunga period.\n3. It was inscribed as a UNESCO World Heritage Site in 1989.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Sanchi was built by Ashoka in the 3rd century BCE, encased in stone under the Shungas, and received UNESCO World Heritage status in 1989.",
+   "ty": "statements",
+   "tq": "Check a monument through date, patronage and recognition.",
+   "sec": "Stupa architecture, chaitya vs vihara, stupas by location"
+  },
+  {
+   "s": "The four toranas of the Sanchi Stupa are associated with which dynasty?",
+   "o": [
+    "Guptas",
+    "Kushanas",
+    "Satavahanas",
+    "Shungas"
+   ],
+   "a": 2,
+   "x": "The four toranas of Sanchi are associated with the Satavahanas, although the stupa had earlier origins under Ashoka and was later encased under the Shungas.",
+   "ty": "fact",
+   "tq": "Avoid the dynasty–monument patronage trap.",
+   "sec": "Stupa architecture, chaitya vs vihara, stupas by location"
+  },
+  {
+   "s": "Which of the following is regarded as the tallest excavated stupa in India?",
+   "o": [
+    "Kesariya",
+    "Amaravati",
+    "Bharhut",
+    "Sanchi"
+   ],
+   "a": 0,
+   "x": "Kesariya Stupa in East Champaran district of Bihar is regarded as the tallest excavated stupa in India.",
+   "ty": "fact",
+   "tq": "Test a superlative together with its location.",
+   "sec": "Stupa architecture, chaitya vs vihara, stupas by location"
+  },
+  {
+   "s": "Which of the following is the largest stupa in Andhra Pradesh?",
+   "o": [
+    "Nagarjunakonda",
+    "Amaravati",
+    "Jaggayyapeta",
+    "Bhattiprolu"
+   ],
+   "a": 1,
+   "x": "Amaravati is regarded as the largest stupa in Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Separate state-level superlatives from national and global ones.",
+   "sec": "Stupa architecture, chaitya vs vihara, stupas by location"
+  },
+  {
+   "s": "The largest stupa in the world is located at:",
+   "o": [
+    "Borobudur, Indonesia",
+    "Amaravati, India",
+    "Sanchi, India",
+    "Sarnath, India"
+   ],
+   "a": 0,
+   "x": "Borobudur in Indonesia is regarded as the largest stupa in the world.",
+   "ty": "fact",
+   "tq": "Use the scale comparison: world, India and Andhra Pradesh.",
+   "sec": "Stupa architecture, chaitya vs vihara, stupas by location"
+  },
+  {
+   "s": "Which of the following is an example of a stupa type containing objects used by the Buddha?",
+   "o": [
+    "Paribhogika",
+    "Uddeshika",
+    "Chaitya",
+    "Dhatugarbha"
+   ],
+   "a": 0,
+   "x": "A Paribhogika stupa contains objects used by the Buddha. Dhatugarbha stupas contain relics, while Uddeshika stupas are commemorative.",
+   "ty": "fact",
+   "tq": "Match the stupa category with its defining content.",
+   "sec": "Stupa architecture, chaitya vs vihara, stupas by location"
+  },
+  {
+   "s": "During the early aniconic phase of Buddhism, the empty seat symbolised:",
+   "o": [
+    "The Buddha’s death",
+    "The Buddha’s meditation",
+    "The Buddha’s first sermon",
+    "The Buddha’s enlightenment"
+   ],
+   "a": 1,
+   "x": "The empty seat represented the Buddha’s meditation. The wheel symbolised the first sermon, the stupa death and the Bodhi tree enlightenment.",
+   "ty": "fact",
+   "tq": "Discriminate among closely related aniconic symbols.",
+   "sec": "Early aniconic symbols"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Footprints — presence of the Buddha\n2. Bodhi tree — enlightenment\n3. Wheel — first sermon\n4. Stupa — death of the Buddha\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched in the early aniconic symbolism of Buddhism.",
+   "ty": "statements",
+   "tq": "Map each symbol to its associated event or concept.",
+   "sec": "Early aniconic symbols"
+  },
+  {
+   "s": "The first anthropomorphic images of the Buddha appeared approximately during which period and in which schools of art?",
+   "o": [
+    "4th century CE, Amaravati and Nalanda",
+    "8th century CE, Vikramashila and Nalanda",
+    "1st century CE, Gandhara and Mathura",
+    "3rd century BCE, Sanchi and Bharhut"
+   ],
+   "a": 2,
+   "x": "The first Buddha idols appeared in the 1st century CE in the Gandhara and Mathura schools of art.",
+   "ty": "numerical",
+   "tq": "Combine the date with the two associated art schools.",
+   "sec": "Early aniconic symbols"
+  }
+ ]
+}

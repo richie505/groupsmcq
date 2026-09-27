@@ -1,0 +1,610 @@
+{
+ "book": 2,
+ "row": 150,
+ "chunk": 0,
+ "section": "India-China relations - boundary question, LAC standoffs, trade imbalance, competition in the neighbourhood",
+ "subsections": [
+  "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors",
+  "Military exercises and China-Pakistan military ties - Hand-in-Hand, China-Pakistan exercises",
+  "Border agreements and the Special Representatives mechanism",
+  "LAC standoffs - year, location, disengagement",
+  "1962 war - causes, sectors, Henderson Brooks-Bhagat report"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 42,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "India recognised the People's Republic of China on which date?",
+   "o": [
+    "1 April 1950",
+    "1 October 1949",
+    "30 December 1949",
+    "15 August 1950"
+   ],
+   "a": 2,
+   "x": "India recognised the PRC on 30 December 1949.",
+   "ty": "fact",
+   "tq": "Direct date recall using closely related diplomatic dates as distractors.",
+   "sec": "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors"
+  },
+  {
+   "s": "India established diplomatic relations with the People's Republic of China on 1 April 1950 and thereby became which of the following?",
+   "o": [
+    "The first Asian country to recognise the PRC",
+    "The first country to recognise Tibet as part of China",
+    "The first non-socialist-bloc country to establish diplomatic ties with the PRC",
+    "The first country to sign a border agreement with China"
+   ],
+   "a": 2,
+   "x": "India established diplomatic ties with the PRC on 1 April 1950 and was the first non-socialist-bloc country to do so.",
+   "ty": "fact",
+   "tq": "Confusable-pair discrimination between recognition and establishment of diplomatic relations.",
+   "sec": "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors"
+  },
+  {
+   "s": "India-China diplomatic relations completed their 75th anniversary in which year?",
+   "o": [
+    "2024",
+    "2025",
+    "2026",
+    "2027"
+   ],
+   "a": 1,
+   "x": "Diplomatic relations established on 1 April 1950 completed 75 years in 2025.",
+   "ty": "numerical",
+   "tq": "Numerical recall based on anniversary calculation.",
+   "sec": "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Boundary line)\na. Johnson Line\nb. Macartney-MacDonald Line\nc. McMahon Line\n\nList-II (Feature)\ni. Eastern boundary between Tibet and India\nii. Places Aksai Chin under China\niii. Places Aksai Chin in Ladakh\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-iii, c-i",
+    "a-i, b-ii, c-iii",
+    "a-iii, b-i, c-ii"
+   ],
+   "a": 0,
+   "x": "The Johnson Line places Aksai Chin in Ladakh; the Macartney-MacDonald Line places it under China; and the McMahon Line forms the eastern Tibet-India boundary.",
+   "ty": "match",
+   "tq": "Start from the sure line-to-claim pair and eliminate the reversed combinations.",
+   "sec": "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors"
+  },
+  {
+   "s": "Consider the following statements regarding the boundary lines between India and China:\n1. The Johnson Line was proposed by W.H. Johnson in 1865.\n2. The Macartney-MacDonald Line is associated with 1899, though some accounts mention 1893.\n3. The McMahon Line was associated with the Simla Convention of 1914.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the Johnson Line dates to 1865, the Macartney-MacDonald Line is generally associated with 1899, and the McMahon Line with the 1914 Simla Convention.",
+   "ty": "statements",
+   "tq": "Statement verification of dates associated with three confusable boundary lines.",
+   "sec": "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors"
+  },
+  {
+   "s": "With reference to the McMahon Line, which one of the following statements is correct?",
+   "o": [
+    "It was accepted by China in 1899 as the preferred western boundary.",
+    "It was drawn by W.H. Johnson in 1865 and places Aksai Chin in Ladakh.",
+    "It places Aksai Chin under China and forms the western sector of the LAC.",
+    "It was finalised under the Simla Convention of 1914 as the eastern Tibet-India boundary."
+   ],
+   "a": 3,
+   "x": "The McMahon Line was associated with the 1914 Simla Convention and represents the eastern boundary between Tibet and India. The Chinese delegate initialled it, but China later refused to recognise it.",
+   "ty": "confusable",
+   "tq": "Discriminate the McMahon Line from the two western-sector boundary proposals.",
+   "sec": "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors"
+  },
+  {
+   "s": "Which of the following correctly describes the territorial positions mentioned in relation to Aksai Chin and Arunachal Pradesh?",
+   "o": [
+    "India occupies about 38,000 sq km in Aksai Chin and China claims about 90,000 sq km in the north-east.",
+    "China occupies about 90,000 sq km in Aksai Chin and India claims about 38,000 sq km in the north-east.",
+    "China occupies about 38,000 sq km in Aksai Chin and claims about 90,000 sq km in the north-east.",
+    "India and China each occupy approximately 38,000 sq km in Aksai Chin."
+   ],
+   "a": 2,
+   "x": "China occupies about 38,000 sq km in Aksai Chin and claims about 90,000 sq km in the north-east, including most of Arunachal Pradesh.",
+   "ty": "numerical",
+   "tq": "Split the options by checking the claimant, location and figures together.",
+   "sec": "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors"
+  },
+  {
+   "s": "The Shaksgam Valley, also known as the Trans-Karakoram Tract, was ceded to China by Pakistan under which agreement?",
+   "o": [
+    "1954 Panchsheel Agreement",
+    "1993 India-China Agreement on Peace and Tranquillity",
+    "1963 Sino-Pakistan Boundary Agreement",
+    "1972 Simla Agreement"
+   ],
+   "a": 2,
+   "x": "Pakistan illegally ceded the Shaksgam Valley to China under the 1963 Sino-Pakistan Boundary Agreement. India regards it as an integral part of India.",
+   "ty": "fact",
+   "tq": "Direct agreement-identification question with neighbouring bilateral agreements as distractors.",
+   "sec": "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors"
+  },
+  {
+   "s": "At the Fourth World Conference on Women held in Beijing in 1995, China expressed its claim over Arunachal Pradesh by:",
+   "o": [
+    "closing the Indian mission in Beijing",
+    "refusing to recognise India as a conference participant",
+    "excluding all Indian delegates from the conference",
+    "denying visas to Arunachal Pradesh residents in the Indian delegation"
+   ],
+   "a": 3,
+   "x": "China denied visas to Arunachal Pradesh residents who were part of the Indian delegation to the 1995 Beijing conference.",
+   "ty": "fact",
+   "tq": "Direct event-detail recall involving a distinctive diplomatic action.",
+   "sec": "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors"
+  },
+  {
+   "s": "Which country reaffirmed Arunachal Pradesh as an integral part of India?",
+   "o": [
+    "Bhutan",
+    "Russia",
+    "Japan",
+    "United States of America"
+   ],
+   "a": 3,
+   "x": "The United States reaffirmed that Arunachal Pradesh is an integral part of India.",
+   "ty": "fact",
+   "tq": "Identify the correct external country from closely related regional powers.",
+   "sec": "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors"
+  },
+  {
+   "s": "Consider the following statements regarding the sectors of the Line of Actual Control:\n1. The Western sector comprises Ladakh and includes Aksai Chin.\n2. The Middle sector comprises Himachal Pradesh and Uttarakhand and is the least contested sector.\n3. The Eastern sector comprises Sikkim and Arunachal Pradesh and is associated with the McMahon Line.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly describe the Western, Middle and Eastern sectors of the LAC.",
+   "ty": "statements",
+   "tq": "Compare all rows of a geographical classification table before selecting the coded option.",
+   "sec": "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors"
+  },
+  {
+   "s": "The length of the India-China border is approximately:",
+   "o": [
+    "2,488 km",
+    "3,488 km",
+    "4,488 km",
+    "5,488 km"
+   ],
+   "a": 1,
+   "x": "The India-China border is approximately 3,488 km long.",
+   "ty": "numerical",
+   "tq": "Direct figure recall with systematically shifted numerical distractors.",
+   "sec": "Boundary question - McMahon Line, Johnson/Macartney-MacDonald Lines, Aksai Chin, Arunachal claims, LAC sectors"
+  },
+  {
+   "s": "The first edition of the Hand-in-Hand exercise between India and China was held in 2007 at:",
+   "o": [
+    "Shanghai, China",
+    "Kunming, China",
+    "Lhasa, China",
+    "New Delhi, India"
+   ],
+   "a": 1,
+   "x": "The first edition of the India-China Hand-in-Hand joint anti-terrorism army exercise was held in 2007 at Kunming, China.",
+   "ty": "fact",
+   "tq": "Combine the exercise year and venue to avoid confusing it with other military exercises.",
+   "sec": "Military exercises and China-Pakistan military ties - Hand-in-Hand, China-Pakistan exercises"
+  },
+  {
+   "s": "Hand-in-Hand is a joint exercise conducted by the:",
+   "o": [
+    "Indian and Chinese navies for maritime surveillance",
+    "Chinese and Pakistani armies for mountain warfare",
+    "Indian and Chinese armies for anti-terrorism training",
+    "Indian and Pakistani air forces for air defence"
+   ],
+   "a": 2,
+   "x": "Hand-in-Hand is an India-China joint anti-terrorism army exercise. The first edition was held in 2007.",
+   "ty": "confusable",
+   "tq": "Discriminate the participating countries, services and purpose of the exercise.",
+   "sec": "Military exercises and China-Pakistan military ties - Hand-in-Hand, China-Pakistan exercises"
+  },
+  {
+   "s": "A joint China-Pakistan military exercise was conducted along the Jhelum River in:",
+   "o": [
+    "November 2011",
+    "November 2009",
+    "November 2012",
+    "November 2010"
+   ],
+   "a": 0,
+   "x": "The China-Pakistan joint exercise along the Jhelum River was conducted in November 2011.",
+   "ty": "numerical",
+   "tq": "Direct year recall using adjacent-year distractors.",
+   "sec": "Military exercises and China-Pakistan military ties - Hand-in-Hand, China-Pakistan exercises"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Hand-in-Hand — China-Pakistan naval exercise",
+    "Shaheen — China-Pakistan air-force exercise series",
+    "Sea Guardian — India-China army exercise",
+    "Shaheen — India-China anti-terrorism exercise"
+   ],
+   "a": 1,
+   "x": "Shaheen is associated with China-Pakistan air-force exercises. Sea Guardian is associated with their navies, while Hand-in-Hand is an India-China army exercise.",
+   "ty": "negative",
+   "tq": "Use service-wise classification to separate similarly named military exercises.",
+   "sec": "Military exercises and China-Pakistan military ties - Hand-in-Hand, China-Pakistan exercises"
+  },
+  {
+   "s": "The China-Pakistan strategic collusion is also reflected in the China-Pakistan Economic Corridor passing through:",
+   "o": [
+    "Sikkim and Bhutan",
+    "Arunachal Pradesh",
+    "Aksai Chin under Indian administration",
+    "Gilgit-Baltistan and PoJK"
+   ],
+   "a": 3,
+   "x": "The China-Pakistan collusion is reflected in the CPEC route through Pakistan-occupied Jammu and Kashmir (PoJK).",
+   "ty": "fact",
+   "tq": "Location-based identification of the disputed corridor route.",
+   "sec": "Military exercises and China-Pakistan military ties - Hand-in-Hand, China-Pakistan exercises"
+  },
+  {
+   "s": "Which agreement was signed in 1993 during Prime Minister P. V. Narasimha Rao's visit to China?",
+   "o": [
+    "Agreement on Peace and Tranquillity along the LAC",
+    "Agreement on Confidence-Building Measures in the Military Field",
+    "Border Defence Cooperation Agreement",
+    "Political Parameters and Guiding Principles for Settlement of the Boundary Question"
+   ],
+   "a": 0,
+   "x": "The 1993 Agreement on Peace and Tranquillity along the LAC was associated with Prime Minister Narasimha Rao's visit.",
+   "ty": "fact",
+   "tq": "Match the year, agreement and visiting dignitary without reversing the sequence.",
+   "sec": "Border agreements and the Special Representatives mechanism"
+  },
+  {
+   "s": "Consider the following pairs:\n1. 1996 — Agreement on Confidence-Building Measures in the Military Field\n2. 2003 — Declaration on Principles and appointment of Special Representatives\n3. 2012 — Working Mechanism for Consultation and Coordination\n4. 2013 — Border Defence Cooperation Agreement\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. The 1996, 2003, 2012 and 2013 measures correspond respectively to military CBMs, the SR mechanism, the WMCC and the BDCA.",
+   "ty": "statements",
+   "tq": "Verify a chronological agreement list year by year.",
+   "sec": "Border agreements and the Special Representatives mechanism"
+  },
+  {
+   "s": "The 2005 agreement between India and China dealt with:",
+   "o": [
+    "Border Defence Cooperation",
+    "Political Parameters and Guiding Principles for settlement of the boundary question",
+    "Peace and Tranquillity along the LAC",
+    "The establishment of the WMCC"
+   ],
+   "a": 1,
+   "x": "The 2005 agreement laid down Political Parameters and Guiding Principles for settlement of the boundary question.",
+   "ty": "fact",
+   "tq": "Direct identification of the subject of a specific border agreement.",
+   "sec": "Border agreements and the Special Representatives mechanism"
+  },
+  {
+   "s": "Which one of the following correctly describes the Working Mechanism for Consultation and Coordination (WMCC)?",
+   "o": [
+    "It manages border affairs but does not discuss the settlement of the boundary itself.",
+    "It replaces the Special Representatives mechanism for all negotiations.",
+    "It settles the boundary question through binding arbitration.",
+    "It conducts military exercises between India and China."
+   ],
+   "a": 0,
+   "x": "The WMCC manages border affairs and consultations, but it does not discuss the settlement of the boundary question itself.",
+   "ty": "application",
+   "tq": "Distinguish a coordinating mechanism from the body responsible for boundary settlement.",
+   "sec": "Border agreements and the Special Representatives mechanism"
+  },
+  {
+   "s": "The 2013 Border Defence Cooperation Agreement was associated with the visit of:",
+   "o": [
+    "Prime Minister Manmohan Singh",
+    "Prime Minister Narendra Modi",
+    "Prime Minister Rajiv Gandhi",
+    "Prime Minister Jawaharlal Nehru"
+   ],
+   "a": 0,
+   "x": "The 2013 Border Defence Cooperation Agreement was associated with Prime Minister Manmohan Singh's visit.",
+   "ty": "fact",
+   "tq": "Person-agreement association with leaders from different periods.",
+   "sec": "Border agreements and the Special Representatives mechanism"
+  },
+  {
+   "s": "Which of the following statements regarding the Special Representatives mechanism is correct?",
+   "o": [
+    "It was introduced in 1993 to conduct military exercises along the LAC.",
+    "It was introduced in 2012 to replace the WMCC.",
+    "It was introduced in 2003 for boundary talks through the Declaration on Principles.",
+    "It was introduced in 2013 to implement the Border Defence Cooperation Agreement."
+   ],
+   "a": 2,
+   "x": "The Special Representatives mechanism was introduced in 2003 along with the Declaration on Principles during Prime Minister Vajpayee's visit.",
+   "ty": "fact",
+   "tq": "Identify the correct institutional origin by separating the years of related agreements.",
+   "sec": "Border agreements and the Special Representatives mechanism"
+  },
+  {
+   "s": "The 24th round of India-China Special Representatives talks was held in New Delhi in August 2025 between:",
+   "o": [
+    "Narendra Modi and Xi Jinping",
+    "Manmohan Singh and Jiang Zemin",
+    "S. Jaishankar and Li Keqiang",
+    "Ajit Doval and Wang Yi"
+   ],
+   "a": 3,
+   "x": "The 24th round in New Delhi in August 2025 involved Wang Yi and India's National Security Adviser Ajit Doval.",
+   "ty": "fact",
+   "tq": "Institutional-role discrimination between the Special Representatives and political leaders.",
+   "sec": "Border agreements and the Special Representatives mechanism"
+  },
+  {
+   "s": "At the 25th round of Special Representatives talks in Beijing in August 2026, the two sides issued an eight-point outcome document intended to:",
+   "o": [
+    "settle the entire boundary dispute immediately",
+    "create a joint military command",
+    "improve understanding of the LAC",
+    "transfer the WMCC to the United Nations"
+   ],
+   "a": 2,
+   "x": "Doval and Wang Yi issued an eight-point outcome document aimed at improving understanding of the LAC.",
+   "ty": "fact",
+   "tq": "Read the precise objective rather than choosing an exaggerated settlement claim.",
+   "sec": "Border agreements and the Special Representatives mechanism"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with respect to the WMCC meetings?",
+   "o": [
+    "35th — July 2025; 34th — May 2026",
+    "33rd — March 2025; 34th — July 2025",
+    "34th — August 2026; 35th — March 2025",
+    "33rd — July 2025; 34th — March 2025"
+   ],
+   "a": 1,
+   "x": "The 33rd WMCC meeting was held in March 2025 and the 34th in July 2025. The 35th meeting was held in Beijing in May 2026, and another meeting took place on 6 August 2026.",
+   "ty": "numerical",
+   "tq": "Match numbered institutional meetings with their dates.",
+   "sec": "Border agreements and the Special Representatives mechanism"
+  },
+  {
+   "s": "Arrange the following India-China border standoffs in chronological order:\nA. Doklam\nB. Sumdorong Chu\nC. Galwan\nD. Depsang",
+   "o": [
+    "B, D, A, C",
+    "D, B, A, C",
+    "B, A, D, C",
+    "A, B, D, C"
+   ],
+   "a": 0,
+   "x": "The correct order is Sumdorong Chu (1986-87), Depsang (2013), Doklam (2017) and Galwan (2020).",
+   "ty": "chronology",
+   "tq": "Place the earliest and latest standoffs first, then resolve the middle sequence.",
+   "sec": "LAC standoffs - year, location, disengagement"
+  },
+  {
+   "s": "Which one of the following standoffs is correctly matched with its location?",
+   "o": [
+    "Depsang — Sikkim",
+    "Sumdorong Chu — Tawang, Arunachal Pradesh",
+    "Doklam — Eastern Ladakh",
+    "Yangtse — Himachal Pradesh"
+   ],
+   "a": 1,
+   "x": "The Sumdorong Chu standoff of 1986-87 occurred in the Tawang area of Arunachal Pradesh. Depsang is in Ladakh, Doklam is at the India-Bhutan-China tri-junction, and Yangtse is in Tawang.",
+   "ty": "negative",
+   "tq": "Location matching using nearby LAC sectors as distractors.",
+   "sec": "LAC standoffs - year, location, disengagement"
+  },
+  {
+   "s": "The Doklam standoff of 2017 occurred at the:",
+   "o": [
+    "India-Pakistan-China tri-junction",
+    "India-Nepal-China tri-junction",
+    "India-Myanmar-China tri-junction",
+    "India-Bhutan-China tri-junction"
+   ],
+   "a": 3,
+   "x": "The Doklam standoff occurred at the India-Bhutan-China tri-junction.",
+   "ty": "fact",
+   "tq": "Direct tri-junction identification.",
+   "sec": "LAC standoffs - year, location, disengagement"
+  },
+  {
+   "s": "Consider the following statements about the Galwan Valley clash:\n1. It took place on 15 June 2020.\n2. It occurred in Eastern Ladakh.\n3. Twenty Indian soldiers were killed.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Galwan clash occurred on 15 June 2020 in Eastern Ladakh, and 20 Indian soldiers were killed.",
+   "ty": "statements",
+   "tq": "Combine date, location and numerical casualty facts in one verification set.",
+   "sec": "LAC standoffs - year, location, disengagement"
+  },
+  {
+   "s": "The Yangtse standoff of December 2022 was located in:",
+   "o": [
+    "Depsang, Ladakh",
+    "Tawang, Arunachal Pradesh",
+    "Aksai Chin",
+    "Doklam, Bhutan"
+   ],
+   "a": 1,
+   "x": "The Yangtse standoff occurred in December 2022 in the Tawang area of Arunachal Pradesh.",
+   "ty": "fact",
+   "tq": "Direct year-location recall for a later eastern-sector standoff.",
+   "sec": "LAC standoffs - year, location, disengagement"
+  },
+  {
+   "s": "Which of the following is the correct sequence of disengagement locations and years?\n1. Pangong Tso north and south banks — 2021\n2. Gogra-Hot Springs — 2022\n3. Depsang and Demchok — understanding of October 2024",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Disengagement occurred at Pangong Tso in 2021, Gogra-Hot Springs in 2022, and Depsang and Demchok under the October 2024 understanding. Galwan was also among the disengagement points.",
+   "ty": "statements",
+   "tq": "Check the year attached to each disengagement location rather than treating all as one event.",
+   "sec": "LAC standoffs - year, location, disengagement"
+  },
+  {
+   "s": "The October 2024 understanding concerning Depsang and Demchok was endorsed at the meeting between Narendra Modi and Xi Jinping held at:",
+   "o": [
+    "New Delhi",
+    "Wuhan",
+    "Beijing",
+    "Kazan"
+   ],
+   "a": 3,
+   "x": "The understanding was endorsed at the Modi-Xi meeting in Kazan in October 2024.",
+   "ty": "fact",
+   "tq": "Venue-based recall of a diplomatic meeting linked to disengagement.",
+   "sec": "LAC standoffs - year, location, disengagement"
+  },
+  {
+   "s": "According to the 2025-26 assessment cited, which one of the following correctly describes the PLA deployment along the LAC?",
+   "o": [
+    "It fell in 2025 and no combined arms brigades remained.",
+    "It remained unchanged at 20 combined arms brigades.",
+    "It increased in 2025 to 10 combined arms brigades.",
+    "It fell in 2025, but 10 combined arms brigades remained along the LAC."
+   ],
+   "a": 3,
+   "x": "PLA deployment fell in 2025, but 10 combined arms brigades remained along the LAC.",
+   "ty": "comparison",
+   "tq": "Separate the trend from the residual strength figure.",
+   "sec": "LAC standoffs - year, location, disengagement"
+  },
+  {
+   "s": "Mudh-Nyoma airbase, which became operational in eastern Ladakh, is located at approximately:",
+   "o": [
+    "13,000 feet",
+    "18,000 feet",
+    "5,000 feet",
+    "9,000 feet"
+   ],
+   "a": 0,
+   "x": "Mudh-Nyoma airbase is in eastern Ladakh at approximately 13,000 feet and was built by the Border Roads Organisation.",
+   "ty": "numerical",
+   "tq": "Numerical altitude recall with graduated altitude distractors.",
+   "sec": "LAC standoffs - year, location, disengagement"
+  },
+  {
+   "s": "Mudh-Nyoma is the fourth operational airbase in Ladakh after:",
+   "o": [
+    "Leh, Kargil and Thoise",
+    "Srinagar, Jammu and Pathankot",
+    "Tawang, Tezpur and Chabua",
+    "Aksai Chin, Leh and Siachen"
+   ],
+   "a": 0,
+   "x": "Mudh-Nyoma is the fourth airbase in Ladakh after Leh, Kargil and Thoise. It was built by the BRO.",
+   "ty": "match",
+   "tq": "Complete the stated sequence by identifying the three preceding airbases.",
+   "sec": "LAC standoffs - year, location, disengagement"
+  },
+  {
+   "s": "Which of the following was NOT identified as a cause of the India-China war of 1962?",
+   "o": [
+    "India's Forward Policy",
+    "The Tibet question and the Dalai Lama's asylum in 1959",
+    "The 1963 Sino-Pakistan Boundary Agreement",
+    "The unsettled boundary left without a clear line by the British"
+   ],
+   "a": 2,
+   "x": "The 1963 Sino-Pakistan Boundary Agreement followed the 1962 war and was not a cause of it. The unsettled boundary, the Tibet question and India's Forward Policy were identified causes.",
+   "ty": "negative",
+   "tq": "Find the chronological impossibility among otherwise relevant border facts.",
+   "sec": "1962 war - causes, sectors, Henderson Brooks-Bhagat report"
+  },
+  {
+   "s": "The India-China war of 1962 was fought primarily in which two sectors?",
+   "o": [
+    "Northern sector involving Kashmir and Southern sector involving Arunachal Pradesh",
+    "Western sector involving Aksai Chin/Ladakh and Eastern sector involving NEFA",
+    "Middle sector involving Uttarakhand and Eastern sector involving Sikkim only",
+    "Western sector involving Punjab and Eastern sector involving Assam plains"
+   ],
+   "a": 1,
+   "x": "The war was fought in the Western sector of Aksai Chin/Ladakh and the Eastern sector of NEFA, or present-day Arunachal Pradesh region.",
+   "ty": "fact",
+   "tq": "Sector-based identification using the historical name NEFA as the key clue.",
+   "sec": "1962 war - causes, sectors, Henderson Brooks-Bhagat report"
+  },
+  {
+   "s": "The 1962 India-China war lasted from:",
+   "o": [
+    "21 October to 20 November 1962",
+    "20 September to 21 October 1962",
+    "15 October to 30 November 1962",
+    "20 October to 21 November 1962"
+   ],
+   "a": 3,
+   "x": "The war was fought from 20 October to 21 November 1962.",
+   "ty": "numerical",
+   "tq": "Direct date-range recall with reversed and shifted ranges as distractors.",
+   "sec": "1962 war - causes, sectors, Henderson Brooks-Bhagat report"
+  },
+  {
+   "s": "The 1962 war ended with:",
+   "o": [
+    "India's unilateral withdrawal from the eastern sector",
+    "China's unilateral ceasefire",
+    "A permanent boundary settlement",
+    "A jointly negotiated ceasefire monitored by the United Nations"
+   ],
+   "a": 1,
+   "x": "The war ended with China's unilateral ceasefire; it did not result in a permanent boundary settlement.",
+   "ty": "fact",
+   "tq": "Distinguish the manner of cessation from a negotiated settlement.",
+   "sec": "1962 war - causes, sectors, Henderson Brooks-Bhagat report"
+  },
+  {
+   "s": "The Henderson Brooks-Bhagat Report of 1963 primarily reviewed:",
+   "o": [
+    "India's military failure in the 1962 war",
+    "China's economic reforms after the war",
+    "The 1963 Sino-Pakistan boundary agreement",
+    "The political status of Tibet"
+   ],
+   "a": 0,
+   "x": "The Henderson Brooks-Bhagat Report of 1963 reviewed India's military failure during the 1962 war.",
+   "ty": "fact",
+   "tq": "Direct report-purpose recall with adjacent historical subjects as distractors.",
+   "sec": "1962 war - causes, sectors, Henderson Brooks-Bhagat report"
+  },
+  {
+   "s": "Which of the following was an important effect of the 1962 war on India's foreign and defence policy?",
+   "o": [
+    "The war dealt a blow to NAM idealism and led India to seek Western military aid.",
+    "India strengthened NAM idealism and rejected external military assistance.",
+    "India immediately accepted China's claim over Arunachal Pradesh.",
+    "India abandoned all military cooperation with Western countries."
+   ],
+   "a": 0,
+   "x": "The war weakened India's earlier NAM idealism and prompted it to seek military assistance from Western countries.",
+   "ty": "comparison",
+   "tq": "Identify the correct policy shift by contrasting pre-war idealism with post-war action.",
+   "sec": "1962 war - causes, sectors, Henderson Brooks-Bhagat report"
+  }
+ ]
+}

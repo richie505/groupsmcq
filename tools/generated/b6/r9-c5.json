@@ -1,0 +1,525 @@
+{
+ "book": 6,
+ "row": 9,
+ "chunk": 5,
+ "section": "International - treaties, agreements and developments in international organisations",
+ "subsections": [
+  "Flagship reports → publisher + India's rank/projection",
+  "Heads of global economic bodies → nationality",
+  "IMF quota, SDR (\"paper gold\") basket and India's voting share",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 37,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "With reference to the World Economic Outlook, consider the following statements:\n1. The January 2026 update raised India's FY26 growth projection to 7.3% from 6.6%.\n2. The April 2026 reference scenario projected global growth at 3.1%.\n3. The April 2026 projection for India in FY27 was about 6.2%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The IMF's January 2026 update raised India's FY26 projection to 7.3%, while its April 2026 reference scenario projected global growth at 3.1% and India's FY27 growth at about 6.2%.",
+   "ty": "statements",
+   "tq": "Use the numerical comparison of successive projections and check all statements against the same report series.",
+   "sec": "Flagship reports → publisher + India's rank/projection"
+  },
+  {
+   "s": "The World Economic Outlook is published by which of the following organisations?",
+   "o": [
+    "UN DESA",
+    "World Bank",
+    "International Labour Organization",
+    "International Monetary Fund"
+   ],
+   "a": 3,
+   "x": "The World Economic Outlook is an IMF publication. The World Bank publishes the Global Economic Prospects, UN DESA publishes the World Economic Situation and Prospects, and the ILO publishes Employment and Social Trends.",
+   "ty": "fact",
+   "tq": "Match the report with its publishing institution rather than with a related economic body.",
+   "sec": "Flagship reports → publisher + India's rank/projection"
+  },
+  {
+   "s": "The April 2026 World Economic Outlook projected global growth at what rate if the West Asia war deepened?",
+   "o": [
+    "2.0%",
+    "2.5%",
+    "3.1%",
+    "6.2%"
+   ],
+   "a": 0,
+   "x": "The April 2026 WEO projected global growth at 2.0% in the event of a deepening war, compared with 3.1% in its reference scenario.",
+   "ty": "numerical",
+   "tq": "Separate the reference scenario from the adverse scenario before selecting the figure.",
+   "sec": "Flagship reports → publisher + India's rank/projection"
+  },
+  {
+   "s": "Consider the following statements regarding the Global Economic Prospects, June 2026:\n1. It is published by the World Bank.\n2. It is issued twice a year.\n3. It projected India's FY27 growth at 6.6%, up from 6.5%.\n4. It projected world growth at 2.5%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 3 and 4 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The June 2026 Global Economic Prospects is a twice-yearly World Bank publication and gave the stated India and world growth projections.",
+   "ty": "statements",
+   "tq": "Treat publication frequency, publisher and multiple numerical projections as separate statements.",
+   "sec": "Flagship reports → publisher + India's rank/projection"
+  },
+  {
+   "s": "Which one of the following is the correct sequence of India's growth projections given in the June 2026 Global Economic Prospects?",
+   "o": [
+    "FY26—7.2%; FY27—6.6%; FY28—7.7%",
+    "FY26—7.7%; FY27—7.2%; FY28—6.6%",
+    "FY26—7.7%; FY27—6.6%; FY28—7.2%",
+    "FY26—6.6%; FY27—7.7%; FY28—7.2%"
+   ],
+   "a": 2,
+   "x": "The report projected India's FY26 growth at 7.7%, FY27 growth at 6.6% and FY28 growth at 7.2%.",
+   "ty": "numerical",
+   "tq": "Read the financial-year labels carefully and avoid swapping adjacent projections.",
+   "sec": "Flagship reports → publisher + India's rank/projection"
+  },
+  {
+   "s": "The theme of the World Development Report 2025 was:",
+   "o": [
+    "Standards for Development",
+    "Employment and Social Trends",
+    "Standards for Trade",
+    "Global Economic Prospects"
+   ],
+   "a": 0,
+   "x": "The World Development Report 2025 carried the theme “Standards for Development” and was published by the World Bank.",
+   "ty": "fact",
+   "tq": "Use the exact official wording of the report theme instead of a similar economic phrase.",
+   "sec": "Flagship reports → publisher + India's rank/projection"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Report)\na. World Economic Situation and Prospects 2026\nb. Employment and Social Trends 2026\nc. Global Economic Prospects, June 2026\nd. World Development Report 2025\nList-II (Publisher)\ni. International Labour Organization\nii. World Bank\niii. UN DESA\niv. World Bank\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–iii, b–i, c–ii, d–iv",
+    "a–ii, b–i, c–iii, d–iv",
+    "a–iii, b–ii, c–i, d–iv",
+    "a–i, b–iii, c–ii, d–iv"
+   ],
+   "a": 0,
+   "x": "The World Economic Situation and Prospects is published by UN DESA; Employment and Social Trends by the ILO; and both Global Economic Prospects and World Development Report by the World Bank.",
+   "ty": "match",
+   "tq": "Start from the sure institutional pair and then eliminate codes with a swapped publisher.",
+   "sec": "Flagship reports → publisher + India's rank/projection"
+  },
+  {
+   "s": "According to Employment and Social Trends 2026, India's share of world manufacturing was:",
+   "o": [
+    "2%",
+    "3%",
+    "6%",
+    "7.3%"
+   ],
+   "a": 1,
+   "x": "Employment and Social Trends 2026 stated that India accounts for 3% of world manufacturing.",
+   "ty": "numerical",
+   "tq": "Distinguish a sectoral share from the growth projections appearing in other reports.",
+   "sec": "Flagship reports → publisher + India's rank/projection"
+  },
+  {
+   "s": "Who among the following is the Director-General of the World Trade Organization referred to in the current institutional leadership list?",
+   "o": [
+    "Kristalina Georgieva",
+    "Ngozi Okonjo-Iweala",
+    "Gilbert F. Houngbo",
+    "Rebeca Grynspan"
+   ],
+   "a": 1,
+   "x": "Ngozi Okonjo-Iweala is the Director-General of the WTO and is a Nigerian national.",
+   "ty": "fact",
+   "tq": "Discriminate among heads of neighbouring international economic institutions.",
+   "sec": "Heads of global economic bodies → nationality"
+  },
+  {
+   "s": "Consider the following pairs:\n1. IMF—Kristalina Georgieva—Bulgaria\n2. World Bank—Ajay Banga—United States\n3. UNCTAD—Rebeca Grynspan—Costa Rica\n4. ILO—Gilbert F. Houngbo—Togo\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Georgieva is Bulgarian, Banga is an Indian-born U.S. national, Grynspan is from Costa Rica and Houngbo is from Togo.",
+   "ty": "statements",
+   "tq": "Check both the office-holder and nationality; a single swapped nationality invalidates a pair.",
+   "sec": "Heads of global economic bodies → nationality"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "UNCTAD—Rebeca Grynspan—Costa Rica",
+    "WTO—Ngozi Okonjo-Iweala—Nigeria",
+    "IMF—Kristalina Georgieva—Bulgaria",
+    "ILO—Gilbert F. Houngbo—Ghana"
+   ],
+   "a": 3,
+   "x": "Gilbert F. Houngbo is from Togo, not Ghana. The other three institutional leadership-nationality pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the one wrong nationality in an otherwise familiar set of institutional pairs.",
+   "sec": "Heads of global economic bodies → nationality"
+  },
+  {
+   "s": "Which of the following is a function of IMF quotas of member countries?\n1. Determining the member's contribution\n2. Influencing access to borrowing\n3. Influencing voting power\n4. Fixing the exchange rate of every member's currency\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "IMF quotas determine a member's contribution, borrowing access and voting power, and are reviewed periodically. They do not fix the exchange rate of every member's currency.",
+   "ty": "statements",
+   "tq": "Identify the institutional functions of a quota and reject an unrelated monetary-power claim.",
+   "sec": "IMF quota, SDR (\"paper gold\") basket and India's voting share"
+  },
+  {
+   "s": "IMF quotas are reviewed:",
+   "o": [
+    "monthly",
+    "annually without exception",
+    "periodically",
+    "only when a country joins the IMF"
+   ],
+   "a": 2,
+   "x": "IMF quotas are reviewed periodically. The review concerns the contribution, borrowing access and voting power associated with quotas.",
+   "ty": "fact",
+   "tq": "Prefer the precise institutional frequency stated for the mechanism over extreme alternatives.",
+   "sec": "IMF quota, SDR (\"paper gold\") basket and India's voting share"
+  },
+  {
+   "s": "Special Drawing Rights are best described as:",
+   "o": [
+    "An IMF reserve asset commonly called “paper gold”",
+    "A WTO tariff concession",
+    "A World Bank loan instrument",
+    "A UN development grant"
+   ],
+   "a": 0,
+   "x": "SDR is an IMF reserve asset, commonly referred to as “paper gold.” It is not a World Bank loan, WTO concession or UN grant.",
+   "ty": "confusable",
+   "tq": "Distinguish an IMF reserve asset from lending, trade and development instruments of other bodies.",
+   "sec": "IMF quota, SDR (\"paper gold\") basket and India's voting share"
+  },
+  {
+   "s": "The SDR basket comprises which of the following currencies?\n1. United States dollar\n2. Euro\n3. Chinese yuan\n4. Japanese yen\n5. Pound sterling\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4 only",
+    "2, 3, 4 and 5 only",
+    "1, 2, 3, 4 and 5"
+   ],
+   "a": 3,
+   "x": "The SDR basket consists of the U.S. dollar, euro, Chinese yuan, Japanese yen and pound sterling.",
+   "ty": "statements",
+   "tq": "Check the complete basket rather than stopping after identifying the first familiar currencies.",
+   "sec": "IMF quota, SDR (\"paper gold\") basket and India's voting share"
+  },
+  {
+   "s": "Which of the following components form part of India's foreign exchange reserves as listed in the institutional description?\n1. Foreign currency assets\n2. Gold\n3. SDRs\n4. Reserve tranche or reserve position\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The listed components are foreign currency assets, gold, SDRs and the reserve tranche or reserve position.",
+   "ty": "statements",
+   "tq": "Treat a reserve composition question as a complete-list test and check every component.",
+   "sec": "IMF quota, SDR (\"paper gold\") basket and India's voting share"
+  },
+  {
+   "s": "The IMF reserve position referred to for India had risen to approximately:",
+   "o": [
+    "$2.0 billion",
+    "$3.1 billion",
+    "$4.7 billion",
+    "$7.7 billion"
+   ],
+   "a": 2,
+   "x": "The IMF reserve position referred to had risen to approximately $4.7 billion in the Economic Survey 2025–26 reference.",
+   "ty": "numerical",
+   "tq": "Match the exact reserve-position figure and do not confuse it with growth rates or SDR amounts.",
+   "sec": "IMF quota, SDR (\"paper gold\") basket and India's voting share"
+  },
+  {
+   "s": "In 2011, the BRICS countries accounted for approximately what shares of world GDP and IMF votes, respectively?",
+   "o": [
+    "20% and 11%",
+    "20% and 40%",
+    "40% and 11%",
+    "11% and 20%"
+   ],
+   "a": 0,
+   "x": "In 2011, BRICS accounted for about 20% of world GDP but only 11% of IMF votes.",
+   "ty": "numerical",
+   "tq": "Maintain the order of the two quantities; the reversed pair is the principal trap.",
+   "sec": "IMF quota, SDR (\"paper gold\") basket and India's voting share"
+  },
+  {
+   "s": "Which one of the following correctly describes the recent BRICS position on IMF governance?",
+   "o": [
+    "BRICS has withdrawn from the IMF and rejected all quota reforms.",
+    "The New Delhi Declaration concerns only WTO tariff reduction.",
+    "BRICS now accounts for about 40% of world GDP, while its IMF vote share is only marginally higher than before; the New Delhi Declaration seeks quota and voting reform.",
+    "BRICS GDP share fell to 11% and its vote share rose to 40%."
+   ],
+   "a": 2,
+   "x": "BRICS now represents about 40% of world GDP, but its IMF vote share is only barely higher than earlier. The New Delhi Declaration seeks reform of quotas and voting.",
+   "ty": "comparison",
+   "tq": "Read the direction of change in both shares and connect it with the stated reform demand.",
+   "sec": "IMF quota, SDR (\"paper gold\") basket and India's voting share"
+  },
+  {
+   "s": "The SHANTI Act 2025 caps nuclear liability at:",
+   "o": [
+    "30 million SDRs, approximately ₹39,000 crore",
+    "300 million SDRs, approximately ₹3,900 crore",
+    "3 billion SDRs, approximately ₹390 crore",
+    "300 million U.S. dollars, approximately ₹3,900 crore"
+   ],
+   "a": 1,
+   "x": "The SHANTI Act 2025 caps nuclear liability at 300 million SDRs, stated as approximately ₹3,900 crore.",
+   "ty": "numerical",
+   "tq": "Keep the unit SDR distinct from a dollar amount while checking the corresponding rupee approximation.",
+   "sec": "IMF quota, SDR (\"paper gold\") basket and India's voting share"
+  },
+  {
+   "s": "Sarnath became India's which numbered World Heritage Site in July 2026?",
+   "o": [
+    "35th",
+    "50th",
+    "45th",
+    "40th"
+   ],
+   "a": 2,
+   "x": "Sarnath became India's 45th World Heritage Site in July 2026.",
+   "ty": "fact",
+   "tq": "Use the exact ordinal number associated with the current-affairs development.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The India–United Kingdom Comprehensive Economic and Trade Agreement came into force on:",
+   "o": [
+    "15 July 2026",
+    "19 July 2026",
+    "15 January 2026",
+    "15 July 2025"
+   ],
+   "a": 0,
+   "x": "The India–UK CETA came into force on 15 July 2026.",
+   "ty": "fact",
+   "tq": "Distinguish the effective date from nearby current-affairs dates in the same period.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following developments was identified as weakening multilateralism?",
+   "o": [
+    "The failure of MC14 and withdrawals by the United States",
+    "The creation of the World Development Report",
+    "The launch of the SDR basket",
+    "The success of MC14 and the expansion of the Appellate Body"
+   ],
+   "a": 0,
+   "x": "The failure of MC14 and U.S. exits were identified as developments weakening multilateralism.",
+   "ty": "fact",
+   "tq": "Link the criticism to the stated institutional outcome rather than to an unrelated economic report.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "India's refusal to join which of the following has been defended as protecting policy space?\n1. Investment Facilitation for Development\n2. Cybercrime Convention\n3. Pandemic Agreement\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "India's refusals concerning the Investment Facilitation for Development initiative and the Cybercrime Convention have been defended as protecting policy space. The Pandemic Agreement is discussed separately because its PABS annex remains incomplete.",
+   "ty": "statements",
+   "tq": "Separate the instruments India refused from the agreement whose annex is still pending.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Andhra Pradesh Government signed an MoU with UN-Habitat for establishing a Centre of Excellence for Urban Affairs at:",
+   "o": [
+    "Visakhapatnam",
+    "Sarnath",
+    "New Delhi",
+    "Amaravati"
+   ],
+   "a": 3,
+   "x": "The MoU with UN-Habitat concerns a Centre of Excellence for Urban Affairs in Amaravati.",
+   "ty": "fact",
+   "tq": "Use the location-specific state current-affairs clue and avoid substituting a national headquarters.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The United States withdrawal in January 2026 was reported to involve how many bodies, including UNFCCC and ISA?",
+   "o": [
+    "16",
+    "46",
+    "66",
+    "96"
+   ],
+   "a": 2,
+   "x": "The reported U.S. withdrawal involved 66 bodies, including the UNFCCC and the ISA.",
+   "ty": "numerical",
+   "tq": "Match the exact count with the two institutional examples supplied in the question.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding the ongoing international institutional developments?\n1. Selection of the UN Secretary-General for 2027 is under way.\n2. The United States withdrawal included the International Solar Alliance.\n3. India is yet to ratify the BBNJ Agreement.\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The 2027 UN Secretary-General selection is under way, the U.S. withdrawal included the ISA, and India has not yet ratified BBNJ.",
+   "ty": "statements",
+   "tq": "Combine separate current-affairs developments and verify each institutional status independently.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following international roles is associated with India in 2026?\n1. Chair of the Kimberley Process\n2. Host of ITU PP-30\n3. Founder of ISA, CDRI and GBA\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "India's listed roles include chairing the Kimberley Process in 2026, hosting ITU PP-30 and being a founder of the ISA, CDRI and GBA.",
+   "ty": "statements",
+   "tq": "Test a cluster of related international roles through a complete-list statement question.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements regarding the Pandemic Agreement is correct?",
+   "o": [
+    "It has already acquired all annexes, including PABS.",
+    "It still lacks its PABS annex.",
+    "India has ratified BBNJ through the Pandemic Agreement.",
+    "It is a WTO agreement on e-commerce."
+   ],
+   "a": 1,
+   "x": "The Pandemic Agreement still lacks its PABS annex. BBNJ is a separate agreement and India is yet to ratify it.",
+   "ty": "confusable",
+   "tq": "Separate closely associated international agreements and identify the missing component precisely.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following is correctly matched?\n1. Cybercrime Convention—first global cybercrime treaty\n2. Bangladesh—first South Asian party to the Water Convention\n3. Deepavali inscription—Intangible Cultural Heritage session hosted in India\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correctly matched. The Cybercrime Convention is the first global cybercrime treaty, Bangladesh was the first South Asian party to the Water Convention, and Deepavali was inscribed at an ICH session hosted in India.",
+   "ty": "statements",
+   "tq": "Check the distinctive first or host-country clue in each international development.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Bangladesh achieved which distinction in relation to the Water Convention?",
+   "o": [
+    "First country to ratify BBNJ",
+    "First South Asian member of the IMF",
+    "First Asian host of the Cybercrime Convention",
+    "First South Asian party to the Water Convention"
+   ],
+   "a": 3,
+   "x": "Bangladesh became the first South Asian party to the Water Convention.",
+   "ty": "fact",
+   "tq": "Distinguish a regional first from unrelated treaty membership or ratification claims.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The lapse of the WTO e-commerce moratorium was associated with which development?",
+   "o": [
+    "MC14 failure in March 2026",
+    "The creation of the SDR basket in 2026",
+    "The India–UK CETA coming into force in July 2026",
+    "The formation of UN-Habitat"
+   ],
+   "a": 0,
+   "x": "The failure of MC14 and the lapse of the e-commerce moratorium were reported in March 2026.",
+   "ty": "fact",
+   "tq": "Pair the event with its specific WTO context and time rather than with another trade agreement.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The IMF and World Bank growth projections were cut during April–June 2026 primarily because of:",
+   "o": [
+    "The inscription of Deepavali",
+    "India's CETA with the United Kingdom",
+    "The lapse of the e-commerce moratorium",
+    "The West Asia war"
+   ],
+   "a": 3,
+   "x": "The growth cuts by the IMF and World Bank during April–June 2026 were attributed to the West Asia war.",
+   "ty": "application",
+   "tq": "Identify the stated cause-and-effect link behind a change in economic projections.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following is associated with World Bank–ADB support in Andhra Pradesh?",
+   "o": [
+    "The IMF reserve tranche",
+    "The Kimberley Process chair",
+    "Funding for Amaravati",
+    "The PABS annex"
+   ],
+   "a": 2,
+   "x": "World Bank–ADB funding is associated with Amaravati. Separate World Bank road and school projects in Andhra Pradesh are also listed as SALT projects.",
+   "ty": "fact",
+   "tq": "Distinguish a state-development financing initiative from international institutional and treaty matters.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The World Bank road and school projects in Andhra Pradesh are referred to as:",
+   "o": [
+    "CETA projects",
+    "SALT projects",
+    "GBA projects",
+    "PABS projects"
+   ],
+   "a": 1,
+   "x": "The World Bank road and school projects in Andhra Pradesh are referred to as SALT projects.",
+   "ty": "fact",
+   "tq": "Match the project acronym with its sectoral and geographical context.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly reflects the criticism concerning the WTO and the Bretton Woods institutions?",
+   "o": [
+    "The criticism concerns only the UNFCCC and not the WTO.",
+    "The WTO Appellate Body has been fully restored and India has accepted IFD without reservation.",
+    "Bretton Woods institutions have abolished quota-based voting.",
+    "The WTO Appellate Body is paralysed, India is blocking IFD, and Bretton Woods voting imbalance remains a concern."
+   ],
+   "a": 3,
+   "x": "The stated criticisms concern WTO paralysis through the Appellate Body, India's blocking of IFD and continuing voting imbalance in the Bretton Woods institutions.",
+   "ty": "comparison",
+   "tq": "Select the option that preserves all parts of a multi-issue institutional criticism without reversing them.",
+   "sec": "Universal angles"
+  }
+ ]
+}

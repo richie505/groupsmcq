@@ -1,0 +1,625 @@
+{
+ "book": 2,
+ "row": 156,
+ "chunk": 0,
+ "section": "UN specialised agencies and programmes - WHO, ILO, UNESCO, FAO, UNICEF, UNDP, UNEP, UNHCR",
+ "subsections": [
+  "Agency → headquarters and founding year",
+  "Specialised agencies vs funds/programmes vs related organisations",
+  "Heads of UN bodies and India's elected roles",
+  "Agency programmes and centres → agency",
+  "ILO - tripartite structure, core conventions, India's ratification",
+  "Flagship reports → agency"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 43,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The headquarters of the World Health Organization is located at which of the following places?",
+   "o": [
+    "Paris",
+    "Rome",
+    "Geneva",
+    "Nairobi"
+   ],
+   "a": 2,
+   "x": "The headquarters of the WHO is situated in Geneva, Switzerland.",
+   "ty": "fact",
+   "tq": "Use the headquarters-location association rather than the founding year.",
+   "sec": "Agency → headquarters and founding year"
+  },
+  {
+   "s": "The Food and Agriculture Organization was established on which date?",
+   "o": [
+    "7 April 1948",
+    "24 October 1945",
+    "10 December 1948",
+    "16 October 1945"
+   ],
+   "a": 3,
+   "x": "FAO was founded on 16 October 1945 and is headquartered in Rome.",
+   "ty": "numerical",
+   "tq": "Separate the exact founding date from the year-based distractors.",
+   "sec": "Agency → headquarters and founding year"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "IFAD — Rome — 1977",
+    "WFP — Geneva — 1961",
+    "UPU — Paris — 1874",
+    "UNIDO — Nairobi — 1966"
+   ],
+   "a": 0,
+   "x": "IFAD is headquartered in Rome and was founded in 1977. WFP is headquartered in Rome, UPU in Bern and UNIDO in Vienna.",
+   "ty": "match",
+   "tq": "Start with the sure headquarters pair and verify the year.",
+   "sec": "Agency → headquarters and founding year"
+  },
+  {
+   "s": "The World Food Programme was founded in which year?",
+   "o": [
+    "1945",
+    "1948",
+    "1961",
+    "1977"
+   ],
+   "a": 2,
+   "x": "The World Food Programme was established in 1961 and is headquartered in Rome.",
+   "ty": "numerical",
+   "tq": "Distinguish WFP’s founding year from the nearby Rome-based agencies.",
+   "sec": "Agency → headquarters and founding year"
+  },
+  {
+   "s": "Consider the following pairs:\n1. International Telecommunication Union — Geneva — 1865\n2. World Intellectual Property Organization — Geneva — 1967\n3. Universal Postal Union — Bern — 1874\n4. International Maritime Organization — London — 1948\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. ITU was founded in 1865, WIPO’s convention dates to 1967, UPU was founded in 1874 and IMO’s convention dates to 1948.",
+   "ty": "statements",
+   "tq": "Check each headquarters-year pair independently before selecting the complete combination.",
+   "sec": "Agency → headquarters and founding year"
+  },
+  {
+   "s": "The Chicago Convention of 1944 is associated with the establishment of which organisation?",
+   "o": [
+    "International Civil Aviation Organization",
+    "International Telecommunication Union",
+    "International Maritime Organization",
+    "International Atomic Energy Agency"
+   ],
+   "a": 0,
+   "x": "ICAO is associated with the 1944 Chicago Convention and is headquartered in Montreal.",
+   "ty": "fact",
+   "tq": "Match the founding convention to the organisation’s specialised field.",
+   "sec": "Agency → headquarters and founding year"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "UNEP — Nairobi — 1972",
+    "UNIDO — Vienna — 1966",
+    "IAEA — Vienna — 1957",
+    "UNICEF — Geneva — 1946"
+   ],
+   "a": 3,
+   "x": "UNICEF was founded in 1946 but its headquarters is in New York, not Geneva.",
+   "ty": "negative",
+   "tq": "Find the wrong location while keeping the founding year in view.",
+   "sec": "Agency → headquarters and founding year"
+  },
+  {
+   "s": "With reference to the membership of UNESCO and ITU, consider the following statements:\n1. UNESCO has 194 members and 12 associate members.\n2. ITU has 194 member states and more than 1,000 companies and universities.\n3. UNESCO and ITU have identical membership structures.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "UNESCO has 194 members and 12 associate members, while ITU has 194 member states plus more than 1,000 companies and universities. Their membership structures are therefore not identical.",
+   "ty": "statements",
+   "tq": "Compare the numerical composition before testing the conclusion.",
+   "sec": "Agency → headquarters and founding year"
+  },
+  {
+   "s": "Which of the following is a specialised agency of the United Nations?",
+   "o": [
+    "WFP",
+    "UNICEF",
+    "UNDP",
+    "International Fund for Agricultural Development"
+   ],
+   "a": 3,
+   "x": "IFAD is a UN specialised agency as well as an international financial institution serving rural poor populations.",
+   "ty": "fact",
+   "tq": "Distinguish specialised agencies from funds and programmes.",
+   "sec": "Specialised agencies vs funds/programmes vs related organisations"
+  },
+  {
+   "s": "Consider the following statements about UN specialised agencies:\n1. They are autonomous organisations with their own treaties and budgets.\n2. They are linked to the Economic and Social Council.\n3. They are created exclusively through voluntary funding by the General Assembly.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Specialised agencies are autonomous, have their own treaties and budgets, and are linked to ECOSOC. The description of creation through voluntary General Assembly funding applies to funds and programmes, not specialised agencies.",
+   "ty": "statements",
+   "tq": "Reject the category-swapping statement about voluntary funding.",
+   "sec": "Specialised agencies vs funds/programmes vs related organisations"
+  },
+  {
+   "s": "Which one of the following groups consists entirely of UN funds and programmes?",
+   "o": [
+    "FAO, IFAD and WIPO",
+    "WHO, ILO and UNESCO",
+    "UNICEF, UNDP and UNEP",
+    "IAEA, WTO and OPCW"
+   ],
+   "a": 2,
+   "x": "UNICEF, UNDP and UNEP are funds or programmes created by the General Assembly and supported through voluntary funding.",
+   "ty": "fact",
+   "tq": "Classify the complete group rather than relying on one familiar body.",
+   "sec": "Specialised agencies vs funds/programmes vs related organisations"
+  },
+  {
+   "s": "UNHCR is best classified as which of the following?",
+   "o": [
+    "An Office of the General Assembly concerned with refugee protection",
+    "A UN financial institution for rural development",
+    "A related organisation reporting only to the Security Council",
+    "A specialised agency linked to ECOSOC"
+   ],
+   "a": 0,
+   "x": "UNHCR is an Office of the General Assembly, established in 1950 and headquartered in Geneva, with a mandate for refugee protection.",
+   "ty": "fact",
+   "tq": "Identify the institutional category and mandate together.",
+   "sec": "Specialised agencies vs funds/programmes vs related organisations"
+  },
+  {
+   "s": "Which of the following organisations are classified as related organisations rather than specialised agencies?",
+   "o": [
+    "ILO, IFAD and WIPO",
+    "IAEA, WTO and OPCW",
+    "UNICEF, UNDP and WFP",
+    "WHO, FAO and UNESCO"
+   ],
+   "a": 1,
+   "x": "IAEA, WTO and OPCW are related organisations and are not classified as UN specialised agencies.",
+   "ty": "fact",
+   "tq": "Use elimination by institutional category.",
+   "sec": "Specialised agencies vs funds/programmes vs related organisations"
+  },
+  {
+   "s": "Which one of the following statements regarding the mandates of UN bodies is correct?",
+   "o": [
+    "UNHCR is primarily concerned with children’s rights.",
+    "UNEP deals with climate, biodiversity and pollution.",
+    "UNICEF is primarily concerned with refugee protection.",
+    "UNDP is the world’s largest humanitarian agency against hunger."
+   ],
+   "a": 1,
+   "x": "UNEP’s mandate covers climate, biodiversity and pollution. UNICEF concerns children’s rights, UNHCR refugee protection and WFP humanitarian assistance against hunger.",
+   "ty": "fact",
+   "tq": "Separate the mandates of closely associated UN bodies.",
+   "sec": "Specialised agencies vs funds/programmes vs related organisations"
+  },
+  {
+   "s": "Which one of the following statements about the World Food Programme is correct?",
+   "o": [
+    "It deals exclusively with industrial development.",
+    "It is the world’s largest humanitarian agency against hunger and is funded entirely by voluntary contributions.",
+    "It is a specialised agency with its own treaty and compulsory budget.",
+    "It is funded entirely through assessed contributions."
+   ],
+   "a": 1,
+   "x": "WFP is the world’s largest humanitarian agency addressing hunger, and it is funded entirely through voluntary contributions.",
+   "ty": "fact",
+   "tq": "Test both the mandate and funding character in one precise option.",
+   "sec": "Specialised agencies vs funds/programmes vs related organisations"
+  },
+  {
+   "s": "The Global Multidimensional Poverty Index is co-built by UNDP in partnership with which organisation?",
+   "o": [
+    "UNEP",
+    "OPHI",
+    "UNHCR",
+    "WFP"
+   ],
+   "a": 1,
+   "x": "UNDP co-builds the Global Multidimensional Poverty Index with the Oxford Poverty and Human Development Initiative, or OPHI, since 2010.",
+   "ty": "fact",
+   "tq": "Match the report or index with its institutional partner.",
+   "sec": "Specialised agencies vs funds/programmes vs related organisations"
+  },
+  {
+   "s": "The Global Environment Facility, established in 1992, is run in partnership by which of the following?",
+   "o": [
+    "UNDP, UNEP and World Bank",
+    "ILO, FAO and IFAD",
+    "UNICEF, UNHCR and UNESCO",
+    "WHO, WFP and UNFPA"
+   ],
+   "a": 0,
+   "x": "The GEF is a financial mechanism operated in partnership by UNDP, UNEP and the World Bank.",
+   "ty": "fact",
+   "tq": "Use the three-body partnership as the identifying feature.",
+   "sec": "Specialised agencies vs funds/programmes vs related organisations"
+  },
+  {
+   "s": "Who is the Director-General of the International Labour Organization listed for May 2026?",
+   "o": [
+    "António Guterres",
+    "Apurva Chandra",
+    "Harsh Vardhan",
+    "Gilbert F. Houngbo"
+   ],
+   "a": 3,
+   "x": "Gilbert F. Houngbo of Togo is listed as the ILO Director-General for May 2026.",
+   "ty": "fact",
+   "tq": "Distinguish a body’s chief executive from the chair of its governing body.",
+   "sec": "Heads of UN bodies and India's elected roles"
+  },
+  {
+   "s": "India chaired the United Nations Commission on Narcotic Drugs in which session and month?",
+   "o": [
+    "The 68th session in January 2024",
+    "The 68th session in May 2026",
+    "The 68th session in March 2025",
+    "The 58th session in March 2025"
+   ],
+   "a": 2,
+   "x": "India chaired the Commission on Narcotic Drugs during its 68th session in March 2025.",
+   "ty": "numerical",
+   "tq": "Retain both the session number and the month-year combination.",
+   "sec": "Heads of UN bodies and India's elected roles"
+  },
+  {
+   "s": "Who served as Chair of the WHO Executive Board from India during 2020–21?",
+   "o": [
+    "Apurva Chandra",
+    "N. K. Singh",
+    "Gilbert F. Houngbo",
+    "Dr Harsh Vardhan"
+   ],
+   "a": 3,
+   "x": "Dr Harsh Vardhan of India served as Chair of the WHO Executive Board during 2020–21.",
+   "ty": "fact",
+   "tq": "Separate the WHO Executive Board chair from the ILO Governing Body chair.",
+   "sec": "Heads of UN bodies and India's elected roles"
+  },
+  {
+   "s": "Apurva Chandra of India was associated with which position during 2020–21?",
+   "o": [
+    "Chair of the ILO Governing Body",
+    "Chair of the WHO Executive Board",
+    "Director-General of UNESCO",
+    "Chair of the ICAO Council"
+   ],
+   "a": 0,
+   "x": "Apurva Chandra served as Chair of the ILO Governing Body during 2020–21.",
+   "ty": "fact",
+   "tq": "Apply the who-would-do-this-job method to distinguish institutional roles.",
+   "sec": "Heads of UN bodies and India's elected roles"
+  },
+  {
+   "s": "India was re-elected to the ICAO Council for which period?",
+   "o": [
+    "2026–29",
+    "2020–21",
+    "2022–25",
+    "2025–28"
+   ],
+   "a": 3,
+   "x": "India was re-elected to the ICAO Council for the period 2025–2028.",
+   "ty": "numerical",
+   "tq": "Distinguish the elected-role period from other UN body tenures.",
+   "sec": "Heads of UN bodies and India's elected roles"
+  },
+  {
+   "s": "The Information for All Programme is associated with which organisation?",
+   "o": [
+    "UNDP",
+    "ILO",
+    "UNESCO",
+    "UNEP"
+   ],
+   "a": 2,
+   "x": "The Information for All Programme, or IFAP, is a UNESCO programme.",
+   "ty": "fact",
+   "tq": "Match the programme title to the responsible agency.",
+   "sec": "Agency programmes and centres → agency"
+  },
+  {
+   "s": "The WHO Global Centre for Traditional Medicine is located at which place?",
+   "o": [
+    "New Delhi, Delhi",
+    "Bengaluru, Karnataka",
+    "Varanasi, Uttar Pradesh",
+    "Jamnagar, Gujarat"
+   ],
+   "a": 3,
+   "x": "The WHO Global Centre for Traditional Medicine is located at Jamnagar, Gujarat. Its foundation stone was laid in April 2022.",
+   "ty": "fact",
+   "tq": "Use the exact city-state location rather than the country alone.",
+   "sec": "Agency programmes and centres → agency"
+  },
+  {
+   "s": "Which of the following statements about UNESCO is correct?\n1. It runs the Man and the Biosphere Programme.\n2. It leads SDG-4 concerning Education 2030.\n3. It is the agency responsible for the Global Multidimensional Poverty Index.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "UNESCO runs the Man and the Biosphere Programme and leads SDG-4 on Education 2030. The Global MPI is co-built by UNDP and OPHI.",
+   "ty": "statements",
+   "tq": "Reject the agency swap in the third statement.",
+   "sec": "Agency programmes and centres → agency"
+  },
+  {
+   "s": "The International Labour Organization is described as the leading normative agency in which field?",
+   "o": [
+    "Labour standards",
+    "Marine navigation",
+    "International monetary policy",
+    "Refugee protection"
+   ],
+   "a": 0,
+   "x": "The ILO describes itself as the leading normative agency on labour standards.",
+   "ty": "fact",
+   "tq": "Match the agency’s institutional description with its field.",
+   "sec": "ILO - tripartite structure, core conventions, India's ratification"
+  },
+  {
+   "s": "The tripartite structure of the ILO includes which of the following groups?",
+   "o": [
+    "Governments, employers and workers",
+    "Workers, universities and courts",
+    "Employers, judges and refugees",
+    "Governments, banks and consumers"
+   ],
+   "a": 0,
+   "x": "Governments, employers and workers participate in the International Labour Conference and the Governing Body, reflecting the ILO’s tripartite structure.",
+   "ty": "fact",
+   "tq": "Identify the complete three-part institutional composition.",
+   "sec": "ILO - tripartite structure, core conventions, India's ratification"
+  },
+  {
+   "s": "Which pair of ILO Fundamental Conventions has India NOT ratified?",
+   "o": [
+    "C87 and C98",
+    "C100 and C111",
+    "C29 and C105",
+    "C138 and C182"
+   ],
+   "a": 0,
+   "x": "India has not ratified Convention C87 on Freedom of Association and Convention C98 on the Right to Organise and Collective Bargaining. The other listed pairs have been ratified.",
+   "ty": "negative",
+   "tq": "Find the exception among otherwise ratified convention pairs.",
+   "sec": "ILO - tripartite structure, core conventions, India's ratification"
+  },
+  {
+   "s": "India ratified the ILO Conventions on Minimum Age and Worst Forms of Child Labour in which year?",
+   "o": [
+    "2011",
+    "2015",
+    "2017",
+    "2020"
+   ],
+   "a": 2,
+   "x": "India ratified Convention C138 on Minimum Age and Convention C182 on the Worst Forms of Child Labour in 2017.",
+   "ty": "numerical",
+   "tq": "Link the two convention subjects to their common ratification year.",
+   "sec": "ILO - tripartite structure, core conventions, India's ratification"
+  },
+  {
+   "s": "Consider the following statements regarding India and ILO conventions:\n1. India has ratified C29 and C105.\n2. India has ratified C100 and C111.\n3. India has ratified C189 on Domestic Workers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "India has ratified C29, C105, C100 and C111. It has not ratified the Domestic Workers Convention C189, adopted by the ILC in 2011.",
+   "ty": "statements",
+   "tq": "Use the convention number and ratification status together to identify the false statement.",
+   "sec": "ILO - tripartite structure, core conventions, India's ratification"
+  },
+  {
+   "s": "Which one of the following statements about ILO Convention C189 is correct?",
+   "o": [
+    "It concerns collective bargaining and India ratified it in 2011.",
+    "It concerns forced labour and India ratified it in 2017.",
+    "It concerns minimum age and India has not ratified it.",
+    "It concerns domestic workers and India has not ratified it."
+   ],
+   "a": 3,
+   "x": "The Domestic Workers Convention, C189, was adopted by the ILC in 2011, but India has not ratified it.",
+   "ty": "confusable",
+   "tq": "Discriminate between the convention number, subject and ratification status.",
+   "sec": "ILO - tripartite structure, core conventions, India's ratification"
+  },
+  {
+   "s": "According to the ILO–UNICEF joint estimate, the number of child labourers globally is approximately:",
+   "o": [
+    "16 million",
+    "60 million",
+    "160 million",
+    "610 million"
+   ],
+   "a": 2,
+   "x": "The ILO–UNICEF joint estimate places the number of child labourers globally at 160 million.",
+   "ty": "numerical",
+   "tq": "Place the figure correctly by checking the order of magnitude.",
+   "sec": "ILO - tripartite structure, core conventions, India's ratification"
+  },
+  {
+   "s": "Which report is published by UNFPA?",
+   "o": [
+    "World Employment and Social Outlook",
+    "Human Development Report",
+    "Emissions Gap Report",
+    "State of World Population"
+   ],
+   "a": 3,
+   "x": "The State of World Population is a flagship report of UNFPA.",
+   "ty": "fact",
+   "tq": "Match the report title with the agency’s mandate.",
+   "sec": "Flagship reports → agency"
+  },
+  {
+   "s": "Which one of the following is NOT a UNESCO report?",
+   "o": [
+    "World Water Development Report",
+    "UNESCO Science Report",
+    "Global Education Monitoring Report",
+    "Emissions Gap Report"
+   ],
+   "a": 3,
+   "x": "The Emissions Gap Report is published by UNEP. The other three reports are associated with UNESCO.",
+   "ty": "negative",
+   "tq": "Find the report belonging to the neighbouring environmental agency.",
+   "sec": "Flagship reports → agency"
+  },
+  {
+   "s": "The State of Food Security and Nutrition in the World (SOFI) is jointly associated with which group?",
+   "o": [
+    "FAO, IFAD, UNICEF, WFP and WHO",
+    "UNDP, UNEP, UNESCO, ILO and UNHCR",
+    "FAO, UNFPA, WIPO, WTO and IAEA",
+    "WHO, UNESCO, ICAO, IMO and ITU"
+   ],
+   "a": 0,
+   "x": "SOFI is jointly published by FAO, IFAD, UNICEF, WFP and WHO.",
+   "ty": "match",
+   "tq": "Recognise the complete multi-agency reporting partnership.",
+   "sec": "Flagship reports → agency"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Human Development Report — UNDP",
+    "State of World Population — ILO",
+    "Emissions Gap Report — UNFPA",
+    "World Employment and Social Outlook — UNESCO"
+   ],
+   "a": 0,
+   "x": "The Human Development Report is a flagship UNDP publication. The other reports are associated respectively with UNFPA, UNEP and ILO.",
+   "ty": "match",
+   "tq": "Use the report’s subject area to identify its agency.",
+   "sec": "Flagship reports → agency"
+  },
+  {
+   "s": "The SOFI 2026 report had which of the following as its theme?",
+   "o": [
+    "Employment in the age of automation",
+    "The future of marine biodiversity",
+    "Universal access to digital education",
+    "The high cost of a healthy diet"
+   ],
+   "a": 3,
+   "x": "The theme of SOFI 2026 was the high cost of a healthy diet.",
+   "ty": "fact",
+   "tq": "Separate the report theme from the numerical findings reported in it.",
+   "sec": "Flagship reports → agency"
+  },
+  {
+   "s": "Consider the following statements regarding SOFI 2026:\n1. Hunger fell for the third consecutive year to 7.8%, representing 645 million people.\n2. Africa overtook Asia in absolute numbers, with 309 million people affected.\n3. The cost of a healthy diet was reported as 4.28 PPP dollars per day.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly state the SOFI 2026 findings: 7.8% or 645 million people, 309 million in Africa, and a healthy-diet cost of 4.28 PPP dollars per day.",
+   "ty": "statements",
+   "tq": "Check the percentage, absolute figure and unit before selecting all three.",
+   "sec": "Flagship reports → agency"
+  },
+  {
+   "s": "According to ILO Employment and Social Trends 2026, the global unemployment rate was reported as:",
+   "o": [
+    "4.9%",
+    "5.9%",
+    "6.9%",
+    "7.8%"
+   ],
+   "a": 0,
+   "x": "ILO Employment and Social Trends 2026 reported global unemployment at 4.9%, corresponding to 186 million people.",
+   "ty": "numerical",
+   "tq": "Distinguish the precise rate from nearby percentage distractors.",
+   "sec": "Flagship reports → agency"
+  },
+  {
+   "s": "The ILO Employment and Social Trends 2026 report estimated that how many workers were below 3 dollars per day?",
+   "o": [
+    "28.4 million",
+    "184 million",
+    "284 million",
+    "384 million"
+   ],
+   "a": 2,
+   "x": "The report estimated that 284 million workers were earning below 3 dollars per day.",
+   "ty": "numerical",
+   "tq": "Read the figure and unit together, avoiding digit transposition.",
+   "sec": "Flagship reports → agency"
+  },
+  {
+   "s": "According to the Emissions Gap Report 2025, current policies were associated with approximately what level of warming?",
+   "o": [
+    "1.5°C",
+    "2.0°C",
+    "2.8°C",
+    "3.8°C"
+   ],
+   "a": 2,
+   "x": "The Emissions Gap Report 2025 estimated approximately 2.8°C of warming under current policies.",
+   "ty": "numerical",
+   "tq": "Keep the current-policy projection separate from the NDC projection.",
+   "sec": "Flagship reports → agency"
+  },
+  {
+   "s": "Which of the following correctly states the Emissions Gap Report 2025 projections?",
+   "o": [
+    "Current policies imply 1.5°C warming and full NDCs imply 3.0°C warming.",
+    "Full NDCs imply 2.3–2.5°C warming, while current policies imply about 2.8°C.",
+    "Full NDCs imply about 2.8°C warming, while current policies imply 1.5–2.0°C.",
+    "Both current policies and full NDCs imply exactly 2.5°C warming."
+   ],
+   "a": 1,
+   "x": "The report projects approximately 2.8°C under current policies and 2.3–2.5°C if full NDCs are implemented.",
+   "ty": "comparison",
+   "tq": "Compare the two policy scenarios without reversing their order.",
+   "sec": "Flagship reports → agency"
+  },
+  {
+   "s": "By 2035, the Emissions Gap Report 2025 indicated that emissions cuts relative to 2019 levels should be approximately what percentages for 2°C and 1.5°C pathways, respectively?",
+   "o": [
+    "35% and 55%",
+    "25% and 35%",
+    "45% and 65%",
+    "55% and 75%"
+   ],
+   "a": 0,
+   "x": "The report indicated the need for cuts of 35% for a 2°C pathway and 55% for a 1.5°C pathway by 2035, relative to 2019.",
+   "ty": "numerical",
+   "tq": "Preserve the correct order of the two temperature pathways and percentages.",
+   "sec": "Flagship reports → agency"
+  }
+ ]
+}

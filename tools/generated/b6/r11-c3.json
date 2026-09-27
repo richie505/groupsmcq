@@ -1,0 +1,483 @@
+{
+ "book": 6,
+ "row": 11,
+ "chunk": 3,
+ "section": "Science and technology in news - space missions, defence tests, health and biotech developments",
+ "subsections": [
+  "Deep ocean missions and tech FIRSTs → mission/product + location or maker (Samudrayaan, observatories, humanoid robots)",
+  "Genome and genetic-medicine projects",
+  "New technology missions → ministry + outlay",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Samudrayaan mission is intended to take human beings to which depth using the Matsya-6000 submersible?",
+   "o": [
+    "2,000 metres",
+    "6,000 metres",
+    "4,000 metres",
+    "8,000 metres"
+   ],
+   "a": 1,
+   "x": "Samudrayaan, under the Deep Ocean Mission, aims to carry humans to a depth of 6,000 metres in the Matsya-6000 submersible.",
+   "ty": "numerical",
+   "tq": "Use the exact mission-depth association rather than confusing it with other deep-sea limits.",
+   "sec": "Deep ocean missions and tech FIRSTs → mission/product + location or maker (Samudrayaan, observatories, humanoid robots)"
+  },
+  {
+   "s": "Consider the following statements regarding the diving support vessel Nipun:\n1. It is the second diving support vessel.\n2. It was built by Hindustan Shipyard Limited.\n3. It was built at Visakhapatnam.\n4. It serves as the mother ship for a deep-submergence rescue vehicle.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Nipun is the second diving support vessel, built by Hindustan Shipyard at Visakhapatnam, and serves as the mother ship for a deep-submergence rescue vehicle.",
+   "ty": "statements",
+   "tq": "Combine the vessel’s number, builder, location and function before selecting the coded option.",
+   "sec": "Deep ocean missions and tech FIRSTs → mission/product + location or maker (Samudrayaan, observatories, humanoid robots)"
+  },
+  {
+   "s": "Nipun, mentioned in connection with deep-submergence rescue operations, was built by which organisation?",
+   "o": [
+    "Mazagon Dock Shipbuilders",
+    "Hindustan Shipyard Limited",
+    "Cochin Shipyard Limited",
+    "Garden Reach Shipbuilders and Engineers"
+   ],
+   "a": 1,
+   "x": "Nipun was built by Hindustan Shipyard Limited at Visakhapatnam.",
+   "ty": "fact",
+   "tq": "Identify the maker-location pair instead of selecting a neighbouring public-sector shipyard.",
+   "sec": "Deep ocean missions and tech FIRSTs → mission/product + location or maker (Samudrayaan, observatories, humanoid robots)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Vyommitra — Industrial humanoid robot",
+    "ASC ARJUN — Semi-humanoid for uncrewed space flights",
+    "Vyommitra — Semi-humanoid associated with uncrewed G1/G2 flights",
+    "ASC ARJUN — Deep-submergence rescue vehicle"
+   ],
+   "a": 2,
+   "x": "Vyommitra is a semi-humanoid intended to fly on the uncrewed G1 and G2 missions. ASC ARJUN is an industrial humanoid robot.",
+   "ty": "match",
+   "tq": "Discriminate between the two similar humanoid-robot names by their purpose.",
+   "sec": "Deep ocean missions and tech FIRSTs → mission/product + location or maker (Samudrayaan, observatories, humanoid robots)"
+  },
+  {
+   "s": "With reference to the first indigenous hydrogen train, consider the following statements:\n1. It is associated with the Jind–Sonipat route in Haryana.\n2. Its design is attributed to RDSO.\n3. It was built by Integral Coach Factory, Chennai.\n4. It consists of ten coaches.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The first indigenous hydrogen train is associated with Jind–Sonipat in Haryana, designed by RDSO, built by ICF Chennai and composed of ten coaches.",
+   "ty": "statements",
+   "tq": "Check the route, designer, builder and coach count as separate factual statements.",
+   "sec": "Deep ocean missions and tech FIRSTs → mission/product + location or maker (Samudrayaan, observatories, humanoid robots)"
+  },
+  {
+   "s": "The first indigenous hydrogen train has been described as the world’s longest and most powerful. It is associated with which place pair?",
+   "o": [
+    "Amaravati–Visakhapatnam",
+    "Jind–Sonipat",
+    "Puttaparthi–Gadanki",
+    "Chennai–Bengaluru"
+   ],
+   "a": 1,
+   "x": "The first indigenous hydrogen train is associated with the Jind–Sonipat route in Haryana.",
+   "ty": "fact",
+   "tq": "Use the location clue to identify the transport technology.",
+   "sec": "Deep ocean missions and tech FIRSTs → mission/product + location or maker (Samudrayaan, observatories, humanoid robots)"
+  },
+  {
+   "s": "GenomeIndia, associated with the Department of Biotechnology, initially involves sequencing how many genomes from how many population groups?",
+   "o": [
+    "5,000 genomes from 50 population groups",
+    "1 lakh genomes from 83 population groups",
+    "10,000 genomes from 83 population groups",
+    "25,000 genomes from 100 population groups"
+   ],
+   "a": 2,
+   "x": "GenomeIndia involves 10,000 genomes representing 83 population groups. Its longer-term plan is to expand the database to one lakh genomes.",
+   "ty": "numerical",
+   "tq": "Separate the present project scale from its proposed future expansion.",
+   "sec": "Genome and genetic-medicine projects"
+  },
+  {
+   "s": "The GenomeIndia project identified more than how many genetic variants unique to Indians?",
+   "o": [
+    "4 million",
+    "10 million",
+    "40 million",
+    "100 million"
+   ],
+   "a": 2,
+   "x": "GenomeIndia identified more than 40 million variants unique to Indians.",
+   "ty": "numerical",
+   "tq": "Recall the exact magnitude rather than confusing millions with the project’s genome count.",
+   "sec": "Genome and genetic-medicine projects"
+  },
+  {
+   "s": "What is the planned expansion of the GenomeIndia project?",
+   "o": [
+    "To 10,000 genomes",
+    "To 83,000 genomes",
+    "To 40,000 genomes",
+    "To 1 lakh genomes"
+   ],
+   "a": 3,
+   "x": "The plan is to expand GenomeIndia to one lakh genomes.",
+   "ty": "numerical",
+   "tq": "Distinguish the planned target from the initial 10,000-genome phase.",
+   "sec": "Genome and genetic-medicine projects"
+  },
+  {
+   "s": "Monoclonal antibodies are best described as substances that:",
+   "o": [
+    "function only as industrial enzymes",
+    "target specific molecules and are used in cancer and autoimmune treatment",
+    "replace all vaccines used against viral diseases",
+    "increase genetic variation across all population groups"
+   ],
+   "a": 1,
+   "x": "Monoclonal antibodies are designed to target specific molecules and are used in treating cancer and autoimmune diseases.",
+   "ty": "application",
+   "tq": "Apply the function-and-use description to a medical-treatment situation.",
+   "sec": "Genome and genetic-medicine projects"
+  },
+  {
+   "s": "Which of the following is correctly matched?",
+   "o": [
+    "Biopharma SHAKTI — Biologics and biosimilars",
+    "BioE3 policy — Deep-submergence rescue vehicles",
+    "GenomeIndia — Semiconductor fabrication",
+    "Monoclonal antibodies — Hydrogen-train propulsion"
+   ],
+   "a": 0,
+   "x": "Biopharma SHAKTI focuses on biologics and biosimilars. BioE3 is associated with biomanufacturing, while the other two pairs concern unrelated technologies.",
+   "ty": "match",
+   "tq": "Match each initiative with its substantive area before eliminating cross-sector distractors.",
+   "sec": "Genome and genetic-medicine projects"
+  },
+  {
+   "s": "The outlay proposed for Biopharma SHAKTI in the Union Budget 2026–27 is:",
+   "o": [
+    "₹1,000 crore",
+    "₹6,003.65 crore",
+    "₹10,000 crore",
+    "₹19,744 crore"
+   ],
+   "a": 2,
+   "x": "Biopharma SHAKTI has an outlay of ₹10,000 crore for biologics and biosimilars.",
+   "ty": "numerical",
+   "tq": "Compare the scheme-specific outlay with the larger technology-mission allocations.",
+   "sec": "Genome and genetic-medicine projects"
+  },
+  {
+   "s": "The BioE3 policy, introduced in 2024, is primarily associated with:",
+   "o": [
+    "deep-ocean rescue",
+    "semiconductor fabrication",
+    "biomanufacturing",
+    "space docking"
+   ],
+   "a": 2,
+   "x": "The BioE3 policy of 2024 is intended to promote biomanufacturing.",
+   "ty": "fact",
+   "tq": "Identify the policy through its sectoral objective.",
+   "sec": "Genome and genetic-medicine projects"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Mission)\n a. National Quantum Mission\n b. IndiaAI Mission\n c. National Green Hydrogen Mission\n d. RDI Scheme\n\nList-II (Ministry or institutional association)\n i. DST\n ii. MeitY\n iii. MNRE\n iv. DST through ANRF\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a–i, b–ii, c–iii, d–iv",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–i, d–ii"
+   ],
+   "a": 0,
+   "x": "The National Quantum Mission is associated with DST, IndiaAI with MeitY, the National Green Hydrogen Mission with MNRE, and the RDI Scheme with DST through ANRF.",
+   "ty": "match",
+   "tq": "Start from the sure ministry pair and verify the remaining mission associations.",
+   "sec": "New technology missions → ministry + outlay"
+  },
+  {
+   "s": "The National Quantum Mission covers which period and has what outlay?",
+   "o": [
+    "2024–30 and ₹10,372 crore",
+    "2023–31 and ₹6,003.65 crore",
+    "2023–27 and ₹19,744 crore",
+    "2026–31 and ₹1 lakh crore"
+   ],
+   "a": 1,
+   "x": "The National Quantum Mission covers 2023–31 and has an outlay of ₹6,003.65 crore.",
+   "ty": "numerical",
+   "tq": "Link the mission period with its exact financial allocation.",
+   "sec": "New technology missions → ministry + outlay"
+  },
+  {
+   "s": "Which ministry is associated with the IndiaAI Mission?",
+   "o": [
+    "Department of Biotechnology",
+    "Department of Space",
+    "Ministry of Electronics and Information Technology",
+    "Ministry of New and Renewable Energy"
+   ],
+   "a": 2,
+   "x": "The IndiaAI Mission is associated with the Ministry of Electronics and Information Technology (MeitY).",
+   "ty": "fact",
+   "tq": "Use the responsible-ministry test to avoid swapping neighbouring technology departments.",
+   "sec": "New technology missions → ministry + outlay"
+  },
+  {
+   "s": "Consider the following statements about the IndiaAI Mission:\n1. Its outlay is about ₹10,372 crore.\n2. It includes provision for more than 38,000 GPUs.\n3. It is implemented by the Ministry of Electronics and Information Technology.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The IndiaAI Mission has an outlay of about ₹10,372 crore, includes more than 38,000 GPUs, and is associated with MeitY.",
+   "ty": "statements",
+   "tq": "Combine the financial, computational-resource and ministry details in a coded statement question.",
+   "sec": "New technology missions → ministry + outlay"
+  },
+  {
+   "s": "Under Semicon 2.0, support of up to what proportion of capital expenditure is available for CMOS fabrication plants?",
+   "o": [
+    "20 percent",
+    "30 percent",
+    "40 percent",
+    "60 percent"
+   ],
+   "a": 2,
+   "x": "Semicon 2.0 provides support of up to 40 percent of capital expenditure for CMOS fabrication plants.",
+   "ty": "numerical",
+   "tq": "Recall the exact percentage attached to the capex-support provision.",
+   "sec": "New technology missions → ministry + outlay"
+  },
+  {
+   "s": "The first commercial fabrication plant under Semicon 2.0 is targeted for which year?",
+   "o": [
+    "2026",
+    "2027",
+    "2028",
+    "2030"
+   ],
+   "a": 2,
+   "x": "The first commercial semiconductor fabrication plant under Semicon 2.0 is targeted for 2028.",
+   "ty": "numerical",
+   "tq": "Identify the target year rather than the scheme’s approval year.",
+   "sec": "New technology missions → ministry + outlay"
+  },
+  {
+   "s": "The National Green Hydrogen Mission has an outlay of:",
+   "o": [
+    "₹6,003.65 crore",
+    "₹10,000 crore",
+    "₹19,744 crore",
+    "₹1,27,500 crore"
+   ],
+   "a": 2,
+   "x": "The National Green Hydrogen Mission has an outlay of ₹19,744 crore and is associated with MNRE.",
+   "ty": "numerical",
+   "tq": "Compare similarly presented mission outlays and retain the ministry-outlay pair.",
+   "sec": "New technology missions → ministry + outlay"
+  },
+  {
+   "s": "The RDI Scheme, associated with DST through ANRF, has an outlay of:",
+   "o": [
+    "₹19,744 crore",
+    "₹1,27,500 crore",
+    "₹1 lakh crore",
+    "₹38,000 crore"
+   ],
+   "a": 2,
+   "x": "The RDI Scheme has an outlay of ₹1 lakh crore and is associated with DST through ANRF.",
+   "ty": "numerical",
+   "tq": "Distinguish the lakh-crore allocation from the crore-denominated mission outlays.",
+   "sec": "New technology missions → ministry + outlay"
+  },
+  {
+   "s": "How many semiconductor units had been approved under ISM 1.0 by 2024?",
+   "o": [
+    "2",
+    "4",
+    "6",
+    "8"
+   ],
+   "a": 1,
+   "x": "ISM 1.0 had approved four semiconductor units by 2024.",
+   "ty": "numerical",
+   "tq": "Use the exact approved-unit count rather than inferring it from the later ISM 2.0 outlay.",
+   "sec": "New technology missions → ministry + outlay"
+  },
+  {
+   "s": "Which one of the following statements about recent space developments is NOT correct?",
+   "o": [
+    "EOS-05 has been described as India’s first GEO imager.",
+    "Vikram-1 is described as the first private orbital rocket.",
+    "India already has a Space Activities Act.",
+    "Gaganyaan G1 is an imminent uncrewed flight."
+   ],
+   "a": 2,
+   "x": "There is still no Space Activities Act. EOS-05 is described as India’s first GEO imager, Gaganyaan G1 as an imminent uncrewed flight, and Vikram-1 as the first private orbital rocket.",
+   "ty": "negative",
+   "tq": "Find the single false institutional-status statement among current space developments.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The first GEO imager associated with India is:",
+   "o": [
+    "EOS-05",
+    "Matsya-6000",
+    "Vikram-1",
+    "Vyommitra"
+   ],
+   "a": 0,
+   "x": "EOS-05 has been described as India’s first GEO imager.",
+   "ty": "fact",
+   "tq": "Match the mission/product name with its distinctive first.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Vikram-1 — First private orbital rocket",
+    "EOS-05 — First indigenous hydrogen train",
+    "Gaganyaan G1 — Commercial semiconductor fab",
+    "SpaDeX — National Green Hydrogen Mission"
+   ],
+   "a": 0,
+   "x": "Vikram-1 is described as the first private orbital rocket. The other pairs combine unrelated missions and technologies.",
+   "ty": "match",
+   "tq": "Use the product-purpose association to separate space, transport and energy developments.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "About how many ISRO staff members were reported to have quit, prompting a Department of Space memorandum dated 14 July 2026?",
+   "o": [
+    "About 50",
+    "About 100",
+    "About 250",
+    "About 25"
+   ],
+   "a": 1,
+   "x": "About 100 ISRO staff members were reported to have quit, and the Department of Space memorandum of 14 July 2026 sought to stop the exodus.",
+   "ty": "numerical",
+   "tq": "Connect the approximate number with the institutional response and date.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which statement best reflects the criticism concerning ISRO and the 2023 Space Policy?",
+   "o": [
+    "ISRO staff unions demanded that all satellite launches be transferred to the Navy.",
+    "The Department of Space abolished the 2023 Space Policy after one successful PSLV launch.",
+    "The criticism concerned only the construction of hydrogen trains.",
+    "ISRO staff unions raised questions about outsourcing after two consecutive PSLV failures."
+   ],
+   "a": 3,
+   "x": "The criticism followed two PSLV failures in a row, with ISRO staff unions questioning outsourcing under the 2023 Space Policy.",
+   "ty": "application",
+   "tq": "Link the institutional criticism to its stated trigger and policy context.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Gadanki — NIELIT Quantum and AI campus",
+    "Amaravati — Quantum Valley",
+    "Puttaparthi — AMCA test centre",
+    "Sriharikota — SDSC-SHAR launch base"
+   ],
+   "a": 0,
+   "x": "NARL is located at Gadanki in Chittoor, whereas the NIELIT Quantum and AI campus is at Amaravati. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Locate each Andhra Pradesh technology institution and identify the swapped location.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "NARL, mentioned in connection with Andhra Pradesh’s science and technology infrastructure, is located at:",
+   "o": [
+    "Gadanki in Chittoor",
+    "Amaravati",
+    "Sriharikota",
+    "Puttaparthi"
+   ],
+   "a": 0,
+   "x": "NARL is located at Gadanki in Chittoor district.",
+   "ty": "fact",
+   "tq": "Test the exact location of the research laboratory against other AP technology centres.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The NIELIT Quantum and AI campus associated with Andhra Pradesh is located at:",
+   "o": [
+    "Gadanki",
+    "Puttaparthi",
+    "Amaravati",
+    "Sriharikota"
+   ],
+   "a": 2,
+   "x": "The NIELIT Quantum and AI campus is located at Amaravati.",
+   "ty": "fact",
+   "tq": "Use the place-specific association rather than confusing it with Amaravati Quantum Valley or NARL.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. India becomes the fourth nation to dock in space through SpaDeX\nB. National Quantum Mission is launched\nC. IndiaAI Mission is introduced\nD. Semicon 2.0 is approved\n\nSelect the correct sequence.",
+   "o": [
+    "B, C, A, D",
+    "C, B, A, D",
+    "B, A, C, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The National Quantum Mission dates to 2023, the IndiaAI Mission to March 2024, SpaDeX docking to 16 January 2025, and Semicon 2.0 approval to July 2026.",
+   "ty": "chronology",
+   "tq": "Place the dated developments first and use the latest approval as the final item.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "India became the fourth nation to achieve docking in space through which mission?",
+   "o": [
+    "SpaDeX",
+    "Samudrayaan",
+    "EOS-05",
+    "Gaganyaan"
+   ],
+   "a": 0,
+   "x": "India became the fourth nation to dock in space through the SpaDeX mission on 16 January 2025.",
+   "ty": "fact",
+   "tq": "Match the national achievement with the mission that accomplished it.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Qdenga — First dengue vaccine",
+    "SpaDeX — First GEO imager",
+    "EOS-05 — First private orbital rocket",
+    "Matsya-6000 — First dengue vaccine"
+   ],
+   "a": 0,
+   "x": "Qdenga is identified as the first dengue vaccine. SpaDeX concerns space docking, EOS-05 is the GEO imager, and Matsya-6000 is the deep-sea submersible.",
+   "ty": "match",
+   "tq": "Separate the several ‘first’ claims by matching each product to its field.",
+   "sec": "Universal angles"
+  }
+ ]
+}

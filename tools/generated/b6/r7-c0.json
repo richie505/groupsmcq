@@ -1,0 +1,565 @@
+{
+ "book": 6,
+ "row": 7,
+ "chunk": 0,
+ "section": "National - committees, commissions and their reports",
+ "subsections": [
+  "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)",
+  "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 39,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Panel constituted in 2019 for selling 149 State-owned oil and gas fields was chaired by whom?",
+   "o": [
+    "Uday Kotak",
+    "M. Narasimham",
+    "Vijay Kelkar",
+    "Rajiv Kumar"
+   ],
+   "a": 3,
+   "x": "The panel for selling 149 State-owned oil and gas fields was chaired by Rajiv Kumar.",
+   "ty": "fact",
+   "tq": "Direct chairperson identification using nearby committee names as distractors.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "The High-Level Committee on simultaneous elections constituted in 2023–24 was chaired by:",
+   "o": [
+    "Ram Nath Kovind",
+    "Dinesh Goswami",
+    "Justice Ranjana Prakash Desai",
+    "M.N. Venkatachaliah"
+   ],
+   "a": 0,
+   "x": "The High-Level Committee on simultaneous elections, or One Nation One Election, was chaired by Ram Nath Kovind.",
+   "ty": "fact",
+   "tq": "Direct chairperson recall with a subject-based committee trap.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. National Commission on Farmers — M.S. Swaminathan\n2. Committee on MSP and crop diversification — Sanjay Agrawal\n3. NCRWC — M.N. Venkatachaliah\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correctly matched. The National Commission on Farmers was chaired by M.S. Swaminathan, the MSP and crop-diversification committee by Sanjay Agrawal, and the NCRWC by M.N. Venkatachaliah.",
+   "ty": "statements",
+   "tq": "Statement matching based on chairperson–committee associations.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "The National Commission on Farmers recommended that the Minimum Support Price should be fixed at:",
+   "o": [
+    "C2 cost plus 50 percent",
+    "C2 cost plus 25 percent",
+    "A2+FL cost plus 50 percent",
+    "Market price plus 50 percent"
+   ],
+   "a": 0,
+   "x": "The National Commission on Farmers, chaired by M.S. Swaminathan, recommended MSP at C2 cost plus 50 percent.",
+   "ty": "fact",
+   "tq": "Precise numerical and terminology discrimination between cost concepts.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "The National Commission to Review the Working of the Constitution (NCRWC), constituted in 2002, proposed the establishment of a:",
+   "o": [
+    "National Tribunals Commission",
+    "National Judicial Commission",
+    "National Commission for Higher Education and Research",
+    "National Human Rights Commission"
+   ],
+   "a": 1,
+   "x": "The NCRWC, chaired by M.N. Venkatachaliah, proposed a National Judicial Commission.",
+   "ty": "fact",
+   "tq": "Direct proposal identification with similarly named constitutional bodies as distractors.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "The High-Level Committee on Demographic Change, proposed in May 2026, was chaired by:",
+   "o": [
+    "Justice Prakash Prabhakar Navlekar",
+    "Nandan Nilekani",
+    "Justice R. Subhash Reddy",
+    "Pankaj Kumar Singh"
+   ],
+   "a": 0,
+   "x": "The High-Level Committee on Demographic Change was chaired by Justice Prakash Prabhakar Navlekar and dealt with demographic change arising from illegal immigration.",
+   "ty": "fact",
+   "tq": "Chairperson–terms of reference discrimination among recent committees.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Uday Kotak — Corporate governance",
+    "K. Kasturirangan — Draft National Education Policy",
+    "Vijay Kelkar — Revisiting and revitalising the PPP model",
+    "M. Narasimham — Electoral reforms"
+   ],
+   "a": 3,
+   "x": "M. Narasimham chaired committees on banking-sector reforms. Electoral reforms were associated with the Dinesh Goswami and Indrajit Gupta committees.",
+   "ty": "negative",
+   "tq": "Find the wrong person–subject association.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "The Urjit Patel Committee was associated with which of the following subjects?",
+   "o": [
+    "Inflation targeting",
+    "FCI–PDS reform",
+    "Doubling farmers’ income",
+    "Financial inclusion"
+   ],
+   "a": 0,
+   "x": "The Urjit Patel Committee dealt with inflation targeting and recommended a target of 4 percent with a tolerance band of plus or minus 2 percent.",
+   "ty": "fact",
+   "tq": "One-fact subject recall with related committee subjects as distractors.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Committee)\nA. Nachiket Mor\nB. Shanta Kumar\nC. Ashok Dalwai\nD. Santhanam\n\nList-II (Subject)\nI. Prevention of corruption\nII. Doubling farmers’ income\nIII. Financial inclusion\nIV. FCI–PDS reform\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-III, B-IV, C-II, D-I",
+    "A-IV, B-III, C-II, D-I",
+    "A-III, B-II, C-IV, D-I",
+    "A-II, B-IV, C-III, D-I"
+   ],
+   "a": 0,
+   "x": "Nachiket Mor was associated with financial inclusion, Shanta Kumar with FCI–PDS reform, Ashok Dalwai with doubling farmers’ income, and Santhanam with prevention of corruption.",
+   "ty": "match",
+   "tq": "Start from the sure pair and eliminate codes in a committee–subject match.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "The Santhanam Committee of 1962–63 is associated with which significant institutional development?",
+   "o": [
+    "Formation of the Finance Commission",
+    "Creation of the Election Commission",
+    "Establishment of the CBI",
+    "Creation of the NITI Aayog"
+   ],
+   "a": 2,
+   "x": "The Santhanam Committee dealt with prevention of corruption and led to the establishment of the CBI.",
+   "ty": "fact",
+   "tq": "Institutional outcome recall from a committee report.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. NMP 1.0 was launched in 2021.\n2. NMP 2.0 covers FY 2026–30.\n3. NMP 2.0 envisages ₹16.72 lakh crore through asset monetisation.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. NMP 1.0 was launched in 2021, while NMP 2.0 covers FY 2026–30 and targets ₹16.72 lakh crore.",
+   "ty": "statements",
+   "tq": "Combine date, period and monetary figure in a coded statement question.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "NMP 2.0 envisages private investment of approximately:",
+   "o": [
+    "₹41 lakh crore",
+    "₹4.35 lakh crore",
+    "₹5.8 lakh crore",
+    "₹16.72 lakh crore"
+   ],
+   "a": 2,
+   "x": "NMP 2.0 envisages private investment of ₹5.8 lakh crore within the overall asset-monetisation target of ₹16.72 lakh crore.",
+   "ty": "numerical",
+   "tq": "Distinguish the overall target from the private-investment component.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "Which institution prepared the National Monetisation Pipeline 2.0?",
+   "o": [
+    "Core Group of Secretaries on Asset Monetisation",
+    "Ministry of Corporate Affairs",
+    "NITI Aayog",
+    "Finance Commission"
+   ],
+   "a": 2,
+   "x": "NMP 2.0 was prepared by NITI Aayog. Its implementation is monitored by the Core Group of Secretaries on Asset Monetisation.",
+   "ty": "fact",
+   "tq": "Separate the preparing agency from the monitoring mechanism.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "The Core Group of Secretaries on Asset Monetisation is chaired by the:",
+   "o": [
+    "Vice-Chairperson of NITI Aayog",
+    "Secretary, Ministry of Petroleum and Natural Gas",
+    "Finance Minister",
+    "Cabinet Secretary"
+   ],
+   "a": 3,
+   "x": "The Core Group of Secretaries on Asset Monetisation is chaired by the Cabinet Secretary.",
+   "ty": "fact",
+   "tq": "Authority-based question asking who performs the monitoring role.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "The Nandan Nilekani task force announced in 2025–26 relates to:",
+   "o": [
+    "Reforming the Public Distribution System",
+    "Monitoring asset monetisation",
+    "Reforming the National Testing Agency through leak-proof, technology-driven examinations",
+    "Redrawing parliamentary constituencies"
+   ],
+   "a": 2,
+   "x": "The Nandan Nilekani task force was set up after the NEET-UG 2026 leak to develop leak-proof, technology-driven examinations.",
+   "ty": "application",
+   "tq": "Identify the institutional response from the problem described in the scenario.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Justice R. Subhash Reddy panel — Gorkha issue",
+    "K. Radhakrishnan Committee — NTA reform",
+    "Pankaj Kumar Singh Committee — NEET examination technology",
+    "High Level Committee on Banking for Viksit Bharat — electoral reforms"
+   ],
+   "a": 1,
+   "x": "The K. Radhakrishnan Committee was associated with reform of the National Testing Agency. The Justice R. Subhash Reddy panel dealt with police action in the NEET protests, and the Pankaj Kumar Singh committee with the Gorkha issue.",
+   "ty": "negative",
+   "tq": "Pair discrimination using swapped committee subjects.",
+   "sec": "Committee → chairperson + subject (asset monetisation, simultaneous elections, judicial appointments, MSP)  [APPSC]"
+  },
+  {
+   "s": "The 16th Finance Commission was constituted on:",
+   "o": [
+    "31 December 2022",
+    "31 December 2023",
+    "1 April 2026",
+    "31 March 2031"
+   ],
+   "a": 1,
+   "x": "The 16th Finance Commission was constituted on 31 December 2023.",
+   "ty": "numerical",
+   "tq": "Date discrimination among constitution and award-period dates.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Who is the Chairperson of the 16th Finance Commission?",
+   "o": [
+    "Arvind Panagariya",
+    "Manoj Panda",
+    "T. Rabi Sankar",
+    "Soumya Kanti Ghosh"
+   ],
+   "a": 0,
+   "x": "Dr Arvind Panagariya is the Chairperson of the 16th Finance Commission.",
+   "ty": "fact",
+   "tq": "Direct chairperson recall from a commission composition list.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a member listed for the 16th Finance Commission?",
+   "o": [
+    "Justice Ranjana Prakash Desai",
+    "Annie George Mathew",
+    "Manoj Panda",
+    "T. Rabi Sankar"
+   ],
+   "a": 0,
+   "x": "T. Rabi Sankar, Annie George Mathew and Manoj Panda are listed members of the 16th Finance Commission. Justice Ranjana Prakash Desai chairs the 8th Central Pay Commission.",
+   "ty": "negative",
+   "tq": "Find the outsider in a composition-based question.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "The award period of the 16th Finance Commission is:",
+   "o": [
+    "1 January 2026 to 31 December 2030",
+    "1 April 2026 to 31 March 2031",
+    "1 April 2025 to 31 March 2030",
+    "1 April 2024 to 31 March 2029"
+   ],
+   "a": 1,
+   "x": "The 16th Finance Commission’s award period is from 1 April 2026 to 31 March 2031.",
+   "ty": "numerical",
+   "tq": "Distinguish the award period from the commission’s constitution date.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the 16th Finance Commission:\n1. It is a constitutional commission under Article 280.\n2. It retained vertical devolution at 41 percent.\n3. It assigned a 10 percent weight to contribution to GDP.\n4. It provided ₹4.35 lakh crore to gram panchayats.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The 16th Finance Commission functions under Article 280, retained 41 percent vertical devolution, included a 10 percent GDP-contribution criterion and provided ₹4.35 lakh crore to gram panchayats.",
+   "ty": "statements",
+   "tq": "Multi-parameter statement testing with constitutional, percentage and monetary facts.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "The 8th Central Pay Commission is chaired by:",
+   "o": [
+    "Justice Prakash Prabhakar Navlekar",
+    "M.N. Venkatachaliah",
+    "Justice Ranjana Prakash Desai",
+    "Dr Arvind Panagariya"
+   ],
+   "a": 2,
+   "x": "Justice Ranjana Prakash Desai chairs the 8th Central Pay Commission.",
+   "ty": "fact",
+   "tq": "Direct chairperson recall with judicial names as close distractors.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "The terms of reference of the 8th Central Pay Commission include:",
+   "o": [
+    "Pay, allowances and pensions",
+    "Parliamentary seat delimitation and women’s reservation",
+    "Only salaries of Union civil servants",
+    "Only pensions of government employees"
+   ],
+   "a": 0,
+   "x": "The 8th Central Pay Commission deals with pay, allowances and pensions. Its report is to be submitted in 18 months and is effective from 1 January 2026.",
+   "ty": "fact",
+   "tq": "Avoid the restrictive-word trap in a terms-of-reference question.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "The proposed Delimitation Commission under the Delimitation Bill, 2026 is to be headed by:",
+   "o": [
+    "The Cabinet Secretary",
+    "The Speaker of the Lok Sabha",
+    "The Chief Election Commissioner",
+    "A Supreme Court judge"
+   ],
+   "a": 3,
+   "x": "The proposed Delimitation Commission is to be headed by a Supreme Court judge and is intended to redraw seats under the Delimitation Bill, 2026.",
+   "ty": "fact",
+   "tq": "Who-would-do-this-job authority identification.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "The National Tribunals Commission proposed under the Tribunals Reforms Bill, 2026 deals primarily with:",
+   "o": [
+    "Recognition of higher-education institutions",
+    "Tribunal appointments, reviews and discipline",
+    "Delimitation of parliamentary constituencies",
+    "Appointment of members of the Finance Commission"
+   ],
+   "a": 1,
+   "x": "The National Tribunals Commission is proposed to deal with tribunal appointments, reviews and discipline.",
+   "ty": "application",
+   "tq": "Match the body’s proposed functions with the institutional situation.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the National Tribunals Commission:\n1. It is proposed to have five members.\n2. Its headquarters will be in New Delhi.\n3. It is to be headed by a former Supreme Court judge or a High Court Chief Justice.\n4. The Bill was moved by Arjun Ram Meghwal.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The proposed Commission has five members, headquarters at New Delhi, a head drawn from former Supreme Court judges or High Court Chief Justices, and the Bill was moved by Arjun Ram Meghwal.",
+   "ty": "statements",
+   "tq": "Composition, location, authority and legislative-detail combination.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Viksit Bharat Shiksha Adhishthan is proposed as a single apex body replacing:",
+   "o": [
+    "UGC, AICTE and NCTE",
+    "NITI Aayog, UGC and AICTE",
+    "UGC, NHRC and NCTE",
+    "AICTE, NCISM and NCH"
+   ],
+   "a": 0,
+   "x": "The Viksit Bharat Shiksha Adhishthan is proposed as a single apex higher-education regulator replacing the UGC, AICTE and NCTE.",
+   "ty": "fact",
+   "tq": "Regulator-composition discrimination using statutory bodies as distractors.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "The Viksit Bharat Shiksha Adhishthan Bill, 2025 was introduced in the Lok Sabha in:",
+   "o": [
+    "April 2026",
+    "August 2026",
+    "July 2025",
+    "December 2025"
+   ],
+   "a": 3,
+   "x": "The VBSA Bill, 2025 was introduced in the Lok Sabha in December 2025.",
+   "ty": "numerical",
+   "tq": "Chronological date recall using nearby legislative dates as distractors.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the Viksit Bharat Shiksha Adhishthan Bill, 2025 is correct?",
+   "o": [
+    "It proposed separate apex regulators for UGC, AICTE and NCTE.",
+    "It was passed in the Monsoon Session of 2026 without referral to a committee.",
+    "It was sent to a Joint Parliamentary Committee, which flagged centralisation.",
+    "It excluded State universities from its operation without any modification."
+   ],
+   "a": 2,
+   "x": "The Bill was referred to a Joint Parliamentary Committee, which flagged concerns about centralisation. After objections from Andhra Pradesh, the Centre agreed that State consent would be required for decisions concerning colleges of State universities, and the Bill was not passed in the Monsoon Session of 2026.",
+   "ty": "negative",
+   "tq": "Identify the precise legislative-status statement among altered details.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "The National Commission for Higher Education and Research (NCHER) was proposed after the recommendations of the:",
+   "o": [
+    "Vijay Kelkar Committee",
+    "Kasturirangan Committee",
+    "Radhakrishnan Committee",
+    "Yashpal Committee"
+   ],
+   "a": 3,
+   "x": "NCHER was proposed after the Yashpal Committee of 2009. It was announced by HRD Minister Kapil Sibal but was never enacted.",
+   "ty": "fact",
+   "tq": "Committee-to-proposal linkage with closely related education committees as traps.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Who announced the proposal for the National Commission for Higher Education and Research?",
+   "o": [
+    "Kapil Sibal",
+    "Arjun Ram Meghwal",
+    "Dharmendra Pradhan",
+    "Nandan Nilekani"
+   ],
+   "a": 0,
+   "x": "The NCHER proposal was announced by the then HRD Minister Kapil Sibal.",
+   "ty": "fact",
+   "tq": "Minister–proposal association recall.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "The Constitution (131st Amendment) Bill, 2026 sought to increase the total Lok Sabha seats from 543 to:",
+   "o": [
+    "750",
+    "815",
+    "850",
+    "900"
+   ],
+   "a": 2,
+   "x": "The Bill proposed increasing Lok Sabha seats from 543 to 850, comprising 815 seats for States and 35 for Union Territories.",
+   "ty": "numerical",
+   "tq": "Separate the total from its State and Union Territory components.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Constitution (131st Amendment) Bill, 2026:\n1. It proposed amendments to Articles 81, 82 and 334A.\n2. It sought early delimitation and women’s quota.\n3. It was defeated in the Lok Sabha on 17 April 2026.\n4. It secured the required two-thirds majority.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. The Bill was defeated on 17 April 2026 because it lacked the required two-thirds majority; therefore statement 4 is false.",
+   "ty": "statements",
+   "tq": "Find the single reversed legislative-outcome statement.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Arrange the following bodies or proposals in chronological order of their relevant year:\nA. NCHER proposal after the Yashpal Committee\nB. NITI Aayog\nC. NMP 1.0\nD. VBSA Bill\n\nSelect the correct sequence.",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "B, C, A, D"
+   ],
+   "a": 0,
+   "x": "The sequence is A (2009), B (2015), C (2021) and D (2025).",
+   "ty": "chronology",
+   "tq": "Use the first and last dates, then place the intermediate milestones.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with the status of the body?",
+   "o": [
+    "NCSC — Statutory body",
+    "NITI Aayog — Statutory body",
+    "NHRC — Constitutional body",
+    "NCBC — Constitutional body under Article 338B"
+   ],
+   "a": 3,
+   "x": "The NCBC became a constitutional body under Article 338B through the 102nd Amendment, 2018. NCSC is constitutional, NHRC is statutory and NITI Aayog is neither constitutional nor statutory.",
+   "ty": "comparison",
+   "tq": "Compare constitutional, statutory and non-statutory classifications.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "The National Commission for Scheduled Tribes derives its constitutional status from:",
+   "o": [
+    "Article 338B",
+    "Article 338",
+    "Article 280",
+    "Article 338A"
+   ],
+   "a": 3,
+   "x": "NCST is provided under Article 338A. Article 338 relates to NCSC, Article 338B to NCBC and Article 280 to the Finance Commission.",
+   "ty": "confusable",
+   "tq": "Discriminate among adjacent constitutional Articles.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Which of the following bodies is classified as neither constitutional nor statutory?",
+   "o": [
+    "Central Bureau of Investigation",
+    "National Commission for Minorities",
+    "National Human Rights Commission",
+    "NITI Aayog"
+   ],
+   "a": 3,
+   "x": "NITI Aayog is classified as neither constitutional nor statutory. The CBI is based on the DSPE Act, while NHRC and NCM are statutory bodies.",
+   "ty": "odd_one_out",
+   "tq": "Odd-one-out classification based on legal status.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. NCBC was statutory when established in 1993.\n2. NCBC became constitutional through the 102nd Amendment Act, 2018.\n3. NCSC and NCST were separated through the 89th Amendment of 2003.\n4. NHRC was established in 1992.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 3 are correct. NHRC was established in 1993, not 1992; therefore statement 4 is false. NCW and NCM are associated with 1992 and the NCM Act respectively.",
+   "ty": "statements",
+   "tq": "Date and legal-status discrimination within a comparison table.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator)  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "NCSC — Statutory body under the 1993 Act",
+    "NCM — Statutory body under the 1992 Act",
+    "NCW — Statutory body established in 1992",
+    "NCISM and NCH — Statutory bodies under the 2020 Acts"
+   ],
+   "a": 0,
+   "x": "NCSC is a constitutional body under Article 338, not a statutory body under the 1993 Act. NCISM and NCH are statutory under the 2020 Acts, while NCW and NCM are statutory bodies.",
+   "ty": "negative",
+   "tq": "Spot the wrong legal-status classification.",
+   "sec": "Commission proposed or constituted → chair + terms of reference (Finance, Pay, Law, Delimitation, higher-education regulator) [APPSC]"
+  }
+ ]
+}

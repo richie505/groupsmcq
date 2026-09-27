@@ -1,0 +1,581 @@
+{
+ "book": 6,
+ "row": 10,
+ "chunk": 3,
+ "section": "International - bilateral visits, defence deals and geopolitical developments",
+ "subsections": [
+  "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)",
+  "Geopolitical developments - conflicts, assassinations, disputes → place + parties",
+  "India-assisted projects abroad → host country",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 41,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Rafale fighter aircraft are manufactured by which country?",
+   "o": [
+    "Russia",
+    "France",
+    "United States",
+    "Israel"
+   ],
+   "a": 1,
+   "x": "Rafale is a French fighter aircraft manufactured by Dassault Aviation.",
+   "ty": "fact",
+   "tq": "Directly identify the country of origin of the platform.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "Consider the following statements regarding the S-400 Triumf:\n1. It is of Russian origin.\n2. It is also referred to as ‘Sudarshan Chakra’.\n3. It has a range of 400 km.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The S-400 Triumf is a Russian-origin air-defence system, is referred to as ‘Sudarshan Chakra’, and has a stated range of 400 km.",
+   "ty": "statements",
+   "tq": "Combine related platform, alias and numerical facts in a coded statement question.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "The MQ-9B Sea Guardian is best described as which of the following?",
+   "o": [
+    "A French multirole fighter aircraft",
+    "An Israeli missile-defence system",
+    "A US-origin HALE drone",
+    "An Italian heavyweight torpedo"
+   ],
+   "a": 2,
+   "x": "The MQ-9B Sea Guardian is a High Altitude Long Endurance drone supplied by General Atomics of the United States.",
+   "ty": "fact",
+   "tq": "Use the platform-description pairing to distinguish similar defence systems.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "In August 2026, India leased two MQ-9B Sea Guardian drones for 30 months at a cost of approximately:",
+   "o": [
+    "₹3.6 lakh crore",
+    "₹1,200 crore",
+    "₹4,666 crore",
+    "₹1,943 crore"
+   ],
+   "a": 3,
+   "x": "The lease of two MQ-9B Sea Guardian drones for 30 months was valued at approximately ₹1,943 crore.",
+   "ty": "numerical",
+   "tq": "Discriminate between closely placed defence procurement figures.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "With reference to the Scorpene submarines, which one of the following is correct?",
+   "o": [
+    "They are of Israeli origin and are built at Goa Shipyard.",
+    "They are of French origin and are built at Mazagon Dock Shipbuilders Limited, Mumbai.",
+    "They are of Italian origin and are built at Kochi.",
+    "They are of Russian origin and are built at Visakhapatnam."
+   ],
+   "a": 1,
+   "x": "Scorpene submarines are based on French technology and are built at Mazagon Dock Shipbuilders Limited in Mumbai.",
+   "ty": "confusable",
+   "tq": "Test the country–platform–shipyard combination rather than a single isolated fact.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "Iron Dome, which has been identified as a model for India’s Mission Sudarshan Chakra, is a defence system developed by:",
+   "o": [
+    "Israel",
+    "France",
+    "Russia",
+    "the United States"
+   ],
+   "a": 0,
+   "x": "Iron Dome is an Israeli missile-defence system and is being considered as a model for India’s multi-layer shield planned by 2035.",
+   "ty": "fact",
+   "tq": "Use a familiar system–country association to test precise recall.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "Mission Sudarshan Chakra is associated with India’s plan to develop:",
+   "o": [
+    "A multi-layer defence shield by 2035",
+    "A long-range submarine rescue network by 2040",
+    "A satellite-based navigation system by 2028",
+    "A fleet of nuclear-powered aircraft carriers by 2030"
+   ],
+   "a": 0,
+   "x": "Mission Sudarshan Chakra refers to India’s proposed multi-layer defence shield, with a target of 2035.",
+   "ty": "application",
+   "tq": "Identify the objective associated with a named defence mission.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nPlatform — Relevant detail\n1. Rafale (IAF) — 36 aircraft under the 2016 deal\n2. Rafale-M — 26 aircraft under the April 2025 deal\n3. Rafale MRFA — 114 aircraft cleared by the DAC in February 2026",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairings are correct: 36 Rafale aircraft were covered by the 2016 deal, 26 Rafale-M aircraft by the April 2025 deal, and 114 Rafale MRFA aircraft received DAC AoN in February 2026.",
+   "ty": "statements",
+   "tq": "Match multiple procurement quantities with their respective variants and years.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "The Rafale MRFA proposal received DAC Acceptance of Necessity for 114 aircraft on:",
+   "o": [
+    "17 June 2026",
+    "23 August 2026",
+    "12 February 2026",
+    "12 February 2025"
+   ],
+   "a": 2,
+   "x": "The DAC cleared the Rafale MRFA proposal for 114 aircraft on 12 February 2026.",
+   "ty": "numerical",
+   "tq": "Test an exact date using closely related defence-event dates as distractors.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "The Rafale MRFA proposal formed part of a defence package valued at approximately:",
+   "o": [
+    "₹3.6 lakh crore",
+    "₹4,666 crore",
+    "₹1,943 crore",
+    "₹1.2 lakh crore"
+   ],
+   "a": 0,
+   "x": "The 114-aircraft Rafale MRFA proposal was part of a package valued at approximately ₹3.6 lakh crore.",
+   "ty": "numerical",
+   "tq": "Distinguish the overall package value from individual procurement figures.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "Consider the following statements:\n1. Six more P-8I maritime patrol aircraft received Acceptance of Necessity in February 2026.\n2. The P-8I is associated with the United States.\n3. The GE F414 engine is intended for the AMCA Mk-1.\n4. The AMCA Mk-2 engine is to be co-developed with Safran.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Six additional US-associated P-8I aircraft received AoN in February 2026; the GE F414 is for AMCA Mk-1, while the Mk-2 engine is to be co-developed with Safran.",
+   "ty": "statements",
+   "tq": "Use a four-statement question to test platform, supplier, quantity and variant relationships.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "CQB carbines — Bharat Forge and PLR",
+    "Javelin ATGM — United States",
+    "Heavyweight torpedoes for Kalvari submarines — Italy (WASS)",
+    "Kalvari submarines — Israel and Rafael Advanced Defense Systems"
+   ],
+   "a": 3,
+   "x": "Kalvari-class Scorpene submarines are based on French Naval Group technology and are built at MDL. The other three pairings are correct.",
+   "ty": "negative",
+   "tq": "Find the wrong supplier–platform pairing among closely related defence procurements.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "The number of CQB carbines included in the ₹4,666 crore defence package is:",
+   "o": [
+    "4.25 lakh",
+    "6 lakh",
+    "36,000",
+    "2,00,000"
+   ],
+   "a": 0,
+   "x": "The package includes 4.25 lakh CQB carbines supplied by Bharat Forge and PLR, both Indian entities.",
+   "ty": "numerical",
+   "tq": "Test a procurement quantity using nearby defence figures as distractors.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "Which one of the following statements regarding the Kalvari-class submarines is correct?",
+   "o": [
+    "They are entirely of Russian design and were built at Cochin Shipyard.",
+    "They comprise six P-75 submarines, with INS Vaghsheer being the last one delivered in 2025.",
+    "They comprise four submarines, with INS Vaghsheer delivered in 2024.",
+    "They comprise eight submarines, with INS Vaghsheer delivered in 2026."
+   ],
+   "a": 1,
+   "x": "The P-75 programme comprises six Kalvari-class Scorpene submarines. INS Vaghsheer was the last submarine and was delivered in 2025.",
+   "ty": "fact",
+   "tq": "Test the count, programme name and latest platform status together.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "RELOS, signed between India and Russia in February 2025 and operationalised in June 2026, relates to:",
+   "o": [
+    "A missile-defence system",
+    "A logistics pact",
+    "A naval aviation engine",
+    "A multilateral naval exercise"
+   ],
+   "a": 1,
+   "x": "RELOS is the India–Russia logistics pact, signed in February 2025 and operationalised in June 2026.",
+   "ty": "fact",
+   "tq": "Identify the function of a bilateral defence agreement from its acronym and timeline.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "The UNICORN stealth naval mast represents the first India–Japan co-manufacturing agreement in the field of:",
+   "o": [
+    "Naval systems",
+    "Satellite launch vehicles",
+    "Armoured vehicles",
+    "Agricultural machinery"
+   ],
+   "a": 0,
+   "x": "UNICORN is a stealth naval mast and marks the first India–Japan co-manufacturing agreement in this area.",
+   "ty": "fact",
+   "tq": "Link a named defence technology with its specific domain and partner country.",
+   "sec": "Defence deals and weapon systems → country of origin + platform (Rafale, S-400, MQ-9B, Scorpene, Iron Dome)"
+  },
+  {
+   "s": "The West Asia war beginning on 28 February 2026 involved attacks by:",
+   "o": [
+    "France and the United Kingdom on Lebanon",
+    "the United States and Israel on Iran",
+    "Iran and Iraq on Israel",
+    "Russia and Syria on Turkey"
+   ],
+   "a": 1,
+   "x": "The conflict described began with United States–Israel attacks on Iran from 28 February 2026.",
+   "ty": "fact",
+   "tq": "Test the parties to a geopolitical conflict by separating the actors from nearby regional states.",
+   "sec": "Geopolitical developments - conflicts, assassinations, disputes → place + parties"
+  },
+  {
+   "s": "Ali Khamenei, Iran’s Supreme Leader, was reported assassinated during the 2026 West Asia conflict. Which country’s forces were associated with the attacks that preceded this development?",
+   "o": [
+    "Turkey and Saudi Arabia",
+    "Russia and China",
+    "France and Germany",
+    "The United States and Israel"
+   ],
+   "a": 3,
+   "x": "The attacks were attributed to the United States and Israel, during which Ali Khamenei was reported assassinated.",
+   "ty": "fact",
+   "tq": "Connect a high-profile political development with the parties involved in the conflict.",
+   "sec": "Geopolitical developments - conflicts, assassinations, disputes → place + parties"
+  },
+  {
+   "s": "Which one of the following statements regarding the IRIS Dena incident is correct?",
+   "o": [
+    "The United States sank IRIS Dena off Sri Lanka in March 2026 as it returned from IFR Visakhapatnam.",
+    "Russia sank IRIS Dena near the Black Sea in March 2026.",
+    "Israel captured IRIS Dena at Chabahar in July 2026.",
+    "Iran sank a US destroyer off the Strait of Hormuz in February 2026."
+   ],
+   "a": 0,
+   "x": "The United States reportedly sank the Iranian vessel IRIS Dena off Sri Lanka in March 2026 while it was returning from IFR Visakhapatnam.",
+   "ty": "fact",
+   "tq": "Use location, actor, vessel and event sequence to identify the precisely stated geopolitical development.",
+   "sec": "Geopolitical developments - conflicts, assassinations, disputes → place + parties"
+  },
+  {
+   "s": "The United States–Iran 14-point Memorandum of Understanding of 17 June 2026 provided for:",
+   "o": [
+    "The withdrawal of all foreign ships from the Indian Ocean",
+    "The transfer of Chabahar to the United States",
+    "A permanent peace treaty",
+    "A 60-day ceasefire extension"
+   ],
+   "a": 3,
+   "x": "The 14-point US–Iran MoU of 17 June 2026 provided for a 60-day extension of the ceasefire, but it unravelled in July.",
+   "ty": "fact",
+   "tq": "Identify the substantive provision of a time-specific diplomatic agreement.",
+   "sec": "Geopolitical developments - conflicts, assassinations, disputes → place + parties"
+  },
+  {
+   "s": "During the July 2026 strikes on Chabahar, which Indian facility remained undamaged?",
+   "o": [
+    "Shahid Beheshti terminal",
+    "Punatsangchhu-I power station",
+    "Agalega naval facility",
+    "Sittwe port"
+   ],
+   "a": 0,
+   "x": "The Shahid Beheshti terminal at Chabahar, Iran, remained undamaged during the July 2026 strikes.",
+   "ty": "fact",
+   "tq": "Distinguish a specific facility from other India-assisted overseas projects.",
+   "sec": "Geopolitical developments - conflicts, assassinations, disputes → place + parties"
+  },
+  {
+   "s": "The maritime disruption associated with the 2026 West Asia conflict occurred primarily in:",
+   "o": [
+    "The Bering Strait",
+    "The Bosporus",
+    "The Strait of Hormuz",
+    "The Malacca Strait"
+   ],
+   "a": 2,
+   "x": "Shipping through the Strait of Hormuz was disrupted during the West Asia conflict.",
+   "ty": "fact",
+   "tq": "Identify the strategically affected geographic chokepoint.",
+   "sec": "Geopolitical developments - conflicts, assassinations, disputes → place + parties"
+  },
+  {
+   "s": "The Gen Z protests of September 2025 in Nepal resulted in the fall of the government headed by:",
+   "o": [
+    "Pushpa Kamal Dahal",
+    "Sher Bahadur Deuba",
+    "Bidya Devi Bhandari",
+    "K.P. Sharma Oli"
+   ],
+   "a": 3,
+   "x": "The protests toppled the government of K.P. Sharma Oli in Nepal.",
+   "ty": "fact",
+   "tq": "Associate a protest movement with the government it displaced.",
+   "sec": "Geopolitical developments - conflicts, assassinations, disputes → place + parties"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n\nConflict or dispute — Parties or location\n1. Washington Accords — DRC and Rwanda\n2. Chagos Islands handover — United Kingdom and Mauritius\n3. Chagos Islands objection — Maldives\n4. Russia–Ukraine war — Russia and Ukraine",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairings are correct. The Washington Accords concern the DRC and Rwanda; the Chagos issue concerns the UK, Mauritius and Maldives; and the continuing war involves Russia and Ukraine.",
+   "ty": "match",
+   "tq": "Start from the sure conflict–party pair and verify all geographic relationships.",
+   "sec": "Geopolitical developments - conflicts, assassinations, disputes → place + parties"
+  },
+  {
+   "s": "Bundibugyo Ebola outbreak in 2026 was reported in:",
+   "o": [
+    "Kenya and Tanzania",
+    "Rwanda and Burundi",
+    "Sudan and Ethiopia",
+    "The DRC and Uganda"
+   ],
+   "a": 3,
+   "x": "The Bundibugyo Ebola outbreak was reported in the Democratic Republic of the Congo and Uganda.",
+   "ty": "fact",
+   "tq": "Identify the countries associated with a transboundary public-health development.",
+   "sec": "Geopolitical developments - conflicts, assassinations, disputes → place + parties"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding the United Kingdom–Israel diplomatic dispute in September 2026?",
+   "o": [
+    "France banned trade with Mauritius and Israel closed the Chagos consulate.",
+    "Canada withdrew from the dispute and the UK closed its embassy in Tel Aviv.",
+    "The UK recognised all Israeli settlements as legal and Israel closed its London embassy.",
+    "The UK banned trade with illegal Israeli settlements, while Israel shut Britain’s Jerusalem consulate."
+   ],
+   "a": 3,
+   "x": "The UK, along with France and Canada, banned trade with illegal Israeli settlements, while Israel shut Britain’s Jerusalem consulate.",
+   "ty": "fact",
+   "tq": "Test both sides of a diplomatic development without confusing the actors or locations.",
+   "sec": "Geopolitical developments - conflicts, assassinations, disputes → place + parties"
+  },
+  {
+   "s": "The Kaladan Multi-Modal Transit Project, including Sittwe port, is associated with:",
+   "o": [
+    "Mauritius",
+    "Myanmar",
+    "Bhutan",
+    "Maldives"
+   ],
+   "a": 1,
+   "x": "The Kaladan Multi-Modal Transit Project is located in Myanmar and includes the Sittwe port component.",
+   "ty": "fact",
+   "tq": "Identify the host country of an India-assisted overseas project.",
+   "sec": "India-assisted projects abroad → host country"
+  },
+  {
+   "s": "Consider the following statements:\n1. The India–Myanmar–Thailand Trilateral Highway is 1,360 km long.\n2. It is associated with Myanmar and Thailand.\n3. The project is intended to improve regional connectivity.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The highway is 1,360 km long, connects India through Myanmar to Thailand, and is a regional connectivity project.",
+   "ty": "statements",
+   "tq": "Combine a numerical, geographic and functional feature in one coded question.",
+   "sec": "India-assisted projects abroad → host country"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Agalega facility — Mauritius",
+    "Chabahar Shahid Beheshti terminal — Iran",
+    "MoD building, Male — Maldives",
+    "Mangdechhu hydropower project — Nepal"
+   ],
+   "a": 3,
+   "x": "Mangdechhu is an India-assisted hydropower project in Bhutan, not Nepal. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the incorrect host-country pairing among neighbouring-country projects.",
+   "sec": "India-assisted projects abroad → host country"
+  },
+  {
+   "s": "Punatsangchhu-I, an India-assisted hydropower project, has a capacity of:",
+   "o": [
+    "720 MW",
+    "1,360 MW",
+    "1,200 MW",
+    "400 MW"
+   ],
+   "a": 2,
+   "x": "Punatsangchhu-I in Bhutan has a capacity of 1,200 MW.",
+   "ty": "numerical",
+   "tq": "Separate the capacities of the two Bhutanese hydropower projects.",
+   "sec": "India-assisted projects abroad → host country"
+  },
+  {
+   "s": "Which of the following statements correctly distinguishes Punatsangchhu-I from Mangdechhu?",
+   "o": [
+    "Punatsangchhu-I is 1,200 MW and work resumed in April 2026, whereas Mangdechhu is 720 MW and was commissioned in 2019.",
+    "Punatsangchhu-I is 720 MW and was commissioned in 2019, whereas Mangdechhu is 1,200 MW and resumed work in 2026.",
+    "Both projects are in Mauritius and were commissioned in 2025.",
+    "Both projects are in Maldives and have a capacity of 400 MW each."
+   ],
+   "a": 0,
+   "x": "Punatsangchhu-I in Bhutan has a capacity of 1,200 MW and resumed work in April 2026. Mangdechhu, also in Bhutan, has a capacity of 720 MW and was commissioned in 2019.",
+   "ty": "comparison",
+   "tq": "Compare two similar projects by capacity, status and year rather than memorising one isolated figure.",
+   "sec": "India-assisted projects abroad → host country"
+  },
+  {
+   "s": "The India-assisted Agalega facility is located in:",
+   "o": [
+    "Iran",
+    "Mauritius",
+    "Bhutan",
+    "Myanmar"
+   ],
+   "a": 1,
+   "x": "The Agalega facility is located in Mauritius and serves as a forward naval facility.",
+   "ty": "fact",
+   "tq": "Match an overseas strategic facility with its host country and function.",
+   "sec": "India-assisted projects abroad → host country"
+  },
+  {
+   "s": "The Ministry of Defence building inaugurated in July 2025 was located at:",
+   "o": [
+    "Thimphu, Bhutan",
+    "Sittwe, Myanmar",
+    "Port Louis, Mauritius",
+    "Male, Maldives"
+   ],
+   "a": 3,
+   "x": "The India-assisted Ministry of Defence building was inaugurated in Male, Maldives, in July 2025.",
+   "ty": "fact",
+   "tq": "Use the city–country association to identify the host of an assisted project.",
+   "sec": "India-assisted projects abroad → host country"
+  },
+  {
+   "s": "Which of the following statements regarding India’s response to the 2026 West Asia crisis is correct?",
+   "o": [
+    "India suspended all naval activity in the Indian Ocean.",
+    "India deployed Navy escort missions named Sankalp and Urja Suraksha.",
+    "India joined the US–Israel attacks on Iran.",
+    "India transferred the Chabahar terminal to the United States."
+   ],
+   "a": 1,
+   "x": "India deployed Navy escort missions named Sankalp and Urja Suraksha in response to the crisis and disruption around Hormuz.",
+   "ty": "application",
+   "tq": "Apply the current-affairs fact to a crisis-response scenario.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The principal criticism of the GE F414 arrangement is that:",
+   "o": [
+    "Safran has retained all technology for the AMCA Mk-1 engine.",
+    "The engine is entirely manufactured in Russia, preventing US participation.",
+    "The single-crystal blade process remains with the United States, preserving Indian dependence.",
+    "The arrangement excludes the AMCA programme altogether."
+   ],
+   "a": 2,
+   "x": "The criticism is that the single-crystal blade manufacturing process remains with the United States, limiting technology transfer and maintaining dependence.",
+   "ty": "fact",
+   "tq": "Identify the specific technological dependency behind a policy criticism.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Heavy reliance on Russian defence platforms has been criticised mainly because it:",
+   "o": [
+    "Limits diversification of India’s defence suppliers",
+    "Eliminates the need for indigenous production",
+    "Prevents India from operating naval platforms",
+    "Makes all Indian systems exclusively French"
+   ],
+   "a": 0,
+   "x": "Dependence on Russian platforms is criticised because it limits diversification of India’s defence procurement sources.",
+   "ty": "application",
+   "tq": "Connect a defence-procurement pattern with its strategic implication.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "MILAN 2026 was held at:",
+   "o": [
+    "Mumbai under the Western Naval Command",
+    "Visakhapatnam under the Eastern Naval Command",
+    "Port Blair under the Andaman and Nicobar Command",
+    "Kochi under the Southern Naval Command"
+   ],
+   "a": 1,
+   "x": "MILAN 2026 was held at Visakhapatnam under the Eastern Naval Command.",
+   "ty": "fact",
+   "tq": "Test the venue and command association of a naval exercise.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following events were associated with Visakhapatnam in February 2026?\n1. MILAN 2026\n2. IFR 2026\n3. IONS Conclave\n4. DOSTI-16\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "MILAN 2026, IFR 2026 and the IONS Conclave were associated with Visakhapatnam in February 2026. DOSTI-16 is not part of this grouping.",
+   "ty": "statements",
+   "tq": "Separate events held at the same venue from a familiar but unrelated naval exercise.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Nipun, delivered to the Navy at Visakhapatnam in August 2026, is associated with:",
+   "o": [
+    "A French fighter aircraft squadron",
+    "The second Diving Support Vessel and DSRV mother ship",
+    "A Russian air-defence missile battery",
+    "An Indian-built aircraft carrier"
+   ],
+   "a": 1,
+   "x": "Nipun is the second Diving Support Vessel and serves as a DSRV mother ship. It was built by Hindustan Shipyard Limited and delivered at Visakhapatnam in August 2026.",
+   "ty": "fact",
+   "tq": "Identify a naval asset from its role, builder and delivery location.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements regarding the 2026 international developments is correct?",
+   "o": [
+    "The Russia–Ukraine war continued, and Narendra Modi urged Vladimir Putin to end it in September 2026.",
+    "The Russia–Ukraine war ended through the Washington Accords in December 2025.",
+    "Narendra Modi urged the United States to end the Chagos Islands dispute in September 2026.",
+    "The DRC–Rwanda conflict was settled by the US–Iran MoU of June 2026."
+   ],
+   "a": 0,
+   "x": "The Russia–Ukraine war continued, and Narendra Modi urged Vladimir Putin to end it in September 2026.",
+   "ty": "fact",
+   "tq": "Reject the wrong diplomatic agreement or parties by matching each development with its actual conflict.",
+   "sec": "Universal angles"
+  }
+ ]
+}

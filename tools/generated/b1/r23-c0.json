@@ -1,0 +1,485 @@
+{
+ "book": 1,
+ "row": 23,
+ "chunk": 0,
+ "section": "The sixteen Mahajanapadas - list, capitals, monarchies vs ganasanghas (Anguttara Nikaya)",
+ "subsections": [
+  "Mahajanapada → capital",
+  "Present region, rivers, map identification",
+  "Sources listing them",
+  "Ganasanghas vs monarchies",
+  "Rulers contemporary with the Buddha",
+  "Rivalries among the four powers"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 33,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Magadha — Rajagriha, later Pataliputra",
+    "Kosala — Vaishali",
+    "Vajji — Shravasti",
+    "Vatsa — Rajapura"
+   ],
+   "a": 0,
+   "x": "Magadha had Rajagriha or Girivraja as its earlier capital and Pataliputra as its later capital.",
+   "ty": "match",
+   "tq": "Start from the capital pair that is most firmly known and eliminate swapped capitals.",
+   "sec": "Mahajanapada → capital"
+  },
+  {
+   "s": "With reference to the Mahajanapadas, consider the following pairs:\n1. Kashi — Varanasi\n2. Vajji — Vaishali\n3. Kuru — Indraprastha\n4. Gandhara — Rajapura\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Kashi, Vajji and Kuru are correctly matched with Varanasi, Vaishali and Indraprastha respectively. Rajapura was the capital of Kamboja, whereas Gandhara had Taxila as its capital.",
+   "ty": "statements",
+   "tq": "Use the sure capital pairs first and identify the swapped-capital trap.",
+   "sec": "Mahajanapada → capital"
+  },
+  {
+   "s": "The southern capital of Avanti was known as",
+   "o": [
+    "Ujjayini",
+    "Mahishmati",
+    "Viratanagara",
+    "Sotthivati"
+   ],
+   "a": 1,
+   "x": "Avanti had Ujjayini as its northern capital and Mahishmati as its southern capital.",
+   "ty": "fact",
+   "tq": "Distinguish the two capitals of the same Mahajanapada rather than treating them as alternatives.",
+   "sec": "Mahajanapada → capital"
+  },
+  {
+   "s": "Which one of the following Mahajanapadas had Ahichchhatra and Kampilya as its northern and southern capitals respectively?",
+   "o": [
+    "Chedi",
+    "Kuru",
+    "Matsya",
+    "Panchala"
+   ],
+   "a": 3,
+   "x": "Panchala was divided into northern Panchala, with Ahichchhatra as its capital, and southern Panchala, with Kampilya as its capital.",
+   "ty": "confusable",
+   "tq": "Test the north–south capital pair against nearby Mahajanapadas.",
+   "sec": "Mahajanapada → capital"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Chedi — Suktimati",
+    "Matsya — Viratanagara",
+    "Surasena — Mathura",
+    "Kamboja — Taxila"
+   ],
+   "a": 3,
+   "x": "Taxila was the capital of Gandhara. Rajapura was associated with Kamboja.",
+   "ty": "negative",
+   "tq": "Find the wrong ruler-or-capital style pairing among closely related ancient states.",
+   "sec": "Mahajanapada → capital"
+  },
+  {
+   "s": "The capital of Chedi, also known as Sotthivati, was identified with",
+   "o": [
+    "Indraprastha",
+    "Shuktimati",
+    "Kampilya",
+    "Potana"
+   ],
+   "a": 1,
+   "x": "Chedi had Sotthivati, also called Shuktimati, as its capital.",
+   "ty": "confusable",
+   "tq": "Discriminate between variant names of the same ancient capital.",
+   "sec": "Mahajanapada → capital"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Anga — Champa\n2. Vatsa — Kaushambi\n3. Surasena — Mathura\n4. Matsya — Viratanagara\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4",
+    "2 and 4 only"
+   ],
+   "a": 2,
+   "x": "All four pairs are correctly matched. Champa, Kaushambi, Mathura and Viratanagara were the capitals of Anga, Vatsa, Surasena and Matsya respectively.",
+   "ty": "statements",
+   "tq": "Recognise a complete set of familiar capital pairs before considering partial codes.",
+   "sec": "Mahajanapada → capital"
+  },
+  {
+   "s": "Which one of the following correctly describes the location of Assaka?",
+   "o": [
+    "In the north-west frontier, on the Vipas and along the Himalayan route",
+    "South of the Vindhyas, on the Godavari and along the Dakshinapatha",
+    "North of the Ganga, on the Sarayu and along the Uttarapatha",
+    "In Rajasthan, on the Chambal and along the western trade route"
+   ],
+   "a": 1,
+   "x": "Assaka was the only Mahajanapada south of the Vindhyas. It lay on the Godavari in the Telangana–Maharashtra region and on the Dakshinapatha route.",
+   "ty": "application",
+   "tq": "Combine direction, river and route clues to identify the region.",
+   "sec": "Present region, rivers, map identification"
+  },
+  {
+   "s": "Which of the following Mahajanapadas was located in the north-west frontier and was particularly associated with horse-breeding?",
+   "o": [
+    "Vajji",
+    "Chedi",
+    "Matsya",
+    "Kamboja"
+   ],
+   "a": 3,
+   "x": "Kamboja was situated in the north-west frontier region and was noted for horse-breeding.",
+   "ty": "fact",
+   "tq": "Use the distinctive economic or geographical association to identify the state.",
+   "sec": "Present region, rivers, map identification"
+  },
+  {
+   "s": "Chedi, Matsya and Kamboja were respectively associated with which of the following regions?",
+   "o": [
+    "Bundelkhand, Rajasthan and the north-west frontier",
+    "Rajasthan, Bundelkhand and eastern Bihar",
+    "North-west frontier, Bundelkhand and Rajasthan",
+    "Eastern Bihar, Rajasthan and Bundelkhand"
+   ],
+   "a": 0,
+   "x": "Chedi was associated with Bundelkhand, Matsya with Rajasthan and Kamboja with the north-west frontier.",
+   "ty": "match",
+   "tq": "Match each state with its regional location before checking the combined sequence.",
+   "sec": "Present region, rivers, map identification"
+  },
+  {
+   "s": "Consider the following statements regarding the geographical distribution of the Mahajanapadas:\n1. Eight of the sixteen Mahajanapadas lay in present-day Uttar Pradesh.\n2. Assaka was the only Mahajanapada situated south of the Vindhyas.\n3. Gandhara was located in the Malwa region.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Eight Mahajanapadas lay in present-day Uttar Pradesh, and Assaka was the only one south of the Vindhyas. Gandhara was in the north-west, not Malwa.",
+   "ty": "statements",
+   "tq": "Reject the wrong-region statement while retaining the numerical and exceptional facts.",
+   "sec": "Present region, rivers, map identification"
+  },
+  {
+   "s": "Which of the following river–Mahajanapada pairs are correctly matched?\n1. Kashi — Ganga–Varuna confluence\n2. Kosala — Sarayu\n3. Vatsa — Yamuna\n4. Avanti — Sipra\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Kashi was associated with the Ganga–Varuna confluence, Kosala with the Sarayu, Vatsa with the Yamuna and Avanti with the Sipra.",
+   "ty": "statements",
+   "tq": "Check each river association independently; all four geographical links are correct.",
+   "sec": "Present region, rivers, map identification"
+  },
+  {
+   "s": "The Mahajanapada associated with the region of Patna–Gaya in Bihar was",
+   "o": [
+    "Anga",
+    "Magadha",
+    "Vajji",
+    "Kashi"
+   ],
+   "a": 1,
+   "x": "Magadha occupied the Patna–Gaya region of Bihar.",
+   "ty": "fact",
+   "tq": "Use the present-region clue to distinguish neighbouring eastern Mahajanapadas.",
+   "sec": "Present region, rivers, map identification"
+  },
+  {
+   "s": "The sixteen Mahajanapadas are listed in the Anguttara Nikaya, which belongs to the",
+   "o": [
+    "Vinaya Pitaka of Buddhism",
+    "Jain Agamas",
+    "Sutta Pitaka of Buddhism",
+    "Arthashastra tradition"
+   ],
+   "a": 2,
+   "x": "The Buddhist Anguttara Nikaya, a text of the Sutta Pitaka, lists the sixteen Mahajanapadas.",
+   "ty": "fact",
+   "tq": "Separate the Buddhist source and its textual division from other religious and political sources.",
+   "sec": "Sources listing them"
+  },
+  {
+   "s": "Which one of the following statements about the Bhagavati Sutra is correct?",
+   "o": [
+    "It is an account restricted to the kingdoms south of the Vindhyas.",
+    "It is a Mauryan inscription listing republican states.",
+    "It is a Jain source that gives a list different from that of the Anguttara Nikaya.",
+    "It is a Buddhist source that gives only the four major powers."
+   ],
+   "a": 2,
+   "x": "The Bhagavati Sutra is a Jain source and gives a different list of Mahajanapadas from the Buddhist Anguttara Nikaya.",
+   "ty": "fact",
+   "tq": "Apply the source–religion association and avoid confusing parallel lists.",
+   "sec": "Sources listing them"
+  },
+  {
+   "s": "The Bhagavati Sutra is particularly noted for adding names such as",
+   "o": [
+    "Kuru, Panchala and Matsya",
+    "Vajji, Malla and Gandhara",
+    "Vanga, Malava and Ladha",
+    "Magadha, Kosala and Vatsa"
+   ],
+   "a": 2,
+   "x": "The Jain Bhagavati Sutra gives a different list and includes eastern and southern names such as Vanga, Malava and Ladha or Radha.",
+   "ty": "fact",
+   "tq": "Recall the distinctive additions in the alternate list rather than the common Mahajanapada names.",
+   "sec": "Sources listing them"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes a gana-sangha from a monarchy in the Mahajanapada period?",
+   "o": [
+    "A gana-sangha was governed through an assembly of clans, whereas a monarchy was headed by a hereditary king.",
+    "A gana-sangha was headed by a hereditary king, whereas a monarchy was governed by clan chiefs.",
+    "Both systems were governed exclusively by elected officials.",
+    "Both systems derived authority only from regular state taxes."
+   ],
+   "a": 0,
+   "x": "Gana-sanghas involved shared power through clan assemblies, while monarchies were ruled by a single hereditary king.",
+   "ty": "comparison",
+   "tq": "Compare the governing authority rather than confusing the two political forms.",
+   "sec": "Ganasanghas vs monarchies"
+  },
+  {
+   "s": "In a gana-sangha, revenue was generally obtained through contributions from members, whereas a monarchy relied on regular collections known as",
+   "o": [
+    "Bali, Bhaga and Shulka",
+    "Kara, Hiranya and Nishka",
+    "Bhaga, Dana and Yajna",
+    "Vetti, Sulka and Kudi"
+   ],
+   "a": 0,
+   "x": "Gana-sanghas depended on contributions from members, while monarchies collected regular Bali, Bhaga and Shulka.",
+   "ty": "comparison",
+   "tq": "Use the revenue contrast to distinguish institutional features of republics and monarchies.",
+   "sec": "Ganasanghas vs monarchies"
+  },
+  {
+   "s": "Which of the following was regarded as a strength of gana-sanghas rather than of monarchies?",
+   "o": [
+    "Freedom from factional disputes",
+    "Centralised hereditary succession",
+    "Quick decisions and rapid territorial expansion",
+    "Collective wisdom and checks on tyranny"
+   ],
+   "a": 3,
+   "x": "Collective wisdom and checks on tyranny were strengths of gana-sanghas. Quick decisions and expansion were associated with monarchies.",
+   "ty": "comparison",
+   "tq": "Identify the positive feature belonging to the collective system, not the centralised one.",
+   "sec": "Ganasanghas vs monarchies"
+  },
+  {
+   "s": "Consider the following statements:\n1. Vajji, Malla and Kamboja were associated with gana-sangha traditions.\n2. Kamboja is described as a later republic in the Arthashastra tradition.\n3. All the Mahajanapadas were monarchies.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Vajji and Malla were gana-sanghas, and Kamboja was regarded as a later republic in the Arthashastra tradition. Therefore, the statement that all Mahajanapadas were monarchies is false.",
+   "ty": "statements",
+   "tq": "Watch for the absolute word “all” in a classification question.",
+   "sec": "Ganasanghas vs monarchies"
+  },
+  {
+   "s": "The Vajji confederacy is best described as a confederacy of approximately",
+   "o": [
+    "2–3 clans",
+    "15–16 clans",
+    "8–9 clans",
+    "20–21 clans"
+   ],
+   "a": 2,
+   "x": "Vajji was a confederacy of approximately eight to nine clans, including the Lichchhavis, Videhas, Jnatrikas and Vajjis.",
+   "ty": "numerical",
+   "tq": "Retain the narrow numerical range and eliminate exaggerated alternatives.",
+   "sec": "Ganasanghas vs monarchies"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with the political organisation or historical association?",
+   "o": [
+    "Vajji — Vaishali and leadership under Chetaka",
+    "Malla — Pataliputra and leadership under Bimbisara",
+    "Shakya — Taxila and leadership under Pradyota",
+    "Kamboja — Rajagriha and leadership under Ajatashatru"
+   ],
+   "a": 0,
+   "x": "Vajji had its capital at Vaishali and was led by Chetaka, who was the maternal uncle of Mahavira.",
+   "ty": "match",
+   "tq": "Combine capital, leader and political identity to defeat swapped-association distractors.",
+   "sec": "Ganasanghas vs monarchies"
+  },
+  {
+   "s": "The assembly hall in which the affairs of a gana-sangha were conducted was called the",
+   "o": [
+    "Agrahara",
+    "Rajadhani",
+    "Santhagara",
+    "Sabha-griha"
+   ],
+   "a": 2,
+   "x": "Clan chiefs of a gana-sangha met in an assembly hall called the santhagara to conduct public affairs.",
+   "ty": "fact",
+   "tq": "Test the exact institutional term instead of a generic word for assembly.",
+   "sec": "Ganasanghas vs monarchies"
+  },
+  {
+   "s": "Which of the following statements regarding the republican clans is correct?\n1. The Shakyas were associated with Kapilavastu.\n2. The Mallas were associated with Kusinara and Pava.\n3. Buddha attained parinirvana at Kusinara.\n4. Mahavira died at Pava.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The Shakyas were associated with Kapilavastu, the Mallas with Kusinara and Pava, Buddha's parinirvana with Kusinara, and Mahavira's death with Pava.",
+   "ty": "statements",
+   "tq": "Treat the four linked clan-and-event statements as a complete factual set.",
+   "sec": "Ganasanghas vs monarchies"
+  },
+  {
+   "s": "Which one of the following sets contains only rulers contemporary with the Buddha?",
+   "o": [
+    "Bimbisara, Prasenajit, Udayana and Chanda Pradyota",
+    "Ashoka, Prasenajit, Udayana and Chanda Pradyota",
+    "Bimbisara, Chandragupta Maurya, Pukkusati and Avantiputra",
+    "Samudragupta, Bimbisara, Udayana and Pukkusati"
+   ],
+   "a": 0,
+   "x": "Bimbisara, Prasenajit, Udayana and Chanda Pradyota are all listed as rulers contemporary with the Buddha.",
+   "ty": "fact",
+   "tq": "Separate the contemporary ruler group from rulers of later imperial periods.",
+   "sec": "Rulers contemporary with the Buddha"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Bimbisara — Magadha\n2. Prasenajit — Kosala\n3. Udayana — Vatsa\n4. Pukkusati — Gandhara\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Bimbisara, Prasenajit, Udayana and Pukkusati were associated with Magadha, Kosala, Vatsa and Gandhara respectively.",
+   "ty": "match",
+   "tq": "Verify each ruler–kingdom pair independently before selecting the complete combination.",
+   "sec": "Rulers contemporary with the Buddha"
+  },
+  {
+   "s": "Avantiputra, described as a disciple of the Buddha, was associated with",
+   "o": [
+    "Vatsa",
+    "Kosala",
+    "Surasena",
+    "Avanti"
+   ],
+   "a": 2,
+   "x": "Avantiputra was associated with Surasena and is described as a disciple of the Buddha.",
+   "ty": "fact",
+   "tq": "Distinguish the similarly named Avantiputra from the ruler of Avanti, Chanda Pradyota.",
+   "sec": "Rulers contemporary with the Buddha"
+  },
+  {
+   "s": "The famous romance between Udayana and Vasavadatta is associated with the fact that Vasavadatta was the daughter of",
+   "o": [
+    "Bimbisara",
+    "Chanda Pradyota",
+    "Prasenajit",
+    "Pukkusati"
+   ],
+   "a": 1,
+   "x": "Vasavadatta, the daughter of Chanda Pradyota of Avanti, was associated with the famous romance of Udayana of Vatsa.",
+   "ty": "fact",
+   "tq": "Use the family relationship to distinguish the rival rulers of Avanti and Vatsa.",
+   "sec": "Rulers contemporary with the Buddha"
+  },
+  {
+   "s": "The romance of Udayana and Vasavadatta was dramatised in Bhasa's",
+   "o": [
+    "Malavikagnimitra",
+    "Mudrarakshasa",
+    "Svapnavasavadatta",
+    "Mrichchhakatika"
+   ],
+   "a": 2,
+   "x": "Bhasa's Svapnavasavadatta is the famous literary work associated with the romance of Udayana and Vasavadatta.",
+   "ty": "fact",
+   "tq": "Apply the author–work matching method to a literary association.",
+   "sec": "Rulers contemporary with the Buddha"
+  },
+  {
+   "s": "Which of the following four powers dominated the political landscape during the period of the Mahajanapadas?\n1. Magadha\n2. Kosala\n3. Vatsa\n4. Avanti\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Magadha, Kosala, Vatsa and Avanti were the four dominant powers of the period.",
+   "ty": "statements",
+   "tq": "Recognise the complete group of major powers rather than selecting only the eventual victor.",
+   "sec": "Rivalries among the four powers"
+  },
+  {
+   "s": "Which one of the following correctly describes the rivalry among the major powers?",
+   "o": [
+    "Pradyota was a subordinate of Bimbisara and never opposed Udayana.",
+    "Pradyota rivalled both Bimbisara and Udayana.",
+    "Udayana conquered Avanti and ended the Shishunaga dynasty.",
+    "Kosala remained permanently independent of all conflicts over Kashi."
+   ],
+   "a": 1,
+   "x": "Chanda Pradyota of Avanti rivalled Bimbisara of Magadha and Udayana of Vatsa.",
+   "ty": "fact",
+   "tq": "Identify the correct rival relationships and reject reversed political roles.",
+   "sec": "Rivalries among the four powers"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. Magadha later took Kashi as dowry and by war\nB. Kosala annexed Kashi\nC. Shishunaga ended Avanti\nD. Magadha emerged as the supreme power\nSelect the correct answer using the code given below.",
+   "o": [
+    "B, A, C, D",
+    "A, B, C, D",
+    "B, C, A, D",
+    "C, B, A, D"
+   ],
+   "a": 0,
+   "x": "Kosala first annexed Kashi; Magadha subsequently acquired it through dowry and war. Shishunaga later ended Avanti, after which Magadha emerged supreme.",
+   "ty": "chronology",
+   "tq": "Fix the first event and then follow the sequence from regional rivalry to Magadhan supremacy.",
+   "sec": "Rivalries among the four powers"
+  },
+  {
+   "s": "Which one of the following statements is NOT correct regarding the rise of Magadha?",
+   "o": [
+    "Magadha remained permanently subordinate to Kosala and Avanti.",
+    "The Shishunaga rulers brought the power of Avanti to an end.",
+    "Magadha was one of the four dominant powers of the period.",
+    "Magadha eventually emerged as the supreme power between the sixth and fourth centuries BCE."
+   ],
+   "a": 0,
+   "x": "Magadha did not remain subordinate; it ultimately emerged as the supreme power between the sixth and fourth centuries BCE. The other statements correctly describe its rise.",
+   "ty": "negative",
+   "tq": "Find the historically reversed conclusion in a question containing several true statements.",
+   "sec": "Rivalries among the four powers"
+  }
+ ]
+}

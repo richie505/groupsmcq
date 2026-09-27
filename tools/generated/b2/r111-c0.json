@@ -1,0 +1,610 @@
+{
+ "book": 2,
+ "row": 111,
+ "chunk": 0,
+ "section": "Tribe - definition, classification, distribution and characteristics",
+ "subsections": [
+  "Number of notified STs - India and Andhra Pradesh (1976 Amendment Act, later orders)",
+  "Tribes of India → state/UT and population rank",
+  "Scheduled Tribe definition and criteria - Art. 366(25), Art. 342, Lokur criteria",
+  "Distribution - states with highest ST population and share (Census 2011), tribal zones",
+  "PVTGs - criteria, numbers, states, AP list"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 46,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which of the following groups are Scheduled Tribes only in the Agency Tracts of the erstwhile Andhra Pradesh?",
+   "o": [
+    "Gowdu, Nayak and Valmiki",
+    "Mali, Nayak and Thoti",
+    "Gowdu, Mali and Thoti",
+    "Mali, Thoti and Valmiki"
+   ],
+   "a": 0,
+   "x": "Gowdu, Nayak and Valmiki carry area restrictions and are Scheduled Tribes only in the Agency Tracts of the erstwhile State.",
+   "ty": "fact",
+   "tq": "Separate the area-restricted groups from the complete list of five restricted tribes.",
+   "sec": "Number of notified STs - India and Andhra Pradesh (1976 Amendment Act, later orders)"
+  },
+  {
+   "s": "Which one of the following States has the largest number of notified Scheduled Tribes?",
+   "o": [
+    "Madhya Pradesh",
+    "Odisha",
+    "Chhattisgarh",
+    "Jharkhand"
+   ],
+   "a": 1,
+   "x": "Odisha has the largest number of notified tribes, numbering 62.",
+   "ty": "numerical",
+   "tq": "Distinguish the number of notified tribes from the size of the ST population.",
+   "sec": "Number of notified STs - India and Andhra Pradesh (1976 Amendment Act, later orders)"
+  },
+  {
+   "s": "With reference to the number of Scheduled Tribes in India, which of the following statements is correct?",
+   "o": [
+    "India has over 700 tribes notified under Article 342, while Census 2011 counted 698.",
+    "India has fewer than 500 tribes notified under Article 342, while Census 2011 counted over 700.",
+    "India has exactly 698 notified tribes under Article 342.",
+    "All notified tribes are confined to one State or Union Territory each."
+   ],
+   "a": 0,
+   "x": "More than 700 tribes are notified under Article 342, with some overlapping more than one State; Census 2011 counted 698.",
+   "ty": "comparison",
+   "tq": "Separate the notified-list figure from the Census enumeration figure.",
+   "sec": "Number of notified STs - India and Andhra Pradesh (1976 Amendment Act, later orders)"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Bhil — Rajasthan, Gujarat, Madhya Pradesh and Chhattisgarh",
+    "Gond — Meghalaya",
+    "Munda — Andaman Islands",
+    "Khasi — Great Nicobar"
+   ],
+   "a": 0,
+   "x": "The Bhils are mainly associated with Rajasthan, Gujarat, Madhya Pradesh and Chhattisgarh.",
+   "ty": "match",
+   "tq": "Use the main geographical distribution of each major tribe to eliminate swapped locations.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "Arrange the following tribes in descending order of their population rank as given in the major-tribe list:\nA. Minas\nB. Santhals\nC. Bhils\nD. Oraons\nE. Gonds\nF. Naikdas",
+   "o": [
+    "C, E, B, A, F, D",
+    "E, C, B, A, F, D",
+    "C, B, E, A, F, D",
+    "C, E, A, B, F, D"
+   ],
+   "a": 0,
+   "x": "The order is Bhils, Gonds, Santhals, Minas, Naikdas and Oraons.",
+   "ty": "chronology",
+   "tq": "Fix the first three major tribes before completing the sequence.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "The name of the Bhil tribe is derived from which word meaning bow?",
+   "o": [
+    "Billu",
+    "Manjhi",
+    "Paragana",
+    "Ghotul"
+   ],
+   "a": 0,
+   "x": "The name Bhil is derived from the word 'billu', meaning bow.",
+   "ty": "fact",
+   "tq": "Test the exact etymological association rather than a tribal institution or title.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "The Mangarh massacre of 1913 is associated with which tribal community and leader?",
+   "o": [
+    "Bhil and Govind Guru",
+    "Gond and Birsa Munda",
+    "Munda and Tantya Bhil",
+    "Santhal and Sidhu Murmu"
+   ],
+   "a": 0,
+   "x": "The 1913 Mangarh massacre is associated with the Bhils and Govind Guru.",
+   "ty": "fact",
+   "tq": "Match the historical event with its correct tribe and associated leader.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "Which one of the following statements about the Gond tribe is correct?",
+   "o": [
+    "It is the largest tribe and speaks an Austro-Asiatic language.",
+    "It is a Negrito group of the Andaman Islands.",
+    "It is the second-largest tribe, and Gondi belongs to the Dravidian family.",
+    "It is mainly found in Meghalaya and follows matrilineal inheritance."
+   ],
+   "a": 2,
+   "x": "The Gonds are the second-largest tribe in the listed population ranking, and Gondi is a Dravidian language.",
+   "ty": "fact",
+   "tq": "Combine population rank, language family and distribution to reject mixed descriptions.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "Which of the following is correctly matched?",
+   "o": [
+    "Santhal — Manjhi-Paragana system",
+    "Munda — Santali language",
+    "Gond — Magha/Ba festival",
+    "Khasi — Ghotul institution"
+   ],
+   "a": 0,
+   "x": "The Santhals are associated with the Manjhi-Paragana system. Santali is associated with the Santhals, while Ghotul is associated with the Gonds and Magha/Ba with the Mundas.",
+   "ty": "match",
+   "tq": "Start from the sure institutional association and identify the swapped alternatives.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "President Droupadi Murmu belongs to which tribal community?",
+   "o": [
+    "Gond",
+    "Santhal",
+    "Bhil",
+    "Munda"
+   ],
+   "a": 1,
+   "x": "President Droupadi Murmu is a member of the Santhal tribal community.",
+   "ty": "fact",
+   "tq": "Link the constitutional office-holder with the community explicitly associated with her.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "Which of the following statements regarding the Munda and Khasi communities is correct?",
+   "o": [
+    "Mundas are Negrito, while the Khasi community is located in Great Nicobar.",
+    "Mundas are Austro-Asiatic, while the Khasi community is associated with Meghalaya and matrilineal inheritance.",
+    "Mundas are mainly found in Lakshadweep, while Khasi is an Andamanese group.",
+    "Mundas speak Gondi, while Khasi inheritance follows the eldest-son rule."
+   ],
+   "a": 1,
+   "x": "The Munda language is classified as Austro-Asiatic. Khasi is the largest community of Meghalaya and follows matrilineal inheritance.",
+   "ty": "comparison",
+   "tq": "Compare the two communities across language, location and social organisation.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "Among the Khasi, who traditionally inherits the family property?",
+   "o": [
+    "The youngest daughter",
+    "The eldest son",
+    "The eldest daughter only after marriage",
+    "The village headman"
+   ],
+   "a": 0,
+   "x": "Khasi society is matrilineal, and the youngest daughter inherits the family property.",
+   "ty": "fact",
+   "tq": "Test the specific inheritance rule rather than the general label of matriliny.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with respect to the Andaman and Nicobar tribes?",
+   "o": [
+    "Shompen — Great Nicobar",
+    "Jarawa — North Sentinel Island",
+    "Onge — North Sentinel Island",
+    "Sentinelese — Little Andaman"
+   ],
+   "a": 0,
+   "x": "The Shompen are associated with Great Nicobar. Jarawa are associated with the Andaman Islands, Onge with Little Andaman and Sentinelese with North Sentinel Island.",
+   "ty": "match",
+   "tq": "Use island-specific locations to distinguish closely associated Andaman groups.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "Which one of the following correctly describes the Shompen?",
+   "o": [
+    "They are a Negrito group of Little Andaman speaking an Austro-Asiatic language.",
+    "They are a nomadic group of Rajasthan associated with the Bhil community.",
+    "They are the uncontacted people of North Sentinel Island and speak Santali.",
+    "They are associated with Great Nicobar, are described as Mongoloid and speak Shompenese, an Austro-Asiatic language."
+   ],
+   "a": 3,
+   "x": "The Shompen are located in Great Nicobar, are described as Mongoloid, and speak Shompenese, an Austro-Asiatic language.",
+   "ty": "confusable",
+   "tq": "Discriminate the Shompen from the Negrito groups of the Andaman Islands.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "Consider the following statements about the Sentinelese:\n1. They inhabit North Sentinel Island.\n2. Their tribal reserve was created in 1956.\n3. A prohibited zone extending three nautical miles surrounds the island.\n4. They are identified as a Negrito group in the classification given.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. The classification given identifies the Sentinelese as likely the world's only surviving uncontacted Palaeolithic people, not as a Negrito group.",
+   "ty": "statements",
+   "tq": "Check the precise classification separately from the location and protection facts.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "Which of the following statements about the Bhil population share should be accepted for Census-based interpretation?",
+   "o": [
+    "No population-share estimate is available for the Bhils.",
+    "The Census 2011 count indicates approximately 16% of India’s ST population, while a 38% figure appears in some notes.",
+    "The Bhils constitute exactly 38% of India’s ST population according to Census 2011.",
+    "The Bhils constitute less than 1% of India’s ST population."
+   ],
+   "a": 1,
+   "x": "The Census 2011 count of about 1.7 crore out of roughly 10.4 crore STs is closer to 16%; the 38% figure appears in some sources but is not consistent with that Census calculation.",
+   "ty": "numerical",
+   "tq": "Reconcile a competing percentage with the underlying population figures.",
+   "sec": "Tribes of India → state/UT and population rank"
+  },
+  {
+   "s": "The term 'tribe' is derived from which Latin word?",
+   "o": [
+    "Trivium",
+    "Tribus",
+    "Tractatus",
+    "Tributum"
+   ],
+   "a": 1,
+   "x": "The term tribe is derived from the Latin word 'tribus'.",
+   "ty": "fact",
+   "tq": "Test the exact origin of the term rather than a similar Latin-looking distractor.",
+   "sec": "Scheduled Tribe definition and criteria - Art. 366(25), Art. 342, Lokur criteria"
+  },
+  {
+   "s": "Marshall Sahlins described a tribe as which of the following?",
+   "o": [
+    "A territorial unit administered directly by Parliament",
+    "A segmental organisation of equivalent, unspecialised multi-family groups, clans or bands",
+    "A religious association restricted to urban occupations",
+    "A centralised state based exclusively on hereditary monarchy"
+   ],
+   "a": 1,
+   "x": "Marshall Sahlins described a tribe as a segmental organisation of equivalent, unspecialised multi-family groups, clans or bands.",
+   "ty": "fact",
+   "tq": "Recall the precise definitional wording and reject broader administrative descriptions.",
+   "sec": "Scheduled Tribe definition and criteria - Art. 366(25), Art. 342, Lokur criteria"
+  },
+  {
+   "s": "With reference to Article 342, consider the following statements:\n1. The President specifies the Scheduled Tribes after consultation with the Governor.\n2. The first order was the Constitution (Scheduled Tribes) Order, 1950.\n3. Parliament alone can include or exclude communities from the list by law.\n4. A Scheduled Tribe list is identical for the whole of India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is false because Scheduled Tribe lists are State- or Union Territory-specific.",
+   "ty": "statements",
+   "tq": "Identify the constitutional authority and reject the absolute claim of one identical national list.",
+   "sec": "Scheduled Tribe definition and criteria - Art. 366(25), Art. 342, Lokur criteria"
+  },
+  {
+   "s": "Which of the following is NOT one of the criteria associated with the identification of Particularly Vulnerable Tribal Groups under the stated framework?",
+   "o": [
+    "High level of urbanisation",
+    "Low literacy",
+    "Pre-agricultural technology",
+    "Declining or stagnant population"
+   ],
+   "a": 0,
+   "x": "The four PVTG criteria are pre-agricultural technology, low literacy, economic backwardness and declining or stagnant population. High urbanisation is not one of them.",
+   "ty": "negative",
+   "tq": "Find the criterion that is conceptually opposite to the vulnerability indicators.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "Which of the following sets contains the five criteria traditionally associated with the Lokur Committee approach to Scheduled Tribes?",
+   "o": [
+    "Land ownership, religious conversion, language, occupation and urban residence",
+    "Population density, rainfall, forest cover, literacy and coastal location",
+    "Primitive traits, distinctive culture, geographical isolation, shyness of contact and backwardness",
+    "Urbanisation, industrialisation, literacy, political representation and migration"
+   ],
+   "a": 2,
+   "x": "The criteria are primitive traits, distinctive culture, geographical isolation, shyness of contact with the community at large and backwardness.",
+   "ty": "fact",
+   "tq": "Recall the complete five-part criteria set without replacing social criteria with development indicators.",
+   "sec": "Scheduled Tribe definition and criteria - Art. 366(25), Art. 342, Lokur criteria"
+  },
+  {
+   "s": "The criteria for identifying Scheduled Tribes were drawn from which of the following sources or committees?\n1. Census of 1931\n2. Kalelkar Committee, 1955\n3. Lokur Committee, 1965\n4. Chanda Committee, 1969\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The stated framework draws from the Census of 1931, the Kalelkar Committee of 1955, the Lokur Committee of 1965 and the Chanda Committee of 1969.",
+   "ty": "statements",
+   "tq": "Check all dates and institutional sources rather than relying only on the best-known Lokur Committee.",
+   "sec": "Scheduled Tribe definition and criteria - Art. 366(25), Art. 342, Lokur criteria"
+  },
+  {
+   "s": "According to Census 2011 figures given, Scheduled Tribes constituted approximately what share of India’s population?",
+   "o": [
+    "5.6%",
+    "8.6%",
+    "12.6%",
+    "15.0%"
+   ],
+   "a": 1,
+   "x": "Scheduled Tribes constituted approximately 8.6% of India’s population, numbering about 10.4 crore.",
+   "ty": "numerical",
+   "tq": "Distinguish population share from the separate figure for land-area coverage.",
+   "sec": "Distribution - states with highest ST population and share (Census 2011), tribal zones"
+  },
+  {
+   "s": "Scheduled Tribes occupy approximately what share of India’s land area according to the figures given?",
+   "o": [
+    "8.6%",
+    "10%",
+    "15%",
+    "25%"
+   ],
+   "a": 2,
+   "x": "Scheduled Tribes are stated to live on approximately 15% of India’s land area.",
+   "ty": "numerical",
+   "tq": "Separate the geographical-area figure from the population-percentage figure.",
+   "sec": "Distribution - states with highest ST population and share (Census 2011), tribal zones"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Highest ST population — Mizoram; highest ST share among States — Madhya Pradesh",
+    "Highest ST population — Madhya Pradesh; highest ST share among States — Mizoram",
+    "Highest ST population — Lakshadweep; highest ST share among States — Odisha",
+    "Highest ST population — Odisha; highest ST share among States — Lakshadweep"
+   ],
+   "a": 1,
+   "x": "Madhya Pradesh has the highest ST population, while Mizoram has the highest ST share among States at 94.4%. Lakshadweep has the highest overall share at 94.8%.",
+   "ty": "comparison",
+   "tq": "Keep absolute population and percentage share as separate measures.",
+   "sec": "Distribution - states with highest ST population and share (Census 2011), tribal zones"
+  },
+  {
+   "s": "The highest Scheduled Tribe share among the States, according to Census 2011, was recorded in:",
+   "o": [
+    "Odisha, at 22.8%",
+    "Mizoram, at 94.4%",
+    "Meghalaya, at 86.1%",
+    "Nagaland, at 89.5%"
+   ],
+   "a": 1,
+   "x": "Mizoram had the highest ST share among States, at 94.4%.",
+   "ty": "numerical",
+   "tq": "Distinguish the highest State share from the highest share including Union Territories.",
+   "sec": "Distribution - states with highest ST population and share (Census 2011), tribal zones"
+  },
+  {
+   "s": "Which Union Territory had the highest Scheduled Tribe share overall, at 94.8%?",
+   "o": [
+    "Andaman and Nicobar Islands",
+    "Lakshadweep",
+    "Puducherry",
+    "Chandigarh"
+   ],
+   "a": 1,
+   "x": "Lakshadweep had the highest overall Scheduled Tribe share, at 94.8%.",
+   "ty": "numerical",
+   "tq": "Read the qualifier 'overall' carefully and distinguish it from the highest share among States.",
+   "sec": "Distribution - states with highest ST population and share (Census 2011), tribal zones"
+  },
+  {
+   "s": "Which of the following is NOT included among the recognised tribal zones?",
+   "o": [
+    "North-Eastern/Himalayan zone",
+    "Central zone",
+    "Western zone",
+    "Coastal deltaic zone"
+   ],
+   "a": 3,
+   "x": "The recognised zones are North-Eastern/Himalayan, Central, Western, Southern and Island zones. A coastal deltaic zone is not included.",
+   "ty": "negative",
+   "tq": "Identify the geographically plausible but unlisted zone.",
+   "sec": "Distribution - states with highest ST population and share (Census 2011), tribal zones"
+  },
+  {
+   "s": "The principal tribal settlements in Andhra Pradesh are associated with which of the following areas?",
+   "o": [
+    "The coastal plains and urban corridors exclusively",
+    "The Krishna and Pennar deltas exclusively",
+    "The Eastern Ghats, including north coastal hill tracts and the Godavari basin, and the Nallamala belt",
+    "The Deccan plateau west of the Telangana border only"
+   ],
+   "a": 2,
+   "x": "In Andhra Pradesh, tribal settlements are concentrated in the Eastern Ghats, the north coastal hill tracts, the Godavari basin and the Nallamala belt. Settlement follows forested uplands rather than deltas.",
+   "ty": "application",
+   "tq": "Apply the distribution principle of forested uplands to the State’s physical regions.",
+   "sec": "Distribution - states with highest ST population and share (Census 2011), tribal zones"
+  },
+  {
+   "s": "Which of the following correctly states the distribution of Particularly Vulnerable Tribal Groups (PVTGs) in India?",
+   "o": [
+    "75 PVTGs in 18 States and one Union Territory",
+    "75 PVTGs in 28 States and no Union Territory",
+    "33 PVTGs in 18 States and two Union Territories",
+    "62 PVTGs in 18 States and one Union Territory"
+   ],
+   "a": 0,
+   "x": "There are 75 PVTGs distributed across 18 States and one Union Territory, namely the Andaman and Nicobar Islands.",
+   "ty": "numerical",
+   "tq": "Keep the total, number of States and number of Union Territories together as one factual unit.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "Which State has the highest number of PVTGs?",
+   "o": [
+    "Bihar",
+    "Andhra Pradesh including Telangana",
+    "Odisha",
+    "Madhya Pradesh"
+   ],
+   "a": 2,
+   "x": "Odisha has the highest number of PVTGs, with 13. Andhra Pradesh including Telangana has 12 and Bihar has 9.",
+   "ty": "numerical",
+   "tq": "Compare closely spaced State-wise counts rather than confusing PVTG numbers with notified-tribe numbers.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "Consider the following statements regarding PVTGs:\n1. Irular is included in the PVTG list.\n2. Konda Reddi is included in the PVTG list.\n3. Odisha has more PVTGs than Andhra Pradesh including Telangana.\n4. Bihar has nine PVTGs.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct: Irular and Konda Reddi are included, Odisha has 13 PVTGs, Andhra Pradesh including Telangana has 12, and Bihar has 9.",
+   "ty": "statements",
+   "tq": "Verify the two named groups along with the comparative numerical data.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "The category of Particularly Vulnerable Tribal Groups has the following historical sequence:\nA. Renaming of PTGs as PVTGs\nB. Dhebar Commission flags the least-developed groups\nC. PTG category follows\nWhich of the following is the correct chronological order?",
+   "o": [
+    "A, B, C",
+    "B, C, A",
+    "C, B, A",
+    "B, A, C"
+   ],
+   "a": 1,
+   "x": "The Dhebar Commission flagged the least-developed groups in 1960–61, the PTG category followed in 1973, and the term was renamed PVTGs in 2006.",
+   "ty": "chronology",
+   "tq": "Anchor the sequence with the earliest commission and the clearly later renaming.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "Which of the following statements about the history of the PVTG category is correct?",
+   "o": [
+    "The category was created by Article 366(25) in 1931.",
+    "The Dhebar Commission was constituted in 1973 and PVTG was renamed PTG in 2006.",
+    "The PTG category preceded the Dhebar Commission and was renamed in 1950.",
+    "The Dhebar Commission of 1960–61 flagged the least-developed groups, the PTG category followed in 1973, and the term PVTG was adopted in 2006."
+   ],
+   "a": 3,
+   "x": "The Dhebar Commission of 1960–61 identified the least-developed groups, the PTG category followed in 1973, and the term was changed to PVTGs in 2006.",
+   "ty": "fact",
+   "tq": "Watch the swapped dates and the reversed PTG–PVTG terminology.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "According to the population figures given for 2001, the PVTG population was approximately:",
+   "o": [
+    "7.68 lakh",
+    "17.68 lakh",
+    "27.68 lakh",
+    "37.68 lakh"
+   ],
+   "a": 2,
+   "x": "The population of PVTGs was approximately 27.68 lakh in 2001.",
+   "ty": "numerical",
+   "tq": "Use the exact historical population figure and distinguish lakh from crore-scale totals.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "Which of the following is correctly matched with the PVTG population ranking?",
+   "o": [
+    "Sahariyas — largest; Sentinelese and Andamanese — smallest",
+    "Sentinelese — largest; Sahariyas — smallest",
+    "Andamanese — largest; Sahariyas — smallest",
+    "Konda Reddis — largest; Irular — smallest"
+   ],
+   "a": 0,
+   "x": "Sahariyas are the largest PVTG population, while the Sentinelese and Andamanese are the smallest.",
+   "ty": "match",
+   "tq": "Match the extremes of the population ranking rather than a general PVTG characteristic.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "Which of the following is NOT included among the 12 Particularly Vulnerable Tribal Groups of undivided Andhra Pradesh?",
+   "o": [
+    "Chenchu",
+    "Konda Savaras",
+    "Konda Reddis",
+    "Bodo Gadaba"
+   ],
+   "a": 2,
+   "x": "The 12 listed groups include Chenchu, Konda Savaras and Bodo Gadaba, but Konda Reddis is not in that specific list of 12 undivided Andhra Pradesh groups.",
+   "ty": "negative",
+   "tq": "Distinguish a PVTG associated with the broader national list from the specified undivided-AP list.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "Which one of the following sets contains only groups included in the list of 12 PVTGs of undivided Andhra Pradesh?",
+   "o": [
+    "Bodo Gadaba, Gutob Gadaba, Bondo Poraja and Chenchu",
+    "Irular, Sahariya, Chenchu and Sentinelese",
+    "Konda Reddi, Irular, Kolam and Thoti",
+    "Jarawa, Onge, Chenchu and Konda Savaras"
+   ],
+   "a": 0,
+   "x": "Bodo Gadaba, Gutob Gadaba, Bondo Poraja and Chenchu are all included in the 12-group list of undivided Andhra Pradesh.",
+   "ty": "match",
+   "tq": "Check every member of the set against the State-specific list.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "How many of the 12 PVTG groups of undivided Andhra Pradesh are stated to remain in residual Andhra Pradesh after bifurcation?",
+   "o": [
+    "5",
+    "7",
+    "9",
+    "12"
+   ],
+   "a": 1,
+   "x": "The APP notes state that seven of the 12 groups remain in residual Andhra Pradesh after bifurcation.",
+   "ty": "numerical",
+   "tq": "Distinguish the undivided-State total from the post-bifurcation residual-State count.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched from the list of 12 PVTGs of undivided Andhra Pradesh?",
+   "o": [
+    "Dongaria Khonds — included; Kuttiya Kondhs — included",
+    "Jarawa — included; Onge — included",
+    "Sahariya — included; Irular — included",
+    "Sentinelese — included; Andamanese — included"
+   ],
+   "a": 0,
+   "x": "Dongaria Khonds and Kuttiya Kondhs are both among the 12 PVTGs listed for undivided Andhra Pradesh.",
+   "ty": "match",
+   "tq": "Use the State-specific list to distinguish it from the Andaman and national PVTG examples.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "Which programme specifically targets Particularly Vulnerable Tribal Groups?",
+   "o": [
+    "PM JANMAN",
+    "UDAN",
+    "PM-KISAN",
+    "AMRUT"
+   ],
+   "a": 0,
+   "x": "PM JANMAN is designed to target Particularly Vulnerable Tribal Groups.",
+   "ty": "fact",
+   "tq": "Match the programme with its exact target group rather than a general rural-development scheme.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  },
+  {
+   "s": "The Ministry of Tribal Affairs sought separate enumeration of PVTGs in which Census?",
+   "o": [
+    "Census 2011",
+    "Census 2027",
+    "Census 2001",
+    "Census 2021"
+   ],
+   "a": 1,
+   "x": "The Ministry of Tribal Affairs sought separate PVTG enumeration in Census 2027.",
+   "ty": "numerical",
+   "tq": "Use the future Census year precisely and avoid confusing it with the population reference year 2001.",
+   "sec": "PVTGs - criteria, numbers, states, AP list"
+  }
+ ]
+}

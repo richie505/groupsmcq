@@ -1,0 +1,103 @@
+{
+ "book": 2,
+ "row": 154,
+ "chunk": 1,
+ "section": "India-Russia, India-EU, India-Japan, India-Israel, India-Gulf and India-Africa relations",
+ "subsections": [
+  "CEPA/FTA agreements - partner and year",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 6,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Match List-I with List-II with reference to India's economic agreements:\n\nList-I (Agreement type)\na. CEPA with South Korea\nb. CEPA with Japan\nc. CECA with Singapore\nd. CECA with Malaysia\n\nList-II (Year)\ni. 2005\nii. 2010\niii. 2011\niv. 2011\n\nSelect the correct answer using the codes given below:",
+   "o": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-iv, c-ii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iv, b-ii, c-iii, d-i"
+   ],
+   "a": 2,
+   "x": "India signed the CEPA with South Korea in 2010 and with Japan in 2011. The CECAs with Singapore and Malaysia were signed in 2005 and 2011, respectively.",
+   "ty": "match",
+   "tq": "Start with the distinctive year-partner pairs and then eliminate codes that reverse the two 2011 agreements.",
+   "sec": "CEPA/FTA agreements - partner and year"
+  },
+  {
+   "s": "Match List-I with List-II with reference to India's economic agreements:\n\nList-I (Agreement type)\na. CECPA with Mauritius\nb. CEPA with the UAE\nc. ECTA with Australia\nd. TEPA with EFTA\n\nList-II (Partner and year)\ni. Australia — 2022\nii. EFTA — 2024\niii. Mauritius — 2021\niv. UAE — 2022\n\nSelect the correct answer using the codes given below:",
+   "o": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "a": 0,
+   "x": "The CECPA with Mauritius was concluded in 2021, the CEPA with the UAE and ECTA with Australia in 2022, and the TEPA with EFTA in 2024.",
+   "ty": "match",
+   "tq": "Use the agreement acronyms as anchors and verify the partner-year pair before selecting the code.",
+   "sec": "CEPA/FTA agreements - partner and year"
+  },
+  {
+   "s": "Consider the following agreements:\n1. CETA with the United Kingdom\n2. CEPA with Oman\n3. TEPA with EFTA\n\nWhich one of the agreements given above was concluded in 2025?",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "2 and 3 only"
+   ],
+   "a": 2,
+   "x": "The CETA with the United Kingdom was concluded in 2025, and the CEPA with Oman was signed in 2025. The TEPA with EFTA belongs to 2024.",
+   "ty": "statements",
+   "tq": "Separate agreements by year and identify the two entries sharing 2025 rather than relying on the acronym alone.",
+   "sec": "CEPA/FTA agreements - partner and year"
+  },
+  {
+   "s": "With reference to the India-Oman economic partnership, which one of the following is correct?",
+   "o": [
+    "The CEPA was signed in 2024 and entered into force in 2025.",
+    "The CEPA was signed in 2026 and entered into force on 1 June 2026.",
+    "The CEPA was signed in 2025 but has not entered into force.",
+    "The CEPA was signed in 2025 and entered into force on 1 June 2026."
+   ],
+   "a": 3,
+   "x": "India and Oman signed the CEPA in 2025, and it entered into force on 1 June 2026.",
+   "ty": "numerical",
+   "tq": "Track both the signing year and the precise date of entry into force to avoid confusing agreement status with conclusion.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements correctly reflects a current development in India-European Union relations?",
+   "o": [
+    "The India-EU FTA was concluded in 2025 and entered into force in 2026.",
+    "The India-EU FTA was concluded in 2026.",
+    "The India-EU FTA was signed in 2024 but is yet to be concluded.",
+    "India and the European Union have not initiated negotiations for an FTA."
+   ],
+   "a": 1,
+   "x": "The India-EU FTA was reported as concluded in 2026. No entry-into-force date is specified here.",
+   "ty": "fact",
+   "tq": "Distinguish conclusion of an agreement from its signing or entry into force.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding the Gulf region's importance to India:\n1. The Gulf is India's largest socio-economic partner.\n2. India-Gulf trade is valued at approximately 160 billion dollars.\n3. Around 10 million members of the Indian diaspora live in the Gulf region.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the Gulf is India's largest socio-economic partner, bilateral trade is about 160 billion dollars, and the Indian diaspora there numbers approximately 10 million.",
+   "ty": "statements",
+   "tq": "Treat the status, trade figure and diaspora size as separate statements and check each quantitative detail.",
+   "sec": "Universal angles"
+  }
+ ]
+}

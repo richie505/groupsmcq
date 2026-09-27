@@ -1,0 +1,538 @@
+{
+ "book": 1,
+ "row": 36,
+ "chunk": 1,
+ "section": "Ashokan inscriptions - Major and Minor Rock Edicts, Pillar Edicts, sites, scripts, James Prinsep",
+ "subsections": [
+  "Major Rock Edict sites → present state",
+  "Pillar edicts → site and content",
+  "Major Rock Edict number → subject"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 39,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nSite — Present location",
+   "o": [
+    "Girnar — Gujarat",
+    "Kalsi — Himachal Pradesh",
+    "Dhauli — Andhra Pradesh",
+    "Jaugada — Maharashtra"
+   ],
+   "a": 0,
+   "x": "Girnar is located at Junagadh in Gujarat. Kalsi is in Uttarakhand, while Dhauli and Jaugada are in Odisha.",
+   "ty": "match",
+   "tq": "Start from the sure site–state pair and eliminate the swapped locations.",
+   "sec": "Major Rock Edict sites → present state"
+  },
+  {
+   "s": "Kalsi, an important site of Ashokan Major Rock Edicts, is located in which present-day State?",
+   "o": [
+    "Odisha",
+    "Uttarakhand",
+    "Maharashtra",
+    "Gujarat"
+   ],
+   "a": 1,
+   "x": "Kalsi is located in Dehradun district of Uttarakhand and contains the 14 Major Rock Edicts.",
+   "ty": "fact",
+   "tq": "Use direct location recall for an inscription site.",
+   "sec": "Major Rock Edict sites → present state"
+  },
+  {
+   "s": "Consider the following pairs:\n\n1. Shahbazgarhi — Pakistan\n2. Mansehra — Pakistan\n3. Kandahar — Afghanistan\n4. Erragudi — Karnataka\n\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Shahbazgarhi and Mansehra are in Pakistan, and Kandahar is in Afghanistan. Erragudi is in Andhra Pradesh, not Karnataka.",
+   "ty": "statements",
+   "tq": "Check the outlier location before evaluating the coded combinations.",
+   "sec": "Major Rock Edict sites → present state"
+  },
+  {
+   "s": "Which of the following sites is associated with Major Rock Edicts written in the Kharosthi script?",
+   "o": [
+    "Sopara",
+    "Girnar",
+    "Shahbazgarhi",
+    "Dhauli"
+   ],
+   "a": 2,
+   "x": "The Major Rock Edicts at Shahbazgarhi, and also at Mansehra, were written in Kharosthi script.",
+   "ty": "confusable",
+   "tq": "Discriminate between eastern and north-western inscription sites by script.",
+   "sec": "Major Rock Edict sites → present state"
+  },
+  {
+   "s": "Dhauli and Jaugada are both located in which present-day State?",
+   "o": [
+    "Andhra Pradesh",
+    "Gujarat",
+    "Odisha",
+    "Uttarakhand"
+   ],
+   "a": 2,
+   "x": "Dhauli is near Bhubaneswar and Jaugada is in Ganjam district, both in Odisha.",
+   "ty": "fact",
+   "tq": "Group sites sharing the same present State.",
+   "sec": "Major Rock Edict sites → present state"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Rajula Mandagiri — Minor Rock Edict",
+    "Maski — Minor Rock Edict naming Ashoka",
+    "Rummindei — Major Rock Edict site in Nepal",
+    "Sopara — Palghar/Thane, Maharashtra"
+   ],
+   "a": 2,
+   "x": "Rummindei is a pillar inscription site at Lumbini in Nepal, not a Major Rock Edict site. Sopara, Rajula Mandagiri and Maski are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the wrong inscription type rather than the wrong location.",
+   "sec": "Major Rock Edict sites → present state"
+  },
+  {
+   "s": "Which of the following sites is associated with a Minor Rock Edict in Andhra Pradesh?",
+   "o": [
+    "Rajula Mandagiri",
+    "Kalsi",
+    "Sarnath",
+    "Nigali Sagar"
+   ],
+   "a": 0,
+   "x": "Rajula Mandagiri in Andhra Pradesh is associated with a Minor Rock Edict. Nigali Sagar and Sarnath are pillar sites, while Kalsi is a Major Rock Edict site.",
+   "ty": "fact",
+   "tq": "Separate rock-edict sites from pillar-edict sites.",
+   "sec": "Major Rock Edict sites → present state"
+  },
+  {
+   "s": "The inscription at Maski is especially significant because it:",
+   "o": [
+    "Contains the only Pillar Edict VII",
+    "Names Ashoka explicitly",
+    "Records the enlargement of the Kanakamuni stupa",
+    "Records Samudragupta's prashasti"
+   ],
+   "a": 1,
+   "x": "The Maski Minor Rock Edict names Ashoka and calls him ‘Buddhashakya Ashok’.",
+   "ty": "fact",
+   "tq": "Identify the site from its distinctive inscriptional feature.",
+   "sec": "Major Rock Edict sites → present state"
+  },
+  {
+   "s": "Which of the following statements regarding the geographical distribution of Ashokan inscriptions is correct?\n\n1. Western sites such as Junagadh, Mansehra, Kalsi and Sopara indicate the western limit.\n2. Ashokan inscriptions are found in India, Bangladesh, Nepal, Pakistan and Afghanistan.\n3. The northern limit is associated with Kashmir through the account of Kalhana's Rajatarangini.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The western sites mark the western extent, the inscriptions occur across the listed modern countries, and Kashmir is connected with the northern limit through Kalhana's account of Jalauka.",
+   "ty": "statements",
+   "tq": "Use the all-inclusive option only after verifying each geographical statement.",
+   "sec": "Major Rock Edict sites → present state"
+  },
+  {
+   "s": "Which one of the following sites contains a Mahastupa with a portrait slab of Ashoka and his queen?",
+   "o": [
+    "Rummindei",
+    "Kanaganahalli",
+    "Girnar",
+    "Dhauli"
+   ],
+   "a": 1,
+   "x": "Kanaganahalli in Karnataka has a Mahastupa with a portrait slab depicting Ashoka and his queen.",
+   "ty": "fact",
+   "tq": "Match a distinctive monument feature with its site.",
+   "sec": "Major Rock Edict sites → present state"
+  },
+  {
+   "s": "The concentration of Ashokan pillar edicts in the Ganga plain is best explained by:",
+   "o": [
+    "The availability of river transport for moving monoliths",
+    "The absence of rock surfaces in the western region",
+    "The exclusive use of pillars in Buddhist monasteries",
+    "The location of all Mauryan capitals in the Ganga plain"
+   ],
+   "a": 0,
+   "x": "The pillar edicts cluster in the Ganga plain because river transport facilitated movement of the heavy monoliths.",
+   "ty": "application",
+   "tq": "Apply the stated geographical cause to explain the distribution pattern.",
+   "sec": "Pillar edicts → site and content"
+  },
+  {
+   "s": "Lumbini was granted which of the following concessions in the Rummindei pillar inscription?",
+   "o": [
+    "Exemption from bhaga but increase of bali to one-eighth",
+    "Complete exemption from all royal taxes and military service",
+    "Exemption from bali and reduction of bhaga to one-eighth",
+    "Reduction of bali to one-half and bhaga to one-fourth"
+   ],
+   "a": 2,
+   "x": "The village of Lumbini was exempted from bali, and its share of produce, bhaga, was reduced to one-eighth.",
+   "ty": "numerical",
+   "tq": "Distinguish the two fiscal concessions and retain the exact fraction.",
+   "sec": "Pillar edicts → site and content"
+  },
+  {
+   "s": "The Nigali Sagar pillar inscription records the enlargement of the stupa of:",
+   "o": [
+    "Sakyamuni",
+    "Kanakamuni",
+    "Mahavira",
+    "Dipankara"
+   ],
+   "a": 1,
+   "x": "The Nigali Sagar inscription records the enlargement of the Kanakamuni stupa in the fourteenth year.",
+   "ty": "fact",
+   "tq": "Link the pillar site with its specific religious monument.",
+   "sec": "Pillar edicts → site and content"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Sarnath — Schism Edict and lion capital",
+    "Delhi-Topra — Queen's Edict of Karuvaki",
+    "Nigali Sagar — Pillar Edict VII",
+    "Rummindei — Samudragupta's prashasti"
+   ],
+   "a": 0,
+   "x": "Sarnath has the Schism Edict and the lion capital that became India's national emblem. The other pairs associate each feature with the wrong pillar site.",
+   "ty": "match",
+   "tq": "Use the distinctive content of each pillar to reject swapped-site options.",
+   "sec": "Pillar edicts → site and content"
+  },
+  {
+   "s": "The Queen's Edict relating to Karuvaki's gifts is found on the pillar at:",
+   "o": [
+    "Delhi-Topra",
+    "Sarnath",
+    "Lauriya Nandangarh",
+    "Allahabad-Kosam"
+   ],
+   "a": 3,
+   "x": "The Allahabad-Kosam pillar contains Pillar Edicts I–VI, the Schism Edict and the Queen's Edict concerning Karuvaki's gifts.",
+   "ty": "fact",
+   "tq": "Identify the pillar from the named queen and her gifts.",
+   "sec": "Pillar edicts → site and content"
+  },
+  {
+   "s": "Which Ashokan pillar is the only one bearing Pillar Edict VII?",
+   "o": [
+    "Delhi-Topra",
+    "Allahabad-Kosam",
+    "Lauriya Nandangarh",
+    "Delhi-Meerut"
+   ],
+   "a": 0,
+   "x": "Pillar Edict VII occurs only on the Delhi-Topra pillar. It discusses rajukas, Ajivikas, Nirgranthas and persuasion in the spread of Dhamma.",
+   "ty": "confusable",
+   "tq": "Use the word ‘only’ as a precise site-identification clue, not as a guess.",
+   "sec": "Pillar edicts → site and content"
+  },
+  {
+   "s": "Pillar Edict VII places greater emphasis on the spread of Dhamma through:",
+   "o": [
+    "Persuasion rather than law",
+    "Compulsory conversion rather than persuasion",
+    "Military conquest rather than diplomacy",
+    "Sacrificial rituals rather than ethical conduct"
+   ],
+   "a": 0,
+   "x": "Pillar Edict VII states that Dhamma spreads better through persuasion than through law. It also refers to Ajivikas and Nirgranthas, the latter denoting Jainas.",
+   "ty": "application",
+   "tq": "Apply the contrast between persuasion and legal compulsion.",
+   "sec": "Pillar edicts → site and content"
+  },
+  {
+   "s": "The Schism Edict directed that dissenting monks and nuns should be:",
+   "o": [
+    "Appointed as rajukas",
+    "Sent to the Hellenistic kingdoms",
+    "Expelled from the Sangha",
+    "Exempted from disciplinary rules"
+   ],
+   "a": 2,
+   "x": "The Schism Edict provides for expulsion of dissenting monks and nuns. It is found at Kaushambi, Sanchi and Sarnath, among other recorded locations in the material.",
+   "ty": "fact",
+   "tq": "Recall the administrative consequence prescribed by the edict.",
+   "sec": "Pillar edicts → site and content"
+  },
+  {
+   "s": "Pillar Edict II is primarily concerned with:",
+   "o": [
+    "Appointing Dhamma Mahamatras",
+    "Banning animal sacrifice",
+    "Defining Dhamma",
+    "Recording the Kalinga War"
+   ],
+   "a": 2,
+   "x": "Pillar Edict II defines Dhamma. The other subjects belong to Major Rock Edicts I, XIII and V respectively.",
+   "ty": "fact",
+   "tq": "Separate pillar-edict subjects from similarly themed rock edicts.",
+   "sec": "Pillar edicts → site and content"
+  },
+  {
+   "s": "Which Major Rock Edict prohibited animal sacrifice and festive gatherings known as samaja?",
+   "o": [
+    "Rock Edict VIII",
+    "Rock Edict XII",
+    "Rock Edict I",
+    "Rock Edict II"
+   ],
+   "a": 2,
+   "x": "Rock Edict I bans animal sacrifice and festive gatherings called samaja.",
+   "ty": "fact",
+   "tq": "Match the edict number with its unique prohibition.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "Medical care for human beings and animals, together with the planting of herbs and trees, is associated with:",
+   "o": [
+    "Major Rock Edict II",
+    "Major Rock Edict III",
+    "Major Rock Edict XIV",
+    "Major Rock Edict V"
+   ],
+   "a": 0,
+   "x": "Major Rock Edict II discusses medical care for men and animals and the planting of herbs and trees. It also names the Chola, Chera, Pandya and Satyaputra kingdoms.",
+   "ty": "fact",
+   "tq": "Identify the edict from its welfare measures before checking the number.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "Which group of southern kingdoms is mentioned in Major Rock Edict II?",
+   "o": [
+    "Chola, Chera, Pandya and Satyaputra",
+    "Chola, Pallava, Chera and Kalinga",
+    "Pandya, Satavahana, Vakataka and Satyaputra",
+    "Chera, Chalukya, Chola and Andhra"
+   ],
+   "a": 0,
+   "x": "Major Rock Edict II names the Chola, Chera, Pandya and Satyaputra kingdoms.",
+   "ty": "match",
+   "tq": "Reject additions from neighbouring historical lists and retain the exact four names.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "Quinquennial tours of officials are mentioned in which Major Rock Edict?",
+   "o": [
+    "Rock Edict VIII",
+    "Rock Edict III",
+    "Rock Edict VI",
+    "Rock Edict V"
+   ],
+   "a": 1,
+   "x": "Rock Edict III refers to quinquennial tours of officials and places the measure in the twelfth year.",
+   "ty": "numerical",
+   "tq": "Pair the administrative activity with its edict number and year.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "Dhamma Mahamatras were appointed according to Major Rock Edict V in the:",
+   "o": [
+    "Fourteenth year after consecration",
+    "Twelfth year after consecration",
+    "Twenty-sixth year after consecration",
+    "Thirteenth year after consecration"
+   ],
+   "a": 3,
+   "x": "Major Rock Edict V records the appointment of Dhamma Mahamatras thirteen years after consecration.",
+   "ty": "numerical",
+   "tq": "Compare nearby regnal-year figures carefully instead of relying on approximate chronology.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "The term ‘Pativedakas’, referring to officials through whom the king remained available for public business at all times, occurs in:",
+   "o": [
+    "Major Rock Edict VI",
+    "Major Rock Edict XIII",
+    "Major Rock Edict XII",
+    "Major Rock Edict VIII"
+   ],
+   "a": 0,
+   "x": "Major Rock Edict VI refers to Pativedakas and states that the king was available for public business at all times.",
+   "ty": "fact",
+   "tq": "Match the technical administrative term with its edict.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "Ashoka's Dhammayatras replacing pleasure tours are mentioned in:",
+   "o": [
+    "Major Rock Edict VIII",
+    "Major Rock Edict V",
+    "Major Rock Edict I",
+    "Major Rock Edict XIV"
+   ],
+   "a": 0,
+   "x": "Major Rock Edict VIII describes the replacement of pleasure tours by Dhammayatras.",
+   "ty": "fact",
+   "tq": "Use the contrast between pleasure tours and Dhamma tours as the identifying clue.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "Which Major Rock Edict is associated with religious tolerance and respect for the essence of all doctrines?",
+   "o": [
+    "Rock Edict II",
+    "Rock Edict XII",
+    "Rock Edict VI",
+    "Rock Edict XIII"
+   ],
+   "a": 1,
+   "x": "Rock Edict XII advocates welfare of all sects and honouring the essence of all doctrines, expressing religious tolerance.",
+   "ty": "fact",
+   "tq": "Distinguish general religious tolerance from the specific account of the Kalinga War.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "Consider the following statements about Major Rock Edict XIII:\n\n1. It expresses remorse for the Kalinga War.\n2. It refers to Dhammavijaya.\n3. It names Greek kings.\n4. It mentions the Andhras.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Major Rock Edict XIII records remorse for the Kalinga War, advocates Dhammavijaya, names Greek kings and mentions the Andhras.",
+   "ty": "statements",
+   "tq": "Check whether the broadest coded option is supported by every listed feature.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "The figures of approximately one lakh killed and one and a half lakh taken captive in the Kalinga War are associated with:",
+   "o": [
+    "Major Rock Edict XII",
+    "Separate Kalinga Edict at Jaugada only",
+    "Major Rock Edict XIII",
+    "Pillar Edict IV"
+   ],
+   "a": 2,
+   "x": "Major Rock Edict XIII gives the figures of one lakh killed and one and a half lakh captives in the Kalinga War.",
+   "ty": "numerical",
+   "tq": "Retain the paired casualty and captive figures with the correct edict number.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "The Separate Kalinga Edicts at Dhauli and Jaugada replaced which Major Rock Edicts in those regions?",
+   "o": [
+    "Rock Edicts XII–XIV",
+    "Rock Edicts IX–XI",
+    "Rock Edicts I–III",
+    "Rock Edicts XI–XIII"
+   ],
+   "a": 3,
+   "x": "At Dhauli and Jaugada, the Separate Kalinga Edicts replace Major Rock Edicts XI–XIII and address officers of Tosali and Samapa.",
+   "ty": "numerical",
+   "tq": "Use the consecutive range as the key distinction between the edict groups.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "The Separate Kalinga Edicts were addressed to officers of:",
+   "o": [
+    "Ujjayini and Taxila",
+    "Tosali and Samapa",
+    "Pataliputra and Sarnath",
+    "Kalinga and Gandhara"
+   ],
+   "a": 1,
+   "x": "The Separate Kalinga Edicts at Dhauli and Jaugada were addressed to officers of Tosali and Samapa.",
+   "ty": "fact",
+   "tq": "Match the special edicts with the administrative offices addressed.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "Which of the following was specifically prohibited in the Separate Kalinga Edicts?",
+   "o": [
+    "Unjust imprisonment and torture",
+    "The construction of Buddhist stupas",
+    "The appointment of Dhamma Mahamatras",
+    "All forms of animal husbandry"
+   ],
+   "a": 0,
+   "x": "The Separate Kalinga Edicts instructed the officers to stop unjust imprisonment and torture and expressed the idea that all men were Ashoka's children.",
+   "ty": "application",
+   "tq": "Identify the administrative abuse targeted by the special edicts.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "Major Rock Edict XIV is best described as a:",
+   "o": [
+    "Summary of the edicts",
+    "Record of the Kalinga War",
+    "Statement on the appointment of rajukas",
+    "Definition of Dhamma"
+   ],
+   "a": 0,
+   "x": "Major Rock Edict XIV is a summary of the edicts.",
+   "ty": "fact",
+   "tq": "Use the terminal position of the edict series to distinguish the summary provision.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "The Bhabru, or Bairat, inscription expresses faith in the:",
+   "o": [
+    "King, army and law",
+    "Jina, Sangha and Tirthankaras",
+    "Brahma, Veda and Yajna",
+    "Buddha, Dhamma and Sangha"
+   ],
+   "a": 3,
+   "x": "The Bhabru inscription expresses faith in the Buddha, Dhamma and Sangha and recommends Buddhist texts.",
+   "ty": "fact",
+   "tq": "Identify the Buddhist triad associated with the inscription.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "The Maski Minor Rock Edict refers to Ashoka as:",
+   "o": [
+    "Dhamma Mahamatra",
+    "Chakravartin Samrat",
+    "Devanampriya Priyadarshi only",
+    "Buddhashakya Ashok"
+   ],
+   "a": 3,
+   "x": "The Maski Minor Rock Edict calls the ruler ‘Buddhashakya Ashok’ and refers to Buddhist principles.",
+   "ty": "confusable",
+   "tq": "Distinguish the personal-name form in Maski from titles used elsewhere.",
+   "sec": "Major Rock Edict number → subject"
+  },
+  {
+   "s": "Which statement correctly describes the inscriptional evidence at Girnar?",
+   "o": [
+    "The same rock later bears an inscription of Rudradaman.",
+    "It contains only a Minor Rock Edict naming Ashoka.",
+    "It is the only site of Pillar Edict VII.",
+    "It records the Queen's Edict of Karuvaki."
+   ],
+   "a": 0,
+   "x": "Girnar contains the fourteen Major Rock Edicts, and the same rock later bears Rudradaman's inscription.",
+   "ty": "fact",
+   "tq": "Identify the later inscription associated with a major Ashokan site.",
+   "sec": "Major Rock Edict sites → present state"
+  },
+  {
+   "s": "Which of the following is correctly matched?\n\n1. Delhi-Meerut — Pillar Edicts I–VI\n2. Lauriya Nandangarh — Pillar Edicts I–VI and lion capital\n3. Allahabad-Kosam — later Samudragupta's prashasti\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correct. Delhi-Meerut and Lauriya Nandangarh contain Pillar Edicts I–VI, and the Allahabad-Kosam pillar later received Samudragupta's prashasti.",
+   "ty": "statements",
+   "tq": "Verify each pillar's inscriptional layer before choosing the combined code.",
+   "sec": "Pillar edicts → site and content"
+  }
+ ]
+}

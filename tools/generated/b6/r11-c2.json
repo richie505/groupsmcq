@@ -1,0 +1,538 @@
+{
+ "book": 6,
+ "row": 11,
+ "chunk": 2,
+ "section": "Science and technology in news - space missions, defence tests, health and biotech developments",
+ "subsections": [
+  "Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)",
+  "Health emergency and medical projects → nodal agency (BHISHM, Aarogya Maitri Cube, AIIMS conclaves)",
+  "Science Congress and national science events → edition + venue + theme"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is correctly matched with its classification and associated organisation?",
+   "o": [
+    "Agni-4 — Nuclear-capable MRBM — DRDO and Strategic Forces Command",
+    "Pralay — Subsonic cruise missile — Indian Air Force",
+    "BrahMos — Indigenous glide weapon — DRDO alone",
+    "Kusha — Air-to-surface anti-radiation missile — RCI Hyderabad"
+   ],
+   "a": 0,
+   "x": "Agni-4 is a nuclear-capable medium-range ballistic missile associated with DRDO and the Strategic Forces Command. Pralay is a quasi-ballistic surface-to-surface missile, BrahMos is an India-Russia joint venture, and Kusha is a long-range surface-to-air missile.",
+   "ty": "match",
+   "tq": "Use the developer-and-type pairing to eliminate swapped platform identities.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "Kusha, which underwent its maiden test in July 2026, is best described as a:",
+   "o": [
+    "Subsonic land-attack cruise missile developed by GTRE",
+    "Long-range glide bomb developed by JSR Dynamics and BEL",
+    "Long-range surface-to-air missile developed by DRDO",
+    "Air-to-surface anti-radiation missile developed by RCI Hyderabad"
+   ],
+   "a": 2,
+   "x": "Kusha is a DRDO-developed long-range surface-to-air missile. It is described as India’s answer to, or rival of, systems such as the S-400 and Patriot.",
+   "ty": "fact",
+   "tq": "Match the weapon’s role with its developer rather than relying on a familiar missile name.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding LRLACM:\n1. It is a subsonic land-attack cruise missile.\n2. It has a range of more than 1,000 km.\n3. It uses the Manik engine.\n4. It is described as a successor to Nirbhay.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. LRLACM is a DRDO subsonic land-attack cruise missile with a range exceeding 1,000 km, uses the Manik engine and is described as Nirbhay’s successor.",
+   "ty": "statements",
+   "tq": "Check each technical specification separately before selecting the complete combination.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "The LRLACM was tested from which location?",
+   "o": [
+    "Chandipur",
+    "Hanle",
+    "Dr APJ Abdul Kalam Island",
+    "Puttaparthi"
+   ],
+   "a": 2,
+   "x": "The LRLACM test was conducted from Dr APJ Abdul Kalam Island. Chandipur is associated with the Agni-4 user trial in the material.",
+   "ty": "fact",
+   "tq": "Use location discrimination among different missile and aerospace test sites.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "RudraM-II is a/an:",
+   "o": [
+    "Air-to-surface anti-radiation missile associated with RCI Hyderabad and the IAF",
+    "Indigenous multi-purpose vessel developed by L&T",
+    "Long-range surface-to-air missile developed exclusively by the Indian Navy",
+    "Nuclear-capable medium-range ballistic missile associated with the Strategic Forces Command"
+   ],
+   "a": 0,
+   "x": "RudraM-II is an air-to-surface anti-radiation missile associated with DRDO’s RCI Hyderabad and the Indian Air Force. Its stated range is about 300 km.",
+   "ty": "fact",
+   "tq": "Identify the platform from its service role and developer combination.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "Which of the following is the first indigenous glide weapon mentioned in the context of the 2026 defence developments?",
+   "o": [
+    "Pralay",
+    "TARA",
+    "Astra Mk 1",
+    "Khagantak-243"
+   ],
+   "a": 1,
+   "x": "TARA is described as the first indigenous glide weapon, developed through DRDO and the IAF, and it underwent its maiden trial.",
+   "ty": "fact",
+   "tq": "Distinguish similarly grouped missile, glide-weapon and air-to-air weapon names.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "Astra Mk 1 is correctly described as a:",
+   "o": [
+    "GTRE-developed expendable turbojet for civilian aircraft",
+    "DRDO-developed long-range surface-to-air missile intended to replace Nirbhay",
+    "DRDO-developed beyond-visual-range air-to-air missile whose first export was to Indonesia",
+    "JSR Dynamics-BEL long-range glide bomb for the Indian Navy"
+   ],
+   "a": 2,
+   "x": "Astra Mk 1 is a DRDO-developed beyond-visual-range air-to-air missile, and Indonesia was its first export destination.",
+   "ty": "fact",
+   "tq": "Apply the developer, category and export-destination triad.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Samarthak — L&T — Indigenous multi-purpose vessel",
+    "Khagantak-243 — JSR Dynamics and BEL — Long-range glide bomb",
+    "350-kgf expendable turbojet — GTRE, DRDO — Missiles and UAVs",
+    "RudraM-II — Cochin Shipyard — Air-to-surface anti-radiation missile"
+   ],
+   "a": 3,
+   "x": "RudraM-II is associated with DRDO’s RCI Hyderabad and the IAF, not Cochin Shipyard. Khagantak-243, the expendable turbojet and Samarthak are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the wrong developer by separating defence-industry agencies from shipyards.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "The first indigenous expendable turbojet of 350-kgf thrust was developed by:",
+   "o": [
+    "L&T under the Department of Atomic Energy",
+    "ADA under the Strategic Forces Command",
+    "GTRE under DRDO",
+    "RCI under the Indian Air Force"
+   ],
+   "a": 2,
+   "x": "The 350-kgf expendable turbojet was developed by GTRE, a DRDO laboratory, for use in missiles and UAVs.",
+   "ty": "fact",
+   "tq": "Use the laboratory–parent organisation relationship to identify the answer.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "The flight-test centre for AMCA is located at:",
+   "o": [
+    "Chandipur, Odisha",
+    "Hanle, Ladakh",
+    "Hingoli, Maharashtra",
+    "Puttaparthi, Andhra Pradesh"
+   ],
+   "a": 3,
+   "x": "The AMCA flight-test centre is located at Puttaparthi in Andhra Pradesh. AMCA is a fifth-generation twin-engine stealth fighter associated with ADA and DRDO.",
+   "ty": "fact",
+   "tq": "Test location separately from platform type and developer.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. AMCA is a fifth-generation twin-engine stealth fighter.\n2. The flight-test centre for AMCA is at Puttaparthi.\n3. ADA is associated with AMCA under DRDO.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. AMCA is a fifth-generation twin-engine stealth fighter, with ADA under DRDO associated with it and its flight-test centre located at Puttaparthi.",
+   "ty": "statements",
+   "tq": "Verify the platform’s generation, agency and location as a single factual cluster.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes INS Mahendragiri?",
+   "o": [
+    "A Project 17A Nilgiri-class stealth frigate built by MDL",
+    "A multi-purpose vessel built by GRSE",
+    "A nuclear-powered submarine built by Cochin Shipyard",
+    "A Mahe-class shallow-water anti-submarine craft built by L&T"
+   ],
+   "a": 0,
+   "x": "INS Mahendragiri is a Project 17A Nilgiri-class stealth frigate associated with Mazagon Dock Shipbuilders Limited. The material also places it with the Eastern Fleet at Visakhapatnam.",
+   "ty": "fact",
+   "tq": "Separate ship class and shipyard identities to avoid swapped naval platforms.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "INS Malvan and INS Mangrol belong to which class of vessels?",
+   "o": [
+    "Nilgiri-class stealth frigates",
+    "Project 17A missile destroyers",
+    "Mahe-class anti-submarine warfare shallow-water craft",
+    "Indigenous multi-purpose support vessels"
+   ],
+   "a": 2,
+   "x": "INS Malvan and INS Mangrol are the second and third Mahe-class anti-submarine warfare shallow-water craft, associated with Cochin Shipyard.",
+   "ty": "fact",
+   "tq": "Use class identification to distinguish small anti-submarine craft from frigates.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "Samarthak, described as the first indigenous multi-purpose vessel, was developed by:",
+   "o": [
+    "Mazagon Dock Shipbuilders Limited",
+    "Garden Reach Shipbuilders and Engineers",
+    "Cochin Shipyard Limited",
+    "Larsen & Toubro"
+   ],
+   "a": 3,
+   "x": "Samarthak is the first indigenous multi-purpose vessel and was developed by Larsen & Toubro.",
+   "ty": "fact",
+   "tq": "Match the vessel’s special description with its developer.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "Dunagiri, Sanshodhak and Agray were inducted by the Prime Minister at:",
+   "o": [
+    "Mumbai",
+    "Kolkata",
+    "Visakhapatnam",
+    "Kochi"
+   ],
+   "a": 1,
+   "x": "Dunagiri, Sanshodhak and Agray, associated with GRSE, were inducted by the Prime Minister at Kolkata.",
+   "ty": "fact",
+   "tq": "Link the group of vessels with the stated induction venue.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "Pralay is best described as a:",
+   "o": [
+    "Subsonic air-to-surface anti-radiation missile developed by RCI Hyderabad",
+    "Quasi-ballistic surface-to-surface missile developed by DRDO",
+    "Long-range surface-to-air missile developed by the IAF",
+    "Nuclear-capable medium-range ballistic missile developed jointly with Russia"
+   ],
+   "a": 1,
+   "x": "Pralay is DRDO’s quasi-ballistic surface-to-surface missile. It is distinct from BrahMos, which is an India-Russia joint venture, and from Agni-4, a nuclear-capable MRBM.",
+   "ty": "confusable",
+   "tq": "Discriminate between similar missile names by matching each to its exact role.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "BrahMos is associated with which of the following descriptions?",
+   "o": [
+    "A DRDO-only quasi-ballistic missile",
+    "A portable field hospital under Project BHISHM",
+    "A Project 17A stealth frigate",
+    "An India-Russia joint venture"
+   ],
+   "a": 3,
+   "x": "BrahMos is an India-Russia joint venture. It is not the same as Pralay, which is a DRDO quasi-ballistic surface-to-surface missile.",
+   "ty": "confusable",
+   "tq": "Test the exact institutional relationship rather than the general defence category.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "DRDO was established in:",
+   "o": [
+    "1958",
+    "1962",
+    "1971",
+    "1984"
+   ],
+   "a": 0,
+   "x": "The Defence Research and Development Organisation was formed in 1958.",
+   "ty": "numerical",
+   "tq": "Use the direct year-recall pattern for an institutional milestone.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "The motto of the Defence Research and Development Organisation is:",
+   "o": [
+    "Jai Jawan Jai Vigyan",
+    "Vigyanam Yajnam Tanute",
+    "Satyameva Jayate",
+    "Balasya Mulam Vigyanam"
+   ],
+   "a": 3,
+   "x": "DRDO’s motto is “Balasya Mulam Vigyanam.”",
+   "ty": "fact",
+   "tq": "Test the exact official wording rather than a familiar national slogan.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "The iDEX initiative was launched in:",
+   "o": [
+    "August 2019",
+    "January 2020",
+    "April 2016",
+    "April 2018"
+   ],
+   "a": 3,
+   "x": "iDEX was launched in April 2018.",
+   "ty": "numerical",
+   "tq": "Combine the initiative with its precise launch month and year.",
+   "sec": "■ Defence platforms - ships inducted or decommissioned, UAVs, missiles → service + developer (Agni, BrahMos, Pralay)  [APPSC]"
+  },
+  {
+   "s": "Aarogya Maitri Cubes under Project BHISHM are best described as:",
+   "o": [
+    "Airborne anti-radiation missile systems",
+    "Portable field hospitals",
+    "Digital repositories of biological data",
+    "Mobile satellite launch platforms"
+   ],
+   "a": 1,
+   "x": "Aarogya Maitri Cubes are portable field hospitals developed under Project BHISHM. The sourcing agency is HLL Lifecare Limited, a fact distinct from the already tested nodal-agency question.",
+   "ty": "application",
+   "tq": "Identify the project from its practical emergency-health function.",
+   "sec": "■ Health emergency and medical projects → nodal agency (BHISHM, Aarogya Maitri Cube, AIIMS conclaves)  [APPSC]"
+  },
+  {
+   "s": "In 2026, two Aarogya Maitri Cubes were gifted to:",
+   "o": [
+    "Sri Lanka",
+    "Venezuela",
+    "Bangladesh",
+    "Nepal"
+   ],
+   "a": 0,
+   "x": "Two Aarogya Maitri Cubes were gifted to Sri Lanka in 2026. Separate from this, two BHISHM cubes were sent to Venezuela after an earthquake.",
+   "ty": "fact",
+   "tq": "Distinguish recipients of similar emergency-medical assistance.",
+   "sec": "■ Health emergency and medical projects → nodal agency (BHISHM, Aarogya Maitri Cube, AIIMS conclaves)  [APPSC]"
+  },
+  {
+   "s": "Two BHISHM cubes were sent to Venezuela following:",
+   "o": [
+    "A pandemic outbreak",
+    "A volcanic eruption",
+    "A cyclone",
+    "An earthquake"
+   ],
+   "a": 3,
+   "x": "Two BHISHM cubes were sent to Venezuela after an earthquake.",
+   "ty": "fact",
+   "tq": "Match the humanitarian deployment with the reported emergency.",
+   "sec": "■ Health emergency and medical projects → nodal agency (BHISHM, Aarogya Maitri Cube, AIIMS conclaves)  [APPSC]"
+  },
+  {
+   "s": "Which organisation will coordinate the BRICS mental-health centres under the New Delhi Declaration?",
+   "o": [
+    "NIMHANS",
+    "INMAS",
+    "AIIMS Jhajjar",
+    "HLL Lifecare Limited"
+   ],
+   "a": 0,
+   "x": "NIMHANS will coordinate the BRICS mental-health centres under the New Delhi Declaration of September 2026.",
+   "ty": "fact",
+   "tq": "Use the nodal-institution pattern to identify the coordinating agency.",
+   "sec": "■ Health emergency and medical projects → nodal agency (BHISHM, Aarogya Maitri Cube, AIIMS conclaves)  [APPSC]"
+  },
+  {
+   "s": "NIMHANS-2 was announced in the:",
+   "o": [
+    "DRDO CBRN training programme",
+    "Budget 2026–27",
+    "New Delhi Declaration of September 2026",
+    "Project BHISHM framework"
+   ],
+   "a": 1,
+   "x": "NIMHANS-2 was announced in the Budget 2026–27. The New Delhi Declaration is associated with coordination of BRICS mental-health centres.",
+   "ty": "confusable",
+   "tq": "Separate two closely related health developments by their announcing forum.",
+   "sec": "■ Health emergency and medical projects → nodal agency (BHISHM, Aarogya Maitri Cube, AIIMS conclaves)  [APPSC]"
+  },
+  {
+   "s": "The DRDO CBRN Field Training Centre referred to in the 2026 developments is located in:",
+   "o": [
+    "Faridabad and associated with DBT",
+    "Delhi and associated with INMAS",
+    "Hingoli and associated with L&T",
+    "Jhajjar and associated with AIIMS"
+   ],
+   "a": 1,
+   "x": "The DRDO CBRN Field Training Centre is located in Delhi and is associated with the Institute of Nuclear Medicine and Allied Sciences (INMAS).",
+   "ty": "fact",
+   "tq": "Match the facility with both its location and parent organisation.",
+   "sec": "■ Health emergency and medical projects → nodal agency (BHISHM, Aarogya Maitri Cube, AIIMS conclaves)  [APPSC]"
+  },
+  {
+   "s": "The 11th India International Science Festival was held at:",
+   "o": [
+    "Hanle, Ladakh",
+    "Faridabad, Haryana",
+    "Panchkula, Haryana",
+    "Nagpur, Maharashtra"
+   ],
+   "a": 2,
+   "x": "The 11th India International Science Festival was held at Panchkula in Haryana in December 2025.",
+   "ty": "fact",
+   "tq": "Test edition, venue and time together in a current-affairs setting.",
+   "sec": "■ Science Congress and national science events → edition + venue + theme  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the Himalayan Chandra Telescope:\n1. It is a 2-metre telescope.\n2. It is located at Hanle in Ladakh.\n3. It was dedicated in August 2001.\n4. It is named after S. Chandrasekhar.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The Himalayan Chandra Telescope is a 2-metre telescope at Hanle, dedicated in August 2001 and named after S. Chandrasekhar.",
+   "ty": "statements",
+   "tq": "Check the instrument’s size, location, date and namesake as independent statements.",
+   "sec": "■ Science Congress and national science events → edition + venue + theme  [APPSC]"
+  },
+  {
+   "s": "The Himalayan Chandra Telescope is operated remotely from Hosakote by the:",
+   "o": [
+    "Indian Institute of Astrophysics",
+    "National Centre for Radio Astrophysics",
+    "Indian Space Research Organisation",
+    "Department of Biotechnology"
+   ],
+   "a": 0,
+   "x": "The Himalayan Chandra Telescope is run remotely from Hosakote by the Indian Institute of Astrophysics, through satellite communication.",
+   "ty": "fact",
+   "tq": "Identify the operating institution rather than the telescope’s physical location.",
+   "sec": "■ Science Congress and national science events → edition + venue + theme  [APPSC]"
+  },
+  {
+   "s": "The year 2026 marked how many years of the Himalayan Chandra Telescope?",
+   "o": [
+    "20 years",
+    "25 years",
+    "30 years",
+    "35 years"
+   ],
+   "a": 1,
+   "x": "The year 2026 marked 25 years of the Himalayan Chandra Telescope, which was dedicated in August 2001.",
+   "ty": "numerical",
+   "tq": "Calculate the anniversary from the stated dedication year and current year.",
+   "sec": "■ Science Congress and national science events → edition + venue + theme  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "LIGO-India — Hingoli, Maharashtra — L&T won the DAE construction contract",
+    "Indian Biological Data Centre — Hanle, Ladakh — operated by IIA",
+    "NISAR — Faridabad — developed by DBT and RCB",
+    "Himalayan Chandra Telescope — Hingoli — built by L&T under DAE"
+   ],
+   "a": 0,
+   "x": "LIGO-India is located at Hingoli in Maharashtra, and L&T won the Department of Atomic Energy contract to build it. The other options swap the locations or institutions of the listed facilities.",
+   "ty": "match",
+   "tq": "Start from the location–facility pair and detect cross-swapped organisations.",
+   "sec": "■ Science Congress and national science events → edition + venue + theme  [APPSC]"
+  },
+  {
+   "s": "NISAR is a collaborative mission involving:",
+   "o": [
+    "IIA and the Department of Atomic Energy",
+    "DRDO and the Indian Air Force",
+    "DBT and RCB, Faridabad",
+    "ISRO and NASA/JPL"
+   ],
+   "a": 3,
+   "x": "NISAR is associated with ISRO and NASA/JPL.",
+   "ty": "fact",
+   "tq": "Identify the international partnership from the agency pair.",
+   "sec": "■ Science Congress and national science events → edition + venue + theme  [APPSC]"
+  },
+  {
+   "s": "The Indian Biological Data Centre is associated with which of the following?",
+   "o": [
+    "Department of Biotechnology and RCB, Faridabad",
+    "ISRO and NASA/JPL",
+    "Indian Institute of Astrophysics and Hosakote",
+    "Department of Atomic Energy and L&T, Hingoli"
+   ],
+   "a": 0,
+   "x": "The Indian Biological Data Centre is associated with the Department of Biotechnology and the Regional Centre for Biotechnology at Faridabad.",
+   "ty": "fact",
+   "tq": "Match the data centre with its department and institutional location.",
+   "sec": "■ Science Congress and national science events → edition + venue + theme  [APPSC]"
+  },
+  {
+   "s": "Which of the following sets consists entirely of the four telescope-related projects mentioned in Budget 2026–27?",
+   "o": [
+    "National Large Solar Telescope, National Large Optical-infrared Telescope, Himalayan Chandra Telescope upgrade, COSMOS-2 planetarium",
+    "LIGO-India, NISAR, Indian Biological Data Centre, COSMOS-2 planetarium",
+    "National Large Solar Telescope, AMCA, Himalayan Chandra Telescope upgrade, NISAR",
+    "National Large Optical-infrared Telescope, Kusha, LIGO-India, COSMOS-2 planetarium"
+   ],
+   "a": 0,
+   "x": "The four projects are the National Large Solar Telescope, National Large Optical-infrared Telescope, Himalayan Chandra Telescope upgrade and COSMOS-2 planetarium.",
+   "ty": "statements",
+   "tq": "Use set-completion: eliminate options containing facilities or defence platforms outside the stated group.",
+   "sec": "■ Science Congress and national science events → edition + venue + theme  [APPSC]"
+  },
+  {
+   "s": "The Indian Science Congress Association, founded in 1914, conducts the:",
+   "o": [
+    "Annual LIGO-India review conference",
+    "Annual session of the Indian Science Congress",
+    "Annual BRICS mental-health summit",
+    "Annual India International Science Festival"
+   ],
+   "a": 1,
+   "x": "The Indian Science Congress Association was founded in 1914 and conducts the annual session of the Indian Science Congress.",
+   "ty": "fact",
+   "tq": "Distinguish the organising association from similarly named science events.",
+   "sec": "■ Science Congress and national science events → edition + venue + theme  [APPSC]"
+  },
+  {
+   "s": "The 108th session of the Indian Science Congress was held at:",
+   "o": [
+    "Nagpur in January 2023",
+    "Hanle in August 2022",
+    "Bengaluru in January 2023",
+    "Panchkula in December 2025"
+   ],
+   "a": 0,
+   "x": "The 108th Indian Science Congress was held at Nagpur in January 2023.",
+   "ty": "fact",
+   "tq": "Combine the edition number with the venue and month-year to avoid event confusion.",
+   "sec": "■ Science Congress and national science events → edition + venue + theme  [APPSC]"
+  },
+  {
+   "s": "What was the theme of the 108th Indian Science Congress?",
+   "o": [
+    "Science for New India through Digital Transformation",
+    "Science and Technology for Sustainable Development with Women Empowerment",
+    "Innovation for Health Emergencies and Climate Security",
+    "Women in Space and Defence Technology"
+   ],
+   "a": 1,
+   "x": "The theme of the 108th Indian Science Congress was “Science and Technology for Sustainable Development with Women Empowerment.”",
+   "ty": "fact",
+   "tq": "Recall the exact official theme rather than a shortened paraphrase.",
+   "sec": "■ Science Congress and national science events → edition + venue + theme  [APPSC]"
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "book": 2,
+ "row": 159,
+ "chunk": 1,
+ "section": "Regional organisations - SAARC, BIMSTEC, ASEAN, EU, African Union, SCO, GCC, IORA, BBIN",
+ "subsections": [
+  "Summits and chairs → host",
+  "Other groupings - SCO (accession, RATS), NATO, NAFTA/USMCA",
+  "IORA - members, India's chairship, priority areas",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 22,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The 18th SAARC Summit was held at which of the following places in 2014?",
+   "o": [
+    "Islamabad",
+    "Kathmandu",
+    "Colombo",
+    "Dhaka"
+   ],
+   "a": 1,
+   "x": "The 18th SAARC Summit was held in Kathmandu in 2014.",
+   "ty": "fact",
+   "tq": "Use the summit-number and host-location pair directly.",
+   "sec": "Summits and chairs → host"
+  },
+  {
+   "s": "Which one of the following correctly indicates the latest host and the next planned host of the BIMSTEC Summit?",
+   "o": [
+    "Bangkok and Bangladesh",
+    "Dhaka and Thailand",
+    "Colombo and Bangladesh",
+    "Kathmandu and Myanmar"
+   ],
+   "a": 0,
+   "x": "The 6th BIMSTEC Summit was held in Bangkok in 2025, and the next summit is planned in Bangladesh.",
+   "ty": "comparison",
+   "tq": "Separate the completed host from the next planned host.",
+   "sec": "Summits and chairs → host"
+  },
+  {
+   "s": "The next Summit of the Shanghai Cooperation Organisation is planned to be held in 2027 in:",
+   "o": [
+    "Pakistan",
+    "India",
+    "Kazakhstan",
+    "Uzbekistan"
+   ],
+   "a": 0,
+   "x": "Pakistan is scheduled to host the next SCO Summit in 2027.",
+   "ty": "numerical",
+   "tq": "Link the future year with the stated host country.",
+   "sec": "Summits and chairs → host"
+  },
+  {
+   "s": "Kuala Lumpur hosted which of the following in 2025?",
+   "o": [
+    "The SAARC Summit only",
+    "The BIMSTEC Summit and ASEAN Summit",
+    "The IORA Summit and SCO Summit",
+    "The ASEAN-India and East Asia Summits"
+   ],
+   "a": 3,
+   "x": "The ASEAN-India Summit and the East Asia Summit were held in Kuala Lumpur in 2025.",
+   "ty": "fact",
+   "tq": "Discriminate between similarly named regional summits by their host city.",
+   "sec": "Summits and chairs → host"
+  },
+  {
+   "s": "Consider the following statements regarding the Indian Ocean Rim Association (IORA):\n1. Its last summit was held in Jakarta in 2017.\n2. Its 30th-anniversary summit is scheduled for 2027.\n3. Its 2027 summit will be the first IORA summit since 2017.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the last summit was in Jakarta in 2017, the 30th-anniversary summit is planned for 2027, and it will be the first summit since 2017.",
+   "ty": "statements",
+   "tq": "Combine date, venue and sequence facts before selecting the coded option.",
+   "sec": "Summits and chairs → host"
+  },
+  {
+   "s": "The Mekong-Ganga Cooperation was launched in 2000 at:",
+   "o": [
+    "Phnom Penh, Cambodia",
+    "Bangkok, Thailand",
+    "Vientiane, Laos",
+    "Hanoi, Vietnam"
+   ],
+   "a": 2,
+   "x": "The Mekong-Ganga Cooperation was launched at Vientiane in Laos in 2000.",
+   "ty": "fact",
+   "tq": "Match the launch event with its exact venue and year.",
+   "sec": "Summits and chairs → host"
+  },
+  {
+   "s": "Which of the following countries is NOT a member of the Mekong-Ganga Cooperation as listed below?",
+   "o": [
+    "Malaysia",
+    "Myanmar",
+    "Cambodia",
+    "Vietnam"
+   ],
+   "a": 0,
+   "x": "The listed members are India, Thailand, Myanmar, Cambodia, Laos and Vietnam; Malaysia is not included in this grouping.",
+   "ty": "negative",
+   "tq": "Find the country outside the stated membership list.",
+   "sec": "Summits and chairs → host"
+  },
+  {
+   "s": "The Regional Anti-Terrorist Structure (RATS) is associated with which of the following organisations?",
+   "o": [
+    "European Union",
+    "IORA",
+    "NATO",
+    "Shanghai Cooperation Organisation"
+   ],
+   "a": 3,
+   "x": "RATS is the counter-terrorism structure of the Shanghai Cooperation Organisation.",
+   "ty": "confusable",
+   "tq": "Identify the organisation from the specialised institutional function.",
+   "sec": "Other groupings - SCO (accession, RATS), NATO, NAFTA/USMCA"
+  },
+  {
+   "s": "Consider the following statements:\n1. Finland became a member of NATO in 2023.\n2. Sweden became a member of NATO in 2024.\n3. Finland and Sweden are the newest members of NATO.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Finland joined NATO in 2023 and Sweden in 2024; they are identified as NATO's newest members.",
+   "ty": "statements",
+   "tq": "Check each accession year before accepting the combined conclusion.",
+   "sec": "Other groupings - SCO (accession, RATS), NATO, NAFTA/USMCA"
+  },
+  {
+   "s": "NATO was established in:",
+   "o": [
+    "1945",
+    "1949",
+    "1955",
+    "1961"
+   ],
+   "a": 1,
+   "x": "NATO was established in 1949.",
+   "ty": "numerical",
+   "tq": "Distinguish the organisation's founding year from nearby post-war dates.",
+   "sec": "Other groupings - SCO (accession, RATS), NATO, NAFTA/USMCA"
+  },
+  {
+   "s": "Which one of the following correctly describes the relationship between NAFTA and USMCA?",
+   "o": [
+    "USMCA replaced NAFTA in 2020.",
+    "USMCA was formed by the European Union to replace NAFTA.",
+    "NAFTA and USMCA are parallel names for the same agreement.",
+    "NAFTA replaced USMCA in 2020."
+   ],
+   "a": 0,
+   "x": "The United States-Mexico-Canada Agreement replaced NAFTA in 2020.",
+   "ty": "confusable",
+   "tq": "Discriminate between the predecessor and successor agreement.",
+   "sec": "Other groupings - SCO (accession, RATS), NATO, NAFTA/USMCA"
+  },
+  {
+   "s": "The USMCA comprises which of the following countries?",
+   "o": [
+    "United States, Mexico and Canada",
+    "United States, Mexico and Spain",
+    "United States, Canada and the United Kingdom",
+    "Mexico, Brazil and Canada"
+   ],
+   "a": 0,
+   "x": "USMCA is the trade agreement among the United States, Mexico and Canada.",
+   "ty": "fact",
+   "tq": "Recall the three-country composition without confusing it with other regional groupings.",
+   "sec": "Other groupings - SCO (accession, RATS), NATO, NAFTA/USMCA"
+  },
+  {
+   "s": "The Indian Ocean Rim Association was formed in:",
+   "o": [
+    "1991",
+    "1995",
+    "1997",
+    "2000"
+   ],
+   "a": 2,
+   "x": "IORA was formed in 1997.",
+   "ty": "numerical",
+   "tq": "Use the exact formation year rather than the launch year of another grouping.",
+   "sec": "IORA - members, India's chairship, priority areas"
+  },
+  {
+   "s": "How many members does the Indian Ocean Rim Association have, as specified in the membership figure?",
+   "o": [
+    "18",
+    "21",
+    "23",
+    "27"
+   ],
+   "a": 2,
+   "x": "IORA has 23 members, consisting of Indian Ocean rim states.",
+   "ty": "numerical",
+   "tq": "Focus on the stated membership count and reject nearby numerical distractors.",
+   "sec": "IORA - members, India's chairship, priority areas"
+  },
+  {
+   "s": "Which of the following statements regarding India's role in IORA is correct?\n1. India is the chair of IORA.\n2. India is to host the Senior Officials Meeting in June 2026.\n3. India is to host the Council of Ministers at the end of 2026.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "India is the IORA chair and is scheduled to host the Senior Officials Meeting in June 2026 and the Council of Ministers at the end of 2026.",
+   "ty": "statements",
+   "tq": "Verify the chairship and distinguish the two scheduled meetings by timing.",
+   "sec": "IORA - members, India's chairship, priority areas"
+  },
+  {
+   "s": "Which one of the following is NOT identified as a priority area of IORA?",
+   "o": [
+    "Maritime safety and security",
+    "Academic and scientific and technological cooperation",
+    "Disaster risk management",
+    "Space weapon deployment"
+   ],
+   "a": 3,
+   "x": "IORA's priority areas include maritime safety and security, disaster risk management, and academic and S&T cooperation; space weapon deployment is not listed.",
+   "ty": "negative",
+   "tq": "Find the unrelated policy area among the listed regional priorities.",
+   "sec": "IORA - members, India's chairship, priority areas"
+  },
+  {
+   "s": "Consider the following pairs:\n1. IORA — Fisheries\n2. IORA — Tourism\n3. IORA — Blue economy\n4. IORA — Women's empowerment\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Fisheries, tourism, blue economy and women's empowerment are all identified as IORA priority areas.",
+   "ty": "match",
+   "tq": "Check every pair against the complete priority-area list.",
+   "sec": "IORA - members, India's chairship, priority areas"
+  },
+  {
+   "s": "At the BRICS Summit in September 2026, which of the following developments was described as a missed opportunity by experts?",
+   "o": [
+    "The withdrawal of India from BIMSTEC and SAARC",
+    "The refusal of Pakistan to join the BRICS grouping",
+    "The absence of BIMSTEC and SAARC neighbours, with Bangladesh's Prime Minister Tarique Rahman declining to attend",
+    "The absence of all European Union members from the summit"
+   ],
+   "a": 2,
+   "x": "No neighbourhood leader attended; Bangladesh Prime Minister Tarique Rahman declined, and experts viewed the absence of BIMSTEC and SAARC neighbours as a missed opportunity.",
+   "ty": "fact",
+   "tq": "Identify the specific regional participation issue rather than a broader diplomatic claim.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "NACIN Palasamudram in Rayalaseema is associated with which of the following functions?",
+   "o": [
+    "It hosts the permanent secretariat of IORA.",
+    "It functions as the ASEAN Secretariat.",
+    "It is the headquarters of the SCO's RATS.",
+    "It serves as a WCO regional training centre for tax officials."
+   ],
+   "a": 3,
+   "x": "NACIN Palasamudram is a World Customs Organization regional training centre that trains tax officials from SAARC, ASEAN and African nations.",
+   "ty": "application",
+   "tq": "Identify the institution from its location and specialised training function.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements correctly describes the relationship between VCIC and ASEAN?",
+   "o": [
+    "VCIC is the counter-terrorism wing of ASEAN.",
+    "VCIC links Andhra Pradesh with ASEAN under the Act East framework.",
+    "VCIC replaces ASEAN as a regional organisation in South Asia.",
+    "VCIC links Andhra Pradesh exclusively with the European Union."
+   ],
+   "a": 1,
+   "x": "VCIC links Andhra Pradesh with ASEAN and is associated with the Act East approach.",
+   "ty": "application",
+   "tq": "Connect the regional corridor with its geographic and policy linkage.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes BIMSTEC from SAARC and ASEAN?",
+   "o": [
+    "ASEAN has MILEX, while BIMSTEC and SAARC have no military component.",
+    "BIMSTEC has a military component known as MILEX, whereas SAARC and ASEAN lack such a component.",
+    "SAARC alone has MILEX, while BIMSTEC and ASEAN do not.",
+    "All three organisations conduct MILEX as their common military exercise."
+   ],
+   "a": 1,
+   "x": "BIMSTEC has the military component MILEX; SAARC and ASEAN do not have such a component.",
+   "ty": "comparison",
+   "tq": "Use the distinguishing institutional feature to separate closely related regional groupings.",
+   "sec": "Universal angles"
+  }
+ ]
+}

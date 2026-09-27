@@ -1,0 +1,568 @@
+{
+ "book": 6,
+ "row": 6,
+ "chunk": 1,
+ "section": "National - new central schemes, missions and their features",
+ "subsections": [
+  "National projects inaugurated - infrastructure FIRSTs, river-linking, foreign campuses",
+  "Government MoUs with companies and banks → ministry + partner + purpose",
+  "National boards and institutions set up → headquarters (National Turmeric Board)",
+  "Schemes for specific groups - benefit amounts",
+  "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly describes the Noida International Airport at Jewar?",
+   "o": [
+    "It is a privately owned airport established exclusively for international cargo",
+    "It is a public-private partnership project and a net-zero airport whose Phase 1 was opened by the Prime Minister",
+    "It is a wholly government-owned airport and India’s first airport in a Special Economic Zone",
+    "It is India’s first railway-linked airport developed under the BOT model"
+   ],
+   "a": 1,
+   "x": "The Noida International Airport at Jewar is being developed as a public-private partnership and is described as a net-zero airport. Its first phase was opened by the Prime Minister.",
+   "ty": "fact",
+   "tq": "Use the project-description combination rather than being distracted by ownership or model swaps.",
+   "sec": "National projects inaugurated - infrastructure FIRSTs, river-linking, foreign campuses  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Bairabi-Sairang is Mizoram’s first railway line.\n2. Aizawl became the fourth capital in the North-East to be placed on the railway map.\n3. Bairabi-Sairang is India’s first major river-linking project.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Bairabi-Sairang is Mizoram’s first railway line, and Aizawl is the fourth North-Eastern capital on the rail map. The first major river-linking project is Ken-Betwa, not Bairabi-Sairang.",
+   "ty": "statements",
+   "tq": "Separate the railway facts from the river-linking fact to identify the wrong statement.",
+   "sec": "National projects inaugurated - infrastructure FIRSTs, river-linking, foreign campuses  [APPSC]"
+  },
+  {
+   "s": "The first Vande Bharat Sleeper depot is located at:",
+   "o": [
+    "New Delhi",
+    "Aizawl",
+    "Varanasi",
+    "Bhagat Ki Kothi, Jodhpur"
+   ],
+   "a": 3,
+   "x": "Bhagat Ki Kothi in Jodhpur is the location of the first Vande Bharat Sleeper depot.",
+   "ty": "fact",
+   "tq": "Test the exact location associated with an infrastructure first.",
+   "sec": "National projects inaugurated - infrastructure FIRSTs, river-linking, foreign campuses  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the Ken-Betwa project is correct?",
+   "o": [
+    "It is a net-zero airport project implemented through a public-private partnership.",
+    "It is Mizoram’s first railway project and faces protests over land acquisition.",
+    "It is the first foreign university campus project in India.",
+    "It is India’s first major river-linking project and faces protests relating to displacement."
+   ],
+   "a": 3,
+   "x": "Ken-Betwa is India’s first major river-linking project, and displacement protests have been associated with it.",
+   "ty": "fact",
+   "tq": "Match the project with its distinctive first and associated issue.",
+   "sec": "National projects inaugurated - infrastructure FIRSTs, river-linking, foreign campuses  [APPSC]"
+  },
+  {
+   "s": "Foreign university campuses in India are established under which regulatory framework?",
+   "o": [
+    "National Education Policy, 2020 regulations alone",
+    "AICTE Regulations, 2015",
+    "National Skill Development Mission Regulations, 2021",
+    "UGC Regulations, 2023"
+   ],
+   "a": 3,
+   "x": "Foreign university campuses are set up under the University Grants Commission Regulations, 2023.",
+   "ty": "fact",
+   "tq": "Identify the correct regulatory authority and year instead of a neighbouring education framework.",
+   "sec": "National projects inaugurated - infrastructure FIRSTs, river-linking, foreign campuses  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Project or institution)\na. FIU-IND–I4C\nb. FIU-IND–SEBI\nc. India–France cooperation\n\nd. Andhra Pradesh Government–Kia India\n\nList-II (Purpose)\ni. ITI at Penukonda\n ii. Aeronautics skilling centre at NSTI Kanpur\n iii. Prevention of cyber-financial fraud\n iv. Anti-money laundering\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iii, b–ii, c–iv, d–i"
+   ],
+   "a": 0,
+   "x": "FIU-IND and I4C cooperate to stop cyber-financial fraud; FIU-IND and SEBI cooperate on anti-money laundering; India-France cooperation concerns an aeronautics skilling centre at NSTI Kanpur; and the Andhra Pradesh Government–Kia India arrangement concerns an ITI at Penukonda.",
+   "ty": "match",
+   "tq": "Start from the sure partner-purpose pair and eliminate codes containing a swapped purpose.",
+   "sec": "Government MoUs with companies and banks → ministry + partner + purpose  [APPSC]"
+  },
+  {
+   "s": "The India-France cooperation mentioned in connection with skilling is associated with the establishment of a centre at:",
+   "o": [
+    "IIT Madras for space technology",
+    "ITI Penukonda for automobile manufacturing",
+    "NSTI Hyderabad for cyber security",
+    "NSTI Kanpur for aeronautics skilling"
+   ],
+   "a": 3,
+   "x": "The India-France arrangement concerns an aeronautics skilling centre at NSTI Kanpur.",
+   "ty": "fact",
+   "tq": "Discriminate between the partner, institution and purpose in an MoU.",
+   "sec": "Government MoUs with companies and banks → ministry + partner + purpose  [APPSC]"
+  },
+  {
+   "s": "The Andhra Pradesh Government–Kia India arrangement is associated with which of the following?",
+   "o": [
+    "A ₹476.03 crore makhana-processing scheme",
+    "A ₹12 crore aeronautics centre at Kanpur",
+    "A ₹12 crore ITI at Penukonda under corporate social responsibility",
+    "A ₹120 crore railway line between Bairabi and Sairang"
+   ],
+   "a": 2,
+   "x": "The Andhra Pradesh Government and Kia India arrangement concerns a ₹12 crore ITI at Penukonda under CSR.",
+   "ty": "numerical",
+   "tq": "Pair the company with the correct state project and amount.",
+   "sec": "Government MoUs with companies and banks → ministry + partner + purpose  [APPSC]"
+  },
+  {
+   "s": "The headquarters of the National Turmeric Board is located at:",
+   "o": [
+    "Patna, Bihar",
+    "Nizamabad, Telangana",
+    "New Delhi",
+    "Jodhpur, Rajasthan"
+   ],
+   "a": 1,
+   "x": "The National Turmeric Board, set up in January 2025, has its headquarters at Nizamabad in Telangana.",
+   "ty": "fact",
+   "tq": "Use location-based elimination among headquarters of national institutions.",
+   "sec": "National boards and institutions set up → headquarters (National Turmeric Board)  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. The National Turmeric Board was set up in January 2025.\n2. Its headquarters is at Nizamabad in Telangana.\n3. The National Makhana Board is associated with Bihar.\n4. The Central Sector scheme for makhana has an outlay of ₹476.03 crore.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The Turmeric Board was set up in January 2025 at Nizamabad, while the Makhana Board is associated with Bihar and its Central Sector scheme has an outlay of ₹476.03 crore.",
+   "ty": "statements",
+   "tq": "Check each institution against its place, date and financial figure before selecting the combined code.",
+   "sec": "National boards and institutions set up → headquarters (National Turmeric Board)  [APPSC]"
+  },
+  {
+   "s": "The rules relating to the National Sports Board and National Sports Tribunal were notified in May 2026 under the:",
+   "o": [
+    "National Sports Development Act, 2010",
+    "National Sports Governance Act, 2025",
+    "Sports Authority of India Act, 2021",
+    "National Games Act, 2026"
+   ],
+   "a": 1,
+   "x": "The rules for the National Sports Board and National Sports Tribunal were notified in May 2026 under the National Sports Governance Act, 2025.",
+   "ty": "fact",
+   "tq": "Match the subordinate rules with the correct parent legislation and year.",
+   "sec": "National boards and institutions set up → headquarters (National Turmeric Board)  [APPSC]"
+  },
+  {
+   "s": "Under PM-KISAN, eligible landholding farmer families receive:",
+   "o": [
+    "₹6,000 annually in two instalments of ₹3,000 each",
+    "₹2,000 annually in one instalment",
+    "₹6,000 annually in three instalments of ₹2,000 each",
+    "₹12,000 annually in three instalments of ₹4,000 each"
+   ],
+   "a": 2,
+   "x": "PM-KISAN provides ₹6,000 per year to eligible landholding farmer families in three instalments of ₹2,000 each.",
+   "ty": "numerical",
+   "tq": "Break the total benefit into its instalment structure.",
+   "sec": "Schemes for specific groups - benefit amounts"
+  },
+  {
+   "s": "Which of the following categories is excluded from PM-KISAN as indicated in the scheme features?",
+   "o": [
+    "Income-tax payers and most government employees",
+    "Small and marginal farmers without income-tax liability",
+    "Farmer families receiving the benefit through bank accounts",
+    "All landholding farmer families"
+   ],
+   "a": 0,
+   "x": "Income-tax payers and most government employees are excluded from PM-KISAN, while the scheme covers eligible landholding farmer families.",
+   "ty": "negative",
+   "tq": "Find the exception by distinguishing the beneficiary group from excluded categories.",
+   "sec": "Schemes for specific groups - benefit amounts"
+  },
+  {
+   "s": "Which one of the following correctly describes VB-G RAM G?",
+   "o": [
+    "It provides 125 days of work to rural households with an interim base wage of ₹300 per day.",
+    "It provides 100 days of work to urban households with a base wage of ₹500 per day.",
+    "It provides 150 days of work to farmers with a yearly benefit of ₹6,000.",
+    "It provides subsidised LPG connections to adult women in rural households."
+   ],
+   "a": 0,
+   "x": "VB-G RAM G provides 125 days of work to rural households and specifies an interim base wage of ₹300 per day.",
+   "ty": "fact",
+   "tq": "Distinguish an employment guarantee feature from farmer and LPG benefits.",
+   "sec": "Schemes for specific groups - benefit amounts"
+  },
+  {
+   "s": "Under VB-G RAM G, wages are shared between the Centre and States in which ratio?",
+   "o": [
+    "50:50",
+    "60:40",
+    "75:25",
+    "90:10"
+   ],
+   "a": 1,
+   "x": "The wages under VB-G RAM G are shared between the Centre and States in the ratio of 60:40.",
+   "ty": "numerical",
+   "tq": "Test the precise fiscal-sharing ratio rather than the number of workdays.",
+   "sec": "Schemes for specific groups - benefit amounts"
+  },
+  {
+   "s": "The loan structure under PM SVANidhi is correctly represented by:",
+   "o": [
+    "₹15,000 → ₹25,000 → ₹50,000",
+    "₹20,000 → ₹40,000 → ₹80,000",
+    "₹10,000 → ₹20,000 → ₹30,000",
+    "₹15,000 → ₹30,000 → ₹60,000"
+   ],
+   "a": 0,
+   "x": "PM SVANidhi provides successive loans of ₹15,000, ₹25,000 and ₹50,000 to street vendors.",
+   "ty": "numerical",
+   "tq": "Recall the ascending three-stage loan sequence exactly.",
+   "sec": "Schemes for specific groups - benefit amounts"
+  },
+  {
+   "s": "Consider the following statements about PM SVANidhi:\n1. It is meant for street vendors.\n2. It provides a 7% interest subsidy.\n3. The Ministry of Housing and Urban Affairs and the Department of Financial Services are associated with it.\n4. SIDBI implements the scheme.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. PM SVANidhi targets street vendors, provides a 7% interest subsidy, involves MoHUA and DFS, and is implemented by SIDBI.",
+   "ty": "statements",
+   "tq": "Verify the beneficiary, subsidy and institutional roles before choosing the all-inclusive code.",
+   "sec": "Schemes for specific groups - benefit amounts"
+  },
+  {
+   "s": "PM Viksit Bharat Rozgar Yojana is intended primarily to promote:",
+   "o": [
+    "LPG access for adult women",
+    "Employment of first-time employees through EPFO",
+    "Procurement of pulses at minimum support price",
+    "Property cards for rural households"
+   ],
+   "a": 1,
+   "x": "PM Viksit Bharat Rozgar Yojana is linked with EPFO and aims to generate 3.5 crore jobs, particularly benefiting first-time employees.",
+   "ty": "fact",
+   "tq": "Match the scheme with its target group and implementation channel.",
+   "sec": "Schemes for specific groups - benefit amounts"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "PMUY — ₹5 lakh health cover per family per year",
+    "PM-JAY — ₹5 lakh per poor family per year",
+    "PM-KISAN — ₹300 daily wage for rural workers",
+    "PM SVANidhi — free property cards for street vendors"
+   ],
+   "a": 1,
+   "x": "PM-JAY provides health cover of ₹5 lakh per poor family per year. PMUY concerns LPG connections, PM-KISAN provides farmer income support, and PM SVANidhi provides loans to street vendors.",
+   "ty": "comparison",
+   "tq": "Separate similar welfare benefits by beneficiary group and benefit type.",
+   "sec": "Schemes for specific groups - benefit amounts"
+  },
+  {
+   "s": "The principal objective of Jal Jeevan Mission is to provide:",
+   "o": [
+    "Pucca houses to every urban family",
+    "Property cards to all urban landowners",
+    "Electricity connections to every household",
+    "Tap water through functional household tap connections to every rural household"
+   ],
+   "a": 3,
+   "x": "Jal Jeevan Mission aims to provide tap water through functional household tap connections to every rural household.",
+   "ty": "application",
+   "tq": "Identify the service delivered by the mission rather than its ministry alone.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about JJM 2.0:\n1. It is planned to continue up to December 2028.\n2. Its outlay is ₹8.69 lakh crore.\n3. Its target is 19.36 crore households.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "JJM 2.0 is planned up to December 2028, with an outlay of ₹8.69 lakh crore and a target of 19.36 crore households.",
+   "ty": "statements",
+   "tq": "Check the duration, financial outlay and physical target together.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes PMAY-G from PMAY-U?",
+   "o": [
+    "PMAY-G is implemented by MoHUA, whereas PMAY-U is implemented by Rural Development.",
+    "PMAY-G concerns LPG and PMAY-U concerns electricity connections.",
+    "PMAY-G is implemented by Rural Development, whereas PMAY-U is implemented by MoHUA.",
+    "Both are implemented by the Ministry of Jal Shakti."
+   ],
+   "a": 2,
+   "x": "PMAY-G is associated with the Ministry of Rural Development, while PMAY-U is associated with the Ministry of Housing and Urban Affairs. Both concern pucca housing in rural and urban areas respectively.",
+   "ty": "comparison",
+   "tq": "Compare the ministry and rural-urban scope instead of relying on similar abbreviations.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The assistance under PMAY-G is ₹1.20 lakh in plains and ₹1.30 lakh in hilly areas. Which amount is applicable to hilly areas?",
+   "o": [
+    "₹1.10 lakh",
+    "₹1.20 lakh",
+    "₹1.30 lakh",
+    "₹1.50 lakh"
+   ],
+   "a": 2,
+   "x": "PMAY-G provides ₹1.20 lakh in plains and ₹1.30 lakh in hilly areas.",
+   "ty": "numerical",
+   "tq": "Use the geographical comparison to avoid reversing the two assistance amounts.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "PMKVY primarily provides:",
+   "o": [
+    "Electricity connections to every household",
+    "Short-term skill training and certification",
+    "Tap water connections to rural households",
+    "Health insurance to poor families"
+   ],
+   "a": 1,
+   "x": "The Pradhan Mantri Kaushal Vikas Yojana provides short-term skill training and certification and is associated with the Ministry of Skill Development and Entrepreneurship.",
+   "ty": "fact",
+   "tq": "Match the scheme with its precise operational objective.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "PM Ujjwala Yojana is administered by the Ministry of:",
+   "o": [
+    "Health and Family Welfare",
+    "Power",
+    "Petroleum and Natural Gas",
+    "Rural Development"
+   ],
+   "a": 2,
+   "x": "PM Ujjwala Yojana is associated with the Ministry of Petroleum and Natural Gas and provides deposit-free LPG connections to adult women of poor households.",
+   "ty": "fact",
+   "tq": "Identify the correct ministry from the scheme’s commodity and beneficiary group.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements is correct regarding PM Ujjwala Yojana?\n1. It was launched in May 2016.\n2. Ujjwala 2.0 was introduced in 2021.\n3. It provides deposit-free LPG connections to adult women of poor households.\n4. The number of connections mentioned for the scheme is 10.57 crore.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. PMUY was launched in May 2016, Ujjwala 2.0 came in 2021, the beneficiaries are adult women of poor households, and 10.57 crore connections are recorded.",
+   "ty": "statements",
+   "tq": "Combine launch year, later version, beneficiary and numerical coverage in one verification.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Ayushman Bharat PM-JAY is associated with which ministry and implementing institution?",
+   "o": [
+    "Ministry of Health and Family Welfare and the National Health Authority",
+    "Ministry of Power and the National Skill Development Corporation",
+    "Ministry of Rural Development and SIDBI",
+    "Ministry of Jal Shakti and the Survey of India"
+   ],
+   "a": 0,
+   "x": "Ayushman Bharat PM-JAY is associated with the Ministry of Health and Family Welfare and is implemented through the National Health Authority.",
+   "ty": "match",
+   "tq": "Match the scheme with its parent ministry and implementing institution.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "SVAMITVA uses drone surveys primarily to provide:",
+   "o": [
+    "Health cards to poor families",
+    "Property cards for rural abadi land",
+    "Employment cards to street vendors",
+    "LPG connections to rural women"
+   ],
+   "a": 1,
+   "x": "SVAMITVA uses drone surveys conducted by the Survey of India to provide property cards for rural abadi land.",
+   "ty": "application",
+   "tq": "Identify the instrument, land category and resulting document in the scheme.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which scheme is correctly matched with its objective?",
+   "o": [
+    "SVAMITVA — deposit-free LPG connection to adult women",
+    "PMKVY — ₹5 lakh health cover per poor family",
+    "PM-JAY — drone survey of rural abadi land",
+    "Saubhagya — electricity connection to every household"
+   ],
+   "a": 3,
+   "x": "Saubhagya aims to provide electricity connections to every household. LPG connections, health cover and drone-based property cards are associated with PMUY, PM-JAY and SVAMITVA respectively.",
+   "ty": "negative",
+   "tq": "Find the correctly matched pair by separating the outputs of similar welfare schemes.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The target under SVAMITVA mentioned for rural villages is:",
+   "o": [
+    "3.50 lakh villages",
+    "1.70 lakh villages",
+    "6.62 lakh villages",
+    "19.36 lakh villages"
+   ],
+   "a": 2,
+   "x": "SVAMITVA has a target covering 6.62 lakh villages.",
+   "ty": "numerical",
+   "tq": "Recall the precise physical target rather than confusing it with household targets under other schemes.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Match the newer launch with the correct ministry:\n\na. PM Dhan-Dhaanya Krishi Yojana\nb. Export Promotion Mission\nc. RDI Scheme\nd. Biopharma SHAKTI\n\ni. Department of Science and Technology through the ANRF Board\nii. Department of Pharmaceuticals\niii. Agriculture\niv. Commerce and Industry\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–ii, b–iv, c–i, d–iii"
+   ],
+   "a": 0,
+   "x": "PM Dhan-Dhaanya Krishi Yojana belongs to Agriculture; the Export Promotion Mission to Commerce and Industry; the RDI Scheme to DST through the ANRF Board; and Biopharma SHAKTI to the Department of Pharmaceuticals.",
+   "ty": "match",
+   "tq": "Start with the distinctive ministry for Biopharma SHAKTI and then complete the remaining pairs.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "PM Dhan-Dhaanya Krishi Yojana is designed for:",
+   "o": [
+    "100 high-productivity districts for four years, benefiting 3.5 crore employees",
+    "100 low-productivity districts for six years, benefiting about 1.7 crore farmers",
+    "6.62 lakh villages for ten years",
+    "19.36 crore rural households for three years"
+   ],
+   "a": 1,
+   "x": "PM Dhan-Dhaanya Krishi Yojana covers 100 low-productivity districts for six years and is expected to benefit about 1.7 crore farmers.",
+   "ty": "numerical",
+   "tq": "Combine the district count, duration and beneficiary estimate to identify the scheme.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Under the Mission for Aatmanirbharta in Pulses, 100% MSP procurement is specified for which group of pulses for four years?",
+   "o": [
+    "Tur, urad and masoor",
+    "Wheat, rice and maize",
+    "Chana, moong and arhar only",
+    "Soybean, groundnut and sunflower"
+   ],
+   "a": 0,
+   "x": "The mission provides for 100% MSP procurement of tur, urad and masoor for four years, within the period 2025-26 to 2030-31.",
+   "ty": "fact",
+   "tq": "Distinguish the exact pulse trio from other agricultural commodities.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The approved corpus of the RDI Scheme is:",
+   "o": [
+    "₹99,446 crore",
+    "₹25,060 crore",
+    "₹10,000 crore",
+    "₹1 lakh crore"
+   ],
+   "a": 3,
+   "x": "The RDI Scheme has a corpus of ₹1 lakh crore and was approved on 1 July 2025.",
+   "ty": "numerical",
+   "tq": "Match the large corpus figure with the correct research and development scheme.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following is correctly matched?",
+   "o": [
+    "Biopharma SHAKTI — ₹1 lakh crore corpus for six years",
+    "Export Promotion Mission — ₹25,060 crore for FY26–FY31",
+    "PM Viksit Bharat Rozgar Yojana — ₹10,000 crore for biologics",
+    "Mission Samriddh Gaon — 100% MSP procurement of pulses"
+   ],
+   "a": 1,
+   "x": "The Export Promotion Mission has an allocation of ₹25,060 crore for FY26–FY31. Biopharma SHAKTI concerns ₹10,000 crore and biologics, PM Viksit Bharat Rozgar Yojana concerns employment, and Mission Samriddh Gaon concerns livelihood saturation.",
+   "ty": "negative",
+   "tq": "Use amount-period matching to detect swapped scheme features.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Biopharma SHAKTI has which of the following features?",
+   "o": [
+    "₹1 lakh crore corpus for research approved in July 2025",
+    "₹10,000 crore allocation for 2026–31 and development of 100 biologics by 2047",
+    "₹25,060 crore allocation for export promotion during FY26–FY31",
+    "₹99,446 crore allocation for 3.5 crore EPFO-linked jobs"
+   ],
+   "a": 1,
+   "x": "Biopharma SHAKTI has an allocation of ₹10,000 crore for 2026–31 and aims at 100 biologics by 2047.",
+   "ty": "fact",
+   "tq": "Identify the scheme from its long-term target and sector-specific financial allocation.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "PM Viksit Bharat Rozgar Yojana covers which period and employment target?",
+   "o": [
+    "1 August 2025 to 31 July 2027; 3.5 crore jobs through EPFO",
+    "1 July 2026 to 31 December 2028; 19.36 crore jobs through JJM",
+    "2026-31; 100 biologics through the Department of Pharmaceuticals",
+    "2025-26 to 2030-31; 1.7 crore farmers through Agriculture"
+   ],
+   "a": 0,
+   "x": "PM Viksit Bharat Rozgar Yojana covers 1 August 2025 to 31 July 2027 and aims to create 3.5 crore jobs through EPFO.",
+   "ty": "numerical",
+   "tq": "Pair the scheme with its exact period, employment figure and institutional route.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Mission Samriddh Gaon is associated with:",
+   "o": [
+    "Aeronautics skilling at NSTI Kanpur",
+    "A purpose-bound digital rupee food subsidy",
+    "Universal tap-water connections in every rural household",
+    "Livelihood saturation, initially piloted in two blocks of Madhya Pradesh"
+   ],
+   "a": 3,
+   "x": "Mission Samriddh Gaon focuses on livelihood saturation and was initially piloted in two Madhya Pradesh blocks.",
+   "ty": "fact",
+   "tq": "Match the new mission with its objective and pilot location.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "CBDC-based DBT under PM-GKAY uses purpose-bound e₹ primarily for:",
+   "o": [
+    "LPG subsidy",
+    "Skill-training certification",
+    "Food subsidy",
+    "Property registration"
+   ],
+   "a": 2,
+   "x": "The CBDC-based DBT arrangement under PM-GKAY uses purpose-bound digital rupees for food subsidy and is associated with Chandigarh and Dadra and Nagar Haveli.",
+   "ty": "application",
+   "tq": "Identify the purpose of the digital payment rather than the technology alone.",
+   "sec": "Scheme/Mission → ministry + objective (JJM, PMAY, PMKVY, Ujjwala, Ayushman Bharat, SVAMITVA, Saubhagya, newer launches)  [APPSC, GROUP-II]"
+  }
+ ]
+}

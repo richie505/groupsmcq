@@ -1,0 +1,412 @@
+{
+ "book": 6,
+ "row": 11,
+ "chunk": 1,
+ "section": "Science and technology in news - space missions, defence tests, health and biotech developments",
+ "subsections": [
+  "Semiconductors, quantum and computing terms → developer + use (SHAKTI chip, Majorana 1, qubit, GPT)",
+  "Digital initiatives and tech platforms → launching organisation (Digiboxx, Sangam Digital Twin, MeitY, tech campuses)",
+  "Viruses and diseases in news - pathogen type, outbreak country, WHO declarations"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The SHAKTI aerospace chip, reported in February 2025, was developed on the SHAKTI processor of which institution, in association with ISRO?",
+   "o": [
+    "C-DAC Pune",
+    "IIT Madras",
+    "IIT Delhi",
+    "SCL Chandigarh"
+   ],
+   "a": 1,
+   "x": "The SHAKTI aerospace chip was built on the SHAKTI processor developed at IIT Madras, in association with ISRO.",
+   "ty": "fact",
+   "tq": "Use the institution–technology association and avoid the nearby IIT Delhi trap.",
+   "sec": "Semiconductors, quantum and computing terms → developer + use (SHAKTI chip, Majorana 1, qubit, GPT)"
+  },
+  {
+   "s": "Which one of the following correctly describes Vikram 3201?",
+   "o": [
+    "India’s first indigenous 16-bit processor developed by C-DAC",
+    "India’s first indigenous 32-bit space-grade microprocessor developed by ISRO",
+    "India’s first quantum processor developed by Microsoft",
+    "India’s first memory-chip packaging processor developed by Micron"
+   ],
+   "a": 1,
+   "x": "Vikram 3201 is described as ISRO’s first indigenous 32-bit space-grade microprocessor. It was developed along with Kalpana32.",
+   "ty": "fact",
+   "tq": "Match the processor with its exact bit size and application.",
+   "sec": "Semiconductors, quantum and computing terms → developer + use (SHAKTI chip, Majorana 1, qubit, GPT)"
+  },
+  {
+   "s": "Consider the following statements regarding indigenous processors:\n1. VEGA is associated with C-DAC’s first indigenous RISC-V processor series.\n2. Vikram 3201 is a space-grade microprocessor.\n3. Kalpana32 is associated with Vikram 3201.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. VEGA is C-DAC’s indigenous RISC-V processor series, while Vikram 3201 and Kalpana32 are associated with indigenous space-grade processing.",
+   "ty": "statements",
+   "tq": "Check each processor against its developer and application before selecting the combined code.",
+   "sec": "Semiconductors, quantum and computing terms → developer + use (SHAKTI chip, Majorana 1, qubit, GPT)"
+  },
+  {
+   "s": "The first domestic packaging plant for memory chips at Sanand is associated with which company?",
+   "o": [
+    "Google",
+    "Microsoft",
+    "C-DAC",
+    "Micron"
+   ],
+   "a": 3,
+   "x": "Micron’s ATMP facility at Sanand is identified as the first domestic packaging plant for memory chips.",
+   "ty": "fact",
+   "tq": "Use the company–facility association rather than confusing chip packaging with processor development.",
+   "sec": "Semiconductors, quantum and computing terms → developer + use (SHAKTI chip, Majorana 1, qubit, GPT)"
+  },
+  {
+   "s": "The outlay mentioned for ISM 2.0 is:",
+   "o": [
+    "₹29,000 crore",
+    "₹73,070 crore",
+    "₹1,27,500 crore",
+    "₹7,30,700 crore"
+   ],
+   "a": 2,
+   "x": "The stated outlay for ISM 2.0 is ₹1,27,500 crore.",
+   "ty": "numerical",
+   "tq": "Distinguish the full outlay from the other technology-sector figures.",
+   "sec": "Semiconductors, quantum and computing terms → developer + use (SHAKTI chip, Majorana 1, qubit, GPT)"
+  },
+  {
+   "s": "Majorana 1, introduced by Microsoft in 2025, uses which type of qubits?",
+   "o": [
+    "Chemical qubits",
+    "Mechanical qubits",
+    "Photonic qubits",
+    "Topological qubits"
+   ],
+   "a": 3,
+   "x": "Microsoft’s Majorana 1 uses topological qubits.",
+   "ty": "fact",
+   "tq": "Identify the exact technical term linked with the named quantum device.",
+   "sec": "Semiconductors, quantum and computing terms → developer + use (SHAKTI chip, Majorana 1, qubit, GPT)"
+  },
+  {
+   "s": "Majorana 2 was reported to hold coherence for approximately:",
+   "o": [
+    "20 seconds on average and up to 1 minute",
+    "1 hour on average and up to 2 hours",
+    "2 seconds on average and up to 10 seconds",
+    "2 minutes on average and up to 20 minutes"
+   ],
+   "a": 0,
+   "x": "Majorana 2 was reported to hold coherence for about 20 seconds on average, with the duration reaching up to 1 minute.",
+   "ty": "numerical",
+   "tq": "Separate the average value from the maximum value in a paired numerical fact.",
+   "sec": "Semiconductors, quantum and computing terms → developer + use (SHAKTI chip, Majorana 1, qubit, GPT)"
+  },
+  {
+   "s": "In quantum computing, the term ‘qubit’ refers to:",
+   "o": [
+    "Quick binary transmitter",
+    "Quantified binary table",
+    "Quantum bandwidth",
+    "Quantum bit"
+   ],
+   "a": 3,
+   "x": "Qubit is the shortened form of quantum bit, the basic unit of quantum information.",
+   "ty": "confusable",
+   "tq": "Test the exact expansion of a look-alike technical term.",
+   "sec": "Semiconductors, quantum and computing terms → developer + use (SHAKTI chip, Majorana 1, qubit, GPT)"
+  },
+  {
+   "s": "The National Quantum Mission targets quantum systems with a capacity of:",
+   "o": [
+    "5–100 qubits",
+    "500–10,000 qubits",
+    "50–1,000 qubits",
+    "10–500 qubits"
+   ],
+   "a": 2,
+   "x": "The National Quantum Mission targets systems ranging from 50 to 1,000 qubits.",
+   "ty": "numerical",
+   "tq": "Retain both endpoints of the quantitative range.",
+   "sec": "Semiconductors, quantum and computing terms → developer + use (SHAKTI chip, Majorana 1, qubit, GPT)"
+  },
+  {
+   "s": "According to the quantum-safe cybersecurity timeline, post-quantum cryptography is sought in critical infrastructure by 2029 and in other firms by:",
+   "o": [
+    "2030",
+    "2031",
+    "2033",
+    "2035"
+   ],
+   "a": 2,
+   "x": "The stated timeline calls for post-quantum cryptography in critical infrastructure by 2029 and in other firms by 2033.",
+   "ty": "numerical",
+   "tq": "Compare the two deadlines and select the later one applicable to other firms.",
+   "sec": "Semiconductors, quantum and computing terms → developer + use (SHAKTI chip, Majorana 1, qubit, GPT)"
+  },
+  {
+   "s": "Which of the following is correctly matched with an Indian artificial-intelligence model?",
+   "o": [
+    "BharatGen PARAM-2 — 17B multilingual model",
+    "VoicERA — memory-chip packaging platform",
+    "Vachana — quantum-safe cryptography standard",
+    "PARAM-2 — satellite launch vehicle"
+   ],
+   "a": 0,
+   "x": "BharatGen PARAM-2 is identified as a 17B multilingual model. VoicERA is associated with BHASHINI, while Vachana is associated with Gnani.ai.",
+   "ty": "match",
+   "tq": "Start from the precise model–description pair and reject mismatched technology categories.",
+   "sec": "Semiconductors, quantum and computing terms → developer + use (SHAKTI chip, Majorana 1, qubit, GPT)"
+  },
+  {
+   "s": "The Sangam Digital Twin initiative was launched by the:",
+   "o": [
+    "Department of Telecommunications",
+    "Ministry of Electronics and Information Technology",
+    "NITI Aayog",
+    "Department of Space"
+   ],
+   "a": 0,
+   "x": "The Sangam Digital Twin initiative was launched by the Department of Telecommunications.",
+   "ty": "fact",
+   "tq": "Apply the ‘who launched it?’ method to distinguish neighbouring technology departments.",
+   "sec": "Digital initiatives and tech platforms → launching organisation (Digiboxx, Sangam Digital Twin, MeitY, tech campuses)"
+  },
+  {
+   "s": "Consider the following statements:\n1. Digiboxx offers 20 GB of free cloud storage.\n2. Digiboxx was launched by NITI Aayog.\n3. Sangam Digital Twin was launched by the Department of Telecommunications.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Digiboxx is a NITI Aayog initiative offering 20 GB of free cloud storage, while Sangam Digital Twin is a Department of Telecommunications initiative.",
+   "ty": "statements",
+   "tq": "Combine the service detail with the correct launching organisations.",
+   "sec": "Digital initiatives and tech platforms → launching organisation (Digiboxx, Sangam Digital Twin, MeitY, tech campuses)"
+  },
+  {
+   "s": "The indigenous BSNL 4G stack is described as:",
+   "o": [
+    "A 4G stack with a 5G-ready architecture and a core developed by C-DOT",
+    "A satellite-only communication system developed by ISRO",
+    "A memory-chip packaging system developed by Micron",
+    "A 5G stack with a core developed by NITI Aayog"
+   ],
+   "a": 0,
+   "x": "The BSNL swadeshi 4G stack is 5G-ready, and its core was developed by C-DOT.",
+   "ty": "fact",
+   "tq": "Separate the network generation from the organisation responsible for the core.",
+   "sec": "Digital initiatives and tech platforms → launching organisation (Digiboxx, Sangam Digital Twin, MeitY, tech campuses)"
+  },
+  {
+   "s": "The 100% 4G Saturation Mission, associated with the indigenous BSNL 4G stack, is linked with approximately how many villages?",
+   "o": [
+    "29,000–30,000 villages",
+    "90,000–1,00,000 villages",
+    "9,000–10,000 villages",
+    "2,900–3,000 villages"
+   ],
+   "a": 0,
+   "x": "The mission is associated with extending coverage to approximately 29,000–30,000 villages through the Digital Bharat Nidhi.",
+   "ty": "numerical",
+   "tq": "Retain the order of magnitude in the coverage figure.",
+   "sec": "Digital initiatives and tech platforms → launching organisation (Digiboxx, Sangam Digital Twin, MeitY, tech campuses)"
+  },
+  {
+   "s": "NIELIT Amaravati is described as India’s first dedicated campus for:",
+   "o": [
+    "Semiconductor packaging and manufacturing",
+    "Space science and defence studies",
+    "Medical robotics and genomics",
+    "Quantum and artificial intelligence"
+   ],
+   "a": 3,
+   "x": "NIELIT Amaravati is India’s first dedicated Quantum and AI university campus.",
+   "ty": "fact",
+   "tq": "Match the campus with its specialised academic domain.",
+   "sec": "Digital initiatives and tech platforms → launching organisation (Digiboxx, Sangam Digital Twin, MeitY, tech campuses)"
+  },
+  {
+   "s": "Which one of the following correctly describes NIELIT Amaravati?",
+   "o": [
+    "It was established by the Department of Telecommunications with an outlay of ₹730.70 crore, with classes beginning at SCL Chandigarh.",
+    "It was established by ISRO with an outlay of ₹73.07 crore, with classes beginning at IIT Madras.",
+    "It was established by NITI Aayog with an outlay of ₹7,307 crore, with classes beginning at C-DAC Pune.",
+    "It was established by MeitY with an outlay of ₹730.70 crore, with classes beginning in September 2026 at ANU, Guntur."
+   ],
+   "a": 3,
+   "x": "NIELIT Amaravati is a MeitY initiative costing ₹730.70 crore; classes are scheduled to begin in September 2026 at ANU, Guntur.",
+   "ty": "fact",
+   "tq": "Check the full chain: ministry, outlay, start date and location.",
+   "sec": "Digital initiatives and tech platforms → launching organisation (Digiboxx, Sangam Digital Twin, MeitY, tech campuses)"
+  },
+  {
+   "s": "Amaravati is identified as the first Quantum Valley under the:",
+   "o": [
+    "National Quantum Mission",
+    "Digital India Programme",
+    "100% 4G Saturation Mission",
+    "Digital Bharat Nidhi"
+   ],
+   "a": 0,
+   "x": "Amaravati is identified as the first Quantum Valley under the National Quantum Mission.",
+   "ty": "fact",
+   "tq": "Match the place with the correct national mission, not with a related digital programme.",
+   "sec": "Digital initiatives and tech platforms → launching organisation (Digiboxx, Sangam Digital Twin, MeitY, tech campuses)"
+  },
+  {
+   "s": "The stamp-duty exemption associated with the first Quantum Valley at Amaravati is:",
+   "o": [
+    "25%",
+    "50%",
+    "75%",
+    "100%"
+   ],
+   "a": 3,
+   "x": "A 100% stamp-duty exemption is associated with the first Quantum Valley at Amaravati.",
+   "ty": "numerical",
+   "tq": "Identify the exact percentage rather than assuming a partial exemption.",
+   "sec": "Digital initiatives and tech platforms → launching organisation (Digiboxx, Sangam Digital Twin, MeitY, tech campuses)"
+  },
+  {
+   "s": "Mission Drishti of GalaxEye is associated with which of the following?",
+   "o": [
+    "India’s first domestic memory-chip packaging plant",
+    "The first private Indian 800 kN methane engine",
+    "The world’s first OptoSAR satellite launched on Falcon 9",
+    "The first private launch from the Dhanush pad using a 3D-printed engine"
+   ],
+   "a": 2,
+   "x": "Mission Drishti, developed by GalaxEye, is associated with the world’s first OptoSAR satellite, launched on Falcon 9.",
+   "ty": "fact",
+   "tq": "Distinguish the mission by its payload and launch vehicle.",
+   "sec": "Digital initiatives and tech platforms → launching organisation (Digiboxx, Sangam Digital Twin, MeitY, tech campuses)"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "EVEREST — Astrobase’s first private Indian 800 kN full-flow staged-combustion methane engine",
+    "Mission Drishti — BSNL’s indigenous 4G core",
+    "Agnikul — India’s first OptoSAR satellite",
+    "Vikram 3201 — Micron’s Sanand packaging plant"
+   ],
+   "a": 0,
+   "x": "EVEREST is associated with Astrobase’s first private Indian 800 kN full-flow staged-combustion methane engine.",
+   "ty": "match",
+   "tq": "Use the company–technology pairing and eliminate cross-swapped organisations.",
+   "sec": "Digital initiatives and tech platforms → launching organisation (Digiboxx, Sangam Digital Twin, MeitY, tech campuses)"
+  },
+  {
+   "s": "Agnikul’s distinction in the Indian private space sector is that it achieved:",
+   "o": [
+    "The first launch from a private pad named Dhanush using a single-piece 3D-printed engine",
+    "The first 4G stack with a C-DOT core",
+    "The first satellite launch on Falcon 9 from a government launch site",
+    "The first domestic memory-chip packaging operation"
+   ],
+   "a": 0,
+   "x": "Agnikul achieved the first launch from a private pad, named Dhanush, using a single-piece 3D-printed engine.",
+   "ty": "fact",
+   "tq": "Identify the distinctive achievement rather than the organisation’s general sector.",
+   "sec": "Digital initiatives and tech platforms → launching organisation (Digiboxx, Sangam Digital Twin, MeitY, tech campuses)"
+  },
+  {
+   "s": "The Ebola outbreak associated with a WHO declaration of a PHEIC in May 2026 involved the Bundibugyo virus in Ituri, Democratic Republic of the Congo, with spread to:",
+   "o": [
+    "Kenya",
+    "Tanzania",
+    "Uganda",
+    "Rwanda"
+   ],
+   "a": 2,
+   "x": "The outbreak involved the Bundibugyo virus in Ituri in the Democratic Republic of the Congo and spread to Uganda. WHO declared it a PHEIC in May 2026.",
+   "ty": "fact",
+   "tq": "Link the pathogen, outbreak location, spread country and WHO declaration.",
+   "sec": "Viruses and diseases in news - pathogen type, outbreak country, WHO declarations"
+  },
+  {
+   "s": "Which disease was reported in June 2026 in Kozhikode, Kerala, and is associated with bats and pigs as hosts?",
+   "o": [
+    "Hantavirus",
+    "Nipah",
+    "H1N1",
+    "Ebola"
+   ],
+   "a": 1,
+   "x": "Nipah was reported in Kozhikode, Kerala, in June 2026; bats and pigs are associated with its transmission ecology.",
+   "ty": "fact",
+   "tq": "Use the place–host association to distinguish diseases in the news.",
+   "sec": "Viruses and diseases in news - pathogen type, outbreak country, WHO declarations"
+  },
+  {
+   "s": "H1N1 is best described as:",
+   "o": [
+    "A filovirus causing Ebola disease",
+    "An influenza A subtype commonly called swine flu",
+    "A coronavirus causing Middle East respiratory syndrome",
+    "A rodent-borne hantavirus strain"
+   ],
+   "a": 1,
+   "x": "H1N1 is an influenza A subtype commonly referred to as swine flu. A spike across States was reported in August 2026.",
+   "ty": "confusable",
+   "tq": "Discriminate among similar disease names by identifying the pathogen family and subtype.",
+   "sec": "Viruses and diseases in news - pathogen type, outbreak country, WHO declarations"
+  },
+  {
+   "s": "The Andes strain is associated with which disease and mode of transmission?",
+   "o": [
+    "Nipah; bat-borne transmission",
+    "Hantavirus; rodent-borne transmission",
+    "Ebola; mosquito-borne transmission",
+    "H1N1; water-borne transmission"
+   ],
+   "a": 1,
+   "x": "The Andes strain is a hantavirus strain and is rodent-borne. It was linked with cruise-ship deaths in the Atlantic in May 2026.",
+   "ty": "match",
+   "tq": "Start with the pathogen strain and match it to the disease and transmission mode.",
+   "sec": "Viruses and diseases in news - pathogen type, outbreak country, WHO declarations"
+  },
+  {
+   "s": "Consider the following statements:\n1. SARS-CoV-2 belongs to the coronavirus family.\n2. SARS belongs to the coronavirus family.\n3. MERS belongs to the coronavirus family.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "SARS-CoV-2, SARS and MERS are all included in the coronavirus family.",
+   "ty": "statements",
+   "tq": "Test the complete membership list without excluding the older disease names.",
+   "sec": "Viruses and diseases in news - pathogen type, outbreak country, WHO declarations"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Nipah — bats and pigs associated as hosts",
+    "H1N1 — influenza A subtype",
+    "Hantavirus Andes strain — mosquito-borne disease",
+    "Ebola — Bundibugyo virus"
+   ],
+   "a": 2,
+   "x": "The Andes strain of hantavirus is rodent-borne, not mosquito-borne. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the single wrong pathogen–transmission or disease association.",
+   "sec": "Viruses and diseases in news - pathogen type, outbreak country, WHO declarations"
+  }
+ ]
+}

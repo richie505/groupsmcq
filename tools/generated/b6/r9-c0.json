@@ -1,0 +1,496 @@
+{
+ "book": 6,
+ "row": 9,
+ "chunk": 0,
+ "section": "International - treaties, agreements and developments in international organisations",
+ "subsections": [
+  "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen)",
+  "UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue",
+  "International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following countries joined BRICS from 1 January 2024?",
+   "o": [
+    "Egypt, Ethiopia, Iran and the United Arab Emirates",
+    "Argentina, Indonesia, Saudi Arabia and Egypt",
+    "Ethiopia, Saudi Arabia, Indonesia and the United Arab Emirates",
+    "Egypt, Indonesia, Iran and Argentina"
+   ],
+   "a": 0,
+   "x": "Egypt, Ethiopia, Iran and the United Arab Emirates joined BRICS from 1 January 2024. Argentina declined the invitation, while Indonesia joined in 2025 and Saudi Arabia's status remained unconfirmed.",
+   "ty": "fact",
+   "tq": "Use the exact admission date and separate invited, admitted and unconfirmed members.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "Consider the following statements regarding recent changes in international groupings:\n1. Indonesia joined BRICS in January 2025.\n2. Timor-Leste became the eleventh member of ASEAN in October 2025.\n3. Finland and Sweden became the 31st and 32nd members of NATO, respectively.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Indonesia joined BRICS in January 2025, Timor-Leste became ASEAN's eleventh member in October 2025, and Finland and Sweden became NATO's 31st and 32nd members.",
+   "ty": "statements",
+   "tq": "Combine closely related membership changes and verify the sequence and ordinal numbers.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "The tenth member and the first Central Asian member of the New Development Bank is:",
+   "o": [
+    "Kyrgyzstan",
+    "Turkmenistan",
+    "Kazakhstan",
+    "Uzbekistan"
+   ],
+   "a": 3,
+   "x": "Uzbekistan became the tenth member of the New Development Bank and its first member from Central Asia. The headquarters of the Bank is in Shanghai.",
+   "ty": "fact",
+   "tq": "Discriminate between neighbouring countries using the ordinal and regional description.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "The headquarters of the New Development Bank is located at:",
+   "o": [
+    "Shanghai",
+    "Brasilia",
+    "Johannesburg",
+    "Beijing"
+   ],
+   "a": 0,
+   "x": "The New Development Bank is headquartered in Shanghai, China.",
+   "ty": "fact",
+   "tq": "Test the headquarters separately from the organisation's membership changes.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "BIMSTEC — Chair in 2026: Bangladesh",
+    "ASEAN — Chair in 2026: Timor-Leste",
+    "NATO — Chair in 2026: Finland",
+    "New Development Bank — Chair in 2026: Uzbekistan"
+   ],
+   "a": 0,
+   "x": "Bangladesh is the BIMSTEC chair for 2026. The other pairings incorrectly assign leadership roles not stated for those organisations.",
+   "ty": "match",
+   "tq": "Find the organisation–current chair pair rather than confusing membership with chairmanship.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "Bulgaria and Romania became full members of the Schengen Area from:",
+   "o": [
+    "1 January 2024",
+    "1 January 2026",
+    "1 January 2025",
+    "1 January 2023"
+   ],
+   "a": 2,
+   "x": "Bulgaria and Romania became full members of the Schengen Area on 1 January 2025.",
+   "ty": "numerical",
+   "tq": "Use the precise date to distinguish partial or earlier accession from full membership.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "With reference to the Colombo Security Conclave, consider the following statements:\n1. It was formed in 2020.\n2. Bangladesh is its sixth member.\n3. Seychelles is included among its members.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Colombo Security Conclave was formed in 2020 and comprises India, Sri Lanka, Maldives, Mauritius, Bangladesh and Seychelles. Thus all three statements are correct.",
+   "ty": "statements",
+   "tq": "Check the membership list and the numerical description of the grouping.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "Which of the following correctly describes the composition of the G20 as given in the current grouping?",
+   "o": [
+    "19 countries, the European Union and the African Union",
+    "19 countries and only the African Union",
+    "18 countries, the European Union and ASEAN",
+    "20 countries, without any regional organisation"
+   ],
+   "a": 0,
+   "x": "The grouping consists of 19 countries, the European Union and the African Union. The African Union became a member in 2023.",
+   "ty": "fact",
+   "tq": "Avoid the numerical trap by separating countries from regional organisations.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "Consider the following statements about the Kimberley Process:\n1. It consists of 59 countries and the European Union.\n2. India is a founding member.\n3. India assumed its chairmanship from 1 January 2026 for the third time.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Kimberley Process comprises 60 participants—59 countries and the European Union. India is a founding member and took over its chairmanship on 1 January 2026 for the third time.",
+   "ty": "statements",
+   "tq": "Convert a composition figure and leadership details into a coded statement question.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "Which of the following statements regarding India's international memberships is correct?",
+   "o": [
+    "India is a full member of APEC, whose Secretariat is in Singapore.",
+    "India joined APEC along with Timor-Leste in 2025.",
+    "India is a founding member of APEC with veto power.",
+    "India is not a member of APEC and has only observer status."
+   ],
+   "a": 3,
+   "x": "India is not a member of APEC and is only an observer. APEC has 21 economies and its Secretariat is located in Singapore.",
+   "ty": "confusable",
+   "tq": "Discriminate between participation, observer status and full membership.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "The 2025 APEC summit was held at:",
+   "o": [
+    "Gyeongju, South Korea",
+    "Samarkand, Uzbekistan",
+    "Busan, South Korea",
+    "Singapore"
+   ],
+   "a": 0,
+   "x": "The 2025 APEC summit was held in Gyeongju, South Korea. Singapore is the location of the APEC Secretariat, not the summit venue.",
+   "ty": "fact",
+   "tq": "Separate the summit venue from the organisation's permanent secretariat location.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "Pax Silica, which India joined in February 2026, is associated primarily with:",
+   "o": [
+    "Critical minerals, semiconductors and artificial-intelligence supply chains",
+    "Global regulation of ocean fisheries",
+    "International civil aviation and airport security",
+    "Nuclear disarmament and strategic arms reduction"
+   ],
+   "a": 0,
+   "x": "Pax Silica is a US-led initiative concerning critical minerals, semiconductor supply chains and artificial intelligence supply chains.",
+   "ty": "application",
+   "tq": "Identify the sector governed by the initiative instead of its geographical or political label.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "The United States announced its intention to quit how many international bodies, comprising non-UN and UN bodies respectively?",
+   "o": [
+    "36 and 30",
+    "31 and 35",
+    "35 and 31",
+    "30 and 36"
+   ],
+   "a": 2,
+   "x": "The United States announced its intention to quit 66 bodies—35 non-UN bodies and 31 UN bodies. The listed bodies included WHO, UNFCCC, IPCC, ISA, IRENA, UNHRC and UNESCO.",
+   "ty": "numerical",
+   "tq": "Retain the total and its two-part numerical breakdown together.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "The United States left the Paris Agreement for the second time in:",
+   "o": [
+    "July 2026",
+    "January 2024",
+    "January 2025",
+    "January 2026"
+   ],
+   "a": 3,
+   "x": "The United States left the Paris Agreement for the second time in January 2026.",
+   "ty": "fact",
+   "tq": "Use the event count and exact year to distinguish the second exit from the earlier withdrawal.",
+   "sec": "Membership changes → organisation + new members admitted or exited (BRICS, NATO, EU, NDB, UNESCO, BIMSTEC, Schengen) | UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue | International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "Sarnath was inscribed as India's 45th World Heritage Site at which session and venue?",
+   "o": [
+    "20th ICH Committee, New Delhi",
+    "48th session, Busan",
+    "43rd General Conference, Samarkand",
+    "47th session, Paris"
+   ],
+   "a": 1,
+   "x": "Sarnath was inscribed at the 48th session of the World Heritage Committee held in Busan, South Korea, in July 2026. It became India's 45th World Heritage Site and Uttar Pradesh's fourth.",
+   "ty": "fact",
+   "tq": "Match the site with the correct committee session and venue.",
+   "sec": "UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Deepavali — 20th World Heritage Committee, Paris, 2025",
+    "Maratha Military Landscapes — 47th session, Paris, 2025",
+    "Sarnath — 43rd General Conference, Samarkand, 2025",
+    "Hoysala temples — 48th session, Busan, 2026"
+   ],
+   "a": 1,
+   "x": "The Maratha Military Landscapes of India were inscribed at the 47th session of the World Heritage Committee in Paris in 2025. Sarnath, Hoysala temples and Deepavali are associated with different UNESCO processes and venues.",
+   "ty": "negative",
+   "tq": "Find the one accurate site–session–venue combination among near-neighbouring UNESCO events.",
+   "sec": "UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue"
+  },
+  {
+   "s": "The Hoysala temples of Karnataka were inscribed on the World Heritage List in:",
+   "o": [
+    "2025",
+    "September 2023",
+    "July 2026",
+    "1983"
+   ],
+   "a": 1,
+   "x": "The Hoysala temples of Karnataka were inscribed in September 2023. The year 1983 relates to India's first World Heritage inscription involving Ajanta and Ellora.",
+   "ty": "numerical",
+   "tq": "Distinguish a recent inscription date from the earlier landmark inscription year.",
+   "sec": "UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue"
+  },
+  {
+   "s": "Consider the following statements regarding the UNESCO World Heritage List in July 2026:\n1. It contained 1,273 properties in 173 countries.\n2. The properties included 991 cultural, 240 natural and 42 mixed sites.\n3. Italy had the highest number of sites, followed by China.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Italy had 62 sites and China 61, the two highest national totals in the stated list.",
+   "ty": "statements",
+   "tq": "Handle a multi-part numerical statement by checking totals, categories and ranking separately.",
+   "sec": "UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Mixed properties — 52",
+    "Natural properties — 240",
+    "China — 61 World Heritage sites",
+    "Italy — 62 World Heritage sites"
+   ],
+   "a": 0,
+   "x": "The World Heritage List had 42 mixed properties, not 52. Italy had 62 sites, China 61, and the list included 240 natural properties.",
+   "ty": "negative",
+   "tq": "Find the altered figure in a numerical table by comparing each category with the stated total.",
+   "sec": "UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue"
+  },
+  {
+   "s": "Which of the following statements about UNESCO is correct?\n1. Its headquarters is in Paris.\n2. India is a founding member.\n3. It has 194 members and 12 associate members.\n4. Its Executive Board has 58 members.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "UNESCO is headquartered in Paris; India is a founding member; UNESCO has 194 members and 12 associate members; and its Executive Board has 58 members.",
+   "ty": "statements",
+   "tq": "Use an all-inclusive option only after verifying each institutional fact independently.",
+   "sec": "UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue"
+  },
+  {
+   "s": "Lucknow was included in UNESCO's Creative Cities Network as a City of:",
+   "o": [
+    "Gastronomy",
+    "Literature",
+    "Design",
+    "Music"
+   ],
+   "a": 0,
+   "x": "Lucknow was named a City of Gastronomy in recognition of Awadhi cuisine at UNESCO's 43rd General Conference in Samarkand in October–November 2025.",
+   "ty": "fact",
+   "tq": "Match the city with its exact Creative Cities category, not merely its cultural reputation.",
+   "sec": "UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue"
+  },
+  {
+   "s": "With reference to Indian entries in UNESCO lists, consider the following statements:\n1. Lucknow is India's second City of Gastronomy after Hyderabad.\n2. Hyderabad received the designation in 2019.\n3. Deepavali was inscribed at the 20th Intangible Cultural Heritage Committee meeting in New Delhi in December 2025.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Lucknow followed Hyderabad as India's second gastronomy city, while Deepavali was inscribed at the 20th ICH Committee meeting at the Red Fort, New Delhi.",
+   "ty": "statements",
+   "tq": "Separate World Heritage, Intangible Heritage and Creative Cities categories before selecting the code.",
+   "sec": "UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue"
+  },
+  {
+   "s": "The first Indian World Heritage site, inscribed along with Ellora, was:",
+   "o": [
+    "Sarnath",
+    "Maratha Military Landscapes",
+    "Ajanta",
+    "Hoysala temples"
+   ],
+   "a": 2,
+   "x": "Ajanta, along with Ellora, was India's first World Heritage site inscription in 1983.",
+   "ty": "fact",
+   "tq": "Use the historical first rather than the latest inscription in the same subject area.",
+   "sec": "UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue"
+  },
+  {
+   "s": "Which institution is the nodal agency for World Heritage matters in India and looks after 28 World Heritage properties among 3,688 centrally protected monuments?",
+   "o": [
+    "Ministry of External Affairs",
+    "UNESCO Executive Board",
+    "National Monuments Authority",
+    "Archaeological Survey of India"
+   ],
+   "a": 3,
+   "x": "The Archaeological Survey of India is the nodal agency for World Heritage matters and looks after 28 World Heritage properties among 3,688 centrally protected monuments.",
+   "ty": "fact",
+   "tq": "Identify the responsible authority from its operational role and numerical jurisdiction.",
+   "sec": "UNESCO lists - World Heritage inscriptions from India, Creative Cities Network, committee venue"
+  },
+  {
+   "s": "The Chicago Convention of 1944 is primarily concerned with:",
+   "o": [
+    "Transboundary hazardous waste",
+    "Protection of the ozone layer",
+    "Private international law",
+    "International civil aviation"
+   ],
+   "a": 3,
+   "x": "The Chicago Convention of 1944 governs international civil aviation and led to the creation of the International Civil Aviation Organization.",
+   "ty": "fact",
+   "tq": "Match each convention with its governing sector rather than its date alone.",
+   "sec": "International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Vienna Convention, 1985 — ozone layer protection",
+    "Rotterdam Convention — mercury pollution",
+    "Basel Convention — prior informed consent for hazardous chemicals",
+    "Windsor Framework — international civil aviation"
+   ],
+   "a": 0,
+   "x": "The Vienna Convention of 1985 concerns protection of the ozone layer. Rotterdam concerns prior informed consent for hazardous chemicals, Basel concerns transboundary hazardous waste, and the Windsor Framework concerns post-Brexit UK–EU trade rules for Northern Ireland.",
+   "ty": "match",
+   "tq": "Discriminate among conventions dealing with closely related environmental and trade subjects.",
+   "sec": "International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "The Montreal Protocol of 1987 is associated with:",
+   "o": [
+    "Hazardous chemicals under prior informed consent",
+    "Persistent organic pollutants",
+    "Ozone-depleting substances",
+    "Child abduction across borders"
+   ],
+   "a": 2,
+   "x": "The Montreal Protocol of 1987 regulates ozone-depleting substances and operates in the broader framework of ozone-layer protection.",
+   "ty": "confusable",
+   "tq": "Distinguish the ozone regime from the hazardous-chemical and POPs regimes.",
+   "sec": "International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "The Hague Conventions administered through HCCH primarily deal with:",
+   "o": [
+    "International monetary cooperation",
+    "International civil aviation",
+    "Global fisheries management",
+    "Private international law"
+   ],
+   "a": 3,
+   "x": "The Hague Conventions under HCCH concern private international law, including the Apostille Convention of 1961 and the Child Abduction Convention of 1980.",
+   "ty": "fact",
+   "tq": "Use the subject-area clue to distinguish private international law from public international organisations.",
+   "sec": "International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "Which convention governs the transboundary movement of hazardous waste?",
+   "o": [
+    "Minamata Convention, 2013",
+    "Stockholm Convention, 2001",
+    "Basel Convention, 1989",
+    "Rotterdam Convention, 1998"
+   ],
+   "a": 2,
+   "x": "The Basel Convention of 1989 governs transboundary hazardous waste. It also includes a plastic-waste amendment and stronger rules relating to e-waste.",
+   "ty": "fact",
+   "tq": "Match the convention to its core regulatory object and avoid confusing adjacent environmental treaties.",
+   "sec": "International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "The Rotterdam Convention is associated with the principle of:",
+   "o": [
+    "Protection of cultural heritage sites",
+    "Reduction of ozone-depleting substances",
+    "Prior Informed Consent for hazardous chemicals",
+    "Phase-out of dental amalgam"
+   ],
+   "a": 2,
+   "x": "The Rotterdam Convention establishes the Prior Informed Consent procedure for certain hazardous chemicals and pesticides in international trade.",
+   "ty": "application",
+   "tq": "Recognise the operational principle attached to the convention rather than its general environmental character.",
+   "sec": "International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "The Stockholm Convention of 2001 primarily concerns:",
+   "o": [
+    "Persistent organic pollutants",
+    "Transboundary child abduction",
+    "Northern Ireland trade arrangements",
+    "International civil aviation"
+   ],
+   "a": 0,
+   "x": "The Stockholm Convention deals with persistent organic pollutants. The listed framework covers 34 chemicals, including recently noted substances such as chlorpyrifos and PFAS.",
+   "ty": "fact",
+   "tq": "Use the exact environmental category—POPs—to separate Stockholm from Basel and Minamata.",
+   "sec": "International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the Minamata Convention?",
+   "o": [
+    "Mercury; dental amalgam to be phased out by 2034",
+    "Persistent organic pollutants; 34 chemicals",
+    "Ozone-depleting substances; Montreal Protocol",
+    "Hazardous waste; plastic-waste amendment"
+   ],
+   "a": 0,
+   "x": "The Minamata Convention of 2013 concerns mercury, and dental amalgam is to be phased out by 2034. POPs belong to the Stockholm Convention and hazardous waste to the Basel Convention.",
+   "ty": "match",
+   "tq": "Start from the sure substance–treaty pair and eliminate the swapped environmental categories.",
+   "sec": "International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "The Windsor Framework of 2023 governs:",
+   "o": [
+    "International civil aviation standards",
+    "UK–EU post-Brexit trade rules for Northern Ireland",
+    "The global trade in hazardous chemicals",
+    "The admission of new NATO members"
+   ],
+   "a": 1,
+   "x": "The Windsor Framework establishes UK–EU post-Brexit trade arrangements for Northern Ireland.",
+   "ty": "fact",
+   "tq": "Identify the geographic and political parties governed by the framework.",
+   "sec": "International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  },
+  {
+   "s": "Arrange the following conventions/frameworks in chronological order of adoption:\nA. Minamata Convention\nB. Chicago Convention\nC. Stockholm Convention\nD. Basel Convention",
+   "o": [
+    "B, D, C, A",
+    "D, B, C, A",
+    "B, C, D, A",
+    "C, D, B, A"
+   ],
+   "a": 0,
+   "x": "The correct sequence is Chicago Convention (1944), Basel Convention (1989), Stockholm Convention (2001), and Minamata Convention (2013).",
+   "ty": "chronology",
+   "tq": "Place the earliest and latest dates first, then resolve the middle sequence.",
+   "sec": "International conventions and frameworks → sector or parties governed (Chicago, Montreal, Hague, Vienna, Basel, Windsor)"
+  }
+ ]
+}

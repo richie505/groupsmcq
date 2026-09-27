@@ -1,0 +1,610 @@
+{
+ "book": 2,
+ "row": 145,
+ "chunk": 0,
+ "section": "Rights of workers and migrants - labour codes, unorganised sector, e-Shram, inter-state migrant workers",
+ "subsections": [
+  "Social security schemes → benefit, age, contribution; state worker pension schemes",
+  "Unorganised Workers Social Security Act 2008, NCEUS, informal workforce",
+  "Earlier social protection schemes → launch year and target group",
+  "Four Labour Codes → year and laws subsumed",
+  "Industrial Relations Code - layoff/retrenchment threshold, fixed-term, strike notice"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 43,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Under the Pradhan Mantri Shram Yogi Maandhan (PM-SYM) scheme, the assured monthly pension payable from the age of 60 years is:",
+   "o": [
+    "₹1,000",
+    "₹2,000",
+    "₹3,000",
+    "₹5,000"
+   ],
+   "a": 2,
+   "x": "PM-SYM provides an assured pension of ₹3,000 per month from the age of 60 years.",
+   "ty": "fact",
+   "tq": "Directly identify the benefit attached to the scheme.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "Consider the following statements regarding PM-SYM:\n1. It is meant for unorganised workers earning not more than ₹15,000 per month.\n2. The beneficiary's monthly contribution ranges from ₹55 to ₹200 according to the entry age.\n3. The beneficiary's contribution is matched by the Central Government.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly describe the eligibility, contribution structure and matching contribution under PM-SYM.",
+   "ty": "statements",
+   "tq": "Check each component of eligibility and contribution before selecting the coded combination.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "PM-SYM was launched in:",
+   "o": [
+    "March 2019",
+    "September 2019",
+    "2017",
+    "2015"
+   ],
+   "a": 0,
+   "x": "PM-SYM was launched in March 2019.",
+   "ty": "numerical",
+   "tq": "Distinguish the launch month and year from the nearby 2019 scheme date.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "Which one of the following correctly describes NPS-Traders?",
+   "o": [
+    "It covers all workers aged 18–70 against accidental death only.",
+    "It covers BPL families with hospitalisation cover of ₹30,000.",
+    "It covers rural landless households and provides life insurance.",
+    "It covers traders, shopkeepers and self-employed persons with annual turnover up to ₹1.5 crore."
+   ],
+   "a": 3,
+   "x": "NPS-Traders is intended for traders, shopkeepers and self-employed persons whose annual turnover does not exceed ₹1.5 crore.",
+   "ty": "fact",
+   "tq": "Use target-group discrimination among similarly named social-security schemes.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "The eligible age group for both PM-SYM and NPS-Traders is:",
+   "o": [
+    "18–40 years",
+    "18–70 years",
+    "18–60 years",
+    "18–50 years"
+   ],
+   "a": 0,
+   "x": "Both PM-SYM and NPS-Traders admit subscribers in the age group of 18 to 40 years.",
+   "ty": "confusable",
+   "tq": "Compare the age bands of neighbouring schemes rather than their benefits.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "With reference to Atal Pension Yojana, consider the following statements:\n1. It was launched in 2015.\n2. It provides a guaranteed pension ranging from ₹1,000 to ₹5,000 per month from the age of 60 years.\n3. It is run by the Pension Fund Regulatory and Development Authority.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Atal Pension Yojana was launched in 2015, provides a guaranteed pension of ₹1,000–₹5,000 from age 60, and is administered by PFRDA.",
+   "ty": "statements",
+   "tq": "Combine launch year, numerical benefit and administering authority in one statement question.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "PMJJBY — accident death and disability cover",
+    "PMSBY — ₹2 lakh life cover for death from any cause",
+    "PMJJBY — ₹2 lakh life cover for death from any cause",
+    "Atal Pension Yojana — ₹436 annual premium for life cover"
+   ],
+   "a": 2,
+   "x": "PMJJBY provides ₹2 lakh life cover for death from any cause for an annual premium of ₹436. PMSBY concerns accidental death and disability cover.",
+   "ty": "match",
+   "tq": "Separate life insurance, accident insurance and pension benefits among similar abbreviations.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "Arrange the following schemes in chronological order of their launch:\nA. Atal Pension Yojana\nB. PM-SYM\nC. NPS-Traders\nD. PMJJBY",
+   "o": [
+    "A, D, B, C",
+    "D, A, B, C",
+    "D, A, C, B",
+    "A, B, D, C"
+   ],
+   "a": 1,
+   "x": "PMJJBY and Atal Pension Yojana were launched in 2015, followed by PM-SYM in March 2019 and NPS-Traders in September 2019. The listed order therefore begins with D and A, followed by B and C.",
+   "ty": "chronology",
+   "tq": "Place the 2015 schemes before the two schemes launched in 2019, then distinguish March from September.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "Which of the following is NOT a condition that excludes a person from PM-SYM and NPS-Traders eligibility?",
+   "o": [
+    "Being covered under ESIC",
+    "Being an income-tax payer",
+    "Being a worker in the unorganised sector",
+    "Being a member of EPFO"
+   ],
+   "a": 2,
+   "x": "Membership of EPFO, ESIC or government-funded NPS, and being an income-tax payer, excludes eligibility. Being an unorganised-sector worker is not an exclusion; PM-SYM is specifically intended for such workers.",
+   "ty": "negative",
+   "tq": "Find the option that does not belong to the list of exclusion conditions.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "As of August 2026, the number of persons enrolled under PM-SYM was reported to be over:",
+   "o": [
+    "4 lakh",
+    "5.4 crore",
+    "54 lakh",
+    "54 crore"
+   ],
+   "a": 2,
+   "x": "PM-SYM had over 54 lakh enrolled persons as of August 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish lakh-scale enrolment from crore-scale workforce figures.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "Women constituted approximately what percentage of PM-SYM enrolments as of August 2026?",
+   "o": [
+    "35.1%",
+    "43.5%",
+    "53.1%",
+    "63.1%"
+   ],
+   "a": 2,
+   "x": "Women accounted for 53.1% of PM-SYM enrolments as of August 2026.",
+   "ty": "numerical",
+   "tq": "Read the percentage precisely instead of reversing the digits.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "The wage ceiling for coverage under the Employees' State Insurance scheme is:",
+   "o": [
+    "₹18,000 per month",
+    "₹21,000 per month",
+    "₹25,000 per month",
+    "₹15,000 per month"
+   ],
+   "a": 1,
+   "x": "The ESI wage ceiling is ₹21,000 per month.",
+   "ty": "numerical",
+   "tq": "Identify the exact statutory ceiling among closely spaced monetary figures.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "Which of the following statements about ESIC coverage is correct?",
+   "o": [
+    "It is restricted to establishments in selected States only.",
+    "It is compulsory only for units employing fewer than 10 persons.",
+    "It is pan-India and voluntary for units employing fewer than 10 persons.",
+    "It applies exclusively to government establishments."
+   ],
+   "a": 2,
+   "x": "ESIC coverage is pan-India and voluntary for establishments with fewer than 10 employees.",
+   "ty": "fact",
+   "tq": "Use the location and threshold qualifiers to reject overbroad statements.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "Under PMVBRY, the allocation of ₹99,446 crore is intended to support approximately:",
+   "o": [
+    "35 lakh jobs",
+    "5.3 crore jobs",
+    "3.5 crore jobs",
+    "35 crore jobs"
+   ],
+   "a": 2,
+   "x": "PMVBRY provides an allocation of ₹99,446 crore for 3.5 crore jobs.",
+   "ty": "numerical",
+   "tq": "Match the allocation with the correct employment target.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "Under PMVBRY, a first-time employee is entitled to one month's wage subject to a maximum of:",
+   "o": [
+    "₹10,000",
+    "₹12,000",
+    "₹15,000",
+    "₹21,000"
+   ],
+   "a": 2,
+   "x": "The benefit for a first-time employee is one month's wage, capped at ₹15,000.",
+   "ty": "numerical",
+   "tq": "Focus on the ceiling rather than the general description of the benefit.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "Mukhyamantri Vishwakarma Pension Yojana is associated with which State?",
+   "o": [
+    "Madhya Pradesh",
+    "Rajasthan",
+    "Uttar Pradesh",
+    "Gujarat"
+   ],
+   "a": 1,
+   "x": "Mukhyamantri Vishwakarma Pension Yojana is a Rajasthan scheme.",
+   "ty": "fact",
+   "tq": "Identify the State attached to a similarly named regional welfare scheme.",
+   "sec": "Social security schemes → benefit, age, contribution; state worker pension schemes"
+  },
+  {
+   "s": "The Unorganised Workers' Social Security Act, 2008 provided for the establishment of a:",
+   "o": [
+    "National Social Security Board",
+    "National Labour Tribunal",
+    "Central Informal Employment Authority",
+    "National Migrant Workers Commission"
+   ],
+   "a": 0,
+   "x": "The 2008 Act established a National Social Security Board and listed welfare schemes in Schedule I.",
+   "ty": "fact",
+   "tq": "Recall the statutory body created by the Act.",
+   "sec": "Unorganised Workers Social Security Act 2008, NCEUS, informal workforce"
+  },
+  {
+   "s": "Which one of the following is NOT listed among the Schedule I schemes of the Unorganised Workers' Social Security Act, 2008?",
+   "o": [
+    "Janani Suraksha Yojana",
+    "National Family Benefit Scheme",
+    "Rashtriya Swasthya Bima Yojana",
+    "Atal Pension Yojana"
+   ],
+   "a": 3,
+   "x": "Schedule I includes the National Family Benefit Scheme, Janani Suraksha Yojana and RSBY, among others. Atal Pension Yojana is not included in the listed Schedule I schemes.",
+   "ty": "negative",
+   "tq": "Find the scheme outside the statutory list rather than selecting a familiar welfare scheme.",
+   "sec": "Unorganised Workers Social Security Act 2008, NCEUS, informal workforce"
+  },
+  {
+   "s": "Consider the following pairs:\na. IGNOAPS — Schedule I scheme\nb. Janashree Bima Yojana — Schedule I scheme\nc. Aam Aadmi Bima Yojana — Schedule I scheme\nd. Schemes for weavers, artisans and fishermen — Schedule I category\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "a and b only",
+    "b and c only",
+    "a, c and d only",
+    "a, b, c and d"
+   ],
+   "a": 3,
+   "x": "All four pairs are included in the Schedule I list or categories under the 2008 Act.",
+   "ty": "statements",
+   "tq": "Verify each item against a statutory list before choosing the complete combination.",
+   "sec": "Unorganised Workers Social Security Act 2008, NCEUS, informal workforce"
+  },
+  {
+   "s": "The Unorganised Workers' Social Security Act, 2008 has subsequently been merged into the:",
+   "o": [
+    "OSH and Working Conditions Code, 2020",
+    "Code on Wages, 2019",
+    "Code on Social Security, 2020",
+    "Industrial Relations Code, 2020"
+   ],
+   "a": 2,
+   "x": "The Unorganised Workers' Social Security Act, 2008 was merged into the Code on Social Security, 2020.",
+   "ty": "fact",
+   "tq": "Match the earlier statute with the Labour Code that subsumed it.",
+   "sec": "Unorganised Workers Social Security Act 2008, NCEUS, informal workforce"
+  },
+  {
+   "s": "NCEUS was set up in 2004 under the chairmanship of:",
+   "o": [
+    "P. Wadhwa",
+    "Bibek Debroy",
+    "Arjun Sengupta",
+    "N. C. Saxena"
+   ],
+   "a": 2,
+   "x": "The National Commission for Enterprises in the Unorganised Sector was set up in 2004 and chaired by Arjun Sengupta.",
+   "ty": "fact",
+   "tq": "Use the person–institution association directly.",
+   "sec": "Unorganised Workers Social Security Act 2008, NCEUS, informal workforce"
+  },
+  {
+   "s": "The 2007 report of NCEUS stated that approximately what share of Indians lived on less than ₹20 a day?",
+   "o": [
+    "57%",
+    "67%",
+    "77%",
+    "87%"
+   ],
+   "a": 2,
+   "x": "The NCEUS report estimated that about 77% of Indians lived on under ₹20 a day.",
+   "ty": "numerical",
+   "tq": "Distinguish the reported poverty proportion from nearby percentage distractors.",
+   "sec": "Unorganised Workers Social Security Act 2008, NCEUS, informal workforce"
+  },
+  {
+   "s": "Which of the following correctly represents the informal workforce situation described for India?",
+   "o": [
+    "Exactly 77% of the total workforce is informal.",
+    "Over 90% of the workforce is employed only in the organised sector.",
+    "Less than 50% of roughly 600 million workers are informal.",
+    "Over 90% of roughly 600 million workers are informal."
+   ],
+   "a": 3,
+   "x": "Over 90% of India's roughly 600 million workers are informal. This is distinct from the 77% figure in the NCEUS poverty estimate.",
+   "ty": "comparison",
+   "tq": "Separate the informal-workforce percentage from the NCEUS poverty percentage.",
+   "sec": "Unorganised Workers Social Security Act 2008, NCEUS, informal workforce"
+  },
+  {
+   "s": "According to PLFS 2025 as cited, India's total workforce was:",
+   "o": [
+    "51.6 crore",
+    "60.6 crore",
+    "61.6 crore",
+    "66.1 crore"
+   ],
+   "a": 2,
+   "x": "The total workforce was cited as 61.6 crore under PLFS 2025.",
+   "ty": "numerical",
+   "tq": "Read the crore figure precisely and avoid transposing the digits.",
+   "sec": "Unorganised Workers Social Security Act 2008, NCEUS, informal workforce"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Ashraya Bima Yojana — 2001 — workers who lost their jobs",
+    "Aam Aadmi Bima Yojana — 2001 — BPL families requiring hospitalisation cover",
+    "RSBY — 2010 — unorganised workers joining NPS-Lite",
+    "Swavalamban — 2007 — rural landless households"
+   ],
+   "a": 0,
+   "x": "Ashraya Bima Yojana was launched in 2001 for workers who lost their jobs. The other schemes and target groups are mismatched in the remaining options.",
+   "ty": "match",
+   "tq": "Start with the sure scheme–year–target-group pair and eliminate swapped entries.",
+   "sec": "Earlier social protection schemes → launch year and target group"
+  },
+  {
+   "s": "Aam Aadmi Bima Yojana, launched in 2007, primarily targeted:",
+   "o": [
+    "Rural landless households",
+    "Unorganised workers joining NPS-Lite",
+    "Workers who lost their jobs",
+    "BPL families requiring hospitalisation cover"
+   ],
+   "a": 0,
+   "x": "Aam Aadmi Bima Yojana targeted rural landless households and provided life and disability cover through LIC.",
+   "ty": "fact",
+   "tq": "Distinguish target groups of the four earlier social-protection schemes.",
+   "sec": "Earlier social protection schemes → launch year and target group"
+  },
+  {
+   "s": "Consider the following statements regarding RSBY:\n1. It was launched in 2008.\n2. It targeted BPL families.\n3. It provided hospitalisation cover of ₹30,000.\n4. It was later subsumed in AB-PMJAY.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe RSBY, including its launch year, beneficiaries, ₹30,000 hospitalisation cover and later subsumption in AB-PMJAY.",
+   "ty": "statements",
+   "tq": "Check the year, target group, monetary benefit and later institutional status separately.",
+   "sec": "Earlier social protection schemes → launch year and target group"
+  },
+  {
+   "s": "Swavalamban was intended for unorganised workers joining:",
+   "o": [
+    "Government-funded NPS only",
+    "EPFO",
+    "ESIC",
+    "NPS-Lite"
+   ],
+   "a": 3,
+   "x": "Swavalamban was designed for unorganised workers joining NPS-Lite, with government co-contribution.",
+   "ty": "fact",
+   "tq": "Discriminate between pension platforms and social-insurance institutions.",
+   "sec": "Earlier social protection schemes → launch year and target group"
+  },
+  {
+   "s": "Which of the following correctly states the relationship between Swavalamban and Atal Pension Yojana?",
+   "o": [
+    "Atal Pension Yojana replaced Swavalamban in 2015.",
+    "Swavalamban was converted into RSBY in 2008.",
+    "Swavalamban replaced Atal Pension Yojana in 2015.",
+    "Both were launched simultaneously in 2010."
+   ],
+   "a": 0,
+   "x": "Swavalamban, launched in 2010, was replaced by Atal Pension Yojana in 2015.",
+   "ty": "confusable",
+   "tq": "Test the direction and year of replacement between two pension schemes.",
+   "sec": "Earlier social protection schemes → launch year and target group"
+  },
+  {
+   "s": "Which of the following is the correct number of Central laws merged into the four Labour Codes?",
+   "o": [
+    "13",
+    "20",
+    "29",
+    "41"
+   ],
+   "a": 2,
+   "x": "The four Labour Codes merged 29 Central labour laws.",
+   "ty": "numerical",
+   "tq": "Distinguish the total number of laws from the individual code-wise counts.",
+   "sec": "Four Labour Codes → year and laws subsumed"
+  },
+  {
+   "s": "The Code on Wages, 2019 subsumed which of the following laws?\n1. Payment of Wages Act\n2. Minimum Wages Act\n3. Payment of Bonus Act\n4. Equal Remuneration Act\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The Code on Wages merged all four listed laws: Payment of Wages, Minimum Wages, Payment of Bonus and Equal Remuneration laws.",
+   "ty": "statements",
+   "tq": "Test the complete law list rather than relying on the code title alone.",
+   "sec": "Four Labour Codes → year and laws subsumed"
+  },
+  {
+   "s": "The Industrial Relations Code, 2020 subsumed which one of the following sets of laws?",
+   "o": [
+    "Factories Act, Mines Act and Contract Labour Act",
+    "Trade Unions Act, Standing Orders Act and Industrial Disputes Act",
+    "EPF Act, ESI Act and Maternity Benefit Act",
+    "Payment of Wages Act, Minimum Wages Act and Bonus Act"
+   ],
+   "a": 1,
+   "x": "The Industrial Relations Code merged the Trade Unions Act, 1926, the Standing Orders Act, 1946 and the Industrial Disputes Act, 1947.",
+   "ty": "match",
+   "tq": "Match the subject matter of the Code with its specific three-law group.",
+   "sec": "Four Labour Codes → year and laws subsumed"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Code on Wages — 4 laws",
+    "Industrial Relations Code — 4 laws",
+    "OSH and Working Conditions Code — 13 laws",
+    "Code on Social Security — 9 laws"
+   ],
+   "a": 1,
+   "x": "The Industrial Relations Code subsumed three laws, not four. The Code on Social Security, OSH Code and Code on Wages subsumed 9, 13 and 4 laws respectively.",
+   "ty": "negative",
+   "tq": "Compare the code-wise counts and identify the deliberately altered figure.",
+   "sec": "Four Labour Codes → year and laws subsumed"
+  },
+  {
+   "s": "Which of the following statements regarding the Labour Codes is correct?\n1. Sections were reduced from 1,232 to 480.\n2. Rules were reduced from 1,436 to 401.\n3. Labour is a subject in the Concurrent List.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The consolidation reduced sections from 1,232 to 480 and rules from 1,436 to 401; labour is a Concurrent subject.",
+   "ty": "statements",
+   "tq": "Combine numerical comparisons with a constitutional classification.",
+   "sec": "Four Labour Codes → year and laws subsumed"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the Labour Code concerned?",
+   "o": [
+    "Crèche at 50 or more employees — OSH Code",
+    "Women working night shifts with consent — Code on Wages",
+    "Safety committees at 500 or more workers — Industrial Relations Code",
+    "26-week maternity leave — Code on Social Security"
+   ],
+   "a": 3,
+   "x": "The Code on Social Security provides for 26 weeks of maternity leave. The OSH Code contains provisions concerning women working night shifts with consent and safety committees at 500 or more workers, while the crèche threshold is associated with the Code on Social Security.",
+   "ty": "negative",
+   "tq": "Use subject-area matching to detect provisions assigned to the wrong Code.",
+   "sec": "Four Labour Codes → year and laws subsumed"
+  },
+  {
+   "s": "Under the Industrial Relations Code, prior government permission for layoff, retrenchment and closure is required for establishments employing:",
+   "o": [
+    "200 or more workers",
+    "500 or more workers",
+    "100 or more workers",
+    "300 or more workers"
+   ],
+   "a": 3,
+   "x": "The threshold was raised from 100 to 300 workers for prior government permission for layoff, retrenchment and closure.",
+   "ty": "numerical",
+   "tq": "Compare the earlier threshold with the revised threshold.",
+   "sec": "Industrial Relations Code - layoff/retrenchment threshold, fixed-term, strike notice"
+  },
+  {
+   "s": "The Standing Orders threshold under the Industrial Relations Code is:",
+   "o": [
+    "20 workers",
+    "300 workers",
+    "500 workers",
+    "100 workers"
+   ],
+   "a": 1,
+   "x": "The Standing Orders threshold is 300 workers.",
+   "ty": "fact",
+   "tq": "Separate the Standing Orders threshold from the contract-labour threshold.",
+   "sec": "Industrial Relations Code - layoff/retrenchment threshold, fixed-term, strike notice"
+  },
+  {
+   "s": "The threshold for regulation of contract labour was raised from 20 workers to:",
+   "o": [
+    "50 workers",
+    "40 workers",
+    "30 workers",
+    "100 workers"
+   ],
+   "a": 0,
+   "x": "The contract-labour regulation threshold was raised from 20 to 50 workers.",
+   "ty": "numerical",
+   "tq": "Track the before-and-after threshold rather than confusing it with the 300-worker threshold.",
+   "sec": "Industrial Relations Code - layoff/retrenchment threshold, fixed-term, strike notice"
+  },
+  {
+   "s": "Consider the following statements about fixed-term employment under the Industrial Relations Code:\n1. Fixed-term workers are entitled to the same wages and benefits as permanent workers.\n2. They become eligible for gratuity after one year.\n3. They are excluded from all statutory benefits available to permanent workers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Fixed-term workers receive the same wages and benefits as permanent workers and gratuity after one year; statement 3 is false.",
+   "ty": "statements",
+   "tq": "Reject the absolute exclusion statement after confirming the two positive entitlements.",
+   "sec": "Industrial Relations Code - layoff/retrenchment threshold, fixed-term, strike notice"
+  },
+  {
+   "s": "A trade union proposes to commence a strike five days after giving notice. Under the Industrial Relations Code, this proposal is:",
+   "o": [
+    "Not permissible only when the establishment has more than 500 workers",
+    "Permissible if the establishment has fewer than 300 workers",
+    "Not permissible because a strike cannot occur within 14 days of giving notice",
+    "Permissible because notice has been given in writing"
+   ],
+   "a": 2,
+   "x": "A strike cannot be held within 14 days of giving notice. The Code also prohibits a strike without notice within the preceding 60 days before striking.",
+   "ty": "application",
+   "tq": "Apply the statutory time restriction to the facts of the situation.",
+   "sec": "Industrial Relations Code - layoff/retrenchment threshold, fixed-term, strike notice"
+  },
+  {
+   "s": "Which of the following correctly states the strike-notice restrictions under the Industrial Relations Code?",
+   "o": [
+    "No strike without notice within 90 days before striking or within 30 days of notice",
+    "No strike without notice within 30 days before striking or within 7 days of notice",
+    "Strike notice is required only for establishments employing 300 or more workers",
+    "No strike without notice within 60 days before striking or within 14 days of giving notice"
+   ],
+   "a": 3,
+   "x": "The Code prohibits a strike without notice within 60 days before striking and also prohibits striking within 14 days after giving notice.",
+   "ty": "fact",
+   "tq": "Recall both time windows together and avoid substituting nearby periods.",
+   "sec": "Industrial Relations Code - layoff/retrenchment threshold, fixed-term, strike notice"
+  },
+  {
+   "s": "The Constitution Bench of the Supreme Court revisited the Bangalore Water Supply decision of 1978 on 20 August 2026 in relation to the meaning of:",
+   "o": [
+    "Closure",
+    "Worker",
+    "Strike",
+    "Industry"
+   ],
+   "a": 3,
+   "x": "On 20 August 2026, the Constitution Bench revisited Bangalore Water Supply (1978) concerning the meaning of “industry” and held that the Code's definitions must be read on their own terms.",
+   "ty": "fact",
+   "tq": "Link the judicial development with the precise legal term under reconsideration.",
+   "sec": "Industrial Relations Code - layoff/retrenchment threshold, fixed-term, strike notice"
+  }
+ ]
+}

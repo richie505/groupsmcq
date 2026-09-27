@@ -1,0 +1,456 @@
+{
+ "book": 2,
+ "row": 130,
+ "chunk": 2,
+ "section": "Crimes against women - trafficking, honour crimes, acid attacks; Criminal Law Amendments 2013 and 2018",
+ "subsections": [
+  "NCRB Crime in India - States with highest crimes against women, AP data",
+  "NCRB data on child marriage and dowry deaths → state rankings",
+  "Types - IPC/BNS crimes vs Special and Local Laws (SLL) crimes",
+  "Crime heads ranked by share",
+  "Causes - patriarchy, son preference, dowry, alcoholism, low reporting, weak conviction"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 32,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "According to the Crime in India 2023 data, which State recorded the highest number of crimes against women?",
+   "o": [
+    "Telangana",
+    "Uttar Pradesh",
+    "Bihar",
+    "Rajasthan"
+   ],
+   "a": 1,
+   "x": "Uttar Pradesh recorded the highest number of crimes against women in 2023. Telangana recorded the highest crime rate, which is a different measure.",
+   "ty": "fact",
+   "tq": "Separate absolute number from crime rate before selecting the State.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "Which State recorded the highest crime rate against women in 2023?",
+   "o": [
+    "Odisha",
+    "Telangana",
+    "Andhra Pradesh",
+    "Uttar Pradesh"
+   ],
+   "a": 1,
+   "x": "Telangana had the highest crime rate against women in 2023, whereas Uttar Pradesh had the highest number of cases.",
+   "ty": "fact",
+   "tq": "Use the number-versus-rate distinction as the key discriminator.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding crimes against women in 2023:\n1. About 4.48 lakh cases were recorded.\n2. Cruelty by husband or relatives constituted the largest share.\n3. Kidnapping and abduction constituted a larger share than assault with intent to outrage modesty.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The total was about 4.48 lakh; cruelty accounted for 29.8%, kidnapping for 19.8%, and assault for 18.7%.",
+   "ty": "statements",
+   "tq": "Check the ranked percentages together rather than treating the heads independently.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "In the 2023 NCRB break-up of crimes against women, which category accounted for 29.8% of the cases?",
+   "o": [
+    "Cruelty by husband or relatives",
+    "Assault with intent to outrage modesty",
+    "Rape and attempt to rape",
+    "Kidnapping and abduction"
+   ],
+   "a": 0,
+   "x": "Cruelty by husband or relatives was the largest category, accounting for 29.8% of crimes against women in 2023.",
+   "ty": "numerical",
+   "tq": "Match the exact percentage with the highest-ranked crime head.",
+   "sec": "Crime heads ranked by share  [GROUP-II]"
+  },
+  {
+   "s": "The share of kidnapping and abduction among crimes against women in 2023 was:",
+   "o": [
+    "18.7%",
+    "19.8%",
+    "22.7%",
+    "29.8%"
+   ],
+   "a": 1,
+   "x": "Kidnapping and abduction constituted 19.8% of crimes against women in 2023.",
+   "ty": "numerical",
+   "tq": "Distinguish neighbouring percentage values in a ranked table.",
+   "sec": "Crime heads ranked by share  [GROUP-II]"
+  },
+  {
+   "s": "Arrange the following crime heads in descending order of their share among crimes against women in 2023:\nA. Assault with intent to outrage modesty\nB. Cruelty by husband or relatives\nC. Kidnapping and abduction",
+   "o": [
+    "A, C, B",
+    "B, C, A",
+    "C, B, A",
+    "B, A, C"
+   ],
+   "a": 1,
+   "x": "The descending order is cruelty by husband or relatives at 29.8%, kidnapping and abduction at 19.8%, and assault with intent to outrage modesty at 18.7%.",
+   "ty": "chronology",
+   "tq": "Rank the items by the numerical values before reading the sequence options.",
+   "sec": "Crime heads ranked by share  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly describes the Andhra Pradesh data on crimes against women in 2024?",
+   "o": [
+    "19,952 cases, 15,000 arrests and 90% chargesheets",
+    "25,503 cases, 19,952 arrests and 94.4% chargesheets",
+    "22,418 cases, 17,149 arrests and 94.4% chargesheets",
+    "19,952 cases, 17,149 arrests and 94.4% chargesheets"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh recorded 19,952 cases in 2024, with 17,149 arrests and a chargesheet rate of 94.4%.",
+   "ty": "numerical",
+   "tq": "Match the complete numerical profile rather than one isolated figure.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "The number of crimes against women reported in Andhra Pradesh declined from 25,503 in 2022 to 22,418 in 2023 and to how many in 2024?",
+   "o": [
+    "17,149",
+    "19,952",
+    "20,418",
+    "22,418"
+   ],
+   "a": 1,
+   "x": "The number declined to 19,952 cases in 2024. The corresponding decline from 2023 was 4.4%.",
+   "ty": "numerical",
+   "tq": "Follow the year-wise sequence and avoid confusing cases with arrests.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements about the Crime in India 2024 report is correct?\n1. It recorded 58.86 lakh cognisable crimes.\n2. It was the first report to include BNS data alongside IPC data.\n3. It was released in May 2026.\n4. Odisha had the highest violent-crime rate.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The 2024 report recorded 58.86 lakh cognisable crimes, incorporated BNS data for the first time alongside IPC data, was released in May 2026, and reported Odisha as having the highest violent-crime rate.",
+   "ty": "statements",
+   "tq": "Verify the date, novelty, total and State-specific finding separately.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Rape cases in 2024 — 29,536",
+    "Rape conviction rate in 2023 — 42%",
+    "Pendency of cases involving crimes against women — over 90%",
+    "Crimes against women in 2024 — 4,41,534"
+   ],
+   "a": 1,
+   "x": "The rape conviction rate in 2023 was 22.7%, not 42%. About 42% refers to the share of cruelty by husband as a dominant category in 2024.",
+   "ty": "negative",
+   "tq": "Identify the swapped percentage by matching each figure to its subject.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "The rape conviction rate in 2023 was 22.7%, compared with approximately what range during 2018–2022?",
+   "o": [
+    "17–18%",
+    "27–28%",
+    "11–12%",
+    "42–44%"
+   ],
+   "a": 1,
+   "x": "The rape conviction rate was 22.7% in 2023, down from approximately 27–28% during 2018–2022.",
+   "ty": "numerical",
+   "tq": "Compare the current value with the stated earlier range.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "Which institution is responsible for the National Crime Records Bureau, and where is the Bureau headquartered?",
+   "o": [
+    "Ministry of Statistics and Programme Implementation; New Delhi",
+    "Ministry of Law and Justice; Mumbai",
+    "Ministry of Home Affairs; New Delhi",
+    "Ministry of Women and Child Development; Hyderabad"
+   ],
+   "a": 2,
+   "x": "The National Crime Records Bureau works under the Ministry of Home Affairs and is headquartered in New Delhi. It maintains the Crime and Criminal Tracking Network and Systems (CCTNS).",
+   "ty": "fact",
+   "tq": "Apply the ‘who controls this body?’ method to identify the ministry and headquarters.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "The Crime and Criminal Tracking Network and Systems (CCTNS) is maintained by the:",
+   "o": [
+    "National Investigation Agency",
+    "Bureau of Police Research and Development",
+    "National Crime Records Bureau",
+    "National Human Rights Commission"
+   ],
+   "a": 2,
+   "x": "CCTNS is maintained by the National Crime Records Bureau, which functions under the Ministry of Home Affairs.",
+   "ty": "fact",
+   "tq": "Match the information system with the agency that maintains it.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "Which State recorded the largest number of human-trafficking cases in 2024?",
+   "o": [
+    "Uttar Pradesh",
+    "Andhra Pradesh",
+    "Telangana",
+    "Odisha"
+   ],
+   "a": 2,
+   "x": "Telangana recorded the most human-trafficking cases in 2024. This is distinct from Odisha’s position in the violent-crime-rate ranking.",
+   "ty": "fact",
+   "tq": "Distinguish separate State rankings for trafficking and violent crime.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "In the Andhra Pradesh SDG-16 table, the number of trafficking victims per ten lakh population was:",
+   "o": [
+    "3.10",
+    "5.52",
+    "10.00",
+    "17.9"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh recorded 5.52 trafficking victims per ten lakh population in the APSES 2024–25 SDG-16 table.",
+   "ty": "numerical",
+   "tq": "Read the unit carefully: the figure is per ten lakh population, not a percentage.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding cybercrime data for 2024:\n1. Cybercrime crossed one lakh cases for the first time.\n2. The number of cases was 1,01,928.\n3. Fraud accounted for 72.6% of these cases.\n4. Sexual exploitation accounted for 3.1%, or 3,190 cases.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Cybercrime reached 1,01,928 cases, with fraud forming 72.6% and sexual exploitation forming 3.1%, or 3,190 cases.",
+   "ty": "statements",
+   "tq": "Cross-check the total, threshold, percentages and absolute subset figure.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "The National Cyber Crime Reporting Portal and the 1930 helpline function under which organisation for reporting cybercrime?",
+   "o": [
+    "CERT-In under the Ministry of Communications",
+    "Indian Cyber Crime Coordination Centre under the Ministry of Home Affairs",
+    "National Commission for Women under the Ministry of Women and Child Development",
+    "National Crime Records Bureau under the Ministry of Law and Justice"
+   ],
+   "a": 1,
+   "x": "The National Cyber Crime Reporting Portal and the 1930 helpline operate under the Ministry of Home Affairs’ Indian Cyber Crime Coordination Centre (I4C). The portal particularly facilitates reporting of crimes such as CSAM and non-consensual imagery against women and children.",
+   "ty": "fact",
+   "tq": "Use the institutional-authority clue to distinguish I4C from other cyber bodies.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "Cybercrimes against women increased by approximately what percentage between 2017 and 2022?",
+   "o": [
+    "44.7%",
+    "100%",
+    "239%",
+    "339%"
+   ],
+   "a": 2,
+   "x": "Cybercrimes against women rose by 239% between 2017 and 2022.",
+   "ty": "numerical",
+   "tq": "Distinguish the long-term increase from the separate rise in trafficking cases under ITPA.",
+   "sec": "NCRB Crime in India - States with highest crimes against women, AP data  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes dowry-death data for 2023?",
+   "o": [
+    "About 35,493 dowry cases and 6,100 deaths",
+    "About 6,100 dowry cases and 15,000 deaths",
+    "About 15,000 dowry cases and approximately 6,100 deaths",
+    "About 20,000 dowry cases and 3,500 deaths"
+   ],
+   "a": 2,
+   "x": "The 2023 data recorded about 15,000 dowry cases involving approximately 6,100 deaths. The figure of 35,493 refers to brides killed during 2017–2022.",
+   "ty": "numerical",
+   "tq": "Keep the number of cases, number of deaths and multi-year cumulative figure separate.",
+   "sec": "NCRB data on child marriage and dowry deaths → state rankings  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which group of States accounted for most dowry-death cases according to the cited data?",
+   "o": [
+    "Uttar Pradesh, Bihar, Madhya Pradesh and Rajasthan",
+    "Odisha, Telangana, Andhra Pradesh and Kerala",
+    "Punjab, Haryana, Gujarat and Goa",
+    "West Bengal, Assam, Sikkim and Tripura"
+   ],
+   "a": 0,
+   "x": "Uttar Pradesh, Bihar, Madhya Pradesh and Rajasthan accounted for most dowry-death cases in the cited data.",
+   "ty": "match",
+   "tq": "Recognise the complete State cluster rather than selecting a single high-population State.",
+   "sec": "NCRB data on child marriage and dowry deaths → state rankings  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "What percentage of women were married before attaining 18 years according to NFHS-5?",
+   "o": [
+    "18.7%",
+    "23.3%",
+    "26.8%",
+    "29.8%"
+   ],
+   "a": 1,
+   "x": "NFHS-5 reported that 23.3% of women were married before the age of 18. NFHS-4 had recorded 26.8%.",
+   "ty": "numerical",
+   "tq": "Distinguish the later NFHS-5 value from the earlier NFHS-4 value.",
+   "sec": "NCRB data on child marriage and dowry deaths → state rankings  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "In 2024, the number of cognisable crimes under IPC/BNS and under Special and Local Laws (SLL), respectively, was:",
+   "o": [
+    "35.44 lakh and 58.86 lakh",
+    "23.41 lakh and 35.44 lakh",
+    "35.44 lakh and 23.41 lakh",
+    "58.86 lakh and 23.41 lakh"
+   ],
+   "a": 2,
+   "x": "Of the 58.86 lakh cognisable crimes in 2024, 35.44 lakh were under IPC/BNS and 23.41 lakh were under SLL.",
+   "ty": "comparison",
+   "tq": "Read the two-column comparison in the same order as asked.",
+   "sec": "Types - IPC/BNS crimes vs Special and Local Laws (SLL) crimes  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following is classified under Special and Local Laws rather than under the IPC/BNS heads listed?",
+   "o": [
+    "Rape",
+    "Immoral Traffic (Prevention) Act, 1956",
+    "Acid attack",
+    "Attempt to rape"
+   ],
+   "a": 1,
+   "x": "The Immoral Traffic (Prevention) Act, 1956 is an SLL head. Rape, attempt to rape and acid attack are included among the IPC/BNS heads listed.",
+   "ty": "negative",
+   "tq": "Separate offences under the general criminal code from offences under a special statute.",
+   "sec": "Types - IPC/BNS crimes vs Special and Local Laws (SLL) crimes  [GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Crime or legal area)\na. Cruelty by husband or relatives\nb. Kidnapping and abduction of women\nc. Protection of women from domestic violence\nd. Indecent representation of women\n\nList-II (Classification)\ni. Special and Local Law\n ii. IPC/BNS head\n\nSelect the correct answer using the code below.",
+   "o": [
+    "a–i, b–i, c–ii, d–ii",
+    "a–ii, b–ii, c–i, d–i",
+    "a–ii, b–i, c–i, d–ii",
+    "a–i, b–ii, c–i, d–ii"
+   ],
+   "a": 1,
+   "x": "Cruelty by husband or relatives and kidnapping or abduction of women are IPC/BNS heads. The Protection of Women from Domestic Violence Act, 2005 and the Indecent Representation of Women Act are SLL heads.",
+   "ty": "match",
+   "tq": "Start with the sure statutory-law pairs and then eliminate codes.",
+   "sec": "Types - IPC/BNS crimes vs Special and Local Laws (SLL) crimes  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following is NOT included among the social-violence categories identified in the cited classification?",
+   "o": [
+    "Rape",
+    "Foeticide",
+    "Sati",
+    "Eve-teasing"
+   ],
+   "a": 0,
+   "x": "Foeticide, sati and eve-teasing are classified as social violence. Rape is classified under criminal violence.",
+   "ty": "negative",
+   "tq": "Identify the category by grouping the listed examples rather than by severity.",
+   "sec": "Types - IPC/BNS crimes vs Special and Local Laws (SLL) crimes  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements regarding Andhra Pradesh crime heads in 2024 is correct?",
+   "o": [
+    "Attempt-to-rape cases numbered 441 and rape cases numbered 102.",
+    "Cruelty cases numbered 9,165 and assault cases numbered 2,389.",
+    "Rape cases numbered 9,165 and kidnapping cases numbered 2,389.",
+    "Stalking cases numbered 2,389 and sexual-harassment cases numbered 977."
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh recorded 9,165 cruelty cases and 2,389 assault cases in 2024. It also recorded 977 stalking cases, 843 sexual-harassment cases, 472 kidnapping cases, 441 rape cases and 102 attempt-to-rape cases.",
+   "ty": "fact",
+   "tq": "Match each crime head with its precise count and reject swapped figures.",
+   "sec": "Crime heads ranked by share  [GROUP-II]"
+  },
+  {
+   "s": "Trafficking cases registered under the Immoral Traffic (Prevention) Act increased by approximately what percentage between 2022 and 2023?",
+   "o": [
+    "17.9%",
+    "44.7%",
+    "72.6%",
+    "239%"
+   ],
+   "a": 1,
+   "x": "Trafficking cases under the Immoral Traffic (Prevention) Act rose by about 44.7% between 2022 and 2023.",
+   "ty": "numerical",
+   "tq": "Match the percentage to the correct subject and time period.",
+   "sec": "Crime heads ranked by share  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about the causes of crimes against women:\n1. Patriarchal norms and son preference reinforce unequal power relations.\n2. Dowry demands may escalate into bride burning.\n3. Alcoholism and aggression among partners or parents may contribute to violence.\n4. Some aggressors were themselves abused as children.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements describe identified social and behavioural causes associated with violence against women.",
+   "ty": "statements",
+   "tq": "Treat each causal pathway independently before selecting the combined code.",
+   "sec": "Causes - patriarchy, son preference, dowry, alcoholism, low reporting, weak conviction  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following is NOT identified as a factor contributing to under-reporting of violence against women?",
+   "o": [
+    "High conviction rates",
+    "Economic dependence",
+    "Fear",
+    "Stigma"
+   ],
+   "a": 0,
+   "x": "Stigma, fear, lack of awareness and economic dependence contribute to under-reporting. High conviction rates are not a cause of under-reporting; conviction rates are described as low.",
+   "ty": "negative",
+   "tq": "Find the option that reverses the stated relationship.",
+   "sec": "Causes - patriarchy, son preference, dowry, alcoholism, low reporting, weak conviction  [GROUP-II]"
+  },
+  {
+   "s": "Why is marital rape considered inadequately captured in NCRB data?",
+   "o": [
+    "Under-reporting and the limited visibility of such incidents reduce its capture in official crime data.",
+    "It is always classified as a cybercrime.",
+    "It is included exclusively in violent-crime data from Odisha.",
+    "It is recorded only under the Immoral Traffic (Prevention) Act."
+   ],
+   "a": 0,
+   "x": "Marital rape is not captured well in NCRB data because such incidents are substantially under-reported and remain insufficiently visible in official reporting systems.",
+   "ty": "application",
+   "tq": "Apply the reporting-barrier concept rather than confusing legal categories.",
+   "sec": "Causes - patriarchy, son preference, dowry, alcoholism, low reporting, weak conviction  [GROUP-II]"
+  },
+  {
+   "s": "Which combination best reflects the institutional weaknesses identified in the justice response to crimes against women?",
+   "o": [
+    "Court pendency is below 10%, while conviction rates have steadily reached 42%.",
+    "More than 90% of police are women, conviction rates are high and pendency is negligible.",
+    "Only 11.7% of police are women, but rape conviction rates exceed 90%.",
+    "Only 11.7% of police are women, rape conviction rates are low and court pendency exceeds 90%."
+   ],
+   "a": 3,
+   "x": "The cited weaknesses are that women constitute only 11.7% of the police, rape conviction rates are low, and pendency in courts for crimes against women is over 90%.",
+   "ty": "application",
+   "tq": "Combine the institutional indicators and reject reversals of percentage and trend.",
+   "sec": "Causes - patriarchy, son preference, dowry, alcoholism, low reporting, weak conviction  [GROUP-II]"
+  }
+ ]
+}

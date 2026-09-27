@@ -1,0 +1,410 @@
+{
+ "book": 6,
+ "row": 8,
+ "chunk": 0,
+ "section": "International - summits, conferences and their outcomes",
+ "subsections": [
+  "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 30,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "The 17th BRICS Summit held in July 2025 was hosted at which of the following places?",
+   "o": [
+    "Rio de Janeiro, Brazil",
+    "Johannesburg, South Africa",
+    "Tianjin, China",
+    "New Delhi, India"
+   ],
+   "a": 0,
+   "x": "The 17th BRICS Summit was held in Rio de Janeiro, Brazil, in July 2025.",
+   "ty": "fact",
+   "tq": "Direct venue recall using nearby summit locations as distractors.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Who chaired the 17th BRICS Summit held in 2025?",
+   "o": [
+    "Emmanuel Macron",
+    "Narendra Modi",
+    "Xi Jinping",
+    "Lula da Silva"
+   ],
+   "a": 3,
+   "x": "Lula da Silva, the President of Brazil, chaired the 17th BRICS Summit held in Rio de Janeiro in July 2025.",
+   "ty": "fact",
+   "tq": "Who-chaired-which-summit discrimination.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Consider the following statements regarding the 18th BRICS Summit:\n1. It was held at Bharat Mandapam, New Delhi.\n2. It was held on 12–13 September 2026.\n3. India handed over the BRICS chair to China for 2027.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The 18th BRICS Summit was held at Bharat Mandapam, New Delhi, on 12–13 September 2026, and the chair was to pass from India to China for 2027.",
+   "ty": "statements",
+   "tq": "Statement combination testing venue, date and chair handover.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "The theme of the 18th BRICS Summit held in New Delhi was:",
+   "o": [
+    "One Earth, One Family, One Future",
+    "Upholding the Shanghai Spirit: SCO on the Move",
+    "Solidarity, Equality, and Sustainability",
+    "Building for Resilience, Innovation, Cooperation and Sustainability"
+   ],
+   "a": 3,
+   "x": "The theme of the 18th BRICS Summit was “Building for Resilience, Innovation, Cooperation and Sustainability.”",
+   "ty": "fact",
+   "tq": "Exact-theme recall with themes of other groupings as traps.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "20th G20 Summit — Johannesburg, South Africa",
+    "20th G20 Summit — New Delhi, India",
+    "20th G20 Summit — Tianjin, China",
+    "20th G20 Summit — Évian-les-Bains, France"
+   ],
+   "a": 0,
+   "x": "The 20th G20 Summit was held in Johannesburg, South Africa, in November 2025. It was the first G20 Summit held on African soil.",
+   "ty": "match",
+   "tq": "Start from the sure venue-edition pair and eliminate swapped summit locations.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "The theme of the 20th G20 Summit hosted by South Africa in 2025 was associated with which of the following?",
+   "o": [
+    "Prosperous, Resilient and Open",
+    "Working Together to Address Major International Challenges",
+    "Solidarity, Equality, and Sustainability; the spirit of Ubuntu",
+    "Inclusivity and Sustainability; ASEAN rotational chairmanship"
+   ],
+   "a": 2,
+   "x": "The 20th G20 Summit adopted the theme “Solidarity, Equality, and Sustainability”, reflecting the philosophy of Ubuntu, or “I am because we are.”",
+   "ty": "fact",
+   "tq": "Theme-and-host association using exact official wording.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Arrange the following summits in chronological order according to their editions:\nA. 18th BRICS Summit\nB. 20th G20 Summit\nC. 25th SCO Summit\nD. 52nd G7 Summit",
+   "o": [
+    "A, B, C, D",
+    "B, C, A, D",
+    "C, B, A, D",
+    "D, A, C, B"
+   ],
+   "a": 1,
+   "x": "The 20th G20 Summit was held in November 2025, followed by the 25th SCO Summit in August–September 2025 in the edition sequence presented here; the 18th BRICS Summit and 52nd G7 Summit were held in 2026. Thus, among the listed summit events by date, the proper order is G20, SCO, BRICS, G7.",
+   "ty": "chronology",
+   "tq": "Use the dates first and then check the middle positions carefully.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "The 25th Summit of the Shanghai Cooperation Organisation was held at:",
+   "o": [
+    "Bishkek, Kyrgyzstan",
+    "Ankara, Türkiye",
+    "Kuala Lumpur, Malaysia",
+    "Tianjin, China"
+   ],
+   "a": 3,
+   "x": "The 25th SCO Summit was held in Tianjin, China, on 31 August–1 September 2025. China hosted the SCO Summit for the fifth time.",
+   "ty": "fact",
+   "tq": "Edition-to-venue matching with confusable SCO and ASEAN venues.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Which of the following is the theme of the 25th SCO Summit held in China?",
+   "o": [
+    "Upholding the Shanghai Spirit: SCO on the Move",
+    "Together for Sustainable Peace, Development and Prosperity",
+    "Solidarity, Equality, and Sustainability",
+    "Building for Resilience, Innovation, Cooperation and Sustainability"
+   ],
+   "a": 0,
+   "x": "The theme of the 25th SCO Summit was “Upholding the Shanghai Spirit: SCO on the Move.”",
+   "ty": "fact",
+   "tq": "Exact-theme discrimination among summit slogans.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Consider the following statements regarding the 26th SCO Summit:\n1. It is scheduled to be held in Bishkek.\n2. Kyrgyzstan is the host country.\n3. Its theme refers to 25 years of the SCO.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The 26th SCO Summit is scheduled at Bishkek in Kyrgyzstan in 2026, with the theme “25 Years of SCO: Together for Sustainable Peace, Development and Prosperity.”",
+   "ty": "statements",
+   "tq": "Combine venue, host and theme clues without confusing the 25th and 26th editions.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "The 52nd G7 Summit, scheduled for June 2026, was hosted at Évian-les-Bains under the chairmanship of:",
+   "o": [
+    "Donald Trump",
+    "Justin Trudeau",
+    "Lula da Silva",
+    "Emmanuel Macron"
+   ],
+   "a": 3,
+   "x": "The 52nd G7 Summit was held at Évian-les-Bains, France, in June 2026, under the chairmanship of Emmanuel Macron.",
+   "ty": "fact",
+   "tq": "Chairperson-and-host matching; reject leaders associated with other summits or years.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Which of the following statements about the 52nd G7 Summit is correct?",
+   "o": [
+    "Its chair was Lula da Silva of Brazil.",
+    "The United States hosted the 52nd G7 Summit in 2026.",
+    "Its theme was “Working Together to Address Major International Challenges”.",
+    "It was held in Kananaskis, Canada, in June 2026."
+   ],
+   "a": 2,
+   "x": "The 52nd G7 Summit was held in Évian-les-Bains, France, under Emmanuel Macron, with the theme “Working Together to Address Major International Challenges.”",
+   "ty": "negative",
+   "tq": "Find the one precisely matched statement among year, venue and chair swaps.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "The 22nd ASEAN–India Summit was held in which manner and under whose chair?",
+   "o": [
+    "Physically in Bangkok under Thailand’s chair",
+    "Virtually under China’s chair as part of the SCO Summit",
+    "Physically in New Delhi under India’s chair",
+    "Virtually under Malaysia’s chair as part of the 47th ASEAN Summit"
+   ],
+   "a": 3,
+   "x": "The 22nd ASEAN–India Summit was held virtually under Malaysia’s chair and formed part of the 47th ASEAN Summit in Kuala Lumpur in October 2025.",
+   "ty": "application",
+   "tq": "Split the option into format, chair and institutional setting before choosing.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Which of the following was NOT an outcome associated with the 22nd ASEAN–India Summit?",
+   "o": [
+    "Call for an early review of AITIGA",
+    "Adoption of the Shanghai Spirit as the guiding principle",
+    "ASEAN–India Comprehensive Strategic Partnership plan for 2026–2030",
+    "Declaration of 2026 as the ASEAN–India Year of Maritime Cooperation"
+   ],
+   "a": 1,
+   "x": "The Shanghai Spirit was associated with the 25th SCO Summit. The ASEAN–India Summit outcomes included the maritime cooperation year, the 2026–2030 partnership plan and an early AITIGA review.",
+   "ty": "negative",
+   "tq": "Find the outcome belonging to another regional grouping.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Consider the following statements about the Quad during 2025–2026:\n1. No Quad leaders’ summit was held in 2025.\n2. India hosted the 11th Quad Foreign Ministers’ Meeting in New Delhi in May 2026.\n3. The Quad had six leader-level summits during 2021–2024.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. No Quad leaders’ summit was held in 2025; India hosted the 11th Foreign Ministers’ Meeting in New Delhi on 26 May 2026, and six leader-level summits occurred during 2021–2024.",
+   "ty": "statements",
+   "tq": "Test several closely related numerical and event-status statements together.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Which one of the following statements regarding SAARC is correct?",
+   "o": [
+    "Its last summit was held at Thimphu in 2025 and it is fully active.",
+    "Its last summit was held at Islamabad in 2026 and its secretariat is at Bishkek.",
+    "Its last summit was held at Kathmandu in 2014 and the organisation remains suspended.",
+    "Its last summit was held at New Delhi in 2014 and its secretariat is at Kathmandu."
+   ],
+   "a": 2,
+   "x": "The 18th and last SAARC Summit was held in Kathmandu in 2014. SAARC remains suspended, while the SAARC Development Fund secretariat is located at Thimphu.",
+   "ty": "fact",
+   "tq": "Separate the last summit venue from the Development Fund secretariat location.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "The continued suspension of SAARC is linked primarily with:",
+   "o": [
+    "The non-availability of a permanent secretariat",
+    "The withdrawal of all ASEAN members",
+    "India–Pakistan tensions concerning cross-border terrorism",
+    "Disagreement over climate finance"
+   ],
+   "a": 2,
+   "x": "SAARC remains suspended mainly because of India–Pakistan tensions relating to cross-border terrorism.",
+   "ty": "application",
+   "tq": "Cause-effect identification rather than venue recall.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "The 36th NATO Summit held in July 2026 took place in:",
+   "o": [
+    "Ankara",
+    "Brussels",
+    "Évian-les-Bains",
+    "The Hague"
+   ],
+   "a": 0,
+   "x": "The 36th NATO Summit was held in Ankara, Türkiye, in July 2026.",
+   "ty": "fact",
+   "tq": "Direct venue recall with other European summit venues as distractors.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "What defence-spending commitment was endorsed at the 36th NATO Summit?",
+   "o": [
+    "2% of GDP by 2035, including no related spending",
+    "5% of GDP by 2035, including 3.5% core defence spending and related spending",
+    "5% of GDP by 2026, entirely for related spending",
+    "3% of GDP by 2030, entirely for core defence"
+   ],
+   "a": 1,
+   "x": "The Ankara Summit endorsed defence spending of 5% of GDP by 2035, comprising 3.5% for core defence and related spending for the remainder.",
+   "ty": "numerical",
+   "tq": "Break the headline percentage into its component figures.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "The 20th East Asia Summit was held in 2025 at:",
+   "o": [
+    "Jakarta, Indonesia",
+    "Kuala Lumpur, Malaysia",
+    "New Delhi, India",
+    "Bangkok, Thailand"
+   ],
+   "a": 1,
+   "x": "The 20th East Asia Summit was held in Kuala Lumpur, Malaysia, in 2025. The EAS was founded in 2005 in Kuala Lumpur.",
+   "ty": "fact",
+   "tq": "Venue-year association with the founding-place clue.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Which of the following statements regarding the East Asia Summit is correct?",
+   "o": [
+    "Its chair rotates annually among G20 members.",
+    "It was founded in 2015 at Bangkok.",
+    "Its chair is permanently held by Malaysia.",
+    "Its 2025 theme was “Inclusivity and Sustainability”."
+   ],
+   "a": 3,
+   "x": "The 2025 East Asia Summit had the theme “Inclusivity and Sustainability”. Its chair rotates annually among ASEAN members, and it was founded in 2005.",
+   "ty": "negative",
+   "tq": "Reject permanent-chair and wrong-founding-year traps.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Which of the following correctly describes the G20 Troika?",
+   "o": [
+    "The host country, guest country and secretariat",
+    "The President, Sherpa and Finance Minister of the host country",
+    "The past, present and next presidencies",
+    "The finance, trade and defence ministers"
+   ],
+   "a": 2,
+   "x": "The G20 Troika consists of the past, present and next presidencies. The G20 also operates through the Finance track and the Sherpa track.",
+   "ty": "fact",
+   "tq": "Exact institutional-term discrimination.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Consider the following statements about the G20:\n1. It has a Finance track.\n2. It has a Sherpa track.\n3. Its presidency rotates annually among five regional groups.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The G20 functions through the Finance and Sherpa tracks, and its presidency rotates annually among five regional groups.",
+   "ty": "statements",
+   "tq": "Coded combination testing organisational structure and rotation.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "India–Africa Forum Summit-IV, scheduled at New Delhi from 28 to 31 May 2026, was postponed because of:",
+   "o": [
+    "The Ebola outbreak in the Democratic Republic of Congo and Uganda",
+    "A leadership dispute within BRICS",
+    "Cross-border terrorism in South Asia",
+    "A change in the G20 presidency"
+   ],
+   "a": 0,
+   "x": "India–Africa Forum Summit-IV was postponed because of the Ebola outbreak in the Democratic Republic of Congo and Uganda.",
+   "ty": "application",
+   "tq": "Match the postponed event with its specific cause rather than a general diplomatic issue.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "The 11th Raisina Dialogue held in New Delhi in 2026 had which of the following themes?",
+   "o": [
+    "Prosperous, Resilient and Open",
+    "Working Together to Address Major International Challenges",
+    "Solidarity, Equality, and Sustainability",
+    "Saṁskāra: Assertion, Accommodation, Advancement"
+   ],
+   "a": 3,
+   "x": "The theme of the 11th Raisina Dialogue in New Delhi in 2026 was “Saṁskāra: Assertion, Accommodation, Advancement.”",
+   "ty": "fact",
+   "tq": "Exact-theme recall with summit themes from the same current-affairs cluster.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "G7 2026 — Working Together to Address Major International Challenges",
+    "G20 2023 — One Earth, One Family, One Future",
+    "G20 2025 — Solidarity, Equality, and Sustainability",
+    "SCO 2025 — Together for Sustainable Peace, Development and Prosperity"
+   ],
+   "a": 3,
+   "x": "The 2025 SCO theme was “Upholding the Shanghai Spirit: SCO on the Move.” “Together for Sustainable Peace, Development and Prosperity” was the theme of the 2026 SCO Summit.",
+   "ty": "negative",
+   "tq": "Find the swapped theme between successive editions of the same organisation.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Which of the following correctly represents the planned succession of the SCO chair mentioned for the relevant summit cycle?",
+   "o": [
+    "India → China → Pakistan",
+    "Kyrgyzstan → China → India",
+    "China → Kyrgyzstan → Pakistan",
+    "Pakistan → China → Kyrgyzstan"
+   ],
+   "a": 2,
+   "x": "The stated succession was China, followed by Kyrgyzstan in 2026 and Pakistan for 2026–27, with the summit planned at Islamabad.",
+   "ty": "fact",
+   "tq": "Sequence recall using chair handover rather than summit venue.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  },
+  {
+   "s": "Which of the following statements about India’s proposed hosting of the Quad Leaders’ Summit is correct?",
+   "o": [
+    "It was held in 2026 as part of the ASEAN Summit in Kuala Lumpur.",
+    "India hosted it in 2025 at New Delhi.",
+    "India sought to host it from January 2024, but it had not been held by 2026.",
+    "India withdrew from the Quad after the 11th Foreign Ministers’ Meeting."
+   ],
+   "a": 2,
+   "x": "India had sought to host the Quad Leaders’ Summit since January 2024, but the leaders’ summit had not been held by 2026. India did host the Quad Foreign Ministers’ Meeting in New Delhi in May 2026.",
+   "ty": "confusable",
+   "tq": "Distinguish a leaders’ summit from a foreign ministers’ meeting.",
+   "sec": "Summits → venue + host country + chair + theme (G20, BRICS, SCO, QUAD, BIMSTEC, ASEAN-India, SAARC, G7)"
+  }
+ ]
+}

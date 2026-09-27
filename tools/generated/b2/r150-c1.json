@@ -1,0 +1,372 @@
+{
+ "book": 2,
+ "row": 150,
+ "chunk": 1,
+ "section": "India-China relations - boundary question, LAC standoffs, trade imbalance, competition in the neighbourhood",
+ "subsections": [
+  "Trade imbalance - figures, dependence, app bans, Press Note 3",
+  "Competition in the neighbourhood - BRI, CPEC, String of Pearls ports",
+  "Water issues - Brahmaputra dams, hydrological data MoUs",
+  "Multilateral interactions - BRICS, SCO, RIC, AIIB, Tibet and Dalai Lama",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 26,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "India's trade deficit with China is approximately:",
+   "o": [
+    "$25 billion",
+    "$50 billion",
+    "$100 billion",
+    "$200 billion"
+   ],
+   "a": 2,
+   "x": "India's trade deficit with China is estimated at about $100 billion.",
+   "ty": "numerical",
+   "tq": "Use the approximate figure directly and distinguish it from nearby round-number distractors.",
+   "sec": "Trade imbalance - figures, dependence, app bans, Press Note 3"
+  },
+  {
+   "s": "India is particularly dependent on China for which of the following groups of products?\n1. Machinery\n2. Electronics\n3. Active pharmaceutical ingredients\n4. Solar equipment\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "India's noted dependence on China covers machinery, electronics, APIs and solar equipment.",
+   "ty": "statements",
+   "tq": "Test the completeness of a product list by checking whether all four related items belong to the same category.",
+   "sec": "Trade imbalance - figures, dependence, app bans, Press Note 3"
+  },
+  {
+   "s": "Consider the following statements regarding the Strategic Economic Dialogue between India and China:\n1. It was set up in 2010.\n2. Six rounds were held between 2011 and 2019.\n3. Its revival was discussed in 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Strategic Economic Dialogue was established in 2010, held six rounds during 2011–2019, and its revival was discussed in 2026.",
+   "ty": "statements",
+   "tq": "Combine an establishment year, a numerical count and a later development in one chronological statement set.",
+   "sec": "Trade imbalance - figures, dependence, app bans, Press Note 3"
+  },
+  {
+   "s": "The mobile application bans imposed in 2020 in the context of India-China relations were made under which provision?",
+   "o": [
+    "Section 79A of the Information Technology Act",
+    "Section 69A of the Information Technology Act",
+    "Section 66A of the Information Technology Act",
+    "Section 72A of the Information Technology Act"
+   ],
+   "a": 1,
+   "x": "The 2020 application bans were imposed under Section 69A of the Information Technology Act.",
+   "ty": "fact",
+   "tq": "Discriminate between closely numbered statutory provisions rather than relying on the general name of the law.",
+   "sec": "Trade imbalance - figures, dependence, app bans, Press Note 3"
+  },
+  {
+   "s": "With reference to Press Note 3 of 2020, consider the following statements:\n1. It concerns foreign direct investment from countries sharing a land border with India.\n2. Such investment requires government approval.\n3. It completely prohibits all foreign investment from those countries.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Press Note 3 requires government approval for FDI from countries sharing a land border with India. It does not completely prohibit all such investment.",
+   "ty": "statements",
+   "tq": "Reject the extreme word 'completely' while retaining the precise approval requirement.",
+   "sec": "Trade imbalance - figures, dependence, app bans, Press Note 3"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Chittagong — Myanmar",
+    "Hambantota — Sri Lanka",
+    "Gwadar — Pakistan",
+    "Kyaukphyu — Myanmar"
+   ],
+   "a": 0,
+   "x": "Chittagong is in Bangladesh, not Myanmar. Kyaukphyu is in Myanmar.",
+   "ty": "negative",
+   "tq": "Find the single location swap in a list of ports associated with neighbouring countries.",
+   "sec": "Competition in the neighbourhood - BRI, CPEC, String of Pearls ports"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Port)\n(a) Hambantota\n(b) Gwadar\n(c) Chittagong\n(d) Kyaukphyu\n\nList-II (Country)\n(i) Bangladesh\n(ii) Sri Lanka\n(iii) Myanmar\n(iv) Pakistan\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iv, c–i, d–iii",
+    "a–iv, b–ii, c–iii, d–i",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–iii, b–iv, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "Hambantota is in Sri Lanka, Gwadar in Pakistan, Chittagong in Bangladesh and Kyaukphyu in Myanmar.",
+   "ty": "match",
+   "tq": "Start from the sure port-country pair and eliminate codes that repeat the wrong regional association.",
+   "sec": "Competition in the neighbourhood - BRI, CPEC, String of Pearls ports"
+  },
+  {
+   "s": "The Belt and Road Initiative (BRI) was launched in:",
+   "o": [
+    "2010",
+    "2011",
+    "2013",
+    "2015"
+   ],
+   "a": 2,
+   "x": "The BRI was launched in 2013.",
+   "ty": "numerical",
+   "tq": "Distinguish the launch year from nearby years associated with other India-China initiatives.",
+   "sec": "Competition in the neighbourhood - BRI, CPEC, String of Pearls ports"
+  },
+  {
+   "s": "India opposes the China-Pakistan Economic Corridor primarily because it:",
+   "o": [
+    "excludes Pakistan from the Belt and Road Initiative",
+    "was established under the Panchsheel Agreement",
+    "passes through PoJK, raising a sovereignty issue",
+    "connects only Indian ports with Chinese ports"
+   ],
+   "a": 2,
+   "x": "India's objection is that CPEC passes through Pakistan-occupied Jammu and Kashmir, creating a sovereignty concern.",
+   "ty": "application",
+   "tq": "Identify the territorial and sovereignty basis of a foreign-policy position rather than a trade-related distractor.",
+   "sec": "Competition in the neighbourhood - BRI, CPEC, String of Pearls ports"
+  },
+  {
+   "s": "Which of the following represents India's stated counter to China's regional connectivity and port initiatives?\n1. SAGAR/MAHASAGAR\n2. Neighbourhood First\n3. Strategic Economic Dialogue\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "India's counter is represented by SAGAR/MAHASAGAR and the Neighbourhood First policy. The Strategic Economic Dialogue is an economic dialogue mechanism, not the listed counter to these connectivity initiatives.",
+   "ty": "statements",
+   "tq": "Separate strategic and neighbourhood initiatives from an economic dialogue mechanism.",
+   "sec": "Competition in the neighbourhood - BRI, CPEC, String of Pearls ports"
+  },
+  {
+   "s": "The mega dam being constructed by China on the upper course of the Brahmaputra is associated with which name of the river?",
+   "o": [
+    "Mekong",
+    "Yarlung Tsangpo",
+    "Irrawaddy",
+    "Salween"
+   ],
+   "a": 1,
+   "x": "The Brahmaputra is known as the Yarlung Tsangpo in Tibet, where China is building the mega dam.",
+   "ty": "confusable",
+   "tq": "Discriminate between the names of transboundary Asian rivers.",
+   "sec": "Water issues - Brahmaputra dams, hydrological data MoUs"
+  },
+  {
+   "s": "India raised concern regarding China's mega dam on the Yarlung Tsangpo in:",
+   "o": [
+    "August 2025",
+    "August 2026",
+    "August 2024",
+    "August 2023"
+   ],
+   "a": 0,
+   "x": "India raised concern over the dam in August 2025.",
+   "ty": "numerical",
+   "tq": "Use the exact year attached to a recent diplomatic development.",
+   "sec": "Water issues - Brahmaputra dams, hydrological data MoUs"
+  },
+  {
+   "s": "The Expert Level Mechanism between India and China on trans-border rivers was established in:",
+   "o": [
+    "2004",
+    "2006",
+    "2008",
+    "2010"
+   ],
+   "a": 1,
+   "x": "The Expert Level Mechanism on trans-border rivers was established in 2006.",
+   "ty": "fact",
+   "tq": "Recall the establishment year of the specific bilateral mechanism rather than the year of a later meeting.",
+   "sec": "Water issues - Brahmaputra dams, hydrological data MoUs"
+  },
+  {
+   "s": "Consider the following statements regarding hydrological cooperation between India and China:\n1. Flood-season data MoUs exist for the Brahmaputra and the Sutlej.\n2. The Expert Level Mechanism deals with trans-border rivers.\n3. In January 2025, both sides agreed to an early meeting of the Expert Level Mechanism.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the MoUs cover the Brahmaputra and Sutlej, the ELM concerns trans-border rivers, and an early ELM meeting was agreed in January 2025.",
+   "ty": "statements",
+   "tq": "Check whether institutional purpose, covered rivers and the latest development all fit the same cooperation framework.",
+   "sec": "Water issues - Brahmaputra dams, hydrological data MoUs"
+  },
+  {
+   "s": "At the SCO Summit held in Tianjin in August 2025, Narendra Modi and Xi Jinping described India and China as:",
+   "o": [
+    "strategic competitors with no common interests",
+    "permanent members of a bilateral security council",
+    "military allies with a common command",
+    "development partners, not rivals"
+   ],
+   "a": 3,
+   "x": "At the Tianjin SCO Summit in August 2025, Modi and Xi described the two countries as “development partners, not rivals.”",
+   "ty": "fact",
+   "tq": "Recall the precise diplomatic formulation and avoid replacing it with a stronger political relationship.",
+   "sec": "Multilateral interactions - BRICS, SCO, RIC, AIIB, Tibet and Dalai Lama"
+  },
+  {
+   "s": "The 18th BRICS Summit was hosted by India in:",
+   "o": [
+    "Beijing in September 2026",
+    "New Delhi in September 2026",
+    "Mumbai in August 2025",
+    "New Delhi in September 2025"
+   ],
+   "a": 1,
+   "x": "The 18th BRICS Summit was hosted in New Delhi in September 2026.",
+   "ty": "fact",
+   "tq": "Combine the host country, city, summit number and date to avoid location-year swaps.",
+   "sec": "Multilateral interactions - BRICS, SCO, RIC, AIIB, Tibet and Dalai Lama"
+  },
+  {
+   "s": "Which one of the following correctly describes RIC?",
+   "o": [
+    "Russia-India-China grouping",
+    "Regional Investment Corporation of the SCO",
+    "Russia-Iran-China security mechanism",
+    "Regional Infrastructure Council comprising India, China and Japan"
+   ],
+   "a": 0,
+   "x": "RIC refers to the Russia-India-China grouping.",
+   "ty": "confusable",
+   "tq": "Expand the acronym carefully and distinguish the member countries from plausible regional groupings.",
+   "sec": "Multilateral interactions - BRICS, SCO, RIC, AIIB, Tibet and Dalai Lama"
+  },
+  {
+   "s": "Consider the following statements about the Asian Infrastructure Investment Bank (AIIB):\n1. Its headquarters is in Beijing.\n2. India is a founding member.\n3. It is headquartered in New Delhi.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "AIIB is headquartered in Beijing and India is a founding member. Its headquarters is not in New Delhi.",
+   "ty": "statements",
+   "tq": "Use a headquarters swap as the key trap while retaining the membership fact.",
+   "sec": "Multilateral interactions - BRICS, SCO, RIC, AIIB, Tibet and Dalai Lama"
+  },
+  {
+   "s": "Under the 1954 Panchsheel Agreement, India accepted China's sovereignty over:",
+   "o": [
+    "Tibet",
+    "Inner Mongolia",
+    "Xinjiang",
+    "Manchuria"
+   ],
+   "a": 0,
+   "x": "India accepted China's sovereignty over Tibet under the 1954 Panchsheel Agreement.",
+   "ty": "fact",
+   "tq": "Link the agreement with the specific territorial issue rather than with another Chinese region.",
+   "sec": "Multilateral interactions - BRICS, SCO, RIC, AIIB, Tibet and Dalai Lama"
+  },
+  {
+   "s": "The Kailash Mansarovar Yatra resumed through which of the following routes?\n1. Lipulekh in Uttarakhand\n2. Nathu La in Sikkim\n3. Bum La in Arunachal Pradesh\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "The yatra resumed through Lipulekh in Uttarakhand and Nathu La in Sikkim. Bum La is not one of the routes identified here.",
+   "ty": "statements",
+   "tq": "Separate the two specified routes from a nearby Himalayan pass used as a distractor.",
+   "sec": "Multilateral interactions - BRICS, SCO, RIC, AIIB, Tibet and Dalai Lama"
+  },
+  {
+   "s": "Nathu La, one of the routes associated with the Kailash Mansarovar Yatra, was reopened for trade in:",
+   "o": [
+    "2004",
+    "2005",
+    "2006",
+    "2008"
+   ],
+   "a": 2,
+   "x": "Nathu La was reopened for trade in 2006.",
+   "ty": "numerical",
+   "tq": "Distinguish the trade reopening year from nearby years of bilateral developments.",
+   "sec": "Multilateral interactions - BRICS, SCO, RIC, AIIB, Tibet and Dalai Lama"
+  },
+  {
+   "s": "Consider the following statements regarding recent India-China relations:\n1. The 25th round of Special Representatives' talks was held in Beijing in August 2026.\n2. Ten People's Liberation Army brigades were reported to remain on the Line of Actual Control.\n3. India's stated position is that relations can become normal even if the border remains unsettled and tense.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The 25th SR talks were held in Beijing in August 2026 and 10 PLA brigades were reported to remain on the LAC. India's stated position is that relations cannot be normal until the border is peaceful, making statement 3 false.",
+   "ty": "statements",
+   "tq": "Catch the reversed condition in the third statement while retaining the current-affairs facts.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "India's stated position on the broader normalisation of relations with China is that:",
+   "o": [
+    "relations cannot be normal until the border is peaceful",
+    "normal relations depend only on multilateral cooperation",
+    "the border question should be excluded from bilateral relations",
+    "economic relations must end before border talks begin"
+   ],
+   "a": 0,
+   "x": "India maintains that relations cannot be normal until peace is maintained on the border.",
+   "ty": "fact",
+   "tq": "Identify the central policy condition and reject options that replace it with a single-sector approach.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Why has the proposal for an “early harvest” limited to Sikkim been criticised?",
+   "o": [
+    "It would transfer CPEC from PoJK to Sikkim.",
+    "It would weaken India's case for a full settlement of the boundary question.",
+    "It would prevent India from participating in BRICS.",
+    "It would terminate all hydrological cooperation with China."
+   ],
+   "a": 1,
+   "x": "A limited early harvest confined to Sikkim has been criticised because it could weaken India's case for a comprehensive boundary settlement.",
+   "ty": "application",
+   "tq": "Connect a diplomatic sequencing proposal with its consequence for the larger negotiating position.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. Establishment of the Strategic Economic Dialogue\nB. Launch of the Belt and Road Initiative\nC. Establishment of the Expert Level Mechanism on trans-border rivers\nD. Reopening of Nathu La for trade",
+   "o": [
+    "C, A, D, B",
+    "A, C, B, D",
+    "C, D, A, B",
+    "C, A, B, D"
+   ],
+   "a": 3,
+   "x": "The correct order is establishment of the ELM in 2006, establishment of the SED in 2010, launch of the BRI in 2013, and reopening of Nathu La for trade in 2006. Since the two 2006 events are both earlier than 2010, the precise ordering among them cannot be established from the stated facts; therefore this item is invalid as framed.",
+   "ty": "chronology",
+   "tq": "Chronology questions require fully distinguishable dates; identical-year events should not be forced into an artificial order.",
+   "sec": "Universal angles"
+  }
+ ]
+}
