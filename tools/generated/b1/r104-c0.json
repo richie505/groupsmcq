@@ -1,0 +1,441 @@
+{
+ "book": 1,
+ "row": 104,
+ "chunk": 0,
+ "section": "Sources for medieval India - Persian chronicles, inscriptions, travellers' accounts",
+ "subsections": [
+  "Persian and Arabic chronicles → author + reign covered + chronological order",
+  "Foreign travellers → country of origin + ruler visited + subject described",
+  "Al-Biruni - century, patron, works, views on India",
+  "Regional and Sanskrit sources - Rajatarangini, biographies, Vijayanagara and Qutb Shahi works"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 31,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Consider the following statements regarding medieval Persian chronicles:\n1. Taj-ul-Maasir was written by Hasan Nizami and relates to the early Sultanate.\n2. Hasan Nizami was patronised by Qutbuddin Aibak.\n3. Tabaqat-i-Nasiri was dedicated to Nasiruddin Mahmud.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Taj-ul-Maasir is associated with Hasan Nizami and the early Sultanate, while Tabaqat-i-Nasiri was dedicated to Nasiruddin Mahmud.",
+   "ty": "statements",
+   "tq": "Combine author, patron and dedication facts while checking whether all statements belong to the same source cluster.",
+   "sec": "Persian and Arabic chronicles → author + reign covered + chronological order"
+  },
+  {
+   "s": "Tabaqat-i-Nasiri primarily deals with which of the following periods?",
+   "o": [
+    "The Bahmani rulers and the Qutb Shahis",
+    "The reigns of the later Mughals",
+    "The Ghurids and the early Delhi Sultans",
+    "The reigns of Akbar and Jahangir"
+   ],
+   "a": 2,
+   "x": "Minhaj-us-Siraj’s Tabaqat-i-Nasiri covers the Ghurids and the early Delhi Sultans.",
+   "ty": "fact",
+   "tq": "Use the period covered as the distinguishing clue when several Sultanate works are listed.",
+   "sec": "Persian and Arabic chronicles → author + reign covered + chronological order"
+  },
+  {
+   "s": "Who wrote Futuh-us-Salatin, a work covering the Ghaznavids to Muhammad bin Tughlaq and written at the Bahmani court around 1350?",
+   "o": [
+    "Nizamuddin Ahmad",
+    "Yahiya bin Ahmad Sarhindi",
+    "Isami",
+    "Ziauddin Barani"
+   ],
+   "a": 2,
+   "x": "Futuh-us-Salatin was written by Isami at the Bahmani court around 1350 and covers the period from the Ghaznavids to Muhammad bin Tughlaq, including the Tughlaq campaigns against Warangal.",
+   "ty": "fact",
+   "tq": "Distinguish similar Sultanate historians by matching the work with its author and historical range.",
+   "sec": "Persian and Arabic chronicles → author + reign covered + chronological order"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Fatawa-i-Jahandari — Ziauddin Barani",
+    "Tarikh-i-Firoz Shahi — Ziauddin Barani",
+    "Tarikh-i-Mubarak Shahi — Yahiya bin Ahmad Sarhindi",
+    "Tabaqat-i-Akbari — Badauni"
+   ],
+   "a": 3,
+   "x": "Tabaqat-i-Akbari was written by Nizamuddin Ahmad. Badauni’s own historical work was Muntakhab-ut-Tawarikh.",
+   "ty": "negative",
+   "tq": "Find the wrong author–work pairing, especially where a neighbouring historian is substituted.",
+   "sec": "Persian and Arabic chronicles → author + reign covered + chronological order"
+  },
+  {
+   "s": "Fatawa-i-Jahandari is primarily a work on which subject?",
+   "o": [
+    "The postal system of the Delhi Sultanate",
+    "Political theory of kingship",
+    "The conquest of Golconda",
+    "Indian astronomy and mathematics"
+   ],
+   "a": 1,
+   "x": "Fatawa-i-Jahandari, written by Ziauddin Barani, deals with political theory and kingship.",
+   "ty": "fact",
+   "tq": "Identify the subject of a text rather than confusing it with the author’s historical chronicle.",
+   "sec": "Persian and Arabic chronicles → author + reign covered + chronological order"
+  },
+  {
+   "s": "Tarikh-i-Mubarak Shahi was written during the reign of which ruler?",
+   "o": [
+    "Akbar",
+    "Mubarak Shah of the Sayyid dynasty",
+    "Nasiruddin Mahmud of the Slave dynasty",
+    "Firoz Shah Tughlaq"
+   ],
+   "a": 1,
+   "x": "Yahiya bin Ahmad Sarhindi wrote Tarikh-i-Mubarak Shahi during the reign of Sayyid Sultan Mubarak Shah.",
+   "ty": "fact",
+   "tq": "Use the title and reign association to separate similarly named Sultanate chronicles.",
+   "sec": "Persian and Arabic chronicles → author + reign covered + chronological order"
+  },
+  {
+   "s": "Arrange the following works in chronological order of the periods they primarily cover:\nA. Tabaqat-i-Akbari\nB. Taj-ul-Maasir\nC. Tarikh-i-Firoz Shahi\nD. Tabaqat-i-Nasiri",
+   "o": [
+    "B, D, C, A",
+    "D, B, C, A",
+    "B, C, D, A",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "Taj-ul-Maasir belongs to the early Sultanate, followed by Tabaqat-i-Nasiri, Tarikh-i-Firoz Shahi and finally Tabaqat-i-Akbari up to Akbar’s reign.",
+   "ty": "chronology",
+   "tq": "Place the earliest and latest works first, then distinguish the two intervening Sultanate chronicles.",
+   "sec": "Persian and Arabic chronicles → author + reign covered + chronological order"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding Amir Khusrau?",
+   "o": [
+    "He wrote Kitab-ul-Yamini as court historian of Mahmud of Ghazni.",
+    "He wrote Rihla in Arabic after visiting Muhammad bin Tughlaq’s court.",
+    "He wrote Shahnama under the patronage of Akbar.",
+    "He wrote Khazain-ul-Futuh and accompanied Malik Kafur’s 1310 invasion of Warangal."
+   ],
+   "a": 3,
+   "x": "Amir Khusrau, court poet of Alauddin Khalji, wrote Khazain-ul-Futuh and accompanied Malik Kafur’s 1310 expedition to Warangal. Kitab-ul-Yamini was written by Utbi, Shahnama by Firdausi and Rihla by Ibn Battuta.",
+   "ty": "fact",
+   "tq": "Apply the author–ruler–work trap to distinguish famous medieval writers.",
+   "sec": "Persian and Arabic chronicles → author + reign covered + chronological order"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Utbi — Kitab-ul-Yamini",
+    "Firdausi — Rihla",
+    "Ibn Battuta — Shahnama",
+    "Amir Khusrau — Kitab-ul-Yamini"
+   ],
+   "a": 0,
+   "x": "Utbi was the court historian of Mahmud of Ghazni and wrote Kitab-ul-Yamini. Firdausi wrote Shahnama, Ibn Battuta wrote Rihla and Amir Khusrau wrote Khazain-ul-Futuh.",
+   "ty": "match",
+   "tq": "Use the famous title as the anchor and reject swapped authors.",
+   "sec": "Persian and Arabic chronicles → author + reign covered + chronological order"
+  },
+  {
+   "s": "Rihla, the travel account of Ibn Battuta, was written in which language?",
+   "o": [
+    "Persian",
+    "Sanskrit",
+    "Turkish",
+    "Arabic"
+   ],
+   "a": 3,
+   "x": "Ibn Battuta’s travel account, Rihla, was written in Arabic.",
+   "ty": "fact",
+   "tq": "Test the exact language of a source rather than its author’s place of origin.",
+   "sec": "Persian and Arabic chronicles → author + reign covered + chronological order"
+  },
+  {
+   "s": "Marco Polo, who landed at Motupalli, visited the kingdom of which ruler?",
+   "o": [
+    "Abdullah Qutb Shah",
+    "Rudramadevi of the Kakatiyas",
+    "Muhammad bin Tughlaq",
+    "Deva Raya II of Vijayanagara"
+   ],
+   "a": 1,
+   "x": "Marco Polo visited the Kakatiya kingdom during the reign of Rudramadevi in 1289–93 and landed at Motupalli.",
+   "ty": "fact",
+   "tq": "Link the traveller’s landing place with the ruler and kingdom visited.",
+   "sec": "Foreign travellers → country of origin + ruler visited + subject described"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Ibn Battuta — Morocco — Muhammad bin Tughlaq",
+    "Marco Polo — France — Rudramadevi",
+    "Abdur Razzaq — Portugal — Deva Raya II",
+    "Duarte Barbosa — Persia — Vijayanagara"
+   ],
+   "a": 0,
+   "x": "Ibn Battuta was from Morocco and visited the court of Muhammad bin Tughlaq. Marco Polo was from Venice, Abdur Razzaq from Persia and Duarte Barbosa from Portugal.",
+   "ty": "match",
+   "tq": "Begin with the country–traveller pair and verify the ruler visited.",
+   "sec": "Foreign travellers → country of origin + ruler visited + subject described"
+  },
+  {
+   "s": "Which traveller is associated with observations on espionage, the postal system, sati and slave markets in the Delhi Sultanate?",
+   "o": [
+    "Tavernier",
+    "Nicolo Conti",
+    "Ibn Battuta",
+    "Duarte Barbosa"
+   ],
+   "a": 2,
+   "x": "Ibn Battuta’s account of Muhammad bin Tughlaq’s reign contains observations on espionage, the postal system, sati and slave markets.",
+   "ty": "fact",
+   "tq": "Match the distinctive subject described with the traveller who recorded it.",
+   "sec": "Foreign travellers → country of origin + ruler visited + subject described"
+  },
+  {
+   "s": "Consider the following statements:\n1. Nicolo Conti was a traveller from Venice.\n2. He described innumerable oil lamps at Diwali in Vijayanagara.\n3. The APPSC-associated account places him at the court of Deva Raya II.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct in the stated account. Nicolo Conti was a Venetian traveller associated with Vijayanagara and is noted for describing innumerable oil lamps at Diwali.",
+   "ty": "statements",
+   "tq": "Combine origin, court and distinctive observation to identify one traveller precisely.",
+   "sec": "Foreign travellers → country of origin + ruler visited + subject described"
+  },
+  {
+   "s": "Who among the following mentioned that Vijayanagara possessed more than 300 port towns?",
+   "o": [
+    "Duarte Barbosa",
+    "Marco Polo",
+    "Nicolo Conti",
+    "Abdur Razzaq"
+   ],
+   "a": 0,
+   "x": "Duarte Barbosa, the Portuguese traveller, is associated with the observation that Vijayanagara had more than 300 port towns.",
+   "ty": "numerical",
+   "tq": "Use the distinctive numerical detail to separate travellers with otherwise similar Vijayanagara accounts.",
+   "sec": "Foreign travellers → country of origin + ruler visited + subject described"
+  },
+  {
+   "s": "Abdur Razzaq visited Vijayanagara in 1443–44 as an envoy sent by which ruler?",
+   "o": [
+    "Shah Rukh of Persia",
+    "Ibrahim Adil Shah of Bijapur",
+    "Muhammad Qutb Shah",
+    "Akbar"
+   ],
+   "a": 0,
+   "x": "Abdur Razzaq was a Persian envoy of Shah Rukh and visited the court of Deva Raya II in 1443–44.",
+   "ty": "fact",
+   "tq": "Distinguish the envoy’s sending ruler from the ruler whose court he visited.",
+   "sec": "Foreign travellers → country of origin + ruler visited + subject described"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Seydi Ali Reis — Italy — Ottoman admiral",
+    "Mahmud Wali Balkhi — Balkh — Qutb Shahi court",
+    "Mir Zainul Abidin — Persia — Muhammad Qutb Shah",
+    "Tavernier — France — Abdullah Qutb Shah"
+   ],
+   "a": 0,
+   "x": "Seydi Ali Reis was from Turkey and was an Ottoman admiral, not from Italy. Tavernier was French, Mir Zainul Abidin was Persian and Mahmud Wali Balkhi came from Balkh.",
+   "ty": "negative",
+   "tq": "Find the incorrect country–traveller association among closely related foreign visitors.",
+   "sec": "Foreign travellers → country of origin + ruler visited + subject described"
+  },
+  {
+   "s": "Robert Sewell’s A Forgotten Empire is based principally on the accounts of which group?",
+   "o": [
+    "Barbosa, Seydi Ali Reis and Mahmud Wali Balkhi",
+    "Al-Biruni, Utbi and Firdausi",
+    "Paes, Nuniz and Abdur Razzaq",
+    "Marco Polo, Ibn Battuta and Tavernier"
+   ],
+   "a": 2,
+   "x": "Robert Sewell’s A Forgotten Empire draws chiefly on the accounts of Paes, Nuniz and Abdur Razzaq.",
+   "ty": "fact",
+   "tq": "Recognise the specific cluster of sources associated with a modern historical reconstruction.",
+   "sec": "Foreign travellers → country of origin + ruler visited + subject described"
+  },
+  {
+   "s": "Al-Biruni came to India in approximately which year and century?",
+   "o": [
+    "Around 1030 CE in the eleventh century",
+    "Around 1450 CE in the fifteenth century",
+    "Around 1300 CE in the fourteenth century",
+    "Around 1150 CE in the twelfth century"
+   ],
+   "a": 0,
+   "x": "Al-Biruni came to India around 1030 CE, during the eleventh century, under Mahmud of Ghazni.",
+   "ty": "numerical",
+   "tq": "Distinguish the century and approximate date using the middle-period historical sequence.",
+   "sec": "Al-Biruni - century, patron, works, views on India"
+  },
+  {
+   "s": "Which one of the following statements about Al-Biruni is correct?",
+   "o": [
+    "He confined his study of India exclusively to military campaigns.",
+    "He wrote in Persian without learning any Indian language.",
+    "He was patronised by Deva Raya II of Vijayanagara.",
+    "He wrote in Arabic after learning Sanskrit and studied Indian religion, philosophy, astronomy and caste."
+   ],
+   "a": 3,
+   "x": "Al-Biruni learned Sanskrit and wrote in Arabic on Indian religion, philosophy, astronomy and the caste system. He was associated with Mahmud of Ghazni, not Vijayanagara.",
+   "ty": "fact",
+   "tq": "Use the language, subjects and patron together to identify the correct biographical statement.",
+   "sec": "Al-Biruni - century, patron, works, views on India"
+  },
+  {
+   "s": "According to Al-Biruni’s account, which of the following was observed on Kartika Amavasya?",
+   "o": [
+    "The conquest of Madurai by Kampana",
+    "The coronation of Muhammad bin Tughlaq",
+    "The celebration of Diwali",
+    "The annual court of the Qutb Shahis"
+   ],
+   "a": 2,
+   "x": "Al-Biruni recorded the celebration of Diwali on Kartika Amavasya.",
+   "ty": "fact",
+   "tq": "Match the festival and its calendrical occasion with the appropriate chronicler.",
+   "sec": "Al-Biruni - century, patron, works, views on India"
+  },
+  {
+   "s": "Which one of the following was Al-Biruni’s observation about Indian society?",
+   "o": [
+    "Indians had abandoned Sanskrit learning entirely.",
+    "Indian society was free from caste distinctions.",
+    "Indians were unwilling to share learning with outsiders.",
+    "Indian scholars refused to study astronomy."
+   ],
+   "a": 2,
+   "x": "Al-Biruni observed that Indians were unwilling to share their learning with outsiders. He nevertheless studied Indian religion, philosophy, astronomy and caste through Sanskrit sources.",
+   "ty": "fact",
+   "tq": "Identify the precise social observation without reversing its meaning.",
+   "sec": "Al-Biruni - century, patron, works, views on India"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Ramacharitam — Sandhyakara Nandi — Life of Ramapala",
+    "Prithviraja Vijaya — Gangadevi — Life of Prithviraj Chauhan",
+    "Madhura Vijayam — Jayanaka — Conquest of Madurai",
+    "Siddhesvara Charitam — Kalhana — Kakatiya society"
+   ],
+   "a": 0,
+   "x": "Ramacharitam was written by Sandhyakara Nandi and deals with the life of Pala king Ramapala. Prithviraja Vijaya was by Jayanaka, Madhura Vijayam by Gangadevi and Siddhesvara Charitam by Kase Siddhappa.",
+   "ty": "match",
+   "tq": "Start with the author–work pair and check the subject attached to each regional source.",
+   "sec": "Regional and Sanskrit sources - Rajatarangini, biographies, Vijayanagara and Qutb Shahi works"
+  },
+  {
+   "s": "Madhura Vijayam provides information chiefly about which of the following?",
+   "o": [
+    "Kampana’s conquest of Madurai and conditions under Tughlaq rule",
+    "The conquest of Golconda by Aurangzeb",
+    "The life of Pala king Ramapala",
+    "The early history of Kashmir"
+   ],
+   "a": 0,
+   "x": "Madhura Vijayam, written by Gangadevi, describes Kampana’s conquest of Madurai and conditions under Tughlaq rule.",
+   "ty": "fact",
+   "tq": "Associate the regional biography with its protagonist, campaign and political context.",
+   "sec": "Regional and Sanskrit sources - Rajatarangini, biographies, Vijayanagara and Qutb Shahi works"
+  },
+  {
+   "s": "Siddhesvara Charitam, written in Telugu by Kase Siddhappa, is a source for the study of which subject?",
+   "o": [
+    "The political theory of kingship",
+    "Kakatiya-era society and religion",
+    "The maritime trade of Venice",
+    "The reign of Akbar"
+   ],
+   "a": 1,
+   "x": "Siddhesvara Charitam is a Telugu work by Kase Siddhappa that provides information on Kakatiya-era society and religion.",
+   "ty": "fact",
+   "tq": "Match the language and author with the regional historical theme.",
+   "sec": "Regional and Sanskrit sources - Rajatarangini, biographies, Vijayanagara and Qutb Shahi works"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Tarikh-i-Firishta — Muhammad Qasim Firishta — Deccan history",
+    "Hadikat-us-Salatin — Ali bin Tahir Bustani — Qutb Shahis",
+    "Muntakhab-ul-Lubab — Gangadevi — Conquest of Madurai",
+    "Kumara Ramana Charitam — Kannada — South India after the fall of Warangal"
+   ],
+   "a": 2,
+   "x": "Muntakhab-ul-Lubab was written by Khafi Khan and deals with Aurangzeb’s conquest of Golconda. Gangadevi wrote Madhura Vijayam.",
+   "ty": "negative",
+   "tq": "Detect the swapped author in a list of regional and Deccan sources.",
+   "sec": "Regional and Sanskrit sources - Rajatarangini, biographies, Vijayanagara and Qutb Shahi works"
+  },
+  {
+   "s": "Tarikh-i-Firishta is also known as which of the following?",
+   "o": [
+    "Gulshan-i-Ibrahimi",
+    "Muntakhab-ut-Tawarikh",
+    "Tahqiq-i-Hind",
+    "Khazain-ul-Futuh"
+   ],
+   "a": 0,
+   "x": "Tarikh-i-Firishta is also called Gulshan-i-Ibrahimi and was written by Muhammad Qasim Firishta.",
+   "ty": "confusable",
+   "tq": "Discriminate between similar Persian titles by identifying the alternate title of the same work.",
+   "sec": "Regional and Sanskrit sources - Rajatarangini, biographies, Vijayanagara and Qutb Shahi works"
+  },
+  {
+   "s": "Which of the following statements regarding Muhammad Qasim Firishta is correct?\n1. He was born in Astarabad in Iran.\n2. He was born in 1552.\n3. His work calls Telangana ‘Tilang’.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Firishta was born at Astarabad in Iran in 1552, and his Deccan history refers to Telangana as ‘Tilang’.",
+   "ty": "statements",
+   "tq": "Combine biographical numbers with a distinctive terminology clue.",
+   "sec": "Regional and Sanskrit sources - Rajatarangini, biographies, Vijayanagara and Qutb Shahi works"
+  },
+  {
+   "s": "Tarikh-i-Firishta was dedicated to which ruler?",
+   "o": [
+    "Aurangzeb",
+    "Deva Raya II of Vijayanagara",
+    "Ibrahim Adil Shah of Bijapur",
+    "Abdullah Qutb Shah of Golconda"
+   ],
+   "a": 2,
+   "x": "Muhammad Qasim Firishta dedicated Tarikh-i-Firishta, or Gulshan-i-Ibrahimi, to Ibrahim Adil Shah of Bijapur.",
+   "ty": "fact",
+   "tq": "Distinguish the dedicatee from the rulers whose dynasties are described in the work.",
+   "sec": "Regional and Sanskrit sources - Rajatarangini, biographies, Vijayanagara and Qutb Shahi works"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with a Qutb Shahi source?",
+   "o": [
+    "Hadikat-us-Salatin — Ali bin Tahir Bustani",
+    "Basatin-us-Salatin — Khafi Khan",
+    "Tarikh Muhammad Qutb Shah — Mirza Ibrahim Zuberi",
+    "History of the Qutb Shahi Dynasty — Anonymous, 1617"
+   ],
+   "a": 0,
+   "x": "Hadikat-us-Salatin was written by Ali bin Tahir Bustani and deals with the Qutb Shahis. Basatin-us-Salatin was by Mirza Ibrahim Zuberi, Tarikh Muhammad Qutb Shah is anonymous and dated 1617, while H.K. Sherwani wrote the modern history.",
+   "ty": "match",
+   "tq": "Use the author–title pair as the anchor and eliminate shifted authorship and dates.",
+   "sec": "Regional and Sanskrit sources - Rajatarangini, biographies, Vijayanagara and Qutb Shahi works"
+  }
+ ]
+}

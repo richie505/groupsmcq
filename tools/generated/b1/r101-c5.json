@@ -1,0 +1,372 @@
+{
+ "book": 1,
+ "row": 101,
+ "chunk": 5,
+ "section": "Telugu language and literature to the 14th century - Nannaya, Tikkana, Errana, Palkuriki Somanatha",
+ "subsections": [
+  "Book - author",
+  "Poets' titles - holder",
+  "Prabandha age - features, first prabandha, leading poets, patronage",
+  "Sanskrit works translated into Telugu - translator",
+  "Periodisation of Telugu literature"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 26,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below.\n\nList-I (Work)\na. Manucharitra\nb. Parijatapaharanam\nc. Panduranga Mahatmyam\nd. Vasucharitra\n\nList-II (Author)\ni. Tenali Ramakrishna\nii. Nandi Timmana\niii. Ramaraja Bhushana\niv. Allasani Peddana",
+   "o": [
+    "a–iv, b–ii, c–i, d–iii",
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–iii, b–ii, c–i, d–iv"
+   ],
+   "a": 0,
+   "x": "Manucharitra was written by Allasani Peddana, Parijatapaharanam by Nandi Timmana, Panduranga Mahatmyam by Tenali Ramakrishna and Vasucharitra by Ramaraja Bhushana.",
+   "ty": "match",
+   "tq": "Start from the sure work–author pair and eliminate codes that disturb the remaining literary associations.",
+   "sec": "Book - author"
+  },
+  {
+   "s": "Vasucharitra, composed by Ramaraja Bhushana, was dedicated to which ruler?",
+   "o": [
+    "Krishnadevaraya",
+    "Devaraya II",
+    "Prolaya Vema",
+    "Tirumala Raya"
+   ],
+   "a": 3,
+   "x": "Ramaraja Bhushana dedicated Vasucharitra to Tirumala Raya.",
+   "ty": "fact",
+   "tq": "Distinguish the author of a work from its patron or dedicatee.",
+   "sec": "Book - author"
+  },
+  {
+   "s": "Who among the following wrote both Kalapurnodayam and Raghavapandaviyam?",
+   "o": [
+    "Dhurjati",
+    "Madayagari Mallana",
+    "Ayyalaraju Ramabhadra",
+    "Pingali Surana"
+   ],
+   "a": 3,
+   "x": "Pingali Surana was the author of both Kalapurnodayam and Raghavapandaviyam.",
+   "ty": "fact",
+   "tq": "Use the paired-work method to identify the author associated with both titles.",
+   "sec": "Book - author"
+  },
+  {
+   "s": "Varadambika Parinayam, a Sanskrit work, was written by",
+   "o": [
+    "Gangadevi",
+    "Nandi Timmana",
+    "Allasani Peddana",
+    "Tirumalamba"
+   ],
+   "a": 3,
+   "x": "Tirumalamba wrote the Sanskrit work Varadambika Parinayam.",
+   "ty": "fact",
+   "tq": "Apply language discrimination when similar court-literature names appear together.",
+   "sec": "Book - author"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Madhura Vijayam — Pingali Surana",
+    "Ramabhyudayam — Ayyalaraju Ramabhadra",
+    "Kalahastiswara Satakam — Dhurjati",
+    "Rajasekhara Charitra — Madayagari Mallana"
+   ],
+   "a": 0,
+   "x": "Madhura Vijayam was written in Sanskrit by Gangadevi, not by Pingali Surana. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the swapped author by checking the work–author association rather than the literary genre alone.",
+   "sec": "Book - author"
+  },
+  {
+   "s": "Madhura Vijayam, a Sanskrit work, was composed by",
+   "o": [
+    "Dhurjati",
+    "Gangadevi",
+    "Tirumalamba",
+    "Madayagari Mallana"
+   ],
+   "a": 1,
+   "x": "Gangadevi composed Madhura Vijayam in Sanskrit.",
+   "ty": "fact",
+   "tq": "Separate Sanskrit court works from Telugu works with similar historical settings.",
+   "sec": "Book - author"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below.\n\nList-I (Title)\na. Kavibrahma\nb. Sambhudasa\nc. Andhra Kavita Pitamaha\nd. Kavisarvabhauma\n\nList-II (Holder)\ni. Allasani Peddana\nii. Srinatha\niii. Tikkana\niv. Errana",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–ii, b–iv, c–i, d–iii"
+   ],
+   "a": 0,
+   "x": "Tikkana was Kavibrahma, Errana was Sambhudasa, Allasani Peddana was Andhra Kavita Pitamaha and Srinatha was Kavisarvabhauma.",
+   "ty": "match",
+   "tq": "Begin with the distinctive title–poet pair and use code elimination for the rest.",
+   "sec": "Poets' titles - holder"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Kavisarvabhauma — Nannechoda",
+    "Sahaja Panditya — Potana",
+    "Kaviraja Sikhamani — Srinatha",
+    "Andhra Kavita Pitamaha — Errana"
+   ],
+   "a": 1,
+   "x": "Potana held the title Sahaja Panditya. Kaviraja Sikhamani belonged to Nannechoda, Kavisarvabhauma to Srinatha and Andhra Kavita Pitamaha to Allasani Peddana.",
+   "ty": "fact",
+   "tq": "Use title–holder discrimination to avoid swapping famous Telugu poets.",
+   "sec": "Poets' titles - holder"
+  },
+  {
+   "s": "Which of the following statements regarding the transition to the Prabandha form is correct?\n1. The epic kavya gave way to the prabandha.\n2. The prabandha generally treats a single episode rather than an entire epic.\n3. The prabandha is marked by elaborate descriptions and a strong shringara element.\n4. The prabandha dispenses with strict metrical rules.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is false because the prabandha follows strict metrical rules.",
+   "ty": "statements",
+   "tq": "Reject the statement that reverses a defining feature of the literary form.",
+   "sec": "Prabandha age - features, first prabandha, leading poets, patronage"
+  },
+  {
+   "s": "Who introduced the set descriptions that became characteristic of the Prabandha tradition through Kumarasambhava?",
+   "o": [
+    "Errana",
+    "Srinatha",
+    "Tikkana",
+    "Nannechoda"
+   ],
+   "a": 3,
+   "x": "Nannechoda's Kumarasambhava introduced the set descriptions associated with the Prabandha tradition.",
+   "ty": "fact",
+   "tq": "Link the literary innovation directly to the poet and work rather than to the later peak period.",
+   "sec": "Prabandha age - features, first prabandha, leading poets, patronage"
+  },
+  {
+   "s": "Consider the following statements about the emergence of the Prabandha style:\n1. Errana is credited in one classification with being the first Prabandha writer.\n2. Srinatha is described as a pioneer of the style.\n3. Sringara Naishadham and Haravilasam are associated with Srinatha's pioneering role.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Errana is credited as the first Prabandha writer in one classification, while Srinatha is identified as a pioneer through works such as Sringara Naishadham and Haravilasam.",
+   "ty": "statements",
+   "tq": "Retain both closely related literary attributions instead of treating them as mutually exclusive.",
+   "sec": "Prabandha age - features, first prabandha, leading poets, patronage"
+  },
+  {
+   "s": "The Prabandha style reached its peak in the court of",
+   "o": [
+    "Krishnadevaraya, through the Ashtadiggajas",
+    "Prolaya Vema, through the Nayakas",
+    "Devaraya II, through the Reddi poets",
+    "Tirumala Raya, through the Ashtadiggajas"
+   ],
+   "a": 0,
+   "x": "The Prabandha style reached its peak with the Ashtadiggajas at the court of Krishnadevaraya.",
+   "ty": "fact",
+   "tq": "Match a literary movement with its principal court and associated group.",
+   "sec": "Prabandha age - features, first prabandha, leading poets, patronage"
+  },
+  {
+   "s": "Which of the following statements regarding patronage of the Prabandha tradition is correct?\n1. The Reddi courts supported Srinatha and Errana.\n2. The Vijayanagara Nayaka courts helped spread the style.\n3. The style was confined exclusively to the court of Krishnadevaraya.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the Reddi courts and Vijayanagara Nayaka courts also supported or spread the Prabandha style.",
+   "ty": "statements",
+   "tq": "Watch for the extreme word ‘exclusively’ in a statement about literary patronage.",
+   "sec": "Prabandha age - features, first prabandha, leading poets, patronage"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below.\n\nList-I (Sanskrit work and Telugu rendering)\na. Harivamsa\nb. Markandeya Puranam\nc. Naishadham\nd. Dasakumara Charitra\n\nList-II (Translator or Telugu author)\ni. Ketana\nii. Srinatha\niii. Errana\niv. Marana",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iv, c–iii, d–i"
+   ],
+   "a": 0,
+   "x": "Errana translated Harivamsa, Marana translated Markandeya Puranam, Srinatha rendered Naishadham as Sringara Naishadham and Ketana translated Dasakumara Charitra.",
+   "ty": "match",
+   "tq": "Start with the distinctive translation pair and eliminate codes containing swapped translators.",
+   "sec": "Sanskrit works translated into Telugu - translator"
+  },
+  {
+   "s": "Who translated Harivamsa into Telugu and dedicated it to Prolaya Vema?",
+   "o": [
+    "Errana",
+    "Tikkana",
+    "Marana",
+    "Nachana Somana"
+   ],
+   "a": 0,
+   "x": "Errana translated Harivamsa and dedicated it to Prolaya Vema.",
+   "ty": "fact",
+   "tq": "Separate the translator of a main text from the author of its Uttara section.",
+   "sec": "Sanskrit works translated into Telugu - translator"
+  },
+  {
+   "s": "Which of the following is correctly matched?",
+   "o": [
+    "Markandeya Puranam — Ketana",
+    "Uttara Harivamsa — Nachana Somana",
+    "Naishadham — Marana",
+    "Dasakumara Charitra — Errana"
+   ],
+   "a": 1,
+   "x": "Uttara Harivamsa was written by Nachana Somana. Markandeya Puranam is associated with Marana, Naishadham with Srinatha and Dasakumara Charitra with Ketana.",
+   "ty": "fact",
+   "tq": "Discriminate between closely related texts belonging to the same translation tradition.",
+   "sec": "Sanskrit works translated into Telugu - translator"
+  },
+  {
+   "s": "Marana, who translated Markandeya Puranam into Telugu, was a disciple of",
+   "o": [
+    "Srinatha",
+    "Errana",
+    "Tikkana",
+    "Nannaya"
+   ],
+   "a": 2,
+   "x": "Marana was a disciple of Tikkana.",
+   "ty": "fact",
+   "tq": "Connect a translator with his literary teacher instead of confusing him with the translator's subject text.",
+   "sec": "Sanskrit works translated into Telugu - translator"
+  },
+  {
+   "s": "Ketana's Telugu Dasakumara Charitra was based on which Sanskrit work?",
+   "o": [
+    "Harivamsa",
+    "Viddhasalabhanjika",
+    "Dasakumara Charita",
+    "Naishadham"
+   ],
+   "a": 2,
+   "x": "Ketana translated the Sanskrit Dasakumara Charita as Dasakumara Charitra in Telugu.",
+   "ty": "confusable",
+   "tq": "Distinguish near-identical Sanskrit and Telugu titles rather than treating them as separate works.",
+   "sec": "Sanskrit works translated into Telugu - translator"
+  },
+  {
+   "s": "Manchena's Keyurabahu Charitra is associated with the Telugu rendering of",
+   "o": [
+    "Naishadha",
+    "Viddhasalabhanjika",
+    "Dasakumara Charita",
+    "Markandeya Purana"
+   ],
+   "a": 1,
+   "x": "Manchena rendered Viddhasalabhanjika as Keyurabahu Charitra in Telugu.",
+   "ty": "fact",
+   "tq": "Use the source-work to target-work association to distinguish similar classical titles.",
+   "sec": "Sanskrit works translated into Telugu - translator"
+  },
+  {
+   "s": "Arrange the following periods of Telugu literature in chronological order:\nA. Nannaya age\nB. Tikkana age\nC. Srinatha age\nD. Prabandha or Rayala age",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The Nannaya age belongs to the 11th century, followed by the Tikkana age in the 13th century, the Srinatha age in the 15th century and the Prabandha or Rayala age in the 16th century.",
+   "ty": "chronology",
+   "tq": "Place the periods by their century markers, then verify the sequence from earliest to latest.",
+   "sec": "Periodisation of Telugu literature"
+  },
+  {
+   "s": "The Shiva Kavi Yugam in Telugu literary periodisation is generally assigned to",
+   "o": [
+    "1060–1260",
+    "1360–1460",
+    "1000–1060",
+    "1260–1360"
+   ],
+   "a": 0,
+   "x": "The Shiva Kavi Yugam is assigned to the period from 1060 to 1260.",
+   "ty": "numerical",
+   "tq": "Use the stated range directly and reject adjacent-looking chronological intervals.",
+   "sec": "Periodisation of Telugu literature"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with its period of Telugu literature?\n1. Nannaya age — 11th century\n2. Tikkana age — 13th century\n3. Errana age — 14th century\n4. Srinatha age — 15th century",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched: Nannaya belongs to the 11th century, Tikkana to the 13th, Errana to the 14th and Srinatha to the 15th century.",
+   "ty": "statements",
+   "tq": "Check each century independently before selecting the coded combination.",
+   "sec": "Periodisation of Telugu literature"
+  },
+  {
+   "s": "Which one of the following represents the correct sequence after the Srinatha age in Telugu literary periodisation?",
+   "o": [
+    "Prabandha age, Dakshinatya age, Modern age",
+    "Dakshinatya age, Prabandha age, Modern age",
+    "Modern age, Prabandha age, Dakshinatya age",
+    "Prabandha age, Modern age, Dakshinatya age"
+   ],
+   "a": 0,
+   "x": "The Srinatha age is followed by the Prabandha or Rayala age in the 16th century, the Dakshinatya or southern Nayaka age in the 17th–18th centuries and the Modern age from the 19th century onward.",
+   "ty": "chronology",
+   "tq": "Follow the period labels and their century ranges from early modern to modern literature.",
+   "sec": "Periodisation of Telugu literature"
+  },
+  {
+   "s": "Which of the following statements about the periodisation of Telugu literature is correct?\n1. The Pre-Nannaya period extends approximately up to 1000.\n2. The Modern age begins in the 19th century and continues thereafter.\n3. All the boundaries of the periods are precise and uniformly fixed.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because boundaries other than the specifically marked ones are approximate.",
+   "ty": "statements",
+   "tq": "Identify the qualification that limits an otherwise broad periodisation scheme.",
+   "sec": "Periodisation of Telugu literature"
+  },
+  {
+   "s": "Which of the following is the correct association of a title, its holder and the literary basis of the title?",
+   "o": [
+    "Kavibrahma — Errana — Harivamsa",
+    "Sambhudasa — Tikkana — Nirvachanottara Ramayanam",
+    "Kaviraja Sikhamani — Srinatha — Sringara Naishadham",
+    "Abhinava Dandi — Ketana — Dasakumara Charitra"
+   ],
+   "a": 3,
+   "x": "Ketana was called Abhinava Dandi for his Telugu Dasakumara Charitra. The other options swap the holders of the titles.",
+   "ty": "comparison",
+   "tq": "Verify all three elements of a composite association instead of relying on the title alone.",
+   "sec": "Poets' titles - holder"
+  }
+ ]
+}

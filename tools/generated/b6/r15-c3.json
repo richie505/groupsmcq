@@ -1,0 +1,513 @@
+{
+ "book": 6,
+ "row": 15,
+ "chunk": 3,
+ "section": "Sports - major tournaments, winners, records and hosting rights",
+ "subsections": [
+  "Sportsperson - discipline identification",
+  "Hosting rights and venues",
+  "Badminton - singles winners",
+  "Shooting - ISSF medallists, Olympic quotas",
+  "Sports infrastructure and records - para-sports centres, FIRSTs",
+  "Athlete → sport + title"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 39,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Esha Singh is associated with which of the following sporting disciplines?",
+   "o": [
+    "Archery",
+    "Shooting",
+    "Wrestling",
+    "Boxing"
+   ],
+   "a": 1,
+   "x": "Esha Singh is a shooter who won gold in the women's 25m pistol event at the ISSF World Cup.",
+   "ty": "fact",
+   "tq": "Use direct discipline identification and distinguish neighbouring individual sports.",
+   "sec": "Sportsperson - discipline identification  [APPSC]"
+  },
+  {
+   "s": "Gulveer Singh is associated with which event?",
+   "o": [
+    "Marathon swimming",
+    "Distance running in athletics",
+    "Para archery",
+    "100m hurdles"
+   ],
+   "a": 1,
+   "x": "Gulveer Singh is associated with distance running in athletics and was a double medallist at the 2026 Commonwealth Games.",
+   "ty": "fact",
+   "tq": "Match the athlete with the precise discipline rather than the broad sport alone.",
+   "sec": "Sportsperson - discipline identification  [APPSC]"
+  },
+  {
+   "s": "Jyothi Yarraji, who hails from Visakhapatnam, is associated with which event and achievement?",
+   "o": [
+    "Women's singles badminton and 2026 world champion",
+    "100m hurdles and 2025 Asian champion",
+    "53 kg wrestling and 2025 world champion",
+    "25m pistol and 2026 ISSF champion"
+   ],
+   "a": 1,
+   "x": "Jyothi Yarraji of Visakhapatnam is an athlete specialising in the 100m hurdles and became the 2025 Asian champion.",
+   "ty": "fact",
+   "tq": "Test a combined athlete–event–title association with close sporting distractors.",
+   "sec": "Sportsperson - discipline identification  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Anahat Singh — Squash\n2. Antim Panghal — Wrestling\n3. Jaismine Lamboria — Boxing\n4. Ayush Shetty — Badminton\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4",
+    "2, 3 and 4 only"
+   ],
+   "a": 2,
+   "x": "All four pairs are correctly matched. Anahat Singh plays squash, Antim Panghal wrestles in the 53 kg category, Jaismine Lamboria is a boxer and Ayush Shetty is a badminton player.",
+   "ty": "statements",
+   "tq": "Split the options by checking each athlete–discipline pair.",
+   "sec": "Sportsperson - discipline identification  [APPSC]"
+  },
+  {
+   "s": "Jaismine Lamboria and Minakshi Hooda were associated with which achievement?",
+   "o": [
+    "Winning badminton doubles gold at the 2026 Asian Games",
+    "Winning wrestling gold at the Bishkek Asian Championships",
+    "Winning shooting medals at the Hangzhou ISSF World Cup",
+    "Winning gold medals at the 2025 World Boxing Championships"
+   ],
+   "a": 3,
+   "x": "Jaismine Lamboria and Minakshi Hooda were gold medallists at the 2025 World Boxing Championships.",
+   "ty": "fact",
+   "tq": "Use the athlete-to-event achievement linkage and reject swapped sporting events.",
+   "sec": "Sportsperson - discipline identification  [APPSC]"
+  },
+  {
+   "s": "Chandrika Pujari won a gold medal at which event?",
+   "o": [
+    "Asian Wrestling Championships in Bishkek",
+    "World Boxing Championships 2025 in Niš",
+    "ISSF World Cup 2026 in Munich",
+    "World Boxing Futures Cup 2026 in Bangkok"
+   ],
+   "a": 3,
+   "x": "Chandrika Pujari won gold at the World Boxing Futures Cup 2026 held in Bangkok.",
+   "ty": "fact",
+   "tq": "Distinguish closely related tournament names and venues.",
+   "sec": "Sportsperson - discipline identification  [APPSC]"
+  },
+  {
+   "s": "The BWF World Championships 2026 were hosted by which city?",
+   "o": [
+    "Ahmedabad",
+    "Samarkand",
+    "Geneva",
+    "New Delhi"
+   ],
+   "a": 3,
+   "x": "New Delhi hosted the 2026 BWF World Championships, the 30th edition of the tournament.",
+   "ty": "fact",
+   "tq": "Test host-city recall against other cities associated with major 2026 events.",
+   "sec": "Hosting rights and venues  [APPSC]"
+  },
+  {
+   "s": "Which statement regarding the BWF World Championships 2026 is correct?",
+   "o": [
+    "They marked the return of the championships to India after 17 years.",
+    "They were held in India for the first time after 30 years.",
+    "They were hosted by Ahmedabad as the 29th edition.",
+    "They were held in New Delhi without any Indian medal."
+   ],
+   "a": 0,
+   "x": "The 2026 BWF World Championships returned to India after 17 years and were held in New Delhi as the 30th edition.",
+   "ty": "statements",
+   "tq": "Identify the precise year, edition and interval while rejecting altered numerical claims.",
+   "sec": "Hosting rights and venues  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Event)\nA. Commonwealth Games 2030\nB. FIH Hockey World Cups 2026\nC. Olympiad 2026\nD. World Championship match 2026\nList-II (Venue)\n1. Geneva\n2. Ahmedabad\n3. Samarkand\n4. Netherlands and Belgium\nSelect the correct answer using the codes given below.",
+   "o": [
+    "A-2, B-4, C-3, D-1",
+    "A-3, B-2, C-4, D-1",
+    "A-2, B-3, C-1, D-4",
+    "A-1, B-4, C-2, D-3"
+   ],
+   "a": 0,
+   "x": "The 2030 Commonwealth Games are assigned to Ahmedabad; the 2026 FIH Hockey World Cups to the Netherlands and Belgium; the 2026 Olympiad to Samarkand; and the 2026 World Championship match to Geneva.",
+   "ty": "match",
+   "tq": "Start from the sure venue pair and eliminate codes with swapped hosts.",
+   "sec": "Hosting rights and venues  [APPSC]"
+  },
+  {
+   "s": "The 2026 BRICS Sports Ministers' Meeting was held in which city?",
+   "o": [
+    "New Delhi",
+    "Visakhapatnam",
+    "Udaipur",
+    "Ahmedabad"
+   ],
+   "a": 1,
+   "x": "The BRICS Sports Ministers' Meeting 2026 was held in Visakhapatnam, where a joint declaration was adopted.",
+   "ty": "fact",
+   "tq": "Separate the meeting venue from the venue of the subsequent conclave.",
+   "sec": "Hosting rights and venues  [APPSC]"
+  },
+  {
+   "s": "Where was the BRICS Sports Manufacturing Conclave scheduled to follow the 2026 BRICS Sports Ministers' Meeting?",
+   "o": [
+    "Udaipur",
+    "Visakhapatnam",
+    "Rajamahendravaram",
+    "Tirupati"
+   ],
+   "a": 0,
+   "x": "The BRICS Sports Manufacturing Conclave was scheduled to follow at Udaipur in November 2026.",
+   "ty": "fact",
+   "tq": "Use venue sequencing to distinguish the main meeting from the follow-up event.",
+   "sec": "Hosting rights and venues  [APPSC]"
+  },
+  {
+   "s": "The IBA Women's World Boxing Championships 2025 were held at:",
+   "o": [
+    "New Delhi, India",
+    "Bangkok, Thailand",
+    "Bishkek, Kyrgyzstan",
+    "Niš, Serbia"
+   ],
+   "a": 3,
+   "x": "Niš in Serbia hosted the IBA Women's World Boxing Championships 2025.",
+   "ty": "fact",
+   "tq": "Test host-city and country together against venues of other boxing events.",
+   "sec": "Hosting rights and venues  [APPSC]"
+  },
+  {
+   "s": "The ICC Women's ODI World Cup 2025 was hosted jointly by:",
+   "o": [
+    "India and Sri Lanka",
+    "Sri Lanka and Pakistan",
+    "India and Bangladesh",
+    "India and Australia"
+   ],
+   "a": 0,
+   "x": "The ICC Women's ODI World Cup 2025 was hosted jointly by India and Sri Lanka.",
+   "ty": "fact",
+   "tq": "Apply the joint-hosting trap by distinguishing the exact partner country.",
+   "sec": "Hosting rights and venues  [APPSC]"
+  },
+  {
+   "s": "Who won the men's singles title at the BWF World Championships 2026?",
+   "o": [
+    "Viktor Axelsen",
+    "Ayush Shetty",
+    "Lakshya Sen",
+    "Alex Lanier"
+   ],
+   "a": 3,
+   "x": "Alex Lanier of France won the men's singles title at the BWF World Championships 2026.",
+   "ty": "fact",
+   "tq": "Directly identify the winner while separating singles champions from finalists.",
+   "sec": "Badminton - singles winners  [APPSC]"
+  },
+  {
+   "s": "Who won the women's singles title at the BWF World Championships 2026?",
+   "o": [
+    "Carolina Marin",
+    "P.V. Sindhu",
+    "An Se-young",
+    "Elena Rybakina"
+   ],
+   "a": 2,
+   "x": "An Se-young won the women's singles title at the BWF World Championships 2026.",
+   "ty": "fact",
+   "tq": "Use winner–discipline discrimination among prominent women athletes.",
+   "sec": "Badminton - singles winners  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements is correct regarding India's performance at the BWF World Championships 2026?\n1. India's only medal was a women's doubles bronze.\n2. The bronze was won by Treesa Jolly and Gayatri Gopichand.\n3. It was India's 12th consecutive edition with a medal.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Treesa Jolly and Gayatri Gopichand won India's only medal, a women's doubles bronze, extending India's medal streak to 12 editions.",
+   "ty": "statements",
+   "tq": "Check each numerical and name-based statement before selecting the combined code.",
+   "sec": "Badminton - singles winners  [APPSC]"
+  },
+  {
+   "s": "Who won the Japan Open Super 750 in July 2026?",
+   "o": [
+    "Lakshya Sen",
+    "Satwiksairaj-Chirag Shetty",
+    "An Se-young",
+    "P.V. Sindhu"
+   ],
+   "a": 3,
+   "x": "P.V. Sindhu won the Japan Open Super 750 in July 2026.",
+   "ty": "fact",
+   "tq": "Distinguish a tournament winner from athletes associated with other 2026 badminton events.",
+   "sec": "Badminton - singles winners  [APPSC]"
+  },
+  {
+   "s": "Which pair won the China Masters in September 2026?",
+   "o": [
+    "Lakshya Sen and Ayush Shetty",
+    "Satwiksairaj and Chirag Shetty",
+    "P.V. Sindhu and An Se-young",
+    "Treesa Jolly and Gayatri Gopichand"
+   ],
+   "a": 1,
+   "x": "Satwiksairaj-Chirag Shetty won the China Masters in September 2026 and defended their Asiad gold.",
+   "ty": "fact",
+   "tq": "Match the doubles pair with the correct tournament achievement.",
+   "sec": "Badminton - singles winners  [APPSC]"
+  },
+  {
+   "s": "In the Thomas Cup 2026, France finished as the runner-up to:",
+   "o": [
+    "India",
+    "China",
+    "Korea",
+    "Japan"
+   ],
+   "a": 1,
+   "x": "France was the runner-up to China in the Thomas Cup 2026.",
+   "ty": "fact",
+   "tq": "Use finalist-order discrimination rather than confusing the runner-up with the champion.",
+   "sec": "Badminton - singles winners  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the ISSF World Cup at Hangzhou in July 2026:\n1. Esha Singh won gold in the women's 25m pistol.\n2. Manu Bhaker won bronze in the women's 25m pistol.\n3. Sainyam won silver in the 10m air pistol.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Esha Singh won gold and Manu Bhaker bronze in the 25m pistol, while Sainyam won silver in the 10m air pistol.",
+   "ty": "statements",
+   "tq": "Verify the medal, athlete and event in each statement before using the all-inclusive option.",
+   "sec": "Shooting - ISSF medallists, Olympic quotas  [APPSC]"
+  },
+  {
+   "s": "Which country topped the medal table at the Asian Shooting Championship held in February 2026?",
+   "o": [
+    "China",
+    "Japan",
+    "India",
+    "Korea"
+   ],
+   "a": 2,
+   "x": "India topped the medal table at the Asian Shooting Championship in February 2026.",
+   "ty": "fact",
+   "tq": "Test medal-table leadership separately from individual-event medals.",
+   "sec": "Shooting - ISSF medallists, Olympic quotas  [APPSC]"
+  },
+  {
+   "s": "Who won the Women's Candidates tournament in the 2025–26 series of sporting firsts?",
+   "o": [
+    "Divya Deshmukh",
+    "Praggnanandhaa",
+    "Vaishali",
+    "Mirabai Chanu"
+   ],
+   "a": 2,
+   "x": "Vaishali won the Women's Candidates tournament.",
+   "ty": "fact",
+   "tq": "Match each first with the correct athlete and avoid swapping similarly prominent names.",
+   "sec": "Sports infrastructure and records - para-sports centres, FIRSTs  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Praggnanandhaa — Norway Chess\n2. Divya Deshmukh — Women's World Cup\n3. Mirabai — third straight Commonwealth Games gold\n4. India — first World Para Athletics Championships in 2025",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. The listed achievements constitute the identified 2025–26 sporting firsts and records.",
+   "ty": "statements",
+   "tq": "Check each athlete–competition–record combination instead of relying on a single familiar name.",
+   "sec": "Sports infrastructure and records - para-sports centres, FIRSTs  [APPSC]"
+  },
+  {
+   "s": "Match the following places with the sports-related development associated with them:\nA. Rajamahendravaram\nB. Vijayawada\nC. Visakhapatnam\nD. Kakinada, Kadapa and Pulivendula\n1. AP's only hockey turfs\n2. International Dragon Boat League 2026\n3. IGMC Stadium phased renovation\n4. 27-acre Komadi integrated complex\nSelect the correct answer using the codes given below.",
+   "o": [
+    "A-2, B-3, C-4, D-1",
+    "A-3, B-2, C-1, D-4",
+    "A-2, B-4, C-3, D-1",
+    "A-1, B-3, C-4, D-2"
+   ],
+   "a": 0,
+   "x": "Rajamahendravaram hosted the International Dragon Boat League; Vijayawada's IGMC Stadium underwent renovation; Visakhapatnam has the Komadi complex; and the listed three places contain AP's only hockey turfs.",
+   "ty": "match",
+   "tq": "Begin with the distinctive venue pair and eliminate options containing location swaps.",
+   "sec": "Sports infrastructure and records - para-sports centres, FIRSTs  [APPSC]"
+  },
+  {
+   "s": "The phased renovation of IGMC Stadium at Vijayawada was valued at:",
+   "o": [
+    "₹180 crore",
+    "₹240 crore",
+    "₹280 crore",
+    "₹480 crore"
+   ],
+   "a": 2,
+   "x": "The phased renovation of IGMC Stadium in Vijayawada was valued at ₹280 crore.",
+   "ty": "numerical",
+   "tq": "Recall the exact project value and reject altered figures.",
+   "sec": "Sports infrastructure and records - para-sports centres, FIRSTs  [APPSC]"
+  },
+  {
+   "s": "What was the amount allocated for sports-goods manufacturing in the Union Budget 2026–27?",
+   "o": [
+    "₹250 crore",
+    "₹400 crore",
+    "₹500 crore",
+    "₹1,000 crore"
+   ],
+   "a": 2,
+   "x": "The Union Budget 2026–27 allocated ₹500 crore for sports-goods manufacturing.",
+   "ty": "numerical",
+   "tq": "Separate the sector-specific allocation from the larger MYAS allocation.",
+   "sec": "Sports infrastructure and records - para-sports centres, FIRSTs  [APPSC]"
+  },
+  {
+   "s": "The record allocation for the Ministry of Youth Affairs and Sports in the Union Budget 2026–27 was:",
+   "o": [
+    "₹3,479.88 crore",
+    "₹4,079.88 crore",
+    "₹4,479.88 crore",
+    "₹5,479.88 crore"
+   ],
+   "a": 2,
+   "x": "The record allocation for the Ministry of Youth Affairs and Sports was ₹4,479.88 crore in the Union Budget 2026–27.",
+   "ty": "numerical",
+   "tq": "Use exact-figure recall and distinguish the ministry allocation from the sports-goods component.",
+   "sec": "Sports infrastructure and records - para-sports centres, FIRSTs  [APPSC]"
+  },
+  {
+   "s": "Who recorded a national record of 10.09 seconds in the 100m at the Federation Cup 2026?",
+   "o": [
+    "Gurindervir Singh",
+    "Gulveer Singh",
+    "Sawan Barwal",
+    "Jyothi Yarraji"
+   ],
+   "a": 0,
+   "x": "Gurindervir Singh recorded 10.09 seconds in the 100m at the Federation Cup 2026, becoming the first Indian to run under 10.10 seconds.",
+   "ty": "numerical",
+   "tq": "Link the precise record figure with the correct athlete and event.",
+   "sec": "Athlete → sport + title  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Sawan Barwal broke whose 1978 marathon record with a time of 2:11:58 at Rotterdam?",
+   "o": [
+    "Gurindervir Singh",
+    "Praggnanandhaa",
+    "Gulveer Singh",
+    "Shivnath Singh"
+   ],
+   "a": 3,
+   "x": "Sawan Barwal recorded 2:11:58 at Rotterdam and broke Shivnath Singh's 1978 marathon mark.",
+   "ty": "fact",
+   "tq": "Test record-holder succession and distinguish marathon from track records.",
+   "sec": "Athlete → sport + title  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Payal Nag achieved which distinction in para archery?",
+   "o": [
+    "First Indian to win an Olympic para-archery gold",
+    "World's first quadruple amputee to win an international gold",
+    "World Archery Para Archer of the Year 2025",
+    "First Indian to win the Women's World Cup"
+   ],
+   "a": 1,
+   "x": "Payal Nag became the world's first quadruple amputee to win an international gold in para archery at Bangkok.",
+   "ty": "fact",
+   "tq": "Distinguish a unique first from an annual award title.",
+   "sec": "Athlete → sport + title  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Who was named World Archery Para Archer of the Year 2025?",
+   "o": [
+    "Chandrika Pujari",
+    "Antim Panghal",
+    "Sheetal Devi",
+    "Payal Nag"
+   ],
+   "a": 2,
+   "x": "Sheetal Devi was named World Archery Para Archer of the Year 2025.",
+   "ty": "fact",
+   "tq": "Discriminate between two para-archers by their specific titles.",
+   "sec": "Athlete → sport + title  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Match the athlete with the associated achievement:\nA. Lakshya Sen\nB. Satwiksairaj-Chirag Shetty\nC. Sujeet Kalkal and Abhimanyu Mandwal\nD. Elena Rybakina\n1. Australian Open Super 500, 2025\n2. Singapore Open 2026\n3. Gold at Asian Championships, Bishkek\n4. US Open 2026 women's champion\nSelect the correct answer using the codes given below.",
+   "o": [
+    "A-1, B-2, C-3, D-4",
+    "A-2, B-1, C-4, D-3",
+    "A-1, B-3, C-2, D-4",
+    "A-4, B-2, C-3, D-1"
+   ],
+   "a": 0,
+   "x": "Lakshya Sen won the Australian Open Super 500 in 2025; Satwiksairaj-Chirag won the Singapore Open 2026; Sujeet Kalkal and Abhimanyu Mandwal won Asian Championships gold; and Elena Rybakina won the 2026 US Open women's title.",
+   "ty": "match",
+   "tq": "Start with the sure tournament–athlete pairs and check the remaining code.",
+   "sec": "Athlete → sport + title  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Who won the men's singles title at the US Open 2026?",
+   "o": [
+    "Lakshya Sen",
+    "Alexander Zverev",
+    "Alex Lanier",
+    "Sawan Barwal"
+   ],
+   "a": 1,
+   "x": "Alexander Zverev won the men's singles title at the US Open 2026.",
+   "ty": "fact",
+   "tq": "Identify the exact singles champion while separating men's and women's winners.",
+   "sec": "Athlete → sport + title  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding the National Sports Awards 2025:\n1. Seventeen Arjuna Awards were given.\n2. Five Dronacharya Awards were given.\n3. Chhote Lal Yadav was among the Dronacharya Award recipients.\n4. No Khel Ratna was awarded.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The 2025 awards included 17 Arjuna Awards and five Dronacharya Awards, including boxing coach Chhote Lal Yadav, while no Khel Ratna was awarded.",
+   "ty": "statements",
+   "tq": "Verify the counts, named recipient and omission before selecting the comprehensive option.",
+   "sec": "Athlete → sport + title  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The absence of a Khel Ratna in the National Sports Awards 2025 marked which occurrence since 1991?",
+   "o": [
+    "The first time",
+    "The second time",
+    "The fifth time",
+    "The third time"
+   ],
+   "a": 3,
+   "x": "No Khel Ratna was awarded in 2025, marking only the third such occurrence since 1991.",
+   "ty": "numerical",
+   "tq": "Test the exact ordinal occurrence rather than the award total.",
+   "sec": "Athlete → sport + title  [APPSC, GROUP-II]"
+  }
+ ]
+}

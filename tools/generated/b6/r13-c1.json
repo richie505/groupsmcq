@@ -1,0 +1,649 @@
+{
+ "book": 6,
+ "row": 13,
+ "chunk": 1,
+ "section": "Reports and indices - releasing agency, India's rank, key findings",
+ "subsections": [
+  "India's rank + change from previous edition",
+  "State/UT indices - top performers and categories"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 53,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 5,
+  "dupe_of_pyq": 3
+ },
+ "accepted": [
+  {
+   "s": "India was ranked at which position in the Global Innovation Index 2025?",
+   "o": [
+    "40th",
+    "38th",
+    "81st",
+    "49th"
+   ],
+   "a": 1,
+   "x": "India ranked 38th among 139 economies in the Global Innovation Index 2025.",
+   "ty": "fact",
+   "tq": "Use the direct rank-recall method and distinguish the current rank from earlier editions.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Consider the following statements regarding India's performance in the Global Innovation Index:\n1. India ranked 81st in 2015.\n2. India ranked 40th in 2023.\n3. India ranked 39th in 2024.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. India improved from 81st in 2015 to 40th in 2023, 39th in 2024 and 38th in 2025.",
+   "ty": "statements",
+   "tq": "Track the sequence of ranks across editions rather than relying only on the latest figure.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "India's position in the Human Development Index according to the Human Development Report 2025 was:",
+   "o": [
+    "108th of 193",
+    "130th of 193",
+    "139th of 193",
+    "130th of 147"
+   ],
+   "a": 1,
+   "x": "India ranked 130th among 193 countries in the HDI in HDR 2025.",
+   "ty": "numerical",
+   "tq": "Read the rank-total combination precisely; both figures are essential to the answer.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Which of the following correctly describes India's HDI position in HDR 2025?",
+   "o": [
+    "HDI value 0.685 and Very high human development category",
+    "HDI value 0.625 and Low human development category",
+    "HDI value 0.676 and High human development category",
+    "HDI value 0.685 and Medium human development category"
+   ],
+   "a": 3,
+   "x": "India's HDI value was 0.685, compared with 0.676 earlier, placing it in the Medium human development category.",
+   "ty": "comparison",
+   "tq": "Compare the current value with the earlier value and identify the associated category.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "India's rank in the Gender Inequality Index based on 2022 data, reported in HDR 2023-24, was:",
+   "o": [
+    "130th",
+    "91st",
+    "108th",
+    "118th"
+   ],
+   "a": 2,
+   "x": "India ranked 108th in the Gender Inequality Index based on 2022 data.",
+   "ty": "fact",
+   "tq": "Avoid confusing the Gender Inequality Index with the HDI and other gender-related indices.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Which organisation publishes the Global Gender Gap Index 2026?",
+   "o": [
+    "UNDP",
+    "World Economic Forum",
+    "International Labour Organization",
+    "World Bank"
+   ],
+   "a": 1,
+   "x": "The Global Gender Gap Index 2026 was published by the World Economic Forum.",
+   "ty": "fact",
+   "tq": "Use the index-publisher association and reject neighbouring international organisations.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Consider the following statements regarding India's position in the Global Gender Gap Index 2026:\n1. India ranked 131st.\n2. India's parity score was 64.5 percent.\n3. India's rank remained unchanged from the previous edition.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "India ranked 131st, recorded parity of 64.5 percent and retained the same rank as in the previous edition.",
+   "ty": "statements",
+   "tq": "Combine rank, percentage and change information in a coded statement question.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Which of the following is the correct order of the top three countries in the Global Gender Gap Index 2026?",
+   "o": [
+    "Iceland, Finland, Norway",
+    "Finland, Iceland, Norway",
+    "Norway, Finland, Iceland",
+    "Iceland, Norway, Finland"
+   ],
+   "a": 0,
+   "x": "Iceland, Finland and Norway occupied the top three positions respectively.",
+   "ty": "chronology",
+   "tq": "Preserve the exact order in a ranked list rather than merely identifying its members.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "India ranked 116th out of 147 countries in the World Happiness Report 2026. What was India's position in the previous edition mentioned?",
+   "o": [
+    "106th",
+    "127th",
+    "115th",
+    "118th"
+   ],
+   "a": 3,
+   "x": "India improved from 118th to 116th position in the World Happiness Report 2026.",
+   "ty": "comparison",
+   "tq": "Identify the direction and size of change by comparing consecutive edition ranks.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "The World Happiness Report 2026 was associated with which of the following bodies?",
+   "o": [
+    "Wellbeing Research Centre, Oxford, with Gallup and UN SDSN",
+    "World Economic Forum with UNESCO",
+    "UNDP with the World Bank",
+    "Reporters Without Borders with Gallup"
+   ],
+   "a": 0,
+   "x": "The report was associated with the Wellbeing Research Centre at Oxford, Gallup and the UN Sustainable Development Solutions Network.",
+   "ty": "match",
+   "tq": "Use the multi-institution publisher combination to avoid a single-body substitution trap.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "India's position in the World Press Freedom Index 2026 was:",
+   "o": [
+    "176th of 180",
+    "157th of 179",
+    "157th of 180",
+    "131st of 180"
+   ],
+   "a": 2,
+   "x": "India ranked 157th among 180 countries in the World Press Freedom Index 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish the rank and total from the nearby V-Dem and EPI figures.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Which one of the following statements about the World Press Freedom Index 2026 is correct?",
+   "o": [
+    "Norway ranked first and global press freedom reached a 25-year high.",
+    "Norway ranked first and global press freedom was at a 25-year low.",
+    "India ranked first and the index was published by WIPO.",
+    "Iceland ranked first and the index measured gender parity."
+   ],
+   "a": 1,
+   "x": "Norway ranked first, while global press freedom was reported to be at a 25-year low. The index is published by Reporters Without Borders.",
+   "ty": "statements",
+   "tq": "Detect the reversed trend trap in the phrase high versus low.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Which of the following correctly represents India's V-Dem 2026 position?",
+   "o": [
+    "157th of 180, classified as a closed autocracy",
+    "127th of 163, classified as an electoral democracy",
+    "106th of 179, classified as an electoral autocracy",
+    "106th of 193, classified as a liberal democracy"
+   ],
+   "a": 2,
+   "x": "India ranked 106th of 179 in the Electoral Democracy Index and was classified as an electoral autocracy.",
+   "ty": "fact",
+   "tq": "Match the index, total number of countries and classification as one unit.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "India's position in the Global Hunger Index 2025 was accompanied by which score and category?",
+   "o": [
+    "25.8, alarming",
+    "35.8, low",
+    "25.8, serious",
+    "20.5, moderate"
+   ],
+   "a": 2,
+   "x": "India ranked 102nd of 123, with a score of 25.8, placing it in the serious category.",
+   "ty": "comparison",
+   "tq": "Match the numerical score with its correct descriptive category.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Which of the following correctly compares India's Global Hunger Index positions in 2023 and 2025?",
+   "o": [
+    "111th of 123 in 2023 and 102nd of 125 in 2025",
+    "102nd of 125 in 2023 and 111th of 123 in 2025",
+    "111th of 125 in 2023 and 102nd of 123 in 2025",
+    "102nd of 123 in 2023 and 111th of 125 in 2025"
+   ],
+   "a": 2,
+   "x": "The 2023 edition placed India 111th of 125, while the 2025 edition placed it 102nd of 123.",
+   "ty": "comparison",
+   "tq": "Compare both rank and denominator to avoid a partial-match distractor.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "India ranked 49th among 133 countries in which index?",
+   "o": [
+    "Network Readiness Index 2024",
+    "Logistics Performance Index 2023",
+    "Global Innovation Index 2025",
+    "Environmental Performance Index 2026"
+   ],
+   "a": 0,
+   "x": "India ranked 49th of 133 in the Network Readiness Index 2024; its 2019 position was 79th.",
+   "ty": "fact",
+   "tq": "Identify the index from the distinctive rank-total combination.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Which statement correctly describes India's performance in the Network Readiness Index 2025?",
+   "o": [
+    "India ranked 45th, improving by four places, and stood first in AI scientific publications.",
+    "India ranked 49th, declining by four places, and stood second in AI publications.",
+    "India ranked 45th, improving by five places, and stood first in patent filings.",
+    "India ranked 79th, improving by four places, and stood third in AI publications."
+   ],
+   "a": 0,
+   "x": "India ranked 45th in NRI 2025, improved by four places and ranked first in AI scientific publications.",
+   "ty": "statements",
+   "tq": "Check rank, direction of change and thematic distinction together.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "India's rank in the QS Future Skills Index 2027 was:",
+   "o": [
+    "6th overall and 1st among lower-middle-income economies",
+    "13th overall and 2nd among lower-middle-income economies",
+    "13th overall and 1st among lower-middle-income economies",
+    "38th overall and 13th among lower-middle-income economies"
+   ],
+   "a": 2,
+   "x": "India ranked 13th overall and first among lower-middle-income economies in the QS Future Skills Index 2027.",
+   "ty": "numerical",
+   "tq": "Distinguish the overall rank from the category-specific rank.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "SIPRI — India largest arms importer, ahead of Ukraine",
+    "SIPRI — India second-largest arms importer",
+    "WIPO Report 2023 — India third in research publications",
+    "WIPO Report 2023 — India sixth in patent filing activity"
+   ],
+   "a": 0,
+   "x": "India was the second-largest arms importer, while Ukraine ranked first. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the reversed comparison in the ranking statement.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Which organisation published the World Press Freedom Index 2026?",
+   "o": [
+    "Germanwatch",
+    "Institute for Economics and Peace",
+    "Transparency International",
+    "Reporters Without Borders"
+   ],
+   "a": 3,
+   "x": "The World Press Freedom Index is published by Reporters Without Borders, also known as RSF.",
+   "ty": "fact",
+   "tq": "Use the publisher-index association and distinguish it from other report agencies.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "India's score and rank in the Corruption Perceptions Index 2025 were:",
+   "o": [
+    "Score 39 and 99th of 167",
+    "Score 39 and 91st of 182",
+    "Score 35 and 95th of 182",
+    "Score 45 and 91st of 182"
+   ],
+   "a": 1,
+   "x": "India scored 39 and ranked 91st among 182 countries, improving by five places.",
+   "ty": "numerical",
+   "tq": "Pair the score, rank and total countries instead of selecting on the rank alone.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Which organisation is associated with the publication of the Corruption Perceptions Index 2025?",
+   "o": [
+    "Portulans Institute",
+    "World Intellectual Property Organization",
+    "Transparency International",
+    "Germanwatch"
+   ],
+   "a": 2,
+   "x": "Transparency International publishes the Corruption Perceptions Index.",
+   "ty": "fact",
+   "tq": "Apply direct publisher recall while rejecting agencies associated with other indices.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "India ranked 176th of 177 in the Environmental Performance Index 2026. Which country was below India?",
+   "o": [
+    "Ukraine",
+    "Iceland",
+    "Norway",
+    "Laos"
+   ],
+   "a": 3,
+   "x": "India ranked 176th of 177 with a score of 22.46; only Laos ranked below it.",
+   "ty": "fact",
+   "tq": "Identify the single exception below a country in a near-bottom ranking.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "The Environmental Performance Index 2026 was prepared by:",
+   "o": [
+    "Yale and Columbia",
+    "Oxford and Gallup",
+    "Germanwatch and WIPO",
+    "IEP and SIPRI"
+   ],
+   "a": 0,
+   "x": "The Environmental Performance Index 2026 was prepared by Yale and Columbia.",
+   "ty": "match",
+   "tq": "Match the index with its institutional producers rather than its subject area alone.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Which of the following is correctly matched?",
+   "o": [
+    "Global Peace Index 2026 — Institute for Economics and Peace, Sydney",
+    "Henley Passport Index 2026 — Global Citizen Solutions",
+    "Global Passport Index 2026 — Henley & Partners",
+    "Responsible Nations Index — Transparency International"
+   ],
+   "a": 0,
+   "x": "The Global Peace Index is published by the Institute for Economics and Peace, based in Sydney. Henley & Partners publishes the Henley Passport Index, while Global Citizen Solutions publishes the Global Passport Index.",
+   "ty": "match",
+   "tq": "Start with the sure publisher-location pair and identify swapped agencies.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "India's position in the Global Peace Index 2026 was:",
+   "o": [
+    "127th of 167",
+    "125th of 197",
+    "127th of 163",
+    "115th of 163"
+   ],
+   "a": 2,
+   "x": "India ranked 127th out of 163 countries, declining from 115th in the earlier comparison.",
+   "ty": "numerical",
+   "tq": "Separate the current rank from the previous rank and from similarly worded passport indices.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Consider the following statements regarding India's passport rankings:\n1. India ranked 80th in the Henley Passport Index 2026.\n2. Indian passport holders had access to 55 visa-free destinations.\n3. India ranked 125th in the Global Passport Index 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "India ranked 80th in the Henley Passport Index with access to 55 visa-free destinations and 125th of 197 in the Global Passport Index.",
+   "ty": "statements",
+   "tq": "Distinguish two similarly named indices while retaining the separate rank and visa-access figures.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "The publisher of the Global Passport Index 2026 is:",
+   "o": [
+    "World Economic Forum",
+    "Henley & Partners",
+    "Global Citizen Solutions",
+    "Global Citizen Forum"
+   ],
+   "a": 2,
+   "x": "The Global Passport Index 2026 was published by Global Citizen Solutions; Henley & Partners publishes the Henley Passport Index.",
+   "ty": "confusable",
+   "tq": "Discriminate between two look-alike passport indices by their publishers.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "India ranked 99th of 167 countries in the SDG Index 2025. What was notable about this position?",
+   "o": [
+    "It represented a fall from the top 100.",
+    "It was the first rank among all Asian countries.",
+    "It was India's first entry into the top 100.",
+    "It was India's first entry into the top 50."
+   ],
+   "a": 2,
+   "x": "The 99th position marked India's first entry into the top 100 of the SDG Index.",
+   "ty": "fact",
+   "tq": "Focus on the significance attached to the rank, not merely the numerical position.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "India's rank in the Responsible Nations Index was:",
+   "o": [
+    "16th of 154",
+    "16th of 167",
+    "61st of 154",
+    "19th of 154"
+   ],
+   "a": 0,
+   "x": "India ranked 16th among 154 countries in the Responsible Nations Index.",
+   "ty": "numerical",
+   "tq": "Use the rank-total pair to distinguish this index from the SDG and peace indices.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "The Responsible Nations Index is associated with which group?",
+   "o": [
+    "World Intellectual Foundation, JNU and IIM Mumbai",
+    "WIPO, JNU and NITI Aayog",
+    "World Bank, IIM Ahmedabad and UNESCO",
+    "World Intellectual Foundation, Oxford and Gallup"
+   ],
+   "a": 0,
+   "x": "The Responsible Nations Index is associated with the World Intellectual Foundation, Jawaharlal Nehru University and IIM Mumbai.",
+   "ty": "match",
+   "tq": "Match a less familiar index with its full institutional group.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "Which country ranked first in arms imports according to the SIPRI comparison cited for 2026?",
+   "o": [
+    "Ukraine",
+    "India",
+    "China",
+    "Russia"
+   ],
+   "a": 0,
+   "x": "Ukraine ranked first, while India was the second-largest arms importer.",
+   "ty": "fact",
+   "tq": "Avoid the common reversal of first and second positions in a comparative ranking.",
+   "sec": "India's rank + change from previous edition"
+  },
+  {
+   "s": "The Investment Friendliness Index 2026 was released by:",
+   "o": [
+    "NITI Aayog",
+    "Ministry of Education",
+    "Bureau of Energy Efficiency",
+    "Ministry of Commerce"
+   ],
+   "a": 0,
+   "x": "The first edition of the Investment Friendliness Index was released by NITI Aayog in July 2026.",
+   "ty": "fact",
+   "tq": "Identify the releasing agency from the index title and reject neighbouring government bodies.",
+   "sec": "State/UT indices - top performers and categories"
+  },
+  {
+   "s": "Which state topped the Investment Friendliness Index 2026 with a score of 56.6?",
+   "o": [
+    "Gujarat",
+    "Andhra Pradesh",
+    "Maharashtra",
+    "Tamil Nadu"
+   ],
+   "a": 0,
+   "x": "Gujarat topped the Investment Friendliness Index 2026 with a score of 56.6, followed by Maharashtra and Tamil Nadu.",
+   "ty": "numerical",
+   "tq": "Link the top performer with its distinctive score.",
+   "sec": "State/UT indices - top performers and categories"
+  },
+  {
+   "s": "Which of the following correctly describes the structure of the Investment Friendliness Index 2026?",
+   "o": [
+    "15 major states, 80 indicators and 6 pillars",
+    "18 major states, 84 indicators and 7 pillars",
+    "17 major states, 87 indicators and 8 pillars",
+    "17 major states, 84 indicators and 8 pillars"
+   ],
+   "a": 3,
+   "x": "The index covered 17 major states using 84 indicators grouped into 8 pillars.",
+   "ty": "numerical",
+   "tq": "Check all three structural figures together to avoid a single-number substitution.",
+   "sec": "State/UT indices - top performers and categories"
+  },
+  {
+   "s": "Which statement about PGI 2.0 2025–26 is correct?",
+   "o": [
+    "A state attained the top Utkarsh grade and Meghalaya was highest.",
+    "No state reached the top Utkarsh grade, Chandigarh first reached Uttam-3, and Meghalaya was lowest.",
+    "Chandigarh was placed in the Utkarsh grade and Tamil Nadu was lowest.",
+    "Meghalaya first reached Uttam-3 and Chandigarh was lowest."
+   ],
+   "a": 1,
+   "x": "No state reached the top Utkarsh grade; Chandigarh became the first to reach Uttam-3, while Meghalaya was the lowest performer.",
+   "ty": "statements",
+   "tq": "Combine an exception, a first achievement and the lowest performer in one statement set.",
+   "sec": "State/UT indices - top performers and categories"
+  },
+  {
+   "s": "PGI 2.0 2025–26 was released by which ministry?",
+   "o": [
+    "Ministry of Statistics and Programme Implementation",
+    "Ministry of Education",
+    "Ministry of Commerce and Industry",
+    "Ministry of Skill Development and Entrepreneurship"
+   ],
+   "a": 1,
+   "x": "The Performance Grading Index 2.0 for 2025–26 was released by the Ministry of Education.",
+   "ty": "fact",
+   "tq": "Use the releasing-ministry trap, a frequent feature of government index questions.",
+   "sec": "State/UT indices - top performers and categories"
+  },
+  {
+   "s": "Under the new four-tier grading system of LEADS 2025, which group was designated as 'Exemplars'?",
+   "o": [
+    "Tamil Nadu, Uttar Pradesh, Mizoram and Delhi",
+    "Maharashtra, Tamil Nadu, Andhra Pradesh and Delhi",
+    "Tamil Nadu, Gujarat, Mizoram and Chandigarh",
+    "Uttar Pradesh, Meghalaya, Delhi and Kerala"
+   ],
+   "a": 0,
+   "x": "The Exemplars category in LEADS 2025 included Tamil Nadu, Uttar Pradesh, Mizoram and Delhi.",
+   "ty": "match",
+   "tq": "Memorise the complete category list and eliminate options containing one swapped state.",
+   "sec": "State/UT indices - top performers and categories"
+  },
+  {
+   "s": "Which organisation released LEADS 2025?",
+   "o": [
+    "Ministry of Education",
+    "World Bank",
+    "NITI Aayog",
+    "Ministry of Commerce"
+   ],
+   "a": 3,
+   "x": "LEADS 2025 was released by the Ministry of Commerce and used a new four-tier grading system.",
+   "ty": "fact",
+   "tq": "Distinguish the releasing ministry from the institution on which the index is modelled.",
+   "sec": "State/UT indices - top performers and categories"
+  },
+  {
+   "s": "LEADS, which began in 2018, is modelled on which World Bank index?",
+   "o": [
+    "Logistics Performance Index",
+    "Global Innovation Index",
+    "Ease of Doing Business Index",
+    "Human Development Index"
+   ],
+   "a": 0,
+   "x": "LEADS began in 2018 and is modelled on the World Bank's Logistics Performance Index.",
+   "ty": "confusable",
+   "tq": "Discriminate between similarly themed development and logistics indices.",
+   "sec": "State/UT indices - top performers and categories"
+  },
+  {
+   "s": "Consider the following statements regarding the Export Preparedness Index 2024:\n1. It was released by NITI Aayog with the Institute for Competitiveness.\n2. Maharashtra ranked first.\n3. Tamil Nadu ranked second and Andhra Pradesh ranked fifth among large states.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Maharashtra topped the index, Tamil Nadu ranked second and Andhra Pradesh ranked fifth among large states.",
+   "ty": "statements",
+   "tq": "Use a three-part coded question to test agency, top rank and state-specific ranks together.",
+   "sec": "State/UT indices - top performers and categories"
+  },
+  {
+   "s": "The State Energy Efficiency Index 2024 was associated with which organisations?",
+   "o": [
+    "BEE with AEEE",
+    "NITI Aayog with WIPO",
+    "Ministry of Commerce with World Bank",
+    "Ministry of Education with Tata Trusts"
+   ],
+   "a": 0,
+   "x": "SEEI 2024 was released by the Bureau of Energy Efficiency with AEEE.",
+   "ty": "match",
+   "tq": "Match the index with its releasing organisations and avoid ministry substitution.",
+   "sec": "State/UT indices - top performers and categories"
+  },
+  {
+   "s": "The India Skills Report 2026 was released by Wheebox and:",
+   "o": [
+    "NITI Aayog alone",
+    "the Ministry of Education alone",
+    "the World Bank alone",
+    "its partners"
+   ],
+   "a": 3,
+   "x": "The India Skills Report 2026 was associated with Wheebox and its partners.",
+   "ty": "fact",
+   "tq": "Recognise the stated collaborative publisher without adding an unsupported government agency.",
+   "sec": "State/UT indices - top performers and categories"
+  },
+  {
+   "s": "Which one of the following statements about the India Justice Report 2025 is correct?",
+   "o": [
+    "Andhra Pradesh ranked fifth and there were 15 judges per thousand people.",
+    "Andhra Pradesh ranked first and there were 25 judges per million people.",
+    "Andhra Pradesh ranked second and the report indicated only 15 judges per million people.",
+    "Andhra Pradesh ranked second and there were 50 judges per million people."
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh ranked second in the India Justice Report 2025, which reported only 15 judges per million people.",
+   "ty": "numerical",
+   "tq": "Combine the state rank with the precise population-based figure.",
+   "sec": "State/UT indices - top performers and categories"
+  },
+  {
+   "s": "The India Justice Report was first published in which year, and it is supported by:",
+   "o": [
+    "2019; Tata Trusts",
+    "2020; Ministry of Law and Justice",
+    "2018; NITI Aayog",
+    "2021; World Bank"
+   ],
+   "a": 0,
+   "x": "The India Justice Report was first published in 2019 and is supported by Tata Trusts.",
+   "ty": "fact",
+   "tq": "Separate the inaugural year from the supporting institution through direct recall.",
+   "sec": "State/UT indices - top performers and categories"
+  }
+ ]
+}

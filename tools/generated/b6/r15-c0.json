@@ -1,0 +1,592 @@
+{
+ "book": 6,
+ "row": 15,
+ "chunk": 0,
+ "section": "Sports - major tournaments, winners, records and hosting rights",
+ "subsections": [
+  "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 43,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The first Commonwealth Games were held in 1930 at which of the following places?",
+   "o": [
+    "Glasgow, Scotland",
+    "Delhi, India",
+    "Hamilton, Canada",
+    "Ahmedabad, India"
+   ],
+   "a": 2,
+   "x": "The first Commonwealth Games were held in 1930 at Hamilton in Canada.",
+   "ty": "fact",
+   "tq": "Use the event–host-place association to eliminate later venues.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "India first participated in the Commonwealth Games in which year?",
+   "o": [
+    "1930",
+    "1934",
+    "2010",
+    "2026"
+   ],
+   "a": 1,
+   "x": "India made its Commonwealth Games debut in 1934.",
+   "ty": "numerical",
+   "tq": "Distinguish the inaugural year of an event from India’s debut year.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which organisation conducts the Commonwealth Games?",
+   "o": [
+    "World Anti-Doping Agency",
+    "Asian Games Federation",
+    "International Olympic Committee",
+    "Commonwealth Sport"
+   ],
+   "a": 3,
+   "x": "The Commonwealth Games are conducted by Commonwealth Sport, whose headquarters are in London.",
+   "ty": "fact",
+   "tq": "Identify the correct governing body rather than the global Olympic body.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "The headquarters of Commonwealth Sport is located in:",
+   "o": [
+    "Ahmedabad",
+    "Glasgow",
+    "London",
+    "Hamilton"
+   ],
+   "a": 2,
+   "x": "Commonwealth Sport has its headquarters in London.",
+   "ty": "fact",
+   "tq": "Apply the headquarters-location trap among associated host cities.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "How many Commonwealth Games Associations are associated with the Commonwealth Games?",
+   "o": [
+    "45",
+    "74",
+    "116",
+    "130"
+   ],
+   "a": 1,
+   "x": "The Commonwealth Games have 74 Commonwealth Games Associations (CGAs).",
+   "ty": "numerical",
+   "tq": "Separate the number of participating associations from athlete and event counts.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Consider the following statements regarding the 2026 Commonwealth Games:\n1. They were held in Glasgow.\n2. Victoria withdrew as the original host.\n3. The Games had only ten sports.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Glasgow replaced Victoria, and the 2026 Games featured only ten sports.",
+   "ty": "statements",
+   "tq": "Check each statement against the host, replacement-host and programme facts.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "The 2026 Commonwealth Games were held in Glasgow during which period?",
+   "o": [
+    "19 September–2 October 2026",
+    "17–28 July 2030",
+    "6–22 February 2026",
+    "July–August 2026"
+   ],
+   "a": 3,
+   "x": "The 2026 Commonwealth Games were held in Glasgow during July–August 2026 and ended on 2 August.",
+   "ty": "fact",
+   "tq": "Use date-range discrimination among major 2026 sporting events.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which one of the following was NOT included in the 2026 Commonwealth Games programme?",
+   "o": [
+    "Shooting",
+    "Judo",
+    "Athletics",
+    "Boxing"
+   ],
+   "a": 0,
+   "x": "Shooting was not included in the 2026 Commonwealth Games. Wrestling, badminton, table tennis and hockey were also excluded.",
+   "ty": "negative",
+   "tq": "Find the omitted sport from the reduced Games programme.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "India secured which position in the 2026 Commonwealth Games medal table?",
+   "o": [
+    "Second",
+    "Fourth",
+    "Third",
+    "Tenth"
+   ],
+   "a": 1,
+   "x": "India finished fourth in the 2026 Commonwealth Games.",
+   "ty": "fact",
+   "tq": "Distinguish overall rank from the tenth position recorded at another championship.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "India won how many medals at the 2026 Commonwealth Games?",
+   "o": [
+    "22",
+    "28",
+    "39",
+    "41"
+   ],
+   "a": 2,
+   "x": "India won 39 medals at the 2026 Commonwealth Games: 13 gold, 17 silver and 9 bronze.",
+   "ty": "numerical",
+   "tq": "Use the total–component relationship to identify the medal tally.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the codes given below:\nList-I (Medal)\n a. Gold\n b. Silver\n c. Bronze\nList-II (Number won by India at CWG 2026)\n i. 9\n ii. 13\n iii. 17\n\nCodes:\n a. a–ii, b–iii, c–i\n b. a–iii, b–i, c–ii\n c. a–i, b–ii, c–iii\n d. a–ii, b–i, c–iii",
+   "o": [
+    "a–ii, b–iii, c–i",
+    "a–iii, b–i, c–ii",
+    "a–i, b–ii, c–iii",
+    "a–ii, b–i, c–iii"
+   ],
+   "a": 0,
+   "x": "India won 13 gold, 17 silver and 9 bronze medals at the 2026 Commonwealth Games.",
+   "ty": "match",
+   "tq": "Start from the sure gold-medal pair and complete the code.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which sport contributed the highest number of medals to India’s tally at the 2026 Commonwealth Games?",
+   "o": [
+    "Weightlifting",
+    "Boxing",
+    "Athletics",
+    "Judo"
+   ],
+   "a": 2,
+   "x": "Athletics contributed the highest number of medals for India, with 16 medals.",
+   "ty": "fact",
+   "tq": "Distinguish the sport with the highest total from the sport with the most gold medals.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which of the following was the record achievement of India’s boxing contingent at the 2026 Commonwealth Games?",
+   "o": [
+    "Ten gold medals",
+    "Seven gold medals",
+    "Three consecutive team titles",
+    "Sixteen total medals"
+   ],
+   "a": 1,
+   "x": "India’s boxers won a record seven gold medals at the 2026 Commonwealth Games.",
+   "ty": "fact",
+   "tq": "Identify the precise record rather than the total medal count.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched with a women’s boxing gold medallist and weight category at the 2026 Commonwealth Games?",
+   "o": [
+    "Sakshi Chaudhary — 51 kg",
+    "Jaismine Lamboria — 57 kg",
+    "Preeti Pawar — 54 kg",
+    "Priya Ghanghas — 57 kg"
+   ],
+   "a": 3,
+   "x": "Priya Ghanghas won gold in the 60 kg category, not the 57 kg category. Jaismine Lamboria was the 57 kg gold medallist.",
+   "ty": "negative",
+   "tq": "Use the swapped-category trap in a player–weight matching question.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which group consisted entirely of women boxers from Bhiwani who won gold medals for India at the 2026 Commonwealth Games?",
+   "o": [
+    "Jaismine Lamboria, Vinesh Phogat, Priya Ghanghas and Arundhati Choudhary",
+    "Sakshi Chaudhary, Mirabai Chanu, Asmita Dey and Priya Ghanghas",
+    "Preeti Pawar, Arundhati Choudhary, Gulveer Singh and Jaismine Lamboria",
+    "Sakshi Chaudhary, Preeti Pawar, Jaismine Lamboria and Priya Ghanghas"
+   ],
+   "a": 3,
+   "x": "Sakshi Chaudhary, Preeti Pawar, Jaismine Lamboria and Priya Ghanghas were the four gold-winning women boxers from Bhiwani.",
+   "ty": "fact",
+   "tq": "Verify every member of the stated group rather than relying on one familiar name.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Who among the following was the only Indian double medallist at the 2026 Commonwealth Games?",
+   "o": [
+    "Mirabai Chanu",
+    "Harsh Singh",
+    "Gulveer Singh",
+    "Arundhati Choudhary"
+   ],
+   "a": 2,
+   "x": "Gulveer Singh was India’s only double medallist at the 2026 Commonwealth Games, winning silver and bronze.",
+   "ty": "fact",
+   "tq": "Distinguish the only double-medallist fact from multiple individual gold-medal achievements.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Harsh Singh and Asmita Dey created which distinction at the 2026 Commonwealth Games?",
+   "o": [
+    "India’s first three successive weightlifting golds",
+    "India’s first boxing gold medals",
+    "India’s first Commonwealth judo gold medals",
+    "India’s first double medals in athletics"
+   ],
+   "a": 2,
+   "x": "Harsh Singh and Asmita Dey won India’s first Commonwealth Games judo gold medals.",
+   "ty": "fact",
+   "tq": "Match the athletes with the exact sport-specific milestone.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Mirabai Chanu became the first woman weightlifter to achieve which feat at the 2026 Commonwealth Games?",
+   "o": [
+    "Win the first Indian judo gold medal",
+    "Win two successive Commonwealth gold medals",
+    "Win a third consecutive Commonwealth Games gold medal",
+    "Win gold in three different weight categories"
+   ],
+   "a": 2,
+   "x": "Mirabai Chanu won her third consecutive Commonwealth Games gold medal, becoming the first woman weightlifter to do so.",
+   "ty": "fact",
+   "tq": "Focus on the sequence word ‘third consecutive’ in a record-based question.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Consider the following statements regarding Mirabai Chanu’s achievement at the 2026 Commonwealth Games:\n1. She competed in the 48 kg category.\n2. Her total lift was 190 kg.\n3. She became the second Indian after Vinesh Phogat to win three successive individual Commonwealth gold medals.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Chanu lifted 190 kg in the 48 kg category and followed Vinesh Phogat as the second Indian with three successive individual Commonwealth golds.",
+   "ty": "statements",
+   "tq": "Combine category, numerical performance and comparative-record clues.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "The centenary Commonwealth Games in 2030 will be hosted by:",
+   "o": [
+    "Ahmedabad",
+    "Glasgow",
+    "Delhi",
+    "Hamilton"
+   ],
+   "a": 0,
+   "x": "Ahmedabad will host the 2030 centenary Commonwealth Games.",
+   "ty": "fact",
+   "tq": "Distinguish the future centenary host from the original 1930 host and the 2026 host.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which statement regarding the 2030 Commonwealth Games is correct?",
+   "o": [
+    "India will become Asia’s first repeat host of the Commonwealth Games.",
+    "India will host the Commonwealth Games for the first time in 2030.",
+    "The Games will return to Hamilton for the centenary.",
+    "Shooting will be excluded from the 2030 programme."
+   ],
+   "a": 0,
+   "x": "With Ahmedabad following Delhi’s 2010 hosting, India will become Asia’s first repeat host. Shooting is scheduled to return in 2030.",
+   "ty": "statements",
+   "tq": "Use the host-history comparison and watch for reversed future-programme claims.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "The 2026 Asian Games are scheduled to be held at:",
+   "o": [
+    "Milan-Cortina d’Ampezzo, Italy",
+    "Hangzhou, China",
+    "Aichi-Nagoya, Japan",
+    "Manama, Bahrain"
+   ],
+   "a": 2,
+   "x": "The 2026 Asian Games will be held in Aichi-Nagoya, Japan, beginning on 19 September 2026.",
+   "ty": "fact",
+   "tq": "Apply the host-city and event distinction among major 2026 competitions.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which sport is included in the 2026 Asian Games, with India seeking to defend its previous gold?",
+   "o": [
+    "Para athletics",
+    "Cricket",
+    "Ski mountaineering",
+    "Judo"
+   ],
+   "a": 1,
+   "x": "Cricket is included in the 2026 Asian Games, and India’s men will defend their Hangzhou 2023 gold.",
+   "ty": "fact",
+   "tq": "Identify the returning sport and connect it with India’s defending champion status.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which Indian pair’s Asian Games 2023 gold is specifically to be defended at the 2026 Asian Games?",
+   "o": [
+    "Gulveer Singh–Mirabai Chanu",
+    "Harsh Singh–Asmita Dey",
+    "Satwik–Chirag",
+    "Ravi Kumar Dahiya–Bajrang Punia"
+   ],
+   "a": 2,
+   "x": "The Satwik–Chirag men’s doubles pair won gold at the 2023 Asian Games, which India will seek to defend in 2026.",
+   "ty": "fact",
+   "tq": "Match the defending title with the correct pair and sport context.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "The boxing medallists of the 2026 Asian Games will qualify directly for which competition?",
+   "o": [
+    "The 2027 World Championships",
+    "The 2028 Winter Olympics",
+    "The 2030 Asian Games",
+    "The 2026 Commonwealth Games"
+   ],
+   "a": 0,
+   "x": "Asian Games 2026 boxing medallists will go directly to the 2027 World Championships, which serve as the first qualifier for LA 2028.",
+   "ty": "fact",
+   "tq": "Track the qualification pathway and distinguish the qualifying event from the Olympics.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Match the Olympic edition with its host city:\nList-I\n a. Winter Olympics 2026\n b. Summer Olympics 2028\n c. Summer Olympics 2032\nList-II\n i. Brisbane\n ii. Los Angeles\n iii. Milan-Cortina d’Ampezzo\n\nCodes:\n a. a–iii, b–ii, c–i\n b. a–ii, b–i, c–iii\n c. a–i, b–iii, c–ii\n d. a–iii, b–i, c–ii",
+   "o": [
+    "a–iii, b–ii, c–i",
+    "a–ii, b–i, c–iii",
+    "a–i, b–iii, c–ii",
+    "a–iii, b–i, c–ii"
+   ],
+   "a": 0,
+   "x": "The 2026 Winter Olympics are at Milan-Cortina d’Ampezzo, the 2028 Olympics at Los Angeles and the 2032 Olympics at Brisbane.",
+   "ty": "match",
+   "tq": "Start with the distinctive Winter Olympics host and complete the sequence.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "The 2026 Winter Olympics were held in Italy from:",
+   "o": [
+    "July to August 2026",
+    "2 to 17 August 2030",
+    "6 to 22 February 2026",
+    "19 September to 2 October 2026"
+   ],
+   "a": 2,
+   "x": "The Milan-Cortina d’Ampezzo Winter Olympics were held from 6 to 22 February 2026.",
+   "ty": "fact",
+   "tq": "Separate Winter Olympics dates from those of the Asian Games and Commonwealth Games.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "How many events were conducted in the 2026 Winter Olympics?",
+   "o": [
+    "74",
+    "116",
+    "130",
+    "190"
+   ],
+   "a": 1,
+   "x": "The 2026 Winter Olympics featured 116 events across 16 disciplines.",
+   "ty": "numerical",
+   "tq": "Distinguish the event count from the number of disciplines and associations.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which of the following was introduced as a new Olympic sport at the 2026 Winter Olympics?",
+   "o": [
+    "Cricket",
+    "Judo",
+    "Ski mountaineering",
+    "Para athletics"
+   ],
+   "a": 2,
+   "x": "Ski mountaineering, also called skimo, made its Olympic debut at the 2026 Winter Olympics.",
+   "ty": "fact",
+   "tq": "Identify the new-sport fact by distinguishing winter and summer sports.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which country topped the medal table at the 2026 Winter Olympics?",
+   "o": [
+    "United States of America",
+    "Norway",
+    "Italy",
+    "Netherlands"
+   ],
+   "a": 1,
+   "x": "Norway topped the 2026 Winter Olympics medal table with 18 gold medals and 41 medals in total, followed by the USA and the Netherlands.",
+   "ty": "fact",
+   "tq": "Use the medal-table order and the gold-total clue together.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Consider the following statements regarding the 2026 Winter Olympics:\n1. Norway won 18 gold medals.\n2. Norway won 41 medals in total.\n3. The United States and the Netherlands finished below Norway in the medal table.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Norway led with 18 gold and 41 total medals, followed by the United States and the Netherlands.",
+   "ty": "statements",
+   "tq": "Check numerical and ranking statements separately before selecting the code.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "The 2025 World Para Athletics Championships were held in:",
+   "o": [
+    "Glasgow",
+    "Manama",
+    "Aichi-Nagoya",
+    "New Delhi"
+   ],
+   "a": 3,
+   "x": "New Delhi hosted the 2025 World Para Athletics Championships, marking India’s first time hosting the event.",
+   "ty": "fact",
+   "tq": "Use the host-city association and the ‘first for India’ clue.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which of the following correctly describes India’s performance at the 2025 World Para Athletics Championships?",
+   "o": [
+    "39 medals, including 13 gold, and 4th place",
+    "16 medals, including 7 gold, and 2nd place",
+    "22 medals, including 6 gold, and 10th place",
+    "41 medals, including 18 gold, and 1st place"
+   ],
+   "a": 2,
+   "x": "India won 22 medals, including 6 gold medals, and finished tenth at the 2025 World Para Athletics Championships.",
+   "ty": "comparison",
+   "tq": "Match the complete performance profile rather than one isolated figure.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "India is preparing a bid to host the 2036 Olympics. Which pair correctly identifies the preceding Olympic hosts?",
+   "o": [
+    "Los Angeles in 2028 and Brisbane in 2032",
+    "Brisbane in 2028 and Los Angeles in 2032",
+    "Milan in 2028 and Ahmedabad in 2032",
+    "Aichi-Nagoya in 2028 and Brisbane in 2032"
+   ],
+   "a": 0,
+   "x": "Los Angeles will host the 2028 Olympics and Brisbane the 2032 Olympics; India is preparing a bid for 2036.",
+   "ty": "chronology",
+   "tq": "Arrange future Olympic hosts in chronological order before identifying the bid year.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "The KIRTI programme covers which age group?",
+   "o": [
+    "25–35 years",
+    "18–25 years",
+    "9–18 years",
+    "6–14 years"
+   ],
+   "a": 2,
+   "x": "KIRTI, or Khelo India Rising Talent Identification, targets children and young athletes aged 9–18 years.",
+   "ty": "fact",
+   "tq": "Identify the exact target-age range rather than the broader youth category.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which of the following correctly states the sporting objectives associated with KIRTI?",
+   "o": [
+    "Top-5 sporting nation by 2036 and top-10 by 2047",
+    "Top-5 sporting nation by 2030 and top-3 by 2040",
+    "Top-10 sporting nation by 2036 and top-5 by 2047",
+    "Top-10 sporting nation by 2028 and top-5 by 2036"
+   ],
+   "a": 2,
+   "x": "KIRTI aims to help India become a top-10 sporting nation by 2036 and a top-5 sporting nation by 2047.",
+   "ty": "comparison",
+   "tq": "Watch for the reversed-year and ranking trap in a target-based question.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Consider the following statements regarding the Target Olympic Podium Scheme (TOPS):\n1. It was introduced in 2014.\n2. It was revamped in 2018.\n3. As of April 2026, it supported 51 core, 52 para-core and 130 development athletes.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. TOPS began in 2014, was revamped in 2018, and in April 2026 supported 51 core, 52 para-core and 130 development athletes.",
+   "ty": "statements",
+   "tq": "Verify dates and category-wise numerical figures independently.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Match the TOPS athlete category with the number supported as of April 2026:\nList-I\n a. Core athletes\n b. Para-core athletes\n c. Development athletes\nList-II\n i. 52\n ii. 130\n iii. 51\n\nCodes:\n a. a–iii, b–i, c–ii\n b. a–i, b–ii, c–iii\n c. a–ii, b–iii, c–i\n d. a–iii, b–ii, c–i",
+   "o": [
+    "a–iii, b–i, c–ii",
+    "a–i, b–ii, c–iii",
+    "a–ii, b–iii, c–i",
+    "a–iii, b–ii, c–i"
+   ],
+   "a": 0,
+   "x": "TOPS supported 51 core athletes, 52 para-core athletes and 130 development athletes as of April 2026.",
+   "ty": "match",
+   "tq": "Begin with the distinctive largest development-athlete figure and verify the remaining pairs.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "The 3rd Asian Youth Games 2025 were hosted by:",
+   "o": [
+    "Manama, Bahrain",
+    "New Delhi, India",
+    "Aichi-Nagoya, Japan",
+    "Hamilton, Canada"
+   ],
+   "a": 0,
+   "x": "The 3rd Asian Youth Games 2025 were held in Manama, Bahrain.",
+   "ty": "fact",
+   "tq": "Distinguish the Asian Youth Games host from the senior Asian Games host.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Which of the following correctly describes the 3rd Asian Youth Games 2025?",
+   "o": [
+    "39 nations and 22 sports participated.",
+    "74 nations and 16 sports participated.",
+    "45 nations and 26 sports participated.",
+    "26 nations and 45 sports participated."
+   ],
+   "a": 2,
+   "x": "The 3rd Asian Youth Games in Manama featured 45 nations and 26 sports.",
+   "ty": "numerical",
+   "tq": "Read the two figures in their proper order: participating nations followed by sports.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  },
+  {
+   "s": "Who became India’s first medal winner in mixed martial arts at the 3rd Asian Youth Games 2025?",
+   "o": [
+    "Gulveer Singh",
+    "Veer Bhadu",
+    "Harsh Singh",
+    "Satwik Reddy"
+   ],
+   "a": 1,
+   "x": "Veer Bhadu won a bronze medal and became India’s first MMA medallist at the 3rd Asian Youth Games 2025.",
+   "ty": "fact",
+   "tq": "Match the athlete with the specific sport and historic first.",
+   "sec": "Olympics, Paralympics, Asian Games, CWG - hosts, medallists, new sports"
+  }
+ ]
+}

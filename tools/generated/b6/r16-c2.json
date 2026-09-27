@@ -1,0 +1,513 @@
+{
+ "book": 6,
+ "row": 16,
+ "chunk": 2,
+ "section": "Books and authors; important days and their themes",
+ "subsections": [
+  "Days and months declared by other bodies/countries",
+  "International years and decades - theme",
+  "Observance days - chronology, first year, venue",
+  "Books launched - by whom + subject",
+  "Weeks and fortnights - ministry",
+  "Newly declared days and months - who declared, which date"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The International Day of Clean Air for Blue Skies was established by which organisation in 2019?",
+   "o": [
+    "International Socialist Congress",
+    "United Nations General Assembly",
+    "World Health Organization",
+    "United Nations Environment Programme"
+   ],
+   "a": 1,
+   "x": "The International Day of Clean Air for Blue Skies was established by the United Nations General Assembly in 2019.",
+   "ty": "fact",
+   "tq": "Identify the declaring authority rather than the organisation associated with the subject.",
+   "sec": "Days and months declared by other bodies/countries"
+  },
+  {
+   "s": "The first observance of the International Day of Clean Air for Blue Skies took place in:",
+   "o": [
+    "2018",
+    "2019",
+    "2020",
+    "2021"
+   ],
+   "a": 2,
+   "x": "Although the day was set by the UN General Assembly in 2019, it was first observed in 2020.",
+   "ty": "numerical",
+   "tq": "Separate the year of declaration from the first year of observance.",
+   "sec": "Days and months declared by other bodies/countries"
+  },
+  {
+   "s": "In India, the International Day of Clean Air for Blue Skies is marked as:",
+   "o": [
+    "Swachh Vayu Diwas",
+    "Vayu Sanrakshan Diwas",
+    "Paryavaran Suraksha Diwas",
+    "Swachh Jal Diwas"
+   ],
+   "a": 0,
+   "x": "India observes the day as Swachh Vayu Diwas, when the Swachh Vayu Sarvekshan awards are given.",
+   "ty": "confusable",
+   "tq": "Discriminate between closely related official names.",
+   "sec": "Days and months declared by other bodies/countries"
+  },
+  {
+   "s": "Consider the following statements:\n1. The International Day of Sign Languages is observed on 23 September.\n2. It was declared by the United Nations General Assembly in 2017.\n3. It was first observed in 2020.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. The material specifies the declaring year, 2017, but does not state that the first observance was in 2020.",
+   "ty": "statements",
+   "tq": "Reject the unsupported extra statement while retaining the two directly stated facts.",
+   "sec": "Days and months declared by other bodies/countries"
+  },
+  {
+   "s": "International Labour Day was declared by the International Socialist Congress held at:",
+   "o": [
+    "Paris in 1891",
+    "Geneva in 1890",
+    "Paris in 1889",
+    "London in 1888"
+   ],
+   "a": 2,
+   "x": "International Labour Day was declared by the International Socialist Congress at Paris in 1889.",
+   "ty": "fact",
+   "tq": "Match the event with its precise venue and year.",
+   "sec": "Days and months declared by other bodies/countries"
+  },
+  {
+   "s": "India first marked International Labour Day in 1923 at Madras. The observance was associated with:",
+   "o": [
+    "M. Singaravelu Chettiar and the Labour Kisan Party",
+    "M. K. Gandhi and the Indian National Congress",
+    "R. Ambedkar and the All India Trade Union Congress",
+    "Sardar Patel and the Kisan Sabha"
+   ],
+   "a": 0,
+   "x": "India first marked International Labour Day at Madras in 1923 through the Labour Kisan Party led by M. Singaravelu Chettiar.",
+   "ty": "match",
+   "tq": "Use the person–organisation association to eliminate swapped leadership pairs.",
+   "sec": "Days and months declared by other bodies/countries"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "2025 — International Year of Renewable Energy",
+    "2025 — International Year of Quantum Science and Technology",
+    "2026 — International Year of the Woman Farmer",
+    "2026 — International Year of Rangelands and Pastoralists"
+   ],
+   "a": 0,
+   "x": "The 2025 designation was International Year of Quantum Science and Technology; International Year of Renewable Energy is not listed as a designation here.",
+   "ty": "negative",
+   "tq": "Find the option that does not belong to the stated designation list.",
+   "sec": "International years and decades - theme"
+  },
+  {
+   "s": "The International Year of Quantum Science and Technology was observed in:",
+   "o": [
+    "2024",
+    "2025",
+    "2026",
+    "2027"
+   ],
+   "a": 1,
+   "x": "The United Nations designated 2025 as the International Year of Quantum Science and Technology.",
+   "ty": "numerical",
+   "tq": "Test a year–designation association using nearby years as traps.",
+   "sec": "International years and decades - theme"
+  },
+  {
+   "s": "Which one of the following was associated with India's observance of the International Year of Quantum Science and Technology?",
+   "o": [
+    "Amaravati Quantum Valley",
+    "Varanasi Quantum Corridor",
+    "Ulaanbaatar Quantum Initiative",
+    "Bharat Mandapam Quantum Forum"
+   ],
+   "a": 0,
+   "x": "India marked the 2025 International Year of Quantum Science and Technology through the Amaravati Quantum Valley.",
+   "ty": "fact",
+   "tq": "Identify the specific national initiative linked with a global designation.",
+   "sec": "International years and decades - theme"
+  },
+  {
+   "s": "Consider the following statements:\n1. 2025 was the International Year of Cooperatives.\n2. 2025 was the International Year of Glaciers' Preservation.\n3. 2026 was the International Year of the Woman Farmer.\n4. 2021–2030 was declared the UN Decade of Ocean Science for Sustainable Development.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The listed designations include both 2025 international years, the 2026 Woman Farmer year and the 2021–2030 ocean science decade.",
+   "ty": "statements",
+   "tq": "Combine several year–theme associations and test the complete combination.",
+   "sec": "International years and decades - theme"
+  },
+  {
+   "s": "The theme associated with UNCCD COP17 in 2026 is:",
+   "o": [
+    "Land for Peace. Water for All.",
+    "Restoring Forests. Restoring Climate.",
+    "Healthy Soils, Healthy Societies.",
+    "Restoring Land. Restoring Hope."
+   ],
+   "a": 3,
+   "x": "The stated UNCCD COP17 theme for 2026 is “Restoring Land. Restoring Hope.”",
+   "ty": "fact",
+   "tq": "Recall the exact official wording rather than a thematically similar phrase.",
+   "sec": "International years and decades - theme"
+  },
+  {
+   "s": "According to PLFS 2023–24, what percentage of rural women work in agriculture in the context of the International Year of the Woman Farmer?",
+   "o": [
+    "67.95%",
+    "72.96%",
+    "76.95%",
+    "79.65%"
+   ],
+   "a": 2,
+   "x": "The figure given is 76.95% of rural women working in agriculture.",
+   "ty": "numerical",
+   "tq": "Distinguish closely spaced numerical alternatives.",
+   "sec": "International years and decades - theme"
+  },
+  {
+   "s": "The UN Decade on Ecosystem Restoration covers the period:",
+   "o": [
+    "2025–2035",
+    "2021–2030",
+    "2020–2029",
+    "2022–2031"
+   ],
+   "a": 1,
+   "x": "The UN Decade on Ecosystem Restoration is listed for 2021–2030.",
+   "ty": "numerical",
+   "tq": "Test the exact beginning and ending years of a decade.",
+   "sec": "International years and decades - theme"
+  },
+  {
+   "s": "Arrange the following observances in chronological order from January to June:\nA. National Youth Day\nB. National Girl Child Day\nC. National Voters' Day\nD. World Environment Day",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "B, C, A, D"
+   ],
+   "a": 0,
+   "x": "National Youth Day is on 12 January, Girl Child Day on 24 January, Voters' Day on 25 January and Environment Day on 5 June.",
+   "ty": "chronology",
+   "tq": "Fix the first three items by their January dates before placing the June observance.",
+   "sec": "Observance days - chronology, first year, venue"
+  },
+  {
+   "s": "Which of the following observances is held on 23 September?",
+   "o": [
+    "Constitution Day and Consumer Day",
+    "Ayurveda Day and International Day of Sign Languages",
+    "Hindi Diwas and Literacy Day",
+    "National Space Day"
+   ],
+   "a": 1,
+   "x": "Ayurveda Day and the International Day of Sign Languages are both observed on 23 September.",
+   "ty": "confusable",
+   "tq": "Discriminate between observances with nearby September dates.",
+   "sec": "Observance days - chronology, first year, venue"
+  },
+  {
+   "s": "Consider the following statements:\n1. National Technology Day is observed on 11 May.\n2. Anti-Terrorism Day is observed on 21 May.\n3. International Yoga Day is observed on 21 June.\n4. National Handloom Day is observed on 7 August.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct according to the stated annual observance calendar.",
+   "ty": "statements",
+   "tq": "Verify each date independently before selecting the complete code.",
+   "sec": "Observance days - chronology, first year, venue"
+  },
+  {
+   "s": "Which one of the following sequences correctly represents the order of observances from August to September?",
+   "o": [
+    "Library Day → Space Day → Sports Day → Teachers' Day → Literacy Day → Hindi Diwas → Ayurveda Day",
+    "Space Day → Library Day → Sports Day → Hindi Diwas → Teachers' Day → Literacy Day → Ayurveda Day",
+    "Library Day → Sports Day → Space Day → Teachers' Day → Hindi Diwas → Literacy Day → Ayurveda Day",
+    "Library Day → Space Day → Teachers' Day → Sports Day → Literacy Day → Ayurveda Day → Hindi Diwas"
+   ],
+   "a": 0,
+   "x": "The correct sequence is Library Day on 12 August, Space Day on 23 August, Sports Day on 29 August, Teachers' Day on 5 September, Literacy Day on 8 September, Hindi Diwas on 14 September and Ayurveda Day on 23 September.",
+   "ty": "chronology",
+   "tq": "Use the first and last dates to confirm the middle sequence.",
+   "sec": "Observance days - chronology, first year, venue"
+  },
+  {
+   "s": "Which of the following observances was first held in 1973?",
+   "o": [
+    "National Space Day",
+    "Constitution Day",
+    "World Environment Day",
+    "National Sports Day"
+   ],
+   "a": 2,
+   "x": "World Environment Day was first observed in 1973.",
+   "ty": "numerical",
+   "tq": "Match the observance with its first year rather than its current date.",
+   "sec": "Observance days - chronology, first year, venue"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Observance)\na. National Sports Day\nb. Constitution Day\nc. International Day of Clean Air for Blue Skies\nd. National Space Day\n\nList-II (First year)\ni. 2015\nii. 2024\niii. 1995\niv. 2020\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–iii, b–i, c–iv, d–ii",
+    "a–i, b–iii, c–ii, d–iv",
+    "a–iv, b–ii, c–i, d–iii",
+    "a–ii, b–iv, c–iii, d–i"
+   ],
+   "a": 0,
+   "x": "Sports Day began in 1995, Constitution Day in 2015, Clean Air Day in 2020 and National Space Day in 2024.",
+   "ty": "match",
+   "tq": "Start with the sure year–observance pairs and eliminate inconsistent codes.",
+   "sec": "Observance days - chronology, first year, venue"
+  },
+  {
+   "s": "Rashtriya Poshan Maah was launched in 2026 at:",
+   "o": [
+    "New Delhi",
+    "Amaravati",
+    "Bharat Mandapam",
+    "Varanasi"
+   ],
+   "a": 3,
+   "x": "The 2026 launch of Rashtriya Poshan Maah took place at Varanasi.",
+   "ty": "fact",
+   "tq": "Use the location-specific current-affairs detail as the deciding clue.",
+   "sec": "Observance days - chronology, first year, venue"
+  },
+  {
+   "s": "Who released the Telugu translation of Ram Madhav's book “Partitioned Freedom and Our Constitution - Our Pride” at the 36th Vijayawada Book Festival?",
+   "o": [
+    "Kovind",
+    "M. Venkaiah Naidu",
+    "Kalasagar Yellapu",
+    "Dasari Alwar Swamy"
+   ],
+   "a": 1,
+   "x": "M. Venkaiah Naidu released the Telugu translation at the 36th Vijayawada Book Festival on 5 January 2026.",
+   "ty": "fact",
+   "tq": "Match the book launch with the person who released it.",
+   "sec": "Books launched - by whom + subject"
+  },
+  {
+   "s": "The subject of the book on Bhawaiya released by the Vice-President relates principally to:",
+   "o": [
+    "Sufi music of Kashmir",
+    "Tribal painting of Andhra Pradesh",
+    "Classical dance of Tamil Nadu",
+    "Folk music of North Bengal and Assam associated with the Koch Rajbanshi community"
+   ],
+   "a": 3,
+   "x": "Bhawaiya is described as folk music of North Bengal and Assam associated with the Koch Rajbanshi community.",
+   "ty": "application",
+   "tq": "Infer the correct cultural association from the subject description.",
+   "sec": "Books launched - by whom + subject"
+  },
+  {
+   "s": "Which of the following books was released at the New Delhi Book Fair 2026 as part of NBT's India@75 series?",
+   "o": [
+    "Anna Mani: The Uncut Diamond",
+    "Art of Andhra Pradesh",
+    "Ajeyudu",
+    "The Library Man of India"
+   ],
+   "a": 0,
+   "x": "“Anna Mani: The Uncut Diamond” was released at the New Delhi Book Fair 2026 under NBT's India@75 series.",
+   "ty": "fact",
+   "tq": "Match the title with the publishing series and launch venue.",
+   "sec": "Books launched - by whom + subject"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Art of Andhra Pradesh — book on the Prime Ministers of India",
+    "Ajeyudu — book on Naidu",
+    "Gurajada Annarasha — book on Bhawaiya music",
+    "The Library Man of India — book on Andhra Pradesh art"
+   ],
+   "a": 1,
+   "x": "“Ajeyudu” is a book on Naidu. The other options swap the subjects of the listed books.",
+   "ty": "negative",
+   "tq": "Detect subject-title mismatches among closely related book-launch details.",
+   "sec": "Books launched - by whom + subject"
+  },
+  {
+   "s": "Rashtriya Poshan Maah is observed in September under which ministry?",
+   "o": [
+    "Ministry of Women and Child Development",
+    "Ministry of Health and Family Welfare",
+    "Ministry of Rural Development",
+    "Ministry of Education"
+   ],
+   "a": 0,
+   "x": "Rashtriya Poshan Maah is observed in September under the Ministry of Women and Child Development.",
+   "ty": "fact",
+   "tq": "Apply the ministry–scheme association rather than choosing a neighbouring ministry.",
+   "sec": "Weeks and fortnights - ministry"
+  },
+  {
+   "s": "Rashtriya Poshan Maah has been conducted under POSHAN Abhiyaan since:",
+   "o": [
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+   ],
+   "a": 2,
+   "x": "Rashtriya Poshan Maah has been conducted under POSHAN Abhiyaan since 2018.",
+   "ty": "numerical",
+   "tq": "Recall the launch-period year using nearby years as distractors.",
+   "sec": "Weeks and fortnights - ministry"
+  },
+  {
+   "s": "The theme of the 9th edition of Rashtriya Poshan Maah launched in 2026 was:",
+   "o": [
+    "Poshan for Every Family",
+    "Hamari Anganwadi Hamari Jimmedari",
+    "Saksham Bharat, Swasth Bharat",
+    "Nutrition through Digital India"
+   ],
+   "a": 1,
+   "x": "The 2026 ninth edition carried the theme “Hamari Anganwadi Hamari Jimmedari”.",
+   "ty": "fact",
+   "tq": "Recall the exact theme instead of a general nutrition slogan.",
+   "sec": "Weeks and fortnights - ministry"
+  },
+  {
+   "s": "Vigilance Awareness Week is associated with which institution?",
+   "o": [
+    "Comptroller and Auditor General of India",
+    "Central Bureau of Investigation",
+    "Central Vigilance Commission",
+    "Union Public Service Commission"
+   ],
+   "a": 2,
+   "x": "Vigilance Awareness Week is associated with the Central Vigilance Commission.",
+   "ty": "fact",
+   "tq": "Identify the correct statutory institution among related oversight bodies.",
+   "sec": "Weeks and fortnights - ministry"
+  },
+  {
+   "s": "Vigilance Awareness Week generally includes:",
+   "o": [
+    "15 August",
+    "26 January",
+    "26 November",
+    "31 October"
+   ],
+   "a": 3,
+   "x": "Vigilance Awareness Week is the week that includes 31 October, the birth anniversary of Sardar Patel.",
+   "ty": "fact",
+   "tq": "Link the observance period with its anchor date and associated personality.",
+   "sec": "Weeks and fortnights - ministry"
+  },
+  {
+   "s": "From 2025, Ayurveda Day is observed on 23 September instead of being linked to:",
+   "o": [
+    "Dhanteras",
+    "Makar Sankranti",
+    "Vijayadashami",
+    "Akshaya Tritiya"
+   ],
+   "a": 0,
+   "x": "The Union government, through the Ministry of Ayush, fixed Ayurveda Day on 23 September from 2025, replacing the Dhanteras-based observance.",
+   "ty": "confusable",
+   "tq": "Distinguish the new fixed date from the earlier festival-based observance.",
+   "sec": "Newly declared days and months - who declared, which date"
+  },
+  {
+   "s": "Which ministry fixed Ayurveda Day on 23 September from 2025?",
+   "o": [
+    "Ministry of Health and Family Welfare",
+    "Ministry of Ayush",
+    "Ministry of Culture",
+    "Ministry of Education"
+   ],
+   "a": 1,
+   "x": "The change was made by the Union government through the Ministry of Ayush.",
+   "ty": "fact",
+   "tq": "Use the ministry-of formulation to avoid a neighbouring-ministry trap.",
+   "sec": "Newly declared days and months - who declared, which date"
+  },
+  {
+   "s": "Samvidhan Hatya Diwas is observed on 25 June to mark:",
+   "o": [
+    "The enactment of the Government of India Act, 1935",
+    "The commencement of the Constituent Assembly",
+    "The adoption of the Constitution in 1949",
+    "The proclamation of the 1975 Emergency"
+   ],
+   "a": 3,
+   "x": "Samvidhan Hatya Diwas is observed on 25 June to mark the 1975 Emergency.",
+   "ty": "fact",
+   "tq": "Match the newly declared day with the historical event it commemorates.",
+   "sec": "Newly declared days and months - who declared, which date"
+  },
+  {
+   "s": "The 50th-anniversary event of Samvidhan Hatya Diwas in 2025 was held at:",
+   "o": [
+    "Vigyan Bhavan, New Delhi",
+    "Thyagaraj Stadium, New Delhi",
+    "Parliament House, New Delhi",
+    "Bharat Mandapam, New Delhi"
+   ],
+   "a": 1,
+   "x": "The 50th-anniversary event was held at Thyagaraj Stadium, New Delhi, on 25 June 2025.",
+   "ty": "fact",
+   "tq": "Discriminate between nearby national-event venues.",
+   "sec": "Newly declared days and months - who declared, which date"
+  },
+  {
+   "s": "National Space Day was declared after which event?",
+   "o": [
+    "The launch of Mangalyaan",
+    "The landing of Chandrayaan-3 in 2023",
+    "The launch of Aditya-L1",
+    "The successful launch of Chandrayaan-1"
+   ],
+   "a": 1,
+   "x": "National Space Day was declared after the Chandrayaan-3 landing in 2023.",
+   "ty": "fact",
+   "tq": "Match the newly declared observance with the triggering space achievement.",
+   "sec": "Newly declared days and months - who declared, which date"
+  },
+  {
+   "s": "The second edition of National Space Day in 2025 was held at:",
+   "o": [
+    "Bharat Mandapam",
+    "Thyagaraj Stadium",
+    "Varanasi",
+    "Amaravati Quantum Valley"
+   ],
+   "a": 0,
+   "x": "The second edition of National Space Day in 2025 was held at Bharat Mandapam.",
+   "ty": "fact",
+   "tq": "Separate the venue of a national observance from other current-affairs venues.",
+   "sec": "Newly declared days and months - who declared, which date"
+  }
+ ]
+}

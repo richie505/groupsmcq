@@ -1,0 +1,581 @@
+{
+ "book": 6,
+ "row": 12,
+ "chunk": 2,
+ "section": "Environment in news - reports, indices, species, protected areas, climate negotiations",
+ "subsections": [
+  "Air quality in news - cities, AQI, report source",
+  "Environment reports - releasing agency + India's rank",
+  "Climate negotiations - COP, venue, outcomes, blocs",
+  "Cyclones and extreme weather - naming country, landfall"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 42,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The World Air Quality Report 2025 was released by which organisation, headquartered in Switzerland?",
+   "o": [
+    "Climate and Clean Air Coalition",
+    "World Health Organization",
+    "UNEP",
+    "IQAir"
+   ],
+   "a": 3,
+   "x": "The World Air Quality Report 2025 was released by IQAir, a Switzerland-based organisation.",
+   "ty": "fact",
+   "tq": "Identify the releasing agency rather than the subject of the report.",
+   "sec": "Air quality in news - cities, AQI, report source  [APPSC]"
+  },
+  {
+   "s": "Which country was identified as the most polluted country in the World Air Quality Report 2025?",
+   "o": [
+    "Nepal",
+    "India",
+    "Bangladesh",
+    "Pakistan"
+   ],
+   "a": 3,
+   "x": "Pakistan was identified as the most polluted country in the World Air Quality Report 2025.",
+   "ty": "fact",
+   "tq": "Use direct country-result recall while distinguishing country rankings from city rankings.",
+   "sec": "Air quality in news - cities, AQI, report source  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the World Air Quality Report 2025:\n1. Loni in Uttar Pradesh was identified as the most polluted city.\n2. India stood sixth, improving from fifth position in 2024.\n3. New Delhi was identified as the most polluted capital for the eighth consecutive time.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Loni was the most polluted city, India ranked sixth, and New Delhi retained the most-polluted-capital position for the eighth consecutive time.",
+   "ty": "statements",
+   "tq": "Split the options by separating city, country and capital results.",
+   "sec": "Air quality in news - cities, AQI, report source  [APPSC]"
+  },
+  {
+   "s": "According to the World Air Quality Report 2025, what proportion of cities met the WHO guideline of 5 µg/m³ for PM2.5?",
+   "o": [
+    "5%",
+    "14%",
+    "25%",
+    "50%"
+   ],
+   "a": 1,
+   "x": "Only 14% of cities met the WHO PM2.5 guideline of 5 µg/m³.",
+   "ty": "numerical",
+   "tq": "Retain the exact percentage and the associated pollutant guideline.",
+   "sec": "Air quality in news - cities, AQI, report source  [APPSC]"
+  },
+  {
+   "s": "With reference to the World Air Quality Report 2024, which one of the following is correctly matched?",
+   "o": [
+    "Loni — Most polluted city",
+    "Byrnihat — Most polluted city",
+    "Pakistan — Sixth-most polluted country",
+    "New Delhi — Least polluted capital"
+   ],
+   "a": 1,
+   "x": "Byrnihat in Meghalaya was the most polluted city in the 2024 edition. Loni and Pakistan belong to the 2025 results, while New Delhi was the most polluted capital.",
+   "ty": "negative",
+   "tq": "Check the report year before accepting a familiar city-ranking pair.",
+   "sec": "Air quality in news - cities, AQI, report source  [APPSC]"
+  },
+  {
+   "s": "The National Clean Air Programme (NCAP) was launched in 2019 by which ministry?",
+   "o": [
+    "Ministry of Environment, Forest and Climate Change",
+    "Ministry of Housing and Urban Affairs",
+    "Ministry of Health and Family Welfare",
+    "Ministry of Power"
+   ],
+   "a": 0,
+   "x": "The NCAP was launched in 2019 by the Ministry of Environment, Forest and Climate Change (MoEFCC).",
+   "ty": "fact",
+   "tq": "Apply the ministry-ownership trap to an environmental programme.",
+   "sec": "Air quality in news - cities, AQI, report source  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the National Clean Air Programme:\n1. It covers 130 cities.\n2. Its implementation is tracked through the PRANA portal.\n3. The Air Quality Index under the programme is based on eight pollutants.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The NCAP covers 130 cities, uses the PRANA portal for tracking, and the AQI is based on eight pollutants.",
+   "ty": "statements",
+   "tq": "Test a programme through its coverage, monitoring portal and measurement base.",
+   "sec": "Air quality in news - cities, AQI, report source  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT included among the eight pollutants used for the Air Quality Index mentioned in relation to NCAP?",
+   "o": [
+    "Ammonia",
+    "Methane",
+    "PM2.5",
+    "Ozone"
+   ],
+   "a": 1,
+   "x": "The eight pollutants include PM10, PM2.5, NO2, SO2, CO, O3, NH3 and lead. Methane is not included in this list.",
+   "ty": "negative",
+   "tq": "Find the outsider by recalling the complete pollutant list.",
+   "sec": "Air quality in news - cities, AQI, report source  [APPSC]"
+  },
+  {
+   "s": "Which city ranked first in the million-plus population category in the Swachh Vayu Sarvekshan 2026?",
+   "o": [
+    "Lucknow",
+    "Rourkela",
+    "Guntur",
+    "Vijayawada"
+   ],
+   "a": 0,
+   "x": "Lucknow ranked first in the million-plus category in the Swachh Vayu Sarvekshan 2026.",
+   "ty": "fact",
+   "tq": "Match the city with its population category and rank.",
+   "sec": "Air quality in news - cities, AQI, report source  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Swachh Vayu Sarvekshan 2026:\n1. It was the fifth edition.\n2. It was conducted on 7 September 2026, observed as Clean Air Day.\n3. It covered 130 NCAP cities.\n4. Kalinga Nagar topped the category of cities below three lakh population.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The 2026 survey was the fifth edition, held on 7 September, covered 130 NCAP cities and placed Kalinga Nagar first among cities below three lakh population.",
+   "ty": "statements",
+   "tq": "Combine date, edition, coverage and category-result clues.",
+   "sec": "Air quality in news - cities, AQI, report source  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the result in the 3–10 lakh population category of Swachh Vayu Sarvekshan 2026?",
+   "o": [
+    "Rourkela ranked first and Guntur ranked joint second",
+    "Lucknow ranked first and Guntur ranked joint second",
+    "Kalinga Nagar ranked first and Rourkela ranked joint second",
+    "Guntur ranked first and Rourkela ranked second"
+   ],
+   "a": 0,
+   "x": "Rourkela topped the 3–10 lakh category, while Guntur shared the second position.",
+   "ty": "comparison",
+   "tq": "Compare the category-wise positions instead of recalling city names in isolation.",
+   "sec": "Air quality in news - cities, AQI, report source  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements is correct regarding the air-quality rankings mentioned for Andhra Pradesh?",
+   "o": [
+    "Vijayawada Ward 60 was the second-best ward nationally.",
+    "Vijayawada Ward 60 was ranked first nationally.",
+    "Guntur topped the million-plus category.",
+    "Kakinada topped the under-three-lakh category."
+   ],
+   "a": 0,
+   "x": "Vijayawada Ward 60 was the second-best ward nationally. Guntur was joint second in the 3–10 lakh city category, not first in the million-plus category.",
+   "ty": "fact",
+   "tq": "Distinguish a ward-level result from city-category results.",
+   "sec": "Air quality in news - cities, AQI, report source  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Report)\na. Environmental Performance Index 2026\nb. Climate Change Performance Index 2026\nc. Climate Risk Index 2025\n d. State of India's Environment 2026 in Figures\n\nList-II (Agency)\ni. Germanwatch\n ii. Centre for Science and Environment and Down To Earth\n iii. Yale and Columbia Universities\n iv. Germanwatch, NewClimate Institute and CAN\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–ii, b–iv, c–i, d–iii"
+   ],
+   "a": 0,
+   "x": "EPI 2026 was released by Yale and Columbia; CCPI 2026 by Germanwatch, NewClimate Institute and CAN; Climate Risk Index 2025 by Germanwatch; and State of India's Environment by CSE and Down To Earth.",
+   "ty": "match",
+   "tq": "Start from the sure agency-report pair and eliminate codes.",
+   "sec": "Environment reports - releasing agency + India's rank  [APPSC]"
+  },
+  {
+   "s": "India's position in the Environmental Performance Index 2026 was:",
+   "o": [
+    "176th out of 177",
+    "9th out of 180",
+    "175th out of 180",
+    "23rd out of 177"
+   ],
+   "a": 0,
+   "x": "India ranked 176th out of 177 countries in the EPI 2026, with a score of 22.46.",
+   "ty": "numerical",
+   "tq": "Retain both the rank and the total number of countries.",
+   "sec": "Environment reports - releasing agency + India's rank  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the Environmental Performance Index 2026:\n1. Estonia ranked first.\n2. India received a score of 22.46.\n3. The MoEFCC rejected the methodology used in the index.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Estonia ranked first, India's score was 22.46, and the MoEFCC rejected the methodology of the index.",
+   "ty": "statements",
+   "tq": "Check the leader, numerical score and official reaction together.",
+   "sec": "Environment reports - releasing agency + India's rank  [APPSC]"
+  },
+  {
+   "s": "With reference to the Climate Change Performance Index 2026, consider the following statements:\n1. The top three positions were left vacant.\n2. Denmark ranked fourth.\n3. India ranked 23rd.\n4. India's position declined by 13 places because of slow coal phase-down.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the CCPI 2026 results and India's decline attributed to slow coal phase-down.",
+   "ty": "statements",
+   "tq": "Use the vacant-top-three feature as an anchor before checking the remaining rankings.",
+   "sec": "Environment reports - releasing agency + India's rank  [APPSC]"
+  },
+  {
+   "s": "In the Climate Risk Index 2025, India was described as which of the following for the period 1995–2024?",
+   "o": [
+    "The ninth worst hit country",
+    "The ninth least vulnerable country",
+    "The twenty-third worst hit country",
+    "The fifteenth worst hit country"
+   ],
+   "a": 0,
+   "x": "For the period 1995–2024, India was ranked the ninth worst hit country in the Climate Risk Index 2025.",
+   "ty": "fact",
+   "tq": "Separate the long-period result from the single-year result.",
+   "sec": "Environment reports - releasing agency + India's rank  [APPSC]"
+  },
+  {
+   "s": "Which state topped the State of India's Environment 2026 in Figures?",
+   "o": [
+    "Karnataka",
+    "Andhra Pradesh",
+    "Kerala",
+    "Goa"
+   ],
+   "a": 3,
+   "x": "Goa was identified as the top state in the State of India's Environment 2026 in Figures.",
+   "ty": "fact",
+   "tq": "Use direct state-ranking recall for a named national report.",
+   "sec": "Environment reports - releasing agency + India's rank  [APPSC]"
+  },
+  {
+   "s": "What change in PM2.5-related deaths was highlighted in the State of India's Environment 2026 in Figures?",
+   "o": [
+    "They decreased by 61% in a decade.",
+    "They increased by 16% in five years.",
+    "They remained unchanged over a decade.",
+    "They increased by 61% in a decade."
+   ],
+   "a": 3,
+   "x": "The report highlighted a 61% increase in PM2.5-related deaths over a decade.",
+   "ty": "numerical",
+   "tq": "Watch the direction of change as well as the percentage.",
+   "sec": "Environment reports - releasing agency + India's rank  [APPSC]"
+  },
+  {
+   "s": "The Living Planet Report is released by which organisation, and what decline in wildlife was cited for its 2022 edition?",
+   "o": [
+    "IPCC; 69% decline",
+    "WWF; 69% decline",
+    "IUCN; 50% decline",
+    "UNEP; 61% decline"
+   ],
+   "a": 1,
+   "x": "The Living Planet Report is released by WWF, and its 2022 figure cited a 69% decline in wildlife.",
+   "ty": "fact",
+   "tq": "Link the publisher with the specific edition and figure.",
+   "sec": "Environment reports - releasing agency + India's rank  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the State Energy Efficiency Index:\n1. The 2024 index was prepared by BEE with AEEE.\n2. Andhra Pradesh was the top performer in the 2024 index.\n3. Andhra Pradesh's score increased from 83.25 to 87.25.\n4. Karnataka topped the 2023 index with a score of 86.5.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. BEE, with AEEE, prepared the 2024 index; Andhra Pradesh led with 87.25, up from 83.25, while Karnataka led the 2023 index with 86.5.",
+   "ty": "statements",
+   "tq": "Track the year carefully when comparing successive editions and leaders.",
+   "sec": "Environment reports - releasing agency + India's rank  [APPSC]"
+  },
+  {
+   "s": "Match the following COPs with their venues:\n\na. COP28\nb. COP29\nc. COP30\nd. COP31\n\ni. Antalya, Türkiye\nii. Baku, Azerbaijan\niii. Belém, Brazil\niv. Dubai, UAE\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iv, b–ii, c–iii, d–i",
+    "a–ii, b–iv, c–i, d–iii",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–iv, b–iii, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "COP28 was held in Dubai, COP29 in Baku, COP30 in Belém and COP31 is scheduled for Antalya.",
+   "ty": "match",
+   "tq": "Start with the well-known COP28 venue and then place the later venues chronologically.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "Which one of the following was a key outcome of COP28 held in Dubai?",
+   "o": [
+    "The Global Mutirão and 59 adaptation indicators",
+    "The first Global Stocktake and a transition away from fossil fuels",
+    "A roadmap to US$1.3 trillion per year by 2035",
+    "A US$300 billion annual finance commitment by 2035"
+   ],
+   "a": 1,
+   "x": "COP28 produced the Global Stocktake and called for a transition away from fossil fuels. The other outcomes are associated with COP29 or COP30.",
+   "ty": "fact",
+   "tq": "Use the COP number and venue to separate outcomes across successive conferences.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "The New Collective Quantified Goal on Climate Finance (NCQG) adopted at COP29 envisaged:",
+   "o": [
+    "US$1.3 trillion per year by 2035",
+    "US$100 billion per year by 2030",
+    "US$300 billion per year by 2035",
+    "US$300 billion per year by 2050"
+   ],
+   "a": 2,
+   "x": "COP29 at Baku adopted an NCQG of US$300 billion annually by 2035, replacing the earlier US$100 billion commitment.",
+   "ty": "numerical",
+   "tq": "Distinguish the new quantified goal from the earlier finance figure.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "Consider the following statements about COP30:\n1. It was held at Belém in Brazil.\n2. It was the first COP held in the Amazon.\n3. It adopted the Global Mutirão or Belém Political Package.\n4. It provided for tripling adaptation finance by 2035 and a roadmap to US$1.3 trillion annually by 2035.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. COP30 was held at Belém, the first COP in the Amazon, and produced the Belém Political Package with the stated finance objectives.",
+   "ty": "statements",
+   "tq": "Combine venue, distinction and multiple negotiated outcomes in one set.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "Which of the following is correctly associated with COP30?",
+   "o": [
+    "The Loss and Damage Fund being operationalised for the first time",
+    "59 Belém adaptation indicators and the Tropical Forests Forever Facility",
+    "The NCQG of US$300 billion annually by 2035",
+    "The first Global Stocktake and transition away from fossil fuels"
+   ],
+   "a": 1,
+   "x": "COP30 was associated with 59 Belém adaptation indicators and the Tropical Forests Forever Facility (TFFF). The other options refer to COP28 or COP29.",
+   "ty": "fact",
+   "tq": "Match a distinctive outcome to the correct conference rather than to a neighbouring COP.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "COP32, scheduled for 2027, is proposed to be held at:",
+   "o": [
+    "Antalya, Türkiye",
+    "Belém, Brazil",
+    "Addis Ababa, Ethiopia",
+    "Baku, Azerbaijan"
+   ],
+   "a": 2,
+   "x": "COP32 is scheduled for 2027 at Addis Ababa, Ethiopia, and is described as the 'Africa COP'.",
+   "ty": "fact",
+   "tq": "Associate the conference number with its scheduled year and venue.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "Which one of the following statements regarding COP33 is correct?",
+   "o": [
+    "India withdrew its bid by a letter dated 2 April 2026.",
+    "India was selected to host it in 2028.",
+    "India withdrew its bid during COP28 in 2023.",
+    "It will be held at Addis Ababa in 2027."
+   ],
+   "a": 0,
+   "x": "India withdrew its bid to host COP33, scheduled for 2028, through a letter dated 2 April 2026.",
+   "ty": "fact",
+   "tq": "Check the distinction between a hosting bid and an awarded venue.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "Consider the following statements about India's updated Nationally Determined Contribution announced in March 2026:\n1. It targets 60% non-fossil installed power capacity by 2035.\n2. It targets a 47% reduction in emission intensity of GDP from the 2005 level.\n3. It specifies a carbon sink of 3.5–4 billion tonnes.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The updated NDC sets all three targets: 60% non-fossil capacity, a 47% reduction in GDP emission intensity from 2005, and a 3.5–4 billion-tonne carbon sink.",
+   "ty": "statements",
+   "tq": "Keep the revised NDC figures separate from the earlier 2022 targets.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "Which of the following correctly states the earlier 2022 NDC targets of India?",
+   "o": [
+    "50% non-fossil capacity, 44% reduction in emission intensity and 2.5–3 billion tonnes of carbon sink by 2030",
+    "44% non-fossil capacity, 50% reduction and 2.5–3 billion tonnes by 2035",
+    "50% non-fossil capacity, 47% reduction and 3.5–4 billion tonnes by 2030",
+    "60% non-fossil capacity, 47% reduction and 3.5–4 billion tonnes by 2035"
+   ],
+   "a": 0,
+   "x": "The 2022 NDC targeted 50% non-fossil installed power capacity, a 44% reduction in emission intensity and a 2.5–3 billion-tonne carbon sink by 2030.",
+   "ty": "comparison",
+   "tq": "Compare the earlier and updated NDCs by checking both figures and target years.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "India achieved 50% non-fossil installed power capacity in which year, ahead of its 2030 target?",
+   "o": [
+    "2022",
+    "2025",
+    "2028",
+    "2030"
+   ],
+   "a": 1,
+   "x": "India reached 50% non-fossil installed power capacity in 2025, five years before its 2030 target.",
+   "ty": "numerical",
+   "tq": "Use the achievement year to distinguish an achieved milestone from a target year.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "BASIC, in the context of climate negotiations, consists of:",
+   "o": [
+    "Bangladesh, Australia, South Africa and India",
+    "Brazil, South Africa, India and China",
+    "Bhutan, South Africa, Indonesia and China",
+    "Brazil, Argentina, India and China"
+   ],
+   "a": 1,
+   "x": "The BASIC grouping comprises Brazil, South Africa, India and China.",
+   "ty": "fact",
+   "tq": "Expand the acronym by checking each member rather than guessing from regional similarity.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "Which of the following statements is correct regarding climate-related international developments?",
+   "o": [
+    "Bhutan, Suriname and Panama are net fossil-fuel importing countries in the grouping described.",
+    "The Loss and Damage Fund was operationalised at COP28.",
+    "The Loss and Damage Fund was operationalised at COP30 only.",
+    "BASIC comprises Bhutan, Suriname, Panama and India."
+   ],
+   "a": 1,
+   "x": "The Loss and Damage Fund was operationalised at COP28. Bhutan, Suriname and Panama are identified as carbon-negative countries, not members of BASIC.",
+   "ty": "fact",
+   "tq": "Separate an institutional outcome from country classification and bloc membership.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "Which of the following group of countries was identified as carbon-negative?",
+   "o": [
+    "Denmark, Estonia and Panama",
+    "Suriname, China and Bhutan",
+    "Bhutan, Suriname and Panama",
+    "Brazil, South Africa and India"
+   ],
+   "a": 2,
+   "x": "Bhutan, Suriname and Panama were identified as carbon-negative countries.",
+   "ty": "fact",
+   "tq": "Check every member of the country group; one swapped member makes the option wrong.",
+   "sec": "Climate negotiations - COP, venue, outcomes, blocs  [other exams]"
+  },
+  {
+   "s": "Cyclone Montha, which affected Andhra Pradesh in 2025, was named by:",
+   "o": [
+    "Thailand",
+    "Sri Lanka",
+    "Yemen",
+    "United Arab Emirates"
+   ],
+   "a": 0,
+   "x": "The name Montha was given by Thailand under the regional cyclone-naming system.",
+   "ty": "fact",
+   "tq": "Match the cyclone name with the naming country, not the landfall state.",
+   "sec": "Cyclones and extreme weather - naming country, landfall"
+  },
+  {
+   "s": "Which of the following statements regarding Cyclone Montha is correct?",
+   "o": [
+    "It made landfall in Sri Lanka and caused more than 600 deaths.",
+    "It made landfall on the Kakinada coast of Andhra Pradesh, and Andhra Pradesh received ₹341.48 crore as additional NDRF aid in March 2026.",
+    "It made landfall on the Kerala coast and led to an oil-spill contingency plan.",
+    "It was a rare cyclone in the Strait of Malacca affecting Sumatra's orangutan habitat."
+   ],
+   "a": 1,
+   "x": "Montha affected Andhra Pradesh after landfall on the Kakinada coast, and ₹341.48 crore in additional NDRF aid was approved in March 2026.",
+   "ty": "application",
+   "tq": "Link the cyclone with its landfall, affected state and relief response.",
+   "sec": "Cyclones and extreme weather - naming country, landfall"
+  },
+  {
+   "s": "Match the cyclones with the countries that gave them their names:\n\na. Montha\nb. Ditwah\nc. Senyar\n\ni. United Arab Emirates\nii. Thailand\niii. Yemen\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iii, c–i",
+    "a–iii, b–i, c–ii",
+    "a–ii, b–i, c–iii",
+    "a–i, b–iii, c–ii"
+   ],
+   "a": 0,
+   "x": "Thailand named Montha, Yemen named Ditwah and the United Arab Emirates named Senyar.",
+   "ty": "match",
+   "tq": "Start from the sure Montha–Thailand pair and eliminate the remaining codes.",
+   "sec": "Cyclones and extreme weather - naming country, landfall"
+  },
+  {
+   "s": "Consider the following statements:\n1. Cyclone Ditwah hit Sri Lanka in late 2025.\n2. More than 600 people were reported dead in connection with Ditwah.\n3. Ditwah was named by Yemen.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Ditwah was named by Yemen, hit Sri Lanka in November–December 2025, and caused more than 600 deaths.",
+   "ty": "statements",
+   "tq": "Verify the event through its naming country, location and human impact.",
+   "sec": "Cyclones and extreme weather - naming country, landfall"
+  },
+  {
+   "s": "Which one of the following correctly describes Cyclone Senyar?",
+   "o": [
+    "A cyclone that struck Sri Lanka and killed more than 600 people",
+    "A cyclone named by Thailand that affected the Kerala coast",
+    "A cyclone that made landfall on the Kakinada coast of Andhra Pradesh",
+    "A rare cyclone in the Strait of Malacca that affected the Tapanuli orangutan's habitat in Sumatra"
+   ],
+   "a": 3,
+   "x": "Senyar was described as a rare cyclone in the Strait of Malacca and affected the Tapanuli orangutan's habitat in Sumatra.",
+   "ty": "fact",
+   "tq": "Use the unusual geographic feature and species habitat as distinctive identifiers.",
+   "sec": "Cyclones and extreme weather - naming country, landfall"
+  },
+  {
+   "s": "Arrange the following cyclones in chronological order of the dates mentioned:\nA. Ditwah\nB. Montha\nC. Senyar\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "B, A, C",
+    "A, B, C",
+    "C, B, A",
+    "B, C, A"
+   ],
+   "a": 0,
+   "x": "Montha occurred in October 2025, followed by Ditwah and Senyar in November 2025. Therefore, the order is B, A, C.",
+   "ty": "chronology",
+   "tq": "Fix the October event first, then distinguish the two November cyclones.",
+   "sec": "Cyclones and extreme weather - naming country, landfall"
+  }
+ ]
+}

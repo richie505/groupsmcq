@@ -1,0 +1,439 @@
+{
+ "book": 6,
+ "row": 16,
+ "chunk": 1,
+ "section": "Books and authors; important days and their themes",
+ "subsections": [
+  "Books - author (autobiographies, politicians, sportspersons, regional)",
+  "National days - date + person/event"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 6,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Who is the author of the autobiography 'Triumph of the Indian Republic: My Life, My Struggles'?",
+   "o": [
+    "Ram Nath Kovind",
+    "K.K. Venugopal",
+    "Nadendla Bhaskara Rao",
+    "Justice H.R. Khanna"
+   ],
+   "a": 0,
+   "x": "'Triumph of the Indian Republic: My Life, My Struggles' is the autobiography of former President Ram Nath Kovind, who served as the 14th President of India from 2017 to 2022.",
+   "ty": "fact",
+   "tq": "Direct author recall using nearby autobiographical titles as distractors.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "The book 'An Accidental Lawyer - My Adventures in Law and Life' is the autobiography of:",
+   "o": [
+    "K.K. Venugopal",
+    "Madhav Gadgil",
+    "V.V.S. Laxman",
+    "P.P. Sathyan"
+   ],
+   "a": 0,
+   "x": "'An Accidental Lawyer - My Adventures in Law and Life' is the autobiography of K.K. Venugopal, former Attorney General of India.",
+   "ty": "fact",
+   "tq": "Direct author recall with a profession-based trap.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "Consider the following statements regarding 'Na Jeevitha Prasthanam':\n1. It is the autobiography of Nadendla Bhaskara Rao.\n2. Nadendla Bhaskara Rao served as Chief Minister of Andhra Pradesh for 31 days in 1984.\n3. The book is an autobiography of a former Attorney General of India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the former Attorney General's autobiography is K.K. Venugopal's 'An Accidental Lawyer - My Adventures in Law and Life'.",
+   "ty": "statements",
+   "tq": "Split the options by identifying the swapped author and office.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "The book 'The Library Man of India - The Story of P.N. Panicker' was written by:",
+   "o": [
+    "S.R. Ranganathan",
+    "P.P. Sathyan",
+    "Bobbili Sridhar",
+    "Madhav Gadgil"
+   ],
+   "a": 1,
+   "x": "P.P. Sathyan wrote 'The Library Man of India - The Story of P.N. Panicker'. The book was released by the Vice-President.",
+   "ty": "fact",
+   "tq": "Direct book-author matching with a closely related library personality as a trap.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "Which of the following books was written by Madhav Gadgil?",
+   "o": [
+    "281 and Beyond",
+    "A Walk Up the Hill: Living with People and Nature",
+    "My Shackled Life",
+    "Neither Roses Nor Thorns"
+   ],
+   "a": 1,
+   "x": "Madhav Gadgil wrote 'A Walk Up the Hill: Living with People and Nature', published in 2023.",
+   "ty": "fact",
+   "tq": "Direct title-author recall using four distinct autobiographical and environmental titles.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "'281 and Beyond' is the autobiography of which sportsperson?",
+   "o": [
+    "R. Vairamuthu",
+    "P.P. Sathyan",
+    "Vikram Seth",
+    "V.V.S. Laxman"
+   ],
+   "a": 3,
+   "x": "'281 and Beyond' is the autobiography of former Indian cricketer V.V.S. Laxman.",
+   "ty": "fact",
+   "tq": "Direct sportsperson-book association.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "Justice H.R. Khanna's work recalling his dissent in the ADM Jabalpur case is titled:",
+   "o": [
+    "The Lives of Others",
+    "Crimson Spring",
+    "An Indian Pilgrim",
+    "Neither Roses Nor Thorns"
+   ],
+   "a": 3,
+   "x": "Justice H.R. Khanna's 'Neither Roses Nor Thorns' recalls his dissent in the ADM Jabalpur case.",
+   "ty": "fact",
+   "tq": "Direct title recall with judicial and literary distractors.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "Who wrote 'My Shackled Life', the autobiography of a Dalit woman originally written in Hindi as 'Shikanje ka Dard'?",
+   "o": [
+    "Kiran Desai",
+    "Sushila Takbhaure",
+    "Mamta Kalia",
+    "Banu Mushtaq"
+   ],
+   "a": 1,
+   "x": "'My Shackled Life' is the autobiography of Sushila Takbhaure and was originally written in Hindi as 'Shikanje ka Dard'.",
+   "ty": "fact",
+   "tq": "Direct author recall using regional and award-winning writers as distractors.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "'An Indian Pilgrim', published in 1937, is the autobiography of:",
+   "o": [
+    "Ram Nath Kovind",
+    "Atal Bihari Vajpayee",
+    "Nadendla Bhaskara Rao",
+    "Subhas Chandra Bose"
+   ],
+   "a": 3,
+   "x": "'An Indian Pilgrim' was the autobiography of Subhas Chandra Bose and was published in 1937.",
+   "ty": "numerical",
+   "tq": "Use the publication year to distinguish among autobiographies.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "The book 'Flesh', which received the Booker Prize in 2025, was written by:",
+   "o": [
+    "Navtej Sarna",
+    "Kiran Desai",
+    "Yang Shuang-zi",
+    "David Szalay"
+   ],
+   "a": 3,
+   "x": "David Szalay wrote 'Flesh', which received the Booker Prize in 2025.",
+   "ty": "fact",
+   "tq": "Direct award-title-author recall with shortlisted and translated works as traps.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "Who is the author of 'Taiwan Travelogue', which became the first Mandarin Chinese winner of the International Booker Prize in 2026?",
+   "o": [
+    "Banu Mushtaq",
+    "Yang Shuang-zi",
+    "Deepa Bhasthi",
+    "R. Vairamuthu"
+   ],
+   "a": 1,
+   "x": "'Taiwan Travelogue' was written by Yang Shuang-zi and translated by Lin King. It was the first Mandarin Chinese work to win the International Booker Prize in 2026.",
+   "ty": "fact",
+   "tq": "Direct author recall supported by language and award distinctions.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Book)\na. Crimson Spring\nb. Jeete Jee Allahabad\nc. Maayaamanushyar\nd. Flesh\n\nList-II (Author)\ni. David Szalay\nii. N. Prabhakaran\niii. Navtej Sarna\niv. Mamta Kalia\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iii, b-ii, c-iv, d-i"
+   ],
+   "a": 0,
+   "x": "Crimson Spring was written by Navtej Sarna, Jeete Jee Allahabad by Mamta Kalia, Maayaamanushyar by N. Prabhakaran and Flesh by David Szalay.",
+   "ty": "match",
+   "tq": "Start from the sure pair and check that every List-II item is used once.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "Consider the following statements about the 60th Jnanpith Award:\n1. It was awarded for the year 2025.\n2. R. Vairamuthu became the third Tamil writer to receive the award.\n3. He was the first recipient of the award and received it in 1965.\n4. The award carried a cash prize of ₹11 lakh.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 4 only",
+    "1 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 4 are correct. Statement 3 is false: the first Jnanpith Award was given in 1965 to G. Sankara Kurup, not R. Vairamuthu.",
+   "ty": "statements",
+   "tq": "Reject the historically reversed first-recipient statement.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "The book 'Gurajada Annarasha' is associated with a study of:",
+   "o": [
+    "The life and poetry of R. Vairamuthu",
+    "The dissent of Justice H.R. Khanna",
+    "The environmental work of Madhav Gadgil",
+    "The writing style and idioms of Gurajada Apparao"
+   ],
+   "a": 3,
+   "x": "'Gurajada Annarasha' studies the writing style and idioms of Gurajada Apparao, including his association with 'Kanyasulkam'.",
+   "ty": "fact",
+   "tq": "Concept identification from the subject of a regional literary work.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "Which of the following statements regarding 'Gurajada Annarasha' is correct?",
+   "o": [
+    "It won the Booker Prize in 2025 and was translated from Kannada.",
+    "It was released in Lucknow by the Vice-President and concerns P.N. Panicker.",
+    "It was released at Vizianagaram and published by Sikkolu Book Trust.",
+    "It was published in 1937 as Subhas Chandra Bose's autobiography."
+   ],
+   "a": 2,
+   "x": "'Gurajada Annarasha' was released at Vizianagaram and published by Sikkolu Book Trust. The work concerns Gurajada Apparao's literary style and idioms.",
+   "ty": "negative",
+   "tq": "Eliminate famous-word traps by checking the release place and publisher.",
+   "sec": "Books - author (autobiographies, politicians, sportspersons, regional)"
+  },
+  {
+   "s": "With reference to National Consumer Day, consider the following statements:\n1. It is observed on 24 December.\n2. Its association is with the Consumer Protection Act, 1986.\n3. The Consumer Protection Act, 2019 replaced the 1986 Act and established the CCPA.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. National Consumer Day is linked to the 1986 Act, while the 2019 Act replaced it and established the Central Consumer Protection Authority.",
+   "ty": "statements",
+   "tq": "Combine date, parent legislation and replacement legislation in one coded question.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "The theme of the 16th National Voters' Day in 2026 was:",
+   "o": [
+    "Citizen First, Democracy Always",
+    "Aryabhatta to Gaganyaan",
+    "My India, My Vote",
+    "Responsible Innovation for Inclusive Growth"
+   ],
+   "a": 2,
+   "x": "The theme of the 16th National Voters' Day in 2026 was 'My India, My Vote'. Its tagline was 'Citizen at the Heart of Indian Democracy'.",
+   "ty": "fact",
+   "tq": "Direct current-theme recall with themes of other national days as traps.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "The tagline of the 16th National Voters' Day in 2026 was:",
+   "o": [
+    "Ayurveda for People & Planet",
+    "Citizen at the Heart of Indian Democracy",
+    "Ek Ghanta, Khel ke Maidan Main",
+    "My India, My Vote"
+   ],
+   "a": 1,
+   "x": "The tagline was 'Citizen at the Heart of Indian Democracy'; 'My India, My Vote' was the theme.",
+   "ty": "confusable",
+   "tq": "Discriminate between the theme and tagline of the same observance.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Day)\na. National Voters' Day\nb. Constitution Day\nc. National Youth Day\nd. Civil Services Day\n\nList-II (Date)\ni. 21 April\nii. 12 January\niii. 25 January\niv. 26 November\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "a": 0,
+   "x": "National Voters' Day is on 25 January, Constitution Day on 26 November, National Youth Day on 12 January and Civil Services Day on 21 April.",
+   "ty": "match",
+   "tq": "Start with the familiar date-person association and complete the code.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "Constitution Day is observed on 26 November to commemorate:",
+   "o": [
+    "The adoption of the Constitution in 1949",
+    "The first meeting of the Constituent Assembly in 1946",
+    "The declaration of Purna Swaraj in 1930",
+    "The commencement of the Constitution in 1950"
+   ],
+   "a": 0,
+   "x": "Constitution Day, or Samvidhan Divas, is observed on 26 November to commemorate the adoption of the Constitution in 1949. It has been observed since 2015.",
+   "ty": "confusable",
+   "tq": "Separate the adoption date from the commencement date.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "The Constitution of India came into force on 26 January 1950 because this date was associated with:",
+   "o": [
+    "The adoption of the Constitution in 1949",
+    "The first Republic Day in 1951",
+    "The Purna Swaraj declaration of 1930",
+    "The Cabinet Mission Plan of 1946"
+   ],
+   "a": 2,
+   "x": "26 January was selected as the commencement date because of its association with the Purna Swaraj declaration of 1930.",
+   "ty": "application",
+   "tq": "Apply the distinction between constitutional adoption and commencement.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "National Youth Day is observed on 12 January to mark the birth anniversary of:",
+   "o": [
+    "Sardar Vallabhbhai Patel",
+    "A.P.J. Abdul Kalam",
+    "Swami Vivekananda",
+    "Atal Bihari Vajpayee"
+   ],
+   "a": 2,
+   "x": "National Youth Day is observed on 12 January, the birth anniversary of Swami Vivekananda. The 163rd observance was in 2026.",
+   "ty": "fact",
+   "tq": "Direct person-date recall with other national-day personalities as distractors.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "National Space Day — 23 August",
+    "Veer Bal Diwas — 26 December",
+    "National Girl Child Day — 24 January",
+    "Good Governance Day — 26 November"
+   ],
+   "a": 3,
+   "x": "Good Governance Day is observed on 25 December, the birth anniversary of Atal Bihari Vajpayee. 26 November is Constitution Day.",
+   "ty": "negative",
+   "tq": "Find the single date-person mismatch among closely spaced observances.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "National Space Day is observed on 23 August in recognition of:",
+   "o": [
+    "The first successful Pokhran test in 1998",
+    "The Chandrayaan-3 Vikram landing at Shiv Shakti Point in 2023",
+    "The launch of Aryabhata in 1975",
+    "The establishment of ISRO in 1969"
+   ],
+   "a": 1,
+   "x": "National Space Day on 23 August commemorates the Chandrayaan-3 Vikram landing at Shiv Shakti Point in 2023.",
+   "ty": "fact",
+   "tq": "Direct event-date association with space milestones as distractors.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "The theme of the 2nd National Space Day in 2025 was:",
+   "o": [
+    "Aryabhatta to Gaganyaan: Ancient Wisdom to Infinite Possibilities",
+    "Responsible Innovation for Inclusive Growth",
+    "Ayurveda for People & Planet",
+    "My India, My Vote"
+   ],
+   "a": 0,
+   "x": "The theme of the 2nd National Space Day in 2025 was 'Aryabhatta to Gaganyaan: Ancient Wisdom to Infinite Possibilities'.",
+   "ty": "fact",
+   "tq": "Direct theme recall with current-affairs theme substitution traps.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "National Sports Day is observed on 29 August in memory of:",
+   "o": [
+    "V.V.S. Laxman",
+    "Major Dhyan Chand",
+    "Sardar Vallabhbhai Patel",
+    "A.P.J. Abdul Kalam"
+   ],
+   "a": 1,
+   "x": "National Sports Day is observed on 29 August to mark the birth anniversary of Major Dhyan Chand. It was first observed in 1995.",
+   "ty": "numerical",
+   "tq": "Combine the commemorated person with the first-observance year.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "The theme of National Sports Day 2025 was:",
+   "o": [
+    "Ek Ghanta, Khel ke Maidan Main",
+    "Ayurveda for People & Planet",
+    "Citizen at the Heart of Indian Democracy",
+    "Responsible Innovation for Inclusive Growth"
+   ],
+   "a": 0,
+   "x": "The theme of National Sports Day 2025 was 'Ek Ghanta, Khel ke Maidan Main'.",
+   "ty": "fact",
+   "tq": "Direct theme recall with exact-word discrimination.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Day)\na. Hindi Diwas\nb. Anti-Terrorism Day\nc. Rashtriya Ekta Diwas\nd. Janjatiya Gaurav Diwas\n\nList-II (Date)\ni. 15 November\nii. 31 October\niii. 14 September\niv. 21 May\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a-iii, b-iv, c-ii, d-i",
+    "a-iv, b-iii, c-i, d-ii",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "a": 0,
+   "x": "Hindi Diwas is on 14 September, Anti-Terrorism Day on 21 May, Rashtriya Ekta Diwas on 31 October and Janjatiya Gaurav Diwas on 15 November.",
+   "ty": "match",
+   "tq": "Use the date pairs and eliminate the cyclically shifted alternatives.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "National Students' Day — 15 October — Atal Bihari Vajpayee",
+    "National Library Day — 12 August — S.R. Ranganathan",
+    "Good Governance Day — 25 December — Sardar Patel",
+    "Rashtriya Ekta Diwas — 31 October — Birsa Munda"
+   ],
+   "a": 1,
+   "x": "National Library Day is observed on 12 August in honour of S.R. Ranganathan. National Students' Day on 15 October is associated with A.P.J. Abdul Kalam, Good Governance Day with Atal Bihari Vajpayee and Janjatiya Gaurav Diwas with Birsa Munda.",
+   "ty": "negative",
+   "tq": "Check both the date and the commemorated personality before selecting the pair.",
+   "sec": "National days - date + person/event"
+  },
+  {
+   "s": "The 150th birth anniversary of Sardar Vallabhbhai Patel was observed in 2025 on the occasion of:",
+   "o": [
+    "National Students' Day",
+    "Janjatiya Gaurav Diwas",
+    "National Technology Day",
+    "Rashtriya Ekta Diwas"
+   ],
+   "a": 3,
+   "x": "Rashtriya Ekta Diwas is observed on 31 October in memory of Sardar Vallabhbhai Patel; 2025 marked his 150th birth anniversary.",
+   "ty": "numerical",
+   "tq": "Link the anniversary number to the correct national observance.",
+   "sec": "National days - date + person/event"
+  }
+ ]
+}

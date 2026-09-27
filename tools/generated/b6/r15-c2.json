@@ -1,0 +1,481 @@
+{
+ "book": 6,
+ "row": 15,
+ "chunk": 2,
+ "section": "Sports - major tournaments, winners, records and hosting rights",
+ "subsections": [
+  "Cricket and football - World Cups, IPL/WPL, Durand/Santosh",
+  "National games - medal-table topper + host state"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 37,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Who won the Men's T20 World Cup 2026?",
+   "o": [
+    "Australia",
+    "England",
+    "New Zealand",
+    "India"
+   ],
+   "a": 3,
+   "x": "India won the Men's T20 World Cup 2026 by defeating New Zealand in the final at Ahmedabad.",
+   "ty": "fact",
+   "tq": "Use direct winner identification from a recent tournament result.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Who was declared the Player of the Tournament in the Men's T20 World Cup 2026?",
+   "o": [
+    "Suryakumar Yadav",
+    "Jasprit Bumrah",
+    "Sanju Samson",
+    "Ferran Torres"
+   ],
+   "a": 2,
+   "x": "Sanju Samson was the Player of the Tournament after scoring 321 runs.",
+   "ty": "numerical",
+   "tq": "Match the individual award with the correct tournament performer and figure.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "The final of the Men's T20 World Cup 2026 was played at:",
+   "o": [
+    "Wagener Stadion",
+    "Lord's",
+    "Ahmedabad",
+    "Harare"
+   ],
+   "a": 2,
+   "x": "The final was held at Ahmedabad. Jasprit Bumrah was the Player of the Final.",
+   "ty": "fact",
+   "tq": "Discriminate between tournament venues stated for different events.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Which country won the Women's ODI World Cup 2025?",
+   "o": [
+    "Australia",
+    "South Africa",
+    "England",
+    "India"
+   ],
+   "a": 3,
+   "x": "India won its maiden Women's ODI World Cup title by defeating South Africa in November 2025.",
+   "ty": "fact",
+   "tq": "Directly identify the winner while avoiding the runner-up trap.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "With reference to the Women's ODI World Cup 2025, consider the following statements:\n1. India and Sri Lanka co-hosted the tournament.\n2. It was India's fourth time as host.\n3. Deepti Sharma was the Player of the Tournament.\n4. Shafali Verma was the Player of the Match in the final.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 3 are correct. Shafali Verma was the Player of the Match in the final, while Deepti Sharma was the Player of the Tournament; the statement incorrectly describes Shafali as the final's Player of the Match only in the context given here? Actually the final award was Shafali Verma, so statement 4 is also correct.",
+   "ty": "statements",
+   "tq": "Test host, edition history and individual awards together; verify every statement before selecting the code.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Which team won the IPL 2026?",
+   "o": [
+    "Mumbai Indians",
+    "Royal Challengers Bengaluru",
+    "Gujarat Titans",
+    "Punjab Kings"
+   ],
+   "a": 1,
+   "x": "Royal Challengers Bengaluru won IPL 2026 by defeating Gujarat Titans at Ahmedabad and retained the title it had won in 2025.",
+   "ty": "fact",
+   "tq": "Use the retained-title detail to avoid the first-title distractor.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the WPL 2026 is correct?",
+   "o": [
+    "The tournament was won by Punjab Kings.",
+    "RCB won its maiden title in 2026.",
+    "RCB won its second title in February 2026.",
+    "Gujarat Giants won the title by defeating RCB."
+   ],
+   "a": 2,
+   "x": "RCB won the WPL 2026 title in February 2026, making it the franchise's second title.",
+   "ty": "confusable",
+   "tq": "Distinguish a second title from a maiden title using the precise numerical qualifier.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. Women's ODI World Cup 2025\nB. IPL 2026\nC. Men's T20 World Cup 2026\nD. WPL 2026",
+   "o": [
+    "A, D, C, B",
+    "A, C, D, B",
+    "D, A, B, C",
+    "A, D, B, C"
+   ],
+   "a": 3,
+   "x": "The Women's ODI World Cup was held in November 2025, followed by WPL 2026 in February, IPL 2026 and then the Men's T20 World Cup in March 2026.",
+   "ty": "chronology",
+   "tq": "First place the 2025 event, then separate the early-2026 tournaments by their stated sequence.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Who won the FIFA World Cup 2026?",
+   "o": [
+    "Spain",
+    "England",
+    "Argentina",
+    "France"
+   ],
+   "a": 0,
+   "x": "Spain defeated Argentina 1-0 after extra time to win the FIFA World Cup 2026.",
+   "ty": "fact",
+   "tq": "Identify the winner and distinguish it from the finalist.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Who won the Golden Ball award in the FIFA World Cup 2026?",
+   "o": [
+    "Ferran Torres",
+    "Kylian Mbappé",
+    "Rodri",
+    "Cristiano Ronaldo"
+   ],
+   "a": 2,
+   "x": "Rodri won the Golden Ball, while Kylian Mbappé won the Golden Boot.",
+   "ty": "confusable",
+   "tq": "Separate two closely associated individual awards rather than choosing the leading scorer.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Kylian Mbappé — Golden Boot",
+    "Ferran Torres — scorer in the final",
+    "Cristiano Ronaldo — Golden Ball",
+    "Rodri — Golden Ball"
+   ],
+   "a": 2,
+   "x": "Cristiano Ronaldo was not the Golden Ball winner. Rodri won the Golden Ball; Mbappé won the Golden Boot and Ferran Torres scored for Spain in the final.",
+   "ty": "negative",
+   "tq": "Find the wrongly matched individual award or match detail.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Which record was associated with Cristiano Ronaldo in the FIFA World Cup 2026?",
+   "o": [
+    "Becoming the youngest World Cup scorer",
+    "Winning the Golden Ball",
+    "Scoring in six World Cups",
+    "Scoring ten goals in one World Cup"
+   ],
+   "a": 2,
+   "x": "Cristiano Ronaldo became the first player to score in six FIFA World Cups.",
+   "ty": "fact",
+   "tq": "Match a notable record with the correct player instead of an award or scoring figure.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Kylian Mbappé's performance in the FIFA World Cup 2026 included which of the following?",
+   "o": [
+    "Second title as captain of Spain",
+    "Golden Boot with 10 goals and the all-time World Cup scoring record of 22 goals",
+    "Player of the Final with 10 assists",
+    "Golden Ball with 7 goals"
+   ],
+   "a": 1,
+   "x": "Mbappé won the Golden Boot with 10 goals and became the all-time leading World Cup scorer with 22 goals.",
+   "ty": "numerical",
+   "tq": "Pair the player with the correct award and quantitative record.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "The 135th Durand Cup in 2026 was won by:",
+   "o": [
+    "NorthEast United",
+    "East Bengal",
+    "Kerala Blasters",
+    "Mohun Bagan"
+   ],
+   "a": 1,
+   "x": "East Bengal defeated Mohun Bagan 4-1 to win the 135th Durand Cup, its first Durand title in 22 years.",
+   "ty": "fact",
+   "tq": "Use the final result and title-history clue to identify the winner.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Who scored a hat-trick for East Bengal in the 2026 Durand Cup final?",
+   "o": [
+    "Abhishek Pawar",
+    "Ferran Torres",
+    "Lalrindika",
+    "Sanju Samson"
+   ],
+   "a": 2,
+   "x": "Lalrindika scored a hat-trick in East Bengal's 4-1 victory over Mohun Bagan.",
+   "ty": "fact",
+   "tq": "Directly associate a decisive individual performance with the correct final.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Which team won the 79th Santosh Trophy held in Assam in February 2026?",
+   "o": [
+    "Services",
+    "Jammu and Kashmir",
+    "Assam",
+    "Kerala"
+   ],
+   "a": 0,
+   "x": "Services defeated Kerala to win the 79th Santosh Trophy, securing its eighth title; Abhishek Pawar was associated with the result.",
+   "ty": "fact",
+   "tq": "Distinguish the champion from the defeated finalist and host state.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Jammu and Kashmir achieved which distinction in the Ranji Trophy 2025-26?",
+   "o": [
+    "Won its first Ranji Trophy title",
+    "Defeated Services in the semi-final",
+    "Retained the title for the third successive year",
+    "Won its eighth title"
+   ],
+   "a": 0,
+   "x": "Jammu and Kashmir won its maiden Ranji Trophy title in 2025-26, after reaching its first final.",
+   "ty": "fact",
+   "tq": "Focus on the title-history qualifier, a common APPSC trap.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Who became the first cricketer to play 200 Twenty20 Internationals?",
+   "o": [
+    "Deepti Sharma",
+    "Sanju Samson",
+    "Harmanpreet Kaur",
+    "Suryakumar Yadav"
+   ],
+   "a": 2,
+   "x": "Harmanpreet Kaur became the first cricketer to appear in 200 T20Is.",
+   "ty": "numerical",
+   "tq": "Match the milestone number with the correct sportsperson.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. ICC Women's T20 World Cup 2026 — Australia\n2. U-19 Men's World Cup 2026 — India\n3. Hockey Asia Cup 2025 — India\n4. FIH Hockey World Cup 2026 — Indian women fifth\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct. Australia won the Women's T20 World Cup, India won the U-19 title and Hockey Asia Cup, and the Indian women finished fifth at the 2026 FIH Hockey World Cup.",
+   "ty": "match",
+   "tq": "Confirm each event-result pair before selecting the combined code.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Which country won the ICC Women's T20 World Cup 2026?",
+   "o": [
+    "England",
+    "India",
+    "Australia",
+    "New Zealand"
+   ],
+   "a": 2,
+   "x": "Australia defeated England by seven wickets at Lord's on 5 July 2026 to win its seventh title.",
+   "ty": "numerical",
+   "tq": "Combine winner, opponent and title count to reject nearby alternatives.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "The first Kho Kho World Cup was held in:",
+   "o": [
+    "New Delhi",
+    "Ahmedabad",
+    "Leh",
+    "Mumbai"
+   ],
+   "a": 0,
+   "x": "India hosted the first Kho Kho World Cup in New Delhi from 13 to 19 January 2025, with 23 countries participating.",
+   "ty": "fact",
+   "tq": "Identify the host venue from a group of sports-event locations.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "With reference to the first Kho Kho World Cup, consider the following statements:\n1. India hosted the event.\n2. It was held from 13 to 19 January 2025.\n3. Twenty-three countries participated.\n4. There were 20 men's and 19 women's teams.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 3 are correct. The participation figures were 20 men's teams and 19 women's teams, not 20 and 19 countries respectively.",
+   "ty": "statements",
+   "tq": "Separate country count from category-wise team counts.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "India's best-ever performance at the World Para Athletics Championships 2025 was represented by:",
+   "o": [
+    "22 medals, including 9 gold, 7 silver and 6 bronze",
+    "20 medals, including 7 gold, 9 silver and 4 bronze",
+    "15 medals, including 6 gold, 6 silver and 3 bronze",
+    "22 medals, including 6 gold, 9 silver and 7 bronze"
+   ],
+   "a": 3,
+   "x": "India hosted the event for the first time in New Delhi and won a best-ever 22 medals: 6 gold, 9 silver and 7 bronze, placing tenth overall.",
+   "ty": "numerical",
+   "tq": "Check the total against the component medal figures.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Who became World champion in boxing in 2025?",
+   "o": [
+    "Minakshi Hooda only",
+    "Nikhat Zareen only",
+    "Jaismine Lamboria",
+    "Both Minakshi Hooda and Jaismine Lamboria only"
+   ],
+   "a": 2,
+   "x": "Jaismine Lamboria became a World champion in 2025. Minakshi Hooda and Nikhat Zareen were identified as the other 51 kg-class World champions.",
+   "ty": "fact",
+   "tq": "Distinguish the newly recorded achievement from associated champions.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Esha Singh won gold in which event at the ISSF World Cup Munich 2026?",
+   "o": [
+    "Women's skeet",
+    "Men's 25 m rapid-fire pistol",
+    "Women's 25 m pistol",
+    "Women's 10 m air rifle"
+   ],
+   "a": 2,
+   "x": "Esha Singh won gold in the women's 25 m pistol event and recorded a world-record qualification score.",
+   "ty": "fact",
+   "tq": "Match the athlete with the exact discipline rather than the broader sport.",
+   "sec": "Cricket and football - World Cups, IPL/WPL, Durand/Santosh  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the 5th Khelo India University Games is correct?\n1. It was held in Rajasthan.\n2. Beach volleyball was added for the first time.\n3. Canoeing-kayaking and cycling were also added for the first time.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Rajasthan hosted the fifth edition, which introduced beach volleyball, canoeing-kayaking and cycling.",
+   "ty": "statements",
+   "tq": "Test a host state together with multiple additions in the programme.",
+   "sec": "National games - medal-table topper + host state  [APPSC]"
+  },
+  {
+   "s": "The 6th Khelo India Winter Games 2026 were conducted by:",
+   "o": [
+    "SAI and FIFA",
+    "IOA and BCCI",
+    "MYAS and ICC",
+    "MYAS and SAI"
+   ],
+   "a": 3,
+   "x": "The 6th Khelo India Winter Games were run by the Ministry of Youth Affairs and Sports and the Sports Authority of India.",
+   "ty": "fact",
+   "tq": "Apply the 'who conducts the event' authority test.",
+   "sec": "National games - medal-table topper + host state  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched regarding the Khelo India Winter Games 2026?",
+   "o": [
+    "Ice events — Rajasthan; snow events — Bihar",
+    "Ice events — Gulmarg; snow events — Leh",
+    "Ice events — Leh; snow events — Gulmarg",
+    "Both ice and snow events — Chhattisgarh"
+   ],
+   "a": 2,
+   "x": "The 6th Khelo India Winter Games used Leh for ice events and Gulmarg for snow events. Figure skating was added for the first time.",
+   "ty": "comparison",
+   "tq": "Use the venue-category comparison to catch a reversed pairing.",
+   "sec": "National games - medal-table topper + host state  [APPSC]"
+  },
+  {
+   "s": "The first Khelo India Tribal Games were held in:",
+   "o": [
+    "Bihar",
+    "Ladakh",
+    "Rajasthan",
+    "Chhattisgarh"
+   ],
+   "a": 3,
+   "x": "Chhattisgarh hosted the first Khelo India Tribal Games from 26 March to 6 April 2026.",
+   "ty": "fact",
+   "tq": "Identify the host state while separating it from the other Khelo India hosts.",
+   "sec": "National games - medal-table topper + host state  [APPSC]"
+  },
+  {
+   "s": "Where was the first World Yogasana Championship held, and which country topped the medal table?",
+   "o": [
+    "Ahmedabad; India",
+    "New Delhi; India",
+    "Ahmedabad; Nepal",
+    "Chhattisgarh; India"
+   ],
+   "a": 0,
+   "x": "The first World Yogasana Championship was held at Ahmedabad, where India topped the medal table.",
+   "ty": "match",
+   "tq": "Link the event's venue with its medal-table leader.",
+   "sec": "National games - medal-table topper + host state  [APPSC]"
+  },
+  {
+   "s": "Khelo India is a Central Sector Scheme of:",
+   "o": [
+    "2016-17",
+    "2014-15",
+    "2017-18",
+    "2015-16"
+   ],
+   "a": 0,
+   "x": "Khelo India is a Central Sector Scheme introduced in 2016-17.",
+   "ty": "numerical",
+   "tq": "Distinguish the scheme's launch year from adjacent financial years.",
+   "sec": "National games - medal-table topper + host state  [APPSC]"
+  },
+  {
+   "s": "Which of the following schemes or programmes were subsumed under Khelo India?\n1. Rajiv Gandhi Khel Abhiyan\n2. Urban Sports Infrastructure Scheme\n3. National Sports Talent Search Scheme\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Khelo India subsumed Rajiv Gandhi Khel Abhiyan, the Urban Sports Infrastructure Scheme and the National Sports Talent Search Scheme.",
+   "ty": "statements",
+   "tq": "Test a scheme's component programmes through an all-correct combination.",
+   "sec": "National games - medal-table topper + host state  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly states the financial provisions associated with Khelo India?\n1. Cabinet-approved amount: ₹29,054 crore\n2. Assistance for National Sports Federations: ₹7,387 crore\n3. State share: ₹565 crore\n4. General States' sharing ratio: 60:40\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4",
+    "1, 2 and 3 only"
+   ],
+   "a": 2,
+   "x": "All four figures and provisions are correct: ₹29,054 crore, ₹7,387 crore, ₹565 crore and a 60:40 ratio for general States.",
+   "ty": "numerical",
+   "tq": "Verify each financial figure and the percentage-sharing condition before choosing the code.",
+   "sec": "National games - medal-table topper + host state  [APPSC]"
+  }
+ ]
+}

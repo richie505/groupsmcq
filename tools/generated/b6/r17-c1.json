@@ -1,0 +1,233 @@
+{
+ "book": 6,
+ "row": 17,
+ "chunk": 1,
+ "section": "Persons in news - appointments, resignations and obituaries",
+ "subsections": [
+  "Obituaries - person + field",
+  "Record-setting FIRSTs by Indians",
+  "Persons of the year and influence lists - publisher",
+  "UN Messengers of Peace and goodwill ambassadors",
+  "Indians elected to international bodies - body + post",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 16,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched with reference to persons who died in 2025–2026?\n1. Khaleda Zia — Bangladesh’s first woman Prime Minister and BNP leader\n2. Mark Tully — Journalist and author\n3. Madhav Gadgil — Ecologist associated with People’s Biodiversity Registers\n4. T.K. Oommen — Sociologist and recipient of Padma Bhushan in 2008",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Khaleda Zia was Bangladesh’s first woman Prime Minister, Mark Tully was a journalist and author, Madhav Gadgil was an ecologist, and T.K. Oommen received the Padma Bhushan in 2008.",
+   "ty": "statements",
+   "tq": "Use a statement-based scan to verify each person against the associated field and distinction.",
+   "sec": "Obituaries - person + field"
+  },
+  {
+   "s": "Consider the following pairs relating to notable obituaries:\na. Ajit Pawar — Maharashtra Deputy Chief Minister\nb. K.N. Panikkar — Historian\nc. Sumit Sarkar — Sociologist\nd. Jürgen Habermas — German philosopher\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "a, b and d only",
+    "a and c only",
+    "b, c and d only",
+    "a, b, c and d"
+   ],
+   "a": 0,
+   "x": "Ajit Pawar was Maharashtra’s Deputy Chief Minister, K.N. Panikkar was a historian and Jürgen Habermas was a German philosopher. Sumit Sarkar was also a historian, not a sociologist.",
+   "ty": "statements",
+   "tq": "Identify the swapped field in a person–profession list before selecting the coded combination.",
+   "sec": "Obituaries - person + field"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?\n1. Asha Bhosle — Playback singer\n2. N. Bhaskara Rao — Former Chief Minister of undivided Andhra Pradesh\n3. Jaspal Rana — Shooter and coach\n4. Alan Greenspan — Former President of the World Bank",
+   "o": [
+    "Jaspal Rana — Shooter and coach",
+    "Asha Bhosle — Playback singer",
+    "N. Bhaskara Rao — Former Chief Minister of undivided Andhra Pradesh",
+    "Alan Greenspan — Former President of the World Bank"
+   ],
+   "a": 3,
+   "x": "Alan Greenspan was the former Chairman of the U.S. Federal Reserve, not the former President of the World Bank. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the wrong authority or office in a person–designation matching question.",
+   "sec": "Obituaries - person + field"
+  },
+  {
+   "s": "With reference to the following persons, consider the statements:\n1. Teejan Bai was associated with Pandavani of Chhattisgarh and was a Padma Vibhushan awardee.\n2. Garfield Sobers was a West Indies all-rounder in cricket.\n3. Mudragada Padmanabham was associated with the Kapu movement in Andhra Pradesh.\n4. The family of Mudragada Padmanabham accepted the State honours offered after his death.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect because Mudragada Padmanabham’s family declined State honours.",
+   "ty": "statements",
+   "tq": "Test the exception by locating the single reversed detail in an otherwise correct set of statements.",
+   "sec": "Obituaries - person + field"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Zhu Rongji — Former Chinese Premier\n2. Justice M.S. Liberhan — Judge associated with the Babri demolition commission\n3. Sowcar Janaki — Actor in Telugu and Tamil cinema\n4. Gloria Steinem — Journalist and feminist",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4",
+    "1, 3 and 4 only"
+   ],
+   "a": 2,
+   "x": "All four pairs are correctly matched. Zhu Rongji was a former Chinese Premier, M.S. Liberhan chaired the Babri demolition commission, Sowcar Janaki acted in Telugu and Tamil cinema, and Gloria Steinem was a journalist and feminist.",
+   "ty": "statements",
+   "tq": "Confirm each pair independently rather than relying on one familiar name.",
+   "sec": "Obituaries - person + field"
+  },
+  {
+   "s": "Which one of the following is correctly matched?\n1. Alla Nani — Former Deputy Chief Minister of Andhra Pradesh\n2. C.D. Gopinath — India’s oldest Test cricketer\n3. Subhash Kashyap — Former Secretary-General of the Lok Sabha\n4. B.C. Khanduri — Former Union Highways Minister",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. The listed distinctions are associated respectively with Alla Nani, C.D. Gopinath, Subhash Kashyap and B.C. Khanduri.",
+   "ty": "statements",
+   "tq": "Use a person–office–field elimination approach for a multi-pair question.",
+   "sec": "Obituaries - person + field"
+  },
+  {
+   "s": "Who among the following was popularly known as the “Bridge Man of India”?",
+   "o": [
+    "Girish Bharadwaj",
+    "Jaspal Rana",
+    "Subhash Kashyap",
+    "Madhav Gadgil"
+   ],
+   "a": 0,
+   "x": "Girish Bharadwaj was popularly known as the “Bridge Man of India.”",
+   "ty": "fact",
+   "tq": "Directly identify the person linked with the distinctive popular title.",
+   "sec": "Obituaries - person + field"
+  },
+  {
+   "s": "Who became India’s longest-serving elected Prime Minister through the Cabinet resolution of 10 June 2026?",
+   "o": [
+    "Narendra Modi",
+    "Indira Gandhi",
+    "Atal Bihari Vajpayee",
+    "Jawaharlal Nehru"
+   ],
+   "a": 0,
+   "x": "Narendra Modi became India’s longest-serving elected Prime Minister through the Cabinet resolution dated 10 June 2026.",
+   "ty": "numerical",
+   "tq": "Match the dated official development with the person concerned.",
+   "sec": "Record-setting FIRSTs by Indians"
+  },
+  {
+   "s": "At the historic women’s Test at Lord’s in July 2026, which pair became the first women to enter the Lord’s honours board through their respective performances?",
+   "o": [
+    "R. Vaishali and Yastika Bhatia",
+    "Yastika Bhatia and Praggnanandhaa",
+    "Kranti Gaud and R. Vaishali",
+    "Kranti Gaud and Yastika Bhatia"
+   ],
+   "a": 3,
+   "x": "Kranti Gaud, with a five-wicket haul, and Yastika Bhatia, with a score of 113, became the first women on the Lord’s honours board.",
+   "ty": "fact",
+   "tq": "Link each record to the correct pair of performers rather than to the event alone.",
+   "sec": "Record-setting FIRSTs by Indians"
+  },
+  {
+   "s": "Bobby Mukkamala, who has roots in Krishna district of Andhra Pradesh, achieved which distinction in June 2025?",
+   "o": [
+    "He became the first Indian woman on the Lord’s honours board.",
+    "He became the first Indian to win the Women’s Candidates.",
+    "He became the first Indian to win Norway Chess.",
+    "He became the first person of Indian heritage to head the American Medical Association."
+   ],
+   "a": 3,
+   "x": "Bobby Mukkamala became the first person of Indian heritage to head the American Medical Association in June 2025. He has roots in Krishna district of Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Use the regional clue to connect the individual with the precise international distinction.",
+   "sec": "Record-setting FIRSTs by Indians"
+  },
+  {
+   "s": "Which of the following statements regarding international lists is correct?\n1. TIME 100 is published by TIME magazine.\n2. TIME Person of the Year is published by TIME magazine.\n3. The Forbes billionaires list is published by Forbes.\n4. The Forbes billionaires list is published by TIME magazine.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is false because the Forbes billionaires list is published by Forbes, not TIME magazine.",
+   "ty": "statements",
+   "tq": "Distinguish between similarly famous publications by matching each list with its publisher.",
+   "sec": "Persons of the year and influence lists - publisher"
+  },
+  {
+   "s": "Approximately how many APNRTS Goodwill Ambassadors are posted in the six Gulf countries to assist Andhra Pradesh migrants?",
+   "o": [
+    "About 100",
+    "About 25",
+    "About 200",
+    "About 50"
+   ],
+   "a": 0,
+   "x": "About 100 APNRTS Goodwill Ambassadors are posted in the six Gulf countries to help Andhra Pradesh migrants.",
+   "ty": "numerical",
+   "tq": "Identify the correct approximate figure from a set of closely spaced numerical options.",
+   "sec": "UN Messengers of Peace and goodwill ambassadors"
+  },
+  {
+   "s": "Consider the following statements about Indians and India’s representation in international bodies:\n1. Bimal N. Patel was elected as a judge of the International Tribunal for the Law of the Sea.\n2. Bimal N. Patel’s term is from 2026 to 2035.\n3. The International Tribunal for the Law of the Sea is located in Hamburg and has 21 judges.\n4. India was elected unopposed to the UN Human Rights Council for 2026–2028.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Bimal N. Patel is an ITLOS judge for 2026–2035; ITLOS is in Hamburg and has 21 judges; and India was elected unopposed to the UN Human Rights Council for 2026–2028.",
+   "ty": "statements",
+   "tq": "Combine office, tenure, institutional location and composition in a statement-verification question.",
+   "sec": "Indians elected to international bodies - body + post"
+  },
+  {
+   "s": "Which one of the following correctly describes India’s recent membership in international bodies?\n1. India — UN Human Rights Council, 2026–2028\n2. India — ICAO Council, 2025–2028\n3. India — International Tribunal for the Law of the Sea, 2026–2035\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "India was elected to the UN Human Rights Council for 2026–2028 and re-elected to the ICAO Council for 2025–2028. Bimal N. Patel, rather than India as a country, was elected as an ITLOS judge for 2026–2035.",
+   "ty": "statements",
+   "tq": "Separate the country’s institutional membership from an individual’s elected international post.",
+   "sec": "Indians elected to international bodies - body + post"
+  },
+  {
+   "s": "Which of the following developments has current relevance in the international and regional context?\n1. The UN Secretary-General race includes the first UNSC straw poll of August 2026.\n2. The Gukesh–Sindarov title match has kept the two players in the news.\n3. Justice Lisa Gill became the first woman Chief Justice of the Andhra Pradesh High Court.\n4. Mahesh Dixit became IB chief from the Andhra Pradesh cadre.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. They represent the international, sports, Andhra Pradesh judicial and security-service angles respectively.",
+   "ty": "statements",
+   "tq": "Use a broad current-affairs statement set to connect each person or event with its specific relevance.",
+   "sec": "Universal angles"
+  }
+ ]
+}

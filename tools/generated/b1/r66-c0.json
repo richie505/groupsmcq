@@ -1,0 +1,397 @@
+{
+ "book": 1,
+ "row": 66,
+ "chunk": 0,
+ "section": "Gupta art, literature, science and technology - Kalidasa, Aryabhata, Varahamihira, Ajanta, Mehrauli pillar",
+ "subsections": [
+  "Literary work → author (Kalidasa vs wrongly attributed works; Mudrarakshasa, Mrichchhakatika, Amarakosha, Panchatantra, Nitisara, Kamasutra, Bhasa)",
+  "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 27,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Kalidasa was one of the Navaratnas in the court of which ruler?",
+   "o": [
+    "Chandragupta II",
+    "Skandagupta",
+    "Kumaragupta I",
+    "Samudragupta"
+   ],
+   "a": 0,
+   "x": "Kalidasa is traditionally regarded as one of the Navaratnas in the court of Chandragupta II.",
+   "ty": "fact",
+   "tq": "Use the person–patron association to eliminate rulers from the same dynasty.",
+   "sec": "Literary work → author (Kalidasa vs wrongly attributed works; Mudrarakshasa, Mrichchhakatika, Amarakosha, Panchatantra, Nitisara, Kamasutra, Bhasa)"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Ritusamhara — Kalidasa",
+    "Nitisara — Bharavi",
+    "Kamasutra — Kamandaka",
+    "Devichandraguptam — Sudraka"
+   ],
+   "a": 0,
+   "x": "Ritusamhara is attributed to Kalidasa. Nitisara was written by Kamandaka, Kamasutra by Vatsyayana and Devichandraguptam by Vishakhadatta.",
+   "ty": "match",
+   "tq": "Start from the sure author–work pair and reject swapped authorship.",
+   "sec": "Literary work → author (Kalidasa vs wrongly attributed works; Mudrarakshasa, Mrichchhakatika, Amarakosha, Panchatantra, Nitisara, Kamasutra, Bhasa)"
+  },
+  {
+   "s": "Consider the following statements about the works of Kalidasa:\n1. Meghaduta is a poem.\n2. Abhijnana Shakuntalam is a play.\n3. Malavikagnimitra is a political treatise.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Meghaduta is a poem and Abhijnana Shakuntalam is a play. Malavikagnimitra is also a play, not a political treatise.",
+   "ty": "statements",
+   "tq": "Find the wrongly classified work before matching the coded options.",
+   "sec": "Literary work → author (Kalidasa vs wrongly attributed works; Mudrarakshasa, Mrichchhakatika, Amarakosha, Panchatantra, Nitisara, Kamasutra, Bhasa)"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Kiratarjuniya — Sriharsha",
+    "Shishupalavadha — Magha",
+    "Kamasutra — Vatsyayana",
+    "Nitisara — Kamandaka"
+   ],
+   "a": 0,
+   "x": "Kiratarjuniya was composed by Bharavi. Sriharsha was the author of Naishadhiyacharita.",
+   "ty": "negative",
+   "tq": "Check the author of each work and identify the deliberate author swap.",
+   "sec": "Literary work → author (Kalidasa vs wrongly attributed works; Mudrarakshasa, Mrichchhakatika, Amarakosha, Panchatantra, Nitisara, Kamasutra, Bhasa)"
+  },
+  {
+   "s": "The work Devichandraguptam, which provides information about Ramagupta and Dhruvadevi, was written by",
+   "o": [
+    "Vishakhadatta",
+    "Amarasimha",
+    "Bhasa",
+    "Kamandaka"
+   ],
+   "a": 0,
+   "x": "Devichandraguptam is attributed to Vishakhadatta and deals with events connected with Ramagupta and Dhruvadevi.",
+   "ty": "fact",
+   "tq": "Use the author–work–theme chain rather than relying on the name of the ruler alone.",
+   "sec": "Literary work → author (Kalidasa vs wrongly attributed works; Mudrarakshasa, Mrichchhakatika, Amarakosha, Panchatantra, Nitisara, Kamasutra, Bhasa)"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Panchatantra — Grammar",
+    "Nitisara — Statecraft",
+    "Amarakosha — Surgery",
+    "Kamasutra — Astronomy"
+   ],
+   "a": 1,
+   "x": "Nitisara is a treatise on polity and statecraft. Amarakosha is a lexicon, Kamasutra deals with human relationships and conduct, and Panchatantra contains animal fables on statecraft.",
+   "ty": "application",
+   "tq": "Match each work with its subject, not merely with its author.",
+   "sec": "Literary work → author (Kalidasa vs wrongly attributed works; Mudrarakshasa, Mrichchhakatika, Amarakosha, Panchatantra, Nitisara, Kamasutra, Bhasa)"
+  },
+  {
+   "s": "With reference to Sanskrit literature, consider the following statements:\n1. Hitopadesha was composed later and was based on the Panchatantra.\n2. Bhasa was earlier than Kalidasa.\n3. Charudatta is regarded as the most famous among the plays associated with Bhasa.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Hitopadesha is a later work based on the Panchatantra, while Bhasa predates Kalidasa and Charudatta is his best-known play in this context.",
+   "ty": "statements",
+   "tq": "Treat each statement independently and select the complete combination when all three fit.",
+   "sec": "Literary work → author (Kalidasa vs wrongly attributed works; Mudrarakshasa, Mrichchhakatika, Amarakosha, Panchatantra, Nitisara, Kamasutra, Bhasa)"
+  },
+  {
+   "s": "Arrange the following works in the order in which their authors are conventionally placed from earlier to later:\nA. Plays of Bhasa\nB. Works of Kalidasa\nC. Naishadhiyacharita of Sriharsha\nD. Shishupalavadha of Magha",
+   "o": [
+    "A, B, D, C",
+    "B, A, D, C",
+    "A, D, B, C",
+    "C, D, B, A"
+   ],
+   "a": 0,
+   "x": "Bhasa is earlier than Kalidasa; Magha is later than Kalidasa, and Sriharsha's Naishadhiyacharita is later still. Hence the order is A, B, D, C.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest entries first, then place the middle authors.",
+   "sec": "Literary work → author (Kalidasa vs wrongly attributed works; Mudrarakshasa, Mrichchhakatika, Amarakosha, Panchatantra, Nitisara, Kamasutra, Bhasa)"
+  },
+  {
+   "s": "Which one of the following is NOT included among the five Mahakavyas listed in relation to classical Sanskrit literature?",
+   "o": [
+    "Abhijnana Shakuntalam",
+    "Raghuvamsha",
+    "Kiratarjuniya",
+    "Shishupalavadha"
+   ],
+   "a": 0,
+   "x": "The five listed Mahakavyas are Raghuvamsha, Kumarasambhava, Kiratarjuniya, Shishupalavadha and Naishadhiyacharita. Abhijnana Shakuntalam is a play, not one of these five Mahakavyas.",
+   "ty": "negative",
+   "tq": "Separate dramatic works from epic poems before choosing the exception.",
+   "sec": "Literary work → author (Kalidasa vs wrongly attributed works; Mudrarakshasa, Mrichchhakatika, Amarakosha, Panchatantra, Nitisara, Kamasutra, Bhasa)"
+  },
+  {
+   "s": "Who wrote Naishadhiyacharita, a Mahakavya based on the story of Nala and Damayanti?",
+   "o": [
+    "Magha",
+    "Sriharsha",
+    "Kalidasa",
+    "Bharavi"
+   ],
+   "a": 1,
+   "x": "Naishadhiyacharita was composed by Sriharsha and deals with the story of Nala and Damayanti.",
+   "ty": "fact",
+   "tq": "Link the distinctive theme to the correct Mahakavya author.",
+   "sec": "Literary work → author (Kalidasa vs wrongly attributed works; Mudrarakshasa, Mrichchhakatika, Amarakosha, Panchatantra, Nitisara, Kamasutra, Bhasa)"
+  },
+  {
+   "s": "Which of the following Smritis is associated with the legal literature of the Gupta age?",
+   "o": [
+    "Aryabhatiya",
+    "Narada Smriti",
+    "Panchasiddhantika",
+    "Buddhacharita"
+   ],
+   "a": 1,
+   "x": "Narada Smriti is one of the legal works associated with the age. Yajnavalkya, Katyayana and Brihaspati Smritis are also listed among such legal texts.",
+   "ty": "fact",
+   "tq": "Identify the legal text rather than a literary or scientific work.",
+   "sec": "Literary work → author (Kalidasa vs wrongly attributed works; Mudrarakshasa, Mrichchhakatika, Amarakosha, Panchatantra, Nitisara, Kamasutra, Bhasa)"
+  },
+  {
+   "s": "Aryabhatiya was composed in which year?",
+   "o": [
+    "399 CE",
+    "499 CE",
+    "599 CE",
+    "629 CE"
+   ],
+   "a": 1,
+   "x": "Aryabhatiya was composed by Aryabhata in 499 CE.",
+   "ty": "numerical",
+   "tq": "Compare the year options carefully; the middle historical date is the correct one.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Consider the following statements regarding Aryabhata:\n1. He held that the Earth rotates on its axis.\n2. He explained eclipses through scientific causes.\n3. He regarded the Earth as spherical.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Aryabhata stated that the Earth rotates on its axis, described it as spherical and gave scientific explanations for eclipses. Therefore all three statements are correct.",
+   "ty": "statements",
+   "tq": "Test each scientific contribution separately before selecting the combined code.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Aryabhata's contribution to mathematics included an accurate value of",
+   "o": [
+    "the logarithm of ten",
+    "pi",
+    "the square root of two",
+    "the golden ratio"
+   ],
+   "a": 1,
+   "x": "Aryabhata is noted for calculating an accurate value of pi, besides his work on place value and zero.",
+   "ty": "fact",
+   "tq": "Use the precise contribution rather than selecting a generally famous mathematical concept.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Varahamihira was associated with which of the following places and period?",
+   "o": [
+    "Avanti, 505–587 CE",
+    "Karnataka, 800–875 CE",
+    "Taxila, 100–175 CE",
+    "Pataliputra, 320–375 CE"
+   ],
+   "a": 0,
+   "x": "Varahamihira is placed in Avanti and is dated approximately to 505–587 CE.",
+   "ty": "numerical",
+   "tq": "Combine the place and date to distinguish the scholar from nearby ancient figures.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Which of the following observations was associated with Varahamihira's scientific writings?",
+   "o": [
+    "The Earth was a flat disc",
+    "Comets were caused by ocean tides alone",
+    "Termites could indicate the presence of underground water",
+    "Eclipses were caused by celestial demons"
+   ],
+   "a": 2,
+   "x": "Varahamihira associated termite activity with indications of underground water. His works also dealt with astronomy, astrology, geography, botany and architecture.",
+   "ty": "application",
+   "tq": "Apply the scholar's specific observation to the practical situation described.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Varahamihira's improvement of Aryabhata's work particularly concerned the",
+   "o": [
+    "classification of medicinal plants",
+    "rules of surgery",
+    "decimal notation for zero",
+    "sine tables"
+   ],
+   "a": 3,
+   "x": "Varahamihira improved Aryabhata's sine tables. His other noted contributions included the study of shifting equinoxes and earthquake theories.",
+   "ty": "fact",
+   "tq": "Distinguish the astronomical contribution from the mathematical and medical contributions of other scholars.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Brahmagupta — Brahmasphutasiddhanta",
+    "Bhaskara I — Lilavati",
+    "Bhaskara II — Khandakhadyaka",
+    "Varahamihira — Sushruta Samhita"
+   ],
+   "a": 0,
+   "x": "Brahmasphutasiddhanta was written by Brahmagupta. Lilavati was written by Bhaskara II, Khandakhadyaka by Brahmagupta, and Sushruta Samhita by Sushruta.",
+   "ty": "match",
+   "tq": "Use the work–author association and watch for works exchanged between Brahmagupta and the Bhaskaracharyas.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Brahmagupta is especially associated with rules of arithmetic involving",
+   "o": [
+    "only prime numbers",
+    "zero and negative quantities",
+    "the classification of surgical instruments",
+    "astronomical sine tables alone"
+   ],
+   "a": 1,
+   "x": "Brahmagupta formulated rules of arithmetic involving zero and negative quantities. He also wrote Brahmasphutasiddhanta and Khandakhadyaka.",
+   "ty": "fact",
+   "tq": "Identify the distinctive mathematical contribution rather than the scholar's astronomical context.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Bhaskara I is known for writing a commentary on which work?",
+   "o": [
+    "Ganitasarasangraha",
+    "Brihat Samhita",
+    "Siddhanta Shiromani",
+    "Aryabhatiya"
+   ],
+   "a": 3,
+   "x": "Bhaskara I wrote a commentary on Aryabhatiya and helped spread Aryabhata's school of astronomy.",
+   "ty": "fact",
+   "tq": "Match the commentator with the foundational text he explained.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "The year 629 CE is associated with Bhaskara I's use of",
+   "o": [
+    "Roman numerals for astronomical calculations",
+    "negative numbers in legal texts",
+    "decimal place value with a circle for zero",
+    "logarithmic tables in trigonometry"
+   ],
+   "a": 2,
+   "x": "Bhaskara I is associated with writing numbers in decimal place-value notation and using a circle for zero in 629 CE.",
+   "ty": "numerical",
+   "tq": "Use the date–innovation pairing to distinguish Bhaskara I from other mathematicians.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Which statement correctly distinguishes Bhaskara II from Bhaskara I?",
+   "o": [
+    "Bhaskara II belonged to the sixth century and wrote Aryabhatiya.",
+    "Bhaskara II belonged to the twelfth century and wrote Siddhanta Shiromani.",
+    "Bhaskara II was an astronomer of the Gupta court who wrote Brihat Samhita.",
+    "Bhaskara II was a physician who wrote Charaka Samhita."
+   ],
+   "a": 1,
+   "x": "Bhaskara II belonged to the twelfth century and authored Siddhanta Shiromani, in addition to Lilavati. Bhaskara I was the commentator on Aryabhatiya.",
+   "ty": "confusable",
+   "tq": "Separate similarly named scholars by date and principal work.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Siddhanta Shiromani is primarily associated with which field in the works of Bhaskara II?",
+   "o": [
+    "Astronomy",
+    "Lexicography",
+    "Medicine",
+    "Political science"
+   ],
+   "a": 0,
+   "x": "Siddhanta Shiromani is associated with astronomy. Bhaskara II's Lilavati dealt with mathematics.",
+   "ty": "fact",
+   "tq": "Distinguish the two principal works of Bhaskara II by subject.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Mahavira — Brihat Jataka",
+    "Sushruta — Sushruta Samhita",
+    "Palakapya — Hastyayurveda",
+    "Vagbhata — Ashtangahridaya"
+   ],
+   "a": 0,
+   "x": "Mahavira wrote Ganitasarasangraha, not Brihat Jataka. Ashtangahridaya, Hastyayurveda and Sushruta Samhita are associated respectively with Vagbhata, Palakapya and Sushruta.",
+   "ty": "negative",
+   "tq": "Find the one work belonging to a different disciplinary and authorial group.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Who is traditionally described as the 'Father of Ayurveda' and was also counted among the Navaratnas?",
+   "o": [
+    "Charaka",
+    "Dhanvantari",
+    "Sushruta",
+    "Vagbhata"
+   ],
+   "a": 1,
+   "x": "Dhanvantari is traditionally described as the Father of Ayurveda and is counted among the Navaratnas. Charaka and Sushruta are associated with important medical treatises, but the stated title belongs to Dhanvantari.",
+   "ty": "fact",
+   "tq": "Use the distinctive title to identify the correct medical scholar.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Varahamihira — Brihat Samhita\n2. Brahmagupta — Khandakhadyaka\n3. Bhaskara II — Siddhanta Shiromani\n4. Dhanvantari — Hastyayurveda\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Pairs 1, 2 and 3 are correctly matched. Hastyayurveda was written by Palakapya, not Dhanvantari.",
+   "ty": "statements",
+   "tq": "Check each work against its specialist author and isolate the medical-work substitution.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  },
+  {
+   "s": "Which one of the following statements about Aryabhata is correct?",
+   "o": [
+    "He treated mathematics as a distinct subject and included a separate Ganitapada in Aryabhatiya.",
+    "He wrote Siddhanta Shiromani in the twelfth century.",
+    "He rejected the use of place value in astronomical calculations.",
+    "He treated mathematics only as an auxiliary branch of medicine."
+   ],
+   "a": 0,
+   "x": "Aryabhata is regarded as the first Indian scholar to treat mathematics as a distinct subject; Aryabhatiya contains a separate Ganitapada. Siddhanta Shiromani belongs to Bhaskara II.",
+   "ty": "application",
+   "tq": "Identify the precise distinction between a scholar's method and later works wrongly attributed to him.",
+   "sec": "Scientists → field + contribution (Aryabhata, Varahamihira, Brahmagupta, Bhaskara I and II, Charaka, Dhanvantari)"
+  }
+ ]
+}

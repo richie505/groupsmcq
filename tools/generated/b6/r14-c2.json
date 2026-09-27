@@ -1,0 +1,679 @@
+{
+ "book": 6,
+ "row": 14,
+ "chunk": 2,
+ "section": "Awards and honours - national civilian awards, international prizes, film and literary awards",
+ "subsections": [
+  "Film awards - winner + category",
+  "Highest foreign civilian honours to Indian leaders - country + honour",
+  "Arts awards - recipient + field",
+  "International prizes - recipient, country, field"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 48,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "At the 98th Academy Awards held in March 2026, which film won the Best Picture award?",
+   "o": [
+    "Article 370",
+    "Hamnet",
+    "One Battle After Another",
+    "Homebound"
+   ],
+   "a": 2,
+   "x": "One Battle After Another won Best Picture at the 98th Oscars held in March 2026.",
+   "ty": "fact",
+   "tq": "Direct award-winner recall using nearby film titles as distractors.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Who was adjudged the Best Director at the 98th Academy Awards in 2026?",
+   "o": [
+    "Cillian Murphy",
+    "Venky Atluri",
+    "Michael B. Jordan",
+    "Paul Thomas Anderson"
+   ],
+   "a": 3,
+   "x": "Paul Thomas Anderson won the Best Director award at the 98th Academy Awards.",
+   "ty": "fact",
+   "tq": "Match the individual with the precise award category.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Consider the following statements regarding the 98th Academy Awards:\n1. Michael B. Jordan won the Best Actor award.\n2. Jessie Buckley won the Best Actress award for Hamnet.\n3. Autumn Durald Arkapaw became the first woman to win Best Cinematography.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Michael B. Jordan won Best Actor, Jessie Buckley won Best Actress for Hamnet, and Autumn Durald Arkapaw became the first woman to win Best Cinematography.",
+   "ty": "statements",
+   "tq": "Statement verification across multiple award categories.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "The film One Battle After Another won how many Oscars at the 98th Academy Awards?",
+   "o": [
+    "Seven",
+    "Four",
+    "Six",
+    "Five"
+   ],
+   "a": 2,
+   "x": "One Battle After Another won six Oscars at the 98th Academy Awards.",
+   "ty": "numerical",
+   "tq": "Numerical recall with closely spaced award counts.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Which film became the first Indian winner in the Best Children's and Family Film category at the 79th BAFTA Awards?",
+   "o": [
+    "Lucky Baskhar",
+    "Homebound",
+    "12th Fail",
+    "Boong"
+   ],
+   "a": 3,
+   "x": "The Manipuri film Boong became the first Indian film to win the Best Children's and Family Film category at the 79th BAFTA Awards.",
+   "ty": "fact",
+   "tq": "Direct category-winner recall with a first-in-category trap.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "The 72nd National Film Awards, relating to films of 2024, gave the Best Feature Film award to:",
+   "o": [
+    "Article 370",
+    "Bramayugam",
+    "12th Fail",
+    "Chandu Champion"
+   ],
+   "a": 0,
+   "x": "Article 370 was selected as the Best Feature Film at the 72nd National Film Awards.",
+   "ty": "fact",
+   "tq": "Distinguishing adjacent National Film Awards years and categories.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Who among the following received the Best Actress award at the 72nd National Film Awards?",
+   "o": [
+    "Rita Ganguly",
+    "Rani Mukerji",
+    "Jessie Buckley",
+    "Yami Gautam"
+   ],
+   "a": 3,
+   "x": "Yami Gautam won the Best Actress award at the 72nd National Film Awards for films of 2024.",
+   "ty": "fact",
+   "tq": "Winner-category discrimination across two National Film Awards editions.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with the 72nd National Film Awards?\n1. Mammootty — Best Actor\n2. Kartik Aaryan — Best Actor\n3. Venky Atluri — Best Screenplay (Dialogue)\n4. Rani Mukerji — Best Actress",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct. Mammootty and Kartik Aaryan shared Best Actor, Venky Atluri won Best Screenplay (Dialogue) for Lucky Baskhar, and Yami Gautam—not Rani Mukerji—won Best Actress at the 72nd Awards. Therefore, statement 4 is false and the correct combination should be 1, 2 and 3 only.",
+   "ty": "statements",
+   "tq": "Find the swapped winner-category pair rather than accepting a familiar name.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Which film won the Best Feature award at the 71st National Film Awards for films of 2023?",
+   "o": [
+    "Article 370",
+    "Bramayugam",
+    "Lucky Baskhar",
+    "12th Fail"
+   ],
+   "a": 3,
+   "x": "12th Fail won the Best Feature award at the 71st National Film Awards for 2023.",
+   "ty": "fact",
+   "tq": "Year-and-award matching between consecutive editions.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Consider the following statements about the 71st National Film Awards:\n1. Shah Rukh Khan and Vikrant Massey shared the Best Actor award.\n2. Rani Mukerji won the Best Actress award.\n3. Mohanlal received the Dadasaheb Phalke Award.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct for the 71st National Film Awards relating to films of 2023.",
+   "ty": "statements",
+   "tq": "Coded statement combination testing several linked award results.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Who was selected for the Dadasaheb Phalke Award for 2024?",
+   "o": [
+    "Mohanlal",
+    "Dr Rajkumar",
+    "Anant Nag",
+    "Devika Rani"
+   ],
+   "a": 2,
+   "x": "Anant Nag was selected for the Dadasaheb Phalke Award for 2024.",
+   "ty": "fact",
+   "tq": "Direct recipient recall with former recipients as distractors.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Anant Nag became the second Kannada actor to receive the Dadasaheb Phalke Award after:",
+   "o": [
+    "Mohanlal",
+    "Shah Rukh Khan",
+    "Devika Rani",
+    "Dr Rajkumar"
+   ],
+   "a": 3,
+   "x": "Dr Rajkumar was the first Kannada actor to receive the Dadasaheb Phalke Award, followed by Anant Nag.",
+   "ty": "confusable",
+   "tq": "Confusable-pair discrimination between first and subsequent recipients.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Which one of the following statements regarding the Dadasaheb Phalke Award is correct?",
+   "o": [
+    "It was instituted in 1969 and first given to Mohanlal.",
+    "It was instituted in 1969 and first given to Devika Rani.",
+    "It was instituted in 1995 and first given to Anant Nag.",
+    "It was instituted in 1952 and first given to Dr Rajkumar."
+   ],
+   "a": 1,
+   "x": "The Dadasaheb Phalke Award was instituted in 1969, and Devika Rani was its first recipient.",
+   "ty": "fact",
+   "tq": "Institution-year and first-recipient pairing.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "The cash component of the Dadasaheb Phalke Award was raised in 2024 from ₹10 lakh to:",
+   "o": [
+    "₹12 lakh",
+    "₹15 lakh",
+    "₹20 lakh",
+    "₹25 lakh"
+   ],
+   "a": 1,
+   "x": "The cash prize was increased from ₹10 lakh to ₹15 lakh in 2024.",
+   "ty": "numerical",
+   "tq": "Quantitative recall using nearby monetary values.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Which film was selected as India's entry for the 98th Academy Awards?",
+   "o": [
+    "Boong",
+    "Article 370",
+    "Homebound",
+    "One Battle After Another"
+   ],
+   "a": 2,
+   "x": "Homebound was selected as India's entry for the 98th Academy Awards.",
+   "ty": "fact",
+   "tq": "Distinguishing a national entry from an international award winner.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "The 72nd National Film Awards ceremony is scheduled to be held at Ekta Nagar in Gujarat. What is notable about this venue?",
+   "o": [
+    "It is the first time the ceremony is being held in a Union Territory.",
+    "It is the permanent venue of the National Film Awards.",
+    "It is the first venue outside India for the ceremony.",
+    "It is the first time the ceremony is being held outside Delhi."
+   ],
+   "a": 3,
+   "x": "The 72nd National Film Awards ceremony at Ekta Nagar, Gujarat, marks the first time the ceremony is being held outside Delhi.",
+   "ty": "application",
+   "tq": "Apply the location fact to identify the specific institutional distinction.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Which State is scheduled to host the National Film Awards ceremony for the first time in 2026?",
+   "o": [
+    "Tamil Nadu",
+    "Gujarat",
+    "Maharashtra",
+    "Andhra Pradesh"
+   ],
+   "a": 1,
+   "x": "Gujarat is scheduled to host the National Film Awards ceremony for the first time in 2026.",
+   "ty": "fact",
+   "tq": "Location-based current-affairs recall.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "The Government of Andhra Pradesh is reviving which of the following awards along with the Nandi Natakotsavams?",
+   "o": [
+    "Nandi Awards",
+    "Raghupathi Venkaiah Awards",
+    "Sangeet Natak Akademi Awards",
+    "Gaddar Awards"
+   ],
+   "a": 0,
+   "x": "The Andhra Pradesh Government is reviving the Nandi Awards along with the Nandi Natakotsavams.",
+   "ty": "fact",
+   "tq": "State-specific award identification.",
+   "sec": "Film awards - winner + category"
+  },
+  {
+   "s": "Which Indian leader received the Grand Cross of the Order of Makarios III from Cyprus in June 2025?",
+   "o": [
+    "Ramnath Kovind",
+    "Jawaharlal Nehru",
+    "Narendra Modi",
+    "S. Jaishankar"
+   ],
+   "a": 2,
+   "x": "Prime Minister Narendra Modi received the Grand Cross of the Order of Makarios III from Cyprus in June 2025.",
+   "ty": "fact",
+   "tq": "Country-honour matching with a foreign civilian award.",
+   "sec": "Highest foreign civilian honours to Indian leaders - country + honour"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Country)\na. Ethiopia\na. Norway\nc. Slovakia\nd. Indonesia\n\nList-II (Honour)\ni. Bintang Adipurna\nii. Great Honour Nishan\niii. Order of the White Double Cross, First Class\niv. Grand Cross of the Royal Norwegian Order of Merit\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–ii, c–i, d–iii",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–i, b–iii, c–ii, d–iv"
+   ],
+   "a": 0,
+   "x": "Ethiopia is associated with the Great Honour Nishan, Norway with the Grand Cross of the Royal Norwegian Order of Merit, Slovakia with the Order of the White Double Cross, First Class, and Indonesia with Bintang Adipurna.",
+   "ty": "match",
+   "tq": "Start from the sure country-honour pairs and eliminate codes.",
+   "sec": "Highest foreign civilian honours to Indian leaders - country + honour"
+  },
+  {
+   "s": "The Grand Cross of the Royal Norwegian Order of Merit was conferred in connection with which event?",
+   "o": [
+    "The 1st India-Africa Forum Summit in Addis Ababa",
+    "The Commonwealth Summit in London",
+    "The ASEAN-India Summit in Jakarta",
+    "The 3rd India-Nordic Summit in Oslo"
+   ],
+   "a": 3,
+   "x": "The honour was conferred in May 2026 during the 3rd India-Nordic Summit in Oslo.",
+   "ty": "fact",
+   "tq": "Event-location association for a diplomatic honour.",
+   "sec": "Highest foreign civilian honours to Indian leaders - country + honour"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Indonesia — Oliy Darajali Do'stlik Order",
+    "Slovakia — Order of the White Double Cross, First Class",
+    "Ethiopia — Great Honour Nishan",
+    "Cyprus — Grand Cross of the Order of Makarios III"
+   ],
+   "a": 0,
+   "x": "Indonesia is associated with Bintang Adipurna. The Oliy Darajali Do'stlik Order was conferred by Uzbekistan.",
+   "ty": "negative",
+   "tq": "Find the wrongly paired country and honour.",
+   "sec": "Highest foreign civilian honours to Indian leaders - country + honour"
+  },
+  {
+   "s": "Who was the second Indian Prime Minister to receive the Bintang Adipurna?",
+   "o": [
+    "Jawaharlal Nehru",
+    "Indira Gandhi",
+    "Narendra Modi",
+    "Manmohan Singh"
+   ],
+   "a": 2,
+   "x": "Narendra Modi was the second Indian Prime Minister to receive Bintang Adipurna; Jawaharlal Nehru received it posthumously in 1995.",
+   "ty": "confusable",
+   "tq": "First-versus-second recipient discrimination.",
+   "sec": "Highest foreign civilian honours to Indian leaders - country + honour"
+  },
+  {
+   "s": "Match the following countries with the honours listed in 2026:\nList-I (Country)\na. Sweden\nb. Seychelles\nc. Indonesia\nd. Uzbekistan\n\nList-II (Honour)\ni. Guardian of the Blue Horizon\nii. Oliy Darajali Do'stlik Order\niii. Royal Order of the Polar Star, Commander Grand Cross\niv. Bintang Adipurna\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–i, c–iv, d–ii",
+    "a–i, b–iii, c–ii, d–iv",
+    "a–iv, b–ii, c–iii, d–i",
+    "a–ii, b–iv, c–i, d–iii"
+   ],
+   "a": 0,
+   "x": "Sweden is associated with the Royal Order of the Polar Star, Commander Grand Cross; Seychelles with Guardian of the Blue Horizon; Indonesia with Bintang Adipurna; and Uzbekistan with the Oliy Darajali Do'stlik Order.",
+   "ty": "match",
+   "tq": "Use the distinctive honour names to solve the country-honour code.",
+   "sec": "Highest foreign civilian honours to Indian leaders - country + honour"
+  },
+  {
+   "s": "Which of the following statements about the Sangeet Natak Akademi awards is correct?\n1. The Akademi was established in 1952.\n2. It functions under the Ministry of Culture.\n3. The Akademi Ratna carries a cash award of ₹3 lakh.\n4. The Akademi Puraskar carries a cash award of ₹1 lakh.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The Sangeet Natak Akademi dates from 1952, functions under the Ministry of Culture, and the listed cash amounts are ₹3 lakh for Ratna and ₹1 lakh for the Award.",
+   "ty": "statements",
+   "tq": "Coded combination testing institutional and monetary details.",
+   "sec": "Arts awards - recipient + field"
+  },
+  {
+   "s": "The maximum number of living Fellows of the Sangeet Natak Akademi at any time is:",
+   "o": [
+    "30",
+    "40",
+    "50",
+    "60"
+   ],
+   "a": 1,
+   "x": "The Sangeet Natak Akademi can have at most 40 living Fellows.",
+   "ty": "numerical",
+   "tq": "Direct numerical recall with close alternatives.",
+   "sec": "Arts awards - recipient + field"
+  },
+  {
+   "s": "Who confers the Fellowships and Awards of the Sangeet Natak Akademi?",
+   "o": [
+    "The Union Minister of Culture alone",
+    "The Speaker of the Lok Sabha",
+    "The Prime Minister of India",
+    "The President of India"
+   ],
+   "a": 3,
+   "x": "The President of India confers the Sangeet Natak Akademi Fellowships and Awards.",
+   "ty": "fact",
+   "tq": "Authority-identification trap involving constitutional officeholders.",
+   "sec": "Arts awards - recipient + field"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Pasumarthi Rattaiah Sarma — Kuchipudi\n2. Sudharani Raghupathy — Akademi Ratna\n3. Puru Dadheech — Akademi Ratna\n4. Rita Ganguly — Akademi Ratna\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct. Pasumarthi Rattaiah Sarma is associated with Kuchipudi, and Sudharani Raghupathy, Puru Dadheech and Rita Ganguly are among the Akademi Ratna fellows listed for 2026.",
+   "ty": "statements",
+   "tq": "Match recipients with fields and award status.",
+   "sec": "Arts awards - recipient + field"
+  },
+  {
+   "s": "For which years were the Sangeet Natak Akademi Fellowships and Awards presented in August 2026?",
+   "o": [
+    "2025 and 2026",
+    "2023 and 2024",
+    "2022 and 2023",
+    "2024 and 2025"
+   ],
+   "a": 3,
+   "x": "In August 2026, the President presented the awards for 2024 and 2025 to 115 artists.",
+   "ty": "numerical",
+   "tq": "Year-pair discrimination in a current-affairs award question.",
+   "sec": "Arts awards - recipient + field"
+  },
+  {
+   "s": "How many artists received the Sangeet Natak Akademi Fellowships and Awards for 2024 and 2025 in August 2026?",
+   "o": [
+    "105",
+    "110",
+    "115",
+    "120"
+   ],
+   "a": 2,
+   "x": "The awards for 2024 and 2025 were presented to 115 artists.",
+   "ty": "numerical",
+   "tq": "Direct numerical recall from an institutional award announcement.",
+   "sec": "Arts awards - recipient + field"
+  },
+  {
+   "s": "Who won a Grammy for the first time in 2026 in the audiobook/narration category?",
+   "o": [
+    "Rouble Nagi",
+    "Tommy Koh",
+    "Kendrick Lamar",
+    "The Dalai Lama"
+   ],
+   "a": 3,
+   "x": "The Dalai Lama won his first Grammy in the audiobook/narration category in 2026.",
+   "ty": "fact",
+   "tq": "Recipient-category association using cross-field distractors.",
+   "sec": "Arts awards - recipient + field"
+  },
+  {
+   "s": "Kendrick Lamar became the most-awarded rapper after receiving how many awards?",
+   "o": [
+    "thirty",
+    "21",
+    "27",
+    "17"
+   ],
+   "a": 2,
+   "x": "Kendrick Lamar became the most-awarded rapper with 27 awards.",
+   "ty": "numerical",
+   "tq": "Numerical celebrity-award recall; the correct value is the precise figure.",
+   "sec": "Arts awards - recipient + field"
+  },
+  {
+   "s": "Who among the following presided over the UNCLOS conference and received the Ramon Magsaysay Award in 2026?",
+   "o": [
+    "Bo Kyi of Myanmar",
+    "Runa Khan of Bangladesh",
+    "Anand RK of India",
+    "Tommy Koh of Singapore"
+   ],
+   "a": 3,
+   "x": "Tommy Koh of Singapore, who presided over the UNCLOS conference, was one of the 2026 Ramon Magsaysay Award recipients.",
+   "ty": "fact",
+   "tq": "Recipient-background association.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "Which Ramon Magsaysay Award recipient was recognised for floating hospitals?",
+   "o": [
+    "Supriya Sahu",
+    "Tommy Koh",
+    "Bo Kyi",
+    "Runa Khan"
+   ],
+   "a": 3,
+   "x": "Runa Khan of Bangladesh was recognised for her work involving floating hospitals.",
+   "ty": "fact",
+   "tq": "Field-of-contribution matching.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "Bo Kyi, a 2026 Ramon Magsaysay Award recipient, is associated with which organisation?",
+   "o": [
+    "Varkey Foundation",
+    "Foundation to Educate Girls Globally",
+    "UNEP",
+    "AAPP"
+   ],
+   "a": 3,
+   "x": "Bo Kyi of Myanmar was recognised in connection with AAPP.",
+   "ty": "fact",
+   "tq": "Recipient-organisation matching with similarly named institutions as distractors.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "The Ramon Magsaysay Award was established in 1957 by:",
+   "o": [
+    "The Rockefeller Brothers Fund",
+    "The Varkey Foundation",
+    "The United Nations Environment Programme",
+    "Columbia University"
+   ],
+   "a": 0,
+   "x": "The Ramon Magsaysay Award was established in 1957 by the Rockefeller Brothers Fund.",
+   "ty": "fact",
+   "tq": "Institution-founder matching.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "Which Indian organisation became the first Indian organisation to win the Ramon Magsaysay Award?",
+   "o": [
+    "The Rockefeller Brothers Fund",
+    "AAPP",
+    "Educate Girls, formally Foundation to Educate Girls Globally",
+    "Living Walls of Learning"
+   ],
+   "a": 2,
+   "x": "Educate Girls, formally the Foundation to Educate Girls Globally, became the first Indian organisation to win the Ramon Magsaysay Award in 2025.",
+   "ty": "fact",
+   "tq": "First-organisation achievement recall.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "Anand RK and Suparna Sharma won the 2026 Pulitzer Prize in which category?",
+   "o": [
+    "International Reporting",
+    "Investigative Reporting",
+    "Illustrated Reporting and Commentary",
+    "Public Service"
+   ],
+   "a": 2,
+   "x": "Anand RK and Suparna Sharma won the Pulitzer Prize in Illustrated Reporting and Commentary for trAPPed.",
+   "ty": "fact",
+   "tq": "Category-title precision test using nearby Pulitzer categories.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "The Pulitzer Prize-winning work trAPPed dealt primarily with:",
+   "o": [
+    "Digital-arrest scams",
+    "Climate change in Tamil Nadu",
+    "Girls' education in India",
+    "Floating hospitals"
+   ],
+   "a": 0,
+   "x": "trAPPed addressed digital-arrest scams.",
+   "ty": "fact",
+   "tq": "Work-theme identification.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "The Pulitzer Prizes are administered by:",
+   "o": [
+    "Columbia University",
+    "UNESCO",
+    "Harvard University",
+    "The Rockefeller Brothers Fund"
+   ],
+   "a": 0,
+   "x": "The Pulitzer Prizes are administered by Columbia University.",
+   "ty": "fact",
+   "tq": "Institutional authority discrimination.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "Who received the Global Teacher Prize in 2026 for the initiative titled Living Walls of Learning?",
+   "o": [
+    "Runa Khan",
+    "Rouble Nagi",
+    "Supriya Sahu",
+    "Ranjitsinh Disale"
+   ],
+   "a": 1,
+   "x": "Rouble Nagi of India received the 2026 Global Teacher Prize for Living Walls of Learning.",
+   "ty": "fact",
+   "tq": "Award-recipient and project-title matching.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "What is the cash prize associated with the Global Teacher Prize?",
+   "o": [
+    "US$750,000",
+    "US$2 million",
+    "US$1 million",
+    "US$500,000"
+   ],
+   "a": 2,
+   "x": "The Global Teacher Prize carries a cash award of US$1 million.",
+   "ty": "numerical",
+   "tq": "Quantitative award-value recall.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "Rouble Nagi was the second Indian winner of the Global Teacher Prize after:",
+   "o": [
+    "Ranjitsinh Disale",
+    "Anand RK",
+    "Tommy Koh",
+    "Bo Kyi"
+   ],
+   "a": 0,
+   "x": "Ranjitsinh Disale was the first Indian winner of the Global Teacher Prize in 2020, followed by Rouble Nagi in 2026.",
+   "ty": "chronology",
+   "tq": "First-and-second recipient ordering.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "Which organisation presents the Global Teacher Prize?",
+   "o": [
+    "The Varkey Foundation",
+    "UNEP",
+    "Columbia University",
+    "The Rockefeller Brothers Fund"
+   ],
+   "a": 0,
+   "x": "The Global Teacher Prize is presented by the Varkey Foundation.",
+   "ty": "fact",
+   "tq": "Award-presenter matching with international institutions as distractors.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "Who was named a UN Champion of the Earth in 2025?",
+   "o": [
+    "Rita Ganguly",
+    "Rouble Nagi",
+    "Supriya Sahu",
+    "Runa Khan"
+   ],
+   "a": 2,
+   "x": "Supriya Sahu, an IAS officer from Tamil Nadu, was named a UN Champion of the Earth in 2025.",
+   "ty": "fact",
+   "tq": "Recipient and professional-background association.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "The UN Champions of the Earth award is associated with which organisation?",
+   "o": [
+    "UNESCO",
+    "WHO",
+    "UNEP",
+    "UNDP"
+   ],
+   "a": 2,
+   "x": "The UN Champions of the Earth award is associated with the United Nations Environment Programme (UNEP).",
+   "ty": "fact",
+   "tq": "World-body substitution trap; identify the correct administering organisation.",
+   "sec": "International prizes - recipient, country, field"
+  },
+  {
+   "s": "The UN Champions of the Earth award has been conferred since:",
+   "o": [
+    "1995",
+    "2000",
+    "2005",
+    "2010"
+   ],
+   "a": 2,
+   "x": "The UN Champions of the Earth award has been conferred since 2005.",
+   "ty": "numerical",
+   "tq": "Institutional timeline recall with evenly spaced years.",
+   "sec": "International prizes - recipient, country, field"
+  }
+ ]
+}

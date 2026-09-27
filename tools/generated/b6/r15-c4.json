@@ -1,0 +1,384 @@
+{
+ "book": 6,
+ "row": 15,
+ "chunk": 4,
+ "section": "Sports - major tournaments, winners, records and hosting rights",
+ "subsections": [
+  "Domestic leagues - winner and finalist",
+  "Records - FIRST Indian, multiple medals",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 30,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The IPL 2026 final was played on 31 May 2026 at which venue?",
+   "o": [
+    "Rajiv Gandhi International Stadium",
+    "M. Chinnaswamy Stadium",
+    "Kotambi Stadium",
+    "Narendra Modi Stadium, Ahmedabad"
+   ],
+   "a": 3,
+   "x": "The IPL 2026 final was held on 31 May 2026 at the Narendra Modi Stadium in Ahmedabad.",
+   "ty": "fact",
+   "tq": "Link the event with its date and venue rather than recalling only the winner.",
+   "sec": "Domestic leagues - winner and finalist"
+  },
+  {
+   "s": "Consider the following statements regarding IPL 2026:\n1. Royal Challengers Bengaluru won the title.\n2. Gujarat Titans were the runners-up.\n3. Royal Challengers Bengaluru won its second successive IPL title.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Royal Challengers Bengaluru defeated Gujarat Titans and secured its second successive IPL title.",
+   "ty": "statements",
+   "tq": "Check the winner, finalist and sequence claim separately before selecting the coded combination.",
+   "sec": "Domestic leagues - winner and finalist"
+  },
+  {
+   "s": "Who won the Women's Premier League (WPL) 2026?",
+   "o": [
+    "Gujarat Giants",
+    "Jammu and Kashmir",
+    "Royal Challengers Bengaluru",
+    "Delhi Capitals"
+   ],
+   "a": 2,
+   "x": "Royal Challengers Bengaluru won the WPL 2026 title.",
+   "ty": "fact",
+   "tq": "Distinguish the WPL winner from the runner-up and from the IPL winner-f﻿inalist pair.",
+   "sec": "Domestic leagues - winner and finalist"
+  },
+  {
+   "s": "Which team was the runner-up in WPL 2026?",
+   "o": [
+    "Royal Challengers Bengaluru",
+    "Gujarat Titans",
+    "Delhi Capitals",
+    "Dabang Delhi K.C."
+   ],
+   "a": 2,
+   "x": "Delhi Capitals finished as the runner-up in WPL 2026.",
+   "ty": "fact",
+   "tq": "Test the finalist separately from the tournament winner.",
+   "sec": "Domestic leagues - winner and finalist"
+  },
+  {
+   "s": "Which one of the following combinations regarding WPL 2026 is correct?",
+   "o": [
+    "Winner—Royal Challengers Bengaluru; venue—Kotambi Stadium; record—204 chased",
+    "Winner—Delhi Capitals; venue—Narendra Modi Stadium; record—204 chased",
+    "Winner—Royal Challengers Bengaluru; venue—Narendra Modi Stadium; record—240 chased",
+    "Winner—Gujarat Titans; venue—Kotambi Stadium; record—204 chased"
+   ],
+   "a": 0,
+   "x": "Royal Challengers Bengaluru won WPL 2026, the final was held at Kotambi Stadium, and a record target of 204 was chased.",
+   "ty": "match",
+   "tq": "Match the winner, venue and numerical record as a combined tournament profile.",
+   "sec": "Domestic leagues - winner and finalist"
+  },
+  {
+   "s": "Dabang Delhi K.C. won which title in 2026?",
+   "o": [
+    "Ranji Trophy 2025–26",
+    "IPL Season 19",
+    "WPL Season 3",
+    "PKL Season 12"
+   ],
+   "a": 3,
+   "x": "Dabang Delhi K.C. won PKL Season 12.",
+   "ty": "fact",
+   "tq": "Identify the correct league from the team–competition association.",
+   "sec": "Domestic leagues - winner and finalist"
+  },
+  {
+   "s": "Dabang Delhi K.C.'s victory in PKL Season 12 was significant because it became:",
+   "o": [
+    "the third team with multiple PKL titles",
+    "the first team to win three consecutive PKL titles",
+    "the first team to win the PKL",
+    "the second team to win two PKL titles"
+   ],
+   "a": 0,
+   "x": "Dabang Delhi K.C. became the third team with multiple PKL titles.",
+   "ty": "fact",
+   "tq": "Focus on the exact ordinal description instead of confusing it with the number of titles won.",
+   "sec": "Domestic leagues - winner and finalist"
+  },
+  {
+   "s": "Which team won the Ranji Trophy 2025–26?",
+   "o": [
+    "Delhi Capitals",
+    "Royal Challengers Bengaluru",
+    "Gujarat Titans",
+    "Jammu and Kashmir"
+   ],
+   "a": 3,
+   "x": "Jammu and Kashmir won the Ranji Trophy 2025–26, its first title.",
+   "ty": "fact",
+   "tq": "Use direct winner recall for a domestic championship.",
+   "sec": "Domestic leagues - winner and finalist"
+  },
+  {
+   "s": "Consider the following statements about the Ranji Trophy 2025–26:\n1. Jammu and Kashmir won the title.\n2. It was Jammu and Kashmir's first Ranji Trophy title.\n3. The final was its first final in approximately 70 years.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Jammu and Kashmir won its first Ranji Trophy title, and the final was its first in approximately 70 years; therefore all three statements are correct.",
+   "ty": "statements",
+   "tq": "Separate the title result, the first-title claim and the historical final claim.",
+   "sec": "Domestic leagues - winner and finalist"
+  },
+  {
+   "s": "The auction for WPL 2027 is scheduled to be held at which place on 28 October 2026?",
+   "o": [
+    "Visakhapatnam",
+    "Ahmedabad",
+    "Rajamahendravaram",
+    "Kochi"
+   ],
+   "a": 3,
+   "x": "The WPL 2027 auction is scheduled for 28 October 2026 in Kochi.",
+   "ty": "numerical",
+   "tq": "Combine the date with the place to avoid confusing the auction venue with tournament venues.",
+   "sec": "Domestic leagues - winner and finalist"
+  },
+  {
+   "s": "WPL 2027 is scheduled to be conducted during which period?",
+   "o": [
+    "7 February to 14 March 2027",
+    "19 September to 7 October 2026",
+    "14 January to 7 February 2027",
+    "31 May to 28 October 2026"
+   ],
+   "a": 2,
+   "x": "The scheduled period for WPL 2027 is 14 January to 7 February 2027.",
+   "ty": "numerical",
+   "tq": "Read the beginning and ending dates as a pair rather than treating them as isolated figures.",
+   "sec": "Domestic leagues - winner and finalist"
+  },
+  {
+   "s": "R. Rithika Sri is associated with which distinction?",
+   "o": [
+    "India's first transgender cricket umpire",
+    "India's first woman to win a Candidates tournament",
+    "India's first woman Olympic medallist",
+    "India's first cricketer to play 200 T20Is"
+   ],
+   "a": 0,
+   "x": "R. Rithika Sri of Tamil Nadu is India's first transgender cricket umpire.",
+   "ty": "fact",
+   "tq": "Match the person with the precise first achieved, avoiding nearby sports records.",
+   "sec": "Records - FIRST Indian, multiple medals"
+  },
+  {
+   "s": "On which date did Karnam Malleswari win the bronze medal that made her the first Indian woman to win an Olympic medal?",
+   "o": [
+    "19 September 2000",
+    "29 August 2000",
+    "19 September 2004",
+    "15 August 2000"
+   ],
+   "a": 0,
+   "x": "Karnam Malleswari won the historic bronze medal on 19 September 2000 at Sydney.",
+   "ty": "numerical",
+   "tq": "Use the exact date as the deciding numerical detail.",
+   "sec": "Records - FIRST Indian, multiple medals"
+  },
+  {
+   "s": "The Asian Games 2026, held at Aichi-Nagoya, began on:",
+   "o": [
+    "28 October 2026",
+    "19 September 2026",
+    "7 September 2026",
+    "14 January 2027"
+   ],
+   "a": 1,
+   "x": "The Asian Games 2026 at Aichi-Nagoya began on 19 September 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish the opening date from other current-affairs dates in the sports calendar.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The BRICS Sports Ministers' Meeting referred to in relation to Andhra Pradesh was held at:",
+   "o": [
+    "Rajamahendravaram",
+    "Guntur",
+    "Visakhapatnam",
+    "Tirupati"
+   ],
+   "a": 2,
+   "x": "The BRICS Sports Ministers' Meeting was held at Visakhapatnam.",
+   "ty": "fact",
+   "tq": "Apply the location-based current-affairs approach to an international meeting.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following is correctly matched with its sports-related reference in Andhra Pradesh?",
+   "o": [
+    "Rajamahendravaram—National Sports Tribunal",
+    "Tirupati—boxing ring",
+    "Guntur—BRICS Sports Ministers' Meeting",
+    "Visakhapatnam—SAAP excellence centre at ANU"
+   ],
+   "a": 1,
+   "x": "Tirupati is associated with the boxing ring. The BRICS Sports Ministers' Meeting was at Visakhapatnam, the SAAP centre is at ANU in Guntur, and the National Sports Tribunal is a national body.",
+   "ty": "negative",
+   "tq": "Eliminate mismatched place–facility pairs by identifying the exact Andhra location.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The proposed dragon boat league under Khelo India is planned on which river at Rajamahendravaram?",
+   "o": [
+    "Tungabhadra",
+    "Pennar",
+    "Godavari",
+    "Krishna"
+   ],
+   "a": 2,
+   "x": "The dragon boat league is planned on the Godavari at Rajamahendravaram under Khelo India.",
+   "ty": "fact",
+   "tq": "Use the place and river together to resolve a geographical sports association.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which pair is associated with Andhra Pradesh in the context of sports personalities?",
+   "o": [
+    "Koneru Humpy and Jyothi Yarraji",
+    "Harmanpreet Kaur and Karnam Malleswari",
+    "Gukesh and Sindarov",
+    "Vaishali and Praggnanandhaa"
+   ],
+   "a": 0,
+   "x": "Koneru Humpy and Jyothi Yarraji are identified as being from Andhra Pradesh in the stated sports context.",
+   "ty": "match",
+   "tq": "Match the regional association rather than the sport or record of the athlete.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which cities are associated with events that support India's bid for the 2036 Olympic Games?",
+   "o": [
+    "Ahmedabad and New Delhi",
+    "Visakhapatnam and Guntur",
+    "Geneva and Samarkand",
+    "Aichi-Nagoya and Kochi"
+   ],
+   "a": 0,
+   "x": "Ahmedabad's association with the 2030 Commonwealth Games and New Delhi's hosting of the 2026 BWF World Championships support India's 2036 Olympic bid.",
+   "ty": "match",
+   "tq": "Match both cities with their supporting international sporting events.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Under the National Sports Governance Act, 2025, appeals from the National Sports Tribunal lie to the:",
+   "o": [
+    "Supreme Court",
+    "Ministry of Youth Affairs and Sports",
+    "National Sports Board",
+    "High Court concerned"
+   ],
+   "a": 0,
+   "x": "Appeals against decisions of the National Sports Tribunal go to the Supreme Court.",
+   "ty": "application",
+   "tq": "Ask which authority performs the appellate function instead of the body that decides the original matter.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly states the institutional provisions of the National Sports Governance Act, 2025?",
+   "o": [
+    "It set up the National Sports Board and the National Sports Tribunal.",
+    "It set up the National Sports Board and transferred appeals to the High Courts.",
+    "It created only the National Sports Tribunal and abolished the National Sports Board.",
+    "It placed sports under the Union List and created a State Sports Tribunal."
+   ],
+   "a": 0,
+   "x": "The Act established both the National Sports Board and the National Sports Tribunal. Appeals from the Tribunal go to the Supreme Court.",
+   "ty": "statements",
+   "tq": "Check the bodies created by the Act and reject altered institutional or constitutional claims.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Sports is placed under which entry of the State List?",
+   "o": [
+    "Entry 42",
+    "Entry 26",
+    "Entry 56",
+    "Entry 33"
+   ],
+   "a": 3,
+   "x": "Sports is identified as State List Entry 33.",
+   "ty": "fact",
+   "tq": "Recall the exact constitutional entry number and avoid swapping it with another list entry.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "India's first World Para Athletics Championships—2025",
+    "India's first Khelo India Tribal Games—2026",
+    "India's first Asian Games—2026",
+    "India's first Kho Kho World Cup—2025"
+   ],
+   "a": 2,
+   "x": "The first three pairs are correct. The Asian Games 2026 were held at Aichi-Nagoya, but they were not India's first Asian Games.",
+   "ty": "negative",
+   "tq": "Find the one event that does not belong to the group of firsts hosted by India.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which statement correctly describes the present significance of Karnam Malleswari's 2000 bronze medal for Andhra Pradesh?",
+   "o": [
+    "It was won at the 2026 Asian Games.",
+    "It remains India's only Olympic medal in boxing.",
+    "It remains present-day Andhra Pradesh's only Olympic medal.",
+    "It was Andhra Pradesh's first gold medal at the Asian Games."
+   ],
+   "a": 2,
+   "x": "Karnam Malleswari's 2000 bronze remains present-day Andhra Pradesh's only Olympic medal.",
+   "ty": "application",
+   "tq": "Connect a historical achievement with its stated present-day regional significance.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The SAAP excellence centre that trained Jyothi Yarraji was located at:",
+   "o": [
+    "Sri Venkateswara University, Tirupati",
+    "Koneru Lakshmaiah University, Vijayawada",
+    "Acharya Nagarjuna University, Guntur",
+    "Andhra University, Visakhapatnam"
+   ],
+   "a": 2,
+   "x": "The SAAP excellence centre was at Acharya Nagarjuna University in Guntur; it has since closed.",
+   "ty": "fact",
+   "tq": "Identify the precise institution and district from a location-based sports question.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements about current international sports events in September 2026 is correct?",
+   "o": [
+    "The Asian Games 2026 and the 46th Chess Olympiad are under way, while the Gukesh–Sindarov match is due in Geneva.",
+    "The Asian Games 2026 and the 46th Chess Olympiad were cancelled, while the match was held in Kochi.",
+    "The 46th Chess Olympiad is being held in Aichi-Nagoya and the Asian Games in Samarkand.",
+    "The Gukesh–Sindarov match is being held in Visakhapatnam during the WPL auction."
+   ],
+   "a": 0,
+   "x": "In September 2026, the Asian Games at Aichi-Nagoya and the 46th Chess Olympiad at Samarkand were under way, while the Gukesh–Sindarov title match was due in Geneva.",
+   "ty": "statements",
+   "tq": "Separate simultaneous events by their status and venue instead of treating all current events as completed.",
+   "sec": "Universal angles"
+  }
+ ]
+}

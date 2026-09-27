@@ -1,0 +1,498 @@
+{
+ "book": 1,
+ "row": 85,
+ "chunk": 0,
+ "section": "Imperial Cholas - Vijayalaya, Rajaraja I, Rajendra I; Gangaikonda title and the naval expeditions",
+ "subsections": [
+  "Founder of the imperial line - capital captured, successor",
+  "Ruler → title + achievement (Vijayalaya to Kulottunga I)",
+  "Chola-Eastern Chalukya matrimonial alliances → figure",
+  "Chola viceroys of Vengi - titles, coronation sites, Rajamahendravaram",
+  "Naval expeditions → ruler + destination"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Vijayalaya captured Thanjavur in 850 CE from the",
+   "o": [
+    "Rashtrakutas",
+    "Pallavas",
+    "Pandyas",
+    "Muttarayars"
+   ],
+   "a": 3,
+   "x": "Vijayalaya captured Thanjavur in 850 CE from the Muttarayars. This event marked the rise of the Imperial Cholas in the Kaveri delta.",
+   "ty": "fact",
+   "tq": "Use the ruler–achievement association and reject the swapped dynasty trap.",
+   "sec": "Founder of the imperial line - capital captured, successor"
+  },
+  {
+   "s": "Who succeeded Vijayalaya as ruler of the Chola kingdom?",
+   "o": [
+    "Parantaka I",
+    "Rajendra I",
+    "Aditya I",
+    "Rajaraja I"
+   ],
+   "a": 2,
+   "x": "Aditya I succeeded Vijayalaya. The Imperial Chola line rose from the Kaveri delta around 850 CE and continued until 1279 CE.",
+   "ty": "fact",
+   "tq": "Test succession directly by distinguishing adjacent rulers in the dynasty.",
+   "sec": "Founder of the imperial line - capital captured, successor"
+  },
+  {
+   "s": "Aditya I is associated with which one of the following achievements?",
+   "o": [
+    "Defeat of Pallava Aparajita and annexation of Tondaimandalam",
+    "Merger of Vengi with the Chola Empire",
+    "Construction of the Brihadeshvara temple",
+    "Defeat of the Sailendra ruler at Kadaram"
+   ],
+   "a": 0,
+   "x": "Aditya I defeated Pallava Aparajita and annexed Tondaimandalam. The other achievements belong to later Chola rulers.",
+   "ty": "fact",
+   "tq": "Apply the wrong-ruler-with-deed trap in dynastic history.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "The title ‘Maduraikonda’ was assumed by",
+   "o": [
+    "Parantaka I",
+    "Aditya I",
+    "Rajadhiraja I",
+    "Rajaraja I"
+   ],
+   "a": 0,
+   "x": "Parantaka I assumed the title ‘Maduraikonda’. His reign is also associated with the Uttaramerur inscriptions and the defeat at Takkolam in 949 CE.",
+   "ty": "fact",
+   "tq": "Match the distinctive royal title with the correct ruler.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "The Uttaramerur inscriptions are associated with which Chola ruler?",
+   "o": [
+    "Kulottunga I",
+    "Vijayalaya",
+    "Parantaka I",
+    "Rajaraja I"
+   ],
+   "a": 2,
+   "x": "The Uttaramerur inscriptions are associated with Parantaka I. He was defeated at Takkolam in 949 CE.",
+   "ty": "fact",
+   "tq": "Use a ruler–inscription association rather than a broad dynastic clue.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. Defeat of Pallava Aparajita by Aditya I\nB. Capture of Thanjavur by Vijayalaya\nC. Defeat of Parantaka I at Takkolam\nD. Construction of the Brihadeshvara temple",
+   "o": [
+    "B, A, C, D",
+    "A, B, C, D",
+    "B, C, A, D",
+    "A, C, B, D"
+   ],
+   "a": 0,
+   "x": "Vijayalaya captured Thanjavur in 850 CE, followed by Aditya I’s defeat of Aparajita, Parantaka I’s defeat at Takkolam in 949 CE, and the Brihadeshvara temple in 1010 CE.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest events first, then place the middle dynastic events.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Kulottunga I — Maduraikonda",
+    "Rajadhiraja I — Yanai-mel-thunjina Devar",
+    "Rajendra I — Gangaikondachola",
+    "Rajaraja I — Mummadi Chola"
+   ],
+   "a": 0,
+   "x": "Maduraikonda was the title of Parantaka I, not Kulottunga I. Rajaraja I was known as Mummadi Chola, Rajendra I as Gangaikondachola, and Rajadhiraja I as Yanai-mel-thunjina Devar.",
+   "ty": "negative",
+   "tq": "Find the swapped title–ruler pair among closely related Chola rulers.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "Which one of the following was NOT an achievement of Rajaraja I?",
+   "o": [
+    "Defeat of the Sailendra ruler at Kadaram",
+    "Conduct of a land survey",
+    "Capture of the Maldives",
+    "Construction of the Brihadeshvara temple in 1010 CE"
+   ],
+   "a": 0,
+   "x": "The defeat of the Sailendra ruler at Kadaram was achieved by Rajendra I in his 1025 CE expedition. Rajaraja I constructed the Brihadeshvara temple, conducted a land survey and captured the Maldives.",
+   "ty": "negative",
+   "tq": "Separate the achievements of father and son to avoid the swapped-ruler trap.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "Rajaraja I is associated with which combination of titles and achievements?\n1. Ulakalanada Perumal\n2. Mummadi Chola\n3. Construction of the Brihadeshvara temple\n4. Destruction of Anuradhapura\nWhich of the above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Rajaraja I bore the titles Ulakalanada Perumal and Mummadi Chola. He constructed the Brihadeshvara temple in 1010 CE and destroyed Anuradhapura.",
+   "ty": "statements",
+   "tq": "Combine titles and achievements, checking each item against the same ruler.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "Rajaraja I ruled approximately during which period?",
+   "o": [
+    "907–955 CE",
+    "985–1014 CE",
+    "850–871 CE",
+    "1070–1120 CE"
+   ],
+   "a": 1,
+   "x": "Rajaraja I ruled from 985 to 1014 CE. The other periods belong to different phases or rulers of the Chola history.",
+   "ty": "numerical",
+   "tq": "Use the distinctive middle-period reign range to distinguish successive rulers.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "Rajendra I became co-regent in 1012 CE and became king in",
+   "o": [
+    "1004 CE",
+    "1010 CE",
+    "1014 CE",
+    "1025 CE"
+   ],
+   "a": 2,
+   "x": "Rajendra I became co-regent in 1012 CE and succeeded to the throne as king in 1014 CE.",
+   "ty": "numerical",
+   "tq": "Distinguish the accession date from the earlier co-regency date.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "Who among the following was killed at Koppam while mounted on an elephant?",
+   "o": [
+    "Rajadhiraja I",
+    "Rajendra II",
+    "Rajaraja I",
+    "Rajendra I"
+   ],
+   "a": 0,
+   "x": "Rajadhiraja I was killed at Koppam on the back of an elephant and was known by the title Yanai-mel-thunjina Devar.",
+   "ty": "fact",
+   "tq": "Link the unusual death description with the correct ruler.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "Which Chola ruler was crowned on the battlefield and erected a pillar at Kolhapur?",
+   "o": [
+    "Virarajendra",
+    "Rajadhiraja I",
+    "Kulottunga I",
+    "Rajendra II"
+   ],
+   "a": 3,
+   "x": "Rajendra II was crowned on the battlefield and is associated with a pillar at Kolhapur.",
+   "ty": "fact",
+   "tq": "Use a distinctive achievement to discriminate between closely succeeding rulers.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "Virarajendra is noted for defeating",
+   "o": [
+    "Pallava Aparajita",
+    "Someshvara II",
+    "Jatachoda Bhima",
+    "Mahinda V"
+   ],
+   "a": 1,
+   "x": "Virarajendra defeated Someshvara II. The other figures are associated with different Chola campaigns or political episodes.",
+   "ty": "fact",
+   "tq": "Apply the ruler–opponent association and avoid a swapped enemy.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "Which statement correctly describes Kulottunga I?",
+   "o": [
+    "He was killed at Koppam while riding an elephant.",
+    "He was the founder who captured Thanjavur in 850 CE.",
+    "He defeated Pallava Aparajita and annexed Tondaimandalam.",
+    "He was the first ruler of the Chalukya-Chola line and ruled from 1070 to 1120 CE."
+   ],
+   "a": 3,
+   "x": "Kulottunga I was the first ruler of the Chalukya-Chola line and ruled from 1070 to 1120 CE.",
+   "ty": "fact",
+   "tq": "Use a precise composite identification instead of a single-title clue.",
+   "sec": "Ruler → title + achievement (Vijayalaya to Kulottunga I)"
+  },
+  {
+   "s": "Who married Vimaladitya, according to the Chola–Eastern Chalukya matrimonial alliances?",
+   "o": [
+    "Kundavai, daughter of Rajendra I",
+    "Ammanga Devi, daughter of Rajendra I",
+    "Kundavai, daughter of Rajaraja I",
+    "Madhurantaki, daughter of Virarajendra"
+   ],
+   "a": 2,
+   "x": "Kundavai, the daughter of Rajaraja I, married Vimaladitya. Ammanga Devi married Rajaraja Narendra.",
+   "ty": "fact",
+   "tq": "Discriminate between similarly named Chola princesses and their spouses.",
+   "sec": "Chola-Eastern Chalukya matrimonial alliances → figure"
+  },
+  {
+   "s": "Ammanga Devi, daughter of Rajendra I, married",
+   "o": [
+    "Rajaraja Narendra",
+    "Rajendra Chalukya",
+    "Saktivarman I",
+    "Vimaladitya"
+   ],
+   "a": 0,
+   "x": "Ammanga Devi married Rajaraja Narendra in 1022. Their son was Rajendra Chalukya, who later became Kulottunga I.",
+   "ty": "fact",
+   "tq": "Test the matrimonial alliance through the bride–groom pair.",
+   "sec": "Chola-Eastern Chalukya matrimonial alliances → figure"
+  },
+  {
+   "s": "Rajaraja Narendra and Ammanga Devi were married in",
+   "o": [
+    "949 CE",
+    "1012 CE",
+    "1022 CE",
+    "1070 CE"
+   ],
+   "a": 2,
+   "x": "Rajaraja Narendra married Ammanga Devi in 1022 CE. Their son was Rajendra Chalukya, later known as Kulottunga I.",
+   "ty": "numerical",
+   "tq": "Distinguish the marriage year from nearby accession and campaign dates.",
+   "sec": "Chola-Eastern Chalukya matrimonial alliances → figure"
+  },
+  {
+   "s": "Which of the following statements regarding the Chola–Eastern Chalukya relationship is correct?\n1. Rajendra Chalukya was the son of Rajaraja Narendra and Ammanga Devi.\n2. Rajendra Chalukya is identified with Kulottunga I.\n3. Kulottunga I took the Chola throne in 1070 CE.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Kulottunga I was the son of Rajaraja Narendra and Ammanga Devi, was also called Rajendra Chalukya, and took the Chola throne in 1070 CE.",
+   "ty": "statements",
+   "tq": "Trace parentage, alternate name and accession as one succession chain.",
+   "sec": "Chola-Eastern Chalukya matrimonial alliances → figure"
+  },
+  {
+   "s": "Saktivarman I ruled Vengi with the assistance of Rajaraja I after the ouster of",
+   "o": [
+    "Jatachoda Bhima",
+    "Someshvara II",
+    "Mahinda V",
+    "Pallava Aparajita"
+   ],
+   "a": 0,
+   "x": "Saktivarman I, the elder brother of Vimaladitya, ruled Vengi with Rajaraja I’s help after Jatachoda Bhima was ousted.",
+   "ty": "fact",
+   "tq": "Use the political sequence of ouster, assistance and rule to identify the correct figure.",
+   "sec": "Chola-Eastern Chalukya matrimonial alliances → figure"
+  },
+  {
+   "s": "When Vijayaditya VII, the last Eastern Chalukya, died in 1075 CE, Kulottunga I",
+   "o": [
+    "shifted the capital to Koppam",
+    "restored the Pallava kingdom",
+    "merged Vengi into the Chola Empire",
+    "ended the Chola–Eastern Chalukya alliance"
+   ],
+   "a": 2,
+   "x": "After Vijayaditya VII died in 1075 CE, Kulottunga I merged Vengi into the Chola Empire, giving rise to the Chalukya-Chola political identity.",
+   "ty": "fact",
+   "tq": "Link the death of the last ruler with its political consequence.",
+   "sec": "Chola-Eastern Chalukya matrimonial alliances → figure"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n a. Rajaraja III — Jagannathapuram\n b. Vira Chola — viceroy of Vengi twice\n c. Rajaraja Chola Ganga — authority up to Mahendragiri\n d. All of the above",
+   "o": [
+    "a only",
+    "a and b only",
+    "b and c only",
+    "a, b and c"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Rajaraja III ruled from Jagannathapuram, Vira Chola served twice as viceroy, and Rajaraja Chola Ganga exercised authority up to Mahendragiri.",
+   "ty": "statements",
+   "tq": "Check each viceroy against a separate administrative detail before choosing the combined option.",
+   "sec": "Chola viceroys of Vengi - titles, coronation sites, Rajamahendravaram"
+  },
+  {
+   "s": "Which titles were associated with Rajaraja III, a son of Kulottunga I?\n1. Vishnuvardhana\n2. Sarvalokashraya\n3. Gangaikondachola\n4. Mummadi Chola\nWhich of the above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 4 only",
+    "3 and 4 only"
+   ],
+   "a": 0,
+   "x": "Rajaraja III was associated with the titles Vishnuvardhana and Sarvalokashraya. Gangaikondachola belonged to Rajendra I, while Mummadi Chola was associated with Rajaraja I and Rajaraja III in different contexts.",
+   "ty": "statements",
+   "tq": "Separate titles of related rulers rather than relying on repeated dynastic names.",
+   "sec": "Chola viceroys of Vengi - titles, coronation sites, Rajamahendravaram"
+  },
+  {
+   "s": "Vira Chola was crowned at",
+   "o": [
+    "Rajamahendravaram",
+    "Jagannathapuram",
+    "Kolhapur",
+    "Koppam"
+   ],
+   "a": 1,
+   "x": "Vira Chola, who served twice as viceroy of Vengi, was crowned at Jagannathapuram.",
+   "ty": "fact",
+   "tq": "Test the coronation site directly and distinguish it from other Chola-associated places.",
+   "sec": "Chola viceroys of Vengi - titles, coronation sites, Rajamahendravaram"
+  },
+  {
+   "s": "Which inscription is associated with Rajaraja Chola Ganga?",
+   "o": [
+    "Tekkali inscription",
+    "Kandalur inscription",
+    "Anuradhapura inscription",
+    "Uttaramerur inscription"
+   ],
+   "a": 0,
+   "x": "Rajaraja Chola Ganga is associated with the Tekkali inscription and exercised authority up to Mahendragiri.",
+   "ty": "fact",
+   "tq": "Match the viceroy with the distinctive inscriptional evidence.",
+   "sec": "Chola viceroys of Vengi - titles, coronation sites, Rajamahendravaram"
+  },
+  {
+   "s": "Which of the following statements about Rajamahendravaram is correct?\n1. Amma I made it the capital.\n2. Rajaraja Narendra made it famous.\n3. It was associated with the Chalukya-Chola administration of Vengi.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Amma I made Rajamahendravaram the capital, Rajaraja Narendra made it famous, and it was an important centre in the Vengi administration.",
+   "ty": "statements",
+   "tq": "Combine location, founder-of-capital and administrative-context clues.",
+   "sec": "Chola viceroys of Vengi - titles, coronation sites, Rajamahendravaram"
+  },
+  {
+   "s": "The last ruler of the Chalukya-Chola line in Vengi was",
+   "o": [
+    "Rajaraja Chola Ganga",
+    "Vijayaditya VII",
+    "Parantaka Chola",
+    "Rajendra Chalukya"
+   ],
+   "a": 2,
+   "x": "Parantaka Chola was the last ruler of the Chalukya-Chola line in Vengi. Vijayaditya VII was the last Eastern Chalukya before the merger under Kulottunga I.",
+   "ty": "fact",
+   "tq": "Distinguish the last ruler of the line from the last ruler of the earlier Eastern Chalukya branch.",
+   "sec": "Chola viceroys of Vengi - titles, coronation sites, Rajamahendravaram"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Rajaraja I — Kadaram conquest in 1025 CE",
+    "Kulottunga I — Kalinga",
+    "Rajendra I — Srivijaya",
+    "Rajaraja I — Maldives"
+   ],
+   "a": 0,
+   "x": "The 1025 CE Kadaram conquest was conducted by Rajendra I. Rajaraja I is associated with the Maldives and the attack on the Chera fleet at Kandalur Salai, while Kulottunga I campaigned in Kalinga.",
+   "ty": "negative",
+   "tq": "Identify the swapped ruler–destination pair in a naval-expedition list.",
+   "sec": "Naval expeditions → ruler + destination"
+  },
+  {
+   "s": "The naval expedition of Rajendra I in 1025 CE was directed against",
+   "o": [
+    "Kalinga",
+    "Srivijaya",
+    "Anuradhapura",
+    "Tondaimandalam"
+   ],
+   "a": 1,
+   "x": "Rajendra I launched the 1025 CE naval expedition against the revived Srivijaya Empire. The campaign extended to Kadaram, the Malay Peninsula, Sumatra and Java.",
+   "ty": "numerical",
+   "tq": "Anchor the expedition to its year and destination before considering the distractors.",
+   "sec": "Naval expeditions → ruler + destination"
+  },
+  {
+   "s": "The principal cause given for the Chola expedition against Srivijaya was that Srivijaya",
+   "o": [
+    "destroyed the Brihadeshvara temple",
+    "attacked the Kaveri delta",
+    "occupied the Chola capital",
+    "blocked Indian traders on the China route"
+   ],
+   "a": 3,
+   "x": "The expedition was connected with Srivijaya’s obstruction of Indian traders on the China route. Earlier cordial Chola–Sailendra relations deteriorated as Chola trade with China expanded.",
+   "ty": "application",
+   "tq": "Apply the cause–effect relationship instead of selecting a familiar military opponent.",
+   "sec": "Naval expeditions → ruler + destination"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding Rajendra I’s overseas campaign?\n1. The Sailendra ruler was defeated.\n2. Kadaram, identified with Kedah, was captured.\n3. The campaign extended to the Malay Peninsula, Sumatra and Java.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Rajendra I defeated the Sailendra rulers, captured Kadaram or Kedah, and reached regions including the Malay Peninsula, Sumatra and Java.",
+   "ty": "statements",
+   "tq": "Verify the opponent, key conquest and geographical spread separately.",
+   "sec": "Naval expeditions → ruler + destination"
+  },
+  {
+   "s": "K.A. Nilakanta Sastri described the Cholas as having turned the Bay of Bengal into a",
+   "o": [
+    "Chera Sea",
+    "Chola Lake",
+    "Eastern Ocean",
+    "Imperial Gulf"
+   ],
+   "a": 1,
+   "x": "K.A. Nilakanta Sastri described the Cholas as having turned the Bay of Bengal into a ‘Chola Lake’, reflecting their maritime reach.",
+   "ty": "fact",
+   "tq": "Recall the exact famous expression associated with Chola naval power.",
+   "sec": "Naval expeditions → ruler + destination"
+  },
+  {
+   "s": "The maritime expansion of the Cholas helped carry Dravidian art to",
+   "o": [
+    "Europe and North Africa",
+    "South-East Asia, including Angkor Wat and Borobudur",
+    "Central Asia and Persia",
+    "The Himalayan region and Tibet"
+   ],
+   "a": 1,
+   "x": "Chola maritime reach carried Dravidian artistic influence to South-East Asia, including Angkor Wat and Borobudur.",
+   "ty": "application",
+   "tq": "Connect maritime expansion with its stated cultural consequence and region.",
+   "sec": "Naval expeditions → ruler + destination"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Rajaraja I — Kandalur Salai\n2. Rajendra I — Srivijaya and Kadaram\n3. Kulottunga I — Kalinga\n4. Rajaraja I — Maldives\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct. Rajaraja I attacked the Chera fleet at Kandalur Salai and captured the Maldives; Rajendra I attacked Srivijaya and Kadaram; Kulottunga I campaigned in Kalinga.",
+   "ty": "match",
+   "tq": "Start with the sure ruler–destination pairs and eliminate codes that omit them.",
+   "sec": "Naval expeditions → ruler + destination"
+  }
+ ]
+}

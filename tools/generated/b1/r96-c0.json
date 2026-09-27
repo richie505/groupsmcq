@@ -1,0 +1,413 @@
+{
+ "book": 1,
+ "row": 96,
+ "chunk": 0,
+ "section": "Kakatiya art - Thousand Pillar Temple, Ramappa/Rudreshwara (UNESCO 2021), Warangal Fort",
+ "subsections": [
+  "Ramappa (Rudreshwara) temple - builder, ruler, deity, sculptor, UNESCO, type",
+  "Dance sculptures and treatises - author, profession, temple",
+  "Religious patronage, architectural influences, Dharmasagara inscription",
+  "Thousand Pillar Temple, Hanamkonda - builder, deities"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Ramappa Temple, also known as Rudreshwaralayam, is located at which place?",
+   "o": [
+    "Hanamkonda in Warangal district",
+    "Palampet in Mulugu district",
+    "Devagiri in Maharashtra",
+    "Orugallu Fort in Karimnagar district"
+   ],
+   "a": 1,
+   "x": "Ramappa Temple is situated at Palampet in Mulugu district of Telangana.",
+   "ty": "fact",
+   "tq": "Use the location-based elimination method and distinguish Palampet from Hanamkonda.",
+   "sec": "Ramappa (Rudreshwara) temple - builder, ruler, deity, sculptor, UNESCO, type"
+  },
+  {
+   "s": "The presiding deity of the Ramappa Temple is worshipped as:",
+   "o": [
+    "Mallikarjuna, a form of Brahma",
+    "Rudreshwara, a form of Vishnu",
+    "Ramalingeswara, a form of Shiva",
+    "Vasudeva, a form of Surya"
+   ],
+   "a": 2,
+   "x": "The presiding deity is Shiva as Ramalingeswara.",
+   "ty": "fact",
+   "tq": "Apply the confusable-name method by separating the temple name from the deity's name.",
+   "sec": "Ramappa (Rudreshwara) temple - builder, ruler, deity, sculptor, UNESCO, type"
+  },
+  {
+   "s": "Why is the temple at Palampet popularly known as the Ramappa Temple?",
+   "o": [
+    "It is named after its sculptor Ramappa",
+    "It was built beside the Ramappa tank",
+    "It was dedicated by a ruler named Ramappa",
+    "It was consecrated on the festival of Rama Navami"
+   ],
+   "a": 0,
+   "x": "It is the only temple in India known by the name of its sculptor, Ramappa.",
+   "ty": "confusable",
+   "tq": "Test the unusual person–monument relationship rather than the more common ruler–monument association.",
+   "sec": "Ramappa (Rudreshwara) temple - builder, ruler, deity, sculptor, UNESCO, type"
+  },
+  {
+   "s": "On which date was the Ramappa Temple inscribed as a UNESCO World Heritage Site?",
+   "o": [
+    "15 August 2021",
+    "25 July 2019",
+    "25 July 2021",
+    "25 July 2020"
+   ],
+   "a": 2,
+   "x": "The Ramappa Temple was inscribed as a UNESCO World Heritage Site on 25 July 2021.",
+   "ty": "numerical",
+   "tq": "Use exact-date discrimination among closely related years.",
+   "sec": "Ramappa (Rudreshwara) temple - builder, ruler, deity, sculptor, UNESCO, type"
+  },
+  {
+   "s": "Which one of the following architectural features of the Ramappa Temple is correctly stated?",
+   "o": [
+    "Its foundation is constructed without any underlying support system.",
+    "Its shikhara contains light, porous bricks that can float on water.",
+    "Its outer walls are devoid of bracket figures.",
+    "Its entire superstructure is made only of marble."
+   ],
+   "a": 1,
+   "x": "The shikhara or vimana contains light, porous floating bricks. The temple also has a sandbox foundation and madanika bracket figures.",
+   "ty": "application",
+   "tq": "Identify the precise architectural feature and reject absolute statements such as 'only' and 'devoid'.",
+   "sec": "Ramappa (Rudreshwara) temple - builder, ruler, deity, sculptor, UNESCO, type"
+  },
+  {
+   "s": "Consider the following statements about the Ramappa Temple:\n1. It has a star-shaped platform.\n2. Its ceilings contain painted scenes from the Ramayana and the Mahabharata.\n3. It has madanika bracket figures on its outer walls.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct features of the Ramappa Temple.",
+   "ty": "statements",
+   "tq": "Verify each architectural feature independently before selecting the combined statement.",
+   "sec": "Ramappa (Rudreshwara) temple - builder, ruler, deity, sculptor, UNESCO, type"
+  },
+  {
+   "s": "The pillars and brackets of the Ramappa Temple are primarily associated with which materials?",
+   "o": [
+    "Marble and limestone",
+    "Copper and bronze",
+    "Granite and dolerite",
+    "Brick and terracotta alone"
+   ],
+   "a": 2,
+   "x": "The temple contains granite and dolerite pillars and brackets.",
+   "ty": "fact",
+   "tq": "Use material-based discrimination among plausible temple-building substances.",
+   "sec": "Ramappa (Rudreshwara) temple - builder, ruler, deity, sculptor, UNESCO, type"
+  },
+  {
+   "s": "The sculptures of the Recherla Rudra couple and the 28 elephant-lion figures inside the Ramappa Temple are associated with which title?",
+   "o": [
+    "Mahamandaleshwara",
+    "Tribhuvanamalla",
+    "Gajakesari",
+    "Vikramaditya"
+   ],
+   "a": 2,
+   "x": "The 28 elephant-lion figures are associated with the Gajakesari title.",
+   "ty": "fact",
+   "tq": "Link the symbolic sculpture group with its specific royal title.",
+   "sec": "Ramappa (Rudreshwara) temple - builder, ruler, deity, sculptor, UNESCO, type"
+  },
+  {
+   "s": "Which of the following statements regarding the Ramappa Temple is correct?\n1. A Nandi image faces the sanctum.\n2. The Ramappa tank was also built by Recherla Rudra.\n3. Pakala tank was built by Recherla Rudra.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The temple has a Nandi facing the sanctum, and Recherla Rudra built the Ramappa tank. Pakala tank was built by Rudra, not Recherla Rudra.",
+   "ty": "statements",
+   "tq": "Separate similar personal names and match each construction work with its correct builder.",
+   "sec": "Ramappa (Rudreshwara) temple - builder, ruler, deity, sculptor, UNESCO, type"
+  },
+  {
+   "s": "The dance poses depicted in the madanika brackets of the Ramappa Temple are associated with which work?",
+   "o": [
+    "Nritta Ratnavali",
+    "Gita Ratnavali",
+    "Natya Shastra",
+    "Sangita Ratnakara"
+   ],
+   "a": 0,
+   "x": "The madanika poses at Ramappa follow Jayapa Senani's Nritta Ratnavali.",
+   "ty": "confusable",
+   "tq": "Distinguish the specifically linked dance treatise from other well-known music and dance works.",
+   "sec": "Dance sculptures and treatises - author, profession, temple"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Nritta Ratnavali — Jayapa Senani\n2. Sangita Ratnakara — Sarangadeva\n3. Gita Ratnavali — Jayapa Senani\n4. Vadya Ratnavali — Jayapa Senani",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairings are correct. Jayapa Senani authored Nritta Ratnavali, Gita Ratnavali and Vadya Ratnavali, while Sarangadeva authored Sangita Ratnakara.",
+   "ty": "statements",
+   "tq": "Check each author–treatise pair separately, especially the similar-sounding titles.",
+   "sec": "Dance sculptures and treatises - author, profession, temple"
+  },
+  {
+   "s": "Jayapa Senani held which post under Ganapatideva?",
+   "o": [
+    "Minister of revenue",
+    "Head of the cavalry",
+    "Chief temple architect",
+    "Head of the elephant force"
+   ],
+   "a": 3,
+   "x": "Jayapa Senani served as Gaja Sahini, the head of the elephant force, under Ganapatideva.",
+   "ty": "fact",
+   "tq": "Use the office-based clue and distinguish Gaja Sahini from military and administrative posts.",
+   "sec": "Dance sculptures and treatises - author, profession, temple"
+  },
+  {
+   "s": "Which one of the following statements about Nritta Ratnavali is correct?",
+   "o": [
+    "It is confined to descriptions of musical instruments.",
+    "It was authored by Sarangadeva at the Yadava court.",
+    "It deals exclusively with court music.",
+    "It covers both Marga and Desi forms of dance and describes Perini dance."
+   ],
+   "a": 3,
+   "x": "Nritta Ratnavali covers Marga, or classical, and Desi, or regional, dance and describes Perini dance.",
+   "ty": "fact",
+   "tq": "Reject exclusive wording and identify the work's combined subject coverage.",
+   "sec": "Dance sculptures and treatises - author, profession, temple"
+  },
+  {
+   "s": "Perini Shiva Tandavam was traditionally performed by male warriors:",
+   "o": [
+    "during royal coronations to invoke Vishnu",
+    "after returning from battle to celebrate victory",
+    "only as part of funeral ceremonies",
+    "before battle to invoke Shiva"
+   ],
+   "a": 3,
+   "x": "Perini Shiva Tandavam was danced by male warriors before battle to invoke Shiva.",
+   "ty": "application",
+   "tq": "Apply the purpose-and-context clue to distinguish a ritual performed before battle from other occasions.",
+   "sec": "Dance sculptures and treatises - author, profession, temple"
+  },
+  {
+   "s": "Who is associated with the modern revival of Perini Shiva Tandavam and with shaping Devadasi Nrityam and Navajanardhanam?",
+   "o": [
+    "Vellanki Gangadhara",
+    "Sarangadeva",
+    "Nataraja Ramakrishna",
+    "Jayapa Senani"
+   ],
+   "a": 2,
+   "x": "Nataraja Ramakrishna revived Perini Shiva Tandavam in modern times and also shaped Devadasi Nrityam and Navajanardhanam.",
+   "ty": "fact",
+   "tq": "Match the modern revivalist with the dance forms linked to him.",
+   "sec": "Dance sculptures and treatises - author, profession, temple"
+  },
+  {
+   "s": "Sangita Ratnakara was composed by Sarangadeva at which court?",
+   "o": [
+    "Kakatiya court of Warangal",
+    "Yadava court of Devagiri",
+    "Eastern Chalukya court of Vengi",
+    "Chola court of Thanjavur"
+   ],
+   "a": 1,
+   "x": "Sarangadeva composed Sangita Ratnakara at the Yadava court of Devagiri.",
+   "ty": "fact",
+   "tq": "Use the author–court–place chain to avoid confusing it with Jayapa Senani's works.",
+   "sec": "Dance sculptures and treatises - author, profession, temple"
+  },
+  {
+   "s": "Which of the following statements regarding religious patronage under the Kakatiyas is correct?\n1. Jain–Shaiva conflicts began under Rudradeva.\n2. Ganapatideva was a devout Shaivite.\n3. Vellanki Gangadhara, a Vaishnava minister of Rudradeva, built the Prasanna Keshava Temple at Hanamkonda.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The conflicts began under Rudradeva, Ganapatideva was a Shaivite, and Gangadhara built the Prasanna Keshava Temple at Hanamkonda.",
+   "ty": "statements",
+   "tq": "Track ruler, religious affiliation and minister–temple association separately.",
+   "sec": "Religious patronage, architectural influences, Dharmasagara inscription"
+  },
+  {
+   "s": "Which of the following temple-count combinations is correctly matched with the Kakatiya period?\n1. Vaishnava temples — 1,300\n2. Mallara Devudu temples — 2,400\n3. Bhairava, Durga and Ganesha temples — 4,400\n4. Villages endowed to Srisailam Mallikarjuna Temple — 52",
+   "o": [
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4",
+    "1, 2 and 3 only",
+    "1 and 2 only"
+   ],
+   "a": 1,
+   "x": "The recorded figures are 1,300 Vaishnava temples, 2,400 Mallara Devudu temples, 4,400 Bhairava/Durga/Ganesha temples and 52 villages endowed to Srisailam Mallikarjuna.",
+   "ty": "numerical",
+   "tq": "Check each numerical row individually before accepting the cumulative option.",
+   "sec": "Religious patronage, architectural influences, Dharmasagara inscription"
+  },
+  {
+   "s": "Kakatiya temple architecture is principally associated with which style?",
+   "o": [
+    "Nagara style",
+    "Chalukyan or Vesara style",
+    "Dravida style alone",
+    "Indo-Saracenic style"
+   ],
+   "a": 1,
+   "x": "Kakatiya temple architecture follows the Chalukyan, or Vesara, style and is also described as transitional between early Chalukyan and Vijayanagara styles.",
+   "ty": "fact",
+   "tq": "Distinguish the named architectural style from broad regional alternatives.",
+   "sec": "Religious patronage, architectural influences, Dharmasagara inscription"
+  },
+  {
+   "s": "Kakatiya painting is regarded as having led on to which later artistic style?",
+   "o": [
+    "Pahari style",
+    "Madhubani style",
+    "Lepakshi style",
+    "Mughal miniature style"
+   ],
+   "a": 2,
+   "x": "Kakatiya painting led on to the Lepakshi style.",
+   "ty": "fact",
+   "tq": "Follow the stated artistic development sequence.",
+   "sec": "Religious patronage, architectural influences, Dharmasagara inscription"
+  },
+  {
+   "s": "The Thousand Pillar Temple at Hanamkonda was constructed in which year?",
+   "o": [
+    "1163 CE",
+    "1213 CE",
+    "1254 CE",
+    "1303 CE"
+   ],
+   "a": 0,
+   "x": "Rudradeva built the Thousand Pillar Temple in 1163 CE.",
+   "ty": "numerical",
+   "tq": "Use chronological discrimination among Kakatiya dates.",
+   "sec": "Thousand Pillar Temple, Hanamkonda - builder, deities"
+  },
+  {
+   "s": "Which set correctly identifies the three presiding deities of the Thousand Pillar Temple?",
+   "o": [
+    "Shiva, Brahma and Ganesha",
+    "Brahma, Vishnu and Lakshmi",
+    "Shiva, Vishnu and Surya",
+    "Vishnu, Surya and Kartikeya"
+   ],
+   "a": 2,
+   "x": "The Trikuta temple is dedicated to Rudreshwara or Shiva, Vasudeva or Vishnu, and Surya. Surya occupies the place usually associated with Brahma in the Trinity.",
+   "ty": "fact",
+   "tq": "Test the unusual deity combination and the substitution of Surya for Brahma.",
+   "sec": "Thousand Pillar Temple, Hanamkonda - builder, deities"
+  },
+  {
+   "s": "Consider the following statements about the Thousand Pillar Temple:\n1. It is also called Veyi Stambhala Gudi.\n2. It has a star-shaped platform.\n3. Its massive Nandi is monolithic.\n4. Its pillars are lathe-turned and create the impression of a thousand pillars.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the Thousand Pillar Temple.",
+   "ty": "statements",
+   "tq": "Combine alternate name, plan, sculpture and structural features only after checking each statement.",
+   "sec": "Thousand Pillar Temple, Hanamkonda - builder, deities"
+  },
+  {
+   "s": "The Thousand Pillar Temple has how many pillars according to the stated architectural count?",
+   "o": [
+    "269",
+    "369",
+    "469",
+    "569"
+   ],
+   "a": 1,
+   "x": "The temple has 369 pillars; their lathe-turned form creates the illusion of a thousand.",
+   "ty": "numerical",
+   "tq": "Distinguish the actual numerical count from the popular name of the monument.",
+   "sec": "Thousand Pillar Temple, Hanamkonda - builder, deities"
+  },
+  {
+   "s": "Which village was granted by Rudradeva for the maintenance of the Thousand Pillar Temple?",
+   "o": [
+    "Maddi Cheruvu",
+    "Palampet",
+    "Dharmasagara",
+    "Srisailam"
+   ],
+   "a": 0,
+   "x": "Rudradeva gave the village of Maddi Cheruvu for the upkeep of the temple.",
+   "ty": "fact",
+   "tq": "Match the endowment village with the monument it supported.",
+   "sec": "Thousand Pillar Temple, Hanamkonda - builder, deities"
+  },
+  {
+   "s": "Arrange the following Kakatiya temple constructions in chronological order:\nA. Thousand Pillar Temple\nB. Swayambhu Lingalayam\nC. Ramappa Temple\nD. Prasanna Keshavalayam",
+   "o": [
+    "A, C, B, D",
+    "A, D, C, B",
+    "C, A, D, B",
+    "D, A, C, B"
+   ],
+   "a": 0,
+   "x": "The Thousand Pillar Temple dates to 1163 CE, Ramappa to about 1213 CE, Swayambhu Lingalayam to 1254 CE, and Prasanna Keshavalayam is placed after the earlier constructions in the stated sequence.",
+   "ty": "chronology",
+   "tq": "Start with the securely dated monuments and arrange the remaining temple associations by the supplied sequence.",
+   "sec": "Thousand Pillar Temple, Hanamkonda - builder, deities"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?\nA. Swayambhu Lingalayam — Ganapatideva\nB. Prasanna Keshavalayam — Vellanki Gangadhara\nC. Siddheshwaralayam, Padmakshi — Prola II\nD. Thousand Pillar Temple — Recherla Rudra",
+   "o": [
+    "Siddheshwaralayam, Padmakshi — Prola II",
+    "Prasanna Keshavalayam — Vellanki Gangadhara",
+    "Swayambhu Lingalayam — Ganapatideva",
+    "Thousand Pillar Temple — Recherla Rudra"
+   ],
+   "a": 3,
+   "x": "The Thousand Pillar Temple was built by Rudradeva. Recherla Rudra built the Ramappa Temple, while the other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the swapped builder–temple pair by checking the distinctive Kakatiya construction associations.",
+   "sec": "Thousand Pillar Temple, Hanamkonda - builder, deities"
+  },
+  {
+   "s": "Which of the following is the correct distinction between the two temples known by the name Rudreshwara or Rudreswara?",
+   "o": [
+    "The Hanamkonda temple was built by Recherla Rudra, whereas the Palampet temple was built by Rudradeva.",
+    "The Hanamkonda temple is dedicated only to Surya, whereas the Palampet temple is dedicated only to Vishnu.",
+    "The Hanamkonda temple is a Trikuta temple, whereas the Palampet temple is associated with floating bricks and the sculptor Ramappa.",
+    "Both temples are identical structures at Palampet and Hanamkonda respectively, with no difference in their associated features."
+   ],
+   "a": 2,
+   "x": "The Hanamkonda Thousand Pillar Temple is a Trikuta temple, while the Palampet Ramappa Temple is associated with floating bricks and is named after its sculptor Ramappa. Rudradeva built the former and Recherla Rudra built the latter.",
+   "ty": "comparison",
+   "tq": "Compare the two easily confused Rudreshwara monuments by separating place, builder and architectural feature.",
+   "sec": "Thousand Pillar Temple, Hanamkonda - builder, deities"
+  }
+ ]
+}

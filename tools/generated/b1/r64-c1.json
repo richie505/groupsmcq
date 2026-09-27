@@ -1,0 +1,357 @@
+{
+ "book": 1,
+ "row": 64,
+ "chunk": 1,
+ "section": "Gupta society and economy - varna and jati, position of women, Fa-Hien's account, trade decline",
+ "subsections": [
+  "Ports → region (Tamralipti, Bharuch, Kalyan, Ghantasala, Kadura, Chaul)",
+  "Coinage - gold, silver and copper coin names, quality over time",
+  "Position of women - earliest sati inscription, child marriage, property rights, education",
+  "Fa-Hien - route, ruler visited, observations on society, hospitals, Chandalas, administration"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 26,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following ports was regarded as the chief eastern port of the Gupta period?",
+   "o": [
+    "Tamralipti",
+    "Bharuch",
+    "Kalyan",
+    "Chaul"
+   ],
+   "a": 0,
+   "x": "Tamralipti, identified with Tamluk, was the chief eastern port in Bengal.",
+   "ty": "fact",
+   "tq": "Use the coast-direction clue to distinguish the eastern port from the western ports.",
+   "sec": "Ports → region (Tamralipti, Bharuch, Kalyan, Ghantasala, Kadura, Chaul)"
+  },
+  {
+   "s": "Bharuch, also known as Barygaza or Bharukachchha, was located in which region?",
+   "o": [
+    "Bengal",
+    "Gujarat",
+    "Konkan, Maharashtra",
+    "Krishna district"
+   ],
+   "a": 1,
+   "x": "Bharuch or Barygaza was situated in Gujarat and was the largest port on the west coast.",
+   "ty": "confusable",
+   "tq": "Discriminate between similar ancient names by linking Bharuch with Gujarat.",
+   "sec": "Ports → region (Tamralipti, Bharuch, Kalyan, Ghantasala, Kadura, Chaul)"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Kalyan — Maharashtra Konkan coast\n2. Chaul — Maharashtra Konkan coast\n3. Ghantasala — Krishna district\n4. Kadura — Krishna district\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Kalyan and Chaul were on the Maharashtra Konkan coast, while Ghantasala and Kadura were in Krishna district.",
+   "ty": "match",
+   "tq": "Start from the sure regional pairs and verify the two ports in each region.",
+   "sec": "Ports → region (Tamralipti, Bharuch, Kalyan, Ghantasala, Kadura, Chaul)"
+  },
+  {
+   "s": "Which of the following statements regarding ports and foreign trade in the Gupta period is correct?\n1. Ghantasala, Kadura and Chaul handled foreign trade.\n2. Tamralipti was situated on the western coast.\n3. Bharuch was the largest west-coast port.\n4. Kadura was located in Bengal.",
+   "o": [
+    "1 and 3 only",
+    "2 and 4 only",
+    "1, 2 and 3 only",
+    "1, 3 and 4 only"
+   ],
+   "a": 0,
+   "x": "Ghantasala, Kadura and Chaul handled foreign trade, and Bharuch was the largest west-coast port. Tamralipti was an eastern port and Kadura was in Krishna district.",
+   "ty": "statements",
+   "tq": "Reject the statements with reversed coast and region identifications.",
+   "sec": "Ports → region (Tamralipti, Bharuch, Kalyan, Ghantasala, Kadura, Chaul)"
+  },
+  {
+   "s": "Which one of the following was an import into the Gupta-period ports?",
+   "o": [
+    "Spices",
+    "Gems",
+    "Silk from China",
+    "Textiles"
+   ],
+   "a": 2,
+   "x": "Silk from China was imported, whereas textiles, gems and spices were among the exports.",
+   "ty": "fact",
+   "tq": "Separate the imported commodity from the three listed export commodities.",
+   "sec": "Ports → region (Tamralipti, Bharuch, Kalyan, Ghantasala, Kadura, Chaul)"
+  },
+  {
+   "s": "The largest number of gold coins issued by the Guptas were known as:",
+   "o": [
+    "Karshapanas",
+    "Dinaras",
+    "Kakinis",
+    "Rupakas"
+   ],
+   "a": 1,
+   "x": "The Gupta gold coins were called dinaras, and the Guptas issued them in the largest numbers.",
+   "ty": "fact",
+   "tq": "Match the metal and issue volume with the specific coin name.",
+   "sec": "Coinage - gold, silver and copper coin names, quality over time"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Rupaka — silver coin used mainly for local exchange",
+    "Dinara — copper coin used in petty exchange",
+    "Kakini — gold coin issued in large numbers",
+    "Karshapana — silver coin issued after the conquest of Gujarat"
+   ],
+   "a": 0,
+   "x": "Rupaka or rupyaka was a silver coin used mainly for local exchange. Dinaras were gold coins, while copper issues included kakini and karshapana.",
+   "ty": "match",
+   "tq": "Match each coin with its metal before checking its stated use.",
+   "sec": "Coinage - gold, silver and copper coin names, quality over time"
+  },
+  {
+   "s": "With reference to Gupta coinage, consider the following statements:\n1. Copper coins were issued only in small numbers.\n2. The gold content of dinaras declined in later reigns.\n3. Gold coins became scarce in the post-Gupta period.\n4. Cowries were used in ordinary daily exchange.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Copper issues were few, later dinaras contained less gold, gold coins became scarce after the Gupta period, and cowries were used for ordinary exchange.",
+   "ty": "statements",
+   "tq": "Track the changes over time and distinguish formal coinage from daily exchange media.",
+   "sec": "Coinage - gold, silver and copper coin names, quality over time"
+  },
+  {
+   "s": "Which of the following correctly describes the later Gupta gold coins?",
+   "o": [
+    "They contained more pure gold and less alloy.",
+    "They were used only for foreign trade.",
+    "They were replaced entirely by copper coins during Gupta rule.",
+    "They contained less gold and more alloy."
+   ],
+   "a": 3,
+   "x": "Later Gupta gold coins show debasement: their gold content declined and the proportion of alloy increased.",
+   "ty": "comparison",
+   "tq": "Identify the correct direction of change rather than merely recalling that debasement occurred.",
+   "sec": "Coinage - gold, silver and copper coin names, quality over time"
+  },
+  {
+   "s": "The earliest inscriptional record of sati associated with the Gupta period is dated to:",
+   "o": [
+    "399 CE",
+    "414 CE",
+    "510 CE",
+    "550 CE"
+   ],
+   "a": 2,
+   "x": "The Eran inscription of Bhanugupta is dated to 510 CE and is regarded as the earliest sati record mentioned here.",
+   "ty": "numerical",
+   "tq": "Use the middle chronological values carefully when distinguishing the inscriptional date from Fa-Hien’s dates.",
+   "sec": "Position of women - earliest sati inscription, child marriage, property rights, education"
+  },
+  {
+   "s": "The Eran inscription of 510 CE records sati in the case of the wife of:",
+   "o": [
+    "Goparaja",
+    "Chandragupta II",
+    "Bhanugupta",
+    "Fa-Hien"
+   ],
+   "a": 0,
+   "x": "The inscription records the sati of the wife of Goparaja, who was a general of Bhanugupta. Sati was still a rare practice under the Guptas.",
+   "ty": "fact",
+   "tq": "Avoid the ruler-person trap by distinguishing the general from the king under whom he served.",
+   "sec": "Position of women - earliest sati inscription, child marriage, property rights, education"
+  },
+  {
+   "s": "Which of the following statements about women during the Gupta period is correct?\n1. The Dharmashastras advocated pre-puberty marriage.\n2. Widows were expected to remain celibate.\n3. Svayamvara had largely given way to marriages arranged by parents.\n4. Women generally enjoyed unrestricted access to education.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Women were generally denied education, so statement 4 is false.",
+   "ty": "statements",
+   "tq": "Find the one statement that reverses the documented general position of women.",
+   "sec": "Position of women - earliest sati inscription, child marriage, property rights, education"
+  },
+  {
+   "s": "Which one of the following best describes the property rights of women during the Gupta period?",
+   "o": [
+    "Stridhana belonged exclusively to the husband’s family.",
+    "Women had no general property rights but controlled their stridhana.",
+    "Only widows possessed unrestricted property rights.",
+    "Women had general rights over all ancestral property."
+   ],
+   "a": 1,
+   "x": "Women generally had no property rights, but they could control stridhana, consisting of marriage gifts.",
+   "ty": "comparison",
+   "tq": "Discriminate between general property rights and the limited right over stridhana.",
+   "sec": "Position of women - earliest sati inscription, child marriage, property rights, education"
+  },
+  {
+   "s": "Which of the following statements is NOT correct regarding the social position of women in the Gupta period?",
+   "o": [
+    "Evidence indicates the general prevalence of purdah.",
+    "Women were generally denied education.",
+    "Courtesans lacked social respectability.",
+    "Lower-varna women had relatively greater freedom to earn a living."
+   ],
+   "a": 0,
+   "x": "The evidence indicates the absence of purdah rather than its general prevalence. The other statements correctly describe the position of women and courtesans.",
+   "ty": "negative",
+   "tq": "Look for the statement that reverses the specific social observation.",
+   "sec": "Position of women - earliest sati inscription, child marriage, property rights, education"
+  },
+  {
+   "s": "Which one of the following correctly describes Fa-Hien’s journey to and from India?",
+   "o": [
+    "He followed a wholly maritime route in both directions.",
+    "He came by sea through Sri Lanka and returned overland through Central Asia.",
+    "He came through the Deccan and returned through the north-western passes.",
+    "He came overland through Central Asia and Gandhara and returned by sea via Sri Lanka."
+   ],
+   "a": 3,
+   "x": "Fa-Hien travelled overland through Central Asia and Gandhara and returned by sea through Sri Lanka, including the port of Tamralipti on his return route.",
+   "ty": "application",
+   "tq": "Separate the inward overland route from the outward maritime route.",
+   "sec": "Fa-Hien - route, ruler visited, observations on society, hospitals, Chandalas, administration"
+  },
+  {
+   "s": "Fa-Hien’s Indian travels are generally dated to approximately:",
+   "o": [
+    "350–365 CE",
+    "450–465 CE",
+    "320–335 CE",
+    "399–414 CE"
+   ],
+   "a": 3,
+   "x": "Fa-Hien travelled in India approximately from 399 to 414 CE, during the reign of Chandragupta II.",
+   "ty": "numerical",
+   "tq": "Use the date range linked with the traveller rather than the broader Gupta chronology.",
+   "sec": "Fa-Hien - route, ruler visited, observations on society, hospitals, Chandalas, administration"
+  },
+  {
+   "s": "Which of the following statements about Fa-Hien’s account is correct?\n1. He was a Chinese Buddhist pilgrim.\n2. He recorded the name of the Gupta king in detail.\n3. His work is known as the Fo-kwo-ki.\n4. His main interest was Buddhism.",
+   "o": [
+    "1 and 3 only",
+    "1, 2 and 3 only",
+    "1, 3 and 4 only",
+    "2 and 4 only"
+   ],
+   "a": 2,
+   "x": "Fa-Hien was a Chinese Buddhist pilgrim interested in Buddhism, and his account is called the Fo-kwo-ki or Record of Buddhist Kingdoms. He did not record the king’s name.",
+   "ty": "statements",
+   "tq": "Reject the false statement created by reversing what the traveller recorded and what he omitted.",
+   "sec": "Fa-Hien - route, ruler visited, observations on society, hospitals, Chandalas, administration"
+  },
+  {
+   "s": "Fa-Hien observed that the government was generally mild and that:",
+   "o": [
+    "taxation was heavy and compulsory military service was universal",
+    "there were few taxes and no death penalty",
+    "capital punishment was the normal penalty for serious crimes",
+    "all offences were punished by imprisonment"
+   ],
+   "a": 1,
+   "x": "Fa-Hien described light taxation and the absence of the death penalty; fines were generally imposed for offences.",
+   "ty": "fact",
+   "tq": "Pair the two related administrative observations instead of selecting an extreme punishment claim.",
+   "sec": "Fa-Hien - route, ruler visited, observations on society, hospitals, Chandalas, administration"
+  },
+  {
+   "s": "Under the administrative conditions described by Fa-Hien, persistent rebellion could be punished by:",
+   "o": [
+    "exile to Sri Lanka",
+    "compulsory service in Buddhist monasteries",
+    "confiscation of all family property",
+    "cutting off the right hand"
+   ],
+   "a": 3,
+   "x": "Fa-Hien records that persistent rebellion could be punished by cutting off the right hand, although ordinary crimes were generally dealt with through fines.",
+   "ty": "fact",
+   "tq": "Distinguish the exceptional punishment for persistent rebellion from the normal use of fines.",
+   "sec": "Fa-Hien - route, ruler visited, observations on society, hospitals, Chandalas, administration"
+  },
+  {
+   "s": "Free hospitals at Pataliputra, according to Fa-Hien, were funded by:",
+   "o": [
+    "the Buddhist monasteries of Mathura alone",
+    "leading families",
+    "a special tax on Chandalas",
+    "foreign merchants alone"
+   ],
+   "a": 1,
+   "x": "Fa-Hien observed free hospitals at Pataliputra supported by leading families.",
+   "ty": "fact",
+   "tq": "Identify the local social group associated with charitable funding.",
+   "sec": "Fa-Hien - route, ruler visited, observations on society, hospitals, Chandalas, administration"
+  },
+  {
+   "s": "Which one of the following combinations is correctly matched with Fa-Hien’s observations?\n1. Mathura — 20 viharas\n2. Pataliputra — free hospitals\n3. Highways — rest houses\n4. Kapilavastu, Gaya and Kushinagar — signs of decay",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four associations are correct. Fa-Hien noted 20 viharas at Mathura, free hospitals at Pataliputra, rest houses on highways and decay at the three listed sacred places.",
+   "ty": "match",
+   "tq": "Match each place or facility with the observation specifically associated with it.",
+   "sec": "Fa-Hien - route, ruler visited, observations on society, hospitals, Chandalas, administration"
+  },
+  {
+   "s": "Which of the following practices did Fa-Hien associate with the general population, rather than with the Chandalas?",
+   "o": [
+    "Striking a piece of wood to announce their approach",
+    "Being excluded from ordinary settlements",
+    "Living outside settlements",
+    "Avoidance of meat, onion, garlic and liquor"
+   ],
+   "a": 3,
+   "x": "Fa-Hien observed that the general population avoided meat, onion, garlic and liquor, whereas the Chandalas lived outside settlements and announced their approach by striking wood.",
+   "ty": "confusable",
+   "tq": "Separate the general social custom from the distinctive practices and status of the Chandalas.",
+   "sec": "Fa-Hien - route, ruler visited, observations on society, hospitals, Chandalas, administration"
+  },
+  {
+   "s": "The Chandalas, according to Fa-Hien, were required to:",
+   "o": [
+    "wear gold ornaments and avoid all manual work",
+    "live outside settlements and strike a piece of wood when approaching others",
+    "serve as officials in the Gupta administration",
+    "live within the royal quarter and carry official seals"
+   ],
+   "a": 1,
+   "x": "Fa-Hien states that the Chandalas lived outside towns or settlements and struck a piece of wood to warn others of their approach.",
+   "ty": "fact",
+   "tq": "Combine the location and identifying practice to distinguish the Chandalas from other groups.",
+   "sec": "Fa-Hien - route, ruler visited, observations on society, hospitals, Chandalas, administration"
+  },
+  {
+   "s": "Which of the following statements about society as described by Fa-Hien is correct?\n1. Cowrie shells were used in daily exchange.\n2. Hindus and Buddhists lived in harmony.\n3. The people were generally described as peaceful and prosperous.\n4. Chandalas followed exactly the same food restrictions as the general population.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Cowries were used in daily exchange, Hindus and Buddhists lived in harmony, and the people were described as peaceful and prosperous. The Chandalas were an exception to the general food restrictions, so statement 4 is false.",
+   "ty": "statements",
+   "tq": "Identify the exception hidden in an otherwise correct description of society.",
+   "sec": "Fa-Hien - route, ruler visited, observations on society, hospitals, Chandalas, administration"
+  }
+ ]
+}

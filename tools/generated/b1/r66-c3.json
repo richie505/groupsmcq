@@ -1,0 +1,399 @@
+{
+ "book": 1,
+ "row": 66,
+ "chunk": 3,
+ "section": "Gupta art, literature, science and technology - Kalidasa, Aryabhata, Varahamihira, Ajanta, Mehrauli pillar",
+ "subsections": [
+  "Dramatists → works",
+  "Grammar and lexicon → author",
+  "Medicine and veterinary texts → author",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 27,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Consider the following pairs:\n1. Bhasa — Charudatta\n2. Shudraka — Mrichchhakatika\n3. Vishakhadatta — Devichandraguptam\n4. Harishena — Prayaga Prashasti\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Bhasa wrote Charudatta, Shudraka wrote Mrichchhakatika, Vishakhadatta wrote Devichandraguptam, and Harishena composed the Prayaga Prashasti of Samudragupta.",
+   "ty": "match",
+   "tq": "Start from the sure author–work pairs and eliminate codes that omit them.",
+   "sec": "Dramatists → works"
+  },
+  {
+   "s": "Which of the following works was composed by Dandin?",
+   "o": [
+    "Devichandraguptam",
+    "Kavyadarsha",
+    "Ravanavadha",
+    "Prayaga Prashasti"
+   ],
+   "a": 1,
+   "x": "Dandin was the author of Kavyadarsha and Dasakumaracharita. Ravanavadha was written by Bhatti, while Devichandraguptam and the Prayaga Prashasti belong to Vishakhadatta and Harishena respectively.",
+   "ty": "fact",
+   "tq": "Use the author–work association rather than the literary genre alone.",
+   "sec": "Dramatists → works"
+  },
+  {
+   "s": "Ravanavadha is associated with which of the following authors?",
+   "o": [
+    "Bhatti",
+    "Dandin",
+    "Bhasa",
+    "Shudraka"
+   ],
+   "a": 0,
+   "x": "Ravanavadha is the work of Bhatti. Dandin is associated with Dasakumaracharita and Kavyadarsha.",
+   "ty": "fact",
+   "tq": "Discriminate between closely grouped Sanskrit authors and their works.",
+   "sec": "Dramatists → works"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Harishena of the Brihatkatha Kosha was a later Jain author.\n2. The Harishena who composed the Prayaga Prashasti belonged to the same literary work tradition as the author of Brihatkatha Kosha.\n3. The Prayaga Prashasti records the achievements of Samudragupta.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 3 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 3 are correct. The Harishena associated with Brihatkatha Kosha was a different, later Jain author; therefore statement 2 is incorrect.",
+   "ty": "statements",
+   "tq": "Separate identical names by testing the associated work and historical context.",
+   "sec": "Dramatists → works"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Grammar or lexicon)\n a. Amarakosha\n b. Chandra Vyakarana\n c. Prakrit Prakasha\n d. Katantra\n\nList-II (Author)\n i. Vararuchi\n ii. Sharvavarman\n iii. Amarasimha\n iv. Chandragomin\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–ii, b–iv, c–i, d–iii"
+   ],
+   "a": 0,
+   "x": "Amarakosha was written by Amarasimha, Chandra Vyakarana by Chandragomin, Prakrit Prakasha by Vararuchi, and Katantra by Sharvavarman.",
+   "ty": "match",
+   "tq": "Begin with the distinctive lexicon–author pair and verify the remaining pairs.",
+   "sec": "Grammar and lexicon → author"
+  },
+  {
+   "s": "Chandragomin, associated with Chandra Vyakarana, belonged to which religious tradition?",
+   "o": [
+    "Jain",
+    "Vaishnava",
+    "Buddhist",
+    "Shaiva"
+   ],
+   "a": 2,
+   "x": "Chandragomin was a Buddhist grammarian of the fifth century and is associated with Chandra Vyakarana.",
+   "ty": "fact",
+   "tq": "Combine the author, work and biographical qualifier precisely.",
+   "sec": "Grammar and lexicon → author"
+  },
+  {
+   "s": "Katantra, a grammatical work of the Satavahana age, is attributed to",
+   "o": [
+    "Amarasimha",
+    "Chandragomin",
+    "Sharvavarman",
+    "Vararuchi"
+   ],
+   "a": 2,
+   "x": "Katantra is attributed to Sharvavarman and is associated with the Satavahana age.",
+   "ty": "fact",
+   "tq": "Use the period clue to distinguish the author from other grammarians.",
+   "sec": "Grammar and lexicon → author"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Navanitakam — metallic preparations",
+    "Hastyayurveda — Palakapya",
+    "Ashtanga Hridaya — Vagbhata",
+    "Hastyayurveda — Dhanvantari"
+   ],
+   "a": 3,
+   "x": "Hastyayurveda is attributed to Palakapya and deals with elephant diseases. Dhanvantari is associated with Ayurveda generally, not specifically with Hastyayurveda.",
+   "ty": "negative",
+   "tq": "Find the swapped author in the otherwise familiar author–text pairs.",
+   "sec": "Medicine and veterinary texts → author"
+  },
+  {
+   "s": "Palakapya is particularly associated with which branch of ancient Indian knowledge?",
+   "o": [
+    "Grammar and lexicon",
+    "Veterinary medicine concerning elephants",
+    "Military architecture",
+    "Astronomy and calendrical calculation"
+   ],
+   "a": 1,
+   "x": "Palakapya is associated with Hastyayurveda, a veterinary text dealing with diseases of elephants.",
+   "ty": "fact",
+   "tq": "Link the specialist author to the subject indicated by the title of the text.",
+   "sec": "Medicine and veterinary texts → author"
+  },
+  {
+   "s": "Consider the following statements about ancient Indian medicine:\n1. Physicians used preparations containing iron and mercury.\n2. Lithotomy was among the operations performed.\n3. Navanitakam was a manual dealing with metallic preparations.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Ancient physicians used iron and mercury preparations, performed operations such as lithotomy, and Navanitakam was a medical manual concerning metallic preparations.",
+   "ty": "statements",
+   "tq": "Treat each medical practice as an independent statement before selecting the code.",
+   "sec": "Medicine and veterinary texts → author"
+  },
+  {
+   "s": "Which of the following is correctly matched?",
+   "o": [
+    "Hastyayurveda — Amarasimha",
+    "Ashtanga Sangraha — Vagbhata",
+    "Navanitakam — Chandragomin",
+    "Ayurveda — Palakapya exclusively"
+   ],
+   "a": 1,
+   "x": "Ashtanga Sangraha and Ashtanga Hridaya are associated with Vagbhata. Hastyayurveda is associated with Palakapya, while Dhanvantari is associated with Ayurveda.",
+   "ty": "fact",
+   "tq": "Reject author substitutions by checking the standard medical text association.",
+   "sec": "Medicine and veterinary texts → author"
+  },
+  {
+   "s": "Which of the following best describes the cultural significance of the Gupta age?",
+   "o": [
+    "It marked the decline of Sanskrit in courts and inscriptions.",
+    "It was confined mainly to military technology and coinage.",
+    "It completely excluded external intellectual influences.",
+    "It is regarded as a classical age of Sanskrit literature, mathematics and art."
+   ],
+   "a": 3,
+   "x": "The Gupta age is regarded as a classical age of Sanskrit literature, mathematics and art. Sanskrit became prominent in courts and inscriptions during this period.",
+   "ty": "fact",
+   "tq": "Choose the comprehensive characterization rather than an absolute or exclusionary claim.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding the Gupta age:\n1. Sanskrit became established as a language of inscriptions and courts.\n2. Nalanda attracted students from China, Tibet, Korea and South-East Asia.\n3. Gupta intellectual culture developed without any external influence.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is incorrect because works such as the Romaka and Paulisa Siddhantas show Greek input into Indian science.",
+   "ty": "statements",
+   "tq": "Identify the absolute claim that conflicts with the evidence of cultural exchange.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The earliest paintings in Ajanta, particularly in Caves 9 and 10, are associated with the",
+   "o": [
+    "Satavahanas and Amaravati style",
+    "Kushanas and Mathura style",
+    "Vakatakas and Pallava style",
+    "Gupta rulers and Gandhara style"
+   ],
+   "a": 0,
+   "x": "The earliest Ajanta paintings, especially those in Caves 9 and 10, are associated with the Satavahana period and are linked to the Amaravati style.",
+   "ty": "fact",
+   "tq": "Use the cave-number and period combination to avoid confusing later Ajanta patronage.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements about the Ajanta paintings is correct?",
+   "o": [
+    "The earliest paintings at Ajanta belong to the Satavahana phase.",
+    "All Ajanta paintings were produced during the Gupta period alone.",
+    "Ajanta was exclusively a centre of Jain painting.",
+    "Ajanta paintings were unrelated to the Amaravati artistic tradition."
+   ],
+   "a": 0,
+   "x": "The earliest Ajanta paintings belong to the Satavahana phase and show a connection with the Amaravati style. The remaining statements are incorrect because Ajanta is principally a Buddhist cave complex with paintings from different phases.",
+   "ty": "negative",
+   "tq": "Reject the extreme words all and exclusively while retaining the historically specific statement.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with a regional cave-temple site of the Gupta-age cultural context in Andhra Pradesh?",
+   "o": [
+    "Mogalrajapuram — Sarnath Buddha in Dhyan mudra",
+    "Mogalrajapuram — five caves and Nataraja image",
+    "Undavalli — eight Kapalika caves",
+    "Bhairavakonda — Amaravati stupa alone"
+   ],
+   "a": 1,
+   "x": "Mogalrajapuram is known for five caves and a Nataraja image. Bhairavakonda is associated with eight Kapalika caves, while Undavalli has a different architectural and religious profile.",
+   "ty": "fact",
+   "tq": "Match each regional site with its distinctive number, deity or sectarian association.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Bhairavakonda is particularly noted for",
+   "o": [
+    "the earliest paintings of Ajanta",
+    "eight caves associated with the Kapalika tradition",
+    "the Prayaga Prashasti of Samudragupta",
+    "five caves containing a Nataraja image"
+   ],
+   "a": 1,
+   "x": "Bhairavakonda is noted for eight caves associated with the Kapalika tradition. The five caves and Nataraja association belong to Mogalrajapuram.",
+   "ty": "fact",
+   "tq": "Distinguish two Andhra cave sites by their cave count and religious association.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to the Undavalli caves, consider the following statements:\n1. They are situated in Guntur district on the Krishna.\n2. Their architecture represents a Vishnukundina adaptation of the Gupta rock-cut style.\n3. They contain a five-metre reclining image of Ananta Padmanabha Vishnu.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The Undavalli caves are in Guntur on the Krishna and feature Vishnukundina adaptation of Gupta rock-cut architecture, including the five-metre reclining Ananta Padmanabha Vishnu.",
+   "ty": "statements",
+   "tq": "Combine location, architectural affiliation and identifying monument details.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The two-day Telugu Mahotsavam associated with the Undavalli caves was held in",
+   "o": [
+    "April 2025",
+    "July 2025",
+    "April 2026",
+    "July 2026"
+   ],
+   "a": 3,
+   "x": "The two-day Telugu Mahotsavam at the Undavalli caves was held on 29 July 2026.",
+   "ty": "numerical",
+   "tq": "Separate close current-affairs dates by retaining both the month and year.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Ashwin Prabhu's book associated with Ajanta concerns the",
+   "o": [
+    "metallic preparations of Navanitakam",
+    "murals of Ajanta",
+    "veterinary treatment of elephants",
+    "grammar of Chandra Vyakarana"
+   ],
+   "a": 1,
+   "x": "Ashwin Prabhu authored a book on the murals of Ajanta, reported in April 2026.",
+   "ty": "fact",
+   "tq": "Match the contemporary author with the subject of the publication.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "In April 2025, the Prime Minister gifted to the King of Thailand a",
+   "o": [
+    "Prayaga Prashasti replica from Allahabad",
+    "Nataraja image from Mogalrajapuram",
+    "reclining Ananta Padmanabha image from Undavalli",
+    "Buddha image from Sarnath in Dhyan mudra"
+   ],
+   "a": 3,
+   "x": "The gift was a Sarnath Buddha in Dhyan mudra presented to Thailand's King in April 2025.",
+   "ty": "fact",
+   "tq": "Identify the exact object and provenance in a current cultural-diplomacy question.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements about Indian scientific development is correct?",
+   "o": [
+    "The Romaka and Paulisa Siddhantas indicate Greek input into Indian scientific thought.",
+    "The Romaka and Paulisa Siddhantas demonstrate that Indian science was completely isolated from Greek influence.",
+    "The two Siddhantas were grammatical works of Sharvavarman.",
+    "The two Siddhantas were veterinary texts by Palakapya."
+   ],
+   "a": 0,
+   "x": "The Romaka and Paulisa Siddhantas show Greek input into Indian science, challenging the view that Indian scientific development was entirely isolated.",
+   "ty": "fact",
+   "tq": "Use the criticism-and-debate angle to reject an absolute isolation claim.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Bhaskara II — twelfth century",
+    "Vagbhata — Ashtanga Hridaya",
+    "Charaka — Gupta period exclusively",
+    "Charaka — Kushana period"
+   ],
+   "a": 2,
+   "x": "Charaka is associated with the Kushana period, not exclusively with the Gupta period. Bhaskara II belonged to the twelfth century and Vagbhata wrote Ashtanga Hridaya.",
+   "ty": "negative",
+   "tq": "Apply the period distinction to detect the misleading Gupta association.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The phrase 'classical age' in relation to the Gupta period is most appropriately connected with advances in",
+   "o": [
+    "only temple taxation and land grants",
+    "Sanskrit literature, mathematics and art",
+    "only foreign conquest and military administration",
+    "only maritime trade and naval warfare"
+   ],
+   "a": 1,
+   "x": "The Gupta period is termed a classical age because of its achievements in Sanskrit literature, mathematics and art.",
+   "ty": "application",
+   "tq": "Select the option that integrates the linked cultural fields rather than a single narrow activity.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements correctly distinguishes the two authors named Harishena?\n1. One Harishena composed the Prayaga Prashasti of Samudragupta.\n2. Another Harishena was a later Jain author associated with Brihatkatha Kosha.\n3. Both references necessarily denote the same historical person.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "1, 2 and 3",
+    "2 and 3 only"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. The two Harishenas were different persons, so statement 3 is incorrect.",
+   "ty": "confusable",
+   "tq": "Resolve a name-confusion trap by comparing the work and religious-historical context.",
+   "sec": "Dramatists → works"
+  },
+  {
+   "s": "Which of the following groups contains only works correctly associated with Dandin and Bhatti respectively?",
+   "o": [
+    "Dasakumaracharita and Kavyadarsha — Ravanavadha",
+    "Mrichchhakatika — Ravanavadha",
+    "Charudatta — Kavyadarsha",
+    "Mudrarakshasa — Dasakumaracharita"
+   ],
+   "a": 0,
+   "x": "Dandin wrote Dasakumaracharita and Kavyadarsha, while Bhatti wrote Ravanavadha. The other groups contain works associated with different authors.",
+   "ty": "match",
+   "tq": "Split the option into author groups and verify each work before accepting it.",
+   "sec": "Dramatists → works"
+  },
+  {
+   "s": "Which of the following statements regarding the Gupta-period cultural legacy is correct?\n1. Sanskrit was fixed as a major language of court and inscriptional usage.\n2. Nalanda had an international student attraction extending beyond India.\n3. Scientific development of the period shows no evidence of interaction with other civilizations.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the Romaka and Paulisa Siddhantas reflect Greek input.",
+   "ty": "statements",
+   "tq": "Use the one contradictory statement to eliminate the codes containing it.",
+   "sec": "Universal angles"
+  }
+ ]
+}

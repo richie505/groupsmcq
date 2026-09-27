@@ -1,0 +1,469 @@
+{
+ "book": 6,
+ "row": 17,
+ "chunk": 0,
+ "section": "Persons in news - appointments, resignations and obituaries",
+ "subsections": [
+  "Heads of state/government elected abroad - country",
+  "Heads of international organisations - organisation + term",
+  "Women FIRSTs in appointments - post + organisation",
+  "Constitutional, statutory and executive appointments"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 42,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 9,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Andy Burnham was reported to have become Prime Minister of which country in July 2026 after ousting Keir Starmer as Labour leader?",
+   "o": [
+    "Japan",
+    "Bangladesh",
+    "United Kingdom",
+    "Italy"
+   ],
+   "a": 2,
+   "x": "Andy Burnham became Prime Minister of the United Kingdom in July 2026 after replacing Keir Starmer as Labour leader.",
+   "ty": "fact",
+   "tq": "Use the country association rather than being distracted by leaders from other countries.",
+   "sec": "Heads of state/government elected abroad - country"
+  },
+  {
+   "s": "Balendra (Balen) Shah was sworn in as Prime Minister of which country in March 2026?",
+   "o": [
+    "Nepal",
+    "Bangladesh",
+    "Venezuela",
+    "Myanmar"
+   ],
+   "a": 0,
+   "x": "Balendra Shah was sworn in as Prime Minister of Nepal in March 2026.",
+   "ty": "fact",
+   "tq": "Direct leader–country identification tests a current-affairs appointment.",
+   "sec": "Heads of state/government elected abroad - country"
+  },
+  {
+   "s": "Consider the following statements regarding Balendra Shah:\n1. He was sworn in as Prime Minister of Nepal in March 2026.\n2. He assumed office at the age of 35.\n3. His Rastriya Swatantra Party won a majority.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Shah became Nepal’s Prime Minister in March 2026 at 35, and his Rastriya Swatantra Party won a majority.",
+   "ty": "statements",
+   "tq": "Check each statement separately before accepting the complete combination.",
+   "sec": "Heads of state/government elected abroad - country"
+  },
+  {
+   "s": "Tarique Rahman became Prime Minister of Bangladesh following which political development?",
+   "o": [
+    "A landslide victory of the BNP in the February 2026 election",
+    "A constitutional appointment after the resignation of the President",
+    "A military transition in April 2026",
+    "A coalition victory in the 2025 election"
+   ],
+   "a": 0,
+   "x": "Tarique Rahman became Bangladesh’s Prime Minister after the BNP secured a landslide victory in the February 2026 election.",
+   "ty": "fact",
+   "tq": "Link the office-holder with the specific electoral event and date.",
+   "sec": "Heads of state/government elected abroad - country"
+  },
+  {
+   "s": "Min Aung Hlaing assumed the civilian office of President of Myanmar in:",
+   "o": [
+    "January 2026",
+    "October 2025",
+    "March 2026",
+    "April 2026"
+   ],
+   "a": 3,
+   "x": "Min Aung Hlaing moved into the civilian presidency of Myanmar in April 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish close dates by associating the month with the political transition.",
+   "sec": "Heads of state/government elected abroad - country"
+  },
+  {
+   "s": "Delcy Rodríguez became interim President of Venezuela in January 2026 after:",
+   "o": [
+    "the U.S. seized Nicolás Maduro",
+    "the resignation of Nicolás Maduro following an election defeat",
+    "the BNP victory in Bangladesh",
+    "the removal of Keir Starmer as Labour leader"
+   ],
+   "a": 0,
+   "x": "Delcy Rodríguez became interim President of Venezuela in January 2026 after the United States seized Nicolás Maduro.",
+   "ty": "application",
+   "tq": "Identify the event that directly explains the interim succession.",
+   "sec": "Heads of state/government elected abroad - country"
+  },
+  {
+   "s": "Giorgia Meloni is notable for which of the following?",
+   "o": [
+    "She became Italy’s first woman Prime Minister and its longest continuously serving post-war Prime Minister.",
+    "She became Nepal’s youngest Prime Minister.",
+    "She was Japan’s first woman Prime Minister.",
+    "She became Venezuela’s first interim President."
+   ],
+   "a": 0,
+   "x": "Giorgia Meloni is Italy’s first woman Prime Minister and became the longest continuously serving Prime Minister in Italy’s post-war history.",
+   "ty": "fact",
+   "tq": "Combine the office, country and superlative without confusing separate firsts.",
+   "sec": "Heads of state/government elected abroad - country"
+  },
+  {
+   "s": "Kirsty Coventry belongs to which country?",
+   "o": [
+    "Ghana",
+    "Bangladesh",
+    "Cyprus",
+    "Zimbabwe"
+   ],
+   "a": 3,
+   "x": "Kirsty Coventry, the IOC President, is from Zimbabwe.",
+   "ty": "fact",
+   "tq": "Test the nationality attached to an international office-holder.",
+   "sec": "Heads of international organisations - organisation + term"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "WHO — Tedros Adhanom Ghebreyesus",
+    "World Bank — Ngozi Okonjo-Iweala",
+    "IMF — Ajay Banga",
+    "WTO — Kristalina Georgieva"
+   ],
+   "a": 0,
+   "x": "Tedros Adhanom Ghebreyesus is the Director-General of the WHO. Ajay Banga heads the World Bank, Kristalina Georgieva heads the IMF and Ngozi Okonjo-Iweala heads the WTO.",
+   "ty": "match",
+   "tq": "Use organisation–office-holder pairs and reject swapped international institutions.",
+   "sec": "Heads of international organisations - organisation + term"
+  },
+  {
+   "s": "Khalilur Rahman defeated which country’s candidate in the election for President of the 81st UN General Assembly session?",
+   "o": [
+    "Venezuela",
+    "Cyprus",
+    "Zimbabwe",
+    "Nepal"
+   ],
+   "a": 1,
+   "x": "Khalilur Rahman defeated the candidate from Cyprus in the election for the 81st UN General Assembly session.",
+   "ty": "fact",
+   "tq": "Test the less prominent opposing candidate in an international election.",
+   "sec": "Heads of international organisations - organisation + term"
+  },
+  {
+   "s": "António Guterres is scheduled to leave office as UN Secretary-General at the end of:",
+   "o": [
+    "2025",
+    "2026",
+    "2027",
+    "2028"
+   ],
+   "a": 1,
+   "x": "António Guterres is scheduled to leave the office of UN Secretary-General at the end of 2026.",
+   "ty": "numerical",
+   "tq": "Read the term-ending year precisely rather than confusing it with the successor’s starting year.",
+   "sec": "Heads of international organisations - organisation + term"
+  },
+  {
+   "s": "The five-year term of the successor to António Guterres as UN Secretary-General is scheduled to begin on:",
+   "o": [
+    "1 July 2026",
+    "1 January 2026",
+    "1 January 2028",
+    "1 January 2027"
+   ],
+   "a": 3,
+   "x": "The successor’s five-year term is scheduled to begin on 1 January 2027.",
+   "ty": "numerical",
+   "tq": "Separate the selection year from the commencement date of the term.",
+   "sec": "Heads of international organisations - organisation + term"
+  },
+  {
+   "s": "In the UNSC straw poll for a candidate for UN Secretary-General, which condition is required?",
+   "o": [
+    "At least 9 ‘Encourage’ votes and no ‘Discourage’ vote from a permanent member",
+    "A unanimous vote of all 15 Security Council members",
+    "At least 10 ‘Encourage’ votes irrespective of permanent-member votes",
+    "A two-thirds vote of the UN General Assembly before the straw poll"
+   ],
+   "a": 0,
+   "x": "A candidate needs at least 9 ‘Encourage’ votes out of 15 and must receive no ‘Discourage’ vote from any permanent member.",
+   "ty": "application",
+   "tq": "Break a procedural rule into its numerical threshold and veto-related condition.",
+   "sec": "Heads of international organisations - organisation + term"
+  },
+  {
+   "s": "Varsha Ashok Aglawe became which numbered Director-General of the Geological Survey of India?",
+   "o": [
+    "143rd",
+    "176th",
+    "54th",
+    "31st"
+   ],
+   "a": 2,
+   "x": "Varsha Ashok Aglawe became the 54th Director-General of the Geological Survey of India, an organisation with a 176-year history.",
+   "ty": "numerical",
+   "tq": "Distinguish the office-holder’s serial number from the organisation’s age.",
+   "sec": "Women FIRSTs in appointments - post + organisation"
+  },
+  {
+   "s": "Sunetra Pawar became the first woman Deputy Chief Minister of which State?",
+   "o": [
+    "West Bengal",
+    "Maharashtra",
+    "Karnataka",
+    "Tamil Nadu"
+   ],
+   "a": 1,
+   "x": "Sunetra Pawar became the first woman Deputy Chief Minister of Maharashtra after the death of Ajit Pawar.",
+   "ty": "fact",
+   "tq": "Use the State–post association instead of the surrounding succession detail.",
+   "sec": "Women FIRSTs in appointments - post + organisation"
+  },
+  {
+   "s": "Dhriti Banerjee became the first woman Director of the:",
+   "o": [
+    "Reserve Bank of India",
+    "Zoological Survey of India",
+    "Research and Analysis Wing",
+    "Geological Survey of India"
+   ],
+   "a": 1,
+   "x": "Dhriti Banerjee became the first woman Director of the Zoological Survey of India. A newly identified skate species was named after her.",
+   "ty": "fact",
+   "tq": "Separate the Zoological Survey from the similarly named Geological Survey.",
+   "sec": "Women FIRSTs in appointments - post + organisation"
+  },
+  {
+   "s": "Who was sworn in as the 53rd Chief Justice of India in November 2025?",
+   "o": [
+    "Justice Lisa Gill",
+    "Justice Surya Kant",
+    "Justice B.V. Nagarathna",
+    "Gyanesh Kumar"
+   ],
+   "a": 1,
+   "x": "Justice Surya Kant was sworn in as the 53rd Chief Justice of India in November 2025.",
+   "ty": "fact",
+   "tq": "Match the constitutional post with the correct office-holder and serial number.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "RBI Governor — Sanjay Malhotra",
+    "Vice-President — C.P. Radhakrishnan",
+    "Chief Election Commissioner — Gyanesh Kumar",
+    "Cabinet Secretary — Mahesh Dixit"
+   ],
+   "a": 3,
+   "x": "Mahesh Dixit is the Director of the Intelligence Bureau, not the Cabinet Secretary. T.V. Somanathan is the Cabinet Secretary.",
+   "ty": "negative",
+   "tq": "Find the swapped authority or office-holder in a set of current appointments.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "T.V. Somanathan received a one-year extension as Cabinet Secretary from the:",
+   "o": [
+    "Appointments Committee of the Cabinet",
+    "Election Commission of India",
+    "Cabinet Secretariat alone",
+    "Union Public Service Commission"
+   ],
+   "a": 0,
+   "x": "The Appointments Committee of the Cabinet granted T.V. Somanathan a one-year extension in August 2026.",
+   "ty": "fact",
+   "tq": "Ask which executive authority formally controls the appointment.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "Consider the following statements about the Cabinet Secretary:\n1. The post is appointed by the Appointments Committee of the Cabinet.\n2. The normal term is two years and it may be extended up to four years.\n3. The Cabinet Secretary ranks 11th in the order of precedence.\n4. The Cabinet Secretary heads the National Crisis Management Committee.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The Cabinet Secretary is appointed by the ACC, has a two-year term extendable to four years, ranks 11th and heads the NCMC.",
+   "ty": "statements",
+   "tq": "Verify each institutional detail before selecting the complete combination.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "Under the 2023 law relating to the appointment of the Chief Election Commissioner and Election Commissioners, the Selection Committee consists of:",
+   "o": [
+    "Prime Minister, Chief Justice of India and the Speaker of the Lok Sabha",
+    "Prime Minister, Union Home Minister and Chief Election Commissioner",
+    "President, Prime Minister and Chief Justice of India",
+    "Prime Minister, Leader of the Opposition and a Union Cabinet Minister"
+   ],
+   "a": 3,
+   "x": "The 2023 Act provides for a Selection Committee comprising the Prime Minister, the Leader of the Opposition and a Union Cabinet Minister. The Chief Justice of India was removed from the panel.",
+   "ty": "fact",
+   "tq": "Use the statutory composition and reject the earlier judicial-member arrangement.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "The tenure of the Chief Election Commissioner and Election Commissioners is:",
+   "o": [
+    "Five years or until the age of 62, whichever is earlier",
+    "Six years or until the age of 65, whichever is earlier",
+    "Five years or until the age of 65, whichever is earlier",
+    "Six years without an age limit"
+   ],
+   "a": 1,
+   "x": "The tenure is six years or until the age of 65, whichever is earlier.",
+   "ty": "numerical",
+   "tq": "Check both components of a tenure rule: duration and age limit.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "The Supreme Court described the Chief Justice of India’s place on the CEC selection panel as temporary in May 2026, referring to the arrangement arising from:",
+   "o": [
+    "Kesavananda Bharati case, April 1973",
+    "Anoop Baranwal case, March 2023",
+    "Puttaswamy case, August 2017",
+    "S.R. Bommai case, March 1994"
+   ],
+   "a": 1,
+   "x": "The temporary inclusion of the Chief Justice of India arose from the Anoop Baranwal decision of March 2023, as clarified by the Supreme Court in May 2026.",
+   "ty": "fact",
+   "tq": "Link the later clarification with the specific earlier judicial decision.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "Who is the Deputy Chairman of the Rajya Sabha in 2026?",
+   "o": [
+    "Mallikarjun Kharge",
+    "T.V. Somanathan",
+    "Harivansh Narayan Singh",
+    "C.P. Radhakrishnan"
+   ],
+   "a": 2,
+   "x": "Harivansh Narayan Singh is the Deputy Chairman of the Rajya Sabha.",
+   "ty": "fact",
+   "tq": "Distinguish the presiding office from the Leader of Opposition and other constitutional posts.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "Which of the following was unprecedented in relation to the Deputy Chairmanship of the Rajya Sabha?",
+   "o": [
+    "A nominated member became the first Deputy Chairman without a parliamentary vote.",
+    "The Deputy Chairman was appointed by the Chief Justice of India.",
+    "A nominated member was elected to the office for a third consecutive term.",
+    "The office was held simultaneously by two members."
+   ],
+   "a": 2,
+   "x": "For the first time, a nominated member was elected Deputy Chairman of the Rajya Sabha for a third consecutive term.",
+   "ty": "fact",
+   "tq": "Identify the precise constitutional-parliamentary novelty rather than a general appointment detail.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "Which of the following pairs of State and Chief Minister is correctly matched?",
+   "o": [
+    "Tamil Nadu — C. Joseph Vijay",
+    "West Bengal — D.K. Shivakumar",
+    "Karnataka — Suvendu Adhikari",
+    "Maharashtra — C. Joseph Vijay"
+   ],
+   "a": 0,
+   "x": "C. Joseph Vijay became Chief Minister of Tamil Nadu. Suvendu Adhikari is associated with West Bengal and D.K. Shivakumar with Karnataka.",
+   "ty": "match",
+   "tq": "Begin with the State–Chief Minister pair and eliminate cross-State substitutions.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "Who was appointed Director of the Intelligence Bureau in June 2026?",
+   "o": [
+    "Mahesh Dixit",
+    "Gyanesh Kumar",
+    "Sanjay Malhotra",
+    "Gen. N.S. Raja Subramani"
+   ],
+   "a": 0,
+   "x": "Mahesh Dixit, a 1993-batch Andhra Pradesh-cadre IPS officer, was appointed IB Director in June 2026.",
+   "ty": "fact",
+   "tq": "Match the appointment with the service background and month of appointment.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Navy Chief — Adm. Krishna Swaminathan",
+    "CDS — Gen. N.S. Raja Subramani",
+    "Army Chief — Gen. Dhiraj Seth",
+    "IB Director — Gen. N.S. Raja Subramani"
+   ],
+   "a": 3,
+   "x": "Gen. N.S. Raja Subramani is the Chief of Defence Staff, whereas Mahesh Dixit is the IB Director. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Use the service and office distinction to catch a swapped appointment.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "Gen. Dhiraj Seth became the 31st Chief of the Army Staff on:",
+   "o": [
+    "1 January 2026",
+    "1 July 2026",
+    "15 August 2026",
+    "1 July 2025"
+   ],
+   "a": 1,
+   "x": "Gen. Dhiraj Seth became the 31st Chief of the Army Staff on 1 July 2026.",
+   "ty": "numerical",
+   "tq": "Combine the serial number with the exact date of assumption of office.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "Who was the Vice Chief of the Army Staff when Gen. Dhiraj Seth became Chief of the Army Staff?",
+   "o": [
+    "Vice Adm. Ajay Kochhar",
+    "Lt Gen Sandeep Jain",
+    "Adm. Krishna Swaminathan",
+    "Gen. N.S. Raja Subramani"
+   ],
+   "a": 1,
+   "x": "Lt Gen Sandeep Jain was the Vice Chief of the Army Staff.",
+   "ty": "fact",
+   "tq": "Distinguish the Vice Chief of the Army from the Vice Chief of the Navy.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "Which of the following statements is correct regarding the Indian Navy’s senior appointments?\n1. Adm. Krishna Swaminathan is the 27th Chief of the Naval Staff.\n2. Vice Adm. Ajay Kochhar is the 48th Vice Chief of the Naval Staff.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both statements are correct: Krishna Swaminathan is the 27th CNS and Ajay Kochhar is the 48th VCNS.",
+   "ty": "statements",
+   "tq": "Test paired serial numbers within the same service hierarchy.",
+   "sec": "Constitutional, statutory and executive appointments"
+  },
+  {
+   "s": "Mallikarjun Kharge was reappointed in June 2026 as the:",
+   "o": [
+    "Leader of Opposition in the Rajya Sabha",
+    "Deputy Chairman of the Rajya Sabha",
+    "Cabinet Secretary",
+    "Leader of Opposition in the Lok Sabha"
+   ],
+   "a": 0,
+   "x": "Mallikarjun Kharge was reappointed Leader of Opposition in the Rajya Sabha in June 2026.",
+   "ty": "fact",
+   "tq": "Distinguish the chamber and office in parliamentary appointments.",
+   "sec": "Constitutional, statutory and executive appointments"
+  }
+ ]
+}

@@ -1,0 +1,552 @@
+{
+ "book": 6,
+ "row": 12,
+ "chunk": 1,
+ "section": "Environment in news - reports, indices, species, protected areas, climate negotiations",
+ "subsections": [
+  "Conservation designations - designating body + site",
+  "Environmental disasters abroad - country + emergency",
+  "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Ramsar Convention, under which wetlands are designated as Ramsar Sites, was adopted in which year?",
+   "o": [
+    "1968",
+    "1971",
+    "1975",
+    "1982"
+   ],
+   "a": 1,
+   "x": "The Ramsar Convention was adopted in 1971. India became a party to it in 1982.",
+   "ty": "fact",
+   "tq": "Direct recall of a key year and related convention.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "India joined the Ramsar Convention in:",
+   "o": [
+    "1971",
+    "1975",
+    "1982",
+    "1987"
+   ],
+   "a": 2,
+   "x": "India joined the Ramsar Convention in 1982.",
+   "ty": "fact",
+   "tq": "Confusable-year discrimination between the convention year and India’s membership year.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Ramsar Site — Ramsar Convention",
+    "Tiger Reserve — UNESCO MAB",
+    "Biosphere Reserve — NTCA",
+    "National Geo-Heritage Site — Mission Blue"
+   ],
+   "a": 0,
+   "x": "Ramsar Sites are designated under the Ramsar Convention. Tiger Reserves are associated with NTCA, Biosphere Reserves with UNESCO MAB, and National Geo-Heritage Sites with the Geological Survey of India.",
+   "ty": "match",
+   "tq": "Start from the sure designation-body pair and eliminate swapped authorities.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the latest Ramsar designations in India:\n1. Surha Tal is located in Uttar Pradesh.\n2. Surha Tal is associated with Jai Prakash Narayan Bird Sanctuary in Ballia.\n3. Glaw Lake is located in Arunachal Pradesh.\n4. Glaw Lake is associated with Kamlang Tiger Reserve.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4",
+    "2 and 4 only"
+   ],
+   "a": 2,
+   "x": "All four statements are correct. Surha Tal is in the Jai Prakash Narayan Bird Sanctuary in Ballia, Uttar Pradesh, while Glaw Lake is in Kamlang Tiger Reserve, Arunachal Pradesh.",
+   "ty": "statements",
+   "tq": "Statement combination using location and associated protected-area details.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "Surha Tal and Glaw Lake were respectively recognised as which Ramsar Site numbers in 2026?",
+   "o": [
+    "98th and 99th",
+    "100th and 101st",
+    "101st and 102nd",
+    "99th and 100th"
+   ],
+   "a": 1,
+   "x": "Surha Tal became India’s 100th Ramsar Site and Glaw Lake became the 101st.",
+   "ty": "numerical",
+   "tq": "Numerical sequencing of closely spaced designations.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "Arrange the following Ramsar developments in chronological order:\nA. Shekha Jheel becomes India’s 99th Ramsar Site\nB. Surha Tal becomes India’s 100th Ramsar Site\nC. Glaw Lake becomes India’s 101st Ramsar Site\nD. India has 98 Ramsar Sites in early 2026",
+   "o": [
+    "D, A, B, C",
+    "A, D, B, C",
+    "D, B, A, C",
+    "A, B, C, D"
+   ],
+   "a": 0,
+   "x": "The sequence is 98 Sites in early 2026, Shekha Jheel in April, Surha Tal in June, and Glaw Lake in August 2026.",
+   "ty": "chronology",
+   "tq": "Use the first and last milestones before arranging the intermediate events.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements about Glaw Lake is correct?",
+   "o": [
+    "It is located in the Sundarbans of West Bengal.",
+    "It is India’s 100th Ramsar Site in Uttar Pradesh.",
+    "It is a National Geo-Heritage Site in Madhya Pradesh.",
+    "It is India’s first Ramsar Site in Arunachal Pradesh."
+   ],
+   "a": 3,
+   "x": "Glaw Lake, located in Kamlang Tiger Reserve in Arunachal Pradesh, became India’s 101st Ramsar Site and Arunachal Pradesh’s first.",
+   "ty": "fact",
+   "tq": "Direct identification of a site through its status and location.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "India ranks third globally and first in Asia in the number of Ramsar Sites. Which two countries rank above India globally, according to the stated figures?",
+   "o": [
+    "United Kingdom and Mexico",
+    "Australia and Mexico",
+    "Mexico and Japan",
+    "United States and United Kingdom"
+   ],
+   "a": 0,
+   "x": "The United Kingdom, with 176 Ramsar Sites, and Mexico, with 144, rank above India globally.",
+   "ty": "comparison",
+   "tq": "Comparison-table based recall of rank and neighbouring figures.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "Which State has the highest number of Ramsar Sites in India, with 20 sites?",
+   "o": [
+    "Odisha",
+    "Tamil Nadu",
+    "Arunachal Pradesh",
+    "Uttar Pradesh"
+   ],
+   "a": 1,
+   "x": "Tamil Nadu has the highest number of Ramsar Sites in India, with 20.",
+   "ty": "numerical",
+   "tq": "Direct recall of a state-wise maximum.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "Keoladeo and Loktak are associated with which Ramsar-related designation?",
+   "o": [
+    "They are India’s two National Geo-Heritage Sites.",
+    "They are the first Ramsar Sites in Asia.",
+    "They are Wetland Cities recognised for the first time in 2026.",
+    "They are included in the Montreux Record."
+   ],
+   "a": 3,
+   "x": "Keoladeo and Loktak are included in the Montreux Record, which lists Ramsar Sites where ecological character has changed or is threatened.",
+   "ty": "fact",
+   "tq": "Confusable-designation discrimination between Ramsar categories.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs of Wetland Cities is correctly matched?",
+   "o": [
+    "Indore and Udaipur",
+    "Ballia and Shivpuri",
+    "Lahaul-Spiti and Banda",
+    "Palamaner and Kamlang"
+   ],
+   "a": 0,
+   "x": "Indore and Udaipur are identified as Wetland Cities; Indore is the first such city mentioned.",
+   "ty": "match",
+   "tq": "Start from the distinctive city pair rather than the protected-area names.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "The 58th Tiger Reserve of India is:",
+   "o": [
+    "Guru Ghasidas-Tamor Pingla",
+    "Madhav National Park",
+    "Nagarjunsagar-Srisailam",
+    "Cold Desert Biosphere Reserve"
+   ],
+   "a": 1,
+   "x": "Madhav National Park in Shivpuri district of Madhya Pradesh became India’s 58th Tiger Reserve.",
+   "ty": "fact",
+   "tq": "Direct recall of a designation number and site.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about Tiger Reserves in India:\n1. Madhya Pradesh has the highest number of Tiger Reserves.\n2. Madhya Pradesh has nine Tiger Reserves.\n3. Guru Ghasidas-Tamor Pingla is the 56th Tiger Reserve.\n4. Nagarjunsagar-Srisailam Tiger Reserve is the largest Tiger Reserve in India, covering about 5,443 square kilometres.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Nagarjunsagar-Srisailam is described as the largest Tiger Reserve, not merely a reserve with the name stated in option 4; it covers about 5,443 square kilometres.",
+   "ty": "statements",
+   "tq": "Find the altered protected-area identity in the final statement.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "The National Geo-Heritage Site at Kalinjar Hill is located in:",
+   "o": [
+    "Lahaul-Spiti district, Himachal Pradesh",
+    "Shivpuri district, Madhya Pradesh",
+    "Banda district, Uttar Pradesh",
+    "Visakhapatnam district, Andhra Pradesh"
+   ],
+   "a": 2,
+   "x": "Kalinjar Hill in Banda district of Uttar Pradesh was declared a National Geo-Heritage Site.",
+   "ty": "fact",
+   "tq": "Direct location-based recall.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "UNESCO Biosphere Reserve — UNESCO MAB",
+    "Tiger Reserve — National Tiger Conservation Authority",
+    "Hope Spot — Geological Survey of India",
+    "National Geo-Heritage Site — Geological Survey of India"
+   ],
+   "a": 2,
+   "x": "Hope Spots are associated with Mission Blue, in collaboration with IUCN. The Geological Survey of India is associated with National Geo-Heritage Sites.",
+   "ty": "negative",
+   "tq": "Find the swapped designating authority.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "Cold Desert Biosphere Reserve, located in Lahaul-Spiti, Himachal Pradesh, became India’s which Biosphere Reserve in the UNESCO World Network?",
+   "o": [
+    "11th",
+    "12th",
+    "18th",
+    "13th"
+   ],
+   "a": 3,
+   "x": "Cold Desert Biosphere Reserve became India’s 13th Biosphere Reserve in the UNESCO World Network in September 2025. India has 18 Biosphere Reserves in all.",
+   "ty": "numerical",
+   "tq": "Separate the national total from the World Network sequence number.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "The recognition of Cold Desert Biosphere Reserve in the UNESCO World Network took place during the 37th MAB International Coordinating Council meeting held at:",
+   "o": [
+    "Lahaul-Spiti",
+    "Banda",
+    "Hangzhou",
+    "Shivpuri"
+   ],
+   "a": 2,
+   "x": "The recognition took place during the 37th MAB International Coordinating Council meeting at Hangzhou in September 2025.",
+   "ty": "fact",
+   "tq": "Match the event with its venue rather than its site location.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "The State of emergency in August 2026 due to the Bald Range wildfire was declared in:",
+   "o": [
+    "Sri Lanka",
+    "Nepal",
+    "Iran",
+    "Canada"
+   ],
+   "a": 3,
+   "x": "The Bald Range wildfire occurred in British Columbia, Canada, where a state of emergency was declared and more than 20,000 people were evacuated.",
+   "ty": "fact",
+   "tq": "Direct country-event association.",
+   "sec": "Environmental disasters abroad - country + emergency  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Flash floods in the Bhotekoshi-Trishuli rivers — Nepal",
+    "Oil spill off Qeshm Island — Sri Lanka",
+    "Cyclone Ditwah — Canada",
+    "Bald Range wildfire — Iran"
+   ],
+   "a": 0,
+   "x": "The flash floods affecting the Bhotekoshi and Trishuli rivers occurred in Nepal. The Qeshm Island oil spill was in Iran, Cyclone Ditwah affected Sri Lanka, and the Bald Range wildfire occurred in Canada.",
+   "ty": "match",
+   "tq": "Use country-event matching and eliminate geographically swapped disasters.",
+   "sec": "Environmental disasters abroad - country + emergency  [APPSC]"
+  },
+  {
+   "s": "The flash floods in Nepal on 26 August 2026 resulted in a reported toll of approximately:",
+   "o": [
+    "600",
+    "1,000",
+    "1,259",
+    "20,000"
+   ],
+   "a": 2,
+   "x": "The flash floods in the Bhotekoshi-Trishuli river system were reported to have caused 1,259 deaths and damaged 13 hydropower projects.",
+   "ty": "numerical",
+   "tq": "Direct recall of a disaster toll, with nearby figures as distractors.",
+   "sec": "Environmental disasters abroad - country + emergency  [APPSC]"
+  },
+  {
+   "s": "The oil spill off Qeshm Island in August 2026 posed a threat to which ecological area?",
+   "o": [
+    "The Hara mangroves",
+    "The Rushikulya nesting beach",
+    "Keoladeo National Park",
+    "The Cold Desert Biosphere Reserve"
+   ],
+   "a": 0,
+   "x": "The oil spill in the Strait of Hormuz, off Iran’s Qeshm Island, threatened the Hara mangroves, a UNESCO Biosphere Reserve.",
+   "ty": "fact",
+   "tq": "Application of location to the threatened ecosystem.",
+   "sec": "Environmental disasters abroad - country + emergency  [APPSC]"
+  },
+  {
+   "s": "Which operation was conducted by India in response to Cyclone Ditwah in Sri Lanka?",
+   "o": [
+    "Operation Olivia",
+    "Project Cheetah",
+    "Mission Blue",
+    "Operation Sagar Bandhu"
+   ],
+   "a": 3,
+   "x": "India conducted Operation Sagar Bandhu in response to Cyclone Ditwah, which affected Sri Lanka in late November 2025.",
+   "ty": "fact",
+   "tq": "Direct operation-event discrimination.",
+   "sec": "Environmental disasters abroad - country + emergency  [APPSC]"
+  },
+  {
+   "s": "Project Cheetah was launched on 17 September 2022 at:",
+   "o": [
+    "Veerangana Durgavati Tiger Reserve, Madhya Pradesh",
+    "Kuno National Park, Madhya Pradesh",
+    "Palamu Tiger Reserve, Jharkhand",
+    "Kaziranga National Park, Assam"
+   ],
+   "a": 1,
+   "x": "Project Cheetah was launched at Kuno National Park in Madhya Pradesh on 17 September 2022.",
+   "ty": "fact",
+   "tq": "Direct recall of launch date and location.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding Project Cheetah:\n1. Eight cheetahs were brought from Namibia in 2022.\n2. Twelve cheetahs were brought from South Africa in 2023.\n3. Nine cheetahs were brought from Botswana in March 2026.\n4. Its reported cheetah population reached 53 in March 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct: the stated arrivals were from Namibia, South Africa and Botswana, and the reported population was 53 in March 2026.",
+   "ty": "statements",
+   "tq": "Chronological statement checking across successive translocations.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "Which of the following is correctly associated with Project Cheetah in 2026?",
+   "o": [
+    "The third site was located in Jharkhand.",
+    "The project began with cheetahs from Botswana in 2022.",
+    "The first open-forest birth was recorded in April 2026.",
+    "The third site was Kaziranga National Park."
+   ],
+   "a": 2,
+   "x": "The first open-forest birth under Project Cheetah was recorded in April 2026. The third site is Veerangana Durgavati Tiger Reserve in Madhya Pradesh.",
+   "ty": "fact",
+   "tq": "Identify the precise event-location association while rejecting reversed dates and sites.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "The third site under Project Cheetah is:",
+   "o": [
+    "Veerangana Durgavati Tiger Reserve",
+    "Palamu Tiger Reserve",
+    "Madhav National Park",
+    "Nagarjunsagar-Srisailam Tiger Reserve"
+   ],
+   "a": 0,
+   "x": "Veerangana Durgavati Tiger Reserve in Madhya Pradesh is the third site under Project Cheetah.",
+   "ty": "fact",
+   "tq": "Direct identification of a newly added conservation site.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "Under IUCN Red List 2026-1, which of the following changes is correctly stated?",
+   "o": [
+    "Numbat: Near Threatened to Vulnerable",
+    "Numbat: Endangered to Near Threatened",
+    "Desert rain frog: Endangered to Critically Endangered",
+    "Desert rain frog: Vulnerable to Near Threatened"
+   ],
+   "a": 1,
+   "x": "The numbat was downlisted from Endangered to Near Threatened. The desert rain frog was uplisted from Near Threatened to Vulnerable.",
+   "ty": "confusable",
+   "tq": "Discriminate between downlisting and uplisting, and between the two species.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "Which species were uplisted to Endangered in the earlier IUCN update of April 2026?",
+   "o": [
+    "Emperor penguin and Antarctic fur seal",
+    "Asiatic lion and snow leopard",
+    "Olive Ridley turtle and greater one-horned rhinoceros",
+    "Numbat and desert rain frog"
+   ],
+   "a": 0,
+   "x": "The emperor penguin and Antarctic fur seal were uplisted to Endangered in the April 2026 update.",
+   "ty": "fact",
+   "tq": "Direct recall of a paired species-list update.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "India’s first AI-based human-elephant conflict research centre has been established at:",
+   "o": [
+    "Kuno National Park, Madhya Pradesh",
+    "Gahirmatha, Odisha",
+    "Kaziranga National Park, Assam",
+    "Palamu Tiger Reserve, Jharkhand"
+   ],
+   "a": 3,
+   "x": "India’s first AI-based human-elephant conflict research centre is located at Palamu Tiger Reserve in Jharkhand.",
+   "ty": "fact",
+   "tq": "Direct recall of institution and location.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding protected-area and species figures:\n1. India’s protected-area network includes 109 National Parks and 573 Wildlife Sanctuaries.\n2. India has 58 Tiger Reserves and 33 Elephant Reserves.\n3. India has 18 Biosphere Reserves.\n4. Forest and tree cover constituted 25.17 per cent according to ISFR 2023.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The stated 2026 protected-area figures include 109 National Parks, 573 Wildlife Sanctuaries, 58 Tiger Reserves, 33 Elephant Reserves and 18 Biosphere Reserves, while forest and tree cover was 25.17 per cent.",
+   "ty": "statements",
+   "tq": "Consolidate multiple numerical entries and check each statement independently.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "The estimated number of tigers in India in 2022, as stated in the cited assessment, was:",
+   "o": [
+    "1,411",
+    "3,167",
+    "3,682",
+    "5,443"
+   ],
+   "a": 2,
+   "x": "The 2022 estimate placed India’s tiger population at 3,682. The figure 1,411 refers to the 2006 estimate, while 3,167 is a camera-trapped minimum count cited separately.",
+   "ty": "numerical",
+   "tq": "Separate an estimate from an earlier count and a camera-trapped minimum.",
+   "sec": "Conservation designations - designating body + site  [APPSC]"
+  },
+  {
+   "s": "In Andhra Pradesh, the six Kumki elephants at Musallamadugu camp are located in:",
+   "o": [
+    "Lahaul-Spiti",
+    "Banda",
+    "Parvathipuram-Manyam",
+    "Palamaner, Chittoor"
+   ],
+   "a": 3,
+   "x": "Six Kumki elephants are kept at Musallamadugu camp in Palamaner of Chittoor district, Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Location discrimination among similarly placed conservation facts.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched in relation to Andhra Pradesh wildlife conservation measures?",
+   "o": [
+    "Guchimi Kumki camp — Parvathipuram-Manyam",
+    "Guchimi Kumki camp — Chittoor",
+    "NSTR anti-poaching camps — reduced from 150 to 89",
+    "Female tigers — brought from Gujarat and Odisha"
+   ],
+   "a": 0,
+   "x": "Guchimi Kumki camp was opened in Parvathipuram-Manyam in July 2026. NSTR anti-poaching camps increased from 89 to 150, and female tigers were to be brought from Maharashtra and Madhya Pradesh.",
+   "ty": "match",
+   "tq": "Find the correctly matched place and reject reversed numbers and source states.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "The tiger and cub numbers reported for the NSTR-Seshachalam landscape were:",
+   "o": [
+    "78 tigers and 21 cubs",
+    "89 tigers and 11 cubs",
+    "68 tigers and 11 cubs",
+    "58 tigers and 9 cubs"
+   ],
+   "a": 2,
+   "x": "The NSTR-Seshachalam landscape was reported to have 68 tigers and 11 cubs.",
+   "ty": "numerical",
+   "tq": "Direct recall of paired wildlife figures.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "The mass nesting or arribada of Olive Ridley turtles in Odisha is associated with:",
+   "o": [
+    "Gahirmatha and Rushikulya",
+    "Kamlang and Cold Desert",
+    "Keoladeo and Loktak",
+    "Qeshm Island and Hara"
+   ],
+   "a": 0,
+   "x": "Olive Ridley arribada occurs at Gahirmatha and Rushikulya in Odisha. Coastal erosion threatens these nesting beaches.",
+   "ty": "fact",
+   "tq": "Direct site-species association.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "The Central Empowered Committee of the Supreme Court pulled up which State over mining near a national park known for rhinoceroses?",
+   "o": [
+    "Jharkhand",
+    "Odisha",
+    "Assam",
+    "Karnataka"
+   ],
+   "a": 2,
+   "x": "The Central Empowered Committee pulled up Assam over mining near Kaziranga National Park, an important rhinoceros habitat.",
+   "ty": "fact",
+   "tq": "Match the environmental issue with the State and protected area.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the Asiatic lion:\n1. Its population has crossed 1,000.\n2. In India, it is found only in Gujarat.\n3. It is covered under the species recovery programme of CSS-IDWH.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Asiatic lions number more than 1,000, occur only in Gujarat in India, and are among the species covered by the CSS-IDWH recovery programme.",
+   "ty": "statements",
+   "tq": "Combine population, distribution and programme-coverage facts.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  },
+  {
+   "s": "The species recovery programme under CSS-IDWH covers how many species?",
+   "o": [
+    "18",
+    "20",
+    "22",
+    "33"
+   ],
+   "a": 2,
+   "x": "The species recovery programme under CSS-IDWH covers 22 species, including the Snow Leopard, Asiatic Lion and Great Indian Bustard.",
+   "ty": "numerical",
+   "tq": "Direct recall of a programme coverage figure.",
+   "sec": "Species conservation measures - state schemes, relocation, IUCN changes, Project Cheetah  [APPSC]"
+  }
+ ]
+}

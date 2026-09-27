@@ -1,0 +1,428 @@
+{
+ "book": 6,
+ "row": 13,
+ "chunk": 2,
+ "section": "Reports and indices - releasing agency, India's rank, key findings",
+ "subsections": [
+  "Crime, drug and pollution reports - releasing body + top place",
+  "AP's rank in national indices",
+  "Survey awards to cities - category-wise winners",
+  "Ranking frameworks - parameters and weights",
+  "Flagship annual reports - publisher + theme"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 39,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 9,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "World Drug Report — UNEP",
+    "Frontiers Report — UNODC",
+    "World Drug Report — UNODC",
+    "Crime in India — UNCTAD"
+   ],
+   "a": 2,
+   "x": "The United Nations Office on Drugs and Crime publishes the World Drug Report. The Frontiers Report is published by UNEP.",
+   "ty": "match",
+   "tq": "Use agency–report association and eliminate swapped international organisations.",
+   "sec": "Crime, drug and pollution reports - releasing body + top place"
+  },
+  {
+   "s": "India was ranked at which position among the most polluted countries in the World Air Quality Report 2025?",
+   "o": [
+    "Fourth",
+    "Sixth",
+    "Fifth",
+    "Seventh"
+   ],
+   "a": 1,
+   "x": "India was ranked the sixth most polluted country in the 2025 report, moving down from fifth position.",
+   "ty": "numerical",
+   "tq": "Distinguish the current rank from the immediately preceding rank.",
+   "sec": "Crime, drug and pollution reports - releasing body + top place"
+  },
+  {
+   "s": "Which of the following is correctly matched with the World Air Quality Report?",
+   "o": [
+    "2024 — Loni, Uttar Pradesh",
+    "2025 — Byrnihat, Meghalaya",
+    "2024 — Byrnihat, Meghalaya",
+    "2025 — Rourkela, Odisha"
+   ],
+   "a": 2,
+   "x": "Byrnihat in Meghalaya was identified as the most polluted city in the World Air Quality Report 2024. Loni was the corresponding city in 2025.",
+   "ty": "negative",
+   "tq": "Use the edition-year distinction to avoid swapping successive report findings.",
+   "sec": "Crime, drug and pollution reports - releasing body + top place"
+  },
+  {
+   "s": "According to the Environmental Performance Index 2026, India’s rank in air quality was:",
+   "o": [
+    "185th",
+    "175th",
+    "165th",
+    "150th"
+   ],
+   "a": 1,
+   "x": "India was ranked 175th in air quality in the Environmental Performance Index 2026.",
+   "ty": "numerical",
+   "tq": "Identify the exact rank from closely spaced numerical distractors.",
+   "sec": "Crime, drug and pollution reports - releasing body + top place"
+  },
+  {
+   "s": "Which State ranked first among 19 large and medium States in consumer justice delivery according to the India Justice Report Consumer Justice Report 2026?",
+   "o": [
+    "Rajasthan",
+    "Karnataka",
+    "Andhra Pradesh",
+    "Madhya Pradesh"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh ranked first among 19 large and medium States in consumer justice delivery. Madhya Pradesh, Rajasthan, Karnataka and West Bengal followed it.",
+   "ty": "fact",
+   "tq": "Read the ranking order from the first position rather than selecting a familiar State.",
+   "sec": "AP's rank in national indices"
+  },
+  {
+   "s": "Consider the following statements about the India Justice Report:\n1. It was first launched in 2019.\n2. It is supported by Tata Trusts.\n3. Andhra Pradesh has approximately 15 judges per million population against a Law Commission norm of 50.\n4. Andhra Pradesh has more than 5,600 judicial vacancies.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The report began in 2019, is supported by Tata Trusts, and the figures for judges per million and vacancies are as stated.",
+   "ty": "statements",
+   "tq": "Test institutional history and numerical findings together through a complete coded option.",
+   "sec": "AP's rank in national indices"
+  },
+  {
+   "s": "Andhra Pradesh’s position in the Export Preparedness Index 2024 was:",
+   "o": [
+    "Fifth",
+    "Twelfth",
+    "Tenth",
+    "Eighth"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh ranked fifth in the Export Preparedness Index 2024. Its earlier position in the 2022 index was eighth.",
+   "ty": "numerical",
+   "tq": "Compare the latest rank with the earlier edition instead of reversing the sequence.",
+   "sec": "AP's rank in national indices"
+  },
+  {
+   "s": "Which one of the following statements regarding Andhra Pradesh’s performance in the SDG India Index 2023–24 is correct?",
+   "o": [
+    "It ranked first in SDG 8 and second in SDG 7.",
+    "It ranked first in SDG 14 and second in SDG 7.",
+    "It ranked first in SDG 7 and second in SDG 14.",
+    "It ranked first in SDG 9 and second in SDG 5."
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh ranked first in SDG 7 and second in SDG 14 in the SDG India Index 2023–24.",
+   "ty": "comparison",
+   "tq": "Preserve the direction of the first–second comparison between two SDGs.",
+   "sec": "AP's rank in national indices"
+  },
+  {
+   "s": "Consider the following statements about the SDG India Index 2023–24:\n1. It was the fourth edition.\n2. It was released by NITI Aayog in July 2024.\n3. India’s overall score was 71.\n4. Kerala and Uttarakhand jointly had the highest score of 79.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4",
+    "1, 3 and 4 only"
+   ],
+   "a": 2,
+   "x": "All four statements are correct. The fourth edition was released in July 2024 by NITI Aayog, with India scoring 71 and Kerala and Uttarakhand scoring 79.",
+   "ty": "statements",
+   "tq": "Combine edition, publisher, date and score facts in a multi-statement question.",
+   "sec": "AP's rank in national indices"
+  },
+  {
+   "s": "Which State had the lowest score in the SDG India Index 2023–24?",
+   "o": [
+    "Andhra Pradesh",
+    "Bihar",
+    "Uttarakhand",
+    "Kerala"
+   ],
+   "a": 1,
+   "x": "Bihar had the lowest score, 57, in the SDG India Index 2023–24.",
+   "ty": "fact",
+   "tq": "Identify the bottom performer against the two top-performing States.",
+   "sec": "AP's rank in national indices"
+  },
+  {
+   "s": "In which SDG areas did Andhra Pradesh’s rank decline from the earlier positions indicated?",
+   "o": [
+    "SDG 7, SDG 8 and SDG 14",
+    "SDG 5, SDG 7 and SDG 9",
+    "SDG 7, SDG 14 and SDG 5",
+    "SDG 9, SDG 5 and SDG 8"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh slipped in SDG 9 from 13 to 21, SDG 5 from 5 to 14, and SDG 8 from 6 to 16.",
+   "ty": "comparison",
+   "tq": "Group the declining ranks and exclude the SDGs in which Andhra Pradesh performed strongly.",
+   "sec": "AP's rank in national indices"
+  },
+  {
+   "s": "According to the India Skills Report 2026, which group recorded higher employability for the first time in five years?",
+   "o": [
+    "Women, at 54%, compared with men at 51.5%",
+    "Men, at 54%, compared with women at 51.5%",
+    "Men and women, both at 54%",
+    "Women, at 51.5%, compared with men at 54%"
+   ],
+   "a": 0,
+   "x": "Women’s employability was 54%, exceeding men’s 51.5% for the first time in five years.",
+   "ty": "comparison",
+   "tq": "Check both the direction of comparison and the associated percentages.",
+   "sec": "AP's rank in national indices"
+  },
+  {
+   "s": "Under the new Super Swachh League of Swachh Survekshan 2024–25, which city ranked first in the 10 lakh-plus category?",
+   "o": [
+    "Indore",
+    "Surat",
+    "Noida",
+    "Navi Mumbai"
+   ],
+   "a": 0,
+   "x": "Indore ranked first in the 10 lakh-plus category and achieved the distinction for the eighth time. Surat and Navi Mumbai followed it.",
+   "ty": "fact",
+   "tq": "Match the category winner with the correct city and achievement count.",
+   "sec": "Survey awards to cities - category-wise winners"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched under the Super Swachh League categories of Swachh Survekshan 2024–25?",
+   "o": [
+    "Noida — 3 to 10 lakh category",
+    "Surat — 3 to 10 lakh category",
+    "Mysuru — 10 lakh-plus category",
+    "Indore — 3 to 10 lakh category"
+   ],
+   "a": 0,
+   "x": "Noida was among the cities listed in the 3 to 10 lakh category, along with Chandigarh and Mysuru. Indore, Surat and Navi Mumbai were in the 10 lakh-plus category.",
+   "ty": "match",
+   "tq": "Use category-based matching to detect swapped city groups.",
+   "sec": "Survey awards to cities - category-wise winners"
+  },
+  {
+   "s": "Swachh Survekshan was started in 2016 with how many cities, and how many cities were surveyed in 2024–25?",
+   "o": [
+    "100 and 4,589",
+    "73 and 4,589",
+    "73 and 130",
+    "130 and 4,589"
+   ],
+   "a": 1,
+   "x": "Swachh Survekshan began in 2016 with 73 cities, while 4,589 cities were surveyed in 2024–25. The survey was conducted by the Quality Council of India for the Ministry of Housing and Urban Affairs.",
+   "ty": "numerical",
+   "tq": "Pair the starting coverage with the latest survey coverage.",
+   "sec": "Survey awards to cities - category-wise winners"
+  },
+  {
+   "s": "Which of the following is correctly matched with the Swachh Vayu Sarvekshan 2026?",
+   "o": [
+    "Byrnihat — top of its category",
+    "Lucknow — top of its category",
+    "New Delhi — top of its category",
+    "Indore — top of its category"
+   ],
+   "a": 1,
+   "x": "Lucknow, Rourkela and Kalinga Nagar topped their respective categories in the Swachh Vayu Sarvekshan 2026.",
+   "ty": "negative",
+   "tq": "Identify one valid category winner while rejecting names from other surveys.",
+   "sec": "Survey awards to cities - category-wise winners"
+  },
+  {
+   "s": "In the NIRF framework, which parameter carries a weight of 20%?",
+   "o": [
+    "Graduation Outcomes",
+    "Teaching, Learning and Resources",
+    "Research and Professional Practice",
+    "Perception"
+   ],
+   "a": 0,
+   "x": "Graduation Outcomes carries a weight of 20% in the NIRF framework. Teaching, Learning and Resources and Research and Professional Practice each carry 30%.",
+   "ty": "fact",
+   "tq": "Match the parameter with its exact weight rather than its broad purpose.",
+   "sec": "Ranking frameworks - parameters and weights"
+  },
+  {
+   "s": "Which of the following correctly represents the weights of the NIRF parameters?",
+   "o": [
+    "TLR 25%, Research 25%, Graduation Outcomes 20%, Outreach and Inclusivity 15%, Perception 15%",
+    "TLR 20%, Research 30%, Graduation Outcomes 30%, Outreach and Inclusivity 10%, Perception 10%",
+    "TLR 30%, Research 20%, Graduation Outcomes 20%, Outreach and Inclusivity 20%, Perception 10%",
+    "TLR 30%, Research 30%, Graduation Outcomes 20%, Outreach and Inclusivity 10%, Perception 10%"
+   ],
+   "a": 3,
+   "x": "NIRF assigns 30% each to Teaching, Learning and Resources and Research and Professional Practice, 20% to Graduation Outcomes, and 10% each to Outreach and Inclusivity and Perception.",
+   "ty": "comparison",
+   "tq": "Check the complete weight distribution rather than relying on one familiar parameter.",
+   "sec": "Ranking frameworks - parameters and weights"
+  },
+  {
+   "s": "Which statement about the NIRF 2025 top 100 institutions is correct?",
+   "o": [
+    "Kerala had the largest number of institutions.",
+    "Andhra Pradesh had the largest number of institutions, with 17.",
+    "Tamil Nadu had the largest number of institutions, with 17.",
+    "Uttarakhand had the largest number of institutions, with 10."
+   ],
+   "a": 2,
+   "x": "Tamil Nadu had the largest number of institutions, 17, among the NIRF 2025 top 100 institutions.",
+   "ty": "numerical",
+   "tq": "Link the State with the exact count in a ranking-based numerical fact.",
+   "sec": "Ranking frameworks - parameters and weights"
+  },
+  {
+   "s": "Which of the following correctly describes the weights used in the Global Hunger Index?",
+   "o": [
+    "Undernourishment 1/3, child stunting 1/3, child wasting 1/6, under-five mortality 1/6",
+    "Undernourishment 1/3, child stunting 1/6, child wasting 1/6, under-five mortality 1/3",
+    "Undernourishment 1/4, child stunting 1/4, child wasting 1/4, under-five mortality 1/4",
+    "Undernourishment 1/6, child stunting 1/3, child wasting 1/3, under-five mortality 1/6"
+   ],
+   "a": 1,
+   "x": "The Global Hunger Index assigns one-third each to undernourishment and under-five mortality, and one-sixth each to child stunting and child wasting.",
+   "ty": "comparison",
+   "tq": "Compare fractional weights carefully and identify the two equally weighted major components.",
+   "sec": "Ranking frameworks - parameters and weights"
+  },
+  {
+   "s": "The Human Development Index is calculated as the geometric mean of which combination?",
+   "o": [
+    "Life expectancy, education, and log GNI per capita at PPP",
+    "Health expenditure, schooling expenditure, and real GDP",
+    "Life expectancy, employment, and nominal GDP per capita",
+    "Infant mortality, literacy, and exports per capita"
+   ],
+   "a": 0,
+   "x": "HDI uses the geometric mean of life expectancy, education based on mean and expected years of schooling, and log GNI per capita measured at purchasing power parity.",
+   "ty": "fact",
+   "tq": "Distinguish the exact HDI dimensions from related socioeconomic indicators.",
+   "sec": "Ranking frameworks - parameters and weights"
+  },
+  {
+   "s": "Which of the following is correctly matched with its ranking framework?",
+   "o": [
+    "EPI — 47 indicators; Ecosystem Vitality carries 45%",
+    "CCPI — GHG emissions carry 20%",
+    "GPI — 13 indicators in two domains",
+    "Global Passport Index — Quality of Living carries 50%"
+   ],
+   "a": 0,
+   "x": "The EPI 2026 uses 47 indicators, with Ecosystem Vitality carrying 45%. CCPI assigns 40% to GHG emissions, GPI has 23 indicators in three domains, and Quality of Living in the Global Passport Index carries 25%.",
+   "ty": "match",
+   "tq": "Match each framework with its distinctive indicator count or weight.",
+   "sec": "Ranking frameworks - parameters and weights"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "EPI 2026 — Climate Mitigation, 30%",
+    "Global Passport Index — Mobility, 50%",
+    "Global Hunger Index — 13 data sources on a 0–100 scale",
+    "CCPI — GHG emissions, 40%"
+   ],
+   "a": 2,
+   "x": "The Global Hunger Index has four indicators and uses a 0–100 scale. The description of 13 data sources and a 0–100 scale belongs to the Corruption Perceptions Index.",
+   "ty": "negative",
+   "tq": "Find the swapped framework rather than judging the numerical scale alone.",
+   "sec": "Ranking frameworks - parameters and weights"
+  },
+  {
+   "s": "The Global Peace Index comprises 23 indicators grouped into which three domains?",
+   "o": [
+    "Safety and security, conflict, and militarisation",
+    "Governance, democracy and human rights",
+    "Environment, climate and energy",
+    "Health, education and income"
+   ],
+   "a": 0,
+   "x": "The Global Peace Index uses 23 indicators under the domains of safety and security, conflict, and militarisation.",
+   "ty": "fact",
+   "tq": "Recall the three-part classification associated with the indicator count.",
+   "sec": "Ranking frameworks - parameters and weights"
+  },
+  {
+   "s": "Which of the following is correctly matched with a flagship annual report?",
+   "o": [
+    "World Development Report 2026 — World Bank — ‘The Promise of AI’",
+    "Emissions Gap Report 2025 — ILO — ‘Off Target’",
+    "World Investment Report 2026 — UNEP — ‘International Investment in a Turbulent Era’",
+    "Employment and Social Trends 2026 — UNCTAD — ‘The Promise of AI’"
+   ],
+   "a": 0,
+   "x": "The World Bank published the World Development Report 2026 with the theme ‘The Promise of AI’. UNEP publishes the Emissions Gap Report, UNCTAD publishes the World Investment Report, and ILO publishes Employment and Social Trends.",
+   "ty": "match",
+   "tq": "Start with the sure publisher–report pair and reject cross-published themes.",
+   "sec": "Flagship annual reports - publisher + theme"
+  },
+  {
+   "s": "The theme of the Emissions Gap Report 2025, published by UNEP, was:",
+   "o": [
+    "The Promise of AI",
+    "International Investment in a Turbulent Era",
+    "Standards for Development",
+    "Off Target"
+   ],
+   "a": 3,
+   "x": "The theme of the UNEP Emissions Gap Report 2025 was ‘Off Target’.",
+   "ty": "fact",
+   "tq": "Discriminate between the themes of successive annual reports.",
+   "sec": "Flagship annual reports - publisher + theme"
+  },
+  {
+   "s": "Which organisation has published the World Investment Report since 1991?",
+   "o": [
+    "UNEP",
+    "World Bank",
+    "ILO",
+    "UNCTAD"
+   ],
+   "a": 3,
+   "x": "The World Investment Report has been published by the United Nations Conference on Trade and Development since 1991.",
+   "ty": "fact",
+   "tq": "Match the report with its specialised international publisher and institutional history.",
+   "sec": "Flagship annual reports - publisher + theme"
+  },
+  {
+   "s": "Which of the following statements about the World Investment Report 2026 is correct?",
+   "o": [
+    "Its theme was ‘The Promise of AI’ and global FDI rose by 16%.",
+    "Its theme was ‘Off Target’ and global FDI declined to $1.6 trillion.",
+    "Its theme was ‘International Investment in a Turbulent Era’ and global FDI was $1.6 trillion, up 6%.",
+    "Its theme was ‘Standards for Development’ and global FDI was $6 trillion."
+   ],
+   "a": 2,
+   "x": "The World Investment Report 2026 carried the theme ‘International Investment in a Turbulent Era’ and reported global FDI of $1.6 trillion, an increase of 6%.",
+   "ty": "comparison",
+   "tq": "Separate the report theme, publisher-linked subject and quantitative finding.",
+   "sec": "Flagship annual reports - publisher + theme"
+  },
+  {
+   "s": "Arrange the following reports in chronological order of the editions mentioned:\nA. Emissions Gap Report 2025\nB. World Development Report 2025\nC. World Development Report 2026\nD. World Investment Report 2026",
+   "o": [
+    "B, A, C, D",
+    "A, B, C, D",
+    "B, C, A, D",
+    "A, B, D, C"
+   ],
+   "a": 0,
+   "x": "The correct order is World Development Report 2025, Emissions Gap Report 2025, World Development Report 2026 and World Investment Report 2026. The two 2025 reports are ordered according to the sequence represented in the listed editions.",
+   "ty": "chronology",
+   "tq": "Use the years first, then distinguish reports within the same year by the stated sequence.",
+   "sec": "Flagship annual reports - publisher + theme"
+  }
+ ]
+}
