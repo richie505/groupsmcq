@@ -1,0 +1,397 @@
+{
+ "book": 5,
+ "row": 87,
+ "chunk": 2,
+ "section": "Conservation - in-situ (protected areas, biosphere reserves) and ex-situ (zoos, gene banks, seed banks)",
+ "subsections": [
+  "Protected area coverage - global data, OECMs, 30x30",
+  "In-situ vs ex-situ - classify methods"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 30,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "In 2014, what proportion of the world's land area and coastal-marine area was covered by protected areas, respectively?",
+   "o": [
+    "10% and 3%",
+    "8.4% and 15.2%",
+    "15.2% and 8.4%",
+    "30% and 10%"
+   ],
+   "a": 2,
+   "x": "In 2014, protected areas covered 15.2% of global land and 8.4% of coastal and marine areas.",
+   "ty": "numerical",
+   "tq": "Use the paired figures carefully and avoid reversing the land and marine percentages.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the present trend in global ocean protection?",
+   "o": [
+    "Nearly 10% of the ocean is protected, but only about 3% is fully or highly protected.",
+    "Nearly 30% of the ocean is protected, including 15% that is fully protected.",
+    "Only 1.66% of the ocean is protected, while nearly 10% is fully protected.",
+    "The proportion of protected ocean area has declined since 2014."
+   ],
+   "a": 0,
+   "x": "Nearly 10% of the ocean is protected, but only about 3% is fully or highly protected; merely 1.66% of the high seas is protected.",
+   "ty": "comparison",
+   "tq": "Split the overall figure from the stricter category of fully or highly protected areas.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "By what approximate factor must marine protection increase by 2030 according to the stated assessment?",
+   "o": [
+    "It must increase fivefold.",
+    "It need not increase if land protection expands.",
+    "It must triple.",
+    "It must double."
+   ],
+   "a": 2,
+   "x": "Marine protection must triple by 2030 to support the stated conservation goal.",
+   "ty": "numerical",
+   "tq": "Identify the action word attached to the target rather than confusing it with the existing percentage.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "The 30x30 target was adopted under which framework and event?",
+   "o": [
+    "Paris Agreement at UNFCCC COP-21 in 2015",
+    "Kunming-Montreal Global Biodiversity Framework at CBD COP-15 in 2022",
+    "Ramsar Convention at COP-14 in 2022",
+    "Montreal Protocol at UNEP COP-10 in 2010"
+   ],
+   "a": 1,
+   "x": "The target forms part of the Kunming-Montreal Global Biodiversity Framework adopted at CBD COP-15 in 2022.",
+   "ty": "fact",
+   "tq": "Match the target with its correct convention framework and conference.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "Which organisation maintains the World Database on Protected Areas (WDPA) in collaboration with IUCN?",
+   "o": [
+    "UNEP-WCMC",
+    "FAO",
+    "UNDP",
+    "UNFCCC Secretariat"
+   ],
+   "a": 0,
+   "x": "The WDPA is run by UNEP-WCMC, based in Cambridge, in collaboration with IUCN, and tracks progress towards the 30x30 target.",
+   "ty": "fact",
+   "tq": "Use the institutional-identity trap by distinguishing UNEP-WCMC from neighbouring UN bodies.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding India's protected-area network:\n1. Only 5.32% of India's area is inside the protected-area network.\n2. The network comprised 1,134 protected areas as of 2026.\n3. The number of protected areas had declined from 981 in 2020.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the number increased from 981 in 2020 to 1,134 in 2026.",
+   "ty": "statements",
+   "tq": "Find the reversed trend in statement 3; the numerical increase is the key discriminator.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "The total area covered by India's National Parks and Wildlife Sanctuaries, respectively, was reported as:",
+   "o": [
+    "44,374 sq km and 75,796 sq km",
+    "1,22,420 sq km and 44,374 sq km",
+    "84,488 sq km and 75,796 sq km",
+    "44,374 sq km and 1,22,420 sq km"
+   ],
+   "a": 3,
+   "x": "The National Parks covered 44,374 sq km, while Wildlife Sanctuaries covered 1,22,420 sq km.",
+   "ty": "numerical",
+   "tq": "Keep the category-area pairing intact; the main trap is reversal of the two figures.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about a National Park is correct?",
+   "o": [
+    "It permits all human activities after consultation with local communities.",
+    "It is an area outside the formal protected-area network.",
+    "It is declared only on private land when a community volunteers.",
+    "It is governed under the Wildlife Protection Act, 1972 and provides the highest protection, with no rights allowed."
+   ],
+   "a": 3,
+   "x": "National Parks are governed by the Wildlife Protection Act, 1972 and provide the highest level of protection, with no rights allowed within them.",
+   "ty": "fact",
+   "tq": "Identify the legal basis and the distinguishing degree of protection.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "Which of the following is the principal distinction between a Wildlife Sanctuary and a National Park?",
+   "o": [
+    "Human activity may be regulated and permitted to an extent in a Wildlife Sanctuary, whereas a National Park provides the highest protection.",
+    "A National Park is outside the protected-area network, whereas a Wildlife Sanctuary is inside it.",
+    "Only Wildlife Sanctuaries can be declared under the Wildlife Protection Act, 1972.",
+    "A Wildlife Sanctuary has no legal basis, whereas a National Park has one."
+   ],
+   "a": 0,
+   "x": "Both are established under the Wildlife Protection Act, 1972, but human activity is regulated and permitted to an extent in a Wildlife Sanctuary; National Parks have higher protection.",
+   "ty": "comparison",
+   "tq": "Compare the degree of permissible human activity instead of confusing the common legal basis.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "A Conservation Reserve is generally declared by the State Government:",
+   "o": [
+    "Only on land acquired by the Union Government",
+    "On private or community land when a community volunteers",
+    "On government land, usually adjoining or linking protected areas, after consulting local people",
+    "Only outside the formal protected-area network under the CBD"
+   ],
+   "a": 2,
+   "x": "A Conservation Reserve is declared on government land, usually adjoining or linking protected areas, after consultation with local communities. It derives from the 2002 amendment to the Wildlife Protection Act.",
+   "ty": "application",
+   "tq": "Ask who declares it, on what land, and after whose consultation.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "A Community Reserve differs from a Conservation Reserve because it is generally declared:",
+   "o": [
+    "Only in marine areas under the CBD",
+    "On government land adjoining a National Park",
+    "On private or community land when the community volunteers",
+    "Only by the Union Government without local consultation"
+   ],
+   "a": 2,
+   "x": "A Community Reserve is declared by the State on private or community land when the community volunteers. Both categories were provided for through the 2002 amendment to the Wildlife Protection Act.",
+   "ty": "confusable",
+   "tq": "Discriminate the two reserve types by land ownership and the role of community consent.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "An Other Effective Area-based Conservation Measure (OECM) is best described as:",
+   "o": [
+    "A temporary area protected only during a breeding season",
+    "An ex-situ facility for storing genetic material",
+    "An area outside the formal protected-area network that delivers long-term in-situ conservation outcomes",
+    "A formally notified National Park with the highest legal protection"
+   ],
+   "a": 2,
+   "x": "An OECM is outside the formal protected-area network but delivers long-term in-situ conservation outcomes and is recognised on the basis of its results.",
+   "ty": "fact",
+   "tq": "Use the outside-the-network distinction to separate OECMs from formal protected areas.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a feature of an OECM?",
+   "o": [
+    "Recognition automatically changes land ownership and confers new legal authority.",
+    "It delivers lasting conservation benefits.",
+    "It is demarcated and has inclusive governance.",
+    "It is outside the formal protected-area network."
+   ],
+   "a": 0,
+   "x": "Recognition of an OECM is outcome-based and does not change land ownership or confer new legal, financial or management authority. The other three are among its criteria.",
+   "ty": "negative",
+   "tq": "Look for the statement that reverses the no-new-authority feature of an OECM.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "Which of the following sets contains the four criteria associated with recognition of an OECM?\n1. Being outside the formal protected-area network\n2. Being demarcated\n3. Having inclusive governance\n4. Providing lasting benefits",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The four stated criteria are being outside the formal protected-area network, being demarcated, having inclusive governance and providing lasting benefits.",
+   "ty": "statements",
+   "tq": "When all listed criteria are distinct and compatible, test the complete combination rather than a partial code.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "India's first OECM, recognised in 2022, is:",
+   "o": [
+    "Gulf of Mannar Biosphere Reserve, Tamil Nadu",
+    "Aravalli Biodiversity Park, Gurugram",
+    "Nokrek Biosphere Reserve, Meghalaya",
+    "Great Himalayan National Park, Himachal Pradesh"
+   ],
+   "a": 1,
+   "x": "Aravalli Biodiversity Park in Gurugram, a restored mining site, was recognised as India's first OECM in 2022.",
+   "ty": "fact",
+   "tq": "Combine the identity, location and year to avoid confusing an OECM with a biosphere reserve or National Park.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "The proposed OECMs in Andhra Pradesh are intended to include areas such as:",
+   "o": [
+    "Only privately owned agricultural fields",
+    "Only National Parks and Wildlife Sanctuaries",
+    "Sacred groves, wetlands and industrial greenbelts outside reserve forests, National Parks and Wildlife Sanctuaries",
+    "Only marine areas beyond the territorial sea"
+   ],
+   "a": 2,
+   "x": "The Andhra Pradesh State Biodiversity Board plans OECMs outside reserve forests, National Parks and Wildlife Sanctuaries, including sacred groves, wetlands and industrial greenbelts.",
+   "ty": "application",
+   "tq": "Apply the outside-formal-reserves requirement to the examples of proposed sites.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. India had 58 Tiger Reserves as of 2026.\n2. The number of Tiger Reserves increased from 9 in 1973 to 58.\n3. Tiger Reserves constituted approximately 30% of India's land area.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. The area of Tiger Reserves was approximately 2.6% of India's land, not 30%, making statement 3 false.",
+   "ty": "statements",
+   "tq": "Reject the exaggerated percentage while retaining the correct count and historical comparison.",
+   "sec": "Protected area coverage - global data, OECMs, 30x30  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly classifies all the listed sites as in-situ conservation methods?",
+   "o": [
+    "Zoo, botanical garden, seed bank and gene bank",
+    "National Park, sacred grove, biosphere reserve and OECM",
+    "Cryopreservation, tissue culture, zoo and captive breeding",
+    "Pollen bank, field gene bank, seed bank and botanical garden"
+   ],
+   "a": 1,
+   "x": "National Parks, sacred groves, biosphere reserves and OECMs conserve species in their natural or associated habitat and are in-situ methods.",
+   "ty": "fact",
+   "tq": "Use the on-site versus off-site test and identify the group containing only habitat-based measures.",
+   "sec": "In-situ vs ex-situ - classify methods  [other exams]"
+  },
+  {
+   "s": "Which one of the following is an EX-SITU conservation method?",
+   "o": [
+    "Tiger reserve",
+    "Sacred lake",
+    "Community reserve",
+    "Field gene bank"
+   ],
+   "a": 3,
+   "x": "A field gene bank is an ex-situ method because genetic resources are maintained away from their original natural habitat. Sacred lakes, community reserves and Tiger Reserves are in-situ measures.",
+   "ty": "negative",
+   "tq": "Find the off-site storage method among habitat-based conservation areas.",
+   "sec": "In-situ vs ex-situ - classify methods  [other exams]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "In-situ — cryopreservation of embryos",
+    "Ex-situ — National Park",
+    "In-situ — conservation reserve",
+    "Ex-situ — sacred grove"
+   ],
+   "a": 2,
+   "x": "A Conservation Reserve is an in-situ method because conservation occurs on site. Cryopreservation is ex-situ, while National Parks and sacred groves are in-situ.",
+   "ty": "match",
+   "tq": "Check whether the method preserves organisms on site or away from their natural habitat.",
+   "sec": "In-situ vs ex-situ - classify methods  [other exams]"
+  },
+  {
+   "s": "In-situ conservation is generally considered the most effective method because it:",
+   "o": [
+    "Eliminates the need for protected areas",
+    "Can conserve only genetic material and not living species",
+    "Keeps species interacting with their environment",
+    "Stores all organisms in artificial conditions"
+   ],
+   "a": 2,
+   "x": "In-situ conservation maintains species within their natural environment, allowing continued ecological interactions and processes.",
+   "ty": "application",
+   "tq": "Link the method to its ecological advantage rather than to storage or artificial propagation.",
+   "sec": "In-situ vs ex-situ - classify methods  [other exams]"
+  },
+  {
+   "s": "Which of the following are examples of ex-situ conservation?\n1. Seed and gene banks\n2. Cryopreservation of gametes and embryos\n3. Botanical gardens and zoos\n4. Tissue culture banks",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four are ex-situ methods because they conserve plants, animals or genetic material away from the original natural habitat.",
+   "ty": "statements",
+   "tq": "Test the complete list by applying the single off-site principle to each item.",
+   "sec": "In-situ vs ex-situ - classify methods  [other exams]"
+  },
+  {
+   "s": "Meristem culture is particularly useful in ex-situ conservation because it enables:",
+   "o": [
+    "Conversion of a Community Reserve into a National Park",
+    "Virus-free propagation of plants",
+    "Protection of animals in a wildlife sanctuary",
+    "Natural pollination in a protected forest"
+   ],
+   "a": 1,
+   "x": "Meristem culture is a tissue-culture technique used for virus-free propagation of plants.",
+   "ty": "fact",
+   "tq": "Associate the specialised biotechnology term with its direct application rather than with a protected-area category.",
+   "sec": "In-situ vs ex-situ - classify methods  [other exams]"
+  },
+  {
+   "s": "Which of the following is an appropriate example of captive breeding as an ex-situ conservation intervention?",
+   "o": [
+    "Protecting a wetland as an OECM",
+    "Declaring a sacred grove as a Community Reserve",
+    "Breeding Gangetic gharials and releasing them into suitable rivers",
+    "Regulating tourism in a National Park"
+   ],
+   "a": 2,
+   "x": "Captive breeding is suitable when a species' habitat has been permanently lost; bred animals may subsequently be released, as in the reintroduction of Gangetic gharials in several states.",
+   "ty": "application",
+   "tq": "Recognise the sequence of off-site breeding followed by release into the wild.",
+   "sec": "In-situ vs ex-situ - classify methods  [other exams]"
+  },
+  {
+   "s": "Which one of the following is NOT a limitation of ex-situ conservation?",
+   "o": [
+    "Maintaining captive populations can be resource-intensive.",
+    "It may support education, research and reintroduction.",
+    "It cannot by itself save the entire ecosystem.",
+    "It requires considerable space and money."
+   ],
+   "a": 1,
+   "x": "Education, research and reintroduction are values of ex-situ conservation, not limitations. Space and financial requirements, as well as inability to save the whole ecosystem, are limitations.",
+   "ty": "negative",
+   "tq": "Separate benefits from limitations before selecting the exception.",
+   "sec": "In-situ vs ex-situ - classify methods  [other exams]"
+  },
+  {
+   "s": "Assertion (A): Ex-situ conservation cannot by itself conserve the entire ecosystem.\nReason (R): Ex-situ conservation maintains selected species or genetic material away from their natural habitat.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true. Since ex-situ conservation removes selected organisms or genetic material from the natural ecological setting, it cannot preserve all ecosystem interactions and processes.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the reason directly explains why off-site conservation cannot preserve the whole ecosystem.",
+   "sec": "In-situ vs ex-situ - classify methods  [other exams]"
+  },
+  {
+   "s": "Which one of the following pairs is INCORRECTLY matched?",
+   "o": [
+    "Sacred grove — in-situ conservation",
+    "Cryopreservation of gametes — in-situ conservation",
+    "Pollen bank — ex-situ conservation",
+    "Animal translocation — ex-situ intervention"
+   ],
+   "a": 1,
+   "x": "Cryopreservation of gametes is an ex-situ method because gametes are preserved away from the natural habitat. Pollen banks, sacred groves and translocation are correctly matched as stated.",
+   "ty": "negative",
+   "tq": "Use the off-site storage clue to detect the reversed classification.",
+   "sec": "In-situ vs ex-situ - classify methods  [other exams]"
+  }
+ ]
+}

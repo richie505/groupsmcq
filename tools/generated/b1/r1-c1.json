@@ -1,0 +1,131 @@
+{
+ "book": 1,
+ "row": 1,
+ "chunk": 1,
+ "section": "Sources for the history of Andhra - inscriptions, coins, literature and foreign accounts",
+ "subsections": [
+  "Roman coin hoard find-spots in Andhra",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 11,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Place)\nA. Peddabankur\nB. Gutiparti\nC. Yeleswaram and Akkinapally\nD. Nagavarappadu\n\nList-II (Associated detail)\n1. Khammam\n2. Augustus and Tiberius coins\n3. Nalgonda\n4. Claudius coin\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-2, B-4, C-3, D-1",
+    "A-4, B-2, C-1, D-3",
+    "A-2, B-3, C-4, D-1",
+    "A-1, B-4, C-3, D-2"
+   ],
+   "a": 0,
+   "x": "Peddabankur yielded coins of Augustus and Tiberius; Gutiparti yielded a coin of Claudius; Yeleswaram and Akkinapally are in Nalgonda; and Nagavarappadu is in Khammam.",
+   "ty": "match",
+   "tq": "Start from the sure ruler–site pair and then eliminate codes using the district matches.",
+   "sec": "Roman coin hoard find-spots in Andhra"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Nagavarappadu — Nalgonda",
+    "Peddabankur — Augustus and Tiberius coins",
+    "Gutiparti — Claudius coin",
+    "Yeleswaram — Nalgonda"
+   ],
+   "a": 0,
+   "x": "Nagavarappadu is associated with Khammam, not Nalgonda. Yeleswaram is one of the find-spots in Nalgonda along with Akkinapally.",
+   "ty": "negative",
+   "tq": "Find the swapped district by checking the place–region association.",
+   "sec": "Roman coin hoard find-spots in Andhra"
+  },
+  {
+   "s": "Kudali Sangameswaram, associated with a gold coin of Constantine, is located at:",
+   "o": [
+    "Salihundam",
+    "Bhattiprolu",
+    "Nagarjunakonda",
+    "Alampur"
+   ],
+   "a": 3,
+   "x": "Kudali Sangameswaram is located at Alampur and yielded a gold coin of Constantine.",
+   "ty": "fact",
+   "tq": "Discriminate between nearby archaeological find-spots by linking the site with its specific coin find.",
+   "sec": "Roman coin hoard find-spots in Andhra"
+  },
+  {
+   "s": "The gold coin associated with Kudali Sangameswaram at Alampur belonged to Constantine, whose reign is dated to:",
+   "o": [
+    "379–395 CE",
+    "161–180 CE",
+    "306–337 CE",
+    "98–117 CE"
+   ],
+   "a": 2,
+   "x": "The gold coin of Constantine found at Kudali Sangameswaram is dated to the period 306–337 CE.",
+   "ty": "numerical",
+   "tq": "Use the numerical range as the decisive clue after identifying the correct ruler.",
+   "sec": "Roman coin hoard find-spots in Andhra"
+  },
+  {
+   "s": "Consider the following statements about the sources for Satavahana history:\n1. Puranas constitute one source for the history of the Satavahanas.\n2. Prakrit inscriptions constitute one source for the history of the Satavahanas.\n3. Coins constitute one source for the history of the Satavahanas.\n4. Foreign accounts should be accepted without comparison with indigenous sources.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Satavahana history rests on the Puranas, Prakrit inscriptions and coins. Foreign accounts must be cross-checked with these sources; therefore statement 4 is false.",
+   "ty": "statements",
+   "tq": "Reject the absolute claim that a single category of source can be accepted without corroboration.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Assertion (A): Foreign accounts are used cautiously in reconstructing Satavahana history.\nReason (R): They must be cross-checked with the Puranas, Prakrit inscriptions and coins.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and the need to verify foreign accounts against the Puranas, Prakrit inscriptions and coins explains why they are used cautiously.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the reason directly establishes the stated method of historical verification.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Rajghat, where punch-marked coins and Greek-inscribed seals have been found, is associated with:",
+   "o": [
+    "Arikamedu and Pondicherry University",
+    "Alampur and Osmania University",
+    "Varanasi and Banaras Hindu University",
+    "Nagarjunakonda and Andhra University"
+   ],
+   "a": 2,
+   "x": "The finds of punch-marked coins and Greek-inscribed seals at Rajghat are associated with the Banaras Hindu University area at Varanasi.",
+   "ty": "fact",
+   "tq": "Combine the archaeological site with its institutional and geographical association.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following best distinguishes the evidence associated with Arikamedu from that associated with Rajghat?",
+   "o": [
+    "Arikamedu is associated with a Roman trade centre, whereas Rajghat is associated with punch-marked coins and Greek-inscribed seals.",
+    "Arikamedu is associated with Greek-inscribed seals, whereas Rajghat is associated with a Roman trade centre.",
+    "Both sites are identified exclusively with gold coins of Constantine.",
+    "Both sites are located in Andhra Pradesh and represent Satavahana capitals."
+   ],
+   "a": 0,
+   "x": "Arikamedu is identified as a Roman trade centre on the east coast, while Rajghat at Varanasi is associated with punch-marked coins and Greek-inscribed seals.",
+   "ty": "comparison",
+   "tq": "Separate the two archaeological sites by matching each one with its distinctive evidence.",
+   "sec": "Universal angles"
+  }
+ ]
+}

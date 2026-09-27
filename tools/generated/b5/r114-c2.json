@@ -1,0 +1,456 @@
+{
+ "book": 5,
+ "row": 114,
+ "chunk": 2,
+ "section": "Health and environment - vector-borne and water-borne diseases, air pollution and health, antimicrobial resistance, One Health",
+ "subsections": [
+  "Climate-sensitive diseases",
+  "Disease → organ or blood component; Plasmodium species",
+  "Zoonotic diseases → animal source, odd-one-out",
+  "AP agency-area vector-borne disease burden",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 31,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following combinations is correctly matched with respect to climate-sensitive health impacts?",
+   "o": [
+    "Heatwaves — malaria eradication",
+    "Warming — contraction of dengue-vector range",
+    "Floods — cholera and hepatitis outbreaks",
+    "Cyclones — reduction in vector-borne diseases"
+   ],
+   "a": 2,
+   "x": "Floods can trigger outbreaks of cholera and hepatitis. Heatwaves are associated with dehydration, heatstroke and cardiovascular stress, while warming may expand the range of dengue and malaria vectors.",
+   "ty": "comparison",
+   "tq": "Use cause-effect matching and reject the reversed trend.",
+   "sec": "Climate-sensitive diseases"
+  },
+  {
+   "s": "Consider the following statements:\n1. Climate change can intensify heatwaves, floods and cyclones.\n2. Malaria, dengue and Japanese encephalitis are among the vector-borne diseases affected by climate change.\n3. About 3.6 billion people live in highly climate-vulnerable areas.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Climate change increases the risk of extreme weather events and several vector-borne diseases, and about 3.6 billion people are reported to live in highly vulnerable areas.",
+   "ty": "statements",
+   "tq": "Check whether all three linked statements describe the same climate-health relationship.",
+   "sec": "Climate-sensitive diseases"
+  },
+  {
+   "s": "According to the Dasra report ‘Under the Weather’, approximately what proportion of Indian districts are at high risk from extreme weather?",
+   "o": [
+    "20%",
+    "30%",
+    "40%",
+    "60%"
+   ],
+   "a": 2,
+   "x": "The Dasra report ‘Under the Weather’ estimated that approximately 40% of Indian districts are at high risk from extreme weather.",
+   "ty": "numerical",
+   "tq": "Distinguish the reported percentage from nearby rounded alternatives.",
+   "sec": "Climate-sensitive diseases"
+  },
+  {
+   "s": "The World Health Organization has estimated that climate change may cause approximately how many additional deaths annually during 2030–2050 from malnutrition, malaria, diarrhoea and heat?",
+   "o": [
+    "2.5 lakh",
+    "2.5 crore",
+    "25 lakh",
+    "25,000"
+   ],
+   "a": 0,
+   "x": "The estimate is approximately 2.5 lakh additional deaths annually during 2030–2050 from the specified climate-sensitive causes.",
+   "ty": "numerical",
+   "tq": "Split the numerical options by magnitude before selecting the reported estimate.",
+   "sec": "Climate-sensitive diseases"
+  },
+  {
+   "s": "Which one of the following diseases primarily affects platelets?",
+   "o": [
+    "Filariasis",
+    "Dengue",
+    "Amoebiasis",
+    "Ascariasis"
+   ],
+   "a": 1,
+   "x": "Dengue is associated with a fall in platelet count. Filariasis affects the lymphatic system, amoebiasis the large intestine and ascariasis the small intestine.",
+   "ty": "fact",
+   "tq": "Use the disease-to-blood-component association rather than the organ associations.",
+   "sec": "Disease → organ or blood component; Plasmodium species"
+  },
+  {
+   "s": "Malaria parasites first multiply in the liver and subsequently infect which blood component?",
+   "o": [
+    "Platelets",
+    "White blood cells",
+    "Red blood cells",
+    "Plasma proteins"
+   ],
+   "a": 2,
+   "x": "Malaria parasites first undergo development in the liver and then infect red blood cells.",
+   "ty": "fact",
+   "tq": "Follow the biological sequence from the initial organ to the blood component.",
+   "sec": "Disease → organ or blood component; Plasmodium species"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Ascariasis — platelets",
+    "Filariasis — lymphatic system",
+    "Tuberculosis — large intestine",
+    "Amoebiasis — lungs"
+   ],
+   "a": 1,
+   "x": "Filariasis affects the lymphatic system and may cause elephantiasis. Tuberculosis affects the lungs, amoebiasis the large intestine and ascariasis the small intestine.",
+   "ty": "negative",
+   "tq": "Find the one correct disease-organ pair among swapped organ distractors.",
+   "sec": "Disease → organ or blood component; Plasmodium species"
+  },
+  {
+   "s": "Amoebiasis is primarily an infection of the:",
+   "o": [
+    "Lymphatic system caused by filarial worms",
+    "Small intestine caused by Ascaris lumbricoides",
+    "Large intestine caused by Entamoeba histolytica",
+    "Lungs caused by Mycobacterium tuberculosis"
+   ],
+   "a": 2,
+   "x": "Amoebiasis affects the large intestine and is caused by Entamoeba histolytica.",
+   "ty": "confusable",
+   "tq": "Discriminate between similar disease-organ and causative-organism combinations.",
+   "sec": "Disease → organ or blood component; Plasmodium species"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Dengue — lymphatic system — elephantiasis",
+    "Malaria — liver followed by red blood cells",
+    "Ascariasis — small intestine — Ascaris lumbricoides",
+    "Tuberculosis — lungs — Mycobacterium tuberculosis"
+   ],
+   "a": 0,
+   "x": "Dengue is associated with platelets. The lymphatic system and elephantiasis are associated with filariasis.",
+   "ty": "negative",
+   "tq": "Find the deliberately swapped disease-organ association.",
+   "sec": "Disease → organ or blood component; Plasmodium species"
+  },
+  {
+   "s": "Which species of Plasmodium is most lethal and is particularly associated with cerebral malaria?",
+   "o": [
+    "Plasmodium vivax",
+    "Plasmodium ovale",
+    "Plasmodium malariae",
+    "Plasmodium falciparum"
+   ],
+   "a": 3,
+   "x": "Plasmodium falciparum is the most lethal human-infecting malaria parasite and may cause cerebral malaria.",
+   "ty": "fact",
+   "tq": "Identify the species linked with the severe clinical form.",
+   "sec": "Disease → organ or blood component; Plasmodium species"
+  },
+  {
+   "s": "Consider the following species:\n1. Plasmodium falciparum\n2. Plasmodium vivax\n3. Plasmodium malariae\n4. Plasmodium ovale\n5. Plasmodium knowlesi\nWhich of the above infect humans?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4 only",
+    "2, 3, 4 and 5 only",
+    "1, 2, 3, 4 and 5"
+   ],
+   "a": 3,
+   "x": "All five listed species—P. falciparum, P. vivax, P. malariae, P. ovale and P. knowlesi—are recognised as infecting humans.",
+   "ty": "statements",
+   "tq": "Check the complete species list rather than stopping at the commonly known species.",
+   "sec": "Disease → organ or blood component; Plasmodium species"
+  },
+  {
+   "s": "Which one of the following zoonotic diseases is transmitted through the bite of a rat flea?",
+   "o": [
+    "Rabies",
+    "Nipah",
+    "Anthrax",
+    "Plague"
+   ],
+   "a": 3,
+   "x": "Plague is associated with rodents and is transmitted through rat fleas. Rabies is generally transmitted by the bite of infected animals, Nipah is associated with fruit bats and anthrax with infected livestock.",
+   "ty": "fact",
+   "tq": "Match the disease with its animal source and transmission route.",
+   "sec": "Zoonotic diseases → animal source, odd-one-out"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "H5N1 — birds or poultry",
+    "Nipah — fruit bats",
+    "Kyasanur Forest Disease — rodents through rat fleas",
+    "H1N1 — pigs"
+   ],
+   "a": 2,
+   "x": "Kyasanur Forest Disease is associated with monkeys and is transmitted through ticks. Rodents and rat fleas are associated with plague.",
+   "ty": "negative",
+   "tq": "Use the animal-source trap by separating tick-borne and flea-borne diseases.",
+   "sec": "Zoonotic diseases → animal source, odd-one-out"
+  },
+  {
+   "s": "Which one of the following is the odd one out on the basis of its usual classification as a zoonotic disease?",
+   "o": [
+    "Anthrax",
+    "Malaria",
+    "Nipah",
+    "Rabies"
+   ],
+   "a": 1,
+   "x": "Rabies, anthrax and Nipah are zoonotic diseases associated with animal sources. Malaria is vector-borne but is not classified as zoonotic in the routine sense used here.",
+   "ty": "odd_one_out",
+   "tq": "Separate zoonotic diseases from a vector-borne disease that is not routinely classified as zoonotic.",
+   "sec": "Zoonotic diseases → animal source, odd-one-out"
+  },
+  {
+   "s": "Which of the following statements is correct regarding zoonotic and vector-borne diseases?",
+   "o": [
+    "Malaria is both zoonotic and vector-borne in routine classification.",
+    "All vector-borne diseases originate in domestic animals.",
+    "All zoonotic diseases are transmitted by vectors.",
+    "Rabies is zoonotic but not vector-borne in the routine classification."
+   ],
+   "a": 3,
+   "x": "Rabies is a zoonotic disease transmitted mainly through animal bites, but it is not classified as vector-borne. Malaria is vector-borne but not zoonotic in routine classification.",
+   "ty": "comparison",
+   "tq": "Test the distinction between the overlapping but non-identical categories.",
+   "sec": "Zoonotic diseases → animal source, odd-one-out"
+  },
+  {
+   "s": "Which animal source is associated with anthrax in the zoonotic disease context?",
+   "o": [
+    "Infected livestock",
+    "Monkeys through ticks",
+    "Birds and poultry",
+    "Fruit bats"
+   ],
+   "a": 0,
+   "x": "Anthrax is associated with infected livestock. Fruit bats are linked with Nipah, birds or poultry with H5N1, and monkeys with Kyasanur Forest Disease.",
+   "ty": "fact",
+   "tq": "Use direct animal-source recall with nearby zoonotic distractors.",
+   "sec": "Zoonotic diseases → animal source, odd-one-out"
+  },
+  {
+   "s": "Consider the following statements:\n1. Biodiversity loss can increase zoonotic and pandemic risk.\n2. Mpox is associated with rodents and primates.\n3. Rabies is associated with dogs, bats and other wild animals.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Biodiversity loss can increase zoonotic risk, Mpox is associated with rodents and primates, and rabies may be transmitted by dogs, bats and other wild animals.",
+   "ty": "statements",
+   "tq": "Combine an ecological consequence with two animal-source facts.",
+   "sec": "Zoonotic diseases → animal source, odd-one-out"
+  },
+  {
+   "s": "According to APSES data for 2023, which combination correctly represents malaria and dengue cases in Andhra Pradesh?",
+   "o": [
+    "Malaria 7,871; dengue 5,555",
+    "Malaria 5,268; dengue 6,453",
+    "Malaria 7,119; dengue 2,686",
+    "Malaria 7,895; dengue 1,475"
+   ],
+   "a": 1,
+   "x": "In 2023, Andhra Pradesh recorded 5,268 malaria cases and 6,453 dengue cases according to the cited APSES data.",
+   "ty": "numerical",
+   "tq": "Distinguish year-wise paired figures instead of recalling an isolated number.",
+   "sec": "AP agency-area vector-borne disease burden"
+  },
+  {
+   "s": "Which of the following correctly represents Andhra Pradesh’s 2024 malaria and dengue figures?",
+   "o": [
+    "Malaria 7,119; dengue 2,686",
+    "Malaria 5,268; dengue 6,453",
+    "Malaria 7,895; dengue 1,475",
+    "Malaria 7,871; dengue 5,555"
+   ],
+   "a": 3,
+   "x": "The 2024 figures were 7,871 malaria cases and 5,555 dengue cases, with zero malaria deaths reported in the cited APSES data.",
+   "ty": "numerical",
+   "tq": "Use the year-number association and reject figures belonging to adjacent years.",
+   "sec": "AP agency-area vector-borne disease burden"
+  },
+  {
+   "s": "With reference to Andhra Pradesh in 2025, which of the following is correct?",
+   "o": [
+    "Malaria: 5,268 cases and no deaths; dengue: 6,453 cases and 2 deaths",
+    "Malaria: 7,119 cases and 8 deaths; dengue: 2,686 cases and 5 deaths",
+    "Malaria: 7,895 cases and 8 deaths; dengue: 1,475 cases and 5 deaths",
+    "Malaria: 7,871 cases and no deaths; dengue: 5,555 cases and 5 deaths"
+   ],
+   "a": 1,
+   "x": "In 2025, Andhra Pradesh recorded 7,119 malaria cases with 8 deaths and 2,686 dengue cases with 5 deaths in the cited data.",
+   "ty": "numerical",
+   "tq": "Read the paired case-and-death figures together rather than matching cases alone.",
+   "sec": "AP agency-area vector-borne disease burden"
+  },
+  {
+   "s": "As reported up to 30 August 2026, which combination is correct for Andhra Pradesh?",
+   "o": [
+    "Malaria 7,895; dengue 1,475",
+    "Malaria 7,871; dengue 5,555",
+    "Malaria 7,119; dengue 2,686",
+    "Malaria 5,268; dengue 6,453"
+   ],
+   "a": 0,
+   "x": "Up to 30 August 2026, Andhra Pradesh recorded 7,895 malaria cases and 1,475 dengue cases. The reported increases were 27.9% for malaria and 4.6% for dengue.",
+   "ty": "numerical",
+   "tq": "Anchor the figures to the stated cut-off date before comparing year-wise data.",
+   "sec": "AP agency-area vector-borne disease burden"
+  },
+  {
+   "s": "The 2026 rise in malaria cases in Andhra Pradesh was particularly concentrated in which districts or area?",
+   "o": [
+    "ASR, Polavaram and Vizianagaram",
+    "Nellore, Krishna and Guntur",
+    "Kurnool, Anantapur and Kadapa",
+    "Tirupati, Chittoor and Prakasam"
+   ],
+   "a": 0,
+   "x": "The rise in malaria in 2026 was concentrated in Alluri Sitharama Raju, Polavaram and Vizianagaram districts.",
+   "ty": "fact",
+   "tq": "Use location-based elimination and avoid substituting other district groups.",
+   "sec": "AP agency-area vector-borne disease burden"
+  },
+  {
+   "s": "Which of the following correctly represents the reported 2026 burden of scrub typhus in Andhra Pradesh and its concentration?",
+   "o": [
+    "1,475 cases, rising in all coastal districts",
+    "941 cases, rising in ASR and Parvathipuram Manyam",
+    "52 cases, rising in ASR and Kurnool",
+    "146 cases, rising in Polavaram and Vizianagaram"
+   ],
+   "a": 1,
+   "x": "Scrub typhus accounted for 941 cases and was rising in ASR and Parvathipuram Manyam districts.",
+   "ty": "fact",
+   "tq": "Match the disease burden figure with the correct geographical concentration.",
+   "sec": "AP agency-area vector-borne disease burden"
+  },
+  {
+   "s": "Which statement correctly describes the 2025 Andhra Pradesh figures for AES/JE and chikungunya?",
+   "o": [
+    "AES/JE: 2 cases and 146 deaths; chikungunya: 52 deaths",
+    "AES/JE: 146 cases and 8 deaths; chikungunya: 941 cases",
+    "AES/JE: 52 cases and 2 deaths; chikungunya: 146 cases",
+    "AES/JE: 146 cases and 2 deaths; chikungunya: 52 cases"
+   ],
+   "a": 3,
+   "x": "The reported 2025 figures were 146 AES/JE cases with 2 deaths and 52 chikungunya cases.",
+   "ty": "numerical",
+   "tq": "Keep case and death figures separate while matching the two diseases.",
+   "sec": "AP agency-area vector-borne disease burden"
+  },
+  {
+   "s": "Which of the following measures is most directly associated with the response to vector-borne disease burden in Andhra Pradesh?",
+   "o": [
+    "Indoor residual spraying, LLIN mosquito nets and source reduction",
+    "Removal of all livestock from tribal districts",
+    "Replacement of mosquito control with vaccination alone",
+    "Exclusive use of antibiotics and suspension of surveillance"
+   ],
+   "a": 0,
+   "x": "The response includes indoor residual spraying, long-lasting insecticidal nets and source reduction. These measures target mosquito vectors and their breeding sites.",
+   "ty": "application",
+   "tq": "Apply the control method to the vector-borne disease scenario.",
+   "sec": "AP agency-area vector-borne disease burden"
+  },
+  {
+   "s": "In January 2026, what institutional measure was reported for communicable disease control in Andhra Pradesh?",
+   "o": [
+    "A 12-member national committee on air pollution",
+    "A 24-member State task force on communicable diseases",
+    "A district-level committee exclusively for dengue vaccines",
+    "A 50-member international task force on malaria"
+   ],
+   "a": 1,
+   "x": "A 24-member State task force on communicable diseases was constituted in January 2026. High-level committees were also associated with scrub typhus response.",
+   "ty": "fact",
+   "tq": "Identify the exact body and membership figure instead of a similar administrative arrangement.",
+   "sec": "AP agency-area vector-borne disease burden"
+  },
+  {
+   "s": "Free long-lasting insecticidal nets were reported to cover approximately how many people in ASR and Parvathipuram-Manyam, at a cost of Rs 19.25 crore?",
+   "o": [
+    "1.80 lakh",
+    "5.20 lakh",
+    "7.80 lakh",
+    "19.25 lakh"
+   ],
+   "a": 2,
+   "x": "Free LLINs were reported for approximately 7.80 lakh people in ASR and Parvathipuram-Manyam, involving an expenditure of Rs 19.25 crore.",
+   "ty": "numerical",
+   "tq": "Separate the beneficiary count from the expenditure figure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following best describes India’s epidemiological transition as reflected in the reported health indicators?",
+   "o": [
+    "Life expectancy increased, but non-communicable diseases account for more than 57% of deaths while communicable diseases persist.",
+    "Life expectancy remained unchanged and non-communicable diseases account for less than 10% of deaths.",
+    "Communicable diseases have disappeared because life expectancy increased.",
+    "Life expectancy declined while communicable diseases became the only major cause of death."
+   ],
+   "a": 0,
+   "x": "Life expectancy increased from 49.7 years in 1973 to 70.3 years in 2023, yet non-communicable diseases account for more than 57% of deaths and communicable diseases continue to persist, creating a double burden.",
+   "ty": "comparison",
+   "tq": "Recognise the double burden by comparing improvements with continuing disease persistence.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following reported life-expectancy figures in chronological order:\nA. Life expectancy of 70.3 years\nB. Life expectancy of 49.7 years\nC. Year 2023\nD. Year 1973",
+   "o": [
+    "B, D, A, C",
+    "D, B, C, A",
+    "D, A, B, C",
+    "B, A, D, C"
+   ],
+   "a": 0,
+   "x": "The correct chronological pairing is 49.7 years in 1973 followed by 70.3 years in 2023, represented by B, D, A, C.",
+   "ty": "chronology",
+   "tq": "Pair each figure with its year before arranging the sequence.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which statement about the geographical distribution of malaria and scrub typhus in Andhra Pradesh is correct?",
+   "o": [
+    "The burden is confined to districts with no tribal population.",
+    "The agency districts carry most of the State’s malaria and scrub typhus burden.",
+    "Agency districts have no significant vector-borne disease burden.",
+    "The burden is concentrated exclusively in the major coastal cities."
+   ],
+   "a": 1,
+   "x": "The agency or tribal districts carry most of Andhra Pradesh’s malaria and scrub typhus burden, making them a priority for surveillance and control.",
+   "ty": "fact",
+   "tq": "Use the AP-specific geographical trend and reject absolute location claims.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements correctly reflects the relationship between climate change and vector-borne diseases?",
+   "o": [
+    "Warming generally contracts the range of dengue and malaria vectors.",
+    "Vector-borne diseases are unrelated to temperature and extreme weather.",
+    "Warming can expand the range of dengue and malaria vectors into new areas.",
+    "Climate change affects only water-borne diseases and not vectors."
+   ],
+   "a": 2,
+   "x": "Warming can expand the geographical range of dengue and malaria vectors. Climate change also influences heatwaves, floods and other conditions affecting disease transmission.",
+   "ty": "application",
+   "tq": "Apply the direction of the climate effect rather than choosing the reversed trend.",
+   "sec": "Climate-sensitive diseases"
+  }
+ ]
+}

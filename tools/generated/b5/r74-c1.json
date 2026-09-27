@@ -1,0 +1,509 @@
+{
+ "book": 5,
+ "row": 74,
+ "chunk": 1,
+ "section": "Biogeochemical cycles, ecological succession, ecosystem services",
+ "subsections": [
+  "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax",
+  "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "In the sequence of ecological succession on bare rock, which one of the following represents the correct order after the appearance of lichens?\n\n1. Crustose lichens\n2. Foliose lichens\n3. Mosses\n4. Herbs\n5. Shrubs\n6. Forest\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2, 3, 4, 5, 6",
+    "2, 1, 3, 5, 4, 6",
+    "1, 3, 2, 4, 6, 5",
+    "2, 3, 1, 4, 5, 6"
+   ],
+   "a": 0,
+   "x": "The xerosere sequence on bare rock proceeds from crustose lichens to foliose lichens, mosses, herbs, shrubs and finally forest.",
+   "ty": "chronology",
+   "tq": "Use the first-to-last sequence to eliminate options that reverse adjacent seral stages.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Who first proposed the five phases of ecological succession in 1916?",
+   "o": [
+    "Frederic Clements",
+    "G. Tansley",
+    "H. G. Cowles",
+    "Robert Whittaker"
+   ],
+   "a": 0,
+   "x": "Frederic Clements first proposed the sequence of nudation, invasion, competition and co-action, reaction, and stabilisation in 1916.",
+   "ty": "fact",
+   "tq": "Match the named theory or sequence with its proposer and year.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Which one of the following is the correct sequence of the phases proposed by Frederic Clements?",
+   "o": [
+    "Invasion → Nudation → Reaction → Competition and co-action → Stabilisation",
+    "Nudation → Competition and co-action → Invasion → Reaction → Stabilisation",
+    "Nudation → Invasion → Competition and co-action → Reaction → Stabilisation",
+    "Nudation → Reaction → Invasion → Stabilisation → Competition and co-action"
+   ],
+   "a": 2,
+   "x": "Clements’ sequence begins with formation of a bare area, followed by invasion, competition and co-action, reaction, and stabilisation.",
+   "ty": "chronology",
+   "tq": "Identify the fixed first and final stages before arranging the intermediate stages.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Consider the following statements about the phases of ecological succession:\n\n1. Nudation refers to the formation of a bare area.\n2. Invasion includes migration of seeds or spores, ecesis and aggregation.\n3. Stabilisation represents the establishment of the climax community.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Nudation forms the bare area, invasion includes migration and establishment, and stabilisation corresponds to the climax community.",
+   "ty": "statements",
+   "tq": "Check whether each statement corresponds to the defining event of its named succession phase.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "The term ‘ecesis’ in ecological succession refers to",
+   "o": [
+    "the final stabilisation of a climax community",
+    "the successful establishment of invading organisms",
+    "the seasonal disappearance of a community",
+    "the elimination of unfit species through competition"
+   ],
+   "a": 1,
+   "x": "Ecesis is the successful establishment of organisms that have migrated into an area during the invasion phase.",
+   "ty": "confusable",
+   "tq": "Discriminate between closely related terms belonging to the invasion and stabilisation phases.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Which phase of ecological succession is considered the most important because organisms modify soil, water, light and temperature?",
+   "o": [
+    "Nudation",
+    "Stabilisation",
+    "Reaction",
+    "Invasion"
+   ],
+   "a": 2,
+   "x": "Reaction is the phase in which organisms modify environmental conditions such as soil, water, light and temperature, thereby facilitating later communities.",
+   "ty": "fact",
+   "tq": "Associate the distinctive ecological function with the correct phase rather than relying only on sequence.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Invasion — Migration and establishment of organisms",
+    "Reaction — Elimination of all organisms unable to compete",
+    "Stabilisation — Establishment of climax community",
+    "Nudation — Formation of a bare area"
+   ],
+   "a": 1,
+   "x": "Elimination of unfit organisms is associated with competition and co-action. Reaction involves modification of environmental conditions by organisms.",
+   "ty": "negative",
+   "tq": "Find the mismatched phase by identifying the activity belonging to a neighbouring stage.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Consider the following statements regarding primary and secondary succession:\n\n1. Primary succession begins on an area where no soil is present.\n2. Secondary succession follows the destruction of an existing community.\n3. Secondary succession is generally slower than primary succession.\n4. Seeds and roots may already be present in secondary succession.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 4 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 4 are correct. Secondary succession is generally faster, not slower, because soil, seeds or roots may remain.",
+   "ty": "statements",
+   "tq": "Use the presence of soil and propagules to distinguish primary from secondary succession.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Which one of the following situations is most appropriately classified as primary succession?",
+   "o": [
+    "Regrowth of vegetation after a flood",
+    "Regeneration of grassland after fire",
+    "Recovery of a forest after logging",
+    "Colonisation of a newly formed volcanic island"
+   ],
+   "a": 3,
+   "x": "A newly formed volcanic island lacks a pre-existing community and soil, so its colonisation represents primary succession.",
+   "ty": "application",
+   "tq": "Apply the no-soil and no-pre-existing-life test to the ecological situation.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Which one of the following correctly compares primary and secondary succession?",
+   "o": [
+    "Primary succession begins with seeds and roots already present, whereas secondary succession begins with lichens.",
+    "Primary and secondary succession always have identical rates and starting conditions.",
+    "Primary succession is usually slower and has lower initial biomass than secondary succession.",
+    "Primary succession starts with established soil, whereas secondary succession starts without soil."
+   ],
+   "a": 2,
+   "x": "Primary succession begins on a lifeless area without soil and is slower with low initial biomass. Secondary succession benefits from pre-existing soil and biological remnants.",
+   "ty": "comparison",
+   "tq": "Compare the two columns across starting conditions, rate and biomass rather than using a single feature.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Seasonal succession differs from succession caused by a disturbance because seasonal succession is",
+   "o": [
+    "always initiated by volcanic activity",
+    "caused exclusively by the removal of soil",
+    "a permanent replacement ending only in a forest climax",
+    "a cyclic change driven by environmental rhythms"
+   ],
+   "a": 3,
+   "x": "Seasonal succession is cyclical and is driven by environmental rhythms; it is not caused by a disaster or disturbance.",
+   "ty": "confusable",
+   "tq": "Separate cyclic seasonal change from directional succession caused by disturbance.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Which one of the following pairs of climax theories and proponents is correctly matched?",
+   "o": [
+    "Monoclimax theory — Robert Whittaker",
+    "Polyclimax theory — Frederic Clements",
+    "Climax-pattern theory — A. G. Tansley",
+    "Monoclimax theory — Frederic Clements"
+   ],
+   "a": 3,
+   "x": "Frederic Clements proposed the monoclimax theory, Tansley proposed the polyclimax theory, and Whittaker proposed the climax-pattern theory.",
+   "ty": "match",
+   "tq": "Use the person-theory association and watch for swapped proponents.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "According to the monoclimax concept, a climatic region is expected to have",
+   "o": [
+    "one climax community determined primarily by climate",
+    "no stable climax community",
+    "a climax community determined exclusively by fire frequency",
+    "multiple climax communities determined only by animal migration"
+   ],
+   "a": 0,
+   "x": "The monoclimax theory associated with Clements holds that each climatic region has one climax community determined mainly by climate.",
+   "ty": "fact",
+   "tq": "Identify the defining proposition of a named ecological theory.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "In a hydrosere, which one of the following represents the correct broad sequence of community development?",
+   "o": [
+    "Forest → woodland → reed-swamp → phytoplankton",
+    "Phytoplankton → submerged rooted plants → floating plants → reed-swamp → sedge-meadow → woodland → forest",
+    "Floating plants → phytoplankton → forest → submerged rooted plants",
+    "Submerged rooted plants → forest → floating plants → sedge-meadow"
+   ],
+   "a": 1,
+   "x": "Hydrosere proceeds from phytoplankton through submerged and floating plants, reed-swamp, sedge-meadow, woodland and finally forest.",
+   "ty": "chronology",
+   "tq": "Arrange the aquatic succession from the simplest early community to the terrestrial climax.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Which of the following are associated with the floating-plant stage of a hydrosere?\n\n1. Lemna\n2. Pistia\n3. Chara\n4. Birch\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Lemna, Pistia and the alga Chara are associated with the floating-plant stage of a hydrosere. Birch is a pioneer tree associated with later terrestrial succession.",
+   "ty": "statements",
+   "tq": "Group examples by their ecological stage and reject an example from a different succession.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Which one of the following sequences represents a xerosere on bare rock?",
+   "o": [
+    "Crustose lichens → foliose lichens → mosses → herbs and grasses → shrubs → forest climax",
+    "Phytoplankton → submerged plants → floating plants → reed-swamp → forest",
+    "Mosses → crustose lichens → shrubs → foliose lichens → forest",
+    "Herbs → phytoplankton → sedge-meadow → woodland → forest"
+   ],
+   "a": 0,
+   "x": "A xerosere on bare rock progresses from crustose lichens to foliose lichens, mosses, herbs and grasses, shrubs and finally a forest climax.",
+   "ty": "chronology",
+   "tq": "Distinguish the dry-land succession sequence from the lake succession sequence.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Which one of the following statements about the later stages of a xerosere is correct?",
+   "o": [
+    "Scrub can attract birds whose droppings and seeds accelerate colonisation.",
+    "Bird activity prevents the movement of seeds into the scrub stage.",
+    "Shade-tolerant species always form the first community on bare rock.",
+    "Pioneer trees require complete shade for establishment."
+   ],
+   "a": 0,
+   "x": "Scrub attracts birds, and their droppings and seeds can accelerate colonisation. Pioneer trees such as birch and oak require high light, while shade-tolerant species form the climax.",
+   "ty": "application",
+   "tq": "Apply the facilitation role of animals and light requirements to a succession scenario.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Which of the following statements correctly describes the relationship among pioneer community, seral community and climax community?\n\n1. Pioneer communities are hardy early colonisers.\n2. Seral communities are intermediate communities.\n3. The climax community is generally stable and in equilibrium with climate.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Pioneer communities colonise first, seral communities occupy intermediate stages, and the climax community is the stable terminal community related to the prevailing climate.",
+   "ty": "statements",
+   "tq": "Test the roles of the three community categories in the succession sequence.",
+   "sec": "Ecological succession - primary vs secondary, pioneers on bare rock, sere, seral stages, phases, climax"
+  },
+  {
+   "s": "Nutrients in an ecosystem differ from energy in that nutrients",
+   "o": [
+    "are generated continuously by decomposers",
+    "flow only through the atmosphere and never through organisms",
+    "are consumed permanently and cannot return to the ecosystem",
+    "are recycled indefinitely, whereas energy is not"
+   ],
+   "a": 3,
+   "x": "Nutrients are recycled through ecosystems, while energy flows through the system and is not recycled indefinitely.",
+   "ty": "comparison",
+   "tq": "Discriminate between the cycling of matter and the one-way flow of energy.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Carbon, hydrogen, oxygen, nitrogen and phosphorus together constitute approximately what proportion of body mass?",
+   "o": [
+    "97%",
+    "27%",
+    "eighty-seven percent",
+    "fifty-seven percent"
+   ],
+   "a": 0,
+   "x": "Carbon, hydrogen, oxygen, nitrogen and phosphorus together account for about 97% of body mass.",
+   "ty": "numerical",
+   "tq": "Retain the high-value aggregate figure and reject altered percentage options.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Biogeochemical cycles are broadly classified as gaseous or sedimentary mainly on the basis of",
+   "o": [
+    "the principal reservoir from which nutrient inputs arise",
+    "the number of decomposers involved",
+    "the temperature of the ecosystem",
+    "the speed at which organisms absorb the nutrient"
+   ],
+   "a": 0,
+   "x": "The classification is based on the main reservoir of the nutrient input: the atmosphere and oceans for gaseous cycles, and the Earth’s crust for sedimentary cycles.",
+   "ty": "fact",
+   "tq": "Identify the classification criterion rather than confusing it with cycling rate or biological uptake.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Which one of the following correctly represents the main reservoirs of gaseous and sedimentary cycles, respectively?",
+   "o": [
+    "Earth’s crust; atmosphere and oceans",
+    "Atmosphere and oceans; Earth’s crust",
+    "Living organisms; atmosphere only",
+    "Ocean sediments; living organisms"
+   ],
+   "a": 1,
+   "x": "Gaseous cycles have the atmosphere or oceans as their main reservoirs, whereas sedimentary cycles have soil and rocks in the Earth’s crust as their principal reservoirs.",
+   "ty": "comparison",
+   "tq": "Compare the two reservoir categories directly and watch for reversal.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Consider the following pairs:\n\n1. Carbon — gaseous cycle\n2. Nitrogen — gaseous cycle\n3. Phosphorus — sedimentary cycle\n4. Sulphur — sedimentary cycle\n5. Potassium — gaseous cycle\n\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1, 2, 3 and 4 only",
+    "1, 2 and 5 only",
+    "2, 3, 4 and 5 only",
+    "1, 2, 3, 4 and 5"
+   ],
+   "a": 0,
+   "x": "Carbon and nitrogen are gaseous cycles, while phosphorus and sulphur are sedimentary cycles. Potassium is sedimentary, not gaseous.",
+   "ty": "statements",
+   "tq": "Classify each element by its principal reservoir and find the swapped category.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Which biogeochemical cycle has the atmosphere, rather than soil, as its principal reservoir, with atmospheric nitrogen comprising approximately 78% of the atmosphere?",
+   "o": [
+    "Calcium cycle",
+    "Nitrogen cycle",
+    "Potassium cycle",
+    "Phosphorus cycle"
+   ],
+   "a": 1,
+   "x": "The nitrogen cycle has the atmosphere as its principal reservoir, and nitrogen gas makes up approximately 78% of the atmosphere.",
+   "ty": "numerical",
+   "tq": "Use the reservoir and percentage together to identify the cycle.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Which one of the following statements about the phosphorus cycle is correct?",
+   "o": [
+    "It is driven mainly by atmospheric circulation and has no sedimentary stage.",
+    "It is the only cycle whose main reservoir is the atmosphere.",
+    "It has no atmospheric phase; phosphorus is released by weathering and may end in ocean sediments.",
+    "It has a major atmospheric phase involving nitrogen gas."
+   ],
+   "a": 2,
+   "x": "The phosphorus cycle has no atmospheric phase. Weathering releases phosphorus from rocks, and much of it can ultimately become part of ocean sediments.",
+   "ty": "fact",
+   "tq": "Use the distinctive exception—absence of an atmospheric phase—to identify the cycle.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Which one of the following is an example of a sedimentary biogeochemical cycle?",
+   "o": [
+    "Calcium cycle",
+    "Water cycle",
+    "Oxygen cycle",
+    "Nitrogen cycle"
+   ],
+   "a": 0,
+   "x": "Calcium is included among the sedimentary cycles, whose main reservoirs are soil and rocks in the Earth’s crust.",
+   "ty": "odd_one_out",
+   "tq": "Find the member whose principal reservoir is the Earth’s crust rather than the atmosphere or ocean.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Which of the following are common components of all biogeochemical cycles?\n\n1. Inputs\n2. Internal cycling\n3. Outputs\n4. Atmospheric nitrogen fixation in every cycle\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Inputs, internal cycling and outputs are common components of all biogeochemical cycles. Atmospheric nitrogen fixation is not common to every cycle.",
+   "ty": "statements",
+   "tq": "Separate universal structural components from a process specific to one nutrient cycle.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Biogeochemical cycles are linked to one another most directly through the",
+   "o": [
+    "water cycle",
+    "rock cycle alone",
+    "fire cycle",
+    "food-chain cycle"
+   ],
+   "a": 0,
+   "x": "All biogeochemical cycles are linked with the water cycle, which facilitates the movement of materials through organisms, air and the Earth’s crust.",
+   "ty": "fact",
+   "tq": "Identify the integrating cycle that connects the movement of materials among major reservoirs.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Removal of decomposers from an ecosystem would primarily result in",
+   "o": [
+    "faster release of minerals from dead matter",
+    "blocking of mineral movement because nutrients remain locked in dead matter",
+    "immediate conversion of all nutrients into atmospheric gases",
+    "cessation of photosynthesis but not nutrient cycling"
+   ],
+   "a": 1,
+   "x": "Without decomposers, dead organic matter is not effectively broken down, so nutrients remain locked in it and mineral movement is blocked.",
+   "ty": "application",
+   "tq": "Trace the functional consequence of removing the organisms responsible for decomposition.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Which of the following processes removes carbon dioxide from the atmosphere or otherwise acts as a carbon sink?\n\n1. Photosynthesis\n2. Dissolution in oceans\n3. Carbonate sedimentation\n4. Silicate weathering\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Photosynthesis, ocean dissolution, carbonate sedimentation and silicate weathering all remove atmospheric carbon dioxide or store carbon for longer periods.",
+   "ty": "statements",
+   "tq": "Recognise sink processes and avoid confusing them with carbon-releasing processes.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Which one of the following combinations contains only processes that add carbon dioxide to the carbon cycle?",
+   "o": [
+    "Respiration, decomposition, fossil-fuel combustion and volcanic activity",
+    "Photosynthesis, ocean dissolution, carbonate sedimentation and silicate weathering",
+    "Photosynthesis, respiration, carbonate sedimentation and deforestation",
+    "Ocean dissolution, decomposition, silicate weathering and photosynthesis"
+   ],
+   "a": 0,
+   "x": "Respiration, decomposition, combustion of fossil fuels and volcanic activity add carbon dioxide. The other listed processes include recognised carbon sinks.",
+   "ty": "statements",
+   "tq": "Separate source processes from sink processes before evaluating the combination.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Which human activity is directly associated with the addition of carbon dioxide through the removal of carbon-storing vegetation?",
+   "o": [
+    "Deforestation",
+    "Silicate weathering",
+    "Dissolution of carbon dioxide in oceans",
+    "Carbonate sedimentation"
+   ],
+   "a": 0,
+   "x": "Deforestation adds carbon dioxide by releasing stored carbon and reducing the capacity of vegetation to absorb atmospheric carbon dioxide.",
+   "ty": "fact",
+   "tq": "Link the named human activity with its direct carbon-cycle effect.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Which of the following correctly describes the movement of nutrients in an ecosystem?",
+   "o": [
+    "Nutrients are produced only by volcanic activity.",
+    "Nutrients move only between living organisms and never enter air or the crust.",
+    "Nutrients are destroyed after transfer to decomposers.",
+    "Nutrients cycle between living organisms, air and the Earth’s crust, while energy flow drives these processes."
+   ],
+   "a": 3,
+   "x": "Nutrients circulate among organisms, the atmosphere and the Earth’s crust. Their cycling is associated with ecosystem energy flow and the water cycle.",
+   "ty": "application",
+   "tq": "Follow the reservoirs and pathways rather than treating nutrient movement as one-way energy flow.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Assertion (A): Weathering of rocks is especially important in the phosphorus cycle.\nReason (R): Phosphorus is released from rocks and the cycle lacks an atmospheric phase.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and the absence of an atmospheric phase means weathering is the principal process releasing phosphorus into the cycle.",
+   "ty": "assertion_reason",
+   "tq": "Test whether the reason explains why a sedimentary nutrient depends on rock weathering.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  },
+  {
+   "s": "Which one of the following sets contains only sedimentary cycles listed with soil and rocks in the Earth’s crust as their main reservoir?",
+   "o": [
+    "Phosphorus, sulphur and calcium",
+    "Carbon, nitrogen and oxygen",
+    "Nitrogen, phosphorus and water",
+    "Oxygen, sulphur and water"
+   ],
+   "a": 0,
+   "x": "Phosphorus, sulphur and calcium are sedimentary cycles whose principal reservoirs are soil and rocks in the Earth’s crust.",
+   "ty": "match",
+   "tq": "Start with the sure reservoir pair and exclude the gaseous cycles.",
+   "sec": "Biogeochemical cycles - gaseous vs sedimentary, main reservoirs, CO2 sources and sinks, weathering-driven cycles"
+  }
+ ]
+}

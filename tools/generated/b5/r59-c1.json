@@ -1,0 +1,539 @@
+{
+ "book": 5,
+ "row": 59,
+ "chunk": 1,
+ "section": "Electricity sector - installed capacity mix, generation, transmission, discom finances, Electricity Act 2003",
+ "subsections": [
+  "AP installed capacity - mix and major plants",
+  "Generation and plant load factor",
+  "Free farm power - AP history",
+  "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 39,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "What was the installed and contracted electricity capacity of Andhra Pradesh, as indicated for 2025-26?",
+   "o": [
+    "21,297 MW",
+    "18,297 MW",
+    "24,297 MW",
+    "27,297 MW"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh had an installed and contracted capacity of 21,297 MW.",
+   "ty": "numerical",
+   "tq": "Use the exact capacity figure rather than approximating the total.",
+   "sec": "AP installed capacity - mix and major plants  [APPSC]"
+  },
+  {
+   "s": "The electricity handled by Andhra Pradesh up to November 2025 was approximately",
+   "o": [
+    "35,758.84 MU",
+    "63,758.84 MU",
+    "53,758.84 MU",
+    "43,758.84 MU"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh handled 53,758.84 million units up to November 2025.",
+   "ty": "numerical",
+   "tq": "Discriminate between closely spaced numerical values.",
+   "sec": "AP installed capacity - mix and major plants  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding renewable-energy capacity in Andhra Pradesh:\n1. The total renewable capacity was 10,639.75 MW.\n2. Solar accounted for 5,614.52 MW.\n3. Wind accounted for 4,397.67 MW.\n4. Other renewable sources accounted for 627.56 MW.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly state the renewable-energy capacity figures for Andhra Pradesh.",
+   "ty": "statements",
+   "tq": "Check whether the aggregate and each component are simultaneously consistent.",
+   "sec": "AP installed capacity - mix and major plants  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Power plant)\na. Simhadri STPP\nb. Dr NTTPS\nc. Dr M.V.R. RTPP\n d. Sri Damodaram Sanjeevaiah TPS\n\nList-II (Location)\ni. Muddanur, Kadapa district\n ii. Krishnapatnam, Nellore district\n iii. Visakhapatnam district\n iv. Ibrahimpatnam, near Vijayawada\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–i, b–ii, c–iii, d–iv"
+   ],
+   "a": 0,
+   "x": "Simhadri is in Visakhapatnam, Dr NTTPS is at Ibrahimpatnam, RTPP is at Muddanur, and Sri Damodaram Sanjeevaiah TPS is at Krishnapatnam.",
+   "ty": "match",
+   "tq": "Start from the sure location–plant pairs and eliminate the codes.",
+   "sec": "AP installed capacity - mix and major plants  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Dr M.V.R. RTPP — APGENCO — 600 MW unit",
+    "Simhadri STPP — NTPC — 2,000 MW",
+    "Dr NTTPS — APGENCO — 500 MW and 800 MW units",
+    "Hinduja National Power — APGENCO — Visakhapatnam"
+   ],
+   "a": 3,
+   "x": "Hinduja National Power in Visakhapatnam is owned by the Hinduja group, not APGENCO. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the swapped owner in a plant–location–capacity association.",
+   "sec": "AP installed capacity - mix and major plants  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the power procurement approved in principle by APERC on 6 August 2026?",
+   "o": [
+    "5,588 MW of thermal power through nominated allocation under Section 63",
+    "2,600 MW of solar power through reverse auction under Section 86",
+    "1,600 MW of coal power through tariff-based bidding under Section 63 on the DBFOO model",
+    "1,000 MW of gas power through cost-plus regulation under Section 62"
+   ],
+   "a": 2,
+   "x": "APERC approved in principle the purchase of 1,600 MW of coal power through tariff-based bidding under Section 63 on the DBFOO model.",
+   "ty": "fact",
+   "tq": "Split the option into capacity, fuel, procurement method and legal provision.",
+   "sec": "AP installed capacity - mix and major plants  [APPSC]"
+  },
+  {
+   "s": "The projected peak-demand growth rate in Andhra Pradesh under the Resource Adequacy Plan is",
+   "o": [
+    "7.10% CAGR",
+    "8.10% CAGR",
+    "7.90% CAGR",
+    "6.90% CAGR"
+   ],
+   "a": 0,
+   "x": "The plan projects peak-demand growth at 7.10% CAGR; overall demand growth is projected at 6.90% CAGR.",
+   "ty": "numerical",
+   "tq": "Distinguish the overall growth rate from the peak-demand growth rate.",
+   "sec": "AP installed capacity - mix and major plants  [APPSC]"
+  },
+  {
+   "s": "With reference to electricity generation in India during 2024-25, consider the following statements:\n1. Total generation was about 1,824 TWh.\n2. Thermal generation was about 1,363 TWh.\n3. Renewable-energy generation was about 403 TWh.\n4. Nuclear generation was about 57 TWh.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The reported figures were 1,824 TWh in total, comprising approximately 1,363 TWh thermal, 403 TWh renewable and 57 TWh nuclear generation.",
+   "ty": "statements",
+   "tq": "Check the component figures against the stated total.",
+   "sec": "Generation and plant load factor  [APPSC]"
+  },
+  {
+   "s": "What percentage of India’s electricity generation in 2024-25 came from thermal sources and renewable-energy sources, respectively?",
+   "o": [
+    "78% and 18%",
+    "75% and 22%",
+    "72% and 20%",
+    "70% and 25%"
+   ],
+   "a": 1,
+   "x": "Thermal sources contributed about 75% and renewable-energy sources about 22% of generation in 2024-25.",
+   "ty": "comparison",
+   "tq": "Read the two percentages in the order asked.",
+   "sec": "Generation and plant load factor  [APPSC]"
+  },
+  {
+   "s": "The generation of electricity in India increased from 1,020.2 billion units in 2013-14 to approximately what level according to the India Year Book figure?",
+   "o": [
+    "1,730 billion units",
+    "2,030 billion units",
+    "1,630 billion units",
+    "1,830 billion units"
+   ],
+   "a": 3,
+   "x": "The India Year Book gives generation at approximately 1,830 billion units, compared with 1,020.2 billion units in 2013-14.",
+   "ty": "numerical",
+   "tq": "Use the stated base-year comparison to identify the later figure.",
+   "sec": "Generation and plant load factor  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding India’s electricity supply is correct?",
+   "o": [
+    "Coal supplies over 70% of India’s electricity.",
+    "Coal supplies less than one-third of India’s electricity.",
+    "Solar energy alone supplies over 50% of India’s electricity.",
+    "Nuclear energy supplies over 20% of India’s electricity."
+   ],
+   "a": 0,
+   "x": "Coal continues to supply over 70% of India’s electricity.",
+   "ty": "fact",
+   "tq": "Reject reversed share claims and identify the dominant source.",
+   "sec": "Generation and plant load factor  [APPSC]"
+  },
+  {
+   "s": "India’s coal output in financial year 2025-26 was",
+   "o": [
+    "1,040.08 million tonnes",
+    "1,140.08 million tonnes",
+    "940.08 million tonnes",
+    "840.08 million tonnes"
+   ],
+   "a": 0,
+   "x": "Coal output in FY 2025-26 was 1,040.08 million tonnes.",
+   "ty": "numerical",
+   "tq": "Focus on the exact production figure and its unit.",
+   "sec": "Generation and plant load factor  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the approximate capacity factors or operating ranges of different power sources in India?\n1. Coal plants: 60–85%\n2. Nuclear plants: above 84%\n3. Wind: 20–35%\n4. Solar: 20–25%\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4",
+    "1, 2 and 3 only"
+   ],
+   "a": 2,
+   "x": "The stated ranges are coal 60–85%, nuclear above 84% or roughly 85–90%, wind 20–35% and solar 20–25%.",
+   "ty": "comparison",
+   "tq": "Compare operating ranges source by source rather than assuming capacity equals generation.",
+   "sec": "Generation and plant load factor  [APPSC]"
+  },
+  {
+   "s": "Solar power plants in India generally provide only about how many peak sunlight hours?",
+   "o": [
+    "2–3 hours",
+    "5–6 hours",
+    "8–9 hours",
+    "10–12 hours"
+   ],
+   "a": 1,
+   "x": "Solar generation is generally available for about 5–6 peak sunlight hours.",
+   "ty": "numerical",
+   "tq": "Distinguish peak sunlight hours from the total hours in a day.",
+   "sec": "Generation and plant load factor  [APPSC]"
+  },
+  {
+   "s": "Which region had the highest plant load factor according to the APPSC 2019 key?",
+   "o": [
+    "Southern Region",
+    "Western Region",
+    "Northern Region",
+    "North-Eastern Region"
+   ],
+   "a": 0,
+   "x": "The Southern Region was identified as having the highest plant load factor.",
+   "ty": "fact",
+   "tq": "Discriminate among similarly named regional grids or regions.",
+   "sec": "Generation and plant load factor  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the capacity–generation relationship in India:\n1. Non-fossil sources account for over 54% of installed capacity.\n2. Coal accounts for about 42% of installed capacity.\n3. Coal produces over 70% of electricity generation.\n4. Nuclear accounts for about 1.6% of capacity and about 3% of generation.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements describe the capacity–generation paradox: non-fossil capacity is high, while coal produces a disproportionately large share of electricity.",
+   "ty": "statements",
+   "tq": "Separate installed-capacity shares from actual-generation shares.",
+   "sec": "Generation and plant load factor  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements correctly describes coal-based generation in 2025-26?",
+   "o": [
+    "It fell by 5.39%, but its share rose for the first time in 50 years.",
+    "It fell by 3.69%, and its share fell for the first time in 50 years.",
+    "It remained unchanged, although its capacity share fell.",
+    "It increased by 3.69% and reached its highest share in five decades."
+   ],
+   "a": 1,
+   "x": "Coal generation fell by 3.69% in 2025-26, and its share fell for the first time in 50 years.",
+   "ty": "fact",
+   "tq": "Check both the direction and the magnitude of change.",
+   "sec": "Generation and plant load factor  [APPSC]"
+  },
+  {
+   "s": "Approximately how much solar and wind electricity was curtailed to keep coal plants running?",
+   "o": [
+    "1.2 TWh",
+    "0.21 TWh",
+    "2.1 TWh",
+    "21 TWh"
+   ],
+   "a": 2,
+   "x": "About 2.1 TWh of solar and wind generation was curtailed for this reason.",
+   "ty": "numerical",
+   "tq": "Watch the decimal placement in a small energy quantity.",
+   "sec": "Generation and plant load factor  [APPSC]"
+  },
+  {
+   "s": "Who introduced free electricity for farmers in Andhra Pradesh after becoming Chief Minister on 14 May 2004?",
+   "o": [
+    "N. Chandrababu Naidu",
+    "Y.S. Rajasekhara Reddy",
+    "N. Janardhana Reddy",
+    "N. Kiran Kumar Reddy"
+   ],
+   "a": 1,
+   "x": "Y.S. Rajasekhara Reddy introduced free electricity for farmers after becoming Chief Minister on 14 May 2004.",
+   "ty": "fact",
+   "tq": "Match the policy decision with the correct office-holder and date.",
+   "sec": "Free farm power - AP history  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about free and subsidised electricity provisions in Andhra Pradesh:\n1. Nine hours of daytime free power is supplied to 22.36 lakh pump sets.\n2. Aqua farmers pay ₹1.50 per unit.\n3. 20.79 lakh BPL SC/ST households receive free power up to 200 units per month.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly state the current provisions for farm pumps, aqua farmers and BPL SC/ST households.",
+   "ty": "statements",
+   "tq": "Check the beneficiary group, quantity and tariff in each statement.",
+   "sec": "Free farm power - AP history  [APPSC]"
+  },
+  {
+   "s": "Under PM-KUSUM in Andhra Pradesh, approximately how many farm pump sets are proposed to be solarised?",
+   "o": [
+    "1.93 lakh",
+    "2.03 lakh",
+    "2.93 lakh",
+    "3.93 lakh"
+   ],
+   "a": 2,
+   "x": "PM-KUSUM in Andhra Pradesh aims to solarise 2.93 lakh farm pump sets.",
+   "ty": "numerical",
+   "tq": "Distinguish closely related lakh-based target figures.",
+   "sec": "Free farm power - AP history  [APPSC]"
+  },
+  {
+   "s": "The Indian power system is described as “One Nation-One Grid-One Frequency” because it is",
+   "o": [
+    "the world’s largest synchronous grid",
+    "a grid used only for renewable-energy transmission",
+    "a distribution network controlled exclusively by state utilities",
+    "a collection of isolated state grids operating at different frequencies"
+   ],
+   "a": 0,
+   "x": "India operates the world’s largest synchronous grid under the One Nation-One Grid-One Frequency framework.",
+   "ty": "fact",
+   "tq": "Identify the defining feature rather than a related institutional claim.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "Since April 2014, which combination of additions has been made to India’s inter-regional transmission system?",
+   "o": [
+    "2.05 lakh ckm of lines, 84.34 GVA and 852 GW of capacity",
+    "2.05 lakh ckm of lines, 852 GVA and 84.34 GW of inter-regional capacity",
+    "1.05 lakh ckm of lines, 582 GVA and 48.34 GW of capacity",
+    "5 lakh ckm of lines, 1,000 GVA and 120.34 GW of capacity"
+   ],
+   "a": 1,
+   "x": "Since April 2014, the system added 2.05 lakh circuit km of lines, 852 GVA and 84.34 GW of inter-regional capacity.",
+   "ty": "numerical",
+   "tq": "Keep circuit length, transformation capacity and transfer capacity in their proper units.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "The present inter-regional transfer capability of India’s synchronous grid is approximately",
+   "o": [
+    "100.34 GW",
+    "152.34 GW",
+    "120.34 GW",
+    "84.34 GW"
+   ],
+   "a": 2,
+   "x": "The grid can transfer 120.34 GW between regions.",
+   "ty": "numerical",
+   "tq": "Distinguish the newly added capacity from the total transferable capacity.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "Consider the following statements about India’s regional grids:\n1. There are five regional grids.\n2. They are Northern, Eastern, Western, North-Eastern and Southern.\n3. The Southern Grid was synchronised last.\n4. The Southern Grid was synchronised in December 2013.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "India had five named regional grids, and the Southern Grid was the last to be synchronised, in December 2013.",
+   "ty": "statements",
+   "tq": "Test the list and the chronological detail together.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. Southern Grid synchronisation\nB. PGCIL study for the Green Energy Corridor\nC. Implementation of the Green Energy Corridor\nD. APERC approval for procurement of 1,600 MW of coal power",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "B, C, A, D",
+    "D, B, A, C"
+   ],
+   "a": 1,
+   "x": "The PGCIL study was conducted in 2012, the Southern Grid was synchronised in December 2013, the Green Energy Corridor was implemented from 2015, and the APERC approval came in 2026.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest events first, then place the middle events.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "The Green Energy Corridor began with a PGCIL study in 2012 and was implemented from",
+   "o": [
+    "2013",
+    "2014",
+    "2015",
+    "2016"
+   ],
+   "a": 2,
+   "x": "The Green Energy Corridor began with a PGCIL study in 2012 and was implemented from 2015.",
+   "ty": "chronology",
+   "tq": "Distinguish the preparatory study year from the implementation year.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "Consider the following statements regarding Intra-State Green Energy Corridor-I:\n1. It covers eight States, including Andhra Pradesh.\n2. It involves about 9,700 circuit km of lines.\n3. It involves 22,600 MVA of capacity.\n4. It is associated with 24 GW of renewable energy.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the scope and capacity of Intra-State GEC-I.",
+   "ty": "statements",
+   "tq": "Verify coverage, line length, transformation capacity and renewable-energy capacity separately.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "Which of the following gives the correct funding pattern for Intra-State Green Energy Corridor-I?",
+   "o": [
+    "MNRE 50%, KfW 30%, STU 20%",
+    "MNRE 20%, KfW 40%, STU 40%",
+    "MNRE 40%, KfW 20%, STU 40%",
+    "MNRE 40%, KfW 40%, STU 20%"
+   ],
+   "a": 3,
+   "x": "The funding pattern is MNRE 40%, KfW 40% and the State Transmission Utility 20%.",
+   "ty": "comparison",
+   "tq": "Compare the percentages while preserving the order of the funding agencies.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "The estimated cost of Intra-State Green Energy Corridor-I is",
+   "o": [
+    "₹8,141.68 crore",
+    "₹9,141.68 crore",
+    "₹10,141.68 crore",
+    "₹11,141.68 crore"
+   ],
+   "a": 2,
+   "x": "The estimated cost of Intra-State GEC-I is ₹10,141.68 crore.",
+   "ty": "numerical",
+   "tq": "Identify the exact project-cost figure among close alternatives.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "Which organisation functions as the Central Transmission Utility of India?",
+   "o": [
+    "POWERGRID, also known as PGCIL",
+    "Central Electricity Authority",
+    "National Thermal Power Corporation",
+    "Central Electricity Regulatory Commission"
+   ],
+   "a": 0,
+   "x": "POWERGRID, or PGCIL, functions as the Central Transmission Utility.",
+   "ty": "fact",
+   "tq": "Match the statutory transmission role with the correct organisation.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "Consider the following statements about Andhra Pradesh’s transmission network:\n1. It has 376 extra-high-voltage substations.\n2. Its transmission network extends to 33,379.72 circuit km.\n3. Its transmission and distribution losses are 9.25%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Andhra Pradesh network has 376 EHT substations, 33,379.72 circuit km of transmission and T&D losses of 9.25%.",
+   "ty": "statements",
+   "tq": "Check whether the network-size and loss figures are all retained accurately.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "An oscillation that began in Rajasthan was reportedly felt at which power facility, illustrating the interconnected nature of the grid?",
+   "o": [
+    "Dr NTTPS",
+    "Kudankulam",
+    "Simhadri",
+    "Krishnapatnam"
+   ],
+   "a": 1,
+   "x": "The grid oscillation that began in Rajasthan was felt at Kudankulam.",
+   "ty": "application",
+   "tq": "Apply the interconnected-grid concept to identify the affected facility.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "India recorded a peak power demand of 270.82 GW on",
+   "o": [
+    "7 July 2026",
+    "21 May 2024",
+    "21 May 2025",
+    "21 May 2026"
+   ],
+   "a": 3,
+   "x": "The record peak demand was 270.82 GW on 21 May 2026.",
+   "ty": "numerical",
+   "tq": "Match the record figure with its precise date.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "Which of the following correctly represents the earlier peak-demand figures mentioned for India?",
+   "o": [
+    "250 GW in 2025 during solar hours and 237 GW non-solar in 2024",
+    "270.82 GW in 2024 during solar hours and 250 GW non-solar in 2025",
+    "237 GW in 2024 during solar hours and 250 GW non-solar in 2025",
+    "250 GW in 2024 during solar hours and 237 GW non-solar in 2025"
+   ],
+   "a": 3,
+   "x": "The earlier figures were 250 GW in 2024 during solar hours and 237 GW during non-solar hours in 2025.",
+   "ty": "comparison",
+   "tq": "Keep the year and operating condition paired with the correct demand figure.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "According to the Economic Survey reference, the demand–supply gap in electricity had become zero by",
+   "o": [
+    "December 2024",
+    "November 2025",
+    "July 2026",
+    "May 2024"
+   ],
+   "a": 1,
+   "x": "The demand–supply gap was reported to be zero by November 2025.",
+   "ty": "fact",
+   "tq": "Distinguish the zero-gap date from the separate shortage figures.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  },
+  {
+   "s": "The transmission network associated with India’s One Nation-One Grid-One Frequency system exceeds",
+   "o": [
+    "2 lakh circuit km",
+    "3 lakh circuit km",
+    "5 lakh circuit km",
+    "4 lakh circuit km"
+   ],
+   "a": 2,
+   "x": "The network exceeds 5 lakh circuit km.",
+   "ty": "numerical",
+   "tq": "Identify the order of magnitude rather than confusing it with recent additions.",
+   "sec": "Transmission - One Nation One Grid One Frequency, GEC, POWERGRID"
+  }
+ ]
+}

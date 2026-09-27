@@ -1,0 +1,486 @@
+{
+ "book": 5,
+ "row": 86,
+ "chunk": 4,
+ "section": "Loss of biodiversity - causes, invasive alien species, IUCN Red List categories",
+ "subsections": [
+  "Global assessments - IPBES, Living Planet Index, sixth mass extinction",
+  "Deforestation and habitat fragmentation - drivers, edge effects, disturbing vs restoring activities",
+  "Reports and databases - publisher",
+  "Consequences - pollinators, ecosystem services, zoonotic spillover",
+  "Global targets on invasives and habitat loss (Kunming-Montreal GBF)",
+  "AP biodiversity loss cases",
+  "Climate change as a driver - coral bleaching, range shifts"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "According to the IPBES assessment, the present extinction rate is approximately:",
+   "o": [
+    "Two to five times the natural background rate",
+    "Tens to hundreds of times the natural background rate",
+    "Lower than the natural background rate",
+    "Equal to the natural background rate"
+   ],
+   "a": 1,
+   "x": "IPBES reported that current extinction rates are tens to hundreds of times higher than the natural background rate.",
+   "ty": "numerical",
+   "tq": "Use the precise quantitative range rather than a vague comparison.",
+   "sec": "Global assessments - IPBES, Living Planet Index, sixth mass extinction"
+  },
+  {
+   "s": "Consider the following statements regarding the IPBES assessment:\n1. About 25% of the assessed plant and animal species are threatened.\n2. Habitat destruction is identified as the main driver of biodiversity loss.\n3. Current extinction rates are lower than the natural background rate.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because IPBES found extinction rates to be tens to hundreds of times higher than the background rate.",
+   "ty": "statements",
+   "tq": "Find the statement that reverses the reported trend.",
+   "sec": "Global assessments - IPBES, Living Planet Index, sixth mass extinction"
+  },
+  {
+   "s": "The Living Planet Index is primarily a measure of the average change in:",
+   "o": [
+    "Threatened plant species since 1960",
+    "Vertebrate populations since 1970",
+    "Marine biodiversity since 2000",
+    "Global forest cover since 1900"
+   ],
+   "a": 1,
+   "x": "The Living Planet Index, published through WWF's Living Planet assessment, measures the average change in vertebrate populations since 1970.",
+   "ty": "fact",
+   "tq": "Match the index with its measured subject and baseline year.",
+   "sec": "Global assessments - IPBES, Living Planet Index, sixth mass extinction"
+  },
+  {
+   "s": "With reference to mass extinctions, consider the following statements:\n1. The sixth mass extinction refers to the present human-driven wave of extinctions.\n2. The fifth mass extinction occurred at the end of the Cretaceous period.\n3. The fifth mass extinction occurred approximately 66 million years ago.\n4. The fifth mass extinction wiped out the dinosaurs.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The sixth extinction is the current human-driven episode, while the end-Cretaceous event about 66 million years ago was the fifth mass extinction and eliminated the dinosaurs.",
+   "ty": "statements",
+   "tq": "Select the comprehensive combination when every chronological detail is consistent.",
+   "sec": "Global assessments - IPBES, Living Planet Index, sixth mass extinction"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes background extinction from mass extinction?",
+   "o": [
+    "Background extinction is a slow natural loss at a low steady rate, whereas mass extinction involves the loss of a large share of species in a short geological period.",
+    "Mass extinction refers only to local extinction, whereas background extinction is always global.",
+    "Background extinction is a rapid geological event, whereas mass extinction is a slow natural process.",
+    "Both terms refer exclusively to human-caused extinction."
+   ],
+   "a": 0,
+   "x": "Background extinction is the slow natural loss of species at a low steady rate. Mass extinction involves the loss of a large share of species within a relatively short geological time.",
+   "ty": "comparison",
+   "tq": "Separate paired terms by their rate and scale.",
+   "sec": "Global assessments - IPBES, Living Planet Index, sixth mass extinction"
+  },
+  {
+   "s": "The statement that the present extinction rate has exceeded 100 times the background rate during the last 300 years is associated with the:",
+   "o": [
+    "First mass extinction",
+    "Sixth extinction",
+    "Background extinction",
+    "Fifth mass extinction"
+   ],
+   "a": 1,
+   "x": "The present human-driven sixth extinction has witnessed extinction rates exceeding 100 times the background rate during the last 300 years.",
+   "ty": "numerical",
+   "tq": "Link the exceptional numerical figure to the correct extinction category.",
+   "sec": "Global assessments - IPBES, Living Planet Index, sixth mass extinction"
+  },
+  {
+   "s": "The disappearance of a species that causes the decline or disappearance of species dependent on it is known as:",
+   "o": [
+    "Ecological succession",
+    "Genetic drift",
+    "Co-extinction",
+    "Adaptive radiation"
+   ],
+   "a": 2,
+   "x": "Co-extinction occurs when the loss of one species causes the decline or loss of dependent species, such as an obligate pollinator or a parasite dependent on a host.",
+   "ty": "fact",
+   "tq": "Test the exact term for a cause-and-effect relationship.",
+   "sec": "Global assessments - IPBES, Living Planet Index, sixth mass extinction"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with recorded extinction and its principal cause?",
+   "o": [
+    "Passenger pigeon — over-exploitation",
+    "Steller's sea cow — habitat restoration",
+    "Bali tiger — afforestation",
+    "Caspian tiger — protected-area expansion"
+   ],
+   "a": 0,
+   "x": "The passenger pigeon and Steller's sea cow were among species lost due to over-exploitation. The other options incorrectly associate extinct tigers with conservation activities.",
+   "ty": "match",
+   "tq": "Use the cause-of-loss trap in species–event matching.",
+   "sec": "Global assessments - IPBES, Living Planet Index, sixth mass extinction"
+  },
+  {
+   "s": "Which of the following species were recorded as extinct from India by the Zoological Survey of India?\n1. Cheetah\n2. Pink-headed duck\n3. Mountain quail\n4. Passenger pigeon\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 2,
+   "x": "Cheetah, pink-headed duck and mountain quail were recorded as extinct from India. The passenger pigeon was not an Indian species in this list.",
+   "ty": "statements",
+   "tq": "Separate the geographically specific Indian list from a globally extinct species.",
+   "sec": "Global assessments - IPBES, Living Planet Index, sixth mass extinction"
+  },
+  {
+   "s": "Which combination of traits generally places a species at higher risk of extinction?",
+   "o": [
+    "Large body size, small population, low reproductive rate and narrow specialised niche",
+    "Small body size and high adaptability in all habitats",
+    "High reproductive rate and wide geographical distribution only",
+    "Small body size, large population and broad niche"
+   ],
+   "a": 0,
+   "x": "Large body size, small population, low reproductive rate, narrow or specialised niche and endemism are high-risk traits.",
+   "ty": "application",
+   "tq": "Identify the option containing the cluster of vulnerability traits.",
+   "sec": "Global assessments - IPBES, Living Planet Index, sixth mass extinction"
+  },
+  {
+   "s": "Which of the following is the primary driver of deforestation and habitat loss in the context of environmental degradation?",
+   "o": [
+    "Removal of invasive species",
+    "Wildlife corridors and eco-bridges",
+    "Natural pollination and soil formation",
+    "Agricultural expansion and urban development"
+   ],
+   "a": 3,
+   "x": "Agricultural expansion and urban development are identified as primary drivers of deforestation and habitat loss.",
+   "ty": "fact",
+   "tq": "Distinguish drivers of habitat loss from conservation responses.",
+   "sec": "Deforestation and habitat fragmentation - drivers, edge effects, disturbing vs restoring activities"
+  },
+  {
+   "s": "Consider the following activities:\n1. Mining\n2. Construction of dams\n3. Development of harbours\n4. Establishment of industries\n5. Afforestation\nWhich of the above are drivers of deforestation and habitat loss?",
+   "o": [
+    "1, 2 and 5 only",
+    "1, 2, 3 and 4 only",
+    "2, 3, 4 and 5 only",
+    "1, 2, 3, 4 and 5"
+   ],
+   "a": 1,
+   "x": "Mining, dams, harbours and industries can drive deforestation and habitat loss. Afforestation is a restoration activity rather than a listed driver.",
+   "ty": "statements",
+   "tq": "Find the restoration activity embedded among disturbance activities.",
+   "sec": "Deforestation and habitat fragmentation - drivers, edge effects, disturbing vs restoring activities"
+  },
+  {
+   "s": "The tropical rainforest cover mentioned in relation to global deforestation declined from approximately:",
+   "o": [
+    "14% to 6% of the land surface",
+    "30% to 15% of the land surface",
+    "50% to 25% of the land surface",
+    "10% to 2% of the land surface"
+   ],
+   "a": 0,
+   "x": "Tropical rainforest cover is stated to have declined from about 14% to 6% of the Earth's land surface.",
+   "ty": "numerical",
+   "tq": "Recall the paired percentage values exactly.",
+   "sec": "Deforestation and habitat fragmentation - drivers, edge effects, disturbing vs restoring activities"
+  },
+  {
+   "s": "The Amazon rainforest is cleared mainly for:",
+   "o": [
+    "Wheat cultivation and sheep grazing",
+    "Tea plantations and mining alone",
+    "Soybean cultivation and cattle pasture",
+    "Rice cultivation and aquaculture"
+   ],
+   "a": 2,
+   "x": "The Amazon, often called the lungs of the planet, is cleared substantially for soybean cultivation and cattle pasture.",
+   "ty": "fact",
+   "tq": "Associate the ecosystem with its specific land-use pressures.",
+   "sec": "Deforestation and habitat fragmentation - drivers, edge effects, disturbing vs restoring activities"
+  },
+  {
+   "s": "Habitat fragmentation is particularly harmful to:",
+   "o": [
+    "Species that require no habitat connectivity",
+    "Migratory animals and large-territory mammals and birds",
+    "Only microorganisms living in soil",
+    "Only domesticated animals"
+   ],
+   "a": 1,
+   "x": "Fragmentation breaks large habitats into small patches and is especially harmful to migratory animals and mammals and birds requiring large territories.",
+   "ty": "application",
+   "tq": "Apply habitat-size and connectivity requirements to species groups.",
+   "sec": "Deforestation and habitat fragmentation - drivers, edge effects, disturbing vs restoring activities"
+  },
+  {
+   "s": "Which of the following best explains the edge effect?",
+   "o": [
+    "Edges eliminate all invasive species from a forest patch.",
+    "Edges always increase the population of interior-dependent species.",
+    "The interior of a fragment becomes darker and cooler as its size decreases.",
+    "Patch boundaries experience increased light, wind, heat, predators and weeds, causing the decline of interior species."
+   ],
+   "a": 3,
+   "x": "The edge effect exposes habitat boundaries to greater light, wind, heat, predators and weeds. As fragments shrink, interior species consequently decline.",
+   "ty": "application",
+   "tq": "Use the cause-and-effect chain rather than focusing only on the definition.",
+   "sec": "Deforestation and habitat fragmentation - drivers, edge effects, disturbing vs restoring activities"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Afforestation — restoration of ecological balance",
+    "Clear-felling — disturbance of ecological balance",
+    "Removal of invasives with native restocking — disturbance of ecological balance",
+    "Draining wetlands — disturbance of ecological balance"
+   ],
+   "a": 2,
+   "x": "Removal of invasive species with native restocking restores ecological balance. Clear-felling and draining wetlands disturb it, while afforestation restores it.",
+   "ty": "negative",
+   "tq": "Find the reversed activity–effect pair.",
+   "sec": "Deforestation and habitat fragmentation - drivers, edge effects, disturbing vs restoring activities"
+  },
+  {
+   "s": "Which of the following sets contains only activities that restore ecological balance?",
+   "o": [
+    "Afforestation, eco-restoration of degraded land and protected areas",
+    "Clear-felling, shifting cultivation and mining",
+    "Draining wetlands, quarrying and urban sprawl",
+    "Mangrove conversion, clear-felling and mining"
+   ],
+   "a": 0,
+   "x": "Afforestation, restoration of degraded land and protected areas are restoration measures. The other sets contain activities that disturb ecological balance.",
+   "ty": "statements",
+   "tq": "Eliminate options containing even one disturbance activity.",
+   "sec": "Deforestation and habitat fragmentation - drivers, edge effects, disturbing vs restoring activities"
+  },
+  {
+   "s": "The Global Assessment on Biodiversity published in 2019 was published by:",
+   "o": [
+    "Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services",
+    "World Wide Fund for Nature",
+    "International Union for Conservation of Nature",
+    "Zoological Society of London alone"
+   ],
+   "a": 0,
+   "x": "The 2019 Global Assessment on Biodiversity was published by IPBES and reported that approximately 25% of species were threatened.",
+   "ty": "fact",
+   "tq": "Identify the publisher rather than the report's subject matter.",
+   "sec": "Reports and databases - publisher"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Report or database)\na. Living Planet Report\na. IUCN Red List\nc. Global Invasive Species Database\nd. Global Assessment on Biodiversity\n\nList-II (Publisher)\ni. IPBES\nii. WWF with Zoological Society of London\niii. IUCN SSC Invasive Species Specialist Group\niv. IUCN\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a-ii, b-iv, c-iii, d-i",
+    "a-iv, b-ii, c-i, d-iii",
+    "a-i, b-iii, c-iv, d-ii",
+    "a-iii, b-i, c-ii, d-iv"
+   ],
+   "a": 0,
+   "x": "The Living Planet Report is published by WWF with the Zoological Society of London; the IUCN Red List by IUCN; the Global Invasive Species Database by the IUCN SSC Invasive Species Specialist Group; and the Global Assessment by IPBES.",
+   "ty": "match",
+   "tq": "Start from the sure publisher–report pair and complete the elimination.",
+   "sec": "Reports and databases - publisher"
+  },
+  {
+   "s": "The database titled '100 of the World's Worst Invasive Alien Species' is associated with the:",
+   "o": [
+    "Zoological Survey of India",
+    "IUCN SSC Invasive Species Specialist Group",
+    "IPBES Biodiversity Assessment Group",
+    "WWF Living Planet Network"
+   ],
+   "a": 1,
+   "x": "The Global Invasive Species Database and the list of 100 of the World's Worst IAS are associated with the IUCN SSC Invasive Species Specialist Group.",
+   "ty": "fact",
+   "tq": "Distinguish the specialist group from other biodiversity organisations.",
+   "sec": "Reports and databases - publisher"
+  },
+  {
+   "s": "Which of the following consequences can result from biodiversity loss?\n1. Disruption of pollination\n2. Disruption of nutrient cycling\n3. Decline in water and soil-related ecosystem services\n4. Strengthening of food security for resource-dependent communities\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Biodiversity loss disrupts pollination, nutrient cycling, water and soil services. It reduces, rather than strengthens, food security for resource-dependent communities.",
+   "ty": "statements",
+   "tq": "Reject the statement that reverses the consequence.",
+   "sec": "Consequences - pollinators, ecosystem services, zoonotic spillover"
+  },
+  {
+   "s": "Which statement best reflects the ecological consequence of the permanent loss of biodiversity?",
+   "o": [
+    "Once biodiversity is lost, it cannot be recreated in its original entirety.",
+    "Biodiversity loss affects neither ecosystem services nor species interactions.",
+    "Only cultural values are affected by biodiversity loss.",
+    "Lost biodiversity can always be recreated through artificial breeding."
+   ],
+   "a": 0,
+   "x": "Once biodiversity is lost, it cannot be recreated in its original entirety. Its loss disrupts species interactions, nutrient cycling and ecosystem services.",
+   "ty": "fact",
+   "tq": "Identify the precise irreversible consequence.",
+   "sec": "Consequences - pollinators, ecosystem services, zoonotic spillover"
+  },
+  {
+   "s": "The One Health approach is particularly relevant to addressing:",
+   "o": [
+    "Exclusive protection of cultivated crops",
+    "Zoonotic spillover arising from habitat disruption and wildlife trade",
+    "Replacement of all wildlife with domestic species",
+    "Only the restoration of urban roads"
+   ],
+   "a": 1,
+   "x": "Zoonotic spillover may increase through habitat disruption and wildlife trade. The One Health approach recognises the interconnected health of humans, animals and ecosystems.",
+   "ty": "application",
+   "tq": "Apply the named approach to the problem involving human, animal and ecosystem health.",
+   "sec": "Consequences - pollinators, ecosystem services, zoonotic spillover"
+  },
+  {
+   "s": "The estimated economic cost of invasive alien species to India over 60 years is:",
+   "o": [
+    "US$1,273 billion",
+    "US$127.3 billion",
+    "US$12.73 billion",
+    "US$127.3 million"
+   ],
+   "a": 1,
+   "x": "The estimated economic cost of invasive alien species to India is US$127.3 billion over a period of 60 years.",
+   "ty": "numerical",
+   "tq": "Check both the unit and the decimal placement.",
+   "sec": "Consequences - pollinators, ecosystem services, zoonotic spillover"
+  },
+  {
+   "s": "Which target of the Kunming-Montreal Global Biodiversity Framework seeks to restore 30% of degraded ecosystems?",
+   "o": [
+    "Target 6",
+    "Target 2",
+    "Target 1",
+    "Target 3"
+   ],
+   "a": 1,
+   "x": "Target 2 of the KMGBF seeks the restoration of 30% of degraded ecosystems.",
+   "ty": "fact",
+   "tq": "Discriminate between closely numbered biodiversity targets.",
+   "sec": "Global targets on invasives and habitat loss (Kunming-Montreal GBF)"
+  },
+  {
+   "s": "Target 1 of the Kunming-Montreal Global Biodiversity Framework concerns:",
+   "o": [
+    "Bringing the loss of high-biodiversity areas close to zero",
+    "Protecting only areas outside biodiversity hotspots",
+    "Restoring all mangroves by 2050",
+    "Reducing invasive species by exactly 30%"
+   ],
+   "a": 0,
+   "x": "Target 1 seeks to bring the loss of areas of high biodiversity importance close to zero.",
+   "ty": "fact",
+   "tq": "Distinguish the habitat-loss target from restoration and invasive-species targets.",
+   "sec": "Global targets on invasives and habitat loss (Kunming-Montreal GBF)"
+  },
+  {
+   "s": "Which of the following best describes the biodiversity loss problem associated with Kolleru Lake?",
+   "o": [
+    "Exclusive damage caused by offshore oil drilling",
+    "Expansion of alpine grasslands due to glacial retreat",
+    "Encroachment by fish and prawn tanks, with unregulated aquaculture converting wetlands and mangroves into ponds",
+    "Conversion of dry deciduous forests into tea plantations"
+   ],
+   "a": 2,
+   "x": "Encroachment by fish and prawn tanks and unregulated aquaculture have converted wetland and mangrove areas into ponds, causing salinity and loss of breeding grounds.",
+   "ty": "application",
+   "tq": "Link the ecosystem, land-use change and ecological consequence.",
+   "sec": "AP biodiversity loss cases"
+  },
+  {
+   "s": "Prosopis juliflora, locally called Seema Chintakaya, is associated with which set of impacts in Andhra Pradesh?\n1. Drainage of groundwater\n2. Crowding out of native flora\n3. Shrinking of grazing land\n4. Expansion of native grasslands\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Prosopis juliflora drains groundwater, crowds out native flora and shrinks grazing land in Rayalaseema and coastal areas. It does not expand native grasslands.",
+   "ty": "statements",
+   "tq": "Identify the invasive-species impacts and reject the reversed ecological effect.",
+   "sec": "AP biodiversity loss cases"
+  },
+  {
+   "s": "Illegal logging and violence associated with Red Sanders in the Seshachalam region are driven primarily by demand from:",
+   "o": [
+    "China and Japan",
+    "Russia and Mongolia",
+    "Sri Lanka and Maldives",
+    "Nepal and Bhutan"
+   ],
+   "a": 0,
+   "x": "Demand from China and Japan has driven Red Sanders smuggling, illegal logging and associated violence in the Seshachalam region.",
+   "ty": "fact",
+   "tq": "Match the regional biodiversity case with its external demand centres.",
+   "sec": "AP biodiversity loss cases"
+  },
+  {
+   "s": "Which of the following is NOT a stated effect of climate change on biodiversity?",
+   "o": [
+    "Coral bleaching",
+    "Shifts in ecosystem boundaries",
+    "Permanent stabilisation of species ranges",
+    "Ocean acidification"
+   ],
+   "a": 2,
+   "x": "Climate change causes coral bleaching, ocean acidification, shifts in ecosystem boundaries and disrupted migration. It does not permanently stabilise species ranges.",
+   "ty": "negative",
+   "tq": "Find the option that reverses the direction of climate impacts.",
+   "sec": "Climate change as a driver - coral bleaching, range shifts"
+  },
+  {
+   "s": "Consider the following statements:\n1. Rising temperatures can shift species ranges.\n2. Warming can increase extinction risk in biodiversity hotspots.\n3. A warming Arctic can facilitate the arrival of alien plants.\n4. Climate change has no effect on species migration.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is false because warming can disrupt migration and alter species ranges.",
+   "ty": "statements",
+   "tq": "Spot the absolute negative statement that contradicts the ecological trend.",
+   "sec": "Climate change as a driver - coral bleaching, range shifts"
+  },
+  {
+   "s": "Arrange the following climate-related biodiversity effects in a logical sequence beginning with warming:\nA. Shifts in species ranges\nB. Rising temperatures\nC. Increased extinction risk in biodiversity hotspots\nD. Alteration of ecosystem boundaries\nSelect the correct sequence.",
+   "o": [
+    "B, A, D, C",
+    "A, B, C, D",
+    "B, D, A, C",
+    "D, B, A, C"
+   ],
+   "a": 2,
+   "x": "Rising temperatures can alter ecosystem boundaries and shift species ranges, which in turn can raise extinction risk in biodiversity hotspots. The sequence is B, D, A, C.",
+   "ty": "chronology",
+   "tq": "Arrange the effects from the climatic trigger to the ecological outcome.",
+   "sec": "Climate change as a driver - coral bleaching, range shifts"
+  }
+ ]
+}

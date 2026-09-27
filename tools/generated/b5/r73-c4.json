@@ -1,0 +1,501 @@
+{
+ "book": 5,
+ "row": 73,
+ "chunk": 4,
+ "section": "Environment - components; ecology, ecosystem, food chain and food web, energy flow, ecological pyramids",
+ "subsections": [
+  "Ecogeographic rules → trait",
+  "Levels of ecological organisation - organism to biosphere",
+  "Biomes of the world → climate + vegetation, anthropogenic biomes",
+  "Ecosystem as functional unit - term, definition, open vs closed, structure vs function",
+  "Abiotic factors - climatic, edaphic, topographic; limiting-factor laws",
+  "Ecosystem stability - resistance, resilience, homeostasis",
+  "Decomposition - steps, organisms, factors",
+  "Autotroph types - photoautotrophs, chemoautotrophs, archaea"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nRule — Ecogeographic trait",
+   "o": [
+    "Bergmann — Number of vertebrae in fish",
+    "Allen — Body colouration in warm-humid climates",
+    "Jordan — Number of vertebrae in fish",
+    "Gloger — Sexual size dimorphism in shorebirds"
+   ],
+   "a": 2,
+   "x": "Jordan's rule relates temperature to the number of vertebrae in fish; colder conditions are associated with a greater number of vertebrae. Bergmann concerns body size, Allen concerns appendages, and Gloger concerns colouration.",
+   "ty": "match",
+   "tq": "Use direct rule-trait discrimination and reject the swapped associations.",
+   "sec": "Ecogeographic rules → trait  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding ecogeographic rules:\n1. Bergmann's rule relates colder climates with larger body size.\n2. Allen's rule relates colder climates with shorter ears and limbs.\n3. Rensch's rule concerns size dimorphism between sexes and has been tested on shorebirds.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Bergmann, Allen and Rensch respectively describe body size, appendage length and sexual size dimorphism.",
+   "ty": "statements",
+   "tq": "Test each rule independently before selecting the coded combination.",
+   "sec": "Ecogeographic rules → trait  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Gloger’s rule primarily explains variation in which of the following characteristics in relation to climate?",
+   "o": [
+    "Body size",
+    "Length of limbs",
+    "Colouration",
+    "Number of vertebrae"
+   ],
+   "a": 2,
+   "x": "Gloger’s rule relates climate to colouration; warm and humid environments are generally associated with darker colouration.",
+   "ty": "fact",
+   "tq": "Direct one-fact recall of a confusable rule-trait relationship.",
+   "sec": "Ecogeographic rules → trait  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following represents the correct ecological order from the smallest to the largest level?",
+   "o": [
+    "Organism → community → population → ecosystem → biome → biosphere",
+    "Organism → population → community → ecosystem → biome → biosphere",
+    "Population → organism → community → biome → ecosystem → biosphere",
+    "Organism → ecosystem → population → community → biome → biosphere"
+   ],
+   "a": 1,
+   "x": "The ecological order is organism, population, community, ecosystem, biome and biosphere.",
+   "ty": "chronology",
+   "tq": "Check the hierarchy sequentially from the individual level upward.",
+   "sec": "Levels of ecological organisation - organism to biosphere  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Which of the following gives the complete hierarchy of ecological organisation in the correct order?\n\n1. Atoms\n2. Molecules\n3. Protoplasm\n4. Cells\n5. Tissues\n6. Organs\n7. Organisms\n8. Populations\n9. Communities\n10. Ecosystems\n11. Biomes\n12. Biosphere",
+   "o": [
+    "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+    "1, 3, 2, 4, 6, 5, 7, 8, 10, 9, 11, 12",
+    "2, 1, 3, 4, 5, 7, 6, 8, 9, 10, 12, 11",
+    "1, 2, 4, 3, 5, 6, 7, 9, 8, 10, 11, 12"
+   ],
+   "a": 0,
+   "x": "The complete sequence proceeds from atoms to molecules, protoplasm, cells, tissues, organs, organisms, populations, communities, ecosystems, biomes and biosphere.",
+   "ty": "chronology",
+   "tq": "Arrange the levels by moving from molecular organisation to global ecological organisation.",
+   "sec": "Levels of ecological organisation - organism to biosphere  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about the biosphere:\n1. It is absent at the poles, the highest peaks and the deepest oceans.\n2. Fungal and bacterial spores occurring above 8,000 metres are dormant.\n3. Energy enters the biosphere from the Sun, while nutrients are recycled within it.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly describe the limits and functioning of the biosphere. Solar energy enters the system, whereas nutrients undergo internal recycling.",
+   "ty": "statements",
+   "tq": "Combine three independent factual statements and identify the inclusive option.",
+   "sec": "Levels of ecological organisation - organism to biosphere  [other exams, GROUP-II]"
+  },
+  {
+   "s": "A biome is best described as which one of the following?",
+   "o": [
+    "A transition zone between two adjacent ecosystems",
+    "An artificial ecosystem maintained only by human beings",
+    "A small community containing only one species",
+    "A large natural community of flora and fauna over a major habitat, shaped mainly by climate"
+   ],
+   "a": 3,
+   "x": "A biome is a large natural community of flora and fauna occupying a major habitat and shaped by climate. It contains many habitats.",
+   "ty": "fact",
+   "tq": "Distinguish the definition of a biome from community, ecosystem and ecotone.",
+   "sec": "Biomes of the world → climate + vegetation, anthropogenic biomes  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Biome)\n(a) Tundra\n(b) Taiga\n(c) Savanna\n(d) Desert\n\nList-II (Characteristic vegetation)\n(i) Xerophytes\n(ii) Evergreen conifers\n(iii) Mosses, lichens and shrubs such as bearberry\n(iv) Grasses with scattered trees\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "Tundra supports mosses, lichens and bearberry; taiga has evergreen conifers; savanna has grasses with scattered trees; deserts support xerophytes.",
+   "ty": "match",
+   "tq": "Start with the sure biome-vegetation pairs and eliminate codes containing reversals.",
+   "sec": "Biomes of the world → climate + vegetation, anthropogenic biomes  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Savanna — Tropical wet-and-dry climate",
+    "Tundra — Very cold climate and permafrost",
+    "Taiga — Long cold winters and distribution only in the Northern Hemisphere",
+    "Tropical rainforest — Very low rainfall and xerophytic vegetation"
+   ],
+   "a": 3,
+   "x": "Tropical rainforests have a hot and wet climate throughout the year and dense, multilayered evergreen vegetation. Very low rainfall and xerophytes characterise deserts.",
+   "ty": "negative",
+   "tq": "Find the one biome-climate pair that belongs to a different biome.",
+   "sec": "Biomes of the world → climate + vegetation, anthropogenic biomes  [other exams, GROUP-II]"
+  },
+  {
+   "s": "The vegetation of a tropical rainforest is generally characterised by which of the following?",
+   "o": [
+    "Sparse grasses and scattered thorn trees",
+    "Dense, multi-layered evergreen vegetation with very high diversity",
+    "Mosses and lichens above the tree line",
+    "Only deciduous trees adapted to prolonged drought"
+   ],
+   "a": 1,
+   "x": "Tropical rainforests are hot and wet throughout the year and possess dense, multi-layered evergreen vegetation with the richest diversity.",
+   "ty": "fact",
+   "tq": "Use the climate-vegetation association to identify the biome.",
+   "sec": "Biomes of the world → climate + vegetation, anthropogenic biomes  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Anthropogenic biomes, also called anthromes, are ecological units shaped by which of the following?",
+   "o": [
+    "Sustained human use such as croplands, villages and cities",
+    "Only natural climatic fluctuations",
+    "Seasonal migration of wild animals",
+    "Long-term volcanic activity alone"
+   ],
+   "a": 0,
+   "x": "Anthropogenic biomes are ecological units shaped by sustained human use and include croplands, villages and cities.",
+   "ty": "application",
+   "tq": "Apply the definition to examples of human-shaped ecological units.",
+   "sec": "Biomes of the world → climate + vegetation, anthropogenic biomes  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Arthur Tansley defined an ecosystem in 1935 as a system resulting from the integration of which of the following?",
+   "o": [
+    "Only the physical and chemical components of an area",
+    "All food chains present in a biome",
+    "Only the living organisms of a habitat",
+    "All living and non-living factors of the environment"
+   ],
+   "a": 3,
+   "x": "In 1935, Arthur Tansley described an ecosystem as a system resulting from the integration of all living and non-living factors of the environment.",
+   "ty": "fact",
+   "tq": "Test the precise wording of a definition along with its associated year and scientist.",
+   "sec": "Ecosystem as functional unit - term, definition, open vs closed, structure vs function  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following is included in the structural aspect of an ecosystem?\n\n1. Biotic community\n2. Abiotic materials\n3. Species composition\n4. Trophic levels\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Ecosystem structure includes the biotic community, abiotic materials, species composition and trophic levels. Energy flow and nutrient cycling are functional aspects.",
+   "ty": "statements",
+   "tq": "Separate structural components from ecosystem processes before choosing the code.",
+   "sec": "Ecosystem as functional unit - term, definition, open vs closed, structure vs function  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following represents a functional process of an ecosystem rather than its structure?",
+   "o": [
+    "Trophic levels",
+    "Nutrient cycling",
+    "Abiotic materials",
+    "Species composition"
+   ],
+   "a": 1,
+   "x": "Nutrient cycling is an ecosystem function. Species composition, trophic levels and abiotic materials are elements of ecosystem structure.",
+   "ty": "confusable",
+   "tq": "Discriminate between the structure and function columns of an ecosystem.",
+   "sec": "Ecosystem as functional unit - term, definition, open vs closed, structure vs function  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Energy flow in an ecosystem is one-way and begins primarily with the Sun.\n2. Nutrient cycling takes place through biogeochemical cycles.\n3. Self-regulation is one of the functions of an ecosystem.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Energy flow, nutrient cycling and self-regulation are all functional characteristics of ecosystems. Energy moves one-way, whereas nutrients are cycled.",
+   "ty": "statements",
+   "tq": "Test several functions together while distinguishing energy flow from nutrient cycling.",
+   "sec": "Ecosystem as functional unit - term, definition, open vs closed, structure vs function  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly describes the exchange characteristics of ecosystems and the Earth?",
+   "o": [
+    "Ecosystems are open for energy and matter, while the Earth is open for energy but nearly closed for matter",
+    "Ecosystems are open only for matter, while the Earth is closed for energy",
+    "Ecosystems are closed for both energy and matter, while the Earth is open for both",
+    "Both ecosystems and the Earth are completely closed systems"
+   ],
+   "a": 0,
+   "x": "Ecosystems exchange both energy and matter with their surroundings. The Earth receives energy from outside but is nearly closed with respect to matter.",
+   "ty": "comparison",
+   "tq": "Compare open and closed characteristics across ecosystems and the Earth.",
+   "sec": "Ecosystem as functional unit - term, definition, open vs closed, structure vs function  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The flow of energy through an ecosystem is governed by which broad principle?",
+   "o": [
+    "The law of independent assortment",
+    "The laws of thermodynamics",
+    "The principle of ecological succession",
+    "The law of tolerance alone"
+   ],
+   "a": 1,
+   "x": "Energy flow in ecosystems obeys the laws of thermodynamics. Energy is transferred between trophic levels with substantial loss as heat.",
+   "ty": "fact",
+   "tq": "Directly identify the governing scientific principle from the process described.",
+   "sec": "Ecosystem as functional unit - term, definition, open vs closed, structure vs function  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "An abiotic factor is best defined as which one of the following?",
+   "o": [
+    "An organism that obtains food from dead organic matter",
+    "Any non-living component that affects organisms or their environment",
+    "A living component occupying the highest trophic level",
+    "A biological interaction between two species"
+   ],
+   "a": 1,
+   "x": "An abiotic factor is any non-living component that affects organisms or their environment, such as light, temperature, water or soil.",
+   "ty": "fact",
+   "tq": "Use the precise definition rather than examples alone.",
+   "sec": "Abiotic factors - climatic, edaphic, topographic; limiting-factor laws  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Type of abiotic factor)\n(a) Climatic\n(b) Edaphic\n(c) Topographic\n\nList-II (Examples)\n(i) Altitude, slope and aspect\n(ii) Light, temperature and rainfall\n(iii) Soil texture, pH and minerals\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iii, c–i",
+    "a–iii, b–i, c–ii",
+    "a–i, b–ii, c–iii",
+    "a–ii, b–i, c–iii"
+   ],
+   "a": 0,
+   "x": "Climatic factors include light, temperature and rainfall; edaphic factors relate to soil; topographic factors include altitude, slope and aspect.",
+   "ty": "match",
+   "tq": "Start from the meaning of edaphic and topographic before matching the remaining pair.",
+   "sec": "Abiotic factors - climatic, edaphic, topographic; limiting-factor laws  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is NOT included in the listed abiotic components of an ecosystem?",
+   "o": [
+    "Topography",
+    "Species composition",
+    "Gravity",
+    "Fire"
+   ],
+   "a": 1,
+   "x": "Species composition is a structural biotic feature of an ecosystem, not an abiotic component. Energy, radiation, temperature, water, gases, wind, fire, gravity, topography, substratum and soil are abiotic components.",
+   "ty": "negative",
+   "tq": "Find the biological term embedded among physical and chemical factors.",
+   "sec": "Abiotic factors - climatic, edaphic, topographic; limiting-factor laws  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Liebig’s Law of the Minimum states that the growth of an organism is limited by which of the following?",
+   "o": [
+    "The factor that changes most rapidly",
+    "The factor present in greatest quantity",
+    "The nutrient in shortest supply",
+    "The average value of all environmental factors"
+   ],
+   "a": 2,
+   "x": "Liebig’s Law of the Minimum states that growth is limited by the nutrient or factor in shortest supply.",
+   "ty": "fact",
+   "tq": "Distinguish the minimum-law principle from the broader law of tolerance.",
+   "sec": "Abiotic factors - climatic, edaphic, topographic; limiting-factor laws  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which statement correctly expresses Shelford’s Law of Tolerance?",
+   "o": [
+    "An organism is unaffected by excessive quantities of environmental factors",
+    "Only deficiency of a factor can limit an organism",
+    "Growth depends exclusively on the nutrient in shortest supply",
+    "Both too little and too much of an environmental factor can limit an organism"
+   ],
+   "a": 3,
+   "x": "Shelford’s Law of Tolerance holds that both insufficient and excessive levels of an environmental factor can limit an organism.",
+   "ty": "confusable",
+   "tq": "Separate the two limiting-factor laws by focusing on deficiency versus both extremes.",
+   "sec": "Abiotic factors - climatic, edaphic, topographic; limiting-factor laws  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Abiotic factors may perform which of the following roles in determining the distribution of organisms?",
+   "o": [
+    "They are always limiting and never enabling",
+    "They affect only the reproductive stage of organisms",
+    "They can be limiting or enabling factors",
+    "They affect only aquatic organisms"
+   ],
+   "a": 2,
+   "x": "Abiotic factors can either enable the distribution of organisms or limit it when conditions fall outside suitable ranges.",
+   "ty": "application",
+   "tq": "Apply the factor-distribution relationship rather than treating all abiotic factors as harmful.",
+   "sec": "Abiotic factors - climatic, edaphic, topographic; limiting-factor laws  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Plants and animals living on land are collectively described as which of the following?",
+   "o": [
+    "Terrestrial habitants",
+    "Edaphic autotrophs",
+    "Aerial decomposers",
+    "Aquatic habitants"
+   ],
+   "a": 0,
+   "x": "Plants and animals living on land are termed terrestrial habitants.",
+   "ty": "fact",
+   "tq": "Direct terminology recall using the habitat-based distinction.",
+   "sec": "Abiotic factors - climatic, edaphic, topographic; limiting-factor laws  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Resistance — Ability to recover after a disturbance",
+    "Resilience — Ability to withstand a disturbance without change",
+    "Homeostasis — Self-regulation through feedback within limits",
+    "Resistance — Permanent elimination of all ecosystem changes"
+   ],
+   "a": 2,
+   "x": "Homeostasis is the self-regulatory capacity by which an ecosystem resists stress through feedback up to a limit. Resistance means withstanding disturbance without change, whereas resilience means recovery after disturbance.",
+   "ty": "match",
+   "tq": "Discriminate the closely related terms resistance, resilience and homeostasis.",
+   "sec": "Ecosystem stability - resistance, resilience, homeostasis  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "An ecosystem that returns to its earlier condition after a forest fire is displaying which property?",
+   "o": [
+    "Fragmentation",
+    "Edaphic tolerance",
+    "Resilience",
+    "Resistance"
+   ],
+   "a": 2,
+   "x": "Resilience is the ability of an ecosystem to recover after a disturbance. Resistance, by contrast, is the ability to withstand disturbance without change.",
+   "ty": "application",
+   "tq": "Use the disturbance scenario to distinguish recovery from resistance.",
+   "sec": "Ecosystem stability - resistance, resilience, homeostasis  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following is the correct sequence of decomposition processes?\n\n1. Fragmentation\n2. Leaching\n3. Catabolism\n4. Humification\n5. Mineralisation",
+   "o": [
+    "1, 2, 3, 4, 5",
+    "2, 1, 3, 5, 4",
+    "1, 3, 2, 4, 5",
+    "3, 2, 1, 4, 5"
+   ],
+   "a": 0,
+   "x": "Decomposition proceeds through fragmentation, leaching, catabolism, humification and mineralisation.",
+   "ty": "chronology",
+   "tq": "Arrange the decomposition stages in their process sequence.",
+   "sec": "Decomposition - steps, organisms, factors  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following organisms is primarily associated with fragmentation during decomposition?",
+   "o": [
+    "Nitrifying bacterium",
+    "Green alga",
+    "Earthworm",
+    "Methanogenic archaeon"
+   ],
+   "a": 2,
+   "x": "Detritivores such as earthworms fragment detritus into smaller particles, facilitating subsequent decomposition processes.",
+   "ty": "fact",
+   "tq": "Match the decomposition stage with its characteristic organism.",
+   "sec": "Decomposition - steps, organisms, factors  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about decomposition:\n1. Bacteria and fungi act as decomposers.\n2. Earthworms, nematodes and arthropods assist in decomposition.\n3. Catabolism involves the action of enzymes produced by bacteria and fungi.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Bacteria and fungi are the principal decomposers, while earthworms, nematodes and arthropods act as helpers. Bacterial and fungal enzymes carry out catabolism.",
+   "ty": "statements",
+   "tq": "Separate principal decomposers from their detritivore and enzyme-assisted roles.",
+   "sec": "Decomposition - steps, organisms, factors  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The rate of decomposition is likely to be fastest under which of the following conditions?",
+   "o": [
+    "Detritus rich in nitrogen and sugars, with a warm and moist climate",
+    "Detritus rich in chitin, with cold and dry conditions",
+    "Detritus rich in lignin, with low temperature and anaerobic conditions",
+    "Detritus poor in nitrogen, with persistent waterlogging"
+   ],
+   "a": 0,
+   "x": "Decomposition is rapid when detritus contains nitrogen and sugars and the climate is warm and moist. Lignin, chitin, low temperature and anaerobic conditions slow it down.",
+   "ty": "application",
+   "tq": "Identify the combination of favourable and unfavourable decomposition conditions.",
+   "sec": "Decomposition - steps, organisms, factors  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is NOT a condition that generally slows decomposition?",
+   "o": [
+    "Presence of chitin",
+    "Low temperature",
+    "Presence of lignin",
+    "Warm and moist climate"
+   ],
+   "a": 3,
+   "x": "A warm and moist climate generally accelerates decomposition. Lignin, chitin, low temperature and anaerobic conditions slow the process.",
+   "ty": "negative",
+   "tq": "Find the favourable condition among the listed decomposition inhibitors.",
+   "sec": "Decomposition - steps, organisms, factors  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Photoautotrophs — Chemical oxidation as the energy source",
+    "Chemoautotrophs — Sunlight as the energy source",
+    "Photoautotrophs — Green plants, algae and cyanobacteria",
+    "Archaea — All members depend on photosynthesis"
+   ],
+   "a": 2,
+   "x": "Photoautotrophs use sunlight and include green plants, algae and cyanobacteria. Chemoautotrophs obtain energy through chemical oxidation, while many archaea are chemoautotrophic.",
+   "ty": "match",
+   "tq": "Use the energy-source distinction to separate photoautotrophs from chemoautotrophs.",
+   "sec": "Autotroph types - photoautotrophs, chemoautotrophs, archaea  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Chemoautotrophic bacteria inhabiting deep ocean trenches may obtain energy by oxidising which substance released from sea-floor cracks?",
+   "o": [
+    "Methane only from plant leaves",
+    "Oxygen",
+    "Atmospheric nitrogen",
+    "Hydrogen sulphide"
+   ],
+   "a": 3,
+   "x": "Chemoautotrophic bacteria in deep ocean trenches can use hydrogen sulphide released from cracks on the sea floor as an energy source.",
+   "ty": "fact",
+   "tq": "Direct recall of the specialised energy source used by deep-sea chemoautotrophs.",
+   "sec": "Autotroph types - photoautotrophs, chemoautotrophs, archaea  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Nitrifying bacteria are examples of chemoautotrophs.\n2. Many chemoautotrophic archaea, including methanogens, live in extreme habitats.\n3. All archaea obtain energy through photosynthesis.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Nitrifying bacteria are chemoautotrophs, and many chemoautotrophic archaea such as methanogens inhabit extreme environments. Statement 3 is false because archaea are not all photosynthetic.",
+   "ty": "statements",
+   "tq": "Use the absolute word 'all' as a warning, then verify the two positive associations.",
+   "sec": "Autotroph types - photoautotrophs, chemoautotrophs, archaea  [APPSC, GROUP-II]"
+  }
+ ]
+}

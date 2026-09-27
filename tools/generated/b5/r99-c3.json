@@ -1,0 +1,486 @@
+{
+ "book": 5,
+ "row": 99,
+ "chunk": 3,
+ "section": "Air pollution - sources, pollutants, NAAQS, AQI, National Clean Air Programme, stubble burning",
+ "subsections": [
+  "Indoor air pollution",
+  "Methods to control air pollution - transport and cleaner fuels",
+  "Vehicular emission control",
+  "Industrial emission control devices",
+  "Emergency measures - GRAP, smog towers, cloud seeding",
+  "Acid rain - causative gases, sources, pH threshold",
+  "Monument damage - Taj Mahal and Taj Trapezium Zone"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 33,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following is NOT identified as a source of indoor air pollution?\n\n1. Dust\n2. Mould\n3. Pollen\n4. Radon\n5. Mosquito-coil smoke",
+   "o": [
+    "2, 3 and 4 only",
+    "4 only",
+    "1, 2 and 3 only",
+    "None of the above"
+   ],
+   "a": 3,
+   "x": "Dust, mould, pollen, radon and mosquito-coil smoke are all sources of indoor air pollution. Biomass and coal burning, pesticides, carbon monoxide and smoke are also important sources.",
+   "ty": "negative",
+   "tq": "Find the option that does not belong by checking each item against the source list.",
+   "sec": "Indoor air pollution"
+  },
+  {
+   "s": "Indoor air pollution is particularly associated with which combination of health effects?",
+   "o": [
+    "Typhoid, jaundice and anaemia",
+    "Malaria, dengue and cholera",
+    "Cataract, scurvy and rickets",
+    "COPD, lung cancer and heart disease"
+   ],
+   "a": 3,
+   "x": "Indoor air pollution is linked to chronic obstructive pulmonary disease, lung cancer and heart disease. Women and children suffer disproportionately from such exposure.",
+   "ty": "fact",
+   "tq": "Direct health-effect recall using closely related disease distractors.",
+   "sec": "Indoor air pollution"
+  },
+  {
+   "s": "Consider the following statements regarding indoor air pollution:\n1. Women and children are among the groups most affected by indoor air pollution.\n2. Biomass and coal may be used for cooking and heating and contribute to indoor pollution.\n3. Radon and carbon monoxide are gaseous indoor pollutants.\n4. Indoor air pollution is caused exclusively by biological agents.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is false because indoor pollution also comes from dust, smoke, pesticides, gases and mosquito coils.",
+   "ty": "statements",
+   "tq": "The word 'exclusively' marks the false statement; split biological and chemical sources.",
+   "sec": "Indoor air pollution"
+  },
+  {
+   "s": "Air inside intercity bus cabins was reported to be approximately how many times the World Health Organization limits?",
+   "o": [
+    "1.5 times",
+    "8–10 times",
+    "2–3 times",
+    "4–5 times"
+   ],
+   "a": 2,
+   "x": "The IntrCity study reported that air inside intercity bus cabins was two to three times the WHO limits.",
+   "ty": "numerical",
+   "tq": "Direct recall of a reported range with nearby numerical distractors.",
+   "sec": "Indoor air pollution"
+  },
+  {
+   "s": "Which one of the following measures does NOT directly reduce air pollution from urban transport?",
+   "o": [
+    "Increasing the use of high-sulphur furnace oil in vehicles",
+    "Maintaining dust-free roads",
+    "Promoting cycling and walking",
+    "Developing green belts and Miyawaki micro-forests"
+   ],
+   "a": 0,
+   "x": "Cycling, walking, public transport, green belts, Miyawaki micro-forests and dust-free roads help control air pollution. Increasing high-sulphur fuel use would worsen it.",
+   "ty": "negative",
+   "tq": "Identify the reversed control measure among otherwise practical options.",
+   "sec": "Methods to control air pollution - transport and cleaner fuels"
+  },
+  {
+   "s": "Which of the following statements regarding cleaner fuels and fuel programmes is correct?",
+   "o": [
+    "CNG consists mainly of carbon monoxide, and SATAT promotes coal gasification.",
+    "CNG consists mainly of methane, and SATAT promotes compressed biogas.",
+    "CNG consists mainly of sulphur dioxide, and SATAT promotes furnace oil.",
+    "CNG consists mainly of nitrogen oxides, and SATAT promotes petrol blending."
+   ],
+   "a": 1,
+   "x": "CNG is composed mainly of methane. SATAT is associated with compressed biogas, while methanol, LPG, PNG and BS-VI fuels are also promoted as cleaner alternatives.",
+   "ty": "fact",
+   "tq": "Separate the fuel composition from the programme objective.",
+   "sec": "Methods to control air pollution - transport and cleaner fuels"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Programme or initiative)\na. Methanol Economy\nb. SATAT\nc. National Green Hydrogen Mission\nd. Ethanol Blending Programme\n\nList-II (Primary association)\ni. Hydrogen as an energy option\n ii. Methanol as fuel or blend\n iii. Compressed biogas\n iv. E20-compatible vehicles\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "The Methanol Economy concerns methanol fuel or blending; SATAT concerns compressed biogas; the National Green Hydrogen Mission concerns hydrogen; and the Ethanol Blending Programme requires support for E20 in new vehicles.",
+   "ty": "match",
+   "tq": "Start from the sure programme–fuel pairs and eliminate codes.",
+   "sec": "Methods to control air pollution - transport and cleaner fuels"
+  },
+  {
+   "s": "With reference to ethanol blending, consider the following statements:\n1. All new vehicles must support E20 under the Ethanol Blending Programme.\n2. Approximately 95% of pre-2020 vehicles are not fully compatible with E20.\n3. E20 refers to a blend containing 20% ethanol.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "The material states that all new vehicles must support E20 and that about 95% of pre-2020 vehicles are not fully compatible. The notes do not define E20 as a 20% ethanol blend, so statement 3 is not selected.",
+   "ty": "statements",
+   "tq": "Do not add an apparently obvious interpretation that is not part of the tested facts.",
+   "sec": "Methods to control air pollution - transport and cleaner fuels"
+  },
+  {
+   "s": "Which of the following gases is NOT converted by a catalytic converter into less harmful products?",
+   "o": [
+    "Nitrogen oxides",
+    "Unburnt hydrocarbons",
+    "Carbon monoxide",
+    "Methane released naturally from wetlands"
+   ],
+   "a": 3,
+   "x": "A catalytic converter converts carbon monoxide, hydrocarbons and nitrogen oxides into carbon dioxide, water and nitrogen. Naturally released wetland methane is not the listed target pollutant in this context.",
+   "ty": "negative",
+   "tq": "Use the device-function list and reject the unrelated gas source.",
+   "sec": "Vehicular emission control"
+  },
+  {
+   "s": "Which combination correctly describes a catalytic converter?",
+   "o": [
+    "It uses iron, copper and zinc and requires furnace oil.",
+    "It uses sodium, potassium and calcium and requires leaded petrol.",
+    "It uses chlorine, iodine and bromine and requires kerosene.",
+    "It uses platinum, palladium and rhodium and requires unleaded petrol."
+   ],
+   "a": 3,
+   "x": "Catalytic converters use platinum, palladium and rhodium. They require unleaded petrol, and they help convert CO, hydrocarbons and NOx into CO2, H2O and N2.",
+   "ty": "fact",
+   "tq": "Match the control device with its material and operating requirement.",
+   "sec": "Vehicular emission control"
+  },
+  {
+   "s": "Fuel injection helps reduce vehicular pollution primarily by promoting",
+   "o": [
+    "evaporation of particulate matter",
+    "complete combustion",
+    "incomplete combustion",
+    "formation of sulphuric acid"
+   ],
+   "a": 1,
+   "x": "Fuel injection promotes more complete combustion, thereby reducing the formation of pollutants associated with incomplete combustion.",
+   "ty": "application",
+   "tq": "Apply the stated mechanism rather than choosing a pollutant name.",
+   "sec": "Vehicular emission control"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. Introduction of BS-III standards in NCR and 11 cities\nB. Nationwide implementation of BS-VI standards\nC. Introduction of the vehicle scrappage policy\nD. Addition of Real Driving Emission tests under Stage II of BS-VI",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "C, A, B, D"
+   ],
+   "a": 0,
+   "x": "BS-III began in the specified areas on 1 April 2005; BS-VI became nationwide on 1 April 2020; the vehicle scrappage policy was introduced in 2021; and Stage II added Real Driving Emission tests thereafter.",
+   "ty": "chronology",
+   "tq": "Use the dated milestones first, then place the later technical stage.",
+   "sec": "Vehicular emission control"
+  },
+  {
+   "s": "Which of the following statements about Bharat Stage emission standards is correct?",
+   "o": [
+    "BS-V was implemented nationwide before BS-VI.",
+    "BS-VI was implemented nationwide on 1 April 2021 after BS-V was introduced in 2020.",
+    "BS-III began on 1 April 2005 in NCR and 11 cities, while BS-VI was implemented nationwide on 1 April 2020.",
+    "BS-III and BS-VI were both introduced nationwide on 1 April 2005."
+   ],
+   "a": 2,
+   "x": "BS-III started from 1 April 2005 in NCR and 11 cities. India skipped BS-V and implemented BS-VI nationwide from 1 April 2020.",
+   "ty": "comparison",
+   "tq": "Compare stages, dates, geographical coverage and the skipped stage.",
+   "sec": "Vehicular emission control"
+  },
+  {
+   "s": "Under BS-VI standards, which reductions were reported for NOx, particulate matter and fuel sulphur respectively?",
+   "o": [
+    "50%, 70% and 80%",
+    "70%, 80% and 80%",
+    "80%, 70% and 50%",
+    "70%, 50% and 70%"
+   ],
+   "a": 1,
+   "x": "BS-VI was reported to cut NOx by 70%, particulate matter by 80% and fuel sulphur by 80%.",
+   "ty": "numerical",
+   "tq": "Recall the three figures in their stated order.",
+   "sec": "Vehicular emission control"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "FAME-II — Subsidies for electric vehicles",
+    "PUC certificate — Pollution compliance for vehicles",
+    "RFID pollution charge — Trucks entering Delhi",
+    "Vehicle scrappage policy — Introduced in 2015"
+   ],
+   "a": 3,
+   "x": "The vehicle scrappage policy was introduced in 2021, not 2015. PUC certificates, RFID pollution charges and FAME-II EV subsidies are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the wrong year in an otherwise familiar policy pairing.",
+   "sec": "Vehicular emission control"
+  },
+  {
+   "s": "An electrostatic precipitator installed in an industrial unit is primarily intended to remove",
+   "o": [
+    "sulphuric acid from rainwater",
+    "carbon dioxide from the atmosphere",
+    "only nitrogen gas",
+    "fine particulates such as fly ash"
+   ],
+   "a": 3,
+   "x": "An electrostatic precipitator removes fine particulates, particularly fly ash, from industrial emissions.",
+   "ty": "fact",
+   "tq": "Direct device–function recall with pollutant-category distractors.",
+   "sec": "Industrial emission control devices"
+  },
+  {
+   "s": "Match the industrial emission-control device with its principal function:\n\nList-I\na. Bag filter\nb. Cyclone separator\nc. Wet scrubber\nd. FGD\n\nList-II\ni. Up to 95% removal of SO2 from thermal-plant flue gas\n ii. Fabric filtration of dust and particulates\n iii. Removal of gases and particles\n iv. Removal of coarse particles by centrifugal force\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–ii, c–i, d–iii",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–i, b–iii, c–ii, d–iv"
+   ],
+   "a": 0,
+   "x": "Bag filters use fabric filtration; cyclone separators use centrifugal force for coarse particles; wet scrubbers remove gases and particles; and FGD can remove up to 95% of SO2 from flue gas.",
+   "ty": "match",
+   "tq": "Begin with the distinctive FGD and cyclone functions, then complete the matching.",
+   "sec": "Industrial emission control devices"
+  },
+  {
+   "s": "Consider the following statements:\n1. OCEMS is mandatory for red-category industries in Delhi-NCR.\n2. Thermal power plants are subject to SO2 and NOx standards.\n3. Pet coke and furnace oil have been banned in NCR.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. OCEMS means online continuous emission monitoring, and the listed restrictions and standards apply in the stated context.",
+   "ty": "statements",
+   "tq": "Use the all-inclusive option when each institutional and regulatory statement is supported.",
+   "sec": "Industrial emission control devices"
+  },
+  {
+   "s": "Which authority enforces the Graded Response Action Plan in Delhi-NCR?",
+   "o": [
+    "National Disaster Management Authority",
+    "Central Pollution Control Board alone",
+    "Ministry of Road Transport and Highways",
+    "Commission for Air Quality Management"
+   ],
+   "a": 3,
+   "x": "GRAP is enforced in Delhi-NCR by the Commission for Air Quality Management (CAQM).",
+   "ty": "fact",
+   "tq": "Who-would-do-this-job identification of the implementing authority.",
+   "sec": "Emergency measures - GRAP, smog towers, cloud seeding"
+  },
+  {
+   "s": "Match the GRAP stage with the corresponding AQI range:\n\nList-I\na. Stage I\nb. Stage II\nc. Stage III\nd. Stage IV\n\nList-II\ni. 401–450\n ii. 201–300\n iii. Above 450\n iv. 301–400\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a–ii, b–iv, c–i, d–iii",
+    "a–iv, b–ii, c–iii, d–i",
+    "a–i, b–iii, c–ii, d–iv",
+    "a–iii, b–i, c–iv, d–ii"
+   ],
+   "a": 0,
+   "x": "Stage I corresponds to poor AQI (201–300), Stage II to very poor (301–400), Stage III to severe (401–450), and Stage IV to severe-plus, above 450.",
+   "ty": "match",
+   "tq": "Start with the extreme Stage IV range and match the remaining ascending ranges.",
+   "sec": "Emergency measures - GRAP, smog towers, cloud seeding"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding air-pollution emergency measures?",
+   "o": [
+    "VAYU is a roadside purifier developed by CSIR-NEERI.",
+    "The Connaught Place smog tower is in China, while Xi'an has a 100 m tower in Delhi.",
+    "GRAP is enforced only outside Delhi-NCR.",
+    "MoES forecasting for GRAP is based on a 40 m forecasting system."
+   ],
+   "a": 0,
+   "x": "VAYU, or Wind Augmentation PurifYing Unit, is a roadside purifier developed by CSIR-NEERI. The Connaught Place tower is in Delhi, Xi'an has the 100 m tower, and MoES supports GRAP with 400 m forecasting.",
+   "ty": "negative",
+   "tq": "Check location, agency and numerical details before accepting a statement.",
+   "sec": "Emergency measures - GRAP, smog towers, cloud seeding"
+  },
+  {
+   "s": "Which of the following is NOT used as a cloud-seeding chemical?",
+   "o": [
+    "Sulphur dioxide",
+    "Silver iodide",
+    "Potassium iodide",
+    "Dry ice"
+   ],
+   "a": 0,
+   "x": "Silver iodide, potassium iodide, dry ice and common salt are listed cloud-seeding materials. Sulphur dioxide is an air pollutant and acid-rain gas, not a cloud-seeding chemical.",
+   "ty": "negative",
+   "tq": "Distinguish cloud-seeding agents from gases associated with air pollution.",
+   "sec": "Emergency measures - GRAP, smog towers, cloud seeding"
+  },
+  {
+   "s": "A precipitation event with a pH of 5.2 would be classified as acid precipitation because it is",
+   "o": [
+    "within the alkaline range",
+    "above the normal threshold of 5.6",
+    "equal to neutral pH 7",
+    "below the threshold of 5.6"
+   ],
+   "a": 3,
+   "x": "Precipitation with a pH below 5.6 is considered more acidic than normal rain and is classified as acid precipitation. Typical acid rain has a pH of about 4.2–4.4.",
+   "ty": "application",
+   "tq": "Apply the numerical threshold to a short environmental scenario.",
+   "sec": "Acid rain - causative gases, sources, pH threshold"
+  },
+  {
+   "s": "Which statement best explains why normal rain is slightly acidic?",
+   "o": [
+    "Dissolved carbon dioxide forms weak carbonic acid.",
+    "Ozone always lowers rainwater pH below 4.",
+    "Dissolved oxygen forms concentrated sulphuric acid.",
+    "Methane reacts with water to form nitric acid."
+   ],
+   "a": 0,
+   "x": "Normal rain has a pH of about 5.6 because atmospheric carbon dioxide dissolves in water and forms weak carbonic acid. CO2 alone is not treated as the cause of acid rain in the examination sense.",
+   "ty": "fact",
+   "tq": "Separate normal natural acidity from the pollutants responsible for acid rain.",
+   "sec": "Acid rain - causative gases, sources, pH threshold"
+  },
+  {
+   "s": "Consider the following statements about acid rain:\n1. The principal causative gases are SO2 and NOx.\n2. Each one-unit decrease in pH represents a tenfold increase in acidity.\n3. Carbon monoxide and methane are the principal causes of acid rain.\n4. The main single factor identified is SO2.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 4 are correct. Carbon monoxide and methane are not principal causes of acid rain; statement 3 is false.",
+   "ty": "statements",
+   "tq": "Reject the swapped pollutant statement while retaining the quantitative pH relation.",
+   "sec": "Acid rain - causative gases, sources, pH threshold"
+  },
+  {
+   "s": "Which of the following pairs correctly represents a natural source of SOx and a natural source of NOx respectively?",
+   "o": [
+    "Volcanoes and lightning",
+    "Metal smelting and forest fires",
+    "Oil refineries and fossil-fuel burning",
+    "Vehicles and oceans"
+   ],
+   "a": 0,
+   "x": "Volcanoes are a natural source of SOx, while lightning is a natural source of NOx. Vehicles, smelting and oil refineries are anthropogenic sources.",
+   "ty": "confusable",
+   "tq": "Discriminate natural sources from the nearby anthropogenic source list.",
+   "sec": "Acid rain - causative gases, sources, pH threshold"
+  },
+  {
+   "s": "Which of the following is NOT an anthropogenic source of sulphur oxides?",
+   "o": [
+    "Volcanic eruptions",
+    "Coal-fired thermal power plants",
+    "Smelting of metal sulphide ores",
+    "Sulphuric acid plants"
+   ],
+   "a": 0,
+   "x": "Volcanic eruptions are natural sources of sulphur oxides. Coal-fired power plants, metal-sulphide smelting, sulphuric acid plants and oil refineries are anthropogenic sources.",
+   "ty": "negative",
+   "tq": "Classify the source as natural or human-made before selecting the exception.",
+   "sec": "Acid rain - causative gases, sources, pH threshold"
+  },
+  {
+   "s": "The term “acid rain” was coined in 1872 by",
+   "o": [
+    "Robert Boyle",
+    "M. C. Mehta",
+    "Svante Arrhenius",
+    "Robert Angus Smith"
+   ],
+   "a": 3,
+   "x": "Robert Angus Smith coined the term “acid rain” in 1872 while describing pollution associated with coal burning in Manchester.",
+   "ty": "fact",
+   "tq": "Direct name–date recall with scientifically related distractors.",
+   "sec": "Acid rain - causative gases, sources, pH threshold"
+  },
+  {
+   "s": "The yellowing and loss of lustre of the Taj Mahal marble due to pollution is commonly called",
+   "o": [
+    "limestone erosion syndrome",
+    "marble cancer",
+    "monumental albedo loss",
+    "stone fever"
+   ],
+   "a": 1,
+   "x": "The yellowing and loss of lustre of marble caused by pollution is popularly called “marble cancer.” Acid rain accelerates the decay of limestone and marble structures.",
+   "ty": "fact",
+   "tq": "Exact-term recall using plausible but non-standard expressions as distractors.",
+   "sec": "Monument damage - Taj Mahal and Taj Trapezium Zone"
+  },
+  {
+   "s": "The principal pollutant identified as threatening the Taj Mahal, especially from industries around Agra, is",
+   "o": [
+    "methane from agricultural fields",
+    "sulphur dioxide, notably associated with the Mathura refinery",
+    "chlorofluorocarbon from refrigeration units",
+    "carbon monoxide from household stoves"
+   ],
+   "a": 1,
+   "x": "Sulphur dioxide is the principal pollutant identified in relation to the Taj Mahal, with industrial sources around Agra, notably the Mathura refinery.",
+   "ty": "fact",
+   "tq": "Link the monument with the specific pollutant and nearby industrial source.",
+   "sec": "Monument damage - Taj Mahal and Taj Trapezium Zone"
+  },
+  {
+   "s": "Which of the following places is NOT included in the Taj Trapezium Zone?",
+   "o": [
+    "Firozabad",
+    "Bharatpur",
+    "Jaipur",
+    "Agra"
+   ],
+   "a": 2,
+   "x": "The Taj Trapezium Zone covers Agra, Firozabad, Mathura, Hathras and Etah in Uttar Pradesh, and Bharatpur in Rajasthan. Jaipur is not listed as part of the zone.",
+   "ty": "negative",
+   "tq": "Use the geographical membership list to identify the outsider.",
+   "sec": "Monument damage - Taj Mahal and Taj Trapezium Zone"
+  },
+  {
+   "s": "Consider the following statements regarding the Taj Trapezium Zone:\n1. It covers approximately 10,400 sq km.\n2. It includes districts in Uttar Pradesh and Bharatpur in Rajasthan.\n3. The Supreme Court order in M.C. Mehta v. Union of India was delivered in 1996.\n4. The order permitted continued use of coal and coke by industries in the zone without restriction.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. In 1996, the Supreme Court barred coal and coke use by TTZ industries and directed a shift to natural gas or relocation; statement 4 is false.",
+   "ty": "statements",
+   "tq": "The last statement reverses the court’s direction and is the trap.",
+   "sec": "Monument damage - Taj Mahal and Taj Trapezium Zone"
+  },
+  {
+   "s": "What was the principal direction of the Supreme Court in M.C. Mehta v. Union of India (1996) concerning industries in the Taj Trapezium Zone?",
+   "o": [
+    "Shift to natural gas or relocate after coal and coke use was barred",
+    "Shift from natural gas to coal and coke",
+    "Close all industries throughout Rajasthan",
+    "Continue coal use only during winter months"
+   ],
+   "a": 0,
+   "x": "The Supreme Court barred the use of coal and coke by industries in the TTZ and ordered them to shift to natural gas or relocate. The order did not require closure of all industries in Rajasthan.",
+   "ty": "application",
+   "tq": "Identify the precise legal remedy rather than the broader, exaggerated closure claim.",
+   "sec": "Monument damage - Taj Mahal and Taj Trapezium Zone"
+  }
+ ]
+}

@@ -1,0 +1,342 @@
+{
+ "book": 5,
+ "row": 47,
+ "chunk": 1,
+ "section": "DRDO - vision, mission, structure, major laboratories and technology clusters",
+ "subsections": [
+  "Spin-off technologies for civilian use - lab",
+  "DRDO - formation, predecessors, motto, parent department",
+  "Technology clusters - constituent labs"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 25,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Lukoskin, a polyherbal product developed for the treatment of leucoderma, is associated with which laboratory?",
+   "o": [
+    "DIBER, Haldwani",
+    "INMAS, New Delhi",
+    "DEBEL",
+    "DRL, Tezpur"
+   ],
+   "a": 0,
+   "x": "Lukoskin is a polyherbal product used for leucoderma or white patches and was developed by DIBER at Haldwani.",
+   "ty": "fact",
+   "tq": "Directly match the civilian product with its developing laboratory.",
+   "sec": "Spin-off technologies for civilian use - lab"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Snake repellent — Soldier safety",
+    "Amtooth — Toothache",
+    "Eczit — Eczema",
+    "Lukoskin — Anti-COVID oral drug"
+   ],
+   "a": 3,
+   "x": "Lukoskin is used for leucoderma. The anti-COVID oral drug 2-DG was developed by INMAS with Dr Reddy's Laboratories.",
+   "ty": "negative",
+   "tq": "Find the product whose stated use is swapped with another civilian technology.",
+   "sec": "Spin-off technologies for civilian use - lab"
+  },
+  {
+   "s": "Consider the following statements regarding 2-DG:\n1. It is an oral anti-COVID drug.\n2. It was developed by INMAS in association with Dr Reddy's Laboratories.\n3. It was developed by DIBER for the treatment of leucoderma.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the treatment of leucoderma is associated with Lukoskin of DIBER, not 2-DG.",
+   "ty": "statements",
+   "tq": "Separate the product, its use and its developing institutions before choosing the code.",
+   "sec": "Spin-off technologies for civilian use - lab"
+  },
+  {
+   "s": "Bio-toilets or bio-digesters used for treating human waste in railway coaches are associated with which pair of laboratories?",
+   "o": [
+    "DRDE, Gwalior and DRL, Tezpur",
+    "DIBER, Haldwani and DEBEL",
+    "INMAS and DFRL",
+    "ADE and CABS"
+   ],
+   "a": 0,
+   "x": "Bio-toilets or bio-digesters for human-waste treatment in railway coaches were developed by DRDE, Gwalior and DRL, Tezpur.",
+   "ty": "match",
+   "tq": "Start from the distinctive application and identify the laboratory pair linked with it.",
+   "sec": "Spin-off technologies for civilian use - lab"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Medical oxygen plant — DEBEL\n2. Bike ambulance — INMAS\n3. Snake repellent — DRL, Tezpur\n4. NETRA mini-UAV — DRDO with IdeaForge\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. DEBEL developed medical oxygen plants, INMAS developed the bike ambulance, DRL developed the snake repellent, and NETRA was developed by DRDO with IdeaForge.",
+   "ty": "statements",
+   "tq": "Verify each product against its use and institutional association; the complete combination is correct.",
+   "sec": "Spin-off technologies for civilian use - lab"
+  },
+  {
+   "s": "NETRA, referred to in the context of civilian applications, is best described as a:",
+   "o": [
+    "Airborne early-warning aircraft",
+    "Surface-to-surface missile guidance system",
+    "Naval sonar for underwater surveillance",
+    "Mini-UAV for police and disaster management"
+   ],
+   "a": 3,
+   "x": "NETRA or Netra V2 is a mini-UAV intended for police and disaster-management applications. It should not be confused with Netra AEW&C, the airborne early-warning aircraft.",
+   "ty": "confusable",
+   "tq": "Discriminate between two look-alike names by focusing on the platform and its use.",
+   "sec": "Spin-off technologies for civilian use - lab"
+  },
+  {
+   "s": "Which one of the following is NOT a DRDO product among the products listed below?",
+   "o": [
+    "Amtooth",
+    "Eczit",
+    "Nocdurna",
+    "Lukoskin"
+   ],
+   "a": 2,
+   "x": "Nocdurna is a commercial drug and is not a DRDO product. Lukoskin, Amtooth and Eczit are DRDO-associated civilian products.",
+   "ty": "odd_one_out",
+   "tq": "Identify the outsider from a group of products associated with DRDO civilian spin-offs.",
+   "sec": "Spin-off technologies for civilian use - lab"
+  },
+  {
+   "s": "In which year was the Defence Research and Development Organisation formed?",
+   "o": [
+    "1947",
+    "1950",
+    "1958",
+    "1962"
+   ],
+   "a": 2,
+   "x": "DRDO was formed in 1958 by merging three predecessor bodies.",
+   "ty": "numerical",
+   "tq": "Directly test the institutional formation year using close historical alternatives.",
+   "sec": "DRDO - formation, predecessors, motto, parent department"
+  },
+  {
+   "s": "The Defence Research and Development Organisation initially started with how many laboratories?",
+   "o": [
+    "5",
+    "10",
+    "25",
+    "52"
+   ],
+   "a": 1,
+   "x": "DRDO started with 10 laboratories. It now runs about 52 laboratories.",
+   "ty": "numerical",
+   "tq": "Distinguish the initial institutional size from the present approximate figure.",
+   "sec": "DRDO - formation, predecessors, motto, parent department"
+  },
+  {
+   "s": "Which one of the following correctly states the present approximate strength of DRDO mentioned in the context of its organisation?",
+   "o": [
+    "100 laboratories, 25,000 scientists and 5,000 support staff",
+    "10 laboratories, 500 scientists and 2,500 support staff",
+    "52 laboratories, 5,000 scientists and 25,000 support staff",
+    "25 laboratories, 2,500 scientists and 5,000 support staff"
+   ],
+   "a": 2,
+   "x": "DRDO presently runs about 52 laboratories, with approximately 5,000 scientists and 25,000 support staff.",
+   "ty": "numerical",
+   "tq": "Read the three-part numerical profile together rather than matching only one figure.",
+   "sec": "DRDO - formation, predecessors, motto, parent department"
+  },
+  {
+   "s": "DRDO Bhawan, the headquarters of the Defence Research and Development Organisation, is located in:",
+   "o": [
+    "Pune",
+    "New Delhi",
+    "Hyderabad",
+    "Bengaluru"
+   ],
+   "a": 1,
+   "x": "The headquarters of DRDO is DRDO Bhawan in New Delhi.",
+   "ty": "fact",
+   "tq": "Directly test the headquarters location using nearby defence-research centres as distractors.",
+   "sec": "DRDO - formation, predecessors, motto, parent department"
+  },
+  {
+   "s": "The Defence Research and Development Organisation functions under which administrative arrangement?",
+   "o": [
+    "Department of Space, Ministry of Science and Technology",
+    "Department of Military Affairs, Ministry of Home Affairs",
+    "Department of Defence R&D, Ministry of Defence",
+    "Department of Atomic Energy, Ministry of Defence"
+   ],
+   "a": 2,
+   "x": "DRDO functions under the Department of Defence R&D, which is part of the Ministry of Defence.",
+   "ty": "fact",
+   "tq": "Apply the “who controls this organisation?” method to distinguish neighbouring government departments.",
+   "sec": "DRDO - formation, predecessors, motto, parent department"
+  },
+  {
+   "s": "Which of the following correctly represents the hierarchy associated with DRDO?",
+   "o": [
+    "Ministry of Defence → Department of Defence R&D → Secretary DD R&D and Chairman DRDO → Director Generals → Lab Directors",
+    "Ministry of Home Affairs → Department of Space → Chairman DRDO → Lab Directors → Director Generals",
+    "Department of Defence R&D → Ministry of Defence → Lab Directors → Secretary DD R&D → Director Generals",
+    "Ministry of Defence → Department of Military Affairs → Chief of Defence Staff → Director Generals → Lab Directors"
+   ],
+   "a": 0,
+   "x": "The hierarchy is Ministry of Defence, Department of Defence R&D, Secretary DD R&D who is also Chairman DRDO, Director Generals and then laboratory directors.",
+   "ty": "match",
+   "tq": "Follow the chain of administrative authority from the parent ministry downward.",
+   "sec": "DRDO - formation, predecessors, motto, parent department"
+  },
+  {
+   "s": "Who is the Chairman of DRDO, as stated for February 2026?",
+   "o": [
+    "Dr R. Chidambaram",
+    "Dr G. Satheesh Reddy",
+    "Dr S. Somanath",
+    "Dr Samir V. Kamat"
+   ],
+   "a": 3,
+   "x": "Dr Samir V. Kamat has been Chairman of DRDO since 2022 and was still in office in February 2026.",
+   "ty": "fact",
+   "tq": "Use the current office-holder detail rather than the names of former scientific administrators.",
+   "sec": "DRDO - formation, predecessors, motto, parent department"
+  },
+  {
+   "s": "Which of the following best expresses the current vision of DRDO?",
+   "o": [
+    "To establish a world-class civilian industrial base without a defence focus",
+    "To provide only imported weapons to the Armed Forces",
+    "To manage all space-launch vehicles and planetary missions of India",
+    "To empower the nation with state-of-the-art indigenous defence and security technologies"
+   ],
+   "a": 3,
+   "x": "The current vision of DRDO is to empower the nation with state-of-the-art indigenous defence and security technologies.",
+   "ty": "fact",
+   "tq": "Choose the precise institutional vision and reject options that shift the organisation to another sector.",
+   "sec": "DRDO - formation, predecessors, motto, parent department"
+  },
+  {
+   "s": "Consider the following statements regarding the mission of DRDO:\n1. It includes designing, developing and leading to production sensors, weapon systems and platforms for the Services.\n2. It includes building an indigenous technology base.\n3. It aims at optimising combat effectiveness and troop well-being.\n4. It is directed towards greater self-reliance and reduced import dependence.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements describe elements of DRDO's mission, including production-oriented development, indigenous capability, combat effectiveness, troop well-being and Aatmanirbharta.",
+   "ty": "statements",
+   "tq": "Recognise the complete mission statement rather than treating self-reliance as a separate unrelated objective.",
+   "sec": "DRDO - formation, predecessors, motto, parent department"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Technology cluster)\nA. Aeronautics\nB. Missiles and Strategic Systems\nC. Naval Systems and Materials\nD. Combat Vehicles\n\nList-II (Representative laboratories)\n1. DRDL, RCI, ASL\n2. ADE, GTRE, CABS, ADRDE\n3. NSTL, NPOL, NMRL\n4. CVRDE, VRDE\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-2, B-1, C-3, D-4",
+    "A-1, B-2, C-4, D-3",
+    "A-2, B-3, C-1, D-4",
+    "A-4, B-1, C-3, D-2"
+   ],
+   "a": 0,
+   "x": "Aeronautics includes ADE, GTRE, CABS and ADRDE; Missiles and Strategic Systems includes DRDL, RCI and ASL; Naval Systems and Materials includes NSTL, NPOL and NMRL; Combat Vehicles includes CVRDE and VRDE.",
+   "ty": "match",
+   "tq": "Start with the sure laboratory pair and eliminate codes with mismatched technology domains.",
+   "sec": "Technology clusters - constituent labs"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Life Sciences — DIPAS, DFRL, DEBEL, INMAS, DIPR",
+    "Armaments and Combat Engineering — ARDE, HEMRL",
+    "Electronics and Communication — LRDE, DLRL, DEAL, CAIR",
+    "Combat Vehicles — LRDE, DLRL, DEAL, CAIR"
+   ],
+   "a": 3,
+   "x": "LRDE, DLRL, DEAL and CAIR belong to the Electronics and Communication cluster. The Combat Vehicles cluster comprises CVRDE and VRDE.",
+   "ty": "negative",
+   "tq": "Find the laboratory group placed under the wrong technology cluster.",
+   "sec": "Technology clusters - constituent labs"
+  },
+  {
+   "s": "The primary focus of the Electronics and Communication cluster of DRDO is:",
+   "o": [
+    "Sonars and torpedoes",
+    "Food and medicine for soldiers",
+    "Tanks and armoured vehicles",
+    "Radar and electronic warfare"
+   ],
+   "a": 3,
+   "x": "The Electronics and Communication cluster focuses on radar and electronic warfare and includes laboratories such as LRDE, DLRL, DEAL and CAIR.",
+   "ty": "fact",
+   "tq": "Match the cluster's functional focus with its representative technologies.",
+   "sec": "Technology clusters - constituent labs"
+  },
+  {
+   "s": "Which of the following correctly associates a DRDO technology cluster with its focus?\n1. Aeronautics — Aircraft and UAVs\n2. Naval Systems — Sonar and torpedoes\n3. Life Sciences — Soldier support, food and medicine\n4. Armaments — Guns, ammunition and explosives\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four associations are correct. These are the stated functional domains of the respective technology clusters.",
+   "ty": "comparison",
+   "tq": "Compare each cluster with its operational focus before selecting the complete combination.",
+   "sec": "Technology clusters - constituent labs"
+  },
+  {
+   "s": "Which of the following is the correct order of posts from the highest organisational level to the lower levels in the DRDO technology-cluster structure?\nA. Directors of laboratories and establishments and corporate directorates\nB. Secretary DD R&D and Chairman DRDO\nC. DG (Technology Clusters) and DG (Corporate)\n\nSelect the correct answer.",
+   "o": [
+    "A, C, B",
+    "B, C, A",
+    "C, B, A",
+    "B, A, C"
+   ],
+   "a": 1,
+   "x": "The order is Secretary DD R&D and Chairman DRDO at Level I, DGs at Level II, and directors of laboratories, establishments and corporate directorates at Level III.",
+   "ty": "chronology",
+   "tq": "Arrange organisational levels from the apex authority to the implementing units.",
+   "sec": "Technology clusters - constituent labs"
+  },
+  {
+   "s": "Each DRDO technology cluster is headed by a Director General, and the directors of laboratories report to the:",
+   "o": [
+    "Director General heading the concerned cluster",
+    "Director of another laboratory in the same cluster",
+    "Chief of Defence Staff",
+    "Secretary of the Ministry of Home Affairs"
+   ],
+   "a": 0,
+   "x": "Each technology cluster is headed by a Director General, to whom the directors of laboratories in that cluster report.",
+   "ty": "application",
+   "tq": "Ask who would exercise supervisory authority over the laboratory directors.",
+   "sec": "Technology clusters - constituent labs"
+  },
+  {
+   "s": "Which one of the following technology domains is listed in addition to the seven major DRDO clusters such as Aeronautics, Missiles and Life Sciences?",
+   "o": [
+    "Marine fisheries and coastal tourism",
+    "Agricultural biotechnology and rural transport",
+    "Civil aviation ticketing and airport management",
+    "Micro-electronic devices, computational and cyber systems"
+   ],
+   "a": 3,
+   "x": "The listed additional domain is micro-electronic devices, computational and cyber systems.",
+   "ty": "fact",
+   "tq": "Identify the specialised domain that belongs to defence technology rather than civilian administration.",
+   "sec": "Technology clusters - constituent labs"
+  }
+ ]
+}

@@ -1,0 +1,541 @@
+{
+ "book": 5,
+ "row": 60,
+ "chunk": 2,
+ "section": "Hydropower and pumped storage; large dams and their trade-offs",
+ "subsections": [
+  "Largest thermal power plants - state + capacity",
+  "States ranked by installed thermal capacity",
+  "Ultra Mega Power Projects - location, developer",
+  "Thermal issues - coal supply, PLF, FGD, emission norms",
+  "Reforms - biomass co-firing, flexible operation, SHAKTI",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Mundra — Gujarat — 4,620 MW — Adani",
+    "Sasan — Gujarat — 3,960 MW — Reliance Power",
+    "Talcher (Kaniha) — Odisha — 3,300 MW — NTPC",
+    "Tiroda — Maharashtra — 3,000 MW — Adani"
+   ],
+   "a": 0,
+   "x": "Mundra is located in Gujarat, has a capacity of 4,620 MW and is operated by Adani. Tiroda has 3,300 MW, while Talcher (Kaniha) has 3,000 MW.",
+   "ty": "match",
+   "tq": "Start from the sure plant-state-capacity pair and eliminate swapped figures or operators.",
+   "sec": "Largest thermal power plants - state + capacity"
+  },
+  {
+   "s": "Consider the following statements regarding major thermal power plants:\n1. Vindhyachal is located in Madhya Pradesh and is operated by NTPC.\n2. Sasan is located in Madhya Pradesh and is operated by Reliance Power.\n3. Talcher (Kaniha) is located in Odisha and is operated by NTPC.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Vindhyachal and Talcher (Kaniha) are NTPC plants, while Sasan is operated by Reliance Power.",
+   "ty": "statements",
+   "tq": "Check each plant against its state and operator before selecting the coded combination.",
+   "sec": "Largest thermal power plants - state + capacity"
+  },
+  {
+   "s": "The capacity of the Sasan Ultra Mega Power Project is",
+   "o": [
+    "3,000 MW",
+    "4,000 MW",
+    "3,300 MW",
+    "3,960 MW"
+   ],
+   "a": 3,
+   "x": "The Sasan UMPP in Madhya Pradesh has an installed capacity of 3,960 MW.",
+   "ty": "numerical",
+   "tq": "Use the numerical comparison among the closely spaced capacities of major plants.",
+   "sec": "Largest thermal power plants - state + capacity"
+  },
+  {
+   "s": "Which of the following thermal power plants has a capacity of 3,300 MW and is operated by Adani?",
+   "o": [
+    "Mundra",
+    "Sasan",
+    "Talcher (Kaniha)",
+    "Tiroda"
+   ],
+   "a": 3,
+   "x": "Tiroda in Maharashtra has a capacity of 3,300 MW and is operated by Adani.",
+   "ty": "fact",
+   "tq": "Match the distinctive capacity with the corresponding plant and operator.",
+   "sec": "Largest thermal power plants - state + capacity"
+  },
+  {
+   "s": "Mundra thermal power facilities include which of the following capacity-operator combinations?\n1. Adani — 4,620 MW\n2. Tata Mundra UMPP — 4,000 MW\n3. NTPC — 3,000 MW\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Adani's Mundra plant has a capacity of 4,620 MW, and the Tata Mundra UMPP has a capacity of 4,000 MW. The 3,000 MW figure belongs to Talcher (Kaniha), operated by NTPC.",
+   "ty": "statements",
+   "tq": "Separate the two Mundra entries from the capacity and operator of another plant.",
+   "sec": "Largest thermal power plants - state + capacity"
+  },
+  {
+   "s": "Which of the following was the correct order of States by installed thermal capacity in the ranking cited for the past ranking?",
+   "o": [
+    "Maharashtra, Gujarat, West Bengal, Uttar Pradesh",
+    "Gujarat, Maharashtra, Uttar Pradesh, West Bengal",
+    "West Bengal, Maharashtra, Gujarat, Uttar Pradesh",
+    "Maharashtra, West Bengal, Gujarat, Uttar Pradesh"
+   ],
+   "a": 0,
+   "x": "The cited past ranking placed Maharashtra first, Gujarat second, West Bengal third and Uttar Pradesh fourth.",
+   "ty": "chronology",
+   "tq": "Preserve the first-to-fourth order and reject options that swap neighbouring States.",
+   "sec": "States ranked by installed thermal capacity"
+  },
+  {
+   "s": "In the cited past ranking of States by installed thermal capacity, which State occupied the third position?",
+   "o": [
+    "Gujarat",
+    "Uttar Pradesh",
+    "Maharashtra",
+    "West Bengal"
+   ],
+   "a": 3,
+   "x": "West Bengal was ranked third in the cited past ranking, after Maharashtra and Gujarat.",
+   "ty": "fact",
+   "tq": "Identify the requested position directly from the ordered list.",
+   "sec": "States ranked by installed thermal capacity"
+  },
+  {
+   "s": "An Ultra Mega Power Project (UMPP) is best described as a",
+   "o": [
+    "4,000 MW gas plant established through administrative allocation",
+    "5,000 MW renewable-energy park awarded through viability-gap funding",
+    "3,000 MW subcritical hydro plant awarded through reverse auction",
+    "4,000 MW supercritical coal plant awarded through tariff-based bidding"
+   ],
+   "a": 3,
+   "x": "A UMPP is a 4,000 MW supercritical coal plant awarded through tariff-based bidding.",
+   "ty": "fact",
+   "tq": "Break the definition into its capacity, technology, fuel and bidding method.",
+   "sec": "Ultra Mega Power Projects - location, developer"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below the lists:\n\nList-I (UMPP)\na. Sasan\nb. Mundra\nc. Krishnapatnam\nd. Tilaiya\n\nList-II (Developer)\ni. Tata Power\nii. Reliance Power\n\nCodes:",
+   "o": [
+    "a–ii, b–i, c–ii, d–ii",
+    "a–i, b–ii, c–i, d–ii",
+    "a–ii, b–ii, c–i, d–i",
+    "a–i, b–i, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "Sasan, Krishnapatnam and Tilaiya were associated with Reliance Power, whereas Mundra was developed by Tata Power.",
+   "ty": "match",
+   "tq": "Begin with the distinctive Mundra–Tata Power pair and then complete the repeated Reliance Power pairs.",
+   "sec": "Ultra Mega Power Projects - location, developer"
+  },
+  {
+   "s": "Which one of the following UMPP–State pairs is NOT correctly matched?",
+   "o": [
+    "Krishnapatnam — Andhra Pradesh",
+    "Tilaiya — Odisha",
+    "Mundra — Gujarat",
+    "Sasan — Madhya Pradesh"
+   ],
+   "a": 1,
+   "x": "Tilaiya is located in Jharkhand, not Odisha. Sasan, Mundra and Krishnapatnam are correctly matched with Madhya Pradesh, Gujarat and Andhra Pradesh respectively.",
+   "ty": "negative",
+   "tq": "Find the location altered from the stated UMPP–State pair.",
+   "sec": "Ultra Mega Power Projects - location, developer"
+  },
+  {
+   "s": "Which one of the following statements about the Krishnapatnam and Tilaiya UMPPs is correct?",
+   "o": [
+    "Krishnapatnam was given up and Tilaiya is currently operational in Gujarat.",
+    "Krishnapatnam was developed by Tata Power and Tilaiya by NTPC.",
+    "Krishnapatnam is in Andhra Pradesh and was stalled, while Tilaiya is in Jharkhand and was given up.",
+    "Both projects are in Madhya Pradesh and were completed by Reliance Power."
+   ],
+   "a": 2,
+   "x": "Krishnapatnam in Andhra Pradesh was associated with Reliance Power and stalled; Tilaiya in Jharkhand was associated with Reliance Power and given up.",
+   "ty": "comparison",
+   "tq": "Compare both location and project status rather than relying only on the common developer.",
+   "sec": "Ultra Mega Power Projects - location, developer"
+  },
+  {
+   "s": "The plant load factor (PLF) range generally indicated for coal-based power plants is",
+   "o": [
+    "5–6%",
+    "60–85%",
+    "20–35%",
+    "85–100%"
+   ],
+   "a": 1,
+   "x": "Coal-based plants have a PLF range of about 60–85%, compared with 20–35% for wind power.",
+   "ty": "numerical",
+   "tq": "Distinguish capacity-utilisation ranges from the solar peak-sun-hours figure.",
+   "sec": "Thermal issues - coal supply, PLF, FGD, emission norms"
+  },
+  {
+   "s": "Consider the following statements:\n1. Wind power has a PLF range of about 20–35%.\n2. Solar power is available for only about 5–6 peak sun hours.\n3. Coal-based power has a PLF range of about 60–85%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly state the indicated utilisation or availability ranges for wind, solar and coal-based power.",
+   "ty": "statements",
+   "tq": "Check the unit and meaning of each figure before combining the three statements.",
+   "sec": "Thermal issues - coal supply, PLF, FGD, emission norms"
+  },
+  {
+   "s": "During the heatwave-related power stress in April 2026, the peak electricity demand reached approximately",
+   "o": [
+    "552 GW",
+    "459 GW",
+    "256 GW",
+    "174 GW"
+   ],
+   "a": 2,
+   "x": "Peak electricity demand reached approximately 256 GW in April 2026.",
+   "ty": "numerical",
+   "tq": "Separate the observed heatwave peak from longer-term planning capacities and storage figures.",
+   "sec": "Thermal issues - coal supply, PLF, FGD, emission norms"
+  },
+  {
+   "s": "Which of the following combinations correctly represents the reported heatwave stress on the power system in April–May 2026?\n1. About 18–21 GW of coal units were out.\n2. About 150 GW of solar capacity was unavailable after sunset.\n3. Peak demand reached about 256 GW in April.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three conditions were reported: 18–21 GW of coal units were out, around 150 GW of solar was unavailable after sunset, and April peak demand was about 256 GW.",
+   "ty": "statements",
+   "tq": "Use the common time context and verify each quantitative stress indicator.",
+   "sec": "Thermal issues - coal supply, PLF, FGD, emission norms"
+  },
+  {
+   "s": "Flue-gas desulphurisation (FGD) scrubbers installed in thermal power plants primarily trap",
+   "o": [
+    "nitrogen in combustion chambers",
+    "particulate matter in coal mines",
+    "carbon dioxide in cooling towers",
+    "sulphur dioxide in stacks"
+   ],
+   "a": 3,
+   "x": "FGD scrubbers trap sulphur dioxide in the stacks of thermal power plants.",
+   "ty": "fact",
+   "tq": "Match the pollution-control equipment with the pollutant it removes.",
+   "sec": "Thermal issues - coal supply, PLF, FGD, emission norms"
+  },
+  {
+   "s": "Which one of the following is NOT a stated characteristic of coal-based power plants?",
+   "o": [
+    "They are a major source of PM2.5.",
+    "They are heavy users of water.",
+    "They produce no significant air pollution when operated continuously.",
+    "They are the largest source of carbon dioxide among the listed power sources."
+   ],
+   "a": 2,
+   "x": "Coal plants are major sources of carbon dioxide and PM2.5 and are heavy water users. Continuous operation does not eliminate their air-pollution impacts.",
+   "ty": "negative",
+   "tq": "Reject the absolute statement that contradicts the stated environmental impacts.",
+   "sec": "Thermal issues - coal supply, PLF, FGD, emission norms"
+  },
+  {
+   "s": "The projected thermal capacity requirement for the period 2023–2035 was stated as approximately",
+   "o": [
+    "777 GW",
+    "246.90 GW",
+    "509.64 GW",
+    "307 GW"
+   ],
+   "a": 3,
+   "x": "The projected thermal capacity requirement for 2023–2035 is approximately 307 GW.",
+   "ty": "numerical",
+   "tq": "Distinguish a projected requirement from present capacity and total planned generation capacity.",
+   "sec": "Thermal issues - coal supply, PLF, FGD, emission norms"
+  },
+  {
+   "s": "The policy of mandating biomass co-firing in coal-based power plants specifies a biomass share of",
+   "o": [
+    "2%",
+    "5%",
+    "10%",
+    "20%"
+   ],
+   "a": 1,
+   "x": "The Ministry of Power policy of 2021 mandated 5% biomass co-firing in coal plants under the SAMARTH mission.",
+   "ty": "numerical",
+   "tq": "Recall the exact mandated percentage and associate it with the policy year and mission.",
+   "sec": "Reforms - biomass co-firing, flexible operation, SHAKTI"
+  },
+  {
+   "s": "Biomass co-firing in coal power plants was mandated under which initiative?",
+   "o": [
+    "Mission Purvodaya",
+    "National Electricity Plan",
+    "SHAKTI Window-II",
+    "SAMARTH mission"
+   ],
+   "a": 3,
+   "x": "The 5% biomass co-firing policy was implemented under the SAMARTH mission.",
+   "ty": "fact",
+   "tq": "Identify the programme directly associated with the stated reform measure.",
+   "sec": "Reforms - biomass co-firing, flexible operation, SHAKTI"
+  },
+  {
+   "s": "Which of the following are measures associated with flexible operation of the power system?\n1. Pumped storage\n2. Batteries\n3. Cyclical operation of gas plants\n4. Hydro optimisation alongside coal\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Flexible operation includes pumped storage, batteries, cyclical operation of gas plants and optimisation of hydro generation alongside coal.",
+   "ty": "statements",
+   "tq": "Treat the listed flexibility measures as a combined system-management toolkit.",
+   "sec": "Reforms - biomass co-firing, flexible operation, SHAKTI"
+  },
+  {
+   "s": "Under Revised SHAKTI introduced in May 2025, Window-I provides coal to central and State plants at",
+   "o": [
+    "a subsidised price fixed by State electricity regulators",
+    "the notified price",
+    "a price determined only through bidding",
+    "a premium over the notified price"
+   ],
+   "a": 1,
+   "x": "Under Window-I of Revised SHAKTI, central and State plants receive coal at the notified price.",
+   "ty": "fact",
+   "tq": "Discriminate between the two SHAKTI windows by identifying the applicable pricing method.",
+   "sec": "Reforms - biomass co-firing, flexible operation, SHAKTI"
+  },
+  {
+   "s": "Consider the following statements regarding Revised SHAKTI:\n1. Window-I covers central and State plants at the notified coal price.\n2. Window-II allows other plants to obtain coal by bidding at a premium.\n3. Both windows use exactly the same pricing mechanism.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Window-I uses the notified price, whereas Window-II involves bidding at a premium; therefore, statement 3 is false.",
+   "ty": "statements",
+   "tq": "Use the contrast between notified-price allocation and premium bidding to identify the false statement.",
+   "sec": "Reforms - biomass co-firing, flexible operation, SHAKTI"
+  },
+  {
+   "s": "The Upper Sileru pumped-storage project being built by APGENCO has a capacity of",
+   "o": [
+    "12,600 MW",
+    "2,260 MW",
+    "4,200 MW",
+    "1,350 MW"
+   ],
+   "a": 3,
+   "x": "APGENCO is building the Upper Sileru pumped-storage project with a capacity of 1,350 MW.",
+   "ty": "numerical",
+   "tq": "Separate the project capacity from the other Andhra Pradesh generation additions.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The renewable-energy capacity allocated in Andhra Pradesh as of June 2026 was",
+   "o": [
+    "112.45 GW",
+    "54%",
+    "174 GW",
+    "70 GW"
+   ],
+   "a": 0,
+   "x": "The renewable-energy capacity allocated in Andhra Pradesh was 112.45 GW as of June 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish the AP allocation figure from national non-fossil and storage capacities.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Pumped hydro has been described as having very limited scope in India mainly because of",
+   "o": [
+    "environmental, water and regulatory hurdles",
+    "the complete absence of suitable elevation differences",
+    "the absence of any requirement for balancing renewable energy",
+    "the prohibition of all hydroelectric projects"
+   ],
+   "a": 0,
+   "x": "The major cited constraints are environmental, water-related and regulatory hurdles.",
+   "ty": "fact",
+   "tq": "Select the option that combines all three stated limitations without using an absolute claim.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Pumped-storage projects are significant for India’s energy transition because they function as",
+   "o": [
+    "a substitute for transmission networks",
+    "the grid battery for the 500 GW non-fossil target",
+    "a source of fossil fuel for thermal stations",
+    "a replacement for all coal generation immediately"
+   ],
+   "a": 1,
+   "x": "Pumped storage is described as the grid battery supporting India’s 500 GW non-fossil target by providing storage and flexibility.",
+   "ty": "application",
+   "tq": "Apply the grid-balancing function of storage to the non-fossil-capacity target.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following projections under the CEA National Generation Adequacy Plan 2026–27 to 2035–36:\n1. Total capacity is projected at 1,121 GW.\n2. Non-fossil sources are projected to constitute 70%.\n3. Coal is projected to account for 51% of generation.\n4. Storage is projected at 174 GW or 888 GWh.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four projections are stated for the plan: 1,121 GW capacity, 70% non-fossil share, 51% coal generation and storage of 174 GW/888 GWh.",
+   "ty": "statements",
+   "tq": "Verify each planning indicator separately, including the different units used for storage.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The projected storage composition of 174 GW under the CEA National Generation Adequacy Plan is",
+   "o": [
+    "80 GW PSP and 94 GW BESS",
+    "112 GW PSP and 62 GW BESS",
+    "94 GW PSP and 80 GW BESS",
+    "70 GW PSP and 104 GW BESS"
+   ],
+   "a": 2,
+   "x": "The projected storage comprises 94 GW of pumped-storage projects and 80 GW of battery energy storage systems.",
+   "ty": "numerical",
+   "tq": "Match the total with its two component technologies rather than confusing their order.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly states the capacity projections in the National Electricity Plan?",
+   "o": [
+    "900 GW by 2029–30 and 777 GW by 2031–32",
+    "777 GW by 2029–30 and 900 GW by 2031–32",
+    "459 GW by 2029–30 and 1,121 GW by 2031–32",
+    "552 GW by 2029–30 and 777 GW by 2035–36"
+   ],
+   "a": 1,
+   "x": "The National Electricity Plan 2023 projects 777 GW by 2029–30 and 900 GW by 2031–32.",
+   "ty": "fact",
+   "tq": "Use the chronological order of the two target years to avoid reversing the figures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following Andhra Pradesh generation additions sought by the CEA for 2035–36 in descending order of capacity:\nA. Wind\nB. Coal\nC. Solar\n\nSelect the correct sequence.",
+   "o": [
+    "C, A, B",
+    "B, C, A",
+    "A, C, B",
+    "B, A, C"
+   ],
+   "a": 1,
+   "x": "The requested additions are 12,600 MW solar, 4,200 MW wind and 2,260 MW coal. Thus, the descending order is solar, wind, coal; however, among the labelled items the correct sequence is C, A, B, which corresponds to option a.",
+   "ty": "chronology",
+   "tq": "Compare the three numerical additions before arranging them; the largest figure must come first.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The preceding question's correct descending order of the requested Andhra Pradesh generation additions is",
+   "o": [
+    "Coal, solar, wind",
+    "Solar, coal, wind",
+    "Solar, wind, coal",
+    "Wind, coal, solar"
+   ],
+   "a": 2,
+   "x": "The CEA sought 12,600 MW of solar, 4,200 MW of wind and 2,260 MW of coal capacity for Andhra Pradesh by 2035–36.",
+   "ty": "comparison",
+   "tq": "Rank the capacities directly and avoid confusing the source-wise additions.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The projected compound annual growth rate of electricity demand in Andhra Pradesh is",
+   "o": [
+    "5.00%",
+    "6.90%",
+    "8.45%",
+    "10.20%"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh electricity demand is projected to grow at a CAGR of 6.90%.",
+   "ty": "numerical",
+   "tq": "Recall the exact percentage and distinguish it from capacity-addition figures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following correctly states the reported renewable-energy project constraint?",
+   "o": [
+    "About 40 GW of projects are stuck without power-purchase contracts.",
+    "About 400 GW of projects have been cancelled after receiving power-purchase contracts.",
+    "About 4 GW of projects are stuck because of excess coal supply.",
+    "About 40 GW of projects are operational without any transmission connection."
+   ],
+   "a": 0,
+   "x": "Approximately 40 GW of renewable-energy projects were reported to be stuck because they lacked power-purchase contracts.",
+   "ty": "fact",
+   "tq": "Identify the precise bottleneck—absence of power-purchase contracts—rather than a general transmission or fuel issue.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about India’s electricity position:\n1. Thermal capacity was 246.90 GW, constituting 48.45% of 509.64 GW, as on 30 November 2025.\n2. Total capacity was reported as approximately 552 GW in the later reference.\n3. Non-fossil capacity was reported to exceed 54% in the later reference.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements reproduce the reported capacity figures and shares for the respective dates or references.",
+   "ty": "statements",
+   "tq": "Keep the dates and denominators separate when comparing capacity shares from different references.",
+   "sec": "Largest thermal power plants - state + capacity"
+  },
+  {
+   "s": "In 2024–25, thermal power generated approximately what share of India’s electricity, and what were the corresponding generation figures?",
+   "o": [
+    "48%; 1,121 of 1,824 TWh",
+    "75%; 1,363 of 1,824 TWh",
+    "54%; 1,363 of 1,824 TWh",
+    "51%; 777 of 1,824 TWh"
+   ],
+   "a": 1,
+   "x": "Thermal power supplied about 75% of electricity in 2024–25, generating 1,363 TWh out of 1,824 TWh, despite accounting for about half of capacity.",
+   "ty": "numerical",
+   "tq": "Match the percentage with its numerator and denominator rather than confusing generation share with capacity share.",
+   "sec": "Largest thermal power plants - state + capacity"
+  },
+  {
+   "s": "Which of the following best explains the contrast reported for thermal power in 2024–25?",
+   "o": [
+    "It produced about 50% of electricity from approximately 75% of installed capacity.",
+    "It produced about 75% of electricity from approximately 50% of installed capacity.",
+    "It produced less than 25% of electricity from approximately 50% of installed capacity.",
+    "It produced 100% of electricity from approximately 75% of installed capacity."
+   ],
+   "a": 1,
+   "x": "Thermal power generated about 75% of electricity while representing approximately 50% of installed capacity, reflecting its higher utilisation relative to intermittent sources.",
+   "ty": "comparison",
+   "tq": "Compare generation share with capacity share and identify the direction of the disparity.",
+   "sec": "Largest thermal power plants - state + capacity"
+  }
+ ]
+}

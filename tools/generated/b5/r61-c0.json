@@ -1,0 +1,426 @@
+{
+ "book": 5,
+ "row": 61,
+ "chunk": 0,
+ "section": "Nuclear energy - three-stage programme, types of reactors, PHWR/FBR/AHWR, thorium strategy",
+ "subsections": [
+  "Nuclear fuels - fissile vs fertile, enrichment, non-fuels",
+  "Fission vs fusion - process, where it occurs, chain reaction, critical mass",
+  "Fusion research - ITER, SST-1, ignition"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following isotopes is fissile and constitutes approximately 0.72% of natural uranium?",
+   "o": [
+    "U-234",
+    "U-238",
+    "U-235",
+    "Th-232"
+   ],
+   "a": 2,
+   "x": "U-235 is fissile and forms approximately 0.72% of natural uranium.",
+   "ty": "fact",
+   "tq": "Use the percentage as the clue to distinguish the closely related uranium isotopes.",
+   "sec": "Nuclear fuels - fissile vs fertile, enrichment, non-fuels  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding nuclear fuel isotopes:\n1. U-238 is fertile and can be converted into Pu-239 in a reactor.\n2. Pu-239 occurs naturally in significant quantities and is directly mined as a nuclear fuel.\n3. Th-232 can be converted into U-233 in breeder-reactor blankets.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Statements 1 and 3 are correct. Pu-239 is not natural in significant quantities; it is produced from U-238 by neutron absorption and requires reprocessing.",
+   "ty": "statements",
+   "tq": "Find the wrong statement by checking whether the isotope is naturally available or bred in a reactor.",
+   "sec": "Nuclear fuels - fissile vs fertile, enrichment, non-fuels  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Isotope)\na. U-235\nb. U-238\nc. Pu-239\nd. U-233\n\nList-II (Characteristic)\ni. Fertile isotope converted into Pu-239\nii. Fissile fuel of Stage III and KAMINI\niii. Fissile isotope present in natural uranium\niv. Fissile isotope produced from U-238 by neutron absorption\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a–iii, b–i, c–iv, d–ii",
+    "a–i, b–iii, c–ii, d–iv",
+    "a–iv, b–i, c–iii, d–ii",
+    "a–iii, b–iv, c–i, d–ii"
+   ],
+   "a": 0,
+   "x": "U-235 is the naturally occurring fissile isotope, U-238 is fertile, Pu-239 is bred from U-238, and U-233 is used as the Stage III and KAMINI fuel.",
+   "ty": "match",
+   "tq": "Start with the sure pair U-235–fissile isotope and eliminate codes containing conflicting matches.",
+   "sec": "Nuclear fuels - fissile vs fertile, enrichment, non-fuels  [APPSC]"
+  },
+  {
+   "s": "Enrichment of uranium refers to:",
+   "o": [
+    "Removing all radioactive isotopes from natural uranium",
+    "Converting U-235 into Th-232",
+    "Increasing the proportion of U-238 through chemical separation",
+    "Increasing the proportion of U-235 through isotope separation"
+   ],
+   "a": 3,
+   "x": "Enrichment raises the share of U-235, the fissile isotope, by isotope separation; it does not increase U-238.",
+   "ty": "confusable",
+   "tq": "Discriminate between the fissile isotope U-235 and the fertile isotope U-238.",
+   "sec": "Nuclear fuels - fissile vs fertile, enrichment, non-fuels  [APPSC]"
+  },
+  {
+   "s": "Low-enriched uranium used in light-water reactors generally contains approximately:",
+   "o": [
+    "About 90% U-235",
+    "0.72% U-235",
+    "3–5% U-235",
+    "25–30% U-235"
+   ],
+   "a": 2,
+   "x": "Light-water reactor fuel is generally enriched to about 3–5% U-235. About 90% U-235 is associated with weapons-grade enrichment.",
+   "ty": "numerical",
+   "tq": "Separate the reactor-fuel range from natural uranium and weapons-grade enrichment values.",
+   "sec": "Nuclear fuels - fissile vs fertile, enrichment, non-fuels  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a nuclear fuel but may serve as a moderator, coolant or absorber in a reactor?",
+   "o": [
+    "Pu-239",
+    "U-235",
+    "Graphite",
+    "U-233"
+   ],
+   "a": 2,
+   "x": "Graphite is a reactor moderator, not a nuclear fuel. U-235, Pu-239 and U-233 are fissile fuels.",
+   "ty": "negative",
+   "tq": "Find the non-fuel by separating reactor-support materials from fissile isotopes.",
+   "sec": "Nuclear fuels - fissile vs fertile, enrichment, non-fuels  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Deuterium contains one proton and one neutron.\n2. Tritium contains one proton and two neutrons.\n3. Tritium is a stable isotope of hydrogen with an unlimited half-life.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Tritium is radioactive, has a half-life of about 12.3 years, and is a beta emitter.",
+   "ty": "statements",
+   "tq": "Use the proton-neutron composition to distinguish deuterium from tritium, then check the stability claim.",
+   "sec": "Nuclear fuels - fissile vs fertile, enrichment, non-fuels  [APPSC]"
+  },
+  {
+   "s": "Tritium used as a fusion fuel can be produced by bombarding which of the following with neutrons?",
+   "o": [
+    "Boron",
+    "Zirconium",
+    "Lithium",
+    "Cadmium"
+   ],
+   "a": 2,
+   "x": "Tritium is produced by bombarding lithium with neutrons. Tritium is radioactive and has a half-life of approximately 12.3 years.",
+   "ty": "fact",
+   "tq": "Link the production material directly with the stated fusion isotope.",
+   "sec": "Nuclear fuels - fissile vs fertile, enrichment, non-fuels  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the approximate isotopic composition of natural uranium?",
+   "o": [
+    "U-234: 99.28%, U-235: 0.72%, U-238: 0.0057%",
+    "U-235: 99.28%, U-238: 0.72%, U-234: 0.0057%",
+    "U-238: 99.28%, U-235: 0.72%, U-234: 0.0057%",
+    "U-238: 90%, U-235: 9.99%, U-234: 0.01%"
+   ],
+   "a": 2,
+   "x": "Natural uranium contains approximately 99.28% U-238, 0.72% U-235 and 0.0057% U-234.",
+   "ty": "numerical",
+   "tq": "Match each isotope with its characteristic abundance before comparing the complete options.",
+   "sec": "Nuclear fuels - fissile vs fertile, enrichment, non-fuels  [APPSC]"
+  },
+  {
+   "s": "India possesses approximately the world's:",
+   "o": [
+    "Third-largest thorium reserves",
+    "Second-largest thorium reserves",
+    "Fifth-largest thorium reserves",
+    "Largest thorium reserves"
+   ],
+   "a": 0,
+   "x": "India has the world's third-largest thorium reserves.",
+   "ty": "fact",
+   "tq": "Use the ranking as a direct numerical-recall question.",
+   "sec": "Nuclear fuels - fissile vs fertile, enrichment, non-fuels  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes nuclear fission from nuclear fusion?",
+   "o": [
+    "Fission joins light nuclei, whereas fusion splits heavy nuclei.",
+    "Fission splits a heavy nucleus, whereas fusion joins two light nuclei.",
+    "Both fission and fusion involve only chemical changes.",
+    "Both processes require the same temperature and pressure conditions."
+   ],
+   "a": 1,
+   "x": "Fission is the splitting of a heavy nucleus, while fusion is the joining of two light nuclei.",
+   "ty": "comparison",
+   "tq": "Use the reversed-process trap to distinguish splitting from joining.",
+   "sec": "Fission vs fusion - process, where it occurs, chain reaction, critical mass  [APPSC]"
+  },
+  {
+   "s": "In the fission of U-235, the principal products and released particles represented in the simplified reaction are:",
+   "o": [
+    "Thorium, radium and alpha particles only",
+    "Barium, krypton and 2–3 neutrons",
+    "Hydrogen, helium and positrons",
+    "Lithium, boron and electrons only"
+   ],
+   "a": 1,
+   "x": "The simplified U-235 fission reaction produces barium, krypton and approximately 2–3 neutrons, along with energy.",
+   "ty": "fact",
+   "tq": "Identify the option containing the characteristic fission fragments and neutrons.",
+   "sec": "Fission vs fusion - process, where it occurs, chain reaction, critical mass  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Nuclear fission occurs in present-day nuclear power reactors.\n2. Fusion occurs naturally in the Sun and stars.\n3. Fusion-based electricity generation is already the source of all present nuclear electricity.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "2 and 3 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Statements 1 and 2 are correct. All present-day nuclear electricity is generated through fission; fusion power remains at the research-and-development stage.",
+   "ty": "statements",
+   "tq": "Check the present status of technology before accepting the broad claim about fusion electricity.",
+   "sec": "Fission vs fusion - process, where it occurs, chain reaction, critical mass  [APPSC]"
+  },
+  {
+   "s": "A self-sustained fission chain reaction is maintained when the neutrons released by one fission cause further fissions in other fissile nuclei. This process primarily releases:",
+   "o": [
+    "Chemical energy without radiation",
+    "Only visible light",
+    "Only gravitational energy",
+    "Heat and radiation"
+   ],
+   "a": 3,
+   "x": "In a fission chain reaction, released neutrons produce further fissions, releasing substantial heat and radiation.",
+   "ty": "application",
+   "tq": "Trace the cause-and-effect chain from released neutrons to the resulting energy forms.",
+   "sec": "Fission vs fusion - process, where it occurs, chain reaction, critical mass  [APPSC]"
+  },
+  {
+   "s": "The minimum mass of fissile material required to sustain a nuclear chain reaction is known as:",
+   "o": [
+    "Critical mass",
+    "Critical pressure",
+    "Critical enrichment",
+    "Critical temperature"
+   ],
+   "a": 0,
+   "x": "Critical mass is the minimum quantity of fissile material needed to sustain a chain reaction.",
+   "ty": "fact",
+   "tq": "Match the quantity-related definition with the exact technical term.",
+   "sec": "Fission vs fusion - process, where it occurs, chain reaction, critical mass  [APPSC]"
+  },
+  {
+   "s": "Which one of the following conditions is primarily associated with nuclear fusion rather than nuclear fission?",
+   "o": [
+    "The attainment of critical mass",
+    "The splitting of U-235 into smaller nuclei",
+    "Extremely high temperature and pressure",
+    "A neutron striking a heavy nucleus"
+   ],
+   "a": 2,
+   "x": "Fusion requires extremely high temperature and pressure so that light nuclei can overcome their mutual repulsion and combine.",
+   "ty": "confusable",
+   "tq": "Separate the operating conditions of fusion from the neutron-triggered process of fission.",
+   "sec": "Fission vs fusion - process, where it occurs, chain reaction, critical mass  [APPSC]"
+  },
+  {
+   "s": "Which statement regarding the relative energy yield of fission and fusion is correct?",
+   "o": [
+    "The energy yield of both processes is necessarily identical.",
+    "Fusion releases more energy per unit mass than fission.",
+    "Fission always releases more energy per unit mass than fusion.",
+    "Neither process releases appreciable energy."
+   ],
+   "a": 1,
+   "x": "Fusion has a larger energy release per unit mass than fission, although controlled fusion power is still under development.",
+   "ty": "comparison",
+   "tq": "Compare the specific energy yield rather than merely identifying the process.",
+   "sec": "Fission vs fusion - process, where it occurs, chain reaction, critical mass  [APPSC]"
+  },
+  {
+   "s": "The International Thermonuclear Experimental Reactor (ITER) is being constructed at:",
+   "o": [
+    "Lawrence Livermore in the United Kingdom",
+    "Kalpakkam in India",
+    "Gandhinagar in India",
+    "Cadarache in southern France"
+   ],
+   "a": 3,
+   "x": "ITER is located at Cadarache in southern France. Gandhinagar is associated with India's Institute for Plasma Research.",
+   "ty": "fact",
+   "tq": "Use the location trap by distinguishing ITER's site from Indian fusion facilities.",
+   "sec": "Fusion research - ITER, SST-1, ignition  [APPSC]"
+  },
+  {
+   "s": "ITER is best described as a:",
+   "o": [
+    "Fission reactor using only natural uranium",
+    "Laser used exclusively for uranium enrichment",
+    "Tokamak device for controlled nuclear fusion",
+    "Radioisotope thermoelectric generator"
+   ],
+   "a": 2,
+   "x": "ITER is a tokamak designed for controlled thermonuclear fusion; it is not a fission reactor.",
+   "ty": "confusable",
+   "tq": "Discriminate between the similar-sounding but fundamentally different fission and fusion technologies.",
+   "sec": "Fusion research - ITER, SST-1, ignition  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is the principal objective of ITER?",
+   "o": [
+    "To produce weapons-grade plutonium",
+    "To replace all existing fission reactors immediately",
+    "To demonstrate fusion as a large-scale, carbon-free source of power",
+    "To enrich uranium for commercial reactors"
+   ],
+   "a": 2,
+   "x": "ITER aims to demonstrate the feasibility of fusion as a large-scale, carbon-free power source.",
+   "ty": "fact",
+   "tq": "Identify the stated objective while rejecting options that assign a fission-related purpose to ITER.",
+   "sec": "Fusion research - ITER, SST-1, ignition  [APPSC]"
+  },
+  {
+   "s": "ITER is designed to demonstrate approximately how much fusion power output from 50 MW of input power?",
+   "o": [
+    "500 MW",
+    "50 MW",
+    "100 MW",
+    "250 MW"
+   ],
+   "a": 0,
+   "x": "ITER is designed for approximately 500 MW of fusion output from 50 MW of input, corresponding to roughly ten times the input power.",
+   "ty": "numerical",
+   "tq": "Use the input-output relationship to identify the tenfold design target.",
+   "sec": "Fusion research - ITER, SST-1, ignition  [APPSC]"
+  },
+  {
+   "s": "Which of the following countries or regional organisations is NOT a member of the ITER project?",
+   "o": [
+    "India",
+    "Japan",
+    "Russia",
+    "Brazil"
+   ],
+   "a": 3,
+   "x": "The ITER members are the European Union, India, China, Japan, South Korea, Russia and the United States. Brazil is not listed as a member.",
+   "ty": "negative",
+   "tq": "Find the outsider by recalling the complete seven-member ITER grouping.",
+   "sec": "Fusion research - ITER, SST-1, ignition  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about India's participation in ITER:\n1. India joined ITER in 2005.\n2. India supplies the cryostat for the project.\n3. India's contribution is approximately 9% in kind.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: India joined ITER in 2005, supplies the cryostat, and contributes approximately 9% in kind.",
+   "ty": "statements",
+   "tq": "Verify each participation detail separately before selecting the complete combination.",
+   "sec": "Fusion research - ITER, SST-1, ignition  [APPSC]"
+  },
+  {
+   "s": "SST-1, developed at the Institute for Plasma Research, Gandhinagar, stands for:",
+   "o": [
+    "Supercritical Subatomic Thermonuclear-1",
+    "Solar Steady-state Thermal Reactor",
+    "Steady State Superconducting Tokamak",
+    "Standard State Synchrotron Technology"
+   ],
+   "a": 2,
+   "x": "SST-1 means Steady State Superconducting Tokamak and is associated with the Institute for Plasma Research at Gandhinagar.",
+   "ty": "fact",
+   "tq": "Expand the acronym using the exact technical words rather than a look-alike expansion.",
+   "sec": "Fusion research - ITER, SST-1, ignition  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly matches an Indian fusion facility with its description?",
+   "o": [
+    "Aditya — India's first tokamak",
+    "SST-1 — uranium enrichment plant",
+    "ITER — first Indian tokamak at Gandhinagar",
+    "KAMINI — laser ignition facility in the United States"
+   ],
+   "a": 0,
+   "x": "Aditya is India's first tokamak. SST-1 is a superconducting tokamak, ITER is in France, and KAMINI is associated with U-233 fuel.",
+   "ty": "match",
+   "tq": "Match the facility with its country and function, rejecting swapped institutional identities.",
+   "sec": "Fusion research - ITER, SST-1, ignition  [APPSC]"
+  },
+  {
+   "s": "The first successful fusion ignition and net energy gain announced in December 2022 was achieved at the:",
+   "o": [
+    "ITER facility at Cadarache, France",
+    "Institute for Plasma Research, Gandhinagar",
+    "National Ignition Facility of Lawrence Livermore National Laboratory, USA",
+    "KAMINI reactor at Kalpakkam, India"
+   ],
+   "a": 2,
+   "x": "The National Ignition Facility at Lawrence Livermore National Laboratory in the United States achieved fusion ignition and net energy gain in December 2022 using lasers.",
+   "ty": "fact",
+   "tq": "Use the institution-location pair to distinguish the ignition experiment from tokamak projects.",
+   "sec": "Fusion research - ITER, SST-1, ignition  [APPSC]"
+  },
+  {
+   "s": "The fusion ignition achieved at the National Ignition Facility in December 2022 used:",
+   "o": [
+    "Chemical combustion of hydrogen",
+    "A graphite-moderated fission chain reaction",
+    "A sodium-cooled fast-breeder process",
+    "Laser-driven inertial confinement"
+   ],
+   "a": 3,
+   "x": "The National Ignition Facility achieved fusion ignition through laser-driven inertial confinement, not through a fission-reactor process.",
+   "ty": "application",
+   "tq": "Link the achievement to its experimental method and reject technologies belonging to fission reactors.",
+   "sec": "Fusion research - ITER, SST-1, ignition  [APPSC]"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. India joined the ITER project\nB. National Ignition Facility achieved fusion ignition\nC. ITER was designed around a 500 MW output from 50 MW input\nD. SST-1 was associated with the Institute for Plasma Research",
+   "o": [
+    "A, D, C, B",
+    "D, A, C, B",
+    "C, A, D, B",
+    "D, C, A, B"
+   ],
+   "a": 1,
+   "x": "SST-1 predates India's 2005 participation in ITER; the ITER design target followed, and the National Ignition Facility achievement occurred in December 2022.",
+   "ty": "chronology",
+   "tq": "Fix the clearly latest event first, then place the Indian tokamak and ITER milestones before it.",
+   "sec": "Fusion research - ITER, SST-1, ignition  [APPSC]"
+  },
+  {
+   "s": "Experts have described current fusion cost models as overly optimistic, with an estimated “experience rate” of approximately:",
+   "o": [
+    "2%",
+    "10%",
+    "25%",
+    "50%"
+   ],
+   "a": 0,
+   "x": "The cited experience rate for fusion cost models is approximately 2%, and experts regard many present cost projections as too optimistic.",
+   "ty": "numerical",
+   "tq": "Distinguish the small percentage estimate from the much larger distractor values.",
+   "sec": "Fusion research - ITER, SST-1, ignition  [APPSC]"
+  }
+ ]
+}

@@ -1,0 +1,553 @@
+{
+ "book": 5,
+ "row": 53,
+ "chunk": 1,
+ "section": "India's energy needs and deficit - primary energy demand, per-capita consumption, peak deficit",
+ "subsections": [
+  "Demand projections - who publishes them",
+  "Sector-wise energy consumption",
+  "Energy intensity of GDP - trend and NDC link",
+  "AP power demand - peak and adequacy"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which institution publishes the India Energy Security Scenarios (IESS) 2047?",
+   "o": [
+    "Ministry of Power",
+    "NITI Aayog",
+    "International Energy Agency",
+    "Central Electricity Authority"
+   ],
+   "a": 1,
+   "x": "The India Energy Security Scenarios (IESS) 2047 is published by NITI Aayog.",
+   "ty": "fact",
+   "tq": "Identify the institution associated with the named projection report.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "The India Energy Security Scenarios (IESS) 2047 projects India's energy demand during 2012–2040 to:",
+   "o": [
+    "Increase 4.5 times",
+    "Double",
+    "Increase 2.7–3.2 times",
+    "Triple exactly"
+   ],
+   "a": 2,
+   "x": "IESS 2047 projects total energy demand to rise by 2.7–3.2 times between 2012 and 2040.",
+   "ty": "numerical",
+   "tq": "Distinguish the total-energy projection from the electricity projection.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "According to the IESS 2047 projection, electricity demand is expected to increase by approximately:",
+   "o": [
+    "2.7 times",
+    "3.2 times",
+    "4.5 times",
+    "5.58 times"
+   ],
+   "a": 2,
+   "x": "The IESS 2047 projects a 4.5-fold increase in electricity demand.",
+   "ty": "numerical",
+   "tq": "Match the numerical value with the correct projection category.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "Consider the following statements regarding the World Energy Outlook 2022:\n1. India's coal generation and oil imports are projected to peak around 2030.\n2. India's gas imports are projected to double.\n3. It is published by NITI Aayog.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the World Energy Outlook is published by the International Energy Agency.",
+   "ty": "statements",
+   "tq": "Find the swapped publisher in a statement set.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "The India Energy Outlook is best described as:",
+   "o": [
+    "A state-wise resource adequacy plan prepared by NITI Aayog",
+    "An India-specific special report of the World Energy Outlook published by the IEA",
+    "The CEA's annual electricity adequacy report",
+    "A MoEFCC report on cooling demand"
+   ],
+   "a": 1,
+   "x": "The India Energy Outlook is an India-specific World Energy Outlook special report published by the IEA.",
+   "ty": "fact",
+   "tq": "Use the relationship between a general report and its country-specific special report.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "Which institution prepares the official long-term electricity demand forecast through the Electric Power Survey?",
+   "o": [
+    "Bureau of Energy Efficiency",
+    "International Energy Agency",
+    "NITI Aayog",
+    "Central Electricity Authority"
+   ],
+   "a": 3,
+   "x": "The Central Electricity Authority's Electric Power Survey is the official long-term electricity demand forecast.",
+   "ty": "fact",
+   "tq": "Identify the authority responsible for the specific forecasting instrument.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "Consider the following statements about the National Generation Adequacy Plan (NGAP) 2026–27 to 2035–36:\n1. It is prepared by the Central Electricity Authority.\n2. It projects peak demand of 459 GW by 2035–36.\n3. It projects installed capacity of 1,121 GW.\n4. It projects 70% of capacity from non-fossil sources.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The CEA's NGAP covers 2026–27 to 2035–36 and gives all the stated projections.",
+   "ty": "statements",
+   "tq": "Use the all-inclusive option when every listed feature belongs to the same plan.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "The projected annual growth rate of peak demand under the CEA's National Generation Adequacy Plan is:",
+   "o": [
+    "4.50%",
+    "5.58%",
+    "6.90%",
+    "7.10%"
+   ],
+   "a": 1,
+   "x": "The NGAP projects peak demand growth at 5.58% per year up to 2035–36.",
+   "ty": "numerical",
+   "tq": "Separate the national peak-demand growth rate from AP-specific rates.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "According to the IESS 2047 projections, per-capita energy consumption is expected to change from 503 kgoe in 2012 to approximately:",
+   "o": [
+    "1,055–1,184 kgoe in 2040",
+    "1,121–1,204 kgoe in 2040",
+    "887–924 kgoe in 2040",
+    "2,911–2,924 kgoe in 2040"
+   ],
+   "a": 0,
+   "x": "The IESS projection gives a rise from 503 kgoe in 2012 to 1,055–1,184 kgoe by 2040.",
+   "ty": "numerical",
+   "tq": "Match the unit and base year before selecting the projected range.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "In the IESS 2047 projection, per-capita electricity consumption is projected to rise from 887 kWh to:",
+   "o": [
+    "2,911–2,924 kWh by 2040",
+    "1,055–1,184 kWh by 2040",
+    "4,500–4,926 kWh by 2040",
+    "2,367–2,924 kWh by 2040"
+   ],
+   "a": 0,
+   "x": "Per-capita electricity consumption is projected to increase from 887 kWh to 2,911–2,924 kWh by 2040.",
+   "ty": "numerical",
+   "tq": "Avoid confusing per-capita electricity figures with per-capita energy figures.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "The IESS projection indicates that India's energy import dependence may increase from 31% to which range?",
+   "o": [
+    "36–55%",
+    "40–45%",
+    "45–53%",
+    "36–40%"
+   ],
+   "a": 0,
+   "x": "The IESS projects energy import dependence to rise from 31% to a range of 36–55%.",
+   "ty": "numerical",
+   "tq": "Select the complete projected range rather than an intermediate climate or demand figure.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "Which one of the following correctly represents the CEA's NGAP projection for storage requirement?",
+   "o": [
+    "174 GW/888 GWh, comprising 94 GW pumped storage and 80 GW BESS",
+    "174 GW/888 GWh, comprising 80 GW pumped storage and 94 GW BESS",
+    "888 GW/174 GWh, comprising 94 GW pumped storage and 80 GW BESS",
+    "1,121 GW/459 GWh, comprising 70 GW pumped storage and 94 GW BESS"
+   ],
+   "a": 0,
+   "x": "The NGAP identifies a storage requirement of 174 GW/888 GWh, including 94 GW of pumped storage and 80 GW of battery energy storage systems.",
+   "ty": "match",
+   "tq": "Start from the sure numerical pair and check the component allocation.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "Consider the following statements:\n1. Coal is projected to account for 51% of generation under the NGAP.\n2. General outlook projections expect India's energy demand to triple by 2047.\n3. IESS figures should be read as period projections, and its 2022 column is now historical.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Coal remains responsible for 51% of projected generation, demand is expected to triple by 2047, and the IESS 2022 column is historical rather than a current projection.",
+   "ty": "statements",
+   "tq": "Check whether each statement refers to a different aspect of the same outlook material.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "According to the National Electricity Plan 2023, installed capacity is projected to reach 777 GW by 2029–30, of which non-fossil capacity will be:",
+   "o": [
+    "900 GW or 62.4%",
+    "485 GW or 62.4%",
+    "40 GW or 5.2%",
+    "700 GW or 70%"
+   ],
+   "a": 1,
+   "x": "The National Electricity Plan 2023 projects 777 GW of installed capacity by 2029–30, including 485 GW of non-fossil capacity, or 62.4%.",
+   "ty": "numerical",
+   "tq": "Keep the capacity figure distinct from the later 2031–32 projection.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "The National Electricity Plan 2023 projects India's installed capacity by 2031–32 at:",
+   "o": [
+    "777 GW",
+    "888 GW",
+    "1,121 GW",
+    "900 GW"
+   ],
+   "a": 3,
+   "x": "The projected installed capacity by 2031–32 is 900 GW.",
+   "ty": "fact",
+   "tq": "Distinguish the National Electricity Plan milestone years and capacities.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "Which of the following statements about the Draft National Electricity Policy 2026 is correct?",
+   "o": [
+    "It is issued by NITI Aayog and replaces the 2013 policy.",
+    "It is issued by the Ministry of Power and proposes 100 GW of pumped storage by 2047.",
+    "It is issued by MoEFCC and replaces the 2001 Energy Conservation Act.",
+    "It is issued by CEA and targets 100 GW of battery storage by 2035."
+   ],
+   "a": 1,
+   "x": "The Draft National Electricity Policy 2026 is from the Ministry of Power and targets 100 GW of pumped storage by 2047; it is intended to replace the 2005 policy.",
+   "ty": "fact",
+   "tq": "Use the ministry, predecessor policy and target as a three-part identity check.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "The Draft National Electricity Policy 2026 proposes GHG-intensity targets for how many industrial units under the Energy Conservation Act, 2001?",
+   "o": [
+    "80",
+    "100",
+    "208",
+    "485"
+   ],
+   "a": 2,
+   "x": "The draft policy proposes GHG-intensity targets for 208 industrial units under the Energy Conservation Act, 2001.",
+   "ty": "numerical",
+   "tq": "Test the exact count attached to the statutory framework.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "Consider the following statements regarding Andhra Pradesh's Resource Adequacy Plan for 2025–26 to 2035–36:\n1. It is a state-wise plan prepared by the CEA framework.\n2. It seeks about 5,588 MW of new thermal capacity for Andhra Pradesh.\n3. APERC cleared the first 1,600 MW under the plan.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The plan is part of the CEA's resource adequacy process, recommends about 5,588 MW of thermal capacity, and APERC cleared the first 1,600 MW.",
+   "ty": "statements",
+   "tq": "Verify the authority, state-specific requirement and approved first tranche together.",
+   "sec": "Demand projections - who publishes them"
+  },
+  {
+   "s": "In the IESS 2012 base year, which sector had the largest energy consumption?",
+   "o": [
+    "Industry",
+    "Transport",
+    "Cooking",
+    "Buildings"
+   ],
+   "a": 0,
+   "x": "Industry was the largest consuming sector in the IESS 2012 base, with consumption of 2,367 TWh.",
+   "ty": "fact",
+   "tq": "Identify the leading sector before checking the numerical values.",
+   "sec": "Sector-wise energy consumption"
+  },
+  {
+   "s": "Arrange the following sectors in descending order of energy consumption in the IESS 2012 base:\nA. Cooking\nB. Transport\nC. Industry\nD. Buildings",
+   "o": [
+    "C, A, B, D",
+    "A, C, B, D",
+    "C, B, A, D",
+    "B, A, C, D"
+   ],
+   "a": 0,
+   "x": "The descending order is industry at 2,367 TWh, cooking at 1,072 TWh, transport at 929 TWh and buildings at 238 TWh.",
+   "ty": "chronology",
+   "tq": "Order the options by magnitude, starting with the largest sector.",
+   "sec": "Sector-wise energy consumption"
+  },
+  {
+   "s": "Which one of the following correctly matches the IESS 2012 sector with its energy consumption?",
+   "o": [
+    "Industry — 2,367 TWh",
+    "Cooking — 929 TWh",
+    "Transport — 1,072 TWh",
+    "Buildings — 237 TWh"
+   ],
+   "a": 0,
+   "x": "Industry consumed 2,367 TWh in the IESS 2012 base. Cooking consumed 1,072 TWh, transport 929 TWh and buildings 238 TWh.",
+   "ty": "match",
+   "tq": "Check each sector-value pair rather than relying only on the ranking.",
+   "sec": "Sector-wise energy consumption"
+  },
+  {
+   "s": "The total energy consumption in the IESS 2012 base was:",
+   "o": [
+    "8,764 TWh",
+    "5,026 TWh",
+    "4,026 TWh",
+    "4,926 TWh"
+   ],
+   "a": 3,
+   "x": "The total energy consumption in the IESS 2012 base was 4,926 TWh.",
+   "ty": "numerical",
+   "tq": "Distinguish the base-year total from the 2040 industry projection.",
+   "sec": "Sector-wise energy consumption"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched with its IESS 2012 energy consumption?",
+   "o": [
+    "Pumps and tractors — 283 TWh",
+    "Pumps and tractors — 237 TWh",
+    "Buildings — 238 TWh",
+    "Telecom — 83 TWh"
+   ],
+   "a": 0,
+   "x": "Pumps and tractors consumed 237 TWh, not 283 TWh. Telecom consumed 83 TWh and buildings 238 TWh.",
+   "ty": "negative",
+   "tq": "Find the single numerical reversal in an otherwise familiar list.",
+   "sec": "Sector-wise energy consumption"
+  },
+  {
+   "s": "Which statement best describes the projected sectoral pattern of energy demand by 2040?",
+   "o": [
+    "Transport becomes the only sector with increasing demand.",
+    "Industry remains the largest sector, with 8,764 TWh under BAU, while cooking demand falls as clean fuels replace biomass.",
+    "Cooking remains the largest sector because biomass use expands.",
+    "Buildings become the largest sector and industry demand disappears."
+   ],
+   "a": 1,
+   "x": "Cooking demand is expected to fall as clean fuels replace biomass, while industry remains the largest sector with 8,764 TWh under business as usual in 2040.",
+   "ty": "comparison",
+   "tq": "Contrast the declining cooking trend with the continuing industrial lead.",
+   "sec": "Sector-wise energy consumption"
+  },
+  {
+   "s": "The India Cooling Action Plan was launched in 2019 by the:",
+   "o": [
+    "Bureau of Energy Efficiency",
+    "Ministry of New and Renewable Energy",
+    "Ministry of Power",
+    "Ministry of Environment, Forest and Climate Change"
+   ],
+   "a": 3,
+   "x": "The India Cooling Action Plan was launched in 2019 by the Ministry of Environment, Forest and Climate Change.",
+   "ty": "fact",
+   "tq": "Use the ministry-body association and reject neighbouring energy ministries.",
+   "sec": "Sector-wise energy consumption"
+  },
+  {
+   "s": "By 2037–38, the India Cooling Action Plan aims to reduce cooling demand, refrigerant demand and cooling energy respectively by:",
+   "o": [
+    "25–40%, 20–25% and 25–30%",
+    "25–30%, 20–25% and 40–50%",
+    "10–15%, 20–25% and 30–35%",
+    "20–25%, 25–30% and 25–40%"
+   ],
+   "a": 3,
+   "x": "The targets are a 20–25% reduction in cooling demand, 25–30% in refrigerant demand and 25–40% in cooling energy by 2037–38.",
+   "ty": "numerical",
+   "tq": "Preserve the order of three closely related percentage targets.",
+   "sec": "Sector-wise energy consumption"
+  },
+  {
+   "s": "Which of the following correctly states India's first NDC target relative to 2005?",
+   "o": [
+    "Reduce emissions intensity by 36% and achieve 51% non-fossil capacity by 2025",
+    "Reduce emissions intensity by 45% and achieve 50% non-fossil capacity by 2030",
+    "Reduce emissions intensity by 33–35% and achieve 40% non-fossil capacity by 2030",
+    "Reduce emissions intensity by 47% and achieve 60% non-fossil capacity by 2035"
+   ],
+   "a": 2,
+   "x": "The 2015 first NDC targeted a 33–35% reduction in intensity from 2005 levels and 40% non-fossil capacity by 2030.",
+   "ty": "comparison",
+   "tq": "Separate the first, updated and later NDC targets by year.",
+   "sec": "Energy intensity of GDP - trend and NDC link"
+  },
+  {
+   "s": "Consider the following statements regarding India's NDC targets:\n1. The August 2022 updated NDC targeted a 45% reduction in intensity by 2030.\n2. The August 2022 updated NDC targeted 50% non-fossil capacity by 2030.\n3. The 2031–35 NDC gives a 47% intensity target by 2035 and a 60% non-fossil capacity target.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The updated 2022 NDC targets 45% intensity reduction and 50% non-fossil capacity by 2030, while the 2031–35 NDC gives 47% and 60% targets respectively.",
+   "ty": "statements",
+   "tq": "Compare successive NDC rows and retain both the year and target type.",
+   "sec": "Energy intensity of GDP - trend and NDC link"
+  },
+  {
+   "s": "Energy intensity of GDP refers to:",
+   "o": [
+    "Energy imports as a percentage of GDP",
+    "Total electricity generated per person",
+    "GDP generated per unit of imported oil",
+    "Energy used per unit of GDP"
+   ],
+   "a": 3,
+   "x": "Energy intensity is the amount of energy used per unit of GDP.",
+   "ty": "fact",
+   "tq": "Discriminate between an intensity ratio and per-capita or import indicators.",
+   "sec": "Energy intensity of GDP - trend and NDC link"
+  },
+  {
+   "s": "A falling energy-intensity value generally indicates that:",
+   "o": [
+    "GDP is declining while energy use remains constant",
+    "Energy use is rising faster than GDP",
+    "All energy imports have stopped",
+    "Economic growth is becoming decoupled from energy use"
+   ],
+   "a": 3,
+   "x": "A falling energy-intensity value indicates that economic growth is increasingly decoupling from energy use.",
+   "ty": "application",
+   "tq": "Apply the meaning of a ratio trend to an economic-growth situation.",
+   "sec": "Energy intensity of GDP - trend and NDC link"
+  },
+  {
+   "s": "India's emissions intensity has declined by what percentage below the 2005 level, according to the stated achievement?",
+   "o": [
+    "33%",
+    "36%",
+    "45%",
+    "51%"
+   ],
+   "a": 1,
+   "x": "Emissions intensity has declined by 36% below the 2005 level.",
+   "ty": "numerical",
+   "tq": "Distinguish the achieved reduction from the future 2030 NDC target.",
+   "sec": "Energy intensity of GDP - trend and NDC link"
+  },
+  {
+   "s": "Which of the following correctly describes the change in India's non-fossil capacity share?",
+   "o": [
+    "It rose from 40% in 2015 to 60% in 2035 only through nuclear power.",
+    "It rose from 32% in 2014 to 51% in 2025 and crossed the 50% target five years early.",
+    "It fell from 51% in 2014 to 32% in 2025.",
+    "It remained unchanged at 32% between 2014 and 2025."
+   ],
+   "a": 1,
+   "x": "The non-fossil capacity share increased from 32% in 2014 to 51% in 2025, reaching the 50% target five years ahead of schedule.",
+   "ty": "comparison",
+   "tq": "Check direction, years and the early-achievement detail together.",
+   "sec": "Energy intensity of GDP - trend and NDC link"
+  },
+  {
+   "s": "Which combination correctly identifies the institutional tools associated with improving energy efficiency under the Energy Conservation Act, 2001?",
+   "o": [
+    "BEE and NMEEE, working through ESCOs",
+    "CEA and IEA, working through DISCOMs only",
+    "NITI Aayog and APERC, working through NHPC",
+    "MoEFCC and IUCN, working through BESS providers"
+   ],
+   "a": 0,
+   "x": "The Bureau of Energy Efficiency and the National Mission for Enhanced Energy Efficiency under NAPCC work through Energy Service Companies under the Energy Conservation Act, 2001.",
+   "ty": "match",
+   "tq": "Match the institutions with the policy mechanism rather than with electricity planning bodies.",
+   "sec": "Energy intensity of GDP - trend and NDC link"
+  },
+  {
+   "s": "Consider the following statements about Andhra Pradesh's Resource Adequacy Plan:\n1. Electricity requirement is projected to grow at a CAGR of 6.90%.\n2. Peak demand is projected to grow at 7.10%.\n3. By 2035–36, peak demand is projected at 30,927 MW.\n4. Electricity requirement is projected at 1,68,221 MU by 2035–36.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly state the projections in Andhra Pradesh's Resource Adequacy Plan for 2025–26 to 2035–36.",
+   "ty": "statements",
+   "tq": "Keep the two growth rates separate from the two end-period quantities.",
+   "sec": "AP power demand - peak and adequacy"
+  },
+  {
+   "s": "APERC approved procurement of how much coal-based power for Andhra Pradesh on 6 August 2026?",
+   "o": [
+    "1,000 MW",
+    "1,500 MW",
+    "5,588 MW",
+    "1,600 MW"
+   ],
+   "a": 3,
+   "x": "APERC approved DISCOM procurement of 1,600 MW of coal-based power on 6 August 2026.",
+   "ty": "fact",
+   "tq": "Distinguish the approved procurement tranche from the broader recommended capacity.",
+   "sec": "AP power demand - peak and adequacy"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched with the Andhra Pradesh energy roadmap of September 2026?",
+   "o": [
+    "Required coal stock — 15 days",
+    "Central VGF project with NHPC — 1,500 MW/6,000 MWh",
+    "Evening-peak BESS — 1,500 MW/6,000 MWh",
+    "Coal-based procurement — 1,600 MW through tariff-based competitive bidding"
+   ],
+   "a": 1,
+   "x": "The central VGF project with NHPC is 500 MW/1,000 MWh. The 1,500 MW/6,000 MWh BESS is planned for the evening peak.",
+   "ty": "negative",
+   "tq": "Find the swapped capacity and storage figure in a closely related pair.",
+   "sec": "AP power demand - peak and adequacy"
+  },
+  {
+   "s": "Under the Andhra Pradesh energy roadmap, the project planned under central viability-gap funding with NHPC has a capacity and storage rating of:",
+   "o": [
+    "1,000 MW/500 MWh",
+    "1,500 MW/6,000 MWh",
+    "500 MW/1,000 MWh",
+    "1,600 MW/6,000 MWh"
+   ],
+   "a": 2,
+   "x": "The project under central VGF with NHPC is planned at 500 MW/1,000 MWh.",
+   "ty": "numerical",
+   "tq": "Separate the NHPC-supported project from the larger evening-peak BESS.",
+   "sec": "AP power demand - peak and adequacy"
+  },
+  {
+   "s": "Which authority has been allowed to import coal under the Andhra Pradesh energy roadmap?",
+   "o": [
+    "APERC",
+    "APGENCO",
+    "NHPC",
+    "CEA"
+   ],
+   "a": 1,
+   "x": "APGENCO has been allowed to import coal under the Andhra Pradesh energy roadmap.",
+   "ty": "fact",
+   "tq": "Ask which operational entity, rather than regulator or central agency, performs the specified action.",
+   "sec": "AP power demand - peak and adequacy"
+  }
+ ]
+}

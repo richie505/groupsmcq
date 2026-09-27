@@ -1,0 +1,486 @@
+{
+ "book": 5,
+ "row": 87,
+ "chunk": 5,
+ "section": "Conservation - in-situ (protected areas, biosphere reserves) and ex-situ (zoos, gene banks, seed banks)",
+ "subsections": [
+  "Zoos and conservation breeding - Central Zoo Authority, programmes",
+  "LaCONES Hyderabad - frozen zoo",
+  "Medicinal plant conservation - NMPB, Phyto-Pharma Plant Mission",
+  "AP zoos - breeding programmes",
+  "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion",
+  "FIRST, largest and smallest BR",
+  "Zonation - core, buffer, transition"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Central Zoo Authority (CZA) was established in 1992 under which Ministry?",
+   "o": [
+    "Ministry of Environment, Forest and Climate Change",
+    "Ministry of Science and Technology",
+    "Ministry of AYUSH",
+    "Ministry of Agriculture and Farmers Welfare"
+   ],
+   "a": 0,
+   "x": "The Central Zoo Authority was set up in 1992 under the Ministry of Environment, Forest and Climate Change. It is a statutory body under the Wildlife Protection Act, 1972, as amended in 1991.",
+   "ty": "fact",
+   "tq": "Use the institution–ministry association and eliminate neighbouring ministries.",
+   "sec": "Zoos and conservation breeding - Central Zoo Authority, programmes  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following functions is associated with the Central Zoo Authority?",
+   "o": [
+    "Regulating international trade in medicinal plants",
+    "Managing all national parks directly",
+    "Issuing patents for phytopharmaceutical products",
+    "Recognition of zoos and coordination of planned conservation breeding"
+   ],
+   "a": 3,
+   "x": "The CZA recognises zoos and coordinates planned conservation-breeding programmes. It does not directly manage all national parks or issue patents.",
+   "ty": "application",
+   "tq": "Identify the authority by matching the body with its specific statutory function.",
+   "sec": "Zoos and conservation breeding - Central Zoo Authority, programmes  [GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Species)\na. Vultures\nb. Great Indian Bustard\nc. Red panda\n\nList-II (Conservation-breeding centre)\ni. Padmaja Naidu Himalayan Zoological Park\n ii. Sam and Ramdevra centres\n iii. Jatayu Conservation Breeding Centre\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–ii, c–i",
+    "a–ii, b–i, c–iii",
+    "a–i, b–iii, c–ii",
+    "a–iii, b–i, c–ii"
+   ],
+   "a": 0,
+   "x": "Vultures are associated with the Jatayu Conservation Breeding Centre at Pinjore, the Great Indian Bustard with Sam and Ramdevra in Jaisalmer, and the red panda with Padmaja Naidu Himalayan Zoological Park.",
+   "ty": "match",
+   "tq": "Start from the sure species–centre pair and match the remaining pairs.",
+   "sec": "Zoos and conservation breeding - Central Zoo Authority, programmes  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding the Great Indian Bustard:\n1. It is also known as Godawan.\n2. It is the State bird of Rajasthan.\n3. Its population is estimated to be less than 150.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Great Indian Bustard is called Godawan, is the State bird of Rajasthan, and has a population estimated at fewer than 150 individuals.",
+   "ty": "statements",
+   "tq": "Combine three directly related identifying facts and check each statement independently.",
+   "sec": "Zoos and conservation breeding - Central Zoo Authority, programmes  [GROUP-II]"
+  },
+  {
+   "s": "The 2024 Supreme Court order relating to the habitat of the Great Indian Bustard mandated which measure?",
+   "o": [
+    "Ban on all scientific research",
+    "Complete relocation of all villages",
+    "Construction of underground power lines",
+    "Conversion of the habitat into a marine reserve"
+   ],
+   "a": 2,
+   "x": "The 2024 Supreme Court order mandated underground power lines in the Great Indian Bustard’s habitat to reduce threats to the species.",
+   "ty": "fact",
+   "tq": "Match the judicial order with its precise conservation measure.",
+   "sec": "Zoos and conservation breeding - Central Zoo Authority, programmes  [GROUP-II]"
+  },
+  {
+   "s": "The Species Recovery Programme under CSS-IDWH covers how many species?",
+   "o": [
+    "13",
+    "18",
+    "22",
+    "25"
+   ],
+   "a": 2,
+   "x": "The Species Recovery Programme under CSS-IDWH covers 22 species, including the snow leopard, Asiatic lion and Great Indian Bustard.",
+   "ty": "numerical",
+   "tq": "Test the exact programme figure against nearby conservation numbers.",
+   "sec": "Zoos and conservation breeding - Central Zoo Authority, programmes  [GROUP-II]"
+  },
+  {
+   "s": "LaCONES at Hyderabad is best described as which one of the following?",
+   "o": [
+    "A national authority for licensing zoos",
+    "India’s frozen zoo using assisted reproduction and DNA banking",
+    "India’s first botanical garden for medicinal plants",
+    "A wildlife census office under UNESCO"
+   ],
+   "a": 1,
+   "x": "LaCONES, the Laboratory for the Conservation of Endangered Species, is associated with CSIR-CCMB at Hyderabad and functions as India’s frozen zoo using assisted reproduction and DNA banking.",
+   "ty": "fact",
+   "tq": "Break the institutional description into location, parent organisation and function.",
+   "sec": "LaCONES Hyderabad - frozen zoo  [GROUP-II]"
+  },
+  {
+   "s": "The National Wildlife Genetic Resource Bank at Nehru Zoological Park stores which of the following?\n1. DNA and tissues\n2. Gametes and embryos\n3. Only plant seeds\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "The bank stores DNA, tissues, gametes and embryos of endangered and threatened wild animals. It is not limited to plant seeds.",
+   "ty": "statements",
+   "tq": "Reject the exclusive and misplaced storage category in statement 3.",
+   "sec": "LaCONES Hyderabad - frozen zoo  [GROUP-II]"
+  },
+  {
+   "s": "The National Medicinal Plants Board (NMPB), established in 2000, functions under which Ministry?",
+   "o": [
+    "Ministry of Agriculture and Farmers Welfare",
+    "Ministry of AYUSH",
+    "Ministry of Health and Family Welfare",
+    "Ministry of Environment, Forest and Climate Change"
+   ],
+   "a": 1,
+   "x": "The NMPB was established in 2000 under the Ministry of AYUSH and promotes the cultivation and conservation of medicinal plants.",
+   "ty": "fact",
+   "tq": "Use the establishment year and ministry pairing to distinguish the board from environmental bodies.",
+   "sec": "Medicinal plant conservation - NMPB, Phyto-Pharma Plant Mission  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly describes the Phyto-Pharma Plant Mission?",
+   "o": [
+    "A CZA programme for breeding endangered mammals",
+    "A Supreme Court programme for underground power transmission",
+    "An UNESCO programme for recognising biosphere reserves",
+    "A CSIR mission for cultivating rare or threatened medicinal plants and developing phytopharmaceutical drugs"
+   ],
+   "a": 3,
+   "x": "The Phyto-Pharma Plant Mission is associated with CSIR and focuses on rare or threatened medicinal plants and phytopharmaceutical drug development.",
+   "ty": "fact",
+   "tq": "Distinguish the mission by its agency, plant focus and drug-development objective.",
+   "sec": "Medicinal plant conservation - NMPB, Phyto-Pharma Plant Mission  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding the Biological Diversity Rules, 2024:\n1. They encourage the use of cultivated medicinal plants.\n2. They provide faster approvals by the NBA and SBB in specified cases.\n3. The approval period mentioned for IPR-related matters is 180 days.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The 2024 Rules encourage cultivated medicinal plants, provide faster NBA/SBB approvals, and mention 90 days generally and 180 days for IPR-related matters.",
+   "ty": "statements",
+   "tq": "Check each numerical and policy detail rather than relying on the broad subject alone.",
+   "sec": "Medicinal plant conservation - NMPB, Phyto-Pharma Plant Mission  [GROUP-II]"
+  },
+  {
+   "s": "The two Andhra Pradesh zoos operated by ZAAP are noted for which combination of activities?\n1. Animal display\n2. Conservation breeding\n3. Visitor amenities\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The two ZAAP zoos are noted for animal display, conservation breeding and visitor amenities.",
+   "ty": "statements",
+   "tq": "When all three functions are complementary and specifically stated, test the complete combination.",
+   "sec": "AP zoos - breeding programmes  [GROUP-II]"
+  },
+  {
+   "s": "As of the stated figure, India’s Biosphere Reserves cover approximately what area?",
+   "o": [
+    "124,545 sq km",
+    "64,425 sq km",
+    "81,425 sq km",
+    "91,425 sq km"
+   ],
+   "a": 3,
+   "x": "India’s 18 Biosphere Reserves cover approximately 91,425 square kilometres.",
+   "ty": "numerical",
+   "tq": "Test the exact area figure separately from the number of reserves.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Biosphere Reserve)\na. Nilgiri\nb. Gulf of Mannar\nc. Nanda Devi\n d. Nokrek\n\nList-II (Year of inclusion in WNBR)\ni. 2000\n ii. 2001\n iii. 2004\n iv. 2009\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–i, b–ii, c–iii, d–iv",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "Nilgiri entered in 2000, Gulf of Mannar in 2001, Nanda Devi in 2004 and Nokrek in 2009.",
+   "ty": "match",
+   "tq": "Anchor the earliest inclusion year and then match the remaining chronological pairs.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Biosphere Reserve)\na. Pachmarhi\nb. Simlipal\nc. Achanakmar-Amarkantak\n d. Great Nicobar\n\nList-II (Year of inclusion in WNBR)\ni. 2009\n ii. 2012\n iii. 2013\n iv. 2009\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–i, b–iv, c–ii, d–iii",
+    "a–ii, b–i, c–iii, d–iv",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–iii, b–ii, c–iv, d–i"
+   ],
+   "a": 0,
+   "x": "Pachmarhi and Simlipal were included in 2009, Achanakmar-Amarkantak in 2012 and Great Nicobar in 2013.",
+   "ty": "match",
+   "tq": "Use the repeated year carefully and then identify the later 2012 and 2013 entries.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly gives the WNBR inclusion years of Agasthyamalai, Khangchendzonga, Panna and Cold Desert, respectively?",
+   "o": [
+    "2018, 2016, 2025, 2020",
+    "2016, 2020, 2018, 2025",
+    "2020, 2018, 2016, 2025",
+    "2016, 2018, 2020, 2025"
+   ],
+   "a": 3,
+   "x": "Agasthyamalai was included in 2016, Khangchendzonga in 2018, Panna in 2020 and Cold Desert in 2025.",
+   "ty": "numerical",
+   "tq": "Preserve the sequence of four close year–site associations.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following Biosphere Reserves is NOT included in UNESCO’s World Network of Biosphere Reserves?",
+   "o": [
+    "Panna",
+    "Cold Desert",
+    "Nilgiri",
+    "Seshachalam"
+   ],
+   "a": 3,
+   "x": "Seshachalam in Andhra Pradesh is not included in the WNBR and is under process. Nilgiri, Panna and Cold Desert are included.",
+   "ty": "negative",
+   "tq": "Find the one non-member among otherwise recognised WNBR sites.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Biosphere Reserve not in WNBR)\na. Manas\nb. Dibru-Saikhowa\nc. Dehang-Dibang\n d. Great Rann of Kutch\n\nList-II (State)\ni. Gujarat\n ii. Assam\n iii. Arunachal Pradesh\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–ii, c–iii, d–i",
+    "a–i, b–iii, c–ii, d–i",
+    "a–iii, b–ii, c–i, d–ii",
+    "a–ii, b–i, c–iii, d–iii"
+   ],
+   "a": 0,
+   "x": "Manas and Dibru-Saikhowa are in Assam, Dehang-Dibang is in Arunachal Pradesh and Great Rann of Kutch is in Gujarat.",
+   "ty": "match",
+   "tq": "Group the two Assam reserves first, then place the distinct north-eastern and western sites.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Cold Desert Biosphere Reserve became India’s 13th WNBR site in which year and at which venue?",
+   "o": [
+    "2025 at the 37th Ramsar Conference in Geneva",
+    "2024 at the 36th MAB Council meeting in Paris",
+    "2026 at the 38th MAB Council meeting in New Delhi",
+    "2025 at the 37th MAB Council meeting in Hangzhou"
+   ],
+   "a": 3,
+   "x": "Cold Desert became India’s 13th WNBR site in September 2025 at the 37th MAB Council meeting held at Hangzhou.",
+   "ty": "fact",
+   "tq": "Combine the year, ordinal position, body and venue instead of matching only the site.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is correctly associated with the Cold Desert Biosphere Reserve?",
+   "o": [
+    "It is India’s first marine Biosphere Reserve in Tamil Nadu",
+    "It is India’s first high-altitude cold desert site in the WNBR and includes Lahaul-Spiti",
+    "It is located in the Nilgiri Hills and was included in 1986",
+    "It is located in the Sundarbans and is known primarily for mangroves"
+   ],
+   "a": 1,
+   "x": "Cold Desert is in Lahaul-Spiti and includes areas such as Pin Valley National Park, Kibber Wildlife Sanctuary and Chandratal. It is India’s first high-altitude cold desert site in the WNBR.",
+   "ty": "fact",
+   "tq": "Distinguish the landscape type and location from marine, mangrove and Western Ghats reserves.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements about the World Network of Biosphere Reserves is correct?\n1. It contains 785 sites.\n2. These sites are spread across 142 countries.\n3. India has 785 sites in the network.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "The WNBR has 785 sites in 142 countries. The figure of 785 refers to the global network, not to India alone.",
+   "ty": "statements",
+   "tq": "Separate the global total from the country-specific total and reject the scope shift.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Biosphere Reserve)\na. Nilgiri\nb. Nanda Devi\nc. Sundarbans\n d. Manas\n\nList-II (World Heritage link)\ni. Manas Wildlife Sanctuary\n ii. Western Ghats World Heritage Site\n iii. Sundarbans National Park\n iv. Nanda Devi and Valley of Flowers National Parks\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–ii, c–i, d–iii",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–i, b–iii, c–ii, d–iv"
+   ],
+   "a": 0,
+   "x": "Nilgiri lies within the Western Ghats World Heritage Site; Nanda Devi is linked with Nanda Devi and Valley of Flowers National Parks; Sundarbans with Sundarbans National Park; and Manas with Manas Wildlife Sanctuary.",
+   "ty": "match",
+   "tq": "Start with the distinctive Western Ghats pair and complete the protected-area associations.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following statements regarding the Nanda Devi Biosphere Reserve is correct?",
+   "o": [
+    "It is located in Madhya Pradesh and is known for the Asiatic lion",
+    "It is located in Gujarat and contains the Great Rann of Kutch",
+    "It is located in Uttar Pradesh and is dominated by mangrove forests",
+    "It is located in Uttarakhand and is associated with snow leopard, musk deer and blue sheep"
+   ],
+   "a": 3,
+   "x": "Nanda Devi Biosphere Reserve is in Uttarakhand and includes fauna such as snow leopard, musk deer and blue sheep. The World Heritage reference applies to the relevant national parks, not to the Biosphere Reserve as such.",
+   "ty": "fact",
+   "tq": "Use the location–fauna combination and avoid transferring a World Heritage label to the wrong unit.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Gulf of Mannar Biosphere Reserve is notable for which combination of ecosystems?\n1. Coral reefs\n2. Salt marshes and mangroves\n3. Islands, estuaries and beaches\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Gulf of Mannar includes islands, estuaries, beaches, coral reefs, salt marshes and mangroves.",
+   "ty": "statements",
+   "tq": "Recognise the complete ecosystem combination rather than selecting only the marine feature.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which Biosphere Reserve harbours the highest number of animal species among Indian Biosphere Reserves, with 2,626 species?",
+   "o": [
+    "Great Rann of Kutch",
+    "Nilgiri",
+    "Sundarbans",
+    "Nanda Devi"
+   ],
+   "a": 2,
+   "x": "The Sundarbans Biosphere Reserve harbours the highest number of animal species among Indian Biosphere Reserves, reported as 2,626.",
+   "ty": "numerical",
+   "tq": "Match the largest species-count figure with the correct reserve rather than the largest area.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Arrange the following Biosphere Reserves in chronological order of their designation in India:\nA. Nilgiri\nB. Gulf of Mannar\nC. Nanda Devi\nD. Pachmarhi",
+   "o": [
+    "A, C, B, D",
+    "A, B, C, D",
+    "B, A, C, D",
+    "C, A, B, D"
+   ],
+   "a": 1,
+   "x": "Nilgiri was designated in 1986, Gulf of Mannar in 1989, Nanda Devi in 1988 and Pachmarhi in 1999. Therefore, the correct chronological order is Nilgiri, Nanda Devi, Gulf of Mannar, Pachmarhi.",
+   "ty": "chronology",
+   "tq": "Place the earliest year first and verify the close 1988–1989 entries before the 1999 site.",
+   "sec": "UNESCO MAB network (WNBR) - Indian BRs included, year of inclusion  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is the correct order of the first, largest and smallest Biosphere Reserves of India?",
+   "o": [
+    "Nilgiri; Great Rann of Kutch; Dibru-Saikhowa",
+    "Nilgiri; Dibru-Saikhowa; Great Rann of Kutch",
+    "Dibru-Saikhowa; Great Rann of Kutch; Nilgiri",
+    "Great Rann of Kutch; Nilgiri; Dibru-Saikhowa"
+   ],
+   "a": 0,
+   "x": "Nilgiri was India’s first Biosphere Reserve, Great Rann of Kutch is the largest, and Dibru-Saikhowa is the smallest.",
+   "ty": "comparison",
+   "tq": "Separate the three superlatives before matching each with its reserve.",
+   "sec": "FIRST, largest and smallest BR  [GROUP-II]"
+  },
+  {
+   "s": "The geographical area of the Great Rann of Kutch Biosphere Reserve is approximately:",
+   "o": [
+    "12,454 sq km",
+    "765 sq km",
+    "9,145 sq km",
+    "18,000 sq km"
+   ],
+   "a": 0,
+   "x": "The Great Rann of Kutch is the largest Indian Biosphere Reserve, with an area of approximately 12,454 square kilometres.",
+   "ty": "numerical",
+   "tq": "Distinguish the largest-area figure from the smallest-reserve figure.",
+   "sec": "FIRST, largest and smallest BR  [GROUP-II]"
+  },
+  {
+   "s": "The area of Dibru-Saikhowa Biosphere Reserve is approximately:",
+   "o": [
+    "765 sq km",
+    "1,254 sq km",
+    "2,626 sq km",
+    "5,454 sq km"
+   ],
+   "a": 0,
+   "x": "Dibru-Saikhowa is the smallest Indian Biosphere Reserve, with an area of approximately 765 square kilometres.",
+   "ty": "numerical",
+   "tq": "Use the smallest-area clue and reject larger reserve figures.",
+   "sec": "FIRST, largest and smallest BR  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly describes the core zone of a Biosphere Reserve?",
+   "o": [
+    "An area reserved exclusively for commercial forestry",
+    "The outer interface where settlements, agriculture and tourism are concentrated",
+    "A zone where unrestricted recreation is permitted",
+    "A legally protected area where human activity is generally absent and conservation and monitoring are undertaken"
+   ],
+   "a": 3,
+   "x": "The core zone is legally protected, often as a national park or sanctuary under the Wildlife Protection Act, 1972, and permits conservation and monitoring rather than ordinary human activities.",
+   "ty": "application",
+   "tq": "Identify the zone by its legal protection and permitted level of human activity.",
+   "sec": "Zonation - core, buffer, transition  [GROUP-II]"
+  },
+  {
+   "s": "Which activities are generally associated with the buffer zone of a Biosphere Reserve?\n1. Research and education\n2. Training and eco-restoration\n3. Limited recreation\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The buffer zone surrounds the core and supports research, education, training, eco-restoration and limited recreation.",
+   "ty": "statements",
+   "tq": "Recognise the controlled-use activities that distinguish the buffer from the core and transition zones.",
+   "sec": "Zonation - core, buffer, transition  [GROUP-II]"
+  },
+  {
+   "s": "A Biosphere Reserve zone contains settlements, agriculture, forestry and tourism at the outer interface of people and nature. It is the:",
+   "o": [
+    "Strict wilderness zone",
+    "Core zone",
+    "Transition zone",
+    "Buffer zone"
+   ],
+   "a": 2,
+   "x": "The transition zone is the outer interface between people and nature and permits settlements, agriculture, forestry and tourism.",
+   "ty": "application",
+   "tq": "Infer the zone from the intensity and type of human activities permitted.",
+   "sec": "Zonation - core, buffer, transition  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Buffer zone — research, education and eco-restoration",
+    "Transition zone — settlements and agriculture",
+    "Core zone — unrestricted tourism and commercial forestry",
+    "Core zone — conservation and monitoring only"
+   ],
+   "a": 2,
+   "x": "Unrestricted tourism and commercial forestry are not activities of the core zone. The core is legally protected and reserved for conservation and monitoring.",
+   "ty": "negative",
+   "tq": "Find the activity that violates the strict-protection character of the core zone.",
+   "sec": "Zonation - core, buffer, transition  [GROUP-II]"
+  }
+ ]
+}

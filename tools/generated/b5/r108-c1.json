@@ -1,0 +1,726 @@
+{
+ "book": 5,
+ "row": 108,
+ "chunk": 1,
+ "section": "Biotechnology - nature, scope, tools; applications in agriculture, medicine and industry",
+ "subsections": [
+  "Vaccine platforms and indigenous vaccines",
+  "Advanced therapies - CAR-T, gene therapy, monoclonals, stem cells, ART",
+  "Industrial biotechnology - fermentation, enzymes, bioplastics",
+  "Policy and hubs - BioE3, BIRAC, Bio-RIDE, AMTZ",
+  "Agricultural biotechnology - biofertilisers, biopesticides, tissue culture, MAS",
+  "Animal cloning",
+  "Genomics and data - Genome India, IBDC, DNA fingerprinting, biobanks",
+  "Nature and tools - branches, PCR, electrophoresis, bioreactors",
+  "In-situ vs ex-situ - site, cost, techniques"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 50,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "India accounts for approximately what share of global vaccine demand and is described as the world's largest vaccine manufacturer?",
+   "o": [
+    "About 80%",
+    "About 60%",
+    "About 40%",
+    "About 25%"
+   ],
+   "a": 1,
+   "x": "India is identified as the largest vaccine manufacturer and meets approximately 60% of global vaccine demand.",
+   "ty": "numerical",
+   "tq": "Use the numerical figure as the deciding clue.",
+   "sec": "Vaccine platforms and indigenous vaccines"
+  },
+  {
+   "s": "Which one of the following vaccines is correctly matched with its developer and target?",
+   "o": [
+    "Cervavac — Serum Institute of India — HPV/cervical cancer",
+    "Rotavac — Zydus Cadila — COVID-19",
+    "Covaxin — Oxford University — malaria",
+    "R21/Matrix-M — Bharat Biotech — rotavirus diarrhoea"
+   ],
+   "a": 0,
+   "x": "Cervavac is developed by the Serum Institute of India against HPV and cervical cancer. The other pairs interchange developers or targets.",
+   "ty": "match",
+   "tq": "Start from the sure developer–target pair and eliminate swapped combinations.",
+   "sec": "Vaccine platforms and indigenous vaccines"
+  },
+  {
+   "s": "Consider the following statements about vaccine platforms:\n1. mRNA is an indigenous vaccine platform used in India.\n2. Viral-vector vaccines are among the vaccine platforms used in India.\n3. Protein-subunit vaccines are included among the indigenous platforms.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "mRNA, viral-vector and protein-subunit platforms are all identified as indigenous vaccine platforms in India.",
+   "ty": "statements",
+   "tq": "Test each platform independently before selecting the coded combination.",
+   "sec": "Vaccine platforms and indigenous vaccines"
+  },
+  {
+   "s": "ZyCoV-D, associated with Zydus Cadila, is notable as India’s first indigenous:",
+   "o": [
+    "Protein-subunit vaccine against HPV",
+    "mRNA vaccine against malaria",
+    "Viral-vector vaccine against rotavirus",
+    "DNA vaccine against COVID-19"
+   ],
+   "a": 3,
+   "x": "ZyCoV-D was developed by Zydus Cadila and is identified as the first DNA vaccine, targeting COVID-19.",
+   "ty": "fact",
+   "tq": "Discriminate between vaccine platform and disease target.",
+   "sec": "Vaccine platforms and indigenous vaccines"
+  },
+  {
+   "s": "R21/Matrix-M is associated with which of the following combinations?",
+   "o": [
+    "Oxford University and malaria",
+    "Bharat Biotech and rotavirus diarrhoea",
+    "Serum Institute of India and cervical cancer",
+    "Zydus Cadila and COVID-19"
+   ],
+   "a": 0,
+   "x": "R21/Matrix-M was developed by Oxford University and made by the Serum Institute of India for malaria.",
+   "ty": "match",
+   "tq": "Separate the original developer from the manufacturing institution.",
+   "sec": "Vaccine platforms and indigenous vaccines"
+  },
+  {
+   "s": "Which one of the following correctly describes NexCAR19?",
+   "o": [
+    "India’s first cloned buffalo produced in 2009",
+    "India’s first indigenous CAR-T therapy approved in 2023",
+    "India’s first monoclonal antibody produced in 1975",
+    "India’s first DNA vaccine developed in 2023"
+   ],
+   "a": 1,
+   "x": "NexCAR19 is India’s first indigenous CAR-T therapy and dates to 2023. It involved IIT Bombay, Tata Memorial and ImmunoACT.",
+   "ty": "fact",
+   "tq": "Match the therapy with its milestone year and identity.",
+   "sec": "Advanced therapies - CAR-T, gene therapy, monoclonals, stem cells, ART"
+  },
+  {
+   "s": "NexCAR19 was developed through the collaboration of:",
+   "o": [
+    "IIT Bombay and Tata Memorial, through ImmunoACT",
+    "CMC Vellore and DBT, through Serum Institute of India",
+    "Roslin Institute and NDRI, through BIRAC",
+    "ICMR and Oxford University, through Bharat Biotech"
+   ],
+   "a": 0,
+   "x": "NexCAR19 was developed by IIT Bombay and Tata Memorial through ImmunoACT.",
+   "ty": "match",
+   "tq": "Use the institutional collaboration rather than the broad therapy category.",
+   "sec": "Advanced therapies - CAR-T, gene therapy, monoclonals, stem cells, ART"
+  },
+  {
+   "s": "India’s first indigenous trial of gene therapy for haemophilia A was conducted at:",
+   "o": [
+    "NDRI Karnal with ICMR support",
+    "IIT Bombay with BIRAC support",
+    "CMC Vellore with DBT support",
+    "RCB Faridabad with CSIR support"
+   ],
+   "a": 2,
+   "x": "The first indigenous haemophilia A gene-therapy trial was conducted at CMC Vellore with support from the Department of Biotechnology.",
+   "ty": "fact",
+   "tq": "Identify the institution and supporting agency without swapping authorities.",
+   "sec": "Advanced therapies - CAR-T, gene therapy, monoclonals, stem cells, ART"
+  },
+  {
+   "s": "The hybridoma technique used for producing monoclonal antibodies involves fusion between:",
+   "o": [
+    "B-cells and myeloma cells",
+    "T-cells and stem cells",
+    "Red blood cells and macrophages",
+    "Embryonic cells and fibroblasts"
+   ],
+   "a": 0,
+   "x": "Hybridoma technology fuses antibody-producing B-cells with myeloma cells to create continuously multiplying antibody-producing cells.",
+   "ty": "application",
+   "tq": "Break the technique into its two cellular components.",
+   "sec": "Advanced therapies - CAR-T, gene therapy, monoclonals, stem cells, ART"
+  },
+  {
+   "s": "Kohler and Milstein are associated with the development of the hybridoma technique in:",
+   "o": [
+    "1965",
+    "1975",
+    "1985",
+    "1995"
+   ],
+   "a": 1,
+   "x": "Kohler and Milstein developed the hybridoma technique in 1975.",
+   "ty": "numerical",
+   "tq": "Use the year–discoverer association to reject nearby dates.",
+   "sec": "Advanced therapies - CAR-T, gene therapy, monoclonals, stem cells, ART"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. National Guidelines for Stem Cell Research — 2017\n2. ART (Regulation) Act — 2021\n3. Hybridoma technique — 1975\n4. NexCAR19 — 1996",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "The Guidelines date to 2017, the ART (Regulation) Act to 2021 and the hybridoma technique to 1975. NexCAR19 dates to 2023, not 1996.",
+   "ty": "statements",
+   "tq": "Find the incorrect year in an otherwise familiar list.",
+   "sec": "Advanced therapies - CAR-T, gene therapy, monoclonals, stem cells, ART"
+  },
+  {
+   "s": "Which one of the following is NOT a characteristic area of white biotechnology?",
+   "o": [
+    "Development of marine ecosystems",
+    "Production of biofuels",
+    "Production of enzymes",
+    "Production of bioplastics"
+   ],
+   "a": 0,
+   "x": "White biotechnology includes enzymes, biofuels, bioplastics, precision fermentation and green chemicals. Marine ecosystems relate to blue biotechnology rather than white biotechnology.",
+   "ty": "negative",
+   "tq": "Find the item belonging to a neighbouring biotechnology branch.",
+   "sec": "Industrial biotechnology - fermentation, enzymes, bioplastics"
+  },
+  {
+   "s": "Which recombinant enzyme is used in cheese production?",
+   "o": [
+    "Amylase",
+    "Ligase",
+    "Pectinase",
+    "Chymosin"
+   ],
+   "a": 3,
+   "x": "Recombinant chymosin is used in cheese production; amylase is associated with bread and pectinase with juice processing.",
+   "ty": "fact",
+   "tq": "Match each enzyme with its specific industrial application.",
+   "sec": "Industrial biotechnology - fermentation, enzymes, bioplastics"
+  },
+  {
+   "s": "Which one of the following enzyme–application pairs is correctly matched?",
+   "o": [
+    "Amylase — bread production",
+    "Pectinase — cheese production",
+    "Chymosin — juice clarification",
+    "Ligase — bread production"
+   ],
+   "a": 0,
+   "x": "Amylase is used in bread production. Chymosin is used for cheese and pectinase for juice processing.",
+   "ty": "match",
+   "tq": "Reject the swapped enzyme–application pairs.",
+   "sec": "Industrial biotechnology - fermentation, enzymes, bioplastics"
+  },
+  {
+   "s": "Which of the following is included among the DBT biofuel targets?",
+   "o": [
+    "Only petroleum-based aviation fuel",
+    "Exclusive production of coal-derived chemicals",
+    "Elimination of integrated biorefineries",
+    "Fuel from agricultural residue and municipal waste"
+   ],
+   "a": 3,
+   "x": "The targets include fuels from agricultural residue and municipal waste, algal fuels, sustainable aviation fuel and integrated biorefineries.",
+   "ty": "application",
+   "tq": "Prefer the option stated as a positive biotechnology application.",
+   "sec": "Industrial biotechnology - fermentation, enzymes, bioplastics"
+  },
+  {
+   "s": "BioE3 Policy, approved in August 2024, primarily promotes:",
+   "o": [
+    "Replacement of agriculture by forestry",
+    "Exclusive expansion of conventional mining",
+    "High-performance biomanufacturing",
+    "Privatisation of all public hospitals"
+   ],
+   "a": 2,
+   "x": "BioE3 stands for Economy, Environment and Employment and promotes high-performance biomanufacturing.",
+   "ty": "fact",
+   "tq": "Use the policy objective rather than a neighbouring economic sector.",
+   "sec": "Policy and hubs - BioE3, BIRAC, Bio-RIDE, AMTZ"
+  },
+  {
+   "s": "The three dimensions represented by ‘E3’ in BioE3 are:",
+   "o": [
+    "Energy, Ecology and Education",
+    "Environment, Energy and Equity",
+    "Export, Enterprise and Engineering",
+    "Economy, Environment and Employment"
+   ],
+   "a": 3,
+   "x": "The three E’s in BioE3 are Economy, Environment and Employment.",
+   "ty": "confusable",
+   "tq": "Expand the acronym precisely; do not substitute related policy terms.",
+   "sec": "Policy and hubs - BioE3, BIRAC, Bio-RIDE, AMTZ"
+  },
+  {
+   "s": "The Indian bioeconomy increased from approximately $10 billion in 2014 to what amount in 2024, with a target of $300 billion by 2030?",
+   "o": [
+    "$65.7 billion",
+    "$100.5 billion",
+    "$165.7 billion",
+    "$265.7 billion"
+   ],
+   "a": 2,
+   "x": "The bioeconomy is stated to have risen from $10 billion in 2014 to $165.7 billion in 2024, with a target of $300 billion by 2030.",
+   "ty": "numerical",
+   "tq": "Read the middle value in a three-stage growth sequence carefully.",
+   "sec": "Policy and hubs - BioE3, BIRAC, Bio-RIDE, AMTZ"
+  },
+  {
+   "s": "India is ranked at which positions in biotechnology globally and in the Asia-Pacific region, respectively?",
+   "o": [
+    "12th globally and 12th in Asia-Pacific",
+    "3rd globally and 3rd in Asia-Pacific",
+    "12th globally and 3rd in Asia-Pacific",
+    "3rd globally and 12th in Asia-Pacific"
+   ],
+   "a": 2,
+   "x": "India is ranked 12th globally and 3rd in the Asia-Pacific region in biotechnology.",
+   "ty": "comparison",
+   "tq": "Preserve the order of the two geographical comparisons.",
+   "sec": "Policy and hubs - BioE3, BIRAC, Bio-RIDE, AMTZ"
+  },
+  {
+   "s": "The Department of Biotechnology was established in 1986 after emerging from:",
+   "o": [
+    "NBTB, established in 1982",
+    "BIRAC, established in 1986",
+    "RCB, established in 1992",
+    "AMTZ, established in 1982"
+   ],
+   "a": 0,
+   "x": "The DBT was established in 1986 and emerged from the National Biotechnology Board, established in 1982.",
+   "ty": "chronology",
+   "tq": "Arrange the predecessor and successor institutions by their years.",
+   "sec": "Policy and hubs - BioE3, BIRAC, Bio-RIDE, AMTZ"
+  },
+  {
+   "s": "Which of the following correctly describes Bio-RIDE?",
+   "o": [
+    "A wildlife conservation programme of the Ministry of Environment",
+    "An umbrella scheme formed by merging two DBT schemes",
+    "A DNA fingerprinting repository at CCMB",
+    "A single vaccine manufacturing unit of the Serum Institute"
+   ],
+   "a": 1,
+   "x": "Bio-RIDE is formed by merging two DBT umbrella schemes.",
+   "ty": "fact",
+   "tq": "Distinguish an umbrella scheme from an institution or facility.",
+   "sec": "Policy and hubs - BioE3, BIRAC, Bio-RIDE, AMTZ"
+  },
+  {
+   "s": "Which one of the following is NOT a component of Bio-RIDE?",
+   "o": [
+    "Industrial and entrepreneurship development",
+    "Bio-manufacturing and bio-foundry",
+    "National wildlife census and habitat mapping",
+    "Research and development"
+   ],
+   "a": 2,
+   "x": "Bio-RIDE has three components: R&D; industrial and entrepreneurship development; and bio-manufacturing and bio-foundry. Wildlife census is not one of them.",
+   "ty": "negative",
+   "tq": "Identify the unrelated component among a policy’s stated pillars.",
+   "sec": "Policy and hubs - BioE3, BIRAC, Bio-RIDE, AMTZ"
+  },
+  {
+   "s": "AMTZ refers to the:",
+   "o": [
+    "Andhra Pradesh MedTech Zone located at Visakhapatnam",
+    "Agricultural Microbial Technology Zone located at Vijayawada",
+    "Advanced Medical Training Zone located at Amaravati",
+    "Andhra Pradesh Marine Technology Zone located at Kakinada"
+   ],
+   "a": 0,
+   "x": "AMTZ is the Andhra Pradesh MedTech Zone located at Visakhapatnam.",
+   "ty": "fact",
+   "tq": "Discriminate between similar expansions and locations.",
+   "sec": "Policy and hubs - BioE3, BIRAC, Bio-RIDE, AMTZ"
+  },
+  {
+   "s": "Which biofertiliser is a free-living nitrogen fixer?",
+   "o": [
+    "Nostoc",
+    "Azotobacter",
+    "Azolla",
+    "Rhizobium"
+   ],
+   "a": 1,
+   "x": "Azotobacter is a free-living nitrogen fixer. Rhizobium fixes nitrogen symbiotically in legume nodules.",
+   "ty": "confusable",
+   "tq": "Separate symbiotic and free-living nitrogen fixation.",
+   "sec": "Agricultural biotechnology - biofertilisers, biopesticides, tissue culture, MAS"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Rhizobium — Symbiotic nitrogen fixation in legume nodules\n2. Azolla — Fern associated with Anabaena and used in paddy\n3. Blue-green algae — Anabaena and Nostoc, associated with paddy\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correctly matched. Rhizobium functions in legume nodules, while Azolla and blue-green algae are associated with nitrogen enrichment in paddy systems.",
+   "ty": "statements",
+   "tq": "Verify each organism–role pair before choosing the combined code.",
+   "sec": "Agricultural biotechnology - biofertilisers, biopesticides, tissue culture, MAS"
+  },
+  {
+   "s": "Which of the following is NOT a biopesticide listed among the agricultural biotechnology applications?",
+   "o": [
+    "Trichoderma",
+    "NPV",
+    "Bacillus thuringiensis",
+    "Azotobacter"
+   ],
+   "a": 3,
+   "x": "Bacillus thuringiensis, Trichoderma and NPV are listed as biopesticides. Azotobacter is a biofertiliser and nitrogen fixer.",
+   "ty": "negative",
+   "tq": "Distinguish biopesticides from biofertilisers.",
+   "sec": "Agricultural biotechnology - biofertilisers, biopesticides, tissue culture, MAS"
+  },
+  {
+   "s": "Tissue-culture applications involving banana and pineapple are associated with:",
+   "o": [
+    "BARC",
+    "NDRI",
+    "RCB",
+    "CCMB"
+   ],
+   "a": 0,
+   "x": "BARC is associated with tissue-culture applications for banana and pineapple.",
+   "ty": "fact",
+   "tq": "Match the institution with the crop application.",
+   "sec": "Agricultural biotechnology - biofertilisers, biopesticides, tissue culture, MAS"
+  },
+  {
+   "s": "Marker-assisted selection is exemplified by the development of:",
+   "o": [
+    "R21 malaria vaccine",
+    "Garima buffalo",
+    "Cervavac HPV vaccine",
+    "Sub1 flood-tolerant rice"
+   ],
+   "a": 3,
+   "x": "Sub1 flood-tolerant rice is given as an example of marker-assisted selection.",
+   "ty": "application",
+   "tq": "Link the breeding method to its crop example.",
+   "sec": "Agricultural biotechnology - biofertilisers, biopesticides, tissue culture, MAS"
+  },
+  {
+   "s": "Which one of the following correctly represents the sequence of cloned-animal facts?",
+   "o": [
+    "Dolly—sheep, 1996; Garima—buffalo, 2009; Noori—Pashmina goat, 2012",
+    "Dolly—buffalo, 2009; Garima—sheep, 1996; Noori—cow, 2012",
+    "Dolly—goat, 2012; Garima—sheep, 1996; Noori—buffalo, 2009",
+    "Dolly—sheep, 2009; Garima—Pashmina goat, 2012; Noori—buffalo, 1996"
+   ],
+   "a": 0,
+   "x": "Dolly was the first cloned mammal, a sheep produced at Roslin Institute in 1996; Garima was a buffalo cloned at NDRI in 2009; and Noori was a Pashmina goat cloned in 2012.",
+   "ty": "chronology",
+   "tq": "Use both the animal identity and the chronological order to eliminate swaps.",
+   "sec": "Animal cloning"
+  },
+  {
+   "s": "Ganga, the first cloned Gir calf, was born in:",
+   "o": [
+    "1996",
+    "2009",
+    "2012",
+    "2023"
+   ],
+   "a": 3,
+   "x": "Ganga is identified as the first cloned Gir calf and was born in 2023.",
+   "ty": "numerical",
+   "tq": "Distinguish the recent cloning milestone from earlier animal-cloning dates.",
+   "sec": "Animal cloning"
+  },
+  {
+   "s": "Noori, cloned at SKUAST-Kashmir, is a:",
+   "o": [
+    "Pashmina goat",
+    "Buffalo",
+    "Sheep",
+    "Gir calf"
+   ],
+   "a": 0,
+   "x": "Noori is a Pashmina goat cloned at SKUAST-Kashmir in 2012.",
+   "ty": "fact",
+   "tq": "Match the animal name with the species and institution.",
+   "sec": "Animal cloning"
+  },
+  {
+   "s": "The Genome India Project aims to sequence approximately:",
+   "o": [
+    "10,000 genomes",
+    "100,000 genomes",
+    "1,000 genomes",
+    "5,000 genomes"
+   ],
+   "a": 0,
+   "x": "The Genome India Project aims to cover 10,000 genomes.",
+   "ty": "numerical",
+   "tq": "Select the exact scale of the national genomics project.",
+   "sec": "Genomics and data - Genome India, IBDC, DNA fingerprinting, biobanks"
+  },
+  {
+   "s": "The Indian Biological Data Centre is a national repository for:",
+   "o": [
+    "Clinical medicines manufactured abroad",
+    "Only wildlife photographs",
+    "Privately funded agricultural patents only",
+    "Publicly funded life-science data"
+   ],
+   "a": 3,
+   "x": "IBDC serves as the national repository for publicly funded life-science data.",
+   "ty": "fact",
+   "tq": "Identify the repository’s data scope, not merely its location.",
+   "sec": "Genomics and data - Genome India, IBDC, DNA fingerprinting, biobanks"
+  },
+  {
+   "s": "The Indian Biological Data Centre is located at:",
+   "o": [
+    "BARC, Mumbai",
+    "RCB, Faridabad",
+    "CCMB, Hyderabad",
+    "NDRI, Karnal"
+   ],
+   "a": 1,
+   "x": "IBDC is located at the Regional Centre for Biotechnology, Faridabad.",
+   "ty": "fact",
+   "tq": "Match the data centre with its host institution and location.",
+   "sec": "Genomics and data - Genome India, IBDC, DNA fingerprinting, biobanks"
+  },
+  {
+   "s": "DNA fingerprinting primarily uses which type of DNA variation?",
+   "o": [
+    "Messenger RNA codons",
+    "VNTRs or repetitive DNA",
+    "Restriction enzymes themselves",
+    "Only mitochondrial ribosomes"
+   ],
+   "a": 1,
+   "x": "DNA fingerprinting uses variations in repetitive DNA, particularly variable number tandem repeats (VNTRs).",
+   "ty": "fact",
+   "tq": "Distinguish the genetic marker from the laboratory enzyme used in DNA work.",
+   "sec": "Genomics and data - Genome India, IBDC, DNA fingerprinting, biobanks"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Alec Jeffreys — DNA fingerprinting, 1984",
+    "Lalji Singh — hybridoma technique, 1975",
+    "Kohler and Milstein — DNA fingerprinting in 1984",
+    "Lalji Singh — first cloned sheep, 1996"
+   ],
+   "a": 0,
+   "x": "Alec Jeffreys developed DNA fingerprinting in 1984. In India, Lalji Singh is associated with DNA fingerprinting research at CCMB.",
+   "ty": "match",
+   "tq": "Use the discoverer–year pair and reject swapped achievements.",
+   "sec": "Genomics and data - Genome India, IBDC, DNA fingerprinting, biobanks"
+  },
+  {
+   "s": "India’s first zoo bio-bank was established at:",
+   "o": [
+    "Nehru Zoological Park, Hyderabad, with BARC",
+    "Indira Gandhi Zoological Park, Visakhapatnam, with RCB",
+    "Padmaja Naidu Zoo, Darjeeling, with CSIR-CCMB",
+    "Central Zoo, New Delhi, with NDRI"
+   ],
+   "a": 2,
+   "x": "India’s first zoo bio-bank is at Padmaja Naidu Zoo, Darjeeling, in collaboration with CSIR-CCMB.",
+   "ty": "fact",
+   "tq": "Match the facility with its location and collaborating institution.",
+   "sec": "Genomics and data - Genome India, IBDC, DNA fingerprinting, biobanks"
+  },
+  {
+   "s": "The storage temperature specified for India’s first zoo bio-bank is:",
+   "o": [
+    "0°C",
+    "−196°C",
+    "−20°C",
+    "−80°C"
+   ],
+   "a": 1,
+   "x": "The zoo bio-bank at Padmaja Naidu Zoo stores material at −196°C.",
+   "ty": "numerical",
+   "tq": "Distinguish cryogenic storage from ordinary freezing temperatures.",
+   "sec": "Genomics and data - Genome India, IBDC, DNA fingerprinting, biobanks"
+  },
+  {
+   "s": "According to the CBD definition cited for biotechnology, biotechnology involves the use of biological systems to:",
+   "o": [
+    "Eliminate all natural ecosystems",
+    "Make or modify products",
+    "Classify organisms only by external appearance",
+    "Replace every chemical process with a mechanical process"
+   ],
+   "a": 1,
+   "x": "The CBD 1992 definition describes biotechnology as using biological systems to make or modify products.",
+   "ty": "fact",
+   "tq": "Select the precise wording of the definition rather than an extreme interpretation.",
+   "sec": "Nature and tools - branches, PCR, electrophoresis, bioreactors"
+  },
+  {
+   "s": "Which one of the following branches is correctly matched with its broad field?",
+   "o": [
+    "Red biotechnology — medical applications",
+    "Green biotechnology — marine applications",
+    "White biotechnology — medical diagnostics only",
+    "Blue biotechnology — industrial enzymes only"
+   ],
+   "a": 0,
+   "x": "Red biotechnology concerns medicine, green agriculture, white industry and blue marine applications.",
+   "ty": "match",
+   "tq": "Match colour coding with the sector it represents.",
+   "sec": "Nature and tools - branches, PCR, electrophoresis, bioreactors"
+  },
+  {
+   "s": "Arrange the major stages of PCR in the correct order: \nA. Extension\nB. Denaturation\nC. Annealing\nD. Polymerase-mediated synthesis of the complementary strand",
+   "o": [
+    "B, C, A, D",
+    "C, B, D, A",
+    "B, C, D, A",
+    "D, B, C, A"
+   ],
+   "a": 2,
+   "x": "PCR proceeds through denaturation, annealing and extension; extension involves polymerase-mediated synthesis of the complementary strand.",
+   "ty": "chronology",
+   "tq": "Remember the standard first–second–third PCR cycle sequence.",
+   "sec": "Nature and tools - branches, PCR, electrophoresis, bioreactors"
+  },
+  {
+   "s": "Which enzyme is essential for amplification of DNA during PCR?",
+   "o": [
+    "Pectinase",
+    "Chymosin",
+    "DNA polymerase",
+    "DNA ligase only"
+   ],
+   "a": 2,
+   "x": "DNA polymerase synthesises new DNA strands during PCR. Ligase joins DNA fragments but is not the principal amplification enzyme.",
+   "ty": "fact",
+   "tq": "Separate the enzyme that amplifies DNA from the enzyme that joins fragments.",
+   "sec": "Nature and tools - branches, PCR, electrophoresis, bioreactors"
+  },
+  {
+   "s": "Gel electrophoresis separates DNA fragments primarily on the basis of their:",
+   "o": [
+    "Size",
+    "Colour",
+    "Antibody specificity",
+    "Ability to ferment sugars"
+   ],
+   "a": 0,
+   "x": "Gel electrophoresis separates DNA fragments according to size.",
+   "ty": "fact",
+   "tq": "Identify the physical property used in the separation method.",
+   "sec": "Nature and tools - branches, PCR, electrophoresis, bioreactors"
+  },
+  {
+   "s": "Which one of the following pairs correctly describes tools used in recombinant DNA technology?",
+   "o": [
+    "Restriction enzymes cut DNA, ligase joins DNA, and plasmids can act as vectors",
+    "Restriction enzymes join DNA, ligase replicates cells, and plasmids destroy vectors",
+    "Restriction enzymes produce antibodies, ligase ferments sugar, and plasmids are enzymes",
+    "Restriction enzymes separate proteins, ligase fixes nitrogen, and plasmids are vaccines"
+   ],
+   "a": 0,
+   "x": "Restriction enzymes cut DNA at specific sites, ligase joins DNA fragments, and plasmids can function as vectors.",
+   "ty": "match",
+   "tq": "Assign each tool its core function and reject reversed roles.",
+   "sec": "Nature and tools - branches, PCR, electrophoresis, bioreactors"
+  },
+  {
+   "s": "Which of the following is an IN-SITU technique for treating contaminated material?",
+   "o": [
+    "Bioventing",
+    "Landfarming",
+    "Slurry bioreactor treatment",
+    "Composting after excavation"
+   ],
+   "a": 0,
+   "x": "Bioventing is an in-situ technique. Landfarming, composting after removal and slurry bioreactors are ex-situ approaches.",
+   "ty": "negative",
+   "tq": "Use the treatment location as the first filter.",
+   "sec": "In-situ vs ex-situ - site, cost, techniques"
+  },
+  {
+   "s": "Consider the following statements regarding in-situ and ex-situ treatment:\n1. In-situ treatment is carried out at the contaminated site.\n2. Ex-situ treatment involves excavation or removal for treatment in beds or reactors.\n3. Bioventing and biosparging are in-situ techniques.\n4. Landfarming, composting and biopiles are ex-situ techniques.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the site and techniques of in-situ and ex-situ treatment.",
+   "ty": "statements",
+   "tq": "Classify each technique by whether material remains at the site or is removed.",
+   "sec": "In-situ vs ex-situ - site, cost, techniques"
+  },
+  {
+   "s": "Which statement best describes the cost comparison between in-situ and ex-situ bioremediation?",
+   "o": [
+    "In-situ treatment is generally the most cost-efficient; ex-situ bioreactors have high capital and operating costs.",
+    "Ex-situ bioreactors require no operating expenditure.",
+    "In-situ treatment always has higher capital costs than all ex-situ methods.",
+    "All ex-situ techniques are more expensive than every in-situ technique."
+   ],
+   "a": 0,
+   "x": "In-situ treatment is generally the most cost-efficient. Landfarming and biopiles may be low-cost ex-situ methods, while bioreactors involve high capital and operating costs.",
+   "ty": "comparison",
+   "tq": "Watch for the trap created by the word ‘all’ in cost comparisons.",
+   "sec": "In-situ vs ex-situ - site, cost, techniques"
+  },
+  {
+   "s": "Which one of the following is a limitation of in-situ bioremediation?",
+   "o": [
+    "High capital cost of every treatment operation",
+    "Complete absence of environmental dependence",
+    "Compulsory excavation in every case",
+    "Environmental constraints and long treatment time"
+   ],
+   "a": 3,
+   "x": "In-situ treatment may face environmental constraints, require a long treatment time and be complicated by metals or inorganic contaminants.",
+   "ty": "fact",
+   "tq": "Identify the limitation that belongs to the treatment method rather than its alternative.",
+   "sec": "In-situ vs ex-situ - site, cost, techniques"
+  },
+  {
+   "s": "Which of the following is associated with ex-situ treatment limitations?",
+   "o": [
+    "No need to handle contaminated material",
+    "Treatment always being slower than in-situ treatment",
+    "Complete elimination of abiotic losses",
+    "Need for space, excavation and possible mass-transfer problems"
+   ],
+   "a": 3,
+   "x": "Ex-situ treatment can require excavation and space and may face abiotic losses, mass-transfer limitations and poor bioavailability.",
+   "ty": "application",
+   "tq": "Match the operational limitation with the method requiring removal of material.",
+   "sec": "In-situ vs ex-situ - site, cost, techniques"
+  },
+  {
+   "s": "Under optimised conditions, which ex-situ method can provide the fastest treatment because of rapid kinetics?",
+   "o": [
+    "Bioreactors",
+    "Bioventing",
+    "Passive in-situ treatment",
+    "Biosparging"
+   ],
+   "a": 0,
+   "x": "Ex-situ bioreactors can be the fastest option under optimised conditions because they permit rapid kinetics.",
+   "ty": "fact",
+   "tq": "Compare speed only after identifying the controlled treatment environment.",
+   "sec": "In-situ vs ex-situ - site, cost, techniques"
+  }
+ ]
+}

@@ -1,0 +1,454 @@
+{
+ "book": 5,
+ "row": 95,
+ "chunk": 1,
+ "section": "International climate initiatives - UNFCCC, Kyoto Protocol, CDM, Paris Agreement, key COP outcomes, IPCC assessment reports",
+ "subsections": [
+  "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake",
+  "Climate finance and risk initiatives - Global Shield, GCF, GEF, Adaptation Fund, L&D Fund",
+  "Treaty and its environmental goal"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The Paris Agreement was adopted on which date at COP21?",
+   "o": [
+    "12 December 2015",
+    "4 November 2016",
+    "2 October 2016",
+    "12 December 2016"
+   ],
+   "a": 0,
+   "x": "The Paris Agreement was adopted on 12 December 2015 at COP21 held in Paris.",
+   "ty": "fact",
+   "tq": "Use the exact date associated with adoption rather than the date of entry into force.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "The Paris Agreement entered into force on:",
+   "o": [
+    "2 October 2016",
+    "12 December 2015",
+    "4 November 2016",
+    "1 January 2017"
+   ],
+   "a": 2,
+   "x": "The Paris Agreement entered into force on 4 November 2016. India ratified it on 2 October 2016.",
+   "ty": "numerical",
+   "tq": "Distinguish adoption, ratification and entry into force dates.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "The temperature goal of the Paris Agreement is to:",
+   "o": [
+    "limit warming to 1°C by 2030",
+    "prevent any increase in global temperature",
+    "keep warming well below 2°C and pursue efforts to limit it to 1.5°C above pre-industrial levels",
+    "limit warming to exactly 2°C above pre-industrial levels"
+   ],
+   "a": 2,
+   "x": "The Agreement seeks to hold warming well below 2°C and pursue efforts to limit it to 1.5°C above pre-industrial levels.",
+   "ty": "fact",
+   "tq": "Discriminate between the binding temperature range and an incorrectly absolute target.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding Nationally Determined Contributions (NDCs):\n1. Each country sets its own NDC targets.\n2. NDCs are submitted every five years.\n3. The emission-reduction targets themselves are legally binding in the same manner for all countries.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Countries determine their own targets and submit NDCs every five years. The emission targets themselves are not legally binding, although procedural duties such as preparing and communicating NDCs are binding.",
+   "ty": "statements",
+   "tq": "Separate the legally binding procedure from the non-legally binding national target.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the legal character of the Paris Agreement?",
+   "o": [
+    "The emission targets are uniformly legally binding, but reporting is voluntary",
+    "The treaty has legally binding procedural duties, while the nationally determined emission targets are not legally binding",
+    "Only countries of the European Union have legally binding duties under it",
+    "Neither the treaty nor its reporting procedures are legally binding"
+   ],
+   "a": 1,
+   "x": "The Agreement binds parties to procedural obligations such as preparing, communicating and reporting NDCs, but the emission targets themselves are nationally determined and not legally binding.",
+   "ty": "confusable",
+   "tq": "Test the common trap of treating procedural obligations and emission targets as identical.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "With reference to the Paris Agreement, which of the following statements is correct?",
+   "o": [
+    "The ratchet mechanism replaces the Global Stocktake",
+    "The ratchet mechanism applies only to developed countries",
+    "The ratchet mechanism requires successive NDCs to represent progression beyond previous NDCs",
+    "The ratchet mechanism requires each new NDC to be weaker than the previous one"
+   ],
+   "a": 2,
+   "x": "Under the ratchet mechanism, each new NDC must represent progression beyond the previous one and is informed by the Global Stocktake.",
+   "ty": "application",
+   "tq": "Apply the meaning of progression to distinguish the ratchet mechanism from a rollback.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "Article 6.2 of the Paris Agreement primarily deals with:",
+   "o": [
+    "global stocktake procedures",
+    "bilateral cooperative approaches",
+    "the establishment of the Green Climate Fund",
+    "the temperature goal of 1.5°C"
+   ],
+   "a": 1,
+   "x": "Article 6.2 covers bilateral cooperative approaches, such as the India-Japan Joint Crediting Mechanism.",
+   "ty": "fact",
+   "tq": "Match the article number with its specific function rather than a neighbouring Paris mechanism.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Article 6.2 — Paris Agreement Crediting Mechanism",
+    "Article 6.4 — bilateral cooperative approaches only",
+    "Article 6.4 — UN-run Paris Agreement Crediting Mechanism",
+    "Article 14 — Clean Development Mechanism under Kyoto"
+   ],
+   "a": 2,
+   "x": "Article 6.4 establishes the UN-run Paris Agreement Crediting Mechanism (PACM). Article 6.2 concerns bilateral cooperative approaches, while Article 14 concerns the Global Stocktake.",
+   "ty": "match",
+   "tq": "Start with the sure article-mechanism pair and eliminate swapped functions.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "The credits issued under the Paris Agreement Crediting Mechanism established under Article 6.4 are called:",
+   "o": [
+    "A6.4ERs",
+    "GLOFs",
+    "NDCs",
+    "CERs"
+   ],
+   "a": 0,
+   "x": "Article 6.4 credits are called A6.4ERs. CERs are associated with the Kyoto Protocol’s Clean Development Mechanism.",
+   "ty": "confusable",
+   "tq": "Distinguish the official abbreviation of the newer Paris mechanism from the Kyoto-era CERs.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about Article 6 of the Paris Agreement:\n1. Article 6.4 establishes a mechanism that replaces the Kyoto Protocol’s CDM.\n2. Corresponding adjustments are intended to prevent double counting.\n3. Article 6 became fully operational at COP29.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Article 6.4 mechanism replaces the Kyoto CDM, corresponding adjustments prevent double counting, and Article 6 was made fully operational at COP29.",
+   "ty": "statements",
+   "tq": "Combine mechanism, safeguard and operational-status facts in a coded statement question.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "The first Article 6.4 credits were issued to which project?",
+   "o": [
+    "A clean-cooking project in Myanmar",
+    "A hydropower project in China",
+    "A solar project in Japan",
+    "A forest project in India"
+   ],
+   "a": 0,
+   "x": "The first Article 6.4 credits went to a clean-cooking project in Myanmar.",
+   "ty": "fact",
+   "tq": "Test the specific project-country association, a common location-based trap.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "The Global Stocktake under Article 14 of the Paris Agreement is conducted:",
+   "o": [
+    "annually",
+    "once every two years",
+    "once every five years",
+    "only at the end of the Agreement"
+   ],
+   "a": 2,
+   "x": "The Global Stocktake takes place every five years.",
+   "ty": "numerical",
+   "tq": "Use the recurring interval to eliminate annual and one-time alternatives.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "The first Global Stocktake under the Paris Agreement was concluded at:",
+   "o": [
+    "COP21",
+    "COP27",
+    "COP28",
+    "COP29"
+   ],
+   "a": 2,
+   "x": "The first Global Stocktake was concluded at COP28.",
+   "ty": "fact",
+   "tq": "Distinguish the conference that adopted the Agreement from the conference that completed the first stocktake.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly reflects India’s successive emissions-intensity targets under the Paris framework?",
+   "o": [
+    "33–35% by 2030 in 2022; 45% by 2035; 47% by 2040",
+    "35% by 2025; 40% by 2030; 45% by 2035",
+    "45% by 2020; 47% by 2030; 33–35% by 2035",
+    "33–35% by 2030 in 2015; 45% by 2030 in 2022; 47% by 2035 in the 2031–35 NDC"
+   ],
+   "a": 3,
+   "x": "India’s 2015 target was a 33–35% emissions-intensity reduction by 2030 from the 2005 base year. It was updated to 45% by 2030 in 2022, while the 2031–35 NDC targets 47% by 2035.",
+   "ty": "comparison",
+   "tq": "Compare successive targets by both year and percentage instead of selecting an isolated figure.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "India had achieved what reduction in emissions intensity by 2020, as stated in the climate-target framework?",
+   "o": [
+    "33%",
+    "35%",
+    "36%",
+    "45%"
+   ],
+   "a": 2,
+   "x": "India achieved a 36% reduction in emissions intensity by 2020.",
+   "ty": "numerical",
+   "tq": "Separate an achieved value from the formally announced target values.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "The United States left the Paris Agreement for the second time in:",
+   "o": [
+    "January 2025",
+    "January 2020",
+    "January 2024",
+    "January 2026"
+   ],
+   "a": 3,
+   "x": "The United States left the Paris Agreement for the second time in January 2026.",
+   "ty": "numerical",
+   "tq": "Use the exact year in a current-affairs date question and distinguish it from the first withdrawal episode.",
+   "sec": "Paris Agreement - temperature goal, NDCs, Article 6, global stocktake  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly identifies the Green Climate Fund (GCF)?",
+   "o": [
+    "It was established under the Kyoto Protocol and funded only by CDM proceeds",
+    "It was created at COP27 and became operational at COP28",
+    "It was set up in 2010 by UNFCCC parties and is headquartered at Songdo, Incheon, South Korea",
+    "It was set up in 1991 at Washington, D.C."
+   ],
+   "a": 2,
+   "x": "The GCF was set up in 2010 by UNFCCC parties and is headquartered at Songdo, Incheon, South Korea.",
+   "ty": "fact",
+   "tq": "Use the organisation’s founding body, year and headquarters together to avoid fund-name swaps.",
+   "sec": "Climate finance and risk initiatives - Global Shield, GCF, GEF, Adaptation Fund, L&D Fund  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Green Climate Fund:\n1. It has a 24-member Board.\n2. It is an operating entity of the UNFCCC financial mechanism.\n3. It is described as the largest dedicated climate fund.\n4. It was headquartered in Washington, D.C.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "The GCF has a 24-member Board, operates under the UNFCCC financial mechanism and is the largest dedicated climate fund. Its headquarters is at Songdo, Incheon, not Washington, D.C.",
+   "ty": "statements",
+   "tq": "Find the wrong headquarters statement among otherwise related institutional facts.",
+   "sec": "Climate finance and risk initiatives - Global Shield, GCF, GEF, Adaptation Fund, L&D Fund  [APPSC]"
+  },
+  {
+   "s": "The Green Climate Fund was criticised for delaying clearance of Nepal’s proposal concerning:",
+   "o": [
+    "a $4.99 million drought project for five years",
+    "a $49.9 billion coastal project for two years",
+    "a $49.9 million GLOF-risk proposal for seven years",
+    "a $499 million forest project for ten years"
+   ],
+   "a": 2,
+   "x": "The GCF was criticised for a seven-year delay in clearing Nepal’s $49.9 million proposal relating to glacial lake outburst flood (GLOF) risk.",
+   "ty": "numerical",
+   "tq": "Match the amount, duration and risk type rather than relying on the fund’s general role.",
+   "sec": "Climate finance and risk initiatives - Global Shield, GCF, GEF, Adaptation Fund, L&D Fund  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Global Environment Facility — established in 1991; headquarters at Washington, D.C.",
+    "Green Climate Fund — established in 1991; headquarters at Washington, D.C.",
+    "Adaptation Fund — established by the Montreal Protocol",
+    "Loss and Damage Fund — established under the Kyoto Protocol in 2001"
+   ],
+   "a": 0,
+   "x": "The Global Environment Facility was established in 1991 and is headquartered in Washington, D.C.",
+   "ty": "match",
+   "tq": "Start with the founding-year and headquarters pair, then reject swapped fund identities.",
+   "sec": "Climate finance and risk initiatives - Global Shield, GCF, GEF, Adaptation Fund, L&D Fund  [APPSC]"
+  },
+  {
+   "s": "The Global Environment Facility finances which of the following groups of conventions and frameworks?",
+   "o": [
+    "Only the CBD and Ramsar Convention",
+    "Only the UNFCCC and Paris Agreement",
+    "UNFCCC, CBD, UNCCD, Stockholm Convention and Minamata Convention",
+    "Kyoto Protocol, CITES and Montreal Protocol exclusively"
+   ],
+   "a": 2,
+   "x": "The GEF finances the UNFCCC, CBD, UNCCD, Stockholm Convention and Minamata Convention, among others. It also houses the Global Biodiversity Framework Fund.",
+   "ty": "fact",
+   "tq": "Use the complete institutional portfolio against options that incorrectly restrict the body to one treaty.",
+   "sec": "Climate finance and risk initiatives - Global Shield, GCF, GEF, Adaptation Fund, L&D Fund  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Adaptation Fund was set up under the Kyoto Protocol.\n2. It is financed by a share of proceeds from the Clean Development Mechanism.\n3. The share of CDM Certified Emission Reductions associated with it is 2 percent.\n4. NABARD is India’s National Implementing Entity for the Adaptation Fund.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4",
+    "2 and 4 only"
+   ],
+   "a": 2,
+   "x": "The Adaptation Fund was established under the Kyoto Protocol, is financed by a 2% share of CDM CER proceeds, and NABARD is India’s National Implementing Entity.",
+   "ty": "statements",
+   "tq": "Combine origin, financing percentage and national implementation facts in one coded question.",
+   "sec": "Climate finance and risk initiatives - Global Shield, GCF, GEF, Adaptation Fund, L&D Fund  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the chronology of the Adaptation Fund?",
+   "o": [
+    "Set up under Kyoto Protocol in 2001 and running from 2007",
+    "Set up at COP27 in 2022 and running from COP28",
+    "Set up in 1991 and running from 1992",
+    "Set up under the Paris Agreement in 2015 and running from 2016"
+   ],
+   "a": 0,
+   "x": "The Adaptation Fund was set up under the Kyoto Protocol in 2001 and has been running from 2007.",
+   "ty": "chronology",
+   "tq": "Use the first and last dates to distinguish the Kyoto-era fund from later climate-finance institutions.",
+   "sec": "Climate finance and risk initiatives - Global Shield, GCF, GEF, Adaptation Fund, L&D Fund  [APPSC]"
+  },
+  {
+   "s": "NABARD has which of the following roles in international climate finance?",
+   "o": [
+    "It is the UNFCCC’s 24-member Board.",
+    "It is India’s National Implementing Entity for the Adaptation Fund and a Direct Access Entity of the GCF.",
+    "It is the founding body of the Global Shield and the L&D Fund.",
+    "It is the headquarters of the GCF and the trustee of the GEF."
+   ],
+   "a": 1,
+   "x": "NABARD is India’s National Implementing Entity for the Adaptation Fund and a Direct Access Entity of the Green Climate Fund.",
+   "ty": "fact",
+   "tq": "Test institutional roles by asking who performs the national implementation function.",
+   "sec": "Climate finance and risk initiatives - Global Shield, GCF, GEF, Adaptation Fund, L&D Fund  [APPSC]"
+  },
+  {
+   "s": "The Loss and Damage Fund was:",
+   "o": [
+    "created at COP27 and made operational at COP28",
+    "created at COP21 and made operational at COP22",
+    "created in 1991 and made operational in 2001",
+    "created under the Montreal Protocol and made operational at COP29"
+   ],
+   "a": 0,
+   "x": "The Loss and Damage Fund was created at COP27 and became operational at COP28.",
+   "ty": "chronology",
+   "tq": "Arrange the creation and operationalisation conferences rather than confusing them with the Paris Agreement timeline.",
+   "sec": "Climate finance and risk initiatives - Global Shield, GCF, GEF, Adaptation Fund, L&D Fund  [APPSC]"
+  },
+  {
+   "s": "Which one of the following treaties is NOT primarily concerned with reducing greenhouse-gas emissions?",
+   "o": [
+    "Kyoto Protocol",
+    "UNFCCC",
+    "Paris Agreement",
+    "Basel Convention"
+   ],
+   "a": 3,
+   "x": "The Basel Convention concerns the transboundary movement of hazardous waste, not greenhouse-gas reduction. The UNFCCC, Kyoto Protocol and Paris Agreement address greenhouse-gas emissions and climate change.",
+   "ty": "negative",
+   "tq": "Find the treaty whose environmental objective belongs to hazardous-waste management rather than climate mitigation.",
+   "sec": "Treaty and its environmental goal  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer.\n\nList-I (Treaty)\na. Montreal Protocol\nb. Basel Convention\nc. CBD\n d. Ramsar Convention\n\nList-II (Environmental goal)\ni. Wetlands\nii. Biodiversity\niii. Ozone-depleting substances\niv. Transboundary movement of hazardous waste",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–i, b–ii, c–iii, d–iv"
+   ],
+   "a": 0,
+   "x": "The Montreal Protocol addresses ozone-depleting substances, Basel concerns hazardous-waste movement, CBD concerns biodiversity and Ramsar concerns wetlands.",
+   "ty": "match",
+   "tq": "Start with the distinctive ozone and wetlands pairs, then complete the remaining matches.",
+   "sec": "Treaty and its environmental goal  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Ramsar Convention — wetlands; 1971, Iran",
+    "CITES — wetlands; 1971, Iran",
+    "Basel Convention — endangered species trade; Washington",
+    "Montreal Protocol — biodiversity; Rio, 1992"
+   ],
+   "a": 0,
+   "x": "The Ramsar Convention was adopted in 1971 in Iran and concerns wetlands.",
+   "ty": "match",
+   "tq": "Use the place-year pair as the anchor for distinguishing Ramsar from other environmental treaties.",
+   "sec": "Treaty and its environmental goal  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about CITES:\n1. It concerns international trade in endangered species.\n2. It is associated with Washington.\n3. It was signed in 1973.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "CITES regulates trade in endangered species, is associated with Washington and was signed in 1973.",
+   "ty": "statements",
+   "tq": "Check all three identifying details before selecting the complete coded option.",
+   "sec": "Treaty and its environmental goal  [APPSC]"
+  },
+  {
+   "s": "India’s action concerning HCFC-141b was which of the following?",
+   "o": [
+    "India phased out HFCs completely before the Montreal Protocol.",
+    "India increased its use in rigid foam as part of the Kigali Amendment.",
+    "India reduced HCFC-141b use only after 2035.",
+    "India phased it out in rigid foam and was the first developing country to do so."
+   ],
+   "a": 3,
+   "x": "India phased out HCFC-141b in rigid foam and became the first developing country to do so.",
+   "ty": "fact",
+   "tq": "Identify the specific chemical and application instead of substituting HFCs or another sector.",
+   "sec": "Treaty and its environmental goal  [APPSC]"
+  },
+  {
+   "s": "By January 2020, India had cut HCFCs by what percentage against a target of 35 percent?",
+   "o": [
+    "33%",
+    "35%",
+    "44%",
+    "47%"
+   ],
+   "a": 2,
+   "x": "India cut HCFCs by 44% by January 2020, exceeding the target of 35%.",
+   "ty": "numerical",
+   "tq": "Compare the achieved percentage with the target and avoid choosing the target itself.",
+   "sec": "Treaty and its environmental goal  [APPSC]"
+  }
+ ]
+}

@@ -1,0 +1,356 @@
+{
+ "book": 1,
+ "row": 97,
+ "chunk": 1,
+ "section": "Temple architecture styles of Andhradesa between the 11th and 16th centuries",
+ "subsections": [
+  "Pancharama, Jyotirlinga and Shakti peetha temples - dynastic additions",
+  "Temple sculpture - bracket figures, dance panels, madanikas",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 26,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is correctly matched with its location?\n\n1. Amararama — Amaravati\n2. Somarama — Bhimavaram\n3. Ksheerarama — Palakollu\n4. Kumararama — Samalkot",
+   "o": [
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched: Amararama is at Amaravati, Somarama at Bhimavaram, Ksheerarama at Palakollu and Kumararama at Samalkot.",
+   "ty": "match",
+   "tq": "Start from the sure location pairs and eliminate codes containing a wrong pair.",
+   "sec": "Pancharama, Jyotirlinga and Shakti peetha temples - dynastic additions"
+  },
+  {
+   "s": "The Pancharama temple located at Amaravati is known as",
+   "o": [
+    "Kumararama",
+    "Draksharama",
+    "Ksheerarama",
+    "Amararama"
+   ],
+   "a": 3,
+   "x": "Amararama, one of the five Pancharama temples, is located at Amaravati.",
+   "ty": "fact",
+   "tq": "Direct place-name recall is best tested through a one-to-one temple-location question.",
+   "sec": "Pancharama, Jyotirlinga and Shakti peetha temples - dynastic additions"
+  },
+  {
+   "s": "Which of the following Pancharama temples is situated at Palakollu?",
+   "o": [
+    "Amararama",
+    "Kumararama",
+    "Somarama",
+    "Ksheerarama"
+   ],
+   "a": 3,
+   "x": "Ksheerarama is the Pancharama temple situated at Palakollu.",
+   "ty": "fact",
+   "tq": "Use nearby names as distractors while testing an exact temple-location association.",
+   "sec": "Pancharama, Jyotirlinga and Shakti peetha temples - dynastic additions"
+  },
+  {
+   "s": "Draksharama was built by",
+   "o": [
+    "Chalukya Bhima I",
+    "Jayapa Senani",
+    "Recherla Rudra",
+    "Ganapatideva"
+   ],
+   "a": 0,
+   "x": "Draksharama was built by Chalukya Bhima I.",
+   "ty": "fact",
+   "tq": "The ruler-builder association is tested directly, using names from related temple history as traps.",
+   "sec": "Pancharama, Jyotirlinga and Shakti peetha temples - dynastic additions"
+  },
+  {
+   "s": "Draksharama is particularly associated with which architectural style?",
+   "o": [
+    "Chalukya-Chola style",
+    "Kakatiya-Lepakshi style",
+    "Nagara style",
+    "Vijayanagara style"
+   ],
+   "a": 0,
+   "x": "Draksharama is cited as an example of the Chalukya-Chola style.",
+   "ty": "confusable",
+   "tq": "Discriminate between closely related architectural labels rather than choosing a broad regional style.",
+   "sec": "Pancharama, Jyotirlinga and Shakti peetha temples - dynastic additions"
+  },
+  {
+   "s": "Consider the following statements about Draksharama:\n1. It was built by Chalukya Bhima I.\n2. The Reddis renovated and endowed the temple.\n3. It is regarded as the most architecturally significant among the Pancharamas.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Draksharama was built by Chalukya Bhima I, later received Reddi renovation and endowments, and is regarded as the most architecturally significant Pancharama.",
+   "ty": "statements",
+   "tq": "Check each statement independently, especially the builder, later additions and comparative significance.",
+   "sec": "Pancharama, Jyotirlinga and Shakti peetha temples - dynastic additions"
+  },
+  {
+   "s": "Kumararama at Samalkot is also referred to as",
+   "o": [
+    "Veera Siromandapam",
+    "Dakshin Kashi",
+    "Chalukya Bhimavaram",
+    "Amararama"
+   ],
+   "a": 2,
+   "x": "Kumararama at Samalkot is also referred to as Chalukya Bhimavaram.",
+   "ty": "confusable",
+   "tq": "Separate an alternate place-name from titles and names of other temples or structures.",
+   "sec": "Pancharama, Jyotirlinga and Shakti peetha temples - dynastic additions"
+  },
+  {
+   "s": "Which of the following statements regarding Kumararama is correct?",
+   "o": [
+    "It is situated at Srisailam and contains the Reddi steps of 1346.",
+    "It is situated at Samalkot and contains Reddi sculptural additions.",
+    "It is situated at Amaravati and was endowed by the Reddis.",
+    "It is situated at Palakollu and is associated with the Chalukya-Chola style."
+   ],
+   "a": 1,
+   "x": "Kumararama is located at Samalkot and has Reddi sculptural additions.",
+   "ty": "fact",
+   "tq": "Use a combined location-feature question to distinguish closely related temples and additions.",
+   "sec": "Pancharama, Jyotirlinga and Shakti peetha temples - dynastic additions"
+  },
+  {
+   "s": "The Reddi steps at Srisailam were constructed in",
+   "o": [
+    "1213",
+    "1346",
+    "2021",
+    "2026"
+   ],
+   "a": 1,
+   "x": "The Reddi steps at Srisailam date to 1346.",
+   "ty": "numerical",
+   "tq": "For date questions, distinguish the historical construction year from dates belonging to modern conservation or recognition.",
+   "sec": "Pancharama, Jyotirlinga and Shakti peetha temples - dynastic additions"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Siddhavatam fort — southern gateway to Srisailam",
+    "Srisailam — Dakshin Kashi",
+    "Draksharama — southern gateway to Srisailam",
+    "Srisailam — Veera Siromandapam"
+   ],
+   "a": 2,
+   "x": "Draksharama is not the southern gateway to Srisailam. Siddhavatam fort is described as the southern gateway to Srisailam; Srisailam is also known as Dakshin Kashi and has the Veera Siromandapam.",
+   "ty": "negative",
+   "tq": "Find the swapped location association in the NOT correctly matched question.",
+   "sec": "Pancharama, Jyotirlinga and Shakti peetha temples - dynastic additions"
+  },
+  {
+   "s": "Which of the following pairs of Shakti peethas and temples is correctly matched?\n\n1. Bhramaramba — Srisailam\n2. Manikyamba — Draksharama",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Bhramaramba is associated with Srisailam, while Manikyamba is associated with Draksharama. Therefore, both pairs are correct.",
+   "ty": "match",
+   "tq": "Test paired associations by checking each temple-deity combination separately.",
+   "sec": "Pancharama, Jyotirlinga and Shakti peetha temples - dynastic additions"
+  },
+  {
+   "s": "The madanika bracket figures of the Ramappa Temple at Palampet were carved in",
+   "o": [
+    "warrior postures based on military manuals",
+    "dance postures based on Nrittaratnavali",
+    "royal postures based on Chola inscriptions",
+    "meditative postures based on Buddhist texts"
+   ],
+   "a": 1,
+   "x": "The madanika bracket figures at Ramappa were carved in dance postures based on Jayapa Senani's Nrittaratnavali.",
+   "ty": "fact",
+   "tq": "Match the artistic feature with the specific treatise rather than with a broad cultural category.",
+   "sec": "Temple sculpture - bracket figures, dance panels, madanikas  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I\n(a) Nrittaratnavali\n(b) Jayapa Senani\n(c) Ramappa Temple\n(d) Ganapatideva\n\nList-II\n(i) Patron under whom Ramappa was built\n(ii) Commander associated with Ganapatideva\n(iii) Temple at Palampet\n(iv) Treatise on dance\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a–iv, b–ii, c–iii, d–i",
+    "a–ii, b–iv, c–i, d–iii",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–i, b–iii, c–ii, d–iv"
+   ],
+   "a": 0,
+   "x": "Nrittaratnavali is the dance treatise, Jayapa Senani was associated as Ganapatideva's commander, Ramappa is at Palampet, and Ganapatideva was the patron under whom it was built.",
+   "ty": "match",
+   "tq": "Start with the sure treatise–author or temple–place pair and complete the code by elimination.",
+   "sec": "Temple sculpture - bracket figures, dance panels, madanikas  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements about Jayapa Senani is correct?\n\n1. He was a commander of Ganapatideva.\n2. His Nrittaratnavali covers both marga and desi dance.\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Jayapa Senani was Ganapatideva's commander, and Nrittaratnavali covers both marga and desi forms of dance.",
+   "ty": "statements",
+   "tq": "Combine a person-role fact with the scope of his work and test both statements together.",
+   "sec": "Temple sculpture - bracket figures, dance panels, madanikas  [APPSC]"
+  },
+  {
+   "s": "Consider the following events:\nA. Construction of the Ramappa Temple\nB. UNESCO recognition of the Ramappa Temple\nC. ASI Nallamala survey\nD. ASI scientific conservation of the Mangalagiri Panakala Narasimha temple\n\nWhich one of the following is the correct chronological order?",
+   "o": [
+    "A, B, C, D",
+    "B, A, D, C",
+    "A, C, B, D",
+    "C, D, A, B"
+   ],
+   "a": 0,
+   "x": "Ramappa was built in 1213, received UNESCO World Heritage status in 2021, and the Nallamala survey and Mangalagiri conservation are recorded in 2026, with the survey preceding the conservation initiative.",
+   "ty": "chronology",
+   "tq": "Fix the earliest historical event first, then arrange the modern developments by year.",
+   "sec": "Temple sculpture - bracket figures, dance panels, madanikas  [APPSC]"
+  },
+  {
+   "s": "Ramappa Temple at Palampet was built in 1213 by",
+   "o": [
+    "Chalukya Bhima I under the Reddis",
+    "Nataraja Ramakrishna under Recherla Rudra",
+    "Recherla Rudra under Ganapatideva",
+    "Jayapa Senani under Chalukya Bhima I"
+   ],
+   "a": 2,
+   "x": "Ramappa Temple was built in 1213 by Recherla Rudra under Ganapatideva.",
+   "ty": "numerical",
+   "tq": "Use the date together with the builder and patron to avoid swapping the temple's associated personalities.",
+   "sec": "Temple sculpture - bracket figures, dance panels, madanikas  [APPSC]"
+  },
+  {
+   "s": "Who revived the Perini Shiva Tandavam from the dance panels of the Ramappa Temple?",
+   "o": [
+    "Jayapa Senani",
+    "Machaladevi",
+    "Ganapatideva",
+    "Nataraja Ramakrishna"
+   ],
+   "a": 3,
+   "x": "Nataraja Ramakrishna revived the Perini Shiva Tandavam using the dance panels of Ramappa Temple.",
+   "ty": "fact",
+   "tq": "Test the modern revivalist separately from the medieval ruler, commander and painter associated with the temple tradition.",
+   "sec": "Temple sculpture - bracket figures, dance panels, madanikas  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements is correct?\n\n1. Vijayanagara composite pillars carry dense iconography.\n2. Kakatiya painting associated with Machaladevi led on to the Lepakshi style.\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Vijayanagara composite pillars are noted for dense iconography, and Kakatiya painting associated with Machaladevi led on to the Lepakshi style.",
+   "ty": "statements",
+   "tq": "Check whether each statement describes a distinct architectural or artistic continuity correctly.",
+   "sec": "Temple sculpture - bracket figures, dance panels, madanikas  [APPSC]"
+  },
+  {
+   "s": "The inscriptions copied during the ASI Nallamala survey belonged to which chronological range?",
+   "o": [
+    "2nd–16th centuries",
+    "11th–16th centuries only",
+    "16th–21st centuries",
+    "1st–10th centuries"
+   ],
+   "a": 0,
+   "x": "The copied inscriptions date from the 2nd to the 16th centuries and span the Satavahana period to the Vijayanagara period, including the Kakatiyas and Reddis.",
+   "ty": "numerical",
+   "tq": "Use the full chronological range and reject options that omit either its early or late boundary.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which sequence correctly represents the dynastic span covered by the inscriptions copied in the Nallamala survey, from earlier to later?",
+   "o": [
+    "Satavahanas — Kakatiyas and Reddis — Vijayanagara",
+    "Vijayanagara — Reddis — Satavahanas",
+    "Kakatiyas — Satavahanas — Vijayanagara",
+    "Reddis — Vijayanagara — Satavahanas"
+   ],
+   "a": 0,
+   "x": "The survey covered inscriptions ranging from the Satavahanas to Vijayanagara, including the intervening Kakatiya and Reddi periods.",
+   "ty": "chronology",
+   "tq": "Place the earliest and latest dynasties first, then identify the intervening dynastic groups.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which temple became the subject of scientific conservation initiated by the Archaeological Survey of India?",
+   "o": [
+    "Kumararama at Samalkot",
+    "Mangalagiri Panakala Narasimha temple",
+    "Manikyamba temple at Draksharama",
+    "Ramappa Temple at Palampet"
+   ],
+   "a": 1,
+   "x": "The ASI began scientific conservation of the Mangalagiri Panakala Narasimha temple.",
+   "ty": "fact",
+   "tq": "Identify the exact institution–initiative–temple association without confusing it with heritage recognition or renovation.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "A temple-town development plan was ordered with master plans for how many major temples?",
+   "o": [
+    "5",
+    "22",
+    "25",
+    "5,000"
+   ],
+   "a": 1,
+   "x": "The plan includes master plans for 22 major temples.",
+   "ty": "numerical",
+   "tq": "Distinguish the number of major temple master plans from the separate number of proposed new temples.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following temples was included among those for which master plans had been done under the temple-town development plan?\n\n1. Simhachalam\n2. Annavaram\n3. Srikalahasti\n4. Kanipakam\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Simhachalam, Annavaram, Srikalahasti and Kanipakam were all among the temples for which master plans had been done.",
+   "ty": "statements",
+   "tq": "Treat every listed temple as a separate statement and select the complete combination only after checking all four.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "How many new temples were proposed to be built from Srivani funds under the temple development initiative?",
+   "o": [
+    "22",
+    "25",
+    "1346",
+    "5,000"
+   ],
+   "a": 3,
+   "x": "The initiative proposed 5,000 new temples from Srivani funds.",
+   "ty": "numerical",
+   "tq": "Separate the large construction target from the smaller survey and master-plan figures.",
+   "sec": "Universal angles"
+  }
+ ]
+}

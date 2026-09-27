@@ -1,0 +1,286 @@
+{
+ "book": 5,
+ "row": 113,
+ "chunk": 1,
+ "section": "Nanotechnology - nature, scope, applications, Nano Mission, health and environmental concerns",
+ "subsections": [
+  "Nano Mission - launch, department, successor",
+  "Tools and synthesis - STM, AFM, top-down vs bottom-up",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 20,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Nano Mission was launched in which year as an umbrella programme under the Department of Science and Technology?",
+   "o": [
+    "2005",
+    "2007",
+    "2010",
+    "2012"
+   ],
+   "a": 1,
+   "x": "The Nano Mission was launched in 2007 under the Department of Science and Technology as an umbrella programme.",
+   "ty": "fact",
+   "tq": "Directly identify the launch year and implementing department.",
+   "sec": "Nano Mission - launch, department, successor"
+  },
+  {
+   "s": "The initial outlay of the Nano Mission was approximately:",
+   "o": [
+    "Rs 6,003.65 crore for eight years",
+    "Rs 350 crore for three years",
+    "Rs 1,000 crore for five years",
+    "Rs 2,000 crore for ten years"
+   ],
+   "a": 2,
+   "x": "The Nano Mission had an initial outlay of Rs 1,000 crore for a period of five years.",
+   "ty": "numerical",
+   "tq": "Match the programme with its distinctive outlay and duration.",
+   "sec": "Nano Mission - launch, department, successor"
+  },
+  {
+   "s": "The Nano Mission continues as a national programme under which department?",
+   "o": [
+    "Department of Biotechnology",
+    "Department of Higher Education",
+    "Department of Scientific and Industrial Research",
+    "Department of Science and Technology"
+   ],
+   "a": 3,
+   "x": "The Nano Mission continues as a national programme under the Department of Science and Technology.",
+   "ty": "fact",
+   "tq": "Use the ‘who handles this programme?’ authority test.",
+   "sec": "Nano Mission - launch, department, successor"
+  },
+  {
+   "s": "The DST Nano Programme had an allocation of Rs 350 crore in which financial year?",
+   "o": [
+    "2023–24",
+    "2022–23",
+    "2025–26",
+    "2024–25"
+   ],
+   "a": 3,
+   "x": "The DST Nano Programme had an allocation of Rs 350 crore in financial year 2024–25.",
+   "ty": "numerical",
+   "tq": "Discriminate between closely placed financial years and programme figures.",
+   "sec": "Nano Mission - launch, department, successor"
+  },
+  {
+   "s": "Which one of the following institutions is associated with the continuing DST Nano Programme?",
+   "o": [
+    "National Chemical Laboratory, Pune",
+    "INST, Mohali",
+    "Indian Institute of Remote Sensing, Dehradun",
+    "ICAR-CIRCOT, Mumbai"
+   ],
+   "a": 1,
+   "x": "The Institute of Nano Science and Technology (INST), Mohali, is among the institutions associated with the DST Nano Programme.",
+   "ty": "fact",
+   "tq": "Identify the institution linked with the programme rather than a nearby nanotechnology institution.",
+   "sec": "Nano Mission - launch, department, successor"
+  },
+  {
+   "s": "Consider the following statements regarding the National Quantum Mission:\n1. It was launched on 19 April 2023.\n2. It has an approved outlay of Rs 6,003.65 crore.\n3. Its implementation period extends from 2023–24 to 2030–31.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The National Quantum Mission was launched on 19 April 2023, with an outlay of Rs 6,003.65 crore for 2023–24 to 2030–31.",
+   "ty": "statements",
+   "tq": "Verify the date, financial figure and implementation span as a single factual cluster.",
+   "sec": "Nano Mission - launch, department, successor"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Instrument)\n a. STM\n b. AFM\nList-II (Characteristic)\n i. Can work on non-conducting materials\n ii. Images atoms on conducting surfaces\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a–i, b–ii",
+    "a–ii, b–i",
+    "a–i, b–i",
+    "a–ii, b–ii"
+   ],
+   "a": 1,
+   "x": "STM images atoms on conductors, whereas AFM can also work on non-conductors. Therefore, a–ii and b–i is the correct matching.",
+   "ty": "match",
+   "tq": "Start from the sure instrument–function pair and eliminate codes that reverse the pair.",
+   "sec": "Tools and synthesis - STM, AFM, top-down vs bottom-up"
+  },
+  {
+   "s": "The Scanning Tunnelling Microscope (STM) is associated with which of the following combination?",
+   "o": [
+    "Binnig and Rohrer; 1981; Nobel Prize in Physics in 1986",
+    "Binnig and AFM; 1986; Nobel Prize in Chemistry in 1986",
+    "Rohrer and CVD; 1981; Nobel Prize in Physics in 1990",
+    "Binnig and Rohrer; 1986; Nobel Prize in Chemistry in 1981"
+   ],
+   "a": 0,
+   "x": "STM is associated with Binnig and Rohrer in 1981, and they received the Nobel Prize in Physics in 1986 for related work.",
+   "ty": "fact",
+   "tq": "Match the instrument with its inventors, year and Nobel recognition.",
+   "sec": "Tools and synthesis - STM, AFM, top-down vs bottom-up"
+  },
+  {
+   "s": "Which one of the following statements correctly distinguishes STM from AFM?",
+   "o": [
+    "AFM images only bulk materials, whereas STM builds nanoparticles by sol-gel synthesis.",
+    "STM images atoms on conductors, whereas AFM can work on non-conductors too.",
+    "STM works on non-conductors, whereas AFM requires conducting surfaces.",
+    "Both STM and AFM require the specimen to be conducting."
+   ],
+   "a": 1,
+   "x": "STM is used for imaging atoms on conducting surfaces, while AFM can work on non-conducting materials as well.",
+   "ty": "confusable",
+   "tq": "Discriminate between two similar microscopy tools by their sample requirement.",
+   "sec": "Tools and synthesis - STM, AFM, top-down vs bottom-up"
+  },
+  {
+   "s": "Atomic Force Microscope (AFM) was developed in which year?",
+   "o": [
+    "1981",
+    "1984",
+    "1986",
+    "1990"
+   ],
+   "a": 2,
+   "x": "The Atomic Force Microscope is associated with the year 1986.",
+   "ty": "numerical",
+   "tq": "Separate the closely related years of STM and AFM.",
+   "sec": "Tools and synthesis - STM, AFM, top-down vs bottom-up"
+  },
+  {
+   "s": "Which one of the following processes represents a top-down approach in nanotechnology?",
+   "o": [
+    "Sol-gel synthesis",
+    "Self-assembly of atoms",
+    "Lithography of bulk material",
+    "Chemical vapour deposition"
+   ],
+   "a": 2,
+   "x": "The top-down approach reduces bulk material to nanoscale dimensions through processes such as lithography, milling and etching.",
+   "ty": "application",
+   "tq": "Identify whether the process cuts down bulk material or builds from molecular units.",
+   "sec": "Tools and synthesis - STM, AFM, top-down vs bottom-up"
+  },
+  {
+   "s": "Consider the following statements:\n1. Milling is associated with the top-down approach.\n2. Etching is associated with the top-down approach.\n3. Self-assembly is associated with the bottom-up approach.\n4. Sol-gel synthesis is associated with the bottom-up approach.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Milling and etching reduce bulk material, while self-assembly and sol-gel synthesis build structures from atoms or molecules. Hence all four statements are correct.",
+   "ty": "statements",
+   "tq": "Classify each process before selecting the complete combination.",
+   "sec": "Tools and synthesis - STM, AFM, top-down vs bottom-up"
+  },
+  {
+   "s": "Arrange the following processes according to the approach with which they are associated:\nA. Self-assembly\nB. Etching\nC. Chemical vapour deposition\nD. Lithography\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A, C, B, D",
+    "B, D, A, C",
+    "D, B, C, A",
+    "C, A, D, B"
+   ],
+   "a": 1,
+   "x": "Etching and lithography are top-down processes, whereas self-assembly and chemical vapour deposition are bottom-up processes. The sequence grouping the top-down processes first and bottom-up processes thereafter is B, D, A, C.",
+   "ty": "chronology",
+   "tq": "Classify the items by approach and use the grouping pattern to select the sequence.",
+   "sec": "Tools and synthesis - STM, AFM, top-down vs bottom-up"
+  },
+  {
+   "s": "Which one of the following is a bottom-up method of nanomaterial synthesis?",
+   "o": [
+    "Chemical vapour deposition",
+    "Milling",
+    "Etching",
+    "Lithography"
+   ],
+   "a": 0,
+   "x": "Chemical vapour deposition builds nanostructures from atoms or molecules and is therefore a bottom-up method. Milling, etching and lithography are top-down methods.",
+   "ty": "fact",
+   "tq": "Use the build-versus-cut distinction to identify the bottom-up method.",
+   "sec": "Tools and synthesis - STM, AFM, top-down vs bottom-up"
+  },
+  {
+   "s": "The approval of a nano-carrier Vitamin D3 product by the DCGI in August 2026 illustrates which current application of nanotechnology?",
+   "o": [
+    "Nano-enabled delivery of a health-related compound",
+    "Use of STM for imaging conducting surfaces",
+    "Replacement of all conventional fertilisers by nanoparticles",
+    "Manufacture of quantum computers through lithography"
+   ],
+   "a": 0,
+   "x": "The DCGI nod to a nano-carrier Vitamin D3 product represents a health application in which nanotechnology is used to carry or deliver a compound.",
+   "ty": "application",
+   "tq": "Connect a regulatory development with the application area it directly represents.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following concerns has been raised regarding the rapid rollout of nano-urea?",
+   "o": [
+    "The lack of long-term studies before widespread deployment",
+    "The complete prohibition of nano-inputs under a nano-specific law",
+    "Its inability to be absorbed by plants under any condition",
+    "The absence of any possible agricultural use"
+   ],
+   "a": 0,
+   "x": "A major criticism is that nano-urea has been rolled out rapidly without adequate long-term studies. The concern is about evidence and safety assessment, not the complete absence of agricultural use.",
+   "ty": "negative",
+   "tq": "Find the specific criticism rather than an extreme or absolute claim.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Nano-inputs in agriculture are reported to have the potential to improve:",
+   "o": [
+    "Absorption efficiency",
+    "The boiling point of water",
+    "The conductivity of all metals",
+    "The duration of the monsoon"
+   ],
+   "a": 0,
+   "x": "Nano-inputs can raise absorption efficiency, which is one of the proposed agricultural benefits of nanotechnology.",
+   "ty": "fact",
+   "tq": "Select the direct functional benefit associated with nano-inputs.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following is identified as a legal or regulatory concern in the context of nanotechnology?",
+   "o": [
+    "Nano-products cannot be subjected to any safety assessment.",
+    "All nanomaterials are prohibited from research use.",
+    "There is no nano-specific law.",
+    "Nanotechnology is governed exclusively by the National Quantum Mission."
+   ],
+   "a": 2,
+   "x": "The absence of a nano-specific law is identified as a regulatory concern. The other statements use unsupported absolute claims.",
+   "ty": "negative",
+   "tq": "Reject absolute distractors and identify the stated regulatory gap.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following correctly describes the significance attributed to nanotechnology in the areas of agriculture, health and development?",
+   "o": [
+    "It increases dependence on imported fertilisers and replaces all diagnostic methods.",
+    "It is used only for studying atoms and cannot support medical treatment.",
+    "It can help reduce fertiliser subsidy and imports, support frugal diagnostics and enable targeted cancer drugs.",
+    "It is limited to producing conducting materials and has no health applications."
+   ],
+   "a": 2,
+   "x": "Nanotechnology is associated with reducing fertiliser subsidy and imports, enabling frugal diagnostics and supporting targeted cancer drugs. Its significance therefore extends across agriculture, health and development.",
+   "ty": "comparison",
+   "tq": "Choose the option that integrates the stated benefits across multiple sectors without using an absolute limitation.",
+   "sec": "Universal angles"
+  }
+ ]
+}

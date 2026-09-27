@@ -1,0 +1,214 @@
+{
+ "book": 5,
+ "row": 59,
+ "chunk": 4,
+ "section": "Electricity sector - installed capacity mix, generation, transmission, discom finances, Electricity Act 2003",
+ "subsections": [
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 15,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The National Generation and Availability Plan (NGAP) 2026–27 to 2035–36 envisages a total power-generation capacity of:",
+   "o": [
+    "160 GW",
+    "346 GW",
+    "1,121 GW",
+    "552 GW"
+   ],
+   "a": 2,
+   "x": "The CEA’s NGAP 2026–27 to 2035–36 plans for 1,121 GW of generation capacity.",
+   "ty": "numerical",
+   "tq": "Direct numerical recall with closely related capacity figures as distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding the CEA’s NGAP 2026–27 to 2035–36:\n1. It envisages 1,121 GW of generation capacity.\n2. About 70% of the planned capacity is to be from non-fossil sources.\n3. It covers the period from 2026–27 to 2035–36.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the plan covers 2026–27 to 2035–36, targets 1,121 GW of capacity and assigns about 70% of it to non-fossil sources.",
+   "ty": "statements",
+   "tq": "Statement-combination question requiring the period, total capacity and source composition to be checked together.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following best illustrates the distinction between installed capacity and actual electricity generation in India?",
+   "o": [
+    "Coal accounts for 6–10% of present electricity generation and over 50% of installed capacity.",
+    "Non-fossil sources account for about 22% of installed capacity but over 50% of electricity output.",
+    "Non-fossil sources account for over 50% of installed capacity but only about 22% of electricity output.",
+    "Solar curtailment ensures that installed capacity and generation remain equal."
+   ],
+   "a": 2,
+   "x": "Non-fossil sources constitute more than half of installed capacity, but their share in actual output is only about 22%, demonstrating the capacity-generation gap.",
+   "ty": "comparison",
+   "tq": "Comparison-table reasoning: distinguish the capacity share from the generation share.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Approximately how much renewable-energy capacity is reported to have no power-purchase agreement (PPA)?",
+   "o": [
+    "160 GW",
+    "40 GW",
+    "9.25 GW",
+    "25 GW"
+   ],
+   "a": 1,
+   "x": "Around 40 GW of renewable-energy projects are reported to have no PPAs.",
+   "ty": "numerical",
+   "tq": "Figure-based recall using nearby electricity-sector numbers as distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "NITI’s long-term projection regarding coal’s share in India’s electricity generation envisages that it may fall from about 74% to:",
+   "o": [
+    "22% by 2035",
+    "15–20% by 2050",
+    "6–10% by 2070",
+    "1–2% by 2060"
+   ],
+   "a": 2,
+   "x": "NITI projects that coal’s share of electricity generation could decline from about 74% to 6–10% by 2070.",
+   "ty": "chronology",
+   "tq": "Trend-and-end-point trap: match the starting share, projected range and target year.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "In Andhra Pradesh, the target mentioned under ICEP-2024 for renewable-energy capacity is:",
+   "o": [
+    "40 GW",
+    "112.1 GW",
+    "160 GW",
+    "9.25 GW"
+   ],
+   "a": 2,
+   "x": "The ICEP-2024 target for renewable energy in Andhra Pradesh is 160 GW.",
+   "ty": "numerical",
+   "tq": "Direct recall of a state-specific target, with national and loss figures as distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Assertion (A): An El Niño year can adversely affect wind and hydropower generation.\nReason (R): Variations associated with El Niño can reduce wind availability and hydrological conditions relevant to power generation.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and the reason explains why El Niño conditions can hurt wind and hydropower output.",
+   "ty": "assertion_reason",
+   "tq": "Causal assertion–reason test linking a climate phenomenon with two electricity sources.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following developments is associated with the present electricity-sector debate?\n1. Solar curtailment\n2. Stranded gas-based power plants of approximately 25 GW\n3. A gap between installed capacity and actual generation\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Solar curtailment, approximately 25 GW of stranded gas plants and the capacity-versus-generation gap are all identified as important electricity-sector concerns.",
+   "ty": "statements",
+   "tq": "All-of-the-above option tests whether each listed criticism has been retained.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Andhra Pradesh’s reported plan to procure thermal power involves approximately:",
+   "o": [
+    "25,000 MW",
+    "160,000 MW",
+    "552 MW",
+    "1,600 MW"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh is reported to plan procurement of 1,600 MW of thermal power despite the wider push toward renewable energy.",
+   "ty": "numerical",
+   "tq": "Direct figure recall with a state-specific procurement number.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Battery Energy Storage Systems (BESS) are particularly relevant to the electricity system for:",
+   "o": [
+    "Increasing coal’s projected share to 74%",
+    "Replacing all transmission and distribution networks",
+    "Meeting the evening peak in demand",
+    "Eliminating the need for power-purchase agreements"
+   ],
+   "a": 2,
+   "x": "BESS is highlighted as a means of managing the evening peak in electricity demand, especially alongside variable renewable generation.",
+   "ty": "application",
+   "tq": "Scenario application: identify the system role naturally associated with storage.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following indicators of the national DISCOM turnaround:\n1. Profit of ₹2,701 crore\n2. AT&C losses of 15.04%\n3. ACS–ARR gap of ₹0.06\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The reported national DISCOM turnaround includes a profit of ₹2,701 crore, AT&C losses of 15.04% and an ACS–ARR gap of ₹0.06.",
+   "ty": "statements",
+   "tq": "Multi-figure statement question requiring exact retention of three performance indicators.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following is NOT identified as a financial vulnerability of State electricity distribution companies?",
+   "o": [
+    "A guaranteed elimination of all procurement costs",
+    "Exposure to exchange-price spikes",
+    "Fixed-cost power-purchase agreements",
+    "Dependence on subsidies"
+   ],
+   "a": 0,
+   "x": "Subsidy dependence and fixed-cost PPAs can expose States to exchange-price spikes. Guaranteed elimination of all procurement costs is not identified as a vulnerability or feature of DISCOM finances.",
+   "ty": "negative",
+   "tq": "NOT question: eliminate the three genuine financial-risk descriptions and select the fabricated extreme claim.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "PM JANMAN, through Andhra Pradesh DISCOMs, electrified how many tribal households during 2024–25?",
+   "o": [
+    "1,600",
+    "9,250",
+    "24,691",
+    "40,000"
+   ],
+   "a": 2,
+   "x": "PM JANMAN electrified 24,691 tribal households through Andhra Pradesh DISCOMs during 2024–25.",
+   "ty": "numerical",
+   "tq": "Direct programme-figure recall using nearby electricity-sector numbers as distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Initiative/feature)\n a. UDAY\n b. RDSS\n c. ICEP-2024 in Andhra Pradesh\n d. PM JANMAN through AP DISCOMs\n\nList-II (Description)\n i. Electrification of 24,691 tribal households\n ii. Target of 160 GW of renewable energy\n iii. Debt takeover by the States\n iv. Results-linked infrastructure and reform grant\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–i, b–ii, c–iii, d–iv"
+   ],
+   "a": 0,
+   "x": "UDAY is associated with debt takeover, RDSS with results-linked infrastructure and reform grants, ICEP-2024 with the 160 GW renewable-energy target, and PM JANMAN with electrification of 24,691 tribal households.",
+   "ty": "match",
+   "tq": "Start from the sure programme-feature pairs and eliminate codes containing a wrong match.",
+   "sec": "Universal angles"
+  }
+ ]
+}

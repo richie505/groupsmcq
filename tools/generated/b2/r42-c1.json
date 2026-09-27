@@ -1,0 +1,216 @@
+{
+ "book": 2,
+ "row": 42,
+ "chunk": 1,
+ "section": "Legislature of Andhra Pradesh - structure and functioning",
+ "subsections": [
+  "AP Assembly seat - present and earlier",
+  "Committees of the AP Legislature - PAC, Estimates, Public Undertakings",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 16,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The present seat of the Andhra Pradesh Legislative Assembly is located at which place?",
+   "o": [
+    "Vijayawada",
+    "Hyderabad",
+    "Amaravati",
+    "Kurnool"
+   ],
+   "a": 2,
+   "x": "The present seat of the Andhra Pradesh Legislative Assembly is at Amaravati.",
+   "ty": "fact",
+   "tq": "Direct location recall using closely associated former and present seats as distractors.",
+   "sec": "AP Assembly seat - present and earlier"
+  },
+  {
+   "s": "The interim Assembly building at Velagapudi has hosted sessions of the Andhra Pradesh Legislative Assembly since:",
+   "o": [
+    "2014",
+    "2016",
+    "2017",
+    "2019"
+   ],
+   "a": 2,
+   "x": "The interim Assembly building at Velagapudi has hosted sessions since 2017.",
+   "ty": "numerical",
+   "tq": "Precise year recall with nearby-year distractors.",
+   "sec": "AP Assembly seat - present and earlier"
+  },
+  {
+   "s": "Who designed the new Andhra Pradesh Legislative Assembly building under construction at Amaravati?",
+   "o": [
+    "Bimal Patel and Associates",
+    "Norman Foster + Partners",
+    "Charles Correa Associates",
+    "Hafeez Contractor and Associates"
+   ],
+   "a": 1,
+   "x": "The new Assembly building at Amaravati is designed by Norman Foster + Partners.",
+   "ty": "fact",
+   "tq": "Name-and-institution recall with architect-related distractors.",
+   "sec": "AP Assembly seat - present and earlier"
+  },
+  {
+   "s": "Consider the following statements regarding the earlier seats of the Andhra Pradesh Legislative Assembly:\n1. Sessions were held in Hyderabad, which served as the common capital, until the Assembly moved to Amaravati.\n2. Before 1956, the Assembly of Andhra State met at Kurnool.\n3. Amaravati was the seat of the Assembly before 1956.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because before 1956 the Andhra State Assembly met at Kurnool.",
+   "ty": "statements",
+   "tq": "Identify the incorrect chronological-location statement and avoid reversing earlier and present seats.",
+   "sec": "AP Assembly seat - present and earlier"
+  },
+  {
+   "s": "Arrange the following places in the chronological order in which they served as the seat or meeting place of the Andhra Pradesh/Andhra State Legislature:\nA. Kurnool\nB. Amaravati\nC. Hyderabad\nD. Velagapudi interim building",
+   "o": [
+    "A, C, D, B",
+    "C, A, D, B",
+    "A, D, C, B",
+    "C, D, A, B"
+   ],
+   "a": 0,
+   "x": "The sequence is Kurnool before 1956, Hyderabad thereafter as the common capital, Velagapudi from 2017, and the present seat at Amaravati.",
+   "ty": "chronology",
+   "tq": "Use the first and last locations, then place the interim building within the transition.",
+   "sec": "AP Assembly seat - present and earlier"
+  },
+  {
+   "s": "With reference to legislative committees in State Legislatures, consider the following statements:\n1. Estimates Committees and Public Accounts Committees help ensure that grants are properly used.\n2. Andhra Pradesh also has a Committee on Public Undertakings.\n3. The Committee on Public Undertakings is a substitute for both the Estimates Committee and the Public Accounts Committee.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because Andhra Pradesh has the Committee on Public Undertakings in addition to, not instead of, the Estimates and Public Accounts Committees.",
+   "ty": "statements",
+   "tq": "Separate the existence and functions of committees from the false substitution claim.",
+   "sec": "Committees of the AP Legislature - PAC, Estimates, Public Undertakings"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Public Accounts Committee — Ensuring grants are properly used",
+    "Estimates Committee — Appointment of the Governor",
+    "Committee on Public Undertakings — Conduct of judicial proceedings",
+    "Legislative Committee — Conduct of elections to Parliament"
+   ],
+   "a": 0,
+   "x": "The Public Accounts Committee, along with the Estimates Committee, helps ensure that grants are properly used. The other functions do not belong to these legislative committees.",
+   "ty": "match",
+   "tq": "Match the committee with its stated legislative oversight function.",
+   "sec": "Committees of the AP Legislature - PAC, Estimates, Public Undertakings"
+  },
+  {
+   "s": "Which one of the following statements regarding the committees of the Andhra Pradesh Legislature is NOT correct?",
+   "o": [
+    "They function broadly on the model of the committees of Parliament.",
+    "Their chairpersons are appointed by the Governor.",
+    "Their chairpersons are appointed by the Speaker.",
+    "Their members are elected from the House."
+   ],
+   "a": 1,
+   "x": "The statement about appointment by the Governor is not correct. Members are elected from the House and chairpersons are appointed by the Speaker; the committees work like parliamentary committees.",
+   "ty": "negative",
+   "tq": "Ask who would perform the appointment function and distinguish the Speaker from the Governor.",
+   "sec": "Committees of the AP Legislature - PAC, Estimates, Public Undertakings"
+  },
+  {
+   "s": "The convention regarding the chairperson of the Public Accounts Committee of the Andhra Pradesh Legislature is that the chairperson is chosen from the:",
+   "o": [
+    "Opposition",
+    "Governor's Secretariat",
+    "Council of Ministers",
+    "Ruling party alone"
+   ],
+   "a": 0,
+   "x": "By convention, the chairperson of the Public Accounts Committee is from the Opposition.",
+   "ty": "fact",
+   "tq": "Direct recall of a convention, with institutional bodies used as distractors.",
+   "sec": "Committees of the AP Legislature - PAC, Estimates, Public Undertakings"
+  },
+  {
+   "s": "Assertion (A): The Public Accounts Committee of the Andhra Pradesh Legislature is conventionally chaired by a member of the Opposition.\nReason (R): The chairpersons of legislative committees are appointed by the Speaker.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 1,
+   "x": "Both statements are true, but appointment of committee chairpersons by the Speaker does not explain the separate convention that the Public Accounts Committee chairperson belongs to the Opposition.",
+   "ty": "assertion_reason",
+   "tq": "Distinguish a constitutional or procedural fact from a convention and test whether the reason actually explains it.",
+   "sec": "Committees of the AP Legislature - PAC, Estimates, Public Undertakings"
+  },
+  {
+   "s": "Under which provision was the Monsoon Session of the Andhra Pradesh Legislature summoned for 17 August 2026?",
+   "o": [
+    "Article 175(2)",
+    "Article 200",
+    "Article 163(1)",
+    "Article 174(1)"
+   ],
+   "a": 3,
+   "x": "Governor S. Abdul Nazeer summoned the Monsoon Session from 17 August 2026 under Article 174(1).",
+   "ty": "fact",
+   "tq": "Article-number discrimination using neighbouring constitutional provisions as traps.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about the Budget Session of the Andhra Pradesh Legislature in 2026:\n1. It began on 11 February 2026.\n2. Biometric attendance of Members of the Legislative Assembly was made mandatory from that session.\n3. The Budget Session began on 17 August 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because 17 August 2026 was the starting date of the Monsoon Session, whereas the Budget Session began on 11 February 2026.",
+   "ty": "statements",
+   "tq": "Separate two sessions by their dates and reject the swapped-session trap.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly describes the Constitution (131st Amendment) Bill, 2026?",
+   "o": [
+    "It dealt only with biometric attendance in State Legislatures.",
+    "It abolished the freeze on seats created by the 84th Amendment.",
+    "It was passed by the Lok Sabha and immediately increased Assembly seats.",
+    "It proposed fresh delimitation and an increase of Lok Sabha seats to 850, but was negatived in the Lok Sabha."
+   ],
+   "a": 3,
+   "x": "The Bill proposed fresh delimitation and an increase of Lok Sabha seats to 850, with consequential effects on State Assemblies, but it was negatived in the Lok Sabha.",
+   "ty": "fact",
+   "tq": "Use the complete legislative-status chain and reject options that alter the Bill's subject or outcome.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "What was the consequence of the Constitution (131st Amendment) Bill, 2026 being negatived in the Lok Sabha?",
+   "o": [
+    "State Assemblies were dissolved pending delimitation.",
+    "The freeze on seats under the 84th Amendment continues.",
+    "The freeze on seats under the 84th Amendment was automatically removed.",
+    "The Lok Sabha strength became 850 immediately."
+   ],
+   "a": 1,
+   "x": "Since the Bill was negatived in the Lok Sabha, the freeze on seats under the 84th Amendment continues.",
+   "ty": "application",
+   "tq": "Trace the legal consequence of a failed amendment instead of assuming the proposal took effect.",
+   "sec": "Universal angles"
+  }
+ ]
+}

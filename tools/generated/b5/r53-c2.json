@@ -1,0 +1,484 @@
+{
+ "book": 5,
+ "row": 53,
+ "chunk": 2,
+ "section": "India's energy needs and deficit - primary energy demand, per-capita consumption, peak deficit",
+ "subsections": [
+  "Drivers of demand growth - urbanisation, electrification, EVs, cooling, data centres",
+  "Peak shortage vs energy shortage - measures, trends",
+  "Fuel demand-supply gap - coal, crude, gas, LPG",
+  "Seasonal and regional shortages - peak-hour deficits, states",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which sector uses approximately 50% of India's electricity?",
+   "o": [
+    "Industry",
+    "Agriculture",
+    "Households",
+    "Transport"
+   ],
+   "a": 0,
+   "x": "Industry accounts for about 50% of electricity use in India.",
+   "ty": "fact",
+   "tq": "Direct sector-share recall.",
+   "sec": "Drivers of demand growth - urbanisation, electrification, EVs, cooling, data centres"
+  },
+  {
+   "s": "The household electrification level in India is approximately:",
+   "o": [
+    "79%",
+    "89%",
+    "99%",
+    "100%"
+   ],
+   "a": 2,
+   "x": "Household electrification is approximately 99%.",
+   "ty": "numerical",
+   "tq": "Distinguish a near-complete figure from the exact universal claim of 100%.",
+   "sec": "Drivers of demand growth - urbanisation, electrification, EVs, cooling, data centres"
+  },
+  {
+   "s": "Consider the following statements:\n1. India's urban population is growing at approximately 2.5% per year.\n2. About 80% of India's population lives in tropical and subtropical climates.\n3. Air-conditioner ownership is growing at approximately 15–20% per year.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Urbanisation, climate-related cooling needs and rising air-conditioner ownership are important drivers of electricity demand.",
+   "ty": "statements",
+   "tq": "Use the option containing all three supported statements after checking each figure.",
+   "sec": "Drivers of demand growth - urbanisation, electrification, EVs, cooling, data centres"
+  },
+  {
+   "s": "Which of the following combinations best represents the emerging drivers of India's peak electricity demand?",
+   "o": [
+    "Electric vehicles, farm pumps, appliances, cooling and data centres",
+    "Declining appliance ownership and reduced telecom activity",
+    "Only household lighting in rural areas",
+    "Only coal mining and railway electrification"
+   ],
+   "a": 0,
+   "x": "Electric vehicles, farm pumps, appliances, cooling demand, data centres and telecom operations all contribute to rising electricity demand.",
+   "ty": "application",
+   "tq": "Group the closely related demand-side drivers rather than selecting an exclusive cause.",
+   "sec": "Drivers of demand growth - urbanisation, electrification, EVs, cooling, data centres"
+  },
+  {
+   "s": "India's peak electricity demand rose by approximately 37%, from 183 GW in December 2020 to over what level in April 2026?",
+   "o": [
+    "250 GW",
+    "225 GW",
+    "210 GW",
+    "300 GW"
+   ],
+   "a": 0,
+   "x": "Peak demand increased from 183 GW in December 2020 to more than 250 GW in April 2026, representing a rise of about 37%.",
+   "ty": "numerical",
+   "tq": "Match the percentage change with the correct end-point figure.",
+   "sec": "Drivers of demand growth - urbanisation, electrification, EVs, cooling, data centres"
+  },
+  {
+   "s": "Why do data centres and telecom networks exert pressure on electricity systems?",
+   "o": [
+    "They eliminate the need for grid balancing.",
+    "They require continuous power supply.",
+    "They consume electricity only when solar output is highest.",
+    "They operate only during the evening peak."
+   ],
+   "a": 1,
+   "x": "Data centres and telecom networks require continuous and reliable power, thereby increasing the need for dependable generation and grid management.",
+   "ty": "application",
+   "tq": "Identify the functional requirement behind the demand increase.",
+   "sec": "Drivers of demand growth - urbanisation, electrification, EVs, cooling, data centres"
+  },
+  {
+   "s": "Demand for electricity in India during January–February 2026 reached:",
+   "o": [
+    "Exactly the same level as in 2020",
+    "A five-year high",
+    "A five-year low",
+    "The lowest level since 2014"
+   ],
+   "a": 1,
+   "x": "Electricity demand during January–February 2026 reached a five-year high.",
+   "ty": "fact",
+   "tq": "Direct trend recall using the high-versus-low distinction.",
+   "sec": "Drivers of demand growth - urbanisation, electrification, EVs, cooling, data centres"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes energy shortage from peak shortage?",
+   "o": [
+    "Energy shortage occurs only in summer, whereas peak shortage occurs only in winter.",
+    "Energy shortage is measured in MW, whereas peak shortage is measured in MU only.",
+    "Energy shortage is unmet energy requirement, whereas peak shortage is unmet peak demand.",
+    "Energy shortage refers to fuel imports, whereas peak shortage refers to renewable generation."
+   ],
+   "a": 2,
+   "x": "Energy shortage refers to unmet energy requirement and is expressed in MU or percentage terms. Peak shortage refers to unmet peak demand and is expressed in MW or percentage terms.",
+   "ty": "confusable",
+   "tq": "Separate the two similar terms by their measurement and meaning.",
+   "sec": "Peak shortage vs energy shortage - measures, trends"
+  },
+  {
+   "s": "Consider the following statements regarding India's electricity shortage:\n1. The shortage declined from 4.2% in FY14 to 0.03% in 2025.\n2. The shortage reached zero by November 2025 according to the Economic Survey 2025–26.\n3. Earlier assessments had reported shortages in the range of 10–15%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The notes record both the historical 10–15% range and the subsequent decline to 0.03%, followed by zero shortage by November 2025.",
+   "ty": "statements",
+   "tq": "Combine the long-term trend with the historical comparison and endpoint.",
+   "sec": "Peak shortage vs energy shortage - measures, trends"
+  },
+  {
+   "s": "Which of the following was NOT identified as a measure for reducing electricity shortages and improving supply reliability?",
+   "o": [
+    "Permanent prohibition of power exchanges",
+    "Capacity addition",
+    "A single national grid",
+    "Time-of-day tariffs and smart meters"
+   ],
+   "a": 0,
+   "x": "Capacity addition, a single national grid, time-of-day tariffs and smart meters are identified measures. Permanent prohibition of power exchanges is not one of them.",
+   "ty": "negative",
+   "tq": "Find the option that does not belong to the listed shortage-management measures.",
+   "sec": "Peak shortage vs energy shortage - measures, trends"
+  },
+  {
+   "s": "Which scheme was associated with connecting approximately 26 million households?",
+   "o": [
+    "NCEF",
+    "Saubhagya",
+    "NGAP",
+    "COP31"
+   ],
+   "a": 1,
+   "x": "The Saubhagya programme is associated with connecting approximately 26 million households.",
+   "ty": "fact",
+   "tq": "Match the programme with its quantitative achievement.",
+   "sec": "Peak shortage vs energy shortage - measures, trends"
+  },
+  {
+   "s": "The aggregate technical and commercial losses declined from 22.62% in FY14 to what level in FY25?",
+   "o": [
+    "10.04%",
+    "12.62%",
+    "15.04%",
+    "18.26%"
+   ],
+   "a": 2,
+   "x": "AT&C losses declined from 22.62% in FY14 to 15.04% in FY25.",
+   "ty": "numerical",
+   "tq": "Recall the paired start and end values of a declining indicator.",
+   "sec": "Peak shortage vs energy shortage - measures, trends"
+  },
+  {
+   "s": "Which of the following combinations contains measures used to manage demand during different time periods and store electricity?",
+   "o": [
+    "Only coal imports and LPG subsidies",
+    "Diesel rationing, petrol blending and gas flaring",
+    "Only expansion of transmission lines without demand management",
+    "Time-of-day tariffs, smart meters, BESS and pumped storage"
+   ],
+   "a": 3,
+   "x": "Time-of-day tariffs and smart meters help manage demand, while battery energy storage systems and pumped storage help store electricity.",
+   "ty": "application",
+   "tq": "Identify the combination containing both demand-management and storage measures.",
+   "sec": "Peak shortage vs energy shortage - measures, trends"
+  },
+  {
+   "s": "India's import dependence for crude oil is approximately:",
+   "o": [
+    "50%",
+    "65%",
+    "75%",
+    "88%"
+   ],
+   "a": 3,
+   "x": "India's crude-oil import dependence is approximately 88%, with one cited estimate placing it at 88.6%.",
+   "ty": "numerical",
+   "tq": "Select the high import-dependence figure rather than the gas-related percentage.",
+   "sec": "Fuel demand-supply gap - coal, crude, gas, LPG"
+  },
+  {
+   "s": "Consider the following statements about India's fuel position:\n1. Approximately 50–51% of natural gas or LNG is imported.\n2. LNG imports were estimated at 28–29 MMT in 2026.\n3. LPG shortages were reported during the 2026 gas crisis.\n4. The Strait of Hormuz was identified as a risk to LPG supplies.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the reported natural-gas and LPG supply situation.",
+   "ty": "statements",
+   "tq": "Check each fuel-related statement before selecting the complete combination.",
+   "sec": "Fuel demand-supply gap - coal, crude, gas, LPG"
+  },
+  {
+   "s": "With reference to coal in India's energy system, consider the following statements:\n1. Coal accounts for approximately 55% of primary energy.\n2. Coal output in FY26 was 1,040.08 MT.\n3. Imports of coal for thermal plants declined by 27.4%.\n4. India's coal reserves are the fourth largest in the world and are approximately 344 billion tonnes.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Coal remains a major component of primary energy, while FY26 output and the decline in thermal-coal imports are specifically recorded figures.",
+   "ty": "statements",
+   "tq": "Combine percentage, output, import-trend and reserve-size statements.",
+   "sec": "Fuel demand-supply gap - coal, crude, gas, LPG"
+  },
+  {
+   "s": "India has approximately what share of the world's population, gas reserves, oil reserves and coal reserves, respectively?",
+   "o": [
+    "17%, 0.6%, 0.4% and 7%",
+    "7%, 17%, 0.6% and 0.4%",
+    "17%, 7%, 0.6% and 0.4%",
+    "0.6%, 0.4%, 7% and 17%"
+   ],
+   "a": 0,
+   "x": "India has about 17% of the world's population but only 0.6% of gas reserves, 0.4% of oil reserves and 7% of coal reserves.",
+   "ty": "match",
+   "tq": "Preserve the order of the four quantitative comparisons.",
+   "sec": "Fuel demand-supply gap - coal, crude, gas, LPG"
+  },
+  {
+   "s": "Which of the following is NOT one of the four A's on which energy security rests?",
+   "o": [
+    "Accessibility",
+    "Availability",
+    "Accumulation",
+    "Affordability"
+   ],
+   "a": 2,
+   "x": "The four A's are availability, accessibility, affordability and acceptability. Accumulation is not included.",
+   "ty": "negative",
+   "tq": "Find the look-alike term that is absent from the standard four-part formulation.",
+   "sec": "Fuel demand-supply gap - coal, crude, gas, LPG"
+  },
+  {
+   "s": "During the evening peak, generally between 6 p.m. and 11 p.m., electricity demand is increased particularly because:",
+   "o": [
+    "Wind generation reaches its annual maximum every day.",
+    "Hydropower generation automatically doubles.",
+    "Industrial demand becomes zero.",
+    "Cooling demand rises after solar output declines."
+   ],
+   "a": 3,
+   "x": "The evening peak occurs from about 6 p.m. to 11 p.m. as cooling demand continues while solar output has declined.",
+   "ty": "application",
+   "tq": "Link the time period with the underlying generation-demand mismatch.",
+   "sec": "Seasonal and regional shortages - peak-hour deficits, states"
+  },
+  {
+   "s": "When demand rises during the evening peak, DISCOMs may purchase electricity:",
+   "o": [
+    "Without any market transaction",
+    "Exclusively from rural microgrids",
+    "Only from nuclear plants at fixed prices",
+    "From power exchanges at volatile prices"
+   ],
+   "a": 3,
+   "x": "DISCOMs may buy power on exchanges during the evening peak, where prices can be volatile.",
+   "ty": "fact",
+   "tq": "Identify the market response to a peak-hour supply gap.",
+   "sec": "Seasonal and regional shortages - peak-hour deficits, states"
+  },
+  {
+   "s": "Which of the following measures is associated with Delhi's management of evening electricity demand?",
+   "o": [
+    "A 15-day coal stock rule only",
+    "Exclusive dependence on pumped hydro",
+    "A ban on all electricity exchanges",
+    "Time-of-day tariffs and smart meters"
+   ],
+   "a": 3,
+   "x": "Delhi uses time-of-day tariffs and smart meters to manage demand during peak periods.",
+   "ty": "fact",
+   "tq": "Match the regional example with its specific demand-management tools.",
+   "sec": "Seasonal and regional shortages - peak-hour deficits, states"
+  },
+  {
+   "s": "Consider the following statements regarding the 2026 El Niño-related conditions:\n1. June rainfall was among the lowest recorded since 1901.\n2. Rainfall was 20% below normal by 6 July.\n3. The conditions affected wind and hydropower output.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The rainfall deficit associated with El Niño affected renewable generation, including wind and hydropower.",
+   "ty": "statements",
+   "tq": "Combine the date, magnitude and consequence of the weather event.",
+   "sec": "Seasonal and regional shortages - peak-hour deficits, states"
+  },
+  {
+   "s": "Regional imbalances in renewable electricity may arise because of:",
+   "o": [
+    "Excessive household electrification alone",
+    "Poor storage and slow transmission",
+    "Uniform renewable generation across all regions",
+    "The complete absence of heatwaves"
+   ],
+   "a": 1,
+   "x": "Poor storage and slow transmission can strand renewable power in some regions, while heatwaves can place additional stress on grids.",
+   "ty": "application",
+   "tq": "Select the option expressing the infrastructure-related cause of regional imbalance.",
+   "sec": "Seasonal and regional shortages - peak-hour deficits, states"
+  },
+  {
+   "s": "Which of the following correctly describes Andhra Pradesh's battery energy storage arrangements for the evening peak?",
+   "o": [
+    "1,500 MW/6,000 MWh BESS, along with 500 MW/1,000 MWh under VGF with NHPC",
+    "6,000 MW/1,500 MWh BESS, along with 1,000 MW/500 MWh under VGF",
+    "1,000 MW/500 MWh BESS, with no NHPC association",
+    "500 MW/1,000 MWh BESS, along with 1,500 MW/6,000 MWh under VGF with NHPC"
+   ],
+   "a": 0,
+   "x": "The Andhra Pradesh arrangement includes 1,500 MW/6,000 MWh of BESS and an additional 500 MW/1,000 MWh under VGF with NHPC.",
+   "ty": "numerical",
+   "tq": "Keep power capacity in MW distinct from storage capacity in MWh.",
+   "sec": "Seasonal and regional shortages - peak-hour deficits, states"
+  },
+  {
+   "s": "Which pair of planning provisions was associated with Andhra Pradesh's power-supply preparedness?",
+   "o": [
+    "15-day coal stock rule and 12-month advance power plans",
+    "30-day coal stock rule and 6-month advance power plans",
+    "12-day coal stock rule and 15-month advance power plans",
+    "No coal-stock requirement and annual spot purchases only"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh adopted a 15-day coal stock rule and prepared power plans 12 months in advance.",
+   "ty": "fact",
+   "tq": "Match the state-level policy with its paired time periods.",
+   "sec": "Seasonal and regional shortages - peak-hour deficits, states"
+  },
+  {
+   "s": "A record peak demand of 270.8 GW in May 2026 placed long-duration storage at the centre of policy. Long-duration storage in this context refers to storage generally exceeding:",
+   "o": [
+    "4 hours",
+    "24 hours",
+    "2 hours",
+    "8 hours"
+   ],
+   "a": 3,
+   "x": "Long-duration storage in the cited policy context refers to storage lasting more than eight hours.",
+   "ty": "numerical",
+   "tq": "Distinguish the policy threshold from shorter storage durations.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following correctly compares India's per-capita electricity consumption with that of China and the United States?",
+   "o": [
+    "It is about one-ninth of China's and one-fifth of the USA's.",
+    "It is about one-fifth of China's and one-ninth of the USA's.",
+    "It is approximately equal to both countries.",
+    "It is about one-half of China's and one-third of the USA's."
+   ],
+   "a": 1,
+   "x": "India's per-capita electricity consumption is about one-fifth of China's and one-ninth of the USA's.",
+   "ty": "comparison",
+   "tq": "Preserve the direction and denominator of each comparative ratio.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Andhra Pradesh roadmap linked to El Niño-driven peaks envisages:",
+   "o": [
+    "1,500 MW of thermal capacity and 500 MW of BESS",
+    "600 MW of thermal capacity and 1,000 MW of BESS",
+    "2,000 MW of thermal capacity and 1,600 MW of BESS",
+    "1,600 MW of thermal capacity and 2,000 MW of BESS"
+   ],
+   "a": 3,
+   "x": "The roadmap envisages 1,600 MW of thermal capacity together with 2,000 MW of battery energy storage.",
+   "ty": "numerical",
+   "tq": "Separate the thermal-capacity figure from the storage-capacity figure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements correctly reflects the significance of nuclear energy in India's energy system?",
+   "o": [
+    "It provides 24×7 baseload power and can reduce fossil-fuel imports.",
+    "It is used exclusively for off-grid household lighting.",
+    "It cannot provide baseload electricity.",
+    "It operates only during evening peak hours and increases fossil imports."
+   ],
+   "a": 0,
+   "x": "Nuclear power provides round-the-clock baseload electricity and can reduce dependence on fossil-fuel imports.",
+   "ty": "application",
+   "tq": "Select the option that links the technology with its stated system-level benefits.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The COP31 goal described as “35 by 35” seeks to make electricity account for what share of final energy by 2035?",
+   "o": [
+    "25%",
+    "30%",
+    "35%",
+    "50%"
+   ],
+   "a": 2,
+   "x": "The “35 by 35” goal seeks to raise electricity's share to 35% of final energy by 2035.",
+   "ty": "numerical",
+   "tq": "Read the target directly from the compact numerical slogan.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding India's energy-transition challenges:\n1. Achieving net-zero may require more than 20 trillion dollars.\n2. Approximately 25 GW of gas capacity is stranded.\n3. These issues illustrate both the financial and asset-utilisation challenges of the transition.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The transition involves very large investment requirements and the problem of stranded gas-generation capacity.",
+   "ty": "statements",
+   "tq": "Link the numerical facts with their broader policy implication.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "According to the stated Andhra Pradesh demand projection, the demand CAGR and peak demand projected for 2035–36 are respectively:",
+   "o": [
+    "6.90% and 39,027 MW",
+    "9.60% and 30,297 MW",
+    "6.90% and 30,927 MW",
+    "6.09% and 30,927 MW"
+   ],
+   "a": 2,
+   "x": "The projected demand CAGR is 6.90%, and peak demand is expected to reach 30,927 MW by 2035–36.",
+   "ty": "numerical",
+   "tq": "Match the growth rate with the corresponding projected peak figure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following developments is associated with India's round-the-clock power planning in 2026?",
+   "o": [
+    "Only LPG imports through the Strait of Hormuz",
+    "A complete shift away from thermal and storage capacity",
+    "Andhra Pradesh's round-the-clock power roadmap and the CEA's NGAP",
+    "The abolition of storage-based planning"
+   ],
+   "a": 2,
+   "x": "The 2026 developments include Andhra Pradesh's round-the-clock power roadmap and the Central Electricity Authority's NGAP.",
+   "ty": "fact",
+   "tq": "Identify the pair of institutions or initiatives linked to the policy development.",
+   "sec": "Universal angles"
+  }
+ ]
+}

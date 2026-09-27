@@ -1,0 +1,567 @@
+{
+ "book": 5,
+ "row": 94,
+ "chunk": 0,
+ "section": "Impacts of climate change on India - monsoon, agriculture, Himalayan glaciers, sea-level rise, extreme events",
+ "subsections": [
+  "Temperature trends - IMD climate statement, warmest years, states worst hit",
+  "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties",
+  "Heat stress and health - wet-bulb limit, Heat Action Plans, vector-borne diseases",
+  "Monsoon changes - variability, extreme rainfall, IMD and MoES observations"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 43,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following statements is correct regarding India’s temperature trends?",
+   "o": [
+    "India’s average temperature rose by about 0.7°C between 1901 and 2018.",
+    "India’s average temperature rose by more than 2°C between 1901 and 2018.",
+    "India’s average temperature remained unchanged between 1901 and 2018.",
+    "India’s average temperature declined by about 0.7°C between 1901 and 2018."
+   ],
+   "a": 0,
+   "x": "The MoES assessment recorded an increase of about 0.7°C in India’s average temperature during 1901–2018.",
+   "ty": "fact",
+   "tq": "Discriminate between the official trend and an exaggerated numerical claim.",
+   "sec": "Temperature trends - IMD climate statement, warmest years, states worst hit"
+  },
+  {
+   "s": "With reference to the climate of India, consider the following statements:\n1. The year 2019 was the seventh warmest year in India since 1901.\n2. Bihar suffered the most among the States during the conditions associated with the 2019 climate record.\n3. The official temperature series records a rise of more than 2°C in India between 1901 and 2018.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is incorrect; the MoES assessment places the rise at about 0.7°C.",
+   "ty": "statements",
+   "tq": "Find the exaggerated numerical statement among otherwise precise facts.",
+   "sec": "Temperature trends - IMD climate statement, warmest years, states worst hit"
+  },
+  {
+   "s": "The India Meteorological Department declares a heat wave when the actual maximum temperature reaches",
+   "o": [
+    "42°C, only when the normal maximum is exceeded",
+    "45°C, irrespective of the normal maximum",
+    "40°C, irrespective of the normal maximum",
+    "50°C, irrespective of the normal maximum"
+   ],
+   "a": 1,
+   "x": "IMD declares a heat wave when the actual maximum temperature is at least 45°C, regardless of the normal maximum temperature.",
+   "ty": "numerical",
+   "tq": "Separate the absolute threshold from conditions based on normal temperature.",
+   "sec": "Temperature trends - IMD climate statement, warmest years, states worst hit"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Rentachintala — hottest place in Andhra Pradesh",
+    "Palnadu — location of the first Heat Action Plan in South Asia",
+    "Kurnool — headquarters of CRIDA",
+    "Anantapur — location of ICRISAT"
+   ],
+   "a": 0,
+   "x": "Rentachintala in Palnadu is identified as the hottest place in Andhra Pradesh. Ahmedabad, Hyderabad and Patancheru are associated with the other institutions or initiatives mentioned.",
+   "ty": "match",
+   "tq": "Use location-based matching and eliminate places linked to other climate institutions or initiatives.",
+   "sec": "Temperature trends - IMD climate statement, warmest years, states worst hit"
+  },
+  {
+   "s": "The increasing frequency and intensity of heat waves in Andhra Pradesh have been specifically reported in",
+   "o": [
+    "Srikakulam, Prakasam and Tirupati",
+    "Chittoor, Krishna and Nellore",
+    "Palnadu, Kurnool and Anantapur",
+    "Visakhapatnam, Guntur and Kadapa"
+   ],
+   "a": 2,
+   "x": "Palnadu, Kurnool and Anantapur are the Andhra Pradesh districts identified as experiencing increasingly frequent and intense heat waves.",
+   "ty": "fact",
+   "tq": "Test a direct geographic list without substituting nearby districts.",
+   "sec": "Temperature trends - IMD climate statement, warmest years, states worst hit"
+  },
+  {
+   "s": "Which one of the following is NOT a stated cause or mechanism associated with heat waves in India?",
+   "o": [
+    "Cold ocean currents over the Arabian Sea",
+    "The loo over the Gangetic plains",
+    "Persistent atmospheric heating",
+    "Meandering Rossby waves creating heat domes"
+   ],
+   "a": 0,
+   "x": "Meandering Rossby waves and the loo over the Gangetic plains are identified causes. Cold ocean currents over the Arabian Sea are not stated as a cause in this context.",
+   "ty": "negative",
+   "tq": "Find the option that does not belong to the stated heat-wave mechanisms.",
+   "sec": "Temperature trends - IMD climate statement, warmest years, states worst hit"
+  },
+  {
+   "s": "Which of the following statements regarding climate change and Indian agriculture is correct?",
+   "o": [
+    "Climate change is already reducing wheat productivity in India, requiring climate-resilient varieties and digital soil-health tools.",
+    "Climate change is already increasing wheat productivity throughout India.",
+    "Digital soil-health tools are used exclusively for livestock management.",
+    "Climate change affects only rice and has no reported effect on wheat."
+   ],
+   "a": 0,
+   "x": "Climate change is already cutting wheat productivity in India. Climate-resilient varieties and digital soil-health tools are identified as responses.",
+   "ty": "application",
+   "tq": "Identify the precise cause-and-response relationship rather than an absolute claim.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "Consider the following statements:\n1. El Niño generally weakens the south-west monsoon.\n2. El Niño suppresses rice and sugarcane yields.\n3. La Niña usually boosts monsoon rainfall.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: El Niño tends to weaken the south-west monsoon and reduce rice and sugarcane yields, whereas La Niña usually enhances monsoon rainfall.",
+   "ty": "statements",
+   "tq": "Use a complete climate-linked agriculture relationship and check all three linked statements.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "NICRA, the National Innovations in Climate Resilient Agriculture, was launched in 2011 as a project of",
+   "o": [
+    "FAO, led by WMO, Geneva",
+    "ICAR, led by CRIDA, Hyderabad",
+    "CGIAR, led by ICRISAT, Patancheru",
+    "MoES, led by IMD, Pune"
+   ],
+   "a": 1,
+   "x": "NICRA is an ICAR project launched in 2011 and led by the Central Research Institute for Dryland Agriculture at Hyderabad.",
+   "ty": "fact",
+   "tq": "Apply the who-launched and who-led distinction in institutional questions.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "Which one of the following combinations correctly represents the scale of NICRA’s climate-resilient village initiative?",
+   "o": [
+    "151 villages in 448 districts of 28 States/Union Territories",
+    "448 villages in 28 districts of 151 States/Union Territories",
+    "28 villages in 151 districts of 448 States/Union Territories",
+    "448 villages in 151 districts of 28 States/Union Territories"
+   ],
+   "a": 3,
+   "x": "NICRA covers 448 climate-resilient villages in 151 districts across 28 States and Union Territories.",
+   "ty": "numerical",
+   "tq": "Keep the village, district and State/UT figures in their correct order.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "Which of the following practices are promoted under NICRA?\n1. Direct-seeded rice\n2. Zero-till wheat\n3. Residue management\n4. Exclusive dependence on flooded cultivation\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "NICRA promotes direct-seeded rice, zero-till wheat and residue management. Exclusive dependence on flooded cultivation is not a NICRA practice.",
+   "ty": "statements",
+   "tq": "Reject the extreme practice and retain the three climate-resilient measures.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "The Climate-Smart Village approach is part of a project led by CCAFS, which operates under",
+   "o": [
+    "ICAR",
+    "MoES",
+    "IMD",
+    "CGIAR"
+   ],
+   "a": 3,
+   "x": "The Climate-Smart Village approach forms part of a CCAFS-led project operating under CGIAR.",
+   "ty": "fact",
+   "tq": "Distinguish the project, programme and umbrella institutional levels.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "Which of the following statements is correct regarding ICRISAT?",
+   "o": [
+    "It is a CCAFS headquarters located in France.",
+    "It is an IMD centre located in Pune.",
+    "It is a CGIAR centre located at Patancheru, Hyderabad.",
+    "It is a CRIDA centre located in Kurnool."
+   ],
+   "a": 2,
+   "x": "The International Crops Research Institute for the Semi-Arid Tropics is a CGIAR centre located at Patancheru in Hyderabad.",
+   "ty": "fact",
+   "tq": "Use the organisation-location combination to avoid institutional substitution.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "The headquarters of CGIAR is located in",
+   "o": [
+    "Rome, Italy",
+    "Paris, France",
+    "Geneva, Switzerland",
+    "Hyderabad, India"
+   ],
+   "a": 1,
+   "x": "CGIAR has its headquarters in France, at Paris.",
+   "ty": "fact",
+   "tq": "Test the headquarters detail separately from the location of an affiliated research centre.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "Under conditions of extreme heat, dairy milk yield is reported to decline by approximately",
+   "o": [
+    "30–40 percent",
+    "5–10 percent",
+    "45–55 percent",
+    "15–25 percent"
+   ],
+   "a": 3,
+   "x": "The FAO–WMO report indicates that extreme heat can reduce dairy milk yield by about 15–25 percent.",
+   "ty": "numerical",
+   "tq": "Identify the correct percentage range rather than a single approximate value.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "An El Niño-linked fodder crisis in Andhra Pradesh was specifically reported in",
+   "o": [
+    "Anantapur",
+    "Kurnool",
+    "Chittoor",
+    "Palnadu"
+   ],
+   "a": 2,
+   "x": "The El Niño-linked fodder crisis was reported in Chittoor, highlighting the need for fodder banks and silage.",
+   "ty": "fact",
+   "tq": "Distinguish the district associated with fodder stress from districts associated with heat waves or dry sowing.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "More than what proportion of India’s workforce depends on agriculture?",
+   "o": [
+    "10 percent",
+    "25 percent",
+    "50 percent",
+    "75 percent"
+   ],
+   "a": 2,
+   "x": "More than 50 percent of India’s workforce depends on agriculture.",
+   "ty": "numerical",
+   "tq": "Use the broad workforce threshold stated in the data.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "How many climate-resilient varieties were released during 2014–2025?",
+   "o": [
+    "1,996",
+    "2,496",
+    "2,996",
+    "3,996"
+   ],
+   "a": 2,
+   "x": "A total of 2,996 climate-resilient varieties were released during 2014–2025.",
+   "ty": "numerical",
+   "tq": "Distinguish closely spaced quantitative alternatives.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "HD 3385 is associated with",
+   "o": [
+    "a heat-tolerant wheat variety",
+    "a GIS-based crop vulnerability atlas",
+    "a drought-resistant rice variety",
+    "a climate-resilient cattle breed"
+   ],
+   "a": 0,
+   "x": "HD 3385 is a heat-tolerant wheat variety.",
+   "ty": "confusable",
+   "tq": "Match the specific technical name with its crop and resilience characteristic.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "Which one of the following correctly represents the approximate yield loss associated with a 1°C rise for wheat and maize?",
+   "o": [
+    "30–40 percent",
+    "15–25 percent",
+    "1–2 percent",
+    "4–10 percent"
+   ],
+   "a": 3,
+   "x": "Wheat and maize are reported to lose approximately 4–10 percent of yield per 1°C rise.",
+   "ty": "numerical",
+   "tq": "Separate crop-yield loss percentages from livestock heat-stress figures.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "Livestock heat stress becomes a significant concern above approximately",
+   "o": [
+    "15°C",
+    "20°C",
+    "25°C",
+    "35°C"
+   ],
+   "a": 2,
+   "x": "Livestock heat stress is reported to occur above approximately 25°C.",
+   "ty": "numerical",
+   "tq": "Distinguish the livestock threshold from the human wet-bulb survivability limit.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "ACASA-India is primarily associated with",
+   "o": [
+    "GIS-based mapping of crop vulnerability",
+    "forecasting cyclones over the Bay of Bengal",
+    "measuring wet-bulb temperature in cities",
+    "monitoring Himalayan glacier retreat"
+   ],
+   "a": 0,
+   "x": "ACASA-India, the Atlas of Climate Adaptation in Indian Agriculture, uses GIS-based mapping to assess crop vulnerability.",
+   "ty": "fact",
+   "tq": "Expand the acronym conceptually and link it with its precise application.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "Which of the following crops is included in Andhra Pradesh’s 2026 El Niño response plan?",
+   "o": [
+    "Tea",
+    "Rubber",
+    "Jute",
+    "Red gram"
+   ],
+   "a": 3,
+   "x": "The Andhra Pradesh plan includes crop diversification with red gram, black gram and castor.",
+   "ty": "fact",
+   "tq": "Select the crop from the stated regional adaptation package.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched in relation to Andhra Pradesh’s 2026 El Niño plan?",
+   "o": [
+    "Pre-Monsoon Dry Sowing — Kurnool",
+    "Fodder crisis — Palnadu",
+    "Heat-tolerant wheat HD 3385 — Chittoor",
+    "Climate-Smart Village — Anantapur"
+   ],
+   "a": 0,
+   "x": "Pre-Monsoon Dry Sowing was planned in Kurnool. The reported fodder crisis was in Chittoor, while the other pairings are not stated associations.",
+   "ty": "match",
+   "tq": "Start from the sure location-based pair and eliminate swapped district associations.",
+   "sec": "Agriculture - rice and wheat yields, NICRA, Climate-Smart Villages, resilient varieties"
+  },
+  {
+   "s": "A wet-bulb temperature of about 35°C is considered a critical limit for human survivability because",
+   "o": [
+    "blood circulation stops immediately at that temperature",
+    "humidity becomes zero at that temperature",
+    "sweat can no longer cool the body effectively above that temperature",
+    "the body stops producing sweat below that temperature"
+   ],
+   "a": 2,
+   "x": "At a wet-bulb temperature above about 35°C, sweat can no longer cool the body sufficiently, making human survival highly difficult.",
+   "ty": "application",
+   "tq": "Link the physical threshold to its physiological mechanism.",
+   "sec": "Heat stress and health - wet-bulb limit, Heat Action Plans, vector-borne diseases"
+  },
+  {
+   "s": "A CMIP6 study projects that approximately how many coastal districts could warm by more than 1°C by 2040?",
+   "o": [
+    "20",
+    "30",
+    "40",
+    "60"
+   ],
+   "a": 2,
+   "x": "The CMIP6 projection indicates that around 40 coastal districts could warm by more than 1°C by 2040.",
+   "ty": "numerical",
+   "tq": "Use the approximate count and avoid confusing it with the wet-bulb temperature figure.",
+   "sec": "Heat stress and health - wet-bulb limit, Heat Action Plans, vector-borne diseases"
+  },
+  {
+   "s": "According to the CMIP6 projection, Kerala and Tamil Nadu could experience wet-bulb temperatures of approximately",
+   "o": [
+    "21°C",
+    "26°C",
+    "31°C",
+    "36°C"
+   ],
+   "a": 2,
+   "x": "Kerala and Tamil Nadu could experience wet-bulb temperatures of about 31°C under the cited projection.",
+   "ty": "numerical",
+   "tq": "Distinguish a regional projected value from the global human survivability threshold.",
+   "sec": "Heat stress and health - wet-bulb limit, Heat Action Plans, vector-borne diseases"
+  },
+  {
+   "s": "The Dasra report ‘Under the Weather’ found that nearly what proportion of districts face high risk from extreme weather?",
+   "o": [
+    "20 percent",
+    "30 percent",
+    "40 percent",
+    "60 percent"
+   ],
+   "a": 2,
+   "x": "The report found that nearly 40 percent of districts face high risk from extreme weather.",
+   "ty": "numerical",
+   "tq": "Recall the approximate risk proportion and distinguish it from disease-specific figures.",
+   "sec": "Heat stress and health - wet-bulb limit, Heat Action Plans, vector-borne diseases"
+  },
+  {
+   "s": "Which of the following disease-environment relationships is correctly matched?",
+   "o": [
+    "Warmer and wetter conditions — expansion of dengue and malaria",
+    "Floods — reduction of cholera and hepatitis",
+    "Heat — prevention of heatstroke and cardiovascular strain",
+    "Urban waterlogging — elimination of leptospirosis"
+   ],
+   "a": 0,
+   "x": "Warmer and wetter conditions expand dengue and malaria. Floods and heat tend to increase, rather than reduce, the other listed health risks.",
+   "ty": "match",
+   "tq": "Match each environmental condition with its actual health consequence.",
+   "sec": "Heat stress and health - wet-bulb limit, Heat Action Plans, vector-borne diseases"
+  },
+  {
+   "s": "Urban waterlogging, as observed in Mumbai, can contribute to the spread of",
+   "o": [
+    "silicosis, tuberculosis and asthma",
+    "dengue, malaria and chikungunya only",
+    "scurvy, rickets and anaemia",
+    "leptospirosis, typhoid and hepatitis A"
+   ],
+   "a": 3,
+   "x": "Urban waterlogging can spread leptospirosis, typhoid and hepatitis A.",
+   "ty": "fact",
+   "tq": "Associate the urban flooding pathway with the specific waterborne and water-related diseases.",
+   "sec": "Heat stress and health - wet-bulb limit, Heat Action Plans, vector-borne diseases"
+  },
+  {
+   "s": "Approximately what proportion of India’s annual rainfall is received from the south-west monsoon?",
+   "o": [
+    "11 percent",
+    "25 percent",
+    "50 percent",
+    "75 percent"
+   ],
+   "a": 3,
+   "x": "The south-west monsoon contributes about 75 percent of India’s annual rainfall.",
+   "ty": "numerical",
+   "tq": "Distinguish the dominant south-west monsoon share from the smaller north-east monsoon share.",
+   "sec": "Monsoon changes - variability, extreme rainfall, IMD and MoES observations"
+  },
+  {
+   "s": "The north-east monsoon during October–December contributes approximately what share of India’s annual rainfall?",
+   "o": [
+    "5 percent",
+    "11 percent",
+    "25 percent",
+    "40 percent"
+   ],
+   "a": 1,
+   "x": "The north-east monsoon contributes about 11 percent of India’s annual rainfall.",
+   "ty": "numerical",
+   "tq": "Use the season and percentage together to avoid reversing the two monsoon contributions.",
+   "sec": "Monsoon changes - variability, extreme rainfall, IMD and MoES observations"
+  },
+  {
+   "s": "Extreme pre-monsoon rainfall events in India approximately doubled during",
+   "o": [
+    "1951–1970",
+    "1961–1980",
+    "1981–2020",
+    "2001–2020"
+   ],
+   "a": 2,
+   "x": "Extreme pre-monsoon rainfall events doubled between 1981 and 2020.",
+   "ty": "chronology",
+   "tq": "Identify the complete time interval rather than an overlapping shortened period.",
+   "sec": "Monsoon changes - variability, extreme rainfall, IMD and MoES observations"
+  },
+  {
+   "s": "For every 1°C rise in temperature, the atmosphere can hold approximately how much additional moisture?",
+   "o": [
+    "1 percent",
+    "4 percent",
+    "7 percent",
+    "15 percent"
+   ],
+   "a": 2,
+   "x": "Each 1°C of warming adds approximately 7 percent atmospheric moisture.",
+   "ty": "numerical",
+   "tq": "Recall the established temperature-moisture relationship and reject nearby percentage traps.",
+   "sec": "Monsoon changes - variability, extreme rainfall, IMD and MoES observations"
+  },
+  {
+   "s": "Flash floods have surged in which of the following river basins in association with changing extreme rainfall patterns?",
+   "o": [
+    "Luni, Sabarmati and Periyar",
+    "Brahmaputra, Ganga and Krishna",
+    "Godavari, Pennar and Cauvery only",
+    "Narmada, Tapi and Mahi"
+   ],
+   "a": 1,
+   "x": "The Brahmaputra, Ganga and Krishna basins have experienced surging flash floods in the stated assessment.",
+   "ty": "fact",
+   "tq": "Recall the complete basin group without replacing it with another Indian river group.",
+   "sec": "Monsoon changes - variability, extreme rainfall, IMD and MoES observations"
+  },
+  {
+   "s": "Consider the following statements regarding projected rainfall trends:\n1. The west coast, including Gujarat and Maharashtra, is projected to receive more south-west and north-east monsoon rain.\n2. Odisha, West Bengal and the Sundarbans are projected to experience declining south-west monsoon rain.\n3. Tamil Nadu and Andhra Pradesh are projected to experience excess south-west monsoon rain.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly reproduce the projected rainfall trends for the listed regions.",
+   "ty": "statements",
+   "tq": "Read the comparison table row by row and retain all correctly matched regional trends.",
+   "sec": "Monsoon changes - variability, extreme rainfall, IMD and MoES observations"
+  },
+  {
+   "s": "Arrange the following regions in the order in which their stated south-west monsoon rainfall trend changes from increase to decline:\nA. Odisha, West Bengal and Sundarbans\nB. Tamil Nadu and Andhra Pradesh\nC. West coast\nChoose the correct answer.",
+   "o": [
+    "A, B, C",
+    "B, C, A",
+    "C, B, A",
+    "C, A, B"
+   ],
+   "a": 2,
+   "x": "The west coast is associated with more south-west monsoon rain, Tamil Nadu and Andhra Pradesh with excess south-west monsoon rain, and Odisha–West Bengal–Sundarbans with declining south-west monsoon rain.",
+   "ty": "chronology",
+   "tq": "Arrange the categories by comparing the direction and intensity of their rainfall trends.",
+   "sec": "Monsoon changes - variability, extreme rainfall, IMD and MoES observations"
+  },
+  {
+   "s": "The annual rainfall of Andhra Pradesh is approximately 966 mm, of which the south-west and north-east monsoons contribute respectively",
+   "o": [
+    "one-third and two-thirds",
+    "two-thirds and one-third",
+    "three-fourths and one-fourth",
+    "one-half and one-half"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh receives about 966 mm of annual rainfall, with roughly two-thirds from the south-west monsoon and one-third from the north-east monsoon.",
+   "ty": "comparison",
+   "tq": "Compare the two monsoon shares while retaining the total annual rainfall context.",
+   "sec": "Monsoon changes - variability, extreme rainfall, IMD and MoES observations"
+  },
+  {
+   "s": "Assertion (A): Climate change can intensify extreme rainfall and flash-flood risks in India.\nReason (R): Each 1°C rise in temperature enables the atmosphere to hold approximately 7 percent more moisture.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and the greater moisture-holding capacity of warmer air helps explain the intensification of extreme rainfall and associated flash floods.",
+   "ty": "assertion_reason",
+   "tq": "Test whether the quantitative reason directly explains the climate-impact assertion.",
+   "sec": "Monsoon changes - variability, extreme rainfall, IMD and MoES observations"
+  }
+ ]
+}

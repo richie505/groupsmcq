@@ -1,0 +1,483 @@
+{
+ "book": 5,
+ "row": 75,
+ "chunk": 0,
+ "section": "Environmental issues and concerns - land degradation, desertification, deforestation, soil erosion",
+ "subsections": [
+  "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss",
+  "Desertification and land degradation - semi-arid causes, DLD Atlas, extent",
+  "Agriculture-driven degradation - modern agriculture, groundwater and topsoil depletion",
+  "Forest and soil conservation movements → state and leader"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is NOT identified as a driver of deforestation?",
+   "o": [
+    "Clearing forests for agriculture",
+    "Urbanisation",
+    "Improved soil-moisture retention",
+    "Mining"
+   ],
+   "a": 2,
+   "x": "Agricultural expansion, urbanisation, industry and mining are drivers of deforestation. Improved soil-moisture retention is an impact opposite to that of deforestation.",
+   "ty": "negative",
+   "tq": "Find the option that describes an opposite effect rather than a driver.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "Deforestation contributes to the greenhouse effect primarily because it",
+   "o": [
+    "raises soil fertility in all regions",
+    "increases the global forest area",
+    "prevents soil erosion completely",
+    "reduces the carbon sink capacity of forests"
+   ],
+   "a": 3,
+   "x": "Deforestation removes vegetation that acts as a carbon sink. The resulting loss of carbon absorption adds to the greenhouse effect.",
+   "ty": "fact",
+   "tq": "Link the environmental impact directly to the underlying ecological function.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "Consider the following statements regarding the consequences of deforestation:\n1. It causes loss of vegetative cover.\n2. It reduces soil-moisture retention.\n3. It accelerates soil erosion.\n4. It can contribute to desertification.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Deforestation removes vegetative cover, lowers soil-moisture retention, accelerates erosion and may lead to declining fertility and desertification.",
+   "ty": "statements",
+   "tq": "Test a chain of related ecological impacts; the comprehensive combination is correct.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "Approximately what proportion of the Earth's land is covered by forests?",
+   "o": [
+    "21.76%",
+    "25.17%",
+    "32%",
+    "54%"
+   ],
+   "a": 2,
+   "x": "Forests cover approximately 32% of the Earth's land area.",
+   "ty": "numerical",
+   "tq": "Use the numerical-value option set and distinguish a global figure from India-specific figures.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "Which one of the following correctly identifies the five countries that together contain more than half of the world's forests?",
+   "o": [
+    "Russia, Brazil, Canada, the United States and China",
+    "India, Brazil, Canada, Australia and China",
+    "Brazil, Canada, Australia, India and the United States",
+    "Russia, India, the United States, Indonesia and China"
+   ],
+   "a": 0,
+   "x": "More than 54% of the world's forests are found in Russia, Brazil, Canada, the United States and China.",
+   "ty": "fact",
+   "tq": "Test a named-list fact; distinguish the exact membership of the group.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "According to the FAO Forest Resources Assessment 2025 figures, the annual net loss of forest declined from approximately 10.7 million hectares in the 1990s to",
+   "o": [
+    "8.3 million hectares during 2000–2010",
+    "5.2 million hectares during 2000–2010",
+    "4.12 million hectares during 2015–2025",
+    "2.97 million hectares during 2015–2025"
+   ],
+   "a": 2,
+   "x": "The FRA 2025 figures record a decline in annual net forest loss from 10.7 million hectares in the 1990s to 4.12 million hectares per year during 2015–2025.",
+   "ty": "numerical",
+   "tq": "Separate the latest FRA time period and figure from older assessment figures.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "The older FAO Forest Resources Assessment figures cited for the annual net forest loss show a decline from 8.3 million hectares in the 1990s to",
+   "o": [
+    "4.12 million hectares during 2015–2025",
+    "3.41 million hectares during 2000–2010",
+    "5.2 million hectares during 2000–2010",
+    "10.7 million hectares during 2015–2025"
+   ],
+   "a": 2,
+   "x": "The older FRA figures record a decline from 8.3 million hectares per year in the 1990s to 5.2 million hectares per year during 2000–2010.",
+   "ty": "numerical",
+   "tq": "Check the edition and time period before selecting a familiar-looking forest-loss figure.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "Which region was the only region reported to have a net forest gain during 1990–2025?",
+   "o": [
+    "Africa",
+    "South America",
+    "Asia",
+    "Europe"
+   ],
+   "a": 2,
+   "x": "Asia was the only region with a net forest gain during 1990–2025, led by China and India.",
+   "ty": "fact",
+   "tq": "Use the superlative qualifier “only” carefully and identify the regional exception.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "Consider the following statements:\n1. India rose to ninth place in total forest area.\n2. India was tenth in total forest area in 2020.\n3. India remained third in annual forest gain.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "India rose to ninth place in total forest area from tenth place in 2020 and remained third in annual forest gain.",
+   "ty": "statements",
+   "tq": "Combine ranking and trend statements; check both the earlier rank and the current rank.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "The Forest Declaration Assessment 2025 reported that forest loss in 2024 was approximately",
+   "o": [
+    "5.2 million hectares",
+    "4.12 million hectares",
+    "10.7 million hectares",
+    "8.1 million hectares"
+   ],
+   "a": 3,
+   "x": "The Forest Declaration Assessment 2025 reported forest loss of 8.1 million hectares in 2024.",
+   "ty": "numerical",
+   "tq": "Distinguish a single-year forest-loss figure from annual averages in FRA assessments.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "Which of the following statements is correct regarding the Forest Declaration Assessment 2025?",
+   "o": [
+    "The world was fully on track to achieve zero deforestation by 2030.",
+    "Only 9% of global forest loss occurred in tropical forests.",
+    "About 94% of global forest loss occurred in tropical forests.",
+    "The assessment reported no forest loss in 2024."
+   ],
+   "a": 2,
+   "x": "About 94% of the reported forest loss was in tropical forests, while the world was 63% off track for zero deforestation by 2030.",
+   "ty": "fact",
+   "tq": "Match the precise percentage and avoid reversing the progress assessment.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "The zones identified as having the highest forest loss are mainly the",
+   "o": [
+    "coniferous forests of Russia and Canada alone",
+    "tropical forests of the Amazon, Congo Basin and Southeast Asia",
+    "temperate forests of Europe and North America",
+    "mangrove forests of the Indian coastline alone"
+   ],
+   "a": 1,
+   "x": "The highest forest loss is concentrated in tropical forests, especially in the Amazon, Congo Basin and Southeast Asia.",
+   "ty": "fact",
+   "tq": "Use the geographic-cluster clue to identify the correct region rather than a single country.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "According to the India State of Forest Report 2023 figures cited, the forest cover of India is approximately",
+   "o": [
+    "3.41% of the geographical area",
+    "21.76% of the geographical area",
+    "29.77% of the geographical area",
+    "25.17% of the geographical area"
+   ],
+   "a": 1,
+   "x": "India's forest cover is reported as 7,15,343 square kilometres, constituting 21.76% of its geographical area.",
+   "ty": "numerical",
+   "tq": "Separate forest cover from tree cover and their combined percentage.",
+   "sec": "Deforestation - drivers, impacts, FAO Forest Resources Assessment data, zones with highest loss"
+  },
+  {
+   "s": "Desertification is best understood as",
+   "o": [
+    "the conversion of all forests into agricultural land",
+    "the spread of existing deserts alone into neighbouring regions",
+    "the natural formation of sand dunes only",
+    "the spread of desert-like conditions into non-arid areas through climatic and human factors"
+   ],
+   "a": 3,
+   "x": "Desertification involves land degradation in arid, semi-arid and dry sub-humid areas due to climatic variation and human activity; it is not merely the spread of existing deserts.",
+   "ty": "confusable",
+   "tq": "Discriminate between the broad process of desertification and the narrower idea of desert expansion.",
+   "sec": "Desertification and land degradation - semi-arid causes, DLD Atlas, extent"
+  },
+  {
+   "s": "In semi-arid regions, the principal causes of desertification are",
+   "o": [
+    "afforestation and contour farming",
+    "low population pressure and regular rainfall",
+    "overgrazing and deforestation",
+    "water harvesting and improved drainage"
+   ],
+   "a": 2,
+   "x": "Overgrazing and deforestation are identified as the main causes of desertification in semi-arid regions.",
+   "ty": "fact",
+   "tq": "Select the primary cause rather than a secondary contributing factor.",
+   "sec": "Desertification and land degradation - semi-arid causes, DLD Atlas, extent"
+  },
+  {
+   "s": "Which of the following factors may contribute to desertification in addition to overgrazing and deforestation?\n1. Improper irrigation\n2. Excessive use of chemicals\n3. Erratic rainfall and droughts\n4. Population pressure\nSelect the correct answer using the code below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Improper irrigation, excessive chemicals, erratic rainfall, droughts and population pressure are additional contributing factors.",
+   "ty": "statements",
+   "tq": "Test a complete list of secondary causes; all four statements are supported.",
+   "sec": "Desertification and land degradation - semi-arid causes, DLD Atlas, extent"
+  },
+  {
+   "s": "The Desertification and Land Degradation Atlas of India 2021 was prepared by",
+   "o": [
+    "ISRO's Space Applications Centre",
+    "UNDP and UNEP",
+    "FAO and UNCCD",
+    "Forest Survey of India alone"
+   ],
+   "a": 0,
+   "x": "The Desertification and Land Degradation Atlas of India 2021 was prepared by the Space Applications Centre of ISRO.",
+   "ty": "fact",
+   "tq": "Identify the correct institutional authority associated with the atlas.",
+   "sec": "Desertification and land degradation - semi-arid causes, DLD Atlas, extent"
+  },
+  {
+   "s": "According to the Desertification and Land Degradation Atlas of India 2021, approximately what area of India was degraded?",
+   "o": [
+    "97.85 million hectares, or 29.77%",
+    "115.20 million hectares, or 32%",
+    "71.53 million hectares, or 21.76%",
+    "97.85 million hectares, or 25.17%"
+   ],
+   "a": 0,
+   "x": "The atlas reported 97.85 million hectares, equivalent to 29.77% of India's area, as degraded.",
+   "ty": "numerical",
+   "tq": "Match the area figure with its corresponding percentage rather than mixing national indicators.",
+   "sec": "Desertification and land degradation - semi-arid causes, DLD Atlas, extent"
+  },
+  {
+   "s": "Which two processes are identified as major contributors to land degradation in India?",
+   "o": [
+    "Crop rotation and organic farming",
+    "Rainwater harvesting and mulching",
+    "Wind deposition and afforestation",
+    "Water erosion and chemical degradation"
+   ],
+   "a": 3,
+   "x": "Water erosion and chemical degradation are identified as major contributors to land degradation in India.",
+   "ty": "fact",
+   "tq": "Distinguish degradation processes from conservation practices.",
+   "sec": "Desertification and land degradation - semi-arid causes, DLD Atlas, extent"
+  },
+  {
+   "s": "The FAO estimate that approximately one-third of the world's soils are degraded refers to",
+   "o": [
+    "annual forest gain in Asia",
+    "the share of tropical forests in global forest loss",
+    "global soil degradation",
+    "India's forest cover"
+   ],
+   "a": 2,
+   "x": "The estimate concerns the global condition of soils: approximately one-third of the world's soils are degraded.",
+   "ty": "fact",
+   "tq": "Read the scope of the statistic carefully; the statement is global rather than India-specific.",
+   "sec": "Desertification and land degradation - semi-arid causes, DLD Atlas, extent"
+  },
+  {
+   "s": "The UNCCD Global Land Outlook estimates that land degradation costs the world more than what proportion of global GDP in lost ecosystem services?",
+   "o": [
+    "3%",
+    "5%",
+    "10%",
+    "29.77%"
+   ],
+   "a": 2,
+   "x": "The UNCCD Global Land Outlook estimates that land degradation costs more than 10% of global GDP through lost ecosystem services.",
+   "ty": "numerical",
+   "tq": "Distinguish a global economic-loss estimate from land-area percentages.",
+   "sec": "Desertification and land degradation - semi-arid causes, DLD Atlas, extent"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Process)\nA. Overgrazing\nB. Deforestation\nC. Water erosion\nD. Wind erosion\n\nList-II (Effect)\nI. Topsoil is blown away in dry areas\nII. Soil is exposed to wind and water erosion\nIII. Vegetation cover is stripped\nIV. Topsoil is lost and rivers and reservoirs receive sediment\n\nSelect the correct answer using the code below.",
+   "o": [
+    "A–III, B–II, C–IV, D–I",
+    "A–II, B–III, C–I, D–IV",
+    "A–IV, B–I, C–II, D–III",
+    "A–I, B–IV, C–III, D–II"
+   ],
+   "a": 0,
+   "x": "Overgrazing strips vegetation, deforestation exposes soil, water erosion removes topsoil and causes sedimentation, and wind erosion blows topsoil away in dry areas.",
+   "ty": "match",
+   "tq": "Start with the sure pair—wind erosion and blown topsoil—then eliminate inconsistent combinations.",
+   "sec": "Desertification and land degradation - semi-arid causes, DLD Atlas, extent"
+  },
+  {
+   "s": "Salinisation and waterlogging are particularly associated with",
+   "o": [
+    "brick production and topsoil mining",
+    "poor drainage and over-irrigation",
+    "forest expansion and reduced cultivation",
+    "wind erosion in dry areas"
+   ],
+   "a": 1,
+   "x": "Poor drainage and over-irrigation cause salinisation and waterlogging, including in delta regions.",
+   "ty": "application",
+   "tq": "Link the land-management practice to its characteristic degradation outcome.",
+   "sec": "Desertification and land degradation - semi-arid causes, DLD Atlas, extent"
+  },
+  {
+   "s": "In the context of intensive agriculture, excess urea is reported to have skewed the NPK ratio particularly in",
+   "o": [
+    "Rajasthan and Gujarat",
+    "Punjab and Haryana",
+    "Madhya Pradesh and Odisha",
+    "Karnataka and Kerala"
+   ],
+   "a": 1,
+   "x": "Excess use of urea has skewed the nitrogen-phosphorus-potassium balance in the soils of Punjab and Haryana.",
+   "ty": "fact",
+   "tq": "Use the location-specific agriculture trap and distinguish it from other state pairs.",
+   "sec": "Desertification and land degradation - semi-arid causes, DLD Atlas, extent"
+  },
+  {
+   "s": "The concept used to describe degradation caused by over-use of a shared pasture is",
+   "o": [
+    "Green Revolution",
+    "Tragedy of the Commons",
+    "Ecological succession",
+    "Carbon neutrality"
+   ],
+   "a": 1,
+   "x": "Over-use of a commonly shared pasture is described as the Tragedy of the Commons, a concept associated with Garrett Hardin in 1968.",
+   "ty": "confusable",
+   "tq": "Match the exact conceptual term with the common-resource situation.",
+   "sec": "Desertification and land degradation - semi-arid causes, DLD Atlas, extent"
+  },
+  {
+   "s": "Which of the following is the most conspicuous set of effects associated with modern agriculture?",
+   "o": [
+    "Reduced irrigation, increased soil carbon and forest expansion",
+    "Declining crop production without any environmental effect",
+    "Soil formation, afforestation and ecological stability",
+    "Soil degradation, pollution and ecological imbalance"
+   ],
+   "a": 3,
+   "x": "The most conspicuous effects of modern agriculture are soil degradation, pollution and ecological imbalance.",
+   "ty": "fact",
+   "tq": "Recognise the complete three-part consequence set rather than selecting one component.",
+   "sec": "Agriculture-driven degradation - modern agriculture, groundwater and topsoil depletion"
+  },
+  {
+   "s": "Consider the following statements:\n1. Synthetic fertilisers and pesticides can contaminate soil and water.\n2. Over-irrigation and poor drainage can cause waterlogging and salinity.\n3. By 2050, up to 50% of the world's arable land could be affected by these problems.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Synthetic chemicals contaminate soil and water; over-irrigation with poor drainage causes waterlogging and salinity; and the projected affected share by 2050 is 50% of global arable land.",
+   "ty": "statements",
+   "tq": "Combine causal and projected-extent statements; all three are correct.",
+   "sec": "Agriculture-driven degradation - modern agriculture, groundwater and topsoil depletion"
+  },
+  {
+   "s": "The reported decline in Soil Organic Carbon in Indian soils over a period of 70 years was from",
+   "o": [
+    "10% to 3.41%",
+    "0.3% to 1%",
+    "3% to 1%",
+    "1% to 0.3%"
+   ],
+   "a": 3,
+   "x": "Soil Organic Carbon in Indian soils reportedly fell from 1% to 0.3% over 70 years.",
+   "ty": "numerical",
+   "tq": "Check the direction of change as well as the two percentage values.",
+   "sec": "Agriculture-driven degradation - modern agriculture, groundwater and topsoil depletion"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Groundwater — Forest expansion",
+    "Topsoil — Brick production",
+    "Biodiversity habitats — Improved drainage",
+    "Land for buildings — Crop rotation"
+   ],
+   "a": 1,
+   "x": "Brick production involves topsoil mining and therefore depletes topsoil. The other pairings do not represent the stated causes of resource depletion.",
+   "ty": "negative",
+   "tq": "Find the one correct resource–cause pairing among closely related environmental terms.",
+   "sec": "Agriculture-driven degradation - modern agriculture, groundwater and topsoil depletion"
+  },
+  {
+   "s": "Arrange the following movements in chronological order:\nA. Appiko Movement\nB. Chipko Movement\nC. Mitti Bachao Abhiyan",
+   "o": [
+    "B, C, A",
+    "A, B, C",
+    "C, B, A",
+    "B, A, C"
+   ],
+   "a": 0,
+   "x": "The Chipko Movement began in 1973, the Mitti Bachao Abhiyan in 1977, and the Appiko Movement in 1983.",
+   "ty": "chronology",
+   "tq": "Use the years as anchors and arrange the events from earliest to latest.",
+   "sec": "Forest and soil conservation movements → state and leader"
+  },
+  {
+   "s": "The Chipko Movement is correctly associated with which of the following combinations?",
+   "o": [
+    "Karnataka — Panduranga Hegde — 1983",
+    "Uttarakhand, formerly Uttar Pradesh — Sunderlal Bahuguna, Chandi Prasad Bhatt and Gaura Devi — 1973",
+    "Madhya Pradesh — Tawa dam — 1977",
+    "Punjab and Haryana — Garrett Hardin — 1968"
+   ],
+   "a": 1,
+   "x": "The Chipko Movement is associated with Uttarakhand, then part of Uttar Pradesh, and with Sunderlal Bahuguna, Chandi Prasad Bhatt and Gaura Devi in 1973.",
+   "ty": "match",
+   "tq": "Match the movement with its state, leaders and year; reject the swapped movement details.",
+   "sec": "Forest and soil conservation movements → state and leader"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the Appiko Movement?",
+   "o": [
+    "Uttarakhand — 1973 — Gaura Devi",
+    "Karnataka — Panduranga Hegde — 1983",
+    "Punjab — 1968 — Garrett Hardin",
+    "Madhya Pradesh — 1977 — waterlogging and salinity"
+   ],
+   "a": 1,
+   "x": "The Appiko Movement occurred in Karnataka in 1983 and was associated with Panduranga Hegde.",
+   "ty": "fact",
+   "tq": "Use a movement–state–leader–year combination to distinguish Appiko from Chipko.",
+   "sec": "Forest and soil conservation movements → state and leader"
+  },
+  {
+   "s": "The Mitti Bachao Abhiyan is associated with",
+   "o": [
+    "Madhya Pradesh, the Tawa dam and opposition to waterlogging and salinity",
+    "Karnataka, forest protection and Panduranga Hegde",
+    "Punjab, excessive urea use and NPK imbalance",
+    "Uttarakhand, forest protection and Gaura Devi"
+   ],
+   "a": 0,
+   "x": "The Mitti Bachao Abhiyan began in Madhya Pradesh in the Tawa dam area of Hoshangabad in 1977 and opposed waterlogging and salinity.",
+   "ty": "fact",
+   "tq": "Identify the location and issue together to avoid swapping details among conservation movements.",
+   "sec": "Forest and soil conservation movements → state and leader"
+  }
+ ]
+}

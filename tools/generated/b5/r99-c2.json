@@ -1,0 +1,666 @@
+{
+ "book": 5,
+ "row": 99,
+ "chunk": 2,
+ "section": "Air pollution - sources, pollutants, NAAQS, AQI, National Clean Air Programme, stubble burning",
+ "subsections": [
+  "AQI and NAAQS - categories, pollutants, NAMP, SAFAR",
+  "AP air quality action",
+  "Control technologies - catalytic converters, cloud seeding, indoor pollution",
+  "Bioindicators - lichens",
+  "Stubble burning and NCR measures - CAQM, decomposer, machinery, GRAP"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 47,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The National Air Quality Index (NAQI) is published by which organisation?",
+   "o": [
+    "National Green Tribunal",
+    "Indian Meteorological Department",
+    "Central Pollution Control Board",
+    "Ministry of Environment, Forest and Climate Change"
+   ],
+   "a": 2,
+   "x": "The NAQI is published by the Central Pollution Control Board (CPCB).",
+   "ty": "fact",
+   "tq": "Identify the agency responsible for the index.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "The National Air Quality Index covers how many pollutants on a scale of 0–500?",
+   "o": [
+    "8",
+    "10",
+    "12",
+    "15"
+   ],
+   "a": 0,
+   "x": "The NAQI covers eight pollutants—PM10, PM2.5, NO2, SO2, CO, O3, NH3 and Pb—on a 0–500 scale.",
+   "ty": "numerical",
+   "tq": "Split the options by matching the exact number with the listed components.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT included among the eight pollutants covered by the National Air Quality Index?",
+   "o": [
+    "Ammonia",
+    "PM2.5",
+    "Benzene",
+    "Lead"
+   ],
+   "a": 2,
+   "x": "Benzene is included in the 12-pollutant NAAQS set, but not among the eight pollutants used in the NAQI list stated here.",
+   "ty": "negative",
+   "tq": "Find the pollutant belonging to the broader NAAQS list rather than the AQI eight.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the National Air Quality Index:\n1. It is expressed on a scale from 0 to 500.\n2. It includes PM10 and PM2.5.\n3. It is published by the CPCB.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the NAQI uses a 0–500 scale, includes PM10 and PM2.5, and is published by CPCB.",
+   "ty": "statements",
+   "tq": "Use the all-inclusive option only after verifying each statement independently.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "An AQI value of 35 falls under which category and colour?",
+   "o": [
+    "Satisfactory and light green",
+    "Good and dark green",
+    "Moderately polluted and yellow",
+    "Poor and orange"
+   ],
+   "a": 1,
+   "x": "An AQI of 0–50 is classified as Good and is represented by dark green.",
+   "ty": "application",
+   "tq": "Place the numerical value within the correct AQI interval before selecting the category.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the AQI category for the range 101–200?",
+   "o": [
+    "Satisfactory",
+    "Moderately polluted",
+    "Poor",
+    "Very poor"
+   ],
+   "a": 1,
+   "x": "The range 101–200 corresponds to the Moderately polluted category.",
+   "ty": "fact",
+   "tq": "Recall the middle ranges of the AQI classification table.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (AQI range)\n a. 51–100\n b. 201–300\n c. 301–400\n d. 401–500\nList-II (Category)\n i. Severe\n ii. Poor\n iii. Satisfactory\n iv. Very poor\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iii, b–iv, c–ii, d–i",
+    "a–i, b–ii, c–iv, d–iii"
+   ],
+   "a": 0,
+   "x": "The correct matches are 51–100—Satisfactory, 201–300—Poor, 301–400—Very poor and 401–500—Severe.",
+   "ty": "match",
+   "tq": "Start from the sure pair and eliminate codes with a mismatched AQI range.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "Which one of the following AQI categories is associated with the colour maroon?",
+   "o": [
+    "Moderately polluted",
+    "Very poor",
+    "Poor",
+    "Severe"
+   ],
+   "a": 3,
+   "x": "The Severe category, covering AQI values 401–500, is represented by maroon.",
+   "ty": "fact",
+   "tq": "Test the category–colour pair rather than the numerical range alone.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding the National Air Quality Index is correct?",
+   "o": [
+    "It was launched under the National Clean Air Programme and implemented by MoES.",
+    "It was launched under the Smart Cities Mission and implemented by IMD.",
+    "It was launched under the Swachh Bharat Abhiyan and implemented by CPCB.",
+    "It was launched under the Namami Gange Programme and implemented by NITI Aayog."
+   ],
+   "a": 2,
+   "x": "The index was launched in 2015 under the Swachh Bharat Abhiyan and is implemented by CPCB.",
+   "ty": "fact",
+   "tq": "Use the programme–implementing agency association to reject swapped authorities.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "The expression “One Number – One Colour – One Description” is associated with which of the following?",
+   "o": [
+    "National Air Quality Index",
+    "National Ambient Air Quality Standards",
+    "Graded Response Action Plan",
+    "SAFAR weather forecast"
+   ],
+   "a": 0,
+   "x": "“One Number – One Colour – One Description” is the communication principle associated with the AQI.",
+   "ty": "confusable",
+   "tq": "Discriminate between closely related air-quality instruments and programmes.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "How many pollutants are prescribed under the National Ambient Air Quality Standards (NAAQS)?",
+   "o": [
+    "8",
+    "10",
+    "12",
+    "14"
+   ],
+   "a": 2,
+   "x": "The NAAQS cover 12 pollutants, including the eight AQI pollutants plus benzene, benzo(a)pyrene, arsenic and nickel.",
+   "ty": "numerical",
+   "tq": "Compare the broader NAAQS list with the eight-pollutant AQI list.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "Which of the following pollutants is added to the eight AQI pollutants in the NAAQS list?\n1. Benzene\n2. Arsenic\n3. Nickel\n4. Benzo(a)pyrene\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four listed substances—benzene, arsenic, nickel and benzo(a)pyrene—are added to the eight AQI pollutants in the 12-pollutant NAAQS set.",
+   "ty": "statements",
+   "tq": "Check whether the option containing the complete added set is justified.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "The National Ambient Air Quality Standards were notified in 1982 and revised in which years?",
+   "o": [
+    "1990 and 2005",
+    "1994 and 2009",
+    "1995 and 2010",
+    "2000 and 2015"
+   ],
+   "a": 1,
+   "x": "The NAAQS were notified in 1982 and revised in 1994 and 2009.",
+   "ty": "chronology",
+   "tq": "Retain the sequence of the original notification followed by the two revisions.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "Which pollutant was included for the first time in the 2009 revision of the National Ambient Air Quality Standards?",
+   "o": [
+    "Carbon monoxide",
+    "Sulphur dioxide",
+    "Ozone",
+    "Lead"
+   ],
+   "a": 2,
+   "x": "Ozone was included for the first time in the 2009 revision of the NAAQS.",
+   "ty": "fact",
+   "tq": "Identify the pollutant linked to the specific revision year.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "The National Air Quality Monitoring Programme (NAMP) was started in which year?",
+   "o": [
+    "1978",
+    "1982",
+    "1984",
+    "1994"
+   ],
+   "a": 2,
+   "x": "NAMP was started in 1984 by CPCB.",
+   "ty": "numerical",
+   "tq": "Separate the monitoring programme’s start year from the NAAQS notification and revision years.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "Which set of pollutants is regularly monitored under NAMP?",
+   "o": [
+    "Lead, nickel, arsenic and benzo(a)pyrene only",
+    "SO2, NO2, PM10 and PM2.5",
+    "CO, O3, NH3 and benzene only",
+    "Methane, hydrogen, helium and ozone"
+   ],
+   "a": 1,
+   "x": "NAMP regularly monitors SO2, NO2, PM10 and PM2.5.",
+   "ty": "fact",
+   "tq": "Match the monitoring programme with its core pollutant set.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "According to the March 2026 figure, the NAMP network comprises how many stations in how many cities?",
+   "o": [
+    "1,597 stations in 583 cities",
+    "1,400 stations in 516 cities",
+    "1,735 stations in 682 cities",
+    "1,646 stations in 603 cities"
+   ],
+   "a": 3,
+   "x": "The March 2026 figure gives 1,646 stations covering 603 cities.",
+   "ty": "numerical",
+   "tq": "Distinguish the latest network figure from earlier monitoring-network figures.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "The earlier NAMP network figure of 1,597 stations in 583 cities consisted of how many manual stations and how many CAAQMS stations?",
+   "o": [
+    "1,200 manual and 397 CAAQMS",
+    "1,100 manual and 497 CAAQMS",
+    "1,035 manual and 562 CAAQMS",
+    "1,035 manual and 516 CAAQMS"
+   ],
+   "a": 2,
+   "x": "The stated composition is 1,035 manual stations and 562 CAAQMS stations.",
+   "ty": "numerical",
+   "tq": "Use the total and component figures together rather than relying on a single number.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "Which organisation runs SAFAR through IITM, Pune?",
+   "o": [
+    "Ministry of Environment, Forest and Climate Change",
+    "Central Pollution Control Board",
+    "Ministry of Earth Sciences",
+    "Ministry of Science and Technology"
+   ],
+   "a": 2,
+   "x": "SAFAR is run by the Ministry of Earth Sciences through IITM, Pune.",
+   "ty": "fact",
+   "tq": "Apply the “who runs it?” method to distinguish the ministry from CPCB.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "SAFAR—SAFAR-AIR app",
+    "CAAQMS—Pusa bio-decomposer",
+    "NAMP—Happy Seeder",
+    "GRAP—SAFAR weather satellite"
+   ],
+   "a": 0,
+   "x": "The SAFAR-AIR app is associated with the SAFAR air-quality forecasting system.",
+   "ty": "match",
+   "tq": "Match each instrument or programme with its specific digital or operational component.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "The MoES forecast system associated with Delhi air quality provides forecasts at what resolution and is linked to which response plan?",
+   "o": [
+    "500 m resolution and NAMP",
+    "10 km resolution and NAAQS",
+    "400 m resolution and GRAP",
+    "1 km resolution and NCAP"
+   ],
+   "a": 2,
+   "x": "The MoES system provides forecasts at 400 m resolution and is tied to the Graded Response Action Plan (GRAP).",
+   "ty": "fact",
+   "tq": "Pair the exact technical resolution with the associated policy mechanism.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "Which statement regarding CAAQMS is correct?",
+   "o": [
+    "It is operated exclusively by industries outside monitoring networks.",
+    "Its data are made available through the SAMEER app.",
+    "It replaced all manual monitoring stations in the country.",
+    "It monitors only sulphur dioxide and nitrogen dioxide."
+   ],
+   "a": 1,
+   "x": "CAAQMS data are provided through the SAMEER app. CAAQMS also tracks pollutants such as PM2.5, PM10, SO2, NOx, CO, O3, NH3 and benzene.",
+   "ty": "fact",
+   "tq": "Reject absolute claims and identify the precise data-access association.",
+   "sec": "AQI and NAAQS - categories, pollutants, NAMP, SAFAR  [APPSC]"
+  },
+  {
+   "s": "How many CAAQM stations and LED display boards are operated by APPCB according to the APSES 2024–25 figures?",
+   "o": [
+    "19 stations and 12 boards",
+    "25 stations and 19 boards",
+    "12 stations and 19 boards",
+    "9 stations and 12 boards"
+   ],
+   "a": 2,
+   "x": "APPCB operates 12 CAAQM stations and 19 LED display boards; nine additional stations were being installed.",
+   "ty": "numerical",
+   "tq": "Keep the station, board and proposed-addition figures separate.",
+   "sec": "AP air quality action  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding air-quality monitoring in Andhra Pradesh:\n1. APPCB operates 12 CAAQM stations.\n2. Nine additional CAAQM stations were being installed.\n3. APPCB operates 25 real-time noise stations.\n4. Industries operate 735 CAAQMS across 682 units.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correspond to the stated AP air-quality monitoring figures.",
+   "ty": "statements",
+   "tq": "Verify each numerical statement before selecting the complete combination.",
+   "sec": "AP air quality action  [APPSC]"
+  },
+  {
+   "s": "The APPCB state-level action plan covers how many urban local bodies, including how many municipal corporations?",
+   "o": [
+    "125 urban local bodies including 19 municipal corporations",
+    "100 urban local bodies including 12 municipal corporations",
+    "135 urban local bodies including 25 municipal corporations",
+    "123 urban local bodies including 17 municipal corporations"
+   ],
+   "a": 3,
+   "x": "The action plan covers 123 urban local bodies, including 17 municipal corporations.",
+   "ty": "numerical",
+   "tq": "Link the total coverage figure with the embedded municipal-corporation figure.",
+   "sec": "AP air quality action  [APPSC]"
+  },
+  {
+   "s": "Burning tyres, plastic and flex during Bhogi can release which of the following pollutants?\n1. Dioxins and furans\n2. Sulphur dioxide\n3. Heavy metals\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The burning of tyres, plastic and flex can release dioxins, furans, sulphur dioxide and heavy metals.",
+   "ty": "statements",
+   "tq": "Recognise the health-related pollutant cluster associated with open burning.",
+   "sec": "AP air quality action  [APPSC]"
+  },
+  {
+   "s": "School Eco-Clubs in Andhra Pradesh function under which initiative and have operated since which academic period?",
+   "o": [
+    "NCAP, since 2018–19",
+    "National Green Corps, since 2002–03",
+    "Swachh Bharat Abhiyan, since 2014–15",
+    "National Clean Air Mission, since 2020–21"
+   ],
+   "a": 1,
+   "x": "The school Eco-Clubs operate under the AP National Green Corps and have existed since 2002–03.",
+   "ty": "fact",
+   "tq": "Match the awareness mechanism with its parent initiative and starting period.",
+   "sec": "AP air quality action  [APPSC]"
+  },
+  {
+   "s": "Which combination correctly describes the reported Swachh Vayu Survekshan 2026 result in Andhra Pradesh?",
+   "o": [
+    "Vijayawada Ward 31 ranked second nationally and Ward 60 was best in the State.",
+    "Vijayawada Ward 60 ranked second nationally and Ward 31 was best in the State.",
+    "Vijayawada Ward 31 ranked second nationally and VMC received ₹19 lakh.",
+    "Vijayawada Ward 60 ranked first nationally and Ward 31 ranked second in the State."
+   ],
+   "a": 1,
+   "x": "Vijayawada Ward 60 ranked second nationally, Ward 31 was best in the State, and VMC received ₹30 lakh.",
+   "ty": "fact",
+   "tq": "Discriminate between two closely related wards and their rankings.",
+   "sec": "AP air quality action  [APPSC]"
+  },
+  {
+   "s": "Which group of metals is used in catalytic converters?",
+   "o": [
+    "Sodium, potassium and calcium",
+    "Platinum, palladium and rhodium",
+    "Iron, copper and zinc",
+    "Nickel, aluminium and magnesium"
+   ],
+   "a": 1,
+   "x": "Catalytic converters use platinum, palladium and rhodium as catalyst metals.",
+   "ty": "fact",
+   "tq": "Recall the characteristic precious-metal trio used in the device.",
+   "sec": "Control technologies - catalytic converters, cloud seeding, indoor pollution  [other exams]"
+  },
+  {
+   "s": "A catalytic converter converts carbon monoxide, hydrocarbons and nitrogen oxides principally into which products?",
+   "o": [
+    "CO2, H2O and N2",
+    "CO, H2S and NO2",
+    "CH4, NH3 and O2",
+    "SO2, O3 and H2"
+   ],
+   "a": 0,
+   "x": "The converter changes CO, hydrocarbons and NOx into carbon dioxide, water and nitrogen.",
+   "ty": "application",
+   "tq": "Follow the pollutant-to-product transformation rather than merely identifying the device.",
+   "sec": "Control technologies - catalytic converters, cloud seeding, indoor pollution  [other exams]"
+  },
+  {
+   "s": "Which of the following substances may be used in cloud seeding?\n1. Silver iodide\n2. Potassium iodide\n3. Dry ice\n4. Common salt\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Cloud seeding may use silver iodide, potassium iodide, dry ice and common salt.",
+   "ty": "statements",
+   "tq": "Check the complete list of recognised cloud-seeding agents.",
+   "sec": "Control technologies - catalytic converters, cloud seeding, indoor pollution  [other exams]"
+  },
+  {
+   "s": "Which of the following is NOT listed as an air-pollution control technology?",
+   "o": [
+    "Scrubbers",
+    "Flue-gas desulphurisation",
+    "Electrostatic precipitators",
+    "Pelletisation of crop residue"
+   ],
+   "a": 3,
+   "x": "Scrubbers, electrostatic precipitators and FGD are pollution-control technologies; pelletisation is an ex-situ method of managing crop residue.",
+   "ty": "negative",
+   "tq": "Separate stationary-source pollution controls from crop-residue management methods.",
+   "sec": "Control technologies - catalytic converters, cloud seeding, indoor pollution  [other exams]"
+  },
+  {
+   "s": "Which emission standard became applicable from 1 April 2020?",
+   "o": [
+    "BS-V",
+    "BS-III",
+    "BS-VI",
+    "BS-IV"
+   ],
+   "a": 2,
+   "x": "BS-VI emission standards became applicable from 1 April 2020.",
+   "ty": "numerical",
+   "tq": "Associate the exact implementation date with the correct standards stage.",
+   "sec": "Control technologies - catalytic converters, cloud seeding, indoor pollution  [other exams]"
+  },
+  {
+   "s": "Which one of the following is a recognised source of indoor air pollution?",
+   "o": [
+    "Smoke from solid fuels",
+    "Ocean tides",
+    "Only ultraviolet radiation",
+    "Only dissolved salts in drinking water"
+   ],
+   "a": 0,
+   "x": "Indoor air pollution can arise from smoke from solid fuels, dust, mould, pollen, radon and carbon monoxide.",
+   "ty": "fact",
+   "tq": "Identify the realistic indoor source and reject unrelated environmental factors.",
+   "sec": "Control technologies - catalytic converters, cloud seeding, indoor pollution  [other exams]"
+  },
+  {
+   "s": "Indoor air pollution is associated with which of the following health conditions?\n1. Chronic obstructive pulmonary disease\n2. Lung cancer\n3. Improved pulmonary function\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Indoor air pollution is linked to COPD and lung cancer; it does not improve pulmonary function.",
+   "ty": "statements",
+   "tq": "Spot the reversed health effect in the third statement.",
+   "sec": "Control technologies - catalytic converters, cloud seeding, indoor pollution  [other exams]"
+  },
+  {
+   "s": "Lichens are particularly useful as bioindicators of pollution by which pollutant?",
+   "o": [
+    "Hydrogen",
+    "Methane",
+    "Sulphur dioxide",
+    "Carbon dioxide"
+   ],
+   "a": 2,
+   "x": "Lichens indicate sulphur dioxide pollution and disappear from areas with high SO2 levels.",
+   "ty": "fact",
+   "tq": "Use the organism–pollutant association central to bioindicator questions.",
+   "sec": "Bioindicators - lichens  [other exams]"
+  },
+  {
+   "s": "Consider the following statements about lichens and mosses:\n1. Lichens disappear from areas with high SO2 pollution.\n2. Mosses accumulate heavy metals.\n3. Mosses can indicate the deposition of heavy metals.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: lichens are sensitive to SO2, while mosses accumulate and indicate heavy-metal deposition.",
+   "ty": "statements",
+   "tq": "Compare the two bioindicator organisms before choosing the combined option.",
+   "sec": "Bioindicators - lichens  [other exams]"
+  },
+  {
+   "s": "Stubble burning after paddy and wheat harvest is especially associated with which months and states?",
+   "o": [
+    "July–August in Kerala, Tamil Nadu and Karnataka",
+    "October–November in Punjab, Haryana and Uttar Pradesh",
+    "April–May in Rajasthan, Gujarat and Maharashtra",
+    "January–February in Bihar, Jharkhand and Odisha"
+   ],
+   "a": 1,
+   "x": "Paddy and wheat stubble is mainly burnt during October–November in Punjab, Haryana and Uttar Pradesh.",
+   "ty": "fact",
+   "tq": "Combine the seasonal and geographical clues to identify the correct pair.",
+   "sec": "Stubble burning and NCR measures - CAQM, decomposer, machinery, GRAP  [other exams]"
+  },
+  {
+   "s": "The Commission for Air Quality Management (CAQM) was first set up through which instrument?",
+   "o": [
+    "An Ordinance in 2020",
+    "The CAQM Act in 2018",
+    "A constitutional amendment in 2021",
+    "An executive resolution in 2023"
+   ],
+   "a": 0,
+   "x": "CAQM was initially set up through an Ordinance in 2020 and was subsequently established under the CAQM Act, 2021.",
+   "ty": "chronology",
+   "tq": "Distinguish the temporary initiating instrument from the later statutory Act.",
+   "sec": "Stubble burning and NCR measures - CAQM, decomposer, machinery, GRAP  [other exams]"
+  },
+  {
+   "s": "Which of the following statements regarding CAQM is correct?",
+   "o": [
+    "Its chairperson has the rank of a district collector and a fixed tenure of ten years.",
+    "It was constituted only after the CAQM Act of 2021 and had no ordinance stage.",
+    "It can issue advisory reports but cannot shut down violating units.",
+    "Its chairperson has the rank of Secretary or Chief Secretary, with a three-year tenure or age limit of 70 years."
+   ],
+   "a": 3,
+   "x": "The CAQM chairperson has the rank of Secretary or Chief Secretary, with a tenure of three years or up to the age of 70 years; CAQM can shut down violators.",
+   "ty": "fact",
+   "tq": "Check authority, tenure and power together while rejecting the absolute limitation.",
+   "sec": "Stubble burning and NCR measures - CAQM, decomposer, machinery, GRAP  [other exams]"
+  },
+  {
+   "s": "The Pusa bio-decomposer used for crop-residue management was developed by which institution?",
+   "o": [
+    "National Disaster Management Authority",
+    "Central Pollution Control Board",
+    "Indian Agricultural Research Institute",
+    "Indian Institute of Tropical Meteorology"
+   ],
+   "a": 2,
+   "x": "The Pusa bio-decomposer is associated with the Indian Agricultural Research Institute (IARI).",
+   "ty": "fact",
+   "tq": "Match the named technology with its developing institution.",
+   "sec": "Stubble burning and NCR measures - CAQM, decomposer, machinery, GRAP  [other exams]"
+  },
+  {
+   "s": "The Central Sector Scheme on in-situ crop-residue management machinery was started in which year?",
+   "o": [
+    "2015",
+    "2016",
+    "2018",
+    "2020"
+   ],
+   "a": 2,
+   "x": "The scheme supporting in-situ crop-residue management machinery started in 2018.",
+   "ty": "numerical",
+   "tq": "Distinguish the scheme’s starting year from later air-quality measures.",
+   "sec": "Stubble burning and NCR measures - CAQM, decomposer, machinery, GRAP  [other exams]"
+  },
+  {
+   "s": "Which of the following is an ex-situ method of managing crop residue?",
+   "o": [
+    "Pusa bio-decomposer application",
+    "Happy Seeder operation",
+    "Pelletisation",
+    "Leaving residue in the field for decomposition"
+   ],
+   "a": 2,
+   "x": "Pelletisation is an ex-situ method; torrefaction, briquetting and co-firing are also listed as ex-situ approaches.",
+   "ty": "confusable",
+   "tq": "Separate in-situ field treatment from ex-situ processing of collected residue.",
+   "sec": "Stubble burning and NCR measures - CAQM, decomposer, machinery, GRAP  [other exams]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (GRAP stage)\n a. Stage I\n b. Stage II\n c. Stage III\n d. Stage IV\nList-II (AQI trigger)\n i. Severe+ above 450\n ii. Poor, 201–300\n iii. Severe, 401–450\n iv. Very poor, 301–400\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–ii, c–i, d–iii",
+    "a–ii, b–iii, c–iv, d–i",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "GRAP Stage I corresponds to Poor, Stage II to Very poor, Stage III to Severe (401–450), and Stage IV to Severe+ above 450.",
+   "ty": "match",
+   "tq": "Start with Stage I and Stage IV, then resolve the middle stages by AQI range.",
+   "sec": "Stubble burning and NCR measures - CAQM, decomposer, machinery, GRAP  [other exams]"
+  },
+  {
+   "s": "Coal was banned for industrial and domestic use in Delhi-NCR from which date?",
+   "o": [
+    "1 October 2024",
+    "1 April 2022",
+    "1 January 2023",
+    "1 January 2021"
+   ],
+   "a": 2,
+   "x": "Coal use in industries and homes in Delhi-NCR was banned from 1 January 2023.",
+   "ty": "numerical",
+   "tq": "Recall the exact effective date of the NCR coal restriction.",
+   "sec": "Stubble burning and NCR measures - CAQM, decomposer, machinery, GRAP  [other exams]"
+  },
+  {
+   "s": "In 2025–26, Bihar suspended DBT registration in connection with stubble burning for how many farmers?",
+   "o": [
+    "1,087",
+    "1,597",
+    "1,807",
+    "2,807"
+   ],
+   "a": 2,
+   "x": "Bihar suspended the DBT registration of 1,807 farmers for stubble burning during 2025–26.",
+   "ty": "numerical",
+   "tq": "Distinguish the enforcement figure from nearby monitoring-network numbers.",
+   "sec": "Stubble burning and NCR measures - CAQM, decomposer, machinery, GRAP  [other exams]"
+  }
+ ]
+}

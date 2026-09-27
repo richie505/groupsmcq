@@ -1,0 +1,372 @@
+{
+ "book": 5,
+ "row": 112,
+ "chunk": 2,
+ "section": "Regulation and ethics of biotechnology - GEAC, biosafety, bioethics, biopiracy, IPR and the ethical/social/legal debate",
+ "subsections": [
+  "GM crops approved for commercial cultivation - list, year, states",
+  "Genome-edited crops - SDN-1/SDN-2, released rice",
+  "Field trial process - BRL trials, state NOC",
+  "Proposed regulators and policy - BRAI Bill, national GM policy",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 26,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following genetically modified crops was approved for commercial cultivation in India in March 2002?",
+   "o": [
+    "Bt maize",
+    "GM mustard DMH-11",
+    "Genome-edited rice",
+    "Bt cotton"
+   ],
+   "a": 3,
+   "x": "Bt cotton was approved for commercial cultivation in March 2002. It remains the only genetically modified crop commercially cultivated in India.",
+   "ty": "fact",
+   "tq": "Use the date-and-crop association to distinguish the approved crop from proposed or trial crops.",
+   "sec": "GM crops approved for commercial cultivation - list, year, states"
+  },
+  {
+   "s": "With reference to the commercial approval of Bt cotton in India, consider the following statements:\n1. The initial approval covered three MAHYCO hybrids.\n2. The approval was initially granted for three years.\n3. Bt cotton remains the only GM crop commercially cultivated in India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Three MAHYCO hybrids were initially approved for three years, and Bt cotton remains the only GM crop commercially cultivated in India.",
+   "ty": "statements",
+   "tq": "Check each statement against the approval details before selecting the complete combination.",
+   "sec": "GM crops approved for commercial cultivation - list, year, states"
+  },
+  {
+   "s": "The area under Bt cotton in India is approximately associated with which of the following figures?",
+   "o": [
+    "5.2 million hectares and about 40% of cotton area",
+    "18.5 million hectares and over 90% of cotton area",
+    "12.5 million hectares and over 90% of cotton area",
+    "10.8 million hectares and about 60% of cotton area"
+   ],
+   "a": 2,
+   "x": "Bt cotton covers approximately 12.5 million hectares, representing over 90% of India’s cotton area.",
+   "ty": "numerical",
+   "tq": "Match the numerical magnitude with its corresponding percentage rather than selecting the older alternative figure.",
+   "sec": "GM crops approved for commercial cultivation - list, year, states"
+  },
+  {
+   "s": "Which State is recognised as the leading Bt cotton-growing State in India?",
+   "o": [
+    "Punjab",
+    "Gujarat",
+    "Maharashtra",
+    "Telangana"
+   ],
+   "a": 2,
+   "x": "Maharashtra is identified as the leading Bt cotton State.",
+   "ty": "fact",
+   "tq": "Test the crop-State association directly using a nearby cotton-growing State as the distractor.",
+   "sec": "GM crops approved for commercial cultivation - list, year, states"
+  },
+  {
+   "s": "Which of the following correctly distinguishes SDN-1 and SDN-2 genome editing from SDN-3 editing?",
+   "o": [
+    "All three categories are treated as conventional crops",
+    "SDN-1 alone is transgenic, while SDN-2 and SDN-3 are exempted",
+    "SDN-1 and SDN-2 introduce foreign DNA, whereas SDN-3 does not",
+    "SDN-1 and SDN-2 involve small edits without foreign DNA, whereas SDN-3 is transgenic"
+   ],
+   "a": 3,
+   "x": "SDN-1 and SDN-2 involve small edits without foreign DNA and are exempted from GMO rules under the 2022 guidelines. SDN-3 is transgenic and remains under full regulatory control.",
+   "ty": "confusable",
+   "tq": "Discriminate the paired categories by checking the presence or absence of foreign DNA.",
+   "sec": "Genome-edited crops - SDN-1/SDN-2, released rice"
+  },
+  {
+   "s": "Under the 2022 guidelines, which categories of genome-edited crops are exempted from GMO rules?",
+   "o": [
+    "SDN-1, SDN-2 and SDN-3",
+    "SDN-2 and SDN-3",
+    "SDN-1 and SDN-2",
+    "SDN-1 and SDN-3"
+   ],
+   "a": 2,
+   "x": "The 2022 guidelines exempt SDN-1 and SDN-2 crops, which involve small edits without foreign DNA, from GMO rules. SDN-3 crops remain under full control.",
+   "ty": "fact",
+   "tq": "Use the exemption boundary as the decisive distinction between the three SDN categories.",
+   "sec": "Genome-edited crops - SDN-1/SDN-2, released rice"
+  },
+  {
+   "s": "For genome-edited crops covered by the SDN-1 and SDN-2 exemption, which approval route is indicated?",
+   "o": [
+    "IBC approval without the GEAC route",
+    "Only approval from the State Pollution Control Board",
+    "Approval from the Supreme Court after public consultation",
+    "Full GEAC approval alone"
+   ],
+   "a": 0,
+   "x": "Genome-edited crops covered by the SDN-1 and SDN-2 exemption can skip the GEAC route and require IBC approval.",
+   "ty": "application",
+   "tq": "Ask which authority performs the relevant regulatory function instead of assuming every biotechnology product follows the GEAC route.",
+   "sec": "Genome-edited crops - SDN-1/SDN-2, released rice"
+  },
+  {
+   "s": "An amount of Rs 500 crore was earmarked during 2023–24 for which purpose?",
+   "o": [
+    "Genome-editing research",
+    "Expansion of Bt cotton cultivation",
+    "State NOCs for field trials",
+    "Compensation under a GM liability law"
+   ],
+   "a": 0,
+   "x": "Rs 500 crore was earmarked in 2023–24 for genome-editing research.",
+   "ty": "numerical",
+   "tq": "Link the budget figure to the specific biotechnology activity rather than to cultivation or regulation.",
+   "sec": "Genome-edited crops - SDN-1/SDN-2, released rice"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with respect to genome-edited rice?\n1. Kamala — ICAR\n2. Pusa DST Rice 1 — ICAR\n3. Pusa Rice DST1 — IARI and CRISPR-Cas9 editing of the DST gene in MTU1010\nSelect the correct answer using the code below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairings are correct. ICAR developed Kamala and Pusa DST Rice 1, while Pusa Rice DST1 from IARI involves CRISPR-Cas9 editing of the DST gene in MTU1010.",
+   "ty": "match",
+   "tq": "Start with the institutional association and then verify the technical description of the rice line.",
+   "sec": "Genome-edited crops - SDN-1/SDN-2, released rice"
+  },
+  {
+   "s": "Which genome-edited rice variety is set for commercial launch after CRISPR-Cas9 editing of the DST gene in MTU1010?",
+   "o": [
+    "Pusa Rice DST1",
+    "Kamala",
+    "Varuna",
+    "Pusa DST Rice 1"
+   ],
+   "a": 0,
+   "x": "Pusa Rice DST1 from IARI is set for commercial launch after CRISPR-Cas9 editing of the DST gene in MTU1010.",
+   "ty": "fact",
+   "tq": "Distinguish the closely named rice varieties by matching the specific parent line and editing method.",
+   "sec": "Genome-edited crops - SDN-1/SDN-2, released rice"
+  },
+  {
+   "s": "Consider the following statements:\n1. NIPGR has developed a CRISPR rice with improved phosphate uptake.\n2. The rice is described as non-GMO.\n3. The innovation could help reduce fertiliser imports.\n4. CRISPR mustard ‘Varuna’ is associated with improved oil quality.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4",
+    "1, 3 and 4 only"
+   ],
+   "a": 2,
+   "x": "All four statements are correct. The NIPGR rice is non-GMO, improves phosphate uptake and may reduce fertiliser imports, while Varuna is a CRISPR mustard associated with oil quality.",
+   "ty": "statements",
+   "tq": "Combine several linked applications and institutional associations, watching for an omitted final statement.",
+   "sec": "Genome-edited crops - SDN-1/SDN-2, released rice"
+  },
+  {
+   "s": "Which sequence correctly represents the regulatory pathway for a confined biotechnology crop field trial?\nA. Commercial clearance\nB. Confined open-plot trials at agricultural universities or ICAR plots\nC. Committees’ safety assessments\nD. Assessment of superiority over non-GM varieties without ecological harm",
+   "o": [
+    "C, B, D, A",
+    "B, C, D, A",
+    "C, D, B, A",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The process begins with committees’ safety assessments, followed by confined open-plot trials, evaluation of superiority without ecological harm, and only then commercial clearance.",
+   "ty": "chronology",
+   "tq": "Arrange the process from preliminary safety review to field testing, final evaluation and clearance.",
+   "sec": "Field trial process - BRL trials, state NOC"
+  },
+  {
+   "s": "The field trials conducted before commercial clearance of GM crops are known as:",
+   "o": [
+    "Bioeconomic Risk Limitation trials",
+    "Environmental Release Trials",
+    "Biosafety Research Level trials",
+    "Biological Registration Level trials"
+   ],
+   "a": 2,
+   "x": "The trials are called Biosafety Research Level trials, comprising BRL-I and BRL-II stages.",
+   "ty": "fact",
+   "tq": "Expand the abbreviation precisely; similar-looking expansions are used as distractors.",
+   "sec": "Field trial process - BRL trials, state NOC"
+  },
+  {
+   "s": "Which of the following statements regarding commercial clearance of a GM crop is correct?",
+   "o": [
+    "Clearance is granted only when the crop is superior to non-GM varieties and causes no ecological harm",
+    "Clearance follows automatically after one confined trial season",
+    "Clearance is possible even when ecological harm is established",
+    "Clearance depends exclusively on the market price of the crop"
+   ],
+   "a": 0,
+   "x": "Commercial clearance is contemplated only when trials show superiority over non-GM varieties without ecological harm.",
+   "ty": "application",
+   "tq": "Apply the stated approval condition to a practical clearance situation.",
+   "sec": "Field trial process - BRL trials, state NOC"
+  },
+  {
+   "s": "Since which year has a State No-Objection Certificate been mandatory for GM crop field trials?",
+   "o": [
+    "2002",
+    "2008",
+    "2010",
+    "2013"
+   ],
+   "a": 2,
+   "x": "A State NOC has been mandatory for GM crop field trials since 2010.",
+   "ty": "numerical",
+   "tq": "Use the year-specific regulatory change to eliminate neighbouring dates.",
+   "sec": "Field trial process - BRL trials, state NOC"
+  },
+  {
+   "s": "Bayer’s GM maize field trials at PAU during Kharif 2025 illustrate which requirement?",
+   "o": [
+    "Exemption of SDN-3 crops from GMO rules",
+    "Mandatory State NOC for field trials",
+    "Commercial approval of GM maize throughout India",
+    "Replacement of BRL trials by laboratory testing"
+   ],
+   "a": 1,
+   "x": "The Bayer GM maize trials at PAU during Kharif 2025 illustrate the field-trial framework requiring a State NOC.",
+   "ty": "application",
+   "tq": "Infer the regulatory principle illustrated by the named institution, crop and trial setting.",
+   "sec": "Field trial process - BRL trials, state NOC"
+  },
+  {
+   "s": "The Biotechnology Regulatory Authority of India Bill, 2013 primarily proposed:",
+   "o": [
+    "A single regulator for biotechnology",
+    "A separate State regulator for each GM crop",
+    "A ban on all genome-editing research",
+    "A national liability tribunal for seed companies"
+   ],
+   "a": 0,
+   "x": "The BRAI Bill, 2013 proposed a single Biotechnology Regulatory Authority of India. It later lapsed with the 15th Lok Sabha.",
+   "ty": "fact",
+   "tq": "Match the proposed legislation with its institutional objective, not with later policy debates.",
+   "sec": "Proposed regulators and policy - BRAI Bill, national GM policy"
+  },
+  {
+   "s": "What happened to the Biotechnology Regulatory Authority of India Bill, 2013?",
+   "o": [
+    "It was enacted as the national GM crop policy",
+    "It lapsed with the 15th Lok Sabha",
+    "It became a constitutional amendment",
+    "It was replaced by the 2022 genome-editing guidelines"
+   ],
+   "a": 1,
+   "x": "The BRAI Bill, 2013 lapsed with the 15th Lok Sabha.",
+   "ty": "fact",
+   "tq": "Distinguish the legislative fate of a proposed Bill from subsequent guidelines and policies.",
+   "sec": "Proposed regulators and policy - BRAI Bill, national GM policy"
+  },
+  {
+   "s": "Which policy proposes single-window clearance and regulatory sandboxes in the biotechnology sector?",
+   "o": [
+    "BRAI Act, 2013",
+    "National GM Crop Policy, 2010",
+    "BioE3 Policy, 2024",
+    "Biosafety Research Level Policy, 2022"
+   ],
+   "a": 2,
+   "x": "The BioE3 Policy, 2024 proposes single-window clearance and regulatory sandboxes.",
+   "ty": "fact",
+   "tq": "Identify the policy by pairing its year with its distinctive regulatory features.",
+   "sec": "Proposed regulators and policy - BRAI Bill, national GM policy"
+  },
+  {
+   "s": "In July 2024, the Supreme Court directed the government to formulate a national policy on GM crops after:",
+   "o": [
+    "Completion of BRL-II trials for every GM crop",
+    "Approval by all State legislatures",
+    "Consultation with stakeholders",
+    "A decision by the World Trade Organization"
+   ],
+   "a": 2,
+   "x": "The Supreme Court’s July 2024 direction called for a national GM crop policy after stakeholder consultation.",
+   "ty": "fact",
+   "tq": "Link the judicial direction with its required consultative process.",
+   "sec": "Proposed regulators and policy - BRAI Bill, national GM policy"
+  },
+  {
+   "s": "Which one of the following correctly compares a conventional GMO with an SDN-1/SDN-2 genome-edited crop in the regulatory context described?",
+   "o": [
+    "A GMO is treated like a conventional crop, whereas SDN-1/SDN-2 edits require full GEAC control",
+    "A GMO contains a foreign gene and follows the full GEAC route, whereas SDN-1/SDN-2 edits are treated like conventional crops",
+    "Both necessarily contain foreign genes and follow the full GEAC route",
+    "Neither category is subject to any biosafety oversight"
+   ],
+   "a": 1,
+   "x": "A GMO contains foreign genetic material and follows the full GEAC route. SDN-1 and SDN-2 genome-edited crops, lacking foreign DNA, are treated like conventional crops under the exemption.",
+   "ty": "comparison",
+   "tq": "Compare the categories across the two decisive dimensions: foreign DNA and regulatory route.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following is identified as a criticism of the exemption for SDN-1 and SDN-2 genome-edited crops?",
+   "o": [
+    "It creates a statutory liability law for farmers",
+    "It requires every crop to undergo Supreme Court review",
+    "It functions as a possible back door around the full GM regulatory route",
+    "It prohibits all genome-edited crops from field trials"
+   ],
+   "a": 2,
+   "x": "The exemption has been criticised as a possible back door around the full GM regulatory route, with concerns about biosecurity gaps.",
+   "ty": "negative",
+   "tq": "Find the criticism that directly matches the stated regulatory concern rather than an unrelated consequence.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following is NOT identified as a criticism or concern in the debate over biotechnology regulation?",
+   "o": [
+    "Universal public acceptance of GM crops",
+    "Fragmented regulators",
+    "Absence of a liability law",
+    "Farmer dependence on seeds"
+   ],
+   "a": 0,
+   "x": "Fragmented regulation, absence of a liability law and farmer seed dependency are identified concerns. Universal public acceptance is not; public mistrust and labelling debates are noted instead.",
+   "ty": "negative",
+   "tq": "Find the statement that reverses the documented public debate by replacing mistrust with acceptance.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following country-group comparisons is correctly matched with the treatment of GM or genome-edited foods?",
+   "o": [
+    "The United States, Canada, Japan and Australia all require full GM labelling",
+    "The United States, Canada, Brazil and India grow GM maize, soy, cotton and canola, while Japan and Australia import GE foods without GM labels",
+    "The United States, Canada, Japan and Australia all prohibit such foods",
+    "Japan and Australia grow no biotech crops and prohibit imports of GE foods"
+   ],
+   "a": 1,
+   "x": "The comparative position described is that the US, Canada, Brazil and India grow GM maize, soy, cotton and canola, while Japan and Australia import GE foods without GM labels.",
+   "ty": "comparison",
+   "tq": "Separate cultivation patterns from import and labelling practices across countries.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which pairing correctly identifies the first and only commercially cultivated GM crop in India and the first genome-edited rice varieties?",
+   "o": [
+    "Bt cotton; DMH-11 and Pusa Rice DST1",
+    "Bt maize; Kamala and Varuna",
+    "DMH-11 mustard; Pusa DST1 and Varuna",
+    "Bt cotton; Kamala and Pusa DST1"
+   ],
+   "a": 3,
+   "x": "Bt cotton, approved in 2002, is the first and only commercially cultivated GM crop in India. Kamala and Pusa DST1 are identified as the first genome-edited rice varieties.",
+   "ty": "comparison",
+   "tq": "Use the first-and-only versus first-genome-edited distinction to resolve similar crop names.",
+   "sec": "Universal angles"
+  }
+ ]
+}

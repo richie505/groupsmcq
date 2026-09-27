@@ -1,0 +1,342 @@
+{
+ "book": 5,
+ "row": 85,
+ "chunk": 0,
+ "section": "Biodiversity hotspots in India; endemism; Biological Diversity Act 2002 and access-benefit sharing",
+ "subsections": [
+  "India's hotspots - names, regions covered, common distractors",
+  "Endemic species and their regions - AP Eastern Ghats and Seshachalam, Hangul, Asiatic lion",
+  "Hotspot criteria - thresholds, originator, designating body"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 25,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly matches a biodiversity hotspot with its Indian component?",
+   "o": [
+    "Sundaland — Nicobar Islands",
+    "Indo-Burma — entire Himalayan region",
+    "Himalaya — Thar Desert",
+    "Western Ghats and Sri Lanka — Eastern Ghats"
+   ],
+   "a": 0,
+   "x": "The Nicobar Islands constitute the Indian part of the Sundaland hotspot. Indo-Burma covers north-eastern India, the Himalaya hotspot includes the Himalayan chain, and the Western Ghats and Sri Lanka hotspot includes the Western Ghats.",
+   "ty": "match",
+   "tq": "Start from the sure region–hotspot pair and eliminate swapped geographical locations.",
+   "sec": "India's hotspots - names, regions covered, common distractors"
+  },
+  {
+   "s": "With reference to the Indian portions of global biodiversity hotspots, consider the following statements:\n1. North-eastern India, south of the Brahmaputra, forms part of the Indo-Burma hotspot.\n2. The Nicobar Islands form part of the Sundaland hotspot.\n3. The Eastern Ghats are recognised as a separate global biodiversity hotspot.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. The Eastern Ghats are not recognised as a separate global biodiversity hotspot.",
+   "ty": "statements",
+   "tq": "Find the wrong geographical statement; the separate-hotspot claim reverses a common distractor.",
+   "sec": "India's hotspots - names, regions covered, common distractors"
+  },
+  {
+   "s": "Which one of the following is NOT included among the Indian portions of the recognised biodiversity hotspots?",
+   "o": [
+    "Eastern Himalaya",
+    "Thar Desert",
+    "Nicobar Islands",
+    "Western Ghats"
+   ],
+   "a": 1,
+   "x": "The Thar Desert is not a recognised biodiversity hotspot. Eastern Himalaya, Western Ghats and Nicobar Islands belong respectively to the Himalaya, Western Ghats and Sri Lanka, and Sundaland hotspots.",
+   "ty": "negative",
+   "tq": "Use the odd geographical region to identify the non-hotspot.",
+   "sec": "India's hotspots - names, regions covered, common distractors"
+  },
+  {
+   "s": "India contains portions of how many of the world's biodiversity hotspots?",
+   "o": [
+    "Two",
+    "Four",
+    "Three",
+    "Five"
+   ],
+   "a": 1,
+   "x": "India contains portions of four global biodiversity hotspots: Himalaya, Indo-Burma, Western Ghats and Sri Lanka, and Sundaland.",
+   "ty": "numerical",
+   "tq": "Separate the present count from the classic distractor of two hotspots.",
+   "sec": "India's hotspots - names, regions covered, common distractors"
+  },
+  {
+   "s": "Which of the following statements regarding the distribution of Indian hotspot regions is correct?",
+   "o": [
+    "The Indo-Burma hotspot covers only the Nicobar Islands.",
+    "The whole Himalayan chain, including the Eastern Himalaya, is part of the Himalaya hotspot.",
+    "The Sundaland hotspot covers the entire Indian mainland.",
+    "Only the Western Himalaya is included in the Himalaya hotspot."
+   ],
+   "a": 1,
+   "x": "The Himalaya hotspot includes the whole Himalayan chain, including the Eastern Himalaya. Sundaland is represented in India only by the Nicobar Islands, while Indo-Burma covers north-eastern India south of the Brahmaputra.",
+   "ty": "fact",
+   "tq": "Test the exact geographical extent rather than merely recalling hotspot names.",
+   "sec": "India's hotspots - names, regions covered, common distractors"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Aravallis, Vindhyas and Satpuras — Global hotspots",
+    "Western Ghats — Global hotspot",
+    "Eastern Himalaya — Part of the Himalaya hotspot",
+    "North-East India south of the Brahmaputra — Indo-Burma hotspot"
+   ],
+   "a": 0,
+   "x": "Aravallis, Vindhyas and Satpuras are not global biodiversity hotspots. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Check the status of each regional group and identify the wrongly upgraded non-hotspot.",
+   "sec": "India's hotspots - names, regions covered, common distractors"
+  },
+  {
+   "s": "The biodiversity hotspot comprising the Western Ghats and Sri Lanka has at least how many vascular plant species, of which more than 3,000 are endemic?",
+   "o": [
+    "3,000",
+    "5,000",
+    "6,000",
+    "8,000"
+   ],
+   "a": 2,
+   "x": "The Western Ghats–Sri Lanka hotspot has at least 6,000 vascular plants, with more than 3,000, or about 52%, being endemic.",
+   "ty": "numerical",
+   "tq": "Distinguish the combined hotspot figure from the Western Ghats-only figures.",
+   "sec": "India's hotspots - names, regions covered, common distractors"
+  },
+  {
+   "s": "Consider the following statements about the Western Ghats:\n1. It has about 5,000 vascular plant species.\n2. About 1,700 of its vascular plant species are endemic.\n3. It has 58 endemic genera.\n4. Of its 490 low- and mid-elevation tree species, 308 are endemic.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The Western Ghats alone have about 5,000 vascular plants, around 1,700 endemic species, 58 endemic genera and 308 endemic species among 490 low- and mid-elevation tree species.",
+   "ty": "statements",
+   "tq": "Use the quantitative cluster and verify each figure independently.",
+   "sec": "India's hotspots - names, regions covered, common distractors"
+  },
+  {
+   "s": "The global number of recognised biodiversity hotspots reached 36 in 2016 after the addition of which region?",
+   "o": [
+    "Sundarbans",
+    "Eastern Ghats",
+    "Eastern Himalaya",
+    "North American Coastal Plain"
+   ],
+   "a": 3,
+   "x": "The number of hotspots reached 36 in 2016 when the North American Coastal Plain was added.",
+   "ty": "fact",
+   "tq": "Link the milestone year with the newly added region instead of the Indian distractors.",
+   "sec": "India's hotspots - names, regions covered, common distractors"
+  },
+  {
+   "s": "Arrange the following stages in the growth of the number of recognised biodiversity hotspots in chronological order:\nA. The number reached 35\nB. The number stood at 25\nC. The number reached 36\nD. The number reached 34",
+   "o": [
+    "B, D, A, C",
+    "D, B, A, C",
+    "B, A, D, C",
+    "A, B, D, C"
+   ],
+   "a": 0,
+   "x": "The sequence was 25 in 1999, followed by 34, then 35, and finally 36 in 2016.",
+   "ty": "chronology",
+   "tq": "Fix the first and last milestones, then place the two intermediate counts.",
+   "sec": "India's hotspots - names, regions covered, common distractors"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with respect to endemic species and region?",
+   "o": [
+    "Red Sanders — Seshachalam hills",
+    "Hangul — Gir, Gujarat",
+    "Asiatic lion — Dachigam National Park",
+    "Gooty tarantula — Sri Lankamalleswara Wildlife Sanctuary"
+   ],
+   "a": 0,
+   "x": "Red Sanders is endemic to the Seshachalam hills of Andhra Pradesh. Hangul is associated with Kashmir and Dachigam, the Asiatic lion with Gir, and Gooty tarantula with Nandyal district.",
+   "ty": "match",
+   "tq": "Use species–habitat association and reject swapped regional identities.",
+   "sec": "Endemic species and their regions - AP Eastern Ghats and Seshachalam, Hangul, Asiatic lion"
+  },
+  {
+   "s": "Which of the following is the correct meaning of endemism?",
+   "o": [
+    "Occurrence of a species in every climatic region",
+    "Occurrence of a species naturally in one region and nowhere else",
+    "Seasonal migration of a species between two continents",
+    "Introduction of an exotic species into a new habitat"
+   ],
+   "a": 1,
+   "x": "Endemism means that a species occurs naturally in one particular region and nowhere else. Such species generally have small geographical ranges.",
+   "ty": "fact",
+   "tq": "Discriminate the precise ecological definition from related distribution terms.",
+   "sec": "Endemic species and their regions - AP Eastern Ghats and Seshachalam, Hangul, Asiatic lion"
+  },
+  {
+   "s": "Which one of the following species is associated with the Seshachalam hills of Andhra Pradesh as a micro-endemic species?",
+   "o": [
+    "Hangul",
+    "Asiatic lion",
+    "Golden Gecko",
+    "Podocarpus wallichianus"
+   ],
+   "a": 2,
+   "x": "The Golden Gecko is a micro-endemic species of the Seshachalam hills. Hangul is associated with Kashmir, the Asiatic lion with Gir, and Podocarpus wallichianus with the Western Ghats.",
+   "ty": "fact",
+   "tq": "Identify the exact species–region pair rather than the broader state association.",
+   "sec": "Endemic species and their regions - AP Eastern Ghats and Seshachalam, Hangul, Asiatic lion"
+  },
+  {
+   "s": "Consider the following statements:\n1. Cycas beddomei is associated with the Seshachalam hills.\n2. Boswellia ovalifoliolata is an endemic plant associated with Andhra Pradesh.\n3. Jerdon's Courser is associated with Sri Lankamalleswara Wildlife Sanctuary in Kadapa.\n4. The Gooty tarantula has a total range of under 100 square kilometres in Nandyal district.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Cycas beddomei occurs in the Seshachalam hills, Boswellia ovalifoliolata in Andhra Pradesh, Jerdon's Courser in the Sri Lankamalleswara Wildlife Sanctuary, and the Gooty tarantula has a very restricted range in Nandyal district.",
+   "ty": "statements",
+   "tq": "Check each species against its narrowly specified Andhra Pradesh location and range.",
+   "sec": "Endemic species and their regions - AP Eastern Ghats and Seshachalam, Hangul, Asiatic lion"
+  },
+  {
+   "s": "Which one of the following statements regarding Podocarpus (Nageia) wallichianus is correct?",
+   "o": [
+    "It is a mammal endemic to the Kashmir region.",
+    "It is the only endemic gymnosperm tree of the Western Ghats.",
+    "It is the only endemic gymnosperm tree of the Seshachalam hills.",
+    "It is a grass species endemic to the Nicobar Islands."
+   ],
+   "a": 1,
+   "x": "Podocarpus (Nageia) wallichianus is the only endemic gymnosperm tree of the Western Ghats.",
+   "ty": "fact",
+   "tq": "Use the distinctive taxonomic clue to avoid confusing a plant with animal endemics.",
+   "sec": "Endemic species and their regions - AP Eastern Ghats and Seshachalam, Hangul, Asiatic lion"
+  },
+  {
+   "s": "The concept of biodiversity hotspots was introduced in 1988 by whom?",
+   "o": [
+    "Genghis Khan",
+    "Jerdon",
+    "Conservation International",
+    "Norman Myers"
+   ],
+   "a": 3,
+   "x": "Norman Myers introduced the biodiversity hotspot concept in 1988. Conservation International subsequently adopted it in 1989.",
+   "ty": "fact",
+   "tq": "Distinguish the individual originator from the organisation that later adopted the concept.",
+   "sec": "Hotspot criteria - thresholds, originator, designating body"
+  },
+  {
+   "s": "Consider the following statements regarding the development of the biodiversity hotspot framework:\n1. Conservation International adopted the concept in 1989.\n2. Numerical thresholds were set in 1999.\n3. The analysis was reworked in 2004, forming the basis of the current system.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Conservation International adopted the concept in 1989, numerical thresholds were set in 1999, and the analysis was reworked in 2004.",
+   "ty": "statements",
+   "tq": "Arrange institutional milestones by organisation and year before selecting the combination.",
+   "sec": "Hotspot criteria - thresholds, originator, designating body"
+  },
+  {
+   "s": "Which of the following combinations correctly states the two criteria for recognition as a biodiversity hotspot?",
+   "o": [
+    "At least 500 endemic vascular plant species and loss of at least 50% of original habitat",
+    "At least 1,500 total plant species and loss of at least 30% of original habitat",
+    "At least 70% endemic vascular plants and loss of 1,500 hectares of habitat",
+    "At least 1,500 endemic vascular plant species and loss of at least 70% of original habitat"
+   ],
+   "a": 3,
+   "x": "A hotspot must contain at least 1,500 endemic vascular plant species and must have lost at least 70% of its original habitat.",
+   "ty": "numerical",
+   "tq": "Keep the species threshold and habitat-loss threshold together; reject altered units and percentages.",
+   "sec": "Hotspot criteria - thresholds, originator, designating body"
+  },
+  {
+   "s": "The threshold of 1,500 endemic vascular plant species represents more than what proportion of the world's total vascular plant species?",
+   "o": [
+    "0.05%",
+    "0.5%",
+    "5%",
+    "50%"
+   ],
+   "a": 1,
+   "x": "The criterion of at least 1,500 endemic vascular plant species is stated as representing more than 0.5% of the world's total.",
+   "ty": "numerical",
+   "tq": "Distinguish the decimal percentage threshold from its tenfold distractors.",
+   "sec": "Hotspot criteria - thresholds, originator, designating body"
+  },
+  {
+   "s": "A biogeographic region has a large reservoir of biodiversity but has lost 72% of its original habitat and contains more than 1,500 endemic vascular plant species. Which conclusion is most appropriate?",
+   "o": [
+    "It cannot be a hotspot because habitat loss must be exactly 70%.",
+    "It is excluded because hotspots must retain at least 70% of their original habitat.",
+    "It satisfies the two principal criteria for recognition as a biodiversity hotspot.",
+    "It qualifies only if it contains 70% endemic vertebrates."
+   ],
+   "a": 2,
+   "x": "The criteria require at least 1,500 endemic vascular plant species and loss of at least 70% of original habitat. A loss of 72% satisfies the habitat-loss criterion.",
+   "ty": "application",
+   "tq": "Apply the threshold wording carefully; ‘at least’ includes values above the minimum.",
+   "sec": "Hotspot criteria - thresholds, originator, designating body"
+  },
+  {
+   "s": "Which of the following statements about the geographical extent and biological significance of biodiversity hotspots is correct?",
+   "o": [
+    "They have lost about 2% of their original habitat and contain 15.7% of endemic plants.",
+    "They once covered about 15.7% of Earth's land and now cover under about 2–2.5%, while holding about 50% of endemic plants.",
+    "They cover about 50% of Earth's land and hold 2.5% of endemic plants.",
+    "They once covered under 2% of Earth's land and now cover 15.7%."
+   ],
+   "a": 1,
+   "x": "Hotspots once covered 15.7% of Earth's land. They now cover under about 2–2.5% of land, yet contain about 50% of endemic plants.",
+   "ty": "comparison",
+   "tq": "Track the direction of change in area and compare it with the concentration of endemic plants.",
+   "sec": "Hotspot criteria - thresholds, originator, designating body"
+  },
+  {
+   "s": "Consider the following statements about biodiversity hotspots:\n1. About 86% of the habitat that hotspots once covered has been lost.\n2. Hotspots contain about 42% of terrestrial vertebrates as endemics.\n3. Approximately 1,50,000 endemic plant species are associated with hotspots.\n4. Hotspots are defined only by species richness and not by threat perception.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct: about 86% of the original hotspot habitat has been lost, hotspots contain about 42% of terrestrial vertebrates as endemics, and about 1,50,000 endemic plant species occur there. Statement 4 is false because threat perception, including major habitat loss, is an essential part of the criteria.",
+   "ty": "statements",
+   "tq": "Find the false absolute statement that excludes threat perception from hotspot recognition.",
+   "sec": "Hotspot criteria - thresholds, originator, designating body"
+  },
+  {
+   "s": "Which one of the following statements is NOT correctly matched with the recognised biodiversity hotspot criteria or characteristics?",
+   "o": [
+    "Hotspot area at present — About 50% of Earth's land",
+    "Terrestrial vertebrates — About 42% endemic",
+    "Endemic vascular plants — At least 1,500 species",
+    "Original habitat loss — At least 70%"
+   ],
+   "a": 0,
+   "x": "Hotspots currently cover under about 2–2.5% of Earth's land, not 50%. The thresholds of 1,500 endemic vascular plants and 70% habitat loss, and the figure of about 42% endemic terrestrial vertebrates, are correct.",
+   "ty": "negative",
+   "tq": "Compare the area statistic with the biological-content statistic to catch the reversed percentage.",
+   "sec": "Hotspot criteria - thresholds, originator, designating body"
+  }
+ ]
+}

@@ -1,0 +1,454 @@
+{
+ "book": 5,
+ "row": 114,
+ "chunk": 0,
+ "section": "Health and environment - vector-borne and water-borne diseases, air pollution and health, antimicrobial resistance, One Health",
+ "subsections": [
+  "Vector-borne diseases → vector and pathogen",
+  "Water-borne diseases → pathogen, test, deaths",
+  "Air pollution and health"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 32,
+ "rejected": {
+  "invalid": 1,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly identifies the vector and pathogen of malaria?",
+   "o": [
+    "Female Anopheles and Plasmodium",
+    "Aedes aegypti and flavivirus",
+    "Culex and Japanese encephalitis virus",
+    "Sandfly and Leishmania donovani"
+   ],
+   "a": 0,
+   "x": "Malaria is transmitted by the female Anopheles mosquito and is caused by Plasmodium, a protozoan.",
+   "ty": "match",
+   "tq": "Match the disease with its characteristic vector and pathogen.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "Which of the following species of Plasmodium is described as the deadliest form of malaria?",
+   "o": [
+    "Plasmodium ovale",
+    "Plasmodium vivax",
+    "Plasmodium malariae",
+    "Plasmodium falciparum"
+   ],
+   "a": 3,
+   "x": "Plasmodium falciparum is identified as the deadliest among the listed malaria-causing species.",
+   "ty": "fact",
+   "tq": "Use the species-specific distinction rather than the general disease name.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "Consider the following statements:\n1. Malaria destroys red blood cells.\n2. Dengue mainly affects platelets.\n3. Chikungunya is caused by an alphavirus.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Malaria destroys red blood cells, dengue mainly affects platelets, and chikungunya is caused by an alphavirus. Therefore, all three statements are correct.",
+   "ty": "statements",
+   "tq": "Check each disease against its distinctive pathological or virological feature.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Zika — Aedes",
+    "Japanese encephalitis — Sandfly",
+    "Yellow fever — Rat flea",
+    "Sleeping sickness — Culex"
+   ],
+   "a": 0,
+   "x": "Zika is transmitted by Aedes mosquitoes. Japanese encephalitis is associated with Culex, yellow fever with Aedes or Haemagogus, and sleeping sickness with the tsetse fly.",
+   "ty": "match",
+   "tq": "Eliminate options by identifying the specific vector associated with each disease.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "Which of the following diseases is transmitted by Culex mosquitoes and is amplified by pigs?",
+   "o": [
+    "Japanese encephalitis",
+    "Lymphatic filariasis",
+    "Yellow fever",
+    "Kala-azar"
+   ],
+   "a": 0,
+   "x": "Japanese encephalitis is transmitted by Culex mosquitoes, and pigs act as amplifying hosts.",
+   "ty": "fact",
+   "tq": "Combine the vector clue with the amplifying-host clue.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "With reference to kala-azar, which one of the following statements is correct?",
+   "o": [
+    "It is spread by Aedes and is caused by a flavivirus.",
+    "It is spread by a tsetse fly and is caused by Trypanosoma brucei.",
+    "It is spread by a sandfly and is caused by Leishmania donovani.",
+    "It is spread by Culex and is caused by Wuchereria bancrofti."
+   ],
+   "a": 2,
+   "x": "Kala-azar, or visceral leishmaniasis, is transmitted by the sandfly, not by a mosquito, and is caused by Leishmania donovani.",
+   "ty": "confusable",
+   "tq": "Distinguish the sandfly-transmitted disease from mosquito-borne diseases.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "Which one of the following diseases is NOT spread by a mosquito?",
+   "o": [
+    "Lymphatic filariasis",
+    "Dengue",
+    "Japanese encephalitis",
+    "Scrub typhus"
+   ],
+   "a": 3,
+   "x": "Scrub typhus is transmitted by the chigger mite. Lymphatic filariasis, Japanese encephalitis and dengue are mosquito-borne diseases.",
+   "ty": "negative",
+   "tq": "Find the non-mosquito vector among otherwise mosquito-associated diseases.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Disease)\n a. Lymphatic filariasis\n b. Sleeping sickness\n c. Scrub typhus\n d. Plague\nList-II (Vector)\n i. Rat flea\n ii. Tsetse fly\n iii. Culex quinquefasciatus\n iv. Chigger mite\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "Lymphatic filariasis is transmitted by Culex quinquefasciatus, sleeping sickness by the tsetse fly, scrub typhus by the chigger mite, and plague by the rat flea.",
+   "ty": "match",
+   "tq": "Start from the sure vector-disease pairs and eliminate codes containing a mismatch.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Lymphatic filariasis — Wuchereria bancrofti",
+    "Sleeping sickness — Orientia tsutsugamushi",
+    "Scrub typhus — Trypanosoma brucei",
+    "Plague — Plasmodium falciparum"
+   ],
+   "a": 0,
+   "x": "Lymphatic filariasis is caused by the nematode Wuchereria bancrofti. Orientia tsutsugamushi causes scrub typhus, Trypanosoma brucei causes sleeping sickness, and Yersinia pestis causes plague.",
+   "ty": "match",
+   "tq": "Use pathogen names to separate diseases with similar vector-borne transmission.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "Consider the following statements about Wolbachia:\n1. It is a natural intracellular Gram-negative bacterium found in 40–60% of insect species.\n2. It is harmful to humans.\n3. It is not native to Aedes aegypti or Anopheles.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Wolbachia is found naturally in 40–60% of insect species and is harmless to humans. It is not native to Aedes aegypti or Anopheles.",
+   "ty": "statements",
+   "tq": "Reject the absolute health claim and retain the two specific biological characteristics.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "Wolbachia can suppress mosquito-borne pathogen transmission mainly through which combination of mechanisms?",
+   "o": [
+    "Cytoplasmic incompatibility and pathogen blocking",
+    "Genetic modification and radiation exposure",
+    "Egg destruction and larval dehydration",
+    "Chemical sterilisation and pesticide toxicity"
+   ],
+   "a": 0,
+   "x": "Wolbachia acts through cytoplasmic incompatibility, in which mismatched eggs fail to hatch, and through pathogen blocking. The method does not require genetic modification or pesticides.",
+   "ty": "application",
+   "tq": "Identify the biological mechanism rather than an unrelated mosquito-control method.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "The Verily ‘Debug’ project of 2026 involved the release of which of the following?",
+   "o": [
+    "Wolbachia-carrying non-biting male Culex quinquefasciatus",
+    "Genetically modified female Aedes aegypti",
+    "Wolbachia-free male Culex quinquefasciatus",
+    "Pesticide-treated female Anopheles"
+   ],
+   "a": 0,
+   "x": "The project involved releasing Wolbachia-carrying, non-biting male Culex quinquefasciatus, a vector associated with West Nile and St Louis encephalitis.",
+   "ty": "fact",
+   "tq": "Use the project-specific organism and sex as the decisive clues.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "Which of the following diseases are covered under the National Vector Borne Disease Control Programme as listed?",
+   "o": [
+    "Dengue, hepatitis A, typhoid, chikungunya, malaria and plague",
+    "Malaria, dengue, chikungunya, Japanese encephalitis, kala-azar and lymphatic filariasis",
+    "Japanese encephalitis, measles, malaria, influenza, kala-azar and cholera",
+    "Malaria, tuberculosis, dengue, cholera, kala-azar and rabies"
+   ],
+   "a": 1,
+   "x": "The six listed diseases are malaria, dengue, chikungunya, Japanese encephalitis, kala-azar and lymphatic filariasis.",
+   "ty": "fact",
+   "tq": "Recall the complete programme coverage list without adding unrelated diseases.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "Which two diseases under the National Vector Borne Disease Control Programme are described as outbreak-prone and climate-sensitive?",
+   "o": [
+    "Kala-azar and lymphatic filariasis",
+    "Malaria and dengue",
+    "Dengue and yellow fever",
+    "Japanese encephalitis and chikungunya"
+   ],
+   "a": 1,
+   "x": "Malaria and dengue are identified as outbreak-prone and climate-sensitive diseases under the programme.",
+   "ty": "fact",
+   "tq": "Focus on the stated comparison within the programme list.",
+   "sec": "Vector-borne diseases → vector and pathogen"
+  },
+  {
+   "s": "The Widal test is associated with the diagnosis of which disease?",
+   "o": [
+    "Acute dysentery",
+    "Hepatitis A",
+    "Cholera",
+    "Typhoid"
+   ],
+   "a": 3,
+   "x": "Typhoid is caused by Salmonella Typhi, and the Widal test is associated with its diagnosis.",
+   "ty": "fact",
+   "tq": "Link the named diagnostic test to its specific water-borne disease.",
+   "sec": "Water-borne diseases → pathogen, test, deaths"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Cholera — Vibrio cholerae",
+    "Typhoid — Shigella",
+    "Hepatitis A — Salmonella Typhi",
+    "Dysentery — Vibrio cholerae only"
+   ],
+   "a": 0,
+   "x": "Cholera is caused by Vibrio cholerae. Typhoid is caused by Salmonella Typhi, while acute diarrhoea and dysentery may involve Shigella, E. coli and rotavirus.",
+   "ty": "match",
+   "tq": "Separate the principal pathogen from pathogens of other faecal-oral diseases.",
+   "sec": "Water-borne diseases → pathogen, test, deaths"
+  },
+  {
+   "s": "The severe dehydration associated with cholera is primarily caused by which of the following?",
+   "o": [
+    "A deficiency of fluoride in drinking water",
+    "Destruction of red blood cells by Plasmodium",
+    "A blood-borne hepatitis virus",
+    "A toxin produced by Vibrio cholerae"
+   ],
+   "a": 3,
+   "x": "Cholera produces severe dehydration through the toxin of Vibrio cholerae; oral rehydration solution is used to replace lost fluids and electrolytes.",
+   "ty": "application",
+   "tq": "Connect the disease complication with its stated causal mechanism and remedy.",
+   "sec": "Water-borne diseases → pathogen, test, deaths"
+  },
+  {
+   "s": "Consider the following statements:\n1. Hepatitis A and E can spread through the faecal-oral route.\n2. Hepatitis B and C are generally blood-borne rather than water-borne.\n3. Tuberculosis is an airborne disease, not a water-borne disease.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Hepatitis A and E are faecal-oral diseases, hepatitis B and C are blood-borne, and tuberculosis is airborne rather than water-borne.",
+   "ty": "statements",
+   "tq": "Use the transmission-route contrast to identify all correct statements.",
+   "sec": "Water-borne diseases → pathogen, test, deaths"
+  },
+  {
+   "s": "Which one of the following is the correct set of diseases commonly spread through the faecal-oral route by contaminated water or food?",
+   "o": [
+    "Tuberculosis, hepatitis B, malaria, dengue and rabies",
+    "Japanese encephalitis, cholera, hepatitis B, scrub typhus and influenza",
+    "Cholera, typhoid, hepatitis A and E, acute diarrhoea, dysentery and polio",
+    "Hepatitis C, sleeping sickness, yellow fever, typhoid and plague"
+   ],
+   "a": 2,
+   "x": "The faecal-oral group includes cholera, typhoid, hepatitis A and E, acute diarrhoea, dysentery and polio.",
+   "ty": "fact",
+   "tq": "Identify the complete transmission-route group and reject airborne, blood-borne and vector-borne diseases.",
+   "sec": "Water-borne diseases → pathogen, test, deaths"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Arsenic — Blackfoot disease",
+    "Mercury — Minamata disease",
+    "Nitrate — Fluorosis",
+    "Cadmium — Itai-itai disease"
+   ],
+   "a": 2,
+   "x": "Nitrate contamination is associated with blue-baby syndrome. Fluorosis is associated with fluoride contamination.",
+   "ty": "negative",
+   "tq": "Find the swapped chemical-contamination pair.",
+   "sec": "Water-borne diseases → pathogen, test, deaths"
+  },
+  {
+   "s": "Fluoride contamination of drinking water is associated with which condition?",
+   "o": [
+    "Minamata disease",
+    "Blue-baby syndrome",
+    "Itai-itai disease",
+    "Fluorosis"
+   ],
+   "a": 3,
+   "x": "Excess fluoride in drinking water causes fluorosis. Minamata disease is linked to mercury, blue-baby syndrome to nitrate and itai-itai disease to cadmium.",
+   "ty": "fact",
+   "tq": "Use the pollutant-condition association rather than the disease name alone.",
+   "sec": "Water-borne diseases → pathogen, test, deaths"
+  },
+  {
+   "s": "Approximately how many children die daily worldwide from preventable water- and sanitation-related diseases?",
+   "o": [
+    "500",
+    "5,000",
+    "50,000",
+    "500,000"
+   ],
+   "a": 1,
+   "x": "The stated estimate is approximately 5,000 children every day worldwide.",
+   "ty": "numerical",
+   "tq": "Distinguish the order of magnitude in the quantitative estimate.",
+   "sec": "Water-borne diseases → pathogen, test, deaths"
+  },
+  {
+   "s": "Which one of the following sets contains diseases whose spread can be associated with floods?",
+   "o": [
+    "Scrub typhus, polio, cancer and asthma",
+    "Cholera, typhoid, hepatitis and leptospirosis",
+    "Hepatitis B, AIDS, dengue and influenza",
+    "Tuberculosis, rabies, malaria and measles"
+   ],
+   "a": 1,
+   "x": "Floods can spread cholera, typhoid, hepatitis and leptospirosis, in addition to supporting the spread of some vector-borne diseases.",
+   "ty": "fact",
+   "tq": "Recognise the environmental-disaster cluster of water-related diseases.",
+   "sec": "Water-borne diseases → pathogen, test, deaths"
+  },
+  {
+   "s": "According to the cited Andhra Pradesh assessment for 2025–26, water-borne outbreaks declined by approximately:",
+   "o": [
+    "21%",
+    "47%",
+    "62.7%",
+    "72%"
+   ],
+   "a": 2,
+   "x": "The reported decline in water-borne outbreaks was 62.7%. The other figures refer to food-borne outbreaks, all outbreaks or diarrhoea deaths.",
+   "ty": "numerical",
+   "tq": "Separate closely related percentages by the indicator to which each belongs.",
+   "sec": "Water-borne diseases → pathogen, test, deaths"
+  },
+  {
+   "s": "Which one of the following correctly presents the cited Andhra Pradesh changes?",
+   "o": [
+    "Diarrhoea deaths down 72% and food-borne outbreaks down 21%",
+    "Diarrhoea deaths down 21% and food-borne outbreaks down 72%",
+    "ADD cases down 47% and all outbreaks down 9.63%",
+    "All outbreaks down 62.7% and water-borne outbreaks down 9.63%"
+   ],
+   "a": 0,
+   "x": "The cited figures are a 72% decline in diarrhoea deaths and a 21% decline in food-borne outbreaks. All outbreaks declined by 47%, while ADD cases declined by 9.63%.",
+   "ty": "comparison",
+   "tq": "Match each percentage with the correct indicator instead of treating the figures as interchangeable.",
+   "sec": "Water-borne diseases → pathogen, test, deaths"
+  },
+  {
+   "s": "Which of the following is a set of measures identified for addressing water and sanitation-related disease risks?",
+   "o": [
+    "Jal Jeevan Mission, Swachh Bharat Mission and AMRUT",
+    "National Vector Borne Disease Control Programme, BCG and ORS",
+    "AMRUT, Widal test and Wolbachia release",
+    "Swachh Bharat Mission, Widal test and DPT"
+   ],
+   "a": 0,
+   "x": "Jal Jeevan Mission, Swachh Bharat Mission and AMRUT are identified as relevant remedies or interventions.",
+   "ty": "fact",
+   "tq": "Distinguish programmes and remedies from diagnostic tests, vaccines and vector-control methods.",
+   "sec": "Water-borne diseases → pathogen, test, deaths"
+  },
+  {
+   "s": "The organ system primarily affected by air pollution is the:",
+   "o": [
+    "Respiratory system",
+    "Reproductive system",
+    "Skeletal system",
+    "Digestive system"
+   ],
+   "a": 0,
+   "x": "Air pollution primarily affects the respiratory system, although it is also associated with cardiovascular disease, stroke and lung cancer.",
+   "ty": "fact",
+   "tq": "Select the principal health system rather than a secondary effect.",
+   "sec": "Air pollution and health"
+  },
+  {
+   "s": "Consider the following statements about the health effects of air pollution:\n1. It can contribute to heart disease and stroke.\n2. It is associated with lung cancer.\n3. Pollens, spores, bacteria and viruses can act as triggers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Air pollution has respiratory and cardiovascular effects, is associated with lung cancer, and may involve biological triggers such as pollens, spores, bacteria and viruses.",
+   "ty": "statements",
+   "tq": "Treat the respiratory, cardiovascular and biological-trigger effects as separate propositions.",
+   "sec": "Air pollution and health"
+  },
+  {
+   "s": "Noise pollution is associated with which of the following health effects?\n1. Hearing loss\n2. Hypertension\n3. Sleep disorders\n4. Anxiety\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Noise pollution is associated with hearing loss, hypertension, sleep disorders and anxiety.",
+   "ty": "statements",
+   "tq": "Check whether all listed effects belong to the same environmental-health category.",
+   "sec": "Air pollution and health"
+  },
+  {
+   "s": "According to the World Health Organization figure cited for 2019, ambient outdoor air pollution caused approximately how many premature deaths?",
+   "o": [
+    "4.2 million",
+    "42 million",
+    "420 million",
+    "420,000"
+   ],
+   "a": 0,
+   "x": "The cited WHO estimate is 4.2 million premature deaths from ambient outdoor air pollution in 2019.",
+   "ty": "numerical",
+   "tq": "Use the scale of the statistic to distinguish millions from thousands and crores.",
+   "sec": "Air pollution and health"
+  },
+  {
+   "s": "A public-health assessment is examining premature mortality and time lived with disability together. Which measure is most appropriate for this purpose?",
+   "o": [
+    "DALY",
+    "AQI",
+    "BOD",
+    "Widal index"
+   ],
+   "a": 0,
+   "x": "DALY combines years of life lost due to premature death and years lived with disability, making it a disease-burden metric.",
+   "ty": "application",
+   "tq": "Identify the metric from the components described in the scenario.",
+   "sec": "Air pollution and health"
+  }
+ ]
+}

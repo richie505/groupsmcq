@@ -1,0 +1,373 @@
+{
+ "book": 5,
+ "row": 103,
+ "chunk": 8,
+ "section": "Solid waste, plastic waste, e-waste, biomedical and construction waste - rules and management",
+ "subsections": [
+  "Hazardous chemicals in consumer products - PFAS, mercury lamps",
+  "Construction and demolition waste",
+  "Environment (C&D Waste Management) Rules 2025",
+  "Hazardous waste legal framework",
+  "Fly Ash Utilisation Notification",
+  "Hazardous waste disposal - secure landfills, treatment, inventory"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 26,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following best describes PFAS, often referred to as “forever chemicals”?",
+   "o": [
+    "They are biodegradable chemicals used exclusively in cement production",
+    "They persist in the environment, occur in products such as food packaging, and may accumulate in animal bodies",
+    "They rapidly decompose in soil and water and do not accumulate in organisms",
+    "They are radioactive substances used mainly in fluorescent lamps"
+   ],
+   "a": 1,
+   "x": "PFAS are persistent chemicals found in drinking water, food and food packaging. They do not break down easily and can accumulate in animal bodies.",
+   "ty": "fact",
+   "tq": "Use the option that combines the defining properties and common exposure pathways.",
+   "sec": "Hazardous chemicals in consumer products - PFAS, mercury lamps"
+  },
+  {
+   "s": "With reference to PFAS, consider the following statements:\n1. PFAS are widespread in drinking water, food and food packaging.\n2. PFAS do not break down easily in the environment.\n3. PFAS have been listed under the Stockholm Convention.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. PFAS are persistent contaminants found in several consumer exposure pathways and are now listed under the Stockholm Convention.",
+   "ty": "statements",
+   "tq": "Check each statement independently before selecting the combined code.",
+   "sec": "Hazardous chemicals in consumer products - PFAS, mercury lamps"
+  },
+  {
+   "s": "Fluorescent lamps and compact fluorescent lamps are treated as household hazardous waste primarily because they contain:",
+   "o": [
+    "Lead compounds",
+    "Mercury",
+    "Asbestos fibres",
+    "Polychlorinated biphenyls"
+   ],
+   "a": 1,
+   "x": "Fluorescent lamps and CFLs contain mercury. When broken, they can release mercury vapour into the surroundings.",
+   "ty": "fact",
+   "tq": "Identify the hazardous constituent associated with the specific consumer product.",
+   "sec": "Hazardous chemicals in consumer products - PFAS, mercury lamps"
+  },
+  {
+   "s": "Which one of the following correctly represents the legal control associated with mercury-added products?",
+   "o": [
+    "They are exempt from international environmental agreements",
+    "They are being phased out under the Minamata Convention",
+    "They are being promoted under the Stockholm Convention",
+    "They are regulated exclusively under the Basel Convention"
+   ],
+   "a": 1,
+   "x": "Mercury-added products are being phased out under the Minamata Convention, which addresses mercury pollution and its risks.",
+   "ty": "confusable",
+   "tq": "Discriminate between international conventions by matching the pollutant with the correct treaty.",
+   "sec": "Hazardous chemicals in consumer products - PFAS, mercury lamps"
+  },
+  {
+   "s": "Which of the following is an example of construction and demolition waste that is generally regarded as mostly inert?",
+   "o": [
+    "Mercury vapour and fluorescent lamp powder",
+    "Concrete, bricks, dirt, rocks and debris",
+    "Used syringes, blood-soaked cotton and pathological waste",
+    "Pesticide residues and solvent sludge"
+   ],
+   "a": 1,
+   "x": "Construction and demolition waste is mostly inert and commonly consists of concrete, bricks, dirt, rocks and debris.",
+   "ty": "fact",
+   "tq": "Select the option containing the characteristic material group rather than hazardous waste categories.",
+   "sec": "Construction and demolition waste"
+  },
+  {
+   "s": "Approximately how much construction and demolition waste is generated annually, as indicated for India?",
+   "o": [
+    "1,200 million tonnes",
+    "1.2 million tonnes",
+    "12 million tonnes",
+    "120 million tonnes"
+   ],
+   "a": 2,
+   "x": "Construction and demolition waste generation is indicated to be about 12 million tonnes per year.",
+   "ty": "numerical",
+   "tq": "Use scale comparison to distinguish the stated annual quantity from tenfold alternatives.",
+   "sec": "Construction and demolition waste"
+  },
+  {
+   "s": "Which one of the following is NOT a recognised reuse of construction and demolition waste?",
+   "o": [
+    "Reprocessing for construction applications",
+    "Manufacture of bricks and tiles",
+    "Production of recycled aggregates",
+    "Use as a substitute for all hazardous chemical treatment"
+   ],
+   "a": 3,
+   "x": "C&D waste can be reused as recycled aggregates and in bricks and tiles. It is not a substitute for hazardous chemical treatment.",
+   "ty": "negative",
+   "tq": "Find the option outside the stated reuse pathway by separating construction applications from hazardous-waste treatment.",
+   "sec": "Construction and demolition waste"
+  },
+  {
+   "s": "The Burari facility in Delhi is notable as:",
+   "o": [
+    "India’s first mercury-recovery plant",
+    "India’s first fly-ash-based thermal power plant",
+    "India’s first secure landfill for hazardous waste",
+    "India’s first construction and demolition waste recycling plant"
+   ],
+   "a": 3,
+   "x": "Delhi’s Burari plant is recognised as India’s first construction and demolition waste recycling plant.",
+   "ty": "fact",
+   "tq": "Match the named place with its distinctive facility rather than a neighbouring waste-management activity.",
+   "sec": "Construction and demolition waste"
+  },
+  {
+   "s": "Under the Construction and Demolition Waste Management Rules, 2016, which of the following activities falls within the scope of construction and demolition waste management?",
+   "o": [
+    "Only construction of residential buildings",
+    "Building, renovation, excavation, road, flyover, bridge and pipeline work",
+    "Only mining and mineral processing",
+    "Only municipal household waste collection"
+   ],
+   "a": 1,
+   "x": "The 2016 Rules cover waste arising from building, renovation, excavation, road, flyover, bridge and pipeline activities.",
+   "ty": "statements",
+   "tq": "Prefer the comprehensive scope when the rule covers multiple related activities.",
+   "sec": "Construction and demolition waste"
+  },
+  {
+   "s": "Consider the following statements regarding the Construction and Demolition Waste Management Rules, 2016:\n1. The Rules provide for collection, transport, storage and re-processing of C&D waste.\n2. Bulk generators may be subject to charges.\n3. Construction and demolition waste is treated as a resource.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The 2016 framework covers collection, transport, storage and re-processing, permits charges on bulk generators and treats C&D waste as a resource.",
+   "ty": "statements",
+   "tq": "Test the rule through its management stages, economic provision and resource-oriented approach.",
+   "sec": "Construction and demolition waste"
+  },
+  {
+   "s": "Which new framework is associated with the Environment (Construction and Demolition Waste Management) Rules, 2025?",
+   "o": [
+    "Polluter immunity for bulk generators",
+    "Extended Producer Responsibility for C&D waste",
+    "A national prohibition on using recycled aggregates",
+    "A complete ban on recycling construction waste"
+   ],
+   "a": 1,
+   "x": "The Ministry of Environment, Forest and Climate Change has notified an Extended Producer Responsibility framework for C&D waste under the 2025 rules.",
+   "ty": "fact",
+   "tq": "Identify the policy instrument directly linked with the newer rules.",
+   "sec": "Environment (C&D Waste Management) Rules 2025"
+  },
+  {
+   "s": "The Hazardous and Other Wastes (Management and Transboundary Movement) Rules, 2016 replaced which earlier rules?",
+   "o": [
+    "The Hazardous Wastes (Management, Handling and Transboundary Movement) Rules, 2008",
+    "The Biomedical Waste Rules, 1998",
+    "The Municipal Solid Waste Rules, 2000",
+    "The Hazardous Wastes Rules, 1989"
+   ],
+   "a": 0,
+   "x": "The 2016 Hazardous and Other Wastes Rules replaced the 2008 Rules.",
+   "ty": "confusable",
+   "tq": "Separate closely related rule years by identifying the earlier framework that was replaced.",
+   "sec": "Hazardous waste legal framework"
+  },
+  {
+   "s": "Which one of the following correctly states a feature of the Hazardous and Other Wastes (Management and Transboundary Movement) Rules, 2016?",
+   "o": [
+    "Import of hazardous waste for disposal is prohibited, and prevention is preferred over disposal",
+    "The Rules deal only with municipal biodegradable waste",
+    "The Rules prohibit all forms of recycling and co-processing",
+    "Hazardous waste may be imported freely for disposal without prior approval"
+   ],
+   "a": 0,
+   "x": "The framework bans import of hazardous waste for disposal and follows a hierarchy in which prevention precedes safe disposal.",
+   "ty": "application",
+   "tq": "Apply the waste-management hierarchy and identify the option consistent with both controls.",
+   "sec": "Hazardous waste legal framework"
+  },
+  {
+   "s": "In the context of transboundary movement of hazardous waste, PIC refers to:",
+   "o": [
+    "Public Inventory Certification",
+    "Pollution Impact Calculation",
+    "Permitted Industrial Conversion",
+    "Prior Informed Consent"
+   ],
+   "a": 3,
+   "x": "PIC means Prior Informed Consent, a control associated with the import and export of hazardous waste.",
+   "ty": "fact",
+   "tq": "Break the abbreviation into its regulatory meaning before evaluating the options.",
+   "sec": "Hazardous waste legal framework"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "MSIHC Rules, 1989 — manufacture, storage and import of hazardous chemicals",
+    "CAEPPR Rules, 1996 — insurance compensation without fault",
+    "Public Liability Insurance Act, 1991 — constitution of crisis groups",
+    "Contaminated Sites Rules, 2025 — regulation of fluorescent lamp manufacture"
+   ],
+   "a": 0,
+   "x": "The MSIHC Rules, 1989 address the manufacture, storage and import of hazardous chemicals. CAEPPR concerns crisis groups, while the Public Liability Insurance Act provides no-fault relief.",
+   "ty": "match",
+   "tq": "Start with the sure pair and reject options that swap the functions of neighbouring legal instruments.",
+   "sec": "Hazardous waste legal framework"
+  },
+  {
+   "s": "The CAEPPR Rules, 1996 provide for the establishment of:",
+   "o": [
+    "Only District Pollution Control Boards",
+    "International hazardous-waste tribunals",
+    "Only Central Crisis Groups",
+    "Central, State, District and Local Crisis Groups"
+   ],
+   "a": 3,
+   "x": "The CAEPPR Rules, 1996 provide for Central, State, District and Local Crisis Groups for preparedness and response to chemical emergencies.",
+   "ty": "fact",
+   "tq": "Read the composition literally and avoid dropping the lower administrative levels.",
+   "sec": "Hazardous waste legal framework"
+  },
+  {
+   "s": "The principal purpose of the Public Liability Insurance Act, 1991 is to provide:",
+   "o": [
+    "Compensation only after criminal conviction of the polluter",
+    "No-fault insurance cover and immediate relief to victims of hazardous-substance accidents",
+    "Insurance exclusively for transport of municipal waste",
+    "Long-term subsidies to industries using fly ash"
+   ],
+   "a": 1,
+   "x": "The Act provides no-fault insurance cover intended to give immediate relief to victims of accidents involving hazardous substances.",
+   "ty": "application",
+   "tq": "Identify the legal purpose by focusing on the beneficiary, liability basis and timing of relief.",
+   "sec": "Hazardous waste legal framework"
+  },
+  {
+   "s": "Under the Contaminated Sites Rules, 2025, which sequence correctly represents the time limits for assessment by the State Pollution Control Board?",
+   "o": [
+    "Preliminary assessment in 30 days followed by a detailed survey in 60 days",
+    "Preliminary assessment in 90 days followed by a detailed survey in the next 90 days",
+    "Preliminary assessment in 180 days followed by a detailed survey in 30 days",
+    "Both preliminary assessment and detailed survey within 15 days"
+   ],
+   "a": 1,
+   "x": "The SPCB is required to undertake a preliminary assessment within 90 days and a detailed survey in the subsequent 90 days.",
+   "ty": "chronology",
+   "tq": "Track the sequential time periods and distinguish the first assessment from the follow-up survey.",
+   "sec": "Hazardous waste legal framework"
+  },
+  {
+   "s": "Which one of the following statements regarding the Contaminated Sites Rules, 2025 is correct?",
+   "o": [
+    "District reports on suspected contaminated sites are prepared half-yearly, and the framework covers 189 hazardous chemicals",
+    "The Rules cover only radioactive substances and require monthly reports",
+    "District reports on suspected contaminated sites are prepared annually",
+    "The Rules apply only to municipal dumping grounds and cover 89 chemicals"
+   ],
+   "a": 0,
+   "x": "The framework requires district half-yearly reports on suspected contaminated sites and identifies 189 hazardous chemicals.",
+   "ty": "numerical",
+   "tq": "Combine the reporting frequency with the stated chemical count and reject altered figures.",
+   "sec": "Hazardous waste legal framework"
+  },
+  {
+   "s": "The Fly Ash Utilisation Notification requires fly ash to be used for bricks, cement and road construction within what distance of thermal power plants?",
+   "o": [
+    "50 km",
+    "100 km",
+    "300 km",
+    "500 km"
+   ],
+   "a": 2,
+   "x": "The notification requires utilisation of fly ash for specified construction purposes within 300 km of thermal plants, helping prevent dumping on soil.",
+   "ty": "numerical",
+   "tq": "Use the distance-based regulatory limit and distinguish it from nearer or broader alternatives.",
+   "sec": "Fly Ash Utilisation Notification"
+  },
+  {
+   "s": "Which of the following is a recognised use of fly ash in construction?",
+   "o": [
+    "Treating hazardous waste without any further processing",
+    "Replacing all aggregates in every type of concrete",
+    "Making building bricks and partly replacing Portland cement in concrete",
+    "Manufacturing mercury lamps exclusively"
+   ],
+   "a": 2,
+   "x": "Fly ash can be used to make building bricks and can partly replace Portland cement in concrete.",
+   "ty": "application",
+   "tq": "Select the option that states practical uses without introducing an absolute or exclusive claim.",
+   "sec": "Fly Ash Utilisation Notification"
+  },
+  {
+   "s": "Which principle best describes the preferred approach to hazardous-waste disposal?",
+   "o": [
+    "Landfilling is the first and preferred option for all hazardous waste",
+    "Hazardous waste should always be burned in open areas",
+    "Landfill is the last resort, while co-processing in cement plants and waste exchange are preferred where suitable",
+    "All hazardous waste must be discharged into surface water after dilution"
+   ],
+   "a": 2,
+   "x": "Landfill is considered the last resort. APPCB prefers suitable co-processing as fuel in cement plants and exchange of waste between industries.",
+   "ty": "application",
+   "tq": "Apply the waste hierarchy and reject options based on absolute or environmentally unsafe practices.",
+   "sec": "Hazardous waste disposal - secure landfills, treatment, inventory"
+  },
+  {
+   "s": "Which of the following correctly describes hazardous-waste management infrastructure in Andhra Pradesh?",
+   "o": [
+    "Two CHWTSDFs, twelve pre-processing facilities and six permitted cement units",
+    "Six CHWTSDFs, two pre-processing facilities and twelve permitted cement units",
+    "Twelve CHWTSDFs, six pre-processing facilities and two permitted cement units",
+    "Two CHWTSDFs, six pre-processing facilities and twelve permitted cement units for co-processing"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh has two Common Hazardous Waste Treatment, Storage and Disposal Facilities, six pre-processing facilities and twelve cement units permitted for co-processing.",
+   "ty": "comparison",
+   "tq": "Split the numerical options into infrastructure categories and match each figure to its correct category.",
+   "sec": "Hazardous waste disposal - secure landfills, treatment, inventory"
+  },
+  {
+   "s": "The two Common Hazardous Waste Treatment, Storage and Disposal Facilities (CHWTSDFs) in Andhra Pradesh are located at:",
+   "o": [
+    "Guntur and Kadapa",
+    "Anakapalli and SPSR Nellore",
+    "Vijayawada and Kurnool",
+    "Visakhapatnam and Tirupati"
+   ],
+   "a": 1,
+   "x": "The two CHWTSDFs identified for Andhra Pradesh are located in Anakapalli and SPSR Nellore.",
+   "ty": "fact",
+   "tq": "Use location-based recall and distinguish the named facility sites from other Andhra Pradesh cities.",
+   "sec": "Hazardous waste disposal - secure landfills, treatment, inventory"
+  },
+  {
+   "s": "Which system is used by APEMC for tracking hazardous-waste movement in Andhra Pradesh?",
+   "o": [
+    "Satellite television monitoring",
+    "Biometric tracking of every waste container",
+    "Manual colour coding only",
+    "GPS tracking"
+   ],
+   "a": 3,
+   "x": "APEMC uses GPS tracking for monitoring hazardous-waste movement and management.",
+   "ty": "fact",
+   "tq": "Match the institution with the specific monitoring technology stated for it.",
+   "sec": "Hazardous waste disposal - secure landfills, treatment, inventory"
+  }
+ ]
+}

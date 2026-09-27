@@ -1,0 +1,543 @@
+{
+ "book": 5,
+ "row": 67,
+ "chunk": 3,
+ "section": "Other renewables - biomass, biofuels (National Policy on Biofuels, ethanol blending), small hydro, geothermal, tidal, waste-to-energy",
+ "subsections": [
+  "Small hydro cut-off and waste-to-energy",
+  "Global Biofuels Alliance - launch, members",
+  "National Biofuel Coordination Committee - chair, approvals",
+  "Aviation biofuels - FIRST flight, SAF targets, RUCO",
+  "Advanced biofuels - PM JI-VAN, 2G plants, SATAT",
+  "AP compressed biogas and ethanol projects - investor, districts",
+  "Biomass gasification and microbial fuel cells",
+  "MNRE classification - sources counted as renewable"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "In India, a hydropower plant is classified as a small hydro plant when its capacity is:",
+   "o": [
+    "Up to 50 MW",
+    "Up to 10 MW",
+    "Up to 25 MW",
+    "Up to 2 MW"
+   ],
+   "a": 2,
+   "x": "In India, hydroelectric plants with capacity up to 25 MW are classified as small hydro plants.",
+   "ty": "numerical",
+   "tq": "Use the exact capacity cut-off and distinguish it from neighbouring classifications.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Consider the following statements regarding small hydro classification:\n1. Micro hydro refers to plants up to 100 kW.\n2. Mini hydro refers to plants from 101 kW to 2 MW.\n3. Small hydro refers to plants above 2 MW and up to 25 MW.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly describe the micro, mini and small hydro capacity ranges.",
+   "ty": "statements",
+   "tq": "Check each numerical range separately before selecting the coded combination.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Small hydro projects are commonly developed using which of the following site conditions?\n1. Hill streams\n2. Canal falls\n3. Toes of dams\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Run-of-river small hydro projects may use hill streams, canal falls and water released at dam toes.",
+   "ty": "statements",
+   "tq": "Recognise the application-based list and avoid treating run-of-river projects as dam-only projects.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "The small hydro programme was transferred to the Ministry of New and Renewable Energy from the Ministry of Power in which sequence?",
+   "o": [
+    "Up to 3 MW in 1989; up to 25 MW in November 1999",
+    "Up to 25 MW in 1989; up to 3 MW in November 1999",
+    "Up to 3 MW in 1999; up to 25 MW in 1989",
+    "Up to 10 MW in 1989; up to 50 MW in 1999"
+   ],
+   "a": 0,
+   "x": "Plants up to 3 MW were moved to MNRE in 1989, and the coverage was expanded to plants up to 25 MW in November 1999.",
+   "ty": "chronology",
+   "tq": "Arrange the two administrative changes by both date and capacity.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Approximately what share of India's estimated small hydro potential had been installed, with installed capacity of about 5.18 GW?",
+   "o": [
+    "About 25 percent",
+    "About 75 percent",
+    "About 50 percent",
+    "About 10 percent"
+   ],
+   "a": 0,
+   "x": "The installed capacity of about 5.18 GW represented approximately 25 percent of the estimated potential.",
+   "ty": "numerical",
+   "tq": "Relate the installed capacity to the stated percentage of potential.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Which group of States holds about half of India's small hydro potential?",
+   "o": [
+    "Odisha, Jharkhand, Chhattisgarh, and Bihar",
+    "Rajasthan, Gujarat, Maharashtra, and Karnataka",
+    "Arunachal Pradesh, Himachal Pradesh, Jammu and Kashmir, and Uttarakhand",
+    "Kerala, Tamil Nadu, Andhra Pradesh, and Telangana"
+   ],
+   "a": 2,
+   "x": "Arunachal Pradesh, Himachal Pradesh, Jammu and Kashmir, and Uttarakhand together hold about half of India's small hydro potential.",
+   "ty": "fact",
+   "tq": "Identify the geographically clustered high-potential Himalayan States.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Technical support for the small hydro programme is provided by the Department of Hydro and Renewable Energy, IIT Roorkee. Which statement is correct regarding this department?",
+   "o": [
+    "It provides technical support but is not under MNRE control.",
+    "It is an autonomous body of the United Nations.",
+    "It functions directly under the control of MNRE.",
+    "It functions under the Ministry of Power alone."
+   ],
+   "a": 0,
+   "x": "The Department of Hydro and Renewable Energy at IIT Roorkee provides technical support and is not under the control of MNRE.",
+   "ty": "fact",
+   "tq": "Apply the authority-versus-technical-support distinction.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Match List-I with List-II regarding waste-to-energy routes:\n\nList-I (Route)\na. Incineration\nb. Pyrolysis\nc. Gasification\nd. Refuse-derived fuel\n\nList-II (Description)\ni. Dry combustible part of segregated municipal solid waste\nii. Heating without oxygen\niii. Partial oxidation\niv. Direct burning of municipal solid waste for heat or power\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a-iv, b-ii, c-iii, d-i",
+    "a-ii, b-iv, c-i, d-iii",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-iv, b-iii, c-ii, d-i"
+   ],
+   "a": 0,
+   "x": "Incineration directly burns MSW; pyrolysis heats it without oxygen; gasification uses partial oxidation; RDF is the dry combustible fraction of segregated MSW.",
+   "ty": "match",
+   "tq": "Start with the sure pair and eliminate codes that reverse pyrolysis and gasification.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Which one of the following correctly describes pyrolysis of waste?",
+   "o": [
+    "Microbial conversion of wet waste into methane only",
+    "Heating in the absence of oxygen to produce biochar, bio-oil and syngas",
+    "Complete burning in excess oxygen to produce only ash",
+    "Capture of methane escaping from a landfill"
+   ],
+   "a": 1,
+   "x": "Pyrolysis is the heating of waste without oxygen and can produce biochar, bio-oil and syngas.",
+   "ty": "fact",
+   "tq": "Discriminate pyrolysis from incineration, biomethanation and landfill gas recovery.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Which one of the following is the correct sequence for gasification?",
+   "o": [
+    "Anaerobic digestion → bio-oil → char",
+    "Partial or controlled oxidation → syngas",
+    "Complete oxidation → ash → steam",
+    "Landfilling → ethanol → biodiesel"
+   ],
+   "a": 1,
+   "x": "Gasification uses partial or controlled oxidation and produces syngas.",
+   "ty": "confusable",
+   "tq": "Separate gasification from incineration by focusing on limited oxygen and syngas.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Consider the following statements about waste-to-energy technologies:\n1. Incineration burns waste in oxygen and may produce steam for power generation.\n2. Incineration can reduce waste volume by approximately 90 percent.\n3. Incineration may generate ash and emissions.\n4. Biomethanation converts wet organic waste into biogas through microbial action.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe incineration or biomethanation. Incineration produces steam, reduces volume substantially and has ash and emission concerns, while microbes convert wet organic waste into biogas.",
+   "ty": "statements",
+   "tq": "Test the complete technology profile rather than relying on only the principal output.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Gasification — complete combustion in excess oxygen",
+    "Biomethanation — microbial conversion of wet organic waste into biogas",
+    "Landfill gas recovery — capture of methane from landfills",
+    "Incineration — burning in oxygen with possible steam generation"
+   ],
+   "a": 0,
+   "x": "Gasification involves controlled or partial oxidation, not complete combustion in excess oxygen. The other pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the process whose oxygen condition has been deliberately reversed.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Source segregation is essential for which of the following processes?\n1. Gasification\n2. Anaerobic digestion\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Proper source segregation is essential for both gasification and anaerobic digestion because the feedstock must be suitably separated and relatively free from incompatible materials.",
+   "ty": "application",
+   "tq": "Apply the waste-management principle to both dry and wet treatment routes.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Which of the following locations in Andhra Pradesh are associated with Jindal waste-to-energy plants?\n1. Guntur\n2. Naidupalem\n3. Kapuluppada, Visakhapatnam\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Jindal waste-to-energy plants are associated with Guntur, Naidupalem and Kapuluppada in Visakhapatnam.",
+   "ty": "statements",
+   "tq": "Use location-based recall and include all listed plant sites.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Which of the following correctly states the waste-to-energy capacity figures?",
+   "o": [
+    "National capacity 0.88 GW; Andhra Pradesh municipal solid waste power 40.96 MW and industrial waste power 36.15 MW",
+    "National capacity 8.80 GW; Andhra Pradesh municipal solid waste power 40.96 MW and industrial waste power 36.15 MW",
+    "National capacity 0.88 GW; Andhra Pradesh municipal solid waste power 36.15 MW and industrial waste power 40.96 MW",
+    "National capacity 5.18 GW; Andhra Pradesh municipal solid waste power 21.13 MW and industrial waste power 7.13 MW"
+   ],
+   "a": 2,
+   "x": "The national waste-to-energy capacity is 0.88 GW, while Andhra Pradesh has 36.15 MW from municipal solid waste and 40.96 MW from industrial waste.",
+   "ty": "numerical",
+   "tq": "Keep the national figure separate from the two Andhra Pradesh component figures.",
+   "sec": "Small hydro cut-off and waste-to-energy"
+  },
+  {
+   "s": "Which countries were the founding members of the Global Biofuels Alliance?",
+   "o": [
+    "India, China and Brazil",
+    "India, France and Germany",
+    "India, the United States of America and Brazil",
+    "Brazil, the United States of America and the United Kingdom"
+   ],
+   "a": 2,
+   "x": "India, the United States of America and Brazil were the founding members of the Global Biofuels Alliance.",
+   "ty": "fact",
+   "tq": "Distinguish founding members from other major biofuel-producing countries.",
+   "sec": "Global Biofuels Alliance - launch, members"
+  },
+  {
+   "s": "The National Biofuel Coordination Committee is chaired by the:",
+   "o": [
+    "Cabinet Secretary",
+    "Minister of Agriculture and Farmers' Welfare",
+    "Minister of New and Renewable Energy",
+    "Minister of Petroleum and Natural Gas"
+   ],
+   "a": 3,
+   "x": "The National Biofuel Coordination Committee is chaired by the Minister of Petroleum and Natural Gas.",
+   "ty": "fact",
+   "tq": "Use the responsible-ministry trap and identify the ministerial chairperson.",
+   "sec": "National Biofuel Coordination Committee - chair, approvals"
+  },
+  {
+   "s": "The first Indian biofuel flight in 2018 operated on which route?",
+   "o": [
+    "Hyderabad–Bengaluru",
+    "Chennai–Kochi",
+    "Delhi–Mumbai",
+    "Dehradun–Delhi"
+   ],
+   "a": 3,
+   "x": "The first Indian biofuel flight operated from Dehradun to Delhi on 27 August 2018 using jatropha-based fuel produced with CSIR-IIP support.",
+   "ty": "fact",
+   "tq": "Separate the route detail from the airline-name recall commonly used in similar questions.",
+   "sec": "Aviation biofuels - FIRST flight, SAF targets, RUCO"
+  },
+  {
+   "s": "The first Indian biofuel flight was conducted on:",
+   "o": [
+    "27 August 2017",
+    "27 August 2019",
+    "27 August 2018",
+    "27 August 2016"
+   ],
+   "a": 2,
+   "x": "The first Indian biofuel flight took place on 27 August 2018.",
+   "ty": "numerical",
+   "tq": "Use the exact date and reject the close-year distractors.",
+   "sec": "Aviation biofuels - FIRST flight, SAF targets, RUCO"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "CSIR-IIP — authority responsible for RUCO collection",
+    "IOCL Panipat — first Indian ISCC CORSIA-certified SAF producer",
+    "IOCL Panipat — first Indian commercial nuclear fuel producer",
+    "Numaligarh Refinery — first Indian ISCC CORSIA-certified SAF producer"
+   ],
+   "a": 1,
+   "x": "IOCL Panipat became India's first ISCC CORSIA-certified SAF producer in August 2025. RUCO is an FSSAI initiative, while Numaligarh is associated with a bamboo-based 2G ethanol plant.",
+   "ty": "negative",
+   "tq": "Check the institution against the precise certification and production claim.",
+   "sec": "Aviation biofuels - FIRST flight, SAF targets, RUCO"
+  },
+  {
+   "s": "RUCO, associated with biofuels, is a drive of the:",
+   "o": [
+    "Food Safety and Standards Authority of India",
+    "Ministry of Civil Aviation",
+    "Indian Oil Corporation Limited",
+    "National Biofuel Coordination Committee"
+   ],
+   "a": 0,
+   "x": "RUCO is an FSSAI drive to collect used cooking oil for conversion into biodiesel.",
+   "ty": "fact",
+   "tq": "Identify the implementing body rather than the end-use fuel.",
+   "sec": "Aviation biofuels - FIRST flight, SAF targets, RUCO"
+  },
+  {
+   "s": "Which one of the following is NOT among the listed feedstocks for Sustainable Aviation Fuel?",
+   "o": [
+    "Uranium ore",
+    "Agricultural residues",
+    "Corn grain",
+    "Wastewater treatment sludge"
+   ],
+   "a": 0,
+   "x": "Agricultural residues, corn grain, wastewater treatment sludge and wood-mill waste are listed SAF feedstocks. Uranium ore is not a biofuel feedstock.",
+   "ty": "negative",
+   "tq": "Find the option that belongs to nuclear energy rather than biofuel production.",
+   "sec": "Aviation biofuels - FIRST flight, SAF targets, RUCO"
+  },
+  {
+   "s": "Sustainable Aviation Fuel differs from direct ethanol blending in that SAF uses:",
+   "o": [
+    "Only hydrogen generated from nuclear power",
+    "Only raw methane without processing",
+    "Directly blended ethanol as the sole fuel component",
+    "Drop-in synthesised hydrocarbons"
+   ],
+   "a": 3,
+   "x": "SAF uses drop-in synthesised hydrocarbons suitable for aviation fuel systems; it is not simply direct ethanol.",
+   "ty": "confusable",
+   "tq": "Distinguish a compatible drop-in fuel from direct ethanol blending.",
+   "sec": "Aviation biofuels - FIRST flight, SAF targets, RUCO"
+  },
+  {
+   "s": "Which of the following correctly describes the revised PM JI-VAN Yojana?\n1. It supports advanced biofuels.\n2. Its implementation timeline extends to 2028–29.\n3. It covers bolt-on and brownfield projects.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The revised scheme replaces the narrower expression '2G ethanol' with 'advanced biofuels', extends the timeline to 2028–29 and covers bolt-on and brownfield projects.",
+   "ty": "statements",
+   "tq": "Track the changes introduced by the revised scheme rather than its original title alone.",
+   "sec": "Advanced biofuels - PM JI-VAN, 2G plants, SATAT"
+  },
+  {
+   "s": "The PM JI-VAN Yojana was launched in:",
+   "o": [
+    "2017",
+    "2018",
+    "2019",
+    "2021"
+   ],
+   "a": 2,
+   "x": "PM JI-VAN Yojana was launched in 2019 to support 2G ethanol and subsequently expanded to advanced biofuels.",
+   "ty": "numerical",
+   "tq": "Use the launch year, not the later revision period, as the deciding fact.",
+   "sec": "Advanced biofuels - PM JI-VAN, 2G plants, SATAT"
+  },
+  {
+   "s": "Which one of the following correctly states the scale of the revised PM JI-VAN Yojana?",
+   "o": [
+    "10 commercial advanced biofuel plants, an outlay of ₹1,296.50 crore and 12 demonstration units",
+    "12 commercial advanced biofuel plants, an outlay of ₹1,969.50 crore and about 10 demonstration units",
+    "12 commercial advanced biofuel plants, an outlay of ₹969.50 crore and about 20 demonstration units",
+    "25 commercial advanced biofuel plants, an outlay of ₹1,969.50 crore and 10 demonstration units"
+   ],
+   "a": 1,
+   "x": "The revised scheme provides for 12 commercial advanced biofuel plants, an outlay of ₹1,969.50 crore and approximately 10 demonstration units.",
+   "ty": "numerical",
+   "tq": "Match the three numerical components as a single scheme profile.",
+   "sec": "Advanced biofuels - PM JI-VAN, 2G plants, SATAT"
+  },
+  {
+   "s": "Match the following 2G ethanol plants with their locations or feedstocks:\n\nList-I (Plant)\na. IOCL Panipat\nb. Numaligarh Refinery\nc. HPCL Bathinda\nd. BPCL Bargarh\n\nList-II (Location or feedstock)\ni. Odisha\nii. Haryana; rice straw and bagasse\niii. Golaghat, Assam; bamboo\niv. Punjab\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a-ii, b-iii, c-iv, d-i",
+    "a-iii, b-ii, c-i, d-iv",
+    "a-ii, b-iv, c-iii, d-i",
+    "a-i, b-iii, c-iv, d-ii"
+   ],
+   "a": 0,
+   "x": "IOCL Panipat is in Haryana and uses rice straw and bagasse; Numaligarh is in Golaghat, Assam and uses bamboo; HPCL Bathinda is in Punjab; BPCL Bargarh is in Odisha.",
+   "ty": "match",
+   "tq": "Begin with the distinctive bamboo–Numaligarh pair and then complete the remaining matches.",
+   "sec": "Advanced biofuels - PM JI-VAN, 2G plants, SATAT"
+  },
+  {
+   "s": "Which one of the following statements about the Numaligarh Refinery 2G plant is correct?",
+   "o": [
+    "It is located in Panipat, Haryana, and uses rice straw and bagasse.",
+    "It is located in Bathinda, Punjab, and uses municipal solid waste.",
+    "It is located in Golaghat, Assam, uses bamboo and was dedicated on 14 September 2025.",
+    "It is located in Bargarh, Odisha, and uses used cooking oil."
+   ],
+   "a": 2,
+   "x": "The Numaligarh Refinery plant is located in Golaghat, Assam, uses bamboo and was dedicated on 14 September 2025; it was described as the world's first of its kind.",
+   "ty": "fact",
+   "tq": "Combine location, feedstock and date to defeat plant-location swaps.",
+   "sec": "Advanced biofuels - PM JI-VAN, 2G plants, SATAT"
+  },
+  {
+   "s": "Under SATAT, compressed biogas is produced from:",
+   "o": [
+    "Agricultural residues and municipal solid waste",
+    "Only uranium-bearing minerals",
+    "Solar photovoltaic waste alone",
+    "Only petroleum refinery gases"
+   ],
+   "a": 0,
+   "x": "SATAT promotes compressed biogas produced from agricultural residues and municipal solid waste.",
+   "ty": "fact",
+   "tq": "Identify the eligible feedstocks rather than confusing CBG with conventional natural gas.",
+   "sec": "Advanced biofuels - PM JI-VAN, 2G plants, SATAT"
+  },
+  {
+   "s": "The Compressed Biogas Obligation under SATAT is scheduled as:",
+   "o": [
+    "5 percent in FY 2026–28, followed by 1 percent from 2028–29",
+    "3 percent, 4 percent and 5 percent in FY 2026–28, followed by 1 percent from 2028–29",
+    "1 percent, 3 percent and 4 percent in FY 2026–28, followed by 5 percent from 2028–29",
+    "1 percent, 2 percent and 3 percent in FY 2026–28, followed by 4 percent from 2028–29"
+   ],
+   "a": 2,
+   "x": "The CBG obligation is 1 percent, 3 percent and 4 percent during FY 2026–28, rising to 5 percent from FY 2028–29.",
+   "ty": "numerical",
+   "tq": "Read the obligation as a rising sequence and retain the transition year.",
+   "sec": "Advanced biofuels - PM JI-VAN, 2G plants, SATAT"
+  },
+  {
+   "s": "GOBAR-DHAN, launched in 2018, primarily seeks to convert:",
+   "o": [
+    "Plastic waste into uranium fuel",
+    "Cattle dung into biogas or bio-CNG",
+    "Sea water into biodiesel",
+    "Coal into synthetic aviation fuel"
+   ],
+   "a": 1,
+   "x": "GOBAR-DHAN was launched in 2018 to promote conversion of cattle dung into biogas and bio-CNG.",
+   "ty": "fact",
+   "tq": "Break the acronym conceptually and identify the stated feedstock-output pair.",
+   "sec": "Advanced biofuels - PM JI-VAN, 2G plants, SATAT"
+  },
+  {
+   "s": "In biomass gasification, biomass or waste is heated with limited oxygen to produce syngas consisting mainly of:",
+   "o": [
+    "Oxygen, nitrogen and helium",
+    "Carbon monoxide, hydrogen and carbon dioxide",
+    "Sulphur dioxide, nitrogen dioxide and ammonia",
+    "Methane, chlorine and ozone"
+   ],
+   "a": 1,
+   "x": "Controlled or limited-oxygen gasification produces syngas containing carbon monoxide, hydrogen and carbon dioxide.",
+   "ty": "fact",
+   "tq": "Use the gas-composition clue and distinguish syngas from atmospheric air.",
+   "sec": "Biomass gasification and microbial fuel cells"
+  },
+  {
+   "s": "Which of the following is a significant application or benefit of biomass gasification?\n1. Generation of power through engines\n2. Decentralised energy production\n3. Utilisation of farm residues\n4. Reduction of stubble burning\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Biomass gasification can generate engine power, support decentralised energy systems, use farm residues and reduce stubble burning.",
+   "ty": "statements",
+   "tq": "Recognise the complete set of practical benefits rather than selecting only the energy output.",
+   "sec": "Biomass gasification and microbial fuel cells"
+  },
+  {
+   "s": "A microbial fuel cell generates electricity while treating wastewater because:",
+   "o": [
+    "Viruses split water directly into hydrogen and oxygen",
+    "Bacteria oxidise organic matter and transfer electrons to an electrode",
+    "Algae convert uranium into methane",
+    "Fungi burn plastic in complete combustion"
+   ],
+   "a": 1,
+   "x": "In a microbial fuel cell, bacteria oxidise organic matter and transfer electrons to an electrode, producing electricity while treating wastewater.",
+   "ty": "application",
+   "tq": "Link the biological action, electron transfer and wastewater-treatment outcome.",
+   "sec": "Biomass gasification and microbial fuel cells"
+  },
+  {
+   "s": "Which one of the following is NOT included in MNRE's renewable-energy classification?",
+   "o": [
+    "Solar energy",
+    "Wind energy",
+    "Small hydro energy",
+    "Nuclear energy"
+   ],
+   "a": 3,
+   "x": "MNRE counts solar, wind, bio-power, small hydro and, since 2019, large hydro as renewable energy. Nuclear power is non-fossil but not renewable and is counted separately.",
+   "ty": "negative",
+   "tq": "Distinguish the non-fossil category from the renewable-energy category.",
+   "sec": "MNRE classification - sources counted as renewable"
+  },
+  {
+   "s": "Since 2019, which additional source has been included in MNRE's renewable-energy classification?",
+   "o": [
+    "Nuclear power",
+    "Tidal power as the dominant renewable source",
+    "Large hydropower",
+    "Geothermal power as a fully developed source"
+   ],
+   "a": 2,
+   "x": "Large hydro has been included in MNRE's renewable-energy classification since 2019. Nuclear remains non-fossil but not renewable, while geothermal, tidal and OTEC are under development.",
+   "ty": "fact",
+   "tq": "Use the date-linked classification change and reject sources described only as under development.",
+   "sec": "MNRE classification - sources counted as renewable"
+  },
+  {
+   "s": "Consider the following statements regarding MNRE's classification:\n1. Bio-power includes biomass, bagasse cogeneration and waste-to-energy.\n2. Geothermal, tidal and OTEC are renewable-energy sources under development.\n3. Nuclear power is non-fossil but is not classified as renewable energy.\n4. Nuclear capacity of 8.78 GW is counted separately.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. MNRE includes the listed forms of bio-power in renewable energy, treats geothermal, tidal and OTEC as under development, and counts nuclear separately as non-fossil but non-renewable capacity.",
+   "ty": "statements",
+   "tq": "Separate renewable, under-development and non-fossil categories before choosing the complete combination.",
+   "sec": "MNRE classification - sources counted as renewable"
+  }
+ ]
+}

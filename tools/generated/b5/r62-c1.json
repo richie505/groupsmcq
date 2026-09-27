@@ -1,0 +1,412 @@
+{
+ "book": 5,
+ "row": 62,
+ "chunk": 1,
+ "section": "Nuclear power plants in India, NPCIL, civil nuclear agreements, nuclear liability law and safety (AERB)",
+ "subsections": [
+  "Nuclear accidents - country and year",
+  "Installed capacity and targets - the number game",
+  "Nuclear safety - AERB, exclusion zone, safety practice"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 28,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The SL-1 nuclear accident occurred in which year and country?",
+   "o": [
+    "2011, Japan",
+    "1986, USSR",
+    "1979, USA",
+    "1961, USA"
+   ],
+   "a": 3,
+   "x": "The SL-1 accident occurred in Idaho, USA, in 1961.",
+   "ty": "fact",
+   "tq": "Use the country-year pairing rather than identifying the accident by name alone.",
+   "sec": "Nuclear accidents - country and year"
+  },
+  {
+   "s": "The Chernobyl nuclear accident occurred in which year?",
+   "o": [
+    "1979",
+    "1986",
+    "2007",
+    "2011"
+   ],
+   "a": 1,
+   "x": "The Chernobyl accident occurred in 1986 in the then USSR, in present-day Ukraine.",
+   "ty": "numerical",
+   "tq": "Distinguish the closely studied nuclear-accident years by chronological recall.",
+   "sec": "Nuclear accidents - country and year"
+  },
+  {
+   "s": "Fukushima Daiichi is associated with which country and year?",
+   "o": [
+    "Japan, 2007",
+    "USSR, 1986",
+    "Japan, 2011",
+    "USA, 1979"
+   ],
+   "a": 2,
+   "x": "The Fukushima Daiichi accident occurred in Japan in 2011, following an earthquake and tsunami.",
+   "ty": "fact",
+   "tq": "Match the event with both its location and year.",
+   "sec": "Nuclear accidents - country and year"
+  },
+  {
+   "s": "Consider the following statements regarding major nuclear accidents:\n1. Chernobyl occurred in the then USSR, in present-day Ukraine.\n2. Fukushima Daiichi occurred in Japan in 2011.\n3. Kashiwazaki-Kariwa witnessed a 2007 earthquake, fire and a small radioactive leak.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Chernobyl occurred in 1986, Fukushima Daiichi in 2011, and Kashiwazaki-Kariwa experienced the stated 2007 event.",
+   "ty": "statements",
+   "tq": "Check each event against its location, year and associated occurrence.",
+   "sec": "Nuclear accidents - country and year"
+  },
+  {
+   "s": "Under the International Nuclear and Radiological Event Scale (INES), which two accidents were rated at Level 7?",
+   "o": [
+    "Chernobyl and SL-1",
+    "Chernobyl and Fukushima Daiichi",
+    "Three Mile Island and Kashiwazaki-Kariwa",
+    "SL-1 and Three Mile Island"
+   ],
+   "a": 1,
+   "x": "Chernobyl and Fukushima Daiichi were both rated Level 7 on the INES scale.",
+   "ty": "fact",
+   "tq": "Identify the extreme category on a numbered international scale.",
+   "sec": "Nuclear accidents - country and year"
+  },
+  {
+   "s": "Which one of the following is correctly matched with its INES rating?",
+   "o": [
+    "Fukushima Daiichi — Level 5",
+    "Kashiwazaki-Kariwa — Level 7",
+    "Three Mile Island — Level 5",
+    "Chernobyl — Level 5"
+   ],
+   "a": 2,
+   "x": "Three Mile Island was rated Level 5. Chernobyl and Fukushima Daiichi were Level 7, while Kashiwazaki-Kariwa was classified as a minor event.",
+   "ty": "negative",
+   "tq": "Eliminate the options by comparing the event with its scale rating.",
+   "sec": "Nuclear accidents - country and year"
+  },
+  {
+   "s": "Kashiwazaki-Kariwa is notable because it is:",
+   "o": [
+    "the first nuclear plant in India",
+    "the world's oldest nuclear power plant",
+    "the world's largest nuclear power plant by capacity",
+    "the only Level 7 nuclear accident site"
+   ],
+   "a": 2,
+   "x": "Kashiwazaki-Kariwa in Japan is the world's largest nuclear power plant by capacity.",
+   "ty": "fact",
+   "tq": "Separate a capacity distinction from accident-severity distinctions.",
+   "sec": "Nuclear accidents - country and year"
+  },
+  {
+   "s": "Which of the following correctly describes the nuclear generation record of India in FY 2024–25?",
+   "o": [
+    "46.681 billion units, the first time above 40 billion units",
+    "66.681 billion units, the first time above 60 billion units",
+    "56.681 billion units, the first time above 50 billion units",
+    "36.681 billion units, the first time below 50 billion units"
+   ],
+   "a": 2,
+   "x": "Nuclear generation reached 56.681 billion units in FY 2024–25, crossing 50 billion units for the first time.",
+   "ty": "numerical",
+   "tq": "Read the figure together with the milestone attached to it.",
+   "sec": "Installed capacity and targets - the number game"
+  },
+  {
+   "s": "What was the share of nuclear power in India's total electricity generation in 2024–25?",
+   "o": [
+    "1.62%",
+    "3.1%",
+    "5.0%",
+    "8.78%"
+   ],
+   "a": 1,
+   "x": "Nuclear power accounted for 3.1% of electricity generation in 2024–25. The 1.62% figure refers to its share of installed capacity.",
+   "ty": "comparison",
+   "tq": "Distinguish the share of generation from the share of installed capacity.",
+   "sec": "Installed capacity and targets - the number game"
+  },
+  {
+   "s": "The share of nuclear power in India's installed electricity capacity, as stated for the relevant period, was approximately:",
+   "o": [
+    "1.62%",
+    "3.1%",
+    "8.78%",
+    "22.38%"
+   ],
+   "a": 0,
+   "x": "Nuclear power constituted approximately 1.62% of India's installed electricity capacity, whereas its generation share was 3.1%.",
+   "ty": "numerical",
+   "tq": "Avoid reversing two similar percentage indicators.",
+   "sec": "Installed capacity and targets - the number game"
+  },
+  {
+   "s": "Consider the following statements regarding India's nuclear power pipeline:\n1. Seven reactors with a combined capacity of 6,100 MW are under construction.\n2. Projects totalling 13,100 MW are under implementation.\n3. The target for 2031–32 is 22.38 GW.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The construction and implementation figures are 6,100 MW and 13,100 MW respectively, and the 2031–32 target is 22.38 GW.",
+   "ty": "statements",
+   "tq": "Verify each numerical statement independently before choosing the coded combination.",
+   "sec": "Installed capacity and targets - the number game"
+  },
+  {
+   "s": "The Nuclear Energy Mission envisages India's nuclear power capacity reaching approximately what level by 2047?",
+   "o": [
+    "22.38 GW",
+    "54 GW",
+    "80 GW",
+    "100 GW"
+   ],
+   "a": 3,
+   "x": "The Nuclear Energy Mission targets 100 GW of nuclear capacity by 2047.",
+   "ty": "numerical",
+   "tq": "Match the long-term target with its terminal year.",
+   "sec": "Installed capacity and targets - the number game"
+  },
+  {
+   "s": "Under the 2047 nuclear power target, NPCIL is expected to add approximately:",
+   "o": [
+    "22.38 GW",
+    "100 GW",
+    "13.1 GW",
+    "54 GW"
+   ],
+   "a": 3,
+   "x": "NPCIL is expected to add 54 GW as part of the effort to reach the 100 GW target by 2047.",
+   "ty": "numerical",
+   "tq": "Distinguish the institutional contribution from the national target.",
+   "sec": "Installed capacity and targets - the number game"
+  },
+  {
+   "s": "Which country supplies approximately 80 per cent of India's uranium imports?",
+   "o": [
+    "Australia",
+    "Russia",
+    "Kazakhstan",
+    "Canada"
+   ],
+   "a": 2,
+   "x": "Kazakhstan supplies approximately 80 per cent of India's uranium imports.",
+   "ty": "fact",
+   "tq": "Use the supplier-share association rather than a general nuclear cooperation association.",
+   "sec": "Installed capacity and targets - the number game"
+  },
+  {
+   "s": "Which one of the following statements about the establishment and institutional position of the Atomic Energy Regulatory Board (AERB) is correct?",
+   "o": [
+    "It was established in 1994 under the Convention on Nuclear Safety.",
+    "It was established in 1962 as an independent constitutional body outside the DAE.",
+    "It was established in 2025 by the Nuclear Safety Regulatory Authority Bill.",
+    "It was established in 1983 by executive order under the Atomic Energy Act, 1962, and initially functioned under the DAE."
+   ],
+   "a": 3,
+   "x": "The AERB was set up on 15 November 1983 by executive order under the Atomic Energy Act, 1962, and functioned under the Department of Atomic Energy.",
+   "ty": "fact",
+   "tq": "Check the establishment year, legal basis and institutional control together.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "The SHANTI Act, 2025 has changed the status of the AERB by making it:",
+   "o": [
+    "a non-statutory advisory body under NPCIL",
+    "a private licensing agency for nuclear power plants",
+    "a statutory body answerable to Parliament",
+    "a constitutional body answerable only to the Supreme Court"
+   ],
+   "a": 2,
+   "x": "The SHANTI Act, 2025 made the AERB statutory and answerable to Parliament.",
+   "ty": "fact",
+   "tq": "Identify the legal change rather than the earlier institutional criticism.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "Consider the following functions of the AERB:\n1. Licensing nuclear power plants and fuel-cycle facilities.\n2. Regulating radiation safety in medical and industrial applications.\n3. Inspecting facilities and suspending or revoking licences.\n4. Regulating the management and transport of radioactive waste.\nWhich of the above are functions of the AERB?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The AERB performs all the listed functions, including licensing, radiation regulation, inspection, licence action, and control of radioactive waste and transport.",
+   "ty": "statements",
+   "tq": "Recognise the complete regulatory mandate instead of selecting only licensing functions.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "The principal criticism of the AERB's earlier institutional arrangement was that:",
+   "o": [
+    "it was under the DAE, which also acted as the promoter of nuclear power",
+    "it was answerable directly to foreign nuclear regulators",
+    "it regulated only medical radiation and not nuclear plants",
+    "it had no power to inspect nuclear facilities"
+   ],
+   "a": 0,
+   "x": "The earlier arrangement raised an independence concern because the AERB functioned under the DAE, while the DAE was also the promoter of nuclear development.",
+   "ty": "application",
+   "tq": "Identify the conflict between the regulator and the promoter.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "Which one of the following statements regarding the Nuclear Safety Regulatory Authority Bill is correct?",
+   "o": [
+    "It was never enacted.",
+    "It became the statutory basis of the AERB in 1983.",
+    "It transferred all AERB powers to NPCIL.",
+    "It was enacted after the Fukushima accident."
+   ],
+   "a": 0,
+   "x": "The Nuclear Safety Regulatory Authority Bill was never enacted; the AERB's statutory status was subsequently addressed through the SHANTI Act, 2025.",
+   "ty": "fact",
+   "tq": "Use the legislative-status trap: proposed legislation is not the same as enacted law.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with the relevant nuclear safety zone?",
+   "o": [
+    "Exclusion zone — up to 5 km",
+    "Sterilised zone — 1.6 km",
+    "Emergency planning zone — 16 km",
+    "Exclusion zone — 16 km"
+   ],
+   "a": 2,
+   "x": "The emergency planning zone extends to 16 km. The exclusion zone is generally quoted as 1.6 km and the sterilised zone extends up to 5 km.",
+   "ty": "match",
+   "tq": "Match each zone with its distance while avoiding reversal of the three radii.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "In the context of nuclear plant safety, the sterilised zone extending up to 5 km primarily implies that:",
+   "o": [
+    "no monitoring is required within that zone",
+    "emergency planning is limited to that zone",
+    "all reactor operations must stop beyond 5 km",
+    "population growth is curbed in that zone"
+   ],
+   "a": 3,
+   "x": "The sterilised zone extends up to 5 km and is intended to curb population growth around the reactor.",
+   "ty": "application",
+   "tq": "Apply the purpose of a safety zone rather than recalling its distance alone.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "Which principle requires exposure to ionising radiation to be kept As Low As Reasonably Achievable?",
+   "o": [
+    "PHWR",
+    "INES",
+    "ALARA",
+    "DAE"
+   ],
+   "a": 2,
+   "x": "ALARA is the radiation-protection principle requiring exposure to be kept As Low As Reasonably Achievable.",
+   "ty": "confusable",
+   "tq": "Expand the acronym and distinguish a safety principle from an institution or reactor type.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "Which of the following represents the occupational dose limits stated for radiation workers?",
+   "o": [
+    "30 mSv per year averaged over five years, 20 mSv maximum in one year, and 100 mSv cumulative",
+    "5 mSv per year averaged over five years, 20 mSv maximum in one year, and 30 mSv cumulative",
+    "20 mSv per year averaged over five years, 30 mSv maximum in one year, and 100 mSv cumulative",
+    "20 mSv maximum in one year, 30 mSv cumulative, and 100 mSv averaged over five years"
+   ],
+   "a": 2,
+   "x": "The stated limits are 20 mSv per year averaged over five years, a maximum of 30 mSv in a year, and 100 mSv cumulative.",
+   "ty": "numerical",
+   "tq": "Keep the average, annual maximum and cumulative limits in their correct order.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "The design approach that uses multiple successive layers of protection in nuclear safety is known as:",
+   "o": [
+    "Single Barrier Protection",
+    "Defence in Depth",
+    "Closed Fuel Cycle",
+    "Radiation Neutrality"
+   ],
+   "a": 1,
+   "x": "Defence in Depth is the nuclear-safety design approach based on multiple successive and independent protective layers.",
+   "ty": "fact",
+   "tq": "Identify the exact technical term from its functional description.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "Which rules specifically concern the safe disposal of radioactive wastes?",
+   "o": [
+    "Safe Disposal of Radioactive Wastes Rules, 1987",
+    "Nuclear Liability Rules, 1962",
+    "Atomic Energy Licensing Rules, 2025",
+    "Radioactive Materials Transport Rules, 1994"
+   ],
+   "a": 0,
+   "x": "The Safe Disposal of Radioactive Wastes Rules were issued in 1987.",
+   "ty": "fact",
+   "tq": "Match the regulatory subject with the exact title and year of the rules.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "The post-Fukushima 700 MW PHWRs in India are associated with which of the following features?",
+   "o": [
+    "They have no additional safety systems and permit unrestricted effluent release.",
+    "They carry advanced safety features, while effluent releases are kept below 1 per cent of AERB limits.",
+    "They are designed only for research and cannot generate electricity.",
+    "They operate without AERB licensing or inspection."
+   ],
+   "a": 1,
+   "x": "The 700 MW PHWRs include advanced post-Fukushima safety features, and effluent releases are kept below 1 per cent of AERB limits.",
+   "ty": "statements",
+   "tq": "Combine a technology feature with a quantitative safety-control fact.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "Which of the following statements regarding emergency preparedness at nuclear power plants is correct?",
+   "o": [
+    "It is required only for Level 7 accidents.",
+    "It requires only an on-site plan.",
+    "It includes both on-site and off-site emergency plans.",
+    "It requires only an off-site plan prepared by the local administration."
+   ],
+   "a": 2,
+   "x": "Nuclear emergency preparedness includes both on-site and off-site plans; it is not limited to Level 7 accidents.",
+   "ty": "application",
+   "tq": "Reject the restrictive word only and identify the two-part preparedness system.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  },
+  {
+   "s": "Consider the following statements about the Convention on Nuclear Safety:\n1. It was adopted in 1994.\n2. It entered into force in 1996.\n3. India is a party to the Convention.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The Convention was adopted in 1994, entered into force in 1996, and India is a party to it.",
+   "ty": "statements",
+   "tq": "Verify the date sequence and membership separately before selecting the combination.",
+   "sec": "Nuclear safety - AERB, exclusion zone, safety practice"
+  }
+ ]
+}

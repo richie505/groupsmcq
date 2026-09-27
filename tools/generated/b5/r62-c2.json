@@ -1,0 +1,524 @@
+{
+ "book": 5,
+ "row": 62,
+ "chunk": 2,
+ "section": "Nuclear power plants in India, NPCIL, civil nuclear agreements, nuclear liability law and safety (AERB)",
+ "subsections": [
+  "Heavy water plants - location and commissioning order",
+  "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur",
+  "Civil nuclear agreements and NSG"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following heavy water plants was commissioned in 1962?",
+   "o": [
+    "Tuticorin",
+    "Nangal",
+    "Baroda",
+    "Talcher"
+   ],
+   "a": 1,
+   "x": "Nangal in Punjab was the first heavy water plant and was commissioned in 1962.",
+   "ty": "fact",
+   "tq": "Use the commissioning year to distinguish the earliest plant from later facilities.",
+   "sec": "Heavy water plants - location and commissioning order"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Nangal — Punjab\n2. Tuticorin — Tamil Nadu\n3. Talcher — Odisha\n4. Thal — Gujarat\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Nangal is in Punjab, Tuticorin in Tamil Nadu and Talcher in Odisha. Thal is in Maharashtra, not Gujarat.",
+   "ty": "statements",
+   "tq": "Find the location swapped with a nearby plant before selecting the code.",
+   "sec": "Heavy water plants - location and commissioning order"
+  },
+  {
+   "s": "Arrange the following heavy water plants in chronological order of their commissioning:\nA. Hazira\nB. Baroda\nC. Thal\nD. Tuticorin",
+   "o": [
+    "D, B, C, A",
+    "B, D, C, A",
+    "D, C, B, A",
+    "B, C, D, A"
+   ],
+   "a": 0,
+   "x": "Tuticorin was commissioned in 1978, Baroda in 1980, Thal in 1987 and Hazira in 1991.",
+   "ty": "chronology",
+   "tq": "Place the clearly dated early and late plants first, then arrange the middle dates.",
+   "sec": "Heavy water plants - location and commissioning order"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Hazira — Gujarat — 1991",
+    "Kota (Rawatbhata) — Rajasthan — 1987",
+    "Talcher — Odisha — 1985",
+    "Baroda — Gujarat — 1980"
+   ],
+   "a": 1,
+   "x": "Kota (Rawatbhata) in Rajasthan was commissioned in 1985, whereas Thal in Maharashtra was commissioned in 1987.",
+   "ty": "negative",
+   "tq": "Check both the location and the year; the incorrect option reverses a commissioning date.",
+   "sec": "Heavy water plants - location and commissioning order"
+  },
+  {
+   "s": "Manuguru heavy water plant is presently located in which State?",
+   "o": [
+    "Maharashtra",
+    "Telangana",
+    "Odisha",
+    "Andhra Pradesh"
+   ],
+   "a": 1,
+   "x": "Manuguru was in undivided Andhra Pradesh when established, but it is presently in Telangana.",
+   "ty": "confusable",
+   "tq": "Separate the historical administrative reference from the present State location.",
+   "sec": "Heavy water plants - location and commissioning order"
+  },
+  {
+   "s": "Which one of the following is the largest heavy water plant in India?",
+   "o": [
+    "Kota",
+    "Nangal",
+    "Manuguru",
+    "Hazira"
+   ],
+   "a": 2,
+   "x": "Manuguru is identified as India's largest heavy water plant.",
+   "ty": "fact",
+   "tq": "Use the size claim carefully; do not confuse the largest plant with the first plant.",
+   "sec": "Heavy water plants - location and commissioning order"
+  },
+  {
+   "s": "All heavy water plants in India come under the administrative control of the:",
+   "o": [
+    "Atomic Energy Regulatory Board, Hyderabad",
+    "Heavy Water Board, Mumbai",
+    "Department of Science and Technology, New Delhi",
+    "Nuclear Power Corporation of India Limited, Chennai"
+   ],
+   "a": 1,
+   "x": "The heavy water plants function under the Heavy Water Board, Mumbai, which comes under the Department of Atomic Energy.",
+   "ty": "fact",
+   "tq": "Identify the specialised administrative body rather than the safety regulator or operating corporation.",
+   "sec": "Heavy water plants - location and commissioning order"
+  },
+  {
+   "s": "Trombay is associated with which of the following activities?",
+   "o": [
+    "Uranium mining under IAEA safeguards",
+    "Commercial operation of VVER-1000 reactors",
+    "Manufacture of EPR units for Jaitapur",
+    "Early heavy-water work of BARC"
+   ],
+   "a": 3,
+   "x": "Trombay hosts the early heavy-water work of the Bhabha Atomic Research Centre.",
+   "ty": "fact",
+   "tq": "Match the place with its institutional activity, not with a reactor type located elsewhere.",
+   "sec": "Heavy water plants - location and commissioning order"
+  },
+  {
+   "s": "Under the SHANTI framework, heavy-water production remains with the:",
+   "o": [
+    "International Atomic Energy Agency",
+    "State governments jointly",
+    "Government",
+    "Private sector exclusively"
+   ],
+   "a": 2,
+   "x": "The SHANTI framework retains heavy-water production with the Government.",
+   "ty": "application",
+   "tq": "Ask who retains the authority when a policy changes the institutional framework.",
+   "sec": "Heavy water plants - location and commissioning order"
+  },
+  {
+   "s": "Which one of the following correctly describes the Kudankulam Nuclear Power Project?",
+   "o": [
+    "A Russia-assisted project using VVER-1000 reactors",
+    "A USA-assisted project using AP1000 reactors",
+    "A France-assisted project using six EPR units",
+    "A Canada-assisted project using PHWRs"
+   ],
+   "a": 0,
+   "x": "Kudankulam is associated with Russia and uses VVER-1000 reactors.",
+   "ty": "fact",
+   "tq": "Match the project with both its foreign partner and reactor technology.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "The agreement associated with the Kudankulam project was signed in:",
+   "o": [
+    "1978",
+    "1988",
+    "1998",
+    "2008"
+   ],
+   "a": 1,
+   "x": "The India-USSR agreement associated with Kudankulam was signed in 1988.",
+   "ty": "numerical",
+   "tq": "Distinguish the project agreement year from later commissioning and civil nuclear agreement years.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "Consider the following statements regarding delays in the Kudankulam project:\n1. The disintegration of the USSR delayed the project.\n2. Civil-society protests contributed to the delay.\n3. The economic crisis of 1991 is counted as a reason for the delay.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The breakup of the USSR and civil-society protests are counted among the delays. The 1991 economic crisis is not included in the stated explanation.",
+   "ty": "statements",
+   "tq": "Reject the plausible but specifically excluded cause in the list of delays.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "The first two operating units of Kudankulam are best described as:",
+   "o": [
+    "Two 700 MW PHWR units operating from 2011 and 2013",
+    "Two 1,000 MW AP1000 units operating from 2016 and 2018",
+    "Two 1,000 MW VVER units operating from 2013 and 2016",
+    "Two 1,200 MW EPR units operating from 2013 and 2016"
+   ],
+   "a": 2,
+   "x": "Kudankulam Units 1 and 2 are 1,000 MW VVER reactors that became operational in 2013 and 2016 respectively.",
+   "ty": "numerical",
+   "tq": "Check reactor type, unit capacity and operating years together rather than relying on one figure.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "How many additional units of the Kudankulam project were under construction, apart from its two operating units?",
+   "o": [
+    "Six",
+    "Two",
+    "Four",
+    "Three"
+   ],
+   "a": 2,
+   "x": "Four additional units, Units 3 to 6, were being built after the first two operating units.",
+   "ty": "numerical",
+   "tq": "Separate the total planned units from the number of additional units under construction.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "Which one of the following correctly matches Kovvada?",
+   "o": [
+    "Andhra Pradesh — USA — AP1000 PWRs",
+    "Andhra Pradesh — Russia — VVER-1000 reactors",
+    "Maharashtra — France — EPR units",
+    "Tamil Nadu — Canada — PHWRs"
+   ],
+   "a": 0,
+   "x": "Kovvada in Andhra Pradesh is associated with the United States and AP1000 pressurised water reactors. Its capacity and unit details had not been finalised.",
+   "ty": "match",
+   "tq": "Start with the sure project-state pair and then verify the foreign partner and reactor type.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "With reference to the Kovvada project, which of the following is correct?",
+   "o": [
+    "Its six EPR units have a planned capacity of 9,900 MW.",
+    "Its first two VVER units began operation in 2013 and 2016.",
+    "It is a Canada-assisted PHWR project.",
+    "Its AP1000 reactor capacity and unit details are still to be finalised."
+   ],
+   "a": 3,
+   "x": "Kovvada is planned with US AP1000 PWR technology, but its capacity and number of units were still to be finalised.",
+   "ty": "fact",
+   "tq": "Use the unresolved status as the discriminating detail among otherwise similar foreign-assisted projects.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "Jaitapur Nuclear Power Project is associated with which combination?",
+   "o": [
+    "Maharashtra, France, EDF and six EPR units",
+    "Andhra Pradesh, USA, Westinghouse and six AP1000 units",
+    "Tamil Nadu, Russia, Rosatom and six VVER units",
+    "Gujarat, Canada, AECL and six PHWR units"
+   ],
+   "a": 0,
+   "x": "Jaitapur is located in Maharashtra and is associated with France's EDF and six EPR units.",
+   "ty": "match",
+   "tq": "Match the project by combining location, partner company and reactor design.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "The planned installed capacity of the six EPR units at Jaitapur is:",
+   "o": [
+    "10,800 MW",
+    "12,000 MW",
+    "9,900 MW",
+    "6,000 MW"
+   ],
+   "a": 2,
+   "x": "The six planned EPR units at Jaitapur have an aggregate planned capacity of 9,900 MW.",
+   "ty": "numerical",
+   "tq": "Distinguish the aggregate project capacity from the number of reactor units.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "Jaitapur has been planned as the world's largest nuclear power plant mainly because of its proposed:",
+   "o": [
+    "Four AP1000 units of 4,000 MW",
+    "Two VVER units of 2,000 MW",
+    "Ten PHWR units totalling 7,000 MW",
+    "Six EPR units totalling 9,900 MW"
+   ],
+   "a": 3,
+   "x": "Jaitapur is planned with six EPR units having a total capacity of 9,900 MW, making it the proposed world's largest nuclear power plant.",
+   "ty": "fact",
+   "tq": "Link the superlative claim with the precise unit count and capacity.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "The Industrial Way Forward Agreement relating to Jaitapur was signed between NPCIL and EDF in:",
+   "o": [
+    "June 2022",
+    "March 2018",
+    "December 2014",
+    "September 2008"
+   ],
+   "a": 1,
+   "x": "NPCIL and France's EDF signed the Industrial Way Forward Agreement for Jaitapur in March 2018.",
+   "ty": "numerical",
+   "tq": "Separate the project-specific agreement year from the broader civil nuclear agreement year.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "Which of the following correctly describes the DAE–Rosatom Strategic Vision of December 2014?",
+   "o": [
+    "It created the India-Australia uranium arrangement.",
+    "It provided for six EPR units at Jaitapur.",
+    "It established India's membership of the NSG.",
+    "It set out the development of more than twelve Kudankulam-related units."
+   ],
+   "a": 3,
+   "x": "The DAE–Rosatom Strategic Vision of December 2014 set out plans for 12 or more units associated with the Russian cooperation framework.",
+   "ty": "fact",
+   "tq": "Identify the correct institution and partner instead of confusing it with a site-specific or trade agreement.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "A reported ransomware leak involving Kudankulam concerned approximately 19,000 or more files. NPCIL stated that these files related to:",
+   "o": [
+    "The entire national nuclear database",
+    "Nuclear safety systems and reactor-control software",
+    "India's nuclear weapons programme",
+    "Balance-of-plant facilities, not nuclear safety systems"
+   ],
+   "a": 3,
+   "x": "NPCIL stated that the leaked files concerned balance-of-plant facilities and not nuclear safety systems.",
+   "ty": "application",
+   "tq": "Distinguish the scope of an incident from the more alarming but unsupported extreme claim.",
+   "sec": "Foreign-assisted projects - Kudankulam, Kovvada, Jaitapur"
+  },
+  {
+   "s": "Which agreement is commonly known as the India-US 123 Agreement?",
+   "o": [
+    "The 2008 civil nuclear agreement with the United States",
+    "The 2016 nuclear agreement with Japan",
+    "The 1988 reactor agreement with Russia",
+    "The 2014 uranium agreement with Australia"
+   ],
+   "a": 0,
+   "x": "The India-US civil nuclear cooperation arrangement concluded in 2008 is known as the 123 Agreement.",
+   "ty": "confusable",
+   "tq": "Separate the numbered US agreement from the year-based agreements with other partners.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "Consider the following pairs:\n1. France — Civil nuclear agreement of 30 September 2008\n2. Japan — Civil nuclear agreement of 2016\n3. Australia — Nuclear agreement of 2014\n4. Canada — Agreement for 10,000 tonnes of uranium during 2027–2035\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. France's agreement included a lifetime fuel-supply guarantee, while the Canada arrangement concerns 10,000 tonnes of uranium for 2027–2035.",
+   "ty": "statements",
+   "tq": "Verify each partner-year or partner-quantity pair before choosing the comprehensive code.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "Which country was the first to conclude a civil nuclear agreement with India after the NSG waiver of 2008?",
+   "o": [
+    "Japan",
+    "France",
+    "Russia",
+    "United States"
+   ],
+   "a": 1,
+   "x": "France was the first country to conclude a post-waiver civil nuclear agreement with India, on 30 September 2008.",
+   "ty": "fact",
+   "tq": "Use the word FIRST to distinguish the earliest post-waiver agreement from later famous agreements.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "The lifetime fuel-supply guarantee associated with India's civil nuclear cooperation was provided by:",
+   "o": [
+    "France",
+    "Canada",
+    "Japan",
+    "Australia"
+   ],
+   "a": 0,
+   "x": "France's civil nuclear agreement with India included a lifetime fuel-supply guarantee.",
+   "ty": "fact",
+   "tq": "Match the distinctive contractual provision with the correct partner.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "Which one of the following correctly represents Australia's nuclear cooperation with India?",
+   "o": [
+    "Agreement signed in 2014 and in force from 2015; uranium supplied under IAEA safeguards",
+    "Agreement signed in 2008 and in force from 2009; uranium supplied without safeguards",
+    "Agreement signed in 2016 and in force from 2017; EPR technology supplied",
+    "Agreement signed in 1988 and in force from 1991; VVER technology supplied"
+   ],
+   "a": 0,
+   "x": "Australia signed the agreement in 2014, it entered into force in 2015, and Australian uranium is supplied under IAEA safeguards.",
+   "ty": "statements",
+   "tq": "Check the sequence of signature, entry into force and safeguard condition.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "India's agreement with Japan for civil nuclear cooperation dates from:",
+   "o": [
+    "2008",
+    "2014",
+    "2016",
+    "2020"
+   ],
+   "a": 2,
+   "x": "India's civil nuclear agreement with Japan dates from 2016.",
+   "ty": "numerical",
+   "tq": "Distinguish the Japan year from the 2008 US and France agreements and the 2014 Australia agreement.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "Under the Canada-related arrangement, India is to receive approximately how much uranium during 2027–2035?",
+   "o": [
+    "1,000 tonnes",
+    "5,000 tonnes",
+    "10,000 tonnes",
+    "18,000 tonnes"
+   ],
+   "a": 2,
+   "x": "The Canada arrangement provides for 10,000 tonnes of uranium during 2027–2035 for safeguarded PHWRs.",
+   "ty": "numerical",
+   "tq": "Read the quantity and time period together to avoid confusing the arrangement with other uranium supplies.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "The uranium supplied under the Canada arrangement is intended for:",
+   "o": [
+    "EPR units at Jaitapur only",
+    "Safeguarded PHWRs",
+    "Unregulated military reactors",
+    "AP1000 units at Kovvada only"
+   ],
+   "a": 1,
+   "x": "The 10,000-tonne Canadian uranium arrangement is intended for safeguarded pressurised heavy water reactors.",
+   "ty": "application",
+   "tq": "Identify the specified end-use rather than selecting a reactor project merely associated with foreign cooperation.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "The NSG waiver granted to India in September 2008 primarily:",
+   "o": [
+    "Made India a full member of the NSG",
+    "Ended India's cooperation with the IAEA",
+    "Placed all Indian reactors under military control",
+    "Ended 34 years of India's exclusion from nuclear trade"
+   ],
+   "a": 3,
+   "x": "The September 2008 NSG waiver ended India's 34-year exclusion from international nuclear trade; it did not make India an NSG member.",
+   "ty": "confusable",
+   "tq": "Separate an NSG waiver from full membership, a commonly confused distinction.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "Which statement regarding India's position in the Nuclear Suppliers Group is correct?",
+   "o": [
+    "India is a founding member of the NSG through the 1988 accord.",
+    "India is not yet a member; China objects mainly on NPT-related grounds.",
+    "India is a full member and has no role in export rules.",
+    "India withdrew from the NSG after the 2008 waiver."
+   ],
+   "a": 1,
+   "x": "India is not yet an NSG member, and China's objection is linked to India's non-party status under the NPT. Membership would provide a say in export rules and assured technology access.",
+   "ty": "fact",
+   "tq": "Do not confuse access created by the waiver with formal membership of the export-control group.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "Arrange the following countries in descending order of the dates of India's civil nuclear agreements, beginning with the most recent:\nA. Japan\nB. Australia\nC. France\nD. United States",
+   "o": [
+    "A, B, D, C",
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, D, B, C"
+   ],
+   "a": 1,
+   "x": "Japan's agreement was in 2016, Australia's in 2014, and France and the United States had agreements in 2008; the listed sequence follows the stated ordering with France placed before the United States in the source sequence.",
+   "ty": "chronology",
+   "tq": "Arrange the unambiguous recent years first and then distinguish the two 2008 agreements by the listed agreement chronology.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "India has Inter-Governmental Agreements for nuclear cooperation with how many countries?",
+   "o": [
+    "18",
+    "16",
+    "twenty",
+    "14"
+   ],
+   "a": 0,
+   "x": "India is stated to have Inter-Governmental Agreements with 18 countries for nuclear cooperation.",
+   "ty": "numerical",
+   "tq": "Use the exact count rather than substituting it with the number of NSG-related partner countries.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "Which statement about Australia is correct?",
+   "o": [
+    "It supplies uranium only for unsafeguarded military reactors.",
+    "It holds nearly all of the world's uranium resources.",
+    "It holds over one-third of the world's uranium resources.",
+    "It has no uranium resources but supplies reactor technology."
+   ],
+   "a": 2,
+   "x": "Australia holds over one-third of the world's uranium resources and supplies uranium to India under safeguards.",
+   "ty": "fact",
+   "tq": "Handle the resource-share statement precisely; reject exaggerated words such as 'all'.",
+   "sec": "Civil nuclear agreements and NSG"
+  },
+  {
+   "s": "The Administrative Arrangement concerning Australian uranium cooperation with India was finalised at the:",
+   "o": [
+    "First Annual Summit between India and Australia",
+    "NSG waiver meeting of September 2008",
+    "Third Annual Summit between India and Australia",
+    "Second Annual Summit between India and Australia"
+   ],
+   "a": 2,
+   "x": "The Administrative Arrangement was finalised at the third Annual Summit between India and Australia.",
+   "ty": "fact",
+   "tq": "Match the arrangement with the specific summit number, not with the earlier agreement year.",
+   "sec": "Civil nuclear agreements and NSG"
+  }
+ ]
+}

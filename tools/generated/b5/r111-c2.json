@@ -1,0 +1,344 @@
+{
+ "book": 5,
+ "row": 111,
+ "chunk": 2,
+ "section": "Genetic engineering - recombinant DNA, GM crops (Bt cotton, Bt brinjal, GM mustard), gene editing/CRISPR",
+ "subsections": [
+  "Effects on non-target organisms",
+  "Illegal herbicide-tolerant Bt cotton",
+  "Transgenic animals and microbes - GM mosquitoes, GM fish",
+  "Claimed environmental benefits",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 23,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following may be adversely affected by Bt toxins or other engineered traits?\n1. Pollinators\n2. Natural enemies of pests\n3. Soil nematodes and microbes\n4. Aquatic organisms\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4",
+    "3 and 4 only"
+   ],
+   "a": 2,
+   "x": "Bt toxins or other engineered traits may affect beneficial insects such as pollinators and natural enemies, soil nematodes and microbes, and aquatic organisms.",
+   "ty": "statements",
+   "tq": "Use an all-inclusive option when each listed ecological group is affected by the same broad concern.",
+   "sec": "Effects on non-target organisms"
+  },
+  {
+   "s": "With reference to Bt proteins in agricultural soil, which one of the following statements is correct?",
+   "o": [
+    "They can be removed only by burning the crop residue.",
+    "Experiments have shown that they degrade in soil.",
+    "They are converted into glyphosate in soil.",
+    "They remain permanently active in soil after harvest."
+   ],
+   "a": 1,
+   "x": "Although persistence of Bt proteins in soil was feared, experiments have shown that they degrade in soil.",
+   "ty": "fact",
+   "tq": "Distinguish an experimentally established finding from an earlier environmental fear.",
+   "sec": "Effects on non-target organisms"
+  },
+  {
+   "s": "Consider the following statements regarding HTBt cotton:\n1. It combines glyphosate tolerance with the Bt trait.\n2. It has been approved for commercial cultivation throughout India.\n3. Its approval has been pending because of weed-management and socio-economic concerns.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "HTBt cotton combines glyphosate tolerance with the Bt trait, but it is not approved in India. Approval has remained pending over weed-management and socio-economic concerns.",
+   "ty": "statements",
+   "tq": "Identify the false approval claim by checking the regulatory status and the stated reasons for delay.",
+   "sec": "Illegal herbicide-tolerant Bt cotton"
+  },
+  {
+   "s": "Why has the use of herbicide-tolerant crops, including HTBt cotton, been criticised?",
+   "o": [
+    "They eliminate the need for all forms of weed management.",
+    "They encourage intensive use of glyphosate.",
+    "They prevent the cultivation of drought-tolerant crops.",
+    "They convert Bt toxins into soil nutrients."
+   ],
+   "a": 1,
+   "x": "Herbicide-tolerant crops may encourage heavy glyphosate use, which is a major environmental and agricultural concern.",
+   "ty": "application",
+   "tq": "Link the crop trait to its practical consequence rather than recalling the crop name alone.",
+   "sec": "Illegal herbicide-tolerant Bt cotton"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Punjab — Ban on glyphosate sale in 2018",
+    "Punjab — Approval of HTBt cotton in 2018",
+    "India — Commercial release of HTBt cotton in 2018",
+    "PAU — Ban on all Bt crops in 2018"
+   ],
+   "a": 0,
+   "x": "Punjab banned the sale of glyphosate in 2018. Activists have also opposed HT maize trials on the ground that herbicide-tolerant crops encourage glyphosate use.",
+   "ty": "match",
+   "tq": "Start with the sure location-year pair and reject options that change a ban into an approval.",
+   "sec": "Illegal herbicide-tolerant Bt cotton"
+  },
+  {
+   "s": "Genetically modified mosquitoes have primarily been developed with which of the following objectives?\n1. Suppressing mosquito populations\n2. Blocking transmission of malaria, dengue or Zika\n3. Increasing the reproductive success of disease vectors\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "GM mosquitoes may be engineered either to suppress mosquito populations or to block transmission of diseases such as malaria, dengue and Zika. Increasing disease-vector reproduction is not an intended objective.",
+   "ty": "statements",
+   "tq": "Separate intended public-health applications from the reversed biological effect.",
+   "sec": "Transgenic animals and microbes - GM mosquitoes, GM fish"
+  },
+  {
+   "s": "The term “super-Mendelian inheritance” in the context of gene drives refers to",
+   "o": [
+    "inheritance in which all engineered genes are permanently deleted",
+    "inheritance restricted to only the male offspring",
+    "inheritance in which a trait spreads through a wild population at a rate greater than ordinary Mendelian inheritance",
+    "inheritance occurring only in laboratory microbes"
+   ],
+   "a": 2,
+   "x": "A gene drive produces super-Mendelian inheritance, allowing an engineered trait to spread through a wild population more rapidly than ordinary Mendelian inheritance.",
+   "ty": "fact",
+   "tq": "Break the technical term into its defining population-genetics consequence.",
+   "sec": "Transgenic animals and microbes - GM mosquitoes, GM fish"
+  },
+  {
+   "s": "Which of the following is a distinctive concern associated with gene-drive mosquitoes?",
+   "o": [
+    "The released trait can be recalled easily by stopping pesticide application.",
+    "The trait may spread through wild populations and there is no simple recall mechanism.",
+    "The technology is incapable of affecting mosquito populations.",
+    "The trait remains confined to the laboratory by definition."
+   ],
+   "a": 1,
+   "x": "Gene drives may spread a trait through wild populations, potentially causing population collapse or producing malaria-resistant mosquitoes. Unlike pesticide use, there is no simple recall mechanism.",
+   "ty": "application",
+   "tq": "Test the practical implication of an irreversible or difficult-to-recall intervention.",
+   "sec": "Transgenic animals and microbes - GM mosquitoes, GM fish"
+  },
+  {
+   "s": "AquAdvantage is associated with",
+   "o": [
+    "a gene-drive mosquito strain",
+    "a fast-growing transgenic salmon",
+    "a glyphosate-tolerant cotton variety",
+    "a drought-tolerant rice variety"
+   ],
+   "a": 1,
+   "x": "AquAdvantage is a fast-growing transgenic salmon. Escapees may pose a risk by competing with wild fish stocks.",
+   "ty": "fact",
+   "tq": "Use the named-product and organism association to distinguish among transgenic applications.",
+   "sec": "Transgenic animals and microbes - GM mosquitoes, GM fish"
+  },
+  {
+   "s": "The principal ecological concern regarding escape of AquAdvantage salmon is that they may",
+   "o": [
+    "prevent gene flow among mosquitoes",
+    "out-compete wild fish stocks",
+    "increase glyphosate residues in water",
+    "spread Bt cotton pollen"
+   ],
+   "a": 1,
+   "x": "Escapees of fast-growing transgenic salmon may out-compete wild fish stocks, creating an ecological risk.",
+   "ty": "application",
+   "tq": "Match the organism-specific risk with the relevant ecological interaction.",
+   "sec": "Transgenic animals and microbes - GM mosquitoes, GM fish"
+  },
+  {
+   "s": "Bt cotton has been claimed to reduce pesticide use by approximately",
+   "o": [
+    "40–50 percent",
+    "10–20 percent",
+    "70–80 percent",
+    "20–30 percent"
+   ],
+   "a": 0,
+   "x": "The claimed reduction in pesticide use associated with Bt cotton is approximately 40–50 percent.",
+   "ty": "numerical",
+   "tq": "Use the nearest quantitative range while rejecting wider or narrower invented ranges.",
+   "sec": "Claimed environmental benefits"
+  },
+  {
+   "s": "Which of the following are claimed environmental benefits or applications of genetically engineered crops?\n1. Reduced pesticide use through Bt cotton\n2. Herbicide tolerance\n3. Drought tolerance\n4. Stress tolerance through genome-edited crops\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The claimed benefits include reduced pesticide use in Bt cotton, herbicide tolerance, drought tolerance and stress tolerance achieved through genome editing.",
+   "ty": "statements",
+   "tq": "Recognise that the broad benefits listed belong to different genetic-engineering or genome-editing approaches.",
+   "sec": "Claimed environmental benefits"
+  },
+  {
+   "s": "Pusa Rice DST1 has been developed to provide tolerance to",
+   "o": [
+    "only glyphosate exposure",
+    "frost and heavy snowfall",
+    "only insect attack",
+    "drought and salinity"
+   ],
+   "a": 3,
+   "x": "Genome-edited Pusa Rice DST1 is associated with drought and salinity tolerance and has shown higher yield under stress conditions.",
+   "ty": "fact",
+   "tq": "Distinguish a combined stress-tolerance trait from single-trait pest or herbicide resistance.",
+   "sec": "Claimed environmental benefits"
+  },
+  {
+   "s": "Under stress conditions, Pusa Rice DST1 has been reported to provide approximately what increase in yield?",
+   "o": [
+    "40–50 percent",
+    "10–30 percent",
+    "70–90 percent",
+    "1–5 percent"
+   ],
+   "a": 1,
+   "x": "Pusa Rice DST1 has been reported to provide a yield increase of approximately 10–30 percent under drought or salinity stress.",
+   "ty": "numerical",
+   "tq": "Select the stated middle-range figure rather than an exaggerated percentage.",
+   "sec": "Claimed environmental benefits"
+  },
+  {
+   "s": "Which one of the following statements regarding mutation breeding is correct?",
+   "o": [
+    "It is necessarily a transgenic technique involving foreign genes.",
+    "It is a non-GMO approach, and 71 Trombay varieties have been associated with climate resilience.",
+    "It is restricted to the production of GM mosquitoes.",
+    "It was used only for developing AquAdvantage salmon."
+   ],
+   "a": 1,
+   "x": "Mutation breeding is a non-GMO approach. Seventy-one Trombay varieties are associated with climate resilience.",
+   "ty": "fact",
+   "tq": "Discriminate between non-GMO mutation breeding and transgenic engineering.",
+   "sec": "Claimed environmental benefits"
+  },
+  {
+   "s": "Which one of the following is correctly matched with Pusa Rice DST1?",
+   "o": [
+    "Edited version of MTU1010 — rice bred at Maruteru in Andhra Pradesh",
+    "Transgenic version of AquAdvantage — salmon bred in Punjab",
+    "Bt version of IR8 — rice bred in Colombia",
+    "Gene-drive version of MTU1010 — mosquito bred in Maruteru"
+   ],
+   "a": 0,
+   "x": "Pusa Rice DST1 is an edited version of MTU1010, an Andhra Pradesh-bred rice variety associated with Maruteru.",
+   "ty": "match",
+   "tq": "Combine the crop identity, source variety and regional association in one precise match.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. First GMO\nB. First recombinant-DNA-produced insulin\nC. First GM crop cultivated in India\nD. Proposed commercial launch of India’s first genome-edited rice Pusa Rice DST1",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "C, A, B, D"
+   ],
+   "a": 0,
+   "x": "The sequence is first GMO in 1973, first recombinant-DNA-produced insulin, Bt cotton as India’s first GM crop in 2002, and the proposed commercial launch of Pusa Rice DST1 in 2026.",
+   "ty": "chronology",
+   "tq": "Fix the first and last developments first, then place the two intermediate biotechnology milestones.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following represents the correct sequence of the three milestones?\n1. First GMO — 1973\n2. First recombinant-DNA-produced insulin\n3. First GM crop in India — Bt cotton, 2002\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3",
+    "2, 1 and 3",
+    "3, 1 and 2",
+    "1, 3 and 2"
+   ],
+   "a": 0,
+   "x": "The first GMO dates to 1973, recombinant-DNA-produced insulin followed, and Bt cotton became the first GM crop in India in 2002.",
+   "ty": "statements",
+   "tq": "Use fixed milestone dates to establish the chronological order without confusing global and Indian firsts.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "ContactSeek, reported in the context of developments in genome editing, is associated with",
+   "o": [
+    "base editing",
+    "gene-bank storage of seeds",
+    "mutation breeding of fish",
+    "conventional pesticide spraying"
+   ],
+   "a": 0,
+   "x": "ContactSeek is associated with base editing and was reported as a genome-editing development in July 2026.",
+   "ty": "fact",
+   "tq": "Identify the specific technology associated with a current biotechnology term.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following best describes the public debate surrounding genetic engineering?",
+   "o": [
+    "Societies reject gene therapy but universally accept GM crops.",
+    "GM crops are not grown or traded anywhere in the world.",
+    "Public debate is limited only to animal cloning.",
+    "Societies generally accept gene therapy but often resist GM crops."
+   ],
+   "a": 3,
+   "x": "A noted criticism is that societies tend to accept gene therapy while resisting GM crops, even though GM maize, soy, cotton and canola are widely grown and traded.",
+   "ty": "comparison",
+   "tq": "Test the contrast between public acceptance of medical applications and resistance to agricultural applications.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following crops are stated to be widely grown and traded as genetically modified crops?\n1. Maize\n2. Soy\n3. Cotton\n4. Canola\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4",
+    "3 and 4 only"
+   ],
+   "a": 2,
+   "x": "GM maize, soy, cotton and canola are stated to be grown and traded widely, despite continuing public resistance in some societies.",
+   "ty": "statements",
+   "tq": "Use the all-inclusive code when every listed crop belongs to the stated group.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The GEAC cleared confined trials of Bayer’s HT plus insect-resistant GM maize at PAU during",
+   "o": [
+    "Kharif 2023",
+    "Rabi 2025",
+    "Kharif 2024",
+    "Kharif 2025"
+   ],
+   "a": 3,
+   "x": "GEAC cleared confined trials of Bayer’s herbicide-tolerant and insect-resistant GM maize at PAU during Kharif 2025.",
+   "ty": "fact",
+   "tq": "Distinguish the crop season and year in a regulatory current-affairs fact.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to the Cartagena Protocol on Biosafety, consider the following statements:\n1. It was adopted in 2000.\n2. It entered into force in 2003.\n3. It governs the transboundary movement of living modified organisms.\n4. India is a party to it.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The Cartagena Protocol was adopted in 2000, entered into force in 2003, governs transboundary movement of living modified organisms, and India is a party to it.",
+   "ty": "statements",
+   "tq": "Check each date, subject matter and membership statement before selecting the complete combination.",
+   "sec": "Universal angles"
+  }
+ ]
+}

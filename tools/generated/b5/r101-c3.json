@@ -1,0 +1,158 @@
+{
+ "book": 5,
+ "row": 101,
+ "chunk": 3,
+ "section": "Water pollution - sources, eutrophication, Namami Gange, sewage treatment, groundwater contamination (arsenic, fluoride)",
+ "subsections": [
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 11,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The National Fluorosis Day workshop referred to in the context of water-quality concerns in India is scheduled for which date?",
+   "o": [
+    "27 June 2026",
+    "9 September 2026",
+    "15 March 2026",
+    "10 August 2026"
+   ],
+   "a": 1,
+   "x": "The National Fluorosis Day workshop is scheduled for 9 September 2026.",
+   "ty": "numerical",
+   "tq": "Use the exact-date distinction among closely related environmental events.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which institution’s 2025 assessment was associated with flagging Andhra Pradesh in relation to groundwater concerns?",
+   "o": [
+    "National Green Tribunal",
+    "Central Pollution Control Board",
+    "Central Ground Water Board",
+    "National Mission for Clean Ganga"
+   ],
+   "a": 2,
+   "x": "The Central Ground Water Board (CGWB) was associated with the 2025 assessment flagging Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Identify the correct institutional authority rather than a neighbouring environmental body.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following groups comprises the main water-polluting sectors identified in Andhra Pradesh?",
+   "o": [
+    "Steel plants, textile mills, sugar factories and oil refineries",
+    "Fertiliser plants, automobile units, ports and food-processing units",
+    "Pharma City at Visakhapatnam, tanneries, paper mills and aquaculture",
+    "Coal mines, cement plants, thermal stations and shipyards"
+   ],
+   "a": 2,
+   "x": "The identified major water-polluting sources in Andhra Pradesh are Pharma City at Visakhapatnam, tanneries, paper mills and aquaculture.",
+   "ty": "fact",
+   "tq": "Test a complete sectoral list and avoid substituting nearby industrial categories.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The clean-up of which river has been linked with preparations for the 2027 Pushkarams?",
+   "o": [
+    "Godavari",
+    "Krishna",
+    "Pennar",
+    "Tungabhadra"
+   ],
+   "a": 0,
+   "x": "The Godavari clean-up has been linked with preparations for the 2027 Pushkarams.",
+   "ty": "fact",
+   "tq": "Apply the river–event association without confusing it with other Andhra Pradesh rivers.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Namami Gange model has been proposed for application to which basin?",
+   "o": [
+    "Pennar basin",
+    "Vamsadhara basin",
+    "Godavari basin",
+    "Krishna basin"
+   ],
+   "a": 2,
+   "x": "The Namami Gange model has been applied or proposed as a model for the Godavari basin.",
+   "ty": "fact",
+   "tq": "Use the model-to-basin association and reject geographically nearby distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding the NMCG order of 10 August 2026:\n1. It replaced the total ban on construction across the flood plain.\n2. It introduced approval-based rules for areas outside the “active flood plain”.\n3. It imposed an absolute construction ban throughout every part of the flood plain.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the order replaced the total ban with approval-based rules outside the active flood plain.",
+   "ty": "statements",
+   "tq": "Find the false statement created by reversing an approval-based rule into an absolute prohibition.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. NGT held the Varanasi Tent City to have violated norms.\nB. The Supreme Court sought the status of encroachments on the Ganga bank.\nC. Godavari clean-up was reported in connection with the 2027 Pushkarams.\nD. The NMCG issued its order concerning construction in the flood plain.",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, B, A, C"
+   ],
+   "a": 0,
+   "x": "The events occurred in the order: 10 January 2026, 15 March 2026, 27 June 2026 and 10 August 2026.",
+   "ty": "chronology",
+   "tq": "Anchor the sequence using the earliest and latest dates before placing the middle events.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements is correct?",
+   "o": [
+    "The National Green Tribunal held that the Varanasi Tent City violated norms.",
+    "The Supreme Court directed that the Godavari clean-up be completed after the 2027 Pushkarams.",
+    "The NMCG order of 10 August 2026 retained a total ban on all flood-plain construction.",
+    "The Supreme Court held the Varanasi Tent City to be compliant with all applicable norms."
+   ],
+   "a": 0,
+   "x": "The National Green Tribunal held on 10 January 2026 that the Varanasi Tent City violated norms.",
+   "ty": "negative",
+   "tq": "Separate the authority and finding carefully; the neighbouring bodies and outcomes are swapped in the distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following criticisms has been associated with the implementation of the Namami Gange Programme?\n1. Capacity mismatch\n2. Top-down implementation\n3. Inadequate river-basin planning\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three are identified criticisms: capacity mismatch, top-down execution and inadequate attention to river-basin planning.",
+   "ty": "statements",
+   "tq": "Recognise the cluster of implementation criticisms rather than treating them as unrelated objections.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Assertion (A): The Godavari has become a focus of river-clean-up measures in Andhra Pradesh before the 2027 Pushkarams.\nReason (R): The Namami Gange model has been applied as a model for the Godavari basin.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 1,
+   "x": "Both statements are true, but the adoption of the Namami Gange model is a related policy development and is not stated as the reason for the timing of the Godavari clean-up before the 2027 Pushkarams.",
+   "ty": "assertion_reason",
+   "tq": "Distinguish between two related true facts and test whether the reason directly explains the assertion.",
+   "sec": "Universal angles"
+  }
+ ]
+}

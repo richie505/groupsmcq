@@ -1,0 +1,314 @@
+{
+ "book": 5,
+ "row": 87,
+ "chunk": 6,
+ "section": "Conservation - in-situ (protected areas, biosphere reserves) and ex-situ (zoos, gene banks, seed banks)",
+ "subsections": [
+  "BRs spanning more than one state",
+  "BR vs national park vs sanctuary",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 21,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following Biosphere Reserves is spread across three States and is the only three-State Biosphere Reserve in India?",
+   "o": [
+    "Seshachalam Biosphere Reserve",
+    "Nilgiri Biosphere Reserve",
+    "Agasthyamalai Biosphere Reserve",
+    "Achanakmar-Amarkantak Biosphere Reserve"
+   ],
+   "a": 1,
+   "x": "The Nilgiri Biosphere Reserve extends across Tamil Nadu, Kerala and Karnataka and is India's only three-State Biosphere Reserve.",
+   "ty": "fact",
+   "tq": "Use the unique-number clue and distinguish the three-State reserve from two-State reserves.",
+   "sec": "BRs spanning more than one state"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below.\n\nList-I (Biosphere Reserve)\na. Nilgiri\nb. Agasthyamalai\nc. Achanakmar-Amarkantak\n\na. Nilgiri\n\nList-II (States covered)\ni. Madhya Pradesh and Chhattisgarh\nii. Kerala and Tamil Nadu\niii. Tamil Nadu, Kerala and Karnataka\n\nThe correct matching is:",
+   "o": [
+    "a–iii, b–ii, c–i",
+    "a–ii, b–iii, c–i",
+    "a–iii, b–i, c–ii",
+    "a–i, b–ii, c–iii"
+   ],
+   "a": 0,
+   "x": "Nilgiri covers Tamil Nadu, Kerala and Karnataka; Agasthyamalai covers Kerala and Tamil Nadu; Achanakmar-Amarkantak covers Madhya Pradesh and Chhattisgarh.",
+   "ty": "match",
+   "tq": "Start with the sure pair linking Achanakmar-Amarkantak to Madhya Pradesh and Chhattisgarh.",
+   "sec": "BRs spanning more than one state"
+  },
+  {
+   "s": "Consider the following statements regarding Biosphere Reserves, National Parks and Wildlife Sanctuaries:\n1. A Biosphere Reserve is associated with UNESCO's Man and the Biosphere Programme, but such recognition does not by itself change the legal status or ownership of land.\n2. National Parks are established under the Wildlife Protection Act, 1972, through State notification.\n3. Wildlife Sanctuaries are established only through UNESCO notification.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Wildlife Sanctuaries are notified by the State under the Wildlife Protection Act, 1972; UNESCO does not notify them.",
+   "ty": "statements",
+   "tq": "Find the wrong authority in statement 3 and separate UNESCO recognition from statutory notification.",
+   "sec": "BR vs national park vs sanctuary"
+  },
+  {
+   "s": "Which one of the following correctly describes the position of human rights and grazing in the three categories of protected areas?",
+   "o": [
+    "Settlements are prohibited in every zone of a Biosphere Reserve; National Parks permit grazing; Wildlife Sanctuaries permit unrestricted grazing.",
+    "National Parks and Wildlife Sanctuaries provide identical rights, while Biosphere Reserves permit no settlements.",
+    "Settlements are allowed in the transition zone of a Biosphere Reserve; National Parks permit no rights or grazing; grazing in a Wildlife Sanctuary is regulated by the Chief Wildlife Warden.",
+    "Settlements are allowed throughout National Parks; Biosphere Reserves prohibit all human use; grazing in Wildlife Sanctuaries is regulated by UNESCO."
+   ],
+   "a": 2,
+   "x": "Settlements may exist in the transition zone of a Biosphere Reserve. National Parks provide no rights and no grazing, while some rights exist in sanctuaries and grazing is regulated by the Chief Wildlife Warden.",
+   "ty": "comparison",
+   "tq": "Compare the authorities and the degree of human-use restriction rather than treating all protected areas alike.",
+   "sec": "BR vs national park vs sanctuary"
+  },
+  {
+   "s": "With reference to the boundaries of protected areas, which one of the following is correctly matched?",
+   "o": [
+    "National Park — boundaries are not clearly demarcated",
+    "Biosphere Reserve — zoned into core, buffer and transition areas",
+    "Biosphere Reserve — only a single undivided core zone",
+    "Wildlife Sanctuary — boundaries are always strictly specified"
+   ],
+   "a": 1,
+   "x": "A Biosphere Reserve is organised into core, buffer and transition zones. National Parks are clearly demarcated, whereas sanctuary boundaries are not strictly specified.",
+   "ty": "comparison",
+   "tq": "Match each category with its distinctive boundary characteristic and reject reversed comparisons.",
+   "sec": "BR vs national park vs sanctuary"
+  },
+  {
+   "s": "India's protected-area share was reported as what percentage in the August 2026 LENSD reference?",
+   "o": [
+    "3.52%",
+    "4.32%",
+    "5.32%",
+    "6.32%"
+   ],
+   "a": 2,
+   "x": "The reported share of India's protected areas is 5.32 percent.",
+   "ty": "numerical",
+   "tq": "Use numerical discrimination among closely spaced percentage values.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following best explains the role of Other Effective Area-Based Conservation Measures (OECMs) in relation to the 30x30 conservation objective?",
+   "o": [
+    "They are restricted to marine areas and cannot include community-managed landscapes.",
+    "They include only areas inside National Parks and Wildlife Sanctuaries.",
+    "They recognise effective conservation areas outside conventional protected areas and can help meet the 30x30 objective.",
+    "They replace all Biosphere Reserves recognised under UNESCO's MAB Programme."
+   ],
+   "a": 2,
+   "x": "OECMs can cover effectively conserved areas outside reserve forests, National Parks and Wildlife Sanctuaries, including sacred groves, greenbelts and wetlands, and thereby support the 30x30 objective.",
+   "ty": "application",
+   "tq": "Apply the distinction between formal protected areas and conservation areas outside them.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following sets correctly identifies the firsts associated with conservation in India?",
+   "o": [
+    "Gulf of Mannar — first OECM; Palk Bay — first National Park; Aravalli Biodiversity Park — first dugong reserve",
+    "Gulf of Mannar — first marine Biosphere Reserve; Palk Bay — first dugong reserve; Aravalli Biodiversity Park — first OECM",
+    "Palk Bay — first marine Biosphere Reserve; Gulf of Mannar — first dugong reserve; Aravalli Biodiversity Park — first National Park",
+    "Anamalai — first marine Biosphere Reserve; Gulf of Mannar — first Hornbill Conservation Centre; Palk Bay — first OECM"
+   ],
+   "a": 1,
+   "x": "Gulf of Mannar is the first marine Biosphere Reserve, Palk Bay is the first dugong reserve and Aravalli Biodiversity Park is the first OECM.",
+   "ty": "fact",
+   "tq": "Discriminate among several ‘first’ claims by matching each initiative with its conservation category.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Anamalai Biosphere Reserve is associated with which of the following conservation firsts?",
+   "o": [
+    "First OECM",
+    "First Hornbill Conservation Centre",
+    "First dugong reserve",
+    "First marine Biosphere Reserve"
+   ],
+   "a": 1,
+   "x": "Anamalai is associated with India's first Hornbill Conservation Centre.",
+   "ty": "fact",
+   "tq": "Use the named-site and named-facility association to avoid swapping the conservation firsts.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding protected-area administration in Andhra Pradesh:\n1. Seshachalam is Andhra Pradesh's only Biosphere Reserve.\n2. Nagarjunasagar-Srisailam Tiger Reserve is Andhra Pradesh's only tiger reserve.\n3. Coringa is recognised as the State's mangrove stronghold.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Seshachalam is the only Biosphere Reserve, Nagarjunasagar-Srisailam is the only tiger reserve, and Coringa is the mangrove stronghold of Andhra Pradesh.",
+   "ty": "statements",
+   "tq": "Check each State-specific designation independently before selecting the combined code.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following is NOT identified as a major criticism or pressure affecting protected areas?",
+   "o": [
+    "Complete absence of human pressure in protected landscapes",
+    "Inadequate funding and staffing",
+    "Land grabbing, poaching and mining",
+    "Evictions and conflicts in certain Biosphere Reserves"
+   ],
+   "a": 0,
+   "x": "Protected areas face human pressure rather than its absence. The stated concerns include inadequate funding and staffing, land grabbers, poachers, miners and eviction-related conflicts.",
+   "ty": "negative",
+   "tq": "Look for the absolute reversal of the documented criticism.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Why is in-situ conservation generally regarded as the most effective method of biodiversity conservation?",
+   "o": [
+    "It preserves only the genes of a species under laboratory conditions.",
+    "It permanently removes species from ecological competition.",
+    "It maintains species interactions with their natural environment and conserves the wider ecosystem.",
+    "It is limited to seed banks and gene banks."
+   ],
+   "a": 2,
+   "x": "In-situ conservation keeps species within their natural environment, preserving ecological interactions and the wider ecosystem.",
+   "ty": "application",
+   "tq": "Identify the method that conserves ecological relationships, not merely individual species or genes.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Ex-situ conservation is particularly important when:",
+   "o": [
+    "The objective is to preserve every interaction within the original ecosystem.",
+    "A protected area has no need for seed or gene storage.",
+    "A species' natural habitat has been lost or become unsuitable, and its species or genes must be conserved elsewhere.",
+    "Only wild landscapes without human intervention are available."
+   ],
+   "a": 2,
+   "x": "Ex-situ conservation serves as a fallback when habitats are lost or unsuitable, conserving species or their genetic material outside the natural ecosystem.",
+   "ty": "application",
+   "tq": "Distinguish habitat-level in-situ conservation from species- or gene-level ex-situ conservation.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The second National Gene Bank announced in the Union Budget 2025–26 is intended, among other purposes, to serve as:",
+   "o": [
+    "A safety duplicate for the gene bank established in 1996",
+    "A centre exclusively for marine genetic resources",
+    "A facility limited to storing endangered animals",
+    "A replacement for all existing Biosphere Reserves"
+   ],
+   "a": 0,
+   "x": "The second National Gene Bank is intended to double as a safety duplicate for the 1996 gene bank, strengthening the conservation of genetic resources and food security.",
+   "ty": "fact",
+   "tq": "Separate the facility's backup function from the broader categories of protected areas and biological collections.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly compares in-situ and ex-situ conservation?",
+   "o": [
+    "In-situ conserves only genes, whereas ex-situ conserves complete ecosystems in nature.",
+    "In-situ protects the whole ecosystem, whereas ex-situ primarily conserves the species or its genes outside the natural habitat.",
+    "Ex-situ is used only for landscapes, whereas in-situ is used only for laboratories.",
+    "Both methods necessarily conserve the whole ecosystem in its original location."
+   ],
+   "a": 1,
+   "x": "In-situ conservation protects species along with their ecological setting, while ex-situ conservation focuses mainly on species or genetic material outside the natural habitat.",
+   "ty": "comparison",
+   "tq": "Use the level of conservation—ecosystem versus species or genes—to distinguish the two methods.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following developments is associated with the Agasthyamalai Biosphere Reserve in June–August 2026?",
+   "o": [
+    "Its recognition as India's first marine Biosphere Reserve",
+    "The establishment of the first global rice gene bank within the reserve",
+    "A Supreme Court-ordered eviction of encroachers followed by eviction notices issued by Tamil Nadu after A. John Kennedy v. State of Tamil Nadu",
+    "Its conversion into Andhra Pradesh's only Biosphere Reserve"
+   ],
+   "a": 2,
+   "x": "The Supreme Court ordered eviction of encroachers from Agasthyamalai in June 2026, and Tamil Nadu subsequently issued eviction notices after the A. John Kennedy case.",
+   "ty": "fact",
+   "tq": "Link the case name, protected area and administrative action without swapping the authority or location.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following Biosphere Reserves is identified as being outside UNESCO's World Network of Biosphere Reserves?",
+   "o": [
+    "Seshachalam",
+    "Gulf of Mannar",
+    "Nilgiri",
+    "Nokrek"
+   ],
+   "a": 0,
+   "x": "Seshachalam is identified as one of the five Indian Biosphere Reserves still outside UNESCO's World Network.",
+   "ty": "fact",
+   "tq": "Apply the exception clue to distinguish national Biosphere Reserve status from UNESCO network membership.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Madhav Gadgil's work is particularly associated with which conservation perspective?",
+   "o": [
+    "Urban management of the Aravalli OECM alone",
+    "Exclusive conservation of marine mammals in Palk Bay",
+    "Laboratory-based preservation of crop genes in a gene bank",
+    "Landscape-level conservation in the Nilgiri Biosphere Reserve"
+   ],
+   "a": 3,
+   "x": "Madhav Gadgil's work shaped the landscape-level conservation approach in the Nilgiri Biosphere Reserve.",
+   "ty": "fact",
+   "tq": "Match the conservation thinker with the landscape and scale of conservation associated with his work.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Andhra Pradesh State Biodiversity Board's proposed OECMs are intended to include which of the following areas outside conventional protected-area categories?\n1. Sacred groves\n2. Greenbelts\n3. Wetlands\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The proposed OECMs in Andhra Pradesh may include sacred groves, greenbelts and wetlands outside reserve forests, National Parks and Wildlife Sanctuaries.",
+   "ty": "statements",
+   "tq": "Use the inclusive list and select the code containing all three stated area types.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which statement best reflects the emerging conservation concern regarding tigers and protected areas?",
+   "o": [
+    "All tigers are now confined exclusively to National Parks.",
+    "Protected areas have eliminated all threats from miners and poachers.",
+    "An increasing share of tigers is living outside formally designated tiger reserves.",
+    "Tiger populations outside reserves have become irrelevant to conservation planning."
+   ],
+   "a": 2,
+   "x": "A growing share of tigers is reported to live outside reserves, highlighting the need for landscape-level conservation beyond formally protected areas.",
+   "ty": "fact",
+   "tq": "Reject absolute statements and identify the careful trend statement.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The approximate share of the world's ocean under protection referred to in the April 2026 LENS reference is:",
+   "o": [
+    "About 30%",
+    "About 5%",
+    "About 10%",
+    "About 20%"
+   ],
+   "a": 2,
+   "x": "The stated figure for ocean protection is approximately 10 percent.",
+   "ty": "numerical",
+   "tq": "Distinguish the current approximate global figure from the 30x30 target and India's protected-area percentage.",
+   "sec": "Universal angles"
+  }
+ ]
+}

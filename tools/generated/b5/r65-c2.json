@@ -1,0 +1,427 @@
+{
+ "book": 5,
+ "row": 65,
+ "chunk": 2,
+ "section": "Solar energy - PV vs thermal technologies, National Solar Mission, solar parks, rooftop solar, ISA",
+ "subsections": [
+  "Solar technologies - PV vs thermal",
+  "Ultra mega solar parks - state and capacity",
+  "India's solar potential",
+  "Floating and AP solar"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following solar-cell technologies is correctly matched with its characteristic?",
+   "o": [
+    "Crystalline silicon — dominant market technology based on the photovoltaic effect",
+    "Thin-film — higher efficiency than all crystalline silicon cells",
+    "Bifacial — absorbs sunlight only through its front face",
+    "Perovskite — technology incapable of being combined with silicon"
+   ],
+   "a": 0,
+   "x": "Crystalline silicon cells, including mono- and polycrystalline types, use the photovoltaic effect and remain dominant in the market. Thin-film cells are generally cheaper and flexible but have lower efficiency, while bifacial cells absorb light on both faces.",
+   "ty": "match",
+   "tq": "Use precise principle–technology matching and reject reversed characteristics.",
+   "sec": "Solar technologies - PV vs thermal"
+  },
+  {
+   "s": "Consider the following statements regarding thin-film solar cells:\n1. Cadmium telluride, CIGS and amorphous silicon are examples of thin-film technologies.\n2. Thin-film cells are generally cheaper and more flexible than crystalline silicon cells.\n3. Thin-film cells generally have higher efficiency than crystalline silicon cells.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because thin-film technology generally has lower efficiency, despite its lower cost and flexibility.",
+   "ty": "statements",
+   "tq": "Find the statement that reverses the comparison between neighbouring technologies.",
+   "sec": "Solar technologies - PV vs thermal"
+  },
+  {
+   "s": "With reference to perovskite solar technology, which one of the following is correct?",
+   "o": [
+    "The IIT Bombay project achieved only 3.02% efficiency in a silicon-only cell.",
+    "Perovskite technology is used exclusively for solar thermal collectors.",
+    "The perovskite-silicon tandem efficiency was lower than 10%.",
+    "The IIT Bombay MNRE project achieved 26% cell efficiency, while a perovskite-silicon tandem reached 30.2%."
+   ],
+   "a": 3,
+   "x": "The IIT Bombay project under MNRE achieved 26% efficiency for a perovskite cell, and the perovskite-silicon tandem achieved 30.2% efficiency.",
+   "ty": "numerical",
+   "tq": "Separate close numerical values and identify the technology-specific figures.",
+   "sec": "Solar technologies - PV vs thermal"
+  },
+  {
+   "s": "A solar panel that receives useful radiation from both its front and rear surfaces is based on which technology?",
+   "o": [
+    "Flat-plate thermal technology",
+    "Thin-film technology",
+    "Monofacial crystalline technology",
+    "Bifacial technology"
+   ],
+   "a": 3,
+   "x": "Bifacial solar panels absorb light on both faces, unlike conventional monofacial panels.",
+   "ty": "application",
+   "tq": "Apply the defining physical feature to a practical situation.",
+   "sec": "Solar technologies - PV vs thermal"
+  },
+  {
+   "s": "Which of the following correctly describes solar thermal or concentrated solar power technology?\n1. Mirrors may concentrate sunlight to heat a fluid.\n2. The heat can be used to produce steam for a turbine.\n3. Flat-plate collectors and solar power towers are associated with solar thermal applications.\n4. Heat storage is possible in such systems.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Solar thermal systems collect or concentrate solar heat, use it for water, steam and power generation, and can store heat.",
+   "ty": "statements",
+   "tq": "Recognise the complete set of applications and features of one technology.",
+   "sec": "Solar technologies - PV vs thermal"
+  },
+  {
+   "s": "Consider the following statements:\n1. Solar PV capacity utilisation is approximately 21%.\n2. Wind power capacity utilisation is approximately 36–40%.\n3. Coal-based power capacity utilisation is approximately 85%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3",
+    "2 and 3 only",
+    "1 only"
+   ],
+   "a": 1,
+   "x": "The stated approximate capacity-utilisation figures are 21% for solar PV, 36–40% for wind and 85% for coal.",
+   "ty": "comparison",
+   "tq": "Compare all entries in a quantitative table rather than relying on one figure.",
+   "sec": "Solar technologies - PV vs thermal"
+  },
+  {
+   "s": "Arrange the following solar parks in descending order of their stated capacity:\nA. Bhadla\nB. Pavagada\nC. Rewa\nD. Kurnool Ultra Mega Solar Park",
+   "o": [
+    "A, B, D, C",
+    "B, A, D, C",
+    "A, D, B, C",
+    "D, A, B, C"
+   ],
+   "a": 0,
+   "x": "The capacities are Bhadla 2,245 MW, Pavagada 2,050 MW, Kurnool 1,000 MW and Rewa 750 MW. Therefore, the descending order is A, B, D, C.",
+   "ty": "chronology",
+   "tq": "Arrange numerical values from largest to smallest before checking the options.",
+   "sec": "Ultra mega solar parks - state and capacity"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below.\n\nList-I (Solar Park)\n(a) Bhadla\n(b) Pavagada\n(c) Rewa\n(d) Kurnool Ultra Mega\n\nList-II (State)\n(i) Andhra Pradesh\n(ii) Karnataka\n(iii) Rajasthan\n(iv) Madhya Pradesh",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–iii, d–ii",
+    "a–i, b–iv, c–ii, d–iii"
+   ],
+   "a": 0,
+   "x": "Bhadla is in Rajasthan, Pavagada in Karnataka, Rewa in Madhya Pradesh and Kurnool Ultra Mega Solar Park in Andhra Pradesh.",
+   "ty": "match",
+   "tq": "Start with the sure state–park pairs and eliminate codes.",
+   "sec": "Ultra mega solar parks - state and capacity"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Kurnool — 2,050 MW",
+    "Ananthapuramu-I (NP Kunta) — 1,500 MW",
+    "Kadapa (Galiveedu) — 1,000 MW",
+    "Rewa — 750 MW"
+   ],
+   "a": 0,
+   "x": "Kurnool Solar Park has a stated capacity of 1,000 MW. Pavagada, not Kurnool, has a capacity of 2,050 MW.",
+   "ty": "negative",
+   "tq": "Find the swapped capacity among closely related solar parks.",
+   "sec": "Ultra mega solar parks - state and capacity"
+  },
+  {
+   "s": "Ramagiri solar park in Ananthapuramu is associated with which of the following descriptions?",
+   "o": [
+    "A purely nuclear power complex",
+    "A rooftop solar programme",
+    "A floating solar park on the Narmada",
+    "A hybrid solar-wind park"
+   ],
+   "a": 3,
+   "x": "Ramagiri in Ananthapuramu is identified as a hybrid solar-wind park.",
+   "ty": "fact",
+   "tq": "Discriminate between a named location and the type of energy project associated with it.",
+   "sec": "Ultra mega solar parks - state and capacity"
+  },
+  {
+   "s": "Which one of the following correctly represents the renewable-energy potential ranking and shares stated for the listed States?",
+   "o": [
+    "Gujarat 23.70%, Andhra Pradesh 14.26%, Rajasthan 9.10%",
+    "Maharashtra 23.70%, Rajasthan 14.26%, Gujarat 8.59%",
+    "Karnataka 23.70%, Madhya Pradesh 14.26%, Rajasthan 8.09%",
+    "Rajasthan 23.70%, Maharashtra 14.26%, Gujarat and Andhra Pradesh 9.10% each"
+   ],
+   "a": 3,
+   "x": "The stated ranking begins with Rajasthan at 23.70%, Maharashtra at 14.26%, Gujarat and Andhra Pradesh at 9.10% each, followed by Karnataka and Madhya Pradesh.",
+   "ty": "numerical",
+   "tq": "Preserve both the ranking and the associated percentages in a comparison question.",
+   "sec": "Ultra mega solar parks - state and capacity"
+  },
+  {
+   "s": "With reference to renewable-energy deployment, consider the following statements:\n1. Gujarat leads installed renewable energy capacity with 42.58 GW.\n2. Gujarat's share in the stated installed renewable-energy capacity is 16.5%.\n3. The figures refer specifically to the current ranking of installed solar capacity alone.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Gujarat is stated to lead installed renewable energy with 42.58 GW and a 16.5% share. The figures are for installed renewable energy, not specifically solar capacity alone.",
+   "ty": "statements",
+   "tq": "Distinguish a broad category from a narrower category in a ranking statement.",
+   "sec": "Ultra mega solar parks - state and capacity"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Khavda Renewable Energy Park — Kutch, Gujarat",
+    "Omkareshwar Floating Solar Park — Jodhpur, Rajasthan",
+    "Bhadla Solar Park — Khandwa, Madhya Pradesh",
+    "Kurnool Ultra Mega Solar Park — Kutch, Gujarat"
+   ],
+   "a": 0,
+   "x": "Khavda Renewable Energy Park is located in Kutch, Gujarat. Omkareshwar is in Khandwa, Madhya Pradesh, Bhadla is in Jodhpur, Rajasthan, and Kurnool is in Andhra Pradesh.",
+   "ty": "match",
+   "tq": "Use location swaps as the principal elimination trap.",
+   "sec": "Ultra mega solar parks - state and capacity"
+  },
+  {
+   "s": "Which one of the following statements about the Khavda Renewable Energy Park is correct?",
+   "o": [
+    "It is expected to have approximately 30 GW of solar-wind capacity when complete.",
+    "It is a 750 MW park in Madhya Pradesh.",
+    "It is a 1,000 MW park located in Andhra Pradesh.",
+    "It is India's largest floating solar park with 278 MW capacity."
+   ],
+   "a": 0,
+   "x": "Khavda Renewable Energy Park in Gujarat's Kutch region is projected to have approximately 30 GW of solar-wind capacity when complete and is described as the world's largest renewable-energy park.",
+   "ty": "numerical",
+   "tq": "Match the distinctive large figure with the correct project rather than a similar park.",
+   "sec": "Ultra mega solar parks - state and capacity"
+  },
+  {
+   "s": "Approximately how much solar-park capacity was commissioned during 2025 up to 30 November?",
+   "o": [
+    "1,500 MW",
+    "750 MW",
+    "9,600 MW",
+    "3,084 MW"
+   ],
+   "a": 3,
+   "x": "Approximately 3,084 MW of capacity was commissioned in solar parks during 2025 up to 30 November.",
+   "ty": "numerical",
+   "tq": "Identify the aggregate figure rather than confusing it with individual park capacities.",
+   "sec": "Ultra mega solar parks - state and capacity"
+  },
+  {
+   "s": "Consider the following statements regarding India's solar resource:\n1. Most parts of India receive 4–7 kWh per square metre per day of solar irradiation.\n2. India has approximately 250–300 clear sunny days in a year.\n3. The estimated annual incident solar energy is about 5,000 trillion kWh.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements describe the stated solar-resource conditions in India: 4–7 kWh/m²/day irradiation, 250–300 clear sunny days and about 5,000 trillion kWh of annual incident energy.",
+   "ty": "statements",
+   "tq": "Combine multiple quantitative indicators of the same resource potential.",
+   "sec": "India's solar potential"
+  },
+  {
+   "s": "The National Institute of Solar Energy has estimated India's ground-based solar potential at approximately:",
+   "o": [
+    "748 GW",
+    "102.18 GW",
+    "278 GW",
+    "600 GW"
+   ],
+   "a": 0,
+   "x": "NISE has estimated India's ground-based solar potential at approximately 748 GW, with the estimate assuming use of 3% of wasteland.",
+   "ty": "numerical",
+   "tq": "Distinguish the national ground-potential estimate from floating-potential figures.",
+   "sec": "India's solar potential"
+  },
+  {
+   "s": "Which one of the following correctly describes the present utilisation of India's estimated ground-based solar potential?",
+   "o": [
+    "Approximately 50% has been used.",
+    "The entire estimated potential has been used.",
+    "Approximately 25% has been used.",
+    "Approximately 4.5% has been used."
+   ],
+   "a": 3,
+   "x": "Only approximately 4.5% of the estimated 748 GW ground-based solar potential is stated to have been used.",
+   "ty": "numerical",
+   "tq": "Reject extreme utilisation claims and retain the stated proportion.",
+   "sec": "India's solar potential"
+  },
+  {
+   "s": "With reference to floating solar potential in India, consider the following statements:\n1. The national assessment estimates approximately 102.18 GW on reservoirs.\n2. Maharashtra and Madhya Pradesh are the leading States with approximately 16 GW and 14 GW respectively.\n3. Installed floating solar capacity is approximately 0.7 GW.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The stated national floating-solar potential is 102.18 GW, with Maharashtra and Madhya Pradesh leading at about 16 GW and 14 GW, while installed capacity is only about 0.7 GW.",
+   "ty": "statements",
+   "tq": "Check potential, regional leadership and installed capacity as separate quantities.",
+   "sec": "India's solar potential"
+  },
+  {
+   "s": "The first national assessment titled “Solar PV Potential of India (Floating Solar)” was associated with which institution?",
+   "o": [
+    "National Institute of Solar Energy",
+    "National Thermal Power Corporation",
+    "Solar Energy Corporation of India",
+    "International Solar Alliance"
+   ],
+   "a": 0,
+   "x": "The first national assessment of floating solar PV potential was undertaken by the National Institute of Solar Energy (NISE).",
+   "ty": "fact",
+   "tq": "Identify the correct technical institution rather than a project implementing agency.",
+   "sec": "India's solar potential"
+  },
+  {
+   "s": "Which one of the following statements about the National Institute of Solar Energy is correct?",
+   "o": [
+    "It is a State government agency responsible only for rooftop solar in Andhra Pradesh.",
+    "It is a commercial power-generating company headquartered at Khandwa.",
+    "It is an international treaty body headquartered in Kutch.",
+    "It is an autonomous body of MNRE located at Gurugram and serves as a technical focal point for solar R&D."
+   ],
+   "a": 3,
+   "x": "NISE is an autonomous body of the Ministry of New and Renewable Energy located at Gurugram and acts as a technical focal point for solar research and development.",
+   "ty": "fact",
+   "tq": "Use the institution’s status, location and function together to identify it.",
+   "sec": "India's solar potential"
+  },
+  {
+   "s": "The PM Surya Sarovar Yojana provides for which of the following combinations?\n1. Outlay of Rs 5,070 crore\n2. Central financial assistance up to Rs 1 crore per MW\n3. Target of 5,000 MW floating solar capacity by 2030–31\n4. Implementation through SECI\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The scheme is associated with an outlay of Rs 5,070 crore, CFA up to Rs 1 crore/MW, a 5,000 MW target by 2030–31 and implementation through SECI.",
+   "ty": "statements",
+   "tq": "Recognise the complete scheme profile from its financial, target and agency details.",
+   "sec": "Floating and AP solar"
+  },
+  {
+   "s": "What storage requirement is associated with the PM Surya Sarovar Yojana?",
+   "o": [
+    "Two-hour storage of 10,000 MWh",
+    "One-hour storage of 1,000 MWh",
+    "No storage requirement",
+    "Four-hour storage of 5,000 MWh"
+   ],
+   "a": 0,
+   "x": "The scheme includes a mandatory two-hour storage requirement amounting to 10,000 MWh.",
+   "ty": "numerical",
+   "tq": "Keep duration and storage quantity together when identifying the correct provision.",
+   "sec": "Floating and AP solar"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the Omkareshwar floating solar project?",
+   "o": [
+    "Narmada, Khandwa, Madhya Pradesh — 278 MW, with a proposed expansion to 600 MW",
+    "Kutch, Gujarat — 30 GW, with a proposed expansion to 60 GW",
+    "Visakhapatnam, Andhra Pradesh — 1,000 MW, with a proposed expansion to 5,000 MW",
+    "Jodhpur, Rajasthan — 2,245 MW, with a proposed expansion to 10,000 MW"
+   ],
+   "a": 0,
+   "x": "Omkareshwar floating solar project is on the Narmada in Khandwa district of Madhya Pradesh. Its capacity is 278 MW and it is planned to reach 600 MW.",
+   "ty": "match",
+   "tq": "Match the project with its river, location and two-stage capacity figures.",
+   "sec": "Floating and AP solar"
+  },
+  {
+   "s": "Consider the following statements about floating solar projects:\n1. They save land compared with land-based solar installations.\n2. They can reduce evaporation from water bodies.\n3. Water cooling can improve efficiency.\n4. Their upfront cost is approximately 25% higher.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Floating solar saves land, reduces evaporation, benefits from water cooling and has an upfront cost approximately 25% higher than comparable land-based installations.",
+   "ty": "statements",
+   "tq": "Balance environmental advantages against the cost disadvantage in a comparison question.",
+   "sec": "Floating and AP solar"
+  },
+  {
+   "s": "Which one of the following statements regarding global floating solar deployment is correct?",
+   "o": [
+    "World floating solar capacity was approximately 9.6 GW in 2024, with about 90% located in Asia.",
+    "World floating solar capacity was approximately 0.7 GW in 2024, with about 10% located in Asia.",
+    "World floating solar capacity was approximately 30 GW in 2024, with no concentration in Asia.",
+    "World floating solar capacity was approximately 102.18 GW in 2024, entirely outside Asia."
+   ],
+   "a": 0,
+   "x": "Global floating solar capacity was approximately 9.6 GW in 2024, and around 90% of it was located in Asia.",
+   "ty": "numerical",
+   "tq": "Separate the global figure from India's national potential and installed-capacity figures.",
+   "sec": "Floating and AP solar"
+  },
+  {
+   "s": "Which one of the following correctly describes the Andhra Pradesh solar-energy cluster?\n1. Kurnool and YSR Kadapa parks anchor the Rayalaseema renewable-energy cluster.\n2. About 50,000 acres of barren land have been offered for solar lease.\n3. NEDCAP is the nodal agency.\n4. NTPC Simhadri has a floating solar plant in Visakhapatnam.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct descriptions of the Andhra Pradesh solar-energy cluster and related initiatives.",
+   "ty": "statements",
+   "tq": "Combine location, land, agency and project clues to identify the complete State profile.",
+   "sec": "Floating and AP solar"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "NTPC Simhadri — floating solar plant in Visakhapatnam",
+    "Omkareshwar — floating solar project in Khandwa, Madhya Pradesh",
+    "Kurnool — floating solar project on the Narmada River",
+    "NEDCAP — nodal agency for the Andhra Pradesh solar lease initiative"
+   ],
+   "a": 2,
+   "x": "Kurnool is associated with a major solar park in Andhra Pradesh, not a floating solar project on the Narmada. The Narmada floating project is Omkareshwar in Madhya Pradesh.",
+   "ty": "negative",
+   "tq": "Reject the location-and-project swap between Andhra Pradesh and Madhya Pradesh.",
+   "sec": "Floating and AP solar"
+  },
+  {
+   "s": "Which one of the following correctly compares the stated capacity of the principal solar parks?",
+   "o": [
+    "Bhadla is 2,245 MW, Pavagada is 2,050 MW and Rewa is 750 MW.",
+    "Bhadla is 750 MW, Pavagada is 1,000 MW and Rewa is 2,245 MW.",
+    "Bhadla is 2,050 MW, Pavagada is 2,245 MW and Rewa is 1,000 MW.",
+    "Bhadla is 1,000 MW, Pavagada is 1,500 MW and Rewa is 2,050 MW."
+   ],
+   "a": 0,
+   "x": "The stated capacities are 2,245 MW for Bhadla, 2,050 MW for Pavagada and 750 MW for Rewa.",
+   "ty": "comparison",
+   "tq": "Compare a group of similar numerical entries without reversing their order.",
+   "sec": "Ultra mega solar parks - state and capacity"
+  }
+ ]
+}

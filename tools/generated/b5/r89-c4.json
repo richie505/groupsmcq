@@ -1,0 +1,413 @@
+{
+ "book": 5,
+ "row": 89,
+ "chunk": 4,
+ "section": "Species-specific conservation projects - Project Tiger, Project Elephant, Gangetic dolphin, Great Indian Bustard, vulture, cheetah reintroduction",
+ "subsections": [
+  "Marine conservation - Hope Spots, NCMB, dugong reserve, Olive Ridley in AP",
+  "Project Lion and other translocations",
+  "Coastal and marine protected areas - species focus",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 30,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following locations in India have been identified as IUCN and Mission Blue Hope Spots?\n1. Lakshadweep\n2. Andaman and Nicobar Islands\n3. Gulf of Mannar\n4. Palk Bay",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Lakshadweep and the Andaman and Nicobar Islands are the Indian locations identified as IUCN and Mission Blue Hope Spots.",
+   "ty": "statements",
+   "tq": "Eliminate locations belonging to nearby but different marine conservation initiatives.",
+   "sec": "Marine conservation - Hope Spots, NCMB, dugong reserve, Olive Ridley in AP  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The National Centre for Marine Biodiversity is located at which of the following places?",
+   "o": [
+    "Palk Bay, Tamil Nadu",
+    "Kakinada, Andhra Pradesh",
+    "Jamnagar, Gujarat",
+    "Port Blair, Andaman and Nicobar Islands"
+   ],
+   "a": 2,
+   "x": "The National Centre for Marine Biodiversity is located at Jamnagar in Gujarat.",
+   "ty": "fact",
+   "tq": "Use the location-based direct-recall approach for a national institution.",
+   "sec": "Marine conservation - Hope Spots, NCMB, dugong reserve, Olive Ridley in AP  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "India's first Dugong Conservation Reserve was established in:",
+   "o": [
+    "Coringa, Andhra Pradesh",
+    "Malvan, Maharashtra",
+    "Gulf of Mannar, Tamil Nadu",
+    "Palk Bay, Tamil Nadu"
+   ],
+   "a": 3,
+   "x": "India's first Dugong Conservation Reserve was established in Palk Bay, Tamil Nadu, in 2022.",
+   "ty": "fact",
+   "tq": "Distinguish the dugong reserve location from other marine protected areas.",
+   "sec": "Marine conservation - Hope Spots, NCMB, dugong reserve, Olive Ridley in AP  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following pairs:\na. Rushikulya — Ganjam district, Odisha\nb. Srikakulam — Andhra Pradesh\nc. Vizianagaram — Andhra Pradesh\n\nThe above places are particularly associated with:",
+   "o": [
+    "Dugong breeding colonies",
+    "Olive Ridley mass nesting",
+    "Coral reef restoration",
+    "Saltwater crocodile conservation"
+   ],
+   "a": 1,
+   "x": "Rushikulya in Ganjam, Odisha, and beaches in Srikakulam and Vizianagaram in Andhra Pradesh are associated with Olive Ridley mass nesting, known as arribada.",
+   "ty": "match",
+   "tq": "Start from the sure geographical pair and identify the common species focus.",
+   "sec": "Marine conservation - Hope Spots, NCMB, dugong reserve, Olive Ridley in AP  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The National Marine Turtle Action Plan was introduced in which year?",
+   "o": [
+    "2019",
+    "2020",
+    "2021",
+    "2023"
+   ],
+   "a": 2,
+   "x": "The National Marine Turtle Action Plan was introduced in 2021.",
+   "ty": "numerical",
+   "tq": "Test the exact year using closely spaced chronological options.",
+   "sec": "Marine conservation - Hope Spots, NCMB, dugong reserve, Olive Ridley in AP  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "MISHTI, launched in 2023, is primarily associated with:",
+   "o": [
+    "Coral mining regulation",
+    "Tiger relocation",
+    "Mangrove restoration",
+    "High-seas fishing quotas"
+   ],
+   "a": 2,
+   "x": "MISHTI is a mangrove restoration initiative launched in 2023, covering approximately 22,561 hectares in 13 States and Union Territories.",
+   "ty": "fact",
+   "tq": "Match the programme with its environmental objective rather than its geographical setting.",
+   "sec": "Marine conservation - Hope Spots, NCMB, dugong reserve, Olive Ridley in AP  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Approximately how much area is targeted for mangrove restoration under MISHTI across 13 States and Union Territories?",
+   "o": [
+    "12,561 hectares",
+    "2,256 hectares",
+    "32,561 hectares",
+    "22,561 hectares"
+   ],
+   "a": 3,
+   "x": "MISHTI targets approximately 22,561 hectares of mangrove restoration across 13 States and Union Territories.",
+   "ty": "numerical",
+   "tq": "Use numerical discrimination among similar-looking area figures.",
+   "sec": "Marine conservation - Hope Spots, NCMB, dugong reserve, Olive Ridley in AP  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The BBNJ Agreement, referred to in the context of marine conservation, deals primarily with:",
+   "o": [
+    "Management of inland wetlands",
+    "Protection of biodiversity inside national parks",
+    "Biodiversity beyond national jurisdiction in the high seas",
+    "Biosafety regulation of genetically modified crops"
+   ],
+   "a": 2,
+   "x": "The BBNJ Agreement concerns biodiversity beyond national jurisdiction, particularly in the high seas, and was noted in 2024.",
+   "ty": "application",
+   "tq": "Expand the acronym conceptually and distinguish high-seas governance from domestic conservation.",
+   "sec": "Marine conservation - Hope Spots, NCMB, dugong reserve, Olive Ridley in AP  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Project Lion, launched in 2020, primarily seeks to conserve:",
+   "o": [
+    "The African lions introduced into Kuno",
+    "The mountain lions of the Himalayas",
+    "The lions of the Sundarbans",
+    "The Asiatic lions of Gir"
+   ],
+   "a": 3,
+   "x": "Project Lion was launched in 2020 to conserve the world's last free-ranging Asiatic lions in Gir through surveillance, research and disease management.",
+   "ty": "fact",
+   "tq": "Apply the project-species-location triangle.",
+   "sec": "Project Lion and other translocations  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following is NOT a stated component of Project Lion?",
+   "o": [
+    "Construction of a new coastal marine reserve",
+    "Research",
+    "Disease management",
+    "Modern surveillance"
+   ],
+   "a": 0,
+   "x": "Project Lion includes modern surveillance, research and disease management for Asiatic lions; construction of a coastal marine reserve is unrelated to it.",
+   "ty": "negative",
+   "tq": "Find the option from a different conservation domain.",
+   "sec": "Project Lion and other translocations  [GROUP-II]"
+  },
+  {
+   "s": "Barda Wildlife Sanctuary has been proposed as a second home for Asiatic lions. The principal criticism of this proposal is that Barda:",
+   "o": [
+    "Lies outside Gujarat",
+    "Is too close to Gir to provide a genuine metapopulation safeguard",
+    "Has no forest cover at all",
+    "Is exclusively a marine protected area"
+   ],
+   "a": 1,
+   "x": "Critics argue that Barda Wildlife Sanctuary is too close to Gir to function as an effective separate metapopulation safeguard.",
+   "ty": "application",
+   "tq": "Identify the ecological rationale behind the second-home debate.",
+   "sec": "Project Lion and other translocations  [GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Protected area)    List-II (Principal focus)\na. Gulf of Mannar Marine National Park/Biosphere Reserve    i. Saltwater crocodile and mangroves\nb. Malvan Marine Sanctuary    ii. Mangroves and Godavari estuary\nc. Coringa Wildlife Sanctuary    iii. Coral reefs, islands and dugong\n d. Bhitarkanika    iv. Corals and marine life\n\nSelect the correct answer using the codes given below:",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iii, b–ii, c–iv, d–i"
+   ],
+   "a": 0,
+   "x": "Gulf of Mannar is associated with coral reefs, islands and dugong; Malvan with corals and marine life; Coringa with mangroves and the Godavari estuary; and Bhitarkanika with saltwater crocodiles and mangroves.",
+   "ty": "match",
+   "tq": "Start from the sure pair and match each protected area with its species or habitat focus.",
+   "sec": "Coastal and marine protected areas - species focus  [GROUP-II]"
+  },
+  {
+   "s": "Coringa Wildlife Sanctuary is located in Andhra Pradesh near:",
+   "o": [
+    "Kakinada",
+    "Kurnool",
+    "Nellore",
+    "Visakhapatnam"
+   ],
+   "a": 0,
+   "x": "Coringa Wildlife Sanctuary is located near Kakinada in Andhra Pradesh and is noted for mangroves and the Godavari estuary.",
+   "ty": "fact",
+   "tq": "Test the precise location rather than the broader State alone.",
+   "sec": "Coastal and marine protected areas - species focus  [GROUP-II]"
+  },
+  {
+   "s": "Approximately how many bird species are found on nearby Hope Island in relation to the Coringa mangrove ecosystem?",
+   "o": [
+    "46",
+    "54",
+    "64",
+    "74"
+   ],
+   "a": 2,
+   "x": "About 64 bird species are found on nearby Hope Island in relation to the Coringa mangrove ecosystem.",
+   "ty": "numerical",
+   "tq": "Distinguish the exact count from nearby numerical distractors.",
+   "sec": "Coastal and marine protected areas - species focus  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following protected areas is correctly matched with its State?",
+   "o": [
+    "Coringa Wildlife Sanctuary — Odisha",
+    "Gulf of Mannar Marine National Park — Kerala",
+    "Bhitarkanika — West Bengal",
+    "Malvan Marine Sanctuary — Maharashtra"
+   ],
+   "a": 3,
+   "x": "Malvan Marine Sanctuary is in Maharashtra. Gulf of Mannar is in Tamil Nadu, Coringa is in Andhra Pradesh and Bhitarkanika is in Odisha.",
+   "ty": "negative",
+   "tq": "Use location swapping, a common trap in protected-area questions.",
+   "sec": "Coastal and marine protected areas - species focus  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements is correct regarding the International Big Cat Alliance?\n1. It has 27 members.\n2. Its first summit was held in June 2026.\n3. It is concerned only with Asiatic lions.\n\nSelect the correct answer using the code below:",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "The International Big Cat Alliance has 27 members and held its first summit in June 2026. It is not concerned only with Asiatic lions.",
+   "ty": "statements",
+   "tq": "Reject the restrictive word “only” while retaining the two supported current-affairs statements.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. NSTR — Tigers\n2. Rollapadu — Great Indian Bustard\n3. Koundinya — Elephants\n4. Coringa — Asiatic lions\n\nSelect the correct answer using the code below:",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 2,
+   "x": "NSTR is associated with tiger conservation, Rollapadu with the Great Indian Bustard and Koundinya with Andhra Pradesh's elephants. Coringa is a mangrove and Godavari-estuary ecosystem, not an Asiatic lion site.",
+   "ty": "statements",
+   "tq": "Find the mismatched species-location pair before selecting the coded combination.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Project HANUMAN was launched by Andhra Pradesh on World Wildlife Day primarily to:",
+   "o": [
+    "Restore coral reefs along the coast",
+    "Increase tiger numbers through captive breeding",
+    "Reduce human-wildlife conflict",
+    "Establish a high-seas marine reserve"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh launched Project HANUMAN on 3 March 2026, World Wildlife Day, to reduce human-wildlife conflict.",
+   "ty": "fact",
+   "tq": "Link the project name, launch occasion and stated objective.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Project HANUMAN was launched on:",
+   "o": [
+    "5 June 2026",
+    "3 March 2024",
+    "3 March 2026",
+    "3 March 2025"
+   ],
+   "a": 2,
+   "x": "Project HANUMAN was launched by Andhra Pradesh on 3 March 2026, which is World Wildlife Day.",
+   "ty": "numerical",
+   "tq": "Separate the exact date from the associated environmental observance.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The proposed Gir lion translocation is best described as follows:",
+   "o": [
+    "It was completed after the creation of Barda Wildlife Sanctuary",
+    "It involved only African lions",
+    "It was never carried out",
+    "It was completed successfully in 2020"
+   ],
+   "a": 2,
+   "x": "The proposed Gir lion translocation was never carried out.",
+   "ty": "fact",
+   "tq": "Distinguish a proposed conservation action from one actually implemented.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which issue has been highlighted in relation to the conservation of the Great Indian Bustard?",
+   "o": [
+    "Competition with saltwater crocodiles",
+    "Power lines posing a threat",
+    "Excessive coral bleaching",
+    "High-seas plastic treaty violations"
+   ],
+   "a": 1,
+   "x": "Power lines have been identified as a major conservation concern for the Great Indian Bustard.",
+   "ty": "fact",
+   "tq": "Match the species with its specific conservation threat.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding recent tiger conservation developments in Andhra Pradesh:\n1. Andhra Pradesh is to receive four female tigers from Maharashtra and Madhya Pradesh.\n2. Anti-poaching camps in NSTR were raised from 89 to 150.\n3. Gaur reintroduction was reported in NSTR.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Andhra Pradesh is to receive four female tigers, NSTR's anti-poaching camps increased from 89 to 150, and gaur reintroduction was reported there.",
+   "ty": "statements",
+   "tq": "Retain multiple precise current-affairs details and reject no statement without evidence.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The number of anti-poaching camps in NSTR was raised from 89 to:",
+   "o": [
+    "120",
+    "135",
+    "150",
+    "175"
+   ],
+   "a": 2,
+   "x": "The number of anti-poaching camps in NSTR was raised from 89 to 150.",
+   "ty": "numerical",
+   "tq": "Test the changed numerical value rather than the baseline figure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following is a reported concern associated with tiger conservation in and around reserves?\n1. Tigers dispersing outside reserves\n2. Rising human-wildlife conflict\n3. A railway line through the Satpura-Melghat corridor\n\nSelect the correct answer using the code below:",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three are reported concerns: tiger dispersal outside reserves, increasing conflict, and a railway line through the Satpura-Melghat corridor.",
+   "ty": "statements",
+   "tq": "Recognise that the question combines ecological, social and infrastructure pressures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements regarding Andhra Pradesh's protected-area profile is correct?",
+   "o": [
+    "Andhra Pradesh has India's largest tiger reserve and its only elephant reserve, Rayala.",
+    "Rollapadu is Andhra Pradesh's only elephant reserve.",
+    "Rayala is Andhra Pradesh's only marine biosphere reserve.",
+    "Andhra Pradesh has India's only elephant reserve and India's largest tiger reserve."
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh contains India's largest tiger reserve and its only elephant reserve, Rayala.",
+   "ty": "comparison",
+   "tq": "Watch for reversed or shifted State-level superlatives.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following recent developments is correctly stated?\n1. Captive-bred slender-billed vultures were released for the first time in Assam in August 2026.\n2. Botswana cheetahs were released at Kuno in May 2026.\n3. The first reintroduction of a captive-bred vulture in the Nilgiris failed after the bird died.\n\nSelect the correct answer using the code below:",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three developments are correctly stated: the first captive-bred slender-billed vulture release occurred in Assam in August 2026, Botswana cheetahs were released at Kuno in May 2026, and the Nilgiris reintroduction failed after the bird's death.",
+   "ty": "statements",
+   "tq": "Verify each date-event pair before selecting the combined option.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements about vulture conservation is correct?\n1. The captive-bred vulture release reported in the Nilgiris failed after the bird's death.\n2. A first-ever release of captive-bred slender-billed vultures was reported from Assam.\n3. The BNHS vulture release has been described as the world's first.\n\nSelect the correct answer using the code below:",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct and refer to separate developments in vulture conservation and release programmes.",
+   "ty": "statements",
+   "tq": "Separate similar vulture-release events by location, species and outcome.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The proposed satellite launch facility near Hope Island is considered a threat to:",
+   "o": [
+    "The Coringa mangroves",
+    "The Bhitarkanika crocodile habitat",
+    "The Palk Bay dugong reserve",
+    "The Gulf of Mannar coral reefs"
+   ],
+   "a": 0,
+   "x": "A planned satellite launch facility was reported as a threat to Hope Island beside the Coringa mangroves.",
+   "ty": "application",
+   "tq": "Connect the development proposal with the adjacent coastal ecosystem.",
+   "sec": "Universal angles"
+  }
+ ]
+}

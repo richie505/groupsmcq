@@ -1,0 +1,501 @@
+{
+ "book": 5,
+ "row": 99,
+ "chunk": 4,
+ "section": "Air pollution - sources, pollutants, NAAQS, AQI, National Clean Air Programme, stubble burning",
+ "subsections": [
+  "Chemistry - acids formed, relative share, wet vs dry deposition",
+  "Regions most affected - global and transboundary",
+  "Effects - target-wise",
+  "Control measures",
+  "Acid rain monitoring in India",
+  "International agreements - LRTAP and protocols",
+  "AP thermal power clusters - SO2 norms compliance",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which pair of acids is formed when sulphur dioxide and nitrogen oxides react with oxygen, water and photo-oxidants in the atmosphere?",
+   "o": [
+    "Hydrochloric acid and carbonic acid",
+    "Sulphuric acid and nitric acid",
+    "Phosphoric acid and formic acid",
+    "Acetic acid and oxalic acid"
+   ],
+   "a": 1,
+   "x": "Atmospheric SO2 and NOx undergo oxidation and reaction with water to form sulphuric acid (H2SO4) and nitric acid (HNO3).",
+   "ty": "fact",
+   "tq": "Identify the exact chemical products rather than confusing atmospheric acids with common organic acids.",
+   "sec": "Chemistry - acids formed, relative share, wet vs dry deposition"
+  },
+  {
+   "s": "With reference to the acidity of acid rain, which one of the following statements is correct?",
+   "o": [
+    "Sulphuric acid contributes less than one-tenth of the total acidity.",
+    "Sulphuric acid contributes about two-thirds and nitric acid about one-third.",
+    "Nitric acid contributes about two-thirds and sulphuric acid about one-third.",
+    "Both acids contribute equally in all regions."
+   ],
+   "a": 1,
+   "x": "Sulphuric acid accounts for approximately two-thirds of acid-rain acidity, while nitric acid accounts for about one-third.",
+   "ty": "comparison",
+   "tq": "Use the relative-share comparison to eliminate reversed proportions.",
+   "sec": "Chemistry - acids formed, relative share, wet vs dry deposition"
+  },
+  {
+   "s": "Consider the following statements regarding wet and dry deposition:\n1. Wet deposition includes the fall of acids with rain, snow or fog.\n2. Dry deposition involves acidic gases and particles settling on surfaces.\n3. Dry deposition occurs only in humid regions.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Wet deposition occurs through rain, snow and fog, whereas dry deposition involves gases and particles attaching to dust or smoke and settling on surfaces. Dry deposition is not restricted to humid regions.",
+   "ty": "statements",
+   "tq": "Find the incorrect condition in the comparison instead of relying on the familiar definition alone.",
+   "sec": "Chemistry - acids formed, relative share, wet vs dry deposition"
+  },
+  {
+   "s": "Approximately what share of atmospheric acidity returns to the surface through dry deposition?",
+   "o": [
+    "One-tenth",
+    "Nearly all of it",
+    "About one-half",
+    "One-fourth"
+   ],
+   "a": 2,
+   "x": "Dry deposition accounts for approximately half of the return of atmospheric acidity to the surface.",
+   "ty": "numerical",
+   "tq": "Recall the quantitative comparison embedded in the wet-versus-dry deposition distinction.",
+   "sec": "Chemistry - acids formed, relative share, wet vs dry deposition"
+  },
+  {
+   "s": "Why is acid rain regarded as a transboundary environmental problem?",
+   "o": [
+    "The pollutants are produced exclusively by ships in international waters.",
+    "Acid rain affects only countries sharing a common river.",
+    "Pollutants can be transported hundreds of kilometres by winds.",
+    "Acid rain is formed only over international waters."
+   ],
+   "a": 2,
+   "x": "Wind can carry acid-forming pollutants hundreds of kilometres from their sources, allowing emissions from one country to affect another.",
+   "ty": "application",
+   "tq": "Link the environmental classification to the underlying transport mechanism.",
+   "sec": "Regions most affected - global and transboundary"
+  },
+  {
+   "s": "Which of the following regional examples is correctly matched with the associated transboundary acid-rain problem?",
+   "o": [
+    "Sweden and Norway — emissions from the United Kingdom and central Europe",
+    "Great Lakes — emissions exclusively from Scandinavia",
+    "Industrial China — emissions exclusively from Canada",
+    "Norway and Sweden — emissions exclusively from the Pacific Ocean"
+   ],
+   "a": 0,
+   "x": "The lakes of Scandinavia, including those in Sweden and Norway, have historically received pollutants transported from the United Kingdom and central Europe.",
+   "ty": "match",
+   "tq": "Use the source-region and affected-region relationship to reject swapped locations.",
+   "sec": "Regions most affected - global and transboundary"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Great Lakes region of North America is a classic example of a transboundary acid-rain-affected area.\n2. Industrial China is identified as another major acid-rain region.\n3. Acid rain is confined to regions with no industrial activity.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The Great Lakes region and industrial China are recognised examples. Statement 3 is false because industrial emissions are important sources of acid rain.",
+   "ty": "statements",
+   "tq": "Reject the extreme exclusive claim while retaining the two region-based facts.",
+   "sec": "Regions most affected - global and transboundary"
+  },
+  {
+   "s": "India was identified as the world's largest SO2 emitter in 2022, contributing more than what proportion of anthropogenic SO2 emissions?",
+   "o": [
+    "5 percent",
+    "10 percent",
+    "20 percent",
+    "50 percent"
+   ],
+   "a": 2,
+   "x": "India was identified as the largest global SO2 emitter in 2022, accounting for more than 20% of anthropogenic emissions.",
+   "ty": "numerical",
+   "tq": "Distinguish the global rank from the associated percentage figure.",
+   "sec": "Regions most affected - global and transboundary"
+  },
+  {
+   "s": "Acidification of lakes primarily affects aquatic ecosystems by:",
+   "o": [
+    "Increasing dissolved oxygen in all circumstances",
+    "Preventing the growth of all aquatic plants but not animals",
+    "Lowering pH and making the water inhospitable to fish, frogs and insects",
+    "Increasing the pH and making water more alkaline"
+   ],
+   "a": 2,
+   "x": "Acidification lowers the pH of lake water, making conditions unsuitable for fish, frogs and insects.",
+   "ty": "fact",
+   "tq": "Match the target with its specific ecological effect.",
+   "sec": "Effects - target-wise"
+  },
+  {
+   "s": "Which one of the following correctly describes the effect of acid deposition on forests and soil?",
+   "o": [
+    "It permanently prevents all pest attacks on trees.",
+    "It leaches calcium and magnesium and releases toxic aluminium.",
+    "It adds calcium and magnesium and immobilises aluminium.",
+    "It increases soil fertility in every forest ecosystem."
+   ],
+   "a": 1,
+   "x": "Acid deposition leaches calcium and magnesium from soil and releases toxic aluminium, damaging roots. Trees may consequently become more vulnerable to cold, pests and drought.",
+   "ty": "fact",
+   "tq": "Use the paired nutrient-loss and toxic-release relationship as the key distinction.",
+   "sec": "Effects - target-wise"
+  },
+  {
+   "s": "Acid rain damages buildings and monuments mainly because it:",
+   "o": [
+    "Converts all building materials into glass",
+    "Corrodes limestone, marble, metals and paint",
+    "Affects only wooden structures",
+    "Raises the pH of marble and prevents weathering"
+   ],
+   "a": 1,
+   "x": "Acid deposition corrodes limestone and marble, metals and paint, thereby damaging buildings and monuments.",
+   "ty": "fact",
+   "tq": "Select the complete target-effect combination rather than a partial material list.",
+   "sec": "Effects - target-wise"
+  },
+  {
+   "s": "The human-health effect of acid rain mentioned in environmental assessments is primarily indirect and involves:",
+   "o": [
+    "Release of heavy metals from soil into drinking water",
+    "Direct burning of the skin by every raindrop",
+    "Permanent loss of hearing due to fog",
+    "Formation of oxygen in the bloodstream"
+   ],
+   "a": 0,
+   "x": "Acidification can release heavy metals from soil into drinking-water sources, creating an indirect health risk.",
+   "ty": "application",
+   "tq": "Distinguish an indirect pathway from exaggerated direct-health claims.",
+   "sec": "Effects - target-wise"
+  },
+  {
+   "s": "Lichens are useful indicators of which form of pollution?",
+   "o": [
+    "SO2 pollution",
+    "Light pollution",
+    "Noise pollution",
+    "Thermal pollution"
+   ],
+   "a": 0,
+   "x": "Lichens are sensitive to sulphur dioxide and therefore serve as indicators of SO2 pollution.",
+   "ty": "fact",
+   "tq": "Associate the bioindicator with the specific pollutant, not with a general pollution category.",
+   "sec": "Effects - target-wise"
+  },
+  {
+   "s": "Which technology is used to trap sulphur dioxide in power-plant smokestacks?",
+   "o": [
+    "Catalytic converters",
+    "Flue gas desulphurisation scrubbers",
+    "Liming units",
+    "Low-NOx burners"
+   ],
+   "a": 1,
+   "x": "Flue gas desulphurisation systems, commonly called scrubbers, trap SO2 in smokestacks.",
+   "ty": "fact",
+   "tq": "Match the control device with the pollutant and point of application.",
+   "sec": "Control measures"
+  },
+  {
+   "s": "Consider the following statements about air-pollution control:\n1. Low-NOx burners are used in power plants.\n2. Catalytic converters in vehicles reduce NOx, carbon monoxide and hydrocarbons.\n3. Liming of lakes and soils neutralises acidity.\n4. Liming is primarily a preventive measure that stops pollutant emissions at the source.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Liming is a remedial measure that neutralises existing acidity; it does not prevent emissions at their source.",
+   "ty": "statements",
+   "tq": "Identify the single reversed preventive-versus-remedial description.",
+   "sec": "Control measures"
+  },
+  {
+   "s": "Which of the following is an example of a policy or fuel-based measure for reducing acid-forming emissions?",
+   "o": [
+    "Increasing the sulphur content of transport fuels",
+    "Adding acid to lakes to restore their pH",
+    "Replacing all scrubbers with open chimneys",
+    "Using low-sulphur fuels and imposing sulphur caps on ship fuel"
+   ],
+   "a": 3,
+   "x": "Low-sulphur or cleaner fuels reduce emissions, and the International Maritime Organization imposes sulphur limits on ship fuel.",
+   "ty": "application",
+   "tq": "Select the option that combines a source-reduction measure with a regulatory fuel limit.",
+   "sec": "Control measures"
+  },
+  {
+   "s": "The United States Clean Air Act is cited for reducing SO2 emissions by more than what proportion in several regions?",
+   "o": [
+    "10 percent",
+    "25 percent",
+    "50 percent",
+    "90 percent"
+   ],
+   "a": 3,
+   "x": "The Clean Air Act reduced SO2 emissions by more than 90% in several regions of the United States.",
+   "ty": "numerical",
+   "tq": "Recognise the high-value percentage associated with a legislative control measure.",
+   "sec": "Control measures"
+  },
+  {
+   "s": "Which organisation monitors precipitation chemistry in India under the WMO Global Atmosphere Watch and the Background Air Pollution Monitoring Network?",
+   "o": [
+    "International Maritime Organization",
+    "National Disaster Management Authority",
+    "Central Industrial Security Force",
+    "India Meteorological Department"
+   ],
+   "a": 3,
+   "x": "The India Meteorological Department monitors precipitation chemistry under the WMO Global Atmosphere Watch and BAPMoN.",
+   "ty": "fact",
+   "tq": "Use the institutional-function pairing to identify the responsible agency.",
+   "sec": "Acid rain monitoring in India"
+  },
+  {
+   "s": "Which of the following correctly states the NAAQS limits for SO2 mentioned for India?",
+   "o": [
+    "20 µg/m³ for 24-hour, 50 µg/m³ annual urban and 80 µg/m³ annual ecologically sensitive areas",
+    "80 µg/m³ for all averaging periods and area categories",
+    "80 µg/m³ for 24-hour, 50 µg/m³ annual urban and 20 µg/m³ annual ecologically sensitive areas",
+    "50 µg/m³ for 24-hour, 80 µg/m³ annual urban and 20 µg/m³ annual ecologically sensitive areas"
+   ],
+   "a": 2,
+   "x": "The specified SO2 limits are 80 µg/m³ for 24 hours, 50 µg/m³ annually in urban areas and 20 µg/m³ annually in ecologically sensitive areas.",
+   "ty": "numerical",
+   "tq": "Read the three-part numerical pattern carefully, including averaging period and area category.",
+   "sec": "Acid rain monitoring in India"
+  },
+  {
+   "s": "Arrange the following international instruments in chronological order of their adoption:\nA. Gothenburg Protocol\nB. Helsinki Sulphur Protocol\nC. LRTAP Convention\nD. Sofia NOx Protocol",
+   "o": [
+    "C, B, D, A",
+    "B, C, D, A",
+    "C, D, B, A",
+    "D, B, C, A"
+   ],
+   "a": 0,
+   "x": "The sequence is LRTAP Convention (1979), Helsinki Sulphur Protocol (1985), Sofia NOx Protocol (1988), and Gothenburg Protocol (1999).",
+   "ty": "chronology",
+   "tq": "Anchor the sequence using the earliest convention and the latest protocol, then order the middle years.",
+   "sec": "International agreements - LRTAP and protocols"
+  },
+  {
+   "s": "Which was the first binding international treaty specifically concerned with transboundary air pollution?",
+   "o": [
+    "Gothenburg Protocol",
+    "Sofia NOx Protocol",
+    "Convention on Long-Range Transboundary Air Pollution",
+    "Helsinki Sulphur Protocol"
+   ],
+   "a": 2,
+   "x": "The Convention on Long-Range Transboundary Air Pollution (LRTAP), adopted under UNECE at Geneva in 1979, was the first binding treaty on transboundary air pollution.",
+   "ty": "fact",
+   "tq": "Use the first-in-time clue and distinguish the parent convention from its later protocols.",
+   "sec": "International agreements - LRTAP and protocols"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Instrument)\na. Helsinki Sulphur Protocol\nb. Sofia NOx Protocol\nc. Gothenburg Protocol\nd. LRTAP Convention\n\nList-II (Focus or status)\ni. First binding treaty on transboundary air pollution\nii. Freeze NOx emissions\niii. Thirty percent cut in sulphur emissions\niv. Caps SO2, NOx, NH3 and VOCs\n\nSelect the correct answer using the code below.",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–iii, b–iv, c–i, d–ii"
+   ],
+   "a": 0,
+   "x": "The Helsinki Protocol sought a 30% sulphur-emission cut; the Sofia Protocol froze NOx emissions; Gothenburg imposed pollutant caps; and LRTAP was the first binding treaty.",
+   "ty": "match",
+   "tq": "Start with the sure numerical and first-treaty pairs, then complete the remaining matches.",
+   "sec": "International agreements - LRTAP and protocols"
+  },
+  {
+   "s": "The Gothenburg Protocol seeks to reduce acidification, eutrophication and ground-level ozone by placing caps on:",
+   "o": [
+    "Particulate matter, lead, mercury and asbestos only",
+    "CO2, methane, oxygen and hydrogen",
+    "Only sulphur dioxide and carbon monoxide",
+    "SO2, NOx, NH3 and volatile organic compounds"
+   ],
+   "a": 3,
+   "x": "The Gothenburg Protocol establishes caps on SO2, NOx, ammonia and volatile organic compounds to address acidification, eutrophication and ground-level ozone.",
+   "ty": "fact",
+   "tq": "Recall the complete pollutant set rather than selecting a partial list.",
+   "sec": "International agreements - LRTAP and protocols"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched with an AP coal-based thermal power cluster?",
+   "o": [
+    "Dr NTTPS — Vijayawada region",
+    "Krishnapatnam — Nellore",
+    "Dr NTTPS — Kurnool",
+    "Simhadri — Visakhapatnam"
+   ],
+   "a": 2,
+   "x": "Dr NTTPS is located in the Vijayawada-Ibrahimpatnam region. Krishnapatnam is associated with Nellore and Simhadri with Visakhapatnam.",
+   "ty": "negative",
+   "tq": "Find the wrong location by checking each plant-cluster association.",
+   "sec": "AP thermal power clusters - SO2 norms compliance"
+  },
+  {
+   "s": "Which statement best describes the status of flue gas desulphurisation in India's coal-fired power sector?",
+   "o": [
+    "FGD was prohibited in 2015 because it increases SO2 emissions.",
+    "Exactly half of all coal plants had FGD before the mandate was relaxed.",
+    "Only 39 of 537 coal plants had FGD, and the mandate was later relaxed citing high costs.",
+    "The 2015 FGD mandate was fully implemented in all coal plants."
+   ],
+   "a": 2,
+   "x": "Although FGD was mandated in 2015, only 39 of 537 coal plants had installed it, and the government later relaxed the mandate citing high costs.",
+   "ty": "numerical",
+   "tq": "Combine the plant count with the policy development instead of treating the mandate as implementation.",
+   "sec": "AP thermal power clusters - SO2 norms compliance"
+  },
+  {
+   "s": "In January 2026, the Supreme Court directed the Commission for Air Quality Management to consider which concern?",
+   "o": [
+    "SO2 should be removed from the NAAQS.",
+    "The causes of air pollution were still unclear.",
+    "Acid rain was confined to coastal districts.",
+    "All air pollution had been eliminated from the National Capital Region."
+   ],
+   "a": 1,
+   "x": "In January 2026, the Supreme Court, under Chief Justice Surya Kant, told CAQM that the causes of air pollution were still unclear.",
+   "ty": "fact",
+   "tq": "Identify the precise institutional concern instead of assuming that a court direction means the problem was solved.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which criticism has been made regarding the coverage and target-setting of the National Clean Air Programme?",
+   "o": [
+    "It covers only about 4% of chronically polluted towns, while critics question the use of PM10 rather than PM2.5 as the yardstick.",
+    "It has no budget and has never set annual targets.",
+    "It covers only rural towns and excludes all cities.",
+    "It covers all chronically polluted towns and uses PM2.5 as its only yardstick."
+   ],
+   "a": 0,
+   "x": "The critique states that NCAP covers only about 4% of chronically polluted towns and that PM10, rather than PM2.5, may be an inappropriate yardstick.",
+   "ty": "comparison",
+   "tq": "Separate the programme's coverage criticism from the debate over its pollution metric.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly states the reported NCAP-related figures?",
+   "o": [
+    "A budget of ₹10,500 crore and only 38 cities meeting annual targets",
+    "A budget of ₹105 crore and 380 cities meeting annual targets",
+    "A budget of ₹10,500 crore and 138 cities meeting annual targets",
+    "A budget of ₹1,050 crore and only 3 cities meeting annual targets"
+   ],
+   "a": 0,
+   "x": "The cited critique refers to a ₹10,500 crore budget and reports that only 38 cities met their annual targets.",
+   "ty": "numerical",
+   "tq": "Check the zeroes and the paired programme-performance figure together.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following correctly describes source-apportionment progress under the cited review?",
+   "o": [
+    "Only 3 of 13 cities had completed source apportionment.",
+    "All 131 cities had completed source apportionment.",
+    "37 of 131 cities had completed source apportionment.",
+    "131 of 137 cities had completed source apportionment."
+   ],
+   "a": 2,
+   "x": "The review reported that 37 out of 131 cities had completed source-apportionment studies.",
+   "ty": "numerical",
+   "tq": "Distinguish the completed-city count from the total number of cities.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Clean Air for Blue Skies Day is observed in India as Swachh Vayu Diwas on:",
+   "o": [
+    "2 October",
+    "7 September",
+    "5 June",
+    "16 September"
+   ],
+   "a": 1,
+   "x": "Clean Air for Blue Skies Day, observed on 7 September, is marked in India as Swachh Vayu Diwas.",
+   "ty": "fact",
+   "tq": "Recall the event-date equivalence without substituting another environmental observance.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following correctly represents the Andhra Pradesh air-monitoring figures cited?",
+   "o": [
+    "735 industries under real-time monitoring with 682 CAAQMS",
+    "682 industries under real-time monitoring with 368 CAAQMS",
+    "735 industries under real-time monitoring with 857 CAAQMS",
+    "682 industries under real-time monitoring with 735 CAAQMS"
+   ],
+   "a": 3,
+   "x": "In Andhra Pradesh, 682 industries were reported under real-time monitoring with 735 Continuous Ambient Air Quality Monitoring Stations.",
+   "ty": "numerical",
+   "tq": "Keep the industry count and monitoring-station count in their correct order.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "How does the WHO annual PM2.5 guideline compare with India's NAAQS annual limit mentioned here?",
+   "o": [
+    "WHO limit is 40 µg/m³, which is eight times stricter than India's 5 µg/m³ limit.",
+    "WHO limit is 8 µg/m³ and India's limit is 40 µg/m³, making them equally strict.",
+    "WHO limit is 5 µg/m³, which is eight times stricter than India's 40 µg/m³ limit.",
+    "Both limits are 5 µg/m³."
+   ],
+   "a": 2,
+   "x": "The WHO annual PM2.5 guideline is 5 µg/m³, compared with India's NAAQS value of 40 µg/m³; thus, the WHO limit is eight times stricter.",
+   "ty": "comparison",
+   "tq": "Compare both the numerical limits and the direction of strictness.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which statement correctly reflects the significance attributed to the National Clean Air Programme?",
+   "o": [
+    "It is limited to acid-rain monitoring by the IMD.",
+    "It is linked to the Sustainable Development Goals and Viksit Bharat 2047.",
+    "It replaces all State Action Plans and has no connection with development goals.",
+    "It is linked exclusively to maritime sulphur regulation."
+   ],
+   "a": 1,
+   "x": "NCAP is linked with the Sustainable Development Goals and the vision of Viksit Bharat 2047.",
+   "ty": "fact",
+   "tq": "Identify the broader policy linkage rather than a narrow technical function.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which statement best captures the policy debate concerning FGD in India?",
+   "o": [
+    "FGD relaxation has been debated against India's position as the world's top SO2 emitter.",
+    "FGD is unrelated to SO2 control and is used only for nitrogen oxides.",
+    "India adopted universal FGD installation without any cost concerns.",
+    "FGD relaxation ended because India was no longer a significant SO2 emitter."
+   ],
+   "a": 0,
+   "x": "The relaxation of FGD requirements in 2025 has been criticised in view of India's status as the leading SO2 emitter.",
+   "ty": "comparison",
+   "tq": "Connect the policy decision with the opposing environmental-performance fact.",
+   "sec": "Universal angles"
+  }
+ ]
+}

@@ -1,0 +1,529 @@
+{
+ "book": 5,
+ "row": 101,
+ "chunk": 2,
+ "section": "Water pollution - sources, eutrophication, Namami Gange, sewage treatment, groundwater contamination (arsenic, fluoride)",
+ "subsections": [
+  "Groundwater contamination - arsenic, fluoride, uranium, nitrate",
+  "Drinking water standards",
+  "Effluent treatment - CETP, activated carbon, ZLD",
+  "Point and non-point sources",
+  "Ganga river governance - chronology",
+  "CPCB designated best-use water quality classes",
+  "Other conservation plans",
+  "Ganga-specific measures"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 37,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The major arsenic-affected belt in India is associated primarily with which region?",
+   "o": [
+    "Malwa plateau of Madhya Pradesh and Rajasthan",
+    "Deccan lava plateau of Maharashtra and Telangana",
+    "Western coastal plains of Kerala and Karnataka",
+    "Ganga-Brahmaputra plains, particularly West Bengal, Bihar and Assam"
+   ],
+   "a": 3,
+   "x": "The principal arsenic belt lies in the Ganga-Brahmaputra plains, especially West Bengal, Bihar and Assam, and extends into Bangladesh.",
+   "ty": "fact",
+   "tq": "Use the geographical-belt clue and distinguish arsenic regions from fluoride and uranium regions.",
+   "sec": "Groundwater contamination - arsenic, fluoride, uranium, nitrate  [other exams]"
+  },
+  {
+   "s": "Consider the following statements regarding groundwater contamination in India:\n1. Arsenic contamination is associated with the Ganga-Brahmaputra plains.\n2. Uranium contamination above 30 ppb has been reported in Andhra Pradesh and Telangana.\n3. Nitrate contamination above 45 mg/L is reported in 56% of districts.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The reported arsenic belt is in the Ganga-Brahmaputra plains, uranium above 30 ppb has been found in Andhra Pradesh and Telangana among other states, and 56% of districts exceed the nitrate level of 45 mg/L.",
+   "ty": "statements",
+   "tq": "Check each statement against its contaminant-specific region or threshold before selecting the coded combination.",
+   "sec": "Groundwater contamination - arsenic, fluoride, uranium, nitrate  [other exams]"
+  },
+  {
+   "s": "The principal source of widespread nitrate contamination in groundwater is",
+   "o": [
+    "Sand mining",
+    "Fertiliser use",
+    "Industrial cooling",
+    "River tourism"
+   ],
+   "a": 1,
+   "x": "Nitrate contamination is mainly attributed to fertiliser use, and 56% of districts reportedly exceed 45 mg/L.",
+   "ty": "fact",
+   "tq": "Identify the source-effect relationship rather than confusing nitrate with industrial or mining contaminants.",
+   "sec": "Groundwater contamination - arsenic, fluoride, uranium, nitrate  [other exams]"
+  },
+  {
+   "s": "With reference to fluoride contamination of groundwater, consider the following statements:\n1. Fluoride above 1.5 mg/L was reported at 9.04% of sites.\n2. Rajasthan recorded the highest incidence, followed by Haryana and Karnataka.\n3. Andhra Pradesh and Telangana are also seriously affected.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The reported fluoride exceedance was 9.04% of sites, with Rajasthan followed by Haryana and Karnataka, while Andhra Pradesh and Telangana are also badly affected.",
+   "ty": "statements",
+   "tq": "Separate the national ranking from the additional regional observation before choosing the combination.",
+   "sec": "Groundwater contamination - arsenic, fluoride, uranium, nitrate  [other exams]"
+  },
+  {
+   "s": "The Nalgonda technique for fluoride removal uses which combination of substances?",
+   "o": [
+    "Sodium chloride, gypsum and lime",
+    "Ferric chloride, ammonia and silica gel",
+    "Activated carbon, ozone and chlorine",
+    "Alum, lime and bleaching powder"
+   ],
+   "a": 3,
+   "x": "The Nalgonda technique uses alum, lime and bleaching powder for fluoride removal.",
+   "ty": "fact",
+   "tq": "Test the exact composition of a named treatment technique rather than its general purpose.",
+   "sec": "Groundwater contamination - arsenic, fluoride, uranium, nitrate  [other exams]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Nitrate — mainly caused by river tourism",
+    "Uranium — Malwa region of Punjab",
+    "Arsenic — Western Ghats as the principal belt",
+    "Fluoride — confined exclusively to Rajasthan"
+   ],
+   "a": 1,
+   "x": "Uranium contamination is associated with the Malwa region of Punjab. The other statements use incorrect regions, causes or absolute wording.",
+   "ty": "negative",
+   "tq": "Find the correctly matched contaminant-region pair while rejecting absolute and swapped associations.",
+   "sec": "Groundwater contamination - arsenic, fluoride, uranium, nitrate  [other exams]"
+  },
+  {
+   "s": "According to the 2025 groundwater assessment for Andhra Pradesh, which statement is correct?",
+   "o": [
+    "Uranium above 30 ppb was absent from Andhra Pradesh.",
+    "Residual sodium carbonate exceeded the permissible limit in exactly 56% of samples.",
+    "No widespread groundwater contamination was reported in the State.",
+    "Residual sodium carbonate exceeded the permissible limit in 26.87% of samples."
+   ],
+   "a": 3,
+   "x": "The assessment reported widespread contamination in Andhra Pradesh, with residual sodium carbonate exceeding limits in 26.87% of samples. Nitrate, iron and fluoride alerts were also reported.",
+   "ty": "numerical",
+   "tq": "Match the precise percentage to the correct State-level groundwater finding.",
+   "sec": "Groundwater contamination - arsenic, fluoride, uranium, nitrate  [other exams]"
+  },
+  {
+   "s": "Which of the following correctly represents the BIS acceptable and permissible limits for fluoride in drinking water?",
+   "o": [
+    "0.3 mg/L acceptable and 1.0 mg/L permissible",
+    "1.0 mg/L acceptable and 1.5 mg/L permissible",
+    "0.01 mg/L acceptable and 0.03 mg/L permissible",
+    "1.5 mg/L acceptable and 2.0 mg/L permissible"
+   ],
+   "a": 1,
+   "x": "Under BIS IS 10500, fluoride has an acceptable limit of 1.0 mg/L and a permissible limit of 1.5 mg/L.",
+   "ty": "numerical",
+   "tq": "Distinguish the acceptable limit from the higher permissible limit in a standards table.",
+   "sec": "Drinking water standards  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about drinking-water standards:\n1. The WHO guideline for fluoride is 1.5 mg/L.\n2. The BIS limit for nitrate is 45 mg/L.\n3. The WHO limit for nitrate is 50 mg/L.\n4. The BIS and WHO arsenic limits are both 0.01 mg/L.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The stated fluoride, nitrate and arsenic limits correspond to the BIS and WHO standards listed.",
+   "ty": "statements",
+   "tq": "Read each standard independently and watch for the swapped BIS-WHO nitrate values.",
+   "sec": "Drinking water standards  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched with its drinking-water standard?",
+   "o": [
+    "Uranium — BIS limit of 0.03 mg/L",
+    "Iron — WHO limit of 0.3 mg/L",
+    "Iron — BIS limit of 0.3 mg/L",
+    "Uranium — WHO guideline of 30 µg/L"
+   ],
+   "a": 1,
+   "x": "The BIS iron limit is 0.3 mg/L, whereas no WHO value is specified in the given standards table. The uranium values are 0.03 mg/L under BIS and 30 µg/L under WHO.",
+   "ty": "negative",
+   "tq": "Locate the deliberately supplied standard where the source table gives no value.",
+   "sec": "Drinking water standards  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "A Common Effluent Treatment Plant is primarily intended to serve",
+   "o": [
+    "Clusters of small-scale industries",
+    "Only large dams and irrigation projects",
+    "Individual households in rural areas",
+    "Wildlife sanctuaries without industrial activity"
+   ],
+   "a": 0,
+   "x": "A CETP is a shared treatment facility established for clusters of small-scale industries.",
+   "ty": "fact",
+   "tq": "Use the institutional-purpose clue to distinguish a shared industrial facility from domestic or ecological infrastructure.",
+   "sec": "Effluent treatment - CETP, activated carbon, ZLD  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements regarding effluent management in Andhra Pradesh is correct?",
+   "o": [
+    "The State has no CETP for industrial clusters.",
+    "The State runs nine CETPs and directs industries towards Zero Liquid Discharge.",
+    "Zero Liquid Discharge is required only for municipal sewage plants.",
+    "The State permits unrestricted discharge of non-biodegradable effluents."
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh runs nine CETPs, has banned discharge of non-biodegradable effluent, and has directed industries towards Zero Liquid Discharge.",
+   "ty": "fact",
+   "tq": "Reject the reversed regulatory statement and identify the combined State-specific fact.",
+   "sec": "Effluent treatment - CETP, activated carbon, ZLD  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The principal treatment action of activated carbon in effluent management is",
+   "o": [
+    "Adsorption of organics, colour, odour and pesticides",
+    "Removal of suspended sand exclusively through sedimentation",
+    "Conversion of nitrate into atmospheric nitrogen only",
+    "Increasing the electrical conductivity of water"
+   ],
+   "a": 0,
+   "x": "Activated carbon works mainly through adsorption and can remove organic pollutants, colour, odour and pesticides.",
+   "ty": "application",
+   "tq": "Link the treatment material to its mechanism and the types of pollutants it adsorbs.",
+   "sec": "Effluent treatment - CETP, activated carbon, ZLD  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Tiruppur textile cluster is cited as an example of",
+   "o": [
+    "River-basin authority formation",
+    "Fluoride defluoridation by the Nalgonda technique",
+    "Zero Liquid Discharge",
+    "Non-point agricultural runoff control"
+   ],
+   "a": 2,
+   "x": "The Tiruppur textile cluster in Tamil Nadu is an example associated with Zero Liquid Discharge.",
+   "ty": "fact",
+   "tq": "Associate the named industrial cluster with the specific effluent-management model.",
+   "sec": "Effluent treatment - CETP, activated carbon, ZLD  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Point source — agricultural runoff",
+    "Point source — industrial effluent pipe",
+    "Non-point source — sewage outfall",
+    "Non-point source — identifiable factory discharge pipe"
+   ],
+   "a": 1,
+   "x": "Industrial effluent pipes and sewage outfalls are point sources because they discharge from identifiable outlets. Agricultural and urban runoff are non-point sources.",
+   "ty": "confusable",
+   "tq": "Use the identifiable-outlet test to distinguish point from non-point pollution sources.",
+   "sec": "Point and non-point sources  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Sewage outfalls are point sources of water pollution.\n2. Agricultural runoff is a non-point source.\n3. Urban runoff is a non-point source.\n4. Only about 28–30% of urban sewage is treated.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Sewage outfalls are identifiable point sources, while agricultural and urban runoff are diffuse sources; only about 28–30% of urban sewage is treated.",
+   "ty": "statements",
+   "tq": "Combine source classification with the quantitative treatment-coverage fact.",
+   "sec": "Point and non-point sources  [GROUP-II]"
+  },
+  {
+   "s": "Sand mining in river channels commonly leads to",
+   "o": [
+    "Removal of all faecal coliform from the river",
+    "Reduced turbidity and restoration of river beds",
+    "Increased turbidity and degradation of river beds",
+    "Increased dissolved oxygen through natural aeration only"
+   ],
+   "a": 2,
+   "x": "Sand mining raises turbidity and degrades river beds, thereby damaging riverine conditions.",
+   "ty": "application",
+   "tq": "Match the human activity with its direct physical impact on river systems.",
+   "sec": "Point and non-point sources  [GROUP-II]"
+  },
+  {
+   "s": "Arrange the following developments in the correct chronological order:\nA. National Ganga Council replaced the National Ganga River Basin Authority\nB. Central Ganga Authority was established\nC. National Ganga River Basin Authority was established\nD. National Mission for Clean Ganga was registered as a society",
+   "o": [
+    "B, C, D, A",
+    "C, B, D, A",
+    "B, D, C, A",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The correct sequence is Central Ganga Authority (1985), National Ganga River Basin Authority (2009), NMCG (2011), and National Ganga Council (2016).",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest institutions first, then place the 2009 and 2011 bodies between them.",
+   "sec": "Ganga river governance - chronology  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which body was established in 1985 and chaired by the Prime Minister to run the Ganga Action Plan?",
+   "o": [
+    "Central Ganga Authority",
+    "Empowered Task Force",
+    "National Mission for Clean Ganga",
+    "National Ganga Council"
+   ],
+   "a": 0,
+   "x": "The Central Ganga Authority was established in 1985, chaired by the Prime Minister, and ran the Ganga Action Plan.",
+   "ty": "fact",
+   "tq": "Match the institution with its founding year, chairperson and programme responsibility.",
+   "sec": "Ganga river governance - chronology  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly describes the National Mission for Clean Ganga?",
+   "o": [
+    "It replaced the National Ganga Council in 2016.",
+    "It is chaired by district magistrates at the district level.",
+    "It was established in 1985 as the body that ran the Ganga Action Plan.",
+    "It was registered as a society in 2011 and served as the implementing arm of the NGRBA."
+   ],
+   "a": 3,
+   "x": "NMCG was registered as a society in 2011 and functioned as the implementing arm of the National Ganga River Basin Authority.",
+   "ty": "fact",
+   "tq": "Distinguish the implementing agency from the earlier authority and later council.",
+   "sec": "Ganga river governance - chronology  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The legal basis for the present Ganga authorities is the",
+   "o": [
+    "River Ganga (Rejuvenation, Protection and Management) Authorities Order, 2016",
+    "Ganga Action Plan Rules, 1985",
+    "National Wetlands Management Order, 2013",
+    "National River Linking Authorities Order, 2009"
+   ],
+   "a": 0,
+   "x": "The legal base is the River Ganga (Rejuvenation, Protection and Management) Authorities Order, 2016, notified on 7 October 2016.",
+   "ty": "fact",
+   "tq": "Test the exact official title and year instead of accepting a broadly related environmental law.",
+   "sec": "Ganga river governance - chronology  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly represents the present five-tier structure for Ganga governance from top to bottom?",
+   "o": [
+    "National Ganga Council → Empowered Task Force → NMCG → State Ganga Committees → District Ganga Committees",
+    "NMCG → National Ganga Council → District Ganga Committees → State Ganga Committees → Empowered Task Force",
+    "National Ganga Council → NMCG → Parliament → State Ganga Committees → District Ganga Committees",
+    "Empowered Task Force → National Ganga Council → NMCG → District Ganga Committees → State Ganga Committees"
+   ],
+   "a": 0,
+   "x": "The five tiers are National Ganga Council, Empowered Task Force, NMCG, State Ganga Committees and District Ganga Committees.",
+   "ty": "match",
+   "tq": "Start with the apex body and trace the administrative hierarchy downward.",
+   "sec": "Ganga river governance - chronology  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Empowered Task Force in the five-tier Ganga governance structure is associated with the",
+   "o": [
+    "Jal Shakti Minister",
+    "Prime Minister only as district-level chair",
+    "Director General of the Wildlife Institute of India",
+    "District Magistrate"
+   ],
+   "a": 0,
+   "x": "The Empowered Task Force is headed by or associated with the Jal Shakti Minister, while the National Ganga Council is chaired by the Prime Minister and district committees involve District Magistrates.",
+   "ty": "fact",
+   "tq": "Apply the ‘who would do this job?’ method to distinguish levels of authority.",
+   "sec": "Ganga river governance - chronology  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following is correctly matched with CPCB Class A water quality?",
+   "o": [
+    "Outdoor bathing; total coliform not more than 500 MPN/100 ml",
+    "Wildlife and fisheries; free ammonia not more than 1.2 mg/L",
+    "Drinking after disinfection without conventional treatment; total coliform not more than 50 MPN/100 ml",
+    "Irrigation; dissolved oxygen not less than 4 mg/L"
+   ],
+   "a": 2,
+   "x": "Class A is meant for drinking water after disinfection without conventional treatment, with total coliform not exceeding 50 MPN/100 ml.",
+   "ty": "comparison",
+   "tq": "Match the class with its best use and the corresponding coliform criterion.",
+   "sec": "CPCB designated best-use water quality classes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about CPCB designated best-use classes:\n1. Class B is intended for outdoor bathing.\n2. Class C is intended for drinking after conventional treatment and disinfection.\n3. Class D is intended for wildlife and fisheries.\n4. Class E is intended for irrigation, industrial cooling and waste disposal.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly identify the designated best uses of Classes B, C, D and E.",
+   "ty": "statements",
+   "tq": "Read the best-use column as a progression of water-quality applications.",
+   "sec": "CPCB designated best-use water quality classes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched with the CPCB water-quality class?",
+   "o": [
+    "Class D — dissolved oxygen at least 6 mg/L",
+    "Class A — dissolved oxygen at least 6 mg/L",
+    "Class C — dissolved oxygen at least 4 mg/L",
+    "Class B — dissolved oxygen at least 5 mg/L"
+   ],
+   "a": 0,
+   "x": "Class D requires dissolved oxygen of at least 4 mg/L, not 6 mg/L. Class A, B and C require at least 6, 5 and 4 mg/L respectively.",
+   "ty": "negative",
+   "tq": "Compare the dissolved-oxygen thresholds sequentially and identify the wrongly raised value.",
+   "sec": "CPCB designated best-use water quality classes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The BOD limit for CPCB Class A water is",
+   "o": [
+    "Not more than 3 mg/L",
+    "Not more than 1.2 mg/L",
+    "Not more than 2 mg/L",
+    "Not more than 5 mg/L"
+   ],
+   "a": 2,
+   "x": "Class A has a BOD limit of not more than 2 mg/L. Classes B and C have a limit of 3 mg/L, while Class D uses a free-ammonia criterion.",
+   "ty": "numerical",
+   "tq": "Separate the BOD values of Classes A, B and C from the free-ammonia criterion of Class D.",
+   "sec": "CPCB designated best-use water quality classes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements regarding Classes D and E is correct?\n1. Class D specifies free ammonia up to 1.2 mg/L.\n2. Class E is governed by limits for electrical conductivity, SAR and boron.\n3. Class E has a prescribed dissolved-oxygen value of at least 4 mg/L.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Class D specifies free ammonia up to 1.2 mg/L, while Class E uses electrical conductivity, SAR and boron limits; no dissolved-oxygen value is specified for Class E.",
+   "ty": "statements",
+   "tq": "Find the exception in the parameter column instead of transferring Class D values to Class E.",
+   "sec": "CPCB designated best-use water quality classes  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Yamuna Action Plan was launched in 1993 mainly for",
+   "o": [
+    "Fluoride removal in Rajasthan groundwater",
+    "Control of sewage and industrial pollution in the Delhi stretch of the Yamuna",
+    "Creation of the National Ganga Council",
+    "Development of dolphin safaris on the Ganga"
+   ],
+   "a": 1,
+   "x": "The Yamuna Action Plan began in 1993 and focused mainly on sewage and industrial pollution control in the Delhi stretch.",
+   "ty": "fact",
+   "tq": "Match the action plan with its river, year and principal intervention.",
+   "sec": "Other conservation plans  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly describes the National Lake Conservation Plan and NPCA?",
+   "o": [
+    "The National Lake Conservation Plan began in 2001 and was merged with the wetlands programme into NPCA in 2013.",
+    "The National Lake Conservation Plan began in 1993 and was merged with the Ganga Action Plan in 2016.",
+    "NPCA was created in 1985 by merging the Yamuna Action Plan with the National Ganga Council.",
+    "The National Lake Conservation Plan exclusively concerns industrial effluent from Tiruppur."
+   ],
+   "a": 0,
+   "x": "The National Lake Conservation Plan began in 2001 and was merged with the wetlands programme to form NPCA in 2013.",
+   "ty": "chronology",
+   "tq": "Use the two dates as anchors and distinguish NPCA from river-specific programmes.",
+   "sec": "Other conservation plans  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched?",
+   "o": [
+    "Bhagirathi Eco-Sensitive Zone — conservation initiative",
+    "Krishna River conservation — Andhra Pradesh and Telangana",
+    "Clean Kaveri campaign — river conservation",
+    "Yamuna Action Plan — principal programme for Malwa uranium remediation"
+   ],
+   "a": 3,
+   "x": "The Yamuna Action Plan concerns sewage and industrial pollution control in the Delhi stretch of the Yamuna, not uranium remediation in Malwa.",
+   "ty": "negative",
+   "tq": "Reject the unrelated contaminant-region association and retain the conservation-programme matches.",
+   "sec": "Other conservation plans  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Arth Ganga is primarily associated with",
+   "o": [
+    "Exclusive regulation of groundwater fluoride in Rajasthan",
+    "Only the construction of conventional sewage treatment plants",
+    "A river-linked economy including natural farming, river tourism, treated-water reuse and artisan livelihoods",
+    "Replacement of all State Ganga Committees by district bodies"
+   ],
+   "a": 2,
+   "x": "Arth Ganga promotes a river-linked economy through natural farming, river tourism such as dolphin safaris, treated-water reuse and support for artisans.",
+   "ty": "application",
+   "tq": "Identify the broad developmental approach from the cluster of linked activities.",
+   "sec": "Ganga-specific measures  [GROUP-II]"
+  },
+  {
+   "s": "JALAJ livelihood centres are associated with the collaboration between",
+   "o": [
+    "NMCG and the Wildlife Institute of India",
+    "Central Ganga Authority and the World Bank exclusively",
+    "National Lake Conservation Plan and the Yamuna Action Plan",
+    "CPCB and the World Health Organization"
+   ],
+   "a": 0,
+   "x": "JALAJ livelihood centres are associated with NMCG and the Wildlife Institute of India under the Arth Ganga approach.",
+   "ty": "fact",
+   "tq": "Match the named initiative with its implementing institutional partnership.",
+   "sec": "Ganga-specific measures  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Ganga Praharis — trained local volunteers for river biodiversity",
+    "Ganga Gram — annual river festival",
+    "Ganga Utsav — trained local volunteers for biodiversity",
+    "Arth Ganga — replacement of all sewage treatment plants"
+   ],
+   "a": 0,
+   "x": "Ganga Praharis are trained local volunteers working for river biodiversity. Ganga Gram concerns riverside villages, while Ganga Utsav is the annual river festival.",
+   "ty": "match",
+   "tq": "Discriminate among similarly named Ganga initiatives by their distinct functions.",
+   "sec": "Ganga-specific measures  [GROUP-II]"
+  },
+  {
+   "s": "Ganga Gram, introduced in 2016, focuses on",
+   "o": [
+    "Urban sewage outfalls in Delhi only",
+    "The Malwa uranium belt",
+    "Industrial textile clusters in Tamil Nadu",
+    "Riverside villages"
+   ],
+   "a": 3,
+   "x": "Ganga Gram was introduced in 2016 for riverside villages.",
+   "ty": "fact",
+   "tq": "Use the name-to-location association while avoiding confusion with Ganga Utsav and Ganga Praharis.",
+   "sec": "Ganga-specific measures  [GROUP-II]"
+  },
+  {
+   "s": "Which statement best describes the major pollution and treatment-capacity concern in the Ganga system?",
+   "o": [
+    "The river has no significant biological contamination because treatment capacity exceeds demand everywhere.",
+    "The main problem is only fluoride, while all STPs have identical utilisation levels.",
+    "High faecal coliform is a major problem; Haridwar STPs are overloaded whereas Devprayag facilities are under-used.",
+    "Devprayag STPs are overloaded and Haridwar facilities are under-used."
+   ],
+   "a": 2,
+   "x": "High faecal coliform is identified as the main Ganga problem, and there is a capacity mismatch between overloaded Haridwar STPs and under-used Devprayag facilities.",
+   "ty": "comparison",
+   "tq": "Compare the two locations carefully and avoid reversing the capacity relationship.",
+   "sec": "Ganga-specific measures  [GROUP-II]"
+  }
+ ]
+}

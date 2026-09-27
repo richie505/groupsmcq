@@ -1,0 +1,568 @@
+{
+ "book": 5,
+ "row": 55,
+ "chunk": 0,
+ "section": "Energy policy of India - Integrated Energy Policy, NITI Aayog National Energy Policy, energy transition targets",
+ "subsections": [
+  "Energy reports - publishing institutions",
+  "National Clean Energy Fund - source, purpose, status",
+  "Ministries - mission or mandate",
+  "Renewable energy finance - IREDA and green bonds",
+  "Distributed energy resources - which qualify, grid role"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 41,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The first in-depth review of India's energy policies was published by which institution?",
+   "o": [
+    "Bureau of Energy Efficiency",
+    "World Economic Forum",
+    "International Energy Agency",
+    "International Renewable Energy Agency"
+   ],
+   "a": 2,
+   "x": "The first in-depth review of India's energy policies was published by the International Energy Agency in 2020, in association with NITI Aayog.",
+   "ty": "fact",
+   "tq": "Identify the publishing institution rather than the associated Indian body.",
+   "sec": "Energy reports - publishing institutions"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Energy Transition Index — World Economic Forum",
+    "State Energy and Climate Index — International Energy Agency",
+    "National Generation Adequacy Plan — NITI Aayog",
+    "India Energy Outlook — Bureau of Energy Efficiency"
+   ],
+   "a": 0,
+   "x": "The Energy Transition Index is published by the World Economic Forum. The State Energy and Climate Index is associated with BEE, the National Generation Adequacy Plan with CEA, and India Energy Outlook with IEA.",
+   "ty": "match",
+   "tq": "Start from the sure publisher-report pair and eliminate swapped institutions.",
+   "sec": "Energy reports - publishing institutions"
+  },
+  {
+   "s": "The National Generation Adequacy Plan covering 2026-27 to 2035-36 is associated with which institution?",
+   "o": [
+    "NITI Aayog",
+    "International Energy Agency",
+    "Ministry of New and Renewable Energy",
+    "Central Electricity Authority"
+   ],
+   "a": 3,
+   "x": "The Central Electricity Authority is associated with the National Generation Adequacy Plan for 2026-27 to 2035-36.",
+   "ty": "fact",
+   "tq": "Use the plan's institutional mandate to distinguish CEA from policy bodies.",
+   "sec": "Energy reports - publishing institutions"
+  },
+  {
+   "s": "The May 2026 policy brief of the Indian National Science Academy proposed which framework?",
+   "o": [
+    "Unified National Energy Policy Framework",
+    "National Electricity Market Framework",
+    "Integrated Green Bond Framework",
+    "National Methanol Economy Framework"
+   ],
+   "a": 0,
+   "x": "The INSA policy brief of May 2026 proposed a Unified National Energy Policy Framework for energy self-reliance by 2047 and net zero by 2070.",
+   "ty": "fact",
+   "tq": "Test the exact official title rather than a related energy-policy term.",
+   "sec": "Energy reports - publishing institutions"
+  },
+  {
+   "s": "With reference to the International Energy Agency, consider the following statements:\n1. Its headquarters is in Paris.\n2. India has been an IEA Association country since 2017.\n3. India is a full member of the IEA.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "The IEA is headquartered in Paris and India has been an Association country since 2017. India is not a full member of the IEA.",
+   "ty": "statements",
+   "tq": "Spot the membership-status trap between an Association country and a full member.",
+   "sec": "Energy reports - publishing institutions"
+  },
+  {
+   "s": "Which of the following is NOT an IEA report or publication listed among its energy reports?",
+   "o": [
+    "Energy Transition Index",
+    "Global Methane Tracker",
+    "Energy Efficiency Report",
+    "Electricity Market Report"
+   ],
+   "a": 0,
+   "x": "The Energy Transition Index is published by the World Economic Forum. Global Methane Tracker, Electricity Market Report and Energy Efficiency Report are listed IEA reports.",
+   "ty": "negative",
+   "tq": "Find the one publication belonging to a different institution.",
+   "sec": "Energy reports - publishing institutions"
+  },
+  {
+   "s": "The IEA standard for strategic oil stocks is equivalent to how many days of net imports?",
+   "o": [
+    "30 days",
+    "60 days",
+    "90 days",
+    "120 days"
+   ],
+   "a": 2,
+   "x": "The IEA standard requires strategic oil stocks equivalent to 90 days of net imports.",
+   "ty": "numerical",
+   "tq": "Recall the exact quantitative standard and reject nearby round figures.",
+   "sec": "Energy reports - publishing institutions"
+  },
+  {
+   "s": "The National Clean Energy Fund was primarily established to fund:",
+   "o": [
+    "Oil and gas exploration by private companies",
+    "Coal mine acquisition and allocation",
+    "Municipal infrastructure unrelated to energy",
+    "Research and innovative projects in clean energy technologies"
+   ],
+   "a": 3,
+   "x": "The NCEF was intended to fund research and innovative projects in clean energy technologies, promote renewable energy technologies and reduce carbon emissions.",
+   "ty": "fact",
+   "tq": "Match the fund with its stated purpose rather than its revenue source.",
+   "sec": "National Clean Energy Fund - source, purpose, status"
+  },
+  {
+   "s": "The principal source of the National Clean Energy Fund was:",
+   "o": [
+    "A surcharge on petroleum exports",
+    "A clean energy cess on coal, lignite and peat",
+    "A levy on green bonds",
+    "A cess on electricity consumption alone"
+   ],
+   "a": 1,
+   "x": "The NCEF was financed through a clean energy cess imposed on coal, including lignite and peat, from 2010-11.",
+   "ty": "fact",
+   "tq": "Distinguish the fund's dedicated cess from other energy-related levies.",
+   "sec": "National Clean Energy Fund - source, purpose, status"
+  },
+  {
+   "s": "The clean energy cess that supported the National Clean Energy Fund was initially levied at ₹50 per tonne and was later raised to:",
+   "o": [
+    "₹200 per tonne",
+    "₹100 per tonne",
+    "₹300 per tonne",
+    "₹400 per tonne"
+   ],
+   "a": 3,
+   "x": "The clean energy cess started at ₹50 per tonne and was subsequently raised to ₹400 per tonne.",
+   "ty": "numerical",
+   "tq": "Track the original and revised values rather than confusing the two rates.",
+   "sec": "National Clean Energy Fund - source, purpose, status"
+  },
+  {
+   "s": "What was the effect of the introduction of GST on the National Clean Energy Fund?",
+   "o": [
+    "The cess was shifted from coal to petroleum products.",
+    "The clean energy cess was doubled and the NCEF received a dedicated inflow.",
+    "The NCEF was converted into a sovereign green bond account.",
+    "The clean energy cess was replaced by GST compensation cess, causing the NCEF to lose its dedicated inflow."
+   ],
+   "a": 3,
+   "x": "When GST was introduced in 2017, the clean energy cess was replaced by the GST compensation cess. Consequently, the NCEF lost its dedicated inflow.",
+   "ty": "application",
+   "tq": "Link the policy change to its direct fiscal consequence.",
+   "sec": "National Clean Energy Fund - source, purpose, status"
+  },
+  {
+   "s": "The Ministry of Power became independent on which date?",
+   "o": [
+    "15 September 1992",
+    "2 July 1992",
+    "2 July 2006",
+    "1 April 2017"
+   ],
+   "a": 1,
+   "x": "The Ministry of Power became independent from 2 July 1992; before that, it was known as the Ministry of Energy Sources.",
+   "ty": "numerical",
+   "tq": "Use the precise date and distinguish it from the MNRE renaming year.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "Before becoming the independent Ministry of Power, the concerned ministry was known as the:",
+   "o": [
+    "Ministry of Energy Sources",
+    "Ministry of Energy Conservation",
+    "Ministry of Electricity Resources",
+    "Ministry of Power and Coal"
+   ],
+   "a": 0,
+   "x": "The Ministry of Power was earlier known as the Ministry of Energy Sources and became independent on 2 July 1992.",
+   "ty": "confusable",
+   "tq": "Discriminate between similar-sounding predecessor ministry names.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "Which of the following is the correct constitutional position regarding electricity in India?",
+   "o": [
+    "It is in Entry 38 of the Concurrent List in List III.",
+    "It is in Entry 97 of the Union List in List I.",
+    "It is in Entry 38 of the Union List in List I.",
+    "It is in Entry 28 of the State List in List II."
+   ],
+   "a": 0,
+   "x": "Electricity is a concurrent subject, placed under Entry 38 of List III.",
+   "ty": "fact",
+   "tq": "Check both the entry number and the list before choosing the constitutional classification.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "Which of the following correctly describes the mandate of the Ministry of Power?",
+   "o": [
+    "Nuclear power generation and atomic research",
+    "Electricity development, perspective planning, policy and project monitoring",
+    "Exploration, refining and marketing of oil and gas",
+    "Allocation of coal mines under mining legislation alone"
+   ],
+   "a": 1,
+   "x": "The Ministry of Power deals with electricity development, perspective planning, policy and project monitoring. Oil and gas, coal, and atomic energy are handled by other bodies.",
+   "ty": "fact",
+   "tq": "Use the responsible-ministry trap by matching the activity with its mandate.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "The Ministry of New and Renewable Energy was renamed MNRE in:",
+   "o": [
+    "1982",
+    "1992",
+    "2001",
+    "2006"
+   ],
+   "a": 3,
+   "x": "The institution began as DNES in 1982, became MNES in 1992, and was renamed MNRE in 2006.",
+   "ty": "numerical",
+   "tq": "Separate the establishment and intermediate-renaming years from the final renaming year.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "The Ministry of New and Renewable Energy is the nodal ministry for:",
+   "o": [
+    "All new and renewable energy",
+    "Coal and lignite allocation only",
+    "Nuclear research alone",
+    "Oil and natural gas regulation only"
+   ],
+   "a": 0,
+   "x": "MNRE is the nodal ministry for all new and renewable energy.",
+   "ty": "fact",
+   "tq": "Identify the nodal ministry from the broad sectoral mandate.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "Which of the following is NOT one of the stated missions of the Ministry of New and Renewable Energy?",
+   "o": [
+    "Exclusive dependence on imported energy",
+    "Equity",
+    "Energy security",
+    "Affordability"
+   ],
+   "a": 0,
+   "x": "MNRE's missions include energy security, a larger share of clean power, energy availability and access, affordability and equity. Exclusive dependence on imported energy is not a mission.",
+   "ty": "negative",
+   "tq": "Find the option that reverses the objective of an energy ministry.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "Consider the following statements about recent MNRE initiatives:\n1. The National Policy on Geothermal Energy was notified on 15 September 2025.\n2. The National Bioenergy Programme covers 2021-26.\n3. Phase I of the National Bioenergy Programme has an outlay of ₹858 crore.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The geothermal policy was notified on 15 September 2025, while the National Bioenergy Programme covers 2021-26 and has a Phase I outlay of ₹858 crore.",
+   "ty": "statements",
+   "tq": "Verify the date, programme period and outlay separately before using the combined option.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "The three components of Phase I of the National Bioenergy Programme are:",
+   "o": [
+    "Solar pumps, wind farms and fuel cells",
+    "Geothermal, nuclear and tidal energy",
+    "Coal gasification, oil refining and hydrogen storage",
+    "Waste-to-energy, biomass and biogas"
+   ],
+   "a": 3,
+   "x": "The three parts are waste-to-energy, biomass and biogas.",
+   "ty": "fact",
+   "tq": "Test the exact composition of the programme rather than its broader renewable-energy context.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "MoPNG — exploration, production, refining and marketing of oil and gas",
+    "Ministry of Coal — nuclear power and research",
+    "Department of Atomic Energy — coal mine allocation",
+    "BEE — oil and gas exploration"
+   ],
+   "a": 0,
+   "x": "MoPNG handles exploration, production, refining and marketing of oil and gas. Coal allocation belongs to the Ministry of Coal, nuclear power and research to the Department of Atomic Energy, and BEE deals with energy efficiency.",
+   "ty": "match",
+   "tq": "Reject swapped ministry mandates by identifying the sector-specific function.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "OIL India is a Navratna public sector enterprise under which ministry?",
+   "o": [
+    "Ministry of Petroleum and Natural Gas",
+    "Ministry of Coal",
+    "Ministry of New and Renewable Energy",
+    "Ministry of Power"
+   ],
+   "a": 0,
+   "x": "OIL India is a Navratna under the Ministry of Petroleum and Natural Gas.",
+   "ty": "fact",
+   "tq": "Use the public-sector undertaking and parent-ministry association.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "The Ministry of Coal allots mines under which of the following Acts?\n1. Coal Mines (Special Provisions) Act, 2015\n2. Mines and Minerals (Development and Regulation) Act, 1957\n3. Energy Conservation Act, 2001\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The Ministry of Coal allots mines under the CMSP Act, 2015 and the MMDR Act, 1957. The Energy Conservation Act, 2001 is associated with energy efficiency and BEE, not coal-mine allotment.",
+   "ty": "statements",
+   "tq": "Identify the wrong statutory association by matching each Act with its subject.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "The Department of Atomic Energy is placed directly under the:",
+   "o": [
+    "Minister of Power",
+    "Prime Minister",
+    "NITI Aayog",
+    "Minister of Coal"
+   ],
+   "a": 1,
+   "x": "The Department of Atomic Energy, which deals with nuclear power and research, functions directly under the Prime Minister.",
+   "ty": "fact",
+   "tq": "Apply the authority-identification method to a specialised department.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "BEE — National Mission for Enhanced Energy Efficiency under NAPCC",
+    "PNGRB — National Mission for Enhanced Energy Efficiency under NAPCC",
+    "NITI Aayog energy vertical — National Policy on Geothermal Energy",
+    "MNRE — Energy Transition Index"
+   ],
+   "a": 0,
+   "x": "BEE operates under the Energy Conservation Act, 2001 and runs NMEEE under NAPCC. PNGRB is the oil and gas regulator, while the other pairings assign functions to the wrong bodies.",
+   "ty": "match",
+   "tq": "Start with the statutory body whose programme linkage is specific and distinctive.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "The energy vertical of NITI Aayog is associated with which of the following?\n1. India Energy Security Scenarios 2047\n2. Draft National Energy Policy\n3. Methanol Economy\n4. IEMI\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The NITI Aayog energy vertical is associated with IESS 2047, the Draft National Energy Policy, the Methanol Economy and IEMI.",
+   "ty": "statements",
+   "tq": "Recognise the complete set instead of selecting only the best-known initiative.",
+   "sec": "Ministries - mission or mandate"
+  },
+  {
+   "s": "IREDA was established in 1987 under which ministry?",
+   "o": [
+    "Ministry of New and Renewable Energy",
+    "Ministry of Power",
+    "Ministry of Finance",
+    "Ministry of Coal"
+   ],
+   "a": 0,
+   "x": "The Indian Renewable Energy Development Agency was set up in 1987 under MNRE.",
+   "ty": "fact",
+   "tq": "Link the specialised finance institution with its parent ministry and establishment year.",
+   "sec": "Renewable energy finance - IREDA and green bonds"
+  },
+  {
+   "s": "Which of the following best describes the role of IREDA?",
+   "o": [
+    "It publishes the World Energy Outlook.",
+    "It regulates petroleum and natural gas pipelines.",
+    "It promotes, develops and finances renewable-energy projects and provides technical assistance.",
+    "It allocates coal mines under the MMDR Act."
+   ],
+   "a": 2,
+   "x": "IREDA is a specialised public-sector financial institution that promotes, develops and finances renewable-energy projects and also provides technical help.",
+   "ty": "application",
+   "tq": "Match the institution with its combined financing, development and technical-support functions.",
+   "sec": "Renewable energy finance - IREDA and green bonds"
+  },
+  {
+   "s": "Which of the following correctly states two recent developments concerning IREDA?",
+   "o": [
+    "It was listed on stock exchanges in November 2023 and received Navratna status in April 2024.",
+    "It was listed in April 2024 and received Navratna status in November 2023.",
+    "It was established in November 2023 and received Navratna status in 1987.",
+    "It received both listing and Navratna status in January 2023."
+   ],
+   "a": 0,
+   "x": "IREDA was listed on stock exchanges in November 2023 and received Navratna status in April 2024.",
+   "ty": "chronology",
+   "tq": "Keep the two close developments in their correct time sequence.",
+   "sec": "Renewable energy finance - IREDA and green bonds"
+  },
+  {
+   "s": "Green bonds are instruments in which:",
+   "o": [
+    "The issuer guarantees a fixed carbon-emission reduction in every project.",
+    "The funds are reserved only for foreign exchange reserves.",
+    "The proceeds can be used exclusively for coal mining.",
+    "The proceeds are ring-fenced for projects with climate or environmental benefits."
+   ],
+   "a": 3,
+   "x": "Green bonds raise money for projects with climate or environmental benefits, and their proceeds are ring-fenced for such use.",
+   "ty": "fact",
+   "tq": "Focus on the defining use-of-proceeds condition.",
+   "sec": "Renewable energy finance - IREDA and green bonds"
+  },
+  {
+   "s": "Sovereign green bonds for the Government were first issued by the RBI in:",
+   "o": [
+    "April 2024",
+    "January 2022",
+    "January 2023",
+    "January 2021"
+   ],
+   "a": 2,
+   "x": "The RBI first issued sovereign green bonds for the Government in January 2023.",
+   "ty": "numerical",
+   "tq": "Distinguish the first sovereign issuance date from later green-finance developments.",
+   "sec": "Renewable energy finance - IREDA and green bonds"
+  },
+  {
+   "s": "Which of the following statements about sovereign and municipal green bonds is correct?",
+   "o": [
+    "They have been growing, but the greenium remains modest and access to global climate finance is limited.",
+    "They have eliminated the need for all other climate-finance sources.",
+    "They are issued only for coal and lignite projects.",
+    "They provide unlimited access to global climate finance."
+   ],
+   "a": 0,
+   "x": "Sovereign and municipal green bonds are growing, but the greenium is modest and access to global climate finance remains limited.",
+   "ty": "statements",
+   "tq": "Avoid extreme claims and select the carefully qualified comparison.",
+   "sec": "Renewable energy finance - IREDA and green bonds"
+  },
+  {
+   "s": "The estimated net-zero financing requirement by 2070 is stated as being:",
+   "o": [
+    "Over 10 trillion US dollars",
+    "Over 20 trillion US dollars",
+    "Over 2 trillion US dollars",
+    "Over 5 trillion US dollars"
+   ],
+   "a": 1,
+   "x": "The net-zero financing need is estimated at over 20 trillion US dollars by 2070.",
+   "ty": "numerical",
+   "tq": "Recall the scale of the requirement and distinguish it from lower nearby estimates.",
+   "sec": "Renewable energy finance - IREDA and green bonds"
+  },
+  {
+   "s": "Which of the following set consists entirely of distributed energy resources?",
+   "o": [
+    "Battery storage, biomass generators, fuel cells and rooftop solar PV",
+    "Large hydropower dams, coal plants, fuel cells and refineries",
+    "Battery storage, oil terminals, nuclear reactors and rooftop solar PV",
+    "Coal mines, biomass generators, gas pipelines and fuel cells"
+   ],
+   "a": 0,
+   "x": "Battery storage, biomass generators, fuel cells and rooftop solar PV all qualify as distributed energy resources.",
+   "ty": "statements",
+   "tq": "Check every item against the small, consumer-near generation or storage concept.",
+   "sec": "Distributed energy resources - which qualify, grid role"
+  },
+  {
+   "s": "Distributed energy resources are best described as:",
+   "o": [
+    "Centralised fuel-import terminals owned by the Union Government",
+    "Transmission networks located far from electricity consumers",
+    "Small generation or storage units located near the consumer",
+    "Only large power stations connected to interstate transmission lines"
+   ],
+   "a": 2,
+   "x": "DERs are small generation or storage units sited near consumers. They can turn users into prosumers and ease the load on the grid.",
+   "ty": "fact",
+   "tq": "Use the location-and-scale definition to distinguish distributed from centralised resources.",
+   "sec": "Distributed energy resources - which qualify, grid role"
+  },
+  {
+   "s": "A household installs rooftop solar panels and battery storage, produces part of its own electricity and supplies surplus power to the grid. In the context of distributed energy resources, the household is functioning as a:",
+   "o": [
+    "Strategic oil-stock agency",
+    "Prosumer",
+    "Coal-allocation authority",
+    "Central transmission operator"
+   ],
+   "a": 1,
+   "x": "A consumer who also produces or stores electricity is a prosumer. DERs can make consumers prosumers and help ease the load on the grid.",
+   "ty": "application",
+   "tq": "Apply the concept to a consumer who both produces and consumes electricity.",
+   "sec": "Distributed energy resources - which qualify, grid role"
+  },
+  {
+   "s": "Which of the following correctly matches the policy vehicle with its principal focus?",
+   "o": [
+    "PM Surya Ghar Muft Bijli Yojana — rooftop solar for one crore households",
+    "PM-KUSUM — strategic oil stocks for 90 days of imports",
+    "PM Surya Ghar Muft Bijli Yojana — coal-mine allocation",
+    "PM-KUSUM — nuclear research under the Prime Minister"
+   ],
+   "a": 0,
+   "x": "PM Surya Ghar Muft Bijli Yojana focuses on rooftop solar for one crore households. PM-KUSUM concerns solar pumps and decentralised plants.",
+   "ty": "match",
+   "tq": "Match each scheme with its target beneficiary and technology.",
+   "sec": "Distributed energy resources - which qualify, grid role"
+  },
+  {
+   "s": "PM-KUSUM is associated with:",
+   "o": [
+    "Strategic petroleum reserves",
+    "Green bond regulation",
+    "Only urban rooftop solar for one crore households",
+    "Solar pumps and decentralised plants"
+   ],
+   "a": 3,
+   "x": "PM-KUSUM promotes solar pumps and decentralised plants, whereas PM Surya Ghar focuses on rooftop solar for one crore households.",
+   "ty": "confusable",
+   "tq": "Separate the two solar schemes by their beneficiary and deployment model.",
+   "sec": "Distributed energy resources - which qualify, grid role"
+  },
+  {
+   "s": "In Andhra Pradesh, virtual net metering associated with distributed energy policy has a particular focus on:",
+   "o": [
+    "Coal-producing districts alone",
+    "Only large industrial consumers",
+    "Scheduled Caste and Scheduled Tribe households",
+    "Foreign renewable-energy companies"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh has introduced virtual net metering with a focus on SC/ST households.",
+   "ty": "fact",
+   "tq": "Identify the targeted beneficiary group rather than the technology alone.",
+   "sec": "Distributed energy resources - which qualify, grid role"
+  }
+ ]
+}

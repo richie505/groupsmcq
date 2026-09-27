@@ -1,0 +1,540 @@
+{
+ "book": 5,
+ "row": 66,
+ "chunk": 0,
+ "section": "Wind energy - potential, installed capacity, offshore wind policy, hybrid wind-solar policy",
+ "subsections": [
+  "State ranking - installed capacity, potential, generation",
+  "Installed capacity and national targets",
+  "India's global rank",
+  "Wind turbine terms",
+  "Wind potential assessment - hub heights, NIWE"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 37,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following correctly represents the approximate share of India’s wind-energy potential located in the eight principal windy states?",
+   "o": [
+    "About one-fourth",
+    "About two-thirds",
+    "About one-third",
+    "Almost the entire potential"
+   ],
+   "a": 1,
+   "x": "Nearly two-thirds of India’s wind-energy potential lies in the eight identified windy states.",
+   "ty": "fact",
+   "tq": "Use the approximate-share clue and reject extreme alternatives.",
+   "sec": "State ranking - installed capacity, potential, generation  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT included among the eight states accounting for nearly two-thirds of India’s wind-energy potential?",
+   "o": [
+    "Telangana",
+    "Kerala",
+    "Andhra Pradesh",
+    "Madhya Pradesh"
+   ],
+   "a": 1,
+   "x": "The eight states are Rajasthan, Gujarat, Maharashtra, Karnataka, Andhra Pradesh, Tamil Nadu, Madhya Pradesh and Telangana. Kerala is not included in this group.",
+   "ty": "negative",
+   "tq": "Find the one state outside the stated regional group.",
+   "sec": "State ranking - installed capacity, potential, generation  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding India’s wind-power capacity:\n1. India’s installed wind capacity was 21.04 GW in March 2014.\n2. Installed wind capacity crossed 50 GW in March 2025.\n3. Installed wind capacity was 56.09 GW on 31 March 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: capacity rose from 21.04 GW in March 2014, crossed 50 GW in March 2025 and reached 56.09 GW on 31 March 2026.",
+   "ty": "statements",
+   "tq": "Check each dated milestone independently before selecting the combined code.",
+   "sec": "State ranking - installed capacity, potential, generation  [APPSC]"
+  },
+  {
+   "s": "Arrange the following milestones of India’s installed wind capacity in chronological order:\nA. Capacity reached 56.09 GW\nB. Capacity stood at 21.04 GW\nC. Capacity crossed 50 GW\nD. Capacity reached 54.51 GW at the end of a calendar year",
+   "o": [
+    "B, C, D, A",
+    "B, D, C, A",
+    "C, B, D, A",
+    "B, C, A, D"
+   ],
+   "a": 0,
+   "x": "The sequence is 21.04 GW in March 2014, crossing 50 GW in March 2025, 54.51 GW at the end of 2025 and 56.09 GW on 31 March 2026.",
+   "ty": "chronology",
+   "tq": "Place the dated milestones first, then verify the middle sequence.",
+   "sec": "State ranking - installed capacity, potential, generation  [APPSC]"
+  },
+  {
+   "s": "India added 6.34 GW of wind capacity during calendar year 2025. This addition was approximately what percentage higher than the 3.42 GW added in 2024?",
+   "o": [
+    "46.0%",
+    "65.4%",
+    "85.4%",
+    "105.4%"
+   ],
+   "a": 2,
+   "x": "The 2025 addition of 6.34 GW was reported as 85.4% higher than the 3.42 GW added in 2024.",
+   "ty": "numerical",
+   "tq": "Match the percentage with the directly stated year-on-year comparison.",
+   "sec": "State ranking - installed capacity, potential, generation  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly matches India’s installed wind-capacity milestones?",
+   "o": [
+    "54.51 GW — end of 2025; 56.09 GW — 31 March 2026",
+    "56.09 GW — end of 2025; 54.51 GW — 31 March 2026",
+    "50 GW — end of 2025; 54.51 GW — March 2026",
+    "56.81 GW — end of 2025; 58.14 GW — March 2026"
+   ],
+   "a": 0,
+   "x": "India’s installed wind capacity was 54.51 GW at the end of 2025 and 56.09 GW on 31 March 2026.",
+   "ty": "match",
+   "tq": "Start with the sure date-value pair and eliminate swapped milestones.",
+   "sec": "State ranking - installed capacity, potential, generation  [APPSC]"
+  },
+  {
+   "s": "According to the latest capacity comparison given, wind accounted for what percentage of India’s total power capacity?",
+   "o": [
+    "52.27%",
+    "16.5%",
+    "36–40%",
+    "10.47%"
+   ],
+   "a": 3,
+   "x": "The latest stated wind capacity of 56.81 GW represented 10.47% of the total 542 GW capacity.",
+   "ty": "numerical",
+   "tq": "Separate capacity share from renewable share and capacity-utilisation figures.",
+   "sec": "Installed capacity and national targets  [APPSC]"
+  },
+  {
+   "s": "Which renewable energy source had the largest installed capacity in the stated comparison?",
+   "o": [
+    "Solar power",
+    "Large hydropower",
+    "Wind power",
+    "Nuclear power"
+   ],
+   "a": 0,
+   "x": "Solar power, at 157.05 GW, was the largest renewable source in the comparison, followed by wind at 56.81 GW and large hydro at 51.96 GW.",
+   "ty": "comparison",
+   "tq": "Rank the comparable values before selecting the largest source.",
+   "sec": "Installed capacity and national targets  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Wind was the second-largest renewable-energy source in the stated capacity comparison.\n2. Wind capacity was just ahead of large hydropower.\n3. Large hydropower had an installed capacity of 51.96 GW.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: wind ranked second at 56.81 GW, just ahead of large hydro at 51.96 GW.",
+   "ty": "statements",
+   "tq": "Use the ranking and numerical values together rather than treating them separately.",
+   "sec": "Installed capacity and national targets  [APPSC]"
+  },
+  {
+   "s": "What was the record addition to India’s wind capacity during financial year 2025–26?",
+   "o": [
+    "3.42 GW",
+    "6.05 GW",
+    "12.31 GW",
+    "6.34 GW"
+   ],
+   "a": 1,
+   "x": "The record addition during FY 2025–26 was 6.05 GW. The 6.34 GW figure refers to calendar year 2025.",
+   "ty": "confusable",
+   "tq": "Distinguish the financial-year figure from the calendar-year figure.",
+   "sec": "Installed capacity and national targets  [APPSC]"
+  },
+  {
+   "s": "The record wind-capacity addition of 6.05 GW in FY 2025–26 was approximately what percentage above the addition in FY 2024–25?",
+   "o": [
+    "26%",
+    "36%",
+    "46%",
+    "56%"
+   ],
+   "a": 2,
+   "x": "The 6.05 GW addition in FY 2025–26 was reported to be 46% above the addition in FY 2024–25.",
+   "ty": "numerical",
+   "tq": "Match the record figure with its stated comparative percentage.",
+   "sec": "Installed capacity and national targets  [APPSC]"
+  },
+  {
+   "s": "India’s stated national target for installed wind capacity by 2030 is:",
+   "o": [
+    "60 GW",
+    "155 GW",
+    "175 GW",
+    "100 GW"
+   ],
+   "a": 3,
+   "x": "The national target is to reach 100 GW of installed wind capacity by 2030.",
+   "ty": "fact",
+   "tq": "Distinguish the wind-specific target from the broader renewable-energy target.",
+   "sec": "Installed capacity and national targets  [APPSC]"
+  },
+  {
+   "s": "What is the stated offshore-wind capacity target for India by 2030?",
+   "o": [
+    "10 GW",
+    "50 GW",
+    "20 GW",
+    "30 GW"
+   ],
+   "a": 3,
+   "x": "India’s stated offshore-wind target is 30 GW by 2030.",
+   "ty": "numerical",
+   "tq": "Identify the offshore-specific target rather than the total wind target.",
+   "sec": "Installed capacity and national targets  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the long-term wind-capacity targets mentioned for India?",
+   "o": [
+    "100 GW by 2030 and 155 GW by 2035/156 GW by 2036",
+    "155 GW by 2030 and 175 GW by 2035",
+    "60 GW by 2022 and 100 GW by 2030",
+    "30 GW offshore by 2030 and 500 GW wind by 2035"
+   ],
+   "a": 0,
+   "x": "The stated targets are 100 GW by 2030 and either 155 GW by 2035 or 156 GW by 2036, depending on the cited projection.",
+   "ty": "comparison",
+   "tq": "Keep near-identical long-term target figures tied to their correct years.",
+   "sec": "Installed capacity and national targets  [APPSC]"
+  },
+  {
+   "s": "The target of 60 GW of wind capacity by 2022 formed part of which broader target?",
+   "o": [
+    "283.46 GW non-fossil capacity by 2025",
+    "175 GW renewable-energy capacity by 2022",
+    "100 GW total wind capacity by 2030",
+    "500 GW non-fossil capacity by 2030"
+   ],
+   "a": 1,
+   "x": "The 60 GW wind target was a component of the 175 GW renewable-energy target for 2022, which was missed.",
+   "ty": "fact",
+   "tq": "Place the component target within its parent policy target.",
+   "sec": "Installed capacity and national targets  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about India’s climate and energy commitments:\n1. The 2015 renewable-energy goal included 175 GW by 2022.\n2. The wind component of that goal was 60 GW.\n3. The NDC included a target of 50% non-fossil capacity by 2030.\n4. Non-fossil capacity had reached 51.93% by December 2025.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The 175 GW goal included 60 GW wind, while the NDC target was 50% non-fossil capacity by 2030 and the reported share reached 51.93% by December 2025.",
+   "ty": "statements",
+   "tq": "Check the policy target, its component, and the later achievement as separate statements.",
+   "sec": "Installed capacity and national targets  [APPSC]"
+  },
+  {
+   "s": "India’s reported non-fossil capacity was 283.46 GW, representing what share of total capacity in the stated comparison?",
+   "o": [
+    "42.58%",
+    "46%",
+    "51.93%",
+    "52.27%"
+   ],
+   "a": 3,
+   "x": "The reported non-fossil capacity was 283.46 GW, equal to 52.27% in the stated comparison.",
+   "ty": "numerical",
+   "tq": "Distinguish the December 2025 percentage from the separately reported capacity-share figure.",
+   "sec": "Installed capacity and national targets  [APPSC]"
+  },
+  {
+   "s": "India’s annual turbine manufacturing capacity and the approximate degree of indigenisation are respectively:",
+   "o": [
+    "24 GW and 70–80%",
+    "15 GW and 50–60%",
+    "50 GW and 60–70%",
+    "30 GW and 80–90%"
+   ],
+   "a": 0,
+   "x": "The wind-turbine manufacturing base has a capacity of about 24 GW per year, with 70–80% indigenisation.",
+   "ty": "numerical",
+   "tq": "Match the production figure with its corresponding indigenisation range.",
+   "sec": "Installed capacity and national targets  [APPSC]"
+  },
+  {
+   "s": "Which of the following is the correct order of the top three countries by installed wind-power capacity?",
+   "o": [
+    "China, Germany, United States of America",
+    "United States of America, China, Germany",
+    "China, United States of America, Germany",
+    "Germany, China, United States of America"
+   ],
+   "a": 2,
+   "x": "The top three countries are China, the United States of America and Germany, in that order.",
+   "ty": "chronology",
+   "tq": "Treat the ranking as an ordered sequence and check the middle position carefully.",
+   "sec": "India's global rank  [APPSC]"
+  },
+  {
+   "s": "Global Wind Day is observed on:",
+   "o": [
+    "21 June",
+    "15 July",
+    "15 June",
+    "5 June"
+   ],
+   "a": 2,
+   "x": "Global Wind Day is observed on 15 June.",
+   "ty": "fact",
+   "tq": "Use the exact date rather than confusing it with World Environment Day or the summer solstice.",
+   "sec": "India's global rank  [APPSC]"
+  },
+  {
+   "s": "India hosted the 2026 Global Wind Day conference at which location, with the theme ‘Wind Energy: From Ambition to Acceleration’?",
+   "o": [
+    "Ahmedabad",
+    "New Delhi",
+    "Goa",
+    "Chennai"
+   ],
+   "a": 2,
+   "x": "The 2026 Global Wind Day conference was hosted in Goa with the theme ‘Wind Energy: From Ambition to Acceleration’.",
+   "ty": "fact",
+   "tq": "Link the event theme with its stated host location.",
+   "sec": "India's global rank  [APPSC]"
+  },
+  {
+   "s": "In a horizontal-axis wind turbine (HAWT), the rotor axis is:",
+   "o": [
+    "Parallel to the wind direction",
+    "Independent of wind direction and rotor position",
+    "Always below the foundation level",
+    "Perpendicular to the wind direction and fixed vertically"
+   ],
+   "a": 0,
+   "x": "In a HAWT, the rotor axis is parallel to the wind. Such turbines commonly use three blades and require yaw control.",
+   "ty": "confusable",
+   "tq": "Discriminate HAWT from VAWT using the orientation of the rotor axis.",
+   "sec": "Wind turbine terms  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly associated with a vertical-axis wind turbine (VAWT)?",
+   "o": [
+    "Its axis is parallel to the wind and it necessarily has three blades",
+    "It has higher efficiency than all horizontal-axis turbines",
+    "Its axis is vertical and it can accept wind from any direction",
+    "It can operate only when wind direction is constant"
+   ],
+   "a": 2,
+   "x": "A VAWT has a vertical axis and can take wind from any direction. Its efficiency is generally lower than that of standard horizontal-axis utility turbines.",
+   "ty": "fact",
+   "tq": "Use the defining orientation and directional feature of the turbine type.",
+   "sec": "Wind turbine terms  [APPSC]"
+  },
+  {
+   "s": "The Betz limit states that the maximum fraction of wind’s kinetic energy that can be captured by a wind turbine is approximately:",
+   "o": [
+    "27/16 or 168.75%",
+    "36/40 or 90%",
+    "85%",
+    "16/27 or 59.3%"
+   ],
+   "a": 3,
+   "x": "The Betz limit is 16/27, or approximately 59.3% of the wind’s kinetic energy.",
+   "ty": "numerical",
+   "tq": "Recognise the characteristic fraction and convert it to the stated percentage.",
+   "sec": "Wind turbine terms  [APPSC]"
+  },
+  {
+   "s": "According to the power law for wind turbines, power varies with:",
+   "o": [
+    "The square of wind speed only",
+    "The cube of wind speed and the swept area",
+    "The inverse of wind speed and rotor diameter",
+    "The cube of air pressure only"
+   ],
+   "a": 1,
+   "x": "Wind-turbine power varies with the cube of wind speed and with the swept area.",
+   "ty": "fact",
+   "tq": "Focus on the two variables in the power relationship and reject altered exponents.",
+   "sec": "Wind turbine terms  [APPSC]"
+  },
+  {
+   "s": "Capacity Utilisation Factor of a power plant is best expressed as:",
+   "o": [
+    "Installed capacity divided by annual fuel consumption",
+    "Maximum possible output divided by actual output",
+    "Annual generation divided by transmission loss",
+    "Actual output divided by output at full rated power over the relevant time"
+   ],
+   "a": 3,
+   "x": "Capacity Utilisation Factor is the ratio of actual output to the output possible at full rated power over the relevant period.",
+   "ty": "application",
+   "tq": "Apply the numerator–denominator relationship rather than relying on the term alone.",
+   "sec": "Wind turbine terms  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly compares the stated capacity-utilisation factors?",
+   "o": [
+    "Wind 46%, solar about 52%, coal about 60%",
+    "Wind about 85%, solar 36–40%, coal about 21%",
+    "Wind 36–40%, solar about 21%, coal about 85%",
+    "Wind about 21%, solar 36–40%, coal about 85%"
+   ],
+   "a": 2,
+   "x": "The stated capacity-utilisation factors are 36–40% for wind, about 21% for solar and about 85% for coal.",
+   "ty": "comparison",
+   "tq": "Compare all three values together to avoid swapping the technologies.",
+   "sec": "Wind turbine terms  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about onshore and offshore wind power is NOT correct?",
+   "o": [
+    "Offshore projects eliminate all environmental and navigational risks.",
+    "Floating turbines can be used in deep water.",
+    "Offshore sites generally have stronger and steadier winds.",
+    "Onshore projects are generally cheaper and easier to maintain."
+   ],
+   "a": 0,
+   "x": "Offshore projects do not eliminate risks; they may involve corrosion, undersea cables, navigation issues and marine-ecology concerns.",
+   "ty": "negative",
+   "tq": "Identify the absolute claim contradicted by the stated disadvantages of offshore projects.",
+   "sec": "Wind turbine terms  [APPSC]"
+  },
+  {
+   "s": "Which statement correctly describes IEC wind-turbine classes?",
+   "o": [
+    "The classes are based exclusively on turbine colour and blade number.",
+    "Class I is intended for high-wind sites and Class III for low-wind sites.",
+    "Class III is designed for the highest wind speeds.",
+    "Class I is intended only for offshore sites and Class III only for deserts."
+   ],
+   "a": 1,
+   "x": "IEC turbine classes are determined by site wind speed: Class I is for high-wind sites and Class III for low-wind sites.",
+   "ty": "confusable",
+   "tq": "Compare the end classes and watch for reversal of high-wind and low-wind applications.",
+   "sec": "Wind turbine terms  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the energy-conversion sequence in a wind turbine?",
+   "o": [
+    "Mechanical energy in the generator → wind energy → electricity",
+    "Electrical energy → chemical energy → kinetic energy",
+    "Solar energy → nuclear energy → electricity",
+    "Wind’s kinetic energy → blade/rotor rotation → generator → electricity"
+   ],
+   "a": 3,
+   "x": "Wind’s kinetic energy rotates the blades and rotor; the generator then converts the mechanical energy into electricity.",
+   "ty": "application",
+   "tq": "Follow the conversion chain from the natural source to the final output.",
+   "sec": "Wind turbine terms  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly matches the hub height with the assessed wind potential?",
+   "o": [
+    "120 m — 695.5 GW; 150 m — 1,163.9 GW",
+    "120 m — 1,163.9 GW; 150 m — 695.5 GW",
+    "120 m — 56.09 GW; 150 m — 100 GW",
+    "120 m — 500 GW; 150 m — 695.5 GW"
+   ],
+   "a": 0,
+   "x": "The assessed potential is 695.5 GW at a 120-metre hub height and 1,163.9 GW at a 150-metre hub height.",
+   "ty": "match",
+   "tq": "Start with the lower hub-height value and check the increase at the higher height.",
+   "sec": "Wind potential assessment - hub heights, NIWE  [APPSC]"
+  },
+  {
+   "s": "The estimated wind-energy potential at a hub height of 150 metres is:",
+   "o": [
+    "1,000 GW",
+    "695.5 GW",
+    "1,163.9 GW",
+    "1,500 GW"
+   ],
+   "a": 2,
+   "x": "The estimated potential at a 150-metre hub height is 1,163.9 GW.",
+   "ty": "numerical",
+   "tq": "Match the exact hub-height figure with its corresponding potential.",
+   "sec": "Wind potential assessment - hub heights, NIWE  [APPSC]"
+  },
+  {
+   "s": "The National Institute of Wind Energy (NIWE) is headquartered at:",
+   "o": [
+    "Hyderabad",
+    "Bengaluru",
+    "Chennai",
+    "Jaipur"
+   ],
+   "a": 2,
+   "x": "NIWE is located in Chennai and functions as an autonomous body under the Ministry of New and Renewable Energy.",
+   "ty": "fact",
+   "tq": "Use the organisation–headquarters association rather than the locations of major windy states.",
+   "sec": "Wind potential assessment - hub heights, NIWE  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the National Institute of Wind Energy:\n1. It is an autonomous body under the Ministry of New and Renewable Energy.\n2. It undertakes wind-resource assessment and identification of potential sites.\n3. It prepares the Indian Wind Atlas.\n4. It provides support for testing and certification of wind technologies.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe NIWE’s institutional status and functions, including resource assessment, site identification, atlas preparation, testing and certification support.",
+   "ty": "statements",
+   "tq": "Check the organisation’s status and each listed function before choosing the complete code.",
+   "sec": "Wind potential assessment - hub heights, NIWE  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a stated function or role of NIWE?",
+   "o": [
+    "Identification of potential wind sites",
+    "Wind-resource assessment",
+    "Formulation of monetary policy for renewable-energy banks",
+    "Preparation of the Indian Wind Atlas"
+   ],
+   "a": 2,
+   "x": "NIWE undertakes wind-resource assessment, site identification, atlas preparation and related testing and certification support. Formulation of monetary policy is not its role.",
+   "ty": "negative",
+   "tq": "Find the institutional function that belongs to a different policy domain.",
+   "sec": "Wind potential assessment - hub heights, NIWE  [APPSC]"
+  },
+  {
+   "s": "Assertion (A): Offshore wind projects generally achieve a higher capacity factor than comparable onshore projects.\nReason (R): Offshore locations generally experience stronger and steadier winds.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and stronger and steadier offshore winds explain the generally higher capacity factor of offshore projects.",
+   "ty": "assertion_reason",
+   "tq": "Test whether the reason directly explains the comparison in the assertion.",
+   "sec": "Wind turbine terms  [APPSC]"
+  },
+  {
+   "s": "Assertion (A): Onshore wind is considered the cheapest new electricity source globally.\nReason (R): Onshore wind projects have no maintenance or land-related costs.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 2,
+   "x": "The assertion is true as stated. The reason is false because onshore projects still involve land use and maintenance, even though they are generally cheaper than offshore projects.",
+   "ty": "assertion_reason",
+   "tq": "Reject an absolute reason while retaining the supported assertion.",
+   "sec": "Wind turbine terms  [APPSC]"
+  }
+ ]
+}

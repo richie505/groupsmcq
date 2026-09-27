@@ -1,0 +1,427 @@
+{
+ "book": 5,
+ "row": 69,
+ "chunk": 1,
+ "section": "Energy storage - battery technologies, PLI for advanced chemistry cells, grid storage",
+ "subsections": [
+  "EV types and ecosystem - BEV vs hybrid vs fuel cell, battery swapping, PM E-DRIVE",
+  "PLI for Advanced Chemistry Cell batteries - outlay, beneficiaries, gigafactories",
+  "Battery Energy Storage Systems - VGF, grid-scale targets, storage obligation",
+  "Mechanical and thermal storage - pumped hydro, compressed air, flywheel, molten salt"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 30,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly describes a Battery Electric Vehicle (BEV)?",
+   "o": [
+    "It uses a hydrogen tank and a fuel cell with no battery",
+    "It is powered only by a battery and is charged by plugging into an external source",
+    "It uses compressed air as its sole energy source",
+    "It uses an internal combustion engine and a battery, but cannot be plugged in"
+   ],
+   "a": 1,
+   "x": "A BEV is powered only by a battery pack and normally receives energy through plug-in charging.",
+   "ty": "fact",
+   "tq": "Use the exact power-source distinction to separate BEVs from hybrids and fuel-cell vehicles.",
+   "sec": "EV types and ecosystem - BEV vs hybrid vs fuel cell, battery swapping, PM E-DRIVE"
+  },
+  {
+   "s": "Consider the following statements regarding hybrid vehicles:\n1. An HEV combines an engine with a battery-motor system.\n2. A PHEV can be plugged in for charging.\n3. Both HEVs and PHEVs are powered exclusively by hydrogen fuel cells.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Hybrid vehicles combine an engine and battery-motor system, while a plug-in hybrid electric vehicle can be externally charged. They are not exclusively hydrogen fuel-cell vehicles.",
+   "ty": "statements",
+   "tq": "Find the false statement by checking whether the power source has been wrongly swapped with that of an FCEV.",
+   "sec": "EV types and ecosystem - BEV vs hybrid vs fuel cell, battery swapping, PM E-DRIVE"
+  },
+  {
+   "s": "In a fuel-cell electric vehicle (FCEV), the principal energy conversion is:",
+   "o": [
+    "Hydrogen into electricity on board, with water as the exhaust",
+    "Compressed air into electricity, with carbon dioxide as the exhaust",
+    "Battery energy into hydrogen, producing water as a by-product",
+    "Petrol into electricity through an external generator"
+   ],
+   "a": 0,
+   "x": "An FCEV converts hydrogen into electricity on board through a fuel cell, and water is its exhaust product.",
+   "ty": "fact",
+   "tq": "Test the distinguishing conversion pathway and exhaust product of a fuel-cell vehicle.",
+   "sec": "EV types and ecosystem - BEV vs hybrid vs fuel cell, battery swapping, PM E-DRIVE"
+  },
+  {
+   "s": "Which one of the following correctly represents a fuel cell-electric hybrid vehicle?",
+   "o": [
+    "A vehicle using a hydrogen tank without a fuel cell",
+    "A vehicle using a fuel cell together with a battery buffer",
+    "A vehicle using only an internal combustion engine without storage",
+    "A vehicle using only a large lithium-ion battery pack"
+   ],
+   "a": 1,
+   "x": "A fuel cell-electric hybrid combines a fuel cell with a battery buffer to manage power delivery and storage.",
+   "ty": "confusable",
+   "tq": "Discriminate between an FCEV and a fuel-cell-electric hybrid by identifying the battery buffer.",
+   "sec": "EV types and ecosystem - BEV vs hybrid vs fuel cell, battery swapping, PM E-DRIVE"
+  },
+  {
+   "s": "The following vehicles are classified as alternative powertrain vehicles:\n1. BEV\n2. FCEV\n3. Fuel cell-electric hybrid\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "BEVs, FCEVs and fuel cell-electric hybrids are all included among alternative powertrain vehicles.",
+   "ty": "statements",
+   "tq": "Use the inclusive-list approach; do not mistake alternative powertrains for battery-only vehicles.",
+   "sec": "EV types and ecosystem - BEV vs hybrid vs fuel cell, battery swapping, PM E-DRIVE"
+  },
+  {
+   "s": "Battery swapping policy in India was announced in the Union Budget of:",
+   "o": [
+    "2020-21",
+    "2022-23",
+    "2021-22",
+    "2023-24"
+   ],
+   "a": 1,
+   "x": "The battery swapping policy was announced in Budget 2022-23, followed by a draft policy in 2022.",
+   "ty": "numerical",
+   "tq": "Apply the close-year trap commonly used for policy announcements.",
+   "sec": "EV types and ecosystem - BEV vs hybrid vs fuel cell, battery swapping, PM E-DRIVE"
+  },
+  {
+   "s": "Which one of the following correctly describes the relationship between PM E-DRIVE and FAME-II?",
+   "o": [
+    "PM E-DRIVE replaced FAME-II in 2024",
+    "FAME-II replaced the battery swapping policy in 2024",
+    "PM E-DRIVE was replaced by FAME-II in 2024",
+    "Both schemes were introduced simultaneously in 2024"
+   ],
+   "a": 0,
+   "x": "PM E-DRIVE, or Electric Drive Revolution in Innovative Vehicle Enhancement, replaced FAME-II in 2024.",
+   "ty": "confusable",
+   "tq": "Test the direction of replacement between two similarly associated electric-mobility schemes.",
+   "sec": "EV types and ecosystem - BEV vs hybrid vs fuel cell, battery swapping, PM E-DRIVE"
+  },
+  {
+   "s": "The approved outlay of the PM E-DRIVE Scheme was:",
+   "o": [
+    "₹8,100 crore",
+    "₹10,900 crore",
+    "₹18,100 crore",
+    "₹20,900 crore"
+   ],
+   "a": 1,
+   "x": "The approved outlay of PM E-DRIVE was ₹10,900 crore.",
+   "ty": "numerical",
+   "tq": "Separate the PM E-DRIVE outlay from the different outlays of the ACC battery programme.",
+   "sec": "EV types and ecosystem - BEV vs hybrid vs fuel cell, battery swapping, PM E-DRIVE"
+  },
+  {
+   "s": "With reference to India’s EV push, consider the following statements:\n1. More than 25 lakh EV registrations were recorded in FY 2025-26.\n2. EV penetration was approximately 8.5 percent.\n3. The stated goal is 30 percent EV penetration by 2030.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The figures stated are more than 25 lakh registrations in FY 2025-26, approximately 8.5 percent penetration, and a 30 percent target by 2030.",
+   "ty": "statements",
+   "tq": "Verify each numerical statement independently before selecting the combined code.",
+   "sec": "EV types and ecosystem - BEV vs hybrid vs fuel cell, battery swapping, PM E-DRIVE"
+  },
+  {
+   "s": "The National Programme on Advanced Chemistry Cell (ACC) Battery Storage was approved on:",
+   "o": [
+    "12 May 2021",
+    "12 May 2020",
+    "12 October 2021",
+    "12 May 2022"
+   ],
+   "a": 0,
+   "x": "The National Programme on ACC Battery Storage was approved on 12 May 2021 and launched in October 2021.",
+   "ty": "numerical",
+   "tq": "Distinguish the approval date from the subsequent launch date.",
+   "sec": "PLI for Advanced Chemistry Cell batteries - outlay, beneficiaries, gigafactories"
+  },
+  {
+   "s": "Which ministry is associated with the National Programme on ACC Battery Storage?",
+   "o": [
+    "Ministry of Power",
+    "Ministry of Science and Technology",
+    "Ministry of Heavy Industries",
+    "Ministry of New and Renewable Energy"
+   ],
+   "a": 2,
+   "x": "The National Programme on ACC Battery Storage is associated with the Ministry of Heavy Industries.",
+   "ty": "fact",
+   "tq": "Use the responsible-ministry trap by distinguishing industrial policy from power-sector policy.",
+   "sec": "PLI for Advanced Chemistry Cell batteries - outlay, beneficiaries, gigafactories"
+  },
+  {
+   "s": "The approved capacity and outlay under the National Programme on ACC Battery Storage are respectively:",
+   "o": [
+    "50 GWh and ₹18,100 crore",
+    "20 GWh and ₹18,100 crore",
+    "50 GWh and ₹2,326 crore",
+    "40 GWh and ₹10,900 crore"
+   ],
+   "a": 0,
+   "x": "The programme was approved for 50 GWh of ACC manufacturing capacity with an outlay of ₹18,100 crore.",
+   "ty": "numerical",
+   "tq": "Match the capacity figure with the programme-level outlay rather than the later investment figure.",
+   "sec": "PLI for Advanced Chemistry Cell batteries - outlay, beneficiaries, gigafactories"
+  },
+  {
+   "s": "Consider the following statements regarding the allocation of 40 GWh under the ACC battery programme:\n1. Ola Electric was allocated 20 GWh.\n2. Reliance was allocated 15 GWh in two portions of 5 GWh and 10 GWh.\n3. Rajesh Exports was allocated 5 GWh.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The 40 GWh allocation comprised 20 GWh for Ola Electric, 15 GWh for Reliance in two portions, and 5 GWh for Rajesh Exports.",
+   "ty": "statements",
+   "tq": "Add the listed allocations and check each beneficiary-capacity pair.",
+   "sec": "PLI for Advanced Chemistry Cell batteries - outlay, beneficiaries, gigafactories"
+  },
+  {
+   "s": "By 31 August 2025, the ACC battery programme was associated with which of the following combinations?",
+   "o": [
+    "₹1,003 crore investment and 1,082 direct jobs",
+    "₹2,326 crore investment and 10,082 direct jobs",
+    "₹2,326 crore investment and 1,082 direct jobs",
+    "₹10,000 crore investment and 1,082 direct jobs"
+   ],
+   "a": 2,
+   "x": "By 31 August 2025, the reported investment was ₹2,326 crore and the number of direct jobs was 1,082.",
+   "ty": "numerical",
+   "tq": "Separate programme progress figures from the capital expenditure figures of an individual gigafactory.",
+   "sec": "PLI for Advanced Chemistry Cell batteries - outlay, beneficiaries, gigafactories"
+  },
+  {
+   "s": "Which one of the following accurately states the ACC commissioning position by October 2025?",
+   "o": [
+    "10 GWh was commissioned on time and no capacity was delayed",
+    "1.4 GWh was commissioned on time and 8.6 GWh was delayed",
+    "1.4 GWh was commissioned on time and 30 GWh was delayed",
+    "8.6 GWh was commissioned on time and 1.4 GWh was delayed"
+   ],
+   "a": 1,
+   "x": "By October 2025, only 1.4 GWh had been commissioned on time, while 8.6 GWh was delayed.",
+   "ty": "numerical",
+   "tq": "Watch for reversed numerical pairs when comparing commissioned and delayed capacity.",
+   "sec": "PLI for Advanced Chemistry Cell batteries - outlay, beneficiaries, gigafactories"
+  },
+  {
+   "s": "Which of the following was NOT identified as a hurdle in implementing the ACC battery programme?",
+   "o": [
+    "Missing technology",
+    "Visa hold-ups for Chinese technicians",
+    "Shortage of pumped-storage reservoirs",
+    "Local-content mandates"
+   ],
+   "a": 2,
+   "x": "Visa delays, local-content rules and missing technology were identified as hurdles. Shortage of pumped-storage reservoirs was not listed as an ACC programme hurdle.",
+   "ty": "negative",
+   "tq": "Find the option belonging to the neighbouring storage topic rather than the ACC implementation problem set.",
+   "sec": "PLI for Advanced Chemistry Cell batteries - outlay, beneficiaries, gigafactories"
+  },
+  {
+   "s": "The remaining 10 GWh capacity put to global bids in July 2026 was intended for:",
+   "o": [
+    "Domestic rooftop solar systems",
+    "Grid-scale storage",
+    "Electric two-wheelers only",
+    "Hydrogen production exclusively"
+   ],
+   "a": 1,
+   "x": "The remaining 10 GWh was put to global bids for grid-scale storage.",
+   "ty": "fact",
+   "tq": "Link the unallocated capacity with its stated end-use rather than with vehicle manufacturing.",
+   "sec": "PLI for Advanced Chemistry Cell batteries - outlay, beneficiaries, gigafactories"
+  },
+  {
+   "s": "Waaree Energy Storage raised ₹1,003 crore for a plant involving:",
+   "o": [
+    "50 GWh of hydrogen storage tanks",
+    "10 GWh of sodium-ion cells",
+    "20 GWh of lithium-ion cells and packs",
+    "5 GWh of lead-acid batteries"
+   ],
+   "a": 2,
+   "x": "Waaree Energy Storage raised ₹1,003 crore for a 20 GWh lithium-ion cell and pack plant, involving ₹10,000 crore of capital expenditure.",
+   "ty": "fact",
+   "tq": "Distinguish the fund-raising amount, plant capacity and technology from programme-wide figures.",
+   "sec": "PLI for Advanced Chemistry Cell batteries - outlay, beneficiaries, gigafactories"
+  },
+  {
+   "s": "According to the Central Electricity Authority estimate, India would require how much energy storage by 2029-30?",
+   "o": [
+    "100 GWh",
+    "500 GWh",
+    "336 GWh",
+    "43 GWh"
+   ],
+   "a": 2,
+   "x": "The Central Electricity Authority estimated a requirement of 336 GWh of storage by 2029-30.",
+   "ty": "numerical",
+   "tq": "Separate the projected requirement from the present operating capacity and implementation pipeline.",
+   "sec": "Battery Energy Storage Systems - VGF, grid-scale targets, storage obligation"
+  },
+  {
+   "s": "Viability Gap Funding (VGF) was provided for how much Battery Energy Storage System capacity?",
+   "o": [
+    "336 GWh",
+    "43 GWh",
+    "400 MWh",
+    "4,000 MWh"
+   ],
+   "a": 3,
+   "x": "VGF was provided for 4,000 MWh of BESS capacity.",
+   "ty": "numerical",
+   "tq": "Convert neither units nor scale; distinguish MWh from GWh figures appearing in the same topic.",
+   "sec": "Battery Energy Storage Systems - VGF, grid-scale targets, storage obligation"
+  },
+  {
+   "s": "Consider the following statements regarding BESS policy measures:\n1. ISTS charges were waived for co-located storage.\n2. Consumers may own or lease energy storage.\n3. Energy storage systems were recognised as an element of the power system.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three are stated policy measures: waiver of ISTS charges for eligible co-located storage, consumer ownership or leasing, and recognition of ESS as a power-system element.",
+   "ty": "statements",
+   "tq": "Check whether all policy provisions belong to the same national storage framework.",
+   "sec": "Battery Energy Storage Systems - VGF, grid-scale targets, storage obligation"
+  },
+  {
+   "s": "Which place is associated with the world’s largest single-location BESS outside China?",
+   "o": [
+    "Waaree, Maharashtra",
+    "Modhera, Gujarat",
+    "Khavda, Gujarat",
+    "Rajesh Exports, Karnataka"
+   ],
+   "a": 2,
+   "x": "Adani Green commissioned the world’s largest single-location BESS outside China at Khavda in Gujarat in May 2026.",
+   "ty": "fact",
+   "tq": "Use the location-operator combination to distinguish Khavda from the smaller Modhera installation.",
+   "sec": "Battery Energy Storage Systems - VGF, grid-scale targets, storage obligation"
+  },
+  {
+   "s": "Modhera in Mehsana district of Gujarat is associated with which of the following?",
+   "o": [
+    "A 100 GW pumped-storage project inaugurated in 2026",
+    "A 4,000 MWh VGF project commissioned in 2025",
+    "A 15 MWh BESS inaugurated on 9 October 2022",
+    "A 20 GWh lithium-ion cell plant"
+   ],
+   "a": 2,
+   "x": "Modhera is a solar town associated with a 15 MWh BESS inaugurated on 9 October 2022.",
+   "ty": "fact",
+   "tq": "Separate the smaller town-level storage project from the Khavda and ACC gigafactory projects.",
+   "sec": "Battery Energy Storage Systems - VGF, grid-scale targets, storage obligation"
+  },
+  {
+   "s": "Under the Energy Storage Obligation, the share of energy that DISCOMs were required to meet through storage was to rise from:",
+   "o": [
+    "1 percent in 2022-23 to 10 percent in 2029-30",
+    "2 percent in 2023-24 to 8 percent in 2029-30",
+    "1 percent in 2023-24 to 4 percent in 2029-30",
+    "4 percent in 2023-24 to 1 percent in 2029-30"
+   ],
+   "a": 2,
+   "x": "The Energy Storage Obligation provided for a rise from 1 percent in 2023-24 to 4 percent in 2029-30.",
+   "ty": "numerical",
+   "tq": "Check the direction of the policy trajectory and the exact start and end years.",
+   "sec": "Battery Energy Storage Systems - VGF, grid-scale targets, storage obligation"
+  },
+  {
+   "s": "Which of the following correctly describes the BESS position indicated for September 2025 and the implementation pipeline by 2028?",
+   "o": [
+    "About 4,000 MWh operating; 13 GWh commissioned and 30 GWh cancelled",
+    "About 336 GWh operating; 100 GWh at tendering",
+    "About 43 GWh operating; 500 MWh under implementation",
+    "About 500 MWh operating; 43 GWh under implementation, including 13 GWh under construction and 30 GWh at tendering"
+   ],
+   "a": 3,
+   "x": "Approximately 500 MWh of BESS was operating in September 2025. By 2028, 43 GWh was under implementation, comprising 13 GWh under construction and 30 GWh at tendering.",
+   "ty": "comparison",
+   "tq": "Compare the operating stock with the future implementation pipeline instead of treating them as the same figure.",
+   "sec": "Battery Energy Storage Systems - VGF, grid-scale targets, storage obligation"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Pumped storage — energy stored as rotational kinetic energy in a flywheel",
+    "Compressed air storage — air compressed into caverns and later expanded through turbines",
+    "Flywheel storage — surplus water pumped uphill",
+    "Molten salt storage — hydrogen converted into electricity on board"
+   ],
+   "a": 1,
+   "x": "Compressed air energy storage stores compressed air in caverns and later expands it through turbines. The other descriptions refer to pumped storage, flywheels and fuel-cell vehicles respectively.",
+   "ty": "match",
+   "tq": "Start from the sure principle-technology pair and eliminate the swapped descriptions.",
+   "sec": "Mechanical and thermal storage - pumped hydro, compressed air, flywheel, molten salt"
+  },
+  {
+   "s": "In pumped-storage hydropower, surplus electricity is used to:",
+   "o": [
+    "Pump water uphill, which is later released through turbines during peak demand",
+    "Compress hydrogen into underground tanks",
+    "Heat molten salt for generation after sunset",
+    "Accelerate a flywheel to produce electricity continuously"
+   ],
+   "a": 0,
+   "x": "Pumped storage uses surplus power to pump water to a higher elevation; the water is released through turbines when electricity is needed during peak periods.",
+   "ty": "application",
+   "tq": "Trace the complete storage-and-release cycle rather than identifying only one component.",
+   "sec": "Mechanical and thermal storage - pumped hydro, compressed air, flywheel, molten salt"
+  },
+  {
+   "s": "The energy stored in a flywheel is primarily:",
+   "o": [
+    "Latent heat in molten salt",
+    "Rotational kinetic energy",
+    "Chemical energy",
+    "Gravitational potential energy"
+   ],
+   "a": 1,
+   "x": "A flywheel stores energy as rotational kinetic energy and is noted for fast response.",
+   "ty": "fact",
+   "tq": "Match the storage technology with its defining physical form of energy.",
+   "sec": "Mechanical and thermal storage - pumped hydro, compressed air, flywheel, molten salt"
+  },
+  {
+   "s": "Molten-salt storage is particularly associated with concentrated solar power because it:",
+   "o": [
+    "Produces hydrogen directly from atmospheric nitrogen",
+    "Stores electricity as rotational kinetic energy",
+    "Allows generation after sunset by storing thermal energy",
+    "Uses underground caverns to store compressed air"
+   ],
+   "a": 2,
+   "x": "Molten salt provides thermal storage in concentrated solar power plants, enabling electricity generation after sunset.",
+   "ty": "application",
+   "tq": "Identify the technology from its practical use and time-shifting function.",
+   "sec": "Mechanical and thermal storage - pumped hydro, compressed air, flywheel, molten salt"
+  }
+ ]
+}

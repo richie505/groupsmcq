@@ -1,0 +1,567 @@
+{
+ "book": 5,
+ "row": 114,
+ "chunk": 1,
+ "section": "Health and environment - vector-borne and water-borne diseases, air pollution and health, antimicrobial resistance, One Health",
+ "subsections": [
+  "Vector control and elimination - NFME, MERA, Wolbachia, Gambusia, Bti",
+  "Antimicrobial resistance - causes, biofilms, antibiotics, NAP-AMR, Red Line",
+  "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act",
+  "Immunisation - Mission Indradhanush, UIP, U-WIN"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 39,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following diseases is NOT included among the diseases covered under the National Vector Borne Disease Control Programme (NVBDCP), now known as NCVBDC?",
+   "o": [
+    "Kala-azar",
+    "Tuberculosis",
+    "Lymphatic filariasis",
+    "Chikungunya"
+   ],
+   "a": 1,
+   "x": "NCVBDC covers malaria, Japanese encephalitis, dengue, chikungunya, kala-azar and lymphatic filariasis. Tuberculosis is not a vector-borne disease covered under this programme.",
+   "ty": "negative",
+   "tq": "Find the disease belonging to a neighbouring health programme rather than the listed vector-borne group.",
+   "sec": "Vector control and elimination - NFME, MERA, Wolbachia, Gambusia, Bti"
+  },
+  {
+   "s": "Which of the following diseases have been specifically targeted for elimination under India’s vector-control programme?\n1. Malaria\n2. Lymphatic filariasis\n3. Kala-azar\n4. Dengue\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Malaria, lymphatic filariasis and kala-azar are targeted for elimination. Dengue is outbreak-prone and climate-sensitive, but it is not listed here as an elimination target.",
+   "ty": "statements",
+   "tq": "Separate elimination targets from diseases managed mainly through outbreak control.",
+   "sec": "Vector control and elimination - NFME, MERA, Wolbachia, Gambusia, Bti"
+  },
+  {
+   "s": "Consider the following statements regarding vector-borne diseases:\n1. Malaria and dengue are outbreak-prone diseases.\n2. Malaria and dengue are climate-sensitive diseases.\n3. Source reduction is one of the tools of vector control.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Malaria and dengue are both outbreak-prone and climate-sensitive. Source reduction, along with IRS, LLINs, larvivorous fish and bio-larvicides, is a recognised vector-control tool.",
+   "ty": "statements",
+   "tq": "Use the inclusive option when all the carefully worded functional statements are supported.",
+   "sec": "Vector control and elimination - NFME, MERA, Wolbachia, Gambusia, Bti"
+  },
+  {
+   "s": "The National Framework for Malaria Elimination (2016–2030) aims to achieve which of the following?",
+   "o": [
+    "Dengue-free India by 2030",
+    "Malaria-free India by 2030",
+    "Universal vaccination against malaria by 2030",
+    "Elimination of all communicable diseases by 2030"
+   ],
+   "a": 1,
+   "x": "The National Framework for Malaria Elimination covers the period 2016–2030 and aims at a malaria-free India by 2030.",
+   "ty": "numerical",
+   "tq": "Match the programme period with its precise national target.",
+   "sec": "Vector control and elimination - NFME, MERA, Wolbachia, Gambusia, Bti"
+  },
+  {
+   "s": "MERA India is associated with which of the following?",
+   "o": [
+    "National Dengue Eradication and Research Authority",
+    "Malaria Emergency Response Administration of WHO",
+    "ICMR-led Malaria Elimination Research Alliance",
+    "Ministry of Environment Research Alliance"
+   ],
+   "a": 2,
+   "x": "MERA India stands for the ICMR-led Malaria Elimination Research Alliance.",
+   "ty": "fact",
+   "tq": "Break the acronym into its institutional and subject components.",
+   "sec": "Vector control and elimination - NFME, MERA, Wolbachia, Gambusia, Bti"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below.\n\nList-I (Biological control agent)\nA. Gambusia\nB. Bti\nC. Wolbachia\nD. Guppy\n\nList-II (Description)\n1. Bacterial bio-larvicide\n2. Larvivorous fish\n3. Bacterium associated with cytoplasmic incompatibility and pathogen blocking\n\nCodes:\nA B C D\n(a) 2 1 3 2\n(b) 1 2 3 1\n(c) 2 3 1 2\n(d) 3 1 2 3",
+   "o": [
+    "2 1 3 2",
+    "1 2 3 1",
+    "2 3 1 2",
+    "3 1 2 3"
+   ],
+   "a": 0,
+   "x": "Gambusia and guppy are larvivorous fish; Bti is a bacterial bio-larvicide; Wolbachia is associated with cytoplasmic incompatibility and pathogen blocking.",
+   "ty": "match",
+   "tq": "Start from the sure pair Bti–bacterial bio-larvicide and eliminate incompatible codes.",
+   "sec": "Vector control and elimination - NFME, MERA, Wolbachia, Gambusia, Bti"
+  },
+  {
+   "s": "With reference to Wolbachia, consider the following statements:\n1. It is a Gram-negative bacterium found naturally in 40–60% of insects.\n2. It is naturally present in Aedes aegypti and Anopheles.\n3. It can cause cytoplasmic incompatibility in which eggs fail to develop.\n4. It can contribute to pathogen blocking.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 3 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Wolbachia is a Gram-negative bacterium found in 40–60% of insects. It causes cytoplasmic incompatibility and pathogen blocking, but it is naturally absent in Aedes aegypti and Anopheles.",
+   "ty": "statements",
+   "tq": "The false statement reverses the important absence of Wolbachia in the named mosquito genera.",
+   "sec": "Vector control and elimination - NFME, MERA, Wolbachia, Gambusia, Bti"
+  },
+  {
+   "s": "In the Verily ‘Debug’ approach described for vector suppression, Wolbachia-carrying males were used to suppress which mosquito species?",
+   "o": [
+    "Aedes aegypti",
+    "Culex quinquefasciatus",
+    "Aedes albopictus",
+    "Anopheles stephensi"
+   ],
+   "a": 1,
+   "x": "The Verily ‘Debug’ approach used Wolbachia-carrying males to suppress Culex quinquefasciatus, a vector associated with West Nile and St Louis encephalitis.",
+   "ty": "fact",
+   "tq": "Discriminate between closely related mosquito genera by linking the intervention to the exact species.",
+   "sec": "Vector control and elimination - NFME, MERA, Wolbachia, Gambusia, Bti"
+  },
+  {
+   "s": "Which one of the following correctly describes the Verily ‘Debug’ method mentioned in relation to mosquito control?",
+   "o": [
+    "Introduction of Gambusia into urban drinking-water tanks",
+    "Spraying of Bti over all adult mosquito habitats",
+    "Release of Wolbachia-carrying males without using genetic modification or pesticides",
+    "Release of genetically modified females with pesticide-resistant genes"
+   ],
+   "a": 2,
+   "x": "The method involved Wolbachia-carrying males and did not use genetic modification or pesticides.",
+   "ty": "application",
+   "tq": "Identify the method by separating biological suppression from genetic modification and chemical control.",
+   "sec": "Vector control and elimination - NFME, MERA, Wolbachia, Gambusia, Bti"
+  },
+  {
+   "s": "Which of the following pairs of countries was certified malaria-free by WHO in South Asia in 2015 and 2016, respectively?",
+   "o": [
+    "Sri Lanka and Maldives",
+    "Maldives and Sri Lanka",
+    "India and Sri Lanka",
+    "Maldives and India"
+   ],
+   "a": 1,
+   "x": "Maldives was certified malaria-free in 2015 and Sri Lanka in 2016.",
+   "ty": "chronology",
+   "tq": "Use the year sequence to distinguish two closely associated regional certifications.",
+   "sec": "Vector control and elimination - NFME, MERA, Wolbachia, Gambusia, Bti"
+  },
+  {
+   "s": "Which of the following is NOT identified as a cause or facilitating factor of antimicrobial resistance?\n1. Overuse or misuse of antibiotics\n2. Self-medication\n3. Poor sanitation\n4. Regulated and scientifically supervised veterinary drug use\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2, 3 and 4",
+    "1 only",
+    "4 only",
+    "2 and 3 only"
+   ],
+   "a": 2,
+   "x": "Overuse or misuse, self-medication and poor sanitation contribute to AMR. Regulated and scientifically supervised veterinary drug use is not a cause; unregulated veterinary drug use is a concern.",
+   "ty": "negative",
+   "tq": "Find the carefully reversed statement in an otherwise familiar list of AMR causes.",
+   "sec": "Antimicrobial resistance - causes, biofilms, antibiotics, NAP-AMR, Red Line"
+  },
+  {
+   "s": "Antimicrobial resistance is regarded as a One Health problem primarily because it is influenced by antibiotic use and waste practices in which of the following settings?\n1. Humans\n2. Livestock and farms\n3. Veterinary practice\n4. Pharmaceutical effluent and waste systems\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "AMR is driven by interconnected human, animal, agricultural, veterinary and environmental factors, including pharmaceutical effluents and poor waste control.",
+   "ty": "statements",
+   "tq": "Recognise the One Health pattern when human, animal and environmental domains are combined.",
+   "sec": "Antimicrobial resistance - causes, biofilms, antibiotics, NAP-AMR, Red Line"
+  },
+  {
+   "s": "What are biofilms in the context of antimicrobial resistance?",
+   "o": [
+    "Microbial communities embedded in a self-made slimy matrix",
+    "Synthetic capsules used to deliver antibiotics",
+    "Dead bacterial cells produced after antibiotic treatment",
+    "Free-floating viruses that destroy antibiotic molecules"
+   ],
+   "a": 0,
+   "x": "Biofilms are microbial or bacterial communities embedded in a self-made slimy matrix, which shields them from antibiotics and, in many cases, from host immunity.",
+   "ty": "fact",
+   "tq": "Use the exact structural definition rather than a broad association with infection.",
+   "sec": "Antimicrobial resistance - causes, biofilms, antibiotics, NAP-AMR, Red Line"
+  },
+  {
+   "s": "The principal protective significance of a bacterial biofilm is that it:",
+   "o": [
+    "increases the oxygen content of infected tissue",
+    "prevents all bacterial reproduction",
+    "converts antibiotics into vaccines",
+    "shields bacteria from antibiotics and immunity"
+   ],
+   "a": 3,
+   "x": "The slimy matrix of a biofilm protects bacterial communities from antibiotics and host immunity, making infections difficult to treat.",
+   "ty": "application",
+   "tq": "Translate the definition of a biofilm into its clinical consequence.",
+   "sec": "Antimicrobial resistance - causes, biofilms, antibiotics, NAP-AMR, Red Line"
+  },
+  {
+   "s": "Nafithromycin, marketed as ‘Miqnaf’, is correctly described as which of the following?",
+   "o": [
+    "India’s first indigenous antiviral for dengue",
+    "A fungal vaccine developed for tuberculosis",
+    "A carbapenem developed exclusively for hospital-acquired malaria",
+    "India’s first indigenous macrolide for community-acquired bacterial pneumonia"
+   ],
+   "a": 3,
+   "x": "Nafithromycin, or Miqnaf, is India’s first indigenous macrolide antibiotic intended for community-acquired bacterial pneumonia.",
+   "ty": "fact",
+   "tq": "Link the drug name with its exact class, origin and therapeutic indication.",
+   "sec": "Antimicrobial resistance - causes, biofilms, antibiotics, NAP-AMR, Red Line"
+  },
+  {
+   "s": "Consider the following statements regarding Nafithromycin:\n1. It was launched on 20 November 2024.\n2. It was launched by Dr Jitendra Singh.\n3. It was developed by Wockhardt with BIRAC support.\n4. It was developed by Sun Pharma.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Nafithromycin was launched on 20 November 2024 by Dr Jitendra Singh and was developed by Wockhardt with BIRAC support. It was not developed by Sun Pharma.",
+   "ty": "statements",
+   "tq": "The wrong-company trap tests precise attribution of a product’s developer.",
+   "sec": "Antimicrobial resistance - causes, biofilms, antibiotics, NAP-AMR, Red Line"
+  },
+  {
+   "s": "The National Action Plan on Antimicrobial Resistance (NAP-AMR) was launched in which year and is based on which approach?",
+   "o": [
+    "2017; One Health approach",
+    "2020; pharmaceutical-industry approach",
+    "2016; ecosystem-only approach",
+    "2018; hospital-only approach"
+   ],
+   "a": 0,
+   "x": "India’s National Action Plan on AMR was instituted in 2017 and follows a One Health approach.",
+   "ty": "numerical",
+   "tq": "Pair the year with the governing framework rather than with a neighbouring AMR initiative.",
+   "sec": "Antimicrobial resistance - causes, biofilms, antibiotics, NAP-AMR, Red Line"
+  },
+  {
+   "s": "Which State prepared the first State-level action plan on antimicrobial resistance, known as KARSAP?",
+   "o": [
+    "Andhra Pradesh",
+    "Kerala",
+    "Rajasthan",
+    "Karnataka"
+   ],
+   "a": 1,
+   "x": "Kerala was the first State to prepare a State AMR action plan, known as KARSAP, in 2018.",
+   "ty": "fact",
+   "tq": "Distinguish the State-specific AMR plan from the national action plan.",
+   "sec": "Antimicrobial resistance - causes, biofilms, antibiotics, NAP-AMR, Red Line"
+  },
+  {
+   "s": "The Red Line campaign is associated with which of the following?",
+   "o": [
+    "A red line marking contaminated pharmaceutical effluents",
+    "A red vertical line on packs of prescription-only antibiotics",
+    "A red band on all vaccines supplied under UIP",
+    "A red symbol on blood bags meant for transfusion"
+   ],
+   "a": 1,
+   "x": "The Red Line campaign, introduced in 2016, places a red vertical line on packs of prescription-only antibiotics to discourage unsupervised use.",
+   "ty": "fact",
+   "tq": "Match the campaign name to the exact visual mark and its regulatory purpose.",
+   "sec": "Antimicrobial resistance - causes, biofilms, antibiotics, NAP-AMR, Red Line"
+  },
+  {
+   "s": "Which of the following are listed as critical priority bacterial pathogens in the WHO Bacterial Priority Pathogens List, 2024?\n1. Carbapenem-resistant Acinetobacter baumannii\n2. Enterobacterales\n3. Rifampicin-resistant tuberculosis\n4. Wolbachia\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "The critical-priority group includes carbapenem-resistant Acinetobacter baumannii, Enterobacterales and rifampicin-resistant tuberculosis. Wolbachia is not included in this list.",
+   "ty": "statements",
+   "tq": "Separate antimicrobial priority pathogens from an unrelated biological-control organism.",
+   "sec": "Antimicrobial resistance - causes, biofilms, antibiotics, NAP-AMR, Red Line"
+  },
+  {
+   "s": "The central principle of One Health is that which of the following are interconnected?\n1. Human health\n2. Animal health\n3. Environmental health\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "One Health treats human, animal and environmental health as linked and manages them together through coordinated action.",
+   "ty": "statements",
+   "tq": "Identify the defining three-domain structure of the concept.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "Which of the following is a likely public-health consequence of biodiversity loss under the One Health framework?",
+   "o": [
+    "Lower risk of zoonotic spillover and pandemics",
+    "Complete elimination of animal reservoirs",
+    "Permanent immunity against emerging infections",
+    "Increased zoonotic and pandemic risk"
+   ],
+   "a": 3,
+   "x": "Biodiversity loss can increase zoonotic and pandemic risk by disturbing ecological relationships and interactions between humans, animals and pathogens.",
+   "ty": "application",
+   "tq": "Apply the ecological component of One Health to an emerging-disease scenario.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "The National One Health Mission is associated with which of the following institutions or bodies?",
+   "o": [
+    "Election Commission of India",
+    "Central Pollution Control Board alone",
+    "PM-STIAC",
+    "International Labour Organization"
+   ],
+   "a": 2,
+   "x": "The National One Health Mission is associated with PM-STIAC and provides institutional multisectoral coordination for One Health actions.",
+   "ty": "fact",
+   "tq": "Use institutional association to distinguish the mission from unrelated national bodies.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "The National Institute of One Health is located at:",
+   "o": [
+    "New Delhi",
+    "Bengaluru",
+    "Hyderabad",
+    "Nagpur"
+   ],
+   "a": 3,
+   "x": "The National Institute of One Health is located at Nagpur.",
+   "ty": "fact",
+   "tq": "Test the location of the specialised institution directly against nearby major-city distractors.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "Consider the following statements regarding the Integrated Disease Surveillance Programme (IDSP):\n1. It was established in 2004.\n2. It functions under the Ministry of Health and Family Welfare and the NCDC.\n3. It is concerned with disease surveillance.\n4. It is now operated through the IHIP digital platform.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "IDSP was established in 2004 under MoHFW/NCDC for disease surveillance and is now implemented through the digital IHIP platform.",
+   "ty": "statements",
+   "tq": "Accept the complete institutional, chronological and functional description when all statements align.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched?",
+   "o": [
+    "Nipah — zoonotic disease",
+    "Anthrax — Bacillus anthracis and livestock association",
+    "Rabies — dog bite",
+    "Scrub typhus — exclusively a water-borne disease"
+   ],
+   "a": 3,
+   "x": "Rabies, anthrax, Nipah and scrub typhus are zoonotic or vector-associated diseases listed in the One Health context. Scrub typhus is not exclusively a water-borne disease.",
+   "ty": "negative",
+   "tq": "Find the over-exclusive description that does not fit the disease group.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "The Epidemic Diseases Act, 1897 was enacted primarily in response to which event?",
+   "o": [
+    "The influenza pandemic in Delhi",
+    "The cholera epidemic in Madras",
+    "The smallpox outbreak in Calcutta",
+    "The bubonic plague in Bombay"
+   ],
+   "a": 3,
+   "x": "The Epidemic Diseases Act, 1897 was enacted in response to the bubonic plague in Bombay.",
+   "ty": "fact",
+   "tq": "Link the statute to its triggering historical epidemic rather than to another major disease outbreak.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "Consider the following statements about the Epidemic Diseases Act, 1897:\n1. It contains four sections.\n2. It was amended in 2020.\n3. The 2020 amendment included protection for health workers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Act has four sections, was amended in 2020, and the amendment provided protection to health workers.",
+   "ty": "statements",
+   "tq": "Combine structural detail, amendment year and purpose in a compact statement question.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "Under the One Health approach, which of the following measures may be used together to control zoonotic and antimicrobial threats?\n1. Joint surveillance\n2. Animal vaccination\n3. Veterinary drug oversight\n4. Linked databases\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4",
+    "1, 2 and 3 only"
+   ],
+   "a": 2,
+   "x": "One Health uses joint surveillance, animal vaccination, veterinary drug oversight, carcass and waste control, and linked databases.",
+   "ty": "application",
+   "tq": "Recognise the multisectoral package rather than treating One Health as human surveillance alone.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "Which of the following combinations correctly identifies diseases against which the National One Health Mission may be used?",
+   "o": [
+    "Only nutritional deficiency disorders",
+    "Only malaria and dengue",
+    "Only non-communicable diseases",
+    "Rabies, Nipah, avian influenza and antimicrobial resistance"
+   ],
+   "a": 3,
+   "x": "The National One Health Mission is applicable to rabies, Nipah, avian influenza and AMR, among other linked health threats.",
+   "ty": "fact",
+   "tq": "Choose the option that spans zoonotic, epidemic and antimicrobial-resistance concerns.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "In Andhra Pradesh, the State Action Plan on zoonotic diseases was being prepared under One Health through a workshop involving which set of organisations?",
+   "o": [
+    "NCDC, US CDC and Jhpiego",
+    "WHO, IMF and World Bank",
+    "UNEP, FAO and WTO",
+    "ISRO, DRDO and CSIR"
+   ],
+   "a": 0,
+   "x": "The Andhra Pradesh workshop involved NCDC, the US CDC and Jhpiego, as part of preparation of a State Action Plan on zoonotic diseases.",
+   "ty": "fact",
+   "tq": "Identify the exact institutional partnership rather than a generic international-agency combination.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "Which departments were identified for participation in Andhra Pradesh’s State-level One Health action on zoonotic diseases?\n1. Health\n2. Animal Husbandry\n3. Forest and Environment\n4. Agriculture and Fisheries\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The proposed AP action involved Health, Animal Husbandry, Forest, Environment, Agriculture and Fisheries departments.",
+   "ty": "statements",
+   "tq": "Use the cross-sectoral composition as the clue to the One Health answer.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "The 24-member Andhra Pradesh task force on communicable diseases is headed by the:",
+   "o": [
+    "Health Commissioner",
+    "Chief Secretary",
+    "Agriculture Commissioner",
+    "Director General of Police"
+   ],
+   "a": 0,
+   "x": "The 24-member AP task force on communicable diseases is headed by the Health Commissioner.",
+   "ty": "fact",
+   "tq": "Apply the ‘who would do this job?’ method to identify the responsible authority.",
+   "sec": "One Health and epidemics - mission, IDSP, zoonoses, 1897 Act"
+  },
+  {
+   "s": "Mission Indradhanush, launched in December 2014, principally aims to achieve which of the following?",
+   "o": [
+    "Universal adult BCG vaccination only",
+    "Digitisation of every hospital record",
+    "More than 90% full immunisation of children and pregnant women",
+    "Elimination of all vector-borne diseases by 2024"
+   ],
+   "a": 2,
+   "x": "Mission Indradhanush was launched in December 2014 with the objective of achieving more than 90% full immunisation among children and pregnant women.",
+   "ty": "numerical",
+   "tq": "Link the launch date with the programme’s precise coverage target.",
+   "sec": "Immunisation - Mission Indradhanush, UIP, U-WIN"
+  },
+  {
+   "s": "IMI 5.0 under Mission Indradhanush was designed primarily to reach:",
+   "o": [
+    "Only health-care workers",
+    "Only adults above 60 years",
+    "Only international travellers",
+    "Missed and dropout children"
+   ],
+   "a": 3,
+   "x": "Intensified Mission Indradhanush 5.0 focuses on children who were missed or dropped out of routine immunisation.",
+   "ty": "fact",
+   "tq": "Distinguish the intensified campaign’s target group from the broader programme population.",
+   "sec": "Immunisation - Mission Indradhanush, UIP, U-WIN"
+  },
+  {
+   "s": "The Universal Immunisation Programme (UIP) was introduced in which year?",
+   "o": [
+    "1978",
+    "1985",
+    "1995",
+    "2005"
+   ],
+   "a": 1,
+   "x": "The Universal Immunisation Programme was introduced in 1985.",
+   "ty": "numerical",
+   "tq": "Select the programme year from the sequence of major immunisation milestones.",
+   "sec": "Immunisation - Mission Indradhanush, UIP, U-WIN"
+  },
+  {
+   "s": "Which of the following diseases are included in the 12-disease basket of the Universal Immunisation Programme?\n1. Diphtheria, pertussis and tetanus\n2. Polio, measles and rubella\n3. Childhood tuberculosis and hepatitis B\n4. Hib meningitis/pneumonia, rotavirus diarrhoea, pneumococcal pneumonia and Japanese encephalitis in endemic districts\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The UIP list includes all the diseases stated: diphtheria, pertussis, tetanus, polio, measles, rubella, childhood TB, hepatitis B, Hib disease, rotavirus diarrhoea, pneumococcal pneumonia and JE in endemic districts.",
+   "ty": "statements",
+   "tq": "Treat the complete disease list as one integrated enumeration and select the inclusive combination.",
+   "sec": "Immunisation - Mission Indradhanush, UIP, U-WIN"
+  },
+  {
+   "s": "What is the principal function of the U-WIN digital portal?",
+   "o": [
+    "Issuing licences for vaccine manufacturers",
+    "Registering every vaccination provided under UIP",
+    "Monitoring only antimicrobial resistance in hospitals",
+    "Recording only adult BCG doses in Andhra Pradesh"
+   ],
+   "a": 1,
+   "x": "U-WIN is a digital portal for registering every vaccination administered under the Universal Immunisation Programme.",
+   "ty": "fact",
+   "tq": "Match the digital platform with its exact record-keeping function.",
+   "sec": "Immunisation - Mission Indradhanush, UIP, U-WIN"
+  },
+  {
+   "s": "With reference to the adult BCG drive in Andhra Pradesh, consider the following statements:\n1. It began on 16 May 2024.\n2. It involved 27.10 lakh doses.\n3. Andhra Pradesh was the leading State in India in this drive.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The AP adult BCG drive began on 16 May 2024, administered 27.10 lakh doses and placed Andhra Pradesh first in India for this drive.",
+   "ty": "statements",
+   "tq": "Combine date, numerical scale and comparative rank in a single factual set.",
+   "sec": "Immunisation - Mission Indradhanush, UIP, U-WIN"
+  }
+ ]
+}

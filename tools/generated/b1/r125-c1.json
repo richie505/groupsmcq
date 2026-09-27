@@ -1,0 +1,342 @@
+{
+ "book": 1,
+ "row": 125,
+ "chunk": 1,
+ "section": "Folk arts, festivals and fairs of Andhra Pradesh",
+ "subsections": [
+  "Fairs and jataras → place + district",
+  "Folk songs → occasion",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 23,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Gangamma Jatara is associated with which place in Andhra Pradesh?",
+   "o": [
+    "Vizianagaram",
+    "Kotappakonda",
+    "Mahanandi",
+    "Tirupati"
+   ],
+   "a": 3,
+   "x": "Gangamma Jatara is held at Tirupati.",
+   "ty": "fact",
+   "tq": "Use direct place-based recall for a fair and its venue.",
+   "sec": "Fairs and jataras → place + district"
+  },
+  {
+   "s": "Which one of the following features is associated with the Gangamma Jatara of Tirupati?",
+   "o": [
+    "Men appearing in women's attire as Perantalu Vesham",
+    "Shivaratri fair",
+    "Sirimanu utsavam",
+    "Ancient tirunallu at a hill shrine"
+   ],
+   "a": 0,
+   "x": "During the Gangamma Jatara, men appear in women's attire known as Perantalu Vesham.",
+   "ty": "fact",
+   "tq": "Discriminate between distinctive ritual features of different fairs.",
+   "sec": "Fairs and jataras → place + district"
+  },
+  {
+   "s": "The bamboo structures known as ‘Chapparalu’ are associated with which fair?",
+   "o": [
+    "Mahanandi fair",
+    "Paidithalli Ammavaru festival",
+    "Kotappakonda Jatra",
+    "Gangamma Jatara"
+   ],
+   "a": 3,
+   "x": "Chapparalu are bamboo structures associated with the Gangamma Jatara at Tirupati.",
+   "ty": "confusable",
+   "tq": "Identify the exact ritual term linked with a particular fair.",
+   "sec": "Fairs and jataras → place + district"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Gangamma Jatara — Tirupati\n2. Paidithalli Ammavaru — Vizianagaram\n3. Mahanandi fair — Nandyal district\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correctly matched: Gangamma Jatara is held at Tirupati, Paidithalli Ammavaru is associated with Vizianagaram, and the Mahanandi fair is in Nandyal district.",
+   "ty": "statements",
+   "tq": "Check each place association before selecting the coded combination.",
+   "sec": "Fairs and jataras → place + district"
+  },
+  {
+   "s": "Sirimanu utsavam is associated with which of the following festivals?",
+   "o": [
+    "Gangamma Jatara",
+    "Mahanandi Shivaratri fair",
+    "Kotappakonda Jatra",
+    "Paidithalli Ammavaru"
+   ],
+   "a": 3,
+   "x": "Sirimanu utsavam is the distinctive feature associated with Paidithalli Ammavaru at Vizianagaram.",
+   "ty": "fact",
+   "tq": "Match a distinctive observance with its associated festival.",
+   "sec": "Fairs and jataras → place + district"
+  },
+  {
+   "s": "Kotappakonda Jatra is located in the Guntur region, which is now included in which district?",
+   "o": [
+    "Nandyal",
+    "Krishna",
+    "Palnadu",
+    "Vizianagaram"
+   ],
+   "a": 2,
+   "x": "Kotappakonda lies in the former Guntur region and is now in Palnadu district.",
+   "ty": "fact",
+   "tq": "Use the current administrative location rather than the older regional reference.",
+   "sec": "Fairs and jataras → place + district"
+  },
+  {
+   "s": "Which one of the following is described as an ancient tirunallu?",
+   "o": [
+    "Paidithalli Ammavaru festival",
+    "Mahanandi fair",
+    "Gangamma Jatara",
+    "Kotappakonda Jatra"
+   ],
+   "a": 3,
+   "x": "Kotappakonda Jatra is described as an ancient tirunallu.",
+   "ty": "fact",
+   "tq": "Associate the descriptive historical label with the correct jatra.",
+   "sec": "Fairs and jataras → place + district"
+  },
+  {
+   "s": "Mahanandi fair is particularly associated with which occasion?",
+   "o": [
+    "Nine-day Gangamma celebrations",
+    "Group performance of Kolatam",
+    "Sirimanu utsavam",
+    "Shivaratri"
+   ],
+   "a": 3,
+   "x": "The fair at Mahanandi, in Nandyal district, is associated with Shivaratri.",
+   "ty": "fact",
+   "tq": "Distinguish the religious occasion of one fair from the rituals of others.",
+   "sec": "Fairs and jataras → place + district"
+  },
+  {
+   "s": "Which of the following statements regarding medieval Tirunallu or Jataralu is correct?\n1. They were generally held at holy sites.\n2. Kotappakonda was one such site.\n3. Srikakulam in Krishna district was also cited as such a site.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Medieval Tirunallu or Jataralu were held at holy sites, with Kotappakonda and Srikakulam in Krishna district cited as examples.",
+   "ty": "statements",
+   "tq": "Combine the general feature with both examples before choosing the code.",
+   "sec": "Fairs and jataras → place + district"
+  },
+  {
+   "s": "‘Jola patalu’ belong to which category of folk songs?",
+   "o": [
+    "Wedding choir songs",
+    "Songs for group stick dance",
+    "Heroic ballads",
+    "Lullabies"
+   ],
+   "a": 3,
+   "x": "Jola patalu are lullabies.",
+   "ty": "fact",
+   "tq": "Test the occasion-based meaning of a regional folk-song term.",
+   "sec": "Folk songs → occasion"
+  },
+  {
+   "s": "Kolatam kirtanas are associated with which occasion or activity?",
+   "o": [
+    "Group dance",
+    "Sirimanu procession",
+    "Lullaby singing",
+    "Shivaratri worship only"
+   ],
+   "a": 0,
+   "x": "Kolatam kirtanas are sung for group dance and are associated with Annamacharya.",
+   "ty": "fact",
+   "tq": "Separate folk songs by their performance occasion.",
+   "sec": "Folk songs → occasion"
+  },
+  {
+   "s": "Which of the following statements about the Gathasaptasati is correct?",
+   "o": [
+    "It is a book on the theory of folk knowledge written by Biruduraju Ramaraju.",
+    "It describes only lullabies sung by women.",
+    "It records only court dances performed by professional artists.",
+    "It records couple and choir dances of rural folk."
+   ],
+   "a": 3,
+   "x": "The Gathasaptasati records couple and choir dances of rural folk.",
+   "ty": "fact",
+   "tq": "Reject over-specific descriptions and identify the precise literary-cultural reference.",
+   "sec": "Folk songs → occasion"
+  },
+  {
+   "s": "The term ‘Janapada Kalalu’ refers to which of the following?",
+   "o": [
+    "Only temple architecture",
+    "Arts of the village or Janapadam",
+    "Court music of the medieval sultanates",
+    "Classical dance forms performed exclusively on stage"
+   ],
+   "a": 1,
+   "x": "Janapada Kalalu means the arts of the Janapadam, or village folk.",
+   "ty": "fact",
+   "tq": "Test the exact meaning of a culturally similar-looking term.",
+   "sec": "Folk songs → occasion"
+  },
+  {
+   "s": "Who wrote the first book on the theory of folk knowledge?",
+   "o": [
+    "Gautamiputra Satakarni",
+    "Biruduraju Ramaraju",
+    "Kumaragiri Reddy",
+    "Annamacharya"
+   ],
+   "a": 1,
+   "x": "Biruduraju Ramaraju wrote the first folk-knowledge theory book.",
+   "ty": "fact",
+   "tq": "Use the author-work association rather than a broad cultural description.",
+   "sec": "Folk songs → occasion"
+  },
+  {
+   "s": "World Folk Day is observed on which date?",
+   "o": [
+    "2 August",
+    "22 August",
+    "21 April",
+    "13 May"
+   ],
+   "a": 1,
+   "x": "World Folk Day is observed on 22 August.",
+   "ty": "numerical",
+   "tq": "Recall the exact date from the set of cultural observances.",
+   "sec": "Folk songs → occasion"
+  },
+  {
+   "s": "The period from 1857 to 1956 is described as the ‘golden era’ of which field?",
+   "o": [
+    "Andhra handloom production",
+    "Folk dance",
+    "Sufi literature",
+    "Mughal architecture"
+   ],
+   "a": 1,
+   "x": "The period 1857–1956 is described as the golden era of dance.",
+   "ty": "numerical",
+   "tq": "Link a date range with its associated cultural field.",
+   "sec": "Folk songs → occasion"
+  },
+  {
+   "s": "Which of the following statements about the Kondapalli Toys Festival is correct?\n1. It has been made an annual festival.\n2. Its annual status was reported in April 2026.\n3. It is a marker of Telangana culture.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The Kondapalli Toys Festival was made annual, with this development reported in April 2026. It is an Andhra Pradesh cultural reference, not a Telangana marker.",
+   "ty": "statements",
+   "tq": "Separate current Andhra cultural developments from neighbouring-state markers.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Etikoppaka received a current institutional connection with which place?",
+   "o": [
+    "Tirupati airport",
+    "Bhogapuram airport",
+    "Kondapalli fort",
+    "Lepakshi temple"
+   ],
+   "a": 1,
+   "x": "An Etikoppaka installation was reported at Bhogapuram airport in August 2026.",
+   "ty": "fact",
+   "tq": "Match the craft-related development with its exact location.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which initiative is associated with Lepakshi in the context of current cultural promotion?",
+   "o": [
+    "A Sirimanu utsavam",
+    "A Telangana Bathukamma campaign",
+    "A nine-day Perantalu Vesham festival",
+    "A portal for e-commerce exports"
+   ],
+   "a": 3,
+   "x": "Lepakshi has an e-commerce export portal for promoting crafts, reported in March 2026.",
+   "ty": "fact",
+   "tq": "Identify the specific digital initiative linked with a state cultural platform.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Under which theme are Andhra Pradesh GI crafts marketed through Lepakshi by APHDC?",
+   "o": [
+    "Make in India",
+    "One District, One Festival",
+    "Digital Andhra only",
+    "Vocal for Local"
+   ],
+   "a": 3,
+   "x": "APHDC markets Andhra Pradesh GI crafts through Lepakshi under the theme ‘Vocal for Local’.",
+   "ty": "fact",
+   "tq": "Test the exact official slogan associated with the institutional initiative.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following is NOT a marker of Telangana culture?",
+   "o": [
+    "Kolatam kirtanas",
+    "Cherial",
+    "Bathukamma",
+    "Oggu Katha"
+   ],
+   "a": 0,
+   "x": "Bathukamma, Oggu Katha and Cherial are listed as Telangana markers. Kolatam kirtanas are associated with group dance in the Andhra folk-song context.",
+   "ty": "negative",
+   "tq": "Find the item belonging to the neighbouring cultural context rather than the listed group.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Bathukamma — Telangana marker\n2. Bonalu — Telangana marker\n3. Bidri — Telangana marker\n4. Nirmal — Telangana marker\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Bathukamma, Bonalu, Bidri and Nirmal are all listed as Telangana cultural markers.",
+   "ty": "statements",
+   "tq": "Verify every member of a regional cultural list before selecting the complete combination.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below.\nList-I (Cultural item)\n a. Gangamma Jatara\n b. Paidithalli Ammavaru\n c. Mahanandi fair\n d. Jola patalu\n\nList-II (Association)\n i. Lullabies\n ii. Vizianagaram\n iii. Shivaratri\n iv. Tirupati",
+   "o": [
+    "a–iv, b–ii, c–iii, d–i",
+    "a–ii, b–iv, c–i, d–iii",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–iv, b–iii, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "Gangamma Jatara is associated with Tirupati, Paidithalli Ammavaru with Vizianagaram, Mahanandi fair with Shivaratri, and Jola patalu with lullabies.",
+   "ty": "match",
+   "tq": "Start from the sure place and occasion pairs, then eliminate incompatible codes.",
+   "sec": "Fairs and jataras → place + district"
+  }
+ ]
+}

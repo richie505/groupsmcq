@@ -1,0 +1,372 @@
+{
+ "book": 5,
+ "row": 103,
+ "chunk": 4,
+ "section": "Solid waste, plastic waste, e-waste, biomedical and construction waste - rules and management",
+ "subsections": [
+  "Biodegradable vs non-biodegradable",
+  "Indian municipal solid waste - composition, generation, highest-generating states",
+  "Industrial solid wastes → source industry and reuse",
+  "Solid waste definition and categories",
+  "Source segregation categories - item → bin"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is biodegradable?",
+   "o": [
+    "Glass bottle",
+    "Wool",
+    "Synthetic rubber tyre",
+    "Aluminium foil"
+   ],
+   "a": 1,
+   "x": "Wool is a natural fibre and is biodegradable. Aluminium foil, glass and synthetic rubber are non-biodegradable.",
+   "ty": "fact",
+   "tq": "Use the material-property distinction to identify the biodegradable item.",
+   "sec": "Biodegradable vs non-biodegradable"
+  },
+  {
+   "s": "Which one of the following is NOT biodegradable?",
+   "o": [
+    "Vegetable peels",
+    "Tin scrap",
+    "Paddy husk",
+    "Cow-dung"
+   ],
+   "a": 1,
+   "x": "Tin scrap is a metal and cannot normally be decomposed by microorganisms. Paddy husk, vegetable peels and cow-dung are biodegradable.",
+   "ty": "negative",
+   "tq": "Find the non-biodegradable item by separating metals from organic wastes.",
+   "sec": "Biodegradable vs non-biodegradable"
+  },
+  {
+   "s": "Consider the following statements regarding decomposition of biodegradable waste:\n1. Aerobic decomposition produces compost.\n2. Anaerobic decomposition can produce methane.\n3. Biodegradable waste is mainly decomposed into simpler substances by microorganisms.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Microorganisms decompose biodegradable matter into simpler substances; oxygen-supported decomposition produces compost, while anaerobic decomposition produces methane or biogas.",
+   "ty": "statements",
+   "tq": "Combine the process, condition and product statements before selecting the coded option.",
+   "sec": "Biodegradable vs non-biodegradable"
+  },
+  {
+   "s": "Which one of the following correctly describes non-biodegradable waste?",
+   "o": [
+    "It consists exclusively of food and garden waste.",
+    "It is mainly inorganic and tends to accumulate in the environment.",
+    "It is decomposed rapidly by bacteria into compost.",
+    "It produces methane only in the presence of oxygen."
+   ],
+   "a": 1,
+   "x": "Non-biodegradable waste is generally inorganic, is not broken down by microorganisms and accumulates in the environment.",
+   "ty": "fact",
+   "tq": "Test the exact definition rather than identifying an example.",
+   "sec": "Biodegradable vs non-biodegradable"
+  },
+  {
+   "s": "In the composition of Indian municipal solid waste, which component accounts for approximately 55–60 per cent?",
+   "o": [
+    "Recyclable waste",
+    "Biodegradable waste",
+    "Textile waste",
+    "Hazardous or non-recyclable waste"
+   ],
+   "a": 1,
+   "x": "Biodegradable material constitutes approximately 55–60 per cent of Indian municipal solid waste.",
+   "ty": "numerical",
+   "tq": "Match the percentage range with the corresponding waste component.",
+   "sec": "Indian municipal solid waste - composition, generation, highest-generating states"
+  },
+  {
+   "s": "Consider the following statements regarding the composition of Indian municipal solid waste:\n1. Recyclable waste constitutes approximately 15–20 per cent.\n2. Hazardous or non-recyclable waste constitutes approximately 15–25 per cent.\n3. Biodegradable waste constitutes approximately 55–60 per cent.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three ranges are correct: biodegradable waste is about 55–60 per cent, recyclable waste 15–20 per cent, and hazardous or non-recyclable waste 15–25 per cent.",
+   "ty": "statements",
+   "tq": "Check each numerical range independently before using the combination code.",
+   "sec": "Indian municipal solid waste - composition, generation, highest-generating states"
+  },
+  {
+   "s": "India generates more than how much municipal solid waste annually?",
+   "o": [
+    "62 million tonnes",
+    "6.2 million tonnes",
+    "1.62 billion tonnes",
+    "620 million tonnes"
+   ],
+   "a": 0,
+   "x": "India generates over 62 million tonnes of municipal solid waste each year.",
+   "ty": "numerical",
+   "tq": "Use scale recognition to distinguish million from billion quantities.",
+   "sec": "Indian municipal solid waste - composition, generation, highest-generating states"
+  },
+  {
+   "s": "Approximately what proportion of India’s total municipal solid waste is generated in urban areas?",
+   "o": [
+    "20 per cent",
+    "40 per cent",
+    "60 per cent",
+    "90 per cent"
+   ],
+   "a": 2,
+   "x": "Approximately 60 per cent of India’s total municipal solid waste comes from urban areas.",
+   "ty": "numerical",
+   "tq": "Identify the stated share without reversing the urban-waste comparison.",
+   "sec": "Indian municipal solid waste - composition, generation, highest-generating states"
+  },
+  {
+   "s": "With reference to municipal solid waste management in India, consider the following statements:\n1. Independent estimates indicate that about 60–70 per cent of municipal waste is collected.\n2. Independent estimates indicate that only about 15–20 per cent is processed.\n3. Urban waste processing under the official SBM-U figure rose from 16 per cent in 2014 to 82 per cent in 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The independent estimates and the official SBM-U processing figures refer to different reporting bases.",
+   "ty": "statements",
+   "tq": "Keep independently reported estimates separate from official programme figures.",
+   "sec": "Indian municipal solid waste - composition, generation, highest-generating states"
+  },
+  {
+   "s": "India ranks third among dry municipal solid-waste generators in respect of which waste category?",
+   "o": [
+    "Construction waste",
+    "Biomedical waste",
+    "Textile waste",
+    "Plastic waste"
+   ],
+   "a": 2,
+   "x": "India ranks third among dry municipal solid-waste generators of textile waste, producing approximately 7.8 million tonnes annually.",
+   "ty": "fact",
+   "tq": "Link the ranking with the specific dry-waste category rather than total waste.",
+   "sec": "Indian municipal solid waste - composition, generation, highest-generating states"
+  },
+  {
+   "s": "Approximately how much textile waste does India generate annually according to the stated estimate?",
+   "o": [
+    "780 million tonnes",
+    "7.8 million tonnes",
+    "0.78 million tonnes",
+    "78 million tonnes"
+   ],
+   "a": 1,
+   "x": "The estimated annual generation of textile waste is approximately 7.8 million tonnes.",
+   "ty": "numerical",
+   "tq": "Check the decimal placement in the stated annual quantity.",
+   "sec": "Indian municipal solid waste - composition, generation, highest-generating states"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Industrial waste)\na. Fly ash\nb. Steel slag\nc. Red mud\nd. Phosphogypsum\n\nList-II (Source industry)\ni. Alumina refining\n ii. Steel plants\n iii. Coal-based thermal power plants\n iv. Phosphoric acid or phosphatic fertiliser plants\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–iii, b–ii, c–i, d–iv",
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "Fly ash comes from coal-based thermal power plants, steel slag from steel plants, red mud from alumina refining, and phosphogypsum from phosphoric acid or phosphatic fertiliser plants.",
+   "ty": "match",
+   "tq": "Start from the sure source-industry pair and eliminate the codes that swap industrial processes.",
+   "sec": "Industrial solid wastes → source industry and reuse"
+  },
+  {
+   "s": "Fly ash from coal-based thermal power plants can be reused in which of the following?\n1. Brick manufacture\n2. Cement production\n3. Road construction\n4. Partial replacement of Portland cement in concrete\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Fly ash has all four listed uses. Its use in bricks, cement and roads is especially important, and it can partly replace Portland cement in concrete.",
+   "ty": "statements",
+   "tq": "Treat the listed reuse applications as cumulative rather than mutually exclusive.",
+   "sec": "Industrial solid wastes → source industry and reuse"
+  },
+  {
+   "s": "Which one of the following is a recognised reuse of mine tailings, overburden and waste rock?",
+   "o": [
+    "Backfilling",
+    "Manufacture of sanitary napkins",
+    "Production of biogas by aerobic digestion",
+    "Direct conversion into domestic sewage"
+   ],
+   "a": 0,
+   "x": "Mine tailings, overburden and waste rock can be reused for backfilling. Non-ferrous tailings may also carry heavy metals and cause acid or alkaline drainage.",
+   "ty": "fact",
+   "tq": "Identify the direct reuse associated with mining waste.",
+   "sec": "Industrial solid wastes → source industry and reuse"
+  },
+  {
+   "s": "Which statement about non-ferrous mine tailings is correct?",
+   "o": [
+    "They are free from metals and cannot affect drainage.",
+    "They are produced only by pharmaceutical units.",
+    "They are always biodegradable within a few days.",
+    "They may carry heavy metals and cause acid or alkaline drainage."
+   ],
+   "a": 3,
+   "x": "Non-ferrous mine tailings may contain heavy metals and can cause acid or alkaline drainage.",
+   "ty": "application",
+   "tq": "Connect the waste characteristic with its environmental consequence.",
+   "sec": "Industrial solid wastes → source industry and reuse"
+  },
+  {
+   "s": "According to the stated APPCB report, more than how many industries in Andhra Pradesh produce hazardous and non-hazardous waste?",
+   "o": [
+    "4 lakh",
+    "400",
+    "4,000",
+    "40,000"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh has more than 4,000 industries, including bulk-drug, chemical, cement and steel industries, producing hazardous and non-hazardous waste.",
+   "ty": "numerical",
+   "tq": "Retain the order of magnitude and the industries associated with the figure.",
+   "sec": "Industrial solid wastes → source industry and reuse"
+  },
+  {
+   "s": "For the purposes of solid-waste management, solid waste includes discarded or abandoned material in which of the following forms?\n1. Solid\n2. Liquid\n3. Semi-solid\n4. Containerised gaseous form\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The definition includes discarded or abandoned materials that are solid, liquid, semi-solid or containerised gaseous.",
+   "ty": "statements",
+   "tq": "Read the legal-style definition inclusively and avoid limiting solid waste to solid matter alone.",
+   "sec": "Solid waste definition and categories"
+  },
+  {
+   "s": "Which one of the following is correctly classified as construction and demolition waste?",
+   "o": [
+    "Food scraps and vegetable peels",
+    "Concrete, dirt, rocks and debris",
+    "Syringes and gloves",
+    "Batteries and cleaning agents"
+   ],
+   "a": 1,
+   "x": "Construction and demolition waste is generally inert and includes concrete, dirt, rocks and debris.",
+   "ty": "fact",
+   "tq": "Match the waste category with its characteristic examples.",
+   "sec": "Solid waste definition and categories"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Municipal waste — Household and commercial waste",
+    "Biomedical waste — Syringes and gloves",
+    "E-waste — Discarded electrical and electronic material",
+    "Radioactive waste — Concrete, dirt and rocks"
+   ],
+   "a": 3,
+   "x": "Concrete, dirt and rocks are typical inert construction and demolition waste. Radioactive waste is a separate category.",
+   "ty": "negative",
+   "tq": "Locate the category whose examples have been replaced by those of another category.",
+   "sec": "Solid waste definition and categories"
+  },
+  {
+   "s": "Industrial solid waste generally consists of which of the following?",
+   "o": [
+    "Only household organics",
+    "Exclusively biodegradable garden waste",
+    "Only radioactive substances",
+    "Process by-products, which are often hazardous"
+   ],
+   "a": 3,
+   "x": "Industrial solid waste includes process by-products and is often hazardous.",
+   "ty": "fact",
+   "tq": "Distinguish the broad industrial category from household and biomedical categories.",
+   "sec": "Solid waste definition and categories"
+  },
+  {
+   "s": "Under the Solid Waste Management Rules, 2016, source segregation required which three streams?",
+   "o": [
+    "Wet, sanitary and radioactive",
+    "Organic, industrial and construction only",
+    "Dry, biomedical and mining",
+    "Wet, dry and domestic hazardous"
+   ],
+   "a": 3,
+   "x": "The 2016 Rules provided for segregation into biodegradable or wet waste, dry waste and domestic hazardous waste.",
+   "ty": "fact",
+   "tq": "Recall the original three-stream classification before applying the later rule change.",
+   "sec": "Source segregation categories - item → bin"
+  },
+  {
+   "s": "Under the Solid Waste Management Rules, 2026, which came into force on 1 April 2026, source segregation is organised into how many streams?",
+   "o": [
+    "Four",
+    "Three",
+    "Five",
+    "Two"
+   ],
+   "a": 0,
+   "x": "The 2026 Rules, which replaced the 2016 Rules, provide four streams: wet, dry, sanitary and special-care domestic hazardous waste.",
+   "ty": "numerical",
+   "tq": "Use the change from the earlier three-stream system to identify the current number.",
+   "sec": "Source segregation categories - item → bin"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Bin under the 2026 Rules)\na. Wet\nb. Dry\nc. Sanitary\nd. Special care\n\nList-II (Examples)\ni. Batteries, chemicals and paint cans\n ii. Food scraps, peels and garden waste\n iii. Diapers and sanitary napkins\n iv. Paper, plastics, metals, glass and wood\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–ii, c–i, d–iii",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–i, b–iii, c–ii, d–iv"
+   ],
+   "a": 0,
+   "x": "Wet waste includes food scraps, peels and garden waste; dry waste includes paper, plastics, metals, glass and wood; sanitary waste includes diapers and napkins; special-care waste includes batteries, chemicals and paint cans.",
+   "ty": "match",
+   "tq": "Begin with the distinctive sanitary and special-care pairs, then complete the remaining codes.",
+   "sec": "Source segregation categories - item → bin"
+  },
+  {
+   "s": "A household has food scraps, plastic bottles, a used sanitary napkin and a discarded battery. Under the 2026 source-segregation system, which sequence of bins is appropriate?",
+   "o": [
+    "Special care, dry, sanitary, wet",
+    "Wet, dry, sanitary, special care",
+    "Wet, sanitary, dry, special care",
+    "Dry, wet, special care, sanitary"
+   ],
+   "a": 1,
+   "x": "Food scraps go into the wet bin, plastic bottles into the dry bin, sanitary napkins into the sanitary bin and batteries into the special-care bin.",
+   "ty": "application",
+   "tq": "Apply the item-to-bin rule sequentially to a practical household situation.",
+   "sec": "Source segregation categories - item → bin"
+  },
+  {
+   "s": "Under the Solid Waste Management Rules, 2016, used diapers and sanitary napkins were generally to be wrapped and placed in which stream?",
+   "o": [
+    "Radioactive waste",
+    "Wet waste",
+    "Dry waste",
+    "Separate sanitary stream"
+   ],
+   "a": 2,
+   "x": "Under the 2016 system, used diapers and sanitary napkins were generally wrapped and placed in the dry bin. The 2026 Rules provide a separate sanitary stream.",
+   "ty": "confusable",
+   "tq": "Discriminate between the earlier three-stream rule and the later four-stream rule.",
+   "sec": "Source segregation categories - item → bin"
+  }
+ ]
+}

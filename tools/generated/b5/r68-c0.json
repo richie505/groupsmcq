@@ -1,0 +1,369 @@
+{
+ "book": 5,
+ "row": 68,
+ "chunk": 0,
+ "section": "Green hydrogen - National Green Hydrogen Mission, electrolysers, applications",
+ "subsections": [
+  "Hydrogen colour codes → production route",
+  "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 26,
+ "rejected": {
+  "invalid": 1,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nColour of hydrogen — Production route",
+   "o": [
+    "Grey — Methane pyrolysis producing solid carbon",
+    "Turquoise — Methane pyrolysis producing solid carbon",
+    "Pink — Coal gasification",
+    "White — Electrolysis using nuclear power"
+   ],
+   "a": 1,
+   "x": "Turquoise hydrogen is produced through methane pyrolysis, with solid carbon as the by-product. Grey hydrogen is produced by steam methane reforming, while pink hydrogen is produced through nuclear-powered electrolysis.",
+   "ty": "match",
+   "tq": "Start from the sure production-route pair and eliminate swapped colour codes.",
+   "sec": "Hydrogen colour codes → production route"
+  },
+  {
+   "s": "Consider the following statements regarding hydrogen colour codes:\n1. Grey hydrogen is produced by steam methane reforming of natural gas, releasing carbon dioxide.\n2. Blue hydrogen is produced through a fossil route combined with carbon capture and storage.\n3. White hydrogen occurs naturally through geological processes.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Grey hydrogen releases carbon dioxide during steam methane reforming, blue hydrogen uses carbon capture and storage, and white hydrogen is naturally occurring geological hydrogen.",
+   "ty": "statements",
+   "tq": "Use the production-route distinctions to test all three colour codes together.",
+   "sec": "Hydrogen colour codes → production route"
+  },
+  {
+   "s": "Brown or black hydrogen is primarily associated with which of the following production methods?",
+   "o": [
+    "Coal gasification",
+    "Methane pyrolysis",
+    "Steam methane reforming with carbon capture",
+    "Electrolysis powered by nuclear energy"
+   ],
+   "a": 0,
+   "x": "Brown or black hydrogen is produced through coal gasification. In the classification used for the Group-II table, this includes gasification of lignite or bituminous coal.",
+   "ty": "fact",
+   "tq": "Discriminate between coal gasification and the neighbouring fossil-hydrogen routes.",
+   "sec": "Hydrogen colour codes → production route"
+  },
+  {
+   "s": "With reference to the different forms of hydrogen, consider the following statements:\n1. Pink hydrogen is produced by electrolysis using nuclear power.\n2. Turquoise hydrogen has solid carbon as a by-product.\n3. White hydrogen is produced by steam methane reforming of natural gas.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. White hydrogen is naturally occurring geological hydrogen, not hydrogen produced by steam methane reforming.",
+   "ty": "statements",
+   "tq": "Find the wrong production route by separating natural hydrogen from manufactured hydrogen.",
+   "sec": "Hydrogen colour codes → production route"
+  },
+  {
+   "s": "Which one of the following correctly describes the method associated with blue hydrogen?",
+   "o": [
+    "Electrolysis of water using renewable electricity",
+    "Natural geological occurrence of hydrogen",
+    "Steam methane reforming or another fossil route combined with carbon capture and storage",
+    "Gasification of lignite or bituminous coal without any carbon management"
+   ],
+   "a": 2,
+   "x": "Blue hydrogen is produced through a fossil-based route, such as grey hydrogen production, with carbon capture and storage. Renewable electrolysis produces green hydrogen.",
+   "ty": "application",
+   "tq": "Ask which carbon-management measure changes grey hydrogen into blue hydrogen.",
+   "sec": "Hydrogen colour codes → production route"
+  },
+  {
+   "s": "Which of the following statements is correct regarding the carbon character and indicative cost of hydrogen?\n1. Green hydrogen is the only form identified as zero-carbon.\n2. Grey hydrogen is indicated as costing approximately 1.5–2 dollars per kilogram.\n3. Green hydrogen is indicated as costing approximately 4 dollars per kilogram.\nWhich of the statements given above are correct?",
+   "o": [
+    "2 and 3 only",
+    "1, 2 and 3",
+    "1 and 2 only",
+    "1 and 3 only"
+   ],
+   "a": 1,
+   "x": "All three statements are correct. Green hydrogen is identified as zero-carbon, while the indicated cost is about 1.5–2 dollars per kilogram for grey hydrogen and about 4 dollars per kilogram for green hydrogen.",
+   "ty": "numerical",
+   "tq": "Match the cost figures with the correct hydrogen colours before judging the statements.",
+   "sec": "Hydrogen colour codes → production route"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Pink hydrogen — Electrolysis using nuclear energy",
+    "White hydrogen — Naturally occurring geological hydrogen",
+    "Grey hydrogen — Electrolysis using renewable power",
+    "Green hydrogen — Electrolysis using renewable power"
+   ],
+   "a": 2,
+   "x": "Grey hydrogen is produced through steam methane reforming of natural gas, with carbon dioxide released. Electrolysis using renewable power produces green hydrogen.",
+   "ty": "negative",
+   "tq": "Find the single route deliberately shifted from its correct colour code.",
+   "sec": "Hydrogen colour codes → production route"
+  },
+  {
+   "s": "In a proton exchange membrane (PEM) fuel cell, the reaction occurring at the anode is represented by:",
+   "o": [
+    "H₂ → 2H⁺ + 2e⁻",
+    "CO₂ + H₂O → H₂CO₃",
+    "H₂O → H₂ + ½ O₂",
+    "½ O₂ + 2H⁺ + 2e⁻ → H₂O"
+   ],
+   "a": 0,
+   "x": "At the anode, hydrogen molecules split into protons and electrons: H₂ → 2H⁺ + 2e⁻. The oxygen reduction and water formation reaction occurs at the cathode.",
+   "ty": "fact",
+   "tq": "Separate the anode oxidation reaction from the cathode reaction.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "The cathode reaction in a PEM fuel cell is represented by which of the following equations?",
+   "o": [
+    "H₂ → 2H⁺ + 2e⁻",
+    "C + O₂ → CO₂",
+    "2H₂O → 2H₂ + O₂",
+    "½ O₂ + 2H⁺ + 2e⁻ → H₂O"
+   ],
+   "a": 3,
+   "x": "At the cathode, oxygen combines with protons and electrons to form water: ½ O₂ + 2H⁺ + 2e⁻ → H₂O. This process also releases heat.",
+   "ty": "fact",
+   "tq": "Use the location of proton-electron recombination to identify the cathode equation.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "Consider the following statements about a PEM fuel cell:\n1. Hydrogen is split into protons and electrons at the anode.\n2. Electrons pass through an external circuit and thereby produce electricity.\n3. Protons cross the membrane towards the cathode.\n4. Hydrogen is burnt inside the fuel cell to release electrical energy.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 3 are correct. Hydrogen is not burnt in a PEM fuel cell; its chemical energy is converted into electricity through electrochemical reactions.",
+   "ty": "statements",
+   "tq": "Reject the combustion trap and trace the movement of electrons and protons.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "Which one of the following best describes the energy conversion principle of a hydrogen PEM fuel cell?",
+   "o": [
+    "Hydrogen is burnt to produce mechanical energy, which is converted into electricity.",
+    "Nuclear energy is converted into heat and then into electricity.",
+    "Chemical energy is directly converted into electricity without burning hydrogen.",
+    "Solar radiation is converted directly into hydrogen inside the fuel cell."
+   ],
+   "a": 2,
+   "x": "A PEM fuel cell converts the chemical energy of hydrogen into electricity through electrochemical reactions. Hydrogen is not burnt in the process.",
+   "ty": "application",
+   "tq": "Distinguish electrochemical conversion from combustion-based energy conversion.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "Which of the following correctly describes the products released from a hydrogen fuel-cell vehicle at the tailpipe?",
+   "o": [
+    "Carbon dioxide and sulphur dioxide",
+    "Nitrogen oxides and unburnt hydrocarbons",
+    "Water vapour and warm air",
+    "Methane and water vapour"
+   ],
+   "a": 2,
+   "x": "A hydrogen fuel-cell vehicle has water vapour and warm air as its tailpipe output. Its tailpipe emissions are therefore described as zero-emission in this context.",
+   "ty": "fact",
+   "tq": "Use the absence of combustion pollutants to identify the tailpipe output.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "Which one of the following is NOT a stated method for storing or carrying hydrogen for vehicle use?",
+   "o": [
+    "Storage only as carbon dioxide in insulated tanks",
+    "Solid metal hydrides",
+    "Compressed gas in high-pressure tanks",
+    "Liquid hydrogen at about −253°C"
+   ],
+   "a": 0,
+   "x": "Hydrogen may be stored as compressed gas, cryogenic liquid hydrogen, or solid metal hydrides, and may also be carried as ammonia or methanol. Carbon dioxide is not a stated hydrogen-storage method.",
+   "ty": "negative",
+   "tq": "Identify the option that is not a hydrogen-storage form or carrier.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "Liquid hydrogen used for storage is maintained at approximately which temperature?",
+   "o": [
+    "−25°C",
+    "−373°C",
+    "−153°C",
+    "−253°C"
+   ],
+   "a": 3,
+   "x": "Liquid hydrogen is stored cryogenically at approximately −253°C. Its low density, given as 0.071 g/ml, also makes storage bulky.",
+   "ty": "numerical",
+   "tq": "Recognise the cryogenic-temperature figure associated with liquid hydrogen.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "Which one of the following correctly states the density-related limitation of liquid hydrogen storage?",
+   "o": [
+    "Its density is about 0.71 g/ml, eliminating the need for cryogenic tanks.",
+    "Its density is zero because hydrogen cannot be liquefied.",
+    "Its density is about 7.1 g/ml, making it extremely compact.",
+    "Its density is about 0.071 g/ml, making storage bulky."
+   ],
+   "a": 3,
+   "x": "Liquid hydrogen has a density of only about 0.071 g/ml, so it requires bulky storage arrangements despite being in liquid form.",
+   "ty": "numerical",
+   "tq": "Check the decimal place carefully before interpreting the storage consequence.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "Hydrogen used in the indigenous hydrogen train is stored in which of the following?",
+   "o": [
+    "Roof-mounted Type-IV composite cylinders",
+    "Underground salt caverns beneath the track",
+    "Cryogenic tanks placed only inside the driver’s cabin",
+    "Open metal tanks attached to the wheels"
+   ],
+   "a": 0,
+   "x": "The train stores hydrogen in roof-mounted Type-IV composite cylinders. This arrangement is distinct from liquid-hydrogen cryogenic storage.",
+   "ty": "fact",
+   "tq": "Discriminate between the train’s actual tank arrangement and other hydrogen-storage systems.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "The first indigenous hydrogen fuel-cell ferry in India was built by which organisation?",
+   "o": [
+    "Indian Oil Corporation Limited, Delhi",
+    "KPIT with CSIR-NCL, Pune",
+    "Cochin Shipyard Limited",
+    "Integral Coach Factory, Chennai"
+   ],
+   "a": 2,
+   "x": "The first indigenous hydrogen fuel-cell ferry was built by Cochin Shipyard Limited. It was a fully indigenous LT-PEM fuel-cell ferry.",
+   "ty": "fact",
+   "tq": "Match the transport type with its specific builder rather than with a testing site.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "The hydrogen-powered coach tested by the Railways was associated with which location and organisation?",
+   "o": [
+    "Pune — KPIT with CSIR-NCL",
+    "Chennai — Integral Coach Factory",
+    "Delhi — Indian Oil Corporation Limited",
+    "Jind-Sonipat, Haryana — Cochin Shipyard Limited"
+   ],
+   "a": 1,
+   "x": "The first hydrogen-powered train coach tested by the Railways was associated with Chennai’s Integral Coach Factory (ICF). This is distinct from the hydrogen train in service associated with Jind-Sonipat.",
+   "ty": "fact",
+   "tq": "Separate the coach-testing site from the locations of the ferry, bus and train.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "Which one of the following correctly describes the first indigenous hydrogen fuel-cell bus mentioned in the context of India?",
+   "o": [
+    "It was developed by Veera Vahana at Chennai in 2025.",
+    "It was developed by Cochin Shipyard Limited at Kochi in 2024.",
+    "It was developed by KPIT with CSIR-NCL at Pune in 2022.",
+    "It was developed by IOCL at Delhi in 2020."
+   ],
+   "a": 2,
+   "x": "The first indigenous hydrogen fuel-cell bus was developed by KPIT with CSIR-NCL, Pune, in 2022. “Veera Vahana” is not the correct identification for this bus.",
+   "ty": "confusable",
+   "tq": "Use the builder-year-place combination to reject the look-alike name trap.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "Arrange the following developments in the chronological order indicated by the years given:\nA. Indigenous hydrogen fuel-cell bus developed by KPIT with CSIR-NCL\nB. H-CNG buses associated with Delhi and IOCL\nC. Indigenous hydrogen fuel-cell ferry\nD. Hydrogen-powered coach tested by the Railways",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "B, C, A, D"
+   ],
+   "a": 0,
+   "x": "The sequence is 2022 for the indigenous bus, 2020 for H-CNG buses, 2024 for the ferry and 2025 for the hydrogen-powered coach; therefore, when arranged chronologically it is B, A, C, D.",
+   "ty": "chronology",
+   "tq": "Place the dated milestones first and verify the middle entries carefully.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "The first hydrogen fuel-cell train in service is associated with which of the following descriptions?",
+   "o": [
+    "A shuttle bus operating at Central Vista, Delhi, from 2022",
+    "A ferry launched from Cochin Shipyard Limited in 2024",
+    "A 10-coach train operating on the Jind-Sonipat route in Haryana from July 2026",
+    "A single coach tested at Chennai’s ICF in 2025"
+   ],
+   "a": 2,
+   "x": "The first hydrogen fuel-cell train in service is described as a 10-coach train on the 89-km Jind-Sonipat route in Haryana from July 2026. It is identified as the world’s longest and most powerful broad-gauge hydrogen train.",
+   "ty": "fact",
+   "tq": "Distinguish the train in service from the earlier coach-testing milestone.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "The indigenous hydrogen train on the Jind-Sonipat route is described as having which of the following characteristics?\n1. It consists of 10 coaches.\n2. The route length is 89 km.\n3. It is described as the world’s longest and most powerful broad-gauge hydrogen train.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The train has 10 coaches, covers the 89-km Jind-Sonipat route in Haryana, and is described as the world’s longest and most powerful broad-gauge hydrogen train.",
+   "ty": "statements",
+   "tq": "Verify the numerical route details before accepting the descriptive claim.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "The hydrogen shuttle bus mentioned in the context of India is associated with which location?",
+   "o": [
+    "Jind-Sonipat, Haryana",
+    "Chennai, Tamil Nadu",
+    "Pune, Maharashtra",
+    "Central Vista, Delhi"
+   ],
+   "a": 3,
+   "x": "The hydrogen shuttle bus is associated with Central Vista in Delhi. The other locations correspond to the hydrogen train, hydrogen coach testing and indigenous fuel-cell bus respectively.",
+   "ty": "fact",
+   "tq": "Match the shuttle-bus initiative with its location rather than its builder.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "Hydrogen-blended compressed natural gas (H-CNG) buses were associated with which of the following combinations?",
+   "o": [
+    "Haryana and Cochin Shipyard Limited in 2026",
+    "Delhi and IOCL in 2020",
+    "Pune and CSIR-NCL in 2022",
+    "Chennai and ICF in 2025"
+   ],
+   "a": 1,
+   "x": "H-CNG buses, using hydrogen-blended compressed natural gas, were associated with Delhi and IOCL in 2020.",
+   "ty": "fact",
+   "tq": "Use the fuel-blend abbreviation to distinguish H-CNG buses from pure hydrogen vehicles.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  },
+  {
+   "s": "Consider the following statements:\n1. Hydrogen fuel-cell vehicles generate electricity through an electrochemical process.\n2. The main tailpipe product is water vapour rather than carbon dioxide.\n3. Hydrogen must be burnt inside the fuel cell for the electrochemical reaction to occur.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Hydrogen is not burnt inside a PEM fuel cell; it is split electrochemically at the anode and ultimately forms water at the cathode.",
+   "ty": "statements",
+   "tq": "Spot the combustion misconception while retaining the two process-based statements.",
+   "sec": "Fuel cells and hydrogen vehicles - principle, exhaust, FIRSTs"
+  }
+ ]
+}

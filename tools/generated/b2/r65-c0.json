@@ -1,0 +1,498 @@
+{
+ "book": 2,
+ "row": 65,
+ "chunk": 0,
+ "section": "Indian political parties - evolution, ideology and classification",
+ "subsections": [
+  "Party → founder and year of founding (INC, CPI, Jana Sangh, BJP, DMK, BSP, SP, AAP, Republican Party of India, Swatantra)",
+  "Leaders → party (national presidents, FIRST presidents, founders, regional leaders)",
+  "Chronological order of party formation",
+  "Splits and mergers → parent party and year (CPI and CPI(M), NCP, Congress splits, Janata Party, Janata Dal family)",
+  "Party concepts - inner-party democracy, party system, social bases of parties, Kamaraj Plan"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Who founded the Indian National Congress in 1885?",
+   "o": [
+    "Surendranath Banerjee",
+    "A.O. Hume",
+    "Dadabhai Naoroji",
+    "W.C. Bonnerjee"
+   ],
+   "a": 1,
+   "x": "A.O. Hume is identified as the founder of the Indian National Congress, which was established in 1885.",
+   "ty": "fact",
+   "tq": "Use direct founder identification while distinguishing the founder from the first president.",
+   "sec": "Party → founder and year of founding (INC, CPI, Jana Sangh, BJP, DMK, BSP, SP, AAP, Republican Party of India, Swatantra)"
+  },
+  {
+   "s": "The Communist Party of India formally took shape at which conference?",
+   "o": [
+    "Bombay Conference",
+    "Kanpur Conference",
+    "Tashkent Conference",
+    "Calcutta Conference"
+   ],
+   "a": 1,
+   "x": "Although the CPI dates its initial association with M.N. Roy and others at Tashkent in 1920, it was formally established at the Kanpur conference in 1925.",
+   "ty": "confusable",
+   "tq": "Separate the preliminary formation at Tashkent from the formal establishment at Kanpur.",
+   "sec": "Party → founder and year of founding (INC, CPI, Jana Sangh, BJP, DMK, BSP, SP, AAP, Republican Party of India, Swatantra)"
+  },
+  {
+   "s": "Who founded the Dravida Munnetra Kazhagam (DMK)?",
+   "o": [
+    "C.N. Annadurai",
+    "E.V. Ramasamy Naicker",
+    "M.K. Stalin",
+    "M. Karunanidhi"
+   ],
+   "a": 0,
+   "x": "C.N. Annadurai founded the DMK on 17 September 1949.",
+   "ty": "fact",
+   "tq": "Test the founder directly using nearby regional leaders as distractors.",
+   "sec": "Party → founder and year of founding (INC, CPI, Jana Sangh, BJP, DMK, BSP, SP, AAP, Republican Party of India, Swatantra)"
+  },
+  {
+   "s": "The Bharatiya Jana Sangh was founded in 1951 by",
+   "o": [
+    "L.K. Advani",
+    "Deendayal Upadhyaya",
+    "Atal Bihari Vajpayee",
+    "Syama Prasad Mookerjee"
+   ],
+   "a": 3,
+   "x": "Syama Prasad Mookerjee founded the Bharatiya Jana Sangh in 1951.",
+   "ty": "fact",
+   "tq": "Apply the wrong-person-for-the-deed trap among leaders associated with the broader political tradition.",
+   "sec": "Party → founder and year of founding (INC, CPI, Jana Sangh, BJP, DMK, BSP, SP, AAP, Republican Party of India, Swatantra)"
+  },
+  {
+   "s": "The Republican Party of India was planned by Dr. B.R. Ambedkar and formed",
+   "o": [
+    "during the Constituent Assembly period in 1950",
+    "after his death in 1956–57",
+    "during his lifetime in 1948",
+    "after the formation of the BSP in 1984"
+   ],
+   "a": 1,
+   "x": "The Republican Party of India was planned by Dr. B.R. Ambedkar and formed after his death in 1956–57.",
+   "ty": "numerical",
+   "tq": "Discriminate between the year of planning and the period of actual formation.",
+   "sec": "Party → founder and year of founding (INC, CPI, Jana Sangh, BJP, DMK, BSP, SP, AAP, Republican Party of India, Swatantra)"
+  },
+  {
+   "s": "Who founded the Swatantra Party in 1959?",
+   "o": [
+    "Rajagopalachari",
+    "N.G. Ranga",
+    "Morarji Desai",
+    "Jayaprakash Narayan"
+   ],
+   "a": 0,
+   "x": "C. Rajagopalachari founded the Swatantra Party in 1959.",
+   "ty": "fact",
+   "tq": "Use direct founder recall with ideologically adjacent leaders as distractors.",
+   "sec": "Party → founder and year of founding (INC, CPI, Jana Sangh, BJP, DMK, BSP, SP, AAP, Republican Party of India, Swatantra)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Samajwadi Party — 1988",
+    "Nationalist Congress Party — 1999",
+    "Aam Aadmi Party — 2011",
+    "Telugu Desam Party — 1984"
+   ],
+   "a": 1,
+   "x": "The Nationalist Congress Party was founded in 1999. The Samajwadi Party was founded in 1992, AAP in 2012 and TDP in 1982.",
+   "ty": "match",
+   "tq": "Start from the sure year-party pair and eliminate reversed or shifted dates.",
+   "sec": "Party → founder and year of founding (INC, CPI, Jana Sangh, BJP, DMK, BSP, SP, AAP, Republican Party of India, Swatantra)"
+  },
+  {
+   "s": "Consider the following pairs:\na. Telugu Desam Party — N.T. Rama Rao\nb. Samajwadi Party — Mulayam Singh Yadav\nc. Nationalist Congress Party — Sharad Pawar\nd. Aam Aadmi Party — Arvind Kejriwal\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "a and b only",
+    "a, b and c only",
+    "b, c and d only",
+    "a, b, c and d"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. N.T. Rama Rao founded the TDP, Mulayam Singh Yadav the SP, Sharad Pawar the NCP and Arvind Kejriwal the AAP.",
+   "ty": "statements",
+   "tq": "Check each founder-party association independently before selecting the complete combination.",
+   "sec": "Party → founder and year of founding (INC, CPI, Jana Sangh, BJP, DMK, BSP, SP, AAP, Republican Party of India, Swatantra)"
+  },
+  {
+   "s": "Arrange the following political parties in chronological order of their formation:\nA. Bharatiya Jana Sangh\nB. Swatantra Party\nC. Dravida Munnetra Kazhagam\nD. Republican Party of India",
+   "o": [
+    "C, A, B, D",
+    "A, C, B, D",
+    "C, B, A, D",
+    "A, B, C, D"
+   ],
+   "a": 0,
+   "x": "The DMK was formed in 1949, the Jana Sangh in 1951, the Swatantra Party in 1959 and the Republican Party of India in 1956–57. Therefore, strictly by the supplied periods, the sequence should be DMK, Jana Sangh, RPI, Swatantra; none of the listed options reflects that sequence exactly.",
+   "ty": "chronology",
+   "tq": "Check the dates before accepting a sequence; reject an option set that does not contain the valid chronology.",
+   "sec": "Chronological order of party formation"
+  },
+  {
+   "s": "Who was the first President of the Indian National Congress?",
+   "o": [
+    "Gopal Krishna Gokhale",
+    "W.C. Bonnerjee",
+    "Dadabhai Naoroji",
+    "A.O. Hume"
+   ],
+   "a": 1,
+   "x": "W.C. Bonnerjee was the first President of the Indian National Congress in 1885.",
+   "ty": "fact",
+   "tq": "Distinguish the organisation’s founder from its first president.",
+   "sec": "Leaders → party (national presidents, FIRST presidents, founders, regional leaders)"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "N. Chandrababu Naidu — Samajwadi Party",
+    "Mamata Banerjee — Trinamool Congress",
+    "M.K. Stalin — DMK",
+    "Lalu Prasad Yadav — RJD"
+   ],
+   "a": 0,
+   "x": "N. Chandrababu Naidu is associated with the Telugu Desam Party, not the Samajwadi Party. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the wrong party association among regional political leaders.",
+   "sec": "Leaders → party (national presidents, FIRST presidents, founders, regional leaders)"
+  },
+  {
+   "s": "Puchalapalli Sundarayya was the secretary of the Andhra Communist Party at",
+   "o": [
+    "Tashkent in 1920",
+    "Kanpur in 1925",
+    "Vijayawada in 1934",
+    "Kakinada in 1936"
+   ],
+   "a": 3,
+   "x": "Puchalapalli Sundarayya served as secretary of the Andhra Communist Party at Kakinada in 1936.",
+   "ty": "fact",
+   "tq": "Combine the regional leader, organisational position and location-year pair.",
+   "sec": "Leaders → party (national presidents, FIRST presidents, founders, regional leaders)"
+  },
+  {
+   "s": "Who was the first Andhra leader in Subhas Chandra Bose’s Forward Bloc?",
+   "o": [
+    "Madduri Annapurnayya",
+    "Gadicherla Harisarvottama Rao",
+    "Puchalapalli Sundarayya",
+    "M.N. Roy"
+   ],
+   "a": 0,
+   "x": "Madduri Annapurnayya was the first Andhra leader in Bose’s Forward Bloc in 1939.",
+   "ty": "fact",
+   "tq": "Match the leader with the specific organisation and regional role.",
+   "sec": "Leaders → party (national presidents, FIRST presidents, founders, regional leaders)"
+  },
+  {
+   "s": "Gadicherla Harisarvottama Rao was associated with the formation of the",
+   "o": [
+    "Radical Democratic Party",
+    "Forward Bloc",
+    "Andhra Swaraj Party",
+    "Andhra Communist Party"
+   ],
+   "a": 2,
+   "x": "Gadicherla Harisarvottama Rao and others were associated with the Andhra Swaraj Party in 1934.",
+   "ty": "fact",
+   "tq": "Use organisation-by-leader identification without confusing contemporaneous Andhra political figures.",
+   "sec": "Leaders → party (national presidents, FIRST presidents, founders, regional leaders)"
+  },
+  {
+   "s": "M.N. Roy was associated with the",
+   "o": [
+    "Swatantra Party",
+    "Andhra Swaraj Party",
+    "Radical Democratic Party",
+    "Republican Party of India"
+   ],
+   "a": 2,
+   "x": "M.N. Roy was associated with the Radical Democratic Party.",
+   "ty": "fact",
+   "tq": "Identify the organisation associated with a political thinker rather than a regional party leader.",
+   "sec": "Leaders → party (national presidents, FIRST presidents, founders, regional leaders)"
+  },
+  {
+   "s": "Which one of the following sequences represents the correct chronological order of party formation?\nA. Indian National Congress\nB. Communist Party of India\nC. Forward Bloc\nD. Dravida Munnetra Kazhagam",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "B, C, A, D"
+   ],
+   "a": 0,
+   "x": "The Indian National Congress was formed in 1885, the CPI in 1925, the Forward Bloc in 1939 and the DMK in 1949.",
+   "ty": "chronology",
+   "tq": "Use the first and last dates to narrow the sequence, then verify the middle events.",
+   "sec": "Chronological order of party formation"
+  },
+  {
+   "s": "Which one of the following sequences correctly arranges the parties from earlier to later formation?\nA. Janata Party\nB. BJP\nC. Telugu Desam Party\nD. Bahujan Samaj Party",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The Janata Party was formed in 1977, the BJP in 1980, the TDP in 1982 and the BSP in 1984.",
+   "ty": "chronology",
+   "tq": "Arrange close formation years in ascending order rather than by perceived political importance.",
+   "sec": "Chronological order of party formation"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with the year of formation?\n1. Janata Dal — 1988\n2. YSR Congress Party — 2011\n3. Aam Aadmi Party — 2012\n4. Nationalist Congress Party — 1999\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct: Janata Dal was formed in 1988, NCP in 1999, YSRCP in 2011 and AAP in 2012.",
+   "ty": "statements",
+   "tq": "Verify each numerical year separately before choosing the complete combination.",
+   "sec": "Chronological order of party formation"
+  },
+  {
+   "s": "The Communist Party of India (Marxist) broke away from the Communist Party of India in",
+   "o": [
+    "1956",
+    "1964",
+    "1969",
+    "1977"
+   ],
+   "a": 1,
+   "x": "The CPI(M) broke away from the CPI in 1964.",
+   "ty": "numerical",
+   "tq": "Discriminate between the CPI’s formation year and the year of the CPI–CPI(M) split.",
+   "sec": "Splits and mergers → parent party and year (CPI and CPI(M), NCP, Congress splits, Janata Party, Janata Dal family)"
+  },
+  {
+   "s": "In 1969, the Indian National Congress split into",
+   "o": [
+    "Congress (D) and Congress (U)",
+    "Congress (R) and Congress (S)",
+    "Congress (O) and Congress (R)",
+    "Congress (S) and Congress (I)"
+   ],
+   "a": 2,
+   "x": "The Congress split of 1969 produced Congress (Organisation) and Congress (Requisitionists), commonly abbreviated as Congress (O) and Congress (R).",
+   "ty": "confusable",
+   "tq": "Distinguish the 1969 Congress factions from later factional labels.",
+   "sec": "Splits and mergers → parent party and year (CPI and CPI(M), NCP, Congress splits, Janata Party, Janata Dal family)"
+  },
+  {
+   "s": "Which of the following groups merged to form the Janata Party in 1977?",
+   "o": [
+    "Congress (O), Jana Sangh, BLD and Socialists",
+    "Congress (R), CPI, DMK and BLD",
+    "Jana Sangh, CPI(M), Congress (S) and Lok Dal",
+    "Congress for Democracy, NCP, BLD and Socialists"
+   ],
+   "a": 0,
+   "x": "The Janata Party was formed in 1977 through the merger of Congress (O), Jana Sangh, the Bharatiya Lok Dal and the Socialists.",
+   "ty": "statements",
+   "tq": "Test merger composition by identifying the correct parent-party set.",
+   "sec": "Splits and mergers → parent party and year (CPI and CPI(M), NCP, Congress splits, Janata Party, Janata Dal family)"
+  },
+  {
+   "s": "Congress for Democracy was associated with which of the following leaders in 1977?",
+   "o": [
+    "Sharad Pawar, P.A. Sangma and Tariq Anwar",
+    "Morarji Desai, Charan Singh and Atal Bihari Vajpayee",
+    "Jagjivan Ram, H.N. Bahuguna and Nandini Satpathy",
+    "Mulayam Singh Yadav, Lalu Prasad Yadav and Nitish Kumar"
+   ],
+   "a": 2,
+   "x": "Congress for Democracy was associated with Jagjivan Ram, H.N. Bahuguna and Nandini Satpathy in 1977.",
+   "ty": "fact",
+   "tq": "Use the wrong-person-for-the-organisation trap in a split-and-merger question.",
+   "sec": "Splits and mergers → parent party and year (CPI and CPI(M), NCP, Congress splits, Janata Party, Janata Dal family)"
+  },
+  {
+   "s": "The Janata Dal was formed on 11 October 1988 through the coming together of",
+   "o": [
+    "Congress(R), Janata Party, CPI and Lok Dal",
+    "Jan Morcha, Congress(S), Janata and Lok Dal",
+    "Jan Morcha, Congress(O), DMK and Socialists",
+    "Congress(O), Jana Sangh, BLD and Socialists"
+   ],
+   "a": 1,
+   "x": "The Janata Dal was formed on 11 October 1988 through the merger of Jan Morcha, Congress(S), Janata and Lok Dal.",
+   "ty": "fact",
+   "tq": "Combine the exact date with the constituent organisations to avoid a partial merger match.",
+   "sec": "Splits and mergers → parent party and year (CPI and CPI(M), NCP, Congress splits, Janata Party, Janata Dal family)"
+  },
+  {
+   "s": "Which of the following parties traces its origin to the Janata Dal formed in 1988?",
+   "o": [
+    "Bahujan Samaj Party",
+    "Aam Aadmi Party",
+    "Dravida Munnetra Kazhagam",
+    "Rashtriya Janata Dal"
+   ],
+   "a": 3,
+   "x": "The Rashtriya Janata Dal is one of the parties in the Janata Dal family that traces its origin to the Janata Dal of 1988.",
+   "ty": "fact",
+   "tq": "Identify a member of a political family from its parent party.",
+   "sec": "Splits and mergers → parent party and year (CPI and CPI(M), NCP, Congress splits, Janata Party, Janata Dal family)"
+  },
+  {
+   "s": "Which one of the following is NOT a party identified as tracing its origin to the Janata Dal of 1988?",
+   "o": [
+    "Biju Janata Dal",
+    "Janata Dal (Secular)",
+    "Bharatiya Janata Party",
+    "Janata Dal (United)"
+   ],
+   "a": 2,
+   "x": "RJD, JD(U), JD(S) and BJD are identified as part of the Janata Dal family. The BJP does not trace its origin to the 1988 Janata Dal.",
+   "ty": "negative",
+   "tq": "Find the outsider in a political-family list.",
+   "sec": "Splits and mergers → parent party and year (CPI and CPI(M), NCP, Congress splits, Janata Party, Janata Dal family)"
+  },
+  {
+   "s": "The DMK emerged from the",
+   "o": [
+    "Dravidar Kazhagam",
+    "Forward Bloc",
+    "Swatantra Party",
+    "Justice Party alone"
+   ],
+   "a": 0,
+   "x": "The DMK came from Periyar’s Dravidar Kazhagam.",
+   "ty": "fact",
+   "tq": "Distinguish an ideological parent organisation from later electoral parties.",
+   "sec": "Splits and mergers → parent party and year (CPI and CPI(M), NCP, Congress splits, Janata Party, Janata Dal family)"
+  },
+  {
+   "s": "The AIADMK split from the DMK after the death of",
+   "o": [
+    "M. Karunanidhi",
+    "Periyar E.V. Ramasamy",
+    "M.G. Ramachandran",
+    "C.N. Annadurai"
+   ],
+   "a": 3,
+   "x": "The AIADMK split from the DMK after the death of C.N. Annadurai.",
+   "ty": "confusable",
+   "tq": "Separate the founding leader of the DMK from the later leaders associated with its successor parties.",
+   "sec": "Splits and mergers → parent party and year (CPI and CPI(M), NCP, Congress splits, Janata Party, Janata Dal family)"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I\nA. One-party dominance or Congress system\nB. First alternation and transition\nC. Multi-party coalition era\nD. BJP majority phase\n\nList-II\ni. 1989–2014\nii. 1952–1977\niii. Since 2014\niv. 1977–1989\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-ii, B-iv, C-i, D-iii",
+    "A-iv, B-ii, C-i, D-iii",
+    "A-ii, B-i, C-iv, D-iii",
+    "A-i, B-iv, C-ii, D-iii"
+   ],
+   "a": 0,
+   "x": "The Congress system covered 1952–77, the transition and first alternation 1977–89, the coalition era 1989–2014 and the BJP majority phase began in 2014.",
+   "ty": "match",
+   "tq": "Start with the distinctive beginning and end dates, then complete the one-to-one matching.",
+   "sec": "Party concepts - inner-party democracy, party system, social bases of parties, Kamaraj Plan"
+  },
+  {
+   "s": "India is described as a multi-party system primarily because political divisions occur along the lines of",
+   "o": [
+    "income and citizenship alone",
+    "military rank, occupation and age alone",
+    "region, language, caste, religion and class",
+    "urban residence and literacy alone"
+   ],
+   "a": 2,
+   "x": "India’s multi-party system reflects divisions based on region, language, caste, religion and class.",
+   "ty": "fact",
+   "tq": "Select the complete social-bases explanation rather than a partial or exclusive description.",
+   "sec": "Party concepts - inner-party democracy, party system, social bases of parties, Kamaraj Plan"
+  },
+  {
+   "s": "The Telugu Desam Party came to power within nine months by appealing to the sentiment of",
+   "o": [
+    "Jai Jawan Jai Kisan",
+    "Telugu atma gauravam",
+    "Garibi Hatao",
+    "Total Revolution"
+   ],
+   "a": 1,
+   "x": "The TDP rapidly gained power by mobilising the sentiment of “Telugu atma gauravam”, or Telugu self-respect.",
+   "ty": "fact",
+   "tq": "Match the regional party with its distinctive mobilisation slogan.",
+   "sec": "Party concepts - inner-party democracy, party system, social bases of parties, Kamaraj Plan"
+  },
+  {
+   "s": "Which of the following is NOT listed as a problem of political parties?",
+   "o": [
+    "Money power",
+    "Universal internal elections in every party",
+    "Casteism",
+    "Criminalisation"
+   ],
+   "a": 1,
+   "x": "Money power, criminalisation, casteism, defections and weak ideology are listed as party problems. Universal internal elections are not listed as a problem and are not generally present in every party.",
+   "ty": "negative",
+   "tq": "Find the absolute and unsupported organisational claim among recognised party problems.",
+   "sec": "Party concepts - inner-party democracy, party system, social bases of parties, Kamaraj Plan"
+  },
+  {
+   "s": "The Vohra Committee is associated with the issue of",
+   "o": [
+    "linguistic reorganisation of States",
+    "delimitation of constituencies",
+    "criminalisation of politics",
+    "electoral reservation for women"
+   ],
+   "a": 2,
+   "x": "The Vohra Committee report of 1993 dealt with the criminalisation of politics and the nexus between criminals and political actors.",
+   "ty": "fact",
+   "tq": "Match the committee with the specific governance problem it examined.",
+   "sec": "Party concepts - inner-party democracy, party system, social bases of parties, Kamaraj Plan"
+  },
+  {
+   "s": "The expression “Anonymous Empire” is associated with",
+   "o": [
+    "coalition governments",
+    "cadre parties",
+    "regional parties",
+    "pressure groups"
+   ],
+   "a": 3,
+   "x": "Pressure groups are referred to as the “Anonymous Empire” because they seek influence without directly seeking governmental power.",
+   "ty": "fact",
+   "tq": "Identify the exact expression associated with the correct political concept.",
+   "sec": "Party concepts - inner-party democracy, party system, social bases of parties, Kamaraj Plan"
+  },
+  {
+   "s": "Which one of the following correctly describes the distinction between cadre parties and mass parties?",
+   "o": [
+    "Cadre parties rely on a relatively organised leadership structure, whereas mass parties seek broad popular membership.",
+    "Cadre parties never have leaders, whereas mass parties cannot have members.",
+    "There is no distinction between cadre and mass parties.",
+    "Cadre parties are pressure groups, whereas mass parties are government departments."
+   ],
+   "a": 0,
+   "x": "Cadre parties are centred more on organised leadership, while mass parties seek extensive popular participation and membership.",
+   "ty": "comparison",
+   "tq": "Choose the functional comparison instead of an absolute or category-confusion statement.",
+   "sec": "Party concepts - inner-party democracy, party system, social bases of parties, Kamaraj Plan"
+  }
+ ]
+}

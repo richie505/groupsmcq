@@ -1,0 +1,271 @@
+{
+ "book": 5,
+ "row": 92,
+ "chunk": 0,
+ "section": "Climate change - greenhouse effect, greenhouse gases, radiative forcing, evidence and observed impacts",
+ "subsections": [
+  "Greenhouse gases - contribution order, distractors, GWP, lifetime, largest contributor",
+  "Greenhouse effect - mechanism, natural vs enhanced, Earth without it"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 18,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Among the following, which is the correct order of the major natural contributors to the greenhouse effect, from highest to lowest contribution?",
+   "o": [
+    "Water vapour > Methane > Carbon dioxide > Ozone > CFCs",
+    "Carbon dioxide > Water vapour > Methane > CFCs > Ozone",
+    "Carbon dioxide > Methane > Water vapour > Ozone > CFCs",
+    "Water vapour > Carbon dioxide > Methane > Ozone > CFCs"
+   ],
+   "a": 3,
+   "x": "Water vapour is the largest natural contributor, followed by carbon dioxide, methane, ozone and CFCs.",
+   "ty": "fact",
+   "tq": "Use the complete contribution order rather than identifying only the largest gas.",
+   "sec": "Greenhouse gases - contribution order, distractors, GWP, lifetime, largest contributor  [APPSC]"
+  },
+  {
+   "s": "Consider the following gases in relation to the enhanced greenhouse effect:\n1. Carbon dioxide\n2. Methane\n3. CFCs\n4. Nitrous oxide\nWhich of the following represents their approximate shares in descending order?",
+   "o": [
+    "CO2 50%, CH4 25%, CFCs 15%, N2O 10%",
+    "CO2 40%, CH4 30%, CFCs 20%, N2O 10%",
+    "CO2 60%, CH4 20%, CFCs 15%, N2O 5%",
+    "CO2 60%, CFCs 20%, CH4 15%, N2O 5%"
+   ],
+   "a": 2,
+   "x": "The textbook distribution given is approximately CO2 60%, methane 20%, CFCs 15% and nitrous oxide 5%.",
+   "ty": "numerical",
+   "tq": "Compare the numerical shares and check both the order and the percentages.",
+   "sec": "Greenhouse gases - contribution order, distractors, GWP, lifetime, largest contributor  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes Global Warming Potential (GWP)?",
+   "o": [
+    "The amount of solar radiation reflected by a gas in comparison with water vapour",
+    "The atmospheric concentration of a gas compared with that of oxygen over one year",
+    "The heat absorbed by a gas over a specified period, usually 100 years, relative to the same mass of carbon dioxide",
+    "The time required by a gas to disappear completely from the atmosphere"
+   ],
+   "a": 2,
+   "x": "GWP compares the heat absorbed over a specified period, generally 100 years, by a given mass of a greenhouse gas with that absorbed by the same mass of CO2.",
+   "ty": "fact",
+   "tq": "Discriminate between GWP, atmospheric lifetime and concentration.",
+   "sec": "Greenhouse gases - contribution order, distractors, GWP, lifetime, largest contributor  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the codes given below the Lists.\n\nList-I (Gas)\na. Carbon dioxide\nb. Methane\nc. Nitrous oxide\nd. Sulphur hexafluoride\n\nList-II (Principal anthropogenic source)\ni. Fertilisers and biomass burning\n ii. Fossil fuels, deforestation and cement production\n iii. Rice paddies, livestock and landfills\n iv. Dielectric fluid\n\nCodes:",
+   "o": [
+    "a-ii, b-iii, c-i, d-iv",
+    "a-iii, b-ii, c-iv, d-i",
+    "a-ii, b-i, c-iii, d-iv",
+    "a-iv, b-iii, c-i, d-ii"
+   ],
+   "a": 0,
+   "x": "CO2 is associated with fossil fuels, deforestation and cement production; methane with rice paddies, livestock and landfills; N2O with fertilisers and biomass or coal burning; and SF6 with dielectric fluid.",
+   "ty": "match",
+   "tq": "Start from the sure source pair and eliminate codes containing swapped sources.",
+   "sec": "Greenhouse gases - contribution order, distractors, GWP, lifetime, largest contributor  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with respect to 100-year GWP and atmospheric lifetime?",
+   "o": [
+    "Nitrous oxide — 28–36; approximately 12 years",
+    "Methane — 28–36; approximately 12 years",
+    "Carbon dioxide — 265–298; approximately 114 years",
+    "Water vapour — 1,000–23,000; 50–500 years"
+   ],
+   "a": 1,
+   "x": "Methane has a 100-year GWP of about 28–36 and an atmospheric lifetime of approximately 12 years. Nitrous oxide, CO2 and water vapour have different values.",
+   "ty": "comparison",
+   "tq": "Separate the GWP range from the atmospheric-lifetime figure before selecting the pair.",
+   "sec": "Greenhouse gases - contribution order, distractors, GWP, lifetime, largest contributor  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding greenhouse gases:\n1. Sulphur hexafluoride has a 100-year GWP of about 23,900.\n2. CFCs and HFCs generally have a 100-year GWP ranging from 1,000 to 23,000.\n3. Water vapour has a variable GWP and an atmospheric lifetime of approximately nine days.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. SF6 has an exceptionally high GWP, CFCs/HFCs have a very high range, and water vapour is short-lived with variable GWP.",
+   "ty": "statements",
+   "tq": "Check each numerical range independently before choosing the combined code.",
+   "sec": "Greenhouse gases - contribution order, distractors, GWP, lifetime, largest contributor  [APPSC]"
+  },
+  {
+   "s": "Which of the following gases has the highest 100-year Global Warming Potential among the gases listed below?",
+   "o": [
+    "Carbon dioxide",
+    "Nitrous oxide",
+    "Methane",
+    "Sulphur hexafluoride"
+   ],
+   "a": 3,
+   "x": "Sulphur hexafluoride has a 100-year GWP of approximately 23,900, much higher than CO2, methane or nitrous oxide.",
+   "ty": "numerical",
+   "tq": "Compare the magnitude of the listed GWP values rather than their atmospheric abundance.",
+   "sec": "Greenhouse gases - contribution order, distractors, GWP, lifetime, largest contributor  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about the classification of atmospheric gases is correct?",
+   "o": [
+    "Carbon monoxide is the largest natural contributor to the greenhouse effect",
+    "Nitrogen and oxygen are indirect greenhouse gases, while argon is the principal greenhouse gas",
+    "Nitrogen, oxygen and argon are major greenhouse gases, whereas carbon monoxide is a primary greenhouse gas",
+    "Nitrogen, oxygen and argon are not greenhouse gases, while carbon monoxide acts only as an indirect greenhouse gas"
+   ],
+   "a": 3,
+   "x": "N2, O2 and Ar are not greenhouse gases. Carbon monoxide is considered only an indirect greenhouse gas rather than a primary one.",
+   "ty": "confusable",
+   "tq": "Distinguish primary greenhouse gases from gases that influence warming indirectly.",
+   "sec": "Greenhouse gases - contribution order, distractors, GWP, lifetime, largest contributor  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements is NOT correct regarding the relationship between deforestation and carbon dioxide?",
+   "o": [
+    "Deforestation is an anthropogenic activity associated with enhanced greenhouse effect",
+    "Deforestation generally raises the amount of carbon dioxide in the atmosphere",
+    "Deforestation can reduce the capacity of vegetation to absorb carbon dioxide",
+    "Deforestation decreases atmospheric carbon dioxide by removing carbon-storing trees"
+   ],
+   "a": 3,
+   "x": "Deforestation does not decrease atmospheric CO2; it reduces carbon uptake and may release stored carbon, thereby raising atmospheric CO2.",
+   "ty": "negative",
+   "tq": "Find the reversed cause-and-effect statement in the environmental process.",
+   "sec": "Greenhouse gases - contribution order, distractors, GWP, lifetime, largest contributor  [APPSC]"
+  },
+  {
+   "s": "Radiative forcing refers to which one of the following?",
+   "o": [
+    "The change in Earth’s energy balance caused by a climatic driver, expressed in watts per square metre",
+    "The quantity of heat stored only in the oceans during El Niño events",
+    "The amount of rainfall received by a region due to increased evaporation",
+    "The rate at which greenhouse gases are removed from the atmosphere"
+   ],
+   "a": 0,
+   "x": "Radiative forcing is the change in Earth’s energy balance produced by a driver and is expressed in W/m².",
+   "ty": "fact",
+   "tq": "Match the specialised term with its precise definition and unit.",
+   "sec": "Greenhouse gases - contribution order, distractors, GWP, lifetime, largest contributor  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about radiative forcing from long-lived greenhouse gases:\n1. It rose by approximately 54% between 1990 and 2024.\n2. Carbon dioxide accounted for approximately 81% of this rise.\n3. The increase in radiative forcing represents a change in Earth’s energy balance.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Long-lived greenhouse-gas forcing rose by about 54% from 1990 to 2024, with CO2 contributing about 81% of the rise; radiative forcing denotes an energy-balance change.",
+   "ty": "statements",
+   "tq": "Combine the two numerical facts with the underlying definition instead of treating them as unrelated figures.",
+   "sec": "Greenhouse gases - contribution order, distractors, GWP, lifetime, largest contributor  [APPSC]"
+  },
+  {
+   "s": "The atmosphere’s selective behaviour towards radiation is best described as follows:",
+   "o": [
+    "It absorbs all incoming short-wave solar radiation and transmits all outgoing long-wave radiation",
+    "It is opaque to both incoming solar radiation and outgoing terrestrial radiation",
+    "It permits much of the incoming short-wave solar radiation but is relatively opaque to outgoing terrestrial long-wave infrared radiation",
+    "It reflects all solar radiation and absorbs only ultraviolet radiation"
+   ],
+   "a": 2,
+   "x": "The atmosphere allows much incoming short-wave solar radiation to reach Earth’s surface but absorbs outgoing long-wave terrestrial infrared radiation through greenhouse gases.",
+   "ty": "application",
+   "tq": "Apply the short-wave incoming and long-wave outgoing distinction to the atmospheric mechanism.",
+   "sec": "Greenhouse effect - mechanism, natural vs enhanced, Earth without it  [APPSC]"
+  },
+  {
+   "s": "The Earth’s surface re-emits absorbed energy mainly as infrared radiation in which wavelength range mentioned in the context of the greenhouse effect?",
+   "o": [
+    "8,000–25,000 nm",
+    "800–2,500 nm",
+    "80,000–250,000 nm",
+    "80–250 nm"
+   ],
+   "a": 0,
+   "x": "The surface re-emits infrared radiation in the approximate range of 8,000–25,000 nm.",
+   "ty": "numerical",
+   "tq": "Place the wavelength value on the correct scale and reject options differing by powers of ten.",
+   "sec": "Greenhouse effect - mechanism, natural vs enhanced, Earth without it  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly explains the role of carbon dioxide and water vapour in the greenhouse effect?",
+   "o": [
+    "They absorb incoming visible light and convert it directly into ultraviolet radiation",
+    "They absorb only radio waves and transfer the energy exclusively to the upper atmosphere",
+    "They prevent all solar radiation from entering the atmosphere by reflecting it into space",
+    "They absorb outgoing infrared radiation mainly in the 14,000–25,000 nm range and re-radiate part of it back towards the surface"
+   ],
+   "a": 3,
+   "x": "CO2 and water vapour strongly absorb infrared radiation in the 14,000–25,000 nm range and re-radiate energy in all directions, including back towards the surface.",
+   "ty": "application",
+   "tq": "Link the wavelength range with the direction of re-radiation to identify the mechanism.",
+   "sec": "Greenhouse effect - mechanism, natural vs enhanced, Earth without it  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the natural and enhanced greenhouse effects:\n1. The natural greenhouse effect occurs without human intervention and helps keep Earth habitable.\n2. The enhanced greenhouse effect results when human activities raise atmospheric greenhouse-gas concentrations.\n3. Greenhouse-gas levels in the natural greenhouse effect have remained stable for thousands of years, whereas fossil fuels, deforestation, industry, agriculture and waste contribute to the enhanced effect.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly distinguish the natural greenhouse effect from its anthropogenically enhanced form.",
+   "ty": "statements",
+   "tq": "Compare the two columns by checking human role, stability of gas levels and consequences.",
+   "sec": "Greenhouse effect - mechanism, natural vs enhanced, Earth without it  [APPSC]"
+  },
+  {
+   "s": "A planet receives sufficient short-wave solar radiation, but its atmosphere contains increasing concentrations of gases that absorb outgoing terrestrial infrared radiation. This situation most directly represents:",
+   "o": [
+    "An enhanced greenhouse effect capable of producing global warming and climate change",
+    "A weakening of the natural greenhouse effect without climatic consequences",
+    "The complete absence of atmospheric radiative absorption",
+    "A reduction in the energy retained at the surface due to increased infrared absorption"
+   ],
+   "a": 0,
+   "x": "Human-driven increases in greenhouse gases strengthen the greenhouse effect by absorbing more outgoing infrared radiation, contributing to global warming and climate change.",
+   "ty": "application",
+   "tq": "Translate the physical process in the scenario into the natural-versus-enhanced greenhouse distinction.",
+   "sec": "Greenhouse effect - mechanism, natural vs enhanced, Earth without it  [APPSC]"
+  },
+  {
+   "s": "If the natural greenhouse effect did not exist, the approximate mean temperature of Earth’s surface would be:",
+   "o": [
+    "+15°C instead of about −18°C",
+    "0°C instead of about +15°C",
+    "−273°C instead of about +15°C",
+    "−18°C instead of about +15°C"
+   ],
+   "a": 3,
+   "x": "The natural greenhouse effect raises Earth’s average surface temperature from approximately −18°C to about +15°C, making the planet habitable.",
+   "ty": "numerical",
+   "tq": "Remember the paired comparison rather than either temperature in isolation.",
+   "sec": "Greenhouse effect - mechanism, natural vs enhanced, Earth without it  [APPSC]"
+  },
+  {
+   "s": "Assertion (A): The natural greenhouse effect is essential for life on Earth.\nReason (R): In the absence of the greenhouse effect, Earth’s average surface temperature would be about −18°C rather than approximately +15°C.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and the much lower temperature that would prevail without the greenhouse effect explains why the natural effect is essential for habitability.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the temperature comparison directly explains the assertion about habitability.",
+   "sec": "Greenhouse effect - mechanism, natural vs enhanced, Earth without it  [APPSC]"
+  }
+ ]
+}

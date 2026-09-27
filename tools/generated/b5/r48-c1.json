@@ -1,0 +1,526 @@
+{
+ "book": 5,
+ "row": 48,
+ "chunk": 1,
+ "section": "Integrated Guided Missile Development Programme - Prithvi, Agni, Akash, Trishul, Nag",
+ "subsections": [
+  "Missile variants and successors",
+  "Guidance features - fire-and-forget, top attack, seekers",
+  "IGMDP - launch, leaders, closed projects",
+  "Missile names - meanings; which systems are not missiles",
+  "Missile test ranges - names, state"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 39,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly describes Akash Prime?",
+   "o": [
+    "A helicopter-launched variant of Nag intended exclusively for the IAF",
+    "An upgraded Akash Mk-I equipped with an indigenous active RF seeker",
+    "A man-portable anti-tank missile with a range of about 2.5 km",
+    "A canister-launched version of Agni designed for the Navy"
+   ],
+   "a": 1,
+   "x": "Akash Prime is an upgraded Akash Mk-I fitted with an indigenous active Radio Frequency seeker.",
+   "ty": "fact",
+   "tq": "Use the variant-to-feature association and eliminate platform-swapped options.",
+   "sec": "Missile variants and successors"
+  },
+  {
+   "s": "Akash Prime was first tested on which date?",
+   "o": [
+    "27 February 2008",
+    "27 September 2021",
+    "17 December 2019",
+    "25 January 2002"
+   ],
+   "a": 1,
+   "x": "Akash Prime was first tested on 27 September 2021.",
+   "ty": "numerical",
+   "tq": "Distinguish the exact test date from dates associated with other defence programmes.",
+   "sec": "Missile variants and successors"
+  },
+  {
+   "s": "Akash Prime demonstrated its capability by destroying high-speed targets at high altitude in which region?",
+   "o": [
+    "Ladakh",
+    "Kurnool",
+    "Chandipur",
+    "Pokhran"
+   ],
+   "a": 0,
+   "x": "The Akash Prime trials demonstrated the destruction of high-speed targets at high altitude in Ladakh.",
+   "ty": "fact",
+   "tq": "Apply the location-specific performance detail rather than the launch-range location.",
+   "sec": "Missile variants and successors"
+  },
+  {
+   "s": "Consider the following statements regarding Akash-NG:\n1. It is a canister-launched missile.\n2. Its approximate range is 70 km.\n3. It was cleared for induction in 2023 for both the Army and the Indian Air Force.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Akash-NG is canister-launched, has an approximate range of 70 km, and was cleared for induction in 2023 by both the Army and the IAF.",
+   "ty": "statements",
+   "tq": "Verify each statement against the variant’s launch method, range and induction status.",
+   "sec": "Missile variants and successors"
+  },
+  {
+   "s": "Akash S1 is distinguished from the other listed Akash variants primarily by which feature?",
+   "o": [
+    "An indigenous active RF seeker and high-altitude Ladakh trials",
+    "A range of about 70 km and canister launch",
+    "Rail-based mobile launching",
+    "Improved electronic counter-countermeasures and a range of 30–35 km"
+   ],
+   "a": 3,
+   "x": "Akash S1 has a range of 30–35 km and improved electronic counter-countermeasures for the Army.",
+   "ty": "comparison",
+   "tq": "Compare the variant-specific range and enhancement instead of matching a general Akash feature.",
+   "sec": "Missile variants and successors"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Agni-P — canisterised Agni launched from a rail-based mobile launcher",
+    "Dhanush — air-launched Nag for Army Aviation",
+    "Prithvi-II — helicopter-launched anti-tank missile",
+    "SANT — ship-launched Prithvi"
+   ],
+   "a": 0,
+   "x": "Agni-P is a canisterised Agni designed for launch from a rail-based mobile launcher. Dhanush is the ship-launched Prithvi, while SANT is an air-launched stand-off anti-tank guided missile.",
+   "ty": "match",
+   "tq": "Start from the sure platform association and reject swapped launch platforms.",
+   "sec": "Missile variants and successors"
+  },
+  {
+   "s": "Agni-P was launched from a rail-based mobile launcher in which month and year?",
+   "o": [
+    "February 2008",
+    "July 2025",
+    "September 2021",
+    "September 2025"
+   ],
+   "a": 3,
+   "x": "The canisterised Agni-P was launched from a rail-based mobile launcher in September 2025.",
+   "ty": "numerical",
+   "tq": "Separate the date of the Agni-P trial from dates of other missile tests and closures.",
+   "sec": "Missile variants and successors"
+  },
+  {
+   "s": "Prithvi-II is best described as a:",
+   "o": [
+    "15–20 km air-launched stand-off anti-tank missile",
+    "2.5 km man-portable anti-tank missile",
+    "70 km canister-launched surface-to-air missile",
+    "350 km nuclear-capable short-range ballistic missile"
+   ],
+   "a": 3,
+   "x": "Prithvi-II is a nuclear-capable short-range ballistic missile with a range of 350 km.",
+   "ty": "fact",
+   "tq": "Match the missile with its range and class while avoiding range-based distractors.",
+   "sec": "Missile variants and successors"
+  },
+  {
+   "s": "Which of the following statements regarding Nag variants is correct?",
+   "o": [
+    "NAMIS is a tracked tank killer approved for Army procurement.",
+    "Dhruvastra is a ship-launched version of Prithvi.",
+    "SANT is a helicopter-launched Nag used by Army Aviation.",
+    "MPATGM is a canister-launched Akash variant."
+   ],
+   "a": 0,
+   "x": "Nag Mk-2 or NAMIS is a tracked tank killer approved for Army procurement. Dhruvastra, MPATGM and SANT have different identities and platforms.",
+   "ty": "fact",
+   "tq": "Use the named-variant and platform distinction to avoid swapped identities.",
+   "sec": "Missile variants and successors"
+  },
+  {
+   "s": "HELINA and Dhruvastra are respectively associated with:",
+   "o": [
+    "The Indian Air Force and the Navy",
+    "The Navy and Army Aviation",
+    "The Army and the Navy",
+    "Army Aviation and the Indian Air Force"
+   ],
+   "a": 3,
+   "x": "HELINA is the helicopter-launched Nag variant for Army Aviation, whereas Dhruvastra is intended for the Indian Air Force.",
+   "ty": "confusable",
+   "tq": "Discriminate between closely related helicopter-launched Nag variants by service.",
+   "sec": "Missile variants and successors"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "MPATGM — man-portable, approximately 2.5 km, fire-and-forget",
+    "SANT — 350 km nuclear-capable ballistic missile",
+    "Nag Mk-2 — ship-launched Prithvi",
+    "Dhanush — air-launched stand-off anti-tank missile"
+   ],
+   "a": 0,
+   "x": "MPATGM is a man-portable, approximately 2.5 km, fire-and-forget anti-tank guided missile.",
+   "ty": "match",
+   "tq": "Match the system with its range and operational role rather than its name alone.",
+   "sec": "Missile variants and successors"
+  },
+  {
+   "s": "SANT, an air-launched stand-off anti-tank guided missile, uses which guidance feature?",
+   "o": [
+    "Top attack only",
+    "Command guidance through Rajendra radar",
+    "Rail-based mobile guidance",
+    "Lock-On After Launch"
+   ],
+   "a": 3,
+   "x": "SANT is an air-launched stand-off anti-tank guided missile employing Lock-On After Launch guidance.",
+   "ty": "fact",
+   "tq": "Identify the guidance method specifically linked to the missile, not to the platform.",
+   "sec": "Guidance features - fire-and-forget, top attack, seekers"
+  },
+  {
+   "s": "What is meant by the term 'fire-and-forget' in missile technology?",
+   "o": [
+    "The missile is incapable of changing its course after launch.",
+    "The missile can guide itself after launch, allowing the operator to take cover.",
+    "The missile is fired only after the target has been destroyed by another weapon.",
+    "The missile must remain continuously controlled by the operator until impact."
+   ],
+   "a": 1,
+   "x": "A fire-and-forget missile guides itself after launch, enabling the operator to seek cover or perform another task.",
+   "ty": "application",
+   "tq": "Translate the technical term into its operational consequence.",
+   "sec": "Guidance features - fire-and-forget, top attack, seekers"
+  },
+  {
+   "s": "Consider the following systems:\n1. Nag\n2. HELINA\n3. MPATGM\n4. Akash Prime\nWhich of the above are fire-and-forget systems?",
+   "o": [
+    "1 and 2 only",
+    "2 and 4 only",
+    "1, 2 and 3 only",
+    "1, 3 and 4 only"
+   ],
+   "a": 2,
+   "x": "Nag, HELINA and MPATGM are fire-and-forget systems. Akash Prime is identified by its active RF seeker, not by the fire-and-forget classification given here.",
+   "ty": "statements",
+   "tq": "Separate the fire-and-forget group from a seeker-based surface-to-air system.",
+   "sec": "Guidance features - fire-and-forget, top attack, seekers"
+  },
+  {
+   "s": "In the top-attack mode, a missile generally:",
+   "o": [
+    "Climbs and dives onto the tank’s relatively thin top armour",
+    "Tracks the missile carrier rather than the target",
+    "Approaches only from the rear at ground level",
+    "Uses a ship-based launcher to strike aircraft"
+   ],
+   "a": 0,
+   "x": "In top attack, the missile climbs and then dives onto the tank’s thinner top armour. Nag has both top-attack and direct-attack modes.",
+   "ty": "application",
+   "tq": "Infer the tactical advantage from the direction of attack and armour vulnerability.",
+   "sec": "Guidance features - fire-and-forget, top attack, seekers"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "SANT — Lock-On After Launch",
+    "Nag — Imaging Infra-Red seeker",
+    "Akash Prime — active RF seeker",
+    "Nag — active RF seeker"
+   ],
+   "a": 3,
+   "x": "Nag uses an Imaging Infra-Red seeker, whereas Akash Prime uses an active RF seeker and SANT uses Lock-On After Launch. Therefore, Nag with an active RF seeker is not correctly matched.",
+   "ty": "negative",
+   "tq": "Find the one swapped seeker associated with a different missile.",
+   "sec": "Guidance features - fire-and-forget, top attack, seekers"
+  },
+  {
+   "s": "The Imaging Infra-Red seeker of Nag provides which important capability?",
+   "o": [
+    "Canisterised storage only",
+    "Night-strike capability",
+    "Sea-skimming propulsion",
+    "Rail-based launching"
+   ],
+   "a": 1,
+   "x": "Nag’s Imaging Infra-Red seeker gives it night-strike capability.",
+   "ty": "fact",
+   "tq": "Link the seeker technology to its operational advantage.",
+   "sec": "Guidance features - fire-and-forget, top attack, seekers"
+  },
+  {
+   "s": "Which of the following statements is correct regarding the Nag missile system?\n1. It carries an 8 kg HEAT tandem warhead.\n2. Each NAMICA can carry up to six missiles.\n3. The Nag Missile Carrier is tracked and amphibious.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Nag carries an 8 kg HEAT tandem warhead; NAMICA can carry up to six missiles; and the Nag Missile Carrier is a tracked amphibious vehicle.",
+   "ty": "statements",
+   "tq": "Combine warhead, carriage capacity and vehicle characteristics in one system-level question.",
+   "sec": "Guidance features - fire-and-forget, top attack, seekers"
+  },
+  {
+   "s": "Which institution is the nodal laboratory associated with the Integrated Guided Missile Development Programme?",
+   "o": [
+    "Integrated Test Range, Chandipur",
+    "Electronics and Radar Development Establishment, Delhi",
+    "Indian Space Research Organisation, Bengaluru",
+    "Defence Research and Development Laboratory, Hyderabad"
+   ],
+   "a": 3,
+   "x": "The Defence Research and Development Laboratory (DRDL), Hyderabad, was the nodal laboratory of the IGMDP. RCI and ASL were also associated with the Missile Complex at Hyderabad.",
+   "ty": "fact",
+   "tq": "Distinguish the nodal research laboratory from the test range and other organisations.",
+   "sec": "IGMDP - launch, leaders, closed projects"
+  },
+  {
+   "s": "The Integrated Guided Missile Development Programme was launched in 1983 under the leadership of:",
+   "o": [
+    "Dr Tessy Thomas",
+    "Dr A.P.J. Abdul Kalam",
+    "Dr Vikram Sarabhai",
+    "Dr Satish Dhawan"
+   ],
+   "a": 1,
+   "x": "The IGMDP was launched in 1983 under Dr A.P.J. Abdul Kalam, popularly known as the Missile Man of India.",
+   "ty": "fact",
+   "tq": "Match the programme’s launch with its leader and popular title.",
+   "sec": "IGMDP - launch, leaders, closed projects"
+  },
+  {
+   "s": "The IGMDP was initiated in the background of which sequence of wars that exposed India’s import dependence?",
+   "o": [
+    "1962, 1965 and 1971",
+    "1947, 1962 and 1999",
+    "1965, 1971 and 1999",
+    "1971, 1987 and 1999"
+   ],
+   "a": 0,
+   "x": "The programme followed the wars of 1962, 1965 and 1971, which highlighted India’s dependence on imported defence systems.",
+   "ty": "chronology",
+   "tq": "Recall the complete historical sequence rather than selecting a partially overlapping set of wars.",
+   "sec": "IGMDP - launch, leaders, closed projects"
+  },
+  {
+   "s": "The Integrated Guided Missile Development Programme was officially completed in:",
+   "o": [
+    "1983",
+    "1992",
+    "2008",
+    "2023"
+   ],
+   "a": 2,
+   "x": "The IGMDP was formally declared complete in 2008; subsequent missiles were developed as separate projects.",
+   "ty": "numerical",
+   "tq": "Distinguish the completion year from the programme’s launch and intermediate phase years.",
+   "sec": "IGMDP - launch, leaders, closed projects"
+  },
+  {
+   "s": "Trishul was shut down on 27 February 2008 primarily because it:",
+   "o": [
+    "Failed to meet operational requirements and faced delays and cost overruns",
+    "Had completed all its planned objectives ahead of schedule",
+    "Was replaced because it was a nuclear-capable ballistic missile",
+    "Was transferred to the Indian Space Research Organisation"
+   ],
+   "a": 0,
+   "x": "Trishul was closed on 27 February 2008 after failing to meet operational requirements and suffering delays and cost overruns.",
+   "ty": "negative",
+   "tq": "Select the option that combines the stated operational, time and cost reasons.",
+   "sec": "IGMDP - launch, leaders, closed projects"
+  },
+  {
+   "s": "Which of the following sets correctly identifies the replacements associated with the closure of Trishul?",
+   "o": [
+    "Israeli Spyder for the IAF, Barak-1 for the Navy and Akash for the Army",
+    "Akash for the IAF, Prithvi-II for the Navy and Nag for the Army",
+    "Barak-1 for the IAF, Spyder for the Navy and Agni for the Army",
+    "SANT for the IAF, Dhanush for the Navy and Pinaka for the Army"
+   ],
+   "a": 0,
+   "x": "The replacements were Israeli Spyder for the IAF, Barak-1 for the Navy and Akash for the Army.",
+   "ty": "match",
+   "tq": "Match each replacement system with the correct service instead of recalling only the missile names.",
+   "sec": "IGMDP - launch, leaders, closed projects"
+  },
+  {
+   "s": "Which one of the following is NOT an identified spin-off of the IGMDP?",
+   "o": [
+    "Satellite-based navigation constellation",
+    "Ring laser gyros",
+    "Long-range tracking system",
+    "Radomes"
+   ],
+   "a": 0,
+   "x": "Long-range tracking systems, composites, ring laser gyros and radomes were identified as IGMDP spin-offs. A satellite-based navigation constellation is not included in this list.",
+   "ty": "negative",
+   "tq": "Find the item outside the stated group of technological spin-offs.",
+   "sec": "IGMDP - launch, leaders, closed projects"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Prithvi — Earth",
+    "Agni — Sky",
+    "Akash — Fire",
+    "Dhanush — Trident"
+   ],
+   "a": 0,
+   "x": "Prithvi means Earth. Agni means Fire, Akash means Sky and Dhanush means Bow.",
+   "ty": "match",
+   "tq": "Use direct meaning-to-name matching and reject systematic substitutions.",
+   "sec": "Missile names - meanings; which systems are not missiles"
+  },
+  {
+   "s": "The names Agni, Akash, Trishul and Nag respectively mean:",
+   "o": [
+    "Fire, Sky, Trident and Cobra",
+    "Earth, Fire, Bow and Sky",
+    "Sky, Earth, Cobra and Trident",
+    "Trident, Bow, Fire and Earth"
+   ],
+   "a": 0,
+   "x": "Agni means Fire, Akash means Sky, Trishul means Trident and Nag means Cobra or serpent.",
+   "ty": "match",
+   "tq": "Match the complete sequence of names with their meanings.",
+   "sec": "Missile names - meanings; which systems are not missiles"
+  },
+  {
+   "s": "Which one of the following is NOT a missile system?",
+   "o": [
+    "Agni-P",
+    "Arjun",
+    "Prithvi-II",
+    "Akash-NG"
+   ],
+   "a": 1,
+   "x": "Arjun is a tank, not a missile. Prithvi-II, Akash-NG and Agni-P are missile systems.",
+   "ty": "negative",
+   "tq": "Identify the non-missile platform hidden among missile names.",
+   "sec": "Missile names - meanings; which systems are not missiles"
+  },
+  {
+   "s": "Consider the following systems:\n1. Pinaka\n2. Tejas\n3. Lakshya\n4. Nishant\nWhich of the above are not missiles?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Pinaka is a multi-barrel rocket launcher, Tejas is an aircraft, Lakshya is a target drone, and Nishant is a UAV; none is a missile.",
+   "ty": "statements",
+   "tq": "Classify each named defence system by its platform or role.",
+   "sec": "Missile names - meanings; which systems are not missiles"
+  },
+  {
+   "s": "Which one of the following is correctly classified?",
+   "o": [
+    "Lakshya — tank",
+    "Tejas — target drone",
+    "NAMICA — missile itself rather than a carrier vehicle",
+    "Rustom — unmanned aerial vehicle"
+   ],
+   "a": 3,
+   "x": "Rustom is an unmanned aerial vehicle. NAMICA is the Nag carrier vehicle, Lakshya is a target drone and Tejas is an aircraft.",
+   "ty": "fact",
+   "tq": "Avoid the carrier-versus-missile and aircraft-versus-drone confusions.",
+   "sec": "Missile names - meanings; which systems are not missiles"
+  },
+  {
+   "s": "Which statement regarding BrahMos is correct?",
+   "o": [
+    "It replaced Trishul in the Indian Army under the IGMDP.",
+    "It was the first missile project formally completed under the IGMDP in 2008.",
+    "It is a non-missile target drone associated with the IGMDP.",
+    "It was not part of the IGMDP, although it is sometimes listed alongside IGMDP missiles."
+   ],
+   "a": 3,
+   "x": "BrahMos, developed jointly by India and Russia, was not part of the IGMDP, though it may be listed next to IGMDP missiles.",
+   "ty": "negative",
+   "tq": "Separate an associated missile programme from the formal IGMDP group.",
+   "sec": "Missile names - meanings; which systems are not missiles"
+  },
+  {
+   "s": "The Integrated Test Range at Chandipur is located in:",
+   "o": [
+    "Telangana",
+    "Andhra Pradesh",
+    "Odisha",
+    "Rajasthan"
+   ],
+   "a": 2,
+   "x": "The Integrated Test Range is located at Chandipur in Balasore district of Odisha.",
+   "ty": "fact",
+   "tq": "Match the named range and district with the correct state.",
+   "sec": "Missile test ranges - names, state"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Pokhran Field Firing Range — Rajasthan",
+    "DRDO range near Kurnool — Odisha",
+    "Dr APJ Abdul Kalam Island — Rajasthan",
+    "Integrated Test Range, Chandipur — Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "The Pokhran Field Firing Range is in Rajasthan. The Kurnool DRDO range is in Andhra Pradesh, while Chandipur and Dr APJ Abdul Kalam Island are in Odisha.",
+   "ty": "match",
+   "tq": "Use state-location matching and distinguish inland ranges from coastal ranges.",
+   "sec": "Missile test ranges - names, state"
+  },
+  {
+   "s": "Dr APJ Abdul Kalam Island was formerly known as:",
+   "o": [
+    "Chandipur Island",
+    "Pokhran Island",
+    "Abdul Kalam Atoll",
+    "Wheeler Island"
+   ],
+   "a": 3,
+   "x": "Dr APJ Abdul Kalam Island was formerly known as Wheeler Island and lies off the Odisha coast.",
+   "ty": "confusable",
+   "tq": "Recognise the renamed test location from its former name.",
+   "sec": "Missile test ranges - names, state"
+  },
+  {
+   "s": "The DRDO range near Kurnool is associated with which activity mentioned in the context of missile testing?",
+   "o": [
+    "Akash Prime’s first test in 2021",
+    "Trishul’s closure ceremony",
+    "ULPGM-V3 trials",
+    "Agni-P’s rail-based launch in 2025"
+   ],
+   "a": 2,
+   "x": "The DRDO range near Kurnool in Andhra Pradesh was used for ULPGM-V3 trials in 2026.",
+   "ty": "fact",
+   "tq": "Link the specific range with its named trial rather than with another missile event.",
+   "sec": "Missile test ranges - names, state"
+  },
+  {
+   "s": "Which of the following statements about the coastal missile-test ranges is correct?\n1. Ranges along the Andhra Pradesh and Odisha coasts are used for sea-skimming missile trials.\n2. Dr APJ Abdul Kalam Island lies off the Odisha coast.\n3. The LRAShM is an example of a missile associated with such trials.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Coastal ranges in Andhra Pradesh and Odisha support sea-skimming missile trials; Dr APJ Abdul Kalam Island is off the Odisha coast, and LRAShM is cited as an example.",
+   "ty": "statements",
+   "tq": "Combine geographic location with the operational use of the coastal ranges.",
+   "sec": "Missile test ranges - names, state"
+  }
+ ]
+}

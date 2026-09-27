@@ -1,0 +1,328 @@
+{
+ "book": 5,
+ "row": 63,
+ "chunk": 2,
+ "section": "Applications of radioisotopes in agriculture, medicine and industry",
+ "subsections": [
+  "Radiation units and safety",
+  "Radioactive gases and pollution sources - radon, building materials, waste, tailings",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 24,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Quantity)\nA. Activity\nB. Absorbed dose\nC. Biological effect\n\nList-II (Unit)\n1. Gray\n2. Sievert\n3. Becquerel\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-1, B-2, C-3",
+    "A-3, B-1, C-2",
+    "A-2, B-3, C-1",
+    "A-3, B-2, C-1"
+   ],
+   "a": 1,
+   "x": "Activity is measured in Becquerel, absorbed dose in Gray, and biological effect in Sievert.",
+   "ty": "match",
+   "tq": "Start from the sure pair and distinguish activity, absorbed dose and biological effect.",
+   "sec": "Radiation units and safety"
+  },
+  {
+   "s": "One Becquerel represents:",
+   "o": [
+    "One radioactive decay per second",
+    "One biological effect unit in the human body",
+    "One curie of radioactive activity",
+    "One joule absorbed per kilogram"
+   ],
+   "a": 0,
+   "x": "One Becquerel is equal to one radioactive decay per second. The Gray measures absorbed energy, while the Sievert measures biological effect.",
+   "ty": "fact",
+   "tq": "Use the definition-based unit distinction rather than confusing activity with dose.",
+   "sec": "Radiation units and safety"
+  },
+  {
+   "s": "The relationship between the curie and the Becquerel is correctly expressed as:",
+   "o": [
+    "1 Becquerel = 3.7 × 10^10 curie",
+    "1 curie = 3.7 × 10^6 Becquerel",
+    "1 curie = 3.7 × 10^10 Becquerel",
+    "1 curie = 3.7 × 10^2 Becquerel"
+   ],
+   "a": 2,
+   "x": "One curie is equivalent to 3.7 × 10^10 Becquerel.",
+   "ty": "numerical",
+   "tq": "Read the scientific notation carefully and reject reversed or altered conversions.",
+   "sec": "Radiation units and safety"
+  },
+  {
+   "s": "The Gray is the unit used for measuring:",
+   "o": [
+    "Absorbed dose, equal to one joule per kilogram",
+    "Biological effect of radiation on the body",
+    "Radioactive half-life",
+    "Radioactive activity, equal to one decay per second"
+   ],
+   "a": 0,
+   "x": "The Gray measures absorbed dose and is defined as one joule of energy absorbed per kilogram. Biological effect is measured in Sievert.",
+   "ty": "fact",
+   "tq": "Separate physical absorbed dose from biological effect and activity.",
+   "sec": "Radiation units and safety"
+  },
+  {
+   "s": "Consider the following statements regarding radioactive decay:\n1. Half-life is the time required for half of the nuclei in a radioactive sample to decay.\n2. Half-life is the time required for all the nuclei in a radioactive sample to decay.\n3. Half-life is a measure of the biological effect of radiation.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statement 1 is correct. Half-life concerns radioactive decay, whereas statements 2 and 3 give incorrect meanings.",
+   "ty": "statements",
+   "tq": "Find the precise definition and reject the extreme claim that all nuclei decay within one half-life.",
+   "sec": "Radiation units and safety"
+  },
+  {
+   "s": "With reference to the occupational radiation limits prescribed by the Atomic Energy Regulatory Board (AERB), consider the following statements:\n1. The occupational limit is 20 mSv per year averaged over five years.\n2. The maximum permitted dose in a single year is 30 mSv.\n3. The cumulative limit is 100 mSv.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the five-year average limit is 20 mSv per year, the maximum in one year is 30 mSv, and the cumulative limit is 100 mSv.",
+   "ty": "statements",
+   "tq": "Check each numerical limit separately before selecting the combined statement code.",
+   "sec": "Radiation units and safety"
+  },
+  {
+   "s": "Assertion (A): Ionising radiation exposure can cause cancer, leukaemia and genetic mutations.\nReason (R): Ionising radiation can damage cellular material, including genetic material.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both the assertion and reason are true, and damage to genetic material explains the occurrence of cancer, leukaemia and genetic mutations after ionising exposure.",
+   "ty": "assertion_reason",
+   "tq": "Test whether the reason directly explains the stated health effects, rather than merely being related to them.",
+   "sec": "Radiation units and safety"
+  },
+  {
+   "s": "Radon-222 is best described as:",
+   "o": [
+    "A stable metal released only by nuclear reactors",
+    "A radioactive liquid found only in medical waste",
+    "A radioactive noble gas originating from the Earth's crust",
+    "A non-radioactive gas formed exclusively in the atmosphere"
+   ],
+   "a": 2,
+   "x": "Radon-222 is a radioactive noble gas arising from the Earth's crust. It is associated with uranium-bearing geological materials.",
+   "ty": "fact",
+   "tq": "Use the isotope and source together to discriminate the correct description.",
+   "sec": "Radioactive gases and pollution sources - radon, building materials, waste, tailings  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly describes the route by which radon becomes a health hazard in buildings?",
+   "o": [
+    "It is generated only by medical X-ray equipment.",
+    "It remains confined to water bodies and cannot enter buildings.",
+    "It is produced only by the combustion of coal in open fields.",
+    "It is released from uranium-bearing soil and rock, enters closed rooms and accumulates there."
+   ],
+   "a": 3,
+   "x": "Radon seeps from uranium-bearing soil and rock and can enter and build up in closed rooms. Granite and other stone building materials may also contribute to its presence.",
+   "ty": "application",
+   "tq": "Trace the source-to-exposure pathway instead of focusing only on the name of the gas.",
+   "sec": "Radioactive gases and pollution sources - radon, building materials, waste, tailings  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Radon exposure in enclosed spaces is particularly significant because radon is regarded as:",
+   "o": [
+    "A harmless gas unless mixed with oxygen",
+    "A leading cause of lung cancer after smoking",
+    "The main cause of radiation burns in nuclear workers",
+    "The leading cause of skin cancer after ultraviolet radiation"
+   ],
+   "a": 1,
+   "x": "Radon accumulation in closed rooms is a major health concern because it is a leading cause of lung cancer after smoking.",
+   "ty": "fact",
+   "tq": "Distinguish the specific health outcome and rank stated for the hazard.",
+   "sec": "Radioactive gases and pollution sources - radon, building materials, waste, tailings  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Natural source or material)\nA. Cosmic rays\nB. Radon\nC. NORM\n\nList-II (Associated description)\n1. Naturally occurring radioactive materials such as uranium, thorium, radium and potassium-40 in rocks and water\n2. Radioactive noble gas from the Earth's crust\n3. Radiation originating from space\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-2, B-1, C-3",
+    "A-3, B-2, C-1",
+    "A-1, B-3, C-2",
+    "A-3, B-1, C-2"
+   ],
+   "a": 1,
+   "x": "Cosmic rays originate from space, radon is a radioactive noble gas from the Earth's crust, and NORM includes uranium, thorium, radium and potassium-40 in rocks and water.",
+   "ty": "match",
+   "tq": "Match each source with its defining location or composition before checking the code.",
+   "sec": "Radioactive gases and pollution sources - radon, building materials, waste, tailings  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following are recognised man-made sources of radioactive pollution?\n1. Accidents at nuclear plants such as Chernobyl and Fukushima\n2. Fallout from weapons testing containing Sr-90, Cs-137 and I-131\n3. Mining and refining of uranium and thorium, including tailings\n4. Improper disposal of medical and industrial radioactive sources\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four are identified man-made sources of radioactive pollution. Reactor waste is also a man-made source, although it is not separately included in the statements.",
+   "ty": "statements",
+   "tq": "Use the source classification and recognise that several listed human activities can be simultaneously correct.",
+   "sec": "Radioactive gases and pollution sources - radon, building materials, waste, tailings  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is NOT a natural source or naturally occurring radioactive material?",
+   "o": [
+    "Fallout containing strontium-90 from weapons testing",
+    "Radon from the Earth's crust",
+    "Potassium-40 present in rocks and water",
+    "Cosmic rays"
+   ],
+   "a": 0,
+   "x": "Weapons-test fallout containing strontium-90 is a man-made source. Cosmic rays, radon and naturally occurring potassium-40 are natural sources or materials.",
+   "ty": "negative",
+   "tq": "Classify each option as natural or man-made and identify the exception.",
+   "sec": "Radioactive gases and pollution sources - radon, building materials, waste, tailings  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following combinations correctly represents possible effects of radioactive pollution?",
+   "o": [
+    "Only temporary fatigue and increased soil fertility",
+    "Reduction of radiation intensity and rapid soil renewal",
+    "Improved crop growth and permanent immunity to cancer",
+    "Cancer, leukaemia, genetic mutation and radiation burns"
+   ],
+   "a": 3,
+   "x": "Radioactive pollution can cause cancer, leukaemia, genetic mutations and radiation burns. It can also leave soil infertile for decades.",
+   "ty": "fact",
+   "tq": "Select the option containing the complete set of stated adverse effects without an unsupported benefit.",
+   "sec": "Radioactive gases and pollution sources - radon, building materials, waste, tailings  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The harmful effect of radiation depends primarily upon:",
+   "o": [
+    "Intensity of radiation, exposure time and half-life",
+    "The distance of the source from the equator alone",
+    "The colour and physical state of the radioactive material alone",
+    "Whether the radiation is produced naturally, irrespective of dose"
+   ],
+   "a": 0,
+   "x": "The harm caused by radiation depends on its intensity, the duration of exposure and the half-life of the radioactive material.",
+   "ty": "application",
+   "tq": "Identify the combination of variables that controls risk rather than relying on the source category alone.",
+   "sec": "Radioactive gases and pollution sources - radon, building materials, waste, tailings  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding institutional responsibilities:\n1. The AERB approves the handling and disposal of radioactive waste.\n2. The Environmental Survey Laboratory monitors radiation around nuclear plants.\n3. The Environmental Survey Laboratory approves all radioactive waste disposal sites.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Statements 1 and 2 are correct. Approval of radioactive waste handling and disposal is the responsibility of the AERB, whereas the Environmental Survey Laboratory monitors radiation around plants.",
+   "ty": "statements",
+   "tq": "Apply the who-does-what test to separate regulatory approval from environmental monitoring.",
+   "sec": "Radioactive gases and pollution sources - radon, building materials, waste, tailings  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly represents the significance of nuclear technology beyond electricity generation?\n1. It supports cancer care.\n2. It contributes to food security.\n3. It can generate export earnings.\n4. It serves health, farming and industry.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Non-power applications in health, agriculture and industry provide the wider ‘atoms for peace’ dividend and justify the nuclear programme beyond electricity.",
+   "ty": "statements",
+   "tq": "Recognise the broad application set and avoid restricting nuclear technology exclusively to power generation.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "ISOMED 2.0, associated with India's non-power nuclear applications, is described as:",
+   "o": [
+    "A radioactive noble gas used in cancer treatment",
+    "The world's only land-based stationary high-intensity gamma irradiator",
+    "The most widely used diagnostic isotope",
+    "Asia's first research reactor"
+   ],
+   "a": 1,
+   "x": "ISOMED 2.0 is described as the world's only land-based stationary high-intensity gamma irradiator. It is associated with the May 2025 current-affairs reference.",
+   "ty": "fact",
+   "tq": "Use the LAST/ONLY distinction carefully and do not swap the identities of Apsara, ISOMED 2.0 and Tc-99m.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "ISOMED 2.0 is associated with which year in the stated current-affairs context?",
+   "o": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "a": 2,
+   "x": "ISOMED 2.0 is associated with May 2025. The 2026 reference relates to the India Year Book context and not the stated launch year of ISOMED 2.0.",
+   "ty": "numerical",
+   "tq": "Separate the year attached to the named development from nearby publication-year references.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The most widely used diagnostic isotope mentioned in the context of nuclear medicine is:",
+   "o": [
+    "Lu-177",
+    "Tc-99m",
+    "Sr-90",
+    "Cs-137"
+   ],
+   "a": 1,
+   "x": "Technetium-99m (Tc-99m) is the most used diagnostic isotope. Lu-177 is associated with therapy, while Sr-90 and Cs-137 are listed in the context of weapons-test fallout.",
+   "ty": "fact",
+   "tq": "Distinguish a diagnostic isotope from therapeutic and pollution-associated isotopes.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following is identified as a new therapy in the stated nuclear-medicine context?",
+   "o": [
+    "Lu-177 therapy",
+    "K-40 therapy",
+    "Tc-99m therapy",
+    "Rn-222 therapy"
+   ],
+   "a": 0,
+   "x": "Lu-177 therapy is identified as the new therapy in the stated current-affairs context. Tc-99m is primarily identified as a diagnostic isotope.",
+   "ty": "fact",
+   "tq": "Use the diagnostic-versus-therapy distinction to avoid confusing isotope applications.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The reference to 72 Trombay varieties is associated with:",
+   "o": [
+    "Nuclear power reactors operating in India",
+    "Varieties linked with the ISOMED 2.0 and nuclear-technology context",
+    "Annual occupational radiation limits",
+    "Radioactive gases found in building materials"
+   ],
+   "a": 1,
+   "x": "The figure of 72 Trombay varieties occurs in the context of the non-power applications and the ISOMED 2.0 reference. It is not a count of reactors, gases or dose limits.",
+   "ty": "numerical",
+   "tq": "Link the number to its named programme context instead of nearby radiation statistics.",
+   "sec": "Universal angles"
+  }
+ ]
+}

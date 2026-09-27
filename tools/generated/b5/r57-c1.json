@@ -1,0 +1,638 @@
+{
+ "book": 5,
+ "row": 57,
+ "chunk": 1,
+ "section": "Coal sector - reserves, production, washing, commercial mining, coal gasification",
+ "subsections": [
+  "Production - CIL, SCCL, targets",
+  "Commercial coal mining - auctions, CMSP Act 2015, MMDR amendments",
+  "Coal bed methane and underground coal gasification",
+  "Coal-based thermal plants in AP - location",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 47,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "India recorded coal production of how much in 2024–25, marking the first year in which production exceeded one billion tonnes?",
+   "o": [
+    "943.62 MT",
+    "1,047.50 MT",
+    "1,000.00 MT",
+    "1,157 MT"
+   ],
+   "a": 1,
+   "x": "India recorded 1,047.50 MT of coal production in 2024–25, the first time production crossed one billion tonnes.",
+   "ty": "numerical",
+   "tq": "Use the exact production figure and distinguish it from the target and import figures.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "With reference to India’s coal sector in 2024–25, consider the following statements:\n1. Coal imports declined by 7.9%.\n2. Coal imports stood at 243.62 MT.\n3. The reduction in imports resulted in savings of about $7.13 billion.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Imports fell by 7.9% to 243.62 MT, producing estimated savings of about $7.13 billion.",
+   "ty": "statements",
+   "tq": "Check whether the percentage, absolute quantity and consequence belong to the same data set.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "What was India’s coal production target for 2025–26?",
+   "o": [
+    "1,157 MT",
+    "1,000 MT",
+    "1,047.50 MT",
+    "1,243.62 MT"
+   ],
+   "a": 0,
+   "x": "India’s coal production target for 2025–26 was fixed at 1,157 MT.",
+   "ty": "numerical",
+   "tq": "Separate the future target from the previous year’s actual production.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "By August 2025, how much coal production had been achieved against the 2025–26 target?",
+   "o": [
+    "1,047.50 MT",
+    "381.749 MT",
+    "243.62 MT",
+    "277.04 MT"
+   ],
+   "a": 1,
+   "x": "Coal production by August 2025 was reported as 381.749 MT against the 2025–26 target.",
+   "ty": "numerical",
+   "tq": "Match the partial-year achievement with the correct target-year data.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "India ranks where in the world in terms of coal production and consumption, after China?",
+   "o": [
+    "First in production and second in consumption",
+    "Second in production and consumption",
+    "Third in production and second in consumption",
+    "Second in production and third in consumption"
+   ],
+   "a": 1,
+   "x": "India is the world’s second-largest producer and consumer of coal, after China.",
+   "ty": "fact",
+   "tq": "Test the paired ranking without reversing production and consumption.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "Coal accounts for approximately what share of India’s commercial energy needs?",
+   "o": [
+    "About 71.4%",
+    "About 35%",
+    "About 55%",
+    "About 70%"
+   ],
+   "a": 2,
+   "x": "Coal meets about 55% of India’s commercial energy needs.",
+   "ty": "numerical",
+   "tq": "Distinguish the share in commercial energy needs from the higher share in power generation.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Coal India Limited — World’s largest coal producer",
+    "CMPDI — Coal auctioning authority",
+    "SCCL — Planning arm of Coal India Limited",
+    "MCL — Government of India’s coal ministry"
+   ],
+   "a": 0,
+   "x": "Coal India Limited is the world’s largest coal producer. CMPDI is its planning arm, while SCCL is a separate coal-producing company.",
+   "ty": "match",
+   "tq": "Identify the correct organisation-function pairing and reject swapped institutional roles.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "Which of the following is the planning arm of Coal India Limited?",
+   "o": [
+    "SCCL",
+    "CMPDI",
+    "MCL",
+    "NCDP"
+   ],
+   "a": 1,
+   "x": "Central Mine Planning and Design Institute, abbreviated as CMPDI, functions as Coal India Limited’s planning arm.",
+   "ty": "fact",
+   "tq": "Test the exact institutional abbreviation rather than the producing subsidiaries.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "How many producing subsidiaries does Coal India Limited have according to the stated organisational structure?",
+   "o": [
+    "Seven",
+    "Nine",
+    "Five",
+    "Fourteen"
+   ],
+   "a": 0,
+   "x": "Coal India Limited has seven producing subsidiaries.",
+   "ty": "numerical",
+   "tq": "Use the count first, then verify it against the listed entities.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "Which one of the following sets contains all the seven producing subsidiaries of Coal India Limited?",
+   "o": [
+    "ECL, BCCL, CCL, NCL, WCL, SECL and MCL",
+    "ECL, CMPDI, CCL, NCL, WCL, SECL and SCCL",
+    "BCCL, CCL, MCL, SCCL, NCL, WCL and CMPDI",
+    "ECL, BCCL, CCL, NCL, MCL, SCCL and CMPDI"
+   ],
+   "a": 0,
+   "x": "The seven producing subsidiaries are ECL, BCCL, CCL, NCL, WCL, SECL and MCL. CMPDI is the planning arm and SCCL is not one of these seven subsidiaries.",
+   "ty": "match",
+   "tq": "Start with the sure list items and eliminate options containing the planning arm or SCCL.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "The ownership pattern of Singareni Collieries Company Limited is:",
+   "o": [
+    "51% Telangana and 49% Government of India",
+    "49% Telangana and 51% Andhra Pradesh",
+    "51% Government of India and 49% Telangana",
+    "100% Government of India"
+   ],
+   "a": 0,
+   "x": "SCCL is owned 51% by Telangana and 49% by the Government of India.",
+   "ty": "comparison",
+   "tq": "Watch for the reversed ownership percentages and the swapped governments.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "The SHAKTI policy of 2017 replaced which coal linkage regime?",
+   "o": [
+    "CMSP Act, 2015",
+    "Coal India subsidiary regime",
+    "MMDR Act, 1957",
+    "NCDP-2007 linkage regime"
+   ],
+   "a": 3,
+   "x": "The SHAKTI policy, introduced in 2017, replaced the NCDP-2007 linkage regime.",
+   "ty": "confusable",
+   "tq": "Distinguish a policy regime from the Acts governing coal allocation and mining.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "Under the SHAKTI policy, coal linkages are provided through:",
+   "o": [
+    "Only administrative nomination",
+    "Auction or tariff-based bidding",
+    "Only underground coal gasification",
+    "State-wise ownership allocation"
+   ],
+   "a": 1,
+   "x": "SHAKTI introduced auction or tariff-based bidding for coal linkages in place of the earlier NCDP-2007 regime.",
+   "ty": "application",
+   "tq": "Identify the operational mechanism associated with the policy rather than its year or parent legislation.",
+   "sec": "Production - CIL, SCCL, targets"
+  },
+  {
+   "s": "Revenue-sharing commercial coal auctions in India began in:",
+   "o": [
+    "2015",
+    "2017",
+    "2020",
+    "2025"
+   ],
+   "a": 2,
+   "x": "Revenue-sharing commercial coal auctions began in 2020.",
+   "ty": "chronology",
+   "tq": "Place the auction mechanism in time against the nearby years of the CMSP Act, SHAKTI policy and later auction rounds.",
+   "sec": "Commercial coal mining - auctions, CMSP Act 2015, MMDR amendments"
+  },
+  {
+   "s": "After twelve rounds of commercial coal auctions, which of the following was the position regarding mines and peak rated capacity?",
+   "o": [
+    "14 mines and 199 MTPA",
+    "134 mines and 381.749 MTPA",
+    "199 mines and 277.04 MTPA",
+    "134 mines and 277.04 MTPA"
+   ],
+   "a": 3,
+   "x": "After twelve rounds, 134 mines had been sold, with a peak rated capacity of 277.04 MTPA.",
+   "ty": "numerical",
+   "tq": "Pair the round count with both the mine count and capacity instead of mixing figures from other stages.",
+   "sec": "Commercial coal mining - auctions, CMSP Act 2015, MMDR amendments"
+  },
+  {
+   "s": "The 13th round of commercial coal mine auctions opened on:",
+   "o": [
+    "21 August 2025",
+    "23 March 2026",
+    "21 August 2020",
+    "2 May 2026"
+   ],
+   "a": 0,
+   "x": "The 13th round opened on 21 August 2025.",
+   "ty": "fact",
+   "tq": "Use the exact day, month and year to distinguish the auction round from later agreements.",
+   "sec": "Commercial coal mining - auctions, CMSP Act 2015, MMDR amendments"
+  },
+  {
+   "s": "How many mines were offered in the 13th round of commercial coal auctions?",
+   "o": [
+    "12",
+    "14",
+    "134",
+    "199"
+   ],
+   "a": 1,
+   "x": "The 13th round opened with 14 mines.",
+   "ty": "numerical",
+   "tq": "Separate the number offered in one round from the cumulative number sold after twelve rounds.",
+   "sec": "Commercial coal mining - auctions, CMSP Act 2015, MMDR amendments"
+  },
+  {
+   "s": "In the 14th round of commercial coal mine auctions, mines went to:",
+   "o": [
+    "Reliance Industries and Axis Energy",
+    "NTPC and APGENCO",
+    "MCL and CMPDI",
+    "Coal India Limited and SCCL"
+   ],
+   "a": 0,
+   "x": "The 14th round awarded mines to Reliance Industries and Axis Energy.",
+   "ty": "fact",
+   "tq": "Apply the wrong-owner trap by distinguishing auction awardees from coal-producing public sector entities.",
+   "sec": "Commercial coal mining - auctions, CMSP Act 2015, MMDR amendments"
+  },
+  {
+   "s": "The agreements in the 14th round were significant because they were the first agreements to include clauses relating to:",
+   "o": [
+    "Tariff-based bidding",
+    "Coal imports from China",
+    "Zero commercial coal production",
+    "Underground coal gasification"
+   ],
+   "a": 3,
+   "x": "The 14th-round agreements were the first to include underground coal gasification clauses.",
+   "ty": "fact",
+   "tq": "Link the special contractual clause with the correct technology rather than with the auction mechanism itself.",
+   "sec": "Commercial coal mining - auctions, CMSP Act 2015, MMDR amendments"
+  },
+  {
+   "s": "A total of 199 coal mines have been allocated under:",
+   "o": [
+    "The CMSP Act, 2015 and the MMDR Act, 1957",
+    "Only the NCDP-2007 regime",
+    "The Energy Conservation Act and the Electricity Act",
+    "Only the SHAKTI policy, 2017"
+   ],
+   "a": 0,
+   "x": "The 199 mines were allocated under the Coal Mines (Special Provisions) Act, 2015 and the MMDR Act, 1957.",
+   "ty": "confusable",
+   "tq": "Distinguish the two statutory routes of allocation from the separate linkage policy.",
+   "sec": "Commercial coal mining - auctions, CMSP Act 2015, MMDR amendments"
+  },
+  {
+   "s": "Which mineral was declared a Critical and Strategic Mineral through an amendment to the MMDR framework, enabling the Centre to auction its leases?",
+   "o": [
+    "Thermal coal",
+    "Coal bed methane",
+    "Coking coal",
+    "Lignite"
+   ],
+   "a": 2,
+   "x": "Coking coal was declared a Critical and Strategic Mineral, allowing the Centre to auction its leases.",
+   "ty": "fact",
+   "tq": "Identify the specific coal variety and avoid substituting the broader category of coal.",
+   "sec": "Commercial coal mining - auctions, CMSP Act 2015, MMDR amendments"
+  },
+  {
+   "s": "Coal bed methane is best described as methane that is:",
+   "o": [
+    "Stored only in large underground cavities",
+    "Only dissolved in groundwater below coal seams",
+    "Produced exclusively by surface combustion of coal",
+    "Held in coal seams, partly free in joints and partly adsorbed in micropores"
+   ],
+   "a": 3,
+   "x": "CBM is methane held in coal seams; part of it is free in joints and part is adsorbed in micropores.",
+   "ty": "fact",
+   "tq": "Break the definition into its two storage forms—free gas in joints and adsorbed gas in micropores.",
+   "sec": "Coal bed methane and underground coal gasification"
+  },
+  {
+   "s": "Commercial recovery of coal bed methane generally involves:",
+   "o": [
+    "Drilling wells and pumping out water",
+    "Mining only the surface layer of coal",
+    "Burning the coal seam in situ without wells",
+    "Injecting only nitrogen into coal seams"
+   ],
+   "a": 0,
+   "x": "CBM is released by drilling wells and pumping out water from the coal seam.",
+   "ty": "application",
+   "tq": "Match the resource-recovery process with the correct operational steps.",
+   "sec": "Coal bed methane and underground coal gasification"
+  },
+  {
+   "s": "Coal bed methane is also known as “sweet gas” because it:",
+   "o": [
+    "Contains no methane",
+    "Has a high concentration of heavier hydrocarbons",
+    "Contains few heavier hydrocarbons",
+    "Is produced only from sweet-water aquifers"
+   ],
+   "a": 2,
+   "x": "CBM is called sweet gas because it carries few heavier hydrocarbons.",
+   "ty": "confusable",
+   "tq": "Use the exact defining chemical distinction instead of interpreting “sweet” literally.",
+   "sec": "Coal bed methane and underground coal gasification"
+  },
+  {
+   "s": "Which one of the following correctly describes underground coal gasification?",
+   "o": [
+    "It uses water alone to convert coal into liquid fuel.",
+    "It is an in-situ process in which air or oxygen and steam are injected into coal seams to produce syngas underground.",
+    "It extracts only methane from micropores without altering the coal seam.",
+    "It is an ex-situ process in which coal is transported to a surface furnace."
+   ],
+   "a": 1,
+   "x": "UCG is an in-situ process. Air or oxygen and steam are injected into the coal seam to produce syngas underground.",
+   "ty": "application",
+   "tq": "Contrast in-situ and ex-situ processes and identify the correct reactants and product.",
+   "sec": "Coal bed methane and underground coal gasification"
+  },
+  {
+   "s": "Underground coal gasification is particularly applicable to coal that is:",
+   "o": [
+    "Limited to high-grade imported coal",
+    "Deep, thin or otherwise unmineable",
+    "Shallow, thick and already mined",
+    "Only stored above ground"
+   ],
+   "a": 1,
+   "x": "UCG can be used for deep, thin or unmineable coal seams.",
+   "ty": "fact",
+   "tq": "Identify the resource characteristic that makes underground conversion useful.",
+   "sec": "Coal bed methane and underground coal gasification"
+  },
+  {
+   "s": "Which of the following is a stated environmental risk of underground coal gasification?",
+   "o": [
+    "Groundwater contamination",
+    "Immediate destruction of all surface vegetation",
+    "Formation of heavier hydrocarbons in all coal seams",
+    "Depletion of atmospheric oxygen worldwide"
+   ],
+   "a": 0,
+   "x": "Groundwater contamination is a recognised risk associated with UCG.",
+   "ty": "negative",
+   "tq": "Select the specifically stated risk and reject broader unsupported environmental claims.",
+   "sec": "Coal bed methane and underground coal gasification"
+  },
+  {
+   "s": "What was the position of the MoEFCC expert panel regarding the minimum depth for UCG pilot projects?",
+   "o": [
+    "It refused to waive the 300 m minimum depth.",
+    "It waived the 300 m minimum depth.",
+    "It increased the minimum depth to 600 m.",
+    "It removed all depth requirements."
+   ],
+   "a": 0,
+   "x": "The MoEFCC expert panel refused to waive the 300 m minimum depth requirement for UCG pilot projects.",
+   "ty": "numerical",
+   "tq": "Watch the NOT-waiver distinction and retain the exact 300 m threshold.",
+   "sec": "Coal bed methane and underground coal gasification"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Dr M.V.R. Rayalaseema TPP — Muddanur, Kadapa district",
+    "Simhadri STPP — Visakhapatnam district",
+    "Dr Narla Tatarao TPS — Ibrahimpatnam near Vijayawada",
+    "Sri Damodaram Sanjeevaiah TPS — Kurnool district"
+   ],
+   "a": 3,
+   "x": "Sri Damodaram Sanjeevaiah TPS, also known as Krishnapatnam, is located in Nellore district, not Kurnool district. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the wrong location by comparing each plant with its district.",
+   "sec": "Coal-based thermal plants in AP - location"
+  },
+  {
+   "s": "Dr Narla Tatarao Thermal Power Station is located at:",
+   "o": [
+    "Muddanur in Kadapa district",
+    "Ibrahimpatnam near Vijayawada",
+    "Krishnapatnam in Nellore district",
+    "Visakhapatnam district"
+   ],
+   "a": 1,
+   "x": "Dr Narla Tatarao TPS is located at Ibrahimpatnam, near Vijayawada.",
+   "ty": "fact",
+   "tq": "Distinguish the plant location from the locations of the other AP coal-based stations.",
+   "sec": "Coal-based thermal plants in AP - location"
+  },
+  {
+   "s": "Which organisation owns Dr Narla Tatarao Thermal Power Station?",
+   "o": [
+    "Coal India Limited",
+    "NTPC",
+    "APPDCL",
+    "APGENCO"
+   ],
+   "a": 3,
+   "x": "Dr Narla Tatarao TPS is owned by APGENCO.",
+   "ty": "fact",
+   "tq": "Use the owner-location pairing and avoid swapping APGENCO with APPDCL or NTPC.",
+   "sec": "Coal-based thermal plants in AP - location"
+  },
+  {
+   "s": "The generating units mentioned for Dr Narla Tatarao Thermal Power Station are:",
+   "o": [
+    "600 MW and 2,000 MW",
+    "800 MW and 2,000 MW",
+    "500 MW and 600 MW",
+    "500 MW and 800 MW"
+   ],
+   "a": 3,
+   "x": "The stated units of Dr Narla Tatarao TPS are 500 MW and 800 MW.",
+   "ty": "numerical",
+   "tq": "Separate the unit capacities of one station from the single-unit capacities of other plants.",
+   "sec": "Coal-based thermal plants in AP - location"
+  },
+  {
+   "s": "Dr M.V.R. Rayalaseema Thermal Power Plant is located at:",
+   "o": [
+    "Visakhapatnam district",
+    "Krishnapatnam, Nellore district",
+    "Ibrahimpatnam, near Vijayawada",
+    "Muddanur, Kadapa district"
+   ],
+   "a": 3,
+   "x": "Dr M.V.R. Rayalaseema TPP is located at Muddanur in Kadapa district.",
+   "ty": "fact",
+   "tq": "Test the exact town–district combination rather than the plant’s regional name.",
+   "sec": "Coal-based thermal plants in AP - location"
+  },
+  {
+   "s": "Which organisation is associated with Dr M.V.R. Rayalaseema Thermal Power Plant?",
+   "o": [
+    "SCCL",
+    "APGENCO",
+    "NTPC",
+    "APPDCL"
+   ],
+   "a": 1,
+   "x": "Dr M.V.R. Rayalaseema TPP is owned by APGENCO.",
+   "ty": "fact",
+   "tq": "Match the state generating company with its plant and reject nearby coal-sector entities.",
+   "sec": "Coal-based thermal plants in AP - location"
+  },
+  {
+   "s": "The stated capacity of the unit of Dr M.V.R. Rayalaseema Thermal Power Plant is:",
+   "o": [
+    "2,000 MW",
+    "500 MW",
+    "800 MW",
+    "600 MW"
+   ],
+   "a": 3,
+   "x": "The plant is listed with a 600 MW unit.",
+   "ty": "numerical",
+   "tq": "Compare single-unit capacities with the multi-unit figures of another station.",
+   "sec": "Coal-based thermal plants in AP - location"
+  },
+  {
+   "s": "Sri Damodaram Sanjeevaiah Thermal Power Station, also known as Krishnapatnam, is located in:",
+   "o": [
+    "Krishna district",
+    "Visakhapatnam district",
+    "Kadapa district",
+    "Nellore district"
+   ],
+   "a": 3,
+   "x": "Sri Damodaram Sanjeevaiah TPS is located in Nellore district.",
+   "ty": "fact",
+   "tq": "Use the alternate plant name as the location clue and distinguish the district from the other stations.",
+   "sec": "Coal-based thermal plants in AP - location"
+  },
+  {
+   "s": "Sri Damodaram Sanjeevaiah Thermal Power Station is associated with:",
+   "o": [
+    "APPDCL",
+    "NTPC",
+    "Coal India Limited",
+    "APGENCO"
+   ],
+   "a": 0,
+   "x": "Sri Damodaram Sanjeevaiah TPS is owned by APPDCL.",
+   "ty": "fact",
+   "tq": "Apply the owner-function distinction among NTPC, APGENCO and APPDCL.",
+   "sec": "Coal-based thermal plants in AP - location"
+  },
+  {
+   "s": "Consider the following statements regarding Andhra Pradesh’s coal supply:\n1. Andhra Pradesh has no coal of its own.\n2. It depends on coal from Singareni and MCL.\n3. Its thermal power plants therefore depend entirely on imported coal.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Andhra Pradesh has no coal of its own and depends on Singareni and MCL; the material does not state that it depends entirely on imported coal.",
+   "ty": "statements",
+   "tq": "Reject the extreme word “entirely” and distinguish domestic external sources from imports.",
+   "sec": "Coal-based thermal plants in AP - location"
+  },
+  {
+   "s": "The ₹37,500-crore scheme currently associated with coal gasification drew:",
+   "o": [
+    "No bids in September 2026",
+    "Bids from 14 mines in September 2026",
+    "No policy attention during the West Asia conflict",
+    "Bids only from Reliance Industries in May 2026"
+   ],
+   "a": 0,
+   "x": "The ₹37,500-crore gasification scheme drew no bids in September 2026. The West Asia conflict nevertheless pushed gasification higher on the policy agenda.",
+   "ty": "fact",
+   "tq": "Separate the policy objective and relevance from the actual response received in the bidding process.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which development pushed coal gasification higher on the policy agenda?",
+   "o": [
+    "The replacement of NCDP-2007 by SHAKTI",
+    "The creation of CMPDI",
+    "The West Asia conflict",
+    "The achievement of 1,047.50 MT coal production"
+   ],
+   "a": 2,
+   "x": "The West Asia conflict increased the policy emphasis on coal gasification.",
+   "ty": "fact",
+   "tq": "Identify the stated current-affairs trigger rather than a related coal-sector reform.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Why has the 100 MT coal-gasification goal been viewed with doubt?",
+   "o": [
+    "Because few projects have reached an advanced stage",
+    "Because all commercial auctions were cancelled",
+    "Because UCG uses only shallow coal",
+    "Because coal production crossed one billion tonnes in 2024–25"
+   ],
+   "a": 0,
+   "x": "The 100 MT goal is considered doubtful because few coal-gasification projects have reached an advanced stage.",
+   "ty": "application",
+   "tq": "Link the criticism to project maturity rather than to total coal production or auction numbers.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following measures has been recommended by LENS in relation to coal gasification?\n1. Use of CFB gasifiers for high-ash coal\n2. Zero liquid discharge\n3. Mandatory CCUS\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "LENS has called for CFB gasifiers for high-ash coal, zero liquid discharge and mandatory carbon capture, utilisation and storage (CCUS).",
+   "ty": "statements",
+   "tq": "Recognise a complete recommendation set and avoid dropping the environmental safeguards.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "BHEL commissioned the first IGCC plant in:",
+   "o": [
+    "1774",
+    "1956",
+    "1985",
+    "2020"
+   ],
+   "a": 2,
+   "x": "BHEL commissioned the first Integrated Gasification Combined Cycle (IGCC) plant in 1985.",
+   "ty": "fact",
+   "tq": "Expand the technology abbreviation and associate the correct year with the commissioning event.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. First coal mine established at Raniganj\nB. BHEL commissioned the first IGCC plant\nC. Revenue-sharing commercial coal auctions began\nD. The 13th round of commercial coal auctions opened",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "C, A, B, D"
+   ],
+   "a": 0,
+   "x": "The correct sequence is 1774, 1985, 2020 and 21 August 2025: A, B, C, D.",
+   "ty": "chronology",
+   "tq": "Fix the first and last events, then place the two intermediate milestones by year.",
+   "sec": "Universal angles"
+  }
+ ]
+}

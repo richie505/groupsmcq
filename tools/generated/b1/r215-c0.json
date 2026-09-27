@@ -1,0 +1,513 @@
+{
+ "book": 1,
+ "row": 215,
+ "chunk": 0,
+ "section": "Prominent Andhra leaders - Konda Venkatappayya, Pattabhi Sitaramayya, Tanguturi Prakasam, Bulusu Sambamurthy",
+ "subsections": [
+  "Leaders' popular titles → person + episode behind the title",
+  "Posts held → leader",
+  "Pingali Venkayya - flag design, Congress sessions, early career",
+  "Books written → author",
+  "Tanguturi Prakasam - Simon protest, Swarajya, Madras premiership",
+  "Konda Venkatappayya - Andhra Mahasabha, Congress offices, CDM dictator"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "The title ‘Maharshi’ is associated with which of the following leaders of the Andhra freedom movement?",
+   "o": [
+    "Duggirala Gopalakrishnayya",
+    "Bulusu Sambamurthy",
+    "Kasinathuni Nageswara Rao",
+    "Gadicherla Harisarvottama Rao"
+   ],
+   "a": 1,
+   "x": "Bulusu Sambamurthy was popularly known as ‘Maharshi’ because of his ascetic Gandhian way of life.",
+   "ty": "fact",
+   "tq": "Use direct title–person recall while distinguishing similar honorifics.",
+   "sec": "Leaders' popular titles → person + episode behind the title"
+  },
+  {
+   "s": "Who among the following was known as ‘Andhra Ratna’?",
+   "o": [
+    "Konda Venkatappayya",
+    "Tanguturi Prakasam",
+    "Duggirala Gopalakrishnayya",
+    "Gadicherla Harisarvottama Rao"
+   ],
+   "a": 2,
+   "x": "Duggirala Gopalakrishnayya was called ‘Andhra Ratna’. He led the Chirala-Perala Satyagraha in 1921 and founded the Ramadandu volunteer corps.",
+   "ty": "fact",
+   "tq": "Match the popular title with the leader and the associated movement.",
+   "sec": "Leaders' popular titles → person + episode behind the title"
+  },
+  {
+   "s": "‘Desoddharaka’ was the title associated with which of the following personalities?",
+   "o": [
+    "Kasinathuni Nageswara Rao",
+    "Duggirala Gopalakrishnayya",
+    "Bulusu Sambamurthy",
+    "Konda Venkatappayya"
+   ],
+   "a": 0,
+   "x": "Kasinathuni Nageswara Rao was known as ‘Desoddharaka’ and was the founder of Andhra Patrika.",
+   "ty": "fact",
+   "tq": "Apply confusable-title discrimination among prominent Andhra leaders.",
+   "sec": "Leaders' popular titles → person + episode behind the title"
+  },
+  {
+   "s": "Gadicherla Harisarvottama Rao was popularly known as ‘Andhra Tilak’ mainly because of his:",
+   "o": [
+    "leadership of the Chirala-Perala Satyagraha",
+    "ascetic Gandhian life",
+    "founding of Andhra Patrika",
+    "courage during the Vande Mataram era"
+   ],
+   "a": 3,
+   "x": "Gadicherla Harisarvottama Rao earned the title ‘Andhra Tilak’ for his courage during the Vande Mataram era.",
+   "ty": "application",
+   "tq": "Identify the episode or quality behind a title rather than merely recalling the name.",
+   "sec": "Leaders' popular titles → person + episode behind the title"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Kasinathuni Nageswara Rao — Ramadandu volunteer corps",
+    "Duggirala Gopalakrishnayya — Andhra Patrika",
+    "Bulusu Sambamurthy — ascetic Gandhian life",
+    "Gadicherla Harisarvottama Rao — Chirala-Perala Satyagraha"
+   ],
+   "a": 2,
+   "x": "Bulusu Sambamurthy was associated with an ascetic Gandhian life. Andhra Patrika was founded by Kasinathuni Nageswara Rao, the Ramadandu was founded by Duggirala Gopalakrishnayya, and the Chirala-Perala Satyagraha was led by him.",
+   "ty": "match",
+   "tq": "Find the sure person–episode pair and eliminate swapped associations.",
+   "sec": "Leaders' popular titles → person + episode behind the title"
+  },
+  {
+   "s": "Consider the following statements about posts held by Pattabhi Sitaramayya:\n1. He was Governor of Madhya Pradesh from 1952 to 1957.\n2. He was a member of the Rajya Sabha.\n3. He served as President of the Indian National Congress at Jaipur in 1948.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Pattabhi Sitaramayya held all three positions: Governor of Madhya Pradesh during 1952–1957, Rajya Sabha member, and INC President at Jaipur in 1948.",
+   "ty": "statements",
+   "tq": "Test a cluster of offices held by one leader using an all-statements option.",
+   "sec": "Posts held → leader"
+  },
+  {
+   "s": "Who served as President of the Andhra Pradesh Congress Committee in 1937?",
+   "o": [
+    "Tanguturi Prakasam",
+    "Konda Venkatappayya",
+    "Pattabhi Sitaramayya",
+    "Bulusu Sambamurthy"
+   ],
+   "a": 2,
+   "x": "Pattabhi Sitaramayya served as President of the Andhra Pradesh Congress Committee in 1937.",
+   "ty": "fact",
+   "tq": "Distinguish an organisational post from the leader’s other national offices.",
+   "sec": "Posts held → leader"
+  },
+  {
+   "s": "Tanguturi Prakasam held which of the following offices in the Rajaji Ministry of 1937?",
+   "o": [
+    "Finance Minister",
+    "Revenue Minister",
+    "Home Minister",
+    "Education Minister"
+   ],
+   "a": 1,
+   "x": "Tanguturi Prakasam served as Revenue Minister in the Rajaji Ministry of 1937.",
+   "ty": "fact",
+   "tq": "Use the ministry-and-portfolio association to avoid swapping offices.",
+   "sec": "Posts held → leader"
+  },
+  {
+   "s": "Tanguturi Prakasam became the Chief Minister or Premier of composite Madras in:",
+   "o": [
+    "1937",
+    "1942",
+    "1946",
+    "1953"
+   ],
+   "a": 2,
+   "x": "Tanguturi Prakasam became Chief Minister, then referred to as Premier, of composite Madras in 1946.",
+   "ty": "numerical",
+   "tq": "Use a year-based distinction between Prakasam’s Madras and Andhra offices.",
+   "sec": "Posts held → leader"
+  },
+  {
+   "s": "Which of the following statements is correct regarding Tanguturi Prakasam’s later public career?",
+   "o": [
+    "He was the first Chief Minister of Andhra State in 1953.",
+    "He was President of the INC at Jaipur in 1948.",
+    "He was the second and last Chief Minister of Andhra State.",
+    "He served as Governor of Madhya Pradesh from 1952 to 1957."
+   ],
+   "a": 0,
+   "x": "Tanguturi Prakasam became the first Chief Minister of Andhra State in 1953. Bezawada Gopal Reddy was the second and last Chief Minister of Andhra State.",
+   "ty": "fact",
+   "tq": "Separate closely related Andhra State chief ministerships.",
+   "sec": "Posts held → leader"
+  },
+  {
+   "s": "Tanguturi Prakasam was elected President of the Andhra Congress Committee how many times?",
+   "o": [
+    "8 times",
+    "12 times",
+    "18 times",
+    "23 times"
+   ],
+   "a": 2,
+   "x": "Tanguturi Prakasam was elected President of the Andhra Congress Committee 18 times.",
+   "ty": "numerical",
+   "tq": "Recall the distinctive numerical figure using nearby but incorrect counts as distractors.",
+   "sec": "Posts held → leader"
+  },
+  {
+   "s": "Who was the second and last Chief Minister of Andhra State, serving from 28 March 1955 to 31 October 1956?",
+   "o": [
+    "Konda Venkatappayya",
+    "Pattabhi Sitaramayya",
+    "Bezawada Gopal Reddy",
+    "Tanguturi Prakasam"
+   ],
+   "a": 2,
+   "x": "Bezawada Gopal Reddy was the second and last Chief Minister of Andhra State, holding office from 28 March 1955 to 31 October 1956.",
+   "ty": "numerical",
+   "tq": "Use dates to distinguish successive holders of the same office.",
+   "sec": "Posts held → leader"
+  },
+  {
+   "s": "The flag designed by Pingali Venkayya was shown to Mahatma Gandhi at which meeting?",
+   "o": [
+    "The Vijayawada AICC meeting of 1921",
+    "The Lahore Congress Session of 1929",
+    "The Madras Congress Session of 1917",
+    "The Calcutta Special Session of 1920"
+   ],
+   "a": 0,
+   "x": "Pingali Venkayya showed the flag to Gandhi at the Vijayawada AICC meeting held on 31 March–1 April 1921.",
+   "ty": "fact",
+   "tq": "Link a historical object with the specific conference at which it was presented.",
+   "sec": "Pingali Venkayya - flag design, Congress sessions, early career"
+  },
+  {
+   "s": "The venue of the Vijayawada AICC meeting at which Pingali Venkayya showed the flag to Gandhi was named:",
+   "o": [
+    "Andhra Nagar",
+    "Venkayya Nagar",
+    "Gandhi Nagar",
+    "Swarajya Nagar"
+   ],
+   "a": 2,
+   "x": "The venue of the Vijayawada AICC meeting was named ‘Gandhi Nagar’.",
+   "ty": "fact",
+   "tq": "Test a precise place-name associated with a major Congress event.",
+   "sec": "Pingali Venkayya - flag design, Congress sessions, early career"
+  },
+  {
+   "s": "Pingali Venkayya was born on:",
+   "o": [
+    "31 March 1921",
+    "22 February 1866",
+    "2 August 1876",
+    "23 August 1872"
+   ],
+   "a": 2,
+   "x": "Pingali Venkayya was born on 2 August 1876.",
+   "ty": "numerical",
+   "tq": "Distinguish the leader’s birth date from the dates of related political events.",
+   "sec": "Pingali Venkayya - flag design, Congress sessions, early career"
+  },
+  {
+   "s": "Pingali Venkayya was born at:",
+   "o": [
+    "Guntur town",
+    "Bapatla",
+    "Vinodarayunipalem",
+    "Bhatlapenumarru near Machilipatnam"
+   ],
+   "a": 3,
+   "x": "Pingali Venkayya was born at Bhatlapenumarru near Machilipatnam.",
+   "ty": "fact",
+   "tq": "Use precise birthplace discrimination among Andhra locations.",
+   "sec": "Pingali Venkayya - flag design, Congress sessions, early career"
+  },
+  {
+   "s": "Which of the following pairs relating to Pingali Venkayya is correctly matched?",
+   "o": [
+    "Study of cotton varieties — Patti Venkayya",
+    "Study of Japanese — Diamond Venkayya",
+    "Study of diamonds — Japan Venkayya",
+    "Study of national flags — Patti Venkayya"
+   ],
+   "a": 0,
+   "x": "Pingali Venkayya was known as ‘Patti Venkayya’ for his study of cotton varieties. His study of Japanese led to the name ‘Japan Venkayya’, and his interest in diamonds led to ‘Diamond Venkayya’.",
+   "ty": "match",
+   "tq": "Discriminate among aliases derived from different areas of study.",
+   "sec": "Pingali Venkayya - flag design, Congress sessions, early career"
+  },
+  {
+   "s": "Pingali Venkayya published a book on national-flag designs in:",
+   "o": [
+    "1910",
+    "1916",
+    "1921",
+    "1935"
+   ],
+   "a": 1,
+   "x": "Pingali Venkayya published a book on national-flag designs in 1916.",
+   "ty": "numerical",
+   "tq": "Separate the year of publication from the year of the flag presentation and design.",
+   "sec": "Pingali Venkayya - flag design, Congress sessions, early career"
+  },
+  {
+   "s": "Which one of the following books was written by Pattabhi Sitaramayya?",
+   "o": [
+    "Naa Jeevita Yatra",
+    "Chenna Nagaramu Andhra Nagaramae",
+    "Andhrudyamam",
+    "Feathers and Stones"
+   ],
+   "a": 3,
+   "x": "‘Feathers and Stones’, described as an Ahmednagar Fort prison diary, was written by Pattabhi Sitaramayya.",
+   "ty": "fact",
+   "tq": "Distinguish authorship by separating books of Pattabhi, Prakasam and Konda Venkatappayya.",
+   "sec": "Books written → author"
+  },
+  {
+   "s": "Which of the following works was written by Tanguturi Prakasam?",
+   "o": [
+    "Chenna Nagaramu Andhra Nagaramae",
+    "Feathers and Stones",
+    "History of the Indian National Congress",
+    "Gandhi and Gandhism"
+   ],
+   "a": 0,
+   "x": "‘Chenna Nagaramu Andhra Nagaramae’ was written by Tanguturi Prakasam.",
+   "ty": "fact",
+   "tq": "Use direct author–work association while avoiding similarly grouped books.",
+   "sec": "Books written → author"
+  },
+  {
+   "s": "Consider the following statements:\n1. ‘Naa Jeevita Yatra’ is the autobiography of Tanguturi Prakasam.\n2. The autobiography consists of four parts.\n3. Tanguturi Prakasam wrote all four parts himself.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "‘Naa Jeevita Yatra’ is Prakasam’s autobiography and consists of four parts. However, Prakasam wrote three parts, while Tenneti Viswanatham wrote the fourth.",
+   "ty": "statements",
+   "tq": "Spot the subtle false statement created by an absolute claim such as ‘all’.",
+   "sec": "Books written → author"
+  },
+  {
+   "s": "Which of the following works is NOT associated with Tanguturi Prakasam?",
+   "o": [
+    "Indian Monetary Systems",
+    "Law Times",
+    "Andhrudyamam",
+    "Monetary Systems of the World"
+   ],
+   "a": 2,
+   "x": "‘Andhrudyamam’ was written by Konda Venkatappayya. Law Times, Monetary Systems of the World and Indian Monetary Systems were associated with Tanguturi Prakasam.",
+   "ty": "negative",
+   "tq": "Find the one work belonging to a different author in a grouped list.",
+   "sec": "Books written → author"
+  },
+  {
+   "s": "Pattabhi Sitaramayya wrote articles in The Hindu on the need for:",
+   "o": [
+    "separate electorates",
+    "linguistic states",
+    "the abolition of municipalities",
+    "military recruitment"
+   ],
+   "a": 1,
+   "x": "Pattabhi Sitaramayya wrote articles in The Hindu advocating the need for linguistic states.",
+   "ty": "fact",
+   "tq": "Identify the subject of a leader’s published advocacy.",
+   "sec": "Books written → author"
+  },
+  {
+   "s": "Tanguturi Prakasam was born on 23 August 1872 at:",
+   "o": [
+    "Bhatlapenumarru near Machilipatnam",
+    "Valluru in Ongole district in 1892",
+    "Nidadavolu",
+    "Vinodarayunipalem in present-day Prakasam district"
+   ],
+   "a": 3,
+   "x": "Tanguturi Prakasam was born on 23 August 1872 at Vinodarayunipalem, in the area now forming Prakasam district.",
+   "ty": "confusable",
+   "tq": "Resolve a misleading alternative by checking both the year and birthplace together.",
+   "sec": "Tanguturi Prakasam - Simon protest, Swarajya, Madras premiership"
+  },
+  {
+   "s": "In 1951, Tanguturi Prakasam left the Congress along with N. G. Ranga and founded the:",
+   "o": [
+    "Andhra Congress Circle",
+    "Praja Socialist Party directly",
+    "Kisan Mazdoor Praja Party",
+    "Swarajya Party"
+   ],
+   "a": 2,
+   "x": "In 1951, Tanguturi Prakasam left the Congress with N. G. Ranga and founded the Kisan Mazdoor Praja Party. It later became associated with the Praja Socialist Party.",
+   "ty": "fact",
+   "tq": "Distinguish the party founded initially from the later political formation.",
+   "sec": "Tanguturi Prakasam - Simon protest, Swarajya, Madras premiership"
+  },
+  {
+   "s": "Tanguturi Prakasam was a coastal signatory to the Sribagh Pact concluded on:",
+   "o": [
+    "31 March 1921",
+    "23 August 1946",
+    "28 March 1955",
+    "16 November 1937"
+   ],
+   "a": 3,
+   "x": "Tanguturi Prakasam was a coastal signatory to the Sribagh Pact, concluded on 16 November 1937.",
+   "ty": "numerical",
+   "tq": "Match the agreement with its exact date rather than with dates of related movements.",
+   "sec": "Tanguturi Prakasam - Simon protest, Swarajya, Madras premiership"
+  },
+  {
+   "s": "Arrange the following events connected with Konda Venkatappayya in chronological order:\nA. Presidency of the fifth Andhra Mahasabha session at Nellore\nB. Presidency of the Swadeshi meeting at Tenali\nC. Secretaryship of the Nidadavolu standing committee\nD. Secretaryship of the first Andhra Mahasabha session at Bapatla",
+   "o": [
+    "B, C, D, A",
+    "C, B, D, A",
+    "B, D, C, A",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The correct order is Tenali Swadeshi meeting (1907), Nidadavolu standing committee (1912), Bapatla session (1913), and Nellore session (1917).",
+   "ty": "chronology",
+   "tq": "Fix the first and last events, then arrange the middle events by year.",
+   "sec": "Konda Venkatappayya - Andhra Mahasabha, Congress offices, CDM dictator"
+  },
+  {
+   "s": "Konda Venkatappayya served as secretary of the first Andhra Mahasabha session held at Bapatla in:",
+   "o": [
+    "1907",
+    "1910",
+    "1913",
+    "1917"
+   ],
+   "a": 2,
+   "x": "Konda Venkatappayya was the secretary of the first Andhra Mahasabha session at Bapatla in 1913.",
+   "ty": "numerical",
+   "tq": "Distinguish the year of the first session from the years of related Andhra organisations.",
+   "sec": "Konda Venkatappayya - Andhra Mahasabha, Congress offices, CDM dictator"
+  },
+  {
+   "s": "The fifth session of the Andhra Mahasabha, presided over by Konda Venkatappayya, was held at:",
+   "o": [
+    "Nellore",
+    "Tenali",
+    "Nidadavolu",
+    "Bapatla"
+   ],
+   "a": 0,
+   "x": "Konda Venkatappayya presided over the fifth session of the Andhra Mahasabha held at Nellore in 1917.",
+   "ty": "fact",
+   "tq": "Distinguish the venues of successive organisational sessions.",
+   "sec": "Konda Venkatappayya - Andhra Mahasabha, Congress offices, CDM dictator"
+  },
+  {
+   "s": "Konda Venkatappayya presided over the Swadeshi meeting at Tenali in:",
+   "o": [
+    "1902",
+    "1907",
+    "1912",
+    "1920"
+   ],
+   "a": 1,
+   "x": "Konda Venkatappayya presided over the Swadeshi meeting at Tenali in 1907.",
+   "ty": "numerical",
+   "tq": "Associate the leader, meeting and year without confusing it with Congress sessions.",
+   "sec": "Konda Venkatappayya - Andhra Mahasabha, Congress offices, CDM dictator"
+  },
+  {
+   "s": "Which of the following statements about Konda Venkatappayya is correct?",
+   "o": [
+    "He served only as a journalist and never practised law.",
+    "He was a military officer before entering public life.",
+    "He joined the legal profession after becoming a Congress organiser.",
+    "He was a lawyer who gave up his legal practice."
+   ],
+   "a": 3,
+   "x": "Konda Venkatappayya was a lawyer who gave up his practice and devoted himself to public and Congress work.",
+   "ty": "fact",
+   "tq": "Use the biographical occupation-and-transition detail as the identifying clue.",
+   "sec": "Konda Venkatappayya - Andhra Mahasabha, Congress offices, CDM dictator"
+  },
+  {
+   "s": "Konda Venkatappayya was born on 22 February 1866 at:",
+   "o": [
+    "Vinodarayunipalem",
+    "Guntur",
+    "Nellore",
+    "Machilipatnam"
+   ],
+   "a": 1,
+   "x": "Konda Venkatappayya was born on 22 February 1866 at Guntur.",
+   "ty": "numerical",
+   "tq": "Combine the birth date with the birthplace to distinguish leaders with similar public careers.",
+   "sec": "Konda Venkatappayya - Andhra Mahasabha, Congress offices, CDM dictator"
+  },
+  {
+   "s": "At the Calcutta Special Session of 1920, Konda Venkatappayya opposed the Non-Cooperation resolution, which was passed by a vote of:",
+   "o": [
+    "1,886 to 1,884",
+    "1,886 to 884",
+    "884 to 1,886",
+    "1,980 to 886"
+   ],
+   "a": 1,
+   "x": "The Non-Cooperation resolution at the Calcutta Special Session of 1920 was passed by 1,886 votes to 884, despite Konda Venkatappayya’s opposition.",
+   "ty": "numerical",
+   "tq": "Retain the exact vote figures and avoid reversing the majority and minority.",
+   "sec": "Konda Venkatappayya - Andhra Mahasabha, Congress offices, CDM dictator"
+  },
+  {
+   "s": "Konda Venkatappayya was elected as a Member of the Legislative Council from Guntur-Tenali in:",
+   "o": [
+    "1920",
+    "1930",
+    "1937",
+    "1942"
+   ],
+   "a": 2,
+   "x": "Konda Venkatappayya was elected MLC from Guntur-Tenali in 1937.",
+   "ty": "numerical",
+   "tq": "Distinguish an electoral year from the years of his imprisonments.",
+   "sec": "Konda Venkatappayya - Andhra Mahasabha, Congress offices, CDM dictator"
+  },
+  {
+   "s": "In which of the following years was Konda Venkatappayya jailed according to the recorded sequence of his imprisonments?",
+   "o": [
+    "1928, 1931 and 1940",
+    "1930, 1937 and 1942",
+    "1932, 1937 and 1946",
+    "1930, 1932 and 1942"
+   ],
+   "a": 3,
+   "x": "Konda Venkatappayya was jailed in 1930, 1932 and 1942.",
+   "ty": "numerical",
+   "tq": "Test a three-date sequence while separating imprisonment years from office-holding years.",
+   "sec": "Konda Venkatappayya - Andhra Mahasabha, Congress offices, CDM dictator"
+  }
+ ]
+}

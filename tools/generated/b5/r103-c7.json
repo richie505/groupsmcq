@@ -1,0 +1,432 @@
+{
+ "book": 5,
+ "row": 103,
+ "chunk": 7,
+ "section": "Solid waste, plastic waste, e-waste, biomedical and construction waste - rules and management",
+ "subsections": [
+  "Global Plastics Treaty",
+  "AP plastic curbs",
+  "Hazardous constituents of e-waste - effects",
+  "Recycling chain - recyclers, dismantlers, citizens, informal hubs, R2",
+  "E-waste magnitude - India's rank, generation, processing",
+  "Global E-waste Monitor",
+  "COVID-19 biomedical waste guidelines and tracking app",
+  "International conventions → subject + India's status",
+  "Chemical disasters in news"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 31,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "UNEA-5.2, held in Nairobi in March 2022, adopted which resolution that led to the establishment of the Intergovernmental Negotiating Committee (INC)?",
+   "o": [
+    "Plastic-Free Oceans",
+    "Control of Marine Litter",
+    "End Plastic Pollution",
+    "Global Circular Economy"
+   ],
+   "a": 2,
+   "x": "The UNEA-5.2 resolution titled “End Plastic Pollution” established the Intergovernmental Negotiating Committee.",
+   "ty": "fact",
+   "tq": "Use the exact title of the resolution rather than a broad subject description.",
+   "sec": "Global Plastics Treaty"
+  },
+  {
+   "s": "Which one of the following is the correct chronological order of the venues of the Intergovernmental Negotiating Committee on the global plastics treaty, beginning with the earliest?",
+   "o": [
+    "Punta del Este – Paris – Nairobi – Ottawa – Busan – Geneva",
+    "Paris – Punta del Este – Nairobi – Busan – Ottawa – Geneva",
+    "Nairobi – Punta del Este – Paris – Ottawa – Geneva – Busan",
+    "Punta del Este – Nairobi – Paris – Busan – Ottawa – Geneva"
+   ],
+   "a": 0,
+   "x": "The INC venues were Punta del Este, Paris, Nairobi, Ottawa, Busan and Geneva in that order. Busan hosted INC-5 in 2024 and Geneva hosted INC-5.2 in August 2025.",
+   "ty": "chronology",
+   "tq": "Fix the first and last venues, then arrange the middle venues chronologically.",
+   "sec": "Global Plastics Treaty"
+  },
+  {
+   "s": "The INC-5.2 meeting held in Geneva in August 2025 ended with no agreement. Which of the following were identified as major sticking points?\n1. Production caps\n2. Chemicals of concern\n3. Finance\n4. Establishment of informal e-waste hubs\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Production caps, chemicals of concern and finance were the major sticking points. Informal e-waste hubs were not an issue in the INC negotiations.",
+   "ty": "statements",
+   "tq": "Eliminate the statement imported from a neighbouring environmental topic.",
+   "sec": "Global Plastics Treaty"
+  },
+  {
+   "s": "In Andhra Pradesh, the ban on single-use plastic and carry bags applies to carry bags having thickness below:",
+   "o": [
+    "100 microns",
+    "80 microns",
+    "150 microns",
+    "120 microns"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh bans single-use plastic and carry bags below 120 microns, with enforcement involving the Revenue Department, Police and Pollution Control Board.",
+   "ty": "numerical",
+   "tq": "Distinguish the precise statutory threshold from nearby thickness values.",
+   "sec": "AP plastic curbs"
+  },
+  {
+   "s": "Which of the following combinations correctly represents the action reported under Andhra Pradesh plastic curbs during AP SES 2025–26?",
+   "o": [
+    "3,571.40 tonnes carry bags and 5,505.06 tonnes single-use plastic seized",
+    "3,571.40 kg carry bags and 5,505.06 kg single-use plastic seized",
+    "5,505.06 tonnes carry bags and 3,571.40 tonnes single-use plastic seized",
+    "5,505.06 kg carry bags and 3,571.40 kg single-use plastic seized"
+   ],
+   "a": 3,
+   "x": "The reported seizures were 5,505.06 kg of carry bags and 3,571.40 kg of single-use plastic.",
+   "ty": "numerical",
+   "tq": "Check both the units and the order of the two figures.",
+   "sec": "AP plastic curbs"
+  },
+  {
+   "s": "With reference to the plastic curbs in Guntur, consider the following statements:\n1. A complete ban was scheduled from 15 August 2026.\n2. Fines could extend up to ₹5,000.\n3. Fines were to be collected through the Swachh App.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Guntur’s complete ban was scheduled from 15 August 2026, fines could reach ₹5,000, and the Swachh App was to be used for fines.",
+   "ty": "statements",
+   "tq": "Verify the date, monetary limit and enforcement mechanism separately.",
+   "sec": "AP plastic curbs"
+  },
+  {
+   "s": "Which of the following best defines e-waste in the context of the ITU definition?",
+   "o": [
+    "Only hazardous electronic equipment exported across borders",
+    "Only discarded computers sent for recycling",
+    "All household waste containing any metal component",
+    "Discarded electrical and electronic equipment and parts not meant for reuse"
+   ],
+   "a": 3,
+   "x": "E-waste consists of discarded electrical and electronic equipment and parts that are not intended for reuse.",
+   "ty": "fact",
+   "tq": "Prefer the definition covering both equipment and parts, and excluding items meant for reuse.",
+   "sec": "Hazardous constituents of e-waste - effects"
+  },
+  {
+   "s": "Which one of the following is NOT a hazardous constituent released by old computers?",
+   "o": [
+    "Cadmium",
+    "Plutonium",
+    "Mercury",
+    "Beryllium"
+   ],
+   "a": 1,
+   "x": "Old computers can release beryllium, cadmium, chromium, mercury and lead, besides PCBs and PBBs. Plutonium is not included in this list.",
+   "ty": "negative",
+   "tq": "Find the outsider among the listed hazardous constituents.",
+   "sec": "Hazardous constituents of e-waste - effects"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below.\n\nList-I (Constituent)\na. Lead\nb. Mercury\nc. Cadmium\nd. Brominated flame retardants (PBBs)\n\nList-II (Main harm or characteristic)\ni. Kidney and bone damage\nii. Persistent nature and endocrine effects\niii. Nervous-system and kidney effects\niv. Brain and kidney damage; bioaccumulation in fish\n\nCodes:",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–i, b–ii, c–iii, d–iv"
+   ],
+   "a": 0,
+   "x": "Lead affects the nervous system and kidneys; mercury damages the brain and kidneys and bioaccumulates in fish; cadmium damages kidneys and bones; PBBs are persistent and have endocrine effects.",
+   "ty": "match",
+   "tq": "Start from the sure pair, especially cadmium with kidney and bone damage.",
+   "sec": "Hazardous constituents of e-waste - effects"
+  },
+  {
+   "s": "Improper disposal of biomedical waste and e-waste can contribute to biodiversity loss primarily because it:",
+   "o": [
+    "increases the natural regeneration rate of forests",
+    "converts all pollutants into harmless nutrients",
+    "prevents the release of toxic substances into groundwater",
+    "increases soil and water toxicity and damages ecosystems"
+   ],
+   "a": 3,
+   "x": "Improper disposal releases toxic substances into soil and water, thereby damaging ecosystems and biodiversity.",
+   "ty": "application",
+   "tq": "Trace the cause-and-effect chain from waste disposal to ecosystem damage.",
+   "sec": "Hazardous constituents of e-waste - effects"
+  },
+  {
+   "s": "Which of the following is correctly arranged as the authorised e-waste recycling chain?",
+   "o": [
+    "Producer → consumer → landfill → dismantler → recovered materials",
+    "Consumer → collection centre or producer take-back → authorised dismantler → authorised recycler → recovered materials",
+    "Consumer → informal hub → landfill → authorised recycler → producer take-back",
+    "Consumer → authorised recycler → collection centre → informal hub → recovered materials"
+   ],
+   "a": 1,
+   "x": "The authorised chain begins with the consumer and collection or producer take-back, followed by dismantling, recycling and recovery of materials.",
+   "ty": "fact",
+   "tq": "Follow the material flow from generation to recovery and reject informal or disposal stages.",
+   "sec": "Recycling chain - recyclers, dismantlers, citizens, informal hubs, R2"
+  },
+  {
+   "s": "Which one of the following is the most appropriate action for a citizen disposing of an old electronic device?",
+   "o": [
+    "Burn it to recover copper and aluminium",
+    "Mix it with municipal solid waste after removing the battery",
+    "Sell or deposit it with an authorised recycler or collection centre after wiping data",
+    "Hand it over to any informal dismantler without data removal"
+   ],
+   "a": 2,
+   "x": "Citizens should use authorised recyclers or collection centres and wipe personal data before handing over old electronics.",
+   "ty": "application",
+   "tq": "Apply the recommended citizen action while avoiding unsafe informal handling.",
+   "sec": "Recycling chain - recyclers, dismantlers, citizens, informal hubs, R2"
+  },
+  {
+   "s": "Consider the following statements about India’s e-waste recycling system:\n1. E-waste should not be mixed with other waste.\n2. Seelampur and Moradabad are identified as informal e-waste hubs.\n3. India has 468 authorised recyclers with a combined capacity of 1.6 million tonnes.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Separate handling is required; Seelampur and Moradabad are informal hubs; and CPCB data mention 468 authorised recyclers with 1.6 million tonnes of capacity.",
+   "ty": "statements",
+   "tq": "Check the operational rule, locations and capacity figure independently.",
+   "sec": "Recycling chain - recyclers, dismantlers, citizens, informal hubs, R2"
+  },
+  {
+   "s": "What does the R2 Code of Practices primarily promote?",
+   "o": [
+    "Environmentally responsible practices in electronics recycling",
+    "Production of single-use plastic items",
+    "International trade in hazardous chemicals",
+    "Incineration of all municipal waste"
+   ],
+   "a": 0,
+   "x": "R2, or Responsible Recycling, is a code of practices promoting environmentally responsible electronics recycling.",
+   "ty": "fact",
+   "tq": "Expand the abbreviation and link it to its specific sector.",
+   "sec": "Recycling chain - recyclers, dismantlers, citizens, informal hubs, R2"
+  },
+  {
+   "s": "India’s first e-waste clinic was established at:",
+   "o": [
+    "Delhi",
+    "Moradabad",
+    "Visakhapatnam",
+    "Bhopal"
+   ],
+   "a": 3,
+   "x": "Bhopal was the location of India’s first e-waste clinic.",
+   "ty": "fact",
+   "tq": "Use the specific institutional-location association rather than an informal hub location.",
+   "sec": "Recycling chain - recyclers, dismantlers, citizens, informal hubs, R2"
+  },
+  {
+   "s": "India is presently described as the world’s ______ largest generator of e-waste, after China and the United States.",
+   "o": [
+    "second",
+    "fourth",
+    "fifth",
+    "third"
+   ],
+   "a": 3,
+   "x": "India is the third-largest e-waste generator, after China and the United States.",
+   "ty": "fact",
+   "tq": "Read the ranking together with the named countries to avoid reversing the order.",
+   "sec": "E-waste magnitude - India's rank, generation, processing"
+  },
+  {
+   "s": "The e-waste generation attributed to India for 2025 was approximately:",
+   "o": [
+    "1.75 million tonnes",
+    "2.20 million tonnes",
+    "1.60 million tonnes",
+    "3.54 million tonnes"
+   ],
+   "a": 1,
+   "x": "India’s e-waste generation was reported as approximately 2.2 million tonnes in 2025. The 3.54 lakh tonnes figure refers to e-waste collected and processed in FY 2021.",
+   "ty": "numerical",
+   "tq": "Separate generation figures from collection-and-processing figures and compare their units.",
+   "sec": "E-waste magnitude - India's rank, generation, processing"
+  },
+  {
+   "s": "Which organisations jointly publish the Global E-waste Monitor?",
+   "o": [
+    "UNFCCC and UNITAR",
+    "ITU and UNITAR",
+    "ITU and IUCN",
+    "UNEP and WHO"
+   ],
+   "a": 1,
+   "x": "The Global E-waste Monitor is published by the International Telecommunication Union and the United Nations Institute for Training and Research.",
+   "ty": "fact",
+   "tq": "Identify the correct institutional pair instead of substituting neighbouring UN bodies.",
+   "sec": "Global E-waste Monitor"
+  },
+  {
+   "s": "The Global E-waste Monitor groups e-waste into how many categories?",
+   "o": [
+    "Four",
+    "Five",
+    "Six",
+    "Seven"
+   ],
+   "a": 2,
+   "x": "The Global E-waste Monitor uses six categories, including cooling equipment, screens, lamps, large equipment, small equipment and IT equipment.",
+   "ty": "numerical",
+   "tq": "Count the classification categories rather than the examples within them.",
+   "sec": "Global E-waste Monitor"
+  },
+  {
+   "s": "Which of the following was issued by the CPCB in response to biomedical waste generated during the COVID-19 period?",
+   "o": [
+    "Global E-waste Monitor and Basel Protocol",
+    "R2 electronics recycling code and plastic treaty guidelines",
+    "COVID19BWM tracking app and COVID-19 waste guidelines",
+    "Swachh App and Minamata Convention"
+   ],
+   "a": 2,
+   "x": "The CPCB issued COVID-19 biomedical-waste guidelines in 2020 and introduced the COVID19BWM tracking app.",
+   "ty": "fact",
+   "tq": "Match the emergency, authority and digital tracking instrument.",
+   "sec": "COVID-19 biomedical waste guidelines and tracking app"
+  },
+  {
+   "s": "Which of the following statements regarding India’s status under the Basel and Rotterdam Conventions is correct?\n1. India ratified the Basel Convention in June 1992.\n2. India acceded to the Rotterdam Convention in 2005.\n3. India’s designated authorities for Rotterdam-related matters include the Chemicals and Fertilisers and Agriculture Ministries.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "India ratified Basel in June 1992, acceded to Rotterdam in 2005, and has designated authorities in the Chemicals and Fertilisers and Agriculture Ministries.",
+   "ty": "statements",
+   "tq": "Combine treaty dates with India-specific institutional details.",
+   "sec": "International conventions → subject + India's status"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding the Basel Convention and India?",
+   "o": [
+    "The Convention entered into force in 2004, and India acceded to it in 2005.",
+    "The Convention concerns mercury, and India ratified it in June 2005.",
+    "The Convention entered into force on 5 May 1992, and India ratified it in June 1992.",
+    "The Convention was adopted in 2013, and India ratified it in 2034."
+   ],
+   "a": 2,
+   "x": "The Basel Convention was adopted in 1989, entered into force on 5 May 1992, and India ratified it in June 1992.",
+   "ty": "numerical",
+   "tq": "Separate adoption year, entry-into-force date and India’s ratification date.",
+   "sec": "International conventions → subject + India's status"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Stockholm Convention currently includes 34 chemicals, including chlorpyrifos and PFAS.\n2. The Minamata Convention concerns mercury.\n3. Dental amalgam phase-out under the Minamata framework is associated with the year 2034.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The current figure given for Stockholm is 34 chemicals, including chlorpyrifos and PFAS. Minamata concerns mercury, and dental amalgam phase-out is targeted by 2034.",
+   "ty": "statements",
+   "tq": "Test the treaty’s subject together with its current chemical count and target year.",
+   "sec": "International conventions → subject + India's status"
+  },
+  {
+   "s": "The global issue involved in the transboundary movement of hazardous waste refers to:",
+   "o": [
+    "exchange of agricultural seeds under biodiversity agreements",
+    "movement of only biodegradable waste between rural districts",
+    "transport of clean energy equipment to developed countries",
+    "physical transfer of hazardous waste for reprocessing or storage, often to developing countries"
+   ],
+   "a": 3,
+   "x": "Transboundary hazardous-waste movement involves the physical transfer of hazardous waste for reprocessing or storage, frequently to developing countries.",
+   "ty": "application",
+   "tq": "Use the operational meaning of the term rather than an unrelated environmental transfer.",
+   "sec": "International conventions → subject + India's status"
+  },
+  {
+   "s": "Which body functions as the nodal division for hazardous substances management in the Ministry of Environment, Forest and Climate Change?",
+   "o": [
+    "Central Ground Water Board",
+    "National Biodiversity Authority",
+    "National Disaster Response Force",
+    "Hazardous Substances Management Division"
+   ],
+   "a": 3,
+   "x": "The Hazardous Substances Management Division (HSMD) of MoEFCC is the nodal body for hazardous substances management.",
+   "ty": "fact",
+   "tq": "Match the function with the specialised administrative division.",
+   "sec": "International conventions → subject + India's status"
+  },
+  {
+   "s": "The gas responsible for the Bhopal disaster of 2–3 December 1984 was:",
+   "o": [
+    "Chlorofluorocarbon",
+    "Methyl isocyanate",
+    "Mercury vapour",
+    "Styrene vapour"
+   ],
+   "a": 1,
+   "x": "The Bhopal disaster involving Union Carbide India Ltd was caused by methyl isocyanate. More than 5,400 lives were reported lost.",
+   "ty": "confusable",
+   "tq": "Distinguish the Bhopal chemical from the Visakhapatnam chemical.",
+   "sec": "Chemical disasters in news"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "LG Polymers, Visakhapatnam, 2020 — Methyl isocyanate",
+    "Bhopal, 1984 — Methyl isocyanate",
+    "Bhopal, 1984 — Styrene vapour",
+    "LG Polymers, Visakhapatnam, 2020 — Mercury"
+   ],
+   "a": 1,
+   "x": "The Bhopal disaster in December 1984 involved methyl isocyanate. The LG Polymers incident at Visakhapatnam in May 2020 involved styrene vapour.",
+   "ty": "negative",
+   "tq": "Use the location–date–chemical triplet to detect swapped disaster details.",
+   "sec": "Chemical disasters in news"
+  },
+  {
+   "s": "With reference to the Bhopal waste cleanup reported in early 2025, consider the following statements:\n1. About 337 tonnes of waste were incinerated.\n2. Approximately 900 tonnes of toxic residual ash resulted.\n3. The Supreme Court asked the victims’ NGO to approach the Madhya Pradesh High Court.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: 337 tonnes were incinerated, about 900 tonnes of toxic residual ash remained, and the Supreme Court directed the victims’ NGO to approach the Madhya Pradesh High Court.",
+   "ty": "statements",
+   "tq": "Check the quantities, procedural direction and court involved as separate facts.",
+   "sec": "Chemical disasters in news"
+  },
+  {
+   "s": "The United States Environmental Protection Agency (EPA) was enacted after which major chemical disaster?",
+   "o": [
+    "Basel hazardous-waste movement",
+    "Minamata mercury pollution incident",
+    "LG Polymers Visakhapatnam disaster",
+    "Bhopal gas disaster"
+   ],
+   "a": 3,
+   "x": "The EPA of 1986 was enacted after the Bhopal disaster, which occurred in December 1984.",
+   "ty": "fact",
+   "tq": "Apply the chronological cause-and-effect relationship between the disaster and legislation.",
+   "sec": "Chemical disasters in news"
+  }
+ ]
+}

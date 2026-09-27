@@ -1,0 +1,256 @@
+{
+ "book": 5,
+ "row": 86,
+ "chunk": 1,
+ "section": "Loss of biodiversity - causes, invasive alien species, IUCN Red List categories",
+ "subsections": [
+  "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 19,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The International Union for Conservation of Nature (IUCN), established in 1948, has its headquarters at",
+   "o": [
+    "Gland, Switzerland",
+    "Geneva, Switzerland",
+    "Abu Dhabi, United Arab Emirates",
+    "New York, United States of America"
+   ],
+   "a": 0,
+   "x": "IUCN was established in 1948 and is headquartered at Gland in Switzerland.",
+   "ty": "fact",
+   "tq": "Use the headquarters-location pair directly; do not confuse it with the venue of the World Conservation Congress.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with respect to the colour coding of the Red Data Book pages?",
+   "o": [
+    "Pink pages — Critically endangered species",
+    "Green pages — Extinct species",
+    "Grey pages — Vulnerable species",
+    "Amber pages — Rare species"
+   ],
+   "a": 0,
+   "x": "Pink pages indicate critically endangered species. Green pages refer to species formerly threatened but now out of danger, grey to insufficiently known status, and amber to vulnerable species.",
+   "ty": "match",
+   "tq": "Start from the sure colour-category pair and eliminate the swapped colour meanings.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "With reference to the colour-coded pages of the Red Data Book, consider the following statements:\n1. Black pages indicate extinct species.\n2. Red pages indicate endangered species.\n3. White pages indicate rare species.\n4. Green pages indicate species formerly threatened but now out of danger.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct: black denotes extinct, red endangered, white rare, and green formerly threatened but now out of danger.",
+   "ty": "statements",
+   "tq": "Verify each colour independently; the all-inclusive combination is valid when no colour-category pair is swapped.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the meaning of the grey pages in the Red Data Book?",
+   "o": [
+    "Species that have recovered from threat",
+    "Species that are extinct",
+    "Species that are endangered",
+    "Species whose status is insufficiently known"
+   ],
+   "a": 3,
+   "x": "Grey pages are used for species whose conservation status is insufficiently known.",
+   "ty": "fact",
+   "tq": "Discriminate among closely related status labels rather than relying on the colour alone.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "The specialist groups functioning under the Species Survival Commission of the IUCN include the",
+   "o": [
+    "Invasive Species Specialist Group",
+    "Red List Funding Group",
+    "Climate Treaty Specialist Group",
+    "National Biodiversity Authority Group"
+   ],
+   "a": 0,
+   "x": "The Invasive Species Specialist Group (ISSG) functions under the IUCN Species Survival Commission.",
+   "ty": "fact",
+   "tq": "Test the exact institutional relationship: identify the group that belongs to the Species Survival Commission.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "The Global Invasive Species Database is maintained by the",
+   "o": [
+    "National Biodiversity Authority",
+    "Convention on International Trade in Endangered Species Secretariat",
+    "Invasive Species Specialist Group",
+    "IUCN World Conservation Congress"
+   ],
+   "a": 2,
+   "x": "The Invasive Species Specialist Group (ISSG), functioning under the IUCN Species Survival Commission, maintains the Global Invasive Species Database.",
+   "ty": "fact",
+   "tq": "Use the ‘who maintains what’ approach and distinguish a specialist group from a convention or conference.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. The IUCN Red List is popularly known as the ‘Barometer of Life’.\n2. The IUCN Red List was started in 1964.\n3. Its principal purpose is to replace national conservation laws in member countries.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the Red List measures extinction risk and guides conservation priorities; it does not replace national laws.",
+   "ty": "statements",
+   "tq": "Separate the recognised epithet and starting year from the overbroad claim about replacing national laws.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "The primary purpose of the IUCN Red List is to",
+   "o": [
+    "replace domestic wildlife-protection legislation",
+    "identify only endemic species of biodiversity hotspots",
+    "measure extinction risk and guide conservation priorities and funding",
+    "register protected sites under international law"
+   ],
+   "a": 2,
+   "x": "The Red List assesses extinction risk and helps guide conservation priorities and funding. It is not a register limited to hotspot endemics, nor does it replace national laws.",
+   "ty": "application",
+   "tq": "Apply the function of an assessment tool to a conservation-planning situation, while rejecting its exaggerated legal role.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "The IUCN World Conservation Congress held in 2025 was hosted at",
+   "o": [
+    "Geneva",
+    "Abu Dhabi",
+    "Gland",
+    "New York"
+   ],
+   "a": 1,
+   "x": "The IUCN World Conservation Congress 2025 was held in Abu Dhabi.",
+   "ty": "fact",
+   "tq": "Distinguish the organisation’s headquarters from the location of its major congress.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "The theme of the IUCN World Conservation Congress 2025 was",
+   "o": [
+    "Living in Harmony with Nature",
+    "One Earth, One Health",
+    "Nature for People and Planet",
+    "Our World, Our Future"
+   ],
+   "a": 3,
+   "x": "The theme of the 2025 IUCN World Conservation Congress was “Our World, Our Future”.",
+   "ty": "fact",
+   "tq": "Test the exact official phrase; similar conservation slogans are distractors.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "With reference to India’s Red List Roadmap, consider the following statements:\n1. It aims to assess 70,000 species by 2027.\n2. The roadmap is led by the National Biodiversity Authority.\n3. It is intended to assess only Indian animal species.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the target is expressed as species assessment and is not restricted only to Indian animals.",
+   "ty": "statements",
+   "tq": "Reject the restrictive word ‘only’ and retain the target-year and implementing-authority facts.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "The target fixed under India’s Red List Roadmap for species assessment by 2027 is",
+   "o": [
+    "49,505 species",
+    "175,909 species",
+    "7,076 species",
+    "70,000 species"
+   ],
+   "a": 3,
+   "x": "India’s Red List Roadmap aims to assess 70,000 species by 2027.",
+   "ty": "numerical",
+   "tq": "Separate the roadmap target from the current assessed and threatened-species figures.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "According to the 2026 Indian biodiversity figures, the number of Indian animal species appearing in the various IUCN categories is",
+   "o": [
+    "7,076",
+    "49,505",
+    "70,000",
+    "175,909"
+   ],
+   "a": 0,
+   "x": "The 2026 Indian biodiversity figure records 7,076 Indian animal species in the various IUCN categories.",
+   "ty": "numerical",
+   "tq": "Match the number with its population: Indian animal species, rather than all globally assessed or threatened species.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "The latest version 2026-1 of the IUCN assessment, released in July 2026, recorded which of the following?",
+   "o": [
+    "175,909 species assessed and 49,505 species threatened",
+    "7,076 species assessed and 44,000 species threatened",
+    "49,505 species assessed and 175,909 species threatened",
+    "70,000 species assessed and 7,076 species threatened"
+   ],
+   "a": 0,
+   "x": "Version 2026-1, released in July 2026, recorded 175,909 species assessed and 49,505 threatened species, approximately 28 percent.",
+   "ty": "numerical",
+   "tq": "Keep the total assessed figure and the threatened subset in the correct order.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "In the latest IUCN assessment referred to as version 2026-1, approximately what proportion of the assessed species were threatened?",
+   "o": [
+    "18 percent",
+    "28 percent",
+    "38 percent",
+    "48 percent"
+   ],
+   "a": 1,
+   "x": "Of the 175,909 species assessed, 49,505 were threatened, which is approximately 28 percent.",
+   "ty": "numerical",
+   "tq": "Convert the stated threatened-to-assessed relationship into an approximate percentage.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "Assertion (A): The IUCN Red List is useful for setting conservation priorities.\nReason (R): It provides an assessment of the extinction risk of species and helps guide conservation funding.\nSelect the correct answer using the code given below.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and the assessment of extinction risk and guidance for funding directly explain why the Red List helps set conservation priorities.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the reason gives the functional basis for the assertion, not merely a related fact.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. Establishment of the IUCN\nB. Beginning of the IUCN Red List\nC. IUCN World Conservation Congress 2025\nD. Release of IUCN assessment version 2026-1",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "B, C, A, D"
+   ],
+   "a": 0,
+   "x": "The IUCN was established in 1948, the Red List began in 1964, the World Conservation Congress was held in 2025, and version 2026-1 was released in July 2026.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest events first, then place the 1964 Red List between them.",
+   "sec": "IUCN and Red Data Book - HQ, publisher, colour pages, specialist groups  [APPSC]"
+  }
+ ]
+}

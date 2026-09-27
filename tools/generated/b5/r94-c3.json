@@ -1,0 +1,556 @@
+{
+ "book": 5,
+ "row": 94,
+ "chunk": 3,
+ "section": "Impacts of climate change on India - monsoon, agriculture, Himalayan glaciers, sea-level rise, extreme events",
+ "subsections": [
+  "Impacts on India - heatwaves, wet-bulb temperature, monsoon, extreme rain, east-coast cyclones",
+  "Projected impacts - 1.5 C vs 2 C",
+  "Climate migration and small island states - displacement, territory loss",
+  "Heat stress and climate vulnerability - states, DST report, AP districts",
+  "Water resources - glacier-fed rivers, groundwater, monsoon variability, drought",
+  "Fisheries and marine resources - fish stock shifts, marine heatwaves",
+  "Adaptation measures - insurance, bio-shields, early warning, conflict and migration"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "According to the India Meteorological Department, a heatwave is declared when the actual maximum temperature of a station reaches at least which level, irrespective of the normal temperature?",
+   "o": [
+    "40°C",
+    "42°C",
+    "45°C",
+    "50°C"
+   ],
+   "a": 2,
+   "x": "Under the stated IMD criterion, an actual maximum temperature of 45°C or more constitutes a heatwave irrespective of the normal temperature.",
+   "ty": "numerical",
+   "tq": "Use the exact numerical threshold rather than the familiar general heatwave range.",
+   "sec": "Impacts on India - heatwaves, wet-bulb temperature, monsoon, extreme rain, east-coast cyclones"
+  },
+  {
+   "s": "Which of the following are identified as causes of heatwaves in India?\n1. Heat domes associated with meandering Rossby waves\n2. The loo\n3. Ocean acidification\n4. Glacier-fed river discharge\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Heat domes linked to meandering Rossby waves and the loo are identified causes of heatwaves. Ocean acidification and glacier-fed river discharge are not heatwave causes.",
+   "ty": "statements",
+   "tq": "Find the two statements that describe atmospheric or regional heat mechanisms.",
+   "sec": "Impacts on India - heatwaves, wet-bulb temperature, monsoon, extreme rain, east-coast cyclones"
+  },
+  {
+   "s": "Indians experienced approximately how many heatwave days in 2024, of which how many were attributed to climate change?",
+   "o": [
+    "31 and 10 respectively",
+    "19.8 and 3 respectively",
+    "19.8 and 6.6 respectively",
+    "6.6 and 19.8 respectively"
+   ],
+   "a": 2,
+   "x": "The reported figures were 19.8 heatwave days in 2024, with 6.6 days attributed to climate change.",
+   "ty": "numerical",
+   "tq": "Separate the total figure from the climate-change-attributed component.",
+   "sec": "Impacts on India - heatwaves, wet-bulb temperature, monsoon, extreme rain, east-coast cyclones"
+  },
+  {
+   "s": "The wet-bulb temperature is best described as the:",
+   "o": [
+    "temperature of groundwater during drought",
+    "difference between dry-bulb and dew-point temperatures",
+    "lowest temperature air can reach through evaporative cooling",
+    "highest temperature recorded during a heatwave"
+   ],
+   "a": 2,
+   "x": "Wet-bulb temperature is the lowest temperature that air can reach by evaporative cooling and combines the effects of heat and humidity.",
+   "ty": "fact",
+   "tq": "Match the technical term with its precise physical definition.",
+   "sec": "Impacts on India - heatwaves, wet-bulb temperature, monsoon, extreme rain, east-coast cyclones"
+  },
+  {
+   "s": "Under which condition are the wet-bulb and dry-bulb temperatures equal?",
+   "o": [
+    "At 50% relative humidity",
+    "At 25% relative humidity",
+    "At 75% relative humidity",
+    "At 100% relative humidity"
+   ],
+   "a": 3,
+   "x": "When relative humidity is 100%, no further evaporative cooling is possible, so wet-bulb and dry-bulb temperatures become equal.",
+   "ty": "confusable",
+   "tq": "Discriminate between humidity levels by applying the evaporation principle.",
+   "sec": "Impacts on India - heatwaves, wet-bulb temperature, monsoon, extreme rain, east-coast cyclones"
+  },
+  {
+   "s": "Consider the following statements regarding projected coastal climate conditions in India:\n1. Around 40 coastal districts may warm by more than 1°C by 2040.\n2. Kerala and Tamil Nadu may experience wet-bulb temperatures of about 31°C.\n3. Gujarat and Maharashtra are projected to receive more rainfall.\n4. Odisha, West Bengal and the Sundarbans are projected to receive less southwest-monsoon rainfall.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements reflect the projected outcomes of the CMIP6 coastal study.",
+   "ty": "statements",
+   "tq": "Test several regional projections together, including the direction of change.",
+   "sec": "Impacts on India - heatwaves, wet-bulb temperature, monsoon, extreme rain, east-coast cyclones"
+  },
+  {
+   "s": "Which of the following statements regarding projected southwest-monsoon rainfall is correct?",
+   "o": [
+    "Odisha and West Bengal may receive excess southwest-monsoon rainfall.",
+    "The Sundarbans are projected to experience no change in monsoon rainfall.",
+    "Gujarat and Maharashtra may receive less rainfall than at present.",
+    "Tamil Nadu and Andhra Pradesh may receive excess southwest-monsoon rainfall."
+   ],
+   "a": 3,
+   "x": "Tamil Nadu and Andhra Pradesh are projected to receive excess southwest-monsoon rainfall, while Odisha, West Bengal and the Sundarbans are projected to receive less.",
+   "ty": "comparison",
+   "tq": "Use regional contrast to identify the correct rainfall direction.",
+   "sec": "Impacts on India - heatwaves, wet-bulb temperature, monsoon, extreme rain, east-coast cyclones"
+  },
+  {
+   "s": "Climate models may underestimate urban warming by approximately:",
+   "o": [
+    "0.5–2°C",
+    "4–6°C",
+    "0.05–0.2°C",
+    "2.5–4°C"
+   ],
+   "a": 0,
+   "x": "The cited urban-climate assessment indicates that models may underestimate urban warming by about 0.5–2°C.",
+   "ty": "numerical",
+   "tq": "Identify the correct range from closely spaced quantitative alternatives.",
+   "sec": "Impacts on India - heatwaves, wet-bulb temperature, monsoon, extreme rain, east-coast cyclones"
+  },
+  {
+   "s": "Which one of the following correctly represents the projected warming of Patiala compared with the modelled rate?",
+   "o": [
+    "It could warm at the modelled rate only during winter.",
+    "It could warm at double the modelled rate.",
+    "It could warm at half the modelled rate.",
+    "It is projected to show no urban warming."
+   ],
+   "a": 1,
+   "x": "The cited study found that Patiala could warm at twice the rate modelled by conventional climate projections.",
+   "ty": "fact",
+   "tq": "Focus on the comparison phrase rather than the general statement about urban warming.",
+   "sec": "Impacts on India - heatwaves, wet-bulb temperature, monsoon, extreme rain, east-coast cyclones"
+  },
+  {
+   "s": "Between 2023 and 2025, Andhra Pradesh heatstroke cases and deaths changed as follows:",
+   "o": [
+    "Cases rose from 833 to 5,154, while deaths fell from 3 to 0.",
+    "Cases fell from 5,154 to 833, while deaths rose from 0 to 3.",
+    "Cases rose from 833 to 3, while deaths rose from 5,154 to 0.",
+    "Cases remained at 833, while deaths rose from 0 to 3."
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh reported an increase in heatstroke cases from 833 in 2023 to 5,154 in 2025, while reported deaths declined from 3 to 0.",
+   "ty": "numerical",
+   "tq": "Keep the direction of change separate for cases and deaths.",
+   "sec": "Impacts on India - heatwaves, wet-bulb temperature, monsoon, extreme rain, east-coast cyclones"
+  },
+  {
+   "s": "The Paris Agreement seeks to keep the increase in global average temperature:",
+   "o": [
+    "well below 2°C and pursue efforts to limit it to 1.5°C",
+    "below 3°C without any further qualification",
+    "exactly at 1.5°C through binding national targets",
+    "below 1°C by the end of the century"
+   ],
+   "a": 0,
+   "x": "The temperature objective of the Paris Agreement is to keep warming well below 2°C and pursue efforts to limit it to 1.5°C.",
+   "ty": "fact",
+   "tq": "Distinguish the binding temperature formulation from simplified one-number claims.",
+   "sec": "Projected impacts - 1.5 C vs 2 C"
+  },
+  {
+   "s": "The Paris Agreement had how many parties, as indicated in the cited material?",
+   "o": [
+    "175",
+    "185",
+    "195",
+    "205"
+   ],
+   "a": 2,
+   "x": "The Paris Agreement is stated to have 195 parties.",
+   "ty": "numerical",
+   "tq": "Recall the precise membership figure rather than the year or temperature target.",
+   "sec": "Projected impacts - 1.5 C vs 2 C"
+  },
+  {
+   "s": "For every 1°C rise in temperature, wheat and maize yields are projected to decline by approximately:",
+   "o": [
+    "1–2%",
+    "4–10%",
+    "2–4%",
+    "10–20%"
+   ],
+   "a": 1,
+   "x": "Wheat and maize yields are projected to fall by about 4–10% for every 1°C rise in temperature.",
+   "ty": "numerical",
+   "tq": "Match the agricultural impact with its stated percentage range.",
+   "sec": "Projected impacts - 1.5 C vs 2 C"
+  },
+  {
+   "s": "Consider the following pairs relating to projected impacts at 1.5°C and 2°C warming:\n1. Coral reefs lost — 70–90% at 1.5°C\n2. Coral reefs lost — more than 99% at 2°C\n3. Ice-free Arctic summer — once a century at 1.5°C\n4. Ice-free Arctic summer — once a decade at 2°C\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "3 and 4 only",
+    "1, 2 and 3 only",
+    "1 and 2 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched with the projected impacts at 1.5°C and 2°C warming.",
+   "ty": "comparison",
+   "tq": "Match each impact with the correct warming scenario and frequency.",
+   "sec": "Projected impacts - 1.5 C vs 2 C"
+  },
+  {
+   "s": "With reference to projected sea-level rise by 2100, which statement is correct?",
+   "o": [
+    "The 1.5°C scenario produces about 10 cm less rise than the 2°C scenario.",
+    "The 1.5°C scenario produces about 10 cm more rise than the 2°C scenario.",
+    "Sea-level rise is projected only under the 1.5°C scenario.",
+    "Both scenarios produce exactly the same rise."
+   ],
+   "a": 0,
+   "x": "Sea-level rise by 2100 under the 1.5°C scenario is projected to be approximately 10 cm lower than under the 2°C scenario.",
+   "ty": "comparison",
+   "tq": "Watch for the reversed comparison trap in the words ‘more’ and ‘less’.",
+   "sec": "Projected impacts - 1.5 C vs 2 C"
+  },
+  {
+   "s": "According to the cited estimate, India may lose approximately what share of its GDP annually by 2100 because of climate impacts?",
+   "o": [
+    "1–2%",
+    "3–10%",
+    "10–20%",
+    "20–30%"
+   ],
+   "a": 1,
+   "x": "The estimate indicates that India may lose 3–10% of its GDP annually by 2100.",
+   "ty": "numerical",
+   "tq": "Identify the stated long-term economic-loss range.",
+   "sec": "Projected impacts - 1.5 C vs 2 C"
+  },
+  {
+   "s": "Which of the following Pacific islets were submerged in 1999?",
+   "o": [
+    "Nauru and Majuro",
+    "Malé and Funafuti",
+    "Tebua Tarawa and Abanuea",
+    "Tarawa and Suva"
+   ],
+   "a": 2,
+   "x": "The uninhabited Pacific islets Tebua Tarawa and Abanuea were submerged in 1999.",
+   "ty": "fact",
+   "tq": "Distinguish the specific submerged islets from nearby Pacific island names.",
+   "sec": "Climate migration and small island states - displacement, territory loss"
+  },
+  {
+   "s": "Which countries are identified as being at risk from the loss of low-lying territory associated with climate change?",
+   "o": [
+    "Indonesia and the Philippines",
+    "Maldives and Mauritius only",
+    "Fiji and Samoa only",
+    "Kiribati and Tuvalu"
+   ],
+   "a": 3,
+   "x": "Kiribati and Tuvalu are identified as Pacific island states at risk from climate-related displacement and territory loss.",
+   "ty": "fact",
+   "tq": "Use the country-level identification rather than an imprecise regional grouping.",
+   "sec": "Climate migration and small island states - displacement, territory loss"
+  },
+  {
+   "s": "The 2023 Falepili Union treaty between Tuvalu and Australia provides Tuvaluans with a:",
+   "o": [
+    "disaster insurance fund",
+    "climate-mobility pathway",
+    "fisheries subsidy programme",
+    "carbon-credit trading mechanism"
+   ],
+   "a": 1,
+   "x": "The Falepili Union treaty provides Tuvaluans with a pathway for climate-related mobility.",
+   "ty": "fact",
+   "tq": "Identify the specific policy instrument associated with the treaty.",
+   "sec": "Climate migration and small island states - displacement, territory loss"
+  },
+  {
+   "s": "The World Bank estimated that climate change could push approximately how many Indians into extreme poverty within 15 years?",
+   "o": [
+    "4.5 million",
+    "15 million",
+    "45 million",
+    "145 million"
+   ],
+   "a": 2,
+   "x": "The cited World Bank estimate is 45 million Indians pushed into extreme poverty within 15 years.",
+   "ty": "numerical",
+   "tq": "Separate the million-scale estimate from nearby but materially different figures.",
+   "sec": "Climate migration and small island states - displacement, territory loss"
+  },
+  {
+   "s": "Which State suffered the most in the heat-related assessment associated with 2019, described as the seventh warmest year since 1901?",
+   "o": [
+    "Jharkhand",
+    "Bihar",
+    "Odisha",
+    "Assam"
+   ],
+   "a": 1,
+   "x": "Bihar was identified as the State that suffered the most in the cited 2019 heat-related assessment.",
+   "ty": "fact",
+   "tq": "Recall the State linked to the specific year-ranking observation.",
+   "sec": "Heat stress and climate vulnerability - states, DST report, AP districts"
+  },
+  {
+   "s": "Which of the following States were identified as the most vulnerable in the DST Climate Vulnerability Assessment, 2021?\n1. Jharkhand\n2. Mizoram\n3. Odisha\n4. Chhattisgarh\n5. Assam\n6. Bihar\n7. Arunachal Pradesh\n8. West Bengal\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2, 3 and 4 only",
+    "1, 2, 3, 4, 5 and 6 only",
+    "1, 2, 3, 4, 5, 6, 7 and 8",
+    "2, 4, 6 and 8 only"
+   ],
+   "a": 2,
+   "x": "All eight listed States were included among the most vulnerable States in the DST assessment.",
+   "ty": "statements",
+   "tq": "Check the complete membership of a named vulnerability list.",
+   "sec": "Heat stress and climate vulnerability - states, DST report, AP districts"
+  },
+  {
+   "s": "Consider the following statements:\n1. NICRA assessed 651 districts.\n2. Of these, 310 districts were highly or very highly vulnerable.\n3. More than 75% of districts were identified by CEEW as extreme-event hotspots.\n4. NDMA estimated that about 68% of India is drought-prone.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four figures and assessments are correctly stated: NICRA assessed 651 districts, 310 were highly or very highly vulnerable, CEEW identified over 75% as hotspots, and NDMA estimated about 68% drought-prone area.",
+   "ty": "statements",
+   "tq": "Verify each numerical statement independently before selecting the combined code.",
+   "sec": "Heat stress and climate vulnerability - states, DST report, AP districts"
+  },
+  {
+   "s": "The National Water Mission under the National Action Plan on Climate Change aims to raise water-use efficiency by:",
+   "o": [
+    "10%",
+    "20%",
+    "30%",
+    "50%"
+   ],
+   "a": 1,
+   "x": "The National Water Mission aims to improve water-use efficiency by 20%.",
+   "ty": "numerical",
+   "tq": "Recall the mission’s specific quantitative target.",
+   "sec": "Water resources - glacier-fed rivers, groundwater, monsoon variability, drought"
+  },
+  {
+   "s": "The National Water Mission referred to above was launched on:",
+   "o": [
+    "15 August 2008",
+    "26 January 2009",
+    "30 June 2008",
+    "5 June 2010"
+   ],
+   "a": 2,
+   "x": "The National Water Mission under NAPCC is dated 30 June 2008.",
+   "ty": "numerical",
+   "tq": "Distinguish the precise launch date from common national observance dates.",
+   "sec": "Water resources - glacier-fed rivers, groundwater, monsoon variability, drought"
+  },
+  {
+   "s": "Approximately what proportion of freshwater is used by agriculture?",
+   "o": [
+    "20%",
+    "40%",
+    "60%",
+    "80%"
+   ],
+   "a": 3,
+   "x": "Agriculture uses approximately 80% of freshwater.",
+   "ty": "numerical",
+   "tq": "Use the sectoral-share figure rather than a general statement about water scarcity.",
+   "sec": "Water resources - glacier-fed rivers, groundwater, monsoon variability, drought"
+  },
+  {
+   "s": "Groundwater levels are reported to be falling in which of the following areas?\n1. Punjab\n2. Haryana\n3. Parts of Andhra Pradesh\n4. Parts of Telangana\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Falling groundwater levels are reported in Punjab, Haryana and parts of Andhra Pradesh and Telangana.",
+   "ty": "statements",
+   "tq": "Test the full geographical distribution without excluding the less frequently cited States.",
+   "sec": "Water resources - glacier-fed rivers, groundwater, monsoon variability, drought"
+  },
+  {
+   "s": "Which one of the following relationships is correctly stated?",
+   "o": [
+    "El Niño usually strengthens the southwest monsoon.",
+    "El Niño usually weakens the southwest monsoon.",
+    "El Niño has no relationship with the southwest monsoon.",
+    "El Niño converts the southwest monsoon into the northeast monsoon."
+   ],
+   "a": 1,
+   "x": "El Niño usually weakens the southwest monsoon.",
+   "ty": "confusable",
+   "tq": "Watch for the reversed relationship between El Niño and monsoon strength.",
+   "sec": "Water resources - glacier-fed rivers, groundwater, monsoon variability, drought"
+  },
+  {
+   "s": "Droughts are commonly classified as:",
+   "o": [
+    "meteorological, industrial and biological",
+    "hydrological, seismic and agricultural",
+    "meteorological, agricultural and hydrological",
+    "geological, agricultural and coastal"
+   ],
+   "a": 2,
+   "x": "The three categories are meteorological drought, agricultural drought and hydrological drought.",
+   "ty": "fact",
+   "tq": "Select the standard classification rather than mixing drought with unrelated hazards.",
+   "sec": "Water resources - glacier-fed rivers, groundwater, monsoon variability, drought"
+  },
+  {
+   "s": "Glacier meltwater is particularly important for sustaining which river basin?",
+   "o": [
+    "Godavari basin",
+    "Indus basin",
+    "Cauvery basin",
+    "Mahanadi basin"
+   ],
+   "a": 1,
+   "x": "Glacier meltwater sustains the Indus basin.",
+   "ty": "fact",
+   "tq": "Match the glacier-dependent water resource with the correct river basin.",
+   "sec": "Water resources - glacier-fed rivers, groundwater, monsoon variability, drought"
+  },
+  {
+   "s": "In 2025, marine heatwaves occurred over more than what proportion of the world’s oceans?",
+   "o": [
+    "25%",
+    "50%",
+    "75%",
+    "90%"
+   ],
+   "a": 3,
+   "x": "More than 90% of the oceans experienced marine heatwaves in 2025.",
+   "ty": "numerical",
+   "tq": "Identify the exceptionally high oceanic coverage indicated by the figure.",
+   "sec": "Fisheries and marine resources - fish stock shifts, marine heatwaves"
+  },
+  {
+   "s": "Marine heatwaves can harm fish populations primarily by:",
+   "o": [
+    "preventing ocean acidification completely",
+    "converting seawater into freshwater",
+    "lowering oxygen levels and affecting marine habitats",
+    "increasing dissolved oxygen and reducing metabolic stress"
+   ],
+   "a": 2,
+   "x": "Marine heatwaves lower oxygen levels and harm fish and other marine organisms.",
+   "ty": "application",
+   "tq": "Link the environmental change to its direct biological consequence.",
+   "sec": "Fisheries and marine resources - fish stock shifts, marine heatwaves"
+  },
+  {
+   "s": "Ocean acidification has particularly adverse effects on:",
+   "o": [
+    "rice, wheat and maize alone",
+    "only terrestrial mammals",
+    "glacier ice and desert soils",
+    "corals, shellfish and fish"
+   ],
+   "a": 3,
+   "x": "Ocean acidification affects corals, shellfish and fish, among other marine organisms.",
+   "ty": "fact",
+   "tq": "Identify the marine organisms most directly associated with acidification impacts.",
+   "sec": "Fisheries and marine resources - fish stock shifts, marine heatwaves"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. PMFBY — crop insurance introduced in 2016\n2. Weather-based insurance — payout when weather crosses specified thresholds\n3. Mangrove and Casuarina shelterbelts — bio-shields on the Andhra Pradesh coast\n4. CWC flood forecasts — issued at 350 stations\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched with the stated adaptation measures and details.",
+   "ty": "statements",
+   "tq": "Match each adaptation measure with its operational detail and coverage.",
+   "sec": "Adaptation measures - insurance, bio-shields, early warning, conflict and migration"
+  },
+  {
+   "s": "The Andhra Pradesh Heat Wave Action Plan is cited as an example of which adaptation measure?",
+   "o": [
+    "Groundwater recharge only",
+    "Early warning and preparedness",
+    "Marine fisheries regulation",
+    "Carbon taxation"
+   ],
+   "a": 1,
+   "x": "The Andhra Pradesh Heat Wave Action Plan is cited as a model of early-warning and preparedness action.",
+   "ty": "application",
+   "tq": "Recognise the function of a named action plan from its hazard context.",
+   "sec": "Adaptation measures - insurance, bio-shields, early warning, conflict and migration"
+  },
+  {
+   "s": "The adaptation component of NDC 2031–35 includes measures relating to:",
+   "o": [
+    "only international carbon markets",
+    "space technology and nuclear power",
+    "only forests and wildlife sanctuaries",
+    "coasts, heat and infrastructure"
+   ],
+   "a": 3,
+   "x": "The NDC 2031–35 adaptation focus includes coasts, heat and infrastructure.",
+   "ty": "fact",
+   "tq": "Select the option that preserves all elements of the adaptation scope.",
+   "sec": "Adaptation measures - insurance, bio-shields, early warning, conflict and migration"
+  },
+  {
+   "s": "Belem Adaptation Indicators are associated with which broad policy area?",
+   "o": [
+    "Measurement of earthquake magnitude",
+    "Adaptation to climate change",
+    "Control of ozone-depleting substances",
+    "International fisheries licensing"
+   ],
+   "a": 1,
+   "x": "Belem Adaptation Indicators are associated with climate-change adaptation, as referenced in the NDC 2031–35 context.",
+   "ty": "fact",
+   "tq": "Identify the policy domain of a named indicator framework.",
+   "sec": "Adaptation measures - insurance, bio-shields, early warning, conflict and migration"
+  },
+  {
+   "s": "Assertion (A): Climate change can increase social tension.\nReason (R): Extreme weather events can threaten food security and thereby intensify competition and insecurity.\nChoose the correct answer.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and threats to food security from extreme weather provide the reason why climate change can increase social tension.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the reason supplies the causal link stated in the assertion.",
+   "sec": "Adaptation measures - insurance, bio-shields, early warning, conflict and migration"
+  }
+ ]
+}

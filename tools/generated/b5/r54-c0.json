@@ -1,0 +1,440 @@
+{
+ "book": 5,
+ "row": 54,
+ "chunk": 0,
+ "section": "India's energy resources and import dependence - crude oil, coal, gas import share; energy security",
+ "subsections": [
+  "Energy resource classification - renewable, conventional, green, non-solar",
+  "Oil consumption challenges - prices, supply shocks, OPEC+, rupee",
+  "Import dependence - crude, LNG, coal, LPG and sources"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 32,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is a non-renewable energy resource?",
+   "o": [
+    "Biomass",
+    "Natural gas",
+    "Geothermal heat",
+    "Wind"
+   ],
+   "a": 1,
+   "x": "Natural gas is finite and is formed over millions of years, making it a non-renewable resource.",
+   "ty": "fact",
+   "tq": "Use the renewable–non-renewable classification and eliminate naturally replenished sources.",
+   "sec": "Energy resource classification - renewable, conventional, green, non-solar  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT generally classified as a source of green energy in the given classification?",
+   "o": [
+    "Wind",
+    "Sunlight",
+    "Natural gas",
+    "Algae-based biomass"
+   ],
+   "a": 2,
+   "x": "Natural gas is a fossil fuel and is not classified as green energy in this comparison; sunlight, wind and algae-based sources are treated as green sources.",
+   "ty": "negative",
+   "tq": "Apply the exact category distinction rather than assuming every low-emission fuel is green.",
+   "sec": "Energy resource classification - renewable, conventional, green, non-solar  [APPSC]"
+  },
+  {
+   "s": "Which one of the following energy sources derives its energy primarily from the gravitational pull of the Moon?",
+   "o": [
+    "Wind energy",
+    "Tidal energy",
+    "Solar energy",
+    "Biomass energy"
+   ],
+   "a": 1,
+   "x": "Tidal energy is generated mainly by the gravitational pull of the Moon, rather than directly from solar radiation.",
+   "ty": "fact",
+   "tq": "Use the source–mechanism relationship to distinguish tidal energy from solar-derived sources.",
+   "sec": "Energy resource classification - renewable, conventional, green, non-solar  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Coal — non-renewable resource\n2. Wind — renewable resource\n3. Nuclear fuel — non-renewable resource\n4. Geothermal energy — renewable resource\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Coal and nuclear fuels are finite resources, while wind and geothermal energy are renewable sources. Hence all four pairs are correctly matched.",
+   "ty": "statements",
+   "tq": "Check each pair independently before selecting the complete combination.",
+   "sec": "Energy resource classification - renewable, conventional, green, non-solar  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the conventional energy category?",
+   "o": [
+    "Tidal energy",
+    "Wind energy",
+    "Solar energy",
+    "Firewood"
+   ],
+   "a": 3,
+   "x": "Firewood is included among conventional energy sources. Solar, tidal and wind energy are non-conventional sources.",
+   "ty": "fact",
+   "tq": "Identify the traditional source among newer alternative-energy options.",
+   "sec": "Energy resource classification - renewable, conventional, green, non-solar  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Energy source)\nA. Conventional source\nB. Non-conventional source\nC. Renewable source\nD. Non-renewable source\n\nList-II (Example)\n1. Coal\n2. Solar energy\n3. Firewood\n4. Wind energy\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-3, B-2, C-4, D-1",
+    "A-2, B-3, C-1, D-4",
+    "A-4, B-1, C-3, D-2",
+    "A-1, B-4, C-2, D-3"
+   ],
+   "a": 0,
+   "x": "Firewood is conventional, solar energy is non-conventional, wind energy is renewable and coal is non-renewable.",
+   "ty": "match",
+   "tq": "Start from the sure pairs—firewood with conventional and coal with non-renewable.",
+   "sec": "Energy resource classification - renewable, conventional, green, non-solar  [APPSC]"
+  },
+  {
+   "s": "Which of the following is identified as the core challenge affecting India’s oil consumption and energy security?",
+   "o": [
+    "Only the shortage of coal in inland regions",
+    "Declining use of renewable energy and falling global prices",
+    "Excess domestic crude production and stable prices",
+    "Supply-chain disruptions and fluctuating global oil prices"
+   ],
+   "a": 3,
+   "x": "India’s core oil-related challenge is the combination of supply-chain disruptions and fluctuating global oil prices.",
+   "ty": "fact",
+   "tq": "Select the option that combines the two linked causes rather than an isolated factor.",
+   "sec": "Oil consumption challenges - prices, supply shocks, OPEC+, rupee  [APPSC]"
+  },
+  {
+   "s": "The Strait of Hormuz is strategically important for India’s energy security because it lies between which two countries?",
+   "o": [
+    "Iran and Iraq",
+    "Saudi Arabia and Qatar",
+    "Iraq and Kuwait",
+    "Iran and Oman"
+   ],
+   "a": 3,
+   "x": "The Strait of Hormuz lies between Iran and Oman and is a major route for international oil and LNG shipments.",
+   "ty": "fact",
+   "tq": "Use location-based elimination among neighbouring West Asian countries.",
+   "sec": "Oil consumption challenges - prices, supply shocks, OPEC+, rupee  [APPSC]"
+  },
+  {
+   "s": "Approximately what volume of crude oil passes daily through the Strait of Hormuz, according to the stated estimate?",
+   "o": [
+    "10 million barrels",
+    "15 million barrels",
+    "25 million barrels",
+    "5 million barrels"
+   ],
+   "a": 1,
+   "x": "The Strait of Hormuz carries approximately 15 million barrels of crude oil per day, about 34% of world crude trade.",
+   "ty": "numerical",
+   "tq": "Match the strategic chokepoint with its associated quantitative estimate.",
+   "sec": "Oil consumption challenges - prices, supply shocks, OPEC+, rupee  [APPSC]"
+  },
+  {
+   "s": "Approximately what share of global LNG trade passes through the Strait of Hormuz?",
+   "o": [
+    "One-fifth",
+    "One-half",
+    "One-third",
+    "One-tenth"
+   ],
+   "a": 0,
+   "x": "Approximately one-fifth of global LNG trade passes through the Strait of Hormuz.",
+   "ty": "numerical",
+   "tq": "Convert the stated fraction into the correct strategic-trade estimate.",
+   "sec": "Oil consumption challenges - prices, supply shocks, OPEC+, rupee  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding OPEC and OPEC+:\n1. OPEC produces about 40% of global oil.\n2. OPEC and Russia agreed to an unprecedented 10% output cut in 2020.\n3. OPEC’s share of India’s crude imports has remained above 80% in recent years.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false: OPEC’s share of India’s imports has fallen below 50%, although older figures referred to a much higher share.",
+   "ty": "statements",
+   "tq": "Spot the outdated percentage in the third statement while retaining the two supported facts.",
+   "sec": "Oil consumption challenges - prices, supply shocks, OPEC+, rupee  [APPSC]"
+  },
+  {
+   "s": "What was the approximate crude basket price for India in July 2026, as stated?",
+   "o": [
+    "$76.50 per barrel",
+    "$82.04 per barrel",
+    "$91.84 per barrel",
+    "$70.95 per barrel"
+   ],
+   "a": 1,
+   "x": "India’s crude basket averaged approximately $82.04 per barrel in July 2026, compared with $70.95 per barrel a year earlier.",
+   "ty": "numerical",
+   "tq": "Distinguish the current-period figure from the comparison-year and Brent figures.",
+   "sec": "Oil consumption challenges - prices, supply shocks, OPEC+, rupee  [APPSC]"
+  },
+  {
+   "s": "The increase in international oil prices is most directly associated with which combination of macroeconomic effects in India?",
+   "o": [
+    "A rise in exports and elimination of the current account deficit",
+    "Lower inflation and a narrower trade deficit",
+    "A wider trade deficit and higher inflation",
+    "A fall in import expenditure and currency appreciation"
+   ],
+   "a": 2,
+   "x": "Higher oil prices increase import costs, thereby widening the trade deficit and contributing to inflation.",
+   "ty": "application",
+   "tq": "Apply the import-cost transmission mechanism to macroeconomic outcomes.",
+   "sec": "Oil consumption challenges - prices, supply shocks, OPEC+, rupee  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT listed as a policy or technological response for managing oil-related external-balance pressure?",
+   "o": [
+    "Increasing dependence on imported crude",
+    "Electric vehicles",
+    "Strategic petroleum reserves",
+    "Ethanol blending"
+   ],
+   "a": 0,
+   "x": "Strategic petroleum reserves, ethanol and electric vehicles are responses used to manage oil dependence and external-balance pressure; increasing imported crude dependence is not such a response.",
+   "ty": "negative",
+   "tq": "Find the option that worsens rather than addresses the stated problem.",
+   "sec": "Oil consumption challenges - prices, supply shocks, OPEC+, rupee  [APPSC]"
+  },
+  {
+   "s": "During the 2026 disruption affecting the Strait of Hormuz, refineries were directed under the LPG control order to maximise yields. LPG output consequently rose from approximately 35 TMT per day to:",
+   "o": [
+    "42 TMT per day",
+    "54 TMT per day",
+    "48 TMT per day",
+    "65 TMT per day"
+   ],
+   "a": 1,
+   "x": "LPG output increased from 35 TMT per day to 54 TMT per day within five days under the yield-maximisation direction.",
+   "ty": "numerical",
+   "tq": "Track the before-and-after figures in an operational response question.",
+   "sec": "Oil consumption challenges - prices, supply shocks, OPEC+, rupee  [APPSC]"
+  },
+  {
+   "s": "India is described as the world’s third-largest energy consumer and the third-largest oil consumer. Approximately what share of its crude consumption is imported?",
+   "o": [
+    "About 65%",
+    "About 88%",
+    "About 50%",
+    "About 75%"
+   ],
+   "a": 1,
+   "x": "India imports approximately 88% of its crude consumption, making external supply conditions highly significant for energy security.",
+   "ty": "numerical",
+   "tq": "Link the country’s consumption rank with its high import-dependence figure.",
+   "sec": "Oil consumption challenges - prices, supply shocks, OPEC+, rupee  [APPSC]"
+  },
+  {
+   "s": "Approximately what percentage of India’s crude oil consumption was imported according to the provisional July 2026 figure?",
+   "o": [
+    "80.5%",
+    "85.0%",
+    "88.5%",
+    "92.5%"
+   ],
+   "a": 2,
+   "x": "The provisional July 2026 estimate placed India’s crude oil import dependence at approximately 88.5% of consumption.",
+   "ty": "numerical",
+   "tq": "Separate the precise current estimate from older rounded ranges.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "India’s import dependence on natural gas or LNG in 2026 was broadly in which range?",
+   "o": [
+    "10–15%",
+    "70–75%",
+    "25–30%",
+    "47–51%"
+   ],
+   "a": 3,
+   "x": "The stated 2026 estimates place India’s natural gas or LNG import dependence broadly between 47% and 51%.",
+   "ty": "numerical",
+   "tq": "Choose the range that accommodates the closely varying estimates from different sources.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "LNG imports into India were projected to reach approximately what volume in 2026?",
+   "o": [
+    "15–18 MMT",
+    "8–10 MMT",
+    "20–22 MMT",
+    "28–29 MMT"
+   ],
+   "a": 3,
+   "x": "India’s LNG imports were projected at approximately 28–29 million metric tonnes in 2026.",
+   "ty": "numerical",
+   "tq": "Match the fuel-import category with its projected physical volume rather than its percentage share.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding India’s coal imports:\n1. India imports about 26% of the coal it uses.\n2. India is the third-largest producer of coal.\n3. Coking coal for the steel industry comes mainly from Australia and Indonesia.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: India imports about 26% of its coal, remains the third-largest producer, and obtains much of its coking coal from Australia and Indonesia.",
+   "ty": "statements",
+   "tq": "Verify the production rank, import share and specialised-source relationship separately.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "India’s LPG supply depends mainly on which of the following?",
+   "o": [
+    "Underground storage maintained by state governments alone",
+    "Domestic coal stocks",
+    "Strategic petroleum reserves alone",
+    "Oil marketing company stocks"
+   ],
+   "a": 3,
+   "x": "India’s LPG supply depends mainly on stocks held by oil marketing companies. Semi-strategic underground LPG storage is only about 0.14 MT.",
+   "ty": "fact",
+   "tq": "Identify the principal operational source rather than the limited reserve arrangement.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "The semi-strategic underground storage capacity for LPG is approximately:",
+   "o": [
+    "0.014 MT",
+    "14 MT",
+    "1.4 MT",
+    "0.14 MT"
+   ],
+   "a": 3,
+   "x": "The stated semi-strategic underground LPG storage capacity is approximately 0.14 million tonnes.",
+   "ty": "numerical",
+   "tq": "Handle the decimal-place distinction carefully in a storage-capacity question.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "Match the major crude-oil supplier with its approximate share of India’s crude imports in 2025:\n\nList-I (Supplier)\nA. Russia\nB. Iraq\nC. Saudi Arabia\nD. United States of America\n\nList-II (Share)\n1. About 8%\n2. About 15%\n3. About 20%\n4. About 35%\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-4, B-3, C-2, D-1",
+    "A-3, B-4, C-1, D-2",
+    "A-2, B-1, C-4, D-3",
+    "A-1, B-2, C-3, D-4"
+   ],
+   "a": 0,
+   "x": "Russia accounted for about 35%, Iraq about 20%, Saudi Arabia about 15% and the United States about 8% of India’s crude imports in 2025.",
+   "ty": "match",
+   "tq": "Start with Russia’s largest share and use the descending supplier pattern to complete the code.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the recent movement in India’s crude-oil imports during April–November of FY26?",
+   "o": [
+    "Imports rose only from West Asian suppliers and fell from all other regions",
+    "Imports from every listed supplier declined",
+    "Imports rose from Libya, Egypt, Brazil, the United States and Brunei, but fell from Russia and Saudi Arabia",
+    "Imports rose from Russia and Saudi Arabia but fell from Libya and Brazil"
+   ],
+   "a": 2,
+   "x": "During April–November of FY26, imports increased from Libya, Egypt, Brazil, the United States and Brunei, while declining from Russia and Saudi Arabia.",
+   "ty": "fact",
+   "tq": "Separate the rising supplier group from the two suppliers showing decline.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "Which country is identified as a key supplier of LNG to India?",
+   "o": [
+    "Qatar",
+    "Brunei",
+    "Libya",
+    "Brazil"
+   ],
+   "a": 0,
+   "x": "Qatar is identified as a key LNG supplier to India.",
+   "ty": "fact",
+   "tq": "Distinguish the major LNG supplier from countries listed mainly in the crude-import movement.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "Arrange the following fuels in descending order of their approximate import share in India:\nA. Coal\nB. Crude oil\nC. Natural gas/LNG\n\nSelect the correct sequence.",
+   "o": [
+    "A, C, B",
+    "B, C, A",
+    "C, B, A",
+    "B, A, C"
+   ],
+   "a": 1,
+   "x": "Crude oil has the highest import share at about 88%, followed by natural gas/LNG at about 47–51%, and coal at about 26%.",
+   "ty": "chronology",
+   "tq": "Rank the items by percentage before checking the sequence options.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "Which one of the following fuel–import-share pairs is NOT correctly matched?",
+   "o": [
+    "Coal — about 26%",
+    "Crude oil — about 88%",
+    "Lithium — about 26%",
+    "Natural gas/LNG — about 47–51%"
+   ],
+   "a": 2,
+   "x": "Lithium has an import dependence of about 90%, not about 26%. The approximately 26% figure applies to coal.",
+   "ty": "negative",
+   "tq": "Find the swapped percentage by comparing each pair with the fuel-specific import table.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "Approximately what share of lithium requirements is imported?",
+   "o": [
+    "About 75%",
+    "About 47%",
+    "About 26%",
+    "About 90%"
+   ],
+   "a": 3,
+   "x": "India’s lithium import dependence is approximately 90%.",
+   "ty": "numerical",
+   "tq": "Distinguish the mineral-import figure from the energy-fuel percentages.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements about India’s crude suppliers is correct?\n1. Russia was the largest supplier in recent years.\n2. Iraq and Saudi Arabia were among the major suppliers.\n3. West Asia and Africa together supplied approximately 65%.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Russia was the largest supplier in recent years; Iraq and Saudi Arabia were major suppliers; and West Asia and Africa together accounted for approximately 65% of supplies.",
+   "ty": "statements",
+   "tq": "Use the broad regional share to confirm the individual supplier statements.",
+   "sec": "Import dependence - crude, LNG, coal, LPG and sources  [APPSC]"
+  },
+  {
+   "s": "Which one of the following best explains why fluctuations in global crude prices affect India’s domestic economy?",
+   "o": [
+    "India imports about 88% of its crude consumption, so price changes raise import costs",
+    "India exports most of its crude and earns more when prices fall",
+    "India imports only a negligible share of its crude requirements",
+    "Domestic oil prices are completely insulated from international prices"
+   ],
+   "a": 0,
+   "x": "India’s high crude import dependence means that changes in international prices directly affect import expenditure, inflation and the trade balance.",
+   "ty": "application",
+   "tq": "Connect import dependence with the domestic price and external-balance effects.",
+   "sec": "Oil consumption challenges - prices, supply shocks, OPEC+, rupee  [APPSC]"
+  }
+ ]
+}
