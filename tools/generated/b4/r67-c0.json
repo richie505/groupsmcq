@@ -1,0 +1,285 @@
+{
+ "book": 4,
+ "row": 67,
+ "chunk": 0,
+ "section": "Religious composition of India - distribution and change over decades",
+ "subsections": [
+  "Religion-wise growth rates 2001-2011 - highest and lowest growing communities",
+  "Religious composition Census 2011 - shares of Hindus, Muslims, Christians, Sikhs, Buddhists, Jains"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 23,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which religious community recorded the highest decadal growth rate in India during 2001–2011?",
+   "o": [
+    "Muslim",
+    "Sikh",
+    "Hindu",
+    "Christian"
+   ],
+   "a": 0,
+   "x": "The Muslim community recorded the highest decadal growth rate during 2001–2011, at 24.6%.",
+   "ty": "fact",
+   "tq": "Use the direct highest-value recall method for a comparison table.",
+   "sec": "Religion-wise growth rates 2001-2011 - highest and lowest growing communities"
+  },
+  {
+   "s": "Which one of the following communities recorded the lowest decadal growth rate in India during 2001–2011?",
+   "o": [
+    "Buddhist",
+    "Jain",
+    "Sikh",
+    "Christian"
+   ],
+   "a": 1,
+   "x": "Jains recorded the lowest decadal growth rate among the listed communities, at 5.4%.",
+   "ty": "fact",
+   "tq": "Identify the minimum value in the comparison table.",
+   "sec": "Religion-wise growth rates 2001-2011 - highest and lowest growing communities"
+  },
+  {
+   "s": "Consider the following statements regarding religious growth rates during 2001–2011:\n1. Muslims were the only listed community whose growth rate exceeded the all-India growth rate.\n2. The growth rate of Hindus was 16.8%.\n3. The growth rate of Christians was 15.5%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Muslims grew at 24.6%, above the national rate of 17.7%, while Hindu and Christian growth rates were 16.8% and 15.5%, respectively.",
+   "ty": "statements",
+   "tq": "Verify each numerical statement against the national comparison rate.",
+   "sec": "Religion-wise growth rates 2001-2011 - highest and lowest growing communities"
+  },
+  {
+   "s": "Arrange the following communities in descending order of their decadal growth rate during 2001–2011:\nA. Muslim\nB. Hindu\nC. Sikh\nD. Jain",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The descending order is Muslim (24.6%), Hindu (16.8%), Sikh (8.4%) and Jain (5.4%).",
+   "ty": "chronology",
+   "tq": "Arrange the entries by comparing their numerical values from highest to lowest.",
+   "sec": "Religion-wise growth rates 2001-2011 - highest and lowest growing communities"
+  },
+  {
+   "s": "The religion-wise population data of Census 2011 were released by the Census Commission on:",
+   "o": [
+    "27 August 2011",
+    "26 January 2015",
+    "15 August 2014",
+    "27 August 2015"
+   ],
+   "a": 3,
+   "x": "The religion data of Census 2011 were released on 27 August 2015.",
+   "ty": "fact",
+   "tq": "Use precise date recall for an official statistical release.",
+   "sec": "Religion-wise growth rates 2001-2011 - highest and lowest growing communities"
+  },
+  {
+   "s": "The sex ratio of the Sikh community in Census 2011 was:",
+   "o": [
+    "903",
+    "923",
+    "1,003",
+    "1,023"
+   ],
+   "a": 0,
+   "x": "Sikhs recorded the lowest sex ratio among the listed communities, at 903 females per 1,000 males.",
+   "ty": "numerical",
+   "tq": "Recall the exact extreme figure rather than merely the community ranking.",
+   "sec": "Religion-wise growth rates 2001-2011 - highest and lowest growing communities"
+  },
+  {
+   "s": "Which religious community recorded the highest literacy rate in Census 2011?",
+   "o": [
+    "Sikh",
+    "Christian",
+    "Jain",
+    "Buddhist"
+   ],
+   "a": 2,
+   "x": "Jains recorded the highest literacy rate among the listed religious communities.",
+   "ty": "fact",
+   "tq": "Identify the maximum entry in a comparison ranking.",
+   "sec": "Religion-wise growth rates 2001-2011 - highest and lowest growing communities"
+  },
+  {
+   "s": "Which one of the following is the correct order of religious communities from highest to lowest literacy rate in Census 2011?",
+   "o": [
+    "Christian > Jain > Buddhist > Sikh > Muslim > Hindu",
+    "Muslim > Hindu > Sikh > Buddhist > Christian > Jain",
+    "Jain > Buddhist > Christian > Hindu > Sikh > Muslim",
+    "Jain > Christian > Buddhist > Sikh > Hindu > Muslim"
+   ],
+   "a": 3,
+   "x": "The literacy ranking was Jain, Christian, Buddhist, Sikh, Hindu and Muslim, in descending order.",
+   "ty": "comparison",
+   "tq": "Compare all entries in the stated order and eliminate any reversed ranking.",
+   "sec": "Religion-wise growth rates 2001-2011 - highest and lowest growing communities"
+  },
+  {
+   "s": "According to Census 2011, which religious community constituted the largest share of India's population?",
+   "o": [
+    "Muslim",
+    "Christian",
+    "Sikh",
+    "Hindu"
+   ],
+   "a": 3,
+   "x": "Hindus constituted the largest share, accounting for 79.8% of India's population.",
+   "ty": "fact",
+   "tq": "Use the largest-share rule in a population-composition table.",
+   "sec": "Religious composition Census 2011 - shares of Hindus, Muslims, Christians, Sikhs, Buddhists, Jains"
+  },
+  {
+   "s": "Match List-I with List-II regarding the religious composition of India according to Census 2011.\nList-I (Religion)\nA. Muslim\nB. Christian\nC. Sikh\nD. Jain\nList-II (Share)\n1. 14.2%\n2. 2.3%\n3. 1.7%\n4. 0.4%\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-1, B-2, C-3, D-4",
+    "A-2, B-1, C-4, D-3",
+    "A-1, B-3, C-2, D-4",
+    "A-4, B-2, C-3, D-1"
+   ],
+   "a": 0,
+   "x": "Muslims constituted 14.2%, Christians 2.3%, Sikhs 1.7% and Jains 0.4% of the population.",
+   "ty": "match",
+   "tq": "Start from the sure percentage pair and eliminate codes containing a misplaced share.",
+   "sec": "Religious composition Census 2011 - shares of Hindus, Muslims, Christians, Sikhs, Buddhists, Jains"
+  },
+  {
+   "s": "Arrange the following religious communities in ascending order of population according to Census 2011:\nA. Christian\nB. Jain\nC. Hindu\nD. Buddhist\nE. Muslim\nF. Sikh",
+   "o": [
+    "B, D, F, A, E, C",
+    "D, B, F, A, E, C",
+    "B, F, D, A, C, E",
+    "F, B, D, A, E, C"
+   ],
+   "a": 0,
+   "x": "The ascending order is Jain, Buddhist, Sikh, Christian, Muslim and Hindu.",
+   "ty": "chronology",
+   "tq": "Arrange population categories from the smallest to the largest using the stated figures.",
+   "sec": "Religious composition Census 2011 - shares of Hindus, Muslims, Christians, Sikhs, Buddhists, Jains"
+  },
+  {
+   "s": "Which one of the following correctly represents the population of Muslims in India according to Census 2011?",
+   "o": [
+    "12.22 crore",
+    "14.22 crore",
+    "17.22 crore",
+    "21.72 crore"
+   ],
+   "a": 2,
+   "x": "The correct Muslim population figure was 17.22 crore, or 172.2 million. The figure 12.22 crore is an erroneous printed value.",
+   "ty": "numerical",
+   "tq": "Reject a typographical-looking distractor by checking the precise population figure.",
+   "sec": "Religious composition Census 2011 - shares of Hindus, Muslims, Christians, Sikhs, Buddhists, Jains"
+  },
+  {
+   "s": "What was the total population of India recorded in Census 2011 for the religious-composition data?",
+   "o": [
+    "101.09 crore",
+    "111.09 crore",
+    "121.09 crore",
+    "131.09 crore"
+   ],
+   "a": 2,
+   "x": "The total population considered in the Census 2011 religious-composition data was 121.09 crore.",
+   "ty": "numerical",
+   "tq": "Recall the aggregate total separately from individual community populations.",
+   "sec": "Religious composition Census 2011 - shares of Hindus, Muslims, Christians, Sikhs, Buddhists, Jains"
+  },
+  {
+   "s": "Consider the following statements regarding the classification of religions in Census 2011:\n1. Six major religions were counted separately.\n2. Other Religions and Persuasions was recorded separately.\n3. Religion Not Stated was recorded separately.\n4. A ‘No Religion’ option was added for the first time in 2011.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The six major religions, ORP, Religion Not Stated and the newly added No Religion option were separately recognised in the stated Census classification.",
+   "ty": "statements",
+   "tq": "Check whether each component of the classification has been included.",
+   "sec": "Religious composition Census 2011 - shares of Hindus, Muslims, Christians, Sikhs, Buddhists, Jains"
+  },
+  {
+   "s": "Between 2001 and 2011, the share of Hindus in India's population changed from:",
+   "o": [
+    "80.5% to 78.8%",
+    "79.8% to 78.5%",
+    "80.5% to 79.8%",
+    "79.8% to 80.5%"
+   ],
+   "a": 2,
+   "x": "The Hindu share declined from 80.5% in 2001 to 79.8% in 2011, falling below 80% for the first time since Independence.",
+   "ty": "numerical",
+   "tq": "Track the direction and exact endpoints of a decadal change.",
+   "sec": "Religious composition Census 2011 - shares of Hindus, Muslims, Christians, Sikhs, Buddhists, Jains"
+  },
+  {
+   "s": "Which one of the following correctly describes the change in the Muslim share of India's population between 2001 and 2011?",
+   "o": [
+    "It declined from 14.2% to 13.4%.",
+    "It remained unchanged at 13.4%.",
+    "It increased from 12.4% to 13.2%.",
+    "It increased from 13.4% to 14.2%."
+   ],
+   "a": 3,
+   "x": "The Muslim share increased from 13.4% in 2001 to 14.2% in 2011.",
+   "ty": "confusable",
+   "tq": "Distinguish the direction of change and avoid reversing the two endpoint figures.",
+   "sec": "Religious composition Census 2011 - shares of Hindus, Muslims, Christians, Sikhs, Buddhists, Jains"
+  },
+  {
+   "s": "Consider the following statements regarding changes in religious shares between 2001 and 2011:\n1. Christian and Jain shares remained unchanged.\n2. Sikh share declined by 0.2 percentage points.\n3. Buddhist share declined by 0.1 percentage points.\n4. Hindu share rose above 80%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is false: the Hindu share fell from 80.5% to 79.8%, below 80%.",
+   "ty": "statements",
+   "tq": "Find the flipped trend statement among otherwise accurate change figures.",
+   "sec": "Religious composition Census 2011 - shares of Hindus, Muslims, Christians, Sikhs, Buddhists, Jains"
+  },
+  {
+   "s": "With reference to the first detailed census of 1881, which one of the following statements is correct?",
+   "o": [
+    "Religions of Indian origin formed about 79% of the population, and about 95% of them were Hindus.",
+    "Religions of Indian origin formed about 95% of the population, and about 79% of them were Hindus.",
+    "Religions of Indian origin formed less than 50% of the population.",
+    "Christians formed about 7% of the population."
+   ],
+   "a": 0,
+   "x": "The 1881 census recorded religions of Indian origin at about 79% of the population; approximately 95% of that group was Hindu. Christians constituted about 0.7%.",
+   "ty": "fact",
+   "tq": "Keep the population share and the internal proportion distinct.",
+   "sec": "Religious composition Census 2011 - shares of Hindus, Muslims, Christians, Sikhs, Buddhists, Jains"
+  },
+  {
+   "s": "Which one of the following correctly states the Christian population and share in India according to Census 2011?",
+   "o": [
+    "2.78 crore and 2.3%",
+    "2.08 crore and 1.7%",
+    "0.84 crore and 0.7%",
+    "0.45 crore and 0.4%"
+   ],
+   "a": 0,
+   "x": "The Christian population was 2.78 crore, or 27.8 million, constituting 2.3% of India's population.",
+   "ty": "match",
+   "tq": "Match the absolute population figure with its corresponding percentage share.",
+   "sec": "Religious composition Census 2011 - shares of Hindus, Muslims, Christians, Sikhs, Buddhists, Jains"
+  }
+ ]
+}

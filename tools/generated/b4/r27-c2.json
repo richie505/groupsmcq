@@ -1,0 +1,527 @@
+{
+ "book": 4,
+ "row": 27,
+ "chunk": 2,
+ "section": "Hydrological disasters - floods, flash floods, cloudbursts, droughts, tsunamis, storm surges",
+ "subsections": [
+  "Urban flooding - causes and cases",
+  "Industrial and nuclear disasters - place, year, agent",
+  "Vulnerability profile of India - hazard-prone states and area shares",
+  "Classification of disasters - natural vs man-made",
+  "Landslides and avalanches - terrain, zones, rising frequency",
+  "Major disasters in India - year and place; hazard → region"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following is NOT identified as a cause of urban flooding?",
+   "o": [
+    "Extreme rainfall",
+    "Unplanned concretisation",
+    "Expansion of natural drainage channels",
+    "Encroachment of lakes"
+   ],
+   "a": 2,
+   "x": "Urban flooding is associated with unplanned concretisation, blocked natural drains and canals, encroached lakes and extreme rainfall. Expansion of natural drainage channels is not a listed cause.",
+   "ty": "negative",
+   "tq": "Find the option that reverses a stated cause.",
+   "sec": "Urban flooding - causes and cases"
+  },
+  {
+   "s": "The urban flood of 26 July 2005 is associated with which city?",
+   "o": [
+    "Visakhapatnam",
+    "Chennai",
+    "Mumbai",
+    "Vijayawada"
+   ],
+   "a": 2,
+   "x": "Mumbai experienced the major urban flood on 26 July 2005.",
+   "ty": "fact",
+   "tq": "Direct city-and-date recall.",
+   "sec": "Urban flooding - causes and cases"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Mumbai — 26 July 2005 urban flood\n2. Chennai — December 2015 urban flood\n3. Vijayawada — Budameru-related urban flooding\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correctly matched. The Vijayawada case is associated with flooding linked to the Budameru rivulet.",
+   "ty": "statements",
+   "tq": "Use a familiar pair to eliminate mismatched city-event combinations.",
+   "sec": "Urban flooding - causes and cases"
+  },
+  {
+   "s": "Which combination correctly describes Andhra Pradesh's City Flood Alert platform announced in July 2026?",
+   "o": [
+    "A drought-monitoring platform developed by APTRANSCO and ISRO",
+    "An AI platform of RTGS, APSDMA and IIT Gandhinagar providing 48-hour rainfall forecasts and 6-hour flash-flood warnings",
+    "A cyclone-warning platform of IMD and the Navy providing 72-hour forecasts",
+    "A seismic-alert platform of GSI and IIT Hyderabad providing 24-hour earthquake warnings"
+   ],
+   "a": 1,
+   "x": "The City Flood Alert is an AI platform developed by RTGS, APSDMA and IIT Gandhinagar. It provides 48-hour rainfall forecasts and 6-hour flash-flood warnings.",
+   "ty": "application",
+   "tq": "Split the option into agency, technology and forecast-duration clues.",
+   "sec": "Urban flooding - causes and cases"
+  },
+  {
+   "s": "The first implementation of Andhra Pradesh's City Flood Alert platform was planned for which city?",
+   "o": [
+    "Tirupati",
+    "Visakhapatnam",
+    "Guntur",
+    "Vijayawada"
+   ],
+   "a": 3,
+   "x": "The platform was first planned for Vijayawada and was subsequently proposed for all Urban Local Bodies.",
+   "ty": "fact",
+   "tq": "Direct first-location recall.",
+   "sec": "Urban flooding - causes and cases"
+  },
+  {
+   "s": "The City Flood Alert platform uses which combination of inputs for Vijayawada flood warnings?",
+   "o": [
+    "Forest-fire maps and satellite night-light data",
+    "Satellite DEM and approximately 30 years of Budameru data",
+    "Ocean salinity data and 5 years of Krishna delta data",
+    "Seismic records and 30 years of rainfall data from the Eastern Ghats"
+   ],
+   "a": 1,
+   "x": "The platform uses satellite-derived Digital Elevation Model data and approximately 30 years of Budameru data.",
+   "ty": "fact",
+   "tq": "Identify the exact data-source pair.",
+   "sec": "Urban flooding - causes and cases"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Disaster)\n a. Bhopal gas tragedy\n b. Chernobyl disaster\n c. Fukushima Daiichi disaster\n d. Nuclear waste hazard\n\nList-II (Agent or cause)\n i. Improper disposal of radioactive waste\n ii. Methyl isocyanate\n iii. Reactor No. 4 explosion and radioactive release\n iv. Earthquake-tsunami followed by reactor meltdowns\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–iii, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "Bhopal involved methyl isocyanate; Chernobyl involved the explosion of Reactor No. 4; Fukushima followed an earthquake and tsunami; improper disposal of radioactive waste is a separate nuclear hazard.",
+   "ty": "match",
+   "tq": "Start with the sure agent pair and complete the elimination.",
+   "sec": "Industrial and nuclear disasters - place, year, agent  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Bhopal gas tragedy occurred at the Union Carbide plant during which period?",
+   "o": [
+    "26 April 1986",
+    "30 September 1993",
+    "2–3 December 1984",
+    "11 March 2011"
+   ],
+   "a": 2,
+   "x": "The Bhopal gas tragedy occurred on 2–3 December 1984 at the Union Carbide plant in Bhopal, Madhya Pradesh.",
+   "ty": "numerical",
+   "tq": "Distinguish closely related disaster dates.",
+   "sec": "Industrial and nuclear disasters - place, year, agent  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Chernobyl is correctly associated with which place and date?",
+   "o": [
+    "Bhopal, India — 2 December 1984",
+    "Kutch, India — 26 January 2001",
+    "Pripyat, Ukraine — 26 April 1986",
+    "Fukushima, Japan — 11 March 2011"
+   ],
+   "a": 2,
+   "x": "The Chernobyl disaster occurred at Pripyat in Ukraine, then part of the USSR, on 26 April 1986.",
+   "ty": "fact",
+   "tq": "Match the disaster with its location and date.",
+   "sec": "Industrial and nuclear disasters - place, year, agent  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Fukushima Daiichi disaster was primarily triggered by which sequence?",
+   "o": [
+    "Tropical cyclone followed by a dam burst",
+    "Earthquake and tsunami followed by reactor meltdowns",
+    "Drought followed by radioactive-waste disposal",
+    "Volcanic eruption followed by a chemical leak"
+   ],
+   "a": 1,
+   "x": "The Fukushima Daiichi disaster in Japan on 11 March 2011 followed an earthquake and tsunami, which led to reactor meltdowns.",
+   "ty": "application",
+   "tq": "Test the correct cause-effect sequence.",
+   "sec": "Industrial and nuclear disasters - place, year, agent  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Under the HSDPR scheme for 2021–26, which provision relates to health-sector CBRN readiness?",
+   "o": [
+    "Ten tertiary and two secondary CBRN centres",
+    "Two tertiary and twenty secondary trauma centres",
+    "One tertiary and five secondary CBRN centres",
+    "Two tertiary and ten secondary CBRN medical management centres"
+   ],
+   "a": 3,
+   "x": "The HSDPR scheme provides for setting up two tertiary and ten secondary CBRN medical management centres during 2021–26.",
+   "ty": "numerical",
+   "tq": "Recall the paired institutional count.",
+   "sec": "Industrial and nuclear disasters - place, year, agent  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The NIDM Southern Campus at Kondapalli is associated with which activity?",
+   "o": [
+    "Conducting crop-weather surveys in drought-prone districts",
+    "Forecasting earthquakes in the Eastern Ghats",
+    "Preparing safety audits for chemical corridors and port clusters",
+    "Monitoring ocean currents in the Bay of Bengal"
+   ],
+   "a": 2,
+   "x": "The NIDM Southern Campus at Kondapalli, Andhra Pradesh, prepares safety audits for chemical corridors and port clusters.",
+   "ty": "fact",
+   "tq": "Identify the institution from its specialised function.",
+   "sec": "Industrial and nuclear disasters - place, year, agent  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding India's disaster vulnerability:\n1. About 58.6% of India's landmass faces moderate-to-very-high earthquake risk.\n2. More than 40 million hectares, approximately 12% of the area, is flood-prone.\n3. About 68% of the cultivable area is vulnerable to drought.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly represent the cited hazard shares for India.",
+   "ty": "statements",
+   "tq": "Check each numerical statement independently before selecting the coded combination.",
+   "sec": "Vulnerability profile of India - hazard-prone states and area shares  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "According to the older coastline base used for the hazard estimates, approximately how much of India's coastline faces cyclones and tsunamis?",
+   "o": [
+    "2,700 km",
+    "5,700 km",
+    "7,516.6 km",
+    "11,098.81 km"
+   ],
+   "a": 1,
+   "x": "Approximately 5,700 km of the old 7,516.6 km coastline was considered exposed to cyclones and tsunamis.",
+   "ty": "numerical",
+   "tq": "Separate the exposed length from the total and revised coastline figures.",
+   "sec": "Vulnerability profile of India - hazard-prone states and area shares  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "What is the significance of the figure 11,098.81 km in relation to India's coastline?",
+   "o": [
+    "It is the cyclone-prone length of the old coastline",
+    "It is the remeasured coastline length reported in December 2024",
+    "It is the length vulnerable to tsunamis alone",
+    "It is the length of the eastern coastline only"
+   ],
+   "a": 1,
+   "x": "The coastline was remeasured to 11,098.81 km by the Ministry of Home Affairs in December 2024. Older hazard shares used the earlier base of 7,516.6 km.",
+   "ty": "fact",
+   "tq": "Discriminate between revised total and older hazard-share figures.",
+   "sec": "Vulnerability profile of India - hazard-prone states and area shares  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly describes the cyclone vulnerability of India?",
+   "o": [
+    "Cyclones affect 13 coastal States or Union Territories and 84 coastal districts; Andhra Pradesh is identified as the most cyclone-prone state.",
+    "Cyclones affect only 9 coastal States and Andhra Pradesh is least affected on the east coast.",
+    "Cyclones affect 13 inland States and 84 districts, with Rajasthan as the most cyclone-prone state.",
+    "Cyclones affect 84 Union Territories and 13 coastal districts, with the west coast receiving most cyclones."
+   ],
+   "a": 0,
+   "x": "Cyclones affect 13 coastal States or Union Territories and 84 coastal districts. Andhra Pradesh is identified as the most cyclone-prone state, and the east coast receives far more cyclones than the west.",
+   "ty": "statements",
+   "tq": "Use composition, number and east-west comparison together.",
+   "sec": "Vulnerability profile of India - hazard-prone states and area shares  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Assam alone has approximately how much flood-prone area?",
+   "o": [
+    "310.5 lakh hectares",
+    "13.05 lakh hectares",
+    "31.05 lakh hectares",
+    "3.105 lakh hectares"
+   ],
+   "a": 2,
+   "x": "Assam has approximately 31.05 lakh hectares of flood-prone area.",
+   "ty": "numerical",
+   "tq": "Watch the placement of the decimal and the lakh unit.",
+   "sec": "Vulnerability profile of India - hazard-prone states and area shares  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "According to the World Risk Index 2025, India is the world's second most vulnerable country after which country?",
+   "o": [
+    "Indonesia",
+    "Japan",
+    "Bangladesh",
+    "The Philippines"
+   ],
+   "a": 3,
+   "x": "The World Risk Index 2025 places India as the second most vulnerable country, after the Philippines.",
+   "ty": "fact",
+   "tq": "Direct ranking recall.",
+   "sec": "Vulnerability profile of India - hazard-prone states and area shares  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is correctly classified as a biological disaster?",
+   "o": [
+    "Pest attack",
+    "Cyclone",
+    "Nuclear incident",
+    "Earthquake"
+   ],
+   "a": 0,
+   "x": "Epidemics, pandemics and pest attacks are biological disasters. Earthquakes are geophysical, cyclones are hydro-meteorological, and nuclear incidents are man-made or technological.",
+   "ty": "fact",
+   "tq": "Classify the example rather than the general term.",
+   "sec": "Classification of disasters - natural vs man-made  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Class)\n a. Geological or geophysical\n b. Hydro-meteorological\n c. Climatological\n d. Man-made or technological\n\nList-II (Example)\n i. Extreme temperatures\n ii. Chemical and industrial accidents\n iii. Earthquakes\n iv. Floods\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–ii, b–iv, c–i, d–iii"
+   ],
+   "a": 0,
+   "x": "Earthquakes are geological or geophysical; floods are hydro-meteorological; extreme temperatures are climatological; and chemical and industrial accidents are man-made or technological.",
+   "ty": "match",
+   "tq": "Start with the distinctive technological and geological examples.",
+   "sec": "Classification of disasters - natural vs man-made  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which statement best expresses the relationship between hazard, vulnerability and disaster?",
+   "o": [
+    "Only man-made hazards can become disasters when vulnerability is present.",
+    "Hazard + vulnerability always equals disaster, irrespective of exposure.",
+    "Vulnerability alone is a disaster, even without any hazard.",
+    "Hazard multiplied by vulnerability gives disaster; an earthquake in an empty desert may remain a hazard rather than become a disaster."
+   ],
+   "a": 3,
+   "x": "The relationship is expressed as Hazard × Vulnerability = Disaster. An earthquake in an uninhabited desert may be a hazard but not a disaster because significant vulnerability and exposure are absent.",
+   "ty": "application",
+   "tq": "Apply the formula to the empty-desert example.",
+   "sec": "Classification of disasters - natural vs man-made  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following is an emerging hazard identified in addition to conventional natural and technological hazards?",
+   "o": [
+    "Monsoon rainfall",
+    "Cyber attack",
+    "Seasonal snowfall",
+    "River erosion"
+   ],
+   "a": 1,
+   "x": "Cyber attacks, space weather and AI failures are identified as emerging hazards.",
+   "ty": "odd_one_out",
+   "tq": "Pick the item belonging to the emerging-hazard category.",
+   "sec": "Classification of disasters - natural vs man-made  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about notified disasters eligible for SDRF or NDRF assistance:\n1. The number of notified disasters became 14 after August 2026.\n2. Heatwave and lightning were added on the advice of the Sixteenth Finance Commission.\n3. Man-made calamities are included among the notified disasters.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. The number rose to 14 after heatwave and lightning were added; no man-made calamity is notified for this purpose.",
+   "ty": "statements",
+   "tq": "Find the single false statement by checking the eligibility exception.",
+   "sec": "Classification of disasters - natural vs man-made  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Landslides occur predominantly in which type of terrain?",
+   "o": [
+    "Coastal beaches only",
+    "Flat alluvial plains",
+    "Arid sand-dune regions",
+    "Hilly terrain"
+   ],
+   "a": 3,
+   "x": "Landslides occur mostly in hilly terrain.",
+   "ty": "fact",
+   "tq": "Direct terrain association.",
+   "sec": "Landslides and avalanches - terrain, zones, rising frequency  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly identifies the major landslide zones mentioned for India?",
+   "o": [
+    "The Thar Desert and the Indo-Gangetic plain",
+    "The Himalaya and the Western Ghats",
+    "The Sundarbans and the Rann of Kachchh",
+    "The Coromandel coast and the Deccan plateau only"
+   ],
+   "a": 1,
+   "x": "Major landslide zones include the Himalaya, covering Jammu and Kashmir, Himachal Pradesh, Uttarakhand and the Northeast, and the Western Ghats, including Kerala, Konkan and the Nilgiris.",
+   "ty": "fact",
+   "tq": "Identify the paired physiographic zones.",
+   "sec": "Landslides and avalanches - terrain, zones, rising frequency  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Avalanches in India are primarily associated with which region and States or Union Territories?",
+   "o": [
+    "Eastern coast—Odisha, Andhra Pradesh and Tamil Nadu",
+    "Western Ghats—Kerala, Goa, Karnataka and Tamil Nadu",
+    "Snow-bound Himalaya—Jammu and Kashmir, Ladakh, Himachal Pradesh and Uttarakhand",
+    "Deccan interior—Maharashtra, Telangana and Karnataka"
+   ],
+   "a": 2,
+   "x": "Avalanches are associated with the snow-bound Himalaya, particularly Jammu and Kashmir, Ladakh, Himachal Pradesh and Uttarakhand.",
+   "ty": "comparison",
+   "tq": "Distinguish avalanche geography from landslide geography.",
+   "sec": "Landslides and avalanches - terrain, zones, rising frequency  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following factors contributes to the increasing frequency of landslides?",
+   "o": [
+    "Unregulated construction on unstable slopes",
+    "Regulated construction on stable slopes",
+    "Increase in forest cover on vulnerable slopes",
+    "Reduction in road widening"
+   ],
+   "a": 0,
+   "x": "Unregulated construction on unstable slopes is one of the factors increasing landslide frequency. Deforestation, road widening, cloudbursts and deglaciation are other cited factors.",
+   "ty": "application",
+   "tq": "Select the human activity that increases slope instability.",
+   "sec": "Landslides and avalanches - terrain, zones, rising frequency  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The diversion of approximately 43 hectares of land and approval for felling about 7,000 deodars are associated with which project-related landslide concern?",
+   "o": [
+    "Golden Quadrilateral project",
+    "Polavaram irrigation project",
+    "Char Dham road project",
+    "Konkan railway project"
+   ],
+   "a": 2,
+   "x": "These figures are associated with road widening connected with the Char Dham project and its ecological and slope-stability concerns.",
+   "ty": "fact",
+   "tq": "Link the numerical environmental detail with the project name.",
+   "sec": "Landslides and avalanches - terrain, zones, rising frequency  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which agency is the nodal agency for landslide studies in India?",
+   "o": [
+    "National Remote Sensing Centre",
+    "India Meteorological Department",
+    "Geological Survey of India",
+    "Central Water Commission"
+   ],
+   "a": 2,
+   "x": "The Geological Survey of India is the nodal agency for landslide studies.",
+   "ty": "fact",
+   "tq": "Identify the agency from its specialised mandate.",
+   "sec": "Landslides and avalanches - terrain, zones, rising frequency  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Arrange the following disasters in chronological order:\nA. Latur earthquake\nB. Bhuj earthquake\nC. Odisha super cyclone\nD. Indian Ocean tsunami",
+   "o": [
+    "A, C, B, D",
+    "C, A, B, D",
+    "A, B, C, D",
+    "C, B, A, D"
+   ],
+   "a": 0,
+   "x": "The correct sequence is Latur earthquake in 1993, Odisha super cyclone in 1999, Bhuj earthquake in 2001 and Indian Ocean tsunami in 2004.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest events, then arrange the middle events by year.",
+   "sec": "Major disasters in India - year and place; hazard → region  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Latur or Killari earthquake occurred on which date and in which State?",
+   "o": [
+    "30 September 1993, Maharashtra",
+    "26 January 2001, Gujarat",
+    "30 September 1999, Odisha",
+    "26 December 2004, Tamil Nadu"
+   ],
+   "a": 0,
+   "x": "The Latur or Killari earthquake occurred on 30 September 1993 in Maharashtra.",
+   "ty": "fact",
+   "tq": "Direct date-and-place recall.",
+   "sec": "Major disasters in India - year and place; hazard → region  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Odisha super cyclone of October 1999 is associated particularly with which location?",
+   "o": [
+    "Kollam and the Kerala coast",
+    "Kutch and the Gujarat coast",
+    "Uttarkashi and the Himalayan foothills",
+    "Paradip and the Odisha coast"
+   ],
+   "a": 3,
+   "x": "The Odisha super cyclone occurred in October 1999 along the Odisha coast, particularly around Paradip.",
+   "ty": "fact",
+   "tq": "Match the disaster with its affected coastal region.",
+   "sec": "Major disasters in India - year and place; hazard → region  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Kerala floods — August 2018 — Kerala",
+    "Bhuj earthquake — 26 January 2001 — Kutch, Gujarat",
+    "Kedarnath floods — June 2013 — Uttarakhand",
+    "Chamoli glacier burst — 2021 — Himachal Pradesh"
+   ],
+   "a": 3,
+   "x": "The Chamoli glacier burst of 2021 occurred in Uttarakhand, not Himachal Pradesh. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the wrong place in a disaster-year-location chain.",
+   "sec": "Major disasters in India - year and place; hazard → region  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Dharali flash flood of 5 August 2025 occurred in which district and State?",
+   "o": [
+    "Chamoli, Himachal Pradesh",
+    "Kullu, Himachal Pradesh",
+    "Uttarkashi, Uttarakhand",
+    "Rudraprayag, Uttarakhand"
+   ],
+   "a": 2,
+   "x": "The Dharali flash flood occurred on 5 August 2025 in Uttarkashi district of Uttarakhand.",
+   "ty": "numerical",
+   "tq": "Combine the precise date with the location rather than only the State.",
+   "sec": "Major disasters in India - year and place; hazard → region  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following hazard-to-region associations is correctly matched?",
+   "o": [
+    "Cyclones — Himalaya; earthquakes — Brahmaputra-Ganga plains",
+    "Cyclones — east coast; drought — Rajasthan and the Deccan interior",
+    "Landslides — Thar Desert; floods — Kutch",
+    "Drought — Western Ghats; earthquakes — east coast only"
+   ],
+   "a": 1,
+   "x": "Cyclones are especially associated with the east coast, while drought is prominent in Rajasthan and the Deccan interior. Floods affect the Brahmaputra-Ganga plains, earthquakes the Himalaya and Kutch, and landslides the Himalaya and Western Ghats.",
+   "ty": "comparison",
+   "tq": "Check both hazard and regional setting in each pair.",
+   "sec": "Major disasters in India - year and place; hazard → region  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements about the Indian Ocean tsunami of 26 December 2004 is correct?",
+   "o": [
+    "It affected Tamil Nadu, the Andaman and Nicobar Islands, Kerala and Andhra Pradesh.",
+    "It affected only Gujarat and Maharashtra.",
+    "It affected only the western coast of India.",
+    "It was confined to the Himalayan States."
+   ],
+   "a": 0,
+   "x": "The Indian Ocean tsunami of 26 December 2004 affected Tamil Nadu, the Andaman and Nicobar Islands, Kerala and Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Recall the affected-region list without confusing east and west coasts.",
+   "sec": "Major disasters in India - year and place; hazard → region  [APPSC, GROUP-II]"
+  }
+ ]
+}

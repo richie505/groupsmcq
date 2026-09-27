@@ -1,0 +1,543 @@
+{
+ "book": 4,
+ "row": 1,
+ "chunk": 0,
+ "section": "Earth - shape, size, geoid; latitudes and longitudes, the graticule",
+ "subsections": [
+  "Parallels and meridians → countries they pass through",
+  "Relative position of cities (world and Indian)",
+  "Dimensions - diameters, circumference, land-water ratio",
+  "Graticule - parallels at 1°, great vs small circles, valid coordinates, 0°-0° point",
+  "Shape of the earth - geoid, oblate spheroid, evidences, nearest point to centre",
+  "Longitudes - Prime Meridian, degree-to-distance relation",
+  "Latitude-longitude extent of India and AP mainland (extreme points)",
+  "Antipodes and position-finding on the grid"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 42,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 4
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following countries is NOT traversed by the Equator?",
+   "o": [
+    "Kenya",
+    "Colombia",
+    "Indonesia",
+    "Rwanda"
+   ],
+   "a": 3,
+   "x": "The Equator passes through Kenya, Colombia and Indonesia. Rwanda is a commonly tested country that lies north of the Equator and is not traversed by it.",
+   "ty": "negative",
+   "tq": "Find the country that does not belong to the passage list.",
+   "sec": "Parallels and meridians → countries they pass through"
+  },
+  {
+   "s": "Consider the following countries:\n1. Ecuador\n2. Gabon\n3. Uganda\n4. Somalia\n5. Maldives\nWhich of the above are traversed by the Equator?",
+   "o": [
+    "1, 2, 3 and 4 only",
+    "1, 2, 3, 4 and 5",
+    "1, 3 and 5 only",
+    "2, 4 and 5 only"
+   ],
+   "a": 1,
+   "x": "The Equator passes through Ecuador, Gabon, Uganda, Somalia and the Maldives. It also passes through countries including Brazil, Sao Tome and Principe, the Republic of Congo, the Democratic Republic of Congo, Kenya, Indonesia and Kiribati.",
+   "ty": "statements",
+   "tq": "Test the membership of several countries in a named geographical list.",
+   "sec": "Parallels and meridians → countries they pass through"
+  },
+  {
+   "s": "Which one of the following countries is NOT traversed by the Prime Meridian?",
+   "o": [
+    "Niger",
+    "Burkina Faso",
+    "Togo",
+    "Ghana"
+   ],
+   "a": 0,
+   "x": "The Prime Meridian passes through the United Kingdom, France, Spain, Algeria, Mali, Burkina Faso, Togo and Ghana. Niger is not traversed by it.",
+   "ty": "negative",
+   "tq": "Use the NOT formulation to separate neighbouring countries on a line.",
+   "sec": "Parallels and meridians → countries they pass through"
+  },
+  {
+   "s": "Arrange the following Indian cities from north to south:\nA. Visakhapatnam\nB. Srinagar\nC. Chennai\nD. Bhopal",
+   "o": [
+    "B, D, A, C",
+    "D, B, A, C",
+    "B, A, D, C",
+    "C, A, D, B"
+   ],
+   "a": 0,
+   "x": "The correct north-to-south order is Srinagar, Bhopal, Visakhapatnam and Chennai.",
+   "ty": "chronology",
+   "tq": "Use the numerical latitude sequence to arrange places from north to south.",
+   "sec": "Relative position of cities (world and Indian)"
+  },
+  {
+   "s": "Which one of the following correctly represents the north-to-south order of the cities listed below?\n1. Hyderabad\n2. Delhi\n3. Thiruvananthapuram\n4. Visakhapatnam",
+   "o": [
+    "2, 4, 1, 3",
+    "2, 1, 4, 3",
+    "3, 1, 4, 2",
+    "4, 2, 1, 3"
+   ],
+   "a": 0,
+   "x": "Delhi is at about 28.6°N, Visakhapatnam at 17.7°N, Hyderabad at 17.4°N and Thiruvananthapuram at about 8°N. Hence the order is 2, 4, 1, 3.",
+   "ty": "chronology",
+   "tq": "Compare close latitudes carefully, especially Visakhapatnam and Hyderabad.",
+   "sec": "Relative position of cities (world and Indian)"
+  },
+  {
+   "s": "Which of the following statements regarding the extreme east and west locations of India is correct?",
+   "o": [
+    "Srinagar is the most eastward point and Kanyakumari is the most westward point.",
+    "Kanyakumari is the most eastward point and Indira Point is the most westward point.",
+    "Guhar Moti in Arunachal Pradesh is the most eastward point and Kibithu in Gujarat is the most westward point.",
+    "Kibithu in Arunachal Pradesh is the most eastward point and Guhar Moti in Gujarat is the most westward point."
+   ],
+   "a": 3,
+   "x": "Kibithu in Arunachal Pradesh is the most eastward location, while Guhar Moti in Gujarat is the most westward location.",
+   "ty": "fact",
+   "tq": "Match each extreme direction with its correct place and State.",
+   "sec": "Relative position of cities (world and Indian)"
+  },
+  {
+   "s": "Consider the following statements:\n1. The equatorial diameter of the Earth is greater than its polar diameter.\n2. The mean radius of the Earth is approximately 6,371 km.\n3. The difference between the equatorial and polar diameters is approximately 43 km.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The equatorial diameter is about 12,756 km, the polar diameter about 12,714 km, their difference is about 43 km, and the mean radius is approximately 6,371 km.",
+   "ty": "statements",
+   "tq": "Check whether all numerical statements are mutually consistent.",
+   "sec": "Dimensions - diameters, circumference, land-water ratio"
+  },
+  {
+   "s": "The approximate surface area of the Earth is",
+   "o": [
+    "510 million square kilometres",
+    "610 million square kilometres",
+    "410 million square kilometres",
+    "710 million square kilometres"
+   ],
+   "a": 0,
+   "x": "The surface area of the Earth is approximately 510 million square kilometres.",
+   "ty": "numerical",
+   "tq": "Recall the standard global dimensional value without confusing it with water percentage.",
+   "sec": "Dimensions - diameters, circumference, land-water ratio"
+  },
+  {
+   "s": "What is the approximate ratio of water-covered area to land area on the Earth's surface?",
+   "o": [
+    "80:20",
+    "50:50",
+    "29:71",
+    "71:29"
+   ],
+   "a": 3,
+   "x": "Approximately 71% of the Earth's surface is covered by water and 29% is land.",
+   "ty": "numerical",
+   "tq": "Keep the water-to-land order distinct from the land-to-water order.",
+   "sec": "Dimensions - diameters, circumference, land-water ratio"
+  },
+  {
+   "s": "How many parallels are obtained when the Earth's surface is marked at one-degree intervals, including the Equator but excluding the poles as points?",
+   "o": [
+    "178",
+    "179",
+    "180",
+    "360"
+   ],
+   "a": 1,
+   "x": "There are 89 parallels north of the Equator, 89 south of it and the Equator itself, making 179 parallels. The poles are points rather than parallels.",
+   "ty": "numerical",
+   "tq": "Break the total into northern parallels, southern parallels and the Equator.",
+   "sec": "Graticule - parallels at 1°, great vs small circles, valid coordinates, 0°-0° point"
+  },
+  {
+   "s": "Which one of the following statements about the graticule is correct?",
+   "o": [
+    "The poles are counted as two parallels.",
+    "There are 360 meridians in all.",
+    "There are 179 meridians and 360 parallels.",
+    "There are 180 meridians in all."
+   ],
+   "a": 1,
+   "x": "The graticule contains 360 meridians. The poles are points and are not counted as parallels.",
+   "ty": "fact",
+   "tq": "Discriminate between the counts of parallels and meridians.",
+   "sec": "Graticule - parallels at 1°, great vs small circles, valid coordinates, 0°-0° point"
+  },
+  {
+   "s": "Which one of the following is the only great-circle parallel on the Earth?",
+   "o": [
+    "Tropic of Cancer",
+    "Equator",
+    "Tropic of Capricorn",
+    "Arctic Circle"
+   ],
+   "a": 1,
+   "x": "The Equator is the only parallel whose plane passes through the centre of the Earth and is therefore a great circle. All other parallels are small circles.",
+   "ty": "fact",
+   "tq": "Identify the exception among otherwise similar parallels.",
+   "sec": "Graticule - parallels at 1°, great vs small circles, valid coordinates, 0°-0° point"
+  },
+  {
+   "s": "Which one of the following pairs contains only valid geographical coordinates?",
+   "o": [
+    "95°N and 75°E",
+    "100°S and 20°W",
+    "45°S and 190°E",
+    "90°N and 180°W"
+   ],
+   "a": 3,
+   "x": "Latitude ranges from 0° to 90° north or south and longitude from 0° to 180° east or west. Therefore 90°N and 180°W are valid, whereas 95°N, 190°E and 100°S are invalid.",
+   "ty": "confusable",
+   "tq": "Check latitude and longitude limits separately before judging the pair.",
+   "sec": "Graticule - parallels at 1°, great vs small circles, valid coordinates, 0°-0° point"
+  },
+  {
+   "s": "The point at 0° latitude and 0° longitude lies in the",
+   "o": [
+    "Arabian Sea near the Tropic of Cancer",
+    "Pacific Ocean near the Equator",
+    "Gulf of Guinea in the Atlantic Ocean",
+    "Indian Ocean near the Prime Meridian"
+   ],
+   "a": 2,
+   "x": "The intersection of the Equator and the Prime Meridian, represented by 0° latitude and 0° longitude, lies in the Gulf of Guinea in the Atlantic Ocean.",
+   "ty": "fact",
+   "tq": "Locate the intersection of the two zero-degree reference lines.",
+   "sec": "Graticule - parallels at 1°, great vs small circles, valid coordinates, 0°-0° point"
+  },
+  {
+   "s": "The term ‘geoid’ most appropriately refers to the Earth as",
+   "o": [
+    "a flat disc surrounded by oceans",
+    "a perfect sphere with uniform radius",
+    "an earth-shaped body with an irregular gravitational surface",
+    "a regular cylinder flattened at the Equator"
+   ],
+   "a": 2,
+   "x": "Geoid means ‘earth-shaped’ and represents the irregular shape of the Earth more realistically than a perfect sphere.",
+   "ty": "fact",
+   "tq": "Choose the precise scientific meaning of the geographical term.",
+   "sec": "Shape of the earth - geoid, oblate spheroid, evidences, nearest point to centre"
+  },
+  {
+   "s": "An oblate spheroid is characterised by",
+   "o": [
+    "flattening at the Equator and bulging at the poles",
+    "a pointed shape at both poles",
+    "equal polar and equatorial radii",
+    "flattening at the poles and bulging at the Equator"
+   ],
+   "a": 3,
+   "x": "The Earth is approximately an oblate spheroid: it is flattened at the poles and bulges at the Equator.",
+   "ty": "confusable",
+   "tq": "Avoid reversing the two defining features of an oblate spheroid.",
+   "sec": "Shape of the earth - geoid, oblate spheroid, evidences, nearest point to centre"
+  },
+  {
+   "s": "Which of the following provides evidence for the spherical shape of the Earth?\n1. The mast of an approaching ship is seen before the lower part of the ship.\n2. The Earth casts a circular shadow during a lunar eclipse.\n3. The Earth can be circumnavigated.\n4. Satellite images show the Earth as spherical.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The sequence of visibility of an approaching ship, the circular lunar-eclipse shadow, circumnavigation and satellite imagery all support the spherical nature of the Earth.",
+   "ty": "statements",
+   "tq": "Recognise multiple independent evidences rather than selecting only the classical one.",
+   "sec": "Shape of the earth - geoid, oblate spheroid, evidences, nearest point to centre"
+  },
+  {
+   "s": "Which point on the Earth's surface is nearest to the Earth's centre?",
+   "o": [
+    "A point near the Equator",
+    "The summit of a high equatorial mountain",
+    "A point near the Tropic of Capricorn",
+    "The Arctic Ocean floor near the North Pole"
+   ],
+   "a": 3,
+   "x": "The polar radius is shortest; therefore, the surface point nearest the Earth's centre is near the poles, specifically the Arctic Ocean floor near the North Pole.",
+   "ty": "application",
+   "tq": "Apply the difference between polar and equatorial radii to a location question.",
+   "sec": "Shape of the earth - geoid, oblate spheroid, evidences, nearest point to centre"
+  },
+  {
+   "s": "Consider the following statements regarding the effect of melting ice on the Earth's rotation:\n1. Melting ice moves mass towards the Equator.\n2. It increases the equatorial bulge.\n3. It slows the Earth's rotation.\n4. It lengthens the day by approximately 1.33 milliseconds per century.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Melting ice redistributes mass towards the Equator, enhances the equatorial bulge, slows rotation and lengthens the day by about 1.33 milliseconds per century.",
+   "ty": "statements",
+   "tq": "Follow the complete cause-effect chain instead of isolating only the numerical result.",
+   "sec": "Shape of the earth - geoid, oblate spheroid, evidences, nearest point to centre"
+  },
+  {
+   "s": "Which institution is building a Geoid Model for the whole of India for precise GPS/GNSS-based heights?",
+   "o": [
+    "International Meridian Conference",
+    "Survey of India",
+    "African Union",
+    "United Nations General Assembly"
+   ],
+   "a": 1,
+   "x": "The Survey of India is building a Geoid Model for the whole country to support precise GPS/GNSS-based height determination.",
+   "ty": "fact",
+   "tq": "Identify the institution associated with the specific technical function.",
+   "sec": "Shape of the earth - geoid, oblate spheroid, evidences, nearest point to centre"
+  },
+  {
+   "s": "The Prime Meridian was fixed at the International Meridian Conference held in",
+   "o": [
+    "1569",
+    "1884",
+    "2018",
+    "2025"
+   ],
+   "a": 1,
+   "x": "The Prime Meridian passing through Greenwich was fixed at the International Meridian Conference in 1884.",
+   "ty": "numerical",
+   "tq": "Match the historical event with its correct year rather than a nearby map-projection date.",
+   "sec": "Longitudes - Prime Meridian, degree-to-distance relation"
+  },
+  {
+   "s": "Which one of the following correctly describes the variation in the distance represented by one degree of longitude?",
+   "o": [
+    "It is zero at the Equator and maximum at the poles.",
+    "It is approximately 111 km everywhere, including the poles.",
+    "It is approximately 111 km at the Equator, about 55.5 km at 60° latitude and zero at the poles.",
+    "It remains approximately 55.5 km at all latitudes."
+   ],
+   "a": 2,
+   "x": "The distance represented by one degree of longitude decreases towards the poles because meridians converge: it is about 111 km at the Equator, 55.5 km at 60° and zero at the poles.",
+   "ty": "comparison",
+   "tq": "Track the directional change in longitudinal distance with latitude.",
+   "sec": "Longitudes - Prime Meridian, degree-to-distance relation"
+  },
+  {
+   "s": "One degree of latitude represents approximately",
+   "o": [
+    "55.5 km everywhere",
+    "90 km everywhere",
+    "180 km everywhere",
+    "111 km everywhere"
+   ],
+   "a": 3,
+   "x": "One degree of latitude is approximately 111 km everywhere on the Earth.",
+   "ty": "numerical",
+   "tq": "Distinguish the nearly constant latitude distance from the changing longitude distance.",
+   "sec": "Longitudes - Prime Meridian, degree-to-distance relation"
+  },
+  {
+   "s": "Which of the following statements about the Mercator projection is correct?\n1. It was developed by Gerardus Mercator in 1569.\n2. Meridians and parallels intersect at right angles.\n3. Rhumb lines appear as straight lines.\n4. Polar areas are enlarged in the projection.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The Mercator projection was developed by Gerardus Mercator in 1569. It has right-angled meridians and parallels, represents rhumb lines as straight lines and enlarges polar areas.",
+   "ty": "statements",
+   "tq": "Test the properties and historical attribution of a map projection together.",
+   "sec": "Longitudes - Prime Meridian, degree-to-distance relation"
+  },
+  {
+   "s": "Which one of the following is a criticism associated with the Mercator projection mentioned in geographical debates on map representation?",
+   "o": [
+    "It enlarges polar areas and makes Africa appear relatively smaller.",
+    "It represents all areas with exactly equal size.",
+    "It cannot represent meridians and parallels.",
+    "It completely removes the Equator from the map."
+   ],
+   "a": 0,
+   "x": "The Mercator projection enlarges polar areas and results in the relative shrinking of Africa.",
+   "ty": "negative",
+   "tq": "Select the valid criticism while rejecting absolute or reversed claims.",
+   "sec": "Longitudes - Prime Meridian, degree-to-distance relation"
+  },
+  {
+   "s": "Which organisation backed the ‘Correct the Map’ campaign associated with replacing the Mercator projection?",
+   "o": [
+    "African Union",
+    "World Bank",
+    "Survey of India",
+    "International Meridian Conference"
+   ],
+   "a": 0,
+   "x": "The African Union backed the ‘Correct the Map’ campaign, which highlighted distortions associated with the Mercator projection.",
+   "ty": "fact",
+   "tq": "Match a named campaign with the organisation that supported it.",
+   "sec": "Longitudes - Prime Meridian, degree-to-distance relation"
+  },
+  {
+   "s": "Consider the following statements about the proposed use of the Equal Earth projection:\n1. The Equal Earth projection was designed in 2018.\n2. The United Nations General Assembly adopted a non-binding resolution to replace the Mercator projection with it.\n3. India voted in favour of the resolution.\n4. The United States voted against it and six countries abstained.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The Equal Earth projection was designed in 2018. The non-binding resolution was supported by India, opposed by the United States and accompanied by six abstentions; it received 164 votes in favour.",
+   "ty": "statements",
+   "tq": "Check the date, institutional action, voting position and numerical voting detail together.",
+   "sec": "Longitudes - Prime Meridian, degree-to-distance relation"
+  },
+  {
+   "s": "The latitude and longitude extent of mainland India is approximately",
+   "o": [
+    "8°4′N–22°N and 68°7′E–97°25′E",
+    "8°4′N–37°6′N and 68°7′E–97°25′E",
+    "12°41′N–19°07′N and 77°E–84°40′E",
+    "6°45′N–37°6′N and 68°7′E–84°40′E"
+   ],
+   "a": 1,
+   "x": "Mainland India extends from 8°4′N to 37°6′N and from 68°7′E to 97°25′E. The other ranges refer to Andhra Pradesh, an overall southern extreme or an incorrect older figure.",
+   "ty": "fact",
+   "tq": "Keep national and State-level extent figures separate.",
+   "sec": "Latitude-longitude extent of India and AP mainland (extreme points)"
+  },
+  {
+   "s": "Which one of the following correctly gives the latitude and longitude extent of Andhra Pradesh?",
+   "o": [
+    "12°41′N–19°07′N and 77°E–84°40′E",
+    "6°45′N–19°07′N and 77°E–97°25′E",
+    "8°4′N–37°6′N and 68°7′E–97°25′E",
+    "12°41′N–22°N and 68°7′E–84°40′E"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh extends approximately from 12°41′N to 19°07′N latitude and from 77°E to 84°40′E longitude.",
+   "ty": "fact",
+   "tq": "Discriminate the State extent from the larger national range.",
+   "sec": "Latitude-longitude extent of India and AP mainland (extreme points)"
+  },
+  {
+   "s": "Consider the following statements regarding India:\n1. Its area is approximately 32,87,263 square kilometres.\n2. It is the seventh-largest country in area.\n3. Its north-south extent is about 3,214 km.\n4. Its east-west extent is about 2,933 km.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "India has an area of approximately 32,87,263 square kilometres, ranks seventh in area, and measures about 3,214 km north-south and 2,933 km east-west.",
+   "ty": "statements",
+   "tq": "Verify a cluster of national size and ranking figures without dropping the final item.",
+   "sec": "Latitude-longitude extent of India and AP mainland (extreme points)"
+  },
+  {
+   "s": "Which one of the following correctly matches an Indian extreme point with its location?",
+   "o": [
+    "Easternmost point — Guhar Moti in Gujarat",
+    "Westernmost point — Kibithu in Arunachal Pradesh",
+    "Southernmost mainland point — Indira Point in Great Nicobar",
+    "Northernmost point — Indira Col in the Karakoram"
+   ],
+   "a": 3,
+   "x": "Indira Col in the Karakoram is the northern extreme of India. Kanyakumari is the southernmost mainland point, Indira Point is the overall southernmost point, Kibithu is easternmost and Guhar Moti is westernmost.",
+   "ty": "negative",
+   "tq": "Use direction-place matching to reject swapped extreme points.",
+   "sec": "Latitude-longitude extent of India and AP mainland (extreme points)"
+  },
+  {
+   "s": "Which of the following statements about Andhra Pradesh is correct?\n1. Its area is approximately 1,62,970 square kilometres.\n2. It is ranked as the eighth-largest State by area.\n3. Its coastline is approximately 1,053.07 km long according to the 2025–26 survey analysis.\n4. It had 28 districts in 2025.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh covers about 1,62,970 square kilometres, is ranked eighth by area, has a coastline of about 1,053.07 km in the 2025–26 survey analysis and had 28 districts in 2025.",
+   "ty": "statements",
+   "tq": "Combine current State-level numerical facts while avoiding outdated rankings.",
+   "sec": "Latitude-longitude extent of India and AP mainland (extreme points)"
+  },
+  {
+   "s": "Which one of the following correctly states the changes in the number of districts of Andhra Pradesh referred to for the respective years?",
+   "o": [
+    "13 in 2014, 26 in 2022 and 28 in 2025",
+    "26 in 2014, 13 in 2022 and 28 in 2025",
+    "13 in 2014, 28 in 2022 and 26 in 2025",
+    "28 in 2014, 26 in 2022 and 13 in 2025"
+   ],
+   "a": 0,
+   "x": "The number of districts was 13 in 2014, 26 in 2022 and 28 in 2025.",
+   "ty": "numerical",
+   "tq": "Arrange changing administrative figures in their correct year sequence.",
+   "sec": "Latitude-longitude extent of India and AP mainland (extreme points)"
+  },
+  {
+   "s": "The Standard Meridian of India, 82.5°E, passes through which district of Andhra Pradesh?",
+   "o": [
+    "Kibithu district",
+    "Kakinada district",
+    "Guhar Moti district",
+    "Indira Point district"
+   ],
+   "a": 1,
+   "x": "The 82.5°E meridian used for Indian Standard Time passes through Kakinada district in Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Match the standard meridian with its State-level location.",
+   "sec": "Latitude-longitude extent of India and AP mainland (extreme points)"
+  },
+  {
+   "s": "Which one of the following statements regarding Andhra Pradesh's coastline is correct?",
+   "o": [
+    "It is approximately 1,62,970 km and ranks eighth among Indian States.",
+    "It is approximately 974 km and ranks fourth among Indian States.",
+    "It is approximately 1,053.07 km and ranks third among Indian States according to the 2025–26 survey analysis.",
+    "It is approximately 2,933 km and ranks first among Indian States."
+   ],
+   "a": 2,
+   "x": "The 2025–26 survey analysis gives Andhra Pradesh a coastline of approximately 1,053.07 km, ranking it third. An earlier 2024–25 source had cited 974 km.",
+   "ty": "comparison",
+   "tq": "Prefer the specified current figure while distinguishing it from an older figure.",
+   "sec": "Latitude-longitude extent of India and AP mainland (extreme points)"
+  },
+  {
+   "s": "The antipode of the point 20°N, 80°E is",
+   "o": [
+    "80°S, 20°W",
+    "20°S, 100°W",
+    "20°S, 80°W",
+    "20°N, 100°W"
+   ],
+   "a": 1,
+   "x": "To find the antipode, change north to south and subtract the longitude from 180°. Thus, the antipode of 20°N, 80°E is 20°S, 100°W.",
+   "ty": "application",
+   "tq": "Apply the latitude reversal and the 180° longitude subtraction rule.",
+   "sec": "Antipodes and position-finding on the grid"
+  },
+  {
+   "s": "The antipode of a point located at x°N and y°E is represented by",
+   "o": [
+    "x°S, (180−y)°W",
+    "x°N, (180−y)°E",
+    "(180−x)°S, y°W",
+    "x°S, y°W"
+   ],
+   "a": 0,
+   "x": "The antipode of x°N, y°E is x°S, (180−y)°W. Antipodes are diametrically opposite points on the Earth's surface.",
+   "ty": "fact",
+   "tq": "Recall the general transformation rule rather than relying only on the example.",
+   "sec": "Antipodes and position-finding on the grid"
+  }
+ ]
+}

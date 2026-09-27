@@ -1,0 +1,384 @@
+{
+ "book": 4,
+ "row": 10,
+ "chunk": 0,
+ "section": "Earthquakes - causes, seismic waves, measurement, distribution, effects",
+ "subsections": [
+  "Measurement - magnitude vs intensity, scales and instruments",
+  "Focus (hypocentre) vs epicentre",
+  "Causes - plate boundary, intraplate, reservoir-induced, volcanic"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 27,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly distinguishes the magnitude of an earthquake from its intensity?",
+   "o": [
+    "Magnitude denotes observed damage at a place, whereas intensity denotes energy released at the focus",
+    "Magnitude varies from place to place, whereas intensity has one value for the entire earthquake",
+    "Magnitude denotes energy released at the focus, whereas intensity denotes the observed effects at a particular place",
+    "Both magnitude and intensity denote the energy released at the focus"
+   ],
+   "a": 2,
+   "x": "Magnitude is the quantitative measure of energy released at the focus and has one value for an earthquake. Intensity is the qualitative measure of observed effects at a particular place and varies with distance from the epicentre.",
+   "ty": "comparison",
+   "tq": "Split the options by matching each term with its defining measure.",
+   "sec": "■ Measurement - magnitude vs intensity, scales and instruments  [APPSC]"
+  },
+  {
+   "s": "With reference to earthquake measurement, consider the following statements:\n1. The Richter scale was developed by Charles F. Richter in 1935.\n2. The Richter scale is used to measure earthquake intensity.\n3. Moment magnitude is based on the rupture area of the fault and the size of seismic waves.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Statements 1 and 3 are correct. The Richter scale measures magnitude, not intensity; intensity is measured using scales such as Modified Mercalli and MSK.",
+   "ty": "statements",
+   "tq": "Use the magnitude–intensity distinction to reject the swapped measurement statement.",
+   "sec": "■ Measurement - magnitude vs intensity, scales and instruments  [APPSC]"
+  },
+  {
+   "s": "An earthquake increases from magnitude 5 to magnitude 6 on the Richter scale. Which one of the following best describes the change?",
+   "o": [
+    "Its wave amplitude becomes 6 times and energy becomes 36 times",
+    "Its wave amplitude becomes 31 times and energy released becomes 10 times",
+    "Its wave amplitude becomes 10 times and energy released becomes approximately 31 times",
+    "Both its wave amplitude and energy released become 10 times"
+   ],
+   "a": 2,
+   "x": "An increase of one magnitude unit on the Richter scale represents a tenfold increase in wave amplitude and an approximately 31-fold increase in energy released.",
+   "ty": "numerical",
+   "tq": "Separate the amplitude factor from the energy factor instead of treating both as identical.",
+   "sec": "■ Measurement - magnitude vs intensity, scales and instruments  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding the scales used for earthquake measurement is correct?",
+   "o": [
+    "Modified Mercalli and MSK scales measure magnitude from I to XII",
+    "Moment magnitude is a qualitative scale based only on building damage",
+    "The Richter scale measures intensity from I to XII",
+    "Modified Mercalli and MSK scales measure intensity from I to XII"
+   ],
+   "a": 3,
+   "x": "Modified Mercalli and MSK are qualitative intensity scales, each ranging from I to XII. Richter and moment magnitude are magnitude scales.",
+   "ty": "fact",
+   "tq": "Discriminate between quantitative magnitude scales and qualitative intensity scales.",
+   "sec": "■ Measurement - magnitude vs intensity, scales and instruments  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is the most appropriate reason for the increasing use of the moment magnitude scale for strong earthquakes?",
+   "o": [
+    "It is restricted to shallow crustal earthquakes",
+    "It records only the time at which shaking begins",
+    "It is based on fault rupture area and seismic-wave size and is suitable for strong earthquakes",
+    "It measures only the damage caused to buildings near the epicentre"
+   ],
+   "a": 2,
+   "x": "Moment magnitude is based on the rupture area of the fault and the size of seismic waves. It has largely replaced the Richter scale for strong earthquakes.",
+   "ty": "application",
+   "tq": "Identify the instrument or scale by asking what physical quantity it actually measures.",
+   "sec": "■ Measurement - magnitude vs intensity, scales and instruments  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below.\n\nList-I (Instrument)\na. Seismograph\nb. Seismometer\nc. Seismoscope\nd. Tiltmeter\n\nList-II (Function)\ni. Sensor used in a seismograph\nii. Shows that a tremor occurred and records its time\niii. Records and measures earthquakes\niv. Measures ground tilt at faults and volcanoes",
+   "o": [
+    "a–iii, b–i, c–ii, d–iv",
+    "a–i, b–iii, c–iv, d–ii",
+    "a–iii, b–ii, c–i, d–iv",
+    "a–iv, b–i, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "A seismograph records and measures earthquakes; a seismometer is its sensor; a seismoscope only indicates that a tremor occurred and its time; and a tiltmeter measures ground tilt.",
+   "ty": "match",
+   "tq": "Start from the sure instrument–function pair and eliminate codes containing mismatches.",
+   "sec": "■ Measurement - magnitude vs intensity, scales and instruments  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the function of a creepmeter?",
+   "o": [
+    "It shows only the time at which a tremor occurred",
+    "It measures the tilt of volcanic ground",
+    "It measures the slow slip or creep along a fault",
+    "It records the energy released at the earthquake focus"
+   ],
+   "a": 2,
+   "x": "A creepmeter is used to measure slow slip, or creep, along a fault. Ground tilt is measured by a tiltmeter, while a seismoscope only indicates occurrence and time of a tremor.",
+   "ty": "fact",
+   "tq": "Use confusable-instrument discrimination by matching each device with its specific function.",
+   "sec": "■ Measurement - magnitude vs intensity, scales and instruments  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about earthquake prediction is correct?",
+   "o": [
+    "Earthquakes are accurately predicted through the Richter scale",
+    "Earthquakes still cannot be predicted accurately",
+    "Earthquakes can be predicted accurately only in stable continental regions",
+    "Earthquakes can currently be predicted accurately for a precise time and place"
+   ],
+   "a": 1,
+   "x": "Despite monitoring and seismological research, earthquakes cannot yet be predicted accurately in terms of their precise time, location and magnitude.",
+   "ty": "fact",
+   "tq": "Reject the extreme claim that a measurement scale can provide precise prediction.",
+   "sec": "■ Measurement - magnitude vs intensity, scales and instruments  [APPSC]"
+  },
+  {
+   "s": "The point inside the Earth where an earthquake rupture begins and energy is released is known as the",
+   "o": [
+    "seismic gap",
+    "epicentre",
+    "fault scarp",
+    "focus or hypocentre"
+   ],
+   "a": 3,
+   "x": "The focus, also called the hypocentre, is the point of origin of the rupture inside the Earth. The epicentre is the corresponding point on the surface directly above it.",
+   "ty": "fact",
+   "tq": "Apply the inside-versus-surface distinction to separate focus from epicentre.",
+   "sec": "■ Focus (hypocentre) vs epicentre  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. The epicentre is located on the Earth's surface directly above the focus.\n2. Shaking is generally strongest at the epicentre.\n3. The focus is necessarily located at the Earth's surface.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. The focus is an underground point where rupture begins and may be shallow or deep; it is not located at the surface.",
+   "ty": "statements",
+   "tq": "Find the false statement by testing the precise location of the focus.",
+   "sec": "■ Focus (hypocentre) vs epicentre  [APPSC]"
+  },
+  {
+   "s": "Which one of the following depth ranges is typical of ordinary crustal earthquakes?",
+   "o": [
+    "1–5 km",
+    "40–59 km",
+    "10–29 km",
+    "80–100 km"
+   ],
+   "a": 2,
+   "x": "Typical crustal earthquakes begin at depths of about 10–29 km. Earthquakes beginning 80 km or more below the Moho are rare continental mantle earthquakes.",
+   "ty": "numerical",
+   "tq": "Use the depth-range distinction to separate ordinary crustal events from rare mantle events.",
+   "sec": "■ Focus (hypocentre) vs epicentre  [APPSC]"
+  },
+  {
+   "s": "Rare continental mantle earthquakes differ from ordinary crustal earthquakes in that they generally begin",
+   "o": [
+    "10–29 km below the surface",
+    "at the surface above the epicentre",
+    "80 km or more below the Moho",
+    "only along divergent plate boundaries"
+   ],
+   "a": 2,
+   "x": "Rare continental mantle earthquakes originate 80 km or more below the Moho, whereas ordinary crustal earthquakes commonly begin at depths of about 10–29 km.",
+   "ty": "confusable",
+   "tq": "Compare the two depth categories before selecting the deeper origin.",
+   "sec": "■ Focus (hypocentre) vs epicentre  [APPSC]"
+  },
+  {
+   "s": "Arrange the following earthquake-producing settings from the examples given in the correct sequence of boundary type and example:\nA. Divergent boundary — Mid-Atlantic Ridge\nB. Convergent boundary — Himalaya\nC. Transform boundary — San Andreas Fault\nD. Volcanic activity — rising magma fracturing rocks",
+   "o": [
+    "A, B, C, D",
+    "B, A, D, C",
+    "C, B, A, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The sequence lists the divergent, convergent and transform examples followed by the volcanic mechanism. The Mid-Atlantic Ridge, Himalaya and San Andreas represent the three major plate-boundary settings.",
+   "ty": "chronology",
+   "tq": "Match each named example to its process before selecting the sequence.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Transform boundary — San Andreas Fault",
+    "Divergent boundary — Mid-Atlantic Ridge",
+    "Convergent boundary — Himalaya",
+    "Transform boundary — Ring of Fire"
+   ],
+   "a": 3,
+   "x": "The Ring of Fire is associated mainly with volcanic and convergent-margin activity, not with the San Andreas-type transform setting. The San Andreas Fault is the transform-boundary example.",
+   "ty": "negative",
+   "tq": "Find the incorrectly assigned boundary type rather than choosing a familiar place name.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "What is the immediate geological process at a tectonic earthquake source?",
+   "o": [
+    "Stress on a fault exceeds rock strength and the rocks rupture",
+    "The weight of ocean water dissolves the crust",
+    "The Earth's magnetic field reverses suddenly",
+    "Sediments settle in a basin and generate tides"
+   ],
+   "a": 0,
+   "x": "A tectonic earthquake occurs when stress accumulated on a fault exceeds the strength of the rocks, causing rupture and the release of seismic waves.",
+   "ty": "application",
+   "tq": "Identify the cause-and-effect chain linking stress, rupture and seismic waves.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "Which of the following are examples of intraplate earthquakes associated with hidden faults in relatively stable continental regions?\n1. Latur\n2. Koyna\n3. Jabalpur\n4. San Andreas\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Latur, Koyna and Jabalpur are examples of intraplate earthquakes associated with hidden faults in stable regions. San Andreas is a transform plate-boundary fault.",
+   "ty": "statements",
+   "tq": "Separate stable-region intraplate examples from a well-known plate-boundary example.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "The 1993 Latur earthquake is significant in the study of earthquake causes because it demonstrated that",
+   "o": [
+    "earthquakes may occur in stable regions along hidden faults",
+    "earthquakes occur only at convergent plate boundaries",
+    "all intraplate earthquakes are caused by volcanic eruptions",
+    "stable continental regions cannot experience damaging earthquakes"
+   ],
+   "a": 0,
+   "x": "The Latur earthquake occurred far from a plate boundary and showed that stable continental regions can experience earthquakes along concealed or old faults.",
+   "ty": "fact",
+   "tq": "Use the exception to the plate-boundary rule as the deciding clue.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is regarded as India's classic example of a reservoir-induced earthquake?",
+   "o": [
+    "Koyna, 1967",
+    "Latur, 1993",
+    "Jabalpur, 1997",
+    "Bhuj, 2001"
+   ],
+   "a": 0,
+   "x": "The Koyna earthquake of 1967 is the classic Indian example of reservoir-induced seismicity, associated with the filling and weight of a large reservoir.",
+   "ty": "fact",
+   "tq": "Link the named event and year with the specific earthquake mechanism.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "Reservoir-induced seismicity is most directly associated with which of the following?",
+   "o": [
+    "The cooling of lava after a volcanic eruption",
+    "Only the movement of oceanic plates at mid-ocean ridges",
+    "The seasonal expansion of desert sand",
+    "Filling of large reservoirs and the weight of stored water"
+   ],
+   "a": 3,
+   "x": "The filling of large reservoirs adds water load and can alter stresses and pore pressures in the crust. The Koyna case is the classic example.",
+   "ty": "application",
+   "tq": "Identify the human-induced change that alters crustal stress and pore pressure.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "Which of the following activities may also induce earthquakes, usually of low magnitude?\n1. Mining\n2. Hydraulic fracturing\n3. Filling of large reservoirs\n4. Movement along the San Andreas Fault\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Mining and hydraulic fracturing are other induced causes, generally producing low-magnitude earthquakes. Reservoir filling is another induced cause, whereas San Andreas movement is tectonic.",
+   "ty": "statements",
+   "tq": "Group the human-induced causes and exclude the natural transform-boundary example.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly explains a volcanic earthquake?",
+   "o": [
+    "It results from the conversion of intensity into magnitude",
+    "It is caused by rising magma fracturing rocks or the collapse of volcanic structures",
+    "It occurs only in stable continental shields far from volcanoes",
+    "It results exclusively from the weight of a reservoir"
+   ],
+   "a": 1,
+   "x": "Volcanic earthquakes can result when rising magma fractures surrounding rocks or when volcanic structures collapse.",
+   "ty": "fact",
+   "tq": "Choose the option containing both parts of the volcanic mechanism.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "A seismic doublet is best described as",
+   "o": [
+    "two volcanic eruptions separated by a long interval",
+    "two independent earthquakes of similar magnitude occurring close together in time and space",
+    "a main shock followed by aftershocks that gradually become weaker",
+    "two waves arriving at the epicentre at exactly the same time"
+   ],
+   "a": 1,
+   "x": "A seismic doublet consists of two independent earthquakes of similar magnitude occurring in quick succession and close together. This differs from an aftershock sequence, which generally tapers off.",
+   "ty": "confusable",
+   "tq": "Distinguish a doublet from the familiar mainshock–aftershock pattern by focusing on independence and similarity of magnitude.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly relates the Venezuelan seismic doublet to its characteristics?",
+   "o": [
+    "A single magnitude 7.5 earthquake occurred along the Mid-Atlantic Ridge",
+    "Two reservoir-induced earthquakes occurred at Koyna in 1967",
+    "Two earthquakes of magnitudes 7.1 and 7.5 occurred close together on the Caribbean–South American strike-slip boundary",
+    "A magnitude 5.1 earthquake was followed by a volcanic eruption in the Himalaya"
+   ],
+   "a": 2,
+   "x": "The Venezuelan seismic doublet consisted of earthquakes of magnitude 7.1 and 7.5 in quick succession near the Caribbean–South American strike-slip boundary.",
+   "ty": "fact",
+   "tq": "Combine the event’s magnitudes, location and boundary type to identify the complete match.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "The reported death toll associated with the Venezuelan seismic doublet was",
+   "o": [
+    "189",
+    "389",
+    "589",
+    "789"
+   ],
+   "a": 2,
+   "x": "The reported toll associated with the Venezuelan seismic doublet was 589 deaths.",
+   "ty": "numerical",
+   "tq": "Use the exact numerical recall required for a current-affairs-linked geographical event.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "Seismic seiches are",
+   "o": [
+    "slow slips along transform faults",
+    "deep-focus earthquakes below the Moho",
+    "standing waves in rivers, reservoirs and ponds",
+    "waves generated only by volcanic ash"
+   ],
+   "a": 2,
+   "x": "Seismic seiches are standing waves that may develop in enclosed or partly enclosed water bodies such as rivers, reservoirs and ponds. They were reported during the Myanmar earthquake.",
+   "ty": "fact",
+   "tq": "Distinguish a water-body phenomenon from earthquake source types and fault movements.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  },
+  {
+   "s": "During which event were seismic seiches reported in rivers, reservoirs and ponds?",
+   "o": [
+    "The 1993 Latur earthquake",
+    "The Myanmar earthquake",
+    "The 1967 Koyna earthquake",
+    "The 2001 Bhuj earthquake"
+   ],
+   "a": 1,
+   "x": "Seismic seiches were reported during the Myanmar earthquake. They are standing waves in water bodies triggered by seismic shaking.",
+   "ty": "fact",
+   "tq": "Link the observed secondary phenomenon to the specific earthquake event.",
+   "sec": "■ Causes - plate boundary, intraplate, reservoir-induced, volcanic  [APPSC]"
+  }
+ ]
+}

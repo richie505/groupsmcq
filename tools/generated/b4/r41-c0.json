@@ -1,0 +1,457 @@
+{
+ "book": 4,
+ "row": 41,
+ "chunk": 0,
+ "section": "India - national parks, wildlife sanctuaries, biosphere reserves, conservation reserves",
+ "subsections": [
+  "National parks → state/UT and landscape",
+  "Biosphere reserves → state and UNESCO MAB status",
+  "FIRST and order of establishment",
+  "Protected area counts - states with most NPs, PA share of area",
+  "Natural World Heritage Sites of India",
+  "World-famous national parks → country and feature"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following National Parks is located in Maharashtra and is associated with the Chandrapur district?",
+   "o": [
+    "Dudhwa National Park",
+    "Tadoba-Andhari National Park",
+    "Kanha National Park",
+    "Pench National Park"
+   ],
+   "a": 1,
+   "x": "Tadoba-Andhari National Park is located in Maharashtra’s Chandrapur district and has a dry deciduous landscape.",
+   "ty": "fact",
+   "tq": "Use the state–district pair to identify the protected area.",
+   "sec": "National parks → state/UT and landscape  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Corbett National Park — Shivalik-terai landscape\n2. Dudhwa National Park — Terai grassland\n3. Dachigam National Park — Hangul\n4. Campbell Bay National Park — Tropical evergreen island forest\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Corbett lies in the Shivalik-terai landscape, Dudhwa is a terai grassland park, Dachigam is known for Hangul, and Campbell Bay has tropical evergreen island forest.",
+   "ty": "statements",
+   "tq": "Verify each landscape or flagship-species association before selecting the coded combination.",
+   "sec": "National parks → state/UT and landscape  [APPSC]"
+  },
+  {
+   "s": "Pench National Park, extending across Madhya Pradesh and Maharashtra, is associated with which literary work?",
+   "o": [
+    "Around the World in Eighty Days",
+    "The Jungle Book",
+    "The Origin of Species",
+    "The Call of the Wild"
+   ],
+   "a": 1,
+   "x": "Pench National Park, located in Madhya Pradesh and Maharashtra, inspired Rudyard Kipling’s The Jungle Book.",
+   "ty": "fact",
+   "tq": "Link the distinctive cultural association with the geographical location.",
+   "sec": "National parks → state/UT and landscape  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Kanha National Park — Madhya Pradesh",
+    "Neora Valley National Park — Kalimpong, West Bengal",
+    "Bandipur National Park — Karnataka",
+    "Keoladeo National Park — Alwar, Rajasthan"
+   ],
+   "a": 3,
+   "x": "Keoladeo National Park is in Bharatpur, Rajasthan, not Alwar. Sariska National Park is associated with Alwar.",
+   "ty": "negative",
+   "tq": "Detect the wrong location by separating the two Rajasthan parks.",
+   "sec": "National parks → state/UT and landscape  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Dachigam — Hangul",
+    "Kanha — Great Indian Bustard",
+    "Dudhwa — Nilgiri tahr",
+    "Campbell Bay — Barasingha"
+   ],
+   "a": 0,
+   "x": "Dachigam National Park in Jammu and Kashmir is noted for the Hangul, or Kashmir stag.",
+   "ty": "match",
+   "tq": "Start with the sure flagship-species association.",
+   "sec": "National parks → state/UT and landscape  [APPSC]"
+  },
+  {
+   "s": "Which one of the following national parks is located in the Union Territory of Andaman and Nicobar Islands?",
+   "o": [
+    "Neora Valley National Park",
+    "Sariska National Park",
+    "Campbell Bay National Park",
+    "Dachigam National Park"
+   ],
+   "a": 2,
+   "x": "Campbell Bay National Park is located in Great Nicobar in the Andaman and Nicobar Islands.",
+   "ty": "fact",
+   "tq": "Identify the Union Territory location from the island landscape clue.",
+   "sec": "National parks → state/UT and landscape  [APPSC]"
+  },
+  {
+   "s": "The Nilgiri Biosphere Reserve extends across which combination of States?",
+   "o": [
+    "Tamil Nadu, Andhra Pradesh and Odisha",
+    "Tamil Nadu, Kerala and Karnataka",
+    "Karnataka, Andhra Pradesh and Telangana",
+    "Kerala, Goa and Maharashtra"
+   ],
+   "a": 1,
+   "x": "The Nilgiri Biosphere Reserve extends across Tamil Nadu, Kerala and Karnataka.",
+   "ty": "fact",
+   "tq": "Recall the multi-State extent rather than a single-State location.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Nokrek Biosphere Reserve — Meghalaya\n2. Simlipal Biosphere Reserve — Odisha\n3. Khangchendzonga Biosphere Reserve — Sikkim\n4. Seshachalam Biosphere Reserve — Andhra Pradesh\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Nokrek is in Meghalaya, Simlipal in Odisha, Khangchendzonga in Sikkim and Seshachalam in Andhra Pradesh.",
+   "ty": "statements",
+   "tq": "Check each biosphere reserve against its State before using the coded option.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "Which of the following biosphere reserves is located in Arunachal Pradesh?",
+   "o": [
+    "Dehang-Dibang",
+    "Pachmarhi",
+    "Great Rann of Kutch",
+    "Achanakmar-Amarkantak"
+   ],
+   "a": 0,
+   "x": "Dehang-Dibang Biosphere Reserve is located in Arunachal Pradesh.",
+   "ty": "fact",
+   "tq": "Use elimination among reserves associated with central and western India.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "Which one of the following biosphere reserves is spread across Madhya Pradesh and Chhattisgarh?",
+   "o": [
+    "Pachmarhi",
+    "Panna",
+    "Achanakmar-Amarkantak",
+    "Nokrek"
+   ],
+   "a": 2,
+   "x": "Achanakmar-Amarkantak Biosphere Reserve extends across Madhya Pradesh and Chhattisgarh.",
+   "ty": "fact",
+   "tq": "Distinguish a multi-State biosphere reserve from single-State central Indian reserves.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "Which of the following biosphere reserves was included in UNESCO’s World Network of Biosphere Reserves in 2018?",
+   "o": [
+    "Panna",
+    "Great Nicobar",
+    "Agasthyamalai",
+    "Khangchendzonga"
+   ],
+   "a": 3,
+   "x": "Khangchendzonga Biosphere Reserve of Sikkim was included in UNESCO’s World Network in 2018.",
+   "ty": "numerical",
+   "tq": "Match the year of international recognition with the reserve.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Panna — UNESCO World Network, 2020",
+    "Agasthyamalai — UNESCO World Network, 2016",
+    "Achanakmar-Amarkantak — UNESCO World Network, 2012",
+    "Seshachalam — UNESCO World Network, 2010"
+   ],
+   "a": 3,
+   "x": "Seshachalam Biosphere Reserve was established in 2010 but is not in UNESCO’s World Network of Biosphere Reserves.",
+   "ty": "negative",
+   "tq": "Separate the year of designation from the year of UNESCO recognition.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "As of the stated count, how many biosphere reserves are included in UNESCO’s World Network of Biosphere Reserves?",
+   "o": [
+    "5",
+    "13",
+    "18",
+    "21"
+   ],
+   "a": 1,
+   "x": "India has 18 biosphere reserves, of which 13 are included in UNESCO’s World Network and five are not yet included.",
+   "ty": "numerical",
+   "tq": "Distinguish the total number from the internationally recognised subset.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT among the five Indian biosphere reserves that are not yet included in UNESCO’s World Network?",
+   "o": [
+    "Seshachalam",
+    "Manas",
+    "Dibru-Saikhowa",
+    "Agasthyamalai"
+   ],
+   "a": 3,
+   "x": "Agasthyamalai is included in UNESCO’s World Network, since it received recognition in 2016. The five not yet included are Manas, Dibru-Saikhowa, Dehang-Dibang, Great Rann of Kutch and Seshachalam.",
+   "ty": "negative",
+   "tq": "Find the exception by recalling the complete list of non-WNBR reserves.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "The Cold Desert Biosphere Reserve is located in which State?",
+   "o": [
+    "Sikkim",
+    "Himachal Pradesh",
+    "Uttarakhand",
+    "Arunachal Pradesh"
+   ],
+   "a": 1,
+   "x": "The Cold Desert Biosphere Reserve is located in Himachal Pradesh and includes areas such as Pin Valley National Park, Kibber Wildlife Sanctuary and Chandratal.",
+   "ty": "fact",
+   "tq": "Use the high-altitude cold-desert landscape to identify the State.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "The Cold Desert Biosphere Reserve was added to UNESCO’s Man and the Biosphere Network in which year?",
+   "o": [
+    "2020",
+    "2022",
+    "2024",
+    "2025"
+   ],
+   "a": 3,
+   "x": "The Cold Desert was added in September 2025 at the 37th MAB-ICC meeting in Hangzhou, becoming India’s 13th site in the network.",
+   "ty": "numerical",
+   "tq": "Use the precise recent year to distinguish the updated status from older information.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the funding pattern for biosphere reserves?",
+   "o": [
+    "100 per cent central funding for all biosphere reserves",
+    "60:40 for the North-Eastern States, and 90:10 for all other States",
+    "90:10 for the North-Eastern and three Himalayan States, and 60:40 for other States",
+    "Equal funding for all States"
+   ],
+   "a": 2,
+   "x": "The funding pattern is 90:10 for the North-Eastern States and three Himalayan States, and 60:40 for other States.",
+   "ty": "comparison",
+   "tq": "Compare the two funding ratios with the regional categories.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT a zone of a biosphere reserve?",
+   "o": [
+    "Extraction zone",
+    "Buffer zone",
+    "Transition zone",
+    "Core zone"
+   ],
+   "a": 0,
+   "x": "The three zones are core, buffer and transition. Extraction zone is not a recognised zone of a biosphere reserve.",
+   "ty": "negative",
+   "tq": "Identify the term outside the standard three-zone structure.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "The Seville Strategy associated with biosphere reserves was adopted in which year?",
+   "o": [
+    "1986",
+    "1992",
+    "1995",
+    "2001"
+   ],
+   "a": 2,
+   "x": "The Seville Strategy for biosphere reserves was adopted in 1995.",
+   "ty": "numerical",
+   "tq": "Distinguish the policy year from the establishment years of individual reserves.",
+   "sec": "Biosphere reserves → state and UNESCO MAB status  [APPSC]"
+  },
+  {
+   "s": "Arrange the following biosphere reserves in chronological order of establishment:\nA. Nilgiri\nB. Nanda Devi\nC. Gulf of Mannar\nD. Pachmarhi",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "Nilgiri was established in 1986, Nanda Devi in 1988, Gulf of Mannar in 1989 and Pachmarhi in 1999.",
+   "ty": "chronology",
+   "tq": "Fix the earliest item first, then arrange the remaining reserves by year.",
+   "sec": "FIRST and order of establishment  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is the smallest biosphere reserve in India by area?",
+   "o": [
+    "Dibru-Saikhowa",
+    "Seshachalam",
+    "Nokrek",
+    "Pachmarhi"
+   ],
+   "a": 0,
+   "x": "Dibru-Saikhowa is the smallest listed biosphere reserve by area, covering 765 square kilometres.",
+   "ty": "numerical",
+   "tq": "Identify the minimum value among the stated area comparisons.",
+   "sec": "FIRST and order of establishment  [APPSC]"
+  },
+  {
+   "s": "Which of the following categories has the highest stated number of protected areas in India?",
+   "o": [
+    "Community Reserves",
+    "Wildlife Sanctuaries",
+    "National Parks",
+    "Conservation Reserves"
+   ],
+   "a": 1,
+   "x": "India has 573 wildlife sanctuaries, compared with 109 national parks, 127 conservation reserves and 75 community reserves.",
+   "ty": "comparison",
+   "tq": "Compare the absolute counts across protected-area categories.",
+   "sec": "Protected area counts - states with most NPs, PA share of area  [APPSC]"
+  },
+  {
+   "s": "According to the stated 2026 counts, the number of National Parks and Wildlife Sanctuaries in India is respectively:",
+   "o": [
+    "127 and 573",
+    "109 and 100",
+    "109 and 688",
+    "109 and 573"
+   ],
+   "a": 3,
+   "x": "The stated counts are 109 National Parks and 573 Wildlife Sanctuaries. The figure 688 refers to the combined number of National Parks and Wildlife Sanctuaries in another cited count.",
+   "ty": "numerical",
+   "tq": "Keep category-wise figures separate from combined totals.",
+   "sec": "Protected area counts - states with most NPs, PA share of area  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with its stated count?",
+   "o": [
+    "Conservation Reserves — 127",
+    "Community Reserves — 127",
+    "Elephant Reserves — 58",
+    "Biosphere Reserves — 100"
+   ],
+   "a": 0,
+   "x": "The stated counts are 127 Conservation Reserves, 75 Community Reserves, 33 Elephant Reserves and 18 Biosphere Reserves.",
+   "ty": "match",
+   "tq": "Match each category with its exact count and reject the shifted figures.",
+   "sec": "Protected area counts - states with most NPs, PA share of area  [APPSC]"
+  },
+  {
+   "s": "According to the cited 29 July 2026 figure, Tiger Reserves span approximately what share of India’s area?",
+   "o": [
+    "1.6 per cent",
+    "2.6 per cent",
+    "3.6 per cent",
+    "5.6 per cent"
+   ],
+   "a": 1,
+   "x": "The cited figure states that Tiger Reserves span about 84,488 square kilometres, approximately 2.6 per cent of India’s area.",
+   "ty": "numerical",
+   "tq": "Use the percentage attached to the stated area rather than confusing it with another dataset.",
+   "sec": "Protected area counts - states with most NPs, PA share of area  [APPSC]"
+  },
+  {
+   "s": "Khangchendzonga National Park was inscribed as a World Heritage Site in which year?",
+   "o": [
+    "2012",
+    "2014",
+    "2016",
+    "2018"
+   ],
+   "a": 2,
+   "x": "Khangchendzonga National Park in Sikkim was inscribed in 2016 and is a mixed World Heritage Site.",
+   "ty": "numerical",
+   "tq": "Distinguish the inscription year from the biosphere-reserve recognition year.",
+   "sec": "Natural World Heritage Sites of India  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Great Himalayan National Park — Himachal Pradesh — 2014",
+    "Kaziranga National Park — Assam — 1985",
+    "Sundarbans National Park — West Bengal — 1987",
+    "Western Ghats — Seven States — 2012"
+   ],
+   "a": 3,
+   "x": "The Western Ghats World Heritage property extends across six States, not seven. It was inscribed in 2012.",
+   "ty": "negative",
+   "tq": "Check both the geographical extent and the inscription year in the long pair.",
+   "sec": "Natural World Heritage Sites of India  [APPSC]"
+  },
+  {
+   "s": "The World Heritage property comprising Nanda Devi and Valley of Flowers National Parks was initially inscribed in:",
+   "o": [
+    "1985",
+    "1988",
+    "2005",
+    "2012"
+   ],
+   "a": 1,
+   "x": "Nanda Devi and Valley of Flowers National Parks were inscribed in 1988; the property was extended in 2005.",
+   "ty": "numerical",
+   "tq": "Separate the original inscription year from the later extension year.",
+   "sec": "Natural World Heritage Sites of India  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Serengeti — Tanzania — Great wildebeest migration",
+    "Kruger — Canada — Rocky Mountains",
+    "Banff — South Africa — Big Five savanna",
+    "Yellowstone — Tanzania — geysers"
+   ],
+   "a": 0,
+   "x": "Serengeti National Park is in Tanzania and is famous for the great wildebeest migration.",
+   "ty": "match",
+   "tq": "Start with the distinctive animal or landscape feature and verify the country.",
+   "sec": "World-famous national parks → country and feature  [APPSC]"
+  },
+  {
+   "s": "Banff National Park is located in which country and is associated with which mountain system?",
+   "o": [
+    "South Africa — Drakensberg Mountains",
+    "Canada — Rocky Mountains",
+    "Tanzania — Eastern Arc Mountains",
+    "United States — Appalachian Mountains"
+   ],
+   "a": 1,
+   "x": "Banff National Park is in Canada and is located in the Rocky Mountains. It was Canada’s first national park, established in 1885.",
+   "ty": "fact",
+   "tq": "Combine the country and physical-landscape clues.",
+   "sec": "World-famous national parks → country and feature  [APPSC]"
+  },
+  {
+   "s": "Kruger National Park is famous as a:",
+   "o": [
+    "Wildebeest-migration park in Tanzania",
+    "Wetland bird park in Rajasthan",
+    "Big Five savanna park in South Africa",
+    "Geyser park in the United States"
+   ],
+   "a": 2,
+   "x": "Kruger National Park is located in South Africa and is known as a Big Five savanna park.",
+   "ty": "fact",
+   "tq": "Use the signature wildlife description to identify the park and country.",
+   "sec": "World-famous national parks → country and feature  [APPSC]"
+  }
+ ]
+}

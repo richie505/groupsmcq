@@ -1,0 +1,398 @@
+{
+ "book": 4,
+ "row": 67,
+ "chunk": 1,
+ "section": "Religious composition of India - distribution and change over decades",
+ "subsections": [
+  "Distribution - state with largest number of each minority, map-based minority regions",
+  "Change over decades - identifying a community from its decadal population series",
+  "States/UTs where a national minority is the majority - which religion where"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "The largest number of Christians in India is found in which State?",
+   "o": [
+    "Goa",
+    "Nagaland",
+    "Kerala",
+    "Mizoram"
+   ],
+   "a": 2,
+   "x": "Kerala has the largest number of Christians in India. Christians are also concentrated along the west coast, in the north-eastern hills and in the Chotanagpur region.",
+   "ty": "fact",
+   "tq": "Distinguish the State with the largest absolute number from States with a higher Christian percentage.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Punjab is associated with the largest number of which minority community in India?",
+   "o": [
+    "Buddhists",
+    "Jains",
+    "Sikhs",
+    "Christians"
+   ],
+   "a": 2,
+   "x": "Punjab has the largest number of Sikhs. Sikh concentration is mainly in Punjab, Haryana and Delhi.",
+   "ty": "fact",
+   "tq": "Use the community-State association and eliminate neighbouring concentration areas.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Buddhists — Maharashtra",
+    "Jains — Kerala",
+    "Christians — Punjab",
+    "Sikhs — Maharashtra"
+   ],
+   "a": 0,
+   "x": "Maharashtra has the largest number of Buddhists. Maharashtra, Sikkim, Arunachal Pradesh, Ladakh, Tripura and Lahul-Spiti are important Buddhist concentration areas.",
+   "ty": "match",
+   "tq": "Start from the sure community-State pair and reject swapped associations.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "The largest number of Jains in India is found in which State?",
+   "o": [
+    "Karnataka",
+    "Gujarat",
+    "Maharashtra",
+    "Rajasthan"
+   ],
+   "a": 2,
+   "x": "Maharashtra has the largest number of Jains. Important Jain concentration areas include urban Rajasthan, Gujarat and Maharashtra.",
+   "ty": "fact",
+   "tq": "Test absolute population size rather than the broader cultural concentration region.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Sikh concentration — Punjab, Haryana and Delhi",
+    "Christian concentration — North-eastern hills",
+    "Buddhist concentration — Ladakh",
+    "Jain concentration — Coastal Andhra"
+   ],
+   "a": 3,
+   "x": "Jains are concentrated mainly in urban Rajasthan, Gujarat and Maharashtra, not Coastal Andhra. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the one geographically misplaced concentration region.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Consider the following statements regarding the religious composition of India:\n1. Buddhists form the highest share of the population in Sikkim and Arunachal Pradesh.\n2. Sikhs constitute a majority only in Punjab.\n3. Jains have their highest population share in Maharashtra, Delhi and Gujarat.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Buddhist share is highest in Sikkim and Arunachal Pradesh; Punjab is the only Sikh-majority State; and Jain share is highest in Maharashtra, Delhi and Gujarat.",
+   "ty": "statements",
+   "tq": "Check each community against its highest share and majority status before selecting the coded combination.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Which of the following is the correct map-based association?",
+   "o": [
+    "North-eastern hills and Meghalaya — Christians",
+    "Ladakh and Sikkim — Christians",
+    "Punjab and Haryana — Buddhists",
+    "Chotanagpur and Goa — Sikhs"
+   ],
+   "a": 0,
+   "x": "The north-eastern hills, including Meghalaya, are important Christian concentration areas. Ladakh and Sikkim are associated mainly with Buddhist concentration, while Punjab and Haryana are Sikh concentration areas.",
+   "ty": "application",
+   "tq": "Apply regional mapping knowledge to distinguish neighbouring religious concentration belts.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "The concentration of Buddhists in Maharashtra is particularly associated with which event?",
+   "o": [
+    "The migration of Sikhs to Delhi",
+    "Ambedkar's mass conversion at Nagpur in 1956",
+    "The arrival of Arab merchants on the western coast",
+    "The spread of Christianity by Portuguese missionaries"
+   ],
+   "a": 1,
+   "x": "Maharashtra's large Buddhist population is linked to Dr B. R. Ambedkar's mass conversion at Nagpur in 1956.",
+   "ty": "fact",
+   "tq": "Link a distinctive demographic concentration with its stated historical cause.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Which one of the following statements regarding religious settlement patterns is correct?",
+   "o": [
+    "Sikhs are concentrated mainly in the north-eastern hills.",
+    "Jains are mainly concentrated in remote hill regions.",
+    "Muslims often live in majority neighbourhoods for reasons including security and cultural preservation.",
+    "Christians are predominantly urban in all concentration areas."
+   ],
+   "a": 2,
+   "x": "Muslims often live in majority neighbourhoods because of security concerns, cultural preservation and rental discrimination. Jains are associated mainly with urban trading communities, and Christians are mostly rural.",
+   "ty": "application",
+   "tq": "Use the social-geographical explanation rather than merely recalling a location.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Which one of the following correctly describes the majority status of religions in India?",
+   "o": [
+    "Sikhs are a majority in Punjab, Haryana and Delhi.",
+    "Christians are a majority in Nagaland, Mizoram and Meghalaya.",
+    "Muslims are a majority in Uttar Pradesh and Bihar.",
+    "Buddhists are a majority in Maharashtra and Sikkim."
+   ],
+   "a": 1,
+   "x": "Christians are a majority in Nagaland, Mizoram and Meghalaya. Sikhs are a majority only in Punjab, while Muslims are not a majority in Uttar Pradesh or Bihar and Buddhists do not form a majority in Maharashtra or Sikkim.",
+   "ty": "negative",
+   "tq": "Separate majority status from concentration or largest absolute population.",
+   "sec": "States/UTs where a national minority is the majority - which religion where"
+  },
+  {
+   "s": "Which one of the following Union Territories has a Muslim majority?",
+   "o": [
+    "Lakshadweep",
+    "Puducherry",
+    "Chandigarh",
+    "Delhi"
+   ],
+   "a": 0,
+   "x": "Lakshadweep has a Muslim majority of about 97 percent. Jammu and Kashmir also has a Muslim majority of about 68 percent.",
+   "ty": "fact",
+   "tq": "Identify the minority-majority Union Territory using the percentage clue.",
+   "sec": "States/UTs where a national minority is the majority - which religion where"
+  },
+  {
+   "s": "Consider the following statements:\n1. Jammu and Kashmir had a Muslim majority of about 68 percent according to the 2011 Census.\n2. Lakshadweep had a Muslim majority of about 97 percent.\n3. Punjab had a Sikh majority of about 58 percent.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct according to the stated 2011 Census-based figures.",
+   "ty": "statements",
+   "tq": "Verify the numerical majority figures individually before choosing the coded answer.",
+   "sec": "States/UTs where a national minority is the majority - which religion where"
+  },
+  {
+   "s": "Arrange the following States in descending order of the approximate share of the named majority religion indicated:\nA. Meghalaya — Christian\nB. Punjab — Sikh\nC. Mizoram — Christian\nD. Nagaland — Christian",
+   "o": [
+    "D, C, A, B",
+    "B, D, C, A",
+    "C, D, A, B",
+    "A, C, D, B"
+   ],
+   "a": 1,
+   "x": "The approximate shares are Punjab about 58 percent, Meghalaya about 75 percent, Mizoram about 87 percent and Nagaland about 88 percent. Therefore, the descending order is Nagaland, Mizoram, Meghalaya and Punjab.",
+   "ty": "chronology",
+   "tq": "Order the options by comparing the stated percentages from highest to lowest.",
+   "sec": "States/UTs where a national minority is the majority - which religion where"
+  },
+  {
+   "s": "Which one of the following statements about Arunachal Pradesh is correct?",
+   "o": [
+    "Hindus are the only major religious group in the State.",
+    "Christians constitute more than 50 percent of its population.",
+    "It is the only Sikh-majority State in India.",
+    "Christians are the largest single group but constitute only about 30 percent."
+   ],
+   "a": 3,
+   "x": "Christians are the largest single religious group in Arunachal Pradesh, but they constitute only about 30 percent and therefore do not form a majority.",
+   "ty": "confusable",
+   "tq": "Distinguish the largest single group from a group holding more than half the population.",
+   "sec": "States/UTs where a national minority is the majority - which religion where"
+  },
+  {
+   "s": "A community had a population of approximately 27.8 million in 2011, after rising from 10.7 million in 1961. Which community does this describe?",
+   "o": [
+    "Buddhists",
+    "Christians",
+    "Jains",
+    "Sikhs"
+   ],
+   "a": 1,
+   "x": "The figures describe the Christian population: about 10.7 million in 1961 and 27.8 million in 2011.",
+   "ty": "numerical",
+   "tq": "Use the beginning and ending values as identifying anchors in a population-series question.",
+   "sec": "Change over decades - identifying a community from its decadal population series"
+  },
+  {
+   "s": "Which one of the following correctly gives the approximate 2011 population of the three communities listed?",
+   "o": [
+    "Sikhs — 27.8 million; Buddhists — 20.8 million; Jains — 8.4 million",
+    "Sikhs — 8.4 million; Buddhists — 4.5 million; Jains — 20.8 million",
+    "Sikhs — 20.8 million; Buddhists — 8.4 million; Jains — 4.5 million",
+    "Sikhs — 4.5 million; Buddhists — 20.8 million; Jains — 8.4 million"
+   ],
+   "a": 2,
+   "x": "The approximate 2011 populations were Sikhs 20.8 million, Buddhists 8.4 million and Jains 4.5 million.",
+   "ty": "numerical",
+   "tq": "Match each community with its distinct reference magnitude and reject shifted figures.",
+   "sec": "Change over decades - identifying a community from its decadal population series"
+  },
+  {
+   "s": "Which one of the following correctly describes the long-run change in the religious shares of India's population?",
+   "o": [
+    "The Sikh share has risen continuously while the Buddhist share has doubled.",
+    "The Hindu share has slowly declined, the Muslim share has steadily risen, and Sikh and Buddhist shares have dipped.",
+    "The Hindu share has risen rapidly and the Muslim share has declined steadily.",
+    "All major religious shares have remained unchanged over the decades."
+   ],
+   "a": 1,
+   "x": "The Hindu share has slowly declined, the Muslim share has steadily risen, and the Sikh and Buddhist shares have dipped over the long run.",
+   "ty": "comparison",
+   "tq": "Compare trends together instead of judging any one community in isolation.",
+   "sec": "Change over decades - identifying a community from its decadal population series"
+  },
+  {
+   "s": "The Muslim share of India's population rose from approximately what percentage in 1951 to what percentage in 2011?",
+   "o": [
+    "14 percent to 20 percent",
+    "10 percent to 14 percent",
+    "8 percent to 12 percent",
+    "12 percent to 18 percent"
+   ],
+   "a": 1,
+   "x": "The Muslim share rose from about 10 percent in 1951 to about 14 percent in 2011.",
+   "ty": "numerical",
+   "tq": "Recall the two benchmark percentages rather than confusing population share with absolute population.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Which factor is identified as an important explanation for the rise in the Muslim population share between 1951 and 2011?",
+   "o": [
+    "Higher female education and higher economic status",
+    "A decline in the total population of India",
+    "Exclusive concentration in metropolitan regions",
+    "Poorer economic status and lower female education"
+   ],
+   "a": 3,
+   "x": "The rise is attributed to poorer economic status and lower female education. Muslim fertility is now falling rapidly and the fertility gap with Hindus is closing.",
+   "ty": "application",
+   "tq": "Identify the stated demographic cause and distinguish it from an unsupported religious explanation.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Which of the following statements regarding the historical diffusion of Islam and Christianity in India is correct?",
+   "o": [
+    "Islam spread only through Portuguese missionaries.",
+    "Christianity reached India through Arab merchants and the Turkish Sultanate alone.",
+    "Islam spread through Arab merchants, the Turkish Sultanate, Mughals and Sufis, while Christianity was associated with St Thomas, the Portuguese and Francis Xavier.",
+    "Both religions spread exclusively through modern urban migration."
+   ],
+   "a": 2,
+   "x": "Islam arrived with Arab merchants and later spread through the Turkish Sultanate, Mughals and Sufis. Christianity was associated with St Thomas, the Portuguese and Francis Xavier.",
+   "ty": "statements",
+   "tq": "Test a multi-stage historical sequence and reject exclusive wording such as 'only' and 'exclusively'.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "St Thomas is associated with the arrival of Christianity in India in approximately which year?",
+   "o": [
+    "52 AD",
+    "152 AD",
+    "852 AD",
+    "1052 AD"
+   ],
+   "a": 0,
+   "x": "Christianity is traditionally associated with the arrival of St Thomas in India in 52 AD. Later Portuguese activity and Francis Xavier also contributed to its spread.",
+   "ty": "fact",
+   "tq": "Directly test the distinctive historical date attached to a religious diffusion process.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Missionaries played an important role in shaping coastal Andhra through which combination of activities?",
+   "o": [
+    "Railways, dams and census operations",
+    "Mining, shipbuilding and irrigation",
+    "Banking, insurance and heavy industries",
+    "Schools, hospitals and printing"
+   ],
+   "a": 3,
+   "x": "Missionaries shaped coastal Andhra through schools, hospitals and printing.",
+   "ty": "fact",
+   "tq": "Match the historical agency with the specific regional activities stated.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Which pair of anti-conversion laws and years is correctly matched?",
+   "o": [
+    "Odisha — 1967; Madhya Pradesh — 1968",
+    "Odisha — 1951; Madhya Pradesh — 1952",
+    "Odisha — 1975; Madhya Pradesh — 1976",
+    "Odisha — 1986; Madhya Pradesh — 1987"
+   ],
+   "a": 0,
+   "x": "Odisha enacted an anti-conversion law in 1967 and Madhya Pradesh followed in 1968. They were the first States associated with such laws in the material.",
+   "ty": "match",
+   "tq": "Start from the sure year-State pair and avoid shifting adjacent years between States.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "As of mid-2026, anti-conversion laws were enforced by how many of India's 28 States?",
+   "o": [
+    "8",
+    "10",
+    "13",
+    "18"
+   ],
+   "a": 2,
+   "x": "As of mid-2026, 13 of India's 28 States were stated to enforce anti-conversion laws.",
+   "ty": "numerical",
+   "tq": "Test the exact count and denominator together; do not confuse the number of States with the number of laws.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Assertion (A): Christians are mostly rural in India.\nReason (R): Important Christian concentrations occur in regions such as the west coast, the north-eastern hills and Chotanagpur.\nChoose the correct answer.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 1,
+   "x": "Both statements are true, but the listed concentration regions do not by themselves explain the predominantly rural character of Christians. The reason describes distribution areas rather than the direct explanation of the assertion.",
+   "ty": "assertion_reason",
+   "tq": "Separate a true supporting fact from a reason that does not directly explain the assertion.",
+   "sec": "Distribution - state with largest number of each minority, map-based minority regions"
+  },
+  {
+   "s": "Which one of the following correctly identifies the States where Christians form a majority, along with their approximate shares?",
+   "o": [
+    "Nagaland 30%, Mizoram 50%, Meghalaya 68%",
+    "Nagaland 88%, Mizoram 87%, Meghalaya 75%",
+    "Nagaland 75%, Mizoram 58%, Meghalaya 88%",
+    "Nagaland 68%, Mizoram 97%, Meghalaya 58%"
+   ],
+   "a": 1,
+   "x": "Christians form a majority in Nagaland at about 88 percent, Mizoram at about 87 percent and Meghalaya at about 75 percent.",
+   "ty": "comparison",
+   "tq": "Compare three closely related State-percentage pairs without reversing the order or values.",
+   "sec": "States/UTs where a national minority is the majority - which religion where"
+  },
+  {
+   "s": "Which of the following correctly states the fuller list of States/Union Territories where Hindus are below 50 percent, although the material notes that no other religion has a majority in some of them?",
+   "o": [
+    "Uttar Pradesh, Bihar, Kerala, West Bengal, Punjab, Delhi, Goa and Sikkim",
+    "Punjab, Haryana, Delhi, Maharashtra, Gujarat, Rajasthan, Karnataka and Tamil Nadu",
+    "Lakshadweep, Mizoram, Nagaland, Meghalaya, Jammu and Kashmir, Arunachal Pradesh, Manipur and Punjab",
+    "Jammu and Kashmir, Punjab, Nagaland, Mizoram and Meghalaya only"
+   ],
+   "a": 2,
+   "x": "The fuller eight-unit list is Lakshadweep, Mizoram, Nagaland, Meghalaya, Jammu and Kashmir, Arunachal Pradesh, Manipur and Punjab. The shorter five-State list excludes Lakshadweep, Arunachal Pradesh and Manipur.",
+   "ty": "fact",
+   "tq": "Handle a confusable five-versus-eight list by identifying the additional units explicitly included in the fuller version.",
+   "sec": "States/UTs where a national minority is the majority - which religion where"
+  }
+ ]
+}

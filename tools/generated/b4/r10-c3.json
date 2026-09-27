@@ -1,0 +1,482 @@
+{
+ "book": 4,
+ "row": 10,
+ "chunk": 3,
+ "section": "Earthquakes - causes, seismic waves, measurement, distribution, effects",
+ "subsections": [
+  "World volcanoes - country and status",
+  "Volcanic products and types",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Etna is located in which of the following regions and is characterised by which status?",
+   "o": [
+    "Sicily; active stratovolcano",
+    "Mainland Italy; dormant composite volcano",
+    "Sicily; extinct caldera",
+    "Sardinia; dormant shield volcano"
+   ],
+   "a": 0,
+   "x": "Etna is an active stratovolcano located in Sicily, Italy.",
+   "ty": "fact",
+   "tq": "Use the country-region and volcano-status pair together to avoid confusing Etna with other Italian volcanoes.",
+   "sec": "World volcanoes - country and status"
+  },
+  {
+   "s": "Which one of the following statements regarding Mount Etna is correct?",
+   "o": [
+    "It is Europe's largest and most active volcano, rises to about 3,300 m and became a UNESCO site in 2013.",
+    "It is Africa's highest peak and has been dormant since 1707.",
+    "It is the world's highest active volcano at 6,893 m.",
+    "It is an extinct volcano that buried Pompeii in AD 79."
+   ],
+   "a": 0,
+   "x": "Etna is Europe's largest and most active volcano, is approximately 3,300 m high and has been a UNESCO site since 2013.",
+   "ty": "statements",
+   "tq": "Distinguish closely related volcano facts by checking the continent, height, status and historical association.",
+   "sec": "World volcanoes - country and status"
+  },
+  {
+   "s": "The volcano associated with the burial of Pompeii in AD 79 is:",
+   "o": [
+    "Tungurahua",
+    "Etna",
+    "Vesuvius",
+    "Stromboli"
+   ],
+   "a": 2,
+   "x": "Mount Vesuvius is an active volcano in Italy and buried Pompeii in AD 79.",
+   "ty": "fact",
+   "tq": "Apply the famous-event association to identify the correct volcano.",
+   "sec": "World volcanoes - country and status"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Ojos del Salado — Chile — Dormant",
+    "Tungurahua — Ecuador — Active",
+    "Fujiyama — Japan — Dormant",
+    "Kilimanjaro — Tanzania — Dormant"
+   ],
+   "a": 0,
+   "x": "Ojos del Salado is in Chile and is the world's highest active volcano, at 6,893 m; it is not dormant.",
+   "ty": "negative",
+   "tq": "Find the mismatched status by separating country facts from active-dormant classifications.",
+   "sec": "World volcanoes - country and status"
+  },
+  {
+   "s": "The last recorded eruption of Fujiyama mentioned in the geographical record was in:",
+   "o": [
+    "1707",
+    "1797",
+    "1907",
+    "2007"
+   ],
+   "a": 0,
+   "x": "Fujiyama in Japan is dormant, and its last eruption occurred in 1707.",
+   "ty": "numerical",
+   "tq": "Test the precise historical year rather than relying only on the volcano's country or status.",
+   "sec": "World volcanoes - country and status"
+  },
+  {
+   "s": "Which volcano is recognised as the world's highest active volcano?",
+   "o": [
+    "Mauna Loa",
+    "Mount Kilimanjaro",
+    "Volcan de Fuego",
+    "Ojos del Salado"
+   ],
+   "a": 3,
+   "x": "Ojos del Salado in Chile is the world's highest active volcano, with an elevation of 6,893 m.",
+   "ty": "fact",
+   "tq": "Use the superlative and the numerical height as the decisive clues.",
+   "sec": "World volcanoes - country and status"
+  },
+  {
+   "s": "Consider the following statements:\n1. Volcan de Fuego is Guatemala's most active stratovolcano.\n2. Its Strombolian eruptions may occur every 15–20 minutes.\n3. It erupted again in June 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Volcan de Fuego is Guatemala's most active stratovolcano, has frequent Strombolian eruptions and erupted again in June 2026.",
+   "ty": "statements",
+   "tq": "Check the location, eruption frequency and recent-event details independently before selecting the coded combination.",
+   "sec": "World volcanoes - country and status"
+  },
+  {
+   "s": "Popocatepetl, which has been active since 1994, is located in:",
+   "o": [
+    "Mexico",
+    "Ecuador",
+    "Chile",
+    "Guatemala"
+   ],
+   "a": 0,
+   "x": "Popocatepetl is an active volcano in Mexico and has been active since 1994.",
+   "ty": "fact",
+   "tq": "Use the country-status-year combination to distinguish neighbouring Latin American volcanoes.",
+   "sec": "World volcanoes - country and status"
+  },
+  {
+   "s": "Which of the following recent volcano-related events is correctly matched?",
+   "o": [
+    "Mount Spurr — Indonesia — Halmahera",
+    "Mount Dukono — Alaska — Aleutian Arc",
+    "Mayon — Philippines — symmetrical composite cone",
+    "Mayon — Mexico — active since 1994"
+   ],
+   "a": 2,
+   "x": "Mayon is in the Philippines and is noted for its symmetrical composite-cone form. Mount Dukono is in Halmahera, Indonesia, while Mount Spurr is in Alaska's Aleutian Arc.",
+   "ty": "negative",
+   "tq": "Match each volcano with its location and distinguishing description, rejecting swapped-location traps.",
+   "sec": "World volcanoes - country and status"
+  },
+  {
+   "s": "Which of the following is NOT a volcanic product?",
+   "o": [
+    "Oxygen-rich atmospheric air",
+    "Pyroclastic debris",
+    "Lava",
+    "Volcanic bombs"
+   ],
+   "a": 0,
+   "x": "Pyroclastic debris, volcanic bombs and lava are volcanic products. Atmospheric air is not listed as a volcanic product.",
+   "ty": "odd_one_out",
+   "tq": "Classify the physical materials emitted or produced by volcanoes and identify the outsider.",
+   "sec": "Volcanic products and types"
+  },
+  {
+   "s": "Which gas is present in the greatest proportion among the principal gases released by volcanoes?",
+   "o": [
+    "Hydrogen sulphide",
+    "Carbon dioxide",
+    "Water vapour",
+    "Sulphur dioxide"
+   ],
+   "a": 2,
+   "x": "Volcanic gases consist mostly of water vapour, followed by carbon dioxide, sulphur dioxide and hydrogen sulphide.",
+   "ty": "fact",
+   "tq": "Recall the stated order of abundance rather than confusing gases with solid volcanic products.",
+   "sec": "Volcanic products and types"
+  },
+  {
+   "s": "A volcano that is presently quiet but may erupt in the future is classified as:",
+   "o": [
+    "Caldera",
+    "Extinct",
+    "Dormant",
+    "Active only"
+   ],
+   "a": 2,
+   "x": "A dormant volcano is quiet at present but retains the possibility of erupting. An extinct volcano is not expected to erupt.",
+   "ty": "confusable",
+   "tq": "Discriminate between the similar status terms dormant and extinct by focusing on future eruptive possibility.",
+   "sec": "Volcanic products and types"
+  },
+  {
+   "s": "A volcano is considered extinct when:",
+   "o": [
+    "It contains several overlapping cones",
+    "No further eruption is expected",
+    "It is quiet temporarily but may erupt",
+    "It is erupting or has erupted recently"
+   ],
+   "a": 1,
+   "x": "An extinct volcano is one from which no eruption is expected; temporary quietness describes a dormant volcano.",
+   "ty": "confusable",
+   "tq": "Compare the status definitions directly and reject the tempting reversal of dormant and extinct.",
+   "sec": "Volcanic products and types"
+  },
+  {
+   "s": "Which one of the following volcanoes is an example of a shield volcano?",
+   "o": [
+    "Mauna Loa",
+    "Mount Aso",
+    "Etna",
+    "Taal"
+   ],
+   "a": 0,
+   "x": "Mauna Loa is a shield volcano formed by fluid basaltic lava and characterised by gentle slopes.",
+   "ty": "fact",
+   "tq": "Link the volcano example to the defining lava type and slope profile.",
+   "sec": "Volcanic products and types"
+  },
+  {
+   "s": "Shield volcanoes are generally characterised by:",
+   "o": [
+    "Several vents and overlapping lava domes in every case",
+    "Fluid basaltic lava and gentle slopes",
+    "A large depression formed only by erosion",
+    "Thick viscous lava, steep cones and explosive eruptions"
+   ],
+   "a": 1,
+   "x": "Shield volcanoes have fluid basaltic lava and gentle slopes. Thick viscous lava and explosive steep cones are characteristic of composite volcanoes.",
+   "ty": "comparison",
+   "tq": "Use the contrast between lava viscosity and slope to distinguish shield and composite volcanoes.",
+   "sec": "Volcanic products and types"
+  },
+  {
+   "s": "Consider the following statements about composite or stratovolcanoes:\n1. They generally have thick and viscous lava.\n2. They commonly form steep cones.\n3. They are associated with explosive eruptions.\n4. They constitute approximately 60% of the Earth's volcanoes.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Composite or stratovolcanoes have viscous lava, steep cones, explosive activity and constitute approximately 60% of Earth's volcanoes.",
+   "ty": "statements",
+   "tq": "Test a group of defining characteristics together, including the quantitative share.",
+   "sec": "Volcanic products and types"
+  },
+  {
+   "s": "A large depression formed by the collapse of a volcano after an explosive eruption is called a:",
+   "o": [
+    "Lava dome",
+    "Caldera",
+    "Composite cone",
+    "Shield"
+   ],
+   "a": 1,
+   "x": "A caldera is a large depression produced by collapse following an explosive eruption.",
+   "ty": "fact",
+   "tq": "Identify the landform from its formation process rather than from an example alone.",
+   "sec": "Volcanic products and types"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Mauna Loa — caldera formed by explosive collapse",
+    "Mount Aso — one of the world's largest calderas",
+    "Etna — complex volcano with several overlapping vents only",
+    "Dukono — shield volcano with gentle basaltic slopes"
+   ],
+   "a": 1,
+   "x": "Mount Aso is one of the world's largest calderas. Mauna Loa is a shield volcano, while Dukono is listed as a complex volcano.",
+   "ty": "negative",
+   "tq": "Start with the distinctive example of a landform and then eliminate type-example reversals.",
+   "sec": "Volcanic products and types"
+  },
+  {
+   "s": "Complex or compound volcanoes are distinguished by the presence of:",
+   "o": [
+    "Several vents, overlapping cones and lava domes",
+    "Only fluid basaltic lava and very gentle slopes",
+    "A single crater with no secondary vents",
+    "No lava and no eruptive products"
+   ],
+   "a": 0,
+   "x": "Complex or compound volcanoes contain several vents, overlapping cones and lava domes. Taal and Dukono are examples.",
+   "ty": "fact",
+   "tq": "Recall the structural features of the volcano type before considering its examples.",
+   "sec": "Volcanic products and types"
+  },
+  {
+   "s": "Which of the following is correctly matched with a complex or compound volcano?",
+   "o": [
+    "Taal — Japan",
+    "Dukono — Guatemala",
+    "Taal — Philippines",
+    "Mount Aso — Philippines"
+   ],
+   "a": 2,
+   "x": "Taal in the Philippines is a complex or compound volcano. Dukono is in Indonesia, while Mount Aso is a caldera in Japan.",
+   "ty": "negative",
+   "tq": "Use the sure example-location pair and reject nearby country substitutions.",
+   "sec": "Volcanic products and types"
+  },
+  {
+   "s": "Which statement correctly distinguishes Strombolian and Vulcanian eruptions?",
+   "o": [
+    "Vulcanian eruptions consist only of gentle lava flows.",
+    "Strombolian eruptions are frequent and mild, whereas Vulcanian eruptions are more explosive.",
+    "Strombolian eruptions are always more explosive than Vulcanian eruptions.",
+    "Both terms refer exclusively to dormant volcanoes."
+   ],
+   "a": 1,
+   "x": "Strombolian eruptions involve frequent, mild bursts of bombs and ash, whereas Vulcanian eruptions are more explosive.",
+   "ty": "comparison",
+   "tq": "Compare the intensity and nature of the two similarly named eruption styles.",
+   "sec": "Volcanic products and types"
+  },
+  {
+   "s": "A seismic doublet refers to:",
+   "o": [
+    "Two aftershocks of exactly equal magnitude from the same rupture",
+    "Two independent earthquakes of similar size",
+    "Two volcanic eruptions from adjacent craters",
+    "One earthquake followed by a tsunami"
+   ],
+   "a": 1,
+   "x": "A seismic doublet consists of two independent earthquakes of similar size. Such an event was described near Caracas on the Caribbean–South American strike-slip boundary.",
+   "ty": "fact",
+   "tq": "Resolve the technical term by separating independent similar events from aftershocks or related hazards.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Caracas seismic doublet occurred on which type of plate boundary?",
+   "o": [
+    "Pacific–Antarctic convergent boundary",
+    "Caribbean–South American strike-slip boundary",
+    "African–Eurasian subduction boundary",
+    "Indian–Australian divergent boundary"
+   ],
+   "a": 1,
+   "x": "The Caracas doublet occurred on the Caribbean–South American strike-slip boundary.",
+   "ty": "fact",
+   "tq": "Associate the event with its named boundary type and avoid substituting a generic plate-boundary category.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following recent earthquake-event pairs is correctly matched?",
+   "o": [
+    "M 7.7 — Koraput-Jeypore — April 2026",
+    "M 7.7 — off Flores Island, Indonesia — August 2026",
+    "M 8.8 — Caracas, Venezuela — June 2026",
+    "M 4.4 — off Kamchatka — August 2025"
+   ],
+   "a": 1,
+   "x": "An M 7.7 earthquake struck off Flores Island, Indonesia, on 18 August 2026. The other events have been paired with incorrect locations or magnitudes.",
+   "ty": "negative",
+   "tq": "Check magnitude, location and date together to defeat swapped-event distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The M 8.8 megathrust earthquake off Kamchatka in August 2025 was notable because it:",
+   "o": [
+    "Caused only a limited tsunami",
+    "Produced a tsunami that completely inundated the Pacific coast",
+    "Was an M 4.4 inland earthquake",
+    "Occurred on the Caracas strike-slip boundary"
+   ],
+   "a": 0,
+   "x": "Despite its M 8.8 megathrust magnitude, the Kamchatka earthquake caused only a limited tsunami.",
+   "ty": "fact",
+   "tq": "Focus on the unusual consequence of the event rather than inferring impact solely from magnitude.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about seismicity in Andhra Pradesh:\n1. Most of Andhra Pradesh lies in Seismic Zones II and III.\n2. Reservoir-triggered tremors cannot be ruled out near Nagarjuna Sagar, Srisailam and Polavaram.\n3. Old faults in the Eastern Ghats are relevant to the possibility of tremors.\n4. Visakhapatnam lies in Zone V.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 3 are correct. Visakhapatnam is in Zone II, not Zone V.",
+   "ty": "statements",
+   "tq": "Find the location-based false statement by checking the specific seismic zone assigned to Visakhapatnam.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "An earthquake of magnitude 4.4, at a depth of 5 km, near Koraput–Jeypore shook which areas in Andhra Pradesh?",
+   "o": [
+    "Araku and Paderu in ASR district",
+    "Nagarjuna Sagar and Srisailam",
+    "Vijayawada and Guntur",
+    "Visakhapatnam and Polavaram"
+   ],
+   "a": 0,
+   "x": "The M 4.4 earthquake near Koraput–Jeypore in Odisha, at a depth of 5 km, shook Araku and Paderu in the ASR district.",
+   "ty": "fact",
+   "tq": "Combine the magnitude, depth and affected-location clues to identify the event precisely.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The withdrawn earthquake hazard map was based on how many earthquake events and seismogenic zones?",
+   "o": [
+    "69,519 events and 63 seismogenic zones",
+    "69,519 events and 36 seismogenic zones",
+    "36,000 events and 69 seismogenic zones",
+    "95,000 events and 36 seismogenic zones"
+   ],
+   "a": 1,
+   "x": "The withdrawn map was based on 69,519 events and 36 seismogenic zones.",
+   "ty": "numerical",
+   "tq": "Keep the two numerical components paired; the distractors reverse or alter one of the figures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which statement correctly describes the change concerning Zone VI in IS 1893:2025?",
+   "o": [
+    "Zone VI was notified and subsequently withdrawn on 3 March 2026.",
+    "Zone VI was notified permanently on 3 March 2026.",
+    "Zone VI was withdrawn before being notified in 2025.",
+    "Zone VI was notified only for Andhra Pradesh and retained without change."
+   ],
+   "a": 0,
+   "x": "Zone VI was notified in IS 1893:2025 and was subsequently withdrawn on 3 March 2026.",
+   "ty": "chronology",
+   "tq": "Track the sequence of notification followed by withdrawal and reject reversed timelines.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Experts criticised the restored 2016 earthquake-hazard values mainly because they considered them:",
+   "o": [
+    "Too low for the Himalaya",
+    "Unrelated to seismic hazard assessment",
+    "Too high for the Himalaya",
+    "Applicable only to coastal Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "Experts argued that the restored 2016 hazard values were too low for the Himalaya. NDMA, in contrast, described the new values as too high.",
+   "ty": "confusable",
+   "tq": "Separate the contrasting positions of experts and NDMA instead of treating both criticisms as identical.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements about earthquake safety and construction is correct?",
+   "o": [
+    "Construction cost is irrelevant to the debate over PSHA-based codes.",
+    "Approximately 95% of earthquake deaths occur in poorly built one- to three-storey houses.",
+    "Retrofitting is unnecessary when a building follows no seismic code.",
+    "Earthquake deaths occur almost exclusively in high-rise steel buildings."
+   ],
+   "a": 1,
+   "x": "About 95% of earthquake deaths occur in poorly built one- to three-storey houses. The debate also involves balancing safer PSHA-based codes against construction costs.",
+   "ty": "application",
+   "tq": "Apply the risk statistic to a built-environment scenario and reject exaggerated building claims.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following is the FIRST step among NDMA's six pillars of seismic safety?",
+   "o": [
+    "Replacing all reservoirs with underground water tanks",
+    "Monitoring only volcanic eruptions",
+    "Building according to IS 1893, IS 4326 and IS 13920, along with prioritising important buildings for retrofitting",
+    "Banning all construction in Seismic Zone II"
+   ],
+   "a": 2,
+   "x": "The first pillar begins with construction according to IS 1893, IS 4326 and IS 13920, together with retrofitting priority buildings.",
+   "ty": "application",
+   "tq": "Identify the institutional safety measure that directly addresses structural vulnerability.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements about Andhra Pradesh and earthquake risk is correct?",
+   "o": [
+    "Andhra Pradesh lies entirely in Zone V and has no reservoir-related seismic risk.",
+    "The Eastern Ghats have no old faults relevant to seismicity.",
+    "Only coastal areas of Andhra Pradesh can experience earthquakes.",
+    "Although Andhra Pradesh lies mainly in Zones II and III, reservoir-triggered tremors remain possible near major reservoirs and along old Eastern Ghats faults."
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh is mainly in Zones II and III, but tremors associated with reservoirs and old Eastern Ghats faults cannot be ruled out.",
+   "ty": "application",
+   "tq": "Combine the general regional classification with the important stated exception.",
+   "sec": "Universal angles"
+  }
+ ]
+}

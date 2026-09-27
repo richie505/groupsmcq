@@ -1,0 +1,416 @@
+{
+ "book": 1,
+ "row": 263,
+ "chunk": 4,
+ "section": "Later reorganisation of states - 1960s to 2000; creation of Telangana 2014",
+ "subsections": [
+  "Article 3 - procedure, President's role, current count",
+  "Current count of States and Union Territories",
+  "UTs - reorganisation of Jammu and Kashmir",
+  "CM during the agitation and outcome - CM change, fate of the TPS",
+  "Causes - safeguard violations alleged (services, revenue, employment)",
+  "Start - place, first hunger strike, student bodies",
+  "Telangana Praja Samiti - founder, year, 1971 election result"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Under Article 3 of the Constitution, Parliament may by law:\n1. Form a new State.\n2. Increase or diminish the area of a State.\n3. Alter the boundaries or name of a State.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Article 3 empowers Parliament to form new States and to increase or diminish the area, alter the boundaries, or change the name of any State.",
+   "ty": "statements",
+   "tq": "Test the full constitutional power list by checking whether any item has been wrongly excluded.",
+   "sec": "Article 3 - procedure, President's role, current count"
+  },
+  {
+   "s": "A Bill for the formation of a new State under Article 3 can be introduced in Parliament only after obtaining the recommendation of the:",
+   "o": [
+    "Prime Minister",
+    "Speaker of the Lok Sabha",
+    "Chief Justice of India",
+    "President"
+   ],
+   "a": 3,
+   "x": "The prior recommendation of the President is necessary for introducing a Bill under Article 3.",
+   "ty": "fact",
+   "tq": "Use the authority-based trap by identifying who constitutionally recommends the Bill.",
+   "sec": "Article 3 - procedure, President's role, current count"
+  },
+  {
+   "s": "With reference to the procedure under Article 3, consider the following statements:\n1. The President refers the Bill to the legislature of the affected State for expressing its views.\n2. The views of the State Legislature are binding on Parliament.\n3. The State Legislature is required to express its views within the period specified by the President.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 3 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The President refers the Bill to the affected State Legislature for its views within a specified period. Those views are not binding on Parliament.",
+   "ty": "statements",
+   "tq": "Find the single reversed constitutional effect: consultation does not make the State Legislature’s views binding.",
+   "sec": "Article 3 - procedure, President's role, current count"
+  },
+  {
+   "s": "A law made under Article 3 for reorganisation of States is passed by Parliament by:",
+   "o": [
+    "A special majority under Article 368",
+    "A simple majority",
+    "Unanimous consent of both Houses",
+    "A two-thirds majority of all State Legislatures"
+   ],
+   "a": 1,
+   "x": "A law under Article 3 requires only a simple majority in Parliament and is not a constitutional amendment under Article 368 by virtue of Article 4.",
+   "ty": "fact",
+   "tq": "Discriminate between the simple-majority procedure and the special-majority procedure for constitutional amendments.",
+   "sec": "Article 3 - procedure, President's role, current count"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Article 2 — Admission or establishment of new States",
+    "Article 2 — Alteration of the name of an existing State",
+    "Article 3 — Admission of a foreign territory as a new State",
+    "Article 4 — Laws under Articles 2 and 3 deemed amendments under Article 368"
+   ],
+   "a": 0,
+   "x": "Article 2 deals with the admission or establishment of new States. Article 3 concerns the formation or alteration of existing States, while Article 4 excludes such laws from being treated as amendments under Article 368.",
+   "ty": "negative",
+   "tq": "Separate the closely related Articles 2, 3 and 4 instead of relying on the common word ‘State’.",
+   "sec": "Article 3 - procedure, President's role, current count"
+  },
+  {
+   "s": "As of 2026, India consists of:",
+   "o": [
+    "29 States and 7 Union Territories",
+    "28 States and 9 Union Territories",
+    "28 States and 8 Union Territories",
+    "27 States and 8 Union Territories"
+   ],
+   "a": 2,
+   "x": "The current count is 28 States and 8 Union Territories.",
+   "ty": "numerical",
+   "tq": "Use the current-count pair as a two-part numerical fact and reject options that alter either figure.",
+   "sec": "Current count of States and Union Territories"
+  },
+  {
+   "s": "Which one of the following is NOT a Union Territory of India?",
+   "o": [
+    "Telangana",
+    "Puducherry",
+    "Ladakh",
+    "Lakshadweep"
+   ],
+   "a": 0,
+   "x": "Telangana is a State. Ladakh, Puducherry and Lakshadweep are Union Territories.",
+   "ty": "negative",
+   "tq": "Find the odd administrative category among a list of Union Territories.",
+   "sec": "Current count of States and Union Territories"
+  },
+  {
+   "s": "The Union Territories of Dadra and Nagar Haveli and Daman and Diu were merged into a single Union Territory with effect from:",
+   "o": [
+    "26 January 2020",
+    "31 October 2019",
+    "27 December 2020",
+    "5 August 2019"
+   ],
+   "a": 0,
+   "x": "The merger of Dadra and Nagar Haveli with Daman and Diu became effective on 26 January 2020.",
+   "ty": "numerical",
+   "tq": "Distinguish the effective date of a reorganisation from the dates of other recent territorial changes.",
+   "sec": "Current count of States and Union Territories"
+  },
+  {
+   "s": "The Union Cabinet’s approval to rename Kerala as “Keralam” represents the beginning of the procedure under:",
+   "o": [
+    "Article 2",
+    "Article 368",
+    "Article 4",
+    "Article 3"
+   ],
+   "a": 3,
+   "x": "A change in the name of an existing State is dealt with through the procedure under Article 3.",
+   "ty": "fact",
+   "tq": "Apply the Article 3 name-change rule to a current territorial proposal.",
+   "sec": "Current count of States and Union Territories"
+  },
+  {
+   "s": "The Jammu and Kashmir Reorganisation Act, 2019 resulted in the creation of which two Union Territories?",
+   "o": [
+    "Ladakh and Himachal Pradesh",
+    "Jammu and Kashmir and Chandigarh",
+    "Kashmir and Delhi",
+    "Jammu and Kashmir and Ladakh"
+   ],
+   "a": 3,
+   "x": "The 2019 Act reorganised the former State of Jammu and Kashmir into the Union Territories of Jammu and Kashmir and Ladakh.",
+   "ty": "fact",
+   "tq": "Use the paired-territory identification method for a reorganisation statute.",
+   "sec": "UTs - reorganisation of Jammu and Kashmir"
+  },
+  {
+   "s": "The reorganisation of the former State of Jammu and Kashmir into the Union Territories of Jammu and Kashmir and Ladakh took effect on:",
+   "o": [
+    "5 August 2019",
+    "26 January 2020",
+    "31 October 2019",
+    "27 December 1970"
+   ],
+   "a": 2,
+   "x": "The two Union Territories came into existence on 31 October 2019.",
+   "ty": "numerical",
+   "tq": "Separate the date of the constitutional order from the date on which the new Union Territories came into existence.",
+   "sec": "UTs - reorganisation of Jammu and Kashmir"
+  },
+  {
+   "s": "Which one of the following statements regarding the Union Territories formed under the Jammu and Kashmir Reorganisation Act, 2019 is correct?",
+   "o": [
+    "Jammu and Kashmir has a Legislative Assembly, whereas Ladakh has no legislature.",
+    "Ladakh has a Legislative Assembly but Jammu and Kashmir has none.",
+    "Both Union Territories have Legislative Assemblies.",
+    "Neither Union Territory has any High Court arrangement."
+   ],
+   "a": 0,
+   "x": "The Union Territory of Jammu and Kashmir has a Legislative Assembly, while Ladakh has no legislature. Jammu and Kashmir and Ladakh share a common High Court.",
+   "ty": "comparison",
+   "tq": "Compare the two successor Union Territories on the precise institutional difference.",
+   "sec": "UTs - reorganisation of Jammu and Kashmir"
+  },
+  {
+   "s": "Which of the following statements about the constitutional position after the reorganisation of Jammu and Kashmir is correct?\n1. The former State Legislature, including its Legislative Council, was abolished.\n2. The Legislative Assembly of the Union Territory of Jammu and Kashmir replaced the former State Legislature.\n3. Ladakh was provided with a legislature under the 2019 Act.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The former State Legislature and its Legislative Council were abolished, and Jammu and Kashmir now has a Legislative Assembly as a Union Territory. Ladakh has no legislature.",
+   "ty": "statements",
+   "tq": "Reject the statement that reverses the institutional comparison between Jammu and Kashmir and Ladakh.",
+   "sec": "UTs - reorganisation of Jammu and Kashmir"
+  },
+  {
+   "s": "The Chief Minister of Andhra Pradesh during the Telangana agitation of 1969 was:",
+   "o": [
+    "Marri Channa Reddy",
+    "Kasu Brahmananda Reddy",
+    "P.V. Narasimha Rao",
+    "Satyanarayana Reddy"
+   ],
+   "a": 1,
+   "x": "Kasu Brahmananda Reddy was the Chief Minister during the 1969 Telangana agitation.",
+   "ty": "fact",
+   "tq": "Match the political leader with the correct phase of the movement rather than with the later Jai Andhra period.",
+   "sec": "CM during the agitation and outcome - CM change, fate of the TPS"
+  },
+  {
+   "s": "Consider the following events:\n1. P.V. Narasimha Rao was sworn in as Chief Minister of Andhra Pradesh.\n2. P.V. Narasimha Rao was elected CLP leader.\nWhich of the following is the correct chronological order?",
+   "o": [
+    "1 followed by 2",
+    "2 followed by 1",
+    "Both occurred on 25 September 1971",
+    "Both occurred on 30 September 1971"
+   ],
+   "a": 1,
+   "x": "P.V. Narasimha Rao was elected CLP leader on 25 September 1971 and sworn in on 30 September 1971.",
+   "ty": "chronology",
+   "tq": "Arrange closely spaced political events by identifying the earlier organisational step and the later assumption of office.",
+   "sec": "CM during the agitation and outcome - CM change, fate of the TPS"
+  },
+  {
+   "s": "The Telangana Praja Samiti merged with the Congress after reaching an agreement with:",
+   "o": [
+    "P.V. Narasimha Rao",
+    "Indira Gandhi",
+    "Satyanarayana Reddy",
+    "Kasu Brahmananda Reddy"
+   ],
+   "a": 1,
+   "x": "The Telangana Praja Samiti merged with the Congress after an agreement with Indira Gandhi. Those opposing the merger formed the Complete Telangana Praja Samiti under B. Satyanarayana Reddy.",
+   "ty": "fact",
+   "tq": "Apply the ‘agreement with’ trap by identifying the national leader associated with the merger.",
+   "sec": "CM during the agitation and outcome - CM change, fate of the TPS"
+  },
+  {
+   "s": "The Complete Telangana Praja Samiti was formed by those who:",
+   "o": [
+    "Led the first student strike at Khammam",
+    "Supported the merger of the TPS with the Congress",
+    "Dissolved Parliament in December 1970",
+    "Opposed the merger of the TPS with the Congress"
+   ],
+   "a": 3,
+   "x": "Those who opposed the merger of the Telangana Praja Samiti with the Congress formed the Complete Telangana Praja Samiti under B. Satyanarayana Reddy.",
+   "ty": "application",
+   "tq": "Infer the organisation’s political position from the consequence of the merger agreement.",
+   "sec": "CM during the agitation and outcome - CM change, fate of the TPS"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with an alleged violation of the 1956 safeguards?\n1. Mulki rules — Recruitment of non-locals in large numbers\n2. Revenue surplus — Diversion away from Telangana\n3. Telangana Regional Committee — Safeguards could not be enforced in court\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correct: non-locals were alleged to have been recruited, Telangana’s revenue surplus was allegedly diverted, and the political safeguards were considered unenforceable in court.",
+   "ty": "statements",
+   "tq": "Match each safeguard with its corresponding alleged violation before selecting the code.",
+   "sec": "Causes - safeguard violations alleged (services, revenue, employment)"
+  },
+  {
+   "s": "The safeguard that required Telangana’s revenue surplus to be spent only in Telangana was associated with the:",
+   "o": [
+    "Gentlemen’s Agreement",
+    "Mulki rules",
+    "Telangana Regional Committee alone",
+    "State-cadre rule"
+   ],
+   "a": 0,
+   "x": "The Gentlemen’s Agreement of 20 February 1956 included the safeguard that Telangana’s revenue surplus should be spent only in Telangana.",
+   "ty": "fact",
+   "tq": "Identify the named agreement behind a specific financial safeguard.",
+   "sec": "Causes - safeguard violations alleged (services, revenue, employment)"
+  },
+  {
+   "s": "The Telangana Regional Committee was intended to supervise matters relating to:\n1. Development\n2. Recruitment\n3. Education\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Telangana Regional Committee was intended to supervise development, recruitment and education in the Telangana region.",
+   "ty": "statements",
+   "tq": "Test the complete scope of a regional institution rather than one isolated function.",
+   "sec": "Causes - safeguard violations alleged (services, revenue, employment)"
+  },
+  {
+   "s": "The extension of the Telangana Regional Committee for five years and the request to extend the Mulki rules occurred in:",
+   "o": [
+    "1956",
+    "1968",
+    "1969",
+    "1971"
+   ],
+   "a": 1,
+   "x": "In 1968, the Telangana regional sub-committee was extended for five years and the State requested the Centre to extend the Mulki rules.",
+   "ty": "numerical",
+   "tq": "Use the year as the decisive clue in a sequence of closely connected movement developments.",
+   "sec": "Causes - safeguard violations alleged (services, revenue, employment)"
+  },
+  {
+   "s": "The Telangana agitation began as a student strike at:",
+   "o": [
+    "Hyderabad",
+    "Warangal",
+    "Khammam",
+    "Vijayawada"
+   ],
+   "a": 2,
+   "x": "The agitation began as a student strike in Khammam in January 1969.",
+   "ty": "fact",
+   "tq": "Test the movement’s place of origin directly, using nearby regional locations as distractors.",
+   "sec": "Start - place, first hunger strike, student bodies"
+  },
+  {
+   "s": "Who undertook the first hunger strike during the Telangana agitation of 1969?",
+   "o": [
+    "Madan Mohan",
+    "Mallikarjun",
+    "Ravindranath",
+    "Marri Channa Reddy"
+   ],
+   "a": 2,
+   "x": "The first hunger strike was undertaken by the student Ravindranath at Khammam in January 1969.",
+   "ty": "fact",
+   "tq": "Distinguish the student hunger-strike participant from the political leaders and organisers of the movement.",
+   "sec": "Start - place, first hunger strike, student bodies"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. Telangana agitation intensified\nB. First hunger strike by Ravindranath\nC. Telangana Praja Samiti was formed\nD. Telangana regional sub-committee was extended for five years",
+   "o": [
+    "D, B, C, A",
+    "B, D, A, C",
+    "D, C, B, A",
+    "B, A, C, D"
+   ],
+   "a": 0,
+   "x": "The regional sub-committee was extended in 1968; the first hunger strike occurred in January 1969; the TPS was formed in February 1969; and the agitation intensified by March 1969.",
+   "ty": "chronology",
+   "tq": "Anchor the sequence with the only 1968 event and then arrange the January–March 1969 developments.",
+   "sec": "Start - place, first hunger strike, student bodies"
+  },
+  {
+   "s": "The Telangana Praja Samiti was formed in:",
+   "o": [
+    "February 1969",
+    "January 1969",
+    "December 1970",
+    "September 1971"
+   ],
+   "a": 0,
+   "x": "The Telangana Praja Samiti was formed in February 1969. It was renamed in December 1970.",
+   "ty": "numerical",
+   "tq": "Distinguish the organisation’s formation date from its later renaming and merger-related developments.",
+   "sec": "Telangana Praja Samiti - founder, year, 1971 election result"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the Telangana Praja Samiti?",
+   "o": [
+    "President — B. Satyanarayana Reddy",
+    "President — Marri Channa Reddy",
+    "Convener — Indira Gandhi",
+    "Symbol — Plough"
+   ],
+   "a": 1,
+   "x": "Marri Channa Reddy was the president of the Telangana Praja Samiti. Its election symbol was the spade, while B. Satyanarayana Reddy led the Complete Telangana Praja Samiti after the merger dispute.",
+   "ty": "negative",
+   "tq": "Use the wrong-person and wrong-symbol traps in an organisation–leader matching question.",
+   "sec": "Telangana Praja Samiti - founder, year, 1971 election result"
+  },
+  {
+   "s": "In the 1971 Lok Sabha election, the Telangana Praja Samiti won:",
+   "o": [
+    "14 of the 10 seats it contested in Telangana",
+    "14 of all seats in Andhra Pradesh",
+    "10 of the 14 seats it contested in Telangana",
+    "10 of all seats in Andhra Pradesh"
+   ],
+   "a": 2,
+   "x": "The Telangana Praja Samiti won 10 of the 14 Lok Sabha seats it contested in Telangana in the 1971 election.",
+   "ty": "numerical",
+   "tq": "Preserve the numerator–denominator relationship instead of reversing the number of seats contested and won.",
+   "sec": "Telangana Praja Samiti - founder, year, 1971 election result"
+  },
+  {
+   "s": "Consider the following statements regarding the political context of the Telangana Praja Samiti’s 1971 electoral performance:\n1. Indira Gandhi dissolved Parliament on 27 December 1970.\n2. Indira Gandhi subsequently won a two-thirds majority.\n3. Congress lost ground in the Telangana seats.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Parliament was dissolved on 27 December 1970, Indira Gandhi won a two-thirds majority, and Congress nevertheless lost ground in the Telangana seats.",
+   "ty": "statements",
+   "tq": "Handle a mixed-result question by recognising that a national electoral victory can coexist with regional losses.",
+   "sec": "Telangana Praja Samiti - founder, year, 1971 election result"
+  }
+ ]
+}

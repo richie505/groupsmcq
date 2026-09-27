@@ -1,0 +1,328 @@
+{
+ "book": 4,
+ "row": 16,
+ "chunk": 2,
+ "section": "Atmospheric pressure - pressure belts; planetary, periodic and local winds; jet streams",
+ "subsections": [
+  "Local winds and storms → region and effect",
+  "Roaring Forties, Furious Fifties, Shrieking Sixties",
+  "Periodic winds - land and sea breeze, mountain and valley breeze, monsoons"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 25,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 3
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following local winds is a hot, dry summer wind that affects North India as well as Rayalaseema?",
+   "o": [
+    "Mistral",
+    "Harmattan",
+    "Bora",
+    "Loo"
+   ],
+   "a": 3,
+   "x": "The Loo is a hot and dry summer wind affecting North India and also Rayalaseema.",
+   "ty": "fact",
+   "tq": "Use the region–effect association to identify the local wind.",
+   "sec": "Local winds and storms → region and effect"
+  },
+  {
+   "s": "Consider the following statements:\n1. Foehn is a warm, dry wind descending the leeward slope of the Alps.\n2. Chinook is associated with the Rockies and is popularly called the ‘snow eater’.\n3. Both winds can cause the melting of snow.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Foehn occurs in the Alps, while Chinook occurs in the Rockies; both are warm, dry descending winds capable of melting snow.",
+   "ty": "statements",
+   "tq": "Combine region, nature and effect statements before selecting the coded option.",
+   "sec": "Local winds and storms → region and effect"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n\nWind — Region",
+   "o": [
+    "Mistral — Rhone valley of France",
+    "Bora — Sahara Desert",
+    "Leveche — West Africa",
+    "Santa Ana — Adriatic coast"
+   ],
+   "a": 0,
+   "x": "Mistral is a cold wind blowing from the Rhone valley towards the Mediterranean in France.",
+   "ty": "match",
+   "tq": "Start from the sure wind–region pair and eliminate swapped locations.",
+   "sec": "Local winds and storms → region and effect"
+  },
+  {
+   "s": "The Sirocco is best described as a wind that",
+   "o": [
+    "blows from the Sahara towards Italy and may produce ‘blood rain’",
+    "blows from the Adriatic coast towards the Sahara and produces frost",
+    "blows from the Rockies towards the Pacific and causes blizzards",
+    "blows from the Alps towards northern Europe and melts glaciers"
+   ],
+   "a": 0,
+   "x": "Sirocco originates in the Sahara and moves towards Italy or the Mediterranean; after picking up moisture, it may produce ‘blood rain’.",
+   "ty": "fact",
+   "tq": "Test the complete source–destination–effect chain rather than a name alone.",
+   "sec": "Local winds and storms → region and effect"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Bora — Adriatic coast — cold, dry and gusty",
+    "Santa Ana — Southern California — hot and dry",
+    "Shamal — South-east Australia — hot and dusty",
+    "Harmattan — West Africa — ‘the doctor’"
+   ],
+   "a": 2,
+   "x": "Shamal is a hot, dusty north-westerly wind of Iraq and the Persian Gulf. The hot, dusty wind of south-east Australia is the Brickfielder.",
+   "ty": "negative",
+   "tq": "Find the wrongly shifted region while keeping the wind characteristics in view.",
+   "sec": "Local winds and storms → region and effect"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Wind)\nA. Leveche\nB. Brickfielder\nC. Blizzard\nD. Shamal\n\nList-II (Region)\n1. Spain\n2. South-east Australia\n3. Polar lands and North America\n4. Iraq and the Persian Gulf\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-1, B-2, C-3, D-4",
+    "A-2, B-1, C-4, D-3",
+    "A-1, B-3, C-2, D-4",
+    "A-4, B-2, C-3, D-1"
+   ],
+   "a": 0,
+   "x": "Leveche is associated with Spain, Brickfielder with south-east Australia, Blizzard with polar regions and North America, and Shamal with Iraq and the Persian Gulf.",
+   "ty": "match",
+   "tq": "Start from distinctive regional pairs and verify the remaining matches.",
+   "sec": "Local winds and storms → region and effect"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n\n1. Aandhi — north-west India — dust storms\n2. Nor’wester or Kaal Baisakhi — Bihar, Odisha, West Bengal and Assam — violent pre-monsoon thunderstorms\n3. Mango showers — Kerala and Karnataka — pre-monsoon showers aiding mango ripening",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correctly matched. Aandhi consists of dust storms, Kaal Baisakhi consists of violent pre-monsoon thunderstorms, and mango showers aid mango ripening.",
+   "ty": "statements",
+   "tq": "Check each region–phenomenon–effect combination independently.",
+   "sec": "Local winds and storms → region and effect"
+  },
+  {
+   "s": "In India, the Nor’wester or Kaal Baisakhi is particularly associated with which of the following regions?",
+   "o": [
+    "Jammu and Kashmir, Himachal Pradesh and Uttarakhand",
+    "Kerala, Tamil Nadu, Goa and Maharashtra",
+    "Punjab, Haryana, Rajasthan and Gujarat",
+    "Bihar, Odisha, West Bengal and Assam"
+   ],
+   "a": 3,
+   "x": "Nor’westers or Kaal Baisakhi are violent pre-monsoon thunderstorms occurring mainly in Bihar, Odisha, West Bengal and Assam.",
+   "ty": "fact",
+   "tq": "Use the multi-state regional cluster as the identifying clue.",
+   "sec": "Local winds and storms → region and effect"
+  },
+  {
+   "s": "Which one of the following statements regarding local winds is correct?",
+   "o": [
+    "They are temporary, predictable and region-specific winds caused by local temperature and pressure differences.",
+    "They occur only over oceans and are unrelated to relief.",
+    "They are permanent global winds caused only by the rotation of the Earth.",
+    "They are seasonal winds that reverse direction over the entire Indian subcontinent."
+   ],
+   "a": 0,
+   "x": "Local winds are temporary, predictable and region-specific. They arise from factors such as differential heating, pressure gradients, relief, surface cover and season.",
+   "ty": "application",
+   "tq": "Distinguish local winds from planetary and seasonal winds by scale and cause.",
+   "sec": "Local winds and storms → region and effect"
+  },
+  {
+   "s": "Which of the following is NOT a factor contributing to the formation of local winds?",
+   "o": [
+    "Differential heating",
+    "Pressure gradient",
+    "Uniform heating of the entire atmosphere",
+    "Relief and surface cover"
+   ],
+   "a": 2,
+   "x": "Local winds result from differences in heating and pressure, relief, surface cover and seasonal conditions; uniform heating would not create a local pressure gradient.",
+   "ty": "negative",
+   "tq": "Identify the absent causal factor by applying the idea of differential conditions.",
+   "sec": "Local winds and storms → region and effect"
+  },
+  {
+   "s": "Consider the following statements about the major planetary winds:\n1. Trade winds blow from the subtropical high-pressure belt towards the equatorial low-pressure belt.\n2. In the Northern Hemisphere, trade winds generally blow from the north-east.\n3. In the Southern Hemisphere, westerlies generally blow from the north-west.\n4. Polar easterlies blow from the polar high-pressure belt towards the sub-polar low-pressure belt.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Trade winds and polar easterlies are directed towards low-pressure belts, while Southern Hemisphere westerlies have a north-westerly direction.",
+   "ty": "statements",
+   "tq": "Track both the pressure source and the hemisphere-specific wind direction.",
+   "sec": "Roaring Forties, Furious Fifties, Shrieking Sixties"
+  },
+  {
+   "s": "Which of the following statements about the circulation of tropical cyclones is correct?",
+   "o": [
+    "Polar easterlies steer all tropical cyclones directly towards the Equator.",
+    "Trade winds generally steer tropical cyclones westward, while westerlies can turn mature cyclones towards the north-east.",
+    "Trade winds always turn tropical cyclones eastward, while westerlies stop their movement completely.",
+    "The direction of tropical cyclones is unrelated to planetary winds."
+   ],
+   "a": 1,
+   "x": "Trade winds carry tropical cyclones westward towards the eastern coasts of continents, while westerlies may turn mature systems towards the north-east.",
+   "ty": "application",
+   "tq": "Apply the general wind directions to the movement of cyclones.",
+   "sec": "Roaring Forties, Furious Fifties, Shrieking Sixties"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes the Hadley cell from the Walker circulation?",
+   "o": [
+    "Hadley circulation is mainly meridional between the Equator and subtropics, whereas Walker circulation is an east–west zonal circulation over the Pacific.",
+    "Hadley circulation is an east–west Pacific circulation, whereas Walker circulation is a polar circulation.",
+    "Hadley circulation occurs only in the Southern Hemisphere, whereas Walker circulation occurs only in the Northern Hemisphere.",
+    "Both are names for the same local wind system over mountain valleys."
+   ],
+   "a": 0,
+   "x": "In the Hadley cell, air rises near the Equator, moves poleward aloft, sinks near 30° and returns as trade winds. Walker circulation is the east–west zonal cell over the Pacific.",
+   "ty": "comparison",
+   "tq": "Separate the two circulations by direction and geographical scale.",
+   "sec": "Roaring Forties, Furious Fifties, Shrieking Sixties"
+  },
+  {
+   "s": "During the daytime, a coastal city experiences air moving from the sea towards the land. The immediate reason is that",
+   "o": [
+    "the land cools faster than the sea and develops relatively higher pressure",
+    "the pressure over land and sea remains identical throughout the day",
+    "the sea heats faster than the land and develops relatively lower pressure",
+    "the land heats faster than the sea and develops relatively lower pressure"
+   ],
+   "a": 3,
+   "x": "During the day, land heats faster than the sea, producing relatively lower pressure over land and drawing air from the sea. This is the sea breeze.",
+   "ty": "application",
+   "tq": "Infer the breeze from the differential heating and pressure pattern.",
+   "sec": "Periodic winds - land and sea breeze, mountain and valley breeze, monsoons"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding land breeze and sea breeze?",
+   "o": [
+    "Sea breeze blows at night from land to sea, whereas land breeze blows during the day from sea to land.",
+    "Sea breeze blows during the day from sea to land, whereas land breeze blows at night from land to sea.",
+    "Both blow from land to sea because land is always warmer than the sea.",
+    "Both blow from sea to land because water always has lower pressure."
+   ],
+   "a": 1,
+   "x": "Land heats faster during the day, causing sea breeze from sea to land. At night, land cools faster, causing land breeze from land to sea.",
+   "ty": "confusable",
+   "tq": "Discriminate the paired breezes by time and direction.",
+   "sec": "Periodic winds - land and sea breeze, mountain and valley breeze, monsoons"
+  },
+  {
+   "s": "Which of the following correctly describes mountain and valley breezes?",
+   "o": [
+    "Valley breeze blows downhill during the day, while mountain breeze blows uphill at night.",
+    "Valley breeze blows uphill during the day, while mountain breeze blows downhill at night.",
+    "Both breezes blow uphill because slopes are heated throughout the day and night.",
+    "Both breezes blow downhill because cold air rises along mountain slopes."
+   ],
+   "a": 1,
+   "x": "Valley or anabatic breeze rises uphill during the day. Mountain or katabatic breeze descends downhill at night.",
+   "ty": "confusable",
+   "tq": "Use the day–night reversal to separate anabatic and katabatic winds.",
+   "sec": "Periodic winds - land and sea breeze, mountain and valley breeze, monsoons"
+  },
+  {
+   "s": "At night, cold air descending from mountain slopes collects in valleys. Which one of the following effects may result?",
+   "o": [
+    "Permanent low pressure and intense convection",
+    "The formation of the equatorial low-pressure belt",
+    "Temperature inversion and frost",
+    "Sea breeze and coastal cooling"
+   ],
+   "a": 2,
+   "x": "The nocturnal mountain or katabatic breeze carries cold air downhill, where it accumulates in valleys and may produce temperature inversion and frost.",
+   "ty": "application",
+   "tq": "Link the wind process with its immediate atmospheric effect.",
+   "sec": "Periodic winds - land and sea breeze, mountain and valley breeze, monsoons"
+  },
+  {
+   "s": "The word ‘monsoon’ is derived from the Arabic word ‘mausim’, which means",
+   "o": [
+    "storm",
+    "ocean",
+    "season",
+    "reversal"
+   ],
+   "a": 2,
+   "x": "The term monsoon is derived from the Arabic word mausim, meaning season.",
+   "ty": "fact",
+   "tq": "Test the exact meaning of the terminology rather than its climatic effect.",
+   "sec": "Periodic winds - land and sea breeze, mountain and valley breeze, monsoons"
+  },
+  {
+   "s": "Who explained the monsoon as a large-scale land-and-sea breeze in 1686?",
+   "o": [
+    "Alexander von Humboldt",
+    "Alfred Wegener",
+    "Edmond Halley",
+    "George Everest"
+   ],
+   "a": 2,
+   "x": "Edmond Halley explained the monsoon in 1686 as a land-and-sea breeze operating on a large scale.",
+   "ty": "fact",
+   "tq": "Associate the named explanation with its thinker and year.",
+   "sec": "Periodic winds - land and sea breeze, mountain and valley breeze, monsoons"
+  },
+  {
+   "s": "Which of the following best represents the modern explanation of the monsoon?",
+   "o": [
+    "It is linked with the ITCZ, jet streams and heating of the Tibetan Plateau.",
+    "It is caused exclusively by the daily rotation of land and sea breezes along the coast.",
+    "It results only from the permanent pressure belts over the polar regions.",
+    "It is unrelated to land heating and upper-air circulation."
+   ],
+   "a": 0,
+   "x": "The modern explanation connects monsoon circulation with the seasonal movement of the ITCZ, jet streams and heating of Tibet, in addition to land–sea thermal contrasts.",
+   "ty": "statements",
+   "tq": "Reject the ‘exclusively’ trap and identify the multi-factor explanation.",
+   "sec": "Periodic winds - land and sea breeze, mountain and valley breeze, monsoons"
+  },
+  {
+   "s": "Which of the following is a significant climatic effect of sea and land breezes along the Andhra Pradesh coast?",
+   "o": [
+    "They eliminate all seasonal variations in rainfall.",
+    "They create permanent westerlies over the coast.",
+    "They moderate coastal temperatures.",
+    "They prevent the formation of any local pressure differences."
+   ],
+   "a": 2,
+   "x": "The alternating sea and land breezes moderate temperatures along the coast, including the coastal areas of Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Identify the practical coastal effect of periodic thermal winds.",
+   "sec": "Periodic winds - land and sea breeze, mountain and valley breeze, monsoons"
+  },
+  {
+   "s": "Which one of the following statements about mango showers is correct?",
+   "o": [
+    "They are dry dust storms of north-west India that damage mango crops.",
+    "They are convectional pre-monsoon showers occurring in Kerala and Karnataka and help mango ripening.",
+    "They are winter snowfall events in the western Himalayas that ripen apples.",
+    "They are cold winds descending from the Alps towards the Mediterranean."
+   ],
+   "a": 1,
+   "x": "Mango showers are convectional pre-monsoon showers in Kerala and Karnataka; they assist the ripening of mangoes. They are also associated with parts of Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Combine the seasonal timing, region and agricultural effect.",
+   "sec": "Local winds and storms → region and effect"
+  }
+ ]
+}

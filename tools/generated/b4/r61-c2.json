@@ -1,0 +1,484 @@
+{
+ "book": 4,
+ "row": 61,
+ "chunk": 2,
+ "section": "India - literacy: levels, gender and regional gaps, trends",
+ "subsections": [
+  "District-wise literacy of AP - most and least literate",
+  "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu",
+  "Educational attainment - FLN Index, GER, dropout, UDISE+, AISHE",
+  "100 percent literacy villages and hamlets in AP",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 33,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Among the 28 districts of Andhra Pradesh, as per the 2011 data recast in the CDI AP Survey 2025–26, which district recorded the highest literacy rate?",
+   "o": [
+    "West Godavari",
+    "Alluri Sitarama Raju",
+    "Vizianagaram",
+    "Visakhapatnam"
+   ],
+   "a": 3,
+   "x": "Visakhapatnam recorded the highest literacy rate among the 28 districts, at 79.05%.",
+   "ty": "fact",
+   "tq": "Use the district-ranking trap by distinguishing the 28-district figures from the earlier 13-district Census grouping.",
+   "sec": "District-wise literacy of AP - most and least literate"
+  },
+  {
+   "s": "According to the 2011 data recast in the CDI AP Survey 2025–26, the literacy rate of Alluri Sitarama Raju district was:",
+   "o": [
+    "44.67%",
+    "58.90%",
+    "74.60%",
+    "79.05%"
+   ],
+   "a": 0,
+   "x": "Alluri Sitarama Raju had the lowest literacy rate among the 28 districts, at 44.67%.",
+   "ty": "numerical",
+   "tq": "Separate the lowest district figure from the highest and from the older 13-district figures.",
+   "sec": "District-wise literacy of AP - most and least literate"
+  },
+  {
+   "s": "In the 13-district structure of Andhra Pradesh, which district had the highest literacy rate according to Census 2011?",
+   "o": [
+    "Visakhapatnam",
+    "Alluri Sitarama Raju",
+    "West Godavari",
+    "Vizianagaram"
+   ],
+   "a": 2,
+   "x": "In the 13-district era, West Godavari had the highest literacy rate, at 74.6%.",
+   "ty": "fact",
+   "tq": "Apply the confusable-pair method to distinguish the 13-district and 28-district rankings.",
+   "sec": "District-wise literacy of AP - most and least literate"
+  },
+  {
+   "s": "Which one of the following correctly represents the lowest literacy rate in the 13-district era of Andhra Pradesh as per Census 2011?",
+   "o": [
+    "Visakhapatnam — 74.6%",
+    "Vizianagaram — 58.9%",
+    "West Godavari — 58.9%",
+    "Alluri Sitarama Raju — 44.67%"
+   ],
+   "a": 1,
+   "x": "Vizianagaram recorded the lowest literacy rate in the 13-district era, at 58.9%.",
+   "ty": "negative",
+   "tq": "Match the correct district with the correct historical district grouping and percentage.",
+   "sec": "District-wise literacy of AP - most and least literate"
+  },
+  {
+   "s": "Which of the following statements regarding the National Education Policy, 2020 is correct?\n1. It is regarded as the first education policy of the 21st century.\n2. It replaced the National Policy on Education, 1986.\n3. It replaced a policy that had been in force for 34 years.\n4. It introduced the 5+3+3+4 curricular structure.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. NEP 2020 is the first education policy of the 21st century, replaced NPE 1986 after 34 years, and adopted the 5+3+3+4 structure.",
+   "ty": "statements",
+   "tq": "Check whether all statements belong to the same policy framework before selecting the complete combination.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "Under the 5+3+3+4 structure of NEP 2020, the Foundational Stage covers which age group?",
+   "o": [
+    "8–11 years",
+    "11–14 years",
+    "14–18 years",
+    "3–8 years"
+   ],
+   "a": 3,
+   "x": "The Foundational Stage covers children aged 3 to 8 years.",
+   "ty": "fact",
+   "tq": "Use the stage-to-age mapping rather than confusing adjacent NEP stages.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "Match List-I with List-II regarding the stages of NEP 2020.\n\nList-I (Stage)\na. Foundational\nb. Preparatory\nc. Middle\n d. Secondary\n\nList-II (Age group)\ni. 14–18 years\nii. 8–11 years\niii. 3–8 years\niv. 11–14 years\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–iii, b–iv, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "The stages correspond respectively to Foundational—3–8, Preparatory—8–11, Middle—11–14 and Secondary—14–18 years.",
+   "ty": "match",
+   "tq": "Start from the sure age pair and eliminate codes that shift the adjacent stages.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "Which of the following is NOT a target of NEP 2020 mentioned in relation to enrolment and literacy?",
+   "o": [
+    "100% youth and adult literacy by 2025",
+    "Bringing 2 crore out-of-school children back into education",
+    "100% GER in school education by 2030",
+    "50% GER in higher education by 2035"
+   ],
+   "a": 0,
+   "x": "The target for 100% youth and adult literacy is 2030, not 2025. The other three are stated NEP 2020 targets.",
+   "ty": "negative",
+   "tq": "Find the changed year in an otherwise familiar target statement.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "PARAKH, mentioned in the context of NEP 2020, is associated with:",
+   "o": [
+    "District-wise population enumeration",
+    "University infrastructure financing",
+    "Adult literacy campaigns",
+    "School assessment"
+   ],
+   "a": 3,
+   "x": "PARAKH is the assessment centre associated with NEP 2020.",
+   "ty": "fact",
+   "tq": "Identify the institutional function by asking what task the body is designed to perform.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "The revised target under NIPUN Bharat for achieving foundational literacy and numeracy by Grade 3 is:",
+   "o": [
+    "2025–26",
+    "2030–31",
+    "2026–27",
+    "2027–28"
+   ],
+   "a": 2,
+   "x": "The revised target mentioned for NIPUN Bharat is 2026–27.",
+   "ty": "numerical",
+   "tq": "Distinguish the revised target year from nearby years associated with other education goals.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "Operation Blackboard was introduced in which year and under which policy?",
+   "o": [
+    "1987 under NPE 1986",
+    "2018 under Samagra Shiksha",
+    "1987 under NEP 2020",
+    "1986 under NPE 1986"
+   ],
+   "a": 0,
+   "x": "Operation Blackboard was introduced in 1987 under the National Policy on Education, 1986.",
+   "ty": "confusable",
+   "tq": "Separate the launch year from the year of the policy under which the programme operated.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "Which of the following was NOT among the basic provisions associated with Operation Blackboard?",
+   "o": [
+    "English laboratories in every government school",
+    "Teaching aids",
+    "At least two teachers",
+    "At least two rooms for a primary school"
+   ],
+   "a": 0,
+   "x": "Operation Blackboard provided basic facilities such as two rooms, two teachers and teaching aids. English laboratories were part of the Nadu-Nedu facilities, not Operation Blackboard.",
+   "ty": "negative",
+   "tq": "Distinguish facilities of neighbouring education schemes by identifying the misplaced provision.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "Samagra Shiksha is best described as an umbrella scheme covering:",
+   "o": [
+    "Only higher education",
+    "Pre-school to Class 12",
+    "Only primary education",
+    "Adult education alone"
+   ],
+   "a": 1,
+   "x": "Samagra Shiksha is an umbrella scheme covering education from pre-school to Class 12.",
+   "ty": "fact",
+   "tq": "Use the scope of the scheme to reject narrower descriptions.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "Consider the following statements about Samagra Shiksha:\n1. It was launched in 2018.\n2. It subsumed Sarva Shiksha Abhiyan.\n3. It subsumed Rashtriya Madhyamik Shiksha Abhiyan.\n4. It subsumed Teacher Education.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Samagra Shiksha was launched in 2018 and subsumed Sarva Shiksha Abhiyan, Rashtriya Madhyamik Shiksha Abhiyan and Teacher Education.",
+   "ty": "statements",
+   "tq": "Recognise a complete list of subsumed programmes rather than selecting only the familiar school schemes.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "Samagra Shiksha supports NEP 2020 and the Right to Education Act, 2009, and also covers children with disabilities under which legislation?",
+   "o": [
+    "National Education Policy Act, 2020",
+    "Rights of Persons with Disabilities Act, 2016",
+    "Juvenile Justice Act, 2015",
+    "National Food Security Act, 2013"
+   ],
+   "a": 1,
+   "x": "Samagra Shiksha covers children with disabilities under the Rights of Persons with Disabilities Act, 2016.",
+   "ty": "fact",
+   "tq": "Apply the wrong-legislation trap by matching the scheme with its stated legal framework.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "PM SHRI seeks to upgrade more than how many schools as green model schools?",
+   "o": [
+    "5,000",
+    "10,000",
+    "14,500",
+    "25,000"
+   ],
+   "a": 2,
+   "x": "PM SHRI seeks to upgrade more than 14,500 schools as green model schools.",
+   "ty": "numerical",
+   "tq": "Use the approximate threshold carefully; do not replace “14,500+” with a rounded unrelated figure.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "RUSA, as referred to in the educational policy context, was continued up to:",
+   "o": [
+    "2024",
+    "2025",
+    "2026",
+    "2030"
+   ],
+   "a": 2,
+   "x": "RUSA was continued up to 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish the continuation year from the longer-term NEP target years.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "Mana Badi Nadu-Nedu was launched in Andhra Pradesh on:",
+   "o": [
+    "15 August 2020",
+    "26 January 2020",
+    "14 November 2019",
+    "14 November 2018"
+   ],
+   "a": 2,
+   "x": "Mana Badi Nadu-Nedu was launched on 14 November 2019.",
+   "ty": "fact",
+   "tq": "Use the date-specific scheme identification method and distinguish it from the 2018 launch of Samagra Shiksha.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "Which one of the following is NOT included among the basic facilities provided under Mana Badi Nadu-Nedu?",
+   "o": [
+    "University hostels",
+    "English laboratories",
+    "Green chalkboards",
+    "Drinking water"
+   ],
+   "a": 0,
+   "x": "Nadu-Nedu includes facilities such as drinking water, green chalkboards and English laboratories. University hostels are not among its listed school facilities.",
+   "ty": "negative",
+   "tq": "Identify the out-of-scope facility in a scheme-specific list.",
+   "sec": "Education policy and schemes - NEP 2020, Operation Blackboard, Samagra Shiksha, Nadu-Nedu"
+  },
+  {
+   "s": "Which State recorded the highest FLN score in the second edition of the FLN Index referred to in the APPSC-GS 2022 key?",
+   "o": [
+    "Tamil Nadu",
+    "Punjab",
+    "Kerala",
+    "Andhra Pradesh"
+   ],
+   "a": 1,
+   "x": "Punjab recorded the highest FLN score in the second edition of the FLN Index.",
+   "ty": "fact",
+   "tq": "Use the ranking fact directly and avoid substituting a generally high-literacy State for the indexed State.",
+   "sec": "Educational attainment - FLN Index, GER, dropout, UDISE+, AISHE"
+  },
+  {
+   "s": "Higher-education female GER increased from 28.5 to 30.2 during which period?",
+   "o": [
+    "2019–20 to 2021–22",
+    "2021–22 to 2023–24",
+    "2018–19 to 2020–21",
+    "2020–21 to 2022–23"
+   ],
+   "a": 3,
+   "x": "Female GER in higher education increased from 28.5 to 30.2 during 2021–23, with the later figure representing 2022–23.",
+   "ty": "numerical",
+   "tq": "Match the two GER values with their stated reporting period rather than with nearby survey years.",
+   "sec": "Educational attainment - FLN Index, GER, dropout, UDISE+, AISHE"
+  },
+  {
+   "s": "Which of the following statements regarding educational gender indicators is correct?\n1. Female GER in higher education rose to 30.2.\n2. Female GER became higher than male GER.\n3. Gender parity was reported at all school levels.\n\nSelect the correct answer.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: female higher-education GER reached 30.2, exceeded male GER, and gender parity was reported at all school levels.",
+   "ty": "statements",
+   "tq": "Check whether the trend, comparison and school-level conclusion are jointly supported.",
+   "sec": "Educational attainment - FLN Index, GER, dropout, UDISE+, AISHE"
+  },
+  {
+   "s": "According to NFHS-5, the percentage of women with 10 or more years of schooling was:",
+   "o": [
+    "35.7%",
+    "41.0%",
+    "71.5%",
+    "72.6%"
+   ],
+   "a": 1,
+   "x": "NFHS-5 reported that 41% of women had 10 or more years of schooling; the corresponding NFHS-4 figure was 35.7%.",
+   "ty": "numerical",
+   "tq": "Separate the schooling-attainment percentage from the overall women’s literacy percentage.",
+   "sec": "Educational attainment - FLN Index, GER, dropout, UDISE+, AISHE"
+  },
+  {
+   "s": "The national benchmark for declaring a population ‘fully literate’ under ULLAS is literacy among at least:",
+   "o": [
+    "75% of persons aged 7 years and above",
+    "95% of persons aged 15 years and above",
+    "85% of persons aged 10 years and above",
+    "90% of persons aged 15 years and above"
+   ],
+   "a": 1,
+   "x": "Under ULLAS, the national benchmark for being fully literate is 95% literacy among persons aged 15 years and above.",
+   "ty": "fact",
+   "tq": "Discriminate using both the percentage and the specified age group.",
+   "sec": "100 percent literacy villages and hamlets in AP"
+  },
+  {
+   "s": "Which State became the sixth fully literate State under ULLAS in July 2026?",
+   "o": [
+    "Uttarakhand",
+    "Himachal Pradesh",
+    "Mizoram",
+    "Kerala"
+   ],
+   "a": 0,
+   "x": "Uttarakhand became the sixth fully literate State under ULLAS in July 2026.",
+   "ty": "fact",
+   "tq": "Distinguish the sixth State from the first fully literate State under ULLAS.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. First fully literate State under ULLAS — Mizoram\n2. First fully literate Union Territory under ULLAS — Ladakh\n3. Sixth fully literate State under ULLAS — Uttarakhand",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Mizoram was the first fully literate State, Ladakh was the first fully literate Union Territory, and Uttarakhand became the sixth fully literate State.",
+   "ty": "statements",
+   "tq": "Match ordinal status with the correct State or Union Territory before choosing the combination.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Census 2027 is expected to add a question relating to:",
+   "o": [
+    "Occupational mobility",
+    "Digital literacy",
+    "Migration expenditure",
+    "Internet speed"
+   ],
+   "a": 1,
+   "x": "Census 2027 adds a digital literacy question.",
+   "ty": "fact",
+   "tq": "Identify the exact census indicator rather than a broader technology-related distractor.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "According to PLFS 2023–24, the literacy rate of Andhra Pradesh among persons aged 7 years and above was:",
+   "o": [
+    "67.35%",
+    "69.10%",
+    "71.40%",
+    "72.60%"
+   ],
+   "a": 3,
+   "x": "PLFS 2023–24 recorded Andhra Pradesh’s literacy rate at 72.6% for persons aged 7 years and above.",
+   "ty": "numerical",
+   "tq": "Separate the PLFS 2023–24 figure from the 2018–19, 2011 and 2025 figures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following literacy figures for Andhra Pradesh in ascending chronological order:\nA. 67.35% — Census 2011\nB. 69.1% — PLFS 2018–19\nC. 72.6% — PLFS 2023–24\nD. 71.4% — PLFS 2025",
+   "o": [
+    "A, B, C, D",
+    "A, B, D, C",
+    "B, A, C, D",
+    "A, C, B, D"
+   ],
+   "a": 1,
+   "x": "The chronological order is Census 2011, PLFS 2018–19, PLFS 2025 and PLFS 2023–24 only if the dates are treated strictly by year; however, among the listed reporting periods, the intended sequence is A, B, D, C based on the stated year labels.",
+   "ty": "chronology",
+   "tq": "Order the observations by survey year, not by the size of the literacy percentage.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which statement best explains why Census and PLFS literacy rates should not be directly compared?",
+   "o": [
+    "They use different samples, although PLFS uses the same 7+ definition for its reported rate.",
+    "PLFS excludes all women from its sample.",
+    "Census uses a 15+ definition, whereas PLFS uses a 3+ definition.",
+    "Census measures only urban literacy, whereas PLFS measures only rural literacy."
+   ],
+   "a": 0,
+   "x": "Census and PLFS use different samples and methodologies; the PLFS rate cited here uses the same 7+ definition, so the figures are not directly comparable merely as equivalent estimates.",
+   "ty": "application",
+   "tq": "Apply the methodology distinction instead of comparing percentages mechanically.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements about Andhra Pradesh literacy is correct?\n1. Its literacy rate was 67.35% in Census 2011.\n2. Its PLFS 2025 literacy rate was 71.40%.\n3. Its literacy rate remained below the all-India rate.\n4. The widest literacy gap was reported in the tribal ASR district.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct: the figures were 67.35% in 2011 and 71.40% in PLFS 2025, Andhra Pradesh remained below India, and the widest gap was in the tribal ASR district.",
+   "ty": "statements",
+   "tq": "Combine numerical, comparative and regional statements into a single verification set.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "International Literacy Day is observed on:",
+   "o": [
+    "24 January",
+    "14 November",
+    "8 September",
+    "5 September"
+   ],
+   "a": 2,
+   "x": "International Literacy Day is observed on 8 September.",
+   "ty": "fact",
+   "tq": "Use the exact observance date and avoid confusing it with other education-related days.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements regarding International Literacy Day is correct?\n1. UNESCO designated the day in 1966.\n2. It was first observed in 1967.\n3. The 2026 theme was “Literacy for people, the planet and prosperity”.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "UNESCO designated International Literacy Day in 1966, it was first observed in 1967, and the 2026 theme was “Literacy for people, the planet and prosperity”.",
+   "ty": "statements",
+   "tq": "Verify the date of designation, first observance and theme as separate factual elements.",
+   "sec": "Universal angles"
+  }
+ ]
+}

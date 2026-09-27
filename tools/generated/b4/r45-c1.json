@@ -1,0 +1,315 @@
+{
+ "book": 4,
+ "row": 45,
+ "chunk": 1,
+ "section": "India - earthquake zones, landslide-prone areas, cyclone-prone coasts; seismic zoning map",
+ "subsections": [
+  "Natural hazards → region matching and reservoir-induced seismicity (Koyna)",
+  "Tsunami-prone coasts and warning centres (INCOIS)",
+  "Building codes and BIS seismic standards",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 23,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following hazard-region associations is correctly matched?\n1. Himalaya — Landslides\n2. Indo-Gangetic Plain — Liquefaction\n3. Kutch — Zone V earthquakes\n4. Western Ghats — Landslides\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four associations are correct. The Himalaya and Western Ghats are landslide-prone, the Indo-Gangetic Plain is vulnerable to liquefaction, and Kutch is among the Zone V earthquake-prone regions.",
+   "ty": "statements",
+   "tq": "Use a region-by-hazard elimination approach and check each association independently.",
+   "sec": "Natural hazards → region matching and reservoir-induced seismicity (Koyna)"
+  },
+  {
+   "s": "The classic example of reservoir-induced seismicity in India is associated with which dam?",
+   "o": [
+    "Srisailam Dam",
+    "Koyna Dam",
+    "Polavaram Dam",
+    "Nagarjuna Sagar Dam"
+   ],
+   "a": 1,
+   "x": "Koyna Dam is the classic Indian example of reservoir-induced seismicity; significant tremors were associated with the reservoir in 1967.",
+   "ty": "fact",
+   "tq": "Identify the classic example by linking the phenomenon directly with its well-known site.",
+   "sec": "Natural hazards → region matching and reservoir-induced seismicity (Koyna)"
+  },
+  {
+   "s": "Koyna reservoir-induced seismicity is associated with which year?",
+   "o": [
+    "1948",
+    "1967",
+    "1975",
+    "1993"
+   ],
+   "a": 1,
+   "x": "The classic Koyna reservoir-induced seismicity case is associated with 1967.",
+   "ty": "numerical",
+   "tq": "Distinguish the specific event year from other important earthquake years.",
+   "sec": "Natural hazards → region matching and reservoir-induced seismicity (Koyna)"
+  },
+  {
+   "s": "The Geological Survey of India monitors crustal strain through how many GNSS stations?",
+   "o": [
+    "24",
+    "34",
+    "44",
+    "54"
+   ],
+   "a": 1,
+   "x": "The Geological Survey of India monitors crustal strain through 34 GNSS stations.",
+   "ty": "numerical",
+   "tq": "Use precise numerical recall where the options differ by a regular interval.",
+   "sec": "Natural hazards → region matching and reservoir-induced seismicity (Koyna)"
+  },
+  {
+   "s": "The Indian Tsunami Early Warning Centre is located at which institution and city?",
+   "o": [
+    "ISRO, Bengaluru",
+    "GSI, Kolkata",
+    "INCOIS, Hyderabad",
+    "NDMA, New Delhi"
+   ],
+   "a": 2,
+   "x": "The Indian Tsunami Early Warning Centre is located at the Indian National Centre for Ocean Information Services (INCOIS), Hyderabad, under the Ministry of Earth Sciences.",
+   "ty": "fact",
+   "tq": "Apply the ‘who would do this job?’ method to distinguish the warning centre from related agencies.",
+   "sec": "Tsunami-prone coasts and warning centres (INCOIS)"
+  },
+  {
+   "s": "The Indian Tsunami Early Warning Centre has been operating since:",
+   "o": [
+    "2004",
+    "2005",
+    "2007",
+    "2010"
+   ],
+   "a": 2,
+   "x": "The Indian Tsunami Early Warning Centre at INCOIS has been operating since 2007.",
+   "ty": "numerical",
+   "tq": "Separate the establishment year from the year of the major tsunami that prompted heightened awareness.",
+   "sec": "Tsunami-prone coasts and warning centres (INCOIS)"
+  },
+  {
+   "s": "Which of the following are used by the Indian Tsunami Early Warning Centre for tsunami warning?\n1. Seismic monitoring\n2. Ocean buoys\n3. Sirens\n4. Satellite-based land surveys alone\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Seismic monitoring, ocean buoys and sirens are used for tsunami warning. The centre does not rely on satellite-based land surveys alone.",
+   "ty": "statements",
+   "tq": "Reject the extreme word ‘alone’ and identify the actual combination of warning tools.",
+   "sec": "Tsunami-prone coasts and warning centres (INCOIS)"
+  },
+  {
+   "s": "Which parts of India are described as the most exposed to tsunami risk?",
+   "o": [
+    "The Himalayan foothills and the Rann of Kutch",
+    "The east coast and the Andaman and Nicobar Islands",
+    "The western coast and Lakshadweep Islands",
+    "The Indo-Gangetic Plain and the Western Ghats"
+   ],
+   "a": 1,
+   "x": "India’s east coast and the Andaman and Nicobar Islands are the most exposed areas to tsunami risk.",
+   "ty": "fact",
+   "tq": "Use the location clue and distinguish tsunami-exposed coasts from earthquake- or landslide-prone regions.",
+   "sec": "Tsunami-prone coasts and warning centres (INCOIS)"
+  },
+  {
+   "s": "Consider the following statements regarding ISRO’s role in coastal hazard management:\n1. Its DMS maps coastal vulnerability.\n2. It runs the National Database for Emergency Management.\n3. It operates the Indian Tsunami Early Warning Centre at Hyderabad.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "ISRO’s DMS maps coastal vulnerability and runs the NDEM database. The Indian Tsunami Early Warning Centre is located at INCOIS, Hyderabad, not operated by ISRO.",
+   "ty": "statements",
+   "tq": "Use the wrong-authority trap by separating ISRO’s disaster-mapping functions from INCOIS’s warning-centre function.",
+   "sec": "Tsunami-prone coasts and warning centres (INCOIS)"
+  },
+  {
+   "s": "Which Indian Standard specifies seismic design criteria for structures?",
+   "o": [
+    "IS 13920",
+    "Vulnerability Atlas of India",
+    "National Building Code only",
+    "IS 1893"
+   ],
+   "a": 3,
+   "x": "IS 1893 sets the seismic design criteria for structures. IS 13920 deals with ductile detailing.",
+   "ty": "confusable",
+   "tq": "Discriminate between the two closely related BIS standards by their specific functions.",
+   "sec": "Building codes and BIS seismic standards"
+  },
+  {
+   "s": "IS 13920 is primarily concerned with:",
+   "o": [
+    "Ductile detailing of structures",
+    "Crustal strain monitoring",
+    "Coastal vulnerability mapping",
+    "Tsunami warning through ocean buoys"
+   ],
+   "a": 0,
+   "x": "IS 13920 covers ductile detailing, which improves the earthquake resistance of structures. Seismic design criteria are specified under IS 1893.",
+   "ty": "confusable",
+   "tq": "Match the standard with its exact technical purpose rather than its broad subject area.",
+   "sec": "Building codes and BIS seismic standards"
+  },
+  {
+   "s": "Which of the following correctly describes the relationship among India’s building safety provisions?",
+   "o": [
+    "IS 13920 alone replaces both IS 1893 and the National Building Code.",
+    "The National Building Code applies only to dams and reservoirs, while BIS standards apply only to roads.",
+    "IS 1893 covers seismic design criteria, IS 13920 covers ductile detailing, and the National Building Code also applies.",
+    "IS 1893 covers tsunami warning, IS 13920 covers coastal mapping, and the National Building Code is not applicable."
+   ],
+   "a": 2,
+   "x": "IS 1893 specifies seismic design criteria, IS 13920 covers ductile detailing, and the National Building Code is applicable to building safety provisions.",
+   "ty": "comparison",
+   "tq": "Compare each standard by function and reject options that assign unrelated disaster-management roles.",
+   "sec": "Building codes and BIS seismic standards"
+  },
+  {
+   "s": "Which institution publishes the Vulnerability Atlas?",
+   "o": [
+    "BMTPC",
+    "APSDMA",
+    "GSI",
+    "INCOIS"
+   ],
+   "a": 0,
+   "x": "The Building Materials and Technology Promotion Council (BMTPC) publishes the Vulnerability Atlas.",
+   "ty": "fact",
+   "tq": "Identify the responsible institution by separating building-technology functions from hazard-monitoring agencies.",
+   "sec": "Building codes and BIS seismic standards"
+  },
+  {
+   "s": "Why have safer seismic building codes for the Himalayan region reportedly faced delay?",
+   "o": [
+    "Concern over implementation costs",
+    "Exclusive dependence on tsunami warning systems",
+    "Lack of any seismic risk in the Himalaya",
+    "Absence of building regulations in India"
+   ],
+   "a": 0,
+   "x": "Safer Himalayan building codes have faced delays because of the cost involved in implementing them.",
+   "ty": "application",
+   "tq": "Link the policy delay to the stated economic constraint rather than to a false absence of hazard.",
+   "sec": "Building codes and BIS seismic standards"
+  },
+  {
+   "s": "The revised seismic map containing Zone VI was withdrawn in:",
+   "o": [
+    "March 2025",
+    "March 2026",
+    "March 2024",
+    "September 2026"
+   ],
+   "a": 1,
+   "x": "The revised seismic map containing Zone VI was withdrawn in March 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish the recent policy year from earlier earthquake and zoning developments.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about the community disaster risk reduction project of NDMA and MoPR:\n1. It involves an outlay of ₹507.37 crore.\n2. It covers 20 States.\n3. It covers 81 districts.\n4. It is implemented through panchayats.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The project has an outlay of ₹507.37 crore, covers 20 States and 81 districts, and operates through panchayats.",
+   "ty": "statements",
+   "tq": "Verify every numerical and institutional element before choosing the complete combination.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The proposed annual State Disaster Vulnerability Index is intended to be associated with:",
+   "o": [
+    "Allocation of Finance Commission awards",
+    "Classification of tsunami waves by INCOIS",
+    "Revision of mineral royalty rates",
+    "Determination of monsoon onset dates"
+   ],
+   "a": 0,
+   "x": "The proposed annual NDMA State Disaster Vulnerability Index is intended to inform Finance Commission awards.",
+   "ty": "application",
+   "tq": "Connect the proposed index with its stated policy and financial application.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements regarding disaster management in Andhra Pradesh is correct?",
+   "o": [
+    "APSDMA is chaired by the Chief Minister and runs the State Emergency Operations Centre.",
+    "APSDMA is chaired by the Union Home Minister and runs the State Tsunami Centre.",
+    "APSDMA is chaired by the Chief Secretary and runs the INCOIS warning centre.",
+    "APSDMA is chaired by the Governor and runs the National Emergency Operations Centre."
+   ],
+   "a": 0,
+   "x": "APSDMA is chaired by the Chief Minister and runs the State Emergency Operations Centre. INCOIS operates the Indian Tsunami Early Warning Centre at Hyderabad.",
+   "ty": "negative",
+   "tq": "Apply the wrong-authority and wrong-body traps to separate State, Union and national institutions.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which city in Andhra Pradesh hosts a cyclone warning centre?",
+   "o": [
+    "Tirupati",
+    "Kurnool",
+    "Vijayawada",
+    "Visakhapatnam"
+   ],
+   "a": 3,
+   "x": "Visakhapatnam hosts a cyclone warning centre.",
+   "ty": "fact",
+   "tq": "Use location-based recall and distinguish the coastal hazard centre from inland cities.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to seismic zoning in Andhra Pradesh, which statement is correct?",
+   "o": [
+    "The entire State lies in Zone V.",
+    "Andhra Pradesh has no area in Zone V.",
+    "Only Visakhapatnam lies in Zone V.",
+    "All coastal districts lie in Zone V."
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh has no area falling in Seismic Zone V.",
+   "ty": "negative",
+   "tq": "Watch for absolute location claims and identify the stated exception to the national pattern.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The principal debate concerning probabilistic seismic hazard assessment (PSHA) zoning relates to:",
+   "o": [
+    "Its scientific use versus its cost implications for the built environment",
+    "Its inability to map any earthquake-prone region",
+    "Its replacement of all building codes by cyclone warnings",
+    "Its exclusive application to tsunami prediction"
+   ],
+   "a": 0,
+   "x": "The debate concerns the use of probabilistic seismic hazard assessment for zoning and the associated cost implications for the built environment.",
+   "ty": "comparison",
+   "tq": "Identify the genuine policy trade-off instead of accepting unrelated hazard-management functions.",
+   "sec": "Universal angles"
+  }
+ ]
+}

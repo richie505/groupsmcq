@@ -1,0 +1,400 @@
+{
+ "book": 1,
+ "row": 255,
+ "chunk": 10,
+ "section": "Linguistic reorganisation demand; Potti Sriramulu's fast and the formation of Andhra State 1953",
+ "subsections": [
+  "Leaders - contribution",
+  "Popular titles - person",
+  "Leaders who opposed separate Andhra - reason",
+  "Leaders of the post-1947 phase - role",
+  "Leaders - newspapers founded (Swarajya)"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 7,
+  "dupe_of_pyq": 4
+ },
+ "accepted": [
+  {
+   "s": "Which of the following periodicals was associated with Nyapati Subba Rao?",
+   "o": [
+    "Andhra Kesari",
+    "Swarajya",
+    "Vaijayanti",
+    "Desamata"
+   ],
+   "a": 2,
+   "x": "Nyapati Subba Rao was associated with the monthly periodicals Vaijayanti and People's Magazine.",
+   "ty": "fact",
+   "tq": "Use nearby newspaper names as plausible distractors.",
+   "sec": "Leaders - contribution"
+  },
+  {
+   "s": "Consider the following statements about Chilukuri Veerabhadra Rao:\n1. He founded Andhra Kesari in 1904 at Rajahmundry.\n2. He wrote Andhrula Charitra.\n3. He founded the Andhra Patrika.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Chilukuri Veerabhadra Rao founded Andhra Kesari in 1904 and wrote Andhrula Charitra. Andhra Patrika was associated with Kasinathuni Nageswara Rao.",
+   "ty": "statements",
+   "tq": "Find the wrong person linked with a newspaper.",
+   "sec": "Leaders - contribution"
+  },
+  {
+   "s": "Chilukuri Veerabhadra Rao established the Balabharati Samithi in:",
+   "o": [
+    "1913",
+    "1906",
+    "February 1907",
+    "1904"
+   ],
+   "a": 2,
+   "x": "The Balabharati Samithi was established by Chilukuri Veerabhadra Rao in February 1907.",
+   "ty": "numerical",
+   "tq": "Test a month-year combination rather than a broad period.",
+   "sec": "Leaders - contribution"
+  },
+  {
+   "s": "Who founded the Vijnana Chandrika Mandali in 1906 along with Komarraju Lakshmana Rao?",
+   "o": [
+    "Nyapati Subba Rao",
+    "B.N. Sarma",
+    "Chilukuri Veerabhadra Rao",
+    "Kasinathuni Nageswara Rao"
+   ],
+   "a": 2,
+   "x": "Chilukuri Veerabhadra Rao founded the Vijnana Chandrika Mandali in 1906 with Komarraju Lakshmana Rao.",
+   "ty": "fact",
+   "tq": "Test a co-founder relationship.",
+   "sec": "Leaders - contribution"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Leader)\na. Konda Venkatappayya\nb. Nyapati Subba Rao\nc. Chilukuri Veerabhadra Rao\n d. B.N. Sarma\n\nList-II (Association)\ni. Linguistic-provinces resolution in the Imperial Legislative Council\n ii. Andhrula Charitra\n iii. First secretary of the Andhra Congress Committee\n iv. First president of the Andhra Congress Committee\n\nSelect the correct answer using the code below.",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–ii, b–iv, c–iii, d–i"
+   ],
+   "a": 0,
+   "x": "Konda Venkatappayya was the first secretary, Nyapati Subba Rao the first president, Chilukuri Veerabhadra Rao wrote Andhrula Charitra, and B.N. Sarma moved the linguistic-provinces resolution.",
+   "ty": "match",
+   "tq": "Start from the sure office-holder pair and eliminate codes.",
+   "sec": "Leaders - contribution"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Gokhale of South India — Mocherla Ramachandra Rao",
+    "Desoddharaka — Pattabhi Sitaramayya",
+    "Andhra Ratna — Duggirala Gopalakrishnaiah",
+    "Deshabhakta — Konda Venkatappayya"
+   ],
+   "a": 1,
+   "x": "Desoddharaka was the title of Kasinathuni Nageswara Rao, not Pattabhi Sitaramayya.",
+   "ty": "negative",
+   "tq": "Use the known confusable title-person pair to find the mismatch.",
+   "sec": "Popular titles - person"
+  },
+  {
+   "s": "The title ‘Rayalaseema Kuruvriddhudu’ or ‘Pitamaha’ is associated with:",
+   "o": [
+    "Kalluri Subbarao",
+    "Mocherla Ramachandra Rao",
+    "Gollapudi Sitarama Sastri",
+    "Jenda Narsayya"
+   ],
+   "a": 0,
+   "x": "Kalluri Subbarao was known as Rayalaseema Kuruvriddhudu or Pitamaha.",
+   "ty": "fact",
+   "tq": "Test regional honorifics directly.",
+   "sec": "Popular titles - person"
+  },
+  {
+   "s": "Who was popularly known as Jenda Narsayya?",
+   "o": [
+    "Thota Narsayya Naidu",
+    "Duggirala Gopalakrishnaiah",
+    "Kasinathuni Nageswara Rao",
+    "Gollapudi Sitarama Sastri"
+   ],
+   "a": 0,
+   "x": "Thota Narsayya Naidu was popularly known as Jenda Narsayya.",
+   "ty": "fact",
+   "tq": "Match the exact title with the person rather than a similar leader.",
+   "sec": "Popular titles - person"
+  },
+  {
+   "s": "‘Swami Sitaram’ was the popular name of:",
+   "o": [
+    "Potti Sriramulu",
+    "Gollapudi Sitarama Sastri",
+    "Gadicherla Harisarvottama Rao",
+    "Kalluri Subbarao"
+   ],
+   "a": 1,
+   "x": "Swami Sitaram was the popular name of Gollapudi Sitarama Sastri.",
+   "ty": "fact",
+   "tq": "Test an alias-person relationship.",
+   "sec": "Popular titles - person"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Nyapati Subba Rao — Rajabahadur and Padyavinoda",
+    "Konda Venkatappayya — Andhra Ratna",
+    "Potti Sriramulu — Desoddharaka",
+    "Mocherla Ramachandra Rao — Amarajeevi"
+   ],
+   "a": 0,
+   "x": "Nyapati Subba Rao held the titles Rajabahadur and Padyavinoda. Andhra Ratna was Duggirala Gopalakrishnaiah, Desoddharaka was Kasinathuni Nageswara Rao, and Amarajeevi was Potti Sriramulu.",
+   "ty": "match",
+   "tq": "Check each title against the exact person before selecting the complete pair.",
+   "sec": "Popular titles - person"
+  },
+  {
+   "s": "B.N. Sarma opposed the 1913 separate Andhra demand because he considered it:",
+   "o": [
+    "A demand exclusively supported by the Circars",
+    "A proposal that ignored the Telugu language",
+    "Premature and more harmful than beneficial",
+    "A threat to the zamindari system"
+   ],
+   "a": 2,
+   "x": "B.N. Sarma considered the 1913 demand premature and believed that it would do more harm than good.",
+   "ty": "fact",
+   "tq": "Test the reason for opposition, not merely the name of the opponent.",
+   "sec": "Leaders who opposed separate Andhra - reason"
+  },
+  {
+   "s": "Who described the separate Andhra demand in 1913 as impractical and a ‘Brahmin movement’?",
+   "o": [
+    "R. Suryanarayana Rao",
+    "Guthi Kesava Pillai",
+    "Ekambaram Ayyar",
+    "N. Subba Rao"
+   ],
+   "a": 1,
+   "x": "Guthi Kesava Pillai of Mahanandi described the demand as impractical and a ‘Brahmin movement’.",
+   "ty": "fact",
+   "tq": "Match a distinctive quoted criticism with its speaker.",
+   "sec": "Leaders who opposed separate Andhra - reason"
+  },
+  {
+   "s": "Which one of the following leaders initially opposed the Andhra demand in 1916 but later supported it at Cuddapah in 1918?",
+   "o": [
+    "Nemali Pattabhi Rama Rao",
+    "Jinnah",
+    "Ekambaram Ayyar",
+    "N.M. Sastry"
+   ],
+   "a": 0,
+   "x": "Nemali Pattabhi Rama Rao of Cuddapah initially opposed the demand in 1916 but changed his position and supported it at Cuddapah in 1918.",
+   "ty": "chronology",
+   "tq": "Track the change in a leader’s position across two dates.",
+   "sec": "Leaders who opposed separate Andhra - reason"
+  },
+  {
+   "s": "In the Imperial Council in 1918, which pair opposed the separate Andhra demand?",
+   "o": [
+    "Jinnah and V.S. Srinivasa Sastri",
+    "Surendranath Banerjee and Jinnah",
+    "B.N. Sarma and Nyapati Subba Rao",
+    "R. Suryanarayana Rao and N.M. Sastry"
+   ],
+   "a": 0,
+   "x": "Jinnah and V.S. Srinivasa Sastri opposed the demand in the Imperial Council in 1918. Surendranath Banerjee stated that the time had not come.",
+   "ty": "match",
+   "tq": "Identify the correct pair from a group of opponents associated with different years.",
+   "sec": "Leaders who opposed separate Andhra - reason"
+  },
+  {
+   "s": "Surendranath Banerjee opposed immediate linguistic reorganisation in 1918 by stating that:",
+   "o": [
+    "The proposal was unconstitutional",
+    "The demand was a Brahmin movement",
+    "The time had not come",
+    "The Circars would dominate Rayalaseema"
+   ],
+   "a": 2,
+   "x": "Surendranath Banerjee’s stated position was that the time had not come for the demand.",
+   "ty": "fact",
+   "tq": "Test the exact substance of a recorded objection.",
+   "sec": "Leaders who opposed separate Andhra - reason"
+  },
+  {
+   "s": "The opposition of R. Suryanarayana Rao and N.M. Sastry in 1938 was mainly based on the fear of:",
+   "o": [
+    "Communist control of Andhra",
+    "Circars domination over Rayalaseema",
+    "Loss of Andhra University",
+    "Tamil domination over the Circars"
+   ],
+   "a": 1,
+   "x": "The new Rayalaseema Mahasabha leaders R. Suryanarayana Rao and N.M. Sastry opposed the demand because they feared Circars domination.",
+   "ty": "application",
+   "tq": "Connect the opposition with the regional interest behind it.",
+   "sec": "Leaders who opposed separate Andhra - reason"
+  },
+  {
+   "s": "On whose appeal did Swami Sitaram end his fast in 1951?",
+   "o": [
+    "T. Prakasam",
+    "Jawaharlal Nehru",
+    "Vinoba Bhave",
+    "Mahatma Gandhi"
+   ],
+   "a": 2,
+   "x": "Swami Sitaram ended his fast on the appeal of Vinoba Bhave.",
+   "ty": "fact",
+   "tq": "Test who intervened in ending the fast.",
+   "sec": "Leaders of the post-1947 phase - role"
+  },
+  {
+   "s": "T. Prakasam was associated with which of the following combinations?",
+   "o": [
+    "Partition Committee, Kisan Mazdoor Party and first Chief Minister of Andhra State",
+    "Dhar Commission, Andhra Congress Committee and first Governor of Andhra Pradesh",
+    "JVP Committee, Swarajya and first Speaker of Andhra State",
+    "Visalandhra Mahasabha, Andhra Kesari and first president of Andhra Congress Committee"
+   ],
+   "a": 0,
+   "x": "T. Prakasam served on the Partition Committee, formed the Kisan Mazdoor (Praja) Party with Ranga in 1951, and became the first Chief Minister of Andhra State on 1 October 1953.",
+   "ty": "statements",
+   "tq": "Combine three roles and reject options that swap institutions or offices.",
+   "sec": "Leaders of the post-1947 phase - role"
+  },
+  {
+   "s": "T. Prakasam’s separate report on the Partition Committee was submitted on:",
+   "o": [
+    "19 December 1952",
+    "1 October 1953",
+    "20 September 1951",
+    "4 January 1950"
+   ],
+   "a": 3,
+   "x": "T. Prakasam submitted a separate report on the Partition Committee on 4 January 1950.",
+   "ty": "numerical",
+   "tq": "Test an exact date linked to a committee role.",
+   "sec": "Leaders of the post-1947 phase - role"
+  },
+  {
+   "s": "In the April 1951 APCC election, N.G. Ranga lost to N. Sanjiva Reddy by:",
+   "o": [
+    "9 votes",
+    "7 votes",
+    "3 votes",
+    "5 votes"
+   ],
+   "a": 3,
+   "x": "N.G. Ranga, supported as Prakasam’s candidate, lost to N. Sanjiva Reddy by 5 votes. Sanjiva Reddy was backed by Pattabhi.",
+   "ty": "numerical",
+   "tq": "Test a small numerical margin using nearby values as distractors.",
+   "sec": "Leaders of the post-1947 phase - role"
+  },
+  {
+   "s": "Which political rivalry is identified as having delayed the formation of Andhra State?",
+   "o": [
+    "Prakasam versus Pattabhi and Ranga versus Sanjiva Reddy",
+    "B.N. Sarma versus Guthi Kesava Pillai and Prakasam versus Nehru",
+    "Sitaram versus Sriramulu and Ranga versus Rajaji",
+    "Jinnah versus Sastri and Nehru versus Patel"
+   ],
+   "a": 0,
+   "x": "Rivalries between Prakasam and Pattabhi, and between Ranga and Sanjiva Reddy, delayed the formation of the state.",
+   "ty": "fact",
+   "tq": "Select the complete paired relationship rather than a single name.",
+   "sec": "Leaders of the post-1947 phase - role"
+  },
+  {
+   "s": "The Swarajya associated with the Vandemataram era was published at Vijayawada, with which person as editor?",
+   "o": [
+    "Chilakamarti Lakshmi Narasimham",
+    "Tanguturi Prakasam",
+    "Mutnuri Krishna Rao",
+    "Gadicherla Harisarvottama Rao"
+   ],
+   "a": 3,
+   "x": "The Vijayawada Swarajya of the Vandemataram era had Gadicherla Harisarvottama Rao as its editor.",
+   "ty": "confusable",
+   "tq": "Distinguish two newspapers with the same title by place and period.",
+   "sec": "Leaders - newspapers founded (Swarajya)"
+  },
+  {
+   "s": "Desamata, an early paper associated with the Andhra cause, was founded at Rajahmundry by:",
+   "o": [
+    "Kasinathuni Nageswara Rao",
+    "Srinivasa Rao",
+    "Chilukuri Veerabhadra Rao",
+    "Chilakamarti Lakshmi Narasimham"
+   ],
+   "a": 3,
+   "x": "Desamata was founded at Rajahmundry by Chilakamarti Lakshmi Narasimham.",
+   "ty": "fact",
+   "tq": "Use the place as a clue while testing the founder.",
+   "sec": "Leaders - newspapers founded (Swarajya)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Navayuga — Chilakaluripet — Srinivasa Rao",
+    "Andhra Kesari — Madras — Tanguturi Prakasam",
+    "Desamata — Guntur — Chilukuri Veerabhadra Rao",
+    "Andhra Patrika — Rajahmundry — Mutnuri Krishna Rao"
+   ],
+   "a": 0,
+   "x": "Navayuga was associated with Chilakaluripet and Srinivasa Rao. Andhra Kesari was at Rajahmundry, Desamata at Rajahmundry, and Andhra Patrika was associated with Kasinathuni Nageswara Rao.",
+   "ty": "match",
+   "tq": "Verify all three elements of a newspaper-place-founder pair.",
+   "sec": "Leaders - newspapers founded (Swarajya)"
+  },
+  {
+   "s": "Which of the following was an early Anglo-Telugu paper associated with the Andhra cause and published from Guntur?",
+   "o": [
+    "Vaijayanti",
+    "Deshabhimani",
+    "Andhra Kesari",
+    "Swarajya"
+   ],
+   "a": 1,
+   "x": "Deshabhimani was an early Anglo-Telugu paper associated with the Andhra cause and was published from Guntur.",
+   "ty": "fact",
+   "tq": "Identify the paper from its language, place and political association.",
+   "sec": "Leaders - newspapers founded (Swarajya)"
+  },
+  {
+   "s": "Arrange the following associations in the correct order of the year in which the newspapers were founded or established:\nA. Andhra Kesari\nB. Krishna Patrika\nC. Swarajya at Madras\nD. Vijnana Chandrika Mandali",
+   "o": [
+    "B, A, D, C",
+    "B, D, A, C",
+    "D, B, A, C",
+    "A, B, D, C"
+   ],
+   "a": 0,
+   "x": "Krishna Patrika dates to 1902, Andhra Kesari to 1904, Vijnana Chandrika Mandali to 1906, and Swarajya at Madras to 1922.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest items first, then place the middle events.",
+   "sec": "Leaders - newspapers founded (Swarajya)"
+  },
+  {
+   "s": "Krishna Patrika described the Montagu-Chelmsford scheme as ‘digging a mountain to catch a mouse’ in its issue dated:",
+   "o": [
+    "20 December 1917",
+    "17 August 1918",
+    "13 July 1918",
+    "1 February 1902"
+   ],
+   "a": 2,
+   "x": "The phrase appeared in Krishna Patrika on 13 July 1918 as a criticism of the Montagu-Chelmsford scheme.",
+   "ty": "numerical",
+   "tq": "Test an exact date associated with a famous newspaper quotation.",
+   "sec": "Leaders - contribution"
+  }
+ ]
+}

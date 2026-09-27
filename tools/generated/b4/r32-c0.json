@@ -1,0 +1,680 @@
+{
+ "book": 4,
+ "row": 32,
+ "chunk": 0,
+ "section": "World - major rivers, lakes, seas, straits, canals and islands",
+ "subsections": [
+  "Rivers → source, mouth, countries, flow direction",
+  "Lakes → country and superlatives",
+  "Canals and straits → water bodies connected",
+  "Seas → bordering countries and inflowing rivers",
+  "Cities → river"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 49,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "The White Nile and the Blue Nile, respectively, originate from which of the following lakes?",
+   "o": [
+    "Lake Victoria and Lake Malawi",
+    "Lake Tana and Lake Victoria",
+    "Lake Turkana and Lake Tana",
+    "Lake Victoria and Lake Tana"
+   ],
+   "a": 3,
+   "x": "The White Nile originates from the Lake Victoria region, while the Blue Nile originates from Lake Tana in Ethiopia.",
+   "ty": "fact",
+   "tq": "Use the source distinction between two tributaries of the same river.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "Which one of the following statements regarding the Nile is correct?",
+   "o": [
+    "It flows from south to north and drains into the Mediterranean Sea.",
+    "It flows from west to east and drains into the Indian Ocean.",
+    "It flows from east to west and drains into the Red Sea.",
+    "It flows from north to south and drains into the Atlantic Ocean."
+   ],
+   "a": 0,
+   "x": "The Nile flows generally from south to north and enters the Mediterranean Sea. It is also regarded as the longest river in the world in the given classification.",
+   "ty": "fact",
+   "tq": "Check both the flow direction and the mouth before selecting the option.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "Consider the following statements:\n1. Uganda lies almost wholly in the Nile basin.\n2. The Blue Nile originates from Lake Tana in Ethiopia.\n3. The Nile drains into the South China Sea.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Uganda lies almost wholly in the Nile basin and the Blue Nile rises from Lake Tana. The Nile empties into the Mediterranean Sea, not the South China Sea.",
+   "ty": "statements",
+   "tq": "Find the wrong mouth statement before evaluating the coded options.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "The Amazon River enters the Atlantic Ocean after flowing through which of the following countries?",
+   "o": [
+    "Peru, Colombia and Brazil",
+    "Colombia, Chile and Argentina",
+    "Peru, Venezuela and Guyana",
+    "Bolivia, Ecuador and Brazil"
+   ],
+   "a": 0,
+   "x": "The Amazon rises in the Andes of Peru and flows through Peru, Colombia and Brazil before entering the Atlantic Ocean.",
+   "ty": "fact",
+   "tq": "Match the river with its source region, countries and mouth as one geographical unit.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "Which of the following rivers is associated with the largest discharge?",
+   "o": [
+    "Amazon",
+    "Danube",
+    "Rhine",
+    "Volga"
+   ],
+   "a": 0,
+   "x": "The Amazon is noted for having the largest discharge among the rivers listed.",
+   "ty": "fact",
+   "tq": "Distinguish discharge-based superlatives from length-based superlatives.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "The Danube River originates in the Black Forest and drains into the:",
+   "o": [
+    "Black Sea",
+    "Caspian Sea",
+    "North Sea",
+    "Mediterranean Sea"
+   ],
+   "a": 0,
+   "x": "The Danube rises in Germany’s Black Forest and flows into the Black Sea.",
+   "ty": "fact",
+   "tq": "Link the river’s source and mouth rather than its intervening countries.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "Which river crosses the largest number of countries among the following?",
+   "o": [
+    "Amur",
+    "Dnieper",
+    "Danube",
+    "Elbe"
+   ],
+   "a": 2,
+   "x": "The Danube crosses ten countries, including Austria, Slovakia, Hungary, Serbia and Romania, making it the river crossing the most countries among these options.",
+   "ty": "numerical",
+   "tq": "Use the numerical country-count clue to separate closely related European rivers.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "The Rhine River is associated with which one of the following combinations?",
+   "o": [
+    "Swiss Alps—North Sea—Germany-France border",
+    "Black Forest—Black Sea—Austria-Slovakia border",
+    "Valdai Hills—Caspian Sea—Russia-Ukraine border",
+    "Tibetan Plateau—South China Sea—China-Myanmar border"
+   ],
+   "a": 0,
+   "x": "The Rhine rises in the Swiss Alps near Lake Toma, flows northwards into the North Sea and forms part of the Germany-France border.",
+   "ty": "match",
+   "tq": "Start from the sure source-mouth pair and verify the boundary fact.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "Which of the following rivers flows through Germany and has Hamburg as an important city on its course?",
+   "o": [
+    "Dnieper",
+    "Rhine",
+    "Danube",
+    "Elbe"
+   ],
+   "a": 3,
+   "x": "The Elbe originates in the Czech Republic, flows through Germany and reaches the North Sea; Hamburg is located on it.",
+   "ty": "fact",
+   "tq": "Use the city-location clue to distinguish neighbouring European rivers.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "The Mekong River rises in the Tibetan Plateau and ultimately drains into the:",
+   "o": [
+    "East China Sea",
+    "South China Sea",
+    "Arabian Sea",
+    "Yellow Sea"
+   ],
+   "a": 1,
+   "x": "The Mekong originates in the Tibetan Plateau and enters the South China Sea after flowing through six countries.",
+   "ty": "fact",
+   "tq": "Identify the mouth from the river’s Southeast Asian course.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "Which one of the following countries is NOT included among the countries through which the Mekong flows?",
+   "o": [
+    "Laos",
+    "Malaysia",
+    "Cambodia",
+    "Vietnam"
+   ],
+   "a": 1,
+   "x": "The Mekong flows through China, Myanmar, Laos, Thailand, Cambodia and Vietnam. Malaysia is not included in this river system.",
+   "ty": "negative",
+   "tq": "Eliminate the geographically adjacent but unrelated country.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "The Mississippi River originates from Lake Itasca and flows generally:",
+   "o": [
+    "East to west before entering the Pacific Ocean",
+    "West to east before entering the Atlantic Ocean",
+    "South to north before entering the Arctic Ocean",
+    "North to south before entering the Gulf of Mexico"
+   ],
+   "a": 3,
+   "x": "The Mississippi rises at Lake Itasca in Minnesota, flows from north to south and enters the Gulf of Mexico.",
+   "ty": "fact",
+   "tq": "Combine source, direction and mouth to avoid a reversed-flow trap.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "The fertiliser run-off associated with the Mississippi River is noted for creating which phenomenon at its outlet?",
+   "o": [
+    "A permanent sea-ice zone",
+    "An oceanic dead zone",
+    "A coral reef belt",
+    "A freshwater delta lake"
+   ],
+   "a": 1,
+   "x": "Fertiliser run-off carried by the Mississippi contributes to the formation of an ocean dead zone near its outlet in the Gulf of Mexico.",
+   "ty": "application",
+   "tq": "Apply the river-pollution cause-and-effect relationship.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Dnieper—Valdai Hills to Black Sea",
+    "Volga—Tibetan Plateau to South China Sea",
+    "Amur—Black Forest to North Sea",
+    "Elbe—Lake Itasca to Gulf of Mexico"
+   ],
+   "a": 0,
+   "x": "The Dnieper rises in Russia’s Valdai Hills and drains into the Black Sea. The other pairs combine unrelated sources and mouths.",
+   "ty": "match",
+   "tq": "Check the source-mouth combination rather than only the river name.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "Which river is regarded as the longest river of Europe?",
+   "o": [
+    "Dnieper",
+    "Danube",
+    "Volga",
+    "Rhine"
+   ],
+   "a": 2,
+   "x": "The Volga rises in the Valdai Hills of Russia and is the longest river of Europe; it drains into the Caspian Sea.",
+   "ty": "fact",
+   "tq": "Separate continental-length superlatives from country-count and discharge superlatives.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "The Amur is best described as a boundary river between:",
+   "o": [
+    "Russia and China",
+    "China and Mongolia",
+    "Russia and Ukraine",
+    "Germany and France"
+   ],
+   "a": 0,
+   "x": "The Amur runs along the Russia-China border and enters the Sea of Okhotsk.",
+   "ty": "fact",
+   "tq": "Use the boundary relationship to identify the river.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "Mo Chhu joins Pho Chhu at Punakha, after which the combined river is known as the:",
+   "o": [
+    "Dnieper",
+    "Sankosh",
+    "Amur",
+    "Mekong"
+   ],
+   "a": 1,
+   "x": "Mo Chhu joins Pho Chhu at Punakha, and the resulting river is the Sankosh.",
+   "ty": "fact",
+   "tq": "Trace the sequence of confluence and renaming carefully.",
+   "sec": "Rivers → source, mouth, countries, flow direction"
+  },
+  {
+   "s": "Which lake is the largest freshwater lake in the world by volume and also the deepest?",
+   "o": [
+    "Lake Superior",
+    "Lake Baikal",
+    "Lake Titicaca",
+    "Lake Victoria"
+   ],
+   "a": 1,
+   "x": "Lake Baikal in Siberia, Russia, is the deepest lake and the largest freshwater lake by volume.",
+   "ty": "fact",
+   "tq": "Read the qualifier “by volume” precisely instead of confusing it with surface area.",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "Which lake is the largest lake in the world and is saline?",
+   "o": [
+    "Lake Baikal",
+    "Lake Superior",
+    "Caspian Sea",
+    "Lake Turkana"
+   ],
+   "a": 2,
+   "x": "The Caspian, although called a sea, is classified geographically as the world’s largest lake and is saline.",
+   "ty": "confusable",
+   "tq": "Distinguish a lake by geographical classification from its commonly used name.",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "Lake Superior is shared by which countries?",
+   "o": [
+    "Kenya and Tanzania",
+    "Russia and Kazakhstan",
+    "Peru and Bolivia",
+    "United States of America and Canada"
+   ],
+   "a": 3,
+   "x": "Lake Superior lies on the border of the United States of America and Canada.",
+   "ty": "fact",
+   "tq": "Match the lake with its bordering countries, not its superlative.",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "Which one of the following lakes is the second-largest freshwater lake and is also associated with the source of the White Nile?",
+   "o": [
+    "Titicaca",
+    "Turkana",
+    "Victoria",
+    "Balkhash"
+   ],
+   "a": 2,
+   "x": "Lake Victoria, shared by Uganda, Kenya and Tanzania, is the second-largest freshwater lake and is associated with the source of the White Nile.",
+   "ty": "fact",
+   "tq": "Combine the superlative with the associated river-source clue.",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "Lake Titicaca, shared by Peru and Bolivia, is noted for being the world’s:",
+   "o": [
+    "Deepest freshwater lake",
+    "Highest navigable lake",
+    "Largest desert lake",
+    "Largest alkaline lake"
+   ],
+   "a": 1,
+   "x": "Lake Titicaca is located between Peru and Bolivia and is the highest navigable lake in the world.",
+   "ty": "fact",
+   "tq": "Separate altitude-based superlatives from area, depth and chemical characteristics.",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "Which lake is located in Kenya’s Eastern Rift and is described as the largest desert lake?",
+   "o": [
+    "Lake Van",
+    "Lake Victoria",
+    "Lake Turkana",
+    "Lake Malawi"
+   ],
+   "a": 2,
+   "x": "Lake Turkana lies in Kenya’s Eastern Rift and is the largest desert lake; it is alkaline.",
+   "ty": "fact",
+   "tq": "Use the location and type together to identify the lake.",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "Which statement correctly describes Lake Balkhash?",
+   "o": [
+    "Its western half is saline and its eastern half is fresh.",
+    "Its western half is fresh and its eastern half is saline.",
+    "It is entirely saline and lies in Iran.",
+    "It is entirely freshwater and lies in Russia."
+   ],
+   "a": 1,
+   "x": "Lake Balkhash is in Kazakhstan; its western half is freshwater while its eastern half is saline.",
+   "ty": "comparison",
+   "tq": "Watch for the reversal trap in two-part geographical comparisons.",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "Lake Van is located in Turkiye and is known as the world’s largest:",
+   "o": [
+    "Desert lake",
+    "Alkaline lake",
+    "Freshwater lake by area",
+    "Navigable lake at high altitude"
+   ],
+   "a": 1,
+   "x": "Lake Van in Turkiye is identified as the largest alkaline lake.",
+   "ty": "fact",
+   "tq": "Match the exact chemical classification with the lake and country.",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "Consider the following statements about the lakes of the Great Rift Valley:\n1. They form a chain of lakes.\n2. They are mostly freshwater.\n3. Lake Malawi lies at the southern end of the chain.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Great Rift Valley lakes form a chain, are mostly freshwater and include Lake Malawi at the southern end.",
+   "ty": "statements",
+   "tq": "When all three geographical relationships are consistent, select the complete combination.",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "Which one of the following statements about Lake Victoria is correct?",
+   "o": [
+    "It lies in the western branch of the Great Rift Valley.",
+    "It lies between the two branches of the Great Rift Valley.",
+    "It is located entirely within the Eastern Rift.",
+    "It forms the southern end of the western branch."
+   ],
+   "a": 1,
+   "x": "Lake Victoria lies between the eastern and western branches of the Great Rift Valley rather than within either rift branch.",
+   "ty": "confusable",
+   "tq": "Distinguish “between the branches” from “within a branch.”",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "Which group contains only lakes associated with the western branch of the Great Rift Valley?",
+   "o": [
+    "Victoria, Superior, Baikal and Van",
+    "Tanganyika, Albert, Edward and Kivu",
+    "Caspian, Balkhash, Victoria and Malawi",
+    "Malawi, Victoria, Turkana and Titicaca"
+   ],
+   "a": 1,
+   "x": "Tanganyika, Albert, Edward and Kivu lie in the western branch, including the Albertine or western rift region.",
+   "ty": "odd_one_out",
+   "tq": "Identify the common regional grouping and reject mixed-locational lists.",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "The Dead Sea, shared by Jordan and Israel, is approximately how far below sea level at its lowest point on land?",
+   "o": [
+    "1,385 feet",
+    "985 feet",
+    "2,385 feet",
+    "385 feet"
+   ],
+   "a": 0,
+   "x": "The Dead Sea is the lowest point on land and lies about 1,385 feet below sea level according to the cited figure.",
+   "ty": "numerical",
+   "tq": "Use the distinctive numerical figure and reject altered-value distractors.",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Chilika—largest lake of India",
+    "Kolleru—meteorite crater lake",
+    "Lonar—largest freshwater lake of Andhra Pradesh",
+    "Chilika—largest freshwater lake of Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "Chilika in Odisha is India’s largest lake. Kolleru is Andhra Pradesh’s largest freshwater lake, while Lonar is a meteorite-crater lake.",
+   "ty": "match",
+   "tq": "Separate national, state-level and geological classifications before matching.",
+   "sec": "Lakes → country and superlatives"
+  },
+  {
+   "s": "Which one of the following canals connects the Atlantic Ocean, through the Caribbean Sea, with the Pacific Ocean?",
+   "o": [
+    "Suez Canal",
+    "Kiel Canal",
+    "Corinth Canal",
+    "Panama Canal"
+   ],
+   "a": 3,
+   "x": "The Panama Canal connects the Atlantic side, through the Caribbean Sea, with the Pacific Ocean and uses a lock system.",
+   "ty": "fact",
+   "tq": "Distinguish ocean-to-ocean canals by the water bodies at their ends.",
+   "sec": "Canals and straits → water bodies connected"
+  },
+  {
+   "s": "The Kiel Canal provides a navigable connection between the:",
+   "o": [
+    "Atlantic Ocean and Pacific Ocean",
+    "North Sea and Baltic Sea",
+    "Black Sea and Sea of Azov",
+    "Mediterranean Sea and Red Sea"
+   ],
+   "a": 1,
+   "x": "The Kiel Canal in Germany connects the North Sea with the Baltic Sea.",
+   "ty": "fact",
+   "tq": "Match the canal with its regional seas and country.",
+   "sec": "Canals and straits → water bodies connected"
+  },
+  {
+   "s": "Which strait connects the Andaman Sea, an arm of the Indian Ocean, with the South China Sea, an arm of the Pacific Ocean?",
+   "o": [
+    "Gibraltar Strait",
+    "Dardanelles Strait",
+    "Bering Strait",
+    "Malacca Strait"
+   ],
+   "a": 3,
+   "x": "The Malacca Strait, between Malaysia and Indonesia, connects the Andaman Sea with the South China Sea.",
+   "ty": "fact",
+   "tq": "Use the connected-water-bodies method for identifying straits.",
+   "sec": "Canals and straits → water bodies connected"
+  },
+  {
+   "s": "The Bab-el-Mandeb Strait is the southern gateway to the Suez route and connects the Red Sea with the:",
+   "o": [
+    "Mediterranean Sea",
+    "Persian Gulf",
+    "Gulf of Aden",
+    "Sea of Azov"
+   ],
+   "a": 2,
+   "x": "Bab-el-Mandeb lies between Yemen and Djibouti and connects the Red Sea with the Gulf of Aden.",
+   "ty": "application",
+   "tq": "Trace the sequence of connected waters along a maritime route.",
+   "sec": "Canals and straits → water bodies connected"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Gibraltar—Mediterranean Sea and Atlantic Ocean",
+    "Bering—Black Sea and Marmara Sea",
+    "Kerch—Arctic Ocean and Pacific Ocean",
+    "Dardanelles—Black Sea and Sea of Azov"
+   ],
+   "a": 0,
+   "x": "The Strait of Gibraltar connects the Mediterranean Sea with the Atlantic Ocean and lies between Spain and Morocco. Kerch connects the Black Sea and Sea of Azov, while Bering connects the Arctic and Pacific Oceans.",
+   "ty": "match",
+   "tq": "Start with the sure pair and use elimination on the swapped connections.",
+   "sec": "Canals and straits → water bodies connected"
+  },
+  {
+   "s": "Which of the following correctly represents the connections made by the Bosphorus and Dardanelles, respectively?",
+   "o": [
+    "Aegean Sea–Black Sea; Marmara Sea–Mediterranean Sea",
+    "Black Sea–Marmara Sea; Aegean Sea–Marmara Sea",
+    "Black Sea–Sea of Azov; Aegean Sea–Black Sea",
+    "Marmara Sea–Red Sea; Black Sea–Aegean Sea"
+   ],
+   "a": 1,
+   "x": "The Bosphorus connects the Black Sea with the Sea of Marmara, while the Dardanelles connects the Aegean Sea with the Sea of Marmara.",
+   "ty": "confusable",
+   "tq": "Discriminate between two closely related Turkish straits by their exact endpoints.",
+   "sec": "Canals and straits → water bodies connected"
+  },
+  {
+   "s": "The Kerch Strait connects the Black Sea with the:",
+   "o": [
+    "Sea of Okhotsk",
+    "Sea of Marmara",
+    "Caspian Sea",
+    "Sea of Azov"
+   ],
+   "a": 3,
+   "x": "The Kerch Strait connects the Black Sea and the Sea of Azov and lies between Russia and Ukraine.",
+   "ty": "fact",
+   "tq": "Match the strait with the smaller adjoining sea.",
+   "sec": "Canals and straits → water bodies connected"
+  },
+  {
+   "s": "Which of the following seas is correctly matched with its inflowing rivers?",
+   "o": [
+    "Black Sea—Danube, Dnieper and Dniester",
+    "Caspian Sea—Nile, Rhone and Po",
+    "Baltic Sea—Jordan, Volga and Ural",
+    "Mediterranean Sea—Vistula, Oder and Thames"
+   ],
+   "a": 0,
+   "x": "The Danube, Dnieper and Dniester are important rivers flowing into the Black Sea. The other options mix rivers belonging to different seas.",
+   "ty": "match",
+   "tq": "Match the sea with a complete set of associated rivers.",
+   "sec": "Seas → bordering countries and inflowing rivers"
+  },
+  {
+   "s": "The Caspian Sea is bordered by how many littoral states?",
+   "o": [
+    "Three",
+    "Five",
+    "Six",
+    "Four"
+   ],
+   "a": 1,
+   "x": "The five littoral states of the Caspian Sea are Russia, Kazakhstan, Turkmenistan, Iran and Azerbaijan.",
+   "ty": "numerical",
+   "tq": "Count the members of the bordering-country group rather than relying on the sea’s name.",
+   "sec": "Seas → bordering countries and inflowing rivers"
+  },
+  {
+   "s": "Which river flows into the Dead Sea?",
+   "o": [
+    "Rhine",
+    "Nile",
+    "Jordan",
+    "Volga"
+   ],
+   "a": 2,
+   "x": "The Jordan River flows into the Dead Sea in the Jordan Valley.",
+   "ty": "fact",
+   "tq": "Associate the inland sea with its directly named inflowing river.",
+   "sec": "Seas → bordering countries and inflowing rivers"
+  },
+  {
+   "s": "Which statement regarding the Red Sea is correct?",
+   "o": [
+    "It receives the Volga and Ural rivers and borders five Caspian states.",
+    "It has no major river inflow, and the Dahlak Archipelago lies near its Eritrean coast.",
+    "It is bordered by the United Kingdom and France and receives the Rhine.",
+    "It is drained mainly by the Danube and Dnieper."
+   ],
+   "a": 1,
+   "x": "The Red Sea has no major river inflow, and the Dahlak Archipelago is associated with Eritrea on its western side.",
+   "ty": "statements",
+   "tq": "Use the absence-of-a-major-river exception and the location clue together.",
+   "sec": "Seas → bordering countries and inflowing rivers"
+  },
+  {
+   "s": "Which set contains only rivers that flow into the Mediterranean Sea?",
+   "o": [
+    "Jordan, Mississippi, Amazon and Mekong",
+    "Rhine, Elbe, Thames and Vistula",
+    "Volga, Ural, Danube and Dnieper",
+    "Nile, Rhone, Po and Ebro"
+   ],
+   "a": 3,
+   "x": "The Nile, Rhone, Po and Ebro are listed as rivers flowing into the Mediterranean Sea.",
+   "ty": "odd_one_out",
+   "tq": "Classify each river by its mouth before selecting the complete set.",
+   "sec": "Seas → bordering countries and inflowing rivers"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Baltic Sea—Vistula and Oder",
+    "Black Sea—Jordan and Volga",
+    "Caspian Sea—Volga and Ural",
+    "North Sea—Rhine, Elbe and Thames"
+   ],
+   "a": 1,
+   "x": "The Black Sea receives the Danube, Dnieper and Dniester. The Jordan flows into the Dead Sea, while the Volga flows into the Caspian Sea.",
+   "ty": "negative",
+   "tq": "Find the option containing rivers belonging to two different seas.",
+   "sec": "Seas → bordering countries and inflowing rivers"
+  },
+  {
+   "s": "Which city is situated on the Dnieper River?",
+   "o": [
+    "Cologne",
+    "Paris",
+    "Kyiv",
+    "Vienna"
+   ],
+   "a": 2,
+   "x": "Kyiv is located on the Dnieper River.",
+   "ty": "fact",
+   "tq": "Use direct city-river association without confusing European capitals on the Danube.",
+   "sec": "Cities → river"
+  },
+  {
+   "s": "Budapest, Vienna and Bratislava are all cities situated on the:",
+   "o": [
+    "Mississippi",
+    "Danube",
+    "Rhine",
+    "Seine"
+   ],
+   "a": 1,
+   "x": "Budapest, Vienna and Bratislava are important cities located on the Danube River.",
+   "ty": "fact",
+   "tq": "Recognise the cluster of cities belonging to one river basin.",
+   "sec": "Cities → river"
+  },
+  {
+   "s": "Belgrade is situated at the confluence of which two rivers?",
+   "o": [
+    "Dnieper and Dniester",
+    "Rhine and Main",
+    "Po and Arno",
+    "Sava and Danube"
+   ],
+   "a": 3,
+   "x": "Belgrade is located at the confluence of the Sava and Danube rivers.",
+   "ty": "fact",
+   "tq": "Identify the confluence pair rather than only the larger river.",
+   "sec": "Cities → river"
+  },
+  {
+   "s": "Which of the following city-river pairs is NOT correctly matched?",
+   "o": [
+    "New Orleans—Mississippi",
+    "Cologne—Rhine",
+    "Paris—Seine",
+    "Cologne—Danube"
+   ],
+   "a": 3,
+   "x": "Cologne is situated on the Rhine, not the Danube. Paris is on the Seine and New Orleans is associated with the Mississippi.",
+   "ty": "negative",
+   "tq": "Find the repeated city with the wrong river using nearby European river traps.",
+   "sec": "Cities → river"
+  }
+ ]
+}

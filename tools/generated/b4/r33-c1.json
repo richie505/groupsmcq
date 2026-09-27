@@ -1,0 +1,117 @@
+{
+ "book": 4,
+ "row": 33,
+ "chunk": 1,
+ "section": "India - location, extent, frontiers, standard meridian and neighbouring countries",
+ "subsections": [
+  "Extreme points → direction",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 10,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Easternmost point — Guhar Moti, Gujarat",
+    "Westernmost point — Kibithu, Arunachal Pradesh",
+    "Westernmost point — Guhar Moti, Gujarat",
+    "Northernmost point — Kanyakumari, Tamil Nadu"
+   ],
+   "a": 2,
+   "x": "Guhar Moti in Gujarat's Kutch region is the westernmost point listed for India. Kibithu is in the east, Indira Col is in the north and Kanyakumari is the southernmost point of mainland India.",
+   "ty": "confusable",
+   "tq": "Test direction-place confusions by separating the easternmost and westernmost points.",
+   "sec": "Extreme points → direction"
+  },
+  {
+   "s": "With reference to Andhra Pradesh, consider the following statements:\n1. Its area is approximately 1,62,970 square kilometres.\n2. It accounts for about 4.96 per cent of India's area.\n3. It ranks seventh among the Indian States in area.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Andhra Pradesh has an area of about 1,62,970 square kilometres, represents approximately 4.96 per cent of India's area, and ranks seventh by area.",
+   "ty": "statements",
+   "tq": "Use the coded statement format to connect the area, percentage and rank without treating them as isolated figures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The latitudinal extent of the present State of Andhra Pradesh is approximately:",
+   "o": [
+    "8°4′ N to 15°6′ N",
+    "10°30′ N to 18°45′ N",
+    "16°12′ N to 22°00′ N",
+    "12°41′ N to 19°07′ N"
+   ],
+   "a": 3,
+   "x": "The latitudinal extent of present-day Andhra Pradesh is approximately 12°41′ N to 19°07′ N. An extent reaching 22° N is not applicable to the present State of Andhra Pradesh.",
+   "ty": "numerical",
+   "tq": "Check the precise latitude limits and reject the broader, outdated-looking range.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The coastline of Andhra Pradesh, according to the 2023–24 remeasurement, is approximately:",
+   "o": [
+    "1,053.07 km, ranking second after Gujarat",
+    "974 km, ranking fourth among coastal States",
+    "1,162.97 km, ranking third after Gujarat and Maharashtra",
+    "1,053.07 km, ranking third after Gujarat and Tamil Nadu"
+   ],
+   "a": 3,
+   "x": "The 2023–24 remeasurement places Andhra Pradesh's coastline at approximately 1,053.07 km, making it the third-longest after Gujarat and Tamil Nadu.",
+   "ty": "numerical",
+   "tq": "Distinguish the latest remeasurement from the earlier coastline figure and verify both the value and rank.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly represents the earlier and revised coastline figures associated with Andhra Pradesh?",
+   "o": [
+    "974 km in APSES 2024–25 and 1,053.07 km after the 2023–24 remeasurement",
+    "1,053.07 km in APSES 2024–25 and 974 km after the 2023–24 remeasurement",
+    "974 km in both APSES 2024–25 and the 2023–24 remeasurement",
+    "1,053.07 km in both APSES 2024–25 and the 2023–24 remeasurement"
+   ],
+   "a": 0,
+   "x": "The APSES 2024–25 figure is 974 km, while the 2023–24 remeasurement gives 1,053.07 km. The revised figure is associated with Andhra Pradesh's present third position after Gujarat and Tamil Nadu.",
+   "ty": "confusable",
+   "tq": "Discriminate between two close numerical figures by attaching each one to its correct reference period.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements:\n1. The debate over a single time zone in India includes a proposal for a separate time zone for the North-Eastern region.\n2. The question of a separate North-Eastern time zone is discussed in relation to India's geographical extent and time differences.\n3. India has already adopted a separate official time zone exclusively for the North-Eastern States.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The issue is a continuing debate between retaining a single time zone and introducing a separate North-Eastern time zone. India has not already adopted such a separate official time zone.",
+   "ty": "statements",
+   "tq": "Identify the false statement created by converting a policy debate into an accomplished fact.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements about India's international land borders is correct?",
+   "o": [
+    "Bangladesh and Afghanistan share equal-length land borders with India.",
+    "Afghanistan shares India's longest land border, while Bangladesh shares the shortest.",
+    "The longest land border is with Afghanistan, whereas the shortest is with Bangladesh.",
+    "Bangladesh shares India's longest land border, while Afghanistan shares the shortest among the listed neighbouring countries."
+   ],
+   "a": 3,
+   "x": "Among the comparisons specified, Bangladesh has the longest land border with India and Afghanistan has the shortest.",
+   "ty": "comparison",
+   "tq": "Use the reversed-comparison trap by checking which neighbouring country is placed at each extreme.",
+   "sec": "Universal angles"
+  }
+ ]
+}

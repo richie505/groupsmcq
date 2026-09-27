@@ -1,0 +1,483 @@
+{
+ "book": 4,
+ "row": 37,
+ "chunk": 1,
+ "section": "India - Peninsular drainage: east-flowing and west-flowing rivers, river basins, watershed",
+ "subsections": [
+  "Basin area and length ranking",
+  "Waterfalls → river and region",
+  "Lakes and lagoons → state and type",
+  "Peninsular vs Himalayan rivers"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 3
+ },
+ "accepted": [
+  {
+   "s": "Which of the following is NOT included among the 12 major river basins of India, each having an area exceeding 20,000 sq km?",
+   "o": [
+    "Mahi",
+    "Periyar",
+    "Brahmani-Baitarani",
+    "Sabarmati"
+   ],
+   "a": 1,
+   "x": "Periyar is not included in the list of India's 12 major basins given here. The list includes Mahi, Sabarmati and Brahmani-Baitarani.",
+   "ty": "negative",
+   "tq": "Find the one item outside the named classification.",
+   "sec": "Basin area and length ranking"
+  },
+  {
+   "s": "Consider the following statements regarding the relative size of river basins in Peninsular India:\n1. The Godavari basin is larger than the Krishna basin.\n2. The Krishna basin is larger than the Mahanadi basin.\n3. The Narmada and Kaveri basins are approximately equal in size.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The relative order is Godavari, Krishna and Mahanadi, while the Narmada and Kaveri basins are approximately equal in size.",
+   "ty": "statements",
+   "tq": "Use the comparison chain and identify the coded combination.",
+   "sec": "Basin area and length ranking"
+  },
+  {
+   "s": "Arrange the following rivers in descending order of their length:\nA. Krishna\nB. Narmada\nC. Godavari\nD. Mahanadi",
+   "o": [
+    "C, A, B, D",
+    "A, C, B, D",
+    "C, B, A, D",
+    "C, A, D, B"
+   ],
+   "a": 0,
+   "x": "The descending order is Godavari (1,465 km), Krishna (1,400 km), Narmada (1,312 km) and Mahanadi (858 km).",
+   "ty": "chronology",
+   "tq": "Arrange the items using the numerical ranking from longest to shortest.",
+   "sec": "Basin area and length ranking"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Ganga — 1,465 km",
+    "Godavari — 1,400 km",
+    "Narmada — 1,312 km",
+    "Kaveri — 858 km"
+   ],
+   "a": 2,
+   "x": "The Narmada is 1,312 km long. The Ganga is 2,525 km, the Godavari 1,465 km, the Krishna 1,400 km and the Kaveri 805 km long.",
+   "ty": "match",
+   "tq": "Start from the sure river-length pair.",
+   "sec": "Basin area and length ranking"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Brahmaputra is longer overall than the Ganga.\n2. Only about 885 km of the Brahmaputra lies in India.\n3. The Ganga is regarded as India's longest river.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Brahmaputra is about 2,900 km long overall, but only 885 km lies in India. The Ganga, at 2,525 km, is considered India's longest river.",
+   "ty": "statements",
+   "tq": "Separate overall length from length within India.",
+   "sec": "Basin area and length ranking"
+  },
+  {
+   "s": "India's river-basin classification comprises which of the following?",
+   "o": [
+    "20 major basins only",
+    "10 major and 10 composite basins",
+    "8 major and 12 composite basins",
+    "12 major and 8 composite basins"
+   ],
+   "a": 3,
+   "x": "India has 20 basins: 12 major basins with areas over 20,000 sq km each and 8 composite basins.",
+   "ty": "numerical",
+   "tq": "Recall the paired numerical classification.",
+   "sec": "Basin area and length ranking"
+  },
+  {
+   "s": "Which one of the following statements regarding the Ganga-Brahmaputra-Meghna basin is correct?",
+   "o": [
+    "It is the largest basin of India.",
+    "It is smaller than the Godavari basin.",
+    "It includes only Peninsular rivers.",
+    "It is the smallest major basin of India."
+   ],
+   "a": 0,
+   "x": "The Ganga-Brahmaputra-Meghna basin is the largest basin of India. The Ganga alone covers approximately 9,51,600 sq km.",
+   "ty": "fact",
+   "tq": "Reject reversed comparison statements.",
+   "sec": "Basin area and length ranking"
+  },
+  {
+   "s": "The Godavari river is popularly known as which of the following?",
+   "o": [
+    "Uttar Ganga",
+    "Dakshin Ganga or Dakshina Ganga",
+    "Sorrow of Bengal",
+    "Vridha Ganga only"
+   ],
+   "a": 1,
+   "x": "The Godavari is known as Dakshin Ganga or Dakshina Ganga. The name Dakshina Ganga is also used for the Kaveri in some references.",
+   "ty": "confusable",
+   "tq": "Discriminate between similar names associated with Peninsular rivers.",
+   "sec": "Peninsular vs Himalayan rivers"
+  },
+  {
+   "s": "Which of the following waterfalls is correctly matched with its river and state?\n1. Kunchikal — Varahi — Karnataka\n2. Jog — Sharavati — Karnataka\n3. Dhuandhar — Narmada — Madhya Pradesh\n4. Hundru — Subarnarekha — Jharkhand\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 3 and 4 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct. Kunchikal is on the Varahi, Jog on the Sharavati, Dhuandhar on the Narmada and Hundru on the Subarnarekha.",
+   "ty": "statements",
+   "tq": "Verify each waterfall–river–state linkage before selecting the code.",
+   "sec": "Waterfalls → river and region"
+  },
+  {
+   "s": "Dudhsagar Falls is situated on the Mandovi River near which geographical location?",
+   "o": [
+    "The Odisha–Andhra Pradesh border",
+    "The Goa–Karnataka border",
+    "The Maharashtra–Madhya Pradesh border",
+    "The Kerala–Tamil Nadu border"
+   ],
+   "a": 1,
+   "x": "Dudhsagar Falls lies on the Mandovi River near the Goa–Karnataka border.",
+   "ty": "fact",
+   "tq": "Combine the river and location clues.",
+   "sec": "Waterfalls → river and region"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Dhuandhar — Narmada — Madhya Pradesh",
+    "Hundru — Subarnarekha — Jharkhand",
+    "Jog — Mandovi — Goa",
+    "Sivasamudram — Kaveri — Karnataka"
+   ],
+   "a": 2,
+   "x": "Jog Falls is on the Sharavati River in Karnataka, not on the Mandovi River in Goa. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the swapped river–waterfall association.",
+   "sec": "Waterfalls → river and region"
+  },
+  {
+   "s": "Which of the following waterfalls are associated with the Kaveri River?\n1. Sivasamudram\n2. Chunchanakatte\n3. Hogenakkal\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Sivasamudram, Chunchanakatte and Hogenakkal are all waterfalls associated with the Kaveri River.",
+   "ty": "statements",
+   "tq": "Group the items by their common river association.",
+   "sec": "Waterfalls → river and region"
+  },
+  {
+   "s": "Dhuandhar Falls is located near which of the following places?",
+   "o": [
+    "Jabalpur and the Marble Rocks",
+    "Panaji and Mollem",
+    "Ranchi and the Chota Nagpur Plateau",
+    "Mysuru and the Nilgiris"
+   ],
+   "a": 0,
+   "x": "Dhuandhar Falls is situated on the Narmada near Jabalpur, close to the Marble Rocks, in Madhya Pradesh.",
+   "ty": "fact",
+   "tq": "Use the waterfall–landform–location combination.",
+   "sec": "Waterfalls → river and region"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Chilika — Rajasthan — Inland saline lake",
+    "Sambhar — Odisha — Brackish lagoon",
+    "Lonar — Maharashtra — Meteorite-impact crater lake",
+    "Vembanad — Manipur — Floating phumdis"
+   ],
+   "a": 2,
+   "x": "Lonar in Maharashtra is a saline-alkaline lake formed in a meteorite-impact crater.",
+   "ty": "match",
+   "tq": "Start with the distinctive origin-based lake pair.",
+   "sec": "Lakes and lagoons → state and type"
+  },
+  {
+   "s": "Chilika Lake is best described as which of the following?",
+   "o": [
+    "India's largest freshwater lake",
+    "Asia's largest brackish-water lagoon",
+    "A freshwater lake on the Jhelum",
+    "A saline-alkaline crater lake in Maharashtra"
+   ],
+   "a": 1,
+   "x": "Chilika in Odisha is Asia's largest brackish-water lagoon and was India's first Ramsar site in 1981.",
+   "ty": "fact",
+   "tq": "Distinguish lagoon, freshwater lake and crater lake categories.",
+   "sec": "Lakes and lagoons → state and type"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Sambhar — Rajasthan — Inland saline lake\n2. Didwana — Rajasthan — Saline lake\n3. Vembanad — Kerala — Brackish backwater\n4. Kolleru — Andhra Pradesh — Freshwater lake\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct. Sambhar and Didwana are in Rajasthan, Vembanad is in Kerala, and Kolleru is Andhra Pradesh's major freshwater lake.",
+   "ty": "statements",
+   "tq": "Check each lake against both its state and water type.",
+   "sec": "Lakes and lagoons → state and type"
+  },
+  {
+   "s": "Which one of the following is an artificial lake?",
+   "o": [
+    "A lake formed by dam construction",
+    "Kolleru",
+    "Lonar",
+    "Sambhar"
+   ],
+   "a": 0,
+   "x": "A lake formed by dam construction is an artificial lake. Lonar is a meteorite-impact lake, Sambhar is an inland saline lake and Kolleru is a natural freshwater lake.",
+   "ty": "application",
+   "tq": "Apply the definition of an artificial lake rather than recalling a place name.",
+   "sec": "Lakes and lagoons → state and type"
+  },
+  {
+   "s": "Pulicat Lake is correctly described as which of the following?",
+   "o": [
+    "India's second-largest brackish lagoon, shared by Andhra Pradesh and Tamil Nadu",
+    "A saline lake in northern Rajasthan",
+    "A crater lake in Maharashtra",
+    "A freshwater lake wholly within Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "Pulicat is a brackish lagoon shared by Andhra Pradesh and Tamil Nadu and is regarded as India's second-largest brackish lagoon.",
+   "ty": "confusable",
+   "tq": "Discriminate Pulicat from Kolleru by type and state relationship.",
+   "sec": "Lakes and lagoons → state and type"
+  },
+  {
+   "s": "Wular Lake is situated on which river and between which ranges?",
+   "o": [
+    "Narmada; Vindhya and Satpura",
+    "Kaveri; Western Ghats and Eastern Ghats",
+    "Brahmaputra; Himalaya and Patkai",
+    "Jhelum; Pir Panjal and Zaskar"
+   ],
+   "a": 3,
+   "x": "Wular is a freshwater lake on the Jhelum, situated between the Pir Panjal and Zaskar ranges.",
+   "ty": "fact",
+   "tq": "Combine the waterbody, river and physiographic-location clues.",
+   "sec": "Lakes and lagoons → state and type"
+  },
+  {
+   "s": "Which one of the following statements about Vembanad is correct?",
+   "o": [
+    "It is a brackish backwater in Kerala and the longest lake of India.",
+    "It is a saline lake in Rajasthan.",
+    "It is a meteorite-impact crater lake in Maharashtra.",
+    "It is a freshwater lake in Manipur with phumdis."
+   ],
+   "a": 0,
+   "x": "Vembanad is a brackish backwater in Kerala and is described as India's longest lake.",
+   "ty": "fact",
+   "tq": "Identify the lake from its distinctive type and ranking.",
+   "sec": "Lakes and lagoons → state and type"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Srirangam — Island between the Kaveri and Kollidam\n2. Aliabet — Largest island in the Narmada\n3. Shivanasamudram — Riverine island associated with the Kaveri\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Srirangam lies between the Kaveri and Kollidam, Aliabet is the largest island in the Narmada, and Shivanasamudram is a Kaveri riverine island.",
+   "ty": "statements",
+   "tq": "Match each island with its river setting.",
+   "sec": "Peninsular vs Himalayan rivers"
+  },
+  {
+   "s": "Charaichung at Majuli, established in 1633 by Ahom king Pratap Singha, is associated with which description?",
+   "o": [
+    "The first hydropower project on the Brahmaputra",
+    "Asia's first protected bird site",
+    "The largest artificial lake of Assam",
+    "India's first Ramsar site"
+   ],
+   "a": 1,
+   "x": "Charaichung was established in 1633 by Pratap Singha and is called Asia's first protected bird site.",
+   "ty": "fact",
+   "tq": "Recall the founder–date–designation association.",
+   "sec": "Lakes and lagoons → state and type"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes Himalayan rivers from Peninsular rivers?",
+   "o": [
+    "Himalayan rivers form only estuaries, whereas Peninsular rivers form only deltas.",
+    "Himalayan rivers are seasonal, whereas Peninsular rivers are perennial.",
+    "Himalayan rivers generally have deep antecedent gorges, whereas Peninsular rivers have broad or shallow graded valleys.",
+    "Himalayan rivers have fixed straight courses, whereas Peninsular rivers meander extensively."
+   ],
+   "a": 2,
+   "x": "Himalayan rivers are generally perennial and form deep antecedent gorges, while Peninsular rivers are usually seasonal and flow through broad, shallow, graded valleys.",
+   "ty": "comparison",
+   "tq": "Compare the two river systems feature by feature.",
+   "sec": "Peninsular vs Himalayan rivers"
+  },
+  {
+   "s": "Consider the following statements:\n1. Himalayan rivers are generally perennial because they receive water from rainfall and snowmelt.\n2. Peninsular rivers are mainly seasonal and rain-fed.\n3. Peninsular rivers commonly have fixed and relatively straight courses over hard rock.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly describe the regime and course characteristics of Himalayan and Peninsular rivers.",
+   "ty": "statements",
+   "tq": "Test the river-system comparison through separate regime and course statements.",
+   "sec": "Peninsular vs Himalayan rivers"
+  },
+  {
+   "s": "Which one of the following statements regarding the mouths of Peninsular rivers is correct?",
+   "o": [
+    "All Peninsular rivers form large deltas.",
+    "Peninsular rivers do not form either deltas or estuaries.",
+    "West-flowing rivers always form larger deltas than east-flowing rivers.",
+    "East-flowing Peninsular rivers generally form deltas, while west-flowing rivers commonly form estuaries."
+   ],
+   "a": 3,
+   "x": "East-flowing Peninsular rivers generally form deltas, whereas west-flowing rivers commonly form estuaries.",
+   "ty": "comparison",
+   "tq": "Use the east-flowing versus west-flowing contrast.",
+   "sec": "Peninsular vs Himalayan rivers"
+  },
+  {
+   "s": "Which of the following is an important use more characteristic of Peninsular rivers than Himalayan rivers?",
+   "o": [
+    "Snowmelt-based irrigation throughout the year",
+    "Formation of antecedent valleys in the Himalaya",
+    "Navigation through perennial deep gorges only",
+    "Hydropower generation over hard-rock courses"
+   ],
+   "a": 3,
+   "x": "Peninsular rivers are particularly useful for hydropower generation, while east-flowing rivers also support delta irrigation.",
+   "ty": "application",
+   "tq": "Apply the functional comparison between the two river systems.",
+   "sec": "Peninsular vs Himalayan rivers"
+  },
+  {
+   "s": "Antecedent rivers are those which:\n1. Rise in the Trans-Himalaya.\n2. Maintain their courses by cutting gorges as mountain ranges rise.\n3. Are represented by the Indus, Sutlej and Brahmaputra.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Antecedent rivers rise in the Trans-Himalaya and retain their courses by cutting through rising ranges. Indus, Sutlej and Brahmaputra are examples.",
+   "ty": "statements",
+   "tq": "Test definition, process and examples together.",
+   "sec": "Peninsular vs Himalayan rivers"
+  },
+  {
+   "s": "The Godavari delta, known as Konaseema, is described as having how many distributaries in the material?",
+   "o": [
+    "Seven",
+    "Nine",
+    "Six",
+    "Five"
+   ],
+   "a": 0,
+   "x": "The Godavari delta at Konaseema is described as having seven distributaries.",
+   "ty": "numerical",
+   "tq": "Directly recall the numerical detail attached to the delta.",
+   "sec": "Peninsular vs Himalayan rivers"
+  },
+  {
+   "s": "Which of the following is NOT a distributary of the Godavari listed in connection with the Konaseema delta?",
+   "o": [
+    "Vainateya",
+    "Bhagirathi",
+    "Gautami",
+    "Vasishta"
+   ],
+   "a": 1,
+   "x": "The listed Godavari distributaries include Gautami, Vasishta, Vainateya, Tulya, Bharadwaja, Kaushika and Athreya. Bhagirathi is not included in that list.",
+   "ty": "negative",
+   "tq": "Find the outsider from a named distributary list.",
+   "sec": "Peninsular vs Himalayan rivers"
+  },
+  {
+   "s": "The mouth of the Godavari is located near which place?",
+   "o": [
+    "Hampi",
+    "Jabalpur",
+    "Antharvedi",
+    "Ranchi"
+   ],
+   "a": 2,
+   "x": "The Godavari reaches the sea near Antharvedi through its deltaic distributaries.",
+   "ty": "fact",
+   "tq": "Recall the terminal-location fact rather than the source.",
+   "sec": "Peninsular vs Himalayan rivers"
+  },
+  {
+   "s": "Which one of the following statements about the Ganga basin is correct?",
+   "o": [
+    "The Ganga-Brahmaputra-Meghna basin is India's smallest basin.",
+    "The Ganga is a seasonal Peninsular river.",
+    "The Ganga basin is smaller than the Narmada basin.",
+    "The Ganga alone covers approximately 9,51,600 sq km."
+   ],
+   "a": 3,
+   "x": "The Ganga alone covers approximately 9,51,600 sq km. The Ganga-Brahmaputra-Meghna basin is the largest basin in India.",
+   "ty": "numerical",
+   "tq": "Use the precise area figure to reject reversed basin claims.",
+   "sec": "Peninsular vs Himalayan rivers"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Godavari — approximately 250 km in Andhra Pradesh",
+    "Brahmaputra — only 250 km in India",
+    "Kaveri — 1,465 km long",
+    "Mahanadi — 2,525 km long"
+   ],
+   "a": 0,
+   "x": "Approximately 250 km of the Godavari lies in Andhra Pradesh. The other length associations are incorrect.",
+   "ty": "match",
+   "tq": "Use the state-specific length detail as the distinguishing clue.",
+   "sec": "Basin area and length ranking"
+  },
+  {
+   "s": "The Godavari, Krishna and Mahanadi basins are arranged in which order from larger to smaller?",
+   "o": [
+    "Godavari, Mahanadi, Krishna",
+    "Mahanadi, Krishna, Godavari",
+    "Krishna, Godavari, Mahanadi",
+    "Godavari, Krishna, Mahanadi"
+   ],
+   "a": 3,
+   "x": "Among these Peninsular basins, the order is Godavari, Krishna and Mahanadi from larger to smaller.",
+   "ty": "comparison",
+   "tq": "Arrange the basin-size sequence using relative comparison.",
+   "sec": "Basin area and length ranking"
+  }
+ ]
+}

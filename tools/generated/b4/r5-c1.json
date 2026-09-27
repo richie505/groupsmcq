@@ -1,0 +1,512 @@
+{
+ "book": 4,
+ "row": 5,
+ "chunk": 1,
+ "section": "Interior of the earth - crust, mantle, core; discontinuities and seismic evidence",
+ "subsections": [
+  "Layers - crust, mantle, core: thickness, density, state",
+  "Asthenosphere and lithosphere - location and role",
+  "Temperature, pressure, density gradient with depth",
+  "Core - outer vs inner core, constituents besides iron and nickel",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly represents the approximate thickness of oceanic and continental crust respectively?",
+   "o": [
+    "70 km and 20 km",
+    "5 km and 30 km",
+    "30 km and 5 km",
+    "20 km and 70 km"
+   ],
+   "a": 1,
+   "x": "Oceanic crust is approximately 5 km thick, whereas continental crust is approximately 30 km thick, though it may reach greater thickness beneath mountains.",
+   "ty": "numerical",
+   "tq": "Use the direct numerical comparison and distinguish oceanic from continental crust.",
+   "sec": "Layers - crust, mantle, core: thickness, density, state"
+  },
+  {
+   "s": "Consider the following statements regarding the Earth's crust:\n1. The upper crust has a density of about 2.8 g/cm³.\n2. The lower crust has a density of about 3.0 g/cm³.\n3. The crust is in a solid state.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The upper and lower crust have approximate densities of 2.8 and 3.0 g/cm³ respectively, and the crust is solid.",
+   "ty": "statements",
+   "tq": "Check each statement against the density and state characteristics of the crust.",
+   "sec": "Layers - crust, mantle, core: thickness, density, state"
+  },
+  {
+   "s": "The mantle extends from the Mohorovičić discontinuity to approximately which depth?",
+   "o": [
+    "700 km",
+    "1,000 km",
+    "2,900 km",
+    "5,150 km"
+   ],
+   "a": 2,
+   "x": "The mantle extends downward from the Moho to approximately 2,900 km depth.",
+   "ty": "fact",
+   "tq": "Identify the layer boundary associated with the stated depth.",
+   "sec": "Layers - crust, mantle, core: thickness, density, state"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Mantle — mean density about 4.6 g/cm³",
+    "Crust — mean density about 13.6 g/cm³",
+    "Outer core — solid state",
+    "Inner core — density about 2.8 g/cm³"
+   ],
+   "a": 0,
+   "x": "The mantle has a mean density of approximately 4.6 g/cm³. The other pairs reverse or misstate the properties of the layers.",
+   "ty": "match",
+   "tq": "Start with the sure density-state pair and eliminate reversed layer properties.",
+   "sec": "Layers - crust, mantle, core: thickness, density, state"
+  },
+  {
+   "s": "The mantle accounts for approximately what percentage of the Earth's volume and mass respectively?",
+   "o": [
+    "83% and 68%",
+    "16% and 32%",
+    "68% and 83%",
+    "32% and 16%"
+   ],
+   "a": 0,
+   "x": "The mantle constitutes approximately 83% of Earth's volume and 68% of its mass.",
+   "ty": "numerical",
+   "tq": "Distinguish the volume share from the mass share rather than reversing them.",
+   "sec": "Layers - crust, mantle, core: thickness, density, state"
+  },
+  {
+   "s": "Which of the following statements correctly describes the outer and inner core?\n1. The outer core extends approximately from 2,900 km to 5,150 km.\n2. The outer core is liquid.\n3. The inner core extends from approximately 5,150 km to the Earth's centre at 6,371 km.\n4. The inner core is solid.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "3 and 4 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the depth ranges and physical states of the outer and inner core.",
+   "ty": "statements",
+   "tq": "Verify the boundary depths first, then check the contrasting physical states.",
+   "sec": "Layers - crust, mantle, core: thickness, density, state"
+  },
+  {
+   "s": "According to the two-layer division of the mantle, which one of the following is correct?",
+   "o": [
+    "Upper mantle extends from the Moho to 200 km and lower mantle from 200 to 700 km.",
+    "Upper mantle extends from 200 to 700 km and lower mantle from 700 to 5,150 km.",
+    "Upper mantle extends from the Moho to 1,000 km and lower mantle from 1,000 to 2,900 km.",
+    "Upper mantle extends from 700 to 2,900 km and lower mantle from the Moho to 700 km."
+   ],
+   "a": 2,
+   "x": "In the older scheme, the upper mantle extends from the Moho to about 1,000 km, while the lower mantle extends from 1,000 to 2,900 km.",
+   "ty": "fact",
+   "tq": "Distinguish the old two-zone classification from the IUGG three-zone scheme.",
+   "sec": "Layers - crust, mantle, core: thickness, density, state"
+  },
+  {
+   "s": "Under the IUGG scheme, which sequence correctly represents the zones of the mantle from the surface downward?",
+   "o": [
+    "Moho–200 km; 200–700 km; 700–2,900 km",
+    "Moho–700 km; 700–1,000 km; 1,000–2,900 km",
+    "Moho–1,000 km; 1,000–2,000 km; 2,000–2,900 km",
+    "Moho–200 km; 200–1,000 km; 1,000–5,150 km"
+   ],
+   "a": 0,
+   "x": "The IUGG division identifies mantle zones at Moho–200 km, 200–700 km and 700–2,900 km.",
+   "ty": "chronology",
+   "tq": "Arrange the successive depth intervals from shallow to deep.",
+   "sec": "Layers - crust, mantle, core: thickness, density, state"
+  },
+  {
+   "s": "Which one of the following statements about the continental and oceanic crust is correct?",
+   "o": [
+    "Continental crust is mainly basaltic and oceanic crust is mainly granitic.",
+    "Continental crust is liquid, while oceanic crust is solid.",
+    "Continental crust is broadly granitic, while oceanic crust is broadly basaltic.",
+    "Both continental and oceanic crust are composed mainly of NIFE."
+   ],
+   "a": 2,
+   "x": "Continental crust is associated with granitic SIAL, whereas oceanic crust is associated with basaltic SIMA.",
+   "ty": "comparison",
+   "tq": "Use the reversed-comparison trap involving granite and basalt.",
+   "sec": "Layers - crust, mantle, core: thickness, density, state"
+  },
+  {
+   "s": "In Suess's classification, which one of the following combinations is correctly matched?",
+   "o": [
+    "SIAL — density about 2.9 and thickness 50–300 km",
+    "SIMA — density about 2.9 and diameter 6,880 km",
+    "NIFE — density 2.9 and thickness 50–300 km",
+    "SIAL — density 11 and thickness 1,000–2,000 km"
+   ],
+   "a": 0,
+   "x": "Suess associated SIAL with a density of about 2.9 and a thickness of 50–300 km. SIMA has a density range of about 2.9–4.7, while NIFE has a density of about 11.",
+   "ty": "match",
+   "tq": "Match the named compositional divisions with their numerical properties.",
+   "sec": "Layers - crust, mantle, core: thickness, density, state"
+  },
+  {
+   "s": "The lithosphere consists of which of the following?",
+   "o": [
+    "The asthenosphere and the outer core",
+    "The crust and the rigid uppermost mantle",
+    "Only the oceanic crust",
+    "The crust and the entire mantle"
+   ],
+   "a": 1,
+   "x": "The lithosphere comprises the crust and the rigid uppermost mantle and is approximately 100 km thick.",
+   "ty": "fact",
+   "tq": "Distinguish the rigid lithosphere from the weak asthenosphere.",
+   "sec": "Asthenosphere and lithosphere - location and role"
+  },
+  {
+   "s": "Consider the following statements regarding the asthenosphere:\n1. It is located in the upper mantle.\n2. It is associated with a low-velocity zone at approximately 100–200 km depth.\n3. It is rigid and forms the tectonic plates.\n4. It is a major source of magma.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "The asthenosphere is a weak, plastic and partly molten upper-mantle zone, generally associated with depths of 100–200 km, and is a major source of magma. The rigid tectonic plates form the lithosphere, not the asthenosphere.",
+   "ty": "statements",
+   "tq": "Find the incorrect statement by separating the roles of lithosphere and asthenosphere.",
+   "sec": "Asthenosphere and lithosphere - location and role"
+  },
+  {
+   "s": "Tectonic plates glide over the asthenosphere mainly because the asthenosphere is:",
+   "o": [
+    "A liquid metallic layer of the core",
+    "A rigid and fully crystalline layer",
+    "A weak, plastic and partly molten layer",
+    "A layer composed exclusively of basalt"
+   ],
+   "a": 2,
+   "x": "The asthenosphere is weak, plastic and partly molten, allowing the rigid lithospheric plates to move over it.",
+   "ty": "application",
+   "tq": "Apply the physical-property clue to identify the layer responsible for plate movement.",
+   "sec": "Asthenosphere and lithosphere - location and role"
+  },
+  {
+   "s": "Which one of the following is the correct sequence of major internal layers from the surface towards the centre of the Earth as given in the classification?",
+   "o": [
+    "Crust/Lithosphere – Asthenosphere – Mesosphere – Barysphere",
+    "Asthenosphere – Crust – Barysphere – Mesosphere",
+    "Mesosphere – Lithosphere – Asthenosphere – Barysphere",
+    "Lithosphere – Mesosphere – Crust – Barysphere"
+   ],
+   "a": 0,
+   "x": "The sequence is Lithosphere or crust, asthenosphere, mesosphere and barysphere, the latter representing the core.",
+   "ty": "chronology",
+   "tq": "Track the layer sequence from the surface inward.",
+   "sec": "Asthenosphere and lithosphere - location and role"
+  },
+  {
+   "s": "The Indian plate beneath Tibet has been reported to undergo which process?",
+   "o": [
+    "Subduction of its entire crust into the outer core",
+    "Complete melting of its oceanic crust at the surface",
+    "Delamination of its dense lower layer into the mantle at about 100 km depth",
+    "Separation of its upper layer into the asthenosphere only"
+   ],
+   "a": 2,
+   "x": "The dense lower layer of the Indian plate is reported to be peeling away and delaminating into the mantle at roughly 100 km depth beneath Tibet.",
+   "ty": "fact",
+   "tq": "Use the process-location-depth combination to distinguish delamination from subduction.",
+   "sec": "Asthenosphere and lithosphere - location and role"
+  },
+  {
+   "s": "Which one of the following correctly describes the general variation of temperature, pressure and density inside the Earth?",
+   "o": [
+    "Temperature increases, but pressure and density decrease with depth.",
+    "Temperature, pressure and density generally increase with depth.",
+    "All three decrease with depth.",
+    "Only density increases with depth."
+   ],
+   "a": 1,
+   "x": "Temperature, pressure and density all generally rise with increasing depth inside the Earth.",
+   "ty": "fact",
+   "tq": "Identify the common direction of the three internal gradients.",
+   "sec": "Temperature, pressure, density gradient with depth"
+  },
+  {
+   "s": "In the upper crust, the geothermal gradient is approximately:",
+   "o": [
+    "1°C per 32 m",
+    "1°C per 320 m",
+    "1°C per 3.2 m",
+    "32°C per 1 m"
+   ],
+   "a": 0,
+   "x": "Temperature rises by approximately 1°C for every 32 m of depth in the upper crust, although the rate slows at greater depths.",
+   "ty": "numerical",
+   "tq": "Pay attention to the place value in the depth-temperature relationship.",
+   "sec": "Temperature, pressure, density gradient with depth"
+  },
+  {
+   "s": "Which one of the following correctly represents the approximate density progression from the crust through the mantle to the inner core?",
+   "o": [
+    "2.8–3.0, 5.5, 4.6 g/cm³",
+    "2.8–3.0, 4.6, 13.3–13.6 g/cm³",
+    "13.3–13.6, 4.6, 2.8–3.0 g/cm³",
+    "4.6, 2.8–3.0, 5.5 g/cm³"
+   ],
+   "a": 1,
+   "x": "Density increases downward from approximately 2.8–3.0 g/cm³ in the crust to 4.6 in the mantle and 13.3–13.6 in the inner core.",
+   "ty": "comparison",
+   "tq": "Arrange the density values in increasing order with depth.",
+   "sec": "Temperature, pressure, density gradient with depth"
+  },
+  {
+   "s": "The approximate average density of the Earth is:",
+   "o": [
+    "2.8 g/cm³",
+    "13.6 g/cm³",
+    "4.6 g/cm³",
+    "5.5 g/cm³"
+   ],
+   "a": 3,
+   "x": "The Earth's average density is approximately 5.5 g/cm³.",
+   "ty": "numerical",
+   "tq": "Separate the whole-Earth average from the characteristic densities of individual layers.",
+   "sec": "Temperature, pressure, density gradient with depth"
+  },
+  {
+   "s": "Why does the inner core remain solid despite the very high temperature prevailing there?",
+   "o": [
+    "Its temperature is lower than that of the crust.",
+    "The pressure exerted by the overlying rocks is immense.",
+    "It is located outside the mantle.",
+    "It contains no metallic elements."
+   ],
+   "a": 1,
+   "x": "The immense pressure caused by the weight of overlying material keeps the inner core solid despite its extreme temperature.",
+   "ty": "application",
+   "tq": "Link the physical condition to the controlling factor rather than to temperature alone.",
+   "sec": "Temperature, pressure, density gradient with depth"
+  },
+  {
+   "s": "Which one of the following pairs of geothermal sites and States or regions is NOT correctly matched?",
+   "o": [
+    "Manikaran — Himachal Pradesh",
+    "Bakreshwar — Gujarat",
+    "Puga Valley — Ladakh",
+    "Tattapani — Chhattisgarh"
+   ],
+   "a": 1,
+   "x": "Bakreshwar is in West Bengal, whereas Cambay is the geothermal site associated with Gujarat.",
+   "ty": "negative",
+   "tq": "Find the location swap among a cluster of nearby geothermal-site facts.",
+   "sec": "Temperature, pressure, density gradient with depth"
+  },
+  {
+   "s": "Geothermal wells associated with the listed Indian geothermal sites generally need to reach approximately what depth?",
+   "o": [
+    "10–15 km",
+    "200–500 m",
+    "2–5 km",
+    "1–2 km"
+   ],
+   "a": 2,
+   "x": "The wells are required to reach approximately 2–5 km depth to access the geothermal resource.",
+   "ty": "numerical",
+   "tq": "Use the stated operational depth rather than confusing it with mantle depths.",
+   "sec": "Temperature, pressure, density gradient with depth"
+  },
+  {
+   "s": "The core constitutes approximately what percentage of the Earth's volume and mass respectively?",
+   "o": [
+    "16% and 32%",
+    "68% and 83%",
+    "32% and 16%",
+    "83% and 68%"
+   ],
+   "a": 0,
+   "x": "The core accounts for approximately 16% of Earth's volume and 32% of its mass.",
+   "ty": "numerical",
+   "tq": "Distinguish the core's volume share from its greater mass share.",
+   "sec": "Core - outer vs inner core, constituents besides iron and nickel  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The boundary between the outer core and inner core occurs at approximately:",
+   "o": [
+    "6,371 km depth",
+    "5,150 km depth",
+    "700 km depth",
+    "2,900 km depth"
+   ],
+   "a": 1,
+   "x": "The outer core extends to approximately 5,150 km depth, below which the solid inner core begins.",
+   "ty": "fact",
+   "tq": "Identify the internal boundary from the pair of core depth ranges.",
+   "sec": "Core - outer vs inner core, constituents besides iron and nickel  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The liquid nature of the outer core is supported by the:",
+   "o": [
+    "Loss of S-waves through it",
+    "Increase of P-wave velocity in the crust",
+    "Presence of continental granite",
+    "Formation of kimberlite pipes"
+   ],
+   "a": 0,
+   "x": "S-waves cannot travel through liquids; their loss through the outer core provides evidence that it is liquid or molten.",
+   "ty": "fact",
+   "tq": "Connect seismic-wave behaviour with the physical state of the layer.",
+   "sec": "Core - outer vs inner core, constituents besides iron and nickel  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which process in the outer core is chiefly associated with the generation of the Earth's magnetic field?",
+   "o": [
+    "Churning of molten iron in the liquid outer core",
+    "Cooling of the lithosphere",
+    "Solidification of continental crust",
+    "Movement of granite in the mantle"
+   ],
+   "a": 0,
+   "x": "The churning motion of molten iron in the liquid outer core drives the geodynamo, which generates Earth's magnetic field.",
+   "ty": "application",
+   "tq": "Match the process with its physical location and consequence.",
+   "sec": "Core - outer vs inner core, constituents besides iron and nickel  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following statements regarding the inner core is correct?",
+   "o": [
+    "It is solid and has a density of approximately 13.3–13.6 g/cm³.",
+    "It is liquid and has a density of about 4.6 g/cm³.",
+    "It is plastic and lies above the Moho.",
+    "It is gaseous and lies between 100 and 200 km depth."
+   ],
+   "a": 0,
+   "x": "The inner core is solid, extends from approximately 5,150 to 6,371 km depth and has a density of about 13.3–13.6 g/cm³.",
+   "ty": "fact",
+   "tq": "Reject the state-depth reversals and select the precise inner-core description.",
+   "sec": "Core - outer vs inner core, constituents besides iron and nickel  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "P-waves cross the inner core at approximately what velocity?",
+   "o": [
+    "4.60 km/s",
+    "13.60 km/s",
+    "11.23 km/s",
+    "5.50 km/s"
+   ],
+   "a": 2,
+   "x": "P-waves cross the inner core at approximately 11.23 km/s.",
+   "ty": "numerical",
+   "tq": "Distinguish the seismic velocity figure from density and average-Earth values.",
+   "sec": "Core - outer vs inner core, constituents besides iron and nickel  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "In the terminology used by Suess, NIFE refers primarily to:",
+   "o": [
+    "The basaltic oceanic crust",
+    "The iron-nickel core",
+    "The granitic continental crust",
+    "The plastic asthenosphere"
+   ],
+   "a": 1,
+   "x": "NIFE denotes the iron-nickel composition associated with the Earth's core.",
+   "ty": "confusable",
+   "tq": "Discriminate among SIAL, SIMA and NIFE by their compositional meanings.",
+   "sec": "Core - outer vs inner core, constituents besides iron and nickel  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following statements about the recent observations of the outer core is correct?",
+   "o": [
+    "The solid inner core stopped rotating in 2020.",
+    "The outer core became completely solid beneath the Pacific after 2020.",
+    "The liquid outer core beneath the Pacific changed from strong eastward flow to sluggish westward flow after 2020.",
+    "The liquid outer core beneath the Pacific changed from sluggish westward flow to strong eastward flow, with weakening around 2020."
+   ],
+   "a": 3,
+   "x": "Swarm satellite observations indicated a shift beneath the Pacific from sluggish westward flow to strong eastward flow, followed by weakening around 2020.",
+   "ty": "fact",
+   "tq": "Watch for the reversed-direction trap in a dynamic current-affairs statement.",
+   "sec": "Core - outer vs inner core, constituents besides iron and nickel  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following statements about mantle earthquakes is correct?",
+   "o": [
+    "They occur only within the continental crust.",
+    "They occur only at the Earth's surface and produce the strongest surface shaking.",
+    "They are confined to the liquid outer core.",
+    "They occur more than 80 km below the Moho and generally produce weak surface shaking."
+   ],
+   "a": 3,
+   "x": "The global mapping referred to mantle earthquakes occurring more than 80 km below the Moho; their surface shaking is generally weak.",
+   "ty": "fact",
+   "tq": "Use the depth and surface-effect combination to identify the correct statement.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Diamonds reach the Earth's crust from the mantle mainly through:",
+   "o": [
+    "Kimberlite pipes",
+    "Mid-ocean ridges",
+    "Oceanic trenches",
+    "River deltas"
+   ],
+   "a": 0,
+   "x": "Diamonds formed in the mantle are transported upward to the crust through kimberlite pipes.",
+   "ty": "fact",
+   "tq": "Match the resource with its geological transport pathway.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which State is associated with approximately 90% of India's diamond reserves?",
+   "o": [
+    "Gujarat",
+    "Madhya Pradesh",
+    "Himachal Pradesh",
+    "West Bengal"
+   ],
+   "a": 1,
+   "x": "Madhya Pradesh is associated with approximately 90% of India's diamond reserves.",
+   "ty": "numerical",
+   "tq": "Link the percentage resource fact with the correct State rather than a geothermal location.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The liquid outer core is significant for life on Earth because the magnetic field generated by it:",
+   "o": [
+    "Stops all volcanic eruptions.",
+    "Prevents the formation of continental crust.",
+    "Produces all atmospheric oxygen.",
+    "Shields life from solar wind and cosmic radiation."
+   ],
+   "a": 3,
+   "x": "The magnetic field generated by the liquid outer core helps shield life from the solar wind and cosmic radiation.",
+   "ty": "application",
+   "tq": "Apply the geodynamo-magnetic-field relationship to its environmental significance.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Magnetic reversals of the Earth may last for periods of up to approximately:",
+   "o": [
+    "700 years",
+    "7,000 years",
+    "70,000 years",
+    "700,000 years"
+   ],
+   "a": 2,
+   "x": "The duration of magnetic reversals has been reported to extend up to approximately 70,000 years.",
+   "ty": "numerical",
+   "tq": "Distinguish the order of magnitude among closely spaced numerical options.",
+   "sec": "Universal angles"
+  }
+ ]
+}

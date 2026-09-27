@@ -1,0 +1,551 @@
+{
+ "book": 4,
+ "row": 48,
+ "chunk": 2,
+ "section": "Andhra Pradesh - drainage: Godavari, Krishna, Penna, Vamsadhara, Nagavali; reservoirs and canals",
+ "subsections": [
+  "Godavari and Krishna tributaries - largest, left vs right bank",
+  "Inter-state disputes, river boards and tribunals"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 42,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which is the largest tributary of the Godavari in terms of water flow?",
+   "o": [
+    "Sabari",
+    "Pranhita",
+    "Indravati",
+    "Manjira"
+   ],
+   "a": 1,
+   "x": "Pranhita is the largest tributary of the Godavari and contributes the largest flow to it.",
+   "ty": "fact",
+   "tq": "Use the superlative clue and distinguish the largest tributary from other major tributaries.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Pranhita is formed by the confluence of which two rivers?",
+   "o": [
+    "Bhima and Manjira",
+    "Tunga and Bhadra",
+    "Purna and Pravara",
+    "Wardha and Wainganga"
+   ],
+   "a": 3,
+   "x": "Pranhita is formed by the Wardha and Wainganga rivers before joining the Godavari.",
+   "ty": "fact",
+   "tq": "Test the formation of a major tributary through a direct pair-based question.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Pranhita joins the Godavari near which place?",
+   "o": [
+    "Kaleshwaram",
+    "Nizamabad",
+    "Sangameswaram",
+    "Kunavaram"
+   ],
+   "a": 0,
+   "x": "Pranhita joins the Godavari near Kaleshwaram in Telangana.",
+   "ty": "fact",
+   "tq": "Distinguish the confluence location of Pranhita from those of Sabari and Tungabhadra.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Consider the following statements regarding tributaries of the Godavari:\n1. Pranhita is a left-bank tributary.\n2. Manjira is a right-bank tributary.\n3. Indravati is a left-bank tributary.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Pranhita and Indravati are left-bank tributaries, while Manjira is a right-bank tributary of the Godavari.",
+   "ty": "statements",
+   "tq": "Classify tributaries by bank and eliminate codes containing a reversed classification.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Indravati, a tributary of the Godavari, rises in which area and flows through which region?",
+   "o": [
+    "Kalahandi in Odisha and Bastar",
+    "Balaghat hills and Telangana",
+    "Western Ghats and Karnataka",
+    "Sinkaram hills and Nandyal"
+   ],
+   "a": 0,
+   "x": "Indravati rises in Kalahandi district of Odisha and flows through the Bastar region.",
+   "ty": "fact",
+   "tq": "Combine origin and course to discriminate between closely related tributaries.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Indravati — joins the Krishna at Sangameswaram",
+    "Sabari — joins the Godavari near Kunavaram",
+    "Manjira — rises in the Sinkaram hills",
+    "Pranhita — joins the Godavari near Nizamabad"
+   ],
+   "a": 1,
+   "x": "Sabari joins the Godavari near Kunavaram in Andhra Pradesh. The other locations belong to different rivers.",
+   "ty": "negative",
+   "tq": "Start with the sure river–confluence pair and reject swapped locations.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "The Sabari River rises in the:",
+   "o": [
+    "Anantagiri hills",
+    "Kalahandi hills",
+    "Sinkaram hills",
+    "Balaghat hills"
+   ],
+   "a": 2,
+   "x": "Sabari rises in the Sinkaram hills of Odisha.",
+   "ty": "fact",
+   "tq": "Test the exact source location rather than the broader drainage basin.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Consider the following statements about the Sileru River:\n1. It is a tributary of the Sabari.\n2. Machkund is its name in the upper reaches.\n3. It joins the Sabari at the tri-junction of Andhra Pradesh, Chhattisgarh and Odisha.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Sileru is a tributary of Sabari, is known as Machkund in its upper course, and joins Sabari at the AP–Chhattisgarh–Odisha tri-junction.",
+   "ty": "statements",
+   "tq": "Use a three-part statement question to test tributary relationship, alternate name and confluence location.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Which one of the following is a left-bank tributary of the Godavari?",
+   "o": [
+    "Manair",
+    "Purna",
+    "Manjira",
+    "Pravara"
+   ],
+   "a": 1,
+   "x": "Purna is a left-bank tributary of the Godavari and is associated with Maharashtra. Pravara, Manjira and Manair are right-bank tributaries in the listed classification.",
+   "ty": "fact",
+   "tq": "Discriminate between left-bank and right-bank tributaries using nearby alternatives.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Manjira joins the Godavari near:",
+   "o": [
+    "Raichur",
+    "Nizamabad",
+    "Kaleshwaram",
+    "Kunavaram"
+   ],
+   "a": 1,
+   "x": "Manjira, a right-bank tributary of the Godavari, joins it near Nizamabad.",
+   "ty": "fact",
+   "tq": "Pair the tributary with its specified confluence location.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Which of the following tributaries is associated with the Krishna River rather than the Godavari River?",
+   "o": [
+    "Sabari",
+    "Pranhita",
+    "Tungabhadra",
+    "Indravati"
+   ],
+   "a": 2,
+   "x": "Tungabhadra is a major tributary of the Krishna; the other three are tributaries of the Godavari.",
+   "ty": "odd_one_out",
+   "tq": "Find the odd river by separating the Krishna drainage group from the Godavari group.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Tungabhadra is formed by the union of:",
+   "o": [
+    "Bhima and Manjira",
+    "Wardha and Wainganga",
+    "Ghataprabha and Malaprabha",
+    "Tunga and Bhadra"
+   ],
+   "a": 3,
+   "x": "Tungabhadra is formed by the Tunga and Bhadra rivers.",
+   "ty": "fact",
+   "tq": "Test the standard formation pair of a major peninsular river.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Consider the following statements about Tungabhadra:\n1. It is a right-bank tributary of the Krishna.\n2. It joins the Krishna at Sangameswaram.\n3. Its tributaries include Vedavathi and Handri.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Tungabhadra is a right-bank tributary, joins the Krishna at Sangameswaram in Nandyal, and has Vedavathi and Handri among its tributaries.",
+   "ty": "statements",
+   "tq": "Check river-bank position, confluence and subordinate tributaries as separate facts.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Vedavathi is also known as Hagari and the Vani Vilasa Sagar dam is situated on it. Vedavathi is associated with which river system?",
+   "o": [
+    "Godavari",
+    "Pennar",
+    "Krishna",
+    "Vamsadhara"
+   ],
+   "a": 2,
+   "x": "Vedavathi, also called Hagari, is a tributary of Tungabhadra and therefore belongs to the Krishna river system. Vani Vilasa Sagar, also called Marikanive, is situated on it.",
+   "ty": "application",
+   "tq": "Trace a subordinate tributary upward to identify its main river system.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Which one of the following is a left-bank tributary of the Krishna?",
+   "o": [
+    "Ghataprabha",
+    "Musi",
+    "Malaprabha",
+    "Tungabhadra"
+   ],
+   "a": 1,
+   "x": "Musi is a left-bank tributary of the Krishna. Tungabhadra, Ghataprabha and Malaprabha are classified as right-bank tributaries.",
+   "ty": "fact",
+   "tq": "Use bank-side classification to separate similar Krishna tributaries.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Musi River rises in the:",
+   "o": [
+    "Anantagiri hills of Telangana",
+    "Balaghat hills of Maharashtra",
+    "Sinkaram hills of Odisha",
+    "Western Ghats of Karnataka"
+   ],
+   "a": 0,
+   "x": "The Musi rises in the Anantagiri hills of Telangana.",
+   "ty": "fact",
+   "tq": "Match the river with its exact source hills.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Ghataprabha — right-bank tributary of Krishna",
+    "Bhima — left-bank tributary of Krishna",
+    "Musi — left-bank tributary of Krishna",
+    "Tungabhadra — left-bank tributary of Krishna"
+   ],
+   "a": 3,
+   "x": "Tungabhadra is a right-bank tributary of the Krishna, not a left-bank tributary. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Look for the reversed bank classification in a not-correctly-matched question.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "The Raichur Doab lies between the:",
+   "o": [
+    "Tungabhadra and Pennar",
+    "Bhima and Godavari",
+    "Godavari and Krishna",
+    "Krishna and Tungabhadra"
+   ],
+   "a": 3,
+   "x": "The Raichur Doab is the land tract lying between the Krishna and Tungabhadra rivers.",
+   "ty": "fact",
+   "tq": "Identify the two bounding rivers of a named doab.",
+   "sec": "Godavari and Krishna tributaries - largest, left vs right bank"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with respect to inter-state river-water arrangements?\n1. Bahuda — inter-state agreement\n2. Vamsadhara — inter-state agreement\n3. Nagavali — inter-state agreement\n4. Godavari — tribunal award\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Bahuda, Vamsadhara and Nagavali are covered by inter-state agreements, while Godavari waters are governed through a tribunal award.",
+   "ty": "statements",
+   "tq": "Separate disputes settled by agreements from those governed by tribunal awards.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "The Bachawat Tribunal relating to Krishna waters is also known as:",
+   "o": [
+    "VWDTA",
+    "KWDT-I",
+    "KWDT-II",
+    "GWDT"
+   ],
+   "a": 1,
+   "x": "The Bachawat Tribunal is the first Krishna Water Disputes Tribunal, designated KWDT-I.",
+   "ty": "fact",
+   "tq": "Match the tribunal name with its official abbreviation and river dispute.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "Which of the following statements regarding the Bachawat Tribunal award is correct?",
+   "o": [
+    "It allocated 811 TMC at 50% dependability and gave Andhra Pradesh 2,060 TMC.",
+    "It was the 1980 tribunal award on Godavari waters.",
+    "It allocated 2,060 TMC at 75% dependability and gave Andhra Pradesh 811 TMC.",
+    "It awarded 196 TMC to Andhra Pradesh in 2010."
+   ],
+   "a": 2,
+   "x": "The Bachawat Tribunal's Krishna award involved 2,060 TMC at 75% dependability, of which Andhra Pradesh's share was 811 TMC.",
+   "ty": "numerical",
+   "tq": "Use the numerical figures and dependability percentage to identify the precise award.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "The first Krishna Water Disputes Tribunal award associated with the Bachawat Tribunal was given in:",
+   "o": [
+    "1973",
+    "1976",
+    "1980",
+    "2010"
+   ],
+   "a": 1,
+   "x": "The Bachawat Tribunal's Krishna award is associated with 1973/1976, with 1976 being the award year used in the detailed reference.",
+   "ty": "numerical",
+   "tq": "Distinguish the award year from the later Krishna and Godavari tribunal years.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Vamsadhara Tribunal — award in 1980",
+    "Brijesh Kumar Tribunal — Krishna dispute, report in 2010",
+    "Godavari Water Disputes Tribunal — final award in 2017",
+    "Bachawat Tribunal — report in 2013"
+   ],
+   "a": 1,
+   "x": "The Brijesh Kumar Tribunal, or KWDT-II, dealt with the Krishna dispute and submitted its report in 2010, followed by a further report in 2013.",
+   "ty": "negative",
+   "tq": "Match each tribunal with its river, designation and year while rejecting swapped dates.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "The Godavari Water Disputes Tribunal gave its award in:",
+   "o": [
+    "1976",
+    "1980",
+    "2010",
+    "2017"
+   ],
+   "a": 1,
+   "x": "The Godavari Water Disputes Tribunal award was given in 1980.",
+   "ty": "numerical",
+   "tq": "Use the year-based distinction among the major river tribunals.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "The Vamsadhara Water Disputes Tribunal concerns a dispute between:",
+   "o": [
+    "Andhra Pradesh and Karnataka",
+    "Andhra Pradesh and Telangana",
+    "Andhra Pradesh and Odisha",
+    "Odisha and Chhattisgarh"
+   ],
+   "a": 2,
+   "x": "The Vamsadhara water dispute is between Andhra Pradesh and Odisha; the final award was given in 2017.",
+   "ty": "fact",
+   "tq": "Identify the parties to a specific inter-state river dispute.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "Which one of the following statements regarding the Apex Council under Part IX of the Andhra Pradesh Reorganisation Act, 2014 is correct?",
+   "o": [
+    "It is chaired by the Union Water Resources Minister and includes the Chief Ministers of Andhra Pradesh and Telangana.",
+    "It is chaired by the Governor of Andhra Pradesh and includes both State Governors.",
+    "It is chaired by the Prime Minister and includes the two State Water Resources Ministers only.",
+    "It is chaired by the Chief Minister of Telangana and supervises only the GRMB."
+   ],
+   "a": 0,
+   "x": "The Apex Council is chaired by the Union Water Resources Minister and includes the Chief Ministers of Andhra Pradesh and Telangana. It supervises both the KRMB and GRMB.",
+   "ty": "statements",
+   "tq": "Use the authority-and-composition trap to identify the correct institutional arrangement.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "Under the Andhra Pradesh Reorganisation Act, 2014, which pairing of headquarters is correct?",
+   "o": [
+    "KRMB — Andhra Pradesh; GRMB — Telangana",
+    "KRMB — Telangana; GRMB — Andhra Pradesh",
+    "Both KRMB and GRMB — Andhra Pradesh",
+    "Both KRMB and GRMB — Telangana"
+   ],
+   "a": 0,
+   "x": "The Krishna River Management Board has its headquarters in Andhra Pradesh, while the Godavari River Management Board has its headquarters in Telangana.",
+   "ty": "comparison",
+   "tq": "Compare the two similarly constituted boards by their headquarters.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "According to the priorities specified in Schedule 11 of the Andhra Pradesh Reorganisation Act, 2014, which sequence is correct?",
+   "o": [
+    "Power, irrigation, drinking water",
+    "Irrigation, drinking water, power",
+    "Drinking water, irrigation, power",
+    "Drinking water, power, irrigation"
+   ],
+   "a": 2,
+   "x": "Schedule 11 places drinking water above irrigation, and irrigation above power.",
+   "ty": "chronology",
+   "tq": "Arrange the competing water uses in the prescribed priority order.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "Which of the following statements about the Brijesh Kumar Tribunal is correct?",
+   "o": [
+    "It awarded the Godavari waters in 1980 and excluded Telangana as a party.",
+    "It gave Andhra Pradesh 196 TMC, and Andhra Pradesh challenged the award in the Supreme Court.",
+    "It gave Andhra Pradesh 811 TMC, and Maharashtra challenged it in the Supreme Court.",
+    "It settled the Vamsadhara dispute between Andhra Pradesh and Odisha in 2017."
+   ],
+   "a": 1,
+   "x": "KWDT-II, or the Brijesh Kumar Tribunal, gave Andhra Pradesh 196 TMC. Andhra Pradesh challenged the award in the Supreme Court and sought Telangana's inclusion as a separate party.",
+   "ty": "fact",
+   "tq": "Combine the award figure with the subsequent legal action to avoid tribunal confusion.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "Babli barrage is located on the Godavari in Maharashtra, upstream of:",
+   "o": [
+    "Sriramsagar",
+    "Srisailam Reservoir",
+    "Nagarjuna Sagar",
+    "Polavaram"
+   ],
+   "a": 0,
+   "x": "Babli barrage is a Maharashtra barrage on the Godavari upstream of Sriramsagar and was disputed by undivided Andhra Pradesh. The Supreme Court gave its verdict in 2013.",
+   "ty": "fact",
+   "tq": "Match a disputed structure with its river, state and upstream reference point.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "Which project is designed to divert surplus Godavari water through the Krishna to the Penna basin?",
+   "o": [
+    "Vamsadhara Project",
+    "Telugu Ganga Project",
+    "Polavaram–Banakacherla link",
+    "Tungabhadra Multipurpose Project"
+   ],
+   "a": 2,
+   "x": "The Polavaram–Banakacherla link carries surplus Godavari water through the Krishna and onward to the Penna basin.",
+   "ty": "application",
+   "tq": "Trace the proposed water-transfer route from source basin to destination basin.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "Which of the following pairs of reservoirs and districts is correctly matched in the Polavaram–Banakacherla link?",
+   "o": [
+    "Bollapalli — Guntur; Banakacherla — Nandyal",
+    "Bollapalli — Nandyal; Banakacherla — Guntur",
+    "Bollapalli — Telangana; Banakacherla — Odisha",
+    "Bollapalli — Kurnool; Banakacherla — Srikakulam"
+   ],
+   "a": 0,
+   "x": "The proposed link includes reservoirs at Bollapalli in Guntur and Banakacherla in Nandyal.",
+   "ty": "match",
+   "tq": "Start from the sure reservoir–location pair and reject exchanged or unrelated districts.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "The planned benefit of the Polavaram–Banakacherla link is approximately:",
+   "o": [
+    "80 lakh people and 75 lakh acres",
+    "8 lakh people and 7.5 crore acres",
+    "7.5 lakh people and 80 lakh acres",
+    "80 lakh people and 7.5 lakh acres"
+   ],
+   "a": 3,
+   "x": "The project is planned to benefit about 80 lakh people and irrigate approximately 7.5 lakh acres.",
+   "ty": "numerical",
+   "tq": "Distinguish the population figure from the irrigated-area figure and their units.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "Telangana has objected to the Polavaram–Banakacherla link primarily on the ground that it:",
+   "o": [
+    "would transfer water from Odisha without any tribunal or agreement",
+    "would submerge the entire Krishna delta under the 2017 Vamsadhara award",
+    "would increase use of the Krishna share and violate the AP Reorganisation Act and the 1980 Godavari award",
+    "would divert only Pennar water into the Godavari basin"
+   ],
+   "a": 2,
+   "x": "Telangana argues that the project involves excess use of the Krishna share and violates the Andhra Pradesh Reorganisation Act, 2014 and the Godavari Water Disputes Tribunal award of 1980.",
+   "ty": "application",
+   "tq": "Identify the stated legal and allocation-based objection rather than an unrelated project effect.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "The Polavaram–Banakacherla project is now being pursued under which name?",
+   "o": [
+    "Banakacherla–Pennar River Board Project",
+    "Godavari–Krishna National Link Project",
+    "Polavaram–Nallamala Sagar project",
+    "Nallamala–Vamsadhara Project"
+   ],
+   "a": 2,
+   "x": "The project is now being pursued as the Polavaram–Nallamala Sagar project.",
+   "ty": "confusable",
+   "tq": "Discriminate between the original link description and its current project name.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "The stated position of the Andhra Pradesh Chief Minister in February 2026 regarding Telangana's opposition to the Polavaram–Nallamala Sagar project was that:",
+   "o": [
+    "the project had been abandoned due to the 1980 Godavari award",
+    "the project would use only water from the Vamsadhara River",
+    "the opposition was justified because the project uses tribunal-allotted water",
+    "the opposition was unjustified because Andhra Pradesh would use only flood water otherwise flowing into the sea"
+   ],
+   "a": 3,
+   "x": "The stated position was that Telangana's opposition was unjustified because Andhra Pradesh would use only flood water flowing to the sea.",
+   "ty": "fact",
+   "tq": "Test the precise justification given in a current inter-state water controversy.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "Which of the following basin-state pairs is NOT correctly matched?",
+   "o": [
+    "Palar — Odisha and Chhattisgarh",
+    "Krishna — Maharashtra and Karnataka",
+    "Godavari — Maharashtra, Odisha, Karnataka, Chhattisgarh and Madhya Pradesh",
+    "Pennar — Karnataka"
+   ],
+   "a": 0,
+   "x": "Palar is associated with Karnataka and Tamil Nadu, not Odisha and Chhattisgarh. The other basin-state pairs are correctly stated.",
+   "ty": "negative",
+   "tq": "Use basin-state membership and identify the geographically misplaced state group.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  },
+  {
+   "s": "Consider the following basin-state associations:\n1. Vamsadhara — Odisha\n2. Nagavali — Odisha\n3. Araniar — Tamil Nadu\n4. Budameru — Telangana\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four associations are correct. Vamsadhara and Nagavali are associated with Odisha, Araniar with Tamil Nadu, and Budameru with Telangana.",
+   "ty": "statements",
+   "tq": "Test multiple basin-state relationships in a coded statement format.",
+   "sec": "Inter-state disputes, river boards and tribunals"
+  }
+ ]
+}

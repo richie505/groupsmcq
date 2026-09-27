@@ -1,0 +1,567 @@
+{
+ "book": 4,
+ "row": 0,
+ "chunk": 2,
+ "section": "The universe and the solar system - origin theories, the Sun, planets, asteroids, comets, meteors",
+ "subsections": [
+  "Moons and planetary features",
+  "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes",
+  "Asteroids, comets, meteors, meteorites; asteroid missions",
+  "Dwarf planets and planet-status changes"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Titan, a moon of Saturn, is notable for which of the following features?",
+   "o": [
+    "An ocean exposed directly on its surface",
+    "A metallic surface rich in iron and nickel",
+    "The most volcanically active surface in the Solar System",
+    "Lakes of liquid methane and a dense atmosphere"
+   ],
+   "a": 3,
+   "x": "Titan has a dense atmosphere and lakes of liquid methane, some approximately 100 metres deep.",
+   "ty": "fact",
+   "tq": "Use the distinctive moon–feature association rather than confusing neighbouring planetary satellites.",
+   "sec": "Moons and planetary features"
+  },
+  {
+   "s": "Consider the following statements:\n1. Ganymede is a moon of Jupiter and is larger than Mercury.\n2. Europa has an ocean beneath an ice shell.\n3. Charon is the largest moon of Pluto.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Ganymede is larger than Mercury, Europa has a subsurface ocean beneath ice, and Charon is Pluto's largest moon.",
+   "ty": "statements",
+   "tq": "Check each moon–planet and feature pairing independently before selecting the coded combination.",
+   "sec": "Moons and planetary features"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Phobos and Deimos — Moons of Mars",
+    "Io — Most volcanically active body",
+    "Enceladus — Subsurface-structure and habitability studies",
+    "Europa — Moon of Saturn"
+   ],
+   "a": 3,
+   "x": "Europa is a moon of Jupiter, not Saturn. Io, Enceladus, and Phobos–Deimos are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the wrong planetary association by separating the Jupiter, Saturn and Mars moon groups.",
+   "sec": "Moons and planetary features"
+  },
+  {
+   "s": "With reference to the outer planets, consider the following statements:\n1. Jupiter and Saturn are composed mostly of hydrogen and helium.\n2. Methane contributes to the blue-green appearance of Uranus and Neptune.\n3. Mars has a thick atmosphere dominated by hydrogen and helium.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Jupiter and Saturn are mostly hydrogen and helium, while methane gives Uranus and Neptune their blue-green tints. Mars has a thin atmosphere, not a thick hydrogen–helium atmosphere.",
+   "ty": "statements",
+   "tq": "Reject the statement that reverses a basic planetary composition or atmospheric feature.",
+   "sec": "Moons and planetary features"
+  },
+  {
+   "s": "Which of the following correctly describes the recent understanding of Titan's interior based on re-analysis of Cassini data?",
+   "o": [
+    "It consists entirely of a metallic liquid core.",
+    "It is completely devoid of water in every form.",
+    "It probably has a partly molten ice-water mixture with local pockets of warm water.",
+    "It certainly has a single global subsurface ocean."
+   ],
+   "a": 2,
+   "x": "The re-analysis suggests that Titan probably lacks a global subsurface ocean and instead has a partly molten ice-water mixture with local warm-water pockets, reaching up to about 20°C.",
+   "ty": "application",
+   "tq": "Distinguish a qualified scientific finding from an absolute claim.",
+   "sec": "Moons and planetary features"
+  },
+  {
+   "s": "Which one of the following statements regarding Mars is correct?",
+   "o": [
+    "Mars has a dense atmosphere similar to that of Titan.",
+    "Mars has polar ice caps and indications of subsurface water or ice.",
+    "Mars has no natural satellites.",
+    "Mars is surrounded by lakes of liquid methane."
+   ],
+   "a": 1,
+   "x": "Mars has polar ice caps, a thin atmosphere and signs of subsurface water or ice.",
+   "ty": "fact",
+   "tq": "Select the option combining the two characteristic Martian features given in the question.",
+   "sec": "Moons and planetary features"
+  },
+  {
+   "s": "Chandrayaan-3 achieved which significant distinction in 2023?",
+   "o": [
+    "It discovered the first interstellar object.",
+    "It became the first spacecraft to orbit Jupiter.",
+    "It made India the first country to land near the Moon's south pole.",
+    "It became the first mission to return samples from Bennu."
+   ],
+   "a": 2,
+   "x": "Chandrayaan-3 made India the first country to land near the Moon's south pole in 2023.",
+   "ty": "fact",
+   "tq": "Use achievement–mission matching while eliminating missions belonging to asteroids or interstellar space.",
+   "sec": "Moons and planetary features"
+  },
+  {
+   "s": "Arrange the following stages in the usual life cycle of a low- or medium-mass star in the correct order:\nA. Main sequence\nB. White dwarf\nC. Protostar\nD. Red giant\nE. Nebula",
+   "o": [
+    "E, C, A, D, B",
+    "C, E, A, B, D",
+    "E, A, C, D, B",
+    "C, A, E, D, B"
+   ],
+   "a": 0,
+   "x": "The sequence is nebula, protostar, main sequence, red giant and planetary nebula followed by white dwarf. Among the options, E–C–A–D–B gives the correct principal order.",
+   "ty": "chronology",
+   "tq": "Fix the first stage and then follow the stellar-evolution sequence to the final remnant.",
+   "sec": "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes"
+  },
+  {
+   "s": "Which sequence represents the principal evolution of a massive star after the main-sequence stage?",
+   "o": [
+    "Red giant → planetary nebula → white dwarf",
+    "Supergiant → supernova → neutron star or black hole",
+    "Protostar → white dwarf → supernova",
+    "Nebula → red giant → planetary nebula"
+   ],
+   "a": 1,
+   "x": "A massive star evolves into a supergiant, undergoes a supernova explosion, and may end as a neutron star or black hole.",
+   "ty": "chronology",
+   "tq": "Separate the massive-star pathway from the low- and medium-mass white-dwarf pathway.",
+   "sec": "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes"
+  },
+  {
+   "s": "A nebula is best described as a:",
+   "o": [
+    "Rocky body between Mars and Jupiter",
+    "Cloud of gas and dust in space",
+    "Rapidly rotating neutron star",
+    "Region from which no light can escape"
+   ],
+   "a": 1,
+   "x": "A nebula is a cloud of gas and dust and can be the initial stage in the formation of a star.",
+   "ty": "fact",
+   "tq": "Match the astronomical term with its defining physical description.",
+   "sec": "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes"
+  },
+  {
+   "s": "Cepheid variables are especially useful to astronomers because their:",
+   "o": [
+    "Surface temperature remains exactly equal to that of the Sun",
+    "Pulsation period helps in measuring astronomical distances",
+    "Colour directly identifies their chemical composition only",
+    "Orbits always lie between Mars and Jupiter"
+   ],
+   "a": 1,
+   "x": "Cepheids are pulsating stars whose period–luminosity relationship is used to determine distances.",
+   "ty": "application",
+   "tq": "Connect the observed stellar property with its practical astronomical application.",
+   "sec": "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes"
+  },
+  {
+   "s": "Consider the following statements:\n1. A pulsar is a rapidly rotating neutron star that emits beams of radiation.\n2. A black hole is a region from which even light cannot escape.\n3. A white dwarf may form from a low- or medium-mass star.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Pulsars are rotating neutron stars with radiation beams, black holes trap light, and low- or medium-mass stars can end as white dwarfs.",
+   "ty": "statements",
+   "tq": "Combine three precise definitions and avoid substituting the massive-star remnant for the white-dwarf pathway.",
+   "sec": "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes"
+  },
+  {
+   "s": "The Chandrasekhar limit refers to the approximate maximum mass of a:",
+   "o": [
+    "White dwarf, equal to 1.4–1.44 solar masses",
+    "Black hole, equal to 1 solar mass",
+    "Neutron star, equal to 3 solar masses",
+    "Red giant, equal to 10 solar masses"
+   ],
+   "a": 0,
+   "x": "The Chandrasekhar limit is approximately 1.4–1.44 times the mass of the Sun and represents the maximum mass of a white dwarf.",
+   "ty": "numerical",
+   "tq": "Associate the numerical threshold with the correct stellar remnant.",
+   "sec": "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes"
+  },
+  {
+   "s": "Which one of the following correctly represents the relationship between stellar colour and surface temperature?",
+   "o": [
+    "Blue stars are hotter than red stars.",
+    "Colour has no relation to surface temperature.",
+    "Red stars are hotter than blue stars.",
+    "Yellow stars are the hottest stars."
+   ],
+   "a": 0,
+   "x": "Blue stars have the highest surface temperatures, while red stars have the lowest among the listed colour sequence. The Sun is a yellow star.",
+   "ty": "comparison",
+   "tq": "Read the temperature comparison in the correct direction rather than relying on everyday colour associations.",
+   "sec": "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes"
+  },
+  {
+   "s": "A star with a lower apparent-magnitude number is generally:",
+   "o": [
+    "Farther from the Earth in every case",
+    "Less luminous",
+    "Cooler",
+    "Brighter"
+   ],
+   "a": 3,
+   "x": "The magnitude scale is logarithmic and a lower number denotes a brighter star.",
+   "ty": "confusable",
+   "tq": "Recall the reversed magnitude scale, where a smaller numerical value indicates greater brightness.",
+   "sec": "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes"
+  },
+  {
+   "s": "Absolute magnitude of a star denotes its brightness as viewed from a standard distance of:",
+   "o": [
+    "100 parsecs",
+    "1 astronomical unit",
+    "10 parsecs",
+    "1 light-year"
+   ],
+   "a": 2,
+   "x": "Absolute magnitude is the brightness a star would have if placed at a standard distance of 10 parsecs.",
+   "ty": "numerical",
+   "tq": "Separate the standard-distance definition of absolute magnitude from AU and light-year units.",
+   "sec": "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes"
+  },
+  {
+   "s": "One parsec is approximately equal to:",
+   "o": [
+    "3.26 light-years",
+    "2 light-years",
+    "9.46 light-years",
+    "1.44 light-years"
+   ],
+   "a": 0,
+   "x": "One parsec is approximately 3.26 light-years.",
+   "ty": "numerical",
+   "tq": "Use the standard numerical conversion rather than confusing parsec with light-year or AU.",
+   "sec": "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes"
+  },
+  {
+   "s": "Consider the following statements:\n1. Stars generally twinkle, whereas planets generally do not.\n2. Polaris lies within about one degree of the north celestial pole.\n3. Polaris is located in the constellation Ursa Minor.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Polaris is in Ursa Minor, lies close to the north celestial pole, and stars twinkle more noticeably than planets.",
+   "ty": "statements",
+   "tq": "Combine the observational distinction between stars and planets with the location facts about Polaris.",
+   "sec": "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes"
+  },
+  {
+   "s": "According to the stated long-term effect of the wobble of Earth's axis, which star is expected to become the pole star in approximately 12,000 years?",
+   "o": [
+    "Vega",
+    "Betelgeuse",
+    "Proxima Centauri",
+    "Sirius"
+   ],
+   "a": 0,
+   "x": "Because of the wobble of Earth's axis, Vega is expected to become the pole star in about 12,000 years.",
+   "ty": "fact",
+   "tq": "Identify the future pole-star change without confusing it with the present pole star Polaris.",
+   "sec": "Stars and space objects - life cycle, nebulae, Cepheids, pulsars, neutron stars, black holes"
+  },
+  {
+   "s": "The asteroid belt is primarily located between:",
+   "o": [
+    "Mars and Jupiter",
+    "Neptune and Pluto",
+    "Earth and Mars",
+    "Jupiter and Saturn"
+   ],
+   "a": 0,
+   "x": "The main asteroid belt lies between the orbits of Mars and Jupiter and consists largely of rocky remnants of the early Solar System.",
+   "ty": "fact",
+   "tq": "Use the orbital-location association to distinguish the asteroid belt from the Kuiper belt.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "Which one of the following correctly differentiates an asteroid from a comet?",
+   "o": [
+    "Asteroids always have tails, whereas comets never have tails.",
+    "Asteroids are mainly rocky, whereas comets are largely icy.",
+    "Comets have circular orbits, whereas asteroids have highly elliptical orbits.",
+    "Asteroids originate only in the Oort Cloud."
+   ],
+   "a": 1,
+   "x": "Asteroids are predominantly rocky bodies, while comets contain substantial frozen material and may develop a coma and tail near the Sun.",
+   "ty": "confusable",
+   "tq": "Compare composition and orbital behaviour instead of relying on the common tail-related misconception.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "With reference to comets, consider the following statements:\n1. Their tails point away from the Sun.\n2. Their tails become more prominent when they approach the Sun.\n3. The Kuiper Belt and Oort Cloud are sources of comets.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Solar heating develops the tail near the Sun, and solar radiation and wind cause it to point away from the Sun; comets originate from the Kuiper Belt and Oort Cloud.",
+   "ty": "statements",
+   "tq": "Test the direction, cause and source of a comet's tail as separate propositions.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "Which of the following statements regarding the Kuiper Belt is correct?",
+   "o": [
+    "It is a rocky belt between Mars and Jupiter.",
+    "It is an icy debris ring beyond Neptune, approximately 30–50 AU from the Sun.",
+    "It lies inside the orbit of Mercury.",
+    "It is the source only of long-period comets."
+   ],
+   "a": 1,
+   "x": "The Kuiper Belt is an icy debris region beyond Neptune, approximately 30–50 AU from the Sun, and supplies short-period comets.",
+   "ty": "fact",
+   "tq": "Distinguish the Kuiper Belt from the asteroid belt and the distant Oort Cloud using location and composition.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "Which one of the following correctly describes the Oort Cloud?",
+   "o": [
+    "A distant region that is a source of long-period comets",
+    "The atmosphere of a comet near the Sun",
+    "A belt of metallic asteroids between Mars and Jupiter",
+    "The largest moon of Saturn"
+   ],
+   "a": 0,
+   "x": "The Oort Cloud lies far beyond the Kuiper Belt and is regarded as a source of long-period comets.",
+   "ty": "fact",
+   "tq": "Match the remote Solar System region with the type of comet it supplies.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "Halley's Comet is known for returning approximately once every:",
+   "o": [
+    "24 years",
+    "50 years",
+    "76 years",
+    "100 years"
+   ],
+   "a": 2,
+   "x": "Halley's Comet has an approximate 76-year period and was last seen in 1986, as stated in the material.",
+   "ty": "numerical",
+   "tq": "Retain the distinctive period of a famous comet while rejecting nearby numerical distractors.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "A meteoroid that burns in the atmosphere is observed as a meteor, whereas a fragment that reaches the Earth's surface is called a:",
+   "o": [
+    "Comet",
+    "Bolide",
+    "Meteorite",
+    "Asteroid"
+   ],
+   "a": 2,
+   "x": "A meteor is the streak of light produced when a meteoroid burns in the atmosphere; the surviving fragment that reaches the ground is a meteorite.",
+   "ty": "confusable",
+   "tq": "Separate the stages of the same object before, during and after atmospheric entry.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "A bolide is best described as:",
+   "o": [
+    "An asteroid permanently captured by Jupiter",
+    "A bright meteor that explodes in the atmosphere",
+    "A comet originating in the Oort Cloud",
+    "A meteorite found in a crater"
+   ],
+   "a": 1,
+   "x": "A bolide is a particularly bright meteor that explodes in the atmosphere.",
+   "ty": "fact",
+   "tq": "Distinguish the brightness-and-explosion definition of bolide from the ground-impact definition of meteorite.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "The Chicxulub impact crater is located in:",
+   "o": [
+    "The Sahara Desert",
+    "The Australian interior",
+    "Mexico's Yucatan region",
+    "The Arctic Ocean"
+   ],
+   "a": 2,
+   "x": "The Chicxulub crater is located in Mexico's Yucatan region.",
+   "ty": "fact",
+   "tq": "Use the location association for a named geological impact feature.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Mission)\nA. OSIRIS-REx\nB. DART\nC. Hera\nD. Hayabusa2\n\nList-II (Target or achievement)\n1. Samples from asteroid Ryugu\n2. Kinetic impact on Dimorphos\n3. Samples from asteroid Bennu\n4. Survey of Didymos-Dimorphos after DART\n\nSelect the correct answer using the codes given below:",
+   "o": [
+    "A-3, B-2, C-4, D-1",
+    "A-2, B-3, C-1, D-4",
+    "A-3, B-4, C-2, D-1",
+    "A-1, B-2, C-3, D-4"
+   ],
+   "a": 0,
+   "x": "OSIRIS-REx returned Bennu samples, DART impacted Dimorphos, Hera surveys the Didymos-Dimorphos system, and Hayabusa2 obtained samples from Ryugu.",
+   "ty": "match",
+   "tq": "Start from the sure mission–target pairs and eliminate codes that disturb them.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "OSIRIS-REx — Survey of Didymos-Dimorphos after DART",
+    "Lucy — Jupiter Trojan asteroids",
+    "Psyche — Samples from asteroid Ryugu",
+    "Hayabusa2 — Kinetic impact on Dimorphos"
+   ],
+   "a": 1,
+   "x": "Lucy is associated with the study of Jupiter Trojan asteroids. Hayabusa2 sampled Ryugu, DART impacted Dimorphos, and Hera—not OSIRIS-REx—surveys the post-impact system.",
+   "ty": "negative",
+   "tq": "Find the one correctly matched mission by checking the target rather than the mission name alone.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "Which sequence correctly represents the three named interstellar objects in chronological order of their identification?",
+   "o": [
+    "Borisov, 'Oumuamua, 3I/ATLAS",
+    "'Oumuamua, Borisov, 3I/ATLAS",
+    "3I/ATLAS, Borisov, 'Oumuamua",
+    "'Oumuamua, 3I/ATLAS, Borisov"
+   ],
+   "a": 1,
+   "x": "'Oumuamua was identified in 2017, Borisov in 2019, and 3I/ATLAS, first named C/2025 N1, is the third named interstellar object.",
+   "ty": "chronology",
+   "tq": "Arrange the objects by their stated discovery years before checking the names.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "Which of the following statements about 3I/ATLAS is correct?",
+   "o": [
+    "It is a short-period comet from the Kuiper Belt.",
+    "It is the largest moon of Pluto.",
+    "It follows a circular orbit within the asteroid belt.",
+    "It follows a hyperbolic orbit and was identified as the third interstellar object."
+   ],
+   "a": 3,
+   "x": "3I/ATLAS, initially designated C/2025 N1, is the third named interstellar object and follows a hyperbolic orbit.",
+   "ty": "fact",
+   "tq": "Use the orbit type and interstellar classification together to identify the object.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "Which pair of observations about 3I/ATLAS is correctly matched?",
+   "o": [
+    "NASA — Signature of water; JWST — Methane detection",
+    "NASA — Liquid methane lakes; JWST — First landing near lunar south pole",
+    "NASA — Discovery of Pluto; JWST — Samples from Bennu",
+    "NASA — Kinetic impact on Dimorphos; JWST — Discovery of Ceres"
+   ],
+   "a": 0,
+   "x": "NASA found the signature of water on 3I/ATLAS, while JWST detected methane, reported as a first for an interstellar object.",
+   "ty": "match",
+   "tq": "Match each observation with the organisation or instrument associated with it.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "Which one of the following statements about the asteroid belt is NOT correct?",
+   "o": [
+    "Ceres is its largest body.",
+    "It lies between Mars and Jupiter.",
+    "It consists largely of rocky leftovers from the early Solar System.",
+    "It is an icy debris ring beyond Neptune extending from 30 to 50 AU."
+   ],
+   "a": 3,
+   "x": "The description in statement 4 refers to the Kuiper Belt. The asteroid belt is between Mars and Jupiter and contains rocky remnants, with Ceres as its largest body.",
+   "ty": "negative",
+   "tq": "Identify the location-and-composition swap between the asteroid belt and Kuiper Belt.",
+   "sec": "Asteroids, comets, meteors, meteorites; asteroid missions"
+  },
+  {
+   "s": "Under the 2006 definition adopted by the International Astronomical Union, a planet must orbit the Sun, be nearly round and:",
+   "o": [
+    "Have a visible atmosphere",
+    "Be larger than Mercury",
+    "Possess at least one moon",
+    "Have cleared its orbital neighbourhood"
+   ],
+   "a": 3,
+   "x": "The IAU definition requires a body to orbit the Sun, be nearly round, and clear its orbital path. Pluto fails the third condition and was classified as a dwarf planet.",
+   "ty": "fact",
+   "tq": "Recall the exact third criterion rather than substituting size, atmosphere or satellites.",
+   "sec": "Dwarf planets and planet-status changes"
+  },
+  {
+   "s": "Pluto was reclassified as a dwarf planet in 2006 primarily because it:",
+   "o": [
+    "Is not nearly round",
+    "Does not orbit the Sun",
+    "Has not cleared its orbital path",
+    "Has no moon"
+   ],
+   "a": 2,
+   "x": "Pluto satisfies the orbiting and nearly round conditions but has not cleared its orbital neighbourhood, so it was classified as a dwarf planet.",
+   "ty": "application",
+   "tq": "Apply the IAU criteria to the specific status change of Pluto.",
+   "sec": "Dwarf planets and planet-status changes"
+  },
+  {
+   "s": "Consider the following statements:\n1. Pluto was discovered by Clyde Tombaugh in 1930.\n2. Pluto is the largest known object in the Kuiper Belt.\n3. Pluto is located at approximately 39 AU from the Sun.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Clyde Tombaugh discovered Pluto in 1930; it is the largest known Kuiper Belt object and lies at approximately 39 AU.",
+   "ty": "statements",
+   "tq": "Combine the date, discoverer and numerical-distance facts into one coded question.",
+   "sec": "Dwarf planets and planet-status changes"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched with its location or status?",
+   "o": [
+    "Haumea — Dwarf planet",
+    "Makemake — Dwarf planet",
+    "Eris — Moon of Jupiter",
+    "Ceres — Dwarf planet in the asteroid belt"
+   ],
+   "a": 2,
+   "x": "Eris is a dwarf planet whose discovery helped prompt the 2006 change in Pluto's status; it is not a moon of Jupiter. Ceres, Haumea and Makemake are correctly identified as dwarf planets in the material.",
+   "ty": "negative",
+   "tq": "Reject the wrong category and planetary association in a named-object list.",
+   "sec": "Dwarf planets and planet-status changes"
+  },
+  {
+   "s": "The discovery of which object helped prompt the change in Pluto's classification?",
+   "o": [
+    "Charon",
+    "Eris",
+    "Europa",
+    "Phobos"
+   ],
+   "a": 1,
+   "x": "The discovery of Eris, along with the need for a clearer planetary definition, helped prompt Pluto's reclassification as a dwarf planet in 2006.",
+   "ty": "fact",
+   "tq": "Identify the trigger object associated with a change in astronomical classification.",
+   "sec": "Dwarf planets and planet-status changes"
+  }
+ ]
+}

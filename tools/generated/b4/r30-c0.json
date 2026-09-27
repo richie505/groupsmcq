@@ -1,0 +1,510 @@
+{
+ "book": 4,
+ "row": 30,
+ "chunk": 0,
+ "section": "Continental resources - land, forest, water, mineral and energy resources; conservation",
+ "subsections": [
+  "World mineral and energy regions → resource",
+  "Traditional water harvesting systems → region",
+  "Irrigation and multipurpose projects → river and beneficiaries"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Katanga, Minas Gerais, Mesabi Range and Witwatersrand are respectively associated with which of the following resources?",
+   "o": [
+    "Copper and cobalt, iron ore and gold and diamonds, iron ore, gold",
+    "Coal, copper, gold, petroleum",
+    "Iron ore, coal, copper, diamonds",
+    "Petroleum, iron ore, manganese, coal"
+   ],
+   "a": 0,
+   "x": "Katanga is noted for copper and cobalt; Minas Gerais for iron ore, gold and diamonds; the Mesabi Range for iron ore; and Witwatersrand for gold.",
+   "ty": "match",
+   "tq": "Start from the sure resource–region pairs and eliminate codes containing a swapped resource.",
+   "sec": "World mineral and energy regions → resource"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Ruhr — Coal and heavy-industry belt",
+    "Kiruna — Magnetite iron ore",
+    "Pilbara — Iron ore",
+    "Marquette Range — Gold"
+   ],
+   "a": 3,
+   "x": "The Marquette Range in Michigan is an iron-ore region. Gold is associated with Witwatersrand, not the Marquette Range.",
+   "ty": "negative",
+   "tq": "Find the wrong resource attached to a familiar mineral region.",
+   "sec": "World mineral and energy regions → resource"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Ras Tanura — Oil terminal and refinery\n2. Kashagan — Offshore oil field\n3. Ruhr and Saar — Coal regions of Germany\n4. Kiruna and Gallivare — Gold-producing region of South Africa\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Ras Tanura, Kashagan and Ruhr-Saar are correctly matched. Kiruna and Gallivare are in Swedish Lapland and are known for magnetite iron ore, not South African gold.",
+   "ty": "statements",
+   "tq": "Use the location trap to reject the statement that assigns Swedish mining centres to South Africa.",
+   "sec": "World mineral and energy regions → resource"
+  },
+  {
+   "s": "Minas Gerais is a mineral-rich region of which country?",
+   "o": [
+    "Sweden",
+    "Brazil",
+    "Kazakhstan",
+    "South Africa"
+   ],
+   "a": 1,
+   "x": "Minas Gerais is located in Brazil and is known for iron ore, gold and diamonds.",
+   "ty": "fact",
+   "tq": "Directly identify the country associated with a major mineral region.",
+   "sec": "World mineral and energy regions → resource"
+  },
+  {
+   "s": "Which one of the following regions is correctly matched with its country and resource?",
+   "o": [
+    "Kashagan — Kazakhstan — offshore oil",
+    "Witwatersrand — Brazil — iron ore",
+    "Pilbara — Germany — coal",
+    "Katanga — Saudi Arabia — oil"
+   ],
+   "a": 0,
+   "x": "Kashagan is an offshore oil field in northern Caspian Kazakhstan. Witwatersrand is in South Africa, Pilbara is in Western Australia and Katanga is in the Democratic Republic of the Congo.",
+   "ty": "match",
+   "tq": "Check the country first, then verify the associated resource.",
+   "sec": "World mineral and energy regions → resource"
+  },
+  {
+   "s": "India became the first country to sign an International Seabed Authority contract to explore polymetallic sulphides on which feature?",
+   "o": [
+    "Mariana Trench in the Pacific Ocean",
+    "Mid-Atlantic Ridge",
+    "Sunda Trench in the Indian Ocean",
+    "Carlsberg Ridge in the Arabian Sea"
+   ],
+   "a": 3,
+   "x": "India signed the first ISA contract for exploration of polymetallic sulphides on the Carlsberg Ridge in the Arabian Sea.",
+   "ty": "fact",
+   "tq": "Use the distinctive location–institution association rather than a generic oceanic feature.",
+   "sec": "World mineral and energy regions → resource"
+  },
+  {
+   "s": "The polymetallic sulphide deposits explored by India on the Carlsberg Ridge are rich in which of the following?",
+   "o": [
+    "Coal, petroleum, natural gas and iron ore",
+    "Uranium, thorium, bauxite and zinc",
+    "Manganese, cobalt, nickel and copper",
+    "Gold, silver, platinum and tin"
+   ],
+   "a": 2,
+   "x": "The deposits are rich in manganese, cobalt, nickel and copper.",
+   "ty": "fact",
+   "tq": "Test the exact mineral composition instead of the broader term deep-sea minerals.",
+   "sec": "World mineral and energy regions → resource"
+  },
+  {
+   "s": "With reference to the International Seabed Authority, consider the following statements:\n1. It is based in Jamaica.\n2. It was created under the United Nations Convention on the Law of the Sea.\n3. It regulates activities relating to mineral resources in the international seabed area.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The International Seabed Authority is Jamaica-based and was created under UNCLOS; its role includes regulating seabed mineral activities in the international area.",
+   "ty": "statements",
+   "tq": "When all three statements describe the same institution consistently, select the complete combination.",
+   "sec": "World mineral and energy regions → resource"
+  },
+  {
+   "s": "Which traditional water-harvesting system consists of tanks collecting glacier melt in Ladakh?",
+   "o": [
+    "Zabo",
+    "Zing",
+    "Kuhl",
+    "Katta"
+   ],
+   "a": 1,
+   "x": "Zing is the Ladakh system of tanks used to collect glacier meltwater.",
+   "ty": "fact",
+   "tq": "Directly distinguish systems by their distinctive physical setting.",
+   "sec": "Traditional water harvesting systems → region"
+  },
+  {
+   "s": "Zabo, Johad, Phad and Eri are respectively associated with which regions?",
+   "o": [
+    "Nagaland, Rajasthan, Maharashtra and Tamil Nadu",
+    "Ladakh, Haryana, Karnataka and Bihar",
+    "Meghalaya, Tamil Nadu, Rajasthan and Himachal Pradesh",
+    "South Bihar, Delhi, Nagaland and Rajasthan"
+   ],
+   "a": 0,
+   "x": "Zabo is associated with Nagaland, Johad with Rajasthan, Phad with Maharashtra and Eri with Tamil Nadu.",
+   "ty": "match",
+   "tq": "Begin with the distinctive Zabo–Nagaland pair and match the remaining regional associations.",
+   "sec": "Traditional water harvesting systems → region"
+  },
+  {
+   "s": "Ahar-pyne, a traditional flood-water harvesting system, is associated with which region?",
+   "o": [
+    "Tamil Nadu",
+    "South Bihar",
+    "Dakshina Kannada",
+    "Western Rajasthan"
+   ],
+   "a": 1,
+   "x": "Ahar-pyne is practised in South Bihar; the ahar is a catchment basin and the pyne is a channel.",
+   "ty": "fact",
+   "tq": "Test both the system and its regional setting through a direct association.",
+   "sec": "Traditional water harvesting systems → region"
+  },
+  {
+   "s": "Which one of the following correctly describes the Phad system?",
+   "o": [
+    "Diversion channels from glacier streams in Himachal Pradesh",
+    "Community canal irrigation in the Tapi basin of Maharashtra",
+    "Rooftop cisterns in the Thar Desert",
+    "Stepwells in Rajasthan and Delhi"
+   ],
+   "a": 1,
+   "x": "Phad is a community canal irrigation system in the Tapi basin of Maharashtra.",
+   "ty": "application",
+   "tq": "Match the nature of the system with its region and reject descriptions belonging to other systems.",
+   "sec": "Traditional water harvesting systems → region"
+  },
+  {
+   "s": "Kuhl, Katta, Bawari or Baoli are respectively associated with which of the following?",
+   "o": [
+    "Diversion channels from glacier streams; temporary check dams; stepwells",
+    "Tank cascades; flood basins; rooftop cisterns",
+    "Community canals; seepage wells; terraced farm ponds",
+    "Glacier tanks; forest-agriculture ponds; tank irrigation"
+   ],
+   "a": 0,
+   "x": "Kuhl consists of diversion channels in Himachal Pradesh and Jammu, Katta consists of temporary check dams in Karnataka, and Bawari or Baoli means stepwells in Rajasthan and Delhi.",
+   "ty": "match",
+   "tq": "Identify each system by its engineering form before checking the option sequence.",
+   "sec": "Traditional water harvesting systems → region"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Zabo — Tamil Nadu",
+    "Bamboo drip irrigation — Meghalaya",
+    "Kuan or kui — Western Rajasthan",
+    "Tanka — Thar Desert of Rajasthan"
+   ],
+   "a": 0,
+   "x": "Zabo, also called ruza, is associated with Nagaland. Tanka is used in the Thar Desert, kuan or kui in western Rajasthan, and bamboo drip irrigation in Meghalaya.",
+   "ty": "negative",
+   "tq": "Locate the single region swapped with a neighbouring traditional-water system.",
+   "sec": "Traditional water harvesting systems → region"
+  },
+  {
+   "s": "The traditional water-harvesting system known as Eri is primarily a system of:",
+   "o": [
+    "Flood channels in South Bihar",
+    "Seepage wells in western Rajasthan",
+    "Earthen check dams in Alwar",
+    "Tank cascades in Tamil Nadu"
+   ],
+   "a": 3,
+   "x": "Eri refers to the tank system, including tank cascades, of Tamil Nadu.",
+   "ty": "confusable",
+   "tq": "Discriminate between similarly listed traditional systems by their specific nature.",
+   "sec": "Traditional water harvesting systems → region"
+  },
+  {
+   "s": "Which project–river–beneficiary combination is correctly matched?",
+   "o": [
+    "Bhakra-Nangal — Sutlej — Punjab, Haryana, Rajasthan and Himachal Pradesh",
+    "Gandhi Sagar — Narmada — Madhya Pradesh and Gujarat",
+    "Indira Sagar — Chambal — Madhya Pradesh and Rajasthan",
+    "Ghataprabha — Mahanadi — Karnataka and Odisha"
+   ],
+   "a": 0,
+   "x": "Bhakra-Nangal is on the Sutlej and benefits Punjab, Haryana, Rajasthan and Himachal Pradesh. Gandhi Sagar is on the Chambal, Indira Sagar on the Narmada and Ghataprabha on the Ghataprabha River.",
+   "ty": "match",
+   "tq": "Start with the river identity and then verify the stated beneficiary states.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Parwan Project is associated with which river and area?",
+   "o": [
+    "Tapi River in Gujarat",
+    "Rihand River, a tributary of Son, in Sonbhadra, Uttar Pradesh",
+    "Parwan River, a tributary of Kali Sindh, in Jhalawar, Rajasthan",
+    "Ramganga River in Uttarakhand"
+   ],
+   "a": 2,
+   "x": "The Parwan Project is on the Parwan, a tributary of the Kali Sindh, in Rajasthan's Jhalawar area.",
+   "ty": "fact",
+   "tq": "Use the tributary clue to separate Parwan from the other project rivers.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Ramganga Project is located in Uttarakhand and primarily provides irrigation benefits to which state?",
+   "o": [
+    "Gujarat",
+    "Rajasthan",
+    "Odisha",
+    "Uttar Pradesh"
+   ],
+   "a": 3,
+   "x": "The Ramganga Project, including the Kalagarh dam, is in Uttarakhand and irrigates areas of Uttar Pradesh.",
+   "ty": "fact",
+   "tq": "Separate the location of the dam from the state receiving the principal irrigation benefit.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Gandhi Sagar is a project on the Chambal River associated with which state and inter-state project?",
+   "o": [
+    "Gujarat; Tapi project shared with Maharashtra",
+    "Madhya Pradesh; Chambal project shared with Rajasthan",
+    "Odisha; Mahanadi project shared with Chhattisgarh",
+    "Uttar Pradesh; Rihand project shared with Madhya Pradesh"
+   ],
+   "a": 1,
+   "x": "Gandhi Sagar is in Madhya Pradesh and forms part of the Chambal project shared with Rajasthan.",
+   "ty": "fact",
+   "tq": "Link the project location with the river-basin partnership rather than treating beneficiary states as the location.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Hirakud, Rihand, Indira Gandhi Canal and Ukai are respectively associated with which rivers or source system?",
+   "o": [
+    "Mahanadi; Rihand; Sutlej-Beas through Harike; Tapi",
+    "Chambal; Narmada; Mahanadi; Krishna",
+    "Tapi; Son; Godavari; Rihand",
+    "Narmada; Mahanadi; Krishna; Chambal"
+   ],
+   "a": 0,
+   "x": "Hirakud is on the Mahanadi, Rihand is on the Rihand, the Indira Gandhi Canal originates from the Harike barrage on the Sutlej-Beas system, and Ukai is on the Tapi.",
+   "ty": "match",
+   "tq": "Use the river sequence as an anchor and reject options with shifted basin identities.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Rihand Project, also known as Govind Ballabh Pant Sagar, is located in which state and supplies power to which states?",
+   "o": [
+    "Uttar Pradesh; Uttar Pradesh and Madhya Pradesh",
+    "Rajasthan; Rajasthan and Gujarat",
+    "Odisha; Odisha and Chhattisgarh",
+    "Madhya Pradesh; Madhya Pradesh and Rajasthan"
+   ],
+   "a": 0,
+   "x": "Rihand Project is in Sonbhadra, Uttar Pradesh, and its power benefits Uttar Pradesh and Madhya Pradesh.",
+   "ty": "fact",
+   "tq": "Distinguish the project state from the states receiving its power benefits.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "The Indira Gandhi Canal originates from Harike barrage and carries water from the Sutlej-Beas system primarily into:",
+   "o": [
+    "Gujarat",
+    "Madhya Pradesh",
+    "Uttar Pradesh",
+    "Rajasthan"
+   ],
+   "a": 3,
+   "x": "The canal begins at Harike barrage in Punjab and carries Sutlej-Beas water towards Rajasthan, including the Thar region.",
+   "ty": "fact",
+   "tq": "Trace the source-to-beneficiary direction of a canal instead of confusing it with its source river.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Approximately how long is the Indira Gandhi Canal?",
+   "o": [
+    "350 km",
+    "500 km",
+    "650 km",
+    "900 km"
+   ],
+   "a": 2,
+   "x": "The Indira Gandhi Canal is approximately 650 km long.",
+   "ty": "numerical",
+   "tq": "Use the numerical option closest to the stated canal length while rejecting substantially altered figures.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Which sequence correctly gives the states in descending order of the number of large dams?",
+   "o": [
+    "Maharashtra, Madhya Pradesh, Gujarat",
+    "Madhya Pradesh, Maharashtra, Gujarat",
+    "Gujarat, Maharashtra, Madhya Pradesh",
+    "Maharashtra, Gujarat, Madhya Pradesh"
+   ],
+   "a": 0,
+   "x": "Maharashtra has the largest number of large dams, followed by Madhya Pradesh and Gujarat.",
+   "ty": "chronology",
+   "tq": "Apply a descending-order comparison and check the first-ranked state before the remaining pair.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "India has more than 18 per cent of the world's population but approximately what shares of renewable water and land area?",
+   "o": [
+    "4 per cent of renewable water and 18 per cent of land area",
+    "2.4 per cent of renewable water and 4 per cent of land area",
+    "4 per cent of renewable water and 2.4 per cent of land area",
+    "18 per cent of renewable water and 4 per cent of land area"
+   ],
+   "a": 2,
+   "x": "India accounts for over 18 per cent of world population, about 4 per cent of renewable water and 2.4 per cent of global land area.",
+   "ty": "numerical",
+   "tq": "Keep the three percentages paired with the correct resource instead of merely recalling the figures separately.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "India's annual water demand is about 1,100 BCM at present and is projected to reach approximately what level by 2050?",
+   "o": [
+    "1,447 BCM",
+    "1,947 BCM",
+    "1,647 BCM",
+    "1,247 BCM"
+   ],
+   "a": 0,
+   "x": "Annual water demand is about 1,100 BCM and is projected to rise to approximately 1,447 BCM by 2050.",
+   "ty": "numerical",
+   "tq": "Read the projected figure as a quantitative trend rather than confusing it with the present demand.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Which component of the Pradhan Mantri Krishi Sinchayee Yojana is intended for faster completion of major and medium irrigation projects?",
+   "o": [
+    "Rashtriya Krishi Vikas Yojana",
+    "Har Khet Ko Pani",
+    "Per Drop More Crop",
+    "Accelerated Irrigation Benefits Programme"
+   ],
+   "a": 3,
+   "x": "Under PMKSY, the Accelerated Irrigation Benefits Programme is intended to accelerate completion of major and medium irrigation projects.",
+   "ty": "fact",
+   "tq": "Match the programme component with its precise function, avoiding a broad umbrella-scheme answer.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Which of the following are included under the Har Khet Ko Pani component of PMKSY?\n1. Command Area Development and Water Management\n2. Surface minor irrigation\n3. Repair, renovation and restoration of water bodies\n4. Groundwater development\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Har Khet Ko Pani covers Command Area Development and Water Management, surface minor irrigation, repair-renovation-restoration of water bodies and groundwater development.",
+   "ty": "statements",
+   "tq": "Recognise the complete set of functions under one component rather than selecting only the irrigation items.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Consider the following statements regarding PMKSY:\n1. It is an umbrella scheme introduced in 2015–16.\n2. Per Drop More Crop was moved under RKVY from December 2021.\n3. Per Drop More Crop continues to be administered as a component of PMKSY after December 2021.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "PMKSY is an umbrella scheme introduced in 2015–16, while Per Drop More Crop was moved under RKVY in December 2021. Therefore, statement 3 is incorrect.",
+   "ty": "statements",
+   "tq": "Use the date-based administrative shift to reject the statement that reverses the present arrangement.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. National Perspective Plan for interlinking of rivers\nB. Introduction of PMKSY\nC. Movement of Per Drop More Crop under RKVY\nD. The reported 2026 water-demand projection",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The National Perspective Plan dates to 1980, PMKSY was introduced in 2015–16, Per Drop More Crop moved under RKVY in December 2021, and the projection is reported for 2050 in the 2026 reference.",
+   "ty": "chronology",
+   "tq": "Place the dated policy milestones first and use the latest reference year as the final anchor.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "The National Perspective Plan for interlinking of rivers comprises how many links, divided between Himalayan and Peninsular components?",
+   "o": [
+    "30 links: 14 Himalayan and 16 Peninsular",
+    "30 links: 16 Himalayan and 14 Peninsular",
+    "40 links: 14 Himalayan and 26 Peninsular",
+    "20 links: 10 Himalayan and 10 Peninsular"
+   ],
+   "a": 0,
+   "x": "The National Perspective Plan contains 30 links, comprising 14 Himalayan and 16 Peninsular links.",
+   "ty": "numerical",
+   "tq": "Check both the total and the component division; options reverse or alter one of these figures.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Which organisation is responsible for implementing the National Perspective Plan for interlinking of rivers?",
+   "o": [
+    "Central Water Commission",
+    "National Disaster Management Authority",
+    "National Water Development Agency",
+    "Central Ground Water Board"
+   ],
+   "a": 2,
+   "x": "The National Water Development Agency runs the National Perspective Plan for interlinking of rivers.",
+   "ty": "fact",
+   "tq": "Identify the specific implementing agency rather than a related water institution.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Which one of the following statements about interlinking of rivers is correct?",
+   "o": [
+    "The concept originated with PMKSY and excludes all peninsular transfers.",
+    "Godavari-Krishna transfer is unrelated to Pattiseema.",
+    "Ken-Betwa is regarded as the flagship link, while the idea is historically associated with Sir Arthur Cotton.",
+    "Ken-Betwa is a Himalayan link designed by the International Seabed Authority."
+   ],
+   "a": 2,
+   "x": "Ken-Betwa is the flagship interlinking project, and the idea is traced back to Sir Arthur Cotton. The Godavari-Krishna transfer is associated with Pattiseema.",
+   "ty": "fact",
+   "tq": "Combine the historical-origin clue with the flagship-project clue and reject absolute exclusions.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "Which of the following pairs of river-transfer projects is correctly matched?",
+   "o": [
+    "Godavari-Krishna — Pattiseema; Kurnool-Cuddapah — canal",
+    "Godavari-Krishna — Ken-Betwa; Kurnool-Cuddapah — Harike barrage",
+    "Godavari-Krishna — Rihand; Kurnool-Cuddapah — Chambal project",
+    "Godavari-Krishna — Ukai; Kurnool-Cuddapah — Hirakud"
+   ],
+   "a": 0,
+   "x": "The Godavari-Krishna transfer is associated with Pattiseema, while Kurnool-Cuddapah is a canal project.",
+   "ty": "match",
+   "tq": "Start with the named transfer mechanism and avoid replacing it with another interlinking project.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  },
+  {
+   "s": "The legal basis for interlinking of rivers in India involves which entries of the Seventh Schedule?",
+   "o": [
+    "State List Entry 17 and Union List Entry 56",
+    "Concurrent List Entry 17 and Union List Entry 56",
+    "State List Entry 14 and Concurrent List Entry 56",
+    "State List Entry 56 and Union List Entry 17"
+   ],
+   "a": 0,
+   "x": "The legal basis cited for interlinking of rivers is State List Entry 17 and Union List Entry 56.",
+   "ty": "fact",
+   "tq": "Discriminate between the two constitutional lists and retain the correct entry numbers.",
+   "sec": "Irrigation and multipurpose projects → river and beneficiaries"
+  }
+ ]
+}

@@ -1,0 +1,598 @@
+{
+ "book": 4,
+ "row": 25,
+ "chunk": 0,
+ "section": "Ocean-atmosphere interaction - El Nino, La Nina, ENSO, Indian Ocean Dipole, Walker circulation",
+ "subsections": [
+  "El Nino - where the SST anomaly forms, Peru current, recurrence, impacts",
+  "La Nina - conditions, contrast, regional impacts",
+  "ENSO - Southern Oscillation, oceans in the seesaw, SOI",
+  "Indian Ocean Dipole - positive vs negative phase",
+  "Modoki El Nino vs normal El Nino",
+  "Madden-Julian Oscillation",
+  "Walker circulation - normal vs El Nino"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 47,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 6,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which part of the Pacific Ocean develops the characteristic sea-surface temperature anomaly during El Nino?",
+   "o": [
+    "Western equatorial Pacific only",
+    "Southern Pacific near Antarctica",
+    "Central and eastern equatorial Pacific",
+    "Northern Pacific near Alaska"
+   ],
+   "a": 2,
+   "x": "El Nino is characterised by abnormal warming of the central and eastern equatorial Pacific.",
+   "ty": "fact",
+   "tq": "Use the precise location rather than the broad ocean name.",
+   "sec": "El Nino - where the SST anomaly forms, Peru current, recurrence, impacts"
+  },
+  {
+   "s": "The unusual warm current associated with El Nino replaces which current along the west coast of South America?",
+   "o": [
+    "California Current",
+    "Benguela Current",
+    "Brazil Current",
+    "Peruvian or Humboldt Current"
+   ],
+   "a": 3,
+   "x": "The warm southward-flowing El Nino current replaces the cold Peruvian, or Humboldt, Current along the Peru coast.",
+   "ty": "confusable",
+   "tq": "Discriminate between neighbouring named ocean currents.",
+   "sec": "El Nino - where the SST anomaly forms, Peru current, recurrence, impacts"
+  },
+  {
+   "s": "El Nino is primarily a phenomenon of which ocean?",
+   "o": [
+    "Pacific Ocean",
+    "Arctic Ocean",
+    "Atlantic Ocean",
+    "Indian Ocean"
+   ],
+   "a": 0,
+   "x": "The El Nino warm-current and sea-surface temperature anomaly develop in the Pacific Ocean.",
+   "ty": "fact",
+   "tq": "Test the exact geographical basin instead of the associated regional impacts.",
+   "sec": "El Nino - where the SST anomaly forms, Peru current, recurrence, impacts"
+  },
+  {
+   "s": "The name ‘El Nino’ literally refers to which of the following?",
+   "o": [
+    "The little rain cloud",
+    "The returning monsoon",
+    "The great ocean wave",
+    "The little boy or Christ child"
+   ],
+   "a": 3,
+   "x": "El Nino means ‘the little boy’ or ‘Christ child’ and is associated with its appearance around Christmas.",
+   "ty": "fact",
+   "tq": "Test the meaning of a distinctive geographical term.",
+   "sec": "El Nino - where the SST anomaly forms, Peru current, recurrence, impacts"
+  },
+  {
+   "s": "Consider the following statements about the mechanism of El Nino:\n1. Easterly trade winds weaken or may reverse.\n2. Warm water piled up in the western Pacific shifts eastward.\n3. The initial warming can further weaken the trade winds.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements describe the El Nino mechanism and the reinforcing Bjerknes feedback.",
+   "ty": "statements",
+   "tq": "Combine a physical process with its positive feedback loop.",
+   "sec": "El Nino - where the SST anomaly forms, Peru current, recurrence, impacts"
+  },
+  {
+   "s": "A direct oceanographic consequence of El Nino along the Peru coast is:",
+   "o": [
+    "Formation of coral reefs in deep water",
+    "Cessation of cold, nutrient-rich upwelling",
+    "Intensification of cold, nutrient-rich upwelling",
+    "Strengthening of the Peru Current"
+   ],
+   "a": 1,
+   "x": "El Nino suppresses the upwelling of cold, nutrient-rich water off Peru.",
+   "ty": "application",
+   "tq": "Trace the physical cause to its immediate regional effect.",
+   "sec": "El Nino - where the SST anomaly forms, Peru current, recurrence, impacts"
+  },
+  {
+   "s": "The collapse of fish catches off Peru during El Nino is mainly associated with the reduction of:",
+   "o": [
+    "Phytoplankton",
+    "Tidal amplitude",
+    "Salinity of rivers",
+    "Deep-sea currents in the Atlantic"
+   ],
+   "a": 0,
+   "x": "When nutrient-rich upwelling stops, phytoplankton decline and the marine food chain and fish catch are affected.",
+   "ty": "application",
+   "tq": "Link an ecological outcome to the underlying ocean process.",
+   "sec": "El Nino - where the SST anomaly forms, Peru current, recurrence, impacts"
+  },
+  {
+   "s": "During El Nino, rising air shifts eastward and air descends over the Indian Ocean. This generally produces:",
+   "o": [
+    "No change in Indian monsoon conditions",
+    "High pressure and a delayed or weak Indian monsoon",
+    "Low pressure and a stronger Indian monsoon",
+    "High pressure and exceptionally heavy monsoon rainfall"
+   ],
+   "a": 1,
+   "x": "Descending air over the Indian Ocean produces high pressure, which is associated with a delayed or weak Indian monsoon.",
+   "ty": "application",
+   "tq": "Apply the pressure–vertical-motion relationship to a regional climate outcome.",
+   "sec": "El Nino - where the SST anomaly forms, Peru current, recurrence, impacts"
+  },
+  {
+   "s": "Which pair of crops is specifically associated with reduced yields during an El Nino-related weak Indian monsoon?",
+   "o": [
+    "Rice and sugarcane",
+    "Cotton and jute",
+    "Tea and coffee",
+    "Wheat and barley"
+   ],
+   "a": 0,
+   "x": "A weak monsoon during El Nino can reduce summer-crop yields, particularly rice and sugarcane, and contribute to food inflation.",
+   "ty": "fact",
+   "tq": "Match a climate impact with the crops identified in the material.",
+   "sec": "El Nino - where the SST anomaly forms, Peru current, recurrence, impacts"
+  },
+  {
+   "s": "Historically, approximately how many out of ten El Nino years brought depressed rainfall over India?",
+   "o": [
+    "2",
+    "4",
+    "6",
+    "8"
+   ],
+   "a": 2,
+   "x": "Historically, six out of ten El Nino years were associated with depressed Indian rainfall.",
+   "ty": "numerical",
+   "tq": "Test a stated proportion using nearby numerical distractors.",
+   "sec": "El Nino - where the SST anomaly forms, Peru current, recurrence, impacts"
+  },
+  {
+   "s": "The last global El Nino referred to in the current assessment was recorded in:",
+   "o": [
+    "2021–22",
+    "2020–21",
+    "2023–24",
+    "2022–23"
+   ],
+   "a": 2,
+   "x": "The last global El Nino identified in the material was the 2023–24 event.",
+   "ty": "numerical",
+   "tq": "Distinguish closely spaced years in a current-affairs geography fact.",
+   "sec": "El Nino - where the SST anomaly forms, Peru current, recurrence, impacts"
+  },
+  {
+   "s": "Which condition characterises La Nina?",
+   "o": [
+    "Strengthening of trade winds and enhanced cold-water upwelling in the eastern Pacific",
+    "Warming of the central and eastern Pacific by more than 2°C",
+    "Reversal of all ocean currents in the Pacific",
+    "Weakening of trade winds and eastward movement of warm water"
+   ],
+   "a": 0,
+   "x": "La Nina is the cold phase of ENSO; stronger trade winds push warm water westward and enhance cold upwelling in the eastern Pacific.",
+   "ty": "fact",
+   "tq": "Identify the contrasting physical mechanism rather than the impact.",
+   "sec": "La Nina - conditions, contrast, regional impacts"
+  },
+  {
+   "s": "The approximate cooling associated with La Nina in the relevant Pacific waters is:",
+   "o": [
+    "More than five degrees",
+    "One-tenth of a degree",
+    "About half a degree",
+    "About two degrees"
+   ],
+   "a": 2,
+   "x": "La Nina involves approximately a half-degree cooling of the relevant central and eastern Pacific waters.",
+   "ty": "numerical",
+   "tq": "Select the stated magnitude from closely spaced temperature values.",
+   "sec": "La Nina - conditions, contrast, regional impacts"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "La Nina — stronger-than-usual trade winds",
+    "El Nino — normal to above-normal Indian monsoon",
+    "La Nina — cooler central/eastern Pacific SST",
+    "El Nino — warmer central/eastern Pacific SST"
+   ],
+   "a": 1,
+   "x": "El Nino is associated with a weak or below-normal Indian monsoon; normal to above-normal monsoon conditions are associated with La Nina.",
+   "ty": "negative",
+   "tq": "Find the reversed comparison in a paired climate table.",
+   "sec": "La Nina - conditions, contrast, regional impacts"
+  },
+  {
+   "s": "Which regional impact is associated with La Nina rather than El Nino?",
+   "o": [
+    "Drought in Australia and Indonesia",
+    "Suppressed cold-water upwelling off Peru",
+    "Heavy rain and floods in Australia and Indonesia",
+    "Below-normal Indian monsoon rainfall"
+   ],
+   "a": 2,
+   "x": "La Nina is associated with heavy rainfall and floods in Australia and Indonesia, whereas El Nino is associated with drought there.",
+   "ty": "comparison",
+   "tq": "Separate the regional effects of two opposite phases.",
+   "sec": "La Nina - conditions, contrast, regional impacts"
+  },
+  {
+   "s": "La Nina is associated with which condition in North India?",
+   "o": [
+    "No winter temperature variation",
+    "Colder winters and frequent cold waves",
+    "Warmer winters and fewer cold waves",
+    "Only warmer nights with no cold waves"
+   ],
+   "a": 1,
+   "x": "La Nina is linked with colder winters and frequent cold waves in North India.",
+   "ty": "fact",
+   "tq": "Match the phase of ENSO with its regional seasonal effect.",
+   "sec": "La Nina - conditions, contrast, regional impacts"
+  },
+  {
+   "s": "According to the cited INCOIS study, the Bay of Bengal experiences during La Nina:",
+   "o": [
+    "Fewer post-monsoon cyclones",
+    "Only weaker winter cyclones",
+    "More floods and severe cyclones",
+    "No cyclones after the monsoon"
+   ],
+   "a": 2,
+   "x": "La Nina is associated with more floods and severe cyclones in the Bay of Bengal, while El Nino is linked with fewer post-monsoon cyclones.",
+   "ty": "fact",
+   "tq": "Distinguish a regional hazard pattern from its opposite-phase counterpart.",
+   "sec": "La Nina - conditions, contrast, regional impacts"
+  },
+  {
+   "s": "The year 2025 was notable because it was reported as:",
+   "o": [
+    "The warmest La Nina year on record",
+    "The coldest El Nino year on record",
+    "The first year without ENSO",
+    "The strongest negative IOD year on record"
+   ],
+   "a": 0,
+   "x": "The material identifies 2025 as the warmest La Nina year on record, unusual because La Nina normally cools global temperature.",
+   "ty": "numerical",
+   "tq": "Test a current numerical-year fact together with its unusual qualification.",
+   "sec": "La Nina - conditions, contrast, regional impacts"
+  },
+  {
+   "s": "The Southern Oscillation is best described as a pressure seesaw between the:",
+   "o": [
+    "Pacific and Southern Oceans",
+    "Atlantic and Arctic Oceans",
+    "Pacific and Indian Oceans",
+    "Indian and Atlantic Oceans"
+   ],
+   "a": 2,
+   "x": "It represents an atmospheric pressure seesaw between the Pacific and Indian Oceans.",
+   "ty": "fact",
+   "tq": "Identify the exact geographical pair in a definition.",
+   "sec": "ENSO - Southern Oscillation, oceans in the seesaw, SOI"
+  },
+  {
+   "s": "Which pressure arrangement is associated with a good Indian monsoon?",
+   "o": [
+    "Low pressure at Port Darwin and high pressure at Tahiti",
+    "High pressure at Port Darwin and low pressure at Tahiti",
+    "Low pressure at both Port Darwin and Tahiti",
+    "High pressure at both Port Darwin and Tahiti"
+   ],
+   "a": 0,
+   "x": "A good monsoon is associated with low pressure at Port Darwin and high pressure at Tahiti.",
+   "ty": "application",
+   "tq": "Apply the pressure-seesaw relationship to monsoon conditions.",
+   "sec": "ENSO - Southern Oscillation, oceans in the seesaw, SOI"
+  },
+  {
+   "s": "The Southern Oscillation Index is calculated from the pressure difference between:",
+   "o": [
+    "Tahiti minus Darwin",
+    "Arabian Sea minus Bay of Bengal",
+    "Peru minus Indonesia",
+    "Darwin minus Tahiti"
+   ],
+   "a": 0,
+   "x": "SOI is defined here as the pressure difference between Tahiti and Darwin.",
+   "ty": "fact",
+   "tq": "Watch the order of terms in a numerical index definition.",
+   "sec": "ENSO - Southern Oscillation, oceans in the seesaw, SOI"
+  },
+  {
+   "s": "Which one of the following combinations is correct regarding the Southern Oscillation Index?",
+   "o": [
+    "Negative SOI — positive IOD; Positive SOI — negative IOD",
+    "Negative SOI — El Nino; Positive SOI — La Nina",
+    "Negative SOI — La Nina; Positive SOI — El Nino",
+    "Negative SOI — normal monsoon only; Positive SOI — no monsoon"
+   ],
+   "a": 1,
+   "x": "A sustained negative SOI is associated with El Nino, while a sustained positive SOI is associated with La Nina.",
+   "ty": "comparison",
+   "tq": "Use the sign reversal carefully when comparing two phases.",
+   "sec": "ENSO - Southern Oscillation, oceans in the seesaw, SOI"
+  },
+  {
+   "s": "The Indian Ocean Dipole is measured by the difference in sea-surface temperature between the:",
+   "o": [
+    "Arabian Sea and eastern Pacific near Peru",
+    "Bay of Bengal and western Pacific near Japan",
+    "Red Sea and western Indian Ocean near Africa",
+    "Arabian Sea and eastern Indian Ocean south of Indonesia"
+   ],
+   "a": 3,
+   "x": "IOD measures the SST difference between a western pole in the Arabian Sea and an eastern pole in the eastern Indian Ocean south of Indonesia.",
+   "ty": "fact",
+   "tq": "Match a climate index with its two measurement poles.",
+   "sec": "Indian Ocean Dipole - positive vs negative phase"
+  },
+  {
+   "s": "The Indian Ocean Dipole was discovered in:",
+   "o": [
+    "1971",
+    "1982",
+    "1997",
+    "1999"
+   ],
+   "a": 3,
+   "x": "The Indian Ocean Dipole was discovered in 1999.",
+   "ty": "numerical",
+   "tq": "Distinguish the discovery year from years associated with major events.",
+   "sec": "Indian Ocean Dipole - positive vs negative phase"
+  },
+  {
+   "s": "The Indian Ocean Dipole is measured using the:",
+   "o": [
+    "Madden-Julian Index",
+    "Walker Circulation Index",
+    "Dipole Mode Index",
+    "Southern Oscillation Index"
+   ],
+   "a": 2,
+   "x": "The Dipole Mode Index, or DMI, measures the Indian Ocean Dipole.",
+   "ty": "confusable",
+   "tq": "Discriminate between similarly named climate indices.",
+   "sec": "Indian Ocean Dipole - positive vs negative phase"
+  },
+  {
+   "s": "Consider the following statements about a positive Indian Ocean Dipole:\n1. The western Indian Ocean is warmer.\n2. Winds blow from the Bay of Bengal towards the Arabian Sea.\n3. It can bring more rain over India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements describe the positive IOD pattern and its influence on Indian rainfall.",
+   "ty": "statements",
+   "tq": "Combine spatial temperature, wind direction and rainfall effects.",
+   "sec": "Indian Ocean Dipole - positive vs negative phase"
+  },
+  {
+   "s": "A positive Indian Ocean Dipole can partly offset the effect of:",
+   "o": [
+    "El Nino",
+    "The normal Walker circulation only",
+    "La Nina",
+    "The Madden-Julian Oscillation only"
+   ],
+   "a": 0,
+   "x": "A positive IOD can enhance rainfall over India and partly offset the drought-inducing effect of El Nino.",
+   "ty": "application",
+   "tq": "Apply the interaction between two climate oscillations.",
+   "sec": "Indian Ocean Dipole - positive vs negative phase"
+  },
+  {
+   "s": "Which condition is characteristic of a negative Indian Ocean Dipole?",
+   "o": [
+    "Warmer western Arabian Sea and increased rainfall over India",
+    "Warmer eastern Pacific and stronger Peru upwelling",
+    "Cooler western Arabian Sea and warmer eastern pole, with reduced Indian rainfall",
+    "Cooler western and eastern poles with no monsoon effect"
+   ],
+   "a": 2,
+   "x": "In a negative IOD, the western Arabian Sea is cooler and the eastern pole is warmer, resulting in reduced rainfall over India.",
+   "ty": "fact",
+   "tq": "Identify the reversed SST pattern and its linked rainfall effect.",
+   "sec": "Indian Ocean Dipole - positive vs negative phase"
+  },
+  {
+   "s": "The strong positive IOD in 1997 is significant because it:",
+   "o": [
+    "Caused drought in India despite a weak La Nina",
+    "Saved India from drought despite a Super El Nino",
+    "Ended the Southern Oscillation permanently",
+    "Produced the first recorded Madden-Julian Oscillation"
+   ],
+   "a": 1,
+   "x": "The strong positive IOD in 1997 helped save India from drought even though a Super El Nino was present.",
+   "ty": "application",
+   "tq": "Use an exceptional case to test interaction between climate drivers.",
+   "sec": "Indian Ocean Dipole - positive vs negative phase"
+  },
+  {
+   "s": "Which statement regarding the Indian Ocean Dipole and ENSO is correct?",
+   "o": [
+    "IOD is a separate phenomenon from ENSO.",
+    "ENSO is measured by the Dipole Mode Index.",
+    "IOD is merely another name for ENSO.",
+    "IOD occurs only during El Nino."
+   ],
+   "a": 0,
+   "x": "The Indian Ocean Dipole is a phenomenon separate from ENSO, although the two can interact and influence rainfall together.",
+   "ty": "confusable",
+   "tq": "Separate related but non-identical climate oscillations.",
+   "sec": "Indian Ocean Dipole - positive vs negative phase"
+  },
+  {
+   "s": "In a normal or canonical El Nino, maximum warming occurs:",
+   "o": [
+    "Near Peru in the eastern Pacific",
+    "In the central Indian Ocean",
+    "In the western Pacific near Indonesia",
+    "On both sides of the Pacific with no central anomaly"
+   ],
+   "a": 0,
+   "x": "Canonical El Nino has its maximum warming in the eastern Pacific near Peru.",
+   "ty": "comparison",
+   "tq": "Use the location of maximum warming to distinguish variants.",
+   "sec": "Modoki El Nino vs normal El Nino"
+  },
+  {
+   "s": "Which description best fits El Nino Modoki?",
+   "o": [
+    "Maximum warming in the central Pacific, with cooler waters to the east and west",
+    "Maximum warming in the western Pacific only, with no eastern cooling",
+    "Maximum warming near Peru with uniformly cold central waters",
+    "Uniform warming throughout the Indian and Pacific Oceans"
+   ],
+   "a": 0,
+   "x": "El Nino Modoki has central Pacific warming flanked by cooler waters on both the eastern and western sides, forming a tripole pattern.",
+   "ty": "comparison",
+   "tq": "Compare the location and tripole structure of two similar phenomena.",
+   "sec": "Modoki El Nino vs normal El Nino"
+  },
+  {
+   "s": "The term ‘Modoki’ is of Japanese origin and means:",
+   "o": [
+    "Similar but different",
+    "Returning child",
+    "Very strong warming",
+    "Cold current"
+   ],
+   "a": 0,
+   "x": "The Japanese term Modoki means ‘similar but different’, reflecting its resemblance to but distinction from normal El Nino.",
+   "ty": "fact",
+   "tq": "Test the exact meaning of a technical label.",
+   "sec": "Modoki El Nino vs normal El Nino"
+  },
+  {
+   "s": "The Madden-Julian Oscillation was discovered by:",
+   "o": [
+    "Gilbert Walker and Sir Edmund Halley",
+    "Humboldt and Darwin",
+    "Wegener and Köppen",
+    "Madden and Julian"
+   ],
+   "a": 3,
+   "x": "The Madden-Julian Oscillation was discovered by Madden and Julian in 1971–72.",
+   "ty": "fact",
+   "tq": "Match a named oscillation with its discoverers.",
+   "sec": "Madden-Julian Oscillation"
+  },
+  {
+   "s": "Which statement correctly describes the Madden-Julian Oscillation?",
+   "o": [
+    "A stationary pressure belt over the Arabian Sea",
+    "An eastward-moving pulse of clouds, convection and rain beginning as a warm pool in the tropical Indian Ocean",
+    "A westward-moving pulse of clear skies beginning in the eastern Pacific",
+    "A permanent cold current along the Peru coast"
+   ],
+   "a": 1,
+   "x": "The MJO is an eastward-moving pulse of clouds, convection and rain that begins as a warm pool in the tropical Indian Ocean.",
+   "ty": "fact",
+   "tq": "Identify the movement, components and origin of a circulation feature.",
+   "sec": "Madden-Julian Oscillation"
+  },
+  {
+   "s": "The Madden-Julian Oscillation generally repeats at intervals of:",
+   "o": [
+    "10–15 days",
+    "3–7 days",
+    "30–60 days",
+    "180–240 days"
+   ],
+   "a": 2,
+   "x": "The MJO has a recurrence period of approximately 30 to 60 days.",
+   "ty": "numerical",
+   "tq": "Distinguish the MJO time scale from ENSO recurrence.",
+   "sec": "Madden-Julian Oscillation"
+  },
+  {
+   "s": "Which of the following correctly describes the vertical and horizontal behaviour of the Madden-Julian Oscillation?\n1. Its convection can rise up to 10 km.\n2. It fades in the eastern Pacific but circles the globe aloft.\n3. It shifts the heavy-rain zone eastward.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The MJO convection rises up to 10 km, weakens in the eastern Pacific while continuing aloft around the globe, and shifts the heavy-rain zone eastward.",
+   "ty": "statements",
+   "tq": "Combine vertical extent, movement and rainfall-zone displacement.",
+   "sec": "Madden-Julian Oscillation"
+  },
+  {
+   "s": "The Madden-Julian Oscillation is associated with which monsoon pattern?",
+   "o": [
+    "Only permanent monsoon onset",
+    "The complete absence of monsoon variability",
+    "Only winter snowfall in North India",
+    "Active and break spells of the monsoon"
+   ],
+   "a": 3,
+   "x": "By shifting the zone of heavy rain eastward, the MJO contributes to active and break spells of the monsoon.",
+   "ty": "application",
+   "tq": "Connect a moving atmospheric pulse with its practical weather effect.",
+   "sec": "Madden-Julian Oscillation"
+  },
+  {
+   "s": "Which sequence correctly represents the normal Walker circulation over the tropical Pacific?",
+   "o": [
+    "Rising air over the cool east, sinking air over the warm west, and westerly surface winds",
+    "Rising air over the warm west, sinking air over the cool east, and easterly surface trade winds",
+    "Rising air over both east and west, with no surface winds",
+    "Sinking air over the warm west, rising air over the cool east, and easterly winds"
+   ],
+   "a": 1,
+   "x": "Normal Walker circulation has rising air over the warm western Pacific and Indonesia, sinking air over the cool eastern Pacific, and easterly trade winds at the surface.",
+   "ty": "chronology",
+   "tq": "Follow the circulation loop from rising branch to sinking branch and surface return flow.",
+   "sec": "Walker circulation - normal vs El Nino"
+  },
+  {
+   "s": "During El Nino, the Walker circulation generally:",
+   "o": [
+    "Reverses only over the Atlantic Ocean",
+    "Strengthens and shifts westward",
+    "Weakens and shifts eastward",
+    "Stops permanently over the Indian Ocean"
+   ],
+   "a": 2,
+   "x": "El Nino weakens the Walker circulation and shifts it eastward, reducing convection over India.",
+   "ty": "fact",
+   "tq": "Test the direction of displacement and the associated weakening.",
+   "sec": "Walker circulation - normal vs El Nino"
+  },
+  {
+   "s": "Which condition is associated with La Nina in relation to the Walker circulation?",
+   "o": [
+    "It strengthens, and is linked to unusual cold over East, Central and South India.",
+    "It weakens, and is linked to unusual heat over all of India.",
+    "It reverses completely and produces no pressure differences.",
+    "It shifts eastward and eliminates convection over Indonesia."
+   ],
+   "a": 0,
+   "x": "La Nina strengthens the Walker circulation and is linked with unusual cold over East, Central and South India.",
+   "ty": "application",
+   "tq": "Contrast the circulation response and regional consequence of the two ENSO phases.",
+   "sec": "Walker circulation - normal vs El Nino"
+  }
+ ]
+}

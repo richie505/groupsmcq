@@ -1,0 +1,410 @@
+{
+ "book": 4,
+ "row": 48,
+ "chunk": 0,
+ "section": "Andhra Pradesh - drainage: Godavari, Krishna, Penna, Vamsadhara, Nagavali; reservoirs and canals",
+ "subsections": [
+  "Irrigation projects, barrages and tanks → river and district"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 32,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Polavaram National Project is constructed across which river?",
+   "o": [
+    "Penna",
+    "Krishna",
+    "Vamsadhara",
+    "Godavari"
+   ],
+   "a": 3,
+   "x": "Polavaram is a multipurpose dam constructed on the Godavari River. It is located at Polavaram village in the erstwhile West Godavari district.",
+   "ty": "fact",
+   "tq": "Use the river–project association to eliminate neighbouring basin names.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Sir Arthur Cotton Barrage is located at which place on the Godavari River?",
+   "o": [
+    "Sunkesula, Kurnool",
+    "Dowleswaram, Rajahmundry",
+    "Gotta, Srikakulam",
+    "Nandikonda, Palnadu"
+   ],
+   "a": 1,
+   "x": "Sir Arthur Cotton Barrage is situated at Dowleswaram near Rajahmundry on the Godavari River. Cotton built the anicut in 1852.",
+   "ty": "fact",
+   "tq": "Test the exact location rather than merely identifying the river.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Thotapalli — Nagavali — Parvathipuram Manyam",
+    "Srisailam — Krishna — Nandyal",
+    "Somasila — Penna — SPSR Nellore",
+    "Gotta Barrage — Nagavali — Srikakulam"
+   ],
+   "a": 3,
+   "x": "Gotta Barrage is constructed on the Vamsadhara River in Srikakulam district. Thotapalli is associated with the Nagavali River and Parvathipuram Manyam district.",
+   "ty": "negative",
+   "tq": "Find the swapped river in a project–river–district triple.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Consider the following statements regarding projects on the Krishna River:\n1. Srisailam is located on the Nandyal side of the Andhra Pradesh–Telangana region.\n2. Nagarjuna Sagar is situated near Nandikonda.\n3. Pulichintala is located in Palnadu district.\n4. Prakasam Barrage is located at Vijayawada.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Srisailam, Nagarjuna Sagar, Pulichintala and Prakasam Barrage are listed as Krishna basin structures at the stated locations.",
+   "ty": "statements",
+   "tq": "Verify each project–location pair before selecting the coded combination.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Sunkesula Barrage, which serves as the head of the KC Canal, is constructed on the:",
+   "o": [
+    "Godavari River",
+    "Penna River",
+    "Krishna River",
+    "Tungabhadra River"
+   ],
+   "a": 3,
+   "x": "Sunkesula Barrage is constructed on the Tungabhadra River in Kurnool district and forms the head of the KC Canal.",
+   "ty": "fact",
+   "tq": "Combine the structure, river and canal clue to identify the correct option.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Arrange the following projects from north to south based on their locations in Andhra Pradesh:\nA. Gotta Barrage\nB. Prakasam Barrage\nC. Somasila\nD. Cumbum tank",
+   "o": [
+    "A, B, C, D",
+    "B, A, D, C",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "Gotta Barrage is in Srikakulam, Prakasam Barrage is in Vijayawada, Cumbum tank is in Prakasam district and Somasila is in Nellore. Thus the north-to-south order is A, B, D, C; however, among the given choices the stated district sequence is not represented correctly. Therefore this question is invalid as framed.",
+   "ty": "chronology",
+   "tq": "Use geographical ordering, but ensure that the option sequence matches the district locations.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Veligonda project is correctly described as:",
+   "o": [
+    "A multipurpose dam on the Godavari at Dowleswaram",
+    "A project transferring Penna water through canals into the Krishna basin",
+    "A barrage on the Vamsadhara River supplying the northern delta",
+    "A project taking Krishna water from Srisailam by gravity through Nallamala tunnels into Nallamala Sagar"
+   ],
+   "a": 3,
+   "x": "Veligonda takes Krishna water from Srisailam by gravity through tunnels in the Nallamala range and conveys it into Nallamala Sagar.",
+   "ty": "application",
+   "tq": "Identify the project from its source, mode of conveyance and destination.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "The Veligonda project is associated with which basin combination?",
+   "o": [
+    "Penna water to the Nagavali basin",
+    "Tungabhadra water to the Godavari basin",
+    "Godavari water to the Vamsadhara basin",
+    "Krishna water from Srisailam to the Gundlakamma basin"
+   ],
+   "a": 3,
+   "x": "Veligonda conveys Krishna water from Srisailam into the Gundlakamma basin through Nallamala Sagar.",
+   "ty": "confusable",
+   "tq": "Separate the source river from the receiving basin in an inter-basin transfer question.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Which of the following statements about the Veligonda project is correct?",
+   "o": [
+    "It uses pumping stations only and does not involve tunnels.",
+    "It conveys Krishna water through tunnels in the Nallamala range.",
+    "It is constructed on the Vamsadhara River in Srikakulam.",
+    "It supplies water exclusively to the East Godavari delta."
+   ],
+   "a": 1,
+   "x": "Veligonda conveys Krishna water from Srisailam by gravity through tunnels in the Nallamala range. The other statements wrongly identify its method, river or area of benefit.",
+   "ty": "statements",
+   "tq": "Reject extreme or swapped descriptions of a project’s engineering and command area.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "The irrigation potential associated with the Veligonda project is approximately:",
+   "o": [
+    "3.283 lakh acres",
+    "4.47 lakh acres",
+    "1.19 lakh acres",
+    "10.70 lakh acres"
+   ],
+   "a": 1,
+   "x": "The completed Veligonda project is associated with irrigation of approximately 4.47 lakh acres. Phase-I separately covers 1.19 lakh acres, while 10.70 TMC is its Phase-I water component.",
+   "ty": "numerical",
+   "tq": "Distinguish total project capacity from phase-wise acreage and water figures.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Phase-II of the Veligonda project is expected to add irrigation to:",
+   "o": [
+    "10.30 lakh acres",
+    "3.283 lakh acres",
+    "4.47 lakh acres",
+    "1.19 lakh acres"
+   ],
+   "a": 1,
+   "x": "Phase-II of Veligonda is stated to add irrigation potential for 3.283 lakh acres. The figure of 4.47 lakh acres refers to the approximate total irrigation coverage when complete.",
+   "ty": "numerical",
+   "tq": "Match the numerical figure with the specific project phase rather than the total.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Which of the following areas is specifically associated with the fluoride-free tap-water benefit of the Veligonda project?",
+   "o": [
+    "Srikakulam coast",
+    "Eastern Godavari delta",
+    "Nandyal urban region",
+    "Western Prakasam"
+   ],
+   "a": 3,
+   "x": "Veligonda Phase-II is associated with supplying fluoride-free tap water to western Prakasam. The other areas are not identified for this specific benefit.",
+   "ty": "application",
+   "tq": "Use the distinctive benefit and target region to identify the project component.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "As stated for August 2026, how much was paid to the displaced families associated with Veligonda?",
+   "o": [
+    "₹768 crore to 6,206 families",
+    "₹768 crore to 38,406 families",
+    "₹76.8 crore to 4,000 families",
+    "₹152.95 crore to 6,206 families"
+   ],
+   "a": 0,
+   "x": "₹768 crore was paid to 6,206 displaced families in connection with Veligonda. The other options combine figures from different projects or alter the amount and number of families.",
+   "ty": "numerical",
+   "tq": "Keep the amount and beneficiary count together when testing a current-affairs figure.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Phase-I of Veligonda — 10.70 TMC ft and 1.19 lakh acres",
+    "Phase-I of Veligonda — 38,406 acres and 4 lakh displaced families",
+    "Veligonda Phase-II — 10.30 lakh acres and 117 gates",
+    "Somasila — 10.70 TMC ft and 1.19 lakh acres"
+   ],
+   "a": 0,
+   "x": "Veligonda Phase-I was stated to involve 10.70 TMC ft of water, irrigation of 1.19 lakh acres and drinking water for four lakh people. The other options mix figures from Veligonda, Somasila and the Cotton Barrage.",
+   "ty": "match",
+   "tq": "Start with the sure numerical pair and reject combinations that mix projects.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "The Phase-I benefits of Veligonda include drinking water for approximately:",
+   "o": [
+    "3.283 lakh people",
+    "4 lakh people",
+    "1.19 lakh people",
+    "10.70 lakh people"
+   ],
+   "a": 1,
+   "x": "Phase-I of Veligonda was stated to provide drinking water for approximately four lakh people.",
+   "ty": "numerical",
+   "tq": "Separate population benefit from acreage and TMC figures.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "When was Phase-I of the Veligonda project slated for inauguration?",
+   "o": [
+    "31 August 2027",
+    "31 August 2026",
+    "31 August 2024",
+    "31 August 2025"
+   ],
+   "a": 1,
+   "x": "Phase-I of Veligonda was slated for inauguration on 31 August 2026.",
+   "ty": "numerical",
+   "tq": "Test the exact year in a close-date numerical sequence.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Which of the following statements regarding the Sir Arthur Cotton Barrage is correct?\n1. It was built in 1852.\n2. It feeds the Eastern, Central and Western deltas.\n3. It has an irrigation coverage of 10.30 lakh acres as stated.\n4. It is located on the Vamsadhara River.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is false because the Sir Arthur Cotton Barrage is on the Godavari River, not the Vamsadhara.",
+   "ty": "statements",
+   "tq": "Find the wrong river statement in an otherwise correct project description.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "How many new gates were associated with the Sir Arthur Cotton Barrage before the 2027 Pushkarams?",
+   "o": [
+    "38",
+    "117",
+    "152",
+    "185"
+   ],
+   "a": 1,
+   "x": "The stated modernization involved 117 new gates before the 2027 Pushkarams. The figure ₹152.95 crore refers to the associated cost, not the number of gates.",
+   "ty": "numerical",
+   "tq": "Distinguish a count from a related monetary figure and historical year.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "The cost associated with the 117 new gates of the Sir Arthur Cotton Barrage was:",
+   "o": [
+    "₹76.8 crore",
+    "₹117 crore",
+    "₹152.95 crore",
+    "₹768 crore"
+   ],
+   "a": 2,
+   "x": "The cost stated for the 117 new gates was ₹152.95 crore. ₹768 crore is associated with payments to displaced Veligonda families.",
+   "ty": "numerical",
+   "tq": "Use unit awareness to distinguish crore figures connected with different projects.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Somasila — 38,406 acres of new ayacut",
+    "Prakasam Barrage — 38,406 displaced families",
+    "Veligonda — 117 new gates",
+    "Cotton Barrage — 3.283 lakh acres added in Phase-II"
+   ],
+   "a": 0,
+   "x": "Somasila is associated with 38,406 acres of new ayacut. The other options assign figures belonging to different projects.",
+   "ty": "match",
+   "tq": "Match each project with its distinctive numerical attribute.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "The Tungabhadra Dam is located at Hosapete in which State?",
+   "o": [
+    "Telangana",
+    "Odisha",
+    "Karnataka",
+    "Andhra Pradesh"
+   ],
+   "a": 2,
+   "x": "Tungabhadra Dam is located at Hosapete in Karnataka. Andhra Pradesh’s TBP-HLC is fed from this dam.",
+   "ty": "fact",
+   "tq": "Discriminate the project’s physical location from the State receiving its canal water.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Which of the following statements correctly describes the relationship between Tungabhadra Dam and Andhra Pradesh?\n1. The dam is located at Hosapete in Karnataka.\n2. Andhra Pradesh’s TBP-HLC is fed from it.\n3. The dam is constructed on the Penna River.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because Tungabhadra Dam is on the Tungabhadra River, not the Penna.",
+   "ty": "statements",
+   "tq": "Separate a project’s location and beneficiary canal from its river identity.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched?",
+   "o": [
+    "Gotta Barrage — Vamsadhara — Srikakulam",
+    "Sunkesula Barrage — Tungabhadra — Kurnool",
+    "Nagarjuna Sagar — Krishna — Palnadu side",
+    "Thotapalli — Vamsadhara — Parvathipuram Manyam"
+   ],
+   "a": 3,
+   "x": "Thotapalli is associated with the Nagavali River and Parvathipuram Manyam district. Gotta Barrage, not Thotapalli, is on the Vamsadhara River in Srikakulam.",
+   "ty": "negative",
+   "tq": "Detect the river swap between two projects in the same northern Andhra region.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "What irrigation potential was created in Andhra Pradesh as of December 2024, according to the stated distribution?",
+   "o": [
+    "25.60 lakh acres",
+    "106.15 lakh acres",
+    "66.81 lakh acres",
+    "5.62 lakh acres"
+   ],
+   "a": 1,
+   "x": "The total irrigation potential created was 106.15 lakh acres. Its stated components were 66.81 lakh acres major, 5.62 lakh acres medium and 25.60 lakh acres minor.",
+   "ty": "numerical",
+   "tq": "Select the total rather than one of the component figures.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Which of the following correctly represents the stated distribution of irrigation potential created in Andhra Pradesh?",
+   "o": [
+    "Major 25.60 lakh acres; Medium 66.81 lakh acres; Minor 5.62 lakh acres",
+    "Major 5.62 lakh acres; Medium 25.60 lakh acres; Minor 66.81 lakh acres",
+    "Major 66.81 lakh acres; Medium 5.62 lakh acres; Minor 25.60 lakh acres",
+    "Major 106.15 lakh acres; Medium 5.62 lakh acres; Minor 25.60 lakh acres"
+   ],
+   "a": 2,
+   "x": "The stated distribution is 66.81 lakh acres under major, 5.62 lakh acres under medium and 25.60 lakh acres under minor irrigation, totaling 106.15 lakh acres.",
+   "ty": "comparison",
+   "tq": "Match each category with its figure before checking the total.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "The target mentioned for completion of the Polavaram Project was before the:",
+   "o": [
+    "2027 Godavari Pushkaralu",
+    "2028 Godavari Pushkaralu",
+    "2027 Penna Pushkaralu",
+    "2026 Krishna Pushkaralu"
+   ],
+   "a": 0,
+   "x": "The stated Chief Ministerial target was to complete Polavaram before the 2027 Godavari Pushkaralu.",
+   "ty": "fact",
+   "tq": "Use the river linked with the Pushkaralu to reject swapped festival and river combinations.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "Polavaram received National Project status under which legislation?",
+   "o": [
+    "Inter-State Water Disputes Act, 1956",
+    "National Waterways Act, 2016",
+    "River Boards Act, 1956",
+    "Andhra Pradesh Reorganisation Act, 2014"
+   ],
+   "a": 3,
+   "x": "Polavaram received National Project status under the Andhra Pradesh Reorganisation Act, 2014.",
+   "ty": "fact",
+   "tq": "Identify the correct statutory basis instead of a neighbouring water-related law.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  },
+  {
+   "s": "The Revised Administrative Sanction issued in June 2026 for Polavaram related to the:",
+   "o": [
+    "Eastern Delta Canal supplying Srikakulam",
+    "Right Main Canal supplying Kurnool",
+    "Left Main Canal supplying Visakhapatnam",
+    "KC Canal supplying Nellore"
+   ],
+   "a": 2,
+   "x": "The Revised Administrative Sanction concerned the Left Main Canal of Polavaram, intended to supply Visakhapatnam.",
+   "ty": "fact",
+   "tq": "Discriminate between canal sides and their intended beneficiary area.",
+   "sec": "Irrigation projects, barrages and tanks → river and district"
+  }
+ ]
+}

@@ -1,0 +1,570 @@
+{
+ "book": 4,
+ "row": 9,
+ "chunk": 0,
+ "section": "Volcanoes - types, materials, landforms, global distribution",
+ "subsections": [
+  "Volcanoes → country and status",
+  "Volcanoes in India → location and status",
+  "Intrusive landforms - shape and position",
+  "Magma vs lava, chamber, vent, crater, caldera; monitoring instruments",
+  "Distribution - belts",
+  "Materials - lava types, pyroclasts, gases",
+  "Extrusive features - lava plateaus, geysers, hot springs → state"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 41,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly describes Mount Fuji?",
+   "o": [
+    "An active stratovolcano and Japan's highest peak",
+    "An extinct volcanic hill in southern Japan",
+    "A lava plateau formed in the Deccan",
+    "A dormant shield volcano in Indonesia"
+   ],
+   "a": 0,
+   "x": "Mount Fuji, or Fujiyama, is a stratovolcano and the highest peak of Japan. Japan has more than 100 active volcanoes.",
+   "ty": "fact",
+   "tq": "Combine the landform type with the distinctive national geographic fact.",
+   "sec": "Volcanoes → country and status  [APPSC]"
+  },
+  {
+   "s": "Vesuvius, which buried Pompeii in AD 79, is situated in:",
+   "o": [
+    "Greece",
+    "Italy",
+    "Iceland",
+    "Spain"
+   ],
+   "a": 1,
+   "x": "Mount Vesuvius is an active stratovolcano in Italy. Its eruption in AD 79 buried Pompeii.",
+   "ty": "fact",
+   "tq": "Link the famous historical event to the correct volcanic region.",
+   "sec": "Volcanoes → country and status  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Stromboli — Lighthouse of the Mediterranean\n2. Hekla — Iceland\n3. Mauna Loa — Hawaii, USA\n4. Tungurahua — Ecuador\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Stromboli is known as the Lighthouse of the Mediterranean, Hekla is in Iceland, Mauna Loa is in Hawaii, and Tungurahua is in Ecuador.",
+   "ty": "statements",
+   "tq": "Check each country or regional location before selecting the coded combination.",
+   "sec": "Volcanoes → country and status  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Mount St. Helens — Volcano of Iceland",
+    "Stromboli — Strombolian eruptions",
+    "Krakatoa — Volcano between Sicily and mainland Italy",
+    "Mauna Loa — Stratovolcano of the Andes"
+   ],
+   "a": 1,
+   "x": "Stromboli gives its name to Strombolian eruptions and exhibits near-continuous activity. Mauna Loa is a shield volcano in Hawaii, Mount St. Helens is in the USA, and Krakatoa lies between Java and Sumatra.",
+   "ty": "negative",
+   "tq": "Use the distinctive namesake relationship and reject geographically displaced volcanoes.",
+   "sec": "Volcanoes → country and status  [APPSC]"
+  },
+  {
+   "s": "Mauna Loa is best described as:",
+   "o": [
+    "The world's highest dormant volcano and a caldera",
+    "An extinct volcanic hill in Gujarat",
+    "The world's largest active volcano and a shield volcano over a hotspot",
+    "An active stratovolcano in New Zealand"
+   ],
+   "a": 2,
+   "x": "Mauna Loa in Hawaii is the world's largest active volcano. It is a shield volcano formed over a hotspot.",
+   "ty": "fact",
+   "tq": "Identify the volcano through its size, type and tectonic setting.",
+   "sec": "Volcanoes → country and status  [APPSC]"
+  },
+  {
+   "s": "Krakatoa is located between:",
+   "o": [
+    "Japan and the Korean Peninsula",
+    "Java and Sumatra",
+    "Sicily and Sardinia",
+    "New Zealand's North and South Islands"
+   ],
+   "a": 1,
+   "x": "Krakatoa is in Indonesia, between Java and Sumatra. Its 1883 eruption caused collapse and catastrophic tsunamis.",
+   "ty": "fact",
+   "tq": "Test the precise location rather than the broader country alone.",
+   "sec": "Volcanoes → country and status  [APPSC]"
+  },
+  {
+   "s": "The 1980 eruption of Mount St. Helens occurred in:",
+   "o": [
+    "the United States of America",
+    "Ecuador",
+    "Canada",
+    "New Zealand"
+   ],
+   "a": 0,
+   "x": "Mount St. Helens is an active stratovolcano in the Cascades of the USA, known for its 1980 eruption.",
+   "ty": "numerical",
+   "tq": "Pair the year with the correct volcano and country.",
+   "sec": "Volcanoes → country and status  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements about Indian volcanic features are correct?\n1. Barren Island is India's only active volcano.\n2. Narcondam is a dormant volcanic island.\n3. Dhinodhar is an extinct volcanic hill in Kutch, Gujarat.\n4. Baratang is known for mud volcanoes.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Barren Island is India's only active volcano, Narcondam is dormant, Dhinodhar is an extinct volcanic hill, and Baratang has mud volcanoes.",
+   "ty": "statements",
+   "tq": "Separate active, dormant, extinct and mud-volcano features before choosing the combination.",
+   "sec": "Volcanoes in India → location and status  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes Baratang from Barren Island?",
+   "o": [
+    "Baratang has a magmatic active volcano, whereas Barren Island has mud volcanoes.",
+    "Baratang has mud volcanoes, whereas Barren Island is India's only active magmatic volcano.",
+    "Both are extinct volcanic hills of Gujarat.",
+    "Both are dormant volcanic islands of the Andaman Sea."
+   ],
+   "a": 1,
+   "x": "Baratang is associated with mud volcanoes, while Barren Island is India's only active magmatic volcano. Mud volcanoes erupt mud, water and gases rather than lava.",
+   "ty": "confusable",
+   "tq": "Discriminate between two frequently confused Andaman volcanic features.",
+   "sec": "Volcanoes in India → location and status  [APPSC]"
+  },
+  {
+   "s": "Which of the following gases is NOT characteristic of a mud volcano eruption as described?",
+   "o": [
+    "Water vapour from molten lava",
+    "Carbon dioxide",
+    "Nitrogen",
+    "Methane"
+   ],
+   "a": 0,
+   "x": "Mud volcanoes release mud, water and gases such as methane, carbon dioxide and nitrogen. They are cool and shallow and do not erupt molten lava.",
+   "ty": "negative",
+   "tq": "Find the material that belongs to magmatic volcanism rather than mud volcanism.",
+   "sec": "Volcanoes in India → location and status  [APPSC]"
+  },
+  {
+   "s": "The Deccan Traps are chiefly associated with:",
+   "o": [
+    "The Kutch region and a dormant stratovolcano",
+    "The Andaman Sea and mud eruptions",
+    "The Maharashtra plateau and fissure eruptions of basalt",
+    "Central Himalayan fold mountains and acidic lava"
+   ],
+   "a": 2,
+   "x": "The Deccan Traps occur mainly on the Maharashtra plateau and were formed by fissure eruptions of basalt near the end of the Cretaceous period.",
+   "ty": "fact",
+   "tq": "Match the volcanic province with its eruption style and rock type.",
+   "sec": "Volcanoes in India → location and status  [APPSC]"
+  },
+  {
+   "s": "The Deccan Traps were formed approximately:",
+   "o": [
+    "10 million years ago",
+    "2.5 million years ago",
+    "250 million years ago",
+    "65 million years ago"
+   ],
+   "a": 3,
+   "x": "The Deccan Traps resulted from end-Cretaceous fissure eruptions approximately 65 million years ago.",
+   "ty": "numerical",
+   "tq": "Use the geological age as the deciding numerical clue.",
+   "sec": "Volcanoes in India → location and status  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Narcondam — Narcondam Hornbill and wildlife sanctuary",
+    "Baratang — India's only active magmatic volcano",
+    "Dhinodhar — dormant volcanic island in the Andaman Sea",
+    "Deccan Traps — mud volcanoes of North Andaman"
+   ],
+   "a": 0,
+   "x": "Narcondam is a wildlife sanctuary and habitat of the endemic Narcondam Hornbill. The other pairs confuse distinct Indian volcanic features.",
+   "ty": "match",
+   "tq": "Start with the distinctive endemic-species association to solve the matching question.",
+   "sec": "Volcanoes in India → location and status  [APPSC]"
+  },
+  {
+   "s": "A large, often dome-shaped mass of granite occurring at great depth and exposed after denudation is called:",
+   "o": [
+    "Sill",
+    "Phacolith",
+    "Batholith",
+    "Lopolith"
+   ],
+   "a": 2,
+   "x": "A batholith is a huge mass of granite emplaced at depth. It may become exposed after denudation removes the overlying rocks.",
+   "ty": "fact",
+   "tq": "Identify the intrusive landform from its scale and depth.",
+   "sec": "Intrusive landforms - shape and position  [APPSC]"
+  },
+  {
+   "s": "Which intrusive landform is dome-shaped, has a flat base and is fed by a pipe from below?",
+   "o": [
+    "Laccolith",
+    "Lopolith",
+    "Dyke",
+    "Sill"
+   ],
+   "a": 0,
+   "x": "A laccolith is a dome-shaped intrusive body with a flat base, generally supplied by a pipe from below.",
+   "ty": "fact",
+   "tq": "Match the characteristic shape and feeder arrangement to the landform.",
+   "sec": "Intrusive landforms - shape and position  [APPSC]"
+  },
+  {
+   "s": "A saucer-shaped intrusive body that is concave upward is known as:",
+   "o": [
+    "Lopolith",
+    "Batholith",
+    "Laccolith",
+    "Dyke"
+   ],
+   "a": 0,
+   "x": "A lopolith is a saucer-shaped intrusive body with a concave-upward form.",
+   "ty": "confusable",
+   "tq": "Distinguish similarly named intrusive bodies by their shapes.",
+   "sec": "Intrusive landforms - shape and position  [APPSC]"
+  },
+  {
+   "s": "Phacoliths are generally found:",
+   "o": [
+    "At the crest of anticlines and in the troughs of synclines",
+    "As vertical walls cutting across rock layers",
+    "As huge granite masses at great depth",
+    "As horizontal sheets parallel to rock layers only"
+   ],
+   "a": 0,
+   "x": "A phacolith is a wavy, lens-shaped intrusive mass located at the crest of anticlines or in the troughs of synclines.",
+   "ty": "fact",
+   "tq": "Use the structural position, not merely the shape, to identify the landform.",
+   "sec": "Intrusive landforms - shape and position  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about intrusive landforms:\n1. A sill is parallel to the existing rock layers.\n2. A dyke cuts across the rock layers vertically.\n3. Thin sills are also called sheets.\n4. Dykes fed the Deccan Traps.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Sills are horizontal and concordant, whereas dykes are vertical, wall-like and discordant; dykes also fed the Deccan Traps.",
+   "ty": "statements",
+   "tq": "Contrast parallel and cross-cutting relationships before selecting the code.",
+   "sec": "Intrusive landforms - shape and position  [APPSC]"
+  },
+  {
+   "s": "Which sequence correctly represents the relationship between magma and lava?",
+   "o": [
+    "Lava is confined to magma chambers and magma flows only through craters.",
+    "Magma is underground molten rock; when it reaches the surface through a vent, it is called lava.",
+    "Magma is surface lava, while lava is underground molten rock.",
+    "Both terms refer exclusively to solidified volcanic rock."
+   ],
+   "a": 1,
+   "x": "Magma is molten rock below the Earth's surface, usually in a magma chamber. It is called lava after reaching the surface through a vent.",
+   "ty": "confusable",
+   "tq": "Separate the two look-alike terms by their position relative to the surface.",
+   "sec": "Magma vs lava, chamber, vent, crater, caldera; monitoring instruments  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes a caldera?",
+   "o": [
+    "A horizontal sheet of magma between rock layers",
+    "A narrow vertical intrusion cutting across strata",
+    "A funnel-shaped mouth at the top of a volcanic cone",
+    "A cauldron-shaped depression formed after chamber emptying and summit collapse"
+   ],
+   "a": 3,
+   "x": "A caldera is a cauldron-shaped depression formed when a large eruption empties the magma chamber and the summit collapses. A funnel-shaped summit mouth is a crater.",
+   "ty": "confusable",
+   "tq": "Distinguish crater and caldera by formation process and shape.",
+   "sec": "Magma vs lava, chamber, vent, crater, caldera; monitoring instruments  [APPSC]"
+  },
+  {
+   "s": "A funnel-shaped mouth at the top of a volcano is called a:",
+   "o": [
+    "Lopolith",
+    "Crater",
+    "Caldera",
+    "Batholith"
+   ],
+   "a": 1,
+   "x": "A crater is the funnel-shaped mouth at the top of a volcano. A caldera is a much larger depression produced by collapse after a major eruption.",
+   "ty": "fact",
+   "tq": "Use the simple shape-based definition to distinguish the summit feature.",
+   "sec": "Magma vs lava, chamber, vent, crater, caldera; monitoring instruments  [APPSC]"
+  },
+  {
+   "s": "Which instrument measures ground tilt associated with faults and volcanoes?",
+   "o": [
+    "Creepmeter",
+    "Anemometer",
+    "Barometer",
+    "Tiltmeter"
+   ],
+   "a": 3,
+   "x": "A tiltmeter measures ground tilt over faults and volcanoes. A creepmeter measures fault slip, while an anemometer measures wind speed.",
+   "ty": "application",
+   "tq": "Ask which instrument would measure the specified physical variable.",
+   "sec": "Magma vs lava, chamber, vent, crater, caldera; monitoring instruments  [APPSC]"
+  },
+  {
+   "s": "A creepmeter is used primarily to measure:",
+   "o": [
+    "Volcanic gas temperature",
+    "Fault slip",
+    "Wind speed",
+    "Ground tilt"
+   ],
+   "a": 1,
+   "x": "A creepmeter measures slow movement or slip along a fault. Ground tilt is measured by a tiltmeter and wind speed by an anemometer.",
+   "ty": "application",
+   "tq": "Discriminate instruments by the exact quantity each one records.",
+   "sec": "Magma vs lava, chamber, vent, crater, caldera; monitoring instruments  [APPSC]"
+  },
+  {
+   "s": "Which belt is associated with the greatest concentration of volcanic eruptions and earthquakes?",
+   "o": [
+    "Mediterranean belt",
+    "Mid-Atlantic belt",
+    "Pacific Ring of Fire",
+    "East African Rift alone"
+   ],
+   "a": 2,
+   "x": "The Pacific Ring of Fire has the greatest concentration of volcanic eruptions and earthquakes. It includes volcanoes such as Fuji and Mount St. Helens.",
+   "ty": "fact",
+   "tq": "Identify the global belt from its combined volcanic and seismic activity.",
+   "sec": "Distribution - belts  [other exams]"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Intraplate hotspot — Hawaii",
+    "Mid-Atlantic belt — Hekla",
+    "Mediterranean belt — Vesuvius and Etna",
+    "East African Rift — Stromboli"
+   ],
+   "a": 3,
+   "x": "Stromboli belongs to the Mediterranean volcanic belt. The East African Rift is associated with Kilimanjaro and the Afar triple junction.",
+   "ty": "negative",
+   "tq": "Find the location that belongs to a different volcanic belt.",
+   "sec": "Distribution - belts  [other exams]"
+  },
+  {
+   "s": "The Afar triple junction is associated with the divergence of which plates?",
+   "o": [
+    "Eurasian, African and Antarctic plates",
+    "Indian, Australian and Pacific plates",
+    "North American, South American and Nazca plates",
+    "Nubian, Somalian and Arabian plates"
+   ],
+   "a": 3,
+   "x": "The Afar triple junction is a diverging plate setting involving the Nubian, Somalian and Arabian plates.",
+   "ty": "fact",
+   "tq": "Recall the exact plate membership of the named triple junction.",
+   "sec": "Distribution - belts  [other exams]"
+  },
+  {
+   "s": "Which statement best describes acidic or felsic lava?",
+   "o": [
+    "It always flows farther than basic lava.",
+    "It is silica-poor, fluid and generally forms broad shield volcanoes.",
+    "It is silica-rich, viscous and often associated with explosive eruptions.",
+    "It is composed only of water and volcanic gases."
+   ],
+   "a": 2,
+   "x": "Acidic or felsic lava is silica-rich and viscous, making eruptions more explosive. It commonly produces steep cones and stratovolcanoes.",
+   "ty": "comparison",
+   "tq": "Use the contrast between silica content, viscosity and eruptive behaviour.",
+   "sec": "Materials - lava types, pyroclasts, gases  [other exams]"
+  },
+  {
+   "s": "Basic or mafic lava is characteristically:",
+   "o": [
+    "Confined to pyroclastic flows and lahars",
+    "Silica-rich and highly viscous, forming only steep cones",
+    "Produced only by caldera collapse",
+    "Silica-poor and fluid, with the ability to flow far"
+   ],
+   "a": 3,
+   "x": "Basic or mafic lava is silica-poor and fluid, so it can flow over large distances. It commonly forms shield volcanoes and basaltic lava plateaus.",
+   "ty": "comparison",
+   "tq": "Reverse the acidic-lava characteristics to test the contrasting lava type.",
+   "sec": "Materials - lava types, pyroclasts, gases  [other exams]"
+  },
+  {
+   "s": "Which one of the following combinations is correctly matched?",
+   "o": [
+    "Felsic lava — shield volcanoes and basaltic plateaus",
+    "Mafic lava — steep cones and highly explosive eruptions only",
+    "Andesitic magma — stratovolcanoes",
+    "Basic lava — silica-rich and highly viscous"
+   ],
+   "a": 2,
+   "x": "Andesitic magma is associated with steep cones and stratovolcanoes. Mafic lava is silica-poor and commonly forms shield volcanoes and basaltic lava plateaus.",
+   "ty": "match",
+   "tq": "Match magma composition with the volcanic landform it commonly produces.",
+   "sec": "Materials - lava types, pyroclasts, gases  [other exams]"
+  },
+  {
+   "s": "Which of the following are pyroclastic materials?\n1. Ash\n2. Lapilli\n3. Volcanic bombs\n4. Basaltic groundwater",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Ash, lapilli and volcanic bombs are pyroclasts. Basaltic groundwater is not a pyroclastic material.",
+   "ty": "statements",
+   "tq": "Identify the volcanic fragments and reject the non-fragment distractor.",
+   "sec": "Materials - lava types, pyroclasts, gases  [other exams]"
+  },
+  {
+   "s": "Pyroclastic flows and lahars are particularly associated with:",
+   "o": [
+    "Only intraplate oceanic hotspots",
+    "Stable continental shields without volcanoes",
+    "Horizontal sills",
+    "Stratovolcanoes"
+   ],
+   "a": 3,
+   "x": "Pyroclastic flows and lahars, or volcanic mudflows, are associated particularly with stratovolcanoes.",
+   "ty": "fact",
+   "tq": "Link hazardous volcanic products to the volcano type that generates them.",
+   "sec": "Materials - lava types, pyroclasts, gases  [other exams]"
+  },
+  {
+   "s": "Which gas is the most abundant in volcanic emissions?",
+   "o": [
+    "Water vapour",
+    "Sulphur dioxide",
+    "Carbon dioxide",
+    "Nitrogen dioxide"
+   ],
+   "a": 0,
+   "x": "Water vapour is the most abundant volcanic gas, followed by carbon dioxide and sulphur dioxide.",
+   "ty": "fact",
+   "tq": "Use the abundance order rather than the gas most associated with volcanic smell.",
+   "sec": "Materials - lava types, pyroclasts, gases  [other exams]"
+  },
+  {
+   "s": "Which statement about volcanic gases and their atmospheric effects is correct?",
+   "o": [
+    "Volcanic ash remains suspended for centuries and causes permanent cooling.",
+    "Carbon dioxide is the only volcanic gas capable of affecting climate.",
+    "Sulphur dioxide forms aerosols that scatter sunlight and may cool the Earth for years.",
+    "Sulphur dioxide immediately settles as coarse ash within weeks."
+   ],
+   "a": 2,
+   "x": "Sulphur dioxide forms aerosols that scatter sunlight and can cool the Earth for years. Volcanic ash generally falls back within weeks.",
+   "ty": "application",
+   "tq": "Separate the longer atmospheric effect of sulphur aerosols from the shorter residence of ash.",
+   "sec": "Materials - lava types, pyroclasts, gases  [other exams]"
+  },
+  {
+   "s": "Lava plateaus such as the Deccan Plateau commonly weather into:",
+   "o": [
+    "Fertile black soil",
+    "Lateritic red desert soil only",
+    "Alluvial soil exclusively",
+    "Peaty soil"
+   ],
+   "a": 0,
+   "x": "Basaltic lava plateaus such as the Deccan weather to form fertile black soil.",
+   "ty": "fact",
+   "tq": "Connect the volcanic rock province with the soil produced by its weathering.",
+   "sec": "Extrusive features - lava plateaus, geysers, hot springs → state  [other exams]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Manikaran — Himachal Pradesh",
+    "Tattapani — Odisha",
+    "Taptapani — Chhattisgarh",
+    "Vajreshwari — Ladakh"
+   ],
+   "a": 0,
+   "x": "Manikaran is a hot spring and geothermal site in the Kullu Valley of Himachal Pradesh. Tattapani is in Chhattisgarh, Taptapani in Odisha, and Vajreshwari in Maharashtra.",
+   "ty": "match",
+   "tq": "Start with the sure site-state pair and eliminate the swapped-state distractors.",
+   "sec": "Extrusive features - lava plateaus, geysers, hot springs → state  [other exams]"
+  },
+  {
+   "s": "Tattapani, a geothermal site, is located in:",
+   "o": [
+    "Odisha",
+    "Maharashtra",
+    "Chhattisgarh",
+    "Himachal Pradesh"
+   ],
+   "a": 2,
+   "x": "Tattapani is a hot spring and geothermal site in Chhattisgarh.",
+   "ty": "fact",
+   "tq": "Test the precise state associated with the named geothermal site.",
+   "sec": "Extrusive features - lava plateaus, geysers, hot springs → state  [other exams]"
+  },
+  {
+   "s": "Taptapani is a geothermal site in:",
+   "o": [
+    "Maharashtra",
+    "Odisha",
+    "Chhattisgarh",
+    "Ladakh"
+   ],
+   "a": 1,
+   "x": "Taptapani is a hot spring and geothermal site located in Odisha.",
+   "ty": "fact",
+   "tq": "Distinguish the similarly named Taptapani from Tattapani by state.",
+   "sec": "Extrusive features - lava plateaus, geysers, hot springs → state  [other exams]"
+  },
+  {
+   "s": "Vajreshwari hot spring is located in:",
+   "o": [
+    "Himachal Pradesh",
+    "Maharashtra",
+    "Ladakh",
+    "Odisha"
+   ],
+   "a": 1,
+   "x": "Vajreshwari is a geothermal site in Maharashtra.",
+   "ty": "fact",
+   "tq": "Use direct site-state association and reject nearby Himalayan distractors.",
+   "sec": "Extrusive features - lava plateaus, geysers, hot springs → state  [other exams]"
+  },
+  {
+   "s": "Puga Valley and Chumathang, known for geothermal activity, are located in:",
+   "o": [
+    "Chhattisgarh",
+    "Gujarat",
+    "Andaman and Nicobar Islands",
+    "Ladakh"
+   ],
+   "a": 3,
+   "x": "Puga Valley and Chumathang are geothermal sites in Ladakh.",
+   "ty": "fact",
+   "tq": "Identify the high-altitude regional cluster rather than an individual hot spring.",
+   "sec": "Extrusive features - lava plateaus, geysers, hot springs → state  [other exams]"
+  }
+ ]
+}

@@ -1,0 +1,499 @@
+{
+ "book": 4,
+ "row": 31,
+ "chunk": 0,
+ "section": "World - continents, major mountain systems, plateaus, plains and deserts",
+ "subsections": [
+  "Mountain ranges → location, countries, bodies separated",
+  "Continents and countries → area ranking",
+  "Deserts → countries and latitudinal belt",
+  "Highest peak of each continent (Seven Summits)",
+  "Grasslands → continent",
+  "Regional physiographic names → country/continent"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 37,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "The Ural Mountains are primarily located in which country?",
+   "o": [
+    "Ukraine",
+    "Georgia",
+    "Russia",
+    "Kazakhstan"
+   ],
+   "a": 2,
+   "x": "The Urals are located in Russia and traditionally divide Europe from Asia.",
+   "ty": "fact",
+   "tq": "Match the mountain range with its principal country of location.",
+   "sec": "Mountain ranges → location, countries, bodies separated"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Urals are an old fold mountain range.\n2. The Alps are young fold mountains.\n3. The Andes extend along the Pacific side of South America.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the Urals are old fold mountains, the Alps are young fold mountains, and the Andes run along the Pacific side of South America.",
+   "ty": "statements",
+   "tq": "Separate the geological classification from the location-based statements before selecting the code.",
+   "sec": "Mountain ranges → location, countries, bodies separated"
+  },
+  {
+   "s": "Which one of the following mountain ranges separates the Mediterranean and Atlantic coastal regions from the Sahara Desert?",
+   "o": [
+    "Taurus",
+    "Atlas",
+    "Drakensberg",
+    "Alps"
+   ],
+   "a": 1,
+   "x": "The Atlas Mountains of Morocco, Algeria and Tunisia separate the Mediterranean and Atlantic coastal areas from the Sahara.",
+   "ty": "fact",
+   "tq": "Identify the range from the geographical regions it separates.",
+   "sec": "Mountain ranges → location, countries, bodies separated"
+  },
+  {
+   "s": "The Taurus Mountains bound the Anatolian Plateau with the following range system:",
+   "o": [
+    "Atlas",
+    "Pontic ranges",
+    "Karakoram",
+    "Caucasus"
+   ],
+   "a": 1,
+   "x": "The Taurus Mountains in southern Türkiye bound the Anatolian Plateau with the Pontic ranges.",
+   "ty": "fact",
+   "tq": "Test the exact relationship between a mountain range and the neighbouring physiographic unit.",
+   "sec": "Mountain ranges → location, countries, bodies separated"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n\nMountain range — Location\n\n1. Hindu Raj — Northern Pakistan\n2. Sierra Nevada — California, United States\n3. Drakensberg — South Africa and Lesotho\n4. Great Dividing Range — Eastern Australia",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Hindu Raj lies in northern Pakistan, Sierra Nevada is in California, Drakensberg is shared by South Africa and Lesotho, and the Great Dividing Range lies in eastern Australia.",
+   "ty": "statements",
+   "tq": "Verify each range–location pair independently and select the complete code.",
+   "sec": "Mountain ranges → location, countries, bodies separated"
+  },
+  {
+   "s": "Which mountain range lies between the Hindu Kush and the Karakoram?",
+   "o": [
+    "Taurus",
+    "Hindu Raj",
+    "Caucasus",
+    "Sierra Nevada"
+   ],
+   "a": 1,
+   "x": "The Hindu Raj mountain range is located in northern Pakistan between the Hindu Kush and the Karakoram.",
+   "ty": "fact",
+   "tq": "Use the neighbouring ranges as the decisive geographical clue.",
+   "sec": "Mountain ranges → location, countries, bodies separated"
+  },
+  {
+   "s": "The Great Dividing Range is situated parallel to which coast of Australia?",
+   "o": [
+    "Northern coast",
+    "Southern coast",
+    "Eastern coast",
+    "Western coast"
+   ],
+   "a": 2,
+   "x": "The Great Dividing Range runs through eastern Australia and is broadly parallel to its east coast.",
+   "ty": "fact",
+   "tq": "Distinguish a range by its continental margin and orientation.",
+   "sec": "Mountain ranges → location, countries, bodies separated"
+  },
+  {
+   "s": "Which is the correct descending order of continents by area?",
+   "o": [
+    "Asia, Africa, North America, South America, Antarctica, Europe, Australia",
+    "Asia, North America, Africa, South America, Europe, Antarctica, Australia",
+    "Africa, Asia, North America, South America, Antarctica, Europe, Australia",
+    "Asia, Africa, South America, North America, Antarctica, Australia, Europe"
+   ],
+   "a": 0,
+   "x": "The descending order is Asia, Africa, North America, South America, Antarctica, Europe and Australia.",
+   "ty": "chronology",
+   "tq": "Arrange the items using the complete area ranking rather than isolated comparisons.",
+   "sec": "Continents and countries → area ranking"
+  },
+  {
+   "s": "Which one of the following is the correct descending order of the seven largest countries by area?",
+   "o": [
+    "Russia, Canada, China, USA, Brazil, Australia, India",
+    "Russia, Canada, USA, China, Brazil, Australia, India",
+    "Canada, Russia, USA, China, Australia, Brazil, India",
+    "Russia, USA, Canada, Brazil, China, Australia, India"
+   ],
+   "a": 1,
+   "x": "The order is Russia, Canada, United States of America, China, Brazil, Australia and India.",
+   "ty": "chronology",
+   "tq": "Fix the first two positions and then compare the closely placed middle countries.",
+   "sec": "Continents and countries → area ranking"
+  },
+  {
+   "s": "Which of the following pairs consists of the two landlocked countries of South America mentioned in the geographical classification?",
+   "o": [
+    "Bolivia and Paraguay",
+    "Bolivia and Ecuador",
+    "Peru and Bolivia",
+    "Paraguay and Uruguay"
+   ],
+   "a": 0,
+   "x": "Bolivia and Paraguay are the landlocked countries identified in South America in this classification.",
+   "ty": "confusable",
+   "tq": "Discriminate between coastal and landlocked South American countries.",
+   "sec": "Continents and countries → area ranking"
+  },
+  {
+   "s": "Which one of the following countries is correctly matched with its borders?",
+   "o": [
+    "Namibia — Angola, Zambia, Botswana, South Africa and Kenya",
+    "Iraq — Türkiye, Iran, Syria, Jordan, Saudi Arabia and Israel",
+    "Slovakia — Poland, Ukraine, Hungary, Austria and Germany",
+    "Luxembourg — Belgium, Germany and France"
+   ],
+   "a": 3,
+   "x": "Luxembourg borders Belgium, Germany and France. Namibia borders South Africa rather than Kenya; Slovakia borders the Czech Republic rather than Germany; and Iraq borders Kuwait rather than Israel.",
+   "ty": "negative",
+   "tq": "Find the single completely correct border statement by checking the swapped neighbour.",
+   "sec": "Continents and countries → area ranking"
+  },
+  {
+   "s": "Which one of the following deserts is correctly matched with its countries?",
+   "o": [
+    "Kalahari — Botswana, Namibia and South Africa",
+    "Namib — Namibia and Botswana",
+    "Sonoran — Mexico and Guatemala",
+    "Atacama — Peru and Chile"
+   ],
+   "a": 0,
+   "x": "The Kalahari extends across Botswana, Namibia and South Africa. The Namib is listed in Namibia, Atacama in Chile, and Sonoran in the USA and Mexico.",
+   "ty": "negative",
+   "tq": "Use the country list as the checking point in a location-matching question.",
+   "sec": "Deserts → countries and latitudinal belt"
+  },
+  {
+   "s": "The Atacama Desert is distinguished from many other deserts because it is a:",
+   "o": [
+    "Hot desert of southern Africa",
+    "Cold desert of Mongolia and China",
+    "Cold-current coastal desert of Chile",
+    "Hot continental desert of Central Asia"
+   ],
+   "a": 2,
+   "x": "The Atacama lies in Chile and is a very dry coastal desert associated with a cold current.",
+   "ty": "confusable",
+   "tq": "Separate deserts by both location and controlling climatic factor.",
+   "sec": "Deserts → countries and latitudinal belt"
+  },
+  {
+   "s": "Which desert is correctly described as a cold, continental desert extending across Mongolia and China?",
+   "o": [
+    "Gobi",
+    "Thar",
+    "Taklamakan",
+    "Sahara"
+   ],
+   "a": 0,
+   "x": "The Gobi is a cold, continental desert of Mongolia and China.",
+   "ty": "fact",
+   "tq": "Match the desert with its distinctive climate type and country pair.",
+   "sec": "Deserts → countries and latitudinal belt"
+  },
+  {
+   "s": "The Taklamakan Desert is located in:",
+   "o": [
+    "The Tarim Basin of Xinjiang, China",
+    "The Great Australian Bight of Australia",
+    "Rajasthan and adjoining Pakistan",
+    "The Atlantic coast of Namibia"
+   ],
+   "a": 0,
+   "x": "The Taklamakan is a cold, continental desert in Xinjiang, China, occupying the Tarim Basin.",
+   "ty": "fact",
+   "tq": "Use the basin and administrative-region clues to identify the desert.",
+   "sec": "Deserts → countries and latitudinal belt"
+  },
+  {
+   "s": "Consider the following statements about deserts:\n1. The Sahara is the largest hot desert.\n2. The Namib is one of the world's oldest deserts.\n3. The Great Victoria is the largest desert in Australia.\n4. The Thar extends through India and Pakistan.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The Sahara is the largest hot desert, the Namib is among the oldest, Great Victoria is Australia's largest desert, and the Thar lies in India and Pakistan.",
+   "ty": "statements",
+   "tq": "Test a cluster of desert attributes by checking size, age, country and extent separately.",
+   "sec": "Deserts → countries and latitudinal belt"
+  },
+  {
+   "s": "Most hot deserts are located approximately between which latitudes?",
+   "o": [
+    "45° and 60° north and south",
+    "30° and 45° north and south",
+    "0° and 10° north and south",
+    "15° and 30° north and south"
+   ],
+   "a": 3,
+   "x": "Hot deserts commonly occur between about 15° and 30° north and south, under subtropical high-pressure conditions.",
+   "ty": "numerical",
+   "tq": "Recall the latitudinal belt and reject the adjacent latitude ranges.",
+   "sec": "Deserts → countries and latitudinal belt"
+  },
+  {
+   "s": "Which combination of factors favours the formation of hot deserts between about 15° and 30° north and south?",
+   "o": [
+    "Polar high pressure, westerlies and warm currents",
+    "Equatorial low pressure, onshore monsoon winds and warm currents",
+    "Subtropical high pressure, offshore trade winds and cold currents",
+    "Subtropical low pressure, onshore trade winds and warm currents"
+   ],
+   "a": 2,
+   "x": "Subtropical high pressure, offshore trade winds and cold currents reduce moisture and favour hot-desert formation in this belt.",
+   "ty": "application",
+   "tq": "Link the climatic mechanism to the geographical distribution rather than memorising latitude alone.",
+   "sec": "Deserts → countries and latitudinal belt"
+  },
+  {
+   "s": "Which one of the following is correctly matched with its aeolian landform?",
+   "o": [
+    "Loess — volcanic cone",
+    "Mushroom rock — river terrace",
+    "Barchan — crescent-shaped dune",
+    "Yardang — limestone plateau"
+   ],
+   "a": 2,
+   "x": "Barchans are crescent-shaped sand dunes. Yardangs, mushroom rocks and loess are also aeolian features but do not have the descriptions given in the other options.",
+   "ty": "fact",
+   "tq": "Match the exact landform description instead of the general desert association.",
+   "sec": "Deserts → countries and latitudinal belt"
+  },
+  {
+   "s": "Which peak is the highest point of South America?",
+   "o": [
+    "Elbrus",
+    "Vinson Massif",
+    "Aconcagua",
+    "Denali"
+   ],
+   "a": 2,
+   "x": "Aconcagua in Argentina is the highest peak of South America and rises to 6,961 metres.",
+   "ty": "numerical",
+   "tq": "Associate each continental summit with its continent before considering the numerical clue.",
+   "sec": "Highest peak of each continent (Seven Summits)"
+  },
+  {
+   "s": "Aconcagua, with an elevation of 6,961 metres, is notable as the:",
+   "o": [
+    "Highest peak of North America",
+    "Highest peak of Europe",
+    "Highest peak of Antarctica",
+    "Tallest mountain outside Asia"
+   ],
+   "a": 3,
+   "x": "Aconcagua is the highest peak in South America and the tallest mountain outside Asia, at 6,961 metres.",
+   "ty": "numerical",
+   "tq": "Use the comparative phrase to distinguish a continental summit from the highest global summit.",
+   "sec": "Highest peak of each continent (Seven Summits)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nContinent — Highest peak\n\n1. North America — Denali\n2. Africa — Kilimanjaro\n3. Europe — Elbrus\n4. Antarctica — Vinson Massif",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Denali, Kilimanjaro, Elbrus and Vinson Massif are respectively the highest peaks of North America, Africa, Europe and Antarctica.",
+   "ty": "statements",
+   "tq": "Check every continent–summit pair before choosing the complete combination.",
+   "sec": "Highest peak of each continent (Seven Summits)"
+  },
+  {
+   "s": "Which statement correctly describes the two lists used for the highest peak of Australia/Oceania?",
+   "o": [
+    "Puncak Jaya is used in the Bass list and Kosciuszko in the Messner list.",
+    "Kosciuszko is used in the Bass list and Puncak Jaya in the Messner list.",
+    "Both lists use Mount Elbrus.",
+    "Both lists use Vinson Massif."
+   ],
+   "a": 1,
+   "x": "The Bass list uses Kosciuszko in Australia, whereas the Messner list uses Puncak Jaya in Indonesia for Australia/Oceania.",
+   "ty": "confusable",
+   "tq": "Discriminate between two similar alternative classifications by pairing each list with its peak.",
+   "sec": "Highest peak of each continent (Seven Summits)"
+  },
+  {
+   "s": "Who first completed the Seven Summits in 1985?",
+   "o": [
+    "Reinhold Messner",
+    "Vishwanath Karthikey Padakanti",
+    "Richard Bass",
+    "Edmund Hillary"
+   ],
+   "a": 2,
+   "x": "Richard Bass was the first person to complete the Seven Summits, doing so in 1985.",
+   "ty": "fact",
+   "tq": "Match the achievement with the person and year stated in the record.",
+   "sec": "Highest peak of each continent (Seven Summits)"
+  },
+  {
+   "s": "Vishwanath Karthikey Padakanti became notable in connection with the Seven Summits as the:",
+   "o": [
+    "First person to climb Everest",
+    "Youngest Indian to complete them",
+    "First person to climb Aconcagua",
+    "First Indian to discover Elbrus"
+   ],
+   "a": 1,
+   "x": "Vishwanath Karthikey Padakanti, aged 16 and from Hyderabad, became the youngest Indian to complete the Seven Summits.",
+   "ty": "fact",
+   "tq": "Identify the precise achievement rather than the broader mountaineering association.",
+   "sec": "Highest peak of each continent (Seven Summits)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nGrassland — Region\n\n1. Steppes — Eurasia\n2. Pampas — Argentina and Uruguay\n3. Veld — South Africa\n4. Downs — Australia",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct: Steppes are Eurasian, Pampas occur in Argentina and Uruguay, Veld is associated with South Africa, and Downs occur in Australia.",
+   "ty": "match",
+   "tq": "Start with a sure grassland–region pair and verify the remaining pairs.",
+   "sec": "Grasslands → continent"
+  },
+  {
+   "s": "Savanna is primarily associated with which region?",
+   "o": [
+    "Eastern Australia",
+    "Tropical Africa",
+    "Northern Europe",
+    "Temperate Eurasia"
+   ],
+   "a": 1,
+   "x": "Savanna is chiefly associated with tropical Africa, although Llanos and Campos are examples in South America.",
+   "ty": "fact",
+   "tq": "Identify the principal continental region of the grassland type.",
+   "sec": "Grasslands → continent"
+  },
+  {
+   "s": "Which of the following statements about rangelands is correct?",
+   "o": [
+    "They include grasslands, savannas and shrublands.",
+    "They cover less than one-tenth of Earth's land.",
+    "They occur only in the polar regions.",
+    "They consist exclusively of natural forests."
+   ],
+   "a": 0,
+   "x": "Rangelands include grasslands, savannas and shrublands and cover about half of Earth's land.",
+   "ty": "application",
+   "tq": "Reject absolute and restricted descriptions in favour of the inclusive classification.",
+   "sec": "Grasslands → continent"
+  },
+  {
+   "s": "The United Nations declared 2026 as the International Year for:",
+   "o": [
+    "Deserts and Oases",
+    "Forests and Wildlife",
+    "Rangelands and Pastoralists",
+    "Mountains and Glaciers"
+   ],
+   "a": 2,
+   "x": "The United Nations declared 2026 the International Year for Rangelands and Pastoralists.",
+   "ty": "fact",
+   "tq": "Recall the exact institutional designation and year.",
+   "sec": "Grasslands → continent"
+  },
+  {
+   "s": "The Terai is best described as the:",
+   "o": [
+    "Lowest basin of central Australia",
+    "Limestone plain along the Great Australian Bight",
+    "Marshy zone south of the Bhabar in Nepal and the Himalayan foothills of India",
+    "Eastern Mediterranean coastal region"
+   ],
+   "a": 2,
+   "x": "The Terai is a marshy zone south of the Bhabar, occurring in Nepal and along India's Himalayan foothills.",
+   "ty": "application",
+   "tq": "Distinguish regional physiographic names by their landform and location.",
+   "sec": "Regional physiographic names → country/continent"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n\nRegional name — Location\n\n1. Levant — Eastern Mediterranean\n2. Nullarbor Plain — Southern Australia\n3. Guiana Highlands — Northern South America\n4. Lake Eyre Basin — Central Australia",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct. The Levant includes the eastern Mediterranean region; Nullarbor Plain is in southern Australia; Guiana Highlands are in northern South America; and Lake Eyre Basin is in central Australia.",
+   "ty": "match",
+   "tq": "Match each regional name to its continent and then verify the subregional clue.",
+   "sec": "Regional physiographic names → country/continent"
+  },
+  {
+   "s": "The Lake Eyre Basin is notable as the location of:",
+   "o": [
+    "The largest Australian desert",
+    "The highest point of Australia",
+    "The lowest point of Australia",
+    "Australia's eastern mountain divide"
+   ],
+   "a": 2,
+   "x": "The Lake Eyre Basin is in central Australia and contains the lowest point of Australia.",
+   "ty": "fact",
+   "tq": "Use the superlative carefully to distinguish basin, mountain and desert facts.",
+   "sec": "Regional physiographic names → country/continent"
+  },
+  {
+   "s": "The Finke River, also known as Larapinta, drains towards which basin?",
+   "o": [
+    "Murray–Darling Basin",
+    "Tarim Basin",
+    "Great Artesian Basin",
+    "Lake Eyre Basin"
+   ],
+   "a": 3,
+   "x": "The Finke River or Larapinta in central Australia drains to the Lake Eyre Basin.",
+   "ty": "fact",
+   "tq": "Connect the river with its drainage basin rather than its general regional location.",
+   "sec": "Regional physiographic names → country/continent"
+  },
+  {
+   "s": "The Finke River is regarded as Earth's oldest continuously flowing river, with an estimated age of approximately:",
+   "o": [
+    "3–4 billion years",
+    "3–4 million years",
+    "300–400 million years",
+    "30–40 million years"
+   ],
+   "a": 2,
+   "x": "The Finke River is estimated to have been continuously flowing for about 300–400 million years.",
+   "ty": "numerical",
+   "tq": "Compare the magnitude of the geological time figure with the nearby distractor ranges.",
+   "sec": "Regional physiographic names → country/continent"
+  }
+ ]
+}

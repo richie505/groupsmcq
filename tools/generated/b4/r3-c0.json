@@ -1,0 +1,467 @@
+{
+ "book": 4,
+ "row": 3,
+ "chunk": 0,
+ "section": "Concept of time - local and standard time, GMT/UTC, Indian Standard Time, time zones, International Date Line",
+ "subsections": [
+  "Local time calculation from longitude difference",
+  "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 33,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Earth rotates through 360° in 24 hours. Therefore, the angular rotation corresponding to one hour is",
+   "o": [
+    "4°",
+    "15°",
+    "24°",
+    "60°"
+   ],
+   "a": 1,
+   "x": "The Earth rotates 360° in 24 hours, giving 15° of longitude for every hour of time.",
+   "ty": "numerical",
+   "tq": "Use the basic longitude–time conversion before considering the direction of movement.",
+   "sec": "Local time calculation from longitude difference"
+  },
+  {
+   "s": "The time equivalent of one minute of longitude is",
+   "o": [
+    "60 seconds",
+    "15 seconds",
+    "1 minute",
+    "4 seconds"
+   ],
+   "a": 3,
+   "x": "Since one degree of longitude equals four minutes of time, one minute of arc equals four seconds of time.",
+   "ty": "numerical",
+   "tq": "Convert the degree relationship into minutes and seconds without changing the unit.",
+   "sec": "Local time calculation from longitude difference"
+  },
+  {
+   "s": "With reference to local time, which one of the following statements is correct?",
+   "o": [
+    "Time is ahead towards the west and behind towards the east.",
+    "Time is identical at all places on the same latitude.",
+    "Time is ahead towards the east and behind towards the west.",
+    "Time is ahead towards both east and west."
+   ],
+   "a": 2,
+   "x": "The Earth rotates from west to east, so places to the east experience local time earlier or ahead of places to the west.",
+   "ty": "fact",
+   "tq": "Apply the east-ahead and west-behind rule directly.",
+   "sec": "Local time calculation from longitude difference"
+  },
+  {
+   "s": "Two places are situated at 40°E and 70°E longitudes respectively. The difference in their local times is",
+   "o": [
+    "2 hours",
+    "1 hour",
+    "2 hours 30 minutes",
+    "4 hours 40 minutes"
+   ],
+   "a": 0,
+   "x": "The longitude difference is 30°. At four minutes per degree, the time difference is 120 minutes, or two hours.",
+   "ty": "numerical",
+   "tq": "For longitudes on the same side of Greenwich, subtract first and then multiply by four minutes.",
+   "sec": "Local time calculation from longitude difference"
+  },
+  {
+   "s": "A place is situated 30° west of Greenwich. Its local time, in relation to Greenwich Mean Time, will be",
+   "o": [
+    "1 hour ahead",
+    "2 hours behind",
+    "2 hours ahead",
+    "30 minutes behind"
+   ],
+   "a": 1,
+   "x": "Thirty degrees correspond to two hours, and a place west of Greenwich is behind Greenwich Mean Time.",
+   "ty": "application",
+   "tq": "Combine the longitude-to-time conversion with the east–west direction rule.",
+   "sec": "Local time calculation from longitude difference"
+  },
+  {
+   "s": "The longitudes of two places are 25°E and 35°W. Their local-time difference is",
+   "o": [
+    "40 minutes",
+    "4 hours",
+    "10 hours",
+    "2 hours 40 minutes"
+   ],
+   "a": 1,
+   "x": "The longitudes lie on opposite sides of Greenwich, so they are added: 25° + 35° = 60°. Sixty degrees correspond to four hours.",
+   "ty": "numerical",
+   "tq": "Add opposite-side longitudes before converting degrees into time.",
+   "sec": "Local time calculation from longitude difference"
+  },
+  {
+   "s": "Consider the following statements regarding calculation of local time:\n1. Longitudes on the same side of Greenwich are subtracted to find their difference.\n2. Longitudes on opposite sides of Greenwich are added to find their difference.\n3. After finding the time difference, time is added for an eastward place and subtracted for a westward place.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly describe the procedure for calculating local time from longitude.",
+   "ty": "statements",
+   "tq": "Check the complete calculation sequence rather than relying on a single conversion rule.",
+   "sec": "Local time calculation from longitude difference"
+  },
+  {
+   "s": "India extends approximately from 68°7'E to 97°25'E. The approximate difference in local time between its western and eastern extremities is",
+   "o": [
+    "About 1 hour",
+    "About 30 minutes",
+    "About 2 hours",
+    "About 4 hours"
+   ],
+   "a": 2,
+   "x": "The longitudinal span is approximately 29°, which corresponds to about 116 minutes, or nearly two hours.",
+   "ty": "numerical",
+   "tq": "Estimate the time difference from the longitudinal span instead of using exact minute calculations.",
+   "sec": "Local time calculation from longitude difference"
+  },
+  {
+   "s": "If a flight departs from a western location at 10:00 a.m. local time, travels for three hours, and reaches a location 15° east of the point of departure, its local arrival time will be",
+   "o": [
+    "2:00 p.m.",
+    "1:00 p.m.",
+    "3:00 p.m.",
+    "12:00 noon"
+   ],
+   "a": 0,
+   "x": "The journey takes three hours and the eastward movement adds one hour because 15° equals one hour. The arrival time is therefore 2:00 p.m.",
+   "ty": "application",
+   "tq": "Add journey time and the eastward longitude correction separately.",
+   "sec": "Local time calculation from longitude difference"
+  },
+  {
+   "s": "Which one of the following is the correct reference location associated with the Indian Standard Time meridian?",
+   "o": [
+    "Mirzapur",
+    "Kakinada",
+    "New Delhi",
+    "Jakkur"
+   ],
+   "a": 0,
+   "x": "Mirzapur in Uttar Pradesh is the reference town associated with the Indian Standard Time meridian.",
+   "ty": "fact",
+   "tq": "Distinguish the reference town from institutions and other places lying along the meridian.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "The Indian Standard Time meridian passes through which one of the following sequences of States from west to east?",
+   "o": [
+    "Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh",
+    "Uttar Pradesh, Rajasthan, Chhattisgarh, Odisha and West Bengal",
+    "Madhya Pradesh, Uttar Pradesh, Jharkhand, Odisha and Andhra Pradesh",
+    "Uttar Pradesh, Madhya Pradesh, Odisha, West Bengal and Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "The meridian crosses Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh. West Bengal is not included in this sequence.",
+   "ty": "match",
+   "tq": "Use the complete geographical sequence and reject the option containing the neighbouring but excluded State.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "The Indian Standard Time meridian intersects the Tropic of Cancer in",
+   "o": [
+    "Chhattisgarh",
+    "Andhra Pradesh",
+    "Odisha",
+    "Madhya Pradesh"
+   ],
+   "a": 0,
+   "x": "The intersection of the 82°30'E meridian and the Tropic of Cancer occurs in Chhattisgarh.",
+   "ty": "fact",
+   "tq": "Separate the State of intersection from the full list of States crossed by the meridian.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "At 0000 UTC, the corresponding Indian Standard Time is",
+   "o": [
+    "5:00 a.m.",
+    "5:30 a.m.",
+    "4:30 a.m.",
+    "6:00 a.m."
+   ],
+   "a": 1,
+   "x": "Indian Standard Time is 5 hours 30 minutes ahead of GMT/UTC, so 0000 UTC corresponds to 5:30 a.m. IST.",
+   "ty": "numerical",
+   "tq": "Add the standard offset to UTC without confusing UTC with local time at another longitude.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Weather balloons launched at 1200 UTC in India would be scheduled at",
+   "o": [
+    "5:30 p.m. IST",
+    "5:00 p.m. IST",
+    "6:30 p.m. IST",
+    "4:30 p.m. IST"
+   ],
+   "a": 0,
+   "x": "Adding 5 hours 30 minutes to 1200 UTC gives 5:30 p.m. Indian Standard Time.",
+   "ty": "application",
+   "tq": "Apply the IST offset to a practical time-conversion situation.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Indian Standard Time meridian is 82°30'E.\n2. The angular value of this meridian corresponds to 330 minutes from Greenwich at four minutes per degree.\n3. Indian Standard Time is 5 hours 30 minutes ahead of Greenwich Mean Time.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The 82.5° longitude multiplied by four minutes gives 330 minutes, or 5 hours 30 minutes.",
+   "ty": "statements",
+   "tq": "Check whether the numerical conversion is consistent with the stated standard meridian and time offset.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Chhattisgarh — intersection of the IST meridian and Tropic of Cancer",
+    "West Bengal — State crossed by the IST meridian",
+    "Kakinada district — passage of the IST meridian in Andhra Pradesh",
+    "Mirzapur — reference town of Indian Standard Time"
+   ],
+   "a": 1,
+   "x": "West Bengal is not crossed by the Indian Standard Time meridian. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the single geographical exclusion among closely related locations.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "The separate Bombay and Calcutta times were historically associated with which development?",
+   "o": [
+    "They continued after Independence as two constitutional time zones.",
+    "They existed before the adoption of a single Indian Standard Time after Independence.",
+    "They were introduced after the establishment of the National Physical Laboratory.",
+    "They were based on the International Date Line."
+   ],
+   "a": 1,
+   "x": "Bombay and Calcutta had separate times from 1884, while a single Indian Standard Time was adopted after Independence in 1947.",
+   "ty": "chronology",
+   "tq": "Use the historical sequence: regional times first, followed by a single national time after Independence.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. Adoption of a single Indian Standard Time after Independence\nB. Introduction of separate Bombay and Calcutta times\nC. Notification of the Legal Metrology (Indian Standard Time) Rules, 2026\nD. Inauguration of the White Rabbit-based IST Distribution Demonstration Network",
+   "o": [
+    "B, A, D, C",
+    "A, B, D, C",
+    "B, A, C, D",
+    "A, B, C, D"
+   ],
+   "a": 0,
+   "x": "Separate Bombay and Calcutta times date from 1884, a single IST was adopted after 1947, the White Rabbit network was inaugurated in July 2026, and the Rules were notified on 27 August 2026.",
+   "ty": "chronology",
+   "tq": "Anchor the sequence with the two historical milestones and then distinguish July from August 2026.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Which Ministry notified the Legal Metrology (Indian Standard Time) Rules, 2026?",
+   "o": [
+    "Ministry of Electronics and Information Technology",
+    "Ministry of Home Affairs",
+    "Ministry of Science and Technology",
+    "Ministry of Consumer Affairs"
+   ],
+   "a": 3,
+   "x": "The Consumer Affairs Ministry notified the Legal Metrology (Indian Standard Time) Rules, 2026, on 27 August 2026.",
+   "ty": "fact",
+   "tq": "Use the responsible ministry as the key discriminator in a current-affairs question.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Under the Legal Metrology (Indian Standard Time) Rules, 2026, IST is intended to be the single mandatory reference for",
+   "o": [
+    "Legal, administrative, commercial and official purposes",
+    "Only financial transactions conducted by the Union Government",
+    "Only railway and aviation schedules",
+    "Only scientific observations and satellite navigation"
+   ],
+   "a": 0,
+   "x": "The Rules make IST the single mandatory reference for legal, administrative, commercial and official purposes.",
+   "ty": "fact",
+   "tq": "Reject narrow options when the statutory scope covers several listed domains.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "The Legal Metrology (Indian Standard Time) Rules, 2026, come into force",
+   "o": [
+    "180 days after publication in the Gazette",
+    "90 days after notification",
+    "30 days after notification",
+    "Immediately on the date of notification"
+   ],
+   "a": 0,
+   "x": "The Rules come into force 180 days after their publication in the Gazette.",
+   "ty": "numerical",
+   "tq": "Distinguish the notification date from the separate commencement period.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "The White Rabbit-based IST Distribution Demonstration Network was inaugurated at",
+   "o": [
+    "Regional Reference Standards Laboratory, Jakkur, Bengaluru",
+    "National Physical Laboratory, Hyderabad",
+    "Regional Reference Standards Laboratory, Mirzapur",
+    "Indian Space Research Organisation headquarters, New Delhi"
+   ],
+   "a": 0,
+   "x": "The network was inaugurated at the Regional Reference Standards Laboratory at Jakkur in Bengaluru.",
+   "ty": "fact",
+   "tq": "Match the facility with its precise location rather than with the national standards institution.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Which one of the following best describes the White Rabbit-based IST Distribution Demonstration Network?",
+   "o": [
+    "A fibre-based system providing sub-nanosecond synchronisation and reducing dependence on GPS",
+    "A local clock network restricted to the north-eastern States",
+    "A satellite system that replaces all terrestrial time references",
+    "A system for determining the International Date Line through astronomical observations"
+   ],
+   "a": 0,
+   "x": "The network provides sub-nanosecond synchronisation over fibre and is designed to reduce dependence on GPS.",
+   "ty": "application",
+   "tq": "Identify the technology from its function and performance characteristic rather than its location alone.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "The protocol used in the White Rabbit-based IST Distribution Demonstration Network was developed by",
+   "o": [
+    "NavIC",
+    "ISRO",
+    "NPL",
+    "CERN"
+   ],
+   "a": 3,
+   "x": "The White Rabbit protocol used in the network was developed by CERN.",
+   "ty": "fact",
+   "tq": "Distinguish the protocol developer from the Indian institutions implementing or disseminating IST.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Consider the following statements regarding the One Nation, One Time initiative:\n1. IST is disseminated through collaboration between NPL and ISRO.\n2. NPL is the custodian of national standards.\n3. NPL was established in 1947.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The initiative involves NPL and ISRO, and NPL, established in 1947, is the custodian of national standards.",
+   "ty": "statements",
+   "tq": "Verify each institutional role and date independently before selecting the combined code.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Indian Standard Time is maintained by",
+   "o": [
+    "Indian Meteorological Department, Kolkata",
+    "Ministry of Consumer Affairs, Mirzapur",
+    "Indian Space Research Organisation, Bengaluru alone",
+    "CSIR-National Physical Laboratory, New Delhi"
+   ],
+   "a": 3,
+   "x": "IST is maintained by the CSIR-National Physical Laboratory in New Delhi.",
+   "ty": "fact",
+   "tq": "Ask which institution performs the operational responsibility, not which institution issued a rule or developed a protocol.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "The NavIC satellite constellation referred to in connection with time dissemination consists of",
+   "o": [
+    "7 satellites: 4 GEO and 3 GSO",
+    "5 satellites: 2 GEO and 3 GSO",
+    "7 satellites: 3 GEO and 4 GSO",
+    "9 satellites: 3 GEO and 6 GSO"
+   ],
+   "a": 2,
+   "x": "The stated NavIC configuration consists of seven satellites, including three geostationary and four geosynchronous satellites.",
+   "ty": "numerical",
+   "tq": "Separate the total count from the GEO–GSO composition before choosing the option.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Which type of atomic clock is used by NavIC for timing its signals?",
+   "o": [
+    "Hydrogen masers",
+    "Rubidium atomic clocks",
+    "Cesium atomic clocks",
+    "Quartz crystal clocks"
+   ],
+   "a": 1,
+   "x": "NavIC times its signals using rubidium atomic clocks.",
+   "ty": "fact",
+   "tq": "Discriminate between closely related precision-time technologies by identifying the exact clock type.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Which one of the following statements regarding NavIC is correct?",
+   "o": [
+    "The clock on IRNSS-1F failed.",
+    "NavIC has no role in timing its signals.",
+    "All NavIC satellites use only quartz clocks.",
+    "IRNSS-1F is the reference town for IST."
+   ],
+   "a": 0,
+   "x": "The clock on IRNSS-1F failed. NavIC otherwise uses rubidium atomic clocks for timing its signals.",
+   "ty": "negative",
+   "tq": "Identify the specific exception while rejecting options that confuse a satellite, a clock, and a geographical reference.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "The principal geographical basis for the demand for a separate time zone in north-eastern India is that the region",
+   "o": [
+    "has no standard meridian of its own",
+    "is crossed by the International Date Line",
+    "lies west of the Prime Meridian",
+    "experiences sunrise much earlier than the western parts of India"
+   ],
+   "a": 3,
+   "x": "The north-east experiences sunrise considerably earlier than western India, creating the basis for the separate-time-zone debate.",
+   "ty": "application",
+   "tq": "Link the proposed administrative change to the geographical cause rather than to an unrelated meridian.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Which of the following proposals has been associated with the debate on time zones in India?\n1. Advancing IST by 30 minutes.\n2. Creating a north-eastern time zone approximately one hour ahead.\n3. Retaining 82°30'E, associated with the Kakinada reference, as the national reference.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The debate has included advancing IST by 30 minutes, creating a north-eastern zone about one hour ahead, and retaining 82°30'E as the reference for the national time system.",
+   "ty": "statements",
+   "tq": "Treat each proposal separately and select the combined option only after checking all three.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Bagan time — informal time followed in Assam tea gardens",
+    "Bagan time — official time zone created under the 2026 Rules",
+    "Bagan time — time used at Greenwich Observatory",
+    "Bagan time — time maintained by NavIC satellites"
+   ],
+   "a": 0,
+   "x": "Bagan time is an informal time followed in Assam tea gardens; it is not an official Indian time zone.",
+   "ty": "match",
+   "tq": "Distinguish an informal regional practice from an officially notified time standard.",
+   "sec": "Indian Standard Time - meridian, reference town, states crossed, IST-GMT offset, two-time-zone debate"
+  }
+ ]
+}

@@ -1,0 +1,499 @@
+{
+ "book": 4,
+ "row": 50,
+ "chunk": 0,
+ "section": "Andhra Pradesh - natural vegetation and forests; forest cover and types",
+ "subsections": [
+  "ISFR data for AP - cover share, recorded forest area, rank, change",
+  "District-wise forest cover - highest/lowest",
+  "Forest fires - area affected and rank",
+  "Forest types of AP → hill range/region",
+  "Forest programmes and diversion",
+  "Forest density classes - VDF, MDF, OF, scrub"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 37,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "According to the ISFR 2023-based assessment, the forest area of Andhra Pradesh including scrub is approximately what percentage of its geographical area?",
+   "o": [
+    "21.74%",
+    "22.96%",
+    "23.59%",
+    "25.17%"
+   ],
+   "a": 2,
+   "x": "The forest area including scrub in Andhra Pradesh is 38,436.58 sq km, constituting 23.59% of the geographical area.",
+   "ty": "numerical",
+   "tq": "Distinguish forest area including scrub from forest cover proper and forest-plus-tree cover.",
+   "sec": "ISFR data for AP - cover share, recorded forest area, rank, change  [APPSC]"
+  },
+  {
+   "s": "The forest cover proper of Andhra Pradesh, comprising Very Dense Forest, Moderately Dense Forest and Open Forest, is estimated at:",
+   "o": [
+    "30,084.96 sq km",
+    "37,421.11 sq km",
+    "37,258 sq km",
+    "38,436.58 sq km"
+   ],
+   "a": 0,
+   "x": "Forest cover proper, excluding scrub, is 30,084.96 sq km. It includes VDF, MDF and OF.",
+   "ty": "fact",
+   "tq": "Split similar-looking totals by checking whether scrub is included.",
+   "sec": "ISFR data for AP - cover share, recorded forest area, rank, change  [APPSC]"
+  },
+  {
+   "s": "Forest and tree cover together account for what percentage of the geographical area of Andhra Pradesh?",
+   "o": [
+    "21.74%",
+    "22.96%",
+    "23.59%",
+    "25.17%"
+   ],
+   "a": 0,
+   "x": "Forest plus tree cover accounts for 21.74% of Andhra Pradesh's geographical area according to the cited APPSC assessment.",
+   "ty": "numerical",
+   "tq": "Use the exact combined-cover figure rather than the forest-only percentage.",
+   "sec": "ISFR data for AP - cover share, recorded forest area, rank, change  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Recorded Forest Area of Andhra Pradesh:\n1. It was 37,258 sq km according to ISFR 2021.\n2. Andhra Pradesh was ranked eighth in India for Recorded Forest Area.\n3. Andhra Pradesh was ranked fifth in Recorded Forest Area.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "The Recorded Forest Area was 37,258 sq km and Andhra Pradesh ranked eighth. The claim of fifth rank was incorrect.",
+   "ty": "statements",
+   "tq": "Reject the swapped-rank trap while retaining the correct figure and rank.",
+   "sec": "ISFR data for AP - cover share, recorded forest area, rank, change  [APPSC]"
+  },
+  {
+   "s": "The ISFR 2023 figure for forest area including scrub was higher than the corresponding ISFR 2021 figure by approximately:",
+   "o": [
+    "376 sq km",
+    "476 sq km",
+    "276 sq km",
+    "176 sq km"
+   ],
+   "a": 0,
+   "x": "The increase was from 38,060.39 sq km to 38,436.58 sq km, a difference of about 376 sq km.",
+   "ty": "numerical",
+   "tq": "Subtract the earlier reported area from the later reported area.",
+   "sec": "ISFR data for AP - cover share, recorded forest area, rank, change  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes forest cover for the purpose of the cited ISFR classification?",
+   "o": [
+    "Land having canopy density of at least 10%",
+    "Land having canopy density of at least 5%",
+    "Only reserved forest land with continuous tree cover",
+    "Only notified forest land having canopy density above 33%"
+   ],
+   "a": 0,
+   "x": "Forest cover is defined here on the basis of canopy density of at least 10%, irrespective of legal ownership or notification status.",
+   "ty": "fact",
+   "tq": "Discriminate a technical definition from legal forest categories.",
+   "sec": "ISFR data for AP - cover share, recorded forest area, rank, change  [APPSC]"
+  },
+  {
+   "s": "Which district of Andhra Pradesh had the largest forest area among the pre-2022 districts?",
+   "o": [
+    "Anantapur",
+    "Krishna",
+    "Visakhapatnam",
+    "YSR Kadapa"
+   ],
+   "a": 3,
+   "x": "YSR Kadapa had the largest forest area among the pre-2022 districts.",
+   "ty": "fact",
+   "tq": "Separate largest forest area from highest percentage of forest cover.",
+   "sec": "District-wise forest cover - highest/lowest  [APPSC]"
+  },
+  {
+   "s": "Which pre-2022 district of Andhra Pradesh had the highest forest cover, while Krishna had the lowest?",
+   "o": [
+    "Anantapur",
+    "Kurnool",
+    "Visakhapatnam",
+    "YSR Kadapa"
+   ],
+   "a": 2,
+   "x": "Visakhapatnam had the highest forest cover and Krishna had the lowest among the pre-2022 districts.",
+   "ty": "fact",
+   "tq": "Use the district-wise percentage-cover comparison rather than total forest area.",
+   "sec": "District-wise forest cover - highest/lowest  [APPSC]"
+  },
+  {
+   "s": "The largest forest block in Andhra Pradesh is:",
+   "o": [
+    "Nallamala",
+    "Seshachalam",
+    "Simhachalam",
+    "Papikondalu"
+   ],
+   "a": 0,
+   "x": "Nallamala is the largest forest block in Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Identify the largest unit separately from the named hill ranges.",
+   "sec": "District-wise forest cover - highest/lowest  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the codes given below:\n\nList-I (Forest hills)\n a. Northern hills\n b. Western hills\n c. Southern hills\n\nList-II (Range)\n i. Nallamala\n ii. Balaghat\n iii. Simhachalam\n iv. Palakonda\n\nCodes:\n a  b  c\n i. iii ii iv\n ii. iii iv i\n iii. ii iii i\n iv. iv ii iii",
+   "o": [
+    "a–iii, b–ii, c–i",
+    "a–ii, b–iv, c–iii",
+    "a–iv, b–i, c–ii",
+    "a–iii, b–iv, c–i"
+   ],
+   "a": 0,
+   "x": "Simhachalam is in the north, Balaghat in the west, and Palakonda and Nallamala are in the south. The matching asked here is therefore a–iii, b–ii and c–i, with the southern category represented by Nallamala.",
+   "ty": "match",
+   "tq": "Start from the sure location pair and eliminate codes with a misplaced hill range.",
+   "sec": "District-wise forest cover - highest/lowest  [APPSC]"
+  },
+  {
+   "s": "During the 2023–24 fire season, Andhra Pradesh ranked how high among Indian States in forest area affected by fire?",
+   "o": [
+    "Third",
+    "Eighth",
+    "First",
+    "Second"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh recorded the highest forest area affected by fire in India during the 2023–24 fire season.",
+   "ty": "fact",
+   "tq": "Distinguish national rank from the separate rank associated with Recorded Forest Area.",
+   "sec": "Forest fires - area affected and rank  [APPSC]"
+  },
+  {
+   "s": "Which of the following areas were identified as fire-prone zones in Andhra Pradesh in 2026?\n1. Horsley Hills\n2. Mallappa Konda near Kuppam\n3. Mallaiahkonda\n4. Somala belt\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four locations—Horsley Hills, Mallappa Konda near Kuppam, Mallaiahkonda and the Somala belt—were identified as fire-prone zones.",
+   "ty": "statements",
+   "tq": "When all listed locations belong to the same identified zone, select the complete combination.",
+   "sec": "Forest fires - area affected and rank  [APPSC]"
+  },
+  {
+   "s": "The fire-prone conditions reported in Chittoor and Annamayya districts during April–May 2026 were associated with temperatures above:",
+   "o": [
+    "35°C",
+    "40°C",
+    "45°C",
+    "50°C"
+   ],
+   "a": 2,
+   "x": "Temperatures in the affected areas rose above 45°C during April–May.",
+   "ty": "numerical",
+   "tq": "Use the stated threshold rather than a rounded seasonal estimate.",
+   "sec": "Forest fires - area affected and rank  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Tropical thorn and scrub — Rayalaseema",
+    "Tropical dry deciduous forests — Eastern Ghats and Nallamala",
+    "Southern moist deciduous forests — Araku, Paderu and Papikondalu",
+    "Littoral and mangrove forests — Anantapur, Kadapa and Kurnool"
+   ],
+   "a": 3,
+   "x": "Littoral and mangrove forests occur in the Godavari–Krishna deltas and Pulicat, not in the inland Rayalaseema districts of Anantapur, Kadapa and Kurnool.",
+   "ty": "negative",
+   "tq": "Find the wrong region–forest type association by checking coastal versus inland geography.",
+   "sec": "Forest types of AP → hill range/region  [APPSC]"
+  },
+  {
+   "s": "Which of the following is the largest forest type by area in Andhra Pradesh?",
+   "o": [
+    "Tropical thorn and scrub forest",
+    "Littoral and mangrove forest",
+    "Tropical dry deciduous forest",
+    "Southern moist deciduous forest"
+   ],
+   "a": 2,
+   "x": "Tropical dry deciduous forest occupies the largest area among the listed forest types in Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Identify the dominant type before comparing its associated regions and species.",
+   "sec": "Forest types of AP → hill range/region  [APPSC]"
+  },
+  {
+   "s": "The main species associated with the tropical dry deciduous forests of Andhra Pradesh include:",
+   "o": [
+    "Rhizophora, Avicennia and Excoecaria",
+    "Bamboo, sandalwood and medicinal plants",
+    "Acacia, Ziziphus and Prosopis only",
+    "Teak, Terminalia, red sanders and Anogeissus"
+   ],
+   "a": 3,
+   "x": "Tropical dry deciduous forests contain teak, Terminalia, red sanders and Anogeissus as the principal listed species.",
+   "ty": "fact",
+   "tq": "Match the species group to the correct forest formation rather than its region alone.",
+   "sec": "Forest types of AP → hill range/region  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding forest types and regions in Andhra Pradesh:\n1. Southern moist deciduous forests occur in the northern Eastern Ghats, including Araku and Paderu.\n2. Papikondalu has tropical moist deciduous forests.\n3. Tropical thorn and scrub forests are characteristic of Rayalaseema.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Araku and Paderu lie in the northern Eastern Ghats, Papikondalu has moist deciduous forests, and thorn and scrub vegetation is associated with Rayalaseema.",
+   "ty": "statements",
+   "tq": "Check each region–vegetation link independently before selecting the coded combination.",
+   "sec": "Forest types of AP → hill range/region  [APPSC]"
+  },
+  {
+   "s": "Which one of the following species is specifically associated with the littoral and mangrove forests of the Godavari–Krishna deltas and Pulicat?",
+   "o": [
+    "Anogeissus",
+    "Terminalia",
+    "Prosopis",
+    "Rhizophora"
+   ],
+   "a": 3,
+   "x": "Rhizophora, along with Avicennia and Excoecaria, is associated with the littoral and mangrove forests of these coastal areas.",
+   "ty": "fact",
+   "tq": "Use the coastal setting to identify the mangrove species group.",
+   "sec": "Forest types of AP → hill range/region  [APPSC]"
+  },
+  {
+   "s": "Which forest type occupies approximately 15,128 sq km in Andhra Pradesh according to the cited area assessment?",
+   "o": [
+    "Mangroves and Littoral",
+    "Dry Deciduous Scrub",
+    "Very Dense Forest",
+    "Southern Dry Mixed Deciduous"
+   ],
+   "a": 3,
+   "x": "Southern Dry Mixed Deciduous forest covers approximately 15,128 sq km.",
+   "ty": "numerical",
+   "tq": "Associate each precise area with the corresponding named classification.",
+   "sec": "Forest types of AP → hill range/region  [APPSC]"
+  },
+  {
+   "s": "The dry deciduous forests of Kadapa and Kurnool generally receive annual rainfall in the range of:",
+   "o": [
+    "50–75 cm",
+    "75–100 cm",
+    "25–50 cm",
+    "150–200 cm"
+   ],
+   "a": 1,
+   "x": "The dry deciduous forests of Kadapa and Kurnool receive approximately 75–100 cm of rainfall.",
+   "ty": "numerical",
+   "tq": "Use the rainfall range to distinguish dry deciduous from thorn and moist deciduous formations.",
+   "sec": "Forest types of AP → hill range/region  [APPSC]"
+  },
+  {
+   "s": "The Godavari–Krishna estuaries are described as India's:",
+   "o": [
+    "Third-largest mangrove ecosystem",
+    "Second-largest mangrove ecosystem",
+    "Largest mangrove ecosystem",
+    "Smallest mangrove ecosystem"
+   ],
+   "a": 1,
+   "x": "The Godavari–Krishna estuaries are described as India's second-largest mangrove ecosystem.",
+   "ty": "fact",
+   "tq": "Notice the distinction between an overall national rank and an east-coast-only rank.",
+   "sec": "Forest types of AP → hill range/region  [APPSC]"
+  },
+  {
+   "s": "By mangrove-cover area under the cited ISFR comparison, Andhra Pradesh ranks behind:",
+   "o": [
+    "West Bengal, Gujarat and Andaman and Nicobar Islands",
+    "West Bengal, Odisha and Goa",
+    "Gujarat, Odisha and Maharashtra",
+    "Odisha, Kerala and Tamil Nadu"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh ranks behind West Bengal, Gujarat and the Andaman and Nicobar Islands by mangrove-cover area. It is second only on the east coast.",
+   "ty": "fact",
+   "tq": "Separate the all-India ranking from the east-coast ranking.",
+   "sec": "Forest types of AP → hill range/region  [APPSC]"
+  },
+  {
+   "s": "The area of forest land diverted under the Van (Sanrakshan Evam Samvardhan) Adhiniyam, 1980, up to 31 December 2024 was:",
+   "o": [
+    "27,641.252 ha",
+    "26,924.34 ha",
+    "37,258 ha",
+    "38,436.58 ha"
+   ],
+   "a": 0,
+   "x": "The cumulative diverted forest land was 27,641.252 ha up to 31 December 2024; 26,924.34 ha was the figure up to 2017–18.",
+   "ty": "numerical",
+   "tq": "Distinguish the later cumulative figure from the earlier cut-off figure.",
+   "sec": "Forest programmes and diversion  [APPSC]"
+  },
+  {
+   "s": "The principal purpose of CAMPA funds mentioned in relation to forests is to finance:",
+   "o": [
+    "Commercial mining in reserve forests",
+    "Urban road construction outside forest areas",
+    "Compensatory afforestation through an Annual Plan of Operation",
+    "Only wildlife census operations"
+   ],
+   "a": 2,
+   "x": "CAMPA funds compensatory afforestation through an Annual Plan of Operation.",
+   "ty": "application",
+   "tq": "Ask which institutional mechanism performs the stated compensatory function.",
+   "sec": "Forest programmes and diversion  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding Vanam-Manam is correct?",
+   "o": [
+    "It increases green cover outside reserved forests and involved 5.29 crore seedlings in 2024–25 up to December.",
+    "It diverts forest land for commercial plantations.",
+    "It classifies forests into VDF, MDF and OF.",
+    "It is restricted to mangrove restoration in Pulicat."
+   ],
+   "a": 0,
+   "x": "Vanam-Manam increases green cover outside reserved forests; 5.29 crore seedlings had been covered in 2024–25 up to December.",
+   "ty": "fact",
+   "tq": "Match the programme with its objective and its associated numerical figure.",
+   "sec": "Forest programmes and diversion  [APPSC]"
+  },
+  {
+   "s": "The Mixed Plantation Scheme in Andhra Pradesh covers approximately how much of avenue plantations?",
+   "o": [
+    "57 km",
+    "77 km",
+    "87 km",
+    "97 km"
+   ],
+   "a": 2,
+   "x": "The Mixed Plantation Scheme covers 87 km of avenue plantations.",
+   "ty": "numerical",
+   "tq": "Read the precise programme coverage figure without substituting a nearby value.",
+   "sec": "Forest programmes and diversion  [APPSC]"
+  },
+  {
+   "s": "The Trees Outside Forests in India (TOFI) programme was launched in 2023 as a collaboration involving MoEFCC and:",
+   "o": [
+    "World Bank",
+    "USAID",
+    "FAO",
+    "UNESCO"
+   ],
+   "a": 1,
+   "x": "TOFI was launched in 2023 as a MoEFCC–USAID programme in seven States, including Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Use the implementing-partner trap to distinguish TOFI from other international programmes.",
+   "sec": "Forest programmes and diversion  [APPSC]"
+  },
+  {
+   "s": "Which of the following is a stated change associated with the Van Adhiniyam in 2026?",
+   "o": [
+    "Open forests were removed from all forest-related criteria.",
+    "The national forest-cover goal was reduced to 21.74%.",
+    "Commercial plantations were prohibited on all degraded forest land.",
+    "Commercial plantations were allowed on degraded forest land toward the national goal of 33% forest cover."
+   ],
+   "a": 3,
+   "x": "The 2026 change allows commercial plantations on degraded forest land and is linked to the national goal of 33% forest cover.",
+   "ty": "application",
+   "tq": "Identify the policy change by focusing on the action permitted and its stated national objective.",
+   "sec": "Forest programmes and diversion  [APPSC]"
+  },
+  {
+   "s": "For the first time, the 16th Finance Commission included open forests in the devolution forest criterion through:",
+   "o": [
+    "Uniform area weights only",
+    "A mangrove-only criterion",
+    "Density-based weights",
+    "Population-based weights only"
+   ],
+   "a": 2,
+   "x": "The 16th Finance Commission included open forests in the devolution forest criterion using density-based weights.",
+   "ty": "fact",
+   "tq": "Link the new category with the distinctive method used for weighting it.",
+   "sec": "Forest programmes and diversion  [APPSC]"
+  },
+  {
+   "s": "Which class of forest occupied the largest area in Andhra Pradesh under the ISFR 2023 classification?",
+   "o": [
+    "Moderately Dense Forest",
+    "Scrub",
+    "Very Dense Forest",
+    "Open Forest"
+   ],
+   "a": 3,
+   "x": "Open Forest was the largest class, covering 14,363.50 sq km.",
+   "ty": "comparison",
+   "tq": "Compare the four density classes using their areas rather than their legal status.",
+   "sec": "Forest density classes - VDF, MDF, OF, scrub  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the codes given below:\n\nList-I (Class)\n a. Very Dense Forest\n b. Moderately Dense Forest\n c. Open Forest\n d. Scrub\n\nList-II (Area in sq km)\n i. 8,351.62\n ii. 13,725.75\n iii. 1,995.71\n iv. 14,363.50\n\nCodes:\n a  b  c  d\n i. iii ii iv i\n ii. ii iii iv i\n iii. iii iv ii i\n iv. iv ii iii i",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–ii, c–iii, d–i"
+   ],
+   "a": 0,
+   "x": "VDF covers 1,995.71 sq km, MDF 13,725.75 sq km, OF 14,363.50 sq km and scrub 8,351.62 sq km.",
+   "ty": "match",
+   "tq": "Start with the smallest and largest areas, then place the two intermediate classes.",
+   "sec": "Forest density classes - VDF, MDF, OF, scrub  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding forest-density classes in Andhra Pradesh:\n1. Very Dense Forest accounts for approximately 1.2% of the State's geographical area.\n2. Moderately Dense Forest accounts for approximately 8.4%.\n3. Open Forest accounts for approximately 8.8%.\n4. Scrub accounts for approximately 5.1%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four percentage shares are correct: approximately 1.2% VDF, 8.4% MDF, 8.8% OF and 5.1% scrub.",
+   "ty": "statements",
+   "tq": "Verify every percentage against its corresponding density class before choosing the complete code.",
+   "sec": "Forest density classes - VDF, MDF, OF, scrub  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the approximate legal classification of notified forest area in Andhra Pradesh?",
+   "o": [
+    "Reserved 85.8%, Protected 13.6%, Unclassed 0.6%",
+    "Reserved 50%, Protected 33%, Unclassed 17%",
+    "Reserved 85.8%, Protected 0.6%, Unclassed 13.6%",
+    "Reserved 13.6%, Protected 85.8%, Unclassed 0.6%"
+   ],
+   "a": 0,
+   "x": "The notified forest area is approximately 85.8% Reserved Forest, 13.6% Protected Forest and 0.6% Unclassed Forest.",
+   "ty": "comparison",
+   "tq": "Watch for swapped percentages among closely related legal categories.",
+   "sec": "Forest density classes - VDF, MDF, OF, scrub  [APPSC]"
+  },
+  {
+   "s": "The protected-area network comprising National Parks and Wildlife Sanctuaries covers approximately what area and share of Andhra Pradesh?",
+   "o": [
+    "30,084.96 sq km and 21.74%",
+    "8,139.88 sq km and 4.99%",
+    "14,363.50 sq km and 8.80%",
+    "8,351.62 sq km and 5.10%"
+   ],
+   "a": 1,
+   "x": "The protected-area network covers 8,139.88 sq km, equivalent to 4.99% of the State's area.",
+   "ty": "numerical",
+   "tq": "Pair the exact area with its percentage instead of confusing it with forest-density areas.",
+   "sec": "Forest density classes - VDF, MDF, OF, scrub  [APPSC]"
+  }
+ ]
+}

@@ -1,0 +1,357 @@
+{
+ "book": 4,
+ "row": 6,
+ "chunk": 0,
+ "section": "Rocks and minerals - igneous, sedimentary, metamorphic; the rock cycle",
+ "subsections": [
+  "Crustal elements by abundance - most/least abundant, second-most abundant metal",
+  "Rock types → examples and odd-one-out; petrology",
+  "Igneous - intrusive vs extrusive, felsic vs mafic",
+  "Rock-forming minerals and silicate classes; Bowen's series; Mohs scale"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 25,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which element constitutes the highest percentage by weight of the Earth's crust?",
+   "o": [
+    "Iron",
+    "Oxygen",
+    "Aluminium",
+    "Silicon"
+   ],
+   "a": 1,
+   "x": "Oxygen is the most abundant element in the Earth's crust, constituting approximately 46.6% by weight.",
+   "ty": "numerical",
+   "tq": "Use the direct-ranking approach for numerical abundance questions.",
+   "sec": "Crustal elements by abundance - most/least abundant, second-most abundant metal"
+  },
+  {
+   "s": "Which one of the following is the most abundant metal in the Earth's crust?",
+   "o": [
+    "Aluminium",
+    "Iron",
+    "Silicon",
+    "Calcium"
+   ],
+   "a": 0,
+   "x": "Aluminium is the most abundant metal in the Earth's crust, accounting for about 8.1% by weight.",
+   "ty": "fact",
+   "tq": "Distinguish the most abundant element from the most abundant metal.",
+   "sec": "Crustal elements by abundance - most/least abundant, second-most abundant metal"
+  },
+  {
+   "s": "Consider the following statements regarding the abundance of elements in the Earth's crust:\n1. Silicon is the second-most abundant element by weight.\n2. Iron is the second-most abundant metal by weight.\n3. Magnesium is the least abundant among the eight major crustal elements listed.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Silicon ranks second at about 27.7%, iron is the second-most abundant metal at about 5.0%, and magnesium ranks eighth among the listed eight elements at about 1.5%.",
+   "ty": "statements",
+   "tq": "Check each statement against the complete abundance ranking before selecting the coded combination.",
+   "sec": "Crustal elements by abundance - most/least abundant, second-most abundant metal"
+  },
+  {
+   "s": "Which one of the following correctly represents the order of major elements in the Earth as a whole by mass, from highest to lower proportion?",
+   "o": [
+    "Oxygen, Iron, Silicon, Magnesium",
+    "Iron, Oxygen, Silicon, Magnesium",
+    "Iron, Silicon, Oxygen, Magnesium",
+    "Silicon, Iron, Oxygen, Magnesium"
+   ],
+   "a": 1,
+   "x": "For the Earth as a whole, the order is iron at 32.1%, oxygen at 30.1%, silicon at 15.1% and magnesium at 13.9%.",
+   "ty": "chronology",
+   "tq": "Separate whole-Earth composition from crustal composition and compare the first four positions.",
+   "sec": "Crustal elements by abundance - most/least abundant, second-most abundant metal"
+  },
+  {
+   "s": "Which of the following pairs correctly represents Suess's chemical layers and their principal characteristics?\n1. SIAL — silicon and aluminium; granitic and continental\n2. SIMA — silicon and magnesium; basaltic and a source of magma\n3. NIFE — nickel and iron; core with a density of about 11\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. SIAL has a density of about 2.9, SIMA is basaltic and associated with magma, and NIFE forms the nickel-iron core with a density of about 11.",
+   "ty": "statements",
+   "tq": "Match each layer with both its chemical composition and physical character.",
+   "sec": "Crustal elements by abundance - most/least abundant, second-most abundant metal"
+  },
+  {
+   "s": "The scientific study of rocks is known as:",
+   "o": [
+    "Petrology",
+    "Seismology",
+    "Mineralogy",
+    "Geomorphology"
+   ],
+   "a": 0,
+   "x": "Petrology is the branch of geology concerned with the study of rocks.",
+   "ty": "fact",
+   "tq": "Use the exact disciplinary term rather than a related branch of Earth science.",
+   "sec": "Rock types → examples and odd-one-out; petrology"
+  },
+  {
+   "s": "Which one of the following groups consists entirely of sedimentary rocks?",
+   "o": [
+    "Sandstone, limestone, shale and conglomerate",
+    "Granite, basalt, gabbro and dolerite",
+    "Marble, slate, quartzite and gneiss",
+    "Granite, sandstone, marble and basalt"
+   ],
+   "a": 0,
+   "x": "Sandstone, limestone, shale and conglomerate are sedimentary rocks. The other groups contain igneous or metamorphic rocks.",
+   "ty": "match",
+   "tq": "Classify every option by identifying the rock type of each member.",
+   "sec": "Rock types → examples and odd-one-out; petrology"
+  },
+  {
+   "s": "Which one of the following is the odd one out?",
+   "o": [
+    "Quartzite",
+    "Marble",
+    "Slate",
+    "Limestone"
+   ],
+   "a": 3,
+   "x": "Marble, slate and quartzite are metamorphic rocks, whereas limestone is a sedimentary rock and a parent rock of marble.",
+   "ty": "odd_one_out",
+   "tq": "Identify the common rock class and then locate the parent or non-metamorphic member.",
+   "sec": "Rock types → examples and odd-one-out; petrology"
+  },
+  {
+   "s": "Which one of the following statements about igneous rocks is correct?",
+   "o": [
+    "They are formed only through the deposition of sediments.",
+    "They are formed exclusively at the Earth's surface.",
+    "They are regarded as primary rocks formed by cooling and solidification of magma or lava.",
+    "They normally contain abundant fossils."
+   ],
+   "a": 2,
+   "x": "Igneous rocks are primary rocks formed when magma or lava cools and solidifies. They generally do not contain fossils.",
+   "ty": "fact",
+   "tq": "Select the statement that gives both the origin and the standard classification of igneous rocks.",
+   "sec": "Igneous - intrusive vs extrusive, felsic vs mafic"
+  },
+  {
+   "s": "Consider the following statements:\n1. Intrusive igneous rocks cool slowly at depth.\n2. Slow cooling generally produces coarse grains.\n3. Granite and gabbro are examples of coarse-grained intrusive rocks.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Slow cooling within the crust permits the growth of large crystals, as seen in granite and gabbro.",
+   "ty": "statements",
+   "tq": "Link the setting, rate of cooling and grain size before choosing the combination.",
+   "sec": "Igneous - intrusive vs extrusive, felsic vs mafic"
+  },
+  {
+   "s": "Dolerite is best classified as a:",
+   "o": [
+    "Metamorphic rock formed from limestone",
+    "Fine-grained volcanic rock formed at the surface",
+    "Coarse-grained sedimentary rock formed in basins",
+    "Medium-grained hypabyssal rock occurring in dykes and sills"
+   ],
+   "a": 3,
+   "x": "Dolerite is a medium-grained hypabyssal igneous rock commonly associated with dykes and sills.",
+   "ty": "fact",
+   "tq": "Use the location and grain-size clue to distinguish hypabyssal rocks from plutonic and volcanic rocks.",
+   "sec": "Igneous - intrusive vs extrusive, felsic vs mafic"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes felsic and mafic igneous rocks?",
+   "o": [
+    "Felsic rocks are generally light-coloured and silica-rich, whereas mafic rocks are generally dark-coloured and rich in iron, magnesium and calcium.",
+    "Felsic rocks are rich in iron and magnesium, whereas mafic rocks are rich in silica and aluminium.",
+    "Mafic rocks are always less dense than felsic rocks.",
+    "Both felsic and mafic rocks have identical mineral composition and colour."
+   ],
+   "a": 0,
+   "x": "Felsic rocks are silica- and feldspar-rich, generally light-coloured and of relatively low density. Mafic rocks are rich in iron, magnesium and calcium, and are generally dark and dense.",
+   "ty": "comparison",
+   "tq": "Use the reversed-comparison trap involving colour, silica and ferromagnesian elements.",
+   "sec": "Igneous - intrusive vs extrusive, felsic vs mafic"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Composition and texture)\na. Felsic intrusive\nb. Felsic extrusive\nc. Intermediate intrusive\nd. Mafic extrusive\n\nList-II (Rock)\ni. Basalt\nii. Rhyolite\niii. Diorite\niv. Granite\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iv, b–ii, c–iii, d–i",
+    "a–ii, b–iv, c–i, d–iii",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–i, b–iii, c–ii, d–iv"
+   ],
+   "a": 0,
+   "x": "Granite is felsic intrusive, rhyolite is felsic extrusive, diorite is intermediate intrusive and basalt is mafic extrusive.",
+   "ty": "match",
+   "tq": "Start from the sure intrusive–extrusive pairs and then verify composition.",
+   "sec": "Igneous - intrusive vs extrusive, felsic vs mafic"
+  },
+  {
+   "s": "Which one of the following statements regarding feldspar is NOT correct?",
+   "o": [
+    "Feldspar constitutes approximately one-half of the Earth's crust.",
+    "Sodium, potassium, calcium and aluminium occur in particular feldspar varieties.",
+    "Feldspar constitutes only about one-fourth of the Earth's crust.",
+    "Silicon and oxygen occur in all feldspars."
+   ],
+   "a": 2,
+   "x": "The statement that feldspar constitutes only one-fourth of the crust is incorrect. Feldspar makes up approximately half of the Earth's crust.",
+   "ty": "negative",
+   "tq": "Find the reversed proportion in the NOT question.",
+   "sec": "Rock-forming minerals and silicate classes; Bowen's series; Mohs scale"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Mineral)\na. Muscovite\nb. Albite\nc. Hornblende\nd. Augite\n\nList-II (Silicate class)\ni. Inosilicate — single chain\nii. Tectosilicate\niii. Phyllosilicate\niv. Inosilicate — double chain\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "Muscovite is a phyllosilicate, albite is a tectosilicate, hornblende is a double-chain inosilicate and augite is a single-chain inosilicate.",
+   "ty": "match",
+   "tq": "Match minerals with their silicate structures, paying attention to single versus double chains.",
+   "sec": "Rock-forming minerals and silicate classes; Bowen's series; Mohs scale"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Olivine — nesosilicate with isolated tetrahedra",
+    "Quartz — phyllosilicate with sheet structure",
+    "Augite — tectosilicate with framework structure",
+    "Hornblende — nesosilicate with isolated tetrahedra"
+   ],
+   "a": 0,
+   "x": "Olivine is a nesosilicate characterised by isolated tetrahedra. Quartz is a tectosilicate, augite is a single-chain inosilicate and hornblende is a double-chain inosilicate.",
+   "ty": "match",
+   "tq": "Eliminate options by checking the structural meaning of each silicate class.",
+   "sec": "Rock-forming minerals and silicate classes; Bowen's series; Mohs scale"
+  },
+  {
+   "s": "In Bowen's reaction series, which mineral crystallises last from cooling magma and is regarded as the most stable among the listed minerals?",
+   "o": [
+    "Amphibole",
+    "Olivine",
+    "Muscovite",
+    "Quartz"
+   ],
+   "a": 3,
+   "x": "Quartz crystallises last in the stated sequence and is the most stable mineral among those listed in Bowen's reaction series.",
+   "ty": "fact",
+   "tq": "Use the endpoint of the crystallisation sequence rather than its first high-temperature mineral.",
+   "sec": "Rock-forming minerals and silicate classes; Bowen's series; Mohs scale"
+  },
+  {
+   "s": "Arrange the following minerals in the order in which they crystallise in the discontinuous branch of Bowen's reaction series, from earliest to latest:\nA. Biotite\nB. Olivine\nC. Amphibole\nD. Pyroxene",
+   "o": [
+    "B, D, C, A",
+    "D, B, C, A",
+    "B, C, D, A",
+    "A, C, D, B"
+   ],
+   "a": 0,
+   "x": "The discontinuous branch proceeds from olivine to pyroxene, amphibole and biotite as magma cools.",
+   "ty": "chronology",
+   "tq": "Identify the first high-temperature mineral and follow the standard branch sequence.",
+   "sec": "Rock-forming minerals and silicate classes; Bowen's series; Mohs scale"
+  },
+  {
+   "s": "Which one of the following correctly represents the continuous branch of Bowen's reaction series?",
+   "o": [
+    "K-feldspar to quartz only",
+    "Calcium-plagioclase to sodium-plagioclase",
+    "Olivine to pyroxene",
+    "Sodium-plagioclase to calcium-plagioclase"
+   ],
+   "a": 1,
+   "x": "The continuous branch involves the progressive change from calcium-rich plagioclase to sodium-rich plagioclase during cooling.",
+   "ty": "confusable",
+   "tq": "Discriminate between the continuous plagioclase branch and the discontinuous ferromagnesian branch.",
+   "sec": "Rock-forming minerals and silicate classes; Bowen's series; Mohs scale"
+  },
+  {
+   "s": "Which of the following is the correct order of minerals on the Mohs hardness scale from 1 to 4?",
+   "o": [
+    "Gypsum, talc, fluorite, calcite",
+    "Talc, calcite, gypsum, fluorite",
+    "Talc, gypsum, calcite, fluorite",
+    "Fluorite, calcite, gypsum, talc"
+   ],
+   "a": 2,
+   "x": "The first four minerals on the Mohs scale are talc, gypsum, calcite and fluorite, with hardness values from 1 to 4 respectively.",
+   "ty": "numerical",
+   "tq": "Preserve the exact ascending order in a short numerical sequence.",
+   "sec": "Rock-forming minerals and silicate classes; Bowen's series; Mohs scale"
+  },
+  {
+   "s": "Which mineral has a Mohs hardness of 7?",
+   "o": [
+    "Topaz",
+    "Apatite",
+    "Orthoclase",
+    "Quartz"
+   ],
+   "a": 3,
+   "x": "Quartz has a Mohs hardness of 7. Orthoclase is 6, topaz is 8 and apatite is 5.",
+   "ty": "numerical",
+   "tq": "Use the central value in the hardness scale and distinguish neighbouring entries.",
+   "sec": "Rock-forming minerals and silicate classes; Bowen's series; Mohs scale"
+  },
+  {
+   "s": "Which one of the following represents the correct upper end of the Mohs hardness scale?",
+   "o": [
+    "Quartz, topaz, corundum, diamond",
+    "Topaz, quartz, diamond, corundum",
+    "Corundum, quartz, topaz, diamond",
+    "Diamond, corundum, topaz, quartz"
+   ],
+   "a": 0,
+   "x": "The scale progresses from quartz at 7 to topaz at 8, corundum at 9 and diamond at 10.",
+   "ty": "chronology",
+   "tq": "Arrange the final members by increasing hardness and verify the endpoint.",
+   "sec": "Rock-forming minerals and silicate classes; Bowen's series; Mohs scale"
+  },
+  {
+   "s": "Which one of the following statements about quartz is correct?",
+   "o": [
+    "It is a double-chain inosilicate found only in basalt.",
+    "It is the first mineral to crystallise from cooling magma.",
+    "It is a soft mineral that weathers very rapidly and is absent from sandstone.",
+    "It is composed of silicon dioxide and forms a major part of granite and sandstone."
+   ],
+   "a": 3,
+   "x": "Quartz is silicon dioxide (SiO2), is relatively hard and resistant to weathering, and is a major component of granite and sandstone.",
+   "ty": "fact",
+   "tq": "Combine chemical composition, resistance to weathering and occurrence in the precise option.",
+   "sec": "Rock-forming minerals and silicate classes; Bowen's series; Mohs scale"
+  },
+  {
+   "s": "Which one of the following statements about volcanic rocks is correct?",
+   "o": [
+    "All volcanic rocks are coarse-grained because lava cools slowly at depth.",
+    "Andesite, dacite, rhyolite and basalt generally require more energy to fracture than many sedimentary rocks.",
+    "Volcanic rocks are formed only by sediment deposition.",
+    "Volcanic rocks necessarily contain abundant fossils."
+   ],
+   "a": 1,
+   "x": "Andesite, dacite, rhyolite and basalt are volcanic rocks, and they generally require more energy to fracture than many sedimentary rocks. They usually cool rapidly and are fine-grained.",
+   "ty": "comparison",
+   "tq": "Reject absolute statements and focus on the stated mechanical comparison.",
+   "sec": "Igneous - intrusive vs extrusive, felsic vs mafic"
+  }
+ ]
+}

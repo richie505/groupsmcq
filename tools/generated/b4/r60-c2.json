@@ -1,0 +1,244 @@
+{
+ "book": 4,
+ "row": 60,
+ "chunk": 2,
+ "section": "India - sex ratio and child sex ratio: trends, regional pattern, causes",
+ "subsections": [
+  "Regional pattern - north-west vs south and north-east",
+  "Sex ratio across religions and social groups (SC, ST)",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 17,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following correctly describes the regional pattern of sex ratio in India?",
+   "o": [
+    "Kerala and the North-East are the most male-skewed, while Punjab has the best sex ratio",
+    "Haryana and Punjab are the most male-skewed, while Kerala and the North-East have the best sex-ratio balance",
+    "Haryana and Punjab are the most female-skewed, while Kerala and the North-East are male-skewed",
+    "There is no marked regional variation in the sex ratio between northern and southern India"
+   ],
+   "a": 1,
+   "x": "Haryana and Punjab are identified as the most male-skewed region, whereas Kerala and the North-East, including Arunachal Pradesh, Meghalaya and Mizoram, have the best sex-ratio balance.",
+   "ty": "comparison",
+   "tq": "Use the reversed-comparison trap by distinguishing the north-western pattern from the southern and north-eastern pattern.",
+   "sec": "Regional pattern - north-west vs south and north-east"
+  },
+  {
+   "s": "According to Women and Men 2025, which State recorded the highest sex ratio?",
+   "o": [
+    "Mizoram",
+    "Kerala",
+    "Nagaland",
+    "Arunachal Pradesh"
+   ],
+   "a": 3,
+   "x": "Arunachal Pradesh recorded the highest State sex ratio, at 1,085, according to Women and Men 2025.",
+   "ty": "numerical",
+   "tq": "Identify the exact highest value in a numerical ranking rather than relying on the traditionally cited State.",
+   "sec": "Regional pattern - north-west vs south and north-east"
+  },
+  {
+   "s": "Consider the following pairs relating to Women and Men 2025:\n1. Arunachal Pradesh — 1,085\n2. Nagaland — 1,007\n3. Jharkhand — 899\n4. Bihar — 900\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Arunachal Pradesh and Nagaland had the highest reported values, while Jharkhand and Bihar had the lowest values in the cited comparison.",
+   "ty": "statements",
+   "tq": "Check each numerical pair independently; the complete combination is correct.",
+   "sec": "Regional pattern - north-west vs south and north-east"
+  },
+  {
+   "s": "Which one of the following combinations represents the North-Eastern States identified as having the best sex-ratio balance?",
+   "o": [
+    "Assam, Tripura and Manipur",
+    "Nagaland, Sikkim and Assam",
+    "Arunachal Pradesh, Meghalaya and Mizoram",
+    "Meghalaya, Tripura and Manipur"
+   ],
+   "a": 2,
+   "x": "Arunachal Pradesh, Meghalaya and Mizoram are specifically identified among the North-Eastern States with the best sex-ratio balance.",
+   "ty": "fact",
+   "tq": "Test the exact membership of a named regional group.",
+   "sec": "Regional pattern - north-west vs south and north-east"
+  },
+  {
+   "s": "With reference to the sex ratio of Scheduled Tribes, consider the following statements:\n1. The sex ratio of India’s Scheduled Tribes was 990 in 2011.\n2. The corresponding overall figure was reported in the range of 940–943.\n3. The sex ratio of Scheduled Tribes in Andhra Pradesh was 1,009.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the Indian ST sex ratio was 990, the overall figure was reported as 940/943, and the Andhra Pradesh ST sex ratio was 1,009.",
+   "ty": "statements",
+   "tq": "Use the numerical comparison between a social group, the overall population and the State-specific figure.",
+   "sec": "Sex ratio across religions and social groups (SC, ST)  [GROUP-II]"
+  },
+  {
+   "s": "Among the following religious communities, which had the highest sex ratio according to Census 2011?",
+   "o": [
+    "Muslims",
+    "Sikhs",
+    "Hindus",
+    "Christians"
+   ],
+   "a": 3,
+   "x": "Christians had the highest sex ratio among the listed religious communities, at 1,023.",
+   "ty": "fact",
+   "tq": "Select the highest value from a comparison table.",
+   "sec": "Sex ratio across religions and social groups (SC, ST)  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched with the sex ratio reported in Census 2011?",
+   "o": [
+    "Hindus — 939",
+    "Muslims — 951",
+    "Christians — 1,023",
+    "Sikhs — 945"
+   ],
+   "a": 3,
+   "x": "Sikhs had a sex ratio of 903, not 945. The value 945 was associated with Scheduled Castes.",
+   "ty": "negative",
+   "tq": "Find the single mismatched value by separating religious-group figures from the Scheduled Caste figure.",
+   "sec": "Sex ratio across religions and social groups (SC, ST)  [GROUP-II]"
+  },
+  {
+   "s": "The sex ratio of Scheduled Castes according to Census 2011 was:",
+   "o": [
+    "903",
+    "918",
+    "939",
+    "945"
+   ],
+   "a": 3,
+   "x": "The sex ratio of Scheduled Castes was 945 according to the stated Census 2011 comparison.",
+   "ty": "numerical",
+   "tq": "Test a single table entry using nearby numerical distractors.",
+   "sec": "Sex ratio across religions and social groups (SC, ST)  [GROUP-II]"
+  },
+  {
+   "s": "The Sex Ratio at Birth (SRB) reported under CRS 2024 was:",
+   "o": [
+    "899",
+    "917",
+    "943",
+    "1,020"
+   ],
+   "a": 1,
+   "x": "CRS 2024 reported a Sex Ratio at Birth of 917.",
+   "ty": "numerical",
+   "tq": "Distinguish the current SRB figure from overall sex ratio and survey-based figures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding CRS 2024:\n1. The reported Sex Ratio at Birth was 917.\n2. Registration under the system was above 99 per cent.\n3. The figure refers to the sex ratio of Scheduled Castes rather than the Sex Ratio at Birth.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because 917 refers to the CRS 2024 Sex Ratio at Birth, not the Scheduled Caste sex ratio.",
+   "ty": "statements",
+   "tq": "Reject the statement that swaps the subject of a current statistical indicator.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Supreme Court’s intervention mentioned in relation to sex ratio is associated with which of the following?",
+   "o": [
+    "Revision of the Census definition of literacy",
+    "Implementation of the PCPNDT framework and the problem of male-child bias",
+    "Reclassification of religious communities in the Census",
+    "Determination of the rural–urban population ratio"
+   ],
+   "a": 1,
+   "x": "The Supreme Court’s intervention concerns the PCPNDT framework and the continuing problem of male-child bias.",
+   "ty": "application",
+   "tq": "Match the institution with the issue on which its intervention is specifically identified.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "According to the Andhra Pradesh angle cited for the comparison, which pair is correctly stated?",
+   "o": [
+    "Sex ratio 1,020 and child sex ratio 917",
+    "Sex ratio 997 and child sex ratio 944",
+    "Sex ratio 943 and child sex ratio 918",
+    "Sex ratio 899 and child sex ratio 900"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh is cited with a sex ratio of 997 and a child sex ratio of 944, both above the corresponding national figures stated in the comparison.",
+   "ty": "numerical",
+   "tq": "Keep overall sex ratio and child sex ratio as separate indicators while checking the State pair.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following correctly compares the cited Andhra Pradesh and India figures?",
+   "o": [
+    "India has a higher sex ratio and a higher child sex ratio than Andhra Pradesh.",
+    "Andhra Pradesh has a higher sex ratio but a lower child sex ratio than India.",
+    "Andhra Pradesh has both a higher sex ratio and a higher child sex ratio than India.",
+    "Both Andhra Pradesh figures are below the corresponding Indian figures."
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh is cited at 997 for sex ratio and 944 for child sex ratio, compared with India’s 943 and 918 respectively; both State values are higher.",
+   "ty": "comparison",
+   "tq": "Test whether both columns in a comparison move in the same direction.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements best explains why the CRS, SRS and Census figures should be compared cautiously?",
+   "o": [
+    "They use identical definitions but different State boundaries.",
+    "They measure only the urban population.",
+    "They are all household surveys conducted in the same year.",
+    "They use different bases of measurement."
+   ],
+   "a": 3,
+   "x": "CRS, SRS and Census figures use different bases, so comparisons should be made like with like.",
+   "ty": "application",
+   "tq": "Identify the methodological qualification rather than comparing figures mechanically.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to NFHS-5 and Census 2011, consider the following statements:\n1. NFHS-5 reported a sex ratio of 1,020.\n2. NFHS-5 is a household survey rather than a census.\n3. The NFHS-5 figure is directly comparable with the Census figure of 943 without qualification.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the household-survey estimate of 1,020 is not directly comparable with the Census figure of 943.",
+   "ty": "statements",
+   "tq": "Use the source-type distinction to reject an apparently straightforward numerical comparison.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "NFHS-5 is notable as the first NFHS round in which:",
+   "o": [
+    "the Scheduled Tribe sex ratio fell below the national average",
+    "the Census-based sex ratio exceeded 1,000",
+    "the child sex ratio became equal to the overall sex ratio",
+    "more women than men were recorded in the population estimate"
+   ],
+   "a": 3,
+   "x": "NFHS-5 was the first NFHS in which the estimated number of women exceeded the number of men, reflected in its sex ratio of 1,020.",
+   "ty": "fact",
+   "tq": "Identify the precise significance of a survey round rather than confusing it with a Census result.",
+   "sec": "Universal angles"
+  }
+ ]
+}

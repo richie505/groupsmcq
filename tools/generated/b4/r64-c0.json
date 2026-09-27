@@ -1,0 +1,425 @@
+{
+ "book": 4,
+ "row": 64,
+ "chunk": 0,
+ "section": "India - Scheduled Tribe population: distribution, major tribes and tribal regions",
+ "subsections": [
+  "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Changpa, Khasis, Birhors)",
+  "Largest tribes by population and states with highest/lowest ST share or number"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 30,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Consider the following pairs:\na. Onge — Little Andaman\nb. Shompen — Interior rainforest of Great Nicobar\nc. Sentinelese — North Sentinel Island\nd. Jarawa — Little Andaman\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "a, b and c only",
+    "a, c and d only",
+    "a, b and d only",
+    "a, b, c and d"
+   ],
+   "a": 0,
+   "x": "The Onge live in Little Andaman, the Shompen in Great Nicobar and the Sentinelese on North Sentinel Island. The Jarawas are associated with the forests of the Andaman Islands, not specifically Little Andaman.",
+   "ty": "match",
+   "tq": "Start from the sure island-habitat pairs and identify the deliberately shifted location.",
+   "sec": "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Changpa, Khasis, Birhors)"
+  },
+  {
+   "s": "Which one of the following correctly describes the Shompen?",
+   "o": [
+    "A matrilineal tribe of Meghalaya",
+    "A nomadic shepherd community of the Bharmour region",
+    "A Mongoloid PVTG of Great Nicobar speaking an Austroasiatic language",
+    "A pastoral tribe of the Nilgiris"
+   ],
+   "a": 2,
+   "x": "The Shompen are a Mongoloid Particularly Vulnerable Tribal Group inhabiting the rainforest of Great Nicobar. Shompenese belongs to the Austroasiatic language family.",
+   "ty": "fact",
+   "tq": "Combine the tribe’s location, physical classification and language marker.",
+   "sec": "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Changpa, Khasis, Birhors)"
+  },
+  {
+   "s": "The Sentinelese have been associated with which of the following administrative arrangements since 1956?",
+   "o": [
+    "A tribal reserve with no-contact protection",
+    "A nomadic pastoral zone",
+    "A permanent agricultural settlement scheme",
+    "A Sixth Schedule autonomous district council"
+   ],
+   "a": 0,
+   "x": "The Sentinelese inhabit North Sentinel Island, which has been maintained as a tribal reserve with a no-contact policy since 1956.",
+   "ty": "application",
+   "tq": "Apply the protection measure to the isolated tribal community rather than to a mainland tribe.",
+   "sec": "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Changpa, Khasis, Birhors)"
+  },
+  {
+   "s": "Which of the following is the correct sequence of the principal habitat regions of the three tribes?\n1. Santhals — Santhal Parganas\n2. Gonds — Gondwana and Bastar\n3. Bhils — Aravalli-Vindhya-Satpura hills\n4. Todas — Nilgiri Hills\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2, 3 and 4",
+    "1, 3 and 4 only",
+    "2 and 3 only",
+    "1 and 4 only"
+   ],
+   "a": 0,
+   "x": "All four associations are correct: Santhals are linked with Santhal Parganas, Gonds with Gondwana and Bastar, Bhils with the Aravalli-Vindhya-Satpura belt, and Todas with the Nilgiris.",
+   "ty": "statements",
+   "tq": "Test several tribe-region associations together, including a precise hill-region trap.",
+   "sec": "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Changpa, Khasis, Birhors)"
+  },
+  {
+   "s": "Which one of the following statements regarding the Santhals is NOT correct?",
+   "o": [
+    "They follow the Manjhi-Paragana system.",
+    "Their language, Santali, belongs to the Austro-Asiatic family.",
+    "They regard the Nilgiri Hills as the abode of Marang Buru.",
+    "They are mainly associated with Jharkhand, West Bengal and Odisha."
+   ],
+   "a": 2,
+   "x": "The Santhals revere Parasnath Hills as Marang Buru. The Nilgiri Hills are associated with the Todas.",
+   "ty": "negative",
+   "tq": "Find the wrong tribe-place association embedded in an otherwise familiar description.",
+   "sec": "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Changpa, Khasis, Birhors)"
+  },
+  {
+   "s": "The name ‘Bhil’ is traditionally associated with which of the following words and objects?",
+   "o": [
+    "Marang Buru — sacred hill",
+    "Ghotul — youth dormitory",
+    "Billu — bow",
+    "Lohasur — deity"
+   ],
+   "a": 2,
+   "x": "The name Bhil is associated with ‘billu’, meaning bow. Ghotul is associated with the Gonds, while Marang Buru is associated with the Santhals.",
+   "ty": "confusable",
+   "tq": "Discriminate between tribe-specific cultural markers rather than relying only on State location.",
+   "sec": "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Changpa, Khasis, Birhors)"
+  },
+  {
+   "s": "The Ghotul, a youth dormitory institution, is associated with which tribe?",
+   "o": [
+    "Bhil",
+    "Santhal",
+    "Birhor",
+    "Gond"
+   ],
+   "a": 3,
+   "x": "The Ghotul is a distinctive youth dormitory institution associated with the Gond community.",
+   "ty": "fact",
+   "tq": "Use the exact institutional marker to separate neighbouring central Indian tribes.",
+   "sec": "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Khasis, Birhors)"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Toda — buffalo-centred pastoral religion",
+    "Changpa — rice cultivators of the coastal plains",
+    "Khasi — nomadic forest rope-makers of Jharkhand",
+    "Birhor — pashmina-goat herders of Ladakh"
+   ],
+   "a": 0,
+   "x": "The Todas of the Nilgiris are pastoralists whose religious life is centred on the buffalo. Changpas are pashmina-goat herders, while Birhors are forest foragers and rope-makers.",
+   "ty": "match",
+   "tq": "Match each tribe with its distinctive livelihood and cultural marker.",
+   "sec": "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Changpa, Khasis, Birhors)"
+  },
+  {
+   "s": "Consider the following statements:\n1. Changpas are nomadic communities of Ladakh.\n2. They rear pashmina goats and yaks.\n3. The Changpa community has been recognised as a Scheduled Tribe since 1989.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Changpas inhabit the Changthang plateau of Ladakh, practise nomadic pastoralism involving pashmina goats and yaks, and have ST recognition since 1989.",
+   "ty": "statements",
+   "tq": "Combine location, livelihood and a year to test complete identification of a tribe.",
+   "sec": "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Changpa, Khasis, Birhors)"
+  },
+  {
+   "s": "Which one of the following tribes is characterised by matrilineal social organisation?",
+   "o": [
+    "Gaddi",
+    "Bhutia",
+    "Gond",
+    "Khasi"
+   ],
+   "a": 3,
+   "x": "The Khasi tribe of Meghalaya is noted for its matrilineal social organisation.",
+   "ty": "fact",
+   "tq": "Identify the tribe from a distinctive social-organisation feature.",
+   "sec": "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Khasis, Birhors)"
+  },
+  {
+   "s": "A tribal community of Jharkhand is described as nomadic forest foragers and traditional rope-makers. Which community is being referred to?",
+   "o": [
+    "Onge",
+    "Bhutia",
+    "Toda",
+    "Birhor"
+   ],
+   "a": 3,
+   "x": "The Birhors of Jharkhand are nomadic forest foragers traditionally known for making ropes. They are also classified as a Particularly Vulnerable Tribal Group.",
+   "ty": "application",
+   "tq": "Infer the tribe from its livelihood profile and occupational marker.",
+   "sec": "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Khasis, Birhors)"
+  },
+  {
+   "s": "Which one of the following tribes is NOT correctly matched with its region?",
+   "o": [
+    "Khasis — Changthang plateau of Ladakh",
+    "Kadar — Anamalai Hills of Kerala",
+    "Dongaria Kondh — Niyamgiri Hills of Odisha",
+    "Bonda — Malkangiri hills of Odisha"
+   ],
+   "a": 0,
+   "x": "The Khasis are associated with Meghalaya. The Changthang plateau is the habitat of the Changpa community.",
+   "ty": "negative",
+   "tq": "Use regional elimination to detect the tribe placed in a completely different ecological zone.",
+   "sec": "Major tribes → state/UT and habitat (Gaddis, Jarawas, Onge, Shompen, Santhals, Bhutias, Bhils, Gonds, Todas, Khasis, Birhors)"
+  },
+  {
+   "s": "Which of the following is the correct descending order of the major tribes of India by population?",
+   "o": [
+    "Gond, Bhil, Santhal, Mina",
+    "Bhil, Gond, Santhal, Mina",
+    "Santhal, Bhil, Gond, Mina",
+    "Bhil, Santhal, Gond, Mina"
+   ],
+   "a": 1,
+   "x": "The order given is Bhil, Gond, Santhal and Mina. The Bhils are the largest tribal group in India.",
+   "ty": "chronology",
+   "tq": "Arrange the listed tribes by population rank, not by geographical spread.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "According to the 2011 Census figures given for Scheduled Tribes, which State had the largest Scheduled Tribe population?",
+   "o": [
+    "Maharashtra",
+    "Odisha",
+    "Madhya Pradesh",
+    "Chhattisgarh"
+   ],
+   "a": 2,
+   "x": "Madhya Pradesh had the largest Scheduled Tribe population, recorded at approximately 153.17 lakh in the cited 2011 figures.",
+   "ty": "numerical",
+   "tq": "Distinguish the State with the highest absolute number from the State with the highest percentage share.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "Which Union Territory had the highest proportion of Scheduled Tribes in its total population according to the 2011 figures?",
+   "o": [
+    "Ladakh",
+    "Dadra and Nagar Haveli",
+    "Lakshadweep",
+    "Andaman and Nicobar Islands"
+   ],
+   "a": 2,
+   "x": "Lakshadweep had the highest ST share, at approximately 94.8%, followed by Mizoram at about 94.4%.",
+   "ty": "numerical",
+   "tq": "Separate percentage share from absolute population and compare close numerical values.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "Arrange the following north-eastern States in ascending order of the Scheduled Tribe share of population:\nA. Mizoram\nB. Tripura\nC. Nagaland\nD. Meghalaya",
+   "o": [
+    "B, D, C, A",
+    "D, B, C, A",
+    "B, C, D, A",
+    "A, C, D, B"
+   ],
+   "a": 0,
+   "x": "The ascending order is Tripura, Meghalaya, Nagaland and Mizoram. Tripura has the lowest ST share among the four, while Mizoram has the highest.",
+   "ty": "chronology",
+   "tq": "Use the first and last positions first, then resolve the middle two percentages.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "Which one of the following States has the largest number of notified Scheduled Tribes?",
+   "o": [
+    "Madhya Pradesh",
+    "Jharkhand",
+    "Chhattisgarh",
+    "Odisha"
+   ],
+   "a": 3,
+   "x": "Odisha has the largest number of notified Scheduled Tribes among the States listed, with 62 groups in the cited data.",
+   "ty": "numerical",
+   "tq": "Do not confuse the number of tribal communities with the total tribal population.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "Consider the following statements:\n1. Punjab has no notified Scheduled Tribe.\n2. Haryana has no notified Scheduled Tribe.\n3. Delhi has no notified Scheduled Tribe.\n4. Puducherry has no notified Scheduled Tribe.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The cited data identify Punjab, Haryana, Delhi, Chandigarh and Puducherry as having no notified Scheduled Tribes. Therefore, all four statements are correct.",
+   "ty": "statements",
+   "tq": "Test a group of exceptions through an all-correct coded option.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "According to Census 2011, Scheduled Tribes constituted approximately what proportion of India’s total population?",
+   "o": [
+    "5.3 per cent",
+    "8.6 per cent",
+    "10.43 per cent",
+    "15 per cent"
+   ],
+   "a": 1,
+   "x": "Scheduled Tribes constituted about 8.6 per cent of India’s population in Census 2011. The figure of 10.43 crore refers to their population, while 15 per cent refers to the approximate area in which they live.",
+   "ty": "numerical",
+   "tq": "Separate percentage of population, absolute population and geographical-area figures.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "The Scheduled Tribe population of India in Census 2011 was approximately:",
+   "o": [
+    "8.60 crore",
+    "10.43 crore",
+    "15.00 crore",
+    "27.39 crore"
+   ],
+   "a": 1,
+   "x": "The Scheduled Tribe population was approximately 10.43 crore in Census 2011, forming about 8.6 per cent of India’s population.",
+   "ty": "numerical",
+   "tq": "Match the absolute figure with the corresponding Census percentage.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "Which one of the following correctly states the rural share and sex ratio of India’s Scheduled Tribe population?",
+   "o": [
+    "73 per cent rural and sex ratio 990",
+    "89.97 per cent rural and sex ratio 940",
+    "89.97 per cent rural and sex ratio 990",
+    "59 per cent rural and sex ratio 1,000"
+   ],
+   "a": 2,
+   "x": "About 89.97 per cent of the Scheduled Tribe population was rural, and its sex ratio was 990 females per 1,000 males.",
+   "ty": "comparison",
+   "tq": "Keep rural share, literacy and sex-ratio figures separate while comparing demographic indicators.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "The literacy rate among Scheduled Tribes was approximately 59 per cent, compared with approximately what literacy rate for India as a whole?",
+   "o": [
+    "68 per cent",
+    "70 per cent",
+    "73 per cent",
+    "82 per cent"
+   ],
+   "a": 2,
+   "x": "The literacy rate among Scheduled Tribes was about 59 per cent, compared with about 73 per cent for the country as a whole.",
+   "ty": "comparison",
+   "tq": "Compare the group-specific indicator with the national benchmark rather than selecting the larger isolated figure.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "Which of the following statements regarding Scheduled Tribes is correct?",
+   "o": [
+    "They constitute about 15 per cent of India’s population and live across 8.6 per cent of its area.",
+    "They constitute about 8.6 per cent of India’s population and live across approximately 15 per cent of the country’s area.",
+    "They constitute about 5.53 per cent of India’s population and live across 27.39 per cent of its area.",
+    "They constitute about 59 per cent of India’s population and live exclusively in urban areas."
+   ],
+   "a": 1,
+   "x": "Scheduled Tribes constituted about 8.6 per cent of India’s population and were distributed over approximately 15 per cent of the country’s area.",
+   "ty": "comparison",
+   "tq": "Detect the reversed percentage trap between population share and area occupied.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "As reported for Andhra Pradesh in the cited 2024–25 data, the Scheduled Tribe population was approximately:",
+   "o": [
+    "27.39 lakh, constituting 5.53 per cent",
+    "62 lakh, constituting 15 per cent",
+    "10.43 lakh, constituting 8.6 per cent",
+    "153.17 lakh, constituting 94.8 per cent"
+   ],
+   "a": 0,
+   "x": "The Andhra Pradesh figure cited for 2024–25 is 27.39 lakh Scheduled Tribe population, constituting about 5.53 per cent of the State’s population.",
+   "ty": "numerical",
+   "tq": "Match a State-specific absolute figure with its corresponding percentage, avoiding national data.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "How many notified Scheduled Tribe groups are recognised in India according to the latest figure cited?",
+   "o": [
+    "62",
+    "698",
+    "705",
+    "990"
+   ],
+   "a": 2,
+   "x": "The latest figure cited is 705 notified Scheduled Tribe groups in 30 States and Union Territories. Older references may mention 698, but the latest stated figure is 705.",
+   "ty": "numerical",
+   "tq": "Use the latest explicit count and distinguish it from an older alternative figure.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "Consider the following statements:\n1. Scheduled Tribes are notified in 30 States and Union Territories.\n2. Odisha has the largest number of notified tribal communities among the States listed.\n3. Madhya Pradesh has the largest Scheduled Tribe population by absolute number.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: 705 groups are cited across 30 States and Union Territories, Odisha has the most notified tribes, and Madhya Pradesh has the largest ST population.",
+   "ty": "statements",
+   "tq": "Combine coverage, number of communities and population-size facts in one coded question.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "Which one of the following statements about the Bhil tribe is correct?",
+   "o": [
+    "It is a matrilineal tribe of Meghalaya.",
+    "It is the largest tribal group of India and is found mainly in Rajasthan, Madhya Pradesh, Gujarat and Maharashtra.",
+    "It is a PVTG confined to the Great Nicobar rainforest.",
+    "It is the second-largest tribal group and is concentrated only in Ladakh."
+   ],
+   "a": 1,
+   "x": "The Bhils are identified as the largest tribal group in India and are distributed mainly across Rajasthan, Madhya Pradesh, Gujarat and Maharashtra.",
+   "ty": "fact",
+   "tq": "Combine rank and distribution to reject options using unrelated tribal identities.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "The approximate population and share of the total Scheduled Tribe population attributed to the Bhils are:",
+   "o": [
+    "10.43 crore and about 8.6 per cent",
+    "27.39 lakh and about 5.53 per cent",
+    "1.7 crore and about 16 per cent",
+    "62 lakh and about 94.8 per cent"
+   ],
+   "a": 2,
+   "x": "The Bhil population is cited as approximately 1.7 crore, representing roughly 16 per cent of India’s Scheduled Tribe population.",
+   "ty": "numerical",
+   "tq": "Link a tribe-specific estimate with its share instead of confusing it with national totals.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  },
+  {
+   "s": "Assertion (A): The Bhil tribe is regarded as the largest Scheduled Tribe of India.\nReason (R): The Bhils number approximately 1.7 crore and account for roughly 16 per cent of the Scheduled Tribe population.\nSelect the correct answer using the code given below.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and the large estimated population and share cited for the Bhils explain their position as India’s largest Scheduled Tribe.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the numerical reason directly supports the ranking asserted.",
+   "sec": "Largest tribes by population and states with highest/lowest ST share or number"
+  }
+ ]
+}

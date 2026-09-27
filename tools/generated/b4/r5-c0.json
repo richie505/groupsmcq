@@ -1,0 +1,498 @@
+{
+ "book": 4,
+ "row": 5,
+ "chunk": 0,
+ "section": "Interior of the earth - crust, mantle, core; discontinuities and seismic evidence",
+ "subsections": [
+  "Discontinuities → between which layers",
+  "Sources of information - direct vs indirect",
+  "Composition of layers - SIAL, SIMA, NIFE; constituents of the core",
+  "Seismic waves through layers - P and S behaviour, shadow zone",
+  "Earth's magnetic field - origin, axis inclination"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which discontinuity separates the upper crust from the lower crust, corresponding broadly to the SIAL–SIMA division?",
+   "o": [
+    "Gutenberg Discontinuity",
+    "Conrad Discontinuity",
+    "Repetti Discontinuity",
+    "Mohorovicic Discontinuity"
+   ],
+   "a": 1,
+   "x": "The Conrad Discontinuity lies within the crust and separates the upper crust from the lower crust, broadly corresponding to SIAL and SIMA.",
+   "ty": "fact",
+   "tq": "Use the exact layer pair to distinguish closely related discontinuities.",
+   "sec": "Discontinuities → between which layers"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Gutenberg Discontinuity — Outer and inner core",
+    "Conrad Discontinuity — Upper and lower crust",
+    "Repetti Discontinuity — Upper and lower mantle",
+    "Lehmann Discontinuity — Outer and inner core"
+   ],
+   "a": 0,
+   "x": "The Gutenberg Discontinuity separates the mantle and the core. The Lehmann Discontinuity separates the outer and inner core.",
+   "ty": "negative",
+   "tq": "Find the swapped layer pair in a discontinuity table.",
+   "sec": "Discontinuities → between which layers"
+  },
+  {
+   "s": "Arrange the following discontinuities in order from the Earth's surface towards its centre:\nA. Gutenberg\nB. Conrad\nC. Lehmann\nD. Mohorovicic\nE. Repetti",
+   "o": [
+    "B, D, E, A, C",
+    "D, B, E, A, C",
+    "B, E, D, A, C",
+    "D, B, A, E, C"
+   ],
+   "a": 0,
+   "x": "The correct downward sequence is Conrad, Mohorovicic, Repetti, Gutenberg and Lehmann.",
+   "ty": "chronology",
+   "tq": "Arrange boundaries by increasing depth, beginning with the shallowest one.",
+   "sec": "Discontinuities → between which layers"
+  },
+  {
+   "s": "The approximate depth of the Gutenberg Discontinuity is:",
+   "o": [
+    "30 km",
+    "700 km",
+    "2,900 km",
+    "5,150 km"
+   ],
+   "a": 2,
+   "x": "The Gutenberg Discontinuity, separating the mantle and core, occurs at approximately 2,900 km depth.",
+   "ty": "numerical",
+   "tq": "Separate the major numerical depth markers of the Earth’s interior.",
+   "sec": "Discontinuities → between which layers"
+  },
+  {
+   "s": "The Lehmann Discontinuity occurs at approximately:",
+   "o": [
+    "2,900 km",
+    "80 km",
+    "5,150 km",
+    "700–1,000 km"
+   ],
+   "a": 2,
+   "x": "The Lehmann Discontinuity separates the outer and inner core at approximately 5,150 km depth.",
+   "ty": "numerical",
+   "tq": "Use the deepest value among the listed discontinuity depths.",
+   "sec": "Discontinuities → between which layers"
+  },
+  {
+   "s": "The Repetti Discontinuity separates the:",
+   "o": [
+    "Mantle and core at about 2,900 km",
+    "Upper and lower mantle at about 700–1,000 km",
+    "Upper and lower crust at about 30 km",
+    "Crust and mantle at about 30 km"
+   ],
+   "a": 1,
+   "x": "The Repetti Discontinuity lies within the mantle and separates its upper and lower portions at roughly 700–1,000 km depth.",
+   "ty": "fact",
+   "tq": "Combine the boundary name with its characteristic depth range.",
+   "sec": "Discontinuities → between which layers"
+  },
+  {
+   "s": "Consider the following statements about the Mohorovicic Discontinuity:\n1. It separates the crust from the mantle.\n2. It is located at about 30 km beneath continents and about 5 km beneath oceans.\n3. It was discovered by Andrija Mohorovicic in 1909.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The Moho separates crust and mantle, varies in depth beneath continents and oceans, and was identified by Andrija Mohorovicic in 1909.",
+   "ty": "statements",
+   "tq": "Check the boundary, depth contrast and discoverer as three separate clues.",
+   "sec": "Discontinuities → between which layers"
+  },
+  {
+   "s": "At the Mohorovicic Discontinuity, the velocity of P-waves rises approximately from:",
+   "o": [
+    "8.1 to 11.23 km/s",
+    "11.23 to 14.0 km/s",
+    "5.0 to 6.0 km/s",
+    "6.9 to 8.1 km/s"
+   ],
+   "a": 3,
+   "x": "A distinctive increase in P-wave velocity from about 6.9 to 8.1 km/s helped identify the Moho.",
+   "ty": "numerical",
+   "tq": "Recall the paired numerical values associated with a seismic boundary.",
+   "sec": "Discontinuities → between which layers"
+  },
+  {
+   "s": "Which statement correctly describes the relationship between continental mantle earthquakes and the Moho?",
+   "o": [
+    "They are confined to the outer core below the Lehmann Discontinuity.",
+    "They occur only at the Gutenberg Discontinuity.",
+    "They originate within the upper crust, above the Moho, at depths of 10–29 km.",
+    "They begin more than 80 km below the Moho, whereas normal crustal earthquakes occur at 10–29 km depth."
+   ],
+   "a": 3,
+   "x": "Continental mantle earthquakes begin more than 80 km below the Moho, while normal crustal earthquakes generally occur at depths of 10–29 km.",
+   "ty": "comparison",
+   "tq": "Contrast the depth ranges instead of matching only the earthquake type.",
+   "sec": "Discontinuities → between which layers"
+  },
+  {
+   "s": "Which institution made the first global map of continental mantle earthquakes?",
+   "o": [
+    "Stanford",
+    "Borehole Geophysics Research Laboratory",
+    "United States Geological Survey",
+    "National Centre for Seismology"
+   ],
+   "a": 0,
+   "x": "Stanford made the first global map of continental mantle earthquakes.",
+   "ty": "fact",
+   "tq": "Identify the institution associated with a specific research achievement.",
+   "sec": "Discontinuities → between which layers"
+  },
+  {
+   "s": "Which of the following is an indirect source of information about the Earth's interior?",
+   "o": [
+    "Surface rocks obtained from mining",
+    "Magma brought out during volcanic eruptions",
+    "Seismic waves",
+    "Deep drilling"
+   ],
+   "a": 2,
+   "x": "Seismic waves are an indirect source because their behaviour reveals the structure and properties of inaccessible interior layers.",
+   "ty": "fact",
+   "tq": "Classify the source by whether it directly samples the interior or infers it.",
+   "sec": "Sources of information - direct vs indirect"
+  },
+  {
+   "s": "Consider the following statements regarding sources of information about the Earth's interior:\n1. Meteorites are used as an indirect source because they are made of material similar to that of the Earth.\n2. Gravity anomalies provide indirect evidence about the interior.\n3. Volcanic eruptions provide direct evidence through magma and lava.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Meteorites and gravity anomalies are indirect sources, while magma and lava brought out by volcanic eruptions are direct evidence. Hence all three statements are correct.",
+   "ty": "statements",
+   "tq": "Separate observed samples from indirect geophysical evidence.",
+   "sec": "Sources of information - direct vs indirect"
+  },
+  {
+   "s": "The deepest hole mentioned in connection with direct investigation of the Earth's interior was drilled by the USSR in the:",
+   "o": [
+    "Siberian Basin, to about 700 km, during the 1990s",
+    "Kola Peninsula, to about 12 km, during the 1970s",
+    "Karad region, to about 30 km, during the 1980s",
+    "South African goldfields, to about 3.9 km, during the 1960s"
+   ],
+   "a": 1,
+   "x": "The USSR drilled a hole of approximately 12 km in the Kola Peninsula during the 1970s.",
+   "ty": "numerical",
+   "tq": "Combine location, country, period and depth to identify the precise example.",
+   "sec": "Sources of information - direct vs indirect"
+  },
+  {
+   "s": "Which pair of mines in South Africa reaches only about 3.9 km and illustrates the limits of direct access to the Earth's interior?",
+   "o": [
+    "Gutenberg and Lehmann",
+    "Kola and Karad",
+    "Mponeng and TauTona",
+    "SIAL and SIMA"
+   ],
+   "a": 2,
+   "x": "The Mponeng and TauTona mines in South Africa reach only about 3.9 km, far less than the Earth's radius.",
+   "ty": "fact",
+   "tq": "Match the named examples with their associated numerical limit.",
+   "sec": "Sources of information - direct vs indirect"
+  },
+  {
+   "s": "Which organisation operates the scientific deep-drilling facility at Karad in India?",
+   "o": [
+    "Borehole Geophysics Research Laboratory",
+    "Geological Survey of India",
+    "National Centre for Seismology",
+    "Indian Meteorological Department"
+   ],
+   "a": 0,
+   "x": "The Borehole Geophysics Research Laboratory at Karad conducts scientific deep drilling in India.",
+   "ty": "fact",
+   "tq": "Match a specialised facility with its institutional name.",
+   "sec": "Sources of information - direct vs indirect"
+  },
+  {
+   "s": "The National Centre for Seismology under the Ministry of Earth Sciences operates a network of approximately how many observatories for detecting Indian earthquakes of magnitude 3.0 and above?",
+   "o": [
+    "16",
+    "60",
+    "160",
+    "600"
+   ],
+   "a": 2,
+   "x": "The National Centre for Seismology operates a 160-observatory network that detects Indian earthquakes of magnitude 3.0 and above.",
+   "ty": "numerical",
+   "tq": "Distinguish the network size from nearby-looking numerical distractors.",
+   "sec": "Sources of information - direct vs indirect"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "SIAL — Silica and Magnesium; basaltic layer",
+    "SIMA — Silica and Aluminium; continental granitic layer",
+    "NIFE — Nickel and Ferrium; core zone",
+    "SIAL — Nickel and Iron; source of magma"
+   ],
+   "a": 2,
+   "x": "NIFE denotes the nickel–iron zone associated with the core. SIAL is silica–aluminium and SIMA is silica–magnesium.",
+   "ty": "match",
+   "tq": "Start with the distinctive chemical abbreviation and verify its elements and zone.",
+   "sec": "Composition of layers - SIAL, SIMA, NIFE; constituents of the core"
+  },
+  {
+   "s": "Which of the following correctly describes SIMA?",
+   "o": [
+    "A silica–oxygen layer forming the inner core",
+    "A silica–aluminium layer, mainly granitic, forming the continents",
+    "A silica–magnesium layer, mainly basaltic, and a source of magma",
+    "A nickel–iron layer with a density of about 11"
+   ],
+   "a": 2,
+   "x": "SIMA consists chiefly of silica and magnesium, is basaltic in character and is regarded as a source of magma.",
+   "ty": "fact",
+   "tq": "Distinguish SIMA from the similarly named SIAL by both chemistry and rock type.",
+   "sec": "Composition of layers - SIAL, SIMA, NIFE; constituents of the core"
+  },
+  {
+   "s": "The approximate density associated with the SIAL layer is:",
+   "o": [
+    "2.0",
+    "2.9",
+    "4.7",
+    "11"
+   ],
+   "a": 1,
+   "x": "SIAL, the continental granitic layer, has an approximate density of 2.9.",
+   "ty": "numerical",
+   "tq": "Link each density value to its corresponding chemical zone.",
+   "sec": "Composition of layers - SIAL, SIMA, NIFE; constituents of the core"
+  },
+  {
+   "s": "Which statement about the NIFE zone is correct?",
+   "o": [
+    "It consists mainly of nickel and iron, has a density of about 11, and is linked with Earth's magnetism.",
+    "It is the upper crust with a density of about 2.9.",
+    "It consists mainly of silica and aluminium and forms the continents.",
+    "It consists mainly of silica and magnesium and forms basaltic magma."
+   ],
+   "a": 0,
+   "x": "NIFE represents nickel and iron, is associated with the core, has a density of approximately 11 and helps explain Earth's magnetism.",
+   "ty": "fact",
+   "tq": "Use the chemical abbreviation, density and physical implication together.",
+   "sec": "Composition of layers - SIAL, SIMA, NIFE; constituents of the core"
+  },
+  {
+   "s": "Which element is the second most abundant by weight in the Earth's crust among the elements listed below?",
+   "o": [
+    "Aluminium",
+    "Silicon",
+    "Iron",
+    "Oxygen"
+   ],
+   "a": 1,
+   "x": "Oxygen is the most abundant element by weight in the crust, followed by silicon at approximately 27.72%.",
+   "ty": "numerical",
+   "tq": "Rank the supplied crustal percentages rather than using whole-Earth composition.",
+   "sec": "Composition of layers - SIAL, SIMA, NIFE; constituents of the core"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Element)\na. Oxygen\nb. Silicon\nc. Aluminium\nd. Iron\nList-II (Percentage by weight)\ni. 5.00\n ii. 46.60\n iii. 8.13\n iv. 27.72\nChoose the correct answer using the codes given below:",
+   "o": [
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–ii, c–i, d–iii",
+    "a–ii, b–iii, c–iv, d–i",
+    "a–i, b–iv, c–ii, d–iii"
+   ],
+   "a": 0,
+   "x": "The crustal percentages are oxygen 46.60%, silicon 27.72%, aluminium 8.13% and iron 5.00%.",
+   "ty": "match",
+   "tq": "Begin with the highest percentage and then verify the remaining numerical pairs.",
+   "sec": "Composition of layers - SIAL, SIMA, NIFE; constituents of the core"
+  },
+  {
+   "s": "Which statement correctly distinguishes the abundance of aluminium and iron?",
+   "o": [
+    "Iron is the most abundant metal in the crust, while aluminium is second.",
+    "Aluminium is the most abundant metal in the crust, while iron is second among metals.",
+    "Aluminium is absent from the crust but abundant in the core.",
+    "Both aluminium and iron occur in equal proportions in the crust."
+   ],
+   "a": 1,
+   "x": "Aluminium is the most abundant metal in the Earth's crust and iron is the second most abundant metal. For the whole Earth, however, iron dominates because of the iron-rich core.",
+   "ty": "comparison",
+   "tq": "Keep the comparison restricted to the crust, not the whole Earth.",
+   "sec": "Composition of layers - SIAL, SIMA, NIFE; constituents of the core"
+  },
+  {
+   "s": "Which type of seismic wave can travel through solids, liquids and gases and has the greatest velocity?",
+   "o": [
+    "S-wave",
+    "Tidal wave",
+    "Surface wave",
+    "P-wave"
+   ],
+   "a": 3,
+   "x": "P-waves are the fastest seismic waves and can pass through solids, liquids and gases.",
+   "ty": "fact",
+   "tq": "Use both medium of transmission and velocity to identify the wave.",
+   "sec": "Seismic waves through layers - P and S behaviour, shadow zone"
+  },
+  {
+   "s": "A seismic wave that cannot pass through a liquid layer is the:",
+   "o": [
+    "S-wave",
+    "P-wave",
+    "Surface wave",
+    "Primary atmospheric wave"
+   ],
+   "a": 0,
+   "x": "S-waves travel only through solids and therefore cannot pass through the liquid outer core.",
+   "ty": "confusable",
+   "tq": "Discriminate P-waves and S-waves by their ability to pass through liquids.",
+   "sec": "Seismic waves through layers - P and S behaviour, shadow zone"
+  },
+  {
+   "s": "The disappearance of S-waves in the outer core provides evidence that the outer core is:",
+   "o": [
+    "Liquid",
+    "Porous and granitic",
+    "Gaseous",
+    "Solid"
+   ],
+   "a": 0,
+   "x": "Since S-waves cannot travel through liquids and vanish on reaching the outer core, the outer core is inferred to be liquid.",
+   "ty": "application",
+   "tq": "Infer the physical state of a layer from wave behaviour.",
+   "sec": "Seismic waves through layers - P and S behaviour, shadow zone"
+  },
+  {
+   "s": "Which one of the following statements about seismic-wave behaviour is correct?",
+   "o": [
+    "Surface waves arrive first and cause the least damage.",
+    "S-waves are faster than P-waves and travel through gases.",
+    "P-waves cannot pass through the liquid outer core.",
+    "P-waves reach the inner core at approximately 11.23 km/s."
+   ],
+   "a": 3,
+   "x": "P-waves can pass through the outer core and reach the inner core at approximately 11.23 km/s. Surface waves arrive last and generally cause the greatest damage.",
+   "ty": "fact",
+   "tq": "Reject reversed wave properties and retain the precise velocity statement.",
+   "sec": "Seismic waves through layers - P and S behaviour, shadow zone"
+  },
+  {
+   "s": "Why do seismic waves help in identifying discontinuities inside the Earth?",
+   "o": [
+    "Their speed remains constant in all materials.",
+    "They are produced only by volcanic eruptions.",
+    "They travel only through the crust and stop at the Moho.",
+    "Their speed changes with density, causing reflection and refraction at layer boundaries."
+   ],
+   "a": 3,
+   "x": "Changes in density alter seismic-wave velocity and produce reflection and refraction at boundaries, revealing internal discontinuities.",
+   "ty": "application",
+   "tq": "Connect the observable wave effect with the inferred internal structure.",
+   "sec": "Seismic waves through layers - P and S behaviour, shadow zone"
+  },
+  {
+   "s": "The direct P-wave shadow zone is located approximately between:",
+   "o": [
+    "105° and 145° from the epicentre",
+    "145° and 180° from the epicentre",
+    "0° and 45° from the epicentre",
+    "45° and 90° from the epicentre"
+   ],
+   "a": 0,
+   "x": "The P-wave shadow zone is the belt approximately 105°–145° from the epicentre where direct P-waves are not recorded.",
+   "ty": "numerical",
+   "tq": "Recall the angular limits of the seismic shadow zone.",
+   "sec": "Seismic waves through layers - P and S behaviour, shadow zone"
+  },
+  {
+   "s": "Consider the following statements about seismic shadow zones:\n1. S-waves are absent everywhere beyond 105° from the epicentre.\n2. The S-wave shadow zone is larger than the P-wave shadow zone.\n3. Every earthquake has exactly the same shadow zone irrespective of its epicentre.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. The shadow zone is determined by the location of the earthquake's epicentre, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Find the false universal statement and compare the two shadow-zone sizes.",
+   "sec": "Seismic waves through layers - P and S behaviour, shadow zone"
+  },
+  {
+   "s": "An earthquake's shadow zone varies from one earthquake to another primarily because it is determined by the:",
+   "o": [
+    "Depth of the oceans alone",
+    "Age of the rocks in the crust",
+    "Location of the earthquake's epicentre",
+    "Direction of the Earth's magnetic axis"
+   ],
+   "a": 2,
+   "x": "Each earthquake has its own shadow zone because the zone is set by the location of its epicentre.",
+   "ty": "application",
+   "tq": "Identify the controlling geographical factor rather than a general Earth property.",
+   "sec": "Seismic waves through layers - P and S behaviour, shadow zone"
+  },
+  {
+   "s": "The Earth's magnetic field is primarily generated by:",
+   "o": [
+    "The concentration of aluminium in the continental crust",
+    "Dynamo action caused by convection of molten iron in the outer core",
+    "The reflection of solar radiation by the atmosphere",
+    "The rotation of the solid crust over the mantle"
+   ],
+   "a": 1,
+   "x": "Convection of molten iron in the outer core produces dynamo action, which generates Earth's magnetic field.",
+   "ty": "fact",
+   "tq": "Match the phenomenon with the internal process that generates it.",
+   "sec": "Earth's magnetic field - origin, axis inclination"
+  },
+  {
+   "s": "The magnetic axis of the Earth is inclined by approximately how much to its geographic axis?",
+   "o": [
+    "5.0°",
+    "11.5°",
+    "23.5°",
+    "45.0°"
+   ],
+   "a": 1,
+   "x": "The Earth's magnetic axis is inclined approximately 11.5° to its geographic axis.",
+   "ty": "numerical",
+   "tq": "Distinguish magnetic-axis inclination from the better-known seasonal axial tilt.",
+   "sec": "Earth's magnetic field - origin, axis inclination"
+  },
+  {
+   "s": "Assertion (A): The Earth's outer core is associated with the generation of its magnetic field.\nReason (R): Convection of molten iron in the outer core produces dynamo action.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and convection of molten iron producing dynamo action directly explains why the outer core generates Earth's magnetic field.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the reason gives the physical mechanism behind the assertion.",
+   "sec": "Earth's magnetic field - origin, axis inclination"
+  }
+ ]
+}

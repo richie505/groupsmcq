@@ -1,0 +1,569 @@
+{
+ "book": 4,
+ "row": 42,
+ "chunk": 0,
+ "section": "India - tiger reserves, elephant reserves, Ramsar sites, important bird areas",
+ "subsections": [
+  "Ramsar sites → state - latest additions, India's count, first site per state",
+  "Tiger reserves → state - critical tiger habitat size, newest reserves",
+  "Project Tiger - launch year, first reserves, NTCA, M-STrIPES, All India Tiger Estimation",
+  "Ramsar Convention - purpose, host town, wetland definition",
+  "Important Bird Areas and bird mass-mortality events → species (Telineelapuram, Telukunchi, Sambhar)",
+  "Bird sanctuaries → state/location - FIRST established"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 42,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "As of August 2026, India has how many Ramsar sites?",
+   "o": [
+    "98",
+    "99",
+    "100",
+    "101"
+   ],
+   "a": 3,
+   "x": "India had 101 Ramsar sites as of August 2026, the highest number in Asia.",
+   "ty": "numerical",
+   "tq": "Use the latest numerical milestone and distinguish it from the immediately preceding counts.",
+   "sec": "Ramsar sites → state - latest additions, India's count, first site per state"
+  },
+  {
+   "s": "Glaw Lake, recognised as India's 101st Ramsar site, is located in which State?",
+   "o": [
+    "Sikkim",
+    "Arunachal Pradesh",
+    "Nagaland",
+    "Assam"
+   ],
+   "a": 1,
+   "x": "Glaw Lake in Arunachal Pradesh became India's 101st Ramsar site on 3 August 2026.",
+   "ty": "fact",
+   "tq": "Test the newest addition through a site–state association.",
+   "sec": "Ramsar sites → state - latest additions, India's count, first site per state"
+  },
+  {
+   "s": "Consider the following statements regarding Glaw Lake:\n1. It is situated inside Kamlang Tiger Reserve.\n2. It is associated with the critically endangered white-bellied heron.\n3. It is the first Ramsar site of Arunachal Pradesh.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Glaw Lake lies within Kamlang Tiger Reserve, supports the white-bellied heron and is Arunachal Pradesh's first Ramsar site.",
+   "ty": "statements",
+   "tq": "Check whether the location, associated species and state milestone all belong to the same site.",
+   "sec": "Ramsar sites → state - latest additions, India's count, first site per state"
+  },
+  {
+   "s": "Which one of the following correctly identifies India's first Ramsar site and the year of its designation?",
+   "o": [
+    "Kolleru Lake — 2002",
+    "Chilika Lake — 1981",
+    "Sambhar Lake — 1990",
+    "Keoladeo — 1985"
+   ],
+   "a": 1,
+   "x": "Chilika Lake in Odisha was India's first Ramsar site, designated in 1981.",
+   "ty": "fact",
+   "tq": "Discriminate between similar wetland names by linking the first site with its year.",
+   "sec": "Ramsar sites → state - latest additions, India's count, first site per state"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Magadi Kere Conservation Reserve — Karnataka\n2. Kopra Reservoir — Chhattisgarh\n3. Kanwar (Kabar) Taal — Bihar\n4. Kolleru — Andhra Pradesh",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct. Magadi Kere is in Karnataka, Kopra Reservoir in Chhattisgarh, Kanwar Taal in Bihar and Kolleru in Andhra Pradesh.",
+   "ty": "statements",
+   "tq": "Verify each site–state pair independently before selecting the coded combination.",
+   "sec": "Ramsar sites → state - latest additions, India's count, first site per state"
+  },
+  {
+   "s": "Which of the following was the first Ramsar site of Bihar, designated in 2020?",
+   "o": [
+    "Udaipur Jheel",
+    "Gogabeel",
+    "Gokul Jalashay",
+    "Kanwar (Kabar) Taal"
+   ],
+   "a": 3,
+   "x": "Kanwar (Kabar) Taal was Bihar's first Ramsar site and was designated in 2020.",
+   "ty": "fact",
+   "tq": "Separate the first site of a State from its later additions.",
+   "sec": "Ramsar sites → state - latest additions, India's count, first site per state"
+  },
+  {
+   "s": "Kopra Reservoir is notable as which of the following?",
+   "o": [
+    "The first Ramsar site of Andhra Pradesh",
+    "India's first Ramsar site",
+    "The first Ramsar site of Odisha",
+    "The first Ramsar site of Chhattisgarh"
+   ],
+   "a": 3,
+   "x": "Kopra Reservoir became Chhattisgarh's first Ramsar site in 2026.",
+   "ty": "fact",
+   "tq": "Test the State-specific milestone instead of merely identifying the wetland's location.",
+   "sec": "Ramsar sites → state - latest additions, India's count, first site per state"
+  },
+  {
+   "s": "Which one of the following sets contains only Ramsar sites of Bihar mentioned among the recent additions?",
+   "o": [
+    "Gogabeel, Gokul Jalashay and Udaipur Jheel",
+    "Patna Bird Sanctuary, Gogabeel and Kolleru",
+    "Kanwar Taal, Thol Lake and Udaipur Jheel",
+    "Magadi Kere, Gogabeel and Gokul Jalashay"
+   ],
+   "a": 0,
+   "x": "Gogabeel, Gokul Jalashay and Udaipur Jheel are the three Bihar additions listed. Patna Bird Sanctuary is in Uttar Pradesh, while Thol Lake and Magadi Kere are in Gujarat and Karnataka respectively.",
+   "ty": "match",
+   "tq": "Group the sites by State and eliminate sets containing one misplaced wetland.",
+   "sec": "Ramsar sites → state - latest additions, India's count, first site per state"
+  },
+  {
+   "s": "Which of the following statements regarding Ramsar sites in Odisha is correct?",
+   "o": [
+    "Odisha has six Ramsar sites, including Chilika and Satkosia Gorge.",
+    "Odisha has only one Ramsar site, namely Chilika.",
+    "Odisha's six sites include Sambhar and Keoladeo.",
+    "Odisha has six sites, all of which are freshwater lakes."
+   ],
+   "a": 0,
+   "x": "Odisha has six listed sites: Chilika, Bhitarkanika, Ansupa, Tampara, Hirakud and Satkosia Gorge.",
+   "ty": "fact",
+   "tq": "Use the exact State count and detect wrong inclusions or altered classifications.",
+   "sec": "Ramsar sites → state - latest additions, India's count, first site per state"
+  },
+  {
+   "s": "How many tiger reserves were reported in India in 2026, and across how many States do they extend?",
+   "o": [
+    "60 reserves across 18 States",
+    "58 reserves across 20 States",
+    "58 reserves across 18 States",
+    "56 reserves across 18 States"
+   ],
+   "a": 2,
+   "x": "India had 58 tiger reserves spread across 18 States in 2026.",
+   "ty": "numerical",
+   "tq": "Keep the reserve count and State coverage separate when comparing close numerical options.",
+   "sec": "Tiger reserves → state - critical tiger habitat size, newest reserves"
+  },
+  {
+   "s": "The 58 tiger reserves together covered approximately what area and what share of India's area?",
+   "o": [
+    "94,488 sq km and 2.6%",
+    "84,488 sq km and 2.6%",
+    "84,488 sq km and 3.6%",
+    "75,796 sq km and 2.1%"
+   ],
+   "a": 1,
+   "x": "The tiger reserves covered 84,488 sq km, approximately 2.6% of India's area.",
+   "ty": "numerical",
+   "tq": "Match the exact area with its corresponding percentage and reject altered figures.",
+   "sec": "Tiger reserves → state - critical tiger habitat size, newest reserves"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Indravati — Odisha",
+    "Buxa — West Bengal",
+    "Sariska — Rajasthan",
+    "Periyar — Kerala"
+   ],
+   "a": 0,
+   "x": "Indravati Tiger Reserve is in Chhattisgarh, not Odisha. Satkosia is the reserve in Odisha among the listed examples.",
+   "ty": "negative",
+   "tq": "Find the single wrong reserve–State association using neighbouring State traps.",
+   "sec": "Tiger reserves → state - critical tiger habitat size, newest reserves"
+  },
+  {
+   "s": "Satkosia Tiger Reserve comprises which of the following protected areas?",
+   "o": [
+    "Satkosia Gorge and Debrigarh Wildlife Sanctuary",
+    "Bhitarkanika and Baisipalli Wildlife Sanctuary",
+    "Satkosia Gorge and Baisipalli Wildlife Sanctuary",
+    "Similipal and Satkosia Gorge"
+   ],
+   "a": 2,
+   "x": "Satkosia Tiger Reserve comprises Satkosia Gorge and Baisipalli Wildlife Sanctuary; Debrigarh is not part of its stated composition.",
+   "ty": "fact",
+   "tq": "Use a composition question to distinguish the correct protected-area combination from a nearby name.",
+   "sec": "Tiger reserves → state - critical tiger habitat size, newest reserves"
+  },
+  {
+   "s": "Which of the following tiger reserves is located in Uttar Pradesh and forms the buffer of Corbett Tiger Reserve?",
+   "o": [
+    "Sariska",
+    "Buxa",
+    "Palamau",
+    "Amangarh"
+   ],
+   "a": 3,
+   "x": "Amangarh Tiger Reserve is in Uttar Pradesh and serves as the buffer of Corbett Tiger Reserve.",
+   "ty": "fact",
+   "tq": "Test the reserve–State–functional relationship as a three-part association.",
+   "sec": "Tiger reserves → state - critical tiger habitat size, newest reserves"
+  },
+  {
+   "s": "Arrange the following tiger reserves in chronological order of their designation as the 56th, 57th and 58th reserves:\nA. Madhav\nB. Guru Ghasidas–Tamor Pingla\nC. Ratapani\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "B, C, A",
+    "C, B, A",
+    "B, A, C",
+    "A, C, B"
+   ],
+   "a": 0,
+   "x": "Guru Ghasidas–Tamor Pingla was the 56th, Ratapani the 57th in 2024, and Madhav the 58th in 2025.",
+   "ty": "chronology",
+   "tq": "Anchor the sequence to the reserve numbers before arranging the dates.",
+   "sec": "Tiger reserves → state - critical tiger habitat size, newest reserves"
+  },
+  {
+   "s": "Which one of the following statements about Palamau Tiger Reserve is correct?",
+   "o": [
+    "It was the 58th tiger reserve and lies in Madhya Pradesh.",
+    "It is located in Chhattisgarh and is linked to Kanha.",
+    "It was one of the original nine Project Tiger reserves and Betla National Park forms its core.",
+    "It was India's first tiger reserve, established in 1973."
+   ],
+   "a": 2,
+   "x": "Palamau in Jharkhand was one of the original nine reserves, and Betla National Park forms its core.",
+   "ty": "fact",
+   "tq": "Distinguish an original reserve from recently created reserves and compare their States.",
+   "sec": "Tiger reserves → state - critical tiger habitat size, newest reserves"
+  },
+  {
+   "s": "Panna Tiger Reserve was declared a UNESCO Biosphere Reserve in which year?",
+   "o": [
+    "2018",
+    "2019",
+    "2020",
+    "2022"
+   ],
+   "a": 2,
+   "x": "Panna became a UNESCO Biosphere Reserve in 2020.",
+   "ty": "numerical",
+   "tq": "Test the precise year attached to a conservation-status milestone.",
+   "sec": "Tiger reserves → state - critical tiger habitat size, newest reserves"
+  },
+  {
+   "s": "Which tiger reserve was the first reserve under Project Tiger, becoming operational on 1 April 1973?",
+   "o": [
+    "Ranthambore",
+    "Kanha",
+    "Palamau",
+    "Corbett"
+   ],
+   "a": 3,
+   "x": "Corbett was the first Project Tiger reserve and became operational on 1 April 1973.",
+   "ty": "fact",
+   "tq": "Separate the first reserve from other original reserves and later-famous reserves.",
+   "sec": "Project Tiger - launch year, first reserves, NTCA, M-STrIPES, All India Tiger Estimation"
+  },
+  {
+   "s": "Consider the following statements about the National Tiger Conservation Authority:\n1. It is a statutory body under the Wildlife Protection Act, 1972.\n2. Its statutory basis was strengthened through the 2006 amendment.\n3. It implements Project Tiger under the Ministry of Environment, Forest and Climate Change.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. NTCA is statutory under the Wildlife Protection Act, with the 2006 amendment providing its present statutory framework, and it implements Project Tiger under MoEFCC.",
+   "ty": "statements",
+   "tq": "Check the legal basis, amendment and administrative ministry separately.",
+   "sec": "Project Tiger - launch year, first reserves, NTCA, M-STrIPES, All India Tiger Estimation"
+  },
+  {
+   "s": "The All India Tiger Estimation is conducted at what interval and jointly by which organisations?",
+   "o": [
+    "Every five years by MoEFCC and BNHS",
+    "Every three years by WII and Forest Survey of India",
+    "Every four years by NTCA and WII",
+    "Every two years by NTCA and Zoological Survey of India"
+   ],
+   "a": 2,
+   "x": "All India Tiger Estimation is conducted every four years by NTCA and the Wildlife Institute of India.",
+   "ty": "fact",
+   "tq": "Match frequency with the correct institutional partnership.",
+   "sec": "Project Tiger - launch year, first reserves, NTCA, M-STrIPES, All India Tiger Estimation"
+  },
+  {
+   "s": "All India Tiger Estimation is recognised as the world's largest camera-trap survey. This recognition is associated with which organisation?",
+   "o": [
+    "UNESCO World Heritage Committee",
+    "BirdLife International",
+    "Guinness World Records",
+    "Ramsar Convention"
+   ],
+   "a": 2,
+   "x": "The survey holds recognition as the world's largest camera-trap survey in the Guinness record framework.",
+   "ty": "fact",
+   "tq": "Identify the external recognition body rather than the agency conducting the survey.",
+   "sec": "Project Tiger - launch year, first reserves, NTCA, M-STrIPES, All India Tiger Estimation"
+  },
+  {
+   "s": "Which of the following correctly describes the fifth cycle of All India Tiger Estimation conducted in 2022?",
+   "o": [
+    "3,925 tigers, with an upper estimate of 3,682",
+    "3,682 tigers, with an upper estimate of 3,925",
+    "2,967 tigers, with an upper estimate of 3,682",
+    "3,682 tigers, with an upper estimate of 4,925"
+   ],
+   "a": 1,
+   "x": "The 2022 estimation recorded 3,682 tigers, with an upper estimate of 3,925.",
+   "ty": "numerical",
+   "tq": "Distinguish the principal estimate from the upper estimate in paired figures.",
+   "sec": "Project Tiger - launch year, first reserves, NTCA, M-STrIPES, All India Tiger Estimation"
+  },
+  {
+   "s": "Consider the following statements regarding the 2022 tiger estimation:\n1. The estimated tiger population was 3,682.\n2. The annual growth rate was 6.1%.\n3. India supported approximately 70% of the world's wild tigers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct for the 2022 estimation: 3,682 tigers, 6.1% annual growth and approximately 70% of the world's wild tiger population.",
+   "ty": "statements",
+   "tq": "Combine the population, growth-rate and global-share figures without confusing them with the upper estimate.",
+   "sec": "Project Tiger - launch year, first reserves, NTCA, M-STrIPES, All India Tiger Estimation"
+  },
+  {
+   "s": "In the Management Effectiveness Evaluation of 2022, how many tiger reserves were assessed and how many were rated 'Excellent'?",
+   "o": [
+    "58 assessed and 12 rated Excellent",
+    "51 assessed and 12 rated Excellent",
+    "51 assessed and 18 rated Excellent",
+    "49 assessed and 10 rated Excellent"
+   ],
+   "a": 1,
+   "x": "The evaluation assessed 51 tiger reserves, of which 12 received the rating 'Excellent'.",
+   "ty": "numerical",
+   "tq": "Pair the assessment coverage with the top-rating count.",
+   "sec": "Project Tiger - launch year, first reserves, NTCA, M-STrIPES, All India Tiger Estimation"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "World Tiger Day — 2 February",
+    "World Tiger Day — 29 July",
+    "World Wetlands Day — 29 July",
+    "World Wetlands Day — 1 April"
+   ],
+   "a": 1,
+   "x": "World Tiger Day is observed on 29 July, whereas World Wetlands Day is observed on 2 February.",
+   "ty": "confusable",
+   "tq": "Discriminate between two conservation observances with different dates.",
+   "sec": "Project Tiger - launch year, first reserves, NTCA, M-STrIPES, All India Tiger Estimation"
+  },
+  {
+   "s": "The Ramsar Convention was signed in 1971 at Ramsar in Iran primarily for which purpose?",
+   "o": [
+    "Regulation of international tiger trade",
+    "Conservation and wise use of wetlands",
+    "Control of transboundary river pollution only",
+    "Protection of endangered birds alone"
+   ],
+   "a": 1,
+   "x": "The Ramsar Convention was adopted in 1971 at Ramsar, Iran, for the conservation and wise use of wetlands.",
+   "ty": "fact",
+   "tq": "Test the treaty's purpose while rejecting narrower or unrelated conservation objectives.",
+   "sec": "Ramsar Convention - purpose, host town, wetland definition"
+  },
+  {
+   "s": "India became a party to the Ramsar Convention in which year?",
+   "o": [
+    "1971",
+    "1978",
+    "1981",
+    "1982"
+   ],
+   "a": 3,
+   "x": "India joined the Ramsar Convention in 1982.",
+   "ty": "numerical",
+   "tq": "Separate the Convention's adoption year from India's accession year.",
+   "sec": "Ramsar Convention - purpose, host town, wetland definition"
+  },
+  {
+   "s": "Which of the following are included in the Ramsar definition of a wetland?\n1. Marshes, fens and peatlands\n2. Natural or artificial water bodies\n3. Fresh, brackish or salt water\n4. Marine water up to 6 metres deep at low tide\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The Ramsar definition includes all four categories: marshes, fens, peatlands, natural or artificial water, waters of different salinities and qualifying shallow marine water.",
+   "ty": "statements",
+   "tq": "Read the definition inclusively and check each listed component.",
+   "sec": "Ramsar Convention - purpose, host town, wetland definition"
+  },
+  {
+   "s": "The Montreux Record is maintained for Ramsar sites that are which of the following?",
+   "o": [
+    "More than 100 years old",
+    "Threatened or undergoing adverse ecological change",
+    "Located only in coastal areas",
+    "Declared as UNESCO World Heritage Sites"
+   ],
+   "a": 1,
+   "x": "The Montreux Record lists Ramsar sites where ecological character has changed, is changing or is likely to change adversely.",
+   "ty": "fact",
+   "tq": "Identify the purpose of a specialised conservation register rather than its location or age criterion.",
+   "sec": "Ramsar Convention - purpose, host town, wetland definition"
+  },
+  {
+   "s": "Which pair of Indian wetlands is included in the Montreux Record?",
+   "o": [
+    "Keoladeo and Loktak",
+    "Chilika and Kolleru",
+    "Sambhar and Pulicat",
+    "Wular and Kanwar Taal"
+   ],
+   "a": 0,
+   "x": "India's wetlands listed in the Montreux Record are Keoladeo and Loktak.",
+   "ty": "match",
+   "tq": "Start with the sure pair associated with the threatened-site register.",
+   "sec": "Ramsar Convention - purpose, host town, wetland definition"
+  },
+  {
+   "s": "Under the judicial restriction described for Ramsar sites, mining within 10 km requires approval from which authority or authorities?",
+   "o": [
+    "Only the State Pollution Control Board",
+    "NBWL and MoEFCC",
+    "District Collector and Gram Sabha alone",
+    "Only the Ramsar Secretariat"
+   ],
+   "a": 1,
+   "x": "Mining within 10 km requires approval from the National Board for Wildlife and the Ministry of Environment, Forest and Climate Change.",
+   "ty": "application",
+   "tq": "Ask which authority would legally clear the regulated activity instead of choosing a local body by default.",
+   "sec": "Ramsar Convention - purpose, host town, wetland definition"
+  },
+  {
+   "s": "Which organisation designates Important Bird Areas globally, and which organisation is its Indian partner?",
+   "o": [
+    "BirdLife International and BNHS",
+    "BNHS and BirdLife International",
+    "Ramsar Secretariat and WII",
+    "UNESCO and ZSI"
+   ],
+   "a": 0,
+   "x": "Important Bird Areas are a BirdLife International designation, with the Bombay Natural History Society as its Indian partner.",
+   "ty": "match",
+   "tq": "Distinguish the international designating body from its national partner.",
+   "sec": "Important Bird Areas and bird mass-mortality events → species (Telineelapuram, Telukunchi, Sambhar)"
+  },
+  {
+   "s": "Telineelapuram and Telukunchi in Andhra Pradesh are Important Bird Areas principally associated with breeding populations of which birds?",
+   "o": [
+    "Amur falcons and bar-headed geese",
+    "Painted storks and spot-billed pelicans",
+    "Olive ridleys and greater flamingos",
+    "Sarus cranes and black-necked cranes"
+   ],
+   "a": 1,
+   "x": "Telineelapuram and Telukunchi in Srikakulam are Important Bird Areas for breeding painted storks and spot-billed pelicans.",
+   "ty": "fact",
+   "tq": "Link the two similar Andhra Pradesh sites to their characteristic breeding species.",
+   "sec": "Important Bird Areas and bird mass-mortality events → species (Telineelapuram, Telukunchi, Sambhar)"
+  },
+  {
+   "s": "The mass mortality of migratory birds at Sambhar Lake in November 2019 was caused by which disease?",
+   "o": [
+    "Newcastle disease",
+    "West Nile fever",
+    "Avian botulism",
+    "Avian influenza"
+   ],
+   "a": 2,
+   "x": "The mass death of migratory birds at Sambhar Lake was attributed to avian botulism.",
+   "ty": "fact",
+   "tq": "Match the mortality event with its specific disease rather than a more familiar bird disease.",
+   "sec": "Important Bird Areas and bird mass-mortality events → species (Telineelapuram, Telukunchi, Sambhar)"
+  },
+  {
+   "s": "The Rushikulya mouth Important Bird Area in Odisha is particularly known for which phenomenon?",
+   "o": [
+    "Pelican mass mortality",
+    "Siberian crane nesting",
+    "Flamingo breeding in artificial ponds",
+    "Olive ridley arribada"
+   ],
+   "a": 3,
+   "x": "The Rushikulya mouth hosts the olive ridley arribada, the mass nesting congregation of olive ridley turtles.",
+   "ty": "fact",
+   "tq": "Identify the signature ecological event associated with the site.",
+   "sec": "Important Bird Areas and bird mass-mortality events → species (Telineelapuram, Telukunchi, Sambhar)"
+  },
+  {
+   "s": "Which one of the following is correctly matched with its State or location?",
+   "o": [
+    "Ranganathittu Bird Sanctuary — Kaveri islets in Mandya, Karnataka",
+    "Pitti Bird Sanctuary — Gurugram, Haryana",
+    "Sultanpur Bird Sanctuary — Lakshadweep",
+    "Nal Sarovar Bird Sanctuary — Tamil Nadu"
+   ],
+   "a": 0,
+   "x": "Ranganathittu is situated on islets of the Kaveri in Mandya district of Karnataka. Pitti is in Lakshadweep, Sultanpur is in Haryana and Nal Sarovar is in Gujarat.",
+   "ty": "match",
+   "tq": "Use location clues to eliminate sanctuary–State swaps.",
+   "sec": "Bird sanctuaries → state/location - FIRST established"
+  },
+  {
+   "s": "Which bird sanctuary is regarded as India's oldest water-bird sanctuary, established in 1858?",
+   "o": [
+    "Vedanthangal",
+    "Ranganathittu",
+    "Bharatpur",
+    "Nal Sarovar"
+   ],
+   "a": 0,
+   "x": "Vedanthangal Bird Sanctuary in Tamil Nadu is regarded as India's oldest water-bird sanctuary, established in 1858.",
+   "ty": "numerical",
+   "tq": "Associate the earliest establishment year with the correct sanctuary rather than the famous Ramsar site.",
+   "sec": "Bird sanctuaries → state/location - FIRST established"
+  },
+  {
+   "s": "Which of the following statements about bird sanctuaries is correct?\n1. Bharatpur is also known as Keoladeo.\n2. Bharatpur is in Rajasthan and is a Ramsar site as well as a UNESCO World Heritage Site.\n3. Pitti is a seabird islet in Lakshadweep.\n4. Sultanpur is located in Gurugram, Haryana.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Bharatpur is Keoladeo in Rajasthan with both Ramsar and UNESCO World Heritage status; Pitti is in Lakshadweep and Sultanpur is in Gurugram, Haryana.",
+   "ty": "statements",
+   "tq": "Verify multiple sanctuary aliases, statuses and locations before selecting the complete combination.",
+   "sec": "Bird sanctuaries → state/location - FIRST established"
+  },
+  {
+   "s": "Which of the following sets contains only bird sanctuaries located in Andhra Pradesh as listed?",
+   "o": [
+    "Vedanthangal, Nelapattu and Pulicat",
+    "Nelapattu, Pulicat and Kolleru",
+    "Kolleru, Sultanpur and Pulicat",
+    "Nelapattu, Pitti and Kolleru"
+   ],
+   "a": 1,
+   "x": "The Andhra Pradesh sanctuaries listed are Nelapattu, Pulicat and Kolleru; Pulicat and Nelapattu are associated with Tirupati, while Kolleru is associated with Eluru.",
+   "ty": "odd_one_out",
+   "tq": "Group the State-specific sanctuaries and identify sets containing an outside location.",
+   "sec": "Bird sanctuaries → state/location - FIRST established"
+  }
+ ]
+}

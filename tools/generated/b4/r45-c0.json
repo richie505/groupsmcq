@@ -1,0 +1,583 @@
+{
+ "book": 4,
+ "row": 45,
+ "chunk": 0,
+ "section": "India - earthquake zones, landslide-prone areas, cyclone-prone coasts; seismic zoning map",
+ "subsections": [
+  "Seismic zones → states and cities, and states with no Zone V area",
+  "Seismic zoning map - number of zones, revisions after major earthquakes (Killari), zones merged",
+  "Cyclone-prone coasts - east vs west coast frequency, most vulnerable states, NDMA-IMD hazard-prone districts",
+  "Landslide hazard zonation - terms and most-prone regions",
+  "Major disasters in India → type and place",
+  "Vulnerability profile of India - share of land prone to hazards"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 44,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "India is situated on which major seismic belt?",
+   "o": [
+    "Circum-Pacific belt",
+    "Mid-Atlantic Ridge belt",
+    "Alpine-Himalayan belt",
+    "East African Rift belt"
+   ],
+   "a": 2,
+   "x": "India lies on the Alpine-Himalayan belt, one of the major active seismic belts of the world.",
+   "ty": "fact",
+   "tq": "Direct geographical identification of the relevant seismic belt.",
+   "sec": "Seismic zones → states and cities, and states with no Zone V area  [APPSC]"
+  },
+  {
+   "s": "Which one of the following sets correctly represents areas included in Seismic Zone V?",
+   "o": [
+    "Only the Himalayan states and the Lakshadweep Islands",
+    "Most of coastal Andhra Pradesh, Delhi and the Western Ghats",
+    "Delhi, Amaravati and most of the southern peninsula",
+    "Entire North-East, Jammu and Kashmir, Ladakh, Himachal Pradesh, Uttarakhand, north Bihar, Kutch and the Andaman and Nicobar Islands"
+   ],
+   "a": 3,
+   "x": "Zone V includes the entire North-East, Jammu and Kashmir, Ladakh, Himachal Pradesh, Uttarakhand, north Bihar, Kutch and the Andaman and Nicobar Islands.",
+   "ty": "comparison",
+   "tq": "Uses a region-to-zone comparison and tests the complete membership of a high-risk zone.",
+   "sec": "Seismic zones → states and cities, and states with no Zone V area  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding seismic zones in India:\n1. Delhi falls in Seismic Zone IV.\n2. Amaravati region falls in Seismic Zone III.\n3. Most of the stable southern peninsula falls in Seismic Zone II.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Delhi is in Zone IV, Amaravati is in Zone III, and most of the stable southern peninsula is in Zone II.",
+   "ty": "statements",
+   "tq": "Combines zone classification statements and requires checking each regional assignment.",
+   "sec": "Seismic zones → states and cities, and states with no Zone V area  [APPSC]"
+  },
+  {
+   "s": "The Indo-Gangetic plain, particularly Bihar, Uttar Pradesh and West Bengal, is highly prone to which seismic hazard?",
+   "o": [
+    "Soil liquefaction",
+    "Volcanic ash fall",
+    "Tsunami inundation",
+    "Lava flow"
+   ],
+   "a": 0,
+   "x": "The Indo-Gangetic plain, including Bihar, Uttar Pradesh and West Bengal, is highly prone to soil liquefaction during earthquakes.",
+   "ty": "application",
+   "tq": "Tests the association between a physical region and its characteristic earthquake hazard.",
+   "sec": "Seismic zones → states and cities, and states with no Zone V area  [APPSC]"
+  },
+  {
+   "s": "Which of the following is an example of a region where severe intraplate earthquakes may occur?",
+   "o": [
+    "The Lakshadweep coral islands alone",
+    "Latur, Koyna and Jabalpur in the peninsula",
+    "The Sundarbans delta alone",
+    "The Thar Desert dunes alone"
+   ],
+   "a": 1,
+   "x": "Latur, Koyna and Jabalpur are peninsular locations that can experience severe intraplate earthquakes.",
+   "ty": "fact",
+   "tq": "Links a group of named places with the specific type of earthquake hazard.",
+   "sec": "Seismic zones → states and cities, and states with no Zone V area  [APPSC]"
+  },
+  {
+   "s": "Under the official seismic zoning map based on IS 1893 and BIS, how many zones are presently applicable?",
+   "o": [
+    "Three",
+    "Six",
+    "Four",
+    "Five"
+   ],
+   "a": 2,
+   "x": "The official map presently contains four zones: Zones II, III, IV and V.",
+   "ty": "numerical",
+   "tq": "Tests the current official count while distinguishing it from a proposed revision.",
+   "sec": "Seismic zoning map - number of zones, revisions after major earthquakes (Killari), zones merged  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the effect of the 1993 Killari earthquake on seismic zoning?",
+   "o": [
+    "Old Zone II was merged into Zone I in the 1993 revision.",
+    "All four zones were merged into a single national zone.",
+    "Old Zone I was merged into Zone II in the 2002 revision.",
+    "Zone V was abolished and replaced by Zone VI."
+   ],
+   "a": 2,
+   "x": "The 1993 Killari earthquake occurred in a low-risk area and led to the 2002 revision, in which old Zone I was merged into Zone II.",
+   "ty": "confusable",
+   "tq": "Tests the direction of the zone merger and the year of the revision.",
+   "sec": "Seismic zoning map - number of zones, revisions after major earthquakes (Killari), zones merged  [APPSC]"
+  },
+  {
+   "s": "The proposed revised seismic zoning map used which method for assessing earthquake hazard?",
+   "o": [
+    "Historical monument assessment",
+    "Population density assessment only",
+    "Probabilistic Seismic Hazard Assessment",
+    "Rainfall frequency assessment"
+   ],
+   "a": 2,
+   "x": "The proposed BIS revision used Probabilistic Seismic Hazard Assessment, abbreviated as PSHA.",
+   "ty": "fact",
+   "tq": "Directly tests the technical method associated with the proposed map.",
+   "sec": "Seismic zoning map - number of zones, revisions after major earthquakes (Killari), zones merged  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the proposed BIS seismic zoning revision:\n1. It proposed a new highest Zone VI.\n2. Zone VI was proposed for parts of Kashmir, the North-East and Kutch.\n3. The revision placed more than 60 per cent of India’s landmass in moderate-to-high risk zones.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct regarding the proposed revision. It added Zone VI, identified parts of Kashmir, the North-East and Kutch, and placed over 60 per cent of the landmass in moderate-to-high zones.",
+   "ty": "statements",
+   "tq": "Uses a multi-statement question to separate the proposed map from the presently applicable map.",
+   "sec": "Seismic zoning map - number of zones, revisions after major earthquakes (Killari), zones merged  [APPSC]"
+  },
+  {
+   "s": "The PGA values in the proposed revised seismic zoning map ranged approximately from:",
+   "o": [
+    "0.01 g to 0.10 g",
+    "0.05 g to 0.50 g",
+    "0.75 g to 1.50 g",
+    "0.15 g to 0.75 g"
+   ],
+   "a": 3,
+   "x": "The proposed map assigned PGA values ranging from 0.15 g to 0.75 g for Zones II to VI.",
+   "ty": "numerical",
+   "tq": "Tests a technical numerical range with close alternative ranges.",
+   "sec": "Seismic zoning map - number of zones, revisions after major earthquakes (Killari), zones merged  [APPSC]"
+  },
+  {
+   "s": "The proposed revised seismic zoning map drew upon approximately how many earthquake events recorded between 2600 BC and 2019?",
+   "o": [
+    "6,951",
+    "36,519",
+    "69,519",
+    "96,519"
+   ],
+   "a": 2,
+   "x": "The study drew upon 69,519 earthquake events covering the period from 2600 BC to 2019.",
+   "ty": "numerical",
+   "tq": "Tests a precise study figure and its order of magnitude.",
+   "sec": "Seismic zoning map - number of zones, revisions after major earthquakes (Killari), zones merged  [APPSC]"
+  },
+  {
+   "s": "The proposed seismic zoning study divided India into how many seismogenic source zones?",
+   "o": [
+    "16",
+    "26",
+    "36",
+    "46"
+   ],
+   "a": 2,
+   "x": "The study used 36 seismogenic source zones.",
+   "ty": "numerical",
+   "tq": "Direct numerical recall of a technical study parameter.",
+   "sec": "Seismic zoning map - number of zones, revisions after major earthquakes (Killari), zones merged  [APPSC]"
+  },
+  {
+   "s": "What happened to the proposed seismic zoning revision in March 2026?",
+   "o": [
+    "It was expanded to include only coastal districts.",
+    "It replaced Zone V with Zone I.",
+    "It was implemented nationwide without modification.",
+    "It was rolled back following criticism of its methodology and cost."
+   ],
+   "a": 3,
+   "x": "The Centre rolled back the proposed revision in March 2026 after criticism concerning its methodology and cost; consequently, the four-zone map continued to apply.",
+   "ty": "fact",
+   "tq": "Tests the current status of a proposed policy change rather than its proposal alone.",
+   "sec": "Seismic zoning map - number of zones, revisions after major earthquakes (Killari), zones merged  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding cyclone occurrence in India is correct?",
+   "o": [
+    "Cyclones affect only the Bay of Bengal coast.",
+    "The Arabian Sea generates about four times as many cyclones as the Bay of Bengal.",
+    "The west coast receives all severe cyclones affecting India.",
+    "Both the Bay of Bengal and the Arabian Sea generate cyclones, but the east coast receives far more of them."
+   ],
+   "a": 3,
+   "x": "Cyclones affect both coasts, but the east coast receives far more because the Bay of Bengal generates about four times as many cyclones as the Arabian Sea.",
+   "ty": "comparison",
+   "tq": "Uses a reversed-coast trap to test east–west cyclone frequency.",
+   "sec": "Cyclone-prone coasts - east vs west coast frequency, most vulnerable states, NDMA-IMD hazard-prone districts  [APPSC]"
+  },
+  {
+   "s": "Which State is considered the most cyclone-prone State in India?",
+   "o": [
+    "West Bengal",
+    "Tamil Nadu",
+    "Andhra Pradesh",
+    "Odisha"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh is identified as the most cyclone-prone State, followed by Odisha, Tamil Nadu and West Bengal.",
+   "ty": "fact",
+   "tq": "Direct ranking question using closely associated coastal States as distractors.",
+   "sec": "Cyclone-prone coasts - east vs west coast frequency, most vulnerable states, NDMA-IMD hazard-prone districts  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT one of the locations of an IMD cyclone warning centre?",
+   "o": [
+    "Hyderabad",
+    "Bhubaneswar",
+    "Visakhapatnam",
+    "Thiruvananthapuram"
+   ],
+   "a": 0,
+   "x": "The seven IMD cyclone warning centres are Chennai, Mumbai, Kolkata, Ahmedabad, Thiruvananthapuram, Visakhapatnam and Bhubaneswar. Hyderabad is not among them.",
+   "ty": "negative",
+   "tq": "Finds the one location that does not belong to a named institutional list.",
+   "sec": "Cyclone-prone coasts - east vs west coast frequency, most vulnerable states, NDMA-IMD hazard-prone districts  [APPSC]"
+  },
+  {
+   "s": "The number of cyclone warning centres operated by the India Meteorological Department is:",
+   "o": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "a": 2,
+   "x": "The IMD has seven cyclone warning centres.",
+   "ty": "numerical",
+   "tq": "Direct count question with nearby numerical distractors.",
+   "sec": "Cyclone-prone coasts - east vs west coast frequency, most vulnerable states, NDMA-IMD hazard-prone districts  [APPSC]"
+  },
+  {
+   "s": "At a five-day lead time, severe-weather forecasting has improved by approximately:",
+   "o": [
+    "20–30 per cent",
+    "70–80 per cent",
+    "40–50 per cent",
+    "10–20 per cent"
+   ],
+   "a": 2,
+   "x": "Severe-weather forecasts have improved by approximately 40–50 per cent at a five-day lead time.",
+   "ty": "numerical",
+   "tq": "Tests a reported improvement range rather than a single exact figure.",
+   "sec": "Cyclone-prone coasts - east vs west coast frequency, most vulnerable states, NDMA-IMD hazard-prone districts  [APPSC]"
+  },
+  {
+   "s": "Which combination contains only appropriate cyclone-risk reduction measures?",
+   "o": [
+    "Cloud seeding, mining and diversion of coastal rivers",
+    "Early warning, cyclone shelters, evacuation, shelter belts and mangroves",
+    "Deforestation, delayed evacuation and removal of mangroves",
+    "Construction on dunes, removal of shelters and embankment cutting"
+   ],
+   "a": 1,
+   "x": "Early warning, cyclone shelters, evacuation, shelter belts and mangroves are important cyclone-risk reduction measures.",
+   "ty": "application",
+   "tq": "Applies disaster-management principles to identify the complete valid set of measures.",
+   "sec": "Cyclone-prone coasts - east vs west coast frequency, most vulnerable states, NDMA-IMD hazard-prone districts  [APPSC]"
+  },
+  {
+   "s": "Landslide Hazard Zonation primarily divides hill areas into:",
+   "o": [
+    "River basins based only on annual discharge",
+    "Urban wards based only on building density",
+    "Administrative districts based only on population",
+    "Homogeneous units based on actual or potential susceptibility, hazard or risk"
+   ],
+   "a": 3,
+   "x": "Landslide Hazard Zonation divides hill areas into homogeneous units according to actual or potential susceptibility, hazard or risk.",
+   "ty": "fact",
+   "tq": "Tests the precise definition of a technical geographical term.",
+   "sec": "Landslide hazard zonation - terms and most-prone regions  [APPSC]"
+  },
+  {
+   "s": "Landslide zonation maps are generally:",
+   "o": [
+    "Probabilistic",
+    "Based exclusively on political boundaries",
+    "Deterministic with no uncertainty",
+    "Purely cadastral"
+   ],
+   "a": 0,
+   "x": "Landslide zonation maps are probabilistic because they represent actual or potential susceptibility, hazard or risk.",
+   "ty": "fact",
+   "tq": "Confusable-pair discrimination between probabilistic hazard mapping and administrative mapping.",
+   "sec": "Landslide hazard zonation - terms and most-prone regions  [APPSC]"
+  },
+  {
+   "s": "According to the Geological Survey of India, approximately what share of India’s area is landslide-prone?",
+   "o": [
+    "12.6–15 per cent",
+    "7.6–10 per cent",
+    "2.6–5 per cent",
+    "20.6–25 per cent"
+   ],
+   "a": 0,
+   "x": "The GSI estimates that approximately 12.6–15 per cent of India’s area, or about 0.42 million square kilometres, is landslide-prone.",
+   "ty": "numerical",
+   "tq": "Tests a hazard-exposure range and its associated agency.",
+   "sec": "Landslide hazard zonation - terms and most-prone regions  [APPSC]"
+  },
+  {
+   "s": "Which region is prone to landslides mainly because of young and fragile geology and active tectonics?",
+   "o": [
+    "The Indo-Gangetic plain",
+    "The Deccan lava plateau alone",
+    "The Himalaya",
+    "The Thar Desert"
+   ],
+   "a": 2,
+   "x": "The Himalaya, including Jammu and Kashmir, Ladakh, Himachal Pradesh, Uttarakhand, Sikkim and Arunachal Pradesh, is highly prone because of young fragile geology and active tectonics.",
+   "ty": "fact",
+   "tq": "Matches a hazard-prone region with its principal physical causes.",
+   "sec": "Landslide hazard zonation - terms and most-prone regions  [APPSC]"
+  },
+  {
+   "s": "Steep slopes and heavy rainfall are the principal factors associated with landslides in which region?",
+   "o": [
+    "Western Rajasthan",
+    "The Rann of Kutch",
+    "The Punjab plain",
+    "North-East India"
+   ],
+   "a": 3,
+   "x": "The North-East is prone to landslides because of steep slopes and heavy rainfall.",
+   "ty": "application",
+   "tq": "Links a pair of causal factors to the correct physiographic region.",
+   "sec": "Landslide hazard zonation - terms and most-prone regions  [APPSC]"
+  },
+  {
+   "s": "The Western Ghats, including the Nilgiris, are particularly prone to landslides because of:",
+   "o": [
+    "Flat terrain and low rainfall",
+    "Steep escarpments and orographic rainfall",
+    "Active volcanoes and lava flows",
+    "Permafrost and glacial abrasion"
+   ],
+   "a": 1,
+   "x": "The Western Ghats, including the Nilgiris, have steep escarpments and receive orographic rainfall, increasing landslide susceptibility.",
+   "ty": "fact",
+   "tq": "Cause-effect application using a characteristic pair of geographical factors.",
+   "sec": "Landslide hazard zonation - terms and most-prone regions  [APPSC]"
+  },
+  {
+   "s": "Consider the following regions:\n1. Himalaya\n2. North-East India\n3. Western Ghats including the Nilgiris\n4. Eastern Ghats and Vindhyas\nWhich of the above are identified as landslide-prone regions?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four listed regions are identified as landslide-prone. The Eastern Ghats and Vindhyas include vulnerable parts of Andhra Pradesh and Odisha.",
+   "ty": "statements",
+   "tq": "Uses an inclusive list question to test regional coverage without omitting less prominent regions.",
+   "sec": "Landslide hazard zonation - terms and most-prone regions  [APPSC]"
+  },
+  {
+   "s": "Which organisation is developing a regional Landslide Early Warning System under the LANDSLIP project?",
+   "o": [
+    "Bureau of Indian Standards",
+    "Geological Survey of India",
+    "India Meteorological Department alone",
+    "National Disaster Response Force"
+   ],
+   "a": 1,
+   "x": "The Geological Survey of India is developing a regional Landslide Early Warning System under the LANDSLIP project.",
+   "ty": "fact",
+   "tq": "Tests the correct institutional responsibility for a disaster-warning project.",
+   "sec": "Landslide hazard zonation - terms and most-prone regions  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Koyna — reservoir-induced earthquake — Maharashtra, 1967",
+    "Killari — tsunami — Tamil Nadu, 2004",
+    "Kedarnath — glacier/rock-ice flood — Uttarakhand, 2021",
+    "Chamoli — cloudburst and flash flood — Uttarakhand, 2013"
+   ],
+   "a": 0,
+   "x": "Koyna experienced a reservoir-induced earthquake in Maharashtra in 1967. Killari was an intraplate earthquake, Kedarnath involved a cloudburst and flash flood, and Chamoli involved a glacier/rock-ice flood.",
+   "ty": "match",
+   "tq": "Uses the wrong-event and wrong-year trap in disaster-place matching.",
+   "sec": "Major disasters in India → type and place  [APPSC]"
+  },
+  {
+   "s": "Arrange the following disasters in chronological order:\nA. Koyna earthquake\nB. Killari earthquake\nC. Bhuj earthquake\nD. Indian Ocean Tsunami",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "Koyna occurred in 1967, Killari in 1993, Bhuj in 2001 and the Indian Ocean Tsunami in 2004.",
+   "ty": "chronology",
+   "tq": "Uses first-and-last events to establish the chronological sequence.",
+   "sec": "Major disasters in India → type and place  [APPSC]"
+  },
+  {
+   "s": "The Killari earthquake of 1993 is classified as a:",
+   "o": [
+    "Reservoir-induced earthquake",
+    "Volcanic earthquake",
+    "Intraplate earthquake",
+    "Subduction-zone tsunami"
+   ],
+   "a": 2,
+   "x": "The 1993 Killari earthquake in Latur, Maharashtra, was an intraplate earthquake.",
+   "ty": "confusable",
+   "tq": "Distinguishes two similarly named earthquake events by their type.",
+   "sec": "Major disasters in India → type and place  [APPSC]"
+  },
+  {
+   "s": "The Indian Ocean Tsunami of 26 December 2004 affected which locations most severely in India?",
+   "o": [
+    "Odisha and West Bengal only",
+    "Tamil Nadu and the Andaman and Nicobar Islands",
+    "Punjab and Haryana",
+    "Gujarat and Rajasthan"
+   ],
+   "a": 1,
+   "x": "Tamil Nadu and the Andaman and Nicobar Islands were the worst-hit Indian locations during the Indian Ocean Tsunami of 26 December 2004.",
+   "ty": "fact",
+   "tq": "Tests event-location association using geographically plausible coastal distractors.",
+   "sec": "Major disasters in India → type and place  [APPSC]"
+  },
+  {
+   "s": "Which disaster is correctly associated with Uttarakhand in June 2013?",
+   "o": [
+    "Cloudburst and flash flood at Kedarnath",
+    "Snow avalanche at Badrinath-Mana in February 2025",
+    "Reservoir-induced earthquake at Koyna",
+    "Glacier/rock-ice flood at Chamoli"
+   ],
+   "a": 0,
+   "x": "The Kedarnath disaster of June 2013 in Uttarakhand involved a cloudburst and flash flood.",
+   "ty": "fact",
+   "tq": "Separates disasters in the same State by event type and year.",
+   "sec": "Major disasters in India → type and place  [APPSC]"
+  },
+  {
+   "s": "The Chamoli disaster of 2021 is best described as a:",
+   "o": [
+    "Reservoir-induced earthquake",
+    "Glacier/rock-ice flood",
+    "Cyclone-induced storm surge",
+    "Tsunami affecting the coast"
+   ],
+   "a": 1,
+   "x": "The 2021 Chamoli disaster in Uttarakhand was a glacier/rock-ice flood.",
+   "ty": "fact",
+   "tq": "Direct event-type recall using closely related disaster categories.",
+   "sec": "Major disasters in India → type and place  [APPSC]"
+  },
+  {
+   "s": "The snow avalanche at Badrinath (Mana) at the end of February 2025 resulted in the death of:",
+   "o": [
+    "Fishermen working on the east coast",
+    "IMD cyclone observers",
+    "Forest survey personnel in the Nilgiris",
+    "BRO workers"
+   ],
+   "a": 3,
+   "x": "The snow avalanche at Badrinath-Mana resulted in the death of Border Roads Organisation workers.",
+   "ty": "fact",
+   "tq": "Tests a specific casualty association in a recent disaster event.",
+   "sec": "Major disasters in India → type and place  [APPSC]"
+  },
+  {
+   "s": "The rising hanging-glacier and avalanche risk on the Badrinath–Mana stretch is associated with increasing settlement along:",
+   "o": [
+    "NH-66",
+    "NH-7",
+    "NH-44",
+    "NH-16"
+   ],
+   "a": 1,
+   "x": "The Badrinath–Mana stretch lies along NH-7, where settlement growth is increasing hanging-glacier and avalanche risk.",
+   "ty": "application",
+   "tq": "Connects a hazard trend with the correct transport corridor.",
+   "sec": "Major disasters in India → type and place  [APPSC]"
+  },
+  {
+   "s": "Approximately what share of India’s land is exposed to moderate-to-severe earthquake risk?",
+   "o": [
+    "29 per cent",
+    "39 per cent",
+    "59 per cent",
+    "79 per cent"
+   ],
+   "a": 2,
+   "x": "Approximately 59 per cent of India’s land is exposed to moderate-to-severe earthquake risk.",
+   "ty": "numerical",
+   "tq": "Tests a standard hazard-profile percentage against altered figures.",
+   "sec": "Vulnerability profile of India - share of land prone to hazards  [APPSC]"
+  },
+  {
+   "s": "Approximately how much land is affected by floods in India according to the standard vulnerability profile?",
+   "o": [
+    "20 million hectares, about 6 per cent",
+    "80 million hectares, about 24 per cent",
+    "10 million hectares, about 3 per cent",
+    "40 million hectares, about 12 per cent"
+   ],
+   "a": 3,
+   "x": "Approximately 40 million hectares, or about 12 per cent of India’s area, is flood-prone.",
+   "ty": "numerical",
+   "tq": "Tests a paired area-and-percentage figure rather than either value alone.",
+   "sec": "Vulnerability profile of India - share of land prone to hazards  [APPSC]"
+  },
+  {
+   "s": "Approximately what length of India’s coastline is exposed to cyclone and tsunami hazards?",
+   "o": [
+    "7,500 km of the 7,516 km coastline",
+    "2,700 km of the 7,516 km coastline",
+    "4,700 km of the 7,516 km coastline",
+    "5,700 km of the 7,516 km coastline"
+   ],
+   "a": 3,
+   "x": "Approximately 5,700 km of India’s nearly 7,516 km coastline is exposed to cyclone and tsunami hazards.",
+   "ty": "numerical",
+   "tq": "Tests a hazard-length figure against the total coastline figure.",
+   "sec": "Vulnerability profile of India - share of land prone to hazards  [APPSC]"
+  },
+  {
+   "s": "What proportion of India’s cultivable area is drought-prone?",
+   "o": [
+    "28 per cent",
+    "48 per cent",
+    "68 per cent",
+    "88 per cent"
+   ],
+   "a": 2,
+   "x": "Approximately 68 per cent of India’s cultivable area is drought-prone.",
+   "ty": "numerical",
+   "tq": "Tests a percentage associated with cultivable area rather than total land area.",
+   "sec": "Vulnerability profile of India - share of land prone to hazards  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly states the relationship used in disaster management?",
+   "o": [
+    "Hazard plus vulnerability equals disaster",
+    "Hazard minus exposure equals disaster",
+    "Vulnerability divided by hazard equals disaster",
+    "Hazard multiplied by vulnerability equals disaster"
+   ],
+   "a": 3,
+   "x": "The relationship is expressed as hazard multiplied by vulnerability equals disaster.",
+   "ty": "application",
+   "tq": "Tests a formula-like conceptual relationship through operation-based distractors.",
+   "sec": "Vulnerability profile of India - share of land prone to hazards  [APPSC]"
+  }
+ ]
+}

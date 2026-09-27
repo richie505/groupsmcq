@@ -1,0 +1,471 @@
+{
+ "book": 4,
+ "row": 61,
+ "chunk": 1,
+ "section": "India - literacy: levels, gender and regional gaps, trends",
+ "subsections": [
+  "Literacy Census 2011 - definition of literate (age threshold), national rate, male vs female",
+  "State ranking - highest/lowest literacy states and UTs",
+  "Gender gap in literacy - largest-gap states",
+  "Rural-urban literacy differential",
+  "Trends since 1951 - decadal improvement",
+  "Literacy among SC/ST populations"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "According to the Census definition, a literate person is one who:",
+   "o": [
+    "is aged seven years or above and can both read and write with understanding in any language",
+    "is aged five years or above and can read and write without understanding",
+    "is aged ten years or above and has completed primary education",
+    "is aged seven years or above and can only read in any language"
+   ],
+   "a": 0,
+   "x": "A literate person is aged seven years or above and must be able to both read and write with understanding in any language. A person who can only read is not treated as literate.",
+   "ty": "fact",
+   "tq": "Use the exact official definition and distinguish ‘read and write with understanding’ from merely reading.",
+   "sec": "Literacy Census 2011 - definition of literate (age threshold), national rate, male vs female  [APPSC]"
+  },
+  {
+   "s": "The age threshold of seven years for measuring literacy in the Indian Census was introduced from:",
+   "o": [
+    "1951",
+    "1961",
+    "1971",
+    "1981"
+   ],
+   "a": 3,
+   "x": "Censuses from 1951 to 1971 counted literacy for persons aged five years and above. The seven-years-and-above threshold was adopted from 1981.",
+   "ty": "numerical",
+   "tq": "For close historical figures, identify the year marking the change rather than the years preceding it.",
+   "sec": "Literacy Census 2011 - definition of literate (age threshold), national rate, male vs female  [APPSC]"
+  },
+  {
+   "s": "With reference to the provisional Census 2011 literacy figures, consider the following statements:\n1. Male literacy was 82.14%.\n2. Female literacy was 65.46%.\n3. The total literacy rate was 73.0%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The provisional figures were 82.14% for males and 65.46% for females. The total provisional figure was 74.04%, whereas 73.0% refers to the final figure.",
+   "ty": "statements",
+   "tq": "Separate provisional and final values before selecting the coded combination.",
+   "sec": "Literacy Census 2011 - definition of literate (age threshold), national rate, male vs female  [APPSC]"
+  },
+  {
+   "s": "The final Census 2011 literacy rate of India, as cited in the India Year Book, was approximately:",
+   "o": [
+    "64.8%",
+    "67.35%",
+    "73.0%",
+    "77.7%"
+   ],
+   "a": 2,
+   "x": "The final Census 2011 literacy rate was 73.0%, or 72.98% when expressed more precisely.",
+   "ty": "numerical",
+   "tq": "Choose the rounded final value rather than the provisional or survey-based figures.",
+   "sec": "Literacy Census 2011 - definition of literate (age threshold), national rate, male vs female  [APPSC]"
+  },
+  {
+   "s": "The literacy rate of India in 2001 was approximately:",
+   "o": [
+    "52.2%",
+    "62.07%",
+    "64.8%",
+    "73.0%"
+   ],
+   "a": 2,
+   "x": "India’s literacy rate in 2001 was 64.8% according to the cited India Year Book figure.",
+   "ty": "numerical",
+   "tq": "Match the decade with its corresponding national literacy percentage.",
+   "sec": "Literacy Census 2011 - definition of literate (age threshold), national rate, male vs female  [APPSC]"
+  },
+  {
+   "s": "In 1951, the proportion of women who were literate in India was:",
+   "o": [
+    "less than one in ten",
+    "more than two in three",
+    "about one in four",
+    "about one in two"
+   ],
+   "a": 0,
+   "x": "Female literacy in 1951 was 8.9%, meaning that fewer than one in ten women were literate.",
+   "ty": "fact",
+   "tq": "Convert the percentage into the comparative expression used in the question.",
+   "sec": "Literacy Census 2011 - definition of literate (age threshold), national rate, male vs female  [APPSC]"
+  },
+  {
+   "s": "Which State had the highest literacy rate in Census 2011 according to the final figures cited?",
+   "o": [
+    "Kerala",
+    "Mizoram",
+    "Tamil Nadu",
+    "Goa"
+   ],
+   "a": 0,
+   "x": "Kerala recorded the highest literacy rate among the States, at 94.0%. Mizoram was also highly placed but lower at 91.3%.",
+   "ty": "fact",
+   "tq": "Identify the leading State from a ranking table and reject the nearby high-ranking distractors.",
+   "sec": "State ranking - highest/lowest literacy states and UTs  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Bihar — 94.0% total literacy and 92.1% female literacy",
+    "Lakshadweep — 61.8% total literacy",
+    "Mizoram — 51.5% female literacy",
+    "Kerala — 94.0% total literacy and 92.1% female literacy"
+   ],
+   "a": 3,
+   "x": "Kerala recorded 94.0% total literacy and 92.1% female literacy. Bihar had the lowest total literacy at 61.8% and female literacy at 51.5%.",
+   "ty": "negative",
+   "tq": "Check both components of each pair; APPSC commonly swaps values between high- and low-ranking units.",
+   "sec": "State ranking - highest/lowest literacy states and UTs  [APPSC]"
+  },
+  {
+   "s": "Which one of the following had the lowest total literacy rate among the States in Census 2011?",
+   "o": [
+    "Andhra Pradesh",
+    "Rajasthan",
+    "Madhya Pradesh",
+    "Bihar"
+   ],
+   "a": 3,
+   "x": "Bihar had the lowest total literacy rate among the States, at 61.8%.",
+   "ty": "fact",
+   "tq": "Distinguish the lowest State in the Census ranking from later survey-based rankings.",
+   "sec": "State ranking - highest/lowest literacy states and UTs  [APPSC]"
+  },
+  {
+   "s": "Lakshadweep occupied which position in the Census 2011 literacy ranking mentioned in the material?",
+   "o": [
+    "Third, with 91.3%",
+    "First, with 94.0%",
+    "Second, with 91.8%",
+    "Last, with 61.8%"
+   ],
+   "a": 2,
+   "x": "Lakshadweep was second, with a literacy rate of 91.8%, after Kerala’s 94.0%.",
+   "ty": "numerical",
+   "tq": "Use the ranking and the exact percentage together to discriminate between close alternatives.",
+   "sec": "State ranking - highest/lowest literacy states and UTs  [APPSC]"
+  },
+  {
+   "s": "Which State had the largest gender gap in literacy in 2011?",
+   "o": [
+    "Kerala",
+    "Rajasthan",
+    "Andhra Pradesh",
+    "Bihar"
+   ],
+   "a": 1,
+   "x": "Rajasthan had the largest gender gap in literacy, at 28 percentage points. The national gender gap was 16 percentage points.",
+   "ty": "fact",
+   "tq": "Do not confuse the State with the lowest female literacy with the State having the largest gender gap.",
+   "sec": "Gender gap in literacy - largest-gap states  [APPSC]"
+  },
+  {
+   "s": "The national gender gap in literacy in 2011 was approximately:",
+   "o": [
+    "16 percentage points",
+    "22 percentage points",
+    "28 percentage points",
+    "12 percentage points"
+   ],
+   "a": 0,
+   "x": "The national gender gap in literacy in 2011 was about 16 percentage points. Rajasthan recorded the larger State-level gap of 28 points.",
+   "ty": "numerical",
+   "tq": "Separate the national figure from the maximum State-level figure.",
+   "sec": "Gender gap in literacy - largest-gap states  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the final Census 2011 female literacy ranking fact?",
+   "o": [
+    "Andhra Pradesh had the highest female literacy at 92.1%.",
+    "Kerala had the highest female literacy at 92.1%.",
+    "Rajasthan had the highest female literacy at 92.1%.",
+    "Bihar had the highest female literacy at 92.1%."
+   ],
+   "a": 1,
+   "x": "Kerala had the highest female literacy rate, at 92.1%. Bihar had the lowest female literacy rate, at 51.5%.",
+   "ty": "confusable",
+   "tq": "Discriminate between the highest and lowest female-literacy States using the same numerical pair.",
+   "sec": "Gender gap in literacy - largest-gap states  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT cited as a cause of the gender gap in literacy?",
+   "o": [
+    "Early marriage and dowry",
+    "High concentration of specialised universities in cities",
+    "Distance to schools and safety concerns",
+    "Son preference and poverty"
+   ],
+   "a": 1,
+   "x": "The cited causes include distance to schools and safety, early marriage, dowry, son preference and poverty. Concentration of specialised universities in cities is not listed as a cause.",
+   "ty": "negative",
+   "tq": "Find the unrelated addition among a cluster of recognised social causes.",
+   "sec": "Gender gap in literacy - largest-gap states  [APPSC]"
+  },
+  {
+   "s": "According to Census 2011 provisional figures, the rural and urban literacy rates of India were respectively:",
+   "o": [
+    "64.6% and 82.14%",
+    "59.0% and 73.0%",
+    "77.5% and 88.9%",
+    "68.9% and 85.0%"
+   ],
+   "a": 3,
+   "x": "The Census 2011 provisional rural literacy rate was 68.9%, while the urban rate was 85.0%.",
+   "ty": "comparison",
+   "tq": "Match the pair to the correct data source and distinguish Census figures from PLFS figures.",
+   "sec": "Rural-urban literacy differential"
+  },
+  {
+   "s": "Under PLFS 2023-24, the urban-rural literacy figures for India were approximately:",
+   "o": [
+    "87.2% urban and 74.6% rural",
+    "80.9% urban and 72.6% rural",
+    "85.0% urban and 68.9% rural",
+    "88.9% urban and 77.5% rural"
+   ],
+   "a": 3,
+   "x": "PLFS 2023-24 reported urban literacy of 88.9% and rural literacy of 77.5%, leaving a gap of about 11 percentage points.",
+   "ty": "comparison",
+   "tq": "Keep the urban-rural order fixed and distinguish it from the male-female pair.",
+   "sec": "Rural-urban literacy differential"
+  },
+  {
+   "s": "Which section of the population faces the largest literacy deficit in the rural-urban context?",
+   "o": [
+    "Urban men",
+    "Urban women",
+    "Rural women",
+    "Rural men"
+   ],
+   "a": 2,
+   "x": "Rural women face the largest literacy deficit. Rural areas also have lower literacy overall than urban areas.",
+   "ty": "application",
+   "tq": "Apply the combined rural disadvantage and gender disadvantage to identify the most vulnerable group.",
+   "sec": "Rural-urban literacy differential"
+  },
+  {
+   "s": "Arrange the following Census years in ascending order of India’s literacy rate:\nA. 1951\nB. 1981\nC. 1961\nD. 2001",
+   "o": [
+    "A, C, B, D",
+    "C, A, B, D",
+    "A, B, C, D",
+    "C, B, A, D"
+   ],
+   "a": 0,
+   "x": "The literacy rates rose from 18.33% in 1951 to 28.30% in 1961, 43.57% in 1981 and 64.83% in 2001. Therefore, the order is A, C, B, D.",
+   "ty": "chronology",
+   "tq": "Arrange the years by the steadily increasing literacy percentages, not merely by visual year spacing.",
+   "sec": "Trends since 1951 - decadal improvement"
+  },
+  {
+   "s": "Which Census year recorded the largest decadal improvement in India’s literacy rate?",
+   "o": [
+    "1961",
+    "1971",
+    "1991",
+    "2011"
+   ],
+   "a": 2,
+   "x": "The largest decadal gain came in the 1990s, culminating in the 1991 Census period. Growth slowed during 2001–2011.",
+   "ty": "fact",
+   "tq": "Compare successive Census increments rather than selecting the latest year automatically.",
+   "sec": "Trends since 1951 - decadal improvement"
+  },
+  {
+   "s": "Consider the following statements about India’s literacy trend:\n1. Literacy increased from 18.33% in 1951 to 74.04% in 2011.\n2. Male literacy rose from about 27% to about 82% over the sixty-year period.\n3. The largest decadal gain occurred during 2001–2011.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the largest decadal gain occurred in the 1990s, while growth slowed in 2001–2011.",
+   "ty": "statements",
+   "tq": "Identify the false trend statement by testing the claimed decade against the stated growth pattern.",
+   "sec": "Trends since 1951 - decadal improvement"
+  },
+  {
+   "s": "The literacy rate of Andhra Pradesh increased from 62.07% in 2001 to which figure in 2011?",
+   "o": [
+    "59.96%",
+    "64.83%",
+    "67.35%",
+    "72.98%"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh’s total literacy rate increased from 62.07% in 2001 to 67.35% in 2011.",
+   "ty": "numerical",
+   "tq": "Match the State, Census year and total figure while rejecting male, female and national values.",
+   "sec": "Trends since 1951 - decadal improvement"
+  },
+  {
+   "s": "Which of the following correctly gives the literacy trend of Andhra Pradesh from 1981 to 2011?",
+   "o": [
+    "29.94%, 45.86%, 62.07%, 67.35%",
+    "29.94%, 52.21%, 64.83%, 74.04%",
+    "43.57%, 52.21%, 64.83%, 73.00%",
+    "45.86%, 59.96%, 67.35%, 72.98%"
+   ],
+   "a": 0,
+   "x": "The Andhra Pradesh sequence was 29.94% in 1981, 45.86% in 1991, 62.07% in 2001 and 67.35% in 2011.",
+   "ty": "chronology",
+   "tq": "Use a complete State-specific sequence and reject options that substitute national or gender figures.",
+   "sec": "Trends since 1951 - decadal improvement"
+  },
+  {
+   "s": "The total literacy rate of Andhra Pradesh in Census 2011 was:",
+   "o": [
+    "below the national average",
+    "equal to the national average",
+    "higher than the national average by more than five points",
+    "higher than the national average by more than ten points"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh recorded 67.35% literacy in Census 2011, below India’s national figure of about 72.98%.",
+   "ty": "comparison",
+   "tq": "Use the direction of the comparison before considering the numerical values.",
+   "sec": "State ranking - highest/lowest literacy states and UTs  [APPSC]"
+  },
+  {
+   "s": "According to the NSS 75th round for July 2017–June 2018, which State was placed lowest among the States in literacy?",
+   "o": [
+    "Bihar",
+    "Uttar Pradesh",
+    "Rajasthan",
+    "Andhra Pradesh"
+   ],
+   "a": 3,
+   "x": "The NSS 75th round placed Andhra Pradesh lowest among the States. Its female literacy was approximately 59.5%; Rajasthan, not Uttar Pradesh, had the lowest female literacy in the cited comparison.",
+   "ty": "negative",
+   "tq": "Distinguish the State with the lowest overall literacy from the State with the lowest female literacy.",
+   "sec": "State ranking - highest/lowest literacy states and UTs  [APPSC]"
+  },
+  {
+   "s": "Under PLFS 2023-24, India’s literacy rate for persons aged seven years and above was:",
+   "o": [
+    "73.0%",
+    "77.7%",
+    "80.9%",
+    "88.9%"
+   ],
+   "a": 2,
+   "x": "PLFS 2023-24 reported an overall literacy rate of 80.9% for persons aged seven years and above. The urban rate was 88.9%.",
+   "ty": "numerical",
+   "tq": "Distinguish the overall survey rate from its urban component and from Census figures.",
+   "sec": "State ranking - highest/lowest literacy states and UTs  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly states the PLFS 2023-24 male-female literacy figures for India?",
+   "o": [
+    "Male 87.2%, female 74.6%",
+    "Male 80.9%, female 74.6%",
+    "Male 82.14%, female 65.46%",
+    "Male 88.9%, female 77.5%"
+   ],
+   "a": 0,
+   "x": "PLFS 2023-24 recorded male literacy of 87.2% and female literacy of 74.6%. Their difference was about 12.6 percentage points.",
+   "ty": "confusable",
+   "tq": "Separate the male-female pair from the overall and urban-rural pairs in the same survey.",
+   "sec": "Gender gap in literacy - largest-gap states"
+  },
+  {
+   "s": "Which of the following was the PLFS-based literacy ranking pattern cited for 2023-24?",
+   "o": [
+    "Top: Kerala, Goa, Mizoram; bottom: Bihar, Rajasthan, Uttar Pradesh",
+    "Top: Mizoram, Lakshadweep, Nagaland; bottom: Andhra Pradesh, Bihar, Madhya Pradesh",
+    "Top: Andhra Pradesh, Bihar, Madhya Pradesh; bottom: Mizoram, Lakshadweep, Nagaland",
+    "Top: Kerala, Lakshadweep, Bihar; bottom: Andhra Pradesh, Rajasthan, Goa"
+   ],
+   "a": 1,
+   "x": "The PLFS-based top units were Mizoram, Lakshadweep and Nagaland, while Andhra Pradesh, Bihar and Madhya Pradesh were at the bottom of the cited grouping.",
+   "ty": "match",
+   "tq": "Match the complete top-bottom grouping rather than relying on one familiar high-literacy State.",
+   "sec": "State ranking - highest/lowest literacy states and UTs  [APPSC]"
+  },
+  {
+   "s": "Which of the following is correctly matched with the literacy rate of Andhra Pradesh under the specified source?",
+   "o": [
+    "PLFS 2018-19 — 69.10%",
+    "PLFS 2023-24 — 80.90%",
+    "Calendar year 2025 — 72.60%",
+    "Census 2011 — 71.40%"
+   ],
+   "a": 0,
+   "x": "The AP literacy rate was 69.10% in PLFS 2018-19, 72.60% in PLFS 2023-24 and 71.40% for calendar year 2025 as cited. The Census 2011 figure was 67.35%.",
+   "ty": "match",
+   "tq": "Match each percentage with its source and year; official figures are often swapped across surveys.",
+   "sec": "State ranking - highest/lowest literacy states and UTs  [APPSC]"
+  },
+  {
+   "s": "The claim that Andhra Pradesh had a literacy rate of 82.10% in 2026 was disputed primarily because:",
+   "o": [
+    "no official estimate for 2026 was available",
+    "the Census had already recorded a lower final figure in 2011",
+    "PLFS does not measure literacy",
+    "the figure referred only to male literacy"
+   ],
+   "a": 0,
+   "x": "The 82.10% claim was disputed because no official 2026 estimate existed. The cited calendar-year 2025 figure was 71.40%.",
+   "ty": "application",
+   "tq": "Test whether a current numerical claim is supported by an officially available estimate.",
+   "sec": "State ranking - highest/lowest literacy states and UTs  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly states the literacy rates of Scheduled Castes and Scheduled Tribes in 2011?",
+   "o": [
+    "SC 73.0% and ST 66.1%",
+    "SC 66.1% and ST 59.0%",
+    "SC 59.0% and ST 66.1%",
+    "SC 48.8% and ST 49.5%"
+   ],
+   "a": 1,
+   "x": "The cited 2011 literacy rate was 66.1% for Scheduled Castes and 59.0% for Scheduled Tribes. Both were below the national literacy level of about 73–74%.",
+   "ty": "comparison",
+   "tq": "Keep the social-category labels attached to the correct percentages and avoid confusing national and State figures.",
+   "sec": "Literacy among SC/ST populations"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Andhra Pradesh ST literacy — 48.8%; Telangana ST literacy — 49.5%",
+    "Andhra Pradesh ST literacy — 59.0%; Telangana ST literacy — 66.1%",
+    "Andhra Pradesh SC literacy — 48.8%; Telangana SC literacy — 49.5%",
+    "Andhra Pradesh ST literacy — 73.0%; Telangana ST literacy — 74.6%"
+   ],
+   "a": 0,
+   "x": "The cited figures were 48.8% for Scheduled Tribe literacy in Andhra Pradesh and 49.5% in Telangana.",
+   "ty": "match",
+   "tq": "Start with the sure State-category pair and reject options that substitute national or SC values.",
+   "sec": "Literacy among SC/ST populations"
+  },
+  {
+   "s": "Low literacy is recognised as one of the four criteria for identifying:",
+   "o": [
+    "census towns",
+    "Particularly Vulnerable Tribal Groups",
+    "minority educational institutions",
+    "Scheduled Castes in urban areas"
+   ],
+   "a": 1,
+   "x": "Low literacy is one of the four criteria used in relation to Particularly Vulnerable Tribal Groups (PVTGs).",
+   "ty": "fact",
+   "tq": "Link the social indicator to the exact administrative category rather than a broader population group.",
+   "sec": "Literacy among SC/ST populations"
+  }
+ ]
+}

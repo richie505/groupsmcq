@@ -1,0 +1,385 @@
+{
+ "book": 4,
+ "row": 42,
+ "chunk": 1,
+ "section": "India - tiger reserves, elephant reserves, Ramsar sites, important bird areas",
+ "subsections": [
+  "Species-specific sanctuaries → key species (National Chambal, Bhitarkanika, Gahirmatha, Gir)",
+  "Migratory birds → migration pattern (Bar-headed goose, Amur falcon) and Central Asian Flyway",
+  "Elephant reserves - Project Elephant, count, states with most reserves",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 28,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "National Chambal Sanctuary is particularly associated with the conservation of which of the following species?",
+   "o": [
+    "Jerdon's courser and Great Indian Bustard",
+    "Asiatic lion and blackbuck",
+    "Gharial and Gangetic dolphin",
+    "Saltwater crocodile and Olive ridley turtle"
+   ],
+   "a": 2,
+   "x": "National Chambal Sanctuary, spread across Madhya Pradesh, Rajasthan and Uttar Pradesh, is noted for the Gharial and Gangetic dolphin.",
+   "ty": "fact",
+   "tq": "Use the sanctuary–key species association directly.",
+   "sec": "Species-specific sanctuaries → key species (National Chambal, Bhitarkanika, Gahirmatha, Gir)"
+  },
+  {
+   "s": "Bhitarkanika Sanctuary, located in Odisha, is primarily noted for which of the following?",
+   "o": [
+    "Olive ridley mass nesting",
+    "Gharials and Gangetic dolphins",
+    "Asiatic lions and dry deciduous forests",
+    "Saltwater crocodiles and mangroves"
+   ],
+   "a": 3,
+   "x": "Bhitarkanika in Odisha is known for its saltwater crocodiles and mangrove ecosystems.",
+   "ty": "fact",
+   "tq": "Match the sanctuary with its distinctive conservation feature.",
+   "sec": "Species-specific sanctuaries → key species (National Chambal, Bhitarkanika, Gahirmatha, Gir)"
+  },
+  {
+   "s": "Gahirmatha Sanctuary is famous for which of the following phenomena?",
+   "o": [
+    "Mass nesting of Olive ridley turtles",
+    "Conservation of Asiatic lions",
+    "Protection of Jerdon's courser",
+    "Breeding of Bar-headed geese"
+   ],
+   "a": 0,
+   "x": "Gahirmatha in Odisha is a marine sanctuary famous for the mass nesting of Olive ridley turtles.",
+   "ty": "fact",
+   "tq": "Identify the species-specific sanctuary from its signature ecological event.",
+   "sec": "Species-specific sanctuaries → key species (National Chambal, Bhitarkanika, Gahirmatha, Gir)"
+  },
+  {
+   "s": "Consider the following statements regarding Gir:\n1. It is located in Gujarat.\n2. It is the only natural home of the Asiatic lion.\n3. Project Lion was launched in 2020.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Gir is in Gujarat and is the only natural home of the Asiatic lion. Project Lion was launched in 2020; therefore, all three statements are correct.",
+   "ty": "statements",
+   "tq": "Check each statement against the location, species and project-year facts.",
+   "sec": "Species-specific sanctuaries → key species (National Chambal, Bhitarkanika, Gahirmatha, Gir)"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Sri Lankamalleswara — Jerdon's courser",
+    "Rollapadu — Asiatic lion",
+    "Gir — Great Indian Bustard",
+    "Bhitarkanika — Bar-headed goose"
+   ],
+   "a": 0,
+   "x": "Sri Lankamalleswara Wildlife Sanctuary in Andhra Pradesh is associated with Jerdon's courser. Rollapadu is associated with the Great Indian Bustard and blackbuck.",
+   "ty": "match",
+   "tq": "Start with the sure species–sanctuary pair and eliminate swapped associations.",
+   "sec": "Species-specific sanctuaries → key species (National Chambal, Bhitarkanika, Gahirmatha, Gir)"
+  },
+  {
+   "s": "Rollapadu Wildlife Sanctuary in Andhra Pradesh is associated with the conservation of which of the following combination?",
+   "o": [
+    "Asiatic lion and saltwater crocodile",
+    "Jerdon's courser and Olive ridley turtle",
+    "Gharial and Gangetic dolphin",
+    "Great Indian Bustard and blackbuck"
+   ],
+   "a": 3,
+   "x": "Rollapadu Wildlife Sanctuary is associated with the Great Indian Bustard and blackbuck.",
+   "ty": "fact",
+   "tq": "Test a state-specific sanctuary and its characteristic species.",
+   "sec": "Species-specific sanctuaries → key species (National Chambal, Bhitarkanika, Gahirmatha, Gir)"
+  },
+  {
+   "s": "The Central Asian Flyway extends broadly between which of the following regions?",
+   "o": [
+    "Western Europe and South America",
+    "The Pacific islands and Antarctica",
+    "East Africa and Australia",
+    "The Arctic or Siberia and the Indian Ocean"
+   ],
+   "a": 3,
+   "x": "The Central Asian Flyway extends from the Arctic and Siberia to the Indian Ocean. India is an important wintering ground along this flyway.",
+   "ty": "fact",
+   "tq": "Use the endpoints of the migration route to identify the correct flyway.",
+   "sec": "Migratory birds → migration pattern (Bar-headed goose, Amur falcon) and Central Asian Flyway"
+  },
+  {
+   "s": "Which one of the following statements regarding India and the Central Asian Flyway is correct?",
+   "o": [
+    "India is outside the Central Asian Flyway and did not host CMS COP13.",
+    "India is only a breeding ground and hosted CMS COP13 at Bhubaneswar in 2020.",
+    "India is a summering ground and hosted CMS COP13 at Jaipur in 2020.",
+    "India is a key wintering ground and hosted CMS COP13 at Gandhinagar in 2020."
+   ],
+   "a": 3,
+   "x": "India is a key wintering ground on the Central Asian Flyway and hosted the 13th Conference of the Convention on Migratory Species at Gandhinagar in 2020.",
+   "ty": "fact",
+   "tq": "Combine the country’s role in the flyway with the place and year of the conference.",
+   "sec": "Migratory birds → migration pattern (Bar-headed goose, Amur falcon) and Central Asian Flyway"
+  },
+  {
+   "s": "Consider the following statements about the Bar-headed goose:\n1. It breeds on high lakes of Central Asia.\n2. It crosses the Himalaya during migration.\n3. It winters in India.\n4. It is regarded as one of the highest-flying birds.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The Bar-headed goose breeds on high Central Asian lakes, crosses the Himalaya, winters in India and is one of the highest-flying birds.",
+   "ty": "statements",
+   "tq": "Verify the complete migration sequence rather than focusing on only the wintering ground.",
+   "sec": "Migratory birds → migration pattern (Bar-headed goose, Amur falcon) and Central Asian Flyway"
+  },
+  {
+   "s": "The Amur falcon follows which of the following migration routes?",
+   "o": [
+    "Australia, via Odisha, to northern China",
+    "The Arctic, via Kerala, to South America",
+    "Central Asia, via Gujarat, to western Europe",
+    "Southeast Siberia and northern China, via Nagaland, to southern Africa"
+   ],
+   "a": 3,
+   "x": "The Amur falcon migrates from southeast Siberia and northern China, stops in Nagaland and subsequently winters in southern Africa.",
+   "ty": "fact",
+   "tq": "Trace the route from origin through stopover to wintering region.",
+   "sec": "Migratory birds → migration pattern (Bar-headed goose, Amur falcon) and Central Asian Flyway"
+  },
+  {
+   "s": "During which period does the Amur falcon generally stop over in Nagaland, particularly around Doyang and Pangti?",
+   "o": [
+    "October–November",
+    "April–May",
+    "July–August",
+    "January–February"
+   ],
+   "a": 0,
+   "x": "The Amur falcon stops over in Nagaland, especially around Doyang and Pangti, during October–November.",
+   "ty": "numerical",
+   "tq": "Discriminate among close seasonal periods using the migration timing.",
+   "sec": "Migratory birds → migration pattern (Bar-headed goose, Amur falcon) and Central Asian Flyway"
+  },
+  {
+   "s": "The migration of the Amur falcon is described as which of the following?",
+   "o": [
+    "The shortest migration among raptors",
+    "A non-seasonal local movement",
+    "The longest raptor migration",
+    "A migration confined to the Indian subcontinent"
+   ],
+   "a": 2,
+   "x": "The Amur falcon undertakes the longest raptor migration, travelling from eastern Asia to southern Africa through its Indian stopover.",
+   "ty": "fact",
+   "tq": "Identify the superlative associated with the species’ migration.",
+   "sec": "Migratory birds → migration pattern (Bar-headed goose, Amur falcon) and Central Asian Flyway"
+  },
+  {
+   "s": "Project Elephant was launched in which year and month?",
+   "o": [
+    "February 1992",
+    "August 1981",
+    "January 1973",
+    "October 2020"
+   ],
+   "a": 0,
+   "x": "Project Elephant was launched in February 1992.",
+   "ty": "numerical",
+   "tq": "Test the precise commencement date of a conservation programme.",
+   "sec": "Elephant reserves - Project Elephant, count, states with most reserves"
+  },
+  {
+   "s": "As stated in the conservation framework of Project Elephant, India has how many elephant reserves distributed across how many States?",
+   "o": [
+    "29 reserves in 14 States",
+    "33 reserves in 18 States",
+    "29 reserves in 18 States",
+    "33 reserves in 14 States"
+   ],
+   "a": 3,
+   "x": "Project Elephant covers 33 elephant reserves in 14 States.",
+   "ty": "numerical",
+   "tq": "Keep the reserve count and State count together to avoid swapping numerical pairs.",
+   "sec": "Elephant reserves - Project Elephant, count, states with most reserves"
+  },
+  {
+   "s": "Elephant reserves may overlap with which of the following categories of protected or reserved areas?\n1. Tiger Reserves\n2. Wildlife Sanctuaries\n3. Reserved forests\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Elephant reserves can overlap with Tiger Reserves, Wildlife Sanctuaries and reserved forests. Hence, all three statements are correct.",
+   "ty": "statements",
+   "tq": "Test the overlapping-area relationship through a complete list of categories.",
+   "sec": "Elephant reserves - Project Elephant, count, states with most reserves"
+  },
+  {
+   "s": "According to the 2017 elephant population count, the estimated number of elephants was:",
+   "o": [
+    "14,000",
+    "29,964",
+    "33,000",
+    "63,000"
+   ],
+   "a": 1,
+   "x": "The 2017 count estimated India's elephant population at 29,964.",
+   "ty": "numerical",
+   "tq": "Recall the exact population figure rather than the number of reserves or States.",
+   "sec": "Elephant reserves - Project Elephant, count, states with most reserves"
+  },
+  {
+   "s": "Which of the following correctly lists the three elephant reserves of Odisha?",
+   "o": [
+    "Mayurbhanj, Mahanadi and Sambalpur",
+    "Rayala, Koundinya and Papikondalu",
+    "Gir, Bhitarkanika and Gahirmatha",
+    "Palamu, Corbett and Bandipur"
+   ],
+   "a": 0,
+   "x": "Odisha has three elephant reserves: Mayurbhanj, Mahanadi and Sambalpur.",
+   "ty": "match",
+   "tq": "Use the State-wise grouping to identify the complete reserve list.",
+   "sec": "Elephant reserves - Project Elephant, count, states with most reserves"
+  },
+  {
+   "s": "Carbon stored in elephant reserves increased by approximately what percentage, mainly because of the expansion of protected forests?",
+   "o": [
+    "18%",
+    "28%",
+    "38%",
+    "48%"
+   ],
+   "a": 2,
+   "x": "Carbon stored in elephant reserves rose by 38%, with the increase attributed mainly to expanded protected forest.",
+   "ty": "numerical",
+   "tq": "Distinguish the exact percentage from nearby plausible values.",
+   "sec": "Elephant reserves - Project Elephant, count, states with most reserves"
+  },
+  {
+   "s": "India's first Human-Elephant Conflict Research Centre is planned at which Tiger Reserve?",
+   "o": [
+    "Gir Tiger Reserve",
+    "Nagarjuna-Srisailam Tiger Reserve",
+    "Ranthambhore Tiger Reserve",
+    "Palamu Tiger Reserve"
+   ],
+   "a": 3,
+   "x": "India's first Human-Elephant Conflict Research Centre is planned at Palamu Tiger Reserve.",
+   "ty": "fact",
+   "tq": "Identify the institution by matching it with its planned location.",
+   "sec": "Elephant reserves - Project Elephant, count, states with most reserves"
+  },
+  {
+   "s": "Which one of the following statements correctly describes the current relevance of tiger conservation in India?",
+   "o": [
+    "Tiger-related conflict has ended because reserve boundaries are expanding.",
+    "Tigers outside reserves have no connection with conservation landscapes.",
+    "A growing share of tigers live outside reserves, increasing the possibility of human–wildlife conflict.",
+    "All tigers now live within notified Tiger Reserves."
+   ],
+   "a": 2,
+   "x": "A growing share of India's tigers is living outside notified reserves, which raises the possibility of conflict with human communities.",
+   "ty": "application",
+   "tq": "Apply the conservation trend to its likely management consequence.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The tiger population recorded in the Andhra Pradesh Tiger Estimation exercise of 2022 for its Tiger Reserve was approximately:",
+   "o": [
+    "33–37 tigers",
+    "63–67 tigers",
+    "83–87 tigers",
+    "43–47 tigers"
+   ],
+   "a": 1,
+   "x": "The 2022 Andhra Pradesh tiger estimation recorded approximately 63–67 tigers in the State's Tiger Reserve.",
+   "ty": "numerical",
+   "tq": "Recognise the correct numerical range without confusing it with reserve counts.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly presents the first and latest entries in the stated conservation chronology?",
+   "o": [
+    "First Tiger Reserve—Corbett, 1973; first Ramsar site—Chilika, 1981; newest Ramsar site—Glaw Lake, 2026",
+    "First Tiger Reserve—Chilika, 1981; first Ramsar site—Corbett, 1973; newest Ramsar site—Glaw Lake, 2024",
+    "First Tiger Reserve—Gir, 2020; first Ramsar site—Chilika, 1973; newest Ramsar site—Glaw Lake, 2026",
+    "First Tiger Reserve—Corbett, 1981; first Ramsar site—Chilika, 1973; newest Ramsar site—Glaw Lake, 2025"
+   ],
+   "a": 0,
+   "x": "Corbett was the first Tiger Reserve in 1973, Chilika was the first Ramsar site in 1981, and Glaw Lake became the newest Ramsar site in 2026.",
+   "ty": "chronology",
+   "tq": "Use the first and latest markers to verify the entire sequence.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following in chronological order:\nA. Establishment of the first Tiger Reserve at Corbett\nB. Designation of Chilika as the first Ramsar site in India\nC. Launch of Project Lion\nD. Designation of Glaw Lake as the 101st Ramsar site",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The correct chronological order is Corbett as the first Tiger Reserve in 1973, Chilika as the first Ramsar site in 1981, Project Lion in 2020, and Glaw Lake as the 101st Ramsar site in 2026.",
+   "ty": "chronology",
+   "tq": "Place the dated milestones first, then verify the sequence from earliest to latest.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Gir — Jerdon's courser",
+    "Gahirmatha — Olive ridley mass nesting",
+    "Bhitarkanika — Saltwater crocodile",
+    "National Chambal — Gharial"
+   ],
+   "a": 0,
+   "x": "Gir is associated with the Asiatic lion, not Jerdon's courser. Jerdon's courser is associated with Sri Lankamalleswara Wildlife Sanctuary.",
+   "ty": "negative",
+   "tq": "Find the one swapped species–sanctuary association.",
+   "sec": "Species-specific sanctuaries → key species (National Chambal, Bhitarkanika, Gahirmatha, Gir)"
+  },
+  {
+   "s": "Assertion (A): The Bar-headed goose is capable of crossing the Himalaya during migration.\nReason (R): It is one of the highest-flying birds.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both the assertion and reason are true, and the bird's exceptional high-flying ability explains its capacity to cross the Himalaya.",
+   "ty": "assertion_reason",
+   "tq": "Test whether the characteristic cited in the reason explains the migration feat.",
+   "sec": "Migratory birds → migration pattern (Bar-headed goose, Amur falcon) and Central Asian Flyway"
+  },
+  {
+   "s": "Assertion (A): The Amur falcon uses Nagaland as a stopover during its annual migration.\nReason (R): Doyang and Pangti in Nagaland are associated with its October–November stopover.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true. The specific October–November stopover around Doyang and Pangti establishes Nagaland's role in the Amur falcon's migration.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the reason supplies the specific place and season supporting the assertion.",
+   "sec": "Migratory birds → migration pattern (Bar-headed goose, Amur falcon) and Central Asian Flyway"
+  }
+ ]
+}

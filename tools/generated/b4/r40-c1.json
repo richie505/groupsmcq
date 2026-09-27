@@ -1,0 +1,373 @@
+{
+ "book": 4,
+ "row": 40,
+ "chunk": 1,
+ "section": "India - natural vegetation types and their distribution; forest cover (India State of Forest Report)",
+ "subsections": [
+  "Mangrove and tidal forests → state/UT and sites",
+  "Grassland types → region",
+  "Legal classification - Reserved, Protected, Village forests (Indian Forest Act 1927)",
+  "Silvicultural terms - coppice, high forest, selection system",
+  "Himalayan altitudinal zonation - sequence, north vs south slope",
+  "Tree species → region; evergreen vs deciduous"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 25,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following statements regarding mangrove vegetation is correct?\n1. Mangroves commonly possess stilt and knee roots.\n2. Their roots may remain submerged during high tide.\n3. They generally occur at the fringes of river deltas on both coasts of India.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Mangroves possess specialised stilt and knee roots, occur in intertidal deltaic areas and may be submerged during high tide. All three statements are correct.",
+   "ty": "statements",
+   "tq": "Combine related ecological adaptations and distribution facts in a statement-based question.",
+   "sec": "Mangrove and tidal forests → state/UT and sites"
+  },
+  {
+   "s": "Consider the following statements about mangrove cover in Andhra Pradesh:\n1. Andhra Pradesh had 421.43 sq km of mangrove cover according to ISFR 2023.\n2. Its mangrove cover increased by 13.01 sq km.\n3. The mangrove cover includes a very dense class.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh had 421.43 sq km of mangrove cover in ISFR 2023, showing an increase of 13.01 sq km. It had no very dense mangrove class.",
+   "ty": "statements",
+   "tq": "Use a numerical statement pair with one reversed or unsupported classification.",
+   "sec": "Mangrove and tidal forests → state/UT and sites"
+  },
+  {
+   "s": "Which one of the following correctly describes the conflicting claims regarding the rank of Andhra Pradesh in mangrove cover?",
+   "o": [
+    "The State Economic Survey places Andhra Pradesh third, whereas ISFR 2023 places Odisha second.",
+    "AP State Economic Survey describes Andhra Pradesh as having the second-largest mangrove cover, whereas ISFR 2023 places Gujarat second.",
+    "ISFR 2023 places Andhra Pradesh first, whereas the State Economic Survey places West Bengal second.",
+    "Both sources place Andhra Pradesh first in mangrove cover."
+   ],
+   "a": 1,
+   "x": "The Andhra Pradesh SES 2025–26 describes AP as having the second-largest mangrove cover, while ISFR 2023 places Gujarat second. This is identified as a data discrepancy.",
+   "ty": "comparison",
+   "tq": "Compare two authorities instead of relying on a single rank claim.",
+   "sec": "Mangrove and tidal forests → state/UT and sites"
+  },
+  {
+   "s": "According to the older distributional estimate cited for India’s mangroves, which of the following is the correct descending order of shares?",
+   "o": [
+    "West Bengal, Gujarat, Andaman and Nicobar Islands",
+    "Gujarat, West Bengal, Andaman and Nicobar Islands",
+    "Andaman and Nicobar Islands, West Bengal, Gujarat",
+    "West Bengal, Andaman and Nicobar Islands, Gujarat"
+   ],
+   "a": 0,
+   "x": "The older estimate gives West Bengal about 50%, Gujarat about 21% and the Andaman and Nicobar Islands about 14% of India’s mangroves.",
+   "ty": "chronology",
+   "tq": "Use the relative percentages to establish descending order.",
+   "sec": "Mangrove and tidal forests → state/UT and sites"
+  },
+  {
+   "s": "Which grass type is associated with black-soil regions of peninsular and central India?",
+   "o": [
+    "Sehima-Dichanthium",
+    "Deschampsia-Deyeuxia",
+    "Phragmites-Saccharum",
+    "Bothriochloa"
+   ],
+   "a": 0,
+   "x": "Sehima-Dichanthium grasslands are associated with black soils in peninsular and central India.",
+   "ty": "fact",
+   "tq": "Test a grassland type against its characteristic habitat.",
+   "sec": "Grassland types → region"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Grass type)\na. Sehima-Dichanthium\nb. Phragmites-Saccharum\nc. Deschampsia-Deyeuxia\nd. Bothriochloa\n\nList-II (Habitat)\ni. Alpine region\nii. High-rainfall paddy tracts\niii. Black-soil regions\niv. Marshy localities\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "a": 0,
+   "x": "Sehima-Dichanthium occurs on black soils; Phragmites-Saccharum in marshy localities; Deschampsia-Deyeuxia in alpine regions; and Bothriochloa in high-rainfall paddy tracts.",
+   "ty": "match",
+   "tq": "Start with the sure habitat association and eliminate incompatible codes.",
+   "sec": "Grassland types → region"
+  },
+  {
+   "s": "Banni grassland, one of the vast tropical grasslands of India, is located in:",
+   "o": [
+    "Terai, Uttarakhand",
+    "Kutch, Gujarat",
+    "Chota Nagpur, Jharkhand",
+    "Nilgiri, Tamil Nadu"
+   ],
+   "a": 1,
+   "x": "Banni is a vast tropical grassland situated in the Kutch region of Gujarat.",
+   "ty": "fact",
+   "tq": "Use a distinctive landscape-place association.",
+   "sec": "Grassland types → region"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Margs — Uttarakhand",
+    "Sabai grass — rope and paper manufacture",
+    "Banni — alpine meadow of Himachal Pradesh",
+    "Bugyals — Kashmir"
+   ],
+   "a": 1,
+   "x": "Sabai grass is used for making rope and paper. Bugyals are alpine meadows of Uttarakhand, while margs are associated with Kashmir; Banni is in Kutch, Gujarat.",
+   "ty": "negative",
+   "tq": "Find the correctly matched item among closely related grassland terms.",
+   "sec": "Grassland types → region"
+  },
+  {
+   "s": "Under the Indian Forest Act, 1927, which category of forest provides the highest degree of legal protection?",
+   "o": [
+    "Unclassed forest",
+    "Reserved forest",
+    "Protected forest",
+    "Village forest"
+   ],
+   "a": 1,
+   "x": "Reserved forests have the strictest regime. Activities such as grazing and felling are barred unless expressly permitted.",
+   "ty": "fact",
+   "tq": "Distinguish legal categories by their degree of protection.",
+   "sec": "Legal classification - Reserved, Protected, Village forests (Indian Forest Act 1927)"
+  },
+  {
+   "s": "Consider the following statements regarding forest classifications:\n1. In a protected forest, rights are recorded and activities are allowed unless specifically prohibited.\n2. A village forest is a reserved forest assigned to a village community.\n3. In a reserved forest, all activities are freely permitted unless prohibited by a specific notification.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because activities in reserved forests are barred unless expressly permitted.",
+   "ty": "statements",
+   "tq": "Test the reversal between permitted activities in protected and reserved forests.",
+   "sec": "Legal classification - Reserved, Protected, Village forests (Indian Forest Act 1927)"
+  },
+  {
+   "s": "What was the approximate distribution of Andhra Pradesh forests among Reserved, Protected and Unclassed categories respectively?",
+   "o": [
+    "85.8%, 0.6% and 13.6%",
+    "13.6%, 85.8% and 0.6%",
+    "50%, 35% and 15%",
+    "85.8%, 13.6% and 0.6%"
+   ],
+   "a": 3,
+   "x": "In Andhra Pradesh, approximately 85.8% of forests are Reserved, 13.6% Protected and 0.6% Unclassed.",
+   "ty": "numerical",
+   "tq": "Recall the three-part percentage distribution in the stated order.",
+   "sec": "Legal classification - Reserved, Protected, Village forests (Indian Forest Act 1927)"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the applicable law or regime?",
+   "o": [
+    "National Park — Indian Forest Act, 1927 only",
+    "Conservation reserve — Wildlife Protection Act amendment, 2002",
+    "Reserved forest — Wildlife Protection Act, 1972",
+    "Community reserve — Indian Forest Act, 1927"
+   ],
+   "a": 1,
+   "x": "Conservation and community reserves were provided under the Wildlife Protection Act amendment of 2002. Reserved, protected and village forests are categories under the Indian Forest Act, 1927.",
+   "ty": "match",
+   "tq": "Identify the correct statute attached to each legal category.",
+   "sec": "Legal classification - Reserved, Protected, Village forests (Indian Forest Act 1927)"
+  },
+  {
+   "s": "With reference to mining near protected areas, which of the following statements is correct?",
+   "o": [
+    "Mining is prohibited only within 100 metres of a National Park.",
+    "The 1 km restriction applies only to Biosphere Reserves.",
+    "The Supreme Court has barred mining within 1 km of every National Park and Wildlife Sanctuary unless a larger eco-sensitive zone is notified.",
+    "Mining is permitted inside every National Park if approved by the State Government."
+   ],
+   "a": 2,
+   "x": "Mining is banned inside National Parks and Sanctuaries, and the Supreme Court has barred mining within 1 km of every such area unless a larger eco-sensitive zone is notified.",
+   "ty": "application",
+   "tq": "Apply the legal rule to a protected-area boundary scenario.",
+   "sec": "Legal classification - Reserved, Protected, Village forests (Indian Forest Act 1927)"
+  },
+  {
+   "s": "Regeneration from stool shoots after felling, generally maintained on a short rotation for fuelwood, is known as:",
+   "o": [
+    "Selection system",
+    "High forest",
+    "Coppice",
+    "Natural succession"
+   ],
+   "a": 2,
+   "x": "Coppice regeneration arises from stool shoots after felling and is generally managed on a short rotation, particularly for fuelwood.",
+   "ty": "fact",
+   "tq": "Discriminate silvicultural terms by their regeneration method.",
+   "sec": "Silvicultural terms - coppice, high forest, selection system"
+  },
+  {
+   "s": "Which silvicultural system raises a crop from seed and generally involves a long rotation for timber?",
+   "o": [
+    "Coppice system",
+    "Selection system",
+    "High forest system",
+    "Taungya system"
+   ],
+   "a": 2,
+   "x": "A high forest is raised from seed and is managed on a long rotation, usually for timber production.",
+   "ty": "fact",
+   "tq": "Match the management system with its origin and rotation.",
+   "sec": "Silvicultural terms - coppice, high forest, selection system"
+  },
+  {
+   "s": "In the selection system of silviculture, the forest is maintained as:",
+   "o": [
+    "A plantation harvested completely at one time",
+    "An uneven-aged forest by removing mature trees singly or in groups",
+    "A grassland without standing trees",
+    "An even-aged crop regenerated only by stool shoots"
+   ],
+   "a": 1,
+   "x": "The selection system removes mature trees singly or in groups and maintains an uneven-aged forest.",
+   "ty": "application",
+   "tq": "Apply the definition to identify the correct forest-management outcome.",
+   "sec": "Silvicultural terms - coppice, high forest, selection system"
+  },
+  {
+   "s": "Arrange the following Himalayan vegetation zones from lower to higher elevation:\nA. Temperate forests\nB. Alpine meadows\nC. Tropical sal forests\nD. Subtropical chir-pine forests\nE. Subalpine birch-rhododendron forests",
+   "o": [
+    "C, D, A, E, B",
+    "D, C, A, B, E",
+    "C, A, D, E, B",
+    "B, E, A, D, C"
+   ],
+   "a": 0,
+   "x": "The sequence upward is tropical sal foothills, subtropical chir pine, temperate forests, subalpine birch-rhododendron forests and alpine meadows.",
+   "ty": "chronology",
+   "tq": "Use the lower-to-higher elevation sequence and check the first and last zones.",
+   "sec": "Himalayan altitudinal zonation - sequence, north vs south slope"
+  },
+  {
+   "s": "Which one of the following combinations is associated with temperate Himalayan forests?",
+   "o": [
+    "Mangrove, sundari, stilt root and knee root",
+    "Sal, teak, sandalwood and mahua",
+    "Oak, deodar, blue pine and silver fir",
+    "Acacia, babul, euphorbia and cactus"
+   ],
+   "a": 2,
+   "x": "Temperate Himalayan forests include oak, deodar, blue pine and silver fir.",
+   "ty": "fact",
+   "tq": "Identify a vegetation belt from its characteristic species.",
+   "sec": "Himalayan altitudinal zonation - sequence, north vs south slope"
+  },
+  {
+   "s": "Consider the following statements about Himalayan vegetation:\n1. Eastern Himalayan forests include oaks, laurels, maples, rhododendrons, alder and birch.\n2. The tree line is lower in the Eastern Himalaya than in the Western Himalaya.\n3. The northern slopes generally carry denser forests than the southern slopes.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false: the southern or windward slopes generally carry denser forests than the northern slopes.",
+   "ty": "statements",
+   "tq": "Use a reversed-slope comparison as the main distractor.",
+   "sec": "Himalayan altitudinal zonation - sequence, north vs south slope"
+  },
+  {
+   "s": "The southern slopes of the Himalayas generally support denser forests than the northern slopes primarily because they are:",
+   "o": [
+    "At a greater altitude throughout their length",
+    "Covered exclusively by alpine grasslands",
+    "Leeward and permanently dry",
+    "Windward and receive greater moisture"
+   ],
+   "a": 3,
+   "x": "The southern slopes are generally windward slopes and receive greater moisture, resulting in denser forest growth than on the northern slopes.",
+   "ty": "application",
+   "tq": "Connect the slope comparison with the underlying moisture condition.",
+   "sec": "Himalayan altitudinal zonation - sequence, north vs south slope"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Deodar — Western Himalaya",
+    "Sal — Moist deciduous forests of the Terai and Indo-Gangetic plains",
+    "Teak — Central and peninsular India",
+    "Jackfruit — Alpine meadows of the Himalaya"
+   ],
+   "a": 3,
+   "x": "Jackfruit is an evergreen tree associated with the Western Ghats, not with Himalayan alpine meadows. Sal, teak and deodar are correctly matched with their stated regions.",
+   "ty": "negative",
+   "tq": "Find the species placed in a clearly unsuitable ecological region.",
+   "sec": "Tree species → region; evergreen vs deciduous"
+  },
+  {
+   "s": "Which of the following correctly distinguishes the forest types or regions associated with the listed trees?",
+   "o": [
+    "Mahua is an evergreen mangrove tree, whereas jackfruit is a desert thorn species.",
+    "Jackfruit is evergreen and associated with the Western Ghats, whereas mahua is deciduous and associated with Central India.",
+    "Jackfruit is a temperate conifer of the Western Himalaya, whereas mahua is an alpine shrub.",
+    "Both jackfruit and mahua are exclusively Himalayan conifers."
+   ],
+   "a": 1,
+   "x": "Jackfruit is an evergreen species of the Western Ghats, while mahua is a deciduous tree of Central India.",
+   "ty": "comparison",
+   "tq": "Compare two species by both leaf habit and geographical distribution.",
+   "sec": "Tree species → region; evergreen vs deciduous"
+  },
+  {
+   "s": "Which of the following statements regarding sal and teak is correct?\n1. Sal is associated with moist deciduous forests.\n2. Sal occurs in the Terai, Indo-Gangetic plain, Chota Nagpur and parts of the Northeast.\n3. Teak is associated with central and peninsular India and also occurs in the Eastern Ghats of Andhra Pradesh.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Sal is a moist deciduous species with the listed distribution, while teak occurs in central and peninsular India, including the Eastern Ghats of Andhra Pradesh. All three statements are correct.",
+   "ty": "statements",
+   "tq": "Test a species through a combined type-and-distribution statement set.",
+   "sec": "Tree species → region; evergreen vs deciduous"
+  },
+  {
+   "s": "Which one of the following correctly matches the tree with its forest type and region?",
+   "o": [
+    "Sandalwood — Dry deciduous forests of South India",
+    "Deodar — Tropical mangrove forests of Odisha",
+    "Mahua — Alpine forests of Uttarakhand",
+    "Jackfruit — Subalpine forests of Kashmir"
+   ],
+   "a": 0,
+   "x": "Sandalwood is associated with dry deciduous forests of South India. Deodar occurs in the Western Himalaya, mahua in Central India and jackfruit in the Western Ghats.",
+   "ty": "match",
+   "tq": "Use the forest-type and region pair together to reject mismatches.",
+   "sec": "Tree species → region; evergreen vs deciduous"
+  },
+  {
+   "s": "A forest manager wants a long-rotation timber crop raised from seed, while avoiding complete clearance of the forest and retaining trees of different ages. Which combination of silvicultural concepts is most appropriate?",
+   "o": [
+    "Village forest and protected forest classification",
+    "Coppice and even-aged clear felling",
+    "Coppice and short-rotation fuelwood management only",
+    "High forest and selection system"
+   ],
+   "a": 3,
+   "x": "High forest provides a seed-raised, long-rotation timber crop, while the selection system retains an uneven-aged forest by removing mature trees singly or in groups.",
+   "ty": "application",
+   "tq": "Combine two definitions in a practical forest-management scenario.",
+   "sec": "Silvicultural terms - coppice, high forest, selection system"
+  }
+ ]
+}

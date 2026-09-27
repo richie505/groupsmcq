@@ -1,0 +1,314 @@
+{
+ "book": 4,
+ "row": 47,
+ "chunk": 0,
+ "section": "Andhra Pradesh - coastline, deltas, hill ranges (Eastern Ghats, Nallamala, Seshachalam)",
+ "subsections": [
+  "Eastern Ghats in AP - local names by district and northern/southern limits",
+  "Coastline - recalculated length, rank among states, end points, coastal districts",
+  "Hill ranges → districts (Nallamala, Seshachalam-Tirumala, Velikonda, Palakonda, Erramala)"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 24,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 3
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Papikondalu — Godavari gorge",
+    "Velikonda — Srikakulam",
+    "Mahendragiri — Kadapa",
+    "Yarada — Nandyal"
+   ],
+   "a": 0,
+   "x": "Papikondalu is associated with the Godavari gorge in the East and West Godavari and ASR-Eluru region. The other ranges are associated with different parts of Andhra Pradesh.",
+   "ty": "match",
+   "tq": "Start from the sure range–location pair and eliminate the swapped districts.",
+   "sec": "Eastern Ghats in AP - local names by district and northern/southern limits"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Simhachalam and Yarada — Visakhapatnam\n2. Velikonda — SPSR Nellore and Tirupati\n3. Palakonda — YSR Kadapa and Tirupati\n4. Seshachalam — Srikakulam and Odisha\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Simhachalam-Yarada, Velikonda and Palakonda are correctly matched. Seshachalam is associated with YSR Kadapa and Chittoor/Tirupati, not Srikakulam and Odisha.",
+   "ty": "statements",
+   "tq": "Find the wrong location pair; the district swap is the main trap.",
+   "sec": "Eastern Ghats in AP - local names by district and northern/southern limits"
+  },
+  {
+   "s": "Which of the following statements regarding the division of the Eastern Ghats in Andhra Pradesh is correct?\n1. The Godavari and Krishna divide the Ghats into northern and southern parts.\n2. The northern part is called the Eastern Ranges.\n3. The southern part is called the Kadapa Ranges.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The Godavari and Krishna separate the northern Eastern Ranges from the southern Kadapa Ranges.",
+   "ty": "statements",
+   "tq": "Test the complete three-part geographical classification.",
+   "sec": "Eastern Ghats in AP - local names by district and northern/southern limits"
+  },
+  {
+   "s": "The Eastern Ghats in Andhra Pradesh begin in the north with which range?",
+   "o": [
+    "Seshachalam",
+    "Velikonda",
+    "Palakonda",
+    "Mahendragiri"
+   ],
+   "a": 3,
+   "x": "In Andhra Pradesh, the Eastern Ghats begin with Mahendragiri in the north. Beyond the state, they continue through the Javadi and Shevaroy hills.",
+   "ty": "fact",
+   "tq": "Use the northern-limit clue to identify the starting range.",
+   "sec": "Eastern Ghats in AP - local names by district and northern/southern limits"
+  },
+  {
+   "s": "The Eastern Ghats continue beyond Andhra Pradesh through which of the following hills before joining the Western Ghats near the Nilgiris?",
+   "o": [
+    "Anaimalai and Cardamom Hills",
+    "Javadi and Shevaroy Hills",
+    "Aravalli and Vindhya Hills",
+    "Satpura and Mahadeo Hills"
+   ],
+   "a": 1,
+   "x": "Beyond Andhra Pradesh, the Eastern Ghats pass through the Javadi and Shevaroy hills and join the Western Ghats near the Nilgiris.",
+   "ty": "fact",
+   "tq": "Trace the range geographically from north to south.",
+   "sec": "Eastern Ghats in AP - local names by district and northern/southern limits"
+  },
+  {
+   "s": "Which of the following correctly describes the Papikondalu National Park?",
+   "o": [
+    "It covers 974 square kilometres and was declared a National Park in 2022",
+    "It covers 193 square kilometres and was declared a National Park in 2008",
+    "It covers 1,012.86 square kilometres and was declared a National Park in 1978",
+    "It covers 1,012.86 square kilometres and was declared a National Park in 2008"
+   ],
+   "a": 3,
+   "x": "Papikonda National Park covers 1,012.86 sq km. The area was a Wildlife Sanctuary from 1978 and became a National Park in 2008.",
+   "ty": "numerical",
+   "tq": "Distinguish the sanctuary year from the later National Park year.",
+   "sec": "Eastern Ghats in AP - local names by district and northern/southern limits"
+  },
+  {
+   "s": "Which one of the following statements about the Andhra Pradesh coastline is correct according to the recalculated measurement?",
+   "o": [
+    "It is 7,516.6 km long and ranks first among Indian states.",
+    "It is 974 km long and ranks second among Indian states.",
+    "It is 1,053.07 km long and ranks third among Indian states.",
+    "It is 1,068.69 km long and ranks third among Indian states."
+   ],
+   "a": 2,
+   "x": "The recalculated coastline of Andhra Pradesh is 1,053.07 km, making it the third longest among Indian states after Gujarat and Tamil Nadu. The 974 km figure and second rank are older figures.",
+   "ty": "numerical",
+   "tq": "Use the recalculated figure and reject the older coastline value.",
+   "sec": "Coastline - recalculated length, rank among states, end points, coastal districts"
+  },
+  {
+   "s": "The coastline length of Tamil Nadu cited in the revised comparison with Andhra Pradesh is:",
+   "o": [
+    "974 km",
+    "1,012.86 km",
+    "1,053.07 km",
+    "1,068.69 km"
+   ],
+   "a": 3,
+   "x": "Tamil Nadu's coastline is cited as 1,068.69 km, which is longer than Andhra Pradesh's recalculated 1,053.07 km.",
+   "ty": "numerical",
+   "tq": "Distinguish the neighbouring state's figure from Andhra Pradesh's revised figure.",
+   "sec": "Coastline - recalculated length, rank among states, end points, coastal districts"
+  },
+  {
+   "s": "The increase in India's measured coastline from 7,516.6 km to 11,098.81 km primarily reflects:",
+   "o": [
+    "Actual creation of new coastal land",
+    "A change in the political boundary of India",
+    "GIS retracing at a scale of 1:250,000",
+    "Exclusion of island territories"
+   ],
+   "a": 2,
+   "x": "The increase resulted from GIS retracing at 1:250,000 scale and does not represent an actual physical change in India's coastline.",
+   "ty": "application",
+   "tq": "Identify the measurement-method explanation rather than a physical-change claim.",
+   "sec": "Coastline - recalculated length, rank among states, end points, coastal districts"
+  },
+  {
+   "s": "Which of the following statements about the coastal districts of Andhra Pradesh is correct?\n1. Twelve districts touch the coast after the 2022 reorganisation.\n2. Srikakulam has the longest district coastline, measuring 193 km.\n3. West Godavari has the shortest district coastline, measuring 23 km.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. After the 2022 reorganisation, 12 districts touch the coast; Srikakulam has 193 km and West Godavari has 23 km.",
+   "ty": "statements",
+   "tq": "Check the district count together with the longest–shortest comparison.",
+   "sec": "Coastline - recalculated length, rank among states, end points, coastal districts"
+  },
+  {
+   "s": "The revised measurement of the coastline of Andhra Pradesh was associated with which period and authority?",
+   "o": [
+    "2024–25 remeasurement by the Geological Survey of India",
+    "2021–22 remeasurement by the Survey of India alone",
+    "2023–24 remeasurement by the Ministry of Ports, Shipping and Waterways",
+    "2022–23 remeasurement by the Ministry of Environment, Forest and Climate Change"
+   ],
+   "a": 2,
+   "x": "The 1,053.07 km figure was obtained in the 2023–24 remeasurement associated with the Ministry of Ports, Shipping and Waterways.",
+   "ty": "fact",
+   "tq": "Link the numerical revision with its time period and responsible authority.",
+   "sec": "Coastline - recalculated length, rank among states, end points, coastal districts"
+  },
+  {
+   "s": "Which one of the following statements correctly distinguishes the old and revised coastline positions of Andhra Pradesh?",
+   "o": [
+    "The old figure was 974 km with second rank, while the revised figure is 1,053.07 km with third rank.",
+    "The old figure was 1,053.07 km with third rank, while the revised figure is 974 km with second rank.",
+    "Both figures are 974 km and both imply first rank.",
+    "Both figures are 1,053.07 km and both imply second rank."
+   ],
+   "a": 0,
+   "x": "The older commonly used figure was 974 km and carried a second-rank position. The revised figure is 1,053.07 km and gives Andhra Pradesh third rank nationally.",
+   "ty": "confusable",
+   "tq": "Discriminate between the two close-looking figures by pairing each with its rank.",
+   "sec": "Coastline - recalculated length, rank among states, end points, coastal districts"
+  },
+  {
+   "s": "Which river basin pair is associated with the Nallamala hill range?",
+   "o": [
+    "Godavari and Krishna",
+    "Krishna and Penna",
+    "Pennar and Cauvery",
+    "Mahanadi and Godavari"
+   ],
+   "a": 1,
+   "x": "The Nallamala range lies between the Krishna and Penna basins. It is also the largest continuous forest and hill range among those described in the material.",
+   "ty": "fact",
+   "tq": "Use the basin relationship rather than the district location alone.",
+   "sec": "Hill ranges → districts (Nallamala, Seshachalam-Tirumala, Velikonda, Palakonda, Erramala)"
+  },
+  {
+   "s": "The Chenchu Particularly Vulnerable Tribal Group associated with the Nallamala hills has its Integrated Tribal Development Agency at:",
+   "o": [
+    "Pulicat",
+    "Visakhapatnam",
+    "Tirupati",
+    "Srisailam"
+   ],
+   "a": 3,
+   "x": "The Chenchus, a Particularly Vulnerable Tribal Group living in the Nallamala region, are associated with the ITDA at Srisailam.",
+   "ty": "fact",
+   "tq": "Connect the tribal group with its specific administrative centre.",
+   "sec": "Hill ranges → districts (Nallamala, Seshachalam-Tirumala, Velikonda, Palakonda, Erramala)"
+  },
+  {
+   "s": "Which of the following statements regarding the Seshachalam hills is correct?\n1. They form part of the Eastern Ghats.\n2. They include the Tirumala hills.\n3. They are associated with red sanders forests.\n4. They form the Seshachalam Biosphere Reserve.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Seshachalam is an Eastern Ghats range containing the Tirumala hills and red sanders forests, and it forms the Seshachalam Biosphere Reserve.",
+   "ty": "statements",
+   "tq": "Verify each feature of the range before selecting the complete combination.",
+   "sec": "Hill ranges → districts (Nallamala, Seshachalam-Tirumala, Velikonda, Palakonda, Erramala)"
+  },
+  {
+   "s": "Red sanders forests in Andhra Pradesh are especially associated with which hill range?",
+   "o": [
+    "Papikondalu",
+    "Mahendragiri",
+    "Erramala",
+    "Seshachalam"
+   ],
+   "a": 3,
+   "x": "The Seshachalam hills, including the Tirumala hills, are noted for their red sanders forests.",
+   "ty": "fact",
+   "tq": "Use the distinctive vegetation association to identify the range.",
+   "sec": "Hill ranges → districts (Nallamala, Seshachalam-Tirumala, Velikonda, Palakonda, Erramala)"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding the Erramala hills?",
+   "o": [
+    "They lie between the Bay of Bengal and the Eastern Ghats.",
+    "They separate the Godavari and Mahanadi basins.",
+    "They form the water divide between the Penna basin to the north and the Krishna basin to the south.",
+    "They form the water divide between the Krishna basin to the north and the Penna basin to the south."
+   ],
+   "a": 3,
+   "x": "Erramala, associated with Kurnool and Nandyal, divides the Krishna basin in the north from the Penna basin in the south.",
+   "ty": "comparison",
+   "tq": "Check the direction of the two basins; reversal is the key trap.",
+   "sec": "Hill ranges → districts (Nallamala, Seshachalam-Tirumala, Velikonda, Palakonda, Erramala)"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Erramala — Kurnool and Nandyal",
+    "Velikonda — Nellore-Tirupati side",
+    "Palakonda — Kadapa",
+    "Seshachalam — West Godavari and East Godavari"
+   ],
+   "a": 3,
+   "x": "Seshachalam is associated with Kadapa and Tirupati/Chittoor. West Godavari and East Godavari are associated with the Papikondalu region.",
+   "ty": "negative",
+   "tq": "Find the single range–district mismatch among closely related Eastern Ghats locations.",
+   "sec": "Hill ranges → districts (Nallamala, Seshachalam-Tirumala, Velikonda, Palakonda, Erramala)"
+  },
+  {
+   "s": "Which of the following is the correct east-to-west relationship among the southern hill ranges described in Andhra Pradesh?",
+   "o": [
+    "Palakonda is the easternmost of the southern ranges.",
+    "Seshachalam is the easternmost of the southern ranges.",
+    "Nallamala is the easternmost of the southern ranges.",
+    "Velikonda is the easternmost of the southern ranges."
+   ],
+   "a": 3,
+   "x": "Velikonda is identified as the easternmost of the southern ranges. It extends along the Nellore-Tirupati side, with a connection toward the Prakasam side.",
+   "ty": "fact",
+   "tq": "Use the comparative location clue to distinguish the southern ranges.",
+   "sec": "Hill ranges → districts (Nallamala, Seshachalam-Tirumala, Velikonda, Palakonda, Erramala)"
+  },
+  {
+   "s": "A statement identifying the Seshachalam hills as part of the Nilgiri Hills is:",
+   "o": [
+    "Incorrect, because Seshachalam is part of the Western Ghats",
+    "Correct, because both are located in southern India",
+    "Incorrect, because Seshachalam is part of the Eastern Ghats",
+    "Correct, because Seshachalam is outside the Eastern Ghats"
+   ],
+   "a": 2,
+   "x": "Seshachalam belongs to the Eastern Ghats. Identifying it as part of the Nilgiri Hills is geographically incorrect.",
+   "ty": "confusable",
+   "tq": "Reject the look-alike range by recalling the actual physiographic group.",
+   "sec": "Hill ranges → districts (Nallamala, Seshachalam-Tirumala, Velikonda, Palakonda, Erramala)"
+  },
+  {
+   "s": "Arrange the following events or developments related to the measurement of India's coastline in chronological order:\nA. Older commonly used coastline figure of 974 km for Andhra Pradesh\nB. Andhra Pradesh coastline remeasurement of 1,053.07 km\nC. Andhra Pradesh's revised third position among Indian states\nD. India-wide GIS retracing producing 11,098.81 km",
+   "o": [
+    "A, B, C, D",
+    "A, D, B, C",
+    "B, A, D, C",
+    "D, B, C, A"
+   ],
+   "a": 1,
+   "x": "The older 974 km figure preceded the GIS-based exercise; the India-wide retracing and Andhra Pradesh remeasurement were part of the revised assessment, followed by recognition of the third rank.",
+   "ty": "chronology",
+   "tq": "Place the older published figure before the later GIS-based reassessment and its ranking outcome.",
+   "sec": "Coastline - recalculated length, rank among states, end points, coastal districts"
+  }
+ ]
+}

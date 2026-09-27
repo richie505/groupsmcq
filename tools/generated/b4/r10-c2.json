@@ -1,0 +1,372 @@
+{
+ "book": 4,
+ "row": 10,
+ "chunk": 2,
+ "section": "Earthquakes - causes, seismic waves, measurement, distribution, effects",
+ "subsections": [
+  "Seismic waves - order, motion, damage",
+  "World distribution",
+  "Effects - tsunami, landslides, liquefaction, fires",
+  "Volcanoes in India - active vs dormant, Deccan Traps origin",
+  "Volcanic landforms - intrusive and extrusive"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "With reference to seismic waves, consider the following statements:\n1. S-waves are transverse waves.\n2. S-waves can propagate through liquids.\n3. The absence of S-waves beyond about 105° from the epicentre is evidence that the outer core is liquid.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "S-waves involve shear motion perpendicular to the direction of travel and propagate only through solids. Their absence beyond about 105° indicates the liquid nature of the outer core.",
+   "ty": "statements",
+   "tq": "Eliminate the statement that reverses the solid-only property of S-waves.",
+   "sec": "Seismic waves - order, motion, damage  [other exams]"
+  },
+  {
+   "s": "Love and Rayleigh waves are collectively classified as:",
+   "o": [
+    "Surface waves",
+    "Body waves",
+    "Primary waves",
+    "Core waves"
+   ],
+   "a": 0,
+   "x": "Love and Rayleigh waves move along the Earth's surface and are classified as surface waves.",
+   "ty": "fact",
+   "tq": "Test the exact classification of closely related seismic waves.",
+   "sec": "Seismic waves - order, motion, damage  [other exams]"
+  },
+  {
+   "s": "Which one of the following correctly describes the movement and damaging potential of surface waves?",
+   "o": [
+    "They move through the outer core and cause limited damage.",
+    "They arrive last and generally cause the greatest damage.",
+    "They arrive first and produce compressional motion only.",
+    "They travel only through liquids and have no particle motion."
+   ],
+   "a": 1,
+   "x": "Surface waves arrive after the body waves and usually cause the greatest damage. Love waves show side-to-side motion, while Rayleigh waves have a rolling motion.",
+   "ty": "comparison",
+   "tq": "Compare arrival time, motion and damage rather than memorising one feature alone.",
+   "sec": "Seismic waves - order, motion, damage  [other exams]"
+  },
+  {
+   "s": "At the Mohorovicic discontinuity, the speed of P-waves increases approximately from:",
+   "o": [
+    "6.9 to 8.1 km/s",
+    "8.1 to 10.5 km/s",
+    "4.1 to 5.6 km/s",
+    "5.6 to 6.9 km/s"
+   ],
+   "a": 0,
+   "x": "The speed of P-waves jumps from about 6.9 km/s to 8.1 km/s at the Moho, named after Mohorovicic.",
+   "ty": "numerical",
+   "tq": "Identify the correct numerical range from the two values forming the discontinuity.",
+   "sec": "Seismic waves - order, motion, damage  [other exams]"
+  },
+  {
+   "s": "Assertion (A): The outer core of the Earth is considered liquid.\nReason (R): S-waves do not pass beyond approximately 105° from the earthquake epicentre.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true. Since S-waves cannot travel through liquids, their absence beyond the shadow zone supports the conclusion that the outer core is liquid.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the seismic observation directly explains the inference about the Earth's interior.",
+   "sec": "Seismic waves - order, motion, damage  [other exams]"
+  },
+  {
+   "s": "Which one of the following belts is associated with the greatest concentration of earthquakes in the world?",
+   "o": [
+    "Mid-Continental belt",
+    "Mid-oceanic ridge belt",
+    "Circum-Pacific belt",
+    "Hotspot belt"
+   ],
+   "a": 2,
+   "x": "The Circum-Pacific belt, also called the Ring of Fire, contains the world's greatest concentration of earthquakes and is associated largely with subduction around the Pacific basin.",
+   "ty": "fact",
+   "tq": "Use the ranking of earthquake belts to select the most active belt.",
+   "sec": "World distribution"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Belt)\na. Pacific Ring of Fire\nb. Mid-Atlantic belt\nc. Mediterranean-Himalayan belt\n d. Hotspot belt\n\nList-II (Plate setting or process)\ni. Mantle plume beneath a moving plate\n ii. Divergent ridge\n iii. Subduction around a basin\n iv. Continental collision\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "The Pacific Ring of Fire is linked to subduction, the Mid-Atlantic belt to a divergent ridge, the Mediterranean-Himalayan belt to continental collision, and hotspots to mantle plumes.",
+   "ty": "match",
+   "tq": "Start with the sure plate-setting pair and eliminate codes containing a wrong association.",
+   "sec": "World distribution"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Hawaii — Hotspot",
+    "Iceland — Mid-Atlantic belt",
+    "Himalayas — Mediterranean-Himalayan belt",
+    "Chile — Mid-Atlantic belt"
+   ],
+   "a": 3,
+   "x": "Chile lies along the Pacific Ring of Fire, not the Mid-Atlantic belt. Iceland is associated with the Mid-Atlantic belt, the Himalayas with the Alpine-Himalayan belt, and Hawaii with a hotspot.",
+   "ty": "negative",
+   "tq": "Find the location that belongs to a different seismic belt.",
+   "sec": "World distribution"
+  },
+  {
+   "s": "The earthquakes associated with mid-oceanic ridges are generally:",
+   "o": [
+    "Restricted to continental collision zones",
+    "Deep and exceptionally destructive",
+    "Caused only by hotspot activity",
+    "Shallow and relatively milder"
+   ],
+   "a": 3,
+   "x": "Mid-oceanic ridge earthquakes are generally shallow and milder, reflecting activity at divergent plate boundaries.",
+   "ty": "comparison",
+   "tq": "Use the depth-and-severity comparison among the major earthquake belts.",
+   "sec": "World distribution"
+  },
+  {
+   "s": "Which of the following 2026 earthquake events was reported with the correct magnitude and location?\n1. Flores, Indonesia — magnitude 7.7\n2. Colombia — magnitude 7.4\n3. Kyushu, Japan — magnitude 7.1\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The reported 2026 events included the magnitude 7.7 Flores earthquake, the magnitude 7.4 Colombia earthquake and the magnitude 7.1 Kyushu earthquake.",
+   "ty": "statements",
+   "tq": "Verify each location–magnitude pair independently before selecting the coded combination.",
+   "sec": "World distribution"
+  },
+  {
+   "s": "The 2026 earthquake in Colombia mentioned in the seismic-event record occurred on:",
+   "o": [
+    "10 June 2026",
+    "29 July 2026",
+    "18 August 2026",
+    "12 August 2026"
+   ],
+   "a": 3,
+   "x": "The Colombia earthquake of magnitude 7.4 was reported on 12 August 2026 and caused more than 100 deaths.",
+   "ty": "numerical",
+   "tq": "Distinguish closely spaced dates by matching the event with its location.",
+   "sec": "World distribution"
+  },
+  {
+   "s": "Which combination of conditions is most conducive to the generation of a tsunami?",
+   "o": [
+    "Magnitude below 5.0, deep focus and horizontal movement only",
+    "Magnitude above 6.5, shallow focus and vertical uplift of the sea floor",
+    "Volcanic ash fall without any displacement of water",
+    "Deep continental earthquake and subsidence of an inland basin"
+   ],
+   "a": 1,
+   "x": "A tsunami generally requires an earthquake of magnitude greater than 6.5, a focus shallower than approximately 70 km and vertical uplift of the sea floor.",
+   "ty": "application",
+   "tq": "Apply the necessary-condition test instead of relying on magnitude alone.",
+   "sec": "Effects - tsunami, landslides, liquefaction, fires"
+  },
+  {
+   "s": "Approximately what proportion of tsunamis originate from megathrust earthquakes at subduction zones?",
+   "o": [
+    "More than 80 percent",
+    "More than 40 percent",
+    "More than 60 percent",
+    "More than 20 percent"
+   ],
+   "a": 0,
+   "x": "More than 80 percent of tsunamis originate from megathrust earthquakes occurring at subduction zones.",
+   "ty": "numerical",
+   "tq": "Select the quantitative threshold associated with the dominant tsunami source.",
+   "sec": "Effects - tsunami, landslides, liquefaction, fires"
+  },
+  {
+   "s": "Match the earthquake effect with the region or cause most closely associated with it:\n\nList-I (Effect)\na. Landslides\nb. Liquefaction\nc. Seismic seiches\n d. Fires\n\nList-II (Associated setting or cause)\ni. Broken gas and power lines\n ii. Lakes and reservoirs\n iii. Fragile Himalaya and North-East\n iv. Soft soils of the Indo-Gangetic Plain\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–i, b–ii, c–iii, d–iv"
+   ],
+   "a": 0,
+   "x": "Earthquakes trigger landslides in the fragile Himalaya and North-East, liquefaction in soft Indo-Gangetic soils, seiches in lakes and reservoirs, and fires through broken gas and power lines.",
+   "ty": "match",
+   "tq": "Match each hazard with its distinctive physical setting or immediate cause.",
+   "sec": "Effects - tsunami, landslides, liquefaction, fires"
+  },
+  {
+   "s": "Narcondam, located in the Andaman Sea, is associated with which of the following?",
+   "o": [
+    "An extinct volcanic hill and the Asiatic lion",
+    "A dormant volcano and the Narcondam hornbill",
+    "India's only active volcano and the Nicobar pigeon",
+    "A flood-basalt plateau and the Great Indian bustard"
+   ],
+   "a": 1,
+   "x": "Narcondam is a dormant volcano in the Andaman Sea and is the home of the Narcondam hornbill.",
+   "ty": "fact",
+   "tq": "Combine location, volcanic status and associated species to resolve a confusable pair.",
+   "sec": "Volcanoes in India - active vs dormant, Deccan Traps origin  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly describes the Deccan Traps?",
+   "o": [
+    "Fissure-related flood-basalt outpourings on the Maharashtra Plateau near the end of the Cretaceous",
+    "An intrusive granite batholith formed in Ladakh during the Cenozoic Era",
+    "A chain of dormant volcanic cones formed in the Andaman Sea during the Quaternary period",
+    "A group of extinct volcanic hills confined to Kutch"
+   ],
+   "a": 0,
+   "x": "The Deccan Traps are fissure or flood-basalt outpourings on the Maharashtra Plateau that occurred at the end of the Cretaceous and are linked to the Reunion hotspot.",
+   "ty": "fact",
+   "tq": "Use origin, location and geological age together rather than a single keyword.",
+   "sec": "Volcanoes in India - active vs dormant, Deccan Traps origin  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Deccan Traps are linked in origin with the:",
+   "o": [
+    "Iceland hotspot",
+    "Reunion hotspot",
+    "Galapagos hotspot",
+    "Hawaii hotspot"
+   ],
+   "a": 1,
+   "x": "The Deccan Traps are linked to activity of the Reunion hotspot near the end of the Cretaceous.",
+   "ty": "fact",
+   "tq": "Discriminate among similarly named hotspot examples using the associated landform.",
+   "sec": "Volcanoes in India - active vs dormant, Deccan Traps origin  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "A mud volcano at Diglipur is distinguished from a lava volcano because it ejects:",
+   "o": [
+    "Only molten basalt",
+    "Granite and volcanic bombs",
+    "Only sulphur and volcanic ash",
+    "Mud, water and methane"
+   ],
+   "a": 3,
+   "x": "The Diglipur mud volcano ejects mud, water and methane rather than lava. Its activity is driven by tectonic pressure on the active Andaman Arc subduction zone.",
+   "ty": "application",
+   "tq": "Distinguish a process by its actual ejecta rather than by the word volcano.",
+   "sec": "Volcanoes in India - active vs dormant, Deccan Traps origin  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Batholith — saucer-shaped intrusive body",
+    "Lopolith — wavy mass in a folded structure",
+    "Phacolith — wavy mass at the base of a syncline or top of an anticline",
+    "Laccolith — vertical wall cutting across rock beds"
+   ],
+   "a": 2,
+   "x": "A phacolith is a wavy intrusive mass occurring at the base of a syncline or the top of an anticline. A lopolith is saucer-shaped, a laccolith is dome-shaped with a flat base, and a dyke is a vertical wall.",
+   "ty": "match",
+   "tq": "Match each intrusive form with its distinctive shape or structural position.",
+   "sec": "Volcanic landforms - intrusive and extrusive  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which intrusive volcanic body is a huge dome of granite cooled deep within the crust and commonly forms the core of mountains?",
+   "o": [
+    "Sill",
+    "Batholith",
+    "Laccolith",
+    "Dyke"
+   ],
+   "a": 1,
+   "x": "A batholith is a huge dome-like mass of granite that cools deep in the crust and may form the core of a mountain range.",
+   "ty": "fact",
+   "tq": "Identify the landform from its scale, composition and depth of emplacement.",
+   "sec": "Volcanic landforms - intrusive and extrusive  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about intrusive volcanic forms:\n1. A laccolith is dome-shaped and has a flat base.\n2. A lopolith is saucer-shaped.\n3. A sill is a horizontal sheet parallel to the rock beds.\n4. A dyke is a vertical wall cutting across the beds.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. These forms are distinguished mainly by their shape and their relation to the surrounding rock beds.",
+   "ty": "statements",
+   "tq": "Check each form against its geometric description and relation to bedding.",
+   "sec": "Volcanic landforms - intrusive and extrusive  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Deccan Traps were fed by which type of intrusive structure cutting across the rock beds?",
+   "o": [
+    "Phacolith",
+    "Laccolith",
+    "Dyke",
+    "Sill"
+   ],
+   "a": 2,
+   "x": "Dykes are vertical walls that cut across rock beds and fed the fissure eruptions associated with the Deccan Traps in western Maharashtra.",
+   "ty": "application",
+   "tq": "Connect the structural form of an intrusion with its role in feeding surface lava.",
+   "sec": "Volcanic landforms - intrusive and extrusive  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Ladakh Magmatic Arc lies between which two suture zones?",
+   "o": [
+    "Main Boundary and Main Central suture zones",
+    "Indus and Shyok suture zones",
+    "Narmada and Son suture zones",
+    "Zanskar and Karakoram suture zones"
+   ],
+   "a": 1,
+   "x": "The Ladakh Magmatic Arc is located in the Trans-Himalaya between the Indus and Shyok suture zones.",
+   "ty": "fact",
+   "tq": "Use the paired geographical boundaries to identify the magmatic arc.",
+   "sec": "Volcanic landforms - intrusive and extrusive  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly describes the geological development of the Ladakh Magmatic Arc?",
+   "o": [
+    "It formed when the Neo-Tethys plate subducted under Eurasia and underwent a batholith phase from about 160 Ma to less than 45 Ma.",
+    "It formed from the Reunion hotspot during the end of the Cretaceous and consists only of flood basalts.",
+    "It formed at the Mid-Atlantic Ridge through present-day divergent movement.",
+    "It developed when the Indian plate subducted beneath the Pacific plate during the Quaternary period."
+   ],
+   "a": 0,
+   "x": "The Ladakh Magmatic Arc formed through subduction of the Neo-Tethys plate beneath Eurasia and experienced a batholith phase from approximately 160 Ma to less than 45 Ma.",
+   "ty": "chronology",
+   "tq": "Combine the tectonic process with the geological time interval and reject unrelated settings.",
+   "sec": "Volcanic landforms - intrusive and extrusive  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is an extrusive volcanic landform?",
+   "o": [
+    "Lopolith",
+    "Lava plateau",
+    "Phacolith",
+    "Batholith"
+   ],
+   "a": 1,
+   "x": "Lava plateaus, cinder and composite cones, craters, calderas and lava flows are extrusive volcanic landforms. Batholiths, lopoliths and phacoliths are intrusive forms.",
+   "ty": "negative",
+   "tq": "Separate surface-formed extrusive features from underground intrusive bodies.",
+   "sec": "Volcanic landforms - intrusive and extrusive  [APPSC, GROUP-II]"
+  }
+ ]
+}

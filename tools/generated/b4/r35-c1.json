@@ -1,0 +1,383 @@
+{
+ "book": 4,
+ "row": 35,
+ "chunk": 1,
+ "section": "India - the Northern Plains, the Peninsular Plateau, the Coastal Plains and the Islands",
+ "subsections": [
+  "Western vs Eastern Ghats - names, meeting point, passes",
+  "Hills → state and peaks, height order"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 30,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly describes the Western Ghats and Eastern Ghats?\n1. The Western Ghats are generally continuous south of the Tapti.\n2. The Eastern Ghats are discontinuous and have been eroded by rivers.\n3. The Eastern Ghats extend for about 1,750 km from the Mahanadi to the Vaigai.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Western Ghats are continuous south of the Tapti, whereas the Eastern Ghats are discontinuous and eroded. The Eastern Ghats extend for about 1,750 km between the Mahanadi and Vaigai rivers.",
+   "ty": "statements",
+   "tq": "Use the continuity contrast and check each geographical extent separately.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "Which of the following is the correct sequence of local names of the Western Ghats from north to south?",
+   "o": [
+    "Sahyadri, Nilgiri, Anaimalai, Palani, Cardamom",
+    "Nilgiri, Sahyadri, Palani, Cardamom, Anaimalai",
+    "Sahyadri, Anaimalai, Nilgiri, Cardamom, Palani",
+    "Cardamom, Palani, Anaimalai, Nilgiri, Sahyadri"
+   ],
+   "a": 0,
+   "x": "The Western Ghats are locally known successively as Sahyadri, Nilgiri, Anaimalai, Palani and Cardamom from north to south.",
+   "ty": "chronology",
+   "tq": "Test the sequence from north to south rather than matching isolated names.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "In Andhra Pradesh, which one of the following is NOT a local name associated with the Eastern Ghats?",
+   "o": [
+    "Papikondalu",
+    "Nallamala",
+    "Sahyadri",
+    "Seshachalam"
+   ],
+   "a": 2,
+   "x": "Papikondalu, Nallamala, Erramala, Seshachalam and Velikonda are associated with the Eastern Ghats in Andhra Pradesh. Sahyadri is a local name of the Western Ghats.",
+   "ty": "negative",
+   "tq": "Find the odd regional name by separating Western Ghats terminology from Andhra Pradesh Eastern Ghats names.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Cardamom Hills are regarded as a continuation of the Western Ghats.\n2. The Eastern Ghats are made up of khondalite and charnockite.\n3. The average height of the Eastern Ghats is about 610 metres.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The Cardamom Hills continue the Western Ghats, while the Eastern Ghats consist of khondalite and charnockite and have an average height of about 610 metres.",
+   "ty": "statements",
+   "tq": "Statements combine a range relationship with rock composition and a numerical feature.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Thalghat — Mumbai–Pune",
+    "Bhorghat — Mumbai–Nashik",
+    "Thalghat — Mumbai–Nashik",
+    "Palghat Gap — Mumbai–Nashik"
+   ],
+   "a": 2,
+   "x": "Thalghat links Mumbai and Nashik, whereas Bhorghat links Mumbai and Pune. Palghat is a gap south of the Nilgiri Hills.",
+   "ty": "match",
+   "tq": "Start with the sure route–pass association and eliminate the swapped pair.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "With reference to the passes of the Western Ghats, consider the following statements:\n1. Thalghat and Bhorghat are located in the northern Sahyadri.\n2. Thalghat links Mumbai with Nashik.\n3. Bhorghat links Mumbai with Pune.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Thalghat and Bhorghat are northern Sahyadri passes; Thalghat connects Mumbai and Nashik, while Bhorghat connects Mumbai and Pune.",
+   "ty": "statements",
+   "tq": "Check the location statement first, then distinguish the two easily confused routes.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "The Palghat Gap is located approximately:",
+   "o": [
+    "40 km south of the Cardamom Hills",
+    "24 km south of the Nilgiri Hills",
+    "10 km north of the Nilgiri Hills",
+    "75 km north of the Anaimalai Hills"
+   ],
+   "a": 1,
+   "x": "The Palghat Gap is approximately 24 km wide and lies south of the Nilgiri Hills.",
+   "ty": "numerical",
+   "tq": "Pair the numerical width with its relative position to the Nilgiris.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "The Eastern Ghats are cut through by which of the following rivers?\n1. Godavari\n2. Krishna\n3. Mahanadi\n4. Narmada\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "The Eastern Ghats are cut through by the Godavari, Krishna and Mahanadi rivers. The Narmada is not included among these rivers.",
+   "ty": "statements",
+   "tq": "Identify the river group associated with the Eastern Ghats and reject the unrelated river.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "Which one of the following statements about the Western Ghats is NOT correct?",
+   "o": [
+    "They are about 1,600 km long.",
+    "Their height generally ranges from 915 to 1,220 metres.",
+    "They are discontinuous because of extensive river erosion.",
+    "They are generally continuous south of the Tapti."
+   ],
+   "a": 2,
+   "x": "The Western Ghats are generally continuous, unlike the discontinuous Eastern Ghats. Their approximate length is 1,600 km and their height is generally 915–1,220 metres.",
+   "ty": "negative",
+   "tq": "Use the principal Western–Eastern Ghats contrast to identify the reversed statement.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "Which one of the following correctly describes the Peninsular Plateau?\n1. It is the largest and oldest physiographic division mentioned here.\n2. It is a Precambrian Gondwana shield.\n3. It is a triangular block composed of igneous and metamorphic rocks.\n4. It tilts towards the west, causing most rivers to flow westward.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "The Peninsular Plateau is the largest and oldest division, a Precambrian Gondwana shield and a triangular block of igneous and metamorphic rocks. It tilts eastward, so most rivers flow eastward; statement 4 is false.",
+   "ty": "statements",
+   "tq": "The directional trap reverses the plateau tilt and the resulting river-flow pattern.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "The Deccan Plateau, covering approximately 7 lakh square kilometres, is principally composed of:",
+   "o": [
+    "Horizontal basaltic lava sheets",
+    "Coral limestone formations",
+    "Recent alluvial deposits",
+    "Folded sandstone beds"
+   ],
+   "a": 0,
+   "x": "The Deccan Plateau covers about 7 lakh square kilometres and is made of horizontal lava sheets known as the Deccan Trap, which consists of basalt.",
+   "ty": "numerical",
+   "tq": "Combine the area figure with the characteristic rock-forming process.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "The term ‘Deccan Trap’ refers primarily to:",
+   "o": [
+    "Granite exposed by folding",
+    "Alluvium deposited by the Godavari",
+    "Khondalite exposed in the Eastern Ghats",
+    "Basalt formed from horizontal lava sheets"
+   ],
+   "a": 3,
+   "x": "The Deccan Trap is formed by horizontal sheets of basaltic lava. It is not an alluvial or metamorphic formation.",
+   "ty": "confusable",
+   "tq": "Discriminate between the named geological formation and nearby rock types.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "Satpura is a horst located between the:",
+   "o": [
+    "Narmada and Tapi rivers",
+    "Godavari and Bhima rivers",
+    "Mahanadi and Vaigai rivers",
+    "Krishna and Kaveri rivers"
+   ],
+   "a": 0,
+   "x": "The Satpura Range is a horst situated between the Narmada and Tapi rivers.",
+   "ty": "fact",
+   "tq": "Use the inter-river location to identify the structural range.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding the Satpura and Maikala ranges?",
+   "o": [
+    "Amarkantak is the highest peak of Satpura, while Dhupgarh lies in the Maikala Range.",
+    "Dhupgarh is the highest peak of Satpura, while Amarkantak lies in the Maikala Range.",
+    "Both Dhupgarh and Amarkantak lie in the Satpura Range.",
+    "Both Dhupgarh and Amarkantak lie in the Maikala Range."
+   ],
+   "a": 1,
+   "x": "Dhupgarh, at about 1,350 metres, is the highest peak of the Satpura Range. Amarkantak is located in the Maikala Range.",
+   "ty": "confusable",
+   "tq": "Separate the two closely associated range names instead of treating them as synonyms.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below.\n\nList-I (Hill or range)\na. Satmala–Ajanta\nb. Harishchandragarh–Balaghat\nc. Palani\n d. Cardamom\n\nList-II (Location)\ni. Between the Godavari and Bhima\n ii. Between the Tapi and Godavari\n iii. South of the Palghat Gap\n iv. South of the Palghat Gap",
+   "o": [
+    "a–ii, b–i, c–iii, d–iv",
+    "a–i, b–ii, c–iv, d–iii",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii"
+   ],
+   "a": 0,
+   "x": "Satmala–Ajanta lies between the Tapi and Godavari, and Harishchandragarh–Balaghat lies between the Godavari and Bhima. Palani and Cardamom are both south of the Palghat Gap.",
+   "ty": "match",
+   "tq": "Start with the distinctive inter-river pairs, then resolve the two southern ranges.",
+   "sec": "Western vs Eastern Ghats - names, meeting point, passes"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Kodaikanal — Palani Hills",
+    "Agastyamalai — Nilgiri Hills",
+    "Papikondalu — Western Ghats of Maharashtra",
+    "Sahyadri — Eastern Ghats of Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "Kodaikanal lies in the Palani Hills. Agastyamalai is associated with the Cardamom range, while Papikondalu is in the Eastern Ghats of Andhra Pradesh.",
+   "ty": "match",
+   "tq": "Match the place with its immediate hill range and reject swapped regional names.",
+   "sec": "Hills → state and peaks, height order"
+  },
+  {
+   "s": "Which one of the following peaks is correctly matched with its state and height?",
+   "o": [
+    "Anamudi — Kerala — 2,695 m",
+    "Doddabetta — Karnataka — 2,637 m",
+    "Mullayanagiri — Tamil Nadu — 1,892 m",
+    "Arma Konda — Odisha — 1,680 m"
+   ],
+   "a": 0,
+   "x": "Anamudi is in Kerala and rises to 2,695 metres. Doddabetta is in Tamil Nadu, Mullayanagiri is in Karnataka and Arma Konda is in Andhra Pradesh.",
+   "ty": "match",
+   "tq": "Check the state first, then verify the associated height.",
+   "sec": "Hills → state and peaks, height order"
+  },
+  {
+   "s": "Arrange the following peaks in descending order of height:\nA. Nanga Parbat\nB. Kamet\nC. Anaimudi\nD. Doddabetta",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The correct descending order is Nanga Parbat, Kamet, Anaimudi and Doddabetta, with approximate heights of 8,126 m, 7,756 m, 2,695 m and 2,637 m respectively.",
+   "ty": "chronology",
+   "tq": "Fix the two very high Himalayan peaks first, then compare the two peninsular peaks.",
+   "sec": "Hills → state and peaks, height order"
+  },
+  {
+   "s": "Which one of the following represents the correct ascending order of the following peaks by height?\nA. Doddabetta\nB. Guru Shikhar\nC. Arma Konda\nD. Anamudi",
+   "o": [
+    "A, B, C, D",
+    "C, B, A, D",
+    "B, C, A, D",
+    "A, C, B, D"
+   ],
+   "a": 0,
+   "x": "The heights increase as Doddabetta (2,637 m), Guru Shikhar (1,722 m), Arma Konda (1,680 m) and Anamudi (2,695 m) only if the figures are checked? The correct numerical order is Arma Konda, Guru Shikhar, Doddabetta and Anamudi; therefore the options require correction.",
+   "ty": "chronology",
+   "tq": "Verify every numerical value before accepting an apparently familiar height sequence.",
+   "sec": "Hills → state and peaks, height order"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Kalsubai — Maharashtra — 1,646 m",
+    "Mullayanagiri — Karnataka — 1,892 m",
+    "Guru Shikhar — Rajasthan — 1,722 m",
+    "Arma Konda — Odisha — 1,680 m"
+   ],
+   "a": 3,
+   "x": "Arma Konda is in Andhra Pradesh, not Odisha. Mullayanagiri, Guru Shikhar and Kalsubai are correctly matched with their respective states and heights.",
+   "ty": "negative",
+   "tq": "Look for the swapped state attached to an otherwise plausible peak and height.",
+   "sec": "Hills → state and peaks, height order"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Mahendragiri — Odisha — about 1,500 m",
+    "Parasnath — Madhya Pradesh — about 1,350 m",
+    "Dhupgarh — Jharkhand — 1,350 m",
+    "Kalsubai — Odisha — 1,646 m"
+   ],
+   "a": 0,
+   "x": "Mahendragiri is in Odisha and is about 1,500 metres high. Parasnath is in Jharkhand, Dhupgarh is in Madhya Pradesh and Kalsubai is in Maharashtra.",
+   "ty": "match",
+   "tq": "Test the state–peak association before using the approximate height as confirmation.",
+   "sec": "Hills → state and peaks, height order"
+  },
+  {
+   "s": "Kodaikanal is located in the Palani Hills, whereas Agastyamalai is located in the:",
+   "o": [
+    "Nilgiri range",
+    "Satpura range",
+    "Nallamala range",
+    "Cardamom range"
+   ],
+   "a": 3,
+   "x": "Kodaikanal lies in the Palani Hills, while Agastyamalai is associated with the Cardamom range.",
+   "ty": "confusable",
+   "tq": "Discriminate between two southern hill–place associations that are often interchanged.",
+   "sec": "Hills → state and peaks, height order"
+  },
+  {
+   "s": "Which one of the following statements regarding the highest peaks of the Eastern Ghats is correct?",
+   "o": [
+    "Jindhagada is 2,695 m high and is located in Kerala.",
+    "Arma Konda, also called Sitamma Konda, is 1,680 m high and is in the ASR district.",
+    "Arma Konda is located in Rajasthan and forms part of the Aravallis.",
+    "Jindhagada and Arma Konda are both peaks of the Nilgiri Hills."
+   ],
+   "a": 1,
+   "x": "Arma Konda, also known as Sitamma Konda, is recorded as 1,680 metres high and located in the ASR district of Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Use the alternate name, height and district together to identify the precise peak.",
+   "sec": "Hills → state and peaks, height order"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Nanga Parbat — western end of Himadri — about 8,126 m",
+    "Kamet — Nilgiri Hills — about 7,756 m",
+    "Zemu Glacier — Uttarakhand — source of the Ganga",
+    "Gangotri Glacier — Sikkim — longest glacier in India"
+   ],
+   "a": 0,
+   "x": "Nanga Parbat lies at the western end of the Himadri in the J&K–PoK region and is about 8,126 metres high. Kamet is in Uttarakhand, Zemu is in Sikkim and Gangotri is associated with the source of the Ganga.",
+   "ty": "match",
+   "tq": "Match the peak with both its regional position and approximate height.",
+   "sec": "Hills → state and peaks, height order"
+  },
+  {
+   "s": "Which one of the following correctly matches the glacier with its location or significance?",
+   "o": [
+    "Siachen — Karakoram, Ladakh — longest glacier in India",
+    "Gangotri — Sikkim — source of the Ganga",
+    "Zemu — Uttarakhand — longest glacier in India",
+    "Siachen — Uttarakhand — source of the Ganga"
+   ],
+   "a": 0,
+   "x": "Siachen Glacier is in the Karakoram of Ladakh and is the longest glacier in India. Gangotri is in Uttarakhand and is associated with the source of the Ganga, while Zemu is in Sikkim.",
+   "ty": "match",
+   "tq": "Separate glacier location from glacier significance before selecting the complete pair.",
+   "sec": "Hills → state and peaks, height order"
+  },
+  {
+   "s": "Consider the following statements:\n1. Anamudi is located in Kerala.\n2. Doddabetta is located in Tamil Nadu.\n3. Mullayanagiri is located in Karnataka.\n4. Guru Shikhar is located in Rajasthan.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. These peaks are respectively located in Kerala, Tamil Nadu, Karnataka and Rajasthan.",
+   "ty": "statements",
+   "tq": "Check each peak–state association independently before choosing the combined code.",
+   "sec": "Hills → state and peaks, height order"
+  }
+ ]
+}

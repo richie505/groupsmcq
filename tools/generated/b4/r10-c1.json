@@ -1,0 +1,510 @@
+{
+ "book": 4,
+ "row": 10,
+ "chunk": 1,
+ "section": "Earthquakes - causes, seismic waves, measurement, distribution, effects",
+ "subsections": [
+  "Major earthquakes → place, year, setting",
+  "Himalaya-Arakan Yoma belt; seismic zones of India",
+  "Seismic monitoring in India"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Uttarkashi earthquake of 1991, with an approximate magnitude of 6.8, occurred in which setting?",
+   "o": [
+    "Himalayan thrust zone",
+    "East Anatolian Fault",
+    "Sagaing strike-slip fault",
+    "Pacific plate subduction zone"
+   ],
+   "a": 0,
+   "x": "The 1991 Uttarkashi earthquake occurred in the Himalayan thrust zone and had an approximate magnitude of 6.8.",
+   "ty": "fact",
+   "tq": "Directly identify the earthquake with its tectonic setting.",
+   "sec": "Major earthquakes → place, year, setting"
+  },
+  {
+   "s": "The 1993 Latur earthquake was significant because it occurred in an intraplate region that had earlier been rated as which risk zone?",
+   "o": [
+    "Zone V",
+    "Zone IV",
+    "Zone I",
+    "Zone III"
+   ],
+   "a": 2,
+   "x": "The Latur earthquake occurred in an intraplate region that was then classified as low-risk Zone I.",
+   "ty": "fact",
+   "tq": "Use the numerical-zone clue to distinguish a low-risk intraplate event.",
+   "sec": "Major earthquakes → place, year, setting"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Bhuj earthquake — 26 January 2001 — magnitude 7.7",
+    "Gorkha earthquake — 2011 — magnitude 9.0",
+    "Tohoku earthquake — 2015 — magnitude 7.8",
+    "Uttarkashi earthquake — 2023 — magnitude 7.8"
+   ],
+   "a": 0,
+   "x": "The Bhuj earthquake occurred on 26 January 2001 and had a magnitude of 7.7. The other pairs contain incorrect years or magnitudes.",
+   "ty": "match",
+   "tq": "Start from the sure year–magnitude pair and eliminate swapped entries.",
+   "sec": "Major earthquakes → place, year, setting"
+  },
+  {
+   "s": "The Bhuj earthquake of 2001 led directly to which of the following institutional and legislative developments?",
+   "o": [
+    "The enactment of the Disaster Management Act, 2005 and the establishment of the NDMA",
+    "The creation of the Tsunami Early Warning System and GSI",
+    "The establishment of the National Centre for Seismology and the RISEQ app",
+    "The introduction of Zone VI under IS 1893: 2016"
+   ],
+   "a": 0,
+   "x": "The 2001 Bhuj earthquake contributed to the Disaster Management Act, 2005 and the establishment of the National Disaster Management Authority.",
+   "ty": "application",
+   "tq": "Link a major disaster to the institutional response that followed it.",
+   "sec": "Major earthquakes → place, year, setting"
+  },
+  {
+   "s": "Consider the following statements regarding the Gorkha earthquake:\n1. It occurred in Nepal in 2015.\n2. It had a magnitude of 7.8.\n3. It occurred along the Main Himalayan Thrust.\n4. It caused liquefaction in Bihar, Uttar Pradesh and West Bengal.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The 2015 Gorkha earthquake in Nepal had a magnitude of 7.8, occurred along the Main Himalayan Thrust and caused liquefaction in parts of the Gangetic plain.",
+   "ty": "statements",
+   "tq": "Verify the event through its year, magnitude, tectonic setting and secondary effect.",
+   "sec": "Major earthquakes → place, year, setting"
+  },
+  {
+   "s": "The 2011 Tohoku earthquake in Japan was associated with which combination?",
+   "o": [
+    "Pacific plate subduction, tsunami and Fukushima",
+    "Intraplate movement and the Disaster Management Act, 2005",
+    "Himalayan thrust zone and liquefaction in Bihar",
+    "Sagaing Fault and strike-slip movement"
+   ],
+   "a": 0,
+   "x": "The 2011 Tohoku earthquake had a magnitude of 9.0, occurred in the Pacific plate subduction setting and was associated with a tsunami and the Fukushima disaster.",
+   "ty": "fact",
+   "tq": "Match the earthquake with its distinctive tectonic setting and consequences.",
+   "sec": "Major earthquakes → place, year, setting"
+  },
+  {
+   "s": "The February 2023 earthquake in the Turkey–Syria region occurred along which fault system?",
+   "o": [
+    "Sagaing Fault",
+    "Kutch Fault",
+    "East Anatolian Fault",
+    "Main Himalayan Thrust"
+   ],
+   "a": 2,
+   "x": "The February 2023 Turkey–Syria earthquake, of magnitude 7.8, occurred along the East Anatolian Fault between the Anatolian and Arabian plates.",
+   "ty": "fact",
+   "tq": "Discriminate between similarly named regional fault systems.",
+   "sec": "Major earthquakes → place, year, setting"
+  },
+  {
+   "s": "Which of the following correctly describes the 2025 Myanmar earthquake near Mandalay?",
+   "o": [
+    "Magnitude 9.0; Pacific subduction zone; tsunami in Japan",
+    "Magnitude 6.2; Himalayan thrust zone; liquefaction in Bihar",
+    "Magnitude 7.8; East Anatolian Fault; movement of the Anatolian and Arabian plates",
+    "Magnitude 7.7; Sagaing Fault; strike-slip movement involving the Indian and Eurasian plates"
+   ],
+   "a": 3,
+   "x": "The 2025 Mandalay earthquake had a magnitude of 7.7 and occurred along the Sagaing Fault, a strike-slip boundary involving the Indian and Eurasian plates. More than 2,000 people died.",
+   "ty": "fact",
+   "tq": "Use the fault type and plate pair to distinguish a recent earthquake event.",
+   "sec": "Major earthquakes → place, year, setting"
+  },
+  {
+   "s": "India forms part of which major seismic belt?",
+   "o": [
+    "Alpine-Himalayan belt",
+    "Circum-Pacific belt only",
+    "East African Rift belt",
+    "Mid-Atlantic Ridge belt"
+   ],
+   "a": 0,
+   "x": "India lies in the Alpine-Himalayan seismic belt, which extends eastward through the North-East into Myanmar.",
+   "ty": "fact",
+   "tq": "Recall the major global seismic belt associated with India.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "The Indian Plate is moving approximately how far northward each year into the Eurasian Plate?",
+   "o": [
+    "1 cm",
+    "3 cm",
+    "5 cm",
+    "10 cm"
+   ],
+   "a": 2,
+   "x": "The Indian Plate moves northward into the Eurasian Plate at approximately 5 centimetres per year.",
+   "ty": "numerical",
+   "tq": "Identify the central value in a set of plausible plate-motion rates.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Which fault marks the Indian–Eurasian plate boundary in Myanmar?",
+   "o": [
+    "Main Himalayan Thrust",
+    "East Anatolian Fault",
+    "Alpine Fault",
+    "Sagaing Fault"
+   ],
+   "a": 3,
+   "x": "In Myanmar, the Sagaing Fault marks the continuation of the Indian–Eurasian boundary through the eastern part of the seismic belt.",
+   "ty": "fact",
+   "tq": "Locate the named fault along the eastward continuation of the Himalayan seismic belt.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Which of the following regions is NOT identified as a prone area for significant earthquake activity in India?",
+   "o": [
+    "Kutch",
+    "The stable shield around Visakhapatnam",
+    "The North-Eastern states",
+    "Andaman and Nicobar Islands"
+   ],
+   "a": 1,
+   "x": "Kutch, the North-East and the Andaman and Nicobar Islands are earthquake-prone areas. Visakhapatnam is cited as an example of a low-risk stable-shield area.",
+   "ty": "negative",
+   "tq": "Find the location that does not belong to the group of earthquake-prone regions.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Consider the following statements:\n1. Liquefaction is a particular concern in the Indo-Gangetic plain.\n2. Peninsular faults associated with Latur and Koyna can produce earthquakes.\n3. The Himalaya, North-East and Andaman and Nicobar Islands are among the earthquake-prone regions of India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Earthquake vulnerability in India is associated with Himalayan and North-Eastern regions, liquefaction-prone alluvial plains, peninsular faults and the Andaman and Nicobar region.",
+   "ty": "statements",
+   "tq": "Combine regional distribution with the associated hazard or geological setting.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Under IS 1893:2016, which sequence correctly represents the seismic zones from lower to higher risk?",
+   "o": [
+    "Zone II, Zone III, Zone IV, Zone V",
+    "Zone V, Zone IV, Zone III, Zone II",
+    "Zone III, Zone II, Zone V, Zone IV",
+    "Zone II, Zone IV, Zone III, Zone V"
+   ],
+   "a": 0,
+   "x": "Under the four-zone map in force, Zone II represents low risk, Zone III moderate risk, Zone IV high risk and Zone V very high risk.",
+   "ty": "chronology",
+   "tq": "Arrange the zones by increasing risk rather than by geographical location.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched under the seismic zoning classification in force?",
+   "o": [
+    "Zone II — Very high risk",
+    "Zone III — Moderate risk",
+    "Zone IV — Low risk",
+    "Zone V — High risk"
+   ],
+   "a": 1,
+   "x": "Zone III is classified as a moderate-risk zone. Zone II is low, Zone IV is high and Zone V is very high risk.",
+   "ty": "match",
+   "tq": "Check the exact risk label attached to each numerical zone.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Which of the following areas is included in Zone V under the seismic zoning map in force?",
+   "o": [
+    "Vijayawada",
+    "Hyderabad",
+    "Kutch",
+    "Visakhapatnam"
+   ],
+   "a": 2,
+   "x": "Kutch is included in Zone V, the very-high-risk zone. Visakhapatnam and Hyderabad are examples of Zone II, while Vijayawada is cited under Zone III.",
+   "ty": "fact",
+   "tq": "Distinguish locations by their assigned seismic-risk zones.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Delhi, the remaining Himalayan foothills and the Indo-Gangetic belt are generally placed in which seismic zone?",
+   "o": [
+    "Zone IV",
+    "Zone V",
+    "Zone III",
+    "Zone II"
+   ],
+   "a": 0,
+   "x": "Delhi, the rest of the Himalayan foothills and the Indo-Gangetic belt are cited as examples of Zone IV, the high-risk zone.",
+   "ty": "fact",
+   "tq": "Associate a regional cluster with its common seismic zone.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Which of the following cities is cited as an example of a Zone III location?",
+   "o": [
+    "Hyderabad",
+    "Srinagar",
+    "Visakhapatnam",
+    "Vijayawada"
+   ],
+   "a": 3,
+   "x": "Vijayawada is cited as an example of Zone III, which represents moderate risk. Visakhapatnam and Hyderabad are examples of Zone II.",
+   "ty": "fact",
+   "tq": "Separate nearby Andhra locations by their stated seismic classification.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "With reference to Andhra Pradesh, consider the following statements:\n1. Most of the state lies in Zones II and III.\n2. Andhra Pradesh has no area in Zone V.\n3. Andhra Pradesh is classified entirely as a very-high-risk state.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Most of Andhra Pradesh lies in Zones II and III, and it has no area in Zone V. It is not entirely a very-high-risk state, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Reject the extreme statement while retaining the two precise regional facts.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Which of the following States or Union Territories has no area in Zone V?",
+   "o": [
+    "Assam",
+    "Jammu and Kashmir",
+    "Andhra Pradesh",
+    "Bihar"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh has no area in Zone V. Assam, Bihar and Jammu and Kashmir are identified as having areas in Zone V.",
+   "ty": "fact",
+   "tq": "Use the exception-based regional comparison to identify the outlier.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Zone I was merged into which zone after the 1993 Latur earthquake?",
+   "o": [
+    "Zone V",
+    "Zone III",
+    "Zone II",
+    "Zone IV"
+   ],
+   "a": 2,
+   "x": "After the 1993 Latur earthquake, Zone I was merged into Zone II, resulting in the four-zone classification under IS 1893:2002.",
+   "ty": "fact",
+   "tq": "Link a classification change to the event that prompted it.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. Withdrawal of IS 1893 (Part 1): 2025\nB. Notification of IS 1893 (Part 1): 2025\nC. 1993 Latur earthquake\nD. Bhuj earthquake",
+   "o": [
+    "C, D, B, A",
+    "D, C, B, A",
+    "C, B, D, A",
+    "B, C, D, A"
+   ],
+   "a": 0,
+   "x": "The correct order is the 1993 Latur earthquake, the 2001 Bhuj earthquake, notification of the 2025 revision on 6 November 2025, and its withdrawal on 3 March 2026.",
+   "ty": "chronology",
+   "tq": "Use the first and last events, then place the two intermediate dates.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "The revised IS 1893 (Part 1): 2025 was notified by BIS on which date?",
+   "o": [
+    "26 January 2001",
+    "22 March 2026",
+    "3 March 2026",
+    "6 November 2025"
+   ],
+   "a": 3,
+   "x": "BIS notified the revised IS 1893 (Part 1): 2025 on 6 November 2025.",
+   "ty": "numerical",
+   "tq": "Distinguish the notification date from the later withdrawal and review dates.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Which feature was introduced by the IS 1893 (Part 1): 2025 revision?",
+   "o": [
+    "The abolition of all seismic zones in India",
+    "The exclusion of the North-East from the highest-risk category",
+    "The restoration of Zone I as the lowest zone",
+    "A new top Zone VI covering parts of Kashmir, the North-East and Kutch"
+   ],
+   "a": 3,
+   "x": "The 2025 revision introduced a new top Zone VI for parts of Kashmir, the North-East and Kutch, and placed more than 60% of India’s landmass in moderate-to-high zones.",
+   "ty": "fact",
+   "tq": "Identify the distinctive institutional change rather than a reversed zoning claim.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "The 2025 revision of IS 1893 was withdrawn on 3 March 2026 primarily after objections relating to which issue?",
+   "o": [
+    "The inability to identify earthquakes of magnitude 3.0 and above",
+    "The absence of earthquake data from the North-East",
+    "The replacement of the National Seismological Network",
+    "The cost implications raised by MoHUA, Metro Rail corporations and the NDSA"
+   ],
+   "a": 3,
+   "x": "The 2025 revision was withdrawn after MoHUA, Metro Rail corporations and the NDSA objected to the cost implications. The 2016 code was restored.",
+   "ty": "application",
+   "tq": "Match the policy rollback with the specific administrative objection.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Which code is currently restored after the withdrawal of the 2025 seismic zoning revision?",
+   "o": [
+    "IS 1893 (Part 1): 1998",
+    "IS 1893 (Part 1): 2002",
+    "IS 1893 (Part 1): 2016",
+    "IS 1893 (Part 1): 2025"
+   ],
+   "a": 2,
+   "x": "The withdrawal of the 2025 revision restored IS 1893 (Part 1): 2016 as the code in force.",
+   "ty": "fact",
+   "tq": "Distinguish the currently restored standard from the withdrawn revision.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Consider the following statements regarding the withdrawn 2025 seismic zoning map:\n1. It was built by IIT-Madras for the NDMA.\n2. It used a probabilistic seismic hazard assessment model.\n3. It used 69,519 earthquake events and 36 seismogenic zones.\n4. It set peak ground acceleration values from 0.15 g to 0.75 g across Zones II to VI.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The withdrawn map was prepared by IIT-Madras for NDMA using PSHA, 69,519 events, 36 seismogenic zones and PGA values of 0.15–0.75 g.",
+   "ty": "statements",
+   "tq": "Check each technical specification separately before selecting the coded combination.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "Which body is to receive the report of the review panel concerning the withdrawn seismic zoning revision?",
+   "o": [
+    "The National Centre for Seismology",
+    "The Geological Survey of India",
+    "The Cabinet Secretariat",
+    "The Election Commission of India"
+   ],
+   "a": 2,
+   "x": "The review panel is to submit its report to the Cabinet Secretariat.",
+   "ty": "fact",
+   "tq": "Identify the authority associated with the pending review process.",
+   "sec": "Himalaya-Arakan Yoma belt; seismic zones of India"
+  },
+  {
+   "s": "The National Seismological Network of India consists of how many observatories?",
+   "o": [
+    "34",
+    "69",
+    "160",
+    "519"
+   ],
+   "a": 2,
+   "x": "The National Seismological Network operated by the National Centre for Seismology consists of 160 observatories.",
+   "ty": "numerical",
+   "tq": "Distinguish the network size from the separate GNSS-station figure and event count.",
+   "sec": "Seismic monitoring in India"
+  },
+  {
+   "s": "The National Centre for Seismology detects which combination of earthquakes through its monitoring network?",
+   "o": [
+    "Only earthquakes capable of producing tsunamis",
+    "Indian earthquakes of magnitude 3.0 and above and global earthquakes of magnitude 6.0 and above",
+    "Indian earthquakes of magnitude 1.0 and global earthquakes of magnitude 3.0 and above",
+    "Only earthquakes occurring in the Himalayan region"
+   ],
+   "a": 1,
+   "x": "The network detects every Indian earthquake of magnitude 3.0 or above and global earthquakes of magnitude 6.0 or above, including tsunami-capable events.",
+   "ty": "fact",
+   "tq": "Separate the two magnitude thresholds instead of treating them as identical.",
+   "sec": "Seismic monitoring in India"
+  },
+  {
+   "s": "The first seismological observatory in India was established at which place in 1898?",
+   "o": [
+    "New Delhi",
+    "Alipore, Calcutta",
+    "Kutch, Gujarat",
+    "Mandalay, Myanmar"
+   ],
+   "a": 1,
+   "x": "India’s first seismological observatory was established at Alipore in Calcutta in 1898.",
+   "ty": "fact",
+   "tq": "Recall the earliest observatory by combining its place and year.",
+   "sec": "Seismic monitoring in India"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "GSI — 160 seismological observatories",
+    "NCS — 34 GNSS stations for crustal strain",
+    "GSI — 34 GNSS stations for tracking crustal strain",
+    "NCS — first observatory at Alipore in 1898"
+   ],
+   "a": 2,
+   "x": "The Geological Survey of India tracks crustal strain through 34 GNSS stations. The 160-observatory network is operated by the NCS.",
+   "ty": "match",
+   "tq": "Avoid swapping the monitoring agencies and their respective functions.",
+   "sec": "Seismic monitoring in India"
+  },
+  {
+   "s": "RISEQ, the earthquake-related app of the Ministry of Earth Sciences, is now known by which name?",
+   "o": [
+    "Bhookamp",
+    "IndiaQuake",
+    "Prithvi Alert",
+    "SeismoNet"
+   ],
+   "a": 0,
+   "x": "The MoES app RISEQ is now called “Bhookamp.” IndiaQuake is the public-alert app of the National Centre for Seismology.",
+   "ty": "confusable",
+   "tq": "Discriminate between two similarly themed earthquake applications.",
+   "sec": "Seismic monitoring in India"
+  },
+  {
+   "s": "Which application provides public earthquake alerts through the National Centre for Seismology?",
+   "o": [
+    "Bhookamp",
+    "IndiaQuake",
+    "GNSS-34",
+    "RISEQ only under its former name"
+   ],
+   "a": 1,
+   "x": "The NCS’s IndiaQuake app provides public earthquake alerts. RISEQ, now called Bhookamp, is the MoES app referred to in the monitoring system.",
+   "ty": "confusable",
+   "tq": "Use the app-function distinction rather than relying only on similar names.",
+   "sec": "Seismic monitoring in India"
+  },
+  {
+   "s": "India developed its Tsunami Early Warning System after which event?",
+   "o": [
+    "The 2001 Bhuj earthquake",
+    "The 1993 Latur earthquake",
+    "The 2004 Sumatra earthquake",
+    "The 2011 Tohoku earthquake"
+   ],
+   "a": 2,
+   "x": "India built its Tsunami Early Warning System after the 2004 Sumatra earthquake and tsunami.",
+   "ty": "fact",
+   "tq": "Match the warning-system initiative with the triggering disaster.",
+   "sec": "Seismic monitoring in India"
+  }
+ ]
+}

@@ -1,0 +1,496 @@
+{
+ "book": 4,
+ "row": 62,
+ "chunk": 0,
+ "section": "India - occupational structure: main and marginal workers, work participation rate, cultivators and agricultural labourers",
+ "subsections": [
+  "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares",
+  "Work participation rate - male vs female, rural vs urban, state variations",
+  "Sectoral distribution of workforce - primary, secondary, tertiary shares"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "A person who worked for at least how many days during the reference year is classified as a main worker in the Census worker classification?",
+   "o": [
+    "120 days",
+    "183 days",
+    "240 days",
+    "365 days"
+   ],
+   "a": 1,
+   "x": "A main worker is one who worked for at least 183 days, or six months, during the reference year.",
+   "ty": "numerical",
+   "tq": "Use the exact numerical threshold to distinguish the two worker categories.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes a marginal worker?",
+   "o": [
+    "A person who worked for less than 183 days in the reference year",
+    "A person who worked only in the agricultural sector",
+    "A person who worked for exactly 365 days in the reference year",
+    "A person who worked for at least 183 days in the reference year"
+   ],
+   "a": 0,
+   "x": "A marginal worker worked for less than 183 days during the reference year. The classification is based on duration of work, not the sector of employment.",
+   "ty": "confusable",
+   "tq": "Discriminate between the closely related main-worker and marginal-worker definitions.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Which category accounted for the largest share of all workers in India according to Census 2011?",
+   "o": [
+    "Agricultural labourers",
+    "Cultivators",
+    "Other workers",
+    "Household industry workers"
+   ],
+   "a": 2,
+   "x": "Other workers constituted 41.6% of all workers, the highest among the four categories. Agricultural labourers accounted for 30.0%.",
+   "ty": "comparison",
+   "tq": "Compare the shares in the table before selecting the largest category.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the worker categories in India according to Census 2011:\n1. Agricultural labourers constituted 30.0% of all workers.\n2. Cultivators constituted 24.6% of all workers.\n3. Household industry workers constituted 3.8% of all workers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: agricultural labourers accounted for 30.0%, cultivators 24.6%, and household industry workers 3.8% of all workers.",
+   "ty": "statements",
+   "tq": "Verify each percentage against the comparison table rather than relying on the ranking alone.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II regarding India’s Census 2011 worker categories and their total numbers.\nList-I\n(a) Cultivators\n(b) Agricultural labourers\n(c) Household industry workers\n(d) Other workers\n\nList-II\n(i) 183.38 lakh\n(ii) 2,004.09 lakh\n(iii) 1,188.08 lakh\n(iv) 1,443.34 lakh\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "Cultivators numbered 1,188.08 lakh, agricultural labourers 1,443.34 lakh, household industry workers 183.38 lakh, and other workers 2,004.09 lakh.",
+   "ty": "match",
+   "tq": "Start from the sure pair and eliminate codes containing an incorrect total.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "The number of main workers in India according to Census 2011 was:",
+   "o": [
+    "1,193.23 lakh",
+    "3,182.45 lakh",
+    "3,625.66 lakh",
+    "4,818.89 lakh"
+   ],
+   "a": 2,
+   "x": "India had 3,625.66 lakh main workers in Census 2011. Marginal workers numbered 1,193.23 lakh and total workers 4,818.89 lakh.",
+   "ty": "numerical",
+   "tq": "Separate the main-worker figure from the marginal-worker and total-worker figures.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched with its number of main workers in India according to Census 2011?",
+   "o": [
+    "Other workers — 1,193.23 lakh",
+    "Agricultural labourers — 861.69 lakh",
+    "Household industry workers — 123.33 lakh",
+    "Cultivators — 959.42 lakh"
+   ],
+   "a": 0,
+   "x": "Other workers numbered 1,681.22 lakh as main workers. The figure 1,193.23 lakh refers to all marginal workers in India.",
+   "ty": "negative",
+   "tq": "Find the category whose figure has been swapped with an aggregate figure.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Main workers constituted approximately what proportion of all workers in India according to the Census 2011 figures?",
+   "o": [
+    "25%",
+    "50%",
+    "75%",
+    "90%"
+   ],
+   "a": 2,
+   "x": "Main workers numbered 3,625.66 lakh out of 4,818.89 lakh total workers, which is approximately 75%.",
+   "ty": "numerical",
+   "tq": "Estimate the ratio of the main-worker total to the all-worker total.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Which category had the highest number of marginal workers in India according to Census 2011?",
+   "o": [
+    "Household industry workers",
+    "Other workers",
+    "Agricultural labourers",
+    "Cultivators"
+   ],
+   "a": 2,
+   "x": "Agricultural labourers had 581.65 lakh marginal workers, higher than cultivators, household industry workers and other workers.",
+   "ty": "comparison",
+   "tq": "Compare the marginal-worker column independently from the main-worker column.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about Andhra Pradesh and India according to Census 2011:\n1. Andhra Pradesh accounted for 4.79% of India’s total workers.\n2. Andhra Pradesh accounted for 5.33% of India’s main workers.\n3. Andhra Pradesh accounted for 3.15% of India’s marginal workers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Andhra Pradesh’s shares were 4.79% of total workers, 5.33% of main workers and 3.15% of marginal workers in India.",
+   "ty": "statements",
+   "tq": "Check each state-to-national percentage against the corresponding column before choosing the code.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "According to Census 2011, the largest share of all workers in Andhra Pradesh was engaged as:",
+   "o": [
+    "Cultivators",
+    "Other workers",
+    "Household industry workers",
+    "Agricultural labourers"
+   ],
+   "a": 3,
+   "x": "Agricultural labourers formed 47.9% of all workers in Andhra Pradesh, followed by other workers at 34.8%.",
+   "ty": "fact",
+   "tq": "Identify the maximum value in the state-wise occupational share comparison.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the occupational shares of all workers in Andhra Pradesh according to Census 2011?",
+   "o": [
+    "Agricultural labourers 34.8%, other workers 47.9%, cultivators 2.9%, household industry 14.5%",
+    "Agricultural labourers 30.0%, other workers 41.6%, cultivators 24.6%, household industry 3.8%",
+    "Agricultural labourers 45.0%, other workers 35.0%, cultivators 16.0%, household industry 4.0%",
+    "Agricultural labourers 47.9%, other workers 34.8%, cultivators 14.5%, household industry 2.9%"
+   ],
+   "a": 3,
+   "x": "The Andhra Pradesh shares were 47.9% agricultural labourers, 34.8% other workers, 14.5% cultivators and 2.9% household industry workers.",
+   "ty": "comparison",
+   "tq": "Distinguish state shares from the corresponding all-India shares and detect reversed categories.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "The main workforce of Andhra Pradesh was dominated by agricultural labourers, numbering approximately:",
+   "o": [
+    "30.93 lakh",
+    "70.83 lakh",
+    "86.12 lakh",
+    "193.17 lakh"
+   ],
+   "a": 2,
+   "x": "Agricultural labourers constituted the largest component of Andhra Pradesh’s main workforce, numbering 86.12 lakh, or about 45% of its main workers.",
+   "ty": "numerical",
+   "tq": "Match the occupational category with the correct state-level main-worker figure.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements about Andhra Pradesh’s main workers in Census 2011 is correct?\n1. Main cultivators numbered 30.93 lakh.\n2. Main agricultural labourers numbered 86.12 lakh.\n3. Main household industry workers numbered 5.29 lakh.\n4. Main other workers numbered 70.83 lakh.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly state the Andhra Pradesh main-worker figures for the four occupational categories.",
+   "ty": "statements",
+   "tq": "Verify a complete numerical set category by category before selecting the inclusive code.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Which of the following groups is correctly associated with a high cultivator share among workers?",
+   "o": [
+    "Delhi and Chandigarh",
+    "Himachal Pradesh and Nagaland",
+    "Bihar and Andhra Pradesh",
+    "Puducherry and Delhi"
+   ],
+   "a": 1,
+   "x": "Himachal Pradesh and Nagaland are identified with a high cultivator share. Delhi, Chandigarh and Puducherry have high shares of other workers.",
+   "ty": "match",
+   "tq": "Use the occupational-category distinction to avoid confusing cultivator-heavy and other-worker-heavy regions.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT associated with a high share of agricultural labourers?",
+   "o": [
+    "Chandigarh",
+    "Andhra Pradesh",
+    "Chhattisgarh",
+    "Bihar"
+   ],
+   "a": 0,
+   "x": "Chandigarh is associated with a high share of other workers, not agricultural labourers. Bihar, Chhattisgarh and Andhra Pradesh are among the states with high agricultural-labourer shares.",
+   "ty": "negative",
+   "tq": "Identify the odd regional association by separating agricultural-labourer and other-worker patterns.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "Which of the following places is associated with a high share of ‘other workers’?",
+   "o": [
+    "Nagaland",
+    "Jharkhand",
+    "Odisha",
+    "Puducherry"
+   ],
+   "a": 3,
+   "x": "Delhi, Chandigarh and Puducherry have high shares of other workers, which include workers in services, trade and industry.",
+   "ty": "fact",
+   "tq": "Link the regional example to the exact occupational category rather than to agriculture.",
+   "sec": "Census worker categories - main vs marginal workers; cultivators, agricultural labourers, household industry, other workers - shares  [APPSC]"
+  },
+  {
+   "s": "The Work Participation Rate in India according to Census 2011 was approximately:",
+   "o": [
+    "25.5%",
+    "35.3%",
+    "39.8%",
+    "53.3%"
+   ],
+   "a": 2,
+   "x": "The overall Work Participation Rate was 39.8% in 2011. Thus, approximately 60% of the population were non-workers.",
+   "ty": "numerical",
+   "tq": "Distinguish the overall WPR from the male, female and urban-rural component rates.",
+   "sec": "Work participation rate - male vs female, rural vs urban, state variations"
+  },
+  {
+   "s": "Which one of the following correctly represents the gender-wise Work Participation Rate in India according to Census 2011?",
+   "o": [
+    "Male 25.5%; female 53.3%",
+    "Male 39.8%; female 35.3%",
+    "Male 41.8%; female 25.5%",
+    "Male 53.3%; female 25.5%"
+   ],
+   "a": 3,
+   "x": "The male WPR was 53.3%, while the female WPR was 25.5% in Census 2011.",
+   "ty": "comparison",
+   "tq": "Check whether the male and female figures have been reversed or replaced by aggregate figures.",
+   "sec": "Work participation rate - male vs female, rural vs urban, state variations"
+  },
+  {
+   "s": "With regard to the rural-urban Work Participation Rate in India in 2011, which statement is correct?",
+   "o": [
+    "Rural WPR was 35.3% and urban WPR was 41.8%.",
+    "Urban WPR was higher than rural WPR.",
+    "Rural WPR was 41.8% and urban WPR was 35.3%.",
+    "Both rural and urban WPR were 39.8%."
+   ],
+   "a": 2,
+   "x": "The rural WPR was 41.8%, compared with 35.3% in urban areas.",
+   "ty": "comparison",
+   "tq": "Use the rural-urban comparison and watch for a reversed pair of percentages.",
+   "sec": "Work participation rate - male vs female, rural vs urban, state variations"
+  },
+  {
+   "s": "Assertion (A): Work Participation Rate tends to be higher in several less-developed, hill and tribal states.\nReason (R): Subsistence activities in such regions often require greater dependence on manual labour.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and the greater need for manual labour in subsistence-based activities explains the relatively higher WPR in these regions.",
+   "ty": "assertion_reason",
+   "tq": "Test whether the reason directly explains the regional employment pattern.",
+   "sec": "Work participation rate - male vs female, rural vs urban, state variations"
+  },
+  {
+   "s": "Which of the following groups contains states identified with relatively high Work Participation Rates?",
+   "o": [
+    "Kerala, Tamil Nadu, Gujarat and Punjab only",
+    "Delhi, Chandigarh, Puducherry and Goa only",
+    "Punjab, Haryana, Delhi and Maharashtra only",
+    "Himachal Pradesh, Sikkim, Chhattisgarh, Andhra Pradesh and Karnataka"
+   ],
+   "a": 3,
+   "x": "Himachal Pradesh, Sikkim, Chhattisgarh, Andhra Pradesh, Karnataka and several North-Eastern states are identified with relatively high WPRs.",
+   "ty": "fact",
+   "tq": "Recognise the regional cluster associated with subsistence and manual-labour-based work.",
+   "sec": "Work participation rate - male vs female, rural vs urban, state variations"
+  },
+  {
+   "s": "According to PLFS 2025 (annual), which combination of labour-market indicators is correct?",
+   "o": [
+    "LFPR 59%, WPR 57%, unemployment rate 3%",
+    "LFPR 57%, WPR 59%, unemployment rate 3%",
+    "LFPR 59%, WPR 3%, unemployment rate 57%",
+    "LFPR 3%, WPR 57%, unemployment rate 59%"
+   ],
+   "a": 0,
+   "x": "PLFS 2025 reported an LFPR of 59%, WPR of 57% and an unemployment rate of 3%.",
+   "ty": "numerical",
+   "tq": "Keep the three similarly named labour-market indicators in their correct order.",
+   "sec": "Work participation rate - male vs female, rural vs urban, state variations"
+  },
+  {
+   "s": "As per the January–March 2026 quarterly estimates under the Current Weekly Status approach, the Work Participation Rate was:",
+   "o": [
+    "46.9%",
+    "52.8%",
+    "55.7%",
+    "59.0%"
+   ],
+   "a": 1,
+   "x": "The overall WPR for January–March 2026 was 52.8%; the rural and urban rates were 55.7% and 46.9%, respectively.",
+   "ty": "numerical",
+   "tq": "Separate the overall estimate from its rural and urban components.",
+   "sec": "Work participation rate - male vs female, rural vs urban, state variations"
+  },
+  {
+   "s": "According to PLFS 2023–24, the Work Participation Rate in Andhra Pradesh for all ages was:",
+   "o": [
+    "34.5%",
+    "43.7%",
+    "45.6%",
+    "57.0%"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh recorded a WPR of 45.6% for all ages, compared with 43.7% for India. Its male and female rates were 57.0% and 34.5%.",
+   "ty": "numerical",
+   "tq": "Distinguish the state’s overall WPR from its male and female rates and the national figure.",
+   "sec": "Work participation rate - male vs female, rural vs urban, state variations"
+  },
+  {
+   "s": "The Census 2011 Work Participation Rate of Andhra Pradesh, calculated from 230.81 lakh workers out of a population of 495.77 lakh, was approximately:",
+   "o": [
+    "39.8%",
+    "43.7%",
+    "45.6%",
+    "46.6%"
+   ],
+   "a": 3,
+   "x": "Dividing 230.81 lakh workers by 495.77 lakh population gives an approximate WPR of 46.6%, higher than the all-India rate.",
+   "ty": "numerical",
+   "tq": "Apply the WPR formula and distinguish the Census estimate from the later PLFS estimate.",
+   "sec": "Work participation rate - male vs female, rural vs urban, state variations"
+  },
+  {
+   "s": "The share of agriculture in India’s workforce declined from 2001 to 2011 from:",
+   "o": [
+    "54.6% to 58.2%",
+    "58.2% to 54.6%",
+    "48.9% to 36.7%",
+    "42.4% to 31.6%"
+   ],
+   "a": 1,
+   "x": "Agriculture’s share of workers declined from 58.2% in 2001 to 54.6% in 2011, while the secondary and tertiary shares increased.",
+   "ty": "chronology",
+   "tq": "Read the direction of change carefully and reject the reversed sequence.",
+   "sec": "Sectoral distribution of workforce - primary, secondary, tertiary shares  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the sectoral distribution of India’s workforce is correct?",
+   "o": [
+    "Agriculture employed 48.9% of workers in 2011–12 and services employed about 27%.",
+    "Agriculture employed 27% of workers in 2011–12 and services employed 48.9%.",
+    "Services employed 36.7% of workers in 2011–12 and agriculture employed 27%.",
+    "Agriculture and services each employed exactly 36.7% of workers in 2011–12."
+   ],
+   "a": 0,
+   "x": "In 2011–12, agriculture employed about 48.9% of workers and services about 27%. The figure of 36.7% for services is not correct.",
+   "ty": "negative",
+   "tq": "Reject the familiar-looking but incorrect sectoral percentage by comparing both sectors.",
+   "sec": "Sectoral distribution of workforce - primary, secondary, tertiary shares  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the sectoral distribution of workers in Andhra Pradesh?",
+   "o": [
+    "Agriculture 45.6%, services 31.6%, manufacturing and industry 22.8%",
+    "Agriculture 54.6%, services 24.6%, manufacturing and industry 20.8%",
+    "Agriculture 45.6%, services 22.8%, manufacturing and industry 31.6%",
+    "Agriculture 31.6%, services 45.6%, manufacturing and industry 22.8%"
+   ],
+   "a": 0,
+   "x": "In Andhra Pradesh, agriculture accounted for 45.6%, services 31.6%, and manufacturing and industry 22.8% of employment. Construction formed 12.3%.",
+   "ty": "comparison",
+   "tq": "Compare all three sectoral shares and detect the interchange of sector labels.",
+   "sec": "Sectoral distribution of workforce - primary, secondary, tertiary shares  [APPSC]"
+  },
+  {
+   "s": "In the Andhra Pradesh sectoral employment distribution, construction accounted for:",
+   "o": [
+    "12.3%",
+    "22.8%",
+    "31.6%",
+    "45.6%"
+   ],
+   "a": 0,
+   "x": "Construction accounted for 12.3% within the manufacturing and industry component of Andhra Pradesh employment.",
+   "ty": "numerical",
+   "tq": "Identify the component figure rather than selecting the larger parent-sector share.",
+   "sec": "Sectoral distribution of workforce - primary, secondary, tertiary shares  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the employment pattern in India in Q2 of FY 2025–26?",
+   "o": [
+    "Agriculture 42.4%, self-employment 55.8%, casual labour 18.9%",
+    "Agriculture 55.8%, self-employment 42.4%, casual labour 18.9%",
+    "Agriculture 42.4%, self-employment 18.9%, casual labour 55.8%",
+    "Agriculture 48.9%, self-employment 36.7%, casual labour 27.0%"
+   ],
+   "a": 0,
+   "x": "For July–September 2025, agriculture accounted for 42.4% of total employment, self-employment 55.8%, and casual labour 18.9%.",
+   "ty": "statements",
+   "tq": "Keep sectoral employment and status-of-employment percentages separate.",
+   "sec": "Sectoral distribution of workforce - primary, secondary, tertiary shares  [APPSC]"
+  },
+  {
+   "s": "In Q2 of FY 2025–26, which of the following statements is correct?\n1. Rural jobs were 57% agricultural.\n2. Urban jobs were 62% in services.\n3. Urban regular salaried employment was 49.8%.\n4. Total employment was 56.2 crore.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct for Q2 FY 2025–26. The period also recorded 8.7 lakh jobs added over Q1.",
+   "ty": "statements",
+   "tq": "Check each indicator separately, including the absolute employment total.",
+   "sec": "Sectoral distribution of workforce - primary, secondary, tertiary shares  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the rural sectoral employment shares for January–March 2026?",
+   "o": [
+    "Agriculture 55.8%, secondary 22.6%, tertiary 21.7%",
+    "Agriculture 57.0%, secondary 18.9%, tertiary 24.1%",
+    "Agriculture 58.5%, secondary 21.7%, tertiary 22.6%",
+    "Agriculture 55.8%, secondary 21.7%, tertiary 22.6%"
+   ],
+   "a": 0,
+   "x": "The rural agricultural share fell from 58.5% to 55.8%; rural secondary and tertiary shares were 22.6% and 21.7%, respectively.",
+   "ty": "comparison",
+   "tq": "Track both the change over time and the correct placement of secondary and tertiary shares.",
+   "sec": "Sectoral distribution of workforce - primary, secondary, tertiary shares  [APPSC]"
+  },
+  {
+   "s": "Between Q1 and January–March 2026, the share of salaried rural workers changed from:",
+   "o": [
+    "14.8% to 15.5%",
+    "15.5% to 14.8%",
+    "21.7% to 22.6%",
+    "22.6% to 21.7%"
+   ],
+   "a": 0,
+   "x": "The share of salaried rural workers increased from 14.8% to 15.5% during the period.",
+   "ty": "chronology",
+   "tq": "Read the direction of the reported change before choosing the sequence.",
+   "sec": "Sectoral distribution of workforce - primary, secondary, tertiary shares  [APPSC]"
+  }
+ ]
+}

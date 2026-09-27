@@ -1,0 +1,526 @@
+{
+ "book": 4,
+ "row": 51,
+ "chunk": 1,
+ "section": "Andhra Pradesh - national parks, wildlife sanctuaries (Nagarjunasagar-Srisailam, Coringa, Papikonda, Rollapadu, Kolleru) and Ramsar sites",
+ "subsections": [
+  "Chronology of notification of AP sanctuaries",
+  "Tiger reserve and elephant reserve of AP",
+  "Bird sanctuaries, IBAs and marine areas → district",
+  "Endemic/local breeds and species → protected area",
+  "Counts - NPs, WLS, TR, ER, BR"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 39,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which of the following protected areas was notified earliest in Andhra Pradesh?\n\n1. Coringa Wildlife Sanctuary\n2. Pulicat Wildlife Sanctuary\n3. Rollapadu Wildlife Sanctuary\n4. Kolleru Wildlife Sanctuary",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 1,
+   "x": "Pulicat Wildlife Sanctuary was notified in 1976. Coringa was notified in 1978, Rollapadu in 1988 and Kolleru in 1999.",
+   "ty": "chronology",
+   "tq": "Use the earliest-year method to identify the first notified protected area.",
+   "sec": "Chronology of notification of AP sanctuaries"
+  },
+  {
+   "s": "Arrange the following protected areas in chronological order of their notification or declaration:\nA. Coringa Wildlife Sanctuary\nB. Rollapadu Wildlife Sanctuary\nC. Kolleru Wildlife Sanctuary\nD. Pulicat Wildlife Sanctuary",
+   "o": [
+    "D, A, B, C",
+    "A, D, B, C",
+    "D, B, A, C",
+    "B, A, D, C"
+   ],
+   "a": 0,
+   "x": "The correct sequence is Pulicat (1976), Coringa (1978), Rollapadu (1988) and Kolleru (1999).",
+   "ty": "chronology",
+   "tq": "Arrange the items by their notification years, beginning with the sure earliest item.",
+   "sec": "Chronology of notification of AP sanctuaries"
+  },
+  {
+   "s": "Which protected area was upgraded from a wildlife sanctuary to a national park in 2008?",
+   "o": [
+    "Sri Venkateswara",
+    "Papikonda",
+    "Rajiv Gandhi",
+    "Kolleru"
+   ],
+   "a": 1,
+   "x": "Papikonda Wildlife Sanctuary was upgraded to Papikonda National Park in 2008.",
+   "ty": "fact",
+   "tq": "Test the distinction between the original notification and later change in status.",
+   "sec": "Chronology of notification of AP sanctuaries"
+  },
+  {
+   "s": "Consider the following statements about protected areas of Andhra Pradesh:\n1. Sri Venkateswara National Park was notified in 1989.\n2. Kaundinya Wildlife Sanctuary was notified in 1990.\n3. Rajiv Gandhi National Park was notified in 2005.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Sri Venkateswara was notified in 1989, Kaundinya in 1990 and Rajiv Gandhi National Park in 2005.",
+   "ty": "statements",
+   "tq": "Check each year independently before selecting the coded combination.",
+   "sec": "Chronology of notification of AP sanctuaries"
+  },
+  {
+   "s": "The Seshachalam Biosphere Reserve was notified in which year?",
+   "o": [
+    "1989",
+    "1999",
+    "2008",
+    "2010"
+   ],
+   "a": 3,
+   "x": "The Seshachalam Biosphere Reserve was notified in 2010.",
+   "ty": "numerical",
+   "tq": "Use the year-specific recall pattern for a protected-area designation.",
+   "sec": "Chronology of notification of AP sanctuaries"
+  },
+  {
+   "s": "Which sequence correctly represents the order indicated for four Andhra Pradesh sanctuaries?\n\n1. Nelapattu\n2. Rollapadu\n3. Kaundinya\n4. Kolleru",
+   "o": [
+    "1-2-3-4",
+    "2-1-4-3",
+    "1-3-2-4",
+    "4-3-2-1"
+   ],
+   "a": 0,
+   "x": "The indicated order is Nelapattu, Rollapadu, Kaundinya and Kolleru.",
+   "ty": "chronology",
+   "tq": "Follow the first-last sequence and eliminate options that reverse the endpoints.",
+   "sec": "Chronology of notification of AP sanctuaries"
+  },
+  {
+   "s": "Nagarjunasagar-Srisailam Tiger Reserve is situated in which geographical region?",
+   "o": [
+    "Eastern coastal plain",
+    "Araku hills",
+    "Nallamala hills",
+    "Seshachalam hills only"
+   ],
+   "a": 2,
+   "x": "Nagarjunasagar-Srisailam Tiger Reserve lies in the Nallamala hills.",
+   "ty": "fact",
+   "tq": "Use the location association between a protected area and its physical region.",
+   "sec": "Tiger reserve and elephant reserve of AP"
+  },
+  {
+   "s": "Nagarjunasagar-Srisailam Tiger Reserve extends across which States?",
+   "o": [
+    "Telangana and Maharashtra",
+    "Andhra Pradesh and Karnataka",
+    "Andhra Pradesh and Telangana",
+    "Andhra Pradesh and Odisha"
+   ],
+   "a": 2,
+   "x": "Nagarjunasagar-Srisailam Tiger Reserve spans Andhra Pradesh and Telangana.",
+   "ty": "fact",
+   "tq": "Distinguish inter-State extent from location within a single State.",
+   "sec": "Tiger reserve and elephant reserve of AP"
+  },
+  {
+   "s": "Which one of the following correctly describes the management model of tiger reserves?",
+   "o": [
+    "A core-buffer model under the National Tiger Conservation Authority",
+    "A single undivided settlement model under the Forest Survey of India",
+    "A biosphere-only model under UNESCO",
+    "A coastal-marine model under the Ramsar Convention"
+   ],
+   "a": 0,
+   "x": "Tiger reserves are managed on a core-buffer model under the National Tiger Conservation Authority, in accordance with the Wildlife Protection Act, 1972.",
+   "ty": "application",
+   "tq": "Identify the correct authority and institutional model by asking who performs the job.",
+   "sec": "Tiger reserve and elephant reserve of AP"
+  },
+  {
+   "s": "Which of the following statements about Nagarjunasagar-Srisailam Tiger Reserve is correct?",
+   "o": [
+    "Its core areas in Andhra Pradesh lie in Nandyal, Prakasam and Palnadu.",
+    "It is managed by the Tirupati circle.",
+    "It is located entirely outside the Nallamala hills.",
+    "It is Andhra Pradesh’s only biosphere reserve."
+   ],
+   "a": 0,
+   "x": "Its Andhra Pradesh core areas lie in Nandyal, Prakasam and Palnadu, and the reserve is managed by the Srisailam circle.",
+   "ty": "negative",
+   "tq": "Use location and administrative-circle distinctions to reject closely related alternatives.",
+   "sec": "Tiger reserve and elephant reserve of AP"
+  },
+  {
+   "s": "According to the All India Tiger Estimation 2022 figure given for Nagarjunasagar-Srisailam Tiger Reserve, the tiger population was in which range?",
+   "o": [
+    "43–47",
+    "83–87",
+    "23–27",
+    "63–67"
+   ],
+   "a": 3,
+   "x": "The tiger population figure given for the reserve is 63–67 according to the All India Tiger Estimation 2022.",
+   "ty": "numerical",
+   "tq": "Compare the numerical ranges carefully; the correct range is neither the lowest nor the highest distractor.",
+   "sec": "Tiger reserve and elephant reserve of AP"
+  },
+  {
+   "s": "Approximately how many Chenchus work as protection watchers and guides in Nagarjunasagar-Srisailam Tiger Reserve?",
+   "o": [
+    "200",
+    "400",
+    "600",
+    "800"
+   ],
+   "a": 2,
+   "x": "About 600 Chenchus work as protection watchers and guides in the reserve.",
+   "ty": "numerical",
+   "tq": "Match the community role with the associated quantitative figure.",
+   "sec": "Tiger reserve and elephant reserve of AP"
+  },
+  {
+   "s": "Which of the following correctly identifies Andhra Pradesh’s only Asian elephant habitat?",
+   "o": [
+    "Rollapadu Wildlife Sanctuary",
+    "Kaundinya Wildlife Sanctuary",
+    "Coringa Wildlife Sanctuary",
+    "Sri Lankamalleswara Wildlife Sanctuary"
+   ],
+   "a": 1,
+   "x": "Kaundinya Wildlife Sanctuary is Andhra Pradesh’s only Asian elephant habitat and lies near the Tamil Nadu border.",
+   "ty": "fact",
+   "tq": "Apply the exclusivity clue only where the material supports an ‘only’ claim.",
+   "sec": "Tiger reserve and elephant reserve of AP"
+  },
+  {
+   "s": "The Rayala Elephant Reserve is counted together with which protected area as one elephant reserve?",
+   "o": [
+    "Kaundinya Wildlife Sanctuary",
+    "Papikonda National Park",
+    "Kolleru Wildlife Sanctuary",
+    "Nelapattu Wildlife Sanctuary"
+   ],
+   "a": 0,
+   "x": "Kaundinya Wildlife Sanctuary and the Rayala Elephant Reserve are counted as one elephant reserve.",
+   "ty": "match",
+   "tq": "Start from the sure association between the reserve and its sanctuary component.",
+   "sec": "Tiger reserve and elephant reserve of AP"
+  },
+  {
+   "s": "The elephants migrated into the Palamaner region during the 1980s mainly because of drought in which areas?",
+   "o": [
+    "Coringa and Pulicat wetlands",
+    "Hosur-Dharmapuri reserve forests and Bannerghatta",
+    "Araku and Lambasingi forests",
+    "Nallamala and Seshachalam forests"
+   ],
+   "a": 1,
+   "x": "The migration was attributed to drought in the Hosur-Dharmapuri reserve forests and Bannerghatta.",
+   "ty": "fact",
+   "tq": "Link the stated environmental cause with the resulting species movement.",
+   "sec": "Tiger reserve and elephant reserve of AP"
+  },
+  {
+   "s": "Seshachalam Biosphere Reserve is spread over which administrative circles?",
+   "o": [
+    "Kadapa and Srikakulam",
+    "Guntur and Nellore",
+    "Tirupati and Kurnool",
+    "Srisailam and Visakhapatnam"
+   ],
+   "a": 2,
+   "x": "The reserve is spread over the Tirupati and Kurnool circles.",
+   "ty": "fact",
+   "tq": "Separate administrative-circle information from district-level location information.",
+   "sec": "Tiger reserve and elephant reserve of AP"
+  },
+  {
+   "s": "Which flagship species is correctly matched with its category in Andhra Pradesh?\n\n1. Red Sanders — flora\n2. Tiger — fauna\n3. Golden Gecko — flagship species\n4. Great Indian Bustard — flagship species",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Red Sanders, tiger, Indian Bison, Great Indian Bustard and Golden Gecko are listed as flagship or endemic species; the four given statements are correct.",
+   "ty": "statements",
+   "tq": "Verify each item against the stated species classification before using the combination code.",
+   "sec": "Tiger reserve and elephant reserve of AP"
+  },
+  {
+   "s": "What amount was paid as man-animal conflict compensation in Andhra Pradesh up to December 2025?",
+   "o": [
+    "Rs 130 lakh",
+    "Rs 80 lakh",
+    "Rs 30 lakh",
+    "Rs 230 lakh"
+   ],
+   "a": 0,
+   "x": "Rs 130 lakh was paid as man-animal conflict compensation up to December 2025.",
+   "ty": "numerical",
+   "tq": "Use exact-figure recall and distinguish lakh values that differ by one digit.",
+   "sec": "Tiger reserve and elephant reserve of AP"
+  },
+  {
+   "s": "Which sanctuary is associated with Jerdon’s courser?",
+   "o": [
+    "Sri Lankamalleswara Wildlife Sanctuary",
+    "Kaundinya Wildlife Sanctuary",
+    "Krishna Wildlife Sanctuary",
+    "Uppalapadu Wildlife Sanctuary"
+   ],
+   "a": 0,
+   "x": "Jerdon’s courser is associated with Sri Lankamalleswara Wildlife Sanctuary in Kadapa.",
+   "ty": "fact",
+   "tq": "Match the species with its protected area rather than with its district alone.",
+   "sec": "Endemic/local breeds and species → protected area"
+  },
+  {
+   "s": "The dwarf goat breed known as ‘Kanchu mekha’ is associated with which protected area?",
+   "o": [
+    "Papikonda National Park",
+    "Seshachalam Biosphere Reserve",
+    "Rollapadu Wildlife Sanctuary",
+    "Kolleru Wildlife Sanctuary"
+   ],
+   "a": 0,
+   "x": "Kanchu mekha, a local dwarf goat breed, is associated with Papikonda National Park.",
+   "ty": "confusable",
+   "tq": "Discriminate between similarly structured protected-area and species associations.",
+   "sec": "Endemic/local breeds and species → protected area"
+  },
+  {
+   "s": "Red Sanders is endemic to which group of hill ranges and their protected-area landscape?",
+   "o": [
+    "Seshachalam, Palakonda and Veligonda ranges",
+    "Nallamala, Araku and Javadi ranges",
+    "Eastern Himalaya, Nilgiri and Cardamom ranges",
+    "Satpura, Vindhya and Aravalli ranges"
+   ],
+   "a": 0,
+   "x": "Red Sanders is endemic to the Seshachalam, Palakonda and Veligonda ranges, including the Sri Venkateswara landscape.",
+   "ty": "fact",
+   "tq": "Use the complete geographical grouping instead of selecting a single familiar range.",
+   "sec": "Endemic/local breeds and species → protected area"
+  },
+  {
+   "s": "The Golden Gecko is associated with which locality of Andhra Pradesh?",
+   "o": [
+    "Pulicat lagoon",
+    "Palamaner grasslands",
+    "Kolleru lake margins",
+    "Tirumala hills"
+   ],
+   "a": 3,
+   "x": "The Golden Gecko is associated with the Tirumala hills.",
+   "ty": "fact",
+   "tq": "Match the species to its precise locality and avoid substituting a nearby protected area.",
+   "sec": "Endemic/local breeds and species → protected area"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n\n1. Jerdon’s courser — Sri Lankamalleswara Wildlife Sanctuary\n2. Kanchu mekha — Papikonda National Park\n3. Golden Gecko — Tirumala hills\n4. Red Sanders — Seshachalam landscape",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct. The listed species or breed is associated with the corresponding sanctuary, park, locality or landscape.",
+   "ty": "match",
+   "tq": "Confirm the sure pairs first and then test whether any remaining pair breaks the pattern.",
+   "sec": "Endemic/local breeds and species → protected area"
+  },
+  {
+   "s": "According to the APSES 2024–25 and IYB 2026 figures, Andhra Pradesh has how many national parks?",
+   "o": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh has three national parks: Sri Venkateswara, Papikonda and Rajiv Gandhi.",
+   "ty": "numerical",
+   "tq": "Use the category count and verify it against the named members.",
+   "sec": "Counts - NPs, WLS, TR, ER, BR"
+  },
+  {
+   "s": "Which combination correctly represents the number of major protected-area categories in Andhra Pradesh?\n\n1. National parks — 3\n2. Wildlife sanctuaries — 13\n3. Tiger reserves — 1\n4. Elephant reserves — 1",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The stated counts are three national parks, 13 wildlife sanctuaries, one tiger reserve and one elephant reserve.",
+   "ty": "statements",
+   "tq": "Check category-wise counts individually before selecting the all-inclusive combination.",
+   "sec": "Counts - NPs, WLS, TR, ER, BR"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched with its count in Andhra Pradesh?\n\n1. Biosphere reserves — 1\n2. Deer parks — 4\n3. Zoos — 2\n4. National parks — 13",
+   "o": [
+    "2 only",
+    "3 only",
+    "4 only",
+    "1 only"
+   ],
+   "a": 2,
+   "x": "National parks number 3, not 13. Andhra Pradesh has one biosphere reserve, four deer parks and two zoos.",
+   "ty": "negative",
+   "tq": "Find the single category whose number has been swapped with a nearby count.",
+   "sec": "Counts - NPs, WLS, TR, ER, BR"
+  },
+  {
+   "s": "Which of the following is correctly identified as a zoo in Andhra Pradesh?\n\n1. Indira Gandhi Zoological Park — Visakhapatnam\n2. Sri Venkateswara Zoological Park — Tirupati\n3. Rajiv Gandhi National Park — Visakhapatnam\n4. Seshachalam Biosphere Reserve — Tirupati",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "The two zoos listed are Indira Gandhi Zoological Park at Visakhapatnam and Sri Venkateswara Zoological Park at Tirupati. Rajiv Gandhi is a national park and Seshachalam is a biosphere reserve.",
+   "ty": "statements",
+   "tq": "Classify each named site by category before choosing the combination.",
+   "sec": "Counts - NPs, WLS, TR, ER, BR"
+  },
+  {
+   "s": "What percentage of Andhra Pradesh’s geographical area was classified as notified forest area in the 2025–26 figure?",
+   "o": [
+    "12.96%",
+    "18.84%",
+    "22.96%",
+    "27.96%"
+   ],
+   "a": 2,
+   "x": "The notified forest area was 37,421.11 square kilometres, constituting 22.96 percent of the geographical area.",
+   "ty": "numerical",
+   "tq": "Match the percentage with its corresponding area figure, while distinguishing it from the earlier estimate.",
+   "sec": "Counts - NPs, WLS, TR, ER, BR"
+  },
+  {
+   "s": "The notified forest area of Andhra Pradesh in the 2025–26 figure was approximately:",
+   "o": [
+    "27,421.11 sq km",
+    "37,421.11 sq km",
+    "47,421.11 sq km",
+    "57,421.11 sq km"
+   ],
+   "a": 1,
+   "x": "The notified forest area was 37,421.11 square kilometres. An earlier figure was 37,221.11 square kilometres.",
+   "ty": "numerical",
+   "tq": "Distinguish the current figure from the closely similar earlier figure.",
+   "sec": "Counts - NPs, WLS, TR, ER, BR"
+  },
+  {
+   "s": "Which of the following is the correct set of national parks of Andhra Pradesh mentioned in the official count?",
+   "o": [
+    "Sri Venkateswara, Papikonda and Rajiv Gandhi",
+    "Nagarjunasagar-Srisailam, Coringa and Rollapadu",
+    "Kolleru, Pulicat and Papikonda",
+    "Seshachalam, Kaundinya and Rajiv Gandhi"
+   ],
+   "a": 0,
+   "x": "The three national parks are Sri Venkateswara, Papikonda and Rajiv Gandhi.",
+   "ty": "match",
+   "tq": "Separate national parks from sanctuaries, reserves and biosphere designations.",
+   "sec": "Counts - NPs, WLS, TR, ER, BR"
+  },
+  {
+   "s": "Which statement is correct regarding the number of tiger and biosphere reserves in Andhra Pradesh?",
+   "o": [
+    "There is one tiger reserve and two biosphere reserves.",
+    "There are two tiger reserves and two biosphere reserves.",
+    "There is one tiger reserve and one biosphere reserve.",
+    "There are two tiger reserves and one biosphere reserve."
+   ],
+   "a": 2,
+   "x": "APSES lists one tiger reserve, Nagarjunasagar-Srisailam, and one biosphere reserve, Seshachalam.",
+   "ty": "fact",
+   "tq": "Use the official category count and avoid unsupported alternative designations.",
+   "sec": "Counts - NPs, WLS, TR, ER, BR"
+  },
+  {
+   "s": "Which of the following sites is shared between Andhra Pradesh and Tamil Nadu?",
+   "o": [
+    "Kolleru Lake",
+    "Uppalapadu",
+    "Telineelapuram",
+    "Pulicat Lake"
+   ],
+   "a": 3,
+   "x": "Pulicat is a brackish lagoon shared by Andhra Pradesh and Tamil Nadu; the Andhra Pradesh side lies in Tirupati district.",
+   "ty": "fact",
+   "tq": "Identify the shared-border site rather than relying only on the Andhra Pradesh district name.",
+   "sec": "Bird sanctuaries, IBAs and marine areas → district"
+  },
+  {
+   "s": "Which bird sanctuary is especially associated with spot-billed pelican breeding?",
+   "o": [
+    "Nelapattu",
+    "Telineelapuram",
+    "Uppalapadu",
+    "Pulicat"
+   ],
+   "a": 0,
+   "x": "Nelapattu in Tirupati district is associated with spot-billed pelican breeding.",
+   "ty": "fact",
+   "tq": "Distinguish a breeding association from general migratory-bird associations.",
+   "sec": "Bird sanctuaries, IBAs and marine areas → district"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?\n\n1. Telineelapuram — Painted stork and pelicans\n2. Uppalapadu — Pelicans and painted storks\n3. Pulicat — Greater flamingo and waders\n4. Kolleru — Spot-billed pelican breeding",
+   "o": [
+    "3 only",
+    "2 only",
+    "1 only",
+    "4 only"
+   ],
+   "a": 3,
+   "x": "Kolleru is associated with grey pelicans and migratory waterfowl. Spot-billed pelican breeding is associated with Nelapattu.",
+   "ty": "negative",
+   "tq": "Find the swapped bird association by comparing the species-specific entries.",
+   "sec": "Bird sanctuaries, IBAs and marine areas → district"
+  },
+  {
+   "s": "Which one of the following is a coastal and marine biodiversity area in Srikakulam district?",
+   "o": [
+    "Kolleru",
+    "Naupada",
+    "Uppalapadu",
+    "Nelapattu"
+   ],
+   "a": 1,
+   "x": "Naupada is a coastal and marine biodiversity area in Srikakulam district.",
+   "ty": "fact",
+   "tq": "Use the habitat-type clue to distinguish the marine area from inland bird sites.",
+   "sec": "Bird sanctuaries, IBAs and marine areas → district"
+  },
+  {
+   "s": "Consider the following statements:\n1. Telineelapuram and Telukunchi are in Srikakulam district.\n2. Uppalapadu is in Guntur district.\n3. Kolleru lies between the Krishna and Godavari deltas.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Telineelapuram and Telukunchi are in Srikakulam, Uppalapadu is in Guntur, and Kolleru lies between the Krishna and Godavari deltas.",
+   "ty": "statements",
+   "tq": "Combine district-location facts with a physical-geography location fact.",
+   "sec": "Bird sanctuaries, IBAs and marine areas → district"
+  }
+ ]
+}

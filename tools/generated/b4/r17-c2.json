@@ -1,0 +1,327 @@
+{
+ "book": 4,
+ "row": 17,
+ "chunk": 2,
+ "section": "Humidity, evaporation, condensation, clouds and forms of precipitation",
+ "subsections": [
+  "Humidity and evaporation - absolute, specific, relative, dew point, saturation, latent heat",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 22,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly defines absolute humidity?",
+   "o": [
+    "The percentage of water vapour present in air relative to its capacity",
+    "The temperature at which condensation begins",
+    "The mass of water vapour per unit weight of air",
+    "The actual water vapour present per unit volume of air"
+   ],
+   "a": 3,
+   "x": "Absolute humidity is the actual amount of water vapour per unit volume of air, generally expressed in grams per cubic metre (g/m³).",
+   "ty": "fact",
+   "tq": "Use the exact defining unit to distinguish absolute humidity from specific and relative humidity.",
+   "sec": "Humidity and evaporation - absolute, specific, relative, dew point, saturation, latent heat"
+  },
+  {
+   "s": "With reference to humidity, consider the following statements:\n1. Specific humidity is expressed as the mass of water vapour per unit weight of air.\n2. Specific humidity is unaffected by changes in the volume of air.\n3. Relative humidity is expressed as a percentage of the moisture-holding capacity of air at a given temperature.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Specific humidity is measured in grams per kilogram of air and is not affected by volume changes. Relative humidity compares actual vapour with the amount air can hold at that temperature.",
+   "ty": "statements",
+   "tq": "Match each statement with its defining measure and unit before selecting the coded combination.",
+   "sec": "Humidity and evaporation - absolute, specific, relative, dew point, saturation, latent heat"
+  },
+  {
+   "s": "The temperature at which air becomes saturated and condensation begins is known as:",
+   "o": [
+    "Adiabatic lapse rate",
+    "Freezing point",
+    "Dew point",
+    "Wet-bulb temperature"
+   ],
+   "a": 2,
+   "x": "The dew point is the temperature at which air becomes saturated and condensation starts.",
+   "ty": "fact",
+   "tq": "Test the precise distinction between a temperature condition and a humidity measure.",
+   "sec": "Humidity and evaporation - absolute, specific, relative, dew point, saturation, latent heat"
+  },
+  {
+   "s": "If the actual amount of water vapour in the air remains unchanged and the air temperature rises, what happens to relative humidity?",
+   "o": [
+    "It remains unchanged because the vapour content is constant",
+    "It falls because the moisture-holding capacity of air increases",
+    "It becomes 100 per cent in all cases",
+    "It rises because warm air contains more vapour"
+   ],
+   "a": 1,
+   "x": "Warm air can hold more water vapour. Therefore, with the same actual vapour content, relative humidity falls as temperature rises and increases on cooling.",
+   "ty": "application",
+   "tq": "Apply the same-vapour rule rather than confusing moisture content with relative humidity.",
+   "sec": "Humidity and evaporation - absolute, specific, relative, dew point, saturation, latent heat"
+  },
+  {
+   "s": "Relative humidity reaches saturation when it is:",
+   "o": [
+    "Below 30 per cent",
+    "75 per cent",
+    "50 per cent",
+    "100 per cent"
+   ],
+   "a": 3,
+   "x": "Saturation occurs when relative humidity is 100 per cent, meaning that the air contains the maximum moisture it can hold at that temperature.",
+   "ty": "numerical",
+   "tq": "Use the threshold value directly for a quantitative definition question.",
+   "sec": "Humidity and evaporation - absolute, specific, relative, dew point, saturation, latent heat"
+  },
+  {
+   "s": "Consider the following statements:\n1. Latent heat is absorbed during evaporation.\n2. Latent heat is released during condensation.\n3. The release of latent heat contributes to the energy of thunderstorms and cyclones.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Evaporation absorbs latent heat, while condensation releases it. This released energy helps power thunderstorms and cyclones.",
+   "ty": "statements",
+   "tq": "Follow the phase-change direction—absorption in evaporation and release in condensation—to verify all three statements.",
+   "sec": "Humidity and evaporation - absolute, specific, relative, dew point, saturation, latent heat"
+  },
+  {
+   "s": "Which one of the following correctly describes the broad distribution of atmospheric water vapour?",
+   "o": [
+    "It remains uniform at about 4 per cent from the equator to the poles",
+    "It is up to about 4 per cent in humid tropical areas and under 1 per cent in deserts and polar areas",
+    "It is under 1 per cent in the humid tropics and above 4 per cent in deserts",
+    "It is highest in deserts and polar areas and decreases in the humid tropics"
+   ],
+   "a": 1,
+   "x": "Water vapour may constitute up to about 4 per cent by volume in warm, humid tropics, but remains below 1 per cent in deserts and polar areas.",
+   "ty": "comparison",
+   "tq": "Compare the two extreme climatic environments instead of treating atmospheric moisture as uniform.",
+   "sec": "Humidity and evaporation - absolute, specific, relative, dew point, saturation, latent heat"
+  },
+  {
+   "s": "Which of the following statements regarding atmospheric moisture is correct?",
+   "o": [
+    "Water vapour generally increases with altitude because of falling pressure",
+    "Relative humidity is always lower over oceans than over continents",
+    "Relative humidity is generally higher over oceans than over continents, and water vapour falls with altitude",
+    "Warm air holds less water vapour than cold air"
+   ],
+   "a": 2,
+   "x": "Oceans provide a continuous moisture source, so relative humidity is generally higher over them than over continents. Water vapour also decreases with altitude, while warm air can hold more vapour than cold air.",
+   "ty": "statements",
+   "tq": "Combine the correct comparison and vertical trend while rejecting reversed geographical relationships.",
+   "sec": "Humidity and evaporation - absolute, specific, relative, dew point, saturation, latent heat"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Absolute humidity — percentage of moisture-holding capacity",
+    "Specific humidity — grams of vapour per kilogram of air",
+    "Relative humidity — grams of vapour per cubic metre of air",
+    "Dew point — maximum vapour content expressed in grams per kilogram"
+   ],
+   "a": 1,
+   "x": "Specific humidity is the mass of water vapour per unit weight of air, expressed in grams per kilogram. Absolute humidity uses volume, while relative humidity is a percentage.",
+   "ty": "match",
+   "tq": "Start from the sure unit-definition pair and eliminate the swapped humidity measures.",
+   "sec": "Humidity and evaporation - absolute, specific, relative, dew point, saturation, latent heat"
+  },
+  {
+   "s": "Which one of the following regional humidity statements is correct?",
+   "o": [
+    "Rayalaseema records 70–90 per cent relative humidity in peak summer",
+    "Coastal Andhra generally records below 30 per cent relative humidity throughout the year",
+    "Coastal Andhra generally records relative humidity of 70–90 per cent, whereas Rayalaseema may fall below 30 per cent in peak summer",
+    "Both coastal Andhra and Rayalaseema normally record identical relative humidity throughout the year"
+   ],
+   "a": 2,
+   "x": "Coastal Andhra has high relative humidity of about 70–90 per cent, contributing to a high heat index. Rayalaseema often records below 30 per cent in summer.",
+   "ty": "comparison",
+   "tq": "Use the coastal–interior contrast and check the numerical ranges before selecting the pair.",
+   "sec": "Humidity and evaporation - absolute, specific, relative, dew point, saturation, latent heat"
+  },
+  {
+   "s": "A cloudburst is generally defined as rainfall of approximately:",
+   "o": [
+    "50 mm or more per hour over 5–10 square kilometres",
+    "100 mm or more per hour over 20–30 square kilometres",
+    "10 mm or more per hour over 2–3 square kilometres",
+    "250 mm or more per day over 100 square kilometres"
+   ],
+   "a": 1,
+   "x": "A cloudburst refers to about 100 mm or more of rain in an hour over an area of approximately 20–30 square kilometres.",
+   "ty": "numerical",
+   "tq": "Retain both linked numerical dimensions—rainfall intensity and affected area.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Cloudbursts are primarily associated with which cloud type?",
+   "o": [
+    "Cumulonimbus",
+    "Cirrus",
+    "Nimbostratus",
+    "Stratus"
+   ],
+   "a": 0,
+   "x": "Cloudbursts are associated with cumulonimbus clouds, which are vertically developed clouds capable of producing intense convective precipitation.",
+   "ty": "fact",
+   "tq": "Identify the cloud type by its convective and vertically developed character.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "A waterspout is best described as:",
+   "o": [
+    "A horizontal ocean current generated by tides",
+    "A snowstorm occurring over high mountain ranges",
+    "A dust column formed over a dry desert surface",
+    "A funnel-shaped phenomenon extending from a cumulus or cumulonimbus cloud over water"
+   ],
+   "a": 3,
+   "x": "A waterspout is a funnel extending from a cumulus or cumulonimbus cloud over a water body.",
+   "ty": "confusable",
+   "tq": "Distinguish the water-based funnel phenomenon from land-based dust and snow events.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "A waterspout was recorded over the Brahmaputra at Barpeta in:",
+   "o": [
+    "Rajasthan",
+    "Assam",
+    "Andhra Pradesh",
+    "Uttarakhand"
+   ],
+   "a": 1,
+   "x": "The reported waterspout occurred over the Brahmaputra in Barpeta, Assam, on 26 August 2026.",
+   "ty": "fact",
+   "tq": "Link the phenomenon to its precise location rather than relying only on the general definition.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Acid rain — precipitation with pH exactly 7.0, caused by water vapour",
+    "Acid rain — precipitation with pH below 5.6, mainly associated with SO₂ and NOx",
+    "Acid rain — precipitation with pH above 7.0, caused by oxygen and nitrogen",
+    "Acid rain — precipitation with pH above 5.6, caused exclusively by carbon dioxide"
+   ],
+   "a": 1,
+   "x": "Acid rain is precipitation with a pH below 5.6 and is associated mainly with sulphur dioxide (SO₂) and nitrogen oxides (NOx).",
+   "ty": "negative",
+   "tq": "Check both the pH threshold and the stated pollutant sources in the matched pair.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The 16th Finance Commission recommended adding which of the following to the list of nationally notified disasters?",
+   "o": [
+    "Droughts and floods",
+    "Earthquakes and tsunamis",
+    "Cyclones and landslides",
+    "Heatwaves and lightning"
+   ],
+   "a": 3,
+   "x": "The 16th Finance Commission recommended the addition of heatwaves and lightning to the nationally notified disasters.",
+   "ty": "fact",
+   "tq": "Use the paired current-affairs terms together; do not substitute already familiar disaster categories.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which country began cloud seeding with assistance from the United Arab Emirates in August 2026?",
+   "o": [
+    "Mongolia",
+    "Iran",
+    "India",
+    "Kazakhstan"
+   ],
+   "a": 3,
+   "x": "Kazakhstan began cloud-seeding operations with assistance from the United Arab Emirates in August 2026.",
+   "ty": "fact",
+   "tq": "Identify the country–partner relationship rather than the broader technology alone.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about rainfall in Andhra Pradesh:\n1. The average annual rainfall of Andhra Pradesh is approximately 966 mm.\n2. About two-thirds of the rainfall is received from the South-West monsoon.\n3. About one-third of the rainfall is received from the North-East monsoon.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh receives about 966 mm of average annual rainfall, with approximately two-thirds from the South-West monsoon and one-third from the North-East monsoon.",
+   "ty": "statements",
+   "tq": "Check the total figure and the complementary monsoon shares together.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which region of Andhra Pradesh receives the highest rainfall, and what is its approximate range?",
+   "o": [
+    "Sri Sathya Sai district; 140–152 cm",
+    "Hagari valley; under 51 cm",
+    "Rayalaseema; 70–90 cm",
+    "North Coastal Andhra Pradesh; 140–152 cm"
+   ],
+   "a": 3,
+   "x": "North Coastal Andhra Pradesh receives the highest rainfall, approximately 140–152 cm, due to the South-West monsoon and the orographic effect of the Eastern Ghats.",
+   "ty": "comparison",
+   "tq": "Match the regional extreme with its range and the associated physical cause.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The low rainfall of the Hagari valley is chiefly associated with:",
+   "o": [
+    "Its location on the windward side of the Eastern Ghats",
+    "Its proximity to the Bay of Bengal",
+    "A rain-shadow situation, with rainfall under 51 cm",
+    "Its exposure to both monsoons equally"
+   ],
+   "a": 2,
+   "x": "The Hagari valley receives the least rainfall in Andhra Pradesh—under 51 cm—because it lies in a rain-shadow region.",
+   "ty": "application",
+   "tq": "Connect the rainfall minimum with the physical mechanism of a rain shadow.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Andhra Pradesh received 960.3 mm of rainfall during June–December 2024 against a normal of 860.0 mm. The excess was approximately:",
+   "o": [
+    "5.7 per cent",
+    "11.7 per cent",
+    "17.6 per cent",
+    "21.4 per cent"
+   ],
+   "a": 1,
+   "x": "The rainfall was 960.3 mm against a normal of 860.0 mm, representing an excess of approximately 11.7 per cent.",
+   "ty": "numerical",
+   "tq": "Use the stated normal and actual rainfall to identify the reported percentage departure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "In the 2026 El Niño year, Sri Sathya Sai district recorded a rainfall deficit of approximately:",
+   "o": [
+    "27 per cent",
+    "37 per cent",
+    "47 per cent",
+    "57 per cent"
+   ],
+   "a": 3,
+   "x": "Sri Sathya Sai district recorded a rainfall deficit of 57 per cent in the 2026 El Niño year.",
+   "ty": "numerical",
+   "tq": "Distinguish the deficit figure from nearby percentage distractors by retaining the exact reported value.",
+   "sec": "Universal angles"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "book": 4,
+ "row": 39,
+ "chunk": 1,
+ "section": "India - rainfall distribution, variability, El Nino linkage, drought and flood-prone areas",
+ "subsections": [
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 8,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "As on 16 September 2026, which one of the following correctly represents the rainfall status of States/Union Territories?",
+   "o": [
+    "17 normal, 16 deficient, 1 excess and 2 large excess",
+    "16 normal, 17 deficient, 2 excess and 1 large excess",
+    "17 normal, 16 deficient, 2 excess and 1 large excess",
+    "18 normal, 15 deficient, 2 excess and 1 large excess"
+   ],
+   "a": 2,
+   "x": "As on 16 September 2026, 17 of the 36 States/Union Territories had normal rainfall, 16 were deficient, 2 had excess rainfall and 1 had large excess rainfall.",
+   "ty": "numerical",
+   "tq": "Use the numerical-total check: the four categories must add up to 36.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding rainfall deficiency reported by 16 September 2026:\n1. Meghalaya recorded the highest rainfall deficiency among the regions mentioned.\n2. Manipur recorded a rainfall deficiency of 43 per cent.\n3. Andhra Pradesh recorded a rainfall deficiency of 42 per cent and was the third worst-affected region.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Meghalaya recorded the worst deficiency at 59 per cent, Manipur recorded 43 per cent deficiency, and Andhra Pradesh recorded 42 per cent deficiency, ranking third worst.",
+   "ty": "statements",
+   "tq": "Check each percentage independently before selecting the coded combination.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Andhra Pradesh received 255.3 mm of rainfall against a normal of 442.3 mm during the period referred to in the rainfall assessment of September 2026. This indicates a deficiency of approximately:",
+   "o": [
+    "32 per cent",
+    "38 per cent",
+    "42 per cent",
+    "48 per cent"
+   ],
+   "a": 2,
+   "x": "The rainfall deficiency was reported as 42 per cent, with actual rainfall of 255.3 mm against the normal rainfall of 442.3 mm.",
+   "ty": "numerical",
+   "tq": "Compare the actual and normal values, then match the calculated range with the reported percentage.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched in the context of rainfall conditions in Andhra Pradesh during 2026?",
+   "o": [
+    "Chittoor — 62 per cent excess rainfall and fodder surplus",
+    "Kurnool — 9,200 acres under pre-monsoon dry sowing",
+    "Kurnool — 92,000 acres under post-monsoon wet sowing",
+    "Chittoor — 62 per cent rainfall deficiency and fodder crisis"
+   ],
+   "a": 3,
+   "x": "Chittoor experienced a 62 per cent rainfall deficiency between 1 June and 28 July 2026, accompanied by a fodder crisis. Kurnool promoted pre-monsoon dry sowing on 92,000 acres.",
+   "ty": "confusable",
+   "tq": "Discriminate between the two districts by matching each one with its correct rainfall or agricultural response.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "In response to prevailing agricultural conditions in July 2026, pre-monsoon dry sowing was promoted in Kurnool over approximately:",
+   "o": [
+    "2,92,000 acres",
+    "92,000 acres",
+    "9,200 acres",
+    "29,000 acres"
+   ],
+   "a": 1,
+   "x": "Kurnool promoted pre-monsoon dry sowing over 92,000 acres in July 2026.",
+   "ty": "numerical",
+   "tq": "Watch the placement of zeroes in the area figure and reject scale-shifted alternatives.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about Andhra Pradesh rainfall during 2024–25:\n1. Southwest Monsoon rainfall was 681.6 mm, showing an 18.6 per cent increase.\n2. Northeast Monsoon rainfall was 278.7 mm, showing a 2.3 per cent decrease.\n3. Total rainfall was 960.3 mm, showing an 11.7 per cent increase.\n4. The preceding year, 2023–24, had recorded a 16.5 per cent rainfall deficit.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 3 and 4 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. In 2024–25, southwest monsoon rainfall was 681.6 mm with an 18.6 per cent increase, northeast monsoon rainfall was 278.7 mm with a 2.3 per cent decrease, total rainfall was 960.3 mm with an 11.7 per cent increase, and 2023–24 had a 16.5 per cent deficit.",
+   "ty": "statements",
+   "tq": "Verify every figure and sign of change; a single reversed increase or decrease makes a statement false.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly describes the broad rainfall pattern of Andhra Pradesh?",
+   "o": [
+    "The State receives about 278.7 mm of average annual rainfall, with almost all rainfall from the Northeast Monsoon.",
+    "The State receives about 681.6 mm of average annual rainfall, divided equally between the two monsoons.",
+    "The State receives about 966 mm of average annual rainfall, of which the Southwest Monsoon contributes about two-thirds and the Northeast Monsoon about one-third.",
+    "The State receives about 966 mm of average annual rainfall, of which the Northeast Monsoon contributes about two-thirds and the Southwest Monsoon about one-third."
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh has an average annual rainfall of about 966 mm. Approximately two-thirds is received from the Southwest Monsoon and one-third from the Northeast Monsoon.",
+   "ty": "comparison",
+   "tq": "Use the relative-share comparison to distinguish the dominant monsoon from the subordinate one.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The highest rainfall in Andhra Pradesh, ranging from approximately 140 to 152 cm, is associated with which of the following areas?",
+   "o": [
+    "The Sileru–Sabari valleys",
+    "The coastal plains around Kurnool",
+    "The Pennar–Chitravati basin",
+    "The Krishna–Tungabhadra uplands"
+   ],
+   "a": 0,
+   "x": "The highest rainfall in Andhra Pradesh occurs in the Sileru–Sabari valleys, where it ranges from about 140 to 152 cm.",
+   "ty": "fact",
+   "tq": "Identify the precise geographical location linked with the stated rainfall range.",
+   "sec": "Universal angles"
+  }
+ ]
+}

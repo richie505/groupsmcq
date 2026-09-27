@@ -1,0 +1,257 @@
+{
+ "book": 4,
+ "row": 25,
+ "chunk": 1,
+ "section": "Ocean-atmosphere interaction - El Nino, La Nina, ENSO, Indian Ocean Dipole, Walker circulation",
+ "subsections": [
+  "ENSO monitoring - Nino 3.4, IMD/NOAA declarations",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 17,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Nino 3.4 region is geographically defined by which of the following coordinates?",
+   "o": [
+    "0°–10°N and 120°W–170°W",
+    "5°N–5°S and 80°W–120°W",
+    "10°N–10°S and 170°E–120°W",
+    "5°N–5°S and 120°W–170°W"
+   ],
+   "a": 3,
+   "x": "The Nino 3.4 region lies in the central equatorial Pacific between 5°N and 5°S and 120°W and 170°W.",
+   "ty": "fact",
+   "tq": "Use exact latitude-longitude boundaries to distinguish neighbouring Pacific monitoring regions.",
+   "sec": "ENSO monitoring - Nino 3.4, IMD/NOAA declarations"
+  },
+  {
+   "s": "With reference to the declaration of El Nino and La Nina conditions, consider the following statements:\n1. El Nino is declared when the central equatorial Pacific is at least 0.5°C warmer than average.\n2. The temperature anomaly must persist for five consecutive overlapping three-month periods for El Nino declaration.\n3. La Nina is associated with a half-degree cooling of the central equatorial Pacific.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. El Nino requires warming of at least 0.5°C for five consecutive overlapping three-month periods, while La Nina represents a half-degree cooling.",
+   "ty": "statements",
+   "tq": "Check the threshold, duration and sign of the temperature anomaly separately.",
+   "sec": "ENSO monitoring - Nino 3.4, IMD/NOAA declarations"
+  },
+  {
+   "s": "The Dipole Mode Index (DMI) is used for monitoring which of the following ocean-atmosphere phenomena?",
+   "o": [
+    "Southern Oscillation",
+    "El Nino Modoki",
+    "Walker circulation",
+    "Indian Ocean Dipole"
+   ],
+   "a": 3,
+   "x": "The Indian Ocean Dipole is monitored through the Dipole Mode Index, or DMI.",
+   "ty": "fact",
+   "tq": "Match the specialised index with the phenomenon it monitors.",
+   "sec": "ENSO monitoring - Nino 3.4, IMD/NOAA declarations"
+  },
+  {
+   "s": "A DMI value of –0.34°C recorded in late May 2026 was classified as which of the following?",
+   "o": [
+    "Neutral Indian Ocean Dipole",
+    "Strong La Nina",
+    "Strong positive Indian Ocean Dipole",
+    "Moderate El Nino"
+   ],
+   "a": 0,
+   "x": "The DMI value of –0.34°C in late May 2026 was assessed as neutral for the Indian Ocean Dipole.",
+   "ty": "numerical",
+   "tq": "Read the sign, magnitude and classification together rather than treating every negative value as an event.",
+   "sec": "ENSO monitoring - Nino 3.4, IMD/NOAA declarations"
+  },
+  {
+   "s": "Which satellite mission is associated with tracking Kelvin waves as an early signal of El Nino?",
+   "o": [
+    "NOAA's GOES satellite",
+    "NASA's Sentinel-6 Michael Freilich",
+    "ISRO's Oceansat-2",
+    "NASA's Landsat-8"
+   ],
+   "a": 1,
+   "x": "NASA's Sentinel-6 Michael Freilich tracks Kelvin waves, which can provide an early signal of El Nino development.",
+   "ty": "fact",
+   "tq": "Use the instrument–function association to avoid confusing monitoring platforms.",
+   "sec": "ENSO monitoring - Nino 3.4, IMD/NOAA declarations"
+  },
+  {
+   "s": "In its April 2026 forecast, the India Meteorological Department projected the southwest monsoon at what level of the Long Period Average?",
+   "o": [
+    "92% of LPA",
+    "90% of LPA",
+    "96% of LPA",
+    "88% of LPA"
+   ],
+   "a": 0,
+   "x": "The IMD forecast projected a below-normal monsoon at 92% of the Long Period Average, whose reference value was stated as 87 cm.",
+   "ty": "numerical",
+   "tq": "Distinguish closely spaced percentage figures in a forecast question.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The IMD's April 2026 monsoon forecast was significant because it represented which of the following?",
+   "o": [
+    "Its first forecast based exclusively on the Indian Ocean Dipole",
+    "Its first below-normal April warning in 11 years",
+    "Its first cyclone warning issued in April",
+    "Its first above-normal April forecast in 11 years"
+   ],
+   "a": 1,
+   "x": "The April 2026 forecast was the IMD's first below-normal April warning in 11 years.",
+   "ty": "fact",
+   "tq": "Focus on the precise comparison and time span rather than the general forecast outcome.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which ocean-atmosphere condition was cited as the reason for the IMD's April 2026 below-normal monsoon forecast?",
+   "o": [
+    "A reduction in Bay of Bengal sea-surface temperature",
+    "A neutral Indian Ocean Dipole",
+    "A developing El Nino",
+    "A weakening La Nina"
+   ],
+   "a": 2,
+   "x": "The below-normal monsoon forecast was attributed to a developing El Nino.",
+   "ty": "fact",
+   "tq": "Apply the stated cause-effect relationship between ENSO conditions and monsoon prospects.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "In May 2026, the IMD warned of the possibility of which condition?",
+   "o": [
+    "A Super El Nino",
+    "A permanent La Nina",
+    "A complete failure of the Indian monsoon",
+    "A negative Southern Oscillation only"
+   ],
+   "a": 0,
+   "x": "The IMD warned in May 2026 of a possible Super El Nino.",
+   "ty": "fact",
+   "tq": "Identify the exact official warning without extending it into an unsupported prediction.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "An INCOIS study associated ENSO most directly with which of the following?",
+   "o": [
+    "The number of post-monsoon Bay of Bengal cyclones",
+    "The number of winter storms in the Arabian Sea only",
+    "The formation of Himalayan glaciers",
+    "The salinity of all Indian rivers"
+   ],
+   "a": 0,
+   "x": "The INCOIS study found that ENSO governs the number of post-monsoon, or October–December, cyclones in the Bay of Bengal.",
+   "ty": "application",
+   "tq": "Link the climate driver to the specific regional hazard and season identified.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which inference regarding El Nino and Bay of Bengal cyclones is supported by the INCOIS study?",
+   "o": [
+    "El Nino may reduce post-monsoon Bay of Bengal cyclones.",
+    "El Nino always increases post-monsoon Bay of Bengal cyclones.",
+    "El Nino shifts all Bay of Bengal cyclones to the Arabian Sea.",
+    "El Nino has no relationship with Bay of Bengal cyclones."
+   ],
+   "a": 0,
+   "x": "The study indicated that El Nino may reduce the number of post-monsoon Bay of Bengal cyclones.",
+   "ty": "application",
+   "tq": "Use the cautious wording ‘may’ and distinguish a possible tendency from an absolute rule.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following correctly describes the relevance of ENSO-related cyclone and monsoon changes to Andhra Pradesh?",
+   "o": [
+    "They are unrelated to agricultural conditions in Andhra Pradesh.",
+    "They influence only irrigation-fed agriculture in Rayalaseema.",
+    "They can affect coastal Andhra Pradesh and rain-fed farming in Rayalaseema.",
+    "They affect only the inland districts and not coastal Andhra Pradesh."
+   ],
+   "a": 2,
+   "x": "Fewer or more Bay of Bengal cyclones and weak monsoon years directly affect coastal Andhra Pradesh and rain-fed Rayalaseema farming.",
+   "ty": "application",
+   "tq": "Translate a broad climate relationship into its regional agricultural and hazard consequences.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The NIOT OMNI buoys located off Nellore are relevant primarily to which activity?",
+   "o": [
+    "Measuring Himalayan snowfall",
+    "Monitoring the Indian Ocean Dipole",
+    "Forecasting only Arabian Sea tides",
+    "Monitoring volcanic activity in the Pacific"
+   ],
+   "a": 1,
+   "x": "NIOT OMNI buoys off Nellore support monitoring of the Indian Ocean Dipole.",
+   "ty": "fact",
+   "tq": "Match the regional observing platform with its stated monitoring purpose.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. Identification of the Indian Ocean Dipole\nB. Last El Nino mentioned in the record\nC. First description of the Southern Oscillation by Walker\n\nChoose the correct sequence.",
+   "o": [
+    "A, C, B",
+    "C, A, B",
+    "B, A, C",
+    "C, B, A"
+   ],
+   "a": 1,
+   "x": "Walker first described the Southern Oscillation in the 1920s, the Indian Ocean Dipole was identified in 1999, and the last El Nino mentioned was in 2023–24.",
+   "ty": "chronology",
+   "tq": "Anchor the sequence using the 1920s, 1999 and 2023–24 time markers.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Who first described the Southern Oscillation?",
+   "o": [
+    "The India Meteorological Department",
+    "NASA's Sentinel-6 mission",
+    "Walker",
+    "INCOIS"
+   ],
+   "a": 2,
+   "x": "Walker first described the Southern Oscillation in the 1920s.",
+   "ty": "fact",
+   "tq": "Identify the scientist associated with the original description rather than a later monitoring agency.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Indian Ocean Dipole was identified in which year?",
+   "o": [
+    "1920",
+    "1982",
+    "1999",
+    "2023"
+   ],
+   "a": 2,
+   "x": "The Indian Ocean Dipole was identified in 1999.",
+   "ty": "numerical",
+   "tq": "Distinguish the historical identification year from later ENSO events.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The last El Nino referred to in the stated chronology occurred during which period?",
+   "o": [
+    "2023–24",
+    "2019–20",
+    "2021–22",
+    "2015–16"
+   ],
+   "a": 0,
+   "x": "The last El Nino identified in the chronology occurred in 2023–24.",
+   "ty": "fact",
+   "tq": "Use the event-period pair directly and avoid substituting another well-known El Nino episode.",
+   "sec": "Universal angles"
+  }
+ ]
+}

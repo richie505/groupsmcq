@@ -1,0 +1,529 @@
+{
+ "book": 4,
+ "row": 33,
+ "chunk": 0,
+ "section": "India - location, extent, frontiers, standard meridian and neighbouring countries",
+ "subsections": [
+  "Neighbouring countries - land border ranking, sea neighbours, bordering states",
+  "Tropic of Cancer → states",
+  "Boundary lines and disputed tracts",
+  "Coastline and land frontier length",
+  "Area, extent and rank",
+  "Interstate boundaries and UT enclaves",
+  "Water bodies separating India from neighbours; surrounding seas",
+  "Standard meridian (IST)"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "India shares international land borders with how many countries?",
+   "o": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "a": 2,
+   "x": "India has land borders with seven countries: Bangladesh, China, Pakistan, Nepal, Myanmar, Bhutan and Afghanistan.",
+   "ty": "numerical",
+   "tq": "Use the exact count rather than confusing land neighbours with sea neighbours.",
+   "sec": "Neighbouring countries - land border ranking, sea neighbours, bordering states  [APPSC]"
+  },
+  {
+   "s": "Which country has the second-longest land border with India?",
+   "o": [
+    "Pakistan",
+    "Myanmar",
+    "Nepal",
+    "China"
+   ],
+   "a": 3,
+   "x": "China has the second-longest land border with India, extending for 3,488 km; Bangladesh ranks first.",
+   "ty": "fact",
+   "tq": "Read the ranking carefully instead of selecting the most familiar neighbouring country.",
+   "sec": "Neighbouring countries - land border ranking, sea neighbours, bordering states  [APPSC]"
+  },
+  {
+   "s": "Which one of the following Indian States is associated with the India-Bhutan border?",
+   "o": [
+    "Nagaland",
+    "Sikkim",
+    "Mizoram",
+    "Manipur"
+   ],
+   "a": 1,
+   "x": "India's border with Bhutan runs along Sikkim, West Bengal, Assam and Arunachal Pradesh.",
+   "ty": "fact",
+   "tq": "Test border-state membership by eliminating states belonging to nearby Myanmar or Bangladesh borders.",
+   "sec": "Neighbouring countries - land border ranking, sea neighbours, bordering states  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding India's international land frontier:\n1. It passes through 16 States and 2 Union Territories.\n2. It passes through 92 districts.\n3. Its total length is 15,106.7 km.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The international land frontier is 15,106.7 km long and passes through 92 districts of 16 States and 2 Union Territories.",
+   "ty": "statements",
+   "tq": "Combine the count, administrative coverage and total length before choosing the coded option.",
+   "sec": "Neighbouring countries - land border ranking, sea neighbours, bordering states  [APPSC]"
+  },
+  {
+   "s": "The maritime borders of the Andaman and Nicobar Islands are shared with which of the following countries?\n1. Myanmar\n2. Thailand\n3. Indonesia\n4. Sri Lanka\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "The Andaman and Nicobar Islands share maritime borders with Myanmar, Thailand and Indonesia. Sri Lanka is separated from mainland India by the Palk Strait and Gulf of Mannar.",
+   "ty": "statements",
+   "tq": "Separate island maritime neighbours from mainland sea neighbours.",
+   "sec": "Neighbouring countries - land border ranking, sea neighbours, bordering states  [APPSC]"
+  },
+  {
+   "s": "Which one of the following countries is NOT included among India's neighbours in SAARC, as listed in relation to India's neighbouring countries?",
+   "o": [
+    "Maldives",
+    "China",
+    "Bhutan",
+    "Nepal"
+   ],
+   "a": 1,
+   "x": "All of India's neighbours except China are included in SAARC. China is not a SAARC member.",
+   "ty": "negative",
+   "tq": "Find the exception by distinguishing a geographical neighbour from a SAARC member.",
+   "sec": "Neighbouring countries - land border ranking, sea neighbours, bordering states  [APPSC]"
+  },
+  {
+   "s": "Which of the following States is the easternmost State through which the Tropic of Cancer passes in India?",
+   "o": [
+    "Jharkhand",
+    "Tripura",
+    "Mizoram",
+    "West Bengal"
+   ],
+   "a": 2,
+   "x": "The Tropic of Cancer passes through eight States, ending in the east with Mizoram after Tripura.",
+   "ty": "fact",
+   "tq": "Use the fixed west-to-east sequence to identify the terminal State.",
+   "sec": "Tropic of Cancer → states  [APPSC]"
+  },
+  {
+   "s": "The Radcliffe Line was drawn in connection with which event?",
+   "o": [
+    "The Simla Agreement of 1972",
+    "The ceasefire of 1949",
+    "The Partition of 1947",
+    "The Shimla Convention of 1914"
+   ],
+   "a": 2,
+   "x": "The Radcliffe Line was drawn by Sir Cyril Radcliffe during the Partition of 1947 to demarcate India and Pakistan, including the later India-Bangladesh boundary context.",
+   "ty": "fact",
+   "tq": "Match the boundary line with its historical origin, not merely with the countries concerned.",
+   "sec": "Boundary lines and disputed tracts  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Boundary line)\na. Durand Line\nb. McMahon Line\nc. Line of Control\n d. Line of Actual Control\n\nList-II (Description)\ni. India-China de facto line\n ii. India-Pakistan line in Jammu and Kashmir\n iii. British India-Afghanistan boundary\n iv. India-China boundary east of Nepal\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iv, c–iii, d–i"
+   ],
+   "a": 0,
+   "x": "The Durand Line was the British India-Afghanistan boundary; the McMahon Line concerns India-China east of Nepal; the LoC is in Jammu and Kashmir; and the LAC is the India-China de facto line.",
+   "ty": "match",
+   "tq": "Start from the sure boundary pair and eliminate codes with swapped lines.",
+   "sec": "Boundary lines and disputed tracts  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding the Line of Control is correct?",
+   "o": [
+    "It was created by the Shimla Convention of 1914.",
+    "It is the de facto boundary between India and China.",
+    "It separates India from Afghanistan in the north-west.",
+    "It was originally the 1949 ceasefire line and was renamed under the Simla Agreement of 1972."
+   ],
+   "a": 3,
+   "x": "The Line of Control originated as the 1949 ceasefire line and acquired its present name under the Simla Agreement of 1972.",
+   "ty": "fact",
+   "tq": "Use the origin-and-renaming sequence to distinguish the LoC from the LAC and McMahon Line.",
+   "sec": "Boundary lines and disputed tracts  [APPSC]"
+  },
+  {
+   "s": "With reference to Aksai Chin, consider the following statements:\n1. India follows the Johnson Line, under which Aksai Chin is shown as Indian.\n2. China follows the McDonald Line.\n3. China regards the McMahon Line as illegal.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. India uses the Johnson Line position for Aksai Chin, China follows the McDonald Line, and China rejects the McMahon Line as illegal.",
+   "ty": "statements",
+   "tq": "Keep the rival positions separate instead of merging the Johnson, McDonald and McMahon lines.",
+   "sec": "Boundary lines and disputed tracts  [APPSC]"
+  },
+  {
+   "s": "Shaksgam Valley is a tract of territory that was ceded by Pakistan to China in:",
+   "o": [
+    "1947",
+    "1949",
+    "1963",
+    "1972"
+   ],
+   "a": 2,
+   "x": "Pakistan ceded the Shaksgam Valley, part of Pakistan-occupied Kashmir, to China in 1963.",
+   "ty": "numerical",
+   "tq": "Distinguish the cession year from the years associated with Partition, the ceasefire line and the Simla Agreement.",
+   "sec": "Boundary lines and disputed tracts  [APPSC]"
+  },
+  {
+   "s": "India's revised coastline length announced after the 2023–24 remeasurement is:",
+   "o": [
+    "7,516.6 km",
+    "9,874.3 km",
+    "11,098.81 km",
+    "15,106.7 km"
+   ],
+   "a": 2,
+   "x": "The revised coastline length is 11,098.81 km. The earlier figure was 7,516.6 km.",
+   "ty": "numerical",
+   "tq": "Match the figure with the survey or remeasurement period rather than confusing it with the land frontier.",
+   "sec": "Coastline and land frontier length  [APPSC]"
+  },
+  {
+   "s": "The increase in India's reported coastline length from 7,516.6 km to 11,098.81 km is mainly attributable to:",
+   "o": [
+    "The physical extension of India's coastal landform",
+    "The inclusion of India's international land frontier",
+    "Finer GIS tracing of creeks and inlets at a 1:250,000 scale",
+    "The transfer of coastal territory from neighbouring countries"
+   ],
+   "a": 2,
+   "x": "The approximately 47.7% rise resulted from improved measurement methodology, particularly finer GIS tracing of creeks and inlets at a 1:250,000 scale, not from a physical increase in coastline.",
+   "ty": "application",
+   "tq": "Identify the methodological cause instead of assuming that a revised measurement represents territorial change.",
+   "sec": "Coastline and land frontier length  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a coastal Union Territory of India listed among the coastal units?",
+   "o": [
+    "Lakshadweep",
+    "Chandigarh",
+    "Puducherry",
+    "Daman and Diu"
+   ],
+   "a": 1,
+   "x": "The coastal Union Territories are Andaman and Nicobar Islands, Lakshadweep, Puducherry, and Daman and Diu. Chandigarh is landlocked.",
+   "ty": "negative",
+   "tq": "Find the non-coastal administrative unit among the listed coastal units.",
+   "sec": "Coastline and land frontier length  [APPSC]"
+  },
+  {
+   "s": "Which coastal State has the longest coastline among the Indian coastal States?",
+   "o": [
+    "Andhra Pradesh",
+    "Maharashtra",
+    "Gujarat",
+    "Tamil Nadu"
+   ],
+   "a": 2,
+   "x": "Gujarat has the longest coastline among India's coastal States.",
+   "ty": "fact",
+   "tq": "Use the stated size comparison rather than selecting a State with a large coastal population.",
+   "sec": "Coastline and land frontier length  [APPSC]"
+  },
+  {
+   "s": "India's total area of 32,87,263 square kilometres is approximately what percentage of the world's land area?",
+   "o": [
+    "1.4%",
+    "2.4%",
+    "3.4%",
+    "4.2%"
+   ],
+   "a": 1,
+   "x": "India covers approximately 2.4% of the world's land area.",
+   "ty": "numerical",
+   "tq": "Retain the area-share figure separately from India's world rank.",
+   "sec": "Area, extent and rank  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes India's position in terms of area and population?",
+   "o": [
+    "Sixth largest in area and second in population",
+    "Seventh largest in area and first in population",
+    "Second largest in area and first in population",
+    "Seventh largest in area and second in population"
+   ],
+   "a": 1,
+   "x": "India is the seventh-largest country in area and ranks first in population.",
+   "ty": "comparison",
+   "tq": "Pair the two rankings without reversing area rank and population rank.",
+   "sec": "Area, extent and rank  [APPSC]"
+  },
+  {
+   "s": "The mainland of India extends approximately between which latitudes and longitudes?",
+   "o": [
+    "8°4′ N to 37°6′ N and 68°7′ E to 97°25′ E",
+    "6°45′ N to 35°6′ N and 66°7′ E to 95°25′ E",
+    "8°4′ S to 37°6′ N and 68°7′ W to 97°25′ E",
+    "10°4′ N to 40°6′ N and 70°7′ E to 100°25′ E"
+   ],
+   "a": 0,
+   "x": "India's mainland extends from 8°4′ N to 37°6′ N latitude and from 68°7′ E to 97°25′ E longitude.",
+   "ty": "fact",
+   "tq": "Check hemisphere and coordinate symbols before comparing the numerical ranges.",
+   "sec": "Area, extent and rank  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about India's mainland extent:\n1. Its north-south extent is about 3,214 km.\n2. Its east-west extent is about 2,933 km.\n3. It lies wholly in the Northern Hemisphere.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. India's mainland extends about 3,214 km from north to south and 2,933 km from east to west, entirely in the Northern Hemisphere.",
+   "ty": "statements",
+   "tq": "Verify both dimensions and the hemispheric location independently.",
+   "sec": "Area, extent and rank  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the present administrative composition of India referred to in the geographical description?",
+   "o": [
+    "27 States and 8 Union Territories",
+    "28 States and 9 Union Territories",
+    "28 States and 8 Union Territories",
+    "29 States and 7 Union Territories"
+   ],
+   "a": 2,
+   "x": "India comprises 28 States and 8 Union Territories in the stated administrative description.",
+   "ty": "numerical",
+   "tq": "Distinguish the current State–Union Territory count from older administrative figures.",
+   "sec": "Area, extent and rank  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Largest State by area — Goa",
+    "Smallest State by area — Rajasthan",
+    "Largest Union Territory by area — Ladakh",
+    "Smallest Union Territory by area — Andaman and Nicobar Islands"
+   ],
+   "a": 2,
+   "x": "Rajasthan is the largest State, Goa the smallest State, Ladakh the largest Union Territory, and Lakshadweep the smallest Union Territory.",
+   "ty": "match",
+   "tq": "Use area comparisons to reject reversed largest–smallest pairs.",
+   "sec": "Area, extent and rank  [APPSC]"
+  },
+  {
+   "s": "Among the southern States, which one borders the maximum number of other States?",
+   "o": [
+    "Tamil Nadu",
+    "Andhra Pradesh",
+    "Karnataka",
+    "Kerala"
+   ],
+   "a": 2,
+   "x": "Karnataka borders Goa, Maharashtra, Telangana, Andhra Pradesh, Tamil Nadu and Kerala, the maximum among the southern States.",
+   "ty": "fact",
+   "tq": "Count the adjoining States rather than relying on the State's geographical size.",
+   "sec": "Interstate boundaries and UT enclaves  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about Uttar Pradesh is correct?",
+   "o": [
+    "It borders six States and two Union Territories.",
+    "It is the southern State bordering the maximum number of States.",
+    "It borders the highest number of other Indian States, but not Delhi.",
+    "It borders eight States and the National Capital Territory of Delhi."
+   ],
+   "a": 3,
+   "x": "Uttar Pradesh borders eight States and Delhi. Karnataka is the southern State bordering the maximum number of States.",
+   "ty": "fact",
+   "tq": "Separate the overall maximum from the southern-States comparison.",
+   "sec": "Interstate boundaries and UT enclaves  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Puducherry enclave)\na. Puducherry\nb. Karaikal\nc. Mahe\nd. Yanam\n\nList-II (State in which it lies)\ni. Andhra Pradesh\n ii. Kerala\n iii. Tamil Nadu\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iii, c–ii, d–i",
+    "a–ii, b–iii, c–i, d–iii",
+    "a–iii, b–ii, c–ii, d–i",
+    "a–i, b–i, c–ii, d–iii"
+   ],
+   "a": 0,
+   "x": "Puducherry and Karaikal lie within Tamil Nadu, Mahe lies within Kerala, and Yanam lies within Andhra Pradesh in the Godavari delta.",
+   "ty": "match",
+   "tq": "Start with the distinctive Mahe–Kerala and Yanam–Andhra Pradesh pairs, then complete the code.",
+   "sec": "Interstate boundaries and UT enclaves  [APPSC]"
+  },
+  {
+   "s": "Which one of the following channels separates Minicoy from the main Lakshadweep group?",
+   "o": [
+    "Ten Degree Channel",
+    "Eight Degree Channel",
+    "Nine Degree Channel",
+    "Palk Strait"
+   ],
+   "a": 2,
+   "x": "The Nine Degree Channel separates Minicoy from the main Lakshadweep group.",
+   "ty": "fact",
+   "tq": "Distinguish the three numbered channels by the islands they separate.",
+   "sec": "Water bodies separating India from neighbours; surrounding seas  [APPSC]"
+  },
+  {
+   "s": "Match the following channels with the areas they separate:\na. Eight Degree Channel\nb. Nine Degree Channel\nc. Ten Degree Channel\n\ni. Andaman and Nicobar Islands\n ii. Minicoy and Maldives\n iii. Minicoy and main Lakshadweep\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iii, c–i",
+    "a–iii, b–ii, c–i",
+    "a–ii, b–i, c–iii",
+    "a–i, b–iii, c–ii"
+   ],
+   "a": 0,
+   "x": "The Eight Degree Channel separates Minicoy from the Maldives, the Nine Degree Channel separates Minicoy from the main Lakshadweep group, and the Ten Degree Channel separates the Andaman and Nicobar Islands.",
+   "ty": "match",
+   "tq": "Use the numerical sequence only after identifying the island pair in each channel.",
+   "sec": "Water bodies separating India from neighbours; surrounding seas  [APPSC]"
+  },
+  {
+   "s": "Which water bodies separate India from Sri Lanka?",
+   "o": [
+    "Gulf of Mannar and Ten Degree Channel",
+    "Eight Degree Channel and Gulf of Mannar",
+    "Palk Strait and Gulf of Mannar",
+    "Gulf of Khambhat and Palk Strait"
+   ],
+   "a": 2,
+   "x": "The Palk Strait and the Gulf of Mannar separate India from Sri Lanka.",
+   "ty": "fact",
+   "tq": "Distinguish the Sri Lanka water bodies from the channels around Lakshadweep and Andaman.",
+   "sec": "Water bodies separating India from neighbours; surrounding seas  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the water bodies surrounding India:\n1. The Arabian Sea lies to the west.\n2. The Bay of Bengal lies to the east.\n3. The Indian Ocean lies to the south.\n4. The Lakshadweep Sea lies to the southwest.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 3 and 4 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly identify the principal water bodies surrounding India by direction.",
+   "ty": "statements",
+   "tq": "Map each water body to its direction before selecting the complete combination.",
+   "sec": "Water bodies separating India from neighbours; surrounding seas  [APPSC]"
+  },
+  {
+   "s": "Approximately how far south of Lakshadweep are the Maldives located?",
+   "o": [
+    "75 km",
+    "125 km",
+    "225 km",
+    "325 km"
+   ],
+   "a": 1,
+   "x": "The Maldives are located approximately 125 km south of Lakshadweep.",
+   "ty": "numerical",
+   "tq": "Retain the approximate distance separately from the distance of the Andaman and Nicobar Islands from mainland India.",
+   "sec": "Water bodies separating India from neighbours; surrounding seas  [APPSC]"
+  },
+  {
+   "s": "The Andaman and Nicobar Islands are situated approximately how far southeast of the Indian mainland?",
+   "o": [
+    "600 km",
+    "900 km",
+    "1,200 km",
+    "1,800 km"
+   ],
+   "a": 2,
+   "x": "The Andaman and Nicobar Islands lie approximately 1,200 km southeast of the Indian mainland.",
+   "ty": "numerical",
+   "tq": "Compare the island distance with the separate Maldives–Lakshadweep distance.",
+   "sec": "Water bodies separating India from neighbours; surrounding seas  [APPSC]"
+  },
+  {
+   "s": "The reference location near which India's standard meridian is situated is:",
+   "o": [
+    "Ahmedabad",
+    "Kakinada",
+    "Mirzapur",
+    "Siliguri"
+   ],
+   "a": 2,
+   "x": "The standard meridian is 82°30′ E and its reference location is near Mirzapur in Uttar Pradesh.",
+   "ty": "fact",
+   "tq": "Separate the reference location from the States through which the meridian passes.",
+   "sec": "Standard meridian (IST)  [APPSC]"
+  },
+  {
+   "s": "In Andhra Pradesh, the standard meridian of India crosses which district?",
+   "o": [
+    "Anantapur",
+    "Visakhapatnam",
+    "Kakinada",
+    "Kurnool"
+   ],
+   "a": 2,
+   "x": "Within Andhra Pradesh, the standard meridian crosses Kakinada district.",
+   "ty": "fact",
+   "tq": "Test the exact district rather than selecting a prominent city or a neighbouring State.",
+   "sec": "Standard meridian (IST)  [APPSC]"
+  },
+  {
+   "s": "Which sequence correctly gives the States through which India's standard meridian passes from north to south?",
+   "o": [
+    "Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha, Andhra Pradesh",
+    "Uttar Pradesh, Chhattisgarh, Madhya Pradesh, Andhra Pradesh, Odisha",
+    "Madhya Pradesh, Uttar Pradesh, Odisha, Chhattisgarh, Andhra Pradesh",
+    "Uttar Pradesh, Madhya Pradesh, Odisha, Chhattisgarh, Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "The standard meridian passes through Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Andhra Pradesh in that north-to-south sequence.",
+   "ty": "chronology",
+   "tq": "Use the north-to-south order to detect the swapped middle States.",
+   "sec": "Standard meridian (IST)  [APPSC]"
+  },
+  {
+   "s": "A longitudinal span of approximately 30° between Arunachal Pradesh and Gujarat results in a local-time difference of about:",
+   "o": [
+    "30 minutes",
+    "3 hours",
+    "1 hour",
+    "2 hours"
+   ],
+   "a": 3,
+   "x": "A 30-degree longitudinal span corresponds to about two hours of local-time difference between Arunachal Pradesh and Gujarat.",
+   "ty": "application",
+   "tq": "Convert the stated longitudinal difference into the corresponding time difference.",
+   "sec": "Standard meridian (IST)  [APPSC]"
+  },
+  {
+   "s": "Which of the following proposals has been discussed in relation to India's time-zone arrangement?\n1. Creating a separate time zone for the North-East.\n2. Advancing Indian Standard Time by 30 minutes.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both proposals have been discussed: a separate North-Eastern time zone and advancing IST by 30 minutes.",
+   "ty": "statements",
+   "tq": "Recognise both stated alternatives instead of treating the time-zone debate as a settled policy.",
+   "sec": "Standard meridian (IST)  [APPSC]"
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "book": 4,
+ "row": 51,
+ "chunk": 2,
+ "section": "Andhra Pradesh - national parks, wildlife sanctuaries (Nagarjunasagar-Srisailam, Coringa, Papikonda, Rollapadu, Kolleru) and Ramsar sites",
+ "subsections": [
+  "Sanctuaries of other states used as distractors",
+  "Forest cover of AP - ISFR share, recorded forest area rank, fire extent, district extremes",
+  "Forest regions - tree species and forest type (Seshachalam, Nallamala, Palakonda)",
+  "Mangroves - Godavari and Krishna deltas, Coringa",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 31,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 5,
+  "dupe_of_pyq": 4
+ },
+ "accepted": [
+  {
+   "s": "With reference to National Parks in India, consider the following statements:\n1. Grazing is not permitted inside a National Park.\n2. Rights may be exercised inside a National Park without any restriction.\n3. The boundary of a National Park can be altered only on the recommendation of the National Board for Wildlife.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 3 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Grazing is not permitted inside a National Park, and alteration of its boundary requires the recommendation of the National Board for Wildlife. The exercise of rights is not unrestricted.",
+   "ty": "statements",
+   "tq": "Identify the wrong statement by testing the absolute claim about unrestricted rights.",
+   "sec": "Sanctuaries of other states used as distractors"
+  },
+  {
+   "s": "Which one of the following groups consists entirely of protected areas located in Telangana?",
+   "o": [
+    "Papikonda, Kolleru and Seshachalam National Parks",
+    "Coringa, Krishna and Rollapadu Wildlife Sanctuaries",
+    "Mrugavani, Kasu Brahmananda Reddy National Park and Eturunagaram Wildlife Sanctuary",
+    "Nagarhole, Mrugavani and Coringa Wildlife Sanctuaries"
+   ],
+   "a": 2,
+   "x": "Mrugavani National Park, Kasu Brahmananda Reddy National Park and Eturunagaram Wildlife Sanctuary are located in Telangana.",
+   "ty": "fact",
+   "tq": "Use the common-location clue to separate neighbouring-state distractors.",
+   "sec": "Sanctuaries of other states used as distractors"
+  },
+  {
+   "s": "In the context of the Recorded Forest Area in India, Andhra Pradesh was placed at which rank in ISFR 2023?",
+   "o": [
+    "Ninth",
+    "Sixth",
+    "Eighth",
+    "Seventh"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh ranked eighth in India in terms of Recorded Forest Area in ISFR 2023.",
+   "ty": "fact",
+   "tq": "Recall the specific rank rather than confusing it with percentage-based forest cover.",
+   "sec": "Forest cover of AP - ISFR share, recorded forest area rank, fire extent, district extremes"
+  },
+  {
+   "s": "Which of the following statements regarding the notified forest area of Andhra Pradesh is correct according to the SES 2025–26 data?",
+   "o": [
+    "It is 38,060.39 sq km and constitutes 23.35% of the geographical area.",
+    "It is 37,421.11 sq km and constitutes 22.96% of the geographical area.",
+    "It is 37,221.11 sq km and constitutes 22.84% of the geographical area.",
+    "It is 8,139.88 sq km and constitutes 21.80% of the geographical area."
+   ],
+   "a": 1,
+   "x": "The revised notified forest area is 37,421.11 square kilometres, constituting 22.96% of Andhra Pradesh’s geographical area. The other figures refer to earlier data, older cover figures or protected-area coverage.",
+   "ty": "comparison",
+   "tq": "Compare current and older figures instead of accepting a familiar earlier value.",
+   "sec": "Forest cover of AP - ISFR share, recorded forest area rank, fire extent, district extremes"
+  },
+  {
+   "s": "Protected areas in Andhra Pradesh cover approximately what proportion of its notified forest area according to SES 2025–26?",
+   "o": [
+    "21.80%",
+    "8,139.88 sq km",
+    "37,421.11 sq km",
+    "22.96%"
+   ],
+   "a": 0,
+   "x": "Protected areas cover 21.80% of the notified forest area of Andhra Pradesh; their absolute area is 8,139.88 square kilometres.",
+   "ty": "numerical",
+   "tq": "Separate a percentage from the corresponding absolute area.",
+   "sec": "Forest cover of AP - ISFR share, recorded forest area rank, fire extent, district extremes"
+  },
+  {
+   "s": "Which district of Andhra Pradesh had the highest forest area in the older 13-district data?",
+   "o": [
+    "Prakasam",
+    "YSR Kadapa",
+    "Visakhapatnam",
+    "Krishna"
+   ],
+   "a": 1,
+   "x": "YSR Kadapa had the highest forest area in the older 13-district data. Visakhapatnam had the highest forest-cover percentage, while Krishna was lowest in both measures.",
+   "ty": "fact",
+   "tq": "Keep absolute forest area distinct from forest-cover percentage.",
+   "sec": "Forest cover of AP - ISFR share, recorded forest area rank, fire extent, district extremes"
+  },
+  {
+   "s": "The Red Sanders Protection Area in Andhra Pradesh extends over approximately:",
+   "o": [
+    "8,139.88 sq km across seven districts",
+    "3,500.97 sq km across five districts",
+    "5,300.97 sq km across seven districts",
+    "5,286.76 sq km across eight districts"
+   ],
+   "a": 2,
+   "x": "The Red Sanders Protection Area covers 5,300.97 square kilometres across seven districts.",
+   "ty": "numerical",
+   "tq": "Combine the area and district-count clues to identify the exact figure.",
+   "sec": "Forest cover of AP - ISFR share, recorded forest area rank, fire extent, district extremes"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Nallamala Hills — dry deciduous forests and Nagarjunasagar-Srisailam Tiger Reserve",
+    "Seshachalam Hills — tidal mangrove forests and Coringa Wildlife Sanctuary",
+    "Palakonda Hills — moist evergreen forests and Papikonda National Park",
+    "Krishna-Godavari mouths — thorn forests and Rollapadu Wildlife Sanctuary"
+   ],
+   "a": 0,
+   "x": "The Nallamala Hills are characterised by dry deciduous forests and include the Nagarjunasagar-Srisailam Tiger Reserve. The other pairs incorrectly assign forest types or protected areas.",
+   "ty": "match",
+   "tq": "Start with the sure region–forest-type association and eliminate swapped locations.",
+   "sec": "Forest regions - tree species and forest type (Seshachalam, Nallamala, Palakonda)"
+  },
+  {
+   "s": "Red Sanders, scientifically known as Pterocarpus santalinus, is especially associated with which region of Andhra Pradesh?",
+   "o": [
+    "Lowest-rainfall thorn tracts alone",
+    "Krishna-Godavari delta mouths",
+    "North Simhachalam coastal belt",
+    "Southern Eastern Ghats"
+   ],
+   "a": 3,
+   "x": "Red Sanders is endemic to the southern Eastern Ghats of Andhra Pradesh and is characteristic of the Seshachalam and Palakonda belts.",
+   "ty": "fact",
+   "tq": "Identify the endemic species by linking it to its regional distribution.",
+   "sec": "Forest regions - tree species and forest type (Seshachalam, Nallamala, Palakonda)"
+  },
+  {
+   "s": "Consider the following statements about forest regions of Andhra Pradesh:\n1. Seshachalam Hills lie in the Tirupati–Annamayya region.\n2. Palakonda Hills lie in the Kadapa–Annamayya region.\n3. Nallamala Hills extend through the Nandyal–Prakasam–Palnadu region.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three regional associations are correct: Seshachalam is linked with Tirupati and Annamayya, Palakonda with Kadapa and Annamayya, and Nallamala with Nandyal, Prakasam and Palnadu.",
+   "ty": "statements",
+   "tq": "Check each region–district grouping independently before selecting the coded combination.",
+   "sec": "Forest regions - tree species and forest type (Seshachalam, Nallamala, Palakonda)"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched with the rainfall-based forest type in Andhra Pradesh?",
+   "o": [
+    "Moist or tidal belt — 125 to 200 cm rainfall",
+    "Moist or tidal belt — 50 to 75 cm rainfall",
+    "Thorn forests — lowest-rainfall tracts",
+    "Dry deciduous forests — 75 to 100 cm rainfall"
+   ],
+   "a": 1,
+   "x": "The moist or tidal belt occurs in areas receiving 125–200 cm rainfall. Thorn forests occur in the lowest-rainfall tracts, while dry deciduous forests are associated with 75–100 cm rainfall.",
+   "ty": "negative",
+   "tq": "Find the range that does not belong to the stated rainfall classification.",
+   "sec": "Forest regions - tree species and forest type (Seshachalam, Nallamala, Palakonda)"
+  },
+  {
+   "s": "Which of the following hills are identified as forest-bearing hills of Andhra Pradesh?",
+   "o": [
+    "Nallamala, Vindhya, Satpura and Western Ghats",
+    "North Simhachalam, West Balaghat, South Palakonda and Nallamala",
+    "North Simhachalam, Himalaya, Palakonda and Nilgiri",
+    "Seshachalam, Aravalli, Nilgiri and Eastern Khasi Hills"
+   ],
+   "a": 1,
+   "x": "The forest-bearing hills identified in Andhra Pradesh are North Simhachalam, West Balaghat, South Palakonda and Nallamala.",
+   "ty": "fact",
+   "tq": "Use the complete regional list and reject groups containing hills outside the stated area.",
+   "sec": "Forest regions - tree species and forest type (Seshachalam, Nallamala, Palakonda)"
+  },
+  {
+   "s": "Large-scale afforestation in the mangrove areas of the Godavari and Krishna deltas dates from which Five-Year Plan?",
+   "o": [
+    "Fourth Five-Year Plan",
+    "Fifth Five-Year Plan",
+    "Sixth Five-Year Plan",
+    "Seventh Five-Year Plan"
+   ],
+   "a": 2,
+   "x": "Large-scale afforestation in these deltaic mangrove areas began during the Sixth Five-Year Plan.",
+   "ty": "chronology",
+   "tq": "Use the plan-period sequence to distinguish the specified starting plan from adjacent plans.",
+   "sec": "Mangroves - Godavari and Krishna deltas, Coringa"
+  },
+  {
+   "s": "Which of the following correctly matches the mangrove area with its location and approximate area?",
+   "o": [
+    "Coringa Wildlife Sanctuary — Kakinada — 235.70 sq km",
+    "Krishna Wildlife Sanctuary — Bapatla/Krishna — 235.70 sq km",
+    "Coringa Wildlife Sanctuary — Kakinada — 194.81 sq km",
+    "Krishna Wildlife Sanctuary — Kakinada — 235.70 sq km"
+   ],
+   "a": 0,
+   "x": "Coringa Wildlife Sanctuary is associated with Kakinada and covers approximately 235.70 square kilometres. Krishna Wildlife Sanctuary covers about 194.81 square kilometres in the Bapatla/Krishna area.",
+   "ty": "match",
+   "tq": "Start from the sanctuary–district pair and then verify the area figure.",
+   "sec": "Mangroves - Godavari and Krishna deltas, Coringa"
+  },
+  {
+   "s": "Krishna Wildlife Sanctuary, an important mangrove area, is associated with which districts and approximate area?",
+   "o": [
+    "Krishna and Nellore; 194.81 sq km",
+    "Bapatla and Guntur; 149.56 sq km",
+    "Kakinada and East Godavari; 235.70 sq km",
+    "Bapatla and Krishna; 194.81 sq km"
+   ],
+   "a": 3,
+   "x": "Krishna Wildlife Sanctuary is associated with Bapatla and Krishna districts and covers approximately 194.81 square kilometres.",
+   "ty": "fact",
+   "tq": "Discriminate the Krishna mangrove sanctuary from Coringa by both districts and area.",
+   "sec": "Mangroves - Godavari and Krishna deltas, Coringa"
+  },
+  {
+   "s": "The mangroves of Andhra Pradesh grow mainly in the estuaries of which rivers?",
+   "o": [
+    "Pennar and Tungabhadra",
+    "Godavari and Krishna",
+    "Palar and Penna",
+    "Vamsadhara and Nagavali"
+   ],
+   "a": 1,
+   "x": "The principal mangrove formations of Andhra Pradesh occur in the estuaries of the Godavari and Krishna rivers.",
+   "ty": "fact",
+   "tq": "Link mangrove distribution with the correct deltaic river system.",
+   "sec": "Mangroves - Godavari and Krishna deltas, Coringa"
+  },
+  {
+   "s": "A claim describes Andhra Pradesh as having the second-largest mangrove ecosystem in India. Which organisation’s national assessment creates a conflict with this claim?",
+   "o": [
+    "Ramsar Convention, which places Odisha second",
+    "ISFR 2023, which places Gujarat second",
+    "Zoological Survey of India, which places Tamil Nadu second",
+    "National Board for Wildlife, which places Kerala second"
+   ],
+   "a": 1,
+   "x": "State economic survey documents describe Andhra Pradesh’s mangroves as the second-largest ecosystem, whereas ISFR 2023 places Gujarat second nationally. This creates a conflict between the two assessments.",
+   "ty": "confusable",
+   "tq": "Separate a state-survey claim from the ranking used in the national ISFR assessment.",
+   "sec": "Mangroves - Godavari and Krishna deltas, Coringa"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Seshachalam — first and only biosphere reserve of Andhra Pradesh",
+    "Koundinya — only elephant sanctuary of Andhra Pradesh",
+    "Panna — UNESCO biosphere reserve in 2020",
+    "Chilika — tiger reserve"
+   ],
+   "a": 3,
+   "x": "Chilika is not a tiger reserve. Panna became a UNESCO biosphere reserve in 2020, while Koundinya and Seshachalam are correctly matched with their respective Andhra Pradesh distinctions.",
+   "ty": "negative",
+   "tq": "Look for the explicitly excluded association rather than selecting a familiar protected area.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "A tiger wandering around Papikonda returned to East Godavari without attacking anyone. This incident is an example of which type of current relevance?",
+   "o": [
+    "Reclassification of a mangrove ecosystem",
+    "Human–wildlife interaction involving a protected area",
+    "Declaration of a new biosphere reserve",
+    "Diversion of forest land under the Forest Conservation Act"
+   ],
+   "a": 1,
+   "x": "The incident concerns a tiger’s movement from Papikonda and its safe return to East Godavari, representing a current human–wildlife interaction associated with a protected area.",
+   "ty": "application",
+   "tq": "Identify the underlying geography or conservation theme in a short applied situation.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which agency manages the zoos at Visakhapatnam and Tirupati according to the SES 2025–26 information?",
+   "o": [
+    "NBWL",
+    "ZAAP",
+    "FCA",
+    "ISFR"
+   ],
+   "a": 1,
+   "x": "ZAAP manages the zoos at Visakhapatnam and Tirupati. The other abbreviations refer to wildlife policy, forest assessment or legislation-related contexts.",
+   "ty": "fact",
+   "tq": "Match the management agency with the facilities under its control.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "How many community eco-tourism centres are reported in the SES 2025–26 information for Andhra Pradesh?",
+   "o": [
+    "38",
+    "48",
+    "58",
+    "68"
+   ],
+   "a": 1,
+   "x": "The SES 2025–26 information reports 48 community eco-tourism centres in Andhra Pradesh.",
+   "ty": "numerical",
+   "tq": "Recall the exact current-affairs count rather than the nearby distractor values.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly states the significance of Andhra Pradesh’s protected areas?",
+   "o": [
+    "They include India’s only tiger reserve and the world’s largest mangrove forest.",
+    "They include India’s largest tiger reserve and a special protection area for an endemic Red Sanders belt.",
+    "They contain no endemic tree species but include the country’s largest wetland.",
+    "They include only coastal sanctuaries and no major tiger habitat."
+   ],
+   "a": 1,
+   "x": "The protected-area network of Andhra Pradesh includes India’s largest tiger reserve and the Red Sanders endemic-tree belt under special protection.",
+   "ty": "fact",
+   "tq": "Combine two separate significance clues without accepting extreme claims such as ‘only’ or ‘no’.",
+   "sec": "Universal angles"
+  }
+ ]
+}

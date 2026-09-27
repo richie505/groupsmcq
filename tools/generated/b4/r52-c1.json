@@ -1,0 +1,611 @@
+{
+ "book": 4,
+ "row": 52,
+ "chunk": 1,
+ "section": "Andhra Pradesh - soil types and their distribution",
+ "subsections": [
+  "Black soils - districts and crops",
+  "Deltaic alluvium - formation and delta crops",
+  "Problem soils - saline, alkaline, acidic, waterlogged",
+  "Soil Health Card and soil testing",
+  "Soil erosion and land degradation in Rayalaseema",
+  "Soil-crop suitability in AP"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 43,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "In Andhra Pradesh, black soils account for approximately what proportion of the land area?",
+   "o": [
+    "6 per cent",
+    "15 per cent",
+    "25 per cent",
+    "40 per cent"
+   ],
+   "a": 2,
+   "x": "Black soils cover approximately 25 per cent of the land area of Andhra Pradesh.",
+   "ty": "numerical",
+   "tq": "Use the numerical-value distinction among closely spaced area shares.",
+   "sec": "Black soils - districts and crops"
+  },
+  {
+   "s": "Black soils of Andhra Pradesh are mainly derived from which of the following parent materials?\n1. Deccan Trap basalt\n2. Crystalline schists\n3. Basic gneiss\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The black soils of Andhra Pradesh are derived from Deccan Trap basalt, crystalline schists and basic gneiss.",
+   "ty": "statements",
+   "tq": "Test all listed parent materials together and eliminate partial combinations.",
+   "sec": "Black soils - districts and crops"
+  },
+  {
+   "s": "Which one of the following combinations correctly describes the chemical nature and texture of black soils in Andhra Pradesh?",
+   "o": [
+    "Fine and clayey, neutral to strongly alkaline",
+    "Peaty and organic-rich, neutral",
+    "Coarse and sandy, strongly acidic",
+    "Porous and gravelly, mildly acidic"
+   ],
+   "a": 0,
+   "x": "These soils are fine and clayey and generally range from neutral to strongly alkaline.",
+   "ty": "comparison",
+   "tq": "Use the paired texture-and-reaction description rather than identifying only one property.",
+   "sec": "Black soils - districts and crops"
+  },
+  {
+   "s": "Consider the following statements regarding the nutrient composition of black soils:\n1. They are rich in calcium, potash and magnesium.\n2. They are poor in nitrogen, phosphorus and humus.\n3. They have high water-retention capacity.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Black soils are rich in calcium, potash and magnesium, but poor in nitrogen, phosphorus and humus; they also retain water well.",
+   "ty": "statements",
+   "tq": "Separate the positive nutrient traits from the deficiencies and the physical property.",
+   "sec": "Black soils - districts and crops"
+  },
+  {
+   "s": "The deep cracks formed in black soil during dry periods are chiefly associated with which agricultural characteristic?",
+   "o": [
+    "Rapid leaching of nutrients",
+    "Permanent waterlogging",
+    "Self-ploughing",
+    "Formation of acidic humus"
+   ],
+   "a": 2,
+   "x": "Deep cracks formed on drying loosen and turn the soil, giving black soil its self-ploughing character.",
+   "ty": "application",
+   "tq": "Link the observed field condition to its recognised agricultural consequence.",
+   "sec": "Black soils - districts and crops"
+  },
+  {
+   "s": "Which of the following districts or areas is NOT associated with the distribution of black soils in Andhra Pradesh?",
+   "o": [
+    "Nandyal and Kurnool",
+    "Adoni and Alur",
+    "Kunderu basin",
+    "Srikakulam and Vizianagaram"
+   ],
+   "a": 3,
+   "x": "The Kunderu basin, Adoni, Alur, Nandyal and Kurnool are associated with black soils. Srikakulam and Vizianagaram are not listed among the black-soil areas in this distribution.",
+   "ty": "negative",
+   "tq": "Find the location that does not belong to the stated distribution pattern.",
+   "sec": "Black soils - districts and crops"
+  },
+  {
+   "s": "Deep black soils in Andhra Pradesh are particularly associated with which pair of places?",
+   "o": [
+    "Bapatla and Tenali",
+    "Adoni and Alur",
+    "Srikakulam and Palasa",
+    "Nellore and Kavali"
+   ],
+   "a": 1,
+   "x": "Deep black soils occur particularly at Adoni and Alur.",
+   "ty": "fact",
+   "tq": "Test the specific place pair rather than the broader district distribution.",
+   "sec": "Black soils - districts and crops"
+  },
+  {
+   "s": "Which one of the following crops is specifically noted as doing best on black soils in Andhra Pradesh?",
+   "o": [
+    "Mango",
+    "Coffee",
+    "Black gram",
+    "Cashew"
+   ],
+   "a": 2,
+   "x": "Black gram is specifically identified as doing best on black soils, while mango and cashew suit lateritic soils and coffee suits hill soils.",
+   "ty": "fact",
+   "tq": "Use the crop-soil association and reject crops assigned to other soil groups.",
+   "sec": "Black soils - districts and crops"
+  },
+  {
+   "s": "The local names 'Regur' and 'Regadi' refer to which soil of Andhra Pradesh?",
+   "o": [
+    "Deltaic alluvial soil",
+    "Laterite soil",
+    "Black soil",
+    "Red soil"
+   ],
+   "a": 2,
+   "x": "Regur and Regadi are local names for black soil, also called black cotton soil.",
+   "ty": "confusable",
+   "tq": "Discriminate between regional names of similar soil categories.",
+   "sec": "Black soils - districts and crops"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Black soil — cotton\n2. Black soil — jowar\n3. Black soil — turmeric\n4. Black soil — tobacco\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Cotton, jowar, turmeric and tobacco are among the crops grown on black soils in Andhra Pradesh.",
+   "ty": "statements",
+   "tq": "Check the complete crop list instead of selecting only the most famous crop.",
+   "sec": "Black soils - districts and crops"
+  },
+  {
+   "s": "Deltaic alluvial soils in Andhra Pradesh are primarily formed by the deposition of river-borne silt from which major river systems?",
+   "o": [
+    "Godavari and Krishna",
+    "Pennar and Tungabhadra only",
+    "Vamsadhara and Nagavali only",
+    "Chitravathi and Papagni"
+   ],
+   "a": 0,
+   "x": "The major deltaic alluvium is laid down by the Godavari and Krishna rivers and is renewed by floods.",
+   "ty": "fact",
+   "tq": "Identify the principal river pair responsible for the formation.",
+   "sec": "Deltaic alluvium - formation and delta crops"
+  },
+  {
+   "s": "Why are the deltaic alluvial soils of Andhra Pradesh periodically renewed?",
+   "o": [
+    "Each flood deposits fresh silt over the existing soil.",
+    "They are formed by the weathering of crystalline rocks in situ.",
+    "They are formed exclusively from volcanic ash.",
+    "They are renewed by wind-blown desert sand."
+   ],
+   "a": 0,
+   "x": "Floods of the major rivers deposit fresh river-borne silt, periodically renewing the deltaic alluvium.",
+   "ty": "application",
+   "tq": "Connect the geomorphic process with its effect on soil renewal.",
+   "sec": "Deltaic alluvium - formation and delta crops"
+  },
+  {
+   "s": "Which one of the following is a characteristic of deltaic alluvial soil in Andhra Pradesh?",
+   "o": [
+    "It is coarse, gravelly and has very low moisture retention.",
+    "It is shallow, skeletal and devoid of nutrients.",
+    "It is strongly acidic and rich in lateritic iron.",
+    "It is porous and loamy and has high moisture retention."
+   ],
+   "a": 3,
+   "x": "Deltaic alluvial soil is porous and loamy, retains moisture well and is rich in potash and lime.",
+   "ty": "fact",
+   "tq": "Choose the option combining the characteristic physical properties of the soil.",
+   "sec": "Deltaic alluvium - formation and delta crops"
+  },
+  {
+   "s": "Approximately what proportion of Andhra Pradesh is covered by its most fertile deltaic alluvial soils?",
+   "o": [
+    "About 25 per cent",
+    "About 15 per cent",
+    "About 2 per cent",
+    "About 6 per cent"
+   ],
+   "a": 3,
+   "x": "Deltaic alluvial soils cover approximately 6 per cent of Andhra Pradesh and are regarded as its most fertile soils.",
+   "ty": "numerical",
+   "tq": "Distinguish the specific soil-area estimate from the larger black-soil share.",
+   "sec": "Deltaic alluvium - formation and delta crops"
+  },
+  {
+   "s": "Which of the following areas is associated with deltaic alluvial soils in Andhra Pradesh?\n1. Konaseema\n2. Nellore\n3. Anakapalli\n4. Guntur\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Konaseema, Nellore, Anakapalli and Guntur are among the areas associated with deltaic alluvial soils.",
+   "ty": "statements",
+   "tq": "Verify each location against the coastal and deltaic distribution.",
+   "sec": "Deltaic alluvium - formation and delta crops"
+  },
+  {
+   "s": "The title 'Rice Bowl of Andhra Pradesh' is particularly associated with which zone?",
+   "o": [
+    "Anantapur dry zone",
+    "Godavari zone",
+    "Rayalaseema uplands",
+    "Nallamala hill zone"
+   ],
+   "a": 1,
+   "x": "The Godavari zone is known as the Rice Bowl of Andhra Pradesh and is also an aquaculture hub.",
+   "ty": "fact",
+   "tq": "Match the regional title with the correct geographical zone.",
+   "sec": "Deltaic alluvium - formation and delta crops"
+  },
+  {
+   "s": "Old alluvium and new alluvium are respectively known as:",
+   "o": [
+    "Khadar and Regur",
+    "Regur and Bangar",
+    "Khadar and Bangar",
+    "Bangar and Khadar"
+   ],
+   "a": 3,
+   "x": "Old alluvium is called Bangar, while new alluvium is called Khadar.",
+   "ty": "confusable",
+   "tq": "Test the easily reversible pair by requiring the correct sequence.",
+   "sec": "Deltaic alluvium - formation and delta crops"
+  },
+  {
+   "s": "Which soil is most suitable for the fertile agricultural tracts of the Krishna-Godavari deltas?",
+   "o": [
+    "Deltaic alluvial soil",
+    "Shallow red soil",
+    "Laterite soil",
+    "Skeletal hill soil"
+   ],
+   "a": 0,
+   "x": "The Krishna-Godavari deltaic tracts are characterised by highly fertile deltaic alluvial soil.",
+   "ty": "fact",
+   "tq": "Use the regional soil-crop setting to identify the most suitable soil.",
+   "sec": "Deltaic alluvium - formation and delta crops"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with deltaic alluvial soil?\n1. Paddy\n2. Sugarcane\n3. Vegetables\n4. Fruits\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Paddy, sugarcane, vegetables and fruits are among the crops suited to deltaic alluvial soils.",
+   "ty": "statements",
+   "tq": "Test the complete crop group associated with the deltaic environment.",
+   "sec": "Deltaic alluvium - formation and delta crops"
+  },
+  {
+   "s": "Which one of the following statements regarding problem soils is correct?",
+   "o": [
+    "Alkalinity increases the availability of all plant nutrients.",
+    "Salinity can lower yields and break down soil structure.",
+    "Salinity generally improves soil structure and raises yields.",
+    "Alkalinity is caused only by excessive organic matter."
+   ],
+   "a": 1,
+   "x": "Salinity lowers crop yields and may break down soil structure. Alkalinity reduces nutrient availability and may be associated with limestone, basalt or alkaline irrigation water.",
+   "ty": "negative",
+   "tq": "Reject the reversed effect and identify the precise soil-problem consequence.",
+   "sec": "Problem soils - saline, alkaline, acidic, waterlogged"
+  },
+  {
+   "s": "Which soil type is associated with acidic conditions, while black soil generally shows a neutral to strongly alkaline tendency?",
+   "o": [
+    "Laterite soil",
+    "Deltaic alluvial soil",
+    "Skeletal hill soil",
+    "Coastal sandy soil"
+   ],
+   "a": 0,
+   "x": "Laterite soils are associated with acidic conditions, whereas black soils are generally neutral to strongly alkaline.",
+   "ty": "comparison",
+   "tq": "Discriminate between the acidic and alkaline soil associations.",
+   "sec": "Problem soils - saline, alkaline, acidic, waterlogged"
+  },
+  {
+   "s": "A farmer observes reduced nutrient availability in a field irrigated with alkaline water. Which soil problem best explains the condition?",
+   "o": [
+    "Wind erosion",
+    "Acidity",
+    "Alkalinity",
+    "Podu cultivation"
+   ],
+   "a": 2,
+   "x": "Alkalinity, which may result from alkaline irrigation water, reduces the availability of nutrients to plants.",
+   "ty": "application",
+   "tq": "Apply the cause-effect relationship to a practical agricultural situation.",
+   "sec": "Problem soils - saline, alkaline, acidic, waterlogged"
+  },
+  {
+   "s": "The Soil Health Card Scheme was launched in which year?",
+   "o": [
+    "2012",
+    "2015",
+    "2018",
+    "2022"
+   ],
+   "a": 1,
+   "x": "The Soil Health Card Scheme was launched in 2015.",
+   "ty": "numerical",
+   "tq": "Test the scheme year against nearby policy years.",
+   "sec": "Soil Health Card and soil testing"
+  },
+  {
+   "s": "Which of the following functions is associated with Soil Health Cards?\n1. Analysis of soil samples\n2. Village-wise nutrient mapping\n3. Assessment of soil nutrient status for farm management\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Soil Health Cards provide soil-sample analysis and village-wise nutrient mapping, helping farmers understand soil nutrient status.",
+   "ty": "statements",
+   "tq": "Combine the scheme's diagnostic and mapping functions in a coded statement question.",
+   "sec": "Soil Health Card and soil testing"
+  },
+  {
+   "s": "The Soil Health and Fertility component has been operated under which programme since 2022-23?",
+   "o": [
+    "APCNF",
+    "RKVY",
+    "MGNREGA",
+    "Rainfed Area Development"
+   ],
+   "a": 1,
+   "x": "Since 2022-23, Soil Health and Fertility has been operated under the Rashtriya Krishi Vikas Yojana (RKVY).",
+   "ty": "fact",
+   "tq": "Use the implementing-programme trap by distinguishing related agricultural initiatives.",
+   "sec": "Soil Health Card and soil testing"
+  },
+  {
+   "s": "During 2025-26, soil sampling in Andhra Pradesh was carried out through how many Rythu Seva Kendras?",
+   "o": [
+    "1,078",
+    "5,523",
+    "10,778",
+    "26,000"
+   ],
+   "a": 2,
+   "x": "Sampling was carried out through 10,778 Rythu Seva Kendras across all 26 districts of Andhra Pradesh.",
+   "ty": "numerical",
+   "tq": "Distinguish the institutional count from the sample and district figures.",
+   "sec": "Soil Health Card and soil testing"
+  },
+  {
+   "s": "Which one of the following correctly represents the soil-testing figures for Andhra Pradesh in 2025-26?",
+   "o": [
+    "5.523 lakh samples collected and 6.0 lakh tested and uploaded",
+    "26 lakh samples collected and 6.0 lakh tested and uploaded",
+    "10.778 lakh samples collected and 5.0 lakh tested and uploaded",
+    "6.0 lakh samples collected and 5.523 lakh tested and uploaded"
+   ],
+   "a": 3,
+   "x": "In 2025-26, 6.0 lakh samples were collected, of which 5.523 lakh were tested and uploaded.",
+   "ty": "numerical",
+   "tq": "Keep the collection and testing figures in their correct order.",
+   "sec": "Soil Health Card and soil testing"
+  },
+  {
+   "s": "Which of the following correctly describes the School Soil Health Programme in Andhra Pradesh during 2025-26?",
+   "o": [
+    "It covered 10 Kendriya Vidyalayas and 50 State schools.",
+    "It covered 50 Kendriya Vidyalayas and 10 State schools.",
+    "It covered 50 State schools and 50 Kendriya Vidyalayas only.",
+    "It covered all 26 districts but no schools."
+   ],
+   "a": 1,
+   "x": "The programme operated in 50 Kendriya Vidyalayas and 10 State schools.",
+   "ty": "numerical",
+   "tq": "Separate the two school categories and their respective counts.",
+   "sec": "Soil Health Card and soil testing"
+  },
+  {
+   "s": "Which of the following best describes the characteristic condition of Rayalaseema's red soils?",
+   "o": [
+    "Clayey, alkaline and highly self-ploughing",
+    "Permanently waterlogged and rich in humus",
+    "Shallow, with low moisture retention and low organic matter",
+    "Deep, highly moist and rich in organic matter"
+   ],
+   "a": 2,
+   "x": "Rayalaseema's red soils are shallow and have low moisture-retention capacity and low organic matter.",
+   "ty": "fact",
+   "tq": "Select the combined physical and fertility profile of the regional soil.",
+   "sec": "Soil erosion and land degradation in Rayalaseema"
+  },
+  {
+   "s": "Heavily eroded tracts of Rayalaseema may develop skeletal soils that are characterised by:",
+   "o": [
+    "Permanent deposition of fresh silt",
+    "No nutritive value",
+    "High nutrient value and deep profiles",
+    "High water retention and abundant humus"
+   ],
+   "a": 1,
+   "x": "Severe erosion in Rayalaseema can leave skeletal soils with no nutritive value.",
+   "ty": "application",
+   "tq": "Infer the soil-quality outcome from the stated erosion process.",
+   "sec": "Soil erosion and land degradation in Rayalaseema"
+  },
+  {
+   "s": "Which type of soil generally retains more soil organic carbon than sandy soil and soil on steep slopes?",
+   "o": [
+    "Skeletal soil",
+    "Coastal sand",
+    "Lateritic gravel",
+    "Clay soil"
+   ],
+   "a": 3,
+   "x": "Clay soils hold more soil organic carbon, whereas sandy soils and steep slopes lose it through leaching and erosion.",
+   "ty": "comparison",
+   "tq": "Use the relative retention comparison rather than the erosion causes alone.",
+   "sec": "Soil erosion and land degradation in Rayalaseema"
+  },
+  {
+   "s": "Which area-damage pair is correctly matched?\n1. Anantapur and Sri Sathya Sai — drought-induced degradation, desertification and wind erosion\n2. Uppada — coastal erosion from sea-level rise and waves\n3. Delta regions — salinity and waterlogging\n4. ASR and Parvathipuram Manyam — topsoil loss through Podu cultivation\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four area-problem pairs are correctly matched: drought and wind erosion in Anantapur and Sri Sathya Sai, coastal erosion at Uppada, salinity and waterlogging in deltas, and topsoil loss through Podu cultivation in ASR and Parvathipuram Manyam.",
+   "ty": "match",
+   "tq": "Start from the sure location-problem pairs and verify the complete table.",
+   "sec": "Soil erosion and land degradation in Rayalaseema"
+  },
+  {
+   "s": "Which of the following is NOT identified as a cause of soil degradation in the Andhra Pradesh regions under consideration?",
+   "o": [
+    "Overgrazing",
+    "Erratic rainfall",
+    "Deforestation",
+    "Periodic deposition of fresh deltaic silt"
+   ],
+   "a": 3,
+   "x": "Overgrazing, deforestation and erratic rainfall contribute to degradation. Periodic deposition of fresh deltaic silt is a soil-renewal process, not a stated cause of degradation.",
+   "ty": "negative",
+   "tq": "Find the process with a beneficial rather than degrading effect.",
+   "sec": "Soil erosion and land degradation in Rayalaseema"
+  },
+  {
+   "s": "Heavy chemical use is specifically associated with soil degradation in which crop belts of Andhra Pradesh?",
+   "o": [
+    "Guntur chilli and Krishna paddy belts",
+    "Rayalaseema mango and groundnut belts only",
+    "Godavari rice and aquaculture belts only",
+    "ASR coffee and tea belts"
+   ],
+   "a": 0,
+   "x": "Heavy chemical use is identified as a degradation cause in the Guntur chilli and Krishna paddy belts.",
+   "ty": "fact",
+   "tq": "Match the degrading practice with the correct crop belts.",
+   "sec": "Soil erosion and land degradation in Rayalaseema"
+  },
+  {
+   "s": "Which intervention is intended to restore soil organic carbon through natural farming?",
+   "o": [
+    "Coastal sand mining",
+    "APCNF",
+    "Podu cultivation",
+    "Alkaline irrigation"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh Community-Managed Natural Farming (APCNF) is intended to restore soil organic carbon.",
+   "ty": "fact",
+   "tq": "Identify the programme from its stated ecological function.",
+   "sec": "Soil erosion and land degradation in Rayalaseema"
+  },
+  {
+   "s": "Rainfed Area Development in Andhra Pradesh covers which set of districts?",
+   "o": [
+    "Nine rainfed districts: eight Rayalaseema districts and Prakasam",
+    "All coastal districts except Prakasam",
+    "Only the three Godavari delta districts",
+    "All 26 districts equally"
+   ],
+   "a": 0,
+   "x": "The programme covers nine rainfed districts, comprising the eight Rayalaseema districts and Prakasam.",
+   "ty": "statements",
+   "tq": "Use the composition of the district group to reject broader or narrower claims.",
+   "sec": "Soil erosion and land degradation in Rayalaseema"
+  },
+  {
+   "s": "Under Rainfed Area Development, the assistance specified per farm family is:",
+   "o": [
+    "₹3,000",
+    "₹30,000",
+    "₹3,00,000",
+    "₹30,00,000"
+   ],
+   "a": 1,
+   "x": "The specified assistance is ₹30,000 per farm family.",
+   "ty": "numerical",
+   "tq": "Distinguish the exact assistance amount by place value.",
+   "sec": "Soil erosion and land degradation in Rayalaseema"
+  },
+  {
+   "s": "Which of the following crop-soil pairs is correctly matched?\n1. Paddy — deltaic alluvial soil\n2. Cotton — black soil\n3. Groundnut — red soil\n4. Mango — laterite soil\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Paddy suits deltaic alluvium, cotton suits black soil, groundnut suits red soil and mango suits laterite soil.",
+   "ty": "match",
+   "tq": "Build the answer from familiar crop-soil associations across the table.",
+   "sec": "Soil-crop suitability in AP"
+  },
+  {
+   "s": "Which crop group is most appropriately associated with red soils in Andhra Pradesh?",
+   "o": [
+    "Cotton, chillies and tobacco",
+    "Groundnut, castor and millets",
+    "Paddy, sugarcane and vegetables",
+    "Mango, cashew and coffee"
+   ],
+   "a": 1,
+   "x": "Groundnut, castor and millets are associated with red soils.",
+   "ty": "fact",
+   "tq": "Separate the red-soil crop group from black- and deltaic-soil crops.",
+   "sec": "Soil-crop suitability in AP"
+  },
+  {
+   "s": "Which of the following statements regarding pulses and soil suitability is correct?",
+   "o": [
+    "All pulses are restricted to deltaic alluvial soil.",
+    "Red, green and horse gram suit red soil, while black gram does best on black soil.",
+    "Black gram is exclusively a laterite-soil crop.",
+    "Pulses are best suited only to hill skeletal soils."
+   ],
+   "a": 1,
+   "x": "Red gram, green gram and horse gram are associated with red soil, while black gram does best on black soil.",
+   "ty": "comparison",
+   "tq": "Discriminate within the pulse group instead of treating all pulses identically.",
+   "sec": "Soil-crop suitability in AP"
+  },
+  {
+   "s": "Mango and cashew are most appropriately associated with which soil type in Andhra Pradesh?",
+   "o": [
+    "Black soil",
+    "Skeletal hill soil",
+    "Deltaic alluvial soil",
+    "Laterite soil"
+   ],
+   "a": 3,
+   "x": "Mango and cashew are identified as crops suited to laterite soils.",
+   "ty": "fact",
+   "tq": "Match the horticultural crops with their specific soil group.",
+   "sec": "Soil-crop suitability in AP"
+  },
+  {
+   "s": "Coffee, tea and horticulture in the ASR region are associated with which soil category?",
+   "o": [
+    "Hill or skeletal soils",
+    "Deep black soils",
+    "Coastal saline soils",
+    "Deltaic alluvial soils"
+   ],
+   "a": 0,
+   "x": "Coffee, tea and horticulture are associated with hill, or skeletal, soils in the ASR region.",
+   "ty": "fact",
+   "tq": "Use the regional crop association to identify the hill-soil category.",
+   "sec": "Soil-crop suitability in AP"
+  }
+ ]
+}

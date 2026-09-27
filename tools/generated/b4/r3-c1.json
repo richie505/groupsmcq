@@ -1,0 +1,472 @@
+{
+ "book": 4,
+ "row": 3,
+ "chunk": 1,
+ "section": "Concept of time - local and standard time, GMT/UTC, Indian Standard Time, time zones, International Date Line",
+ "subsections": [
+  "International Date Line - ocean, strait, crossing rule, deviations, neighbours",
+  "Time zones - number, countries with most zones, cities sharing clock time",
+  "Local time gap across India (Arunachal vs Gujarat)",
+  "GMT/UTC - Greenwich, atomic basis, natural vs conventional units",
+  "Daylight saving time concept",
+  "Tropic of Cancer - Indian states, nearby cities, meeting point with the standard meridian",
+  "Revolution effects - solstices, equinoxes, seasons, day length"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 3
+ },
+ "accepted": [
+  {
+   "s": "The International Date Line, in its approximate course, is associated with which of the following?\n1. It runs roughly along the 180° meridian.\n2. It passes through the middle of the Pacific Ocean.\n3. It extends conceptually from the North Pole to the South Pole.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The International Date Line is an imaginary pole-to-pole line, approximately following 180° longitude through the Pacific Ocean. All three statements are correct.",
+   "ty": "statements",
+   "tq": "Use the statement-combination method and verify the line’s location, extent and nature.",
+   "sec": "International Date Line - ocean, strait, crossing rule, deviations, neighbours  [APPSC]"
+  },
+  {
+   "s": "A traveller crosses the International Date Line from the American side towards Asia. What is the immediate calendar adjustment?",
+   "o": [
+    "No change is made to the date",
+    "One day is skipped",
+    "The clock is set back by exactly two hours",
+    "One day is repeated"
+   ],
+   "a": 1,
+   "x": "When the International Date Line is crossed westward from America towards Asia, one calendar day is skipped or added to the date.",
+   "ty": "fact",
+   "tq": "Apply the eastward-westward crossing rule rather than relying only on the direction of clock movement.",
+   "sec": "International Date Line - ocean, strait, crossing rule, deviations, neighbours  [APPSC]"
+  },
+  {
+   "s": "When the International Date Line is crossed eastward from Asia towards America, which of the following occurs?",
+   "o": [
+    "A day is skipped",
+    "A leap day is inserted",
+    "A day is repeated",
+    "The date remains unchanged until midnight"
+   ],
+   "a": 2,
+   "x": "Crossing the International Date Line eastward causes the calendar date to go back by one day; consequently, one day is repeated.",
+   "ty": "confusable",
+   "tq": "Discriminate between the opposite date adjustments for eastward and westward crossings.",
+   "sec": "International Date Line - ocean, strait, crossing rule, deviations, neighbours  [APPSC]"
+  },
+  {
+   "s": "The International Date Line deviates from the 180° meridian primarily in order to",
+   "o": [
+    "coincide with the Prime Meridian in the Southern Hemisphere",
+    "pass through the largest ocean currents",
+    "follow the Equator throughout its course",
+    "avoid dividing island groups and countries into different dates"
+   ],
+   "a": 3,
+   "x": "The line zigzags around land areas and island groups so that parts of the same country or group are generally kept on the same calendar date.",
+   "ty": "application",
+   "tq": "Identify the purpose behind a geographical deviation instead of memorising only its approximate longitude.",
+   "sec": "International Date Line - ocean, strait, crossing rule, deviations, neighbours  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs represents neighbouring places on opposite sides of the International Date Line?",
+   "o": [
+    "Big Diomede and Little Diomede",
+    "Samoa and Tonga",
+    "Fiji and Kiribati",
+    "Greenwich and Chukotka"
+   ],
+   "a": 0,
+   "x": "Big Diomede belongs to Russia and Little Diomede belongs to the United States; they lie close to each other in the Bering Strait but on different calendar dates.",
+   "ty": "match",
+   "tq": "Match the distinctive geographical pair with the date-line relationship.",
+   "sec": "International Date Line - ocean, strait, crossing rule, deviations, neighbours  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. The International Date Line passes through the Bering Strait.\n2. It is a perfectly straight line following 180° longitude without any deviation.\n3. It makes deviations around the Aleutian Islands and some Pacific island groups.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "The line passes through or near the Bering Strait and deviates around the Aleutians and Pacific islands. It is not a perfectly straight line.",
+   "ty": "statements",
+   "tq": "Find the false absolute statement; geographical lines commonly have practical deviations.",
+   "sec": "International Date Line - ocean, strait, crossing rule, deviations, neighbours  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about the Pacific islands and the International Date Line is correct?",
+   "o": [
+    "Samoa moved to the American side of the line in 2011.",
+    "Samoa moved to the Asian side of the line in 2011.",
+    "Fiji abolished its standard time after crossing the line.",
+    "Kiribati moved permanently to the Greenwich side of the line in 2011."
+   ],
+   "a": 1,
+   "x": "Samoa shifted to the Asian side of the International Date Line in 2011, thereby changing its calendar relationship with nearby countries.",
+   "ty": "fact",
+   "tq": "Use the year-and-event association to distinguish a specific date-line adjustment.",
+   "sec": "International Date Line - ocean, strait, crossing rule, deviations, neighbours  [APPSC]"
+  },
+  {
+   "s": "Which of the following locations is among the first to experience a new calendar day?",
+   "o": [
+    "The Aleutian Islands",
+    "Kiribati’s Line Islands",
+    "Little Diomede",
+    "Greenwich"
+   ],
+   "a": 1,
+   "x": "Kiribati’s Line Islands use UTC+14 and are among the first inhabited places to enter a new day.",
+   "ty": "fact",
+   "tq": "Recall the extreme positive UTC offset associated with the earliest new day.",
+   "sec": "International Date Line - ocean, strait, crossing rule, deviations, neighbours  [APPSC]"
+  },
+  {
+   "s": "The Prime Meridian passes through the Royal Observatory at Greenwich and was adopted at the International Meridian Conference held in",
+   "o": [
+    "1804",
+    "1884",
+    "1889",
+    "1904"
+   ],
+   "a": 1,
+   "x": "The Greenwich Prime Meridian was adopted internationally at the International Meridian Conference in 1884.",
+   "ty": "numerical",
+   "tq": "Use the precise year associated with the establishment of the internationally accepted meridian.",
+   "sec": "International Date Line - ocean, strait, crossing rule, deviations, neighbours  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the theoretical division of the Earth into time zones?",
+   "o": [
+    "360 zones of 1° each",
+    "15 zones of 24° each",
+    "12 zones of 30° each",
+    "24 zones of 15° each"
+   ],
+   "a": 3,
+   "x": "The theoretical system divides 360° of longitude into 24 time zones, each 15° wide.",
+   "ty": "numerical",
+   "tq": "Relate the total circumference of longitude to the number and width of theoretical zones.",
+   "sec": "Time zones - number, countries with most zones, cities sharing clock time  [other exams]"
+  },
+  {
+   "s": "Which country has the greatest number of time zones when its overseas territories are included?",
+   "o": [
+    "France",
+    "Australia",
+    "Russia",
+    "China"
+   ],
+   "a": 0,
+   "x": "France has 12 time zones when its overseas territories are included, while Russia has 11.",
+   "ty": "fact",
+   "tq": "Watch for the qualification ‘including overseas territories’ in country-comparison questions.",
+   "sec": "Time zones - number, countries with most zones, cities sharing clock time  [other exams]"
+  },
+  {
+   "s": "Which one of the following countries uses a single time zone despite its considerable east-west extent?",
+   "o": [
+    "Russia",
+    "China",
+    "France",
+    "Australia"
+   ],
+   "a": 1,
+   "x": "China uses one official time zone throughout the country despite its large longitudinal span.",
+   "ty": "comparison",
+   "tq": "Use the exception to the expected relationship between longitudinal width and number of time zones.",
+   "sec": "Time zones - number, countries with most zones, cities sharing clock time  [other exams]"
+  },
+  {
+   "s": "Which of the following cities has the same clock time as Mumbai, Kolkata and Chennai?",
+   "o": [
+    "Kathmandu",
+    "Colombo",
+    "Dhaka",
+    "Yangon"
+   ],
+   "a": 1,
+   "x": "Mumbai, Kolkata, Chennai and Colombo observe UTC+5:30. Nepal uses UTC+5:45 and therefore does not have the same clock time.",
+   "ty": "match",
+   "tq": "Start with the sure UTC+5:30 pair and distinguish it from nearby quarter-hour offsets.",
+   "sec": "Time zones - number, countries with most zones, cities sharing clock time  [other exams]"
+  },
+  {
+   "s": "Nepal’s standard time differs from Indian Standard Time because Nepal observes",
+   "o": [
+    "UTC+6:00",
+    "UTC+5:45",
+    "UTC+5:30",
+    "UTC+5:00"
+   ],
+   "a": 1,
+   "x": "Nepal observes UTC+5:45, whereas Indian Standard Time is UTC+5:30, creating a 15-minute difference.",
+   "ty": "confusable",
+   "tq": "Test the small quarter-hour offset against the more familiar half-hour standard time.",
+   "sec": "Time zones - number, countries with most zones, cities sharing clock time  [other exams]"
+  },
+  {
+   "s": "Which of the following best explains why the Sun rises nearly two hours earlier in Arunachal Pradesh than in western Gujarat?",
+   "o": [
+    "Gujarat has a colder climate than Arunachal Pradesh.",
+    "The Earth rotates faster over Arunachal Pradesh.",
+    "Arunachal Pradesh lies considerably farther east in longitude than Gujarat.",
+    "Arunachal Pradesh is at a higher altitude than Gujarat everywhere."
+   ],
+   "a": 2,
+   "x": "The nearly two-hour difference in sunrise is primarily due to the large east-west longitudinal extent between Arunachal Pradesh and Gujarat.",
+   "ty": "application",
+   "tq": "Identify longitude as the controlling factor in local-time differences rather than climate or altitude.",
+   "sec": "Local time gap across India (Arunachal vs Gujarat)  [other exams]"
+  },
+  {
+   "s": "Which statement correctly distinguishes GMT from UTC?",
+   "o": [
+    "UTC is the local time of the Royal Observatory and GMT is a country-specific standard.",
+    "GMT is mean solar time at Greenwich, whereas UTC is maintained using atomic clocks and adjusted with leap seconds.",
+    "GMT is based on atomic clocks, whereas UTC is based only on solar observation.",
+    "Both GMT and UTC are determined exclusively by the Moon’s revolution."
+   ],
+   "a": 1,
+   "x": "GMT denotes mean solar time at Greenwich. UTC is the modern world time standard maintained by atomic caesium clocks and adjusted by leap seconds.",
+   "ty": "comparison",
+   "tq": "Split the options by the underlying basis—solar observation versus atomic timekeeping.",
+   "sec": "GMT/UTC - Greenwich, atomic basis, natural vs conventional units  [other exams]"
+  },
+  {
+   "s": "Which of the following is a conventional unit of time rather than a natural unit arising directly from astronomical motion?",
+   "o": [
+    "Day",
+    "Week",
+    "Year",
+    "Month"
+   ],
+   "a": 1,
+   "x": "A day is related to Earth’s rotation, a month to the Moon’s revolution and a year to Earth’s revolution. A week is a conventional unit.",
+   "ty": "odd_one_out",
+   "tq": "Separate astronomical natural cycles from socially constructed time divisions.",
+   "sec": "GMT/UTC - Greenwich, atomic basis, natural vs conventional units  [other exams]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Day — rotation of the Earth\n2. Month — revolution of the Moon\n3. Year — revolution of the Earth\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "A day, month and year are natural time units linked respectively with Earth’s rotation, the Moon’s revolution and Earth’s revolution.",
+   "ty": "match",
+   "tq": "Verify each unit against its corresponding astronomical motion before selecting the code.",
+   "sec": "GMT/UTC - Greenwich, atomic basis, natural vs conventional units  [other exams]"
+  },
+  {
+   "s": "Daylight Saving Time generally involves which of the following practices?",
+   "o": [
+    "Setting clocks back by two hours at the beginning of summer",
+    "Changing the calendar date every summer solstice",
+    "Advancing clocks by one hour permanently throughout the year",
+    "Advancing clocks by about one hour in summer and setting them back in autumn"
+   ],
+   "a": 3,
+   "x": "In many mid- and high-latitude countries, clocks are advanced by about one hour during summer to extend evening daylight and are set back in autumn.",
+   "ty": "fact",
+   "tq": "Recall the seasonal forward-and-backward clock adjustment rather than a permanent time-zone change.",
+   "sec": "Daylight saving time concept  [GK]"
+  },
+  {
+   "s": "Which one of the following statements regarding Daylight Saving Time is correct?",
+   "o": [
+    "It is observed uniformly by every country in the world.",
+    "India currently uses it as its national time system.",
+    "It changes the longitude of the Prime Meridian.",
+    "It is mainly intended to use more evening daylight in summer."
+   ],
+   "a": 3,
+   "x": "Daylight Saving Time is intended to make better use of available evening daylight in summer. India does not use DST as a national system.",
+   "ty": "negative",
+   "tq": "Reject universal and absolute claims; identify the practical purpose of the measure.",
+   "sec": "Daylight saving time concept  [GK]"
+  },
+  {
+   "s": "The Tropic of Cancer is located at approximately",
+   "o": [
+    "23°26′ North latitude",
+    "23°26′ South latitude",
+    "0° latitude",
+    "66°34′ North latitude"
+   ],
+   "a": 0,
+   "x": "The Tropic of Cancer lies at approximately 23°26′N, commonly rounded to 23.5°N.",
+   "ty": "fact",
+   "tq": "Distinguish the tropical latitude from the polar circle and the Equator.",
+   "sec": "Tropic of Cancer - Indian states, nearby cities, meeting point with the standard meridian  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements is correct regarding Andhra Pradesh and the Tropic of Cancer?",
+   "o": [
+    "The Tropic of Cancer forms Andhra Pradesh’s northern boundary.",
+    "Andhra Pradesh is crossed by the Tropic of Cancer in its northern part.",
+    "Andhra Pradesh lies wholly south of the Tropic of Cancer.",
+    "Andhra Pradesh lies wholly north of the Tropic of Cancer."
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh lies wholly south of the Tropic of Cancer.",
+   "ty": "fact",
+   "tq": "Apply the north-south position of the state rather than confusing it with states through which the parallel passes.",
+   "sec": "Tropic of Cancer - Indian states, nearby cities, meeting point with the standard meridian  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following cities is associated with the Indian stretch of the Tropic of Cancer as a city on or near it?",
+   "o": [
+    "Visakhapatnam",
+    "Agartala",
+    "Shimla",
+    "Lucknow"
+   ],
+   "a": 1,
+   "x": "Agartala is one of the Indian cities situated on or near the Tropic of Cancer. The other listed cities are not identified with this parallel in the given context.",
+   "ty": "fact",
+   "tq": "Use a nearby-city association while eliminating cities located well away from the tropical parallel.",
+   "sec": "Tropic of Cancer - Indian states, nearby cities, meeting point with the standard meridian  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The orbit of the Earth around the Sun is described as",
+   "o": [
+    "perfectly circular",
+    "rectangular",
+    "elliptical",
+    "spiral without closure"
+   ],
+   "a": 2,
+   "x": "Earth follows an elliptical orbit around the Sun.",
+   "ty": "fact",
+   "tq": "Recall the standard geometric description of Earth’s orbital path.",
+   "sec": "Revolution effects - solstices, equinoxes, seasons, day length  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Why does a leap year generally occur once in every four years?",
+   "o": [
+    "The Moon completes an extra revolution every four years.",
+    "The Earth rotates four times more slowly every fourth year.",
+    "The Sun’s apparent path shifts by one complete month every four years.",
+    "Earth’s revolution takes approximately an additional quarter of a day beyond 365 days each year."
+   ],
+   "a": 3,
+   "x": "The revolution period is about 365¼ days. The accumulated quarter-days are adjusted by adding 29 February approximately once every four years.",
+   "ty": "application",
+   "tq": "Connect the numerical fraction in the orbital period with the calendar correction.",
+   "sec": "Revolution effects - solstices, equinoxes, seasons, day length  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Date/Event)\na. 21 March\nb. 21 June\nc. 23 September\nd. 22 December\nList-II (Sun overhead)\ni. Tropic of Capricorn\nii. Equator\niii. Tropic of Cancer\niv. Equator\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–iii, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "On 21 March the Sun is overhead at the Equator; on 21 June at the Tropic of Cancer; on 23 September at the Equator; and on 22 December at the Tropic of Capricorn.",
+   "ty": "match",
+   "tq": "Start from the solstice pair and then place the two equinoxes at the Equator.",
+   "sec": "Revolution effects - solstices, equinoxes, seasons, day length  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "On 21 June, which one of the following conditions is associated with the Northern Hemisphere?",
+   "o": [
+    "Sun overhead at the Tropic of Capricorn",
+    "Longest day and summer season",
+    "Equal day and night everywhere",
+    "Shortest day and winter season"
+   ],
+   "a": 1,
+   "x": "21 June is the Northern Hemisphere’s summer solstice. The Sun is overhead at the Tropic of Cancer, producing the longest day and summer conditions there.",
+   "ty": "fact",
+   "tq": "Link the date, overhead latitude and seasonal effect in the relevant hemisphere.",
+   "sec": "Revolution effects - solstices, equinoxes, seasons, day length  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following dates is associated with the winter solstice in the Northern Hemisphere?",
+   "o": [
+    "23 September",
+    "21 June",
+    "21 March",
+    "22 December"
+   ],
+   "a": 3,
+   "x": "The Northern Hemisphere experiences its winter solstice on 22 December, when the Sun is overhead at the Tropic of Capricorn.",
+   "ty": "numerical",
+   "tq": "Use the solstice-equinox calendar sequence to identify the winter date.",
+   "sec": "Revolution effects - solstices, equinoxes, seasons, day length  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements:\n1. During the equinoxes, day and night are approximately equal everywhere.\n2. The equator experiences approximately 12-hour days throughout the year.\n3. The poles experience six months of daylight and six months of darkness.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The equinoxes bring approximately equal day and night worldwide. The equator has nearly 12-hour days throughout the year, while the poles experience roughly six months of day and six months of night.",
+   "ty": "statements",
+   "tq": "Combine three day-length facts across different latitudes and seasons.",
+   "sec": "Revolution effects - solstices, equinoxes, seasons, day length  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The seasons on Earth are primarily caused by",
+   "o": [
+    "the tilt of Earth’s axis together with its revolution around the Sun",
+    "the elliptical shape of the Moon’s orbit",
+    "the changing distance between Earth and the Moon",
+    "the daily rotation of Earth alone"
+   ],
+   "a": 0,
+   "x": "Seasons result mainly from the tilt of Earth’s axis combined with Earth’s revolution around the Sun, which changes the angle and duration of solar illumination.",
+   "ty": "application",
+   "tq": "Identify the combined cause rather than selecting a single-motion explanation.",
+   "sec": "Revolution effects - solstices, equinoxes, seasons, day length  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "During the summer season in the Southern Hemisphere, which pole is tilted towards the Sun?",
+   "o": [
+    "South Pole",
+    "North Pole",
+    "Both poles equally",
+    "Neither pole"
+   ],
+   "a": 0,
+   "x": "During southern summer, the South Pole is tilted towards the Sun, producing longer days and summer conditions in the Southern Hemisphere.",
+   "ty": "fact",
+   "tq": "Relate the hemisphere experiencing summer to the direction of axial tilt.",
+   "sec": "Revolution effects - solstices, equinoxes, seasons, day length  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Arrange the following events in chronological order within a year:\nA. Winter solstice\nB. Vernal equinox\nC. Summer solstice\nD. Autumnal equinox",
+   "o": [
+    "A, B, C, D",
+    "B, C, D, A",
+    "C, D, A, B",
+    "D, A, B, C"
+   ],
+   "a": 1,
+   "x": "The sequence is vernal equinox around 21 March, summer solstice around 21 June, autumnal equinox around 22/23 September, and winter solstice around 22 December.",
+   "ty": "chronology",
+   "tq": "Fix the sequence using the four annual astronomical markers.",
+   "sec": "Revolution effects - solstices, equinoxes, seasons, day length  [APPSC, GROUP-II]"
+  }
+ ]
+}

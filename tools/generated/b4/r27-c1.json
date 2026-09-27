@@ -1,0 +1,498 @@
+{
+ "book": 4,
+ "row": 27,
+ "chunk": 1,
+ "section": "Hydrological disasters - floods, flash floods, cloudbursts, droughts, tsunamis, storm surges",
+ "subsections": [
+  "Droughts - types, triggers, long-term consequences",
+  "Coastal hazards - storm surges, tsunami-prone areas, coastline, mangroves",
+  "Worst disasters in history - country",
+  "Disaster displacement - IDMC data, India's rank",
+  "Cloudbursts - definition, Himalayan events"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly describes a meteorological drought?",
+   "o": [
+    "A soil-moisture deficit resulting in crop failure",
+    "A fall in surface and groundwater levels after prolonged deficiency",
+    "A shortage of water and food affecting livelihoods and markets",
+    "Rainfall well below the normal or long-period average over a period"
+   ],
+   "a": 3,
+   "x": "Meteorological drought refers to rainfall being substantially below normal or the long-period average over a period.",
+   "ty": "fact",
+   "tq": "Use exact definition-based discrimination between closely related drought types.",
+   "sec": "Droughts - types, triggers, long-term consequences  [APPSC]"
+  },
+  {
+   "s": "The decline of rivers, reservoirs, streams and aquifers after a prolonged period of rainfall deficiency is known as:",
+   "o": [
+    "Hydrological drought",
+    "Ecological drought",
+    "Socio-economic drought",
+    "Agricultural drought"
+   ],
+   "a": 0,
+   "x": "Hydrological drought is indicated by the fall of surface-water and groundwater resources such as rivers, reservoirs and aquifers.",
+   "ty": "confusable",
+   "tq": "Split the options by matching each drought type with its defining indicator.",
+   "sec": "Droughts - types, triggers, long-term consequences  [APPSC]"
+  },
+  {
+   "s": "A soil-moisture deficit that causes crop failure is specifically associated with:",
+   "o": [
+    "Agricultural drought",
+    "Socio-economic drought",
+    "Meteorological drought",
+    "Hydrological drought"
+   ],
+   "a": 0,
+   "x": "Agricultural drought occurs when inadequate soil moisture affects crops and leads to crop failure.",
+   "ty": "fact",
+   "tq": "Test the precise meaning of a technical term rather than its general association.",
+   "sec": "Droughts - types, triggers, long-term consequences  [APPSC]"
+  },
+  {
+   "s": "Which of the following best describes socio-economic drought?",
+   "o": [
+    "Collapse of ecosystem productivity and environmental distress",
+    "Rainfall below the long-period average",
+    "Decline in groundwater alone",
+    "Water and food shortage affecting livelihoods and markets"
+   ],
+   "a": 3,
+   "x": "Socio-economic drought is reflected in shortages of water and food that adversely affect livelihoods and markets.",
+   "ty": "fact",
+   "tq": "Distinguish the economic consequence category from meteorological, hydrological and ecological categories.",
+   "sec": "Droughts - types, triggers, long-term consequences  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding ecological drought:\n1. It involves a collapse of ecosystem productivity.\n2. It is associated with environmental distress.\n3. It is defined exclusively by a decline in rainfall below the long-period average.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Ecological drought involves collapsing ecosystem productivity and environmental distress. Statement 3 describes meteorological drought, not ecological drought.",
+   "ty": "statements",
+   "tq": "Find the statement that swaps the defining indicator of one drought type with another.",
+   "sec": "Droughts - types, triggers, long-term consequences  [APPSC]"
+  },
+  {
+   "s": "Which of the following climatic conditions can trigger or intensify drought in India?\n1. Irregular or delayed monsoon\n2. Monsoon breaks\n3. El Nino conditions\n4. High temperature and evaporation\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Irregular or delayed monsoon, monsoon breaks, El Nino, and high temperature with enhanced evaporation are all drought triggers.",
+   "ty": "statements",
+   "tq": "Test a complete cause-list, including both atmospheric and heat-related triggers.",
+   "sec": "Droughts - types, triggers, long-term consequences  [APPSC]"
+  },
+  {
+   "s": "In how many of the ten El Nino years mentioned in the climatological assessment were Indian rains depressed?",
+   "o": [
+    "Seven",
+    "Four",
+    "Six",
+    "Eight"
+   ],
+   "a": 2,
+   "x": "Indian rainfall was depressed in six of the ten El Nino years referred to in the assessment.",
+   "ty": "numerical",
+   "tq": "Use the distinctive numerical figure as the deciding clue.",
+   "sec": "Droughts - types, triggers, long-term consequences  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a long-term consequence of recurrent droughts?",
+   "o": [
+    "Groundwater depletion",
+    "Distress migration",
+    "A sustained increase in farm output",
+    "Land degradation and desertification"
+   ],
+   "a": 2,
+   "x": "Droughts generally reduce farm output; they contribute to groundwater depletion, land degradation, desertification and distress migration.",
+   "ty": "negative",
+   "tq": "Identify the reversed trend in a list of long-term consequences.",
+   "sec": "Droughts - types, triggers, long-term consequences  [APPSC]"
+  },
+  {
+   "s": "Rayalaseema is highly drought-prone mainly because of which combination of factors?",
+   "o": [
+    "Frequent storm surges, tidal bores and mangrove expansion",
+    "Permanent high rainfall, waterlogging and salinity alone",
+    "Excessive snowfall, glacier retreat and coastal inundation",
+    "Failure of the monsoon, crop loss, distress migration and severe groundwater depletion"
+   ],
+   "a": 3,
+   "x": "Rayalaseema faces monsoon failure, crop losses, distress migration and severe groundwater depletion, aggravated by deep borewells. The North-East monsoon is particularly important in the region.",
+   "ty": "application",
+   "tq": "Combine several linked causes and consequences in a region-specific scenario.",
+   "sec": "Droughts - types, triggers, long-term consequences  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT listed among the drought-prone regions of India?",
+   "o": [
+    "Interior Karnataka",
+    "Lower Assam",
+    "Western Rajasthan",
+    "Kutch-Saurashtra"
+   ],
+   "a": 1,
+   "x": "The listed drought-prone regions include western Rajasthan, Kutch-Saurashtra, Marathwada-Vidarbha, interior Karnataka and Rayalaseema.",
+   "ty": "negative",
+   "tq": "Find the geographically misplaced region in a regional classification.",
+   "sec": "Droughts - types, triggers, long-term consequences  [APPSC]"
+  },
+  {
+   "s": "The normal Southwest Monsoon rainfall for the 1971–2020 base period is approximately:",
+   "o": [
+    "768.6 mm",
+    "818.6 mm",
+    "868.6 mm",
+    "968.6 mm"
+   ],
+   "a": 2,
+   "x": "The normal Southwest Monsoon rainfall for the 1971–2020 base period is 868.6 mm.",
+   "ty": "numerical",
+   "tq": "Discriminate among closely spaced numerical values.",
+   "sec": "Droughts - types, triggers, long-term consequences  [APPSC]"
+  },
+  {
+   "s": "High temperature intensifies drought primarily because it:",
+   "o": [
+    "Raises groundwater levels through infiltration",
+    "Increases soil-moisture loss through evaporation",
+    "Converts meteorological drought directly into a tsunami",
+    "Prevents all forms of monsoon variability"
+   ],
+   "a": 1,
+   "x": "High heat increases evaporation and accelerates the loss of soil moisture, thereby intensifying drought conditions.",
+   "ty": "application",
+   "tq": "Apply the cause-effect relationship to a physical geography situation.",
+   "sec": "Droughts - types, triggers, long-term consequences  [APPSC]"
+  },
+  {
+   "s": "What is a storm surge?",
+   "o": [
+    "A sudden fall in sea level caused by an undersea earthquake",
+    "A prolonged decline in groundwater caused by drought",
+    "A wave generated only by volcanic eruptions",
+    "An abnormal rise in sea level pushed by cyclone winds and low pressure"
+   ],
+   "a": 3,
+   "x": "A storm surge is an abnormal rise in sea level caused mainly by cyclone winds and low atmospheric pressure.",
+   "ty": "fact",
+   "tq": "Distinguish storm-surge mechanics from tsunami and drought processes.",
+   "sec": "Coastal hazards - storm surges, tsunami-prone areas, coastline, mangroves  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about storm surges:\n1. Sea-level rise can increase their coastal-flooding impact.\n2. They can cause permanent inundation of low-lying coastal land.\n3. They are produced exclusively by rainfall over the sea.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Sea-level rise magnifies storm-surge impacts and may result in permanent inundation of low-lying land. Storm surges are not produced exclusively by rainfall.",
+   "ty": "statements",
+   "tq": "Reject the absolute causal claim and retain the two linked coastal effects.",
+   "sec": "Coastal hazards - storm surges, tsunami-prone areas, coastline, mangroves  [APPSC]"
+  },
+  {
+   "s": "Which of the following combinations represents components of coastal defence against storm surges?",
+   "o": [
+    "Mangroves, coastal shelter belts, dune stabilisation and seawalls",
+    "Glaciers, aquifers and inland reservoirs only",
+    "Deep borewells, contour ploughing and check dams only",
+    "Desert pavements, moraines and eskers"
+   ],
+   "a": 0,
+   "x": "Mangroves and shelter belts anchor sediment and buffer storm surges, while dune stabilisation and seawalls strengthen coastal defence.",
+   "ty": "application",
+   "tq": "Match protective measures with the hazard they mitigate.",
+   "sec": "Coastal hazards - storm surges, tsunami-prone areas, coastline, mangroves  [APPSC]"
+  },
+  {
+   "s": "How many coastal States and Union Territories, and how many coastal districts, are identified as cyclone-affected?",
+   "o": [
+    "9 States/UTs and 64 districts",
+    "11 States/UTs and 74 districts",
+    "15 States/UTs and 94 districts",
+    "13 States/UTs and 84 districts"
+   ],
+   "a": 3,
+   "x": "Thirteen coastal States and Union Territories comprising 84 coastal districts are identified as cyclone-affected.",
+   "ty": "numerical",
+   "tq": "Test paired administrative figures together rather than independently.",
+   "sec": "Coastal hazards - storm surges, tsunami-prone areas, coastline, mangroves  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a cyclone warning centre listed for India?",
+   "o": [
+    "Hyderabad",
+    "Visakhapatnam",
+    "Bhubaneswar",
+    "Thiruvananthapuram"
+   ],
+   "a": 0,
+   "x": "The listed cyclone warning centres are Chennai, Mumbai, Kolkata, Ahmedabad, Thiruvananthapuram, Visakhapatnam and Bhubaneswar. Hyderabad is not a coastal cyclone warning centre in this list.",
+   "ty": "negative",
+   "tq": "Use location logic to identify the centre outside the specified coastal network.",
+   "sec": "Coastal hazards - storm surges, tsunami-prone areas, coastline, mangroves  [APPSC]"
+  },
+  {
+   "s": "The remeasurement that produced the revised coastline length was undertaken by the:",
+   "o": [
+    "India Meteorological Department with the Geological Survey of India",
+    "National Disaster Management Authority with the Indian Coast Guard",
+    "Central Water Commission with the Forest Survey of India",
+    "National Hydrographic Office with the Survey of India"
+   ],
+   "a": 3,
+   "x": "The revised coastline was measured by the National Hydrographic Office in association with the Survey of India.",
+   "ty": "fact",
+   "tq": "Identify the correct institutional pair and avoid swapping neighbouring technical agencies.",
+   "sec": "Coastal hazards - storm surges, tsunami-prone areas, coastline, mangroves  [APPSC]"
+  },
+  {
+   "s": "Which State has the longest revised coastline among the States listed below?",
+   "o": [
+    "Tamil Nadu",
+    "Gujarat",
+    "Andhra Pradesh",
+    "Odisha"
+   ],
+   "a": 1,
+   "x": "Gujarat ranks first with a revised coastline of 2,340.62 km. Andhra Pradesh ranks third with 1,053.07 km, while Tamil Nadu ranks second.",
+   "ty": "comparison",
+   "tq": "Use the ranking column rather than relying on older coastline figures.",
+   "sec": "Coastal hazards - storm surges, tsunami-prone areas, coastline, mangroves  [APPSC]"
+  },
+  {
+   "s": "With a revised coastline of 1,053.07 km, Andhra Pradesh ranks among the listed States as:",
+   "o": [
+    "First",
+    "Fourth",
+    "Third",
+    "Second"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh has a revised coastline of 1,053.07 km and ranks third in the stated comparison. Tamil Nadu is second under the revised figures.",
+   "ty": "numerical",
+   "tq": "Discriminate between the old and revised coastal rankings.",
+   "sec": "Coastal hazards - storm surges, tsunami-prone areas, coastline, mangroves  [APPSC]"
+  },
+  {
+   "s": "Which statement correctly reflects the significance of the revised coastline figures?",
+   "o": [
+    "The increase resulted from the physical addition of new land to India.",
+    "The earlier coastline was measured only along Gujarat.",
+    "The revised figures exclude islands and coastal districts.",
+    "The increase resulted from a change in measurement method, not a change in the land itself."
+   ],
+   "a": 3,
+   "x": "The increase from the older figure to 11,098.81 km resulted from a change in the measurement method; the physical land area did not change.",
+   "ty": "fact",
+   "tq": "Reject the tempting physical-change explanation for a measurement revision.",
+   "sec": "Coastal hazards - storm surges, tsunami-prone areas, coastline, mangroves  [APPSC]"
+  },
+  {
+   "s": "Which organisation publishes the annual Global Report on Internal Displacement?",
+   "o": [
+    "International Monetary Fund",
+    "Internal Displacement Monitoring Centre",
+    "World Meteorological Organization",
+    "United Nations Environment Programme"
+   ],
+   "a": 1,
+   "x": "The Internal Displacement Monitoring Centre, headquartered in Geneva, publishes the annual Global Report on Internal Displacement.",
+   "ty": "fact",
+   "tq": "Match the report with its specialised international institution.",
+   "sec": "Disaster displacement - IDMC data, India's rank  [APPSC]"
+  },
+  {
+   "s": "The headquarters of the Internal Displacement Monitoring Centre is located in:",
+   "o": [
+    "New York",
+    "Nairobi",
+    "Paris",
+    "Geneva"
+   ],
+   "a": 3,
+   "x": "The Internal Displacement Monitoring Centre is based in Geneva.",
+   "ty": "fact",
+   "tq": "Use institution-location matching while avoiding swaps with other international bodies.",
+   "sec": "Disaster displacement - IDMC data, India's rank  [APPSC]"
+  },
+  {
+   "s": "India loses approximately what share of its GDP every year to natural disasters during 1990–2024?",
+   "o": [
+    "0.04%",
+    "0.4%",
+    "4.0%",
+    "14.0%"
+   ],
+   "a": 1,
+   "x": "India lost approximately 0.4% of its GDP annually to natural disasters during 1990–2024.",
+   "ty": "numerical",
+   "tq": "Place the decimal correctly by distinguishing percentage scale.",
+   "sec": "Disaster displacement - IDMC data, India's rank  [APPSC]"
+  },
+  {
+   "s": "Which two hazards are identified as the principal drivers of India's disaster risk?",
+   "o": [
+    "Floods and storms",
+    "Droughts and avalanches",
+    "Heat waves and landslides",
+    "Earthquakes and volcanic eruptions"
+   ],
+   "a": 0,
+   "x": "Floods and storms are identified as India's main disaster-risk drivers.",
+   "ty": "fact",
+   "tq": "Select the paired dominant hazards rather than a single hazard or a broader list.",
+   "sec": "Disaster displacement - IDMC data, India's rank  [APPSC]"
+  },
+  {
+   "s": "In 2025, the heaviest toll from climate-induced disasters in India was reported in:",
+   "o": [
+    "Gujarat and Rajasthan",
+    "Himachal Pradesh and Uttarakhand",
+    "Tamil Nadu and Kerala",
+    "Andhra Pradesh and Telangana"
+   ],
+   "a": 1,
+   "x": "More than 4,000 deaths were reported in India from climate-induced disasters in 2025, with the heaviest toll in Himachal Pradesh and Uttarakhand.",
+   "ty": "fact",
+   "tq": "Link the national figure with the specifically identified regional concentration.",
+   "sec": "Disaster displacement - IDMC data, India's rank  [APPSC]"
+  },
+  {
+   "s": "Approximately how many people were displaced worldwide by water-related disasters in 2025?",
+   "o": [
+    "8 million",
+    "80 million",
+    "800 million",
+    "800,000"
+   ],
+   "a": 0,
+   "x": "Water-related disasters worldwide displaced approximately 8 million people in 2025 and caused about 5,000 deaths.",
+   "ty": "numerical",
+   "tq": "Distinguish million-scale values from their tenfold alternatives.",
+   "sec": "Disaster displacement - IDMC data, India's rank  [APPSC]"
+  },
+  {
+   "s": "A cloudburst, as defined by the India Meteorological Department, is approximately:",
+   "o": [
+    "10 mm of rain per hour over a mountain range",
+    "50 mm of rain per hour over 100–150 square kilometres",
+    "100 mm of rain per hour over a small area of about 20–30 square kilometres",
+    "200 mm of rain per day over an entire district"
+   ],
+   "a": 2,
+   "x": "A cloudburst is an extreme rainfall event of about 100 mm per hour over a small area, generally around 20–30 square kilometres.",
+   "ty": "numerical",
+   "tq": "Test both numerical elements of a definition together.",
+   "sec": "Cloudbursts - definition, Himalayan events"
+  },
+  {
+   "s": "The Kedarnath cloudburst disaster occurred in:",
+   "o": [
+    "June 2013",
+    "June 2015",
+    "June 2010",
+    "June 2011"
+   ],
+   "a": 0,
+   "x": "The major Kedarnath cloudburst event occurred in Uttarakhand in June 2013.",
+   "ty": "fact",
+   "tq": "Use the year-place association to distinguish major Himalayan disaster events.",
+   "sec": "Cloudbursts - definition, Himalayan events"
+  },
+  {
+   "s": "Which of the following pairs is correctly associated with the 2025 Himalayan flash-flood events?",
+   "o": [
+    "Dharali and Harsil — Uttarkashi",
+    "Kedarnath and Badrinath — Mandi",
+    "Shimla and Manali — Dharali",
+    "Harsil and Mandi — Rayalaseema"
+   ],
+   "a": 0,
+   "x": "Dharali and Harsil in Uttarkashi experienced flash floods in 2025, which diverted the Bhagirathi.",
+   "ty": "match",
+   "tq": "Start from the sure place-name pair and eliminate geographical mismatches.",
+   "sec": "Cloudbursts - definition, Himalayan events"
+  },
+  {
+   "s": "The 2025 flash floods at Dharali and Harsil diverted which river?",
+   "o": [
+    "Bhagirathi",
+    "Yamuna",
+    "Alaknanda",
+    "Sutlej"
+   ],
+   "a": 0,
+   "x": "The flash floods at Dharali and Harsil in Uttarkashi diverted the Bhagirathi River.",
+   "ty": "fact",
+   "tq": "Test the river association separately from the event location.",
+   "sec": "Cloudbursts - definition, Himalayan events"
+  },
+  {
+   "s": "Mandi in Himachal Pradesh received nearly how many times its normal rainfall during the 2025 event referred to?",
+   "o": [
+    "Ten times",
+    "Fifteen times",
+    "Five times",
+    "Twenty times"
+   ],
+   "a": 3,
+   "x": "Mandi received nearly twenty times its normal rainfall during the 2025 extreme-weather event.",
+   "ty": "numerical",
+   "tq": "Use the magnitude comparison as the decisive numerical clue.",
+   "sec": "Cloudbursts - definition, Himalayan events"
+  },
+  {
+   "s": "Which statement best describes the monsoon paradox in the Hindu Kush-Himalaya region?",
+   "o": [
+    "Seasonal rainfall is increasing uniformly while cloudbursts are declining.",
+    "Seasonal rainfall is declining or becoming erratic while short, intense cloudbursts are increasing.",
+    "Cloudbursts occur only during winter and are unrelated to monsoon behaviour.",
+    "Both seasonal rainfall and short-duration rainfall are declining at the same rate."
+   ],
+   "a": 1,
+   "x": "The HKH monsoon paradox refers to declining or erratic seasonal rainfall occurring alongside an increase in short, intense cloudbursts.",
+   "ty": "comparison",
+   "tq": "Identify the contrasting trends within the same climatic system.",
+   "sec": "Cloudbursts - definition, Himalayan events"
+  },
+  {
+   "s": "Cloudbursts in the Eastern Ghats agency areas of Andhra Pradesh are particularly hazardous because they can:",
+   "o": [
+    "Create permanent glaciers in lowlands",
+    "Eliminate monsoon breaks throughout the State",
+    "Produce only inland droughts without runoff",
+    "Cause flash floods in narrow valleys"
+   ],
+   "a": 3,
+   "x": "Cloudbursts in Andhra Pradesh's Eastern Ghats agency areas can rapidly generate flash floods in narrow valleys.",
+   "ty": "application",
+   "tq": "Apply the hazard mechanism to the specified terrain and regional setting.",
+   "sec": "Cloudbursts - definition, Himalayan events"
+  }
+ ]
+}

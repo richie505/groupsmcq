@@ -1,0 +1,497 @@
+{
+ "book": 4,
+ "row": 19,
+ "chunk": 1,
+ "section": "Atmospheric disturbances - tropical cyclones, temperate cyclones, anticyclones, thunderstorms, tornadoes",
+ "subsections": [
+  "Measurement scales",
+  "Temperate / extra-tropical cyclones",
+  "Thunderstorms and local storms → region",
+  "Regional names of tropical cyclones"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following scales measures wind force on the basis of observed effects at sea and on land?",
+   "o": [
+    "Enhanced Fujita scale",
+    "Mercalli scale",
+    "Beaufort scale",
+    "Saffir-Simpson scale"
+   ],
+   "a": 2,
+   "x": "The Beaufort scale measures wind force from 0 to 12 by observing its effects at sea and on land.",
+   "ty": "fact",
+   "tq": "Use the function of each measurement scale to distinguish closely related terms.",
+   "sec": "Measurement scales"
+  },
+  {
+   "s": "The Enhanced Fujita scale classifies tornadoes primarily on the basis of their:",
+   "o": [
+    "Sustained wind speed alone",
+    "Damage caused",
+    "Duration over land",
+    "Central pressure"
+   ],
+   "a": 1,
+   "x": "The Fujita and Enhanced Fujita scales classify tornadoes from EF0 to EF5 according to the damage caused.",
+   "ty": "fact",
+   "tq": "Match the scale with its exact basis rather than with a related atmospheric measurement.",
+   "sec": "Measurement scales"
+  },
+  {
+   "s": "A wind of approximately 62–74 km per hour corresponds to which of the following?",
+   "o": [
+    "Blizzard",
+    "Aandhi",
+    "Loo",
+    "Gale"
+   ],
+   "a": 3,
+   "x": "A gale is a strong wind corresponding to Beaufort force 8, with a speed of about 62–74 km per hour.",
+   "ty": "numerical",
+   "tq": "Anchor the answer to the stated numerical range and the associated Beaufort description.",
+   "sec": "Measurement scales"
+  },
+  {
+   "s": "Consider the following statements:\n1. A blizzard is a violent, snow-laden cold wind.\n2. Poor visibility is a characteristic feature of a blizzard.\n3. A blizzard is a hot, dry wind of the northern plains.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "A blizzard is a violent snow-laden cold wind accompanied by poor visibility. Statement 3 describes the loo, not a blizzard.",
+   "ty": "statements",
+   "tq": "Find the incorrect statement by separating snow-related and hot-wind descriptions.",
+   "sec": "Measurement scales"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes a tornado from a hurricane?",
+   "o": [
+    "A tornado is generally a small, short-lived funnel associated with a thunderstorm, whereas a hurricane is much wider and may last for days.",
+    "A tornado is hundreds of kilometres wide and forms only over warm oceans.",
+    "A hurricane is a land-based funnel lasting only a few minutes.",
+    "Both phenomena have the same size, duration and place of origin."
+   ],
+   "a": 0,
+   "x": "Tornadoes are small, funnel-shaped and usually short-lived, while hurricanes may be hundreds of kilometres wide, last for days and form over warm oceans.",
+   "ty": "comparison",
+   "tq": "Compare the phenomena across size, duration and place of formation.",
+   "sec": "Measurement scales"
+  },
+  {
+   "s": "A tornado-like funnel that forms over a water body is known as a:",
+   "o": [
+    "Waterspout",
+    "Nor'wester",
+    "Storm surge",
+    "Gale"
+   ],
+   "a": 0,
+   "x": "A waterspout is a tornado-like funnel over water. A waterspout was observed over the Brahmaputra in Barpeta, Assam, on 26 August 2026.",
+   "ty": "confusable",
+   "tq": "Discriminate between land-based tornadoes and their water-based counterpart.",
+   "sec": "Measurement scales"
+  },
+  {
+   "s": "Which of the following statements regarding a super typhoon is correct?",
+   "o": [
+    "It has sustained winds of about 240 km per hour and is equivalent to a strong Category 4 or Category 5 storm.",
+    "It is a tornado with an EF5 damage rating.",
+    "It forms only over the western Australian landmass.",
+    "It is defined by winds below 62 km per hour and corresponds to Beaufort force 4."
+   ],
+   "a": 0,
+   "x": "A super typhoon has sustained winds of about 240 km per hour and is comparable to a strong Category 4 or Category 5 storm.",
+   "ty": "numerical",
+   "tq": "Use the defining speed and category equivalence to reject nearby storm terms.",
+   "sec": "Measurement scales"
+  },
+  {
+   "s": "Extra-tropical cyclones generally develop:",
+   "o": [
+    "Only over warm tropical oceans",
+    "Only over the subtropical deserts",
+    "Along the polar front in the middle and higher latitudes",
+    "Along the equatorial calm belt"
+   ],
+   "a": 2,
+   "x": "Temperate or extra-tropical cyclones develop along the polar front in the middle and higher latitudes.",
+   "ty": "fact",
+   "tq": "Link the atmospheric disturbance with its latitude belt and frontal location.",
+   "sec": "Temperate / extra-tropical cyclones"
+  },
+  {
+   "s": "Which one of the following is a characteristic feature of temperate cyclones?",
+   "o": [
+    "A clear frontal system involving warm and cold fronts",
+    "Formation only over warm seas",
+    "Movement exclusively from east to west",
+    "Absence of all fronts"
+   ],
+   "a": 0,
+   "x": "Temperate cyclones possess a clear frontal system, including warm and cold fronts; an occluded front may also develop.",
+   "ty": "negative",
+   "tq": "Identify the precise positive feature while rejecting the familiar but reversed statement.",
+   "sec": "Temperate / extra-tropical cyclones"
+  },
+  {
+   "s": "Consider the following statements about temperate cyclones:\n1. They may originate over both land and sea.\n2. They generally cover a larger area than tropical cyclones.\n3. Their winds are usually more intense than those of tropical cyclones.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Temperate cyclones can originate over land and sea and cover a larger area. Their winds are generally gentler than those of tropical cyclones, making statement 3 false.",
+   "ty": "statements",
+   "tq": "Check each comparison separately, especially the reversed intensity claim.",
+   "sec": "Temperate / extra-tropical cyclones"
+  },
+  {
+   "s": "Which one of the following correctly describes the usual movement of extra-tropical cyclones?",
+   "o": [
+    "From west to east under the influence of the westerlies",
+    "They remain stationary over their place of origin",
+    "From east to west under the influence of the trade winds",
+    "From north to south under the influence of polar easterlies alone"
+   ],
+   "a": 0,
+   "x": "Extra-tropical cyclones generally move from west to east with the westerlies, unlike tropical cyclones, which generally move east to west with the trade winds.",
+   "ty": "comparison",
+   "tq": "Use the wind belt controlling movement to distinguish tropical and temperate systems.",
+   "sec": "Temperate / extra-tropical cyclones"
+  },
+  {
+   "s": "Which of the following comparisons between tropical and temperate cyclones is correct?",
+   "o": [
+    "Tropical cyclones move west to east, whereas temperate cyclones move east to west.",
+    "Tropical cyclones have clear fronts, whereas temperate cyclones have none.",
+    "Tropical cyclones originate over land and sea, whereas temperate cyclones originate only over warm seas.",
+    "Tropical cyclones are smaller and more intense, whereas temperate cyclones are larger and generally gentler."
+   ],
+   "a": 3,
+   "x": "Tropical cyclones are smaller and more intense, while temperate cyclones cover larger areas and generally have gentler winds. The other options reverse the stated distinctions.",
+   "ty": "comparison",
+   "tq": "Compare size, intensity, origin, fronts and movement as a single feature set.",
+   "sec": "Temperate / extra-tropical cyclones"
+  },
+  {
+   "s": "Arrange the following features in the order in which they correctly describe the broad contrast between tropical and temperate cyclones:\nA. Tropical cyclones originate only over warm seas.\nB. Temperate cyclones may originate over land and sea.\nC. Tropical cyclones generally move east to west.\nD. Temperate cyclones generally move west to east.",
+   "o": [
+    "A, C, B, D",
+    "B, D, A, C",
+    "A, B, C, D",
+    "C, A, D, B"
+   ],
+   "a": 0,
+   "x": "The tropical cyclone features are followed by the corresponding temperate cyclone features: warm-sea origin, east-to-west movement, land-and-sea origin, and west-to-east movement.",
+   "ty": "chronology",
+   "tq": "Group the paired tropical features first and the corresponding temperate features next.",
+   "sec": "Temperate / extra-tropical cyclones"
+  },
+  {
+   "s": "Western disturbances affecting north-western India in winter originate mainly in the:",
+   "o": [
+    "Arabian Peninsula",
+    "Mediterranean region",
+    "South China Sea",
+    "Bay of Bengal"
+   ],
+   "a": 1,
+   "x": "Western disturbances originate in the Mediterranean region and reach north-western India during winter.",
+   "ty": "fact",
+   "tq": "Identify the source region of a named weather system.",
+   "sec": "Temperate / extra-tropical cyclones"
+  },
+  {
+   "s": "Western disturbances are carried towards north-western India primarily by the:",
+   "o": [
+    "South-west monsoon current",
+    "Sub-tropical westerly jet",
+    "Polar easterly jet",
+    "Equatorial easterly jet"
+   ],
+   "a": 1,
+   "x": "The sub-tropical westerly jet carries western disturbances from the Mediterranean region towards north-western India.",
+   "ty": "fact",
+   "tq": "Match the disturbance with the atmospheric circulation that transports it.",
+   "sec": "Temperate / extra-tropical cyclones"
+  },
+  {
+   "s": "Consider the following statements regarding western disturbances:\n1. They reach north-western India in winter.\n2. They can bring about 10–15 cm of rain useful for rabi crops.\n3. They produce snowfall in Jammu and Kashmir, Himachal Pradesh and Uttarakhand.\n4. They reach India at the occluded stage.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the winter passage and effects of western disturbances over north-western India.",
+   "ty": "statements",
+   "tq": "When all statements describe complementary aspects of one system, test the complete combination.",
+   "sec": "Temperate / extra-tropical cyclones"
+  },
+  {
+   "s": "A farmer in north-western India receives moderate winter rainfall of about 10–15 cm that benefits rabi crops. This rainfall is most likely associated with:",
+   "o": [
+    "Mango showers",
+    "The loo",
+    "Kaal Baisakhi",
+    "Western disturbances"
+   ],
+   "a": 3,
+   "x": "Western disturbances bring winter rainfall of about 10–15 cm to north-western India, which is beneficial for rabi cultivation.",
+   "ty": "application",
+   "tq": "Identify the weather system from its season, region and agricultural effect.",
+   "sec": "Temperate / extra-tropical cyclones"
+  },
+  {
+   "s": "Kaal Baisakhi or Nor'westers are local storms associated with which group of regions?",
+   "o": [
+    "Jammu and Kashmir, Himachal Pradesh and Uttarakhand",
+    "The dry plains of north-western India only",
+    "Kerala and coastal Karnataka",
+    "Bihar, Odisha, West Bengal and Assam"
+   ],
+   "a": 3,
+   "x": "Kaal Baisakhi or Nor'westers occur in Bihar, Odisha, West Bengal and Assam and approach from the north-west.",
+   "ty": "fact",
+   "tq": "Match the regional storm name with its geographical distribution.",
+   "sec": "Thunderstorms and local storms → region"
+  },
+  {
+   "s": "Which one of the following local storms is correctly matched with its feature?",
+   "o": [
+    "Aandhi — dust-laden storm of the dry north-western plains",
+    "Mango showers — snowfall in the Himalayan region",
+    "Loo — pre-monsoon storm of Assam only",
+    "Cherry blossoms — hot, dry wind of the northern plains"
+   ],
+   "a": 0,
+   "x": "Aandhi is a dust-laden storm occurring over the dry plains of north-western India. The other descriptions are mismatched.",
+   "ty": "match",
+   "tq": "Start with the sure regional association and eliminate the swapped descriptions.",
+   "sec": "Thunderstorms and local storms → region"
+  },
+  {
+   "s": "Mango showers are particularly associated with:",
+   "o": [
+    "Jammu and Kashmir and Uttarakhand",
+    "Bihar and West Bengal",
+    "Kerala and coastal Karnataka",
+    "The dry plains of Rajasthan and Haryana"
+   ],
+   "a": 2,
+   "x": "Mango showers occur in Kerala and coastal Karnataka and help mangoes to ripen.",
+   "ty": "fact",
+   "tq": "Match the local storm with both its region and agricultural effect.",
+   "sec": "Thunderstorms and local storms → region"
+  },
+  {
+   "s": "The local storms known as cherry or coffee blossoms are associated with:",
+   "o": [
+    "Mango ripening in Kerala",
+    "Snowfall in the western Himalaya",
+    "Coffee flowering in Karnataka",
+    "Dust storms in the north-western plains"
+   ],
+   "a": 2,
+   "x": "Cherry or coffee blossoms are local storms associated with coffee flowering in Karnataka.",
+   "ty": "fact",
+   "tq": "Use the crop-related clue to distinguish similarly named local storms.",
+   "sec": "Thunderstorms and local storms → region"
+  },
+  {
+   "s": "The loo is best described as a:",
+   "o": [
+    "Cold, snow-laden wind of the Himalayas",
+    "Hot, dry summer wind of the northern plains",
+    "Dust-laden winter wind from the Mediterranean",
+    "Moist pre-monsoon storm of coastal Karnataka"
+   ],
+   "a": 1,
+   "x": "The loo is a hot and dry summer wind that blows across the northern plains.",
+   "ty": "confusable",
+   "tq": "Discriminate between regional winds by season, temperature and moisture.",
+   "sec": "Thunderstorms and local storms → region"
+  },
+  {
+   "s": "Thunderstorms generally develop from which type of cloud?",
+   "o": [
+    "Stratus",
+    "Cirrus",
+    "Cumulonimbus",
+    "Nimbostratus"
+   ],
+   "a": 2,
+   "x": "Thunderstorms grow from cumulonimbus clouds, which may reach heights of about 15 km.",
+   "ty": "fact",
+   "tq": "Match the weather phenomenon with its characteristic cloud type.",
+   "sec": "Thunderstorms and local storms → region"
+  },
+  {
+   "s": "Which of the following conditions is most favourable for the growth of thunderstorms?",
+   "o": [
+    "A persistent temperature inversion alone",
+    "Unstable and moist air",
+    "Completely cloudless air",
+    "Stable, cold and dry air"
+   ],
+   "a": 1,
+   "x": "Thunderstorms develop in unstable, moist air and grow vertically through cumulonimbus clouds.",
+   "ty": "application",
+   "tq": "Infer the required atmospheric condition from the storm-development process.",
+   "sec": "Thunderstorms and local storms → region"
+  },
+  {
+   "s": "Thunder is produced when air:",
+   "o": [
+    "Contracts slowly after sunset",
+    "Rises only because of the rotation of the Earth",
+    "Expands explosively after being heated by a lightning stroke",
+    "Freezes inside a cumulonimbus cloud"
+   ],
+   "a": 2,
+   "x": "Thunder is the sound produced by the explosive expansion of air heated by a lightning stroke.",
+   "ty": "fact",
+   "tq": "Distinguish the physical cause of thunder from the causes of cloud formation.",
+   "sec": "Thunderstorms and local storms → region"
+  },
+  {
+   "s": "Which application provides lightning alerts in India?",
+   "o": [
+    "Mausam",
+    "DigiLocker",
+    "Damini",
+    "Bhuvan"
+   ],
+   "a": 2,
+   "x": "The Damini app provides lightning alerts and supports alerts in 15 languages.",
+   "ty": "fact",
+   "tq": "Match the public-safety application with its specific function.",
+   "sec": "Thunderstorms and local storms → region"
+  },
+  {
+   "s": "According to the available lightning-monitoring information, the number of lightning detection locations is:",
+   "o": [
+    "14",
+    "104",
+    "140",
+    "1,040"
+   ],
+   "a": 1,
+   "x": "The lightning-monitoring system includes 104 lightning detection locations, while the Damini app issues alerts in 15 languages.",
+   "ty": "numerical",
+   "tq": "Separate the exact detection count from nearby magnitude-based distractors.",
+   "sec": "Thunderstorms and local storms → region"
+  },
+  {
+   "s": "Which of the following statements about a cloudburst is correct?",
+   "o": [
+    "It is a dry dust storm of the north-western plains during summer.",
+    "It is a tropical cyclone covering hundreds of kilometres over the ocean.",
+    "It involves about 100 mm of rainfall per hour over an area of 20–30 square kilometres and is especially associated with the Himalaya during June–August.",
+    "It is a snowstorm that occurs only in the Mediterranean region."
+   ],
+   "a": 2,
+   "x": "A cloudburst refers to roughly 100 mm of rainfall in an hour over 20–30 square kilometres, commonly affecting the Himalaya during June–August.",
+   "ty": "numerical",
+   "tq": "Combine the rainfall intensity, area, season and region to identify the event.",
+   "sec": "Thunderstorms and local storms → region"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Cloudburst — hot, dry wind over the northern plains",
+    "Hailstorms — pre-monsoon convective weather",
+    "Aandhi — summer dust storm over dry north-western plains",
+    "Nor'westers — pre-monsoon storms in eastern and north-eastern India"
+   ],
+   "a": 0,
+   "x": "A cloudburst is an intense short-duration rainfall event, particularly associated with the Himalaya in June–August. A hot, dry wind over the northern plains is the loo.",
+   "ty": "negative",
+   "tq": "Find the single swapped description among familiar local-weather terms.",
+   "sec": "Thunderstorms and local storms → region"
+  },
+  {
+   "s": "Which one of the following correctly matches the regional name of a tropical cyclone?",
+   "o": [
+    "Hurricane — North Atlantic and north-east Pacific",
+    "Typhoon — North Atlantic",
+    "Baguio — Western Australia",
+    "Willy-willy — Philippines"
+   ],
+   "a": 0,
+   "x": "The term hurricane is used for tropical cyclones in the North Atlantic and north-east Pacific. Baguio is associated with the Philippines and willy-willy with Western Australia.",
+   "ty": "match",
+   "tq": "Start from the well-known ocean-basin association and reject geographically shifted names.",
+   "sec": "Regional names of tropical cyclones"
+  },
+  {
+   "s": "Consider the following statements:\n1. The term cyclone is used in the North Indian Ocean and South Pacific.\n2. The term typhoon is used in the north-west Pacific and South China Sea.\n3. The term hurricane is used in the North Atlantic and north-east Pacific.\n4. Tropical cyclones are ocean-born systems in these regional classifications.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the regional terminology and the oceanic origin of tropical cyclones.",
+   "ty": "statements",
+   "tq": "Verify each basin-based name before selecting the complete combination.",
+   "sec": "Regional names of tropical cyclones"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Hurricane — North Atlantic and north-east Pacific",
+    "Typhoon — north-west Pacific and South China Sea",
+    "Baguio — North Indian Ocean and South Pacific",
+    "Cyclone — North Indian Ocean and South Pacific"
+   ],
+   "a": 2,
+   "x": "Baguio is a regional name used in the Philippines; the North Indian Ocean and South Pacific use the term cyclone.",
+   "ty": "negative",
+   "tq": "Look for the regional name placed in the wrong basin.",
+   "sec": "Regional names of tropical cyclones"
+  },
+  {
+   "s": "Which statement best distinguishes a tornado from the regional terms hurricane, typhoon and cyclone?",
+   "o": [
+    "Hurricanes, typhoons and cyclones form only over land, unlike tornadoes.",
+    "A tornado is a small, violent funnel generally associated with land, whereas hurricanes, typhoons and cyclones are ocean-born systems.",
+    "A tornado is the regional name for a cyclone in the South Pacific.",
+    "A tornado is always larger and longer-lived than a hurricane."
+   ],
+   "a": 1,
+   "x": "Tornadoes are small, violent funnels generally associated with land, while hurricanes, typhoons and cyclones form over oceans.",
+   "ty": "comparison",
+   "tq": "Separate the generic regional names for oceanic cyclones from the distinct land-based funnel phenomenon.",
+   "sec": "Regional names of tropical cyclones"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Typhoon — western Australia",
+    "Tornado — small violent funnel over land",
+    "Willy-willy — Philippines",
+    "Baguio — north-east Pacific"
+   ],
+   "a": 1,
+   "x": "A tornado is a small, violent funnel generally occurring over land. Typhoon, willy-willy and Baguio are associated with different regions.",
+   "ty": "fact",
+   "tq": "Use the exact definition of the term and reject regionally swapped alternatives.",
+   "sec": "Regional names of tropical cyclones"
+  }
+ ]
+}

@@ -1,0 +1,242 @@
+{
+ "book": 4,
+ "row": 0,
+ "chunk": 0,
+ "section": "The universe and the solar system - origin theories, the Sun, planets, asteroids, comets, meteors",
+ "subsections": [
+  "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 16,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The asteroid belt in the Solar System is located between which two planets?",
+   "o": [
+    "Jupiter and Saturn",
+    "Mars and Jupiter",
+    "Earth and Mars",
+    "Saturn and Uranus"
+   ],
+   "a": 1,
+   "x": "The asteroid belt lies between the orbits of Mars and Jupiter and separates the inner and outer planets.",
+   "ty": "fact",
+   "tq": "Use the location-based elimination method for a standard planetary sequence.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "Consider the following statements regarding the classification of planets:\n1. Mercury, Venus, Earth and Mars are terrestrial planets.\n2. Jupiter and Saturn are gas giants.\n3. Uranus and Neptune are ice giants.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The four inner planets are rocky or terrestrial, while the outer planets comprise two gas giants and two ice giants.",
+   "ty": "statements",
+   "tq": "Classify the planets into inner rocky planets and outer giant planets before selecting the code.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "Consider the following statements about the revolution and rotation of the planets:\n1. All eight planets revolve around the Sun in a counter-clockwise direction when viewed from above the Sun's north pole.\n2. The period of revolution generally increases with increasing distance from the Sun.\n3. The period of revolution of an outer planet is shorter than that of every inner planet.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because planets farther from the Sun generally take longer to complete a revolution.",
+   "ty": "statements",
+   "tq": "Identify the reversed comparison in the third statement.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "Jupiter's mass is approximately how many times the mass of the Earth?",
+   "o": [
+    "0.318 times",
+    "31.8 times",
+    "318 times",
+    "3,180 times"
+   ],
+   "a": 2,
+   "x": "Jupiter is the most massive planet and has approximately 318 times the mass of Earth.",
+   "ty": "numerical",
+   "tq": "Distinguish the decimal placement in a planetary superlative.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "Which one of the following pairs of planets exhibits retrograde rotation?",
+   "o": [
+    "Jupiter and Saturn",
+    "Earth and Mars",
+    "Venus and Uranus",
+    "Mercury and Neptune"
+   ],
+   "a": 2,
+   "x": "Venus and Uranus rotate in the retrograde direction, from east to west. Uranus also has an unusually highly tilted axis and rotates nearly on its side.",
+   "ty": "fact",
+   "tq": "Use the confusable-pair method for planets with unusual rotation.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "Which one of the following statements correctly distinguishes Neptune and Uranus with respect to temperature?",
+   "o": [
+    "Neptune has both the lowest average and the lowest single temperature.",
+    "Uranus has the lowest average temperature, whereas Neptune has recorded the lowest single temperature.",
+    "Uranus has both the lowest average and the lowest single temperature.",
+    "Neptune has the lowest average temperature, whereas Uranus has recorded the lowest single temperature."
+   ],
+   "a": 3,
+   "x": "Neptune has the lowest average temperature, about −200°C, while Uranus has recorded the lowest single temperature, approximately −224°C.",
+   "ty": "comparison",
+   "tq": "Separate average values from extreme recorded values before comparing the options.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "Which planet remains closest to Earth for the longest period when average orbital proximity is considered?",
+   "o": [
+    "Mars",
+    "Jupiter",
+    "Venus",
+    "Mercury"
+   ],
+   "a": 3,
+   "x": "Mercury remains closest to Earth for the longest time on average because its small orbit keeps it relatively near the other planets.",
+   "ty": "fact",
+   "tq": "Watch for the distinction between nearest at a particular moment and closest for the longest average period.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "The two natural satellites of Mars are",
+   "o": [
+    "Titan and Rhea",
+    "Triton and Charon",
+    "Io and Europa",
+    "Phobos and Deimos"
+   ],
+   "a": 3,
+   "x": "Mars has two natural satellites, named Phobos and Deimos.",
+   "ty": "fact",
+   "tq": "Match the planet with its satellite names rather than relying only on satellite counts.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "Which one of the following correctly represents the number of natural satellites of the first four planets from the Sun?",
+   "o": [
+    "Mercury–0, Venus–0, Earth–1, Mars–2",
+    "Mercury–1, Venus–0, Earth–2, Mars–1",
+    "Mercury–0, Venus–1, Earth–1, Mars–2",
+    "Mercury–1, Venus–1, Earth–2, Mars–2"
+   ],
+   "a": 0,
+   "x": "Mercury and Venus have no natural satellites, Earth has one, and Mars has two.",
+   "ty": "match",
+   "tq": "Start with the sure pair of satellite-less planets and complete the sequence.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "In June 2026, the International Astronomical Union announced 15 new moons in the following distribution:",
+   "o": [
+    "15 for Jupiter and none for Saturn",
+    "11 for Jupiter and 4 for Saturn",
+    "4 for Jupiter and 11 for Saturn",
+    "8 for Jupiter and 7 for Saturn"
+   ],
+   "a": 2,
+   "x": "The announcement added four moons to Jupiter and eleven moons to Saturn. The discoveries were verified through the Minor Planet Centre.",
+   "ty": "numerical",
+   "tq": "Retain the split of a total figure instead of memorising only the total.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "The 15 new moons announced in June 2026 were verified through which organisation?",
+   "o": [
+    "United Nations Office for Outer Space Affairs",
+    "International Space Station Mission Centre",
+    "International Astronomical Union's Minor Planet Centre",
+    "Intergovernmental Panel on Climate Change"
+   ],
+   "a": 2,
+   "x": "The new moons were announced by the International Astronomical Union through its Minor Planet Centre, which verified the discoveries.",
+   "ty": "fact",
+   "tq": "Apply the 'who performs this function?' method to distinguish a specialised astronomical body.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "Why was Pluto reclassified as a dwarf planet under the 2006 definition adopted by the International Astronomical Union?",
+   "o": [
+    "It does not orbit the Sun.",
+    "It is not approximately spherical.",
+    "It has no natural satellite.",
+    "It has not cleared its orbital neighbourhood."
+   ],
+   "a": 3,
+   "x": "Pluto orbits the Sun and is nearly round, but it has not cleared its orbital neighbourhood. Therefore, it does not satisfy all the conditions for a planet.",
+   "ty": "application",
+   "tq": "Test the exact qualifying condition rather than choosing an associated but incorrect feature.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "Which of the following sets consists entirely of recognised dwarf planets?",
+   "o": [
+    "Ceres, Venus, Makemake, Eris and Neptune",
+    "Mars, Pluto, Haumea, Makemake and Ceres",
+    "Mercury, Pluto, Ceres, Haumea and Eris",
+    "Ceres, Pluto, Haumea, Makemake and Eris"
+   ],
+   "a": 3,
+   "x": "The recognised dwarf planets listed are Ceres, Pluto, Haumea, Makemake and Eris. Mercury, Venus, Mars and Neptune are full planets, not dwarf planets.",
+   "ty": "fact",
+   "tq": "Use the odd-item elimination method on a named classification list.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "Which one of the following statements about Uranus is correct?",
+   "o": [
+    "It is the only planet with retrograde rotation.",
+    "It rotates nearly on its side because of its highly tilted axis.",
+    "It has the highest average temperature among the outer planets.",
+    "It is a terrestrial planet with a solid rocky surface like Mars."
+   ],
+   "a": 1,
+   "x": "Uranus has a highly tilted axis and rotates nearly on its side. It is an ice giant and is not the only planet with retrograde rotation.",
+   "ty": "negative",
+   "tq": "Find the one precise statement while rejecting absolute and exclusive claims.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "Which planet has the largest difference between day and night temperatures, exceeding 1000°F?",
+   "o": [
+    "Venus",
+    "Neptune",
+    "Mercury",
+    "Mars"
+   ],
+   "a": 2,
+   "x": "Mercury has the largest day-night temperature gap, exceeding 1000°F, because of its slow rotation and very thin atmosphere.",
+   "ty": "fact",
+   "tq": "Link the numerical extreme with the physical causes stated for the planet.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Venus — retrograde rotation\n2. Uranus — rotation nearly on its side\n3. Mars — two natural satellites\n4. Saturn — no natural satellite\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Pairs 1, 2 and 3 are correctly matched. Pair 4 is false because Saturn has numerous natural satellites.",
+   "ty": "statements",
+   "tq": "Check each planet against its distinctive physical or satellite characteristic.",
+   "sec": "Planets - order, inner vs outer, superlatives, planets without satellites, satellite counts"
+  }
+ ]
+}

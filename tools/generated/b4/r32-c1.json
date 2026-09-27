@@ -1,0 +1,385 @@
+{
+ "book": 4,
+ "row": 32,
+ "chunk": 1,
+ "section": "World - major rivers, lakes, seas, straits, canals and islands",
+ "subsections": [
+  "Great Lakes of North America",
+  "Islands and regions → country",
+  "Waterfalls → river, country, records",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following Great Lakes of North America is the smallest by area?",
+   "o": [
+    "Lake Erie",
+    "Lake Michigan",
+    "Lake Huron",
+    "Lake Ontario"
+   ],
+   "a": 3,
+   "x": "Lake Ontario is the smallest of the Great Lakes by area, covering about 19,011 sq km.",
+   "ty": "fact",
+   "tq": "Use the precise numerical comparison rather than relying on the apparent size of the lake on a map.",
+   "sec": "Great Lakes of North America  [APPSC]"
+  },
+  {
+   "s": "Lake Ontario is drained into the Atlantic Ocean through which one of the following rivers?",
+   "o": [
+    "St Marys River",
+    "St Lawrence River",
+    "Niagara River",
+    "Detroit River"
+   ],
+   "a": 1,
+   "x": "Lake Ontario is drained by the St Lawrence River, which flows towards the Atlantic Ocean.",
+   "ty": "fact",
+   "tq": "Trace the drainage direction from the lake to the ocean.",
+   "sec": "Great Lakes of North America  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding Lake Ontario:\n1. It is the easternmost of the Great Lakes.\n2. It is fed by the Niagara River.\n3. It is connected to Lake Erie by the Welland Canal, which bypasses Niagara Falls.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Lake Ontario is easternmost, receives the Niagara River from Lake Erie, and is linked to Erie by the Welland Canal, which bypasses Niagara Falls.",
+   "ty": "statements",
+   "tq": "Check each statement against the lake's position, inflow and artificial navigation link.",
+   "sec": "Great Lakes of North America  [APPSC]"
+  },
+  {
+   "s": "Which of the following cities is NOT mentioned as being situated on the shores of Lake Ontario?",
+   "o": [
+    "Hamilton",
+    "Rochester",
+    "Toronto",
+    "Detroit"
+   ],
+   "a": 3,
+   "x": "Toronto, Hamilton and Rochester are situated on the shores of Lake Ontario. Detroit is not included among these cities.",
+   "ty": "negative",
+   "tq": "Find the option outside the specific shore-city group.",
+   "sec": "Great Lakes of North America  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Water connection)\nA. Lake Superior–Lake Huron\nB. Lake Michigan–Lake Huron\nC. Lake Huron–Lake Erie\n\nList-II (Connecting waterway)\n1. Detroit River\n2. Straits of Mackinac\n3. St Marys River\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-3, B-2, C-1",
+    "A-2, B-3, C-1",
+    "A-3, B-1, C-2",
+    "A-1, B-2, C-3"
+   ],
+   "a": 0,
+   "x": "St Marys River connects Superior and Huron, the Straits of Mackinac connects Michigan and Huron, and the Detroit River connects Huron and Erie.",
+   "ty": "match",
+   "tq": "Start from the sure pair and eliminate codes with a misplaced connecting waterway.",
+   "sec": "Great Lakes of North America  [APPSC]"
+  },
+  {
+   "s": "Which of the following island–country pairs is NOT correctly matched?",
+   "o": [
+    "Normandy–Italy",
+    "Sardinia–Italy",
+    "Mallorca–Spain",
+    "Kyushu–Japan"
+   ],
+   "a": 0,
+   "x": "Normandy is a region of France. Kyushu belongs to Japan, Sardinia to Italy and Mallorca to Spain.",
+   "ty": "negative",
+   "tq": "Use the country–region distinction to detect the swapped location.",
+   "sec": "Islands and regions → country  [APPSC]"
+  },
+  {
+   "s": "Socotra archipelago, recognised as a UNESCO site, belongs to which country?",
+   "o": [
+    "Oman",
+    "Somalia",
+    "Yemen",
+    "Eritrea"
+   ],
+   "a": 2,
+   "x": "The Socotra archipelago is associated with Yemen and is identified as a UNESCO site.",
+   "ty": "fact",
+   "tq": "Discriminate between neighbouring countries of the Arabian Sea region.",
+   "sec": "Islands and regions → country  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Kyushu — Japan\n2. Sardinia — Italy\n3. Mallorca — Spain\n4. Normandy — France\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Kyushu is in Japan, Sardinia in Italy, Mallorca in Spain and Normandy is a region of France.",
+   "ty": "statements",
+   "tq": "Verify each pair independently before selecting the coded combination.",
+   "sec": "Islands and regions → country  [APPSC]"
+  },
+  {
+   "s": "Arrange the following islands in descending order of their geographical size:\nA. Madagascar\nB. Greenland\nC. Borneo\nD. New Guinea\nSelect the correct answer using the code given below.",
+   "o": [
+    "B, D, C, A",
+    "D, B, C, A",
+    "B, C, D, A",
+    "A, C, D, B"
+   ],
+   "a": 0,
+   "x": "The order is Greenland, New Guinea, Borneo and Madagascar.",
+   "ty": "chronology",
+   "tq": "Apply the size hierarchy and identify the largest island first.",
+   "sec": "Islands and regions → country  [APPSC]"
+  },
+  {
+   "s": "Greenland, the largest island in the world, is politically associated with which country?",
+   "o": [
+    "Iceland",
+    "Denmark",
+    "Norway",
+    "Canada"
+   ],
+   "a": 1,
+   "x": "Greenland is the world's largest island and is associated with Denmark.",
+   "ty": "fact",
+   "tq": "Separate geographical size from political association.",
+   "sec": "Islands and regions → country  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about Indonesia is correct?",
+   "o": [
+    "It is the country in which Normandy is located.",
+    "It is the country to which Greenland belongs.",
+    "It is the largest archipelagic country.",
+    "It is the largest island in the world."
+   ],
+   "a": 2,
+   "x": "Indonesia is identified as the largest archipelagic country. The other statements confuse Indonesia with islands or regions associated with other countries.",
+   "ty": "fact",
+   "tq": "Match the country with its distinctive geographical classification.",
+   "sec": "Islands and regions → country  [APPSC]"
+  },
+  {
+   "s": "Angel Falls is associated with which one of the following river–country pairs?",
+   "o": [
+    "Churun — Venezuela",
+    "Zambezi — Zambia-Zimbabwe",
+    "Tugela — South Africa",
+    "Iguazu — Argentina-Brazil"
+   ],
+   "a": 0,
+   "x": "Angel Falls is situated on the Churun River in Venezuela's Guiana Highlands.",
+   "ty": "match",
+   "tq": "Use the river–fall association first, then confirm the country.",
+   "sec": "Waterfalls → river, country, records  [APPSC]"
+  },
+  {
+   "s": "Which waterfall is described as the largest sheet of falling water?",
+   "o": [
+    "Victoria Falls",
+    "Tugela Falls",
+    "Niagara Falls",
+    "Angel Falls"
+   ],
+   "a": 0,
+   "x": "Victoria Falls on the Zambezi is described as the largest sheet of falling water and lies between Zambia and Zimbabwe.",
+   "ty": "fact",
+   "tq": "Distinguish a record based on the form of the fall from records based on height or system size.",
+   "sec": "Waterfalls → river, country, records  [APPSC]"
+  },
+  {
+   "s": "Victoria Falls is located on which river and between which countries?",
+   "o": [
+    "Zambezi — Zambia and Zimbabwe",
+    "Churun — Venezuela and Brazil",
+    "Tugela — South Africa and Lesotho",
+    "Iguazu — Argentina and Paraguay"
+   ],
+   "a": 0,
+   "x": "Victoria Falls is situated on the Zambezi River on the border between Zambia and Zimbabwe.",
+   "ty": "match",
+   "tq": "Test the combined river and international-boundary relationship.",
+   "sec": "Waterfalls → river, country, records  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Niagara Falls lies between Lakes Erie and Ontario.\n2. Iguazu Falls is situated between Argentina and Brazil.\n3. Tugela Falls is located in the Drakensberg of South Africa.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Niagara is between Erie and Ontario, Iguazu is associated with Argentina and Brazil, and Tugela is in South Africa's Drakensberg.",
+   "ty": "statements",
+   "tq": "Combine location, neighbouring countries and physical-region clues.",
+   "sec": "Waterfalls → river, country, records  [APPSC]"
+  },
+  {
+   "s": "Which one of the following waterfalls is recognised as the second highest in the world?",
+   "o": [
+    "Iguazu Falls",
+    "Victoria Falls",
+    "Tugela Falls",
+    "Niagara Falls"
+   ],
+   "a": 2,
+   "x": "Tugela Falls, located in the Drakensberg of South Africa, is identified as the second highest waterfall.",
+   "ty": "fact",
+   "tq": "Read the record label carefully instead of confusing height with volume or system size.",
+   "sec": "Waterfalls → river, country, records  [APPSC]"
+  },
+  {
+   "s": "The record of being the largest waterfall system is associated with which one of the following?",
+   "o": [
+    "Angel Falls",
+    "Tugela Falls",
+    "Niagara Falls",
+    "Iguazu Falls"
+   ],
+   "a": 3,
+   "x": "Iguazu Falls, associated with Argentina and Brazil, is identified as the largest waterfall system.",
+   "ty": "fact",
+   "tq": "Discriminate between a waterfall system and an individual waterfall.",
+   "sec": "Waterfalls → river, country, records  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Niagara — Niagara River",
+    "Angel — Churun River",
+    "Victoria — Zambezi River",
+    "Tugela — Zambezi River"
+   ],
+   "a": 3,
+   "x": "Tugela Falls is associated with the Tugela River in South Africa. The Zambezi is associated with Victoria Falls.",
+   "ty": "negative",
+   "tq": "Find the wrong river association by checking the repeated river–fall pairs.",
+   "sec": "Waterfalls → river, country, records  [APPSC]"
+  },
+  {
+   "s": "According to the current geographical reference, Lake Ontario has been proposed for renaming as which of the following?",
+   "o": [
+    "Lake Columbia",
+    "Lake United",
+    "Lake America",
+    "Lake Liberty"
+   ],
+   "a": 2,
+   "x": "A United States executive order was reported as proposing the renaming of Lake Ontario as “Lake America.”",
+   "ty": "fact",
+   "tq": "Identify the exact current-affairs name change rather than the original geographical name.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to the Strait of Hormuz crisis, which statement is correct?",
+   "o": [
+    "Iran is a party to UNCLOS and transit passage is treaty law only.",
+    "Iran is not a party to UNCLOS and transit passage has no legal force.",
+    "Transit passage through the Strait of Hormuz is governed exclusively by the World Bank.",
+    "Iran is not a party to UNCLOS, but transit passage remains binding as customary international law."
+   ],
+   "a": 3,
+   "x": "Iran is not a party to UNCLOS; nevertheless, the principle of transit passage is binding as customary international law.",
+   "ty": "application",
+   "tq": "Separate treaty membership from rules recognised as customary international law.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Rhine River's water level was reported to have fallen below which earlier record?",
+   "o": [
+    "The December 2019 record",
+    "The October 2018 record",
+    "The August 2020 record",
+    "The September 2001 record"
+   ],
+   "a": 1,
+   "x": "The Rhine water level fell below the record recorded in October 2018.",
+   "ty": "numerical",
+   "tq": "Match the current event with its precise reference date.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The MV OMORFI incident in the Black Sea was reported to have resulted in the death of which person?",
+   "o": [
+    "A Zambian passenger",
+    "An Indian crew member",
+    "A Swiss port official",
+    "An Iranian naval officer"
+   ],
+   "a": 1,
+   "x": "The MV OMORFI attack in the Black Sea killed an Indian crew member.",
+   "ty": "fact",
+   "tq": "Identify the nationality and status of the casualty without confusing it with the location of the incident.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements regarding Pulicat Lagoon is correct?",
+   "o": [
+    "It is the largest brackish lagoon in India and is separated from the sea by Chilika.",
+    "It is a freshwater lagoon fed only by the Godavari.",
+    "It is the second largest brackish lagoon after Chilika and is separated from the sea by Sriharikota.",
+    "It lies entirely within the Krishna delta and has no sea barrier."
+   ],
+   "a": 2,
+   "x": "Pulicat, in Tirupati district, is the second largest brackish lagoon after Chilika and is separated from the sea by Sriharikota.",
+   "ty": "application",
+   "tq": "Combine rank, salinity and the physical barrier in one location-based question.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following rivers is NOT listed as a feeder of Pulicat Lagoon?",
+   "o": [
+    "Swarnamukhi",
+    "Pennar",
+    "Kalangi",
+    "Arani"
+   ],
+   "a": 1,
+   "x": "The listed feeders of Pulicat Lagoon are the Arani, Kalangi and Swarnamukhi rivers. Pennar is not included in that list.",
+   "ty": "negative",
+   "tq": "Find the outsider from a short, specific feeder-river list.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "About what proportion of Andhra Pradesh lies in the Godavari, Krishna and Pennar river basins?",
+   "o": [
+    "About 90%",
+    "About 75%",
+    "About 25%",
+    "About 50%"
+   ],
+   "a": 1,
+   "x": "About 75% of Andhra Pradesh lies within the Godavari, Krishna and Pennar basins.",
+   "ty": "numerical",
+   "tq": "Distinguish the stated approximate share from nearby percentage distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Hyderabad has lost approximately what proportion of its lake area since 1979?",
+   "o": [
+    "About 41%",
+    "About 81%",
+    "About 61%",
+    "About 21%"
+   ],
+   "a": 2,
+   "x": "Hyderabad is reported to have lost about 61% of its lake area since 1979.",
+   "ty": "numerical",
+   "tq": "Anchor the percentage to the stated base year before selecting the option.",
+   "sec": "Universal angles"
+  }
+ ]
+}
