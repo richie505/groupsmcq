@@ -1,0 +1,328 @@
+{
+ "book": 1,
+ "row": 137,
+ "chunk": 2,
+ "section": "Mughal architecture - Fatehpur Sikri, Humayun's tomb, Taj Mahal, Red Fort; garden and tomb traditions",
+ "subsections": [
+  "Garden traditions → location (Shalimar, Nishat, Ram Bagh)",
+  "UNESCO Mughal sites in India",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 24,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which Mughal garden is regarded as the first Mughal garden and is located at Agra?",
+   "o": [
+    "Shalimar Bagh",
+    "Ram Bagh",
+    "Nishat Bagh",
+    "Pinjore Garden"
+   ],
+   "a": 1,
+   "x": "Ram Bagh, situated at Agra, was built by Babur and is regarded as the first Mughal garden.",
+   "ty": "fact",
+   "tq": "Use the first-in-sequence clue and match the garden with its location.",
+   "sec": "Garden traditions → location (Shalimar, Nishat, Ram Bagh)"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Ram Bagh — Agra — Babur\n2. Shalimar Bagh — Srinagar — Jahangir\n3. Nishat Bagh — Srinagar — Asaf Khan\n4. Pinjore Garden — Haryana — Fidai Khan under Aurangzeb\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Ram Bagh was built by Babur, Shalimar Bagh at Srinagar by Jahangir, Nishat Bagh by Asaf Khan, and Pinjore Garden by Fidai Khan under Aurangzeb.",
+   "ty": "statements",
+   "tq": "Verify each location-builder pair before selecting the complete combination.",
+   "sec": "Garden traditions → location (Shalimar, Nishat, Ram Bagh)"
+  },
+  {
+   "s": "Nishat Bagh, situated on the banks of Dal Lake, was built by whom?",
+   "o": [
+    "Asaf Khan",
+    "Jahangir",
+    "Babur",
+    "Fidai Khan"
+   ],
+   "a": 0,
+   "x": "Nishat Bagh at Srinagar, on Dal Lake, was built by Asaf Khan, the brother of Nur Jahan.",
+   "ty": "fact",
+   "tq": "Discriminate between closely associated Mughal garden builders.",
+   "sec": "Garden traditions → location (Shalimar, Nishat, Ram Bagh)"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Nishat Bagh — Srinagar — Asaf Khan",
+    "Pinjore Garden — Haryana — Fidai Khan",
+    "Ram Bagh — Lahore — Babur",
+    "Shalimar Bagh — Srinagar — Jahangir"
+   ],
+   "a": 2,
+   "x": "Ram Bagh was built by Babur at Agra, not Lahore. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the wrong location while keeping the builder association in view.",
+   "sec": "Garden traditions → location (Shalimar, Nishat, Ram Bagh)"
+  },
+  {
+   "s": "Shalimar Gardens at Lahore were built under which Mughal ruler?",
+   "o": [
+    "Aurangzeb",
+    "Jahangir",
+    "Akbar",
+    "Shah Jahan"
+   ],
+   "a": 3,
+   "x": "The Shalimar Gardens at Lahore were built under Shah Jahan. The Shalimar Bagh at Srinagar is associated with Jahangir.",
+   "ty": "confusable",
+   "tq": "Separate the similarly named Shalimar gardens by location and builder.",
+   "sec": "Garden traditions → location (Shalimar, Nishat, Ram Bagh)"
+  },
+  {
+   "s": "Which of the following best describes the relationship between Humayun's Tomb and the Taj Mahal?",
+   "o": [
+    "The Taj Mahal was the first garden tomb and Humayun's Tomb imitated it",
+    "Humayun's Tomb was the first garden tomb, while the Taj Mahal stands within a charbagh tradition",
+    "Both were constructed as fortifications along the Yamuna",
+    "Both monuments were built as congregational mosques"
+   ],
+   "a": 1,
+   "x": "Humayun's Tomb is regarded as the first garden tomb, and the Taj Mahal represents the later development of the garden-tomb and charbagh tradition.",
+   "ty": "comparison",
+   "tq": "Trace the architectural evolution from the earlier monument to the later one.",
+   "sec": "Garden traditions → location (Shalimar, Nishat, Ram Bagh)"
+  },
+  {
+   "s": "Which of the following combinations correctly represents UNESCO inscription years of Mughal sites in India?",
+   "o": [
+    "Agra Fort and Taj Mahal—1993; Fatehpur Sikri—2007; Humayun's Tomb—1983; Red Fort Complex—1986",
+    "Agra Fort and Taj Mahal—1986; Fatehpur Sikri—1983; Humayun's Tomb—2007; Red Fort Complex—1993",
+    "Agra Fort and Taj Mahal—1983; Fatehpur Sikri—1986; Humayun's Tomb—1993; Red Fort Complex—2007",
+    "Agra Fort and Taj Mahal—2007; Fatehpur Sikri—1993; Humayun's Tomb—1986; Red Fort Complex—1983"
+   ],
+   "a": 2,
+   "x": "Agra Fort and the Taj Mahal were inscribed in 1983, Fatehpur Sikri in 1986, Humayun's Tomb in 1993 and the Red Fort Complex in 2007.",
+   "ty": "numerical",
+   "tq": "Anchor the sequence using the four distinct inscription years.",
+   "sec": "UNESCO Mughal sites in India  [GROUP-II]"
+  },
+  {
+   "s": "The Taj Mahal was included among the New Seven Wonders of the World in which year?",
+   "o": [
+    "1983",
+    "1993",
+    "2007",
+    "2010"
+   ],
+   "a": 2,
+   "x": "The Taj Mahal was included among the New Seven Wonders of the World in 2007.",
+   "ty": "numerical",
+   "tq": "Distinguish the UNESCO inscription year from the New Seven Wonders year.",
+   "sec": "UNESCO Mughal sites in India  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Red Fort Complex was inscribed on the UNESCO World Heritage List in 2007.\n2. Humayun's Tomb was inscribed in 1993.\n3. Fatehpur Sikri was inscribed in 1986.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the Red Fort Complex was inscribed in 2007, Humayun's Tomb in 1993 and Fatehpur Sikri in 1986.",
+   "ty": "statements",
+   "tq": "Check each year independently before choosing the combined option.",
+   "sec": "UNESCO Mughal sites in India  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is NOT included in the listed UNESCO Mughal sites in India?",
+   "o": [
+    "Humayun's Tomb",
+    "Red Fort Complex",
+    "Fatehpur Sikri",
+    "Golconda Fort"
+   ],
+   "a": 3,
+   "x": "Golconda Fort is a Qutb Shahi monument and is not included in the listed UNESCO Mughal sites. Humayun's Tomb, the Red Fort Complex and Fatehpur Sikri are included.",
+   "ty": "negative",
+   "tq": "Use the dynasty distinction to eliminate the non-Mughal monument.",
+   "sec": "UNESCO Mughal sites in India  [GROUP-II]"
+  },
+  {
+   "s": "Mughal architecture is generally regarded as the zenith of which architectural tradition?",
+   "o": [
+    "Dravidian temple architecture",
+    "Indo-Islamic architecture",
+    "Gothic architecture",
+    "Buddhist rock-cut architecture"
+   ],
+   "a": 1,
+   "x": "Mughal architecture is regarded as the peak or zenith of Indo-Islamic architecture, combining Persian, Timurid and Indian elements.",
+   "ty": "fact",
+   "tq": "Identify the broad architectural classification rather than a monument-specific feature.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following features is associated with Mughal architecture?\n1. Use of red sandstone and white marble\n2. Charbagh planning\n3. Double domes\n4. Pietra dura and calligraphy\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Mughal architecture is marked by red sandstone and white marble, charbagh layouts, double domes, pietra dura and calligraphic decoration.",
+   "ty": "statements",
+   "tq": "Recognise the complete cluster of characteristic architectural features.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The architectural synthesis represented by Mughal monuments primarily blended which traditions?",
+   "o": [
+    "Roman, Greek and Egyptian",
+    "Dravidian, Gothic and Romanesque",
+    "Persian, Timurid and Indian",
+    "Chinese, Japanese and Indian"
+   ],
+   "a": 2,
+   "x": "Mughal architecture blended Persian, Timurid and Indian architectural elements.",
+   "ty": "fact",
+   "tq": "Test the exact components of a cultural synthesis without confusing them with general influences.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Pietra dura first appeared in Mughal architecture during the reign of which ruler?",
+   "o": [
+    "Babur",
+    "Shah Jahan",
+    "Jahangir",
+    "Akbar"
+   ],
+   "a": 2,
+   "x": "Pietra dura first appeared under Jahangir, although it became especially prominent in later Mughal monuments.",
+   "ty": "fact",
+   "tq": "Use the first-appearance clue rather than the monument most popularly associated with the feature.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following is regarded as the last major imitation in the Mughal garden-tomb tradition?",
+   "o": [
+    "Ram Bagh",
+    "Humayun's Tomb",
+    "Nishat Bagh",
+    "Bibi ka Maqbara"
+   ],
+   "a": 3,
+   "x": "Bibi ka Maqbara is regarded as the last major imitation in the Mughal garden-tomb tradition.",
+   "ty": "fact",
+   "tq": "Distinguish the terminal example from the first example in an architectural sequence.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements correctly distinguishes the Bahmani Jama Masjid at Gulbarga from Mughal open-court mosques?",
+   "o": [
+    "It follows a charbagh garden plan, unlike Mughal tombs",
+    "It is built entirely of white marble, unlike all Mughal mosques",
+    "It has no domes, unlike every Mughal mosque",
+    "It has a fully covered courtyard, unlike the open-court pattern of Mughal mosques"
+   ],
+   "a": 3,
+   "x": "The Bahmani Jama Masjid at Gulbarga is notable for its fully covered courtyard, whereas Mughal mosques generally followed an open-court arrangement.",
+   "ty": "comparison",
+   "tq": "Focus on the precise structural contrast rather than broad stylistic similarities.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Charminar, constructed in 1591, is associated with which dynasty and ruler?",
+   "o": [
+    "Vijayanagara dynasty and Krishnadevaraya",
+    "Qutb Shahi dynasty and Muhammad Quli Qutb Shah",
+    "Bahmani dynasty and Ahmad Shah Wali",
+    "Mughal dynasty and Akbar"
+   ],
+   "a": 1,
+   "x": "Charminar was constructed in 1591 by Muhammad Quli Qutb Shah of the Qutb Shahi dynasty.",
+   "ty": "fact",
+   "tq": "Avoid the dynasty-swapping trap by linking the monument, date and ruler.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements about Qutb Shahi monuments is correct?\n1. Charminar displays Persian arches with Deccani stucco.\n2. Golconda Fort is associated with an acoustic warning system and piped water.\n3. Qutb Shahi tombs at Ibrahim Bagh have onion domes on square bases and are set in gardens.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. These features illustrate the distinctive architectural and engineering achievements of the Qutb Shahi period.",
+   "ty": "statements",
+   "tq": "Group related regional examples and test whether each feature is accurately assigned.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Charminar — fully covered courtyard mosque",
+    "Qutb Shahi tombs — onion domes on square bases in gardens",
+    "Golconda Fort — acoustic warning system and piped water",
+    "Charminar — Persian arches with Deccani stucco"
+   ],
+   "a": 0,
+   "x": "Charminar is not a fully covered courtyard mosque; that feature is associated with the Bahmani Jama Masjid at Gulbarga. The other pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Reject the option that imports a distinctive feature from a different monument.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following monuments is a common distractor when identifying Mughal architectural monuments but is actually a Qutb Shahi work?",
+   "o": [
+    "Taj Mahal",
+    "Agra Fort",
+    "Humayun's Tomb",
+    "Charminar"
+   ],
+   "a": 3,
+   "x": "Charminar is a Qutb Shahi monument of Hyderabad, not a Mughal monument. Humayun's Tomb, the Taj Mahal and Agra Fort belong to the Mughal architectural tradition.",
+   "ty": "confusable",
+   "tq": "Separate Mughal monuments from the nearby Deccan Qutb Shahi example.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding a current legal development:\n1. The Allahabad High Court issued notices to the Centre and the Archaeological Survey of India.\n2. The notices related to a petition challenging an Agra court's refusal to permit a survey of the Taj Mahal.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both statements are correct. The Allahabad High Court issued notices in connection with the petition challenging the Agra court's refusal to allow a survey of the Taj Mahal.",
+   "ty": "statements",
+   "tq": "Link the authority, legal action and subject of the petition without reversing the procedural sequence.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following correctly presents the chronological order of the specified architectural developments?\nA. Ram Bagh\nB. Charminar\nC. First appearance of pietra dura under Jahangir\nD. Inclusion of the Taj Mahal among the New Seven Wonders",
+   "o": [
+    "A, C, B, D",
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, B, D, C"
+   ],
+   "a": 1,
+   "x": "Ram Bagh belongs to Babur's period, followed by Charminar in 1591, the first appearance of pietra dura under Jahangir, and the Taj Mahal's inclusion among the New Seven Wonders in 2007.",
+   "ty": "chronology",
+   "tq": "Place the dated event first, then arrange the dynastic and modern milestones.",
+   "sec": "Universal angles"
+  }
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "book": 1,
+ "row": 146,
+ "chunk": 0,
+ "section": "Sufism - doctrines, khanqah, sama; silsilas - Chishti, Suhrawardi, Qadiri, Naqshbandi",
+ "subsections": [
+  "Silsila → saints belonging to it",
+  "Silsila → founder in India, region and centre"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 24,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Chishti saints)\nA. Moinuddin Chishti\nB. Qutbuddin Bakhtiyar Kaki\nC. Baba Farid\nD. Nizamuddin Auliya\n\nList-II\n1. Delhi\n2. Ajmer\n3. Pakpattan\n4. Delhi and Ajmer\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-2, B-1, C-3, D-1",
+    "A-2, B-3, C-1, D-4",
+    "A-4, B-1, C-2, D-3",
+    "A-1, B-2, C-4, D-3"
+   ],
+   "a": 0,
+   "x": "Moinuddin Chishti was associated with Ajmer, Qutbuddin Bakhtiyar Kaki and Nizamuddin Auliya with Delhi, and Baba Farid with Pakpattan.",
+   "ty": "match",
+   "tq": "Start from the sure pair and eliminate codes containing a wrong saint-centre association.",
+   "sec": "Silsila → saints belonging to it"
+  },
+  {
+   "s": "Which one of the following groups consists entirely of saints belonging to the Chishti Silsila?",
+   "o": [
+    "Miyan Mir, Muhibullah Shah, Dara Shikoh and Burhanuddin Gharib",
+    "Nasiruddin Chiragh-i-Dehlavi, Burhanuddin Gharib, Gesudaraz and Hamiduddin of Nagaur",
+    "Khwaja Baqi Billah, Shaikh Ahmad Sirhindi, Shah Waliullah and Hamiduddin Nagori",
+    "Bahauddin Zakariya, Ruknuddin Abul Fath, Jalaluddin Tabrizi and Gesudaraz"
+   ],
+   "a": 1,
+   "x": "Nasiruddin Chiragh-i-Dehlavi, Burhanuddin Gharib, Gesudaraz and the Chishti Hamiduddin of Nagaur are all associated with the Chishti order.",
+   "ty": "fact",
+   "tq": "Use group identification to separate closely related saints belonging to different Sufi orders.",
+   "sec": "Silsila → saints belonging to it"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Bahauddin Zakariya — Suhrawardi\n2. Ruknuddin Abul Fath — Suhrawardi\n3. Qazi Hamiduddin Nagori — Suhrawardi\n4. Jalaluddin Tabrizi — Suhrawardi\n\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four persons listed—Bahauddin Zakariya, Ruknuddin Abul Fath, Qazi Hamiduddin Nagori and Jalaluddin Tabrizi—belonged to the Suhrawardi Silsila.",
+   "ty": "statements",
+   "tq": "Check whether all members of a named Silsila have been correctly grouped before selecting the complete combination.",
+   "sec": "Silsila → saints belonging to it"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Sufi order)\nA. Qadiri\nB. Qadiri\nC. Naqshbandi\nD. Naqshbandi\n\nList-II (Saint)\n1. Shah Abdul Aziz\n2. Dara Shikoh\n3. Miyan Mir\n4. Shah Waliullah\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-2, B-3, C-1, D-4",
+    "A-3, B-2, C-4, D-1",
+    "A-3, B-4, C-2, D-1",
+    "A-4, B-2, C-3, D-1"
+   ],
+   "a": 1,
+   "x": "Miyan Mir and Dara Shikoh belonged to the Qadiri order, while Shah Abdul Aziz and Shah Waliullah belonged to the Naqshbandi order.",
+   "ty": "match",
+   "tq": "Separate the two paired orders first, then match the saints within each order.",
+   "sec": "Silsila → saints belonging to it"
+  },
+  {
+   "s": "Which of the following is correctly matched?\n\nSufi order — Saint",
+   "o": [
+    "Firdausi — Sharfuddin Yahya Maneri",
+    "Firdausi — Muhammad Ghaus of Gwalior",
+    "Shattari — Shah Waliullah",
+    "Shattari — Shaikh Ahmad Sirhindi"
+   ],
+   "a": 0,
+   "x": "Sharfuddin Yahya Maneri was associated with the Firdausi order. Muhammad Ghaus of Gwalior belonged to the Shattari order, while Shah Waliullah and Shaikh Ahmad Sirhindi were Naqshbandis.",
+   "ty": "fact",
+   "tq": "Use the saint-to-Silsila association and reject saints belonging to neighbouring orders.",
+   "sec": "Silsila → saints belonging to it"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Abdul Qadir Jilani — Chishti order",
+    "Shah Abdullah Shattari — Shattari order",
+    "Muhammad Ghaus of Gwalior — Shattari order",
+    "Sharafuddin Yahya Maneri — Firdausi order"
+   ],
+   "a": 0,
+   "x": "Abdul Qadir Jilani founded the Qadiri order; he was not a Chishti saint. Shah Abdullah Shattari, Muhammad Ghaus and Sharafuddin Yahya Maneri are correctly associated with the orders shown.",
+   "ty": "negative",
+   "tq": "The wrong-founder trap distinguishes Abdul Qadir Jilani from the Chishti order.",
+   "sec": "Silsila → saints belonging to it"
+  },
+  {
+   "s": "With reference to the two Hamiduddins associated with medieval Sufism, consider the following statements:\n1. Hamiduddin of Nagaur, a disciple of Moinuddin Chishti, belonged to the Chishti order.\n2. Qazi Hamiduddin Nagori belonged to the Suhrawardi order.\n3. Both Hamiduddins belonged to the same Sufi order.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1 and 2 only"
+   ],
+   "a": 3,
+   "x": "The Chishti Hamiduddin of Nagaur was a disciple of Moinuddin Chishti, whereas Qazi Hamiduddin Nagori was a Suhrawardi. Therefore, they did not belong to the same order.",
+   "ty": "confusable",
+   "tq": "Discriminate between two persons with similar names by checking their Silsila affiliation.",
+   "sec": "Silsila → saints belonging to it"
+  },
+  {
+   "s": "Who among the following is correctly associated with the introduction of the Chishti order in India?",
+   "o": [
+    "Khwaja Baqi Billah at Delhi",
+    "Bahauddin Zakariya at Multan",
+    "Abdul Qadir Jilani in Punjab",
+    "Moinuddin Chishti at Ajmer"
+   ],
+   "a": 3,
+   "x": "Moinuddin Chishti is regarded as the founder of the Chishti order in India and settled at Ajmer. Bahauddin Zakariya, Baqi Billah and Abdul Qadir Jilani are associated with other orders or roles.",
+   "ty": "fact",
+   "tq": "Match the Indian founder with the centre most strongly associated with that Silsila.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "Moinuddin Chishti came to India with Muhammad Ghori in:",
+   "o": [
+    "1192",
+    "1206",
+    "1290",
+    "1398"
+   ],
+   "a": 0,
+   "x": "Moinuddin Chishti came with Muhammad Ghori in 1192 and settled at Ajmer.",
+   "ty": "numerical",
+   "tq": "Use the date-place combination to distinguish the foundation phase from later Sultanate events.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "Which of the following statements correctly describes the spread of the Chishti order in India?\n\n1. Its important centres included Ajmer and Delhi.\n2. It later spread to the Deccan, including Gulbarga and Bijapur.\n3. Its growth was aided by adaptation to local traditions and vernacular languages.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Chishti order developed around Ajmer and Delhi, later reached Deccan centres such as Gulbarga and Bijapur, and gained popularity by adapting to local traditions and vernacular languages.",
+   "ty": "statements",
+   "tq": "The complete option is appropriate when all three geographical and cultural features are correct.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "The Sufi order whose founder in India was Bahauddin Zakariya and whose principal centre was Multan was:",
+   "o": [
+    "Naqshbandi",
+    "Suhrawardi",
+    "Chishti",
+    "Qadiri"
+   ],
+   "a": 1,
+   "x": "Bahauddin Zakariya introduced the Suhrawardi order in India, and its major khanqah was at Multan in the region of Punjab and Sindh.",
+   "ty": "fact",
+   "tq": "Identify the order by combining its Indian founder with its principal centre.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "The order which was mainly associated with Sindh, Multan and Punjab was:",
+   "o": [
+    "Naqshbandi",
+    "Chishti",
+    "Suhrawardi",
+    "Shattari"
+   ],
+   "a": 2,
+   "x": "The Suhrawardi order was concentrated mainly in Sindh, Multan and Punjab, with Multan serving as an important centre.",
+   "ty": "fact",
+   "tq": "Use regional concentration as the distinguishing clue among the Sufi orders.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "Consider the following statements regarding the Qadiri order:\n1. It was founded by Abdul Qadir Jilani.\n2. It reached India in the fourteenth century according to the stated chronological account.\n3. Miyan Mir and Dara Shikoh were associated with it.\n4. It was centred mainly in Bihar.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Abdul Qadir Jilani founded the Qadiri order; it reached India in the fourteenth century in the stated account, and Miyan Mir and Dara Shikoh were Qadiri figures. Bihar was associated with the Firdausi order, not the Qadiri order.",
+   "ty": "statements",
+   "tq": "Reject the geographically misplaced statement while retaining the founder, date and saint associations.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "The Mahdawi order is associated with:",
+   "o": [
+    "Shah Abdullah Shattari of Mandu",
+    "Sharfuddin Yahya Maneri of Bihar",
+    "Bahauddin Zakariya of Multan",
+    "Syed Muhammad of Jaunpur"
+   ],
+   "a": 3,
+   "x": "The Mahdawi order was associated with Syed Muhammad of Jaunpur. The other persons named belonged to or represented different Sufi traditions.",
+   "ty": "fact",
+   "tq": "Distinguish the Mahdawi order from the better-known Chishti, Suhrawardi and Shattari Silsilas.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n\nSufi order — Founder or Indian introducer",
+   "o": [
+    "Qadiri — Khwaja Baqi Billah in India",
+    "Naqshbandi — Moinuddin Chishti in India",
+    "Suhrawardi — Bahauddin Zakariya in India",
+    "Firdausi — Abdul Qadir Jilani in India"
+   ],
+   "a": 2,
+   "x": "Bahauddin Zakariya was the Indian introducer of the Suhrawardi order. Baqi Billah introduced the Naqshbandi order in India, Moinuddin Chishti the Chishti order, and Abdul Qadir Jilani founded the Qadiri order.",
+   "ty": "fact",
+   "tq": "Apply the founder-versus-Indian-introducer distinction to avoid swapped-person traps.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "Regarding the Naqshbandi order, which one of the following statements is correct?",
+   "o": [
+    "Bahauddin Zakariya established its main khanqah at Multan.",
+    "Bahauddin Naqshband himself established the order in India during Akbar's reign.",
+    "Moinuddin Chishti brought the order to India with Muhammad Ghori.",
+    "Khwaja Baqi Billah brought the order to India in the late sixteenth century."
+   ],
+   "a": 3,
+   "x": "Bahauddin Naqshband was the Central Asian founder and was revered by Babur, but he did not come to India. Khwaja Baqi Billah brought the Naqshbandi order to India in the late sixteenth century.",
+   "ty": "confusable",
+   "tq": "Separate the original founder outside India from the person who introduced the order in India.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "Which one of the following Sufi orders was centred in Bihar and is described as a branch of the Kubrawiya order?",
+   "o": [
+    "Chishti",
+    "Firdausi",
+    "Shattari",
+    "Qadiri"
+   ],
+   "a": 1,
+   "x": "The Firdausi order was centred in Bihar and is described as a branch of the Kubrawiya order. Its important saint was Sharfuddin Yahya Maneri.",
+   "ty": "fact",
+   "tq": "Use the centre and parent-order clues together to identify the correct Silsila.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "Consider the following statements about the major Sufi orders:\n1. The Chishtis generally kept aloof from the court and were liberal in outlook.\n2. The Suhrawardis accepted royal service, wealth and patronage.\n3. The Naqshbandis were strictly orthodox and opposed Akbar's Sulh-i-Kul.\n4. The Shattaris absorbed certain yogic practices.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the characteristic stances of the Chishti, Suhrawardi, Naqshbandi and Shattari orders respectively.",
+   "ty": "statements",
+   "tq": "Compare the orders by their attitude to political authority, orthodoxy and local religious practices.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "Which of the following correctly represents the distinctive practice associated with the Chishti order?",
+   "o": [
+    "Use of sama and Qawwali while generally remaining aloof from the court",
+    "Exclusive concentration on yogic practices",
+    "Acceptance of royal office as a central principle",
+    "Strict opposition to sama and Qawwali"
+   ],
+   "a": 0,
+   "x": "The Chishtis were known for sama and Qawwali, maintained a liberal outlook and generally kept distance from the royal court.",
+   "ty": "comparison",
+   "tq": "Contrast the Chishti attitude to court life with the Suhrawardi policy of accepting patronage.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "The Suhrawardi order is best described as:",
+   "o": [
+    "Strictly orthodox and opposed to Akbar's Sulh-i-Kul",
+    "Focused on absorbing yogic practices at Mandu and Gwalior",
+    "Pragmatic and willing to accept royal service, wealth and patronage",
+    "Liberal, court-aloof and opposed to all forms of patronage"
+   ],
+   "a": 2,
+   "x": "The Suhrawardis adopted a pragmatic approach and accepted royal service, wealth and patronage. The other descriptions refer mainly to Chishti, Naqshbandi and Shattari characteristics.",
+   "ty": "comparison",
+   "tq": "Identify the correct order by matching its institutional attitude towards rulers and material patronage.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "Which of the following statements about the Naqshbandi order is correct?\n\n1. It originated with Bahauddin Naqshband in Central Asia.\n2. It was revered by Babur.\n3. In India, it was associated with Khwaja Baqi Billah and Shaikh Ahmad Sirhindi.\n4. It supported Akbar's Sulh-i-Kul.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "The first three statements are correct. The Naqshbandis were strictly orthodox and opposed Akbar's Sulh-i-Kul, so statement 4 is false.",
+   "ty": "statements",
+   "tq": "Find the reversed ideological comparison: opposition to Sulh-i-Kul is a Naqshbandi feature.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "The Qadiri Sufi order is particularly associated with the doctrine of:",
+   "o": [
+    "Sulh-i-Kul",
+    "Complete withdrawal from all spiritual gatherings",
+    "Ba-shara orthodoxy alone",
+    "Wahdat-ul-Wujud"
+   ],
+   "a": 3,
+   "x": "The Qadiri order is associated with Wahdat-ul-Wujud. Ba-shara is noted in connection with the Firdausi order, while Sulh-i-Kul was opposed by the Naqshbandis.",
+   "ty": "fact",
+   "tq": "Distinguish closely related doctrinal labels by linking each doctrine to its specific Silsila.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "The Shattari order, associated with Mandu and Gwalior, was founded by or associated in India with:",
+   "o": [
+    "Moinuddin Chishti",
+    "Bahauddin Zakariya",
+    "Khwaja Baqi Billah",
+    "Shah Abdullah Shattari"
+   ],
+   "a": 3,
+   "x": "Shah Abdullah Shattari was associated with the Shattari order, which had centres at Mandu and Gwalior. Muhammad Ghaus of Gwalior, described as Tansen's guide, was one of its prominent saints.",
+   "ty": "fact",
+   "tq": "Combine the order's name with its founder and regional centres to avoid founder swaps.",
+   "sec": "Silsila → founder in India, region and centre"
+  },
+  {
+   "s": "Muhammad Ghaus of Gwalior, described as Tansen's guide, belonged to which Sufi order?",
+   "o": [
+    "Suhrawardi",
+    "Shattari",
+    "Naqshbandi",
+    "Chishti"
+   ],
+   "a": 1,
+   "x": "Muhammad Ghaus of Gwalior belonged to the Shattari order and is identified as Tansen's guide.",
+   "ty": "fact",
+   "tq": "Use the distinctive cultural association with Tansen to identify the correct Silsila.",
+   "sec": "Silsila → saints belonging to it"
+  }
+ ]
+}

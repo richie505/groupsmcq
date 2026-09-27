@@ -1,0 +1,627 @@
+{
+ "book": 1,
+ "row": 130,
+ "chunk": 0,
+ "section": "Akbar's institutions - Mansabdari system, Todar Mal's bandobast, dahsala, zabti and other revenue systems",
+ "subsections": [
+  "Revenue systems → meaning + year + region",
+  "Mansabdari system - introducer, zat/sawar, du-aspa sih-aspa, pay, ranks, origin",
+  "Revenue officials → duty",
+  "Todar Mal - service, bandobast, jarib, land classes, office",
+  "Revenue and grant terms → meaning; principal state income",
+  "Central ministers",
+  "Karori experiment and revenue circles",
+  "Administrative structure - subas, sarkars, parganas, officials"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 44,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Zabti — Crop-sharing between the state and peasant",
+    "Batai — Rough assessment based on past revenue records",
+    "Kankut — Yield estimated on the standing crop",
+    "Nasaq — Land measured and cash rates fixed per crop"
+   ],
+   "a": 2,
+   "x": "Kankut involved estimating the yield on the standing crop. Zabti involved measurement and cash rates, Batai involved crop-sharing, and Nasaq relied on past revenue records.",
+   "ty": "match",
+   "tq": "Start from the sure pair and eliminate swapped meanings.",
+   "sec": "Revenue systems → meaning + year + region"
+  },
+  {
+   "s": "The Dahsala system was introduced in which year?",
+   "o": [
+    "1574",
+    "1580",
+    "1582",
+    "1590"
+   ],
+   "a": 1,
+   "x": "Ain-i-Dahsala was introduced in 1580.",
+   "ty": "numerical",
+   "tq": "Use the year-specific numerical distinction among closely related revenue reforms.",
+   "sec": "Revenue systems → meaning + year + region"
+  },
+  {
+   "s": "Consider the following statements regarding the Dahsala system:\n1. It was based on the average produce and prices of the preceding ten years.\n2. The assessed revenue was commuted into cash.\n3. It was introduced in 1574.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false: Dahsala was introduced in 1580, whereas 1574 relates to the Karori experiment.",
+   "ty": "statements",
+   "tq": "Separate the associated reform year from the year of the Karori experiment.",
+   "sec": "Revenue systems → meaning + year + region"
+  },
+  {
+   "s": "Zabti or Bandobast was mainly applied in which of the following region groups?",
+   "o": [
+    "Lahore to Allahabad, Malwa and Gujarat",
+    "The entire Deccan and southern peninsula",
+    "Thatta, Kabul and Kashmir",
+    "Bengal and eastern Bihar"
+   ],
+   "a": 0,
+   "x": "Zabti was used in the core provinces of North India, extending from Lahore to Allahabad and including Malwa and Gujarat.",
+   "ty": "fact",
+   "tq": "Test regional association rather than merely the definition of the system.",
+   "sec": "Revenue systems → meaning + year + region"
+  },
+  {
+   "s": "Which one of the following revenue systems was particularly associated with areas such as Thatta, Kabul and Kashmir?",
+   "o": [
+    "Kankut",
+    "Nasaq",
+    "Batai or Ghalla-bakhshi",
+    "Zabti"
+   ],
+   "a": 2,
+   "x": "Batai or Ghalla-bakhshi involved sharing the crop between the state and the peasant and was used in areas such as Thatta, Kabul and Kashmir.",
+   "ty": "fact",
+   "tq": "Discriminate between systems by linking each one to its characteristic region.",
+   "sec": "Revenue systems → meaning + year + region"
+  },
+  {
+   "s": "Nasaq was a system of:",
+   "o": [
+    "Yield estimation from standing crops",
+    "Crop-sharing after threshing",
+    "Assessment based on the number of ploughs",
+    "Rough assessment from past revenue records without fresh measurement"
+   ],
+   "a": 3,
+   "x": "Nasaq was a rough assessment based on previous revenue records and did not involve fresh measurement; it was mainly used in Bengal.",
+   "ty": "fact",
+   "tq": "Match the exact administrative meaning with the correct revenue term.",
+   "sec": "Revenue systems → meaning + year + region"
+  },
+  {
+   "s": "In parts of the Deccan, revenue assessment was based primarily on the:",
+   "o": [
+    "Number of cavalrymen",
+    "Number of ploughs",
+    "Average price of ten years",
+    "Size of the imperial jagir"
+   ],
+   "a": 1,
+   "x": "In parts of the Deccan, assessment by the number of ploughs prevailed.",
+   "ty": "fact",
+   "tq": "Use the distinctive regional basis of assessment to reject familiar alternatives.",
+   "sec": "Revenue systems → meaning + year + region"
+  },
+  {
+   "s": "Consider the following statements about the state share under the land revenue arrangements:\n1. The state share was one-third of the average produce.\n2. It was paid in cash known as dam.\n3. Payment in kind was not permitted under any circumstances.\n4. Taccavi loans and remissions could provide relief during calamities.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "1, 3 and 4 only",
+    "2, 3 and 4 only"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 4 are correct. Statement 3 is false because payment in kind was allowed in some areas.",
+   "ty": "statements",
+   "tq": "Find the absolute claim hidden in an otherwise familiar revenue description.",
+   "sec": "Revenue systems → meaning + year + region"
+  },
+  {
+   "s": "With reference to the Mansabdari system, which one of the following statements is correct?",
+   "o": [
+    "It formed the backbone of only the military administration.",
+    "It was confined to hereditary officers paid exclusively in land.",
+    "It served as the backbone of both civil and military administration.",
+    "It abolished the distinction between personal rank and cavalry obligation."
+   ],
+   "a": 2,
+   "x": "The Mansabdari system formed the backbone of both civil and military administration. Mansabs were not hereditary, and payment could be in cash or through jagirs.",
+   "ty": "fact",
+   "tq": "Reject restrictive statements by identifying the full administrative scope of the institution.",
+   "sec": "Mansabdari system - introducer, zat/sawar, du-aspa sih-aspa, pay, ranks, origin"
+  },
+  {
+   "s": "What did the ‘sawar’ component of a mansab indicate?",
+   "o": [
+    "The cash salary paid from the khalisa",
+    "The number of cavalrymen to be maintained",
+    "The rank of the mansabdar in the civil hierarchy",
+    "The number of villages under revenue control"
+   ],
+   "a": 1,
+   "x": "Sawar indicated the number of cavalrymen that the mansabdar was required to maintain.",
+   "ty": "fact",
+   "tq": "Apply the zat–sawar distinction to a precise administrative function.",
+   "sec": "Mansabdari system - introducer, zat/sawar, du-aspa sih-aspa, pay, ranks, origin"
+  },
+  {
+   "s": "A mansabdar whose sawar rank was equal to his zat rank belonged to which class?",
+   "o": [
+    "Conditional class",
+    "Second class",
+    "First class",
+    "Third class"
+   ],
+   "a": 2,
+   "x": "A mansabdar whose sawar rank equalled his zat rank belonged to the first class. Half or more but less than the full zat was the second class, and less than half was the third class.",
+   "ty": "application",
+   "tq": "Use the ratio between zat and sawar to classify the mansabdar.",
+   "sec": "Mansabdari system - introducer, zat/sawar, du-aspa sih-aspa, pay, ranks, origin"
+  },
+  {
+   "s": "The du-aspa sih-aspa provision was introduced by:",
+   "o": [
+    "Shah Jahan",
+    "Jahangir",
+    "Aurangzeb",
+    "Akbar"
+   ],
+   "a": 1,
+   "x": "Jahangir introduced du-aspa sih-aspa for trusted nobles. It required double the sawars at double pay.",
+   "ty": "fact",
+   "tq": "Use the ruler–reform association as the decisive clue.",
+   "sec": "Mansabdari system - introducer, zat/sawar, du-aspa sih-aspa, pay, ranks, origin"
+  },
+  {
+   "s": "Under the du-aspa sih-aspa arrangement, a noble was entitled to:",
+   "o": [
+    "Double the sawars at double pay",
+    "Double the zat rank without maintaining cavalry",
+    "Half the sawars at ordinary pay",
+    "A hereditary jagir yielding double revenue"
+   ],
+   "a": 0,
+   "x": "Du-aspa sih-aspa required the maintenance of double the prescribed sawars and carried double pay for those cavalry obligations.",
+   "ty": "fact",
+   "tq": "Match the paired administrative privilege with its exact numerical effect.",
+   "sec": "Mansabdari system - introducer, zat/sawar, du-aspa sih-aspa, pay, ranks, origin"
+  },
+  {
+   "s": "A mansabdar with 4,000 sawar, including 1,000 du-aspa, drew approximately:",
+   "o": [
+    "4 crore dams",
+    "5 crore dams",
+    "2.4 crore dams",
+    "3.2 crore dams"
+   ],
+   "a": 0,
+   "x": "The stated example gives a payment of 4 crore dams for 4,000 sawar including 1,000 du-aspa, instead of 3.2 crore dams.",
+   "ty": "numerical",
+   "tq": "Calculate from the specific worked example rather than confusing the ordinary and enhanced rates.",
+   "sec": "Mansabdari system - introducer, zat/sawar, du-aspa sih-aspa, pay, ranks, origin"
+  },
+  {
+   "s": "Which of the following statements about mansab payment and tenure is correct?",
+   "o": [
+    "Payment was made only in kind, and the post passed to the eldest son.",
+    "Payment could be made in cash or through a jagir, and the post was not hereditary.",
+    "Payment was made from village common lands, and the post was permanent.",
+    "Payment was made only through hereditary jagirs."
+   ],
+   "a": 1,
+   "x": "Mansabdars could receive naqd payment or a jagir assignment, but the mansab itself was not hereditary.",
+   "ty": "fact",
+   "tq": "Combine the payment mode and non-hereditary character without accepting an absolute distractor.",
+   "sec": "Mansabdari system - introducer, zat/sawar, du-aspa sih-aspa, pay, ranks, origin"
+  },
+  {
+   "s": "Which pair was used to check the effective strength and identity of troops maintained by mansabdars?",
+   "o": [
+    "Dagh and chehra",
+    "Zat and jagir",
+    "Jarib and gaz-i-Ilahi",
+    "Nasaq and kankut"
+   ],
+   "a": 0,
+   "x": "Dagh was horse branding and chehra was the descriptive roll, together providing checks on the cavalry establishment.",
+   "ty": "match",
+   "tq": "Identify the administrative control pair rather than the revenue-measurement pair.",
+   "sec": "Mansabdari system - introducer, zat/sawar, du-aspa sih-aspa, pay, ranks, origin"
+  },
+  {
+   "s": "Consider the following statements regarding mansab ranks under Akbar:\n1. Ranks ranged from 10 to 10,000.\n2. The highest ranks were reserved for princes.\n3. The decimal ranking system had a Central Asian, particularly Mongol, origin.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Akbar’s mansab ranks ranged from 10 to 10,000, the highest were reserved for princes, and the decimal pattern had Central Asian or Mongol origins.",
+   "ty": "statements",
+   "tq": "Use the complete set of numerical, social and historical attributes of the ranking system.",
+   "sec": "Mansabdari system - introducer, zat/sawar, du-aspa sih-aspa, pay, ranks, origin"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Sihmaha — Jagir yielding a quarter of the required amount",
+    "Shah Jahan — Month-scale classification of jagirs",
+    "Shashmaha — Jagir yielding half of the required amount",
+    "Aurangzeb — Introduction of the decimal ranking system"
+   ],
+   "a": 3,
+   "x": "Aurangzeb introduced the mashrut, or conditional, rank. The decimal ranking system had Central Asian origins and was associated with the earlier Mansabdari arrangement.",
+   "ty": "negative",
+   "tq": "Find the ruler–reform mismatch among closely related later changes.",
+   "sec": "Mansabdari system - introducer, zat/sawar, du-aspa sih-aspa, pay, ranks, origin"
+  },
+  {
+   "s": "The official responsible for collecting revenue in charge of a district was the:",
+   "o": [
+    "Karkun",
+    "Potdar",
+    "Amalguzar or amil",
+    "Bitikchi"
+   ],
+   "a": 2,
+   "x": "The amalguzar, also called amil, was the district-level revenue collector.",
+   "ty": "fact",
+   "tq": "Match the official with the level and function of revenue administration.",
+   "sec": "Revenue officials → duty"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Official)\nA. Bitikchi\nB. Qanungo\nC. Potdar\nD. Patwari\n\nList-II (Duty)\n1. Treasurer\n2. Village accountant\n3. Accountant preparing assessment and land records\n4. Pargana-level record-keeper of village revenue\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-3, B-4, C-1, D-2",
+    "A-4, B-3, C-2, D-1",
+    "A-3, B-2, C-1, D-4",
+    "A-2, B-4, C-3, D-1"
+   ],
+   "a": 0,
+   "x": "Bitikchi prepared assessment and land records; Qanungo maintained pargana-level revenue records; Potdar was the treasurer; and Patwari was the village accountant.",
+   "ty": "match",
+   "tq": "Start from the distinctive treasurer and village-accountant pairs, then complete the code.",
+   "sec": "Revenue officials → duty"
+  },
+  {
+   "s": "The Karkun was primarily a:",
+   "o": [
+    "Clerk or writer of revenue records",
+    "Military commander of a sarkar",
+    "Headman of a village",
+    "Treasurer of the imperial household"
+   ],
+   "a": 0,
+   "x": "Karkun referred to a clerk or writer responsible for revenue records.",
+   "ty": "fact",
+   "tq": "Distinguish the clerical revenue official from military and village officers.",
+   "sec": "Revenue officials → duty"
+  },
+  {
+   "s": "Todar Mal’s revenue arrangements built upon the earlier survey-based system of:",
+   "o": [
+    "Jahangir",
+    "Aurangzeb",
+    "Sher Shah",
+    "Bairam Khan"
+   ],
+   "a": 2,
+   "x": "Todar Mal had earlier served Sher Shah and built upon Sher Shah’s survey-based system.",
+   "ty": "fact",
+   "tq": "Use the predecessor–administrator relationship instead of the later Mughal succession.",
+   "sec": "Todar Mal - service, bandobast, jarib, land classes, office"
+  },
+  {
+   "s": "The gaz-i-Ilahi used in Todar Mal’s measurements was approximately:",
+   "o": [
+    "52 cm",
+    "72 cm",
+    "82 cm",
+    "92 cm"
+   ],
+   "a": 2,
+   "x": "The gaz-i-Ilahi was the unit of length and measured about 82 centimetres.",
+   "ty": "numerical",
+   "tq": "Discriminate among close numerical alternatives using the stated measurement unit.",
+   "sec": "Todar Mal - service, bandobast, jarib, land classes, office"
+  },
+  {
+   "s": "What was the principal advantage of the bamboo jarib used in land measurement?",
+   "o": [
+    "It was a rope treated with oil to increase its elasticity.",
+    "It was made of bamboo pieces joined with iron rings and avoided the shrinkage or stretching of hemp rope.",
+    "It consisted exclusively of a single iron rod and could measure only irrigated land.",
+    "It was made of wooden pieces joined with leather and used only for crop sharing."
+   ],
+   "a": 1,
+   "x": "The jarib was made from bamboo pieces joined with iron rings, avoiding the shrinkage or stretching associated with hemp rope.",
+   "ty": "fact",
+   "tq": "Identify the material-based improvement and reject altered construction details.",
+   "sec": "Todar Mal - service, bandobast, jarib, land classes, office"
+  },
+  {
+   "s": "Which one of the following sequences correctly arranges the land classes from annual cultivation to the longest period of uncultivation?",
+   "o": [
+    "Polaj, Parauti, Chachar, Banjar",
+    "Parauti, Polaj, Banjar, Chachar",
+    "Chachar, Banjar, Polaj, Parauti",
+    "Banjar, Chachar, Parauti, Polaj"
+   ],
+   "a": 0,
+   "x": "Polaj was cultivated every year, Parauti remained fallow for one or two years, Chachar for three or four years, and Banjar for five or more years.",
+   "ty": "chronology",
+   "tq": "Arrange the categories by increasing duration of fallow rather than by name recognition.",
+   "sec": "Todar Mal - service, bandobast, jarib, land classes, office"
+  },
+  {
+   "s": "A field left fallow for three to four years was classified as:",
+   "o": [
+    "Banjar",
+    "Polaj",
+    "Parauti",
+    "Chachar"
+   ],
+   "a": 3,
+   "x": "Chachar referred to land left fallow for three to four years.",
+   "ty": "confusable",
+   "tq": "Separate the adjacent fallow-duration categories precisely.",
+   "sec": "Todar Mal - service, bandobast, jarib, land classes, office"
+  },
+  {
+   "s": "Todar Mal held which office in the Mughal Empire?",
+   "o": [
+    "Diwan or finance minister",
+    "Mir Bakhshi",
+    "Mir Saman",
+    "Sadr-us-Sudur"
+   ],
+   "a": 0,
+   "x": "Todar Mal served as the Diwan, or finance minister, of the empire and was also counted among the Navratnas.",
+   "ty": "fact",
+   "tq": "Use the office–portfolio association while avoiding neighbouring central offices.",
+   "sec": "Todar Mal - service, bandobast, jarib, land classes, office"
+  },
+  {
+   "s": "Which one of the following grants was revenue-free and intended for scholars, holy men and the needy?",
+   "o": [
+    "Maal",
+    "Jagir",
+    "Khalisa",
+    "Madad-i-maash"
+   ],
+   "a": 3,
+   "x": "Madad-i-maash was a revenue-free grant made to scholars, holy men and needy persons.",
+   "ty": "fact",
+   "tq": "Match the grant term with its beneficiaries and fiscal character.",
+   "sec": "Revenue and grant terms → meaning; principal state income"
+  },
+  {
+   "s": "Suyurghal was another name for:",
+   "o": [
+    "A military pay register",
+    "A charitable revenue-free grant",
+    "A crop-sharing assessment",
+    "A crown land whose revenue went to the treasury"
+   ],
+   "a": 1,
+   "x": "Suyurghal was another term for charitable revenue-free grants such as madad-i-maash.",
+   "ty": "confusable",
+   "tq": "Test synonymous administrative terms rather than their broader categories.",
+   "sec": "Revenue and grant terms → meaning; principal state income"
+  },
+  {
+   "s": "The principal source of state income in the Mughal revenue system was known as:",
+   "o": [
+    "Suyurghal",
+    "Dagh",
+    "Maal or mal",
+    "Madad-i-maash"
+   ],
+   "a": 2,
+   "x": "Maal or mal denoted land revenue and constituted the principal state income.",
+   "ty": "fact",
+   "tq": "Distinguish the main state income from grants and military controls.",
+   "sec": "Revenue and grant terms → meaning; principal state income"
+  },
+  {
+   "s": "Which of the following correctly describes Khalisa land?",
+   "o": [
+    "Land assessed only through crop-sharing",
+    "Land assigned to a mansabdar as hereditary property",
+    "Crown land whose revenue went directly to the imperial treasury",
+    "Land granted revenue-free to religious scholars"
+   ],
+   "a": 2,
+   "x": "Khalisa was crown land, and its revenue went directly to the imperial treasury. It served as the reserve against which cash salaries were paid.",
+   "ty": "fact",
+   "tq": "Separate revenue destination from ownership and grant arrangements.",
+   "sec": "Revenue and grant terms → meaning; principal state income"
+  },
+  {
+   "s": "A jagir under the Mughal system represented:",
+   "o": [
+    "A direct cash payment from the khalisa treasury",
+    "Ownership of the assigned villages",
+    "The right to collect revenue in lieu of salary, without ownership",
+    "A permanent revenue-free grant to scholars"
+   ],
+   "a": 2,
+   "x": "A jagir was an assignment of the right to collect revenue in lieu of salary; it did not confer ownership of the land.",
+   "ty": "application",
+   "tq": "Apply the distinction between revenue-collection rights and ownership.",
+   "sec": "Revenue and grant terms → meaning; principal state income"
+  },
+  {
+   "s": "Which minister was the chief minister and held the title vakil-us-saltanat?",
+   "o": [
+    "Mir Saman",
+    "Wakil",
+    "Sadr-us-Sudur",
+    "Mir Bakhshi"
+   ],
+   "a": 1,
+   "x": "The Wakil, or vakil-us-saltanat, was the chief minister. Bairam Khan held this office during the regency, after which Akbar reduced its importance.",
+   "ty": "fact",
+   "tq": "Match the title with the office and use the regency association as confirmation.",
+   "sec": "Central ministers"
+  },
+  {
+   "s": "Consider the following statements about Mughal central ministers:\n1. The Wazir or Diwan dealt with finance and revenue.\n2. The Mir Bakhshi dealt with military pay, mansabs and intelligence.\n3. The Mir Saman supervised the royal household and karkhanas.\n4. The Sadr-us-Sudur dealt with religion, charity and madad-i-maash grants.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. These portfolios respectively covered finance, military administration, royal household management, and religious-charitable matters.",
+   "ty": "statements",
+   "tq": "Match each portfolio independently before selecting the complete combination.",
+   "sec": "Central ministers"
+  },
+  {
+   "s": "The Karori experiment was launched in:",
+   "o": [
+    "1565",
+    "1574",
+    "1580",
+    "1585"
+   ],
+   "a": 1,
+   "x": "In 1574, the core provinces were divided into revenue circles under karoris.",
+   "ty": "numerical",
+   "tq": "Distinguish the experimental year from the subsequent year of Dahsala.",
+   "sec": "Karori experiment and revenue circles"
+  },
+  {
+   "s": "Under the Karori experiment, each revenue circle was intended to yield:",
+   "o": [
+    "Ten crore dams",
+    "One lakh dams",
+    "Ten lakh dams",
+    "One crore dams"
+   ],
+   "a": 3,
+   "x": "Each circle was designed to yield one crore dams and was placed under a karori.",
+   "ty": "numerical",
+   "tq": "Use the scale of the revenue circle as the central numerical clue.",
+   "sec": "Karori experiment and revenue circles"
+  },
+  {
+   "s": "Which one of the following best explains the importance of the Karori experiment?",
+   "o": [
+    "It replaced all mansabs with hereditary offices.",
+    "It collected revenue and cultivation data that laid the groundwork for the Dahsala system.",
+    "It introduced the du-aspa sih-aspa system for trusted nobles.",
+    "It converted every jagir into khalisa land."
+   ],
+   "a": 1,
+   "x": "Karoris collected revenue and reported cultivation data. This information helped lay the groundwork for Dahsala, introduced in 1580.",
+   "ty": "application",
+   "tq": "Link the administrative experiment to its later policy outcome.",
+   "sec": "Karori experiment and revenue circles"
+  },
+  {
+   "s": "Which one of the following is the correct descending order of Mughal administrative units?",
+   "o": [
+    "Suba — Sarkar — Pargana — Village",
+    "Sarkar — Suba — Pargana — Village",
+    "Suba — Pargana — Sarkar — Village",
+    "Village — Pargana — Sarkar — Suba"
+   ],
+   "a": 0,
+   "x": "The administrative hierarchy proceeded from Suba to Sarkar to Pargana and then to the village.",
+   "ty": "chronology",
+   "tq": "Arrange territorial units from the broadest to the smallest level.",
+   "sec": "Administrative structure - subas, sarkars, parganas, officials"
+  },
+  {
+   "s": "How many subas existed in 1580, and how many did they later become?",
+   "o": [
+    "10 and 12",
+    "12 and 15",
+    "15 and 18",
+    "18 and 20"
+   ],
+   "a": 1,
+   "x": "There were 12 subas in 1580, and their number later increased to 15.",
+   "ty": "numerical",
+   "tq": "Retain both stages of a changing administrative number.",
+   "sec": "Administrative structure - subas, sarkars, parganas, officials"
+  },
+  {
+   "s": "Which of the following officials were associated with a Suba?\n1. Subedar\n2. Diwan\n3. Bakhshi\n4. Sadr\n5. Qazi\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 3, 4 and 5 only",
+    "2, 3 and 4 only",
+    "1, 2, 3, 4 and 5"
+   ],
+   "a": 3,
+   "x": "The officials associated with a Suba included the Subedar, Diwan, Bakhshi, Sadr and Qazi.",
+   "ty": "statements",
+   "tq": "Check the complete composition of the provincial administrative group.",
+   "sec": "Administrative structure - subas, sarkars, parganas, officials"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Sarkar — Faujdar and amalguzar",
+    "Pargana — Kotwal and chowkidar",
+    "Town — Shiqdar and qanungo",
+    "Village — Subedar and diwan"
+   ],
+   "a": 0,
+   "x": "At the Sarkar level, the Faujdar dealt with law and order and the amalguzar with revenue. Shiqdar, amil and qanungo belonged to the Pargana, while Kotwal was the town official.",
+   "ty": "match",
+   "tq": "Match officials to the correct territorial level instead of their individual functions alone.",
+   "sec": "Administrative structure - subas, sarkars, parganas, officials"
+  },
+  {
+   "s": "The Kotwal was responsible primarily for:",
+   "o": [
+    "Military pay and intelligence",
+    "Police and municipal order in a town",
+    "Revenue collection in a district",
+    "Religious grants at the provincial level"
+   ],
+   "a": 1,
+   "x": "The Kotwal maintained police and municipal order in the town.",
+   "ty": "fact",
+   "tq": "Associate the urban official with civic and policing duties.",
+   "sec": "Administrative structure - subas, sarkars, parganas, officials"
+  },
+  {
+   "s": "Which set of officials was associated with the village administration?",
+   "o": [
+    "Shiqdar, Amil and Qanungo",
+    "Faujdar, Amalguzar and Qazi",
+    "Muqaddam, Patwari and Chowkidar",
+    "Subedar, Diwan and Bakhshi"
+   ],
+   "a": 2,
+   "x": "The village officials were the Muqaddam, or headman, the Patwari and the Chowkidar.",
+   "ty": "fact",
+   "tq": "Identify the lowest administrative level through its complete official set.",
+   "sec": "Administrative structure - subas, sarkars, parganas, officials"
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "book": 1,
+ "row": 171,
+ "chunk": 1,
+ "section": "Governors-General of Bengal and of India - Warren Hastings to Dalhousie: key measures",
+ "subsections": [
+  "PERSON - titles and real names",
+  "Impeachment of Warren Hastings - charges and outcome",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 13,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nPopular title — Person",
+   "o": [
+    "Father of Civil Services in India — Lord Cornwallis",
+    "Father of Modern Western Education in India — Lord Dalhousie",
+    "Bengal Tiger — Lord Cornwallis",
+    "Father of Civil Services in India — Lord Wellesley"
+   ],
+   "a": 0,
+   "x": "Lord Cornwallis is known as the Father of Civil Services in India. William Bentinck is associated with modern Western education, while Wellesley was described as the Bengal Tiger.",
+   "ty": "match",
+   "tq": "Start from the sure title–person pair and reject swapped names.",
+   "sec": "PERSON - titles and real names"
+  },
+  {
+   "s": "Who among the following was popularly described as the \"Bengal Tiger\" in his own description?",
+   "o": [
+    "Lord Bentinck",
+    "Lord Cornwallis",
+    "Lord Wellesley",
+    "Lord Dalhousie"
+   ],
+   "a": 2,
+   "x": "Lord Wellesley described himself as the \"Bengal Tiger\".",
+   "ty": "fact",
+   "tq": "Use the exact title rather than associating the description with a neighbouring Governor-General.",
+   "sec": "PERSON - titles and real names"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Richard Colley Wellesley — Earl of Mornington\n2. Francis Rawdon-Hastings — Lord Moira\n3. Gilbert Elliot — Minto I\n4. James Andrew Broun-Ramsay — Dalhousie\n\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Wellesley was Richard Colley Wellesley, Hastings was Francis Rawdon-Hastings, Minto I was Gilbert Elliot, and Dalhousie was James Andrew Broun-Ramsay.",
+   "ty": "statements",
+   "tq": "Check each real-name and title pairing independently before selecting the complete combination.",
+   "sec": "PERSON - titles and real names"
+  },
+  {
+   "s": "With reference to the impeachment of Warren Hastings, consider the following statements:\n1. Edmund Burke and the Whigs impeached Warren Hastings in the British Parliament in 1787.\n2. The impeachment was connected with alleged administrative excesses.\n3. The trial ended in his conviction in 1795.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. The trial ran from 1788 to 1795 and ended in Hastings's acquittal, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Find the outcome trap: acquittal has been changed to conviction.",
+   "sec": "Impeachment of Warren Hastings - charges and outcome"
+  },
+  {
+   "s": "The impeachment proceedings against Warren Hastings were initiated in which year?",
+   "o": [
+    "1774",
+    "1775",
+    "1787",
+    "1788"
+   ],
+   "a": 2,
+   "x": "Warren Hastings was impeached in 1787 by Edmund Burke and the Whigs in the British Parliament. The trial itself began in 1788.",
+   "ty": "numerical",
+   "tq": "Separate the year of impeachment from the year in which the trial commenced.",
+   "sec": "Impeachment of Warren Hastings - charges and outcome"
+  },
+  {
+   "s": "The trial of Warren Hastings on impeachment charges continued from 1788 until:",
+   "o": [
+    "1792",
+    "1793",
+    "1795",
+    "1798"
+   ],
+   "a": 2,
+   "x": "The impeachment trial of Warren Hastings ran from 1788 to 1795 and ended in his acquittal.",
+   "ty": "numerical",
+   "tq": "Distinguish the duration of the trial from the earlier year of impeachment.",
+   "sec": "Impeachment of Warren Hastings - charges and outcome"
+  },
+  {
+   "s": "Which one of the following was NOT among the charges associated with the impeachment of Warren Hastings?",
+   "o": [
+    "Treatment of Chait Singh of Benares",
+    "Plunder of the Begums of Awadh",
+    "Judicial murder of Nand Kumar",
+    "Introduction of the Subsidiary Alliance with the Nizam"
+   ],
+   "a": 3,
+   "x": "The charges included the Rohilla War, the treatment of Chait Singh, the plunder of the Begums of Awadh and the judicial murder of Nand Kumar. The Subsidiary Alliance with the Nizam was associated with Wellesley, not with the impeachment charges against Hastings.",
+   "ty": "negative",
+   "tq": "Find the item belonging to a different Governor-General and policy context.",
+   "sec": "Impeachment of Warren Hastings - charges and outcome"
+  },
+  {
+   "s": "Which one of the following correctly represents the successive changes in the title of the head of British administration in India?",
+   "o": [
+    "Governor of Bengal → Governor-General of Bengal → Governor-General of India → Viceroy",
+    "Governor-General of Bengal → Governor of Bengal → Viceroy → Governor-General of India",
+    "Governor of Bengal → Governor-General of India → Governor-General of Bengal → Viceroy",
+    "Governor of Bengal → Viceroy → Governor-General of Bengal → Governor-General of India"
+   ],
+   "a": 0,
+   "x": "The sequence was Governor of Bengal, Governor-General of Bengal from 1773, Governor-General of India from 1833, and Viceroy from 1858.",
+   "ty": "chronology",
+   "tq": "Fix the first and last titles, then place the two intermediate constitutional changes in order.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The title of Governor-General of India replaced the title of Governor-General of Bengal in:",
+   "o": [
+    "1773",
+    "1798",
+    "1833",
+    "1858"
+   ],
+   "a": 2,
+   "x": "The title changed to Governor-General of India in 1833. The title of Viceroy came later in 1858.",
+   "ty": "numerical",
+   "tq": "Distinguish the constitutional year of a title change from the years of earlier and later changes.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following sets of measures is correctly associated with Lord Wellesley in the Andhra-related context?",
+   "o": [
+    "Subsidiary Alliance with the Nizam in 1798, Ceded Districts in 1800 and merger of Andhra into Madras in 1801",
+    "Subsidiary Alliance with the Nizam in 1801, Ceded Districts in 1798 and merger of Andhra into Madras in 1800",
+    "Subsidiary Alliance with the Nizam in 1829, Ceded Districts in 1833 and merger of Andhra into Madras in 1858",
+    "Subsidiary Alliance with the Nizam in 1843, Ceded Districts in 1845 and merger of Andhra into Madras in 1856"
+   ],
+   "a": 0,
+   "x": "Under Wellesley, the Subsidiary Alliance with the Nizam was concluded in 1798, the Ceded Districts followed in 1800, and Andhra was merged into Madras in 1801.",
+   "ty": "chronology",
+   "tq": "Use the sequence of the three dated measures to eliminate the shifted-year alternatives.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following social measures in chronological order:\nA. Infanticide-related measure under Wellesley\nB. Abolition of Sati under Bentinck\nC. Abolition of slavery under Ellenborough\nD. Prohibition of human sacrifice under Hardinge I",
+   "o": [
+    "A, B, C, D",
+    "B, A, D, C",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The measures are dated 1802, 1829, 1843 and 1845 respectively. Therefore, the correct order is A, B, C, D.",
+   "ty": "chronology",
+   "tq": "Arrange the events by their stated years, beginning with the earliest reform.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?\n\nGovernor-General — Social measure",
+   "o": [
+    "Dalhousie — Prohibition of human sacrifice, 1845",
+    "Ellenborough — Abolition of slavery, 1843",
+    "Wellesley — Infanticide-related measure, 1802",
+    "Bentinck — Abolition of Sati, 1829"
+   ],
+   "a": 0,
+   "x": "The prohibition of human sacrifice in 1845 is associated with Hardinge I. Dalhousie is associated with caste disabilities legislation in 1850 and widow remarriage in 1856.",
+   "ty": "negative",
+   "tq": "Watch for the swapped Governor-General in a ruler–measure pairing.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding the social measures associated with the Governor-Generals:\n1. Lord Wellesley is associated with an infanticide-related measure in 1802.\n2. Lord Bentinck is associated with the abolition of Sati in 1829.\n3. Lord Dalhousie is associated with caste disabilities legislation in 1850 and widow remarriage in 1856.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The listed measures are associated respectively with Wellesley, Bentinck and Dalhousie in the stated years.",
+   "ty": "statements",
+   "tq": "Verify each ruler–reform–year combination before choosing the complete set.",
+   "sec": "Universal angles"
+  }
+ ]
+}

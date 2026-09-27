@@ -1,0 +1,511 @@
+{
+ "book": 1,
+ "row": 179,
+ "chunk": 0,
+ "section": "Development of railways, telegraph, post and the press; the Vernacular Press Act",
+ "subsections": [
+  "Newspapers - founder/editor",
+  "Press laws in sequence - provisions",
+  "Vernacular Press Act 1878 - Viceroy, provisions, targets, repeal",
+  "Act/policy - year and Viceroy"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 37,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Who founded the Marathi newspaper ‘Kesari’ in 1881?",
+   "o": [
+    "Surendranath Banerjea",
+    "Kasinathuni Nageswara Rao",
+    "Mutnuri Krishna Rao",
+    "Bal Gangadhar Tilak"
+   ],
+   "a": 3,
+   "x": "Bal Gangadhar Tilak founded ‘Kesari’ in Marathi in 1881.",
+   "ty": "fact",
+   "tq": "Use the founder–newspaper association directly.",
+   "sec": "Newspapers - founder/editor"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "The Bengalee — Surendranath Banerjea",
+    "Kesari — G. Subramania Iyer",
+    "The Hindu — Bal Gangadhar Tilak",
+    "Krishna Patrika — Kasinathuni Nageswara Rao"
+   ],
+   "a": 0,
+   "x": "Surendranath Banerjea was associated with ‘The Bengalee’. The other newspapers were associated with different founders or editors.",
+   "ty": "match",
+   "tq": "Check the sure newspaper–editor pair and eliminate swapped associations.",
+   "sec": "Newspapers - founder/editor"
+  },
+  {
+   "s": "The newspaper ‘The Hindu’, founded in Madras in 1878, was associated with:",
+   "o": [
+    "Sisir Kumar Ghosh and Motilal Ghosh",
+    "Mutnuri Krishna Rao and A.P. Parthasarathy Naidu",
+    "G. Subramania Iyer and M. Veeraraghavachariar",
+    "Ram Mohan Roy and Surendranath Banerjea"
+   ],
+   "a": 2,
+   "x": "‘The Hindu’ was associated with G. Subramania Iyer and M. Veeraraghavachariar and was an English newspaper founded in Madras in 1878.",
+   "ty": "fact",
+   "tq": "Test a paired founder/editor association with nearby newspaper names as traps.",
+   "sec": "Newspapers - founder/editor"
+  },
+  {
+   "s": "Consider the following statements about Andhra newspapers:\n1. Andhra Patrika was founded by Kasinathuni Nageswara Rao.\n2. It began as a weekly from Bombay in 1908 and became a daily from Madras in 1914.\n3. Krishna Patrika was edited by Mutnuri Krishna Rao at Machilipatnam.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Andhra Patrika was founded by Kasinathuni Nageswara Rao, while Krishna Patrika was edited by Mutnuri Krishna Rao at Machilipatnam.",
+   "ty": "statements",
+   "tq": "Combine founder, place and publication-history facts in a statement set.",
+   "sec": "Newspapers - founder/editor"
+  },
+  {
+   "s": "Which newspaper is regarded as the first political magazine of Andhra?",
+   "o": [
+    "Andhra Patrika",
+    "Vivekavardhini",
+    "Andhra Prakasika",
+    "Krishna Patrika"
+   ],
+   "a": 2,
+   "x": "Andhra Prakasika, associated with A.P. Parthasarathy Naidu, is identified as the first political magazine of Andhra.",
+   "ty": "fact",
+   "tq": "Distinguish a specific description from closely related newspaper names.",
+   "sec": "Newspapers - founder/editor"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Newspaper)\nA. Sambad Kaumudi\nB. Mirat-ul-Akhbar\nC. Andhra Prakasika\nD. Krishna Patrika\n\nList-II (Founder or editor)\n1. A.P. Parthasarathy Naidu\n2. Ram Mohan Roy\n3. Mutnuri Krishna Rao\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-2, B-2, C-1, D-3",
+    "A-1, B-2, C-3, D-1",
+    "A-2, B-1, C-1, D-3",
+    "A-3, B-2, C-1, D-2"
+   ],
+   "a": 0,
+   "x": "Ram Mohan Roy founded both Sambad Kaumudi and Mirat-ul-Akhbar; Andhra Prakasika was associated with A.P. Parthasarathy Naidu and Krishna Patrika with Mutnuri Krishna Rao.",
+   "ty": "match",
+   "tq": "Start from the repeated Ram Mohan Roy pair and then complete the matching.",
+   "sec": "Newspapers - founder/editor"
+  },
+  {
+   "s": "Which of the following early Telugu journals was published from Madras during 1837–1838?",
+   "o": [
+    "Hitavadi",
+    "Vrittanti",
+    "Dinavartamani",
+    "Satyaduta"
+   ],
+   "a": 1,
+   "x": "Vrittanti was an early Telugu journal published from Madras during 1837–1838.",
+   "ty": "numerical",
+   "tq": "Use the place-and-period combination to distinguish similar early journals.",
+   "sec": "Newspapers - founder/editor"
+  },
+  {
+   "s": "Who was associated with the Telugu journal ‘Vartamana Tarangini’ published in 1842?",
+   "o": [
+    "Sayyad Rahamtulla",
+    "Sitarama Sastri",
+    "Veeresalingam",
+    "J. Edmund Sharky"
+   ],
+   "a": 0,
+   "x": "‘Vartamana Tarangini’, published in 1842, was associated with Sayyad Rahamtulla.",
+   "ty": "fact",
+   "tq": "Test the editor or associate linked to a specific regional journal.",
+   "sec": "Newspapers - founder/editor"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Dinavartamani — criticised the 1857 revolt",
+    "Hitavadi — J. Edmund Sharky",
+    "Vartamana Tarangini — Sayyad Rahamtulla",
+    "Satyaduta — published from Masulipatnam in 1848"
+   ],
+   "a": 3,
+   "x": "Satyaduta dates to 1835; it was not the journal published from Masulipatnam in 1848. Hitavadi was associated with Masulipatnam and J. Edmund Sharky.",
+   "ty": "negative",
+   "tq": "Find the single swapped date-and-place association.",
+   "sec": "Newspapers - founder/editor"
+  },
+  {
+   "s": "Which of the following was NOT among the journals associated with Kandukuri Veeresalingam?",
+   "o": [
+    "Hasyasanjivani",
+    "Sati Hitabodhini",
+    "Vivekavardhini",
+    "Andhra Kesari"
+   ],
+   "a": 3,
+   "x": "Andhra Kesari was associated with Gadicherla Harisarvottama Rao. Veeresalingam was associated with Vivekavardhini, Hasyasanjivani and Sati Hitabodhini, among others.",
+   "ty": "negative",
+   "tq": "Use the odd association within a list of publications.",
+   "sec": "Newspapers - founder/editor"
+  },
+  {
+   "s": "Which of the following newspapers was associated with the Home Rule movement in Andhra?",
+   "o": [
+    "Mirat-ul-Akhbar",
+    "Desamata",
+    "Dinavartamani",
+    "Vartamana Tarangini"
+   ],
+   "a": 1,
+   "x": "Desamata, associated with Chilakamarti, was among the press publications supportive of the Home Rule movement, along with Andhra Patrika and Krishna Patrika.",
+   "ty": "fact",
+   "tq": "Identify the movement-specific newspaper from a regional list.",
+   "sec": "Newspapers - founder/editor"
+  },
+  {
+   "s": "The series ‘Telugu Prajala Prasthuta Paristhiti’ was written in ‘The Hindu’ by:",
+   "o": [
+    "Sitarama Sastri of Guntur",
+    "Gadicherla Harisarvottama Rao",
+    "Chilakamarti",
+    "G. Subramania Iyer"
+   ],
+   "a": 0,
+   "x": "Sitarama Sastri of Guntur wrote the series ‘Telugu Prajala Prasthuta Paristhiti’ in ‘The Hindu’.",
+   "ty": "fact",
+   "tq": "Link a distinctive title to its author rather than to the newspaper editor.",
+   "sec": "Newspapers - founder/editor"
+  },
+  {
+   "s": "Arrange the following press laws in chronological order:\nA. Registration Act\nB. Licensing Regulations\nC. Press Act of Metcalfe\nD. Censorship of Press Act",
+   "o": [
+    "D, B, C, A",
+    "B, D, C, A",
+    "D, C, B, A",
+    "C, B, D, A"
+   ],
+   "a": 0,
+   "x": "The sequence is Censorship of Press Act (1799), Licensing Regulations (1823), Metcalfe’s Press Act (1835), and Registration Act (1867).",
+   "ty": "chronology",
+   "tq": "Arrange by the years first, then verify the middle two laws.",
+   "sec": "Press laws in sequence - provisions"
+  },
+  {
+   "s": "The Censorship of Press Act of 1799 was introduced during the tenure of:",
+   "o": [
+    "John Lawrence",
+    "Wellesley",
+    "John Adams",
+    "Charles Metcalfe"
+   ],
+   "a": 1,
+   "x": "Wellesley introduced the Censorship of Press Act in 1799, which imposed wartime pre-censorship.",
+   "ty": "fact",
+   "tq": "Match the law with its Governor-General and avoid the nearby names in the sequence.",
+   "sec": "Press laws in sequence - provisions"
+  },
+  {
+   "s": "Which one of the following provisions was associated with the Licensing Regulations of 1823?",
+   "o": [
+    "Printing without a licence was penalised",
+    "Security deposits were imposed on newspapers during the Swadeshi movement",
+    "Printers were required to register under the Press and Registration of Books Act",
+    "Magistrates could seize presses inciting violence"
+   ],
+   "a": 0,
+   "x": "The Licensing Regulations of 1823 introduced stricter licensing and penalised printing without a licence.",
+   "ty": "application",
+   "tq": "Identify the provision belonging to the correct law rather than a later press measure.",
+   "sec": "Press laws in sequence - provisions"
+  },
+  {
+   "s": "Who was the acting Governor-General associated with the Licensing Regulations of 1823?",
+   "o": [
+    "Lord Ripon",
+    "John Adams",
+    "Lord Minto II",
+    "Lord Mayo"
+   ],
+   "a": 1,
+   "x": "The Licensing Regulations of 1823 were issued under John Adams as acting Governor-General.",
+   "ty": "fact",
+   "tq": "Test the acting office-holder, a common close-name trap.",
+   "sec": "Press laws in sequence - provisions"
+  },
+  {
+   "s": "The Press Act of 1835 is popularly associated with which description?",
+   "o": [
+    "Famine Press Code",
+    "Liberator of the Indian press",
+    "Anti-Extremist Press Act",
+    "Gagging Act"
+   ],
+   "a": 1,
+   "x": "Charles Metcalfe’s Press Act of 1835 repealed the 1823 restrictions and earned him the description ‘liberator of the Indian press’.",
+   "ty": "confusable",
+   "tq": "Distinguish the positive label of Metcalfe’s measure from the negative label of the Vernacular Press Act.",
+   "sec": "Press laws in sequence - provisions"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Registration Act was enacted in 1867.\n2. It dealt with the registration of printers and presses.\n3. It was associated with John Lawrence.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The 1867 Registration Act, formally linked with the Press and Registration of Books framework, concerned registration of printers and presses under John Lawrence.",
+   "ty": "statements",
+   "tq": "Test year, authority and provision together.",
+   "sec": "Press laws in sequence - provisions"
+  },
+  {
+   "s": "Under Section 124A of the Indian Penal Code, which act was treated as an offence from 1870?",
+   "o": [
+    "Exciting disaffection against the Government",
+    "Printing a newspaper without depositing security",
+    "Publishing without registering a printing press",
+    "Refusing to submit proofs to a censor"
+   ],
+   "a": 0,
+   "x": "Sedition under Section 124A IPC made ‘exciting disaffection’ an offence in 1870 during the tenure of Lord Mayo.",
+   "ty": "fact",
+   "tq": "Recall the exact statutory expression associated with the provision.",
+   "sec": "Press laws in sequence - provisions"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Newspapers (Incitement to Offences) Act, 1908 — Minto II",
+    "Sedition, Section 124A, 1870 — Ripon",
+    "Registration Act, 1867 — Lytton",
+    "Licensing Regulations, 1823 — Metcalfe"
+   ],
+   "a": 0,
+   "x": "The Newspapers (Incitement to Offences) Act of 1908 was associated with Minto II and enabled magistrates to seize presses of papers inciting violence.",
+   "ty": "match",
+   "tq": "Use the year–Governor-General pair to catch swapped authorities.",
+   "sec": "Press laws in sequence - provisions"
+  },
+  {
+   "s": "The Newspapers (Incitement to Offences) Act of 1908 empowered magistrates to:",
+   "o": [
+    "Exempt English newspapers from registration",
+    "Seize the presses of newspapers inciting violence",
+    "Appoint a press commissioner in every province",
+    "Repeal all licensing requirements for newspapers"
+   ],
+   "a": 1,
+   "x": "The 1908 Act empowered magistrates to seize presses of newspapers that incited violence and was directed against extremist activities.",
+   "ty": "application",
+   "tq": "Ask who exercised the power and what action the law authorised.",
+   "sec": "Press laws in sequence - provisions"
+  },
+  {
+   "s": "What was the principal feature of the Indian Press Act of 1910?",
+   "o": [
+    "Abolition of all press registration requirements",
+    "Complete freedom from press licensing",
+    "Revival of Vernacular Press Act features with heavy security deposits",
+    "Transfer of press control to local self-government bodies"
+   ],
+   "a": 2,
+   "x": "The Indian Press Act of 1910 revived features of the Vernacular Press Act and imposed heavy security deposits.",
+   "ty": "fact",
+   "tq": "Identify the later law that revived an earlier restrictive pattern.",
+   "sec": "Press laws in sequence - provisions"
+  },
+  {
+   "s": "Consider the following statements regarding Annie Besant’s newspapers:\n1. ‘Commonweal’ and ‘New India’ were required to deposit security under the Press Act.\n2. The deposit was first Rs 2,000 and later Rs 10,000.\n3. The deposits were connected with the period 1916–17.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Annie Besant’s ‘Commonweal’ and ‘New India’ faced deposits of Rs 2,000 followed by Rs 10,000 during 1916–17.",
+   "ty": "statements",
+   "tq": "Combine newspaper, amount and period in one coded statement question.",
+   "sec": "Press laws in sequence - provisions"
+  },
+  {
+   "s": "Which sequence correctly represents the broad development of press policy in colonial India?",
+   "o": [
+    "Freedom after Metcalfe — gag of 1878 — repeal in 1882 — repression in 1908 and 1910",
+    "Gag of 1878 — freedom after Metcalfe — repeal in 1882 — repression in 1908 and 1910",
+    "Repression in 1908 — repeal in 1882 — gag of 1878 — freedom after Metcalfe",
+    "Repeal in 1882 — gag of 1878 — freedom after Metcalfe — repression in 1910"
+   ],
+   "a": 0,
+   "x": "Metcalfe’s 1835 measure brought relative freedom, the 1878 Act imposed restrictions, it was repealed in 1882, and repression returned through the 1908 and 1910 measures.",
+   "ty": "chronology",
+   "tq": "Trace the policy trend rather than merely ordering isolated dates.",
+   "sec": "Press laws in sequence - provisions"
+  },
+  {
+   "s": "The Vernacular Press Act of 1878 was introduced in the background of:",
+   "o": [
+    "The Swadeshi movement and the First Factory Act",
+    "The famine of 1876–77 and the lavish Delhi Durbar of 1877",
+    "The Revolt of 1857 and the Ilbert Bill controversy",
+    "The Permanent Settlement and the Regulating Act"
+   ],
+   "a": 1,
+   "x": "The Act was passed by Lord Lytton amid public anger over the 1876–77 famine and the lavish Delhi Durbar held in 1877.",
+   "ty": "fact",
+   "tq": "Connect a law with its immediate political and economic context.",
+   "sec": "Vernacular Press Act 1878 - Viceroy, provisions, targets, repeal"
+  },
+  {
+   "s": "Under the Vernacular Press Act, district magistrates could require printers and publishers of vernacular newspapers to:",
+   "o": [
+    "Submit every article to the High Court",
+    "Obtain approval from the local legislature",
+    "Publish only in English",
+    "Sign bonds against publishing seditious matter"
+   ],
+   "a": 3,
+   "x": "District magistrates could require printers and publishers to sign bonds undertaking not to publish seditious matter.",
+   "ty": "application",
+   "tq": "Identify the exact administrative power granted by the Act.",
+   "sec": "Vernacular Press Act 1878 - Viceroy, provisions, targets, repeal"
+  },
+  {
+   "s": "Which of the following was NOT a provision of the Vernacular Press Act, 1878?",
+   "o": [
+    "Security deposits could be demanded and forfeited",
+    "There was no appeal to a court of law",
+    "Presses could be seized for repeated offences",
+    "English-language newspapers were subjected to the same restrictions"
+   ],
+   "a": 3,
+   "x": "The Act was discriminatory: it applied to Indian-language papers and not to English-language newspapers. The other three were provisions of the Act.",
+   "ty": "negative",
+   "tq": "Find the exception by testing the discriminatory scope of the law.",
+   "sec": "Vernacular Press Act 1878 - Viceroy, provisions, targets, repeal"
+  },
+  {
+   "s": "The exemption available under the Vernacular Press Act could be obtained by:",
+   "o": [
+    "Depositing a fixed amount with the district court",
+    "Submitting proofs to a government censor before publication",
+    "Publishing an English summary after every vernacular article",
+    "Obtaining a certificate from the Legislative Council"
+   ],
+   "a": 1,
+   "x": "A vernacular newspaper could obtain exemption by submitting its proofs to a government censor before publication.",
+   "ty": "fact",
+   "tq": "Recall the narrow procedural exception to a restrictive law.",
+   "sec": "Vernacular Press Act 1878 - Viceroy, provisions, targets, repeal"
+  },
+  {
+   "s": "Which of the following newspapers was among those targeted by the Vernacular Press Act?",
+   "o": [
+    "The Hindu",
+    "Commonweal",
+    "Sambad Kaumudi",
+    "Som Prakash"
+   ],
+   "a": 3,
+   "x": "Som Prakash was one of the newspapers targeted by the Vernacular Press Act, along with Bharat Mihir, Dacca Prakash and Samachar.",
+   "ty": "fact",
+   "tq": "Recognise a target newspaper from the specified list.",
+   "sec": "Vernacular Press Act 1878 - Viceroy, provisions, targets, repeal"
+  },
+  {
+   "s": "The Vernacular Press Act was repealed in 1882, and the pre-censorship clause was dropped. Which additional measure followed the repeal?",
+   "o": [
+    "Appointment of a press commissioner",
+    "Transfer of press powers to district magistrates",
+    "Creation of a censorship tribunal",
+    "Compulsory English publication by all newspapers"
+   ],
+   "a": 0,
+   "x": "After the repeal in 1882, the pre-censorship clause was dropped and a press commissioner was appointed.",
+   "ty": "fact",
+   "tq": "Test the consequence of repeal rather than the identity of the repealing Viceroy.",
+   "sec": "Vernacular Press Act 1878 - Viceroy, provisions, targets, repeal"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Act or policy)\nA. Wood’s Despatch\nB. First Factory Act\nC. Famine Code\nD. Resolution on Local Self-Government\n\nList-II (Year)\n1. 1854\n2. 1881\n3. 1882\n4. 1883\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-1, B-2, C-4, D-3",
+    "A-2, B-1, C-3, D-4",
+    "A-1, B-3, C-4, D-2",
+    "A-4, B-2, C-1, D-3"
+   ],
+   "a": 0,
+   "x": "Wood’s Despatch was issued in 1854, the First Factory Act in 1881, the Famine Code in 1883, and the Resolution on Local Self-Government in 1882.",
+   "ty": "match",
+   "tq": "Start with the distinctive 1854 and 1883 dates, then resolve the remaining pair.",
+   "sec": "Act/policy - year and Viceroy"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Wood’s Despatch, 1854 — Dalhousie",
+    "First Factory Act, 1881 — Lytton",
+    "Famine Code, 1883 — Dalhousie",
+    "Ilbert Bill controversy, 1883 — Minto II"
+   ],
+   "a": 0,
+   "x": "Wood’s Despatch was issued in 1854 during Dalhousie’s tenure. The First Factory Act and the measures of 1882–83 were associated with Ripon, while the Ilbert Bill controversy occurred under Ripon.",
+   "ty": "match",
+   "tq": "Use the year–Viceroy combination and reject swapped office-holders.",
+   "sec": "Act/policy - year and Viceroy"
+  },
+  {
+   "s": "Consider the following statements:\n1. The First Factory Act dealt with child labour.\n2. It is dated 1881 in the APPSC-aligned chronology.\n3. It was associated with Lord Ripon.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The First Factory Act concerning child labour is placed in 1881 and was enacted during Ripon’s tenure.",
+   "ty": "statements",
+   "tq": "Handle a disputed-looking date by matching it with the stated examination chronology.",
+   "sec": "Act/policy - year and Viceroy"
+  },
+  {
+   "s": "Arrange the following in chronological order:\nA. Vernacular Press Act\nB. Wood’s Despatch\nC. Famine Code\nD. First Factory Act",
+   "o": [
+    "B, A, D, C",
+    "A, B, D, C",
+    "B, D, A, C",
+    "D, B, A, C"
+   ],
+   "a": 0,
+   "x": "Wood’s Despatch was issued in 1854, followed by the Vernacular Press Act in 1878, the First Factory Act in 1881 and the Famine Code in 1883.",
+   "ty": "chronology",
+   "tq": "Place the two close late-century measures by their exact years.",
+   "sec": "Act/policy - year and Viceroy"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched?",
+   "o": [
+    "Ilbert Bill controversy — 1883 — Ripon",
+    "Famine Code — 1883 — Ripon",
+    "Arms Act — 1878 — Lytton",
+    "Wood’s Despatch — 1854 — Ripon"
+   ],
+   "a": 3,
+   "x": "Wood’s Despatch of 1854 was associated with Dalhousie, not Ripon. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the wrong Governor-General in an otherwise familiar year–measure pair.",
+   "sec": "Act/policy - year and Viceroy"
+  }
+ ]
+}
