@@ -1,0 +1,388 @@
+{
+ "book": 3,
+ "row": 29,
+ "chunk": 0,
+ "section": "Poverty - concepts (absolute, relative, chronic), poverty line debates",
+ "subsections": [
+  "International poverty line - World Bank values by PPP base year",
+  "Countries with the largest number of poor (World Bank)",
+  "Poverty line in India - basis, calorie norm, basket, statement checks",
+  "UN anti-poverty initiatives - decades, definition of absolute poverty",
+  "Types of poverty",
+  "Social indicators of poverty - odd one out",
+  "Poverty measures - HCR, PGI, squared poverty gap (FGT)"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 27,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The international poverty line of $1.90 per person per day was based on which Purchasing Power Parity (PPP) base year?",
+   "o": [
+    "2017 PPP",
+    "2005 PPP",
+    "2011 PPP",
+    "1985 PPP"
+   ],
+   "a": 2,
+   "x": "The World Bank revised the international poverty line to $1.90 per person per day in October 2015, using 2011 PPP.",
+   "ty": "fact",
+   "tq": "Discriminate between closely spaced monetary thresholds and their PPP base years.",
+   "sec": "International poverty line - World Bank values by PPP base year  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "1990 — $1.25 at 2005 PPP",
+    "2008 — $1.25 at 2005 PPP",
+    "2015 — $2.15 at 2017 PPP",
+    "2022 — $3.00 at 2021 PPP"
+   ],
+   "a": 1,
+   "x": "The 2008 poverty line was $1.25 per person per day at 2005 PPP. The other pairs combine values or PPP bases belonging to different revisions.",
+   "ty": "match",
+   "tq": "Start from the sure value-year pair and eliminate combinations with swapped revisions.",
+   "sec": "International poverty line - World Bank values by PPP base year  [APPSC]"
+  },
+  {
+   "s": "The latest World Bank international poverty line mentioned for June 2025 is:",
+   "o": [
+    "$4.20 at 2021 PPP",
+    "$1.90 at 2011 PPP",
+    "$2.15 at 2017 PPP",
+    "$3.00 at 2021 PPP"
+   ],
+   "a": 3,
+   "x": "In June 2025, the latest international poverty line was stated as $3.00 per person per day at 2021 PPP.",
+   "ty": "numerical",
+   "tq": "Match the latest figure with its corresponding PPP base year rather than an earlier revision.",
+   "sec": "International poverty line - World Bank values by PPP base year  [APPSC]"
+  },
+  {
+   "s": "The lower-middle-income poverty line was raised from $3.65 to:",
+   "o": [
+    "$3.90",
+    "$4.20",
+    "$5.00",
+    "$8.30"
+   ],
+   "a": 1,
+   "x": "The lower-middle-income poverty line was raised from $3.65 to $4.20. The $8.30 figure is the upper-middle-income line.",
+   "ty": "numerical",
+   "tq": "Separate neighbouring income-category thresholds and avoid reversing the comparison.",
+   "sec": "International poverty line - World Bank values by PPP base year  [APPSC]"
+  },
+  {
+   "s": "At the old World Bank poverty line of $1.25 per day, the number of poor people in India increased from 1981 to 2005 from:",
+   "o": [
+    "456 million to 421 million",
+    "700 million to 456 million",
+    "421 million to 456 million",
+    "421 million to 700 million"
+   ],
+   "a": 2,
+   "x": "At the old $1.25 line, India's poor population increased from 421 million in 1981 to 456 million in 2005.",
+   "ty": "numerical",
+   "tq": "Read the direction of change carefully before comparing the two dated figures.",
+   "sec": "Countries with the largest number of poor (World Bank)  [APPSC]"
+  },
+  {
+   "s": "Approximately what share of the world's population was living in extreme poverty at the $2.15 poverty line?",
+   "o": [
+    "5.3%",
+    "9.2%",
+    "23.9%",
+    "27.1%"
+   ],
+   "a": 1,
+   "x": "About 9.2% of the world's population, comprising over 700 million people, lived in extreme poverty at the $2.15 line.",
+   "ty": "numerical",
+   "tq": "Distinguish the global extreme-poverty estimate from India-specific poverty percentages.",
+   "sec": "Countries with the largest number of poor (World Bank)  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the poverty line in India:\n1. It is measured on the basis of consumption expenditure.\n2. Monthly per capita consumption expenditure is an important basis for measurement.\n3. A person is regarded as poor when consumption falls below the poverty line.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Indian poverty estimation uses consumption expenditure, including MPCE, and identifies poverty when consumption falls below the specified line.",
+   "ty": "statements",
+   "tq": "Verify the measurement basis first, then check whether the threshold is consumption or income.",
+   "sec": "Poverty line in India - basis, calorie norm, basket, statement checks  [APPSC]"
+  },
+  {
+   "s": "The urban calorie norm associated with the Alagh approach to determining the poverty line in India is:",
+   "o": [
+    "1,800 kcal per person per day",
+    "2,100 kcal per person per day",
+    "2,700 kcal per person per day",
+    "2,400 kcal per person per day"
+   ],
+   "a": 1,
+   "x": "The calorie norm associated with the Alagh approach is 2,100 kcal per person per day in urban areas; the rural norm is 2,400 kcal.",
+   "ty": "numerical",
+   "tq": "Separate the urban and rural values in a paired quantitative standard.",
+   "sec": "Poverty line in India - basis, calorie norm, basket, statement checks  [APPSC]"
+  },
+  {
+   "s": "A Poverty Line Basket (PLB) is best described as:",
+   "o": [
+    "A basket based only on the income tax records of households",
+    "A socially accepted minimum basket of basic needs purchased in the market",
+    "A basket containing only food grains supplied through the Public Distribution System",
+    "A basket consisting exclusively of services provided free by the government"
+   ],
+   "a": 1,
+   "x": "The Poverty Line Basket is a socially accepted minimum basket of basic needs bought in the market. It is not confined to food grains or government-provided services.",
+   "ty": "fact",
+   "tq": "Choose the precise official meaning rather than a narrower everyday interpretation.",
+   "sec": "Poverty line in India - basis, calorie norm, basket, statement checks  [APPSC]"
+  },
+  {
+   "s": "Which one of the following bodies is the nodal institution for poverty estimation in India, using NSSO data?",
+   "o": [
+    "National Development Council",
+    "Reserve Bank of India",
+    "Finance Commission",
+    "NITI Aayog"
+   ],
+   "a": 3,
+   "x": "NITI Aayog is the present nodal body for poverty estimation using NSSO data; it succeeded the Planning Commission in this role.",
+   "ty": "fact",
+   "tq": "Use the institutional succession clue to distinguish the present body from the former body.",
+   "sec": "Poverty line in India - basis, calorie norm, basket, statement checks  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Poverty lines differ across time because basic needs and their costs change.\n2. Poverty lines differ across countries because basic needs vary by region.\n3. A Poverty Line Basket is identical in all countries and periods.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct because basic needs vary across regions and over time. Statement 3 is false because the basket is not identical across countries and periods.",
+   "ty": "statements",
+   "tq": "Find the absolute statement that reverses a time-and-place comparison.",
+   "sec": "Poverty line in India - basis, calorie norm, basket, statement checks  [APPSC]"
+  },
+  {
+   "s": "Arrange the following United Nations anti-poverty initiatives in chronological order:\nA. Third UN Decade for the Eradication of Poverty\nB. First UN Decade for the Eradication of Poverty\nC. Second UN Decade for the Eradication of Poverty",
+   "o": [
+    "B, C, A",
+    "C, B, A",
+    "B, A, C",
+    "A, B, C"
+   ],
+   "a": 0,
+   "x": "The first decade was 1997-2006, the second was 2008-2017, and the third is 2018-2027. Therefore, the order is B, C, A.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest decades first, then place the remaining period between them.",
+   "sec": "UN anti-poverty initiatives - decades, definition of absolute poverty  [APPSC]"
+  },
+  {
+   "s": "The United Nations defined absolute poverty at the:",
+   "o": [
+    "World Development Summit, Geneva, 2005",
+    "Millennium Summit, New York, 2000",
+    "World Summit for Social Development, Copenhagen, 1995",
+    "Earth Summit, Rio de Janeiro, 1992"
+   ],
+   "a": 2,
+   "x": "Absolute poverty was defined by the United Nations at the World Summit for Social Development held at Copenhagen in 1995.",
+   "ty": "fact",
+   "tq": "Match the definition with the correct international summit and year.",
+   "sec": "UN anti-poverty initiatives - decades, definition of absolute poverty  [APPSC]"
+  },
+  {
+   "s": "Sustainable Development Goal 1 aims to:",
+   "o": [
+    "Provide universal employment by 2040",
+    "Eliminate all income differences by 2030",
+    "End hunger only in developing countries by 2025",
+    "End poverty in all its forms everywhere by 2030"
+   ],
+   "a": 3,
+   "x": "SDG 1 is to end poverty in all its forms everywhere by 2030.",
+   "ty": "fact",
+   "tq": "Identify the exact wording and deadline of the goal instead of accepting an overbroad alternative.",
+   "sec": "UN anti-poverty initiatives - decades, definition of absolute poverty  [APPSC]"
+  },
+  {
+   "s": "Relative poverty is primarily concerned with:",
+   "o": [
+    "The inability to obtain the minimum resources required for physical survival",
+    "An individual's personal feeling about his or her social position",
+    "Income being well below the median income of a society",
+    "Temporary poverty caused by seasonal employment"
+   ],
+   "a": 2,
+   "x": "Relative poverty compares a person's income with the income distribution of society, particularly the median. Absolute poverty concerns minimum survival resources, while subjective poverty concerns personal perception.",
+   "ty": "confusable",
+   "tq": "Separate relative poverty from absolute, transient and subjective poverty by its comparison standard.",
+   "sec": "Types of poverty  [other exams]"
+  },
+  {
+   "s": "Poverty that persists over long periods or across generations is known as:",
+   "o": [
+    "Transient poverty",
+    "Relative poverty",
+    "Chronic poverty",
+    "Subjective poverty"
+   ],
+   "a": 2,
+   "x": "Chronic poverty lasts for long periods or is transmitted across generations. Transient or cyclical poverty is temporary and generally arises from shocks, seasons or economic cycles.",
+   "ty": "confusable",
+   "tq": "Use duration as the deciding clue when distinguishing chronic from transient poverty.",
+   "sec": "Types of poverty  [other exams]"
+  },
+  {
+   "s": "Which one of the following correctly describes transient or cyclical poverty?",
+   "o": [
+    "Poverty measured only by comparison with the median income",
+    "Poverty permanently inherited across generations",
+    "Poverty caused temporarily by shocks, seasons or economic cycles",
+    "Poverty based solely on an individual's perception"
+   ],
+   "a": 2,
+   "x": "Transient or cyclical poverty is temporary and may result from shocks, seasonal conditions or economic cycles.",
+   "ty": "fact",
+   "tq": "Match the type of poverty with its duration and immediate cause.",
+   "sec": "Types of poverty  [other exams]"
+  },
+  {
+   "s": "Consider the following statements about poverty measurement and economic development:\n1. Absolute poverty is measured by the World Bank poverty line.\n2. Relative poverty is widely used in developed economies.\n3. Relative poverty is defined exclusively by a fixed calorie norm.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because a fixed consumption or calorie norm is associated with absolute poverty, not relative poverty.",
+   "ty": "statements",
+   "tq": "Split the fixed-norm concept from the society-comparison concept before selecting the code.",
+   "sec": "Types of poverty  [other exams]"
+  },
+  {
+   "s": "Which one of the following is NOT generally treated as a social indicator of poverty?",
+   "o": [
+    "Poor health and sanitation",
+    "Illiteracy",
+    "Size of the house",
+    "Lack of safe drinking water"
+   ],
+   "a": 2,
+   "x": "Illiteracy, lack of safe drinking water, poor health and sanitation, and lack of job opportunities are social indicators of poverty. Size of the house is not included in this group.",
+   "ty": "negative",
+   "tq": "Find the item outside the established social-indicator group.",
+   "sec": "Social indicators of poverty - odd one out  [other exams]"
+  },
+  {
+   "s": "Which of the following is included among the standard-of-living indicators of the Multidimensional Poverty Index?\n1. Cooking fuel\n2. Sanitation\n3. Electricity\n4. Bank accounts\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Cooking fuel, sanitation, electricity and bank accounts are all included among the stated MPI standard-of-living indicators, along with drinking water, housing and assets.",
+   "ty": "statements",
+   "tq": "Check whether each item belongs to the multidimensional living-standard list before choosing the complete code.",
+   "sec": "Social indicators of poverty - odd one out  [other exams]"
+  },
+  {
+   "s": "The Head Count Ratio (HCR) measures the:",
+   "o": [
+    "Share of household expenditure devoted to food",
+    "Average distance of the poor from the poverty line",
+    "Share of the population living below the poverty line",
+    "Additional weight assigned to the poorest among the poor"
+   ],
+   "a": 2,
+   "x": "HCR measures the incidence of poverty, namely the share of the population below the poverty line. Its formula is HC = Nq/N.",
+   "ty": "fact",
+   "tq": "Match each poverty measure with its specific dimension: incidence, depth or severity.",
+   "sec": "Poverty measures - HCR, PGI, squared poverty gap (FGT)"
+  },
+  {
+   "s": "The Poverty Gap Index (PGI) primarily captures the:",
+   "o": [
+    "Share of food in total household expenditure",
+    "Incidence of poverty only",
+    "Depth of poverty or average shortfall from the poverty line",
+    "Number of people above the poverty line"
+   ],
+   "a": 2,
+   "x": "The PGI measures the depth of poverty by calculating the average shortfall from the poverty line, expressed as (1/n) Σ (Z − yi)/Z.",
+   "ty": "fact",
+   "tq": "Distinguish depth from incidence and severity in the poverty-measure framework.",
+   "sec": "Poverty measures - HCR, PGI, squared poverty gap (FGT)"
+  },
+  {
+   "s": "Which poverty measure gives greater weight to those furthest below the poverty line?",
+   "o": [
+    "Head Count Ratio",
+    "Squared Poverty Gap",
+    "Poverty Gap Index",
+    "Consumption Expenditure Ratio"
+   ],
+   "a": 1,
+   "x": "The Squared Poverty Gap measures the severity of poverty because the normalized poverty gap is squared, giving greater weight to the poorest.",
+   "ty": "fact",
+   "tq": "Use the effect of squaring the poverty gap to identify the severity measure.",
+   "sec": "Poverty measures - HCR, PGI, squared poverty gap (FGT)"
+  },
+  {
+   "s": "The Head Count Ratio, Poverty Gap Index and Squared Poverty Gap belong to the:",
+   "o": [
+    "Foster-Greer-Thorbecke family",
+    "Human Development Index family",
+    "Lorenz-Gini family",
+    "Purchasing Power Parity family"
+   ],
+   "a": 0,
+   "x": "HCR, PGI and the squared poverty gap are measures belonging to the Foster-Greer-Thorbecke (FGT) family.",
+   "ty": "fact",
+   "tq": "Identify the common methodological family rather than confusing it with related inequality indices.",
+   "sec": "Poverty measures - HCR, PGI, squared poverty gap (FGT)"
+  },
+  {
+   "s": "If the poor become poorer while the number of poor people remains unchanged, which one of the following measures will remain unchanged?",
+   "o": [
+    "Poverty Gap Index",
+    "Average poverty shortfall",
+    "Squared Poverty Gap",
+    "Head Count Ratio"
+   ],
+   "a": 3,
+   "x": "The Head Count Ratio depends only on the number or share of people below the poverty line, so it does not change when existing poor people become poorer. The Poverty Gap Index changes with the depth of poverty.",
+   "ty": "application",
+   "tq": "Apply the incidence-depth distinction to a change in the condition of existing poor persons.",
+   "sec": "Poverty measures - HCR, PGI, squared poverty gap (FGT)"
+  },
+  {
+   "s": "Engel's Law states that, as family income rises:",
+   "o": [
+    "The share of income spent on food rises proportionately",
+    "All household expenditure shifts to food",
+    "The share of income spent on food falls",
+    "The absolute amount spent on food always becomes zero"
+   ],
+   "a": 2,
+   "x": "Engel's Law states that the proportion of family income spent on food declines as family income rises, although the absolute amount spent may still increase.",
+   "ty": "fact",
+   "tq": "Distinguish the share of expenditure from its absolute amount when applying Engel's Law.",
+   "sec": "Poverty measures - HCR, PGI, squared poverty gap (FGT)"
+  }
+ ]
+}

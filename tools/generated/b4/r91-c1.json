@@ -1,0 +1,481 @@
+{
+ "book": 4,
+ "row": 91,
+ "chunk": 1,
+ "section": "Andhra Pradesh - major industries and industrial nodes/regions; industrial corridors",
+ "subsections": [
+  "Industrial nodes/parks - district and sector",
+  "Major industries - location and origin"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 33,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "KRIS City, associated with the Krishnapatnam Industrial Area, is located in which district of Andhra Pradesh?",
+   "o": [
+    "YSR Kadapa",
+    "Anakapalli",
+    "Tirupati",
+    "Kurnool"
+   ],
+   "a": 2,
+   "x": "KRIS City is located in the Tirupati district, next to Krishnapatnam Port.",
+   "ty": "fact",
+   "tq": "Use the district-location association directly.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "Which one of the following industrial nodes is correctly matched with its principal focus?",
+   "o": [
+    "Sri City — cement and fertiliser industries",
+    "Vizag node — textile manufacturing only",
+    "Kopparthy — PCPIR node",
+    "Orvakal — HBIC node"
+   ],
+   "a": 3,
+   "x": "Orvakal in Kurnool is an HBIC node. Kopparthy is associated with VCIC, Vizag with bulk drugs and steel, and Sri City with auto components and electronics.",
+   "ty": "negative",
+   "tq": "Find the correctly matched pair among nearby industrial nodes.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding KRIS City:\n1. It is associated with the Chennai-Bengaluru Industrial Corridor.\n2. Its focus includes automobile, aerospace, textiles and ESDM industries.\n3. It is located next to Krishnapatnam Port.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "KRIS City is a CBIC-related industrial area near Krishnapatnam Port, with focus sectors including auto, aerospace, textiles, ESDM and heavy industries.",
+   "ty": "statements",
+   "tq": "Combine location, corridor and sector facts in a coded statement question.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "Sri City in Andhra Pradesh is associated with which combination of industries and enterprises?",
+   "o": [
+    "Isuzu, Kobelco, Foxconn and automobile components",
+    "JSW Steel, Dalmia Bharat and Zuari Cement",
+    "Nagarjuna Fertilizers, HPCL and RINL",
+    "Kia India, Royal Enfield and bulk drugs"
+   ],
+   "a": 0,
+   "x": "Sri City, in Tirupati district, hosts Isuzu, Kobelco, Foxconn and automobile-component industries.",
+   "ty": "match",
+   "tq": "Start from the sure enterprise-location association.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "The Orvakal industrial node of Andhra Pradesh is located in which district and is associated with which corridor?",
+   "o": [
+    "Tirupati — Chennai-Bengaluru Industrial Corridor",
+    "Anakapalli — Hyderabad-Bengaluru Industrial Corridor",
+    "YSR Kadapa — Visakhapatnam-Chennai Industrial Corridor",
+    "Kurnool — Hyderabad-Bengaluru Industrial Corridor"
+   ],
+   "a": 3,
+   "x": "Orvakal is located in Kurnool district and is an HBIC node.",
+   "ty": "fact",
+   "tq": "Test the district-corridor pair directly.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "Which road-link is associated with the Kopparthy industrial node?",
+   "o": [
+    "A 200-km road linking Kopparthy to Visakhapatnam on NH-16",
+    "A 108-km four-lane Badvel–Nellore road linking Kopparthy to Krishnapatnam on NH-16",
+    "A 108-km road linking Kopparthy to Kakinada on NH-216",
+    "A four-lane road linking Kopparthy to Orvakal on NH-44"
+   ],
+   "a": 1,
+   "x": "Kopparthy, the VCIC node in YSR Kadapa, is linked to Krishnapatnam on NH-16 by the 108-km Badvel–Nellore four-lane road.",
+   "ty": "numerical",
+   "tq": "Pair the numerical length with the correct road and destination.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "The Vizag industrial node, spread over Visakhapatnam and Anakapalli, is particularly associated with",
+   "o": [
+    "Food processing and sugar",
+    "Silk weaving and apparel",
+    "Cement and limestone mining only",
+    "Bulk drugs and steel"
+   ],
+   "a": 3,
+   "x": "The Vizag node focuses on bulk drugs and steel; Parawada Pharma City is an important associated industrial location.",
+   "ty": "fact",
+   "tq": "Identify the sector from the node’s distinctive industrial profile.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched with respect to the proposed BHAVYA parks?",
+   "o": [
+    "A.P. Drone City — Kurnool",
+    "Tekulodu Aerospace and Defence Park — Sri Sathya Sai",
+    "A.P. Space City — Tirupati",
+    "Renewable Energy Manufacturing Zone — Palnadu"
+   ],
+   "a": 3,
+   "x": "The Renewable Energy Manufacturing Zone is proposed in Prakasam. Palnadu is associated with the Veldurthi Mega Textile Park.",
+   "ty": "negative",
+   "tq": "Use the district mismatch to eliminate the incorrect pair.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Proposed park)\na. A.P. Space City\nb. A.P. Drone City\nc. Makavaripalem Organic Food Park\nd. Veldurthi Mega Textile Park\n\nList-II (Area)\ni. 1,000 acres\nii. 486 acres\niii. 500 acres\niv. 500 acres\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–i, b–ii, c–iii, d–iv",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–i, b–iii, c–ii, d–iv",
+    "a–iv, b–ii, c–i, d–iii"
+   ],
+   "a": 0,
+   "x": "A.P. Space City covers 1,000 acres; A.P. Drone City 486 acres; Makavaripalem Organic Food Park 500 acres; and Veldurthi Mega Textile Park 500 acres.",
+   "ty": "match",
+   "tq": "Start from the distinctive 1,000-acre entry and complete the matching.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "Which one of the following proposed BHAVYA parks is located in Prakasam district?",
+   "o": [
+    "Tekulodu Aerospace and Defence Park",
+    "Makavaripalem Organic Food Park",
+    "A.P. Drone City",
+    "Renewable Energy Manufacturing Zone"
+   ],
+   "a": 3,
+   "x": "The Renewable Energy Manufacturing Zone is proposed in Prakasam district and covers 498 acres.",
+   "ty": "fact",
+   "tq": "Test the district associated with a named proposed park.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "The proposed Makavaripalem Organic Food Park is located in",
+   "o": [
+    "Kurnool district and covers 486 acres",
+    "Palnadu district and covers 500 acres",
+    "Anakapalli district and covers 500 acres",
+    "Prakasam district and covers 498 acres"
+   ],
+   "a": 2,
+   "x": "Makavaripalem Organic Food Park is proposed in Anakapalli district over 500 acres.",
+   "ty": "numerical",
+   "tq": "Combine location and area to distinguish similar proposed parks.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about industrial parks and townships in Andhra Pradesh:\n1. Mallavalli is a Mega Food Park in Krishna district.\n2. The Jawaharlal Nehru Auto Nagar is located in Vijayawada in NTR district.\n3. APSEZ is located at Atchutapuram–Rambilli in Anakapalli district.\n4. KRIS City is associated with a smart township near Krishnapatnam.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Mallavalli is in Krishna district, Auto Nagar is in Vijayawada-NTR, APSEZ is in Anakapalli, and KRIS City is a CBIC smart township near Krishnapatnam.",
+   "ty": "statements",
+   "tq": "Use a multi-location scan across the township and park table.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "Mallavalli industrial park is associated with which of the following?",
+   "o": [
+    "A steel node in YSR Kadapa",
+    "A Mega Food Park costing ₹112.97 crore in Krishna district",
+    "A 1,000-acre space city in Tirupati",
+    "A 3,213-acre pharmaceutical SEZ in Anakapalli"
+   ],
+   "a": 1,
+   "x": "Mallavalli in Bapulapadu mandal of Krishna district is a Mega Food Park with a reported cost of ₹112.97 crore.",
+   "ty": "numerical",
+   "tq": "Use the distinctive cost figure to identify the correct park.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements about APSEZ is correct?",
+   "o": [
+    "It was notified on 12 April 2007, covers approximately 3,213 acres and forms part of the PCPIR.",
+    "It was notified on 12 April 2017, covers 486 acres and forms part of the HBIC.",
+    "It was notified in 1973, covers 1,000 acres and forms part of the CBIC.",
+    "It was notified in 1992, covers 2,002 acres and forms part of the VCIC."
+   ],
+   "a": 0,
+   "x": "APSEZ is located at Atchutapuram-Rambilli in Anakapalli district, was notified on 12 April 2007, covers about 3,213 acres and is part of the PCPIR.",
+   "ty": "numerical",
+   "tq": "Match the notification date, area and corridor-type association.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "As per the stated recent figures, APIIC has developed approximately how many industrial clusters and over what area?",
+   "o": [
+    "571 clusters over about 41,998 acres",
+    "635 clusters over about 1.21 lakh acres",
+    "304 clusters over about 6,494 acres",
+    "331 clusters over about 1.66 lakh acres"
+   ],
+   "a": 1,
+   "x": "APIIC has 635 clusters—331 parks and 304 estates—spread over approximately 1.21 lakh acres.",
+   "ty": "numerical",
+   "tq": "Distinguish total clusters and total area from component figures.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "Which organisation is the nodal agency for industrial land and industrial parks in Andhra Pradesh?",
+   "o": [
+    "SIPB",
+    "APIIC",
+    "APGDC",
+    "APGIC"
+   ],
+   "a": 1,
+   "x": "The Andhra Pradesh Industrial Infrastructure Corporation (APIIC) is the nodal agency for industrial land and parks.",
+   "ty": "fact",
+   "tq": "Identify the agency from its stated institutional function.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "During January–December 2025, APIIC allotted land to how many units, involving approximately what investment and employment?",
+   "o": [
+    "635 units; ₹3.01 lakh crore and 5.33 lakh jobs",
+    "8 units; ₹2,45,275 crore and 65,541 jobs",
+    "1,721 units; ₹64,197 crore and 1.66 lakh jobs",
+    "571 units; ₹41,998 crore and 1.21 lakh jobs"
+   ],
+   "a": 2,
+   "x": "In January–December 2025, APIIC allotted 6,494 acres to 1,721 units involving ₹64,197 crore and 1.66 lakh jobs.",
+   "ty": "numerical",
+   "tq": "Separate annual APIIC allotment figures from broader industrial totals.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements is correct regarding APIIC’s recent land-allotment powers and proposed NIMZs?",
+   "o": [
+    "APIIC may allot up to 5 acres directly, and NIMZs are proposed in Anakapalli and Nellore.",
+    "APIIC requires Cabinet approval for every allotment, and NIMZs are proposed in Tirupati and Krishna.",
+    "APIIC may allot up to 50 acres directly without Cabinet approval, and NIMZs are proposed in Chittoor and Prakasam.",
+    "APIIC may allot up to 500 acres directly, and NIMZs are proposed only in Kurnool."
+   ],
+   "a": 2,
+   "x": "APIIC may now directly allot up to 50 acres without Cabinet approval; NIMZs have been proposed in Chittoor and Prakasam.",
+   "ty": "application",
+   "tq": "Identify the authority, limit and proposed-location combination.",
+   "sec": "Industrial nodes/parks - district and sector  [APPSC]"
+  },
+  {
+   "s": "The earliest industrial units of Rayalaseema were primarily associated with",
+   "o": [
+    "Aircraft manufacturing, shipbuilding and electronics",
+    "Petrochemicals, automobiles and pharmaceuticals",
+    "Software services, biotechnology and aerospace",
+    "Cotton ginning, textiles and mineral-based mills"
+   ],
+   "a": 3,
+   "x": "The earliest Rayalaseema industrial units comprised cotton ginning, textile and mineral-based mills; large-scale investments expanded mainly during the last 15 years.",
+   "ty": "fact",
+   "tq": "Recall the historical industrial base rather than recent investments.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding the Visakhapatnam Steel Plant is correct?",
+   "o": [
+    "It used USSR technology under a 1979 agreement and became India’s first shore-based steel plant in 1992.",
+    "It was set up by Caltex in 1957 as India’s first shore-based refinery.",
+    "It was established with Japanese technology at Sri City in 1992.",
+    "It was established in Kadapa using KG-basin gas in 1979."
+   ],
+   "a": 0,
+   "x": "RINL’s Visakhapatnam Steel Plant was established with USSR technology under a 1979 agreement and became the first shore-based steel plant in 1992.",
+   "ty": "chronology",
+   "tq": "Link the establishment year, foreign technology and distinctive location description.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "The iron ore used by the Visakhapatnam Steel Plant is sourced from",
+   "o": [
+    "Parawada in Anakapalli",
+    "Bailadila in Chhattisgarh",
+    "Kadapa-Kurnool limestone belt",
+    "Kakinada in the KG Basin"
+   ],
+   "a": 1,
+   "x": "The Visakhapatnam Steel Plant receives iron ore from Bailadila in Chhattisgarh.",
+   "ty": "fact",
+   "tq": "Test the raw-material source of a major industry.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "The HPCL refinery at Visakhapatnam was set up by which company in 1957?",
+   "o": [
+    "Kobelco",
+    "Isuzu",
+    "Caltex",
+    "Nagarjuna Fertilizers"
+   ],
+   "a": 2,
+   "x": "The HPCL refinery at Visakhapatnam was set up by Caltex in 1957.",
+   "ty": "fact",
+   "tq": "Use the company-origin association to identify the answer.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "Match the following industries with their locations:\n\na. Kia India\na. Penukonda, Sri Sathya Sai district\nb. Isuzu Motors\na. Sri City\nc. JSW Steel\na. YSR Kadapa\nd. Gas-based fertiliser\na. Kakinada\n\nSelect the correctly matched set.",
+   "o": [
+    "Kia India—Penukonda; Isuzu Motors—Sri City; JSW Steel—YSR Kadapa; Gas-based fertiliser—Kakinada",
+    "Kia India—Sri City; Isuzu Motors—Penukonda; JSW Steel—Kakinada; Gas-based fertiliser—YSR Kadapa",
+    "Kia India—YSR Kadapa; Isuzu Motors—Kakinada; JSW Steel—Sri City; Gas-based fertiliser—Penukonda",
+    "Kia India—Kakinada; Isuzu Motors—YSR Kadapa; JSW Steel—Penukonda; Gas-based fertiliser—Sri City"
+   ],
+   "a": 0,
+   "x": "Kia India is located at Penukonda, Isuzu Motors at Sri City, JSW Steel in YSR Kadapa and gas-based fertiliser production at Kakinada.",
+   "ty": "match",
+   "tq": "Start with the well-known Kia–Penukonda pair and verify the remaining pairs.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "Which of the following is correctly matched?",
+   "o": [
+    "Hero MotoCorp — gas-based fertiliser at Kakinada",
+    "Isuzu Motors — Japanese company at Sri City",
+    "Royal Enfield — established steel plant at Kadapa",
+    "HPCL — automobile plant at Penukonda"
+   ],
+   "a": 1,
+   "x": "Isuzu Motors is a Japanese company located at Sri City. Hero MotoCorp makes two-wheelers at Sri City, Royal Enfield is being set up near Tirupati, and HPCL operates a refinery at Visakhapatnam.",
+   "ty": "negative",
+   "tq": "Distinguish the origin and sector of similarly prominent industrial enterprises.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "What is the total proposed investment of JSW Steel in YSR Kadapa, including Phase-I?",
+   "o": [
+    "₹4,500 crore",
+    "₹16,350 crore",
+    "₹2,45,275 crore",
+    "₹3,01,000 crore"
+   ],
+   "a": 1,
+   "x": "JSW Steel’s total proposed investment in YSR Kadapa is ₹16,350 crore, of which Phase-I accounts for ₹4,500 crore.",
+   "ty": "numerical",
+   "tq": "Distinguish total investment from Phase-I investment.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "Dalmia Bharat and Zuari cement industries in Andhra Pradesh are associated primarily with which belt?",
+   "o": [
+    "Kadapa–Kurnool limestone belt",
+    "Kakinada–East Godavari gas belt",
+    "Sri City automobile belt",
+    "Parawada pharmaceutical belt"
+   ],
+   "a": 0,
+   "x": "Dalmia Bharat and Zuari cement are limestone-based industries located in the Kadapa–Kurnool belt.",
+   "ty": "fact",
+   "tq": "Match the industry with its raw-material region.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "Nagarjuna Fertilizers at Kakinada is an example of an industry based on",
+   "o": [
+    "Sri City electronics components",
+    "Kadapa limestone",
+    "KG-basin gas",
+    "Bailadila iron ore"
+   ],
+   "a": 2,
+   "x": "Gas-based fertiliser production at Kakinada, including Nagarjuna Fertilizers, is based on gas from the KG Basin.",
+   "ty": "application",
+   "tq": "Identify the raw material or energy source underlying the location.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "Which organisation is correctly associated with the development of gas infrastructure in the Kakinada region?",
+   "o": [
+    "APGIC — Sri City automobile components",
+    "APGDC — gas grids and an FSRU-based LNG terminal at Kakinada",
+    "APIIC — Bailadila iron-ore mines in Chhattisgarh",
+    "SIPB — Parawada Pharma City"
+   ],
+   "a": 1,
+   "x": "APGDC is building gas grids and an FSRU-based LNG terminal at Kakinada, while APGIC targets KG-basin gas through its APIIC–APGENCO joint venture.",
+   "ty": "fact",
+   "tq": "Use the ‘who does what’ institutional trap.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding major industrial clusters in Andhra Pradesh:\n1. Parawada is associated with pharmaceuticals and bulk drugs.\n2. Electronics manufacturing clusters are located at Kopparthy, Tirupati and Sri City.\n3. Silk weaving centres include Dharmavaram, Uppada, Peddapuram and Mudireddipalli.\n4. Steel industries include JSW at Kadapa, AM/NS at Anakapalli and RINL at Visakhapatnam.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly identify the principal industrial clusters and locations listed.",
+   "ty": "statements",
+   "tq": "Scan each sector-location statement before selecting the coded combination.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Automobile — Kia at Sri Sathya Sai district",
+    "Fertiliser and petrochemicals — Kakinada and Visakhapatnam",
+    "Silk weaving — Orvakal and Kopparthy",
+    "Pharma and bulk drugs — Parawada"
+   ],
+   "a": 2,
+   "x": "Silk weaving is associated with Dharmavaram, Uppada, Peddapuram and Mudireddipalli, not Orvakal and Kopparthy.",
+   "ty": "negative",
+   "tq": "Find the sector-location mismatch using the cluster table.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly states the scale of large and mega industrial units in Andhra Pradesh?",
+   "o": [
+    "8 units, involving ₹2,45,275 crore and 65,541 jobs",
+    "1,074 units, involving ₹3.01 lakh crore and 5.33 lakh jobs",
+    "635 units, involving ₹64,197 crore and 1.66 lakh jobs",
+    "1,721 units, involving ₹16,350 crore and 2,002 acres"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh has 1,074 large and mega units involving ₹3.01 lakh crore and 5.33 lakh jobs.",
+   "ty": "numerical",
+   "tq": "Separate the statewide industrial scale figures from annual approvals and allotments.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "The State Investment Promotion Board approved how many projects in FY 2024–25, involving what investment and employment?",
+   "o": [
+    "1,721 projects; ₹64,197 crore and 1.66 lakh jobs",
+    "8 projects; ₹2,45,275 crore and 65,541 jobs",
+    "8 projects; ₹16,350 crore and 4,500 jobs",
+    "1,074 projects; ₹3.01 lakh crore and 5.33 lakh jobs"
+   ],
+   "a": 1,
+   "x": "SIPB approved 8 projects in FY 2024–25 involving ₹2,45,275 crore and 65,541 jobs.",
+   "ty": "numerical",
+   "tq": "Use the project count to distinguish approval data from total industrial stock.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements correctly describes the historical silk industry of Andhra Pradesh?",
+   "o": [
+    "The principal silk centres were Kakinada, Parawada and Orvakal, and the industry was based on steel workers.",
+    "Berhampur, Peddapuram and Dharmavaram were silk centres producing luxury goods, with Devanga and Padmasali communities among the weavers.",
+    "Silk weaving originated mainly in Sri City and was dominated by automobile enterprises.",
+    "The silk industry was concentrated exclusively in rural areas and produced only utilitarian cloth."
+   ],
+   "a": 1,
+   "x": "Berhampur, Peddapuram and Dharmavaram were silk centres producing luxury goods; Devanga, Padmasali and other weaving communities were associated with the industry, which was not mainly rural.",
+   "ty": "fact",
+   "tq": "Reject the extreme ‘exclusively’ claim and identify the complete historical description.",
+   "sec": "Major industries - location and origin  [APPSC]"
+  }
+ ]
+}

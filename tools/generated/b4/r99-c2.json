@@ -1,0 +1,650 @@
+{
+ "book": 4,
+ "row": 99,
+ "chunk": 2,
+ "section": "Energy resources - coal, petroleum, natural gas, hydel, nuclear and renewable; distribution in India and AP",
+ "subsections": [
+  "Leading states - reserves and installed capacity",
+  "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas",
+  "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 46,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which State has the largest reserves of coal in India?",
+   "o": [
+    "Rajasthan",
+    "Gujarat",
+    "Tamil Nadu",
+    "Jharkhand"
+   ],
+   "a": 3,
+   "x": "Jharkhand has the largest coal reserves among Indian States.",
+   "ty": "fact",
+   "tq": "Use direct reserve-state recall and distinguish reserves from production.",
+   "sec": "Leading states - reserves and installed capacity  [APPSC]"
+  },
+  {
+   "s": "Which State is the leading reserve holder of lignite in India?",
+   "o": [
+    "Gujarat",
+    "Andhra Pradesh",
+    "Tamil Nadu",
+    "Rajasthan"
+   ],
+   "a": 2,
+   "x": "Tamil Nadu has the largest lignite reserves in India.",
+   "ty": "fact",
+   "tq": "Test the coal–lignite distinction through a direct comparison.",
+   "sec": "Leading states - reserves and installed capacity  [APPSC]"
+  },
+  {
+   "s": "The Barmer basin, known for the Mangala, Bhagyam and Aishwariya oil fields, is located in which State?",
+   "o": [
+    "Gujarat",
+    "Rajasthan",
+    "Andhra Pradesh",
+    "Assam"
+   ],
+   "a": 1,
+   "x": "The Barmer basin in Rajasthan is an important onshore oil-producing region containing the Mangala, Bhagyam and Aishwariya fields.",
+   "ty": "fact",
+   "tq": "Link named oil fields with their producing basin and State.",
+   "sec": "Leading states - reserves and installed capacity  [APPSC]"
+  },
+  {
+   "s": "Which State led India in renewable-energy capacity with 42.58 GW, accounting for 16.5 per cent of the national total?",
+   "o": [
+    "Karnataka",
+    "Rajasthan",
+    "Tamil Nadu",
+    "Gujarat"
+   ],
+   "a": 3,
+   "x": "Gujarat led renewable-energy capacity with 42.58 GW, or 16.5 per cent of India's total.",
+   "ty": "numerical",
+   "tq": "Use a precise capacity figure to identify the leading State.",
+   "sec": "Leading states - reserves and installed capacity  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding wind power in India:\n1. Gujarat ranks first in wind power capacity.\n2. Tamil Nadu ranks second in wind power capacity.\n3. Rajasthan ranks first and Gujarat ranks second.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Gujarat ranks first and Tamil Nadu second in wind power capacity. Statement 3 reverses the ranking and is false.",
+   "ty": "statements",
+   "tq": "Check the ranking statements and reject the reversed comparison.",
+   "sec": "Leading states - reserves and installed capacity  [APPSC]"
+  },
+  {
+   "s": "Bhadla Solar Park, having a capacity of 2,245 MW and described as the world's largest solar park, is located in:",
+   "o": [
+    "Rewa, Madhya Pradesh",
+    "Jodhpur, Rajasthan",
+    "Pavagada, Karnataka",
+    "Kurnool, Andhra Pradesh"
+   ],
+   "a": 1,
+   "x": "Bhadla Solar Park is located near Jodhpur in Rajasthan and has a capacity of 2,245 MW.",
+   "ty": "fact",
+   "tq": "Match the named park with its State and location.",
+   "sec": "Leading states - reserves and installed capacity  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Rewa — Madhya Pradesh",
+    "Bhadla — Rajasthan",
+    "Pavagada — Karnataka",
+    "Bhadla — Gujarat"
+   ],
+   "a": 3,
+   "x": "Bhadla is located in Rajasthan, not Gujarat. Pavagada is in Karnataka and Rewa is in Madhya Pradesh.",
+   "ty": "negative",
+   "tq": "Find the wrongly matched location in a closely related park list.",
+   "sec": "Leading states - reserves and installed capacity  [APPSC]"
+  },
+  {
+   "s": "The approximate wind-energy potential of India assessed at a height of 120 metres is:",
+   "o": [
+    "1,060.5 GW",
+    "105.5 GW",
+    "305.5 GW",
+    "695.5 GW"
+   ],
+   "a": 3,
+   "x": "India's wind-energy potential at 120 metres is assessed at approximately 695.5 GW.",
+   "ty": "numerical",
+   "tq": "Test a specific potential figure with nearby numerical distractors.",
+   "sec": "Leading states - reserves and installed capacity  [APPSC]"
+  },
+  {
+   "s": "Which State has the highest hydropower potential in India?",
+   "o": [
+    "Tamil Nadu",
+    "Gujarat",
+    "Arunachal Pradesh",
+    "Rajasthan"
+   ],
+   "a": 2,
+   "x": "Arunachal Pradesh has the highest hydropower potential in India.",
+   "ty": "fact",
+   "tq": "Use direct geographical potential-state identification.",
+   "sec": "Leading states - reserves and installed capacity  [APPSC]"
+  },
+  {
+   "s": "As per the APSES 2025–26 figure, the installed and contracted power capacity of Andhra Pradesh is:",
+   "o": [
+    "27,392 MW",
+    "10,639.75 MW",
+    "42,580 MW",
+    "21,297 MW"
+   ],
+   "a": 3,
+   "x": "The APSES 2025–26 figure for installed and contracted capacity is 21,297 MW. The 27,392 MW figure belongs to APSES 2024–25.",
+   "ty": "numerical",
+   "tq": "Discriminate between two closely dated capacity figures.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the capacities owned by APGENCO and APPDCL?",
+   "o": [
+    "6,610 MW hydel, 1,773.60 MW thermal and 405 MW solar",
+    "6,610 MW thermal, 1,773.60 MW hydel and 405 MW solar",
+    "5,614.52 MW thermal, 4,397.67 MW hydel and 405 MW solar",
+    "21,297 MW thermal, 1,680 MW hydel and 750 MW solar"
+   ],
+   "a": 1,
+   "x": "APGENCO and APPDCL own 6,610 MW of thermal, 1,773.60 MW of hydel and 405 MW of solar capacity.",
+   "ty": "comparison",
+   "tq": "Separate capacity categories instead of matching only the largest figure.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about renewable energy capacity in Andhra Pradesh as of December 2025:\n1. Renewable capacity was 10,639.75 MW.\n2. Solar capacity was 5,614.52 MW.\n3. Wind capacity was 4,397.67 MW.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three figures are correct: total renewable capacity was 10,639.75 MW, including 5,614.52 MW solar and 4,397.67 MW wind.",
+   "ty": "statements",
+   "tq": "Verify each numerical statement independently before selecting the coded combination.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "Pinnapuram Pumped Storage Project, with a capacity of 1,680 MW, is located in:",
+   "o": [
+    "Visakhapatnam",
+    "Krishna",
+    "Kurnool",
+    "Sri Sathya Sai"
+   ],
+   "a": 2,
+   "x": "The 1,680 MW Pinnapuram Pumped Storage Project is located in Kurnool district.",
+   "ty": "fact",
+   "tq": "Associate a distinctive project capacity with its location.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "NP Kunta — Sri Sathya Sai district",
+    "Bhadla — Kurnool district",
+    "Pinnapuram — Ananthapuramu Ultra Mega Solar Park",
+    "Rewa — Kutch district"
+   ],
+   "a": 0,
+   "x": "NP Kunta, also called the Ananthapuramu Ultra Mega Solar Park, is located in Sri Sathya Sai district. The other pairings are incorrect.",
+   "ty": "match",
+   "tq": "Start with the sure project–district pair and eliminate swapped locations.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "Srisailam Hydel Station is situated on which river?",
+   "o": [
+    "Krishna",
+    "Godavari",
+    "Pennar",
+    "Vamsadhara"
+   ],
+   "a": 0,
+   "x": "The Srisailam hydel station is located on the Krishna River.",
+   "ty": "fact",
+   "tq": "Match a major hydel station with its river basin.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "Construction of the Srisailam hydel station began in:",
+   "o": [
+    "1956",
+    "1968",
+    "1975",
+    "1983"
+   ],
+   "a": 1,
+   "x": "Construction of the Srisailam hydel station began in 1968.",
+   "ty": "numerical",
+   "tq": "Test the project chronology through a direct year question.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "The installed capacity planned for the Polavaram hydel project is:",
+   "o": [
+    "1,350 MW",
+    "640 MW",
+    "1,680 MW",
+    "960 MW"
+   ],
+   "a": 3,
+   "x": "The Polavaram hydel project is planned to have 960 MW capacity through 12 units of 80 MW each.",
+   "ty": "numerical",
+   "tq": "Use the unit multiplication clue to verify the total capacity.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "The proposed capacity of the Upper Sileru Pumped Storage Project is:",
+   "o": [
+    "1,050 MW",
+    "1,680 MW",
+    "1,350 MW",
+    "960 MW"
+   ],
+   "a": 2,
+   "x": "The Upper Sileru Pumped Storage Project is proposed to have a capacity of 1,350 MW.",
+   "ty": "numerical",
+   "tq": "Distinguish the capacities of major Andhra Pradesh storage projects.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding energy resources in Andhra Pradesh?",
+   "o": [
+    "The KG basin is Andhra Pradesh's oil and gas hub.",
+    "Rawa exports crude through a natural-gas pipeline.",
+    "The Barmer basin is located in Andhra Pradesh.",
+    "The Krishna basin is the State's principal oil and gas hub."
+   ],
+   "a": 0,
+   "x": "The Krishna–Godavari basin is Andhra Pradesh's oil and gas hub. Rawa exports crude through a single buoy mooring, or SBM.",
+   "ty": "fact",
+   "tq": "Use the exact basin–resource relationship and reject location and transport substitutions.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "Rawa crude oil is exported through a:",
+   "o": [
+    "Single buoy mooring",
+    "Hydrogen pipeline",
+    "Green Energy Corridor",
+    "Pumped storage tunnel"
+   ],
+   "a": 0,
+   "x": "Rawa exports crude through an SBM, or single buoy mooring.",
+   "ty": "confusable",
+   "tq": "Discriminate between petroleum export infrastructure and electricity infrastructure.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT a target of the Integrated Clean Energy Policy, 2024 of Andhra Pradesh?",
+   "o": [
+    "Investment of Rs 10 lakh crore",
+    "Net Zero by 2030",
+    "160 GW or more of capacity",
+    "Creation of 7.5 lakh jobs"
+   ],
+   "a": 1,
+   "x": "The policy targets Net Zero by 2047, not by 2030. It also targets 160 GW or more, Rs 10 lakh crore investment and 7.5 lakh jobs.",
+   "ty": "negative",
+   "tq": "Find the altered target year in a set of policy commitments.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "The Green Hydrogen Valley declaration in Andhra Pradesh was made at Amaravati on:",
+   "o": [
+    "19 July 2026",
+    "19 July 2025",
+    "19 July 2024",
+    "19 July 2023"
+   ],
+   "a": 1,
+   "x": "The Green Hydrogen Valley declaration was made at Amaravati on 19 July 2025.",
+   "ty": "numerical",
+   "tq": "Test a dated current-affairs event with closely spaced year options.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "The Green Hydrogen Valley initiative in Andhra Pradesh aims to reduce the cost of green hydrogen to approximately:",
+   "o": [
+    "Rs 260–270 per kg",
+    "Rs 100–110 per kg",
+    "Rs 60–70 per kg",
+    "Rs 160–170 per kg"
+   ],
+   "a": 3,
+   "x": "The initiative aims to reduce the cost of green hydrogen to Rs 160–170 per kg.",
+   "ty": "numerical",
+   "tq": "Recall the policy's target price range rather than its investment target.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "On 6 August 2026, APERC approved the purchase of how much thermal power?",
+   "o": [
+    "2,245 MW",
+    "1,350 MW",
+    "960 MW",
+    "1,600 MW"
+   ],
+   "a": 3,
+   "x": "APERC approved the purchase of 1,600 MW of thermal power on 6 August 2026.",
+   "ty": "numerical",
+   "tq": "Use a current-affairs figure and distinguish it from project-generation capacities.",
+   "sec": "AP energy - Simhadri, Srisailam, Pinnapuram, solar parks, KG gas  [APPSC]"
+  },
+  {
+   "s": "India has set a target of achieving non-fossil fuel capacity of how much by 2030?",
+   "o": [
+    "300 GW",
+    "400 GW",
+    "700 GW",
+    "500 GW"
+   ],
+   "a": 3,
+   "x": "India's target is 500 GW of non-fossil capacity by 2030.",
+   "ty": "numerical",
+   "tq": "Test the headline national energy target directly.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. India reached a 50 per cent non-fossil share about five years ahead of schedule.\n2. Coal's share fell for the first time in 50 years.\n3. India's non-fossil capacity target for 2030 is 500 GW.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. India reached the 50 per cent non-fossil share early, coal's share declined for the first time in five decades, and the 2030 target is 500 GW.",
+   "ty": "statements",
+   "tq": "Combine milestone, trend and target statements in a coded option.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "As of August 2026, India's installed solar and wind capacities were respectively:",
+   "o": [
+    "158.14 GW and 64.59 GW",
+    "164.59 GW and 58.14 GW",
+    "164.59 GW and 11.75 GW",
+    "58.14 GW and 164.59 GW"
+   ],
+   "a": 1,
+   "x": "India had 164.59 GW of solar capacity and 58.14 GW of wind capacity as of August 2026.",
+   "ty": "numerical",
+   "tq": "Preserve the order of two sectoral capacity figures.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents India's global ranking in renewable energy, solar and wind capacity, respectively?",
+   "o": [
+    "4th, 3rd and 3rd",
+    "3rd, 4th and 3rd",
+    "2nd, 3rd and 4th",
+    "3rd, 3rd and 4th"
+   ],
+   "a": 3,
+   "x": "India ranks third in overall renewable-energy capacity, third in solar and fourth in wind capacity.",
+   "ty": "comparison",
+   "tq": "Read the ranking sequence carefully and avoid reversing the last two categories.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "The outlay of the National Green Hydrogen Mission launched in 2023 is:",
+   "o": [
+    "Rs 39,744 crore",
+    "Rs 19,744 crore",
+    "Rs 29,744 crore",
+    "Rs 9,744 crore"
+   ],
+   "a": 1,
+   "x": "The National Green Hydrogen Mission, launched in 2023, has an outlay of Rs 19,744 crore.",
+   "ty": "numerical",
+   "tq": "Test the exact mission outlay using adjacent numerical distractors.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "The production target of the National Green Hydrogen Mission for 2030 is:",
+   "o": [
+    "5 MMT per year",
+    "3 MMT per year",
+    "1 MMT per year",
+    "10 MMT per year"
+   ],
+   "a": 0,
+   "x": "The mission targets production of 5 million metric tonnes of green hydrogen annually by 2030.",
+   "ty": "numerical",
+   "tq": "Distinguish the production target from the mission's financial outlay.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes green hydrogen from blue hydrogen?",
+   "o": [
+    "Green hydrogen is produced from coal, whereas blue hydrogen is produced from solar energy.",
+    "Green hydrogen is produced from gas without carbon capture, whereas blue hydrogen is produced from wind power.",
+    "Green hydrogen is produced through renewable-powered electrolysis, whereas blue hydrogen is produced from gas with carbon capture and storage.",
+    "Both are produced only through nuclear power."
+   ],
+   "a": 2,
+   "x": "Green hydrogen is produced by electrolysis powered by renewable energy. Blue hydrogen is produced from gas with carbon capture and storage.",
+   "ty": "confusable",
+   "tq": "Separate two look-alike hydrogen categories by production process.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "India's first hydrogen train, which began operation in July 2026, runs on which route?",
+   "o": [
+    "Jind–Kurnool",
+    "Jind–Sonipat",
+    "Delhi–Jaipur",
+    "Sonipat–Amaravati"
+   ],
+   "a": 1,
+   "x": "India's first hydrogen train began operation on the Jind–Sonipat route in July 2026.",
+   "ty": "fact",
+   "tq": "Link a current transport innovation with its specific route.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "The primary function of the Green Energy Corridor is to:",
+   "o": [
+    "Carry renewable-energy power to the electricity grid through dedicated transmission",
+    "Export crude oil through offshore terminals",
+    "Produce hydrogen from natural gas",
+    "Transport coal from mines to thermal plants"
+   ],
+   "a": 0,
+   "x": "The Green Energy Corridor provides dedicated transmission infrastructure for carrying renewable-energy power to the grid.",
+   "ty": "application",
+   "tq": "Identify the infrastructure function rather than the energy source alone.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "Andhra Pradesh completed Phase-I of the Green Energy Corridor, funded by KfW, in:",
+   "o": [
+    "December 2024",
+    "December 2026",
+    "December 2025",
+    "December 2023"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh completed Phase-I of its KfW-funded Green Energy Corridor in December 2025.",
+   "ty": "numerical",
+   "tq": "Test the completion year of a State-specific infrastructure phase.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "Under PM Surya Ghar, a rooftop solar system of 1–3 kW can provide up to how many free electricity units per month?",
+   "o": [
+    "100 units",
+    "300 units",
+    "200 units",
+    "500 units"
+   ],
+   "a": 1,
+   "x": "Under PM Surya Ghar, a 1–3 kW rooftop solar system can provide up to 300 free units per month.",
+   "ty": "numerical",
+   "tq": "Match the system-size range with the stated monthly benefit.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "Which State leads in rooftop solar under the PM Surya Ghar programme?",
+   "o": [
+    "Rajasthan",
+    "Tamil Nadu",
+    "Karnataka",
+    "Gujarat"
+   ],
+   "a": 3,
+   "x": "Gujarat leads in rooftop solar under the PM Surya Ghar programme.",
+   "ty": "fact",
+   "tq": "Identify the leading State in a specific renewable sub-sector.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "The Union Budget 2026–27 proposed CCUS at scale in which of the following sectors?\n1. Power\n2. Steel\n3. Cement\n4. Refineries\n5. Chemicals\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 3, 4 and 5 only",
+    "2, 3 and 4 only",
+    "1, 2, 3, 4 and 5"
+   ],
+   "a": 3,
+   "x": "The Budget proposed CCUS at scale in all five listed sectors: power, steel, cement, refineries and chemicals.",
+   "ty": "statements",
+   "tq": "Recognise an all-inclusive sectoral list when every item belongs to the stated policy.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "Under Budget 2026–27 provisions relating to critical minerals, which statement is correct?",
+   "o": [
+    "There is no basic customs duty on capital goods for processing critical minerals, and monazite attracts nil duty.",
+    "Monazite attracts the highest customs duty among critical minerals.",
+    "A basic customs duty is imposed on capital goods used for processing critical minerals.",
+    "Both capital goods and monazite are exempt only from income tax."
+   ],
+   "a": 0,
+   "x": "The Budget provided no basic customs duty on capital goods used for processing critical minerals and nil duty on monazite.",
+   "ty": "fact",
+   "tq": "Distinguish customs-duty concessions from unrelated fiscal measures.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Park)\na. Bhadla\nb. Pavagada\nc. Kurnool Ultra Mega Solar Park\nd. Khavda Renewable Energy Park\nList-II (State)\ni. Gujarat\nii. Karnataka\niii. Andhra Pradesh\niv. Rajasthan\nThe correct answer is:",
+   "o": [
+    "a–iv, b–ii, c–iii, d–i",
+    "a–i, b–ii, c–iv, d–iii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–ii, b–iv, c–iii, d–i"
+   ],
+   "a": 0,
+   "x": "Bhadla is in Rajasthan, Pavagada in Karnataka, Kurnool Ultra Mega Solar Park in Andhra Pradesh, and Khavda in Gujarat.",
+   "ty": "match",
+   "tq": "Start from the sure park–State pairs and eliminate codes with a repeated mismatch.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT included among the wind-energy States listed for India?",
+   "o": [
+    "Andhra Pradesh",
+    "Tamil Nadu",
+    "Odisha",
+    "Maharashtra"
+   ],
+   "a": 2,
+   "x": "The listed wind-energy States are Tamil Nadu, Gujarat, Karnataka, Maharashtra, Rajasthan and Andhra Pradesh. Odisha is not included in that list.",
+   "ty": "negative",
+   "tq": "Find the outsider in a geographically related State list.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "NTPC Simhadri, Visakhapatnam, is associated with:",
+   "o": [
+    "India's largest tidal-energy project",
+    "Green-hydrogen blending trials",
+    "The production of blue hydrogen from imported coal",
+    "The first commercial coal mine in India"
+   ],
+   "a": 1,
+   "x": "NTPC Simhadri at Visakhapatnam began green-hydrogen blending trials in January 2026.",
+   "ty": "application",
+   "tq": "Associate a named power station with its new technological application.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "India's target for the share of natural gas in its energy mix by 2030 is approximately:",
+   "o": [
+    "6.7 per cent",
+    "10 per cent",
+    "15 per cent",
+    "25 per cent"
+   ],
+   "a": 2,
+   "x": "India aims to increase natural gas's share from about 6.7 per cent to 15 per cent by 2030.",
+   "ty": "numerical",
+   "tq": "Compare the present share with the stated future target.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "The International Solar Alliance was launched by:",
+   "o": [
+    "France and Japan at COP21 in Paris in 2015",
+    "India and the United States at COP20 in Lima in 2014",
+    "India and France at COP21 in Paris in 2015",
+    "India and Germany at COP26 in Glasgow in 2021"
+   ],
+   "a": 2,
+   "x": "The International Solar Alliance was launched by India and France at COP21 in Paris in 2015.",
+   "ty": "fact",
+   "tq": "Combine the two founding countries with the correct conference and year.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "The headquarters of the International Solar Alliance is located at:",
+   "o": [
+    "Gurugram",
+    "Paris",
+    "Amaravati",
+    "New Delhi"
+   ],
+   "a": 0,
+   "x": "The headquarters of the International Solar Alliance is at Gurugram.",
+   "ty": "fact",
+   "tq": "Distinguish the headquarters from the place where the alliance was launched.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Bio-power capacity, August 2026 — 11.75 GW",
+    "Solar capacity, August 2026 — 164.59 GW",
+    "Wind capacity, August 2026 — 58.14 GW",
+    "Geothermal installed capacity, August 2026 — 10,600 MW"
+   ],
+   "a": 3,
+   "x": "About 10,600 MW refers to India's geothermal potential, not installed geothermal capacity. The solar, wind and bio-power figures are correctly matched.",
+   "ty": "negative",
+   "tq": "Distinguish installed capacity figures from potential estimates.",
+   "sec": "Renewable energy - national targets, Green Energy Corridor, Green Hydrogen Mission, rooftop solar, budget  [APPSC]"
+  }
+ ]
+}

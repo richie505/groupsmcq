@@ -1,0 +1,484 @@
+{
+ "book": 4,
+ "row": 89,
+ "chunk": 0,
+ "section": "India - automobile, engineering, electronics, pharmaceutical and IT industries",
+ "subsections": [
+  "Railway production units - location and product",
+  "Shipbuilding and shipbreaking yards",
+  "IT and software industry - hubs, nicknames, policy history, STPIs",
+  "Heavy engineering and defence units - location",
+  "Automobile hubs and industrial towns"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Integral Coach Factory, established in 1955 with Swiss collaboration, is located at:",
+   "o": [
+    "Kapurthala",
+    "Rae Bareli",
+    "Perambur, Chennai",
+    "Yelahanka, Bengaluru"
+   ],
+   "a": 2,
+   "x": "The Integral Coach Factory is located at Perambur in Chennai and produces passenger coaches. It was established in 1955 with Swiss collaboration.",
+   "ty": "fact",
+   "tq": "Use the location-product association while separating the coach factories from one another.",
+   "sec": "Railway production units - location and product  [APPSC]"
+  },
+  {
+   "s": "Which one of the following railway production units is correctly matched with its product?",
+   "o": [
+    "Rail Wheel Factory — Passenger coaches",
+    "Rail Coach Factory — Aircraft",
+    "Patiala Locomotive Works — Ship engines",
+    "Chittaranjan Locomotive Works — Electric locomotives"
+   ],
+   "a": 3,
+   "x": "Chittaranjan Locomotive Works at Chittaranjan in West Bengal produces electric locomotives.",
+   "ty": "fact",
+   "tq": "Identify the correct unit-product pair and reject mismatched industrial functions.",
+   "sec": "Railway production units - location and product  [APPSC]"
+  },
+  {
+   "s": "Banaras Locomotive Works at Varanasi was earlier known as:",
+   "o": [
+    "Diesel Locomotive Works",
+    "Rail Wheel Works",
+    "Patiala Locomotive Works",
+    "Modern Coach Works"
+   ],
+   "a": 0,
+   "x": "Banaras Locomotive Works was earlier called Diesel Locomotive Works. It now produces electric locomotives.",
+   "ty": "confusable",
+   "tq": "Discriminate between the former and present names of a production unit.",
+   "sec": "Railway production units - location and product  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding railway production units:\n1. Rail Coach Factory is located at Kapurthala.\n2. Rail Wheel Factory is located at Yelahanka, Bengaluru.\n3. Patiala Locomotive Works is located in Punjab.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Rail Coach Factory is at Kapurthala, Rail Wheel Factory at Yelahanka, and Patiala Locomotive Works at Patiala in Punjab.",
+   "ty": "statements",
+   "tq": "Use a location cluster and verify each statement independently.",
+   "sec": "Railway production units - location and product  [APPSC]"
+  },
+  {
+   "s": "The Rail Wheel Factory, also known as the Wheel and Axle Plant, was established in:",
+   "o": [
+    "1955",
+    "1964",
+    "1984",
+    "1988"
+   ],
+   "a": 2,
+   "x": "The Rail Wheel Factory at Yelahanka, Bengaluru, was established in 1984 and manufactures wheels and axles.",
+   "ty": "numerical",
+   "tq": "Separate the establishment years of the railway production units.",
+   "sec": "Railway production units - location and product  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding railway production is correct?",
+   "o": [
+    "Private participation in wagon production is absent.",
+    "About 60% of wagons come from West Bengal.",
+    "Most wagons are built exclusively by the public sector.",
+    "All passenger coaches are manufactured at Bengaluru."
+   ],
+   "a": 1,
+   "x": "Most wagons are built in the private sector, and about 60% of wagons come from West Bengal.",
+   "ty": "fact",
+   "tq": "Watch for absolute words such as 'exclusively', 'all' and 'absent' in industrial statements.",
+   "sec": "Railway production units - location and product  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "TELCO — Jamshedpur",
+    "BHEL electric locomotives — Kochi",
+    "Bharat Movers Ltd — Patiala only",
+    "Rail Wheel Factory — Jamshedpur"
+   ],
+   "a": 0,
+   "x": "TELCO, or Tata Engineering and Locomotive Works, was established at Jamshedpur in 1964. Bharat Movers Ltd at Bengaluru also makes coaches, while BHEL produces electric locomotives at Bhopal.",
+   "ty": "match",
+   "tq": "Start with the sure location-product pair and eliminate reversed associations.",
+   "sec": "Railway production units - location and product  [APPSC]"
+  },
+  {
+   "s": "Which is the largest shipyard in India?",
+   "o": [
+    "Mazagon Dock Shipbuilders",
+    "Hindustan Shipyard",
+    "Goa Shipyard",
+    "Cochin Shipyard"
+   ],
+   "a": 3,
+   "x": "Cochin Shipyard at Kochi in Kerala is India's largest shipyard.",
+   "ty": "fact",
+   "tq": "Distinguish the size-based description from the defence-PSU classification.",
+   "sec": "Shipbuilding and shipbreaking yards  [APPSC]"
+  },
+  {
+   "s": "Hindustan Shipyard Ltd is located at:",
+   "o": [
+    "Kolkata",
+    "Kochi",
+    "Visakhapatnam",
+    "Mumbai"
+   ],
+   "a": 2,
+   "x": "Hindustan Shipyard Ltd is located at Visakhapatnam in Andhra Pradesh and is a defence public sector undertaking.",
+   "ty": "fact",
+   "tq": "Apply the location clue to distinguish the major shipyards on the eastern coast.",
+   "sec": "Shipbuilding and shipbreaking yards  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Mazagon Dock Shipbuilders — Mumbai\n2. Garden Reach Shipbuilders and Engineers — Kolkata\n3. Goa Shipyard — Goa\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correctly matched. Mazagon Dock is at Mumbai, GRSE at Kolkata, and Goa Shipyard in Goa; each is a defence PSU.",
+   "ty": "statements",
+   "tq": "Check each port-city association before selecting the coded combination.",
+   "sec": "Shipbuilding and shipbreaking yards  [APPSC]"
+  },
+  {
+   "s": "The diesel engine plant of Garden Reach Shipbuilders and Engineers is located at:",
+   "o": [
+    "Nashik",
+    "Ranchi",
+    "Bhopal",
+    "Kanpur"
+   ],
+   "a": 1,
+   "x": "GRSE has a diesel engine plant at Ranchi.",
+   "ty": "fact",
+   "tq": "Separate the shipyard's headquarters location from the location of its specialised plant.",
+   "sec": "Shipbuilding and shipbreaking yards  [APPSC]"
+  },
+  {
+   "s": "Which one of the following best explains why the IT industry is described as 'footloose'?",
+   "o": [
+    "It is independent of raw materials and is attracted by engineering talent and a technology ecosystem.",
+    "It can operate only near coalfields and ports.",
+    "It depends exclusively on bulky local raw materials.",
+    "It requires heavy mineral inputs at the production site."
+   ],
+   "a": 0,
+   "x": "The IT industry is footloose because it is largely independent of raw materials and is located mainly according to engineering talent and the technology ecosystem.",
+   "ty": "application",
+   "tq": "Apply the meaning of a geographical term rather than matching it to a physical resource.",
+   "sec": "IT and software industry - hubs, nicknames, policy history, STPIs  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT one of the major Indian clusters where software exports are concentrated?",
+   "o": [
+    "Kochi",
+    "Bengaluru",
+    "Pune",
+    "Hyderabad"
+   ],
+   "a": 0,
+   "x": "The listed major software-export clusters are Bengaluru, Hyderabad, Pune, Chennai and Noida/NCR. Kochi is not included in this cluster list.",
+   "ty": "negative",
+   "tq": "Find the one location outside the stated cluster group.",
+   "sec": "IT and software industry - hubs, nicknames, policy history, STPIs  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Hyderabad — Silicon Valley of India",
+    "Bengaluru — Silicon Valley of India",
+    "Pune — Cyberabad",
+    "Chennai — Cyberabad"
+   ],
+   "a": 1,
+   "x": "Bengaluru is known as the Silicon Valley of India, while Hyderabad is known as Cyberabad.",
+   "ty": "confusable",
+   "tq": "Discriminate between the two prominent IT-city nicknames.",
+   "sec": "IT and software industry - hubs, nicknames, policy history, STPIs  [APPSC]"
+  },
+  {
+   "s": "The Department of Electronics, which foresaw India's export potential in software as early as the mid-1970s, was set up in the:",
+   "o": [
+    "Ministry of Railways",
+    "Ministry of Commerce only",
+    "Prime Minister's Office",
+    "Planning Commission Secretariat"
+   ],
+   "a": 2,
+   "x": "The Department of Electronics was set up in the Prime Minister's Office and recognised India's software export potential as early as the mid-1970s.",
+   "ty": "fact",
+   "tq": "Use the institutional-location clue to identify the correct administrative authority.",
+   "sec": "IT and software industry - hubs, nicknames, policy history, STPIs  [APPSC]"
+  },
+  {
+   "s": "Software Technology Parks of India (STPI) were set up in:",
+   "o": [
+    "1975",
+    "1984",
+    "1991",
+    "2001"
+   ],
+   "a": 2,
+   "x": "Software Technology Parks of India were set up in 1991. STPs along with EMC 2.0 support the IT and software sector.",
+   "ty": "numerical",
+   "tq": "Distinguish the policy-history date from other technology and industrial milestones.",
+   "sec": "IT and software industry - hubs, nicknames, policy history, STPIs  [APPSC]"
+  },
+  {
+   "s": "Which of the following combinations correctly represents the present support structure mentioned for India's software sector?",
+   "o": [
+    "GRSE and STPI 1984",
+    "STPs and EMC 2.0",
+    "SEZs and HEC only",
+    "DPSUs and RCF"
+   ],
+   "a": 1,
+   "x": "The software sector is supported by Software Technology Parks and EMC 2.0.",
+   "ty": "fact",
+   "tq": "Match the policy instruments with the sector they support.",
+   "sec": "IT and software industry - hubs, nicknames, policy history, STPIs  [APPSC]"
+  },
+  {
+   "s": "Heavy Engineering Corporation, established at Ranchi in 1958, is associated with:",
+   "o": [
+    "Passenger coaches and axles",
+    "Defence electronics only",
+    "Transport aircraft alone",
+    "Heavy machinery and being the first such unit"
+   ],
+   "a": 3,
+   "x": "HEC at Ranchi was established in 1958 and produces heavy machinery; it was the first such unit.",
+   "ty": "fact",
+   "tq": "Combine the establishment year, location and principal product in one association.",
+   "sec": "Heavy engineering and defence units - location  [other exams]"
+  },
+  {
+   "s": "Which one of the following is the correct list of locations associated with HMT units?",
+   "o": [
+    "Bengaluru, Pinjore, Kalamassery, Hyderabad, Srinagar and Ajmer",
+    "Ranchi, Nashik, Koraput, Kanpur and Lucknow",
+    "Mumbai, Kochi, Goa, Kolkata and Visakhapatnam",
+    "Jamshedpur, Perambur, Patiala, Kapurthala and Varanasi"
+   ],
+   "a": 0,
+   "x": "HMT has units at Bengaluru, Pinjore, Kalamassery, Hyderabad, Srinagar and Ajmer. HMT is the largest machine-tool maker.",
+   "ty": "match",
+   "tq": "Recognise the complete location set instead of selecting a partial industrial chain.",
+   "sec": "Heavy engineering and defence units - location  [other exams]"
+  },
+  {
+   "s": "BHEL's Bhopal unit is particularly associated with:",
+   "o": [
+    "Software exports and electronics parks",
+    "Heavy electricals and electric locomotives",
+    "Diesel engines for ships only",
+    "Passenger coaches and wheels"
+   ],
+   "a": 1,
+   "x": "BHEL at Bhopal produces heavy electricals and electric locomotives, besides BHEL's other units.",
+   "ty": "fact",
+   "tq": "Link the industrial location with its specialised product rather than with a neighbouring unit.",
+   "sec": "Heavy engineering and defence units - location  [other exams]"
+  },
+  {
+   "s": "Consider the following statements regarding Hindustan Aeronautics Limited:\n1. HAL originated as Hindustan Aircraft in Bengaluru in 1940.\n2. HAL was formed in 1964.\n3. Its Nashik unit is associated with MiG airframes.\n4. Its Koraput unit is associated with MiG engines.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. HAL began as Hindustan Aircraft in Bengaluru in 1940, was formed as HAL in 1964, and has MiG airframe and engine units at Nashik and Koraput respectively.",
+   "ty": "statements",
+   "tq": "Treat the organisational history and location-product pairs as separate checks.",
+   "sec": "Heavy engineering and defence units - location  [other exams]"
+  },
+  {
+   "s": "Which one of the following HAL location-product pairs is NOT correctly matched?",
+   "o": [
+    "Koraput — Transport aircraft",
+    "Kanpur — Transport aircraft",
+    "Hyderabad — Electronics",
+    "Lucknow — Accessories"
+   ],
+   "a": 0,
+   "x": "Koraput is associated with MiG engines, not transport aircraft. Kanpur produces transport aircraft, Hyderabad produces electronics and Lucknow produces accessories.",
+   "ty": "negative",
+   "tq": "Find the swapped product in a location-based industrial list.",
+   "sec": "Heavy engineering and defence units - location  [other exams]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "BEL — Defence electronics at Bengaluru",
+    "Kirloskar Brothers — Shipbreaking at Bhavnagar",
+    "GRSE engine plant — Bengaluru",
+    "Drills — Yelahanka"
+   ],
+   "a": 0,
+   "x": "BEL at Bengaluru is associated with defence electronics. Kirloskar Brothers pioneered machine tools, GRSE's engine plant is at Ranchi, and drills are made at Naroda near Ahmedabad.",
+   "ty": "match",
+   "tq": "Use location and product together to reject cross-sector substitutions.",
+   "sec": "Heavy engineering and defence units - location  [other exams]"
+  },
+  {
+   "s": "Drills associated with the machine-tool industry are made at:",
+   "o": [
+    "Ranchi",
+    "Naroda, Ahmedabad",
+    "Pinjore",
+    "Kalamassery"
+   ],
+   "a": 1,
+   "x": "Drills are made at Naroda in Ahmedabad. Kirloskar Brothers pioneered machine tools.",
+   "ty": "fact",
+   "tq": "Identify the specific manufacturing location from a group of machine-tool centres.",
+   "sec": "Heavy engineering and defence units - location  [other exams]"
+  },
+  {
+   "s": "The Ordnance Factory Board was replaced by how many Defence Public Sector Undertakings?",
+   "o": [
+    "5",
+    "7",
+    "9",
+    "41"
+   ],
+   "a": 1,
+   "x": "The Ordnance Factory Board, which had 41 units, was replaced by seven DPSUs.",
+   "ty": "numerical",
+   "tq": "Distinguish the number of former units from the number of successor organisations.",
+   "sec": "Heavy engineering and defence units - location  [other exams]"
+  },
+  {
+   "s": "Which of the following is NOT one of the seven DPSUs formed after the replacement of the Ordnance Factory Board?",
+   "o": [
+    "Bharat Electronics Limited",
+    "Yantra India",
+    "India Optel",
+    "Munitions India"
+   ],
+   "a": 0,
+   "x": "The seven DPSUs include Munitions India, AVNL, AWEIL, Troops Comforts, Yantra India, India Optel and Gliders India. Bharat Electronics Limited is not in this listed group.",
+   "ty": "negative",
+   "tq": "Use the complete membership list to identify the outsider.",
+   "sec": "Heavy engineering and defence units - location  [other exams]"
+  },
+  {
+   "s": "India's defence production reached an all-time high of ₹1,51,339 crore in:",
+   "o": [
+    "FY 2024-25",
+    "FY 2022-23",
+    "FY 2021-22",
+    "FY 2023-24"
+   ],
+   "a": 0,
+   "x": "Defence production reached ₹1,51,339 crore in FY 2024-25, an all-time high.",
+   "ty": "numerical",
+   "tq": "Match the exact output figure with its financial year.",
+   "sec": "Heavy engineering and defence units - location  [other exams]"
+  },
+  {
+   "s": "Private participation in defence production was opened in May 2001, when the permitted FDI was:",
+   "o": [
+    "20%",
+    "26%",
+    "49%",
+    "74%"
+   ],
+   "a": 1,
+   "x": "Private participation in defence production was opened in May 2001, with FDI then permitted up to 26%.",
+   "ty": "numerical",
+   "tq": "Separate the policy-opening date from the associated percentage limit.",
+   "sec": "Heavy engineering and defence units - location  [other exams]"
+  },
+  {
+   "s": "Which automobile hub is popularly known as the 'Detroit of India'?",
+   "o": [
+    "Gurugram-Manesar",
+    "Sanand",
+    "Pune",
+    "Chennai"
+   ],
+   "a": 3,
+   "x": "Chennai is known as the Detroit of India and hosts Hyundai, BMW, Renault-Nissan, Ashok Leyland and Daimler.",
+   "ty": "fact",
+   "tq": "Match the nickname with the industrial hub before considering the manufacturers.",
+   "sec": "Automobile hubs and industrial towns  [other exams]"
+  },
+  {
+   "s": "Which of the following automobile manufacturer-location pairs is correctly matched?",
+   "o": [
+    "Kia India — Penukonda",
+    "Isuzu — Sanand",
+    "MG Motor — Sri City",
+    "Maruti Suzuki — Jamshedpur"
+   ],
+   "a": 0,
+   "x": "Kia India is associated with Penukonda in Sri Sathya Sai district, formerly Anantapur. Sri City hosts Isuzu and Kobelco, while Sanand hosts Tata Motors and MG Motor.",
+   "ty": "match",
+   "tq": "Start with the distinctive manufacturer-location pair and eliminate neighbouring hubs.",
+   "sec": "Automobile hubs and industrial towns  [other exams]"
+  },
+  {
+   "s": "Arrange the following automobile centres in the order in which the associated developments began, from earliest to latest:\nA. Premier Automobiles at Kurla\nB. Rail Wheel Factory at Yelahanka\nC. Software Technology Parks of India\nD. Opening of private participation in defence production",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "Premier Automobiles began in 1947, the Rail Wheel Factory was established in 1984, STPI was set up in 1991, and private participation in defence production opened in 2001.",
+   "ty": "chronology",
+   "tq": "Place the dated milestones first and then check the sequence of the middle events.",
+   "sec": "Automobile hubs and industrial towns  [other exams]"
+  },
+  {
+   "s": "The modern car industry in India began with Premier Automobiles at:",
+   "o": [
+    "Penukonda, Andhra Pradesh",
+    "Kurla, Mumbai",
+    "Pithampur, Madhya Pradesh",
+    "Sanand, Gujarat"
+   ],
+   "a": 1,
+   "x": "The modern car industry in India began with Premier Automobiles at Kurla in Mumbai in 1947.",
+   "ty": "fact",
+   "tq": "Distinguish the historical starting point from present-day automobile hubs.",
+   "sec": "Automobile hubs and industrial towns  [other exams]"
+  },
+  {
+   "s": "The automobile sector was described as a 'Sunrise Sector' because its share in GDP rose from 2.77% in 1992-93 to approximately:",
+   "o": [
+    "4.1%",
+    "5.5%",
+    "7.1%",
+    "10.7%"
+   ],
+   "a": 2,
+   "x": "The automobile sector's share in GDP rose from 2.77% in 1992-93 to approximately 7.1%, leading to its description as a Sunrise Sector.",
+   "ty": "numerical",
+   "tq": "Compare the starting percentage with the approximate later share.",
+   "sec": "Automobile hubs and industrial towns  [other exams]"
+  }
+ ]
+}

@@ -1,0 +1,216 @@
+{
+ "book": 3,
+ "row": 48,
+ "chunk": 3,
+ "section": "Agricultural inputs - seeds, fertilisers and the subsidy regime, pesticides, mechanisation, extension services",
+ "subsections": [
+  "Agricultural research institutes → location",
+  "Farm subsidies vs public investment - classifying input subsidies, MSP, research, irrigation",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 15,
+ "rejected": {
+  "invalid": 1,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Match List-I with List-II regarding agricultural research institutes and their locations:\n\nList-I (Institute)\n\na. Central Rice Research Institute (CRRI)\nb. Indian Agricultural Research Institute (IARI)\nc. Central Tobacco Research Institute (CTRI)\nd. International Crops Research Institute for the Semi-Arid Tropics (ICRISAT)\n\nList-II (Location)\n\ni. Patancheru, Hyderabad\nii. New Delhi (Pusa)\niii. Cuttack\niv. Rajahmundry\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "CRRI is located at Cuttack, IARI at New Delhi (Pusa), CTRI at Rajahmundry and ICRISAT at Patancheru, Hyderabad.",
+   "ty": "match",
+   "tq": "Start from the sure institute–location pairs and eliminate codes containing a mismatched pair.",
+   "sec": "Agricultural research institutes → location"
+  },
+  {
+   "s": "The National Rice Research Institute, formerly known as the Central Rice Research Institute, is located at",
+   "o": [
+    "Cuttack",
+    "Hyderabad",
+    "Rajahmundry",
+    "Patancheru"
+   ],
+   "a": 0,
+   "x": "The Central Rice Research Institute (CRRI) is now called the National Rice Research Institute and is located at Cuttack.",
+   "ty": "fact",
+   "tq": "Use the institute’s former and present names to identify its location.",
+   "sec": "Agricultural research institutes → location"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Indian Rice Research Institute — Hyderabad\n2. Indian Institute of Oilseeds Research — Hyderabad\n3. Indian Institute of Millets Research — Hyderabad\n\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correctly matched. IIRR, IIOR and IIMR are located at Hyderabad.",
+   "ty": "statements",
+   "tq": "Check whether the common location is correctly applied to all the listed specialised institutes.",
+   "sec": "Agricultural research institutes → location"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Indian Rice Research Institute — Rajahmundry",
+    "Indian Institute of Maize Research — Ludhiana",
+    "Indian Institute of Millets Research — Ludhiana",
+    "Indian Institute of Oilseeds Research — New Delhi"
+   ],
+   "a": 1,
+   "x": "The Indian Institute of Maize Research is located at Ludhiana. It should not be confused with the Indian Institute of Millets Research, which is located at Hyderabad; both use the acronym IIMR.",
+   "ty": "confusable",
+   "tq": "Distinguish similar acronyms by expanding the institute names before matching the location.",
+   "sec": "Agricultural research institutes → location"
+  },
+  {
+   "s": "Which of the following is classified as an input subsidy rather than public investment in agriculture?",
+   "o": [
+    "Construction of a major irrigation project",
+    "Construction of rural infrastructure",
+    "Subsidised fertiliser supplied to farmers",
+    "Establishment of an agricultural research institute"
+   ],
+   "a": 2,
+   "x": "Fertiliser subsidy is an input subsidy and represents a current transfer. Irrigation projects, agricultural research and rural infrastructure are forms of public investment and capital formation.",
+   "ty": "fact",
+   "tq": "Classify the item by asking whether it is a current transfer to inputs or capital formation.",
+   "sec": "Farm subsidies vs public investment - classifying input subsidies, MSP, research, irrigation"
+  },
+  {
+   "s": "Consider the following statements regarding agricultural support:\n1. Power subsidy is an input subsidy.\n2. Interest subvention on agricultural credit is an input subsidy.\n3. Irrigation projects are classified as input subsidies.\n4. Rural infrastructure represents public investment.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Power subsidy and interest subvention are input subsidies, while rural infrastructure is public investment. Irrigation projects are public investment, not input subsidies.",
+   "ty": "statements",
+   "tq": "Find the wrongly classified item by separating recurring input support from capital formation.",
+   "sec": "Farm subsidies vs public investment - classifying input subsidies, MSP, research, irrigation"
+  },
+  {
+   "s": "Which one of the following statements correctly distinguishes the Minimum Support Price from an input subsidy?",
+   "o": [
+    "MSP is a price support measure, whereas fertiliser subsidy is an input subsidy.",
+    "MSP is an input subsidy, whereas seed subsidy is a price support measure.",
+    "Both MSP and fertiliser subsidy are forms of public investment.",
+    "Both MSP and fertiliser subsidy are capital-formation measures."
+   ],
+   "a": 0,
+   "x": "MSP is a price support measure. Fertiliser, power, irrigation water, seed and credit support are input subsidies.",
+   "ty": "comparison",
+   "tq": "Separate price support for output from subsidised inputs used in production.",
+   "sec": "Farm subsidies vs public investment - classifying input subsidies, MSP, research, irrigation"
+  },
+  {
+   "s": "Which of the following is a criticism of agricultural subsidies mentioned in the context of their distributional effects?",
+   "o": [
+    "They are directed exclusively towards agricultural research.",
+    "They mainly benefit prosperous regions and the fertiliser industry.",
+    "They have completely eliminated regional disparities.",
+    "They benefit only farmers in rain-fed regions."
+   ],
+   "a": 1,
+   "x": "Although subsidies helped small farmers adopt high-yielding varieties, they are criticised for disproportionately benefiting prosperous regions and the fertiliser industry.",
+   "ty": "fact",
+   "tq": "Identify the balanced criticism rather than an absolute claim about subsidy outcomes.",
+   "sec": "Farm subsidies vs public investment - classifying input subsidies, MSP, research, irrigation"
+  },
+  {
+   "s": "The urea-centred subsidy regime is criticised primarily because it",
+   "o": [
+    "eliminates the need for irrigation",
+    "distorts the NPK ratio",
+    "converts MSP into a capital investment",
+    "prevents the use of all chemical fertilisers"
+   ],
+   "a": 1,
+   "x": "A urea-centred subsidy regime is criticised for distorting the balance among nitrogen, phosphorus and potassium, expressed as the NPK ratio.",
+   "ty": "fact",
+   "tq": "Link the policy focus on one fertiliser to its stated effect on nutrient balance.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "An acre-based support system has been suggested as an alternative to the existing",
+   "o": [
+    "urea-centred subsidy approach",
+    "rural infrastructure programme",
+    "agricultural research system",
+    "minimum support price mechanism"
+   ],
+   "a": 0,
+   "x": "An acre-based support system has been suggested as an alternative to the urea-centred subsidy approach.",
+   "ty": "application",
+   "tq": "Match the proposed policy alternative with the regime it is intended to address.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements regarding the West Asia crisis and agricultural subsidies is correct?",
+   "o": [
+    "Urea prices doubled between April 2025 and December 2026, while the subsidy bill was withdrawn.",
+    "The subsidy bill was fixed at ₹2.41 crore because urea prices remained unchanged.",
+    "Urea prices doubled between December 2025 and April 2026, and the subsidy bill may reach ₹2.41 lakh crore.",
+    "Urea prices were halved between December 2025 and April 2026, reducing the subsidy burden."
+   ],
+   "a": 2,
+   "x": "The West Asia crisis doubled urea prices between December 2025 and April 2026, and the subsidy bill may reach ₹2.41 lakh crore.",
+   "ty": "numerical",
+   "tq": "Check both the time interval and the quantitative estimate instead of accepting a partially altered figure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly describes the Andhra Pradesh agricultural support arrangement?",
+   "o": [
+    "APCNF is a central irrigation project, while RSKs conduct only agricultural exports.",
+    "APCNF is a fertiliser-pricing authority, while RSKs regulate international trade.",
+    "APCNF is a rural infrastructure fund, while RSKs determine MSP.",
+    "APCNF is a global natural-farming model, while RSKs deliver inputs at the village level."
+   ],
+   "a": 3,
+   "x": "APCNF is recognised as a global natural-farming model, and RSKs deliver agricultural inputs at the village level in Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Match each institution or initiative with its distinctive function rather than its general agricultural association.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to recent agricultural capacity-building measures, consider the following statements:\n1. The KVK upgrade plan includes entrepreneurship centres in all KVKs by December 2028.\n2. Andhra Pradesh has sought Central help for drones and mechanisation.\n3. The KVK upgrade plan is limited to establishing research institutes at Hyderabad.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "The plan envisages entrepreneurship centres in all KVKs by December 2028, and Andhra Pradesh has sought Central assistance for drones and mechanisation. The third statement is incorrect.",
+   "ty": "statements",
+   "tq": "Reject the over-specific statement that changes the scope of a genuine capacity-building measure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "IIMR (Indian Institute of Maize Research) — Hyderabad",
+    "APCNF — global natural-farming model",
+    "Regional Agricultural Research Station — Maruteru, rice",
+    "CTRI — Rajahmundry, Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "The Indian Institute of Maize Research is located at Ludhiana, not Hyderabad. The Indian Institute of Millets Research is the IIMR located at Hyderabad.",
+   "ty": "negative",
+   "tq": "Find the location error created by confusing two institutes sharing the acronym IIMR.",
+   "sec": "Universal angles"
+  }
+ ]
+}

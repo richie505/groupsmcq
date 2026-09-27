@@ -1,0 +1,412 @@
+{
+ "book": 3,
+ "row": 57,
+ "chunk": 1,
+ "section": "Minimum Support Price - mechanism, CACP, crops covered, procurement, criticism; PM-AASHA",
+ "subsections": [
+  "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay",
+  "MSP hike trend - kharif and rabi MSP for paddy and wheat by year",
+  "Crops covered - mandated crops list, kharif/rabi/commercial split"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 32,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM-AASHA) was launched in which month and year?",
+   "o": [
+    "January 2019",
+    "September 2018",
+    "September 2016",
+    "March 2020"
+   ],
+   "a": 1,
+   "x": "PM-AASHA was launched in September 2018 by the Ministry of Agriculture and Farmers Welfare.",
+   "ty": "fact",
+   "tq": "Use the exact launch date to distinguish the scheme from later agricultural initiatives.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "The principal purpose of PM-AASHA is to ensure that:",
+   "o": [
+    "the benefits of MSP reach farmers, including small and marginal farmers",
+    "all agricultural produce is procured by private agencies",
+    "agricultural exports are completely exempt from taxation",
+    "fertiliser subsidies reach only large farmers"
+   ],
+   "a": 0,
+   "x": "PM-AASHA seeks to make MSP reach farmers, including small and marginal farmers.",
+   "ty": "fact",
+   "tq": "Identify the scheme objective rather than its implementing component.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding eligibility under PSS:\n1. The farmer must be registered.\n2. The farmer must possess valid land records.\n3. Eligibility is automatically available to every trader purchasing the produce.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "PSS eligibility is limited to registered farmers with valid land records. Traders do not automatically qualify as beneficiaries.",
+   "ty": "statements",
+   "tq": "Find the incorrect eligibility statement by separating farmers from traders.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "From 2024-25, procurement under PSS is capped at what proportion of production?",
+   "o": [
+    "10 percent",
+    "15 percent",
+    "25 percent",
+    "50 percent"
+   ],
+   "a": 2,
+   "x": "PSS procurement was capped at 25% of production from 2024-25.",
+   "ty": "numerical",
+   "tq": "Recall the precise cap and reject nearby percentage values.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "A farmer sells an oilseed in the market below its MSP, but no physical procurement takes place. Under which PM-AASHA component may the farmer receive the difference between MSP and the market price in cash?",
+   "o": [
+    "PSS",
+    "PDPS",
+    "MIS",
+    "PPSS"
+   ],
+   "a": 1,
+   "x": "The Price Deficiency Payment Scheme (PDPS) makes a cash payment equal to the gap between MSP and the market price, mainly for oilseeds, without physical purchase.",
+   "ty": "application",
+   "tq": "Apply the no-procurement and cash-payment distinction to the agricultural scenario.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "Which of the following is correctly matched?",
+   "o": [
+    "PSS — Cash payment without procurement",
+    "PDPS — Physical procurement of copra by NAFED",
+    "PPSS — Private agencies procuring oilseeds at MSP in the original pilot",
+    "MIS — Procurement of all cereals at MSP"
+   ],
+   "a": 2,
+   "x": "PPSS was the original 2018 pilot under which private agencies procured oilseeds at MSP. PSS involves physical procurement, PDPS pays the deficiency, and MIS concerns specified perishables.",
+   "ty": "match",
+   "tq": "Start from the sure component-function pair and eliminate reversed descriptions.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "With reference to PPSS, which one of the following statements is correct?",
+   "o": [
+    "It provides deficiency payments for pulses without any procurement.",
+    "It was a 2018 pilot involving private stockists procuring oilseeds at MSP.",
+    "It is the current component replacing MIS in 2026 sources.",
+    "It is restricted to procurement of sugarcane at FRP."
+   ],
+   "a": 1,
+   "x": "PPSS was part of the original 2018 design as a pilot in which private stockists procured oilseeds at MSP. Current listings identify PSS, PDPS and MIS as the components.",
+   "ty": "confusable",
+   "tq": "Separate the original 2018 component from the components listed in later sources.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "Which of the following commodities is covered under the Market Intervention Scheme (MIS) rather than the regular MSP list?",
+   "o": [
+    "Onion",
+    "Gram",
+    "Paddy",
+    "Wheat"
+   ],
+   "a": 0,
+   "x": "MIS covers specified perishables not covered under MSP, including onion, tomato, apple, chillies, grapes and garlic.",
+   "ty": "fact",
+   "tq": "Use the perishable-commodity distinction to identify MIS coverage.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "MIS intervention may be triggered by which of the following conditions?\n1. A price fall of 10% or more.\n2. A production rise of 10% or more.\n3. A compulsory fall in production of exactly 10%.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "MIS can be triggered by a price fall of at least 10% or a production rise of at least 10%. A production fall is not the stated trigger.",
+   "ty": "statements",
+   "tq": "Check the direction of the percentage change before selecting the code.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "Under MIS, losses are ordinarily shared between the Centre and the States in which ratio?",
+   "o": [
+    "75:25",
+    "25:75",
+    "90:10",
+    "50:50"
+   ],
+   "a": 3,
+   "x": "MIS losses are ordinarily shared equally, in the ratio of 50:50, between the Centre and the State. For the North-Eastern States, the ratio is 75:25.",
+   "ty": "numerical",
+   "tq": "Distinguish the general loss-sharing ratio from the North-Eastern States exception.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "For the North-Eastern States, the Centre-State loss-sharing ratio under MIS is:",
+   "o": [
+    "50:50",
+    "90:10",
+    "75:25",
+    "60:40"
+   ],
+   "a": 2,
+   "x": "For the North-Eastern States, MIS losses are shared in the ratio of 75:25 between the Centre and the States.",
+   "ty": "confusable",
+   "tq": "Test the exceptional ratio separately from the general 50:50 rule.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "The outlay for the extension of PM-AASHA up to 2025-26 during the Fifteenth Finance Commission cycle is:",
+   "o": [
+    "₹15,000 crore",
+    "₹25,000 crore",
+    "₹35,000 crore",
+    "₹50,000 crore"
+   ],
+   "a": 2,
+   "x": "The outlay for the Fifteenth Finance Commission cycle up to 2025-26 is ₹35,000 crore.",
+   "ty": "numerical",
+   "tq": "Recall the scheme outlay using the exact Finance Commission cycle and terminal year.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "Under the pulses mission associated with PM-AASHA, 100% procurement at MSP for four years is promised for:",
+   "o": [
+    "Gram, moong and barley",
+    "Groundnut, soybean and sunflower",
+    "Paddy, wheat and maize",
+    "Tur, urad and masoor"
+   ],
+   "a": 3,
+   "x": "The pulses mission promises 100% procurement at MSP for four years for tur, urad and masoor through NAFED and NCCF under PSS.",
+   "ty": "fact",
+   "tq": "Use the exact three-pulse combination to avoid substituting other MSP crops.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "During 2024-25, as reported on 17 August 2025, the quantity procured under PSS was approximately:",
+   "o": [
+    "16.87 lakh metric tonnes",
+    "61.87 lakh metric tonnes",
+    "26.56 lakh metric tonnes",
+    "81.67 lakh metric tonnes"
+   ],
+   "a": 1,
+   "x": "PSS procured 61.87 lakh metric tonnes of oilseeds, pulses and copra during 2024-25. The figure of 26.56 lakh refers to farmers benefited, not quantity procured.",
+   "ty": "numerical",
+   "tq": "Separate the procurement quantity from the number of beneficiary farmers.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "In the 2024-25 PSS procurement data, the number of farmers benefited was:",
+   "o": [
+    "2.656 lakh",
+    "26.56 lakh",
+    "39 lakh",
+    "61.87 lakh"
+   ],
+   "a": 1,
+   "x": "The reported number of farmers benefited was 26.56 lakh. The other major figures relate to procurement quantity or MSP value.",
+   "ty": "numerical",
+   "tq": "Match the numerical figure with its unit and subject rather than its magnitude alone.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "The MSP value of oilseeds, pulses and copra procured under PSS during 2024-25 was reported as:",
+   "o": [
+    "More than ₹29,000 crore",
+    "More than ₹19,000 crore",
+    "More than ₹9,000 crore",
+    "More than ₹39,000 crore"
+   ],
+   "a": 3,
+   "x": "The MSP value of the PSS procurement was reported to be more than ₹39,000 crore.",
+   "ty": "numerical",
+   "tq": "Link the monetary value to procurement rather than to the scheme's total outlay.",
+   "sec": "PM-AASHA - components (PSS, PDPS, PPSS), target group, financial outlay  [APPSC]"
+  },
+  {
+   "s": "The MSP for common paddy in Kharif 2025-26 was:",
+   "o": [
+    "₹2,461 per quintal",
+    "₹2,269 per quintal",
+    "₹2,441 per quintal",
+    "₹2,369 per quintal"
+   ],
+   "a": 3,
+   "x": "The common paddy MSP for Kharif 2025-26 was ₹2,369 per quintal. ₹2,441 was the common paddy MSP for Kharif 2026-27.",
+   "ty": "confusable",
+   "tq": "Distinguish consecutive agricultural years and avoid confusing the hike-year figure with the preceding figure.",
+   "sec": "MSP hike trend - kharif and rabi MSP for paddy and wheat by year  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Kharif 2026-27 MSP of paddy:\n1. The common variety has an MSP of ₹2,441 per quintal.\n2. Grade A paddy has an MSP of ₹2,461 per quintal.\n3. The common paddy MSP increased by ₹72 over the preceding year.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: common paddy was fixed at ₹2,441, Grade A at ₹2,461, and the common variety received a ₹72 increase.",
+   "ty": "statements",
+   "tq": "Verify the base price, grade differential and year-on-year increase together.",
+   "sec": "MSP hike trend - kharif and rabi MSP for paddy and wheat by year  [APPSC]"
+  },
+  {
+   "s": "Among the following Kharif 2026-27 MSP increases, the largest hike was recorded for:",
+   "o": [
+    "Sunflower",
+    "Niger seed",
+    "Common paddy",
+    "Cotton"
+   ],
+   "a": 0,
+   "x": "Sunflower recorded the largest hike, increasing by ₹622 per quintal. The increases for cotton, niger seed and common paddy were ₹557, ₹515 and ₹72 respectively.",
+   "ty": "comparison",
+   "tq": "Compare the increments rather than the absolute MSP values.",
+   "sec": "MSP hike trend - kharif and rabi MSP for paddy and wheat by year  [APPSC]"
+  },
+  {
+   "s": "The MSPs recommended by CACP cover how many mandated crops, while sugarcane receives FRP?",
+   "o": [
+    "23 crops; making 24 in all",
+    "14 crops; making 15 in all",
+    "32 crops; making 33 in all",
+    "22 crops; making 23 in all"
+   ],
+   "a": 3,
+   "x": "There are 22 mandated MSP crops. Sugarcane receives Fair and Remunerative Price (FRP), making 23 crops in all under the stated classification.",
+   "ty": "numerical",
+   "tq": "Keep the MSP crop count separate from the total after adding sugarcane under FRP.",
+   "sec": "Crops covered - mandated crops list, kharif/rabi/commercial split  [other exams]"
+  },
+  {
+   "s": "The CACP classification of the 22 mandated MSP crops comprises:",
+   "o": [
+    "14 kharif, 6 rabi and 2 commercial crops",
+    "14 kharif, 7 rabi and 1 commercial crop",
+    "13 kharif, 7 rabi and 2 commercial crops",
+    "12 kharif, 6 rabi and 4 commercial crops"
+   ],
+   "a": 0,
+   "x": "The stated split is 14 kharif crops, 6 rabi crops and 2 commercial crops, totalling 22 mandated crops.",
+   "ty": "numerical",
+   "tq": "Check whether the category counts add up to the mandated total.",
+   "sec": "Crops covered - mandated crops list, kharif/rabi/commercial split  [other exams]"
+  },
+  {
+   "s": "Which one of the following groups consists entirely of cereals in the MSP crop classification?",
+   "o": [
+    "Paddy, wheat, maize, jowar, bajra, ragi and barley",
+    "Groundnut, soybean, sesamum, sunflower and safflower",
+    "Gram, tur, moong, urad and masur",
+    "Copra, cotton, raw jute and sugarcane"
+   ],
+   "a": 0,
+   "x": "The seven cereals are paddy, wheat, maize, jowar, bajra, ragi and barley. The other groups are pulses, oilseeds and commercial crops respectively.",
+   "ty": "odd_one_out",
+   "tq": "Classify the complete group before checking individual crop names.",
+   "sec": "Crops covered - mandated crops list, kharif/rabi/commercial split  [other exams]"
+  },
+  {
+   "s": "Which one of the following is NOT a pulse included in the mandated MSP crop list?",
+   "o": [
+    "Tur or arhar",
+    "Rapeseed-mustard",
+    "Masur",
+    "Gram"
+   ],
+   "a": 1,
+   "x": "Gram, tur/arhar and masur are pulses. Rapeseed-mustard is an oilseed.",
+   "ty": "negative",
+   "tq": "Use the crop-category trap to identify the item belonging to oilseeds.",
+   "sec": "Crops covered - mandated crops list, kharif/rabi/commercial split  [other exams]"
+  },
+  {
+   "s": "Which of the following is correctly matched with the oilseed category?",
+   "o": [
+    "Masur",
+    "Raw jute",
+    "Barley",
+    "Nigerseed"
+   ],
+   "a": 3,
+   "x": "Nigerseed is one of the seven oilseeds in the mandated MSP list. Raw jute is commercial, barley is a cereal and masur is a pulse.",
+   "ty": "fact",
+   "tq": "Identify the category of a crop instead of relying on its seasonal association.",
+   "sec": "Crops covered - mandated crops list, kharif/rabi/commercial split  [other exams]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Copra and raw jute are included among the commercial crops.\n2. Sugarcane receives FRP rather than MSP.\n3. Cotton is included among the commercial crops in the stated classification.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The four commercial entries are copra, cotton, raw jute and sugarcane, with sugarcane receiving FRP.",
+   "ty": "statements",
+   "tq": "Combine list membership with the MSP-FRP distinction.",
+   "sec": "Crops covered - mandated crops list, kharif/rabi/commercial split  [other exams]"
+  },
+  {
+   "s": "MSP for toria is derived from the MSP of:",
+   "o": [
+    "Rapeseed-mustard",
+    "Nigerseed",
+    "Groundnut",
+    "Sunflower"
+   ],
+   "a": 0,
+   "x": "The MSP for toria is derived from the MSP for rapeseed-mustard.",
+   "ty": "confusable",
+   "tq": "Test the derived-price relationship rather than the independent crop list.",
+   "sec": "Crops covered - mandated crops list, kharif/rabi/commercial split  [other exams]"
+  },
+  {
+   "s": "The MSP for de-husked coconut is derived from the MSP of:",
+   "o": [
+    "Groundnut",
+    "Cotton",
+    "Sesamum",
+    "Copra"
+   ],
+   "a": 3,
+   "x": "The MSP for de-husked coconut is derived from the MSP of copra.",
+   "ty": "confusable",
+   "tq": "Distinguish the derived commodity from the related oilseed alternatives.",
+   "sec": "Crops covered - mandated crops list, kharif/rabi/commercial split  [other exams]"
+  },
+  {
+   "s": "Which of the following commodities is generally NOT covered by the mandated MSP list and falls under MIS instead?",
+   "o": [
+    "Barley",
+    "Wheat",
+    "Potato",
+    "Maize"
+   ],
+   "a": 2,
+   "x": "Potato is not among the mandated MSP crops and falls under the category of perishables addressed through MIS. Maize, wheat and barley are mandated MSP cereals.",
+   "ty": "negative",
+   "tq": "Separate the mandated crop list from perishable commodities handled through MIS.",
+   "sec": "Crops covered - mandated crops list, kharif/rabi/commercial split  [other exams]"
+  }
+ ]
+}

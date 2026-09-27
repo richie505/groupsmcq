@@ -1,0 +1,412 @@
+{
+ "book": 3,
+ "row": 1,
+ "chunk": 0,
+ "section": "Structural change - sectoral composition of output and employment; the missing manufacturing transition",
+ "subsections": [
+  "Sector classification - activity to sector, alternative names",
+  "Sectoral share of employment vs share of output - the mismatch",
+  "Services-led growth - post-1991 growth driver, premature deindustrialisation"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 28,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Crops — Secondary sector",
+    "Fisheries — Primary sector",
+    "Water supply — Tertiary sector",
+    "Trade — Quaternary sector"
+   ],
+   "a": 1,
+   "x": "Fisheries belong to the Primary sector. Crops are also primary, water supply is secondary, and trade is tertiary.",
+   "ty": "match",
+   "tq": "Start from the sure activity-sector pair and eliminate the reversed classifications.",
+   "sec": "Sector classification - activity to sector, alternative names"
+  },
+  {
+   "s": "Manufacturing, electricity, gas, water supply, utilities and construction are collectively classified under which sector?",
+   "o": [
+    "Tertiary sector",
+    "Quinary sector",
+    "Secondary sector",
+    "Primary sector"
+   ],
+   "a": 2,
+   "x": "The Secondary or Industrial sector includes manufacturing, electricity, gas, water supply and utilities, and construction.",
+   "ty": "fact",
+   "tq": "Test the exact activity composition of the Industrial sector.",
+   "sec": "Sector classification - activity to sector, alternative names"
+  },
+  {
+   "s": "Consider the following pairs:\na. Primary sector — Agricultural sector\nb. Secondary sector — Industrial sector\nc. Tertiary sector — Service sector\nd. Quaternary sector — Top decision-making sector\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "a and b only",
+    "a, b and c only",
+    "b, c and d only",
+    "a, b, c and d"
+   ],
+   "a": 1,
+   "x": "The Primary, Secondary and Tertiary sectors are also called Agricultural, Industrial and Service sectors respectively. The Quaternary sector is the Knowledge sector; the Top decision-making sector is the Quinary sector.",
+   "ty": "statements",
+   "tq": "Identify the one swapped alternative name before selecting the coded combination.",
+   "sec": "Sector classification - activity to sector, alternative names"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the Quaternary sector?",
+   "o": [
+    "Government policy and health administration",
+    "R&D, software, education and consulting",
+    "Crops, livestock and forestry",
+    "Manufacturing and construction"
+   ],
+   "a": 1,
+   "x": "The Quaternary or Knowledge sector comprises research and development, software, education and consulting.",
+   "ty": "match",
+   "tq": "Use the activity cluster to distinguish knowledge work from production and administration.",
+   "sec": "Sector classification - activity to sector, alternative names"
+  },
+  {
+   "s": "Which one of the following activities is associated with the Quinary sector?",
+   "o": [
+    "Government policy and scientific research",
+    "Manufacturing and construction",
+    "Trade and transport",
+    "Mining and quarrying"
+   ],
+   "a": 0,
+   "x": "The Quinary sector consists of top decision-making activities such as government policy, scientific research and health or education administration.",
+   "ty": "fact",
+   "tq": "Test the highest-level administrative and decision-making category directly.",
+   "sec": "Sector classification - activity to sector, alternative names"
+  },
+  {
+   "s": "With reference to the classification of sectors, consider the following statements:\n1. Mining and quarrying are classified as primary activities in the activity-based classification.\n2. Mining and quarrying may be included in the broad Industry sector in the three-sector presentation.\n3. Fisheries are classified as tertiary activities because they are allied to agriculture.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Mining and quarrying are primary activities in the activity-based classification but may be counted within the broad Industry sector in the three-sector presentation. Fisheries remain primary, not tertiary.",
+   "ty": "statements",
+   "tq": "Separate the detailed activity classification from the broad three-sector presentation.",
+   "sec": "Sector classification - activity to sector, alternative names"
+  },
+  {
+   "s": "In the three-sector classification, trade, transport, storage, communication and finance belong to the:",
+   "o": [
+    "Secondary sector",
+    "Tertiary sector",
+    "Primary sector",
+    "Quinary sector"
+   ],
+   "a": 1,
+   "x": "Trade, transport, storage, communication and finance are service activities and belong to the Tertiary sector.",
+   "ty": "fact",
+   "tq": "Group related service activities rather than classifying them by physical output.",
+   "sec": "Sector classification - activity to sector, alternative names"
+  },
+  {
+   "s": "Which of the following pairs correctly represents the share of GDP and workforce of the Primary sector in 2021-22?",
+   "o": [
+    "53.89% and 33.80%",
+    "43.96% and 21.82%",
+    "24.29% and 22.24%",
+    "21.82% and 43.96%"
+   ],
+   "a": 3,
+   "x": "In 2021-22, the Primary sector accounted for 21.82% of GDP and 43.96% of the workforce.",
+   "ty": "numerical",
+   "tq": "Read the GDP-share and workforce-share columns in the stated order.",
+   "sec": "Sectoral share of employment vs share of output - the mismatch"
+  },
+  {
+   "s": "Which sector had a GDP share of 24.29 per cent and a workforce share of 22.24 per cent in 2021-22?",
+   "o": [
+    "Primary sector",
+    "Quaternary sector",
+    "Tertiary sector",
+    "Secondary sector"
+   ],
+   "a": 3,
+   "x": "The Secondary sector contributed 24.29% of GDP and accounted for 22.24% of the workforce in 2021-22.",
+   "ty": "numerical",
+   "tq": "Match the two numerical indicators to the correct sector instead of comparing only one column.",
+   "sec": "Sectoral share of employment vs share of output - the mismatch"
+  },
+  {
+   "s": "Consider the following statements regarding sectoral shares in 2021-22:\n1. The Primary sector was the largest employer.\n2. The Tertiary sector generated the highest share of GDP.\n3. The Primary sector generated the highest share of GDP despite employing the largest workforce.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The Primary sector employed 43.96% of the workforce but contributed 21.82% of GDP. The Tertiary sector had the highest GDP share at 53.89%; therefore statement 3 is false.",
+   "ty": "statements",
+   "tq": "Contrast the largest employment share with the largest output share.",
+   "sec": "Sectoral share of employment vs share of output - the mismatch"
+  },
+  {
+   "s": "Which one of the following correctly describes the structural change in the composition of national income in India?",
+   "o": [
+    "A structural change has occurred in the composition of national income.",
+    "The composition of national income has remained unchanged since Independence.",
+    "The change has resulted exclusively from manufacturing expansion.",
+    "The change has occurred only in agricultural employment and not in output."
+   ],
+   "a": 0,
+   "x": "A structural change in the composition of national income has occurred, reflected in the changing relative importance of the primary, secondary and tertiary sectors.",
+   "ty": "fact",
+   "tq": "Reject absolute and exclusive claims and identify the precise structural-change statement.",
+   "sec": "Sectoral share of employment vs share of output - the mismatch"
+  },
+  {
+   "s": "According to the stated 2023-24 employment figures, agriculture accounted for approximately what share of workers?",
+   "o": [
+    "18.0%",
+    "34.9%",
+    "46.1%",
+    "54.3%"
+   ],
+   "a": 2,
+   "x": "Agriculture accounted for approximately 46.1% of workers in 2023-24, although its GVA share was about 18%.",
+   "ty": "numerical",
+   "tq": "Distinguish the workforce percentage from the GVA percentage.",
+   "sec": "Sectoral share of employment vs share of output - the mismatch"
+  },
+  {
+   "s": "The services sector's share of employment increased from 22.82 per cent in 1993-94 to approximately what percentage in 2009-10?",
+   "o": [
+    "12.00%",
+    "22.82%",
+    "34.90%",
+    "46.10%"
+   ],
+   "a": 2,
+   "x": "The services sector's employment share rose from 22.82% in 1993-94 to 34.90% in 2009-10.",
+   "ty": "numerical",
+   "tq": "Use the direction and end-point of the employment-share trend.",
+   "sec": "Sectoral share of employment vs share of output - the mismatch"
+  },
+  {
+   "s": "Which one of the following statements regarding manufacturing employment in 2023-24 is correct?",
+   "o": [
+    "Manufacturing employed about 54.3% of workers, with no distinction between organised and unorganised workers.",
+    "Manufacturing employed about 11.4% of workers, including 1.9 crore organised and 3.3 crore unorganised workers.",
+    "Manufacturing employed about 46.1% of workers, including 1.9 crore unorganised workers.",
+    "Manufacturing employed about 34.9% of workers, including 3.3 crore organised workers only."
+   ],
+   "a": 1,
+   "x": "Manufacturing employed approximately 11.4% of workers in 2023-24, comprising 1.9 crore organised and 3.3 crore unorganised workers.",
+   "ty": "numerical",
+   "tq": "Check the sector percentage together with the organised–unorganised employment split.",
+   "sec": "Sectoral share of employment vs share of output - the mismatch"
+  },
+  {
+   "s": "Which one of the following correctly states the movement in the services sector's share of GVA?",
+   "o": [
+    "It declined from 54.3% in 2025-26 to 51.9% in 2022-23.",
+    "It increased from 51.9% in 2022-23 to 54.3% in 2025-26.",
+    "It increased from 18% to 46.1% during the period.",
+    "It remained fixed at 51.9% between 2022-23 and 2025-26."
+   ],
+   "a": 1,
+   "x": "The services sector's share of GVA rose from 51.9% in 2022-23 to 54.3% in 2025-26.",
+   "ty": "comparison",
+   "tq": "Track the stated time sequence and reject the reversed trend.",
+   "sec": "Sectoral share of employment vs share of output - the mismatch"
+  },
+  {
+   "s": "Which one of the following best describes India's growth pattern after 1991?",
+   "o": [
+    "It was mainly service-led.",
+    "It was mainly import-led.",
+    "It was mainly agriculture-led.",
+    "It was mainly export-led."
+   ],
+   "a": 0,
+   "x": "India's post-1991 growth was mainly service-led, rather than import-led, export-led or agriculture-led.",
+   "ty": "fact",
+   "tq": "Discriminate among the four possible growth drivers using the precise post-1991 description.",
+   "sec": "Services-led growth - post-1991 growth driver, premature deindustrialisation"
+  },
+  {
+   "s": "The movement of India from agriculture to services without passing through a manufacturing-led stage is described as the:",
+   "o": [
+    "Demographic dividend",
+    "Green revolution",
+    "Quinary transition",
+    "Missing middle"
+   ],
+   "a": 3,
+   "x": "The absence of a manufacturing-led stage between agriculture and services is called the “missing middle”.",
+   "ty": "confusable",
+   "tq": "Match the distinctive phrase with the structural transition it describes.",
+   "sec": "Services-led growth - post-1991 growth driver, premature deindustrialisation"
+  },
+  {
+   "s": "Which one of the following is cited as the clearest case of India's services-led transition?",
+   "o": [
+    "Agriculture, with exports of USD 224.4 billion and about 58 lakh direct jobs",
+    "IT, with exports of USD 224.4 billion and about 58 lakh direct jobs in FY2025",
+    "Construction, with exports of USD 224.4 billion and about 58 lakh direct jobs",
+    "Mining, with exports of USD 224.4 billion and about 58 lakh direct jobs"
+   ],
+   "a": 1,
+   "x": "Information Technology is cited as the clearest example, with exports of USD 224.4 billion and approximately 58 lakh direct jobs in FY2025.",
+   "ty": "numerical",
+   "tq": "Combine the distinctive sector, export value and employment figure.",
+   "sec": "Services-led growth - post-1991 growth driver, premature deindustrialisation"
+  },
+  {
+   "s": "Consider the following statements about premature deindustrialisation:\n1. Services generally require high skills.\n2. Services can readily absorb all semi-skilled workers leaving farms.\n3. The inability of services to absorb such workers may contribute to jobless growth.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Services often require high skills and may not absorb semi-skilled workers leaving agriculture, contributing to jobless growth. Therefore statement 2 is false.",
+   "ty": "statements",
+   "tq": "Find the statement that reverses the skills and labour-absorption problem.",
+   "sec": "Services-led growth - post-1991 growth driver, premature deindustrialisation"
+  },
+  {
+   "s": "India's share in global manufacturing value added and merchandise exports is, respectively:",
+   "o": [
+    "2.9% and 1.8%",
+    "11.4% and 1.8%",
+    "1.8% and 2.9%",
+    "2.9% and 44%"
+   ],
+   "a": 0,
+   "x": "India accounts for 2.9% of global manufacturing value added and 1.8% of global merchandise exports.",
+   "ty": "numerical",
+   "tq": "Keep the two percentages in the order asked and avoid swapping the indicators.",
+   "sec": "Services-led growth - post-1991 growth driver, premature deindustrialisation"
+  },
+  {
+   "s": "India's position on the Economic Complexity Index, as stated, is:",
+   "o": [
+    "34th",
+    "44th",
+    "54th",
+    "24th"
+   ],
+   "a": 1,
+   "x": "India is ranked 44th on the Economic Complexity Index in the stated assessment.",
+   "ty": "numerical",
+   "tq": "Test the exact rank using closely spaced numerical distractors.",
+   "sec": "Services-led growth - post-1991 growth driver, premature deindustrialisation"
+  },
+  {
+   "s": "Who stated that services-led growth cannot be sustained without a manufacturing base?",
+   "o": [
+    "The Chairman of the EAC-PM",
+    "The Governor of the Reserve Bank of India",
+    "The Chairman of the Finance Commission",
+    "The Chairman of the NITI Aayog"
+   ],
+   "a": 0,
+   "x": "The Chairman of the Economic Advisory Council to the Prime Minister stated that services-led growth cannot be sustained without a manufacturing base.",
+   "ty": "fact",
+   "tq": "Identify the authority associated with the stated policy assessment.",
+   "sec": "Services-led growth - post-1991 growth driver, premature deindustrialisation"
+  },
+  {
+   "s": "The term “premature leapfrogging” refers to a situation in which:",
+   "o": [
+    "Manufacturing absorbs surplus farm labour before services expand.",
+    "Agriculture absorbs labour released by the services sector.",
+    "Services absorb value while manufacturing fails to absorb surplus farm labour.",
+    "Manufacturing and services expand equally before agriculture declines."
+   ],
+   "a": 2,
+   "x": "“Premature leapfrogging” describes services absorbing value while manufacturing fails to absorb surplus labour released from farming.",
+   "ty": "application",
+   "tq": "Apply the term to the labour-absorption relationship rather than to technological progress alone.",
+   "sec": "Services-led growth - post-1991 growth driver, premature deindustrialisation"
+  },
+  {
+   "s": "Which one of the following statements regarding manufacturing in India is correct?",
+   "o": [
+    "Manufacturing's workforce share is approximately 54.3%, and it has not declined.",
+    "Manufacturing's workforce share is approximately 11%, while the Economic Survey view is that its decline is largely nominal.",
+    "Manufacturing's workforce share is approximately 11%, and its decline is regarded as entirely real in all assessments.",
+    "Manufacturing's workforce share is approximately 46.1%, while its decline is entirely nominal."
+   ],
+   "a": 1,
+   "x": "Manufacturing's workforce share is approximately 11%, and the Economic Survey 2025-26 offered the counter-view that its decline is largely nominal.",
+   "ty": "comparison",
+   "tq": "Separate the employment-share fact from the contrasting interpretation of manufacturing's decline.",
+   "sec": "Services-led growth - post-1991 growth driver, premature deindustrialisation"
+  },
+  {
+   "s": "Manufacturing growth in FY26 was reported at approximately:",
+   "o": [
+    "5.7%",
+    "7.8%",
+    "9.0%",
+    "12.5%"
+   ],
+   "a": 3,
+   "x": "Manufacturing growth in FY26 was reported at 12.5%.",
+   "ty": "numerical",
+   "tq": "Use the exact growth figure and distinguish it from the services-related revision figures.",
+   "sec": "Services-led growth - post-1991 growth driver, premature deindustrialisation"
+  },
+  {
+   "s": "Consider the following statements regarding the all-India GVA shares of selected sub-sectors:\n1. Manufacturing's share declined from 17.4% in 2011-12 to 14.3% in 2022-23 FRE.\n2. Crops' share declined from 12.1% to 10.1% over the same period.\n3. Livestock's share increased from 4.0% to 5.5%.\n4. Fishing and aquaculture's share increased from 0.8% to 1.3%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly reproduce the stated changes in the GVA shares of manufacturing, crops, livestock, and fishing and aquaculture.",
+   "ty": "statements",
+   "tq": "Verify each numerical row before selecting the complete coded combination.",
+   "sec": "Sector classification - activity to sector, alternative names"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched in relation to all-India GVA shares?",
+   "o": [
+    "Mining and quarrying — 3.2% to 2.0%",
+    "Forestry and logging — 1.5% to 1.8%",
+    "Construction — 9.6% to 8.8%",
+    "Electricity, gas and water supply — 2.3% to 2.5%"
+   ],
+   "a": 1,
+   "x": "Forestry and logging declined from 1.5% to 1.3%, not increased to 1.8%. The other three pairs are correctly stated for 2011-12 and 2022-23 FRE.",
+   "ty": "negative",
+   "tq": "Check the direction of change as well as both numerical endpoints.",
+   "sec": "Sector classification - activity to sector, alternative names"
+  },
+  {
+   "s": "According to the stated revisions in the new series, which one of the following combinations is correct?",
+   "o": [
+    "All three groups rose by exactly 5.7%.",
+    "Finance, real estate and professional services rose by 7.8–9.0%; trade and transport/storage declined by 23–26%; hotels and restaurants rose by 5.7%.",
+    "Finance, real estate and professional services declined by 7.8–9.0%; trade and transport/storage rose by 23–26%; hotels and restaurants declined by 5.7%.",
+    "All three groups declined during the revision."
+   ],
+   "a": 1,
+   "x": "The new-series revisions reported increases of 7.8–9.0% for finance, real estate and professional services, a 23–26% decline for trade and transport/storage, and a 5.7% rise for hotels and restaurants.",
+   "ty": "comparison",
+   "tq": "Track both the direction and range for each service sub-sector.",
+   "sec": "Sector classification - activity to sector, alternative names"
+  }
+ ]
+}

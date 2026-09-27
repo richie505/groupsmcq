@@ -1,0 +1,369 @@
+{
+ "book": 4,
+ "row": 98,
+ "chunk": 2,
+ "section": "Services sector geography - tourism (India and AP circuits), IT, banking; salient features",
+ "subsections": [
+  "Tourism formats and projects - maritime heritage, submarine, shipwreck, luxury train, medical and wellness",
+  "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 26,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The National Maritime Heritage Complex is being established at which of the following places?",
+   "o": [
+    "Lothal, Gujarat",
+    "Dwarka, Gujarat",
+    "Kandla, Gujarat",
+    "Dholavira, Gujarat"
+   ],
+   "a": 0,
+   "x": "The National Maritime Heritage Complex is being established at Lothal in Gujarat.",
+   "ty": "fact",
+   "tq": "Use the location-specific direct-recall method for a named national project.",
+   "sec": "Tourism formats and projects - maritime heritage, submarine, shipwreck, luxury train, medical and wellness  [APPSC]"
+  },
+  {
+   "s": "India's first submarine tourism project is being launched by Gujarat in collaboration with which organisation?",
+   "o": [
+    "Garden Reach Shipbuilders and Engineers",
+    "Cochin Shipyard Limited",
+    "Mazagon Dock Shipbuilders Limited",
+    "Hindustan Shipyard Limited"
+   ],
+   "a": 2,
+   "x": "Gujarat's submarine tourism project, off Dwarka, is being developed with Mazagon Dock Shipbuilders Limited.",
+   "ty": "fact",
+   "tq": "Apply the who-is-associated-with-which-project trap.",
+   "sec": "Tourism formats and projects - maritime heritage, submarine, shipwreck, luxury train, medical and wellness  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "INS Kursura submarine museum — Visakhapatnam",
+    "Ganga Vilas — Dwarka",
+    "Palace on Wheels — Karnataka",
+    "Golden Chariot — Rajasthan"
+   ],
+   "a": 0,
+   "x": "INS Kursura is preserved as a submarine museum at Visakhapatnam. Palace on Wheels is associated with Rajasthan, Golden Chariot with Karnataka, and Ganga Vilas operates from Varanasi towards Dibrugarh.",
+   "ty": "match",
+   "tq": "Start with the sure location pair and eliminate the swapped-place distractors.",
+   "sec": "Tourism formats and projects - maritime heritage, submarine, shipwreck, luxury train, medical and wellness  [APPSC]"
+  },
+  {
+   "s": "With reference to tourism initiatives in Andhra Pradesh, consider the following statements:\n1. Visakhapatnam and Vijayawada are proposed as hubs under the draft MICE policy.\n2. The State plans two sea-cruise circuits, four river-cruise circuits and one seaplane circuit.\n3. Travel for LiFE promotes eco-responsible travel.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Andhra Pradesh's draft MICE policy identifies Visakhapatnam and Vijayawada as hubs; its plans include two sea-cruise, four river-cruise and one seaplane circuit, while Travel for LiFE promotes eco-responsible travel.",
+   "ty": "statements",
+   "tq": "Test the complete set by checking the policy, numerical plan and objective separately.",
+   "sec": "Tourism formats and projects - maritime heritage, submarine, shipwreck, luxury train, medical and wellness  [APPSC]"
+  },
+  {
+   "s": "The share of medical tourism in India's foreign tourist arrivals increased from approximately 2.2 per cent in 2009 to about what percentage in 2024?",
+   "o": [
+    "4.5 per cent",
+    "5.2 per cent",
+    "6.5 per cent",
+    "8.6 per cent"
+   ],
+   "a": 2,
+   "x": "The share of medical tourism in foreign tourist arrivals rose from 2.2 per cent in 2009 to about 6.5 per cent in 2024.",
+   "ty": "numerical",
+   "tq": "Compare the two dated percentages rather than confusing them with broader tourism indicators.",
+   "sec": "Tourism formats and projects - maritime heritage, submarine, shipwreck, luxury train, medical and wellness  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding medical tourism in India is correct?",
+   "o": [
+    "Bangladesh is the top source country for medical tourists to India.",
+    "It is confined mainly to wellness tourism and excludes medical treatment.",
+    "It is regarded as a comparative disadvantage because of its low foreign exchange potential.",
+    "Its share in foreign tourist arrivals declined between 2009 and 2024."
+   ],
+   "a": 0,
+   "x": "Medical and wellness tourism is a comparative advantage for India, and Bangladesh was identified as the top source country. Its share in foreign tourist arrivals increased from 2.2 per cent to 6.5 per cent.",
+   "ty": "confusable",
+   "tq": "Separate the source-country fact from the trend and comparative-advantage facts.",
+   "sec": "Tourism formats and projects - maritime heritage, submarine, shipwreck, luxury train, medical and wellness  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched?\n\nTourism product — Location or route\n1. Ganga Vilas — Varanasi-Dibrugarh\n2. Palace on Wheels — Rajasthan\n3. Deccan Odyssey — Maharashtra\n4. Golden Chariot — Kerala",
+   "o": [
+    "4 only",
+    "1 only",
+    "3 only",
+    "2 only"
+   ],
+   "a": 0,
+   "x": "Golden Chariot is associated with Karnataka, not Kerala. Ganga Vilas, Palace on Wheels and Deccan Odyssey are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the single location swap in a familiar tourism-product list.",
+   "sec": "Tourism formats and projects - maritime heritage, submarine, shipwreck, luxury train, medical and wellness  [APPSC]"
+  },
+  {
+   "s": "Ganga Vilas, which commenced operation in 2023, is associated with which of the following descriptions?",
+   "o": [
+    "India's first submarine tourism route off Dwarka",
+    "A luxury train connecting Rajasthan and Maharashtra",
+    "The world's longest river cruise from Varanasi to Dibrugarh",
+    "A seaplane circuit connecting Visakhapatnam and Vijayawada"
+   ],
+   "a": 2,
+   "x": "Ganga Vilas is the world's longest river cruise and operates on the Varanasi-Dibrugarh route.",
+   "ty": "fact",
+   "tq": "Match the named tourism product with its distinctive route and superlative.",
+   "sec": "Tourism formats and projects - maritime heritage, submarine, shipwreck, luxury train, medical and wellness  [APPSC]"
+  },
+  {
+   "s": "MICE tourism is described as which of the following in the context of tourism development?",
+   "o": [
+    "A form of agricultural tourism",
+    "High-yield and low-volume tourism",
+    "Low-yield and high-volume tourism",
+    "Exclusively pilgrimage-based tourism"
+   ],
+   "a": 1,
+   "x": "MICE tourism is characterised as high-yield, low-volume tourism and includes meetings, incentives, conferences and exhibitions.",
+   "ty": "fact",
+   "tq": "Use the exact comparative description to distinguish a specialised tourism format.",
+   "sec": "Tourism formats and projects - maritime heritage, submarine, shipwreck, luxury train, medical and wellness  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with a tourism format?",
+   "o": [
+    "Kerala — backwater tourism",
+    "Thar — Buddhist circuit",
+    "Gir — desert tourism",
+    "Corbett — coastal tourism"
+   ],
+   "a": 0,
+   "x": "Kerala is associated with backwater tourism. The Thar is associated with desert tourism, Gir with eco and wildlife tourism, and Corbett with eco and wildlife tourism.",
+   "ty": "match",
+   "tq": "Use location-product association and reject reversed tourism categories.",
+   "sec": "Tourism formats and projects - maritime heritage, submarine, shipwreck, luxury train, medical and wellness  [APPSC]"
+  },
+  {
+   "s": "In FY 2023-24, travel and tourism in India accounted for approximately what share of GDP and supported how many jobs?",
+   "o": [
+    "5.22 per cent of GDP and 8.46 crore jobs",
+    "8.46 per cent of GDP and 13.3 crore jobs",
+    "6.5 per cent of GDP and 5.22 crore jobs",
+    "13.3 per cent of GDP and 8.46 lakh jobs"
+   ],
+   "a": 0,
+   "x": "In FY24, travel and tourism contributed 5.22 per cent of GDP and supported 8.46 crore jobs, equivalent to 13.3 per cent of employment.",
+   "ty": "numerical",
+   "tq": "Keep the GDP share, employment share and absolute job figure distinct.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "India was identified as the eighth-largest tourism economy with an estimated value of approximately:",
+   "o": [
+    "US$ 293.033 billion",
+    "US$ 123.6 billion",
+    "US$ 520.2 billion",
+    "US$ 231.6 billion"
+   ],
+   "a": 3,
+   "x": "India was ranked the eighth-largest tourism economy, valued at approximately US$231.6 billion.",
+   "ty": "numerical",
+   "tq": "Distinguish the tourism-economy valuation from tourism receipts and GDP percentages.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents India's 2024 tourism figures?\n\n1. International tourist arrivals — 20.57 million\n2. Foreign tourist arrivals — 9.95 million\n3. Foreign exchange earnings — ₹2,93,033 crore\n4. Domestic tourist visits — 2,947.63 million",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four figures are correct for 2024: 20.57 million international tourist arrivals, 9.95 million foreign tourist arrivals, ₹2,93,033 crore in foreign exchange earnings and 2,947.63 million domestic tourist visits.",
+   "ty": "statements",
+   "tq": "Check units carefully because million arrivals, crore earnings and domestic visits are different measures.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "Swadesh Darshan 1.0, launched in January 2015, primarily focused on:",
+   "o": [
+    "Pilgrimage rejuvenation and spiritual heritage",
+    "Theme-based tourism circuits",
+    "Developing only medical tourism centres",
+    "Creating a database of hospitality units"
+   ],
+   "a": 1,
+   "x": "Swadesh Darshan 1.0 was launched in January 2015 for the development of theme-based tourism circuits.",
+   "ty": "confusable",
+   "tq": "Discriminate between the thematic-circuit objective of Swadesh Darshan and the pilgrimage focus of PRASHAD.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "How many projects were sanctioned under Swadesh Darshan 1.0, and how many of them had been completed?",
+   "o": [
+    "76 and 75 respectively",
+    "54 and 48 respectively",
+    "53 and 52 respectively",
+    "52 and 36 respectively"
+   ],
+   "a": 0,
+   "x": "Swadesh Darshan 1.0 covered 76 projects, of which 75 had been completed. The expenditure associated with these projects was ₹5,290.33 crore.",
+   "ty": "numerical",
+   "tq": "Use the paired project counts to avoid confusing Swadesh Darshan 1.0 with later schemes.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "Swadesh Darshan 2.0 is best described as a:",
+   "o": [
+    "Scheme limited to international tourist arrivals",
+    "Sustainable and destination-centric Central Sector scheme",
+    "Pilgrimage-only scheme for temple rejuvenation",
+    "Database of hospitality units managed by State governments"
+   ],
+   "a": 1,
+   "x": "Swadesh Darshan 2.0 is a sustainable, destination-centric Central Sector scheme.",
+   "ty": "fact",
+   "tq": "Identify the scheme through its defining design words and administrative character.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about Swadesh Darshan 2.0:\n1. The 2026 Lok Sabha reply reported 53 projects with an outlay of ₹2,207.08 crore.\n2. The earlier India Year Book figure reported 52 projects with an outlay of ₹2,108.87 crore.\n3. Challenge Based Destination Development is a sub-scheme of Swadesh Darshan 2.0.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The later Lok Sabha reply revised the reported figures to 53 projects and ₹2,207.08 crore, while the earlier India Year Book figures were 52 projects and ₹2,108.87 crore; CBDD is a sub-scheme of Swadesh Darshan 2.0.",
+   "ty": "statements",
+   "tq": "Handle apparently conflicting numerical figures by attaching each figure to its stated source and time.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT included among the four broad components of Challenge Based Destination Development?",
+   "o": [
+    "Spiritual",
+    "Ecotourism and Amrit Dharohar",
+    "Industrial Corridor Development",
+    "Vibrant Village"
+   ],
+   "a": 2,
+   "x": "CBDD includes Spiritual; Culture & Heritage; Vibrant Village; and Ecotourism & Amrit Dharohar. Industrial Corridor Development is not one of its listed components.",
+   "ty": "negative",
+   "tq": "Find the unrelated development category among the officially listed sub-scheme themes.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "Challenge Based Destination Development under Swadesh Darshan 2.0 comprises how many projects with an indicated outlay of ₹648.10 crore?",
+   "o": [
+    "36",
+    "52",
+    "54",
+    "76"
+   ],
+   "a": 0,
+   "x": "The CBDD sub-scheme comprises 36 projects with an outlay of ₹648.10 crore.",
+   "ty": "numerical",
+   "tq": "Match the sub-scheme with its own project count instead of the parent scheme's count.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "PRASHAD stands for:",
+   "o": [
+    "Pilgrimage Restoration and Sustainable Heritage Area Development",
+    "Pilgrimage Rejuvenation and Spiritual, Heritage Augmentation Drive",
+    "Public Recreation and Spiritual Heritage Development",
+    "Pilgrimage Renewal and Sacred Heritage Development"
+   ],
+   "a": 1,
+   "x": "PRASHAD expands to Pilgrimage Rejuvenation and Spiritual, Heritage Augmentation Drive.",
+   "ty": "fact",
+   "tq": "Test the exact official expansion, where look-alike words form the distractors.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "Which of the following places in Andhra Pradesh are included under PRASHAD projects?\n\n1. Tirupati\n2. Srisailam\n3. Simhachalam\n4. Annavaram",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Tirupati, Srisailam, Simhachalam and Annavaram are all included among the Andhra Pradesh destinations under PRASHAD.",
+   "ty": "statements",
+   "tq": "Verify every listed destination before selecting the all-inclusive code.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "PRASHAD and Swadesh Darshan are distinguished correctly by which one of the following statements?",
+   "o": [
+    "PRASHAD focuses on pilgrimage and spiritual heritage, whereas Swadesh Darshan focuses on thematic circuits.",
+    "PRASHAD develops thematic circuits, whereas Swadesh Darshan develops only pilgrimage sites.",
+    "Both schemes are exclusively concerned with hospitality databases.",
+    "Both schemes are limited to foreign tourist arrivals."
+   ],
+   "a": 0,
+   "x": "PRASHAD focuses on pilgrimage rejuvenation and spiritual heritage, while Swadesh Darshan focuses on thematic tourism circuits.",
+   "ty": "confusable",
+   "tq": "Separate two similarly placed tourism schemes by their core objectives.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "The Dekho Apna Desh initiative is primarily associated with:",
+   "o": [
+    "Foreign exchange management for hotels",
+    "Development of international cruise terminals",
+    "Promotion of domestic tourism",
+    "Submarine tourism in coastal waters"
+   ],
+   "a": 2,
+   "x": "Dekho Apna Desh promotes domestic tourism. Its activities included the People's Choice 2024 poll and a schools contest.",
+   "ty": "fact",
+   "tq": "Link the initiative to its target tourism segment rather than its associated activities.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes NIDHI?",
+   "o": [
+    "A National Integrated Database of Hospitality Industry containing technology-driven information on hospitality units",
+    "A financial assistance scheme for pilgrimage infrastructure",
+    "A National Initiative for Development of Heritage Islands concerned only with shipwrecks",
+    "A national programme for constructing luxury tourist trains"
+   ],
+   "a": 0,
+   "x": "NIDHI is the National Integrated Database of Hospitality Industry, a technology-driven database of hospitality units.",
+   "ty": "fact",
+   "tq": "Use the exact expansion and functional description to defeat acronym-based distractors.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  },
+  {
+   "s": "The Scheme for Special Assistance to States for Capital Investment (SASCI) helps States to:",
+   "o": [
+    "Finance only medical tourism arrivals",
+    "Create a database of every hospitality employee",
+    "Build iconic tourist centres into global destinations",
+    "Replace all domestic tourism with international tourism"
+   ],
+   "a": 2,
+   "x": "SASCI assists States in developing iconic tourist centres into global destinations.",
+   "ty": "application",
+   "tq": "Identify the likely purpose of a public-investment scheme from the action it supports.",
+   "sec": "Tourism in India - NIDHI, Swadesh Darshan 2.0, PRASHAD, Dekho Apna Desh, share of GDP and jobs  [APPSC]"
+  }
+ ]
+}

@@ -1,0 +1,511 @@
+{
+ "book": 3,
+ "row": 50,
+ "chunk": 1,
+ "section": "Agricultural productivity - trends, inter-crop and inter-state variation, yield gaps",
+ "subsections": [
+  "India's global rank - crops, milk, fruits, silk, spices",
+  "Yield concepts and gaps - cereal yield, causes, pathways",
+  "Area trends - stagnant or declining crops",
+  "Total factor productivity - trend and drivers"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "According to the latest comparative assessment, India ranks first globally in which one of the following commodities?",
+   "o": [
+    "Fruits",
+    "Milk",
+    "Eggs",
+    "Wheat"
+   ],
+   "a": 1,
+   "x": "India ranks first globally in milk production. Wheat, fruits and eggs are listed among commodities in which India ranks second.",
+   "ty": "fact",
+   "tq": "Direct one-fact recall using closely related global-rank distractors.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n\n1. Milk — First globally\n2. Wheat — Second globally\n3. Pulses — First globally\n4. Vegetables — Second globally\n\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4",
+    "2, 3 and 4 only"
+   ],
+   "a": 2,
+   "x": "India ranks first in milk and pulses, and second in wheat and vegetables. Hence, all four pairs are correctly matched.",
+   "ty": "statements",
+   "tq": "Statement verification across a global-rank comparison list.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "India is reported to be the second-largest producer globally of which one of the following commodities?",
+   "o": [
+    "Fruits",
+    "Silk",
+    "Pulses",
+    "Spices"
+   ],
+   "a": 0,
+   "x": "India ranks second globally in fruits. It ranks first in pulses and spices, and second in silk as well, but the specified answer here is fruits.",
+   "ty": "fact",
+   "tq": "Direct recall with confusable first- and second-rank commodities.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding India's position in silk production is correct?",
+   "o": [
+    "India produces only two commercial varieties of silk.",
+    "India produces all commercial silks except mulberry silk.",
+    "India ranks first globally in silk production and does not produce other natural fibres.",
+    "India is the only country producing all five commercial silks."
+   ],
+   "a": 3,
+   "x": "India is the only country that produces all five commercial silks.",
+   "ty": "fact",
+   "tq": "Confusable-pair discrimination using an exclusive production distinction.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "India's global position in fish production, as stated in the comparative assessment, is",
+   "o": [
+    "Fifth",
+    "First",
+    "Third",
+    "Second"
+   ],
+   "a": 2,
+   "x": "India ranks third globally in fish production.",
+   "ty": "numerical",
+   "tq": "Direct numerical recall with ascending rank options.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n\n1. India is the largest rice exporter and accounts for about 40% of global rice trade.\n2. India also leads in dry onions.\n3. India is the largest producer of rice according to the latest ministerial statement cited.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "India leads in dry onions, is the largest rice exporter with about 40% of global trade, and was stated by the Union Agriculture Minister to be the world's largest rice producer, ahead of China.",
+   "ty": "statements",
+   "tq": "Statement combination involving a current-affairs distinction in rice rankings.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "India's rice production was reported as 150.18 million tonnes, compared with China's",
+   "o": [
+    "155.28 million tonnes",
+    "145.28 million tonnes",
+    "140.18 million tonnes",
+    "135.28 million tonnes"
+   ],
+   "a": 1,
+   "x": "India's reported rice production was 150.18 million tonnes, while China's was 145.28 million tonnes.",
+   "ty": "numerical",
+   "tq": "Numerical comparison using close ascending values.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "Which one of the following commodities is correctly matched with India's reported global rank?",
+   "o": [
+    "Wheat — First",
+    "Rice — Second, according to the latest ministerial statement",
+    "Pulses — First",
+    "Milk — Second"
+   ],
+   "a": 2,
+   "x": "India is the world's largest producer of pulses. The latest ministerial statement placed India first in rice, milk is first, and wheat is second.",
+   "ty": "negative",
+   "tq": "Find the correctly matched item among reversed global rankings.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "India's foodgrain production in 2024–25 was recorded at",
+   "o": [
+    "367.72 million tonnes",
+    "310.00 million tonnes",
+    "357.73 million tonnes",
+    "283.00 million tonnes"
+   ],
+   "a": 2,
+   "x": "Foodgrain production in 2024–25 was a record 357.73 million tonnes, equivalent to 3,577.3 lakh tonnes. The figure of 367.72 million tonnes refers to horticulture production.",
+   "ty": "numerical",
+   "tq": "Numerical recall distinguishing foodgrain and horticulture figures.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "Which one of the following comparisons between foodgrain and horticulture production in 2024–25 is correct?",
+   "o": [
+    "Horticulture exceeded foodgrains, with production of 367.72 million tonnes.",
+    "Horticulture production was below the 2018–19 foodgrain figure.",
+    "Foodgrains exceeded horticulture by about 10 million tonnes.",
+    "Both were recorded at approximately 357.73 million tonnes."
+   ],
+   "a": 0,
+   "x": "Horticulture production was 367.72 million tonnes, exceeding foodgrain production of 357.73 million tonnes in 2024–25.",
+   "ty": "comparison",
+   "tq": "Comparison-table based identification of the larger value.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "The production of foodgrains in 2018–19, according to the third Advance Estimates, was approximately",
+   "o": [
+    "367.72 million tonnes",
+    "283 million tonnes",
+    "357.73 million tonnes",
+    "310 million tonnes"
+   ],
+   "a": 1,
+   "x": "Foodgrain production in 2018–19 was estimated at 283 million tonnes. The higher figures relate to 2024–25 production.",
+   "ty": "numerical",
+   "tq": "Direct recall of an older benchmark figure with current-year distractors.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "Which one of the following sets contains only commodities in which India ranks first globally?",
+   "o": [
+    "Milk, pulses and spices",
+    "Wheat, rice and sugarcane",
+    "Eggs, cotton and silk",
+    "Wheat, fruits and vegetables"
+   ],
+   "a": 0,
+   "x": "India ranks first globally in milk, pulses and spices. Wheat, fruits, vegetables, eggs, cotton and silk are listed among commodities in which India ranks second.",
+   "ty": "odd_one_out",
+   "tq": "Group identification by separating first-rank commodities from second-rank commodities.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "India's pulse production and consumption position is correctly described as",
+   "o": [
+    "Largest producer and second-largest consumer",
+    "Third-largest producer and consumer",
+    "Second-largest producer and first-largest consumer",
+    "Largest producer and largest consumer"
+   ],
+   "a": 3,
+   "x": "India is both the largest producer and the largest consumer of pulses, with production of 25.68 million metric tonnes as the cited latest figure.",
+   "ty": "fact",
+   "tq": "Direct recall of a paired production-consumption position.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "The latest figure given for horticultural production in 2024–25 is",
+   "o": [
+    "367.72 million tonnes",
+    "283.00 million tonnes",
+    "377.62 million tonnes",
+    "357.73 million tonnes"
+   ],
+   "a": 0,
+   "x": "Horticultural production in 2024–25 was estimated at 367.72 million tonnes.",
+   "ty": "numerical",
+   "tq": "Direct numerical recall with close-value distractors.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  },
+  {
+   "s": "Cereal yield is defined as the quantity of cereals produced per kilogram of",
+   "o": [
+    "irrigated agricultural land",
+    "total cultivated land",
+    "net sown area",
+    "harvested land under cereals"
+   ],
+   "a": 3,
+   "x": "Cereal yield is measured in kilograms per hectare of harvested land under cereals.",
+   "ty": "confusable",
+   "tq": "Precise-definition discrimination among similar agricultural-area terms.",
+   "sec": "Yield concepts and gaps - cereal yield, causes, pathways  [other exams]"
+  },
+  {
+   "s": "Which one of the following is NOT identified as a major cause of India's cereal-yield gap?",
+   "o": [
+    "Rainfed farming covering about 50–51% of net sown area",
+    "Universal access to efficient cold-chain infrastructure",
+    "Small and marginal holdings forming about 86% of holdings",
+    "A skewed NPK ratio and low seed replacement rate"
+   ],
+   "a": 1,
+   "x": "Universal access to efficient cold-chain infrastructure is not a stated cause; rather, cold-chain losses account for about 30%. The other three factors contribute to the yield gap.",
+   "ty": "negative",
+   "tq": "Find the exception by reversing a stated constraint into an advantage.",
+   "sec": "Yield concepts and gaps - cereal yield, causes, pathways  [other exams]"
+  },
+  {
+   "s": "Consider the following statements regarding climate-related yield effects:\n\n1. Yields fall by about 8% for every 1°C rise in temperature.\n2. Wheat yields may fall by 6–10% under heat stress.\n3. A 1°C rise can wipe out about four years of rice and wheat productivity gains.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements reflect the reported effects of heat on agricultural productivity: around 8% yield loss per 1°C, wheat losses of 6–10%, and the loss of about four years of rice and wheat productivity gains.",
+   "ty": "statements",
+   "tq": "Statement verification using related climate-impact figures.",
+   "sec": "Yield concepts and gaps - cereal yield, causes, pathways  [other exams]"
+  },
+  {
+   "s": "In El Niño years, the area under pulses generally falls by",
+   "o": [
+    "6–30%",
+    "10–37.5%",
+    "2–9%",
+    "5–25%"
+   ],
+   "a": 2,
+   "x": "Pulse area falls by about 2–9% in El Niño years. Yield or output declines are reported in separate ranges.",
+   "ty": "numerical",
+   "tq": "Distinguishing area, yield and output percentage ranges.",
+   "sec": "Yield concepts and gaps - cereal yield, causes, pathways  [other exams]"
+  },
+  {
+   "s": "Which of the following measures is most directly associated with improving seed quality through seed replacement and varietal replacement?",
+   "o": [
+    "SRR and VRR",
+    "CHCs and DSR",
+    "SRI and NPK",
+    "MSP and NMEO"
+   ],
+   "a": 0,
+   "x": "Better seed quality is promoted through the Seed Replacement Rate and Varietal Replacement Rate, abbreviated as SRR and VRR.",
+   "ty": "application",
+   "tq": "Application of paired agricultural abbreviations to a stated pathway.",
+   "sec": "Yield concepts and gaps - cereal yield, causes, pathways  [other exams]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with its pathway for raising agricultural productivity?",
+   "o": [
+    "CHCs — mechanisation",
+    "Soil Health Card — export promotion",
+    "DSR — land redistribution",
+    "PM Dhan-Dhaanya Krishi Yojana — silk production"
+   ],
+   "a": 0,
+   "x": "Custom Hiring Centres, or CHCs, promote mechanisation by making farm machinery available for hiring. Soil Health Cards promote balanced nutrition, while DSR is a crop-establishment practice.",
+   "ty": "match",
+   "tq": "Start from the sure functional pair and eliminate swapped purposes.",
+   "sec": "Yield concepts and gaps - cereal yield, causes, pathways  [other exams]"
+  },
+  {
+   "s": "The PM Dhan-Dhaanya Krishi Yojana is intended to cover how many low-productivity districts during 2025–26 to 2030–31?",
+   "o": [
+    "50",
+    "75",
+    "100",
+    "150"
+   ],
+   "a": 2,
+   "x": "The PM Dhan-Dhaanya Krishi Yojana covers 100 low-productivity districts during 2025–26 to 2030–31.",
+   "ty": "numerical",
+   "tq": "Direct numerical recall of scheme coverage and period.",
+   "sec": "Yield concepts and gaps - cereal yield, causes, pathways  [other exams]"
+  },
+  {
+   "s": "Which one of the following crops is identified as an exception to India's generally lower yields compared with global averages?",
+   "o": [
+    "Soybean",
+    "Maize",
+    "Groundnut",
+    "Pulses"
+   ],
+   "a": 2,
+   "x": "India's yields of cereals, maize, soybean and pulses trail global averages, whereas groundnut is identified as an exception because of semi-arid concentration and improved varieties.",
+   "ty": "fact",
+   "tq": "Exception-based recall from a comparative yield statement.",
+   "sec": "Yield concepts and gaps - cereal yield, causes, pathways  [other exams]"
+  },
+  {
+   "s": "Consider the following pairs:\n\n1. Rice — Approximately 67% irrigated\n2. Pulses — Approximately 26% irrigated\n3. Average operational holding size — 1.08 hectares\n4. Soybean in many districts — Below 2 tonnes per hectare\n\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Rice is approximately 67% irrigated, pulses approximately 26% irrigated, the average holding size is 1.08 hectares, and soybean yields are below 2 tonnes per hectare in many districts.",
+   "ty": "statements",
+   "tq": "Statement verification combining irrigation, holding-size and yield figures.",
+   "sec": "Yield concepts and gaps - cereal yield, causes, pathways  [other exams]"
+  },
+  {
+   "s": "Which one of the following correctly describes the effect of El Niño on pulses?",
+   "o": [
+    "Acreage rises by 2–9% and output rises by 6–30%.",
+    "Acreage falls by 2–9% and output falls by 6–30%.",
+    "Acreage falls by 6–30% and output falls by 2–9%.",
+    "Acreage remains unchanged while output rises by 5–25%."
+   ],
+   "a": 1,
+   "x": "In El Niño years, pulse acreage declines by about 2–9%, while output declines by about 6–30%.",
+   "ty": "comparison",
+   "tq": "Separating two similar percentage ranges by the variable they describe.",
+   "sec": "Yield concepts and gaps - cereal yield, causes, pathways  [other exams]"
+  },
+  {
+   "s": "Which of the following crops experienced a fall in area of 18 lakh hectares, with output declining to 290.91 lakh bales in 2025–26 from about 350 lakh bales?",
+   "o": [
+    "Paddy",
+    "Soybean",
+    "Groundnut",
+    "Cotton"
+   ],
+   "a": 3,
+   "x": "Cotton area fell by 18 lakh hectares, and its output declined to 290.91 lakh bales in 2025–26 from approximately 350 lakh bales.",
+   "ty": "numerical",
+   "tq": "Linking a crop with its distinctive area and output figures.",
+   "sec": "Area trends - stagnant or declining crops  [other exams]"
+  },
+  {
+   "s": "Punjab's cotton area in 2026 fell by 37.5% to approximately",
+   "o": [
+    "80,000 hectares",
+    "50,000 hectares",
+    "1,80,000 hectares",
+    "1,20,000 hectares"
+   ],
+   "a": 0,
+   "x": "Punjab's cotton area declined by 37.5% to 80,000 hectares in 2026.",
+   "ty": "numerical",
+   "tq": "Percentage-and-level numerical recall.",
+   "sec": "Area trends - stagnant or declining crops  [other exams]"
+  },
+  {
+   "s": "Which one of the following correctly describes a recent change in India's cotton trade position?",
+   "o": [
+    "India became a net importer of silk owing to cotton-area expansion.",
+    "India became a net importer of raw cotton following declining output and area.",
+    "India discontinued raw-cotton imports because of higher cotton yields.",
+    "India became a net exporter of raw cotton after a rise in domestic output."
+   ],
+   "a": 1,
+   "x": "India became a net importer of raw cotton after declines in cotton area and output.",
+   "ty": "fact",
+   "tq": "Cause-effect recall with reversed trade-position distractors.",
+   "sec": "Area trends - stagnant or declining crops  [other exams]"
+  },
+  {
+   "s": "Between 2023 and 2024, soybean area in Madhya Pradesh declined by approximately",
+   "o": [
+    "5%",
+    "10%",
+    "18%",
+    "37.5%"
+   ],
+   "a": 1,
+   "x": "Soybean area in Madhya Pradesh fell by 10% between 2023 and 2024.",
+   "ty": "numerical",
+   "tq": "Direct percentage recall using nearby crop-area figures.",
+   "sec": "Area trends - stagnant or declining crops  [other exams]"
+  },
+  {
+   "s": "Which one of the following statements about crop-area trends in Andhra Pradesh is correct?",
+   "o": [
+    "Jowar and ragi expanded while groundnut remained unchanged.",
+    "Paddy and pulses continued to decline in 2024–25 after recovery.",
+    "Groundnut area rose from 3.46 to 11.36 lakh hectares.",
+    "Groundnut area fell from 11.36 to 3.46 lakh hectares, while jowar and ragi also shrank."
+   ],
+   "a": 3,
+   "x": "In Andhra Pradesh, groundnut area declined from 11.36 to 3.46 lakh hectares, and jowar and ragi also shrank. Paddy and pulses recovered in 2024–25.",
+   "ty": "fact",
+   "tq": "Long-statement trap using reversed area trends and figures.",
+   "sec": "Area trends - stagnant or declining crops  [other exams]"
+  },
+  {
+   "s": "The Mission for Aatmanirbharta in Pulses, covering 2025–26 to 2030–31, has a financial outlay of",
+   "o": [
+    "₹5,440 crore",
+    "₹8,100 crore",
+    "₹11,440 crore",
+    "₹15,000 crore"
+   ],
+   "a": 2,
+   "x": "The Mission for Aatmanirbharta in Pulses has an outlay of ₹11,440 crore.",
+   "ty": "numerical",
+   "tq": "Direct scheme-outlay recall with ascending monetary options.",
+   "sec": "Area trends - stagnant or declining crops  [other exams]"
+  },
+  {
+   "s": "Consider the following statements about the Mission for Aatmanirbharta in Pulses:\n\n1. It targets production of 350 lakh tonnes from 310 lakh hectares.\n2. It provides for 100% MSP procurement of tur, urad and masoor.\n3. It covers the period 2025–26 to 2030–31.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The mission targets 350 lakh tonnes from 310 lakh hectares, provides 100% MSP procurement for tur, urad and masoor, and runs from 2025–26 to 2030–31.",
+   "ty": "statements",
+   "tq": "Statement combination covering targets, procurement and time period.",
+   "sec": "Area trends - stagnant or declining crops  [other exams]"
+  },
+  {
+   "s": "Total factor productivity in agriculture refers to",
+   "o": [
+    "output growth not explained by growth in inputs such as land, labour, capital and fertiliser",
+    "the total value of agricultural exports divided by farm employment",
+    "output growth explained only by expansion of cultivated land",
+    "the ratio of fertiliser use to cropped area"
+   ],
+   "a": 0,
+   "x": "Total factor productivity is the part of output growth that cannot be explained by increased use of inputs such as land, labour, capital and fertiliser.",
+   "ty": "fact",
+   "tq": "Definition-based discrimination against single-input productivity measures.",
+   "sec": "Total factor productivity - trend and drivers"
+  },
+  {
+   "s": "Which one of the following is NOT a stated driver of agricultural total factor productivity?",
+   "o": [
+    "A mandatory reduction in all forms of farm mechanisation",
+    "Extension services and education",
+    "Agricultural research and new varieties",
+    "Irrigation, rural roads and markets"
+   ],
+   "a": 0,
+   "x": "Research, new varieties, irrigation, rural roads, markets, extension and education are stated drivers of agricultural TFP. A mandatory reduction in mechanisation is not a stated driver.",
+   "ty": "negative",
+   "tq": "Find the non-driver among a list of productivity-enhancing factors.",
+   "sec": "Total factor productivity - trend and drivers"
+  },
+  {
+   "s": "Which one of the following statements about agricultural total factor productivity in the cited material is correct?",
+   "o": [
+    "No estimate of India's agricultural TFP growth is provided; TFP is discussed for the whole economy.",
+    "Agricultural TFP growth is discussed only as a component of foodgrain production.",
+    "Agricultural TFP is defined as the increase in fertiliser consumption alone.",
+    "A precise estimate of India's agricultural TFP growth is provided."
+   ],
+   "a": 0,
+   "x": "The cited material does not provide estimates of India's agricultural TFP growth; it discusses TFP only for the whole economy.",
+   "ty": "fact",
+   "tq": "Scope discrimination between a defined concept and an unavailable estimate.",
+   "sec": "Total factor productivity - trend and drivers"
+  },
+  {
+   "s": "The paddy production of Andhra Pradesh in 2024–25 was reported as",
+   "o": [
+    "141.86 lakh tonnes",
+    "161.86 lakh tonnes",
+    "127.15 lakh tonnes",
+    "112.75 lakh tonnes"
+   ],
+   "a": 2,
+   "x": "Paddy production in Andhra Pradesh was 127.15 lakh tonnes in 2024–25.",
+   "ty": "numerical",
+   "tq": "State-level numerical recall with related production figures as distractors.",
+   "sec": "India's global rank - crops, milk, fruits, silk, spices  [APPSC]"
+  }
+ ]
+}

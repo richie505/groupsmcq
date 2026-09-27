@@ -1,0 +1,595 @@
+{
+ "book": 3,
+ "row": 60,
+ "chunk": 1,
+ "section": "Allied sectors - horticulture, animal husbandry, dairy, fisheries (PMMSY), agro-processing",
+ "subsections": [
+  "Food processing - Operation Greens, PM Kisan SAMPADA, mega food parks, processed food export share, PMFME and ODOP",
+  "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census",
+  "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares",
+  "India's global rank in milk, fish, fruit, livestock, turmeric, state order in milk"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 47,
+ "rejected": {
+  "invalid": 2,
+  "dupe": 3,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Operation Greens, initially associated with tomato, onion and potato, was subsequently widened to cover:",
+   "o": [
+    "Only livestock products",
+    "Only plantation crops",
+    "Only cereal crops",
+    "All fruits and vegetables"
+   ],
+   "a": 3,
+   "x": "The scope of Operation Greens was later widened from TOP crops to all fruits and vegetables.",
+   "ty": "fact",
+   "tq": "Test the change in scope rather than the original crop group.",
+   "sec": "Food processing - Operation Greens, PM Kisan SAMPADA, mega food parks, processed food export share, PMFME and ODOP  [APPSC]"
+  },
+  {
+   "s": "PM Kisan SAMPADA Yojana is an umbrella scheme of which Ministry?",
+   "o": [
+    "Ministry of Food Processing Industries",
+    "Ministry of Commerce and Industry",
+    "Ministry of Rural Development",
+    "Ministry of Agriculture and Farmers Welfare"
+   ],
+   "a": 0,
+   "x": "PM Kisan SAMPADA Yojana is the umbrella scheme of the Ministry of Food Processing Industries.",
+   "ty": "fact",
+   "tq": "Apply the ‘which Ministry’ trap by distinguishing neighbouring ministries.",
+   "sec": "Food processing - Operation Greens, PM Kisan SAMPADA, mega food parks, processed food export share, PMFME and ODOP  [APPSC]"
+  },
+  {
+   "s": "The cluster approach adopted under Mega Food Parks primarily seeks to establish a link between:",
+   "o": [
+    "Farms, processing facilities and markets",
+    "Banks, insurance companies and exporters",
+    "Research institutions, universities and schools",
+    "Ports, railways and airports"
+   ],
+   "a": 0,
+   "x": "Mega Food Parks use a cluster approach that links farms to processing facilities and then to markets.",
+   "ty": "application",
+   "tq": "Identify the complete value-chain sequence in the scheme.",
+   "sec": "Food processing - Operation Greens, PM Kisan SAMPADA, mega food parks, processed food export share, PMFME and ODOP  [APPSC]"
+  },
+  {
+   "s": "PM Formalisation of Micro Food Processing Enterprises (PMFME) is associated with which approach?",
+   "o": [
+    "One District One Product",
+    "One Market One Commodity",
+    "One Village One Bank",
+    "One State One Crop"
+   ],
+   "a": 0,
+   "x": "PMFME formalises micro food-processing units under the One District One Product (ODOP) approach.",
+   "ty": "fact",
+   "tq": "Discriminate between similar one-unit policy slogans.",
+   "sec": "Food processing - Operation Greens, PM Kisan SAMPADA, mega food parks, processed food export share, PMFME and ODOP  [APPSC]"
+  },
+  {
+   "s": "Processed food exports constituted what share of India's agri-export basket?",
+   "o": [
+    "11.86%",
+    "20.4%",
+    "30.87%",
+    "33.20%"
+   ],
+   "a": 1,
+   "x": "Processed food exports accounted for 20.4% of the agri-export basket.",
+   "ty": "numerical",
+   "tq": "Match the precise percentage with the correct export category.",
+   "sec": "Food processing - Operation Greens, PM Kisan SAMPADA, mega food parks, processed food export share, PMFME and ODOP  [APPSC]"
+  },
+  {
+   "s": "For 2024–25, the approximate share of processed food exports used in the relevant General Studies answer key was:",
+   "o": [
+    "Around 11%",
+    "Around 31%",
+    "Around 23%",
+    "Around 15%"
+   ],
+   "a": 2,
+   "x": "The approximate figure used for 2024–25 was around 23%. This is distinct from the 20.4% figure reported for the agri-export basket.",
+   "ty": "numerical",
+   "tq": "Separate two close percentage figures instead of treating them as interchangeable.",
+   "sec": "Food processing - Operation Greens, PM Kisan SAMPADA, mega food parks, processed food export share, PMFME and ODOP  [APPSC]"
+  },
+  {
+   "s": "India's agri-exports reached a record value of $51.9 billion in 2024–25. This represented what share of merchandise exports?",
+   "o": [
+    "5.5%",
+    "8.7%",
+    "11.86%",
+    "20.4%"
+   ],
+   "a": 2,
+   "x": "Agri-exports reached $51.9 billion in 2024–25 and accounted for 11.86% of merchandise exports.",
+   "ty": "numerical",
+   "tq": "Link the absolute export value with its corresponding percentage.",
+   "sec": "Food processing - Operation Greens, PM Kisan SAMPADA, mega food parks, processed food export share, PMFME and ODOP  [APPSC]"
+  },
+  {
+   "s": "Rashtriya Gokul Mission, launched in 2014, is primarily concerned with:",
+   "o": [
+    "Construction of mega food parks",
+    "Development and conservation of indigenous bovine breeds",
+    "Promotion of cereal exports",
+    "Expansion of marine fisheries"
+   ],
+   "a": 1,
+   "x": "Rashtriya Gokul Mission focuses on the development and conservation of indigenous bovine breeds.",
+   "ty": "fact",
+   "tq": "Match the mission with its distinctive livestock objective.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT an area associated with the National Livestock Mission?",
+   "o": [
+    "Livestock productivity",
+    "Urban metro-rail infrastructure",
+    "Health and entrepreneurship",
+    "Feed and fodder"
+   ],
+   "a": 1,
+   "x": "The National Livestock Mission covers livestock productivity, feed and fodder, health and entrepreneurship; urban metro-rail infrastructure is unrelated.",
+   "ty": "negative",
+   "tq": "Find the option outside the livestock-policy cluster.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the National Livestock Mission:\n1. It was launched in 2014.\n2. It has been revised in 2021–22.\n3. It has operated since 2014–15.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The National Livestock Mission was launched in 2014, has operated since 2014–15, and was revised in 2021–22.",
+   "ty": "statements",
+   "tq": "Combine launch year, operational period and revision year in one coded question.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the three sub-schemes of the National Livestock Mission?\n1. Breed development covering poultry, sheep, goat and piggery\n2. Feed and fodder\n3. Innovation and extension, including livestock insurance\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three listed components form the sub-schemes of the National Livestock Mission.",
+   "ty": "statements",
+   "tq": "Test whether all components of a named scheme have been retained.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "AHIDF stands for:",
+   "o": [
+    "Agricultural Horticulture and Irrigation Development Fund",
+    "Animal Husbandry Insurance and Dairy Finance",
+    "Animal Health and Inland Dairy Fund",
+    "Animal Husbandry Infrastructure Development Fund"
+   ],
+   "a": 3,
+   "x": "AHIDF means Animal Husbandry Infrastructure Development Fund, established in 2020.",
+   "ty": "fact",
+   "tq": "Expand the exact official acronym rather than a similar-looking phrase.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "The Animal Husbandry Infrastructure Development Fund (AHIDF) was introduced in:",
+   "o": [
+    "2014",
+    "2018",
+    "2020",
+    "2022"
+   ],
+   "a": 2,
+   "x": "AHIDF was introduced in 2020.",
+   "ty": "numerical",
+   "tq": "Use the year-based distinction among livestock initiatives.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "The Livestock Health and Disease Control Programme (LHDCP) seeks to control diseases mainly through:",
+   "o": [
+    "Prophylactic vaccination",
+    "Replacement of indigenous breeds",
+    "Construction of cold-storage units",
+    "Export restrictions on livestock"
+   ],
+   "a": 0,
+   "x": "LHDCP promotes disease control through prophylactic vaccination.",
+   "ty": "application",
+   "tq": "Connect the programme objective with its principal operational instrument.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "According to the 20th Livestock Census, which one of the following correctly represents the livestock population figures?",
+   "o": [
+    "Sheep 74.26 million, goats 148.88 million, pigs 9.06 million",
+    "Sheep 148.88 million, goats 74.26 million, pigs 9.06 million",
+    "Sheep 74.26 million, goats 9.06 million, pigs 148.88 million",
+    "Sheep 9.06 million, goats 148.88 million, pigs 74.26 million"
+   ],
+   "a": 0,
+   "x": "The 20th Livestock Census recorded 74.26 million sheep, 148.88 million goats and 9.06 million pigs.",
+   "ty": "match",
+   "tq": "Start from the sure numerical pair and verify the remaining figures.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "Which statement regarding the livestock census is correct?",
+   "o": [
+    "The 21st Livestock Census is still being compiled.",
+    "The 21st Livestock Census has already been completed and published.",
+    "No livestock census has been conducted after the 18th Census.",
+    "The 20th Livestock Census is still being compiled."
+   ],
+   "a": 0,
+   "x": "The 21st Livestock Census was still being compiled, while the figures cited relate to the completed 20th Census.",
+   "ty": "fact",
+   "tq": "Distinguish the completed census from the one still under compilation.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "Rythu Seva Kendralu in Andhra Pradesh, formerly known as RBKs, serve as:",
+   "o": [
+    "Urban dairy laboratories",
+    "Exclusive agricultural universities",
+    "Dedicated export promotion councils",
+    "One-stop livestock platforms"
+   ],
+   "a": 3,
+   "x": "The 10,606 Rythu Seva Kendralu, formerly RBKs, function as one-stop livestock platforms.",
+   "ty": "fact",
+   "tq": "Test the institutional role and the former name together.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "How many Rythu Seva Kendralu were functioning in Andhra Pradesh as one-stop livestock platforms?",
+   "o": [
+    "5,606",
+    "8,606",
+    "10,606",
+    "15,606"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh had 10,606 Rythu Seva Kendralu functioning as one-stop livestock platforms.",
+   "ty": "numerical",
+   "tq": "Test the exact institutional count using closely spaced numerical options.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about livestock GVA in India in 2023–24:\n1. It was ₹15.06 lakh crore at current prices.\n2. It constituted 30.87% of agricultural GVA.\n3. It constituted 5.5% of total GVA.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Livestock GVA was ₹15.06 lakh crore, representing 30.87% of agricultural and allied GVA and 5.5% of total GVA.",
+   "ty": "statements",
+   "tq": "Check the amount and both percentage shares as a single data cluster.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "Livestock grew at what nominal CAGR during FY2015–FY2024?",
+   "o": [
+    "7.1%",
+    "8.7%",
+    "12.77%",
+    "17.69%"
+   ],
+   "a": 2,
+   "x": "Livestock recorded a nominal CAGR of 12.77% during FY2015–FY2024.",
+   "ty": "numerical",
+   "tq": "Distinguish nominal CAGR from real growth and other sector rates.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes livestock growth over the decade mentioned?",
+   "o": [
+    "12.77% in real terms and 7.1% nominally",
+    "7.1% nominally and 4.4% in real terms",
+    "12.77% nominally and 7.1% in real terms",
+    "8.7% nominally and 12.7% in real terms"
+   ],
+   "a": 2,
+   "x": "Livestock growth was 12.77% in nominal terms and 7.1% in real terms over the decade.",
+   "ty": "confusable",
+   "tq": "Separate nominal and real growth figures to avoid reversed comparisons.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Programme)\n(a) Rashtriya Gokul Mission\n(b) National Livestock Mission\n(c) AHIDF\n(d) LHDCP\n\nList-II (Association)\n(i) Disease control through prophylactic vaccination\n(ii) Animal Husbandry Infrastructure Development Fund\n(iii) Indigenous bovine breeds\n(iv) Livestock productivity, feed and fodder, health and entrepreneurship\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iv, c–iii, d–i"
+   ],
+   "a": 0,
+   "x": "Rashtriya Gokul Mission concerns indigenous bovine breeds; NLM covers productivity and related areas; AHIDF is the infrastructure fund; LHDCP uses prophylactic vaccination.",
+   "ty": "match",
+   "tq": "Start from the unambiguous acronym pair and complete the matching code.",
+   "sec": "Animal husbandry - Credit Guarantee Scheme for Livestock, Rashtriya Gokul Mission, NLM, Livestock Census  [APPSC]"
+  },
+  {
+   "s": "In Andhra Pradesh's 2024–25 FAE data, which sub-sector had the highest growth rate?",
+   "o": [
+    "Agriculture",
+    "Horticulture",
+    "Forestry and logging",
+    "Fishing and aquaculture"
+   ],
+   "a": 0,
+   "x": "Agriculture recorded the highest growth rate, at 14.99%, in the 2024–25 FAE data.",
+   "ty": "comparison",
+   "tq": "Compare the growth column rather than the GVA column.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "In Andhra Pradesh's 2024–25 FAE data, the largest GVA among the listed sub-sectors was recorded by:",
+   "o": [
+    "Agriculture",
+    "Livestock",
+    "Horticulture",
+    "Fishing and aquaculture"
+   ],
+   "a": 3,
+   "x": "Fishing and aquaculture had the largest GVA at ₹77,085 crore in the 2024–25 FAE data.",
+   "ty": "comparison",
+   "tq": "Do not confuse the largest GVA with the highest growth rate.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly matches an Andhra Pradesh sub-sector with its 2024–25 FAE GVA and growth?",
+   "o": [
+    "Horticulture — ₹60,527 crore and 10.04%",
+    "Agriculture — ₹25,584 crore and 14.99%",
+    "Livestock — ₹66,456 crore and 11.29%",
+    "Forestry and logging — ₹2,644 crore and 0.40%"
+   ],
+   "a": 0,
+   "x": "Horticulture recorded a GVA of ₹60,527 crore and growth of 10.04%. Agriculture had 14.99% growth, livestock 9.53%, forestry and logging 0.04%, and fishing and aquaculture 11.29%.",
+   "ty": "comparison",
+   "tq": "Check both the amount and the rate in each paired entry.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "The total GVA of Andhra Pradesh agriculture and allied sectors in the 2024–25 FAE data was:",
+   "o": [
+    "₹1,76,235 crore",
+    "₹2,32,296 crore",
+    "₹5,39,454 crore",
+    "₹17,62,357 crore"
+   ],
+   "a": 1,
+   "x": "The total GVA of the listed agriculture and allied sectors was ₹2,32,296 crore, with growth of 10.70%.",
+   "ty": "numerical",
+   "tq": "Distinguish sectoral GVA from AP GSDP and the agriculture-allied share amount.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "In the 2025–26 FAE data for Andhra Pradesh, which sub-sector recorded the highest growth?",
+   "o": [
+    "Fishing and aquaculture",
+    "Horticulture",
+    "Agriculture",
+    "Livestock"
+   ],
+   "a": 0,
+   "x": "Fishing and aquaculture recorded the highest growth, at 17.69%, in the 2025–26 FAE data.",
+   "ty": "comparison",
+   "tq": "Compare all growth rates before considering the GVA values.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "Arrange the following Andhra Pradesh sub-sectors in descending order of growth in 2025–26 FAE:\nA. Agriculture\nB. Livestock\nC. Fishing and aquaculture\nD. Forestry and logging",
+   "o": [
+    "C, B, A, D",
+    "C, A, B, D",
+    "A, C, B, D",
+    "C, B, D, A"
+   ],
+   "a": 1,
+   "x": "The growth rates were fishing and aquaculture 17.69%, agriculture 5.05%, livestock 5.15%, and forestry and logging 2.39%; therefore the correct order is C, B, A, D.",
+   "ty": "chronology",
+   "tq": "Order the items by the numerical rate, checking the close agriculture–livestock pair.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly matches a 2025–26 FAE Andhra Pradesh sub-sector with its GVA and growth?",
+   "o": [
+    "Horticulture — ₹65,486 crore and 8.26%",
+    "Agriculture — ₹27,737 crore and 5.05%",
+    "Livestock — ₹65,879 crore and 5.15%",
+    "Fishing and aquaculture — ₹90,673 crore and 17.69%"
+   ],
+   "a": 3,
+   "x": "Fishing and aquaculture recorded GVA of ₹90,673 crore and growth of 17.69%. The other options interchange figures from different sub-sectors or alter the stated amount.",
+   "ty": "comparison",
+   "tq": "Use cross-row checking to detect swapped GVA figures.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "Agriculture and allied sectors accounted for what share of Andhra Pradesh GSDP?",
+   "o": [
+    "23.20%",
+    "30.87%",
+    "33.20%",
+    "38.70%"
+   ],
+   "a": 2,
+   "x": "Agriculture and allied sectors accounted for 33.20% of Andhra Pradesh GSDP.",
+   "ty": "numerical",
+   "tq": "Distinguish the state GSDP share from the livestock share of national GVA.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "Which of the following is the correct order of Andhra Pradesh's ranks in 2025–26 for eggs, meat and milk production, respectively?",
+   "o": [
+    "7th, 1st and 4th",
+    "4th, 7th and 1st",
+    "1st, 4th and 7th",
+    "1st, 7th and 4th"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh ranked first in eggs, fourth in meat and seventh in milk production.",
+   "ty": "fact",
+   "tq": "Retain the sequence of three rankings without reversing the commodities.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "Andhra Pradesh's production figures associated with its 2025–26 rankings included:",
+   "o": [
+    "2,739 crore eggs, 17.37 lakh MT meat and 193.46 lakh MT milk",
+    "2,739 crore eggs, 11.37 lakh MT meat and 139.46 lakh MT milk",
+    "2,739 lakh eggs, 11.37 crore MT meat and 139.46 crore MT milk",
+    "1,739 crore eggs, 11.37 lakh MT meat and 139.46 lakh MT milk"
+   ],
+   "a": 1,
+   "x": "The stated figures were 2,739 crore eggs, 11.37 lakh metric tonnes of meat and 139.46 lakh metric tonnes of milk.",
+   "ty": "numerical",
+   "tq": "Check both the units and the numerical values.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "Andhra Pradesh plans to achieve what growth in agriculture and allied sectors over five years?",
+   "o": [
+    "40% through 27 growth engines",
+    "10% through 7 growth engines",
+    "20% through 10 growth engines",
+    "30% through 17 growth engines"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh plans 30% growth in agriculture and allied sectors over five years, driven by 17 growth engines.",
+   "ty": "numerical",
+   "tq": "Pair the target percentage with the number of growth engines.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "The agriculture and allied sectors in India grew at an average annual rate of approximately what over five years?",
+   "o": [
+    "4.4%",
+    "7.1%",
+    "10.70%",
+    "12.77%"
+   ],
+   "a": 0,
+   "x": "India's agriculture and allied sectors grew by an average of 4.4% annually over five years.",
+   "ty": "numerical",
+   "tq": "Separate the national average from livestock and state-level growth figures.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly states the nominal CAGRs of livestock and fisheries, respectively?",
+   "o": [
+    "12.77% and 7.1%",
+    "12.7% and 8.7%",
+    "7.1% and 4.4%",
+    "8.7% and 12.7%"
+   ],
+   "a": 1,
+   "x": "The nominal CAGRs of livestock and fisheries were 12.7% and 8.7%, respectively; together they accounted for over 38% of sector output.",
+   "ty": "comparison",
+   "tq": "Avoid reversing the two sector-wise CAGR figures.",
+   "sec": "AP White Paper / Socio-Economic Survey on agriculture and allied sectors - sector-wise growth, shares  [APPSC]"
+  },
+  {
+   "s": "India holds the first global rank in which of the following groups?",
+   "o": [
+    "Fish, silk and turmeric",
+    "Milk, pulses and spices",
+    "Rice, wheat and fruits",
+    "Eggs, vegetables and fish"
+   ],
+   "a": 1,
+   "x": "India ranks first globally in milk, pulses and spices.",
+   "ty": "fact",
+   "tq": "Identify the complete first-rank group rather than a single commodity.",
+   "sec": "India's global rank in milk, fish, fruit, livestock, turmeric, state order in milk  [other exams]"
+  },
+  {
+   "s": "India ranks second globally in which group?",
+   "o": [
+    "Milk, pulses and spices",
+    "Rice, wheat, fruits, vegetables and eggs",
+    "Pulses, silk and turmeric",
+    "Turmeric, fish and milk"
+   ],
+   "a": 1,
+   "x": "India ranks second globally in rice, wheat, fruits, vegetables and eggs.",
+   "ty": "fact",
+   "tq": "Distinguish the second-rank commodity group from the first-rank group.",
+   "sec": "India's global rank in milk, fish, fruit, livestock, turmeric, state order in milk  [other exams]"
+  },
+  {
+   "s": "Which one of the following statements regarding India's position in fish production is correct?",
+   "o": [
+    "India ranks first in total fish production and second in shrimp output.",
+    "India ranks second in fish production and aquaculture, and first in shrimp output and exports.",
+    "India ranks third in fish production and first in all forms of aquaculture.",
+    "India ranks second in fish production but has no stated position in shrimp exports."
+   ],
+   "a": 1,
+   "x": "The official figure places India second in fish production and aquaculture, while it ranks first in shrimp output and exports. Fish accounts for 8% of world output.",
+   "ty": "statements",
+   "tq": "Separate overall fish ranking from the specialised shrimp ranking.",
+   "sec": "India's global rank in milk, fish, fruit, livestock, turmeric, state order in milk  [other exams]"
+  },
+  {
+   "s": "Fish production in India accounts for approximately what share of world output?",
+   "o": [
+    "5%",
+    "8%",
+    "12%",
+    "20%"
+   ],
+   "a": 1,
+   "x": "India's fish production accounts for approximately 8% of world output.",
+   "ty": "numerical",
+   "tq": "Associate the percentage with fish production rather than aquaculture rank.",
+   "sec": "India's global rank in milk, fish, fruit, livestock, turmeric, state order in milk  [other exams]"
+  },
+  {
+   "s": "India's global rank in silk production is:",
+   "o": [
+    "First",
+    "Second",
+    "Third",
+    "Fourth"
+   ],
+   "a": 1,
+   "x": "India ranks second globally in silk production.",
+   "ty": "fact",
+   "tq": "Use direct rank recall for a single commodity.",
+   "sec": "India's global rank in milk, fish, fruit, livestock, turmeric, state order in milk  [other exams]"
+  },
+  {
+   "s": "India ranks first globally in the production of:",
+   "o": [
+    "Silk",
+    "Fish",
+    "Wheat",
+    "Turmeric"
+   ],
+   "a": 3,
+   "x": "India ranks first globally in turmeric production.",
+   "ty": "fact",
+   "tq": "Distinguish turmeric's first rank from silk and fish rankings.",
+   "sec": "India's global rank in milk, fish, fruit, livestock, turmeric, state order in milk  [other exams]"
+  }
+ ]
+}

@@ -1,0 +1,500 @@
+{
+ "book": 3,
+ "row": 19,
+ "chunk": 0,
+ "section": "Environmental degradation as a development challenge; green accounting and green GDP",
+ "subsections": [
+  "Resource depletion → cause; long-term impact scenarios",
+  "Functions of the environment",
+  "Causes of environmental degradation vs conservation practices",
+  "Environmental Kuznets Curve - axes and shape",
+  "Green economy and green GDP",
+  "Growth-environment trade-off vs protection as a necessity",
+  "Green accounting frameworks → developer; MoSPI EnviStats"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 3
+ },
+ "accepted": [
+  {
+   "s": "Match List-I with List-II regarding resource depletion:\n\nList-I (Resource)\na. Groundwater\nb. Topsoil\nc. Biodiversity habitats\nd. Sustainable forest managed for timber while retaining biodiversity\n\nList-II (Associated condition)\ni. Expansion of agriculture\nii. Deep bore tubewells for irrigation\niii. Brick production\niv. Not an instance of resource depletion\n\nSelect the correct answer using the code below.",
+   "o": [
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–i, b–iii, c–ii, d–iv",
+    "a–iv, b–i, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "Deep bore tubewells are associated with groundwater depletion, brick production with topsoil loss, and agricultural expansion with habitat loss. A sustainably managed forest retaining biodiversity is not an instance of resource depletion.",
+   "ty": "match",
+   "tq": "Start from the sure resource–cause pairs and eliminate codes containing a mismatched pair.",
+   "sec": "Resource depletion → cause; long-term impact scenarios  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Green Revolution:\n1. HYV monoculture and chemical fertilisers contributed to a decline in soil fertility.\n2. Irrigation requirements of HYV crops contributed to depletion of the water table.\n3. Fertilisers, pesticides and herbicides polluted land, water and air and reduced biodiversity.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly describe the environmental consequences associated with HYV-based Green Revolution agriculture.",
+   "ty": "statements",
+   "tq": "Test the complete chain of effects rather than relying on a single familiar consequence.",
+   "sec": "Resource depletion → cause; long-term impact scenarios  [APPSC]"
+  },
+  {
+   "s": "Approximately what proportion of the world’s global land has been transformed by human activities?",
+   "o": [
+    "About one-half",
+    "About one-third",
+    "One-fourth",
+    "One-sixth"
+   ],
+   "a": 1,
+   "x": "About one-third of the world’s global land has been transformed by human activities.",
+   "ty": "numerical",
+   "tq": "Distinguish the approximate global proportion from nearby but unsupported size claims.",
+   "sec": "Resource depletion → cause; long-term impact scenarios  [APPSC]"
+  },
+  {
+   "s": "More than what proportion of the world’s rivers have been dammed or diverted?",
+   "o": [
+    "20 percent",
+    "40 percent",
+    "50 percent",
+    "60 percent"
+   ],
+   "a": 3,
+   "x": "More than 60 percent of the world’s rivers have been dammed or diverted.",
+   "ty": "numerical",
+   "tq": "Use the scale qualifier ‘more than’ and identify the correct approximate threshold.",
+   "sec": "Resource depletion → cause; long-term impact scenarios  [APPSC]"
+  },
+  {
+   "s": "Approximately what proportion of the Earth’s land is degraded?",
+   "o": [
+    "About 10 percent",
+    "About 25 percent",
+    "About 60 percent",
+    "About 40 percent"
+   ],
+   "a": 3,
+   "x": "About 40 percent of the Earth’s land is degraded.",
+   "ty": "numerical",
+   "tq": "Separate the land-degradation figure from the distinct figures for transformed land and diverted rivers.",
+   "sec": "Resource depletion → cause; long-term impact scenarios  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about urea use is correct?",
+   "o": [
+    "Urea is not used in Indian agriculture because it is a non-nitrogenous fertiliser.",
+    "Urea accounts for approximately 56 percent of fertiliser use, and its overuse degrades soil and water.",
+    "Urea accounts for approximately 80 percent of fertiliser use and prevents water pollution.",
+    "Urea accounts for approximately 25 percent of fertiliser use and primarily improves biodiversity."
+   ],
+   "a": 1,
+   "x": "Urea constitutes approximately 56 percent of fertiliser use, while its overuse contributes to degradation of soil and water.",
+   "ty": "fact",
+   "tq": "Reject exaggerated numerical claims and pair the correct figure with its stated environmental effect.",
+   "sec": "Resource depletion → cause; long-term impact scenarios  [APPSC]"
+  },
+  {
+   "s": "Green urea is described as a low-carbon alternative produced using:",
+   "o": [
+    "Coal gasification and untreated methane",
+    "Crude oil and captured sulphur dioxide",
+    "Solar salt and atmospheric nitrogen alone",
+    "Green hydrogen and captured carbon dioxide"
+   ],
+   "a": 3,
+   "x": "Green urea uses green hydrogen and captured carbon dioxide and is regarded as a low-carbon alternative.",
+   "ty": "fact",
+   "tq": "Test the exact input combination rather than the broad label ‘green’.",
+   "sec": "Resource depletion → cause; long-term impact scenarios  [APPSC]"
+  },
+  {
+   "s": "Which combination is identified as the main reason for India’s low Environmental Performance Index score?",
+   "o": [
+    "Forest tourism and hydropower alone",
+    "Urban particulate pollution and coal-based power",
+    "Rural noise pollution and tidal energy",
+    "Agricultural exports and solar power"
+   ],
+   "a": 1,
+   "x": "Urban particulate pollution and coal-based power are identified as the main reasons for India’s low Environmental Performance Index score.",
+   "ty": "fact",
+   "tq": "Apply the ‘main reasons’ wording and avoid substituting unrelated environmental indicators.",
+   "sec": "Resource depletion → cause; long-term impact scenarios  [APPSC]"
+  },
+  {
+   "s": "Resource depletion occurs when:",
+   "o": [
+    "The rate of resource use is equal to its regeneration in every season",
+    "A forest is managed sustainably while biodiversity is retained",
+    "Resources are used faster than they can regenerate",
+    "The rate of resource use is slower than its regeneration"
+   ],
+   "a": 2,
+   "x": "Resource depletion occurs when resources are used faster than their rate of regeneration. Sustainable forest management with retained biodiversity does not represent depletion.",
+   "ty": "application",
+   "tq": "Translate the scenario into the rate comparison between extraction and regeneration.",
+   "sec": "Resource depletion → cause; long-term impact scenarios  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II regarding the functions of the environment:\n\nList-I (Function)\na. Supplies resources\nb. Assimilates waste\nc. Sustains life\nd. Aesthetic services\n\nList-II (Meaning)\ni. Scenery and amenity\nii. Absorbs and neutralises wastes\niii. Genetic and biodiversity\niv. Renewable and non-renewable resources\n\nSelect the correct answer using the code below.",
+   "o": [
+    "a–ii, b–iv, c–i, d–iii",
+    "a–iv, b–ii, c–iii, d–i",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–i, b–iii, c–ii, d–iv"
+   ],
+   "a": 1,
+   "x": "The environment supplies renewable and non-renewable resources, assimilates wastes, sustains genetic and biological diversity, and provides scenery and amenity.",
+   "ty": "match",
+   "tq": "Start with the distinctive meanings of aesthetic services and waste assimilation, then complete the code.",
+   "sec": "Functions of the environment  [APPSC]"
+  },
+  {
+   "s": "The first function of the environment is the:",
+   "o": [
+    "Assimilation of all pollutants without limits",
+    "Supply or production of raw materials",
+    "Provision of aesthetic services",
+    "Regulation of monetary circulation"
+   ],
+   "a": 1,
+   "x": "The first function of the environment is the supply or production of raw materials.",
+   "ty": "fact",
+   "tq": "Test the ordered classification directly by identifying the first function.",
+   "sec": "Functions of the environment  [APPSC]"
+  },
+  {
+   "s": "The absorptive capacity of the environment refers to its ability to:",
+   "o": [
+    "Convert all non-renewable resources into renewable resources",
+    "Prevent all human extraction of resources",
+    "Produce unlimited mineral resources",
+    "Absorb degradation and process and neutralise pollutants without harm"
+   ],
+   "a": 3,
+   "x": "Absorptive capacity is the ability of the environment to absorb degradation, or the maximum pollutant load an ecosystem can process and neutralise without harm.",
+   "ty": "application",
+   "tq": "Use the operational definition and distinguish pollutant-processing capacity from resource production.",
+   "sec": "Functions of the environment  [APPSC]"
+  },
+  {
+   "s": "An environmental crisis is likely to arise when:",
+   "o": [
+    "Extraction exceeds regeneration and waste exceeds absorptive capacity",
+    "Extraction remains below regeneration and waste remains below absorptive capacity",
+    "Only renewable resources are used",
+    "Aesthetic services increase in urban areas"
+   ],
+   "a": 0,
+   "x": "An environmental crisis arises when resource extraction exceeds regeneration and waste generation exceeds the environment’s absorptive capacity.",
+   "ty": "application",
+   "tq": "Pair the two threshold conditions instead of selecting only one of them.",
+   "sec": "Functions of the environment  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT a human-driven cause of environmental degradation?",
+   "o": [
+    "Expansion of roads and urban areas",
+    "Wildlife conservation",
+    "Industrial emissions",
+    "Over-extraction of groundwater"
+   ],
+   "a": 1,
+   "x": "Wildlife conservation is a conservation practice, not a human-driven cause of environmental degradation. Groundwater over-extraction, industrial emissions and urban expansion are causes.",
+   "ty": "negative",
+   "tq": "Find the conservation measure hidden among the listed degradation causes.",
+   "sec": "Causes of environmental degradation vs conservation practices  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Deforestation is a human-driven cause of environmental degradation.\n2. Chemical-intensive farming can contribute to environmental degradation.\n3. Overfishing is a human-driven cause of environmental degradation.\n4. Renewable energy production is classified as a cause of environmental degradation.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Deforestation, chemical-intensive farming and overfishing are human-driven causes. Renewable energy production is treated as a conservation-oriented practice rather than a cause in this classification.",
+   "ty": "statements",
+   "tq": "Identify the one classification reversal and select the code containing only genuine causes.",
+   "sec": "Causes of environmental degradation vs conservation practices  [APPSC]"
+  },
+  {
+   "s": "Which pair correctly represents the two environmental threats faced by India?",
+   "o": [
+    "Poverty-induced degradation and pollution from affluence and rapid industrial growth",
+    "Rural literacy and excessive renewable energy production",
+    "Declining population and low urbanisation",
+    "Only natural disasters and seasonal rainfall variation"
+   ],
+   "a": 0,
+   "x": "India faces poverty-induced degradation as well as pollution associated with affluence and rapid industrial growth.",
+   "ty": "fact",
+   "tq": "Distinguish the dual-source formulation from single-cause and unrelated alternatives.",
+   "sec": "Causes of environmental degradation vs conservation practices  [APPSC]"
+  },
+  {
+   "s": "With reference to the Environmental Kuznets Curve, which one of the following is correct?",
+   "o": [
+    "Per-capita income is on the Y-axis and environmental degradation is on the X-axis; the curve is U-shaped.",
+    "Tax rate is on the X-axis and revenue is on the Y-axis; the curve is inverted-U shaped.",
+    "Per-capita income is on the X-axis and environmental degradation or pollution is on the Y-axis; the curve is inverted-U shaped.",
+    "Inflation is on the X-axis and unemployment is on the Y-axis; the curve is downward sloping."
+   ],
+   "a": 2,
+   "x": "The Environmental Kuznets Curve places per-capita income on the X-axis and environmental degradation or pollution on the Y-axis. Degradation initially rises, reaches a peak and then falls, producing an inverted-U shape.",
+   "ty": "comparison",
+   "tq": "Check both axes before identifying the curve’s shape.",
+   "sec": "Environmental Kuznets Curve - axes and shape  [APPSC]"
+  },
+  {
+   "s": "According to the Environmental Kuznets Curve hypothesis, environmental degradation generally:",
+   "o": [
+    "Rises initially, reaches a peak and then falls as income increases",
+    "Rises only after the highest income level is reached",
+    "Remains constant at every income level",
+    "Falls continuously as income rises"
+   ],
+   "a": 0,
+   "x": "The hypothesis suggests that degradation increases during early growth, peaks at an intermediate income level and subsequently declines as income rises.",
+   "ty": "fact",
+   "tq": "Remember the three-stage movement: rise, peak and fall.",
+   "sec": "Environmental Kuznets Curve - axes and shape  [APPSC]"
+  },
+  {
+   "s": "The Environmental Kuznets Curve is derived from the Kuznets Curve associated with Simon Kuznets, which describes the relationship between:",
+   "o": [
+    "Pollution and population density",
+    "Income inequality and economic growth",
+    "Inflation and unemployment",
+    "Tax rates and tax revenue"
+   ],
+   "a": 1,
+   "x": "Simon Kuznets’ original curve describes inequality as initially rising and later falling with economic growth, also producing an inverted-U shape.",
+   "ty": "confusable",
+   "tq": "Separate the original Kuznets relationship from the environmental adaptation of the curve.",
+   "sec": "Environmental Kuznets Curve - axes and shape  [APPSC]"
+  },
+  {
+   "s": "A green economy primarily seeks to:",
+   "o": [
+    "Promote only conventional, resource-intensive industries",
+    "Reduce environmental risks and ecological scarcities while decoupling development from resource use and pollution",
+    "Increase resource use without considering ecological scarcity",
+    "Replace all economic activity with conservation activity"
+   ],
+   "a": 1,
+   "x": "A green economy reduces environmental risks and ecological scarcities and seeks development decoupled from resource use and pollution.",
+   "ty": "fact",
+   "tq": "Select the option containing both the risk-reduction and decoupling dimensions.",
+   "sec": "Green economy and green GDP  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the Expert Group on Green National Accounts:\n1. It was chaired by Sir Partha Dasgupta.\n2. It was set up in 2011.\n3. It submitted its report in 2013.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Expert Group was chaired by Sir Partha Dasgupta, set up in 2011 and reported in 2013.",
+   "ty": "statements",
+   "tq": "Link the chairperson with the two chronological milestones.",
+   "sec": "Green economy and green GDP  [APPSC]"
+  },
+  {
+   "s": "Which Indian State was the first to adopt green GDP in the form of Gross Environment Product (GEP)?",
+   "o": [
+    "Kerala",
+    "Andhra Pradesh",
+    "Gujarat",
+    "Uttarakhand"
+   ],
+   "a": 3,
+   "x": "Uttarakhand was the first Indian State to adopt green GDP in the form of Gross Environment Product.",
+   "ty": "fact",
+   "tq": "Test the state-level first-mover fact against plausible state alternatives.",
+   "sec": "Green economy and green GDP  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs relating to older welfare-adjusted measures is correctly matched?",
+   "o": [
+    "NEW — Paul Samuelson; MEW — Nordhaus and Tobin",
+    "NEW — Nordhaus and Tobin; MEW — Paul Samuelson",
+    "NEW — Simon Kuznets; MEW — Sir Partha Dasgupta",
+    "NEW — World Bank; MEW — United Nations Statistical Commission"
+   ],
+   "a": 0,
+   "x": "NEW is associated with Paul Samuelson, while MEW is associated with Nordhaus and Tobin.",
+   "ty": "match",
+   "tq": "Start with the author–measure association and reject swapped names.",
+   "sec": "Green economy and green GDP  [APPSC]"
+  },
+  {
+   "s": "The trade-off view regarding growth and environmental protection is represented by the argument that:",
+   "o": [
+    "Environmental protection is always costless in the short term",
+    "Degradation necessarily increases labour efficiency",
+    "Economic growth and environmental protection can never conflict under any circumstances",
+    "Environmental rules may slow growth and countries should grow first and clean up later"
+   ],
+   "a": 3,
+   "x": "The trade-off view argues that environmental rules can slow growth and reflects the ‘grow first, clean up later’ approach associated with Environmental Kuznets Curve logic.",
+   "ty": "fact",
+   "tq": "Recognise the characteristic slogan of the trade-off position.",
+   "sec": "Growth-environment trade-off vs protection as a necessity  [APPSC]"
+  },
+  {
+   "s": "Why is environmental protection regarded as an investment in long-term prosperity?",
+   "o": [
+    "Environmental degradation eliminates all public expenditure",
+    "Environmental degradation raises health costs and lowers labour efficiency",
+    "Environmental protection prevents all economic growth",
+    "Pollution always increases worker productivity"
+   ],
+   "a": 1,
+   "x": "Environmental degradation raises health costs and lowers labour efficiency; therefore, protection can support long-term prosperity rather than merely impose a short-term cost.",
+   "ty": "application",
+   "tq": "Trace the cause-and-effect link from degradation to health and labour outcomes.",
+   "sec": "Growth-environment trade-off vs protection as a necessity  [APPSC]"
+  },
+  {
+   "s": "Which groups are stated to bear most of the costs of environmental degradation?",
+   "o": [
+    "Only large corporations and high-income households",
+    "Only residents of protected forests",
+    "Only organised industrial workers",
+    "People living in slums and flood-prone areas"
+   ],
+   "a": 3,
+   "x": "The poor, particularly people living in slums and flood-prone areas, bear most of the costs of environmental degradation.",
+   "ty": "fact",
+   "tq": "Identify the distributional dimension rather than the aggregate economic argument.",
+   "sec": "Growth-environment trade-off vs protection as a necessity  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding Environmental Impact Assessment in India:\n1. It was first used in 1978 for river valley projects.\n2. The EIA Notification was issued in 1994 and revised in 2006.\n3. Environmental clearance is compulsory for 39 project categories.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "EIA was first used in 1978 for river valley projects; the notification dates are 1994 and 2006, and clearance is compulsory for 39 project categories.",
+   "ty": "statements",
+   "tq": "Check the dates and the numerical category count together.",
+   "sec": "Growth-environment trade-off vs protection as a necessity  [APPSC]"
+  },
+  {
+   "s": "The Green Credit Rules, 2023 were framed under which legislation?",
+   "o": [
+    "Forest Rights Act, 2006",
+    "Water (Prevention and Control of Pollution) Act, 1974",
+    "Biological Diversity Act, 2002",
+    "Environment (Protection) Act, 1986"
+   ],
+   "a": 3,
+   "x": "The Green Credit Rules, 2023 were framed under the Environment (Protection) Act, 1986.",
+   "ty": "fact",
+   "tq": "Use the ‘under the Act’ relationship and avoid confusing neighbouring environmental statutes.",
+   "sec": "Growth-environment trade-off vs protection as a necessity  [APPSC]"
+  },
+  {
+   "s": "Sovereign Green Bonds are principally associated with:",
+   "o": [
+    "Financing only military procurement",
+    "Replacing all environmental clearances",
+    "Financing environmentally beneficial or green activities through sovereign borrowing",
+    "Measuring income inequality through the Lorenz curve"
+   ],
+   "a": 2,
+   "x": "Sovereign Green Bonds are instruments for sovereign borrowing associated with financing green or environmentally beneficial activities.",
+   "ty": "fact",
+   "tq": "Identify the purpose of the instrument rather than confusing it with an assessment or clearance mechanism.",
+   "sec": "Growth-environment trade-off vs protection as a necessity  [APPSC]"
+  },
+  {
+   "s": "Which organisation compiles India’s environment accounts in accordance with the UN System of Environmental-Economic Accounting (SEEA)?",
+   "o": [
+    "Reserve Bank of India",
+    "Ministry of Statistics and Programme Implementation",
+    "Ministry of External Affairs",
+    "NITI Aayog exclusively"
+   ],
+   "a": 1,
+   "x": "The Ministry of Statistics and Programme Implementation compiles environment accounts based on SEEA and has released ecosystem and natural-asset accounts since 2018.",
+   "ty": "fact",
+   "tq": "Ask ‘which body performs this function?’ to avoid swapping ministries and institutions.",
+   "sec": "Green accounting frameworks → developer; MoSPI EnviStats  [other exams]"
+  },
+  {
+   "s": "The SEEA Central Framework was adopted by the UN Statistical Commission in:",
+   "o": [
+    "2006",
+    "2010",
+    "2012",
+    "2018"
+   ],
+   "a": 2,
+   "x": "The SEEA Central Framework was adopted by the UN Statistical Commission in 2012.",
+   "ty": "numerical",
+   "tq": "Separate the international adoption year from India’s later release of accounts.",
+   "sec": "Green accounting frameworks → developer; MoSPI EnviStats  [other exams]"
+  },
+  {
+   "s": "EnviStats India is an annual publication of MoSPI based on which framework?",
+   "o": [
+    "World Bank’s Human Capital Index framework",
+    "UNSD’s FDES 2013",
+    "UNFCCC’s Kyoto Protocol framework",
+    "IMF’s Balance of Payments Manual alone"
+   ],
+   "a": 1,
+   "x": "EnviStats India is an annual MoSPI publication based on the United Nations Statistics Division’s FDES 2013.",
+   "ty": "fact",
+   "tq": "Match the publication with its issuing body and statistical framework.",
+   "sec": "Green accounting frameworks → developer; MoSPI EnviStats  [other exams]"
+  },
+  {
+   "s": "Which of the following is NOT one of the six components of EnviStats India?",
+   "o": [
+    "Extreme events",
+    "Resources and use",
+    "Residuals",
+    "Military expenditure and defence procurement"
+   ],
+   "a": 3,
+   "x": "The six components are conditions and quality; resources and use; residuals; extreme events; human settlements and health; and protection and management. Military expenditure and defence procurement is not one of them.",
+   "ty": "negative",
+   "tq": "Find the unrelated administrative category among the environmental-statistics components.",
+   "sec": "Green accounting frameworks → developer; MoSPI EnviStats  [other exams]"
+  },
+  {
+   "s": "Which one of the following lists all six components of EnviStats India correctly?",
+   "o": [
+    "Climate; agriculture; industry; tourism; finance; communications",
+    "Income and wealth; taxation; trade; inflation; banking; public debt",
+    "Conditions and quality; resources and use; residuals; extreme events; human settlements and health; protection and management",
+    "Forests; minerals; exports; defence; education; transport"
+   ],
+   "a": 2,
+   "x": "EnviStats India covers conditions and quality, resources and use, residuals, extreme events, human settlements and health, and protection and management.",
+   "ty": "fact",
+   "tq": "Verify the complete named list and reject options containing non-environmental statistical categories.",
+   "sec": "Green accounting frameworks → developer; MoSPI EnviStats  [other exams]"
+  }
+ ]
+}

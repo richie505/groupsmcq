@@ -1,0 +1,439 @@
+{
+ "book": 4,
+ "row": 92,
+ "chunk": 0,
+ "section": "Transport in India - roads (NH network, Bharatmala), railways (zones), pipelines",
+ "subsections": [
+  "National highways - route, length, numbering",
+  "Railway zones - headquarters, newest zones"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 5
+ },
+ "accepted": [
+  {
+   "s": "In the present system of National Highway numbering, which one of the following statements is correct?",
+   "o": [
+    "Odd-numbered highways generally run east-west and increase from north to south.",
+    "Even-numbered highways generally run north-south and increase from west to east.",
+    "National Highways are numbered exclusively according to their length.",
+    "Odd-numbered highways generally run north-south and increase from west to east."
+   ],
+   "a": 3,
+   "x": "Odd-numbered National Highways generally run north-south and their numbers increase from west to east. Even-numbered highways generally run east-west and increase from north to south.",
+   "ty": "fact",
+   "tq": "Use the directional numbering rule and reject the reversed comparison.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "Which one of the following National Highways connects Porbandar with Silchar?",
+   "o": [
+    "NH-48",
+    "NH-44",
+    "NH-16",
+    "NH-27"
+   ],
+   "a": 3,
+   "x": "NH-27 connects Porbandar in Gujarat with Silchar in Assam and forms the East-West Corridor.",
+   "ty": "fact",
+   "tq": "Test the route-endpoint association directly.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "Which of the following National Highways forms the Delhi–Mumbai–Chennai arm of the Golden Quadrilateral?",
+   "o": [
+    "NH-27",
+    "NH-48",
+    "NH-19",
+    "NH-44"
+   ],
+   "a": 1,
+   "x": "NH-48 forms the Delhi–Mumbai–Chennai arm of the Golden Quadrilateral. NH-19 represents the Delhi–Kolkata arm.",
+   "ty": "fact",
+   "tq": "Discriminate between nearby highway numbers by matching the complete route.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "The National Highway connecting Delhi and Kolkata, corresponding to the old NH-2, is numbered:",
+   "o": [
+    "NH-19",
+    "NH-27",
+    "NH-16",
+    "NH-48"
+   ],
+   "a": 0,
+   "x": "NH-19 connects Delhi and Kolkata and corresponds broadly to the old NH-2.",
+   "ty": "numerical",
+   "tq": "Match the old highway reference with its revised number.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "Which National Highway runs from Kolkata to Chennai along the eastern coast and crosses coastal Andhra Pradesh?",
+   "o": [
+    "NH-16",
+    "NH-966B",
+    "NH-19",
+    "NH-44"
+   ],
+   "a": 0,
+   "x": "NH-16 runs from Kolkata to Chennai along the eastern coast and passes through coastal Andhra Pradesh. It corresponds broadly to the old NH-5.",
+   "ty": "fact",
+   "tq": "Use the coastal route clue to identify the highway.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding National Highways in India:\n1. National Highways constitute approximately 2 per cent of the total road length.\n2. They carry approximately 40 per cent of the road traffic.\n3. Their construction pace is approximately 34 km per day.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: National Highways account for about 2 per cent of road length, carry about 40 per cent of traffic and are being constructed at approximately 34 km per day.",
+   "ty": "statements",
+   "tq": "Verify each numerical statement independently before selecting the combined code.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "The approximate total length of India's road network is:",
+   "o": [
+    "98.00 lakh km",
+    "63.45 lakh km",
+    "70.00 lakh km",
+    "14.60 lakh km"
+   ],
+   "a": 1,
+   "x": "India's road network is approximately 63.45 lakh km, making it the second-largest road network in the world.",
+   "ty": "numerical",
+   "tq": "Distinguish the total road network from the much smaller National Highway network.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is the world's highest motorable road as identified in the current highway-related information?",
+   "o": [
+    "Nathu La, Sikkim",
+    "Khardung La, Ladakh",
+    "Mig La, Ladakh",
+    "Zoji La, Jammu and Kashmir"
+   ],
+   "a": 2,
+   "x": "Mig La in Ladakh, at approximately 19,300 feet, is identified as the world's highest motorable road. It was built by the Border Roads Organisation.",
+   "ty": "fact",
+   "tq": "Use the exact place-name rather than an older or commonly associated alternative.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "The Border Roads Organisation, associated with the construction of Mig La road, was established in:",
+   "o": [
+    "1950",
+    "1956",
+    "1960",
+    "1966"
+   ],
+   "a": 2,
+   "x": "The Border Roads Organisation was established in 1960 and constructed the high-altitude Mig La motorable road.",
+   "ty": "numerical",
+   "tq": "Test the establishment year separately from the location and altitude facts.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "NH-966B — Kundannoor–Willingdon Island",
+    "NH-27 — Delhi–Kolkata",
+    "NH-19 — Porbandar–Silchar",
+    "NH-16 — Srinagar–Kanyakumari"
+   ],
+   "a": 0,
+   "x": "NH-966B connects Kundannoor with Willingdon Island in Kochi. The other routes are incorrectly paired with the stated highway numbers.",
+   "ty": "match",
+   "tq": "Start with the sure route pair and eliminate the swapped associations.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "Which National Highway is the shortest among the routes listed below?",
+   "o": [
+    "NH-19",
+    "NH-966B",
+    "NH-27",
+    "NH-16"
+   ],
+   "a": 1,
+   "x": "NH-966B, connecting Kundannoor and Willingdon Island in Kochi, is approximately 8 km long and is the shortest National Highway in the list.",
+   "ty": "numerical",
+   "tq": "Compare route lengths while watching for the longest-route distractors.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "The longest arm of the Golden Quadrilateral is the:",
+   "o": [
+    "Delhi–Mumbai arm",
+    "Kolkata–Delhi arm",
+    "Chennai–Kolkata arm",
+    "Mumbai–Chennai arm"
+   ],
+   "a": 2,
+   "x": "The Kolkata–Chennai arm is the longest arm of the Golden Quadrilateral, with a length of approximately 1,649 km.",
+   "ty": "comparison",
+   "tq": "Compare the four arms rather than identifying the Golden Quadrilateral itself.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "The longest length of the Golden Quadrilateral within any single Indian State is found in:",
+   "o": [
+    "West Bengal",
+    "Maharashtra",
+    "Andhra Pradesh",
+    "Tamil Nadu"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh has the longest Golden Quadrilateral length within a single State, approximately 1,014 km.",
+   "ty": "fact",
+   "tq": "Apply the superlative carefully to the State-wise comparison.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with its National Highway corridor?",
+   "o": [
+    "NH-44 — East-West Corridor",
+    "NH-19 — North-South Corridor",
+    "NH-27 — East-West Corridor",
+    "NH-966B — Golden Quadrilateral"
+   ],
+   "a": 2,
+   "x": "NH-27 forms the East-West Corridor between Porbandar and Silchar. NH-44 is associated with the North-South Corridor.",
+   "ty": "negative",
+   "tq": "Find the correctly matched corridor after checking the route orientation.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "Bharatmala Pariyojana, as originally envisioned, included the development of approximately:",
+   "o": [
+    "22,590 km of corridors",
+    "12,500 km of corridors",
+    "34,800 km of corridors",
+    "63,450 km of corridors"
+   ],
+   "a": 2,
+   "x": "Bharatmala Pariyojana was envisioned in 2017 for approximately 34,800 km of corridors connecting more than 580 districts. About 22,590 km had been built as stated in the current figures.",
+   "ty": "numerical",
+   "tq": "Separate the planned figure from the completed figure.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "Bharatmala Pariyojana was envisioned in:",
+   "o": [
+    "2014",
+    "2015",
+    "2017",
+    "2020"
+   ],
+   "a": 2,
+   "x": "Bharatmala Pariyojana was envisioned in 2017 as a programme for improving road connectivity and developing economic corridors.",
+   "ty": "numerical",
+   "tq": "Use the programme's launch or envisioning year, not a related infrastructure year.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "Under the Vision 2047 Master Plan, the stated objective is to bring what proportion of the population within 100 km of a high-speed corridor?",
+   "o": [
+    "75 per cent",
+    "85 per cent",
+    "90 per cent",
+    "98 per cent"
+   ],
+   "a": 3,
+   "x": "The Vision 2047 Master Plan aims to place 98 per cent of the population within 100 km of a high-speed corridor.",
+   "ty": "numerical",
+   "tq": "Identify the exact target percentage rather than choosing a rounded estimate.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "Which State has the longest National Highway length according to the State-wise figures?",
+   "o": [
+    "Andhra Pradesh",
+    "Uttar Pradesh",
+    "Kerala",
+    "Maharashtra"
+   ],
+   "a": 3,
+   "x": "Maharashtra has the longest National Highway length, approximately 17,756.6 km, in the stated State-wise comparison.",
+   "ty": "numerical",
+   "tq": "Distinguish National Highway length from total road density.",
+   "sec": "National highways - route, length, numbering  [APPSC]"
+  },
+  {
+   "s": "The South Coast Railway became the 18th zone of Indian Railways with its headquarters at:",
+   "o": [
+    "Visakhapatnam",
+    "Hubballi",
+    "Vijayawada",
+    "Secunderabad"
+   ],
+   "a": 0,
+   "x": "South Coast Railway is headquartered at Visakhapatnam and became the 18th railway zone on 1 June 2026.",
+   "ty": "fact",
+   "tq": "Match the newest zone with its headquarters, not with one of its divisions.",
+   "sec": "Railway zones - headquarters, newest zones  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT a division of the South Coast Railway?",
+   "o": [
+    "Visakhapatnam",
+    "Vijayawada",
+    "Secunderabad",
+    "Guntakal"
+   ],
+   "a": 2,
+   "x": "The divisions of South Coast Railway are Visakhapatnam, Vijayawada, Guntakal and Guntur. Secunderabad belongs to South Central Railway.",
+   "ty": "negative",
+   "tq": "Find the outsider in a list of divisions by checking the neighbouring zone.",
+   "sec": "Railway zones - headquarters, newest zones  [APPSC]"
+  },
+  {
+   "s": "South Coast Railway became operational on:",
+   "o": [
+    "29 December 2010",
+    "26 January 1998",
+    "27 May 2026",
+    "1 June 2026"
+   ],
+   "a": 3,
+   "x": "South Coast Railway became operational on 1 June 2026. The new 18-star logo was unveiled earlier, on 27 May 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish the operational date from the logo-unveiling date.",
+   "sec": "Railway zones - headquarters, newest zones  [APPSC]"
+  },
+  {
+   "s": "The new logo associated with the 18-zone structure of Indian Railways was unveiled on:",
+   "o": [
+    "29 December 2010",
+    "27 May 2026",
+    "1 June 2026",
+    "16 April 1853"
+   ],
+   "a": 1,
+   "x": "The new 18-star logo was unveiled on 27 May 2026, before South Coast Railway became operational on 1 June 2026.",
+   "ty": "numerical",
+   "tq": "Use the sequence of closely related dates to avoid date swapping.",
+   "sec": "Railway zones - headquarters, newest zones  [APPSC]"
+  },
+  {
+   "s": "Why is the number of railway zones sometimes incorrectly stated as 19?",
+   "o": [
+    "North Eastern Railway and Northeast Frontier Railway are treated as one zone.",
+    "The Metro Railway is counted twice.",
+    "Konkan Railway is counted as a railway zone although it is a PSU.",
+    "South Coast Railway is counted as two separate zones."
+   ],
+   "a": 2,
+   "x": "Konkan Railway is a public sector undertaking, Konkan Railway Corporation Limited, and not a railway zone. Counting it as a zone produces the incorrect figure of 19.",
+   "ty": "application",
+   "tq": "Identify the institutional-status distinction behind the numerical trap.",
+   "sec": "Railway zones - headquarters, newest zones  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "North Central Railway — Prayagraj",
+    "East Central Railway — Bhubaneswar",
+    "West Central Railway — Jaipur",
+    "South Western Railway — Jabalpur"
+   ],
+   "a": 0,
+   "x": "North Central Railway has its headquarters at Prayagraj. East Central is headquartered at Hajipur, West Central at Jabalpur and South Western at Hubballi.",
+   "ty": "match",
+   "tq": "Start from the sure headquarters pair and eliminate the shifted locations.",
+   "sec": "Railway zones - headquarters, newest zones  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the number of railway zones is correct?\n1. Metro Railway was the 17th railway zone.\n2. South Coast Railway is the 18th railway zone.\n3. Konkan Railway is counted as the 19th railway zone in the official current structure.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Metro Railway became the 17th zone and South Coast Railway the 18th zone. Statement 3 is false because Konkan Railway is a PSU, not a railway zone.",
+   "ty": "statements",
+   "tq": "Reject the statement that confuses a railway PSU with a railway zone.",
+   "sec": "Railway zones - headquarters, newest zones  [APPSC]"
+  },
+  {
+   "s": "Arrange the following railway zones in chronological order of their formation:\nA. South Central Railway\nB. East Central Railway\nC. Metro Railway\nD. South Coast Railway",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "B, C, A, D"
+   ],
+   "a": 0,
+   "x": "South Central Railway was formed in 1966, East Central Railway in 2002, Metro Railway in 2010 and South Coast Railway in 2026.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest entries first, then place the intermediate years.",
+   "sec": "Railway zones - headquarters, newest zones  [APPSC]"
+  },
+  {
+   "s": "Which one of the following railway production units is located at Perambur, Chennai?",
+   "o": [
+    "Chittaranjan Locomotive Works",
+    "Rail Coach Factory",
+    "Integral Coach Factory",
+    "Wheel and Axle Plant"
+   ],
+   "a": 2,
+   "x": "Integral Coach Factory is located at Perambur in Chennai. It was established in 1955 with Swiss collaboration and built Vande Bharat trains.",
+   "ty": "fact",
+   "tq": "Match the production unit with its location.",
+   "sec": "Railway zones - headquarters, newest zones  [APPSC]"
+  },
+  {
+   "s": "Which railway production unit was earlier known as Diesel Locomotive Works?",
+   "o": [
+    "Chittaranjan Locomotive Works",
+    "Integral Coach Factory",
+    "Modern Coach Factory",
+    "Banaras Locomotive Works"
+   ],
+   "a": 3,
+   "x": "Banaras Locomotive Works at Varanasi was earlier known as Diesel Locomotive Works.",
+   "ty": "confusable",
+   "tq": "Discriminate between similar locomotive and coach production units.",
+   "sec": "Railway zones - headquarters, newest zones  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Wheel and Axle Plant — Bengaluru",
+    "Rail Coach Factory — Kapurthala",
+    "Modern Coach Factory — Rae Bareli",
+    "Chittaranjan Locomotive Works — Kapurthala"
+   ],
+   "a": 3,
+   "x": "Chittaranjan Locomotive Works is located at Chittaranjan in West Bengal, not Kapurthala. Rail Coach Factory is located at Kapurthala.",
+   "ty": "negative",
+   "tq": "Find the wrong location by separating locomotive works from coach factories.",
+   "sec": "Railway zones - headquarters, newest zones  [APPSC]"
+  },
+  {
+   "s": "The Rail Coach Factory at Kapurthala was established in:",
+   "o": [
+    "1955",
+    "1966",
+    "1984",
+    "1988"
+   ],
+   "a": 3,
+   "x": "The Rail Coach Factory at Kapurthala was established in 1988. The Integral Coach Factory dates from 1955 and the Wheel and Axle Plant from 1984.",
+   "ty": "numerical",
+   "tq": "Compare establishment years of the listed railway production units.",
+   "sec": "Railway zones - headquarters, newest zones  [APPSC]"
+  }
+ ]
+}

@@ -1,0 +1,470 @@
+{
+ "book": 4,
+ "row": 71,
+ "chunk": 1,
+ "section": "Metropolitan regions and megacities of India; problems of large cities",
+ "subsections": [
+  "Slum population - Census 2011 states/cities with highest slum share",
+  "Urban flooding and heat island effect",
+  "Governance - 74th Amendment, metropolitan planning committees",
+  "City rankings and indices (Ease of Living Index, Swachh Survekshan)",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The slum population constituted approximately what percentage of India's urban population according to Census 2011?",
+   "o": [
+    "12.4%",
+    "15.8%",
+    "17.4%",
+    "21.6%"
+   ],
+   "a": 2,
+   "x": "Slum dwellers accounted for about 17.4% of India's urban population in Census 2011.",
+   "ty": "numerical",
+   "tq": "Identify the precise percentage rather than the nearest-looking estimate.",
+   "sec": "Slum population - Census 2011 states/cities with highest slum share"
+  },
+  {
+   "s": "Which State had the largest slum population according to Census 2011?",
+   "o": [
+    "Maharashtra",
+    "West Bengal",
+    "Uttar Pradesh",
+    "Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "Maharashtra had the largest slum population according to Census 2011.",
+   "ty": "fact",
+   "tq": "Distinguish the State with the largest absolute population from the State with the highest share.",
+   "sec": "Slum population - Census 2011 states/cities with highest slum share"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding the slum population in Census 2011?",
+   "o": [
+    "Maharashtra had the highest share of its urban population living in slums.",
+    "Undivided Andhra Pradesh had the highest share of its urban population living in slums.",
+    "Greater Mumbai had the highest share of slum households among million-plus cities.",
+    "The slum population constituted less than 10% of India's urban population."
+   ],
+   "a": 1,
+   "x": "Undivided Andhra Pradesh had the highest share of its urban population living in slums, at about 36%.",
+   "ty": "statements",
+   "tq": "Separate absolute size from percentage share.",
+   "sec": "Slum population - Census 2011 states/cities with highest slum share"
+  },
+  {
+   "s": "Among million-plus cities, which city had the largest slum population?",
+   "o": [
+    "Bengaluru",
+    "Greater Mumbai",
+    "Pune",
+    "Greater Visakhapatnam"
+   ],
+   "a": 1,
+   "x": "Greater Mumbai had the largest slum population among million-plus cities.",
+   "ty": "fact",
+   "tq": "Apply the qualifier 'among million-plus cities' before selecting the city.",
+   "sec": "Slum population - Census 2011 states/cities with highest slum share"
+  },
+  {
+   "s": "Consider the following statements regarding slum households among million-plus cities:\n1. Greater Visakhapatnam had the highest share of slum households.\n2. The share of slum households in Greater Visakhapatnam was about 44%.\n3. Mumbai had a higher share of slum households than Greater Visakhapatnam.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Greater Visakhapatnam had the highest share, at about 44%. Mumbai's share was lower, about 41%, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Compare the ranking and percentages before evaluating the coded options.",
+   "sec": "Slum population - Census 2011 states/cities with highest slum share"
+  },
+  {
+   "s": "The World Bank estimate of 177 million slum dwellers in India differs from the Census count primarily because it uses:",
+   "o": [
+    "A broader definition of slum dwellers",
+    "A narrower definition of urban population",
+    "Only municipal survey data",
+    "Only the population of million-plus cities"
+   ],
+   "a": 0,
+   "x": "The World Bank estimate uses a broader definition than the Census count and places India's slum-dweller population at 177 million, the highest for any country.",
+   "ty": "fact",
+   "tq": "Test the distinction between two apparently conflicting estimates by identifying the definitional difference.",
+   "sec": "Slum population - Census 2011 states/cities with highest slum share"
+  },
+  {
+   "s": "Which of the following is NOT a major cause of urban flooding identified in the context of expanding cities?",
+   "o": [
+    "Blocked drainage systems",
+    "Construction over lakes, wetlands and floodplains",
+    "Replacement of permeable soil by concrete",
+    "Expansion of natural vegetation cover"
+   ],
+   "a": 3,
+   "x": "Urban flooding is associated with construction over water bodies and floodplains, concretisation of soil and blocked drains. Expansion of natural vegetation cover is not listed as a cause.",
+   "ty": "negative",
+   "tq": "Find the one option that does not fit the cause-effect group.",
+   "sec": "Urban flooding and heat island effect"
+  },
+  {
+   "s": "What is the principal hydrological effect of replacing permeable soil with concrete in urban areas?",
+   "o": [
+    "Greater infiltration of rainwater",
+    "Reduced surface runoff",
+    "Increased rainwater runoff",
+    "Permanent reduction in rainfall"
+   ],
+   "a": 2,
+   "x": "Concrete reduces soil permeability, causing a larger proportion of rainwater to flow as surface runoff and increasing flood risk.",
+   "ty": "application",
+   "tq": "Apply the underlying process rather than merely recalling the listed cause.",
+   "sec": "Urban flooding and heat island effect"
+  },
+  {
+   "s": "Consider the following statements about Bengaluru:\n1. Built-up land increased from 8% in 1973 to about 74% in 2013.\n2. Vegetation declined from 68% to below 15% during the same period.\n3. Built-up land and vegetation both increased between 1973 and 2013.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Built-up land rose from 8% to about 74%, while vegetation fell from 68% to under 15%. Therefore, statement 3 is false.",
+   "ty": "statements",
+   "tq": "Check opposite trends and numerical changes together.",
+   "sec": "Urban flooding and heat island effect"
+  },
+  {
+   "s": "Which combination best explains the urban heat island effect?",
+   "o": [
+    "Low building density, irrigated fields and cool winds",
+    "Open wetlands, permeable soil and increased tree cover",
+    "Dense construction, asphalt surfaces and loss of tree cover",
+    "Reduced construction, bare rock and expanded forests"
+   ],
+   "a": 2,
+   "x": "Dense construction, asphalt and the loss of tree cover trap heat and intensify the urban heat island effect.",
+   "ty": "fact",
+   "tq": "Select the complete causal combination rather than an isolated factor.",
+   "sec": "Urban flooding and heat island effect"
+  },
+  {
+   "s": "A study of 104 cities found that which city could warm at double the rate projected by climate models?",
+   "o": [
+    "Mumbai",
+    "Patiala",
+    "Bengaluru",
+    "Visakhapatnam"
+   ],
+   "a": 1,
+   "x": "A UEA study covering 104 cities found that Patiala could warm at double the rate projected by climate models.",
+   "ty": "fact",
+   "tq": "Match the specific finding with the correct city.",
+   "sec": "Urban flooding and heat island effect"
+  },
+  {
+   "s": "Which Andhra Pradesh city has been cited as an example of flash flooding after only a few hours of rain?",
+   "o": [
+    "Visakhapatnam",
+    "Tirupati",
+    "Kurnool",
+    "Vijayawada"
+   ],
+   "a": 0,
+   "x": "Visakhapatnam has experienced flash floods after only a few hours of rain, illustrating the vulnerability of rapidly urbanising cities.",
+   "ty": "fact",
+   "tq": "Use the location-specific example to distinguish similar urban problems.",
+   "sec": "Urban flooding and heat island effect"
+  },
+  {
+   "s": "The 74th Constitutional Amendment Act, 1992, introduced which of the following into the Constitution?\n1. Part IXA\n2. The Twelfth Schedule\n3. Articles 243P to 243ZG\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The 74th Amendment added Part IXA, Articles 243P–243ZG and the Twelfth Schedule containing 18 subjects.",
+   "ty": "statements",
+   "tq": "Verify whether all constitutional components belong to the same amendment.",
+   "sec": "Governance - 74th Amendment, metropolitan planning committees"
+  },
+  {
+   "s": "How many subjects are included in the Twelfth Schedule of the Constitution?",
+   "o": [
+    "12",
+    "18",
+    "22",
+    "29"
+   ],
+   "a": 1,
+   "x": "The Twelfth Schedule, added through the 74th Amendment, contains 18 subjects relating to municipalities.",
+   "ty": "numerical",
+   "tq": "Distinguish the Twelfth Schedule's figure from other constitutional schedules and lists.",
+   "sec": "Governance - 74th Amendment, metropolitan planning committees"
+  },
+  {
+   "s": "Under Article 243ZE, a Metropolitan Planning Committee is to be constituted for:",
+   "o": [
+    "Every metropolitan area",
+    "Every district with a population above five lakh",
+    "Every State capital only",
+    "Every municipality with a population above one lakh"
+   ],
+   "a": 0,
+   "x": "Article 243ZE provides for a Metropolitan Planning Committee for every metropolitan area, generally defined in this context as an area with a population of 10 lakh or more.",
+   "ty": "fact",
+   "tq": "Match the constitutional Article with the institution it provides for.",
+   "sec": "Governance - 74th Amendment, metropolitan planning committees"
+  },
+  {
+   "s": "What proportion of the members of a Metropolitan Planning Committee are elected by and from among the elected members of municipalities and chairpersons of panchayats in the metropolitan area?",
+   "o": [
+    "Three-fourths",
+    "One-half",
+    "Two-thirds",
+    "One-third"
+   ],
+   "a": 2,
+   "x": "Two-thirds of the members of a Metropolitan Planning Committee are elected by the elected municipal members and panchayat chairpersons of the area.",
+   "ty": "numerical",
+   "tq": "Recall the constitutional proportion rather than confusing it with one-half or one-third.",
+   "sec": "Governance - 74th Amendment, metropolitan planning committees"
+  },
+  {
+   "s": "The criticism that Indian cities are “administered, not governed” is associated with which combination of problems?\n1. Too many agencies, including ULBs and parastatals\n2. Low own-source revenue of urban local bodies\n3. Complete absence of municipal institutions\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "The criticism points to the proliferation of agencies and low own-source revenue. It does not imply the complete absence of municipal institutions.",
+   "ty": "statements",
+   "tq": "Reject an extreme statement while retaining the two specific governance criticisms.",
+   "sec": "Governance - 74th Amendment, metropolitan planning committees"
+  },
+  {
+   "s": "Which of the following is associated with the proposed urban finance tools mentioned for improving city governance?",
+   "o": [
+    "Only district planning grants",
+    "Only agricultural cess and export duty",
+    "Abolition of municipal borrowing",
+    "Municipal bonds and the Urban Challenge Fund"
+   ],
+   "a": 3,
+   "x": "Municipal bonds and the Urban Challenge Fund are identified as finance tools for strengthening urban finances.",
+   "ty": "fact",
+   "tq": "Identify the option containing the exact pair of related instruments.",
+   "sec": "Governance - 74th Amendment, metropolitan planning committees"
+  },
+  {
+   "s": "A ₹100 crore incentive is associated with municipal entities issuing a single issue above:",
+   "o": [
+    "₹100 crore",
+    "₹500 crore",
+    "₹1,000 crore",
+    "₹5,000 crore"
+   ],
+   "a": 2,
+   "x": "The incentive of ₹100 crore is linked to a single municipal bond issue exceeding ₹1,000 crore.",
+   "ty": "numerical",
+   "tq": "Keep the incentive amount and qualifying threshold separate.",
+   "sec": "Governance - 74th Amendment, metropolitan planning committees"
+  },
+  {
+   "s": "Swachh Survekshan is conducted by the Quality Council of India under the Ministry of:",
+   "o": [
+    "Housing and Urban Affairs",
+    "Health and Family Welfare",
+    "Environment, Forest and Climate Change",
+    "Rural Development"
+   ],
+   "a": 0,
+   "x": "Swachh Survekshan is run by the Ministry of Housing and Urban Affairs and conducted by the Quality Council of India.",
+   "ty": "fact",
+   "tq": "Use the institutional-roles distinction between the ministry and implementing organisation.",
+   "sec": "City rankings and indices (Ease of Living Index, Swachh Survekshan)"
+  },
+  {
+   "s": "Swachh Survekshan began in 2016 with how many cities?",
+   "o": [
+    "50",
+    "73",
+    "100",
+    "150"
+   ],
+   "a": 1,
+   "x": "The survey began in 2016 with 73 cities.",
+   "ty": "numerical",
+   "tq": "Recall the starting coverage rather than the later expanded survey size.",
+   "sec": "City rankings and indices (Ease of Living Index, Swachh Survekshan)"
+  },
+  {
+   "s": "How many cities were surveyed in Swachh Survekshan 2024–25?",
+   "o": [
+    "3,742",
+    "4,589",
+    "5,120",
+    "6,000"
+   ],
+   "a": 1,
+   "x": "Swachh Survekshan 2024–25 covered 4,589 cities.",
+   "ty": "numerical",
+   "tq": "Distinguish the latest survey coverage from the 2016 starting figure.",
+   "sec": "City rankings and indices (Ease of Living Index, Swachh Survekshan)"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Category)\nA. Super Swachh League, 10 lakh+\nB. Super Swachh League, 3–10 lakh\nC. Swachh Shahar, 10 lakh+\nD. Swachh Shahar, 3–10 lakh\n\nList-II (Cities listed among the winners)\n1. Noida, Chandigarh and Mysuru\n2. Ahmedabad, Bhopal and Lucknow\n3. Indore, Surat and Navi Mumbai\n4. Mira-Bhayandar, Bilaspur and Jamshedpur\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-3, B-1, C-2, D-4",
+    "A-1, B-3, C-4, D-2",
+    "A-3, B-2, C-1, D-4",
+    "A-4, B-1, C-2, D-3"
+   ],
+   "a": 0,
+   "x": "The four categories correspond respectively to Indore–Surat–Navi Mumbai; Noida–Chandigarh–Mysuru; Ahmedabad–Bhopal–Lucknow; and Mira-Bhayandar–Bilaspur–Jamshedpur.",
+   "ty": "match",
+   "tq": "Start from the sure category-city pair and eliminate incompatible codes.",
+   "sec": "City rankings and indices (Ease of Living Index, Swachh Survekshan)"
+  },
+  {
+   "s": "Which city secured the first position for the eighth time in the Super Swachh League category for cities with a population of 10 lakh and above?",
+   "o": [
+    "Indore",
+    "Ahmedabad",
+    "Surat",
+    "Navi Mumbai"
+   ],
+   "a": 0,
+   "x": "Indore stood first for the eighth time in the Super Swachh League category for cities with 10 lakh or more population.",
+   "ty": "fact",
+   "tq": "Identify the repeated top-ranked city within the specified population category.",
+   "sec": "City rankings and indices (Ease of Living Index, Swachh Survekshan)"
+  },
+  {
+   "s": "The 10th edition of Swachh Survekshan, 2025–26, was launched with which theme?",
+   "o": [
+    "Har Ghar Swachh, Har Nagar Swasth",
+    "Swachhata Ki Nayi Pehel - Badhayein Haath, Karein Safai Saath",
+    "Jan Bhagidari Se Swachhata",
+    "Clean Cities, Green India"
+   ],
+   "a": 1,
+   "x": "The theme of Swachh Survekshan 2025–26 was “Swachhata Ki Nayi Pehel - Badhayein Haath, Karein Safai Saath”.",
+   "ty": "fact",
+   "tq": "Distinguish the exact official theme from plausible cleanliness slogans.",
+   "sec": "City rankings and indices (Ease of Living Index, Swachh Survekshan)"
+  },
+  {
+   "s": "Which of the following cities is included among the newer Tier-2 cities topping the Ease of Living Index?",
+   "o": [
+    "Patiala",
+    "Mira-Bhayandar",
+    "Tirupati",
+    "Jamshedpur"
+   ],
+   "a": 2,
+   "x": "Pune, Navi Mumbai and Tirupati are identified among the newer Tier-2 cities topping the Ease of Living Index.",
+   "ty": "fact",
+   "tq": "Match the index with the city-level example rather than with a Swachh Survekshan category.",
+   "sec": "City rankings and indices (Ease of Living Index, Swachh Survekshan)"
+  },
+  {
+   "s": "Which organisation approved Namo Cities in June 2026?",
+   "o": [
+    "National Capital Region Planning Board",
+    "Urban Local Bodies Finance Commission",
+    "Quality Council of India",
+    "Ministry of Rural Development"
+   ],
+   "a": 0,
+   "x": "The National Capital Region Planning Board approved Namo Cities in June 2026.",
+   "ty": "fact",
+   "tq": "Match the current urban initiative with the responsible planning body.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which Andhra Pradesh city is specifically identified among the top cities in the Ease of Living Index?",
+   "o": [
+    "Amaravati",
+    "Vijayawada",
+    "Visakhapatnam",
+    "Tirupati"
+   ],
+   "a": 3,
+   "x": "Tirupati is identified as one of the top cities in the Ease of Living Index.",
+   "ty": "fact",
+   "tq": "Apply the Andhra Pradesh-specific angle to the national index.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "For Swachh Survekshan 2026, Andhra Pradesh established Project Management Units in how many Urban Local Bodies?",
+   "o": [
+    "17",
+    "46",
+    "113",
+    "136"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh set up Project Management Units in 46 Urban Local Bodies for Swachh Survekshan 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish the PMU count from the total number of municipalities and corporations.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which city in Andhra Pradesh is aiming for the top rank in Swachh Survekshan?",
+   "o": [
+    "Tirupati",
+    "Guntur",
+    "Vijayawada",
+    "Visakhapatnam"
+   ],
+   "a": 2,
+   "x": "Vijayawada is aiming for the top rank in Swachh Survekshan.",
+   "ty": "fact",
+   "tq": "Identify the city-specific target associated with the cleanliness survey.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding urban local government in Andhra Pradesh:\n1. Andhra Pradesh has 17 municipal corporations.\n2. Andhra Pradesh has 113 municipalities.\n3. Andhra Pradesh has 7 cantonment boards.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh has 17 municipal corporations, 113 municipalities and 7 cantonment boards.",
+   "ty": "statements",
+   "tq": "Check each numerical component before selecting the combined code.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which institutional reform has been advocated for megacities instead of merely simplifying compliance procedures?",
+   "o": [
+    "Stronger Metropolitan Waste Management Authorities",
+    "Replacement of municipal bodies by cantonment boards",
+    "Abolition of metropolitan planning committees",
+    "Transfer of all waste functions to panchayats"
+   ],
+   "a": 0,
+   "x": "The suggested reform is to establish stronger Metropolitan Waste Management Authorities for megacities rather than rely only on simplified compliance.",
+   "ty": "application",
+   "tq": "Identify the proposed institutional solution to the stated governance problem.",
+   "sec": "Universal angles"
+  }
+ ]
+}

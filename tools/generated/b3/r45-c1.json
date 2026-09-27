@@ -1,0 +1,342 @@
+{
+ "book": 3,
+ "row": 45,
+ "chunk": 1,
+ "section": "Indian agriculture - importance, land use classification, cropping seasons and cropping pattern",
+ "subsections": [
+  "Agricultural census - size classes, women's share, largest holding state, AP holdings",
+  "Cropping seasons - kharif, rabi, zaid",
+  "Crop classification - cash vs food crops, crops of both seasons"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 25,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "With reference to the Tenth Agriculture Census of India (2015–16), consider the following statements:\n1. The total number of operational holdings was about 146 million.\n2. The average size of an operational holding was 1.08 hectares.\n3. Small and marginal holdings constituted 86.2% of holdings and operated 47.3% of the area.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct for the Tenth Agriculture Census, 2015–16. Small and marginal holdings formed a large majority by number but accounted for less than half of the operated area.",
+   "ty": "statements",
+   "tq": "Use the number-versus-area contrast and verify every figure before selecting the coded combination.",
+   "sec": "Agricultural census - size classes, women's share, largest holding state, AP holdings  [APPSC]"
+  },
+  {
+   "s": "Which State had the largest average size of operational holding in the 2015–16 Agriculture Census?",
+   "o": [
+    "Visakhapatnam district",
+    "Andhra Pradesh",
+    "Ananthapuram district",
+    "Nagaland"
+   ],
+   "a": 3,
+   "x": "Nagaland recorded the largest average holding size in the 2015–16 Agriculture Census. Ananthapuram and Visakhapatnam are district-level references within Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Separate the all-India State-level fact from the Andhra Pradesh district-level facts.",
+   "sec": "Agricultural census - size classes, women's share, largest holding state, AP holdings  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Eleventh Agriculture Census of Andhra Pradesh (2021–22, provisional):\n1. The number of holdings increased from 85.24 lakh to 96.90 lakh.\n2. The average size of a holding declined from 0.94 hectare to 0.86 hectare.\n3. The figures represent provisional State results rather than the standard all-India reference figures.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Andhra Pradesh recorded a rise in the number of holdings and a fall in average holding size in the provisional 2021–22 State results.",
+   "ty": "statements",
+   "tq": "Check whether the statement combines correct figures with the correct geographical and provisional-status qualification.",
+   "sec": "Agricultural census - size classes, women's share, largest holding state, AP holdings  [APPSC]"
+  },
+  {
+   "s": "In Andhra Pradesh, the largest and smallest average operational holdings, respectively, are found in:",
+   "o": [
+    "Nagaland and Ananthapuram",
+    "Ananthapuram and Nagaland",
+    "Visakhapatnam and Ananthapuram",
+    "Ananthapuram and Visakhapatnam"
+   ],
+   "a": 3,
+   "x": "Ananthapuram has the largest average holding in Andhra Pradesh at 1.62 hectares, while Visakhapatnam has the smallest at 0.40 hectare.",
+   "ty": "comparison",
+   "tq": "Read the comparison in the order asked: largest first and smallest second.",
+   "sec": "Agricultural census - size classes, women's share, largest holding state, AP holdings  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the standard Agriculture Census size classes?",
+   "o": [
+    "Marginal: below 1 ha; Small: 1–3 ha; Semi-medium: 3–5 ha; Medium: 5–10 ha; Large: above 10 ha",
+    "Marginal: below 2 ha; Small: 2–4 ha; Semi-medium: 4–6 ha; Medium: 6–10 ha; Large: above 10 ha",
+    "Marginal: below 0.5 ha; Small: 0.5–2 ha; Semi-medium: 2–5 ha; Medium: 5–15 ha; Large: above 15 ha",
+    "Marginal: below 1 ha; Small: 1–2 ha; Semi-medium: 2–4 ha; Medium: 4–10 ha; Large: 10 ha and above"
+   ],
+   "a": 3,
+   "x": "The standard classes are marginal below 1 hectare, small 1–2 hectares, semi-medium 2–4 hectares, medium 4–10 hectares and large 10 hectares or above.",
+   "ty": "comparison",
+   "tq": "Split the options at each boundary, since one altered range makes the entire classification incorrect.",
+   "sec": "Agricultural census - size classes, women's share, largest holding state, AP holdings  [APPSC]"
+  },
+  {
+   "s": "Small and marginal farmers, taken together, generally refer to operational holdings of:",
+   "o": [
+    "Less than 1 hectare only",
+    "4 to 10 hectares",
+    "Up to 2 hectares",
+    "2 to 4 hectares"
+   ],
+   "a": 2,
+   "x": "Small and marginal farmers together comprise holdings up to 2 hectares: marginal holdings are below 1 hectare and small holdings are 1–2 hectares.",
+   "ty": "fact",
+   "tq": "Combine adjacent size classes rather than selecting the range of only one class.",
+   "sec": "Agricultural census - size classes, women's share, largest holding state, AP holdings  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the sowing and harvesting period of Kharif crops?",
+   "o": [
+    "Sown in March–June and harvested in June–July",
+    "Sown in October–December and harvested in March–April",
+    "Sown in February–March and harvested in August–September",
+    "Sown in June–July and harvested in September–October or October–November"
+   ],
+   "a": 3,
+   "x": "Kharif crops are generally sown in June–July with the onset of the south-west monsoon and harvested around September–October or October–November.",
+   "ty": "fact",
+   "tq": "Associate Kharif with the south-west monsoon onset and distinguish it from the short summer Zaid season.",
+   "sec": "Cropping seasons - kharif, rabi, zaid  [APPSC]"
+  },
+  {
+   "s": "Rabi crops in India are mainly associated with:",
+   "o": [
+    "Exclusive dependence on floodwater",
+    "The onset of the south-west monsoon alone",
+    "Only retreating cyclones over the Bay of Bengal",
+    "Western disturbances and irrigation"
+   ],
+   "a": 3,
+   "x": "Rabi crops are sown after the monsoon withdrawal and depend substantially on western disturbances and irrigation.",
+   "ty": "application",
+   "tq": "Identify the climatic and irrigation conditions linked to the season rather than relying only on its calendar months.",
+   "sec": "Cropping seasons - kharif, rabi, zaid  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below:\nList-I (Season)\n a. Kharif\n b. Rabi\n c. Zaid\nList-II (Representative crop)\n i. Watermelon\n ii. Wheat\n iii. Cotton\n\n a  b  c",
+   "o": [
+    "a–iii, b–ii, c–i",
+    "a–ii, b–i, c–iii",
+    "a–i, b–iii, c–ii",
+    "a–iii, b–i, c–ii"
+   ],
+   "a": 0,
+   "x": "Cotton is a Kharif crop, wheat is a Rabi crop and watermelon is a Zaid crop. Therefore, the correct pairing is a–iii, b–ii and c–i.",
+   "ty": "match",
+   "tq": "Start from the sure crop-season pairs and eliminate codes containing a mismatched pair.",
+   "sec": "Cropping seasons - kharif, rabi, zaid  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the sub-seasons listed in Andhra Pradesh agricultural descriptions is correct?",
+   "o": [
+    "Zaid Kharif is associated with August–September sowing and Zaid Rabi with February–March sowing.",
+    "Zaid Kharif is associated with February–March sowing and Zaid Rabi with August–September sowing.",
+    "Zaid Kharif is harvested in March–April and Zaid Rabi in October–November.",
+    "Both Zaid Kharif and Zaid Rabi are sown only during June–July."
+   ],
+   "a": 0,
+   "x": "The sub-seasons are described as Zaid Kharif, with August–September sowing, and Zaid Rabi, with February–March sowing.",
+   "ty": "confusable",
+   "tq": "Discriminate the two similar labels by matching each with its stated sowing period.",
+   "sec": "Cropping seasons - kharif, rabi, zaid  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about crop seasons in Andhra Pradesh:\n1. Paddy is cultivated in both Kharif and Rabi seasons.\n2. The paddy area in 2024–25 was 14.04 lakh hectares in Kharif and 6.93 lakh hectares in Rabi.\n3. Rabi paddy has a lower yield than Kharif paddy.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Paddy is grown in both seasons, with 14.04 lakh hectares in Kharif and 6.93 lakh hectares in Rabi in 2024–25. Rabi paddy has the higher yield, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Spot the reversed comparison in the third statement while retaining the correct area figures.",
+   "sec": "Crop classification - cash vs food crops, crops of both seasons  [APPSC]"
+  },
+  {
+   "s": "According to the 2024–25 data for Andhra Pradesh, the total foodgrain area and production were respectively:",
+   "o": [
+    "37.51 lakh hectares and 161.86 lakh tonnes",
+    "14.04 lakh hectares and 6.93 lakh tonnes",
+    "20.36 lakh hectares and 17.15 lakh tonnes",
+    "161.86 lakh hectares and 37.51 lakh tonnes"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh recorded 37.51 lakh hectares under foodgrains and production of 161.86 lakh tonnes in 2024–25. The Kharif and Rabi area components were 20.36 and 17.15 lakh hectares respectively.",
+   "ty": "numerical",
+   "tq": "Keep area and production units in their proper order and reject options that interchange them.",
+   "sec": "Cropping seasons - kharif, rabi, zaid  [APPSC]"
+  },
+  {
+   "s": "The foodgrain production of Andhra Pradesh in 2024–25 increased by approximately:",
+   "o": [
+    "6.93%",
+    "10.86%",
+    "12.94%",
+    "20.36%"
+   ],
+   "a": 2,
+   "x": "Foodgrain production in Andhra Pradesh in 2024–25 increased by 12.94%. The other figures relate to paddy area or the Kharif and Rabi foodgrain area components.",
+   "ty": "numerical",
+   "tq": "Separate the percentage change from the nearby area figures that function as numerical distractors.",
+   "sec": "Cropping seasons - kharif, rabi, zaid  [APPSC]"
+  },
+  {
+   "s": "Which one of the following groups consists entirely of food crops?",
+   "o": [
+    "Groundnut, tobacco and cotton",
+    "Tea, coffee and rubber",
+    "Cereals, millets and pulses",
+    "Cotton, jute and sugarcane"
+   ],
+   "a": 2,
+   "x": "Food crops comprise cereals, millets and pulses. Cotton, jute, sugarcane, tobacco and several oilseeds are classified as commercial or cash crops.",
+   "ty": "fact",
+   "tq": "Use the classification definition and reject groups made up of commercial or plantation crops.",
+   "sec": "Crop classification - cash vs food crops, crops of both seasons  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT classified as a traditional commercial crop of Andhra Pradesh?",
+   "o": [
+    "Groundnut",
+    "Tobacco",
+    "Paddy",
+    "Cotton"
+   ],
+   "a": 2,
+   "x": "The traditional commercial crops listed for Andhra Pradesh are groundnut, cotton, tobacco and sugarcane. Paddy is treated as a food crop.",
+   "ty": "negative",
+   "tq": "Find the single crop belonging to the food-crop group rather than the traditional commercial group.",
+   "sec": "Crop classification - cash vs food crops, crops of both seasons  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Groundnut — Oilseed\n2. Tea — Plantation crop\n3. Fruits — Horticulture\n4. Wheat — Commercial crop\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Groundnut is an oilseed, tea is a plantation crop and fruits belong to horticulture. Wheat is a foodgrain, not a commercial crop, making pair 4 incorrect.",
+   "ty": "statements",
+   "tq": "Identify the wrongly classified item by comparing each crop with its standard group.",
+   "sec": "Crop classification - cash vs food crops, crops of both seasons  [APPSC]"
+  },
+  {
+   "s": "Which of the following crops is correctly associated with its principal season in the classification given below?",
+   "o": [
+    "Tur or arhar — Rabi; Gram or chana — Kharif",
+    "Tur — Rabi; gram — Zaid only",
+    "Tur or arhar — Kharif; Gram or chana — Rabi",
+    "Both tur and gram — Zaid only"
+   ],
+   "a": 2,
+   "x": "Tur or arhar is identified as a Kharif pulse, whereas gram or chana is identified as a Rabi pulse.",
+   "ty": "confusable",
+   "tq": "Discriminate between two commonly confused pulse crops by fixing their seasonal association.",
+   "sec": "Crop classification - cash vs food crops, crops of both seasons  [APPSC]"
+  },
+  {
+   "s": "In Andhra Pradesh, which of the following sets contains only crops reported as being grown in both Kharif and Rabi seasons?",
+   "o": [
+    "Watermelon, muskmelon, cucumber, tea and coffee",
+    "Tur, gram, tea, coffee and rubber",
+    "Cotton, jute, sugarcane, tobacco and tea",
+    "Paddy, maize, jowar, bajra and pulses"
+   ],
+   "a": 3,
+   "x": "Paddy, maize, jowar, bajra and pulses are reported as grown in both Kharif and Rabi in Andhra Pradesh. The other groups contain crops associated with a particular season or with commercial and plantation categories.",
+   "ty": "fact",
+   "tq": "Select the complete seasonal set and reject options containing crops outside the stated both-season group.",
+   "sec": "Crop classification - cash vs food crops, crops of both seasons  [APPSC]"
+  },
+  {
+   "s": "The yield of Rabi paddy in Andhra Pradesh in 2024–25 was approximately:",
+   "o": [
+    "6,279 kg per hectare",
+    "7,612 kg per hectare",
+    "5,612 kg per hectare",
+    "6,979 kg per hectare"
+   ],
+   "a": 3,
+   "x": "Rabi paddy recorded a yield of 6,979 kg per hectare in 2024–25, compared with 5,612 kg per hectare for Kharif paddy.",
+   "ty": "numerical",
+   "tq": "Use the direct numerical comparison and distinguish the Rabi value from the lower Kharif value.",
+   "sec": "Crop classification - cash vs food crops, crops of both seasons  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Plantation crops — Tea, coffee and rubber",
+    "Oilseeds — Groundnut, mustard and soybean",
+    "Commercial crops — Cotton, jute and sugarcane",
+    "Horticulture — Wheat, rice and pulses"
+   ],
+   "a": 3,
+   "x": "Wheat, rice and pulses are foodgrains. Horticulture includes fruits, vegetables, spices and flowers.",
+   "ty": "negative",
+   "tq": "Find the category whose crop examples have been replaced by a nearby foodgrain group.",
+   "sec": "Crop classification - cash vs food crops, crops of both seasons  [APPSC]"
+  },
+  {
+   "s": "Arrange the following agricultural census references in chronological order:\nA. Average Indian holding size was 2.28 hectares\nB. Women operated 12.8% of holdings\nC. India had an average holding size of 1.08 hectares\nD. Andhra Pradesh recorded an average holding size of 0.86 hectare provisionally",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, B, C, A"
+   ],
+   "a": 0,
+   "x": "The references correspond respectively to 1971, 2010–11, 2015–16 and 2021–22 provisional Andhra Pradesh results. Hence the chronological order is A, B, C, D.",
+   "ty": "chronology",
+   "tq": "Anchor the sequence to the census years before comparing the numerical values.",
+   "sec": "Agricultural census - size classes, women's share, largest holding state, AP holdings  [APPSC]"
+  },
+  {
+   "s": "A farmer cultivates wheat, barley, gram, mustard and peas after the withdrawal of the south-west monsoon and harvests them mainly in March–April. These crops belong to which season?",
+   "o": [
+    "Rabi",
+    "Zaid",
+    "Zaid Kharif",
+    "Kharif"
+   ],
+   "a": 0,
+   "x": "Wheat, barley, gram, mustard and peas are Rabi crops. They are generally sown during October–December and harvested during March–April or April–May.",
+   "ty": "application",
+   "tq": "Infer the season from the sowing, harvesting and crop clues instead of relying on one clue alone.",
+   "sec": "Cropping seasons - kharif, rabi, zaid  [APPSC]"
+  },
+  {
+   "s": "Which of the following combinations contains only crops associated with the Zaid season?",
+   "o": [
+    "Wheat, barley, gram, mustard and linseed",
+    "Watermelon, muskmelon, cucumber, vegetables and fodder",
+    "Rice, maize, cotton, jute and soybean",
+    "Tea, coffee, rubber, cotton and sugarcane"
+   ],
+   "a": 1,
+   "x": "Zaid is the short summer season from March to June, with harvesting generally in June–July. Its representative crops include watermelon, muskmelon, cucumber, vegetables and fodder.",
+   "ty": "fact",
+   "tq": "Recognise the complete Zaid crop cluster and eliminate Kharif, Rabi and plantation crops.",
+   "sec": "Cropping seasons - kharif, rabi, zaid  [APPSC]"
+  }
+ ]
+}

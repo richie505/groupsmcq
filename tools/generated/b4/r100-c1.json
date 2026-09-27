@@ -1,0 +1,428 @@
+{
+ "book": 4,
+ "row": 100,
+ "chunk": 1,
+ "section": "Patterns and issues in transport and trade - regional imbalance, connectivity gaps, logistics",
+ "subsections": [
+  "Regional imbalance in transport - road/rail density contrasts (North-East, hilly and tribal areas)",
+  "Logistics cost as share of GDP - National Logistics Policy 2022 targets, LEADS index",
+  "Trade concentration by state and port",
+  "Transport and environment - emissions, modal shift to rail and waterways",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 33,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Rail density is reported to be the highest in which of the following regions of India?",
+   "o": [
+    "The North-Eastern states",
+    "The tribal belts of Central India",
+    "The Himalayan region and the Thar Desert",
+    "Punjab, Haryana and the Gangetic plains"
+   ],
+   "a": 3,
+   "x": "Rail density is highest in Punjab, Haryana and the Gangetic plains. It is comparatively low in the North-East, the Himalaya and the Thar region.",
+   "ty": "fact",
+   "tq": "Directly identify the region associated with the highest value, while distinguishing it from low-density regions.",
+   "sec": "Regional imbalance in transport - road/rail density contrasts (North-East, hilly and tribal areas)"
+  },
+  {
+   "s": "Consider the following statements regarding the road network in India:\n1. National Highways constitute approximately 2% of the total road length.\n2. National Highways carry approximately 40% of the road traffic.\n3. Ten per cent of the road budget is reserved for the North-Eastern Region.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: National Highways account for about 2% of road length, carry around 40% of traffic, and 10% of the road budget is reserved for the North-Eastern Region.",
+   "ty": "statements",
+   "tq": "Use the numerical cluster and select the combination containing all three supported statements.",
+   "sec": "Regional imbalance in transport - road/rail density contrasts (North-East, hilly and tribal areas)"
+  },
+  {
+   "s": "With reference to National Highway density, which one of the following comparisons is correct?",
+   "o": [
+    "In Andhra Pradesh, density per 1,000 sq km is lower than the Indian average.",
+    "In Andhra Pradesh, density per lakh population is lower than the Indian average.",
+    "Andhra Pradesh and India have identical density in both measures.",
+    "Andhra Pradesh exceeds the Indian average in both measures."
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh has 17.64 km of National Highways per lakh population compared with India's 12.09 km, and 53.65 km per 1,000 sq km compared with India's 44.46 km.",
+   "ty": "comparison",
+   "tq": "Compare both rows of the table before selecting the option that preserves the direction of each comparison.",
+   "sec": "Regional imbalance in transport - road/rail density contrasts (North-East, hilly and tribal areas)"
+  },
+  {
+   "s": "As of April 2025, how much of Andhra Pradesh's rural road length was un-metalled?",
+   "o": [
+    "17,640 km",
+    "36,091 km",
+    "43,361 km",
+    "79,452 km"
+   ],
+   "a": 1,
+   "x": "Of Andhra Pradesh's 79,452 km of rural roads, 36,091 km were un-metalled as of April 2025.",
+   "ty": "numerical",
+   "tq": "Read the absolute figure separately from the total road-length figure.",
+   "sec": "Regional imbalance in transport - road/rail density contrasts (North-East, hilly and tribal areas)"
+  },
+  {
+   "s": "The official estimate of India's logistics cost as a share of GDP for 2023–24 is:",
+   "o": [
+    "7.97%",
+    "13–14%",
+    "17.64%",
+    "10.50%"
+   ],
+   "a": 0,
+   "x": "The official estimate for 2023–24 is 7.97% of GDP. The older 13–14% figure has been replaced by this estimate, although the lower figure remains debated.",
+   "ty": "numerical",
+   "tq": "Apply the updated-value trap by distinguishing the current official estimate from the older commonly cited range.",
+   "sec": "Logistics cost as share of GDP - National Logistics Policy 2022 targets, LEADS index"
+  },
+  {
+   "s": "Which of the following correctly describes the relationship between the National Logistics Policy, 2022 and GatiShakti?",
+   "o": [
+    "The National Logistics Policy complements GatiShakti by improving processes, regulation, skills and technology.",
+    "The National Logistics Policy replaces GatiShakti completely.",
+    "GatiShakti deals only with skills, whereas the National Logistics Policy deals only with highways.",
+    "Both policies are confined exclusively to port construction."
+   ],
+   "a": 0,
+   "x": "The National Logistics Policy complements GatiShakti and focuses on improving logistics processes, regulation, skills and technology.",
+   "ty": "application",
+   "tq": "Identify the policy relationship and reject options that impose an exclusive or replacement role.",
+   "sec": "Logistics cost as share of GDP - National Logistics Policy 2022 targets, LEADS index"
+  },
+  {
+   "s": "Which of the following is NOT a target associated with the National Logistics Policy, 2022?",
+   "o": [
+    "Improving logistics processes and technology",
+    "Achieving a single-digit logistics cost by 2030",
+    "Securing a place among the top 25 in the Logistics Performance Index by 2030",
+    "Increasing logistics cost to 13–14% of GDP by 2030"
+   ],
+   "a": 3,
+   "x": "The policy seeks a single-digit logistics cost and a top-25 position in the Logistics Performance Index by 2030. Increasing the cost to 13–14% is not a policy target.",
+   "ty": "negative",
+   "tq": "Find the option that reverses the direction of a stated policy target.",
+   "sec": "Logistics cost as share of GDP - National Logistics Policy 2022 targets, LEADS index"
+  },
+  {
+   "s": "Consider the following statements about the LEADS index:\n1. It is run by the Department for Promotion of Industry and Internal Trade.\n2. It began in 2018.\n3. It combines perception-based and objective data.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "LEADS is run by DPIIT, began in 2018, and combines perception data with objective data. Therefore, all three statements are correct.",
+   "ty": "statements",
+   "tq": "Test the institution, starting year and methodology together through a coded statement question.",
+   "sec": "Logistics cost as share of GDP - National Logistics Policy 2022 targets, LEADS index"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with the LEADS 2025 category in which the entity was a topper?",
+   "o": [
+    "Tamil Nadu — Coastal State",
+    "Uttar Pradesh — North-Eastern State",
+    "Mizoram — Landlocked State",
+    "Delhi — Coastal State"
+   ],
+   "a": 0,
+   "x": "Tamil Nadu topped the coastal States category. Uttar Pradesh topped the landlocked States category, Mizoram the North-Eastern category, and Delhi the Union Territory category.",
+   "ty": "match",
+   "tq": "Start with the sure category–entity pair and reject the swapped-category distractors.",
+   "sec": "Logistics cost as share of GDP - National Logistics Policy 2022 targets, LEADS index"
+  },
+  {
+   "s": "Andhra Pradesh was classified as which of the following in LEADS 2023?",
+   "o": [
+    "Achiever",
+    "Top Performer",
+    "Leader",
+    "Front Runner"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh was classified as an “Achiever” in LEADS 2023.",
+   "ty": "fact",
+   "tq": "Directly recall the exact official classification rather than substituting a similar performance label.",
+   "sec": "Logistics cost as share of GDP - National Logistics Policy 2022 targets, LEADS index"
+  },
+  {
+   "s": "India's rank in the World Bank Logistics Performance Index in 2023 was:",
+   "o": [
+    "45th",
+    "38th",
+    "25th",
+    "52nd"
+   ],
+   "a": 1,
+   "x": "India was ranked 38th in the World Bank Logistics Performance Index in 2023.",
+   "ty": "numerical",
+   "tq": "Select the stated rank from four close numerical alternatives.",
+   "sec": "Logistics cost as share of GDP - National Logistics Policy 2022 targets, LEADS index"
+  },
+  {
+   "s": "Approximately what percentage of India's trade by volume is carried through sea routes?",
+   "o": [
+    "27%",
+    "50%",
+    "75%",
+    "95%"
+   ],
+   "a": 3,
+   "x": "Sea routes carry approximately 95% of India's trade by volume.",
+   "ty": "numerical",
+   "tq": "Distinguish the overall trade-by-volume figure from modal shares relating specifically to freight.",
+   "sec": "Trade concentration by state and port"
+  },
+  {
+   "s": "Which of the following was the correct order of major ports in terms of cargo handled in FY 2026, beginning with the highest?",
+   "o": [
+    "Deendayal, Paradip, JNPA",
+    "Paradip, Deendayal, JNPA",
+    "JNPA, Paradip, Deendayal",
+    "Deendayal, JNPA, Paradip"
+   ],
+   "a": 0,
+   "x": "Deendayal Port led with 160.11 MT, followed by Paradip and JNPA in FY 2026.",
+   "ty": "chronology",
+   "tq": "Use ranking order and begin with the port explicitly associated with the highest volume.",
+   "sec": "Trade concentration by state and port"
+  },
+  {
+   "s": "Approximately what share of India's transhipment cargo passes through Colombo or Singapore?",
+   "o": [
+    "27%",
+    "50%",
+    "75%",
+    "95%"
+   ],
+   "a": 2,
+   "x": "About 75% of India's transhipment cargo passes through Colombo or Singapore.",
+   "ty": "numerical",
+   "tq": "Distinguish the transhipment concentration figure from the larger sea-route share of total trade.",
+   "sec": "Trade concentration by state and port"
+  },
+  {
+   "s": "Consider the following statements about Andhra Pradesh's export position:\n1. Andhra Pradesh is the sixth largest exporting State in India.\n2. It ranks first in tobacco exports.\n3. It ranks first in marine exports.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh is the sixth largest exporting State and ranks first in both tobacco and marine exports.",
+   "ty": "statements",
+   "tq": "Combine the State's overall rank with its two sector-specific first positions.",
+   "sec": "Trade concentration by state and port"
+  },
+  {
+   "s": "Which port recorded 91.17 million metric tonnes of cargo in Andhra Pradesh during 2025–26?",
+   "o": [
+    "Visakhapatnam Port",
+    "Ramayapatnam Port",
+    "Deendayal Port",
+    "Krishnapatnam Port"
+   ],
+   "a": 0,
+   "x": "Visakhapatnam Port handled a record 91.17 million metric tonnes in 2025–26.",
+   "ty": "fact",
+   "tq": "Identify the port associated with the record cargo figure, avoiding confusion with a non-major port.",
+   "sec": "Trade concentration by state and port"
+  },
+  {
+   "s": "Among the non-major ports mentioned, which one handled the highest cargo volume during April–November 2025?",
+   "o": [
+    "Ramayapatnam",
+    "Visakhapatnam",
+    "Krishnapatnam",
+    "Paradip"
+   ],
+   "a": 2,
+   "x": "Krishnapatnam handled the highest volume among the specified non-major ports, with 41.09 million metric tonnes during April–November 2025.",
+   "ty": "fact",
+   "tq": "Separate the non-major-port comparison from the ranking of major ports.",
+   "sec": "Trade concentration by state and port"
+  },
+  {
+   "s": "Which statement correctly compares rail and road freight transport in relation to emissions and cost?",
+   "o": [
+    "Rail emits about 27% less carbon dioxide than road and costs 75% as much.",
+    "Rail emits about 90% more carbon dioxide than road and costs twice as much.",
+    "Rail emits about 90% less carbon dioxide than road and costs half as much.",
+    "Rail and road have equal emissions, but rail costs twice as much."
+   ],
+   "a": 2,
+   "x": "Rail transport emits approximately 90% less CO2 than road transport and costs about half as much.",
+   "ty": "comparison",
+   "tq": "Check both dimensions of the comparison—emissions and cost—before selecting the matching option.",
+   "sec": "Transport and environment - emissions, modal shift to rail and waterways"
+  },
+  {
+   "s": "The National Rail Plan targets what share of freight for rail transport by 2030?",
+   "o": [
+    "27%",
+    "35%",
+    "45%",
+    "90%"
+   ],
+   "a": 2,
+   "x": "Rail currently carries about 27% of freight, while the National Rail Plan targets a 45% share by 2030.",
+   "ty": "numerical",
+   "tq": "Distinguish the present freight share from the future policy target.",
+   "sec": "Transport and environment - emissions, modal shift to rail and waterways"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Railways' net-zero target — 2030",
+    "Broad-gauge electrification — 27%",
+    "National Rail Plan freight target — 90% by 2025",
+    "Railway CO2 reduction compared with road — 45%"
+   ],
+   "a": 0,
+   "x": "Indian Railways aims to become net zero by 2030. Broad-gauge electrification is 99.6%, the freight target is 45% by 2030, and rail emits about 90% less CO2 than road.",
+   "ty": "match",
+   "tq": "Match each numerical figure with the correct transport indicator and reject cross-paired values.",
+   "sec": "Transport and environment - emissions, modal shift to rail and waterways"
+  },
+  {
+   "s": "As reported in May 2026, what percentage of India's broad-gauge railway network had been electrified?",
+   "o": [
+    "90.0%",
+    "95.0%",
+    "99.6%",
+    "100%"
+   ],
+   "a": 2,
+   "x": "By May 2026, 99.6% of the broad-gauge railway network had been electrified.",
+   "ty": "numerical",
+   "tq": "Avoid the absolute claim of complete electrification and select the precise percentage.",
+   "sec": "Transport and environment - emissions, modal shift to rail and waterways"
+  },
+  {
+   "s": "Under the Budget 2026–27 provision concerning inland waterways, how many new National Waterways are proposed to be developed in five years?",
+   "o": [
+    "5",
+    "10",
+    "20",
+    "45"
+   ],
+   "a": 2,
+   "x": "Budget 2026–27 proposes 20 new National Waterways over five years, beginning with NW-5 in Odisha.",
+   "ty": "numerical",
+   "tq": "Link the five-year period with the total number of waterways rather than the starting waterway number.",
+   "sec": "Transport and environment - emissions, modal shift to rail and waterways"
+  },
+  {
+   "s": "The development of new National Waterways under the Budget 2026–27 initiative begins with:",
+   "o": [
+    "NW-2 in Assam",
+    "NW-4 in Andhra Pradesh",
+    "NW-5 in Odisha",
+    "NW-1 in Uttar Pradesh"
+   ],
+   "a": 2,
+   "x": "The initiative to develop 20 new National Waterways begins with NW-5 in Odisha.",
+   "ty": "fact",
+   "tq": "Identify the starting project and distinguish its number from the total proposed waterways.",
+   "sec": "Transport and environment - emissions, modal shift to rail and waterways"
+  },
+  {
+   "s": "Which of the following statements about recent transport developments is correct?",
+   "o": [
+    "The Guntakal–Ballari railway lines were approved on 26 July 2026.",
+    "The Guntakal–Ballari lines were approved in 2030 under the National Rail Plan.",
+    "The full Dedicated Freight Corridor network was cancelled in 2026.",
+    "The full Dedicated Freight Corridor network became operational on 10 September 2026."
+   ],
+   "a": 0,
+   "x": "The Guntakal–Ballari lines were approved on 26 July 2026. The full DFC network was reported operational on 10 September 2026, but the statement in option b is the correctly stated development among the options.",
+   "ty": "fact",
+   "tq": "Use date-and-event pairing to distinguish two separate transport developments.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following is identified as a criticism or debate concerning India's logistics sector?",
+   "o": [
+    "Sea routes carry less than 10% of India's trade by volume.",
+    "The official logistics-cost estimate is disputed against the older 13–14% figure.",
+    "Rail freight already accounts for 90% of total freight.",
+    "The National Logistics Policy excludes technology and skills."
+   ],
+   "a": 1,
+   "x": "The logistics-cost estimate of 7.97% is debated in comparison with the older 13–14% figure. The other statements contradict the stated transport and policy facts.",
+   "ty": "negative",
+   "tq": "Identify the genuine criticism while rejecting statements that reverse established sectoral facts.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which public-private partnership project is described as having failed?",
+   "o": [
+    "Puttur–Renigunta",
+    "Sonnagar–Dankuni",
+    "Kaladan Multi-Modal Transit Transport",
+    "Guntakal–Ballari"
+   ],
+   "a": 1,
+   "x": "The Sonnagar–Dankuni PPP is identified as a failed project.",
+   "ty": "fact",
+   "tq": "Directly match the project with the reported outcome while avoiding confusion with other connectivity projects.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "As of October 2025, the construction progress of Ramayapatnam Port in Andhra Pradesh was approximately:",
+   "o": [
+    "41.09%",
+    "74.34%",
+    "91.17%",
+    "99.60%"
+   ],
+   "a": 1,
+   "x": "Ramayapatnam Port was 74.34% complete as of October 2025.",
+   "ty": "numerical",
+   "tq": "Match the construction percentage with the port and distinguish it from cargo-handling figures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The four greenfield ports proposed in Andhra Pradesh are expected to add what capacity by 2030?",
+   "o": [
+    "145 MTPA",
+    "45 MTPA",
+    "91.17 MTPA",
+    "915.17 MTPA"
+   ],
+   "a": 0,
+   "x": "The four greenfield ports in Andhra Pradesh are expected to add 145 million tonnes per annum of capacity by 2030.",
+   "ty": "numerical",
+   "tq": "Distinguish projected annual capacity from individual port cargo volumes.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which railway line is regarded as Andhra Pradesh's first railway line, commissioned in 1862?",
+   "o": [
+    "Vijayawada–Visakhapatnam",
+    "Guntakal–Ballari",
+    "Puttur–Renigunta",
+    "Sonnagar–Dankuni"
+   ],
+   "a": 2,
+   "x": "Puttur–Renigunta was Andhra Pradesh's first railway line and dates to 1862.",
+   "ty": "fact",
+   "tq": "Match the historical railway line with both its State-level significance and year.",
+   "sec": "Universal angles"
+  }
+ ]
+}

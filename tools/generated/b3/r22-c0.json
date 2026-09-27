@@ -1,0 +1,315 @@
+{
+ "book": 3,
+ "row": 22,
+ "chunk": 0,
+ "section": "National income concepts - GDP, GNP, NDP, NNP, factor cost vs market price, GVA, deflator",
+ "subsections": [
+  "Aggregates and conversions - GDP, GNP, NDP, NNP, depreciation, NFIA",
+  "Definitions - stem to term",
+  "Factor cost vs market price - bridging items, GVA at basic prices",
+  "National income - the standard aggregate"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 26,
+ "rejected": {
+  "invalid": 1,
+  "dupe": 0,
+  "dupe_of_pyq": 4
+ },
+ "accepted": [
+  {
+   "s": "If the GDP at market prices of an economy is ₹500 crore and its Net Factor Income from Abroad is –₹10 crore, the GNP at market prices will be",
+   "o": [
+    "₹480 crore",
+    "₹490 crore",
+    "₹500 crore",
+    "₹510 crore"
+   ],
+   "a": 1,
+   "x": "GNP at market prices = GDP at market prices + NFIA. Therefore, GNP = ₹500 crore – ₹10 crore = ₹490 crore.",
+   "ty": "numerical",
+   "tq": "Apply the domestic-to-national conversion formula and retain the sign of NFIA.",
+   "sec": "Aggregates and conversions - GDP, GNP, NDP, NNP, depreciation, NFIA"
+  },
+  {
+   "s": "Consider the following statements regarding national income aggregates:\n1. NDP is obtained by deducting depreciation from GDP.\n2. NNP is obtained by deducting depreciation from GNP.\n3. NNP at factor cost is the standard measure of national income.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. NDP = GDP – depreciation, NNP = GNP – depreciation, and NNP at factor cost is National Income.",
+   "ty": "statements",
+   "tq": "Check each conversion separately before selecting the combined code.",
+   "sec": "Aggregates and conversions - GDP, GNP, NDP, NNP, depreciation, NFIA"
+  },
+  {
+   "s": "Why is depreciation deducted while calculating net national or domestic product?",
+   "o": [
+    "Because depreciation measures the income earned by foreign factors",
+    "Because depreciation is a direct tax on capital goods",
+    "Because depreciation represents transfer payments to households",
+    "Because output used merely to replace worn-out capital does not constitute new output"
+   ],
+   "a": 3,
+   "x": "Depreciation, or consumption of fixed capital, is deducted because production used only to replace worn-out capital adds nothing new to the productive stock.",
+   "ty": "fact",
+   "tq": "Identify the economic purpose of the gross-to-net adjustment.",
+   "sec": "Aggregates and conversions - GDP, GNP, NDP, NNP, depreciation, NFIA"
+  },
+  {
+   "s": "A country has GDP at market prices of ₹500 crore, depreciation of ₹50 crore, NFIA of –₹10 crore and net indirect taxes of ₹40 crore. Its national income is",
+   "o": [
+    "₹400 crore",
+    "₹410 crore",
+    "₹440 crore",
+    "₹490 crore"
+   ],
+   "a": 0,
+   "x": "GNPMP = 500 – 10 = ₹490 crore; NNPMP = 490 – 50 = ₹440 crore; NNPFC = 440 – 40 = ₹400 crore. NNP at factor cost is national income.",
+   "ty": "numerical",
+   "tq": "Perform the conversions in sequence: domestic, national, gross, net and market price to factor cost.",
+   "sec": "Aggregates and conversions - GDP, GNP, NDP, NNP, depreciation, NFIA"
+  },
+  {
+   "s": "Consider the following statements:\n1. National income is measured over a period of time.\n2. National wealth is measured at a point of time.\n3. National income is a stock concept, whereas national wealth is a flow concept.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "National income is a flow measured per year, while national wealth is a stock measured at a point of time. Statement 3 reverses these concepts.",
+   "ty": "statements",
+   "tq": "Use the flow-versus-stock distinction to reject the reversed statement.",
+   "sec": "Aggregates and conversions - GDP, GNP, NDP, NNP, depreciation, NFIA"
+  },
+  {
+   "s": "Which one of the following correctly represents Net Factor Income from Abroad (NFIA)?",
+   "o": [
+    "Exports minus imports of goods and services",
+    "Domestic factor income minus domestic consumption",
+    "Factor income paid abroad minus factor income received from abroad",
+    "Factor income received from abroad minus factor income paid abroad"
+   ],
+   "a": 3,
+   "x": "NFIA is factor income received from abroad minus factor income paid abroad. It is added to GDP to obtain GNP.",
+   "ty": "fact",
+   "tq": "Discriminate between income flows and trade flows.",
+   "sec": "Aggregates and conversions - GDP, GNP, NDP, NNP, depreciation, NFIA"
+  },
+  {
+   "s": "Indians earn ₹20 crore abroad and foreigners earn ₹10 crore within India. If India's GDP at market prices is ₹110 crore, its GNP at market prices is",
+   "o": [
+    "₹100 crore",
+    "₹110 crore",
+    "₹120 crore",
+    "₹140 crore"
+   ],
+   "a": 2,
+   "x": "NFIA = ₹20 crore – ₹10 crore = ₹10 crore. Hence, GNP = GDP + NFIA = ₹110 crore + ₹10 crore = ₹120 crore.",
+   "ty": "numerical",
+   "tq": "Separate income earned by nationals abroad from income earned by foreigners domestically.",
+   "sec": "Aggregates and conversions - GDP, GNP, NDP, NNP, depreciation, NFIA"
+  },
+  {
+   "s": "Income earned by an Indian resident working in Saudi Arabia is included in",
+   "o": [
+    "India's GNP but not its GDP",
+    "India's GDP but not its GNP",
+    "both India's GDP and GNP",
+    "neither India's GDP nor its GNP"
+   ],
+   "a": 0,
+   "x": "GDP is based on production within domestic territory, whereas GNP includes the income of nationals or normal residents wherever located.",
+   "ty": "confusable",
+   "tq": "Distinguish territorial residence from nationality or normal residence.",
+   "sec": "Aggregates and conversions - GDP, GNP, NDP, NNP, depreciation, NFIA"
+  },
+  {
+   "s": "The value of all final goods and services produced within the geographical boundaries of a country during a year, irrespective of who produces them, is called",
+   "o": [
+    "GNP",
+    "GDP",
+    "NNP",
+    "NDP"
+   ],
+   "a": 1,
+   "x": "GDP measures the market value of final goods and services produced within a country's geographical boundaries during a year, including production by residents and non-residents.",
+   "ty": "fact",
+   "tq": "Match the territorial definition with the correct aggregate.",
+   "sec": "Definitions - stem to term"
+  },
+  {
+   "s": "GDP can be expressed as Q × P because it represents",
+   "o": [
+    "the quantity of intermediate goods multiplied by their factor cost",
+    "the quantity of exports multiplied by the exchange rate",
+    "the population multiplied by per capita income",
+    "the quantity of final output multiplied by its price"
+   ],
+   "a": 3,
+   "x": "GDP is the market value of final output, represented as quantity of output (Q) multiplied by its price (P).",
+   "ty": "fact",
+   "tq": "Translate the compact formula into its economic meaning.",
+   "sec": "Definitions - stem to term"
+  },
+  {
+   "s": "The ratio of national income to population is referred to as",
+   "o": [
+    "Factor income",
+    "Disposable income",
+    "Personal income",
+    "Per capita income"
+   ],
+   "a": 3,
+   "x": "Per capita income is calculated as national income divided by population.",
+   "ty": "fact",
+   "tq": "Identify the term from its defining ratio.",
+   "sec": "Definitions - stem to term"
+  },
+  {
+   "s": "Wages, rent, interest and profit earned by the factors of production together constitute",
+   "o": [
+    "Disposable income",
+    "Factor income",
+    "Capital receipts",
+    "Transfer income"
+   ],
+   "a": 1,
+   "x": "Factor income consists of payments to factors of production: wages, rent, interest and profit.",
+   "ty": "fact",
+   "tq": "Match each factor payment with the umbrella concept.",
+   "sec": "Definitions - stem to term"
+  },
+  {
+   "s": "GDP at factor cost is obtained from GDP at market prices by",
+   "o": [
+    "subtracting indirect taxes and adding subsidies",
+    "subtracting direct taxes and adding exports",
+    "adding indirect taxes and subtracting subsidies",
+    "adding depreciation and subtracting NFIA"
+   ],
+   "a": 0,
+   "x": "GDPFC = GDPMP – indirect taxes + subsidies. Direct taxes, depreciation and NFIA are not the bridging items in this conversion.",
+   "ty": "confusable",
+   "tq": "Remember the direction of the market-price-to-factor-cost adjustment.",
+   "sec": "Factor cost vs market price - bridging items, GVA at basic prices"
+  },
+  {
+   "s": "Consider the following statements about prices used in national accounts:\n1. Market price equals factor cost plus indirect taxes minus subsidies.\n2. GDP at factor cost equals GDP at market prices minus indirect taxes plus subsidies.\n3. Direct taxes are the bridging item between GDP at market prices and GDP at factor cost.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 correctly state the conversion. Statement 3 is false because indirect taxes and subsidies, not direct taxes, form the relevant bridge.",
+   "ty": "statements",
+   "tq": "Use the sign convention and eliminate the statement naming the wrong tax category.",
+   "sec": "Factor cost vs market price - bridging items, GVA at basic prices"
+  },
+  {
+   "s": "Which of the following is a production tax rather than a product tax?",
+   "o": [
+    "Goods and Services Tax",
+    "Sales tax on each unit sold",
+    "Excise duty per unit of output",
+    "Stamp duty"
+   ],
+   "a": 3,
+   "x": "Production taxes are levied irrespective of the quantity of output; stamp duty and property tax are examples. GST, excise and sales tax are product taxes levied per unit or value of product.",
+   "ty": "confusable",
+   "tq": "Use the test of whether the levy varies with the quantity of output.",
+   "sec": "Factor cost vs market price - bridging items, GVA at basic prices"
+  },
+  {
+   "s": "A tax imposed per unit of a commodity, such as GST, excise duty or sales tax, is classified as",
+   "o": [
+    "A capital transfer",
+    "A direct factor payment",
+    "A product tax",
+    "A production tax"
+   ],
+   "a": 2,
+   "x": "Product taxes are levied on a unit or value of a product. Production taxes such as stamp duty and property tax are imposed irrespective of output.",
+   "ty": "fact",
+   "tq": "Discriminate between similar tax terms using their basis of levy.",
+   "sec": "Factor cost vs market price - bridging items, GVA at basic prices"
+  },
+  {
+   "s": "With reference to GVA, consider the following statements:\n1. GVA at basic prices has been the headline sectoral measure since the 2011-12 series.\n2. GVA includes depreciation.\n3. NVA excludes depreciation.\n4. GVA at basic prices is not used in the 2022-23 series.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. GVA at basic prices continues to be used in the 2022-23 series, so statement 4 is false.",
+   "ty": "statements",
+   "tq": "Combine the time-series fact with the gross-versus-net distinction and reject the reversed date claim.",
+   "sec": "Factor cost vs market price - bridging items, GVA at basic prices"
+  },
+  {
+   "s": "The headline growth measure used by the CSO/NSO for sectoral growth is based on",
+   "o": [
+    "NDP at market prices",
+    "NNP at factor cost",
+    "GVA at factor cost alone",
+    "GVA at basic prices"
+   ],
+   "a": 3,
+   "x": "CSO/NSO headline sectoral growth is based on GVA at basic prices.",
+   "ty": "fact",
+   "tq": "Identify the official headline aggregate rather than the national-income aggregate.",
+   "sec": "Factor cost vs market price - bridging items, GVA at basic prices"
+  },
+  {
+   "s": "In Q1 of 2026-27, real GDP was ₹81.36 lakh crore and real GVA was ₹73.82 lakh crore. The difference primarily represents",
+   "o": [
+    "Net product taxes",
+    "Depreciation",
+    "Direct taxes",
+    "Net factor income from abroad"
+   ],
+   "a": 0,
+   "x": "The difference between GDP and GVA at the relevant price level is attributable to net product taxes. Here the difference is ₹7.54 lakh crore.",
+   "ty": "numerical",
+   "tq": "Interpret the gap between GDP and GVA through the product-tax bridge.",
+   "sec": "Factor cost vs market price - bridging items, GVA at basic prices"
+  },
+  {
+   "s": "Which one of the following correctly expresses National Income?",
+   "o": [
+    "NNP at market prices + net indirect taxes",
+    "NNP at factor cost = net domestic factor income + NFIA",
+    "NDP at market prices – depreciation – NFIA",
+    "GDP at market prices – NFIA + depreciation"
+   ],
+   "a": 1,
+   "x": "National Income is NNP at factor cost. It equals net domestic factor income plus NFIA and represents factor incomes of the country's normal residents.",
+   "ty": "fact",
+   "tq": "Start with the standard aggregate and verify its factor-income components.",
+   "sec": "National income - the standard aggregate"
+  },
+  {
+   "s": "Which of the following combinations represents the components of national income at factor cost?",
+   "o": [
+    "Indirect taxes, subsidies, depreciation and exports",
+    "Consumption, investment, government expenditure and imports",
+    "Wages, rent, interest and profits earned by the country's normal residents",
+    "Only wages and salaries earned within domestic territory"
+   ],
+   "a": 2,
+   "x": "National income is the sum of wages, rent, interest and profits earned by factors belonging to the country, including the adjustment for NFIA.",
+   "ty": "fact",
+   "tq": "Match the factor-payment composition with the standard aggregate.",
+   "sec": "National income - the standard aggregate"
+  }
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "book": 4,
+ "row": 98,
+ "chunk": 0,
+ "section": "Services sector geography - tourism (India and AP circuits), IT, banking; salient features",
+ "subsections": [
+  "AP tourist spots → district or nearest town"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Suryalanka Beach — Bapatla",
+    "Manginapudi Beach — Ongole",
+    "Kothapatnam Beach — Machilipatnam",
+    "Perupalem Beach — Bapatla"
+   ],
+   "a": 0,
+   "x": "Suryalanka Beach is located in Bapatla district. Manginapudi, Kothapatnam and Perupalem are associated with Machilipatnam, Ongole and Narasapuram respectively.",
+   "ty": "match",
+   "tq": "Start from the sure beach–town pair and eliminate the swapped locations.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Manginapudi Beach is situated near which of the following towns?",
+   "o": [
+    "Kakinada",
+    "Narasapuram",
+    "Machilipatnam",
+    "Chirala"
+   ],
+   "a": 2,
+   "x": "Manginapudi Beach is situated near Machilipatnam in Krishna district.",
+   "ty": "fact",
+   "tq": "Direct place recall using nearby coastal towns as distractors.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Kothapatnam Beach is associated with:",
+   "o": [
+    "Ongole",
+    "Visakhapatnam",
+    "Nellore",
+    "Bapatla"
+   ],
+   "a": 0,
+   "x": "Kothapatnam Beach is associated with Ongole in Prakasam district.",
+   "ty": "fact",
+   "tq": "Direct beach-to-nearest-town identification.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Perupalem Beach is located near:",
+   "o": [
+    "Narasapuram in West Godavari district",
+    "Ongole in Prakasam district",
+    "Machilipatnam in Krishna district",
+    "Bapatla in Bapatla district"
+   ],
+   "a": 0,
+   "x": "Perupalem Beach is located near Narasapuram in West Godavari district.",
+   "ty": "fact",
+   "tq": "Use the precise nearest-town and district combination.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding Vodarevu Beach:\n1. It is situated in Bapatla district.\n2. It is near Suryalanka Beach.\n3. NH-167A links it to Piduguralla.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Vodarevu Beach is in Bapatla district, lies near Suryalanka and is linked to Piduguralla by NH-167A.",
+   "ty": "statements",
+   "tq": "Test a location, proximity and transport-link cluster together.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Which of the following beaches is associated with the town of Narasapuram?",
+   "o": [
+    "Perupalem",
+    "Vodarevu",
+    "Uppada",
+    "Manginapudi"
+   ],
+   "a": 0,
+   "x": "Perupalem Beach is associated with Narasapuram in West Godavari district.",
+   "ty": "fact",
+   "tq": "Direct nearest-town recall with coastal-place distractors.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Yarada Beach is located in:",
+   "o": [
+    "SPSR Nellore district",
+    "Kakinada district",
+    "Visakhapatnam",
+    "Alluri Sitharama Raju district"
+   ],
+   "a": 2,
+   "x": "Yarada Beach is located in Visakhapatnam. Yarada Konda and the Dolphin's Nose lighthouse are associated with the site.",
+   "ty": "fact",
+   "tq": "Direct location recall supported by a distinctive landmark clue.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements about Rushikonda Beach is correct?",
+   "o": [
+    "It is located near Kakinada and is known as Uppada Beach.",
+    "It is located in Visakhapatnam and is a Blue Flag beach.",
+    "It is located near Ongole and is linked by NH-167A.",
+    "It is located in Nellore district and is a limestone beach."
+   ],
+   "a": 1,
+   "x": "Rushikonda Beach is in Visakhapatnam and is a certified Blue Flag beach.",
+   "ty": "statements",
+   "tq": "Use the location-plus-status combination to reject reversed pairings.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Bavikonda, Thotlakonda and Bojjannakonda are best described as:",
+   "o": [
+    "Buddhist hilltop monasteries near Visakhapatnam",
+    "Limestone cave systems in Nandyal district",
+    "Medieval forts in YSR Kadapa district",
+    "Coastal salt-pan complexes near Kakinada"
+   ],
+   "a": 0,
+   "x": "Bavikonda, Thotlakonda and Bojjannakonda are Buddhist hilltop monasteries near Visakhapatnam, dating approximately to 200 BCE.",
+   "ty": "fact",
+   "tq": "Identify the common group and distinguish it from other AP heritage categories.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "The Buddhist hilltop monasteries of Bavikonda, Thotlakonda and Bojjannakonda are generally dated to approximately:",
+   "o": [
+    "200 BCE",
+    "200 CE",
+    "1200 CE",
+    "1700 CE"
+   ],
+   "a": 0,
+   "x": "These Buddhist hilltop monasteries near Visakhapatnam date to approximately 200 BCE.",
+   "ty": "numerical",
+   "tq": "Numerical recall using distinct chronological distractors.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Which one of the following places is regarded as the coldest place in Andhra Pradesh?",
+   "o": [
+    "Gandikota",
+    "Horsley Hills",
+    "Lepakshi",
+    "Lambasingi"
+   ],
+   "a": 3,
+   "x": "Lambasingi in Alluri Sitharama Raju district is regarded as the coldest place in Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Direct identification of a distinctive geographical attribute.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Lepakshi is situated in which district?",
+   "o": [
+    "Annamayya",
+    "Nandyal",
+    "Sri Sathya Sai",
+    "Bapatla"
+   ],
+   "a": 2,
+   "x": "Lepakshi is situated in Sri Sathya Sai district.",
+   "ty": "fact",
+   "tq": "Direct district recall from a heritage-tourism location.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about Belum Caves:\n1. They are located in Nandyal district.\n2. They constitute the second-longest cave system in the subcontinent.\n3. They were recognised as a GSI Geo-Heritage Site in 2025.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Belum Caves are in Nandyal district, are the subcontinent's second-longest cave system, and were recognised as a GSI Geo-Heritage Site in 2025.",
+   "ty": "statements",
+   "tq": "Combine location, ranking and recognition details in a coded statement question.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Belum Caves were earlier associated with which district before their association with Nandyal district?",
+   "o": [
+    "Kurnool",
+    "Chittoor",
+    "Anantapur",
+    "Kadapa"
+   ],
+   "a": 0,
+   "x": "Belum Caves are now associated with Nandyal district and were earlier associated with Kurnool district.",
+   "ty": "confusable",
+   "tq": "Test a close administrative-location distinction rather than the tourist attraction itself.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Horsley Hills is a hill station near:",
+   "o": [
+    "Araku in Alluri Sitharama Raju district",
+    "Madanapalle in Annamayya district",
+    "Piduguralla in Palnadu district",
+    "Chirala in Bapatla district"
+   ],
+   "a": 1,
+   "x": "Horsley Hills is a hill station near Madanapalle in Annamayya district.",
+   "ty": "fact",
+   "tq": "Direct nearest-town and district identification.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Borra Caves are located in which district and near which place?",
+   "o": [
+    "YSR Kadapa district, Gandikota",
+    "Nandyal district, Belum",
+    "Alluri Sitharama Raju district, Araku",
+    "Annamayya district, Madanapalle"
+   ],
+   "a": 2,
+   "x": "Borra Caves are limestone caves located in Alluri Sitharama Raju district, near Araku.",
+   "ty": "fact",
+   "tq": "Distinguish two major cave destinations by district and nearby town.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Which of the following beaches is located in Kakinada district?",
+   "o": [
+    "Yarada",
+    "Vodarevu",
+    "Kotha Koduru",
+    "Uppada"
+   ],
+   "a": 3,
+   "x": "Uppada Beach is associated with Kakinada district. Yarada is in Visakhapatnam, Kotha Koduru in Nellore district and Vodarevu in Bapatla district.",
+   "ty": "negative",
+   "tq": "Find the single correctly located coastal site among closely related beach names.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Kotha Koduru, Ramatheertham and Mypadu beaches are associated with which district?",
+   "o": [
+    "SPSR Nellore",
+    "Krishna",
+    "West Godavari",
+    "Visakhapatnam"
+   ],
+   "a": 0,
+   "x": "Kotha Koduru, Ramatheertham and Mypadu beaches are associated with SPSR Nellore district.",
+   "ty": "match",
+   "tq": "Recognise a grouped regional cluster instead of matching one beach in isolation.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Uppada — Kakinada",
+    "Yarada — Visakhapatnam",
+    "Mypadu — Machilipatnam",
+    "Suryalanka — Bapatla"
+   ],
+   "a": 2,
+   "x": "Mypadu is associated with Nellore district, not Machilipatnam. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the wrongly assigned coastal location by checking district clusters.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Which Andhra Pradesh beach has been certified under the Blue Flag programme?",
+   "o": [
+    "Kothapatnam Beach",
+    "Mypadu Beach",
+    "Perupalem Beach",
+    "Rushikonda Beach"
+   ],
+   "a": 3,
+   "x": "Rushikonda Beach in Visakhapatnam is Andhra Pradesh's certified Blue Flag beach.",
+   "ty": "fact",
+   "tq": "Direct recall of an environmental-tourism certification.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "According to the stated tourism development information, how many additional beaches were proposed and how many were shortlisted in Andhra Pradesh?",
+   "o": [
+    "9 proposed and 21 shortlisted",
+    "25 proposed and 9 shortlisted",
+    "21 proposed and 12 shortlisted",
+    "21 proposed and 9 shortlisted"
+   ],
+   "a": 3,
+   "x": "Twenty-one additional beaches were proposed, of which nine were shortlisted.",
+   "ty": "numerical",
+   "tq": "Separate the larger proposed count from the smaller shortlisted count.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Which of the following is an example of a Blue Flag beach outside Andhra Pradesh?",
+   "o": [
+    "Yarada in Andhra Pradesh",
+    "Uppada in Andhra Pradesh",
+    "Shivrajpur in Gujarat",
+    "Mypadu in Andhra Pradesh"
+   ],
+   "a": 2,
+   "x": "Shivrajpur in Gujarat is cited as an Indian Blue Flag beach outside Andhra Pradesh. Chandrabhaga in Odisha is another example.",
+   "ty": "fact",
+   "tq": "Use state-based elimination in a tourism-certification question.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "The project for Suryalanka Beach approved under Swadesh Darshan 2.0 on 29 March 2025 involved an amount of:",
+   "o": [
+    "₹79.52 crore",
+    "₹87.25 crore",
+    "₹97.52 crore",
+    "₹107.25 crore"
+   ],
+   "a": 2,
+   "x": "A Suryalanka Beach project costing ₹97.52 crore was approved under Swadesh Darshan 2.0 on 29 March 2025.",
+   "ty": "numerical",
+   "tq": "Recall the exact financial figure while rejecting nearby-value distractors.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "The Suryalanka Beach project mentioned in the tourism development measures was approved under:",
+   "o": [
+    "AMRUT 2.0",
+    "Swadesh Darshan 2.0",
+    "PRASAD 2.0",
+    "Smart Cities Mission"
+   ],
+   "a": 1,
+   "x": "The Suryalanka Beach project was approved under Swadesh Darshan 2.0.",
+   "ty": "fact",
+   "tq": "Distinguish among similarly named tourism and urban-development programmes.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  },
+  {
+   "s": "Under the amended Beach Shacks Policy of June 2026, beach shacks may be permitted as:",
+   "o": [
+    "Temporary structures only in CRZ-I areas",
+    "Permanent concrete structures in all coastal zones",
+    "Permanent structures only in CRZ-II areas",
+    "Temporary, eco-friendly structures in CRZ-III and CRZ-IV areas"
+   ],
+   "a": 3,
+   "x": "The amended policy permits temporary, eco-friendly beach shacks in CRZ-III and CRZ-IV areas.",
+   "ty": "application",
+   "tq": "Apply the policy conditions to a coastal-development scenario.",
+   "sec": "AP tourist spots → district or nearest town  [APPSC]"
+  }
+ ]
+}

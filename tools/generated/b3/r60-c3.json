@@ -1,0 +1,172 @@
+{
+ "book": 3,
+ "row": 60,
+ "chunk": 3,
+ "section": "Allied sectors - horticulture, animal husbandry, dairy, fisheries (PMMSY), agro-processing",
+ "subsections": [
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 11,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "A five-year review of which fisheries-related scheme was highlighted by the Press Information Bureau in September 2026?",
+   "o": [
+    "Rashtriya Gokul Mission",
+    "Operation Greens",
+    "Pradhan Mantri Matsya Sampada Yojana",
+    "National Horticulture Mission"
+   ],
+   "a": 2,
+   "x": "The five-year review highlighted in September 2026 concerned the Pradhan Mantri Matsya Sampada Yojana (PMMSY).",
+   "ty": "fact",
+   "tq": "Identify the scheme from the current-affairs context and reject nearby allied-sector schemes.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding the growth of allied agricultural sectors in India:\n1. Livestock recorded growth of 7.1%.\n2. Fisheries recorded growth of 8.8%.\n3. Fisheries grew at a lower rate than livestock.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Livestock growth was 7.1% and fisheries growth was 8.8%. Therefore, fisheries grew faster than livestock, making statement 3 false.",
+   "ty": "statements",
+   "tq": "Compare the numerical values before accepting the statement on relative growth.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "In which year did India’s horticulture output exceed its foodgrain output?",
+   "o": [
+    "2022-23",
+    "2024-25",
+    "2025-26",
+    "2023-24"
+   ],
+   "a": 1,
+   "x": "India’s horticulture output exceeded foodgrain output in 2024-25.",
+   "ty": "numerical",
+   "tq": "Use the exact agricultural year rather than a nearby current year.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following is regarded as the largest agricultural Gross Value Added sub-sector in Andhra Pradesh?",
+   "o": [
+    "Sericulture",
+    "Dairy farming",
+    "Horticulture",
+    "Fishing and aquaculture"
+   ],
+   "a": 3,
+   "x": "Fishing and aquaculture is Andhra Pradesh’s largest agricultural GVA sub-sector.",
+   "ty": "fact",
+   "tq": "Distinguish the leading sub-sector in Andhra Pradesh from other allied activities.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about Andhra Pradesh:\n1. Fisheries is the largest and fastest-growing allied sub-sector.\n2. Fisheries recorded a growth rate of 17.69%.\n3. Fishing and aquaculture is not a major contributor to agricultural GVA in the State.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Fisheries is the largest and fastest-growing allied sub-sector in Andhra Pradesh and recorded 17.69% growth. Statement 3 is false because fishing and aquaculture is the State’s largest agricultural GVA sub-sector.",
+   "ty": "statements",
+   "tq": "Find the false reversal in the third statement and verify the precise growth figure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Match List-I with List-II regarding Andhra Pradesh’s leading positions:\n\nList-I\n a. Shrimp\n b. Fruit\n c. Oil palm\n d. Eggs\n\nList-II\n i. Andhra Pradesh leads nationally\n ii. Andhra Pradesh leads nationally\n iii. Andhra Pradesh leads nationally\n iv. Andhra Pradesh leads nationally\n\nWhich of the following is the correct code?",
+   "o": [
+    "a–i, b–ii, c–iii, d–iv",
+    "a–ii, b–iv, c–i, d–iii",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–iv, b–iii, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh is identified as a leading State in shrimp, fruit, oil palm and eggs. Since all four items have the same stated position, the direct correspondence is a–i, b–ii, c–iii and d–iv.",
+   "ty": "match",
+   "tq": "Start from the common relationship and eliminate codes that assign a different status.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "According to NABARD’s 2026-27 plan for Andhra Pradesh, what amount was allocated to fisheries?",
+   "o": [
+    "₹17,690 crore",
+    "₹21,098 crore",
+    "₹34,972 crore",
+    "₹41,098 crore"
+   ],
+   "a": 1,
+   "x": "NABARD’s 2026-27 plan allocated ₹21,098 crore to fisheries in Andhra Pradesh.",
+   "ty": "numerical",
+   "tq": "Separate the fisheries allocation from the larger animal-husbandry allocation.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "What amount did NABARD’s 2026-27 plan allocate to animal husbandry in Andhra Pradesh?",
+   "o": [
+    "₹21,098 crore",
+    "₹27,469 crore",
+    "₹34,972 crore",
+    "₹37,269 crore"
+   ],
+   "a": 2,
+   "x": "The allocation for animal husbandry under NABARD’s 2026-27 plan was ₹34,972 crore.",
+   "ty": "numerical",
+   "tq": "Use the exact sector-wise allocation and avoid swapping it with the fisheries figure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding India and Andhra Pradesh:\n1. India ranks first in milk production.\n2. Andhra Pradesh ranks seventh among States in milk production.\n3. Andhra Pradesh’s principal national lead among the sectors mentioned is in aquaculture.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "India ranks first in milk production, while Andhra Pradesh ranks seventh among the States. Andhra Pradesh’s notable lead is in aquaculture; hence all three statements are correct.",
+   "ty": "statements",
+   "tq": "Combine national and State rankings without reversing the comparison.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The fodder crisis reported in Chittoor was associated with which of the following conditions?",
+   "o": [
+    "Western Disturbances",
+    "El Niño conditions",
+    "A retreating monsoon surge",
+    "La Niña conditions"
+   ],
+   "a": 1,
+   "x": "The Chittoor fodder crisis was associated with El Niño conditions.",
+   "ty": "application",
+   "tq": "Link the reported local agricultural problem to its stated climatic cause.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly represents Andhra Pradesh’s relative positions in the specified allied-sector indicators?",
+   "o": [
+    "Seventh in eggs, second in sheep numbers, first in poultry numbers, and first in oil palm",
+    "First in eggs, second in sheep numbers, second in poultry numbers, and first in oil palm",
+    "First in eggs, first in sheep numbers, second in poultry numbers, and seventh in oil palm",
+    "Second in eggs, first in sheep numbers, first in poultry numbers, and second in oil palm"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh ranks first in eggs, second in sheep numbers, second in poultry numbers and first in oil palm.",
+   "ty": "comparison",
+   "tq": "Check each ranking in the sequence; one reversed rank makes an entire option incorrect.",
+   "sec": "Universal angles"
+  }
+ ]
+}

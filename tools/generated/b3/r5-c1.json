@@ -1,0 +1,695 @@
+{
+ "book": 3,
+ "row": 5,
+ "chunk": 1,
+ "section": "Occupational structure of India - trends and inter-state variation",
+ "subsections": [
+  "Census worker categories - main, marginal, cultivators, agricultural labourers, household industry, other workers",
+  "Inter-state variation - highest/lowest share in agriculture",
+  "AP occupational structure - workforce share in agriculture vs national average",
+  "Jobless growth - meaning, period, reasons",
+  "Informal/unorganised employment - features, NCEUS, share, social security",
+  "Labour indicators - LFPR, WPR, UR; usual, weekly, daily status"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 49,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "According to Census worker classification, a person is treated as a main worker if he or she worked for how many days or more during the reference year?",
+   "o": [
+    "90 days",
+    "120 days",
+    "183 days",
+    "240 days"
+   ],
+   "a": 2,
+   "x": "A main worker is one who worked for 183 days, or six months, or more during the reference year.",
+   "ty": "fact",
+   "tq": "Use the exact numerical threshold rather than the approximate duration.",
+   "sec": "Census worker categories - main, marginal, cultivators, agricultural labourers, household industry, other workers"
+  },
+  {
+   "s": "A person who worked for less than 183 days during the reference year is classified in the Census as a:",
+   "o": [
+    "Main worker",
+    "Cultivator",
+    "Marginal worker",
+    "Other worker"
+   ],
+   "a": 2,
+   "x": "A marginal worker worked for less than 183 days during the reference year.",
+   "ty": "fact",
+   "tq": "Discriminate between the two worker-duration categories.",
+   "sec": "Census worker categories - main, marginal, cultivators, agricultural labourers, household industry, other workers"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Cultivator — Works on another person's land for wages",
+    "Agricultural labourer — Cultivates only government land",
+    "Household industry worker — Production within the household",
+    "Other worker — Works exclusively in agriculture"
+   ],
+   "a": 2,
+   "x": "A household industry worker is engaged in production within the household, such as handloom work. A cultivator works on own or leased land, while an agricultural labourer works on another person's land for wages.",
+   "ty": "match",
+   "tq": "Match each occupational label with its precise defining activity.",
+   "sec": "Census worker categories - main, marginal, cultivators, agricultural labourers, household industry, other workers"
+  },
+  {
+   "s": "Which of the following occupations falls under the Census category of 'other workers'?",
+   "o": [
+    "Factory, trade, transport, services or government employment",
+    "Household handloom production",
+    "Cultivation of leased land",
+    "Agricultural work on another person's land for wages"
+   ],
+   "a": 0,
+   "x": "The other workers category includes work in factories, trade, transport, services and government, apart from cultivation, agricultural labour and household industry.",
+   "ty": "fact",
+   "tq": "Identify the residual occupational category from its included activities.",
+   "sec": "Census worker categories - main, marginal, cultivators, agricultural labourers, household industry, other workers"
+  },
+  {
+   "s": "With reference to Census 2011 worker data for India, consider the following statements:\n1. The total number of workers was 4,818.89 lakh.\n2. Main workers constituted 75.2 per cent of total workers.\n3. Marginal workers constituted 30.0 per cent of total workers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "India had 4,818.89 lakh workers; main workers constituted 75.2 per cent. Marginal workers constituted 24.8 per cent, not 30.0 per cent.",
+   "ty": "statements",
+   "tq": "Split the options by checking the percentage attached to each worker category.",
+   "sec": "Census worker categories - main, marginal, cultivators, agricultural labourers, household industry, other workers"
+  },
+  {
+   "s": "Which occupational category accounted for the largest share of workers in India according to the Census 2011 figures given below?",
+   "o": [
+    "Agricultural labourers",
+    "Other workers",
+    "Cultivators",
+    "Household industry workers"
+   ],
+   "a": 1,
+   "x": "Other workers accounted for 41.6 per cent, higher than agricultural labourers at 30.0 per cent, cultivators at 24.7 per cent and household industry workers at 3.8 per cent.",
+   "ty": "comparison",
+   "tq": "Compare all percentage rows before selecting the largest category.",
+   "sec": "Census worker categories - main, marginal, cultivators, agricultural labourers, household industry, other workers"
+  },
+  {
+   "s": "Which of the following correctly represents the Census definition of a Census Town?",
+   "o": [
+    "Population of 5,000 or more, at least 50 per cent of total workers in non-agricultural activities, and density of 400 persons per sq km",
+    "Population of 5,000 or more, at least 75 per cent of male workers in non-agricultural activities, and density of at least 400 persons per sq km",
+    "Population of 10,000 or more, at least 50 per cent of male workers in non-agricultural activities, and density of 200 persons per sq km",
+    "Population of 2,500 or more, at least 75 per cent of male workers in non-agricultural activities, and density of 1,000 persons per sq km"
+   ],
+   "a": 1,
+   "x": "The Census Town criteria are population of 5,000 or more, 75 per cent or more of male main workers in non-agricultural activities, and population density of at least 400 persons per sq km.",
+   "ty": "fact",
+   "tq": "Check the population, worker-composition and density conditions together.",
+   "sec": "Census worker categories - main, marginal, cultivators, agricultural labourers, household industry, other workers"
+  },
+  {
+   "s": "The criteria for identifying a Census Town were introduced in 1981 and, as stated, were retained for which Census?",
+   "o": [
+    "Census 2001",
+    "Census 2011",
+    "Census 2021",
+    "Census 2027"
+   ],
+   "a": 3,
+   "x": "The Census Town criteria remained unchanged since 1981 and were retained for Census 2027.",
+   "ty": "chronology",
+   "tq": "Use the unchanged-since date together with the specified future Census.",
+   "sec": "Census worker categories - main, marginal, cultivators, agricultural labourers, household industry, other workers"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched with a high share of the indicated occupational category?",
+   "o": [
+    "Himachal Pradesh — Cultivators",
+    "Nagaland — Agricultural labourers",
+    "Delhi — Other workers",
+    "Bihar — Agricultural labourers"
+   ],
+   "a": 1,
+   "x": "Nagaland is associated with a high cultivator share. Bihar has a high agricultural labourer share, Delhi has a high other-worker share, and Himachal Pradesh has a high cultivator share.",
+   "ty": "negative",
+   "tq": "Find the state-category mismatch rather than the true pair.",
+   "sec": "Inter-state variation - highest/lowest share in agriculture"
+  },
+  {
+   "s": "High shares of agricultural labourers are associated with which of the following states?\n1. Bihar\n2. Andhra Pradesh\n3. Chhattisgarh\n4. Odisha\n5. Jharkhand\n6. West Bengal\n7. Madhya Pradesh\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2, 3 and 4 only",
+    "1, 2, 3, 4, 5, 6 and 7",
+    "2, 4, 5 and 7 only",
+    "1, 3, 6 and 7 only"
+   ],
+   "a": 1,
+   "x": "All seven listed states are identified as having high shares of agricultural labourers.",
+   "ty": "statements",
+   "tq": "Recognise the complete state cluster instead of eliminating individual members.",
+   "sec": "Inter-state variation - highest/lowest share in agriculture"
+  },
+  {
+   "s": "Which one of the following is most closely associated with a high share of 'other workers', particularly in services?",
+   "o": [
+    "Urbanised Delhi, Chandigarh and Puducherry",
+    "Bihar, Odisha and Jharkhand",
+    "Himachal Pradesh, Nagaland and Sikkim",
+    "Chhattisgarh, West Bengal and Madhya Pradesh"
+   ],
+   "a": 0,
+   "x": "Urbanised Delhi, Chandigarh and Puducherry have high shares of other workers, including service-sector workers.",
+   "ty": "fact",
+   "tq": "Link the residual service-oriented category with the urbanised states.",
+   "sec": "Inter-state variation - highest/lowest share in agriculture"
+  },
+  {
+   "s": "Work participation tends to be higher in less developed areas because:",
+   "o": [
+    "Formal-sector employment is universally higher in such areas",
+    "Urban service employment is concentrated there",
+    "Subsistence needs require greater participation in manual labour",
+    "Agricultural activities are absent from such areas"
+   ],
+   "a": 2,
+   "x": "Work participation is higher in several less developed areas because subsistence needs lead to greater reliance on manual labour.",
+   "ty": "application",
+   "tq": "Apply the stated cause to the observed regional pattern.",
+   "sec": "Inter-state variation - highest/lowest share in agriculture"
+  },
+  {
+   "s": "Which of the following statements regarding recent changes in female labour force participation is correct?",
+   "o": [
+    "Rural gains were led by West Bengal, Uttar Pradesh and Bihar, while urban gains were seen in Rajasthan and Gujarat.",
+    "Rural gains were led by Rajasthan and Gujarat, while urban gains were led by West Bengal and Bihar.",
+    "Urban gains were led by Himachal Pradesh and Nagaland, while rural gains were led by Delhi and Chandigarh.",
+    "Both rural and urban gains were led exclusively by Andhra Pradesh."
+   ],
+   "a": 0,
+   "x": "Rural women's LFPR gains were led by West Bengal, Uttar Pradesh and Bihar; urban gains occurred in Rajasthan and Gujarat.",
+   "ty": "comparison",
+   "tq": "Keep the rural and urban state groups separate to avoid reversal.",
+   "sec": "Inter-state variation - highest/lowest share in agriculture"
+  },
+  {
+   "s": "According to Census 2011 data for the 13-district Andhra Pradesh, which statement is correct?",
+   "o": [
+    "Agricultural labourers formed 30.0 per cent of workers, equal to the national figure.",
+    "Cultivators formed 24.7 per cent of workers, equal to the national figure.",
+    "Other workers formed 34.8 per cent of workers, compared with 41.6 per cent for India.",
+    "Agricultural labourers formed 47.9 per cent of workers, compared with 30.0 per cent for India."
+   ],
+   "a": 3,
+   "x": "Agricultural labourers constituted 47.9 per cent of workers in the 13-district Andhra Pradesh, compared with 30.0 per cent in India.",
+   "ty": "comparison",
+   "tq": "Compare the AP and India columns without reversing their order.",
+   "sec": "AP occupational structure - workforce share in agriculture vs national average"
+  },
+  {
+   "s": "Consider the following statements regarding the Census 2011 occupational structure of Andhra Pradesh and India:\n1. The share of cultivators in Andhra Pradesh was lower than the national share.\n2. The share of all agricultural workers in Andhra Pradesh was higher than the national share.\n3. The share of other workers in Andhra Pradesh was lower than the national share.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "AP had a lower cultivator share, 14.5 per cent against 24.7 per cent; a higher all-agriculture share, 62.4 per cent against 54.6 per cent; and a lower other-worker share, 34.8 per cent against 41.6 per cent.",
+   "ty": "statements",
+   "tq": "Compare the direction of each AP–India difference.",
+   "sec": "AP occupational structure - workforce share in agriculture vs national average"
+  },
+  {
+   "s": "The total number of workers recorded for Andhra Pradesh and India in the Census 2011 comparison was respectively:",
+   "o": [
+    "230.81 lakh and 4,818.89 lakh",
+    "230.81 lakh and 3,625.66 lakh",
+    "1,193.23 lakh and 4,818.89 lakh",
+    "4,818.89 lakh and 230.81 lakh"
+   ],
+   "a": 0,
+   "x": "The 13-district Andhra Pradesh had 230.81 lakh workers, while India had 4,818.89 lakh workers.",
+   "ty": "numerical",
+   "tq": "Read the two figures in their stated geographical order.",
+   "sec": "AP occupational structure - workforce share in agriculture vs national average"
+  },
+  {
+   "s": "Which of the following correctly represents the relationship between agricultural labourers and cultivators in Andhra Pradesh and India?",
+   "o": [
+    "In AP, labourers outnumbered cultivators about 3:1; in India, the ratio was about 1.2:1.",
+    "In AP, labourers and cultivators were equal in number; in India, cultivators outnumbered labourers about 1.2:1.",
+    "In AP, cultivators outnumbered labourers about 3:1; in India, the ratio was about 1.2:1.",
+    "In both AP and India, labourers outnumbered cultivators about 3:1."
+   ],
+   "a": 0,
+   "x": "Agricultural labourers outnumbered cultivators about three to one in AP, while the corresponding Indian ratio was about 1.2 to 1.",
+   "ty": "comparison",
+   "tq": "Check both the direction and the approximate ratio in each region.",
+   "sec": "AP occupational structure - workforce share in agriculture vs national average"
+  },
+  {
+   "s": "The share of India's main agricultural labourers accounted for by Andhra Pradesh was approximately:",
+   "o": [
+    "4.99 per cent",
+    "9.99 per cent",
+    "14.99 per cent",
+    "19.99 per cent"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh's main agricultural labourers constituted 9.99 per cent of India's main agricultural labourers.",
+   "ty": "numerical",
+   "tq": "Select the exact percentage rather than confusing it with the occupational share within AP.",
+   "sec": "AP occupational structure - workforce share in agriculture vs national average"
+  },
+  {
+   "s": "According to PLFS 2023–24 data for Andhra Pradesh, which sector was the largest employer?",
+   "o": [
+    "Agriculture",
+    "Services",
+    "Construction alone",
+    "Manufacturing and industry"
+   ],
+   "a": 0,
+   "x": "Agriculture was the largest employer in Andhra Pradesh at 45.6 per cent, followed by services at 31.6 per cent and manufacturing and industry at 22.8 per cent.",
+   "ty": "fact",
+   "tq": "Identify the largest sector by comparing the sectoral shares.",
+   "sec": "AP occupational structure - workforce share in agriculture vs national average"
+  },
+  {
+   "s": "Arrange the following sectors of Andhra Pradesh in descending order of their workforce shares in PLFS 2023–24:\nA. Services\nB. Agriculture\nC. Manufacturing and industry\nD. Construction",
+   "o": [
+    "B, A, C, D",
+    "A, B, C, D",
+    "B, C, A, D",
+    "D, C, A, B"
+   ],
+   "a": 0,
+   "x": "The shares were agriculture 45.6 per cent, services 31.6 per cent, manufacturing and industry 22.8 per cent, and construction 12.3 per cent.",
+   "ty": "chronology",
+   "tq": "Order the items by magnitude, starting with the largest share.",
+   "sec": "AP occupational structure - workforce share in agriculture vs national average"
+  },
+  {
+   "s": "Which of the following correctly compares agricultural employment in Andhra Pradesh and India under PLFS 2023–24?",
+   "o": [
+    "AP agriculture accounted for 54.6 per cent, close to India's 62.4 per cent.",
+    "AP agriculture accounted for 46.1 per cent, close to India's 45.6 per cent.",
+    "AP agriculture accounted for 45.6 per cent, close to India's 46.1 per cent.",
+    "AP agriculture accounted for 31.6 per cent, close to India's 30.0 per cent."
+   ],
+   "a": 2,
+   "x": "Agriculture accounted for 45.6 per cent of employment in AP, close to India's 46.1 per cent.",
+   "ty": "comparison",
+   "tq": "Distinguish the PLFS figures from the Census occupational shares.",
+   "sec": "AP occupational structure - workforce share in agriculture vs national average"
+  },
+  {
+   "s": "Which one of the following correctly states the Andhra Pradesh labour indicators for 2023–24?",
+   "o": [
+    "LFPR 47.5 per cent, WPR 45.6 per cent and unemployment rate 4.1 per cent",
+    "LFPR 54.6 per cent, WPR 62.4 per cent and unemployment rate 3.1 per cent",
+    "LFPR 47.5 per cent, WPR 4.1 per cent and unemployment rate 45.6 per cent",
+    "LFPR 45.6 per cent, WPR 47.5 per cent and unemployment rate 4.1 per cent"
+   ],
+   "a": 0,
+   "x": "For AP in 2023–24, LFPR was 47.5 per cent, WPR was 45.6 per cent and unemployment was 4.1 per cent.",
+   "ty": "numerical",
+   "tq": "Keep LFPR, WPR and unemployment rate conceptually distinct while matching the figures.",
+   "sec": "AP occupational structure - workforce share in agriculture vs national average"
+  },
+  {
+   "s": "Which of the following pairs relating to Andhra Pradesh in 2023–24 is NOT correctly matched?",
+   "o": [
+    "Youth unemployment rate, ages 15–29 — 17.5 per cent",
+    "Urban informal employment — 62.3 per cent",
+    "Female WPR — 34.5 per cent",
+    "Rural informal employment — 62.3 per cent"
+   ],
+   "a": 1,
+   "x": "Urban informal employment was 45.6 per cent, whereas rural informal employment was 62.3 per cent. The female WPR was 34.5 per cent and youth unemployment was 17.5 per cent.",
+   "ty": "negative",
+   "tq": "Locate the reversed rural–urban figure.",
+   "sec": "AP occupational structure - workforce share in agriculture vs national average"
+  },
+  {
+   "s": "The term 'jobless growth' refers to a situation in which:",
+   "o": [
+    "Employment increases only in agriculture while GDP remains constant",
+    "GDP declines despite a rise in formal employment",
+    "The labour force contracts because of population decline",
+    "Output increases without a matching increase in employment, particularly quality formal employment"
+   ],
+   "a": 3,
+   "x": "Jobless growth denotes GDP or output growth that is not matched by adequate employment growth, especially growth in formal and quality jobs.",
+   "ty": "application",
+   "tq": "Apply the concept to the relationship between output and employment.",
+   "sec": "Jobless growth - meaning, period, reasons"
+  },
+  {
+   "s": "The phenomenon of jobless growth became especially evident in India during:",
+   "o": [
+    "The early 1950s",
+    "The late 1990s",
+    "The late 1960s",
+    "The late 2020s"
+   ],
+   "a": 1,
+   "x": "In the late 1990s, employment growth fell to early-plan levels even while GDP continued to grow.",
+   "ty": "fact",
+   "tq": "Distinguish the period of the employment slowdown from the general planning period.",
+   "sec": "Jobless growth - meaning, period, reasons"
+  },
+  {
+   "s": "Which of the following is identified as a reason for the weakening of formal factory employment during 2011–2023?",
+   "o": [
+    "Firms abolished all contract employment in favour of permanent workers.",
+    "The entire factory workforce shifted to government employment.",
+    "Firms moved away from formal employment in response to the need for flexibility.",
+    "Direct factory employment rose from 47 per cent to 61 per cent."
+   ],
+   "a": 2,
+   "x": "Firms increasingly sought flexibility by moving away from direct formal employment towards contractual arrangements.",
+   "ty": "application",
+   "tq": "Identify the causal statement rather than the reversed trend.",
+   "sec": "Jobless growth - meaning, period, reasons"
+  },
+  {
+   "s": "Which of the following correctly describes the change in direct factory employment and the share of contract workers during 2011–2023?",
+   "o": [
+    "Direct employment fell from 61 per cent to 47 per cent; contract workers formed 42 per cent of the factory workforce.",
+    "Direct employment remained at 61 per cent; contract workers formed 47 per cent.",
+    "Direct employment fell from 61 per cent to 42 per cent; contract workers formed 47 per cent.",
+    "Direct employment increased from 47 per cent to 61 per cent; contract workers formed 24 per cent."
+   ],
+   "a": 0,
+   "x": "Direct factory employment fell from 61 per cent to 47 per cent between 2011 and 2023, while contract workers accounted for 42 per cent of the factory workforce.",
+   "ty": "numerical",
+   "tq": "Check both endpoints and the separate contract-worker percentage.",
+   "sec": "Jobless growth - meaning, period, reasons"
+  },
+  {
+   "s": "Approximately how many people enter India's job market every year, as cited in the context of jobless growth?",
+   "o": [
+    "1.2 million",
+    "1.2 billion",
+    "12 million",
+    "120 million"
+   ],
+   "a": 2,
+   "x": "About 12 million people enter the Indian job market every year, creating pressure for adequate employment generation.",
+   "ty": "numerical",
+   "tq": "Use the correct scale of the annual labour-market inflow.",
+   "sec": "Jobless growth - meaning, period, reasons"
+  },
+  {
+   "s": "Which of the following is a characteristic of the unorganised sector?",
+   "o": [
+    "Small and scattered units with low pay, weak job security and few social benefits",
+    "Large, concentrated units operating entirely under government control",
+    "Only incorporated companies with compulsory social insurance",
+    "Government departments employing permanent workers"
+   ],
+   "a": 0,
+   "x": "The unorganised sector consists largely of small and scattered units outside effective government control, with low pay, little job security and few social benefits.",
+   "ty": "fact",
+   "tq": "Select the option containing the complete feature cluster.",
+   "sec": "Informal/unorganised employment - features, NCEUS, share, social security"
+  },
+  {
+   "s": "According to the NCEUS definition, an unorganised enterprise is generally an unincorporated private enterprise owned by individuals or households, operating on a proprietary or partnership basis and employing:",
+   "o": [
+    "Exactly 10 workers only",
+    "Between 10 and 50 workers",
+    "Fewer than 10 workers",
+    "More than 100 workers"
+   ],
+   "a": 2,
+   "x": "The NCEUS definition covers unincorporated private enterprises owned by individuals or households, on a proprietary or partnership basis, with fewer than 10 workers.",
+   "ty": "fact",
+   "tq": "Use the institutional definition and its worker-size threshold together.",
+   "sec": "Informal/unorganised employment - features, NCEUS, share, social security"
+  },
+  {
+   "s": "Who chaired the National Commission for Enterprises in the Unorganised Sector (NCEUS)?",
+   "o": [
+    "Arjun Sengupta",
+    "Montek Singh Ahluwalia",
+    "Rangarajan",
+    "Amartya Sen"
+   ],
+   "a": 0,
+   "x": "Arjun Sengupta was the chairman of the NCEUS.",
+   "ty": "fact",
+   "tq": "Associate the commission with its named chairperson, avoiding nearby economic experts.",
+   "sec": "Informal/unorganised employment - features, NCEUS, share, social security"
+  },
+  {
+   "s": "Which of the following statements regarding informal employment is correct?\n1. About 90 per cent of the workforce is informal.\n2. Informal employment accounts for about 78 per cent of non-farm jobs according to PLFS 2022–23.\n3. New EPFO jobs may still be short-term or contractual, a phenomenon described as formal informality.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the informal workforce share is about 90 per cent, informal non-farm jobs were about 78 per cent, and short-term or contractual EPFO jobs illustrate formal informality.",
+   "ty": "statements",
+   "tq": "Test the broad workforce share, the non-farm share and the qualifying concept separately.",
+   "sec": "Informal/unorganised employment - features, NCEUS, share, social security"
+  },
+  {
+   "s": "The NSS 73rd Round (2015–16) estimated that unincorporated non-agricultural enterprises employed approximately:",
+   "o": [
+    "1.1 crore people",
+    "5.5 crore people",
+    "11 crore people",
+    "21 crore people"
+   ],
+   "a": 2,
+   "x": "The NSS 73rd Round estimated employment of about 11 crore people in unincorporated non-agricultural enterprises.",
+   "ty": "numerical",
+   "tq": "Distinguish the crore-scale estimate from smaller and larger distractors.",
+   "sec": "Informal/unorganised employment - features, NCEUS, share, social security"
+  },
+  {
+   "s": "Working owners currently constitute what share of the workforce of unincorporated non-agricultural enterprises?",
+   "o": [
+    "20 per cent",
+    "40 per cent",
+    "60 per cent",
+    "80 per cent"
+   ],
+   "a": 2,
+   "x": "Working owners constitute 60 per cent of the workforce of these enterprises.",
+   "ty": "numerical",
+   "tq": "Match the ownership-related workforce figure with the correct enterprise category.",
+   "sec": "Informal/unorganised employment - features, NCEUS, share, social security"
+  },
+  {
+   "s": "Which of the following correctly matches the labour Codes with the years mentioned?",
+   "o": [
+    "Code on Wages — 2019; Industrial Relations, Social Security and OSH Codes — 2020",
+    "Code on Wages — 2020; Industrial Relations, Social Security and OSH Codes — 2019",
+    "All four Codes — 2015",
+    "Code on Wages — 2025; the remaining Codes — 2026"
+   ],
+   "a": 0,
+   "x": "Twenty-nine labour laws were merged into four Codes: the Code on Wages in 2019 and the Industrial Relations, Social Security and Occupational Safety, Health and Working Conditions Codes in 2020.",
+   "ty": "match",
+   "tq": "Match the principal Code with its year and avoid reversing the two dates.",
+   "sec": "Informal/unorganised employment - features, NCEUS, share, social security"
+  },
+  {
+   "s": "Which of the following statements about labour-law formalisation is correct?\n1. Draft central rules were issued in December 2025.\n2. Formalisation is expected to rise from 60.4 per cent to 75.5 per cent.\n3. The expectation includes 77 lakh jobs by 2029–30.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Draft central rules were issued in December 2025, and the projections envisage formalisation rising from 60.4 per cent to 75.5 per cent along with 77 lakh jobs by 2029–30.",
+   "ty": "statements",
+   "tq": "Check the date, the two percentage levels and the employment projection together.",
+   "sec": "Informal/unorganised employment - features, NCEUS, share, social security"
+  },
+  {
+   "s": "India's social protection coverage increased from 19 per cent in 2015 to what level in 2025?",
+   "o": [
+    "44.3 per cent",
+    "54.3 per cent",
+    "64.3 per cent",
+    "74.3 per cent"
+   ],
+   "a": 2,
+   "x": "Social protection coverage rose from 19 per cent in 2015 to 64.3 per cent in 2025.",
+   "ty": "numerical",
+   "tq": "Recall the endpoint of the coverage increase without confusing it with the formalisation projection.",
+   "sec": "Informal/unorganised employment - features, NCEUS, share, social security"
+  },
+  {
+   "s": "In 2025, India ranked second after which country in social protection coverage?",
+   "o": [
+    "China",
+    "Germany",
+    "Brazil",
+    "Japan"
+   ],
+   "a": 0,
+   "x": "India ranked second after China in social protection coverage in 2025.",
+   "ty": "fact",
+   "tq": "Identify the immediately preceding country in the stated ranking.",
+   "sec": "Informal/unorganised employment - features, NCEUS, share, social security"
+  },
+  {
+   "s": "The Labour Force Participation Rate (LFPR) is defined as:",
+   "o": [
+    "Employed persons as a percentage of the population",
+    "Unemployed persons as a percentage of the population",
+    "Unemployed persons as a percentage of the labour force",
+    "Persons in the labour force, employed plus unemployed, per 100 persons"
+   ],
+   "a": 3,
+   "x": "LFPR is the number of persons in the labour force, comprising employed and unemployed persons, per 100 persons.",
+   "ty": "fact",
+   "tq": "Distinguish labour-force participation from employment and unemployment ratios.",
+   "sec": "Labour indicators - LFPR, WPR, UR; usual, weekly, daily status"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes the Unemployment Rate (UR) from the proportion of unemployed (PU)?",
+   "o": [
+    "UR is unemployed persons as a percentage of labour force; PU is unemployed persons as a percentage of population.",
+    "UR is unemployed persons as a percentage of population; PU is unemployed persons as a percentage of labour force.",
+    "Both UR and PU are unemployed persons as a percentage of labour force.",
+    "Both UR and PU are employed persons as a percentage of population."
+   ],
+   "a": 0,
+   "x": "UR is unemployed persons as a percentage of the labour force, whereas PU is unemployed persons as a percentage of the population.",
+   "ty": "confusable",
+   "tq": "Focus on the denominator to distinguish two similar indicators.",
+   "sec": "Labour indicators - LFPR, WPR, UR; usual, weekly, daily status"
+  },
+  {
+   "s": "Under the usual status approach, the reference period is:",
+   "o": [
+    "The preceding 1,000 days",
+    "The preceding 365 days",
+    "The preceding 7 days",
+    "The preceding 30 days"
+   ],
+   "a": 1,
+   "x": "Usual status uses a reference period of 365 days.",
+   "ty": "fact",
+   "tq": "Match each status approach with its reference-period length.",
+   "sec": "Labour indicators - LFPR, WPR, UR; usual, weekly, daily status"
+  },
+  {
+   "s": "Under the Usual Principal and Subsidiary Status (UPSS) approach, a person is counted as employed if he or she worked for at least:",
+   "o": [
+    "30 days in the reference year",
+    "183 days in the reference year",
+    "7 days in the reference year",
+    "1 hour in the reference week"
+   ],
+   "a": 0,
+   "x": "Under UPSS, a person is considered employed if he or she worked for at least 30 days in the year. Unemployment measured on usual status reflects chronic unemployment.",
+   "ty": "fact",
+   "tq": "Do not confuse the UPSS threshold with the Census main-worker threshold.",
+   "sec": "Labour indicators - LFPR, WPR, UR; usual, weekly, daily status"
+  },
+  {
+   "s": "Current Weekly Status (CWS) captures short-term or seasonal unemployment because it considers whether a person worked:",
+   "o": [
+    "For at least 30 days in the preceding year",
+    "For at least one hour on any day during the preceding seven days",
+    "On every day of the preceding month",
+    "For at least 183 days in the preceding year"
+   ],
+   "a": 1,
+   "x": "CWS covers a seven-day reference period and counts a person as employed if the person worked for at least one hour on any day during that period.",
+   "ty": "application",
+   "tq": "Link the short reference period and one-hour rule with short-term unemployment.",
+   "sec": "Labour indicators - LFPR, WPR, UR; usual, weekly, daily status"
+  },
+  {
+   "s": "Current Daily Status (CDS) records a person's activity:",
+   "o": [
+    "Only during the principal activity of the year",
+    "Only on the last day of the year",
+    "For each day of the reference week",
+    "For one hour on any day of the month"
+   ],
+   "a": 2,
+   "x": "CDS records the activity status for each day of the reference week.",
+   "ty": "fact",
+   "tq": "Distinguish daily status from usual and weekly status reference rules.",
+   "sec": "Labour indicators - LFPR, WPR, UR; usual, weekly, daily status"
+  },
+  {
+   "s": "According to PLFS for January–March 2026 under Current Weekly Status, which combination is correct?",
+   "o": [
+    "UR 6.6 per cent; urban UR 5.0 per cent; rural UR 3.1 per cent",
+    "UR 3.1 per cent; urban UR 4.3 per cent; rural UR 6.6 per cent",
+    "UR 5.0 per cent; urban UR 6.6 per cent; rural UR 4.3 per cent",
+    "UR 4.3 per cent; urban UR 3.1 per cent; rural UR 5.0 per cent"
+   ],
+   "a": 2,
+   "x": "The overall UR was 5.0 per cent, with urban unemployment at 6.6 per cent and rural unemployment at 4.3 per cent.",
+   "ty": "numerical",
+   "tq": "Keep the overall, urban and rural figures in their stated order.",
+   "sec": "Labour indicators - LFPR, WPR, UR; usual, weekly, daily status"
+  },
+  {
+   "s": "Which of the following correctly states the remaining PLFS January–March 2026 CWS indicators?",
+   "o": [
+    "LFPR 34.7 per cent, female LFPR 52.8 per cent and WPR 55.5 per cent",
+    "LFPR 55.5 per cent, female LFPR 52.8 per cent and WPR 34.7 per cent",
+    "LFPR 52.8 per cent, female LFPR 55.5 per cent and WPR 34.7 per cent",
+    "LFPR 55.5 per cent, female LFPR 34.7 per cent and WPR 52.8 per cent"
+   ],
+   "a": 3,
+   "x": "The January–March 2026 CWS figures were LFPR 55.5 per cent, female LFPR 34.7 per cent and WPR 52.8 per cent.",
+   "ty": "numerical",
+   "tq": "Separate the overall LFPR, female LFPR and WPR figures by indicator name.",
+   "sec": "Labour indicators - LFPR, WPR, UR; usual, weekly, daily status"
+  },
+  {
+   "s": "Which of the following correctly compares the annual PLFS unemployment rates for 2022 and 2025?",
+   "o": [
+    "The rate declined from 5.0 per cent in 2022 to 3.6 per cent in 2025.",
+    "The rate increased from 3.1 per cent in 2022 to 3.6 per cent in 2025.",
+    "The rate remained unchanged at 3.1 per cent in both years.",
+    "The rate declined from 3.6 per cent in 2022 to 3.1 per cent in 2025."
+   ],
+   "a": 3,
+   "x": "Annual PLFS unemployment declined from 3.6 per cent in 2022 to 3.1 per cent in 2025.",
+   "ty": "comparison",
+   "tq": "Check both the direction of change and the year attached to each figure.",
+   "sec": "Labour indicators - LFPR, WPR, UR; usual, weekly, daily status"
+  },
+  {
+   "s": "The youth unemployment rate for the 15–29 age group in annual PLFS 2025 was:",
+   "o": [
+    "4.1 per cent",
+    "9.9 per cent",
+    "17.5 per cent",
+    "34.7 per cent"
+   ],
+   "a": 1,
+   "x": "The youth unemployment rate for persons aged 15–29 was 9.9 per cent in annual PLFS 2025.",
+   "ty": "numerical",
+   "tq": "Distinguish the all-age, AP youth and national youth unemployment figures.",
+   "sec": "Labour indicators - LFPR, WPR, UR; usual, weekly, daily status"
+  }
+ ]
+}

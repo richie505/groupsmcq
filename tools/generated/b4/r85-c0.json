@@ -1,0 +1,570 @@
+{
+ "book": 4,
+ "row": 85,
+ "chunk": 0,
+ "section": "Industrial location - factors and theories (Weber); world industrial regions",
+ "subsections": [
+  "World iron and steel regions → country",
+  "Footloose industries and agglomeration economies",
+  "World industrial regions and centres → country and industry",
+  "Industrial city nicknames → city/region",
+  "Factors of industrial location",
+  "Leading producers - steel ranking, shipbuilding centres",
+  "Weber's theory - locational triangle, material index, materials"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The Atlantic Coast iron and steel region is located in which country?",
+   "o": [
+    "Germany",
+    "USA",
+    "Russia",
+    "France"
+   ],
+   "a": 1,
+   "x": "The Atlantic Coast iron and steel region, including Baltimore and Bethlehem, is in the USA.",
+   "ty": "fact",
+   "tq": "Use the region–country association directly.",
+   "sec": "World iron and steel regions → country"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Ural — France",
+    "Lorraine — Ukraine",
+    "Donbas — Ukraine",
+    "Anshan — Japan"
+   ],
+   "a": 2,
+   "x": "Donbas is an iron and steel region of Ukraine, with Donetsk as its key centre.",
+   "ty": "match",
+   "tq": "Start from the sure region–country pair.",
+   "sec": "World iron and steel regions → country"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Great Lakes — USA\n2. Ruhr — Germany\n3. Lorraine — France\n4. Kitakyushu — Japan\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. The Great Lakes, Ruhr, Lorraine and Kitakyushu regions belong respectively to the USA, Germany, France and Japan.",
+   "ty": "statements",
+   "tq": "Check every region–country pair before selecting the complete combination.",
+   "sec": "World iron and steel regions → country"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Great Lakes — Pittsburgh and Gary",
+    "Ural — Magnitogorsk and Chelyabinsk",
+    "Ruhr — Metz and Nancy",
+    "Atlantic Coast — Baltimore and Bethlehem"
+   ],
+   "a": 2,
+   "x": "Metz and Nancy are centres of the Lorraine region in France. Essen, Duisburg and Dortmund are centres of the Ruhr region.",
+   "ty": "negative",
+   "tq": "Find the swapped key-centre pair.",
+   "sec": "World iron and steel regions → country"
+  },
+  {
+   "s": "Anshan, an important iron and steel region, is situated in which part of China?",
+   "o": [
+    "Xinjiang in western China",
+    "Liaoning in north-east China",
+    "Sichuan in south-west China",
+    "Guangdong in south China"
+   ],
+   "a": 1,
+   "x": "Anshan is located in Liaoning in north-east China; Benxi is another important centre in the region.",
+   "ty": "fact",
+   "tq": "Discriminate the precise regional location rather than only the country.",
+   "sec": "World iron and steel regions → country"
+  },
+  {
+   "s": "Which one of the following is a correct statement regarding steel production and location?",
+   "o": [
+    "Steel plants require no coking coal or limestone.",
+    "Steel is weight-gaining and plants are generally located near markets only.",
+    "Steel is a footloose industry because its raw materials are weightless.",
+    "About four tonnes of raw materials produce one tonne of steel, encouraging location near coalfields or ore fields."
+   ],
+   "a": 3,
+   "x": "Steel is weight-losing: about four tonnes of iron ore, coking coal, limestone and dolomite produce one tonne of steel. This encourages location near coalfields or ore fields.",
+   "ty": "application",
+   "tq": "Apply the weight-loss principle to industrial location.",
+   "sec": "World iron and steel regions → country"
+  },
+  {
+   "s": "Which one of the following is a characteristic of footloose industries?",
+   "o": [
+    "They are necessarily highly polluting heavy industries.",
+    "They are generally light, high-value and have low transport costs.",
+    "They can operate only in mining regions.",
+    "They must be located beside bulky raw materials."
+   ],
+   "a": 1,
+   "x": "Footloose industries are not tied to a particular raw-material source or fixed location. Diamond cutting, electronics, software and watch-making are examples.",
+   "ty": "fact",
+   "tq": "Use the defining characteristics to eliminate location-bound industries.",
+   "sec": "Footloose industries and agglomeration economies"
+  },
+  {
+   "s": "Which one of the following was identified as a footloose industry?",
+   "o": [
+    "Cement manufacturing",
+    "Iron and steel",
+    "Sugar refining",
+    "Diamond cutting"
+   ],
+   "a": 3,
+   "x": "Diamond cutting is a footloose industry because it is light, high-value and not tied to a specific raw-material location.",
+   "ty": "fact",
+   "tq": "Recall the representative example of a concept.",
+   "sec": "Footloose industries and agglomeration economies"
+  },
+  {
+   "s": "Agglomeration economies refer to cost savings obtained by firms primarily through:",
+   "o": [
+    "locating only in isolated rural areas",
+    "depending exclusively on imported raw materials",
+    "clustering and sharing infrastructure, suppliers and skilled labour",
+    "avoiding all forms of competition"
+   ],
+   "a": 2,
+   "x": "Agglomeration economies arise when firms cluster and benefit from shared infrastructure, specialised suppliers and a common skilled-labour pool.",
+   "ty": "application",
+   "tq": "Identify the economic effect of industrial clustering.",
+   "sec": "Footloose industries and agglomeration economies"
+  },
+  {
+   "s": "Which of the following are examples of industrial clusters associated with agglomeration economies?\n1. Mumbai–Pune\n2. Chennai–Bengaluru\n3. Delhi-NCR\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Mumbai–Pune, Chennai–Bengaluru and Delhi-NCR are all examples of industrial clusters benefiting from agglomeration economies.",
+   "ty": "statements",
+   "tq": "Recognise the complete list of cluster examples.",
+   "sec": "Footloose industries and agglomeration economies"
+  },
+  {
+   "s": "Which statement correctly describes the location of cotton textile industries?",
+   "o": [
+    "They are necessarily located at cotton-producing farms because cotton is weight-losing.",
+    "They can be located only near coalfields.",
+    "They are non-weight-losing and therefore are not bound to raw-material sites.",
+    "They are market-based because cotton gains weight during processing."
+   ],
+   "a": 2,
+   "x": "Cotton textiles are non-weight-losing industries and therefore are not necessarily tied to the location of raw cotton.",
+   "ty": "confusable",
+   "tq": "Separate non-weight-losing cotton textiles from weight-losing industries.",
+   "sec": "Footloose industries and agglomeration economies"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Lancashire — Cotton textiles",
+    "Flanders — Automobiles",
+    "Po Valley — Woollen textiles only",
+    "Great Kanawha Valley — Shipbuilding"
+   ],
+   "a": 0,
+   "x": "Lancashire, including Manchester, is a major cotton-textile region of the United Kingdom.",
+   "ty": "match",
+   "tq": "Begin with the familiar region–industry association.",
+   "sec": "World industrial regions and centres → country and industry"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Kinki — Japan\n2. Po Valley — Italy\n3. Flanders — Belgium\n4. Great Kanawha Valley — USA\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Kinki is in Japan, Po Valley in Italy, Flanders in Belgium and the Great Kanawha Valley in the USA.",
+   "ty": "statements",
+   "tq": "Test country identification across several industrial regions.",
+   "sec": "World industrial regions and centres → country and industry"
+  },
+  {
+   "s": "The Po Valley industrial region is particularly associated with:",
+   "o": [
+    "shipbuilding and cigars",
+    "woollen and linen textiles alone",
+    "chemicals alone",
+    "engineering, automobiles and textiles"
+   ],
+   "a": 3,
+   "x": "The Po Valley, with centres such as Milan and Turin, is associated with engineering, automobiles and textiles.",
+   "ty": "fact",
+   "tq": "Match the region with its industrial combination.",
+   "sec": "World industrial regions and centres → country and industry"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Detroit — Automobiles",
+    "St. Petersburg — Shipbuilding",
+    "Cuba — Iron and steel",
+    "Osaka — Cotton textiles"
+   ],
+   "a": 2,
+   "x": "Cuba is associated with cigars, not iron and steel. Osaka, Detroit and St. Petersburg are associated respectively with cotton textiles, automobiles and shipbuilding.",
+   "ty": "negative",
+   "tq": "Locate the industry deliberately swapped with a familiar centre.",
+   "sec": "World industrial regions and centres → country and industry"
+  },
+  {
+   "s": "Kinki, comprising Osaka, Kobe and Kyoto, is best described as a:",
+   "o": [
+    "specialised cigar-producing region",
+    "dense industrial belt with textiles and heavy industry",
+    "sparsely populated mining zone",
+    "single-city shipbuilding centre"
+   ],
+   "a": 1,
+   "x": "Kinki is a dense industrial belt of Japan associated with textiles and heavy industry.",
+   "ty": "fact",
+   "tq": "Use the regional description rather than a single-industry label.",
+   "sec": "World industrial regions and centres → country and industry"
+  },
+  {
+   "s": "Which of the following is not a United States industrial region or centre in the classification given?\n1. Cincinnati–Indianapolis\n2. Great Kanawha Valley\n3. Michigan lake region\n4. Midlands\nSelect the correct answer.",
+   "o": [
+    "3 and 4 only",
+    "1 only",
+    "2 only",
+    "4 only"
+   ],
+   "a": 3,
+   "x": "Midlands is an industrial region of England, not of the United States. Cincinnati–Indianapolis, Great Kanawha Valley and the Michigan lake region are associated with the USA.",
+   "ty": "negative",
+   "tq": "Use geographical exclusion to detect the non-US region.",
+   "sec": "World industrial regions and centres → country and industry"
+  },
+  {
+   "s": "The nickname ‘Manchester of the East’ refers to:",
+   "o": [
+    "Aberdeen",
+    "Chennai",
+    "Osaka",
+    "Chotanagpur"
+   ],
+   "a": 2,
+   "x": "Osaka in Japan is known as the ‘Manchester of the East’.",
+   "ty": "fact",
+   "tq": "Distinguish city nicknames with similar industrial associations.",
+   "sec": "Industrial city nicknames → city/region"
+  },
+  {
+   "s": "The ‘Detroit of India’ is:",
+   "o": [
+    "Jamshedpur",
+    "Chennai",
+    "Visakhapatnam",
+    "Bengaluru"
+   ],
+   "a": 1,
+   "x": "Chennai is referred to as the ‘Detroit of India’.",
+   "ty": "fact",
+   "tq": "Recall the Indian city associated with automobile production.",
+   "sec": "Industrial city nicknames → city/region"
+  },
+  {
+   "s": "The term ‘Ruhr of India’ is associated with:",
+   "o": [
+    "Chotanagpur",
+    "Mumbai–Pune",
+    "Chennai",
+    "Kutch"
+   ],
+   "a": 0,
+   "x": "Chotanagpur is known as the ‘Ruhr of India’.",
+   "ty": "fact",
+   "tq": "Separate the regional nickname from city-based nicknames.",
+   "sec": "Industrial city nicknames → city/region"
+  },
+  {
+   "s": "The ‘Rust Belt’ or ‘Rust Bowl’ refers to the:",
+   "o": [
+    "new software corridor of southern India",
+    "old manufacturing belt of the north-eastern USA and Great Lakes",
+    "textile region of northern France",
+    "oil-producing belt of Scotland"
+   ],
+   "a": 1,
+   "x": "Rust Belt or Rust Bowl denotes the old manufacturing belt of the north-eastern United States and the Great Lakes region.",
+   "ty": "fact",
+   "tq": "Identify the spatial extent behind the nickname.",
+   "sec": "Industrial city nicknames → city/region"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Raw-material-based industry — sugar",
+    "Raw-material-based industry — bakery",
+    "Market-based industry — iron and steel",
+    "Footloose industry — cement"
+   ],
+   "a": 0,
+   "x": "Sugar is a raw-material-based, weight-losing and perishable industry. Bakery is market-based, while software and electronics are footloose.",
+   "ty": "comparison",
+   "tq": "Classify industries by weight change and location tendency.",
+   "sec": "Factors of industrial location"
+  },
+  {
+   "s": "Market-based industries are generally located near consumers because their products are:",
+   "o": [
+    "necessarily dependent on cheap electricity",
+    "available everywhere as raw materials",
+    "weight-gaining or fragile",
+    "weight-losing and perishable"
+   ],
+   "a": 2,
+   "x": "Market-based industries such as bakeries and soft-drink production locate near consumers because their products are weight-gaining or fragile.",
+   "ty": "application",
+   "tq": "Apply the product-characteristic test to market location.",
+   "sec": "Factors of industrial location"
+  },
+  {
+   "s": "Which one of the following is the most appropriate example of an industry locating near cheap electricity?",
+   "o": [
+    "Cotton farming",
+    "Bakery industry",
+    "Aluminium industry",
+    "Cigar industry"
+   ],
+   "a": 2,
+   "x": "Aluminium production is power-intensive and may locate near sources of cheap electricity.",
+   "ty": "fact",
+   "tq": "Link power-intensive production with the relevant location factor.",
+   "sec": "Factors of industrial location"
+  },
+  {
+   "s": "Which of the following are recognised factors of industrial location?\n1. Transport facilities such as ports and railways\n2. Capital\n3. Government policy, including tax incentives and SEZs\n4. Environment\nSelect the correct answer.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Transport, capital, government policy and environmental considerations all influence industrial location. Government measures include tax incentives, SEZs and Make in India.",
+   "ty": "statements",
+   "tq": "Select the complete set of location factors.",
+   "sec": "Factors of industrial location"
+  },
+  {
+   "s": "The policy of placing steel plants at Salem, Visakhapatnam and Hospet away from raw-material bases illustrates:",
+   "o": [
+    "the exclusive importance of market proximity",
+    "the complete rejection of industrial planning",
+    "a policy override aimed at balanced regional growth",
+    "the operation of footloose industries"
+   ],
+   "a": 2,
+   "x": "The 1956 Industrial Resolution and the Fourth Plan (1969–74) sought balanced regional growth, leading to the placement of these steel plants away from raw-material bases.",
+   "ty": "application",
+   "tq": "Apply policy objectives to an apparent location exception.",
+   "sec": "Factors of industrial location"
+  },
+  {
+   "s": "Which one of the following statements about India’s steel production is correct?",
+   "o": [
+    "India ranks first in crude steel production with over half of world output.",
+    "India ranks third and China ranks second.",
+    "China ranks first, while India ranks second in crude steel production.",
+    "China and India have equal first rank."
+   ],
+   "a": 2,
+   "x": "China ranks first and produces over 50% of the world’s steel, while India ranks second in crude steel production.",
+   "ty": "fact",
+   "tq": "Avoid reversing the leading-country comparison.",
+   "sec": "Leading producers - steel ranking, shipbuilding centres"
+  },
+  {
+   "s": "India’s crude steel production, capacity and 2030 target are respectively given as:",
+   "o": [
+    "300 MT, 220 MT and 168.4 MT",
+    "220 MT, 168.4 MT and 300 MT",
+    "168.4 MT, 220 MT and 300 MT",
+    "168.4 MT, 300 MT and 220 MT"
+   ],
+   "a": 2,
+   "x": "India’s crude steel production is 168.4 MT, capacity is 220 MT and the target for 2030 is 300 MT.",
+   "ty": "numerical",
+   "tq": "Keep production, capacity and target figures in their correct order.",
+   "sec": "Leading producers - steel ranking, shipbuilding centres"
+  },
+  {
+   "s": "Which one of the following statements regarding Indian steel plants is correct?",
+   "o": [
+    "TISCO Jamshedpur was established in 1907 as the first private integrated plant.",
+    "Bhilai was established with German assistance.",
+    "Rourkela was the first private integrated plant with Soviet assistance.",
+    "VISL Bhadravati is the newest public-sector plant in southern India."
+   ],
+   "a": 0,
+   "x": "TISCO at Jamshedpur, established in 1907, was the first private integrated steel plant. Rourkela was associated with Germany, Bhilai with the Soviet Union, and VISL Bhadravati is the oldest public-sector plant in the south.",
+   "ty": "fact",
+   "tq": "Use the establishment year and foreign collaboration details to distinguish plants.",
+   "sec": "Leading producers - steel ranking, shipbuilding centres"
+  },
+  {
+   "s": "Which one of the following correctly identifies the foreign collaboration associated with Rourkela and Bhilai respectively?",
+   "o": [
+    "France and Japan",
+    "Soviet Union and Germany",
+    "Germany and Soviet Union",
+    "Japan and United Kingdom"
+   ],
+   "a": 2,
+   "x": "Rourkela was established with German collaboration, whereas Bhilai was established with Soviet collaboration.",
+   "ty": "confusable",
+   "tq": "Discriminate between two closely related plant–collaboration pairs.",
+   "sec": "Leading producers - steel ranking, shipbuilding centres"
+  },
+  {
+   "s": "According to Weber’s least-cost theory, an industrial firm seeks a location where the combined cost of which factors is least?",
+   "o": [
+    "Transport, labour and agglomeration",
+    "Taxation, irrigation and tourism",
+    "Raw materials, climate and exports only",
+    "Land, rainfall and population only"
+   ],
+   "a": 0,
+   "x": "Alfred Weber’s 1909 least-cost theory considers the combined transport, labour and agglomeration costs.",
+   "ty": "fact",
+   "tq": "Recall the three cost components of the theory.",
+   "sec": "Weber's theory - locational triangle, material index, materials"
+  },
+  {
+   "s": "In Weber’s locational triangle, the three vertices represent:",
+   "o": [
+    "three raw-material sources",
+    "one raw-material source and two ports only",
+    "two markets and one labour centre",
+    "two raw-material sources and one market"
+   ],
+   "a": 3,
+   "x": "The locational triangle consists of two raw-material sources and one market. The least-transport-cost point lies inside the triangle.",
+   "ty": "fact",
+   "tq": "Identify the vertices before judging the location point.",
+   "sec": "Weber's theory - locational triangle, material index, materials"
+  },
+  {
+   "s": "The Material Index (MI) is calculated as:",
+   "o": [
+    "weight of finished product divided by weight of localised raw materials",
+    "transport cost divided by labour cost",
+    "market distance divided by raw-material distance",
+    "weight of localised raw materials divided by weight of finished product"
+   ],
+   "a": 3,
+   "x": "Material Index equals the weight of localised raw materials divided by the weight of the finished product.",
+   "ty": "numerical",
+   "tq": "Distinguish the numerator and denominator in the formula.",
+   "sec": "Weber's theory - locational triangle, material index, materials"
+  },
+  {
+   "s": "If the Material Index of an industry is greater than one, the industry tends to locate:",
+   "o": [
+    "near the market",
+    "near the raw-material source",
+    "only in a port city",
+    "at a neutral point unrelated to materials"
+   ],
+   "a": 1,
+   "x": "An MI greater than one indicates that localised raw materials weigh more than the finished product, favouring a raw-material-oriented location. MI below one favours the market.",
+   "ty": "application",
+   "tq": "Apply the MI threshold to infer the location tendency.",
+   "sec": "Weber's theory - locational triangle, material index, materials"
+  },
+  {
+   "s": "Which one of the following is correctly matched with its material category?",
+   "o": [
+    "Water — ubiquity",
+    "Cotton — gross material",
+    "Iron ore — pure localised material",
+    "Air — gross material"
+   ],
+   "a": 0,
+   "x": "Water and air are ubiquitous materials available everywhere. Cotton is treated as a pure localised material, while iron ore is a gross or weight-losing material.",
+   "ty": "match",
+   "tq": "Match each material with its defining category.",
+   "sec": "Weber's theory - locational triangle, material index, materials"
+  },
+  {
+   "s": "Pure localised materials are those which:",
+   "o": [
+    "are available everywhere",
+    "are always found only in markets",
+    "lose no weight during processing",
+    "lose substantial weight during processing"
+   ],
+   "a": 2,
+   "x": "Pure localised materials lose no weight during processing; cotton is the example given.",
+   "ty": "confusable",
+   "tq": "Separate pure localised materials from gross materials.",
+   "sec": "Weber's theory - locational triangle, material index, materials"
+  },
+  {
+   "s": "Which one of the following is a gross or weight-losing material?",
+   "o": [
+    "Water",
+    "Iron ore",
+    "Air",
+    "Cotton"
+   ],
+   "a": 1,
+   "x": "Iron ore, coal and sugarcane are gross materials that lose weight during processing.",
+   "ty": "fact",
+   "tq": "Identify the weight-losing material from the material categories.",
+   "sec": "Weber's theory - locational triangle, material index, materials"
+  },
+  {
+   "s": "Isodapanes in Weber’s theory are lines joining places having equal:",
+   "o": [
+    "extra transport cost",
+    "labour productivity",
+    "market demand",
+    "material index"
+   ],
+   "a": 0,
+   "x": "Isodapanes are lines of equal extra transport cost. Labour or agglomeration savings may pull a firm away from the least-transport-cost point.",
+   "ty": "fact",
+   "tq": "Use the exact meaning of the specialised term.",
+   "sec": "Weber's theory - locational triangle, material index, materials"
+  },
+  {
+   "s": "A firm shifts away from the least-transport-cost point because savings in labour or agglomeration costs exceed the additional transport cost. This situation is explained by:",
+   "o": [
+    "the concept of ubiquitous materials",
+    "the theory of climatic determinism",
+    "the market-area principle alone",
+    "isodapanes in Weber’s theory"
+   ],
+   "a": 3,
+   "x": "Isodapanes help explain how labour or agglomeration savings can draw a firm away from the least-transport-cost location.",
+   "ty": "application",
+   "tq": "Apply the theory to a location trade-off scenario.",
+   "sec": "Weber's theory - locational triangle, material index, materials"
+  }
+ ]
+}

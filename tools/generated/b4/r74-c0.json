@@ -1,0 +1,655 @@
+{
+ "book": 4,
+ "row": 74,
+ "chunk": 0,
+ "section": "Andhra Pradesh - sex ratio, literacy and occupational structure",
+ "subsections": [
+  "Sex ratio of AP - Census decades, NFHS, rank, highest/lowest districts",
+  "Literacy of AP - overall, male, female, most/least literate districts, female literacy above national average",
+  "Occupational structure - districts with highest cultivators and agricultural labourers",
+  "Agricultural labourers' share of main workers - trend across censuses",
+  "AP literacy programmes - Akshara Andhra, adult literacy missions, fully literate status",
+  "Child sex ratio of AP - district variations",
+  "Work participation rate in AP - male/female, rural/urban",
+  "Literacy gaps - tribal districts and gender"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 52,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 6,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "According to the Census data, what was the sex ratio of Andhra Pradesh in 2011?",
+   "o": [
+    "997 females per 1,000 males",
+    "983 females per 1,000 males",
+    "943 females per 1,000 males",
+    "1,020 females per 1,000 males"
+   ],
+   "a": 0,
+   "x": "The sex ratio of Andhra Pradesh in 2011 was 997 females per 1,000 males.",
+   "ty": "numerical",
+   "tq": "Use direct recall of the exact census figure and distinguish it from NFHS data.",
+   "sec": "Sex ratio of AP - Census decades, NFHS, rank, highest/lowest districts  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the sex ratio of Andhra Pradesh according to the Census:\n1. The sex ratio declined between 1981 and 1991.\n2. The sex ratio increased between 1991 and 2001.\n3. The sex ratio increased between 2001 and 2011.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "The sex ratio changed from 978 in 1981 to 976 in 1991, then rose to 983 in 2001 and 997 in 2011. Thus, statements 1 and 3 are correct, while statement 2 is false.",
+   "ty": "statements",
+   "tq": "Track the direction of change across successive census years rather than recalling one isolated figure.",
+   "sec": "Sex ratio of AP - Census decades, NFHS, rank, highest/lowest districts  [APPSC]"
+  },
+  {
+   "s": "The sex ratio of Andhra Pradesh in 2011 was higher than the corresponding Indian sex ratio by how many females per 1,000 males?",
+   "o": [
+    "44",
+    "54",
+    "64",
+    "74"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh recorded 997 females per 1,000 males, while India recorded 943; the difference was 54.",
+   "ty": "numerical",
+   "tq": "Subtract the national comparison figure from the state figure.",
+   "sec": "Sex ratio of AP - Census decades, NFHS, rank, highest/lowest districts  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs of districts crossed a sex ratio of 1,000 females per 1,000 males in Andhra Pradesh in 2011?\n1. East Godavari and West Godavari\n2. Visakhapatnam and Guntur\n3. Chittoor and Krishna\nSelect the correct answer using the code below.",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "East Godavari, West Godavari, Visakhapatnam and Guntur crossed 1,000 in 2011. Chittoor and Krishna were not included among the identified districts.",
+   "ty": "statements",
+   "tq": "Separate the listed districts from the specifically identified qualifying group.",
+   "sec": "Sex ratio of AP - Census decades, NFHS, rank, highest/lowest districts  [APPSC]"
+  },
+  {
+   "s": "According to the 28-district map of Andhra Pradesh, which district recorded the highest sex ratio?",
+   "o": [
+    "Polavaram",
+    "Srikakulam",
+    "Vizianagaram",
+    "West Godavari"
+   ],
+   "a": 0,
+   "x": "Polavaram recorded the highest sex ratio in the 28-district map, with 1,051 females per 1,000 males.",
+   "ty": "numerical",
+   "tq": "Distinguish the latest district-map ranking from the older 2011 district grouping.",
+   "sec": "Sex ratio of AP - Census decades, NFHS, rank, highest/lowest districts  [APPSC]"
+  },
+  {
+   "s": "The lowest sex ratio in the 28-district map of Andhra Pradesh was recorded in:",
+   "o": [
+    "Vizianagaram",
+    "Alluri Sitarama Raju",
+    "Markapuram",
+    "Polavaram"
+   ],
+   "a": 2,
+   "x": "Markapuram recorded the lowest sex ratio, at 962 females per 1,000 males.",
+   "ty": "numerical",
+   "tq": "Test the lower-end value against nearby district-ranking distractors.",
+   "sec": "Sex ratio of AP - Census decades, NFHS, rank, highest/lowest districts  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes the NFHS sex-ratio figures mentioned for Andhra Pradesh and India?",
+   "o": [
+    "AP NFHS-4: 991; India NFHS-5: 1,020",
+    "AP NFHS-4: 1,020; India NFHS-5: 1,020",
+    "AP NFHS-4: 943; India NFHS-5: 1,020",
+    "AP NFHS-5: 1,020; India NFHS-4: 991"
+   ],
+   "a": 1,
+   "x": "The AP NFHS-4 figure was 1,020. India’s NFHS-5 figure was also 1,020, while India’s NFHS-4 figure was 991.",
+   "ty": "confusable",
+   "tq": "Discriminate between similarly numbered NFHS rounds and avoid swapping state and national figures.",
+   "sec": "Sex ratio of AP - Census decades, NFHS, rank, highest/lowest districts  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. NFHS-6 had been published by March 2026.\n2. The sex ratio of Scheduled Tribes in Andhra Pradesh was 1,009.\n3. The NFHS-4 sex-ratio figure for India was 991.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "NFHS-6 was still unpublished in March 2026. The AP Scheduled Tribe sex ratio was 1,009, and India’s NFHS-4 figure was 991.",
+   "ty": "statements",
+   "tq": "Identify the time-status trap in statement 1 and retain the precise NFHS figures.",
+   "sec": "Sex ratio of AP - Census decades, NFHS, rank, highest/lowest districts  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly gives the literacy rates of Andhra Pradesh according to Census 2011?",
+   "o": [
+    "Total 72.98%, male 80.88%, female 64.63%",
+    "Total 67.35%, male 74.77%, female 59.96%",
+    "Total 67.35%, male 80.88%, female 64.63%",
+    "Total 74.77%, male 67.35%, female 59.96%"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh recorded total literacy of 67.35%, male literacy of 74.77% and female literacy of 59.96% in 2011.",
+   "ty": "comparison",
+   "tq": "Match the three state values in the correct total-male-female order.",
+   "sec": "Literacy of AP - overall, male, female, most/least literate districts, female literacy above national average  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements correctly compares the literacy rates of Andhra Pradesh and India in 2011?\n1. Andhra Pradesh had lower total literacy than India.\n2. Andhra Pradesh had lower male literacy than India.\n3. Andhra Pradesh had lower female literacy than India.\nSelect the correct answer using the code below.",
+   "o": [
+    "1 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "AP recorded 67.35%, 74.77% and 59.96% for total, male and female literacy, respectively, compared with India’s 72.98%, 80.88% and 64.63%. All three statements are correct.",
+   "ty": "statements",
+   "tq": "Compare corresponding rows and columns rather than comparing unlike literacy measures.",
+   "sec": "Literacy of AP - overall, male, female, most/least literate districts, female literacy above national average  [APPSC]"
+  },
+  {
+   "s": "Arrange the following literacy rates of Andhra Pradesh in chronological order from earliest to latest:\nA. 67.35%\nB. 29.94%\nC. 62.07%",
+   "o": [
+    "B, C, A",
+    "C, B, A",
+    "B, A, C",
+    "A, C, B"
+   ],
+   "a": 0,
+   "x": "AP literacy was 29.94% in 1981, 62.07% in 2001 and 67.35% in 2011.",
+   "ty": "chronology",
+   "tq": "Place the figures against their census years before arranging them.",
+   "sec": "Literacy of AP - overall, male, female, most/least literate districts, female literacy above national average  [APPSC]"
+  },
+  {
+   "s": "The female literacy rate of Andhra Pradesh increased from 52.72% to 59.96% during which period?",
+   "o": [
+    "2001–2011",
+    "1981–1991",
+    "2011–2021",
+    "1991–2001"
+   ],
+   "a": 0,
+   "x": "Female literacy rose from 52.72% in 2001 to 59.96% in 2011.",
+   "ty": "numerical",
+   "tq": "Link the two endpoint values with the correct census interval.",
+   "sec": "Literacy of AP - overall, male, female, most/least literate districts, female literacy above national average  [APPSC]"
+  },
+  {
+   "s": "Which district was the most literate district of Andhra Pradesh in the 13-district classification associated with Census 2011?",
+   "o": [
+    "Vizianagaram",
+    "Krishna",
+    "Visakhapatnam",
+    "West Godavari"
+   ],
+   "a": 3,
+   "x": "West Godavari was identified as the most literate district in the 13-district classification.",
+   "ty": "fact",
+   "tq": "Test the district associated with the highest position, not the latest 28-district map.",
+   "sec": "Literacy of AP - overall, male, female, most/least literate districts, female literacy above national average  [APPSC]"
+  },
+  {
+   "s": "Which of the following districts had female literacy above India’s 2011 female literacy average of 64.63%?\n1. West Godavari\n2. Krishna\n3. East Godavari\nSelect the correct answer using the code below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "West Godavari, Krishna and East Godavari were identified as districts with female literacy above the all-India average of 64.63%.",
+   "ty": "statements",
+   "tq": "Use the stated national benchmark to evaluate each district in the list.",
+   "sec": "Literacy of AP - overall, male, female, most/least literate districts, female literacy above national average  [APPSC]"
+  },
+  {
+   "s": "According to the 28-district map, which district had the highest literacy rate in Andhra Pradesh?",
+   "o": [
+    "Krishna",
+    "Visakhapatnam",
+    "East Godavari",
+    "West Godavari"
+   ],
+   "a": 1,
+   "x": "Visakhapatnam had the highest literacy rate in the 28-district map, at 79.05%.",
+   "ty": "numerical",
+   "tq": "Separate a current district-map value from the older 13-district ranking.",
+   "sec": "Literacy of AP - overall, male, female, most/least literate districts, female literacy above national average  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the lowest literacy rate in the 28-district map of Andhra Pradesh?",
+   "o": [
+    "Vizianagaram — 44.67%",
+    "Visakhapatnam — 79.05%",
+    "Alluri Sitarama Raju — 44.67%",
+    "Alluri Sitarama Raju — 59.96%"
+   ],
+   "a": 2,
+   "x": "Alluri Sitarama Raju recorded the lowest literacy rate, at 44.67%, in the 28-district map.",
+   "ty": "negative",
+   "tq": "Check both the district name and the numerical value in the matched pair.",
+   "sec": "Literacy of AP - overall, male, female, most/least literate districts, female literacy above national average  [APPSC]"
+  },
+  {
+   "s": "India’s final literacy rate in 2011 was 72.98%, whereas the provisional figure was:",
+   "o": [
+    "67.35%",
+    "72.98%",
+    "74.04%",
+    "80.90%"
+   ],
+   "a": 2,
+   "x": "India’s provisional literacy figure was 74.04%; the final figure was 72.98%.",
+   "ty": "confusable",
+   "tq": "Distinguish provisional and final figures that are close in value.",
+   "sec": "Literacy of AP - overall, male, female, most/least literate districts, female literacy above national average  [APPSC]"
+  },
+  {
+   "s": "The PLFS 2023–24 national literacy rate mentioned for India was approximately:",
+   "o": [
+    "72.98%",
+    "74.04%",
+    "80.9%",
+    "83%"
+   ],
+   "a": 2,
+   "x": "The PLFS 2023–24 national literacy rate was 80.9%.",
+   "ty": "numerical",
+   "tq": "Distinguish a recent survey estimate from Census 2011 figures.",
+   "sec": "Literacy of AP - overall, male, female, most/least literate districts, female literacy above national average  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the occupational structure of Andhra Pradesh’s main workers in 2011?",
+   "o": [
+    "Cultivators 70.83 lakh; agricultural labourers 5.29 lakh",
+    "Cultivators 86.12 lakh; agricultural labourers 30.93 lakh",
+    "Cultivators 30.93 lakh; agricultural labourers 86.12 lakh",
+    "Cultivators 5.29 lakh; agricultural labourers 70.83 lakh"
+   ],
+   "a": 2,
+   "x": "In 2011, Andhra Pradesh had 30.93 lakh cultivators and 86.12 lakh agricultural labourers among main workers.",
+   "ty": "comparison",
+   "tq": "Match occupational categories with their exact absolute numbers before considering shares.",
+   "sec": "Occupational structure - districts with highest cultivators and agricultural labourers  [APPSC]"
+  },
+  {
+   "s": "Which category accounted for the largest share of Andhra Pradesh’s main workers in 2011?",
+   "o": [
+    "Cultivators",
+    "Other workers",
+    "Agricultural labourers",
+    "Household industry workers"
+   ],
+   "a": 2,
+   "x": "Agricultural labourers formed the largest category, with approximately 44.6% of main workers.",
+   "ty": "fact",
+   "tq": "Identify the maximum share in the occupational table.",
+   "sec": "Occupational structure - districts with highest cultivators and agricultural labourers  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding Andhra Pradesh’s main workers in 2011:\n1. Cultivators constituted approximately 16.0%.\n2. Household industry workers constituted approximately 2.7%.\n3. Other workers constituted approximately 36.7%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The respective shares were approximately 16.0% for cultivators, 2.7% for household industry workers and 36.7% for other workers.",
+   "ty": "statements",
+   "tq": "Verify each percentage against the occupational-structure table.",
+   "sec": "Occupational structure - districts with highest cultivators and agricultural labourers  [APPSC]"
+  },
+  {
+   "s": "Which of the following is correctly matched?\n1. Highest cultivator share — Chittoor\n2. Highest agricultural-labourer share — West Godavari\n3. Highest household-industry share — Visakhapatnam",
+   "o": [
+    "1 and 2 only",
+    "1 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Chittoor had the highest cultivator share and West Godavari the highest agricultural-labourer share. No district was identified for the highest household-industry share in the given facts.",
+   "ty": "negative",
+   "tq": "Find the unsupported or wrongly added district instead of accepting a familiar occupational association.",
+   "sec": "Occupational structure - districts with highest cultivators and agricultural labourers  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about agricultural employment is correct?",
+   "o": [
+    "Cultivators outnumbered agricultural labourers by nearly three to one in AP in 2011.",
+    "Agricultural labourers formed approximately 44.6% of AP main workers in 2011.",
+    "Agriculture employed only 16.0% of AP workers in 2011.",
+    "Agricultural labourers were the smallest category of AP main workers in 2011."
+   ],
+   "a": 1,
+   "x": "Agricultural labourers formed approximately 44.6% of AP main workers in 2011 and were the largest category. Their number was almost three times the number of cultivators, not the reverse.",
+   "ty": "negative",
+   "tq": "Reject reversed comparisons and identify the precise share statement.",
+   "sec": "Agricultural labourers' share of main workers - trend across censuses  [APPSC]"
+  },
+  {
+   "s": "According to PLFS 2023–24, agriculture employed approximately what share of Andhra Pradesh’s workers?",
+   "o": [
+    "36.7%",
+    "44.6%",
+    "45.6%",
+    "54.6%"
+   ],
+   "a": 2,
+   "x": "Agriculture employed 45.6% of Andhra Pradesh’s workers according to PLFS 2023–24.",
+   "ty": "numerical",
+   "tq": "Distinguish the recent AP workforce share from the Census occupational shares.",
+   "sec": "Agricultural labourers' share of main workers - trend across censuses  [APPSC]"
+  },
+  {
+   "s": "The approximate national share of workers employed in agriculture in the latest figure cited was:",
+   "o": [
+    "39.8%",
+    "43.7%",
+    "45.6%",
+    "46.1%"
+   ],
+   "a": 3,
+   "x": "The latest cited national figure was approximately 46.1%, compared with 45.6% for Andhra Pradesh.",
+   "ty": "comparison",
+   "tq": "Compare near-identical state and national percentages without interchanging them.",
+   "sec": "Agricultural labourers' share of main workers - trend across censuses  [APPSC]"
+  },
+  {
+   "s": "The Akshara Andhra FLNAT 2026 was held in how many centres?",
+   "o": [
+    "3,440",
+    "34,406",
+    "24,72,092",
+    "25,06,696"
+   ],
+   "a": 1,
+   "x": "Akshara Andhra FLNAT 2026 was conducted in 34,406 centres.",
+   "ty": "numerical",
+   "tq": "Distinguish the number of centres from the number of enrolled and appearing learners.",
+   "sec": "AP literacy programmes - Akshara Andhra, adult literacy missions, fully literate status  [APPSC]"
+  },
+  {
+   "s": "In Akshara Andhra FLNAT 2026, how many learners appeared out of 25,06,696 learners?",
+   "o": [
+    "34,406",
+    "23,72,092",
+    "24,72,092",
+    "25,06,696"
+   ],
+   "a": 2,
+   "x": "A total of 24,72,092 learners appeared out of 25,06,696 learners, giving an attendance rate of 98.62%.",
+   "ty": "numerical",
+   "tq": "Separate the appeared count from the total learner count and the centre count.",
+   "sec": "AP literacy programmes - Akshara Andhra, adult literacy missions, fully literate status  [APPSC]"
+  },
+  {
+   "s": "What was the approximate attendance percentage of learners in Akshara Andhra FLNAT 2026?",
+   "o": [
+    "83.00%",
+    "95.00%",
+    "98.62%",
+    "99.62%"
+   ],
+   "a": 2,
+   "x": "The attendance rate was 98.62%, based on 24,72,092 learners appearing out of 25,06,696.",
+   "ty": "numerical",
+   "tq": "Recall the exact percentage rather than estimating it from the rounded counts.",
+   "sec": "AP literacy programmes - Akshara Andhra, adult literacy missions, fully literate status  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the target and linkage of the Akshara Andhra literacy drive?\n1. It targets districts below the state average.\n2. It dovetails with ULLAS/New India Literacy Programme.\n3. It is intended for people aged 15 years and above.\nSelect the correct answer using the code below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The drive targets below-average districts and is linked with the central ULLAS/New India Literacy Programme for people aged 15 and above.",
+   "ty": "statements",
+   "tq": "Combine programme target, institutional linkage and beneficiary-age details.",
+   "sec": "AP literacy programmes - Akshara Andhra, adult literacy missions, fully literate status  [APPSC]"
+  },
+  {
+   "s": "Under the stated criterion, a state or Union Territory is considered “fully literate” when literacy among persons aged 15 years and above reaches at least:",
+   "o": [
+    "83%",
+    "90%",
+    "95%",
+    "100%"
+   ],
+   "a": 2,
+   "x": "The fully literate status requires literacy of 95% or more among persons aged 15 years and above.",
+   "ty": "application",
+   "tq": "Apply the official threshold to a short status-based scenario.",
+   "sec": "AP literacy programmes - Akshara Andhra, adult literacy missions, fully literate status  [APPSC]"
+  },
+  {
+   "s": "The literacy increase announced in connection with the Akshara Andhra drive was described as a rise from:",
+   "o": [
+    "80% to 95%",
+    "67% to 73%",
+    "73% to 83%",
+    "74% to 84%"
+   ],
+   "a": 2,
+   "x": "The minister stated that literacy had risen from 73% to 83%, with full literacy set as the following year’s target.",
+   "ty": "numerical",
+   "tq": "Recall the paired baseline and target figures without substituting Census values.",
+   "sec": "AP literacy programmes - Akshara Andhra, adult literacy missions, fully literate status  [APPSC]"
+  },
+  {
+   "s": "The child sex ratio of Andhra Pradesh, compared with that of India, was:",
+   "o": [
+    "1,009 against 918",
+    "944 against 918",
+    "918 against 944",
+    "927 against 944"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh had a child sex ratio of 944, compared with India’s 918.",
+   "ty": "comparison",
+   "tq": "Read the state-national comparison in the correct order.",
+   "sec": "Child sex ratio of AP - district variations"
+  },
+  {
+   "s": "Which of the following statements regarding India’s child sex ratio is correct?\n1. India’s child sex ratio was 927 in 2001.\n2. The 2011 figure was approximately 918–919.\n3. The provisional 2011 figure was 914.\nSelect the correct answer using the code below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "India’s child sex ratio was 927 in 2001; the 2011 figure was reported as 918 or 919 depending on the source, while 914 was the provisional figure.",
+   "ty": "statements",
+   "tq": "Handle close alternative values by associating each with its specific year or status.",
+   "sec": "Child sex ratio of AP - district variations"
+  },
+  {
+   "s": "Which of the following pairs occupied the lowest position in India’s sex ratio at birth according to CRS 2024?",
+   "o": [
+    "Arunachal Pradesh and Kerala",
+    "Nagaland and Lakshadweep",
+    "Kerala and Nagaland",
+    "Lakshadweep and Arunachal Pradesh"
+   ],
+   "a": 1,
+   "x": "Nagaland and Lakshadweep recorded the lowest sex ratio at birth, at 865.",
+   "ty": "fact",
+   "tq": "Use the paired bottom-ranking clue and distinguish it from the top-ranking States.",
+   "sec": "Child sex ratio of AP - district variations"
+  },
+  {
+   "s": "The number of workers and total population of Andhra Pradesh used for calculating the Census 2011 work participation rate were respectively:",
+   "o": [
+    "220.81 lakh and 495.77 lakh",
+    "495.77 lakh and 230.81 lakh",
+    "230.81 lakh and 495.67 lakh",
+    "230.81 lakh and 495.77 lakh"
+   ],
+   "a": 3,
+   "x": "There were 230.81 lakh workers out of a total population of 495.77 lakh in the stated Census 2011 calculation.",
+   "ty": "numerical",
+   "tq": "Preserve the numerator-denominator order in a quantitative fact.",
+   "sec": "Work participation rate in AP - male/female, rural/urban"
+  },
+  {
+   "s": "Which of the following correctly represents the PLFS 2023–24 work participation rates for rural Andhra Pradesh?",
+   "o": [
+    "Male 57.4%, female 39.6%, person 48.4%",
+    "Male 57.4%, female 22.8%, person 45.6%",
+    "Male 57.0%, female 34.5%, person 45.6%",
+    "Male 56.0%, female 22.8%, person 38.9%"
+   ],
+   "a": 0,
+   "x": "The rural AP work participation rates were 57.4% for males, 39.6% for females and 48.4% for persons.",
+   "ty": "comparison",
+   "tq": "Match the rural row across male, female and person columns.",
+   "sec": "Work participation rate in AP - male/female, rural/urban"
+  },
+  {
+   "s": "Which of the following correctly represents the PLFS 2023–24 work participation rates for urban Andhra Pradesh?",
+   "o": [
+    "Male 56.0%, female 34.5%, person 38.9%",
+    "Male 56.0%, female 22.8%, person 38.9%",
+    "Male 57.0%, female 34.5%, person 45.6%",
+    "Male 57.4%, female 39.6%, person 48.4%"
+   ],
+   "a": 1,
+   "x": "The urban AP work participation rates were 56.0% for males, 22.8% for females and 38.9% for persons.",
+   "ty": "comparison",
+   "tq": "Use row-wise elimination to prevent mixing rural and urban values.",
+   "sec": "Work participation rate in AP - male/female, rural/urban"
+  },
+  {
+   "s": "Consider the following statements about PLFS 2023–24 work participation in Andhra Pradesh:\n1. The total male work participation rate was 57.0%.\n2. The total female work participation rate was 34.5%.\n3. The total person work participation rate was 45.6%, compared with 43.7% for India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three figures are correct: male 57.0%, female 34.5% and person 45.6% for AP, against India’s 43.7% person rate.",
+   "ty": "statements",
+   "tq": "Check a complete total row and its national comparison.",
+   "sec": "Work participation rate in AP - male/female, rural/urban"
+  },
+  {
+   "s": "Which inference follows from the rural and urban female work participation rates of Andhra Pradesh?",
+   "o": [
+    "Female work participation is equal in rural and urban areas.",
+    "Urban female work participation is more than double rural female work participation.",
+    "Female work participation is higher in rural areas by 16.8 percentage points.",
+    "Female work participation is higher in urban areas by 16.8 percentage points."
+   ],
+   "a": 2,
+   "x": "Female work participation was 39.6% in rural areas and 22.8% in urban areas, making the rural rate higher by 16.8 percentage points.",
+   "ty": "application",
+   "tq": "Calculate the directional difference and reject the reversed comparison.",
+   "sec": "Work participation rate in AP - male/female, rural/urban"
+  },
+  {
+   "s": "The lowest work participation rate among urban women aged 15–29 in Andhra Pradesh was reported as:",
+   "o": [
+    "15.9%",
+    "22.8%",
+    "34.5%",
+    "39.6%"
+   ],
+   "a": 0,
+   "x": "Urban women aged 15–29 had a work participation rate of 15.9%, the lowest category mentioned.",
+   "ty": "numerical",
+   "tq": "Distinguish the age-specific urban female figure from the general urban female rate.",
+   "sec": "Work participation rate in AP - male/female, rural/urban"
+  },
+  {
+   "s": "Which of the following was identified as one reason for the higher female work participation rate in rural Andhra Pradesh?",
+   "o": [
+    "MGNREGS",
+    "Urban industrialisation",
+    "Lower rural population",
+    "Higher urban literacy alone"
+   ],
+   "a": 0,
+   "x": "MGNREGS was cited as one reason for the higher female work participation rate in rural areas.",
+   "ty": "application",
+   "tq": "Link the observed rural-urban pattern with the programme-related explanation.",
+   "sec": "Work participation rate in AP - male/female, rural/urban"
+  },
+  {
+   "s": "The literacy rate of Scheduled Tribes in Andhra Pradesh in 2011 was approximately:",
+   "o": [
+    "44.67%",
+    "48.8%",
+    "59.96%",
+    "67.35%"
+   ],
+   "a": 1,
+   "x": "AP Scheduled Tribe literacy was 48.8% in 2011.",
+   "ty": "numerical",
+   "tq": "Distinguish the state tribal literacy figure from the lowest district and overall state figures.",
+   "sec": "Literacy gaps - tribal districts and gender"
+  },
+  {
+   "s": "Consider the following statements regarding literacy gaps in Andhra Pradesh:\n1. AP Scheduled Tribe literacy was lower than the overall state literacy in 2011.\n2. Alluri Sitarama Raju district recorded the lowest literacy rate at 44.67%.\n3. The state gender literacy gap was approximately 15 percentage points.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "ST literacy was 48.8% against 67.35% overall; Alluri Sitarama Raju recorded 44.67%; and the gender gap was about 15 points.",
+   "ty": "statements",
+   "tq": "Combine subgroup, district and gender-gap comparisons without confusing their denominators.",
+   "sec": "Literacy gaps - tribal districts and gender"
+  },
+  {
+   "s": "The gender literacy gap in Andhra Pradesh, based on the 2011 male and female literacy rates, was approximately:",
+   "o": [
+    "15 percentage points",
+    "10 percentage points",
+    "28 percentage points",
+    "16 percentage points"
+   ],
+   "a": 0,
+   "x": "The gap was approximately 15 percentage points, calculated from 74.77% male literacy and 59.96% female literacy.",
+   "ty": "numerical",
+   "tq": "Subtract the female rate from the male rate and distinguish state from national and Rajasthan gaps.",
+   "sec": "Literacy gaps - tribal districts and gender"
+  },
+  {
+   "s": "Which of the following correctly compares the literacy gaps mentioned for Andhra Pradesh, India and Rajasthan?",
+   "o": [
+    "AP 16 points; India about 15 points; Rajasthan 28 points",
+    "AP 15 points; India 28 points; Rajasthan 16 points",
+    "AP 28 points; India 16 points; Rajasthan about 15 points",
+    "AP about 15 points; India 16 points; Rajasthan 28 points"
+   ],
+   "a": 3,
+   "x": "The gender literacy gap was about 15 points in AP, 16 points nationally and 28 points in Rajasthan, the widest among the three.",
+   "ty": "comparison",
+   "tq": "Keep the three geographically similar gap figures in their correct order.",
+   "sec": "Literacy gaps - tribal districts and gender"
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "book": 3,
+ "row": 18,
+ "chunk": 1,
+ "section": "Other global indices - Global Hunger Index, Environmental Performance Index, Ease of Doing Business, Global Innovation Index, World Happiness Report",
+ "subsections": [
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 5,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "According to the Global Gender Gap Index 2026, what was India's rank among the countries covered?",
+   "o": [
+    "121st",
+    "126th",
+    "131st",
+    "136th"
+   ],
+   "a": 2,
+   "x": "India was ranked 131st in the Global Gender Gap Index 2026.",
+   "ty": "fact",
+   "tq": "Use direct recall of the reported country rank while distinguishing nearby numerical options.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding India's performance in the Environmental Performance Index (EPI) 2026:\n1. India ranked 176th out of 177 countries overall.\n2. India ranked 175th in the Air Quality sub-index.\n3. India ranked 130th in Climate Mitigation.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: India ranked 176th of 177 overall, 175th in Air Quality and 130th in Climate Mitigation in the EPI 2026.",
+   "ty": "statements",
+   "tq": "Check the overall rank and each sub-rank separately before selecting the complete combination.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "India was placed at which position in the Responsible Nations Index 2026?",
+   "o": [
+    "16th out of 154",
+    "18th out of 154",
+    "14th out of 154",
+    "20th out of 154"
+   ],
+   "a": 0,
+   "x": "India ranked 16th among 154 countries in the Responsible Nations Index 2026.",
+   "ty": "numerical",
+   "tq": "Read both the country rank and the total number of countries together to avoid confusing the denominator.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to StartupBlink's Innovators Business Environment Index 2026, India was ranked:",
+   "o": [
+    "54th",
+    "59th",
+    "49th",
+    "44th"
+   ],
+   "a": 0,
+   "x": "India occupied the 54th position in StartupBlink's Innovators Business Environment Index 2026.",
+   "ty": "fact",
+   "tq": "Distinguish the index name and publisher context before recalling the numerical rank.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following is a criticism concerning the use of perception surveys and absolute-emission metrics in international indices?",
+   "o": [
+    "They exclude all environmental indicators from the assessment.",
+    "They systematically favour populous developing countries.",
+    "They may disadvantage populous developing countries.",
+    "They measure only the formal employment sector of an economy."
+   ],
+   "a": 2,
+   "x": "Perception surveys and absolute-emission metrics may disadvantage populous developing countries, particularly because absolute emissions can be high due to population size.",
+   "ty": "application",
+   "tq": "Apply the stated criticism to identify the consequence of the measurement approach rather than recalling a rank.",
+   "sec": "Universal angles"
+  }
+ ]
+}

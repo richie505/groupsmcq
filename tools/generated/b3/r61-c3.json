@@ -1,0 +1,555 @@
+{
+ "book": 3,
+ "row": 61,
+ "chunk": 3,
+ "section": "Indian industry - structure, growth and contribution; IIP; public sector role and performance",
+ "subsections": [
+  "Sector profiles - steel, automobile, pharmaceuticals, PSU foreign collaborations (BHEL)",
+  "Industrial growth phases since independence - phase boundaries and growth rate",
+  "AP industrial profile - GSVA share of industry, major industrial clusters",
+  "Structural problems - under-utilisation, concentration, capital intensity, jobless growth",
+  "Major industries profile - textiles, steel, auto, pharma",
+  "Phases of industrial growth in the planned era - deceleration, premature deindustrialisation"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 42,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Bhilai — USSR",
+    "Rourkela — United Kingdom",
+    "Durgapur — West Germany",
+    "Bokaro — United Kingdom"
+   ],
+   "a": 0,
+   "x": "Bhilai Steel Plant was established with Soviet collaboration. Rourkela had West German collaboration, Durgapur had UK collaboration and Bokaro had USSR collaboration.",
+   "ty": "match",
+   "tq": "Start from the sure collaboration and identify the swapped foreign partners.",
+   "sec": "Sector profiles - steel, automobile, pharmaceuticals, PSU foreign collaborations (BHEL)"
+  },
+  {
+   "s": "Consider the following statements regarding major public-sector steel plants:\n1. Rourkela was the first integrated public-sector steel plant.\n2. Rourkela had a capacity of one million tonnes.\n3. Rourkela is located in Odisha.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Rourkela in Odisha was the first integrated public-sector steel plant and had a capacity of one million tonnes.",
+   "ty": "statements",
+   "tq": "Test all components of a multi-detail industrial description rather than relying on location alone.",
+   "sec": "Sector profiles - steel, automobile, pharmaceuticals, PSU foreign collaborations (BHEL)"
+  },
+  {
+   "s": "The collaboration associated with Bokaro Steel Plant was with",
+   "o": [
+    "The United Kingdom",
+    "Czechoslovakia",
+    "West Germany",
+    "The USSR"
+   ],
+   "a": 3,
+   "x": "Bokaro Steel Plant was established with collaboration from the USSR.",
+   "ty": "fact",
+   "tq": "Distinguish the two Soviet-associated steel plants from the West German and UK collaborations.",
+   "sec": "Sector profiles - steel, automobile, pharmaceuticals, PSU foreign collaborations (BHEL)"
+  },
+  {
+   "s": "With reference to Visakhapatnam Steel Plant, consider the following statements:\n1. It is also known as RINL.\n2. Its foundation stone was laid on 20 January 1971.\n3. The agreement for its establishment was signed on 12 June 1979.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Visakhapatnam Steel Plant is RINL; its foundation stone was laid on 20 January 1971 and the agreement was signed on 12 June 1979.",
+   "ty": "statements",
+   "tq": "Combine identity and date statements, checking each date independently.",
+   "sec": "Sector profiles - steel, automobile, pharmaceuticals, PSU foreign collaborations (BHEL)"
+  },
+  {
+   "s": "The first public-sector steel unit in India was",
+   "o": [
+    "Bhilai Steel Plant",
+    "Visvesvaraya Iron & Steel Works, Bhadravati",
+    "Rourkela Steel Plant",
+    "Bokaro Steel Plant"
+   ],
+   "a": 1,
+   "x": "Visvesvaraya Iron & Steel Works at Bhadravati was the first public-sector steel unit in India.",
+   "ty": "fact",
+   "tq": "Use the historical-priority clue and distinguish the early unit from the Second Plan plants.",
+   "sec": "Sector profiles - steel, automobile, pharmaceuticals, PSU foreign collaborations (BHEL)"
+  },
+  {
+   "s": "Which of the following statements about BHEL is correct?",
+   "o": [
+    "It has a dominant share in heavy electrical equipment such as boilers, turbines and transformers.",
+    "It is primarily engaged in minerals and metals trading.",
+    "It is a textile-sector public enterprise.",
+    "It was established as an oil and gas exploration company."
+   ],
+   "a": 0,
+   "x": "BHEL is a Maharatna CPSE with a dominant share in heavy electrical equipment, including boilers, turbines and transformers.",
+   "ty": "fact",
+   "tq": "Identify the enterprise from its core product profile, not merely its public-sector status.",
+   "sec": "Sector profiles - steel, automobile, pharmaceuticals, PSU foreign collaborations (BHEL)"
+  },
+  {
+   "s": "BHEL's first plant at Bhopal was established with the collaboration of",
+   "o": [
+    "Czechoslovakia",
+    "West Germany",
+    "Britain through AEI",
+    "The USSR"
+   ],
+   "a": 2,
+   "x": "BHEL's first plant at Bhopal was built with British collaboration, specifically involving AEI.",
+   "ty": "fact",
+   "tq": "Apply the foreign-collaboration trap by separating BHEL units from steel plants.",
+   "sec": "Sector profiles - steel, automobile, pharmaceuticals, PSU foreign collaborations (BHEL)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched regarding BHEL units?",
+   "o": [
+    "BHEL Haridwar — USSR collaboration",
+    "BHEL Bhopal — Czechoslovakia collaboration",
+    "BHEL Tiruchirappalli — Britain through AEI",
+    "BHEL Hyderabad — West Germany collaboration"
+   ],
+   "a": 0,
+   "x": "BHEL Haridwar was established with Soviet collaboration. Bhopal had British collaboration, while Tiruchirappalli and Hyderabad were associated with Czechoslovakian collaboration.",
+   "ty": "match",
+   "tq": "Start from the sure pair and reject foreign-collaboration swaps among similar units.",
+   "sec": "Sector profiles - steel, automobile, pharmaceuticals, PSU foreign collaborations (BHEL)"
+  },
+  {
+   "s": "The Ministry of Heavy Industries covers which of the following sectors?\n1. Automobiles\n2. Capital goods\n3. Heavy electricals\n4. Pharmaceuticals\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "The Ministry of Heavy Industries covers automobiles, capital goods and heavy electricals. Pharmaceuticals are not included in the listed coverage.",
+   "ty": "statements",
+   "tq": "Find the one ministry-sector mismatch among closely related industrial sectors.",
+   "sec": "Sector profiles - steel, automobile, pharmaceuticals, PSU foreign collaborations (BHEL)"
+  },
+  {
+   "s": "Which one of the following is NOT included among the early public-sector enterprises and units listed for the initial industrialisation phase?",
+   "o": [
+    "Sindri Fertilizers",
+    "Hindustan Aircraft",
+    "Visakhapatnam Steel Plant",
+    "Chittaranjan Locomotive"
+   ],
+   "a": 2,
+   "x": "Hindustan Aircraft, Sindri Fertilizers and Chittaranjan Locomotive were among the early public-sector units. Visakhapatnam Steel Plant belongs to a later phase.",
+   "ty": "negative",
+   "tq": "Find the unit belonging to a later period rather than the early PSU group.",
+   "sec": "Sector profiles - steel, automobile, pharmaceuticals, PSU foreign collaborations (BHEL)"
+  },
+  {
+   "s": "Arrange the following phases of industrial growth in India in chronological order:\nA. Liberalisation and services outgrowing industry\nB. Recovery with partial liberalisation\nC. Rapid public-sector-led heavy industrialisation\nD. Deceleration and licence-raj stagnation",
+   "o": [
+    "C, D, B, A",
+    "D, C, B, A",
+    "C, B, D, A",
+    "B, C, D, A"
+   ],
+   "a": 0,
+   "x": "The sequence is 1951–65 rapid industrialisation, 1965–80 deceleration, the 1980s recovery and 1991 onward liberalisation.",
+   "ty": "chronology",
+   "tq": "Identify the first and last phases, then place deceleration before recovery.",
+   "sec": "Industrial growth phases since independence - phase boundaries and growth rate"
+  },
+  {
+   "s": "The approximate industrial growth rate during 1951–65 was",
+   "o": [
+    "About 10–12 per cent",
+    "About 4 per cent",
+    "About 7–8 per cent",
+    "About 2 per cent"
+   ],
+   "a": 2,
+   "x": "The 1951–65 phase witnessed rapid, public-sector-led heavy industrialisation, with growth of approximately 7–8 per cent.",
+   "ty": "numerical",
+   "tq": "Match the growth figure with the corresponding phase rather than the later stagnation period.",
+   "sec": "Industrial growth phases since independence - phase boundaries and growth rate"
+  },
+  {
+   "s": "Which phase of India's industrial growth was associated with deceleration and licence-raj stagnation at approximately 4 per cent growth?",
+   "o": [
+    "1951–65",
+    "1965–80",
+    "1980s",
+    "1991 onward"
+   ],
+   "a": 1,
+   "x": "The period 1965–80 was marked by deceleration and licence-raj stagnation, with industrial growth of about 4 per cent.",
+   "ty": "fact",
+   "tq": "Use the distinctive combination of period boundary, licence raj and low growth.",
+   "sec": "Industrial growth phases since independence - phase boundaries and growth rate"
+  },
+  {
+   "s": "The recovery phase of Indian industrial growth, with approximate growth of 7–8 per cent, occurred during the",
+   "o": [
+    "1991–2000 period",
+    "1980s",
+    "1965–80 period",
+    "1951–65 period"
+   ],
+   "a": 1,
+   "x": "The 1980s represented a recovery phase with partial liberalisation and approximately 7–8 per cent industrial growth.",
+   "ty": "fact",
+   "tq": "Distinguish the recovery decade from the earlier rapid-build-up phase.",
+   "sec": "Industrial growth phases since independence - phase boundaries and growth rate"
+  },
+  {
+   "s": "Which one of the following correctly describes industrial growth from 1991 onward?",
+   "o": [
+    "Licence-raj stagnation with approximately 4 per cent growth",
+    "Agriculture-led industrial expansion without structural change",
+    "Complete reversal to public-sector-led heavy industrialisation",
+    "Liberalisation with services outgrowing industry"
+   ],
+   "a": 3,
+   "x": "The post-1991 phase was characterised by liberalisation, during which services outgrew industry.",
+   "ty": "fact",
+   "tq": "Use the post-reform structural comparison between services and industry.",
+   "sec": "Industrial growth phases since independence - phase boundaries and growth rate"
+  },
+  {
+   "s": "The number of industries reserved for the public sector under the Industrial Policy Resolution, 1956, and the number retained under the 1991 policy were, respectively",
+   "o": [
+    "14 and 6",
+    "17 and 8",
+    "8 and 17",
+    "6 and 14"
+   ],
+   "a": 1,
+   "x": "The Industrial Policy Resolution of 1956 reserved 17 industries for the public sector, while the 1991 policy reduced the number to 8.",
+   "ty": "numerical",
+   "tq": "Compare the two policy benchmarks and watch for reversal of the figures.",
+   "sec": "Industrial growth phases since independence - phase boundaries and growth rate"
+  },
+  {
+   "s": "During 2024–25 up to December 2024, Andhra Pradesh recorded the establishment of",
+   "o": [
+    "10 large and mega industries with ₹12,830 crore investment and 11,925 jobs",
+    "8 large and mega industries with ₹12,830 crore investment and 10,925 jobs",
+    "10 large and mega industries with ₹11,925 crore investment and 12,830 jobs",
+    "12 large and mega industries with ₹10,283 crore investment and 11,295 jobs"
+   ],
+   "a": 0,
+   "x": "By December 2024, 10 large and mega industries had been set up in Andhra Pradesh with ₹12,830 crore investment and 11,925 jobs.",
+   "ty": "numerical",
+   "tq": "Keep the three quantitative indicators together and reject permutations of the figures.",
+   "sec": "AP industrial profile - GSVA share of industry, major industrial clusters"
+  },
+  {
+   "s": "The Andhra Pradesh Industrial Development Policy 4.0 (2024–29) targets an increase in manufacturing GVA from",
+   "o": [
+    "₹7.3 lakh crore to ₹30 lakh crore",
+    "₹3.4 lakh crore to ₹7.3 lakh crore",
+    "₹1.4 lakh crore to ₹7.3 lakh crore",
+    "₹3.4 lakh crore to ₹20 lakh crore"
+   ],
+   "a": 1,
+   "x": "The policy targets an increase in manufacturing GVA from ₹3.4 lakh crore to ₹7.3 lakh crore.",
+   "ty": "numerical",
+   "tq": "Read the target as a beginning-to-end value pair, not as an investment figure.",
+   "sec": "AP industrial profile - GSVA share of industry, major industrial clusters"
+  },
+  {
+   "s": "Which of the following is NOT a target of Andhra Pradesh Industrial Development Policy 4.0 (2024–29)?",
+   "o": [
+    "Investment of ₹30 lakh crore",
+    "Doubling exports from 20 billion dollars to 40 billion dollars",
+    "More than 175 industrial parks",
+    "Reducing exports from 40 billion dollars to 20 billion dollars"
+   ],
+   "a": 3,
+   "x": "The policy targets ₹30 lakh crore investment, 175-plus industrial parks and doubling exports from $20 billion to $40 billion. Reducing exports is not a target.",
+   "ty": "negative",
+   "tq": "Identify the option that reverses the direction of a stated policy target.",
+   "sec": "AP industrial profile - GSVA share of industry, major industrial clusters"
+  },
+  {
+   "s": "Under Andhra Pradesh Industrial Development Policy 4.0, a mega project involves investment of",
+   "o": [
+    "₹1,001–5,000 crore",
+    "₹101–500 crore",
+    "Above ₹5,001 crore",
+    "₹501–1,000 crore"
+   ],
+   "a": 0,
+   "x": "The policy classifies projects involving ₹1,001–5,000 crore investment as mega projects.",
+   "ty": "numerical",
+   "tq": "Distinguish adjacent investment categories by their threshold ranges.",
+   "sec": "AP industrial profile - GSVA share of industry, major industrial clusters"
+  },
+  {
+   "s": "The principal cause of capacity under-utilisation in Indian industry identified in the material is",
+   "o": [
+    "Complete absence of foreign investment",
+    "Excessive research expenditure",
+    "Deficient basic infrastructure",
+    "Overproduction of agricultural goods"
+   ],
+   "a": 2,
+   "x": "Deficient basic infrastructure is identified as the main cause of capacity under-utilisation, although weak demand also contributes.",
+   "ty": "fact",
+   "tq": "Select the primary cause while distinguishing it from a secondary contributing factor.",
+   "sec": "Structural problems - under-utilisation, concentration, capital intensity, jobless growth"
+  },
+  {
+   "s": "Which of the following factors also contributes to capacity under-utilisation in Indian manufacturing?",
+   "o": [
+    "Universal access to infrastructure",
+    "Weak demand",
+    "High levels of domestic research",
+    "Excessive industrial employment"
+   ],
+   "a": 1,
+   "x": "Along with deficient basic infrastructure, weak demand contributes to capacity under-utilisation in manufacturing.",
+   "ty": "application",
+   "tq": "Apply the cause-effect relationship to an industrial capacity scenario.",
+   "sec": "Structural problems - under-utilisation, concentration, capital intensity, jobless growth"
+  },
+  {
+   "s": "Manufacturing PMI in July 2026 fell to its lowest level since",
+   "o": [
+    "August 2020",
+    "August 2019",
+    "July 2022",
+    "August 2021"
+   ],
+   "a": 3,
+   "x": "The July 2026 Manufacturing PMI fell to its lowest level since August 2021.",
+   "ty": "numerical",
+   "tq": "Match the current indicator with its comparison base date, avoiding nearby years.",
+   "sec": "Structural problems - under-utilisation, concentration, capital intensity, jobless growth"
+  },
+  {
+   "s": "Industrial concentration in India is particularly pronounced in which group of States?",
+   "o": [
+    "Assam, Tripura, Manipur and Meghalaya",
+    "Maharashtra, Gujarat, Tamil Nadu and Karnataka",
+    "Bihar, Jharkhand, Odisha and Chhattisgarh",
+    "Punjab, Haryana, Rajasthan and Himachal Pradesh"
+   ],
+   "a": 1,
+   "x": "Industrial activity is regionally concentrated in Maharashtra, Gujarat, Tamil Nadu and Karnataka, while eastern and central States lag behind.",
+   "ty": "fact",
+   "tq": "Identify the established industrial cluster and contrast it with lagging regions.",
+   "sec": "Structural problems - under-utilisation, concentration, capital intensity, jobless growth"
+  },
+  {
+   "s": "Which one of the following best describes jobless growth in Indian manufacturing during 2011–2023?",
+   "o": [
+    "Direct factory employment fell from 61 per cent to 47 per cent",
+    "Direct factory employment rose from 47 per cent to 61 per cent",
+    "Manufacturing employment became entirely informal",
+    "Contract workers fell to 24 per cent of the factory workforce"
+   ],
+   "a": 0,
+   "x": "Direct factory employment declined from 61 per cent to 47 per cent during 2011–2023, reflecting jobless growth. Contract workers constituted 42 per cent of the factory workforce.",
+   "ty": "fact",
+   "tq": "Track the direction of change and reject the reversed percentage statement.",
+   "sec": "Structural problems - under-utilisation, concentration, capital intensity, jobless growth"
+  },
+  {
+   "s": "Contract workers constituted what share of the factory workforce in the period referred to?",
+   "o": [
+    "24 per cent",
+    "36 per cent",
+    "42 per cent",
+    "47 per cent"
+   ],
+   "a": 2,
+   "x": "Contract workers constituted 42 per cent of the factory workforce.",
+   "ty": "numerical",
+   "tq": "Separate the contract-worker percentage from the direct-employment percentages in the same issue.",
+   "sec": "Structural problems - under-utilisation, concentration, capital intensity, jobless growth"
+  },
+  {
+   "s": "Which of the following is identified as a structural weakness of Indian industry?\n1. Import dependence in electronics, solar panels and APIs\n2. Low expenditure on research and development\n3. Uniform industrial development across all regions\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Import dependence in electronics, solar panels and APIs and low R&D spending are structural weaknesses. Industrial development is not uniform across regions.",
+   "ty": "statements",
+   "tq": "Find the false generalisation about uniform regional development.",
+   "sec": "Structural problems - under-utilisation, concentration, capital intensity, jobless growth"
+  },
+  {
+   "s": "Consider the following statements about the textile industry:\n1. It provides direct employment to about 4.5 crore persons.\n2. Its indirect employment exceeds 10 crore persons.\n3. It is the largest employer after agriculture.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The textile industry directly employs about 4.5 crore persons, indirectly employs over 10 crore persons and is the largest employer after agriculture.",
+   "ty": "statements",
+   "tq": "Verify each employment figure and the comparative employment claim separately.",
+   "sec": "Major industries profile - textiles, steel, auto, pharma"
+  },
+  {
+   "s": "The three segments of cotton textiles are",
+   "o": [
+    "Mill, refinery and handloom",
+    "Mill, powerloom and handloom",
+    "Handloom, steel and powerloom",
+    "Powerloom, automobile and handloom"
+   ],
+   "a": 1,
+   "x": "Cotton textiles comprise the mill, powerloom and handloom segments.",
+   "ty": "fact",
+   "tq": "Recall the standard three-part classification and reject unrelated industrial sectors.",
+   "sec": "Major industries profile - textiles, steel, auto, pharma"
+  },
+  {
+   "s": "Which segment produces the bulk of cloth in the cotton textile industry?",
+   "o": [
+    "Mill",
+    "Powerloom",
+    "Household spinning",
+    "Handloom"
+   ],
+   "a": 1,
+   "x": "Powerlooms produce the bulk of cloth among the cotton textile segments.",
+   "ty": "fact",
+   "tq": "Distinguish the dominant production segment from the complete segment list.",
+   "sec": "Major industries profile - textiles, steel, auto, pharma"
+  },
+  {
+   "s": "India was the world's second-largest crude steel producer in 2024, with production of",
+   "o": [
+    "93 million tonnes",
+    "1,005.1 million tonnes",
+    "200.33 million tonnes",
+    "149.4 million tonnes"
+   ],
+   "a": 3,
+   "x": "India produced 149.4 million tonnes of crude steel in 2024 and ranked second after China, which produced 1,005.1 million tonnes.",
+   "ty": "numerical",
+   "tq": "Distinguish production from capacity and from the leading country's output.",
+   "sec": "Major industries profile - textiles, steel, auto, pharma"
+  },
+  {
+   "s": "India's crude steel production capacity was reported as",
+   "o": [
+    "149.4 million tonnes",
+    "1,005.1 million tonnes",
+    "175.0 million tonnes",
+    "200.33 million tonnes"
+   ],
+   "a": 3,
+   "x": "India's crude steel production capacity was 200.33 million tonnes. The 149.4 million tonnes figure refers to actual production in 2024.",
+   "ty": "numerical",
+   "tq": "Separate capacity from annual output, a common quantitative confusion.",
+   "sec": "Major industries profile - textiles, steel, auto, pharma"
+  },
+  {
+   "s": "Which of the following statements regarding India's steel industry is correct?\n1. China was the world's largest crude steel producer in 2024.\n2. About 93 per cent of planned ironmaking was coal-based.\n3. Coking coal is the main imported input for the steel industry.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "China led crude steel production in 2024, about 93 per cent of planned ironmaking was coal-based, and coking coal was the main imported input.",
+   "ty": "statements",
+   "tq": "Combine ranking, percentage and input-dependence facts in one industry profile.",
+   "sec": "Major industries profile - textiles, steel, auto, pharma"
+  },
+  {
+   "s": "The First Five-Year Plan gave primary emphasis to agriculture, and industrial production during 1951–56 rose by approximately",
+   "o": [
+    "20 per cent",
+    "30 per cent",
+    "40 per cent",
+    "60 per cent"
+   ],
+   "a": 2,
+   "x": "The First Plan (1951–56) focused on agriculture, while industrial production increased by about 40 per cent.",
+   "ty": "numerical",
+   "tq": "Link the plan's principal emphasis with its stated industrial outcome.",
+   "sec": "Phases of industrial growth in the planned era - deceleration, premature deindustrialisation"
+  },
+  {
+   "s": "Which of the following was NOT among the principal factors associated with industrial deceleration during 1965–80?",
+   "o": [
+    "Complete liberalisation of imports",
+    "Infrastructure bottlenecks",
+    "Wars",
+    "Droughts"
+   ],
+   "a": 0,
+   "x": "Wars, droughts, infrastructure bottlenecks and licensing were associated with the 1965–80 deceleration. Complete liberalisation of imports was not a feature of that period.",
+   "ty": "negative",
+   "tq": "Find the policy condition that conflicts with the licence-raj phase.",
+   "sec": "Phases of industrial growth in the planned era - deceleration, premature deindustrialisation"
+  },
+  {
+   "s": "Arrange the following phases in the planned-era industrial growth sequence:\nA. Liberalisation\nB. Recovery\nC. Deceleration\nD. Rapid build-up",
+   "o": [
+    "D, C, B, A",
+    "C, D, B, A",
+    "D, B, C, A",
+    "B, C, D, A"
+   ],
+   "a": 0,
+   "x": "The planned-era sequence is rapid build-up from 1951–65, deceleration from 1965–80, recovery in the 1980s and liberalisation from 1991 onward.",
+   "ty": "chronology",
+   "tq": "Use the first-last method, then place recovery after deceleration.",
+   "sec": "Phases of industrial growth in the planned era - deceleration, premature deindustrialisation"
+  },
+  {
+   "s": "The concept of premature deindustrialisation, associated with Dani Rodrik, means that",
+   "o": [
+    "manufacturing's share peaks at a lower income level than in early industrialising countries",
+    "industrial employment rises continuously after reaching high income",
+    "services remain smaller than agriculture at every income level",
+    "manufacturing disappears before industrialisation begins"
+   ],
+   "a": 0,
+   "x": "Premature deindustrialisation occurs when manufacturing's share of output or employment peaks at a lower income level than it did in early industrialisers.",
+   "ty": "fact",
+   "tq": "Distinguish a lower-income peak from the complete disappearance of manufacturing.",
+   "sec": "Phases of industrial growth in the planned era - deceleration, premature deindustrialisation"
+  },
+  {
+   "s": "After 1991, cheap imports contributed to",
+   "o": [
+    "the closure of many small industrial units",
+    "the complete replacement of services by manufacturing",
+    "the elimination of import dependence in electronics",
+    "the universal expansion of small industrial units"
+   ],
+   "a": 0,
+   "x": "Cheap imports after 1991 contributed to the closure of many small industrial units, a feature linked with premature deindustrialisation.",
+   "ty": "application",
+   "tq": "Apply the cause-effect link between trade exposure and small-unit closures.",
+   "sec": "Phases of industrial growth in the planned era - deceleration, premature deindustrialisation"
+  }
+ ]
+}

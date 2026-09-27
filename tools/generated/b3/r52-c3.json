@@ -1,0 +1,457 @@
+{
+ "book": 3,
+ "row": 52,
+ "chunk": 3,
+ "section": "Agrarian crisis - causes, farmer distress and suicides, loan waivers, small-holding viability",
+ "subsections": [
+  "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance",
+  "Moneylenders and informal credit - interest rates, AP moneylending regulation",
+  "Loan waiver debate - moral hazard, credit culture, fiscal cost (RBI views)",
+  "Expert Group on Agricultural Indebtedness → chairman",
+  "Most indebted states in NSS surveys",
+  "KCC coverage gap for small and marginal farmers"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 31,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Pradhan Mantri Fasal Bima Yojana (PMFBY), introduced in 2016, replaced which of the following schemes?\n1. National Agricultural Insurance Scheme (NAIS)\n2. Modified National Agricultural Insurance Scheme (MNAIS)\n3. Weather Based Crop Insurance Scheme (WBCIS)\n4. National Crop Insurance Programme (NCIP)",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "PMFBY, introduced in 2016, replaced NAIS of 1999 and MNAIS of 2010. WBCIS was not one of the two schemes replaced by PMFBY.",
+   "ty": "statements",
+   "tq": "Use the replacement-year and scheme-name trap to distinguish predecessor schemes from related insurance schemes.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "Which one of the following correctly expresses the principle associated with PMFBY?",
+   "o": [
+    "One Nation, One Farmer, One Subsidy",
+    "One District, One Crop, One Insurance",
+    "One State, One Crop, One Premium",
+    "One Nation, One Crop, One Premium"
+   ],
+   "a": 3,
+   "x": "The principle associated with PMFBY is ‘One Nation, One Crop, One Premium’.",
+   "ty": "fact",
+   "tq": "Test the exact official slogan rather than a similar-looking administrative phrase.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "Under PMFBY, the maximum farmer premium for Kharif food and oilseed crops is:",
+   "o": [
+    "3% of the sum insured",
+    "2% of the sum insured",
+    "1.5% of the sum insured",
+    "5% of the sum insured"
+   ],
+   "a": 1,
+   "x": "The maximum farmer premium for Kharif food and oilseed crops under PMFBY is 2%.",
+   "ty": "numerical",
+   "tq": "Separate the Kharif premium rate from the Rabi and commercial-crop rates.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "For Rabi food and oilseed crops insured under PMFBY, the maximum farmer premium is:",
+   "o": [
+    "1%",
+    "1.5%",
+    "2%",
+    "5%"
+   ],
+   "a": 1,
+   "x": "The maximum farmer premium for Rabi food and oilseed crops is 1.5%.",
+   "ty": "numerical",
+   "tq": "Use the crop-season comparison to avoid interchanging the Kharif and Rabi rates.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "The maximum farmer premium prescribed under PMFBY for annual commercial and horticultural crops is:",
+   "o": [
+    "1.5%",
+    "2%",
+    "4%",
+    "5%"
+   ],
+   "a": 3,
+   "x": "The maximum farmer premium for annual commercial and horticultural crops is 5%.",
+   "ty": "numerical",
+   "tq": "Compare the highest premium category with the food-and-oilseed categories.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "Consider the following statements regarding PMFBY:\n1. It became voluntary for all farmers from 2020.\n2. It covers losses from pre-sowing to post-harvest stages.\n3. It covers certain localised calamities.\n4. It is a Central Sector Scheme in which the Centre’s premium subsidy goes directly to insurers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. PMFBY became voluntary in 2020, covers pre-sowing to post-harvest losses and localised calamities, and is a Central Sector Scheme with the Centre’s premium subsidy transferred directly to insurers.",
+   "ty": "statements",
+   "tq": "Check each statement against the scheme’s status, coverage period, risk coverage and funding structure.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "Which of the following technologies is correctly matched with its function under PMFBY?\n1. YES-TECH — remote-sensing-based yield estimation\n2. WINDS — weather stations\n3. DigiClaim — digital claims processing\n4. RWBCIS — land-record digitisation\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "YES-TECH is associated with remote-sensing yield estimation, WINDS with weather stations, and DigiClaim with digital claims processing. RWBCIS is weather-index insurance, not land-record digitisation.",
+   "ty": "statements",
+   "tq": "Match each technology with its operational function and reject the unrelated land-record option.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "Which one of the following correctly describes the basis of payout under the Restructured Weather Based Crop Insurance Scheme (RWBCIS)?",
+   "o": [
+    "Payout is based exclusively on the farmer’s landholding size.",
+    "Payout is made when observed weather deviates from specified trigger levels.",
+    "Payout is determined by the number of agricultural labourers in the village.",
+    "Payout is linked only to the market price of the harvested crop."
+   ],
+   "a": 1,
+   "x": "RWBCIS is a weather-index insurance scheme. It pays when weather conditions deviate from predetermined trigger levels.",
+   "ty": "confusable",
+   "tq": "Distinguish weather-index insurance from yield-based, price-based and landholding-based compensation.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "Consider the following statements about crop insurance in Andhra Pradesh:\n1. The earlier free crop insurance model operated during 2019–2024, with the State paying the farmer’s share.\n2. Voluntary enrolment was reintroduced from Rabi 2024–25.\n3. Under the reintroduced arrangement, farmers pay a nominal share of the actuarial premium.\n4. The remaining premium is shared equally by the Centre and the State.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Andhra Pradesh earlier paid the farmer’s share from 2019 to 2024 and reintroduced voluntary enrolment from Rabi 2024–25 with the stated sharing arrangement.",
+   "ty": "statements",
+   "tq": "Trace the change from the earlier free-insurance model to the voluntary enrolment model.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "Which of the following pairs correctly presents the reported AP crop-insurance coverage figures?\n1. 2024: 34.93 lakh farmers and 28.67 lakh hectares\n2. 2025–26: 10.63 lakh farmers and 11.81 lakh hectares\nSelect the correct answer.",
+   "o": [
+    "Statement 2 only",
+    "Statement 1 only",
+    "Both statements 1 and 2",
+    "Neither statement 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both figures are correct: coverage was 34.93 lakh farmers over 28.67 lakh hectares in 2024, followed by 10.63 lakh farmers over 11.81 lakh hectares in the 2025–26 data.",
+   "ty": "numerical",
+   "tq": "Keep the two time-separated farmer and area figures together instead of mixing the years.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "According to the reported PMFBY scale, the number of farmers insured in 2024–25 was approximately:",
+   "o": [
+    "2.19 crore",
+    "3.19 crore",
+    "4.19 crore",
+    "5.19 crore"
+   ],
+   "a": 2,
+   "x": "PMFBY insured approximately 4.19 crore farmers in 2024–25.",
+   "ty": "numerical",
+   "tq": "Identify the exact crore figure and reject distractors formed by changing the leading digit.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "Over nine years of PMFBY implementation, claims amounted to approximately ₹1.82 lakh crore, while farmers’ premium amounted to approximately:",
+   "o": [
+    "₹15,864 crore",
+    "₹25,864 crore",
+    "₹35,864 crore",
+    "₹45,864 crore"
+   ],
+   "a": 2,
+   "x": "Farmers’ premium over the period was approximately ₹35,864 crore, against claims of about ₹1.82 lakh crore.",
+   "ty": "numerical",
+   "tq": "Read the paired claim-and-premium figures carefully rather than confusing the two magnitudes.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "The Krishi Rakshak helpline associated with crop insurance is available through which number?",
+   "o": [
+    "14447",
+    "14547",
+    "15447",
+    "19447"
+   ],
+   "a": 0,
+   "x": "The Krishi Rakshak helpline number is 14447.",
+   "ty": "fact",
+   "tq": "Test the exact helpline number using close numerical distractors.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched?\n1. PMFBY — yield and crop-loss insurance\n2. RWBCIS — weather-index insurance\n3. PMFBY — payment only after post-harvest losses\n4. AP crop insurance — voluntary enrolment from Rabi 2024–25",
+   "o": [
+    "4 only",
+    "2 only",
+    "1 only",
+    "3 only"
+   ],
+   "a": 3,
+   "x": "Statement 3 is incorrect. PMFBY covers the period from pre-sowing to post-harvest, not only post-harvest losses; the other statements are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the statement that narrows a broad scheme coverage into an exclusive condition.",
+   "sec": "Crop insurance - PMFBY premium, RWBCIS, AP free crop insurance"
+  },
+  {
+   "s": "In the NABARD-supported Guntur study of 2023, what percentage of farmers were reported to be in debt?",
+   "o": [
+    "68%",
+    "78%",
+    "88%",
+    "98%"
+   ],
+   "a": 2,
+   "x": "The study reported that 88% of the farmers were in debt.",
+   "ty": "numerical",
+   "tq": "Use the exact survey percentage and distinguish it from nearby percentage distractors.",
+   "sec": "Moneylenders and informal credit - interest rates, AP moneylending regulation  [GROUP-II]"
+  },
+  {
+   "s": "According to the Guntur study, the average debt of tenant farmers was approximately:",
+   "o": [
+    "₹76,306",
+    "₹1,07,444",
+    "₹2,07,444",
+    "₹2,70,444"
+   ],
+   "a": 2,
+   "x": "The average debt of tenant farmers was reported as ₹2,07,444.",
+   "ty": "numerical",
+   "tq": "Compare tenant and owner debt figures without reversing their digits or categories.",
+   "sec": "Moneylenders and informal credit - interest rates, AP moneylending regulation  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly compares the average debt of tenant and owner farmers in the Guntur study?",
+   "o": [
+    "Owners owed more: ₹2,07,444 against tenants’ ₹76,306.",
+    "Tenants owed more: ₹2,07,444 against owners’ ₹76,306.",
+    "Both groups owed ₹2,07,444 on average.",
+    "Both groups owed ₹76,306 on average."
+   ],
+   "a": 1,
+   "x": "Tenant farmers had an average debt of ₹2,07,444, whereas owner farmers had an average debt of ₹76,306.",
+   "ty": "comparison",
+   "tq": "Apply the reversed-comparison trap to the two category-wise debt figures.",
+   "sec": "Moneylenders and informal credit - interest rates, AP moneylending regulation  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding informal agricultural credit in the Guntur study:\n1. Informal sources accounted for 51.5% of loans.\n2. Approximately 60% of tenants’ loans came from informal sources.\n3. Formal lenders charged 25–100% interest in the study.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Formal lenders charged 2.5–10%, not 25–100%, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Test the informal-share figures while using a misplaced decimal-range trap for formal interest rates.",
+   "sec": "Moneylenders and informal credit - interest rates, AP moneylending regulation  [GROUP-II]"
+  },
+  {
+   "s": "The microfinance guard-rails referred to in the economic survey provide for which combination?",
+   "o": [
+    "A maximum of two lenders per borrower and a household cap of ₹1 lakh",
+    "A maximum of five lenders per borrower and a household cap of ₹2 lakh",
+    "A maximum of three lenders per borrower and a household cap of ₹2 lakh",
+    "A maximum of three lenders per borrower and a household cap of ₹5 lakh"
+   ],
+   "a": 2,
+   "x": "The guard-rails prescribe a maximum of three lenders per borrower and a household borrowing cap of ₹2 lakh.",
+   "ty": "fact",
+   "tq": "Pair the lender-count ceiling with the household monetary ceiling.",
+   "sec": "Moneylenders and informal credit - interest rates, AP moneylending regulation  [GROUP-II]"
+  },
+  {
+   "s": "The Andhra Pradesh Microfinance Institutions (Regulation of Money Lending) Act was enacted in:",
+   "o": [
+    "2010",
+    "2011",
+    "2012",
+    "2015"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh enacted the Microfinance Institutions (Regulation of Money Lending) Act in 2011, following the 2010 microfinance crisis.",
+   "ty": "fact",
+   "tq": "Distinguish the year of the crisis from the year of the regulatory legislation.",
+   "sec": "Moneylenders and informal credit - interest rates, AP moneylending regulation  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following is NOT identified as a major criticism of farm-loan waivers?",
+   "o": [
+    "They may exclude informal and tenant borrowers.",
+    "They permanently eliminate the structural causes of agrarian distress.",
+    "They may provide immediate relief to borrowers.",
+    "They may create moral hazard affecting credit discipline."
+   ],
+   "a": 1,
+   "x": "Loan waivers provide immediate relief but do not permanently eliminate structural causes of agrarian distress. Exclusion of informal and tenant borrowers and moral hazard are recognised concerns.",
+   "ty": "negative",
+   "tq": "Select the option that reverses the stated limitation of loan waivers.",
+   "sec": "Loan waiver debate - moral hazard, credit culture, fiscal cost (RBI views)  [GROUP-II]"
+  },
+  {
+   "s": "Assertion (A): Repeated loan waivers can weaken credit culture.\nReason (R): Borrowers may expect future political waivers and consequently have weaker incentives to repay loans.\nSelect the correct answer using the code given below.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both the assertion and the reason are true, and the expectation of future waivers explains why repeated waivers can weaken repayment discipline and credit culture.",
+   "ty": "assertion_reason",
+   "tq": "Link the moral-hazard mechanism directly to the effect on repayment behaviour.",
+   "sec": "Loan waiver debate - moral hazard, credit culture, fiscal cost (RBI views)  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following consequences was associated with the bank-nationalisation era in the discussion on loan waivers?\n1. Politicisation of loan waivers\n2. Poor loan recovery\n3. Increase in non-performing assets\n4. Complete elimination of fiscal stress on States\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Politicised waivers, poor recovery and NPAs were associated with the bank-nationalisation era. Loan waivers do not eliminate fiscal stress on States, making statement 4 false.",
+   "ty": "statements",
+   "tq": "Identify the three linked adverse outcomes and reject the absolute fiscal claim.",
+   "sec": "Loan waiver debate - moral hazard, credit culture, fiscal cost (RBI views)  [GROUP-II]"
+  },
+  {
+   "s": "Which principle best reflects the recommended approach to agricultural indebtedness?",
+   "o": [
+    "Debt prevention is more important than repeated waivers.",
+    "Fiscal costs should be disregarded when granting waivers.",
+    "Repeated debt waivers are more important than preventive measures.",
+    "Informal borrowing should replace formal agricultural credit."
+   ],
+   "a": 0,
+   "x": "The stated principle is that preventing the accumulation of unsustainable debt is more important than relying on repeated loan waivers.",
+   "ty": "application",
+   "tq": "Apply the policy principle to distinguish prevention from repeated post-crisis relief.",
+   "sec": "Loan waiver debate - moral hazard, credit culture, fiscal cost (RBI views)  [GROUP-II]"
+  },
+  {
+   "s": "Who chaired the Expert Group on Agricultural Indebtedness constituted in 2007?",
+   "o": [
+    "M. S. Swaminathan",
+    "R. Radhakrishna",
+    "Y. V. Reddy",
+    "Rangarajan"
+   ],
+   "a": 1,
+   "x": "R. Radhakrishna chaired the Expert Group on Agricultural Indebtedness constituted in 2007.",
+   "ty": "fact",
+   "tq": "Use the chairperson-name association rather than substituting a familiar agriculture or economic expert.",
+   "sec": "Expert Group on Agricultural Indebtedness → chairman  [GROUP-II]"
+  },
+  {
+   "s": "According to the NSS 77th Round findings, which statement is correct regarding indebtedness among agricultural households in the major States?",
+   "o": [
+    "Andhra Pradesh ranked first with 93.2%, while Telangana ranked second with 91.7%.",
+    "Telangana ranked first with 93.2%, while Andhra Pradesh ranked second with 91.7%.",
+    "Andhra Pradesh ranked first with 91.7%, while Telangana ranked second with 93.2%.",
+    "Both Andhra Pradesh and Telangana recorded 93.2%."
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh had the highest proportion among major States at 93.2%, followed by Telangana at 91.7%.",
+   "ty": "comparison",
+   "tq": "Keep the state ranking and percentages together to avoid reversing the two neighbouring entries.",
+   "sec": "Most indebted states in NSS surveys  [GROUP-II]"
+  },
+  {
+   "s": "The number of operative Kisan Credit Cards (KCCs) in March 2025 was approximately:",
+   "o": [
+    "5.72 crore",
+    "6.72 crore",
+    "7.72 crore",
+    "8.72 crore"
+   ],
+   "a": 2,
+   "x": "There were approximately 7.72 crore operative KCCs in March 2025.",
+   "ty": "numerical",
+   "tq": "Identify the exact crore figure associated with the March 2025 reference date.",
+   "sec": "KCC coverage gap for small and marginal farmers  [GROUP-II]"
+  },
+  {
+   "s": "The KCC coverage gap is highlighted by comparing 7.72 crore operative KCCs with approximately how many agricultural holdings?",
+   "o": [
+    "46 million",
+    "96 million",
+    "146 million",
+    "246 million"
+   ],
+   "a": 2,
+   "x": "The comparison is between 7.72 crore operative KCCs and 146 million agricultural holdings recorded in the 2015–16 Agricultural Census.",
+   "ty": "numerical",
+   "tq": "Convert neither figure mentally into a different unit before making the coverage comparison.",
+   "sec": "KCC coverage gap for small and marginal farmers  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about the Modified Interest Subvention Scheme (MISS):\n1. It benefits approximately 5.9 crore farmers.\n2. The Central region has 30% of Gross Cropped Area.\n3. The Central region receives 30% of MISS benefits.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. The Central region has 14.7%, not 30%, of MISS benefits, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Compare the two different regional percentages instead of assuming that area share equals benefit share.",
+   "sec": "KCC coverage gap for small and marginal farmers  [GROUP-II]"
+  },
+  {
+   "s": "Which category of farmers is LEAST likely to be excluded from formal agricultural credit on account of the land-record requirement?",
+   "o": [
+    "Oral-lessee farmers",
+    "Farmers whose land ownership is recorded in official land records",
+    "Women farmers without documented land rights",
+    "Tenant farmers"
+   ],
+   "a": 1,
+   "x": "Formal credit commonly requires land records, so farmers with officially recorded land ownership are less affected by this particular exclusion than tenants, oral lessees and farmers without documented land rights.",
+   "ty": "application",
+   "tq": "Apply the land-record condition to identify which borrower satisfies the formal-credit requirement.",
+   "sec": "KCC coverage gap for small and marginal farmers  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following groups are specifically identified as facing exclusion from formal agricultural credit because land records are required?\n1. Tenant farmers\n2. Tribal farmers\n3. Women farmers\n4. Oral-lessee farmers\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four groups are identified as vulnerable to exclusion from formal agricultural credit where land records are required.",
+   "ty": "statements",
+   "tq": "Check the complete beneficiary-exclusion list before selecting a partial combination.",
+   "sec": "KCC coverage gap for small and marginal farmers  [GROUP-II]"
+  }
+ ]
+}

@@ -1,0 +1,316 @@
+{
+ "book": 3,
+ "row": 75,
+ "chunk": 2,
+ "section": "Balance of Payments - structure, current and capital account, convertibility, forex reserves",
+ "subsections": [
+  "Remittances - rank and sources",
+  "Accounting identity - BoP vs balance of trade, errors and omissions, reserves",
+  "IMF role - BoP support facilities, SDR",
+  "Sustainable CAD threshold (Rangarajan committee)",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 24,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "India was estimated to be the world's largest recipient of remittances in FY25. What was the approximate amount of remittances and their share in India's GDP, respectively?",
+   "o": [
+    "$135.4 billion and 3.5%",
+    "$188.8 billion and 4.2%",
+    "$87.55 billion and 2.1%",
+    "$110.47 billion and 2.8%"
+   ],
+   "a": 0,
+   "x": "India received approximately $135.4 billion in remittances in FY25, equivalent to about 3.5% of its GDP.",
+   "ty": "numerical",
+   "tq": "Use the paired numerical figures and distinguish the annual estimate from other remittance measures.",
+   "sec": "Remittances - rank and sources"
+  },
+  {
+   "s": "Which one of the following is the correct order of the leading sources of remittances to India, beginning with the largest source?",
+   "o": [
+    "Singapore, United Kingdom, United Arab Emirates, United States",
+    "United States, United Arab Emirates, United Kingdom, Singapore",
+    "United Arab Emirates, United States, Singapore, United Kingdom",
+    "United States, United Kingdom, United Arab Emirates, Singapore"
+   ],
+   "a": 1,
+   "x": "The United States is the largest source of remittances to India, accounting for 27.7%, followed by the UAE, the UK and Singapore.",
+   "ty": "fact",
+   "tq": "Test the exact order in a ranked list rather than relying on general regional associations.",
+   "sec": "Remittances - rank and sources"
+  },
+  {
+   "s": "Consider the following statements regarding India's remittances:\n1. Workers' remittances reached $110.47 billion in FY26, compared with $87.55 billion earlier.\n2. Remittances received in the fourth quarter of FY26 amounted to $31.07 billion.\n3. The fourth-quarter figure represented a 13-year high.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The FY26 workers' remittance figure was $110.47 billion, while Q4 FY26 remittances were $31.07 billion, a 13-year high.",
+   "ty": "statements",
+   "tq": "Check all three related numerical statements before selecting the combined option.",
+   "sec": "Remittances - rank and sources"
+  },
+  {
+   "s": "Which one of the following best explains the significance of remittances in India's external sector?",
+   "o": [
+    "They are counter-cyclical and do not create a debt burden or repayment obligation.",
+    "They are classified entirely as foreign direct investment inflows.",
+    "They can be received only through external commercial borrowings.",
+    "They are pro-cyclical and create a direct repayment obligation for the recipient country."
+   ],
+   "a": 0,
+   "x": "Remittances are counter-cyclical and do not create a repayment obligation, unlike debt-related flows such as ECBs or certain portfolio liabilities.",
+   "ty": "application",
+   "tq": "Apply the contrast between stable transfer inflows and debt-creating capital flows.",
+   "sec": "Remittances - rank and sources"
+  },
+  {
+   "s": "With reference to invisibles in the balance of payments, consider the following statements:\n1. Invisibles include services, primary income and transfers.\n2. Non-factor services include shipping, banking, tourism and software.\n3. Factor income is distinct from non-factor services.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Invisibles comprise services, primary income and transfers. Services include non-factor activities such as shipping, banking, tourism and software, while factor income is separately identified.",
+   "ty": "statements",
+   "tq": "Group the components of invisibles and distinguish factor from non-factor services.",
+   "sec": "Remittances - rank and sources"
+  },
+  {
+   "s": "Which one of the following correctly describes India's net primary income in the first quarter of FY27?",
+   "o": [
+    "It was an outflow of $10.5 billion.",
+    "It was an outflow of $135.4 billion.",
+    "It was an inflow of $10.5 billion.",
+    "It was an inflow of $31.07 billion."
+   ],
+   "a": 0,
+   "x": "India's net primary income was an outflow of $10.5 billion in Q1 FY27.",
+   "ty": "fact",
+   "tq": "Discriminate between an income inflow and an income outflow while retaining the exact figure.",
+   "sec": "Remittances - rank and sources"
+  },
+  {
+   "s": "A country records a current account deficit. Which of the following can finance that deficit?\n1. A surplus in the capital account through net capital inflows\n2. Drawing down foreign exchange reserves\n3. The monetary authority acting as the ultimate financier of a balance of payments deficit\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "A CAD may be financed through capital-account inflows or by using reserves. More generally, the monetary authority is the ultimate financier of a balance of payments deficit.",
+   "ty": "statements",
+   "tq": "Test the financing routes of a deficit by separating external inflows from reserve use.",
+   "sec": "Accounting identity - BoP vs balance of trade, errors and omissions, reserves"
+  },
+  {
+   "s": "Which one of the following statements correctly distinguishes Balance of Trade from Balance of Payments?",
+   "o": [
+    "Balance of Trade is always equal to the current account balance.",
+    "Balance of Trade covers merchandise exports and imports only, whereas Balance of Payments records the complete set of external transactions.",
+    "Balance of Trade includes all capital and financial transactions, whereas Balance of Payments includes only merchandise trade.",
+    "Balance of Payments excludes services and transfers because they are invisible items."
+   ],
+   "a": 1,
+   "x": "Balance of Trade equals merchandise exports minus merchandise imports and is a part of the current account. Balance of Payments is the broader record of external transactions.",
+   "ty": "comparison",
+   "tq": "Split the narrower merchandise measure from the comprehensive external-account measure.",
+   "sec": "Accounting identity - BoP vs balance of trade, errors and omissions, reserves"
+  },
+  {
+   "s": "Consider the following statements about transactions in the balance of payments:\n1. Autonomous transactions take place for their own sake.\n2. Accommodating transactions are undertaken to fill the gap arising from other transactions.\n3. Reserve changes and official borrowing are examples of accommodating transactions.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Autonomous transactions are motivated by their own economic purpose. Accommodating transactions, including reserve changes and official borrowing, help finance or fill the resulting gap.",
+   "ty": "statements",
+   "tq": "Distinguish transactions by their purpose rather than by the account in which they appear.",
+   "sec": "Accounting identity - BoP vs balance of trade, errors and omissions, reserves"
+  },
+  {
+   "s": "What is the usual effect of the overall balance of payments position on foreign exchange reserves?",
+   "o": [
+    "The overall balance has no relationship with reserve movements.",
+    "A positive overall balance reduces reserves, while a negative balance increases them.",
+    "A positive overall balance adds to reserves, while a negative balance draws them down.",
+    "Both positive and negative balances increase reserves because the BoP always balances in accounting terms."
+   ],
+   "a": 2,
+   "x": "A positive overall balance adds to foreign exchange reserves, whereas a negative overall balance draws them down. If reserves become insufficient, a balance of payments crisis may result.",
+   "ty": "fact",
+   "tq": "Use the direction of reserve movement to identify the correct surplus-deficit relationship.",
+   "sec": "Accounting identity - BoP vs balance of trade, errors and omissions, reserves"
+  },
+  {
+   "s": "The primary purpose of IMF finance in relation to a country's external sector is to",
+   "o": [
+    "correct disequilibrium in the balance of payments, especially in a crisis.",
+    "finance permanent infrastructure expenditure without conditions.",
+    "provide grants for increasing merchandise exports.",
+    "determine the country's exchange rate independently of its monetary authority."
+   ],
+   "a": 0,
+   "x": "IMF finance is generally treated as a last resort for correcting balance of payments disequilibrium, particularly during an external crisis.",
+   "ty": "application",
+   "tq": "Identify the institution by matching its principal function with the external-sector problem.",
+   "sec": "IMF role - BoP support facilities, SDR"
+  },
+  {
+   "s": "Which of the following are principal IMF lending windows used for balance of payments support?\n1. Stand-By Arrangement\n2. Extended Fund Facility\n3. Foreign Currency Swap Facility of the Reserve Bank of India\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Stand-By Arrangement and Extended Fund Facility are IMF balance of payments lending windows. The Foreign Currency Swap Facility of the RBI is not an IMF lending window.",
+   "ty": "statements",
+   "tq": "Eliminate the institutionally mismatched facility by asking which body operates it.",
+   "sec": "IMF role - BoP support facilities, SDR"
+  },
+  {
+   "s": "India drew on IMF assistance during which of the following situations?",
+   "o": [
+    "The balance of payments crisis of 1991",
+    "The current account surplus of 2000–03",
+    "The services surplus of FY25",
+    "The remittance inflow surge of FY26"
+   ],
+   "a": 0,
+   "x": "India obtained IMF assistance during the severe balance of payments crisis of 1991.",
+   "ty": "fact",
+   "tq": "Link the international institution to the specific crisis year rather than to later external-sector developments.",
+   "sec": "IMF role - BoP support facilities, SDR"
+  },
+  {
+   "s": "The High Level Committee on Balance of Payments headed by C. Rangarajan during 1991–93 regarded a sustainable current account deficit as approximately",
+   "o": [
+    "1.6% of GDP",
+    "3.5% of GDP",
+    "6.5% of GDP",
+    "0.5% of GDP"
+   ],
+   "a": 0,
+   "x": "The C. Rangarajan Committee placed a sustainable CAD at approximately 1.6% of GDP and also recommended a market-determined exchange rate.",
+   "ty": "numerical",
+   "tq": "Retain the committee-specific threshold and distinguish it from contemporary CAD figures.",
+   "sec": "Sustainable CAD threshold (Rangarajan committee)"
+  },
+  {
+   "s": "Which additional recommendation was associated with the High Level Committee on Balance of Payments headed by C. Rangarajan?",
+   "o": [
+    "A market-determined exchange rate",
+    "A permanently fixed exchange rate determined by the IMF",
+    "Complete prohibition of capital inflows",
+    "Replacement of the current account by the capital account"
+   ],
+   "a": 0,
+   "x": "Along with identifying a sustainable CAD of about 1.6% of GDP, the committee recommended a market-determined exchange rate.",
+   "ty": "fact",
+   "tq": "Pair the committee with its specific policy recommendation rather than its numerical threshold alone.",
+   "sec": "Sustainable CAD threshold (Rangarajan committee)"
+  },
+  {
+   "s": "India's current account position in June 2026 was characterised by which of the following?",
+   "o": [
+    "A deficit of $6.2 billion against a merchandise gap of $30.2 billion",
+    "A surplus of $1.2 billion against a merchandise gap of $6.2 billion",
+    "A surplus of $6.2 billion against a merchandise gap of $30.2 billion",
+    "A deficit of $30.2 billion against a merchandise surplus of $6.2 billion"
+   ],
+   "a": 0,
+   "x": "The CAD widened to $6.2 billion in June 2026, from a surplus of $1.2 billion a year earlier, amid a merchandise gap of $30.2 billion.",
+   "ty": "numerical",
+   "tq": "Match the deficit, comparison-year surplus and merchandise gap without reversing their signs.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding India's external-sector position in H1 FY26:\n1. India's CAD was 0.8% of GDP.\n2. This CAD was lower than the corresponding high-deficit positions of Brazil, Australia and the United Kingdom.\n3. The rupee fell by approximately 6.5% against the US dollar.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the H1 FY26 CAD was 0.8% of GDP, lower than the cited high-deficit peers, while the rupee depreciated by about 6.5% against the dollar.",
+   "ty": "statements",
+   "tq": "Combine the percentage, peer comparison and exchange-rate movement before choosing the coded answer.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Why are FCNR(B) deposits and external commercial borrowings viewed cautiously in discussions on India's external-sector sustainability?",
+   "o": [
+    "They are domestic tax receipts and do not affect the balance of payments.",
+    "They are temporary inflows, whereas FDI is expected to support a self-sustaining capital surplus.",
+    "They are permanent grants and therefore cannot reverse suddenly.",
+    "They are components of merchandise exports and reduce the trade deficit directly."
+   ],
+   "a": 1,
+   "x": "FCNR(B) and ECB inflows are considered temporary sources of financing. The preferred long-term basis for a self-sustaining capital surplus is stronger FDI.",
+   "ty": "application",
+   "tq": "Distinguish temporary financing flows from durable investment flows.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly describes India's external-sector position in Q1 FY27 and July 2026?",
+   "o": [
+    "CAD was 6.2% of GDP, and FCNR(B) inflows had no effect on the balance of payments.",
+    "There was a current account surplus of 0.5% of GDP, caused entirely by merchandise exports.",
+    "CAD was 1.6% of GDP, and FCNR(B) inflows produced a balance of payments deficit in July 2026.",
+    "CAD was 0.5% of GDP, and FCNR(B) inflows contributed to a balance of payments surplus in July 2026."
+   ],
+   "a": 3,
+   "x": "The CAD was 0.5% of GDP in Q1 FY27, while FCNR(B) inflows helped produce a balance of payments surplus in July 2026.",
+   "ty": "fact",
+   "tq": "Keep the two time references separate and match each with its correct external-sector outcome.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "India ran a current account surplus for three consecutive years only during which period?",
+   "o": [
+    "1991–94",
+    "1997–2000",
+    "2000–03",
+    "2010–13"
+   ],
+   "a": 2,
+   "x": "India recorded a current account surplus for three straight years only during 2000–03.",
+   "ty": "chronology",
+   "tq": "Use the distinctive first-and-last period clue to identify the correct sequence of years.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following reflects a criticism of excessive reliance on remittances and one-time deposit schemes?",
+   "o": [
+    "They are always more volatile than merchandise imports because they are recorded as trade flows.",
+    "They may substitute for stable foreign direct investment and do not by themselves ensure long-term external-sector sustainability.",
+    "They eliminate the need for foreign exchange reserves.",
+    "They necessarily create a stable and self-sustaining capital surplus irrespective of their duration."
+   ],
+   "a": 1,
+   "x": "Dependence on remittances and one-time deposit schemes may provide useful financing but does not replace stable FDI or guarantee a self-sustaining capital surplus.",
+   "ty": "application",
+   "tq": "Apply the sustainability test by comparing recurring investment with temporary or transfer-based financing.",
+   "sec": "Universal angles"
+  }
+ ]
+}

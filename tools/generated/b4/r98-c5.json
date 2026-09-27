@@ -1,0 +1,330 @@
+{
+ "book": 4,
+ "row": 98,
+ "chunk": 5,
+ "section": "Services sector geography - tourism (India and AP circuits), IT, banking; salient features",
+ "subsections": [
+  "Caves, waterfalls and natural wonders → district",
+  "Eco-tourism sites and hill stations → district and nicknames",
+  "Buddhist heritage sites of AP → district",
+  "Heritage forts and monuments of AP → district",
+  "UNESCO tentative list sites from AP; GI crafts tourism"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 26,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following statements regarding Borra Caves is correct?",
+   "o": [
+    "They are formed in basalt and contain only stalagmites.",
+    "They are karstic limestone caves containing stalactites and stalagmites.",
+    "They were first recorded by Robert Bruce Foote in 1884.",
+    "They are located in Nandyal district and are the second-longest caves in India."
+   ],
+   "a": 1,
+   "x": "Borra Caves are karstic limestone formations containing stalactites and stalagmites. The 1884 record by Robert Bruce Foote relates to Belum Caves.",
+   "ty": "statements",
+   "tq": "Discriminate between nearby cave facts and reject the swapped-person trap.",
+   "sec": "Caves, waterfalls and natural wonders → district"
+  },
+  {
+   "s": "Who discovered Borra Caves in 1807, according to the Geological Survey of India account?",
+   "o": [
+    "Acharya Nagarjuna",
+    "Robert Bruce Foote",
+    "Alexander Rea",
+    "William King George"
+   ],
+   "a": 3,
+   "x": "Borra Caves were found in 1807 by William King George, as recorded in the Geological Survey of India account.",
+   "ty": "fact",
+   "tq": "Test the discoverer–site pair precisely.",
+   "sec": "Caves, waterfalls and natural wonders → district"
+  },
+  {
+   "s": "Consider the following statements:\n1. Belum Caves are located in Nandyal district.\n2. Belum Caves are the second-longest natural caves in India.\n3. Belum Caves were first recorded in 1906 by Alexander Rea.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Belum Caves are in Nandyal and are the second-longest natural caves in India after Krem Liat Prah. They were first recorded in 1884 by Robert Bruce Foote, not in 1906 by Alexander Rea.",
+   "ty": "statements",
+   "tq": "Find the single wrong date-and-person statement.",
+   "sec": "Caves, waterfalls and natural wonders → district"
+  },
+  {
+   "s": "Thimmamma Marrimanu is notable for which of the following?",
+   "o": [
+    "The longest natural cave in India",
+    "The largest Buddhist stupa in Andhra Pradesh",
+    "The largest banyan canopy in the world",
+    "The highest waterfall in Andhra Pradesh"
+   ],
+   "a": 2,
+   "x": "Thimmamma Marrimanu in Sri Sathya Sai district is recognised for having the world's largest banyan canopy.",
+   "ty": "fact",
+   "tq": "Test the distinctive superlative attached to a natural wonder.",
+   "sec": "Caves, waterfalls and natural wonders → district"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Papikondalu — Boating on the Godavari",
+    "Araku Valley — Alluri Sitharama Raju district",
+    "Lambasingi — Kashmir of Andhra Pradesh",
+    "Maredumilli — Nandyal district"
+   ],
+   "a": 3,
+   "x": "Maredumilli is in Polavaram district, not Nandyal district. Araku, Lambasingi and Papikondalu are correctly matched with their stated features.",
+   "ty": "negative",
+   "tq": "Find the wrong location among closely related eco-tourism sites.",
+   "sec": "Eco-tourism sites and hill stations → district and nicknames"
+  },
+  {
+   "s": "Lambasingi is popularly known as the:",
+   "o": [
+    "Tibet of Andhra Pradesh",
+    "Kashmir of Andhra Pradesh",
+    "Grand Canyon of India",
+    "Andhra Ooty"
+   ],
+   "a": 1,
+   "x": "Lambasingi in Alluri Sitharama Raju district is called the “Kashmir of Andhra Pradesh” because of its near-freezing winters.",
+   "ty": "fact",
+   "tq": "Use the nickname–site association directly.",
+   "sec": "Eco-tourism sites and hill stations → district and nicknames"
+  },
+  {
+   "s": "Which of the following statements about Papikondalu is correct?",
+   "o": [
+    "It is a fort situated on the Penna gorge.",
+    "It is a Buddhist monastery complex in Visakhapatnam.",
+    "It is a hill station famous for coffee plantations in Annamayya district.",
+    "It is a national park associated with the Godavari gorge and boating."
+   ],
+   "a": 3,
+   "x": "Papikondalu is associated with the Godavari gorge in the Polavaram project area and is known for boating on the Godavari.",
+   "ty": "application",
+   "tq": "Identify the tourism site from its activity and geographical setting.",
+   "sec": "Eco-tourism sites and hill stations → district and nicknames"
+  },
+  {
+   "s": "Which statement regarding the recent district reorganisation of Andhra Pradesh is correct?",
+   "o": [
+    "The number of districts was reduced from 28 to 26.",
+    "Polavaram district was formed with headquarters at Rampachodavaram.",
+    "Markapuram district was formed with headquarters at Araku.",
+    "Both districts were formed on 31 December 2024."
+   ],
+   "a": 1,
+   "x": "Polavaram district, with headquarters at Rampachodavaram, and Markapuram district were formed on 31 December 2025, taking the total to 28 districts.",
+   "ty": "numerical",
+   "tq": "Check the date, headquarters and changed total separately.",
+   "sec": "Eco-tourism sites and hill stations → district and nicknames"
+  },
+  {
+   "s": "The Amaravati Buddhist site is situated on the banks of the:",
+   "o": [
+    "Penna",
+    "Krishna",
+    "Godavari",
+    "Tungabhadra"
+   ],
+   "a": 1,
+   "x": "Amaravati is located in the Guntur region on the banks of the Krishna River.",
+   "ty": "fact",
+   "tq": "Test the river–heritage-site relationship.",
+   "sec": "Buddhist heritage sites of AP → district"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Salihundam — Srikakulam",
+    "Ghantasala — Bapatla",
+    "Bhattiprolu — Krishna",
+    "Sankaram — Guntur"
+   ],
+   "a": 0,
+   "x": "Salihundam is located in Srikakulam district. Ghantasala is in Krishna, Bhattiprolu in Bapatla and Sankaram in Anakapalli.",
+   "ty": "match",
+   "tq": "Start with the sure district–site pair and eliminate the swaps.",
+   "sec": "Buddhist heritage sites of AP → district"
+  },
+  {
+   "s": "Consider the following statements:\n1. Bavikonda and Thotlakonda are hilltop monasteries in Visakhapatnam.\n2. Their origins are associated with approximately 200 BCE.\n3. They had trade links with Sri Lanka and Southeast Asia.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Bavikonda and Thotlakonda are Visakhapatnam hilltop monasteries dating to about 200 BCE and connected with overseas trade.",
+   "ty": "statements",
+   "tq": "Recognise when all linked statements describe one heritage cluster.",
+   "sec": "Buddhist heritage sites of AP → district"
+  },
+  {
+   "s": "Sankaram, comprising Bojjannakonda and Lingalakonda, is noted for:",
+   "o": [
+    "Rock-cut caves representing Hinayana, Mahayana and Vajrayana traditions",
+    "A fort on the Penna gorge",
+    "A Vijayanagara palace and hanging pillar",
+    "A Mahachaitya made entirely of granite"
+   ],
+   "a": 0,
+   "x": "Sankaram in Anakapalli district contains rock-cut caves associated with Hinayana, Mahayana and Vajrayana traditions. The site was found by Alexander Rea in 1906.",
+   "ty": "fact",
+   "tq": "Link the monument with its distinctive religious classification.",
+   "sec": "Buddhist heritage sites of AP → district"
+  },
+  {
+   "s": "Which Buddhist heritage site is popularly described as the “Tibet of Andhra Pradesh”?",
+   "o": [
+    "Amaravati",
+    "Nagarjunakonda",
+    "Ghantasala",
+    "Salihundam"
+   ],
+   "a": 3,
+   "x": "Salihundam in Srikakulam district is known as the “Tibet of Andhra Pradesh” and is noted for Vajrayana sculptures and an ancient port.",
+   "ty": "fact",
+   "tq": "Test the exact nickname rather than the broader Buddhist association.",
+   "sec": "Buddhist heritage sites of AP → district"
+  },
+  {
+   "s": "Nagarjunakonda is located on an island in the:",
+   "o": [
+    "Srisailam reservoir",
+    "Dowleswaram reservoir",
+    "Polavaram reservoir",
+    "Nagarjuna Sagar reservoir"
+   ],
+   "a": 3,
+   "x": "Nagarjunakonda is situated on an island in the Nagarjuna Sagar reservoir on the Palnadu side and is named after Acharya Nagarjuna.",
+   "ty": "fact",
+   "tq": "Use the reservoir–island location association.",
+   "sec": "Buddhist heritage sites of AP → district"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Chandragiri — Raja Mahal and Vijayanagara fort",
+    "Lepakshi — Veerabhadra temple with a hanging pillar",
+    "Undavalli Caves — Fort on the Penna gorge",
+    "Gandikota — Fort on the Penna gorge"
+   ],
+   "a": 2,
+   "x": "Undavalli Caves are rock-cut caves in Guntur district containing a reclining Vishnu image. The fort on the Penna gorge is Gandikota.",
+   "ty": "negative",
+   "tq": "Reject the swapped monument–feature pairing.",
+   "sec": "Heritage forts and monuments of AP → district"
+  },
+  {
+   "s": "Which of the following statements are correct?\n1. Chandragiri is associated with a Vijayanagara fort and Raja Mahal.\n2. Penukonda was a Vijayanagara stronghold.\n3. Lepakshi is noted for Vijayanagara murals and a huge Nandi.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Chandragiri, Penukonda and Lepakshi are important monuments associated with Vijayanagara heritage in the stated districts.",
+   "ty": "statements",
+   "tq": "Combine three site–feature associations and check each independently.",
+   "sec": "Heritage forts and monuments of AP → district"
+  },
+  {
+   "s": "Kondapalli Fort is located in which district?",
+   "o": [
+    "Guntur",
+    "YSR Kadapa",
+    "NTR",
+    "Tirupati"
+   ],
+   "a": 2,
+   "x": "Kondapalli Fort is located in NTR district. NTR district also contains Mogalarajapuram and Akkanna Madanna caves.",
+   "ty": "fact",
+   "tq": "Test the monument–district relationship directly.",
+   "sec": "Heritage forts and monuments of AP → district"
+  },
+  {
+   "s": "Which of the following Andhra Pradesh heritage sites is included in India’s UNESCO tentative list?",
+   "o": [
+    "Maredumilli caravan park",
+    "Kondapalli Fort alone",
+    "Amaravati Buddhist Stupa",
+    "Papikondalu National Park alone"
+   ],
+   "a": 2,
+   "x": "The Amaravati Buddhist Stupa is included in India’s UNESCO tentative list. Lepakshi, including the Veerabhadra Temple and monolithic Nandi, was added in 2022.",
+   "ty": "fact",
+   "tq": "Distinguish tentative-list heritage sites from tourism proposals.",
+   "sec": "UNESCO tentative list sites from AP; GI crafts tourism"
+  },
+  {
+   "s": "Lepakshi was added to the UNESCO tentative list in:",
+   "o": [
+    "2018",
+    "2020",
+    "2022",
+    "2025"
+   ],
+   "a": 2,
+   "x": "Lepakshi, represented by the Veerabhadra Temple and monolithic Nandi, was added to the UNESCO tentative list in 2022.",
+   "ty": "numerical",
+   "tq": "Use the year-based option set to identify the precise date.",
+   "sec": "UNESCO tentative list sites from AP; GI crafts tourism"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with the craft’s location and material or technique?",
+   "o": [
+    "Kondapalli toys — NTR district — soft Tella Poniki wood",
+    "Etikoppaka toys — NTR district — stone carving",
+    "Kondapalli toys — Anakapalli — lacquer and natural dyes",
+    "Etikoppaka toys — Guntur — bronze casting"
+   ],
+   "a": 0,
+   "x": "Kondapalli toys are associated with NTR district and are made from soft Tella Poniki wood. Etikoppaka toys belong to Anakapalli and use lacquer and natural dyes.",
+   "ty": "match",
+   "tq": "Match both the place and the distinctive material before choosing the code.",
+   "sec": "UNESCO tentative list sites from AP; GI crafts tourism"
+  },
+  {
+   "s": "Etikoppaka toys are especially associated with which production technique?",
+   "o": [
+    "White-limestone relief sculpture",
+    "Rock-cut excavation",
+    "Carving from Tella Poniki wood without colouring",
+    "Lacquer work using natural dyes"
+   ],
+   "a": 3,
+   "x": "Etikoppaka toys of Anakapalli are known for lacquer work and the use of natural dyes. Their GI status helps attract craft tourists.",
+   "ty": "application",
+   "tq": "Identify the craft from its characteristic technique and material treatment.",
+   "sec": "UNESCO tentative list sites from AP; GI crafts tourism"
+  },
+  {
+   "s": "Which of the following statements about tourism initiatives and circuits is correct?\n1. A Gandikota–Horsley Hills–Talakona circuit was proposed in the Tirupati region plan.\n2. Caravan parks were proposed at Araku, Chintapalli and Maredumilli.\n3. The Araku–Lambasingi–Borra Caves project was approved at a cost of ₹29.88 crore.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The Gandikota–Horsley Hills–Talakona circuit, caravan-park proposals and the ₹29.88 crore Araku–Lambasingi–Borra Caves project are stated tourism initiatives.",
+   "ty": "statements",
+   "tq": "Verify the sites, locations and numerical project figure together.",
+   "sec": "Caves, waterfalls and natural wonders → district"
+  }
+ ]
+}

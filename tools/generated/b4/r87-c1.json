@@ -1,0 +1,554 @@
+{
+ "book": 4,
+ "row": 87,
+ "chunk": 1,
+ "section": "India - iron and steel, aluminium and other metallurgical industries: location and plants",
+ "subsections": [
+  "Aluminium companies and plants",
+  "Copper, zinc and lead smelters",
+  "Mini steel plants and sponge iron",
+  "PSUs and their plants",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The exceptionally high power requirement of aluminium smelting is approximately:",
+   "o": [
+    "4,000–5,000 kWh per tonne",
+    "40,000–50,000 kWh per tonne",
+    "14,000–15,000 kWh per tonne",
+    "1,400–1,500 kWh per tonne"
+   ],
+   "a": 2,
+   "x": "Aluminium smelting requires approximately 14,000–15,000 kWh of electricity per tonne.",
+   "ty": "numerical",
+   "tq": "Distinguish a high-energy industrial figure from distractors differing by a factor of ten.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "The power-oriented location of aluminium smelters is primarily explained by the fact that they are generally established near:",
+   "o": [
+    "bauxite mines alone",
+    "cotton-growing regions",
+    "major seaports alone",
+    "hydroelectric or captive thermal power sources"
+   ],
+   "a": 3,
+   "x": "Because aluminium smelting consumes 14,000–15,000 kWh per tonne, smelters are located near hydel or captive thermal power sources rather than being governed solely by proximity to mines.",
+   "ty": "application",
+   "tq": "Apply the raw-material-versus-power distinction to an industrial-location scenario.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "NALCO refinery — Angul",
+    "NALCO refinery — Damanjodi",
+    "NALCO smelter — Damanjodi",
+    "NALCO captive power unit — Korba"
+   ],
+   "a": 1,
+   "x": "NALCO has its alumina refinery at Damanjodi in Koraput district. Its smelter and captive power facilities are at Angul.",
+   "ty": "confusable",
+   "tq": "Separate the refinery location from the smelter and captive-power location within the same company.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "Panchpatmali bauxite is associated with which of the following aluminium complexes?",
+   "o": [
+    "MALCO at Mettur",
+    "NALCO at Damanjodi and Angul",
+    "BALCO at Korba",
+    "INDAL at Alupuram"
+   ],
+   "a": 1,
+   "x": "NALCO uses Panchpatmali bauxite; its refinery is at Damanjodi and its smelter and captive power plant are at Angul in Odisha.",
+   "ty": "fact",
+   "tq": "Link the named bauxite source with the correct company and plant complex.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "NALCO's Damanjodi–Angul aluminium complex was established with assistance from:",
+   "o": [
+    "French sources",
+    "German sources",
+    "Japanese sources",
+    "Russian sources"
+   ],
+   "a": 0,
+   "x": "The NALCO complex was established with French assistance.",
+   "ty": "fact",
+   "tq": "Use the foreign-assistance association without confusing it with collaboration in steel plants.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Vedanta — Jharsuguda",
+    "BALCO — Renukoot",
+    "HINDALCO — Korba",
+    "MALCO — Hirakud"
+   ],
+   "a": 0,
+   "x": "Vedanta's largest aluminium smelter is located at Jharsuguda in Odisha. BALCO is at Korba, HINDALCO is at Renukoot and Hirakud, and MALCO is at Mettur.",
+   "ty": "match",
+   "tq": "Start from the sure company–location pair and eliminate the swapped plant locations.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "The aluminium smelter at Korba is operated by:",
+   "o": [
+    "INDAL",
+    "NALCO",
+    "BALCO",
+    "MALCO"
+   ],
+   "a": 2,
+   "x": "BALCO operates the aluminium smelter at Korba in Chhattisgarh.",
+   "ty": "fact",
+   "tq": "Test the operator–plant association directly.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "Amarkantak bauxite is associated with which aluminium company?",
+   "o": [
+    "NALCO",
+    "HINDALCO",
+    "Vedanta",
+    "BALCO"
+   ],
+   "a": 3,
+   "x": "BALCO's Korba aluminium operations are associated with Amarkantak bauxite.",
+   "ty": "fact",
+   "tq": "Connect a named bauxite source with its aluminium producer rather than its state alone.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "Consider the following statements about HINDALCO:\n1. It has an aluminium plant at Renukoot in Uttar Pradesh.\n2. It has an aluminium plant at Hirakud in Odisha.\n3. Its bauxite source mentioned here is Lohardaga in Jharkhand.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "HINDALCO has plants at Renukoot and Hirakud, and Lohardaga in Jharkhand is its associated bauxite source in the stated locations.",
+   "ty": "statements",
+   "tq": "Check all three linked location statements instead of relying on the best-known plant alone.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "Which of the following sets contains only locations of INDAL aluminium plants?",
+   "o": [
+    "Mettur, Korba and Renukoot",
+    "Hirakud, Lohardaga and Amarkantak",
+    "Muri, Belagavi and Alupuram",
+    "Damanjodi, Angul and Jharsuguda"
+   ],
+   "a": 2,
+   "x": "INDAL has plants at Muri in Jharkhand, Belagavi in Karnataka and Alupuram in Kerala.",
+   "ty": "fact",
+   "tq": "Identify a complete location set rather than a single familiar plant.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "MALCO's aluminium plant is located at:",
+   "o": [
+    "Belagavi, Karnataka",
+    "Alupuram, Kerala",
+    "Muri, Jharkhand",
+    "Mettur, Tamil Nadu"
+   ],
+   "a": 3,
+   "x": "MALCO's aluminium plant is at Mettur in Tamil Nadu.",
+   "ty": "fact",
+   "tq": "Match the company with its distinct location after separating it from the three INDAL locations.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "Arrange the following aluminium companies in descending order of sales as indicated:\nA. INDAL\nB. HINDALCO\nC. MALCO\nD. NALCO",
+   "o": [
+    "B, D, A, C",
+    "D, B, A, C",
+    "B, A, D, C",
+    "C, A, D, B"
+   ],
+   "a": 0,
+   "x": "The sales order is HINDALCO, NALCO, INDAL and MALCO.",
+   "ty": "chronology",
+   "tq": "Convert the stated ranking into a descending-order sequence.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "INDAL — Alupuram, Kerala",
+    "INDAL — Muri, Jharkhand",
+    "INDAL — Belagavi, Karnataka",
+    "INDAL — Muri, Chhattisgarh"
+   ],
+   "a": 3,
+   "x": "Muri is in Jharkhand, not Chhattisgarh. Belagavi and Alupuram are also INDAL locations.",
+   "ty": "negative",
+   "tq": "Find the geographically shifted state in an otherwise familiar company–plant list.",
+   "sec": "Aluminium companies and plants"
+  },
+  {
+   "s": "Khetri, Ghatsila–Mosabani and Dahej are associated, respectively, with:",
+   "o": [
+    "copper, copper and copper",
+    "lead, zinc and aluminium",
+    "zinc, copper and lead",
+    "aluminium, copper and zinc"
+   ],
+   "a": 0,
+   "x": "Khetri and Ghatsila–Mosabani are copper centres, while Dahej is also a copper centre operated by HINDALCO using imported concentrate.",
+   "ty": "match",
+   "tq": "Use a common-metal anchor to distinguish multiple copper centres from zinc and lead locations.",
+   "sec": "Copper, zinc and lead smelters"
+  },
+  {
+   "s": "Which organisation operates the copper facilities at Khetri and Ghatsila–Mosabani?",
+   "o": [
+    "HINDALCO",
+    "Hindustan Copper Limited",
+    "Hindustan Zinc Limited",
+    "Sterlite Copper"
+   ],
+   "a": 1,
+   "x": "Khetri in Rajasthan and Ghatsila–Mosabani in Jharkhand are copper centres operated by Hindustan Copper Limited.",
+   "ty": "fact",
+   "tq": "Identify the public-sector operator rather than the metal-producing location alone.",
+   "sec": "Copper, zinc and lead smelters"
+  },
+  {
+   "s": "Malanjkhand, located in Madhya Pradesh, is noted for being:",
+   "o": [
+    "India's largest open-pit copper mine",
+    "India's largest lead-zinc mine",
+    "the largest aluminium smelter in India",
+    "the first public integrated steel plant"
+   ],
+   "a": 0,
+   "x": "Malanjkhand is India's largest open-pit copper mine and is associated with Hindustan Copper Limited.",
+   "ty": "fact",
+   "tq": "Distinguish a mine from a smelter and from plants belonging to other metallurgical industries.",
+   "sec": "Copper, zinc and lead smelters"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Dahej — HINDALCO copper plant using imported concentrate",
+    "Zawar — HINDALCO aluminium refinery",
+    "Visakhapatnam — Sterlite copper plant",
+    "Thoothukudi — Hindustan Zinc lead-zinc mine"
+   ],
+   "a": 0,
+   "x": "Dahej in Gujarat has a HINDALCO copper facility that uses imported concentrate. Zawar is associated with Hindustan Zinc, Visakhapatnam with a zinc smelter, and Thoothukudi with Sterlite copper.",
+   "ty": "match",
+   "tq": "Use operator and input material together to reject swapped metallurgy pairs.",
+   "sec": "Copper, zinc and lead smelters"
+  },
+  {
+   "s": "Zawar in Rajasthan is primarily associated with:",
+   "o": [
+    "copper mines operated by Hindustan Copper",
+    "lead-zinc mines operated by Hindustan Zinc",
+    "a steel plant operated by RINL",
+    "an aluminium smelter operated by NALCO"
+   ],
+   "a": 1,
+   "x": "Zawar is a lead-zinc mining centre in Rajasthan associated with Hindustan Zinc.",
+   "ty": "fact",
+   "tq": "Distinguish the lead-zinc centre from Rajasthan's copper centre at Khetri.",
+   "sec": "Copper, zinc and lead smelters"
+  },
+  {
+   "s": "The zinc smelter at Visakhapatnam is associated with:",
+   "o": [
+    "BALCO",
+    "HINDALCO",
+    "Hindustan Copper Limited",
+    "Hindustan Zinc"
+   ],
+   "a": 3,
+   "x": "Visakhapatnam in Andhra Pradesh is associated with a zinc smelter of Hindustan Zinc.",
+   "ty": "fact",
+   "tq": "Identify the operator of a non-ferrous plant rather than assuming the local steel company owns it.",
+   "sec": "Copper, zinc and lead smelters"
+  },
+  {
+   "s": "Consider the following statements:\n1. India holds less than 2 per cent of global copper reserves.\n2. India is a net importer of copper concentrate.\n3. Chile leads in global copper reserves.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: India's global reserve share is under 2 per cent, it imports copper concentrate on a net basis, and Chile is the leading country mentioned for copper reserves.",
+   "ty": "statements",
+   "tq": "Combine a percentage, trade position and world-leader fact in one statement set.",
+   "sec": "Copper, zinc and lead smelters"
+  },
+  {
+   "s": "India is the leading producer of which of the following?",
+   "o": [
+    "Lead-zinc ore",
+    "Sponge iron or direct reduced iron",
+    "Primary aluminium",
+    "Copper concentrate"
+   ],
+   "a": 1,
+   "x": "India is the leading producer of sponge iron, also known as direct reduced iron (DRI).",
+   "ty": "fact",
+   "tq": "Use the exact product synonym to avoid confusing sponge iron with crude steel.",
+   "sec": "Mini steel plants and sponge iron"
+  },
+  {
+   "s": "Mini and secondary steel units generally melt scrap or sponge iron in:",
+   "o": [
+    "reverberatory and glass furnaces",
+    "open-hearth and cement kilns",
+    "blast furnaces and oil refineries",
+    "electric arc and induction furnaces"
+   ],
+   "a": 3,
+   "x": "Mini and secondary steel units use electric arc furnaces and induction furnaces to melt scrap or sponge iron.",
+   "ty": "application",
+   "tq": "Match the production process with the appropriate furnace technology.",
+   "sec": "Mini steel plants and sponge iron"
+  },
+  {
+   "s": "Which statement correctly distinguishes induction furnaces from electric arc furnaces in mini-steel production?",
+   "o": [
+    "Induction furnaces require iron ore mines to be located at the plant site.",
+    "Induction furnaces cannot melt sponge iron.",
+    "Induction furnaces are used only for primary aluminium production.",
+    "Induction furnaces handle small batches and are energy-efficient."
+   ],
+   "a": 3,
+   "x": "Induction furnaces are suitable for small batches and are energy-efficient; they can melt scrap or sponge iron in secondary steel production.",
+   "ty": "comparison",
+   "tq": "Select the precise functional distinction rather than a statement that reverses the furnace role.",
+   "sec": "Mini steel plants and sponge iron"
+  },
+  {
+   "s": "As stated for 8 September 2026, electric arc furnaces and induction furnaces account for approximately what shares of crude steel production, respectively?",
+   "o": [
+    "22% and 35%",
+    "8% and 22%",
+    "50% and 60%",
+    "35% and 22%"
+   ],
+   "a": 0,
+   "x": "The stated shares are approximately 22 per cent for electric arc furnaces and 35 per cent for induction furnaces.",
+   "ty": "numerical",
+   "tq": "Preserve the order of two adjacent numerical values while rejecting their reversal.",
+   "sec": "Mini steel plants and sponge iron"
+  },
+  {
+   "s": "The Steel Authority of India Limited (SAIL) was set up in:",
+   "o": [
+    "1956",
+    "1965",
+    "1973",
+    "1981"
+   ],
+   "a": 2,
+   "x": "SAIL was set up in 1973.",
+   "ty": "numerical",
+   "tq": "Choose the establishment year from nearby industrial milestones without substituting a plant foundation year.",
+   "sec": "PSUs and their plants"
+  },
+  {
+   "s": "Which one of the following sets contains only SAIL plants listed among its integrated and other steel units?",
+   "o": [
+    "Khetri, Malanjkhand, Bhadravati and Dahej",
+    "Visakhapatnam, Damanjodi, Angul and Salem",
+    "Bhilai, Durgapur, Rourkela and Bokaro",
+    "Korba, Jharsuguda, Mettur and Burnpur"
+   ],
+   "a": 2,
+   "x": "Bhilai, Durgapur, Rourkela and Bokaro are among the listed SAIL plants. Visakhapatnam belongs to RINL, while Damanjodi and Angul belong to NALCO.",
+   "ty": "fact",
+   "tq": "Recognise a same-PSU cluster and eliminate plants belonging to other public-sector companies.",
+   "sec": "PSUs and their plants"
+  },
+  {
+   "s": "Which of the following is NOT a plant or unit listed under SAIL?",
+   "o": [
+    "Bhadravati (VISL)",
+    "Visakhapatnam Steel Plant",
+    "Salem",
+    "Maharashtra Elektrosmelt"
+   ],
+   "a": 1,
+   "x": "Visakhapatnam Steel Plant is operated by RINL. Salem, Bhadravati (VISL), and Maharashtra Elektrosmelt are listed under SAIL, with Maharashtra Elektrosmelt as a subsidiary.",
+   "ty": "negative",
+   "tq": "Find the plant associated with the neighbouring PSU rather than the dominant steel company.",
+   "sec": "PSUs and their plants"
+  },
+  {
+   "s": "The Visakhapatnam Steel Plant is operated by:",
+   "o": [
+    "SAIL",
+    "RINL",
+    "HCL",
+    "NALCO"
+   ],
+   "a": 1,
+   "x": "Rashtriya Ispat Nigam Limited (RINL) operates the Visakhapatnam Steel Plant.",
+   "ty": "fact",
+   "tq": "Match the distinctive plant with its owning public-sector undertaking.",
+   "sec": "PSUs and their plants"
+  },
+  {
+   "s": "Consider the following statements about NALCO:\n1. It was established in 1981.\n2. It is a Navratna company under the Ministry of Mines.\n3. The Government of India holds 51.28 per cent of its equity.\n4. It has a 198 MW wind-power capacity.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. NALCO was established in 1981, is a Navratna under the Ministry of Mines, has 51.28 per cent Government of India ownership, and has 198 MW of wind power.",
+   "ty": "statements",
+   "tq": "Check the establishment, administrative status, ownership and energy figures together.",
+   "sec": "PSUs and their plants"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "HCL — Khetri, Ghatsila–Mosabani and Malanjkhand",
+    "RINL — Damanjodi and Angul",
+    "NALCO — Khetri and Zawar",
+    "SAIL — Visakhapatnam Steel Plant"
+   ],
+   "a": 0,
+   "x": "Hindustan Copper Limited has units at Khetri, Ghatsila–Mosabani and Malanjkhand. Damanjodi and Angul belong to NALCO, while Visakhapatnam Steel Plant belongs to RINL.",
+   "ty": "match",
+   "tq": "Start with the complete HCL location cluster and eliminate cross-PSU substitutions.",
+   "sec": "PSUs and their plants"
+  },
+  {
+   "s": "Under the draft notification referred to for the Carbon Credit Trading Scheme, binding emission-intensity reductions are proposed for how many iron and steel plants from financial year 2026–27?",
+   "o": [
+    "55",
+    "155",
+    "255",
+    "555"
+   ],
+   "a": 2,
+   "x": "The draft notification proposes binding emission-intensity cuts for 255 iron and steel plants from FY 2026–27.",
+   "ty": "numerical",
+   "tq": "Retain the exact plant count and financial-year reference in a current-affairs question.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The proposed emission-intensity reduction range for the 255 iron and steel plants is:",
+   "o": [
+    "2.1–9.3 per cent, with a median of about 5.5 per cent",
+    "0.2–0.9 per cent, with a median of 0.55 per cent",
+    "5.5–12 per cent, with a median of 9.3 per cent",
+    "9.3–25.4 per cent, with a median of 12 per cent"
+   ],
+   "a": 0,
+   "x": "The proposed cuts range from 2.1 to 9.3 per cent, with a median of approximately 5.5 per cent.",
+   "ty": "numerical",
+   "tq": "Check both endpoints and the median instead of recognising only one familiar percentage.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding emissions from India's steel industry:\n1. Indian steel emits about 2.54 tonnes of CO2 per tonne of steel.\n2. The corresponding world average is about 1.9 tonnes of CO2 per tonne.\n3. The steel sector contributes approximately 10–12 per cent of India's national CO2 emissions.\n4. Indian steel faces exposure to the European Union's Carbon Border Adjustment Mechanism.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The stated Indian intensity exceeds the world average, the sector contributes 10–12 per cent of national CO2 emissions, and EU CBAM creates exposure for Indian steel.",
+   "ty": "statements",
+   "tq": "Compare the national and global emission figures before assessing the policy implication.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "An explosion at the Visakhapatnam Steel Plant on 8 June 2026 resulted in:",
+   "o": [
+    "the closure of all SAIL plants and a judicial commission",
+    "the death of 8 persons and a three-member Steel Ministry probe panel",
+    "the death of 10 persons and a four-member NALCO committee",
+    "the death of 3 persons and an eight-member parliamentary committee"
+   ],
+   "a": 1,
+   "x": "The explosion on 8 June 2026 killed eight people, after which the Steel Ministry constituted a three-member probe panel.",
+   "ty": "fact",
+   "tq": "Combine the incident date, casualty figure and investigating authority in one current-affairs recall question.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following was NOT among the alternatives considered before Visakhapatnam was selected for the steel plant?",
+   "o": [
+    "Neyveli",
+    "Durgapur",
+    "Bailadila",
+    "Goa"
+   ],
+   "a": 1,
+   "x": "The alternatives mentioned were Bailadila, Goa, Neyveli, Salem and Hospet. Durgapur was not included in that list.",
+   "ty": "negative",
+   "tq": "Find the location outside a specified shortlist rather than selecting a familiar steel centre.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The foundation stone of the Visakhapatnam Steel Plant was laid on:",
+   "o": [
+    "20 January 1965",
+    "20 January 1971",
+    "8 June 1971",
+    "20 January 1982"
+   ],
+   "a": 1,
+   "x": "The foundation stone of the Visakhapatnam Steel Plant was laid on 20 January 1971.",
+   "ty": "numerical",
+   "tq": "Separate the agitation period, foundation-stone date and blast-furnace foundation year.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The first blast furnace of the Visakhapatnam Steel Plant was named:",
+   "o": [
+    "Godavari",
+    "Panchpatmali",
+    "Krishna",
+    "Bhilai"
+   ],
+   "a": 0,
+   "x": "The first blast furnace was named ‘Godavari’; its foundation was laid in 1982.",
+   "ty": "fact",
+   "tq": "Identify the named unit while avoiding substitution with a river or another plant name.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The 1965–66 agitation associated with the Visakhapatnam Steel Plant used the slogan:",
+   "o": [
+    "Steel for Coastal India",
+    "Andhra Steel for All",
+    "Godavari Steel Movement",
+    "Visakha Steel – Andhra's Right"
+   ],
+   "a": 3,
+   "x": "The agitation slogan was “Visakha Steel – Andhra's Right.”",
+   "ty": "fact",
+   "tq": "Recall the exact slogan rather than a paraphrase of the demand.",
+   "sec": "Universal angles"
+  }
+ ]
+}

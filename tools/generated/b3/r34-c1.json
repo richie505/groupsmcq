@@ -1,0 +1,102 @@
+{
+ "book": 3,
+ "row": 34,
+ "chunk": 1,
+ "section": "Measurement of unemployment - UPS, UPSS, CWS, CDS; PLFS methodology and recent findings",
+ "subsections": [
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 6,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "From which year did India shift to monthly unemployment data based on the Current Weekly Status (CWS) approach?",
+   "o": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "a": 2,
+   "x": "India shifted to monthly unemployment data based on the CWS approach from 2025.",
+   "ty": "fact",
+   "tq": "Use the date-specific recall approach and distinguish the stated year from nearby years.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Under the Current Weekly Status approach, a person is treated as employed if the person worked for at least:",
+   "o": [
+    "Eight hours during the reference week",
+    "One hour during the reference week",
+    "Seven days during the reference week",
+    "One day during the reference week"
+   ],
+   "a": 1,
+   "x": "Under the CWS approach, working for even one hour during the reference week is sufficient for classification as employed. Critics argue that this may mask underemployment and miss circular migration.",
+   "ty": "fact",
+   "tq": "Test the precise threshold in a definition and use nearby time periods as distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding the measurement of unemployment in India:\n1. Critics argue that the CWS measure may mask underemployment.\n2. Critics argue that the CWS measure may fail to capture circular migration adequately.\n3. The CWS measure is regarded as free from all measurement-related limitations.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct criticisms of the CWS approach. Statement 3 is false because the approach has been criticised for masking underemployment and missing circular migration.",
+   "ty": "statements",
+   "tq": "Find the false absolute statement and select the combination containing the two supported criticisms.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to unemployment in Andhra Pradesh and India during 2024–25, consider the following statements:\n1. Andhra Pradesh recorded an unemployment rate of 4.1%.\n2. The national unemployment rate was 3.2%.\n3. Andhra Pradesh's unemployment rate was below the national rate.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "1, 2 and 3",
+    "2 and 3 only"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh recorded an unemployment rate of 4.1%, while the national rate was 3.2% in 2024–25. Therefore, Statement 3 is false; Andhra Pradesh's rate was above the national rate.",
+   "ty": "comparison",
+   "tq": "Compare the two stated percentages before checking the reversed-comparison trap.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The unemployment rate of Andhra Pradesh in 2024–25 was reported to be driven primarily by:",
+   "o": [
+    "Agricultural and elderly-worker unemployment",
+    "Rural and female unemployment",
+    "Industrial and seasonal unemployment",
+    "Urban and youth unemployment"
+   ],
+   "a": 3,
+   "x": "The higher unemployment rate in Andhra Pradesh was attributed to urban and youth unemployment.",
+   "ty": "fact",
+   "tq": "Link the reported rate to its stated causes rather than relying on a generic unemployment explanation.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes CMIE data from PLFS data in the measurement of unemployment?",
+   "o": [
+    "CMIE data are monthly, use a larger sample, and differ methodologically from PLFS, contributing to divergence in their estimates.",
+    "CMIE and PLFS estimates cannot diverge because both use the same frequency, sample size and methodology.",
+    "CMIE data are monthly and based on a larger sample, whereas CMIE and PLFS use identical methodologies.",
+    "PLFS data are monthly and use a larger sample, whereas CMIE data are based on the PLFS methodology."
+   ],
+   "a": 0,
+   "x": "CMIE data are monthly and based on a larger sample, but CMIE and PLFS use different methodologies. These differences can produce divergence between their unemployment estimates.",
+   "ty": "comparison",
+   "tq": "Split the alternatives by frequency, sample size and methodology to identify the complete comparison.",
+   "sec": "Universal angles"
+  }
+ ]
+}

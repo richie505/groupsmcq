@@ -1,0 +1,472 @@
+{
+ "book": 4,
+ "row": 82,
+ "chunk": 1,
+ "section": "India - agriculture: commercial crops (cotton, sugarcane, oilseeds, jute, tea, coffee, rubber, spices) and their regions",
+ "subsections": [
+  "Crop-specific apps and schemes → crop",
+  "World leading producers → crop",
+  "Growth conditions and water-efficient crops",
+  "Horticulture - India's world rank, leading states, research institutes",
+  "Crop nicknames and commercial-crop revolutions",
+  "Jute sector initiatives - Paat-Mitro, Jute ICARE, National Jute Board",
+  "Cash crops - tobacco, chillies, turmeric → states and markets"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Paat-Mitro mobile application is associated with which crop?",
+   "o": [
+    "Cotton",
+    "Oil palm",
+    "Sugarcane",
+    "Jute"
+   ],
+   "a": 3,
+   "x": "Paat-Mitro was launched in 2023 for jute farmers.",
+   "ty": "fact",
+   "tq": "Direct recall of a crop-specific application.",
+   "sec": "Crop-specific apps and schemes → crop"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Jute-ICARE — Jute\n2. NMEO-Oil Palm — Oil palm\n3. Technology Mission on Cotton — Cotton\n4. NMEO-Oilseeds — Groundnut, sesamum, castor and sunflower\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Jute-ICARE concerns jute, NMEO-Oil Palm concerns oil palm, the Technology Mission on Cotton concerns cotton, and NMEO-Oilseeds covers several oilseeds.",
+   "ty": "statements",
+   "tq": "Match each scheme with its specific crop sector.",
+   "sec": "Crop-specific apps and schemes → crop"
+  },
+  {
+   "s": "The Technology Mission on Cotton is associated with which of the following descriptions?",
+   "o": [
+    "Round Revolution",
+    "Silver Fibre Revolution",
+    "Golden Fibre Revolution",
+    "Yellow Revolution"
+   ],
+   "a": 1,
+   "x": "The Technology Mission on Cotton is associated with the Silver Fibre Revolution.",
+   "ty": "confusable",
+   "tq": "Discriminate between similarly named crop revolutions.",
+   "sec": "Crop-specific apps and schemes → crop"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched regarding world production position?",
+   "o": [
+    "Tea — China, first",
+    "Cotton — India, first",
+    "Jute — India, first",
+    "Sugarcane — India, second"
+   ],
+   "a": 1,
+   "x": "India is placed second or among the top two in cotton production, not first. India is first in jute, China is first in tea, and India is second in sugarcane according to the stated positions.",
+   "ty": "negative",
+   "tq": "Find the reversed world-ranking comparison.",
+   "sec": "World leading producers → crop"
+  },
+  {
+   "s": "With reference to the stated world production positions, consider the following statements:\n1. India ranks second in tea production.\n2. India ranks second in groundnut production.\n3. India ranks first in spices and coconuts.\n4. India ranks fifth in rubber production in the older cited assessment.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct in the stated production-position assessments: India is second in tea and groundnut, first in spices and coconuts, and fifth in rubber in the older assessment.",
+   "ty": "statements",
+   "tq": "Use a multi-statement ranking check without assuming all rankings are first.",
+   "sec": "World leading producers → crop"
+  },
+  {
+   "s": "Which one of the following crops is associated with a temperature range of approximately 21–37°C, 50–70 cm rainfall and 180–200 frost-free days?",
+   "o": [
+    "Coffee",
+    "Tea",
+    "Rubber",
+    "Cotton"
+   ],
+   "a": 3,
+   "x": "Cotton requires about 21–37°C, 50–70 cm rainfall and 180–200 frost-free days. Black or regur soil is particularly suitable for it.",
+   "ty": "numerical",
+   "tq": "Identify the crop from its climatic figures.",
+   "sec": "Growth conditions and water-efficient crops"
+  },
+  {
+   "s": "Which of the following combinations correctly describes tea cultivation?",
+   "o": [
+    "25–35°C, 200–300 cm rainfall, laterite soil of the Western Ghats",
+    "20–30°C, 150–300 cm rainfall, acidic well-drained hill slopes",
+    "21–37°C, 50–70 cm rainfall, deep black soil",
+    "15–28°C, 150–250 cm rainfall, deep humus-rich soil under shade"
+   ],
+   "a": 1,
+   "x": "Tea grows well at about 20–30°C with 150–300 cm rainfall on deep, well-drained, acidic hill slopes. Waterlogging is unsuitable for tea.",
+   "ty": "comparison",
+   "tq": "Compare the climatic and site requirements of plantation crops.",
+   "sec": "Growth conditions and water-efficient crops"
+  },
+  {
+   "s": "Coffee cultivation is best associated with which of the following conditions?",
+   "o": [
+    "20–30°C, waterlogged alluvial plains and heavy rainfall",
+    "15–28°C, shade, 150–250 cm rainfall and deep well-drained humus-rich soil",
+    "21–37°C, black soil and 50–70 cm rainfall",
+    "25–35°C, flood plains and high humidity without shade"
+   ],
+   "a": 1,
+   "x": "Coffee requires about 15–28°C, shade, 150–250 cm rainfall and deep, well-drained, humus-rich soil, especially in the Western Ghats.",
+   "ty": "fact",
+   "tq": "Select the precise crop-condition combination.",
+   "sec": "Growth conditions and water-efficient crops"
+  },
+  {
+   "s": "Consider the following statements:\n1. Rubber requires a humid climate and about 25–35°C.\n2. Rubber generally requires 200–300 cm rainfall.\n3. Laterite soils of the Western Ghats are associated with rubber cultivation.\n4. Rubber is best suited to frost-prone dry interiors.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Rubber requires a warm, humid and high-rainfall environment, whereas frost-prone dry interiors are unsuitable.",
+   "ty": "statements",
+   "tq": "Reject the climate-incompatible statement.",
+   "sec": "Growth conditions and water-efficient crops"
+  },
+  {
+   "s": "Jute cultivation is most closely associated with which combination?",
+   "o": [
+    "Cool dry climate and black soils",
+    "Cold climate, acidic hill slopes and low rainfall",
+    "Semi-arid climate and deep sandy loam",
+    "Hot humid climate, heavy rainfall and alluvial flood plains"
+   ],
+   "a": 3,
+   "x": "Jute requires a hot, humid climate, high rainfall and alluvial soils of flood plains, particularly in the Ganga-Brahmaputra delta.",
+   "ty": "fact",
+   "tq": "Link a fibre crop with its characteristic physical setting.",
+   "sec": "Growth conditions and water-efficient crops"
+  },
+  {
+   "s": "Which of the following are regarded as relatively water-efficient alternatives in the context of Indian agriculture?\n1. Millets\n2. Pulses\n3. Oilseeds\n4. Paddy in Punjab and sugarcane in Maharashtra\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Millets, pulses and oilseeds are water-efficient alternatives. Paddy in Punjab and sugarcane in Maharashtra reflect subsidy distortions rather than climate suitability.",
+   "ty": "statements",
+   "tq": "Separate sustainable alternatives from subsidy-induced crop patterns.",
+   "sec": "Growth conditions and water-efficient crops"
+  },
+  {
+   "s": "Black soils are particularly suitable for which of the following group of crops?",
+   "o": [
+    "Coconut, cashew and cocoa",
+    "Cotton, chillies and tobacco",
+    "Jute, tea and sugarcane",
+    "Tea, coffee and rubber"
+   ],
+   "a": 1,
+   "x": "Black soils, which are clayey and moisture-retentive, are suitable for cotton, chillies and tobacco.",
+   "ty": "fact",
+   "tq": "Match soil characteristics with the crop group.",
+   "sec": "Growth conditions and water-efficient crops"
+  },
+  {
+   "s": "Which one of the following crop–soil combinations is correctly matched?",
+   "o": [
+    "Red soil — groundnut, tobacco and ragi",
+    "Black soil — tea, coffee and rubber",
+    "Alluvial flood plains — cotton alone",
+    "Laterite soil — jute and wheat"
+   ],
+   "a": 0,
+   "x": "Red soils are suitable for groundnut, tobacco and ragi. The other combinations incorrectly associate these crops with unsuitable or incomplete soil environments.",
+   "ty": "match",
+   "tq": "Use soil-crop association to eliminate mismatched pairs.",
+   "sec": "Growth conditions and water-efficient crops"
+  },
+  {
+   "s": "India occupies which position in the world in fruit and vegetable production?",
+   "o": [
+    "Second",
+    "First",
+    "Third",
+    "Fifth"
+   ],
+   "a": 0,
+   "x": "India is stated to be the second-largest producer in the world of fruits and vegetables.",
+   "ty": "numerical",
+   "tq": "Direct recall of a world production rank.",
+   "sec": "Horticulture - India's world rank, leading states, research institutes"
+  },
+  {
+   "s": "Which of the following statements regarding horticulture in India is correct?\n1. Horticulture output is about 362–367 million tonnes.\n2. Horticulture contributes about 30.4% of agricultural GDP.\n3. It comes from under 14% of the cropped area.\n4. Horticulture output has exceeded food-grain output.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct in the stated assessment. Horticulture output is about 362–367 MT, exceeds food-grain output and contributes around 30.4% of agricultural GDP from under 14% of cropped area.",
+   "ty": "statements",
+   "tq": "Check several quantitative dimensions of one sector together.",
+   "sec": "Horticulture - India's world rank, leading states, research institutes"
+  },
+  {
+   "s": "Which State is stated to be India's largest fruit producer, with a share of about 15.6%?",
+   "o": [
+    "Bihar",
+    "Andhra Pradesh",
+    "Karnataka",
+    "Maharashtra"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh is stated to be India's largest fruit producer, accounting for about 15.6% of production.",
+   "ty": "fact",
+   "tq": "Direct recall of a state-level production lead.",
+   "sec": "Horticulture - India's world rank, leading states, research institutes"
+  },
+  {
+   "s": "According to the stated recent assessment, the area and production of fruits in Andhra Pradesh are approximately:",
+   "o": [
+    "18.23 lakh ha and 365.92 lakh MT only",
+    "18.57 lakh ha and 406.38 lakh MT",
+    "15.60 lakh ha and 362.00 lakh MT",
+    "20.57 lakh ha and 460.38 lakh MT"
+   ],
+   "a": 1,
+   "x": "The recent figures given are approximately 18.57 lakh hectares and 406.38 lakh metric tonnes. Earlier figures cited were 18.23 lakh hectares and 365.92 lakh metric tonnes.",
+   "ty": "numerical",
+   "tq": "Distinguish updated figures from an earlier estimate.",
+   "sec": "Horticulture - India's world rank, leading states, research institutes"
+  },
+  {
+   "s": "Consider the following statements about the Mission for Integrated Development of Horticulture (MIDH):\n1. The normal Centre–State funding ratio is 60:40.\n2. The ratio is 90:10 for the North-Eastern and Himalayan States.\n3. Its coverage includes fruits, vegetables, spices, flowers, coconut, cashew, cocoa and bamboo.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. MIDH follows a 60:40 ratio generally and 90:10 for the North-Eastern and Himalayan States, and covers the listed horticultural sectors.",
+   "ty": "statements",
+   "tq": "Test funding ratios and programme coverage in one scheme.",
+   "sec": "Horticulture - India's world rank, leading states, research institutes"
+  },
+  {
+   "s": "Which one of the following is NOT a sub-scheme or component associated with MIDH?",
+   "o": [
+    "National Bamboo Mission",
+    "Technology Mission on Cotton",
+    "National Horticulture Mission",
+    "Horticulture Mission for North-East and Himalayan States"
+   ],
+   "a": 1,
+   "x": "The National Horticulture Mission, HMNEH and National Bamboo Mission are associated with MIDH. The Technology Mission on Cotton is a separate cotton-sector initiative.",
+   "ty": "negative",
+   "tq": "Identify the outsider among related programme names.",
+   "sec": "Horticulture - India's world rank, leading states, research institutes"
+  },
+  {
+   "s": "The productivity attributed to MIDH after its implementation is approximately:",
+   "o": [
+    "8.56 MT per hectare",
+    "15.60 MT per hectare",
+    "10.25 MT per hectare",
+    "12.56 MT per hectare"
+   ],
+   "a": 3,
+   "x": "MIDH is stated to have raised horticultural productivity to approximately 12.56 MT per hectare.",
+   "ty": "numerical",
+   "tq": "Recall the scheme-linked productivity figure.",
+   "sec": "Horticulture - India's world rank, leading states, research institutes"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below.\nList-I (Institute)\na. IIHR\nb. CISH\nc. IIVR\nd. NRC Banana\nList-II (Location)\ni. Lucknow\nii. Bengaluru\niii. Varanasi\niv. Tiruchirappalli",
+   "o": [
+    "a–ii, b–i, c–iii, d–iv",
+    "a–i, b–ii, c–iv, d–iii",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii"
+   ],
+   "a": 0,
+   "x": "IIHR is at Bengaluru, CISH at Lucknow, IIVR at Varanasi and NRC Banana at Tiruchirappalli.",
+   "ty": "match",
+   "tq": "Start from the sure institute–location pair and complete the code.",
+   "sec": "Horticulture - India's world rank, leading states, research institutes"
+  },
+  {
+   "s": "Which one of the following institute–location pairs is correctly matched?",
+   "o": [
+    "CPCRI — Kasaragod",
+    "IISR — Bengaluru",
+    "CISH — Kozhikode",
+    "IIVR — Lucknow"
+   ],
+   "a": 0,
+   "x": "The Central Plantation Crops Research Institute (CPCRI) is located at Kasaragod. IISR is at Kozhikode, CISH at Lucknow and IIVR at Varanasi.",
+   "ty": "match",
+   "tq": "Discriminate among specialised horticultural research institutes.",
+   "sec": "Horticulture - India's world rank, leading states, research institutes"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Bihar — Litchi\n2. Meghalaya — Pineapple\n3. Arunachal Pradesh — More than 50% of India's kiwi production\n4. Lakadong — Turmeric of Meghalaya\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Bihar leads in litchi, Meghalaya in pineapple, Arunachal Pradesh grows over half of India's kiwi, and Lakadong is its high-curcumin turmeric variety.",
+   "ty": "statements",
+   "tq": "Combine state leads with distinctive regional varieties.",
+   "sec": "Horticulture - India's world rank, leading states, research institutes"
+  },
+  {
+   "s": "The Arunachal Kiwi Mission is associated with which broader initiative?",
+   "o": [
+    "Ashtalakshmi",
+    "Technology Mission on Cotton",
+    "Jute-ICARE",
+    "National Bamboo Mission only"
+   ],
+   "a": 0,
+   "x": "The Arunachal Kiwi Mission is associated with the Ashtalakshmi initiative.",
+   "ty": "fact",
+   "tq": "Identify the parent initiative of a regional mission.",
+   "sec": "Horticulture - India's world rank, leading states, research institutes"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Round Revolution — Potato",
+    "Golden Fibre — Jute",
+    "Yellow Revolution — Oilseeds",
+    "Golden Revolution — Cotton"
+   ],
+   "a": 3,
+   "x": "Golden Revolution is associated with horticulture and honey. Cotton is associated with the Silver Fibre Revolution, while jute is associated with the Golden Fibre and Golden Fibre Revolution.",
+   "ty": "negative",
+   "tq": "Separate closely resembling revolution labels.",
+   "sec": "Crop nicknames and commercial-crop revolutions"
+  },
+  {
+   "s": "The Golden Revolution is associated with which of the following?",
+   "o": [
+    "Horticulture and honey",
+    "Potato production alone",
+    "Cotton production",
+    "Jute production"
+   ],
+   "a": 0,
+   "x": "The Golden Revolution is associated with horticulture and honey.",
+   "ty": "fact",
+   "tq": "Direct recall of a commercial-crop revolution.",
+   "sec": "Crop nicknames and commercial-crop revolutions"
+  },
+  {
+   "s": "JUTE-ICARE is an initiative involving:",
+   "o": [
+    "Certified seed and the microbial retting consortium SONA",
+    "Drip irrigation for oil palm and coconut",
+    "Tea processing and plantation renewal",
+    "Cotton ginning and textile exports"
+   ],
+   "a": 0,
+   "x": "JUTE-ICARE, or Improved Cultivation and Advanced Retting Exercise, involves certified seed and the microbial retting consortium SONA.",
+   "ty": "fact",
+   "tq": "Expand the acronym and identify its operational components.",
+   "sec": "Jute sector initiatives - Paat-Mitro, Jute ICARE, National Jute Board"
+  },
+  {
+   "s": "Under the Jute Packaging Materials Act, 1987, the prescribed packing requirement is:",
+   "o": [
+    "50% of food grains and 50% of sugar in jute",
+    "100% of food grains and 20% of sugar in jute",
+    "100% of food grains and 100% of sugar in jute",
+    "20% of food grains and 100% of sugar in jute"
+   ],
+   "a": 1,
+   "x": "The Act requires 100% of food grains and 20% of sugar to be packed in jute, subject to the stated provisions.",
+   "ty": "numerical",
+   "tq": "Recall paired statutory percentages accurately.",
+   "sec": "Jute sector initiatives - Paat-Mitro, Jute ICARE, National Jute Board"
+  },
+  {
+   "s": "Which of the following functions is associated with the National Jute Board?",
+   "o": [
+    "Regulating tea exports alone",
+    "Managing the National Bamboo Mission exclusively",
+    "Running the National Jute Development Programme and Jute Crop Information System",
+    "Fixing the minimum support price for all agricultural commodities"
+   ],
+   "a": 2,
+   "x": "The National Jute Board runs the National Jute Development Programme and the Jute Crop Information System, which has operated since 2023.",
+   "ty": "fact",
+   "tq": "Identify the correct institutional function.",
+   "sec": "Jute sector initiatives - Paat-Mitro, Jute ICARE, National Jute Board"
+  },
+  {
+   "s": "When market prices fall, the Jute Corporation of India purchases raw jute at:",
+   "o": [
+    "The minimum support price",
+    "The export parity price",
+    "The international spot price",
+    "A price fixed by the National Horticulture Board"
+   ],
+   "a": 0,
+   "x": "The Jute Corporation of India buys raw jute at the minimum support price when market prices fall.",
+   "ty": "application",
+   "tq": "Apply the institutional role to a market-price scenario.",
+   "sec": "Jute sector initiatives - Paat-Mitro, Jute ICARE, National Jute Board"
+  },
+  {
+   "s": "Which of the following statements regarding cash crops in Andhra Pradesh is correct?\n1. Chilli and tobacco are grown in the black-soil belt.\n2. Guntur is a major chilli-trade hub.\n3. The Tobacco Board is headquartered at Guntur.\n4. Andhra Pradesh ranks first among States in chilli production and second in turmeric.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct in the stated assessment. Andhra Pradesh's black-soil belt supports chilli and tobacco, Guntur is the chilli-trade hub and Tobacco Board seat, and the State ranks first in chillies and second in turmeric.",
+   "ty": "statements",
+   "tq": "Combine crop region, market centre, institution and rank.",
+   "sec": "Cash crops - tobacco, chillies, turmeric → states and markets"
+  },
+  {
+   "s": "Lakadong, known for its high curcumin content, is a turmeric variety associated with:",
+   "o": [
+    "Meghalaya",
+    "Punjab",
+    "Gujarat",
+    "Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "Lakadong turmeric of Meghalaya is known for its high curcumin content.",
+   "ty": "fact",
+   "tq": "Match a distinctive crop variety with its State.",
+   "sec": "Cash crops - tobacco, chillies, turmeric → states and markets"
+  }
+ ]
+}

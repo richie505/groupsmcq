@@ -1,0 +1,485 @@
+{
+ "book": 4,
+ "row": 84,
+ "chunk": 1,
+ "section": "Andhra Pradesh - cropping pattern, major crops, horticulture, aquaculture and fisheries",
+ "subsections": [
+  "Irrigation profile - main source, area, tanks, projects",
+  "Livestock breeding - Gokul Gram, native breeds",
+  "Rayalaseema cropping - black and red soils, rainfed crops",
+  "Externally aided agriculture projects → funding agency",
+  "Cropping pattern - kharif vs rabi, dominant crop",
+  "Horticulture hubs → district"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "In Andhra Pradesh, which one of the following is the correct descending order of the main sources of irrigation, based on their relative importance?",
+   "o": [
+    "Tanks, canals and tube wells",
+    "Canals, tube wells and tanks",
+    "Tube wells, canals and tanks",
+    "Canals, tanks and tube wells"
+   ],
+   "a": 1,
+   "x": "Canals are the main source of irrigation in Andhra Pradesh, followed by tube wells and tanks.",
+   "ty": "fact",
+   "tq": "Use the direct hierarchy of sources and watch for reversal of the order.",
+   "sec": "Irrigation profile - main source, area, tanks, projects  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding irrigation in Andhra Pradesh during 2023-24:\n1. The gross irrigated area was 32.71 lakh hectares.\n2. The net irrigated area was 26.03 lakh hectares.\n3. The gross irrigated area was smaller than the net irrigated area.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The gross irrigated area was 32.71 lakh hectares and the net irrigated area was 26.03 lakh hectares. Gross irrigated area is not smaller than net irrigated area.",
+   "ty": "statements",
+   "tq": "Split the numerical statements and identify the reversed comparison.",
+   "sec": "Irrigation profile - main source, area, tanks, projects  [APPSC]"
+  },
+  {
+   "s": "The fall in the irrigated area of Andhra Pradesh during 2023-24 was primarily associated with which of the following?",
+   "o": [
+    "A sharp increase in cropping intensity",
+    "Expansion of horticultural clusters",
+    "A monsoon deficit",
+    "Excess rainfall of 960.3 mm"
+   ],
+   "a": 2,
+   "x": "The decline was associated with the 2023-24 monsoon deficit, when rainfall was 718.2 mm against the normal 860 mm.",
+   "ty": "application",
+   "tq": "Link the observed change with its stated climatic cause.",
+   "sec": "Irrigation profile - main source, area, tanks, projects  [APPSC]"
+  },
+  {
+   "s": "With reference to the Andhra Pradesh Micro Irrigation Project (APMIP), consider the following statements:\n1. It has been in operation since 2003-04.\n2. It has covered 37.90 lakh acres.\n3. It has benefited 13.49 lakh farmers.\n4. Rayalaseema accounts for 71 per cent of its micro-irrigation coverage.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the period, coverage, beneficiary farmers and regional concentration of APMIP.",
+   "ty": "statements",
+   "tq": "Check each numerical statement independently before selecting the coded combination.",
+   "sec": "Irrigation profile - main source, area, tanks, projects  [APPSC]"
+  },
+  {
+   "s": "According to the classification based on Cultivable Command Area, a medium irrigation project covers:",
+   "o": [
+    "More than 10,000 hectares",
+    "2,000 to 10,000 hectares",
+    "Up to 2,000 hectares",
+    "Exactly 5,000 hectares"
+   ],
+   "a": 1,
+   "x": "A medium project has a CCA of 2,000–10,000 hectares; minor projects are up to 2,000 hectares and major projects exceed 10,000 hectares.",
+   "ty": "numerical",
+   "tq": "Distinguish adjacent numerical ranges rather than relying on the project names alone.",
+   "sec": "Irrigation profile - main source, area, tanks, projects  [APPSC]"
+  },
+  {
+   "s": "Under the Andhra Pradesh classification, minor irrigation generally refers to an ayacut of up to:",
+   "o": [
+    "37,900 acres",
+    "2,000 acres",
+    "5,000 acres",
+    "10,000 acres"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh treats an ayacut up to 5,000 acres as minor irrigation.",
+   "ty": "numerical",
+   "tq": "Separate the state-specific ayacut limit from the CCA-based project classification.",
+   "sec": "Irrigation profile - main source, area, tanks, projects  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs of lift irrigation schemes and locations is correctly matched?\n1. Kothakota LIS — Tungabhadra, Kurnool\n2. Akkajamma Cheruvu LIS — Nandyal\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Kothakota Lift Irrigation Scheme is associated with the Tungabhadra in Kurnool, while Akkajamma Cheruvu LIS is in Nandyal.",
+   "ty": "match",
+   "tq": "Start with the sure location pair and verify both entries.",
+   "sec": "Irrigation profile - main source, area, tanks, projects  [APPSC]"
+  },
+  {
+   "s": "In India, according to the comparative irrigation figures given, which source accounts for the largest share of net irrigated area?",
+   "o": [
+    "Tanks",
+    "Lift irrigation schemes",
+    "Tube wells",
+    "Canals"
+   ],
+   "a": 2,
+   "x": "Tube wells account for 47.3 per cent of India’s net irrigated area, compared with 24.7 per cent for canals and 2.8 per cent for tanks.",
+   "ty": "comparison",
+   "tq": "Compare the percentages rather than assuming that the national pattern is identical to Andhra Pradesh.",
+   "sec": "Irrigation profile - main source, area, tanks, projects  [APPSC]"
+  },
+  {
+   "s": "Chadalawada cattle breeding farm, associated with the Gokul Gram project of the Rashtriya Gokul Mission, is located in:",
+   "o": [
+    "Nandyal district",
+    "Kurnool district",
+    "Anantapur district",
+    "Prakasam district"
+   ],
+   "a": 3,
+   "x": "Chadalawada cattle breeding farm is located in Prakasam district.",
+   "ty": "fact",
+   "tq": "Use the location-based recall pattern and avoid confusing it with the lift-scheme locations.",
+   "sec": "Livestock breeding - Gokul Gram, native breeds  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the codes given below:\n\nList-I (Breed/type)\n a. Ongole\n b. Punganur\n c. Godavari\n d. Nellore\n\nList-II (Livestock)\n i. Sheep\n ii. Buffalo\n iii. Cattle\n iv. Cattle\n\nCodes:",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iii, b–i, c–iv, d–ii"
+   ],
+   "a": 0,
+   "x": "Ongole and Punganur are cattle breeds, Godavari is a buffalo type and Nellore is associated with sheep.",
+   "ty": "match",
+   "tq": "Start from the distinctive Godavari buffalo and Nellore sheep pairs.",
+   "sec": "Livestock breeding - Gokul Gram, native breeds  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Godavari — Sheep",
+    "Aseel — Poultry",
+    "Nellore — Buffalo",
+    "Punganur — Poultry"
+   ],
+   "a": 1,
+   "x": "Aseel is a native poultry type. Nellore refers to sheep, Godavari to buffalo and Punganur to cattle.",
+   "ty": "confusable",
+   "tq": "Discriminate between native livestock names belonging to different animal groups.",
+   "sec": "Livestock breeding - Gokul Gram, native breeds  [APPSC]"
+  },
+  {
+   "s": "The number of Rythu Seva Kendras, formerly known as Rythu Bharosa Kendras, mentioned in relation to veterinary service delivery is:",
+   "o": [
+    "13.49 lakh",
+    "1,000",
+    "10,606",
+    "9,53,000"
+   ],
+   "a": 2,
+   "x": "There are 10,606 Rythu Seva Kendras delivering veterinary services.",
+   "ty": "numerical",
+   "tq": "Distinguish the institutional count from the farmer and area figures used elsewhere.",
+   "sec": "Livestock breeding - Gokul Gram, native breeds  [APPSC]"
+  },
+  {
+   "s": "In Rayalaseema, black soil is particularly suitable for the cultivation of:",
+   "o": [
+    "Cotton",
+    "Rice only under rainfed conditions",
+    "Coconut",
+    "Coffee"
+   ],
+   "a": 0,
+   "x": "Black or regur soil in Rayalaseema is suitable for cotton, along with jowar, chillies, tobacco and oilseeds.",
+   "ty": "fact",
+   "tq": "Associate the characteristic crop with the correct soil type.",
+   "sec": "Rayalaseema cropping - black and red soils, rainfed crops  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding red soils in Rayalaseema:\n1. They are suitable for groundnut.\n2. They are suitable for ragi.\n3. Rice and sugarcane require irrigation when cultivated in these soils.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Red soils support groundnut, ragi and tobacco, while rice and sugarcane can be grown in them only with irrigation.",
+   "ty": "statements",
+   "tq": "Test the crop-soil relationship along with the irrigation qualification.",
+   "sec": "Rayalaseema cropping - black and red soils, rainfed crops  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a rainfed shift crop of Rayalaseema?",
+   "o": [
+    "Black gram",
+    "Green gram",
+    "Groundnut",
+    "Sugarcane"
+   ],
+   "a": 3,
+   "x": "Black gram, green gram and groundnut are among the rainfed shift crops. Sugarcane is not included in that list.",
+   "ty": "negative",
+   "tq": "Find the crop outside the stated rainfed group rather than choosing a crop by soil association alone.",
+   "sec": "Rayalaseema cropping - black and red soils, rainfed crops  [APPSC]"
+  },
+  {
+   "s": "Which of the following is a group of fruits associated with Rayalaseema in the given agricultural profile?",
+   "o": [
+    "Jute, rice, wheat, barley and sugarcane",
+    "Mango, banana, tomato, papaya and citrus",
+    "Coffee, cocoa, coconut, cashew and tea",
+    "Apple, pear, peach, plum and apricot"
+   ],
+   "a": 1,
+   "x": "The listed Rayalaseema fruit group comprises mango, banana, tomato, papaya and citrus.",
+   "ty": "fact",
+   "tq": "Use group recognition while rejecting crops associated with other regions or categories.",
+   "sec": "Rayalaseema cropping - black and red soils, rainfed crops  [APPSC]"
+  },
+  {
+   "s": "During a three-month period, refrigerated banana trains from Tadipatri transported approximately how much banana to the Gulf?",
+   "o": [
+    "3,65,920 MT",
+    "32,000 MT",
+    "13,490 MT",
+    "3,200 MT"
+   ],
+   "a": 1,
+   "x": "Eight refrigerated banana trains from Tadipatri transported 32,000 MT to the Gulf in three months.",
+   "ty": "numerical",
+   "tq": "Match the transport count, commodity and quantity without confusing lakh-based figures.",
+   "sec": "Rayalaseema cropping - black and red soils, rainfed crops  [APPSC]"
+  },
+  {
+   "s": "The Andhra Pradesh Drought Mitigation Project (APDMP) is funded by:",
+   "o": [
+    "The World Bank",
+    "The International Fund for Agricultural Development",
+    "The Rashtriya Gokul Mission",
+    "The Gulbenkian Foundation"
+   ],
+   "a": 1,
+   "x": "APDMP is funded by the International Fund for Agricultural Development (IFAD). The World Bank is associated with APIIATP.",
+   "ty": "fact",
+   "tq": "Apply the funding-agency trap by separating similarly themed externally aided projects.",
+   "sec": "Externally aided agriculture projects → funding agency  [APPSC]"
+  },
+  {
+   "s": "The Gulbenkian Prize associated with Andhra Pradesh agriculture was received by which initiative?",
+   "o": [
+    "Gokul Gram cattle breeding",
+    "Andhra Pradesh Micro Irrigation Project",
+    "Community-managed Natural Farming",
+    "Banana train logistics"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh Community-managed Natural Farming received the Gulbenkian Prize in 2024.",
+   "ty": "fact",
+   "tq": "Match the recognition with the correct programme rather than its implementing sector alone.",
+   "sec": "Externally aided agriculture projects → funding agency  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the two agriculture-related projects:\n1. APIIATP and APDMP both target drought-proofing of rainfed and tank-fed farming.\n2. APIIATP is funded by the World Bank.\n3. APDMP is funded by IFAD.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: both projects support drought-proofing, while APIIATP is World Bank-funded and APDMP is IFAD-funded.",
+   "ty": "statements",
+   "tq": "Combine the common objective with the project-specific funding agencies.",
+   "sec": "Externally aided agriculture projects → funding agency  [APPSC]"
+  },
+  {
+   "s": "In Andhra Pradesh, approximately what proportion of the foodgrain area is occupied by paddy?",
+   "o": [
+    "30.4 per cent",
+    "56 per cent",
+    "71 per cent",
+    "79 per cent"
+   ],
+   "a": 1,
+   "x": "Paddy occupies approximately 56 per cent of the foodgrain area, while it contributes about 79 per cent of foodgrain output.",
+   "ty": "numerical",
+   "tq": "Separate the area share from the output share of the dominant crop.",
+   "sec": "Cropping pattern - kharif vs rabi, dominant crop"
+  },
+  {
+   "s": "Paddy accounts for approximately what proportion of Andhra Pradesh’s foodgrain output?",
+   "o": [
+    "30.4 per cent",
+    "56 per cent",
+    "71 per cent",
+    "79 per cent"
+   ],
+   "a": 3,
+   "x": "Paddy contributes approximately 79 per cent of foodgrain output in Andhra Pradesh.",
+   "ty": "numerical",
+   "tq": "Avoid swapping the crop’s area percentage with its output percentage.",
+   "sec": "Cropping pattern - kharif vs rabi, dominant crop"
+  },
+  {
+   "s": "Which one of the following correctly represents the cultivated area and cropping intensity of Andhra Pradesh in 2023-24?",
+   "o": [
+    "37.51 lakh ha and 1.21 respectively",
+    "49.55 lakh ha and 2.12 respectively",
+    "46.43 lakh ha and 1.21 respectively",
+    "49.55 lakh ha and 1.21 respectively"
+   ],
+   "a": 3,
+   "x": "The cultivated area was 49.55 lakh hectares and the cropping intensity was 1.21 in 2023-24.",
+   "ty": "numerical",
+   "tq": "Pair the correct area and intensity values while rejecting nearby horticulture and foodgrain figures.",
+   "sec": "Cropping pattern - kharif vs rabi, dominant crop"
+  },
+  {
+   "s": "Which of the following is NOT included among the crops identified under the 17 growth engines for raising productivity?",
+   "o": [
+    "Maize",
+    "Paddy",
+    "Coffee",
+    "Groundnut"
+   ],
+   "a": 2,
+   "x": "The 17 growth engines cover 11 crops including paddy, maize, jowar, bajra, ragi, pulses, groundnut, sunflower and sesamum. Coffee is not in this list.",
+   "ty": "negative",
+   "tq": "Test membership in the specified crop list and identify the horticultural distractor.",
+   "sec": "Cropping pattern - kharif vs rabi, dominant crop"
+  },
+  {
+   "s": "Which of the following best describes the recent direction of change in Andhra Pradesh’s cropping pattern?",
+   "o": [
+    "A shift towards oilseeds, millets, horticulture and oil palm",
+    "A reduction of all horticultural cultivation",
+    "A shift exclusively towards wheat and barley",
+    "A complete shift from agriculture to mining"
+   ],
+   "a": 0,
+   "x": "The cropping pattern is shifting towards oilseeds, millets, horticulture and oil palm, with productivity improvement initiatives for 11 crops.",
+   "ty": "application",
+   "tq": "Select the option that captures the stated trend without an extreme word such as ‘complete’ or ‘exclusively’.",
+   "sec": "Cropping pattern - kharif vs rabi, dominant crop"
+  },
+  {
+   "s": "Arrange the following 2024-25 foodgrain figures in descending order:\nA. Total foodgrain output\nB. Kharif foodgrain output\nC. Rabi foodgrain output\nD. Paddy output\n\nSelect the correct sequence.",
+   "o": [
+    "A, D, B, C",
+    "D, A, B, C",
+    "A, B, D, C",
+    "B, C, D, A"
+   ],
+   "a": 0,
+   "x": "Total foodgrain output was 161.86 lakh tonnes, paddy output 127.15 lakh tonnes, kharif foodgrain output 88.10 lakh tonnes and rabi output 73.76 lakh tonnes.",
+   "ty": "chronology",
+   "tq": "Compare the figures from largest to smallest before checking the sequence options.",
+   "sec": "Cropping pattern - kharif vs rabi, dominant crop"
+  },
+  {
+   "s": "Which one of the following correctly states the 2024-25 paddy area distribution between kharif and rabi?",
+   "o": [
+    "20.36 lakh ha in kharif and 17.15 lakh ha in rabi",
+    "14.04 lakh ha in kharif and 6.93 lakh ha in rabi",
+    "6.93 lakh ha in kharif and 14.04 lakh ha in rabi",
+    "78.79 lakh ha in kharif and 48.36 lakh ha in rabi"
+   ],
+   "a": 1,
+   "x": "Paddy occupied 14.04 lakh hectares in kharif and 6.93 lakh hectares in rabi during 2024-25.",
+   "ty": "comparison",
+   "tq": "Distinguish paddy-specific area figures from total foodgrain area and output figures.",
+   "sec": "Cropping pattern - kharif vs rabi, dominant crop"
+  },
+  {
+   "s": "The foodgrain area and output in Andhra Pradesh during 2024-25 increased over the previous period by approximately:",
+   "o": [
+    "12.94 per cent and 12.85 per cent respectively",
+    "10.53 per cent and 8.86 per cent respectively",
+    "11.7 per cent and 12.85 per cent respectively",
+    "12.85 per cent and 12.94 per cent respectively"
+   ],
+   "a": 3,
+   "x": "Foodgrain area increased by 12.85 per cent and foodgrain output by 12.94 per cent in 2024-25.",
+   "ty": "numerical",
+   "tq": "Keep area and output growth percentages in their stated order.",
+   "sec": "Cropping pattern - kharif vs rabi, dominant crop"
+  },
+  {
+   "s": "Which of the following is identified as one reason for the shrinkage of coarse cereal cultivation in Andhra Pradesh?",
+   "o": [
+    "Lack of minimum support price procurement",
+    "Complete prohibition of millet cultivation",
+    "Absence of horticultural demand",
+    "Excessive canal irrigation in every district"
+   ],
+   "a": 0,
+   "x": "Coarse cereal cultivation has been shrinking partly because of inadequate MSP procurement.",
+   "ty": "application",
+   "tq": "Choose the stated economic cause and reject absolute or unsupported explanations.",
+   "sec": "Cropping pattern - kharif vs rabi, dominant crop"
+  },
+  {
+   "s": "Consider the following statements regarding horticulture in Andhra Pradesh during 2025-26:\n1. The horticultural area was 46.43 lakh acres.\n2. Horticultural production was 406.38 lakh metric tonnes.\n3. Both figures were lower than the corresponding 2023-24 figures.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The 2025-26 figures were 46.43 lakh acres and 406.38 lakh MT. Both were higher, not lower, than the 2023-24 figures of 45.59 lakh acres and 365.92 lakh MT.",
+   "ty": "statements",
+   "tq": "Use the trend comparison to expose the reversed statement.",
+   "sec": "Horticulture hubs → district"
+  },
+  {
+   "s": "The horticultural growth-engine crops of Andhra Pradesh are organised into how many clusters?",
+   "o": [
+    "11",
+    "17",
+    "24",
+    "32"
+   ],
+   "a": 2,
+   "x": "Eleven growth-engine crops are organised into 24 horticultural clusters.",
+   "ty": "numerical",
+   "tq": "Distinguish the number of crops from the number of clusters.",
+   "sec": "Horticulture hubs → district"
+  },
+  {
+   "s": "Which one of the following is NOT included among the eleven horticultural growth-engine crops?",
+   "o": [
+    "Dragon fruit",
+    "Araku coffee",
+    "Oil palm",
+    "Wheat"
+   ],
+   "a": 3,
+   "x": "The listed horticultural crops include dragon fruit, oil palm and Araku coffee. Wheat is not one of the eleven horticultural growth-engine crops.",
+   "ty": "negative",
+   "tq": "Identify the non-horticultural crop in the list-based elimination question.",
+   "sec": "Horticulture hubs → district"
+  },
+  {
+   "s": "The banana hub of Andhra Pradesh, particularly associated with Tadipatri, is located in:",
+   "o": [
+    "Prakasam district",
+    "Anantapur district",
+    "Godavari district",
+    "Nandyal district"
+   ],
+   "a": 1,
+   "x": "Anantapur, especially Tadipatri, is identified as the banana hub of Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Link the specific production hub with its district rather than the transport destination.",
+   "sec": "Horticulture hubs → district"
+  }
+ ]
+}

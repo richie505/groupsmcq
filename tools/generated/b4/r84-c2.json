@@ -1,0 +1,595 @@
+{
+ "book": 4,
+ "row": 84,
+ "chunk": 2,
+ "section": "Andhra Pradesh - cropping pattern, major crops, horticulture, aquaculture and fisheries",
+ "subsections": [
+  "Irrigation projects of AP → river, district, purpose",
+  "Agro-climatic zones of AP - number, names, headquarters",
+  "Agricultural schemes of AP - Annadatha Sukhibhava, RSKs, APCNF",
+  "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 44,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is NOT a stated purpose of the Polavaram Project?",
+   "o": [
+    "Drinking water supply",
+    "Hydropower generation",
+    "Irrigation",
+    "Salt production"
+   ],
+   "a": 3,
+   "x": "Polavaram is a multipurpose project intended for irrigation, drinking water, hydropower and flood control; salt production is not listed as its purpose.",
+   "ty": "negative",
+   "tq": "Find the option that does not belong to the stated multipurpose functions.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding the Pattiseema Lift Project:\n1. It transfers water from the Godavari to the Krishna.\n2. It operates through the Polavaram right canal.\n3. It is associated with West Godavari district.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Pattiseema lift links the Godavari and Krishna through the Polavaram right canal and is associated with West Godavari district.",
+   "ty": "statements",
+   "tq": "Check each project feature separately before selecting the coded combination.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Vamsadhara Project is popularly known as the ‘Lifeline of North Coastal Andhra Pradesh’. It is associated with which district?",
+   "o": [
+    "Kurnool",
+    "Srikakulam",
+    "Nellore",
+    "Prakasam"
+   ],
+   "a": 1,
+   "x": "The Vamsadhara Project is associated with Srikakulam district and is described as the Lifeline of North Coastal Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Use the title–location association to distinguish nearby irrigation projects.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Veligonda Project receives water from the Srisailam reservoir through tunnels and serves which combination of districts?",
+   "o": [
+    "Srikakulam, Vizianagaram and Visakhapatnam",
+    "Prakasam, Nellore and YSR Kadapa",
+    "Kurnool, Anantapur and Chittoor",
+    "Krishna, Guntur and Prakasam"
+   ],
+   "a": 1,
+   "x": "The Veligonda Project draws from the Srisailam reservoir through tunnels and serves Prakasam, Nellore and YSR Kadapa districts.",
+   "ty": "match",
+   "tq": "Match the source and served districts rather than relying on the project name alone.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Handri-Neeva Sujala Sravanthi is primarily associated with which of the following?",
+   "o": [
+    "Lift irrigation from the Krishna for drought-prone Rayalaseema",
+    "Flood control on the Vamsadhara",
+    "Irrigation from the Pennar in Nellore district",
+    "Diversion of the Godavari to the Krishna through a right canal"
+   ],
+   "a": 0,
+   "x": "Handri-Neeva is a Krishna-based lift irrigation project intended for drought-prone Rayalaseema.",
+   "ty": "application",
+   "tq": "Identify the project by combining its source, irrigation method and beneficiary region.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Gandipalem — Godavari and West Godavari",
+    "Galeru-Nagari — Krishna flood water and Gandikota reservoir",
+    "Somasila — Vamsadhara and Srikakulam",
+    "Kandaleru — Srisailam reservoir and Prakasam"
+   ],
+   "a": 1,
+   "x": "Galeru-Nagari uses Krishna flood water and is associated with the Gandikota reservoir in Kadapa. Gandipalem is on the Pillaperu in SPSR Nellore, while Somasila and Kandaleru are associated with the Pennar/Telugu Ganga system in Nellore.",
+   "ty": "negative",
+   "tq": "Use the source–location pair to reject swapped project details.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Gandipalem Project is a medium irrigation project on which river and in which district?",
+   "o": [
+    "Pennar River — Kurnool",
+    "Pillaperu River — SPSR Nellore",
+    "Krishna River — Kadapa",
+    "Vamsadhara River — Srikakulam"
+   ],
+   "a": 1,
+   "x": "Gandipalem is a medium project on the Pillaperu River in SPSR Nellore district.",
+   "ty": "fact",
+   "tq": "Directly test the river–district association of a less familiar project.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Somasila and Kandaleru Projects are associated with which combination?",
+   "o": [
+    "Godavari and Polavaram",
+    "Pennar/Telugu Ganga and Nellore",
+    "Krishna and Rayalaseema",
+    "Vamsadhara and Srikakulam"
+   ],
+   "a": 1,
+   "x": "Somasila and Kandaleru are associated with the Pennar/Telugu Ganga system and are located in Nellore district.",
+   "ty": "match",
+   "tq": "Start from the sure river-system pair to identify the correct combination.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "As reported in May 2026, which combination correctly represents the status of the Polavaram Project?",
+   "o": [
+    "88% civil works, 45% land acquisition and 93% rehabilitation and resettlement completed",
+    "45% civil works, 88% land acquisition and 93% rehabilitation and resettlement completed",
+    "93% civil works, 88% land acquisition and 45% rehabilitation and resettlement completed",
+    "88% civil works, 93% land acquisition and 45% rehabilitation and resettlement completed"
+   ],
+   "a": 3,
+   "x": "The reported status was 88% civil works, 93% land acquisition and 45% R&R completion.",
+   "ty": "numerical",
+   "tq": "Keep the three percentages in their exact project-status order.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The left-canal water of the Polavaram Project was reported to be supplied through which lift from July 2026?",
+   "o": [
+    "Purushothapatnam lift",
+    "Pattiseema lift",
+    "Galeru-Nagari lift",
+    "Handri-Neeva lift"
+   ],
+   "a": 0,
+   "x": "Left-canal water was reported to be supplied through the Purushothapatnam lift from July 2026.",
+   "ty": "fact",
+   "tq": "Distinguish similarly named lift projects by their specific function.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "According to the Irrigation White Paper of July 2026, how many projects were targeted for completion by December 2028?",
+   "o": [
+    "36",
+    "30",
+    "forty",
+    "26"
+   ],
+   "a": 0,
+   "x": "The Irrigation White Paper targeted 36 projects for completion by December 2028.",
+   "ty": "numerical",
+   "tq": "Test the exact target number against nearby plausible figures.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The estimated cost and expenditure figures associated with the July 2026 Irrigation White Paper were respectively:",
+   "o": [
+    "₹30,000 crore and ₹20,000 crore",
+    "₹45,555 crore and ₹24,611 crore",
+    "₹35,555 crore and ₹24,611 crore",
+    "₹24,611 crore and ₹35,555 crore"
+   ],
+   "a": 2,
+   "x": "The stated cost was ₹35,555 crore, of which ₹24,611 crore had been spent in two years.",
+   "ty": "numerical",
+   "tq": "Read the cost and expenditure figures in the order asked.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Gandikota reservoir drinking-water scheme additionally serves which districts?",
+   "o": [
+    "Krishna, Guntur and Bapatla",
+    "Kurnool, Anantapur and Nandyal",
+    "Srikakulam, Vizianagaram and Visakhapatnam",
+    "Chittoor, Annamayya and Tirupati"
+   ],
+   "a": 3,
+   "x": "The Gandikota reservoir now also feeds a multi-village drinking-water scheme for Chittoor, Annamayya and Tirupati.",
+   "ty": "fact",
+   "tq": "Identify the beneficiary districts linked to the reservoir’s expanded use.",
+   "sec": "Irrigation projects of AP → river, district, purpose  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "How many agro-climatic zones are recognised in Andhra Pradesh?",
+   "o": [
+    "Four",
+    "Six",
+    "Eight",
+    "Five"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh has six agro-climatic zones.",
+   "ty": "numerical",
+   "tq": "Directly test the number of recognised zones.",
+   "sec": "Agro-climatic zones of AP - number, names, headquarters  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following is the correct pairing of an agro-climatic zone and its headquarters?",
+   "o": [
+    "North Coastal — Anakapalle",
+    "Godavari — Tirupati",
+    "Krishna — Nandyal",
+    "Southern — Chintapalle"
+   ],
+   "a": 0,
+   "x": "The headquarters of the North Coastal agro-climatic zone is Anakapalle. The Godavari, Krishna and Southern zones have their headquarters at Maruteru, Lam and Tirupati respectively.",
+   "ty": "match",
+   "tq": "Match each zone with its RARS headquarters and reject shifted locations.",
+   "sec": "Agro-climatic zones of AP - number, names, headquarters  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Agro-climatic zone)\n a. Godavari\n b. Krishna\n c. Scarce Rainfall\n d. High Altitude and Tribal\n\nList-II (Headquarters)\n i. Chintapalle\n ii. Lam, Guntur\n iii. Maruteru\n iv. Nandyal\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "Godavari is headquartered at Maruteru, Krishna at Lam, Scarce Rainfall at Nandyal and High Altitude and Tribal at Chintapalle.",
+   "ty": "match",
+   "tq": "Start with the distinctive headquarters and complete the code by elimination.",
+   "sec": "Agro-climatic zones of AP - number, names, headquarters  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements regarding Andhra Pradesh’s agro-climatic zones is correct?\n1. The Southern Zone includes Chittoor, YSR Kadapa and SPS Nellore.\n2. The Scarce Rainfall Zone includes Kurnool and Anantapur.\n3. Agency areas are included in the High Altitude and Tribal Zone.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the Southern Zone includes Chittoor, YSR Kadapa and SPS Nellore; the Scarce Rainfall Zone includes Kurnool and Anantapur; and Agency areas form the High Altitude and Tribal Zone.",
+   "ty": "statements",
+   "tq": "Verify district groupings one statement at a time before choosing the coded answer.",
+   "sec": "Agro-climatic zones of AP - number, names, headquarters  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "What proportion of Andhra Pradesh’s soil categories is stated to cover over 88% of the state?",
+   "o": [
+    "12 of 22",
+    "6 of 22",
+    "10 of 22",
+    "8 of 22"
+   ],
+   "a": 2,
+   "x": "Ten of the 22 soil categories cover over 88% of Andhra Pradesh.",
+   "ty": "numerical",
+   "tq": "Link the category count with the stated geographical coverage.",
+   "sec": "Agro-climatic zones of AP - number, names, headquarters  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Annadatha Sukhibhava is described as which of the following?",
+   "o": [
+    "A soil classification programme",
+    "A fisheries insurance scheme",
+    "A state top-up to PM-KISAN",
+    "A crop-processing industrial scheme"
+   ],
+   "a": 2,
+   "x": "Annadatha Sukhibhava is the Andhra Pradesh state top-up to PM-KISAN’s ₹6,000 assistance.",
+   "ty": "fact",
+   "tq": "Distinguish the scheme’s sector and relationship with the central programme.",
+   "sec": "Agricultural schemes of AP - Annadatha Sukhibhava, RSKs, APCNF  [GROUP-II]"
+  },
+  {
+   "s": "For Kharif 2026, what was the first instalment per farmer under Annadatha Sukhibhava?",
+   "o": [
+    "₹4,000",
+    "₹6,000",
+    "₹7,000",
+    "₹10,000"
+   ],
+   "a": 2,
+   "x": "The first Kharif 2026 instalment under Annadatha Sukhibhava was ₹7,000 per farmer.",
+   "ty": "numerical",
+   "tq": "Separate the state instalment from the PM-KISAN base amount.",
+   "sec": "Agricultural schemes of AP - Annadatha Sukhibhava, RSKs, APCNF  [GROUP-II]"
+  },
+  {
+   "s": "The Kharif 2026 first instalment of Annadatha Sukhibhava involved which combination?",
+   "o": [
+    "₹863.86 crore for 49,105 connections",
+    "₹2,848.77 crore for 2,00,409 farmers",
+    "₹793.67 crore for 75,035 farmers",
+    "₹3,125 crore for 46.85 lakh farmers"
+   ],
+   "a": 3,
+   "x": "The first instalment involved ₹3,125 crore for 46.85 lakh farmers.",
+   "ty": "numerical",
+   "tq": "Match the scheme with its amount and beneficiary count.",
+   "sec": "Agricultural schemes of AP - Annadatha Sukhibhava, RSKs, APCNF  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly describes APCNF in Andhra Pradesh?",
+   "o": [
+    "It supplies electricity to aqua farms.",
+    "It constructs irrigation reservoirs.",
+    "It promotes natural farming.",
+    "It provides diesel subsidy to fishing boats."
+   ],
+   "a": 2,
+   "x": "APCNF is the Andhra Pradesh Community-managed Natural Farming initiative.",
+   "ty": "fact",
+   "tq": "Use the exact functional meaning of the scheme acronym.",
+   "sec": "Agricultural schemes of AP - Annadatha Sukhibhava, RSKs, APCNF  [GROUP-II]"
+  },
+  {
+   "s": "In 2024, APCNF covered approximately:",
+   "o": [
+    "9.53 lakh farmers and 3.58 lakh hectares",
+    "46.85 lakh farmers and 3.125 lakh hectares",
+    "25,000 farmers and 1,000 hectares",
+    "3.58 lakh farmers and 9.53 lakh hectares"
+   ],
+   "a": 0,
+   "x": "In 2024, APCNF covered 9.53 lakh farmers over 3.58 lakh hectares.",
+   "ty": "numerical",
+   "tq": "Keep the beneficiary number and area in their correct order.",
+   "sec": "Agricultural schemes of AP - Annadatha Sukhibhava, RSKs, APCNF  [GROUP-II]"
+  },
+  {
+   "s": "The 2024–25 APCNF support target was fixed at 25,000 acres, with how many acres allocated per Parliamentary constituency?",
+   "o": [
+    "500",
+    "1,000",
+    "2,000",
+    "2,500"
+   ],
+   "a": 1,
+   "x": "The 2024–25 support target was 25,000 acres, or 1,000 acres per Parliamentary constituency.",
+   "ty": "numerical",
+   "tq": "Test the allocation figure separately from the aggregate target.",
+   "sec": "Agricultural schemes of AP - Annadatha Sukhibhava, RSKs, APCNF  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about CCRC tenant cards:\n1. There were 9,13,283 tenants holding such cards.\n2. ₹2,848.77 crore was lent to 2,00,409 tenants.\n3. The figures refer to the position as of 3 January 2025.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly reproduce the CCRC tenant-card and lending figures as of 3 January 2025.",
+   "ty": "statements",
+   "tq": "Check the count, amount and date together in a numerical statement set.",
+   "sec": "Agricultural schemes of AP - Annadatha Sukhibhava, RSKs, APCNF  [GROUP-II]"
+  },
+  {
+   "s": "Under the Andhra Pradesh Micro-Irrigation Project, the figures reported for 2024–25 were:",
+   "o": [
+    "2.05 lakh acres, 46.85 lakh farmers and ₹3,125 crore subsidy",
+    "25,000 acres, 75,035 farmers and ₹2,848.77 crore subsidy",
+    "2.05 lakh acres, 75,035 farmers and ₹793.67 crore subsidy",
+    "3.58 lakh acres, 9.53 lakh farmers and ₹793.67 crore subsidy"
+   ],
+   "a": 2,
+   "x": "APMIP, in operation since 2003, covered 2.05 lakh acres and 75,035 farmers with a subsidy of ₹793.67 crore in 2024–25.",
+   "ty": "numerical",
+   "tq": "Match all three quantitative indicators to the correct scheme.",
+   "sec": "Agricultural schemes of AP - Annadatha Sukhibhava, RSKs, APCNF  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly describes the Rythu Seva Kendralu?",
+   "o": [
+    "1,000 natural-farming centres in each district",
+    "3,387 fisheries cooperatives providing only insurance",
+    "10,606 village one-stop centres in all gram panchayats, including veterinary services",
+    "49,105 electricity connections for aqua farms"
+   ],
+   "a": 2,
+   "x": "Rythu Seva Kendralu are 10,606 village one-stop centres in all gram panchayats and include veterinary services.",
+   "ty": "fact",
+   "tq": "Identify the institutional network by its scale and range of services.",
+   "sec": "Agricultural schemes of AP - Annadatha Sukhibhava, RSKs, APCNF  [GROUP-II]"
+  },
+  {
+   "s": "Under the Andhra Pradesh fishing-ban relief scheme, the assistance to marine fishermen families was raised from ₹4,000 to ₹10,000 from 2019–20 and subsequently to what amount from 2024–25?",
+   "o": [
+    "₹12,000",
+    "₹15,000",
+    "₹18,000",
+    "₹20,000"
+   ],
+   "a": 3,
+   "x": "The fishing-ban relief was raised to ₹20,000 per family from 2024–25.",
+   "ty": "numerical",
+   "tq": "Track the chronological increase rather than confusing the intermediate amount.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which scheme name was used for fishing-ban relief to marine fishermen families from 2019–20?",
+   "o": [
+    "PM-MKSSY",
+    "Matsya Suraksha Yojana",
+    "Annadatha Sukhibhava",
+    "YSR Matsyakara Bharosa"
+   ],
+   "a": 3,
+   "x": "The fishing-ban relief was provided under YSR Matsyakara Bharosa.",
+   "ty": "fact",
+   "tq": "Identify the scheme by its beneficiary group and purpose.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "For 2025–26, the fishing-ban relief programme was renamed as Matsyakara Sevalo. How much was released to how many families?",
+   "o": [
+    "₹242.86 crore to 1,21,433 families",
+    "₹30 crore to 15 villages",
+    "₹863.86 crore to 49,105 families",
+    "₹35 crore to 21,574 families"
+   ],
+   "a": 0,
+   "x": "In 2025–26, ₹242.86 crore was released to 1,21,433 families under Matsyakara Sevalo.",
+   "ty": "numerical",
+   "tq": "Match the renamed programme with its release amount and beneficiary count.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The 2026 fishing-ban payment of ₹20,000 under Matsyakara Bharosa was made after which requirements?",
+   "o": [
+    "Aqua-zone classification and crop cutting",
+    "Registration with Rythu Seva Kendras only",
+    "Boat and crew enumeration and eKYC",
+    "Land records verification and soil testing"
+   ],
+   "a": 2,
+   "x": "Payment was made after boat and crew enumeration and completion of eKYC.",
+   "ty": "application",
+   "tq": "Identify the procedural conditions attached to the welfare payment.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "What is the front-end HSD diesel subsidy provided for fishing boats in Andhra Pradesh during 2025–26?",
+   "o": [
+    "₹9 per litre",
+    "₹7 per litre",
+    "₹12 per litre",
+    "₹5 per litre"
+   ],
+   "a": 0,
+   "x": "The front-end HSD subsidy was ₹9 per litre.",
+   "ty": "numerical",
+   "tq": "Directly test the per-unit subsidy figure.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The 2025–26 diesel subsidy of ₹35 crore covered how many boats?",
+   "o": [
+    "15,000",
+    "21,574",
+    "33,150",
+    "49,105"
+   ],
+   "a": 1,
+   "x": "The ₹35 crore diesel subsidy covered 21,574 boats.",
+   "ty": "numerical",
+   "tq": "Match the subsidy amount with the corresponding number of boats.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements about the aqua-farm power tariff is correct?\n1. Farms up to 10 acres inside notified aqua zones are charged ₹1.50 per unit.\n2. Larger farms and farms outside notified zones are charged ₹3.85 per unit.\n3. In 2025–26, 49,105 connections received a subsidy of ₹863.86 crore.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct regarding the differential power tariff and the 2025–26 subsidy coverage.",
+   "ty": "statements",
+   "tq": "Compare the two tariff categories before checking the coverage figures.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The national Group Accident Insurance scheme covers approximately how many fishers annually?",
+   "o": [
+    "3.315 lakh",
+    "13.15 lakh",
+    "33.15 lakh",
+    "49.105 lakh"
+   ],
+   "a": 2,
+   "x": "The national Group Accident Insurance scheme covers 33.15 lakh fishers each year.",
+   "ty": "numerical",
+   "tq": "Distinguish lakh-scale coverage figures by place value.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly describes the PM-MKSSY sub-scheme?",
+   "o": [
+    "It operates from 2019–20 to 2024–25 with an allocation of ₹20,000 crore and provides fishing-ban relief.",
+    "It operates from 2024–25 to 2026–27 with an allocation of ₹863.86 crore and provides electricity subsidy.",
+    "It operates from 2023–24 to 2026–27 with an allocation of ₹6,000 crore and promotes aquaculture insurance and credit.",
+    "It operates from 2025–26 to 2028–29 with an allocation of ₹35 crore and provides diesel subsidy."
+   ],
+   "a": 2,
+   "x": "PM-MKSSY runs from 2023–24 to 2026–27, has an allocation of ₹6,000 crore and promotes aquaculture insurance and credit.",
+   "ty": "fact",
+   "tq": "Separate the scheme’s period, financial size and purpose from other fisheries measures.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Under PMMSY, the subsidy rates for the general category and for women/SC/ST beneficiaries are respectively:",
+   "o": [
+    "24% and 36%",
+    "50% and 75%",
+    "16% and 24%",
+    "40% and 60%"
+   ],
+   "a": 3,
+   "x": "The PMMSY subsidy is 40% for the general category and 60% for women/SC/ST beneficiaries.",
+   "ty": "comparison",
+   "tq": "Compare the headline subsidy rates before considering their GoI–GoAP components.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly represents the GoI and GoAP components of the PMMSY subsidy?",
+   "o": [
+    "General: 36% + 24%; Women/SC/ST: 24% + 16%",
+    "General: 16% + 24%; Women/SC/ST: 24% + 36%",
+    "General: 40% + 0%; Women/SC/ST: 60% + 0%",
+    "General: 24% + 16%; Women/SC/ST: 36% + 24%"
+   ],
+   "a": 3,
+   "x": "The general-category subsidy comprises 24% from the Government of India and 16% from the Government of Andhra Pradesh; the women/SC/ST subsidy comprises 36% and 24% respectively.",
+   "ty": "comparison",
+   "tq": "Split each total subsidy into its two government components.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Transponders installed for tracking and weather alerts covered which number of boats?",
+   "o": [
+    "21,574 boats, comprising 4,155 mechanised and 17,419 motorised boats",
+    "4,155 boats, comprising 2,779 mechanised and 1,376 motorised boats",
+    "4,155 boats, comprising 1,376 mechanised and 2,779 motorised boats",
+    "2,779 boats, comprising 1,376 mechanised and 1,403 motorised boats"
+   ],
+   "a": 2,
+   "x": "A total of 4,155 transponders were installed: 1,376 on mechanised boats and 2,779 on motorised boats.",
+   "ty": "numerical",
+   "tq": "Check both the total and its component figures.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about Climate Resilient Coastal Fishermen Villages:\n1. Fifteen villages are covered.\n2. The allocation is ₹30 crore, or ₹2 crore per village.\n3. The allocation is divided in the ratio of 70% infrastructure and 30% livelihood.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: 15 villages, ₹30 crore in total, ₹2 crore per village, and a 70:30 infrastructure-to-livelihood division.",
+   "ty": "statements",
+   "tq": "Verify the count, total allocation and internal percentage division together.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "According to the 2025–26 fisheries survey, Andhra Pradesh had how many fishermen in how many cooperative societies?",
+   "o": [
+    "4.28 lakh fishermen in 3,387 societies",
+    "3.09 lakh fishermen in 2,356 societies",
+    "4.28 lakh fishermen in 2,356 societies",
+    "3.09 lakh fishermen in 3,387 societies"
+   ],
+   "a": 0,
+   "x": "The 2025–26 survey recorded 4.28 lakh fishermen in 3,387 cooperative societies. The earlier 2024–25 figures were 3.09 lakh fishermen in 2,356 societies.",
+   "ty": "numerical",
+   "tq": "Distinguish the current figures from the earlier comparison figures.",
+   "sec": "AP fisheries welfare - fishing-ban relief (Matsyakara Bharosa/Sevalo), diesel subsidy, insurance  [APPSC, GROUP-II]"
+  }
+ ]
+}

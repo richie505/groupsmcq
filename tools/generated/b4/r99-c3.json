@@ -1,0 +1,538 @@
+{
+ "book": 4,
+ "row": 99,
+ "chunk": 3,
+ "section": "Energy resources - coal, petroleum, natural gas, hydel, nuclear and renewable; distribution in India and AP",
+ "subsections": [
+  "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins",
+  "Hydroelectric potential - Himalayan vs Peninsular, pumped storage",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Commercial oil production in India began at Digboi in which year?",
+   "o": [
+    "1774",
+    "1867",
+    "1889",
+    "1969"
+   ],
+   "a": 2,
+   "x": "The commercial oil industry in India began at Digboi in Assam in 1889. Digboi is also regarded as India’s oldest oil town.",
+   "ty": "numerical",
+   "tq": "Distinguish the year of commercial development from the year of the first oil well.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Barmer — Rajasthan",
+    "Digboi — Assam",
+    "Ankleshwar — Gujarat",
+    "Mumbai High — Andhra Pradesh coast"
+   ],
+   "a": 3,
+   "x": "Mumbai High is an offshore oilfield in the Arabian Sea near the Maharashtra coast, not off the Andhra Pradesh coast.",
+   "ty": "negative",
+   "tq": "Find the wrongly located field by separating offshore fields from onshore state-based fields.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "Consider the following statements regarding major oilfields and basins in India:\n1. Digboi and Naharkatiya are located in Assam.\n2. Ankleshwar and Kalol belong to the Cambay Basin in Gujarat.\n3. The KG Basin occurs on the east coast and includes offshore and onshore areas of Andhra Pradesh.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Assam contains Digboi and Naharkatiya, Gujarat contains the Cambay Basin fields, and the KG Basin extends across offshore and onshore areas of Andhra Pradesh.",
+   "ty": "statements",
+   "tq": "Check each field–basin–state association independently before selecting the coded combination.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "Mumbai High is best described as:",
+   "o": [
+    "The largest onshore oilfield of the Cambay Basin",
+    "A gasfield located in the Assam-Arakan Basin",
+    "The most important offshore oilfield of the Arabian Sea",
+    "An oilfield located in the KG Basin"
+   ],
+   "a": 2,
+   "x": "Mumbai High is an offshore oilfield in the Arabian Sea and is described as India’s most important offshore field.",
+   "ty": "fact",
+   "tq": "Identify the location and category of a prominent resource field.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer.\nList-I (Field or basin)\na. Barmer\nb. KG Basin\nc. Mumbai High\n d. Digboi\nList-II (Location)\ni. Offshore Arabian Sea\n ii. Andhra Pradesh coast\n iii. Rajasthan\n iv. Assam",
+   "o": [
+    "a–iii, b–ii, c–i, d–iv",
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "Barmer is in Rajasthan, the KG Basin is off the Andhra Pradesh coast, Mumbai High is offshore in the Arabian Sea, and Digboi is in Assam.",
+   "ty": "match",
+   "tq": "Start from the sure field–state pair and eliminate codes containing conflicting pairs.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "Which one of the following is NOT included among the shale gas basins of India?",
+   "o": [
+    "Mahanadi",
+    "Gondwana",
+    "Cauvery",
+    "Cambay"
+   ],
+   "a": 0,
+   "x": "The listed shale gas basins include Cambay, Assam-Arakan, Gondwana or Damodar, KG, Cauvery and Indo-Gangetic basins. Mahanadi is not included in that list.",
+   "ty": "negative",
+   "tq": "Use the elimination method with a complete resource-basin list.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "Which of the following sets contains only shale gas basins identified in India?\n1. Cambay and Assam-Arakan\n2. Gondwana and KG\n3. Cauvery and Indo-Gangetic\n4. Damodar and Mahanadi",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Cambay, Assam-Arakan, Gondwana or Damodar, KG, Cauvery and Indo-Gangetic are listed shale gas basins. Mahanadi is not included.",
+   "ty": "statements",
+   "tq": "Reject the single substituted basin while retaining the correctly listed basin groups.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "As of August 2026, the number of refineries in India is stated to be:",
+   "o": [
+    "18",
+    "20",
+    "22",
+    "23"
+   ],
+   "a": 2,
+   "x": "India is stated to have 22 refineries as of August 2026. An alternative figure of 23 is associated with another reference compilation, but the specified current figure is 22.",
+   "ty": "numerical",
+   "tq": "Read the current numerical figure carefully and distinguish it from a nearby alternative count.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "India is described as the world’s ______ largest refiner.",
+   "o": [
+    "Fifth",
+    "Third",
+    "Fourth",
+    "Second"
+   ],
+   "a": 2,
+   "x": "India is described as the fourth largest refiner in the world.",
+   "ty": "fact",
+   "tq": "Test the rank directly while avoiding reversal of comparative statements.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "The world’s largest single-site refinery is located at:",
+   "o": [
+    "Jamnagar",
+    "Visakhapatnam",
+    "Mathura",
+    "Koyali"
+   ],
+   "a": 0,
+   "x": "The Reliance refinery complex at Jamnagar in Gujarat is the world’s largest single-site refinery.",
+   "ty": "fact",
+   "tq": "Match the superlative claim with the correct refinery location and operator context.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "Which one of the following refinery–state pairs is NOT correctly matched?",
+   "o": [
+    "Barauni — Uttar Pradesh",
+    "Haldia — West Bengal",
+    "Paradip — Odisha",
+    "Panipat — Haryana"
+   ],
+   "a": 0,
+   "x": "Barauni refinery is in Bihar, not Uttar Pradesh. Mathura refinery is located in Uttar Pradesh.",
+   "ty": "negative",
+   "tq": "Use neighbouring-state substitution as the location trap.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "Consider the following refinery–state pairs:\n1. Koyali — Gujarat\n2. Kochi — Kerala\n3. Mangaluru — Karnataka\n4. Bina — Madhya Pradesh\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Koyali is in Gujarat, Kochi in Kerala, Mangaluru in Karnataka and Bina in Madhya Pradesh. All four pairs are correctly matched.",
+   "ty": "statements",
+   "tq": "Verify each location individually before choosing the complete coded set.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "Which refinery is correctly matched with both its state and distinguishing description?",
+   "o": [
+    "Koyali — Bihar — oldest refinery",
+    "Visakhapatnam — Gujarat — world’s largest single-site refinery",
+    "Jamnagar — Gujarat — field-based refinery",
+    "Digboi — Assam — oldest refinery among the listed Indian refineries"
+   ],
+   "a": 3,
+   "x": "Digboi is in Assam and is identified as the oldest refinery. Jamnagar is the world’s largest single-site refinery, while Koyali is in Gujarat and Visakhapatnam is in Andhra Pradesh.",
+   "ty": "comparison",
+   "tq": "Compare the location and special characteristic together rather than matching only one element.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "Which of the following refineries is an example of a field-based refinery?",
+   "o": [
+    "Panipat",
+    "Digboi",
+    "Mathura",
+    "Barauni"
+   ],
+   "a": 1,
+   "x": "Digboi is a field-based refinery. Barauni and Mathura are examples of market-based refineries.",
+   "ty": "confusable",
+   "tq": "Discriminate between field-based and market-based refinery examples.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "The Strategic Petroleum Reserves at Visakhapatnam, Mangaluru and Padur together have a capacity of approximately:",
+   "o": [
+    "7.33 MMT",
+    "3.33 MMT",
+    "5.33 MMT",
+    "9.50 MMT"
+   ],
+   "a": 2,
+   "x": "The three strategic petroleum reserve locations together have a capacity of 5.33 million metric tonnes.",
+   "ty": "numerical",
+   "tq": "Retain the exact storage figure rather than confusing it with the days-of-cover figure.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "Which one of the following correctly identifies the Phase-II locations of India’s Strategic Petroleum Reserves?",
+   "o": [
+    "Digboi and Barauni",
+    "Chandikhol and Padur",
+    "Visakhapatnam and Mangaluru",
+    "Jamnagar and Koyali"
+   ],
+   "a": 1,
+   "x": "Phase-II strategic petroleum reserve development is identified at Chandikhol and Padur.",
+   "ty": "fact",
+   "tq": "Separate existing reserve locations from Phase-II expansion locations.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "The Pradhan Mantri Urja Ganga gas pipeline follows which route?",
+   "o": [
+    "Haldia–Digboi–Mangaluru–Padur",
+    "Jagdishpur–Haldia–Bokaro–Dhamra",
+    "Jagdishpur–Mathura–Koyali–Jamnagar",
+    "Bokaro–Visakhapatnam–Kochi–Kovvada"
+   ],
+   "a": 1,
+   "x": "The Pradhan Mantri Urja Ganga pipeline is identified by the Jagdishpur–Haldia–Bokaro–Dhamra route.",
+   "ty": "fact",
+   "tq": "Recall the distinctive sequence of major pipeline terminals.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "The national gas network target associated with Pradhan Mantri Urja Ganga is over:",
+   "o": [
+    "12,000 km",
+    "22,000 km",
+    "32,000 km",
+    "42,000 km"
+   ],
+   "a": 2,
+   "x": "The target for the national gas network is stated as more than 32,000 kilometres.",
+   "ty": "numerical",
+   "tq": "Use the scale of the infrastructure target to distinguish the nearby numerical options.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "India’s approximate import dependence is stated to be what percentage for crude oil and natural gas, respectively?",
+   "o": [
+    "88% and 51%",
+    "51% and 88%",
+    "90% and 75%",
+    "68% and 41%"
+   ],
+   "a": 0,
+   "x": "India imports approximately 88% of its crude oil and 51% of its natural gas requirement.",
+   "ty": "comparison",
+   "tq": "Avoid reversing the two percentages in a paired quantitative comparison.",
+   "sec": "Petroleum and gas - first oil well, oilfields and refineries → state, shale gas basins"
+  },
+  {
+   "s": "Which of the following statements about hydroelectric potential in India is correct?",
+   "o": [
+    "Himalayan river basins possess most potential because of perennial flow and steep gradients.",
+    "Hydroelectric potential is concentrated only in the coastal rivers of India.",
+    "Peninsular rivers possess most potential because they are snow-fed throughout the year.",
+    "Both Himalayan and Peninsular rivers have identical seasonal characteristics."
+   ],
+   "a": 0,
+   "x": "The Brahmaputra, Indus and Ganga basins possess most of India’s hydroelectric potential because Himalayan rivers have perennial snow-fed flow and steep gradients. Peninsular rivers are comparatively seasonal.",
+   "ty": "application",
+   "tq": "Apply the flow and gradient principles to distinguish Himalayan from Peninsular rivers.",
+   "sec": "Hydroelectric potential - Himalayan vs Peninsular, pumped storage"
+  },
+  {
+   "s": "The principal Himalayan river basins associated with India’s greatest hydroelectric potential are:",
+   "o": [
+    "Godavari, Krishna and Cauvery",
+    "Sabarmati, Luni and Pennar",
+    "Narmada, Tapi and Mahanadi",
+    "Brahmaputra, Indus and Ganga"
+   ],
+   "a": 3,
+   "x": "The Brahmaputra, Indus and Ganga basins hold most of the Himalayan hydroelectric potential.",
+   "ty": "fact",
+   "tq": "Use basin grouping to identify the Himalayan hydroelectric region.",
+   "sec": "Hydroelectric potential - Himalayan vs Peninsular, pumped storage"
+  },
+  {
+   "s": "India’s hydroelectric capacity was approximately how much in June 2025?",
+   "o": [
+    "38 GW",
+    "28 GW",
+    "48 GW",
+    "58 GW"
+   ],
+   "a": 2,
+   "x": "India’s hydroelectric capacity was approximately 48 GW in June 2025.",
+   "ty": "numerical",
+   "tq": "Test the reported installed-capacity figure directly.",
+   "sec": "Hydroelectric potential - Himalayan vs Peninsular, pumped storage"
+  },
+  {
+   "s": "Approximately how much additional hydroelectric capacity was added in India during 2025?",
+   "o": [
+    "6 GW",
+    "8 GW",
+    "2 GW",
+    "4 GW"
+   ],
+   "a": 3,
+   "x": "Approximately 4 GW of hydroelectric capacity was added in 2025.",
+   "ty": "numerical",
+   "tq": "Distinguish annual addition from total installed capacity.",
+   "sec": "Hydroelectric potential - Himalayan vs Peninsular, pumped storage"
+  },
+  {
+   "s": "The primary function of a pumped storage project is to:",
+   "o": [
+    "Replace all transmission lines with underground cables",
+    "Generate tidal power during high tide only",
+    "Store daytime solar power for use during night-time peak demand",
+    "Convert coal directly into electricity without combustion"
+   ],
+   "a": 2,
+   "x": "Pumped storage stores surplus daytime electricity, particularly solar power, and releases it during night-time peak demand.",
+   "ty": "application",
+   "tq": "Infer the operational purpose from the day–night energy-storage scenario.",
+   "sec": "Hydroelectric potential - Himalayan vs Peninsular, pumped storage"
+  },
+  {
+   "s": "Which statement regarding off-stream closed-loop pumped storage projects is correct?",
+   "o": [
+    "They require compulsory concurrence from the Election Commission.",
+    "They no longer require concurrence from the Central Electricity Authority.",
+    "They can operate only with imported natural gas.",
+    "They are confined to Himalayan snow-fed rivers."
+   ],
+   "a": 1,
+   "x": "Off-stream closed-loop pumped storage projects no longer require concurrence from the Central Electricity Authority.",
+   "ty": "fact",
+   "tq": "Identify the changed regulatory requirement rather than the technology’s physical feature.",
+   "sec": "Hydroelectric potential - Himalayan vs Peninsular, pumped storage"
+  },
+  {
+   "s": "Andhra Pradesh plans pumped storage and battery storage capacities of approximately ______ and ______, respectively, by 2035–36.",
+   "o": [
+    "3,931 MW and 7,370 MW",
+    "10,370 MW and 7,931 MW",
+    "7,370 MW and 3,931 MW",
+    "5,000 MW and 4,000 MW"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh plans 7,370 MW of pumped storage capacity and 3,931 MW of battery storage capacity by 2035–36.",
+   "ty": "comparison",
+   "tq": "Keep the two storage technologies and their capacities in the stated order.",
+   "sec": "Hydroelectric potential - Himalayan vs Peninsular, pumped storage"
+  },
+  {
+   "s": "The Prototype Fast Breeder Reactor at Kalpakkam went critical on:",
+   "o": [
+    "6 April 2025",
+    "6 April 2026",
+    "10 August 2026",
+    "6 May 2026"
+   ],
+   "a": 1,
+   "x": "Kalpakkam’s Prototype Fast Breeder Reactor went critical on 6 April 2026.",
+   "ty": "numerical",
+   "tq": "Separate the reactor milestone date from other current energy dates.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following chronological sequences is correct?",
+   "o": [
+    "Tarapur nuclear plant — Digboi oil discovery — Raniganj coal mine — Pinnapuram project",
+    "Raniganj coal mine — Digboi oil discovery — Tarapur nuclear plant — Pinnapuram project",
+    "Digboi oil discovery — Raniganj coal mine — Tarapur nuclear plant — Pinnapuram project",
+    "Raniganj coal mine — Tarapur nuclear plant — Digboi oil discovery — Pinnapuram project"
+   ],
+   "a": 1,
+   "x": "Raniganj was associated with the first coal mine in 1774, Digboi with the first oil discovery in 1889, Tarapur with the first nuclear plant in 1969, and Pinnapuram is the later integrated renewable-energy storage project.",
+   "ty": "chronology",
+   "tq": "Fix the earliest dated events first and place the undated modern project last.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Tarapur — India’s first oil discovery",
+    "Pinnapuram — world’s first integrated renewable-energy storage project",
+    "Raniganj — India’s first nuclear power plant",
+    "Digboi — India’s first coal mine"
+   ],
+   "a": 1,
+   "x": "Pinnapuram is identified as the world’s first integrated renewable-energy storage project. Raniganj, Digboi and Tarapur correspond respectively to the first coal mine, first oil discovery and first nuclear plant in the stated sequence.",
+   "ty": "fact",
+   "tq": "Use the first-event distinctions to reject swapped associations.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "After the closure of the Strait of Hormuz in March 2026, India responded to energy-supply stress by:",
+   "o": [
+    "Relying only on imported crude oil from the same route",
+    "Using only hydropower and nuclear power",
+    "Stopping all thermal power generation",
+    "Falling back on coal and gas and importing LNG and LPG from other suppliers"
+   ],
+   "a": 3,
+   "x": "The disruption led India to fall back on coal and gas and bring LNG and LPG from alternative suppliers.",
+   "ty": "application",
+   "tq": "Match the supply-disruption scenario with the documented energy response.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Approximately how much solar capacity is stated to go offline after sunset, thereby increasing night-time grid stress?",
+   "o": [
+    "100 GW",
+    "50 GW",
+    "250 GW",
+    "150 GW"
+   ],
+   "a": 3,
+   "x": "About 150 GW of solar capacity goes offline after sunset, contributing to night-time grid stress.",
+   "ty": "numerical",
+   "tq": "Relate the numerical figure to the day–night generation pattern.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements correctly describes Andhra Pradesh’s energy position after bifurcation?\n1. The State lost its coal mines.\n2. It relies on coal transported from distant sources.\n3. This dependence raises transport costs.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "After bifurcation, Andhra Pradesh lost its coal mines, depends on coal transported from far away and consequently faces higher transport costs.",
+   "ty": "statements",
+   "tq": "Link the structural change, resulting dependence and economic consequence in sequence.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The peak electricity demand mentioned for India in April 2026 was approximately:",
+   "o": [
+    "156 GW",
+    "206 GW",
+    "256 GW",
+    "356 GW"
+   ],
+   "a": 2,
+   "x": "India’s peak electricity demand was approximately 256 GW in April 2026.",
+   "ty": "numerical",
+   "tq": "Identify the peak-demand figure without confusing it with a storage target.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The battery storage target mentioned for India by 2032 is approximately:",
+   "o": [
+    "27 GW",
+    "57 GW",
+    "47 GW",
+    "37 GW"
+   ],
+   "a": 2,
+   "x": "The battery storage target is approximately 47 GW by 2032.",
+   "ty": "numerical",
+   "tq": "Distinguish the national battery target from Andhra Pradesh’s separate storage plans.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Kovvada — coal mine",
+    "Simhadri — power project",
+    "KG Basin — petroleum and gas",
+    "Tummalapalle — uranium"
+   ],
+   "a": 0,
+   "x": "Kovvada is associated with a nuclear power project site, not a coal mine. Tummalapalle is associated with uranium, while the KG Basin and Simhadri are important energy assets in Andhra Pradesh.",
+   "ty": "negative",
+   "tq": "Reject the wrong resource–site association by identifying the substituted mineral.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "According to the stated projection, Andhra Pradesh’s power demand is expected to grow at approximately what compound annual growth rate over the next decade?",
+   "o": [
+    "4.90%",
+    "5.90%",
+    "6.90%",
+    "7.90%"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh’s power demand is projected to grow at approximately 6.90% CAGR over the next decade.",
+   "ty": "numerical",
+   "tq": "Recall the precise projected rate and distinguish it from adjacent percentages.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following locations is associated with a major energy installation in Andhra Pradesh?\n1. Tummalapalle — uranium\n2. Kurnool — solar park\n3. Kovvada — nuclear power project site\n4. KG Basin — oil and gas resources\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four associations are correct: Tummalapalle is associated with uranium, Kurnool with a solar park, Kovvada with a nuclear project site and the KG Basin with oil and gas resources.",
+   "ty": "statements",
+   "tq": "Test a regional energy profile by verifying each site–resource association.",
+   "sec": "Universal angles"
+  }
+ ]
+}

@@ -1,0 +1,467 @@
+{
+ "book": 3,
+ "row": 48,
+ "chunk": 0,
+ "section": "Agricultural inputs - seeds, fertilisers and the subsidy regime, pesticides, mechanisation, extension services",
+ "subsections": [
+  "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption",
+  "Extension services - KCC, KVK, ATMA, agromet advisories"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which fertiliser receives the heaviest subsidy in India?",
+   "o": [
+    "DAP",
+    "SSP",
+    "MOP",
+    "Urea"
+   ],
+   "a": 3,
+   "x": "Urea receives the heaviest fertiliser subsidy. Its price is controlled and kept artificially cheap, encouraging excessive nitrogen use.",
+   "ty": "fact",
+   "tq": "Use the direct one-word identification of the highest-subsidy fertiliser.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "The fertiliser subsidy is regarded as the",
+   "o": [
+    "smallest major subsidy in India",
+    "second-largest subsidy after food subsidy",
+    "third-largest subsidy after food and petroleum subsidies",
+    "largest subsidy after food subsidy"
+   ],
+   "a": 1,
+   "x": "The fertiliser subsidy is the second-largest subsidy after the food subsidy.",
+   "ty": "fact",
+   "tq": "Discriminate among a ranked list by identifying the exact comparative position.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "The Budget 2026–27 allocation for fertiliser subsidy was",
+   "o": [
+    "₹1.71 lakh crore",
+    "₹1.86 lakh crore",
+    "₹10 lakh crore",
+    "₹2.41 lakh crore"
+   ],
+   "a": 0,
+   "x": "Budget 2026–27 allocated ₹1.71 lakh crore for fertiliser subsidy. The earlier revised estimate for 2025–26 was ₹1.86 lakh crore.",
+   "ty": "numerical",
+   "tq": "Separate the budget allocation from the earlier estimate and the possible revised bill.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "The fertiliser subsidy bill may rise to approximately what amount because of the West Asia crisis?",
+   "o": [
+    "₹2.41 lakh crore",
+    "₹1.71 lakh crore",
+    "₹1.86 lakh crore",
+    "₹10 million crore"
+   ],
+   "a": 0,
+   "x": "The fertiliser subsidy bill may rise to about ₹2.41 lakh crore because of the West Asia crisis.",
+   "ty": "numerical",
+   "tq": "Distinguish the projected increase from the budget allocation and earlier revised estimate.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Nutrient Based Subsidy scheme:\n1. It was introduced in 2010.\n2. It covers 22 grades of decontrolled P&K fertilisers.\n3. It fixes the maximum retail prices of P&K fertilisers through the Government.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The scheme was introduced in 2010 for 22 grades of decontrolled P&K fertilisers. Manufacturers set the MRPs of P&K fertilisers themselves, making statement 3 incorrect.",
+   "ty": "statements",
+   "tq": "Find the wrong statement by checking whether pricing remains with manufacturers or the Government.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Which one of the following groups consists only of fertilisers covered under the Nutrient Based Subsidy scheme as listed?",
+   "o": [
+    "DAP, MOP, SSP and complexes",
+    "Urea, DAP, MOP and SSP",
+    "Urea, ammonium sulphate, MOP and complexes",
+    "Urea, SSP, ammonium nitrate and DAP"
+   ],
+   "a": 0,
+   "x": "The listed P&K fertilisers under NBS include DAP, MOP, SSP and complexes. Urea remains under statutory price control rather than the NBS regime.",
+   "ty": "match",
+   "tq": "Start from the sure exclusion: urea is not part of the listed decontrolled P&K group.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Under the Nutrient Based Subsidy scheme, the subsidy is announced every year as a fixed amount per kilogram of",
+   "o": [
+    "only N and P",
+    "N, P, K and calcium",
+    "N, P, K and S",
+    "only K and S"
+   ],
+   "a": 2,
+   "x": "NBS provides a fixed per-kilogram subsidy on nitrogen, phosphorus, potassium and sulphur, announced annually.",
+   "ty": "fact",
+   "tq": "Test the exact nutrient composition rather than the broader fertiliser category.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Under the DBT system for fertilisers, subsidy is paid to companies",
+   "o": [
+    "directly to farmers before sowing",
+    "only after export of fertilisers",
+    "before manufacture through the Union Budget",
+    "after sale at the Point of Sale"
+   ],
+   "a": 3,
+   "x": "Under fertiliser DBT, subsidy is paid to companies after the fertiliser is sold at the Point of Sale (PoS).",
+   "ty": "application",
+   "tq": "Identify the actual payment trigger in an applied subsidy-disbursement situation.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Neem coating was made applicable to what proportion of domestic urea from 1 September 2015 and imported urea from 1 December 2015?",
+   "o": [
+    "50 percent",
+    "75 percent",
+    "90 percent",
+    "100 percent"
+   ],
+   "a": 3,
+   "x": "Neem coating was made mandatory for 100% of domestic urea from 1 September 2015 and imported urea from 1 December 2015.",
+   "ty": "numerical",
+   "tq": "Match the exact percentage with the two implementation dates.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT a stated effect of neem coating of urea?",
+   "o": [
+    "Reducing misuse of subsidised farm urea",
+    "Blocking diversion of farm urea to industry",
+    "Increasing the diversion of urea to industry",
+    "Slowing the release of nitrogen"
+   ],
+   "a": 2,
+   "x": "Neem coating slows nitrogen release and stops diversion of farm urea to industry. It does not increase such diversion.",
+   "ty": "negative",
+   "tq": "Find the reversed cause-effect statement among the stated functions of neem coating.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "One 500 ml bottle of IFFCO Nano Urea is claimed to replace",
+   "o": [
+    "one 25 kg bag of conventional urea",
+    "one 10 kg bag of conventional urea",
+    "one 50 kg bag of conventional urea",
+    "one 45 kg bag of conventional urea"
+   ],
+   "a": 3,
+   "x": "A 500 ml bottle of IFFCO Nano Urea is stated to replace one 45 kg bag of conventional urea.",
+   "ty": "numerical",
+   "tq": "Test the exact conversion figure using closely spaced bag-size distractors.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Nano DAP launched by Amit Shah in April 2023 contains",
+   "o": [
+    "16% nitrogen and 8% phosphorus",
+    "4% nitrogen and 2% phosphorus",
+    "8% nitrogen and 16% phosphorus",
+    "10.9% nitrogen and 4.1% phosphorus"
+   ],
+   "a": 2,
+   "x": "Nano DAP launched in April 2023 contains 8% nitrogen and 16% phosphorus.",
+   "ty": "numerical",
+   "tq": "Avoid reversing the two nutrient percentages in a confusable pair.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Nano Urea and Nano DAP are primarily used through",
+   "o": [
+    "drip irrigation only",
+    "foliar spray",
+    "deep placement in the soil",
+    "seed transplantation"
+   ],
+   "a": 1,
+   "x": "Nano Urea and Nano DAP are used as foliar sprays. Their claimed absorption efficiency is approximately 80%.",
+   "ty": "application",
+   "tq": "Apply the input-use distinction to a practical farm-use situation.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "The claimed absorption efficiency of Nano Urea and Nano DAP is approximately",
+   "o": [
+    "40 percent",
+    "60 percent",
+    "80 percent",
+    "100 percent"
+   ],
+   "a": 2,
+   "x": "The claimed absorption efficiency of Nano Urea and Nano DAP is approximately 80%.",
+   "ty": "numerical",
+   "tq": "Identify the precise quantitative claim rather than the rounded extreme value.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. India is the second-largest consumer of fertilisers.\n2. India is the third-largest producer of fertilisers.\n3. The National Investment Policy for Urea-2026 adds 10 MT of urea capacity.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "India is the second-largest fertiliser consumer and third-largest producer. The National Investment Policy for Urea-2026 adds 10 million tonnes of urea capacity.",
+   "ty": "statements",
+   "tq": "Combine rankings and a capacity figure, checking every statement independently.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents India’s N:P:K fertiliser consumption ratio in 2023–24 and the ideal ratio respectively?",
+   "o": [
+    "10.9:4.9:1 and 4:2:1",
+    "4.1:10.9:1 and 2:4:1",
+    "10.9:4.1:1 and 4:2:1",
+    "4:2:1 and 10.9:4.1:1"
+   ],
+   "a": 2,
+   "x": "The 2023–24 N:P:K ratio was 10.9:4.1:1, against the ideal ratio of 4:2:1. The imbalance is associated with cheap urea and excessive nitrogen use.",
+   "ty": "comparison",
+   "tq": "Keep the observed ratio and the ideal benchmark in their correct order.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Under PM-PRANAM, approved on 28 June 2023, States receive what share of the fertiliser subsidy saved by reducing chemical fertiliser use?",
+   "o": [
+    "25 percent",
+    "40 percent",
+    "50 percent",
+    "75 percent"
+   ],
+   "a": 2,
+   "x": "PM-PRANAM allows States to retain 50% of the subsidy saved through reduced chemical fertiliser consumption.",
+   "ty": "numerical",
+   "tq": "Link the scheme’s incentive percentage with its approval date and objective.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding Soil Health Cards:\n1. They were launched in 2015.\n2. They are issued free of cost every two years.\n3. They have been associated with an 8–10% reduction in fertiliser use and a 5–6% rise in yields.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Soil Health Cards were launched in 2015, are issued free every two years, and are associated with the stated reductions in fertiliser use and increases in yields.",
+   "ty": "statements",
+   "tq": "Verify the date, periodicity and impact figures before selecting the complete combination.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "As of November 2025, the number of Soil Health Cards generated was reported as",
+   "o": [
+    "1.86 crore",
+    "10.00 crore",
+    "25.55 crore",
+    "25.79 crore"
+   ],
+   "a": 2,
+   "x": "The Economic Survey figure cited for November 2025 was 25.55 crore Soil Health Cards. A later figure cited was 25.79 crore.",
+   "ty": "numerical",
+   "tq": "Separate closely related time-specific figures instead of treating them as interchangeable.",
+   "sec": "Fertiliser subsidy - highest-subsidy fertiliser, NBS, DBT, neem-coated urea, nano urea/DAP, consumption  [APPSC]"
+  },
+  {
+   "s": "Kisan Call Centres were launched on 21 January 2004 by the",
+   "o": [
+    "India Meteorological Department",
+    "Indian Council of Agricultural Research",
+    "Agricultural Technology Management Agency",
+    "Department of Agriculture"
+   ],
+   "a": 3,
+   "x": "Kisan Call Centres were launched on 21 January 2004 by the Department of Agriculture.",
+   "ty": "fact",
+   "tq": "Use the ‘who launched it?’ authority trap to distinguish neighbouring agricultural institutions.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the Kisan Call Centre facility?",
+   "o": [
+    "Toll-free number 1800-155-1800, operating in 22 languages from 11 locations",
+    "Toll-free number 1800-180-1551, operating in 22 languages from 17 locations",
+    "Toll-free number 1800-180-1551, operating in 11 languages from 22 locations",
+    "Toll-free number 1800-180-1551, operating in 17 languages from 22 locations"
+   ],
+   "a": 1,
+   "x": "Kisan Call Centres use the toll-free number 1800-180-1551, answer queries in 22 languages and operate from 17 locations.",
+   "ty": "fact",
+   "tq": "Split the option into number, language and location components to detect the swapped figures.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  },
+  {
+   "s": "The first Krishi Vigyan Kendra was established on the recommendation of the",
+   "o": [
+    "Sarkaria Committee",
+    "Narasimham Committee",
+    "Mohan Singh Mehta Committee",
+    "Swaminathan Commission"
+   ],
+   "a": 2,
+   "x": "The first KVK was established on the recommendation of the Mohan Singh Mehta Committee.",
+   "ty": "fact",
+   "tq": "Apply the committee–institution association rather than relying only on the location.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding Krishi Vigyan Kendras is correct?",
+   "o": [
+    "They are 100% centrally funded under ICAR and coordinated by 11 ATARIs.",
+    "They are State-funded under ATMA and coordinated by 22 ATARIs.",
+    "They are funded by the private sector and coordinated by IMD.",
+    "They are 50% centrally funded under ICAR and coordinated by 17 ATARIs."
+   ],
+   "a": 0,
+   "x": "KVKs are 100% centrally funded under ICAR and coordinated by 11 Agricultural Technology Application Research Institutes (ATARIs).",
+   "ty": "fact",
+   "tq": "Check both the funding authority and coordinating structure in the same statement.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  },
+  {
+   "s": "How many Krishi Vigyan Kendras are proposed to be upgraded by March 2027?",
+   "o": [
+    "100",
+    "200",
+    "300",
+    "500"
+   ],
+   "a": 2,
+   "x": "Three hundred KVKs are proposed to be upgraded by March 2027.",
+   "ty": "numerical",
+   "tq": "Test the exact programme target and deadline together.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  },
+  {
+   "s": "ATMA is best described as a",
+   "o": [
+    "centrally controlled fertiliser subsidy system that plans through NBS",
+    "weather forecasting agency that plans through PoS data",
+    "demand-driven district extension system that plans through SREP",
+    "national credit institution that plans through KCCs"
+   ],
+   "a": 2,
+   "x": "ATMA is a demand-driven district extension system that plans through Strategic Research and Extension Plans (SREPs).",
+   "ty": "application",
+   "tq": "Identify the institutional function and planning instrument that belong together.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  },
+  {
+   "s": "SREP, associated with ATMA, stands for",
+   "o": [
+    "Strategic Research and Extension Plans",
+    "Strategic Resource and Export Programme",
+    "Soil Reform and Evaluation Policy",
+    "State Rural Employment Programme"
+   ],
+   "a": 0,
+   "x": "SREP stands for Strategic Research and Extension Plans, through which ATMA plans district extension activities.",
+   "ty": "fact",
+   "tq": "Test the exact expansion of a commonly confused abbreviation.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  },
+  {
+   "s": "The Agricultural Technology Management Agency is described as a district extension society dating from",
+   "o": [
+    "1974",
+    "2004",
+    "2005",
+    "2019"
+   ],
+   "a": 2,
+   "x": "ATMA is described as a district extension society established in 2005.",
+   "ty": "fact",
+   "tq": "Use the close-year distinction among KVK, KCC and Meghdoot milestones.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  },
+  {
+   "s": "Andhra Pradesh released how much for ATMA in 2025–26?",
+   "o": [
+    "₹1,803 lakh",
+    "₹18,030 lakh",
+    "₹180.3 lakh",
+    "₹1.71 lakh crore"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh released ₹1,803 lakh for ATMA in 2025–26.",
+   "ty": "numerical",
+   "tq": "Distinguish lakh-based allocations from crore-based figures by checking place value.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  },
+  {
+   "s": "The extension principle expressed as “seeing is believing” is primarily implemented through",
+   "o": [
+    "fertiliser price control",
+    "subsidy transfers at PoS",
+    "demonstrations",
+    "export promotion"
+   ],
+   "a": 2,
+   "x": "The principle “seeing is believing” is implemented through demonstrations, along with learning by doing.",
+   "ty": "application",
+   "tq": "Translate the extension principle into its practical field method.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  },
+  {
+   "s": "Which organisation runs weather-linked SMS alerts and diagnostic applications as part of agromet advisories?",
+   "o": [
+    "ATMA",
+    "Department of Agriculture only",
+    "ANGRAU",
+    "ICAR only"
+   ],
+   "a": 2,
+   "x": "ANGRAU runs weather-linked SMS alerts and diagnostic apps for agromet advisories.",
+   "ty": "fact",
+   "tq": "Identify the implementing institution rather than the broader extension framework.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  },
+  {
+   "s": "The Meghdoot app, associated with IMD–ICAR agromet advisories, was launched in",
+   "o": [
+    "2004",
+    "2015",
+    "2019",
+    "2024"
+   ],
+   "a": 2,
+   "x": "The Meghdoot app for IMD–ICAR agromet advisories was launched in 2019.",
+   "ty": "fact",
+   "tq": "Distinguish the app’s launch year from the years of KCC, Soil Health Cards and the command centre.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  },
+  {
+   "s": "The Agriculture Integrated Command and Control Centre was inaugurated in March 2024 at",
+   "o": [
+    "ANGRAU campus, Andhra Pradesh",
+    "Puducherry Agricultural University",
+    "the headquarters of an ATARI",
+    "Krishi Bhawan, Delhi"
+   ],
+   "a": 3,
+   "x": "The Agriculture Integrated Command and Control Centre was inaugurated in March 2024 at Krishi Bhawan in Delhi.",
+   "ty": "fact",
+   "tq": "Use the location trap to distinguish the national command centre from agricultural extension institutions.",
+   "sec": "Extension services - KCC, KVK, ATMA, agromet advisories  [APPSC]"
+  }
+ ]
+}

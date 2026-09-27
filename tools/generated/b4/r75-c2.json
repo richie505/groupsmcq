@@ -1,0 +1,398 @@
+{
+ "book": 4,
+ "row": 75,
+ "chunk": 2,
+ "section": "Andhra Pradesh - SC and ST population; major tribal groups (Chenchu, Koya, Savara, Yanadi, Yerukula) and PVTGs",
+ "subsections": [
+  "Tribal languages, scripts and festivals (Savara, Koya)",
+  "Tribe → traditional occupation (food gathering, podu, pastoralism)",
+  "Tribal welfare in AP - Girijan Cooperative Corporation, tribal university, Scheduled Area mandals"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 30,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Savaras are particularly known for which combination of cultural practices?",
+   "o": [
+    "Basket making and fortune-telling",
+    "Teej festival and animal husbandry",
+    "Wall paintings and buffalo sacrifice called Gour",
+    "Horned-headgear dance and mango festival"
+   ],
+   "a": 2,
+   "x": "The Savaras are known for wall paintings and the buffalo sacrifice known as Gour.",
+   "ty": "fact",
+   "tq": "Match a tribe with its distinctive cultural practices.",
+   "sec": "Tribal languages, scripts and festivals (Savara, Koya)"
+  },
+  {
+   "s": "Consider the following statements regarding the Koya tribe:\n1. The Koyas speak Koya Bhasha.\n2. Bhumi Panduga marks the beginning of the farming season.\n3. Mamidi Panduga is associated with the Koya tribe.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Koyas speak Koya Bhasha, celebrate Bhumi Panduga at the start of farming, and observe Mamidi Panduga.",
+   "ty": "statements",
+   "tq": "Combine language and festival facts, checking whether all statements belong to the same tribe.",
+   "sec": "Tribal languages, scripts and festivals (Savara, Koya)"
+  },
+  {
+   "s": "With reference to tribal dances and festivals, which one of the following is correctly matched?",
+   "o": [
+    "Horned-headgear dance (Adavidunna Kommu Nrutyam) — Koya",
+    "Kuravanji dance-drama — Gond",
+    "Gussadi — Yerukula",
+    "Teej — Savara"
+   ],
+   "a": 0,
+   "x": "The horned-headgear dance, Adavidunna Kommu Nrutyam, is associated with the Koya tribe. Kuravanji belongs to Yerukula, Gussadi to Gond and Teej to Lambada.",
+   "ty": "match",
+   "tq": "Start from the sure tribe–dance pair and eliminate swapped cultural associations.",
+   "sec": "Tribal languages, scripts and festivals (Savara, Koya)"
+  },
+  {
+   "s": "The Sammakka–Saralamma Jatara is held at Medaram and is generally conducted once in every:",
+   "o": [
+    "Two years",
+    "Three years",
+    "Five years",
+    "One year"
+   ],
+   "a": 0,
+   "x": "The Sammakka–Saralamma Jatara at Medaram is held every two years, in February, and is associated with the Koyas.",
+   "ty": "numerical",
+   "tq": "Test the exact periodicity of a festival rather than its associated tribe alone.",
+   "sec": "Tribal languages, scripts and festivals (Savara, Koya)"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Yanadi Chindu and Keelugurram — Yanadi",
+    "Kuravanji dance-drama — Yerukula",
+    "Mamidi Panduga — Koya",
+    "Chenchita and Kondamuchu aata — Chenchu"
+   ],
+   "a": 2,
+   "x": "Mamidi Panduga is listed in association with Konda Reddi, whereas the Chenchu, Yanadi and Yerukula associations are correct.",
+   "ty": "negative",
+   "tq": "Find the one cultural association that has been shifted to a neighbouring tribe.",
+   "sec": "Tribal languages, scripts and festivals (Savara, Koya)"
+  },
+  {
+   "s": "Dhimsa is traditionally danced by which of the following groups?\n1. Bagata\n2. Valmiki\n3. Konda Dora\n4. Gadaba\n5. Porja\n6. Savara\n7. Jatapu\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2, 3 and 4 only",
+    "1, 2, 3, 4, 5, 6 and 7",
+    "2, 4, 5 and 7 only",
+    "1, 3, 5 and 6 only"
+   ],
+   "a": 1,
+   "x": "Dhimsa is danced by Bagata, Valmiki, Konda Dora, Gadaba, Porja, Savara and Jatapu communities.",
+   "ty": "statements",
+   "tq": "Handle a complete list by checking whether any listed group is an outsider.",
+   "sec": "Tribal languages, scripts and festivals (Savara, Koya)"
+  },
+  {
+   "s": "Dhimsa set a Guinness World Record when more than how many tribal women and girls performed it at Alluri Sitarama Raju International Airport, Bhogapuram?",
+   "o": [
+    "5,000",
+    "8,000",
+    "10,000",
+    "13,000"
+   ],
+   "a": 3,
+   "x": "More than 13,000 tribal women and girls participated in the Guinness World Record performance at the Alluri Sitarama Raju International Airport, Bhogapuram, in July 2026.",
+   "ty": "numerical",
+   "tq": "Use the exact numerical figure and distinguish it from nearby rounded distractors.",
+   "sec": "Tribal languages, scripts and festivals (Savara, Koya)"
+  },
+  {
+   "s": "Dhimsa is associated with which of the following cultural occasions and geographical origin?",
+   "o": [
+    "Seethala Panduga; traced to Tajangi",
+    "Bhumi Panduga; traced to Medaram",
+    "Chaitra Purab or Eetela Panduga; traced to Koraput",
+    "Mamidi Panduga; traced to Chintapalli"
+   ],
+   "a": 2,
+   "x": "Dhimsa is danced during Chaitra Purab, also called Eetela Panduga, and is traced to Koraput.",
+   "ty": "fact",
+   "tq": "Link a cultural practice with both its occasion and place of origin.",
+   "sec": "Tribal languages, scripts and festivals (Savara, Koya)"
+  },
+  {
+   "s": "Why did the Koyas replace bison horns with palm leaves in their Permakore flute?",
+   "o": [
+    "To protect the gaur",
+    "To imitate the Savara script",
+    "To reduce the weight of the flute",
+    "To make the flute suitable for religious ceremonies"
+   ],
+   "a": 0,
+   "x": "The Koyas replaced bison horns with palm leaves in the Permakore flute to protect the gaur. The Bison Horn Maria of Chhattisgarh are a different people.",
+   "ty": "application",
+   "tq": "Apply the stated conservation rationale to a cultural object.",
+   "sec": "Tribal languages, scripts and festivals (Savara, Koya)"
+  },
+  {
+   "s": "Which one of the following correctly describes the traditional occupation of the Chenchu?",
+   "o": [
+    "Basket and rope making with fortune-telling",
+    "Hunting and food gathering, with a semi-nomadic way of life",
+    "Fishing, rice cultivation and herbal medicine",
+    "Podu cultivation and service under feudal lords"
+   ],
+   "a": 1,
+   "x": "The Chenchu traditionally practised hunting and food gathering and were semi-nomadic, being described as those who live under trees.",
+   "ty": "fact",
+   "tq": "Distinguish traditional occupations of closely associated tribal communities.",
+   "sec": "Tribe → traditional occupation (food gathering, podu, pastoralism)  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Konda Reddi — Podu and food-gathering stage\n2. Koya — Podu and former soldiers of feudal lords\n3. Porja and Savara — Podu and hill agriculture\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correctly matched. Konda Reddi, Koya, Porja and Savara are associated with the occupations stated.",
+   "ty": "statements",
+   "tq": "Verify each tribe–occupation pair rather than relying on one familiar association.",
+   "sec": "Tribe → traditional occupation (food gathering, podu, pastoralism)  [GROUP-II]"
+  },
+  {
+   "s": "The traditional occupations of Yanadi include:",
+   "o": [
+    "Trading, transport and basket weaving",
+    "Podu, salt making and weaving",
+    "Hunting, iron smelting and pastoralism",
+    "Fishing, rice cultivation and herbal medicine"
+   ],
+   "a": 3,
+   "x": "Yanadis are traditionally associated with fishing, rice cultivation and herbal medicine.",
+   "ty": "fact",
+   "tq": "Directly identify the occupation cluster belonging to one tribe.",
+   "sec": "Tribe → traditional occupation (food gathering, podu, pastoralism)  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following is correctly matched with the Yerukula?",
+   "o": [
+    "Beedari — basket and rope making",
+    "Kunchi — pig-rearing",
+    "Kunchi — podu cultivation",
+    "Beedari — fortune-telling"
+   ],
+   "a": 0,
+   "x": "Among the Yerukula, Beedari refers to basket and rope making, Kunchi to fortune-telling, and pig-rearing is also a traditional occupation.",
+   "ty": "confusable",
+   "tq": "Separate similar traditional terms by matching each term with its precise meaning.",
+   "sec": "Tribe → traditional occupation (food gathering, podu, pastoralism)  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about the Lambada or Sugali community:\n1. They were once traders and transporters.\n2. Agriculture and animal husbandry are their present occupations.\n3. They traditionally live in thandas.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Lambadas or Sugalis were formerly traders and transporters, and are now associated with agriculture, animal husbandry and thanda settlements.",
+   "ty": "statements",
+   "tq": "Use a time-based comparison between former and present occupations.",
+   "sec": "Tribe → traditional occupation (food gathering, podu, pastoralism)  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Koya — Podu cultivation",
+    "Kolam — Basket weaving",
+    "Konda Reddi — Podu cultivation",
+    "Yerukula — Rice cultivation and herbal medicine"
+   ],
+   "a": 3,
+   "x": "Rice cultivation and herbal medicine are associated with Yanadi, not Yerukula. Kolam, Konda Reddi and Koya are correctly matched.",
+   "ty": "negative",
+   "tq": "Detect the occupation transferred from one tribe to another.",
+   "sec": "Tribe → traditional occupation (food gathering, podu, pastoralism)  [GROUP-II]"
+  },
+  {
+   "s": "Podu cultivation is best described as:",
+   "o": [
+    "Pastoral movement between seasonal grasslands",
+    "Terrace cultivation of tea and coffee",
+    "Permanent wet-rice cultivation in valley floors",
+    "Slash-and-burn shifting cultivation of jowar and maize"
+   ],
+   "a": 3,
+   "x": "Podu is slash-and-burn shifting cultivation of jowar and maize. Fields are abandoned when the soil becomes exhausted.",
+   "ty": "fact",
+   "tq": "Identify the exact meaning of an occupational and agricultural term.",
+   "sec": "Tribe → traditional occupation (food gathering, podu, pastoralism)  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements regarding Podu cultivation is correct?\n1. It is practised in Alluri Sitarama Raju and Parvathipuram Manyam districts.\n2. It may cause soil erosion and forest fires.\n3. FRA pattas combined with horticulture are suggested as a remedy.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Podu is practised in ASR and Parvathipuram Manyam, can cause erosion and forest fires, and FRA pattas with horticulture are suggested as remedial measures.",
+   "ty": "statements",
+   "tq": "Combine location, environmental impact and remedial-measure statements.",
+   "sec": "Tribe → traditional occupation (food gathering, podu, pastoralism)  [GROUP-II]"
+  },
+  {
+   "s": "Tribal farmers of Maredumilli belonging to which communities grow annatto on about 10,000 acres?",
+   "o": [
+    "Savara, Porja and Lambada",
+    "Kolam, Gond and Jatapu",
+    "Chenchu, Yanadi and Yerukula",
+    "Konda Reddi, Koya Dora and Valmiki"
+   ],
+   "a": 3,
+   "x": "Konda Reddi, Koya Dora and Valmiki tribal farmers of Maredumilli grow annatto on about 10,000 acres and are forced to sell it to middlemen.",
+   "ty": "numerical",
+   "tq": "Combine a location, a community group and a quantitative figure in one factual identification.",
+   "sec": "Tribe → traditional occupation (food gathering, podu, pastoralism)  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following functions are performed by the Girijan Cooperative Corporation?\n1. Procuring minor forest produce and agricultural produce\n2. Running PDS depots\n3. Providing credit\n4. Selling products under the ‘Girijan’ brand\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The GCC buys minor forest produce and agricultural produce, runs PDS depots, provides credit and sells products under the Girijan brand.",
+   "ty": "statements",
+   "tq": "Check whether the full list of institutional functions is included.",
+   "sec": "Tribal welfare in AP - Girijan Cooperative Corporation, tribal university, Scheduled Area mandals  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements about the GCC Araku Valley Coffee is correct?",
+   "o": [
+    "It is a festival product associated with the Koya tribe.",
+    "It was launched by the Forest Rights Committee at Tajangi.",
+    "It is a trademark of the Girijan Cooperative Corporation.",
+    "It is a product sold exclusively by the Central Tribal University."
+   ],
+   "a": 2,
+   "x": "‘GCC Araku Valley Coffee’ is a trademark of the Girijan Cooperative Corporation.",
+   "ty": "fact",
+   "tq": "Identify the organisation associated with a branded product.",
+   "sec": "Tribal welfare in AP - Girijan Cooperative Corporation, tribal university, Scheduled Area mandals  [GROUP-II]"
+  },
+  {
+   "s": "How many petrol bunks are run by the Girijan Cooperative Corporation?",
+   "o": [
+    "12",
+    "14",
+    "16",
+    "18"
+   ],
+   "a": 2,
+   "x": "The Girijan Cooperative Corporation runs 16 petrol bunks.",
+   "ty": "numerical",
+   "tq": "Recall the precise institutional count rather than a rounded estimate.",
+   "sec": "Tribal welfare in AP - Girijan Cooperative Corporation, tribal university, Scheduled Area mandals  [GROUP-II]"
+  },
+  {
+   "s": "The Central Tribal University of Andhra Pradesh was established under which legislation?",
+   "o": [
+    "The Scheduled Areas Development Act, 2011",
+    "The Central Universities Act, 2009",
+    "The Central Universities (Amendment) Act, 2019",
+    "The Andhra Pradesh Reorganisation (Amendment) Act, 2014"
+   ],
+   "a": 2,
+   "x": "CTUAP was set up under the Central Universities (Amendment) Act, 2019, as required by the 13th Schedule of the AP Reorganisation Act.",
+   "ty": "fact",
+   "tq": "Distinguish the establishing legislation from related regional legislation.",
+   "sec": "Tribal welfare in AP - Girijan Cooperative Corporation, tribal university, Scheduled Area mandals  [GROUP-II]"
+  },
+  {
+   "s": "The permanent campus of the Central Tribal University of Andhra Pradesh is located at:",
+   "o": [
+    "Araku Valley",
+    "Tajangi, Chintapalli",
+    "Maredumilli, Alluri Sitarama Raju district",
+    "Kondakarakam, Vizianagaram"
+   ],
+   "a": 3,
+   "x": "The permanent campus of CTUAP is at Kondakarakam in Vizianagaram.",
+   "ty": "fact",
+   "tq": "Use location-based elimination among tribal welfare centres.",
+   "sec": "Tribal welfare in AP - Girijan Cooperative Corporation, tribal university, Scheduled Area mandals  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements:\n1. AP PESA Rules were framed in 2011.\n2. There are 2,038 notified PESA Gram Sabhas.\n3. Under FRA, 2,26,651 individual titles and 1,822 community titles have been issued.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the AP PESA Rules were issued in 2011, 2,038 PESA Gram Sabhas are notified, and the stated individual and community FRA titles have been issued.",
+   "ty": "statements",
+   "tq": "Keep separate legal, institutional and numerical facts together without confusing PESA and FRA.",
+   "sec": "Tribal welfare in AP - Girijan Cooperative Corporation, tribal university, Scheduled Area mandals  [GROUP-II]"
+  },
+  {
+   "s": "A Tribal Freedom Fighters Museum is being constructed at:",
+   "o": [
+    "Medaram, Telangana",
+    "Bhogapuram, Vizianagaram",
+    "Tajangi, Chintapalli",
+    "Kondakarakam, Vizianagaram"
+   ],
+   "a": 2,
+   "x": "The Tribal Freedom Fighters Museum is being built at Tajangi in Chintapalli, within the Alluri Sitarama Raju region.",
+   "ty": "fact",
+   "tq": "Distinguish the museum site from other tribal-related locations.",
+   "sec": "Tribal welfare in AP - Girijan Cooperative Corporation, tribal university, Scheduled Area mandals  [GROUP-II]"
+  },
+  {
+   "s": "In August 2026, the Chief Minister announced an allocation of Rs 4,764 crore for approximately how many tribals through the ITDAs?",
+   "o": [
+    "17.39 lakh",
+    "22.39 lakh",
+    "27.39 lakh",
+    "32.39 lakh"
+   ],
+   "a": 2,
+   "x": "In August 2026, Rs 4,764 crore was announced for 27.39 lakh tribals through the Integrated Tribal Development Agencies.",
+   "ty": "numerical",
+   "tq": "Match the precise financial allocation with its beneficiary count.",
+   "sec": "Tribal welfare in AP - Girijan Cooperative Corporation, tribal university, Scheduled Area mandals  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about Adivasi Talli Bata roads:\n1. The project involves an outlay of Rs 1,000 crore.\n2. It covers 905 km of roads.\n3. The roads connect 2,336 habitations.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Adivasi Talli Bata roads involve Rs 1,000 crore, cover 905 km and link 2,336 habitations.",
+   "ty": "statements",
+   "tq": "Test a three-part infrastructure figure by checking every numerical component.",
+   "sec": "Tribal welfare in AP - Girijan Cooperative Corporation, tribal university, Scheduled Area mandals  [GROUP-II]"
+  }
+ ]
+}

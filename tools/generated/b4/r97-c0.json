@@ -1,0 +1,453 @@
+{
+ "book": 4,
+ "row": 97,
+ "chunk": 0,
+ "section": "Trade of Andhra Pradesh - exports, port-based trade, SEZs",
+ "subsections": [
+  "SEZs of AP → district and type, number notified and operational",
+  "AP exports - share in India's exports, top items, destinations"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 32,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "As of July 2023, how many notified Special Economic Zones were recorded in Andhra Pradesh according to the APPSC figure?",
+   "o": [
+    "10",
+    "19",
+    "32",
+    "47"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh had 32 notified SEZs as of July 2023 according to the APPSC figure. The figure of 19 refers to operational SEZs around January 2019.",
+   "ty": "numerical",
+   "tq": "Separate the notified count from the operational count and reject the nearby figures.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "How many operational SEZs did Andhra Pradesh have around January 2019?",
+   "o": [
+    "10",
+    "19",
+    "32",
+    "47"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh had 19 operational SEZs in the period referred to by the APPSC-GS 2018 key. The notified count in July 2023 was 32.",
+   "ty": "numerical",
+   "tq": "Use the date and distinguish operational SEZs from notified SEZs.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly identifies Sri City?",
+   "o": [
+    "A port-based SEZ at Kakinada",
+    "A pharma cluster at Parawada",
+    "A multi-product zone in Tirupati district with SEZ, DTZ, FTWZ and Electronics Manufacturing Cluster components",
+    "An apparel-only zone at Pydibhimavaram"
+   ],
+   "a": 2,
+   "x": "Sri City is located in Tirupati district and combines a multi-product SEZ, DTZ, Free Trade Warehousing Zone and Electronics Manufacturing Cluster.",
+   "ty": "match",
+   "tq": "Match the distinctive zone type with its location before examining the remaining options.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\na. Kakinada SEZ — Port-based SEZ\nb. Pydibhimavaram — Pharma cluster\nc. Brandix India Apparel City — Apparel\n d. Divi's Laboratories — Pharmaceuticals\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "a and b only",
+    "a, b and c only",
+    "b, c and d only",
+    "a, b, c and d"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Kakinada SEZ is port-based, Pydibhimavaram is a pharma cluster, Brandix is an apparel unit, and Divi's Laboratories is associated with pharmaceuticals.",
+   "ty": "statements",
+   "tq": "Start with the sure product-location pairs and test each remaining pair independently.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Pharma City — Parawada",
+    "Sri City — Tirupati district",
+    "Kakinada SEZ — Srikakulam district",
+    "APSEZ — Atchutapuram-Rambilli mandals"
+   ],
+   "a": 2,
+   "x": "Kakinada SEZ is located in Kakinada, not Srikakulam district. Pydibhimavaram is the pharma cluster associated with Srikakulam.",
+   "ty": "negative",
+   "tq": "Find the wrong location by comparing each zone with its distinctive district.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "The APSEZ at Atchutapuram was notified on which date?",
+   "o": [
+    "1 July 2023",
+    "12 April 2007",
+    "31 March 2025",
+    "10 February 2006"
+   ],
+   "a": 1,
+   "x": "The APSEZ at Atchutapuram was notified on 12 April 2007.",
+   "ty": "fact",
+   "tq": "Treat the notification date as a precise numerical fact and distinguish it from the SEZ Act date.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "With reference to the APSEZ at Atchutapuram-Rambilli, consider the following statements:\n1. It is a multi-product SEZ.\n2. It covers about 3,213 acres.\n3. APIIC is associated with its development.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The APSEZ is a multi-product zone, covers about 3,213 acres and is associated with APIIC. Therefore, all three statements are correct.",
+   "ty": "statements",
+   "tq": "Check the type, area and agency separately; the three details describe the same zone.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "Which of the following establishments is associated with Sri City?\n1. Foxconn\n2. Isuzu\n3. GMR Kakinada Gateway Port\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Foxconn and Isuzu are associated with Sri City. GMR Kakinada Gateway Port is associated with Kakinada SEZ, not Sri City.",
+   "ty": "statements",
+   "tq": "Use the company-zone association and eliminate the port-related distractor.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "The Jawaharlal Nehru Pharma City is located at which place?",
+   "o": [
+    "Parawada in the Anakapalli-Vizag region",
+    "Kakinada Gateway Port",
+    "Atchutapuram in Srikakulam district",
+    "Tirupati district"
+   ],
+   "a": 0,
+   "x": "Jawaharlal Nehru Pharma City is located at Parawada in the Anakapalli, or Vizag, region. It includes pharmaceutical companies such as Divi's, Dr. Reddy's, Aurobindo and Laurus.",
+   "ty": "fact",
+   "tq": "Link the named pharma city with its specific location rather than its associated companies.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the Vizag Bulk Drug Park?",
+   "o": [
+    "It is a port-based zone linked with Kakinada Gateway Port.",
+    "It covers about 3,213 acres and is located at Atchutapuram.",
+    "It covers about 2,002 acres and is associated with the Parawada pharma region.",
+    "It covers about 571 acres and is located in Tirupati."
+   ],
+   "a": 2,
+   "x": "The Vizag Bulk Drug Park is associated with the Parawada pharmaceutical region and covers about 2,002 acres.",
+   "ty": "numerical",
+   "tq": "Match the area figure with the correct industrial location, avoiding the nearby APSEZ area figure.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with Kakinada SEZ?",
+   "o": [
+    "Multi-product SEZ with GMR Kakinada Gateway Port",
+    "Pharma cluster with Divi's Laboratories",
+    "Electronics Manufacturing Cluster with Foxconn",
+    "Apparel city at Atchutapuram"
+   ],
+   "a": 0,
+   "x": "Kakinada SEZ is a multi-product SEZ associated with GMR Kakinada Gateway Port. The other options refer to Sri City, pharma units or Brandix respectively.",
+   "ty": "match",
+   "tq": "Identify the port-based association first and reject products or companies belonging to other zones.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the institutional framework of SEZs in Andhra Pradesh is correct?\n1. The Visakhapatnam SEZ Development Authority covers Andhra Pradesh, Telangana, Chhattisgarh and Yanam.\n2. APIIC is the nodal agency for industrial parks and SEZs.\n3. Ten SEZs are developed by APIIC.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Visakhapatnam SEZ Development Authority covers the listed regions, APIIC is the nodal agency for industrial parks and SEZs, and 10 SEZs are developed by APIIC.",
+   "ty": "statements",
+   "tq": "Combine authority, agency and count facts while checking that none is assigned to the wrong institution.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the distribution of industrial parks reported by APSES for 2024-25?",
+   "o": [
+    "283 APIIC, 264 UDL and 24 non-APIIC parks",
+    "264 APIIC, 283 UDL and 24 non-APIIC parks",
+    "571 APIIC, 10 UDL and 19 non-APIIC parks",
+    "264 APIIC, 24 UDL and 283 non-APIIC parks"
+   ],
+   "a": 1,
+   "x": "The reported distribution is 264 APIIC parks, 283 UDL parks and 24 non-APIIC parks, making a total of 571 parks.",
+   "ty": "numerical",
+   "tq": "Preserve the category order and distinguish component figures from the total.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "As of 31 March 2025, which one of the following pairs correctly states the national SEZ position?",
+   "o": [
+    "32 notified and 19 operational",
+    "571 notified and 264 operational",
+    "368 notified and 276 operational",
+    "276 notified and 368 operational"
+   ],
+   "a": 2,
+   "x": "As of 31 March 2025, India had 368 notified SEZs and 276 operational SEZs.",
+   "ty": "numerical",
+   "tq": "Distinguish the national figures from the much smaller Andhra Pradesh figures.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "SEZ exports accounted for approximately what share of India's exports, with a reported value of Rs 14.64 lakh crore as of 31 March 2025?",
+   "o": [
+    "7.5%",
+    "21%",
+    "43%",
+    "67%"
+   ],
+   "a": 1,
+   "x": "SEZ exports were valued at Rs 14.64 lakh crore, approximately US$173 billion, and accounted for about 21% of India's exports.",
+   "ty": "numerical",
+   "tq": "Match the aggregate export value with the national percentage rather than state-level commodity shares.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding the historical development of export processing zones?",
+   "o": [
+    "Kandla was India's first operational SEZ, established in 2006.",
+    "Sri City was Asia's first EPZ, established in 1965.",
+    "Kakinada was Asia's first EPZ, established in 2007.",
+    "Kandla was Asia's first EPZ, established in 1965."
+   ],
+   "a": 3,
+   "x": "Kandla was Asia's first Export Processing Zone, established in 1965.",
+   "ty": "fact",
+   "tq": "Use the place-year association and avoid confusing an EPZ with a later SEZ.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "The Baba Kalyani Committee (2018) proposed that Special Economic Zones should be renamed as:",
+   "o": [
+    "Export and Investment Parks",
+    "Employment and Economic Enclaves",
+    "Enterprise and Export Estates",
+    "Economic and Employment Corridors"
+   ],
+   "a": 1,
+   "x": "The Baba Kalyani Committee proposed the term “3Es”, meaning Employment and Economic Enclaves, for SEZs.",
+   "ty": "confusable",
+   "tq": "Test the exact expansion of a similarly worded proposed terminology.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "Which of the following incentives is associated with APSEZ?\n1. 100% stamp duty exemption\n2. 15% investment subsidy for micro and small units\n3. 3% interest subsidy\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The APSEZ incentives include 100% stamp duty exemption, a 15% investment subsidy for micro and small units and a 3% interest subsidy.",
+   "ty": "statements",
+   "tq": "Check each percentage and incentive separately; all three are part of the stated package.",
+   "sec": "SEZs of AP → district and type, number notified and operational  [APPSC]"
+  },
+  {
+   "s": "In FY 2024-25, Andhra Pradesh was described as the sixth largest exporting State and exported to how many countries?",
+   "o": [
+    "194",
+    "276",
+    "368",
+    "824"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh was the sixth largest exporting State in FY 2024-25 and shipped 824 commodities to 194 countries.",
+   "ty": "numerical",
+   "tq": "Distinguish the number of destination countries from the number of commodities exported.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  },
+  {
+   "s": "Which one of the following commodities ranked first for Andhra Pradesh in FY 2024-25 with a 67% share of India's exports?",
+   "o": [
+    "Marine products",
+    "Tobacco",
+    "Spices",
+    "Coffee"
+   ],
+   "a": 1,
+   "x": "Tobacco ranked first for Andhra Pradesh and accounted for 67% of India's exports in the stated FY 2024-25 data.",
+   "ty": "numerical",
+   "tq": "Match the commodity with its specific national export share instead of relying only on the rank.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about Andhra Pradesh's export position in FY 2024-25:\n1. Andhra Pradesh ranked first in marine products with a 43% share.\n2. Andhra Pradesh ranked first in mica, coal and other ores.\n3. Andhra Pradesh ranked second in coffee.\n4. Andhra Pradesh ranked third in spices.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct for FY 2024-25: marine products ranked first with 43%, ores ranked first, coffee ranked second and spices ranked third.",
+   "ty": "statements",
+   "tq": "Read the ranking and percentage details as separate statements and retain all correctly stated entries.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly matches an export item with Andhra Pradesh's share of India's exports in FY 2023-24?",
+   "o": [
+    "Silver — 75.71%",
+    "Fertilizers — 75.71%",
+    "Tobacco — 47.85%",
+    "Marine products — 88.05%"
+   ],
+   "a": 0,
+   "x": "Silver accounted for 75.71% of India's exports in the FY 2023-24 table. Tobacco accounted for 88.05%, fertilizers 47.85% and marine products 40%.",
+   "ty": "match",
+   "tq": "Start with the distinctive percentage-item pair and use the remaining percentages as traps.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs are correctly matched with Andhra Pradesh's FY 2023-24 export shares?\n1. Tobacco — 88.05%\n2. Fertilizers — 47.85%\n3. Ships, boats and floating structures — 36.84%\n4. Bulk drugs — 10.32%\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. The table also records silver at 75.71%, marine products at 40% and drug formulations at 7.85%.",
+   "ty": "statements",
+   "tq": "Verify each numerical pair independently, especially where bulk drugs and drug formulations have close values.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT identified as a major export product of Andhra Pradesh?",
+   "o": [
+    "Marine products",
+    "Crude oil",
+    "Pharmaceuticals",
+    "Engineering goods"
+   ],
+   "a": 1,
+   "x": "Crude oil is not an export of Andhra Pradesh in the stated data. Major exports include marine products, pharmaceuticals, food products, textiles and engineering goods.",
+   "ty": "negative",
+   "tq": "Use the explicit non-export exception against the surrounding list of major exports.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  },
+  {
+   "s": "Andhra Pradesh supplies approximately what share of India's shrimp exports?",
+   "o": [
+    "31%",
+    "40%",
+    "70%",
+    "88.05%"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh supplies about 70% of India's shrimp exports. The shrimp is mainly white-leg shrimp produced in West Godavari, Krishna and Nellore.",
+   "ty": "numerical",
+   "tq": "Distinguish the shrimp-specific share from the overall marine-products share.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  },
+  {
+   "s": "The shrimp exported from Andhra Pradesh is mainly which variety, and it is produced chiefly in which districts?",
+   "o": [
+    "Tiger shrimp from Guntur, Prakasam and Kakinada",
+    "White-leg shrimp from West Godavari, Krishna and Nellore",
+    "Freshwater prawn from Srikakulam, Vizianagaram and Tirupati",
+    "Lobster from Visakhapatnam, Anakapalli and Kakinada"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh's shrimp exports are mainly white-leg shrimp produced in West Godavari, Krishna and Nellore.",
+   "ty": "match",
+   "tq": "Match the variety with the production districts rather than with export destinations.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  },
+  {
+   "s": "The principal foreign markets for Andhra Pradesh's white-leg shrimp are:",
+   "o": [
+    "Japan and Australia only",
+    "Russia and Central Asia",
+    "West Asia and North Africa only",
+    "The United States and the European Union"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh's white-leg shrimp is sold chiefly to the United States and the European Union.",
+   "ty": "fact",
+   "tq": "Identify the destination pair directly and reject geographically plausible but unstated alternatives.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  },
+  {
+   "s": "Which one of the following combinations is correctly matched with an Andhra Pradesh export and its associated location or source?",
+   "o": [
+    "Chillies — Guntur",
+    "Mango pulp — Kakinada Gateway Port",
+    "Pharmaceuticals — Nellore shrimp farms",
+    "Petroleum products — Guntur agricultural markets"
+   ],
+   "a": 0,
+   "x": "Guntur is associated with Andhra Pradesh's chilli exports. Other noted export associations include mango pulp, pharmaceuticals from the Vizag-Parawada region and petroleum products from Vizag refineries.",
+   "ty": "match",
+   "tq": "Link each commodity with its production or processing centre and reject cross-sector swaps.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  },
+  {
+   "s": "Petroleum products exported from Andhra Pradesh are associated primarily with:",
+   "o": [
+    "Pydibhimavaram apparel units",
+    "Vizag refineries",
+    "Parawada shrimp farms",
+    "Guntur chilli markets"
+   ],
+   "a": 1,
+   "x": "Petroleum products are associated with refineries in the Vizag region. Chillies are associated with Guntur, while Parawada is associated with pharmaceuticals.",
+   "ty": "fact",
+   "tq": "Use the processing-location relationship and eliminate options drawn from unrelated sectors.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  },
+  {
+   "s": "Which sector had a 7.5% share of India's exports from Andhra Pradesh in FY 2024-25?",
+   "o": [
+    "Marine products",
+    "Bulk drugs and formulations",
+    "Tobacco",
+    "Coffee"
+   ],
+   "a": 1,
+   "x": "Bulk drugs and formulations accounted for 7.5% of India's exports from Andhra Pradesh in the FY 2024-25 table.",
+   "ty": "numerical",
+   "tq": "Match the exact percentage with the sector and avoid substituting the much larger commodity shares.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements correctly distinguishes the principal export-share figures of Andhra Pradesh?\n1. Tobacco had a 67% share in FY 2024-25.\n2. Marine products had a 43% share in FY 2024-25.\n3. Marine products had a 40% share in the FY 2023-24 table.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The FY 2024-25 figures recorded tobacco at 67% and marine products at 43%, while the FY 2023-24 table recorded marine products at 40%. These are different years and must not be conflated.",
+   "ty": "comparison",
+   "tq": "Separate year-wise figures before comparing apparently conflicting percentages.",
+   "sec": "AP exports - share in India's exports, top items, destinations  [APPSC]"
+  }
+ ]
+}

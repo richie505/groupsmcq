@@ -1,0 +1,302 @@
+{
+ "book": 3,
+ "row": 22,
+ "chunk": 1,
+ "section": "National income concepts - GDP, GNP, NDP, NNP, factor cost vs market price, GVA, deflator",
+ "subsections": [
+  "GNP vs GDP - when one exceeds the other",
+  "GDP deflator - ratio, comprehensiveness, purchasing power",
+  "Transfer payments and transfer earnings - in or out",
+  "Nominal vs real GDP; personal and disposable income identities",
+  "PPP exchange rates - basis, PPP vs market rate"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 21,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "An Indian resident earning factor income in Saudi Arabia contributes that income to India's:",
+   "o": [
+    "GDP only",
+    "GNP only",
+    "Neither GDP nor GNP",
+    "Both GDP and GNP"
+   ],
+   "a": 1,
+   "x": "Factor income earned by an Indian resident abroad is excluded from India's domestic product but included in its national product.",
+   "ty": "application",
+   "tq": "Distinguish domestic production from income earned by residents abroad.",
+   "sec": "GNP vs GDP - when one exceeds the other  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes India's usual relationship between GDP and GNP?",
+   "o": [
+    "GNP is usually lower because NFIA is negative",
+    "GNP is lower because domestic production is excluded from GDP",
+    "GNP is usually higher because NFIA is positive",
+    "GNP and GDP are always equal"
+   ],
+   "a": 0,
+   "x": "India's net factor income from abroad is usually negative, making GNP lower than GDP.",
+   "ty": "fact",
+   "tq": "Use the sign of NFIA to determine the GDP–GNP relationship.",
+   "sec": "GNP vs GDP - when one exceeds the other  [APPSC]"
+  },
+  {
+   "s": "In the 2022–23 national accounts series, which method replaced single deflation for manufacturing and agriculture?",
+   "o": [
+    "Double deflation",
+    "Fixed-basket deflation",
+    "Export-price deflation",
+    "Gross deflation"
+   ],
+   "a": 0,
+   "x": "The 2022–23 series uses double deflation, which separately deflates output prices and input prices.",
+   "ty": "fact",
+   "tq": "Test the exact technical term used for a methodological change.",
+   "sec": "GDP deflator - ratio, comprehensiveness, purchasing power  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding sectoral GDP deflators in the estimates for 2025–26:\n1. The agricultural GDP deflator grew fastest.\n2. The services deflator grew faster than the industry deflator.\n3. The manufacturing deflator grew faster than the agricultural deflator.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The order was agriculture, services, industry and manufacturing. Therefore, statements 1 and 2 are correct, while statement 3 is false.",
+   "ty": "statements",
+   "tq": "Arrange sectoral trends and identify the reversed comparison.",
+   "sec": "GDP deflator - ratio, comprehensiveness, purchasing power  [APPSC]"
+  },
+  {
+   "s": "The faster growth of the agricultural GDP deflator, compared with the manufacturing deflator, was associated with which of the following outcomes?",
+   "o": [
+    "Manufacturing's real share increased to more than 25%",
+    "Manufacturing's nominal share increased while its real share fell below 10%",
+    "Manufacturing's nominal share fell while its real share remained about 17–18%",
+    "Manufacturing's nominal and real shares became equal"
+   ],
+   "a": 2,
+   "x": "The difference in deflator growth caused manufacturing's nominal share to fall, while its real share remained approximately 17–18%.",
+   "ty": "comparison",
+   "tq": "Link a price-deflator trend with its stated nominal-versus-real outcome.",
+   "sec": "GDP deflator - ratio, comprehensiveness, purchasing power  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT treated as a transfer payment for purposes of national income accounting?",
+   "o": [
+    "Scholarship",
+    "Old-age pension",
+    "Commission earned on resale",
+    "Unemployment allowance"
+   ],
+   "a": 2,
+   "x": "Commission on resale is payment for a productive service and is included. Pensions, scholarships and unemployment allowances are transfer payments.",
+   "ty": "negative",
+   "tq": "Find the item involving a productive service among non-factor transfers.",
+   "sec": "Transfer payments and transfer earnings - in or out  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is excluded from national income because it is not a payment for factor services?",
+   "o": [
+    "Profit earned by an enterprise",
+    "Rent received by a landowner",
+    "Transfer earnings",
+    "Interest on a productive loan"
+   ],
+   "a": 2,
+   "x": "Transfer earnings are not payments for factor services and are therefore excluded from national income. Rent, productive interest and profit are factor incomes.",
+   "ty": "fact",
+   "tq": "Apply the factor-service test to distinguish factor income from transfers.",
+   "sec": "Transfer payments and transfer earnings - in or out  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Value added at each stage — included without counting the full value of intermediate goods again",
+    "Intermediate goods — included separately in national income to reflect all production",
+    "Second-hand sales — included as current production in national income",
+    "Interest on public debt — factor payment for current productive services"
+   ],
+   "a": 0,
+   "x": "Value added at each stage is included, while intermediate goods are excluded separately to avoid double counting. Second-hand sales and interest on public debt are also excluded in the stated accounting treatment.",
+   "ty": "negative",
+   "tq": "Use the double-counting test to reject wrongly included items.",
+   "sec": "Transfer payments and transfer earnings - in or out  [APPSC]"
+  },
+  {
+   "s": "A country's nominal GDP rises from ₹1,000 crore to ₹1,200 crore, while its price index rises from 100 to 120. What happens to its real GDP?",
+   "o": [
+    "It rises by 20 per cent",
+    "It falls by 20 per cent",
+    "It remains unchanged",
+    "It rises by 40 per cent"
+   ],
+   "a": 2,
+   "x": "The increase in nominal GDP is exactly matched by the increase in the price index from 100 to 120, so output measured at constant prices remains unchanged.",
+   "ty": "numerical",
+   "tq": "Separate the price effect from the output effect using constant-price values.",
+   "sec": "Nominal vs real GDP; personal and disposable income identities  [APPSC]"
+  },
+  {
+   "s": "Which of the following items are deducted from national income in arriving at personal income?\n1. Undistributed corporate profits\n2. Social security contributions\n3. Corporate tax\n4. Government and business transfer payments\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Undistributed corporate profits, social security contributions and corporate tax are deducted. Government and business transfer payments are added to national income in calculating personal income.",
+   "ty": "statements",
+   "tq": "Split additions from deductions in an income identity.",
+   "sec": "Nominal vs real GDP; personal and disposable income identities  [APPSC]"
+  },
+  {
+   "s": "Personal disposable income is obtained from personal income by deducting:",
+   "o": [
+    "Undistributed corporate profits and social security contributions",
+    "Government and business transfer payments",
+    "Only corporate tax",
+    "Personal direct taxes and non-tax payments such as fines and fees"
+   ],
+   "a": 3,
+   "x": "Personal disposable income equals personal income minus personal direct taxes and non-tax payments such as fines and fees.",
+   "ty": "fact",
+   "tq": "Identify the final deductions in the personal-income identity.",
+   "sec": "Nominal vs real GDP; personal and disposable income identities  [APPSC]"
+  },
+  {
+   "s": "If national disposable income is ₹800 crore and consumption expenditure is ₹650 crore, national savings will be:",
+   "o": [
+    "₹100 crore",
+    "₹150 crore",
+    "₹250 crore",
+    "₹1,450 crore"
+   ],
+   "a": 1,
+   "x": "National savings equals national disposable income minus consumption: ₹800 crore − ₹650 crore = ₹150 crore.",
+   "ty": "numerical",
+   "tq": "Apply the savings identity directly.",
+   "sec": "Nominal vs real GDP; personal and disposable income identities  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements correctly distinguishes nominal GDP from real GDP?",
+   "o": [
+    "Real GDP includes inflation, whereas nominal GDP removes it",
+    "Nominal GDP uses current prices, whereas real GDP values output at base-year prices",
+    "Nominal GDP uses constant prices, whereas real GDP uses current prices",
+    "Both nominal and real GDP use only current-year prices"
+   ],
+   "a": 1,
+   "x": "Nominal GDP is measured at current prices and includes price changes. Real GDP is measured at constant, base-year prices and removes the effect of inflation.",
+   "ty": "confusable",
+   "tq": "Discriminate between the paired terms current prices and constant prices.",
+   "sec": "Nominal vs real GDP; personal and disposable income identities  [APPSC]"
+  },
+  {
+   "s": "The base year presently used for the real-value comparison in the national accounts is:",
+   "o": [
+    "2020–21",
+    "2011–12",
+    "2022–23",
+    "2004–05"
+   ],
+   "a": 2,
+   "x": "The current base year stated for the national accounts is 2022–23; 2011–12 was the earlier base year.",
+   "ty": "fact",
+   "tq": "Test the latest base-year change against the earlier base year.",
+   "sec": "Nominal vs real GDP; personal and disposable income identities  [APPSC]"
+  },
+  {
+   "s": "According to the estimates for 2025–26, which pair correctly represents nominal and real GDP growth?",
+   "o": [
+    "Nominal growth 7.4 per cent; real growth 8.0 per cent",
+    "Nominal growth 7.4 per cent; real growth 7.4 per cent",
+    "Nominal growth 8.0 per cent; real growth 8.0 per cent",
+    "Nominal growth 8.0 per cent; real growth 7.4 per cent"
+   ],
+   "a": 3,
+   "x": "The estimates placed nominal GDP growth at 8.0 per cent and real GDP growth at 7.4 per cent. The difference broadly reflects inflation.",
+   "ty": "numerical",
+   "tq": "Compare current-price and constant-price growth figures in ascending numerical choices.",
+   "sec": "Nominal vs real GDP; personal and disposable income identities  [APPSC]"
+  },
+  {
+   "s": "Purchasing power parity comparisons of GDP are based on:",
+   "o": [
+    "The value of a country's exports converted at the annual inflation rate",
+    "The gold content of each country's currency",
+    "A common basket of goods priced at each country's own prices",
+    "Only the official market exchange rate"
+   ],
+   "a": 2,
+   "x": "PPP prices a common basket using prices prevailing in each country, thereby removing differences in price levels.",
+   "ty": "application",
+   "tq": "Identify the underlying basis of a comparative economic measure.",
+   "sec": "PPP exchange rates - basis, PPP vs market rate  [other exams]"
+  },
+  {
+   "s": "Which one of the following correctly identifies the agencies associated with purchasing power parity estimation?",
+   "o": [
+    "IMF as the global implementing agency and RBI as India's nodal agency",
+    "UNDP as the global implementing agency and NITI Aayog as India's nodal agency",
+    "World Bank as the global implementing agency and NSO as India's nodal agency",
+    "WTO as the global implementing agency and CSO as India's nodal agency"
+   ],
+   "a": 2,
+   "x": "PPP estimates are made under the International Comparison Program of the UNSD, with the World Bank as global implementing agency and the NSO as India's nodal agency.",
+   "ty": "match",
+   "tq": "Match the international programme with the correct implementing and nodal agencies.",
+   "sec": "PPP exchange rates - basis, PPP vs market rate  [other exams]"
+  },
+  {
+   "s": "Arrange the following positions of India in the stated GDP rankings in the correct order from lower rank number to higher rank number:\nA. PPP GDP position after the United States and China\nB. Nominal GDP position after overtaking Japan\nC. Nominal GDP position before overtaking Japan\nD. PPP GDP position before the United States and China",
+   "o": [
+    "B, A, C, D",
+    "A, B, D, C",
+    "C, D, B, A",
+    "D, A, B, C"
+   ],
+   "a": 0,
+   "x": "India's stated current positions are fourth in nominal GDP after overtaking Japan and third in PPP GDP after the United States and China. Thus the ranking order is B, A; the remaining descriptions precede those positions as framed.",
+   "ty": "chronology",
+   "tq": "Use the explicit ranking changes and the relative order of the stated positions.",
+   "sec": "PPP exchange rates - basis, PPP vs market rate  [other exams]"
+  },
+  {
+   "s": "Which one of the following correctly states India's GDP positions and approximate nominal GDP value mentioned for 2025?",
+   "o": [
+    "Second in nominal GDP at about USD 4.18 trillion and third in PPP GDP",
+    "Fourth in nominal GDP at about USD 4.18 trillion and third in PPP GDP",
+    "Third in nominal GDP at about USD 4.18 trillion and fourth in PPP GDP",
+    "Fourth in nominal GDP at about USD 2.18 trillion and second in PPP GDP"
+   ],
+   "a": 1,
+   "x": "India was stated to be fourth in nominal GDP, at approximately USD 4.18 trillion, and third in PPP GDP after the USA and China.",
+   "ty": "comparison",
+   "tq": "Keep nominal-exchange-rate and PPP rankings separate while checking the numerical value.",
+   "sec": "PPP exchange rates - basis, PPP vs market rate  [other exams]"
+  },
+  {
+   "s": "India's PPP-based GDP is much larger than its GDP measured at the market exchange rate primarily because:",
+   "o": [
+    "Market exchange rates include transfer payments while PPP excludes them",
+    "India has higher domestic price levels than the United States and China",
+    "Prices are lower in India, so the same domestic output has greater purchasing power when compared internationally",
+    "PPP excludes services from GDP measurement"
+   ],
+   "a": 2,
+   "x": "Lower prices in India make its output larger when valued using purchasing power parity than when converted at market exchange rates.",
+   "ty": "application",
+   "tq": "Explain the direction of the PPP–market-rate difference through relative price levels.",
+   "sec": "PPP exchange rates - basis, PPP vs market rate  [other exams]"
+  }
+ ]
+}

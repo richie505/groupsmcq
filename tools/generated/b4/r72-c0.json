@@ -1,0 +1,527 @@
+{
+ "book": 4,
+ "row": 72,
+ "chunk": 0,
+ "section": "Human development - concept, HDI components and India's position",
+ "subsections": [
+  "HDI dimensions and indicators - included and excluded, goalposts, calculation",
+  "India's HDI rank, value, category, and neighbours",
+  "Human Development Reports - UNDP, first report, Mahbub ul Haq and Amartya Sen",
+  "Global comparison - life expectancy, literacy, overall HDI",
+  "Related indices - IHDI, GDI, GII, MPI and India's position",
+  "National Human Development Reports of India - editions and state rankings"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Match List-I with List-II regarding the dimensions and indicators of the Human Development Index.\n\nList-I (Dimension)\nA. A long and healthy life\nB. Knowledge\nC. A decent standard of living\n\nList-II (Indicator)\n1. GNI per capita at purchasing power parity\n2. Life expectancy at birth\n3. Mean years of schooling and expected years of schooling\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "A-2, B-3, C-1",
+    "A-3, B-2, C-1",
+    "A-2, B-1, C-3",
+    "A-1, B-3, C-2"
+   ],
+   "a": 0,
+   "x": "Life expectancy at birth represents a long and healthy life, years of schooling represent knowledge, and GNI per capita represents a decent standard of living.",
+   "ty": "match",
+   "tq": "Start from the sure pair and eliminate codes with swapped indicators.",
+   "sec": "HDI dimensions and indicators - included and excluded, goalposts, calculation"
+  },
+  {
+   "s": "Which one of the following correctly represents the goalposts used for mean years of schooling and expected years of schooling in HDI calculation?",
+   "o": [
+    "MYS 0–18 years and EYS 0–15 years",
+    "MYS 0–15 years and EYS 0–18 years",
+    "MYS 5–15 years and EYS 5–18 years",
+    "MYS 0–12 years and EYS 0–15 years"
+   ],
+   "a": 1,
+   "x": "The goalposts are 0–15 years for mean years of schooling and 0–18 years for expected years of schooling.",
+   "ty": "numerical",
+   "tq": "Distinguish the two closely related education indicators by their numerical ranges.",
+   "sec": "HDI dimensions and indicators - included and excluded, goalposts, calculation"
+  },
+  {
+   "s": "If the actual value of an HDI indicator is 50, with a minimum goalpost of 20 and a maximum goalpost of 80, the dimension index will be:",
+   "o": [
+    "0.40",
+    "0.50",
+    "0.60",
+    "0.75"
+   ],
+   "a": 1,
+   "x": "The dimension index is calculated as (actual value − minimum value)/(maximum value − minimum value), which is (50−20)/(80−20) = 0.50.",
+   "ty": "application",
+   "tq": "Apply the normalized-index formula rather than recalling the formula mechanically.",
+   "sec": "HDI dimensions and indicators - included and excluded, goalposts, calculation"
+  },
+  {
+   "s": "Why is income entered as a logarithm in the calculation of the Human Development Index?",
+   "o": [
+    "Because income is measured only in nominal dollars",
+    "Because the importance of additional income declines as income rises",
+    "To give greater weight to very high incomes",
+    "To exclude purchasing power parity from the calculation"
+   ],
+   "a": 1,
+   "x": "The logarithmic transformation reflects diminishing returns: additional income contributes progressively less to human development as income rises.",
+   "ty": "fact",
+   "tq": "Identify the stated cause behind a methodological choice.",
+   "sec": "HDI dimensions and indicators - included and excluded, goalposts, calculation"
+  },
+  {
+   "s": "The $75,000 cap in the income dimension of the HDI primarily prevents:",
+   "o": [
+    "Low-income countries from being included in the index",
+    "Education indicators from entering the index",
+    "Very high incomes from dominating the index",
+    "Purchasing power parity from affecting income values"
+   ],
+   "a": 2,
+   "x": "The income cap prevents exceptionally high incomes from disproportionately influencing the overall HDI.",
+   "ty": "fact",
+   "tq": "Link a numerical ceiling with its stated purpose.",
+   "sec": "HDI dimensions and indicators - included and excluded, goalposts, calculation"
+  },
+  {
+   "s": "Which one of the following statements regarding the construction of the HDI is correct?",
+   "o": [
+    "The HDI is the geometric mean of the three dimension indices.",
+    "The HDI is the arithmetic mean of the three dimension indices.",
+    "The HDI is based only on the income and health indices.",
+    "The HDI uses the literacy rate instead of years of schooling after 2010."
+   ],
+   "a": 0,
+   "x": "The HDI is calculated as the geometric mean of the three dimension indices. The geometric mean replaced the arithmetic mean in 2010.",
+   "ty": "fact",
+   "tq": "Use the exact technical term and reject reversed methodological statements.",
+   "sec": "HDI dimensions and indicators - included and excluded, goalposts, calculation"
+  },
+  {
+   "s": "Consider the following statements regarding changes introduced in the HDI methodology in 2010:\n1. The geometric mean replaced the arithmetic mean.\n2. Mean years of schooling and expected years of schooling replaced literacy and gross enrolment.\n3. Literacy and gross enrolment continue to be the principal education indicators in the HDI.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because literacy and gross enrolment were replaced by mean years of schooling and expected years of schooling in 2010.",
+   "ty": "statements",
+   "tq": "Find the one statement that reverses a documented methodological change.",
+   "sec": "HDI dimensions and indicators - included and excluded, goalposts, calculation"
+  },
+  {
+   "s": "A country with an HDI value of 0.675 belongs to which category of human development?",
+   "o": [
+    "Very high human development",
+    "Medium human development",
+    "Low human development",
+    "High human development"
+   ],
+   "a": 1,
+   "x": "The medium human development category extends from 0.550 to 0.699. High human development begins at 0.700.",
+   "ty": "numerical",
+   "tq": "Place the given value within the exact category interval.",
+   "sec": "HDI dimensions and indicators - included and excluded, goalposts, calculation"
+  },
+  {
+   "s": "The Human Development Report 2025 placed India at which position among countries and territories?",
+   "o": [
+    "135th among 193",
+    "130th among 193",
+    "130th among 189",
+    "129th among 191"
+   ],
+   "a": 1,
+   "x": "India was ranked 130th among 193 countries and territories in the Human Development Report 2025.",
+   "ty": "numerical",
+   "tq": "Pair the rank with the correct report coverage instead of remembering the rank alone.",
+   "sec": "India's HDI rank, value, category, and neighbours"
+  },
+  {
+   "s": "India's HDI value for 2023, as reported in the Human Development Report 2025, was:",
+   "o": [
+    "0.633",
+    "0.676",
+    "0.685",
+    "0.700"
+   ],
+   "a": 2,
+   "x": "India's HDI value was 0.685 for 2023; its value for 2022 was 0.676.",
+   "ty": "numerical",
+   "tq": "Separate successive-year values by focusing on the year attached to the figure.",
+   "sec": "India's HDI rank, value, category, and neighbours"
+  },
+  {
+   "s": "Which one of the following correctly states India's HDI-related indicators for 2023 in the Human Development Report 2025?",
+   "o": [
+    "Life expectancy 72 years, expected schooling 13 years and GNI per capita $9,046.76 PPP",
+    "Life expectancy 70 years, expected schooling 15 years and GNI per capita $8,046.76 PPP",
+    "Life expectancy 72 years, expected schooling 15 years and GNI per capita $9,046.76 PPP",
+    "Life expectancy 75 years, expected schooling 13 years and GNI per capita $10,046.76 PPP"
+   ],
+   "a": 0,
+   "x": "The reported figures are life expectancy of 72 years, expected years of schooling of 13 years and GNI per capita of $9,046.76 at PPP.",
+   "ty": "match",
+   "tq": "Check the complete combination rather than accepting a partly correct option.",
+   "sec": "India's HDI rank, value, category, and neighbours"
+  },
+  {
+   "s": "Which sequence correctly shows the upward trend in India's HDI value mentioned for the specified years?",
+   "o": [
+    "0.633 (2004) → 0.514 (2021) → 0.685 (2023)",
+    "0.514 (2004) → 0.633 (2021) → 0.685 (2023)",
+    "0.514 (2004) → 0.685 (2021) → 0.633 (2023)",
+    "0.685 (2004) → 0.633 (2021) → 0.514 (2023)"
+   ],
+   "a": 1,
+   "x": "India's HDI value increased from 0.514 in 2004 to 0.633 in 2021 and then to 0.685 in 2023.",
+   "ty": "chronology",
+   "tq": "Arrange the figures by year before checking the direction of the trend.",
+   "sec": "India's HDI rank, value, category, and neighbours"
+  },
+  {
+   "s": "Which one of the following groups consists only of countries that had a better HDI performance than India in the cited comparison?",
+   "o": [
+    "Myanmar, Bangladesh and Pakistan",
+    "China, Sri Lanka and Bhutan",
+    "Bangladesh, Nepal and Myanmar",
+    "Nepal, Pakistan and Bhutan"
+   ],
+   "a": 1,
+   "x": "China, Sri Lanka and Bhutan were listed above India, with ranks 78, 89 and 125 respectively. Bangladesh had the same rank of 130 in the cited comparison.",
+   "ty": "fact",
+   "tq": "Use group elimination to identify the set containing only higher-ranked countries.",
+   "sec": "India's HDI rank, value, category, and neighbours"
+  },
+  {
+   "s": "Among India's neighbouring countries, which one is specifically identified as the neighbour that performs better than India in human development?",
+   "o": [
+    "Pakistan",
+    "Bangladesh",
+    "Sri Lanka",
+    "Nepal"
+   ],
+   "a": 2,
+   "x": "Sri Lanka is identified as the neighbouring country that performs better than India in human development. Nepal, Myanmar and Pakistan are below India in the cited comparison.",
+   "ty": "confusable",
+   "tq": "Separate the better-performing neighbour from countries placed below India.",
+   "sec": "India's HDI rank, value, category, and neighbours"
+  },
+  {
+   "s": "Which of the following is NOT identified as a persistent weakness of India's human development performance in the Human Development Report 2025?",
+   "o": [
+    "Life expectancy of 72 years",
+    "Gender inequality",
+    "Income inequality",
+    "Low educational attainment reflected in expected years of schooling"
+   ],
+   "a": 0,
+   "x": "Gender inequality and income inequality are identified as persistent weaknesses. Life expectancy of 72 years is a reported indicator, not a weakness described in that statement.",
+   "ty": "negative",
+   "tq": "Find the option that is a reported indicator rather than a stated weakness.",
+   "sec": "India's HDI rank, value, category, and neighbours"
+  },
+  {
+   "s": "The 5+3+3+4 structure of the National Education Policy 2020 implies an expected years of schooling of:",
+   "o": [
+    "12 years",
+    "13 years",
+    "15 years",
+    "18 years"
+   ],
+   "a": 2,
+   "x": "The 5+3+3+4 structure totals 15 years and therefore implies an expected years of schooling of 15 years.",
+   "ty": "numerical",
+   "tq": "Convert the component structure into a total before selecting the value.",
+   "sec": "India's HDI rank, value, category, and neighbours"
+  },
+  {
+   "s": "The Human Development Report 2018 ranked how many countries?",
+   "o": [
+    "169",
+    "189",
+    "191",
+    "193"
+   ],
+   "a": 1,
+   "x": "The Human Development Report 2018 ranked 189 countries.",
+   "ty": "numerical",
+   "tq": "Distinguish the coverage of different report editions by attaching the number to the report year.",
+   "sec": "India's HDI rank, value, category, and neighbours"
+  },
+  {
+   "s": "The Human Development Reports are published by:",
+   "o": [
+    "The International Monetary Fund",
+    "The United Nations Environment Programme",
+    "The United Nations Development Programme",
+    "The World Bank"
+   ],
+   "a": 2,
+   "x": "Human Development Reports are published by the United Nations Development Programme, or UNDP.",
+   "ty": "fact",
+   "tq": "Apply the who-publishes-what method to distinguish neighbouring international organisations.",
+   "sec": "Human Development Reports - UNDP, first report, Mahbub ul Haq and Amartya Sen"
+  },
+  {
+   "s": "The first Human Development Report was published in:",
+   "o": [
+    "1985",
+    "1990",
+    "1995",
+    "2001"
+   ],
+   "a": 1,
+   "x": "The first Human Development Report was issued by UNDP in 1990.",
+   "ty": "numerical",
+   "tq": "Use a direct date-recall frame for a landmark publication.",
+   "sec": "Human Development Reports - UNDP, first report, Mahbub ul Haq and Amartya Sen"
+  },
+  {
+   "s": "Who conceived the Human Development Report framework in association with Amartya Sen?",
+   "o": [
+    "Simon Kuznets",
+    "Arthur Lewis",
+    "Paul Krugman",
+    "Mahbub ul Haq"
+   ],
+   "a": 3,
+   "x": "The framework was conceived by Pakistani economist Mahbub ul Haq with Amartya Sen.",
+   "ty": "fact",
+   "tq": "Match the intellectual contribution with the correct economist.",
+   "sec": "Human Development Reports - UNDP, first report, Mahbub ul Haq and Amartya Sen"
+  },
+  {
+   "s": "Consider the following statements about the human development approach:\n1. Amartya Sen received the Nobel Prize in Economics in 1998.\n2. Development is viewed as the enlargement of human choices.\n3. National income alone is treated as the complete test of development.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the approach evaluates people and their capabilities rather than national income alone.",
+   "ty": "statements",
+   "tq": "Reject the extreme reduction of a multidimensional approach to a single income measure.",
+   "sec": "Human Development Reports - UNDP, first report, Mahbub ul Haq and Amartya Sen"
+  },
+  {
+   "s": "Which comparison illustrates that countries with similar or differing income levels may achieve different human development outcomes?",
+   "o": [
+    "The comparison establishes that income is excluded from the HDI",
+    "Malaysia has a higher HDI than Chile despite Chile having higher income",
+    "Chile has a higher HDI than Malaysia despite Malaysia having higher income",
+    "Chile and Malaysia necessarily have identical HDI values because income is higher in Malaysia"
+   ],
+   "a": 2,
+   "x": "Chile is cited as having a higher HDI than Malaysia even though Malaysia has the higher income, showing that income alone does not determine human development outcomes.",
+   "ty": "comparison",
+   "tq": "Focus on the reversed income-versus-HDI comparison.",
+   "sec": "Human Development Reports - UNDP, first report, Mahbub ul Haq and Amartya Sen"
+  },
+  {
+   "s": "Which country has the highest life expectancy according to the stated global comparison?",
+   "o": [
+    "Chile",
+    "Japan",
+    "India",
+    "Malaysia"
+   ],
+   "a": 1,
+   "x": "Japan is identified as having the highest life expectancy in the stated comparison.",
+   "ty": "fact",
+   "tq": "Use direct country-indicator association without confusing it with HDI rank.",
+   "sec": "Global comparison - life expectancy, literacy, overall HDI"
+  },
+  {
+   "s": "Which one of the following correctly describes the treatment of literacy in the HDI?",
+   "o": [
+    "Literacy was replaced by years of schooling in 2010.",
+    "Literacy was replaced by infant mortality in 2010.",
+    "Literacy was added as a new indicator in 2010.",
+    "Literacy remains the sole education indicator in the current HDI."
+   ],
+   "a": 0,
+   "x": "The HDI no longer uses literacy as its education measure; it was replaced by years of schooling in 2010.",
+   "ty": "confusable",
+   "tq": "Distinguish the former education indicator from the indicators currently used.",
+   "sec": "Global comparison - life expectancy, literacy, overall HDI"
+  },
+  {
+   "s": "The Inequality-adjusted Human Development Index differs from the HDI because it:",
+   "o": [
+    "Measures only gender inequality",
+    "Adds military expenditure to the HDI",
+    "Replaces health indicators with poverty indicators",
+    "Discounts the HDI for inequality in each dimension"
+   ],
+   "a": 3,
+   "x": "The IHDI discounts the HDI for inequality in the distribution of achievements in each dimension.",
+   "ty": "fact",
+   "tq": "Identify the defining operation in the name of the index.",
+   "sec": "Related indices - IHDI, GDI, GII, MPI and India's position"
+  },
+  {
+   "s": "Under what condition will the IHDI be equal to the HDI?",
+   "o": [
+    "When the country has a low HDI",
+    "When there is no inequality",
+    "When income is the highest among all countries",
+    "When gender inequality is exactly one"
+   ],
+   "a": 1,
+   "x": "The IHDI equals the HDI only when there is no inequality; otherwise, the IHDI is lower than the HDI.",
+   "ty": "application",
+   "tq": "Apply the equality condition rather than confusing it with a high-value condition.",
+   "sec": "Related indices - IHDI, GDI, GII, MPI and India's position"
+  },
+  {
+   "s": "Match the following indices with their principal measures.\n\nList-I (Index)\nA. GDI\nB. GII\nC. MPI\nD. PQLI\n\nList-II (Measure)\n1. Deprivations in health, education and living standards\n2. Female-to-male HDI ratio\n3. Literacy, infant mortality and life expectancy\n4. Reproductive health, empowerment and labour market\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "A-2, B-4, C-1, D-3",
+    "A-4, B-2, C-3, D-1",
+    "A-2, B-1, C-4, D-3",
+    "A-3, B-4, C-1, D-2"
+   ],
+   "a": 0,
+   "x": "GDI is the female-to-male HDI ratio; GII covers reproductive health, empowerment and labour market; MPI covers multidimensional deprivations; and PQLI uses literacy, infant mortality and life expectancy.",
+   "ty": "match",
+   "tq": "Start with the distinctive ratio and pre-HDI pairs, then complete the remaining matches.",
+   "sec": "Related indices - IHDI, GDI, GII, MPI and India's position"
+  },
+  {
+   "s": "A GDI value close to 1 indicates:",
+   "o": [
+    "A very high level of income inequality",
+    "The worst possible gender inequality",
+    "Complete deprivation in all MPI dimensions",
+    "Near parity between female and male human development"
+   ],
+   "a": 3,
+   "x": "The Gender Development Index is the ratio of female to male HDI; a value close to 1 indicates parity.",
+   "ty": "fact",
+   "tq": "Do not confuse the GDI ratio scale with the GII inequality scale.",
+   "sec": "Related indices - IHDI, GDI, GII, MPI and India's position"
+  },
+  {
+   "s": "Which one of the following correctly describes the Gender Inequality Index?",
+   "o": [
+    "It measures reproductive health, empowerment and labour market participation, with 0 denoting equality and 1 the worst outcome.",
+    "It measures literacy, infant mortality and life expectancy, with 1 denoting parity.",
+    "It measures only the female-to-male HDI ratio, with 1 denoting the worst outcome.",
+    "It measures health, education and living-standard deprivations, with 0 denoting equality."
+   ],
+   "a": 0,
+   "x": "The GII covers reproductive health, empowerment and the labour market. Its scale runs from 0, representing equality, to 1, representing the worst outcome.",
+   "ty": "confusable",
+   "tq": "Separate the GII scale and components from the GDI ratio and the MPI dimensions.",
+   "sec": "Related indices - IHDI, GDI, GII, MPI and India's position"
+  },
+  {
+   "s": "The Human Poverty Index was the forerunner of which index?",
+   "o": [
+    "IHDI",
+    "GDI",
+    "MPI",
+    "GII"
+   ],
+   "a": 2,
+   "x": "The Human Poverty Index preceded and served as the forerunner of the Multidimensional Poverty Index.",
+   "ty": "fact",
+   "tq": "Test the historical predecessor relationship between closely named indices.",
+   "sec": "Related indices - IHDI, GDI, GII, MPI and India's position"
+  },
+  {
+   "s": "India's GII rank lags behind its HDI rank primarily because of:",
+   "o": [
+    "High life expectancy and high expected schooling",
+    "Low female labour-force participation and low political representation",
+    "The absence of income in the HDI",
+    "The use of logarithms in the income index"
+   ],
+   "a": 1,
+   "x": "India's lower female labour-force participation and low political representation contribute to its weaker GII position relative to its HDI rank.",
+   "ty": "application",
+   "tq": "Connect the index result with the gender-related causes specified for it.",
+   "sec": "Related indices - IHDI, GDI, GII, MPI and India's position"
+  },
+  {
+   "s": "The first National Human Development Report of India was published in:",
+   "o": [
+    "1990",
+    "1995",
+    "2001",
+    "2011"
+   ],
+   "a": 2,
+   "x": "India's first National Human Development Report was published in 2001 by the Planning Commission.",
+   "ty": "numerical",
+   "tq": "Distinguish the first national report from the first state report and the second national edition.",
+   "sec": "National Human Development Reports of India - editions and state rankings"
+  },
+  {
+   "s": "Which one of the following correctly matches the National Human Development Report with its year?",
+   "o": [
+    "First NHDR—1995; Second NHDR—2001",
+    "First NHDR—2001; Second NHDR—2011",
+    "First NHDR—2001; Second NHDR—2015",
+    "First NHDR—1990; Second NHDR—2011"
+   ],
+   "a": 1,
+   "x": "The first NHDR was published in 2001 and the second, titled India Human Development Report, was published in 2011.",
+   "ty": "match",
+   "tq": "Match successive editions with their years and reject the state-report date.",
+   "sec": "National Human Development Reports of India - editions and state rankings"
+  },
+  {
+   "s": "Which State ranked first in both the first and second National Human Development Reports of India?",
+   "o": [
+    "Kerala",
+    "Tamil Nadu",
+    "Madhya Pradesh",
+    "Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "Kerala was ranked first in both the 2001 and 2011 national human development reports.",
+   "ty": "fact",
+   "tq": "Identify the repeated top performer across two editions.",
+   "sec": "National Human Development Reports of India - editions and state rankings"
+  },
+  {
+   "s": "The first State Human Development Report in India was prepared by:",
+   "o": [
+    "Kerala in 2001",
+    "Andhra Pradesh in 2011",
+    "Madhya Pradesh in 1995",
+    "Tamil Nadu in 1990"
+   ],
+   "a": 2,
+   "x": "Madhya Pradesh had the distinction of producing the first State Human Development Report in 1995.",
+   "ty": "fact",
+   "tq": "Distinguish the first state-level report from the first national report.",
+   "sec": "National Human Development Reports of India - editions and state rankings"
+  },
+  {
+   "s": "What do district-level Human Development Indices generally reveal about spatial disparities in India?",
+   "o": [
+    "District HDIs eliminate all regional differences.",
+    "Disparities within States are sharper than disparities between States.",
+    "District HDIs measure only differences in income.",
+    "Disparities between States are always greater than disparities within States."
+   ],
+   "a": 1,
+   "x": "District HDIs prepared by NITI Aayog and State planning bodies show that within-State disparities can be sharper than disparities between States.",
+   "ty": "comparison",
+   "tq": "Read the direction of the within-versus-between comparison carefully.",
+   "sec": "National Human Development Reports of India - editions and state rankings"
+  }
+ ]
+}

@@ -1,0 +1,610 @@
+{
+ "book": 3,
+ "row": 38,
+ "chunk": 0,
+ "section": "Social security and DBT - PM-JDY, JAM trinity, Aadhaar-enabled transfers, pension schemes",
+ "subsections": [
+  "Pension schemes → eligibility, entry age, contribution",
+  "Insurance schemes → premium, cover, age band, enrolments",
+  "DBT - launch, coverage, PAHAL and Ujjwala",
+  "JAM trinity and India Stack",
+  "Aadhaar-enabled services and the Puttaswamy judgement"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 44,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Atal Pension Yojana, launched on 9 May 2015, primarily targets which category of persons?",
+   "o": [
+    "Small and marginal farmers between 40 and 60 years",
+    "Central Government employees above 60 years",
+    "Organised-sector workers below 18 years",
+    "Unorganised-sector workers in the age group of 18–40 years"
+   ],
+   "a": 3,
+   "x": "Atal Pension Yojana targets workers in the unorganised sector who enter the scheme between 18 and 40 years of age.",
+   "ty": "fact",
+   "tq": "Directly identify the target group and entry age of the scheme.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "Under Atal Pension Yojana, the Government's co-contribution for eligible early subscribers was—",
+   "o": [
+    "The entire subscriber contribution for three years",
+    "A fixed ₹5,000 per year for five years",
+    "50% of the subscriber's contribution or ₹1,000 per year, whichever was lower, for five years",
+    "50% of the subscriber's contribution without any monetary ceiling for ten years"
+   ],
+   "a": 2,
+   "x": "For eligible persons joining before 31 December 2015, the Government contributed 50% of the subscriber's contribution or ₹1,000 per year, whichever was lower, for five years.",
+   "ty": "numerical",
+   "tq": "Split the option by checking both the percentage and the monetary ceiling.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly states the pension benefit under Atal Pension Yojana?",
+   "o": [
+    "₹3,000 per month from the age of 55 years",
+    "₹1,000 per year after the age of 60 years",
+    "₹1,000 to ₹5,000 per month from the age of 60 years",
+    "₹5,000 per month from the age of 58 years"
+   ],
+   "a": 2,
+   "x": "Atal Pension Yojana provides a guaranteed pension ranging from ₹1,000 to ₹5,000 per month at the age of 60, depending on the contribution.",
+   "ty": "fact",
+   "tq": "Use the benefit range and commencement age to eliminate altered figures.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding PM Shram Yogi Maan-dhan (PM-SYM):\n1. It covers unorganised workers aged 18–40 years.\n2. The monthly income limit is ₹15,000.\n3. The subscriber must already be covered under NPS, ESIC or EPFO.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "PM-SYM covers unorganised workers aged 18–40 years with monthly income up to ₹15,000. It excludes persons covered under NPS, ESIC or EPFO, making statement 3 false.",
+   "ty": "statements",
+   "tq": "Find the exclusion hidden in statement 3 by reversing the eligibility condition.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "The contribution structure of PM Shram Yogi Maan-dhan is based on—",
+   "o": [
+    "Equal matching contributions by the worker and the Central Government",
+    "Voluntary contributions without any Government matching",
+    "Contribution only by the State Government",
+    "A fixed contribution made entirely by the employer"
+   ],
+   "a": 0,
+   "x": "PM-SYM follows a matching contribution structure in which the worker and the Central Government contribute equal amounts.",
+   "ty": "fact",
+   "tq": "Identify the authority responsible for the matching contribution.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "PM Kisan Maan-dhan is intended primarily for—",
+   "o": [
+    "Large farmers between 40 and 60 years",
+    "Agricultural labourers below 18 years",
+    "Small and marginal farmers entering between 18 and 40 years",
+    "All farmers above 60 years"
+   ],
+   "a": 2,
+   "x": "PM Kisan Maan-dhan targets small and marginal farmers who join between 18 and 40 years of age.",
+   "ty": "fact",
+   "tq": "Match the scheme with its specific occupational beneficiary group.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "Which statement correctly describes the contribution under PM Kisan Maan-dhan?",
+   "o": [
+    "Every farmer contributes exactly ₹500 per month without Government support.",
+    "The contribution is determined by entry age, is below ₹100 per month, and is matched by the Centre.",
+    "The contribution is determined only by landholding size and is paid by the State Government.",
+    "The Centre contributes, but the farmer does not make any contribution."
+   ],
+   "a": 1,
+   "x": "Under PM Kisan Maan-dhan, the farmer's contribution depends on entry age, is below ₹100 per month, and is matched by the Central Government.",
+   "ty": "numerical",
+   "tq": "Check the combined conditions of age-linked contribution, amount and matching support.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "The pension payable under PM Kisan Maan-dhan at the age of 60 years is—",
+   "o": [
+    "₹1,000 per month",
+    "₹5,000 per month",
+    "₹3,000 per month",
+    "₹2,000 per month"
+   ],
+   "a": 2,
+   "x": "PM Kisan Maan-dhan provides a pension of ₹3,000 per month from the age of 60 years.",
+   "ty": "numerical",
+   "tq": "Test the scheme-specific benefit against nearby pension amounts.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the Unified Pension Scheme?",
+   "o": [
+    "It is compulsory for all private-sector employees and is market-linked.",
+    "It is restricted to small and marginal farmers.",
+    "It provides only an insurance cover without pension benefits.",
+    "It is an option for Central Government employees covered under NPS and is Government-backed."
+   ],
+   "a": 3,
+   "x": "The Unified Pension Scheme is a Government-backed option for Central Government employees under NPS.",
+   "ty": "fact",
+   "tq": "Identify the beneficiary category and institutional linkage.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "Under the Unified Pension Scheme, an assured pension equal to what proportion of average basic pay is available after 25 years of service?",
+   "o": [
+    "40% of the average basic pay of the last 12 months",
+    "50% of the average basic pay of the last 12 months",
+    "60% of the average basic pay of the last 12 months",
+    "25% of the average basic pay of the last 12 months"
+   ],
+   "a": 1,
+   "x": "The Unified Pension Scheme assures 50% of the average basic pay of the last 12 months for 25 years of service.",
+   "ty": "numerical",
+   "tq": "Use the service-period and percentage figures together to identify the precise provision.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements about the National Pension System is correct?\n1. It is based on defined contribution and is market-linked.\n2. It covers Government, private and unorganised-sector participants.\n3. Minors may participate through NPS Vatsalya.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "NPS is a defined-contribution, market-linked system open to Government, private and unorganised-sector participants; minors can participate through NPS Vatsalya.",
+   "ty": "statements",
+   "tq": "Accept the option containing all three independently supported features.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "The regulator of the National Pension System and the authority administering Atal Pension Yojana under the NPS architecture is—",
+   "o": [
+    "IRDAI",
+    "RBI",
+    "PFRDA",
+    "SEBI"
+   ],
+   "a": 2,
+   "x": "The Pension Fund Regulatory and Development Authority (PFRDA) regulates NPS and administers APY under the NPS architecture.",
+   "ty": "fact",
+   "tq": "Apply the ‘who regulates this financial product?’ method.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "The National Pension System became compulsory for Central Government civilian employees joining on or after—",
+   "o": [
+    "1 January 2008",
+    "1 January 2000",
+    "1 January 2010",
+    "1 January 2004"
+   ],
+   "a": 3,
+   "x": "NPS is compulsory for Central Government civilian employees who joined service on or after 1 January 2004.",
+   "ty": "fact",
+   "tq": "Distinguish the exact commencement date from nearby policy dates.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a feature of an NPS account?",
+   "o": [
+    "An account can be opened by one person for any third person.",
+    "It is based on defined contribution and market-linked returns.",
+    "Minors may participate through NPS Vatsalya.",
+    "It may cover Government, private and unorganised-sector participants."
+   ],
+   "a": 0,
+   "x": "An NPS account cannot be opened for a third person. The other statements describe features of NPS.",
+   "ty": "negative",
+   "tq": "Find the statement that reverses the specific account-opening restriction.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "Atal Pension Yojana completed ten years in—",
+   "o": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "a": 2,
+   "x": "Atal Pension Yojana was launched in 2015 and completed ten years in 2025.",
+   "ty": "numerical",
+   "tq": "Calculate the anniversary from the stated launch year.",
+   "sec": "Pension schemes → eligibility, entry age, contribution  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the age band, annual premium and life cover under PMJJBY?",
+   "o": [
+    "18–50 years; ₹20; ₹1 lakh",
+    "18–50 years; ₹436; ₹2 lakh",
+    "18–59 years; ₹436; ₹1 lakh",
+    "18–70 years; ₹20; ₹2 lakh"
+   ],
+   "a": 1,
+   "x": "PMJJBY is a life insurance scheme for persons aged 18–50 years, with an annual premium of ₹436 and cover of ₹2 lakh.",
+   "ty": "comparison",
+   "tq": "Separate PMJJBY from PMSBY by comparing type, age, premium and cover.",
+   "sec": "Insurance schemes → premium, cover, age band, enrolments  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the age band, current annual premium and cover under PMSBY?",
+   "o": [
+    "18–70 years; ₹20; ₹2 lakh for death or full disability and ₹1 lakh for partial disability",
+    "18–59 years; ₹20; ₹1 lakh for all forms of disability",
+    "18–50 years; ₹436; ₹2 lakh life cover",
+    "18–70 years; ₹436; ₹5 lakh accident cover"
+   ],
+   "a": 0,
+   "x": "PMSBY is available from 18 to 70 years at ₹20 per year, providing ₹2 lakh for accidental death or full disability and ₹1 lakh for partial disability.",
+   "ty": "comparison",
+   "tq": "Check all four dimensions of the insurance table before selecting an option.",
+   "sec": "Insurance schemes → premium, cover, age band, enrolments  [APPSC]"
+  },
+  {
+   "s": "The annual premium of PMSBY was ₹12 up to—",
+   "o": [
+    "31 May 2022",
+    "31 May 2023",
+    "31 May 2021",
+    "31 May 2020"
+   ],
+   "a": 0,
+   "x": "The PMSBY premium remained ₹12 up to 31 May 2022; it was raised from 1 June 2022.",
+   "ty": "fact",
+   "tq": "Use the ‘true start, false end’ date distinction in a premium revision question.",
+   "sec": "Insurance schemes → premium, cover, age band, enrolments  [APPSC]"
+  },
+  {
+   "s": "Why was the PMSBY premium revised from 1 June 2022?",
+   "o": [
+    "Claims had exceeded premiums, and this was the first revision since 2015.",
+    "The scheme changed from accident insurance to life insurance.",
+    "The age eligibility was reduced from 70 to 50 years.",
+    "The scheme was merged with PMJJBY."
+   ],
+   "a": 0,
+   "x": "PMSBY's premium was revised from 1 June 2022 because claims exceeded premiums; it was the first revision since the scheme began in 2015.",
+   "ty": "fact",
+   "tq": "Link the policy change to its stated financial cause and timing.",
+   "sec": "Insurance schemes → premium, cover, age band, enrolments  [APPSC]"
+  },
+  {
+   "s": "Which statement correctly compares the reported enrolments under PMJJBY and PMSBY?",
+   "o": [
+    "PMJJBY had 27.33 crore and PMSBY had 57.92 crore enrolments.",
+    "PMJJBY had 57.92 crore and PMSBY had 27.33 crore enrolments.",
+    "Both schemes had 27.33 crore enrolments.",
+    "Both schemes had 57.92 crore enrolments."
+   ],
+   "a": 0,
+   "x": "The reported enrolments were 27.33 crore under PMJJBY and 57.92 crore under PMSBY.",
+   "ty": "comparison",
+   "tq": "Compare the paired figures rather than recalling either figure in isolation.",
+   "sec": "Insurance schemes → premium, cover, age band, enrolments  [APPSC]"
+  },
+  {
+   "s": "Both PMJJBY and PMSBY are linked to PMJDY accounts primarily through—",
+   "o": [
+    "Aadhaar-based loan recovery",
+    "Manual cash collection at post offices",
+    "Automatic debit of the premium from the account",
+    "Compulsory employer deductions"
+   ],
+   "a": 2,
+   "x": "Both insurance schemes are linked to PMJDY accounts through auto-debit of the applicable premium.",
+   "ty": "application",
+   "tq": "Identify the operational mechanism connecting the schemes to bank accounts.",
+   "sec": "Insurance schemes → premium, cover, age band, enrolments  [APPSC]"
+  },
+  {
+   "s": "Aam Aadmi Bima Yojana provides life and disability cover to—",
+   "o": [
+    "Urban Government employees aged 18–40 years",
+    "Only small and marginal farmers below 18 years",
+    "Rural landless households, generally in the age group of 18–59 years",
+    "All taxpayers above 60 years"
+   ],
+   "a": 2,
+   "x": "Aam Aadmi Bima Yojana is an LIC-run life and disability insurance scheme for rural landless households aged 18–59 years.",
+   "ty": "fact",
+   "tq": "Match the insurance scheme with its occupational and age-based target group.",
+   "sec": "Insurance schemes → premium, cover, age band, enrolments  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the Health Insurance Scheme for weavers is correct?\n1. It covers a weaver's family of four consisting of the self, spouse and two children.\n2. At least 50% of the weaver's income must come from handloom work.\n3. Both male and female weavers are eligible.\n4. A prescribed age cap is a criterion for eligibility.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "The scheme covers a family of four, requires at least 50% income from handloom work, and admits both male and female weavers. An age cap is not an eligibility criterion, so statement 4 is false.",
+   "ty": "statements",
+   "tq": "Locate the exception: the apparently plausible age condition is not required.",
+   "sec": "Insurance schemes → premium, cover, age band, enrolments  [APPSC]"
+  },
+  {
+   "s": "Direct Benefit Transfer was piloted on—",
+   "o": [
+    "1 January 2014",
+    "1 January 2015",
+    "1 January 2013",
+    "1 January 2012"
+   ],
+   "a": 2,
+   "x": "DBT was piloted on 1 January 2013 with seven schemes in 20 districts.",
+   "ty": "fact",
+   "tq": "Distinguish the pilot date from the later national launch of PAHAL.",
+   "sec": "DBT - launch, coverage, PAHAL and Ujjwala  [APPSC]"
+  },
+  {
+   "s": "At the pilot stage, Direct Benefit Transfer covered—",
+   "o": [
+    "5 schemes in 10 districts",
+    "10 schemes in 25 districts",
+    "20 schemes in 7 districts",
+    "7 schemes in 20 districts"
+   ],
+   "a": 3,
+   "x": "The initial DBT pilot covered seven schemes in 20 districts under UPA-II.",
+   "ty": "numerical",
+   "tq": "Check the order of the two quantities: schemes first and districts second.",
+   "sec": "DBT - launch, coverage, PAHAL and Ujjwala  [APPSC]"
+  },
+  {
+   "s": "DBT was scaled up in 2015 primarily through the use of—",
+   "o": [
+    "The National Food Security framework alone",
+    "The Green Revolution model",
+    "The JAM trinity",
+    "The Goods and Services Tax network"
+   ],
+   "a": 2,
+   "x": "After its pilot, DBT was scaled up in 2015 using the JAM trinity of Jan Dhan, Aadhaar and Mobile.",
+   "ty": "fact",
+   "tq": "Identify the institutional platform associated with the scale-up phase.",
+   "sec": "DBT - launch, coverage, PAHAL and Ujjwala  [APPSC]"
+  },
+  {
+   "s": "During FY 2024–25, DBT transferred approximately—",
+   "o": [
+    "₹6.9 lakh crore across 732 schemes",
+    "₹3.27 lakh crore across 69 schemes",
+    "₹6.9 lakh crore across 327 schemes",
+    "₹69 lakh crore across 327 schemes"
+   ],
+   "a": 2,
+   "x": "In FY 2024–25, ₹6.9 lakh crore was transferred directly through 327 schemes.",
+   "ty": "numerical",
+   "tq": "Keep the amount and scheme count paired; distractors reverse or alter one figure.",
+   "sec": "DBT - launch, coverage, PAHAL and Ujjwala  [APPSC]"
+  },
+  {
+   "s": "The estimated savings from DBT during FY 2024–25, owing to removal of ghost and duplicate beneficiaries, were—",
+   "o": [
+    "₹200–300 crore",
+    "₹20–30 lakh crore",
+    "₹2–3 lakh crore",
+    "₹2–3 thousand crore"
+   ],
+   "a": 2,
+   "x": "Removal of ghost and duplicate beneficiaries was estimated to generate savings of ₹2–3 lakh crore.",
+   "ty": "numerical",
+   "tq": "Distinguish the lakh-crore scale from smaller monetary units.",
+   "sec": "DBT - launch, coverage, PAHAL and Ujjwala  [APPSC]"
+  },
+  {
+   "s": "Which mechanism routes Aadhaar-linked DBT payments, while AePS is used for cash withdrawal at micro-ATMs?",
+   "o": [
+    "UPI; DEPA",
+    "APBS; AePS",
+    "DEPA; UPI",
+    "AePS; APBS"
+   ],
+   "a": 1,
+   "x": "The Aadhaar Payment Bridge System routes Aadhaar-linked payments, whereas the Aadhaar-enabled Payment System facilitates cash withdrawal at micro-ATMs.",
+   "ty": "confusable",
+   "tq": "Separate the payment-routing system from the cash-withdrawal service.",
+   "sec": "DBT - launch, coverage, PAHAL and Ujjwala  [APPSC]"
+  },
+  {
+   "s": "PAHAL, the DBT scheme for LPG, was launched nationally on—",
+   "o": [
+    "1 May 2016",
+    "1 January 2015",
+    "1 January 2013",
+    "1 January 2014"
+   ],
+   "a": 1,
+   "x": "PAHAL was launched nationally on 1 January 2015 and became the first application of JAM for LPG subsidy transfer.",
+   "ty": "fact",
+   "tq": "Discriminate between the DBT pilot date, PAHAL date and Ujjwala date.",
+   "sec": "DBT - launch, coverage, PAHAL and Ujjwala  [APPSC]"
+  },
+  {
+   "s": "Under PAHAL, the LPG subsidy is—",
+   "o": [
+    "Paid directly into the beneficiary's bank account",
+    "Paid only in cash through LPG distributors",
+    "Transferred to the State Government treasury without beneficiary linkage",
+    "Credited to the mobile operator's account"
+   ],
+   "a": 0,
+   "x": "PAHAL transfers the LPG subsidy directly into the beneficiary's bank account.",
+   "ty": "application",
+   "tq": "Apply the core meaning of DBT to the LPG subsidy process.",
+   "sec": "DBT - launch, coverage, PAHAL and Ujjwala  [APPSC]"
+  },
+  {
+   "s": "The principal objective of Ujjwala is to provide—",
+   "o": [
+    "Free LPG connections to women from BPL households and reduce indoor air pollution",
+    "LPG cylinders exclusively to Government employees",
+    "Free mobile phones to all rural women",
+    "Subsidised electricity connections to all urban households"
+   ],
+   "a": 0,
+   "x": "Ujjwala provides free LPG connections to women belonging to BPL households, with the objective of reducing indoor air pollution.",
+   "ty": "application",
+   "tq": "Connect the beneficiary group with the stated environmental and health objective.",
+   "sec": "DBT - launch, coverage, PAHAL and Ujjwala  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II regarding the JAM trinity.\nList-I (Component)\na. Jan Dhan\nb. Aadhaar\nc. Mobile\nList-II (Role)\ni. Communication and intimation channel\nii. Biometric identity for beneficiary verification\niii. Bank account serving as destination for funds\nChoose the correct answer:",
+   "o": [
+    "a–iii, b–ii, c–i",
+    "a–ii, b–iii, c–i",
+    "a–i, b–ii, c–iii",
+    "a–iii, b–i, c–ii"
+   ],
+   "a": 0,
+   "x": "Jan Dhan provides the bank account, Aadhaar verifies identity biometrically, and Mobile serves as the communication or intimation channel.",
+   "ty": "match",
+   "tq": "Start from the sure pair: Jan Dhan is the bank-account component.",
+   "sec": "JAM trinity and India Stack  [APPSC]"
+  },
+  {
+   "s": "The JAM trinity was first proposed in—",
+   "o": [
+    "Economic Survey 2014–15",
+    "Economic Survey 2012–13",
+    "Economic Survey 2013–14",
+    "Economic Survey 2015–16"
+   ],
+   "a": 0,
+   "x": "The JAM trinity was first proposed in the Economic Survey 2014–15.",
+   "ty": "fact",
+   "tq": "Distinguish the proposal year from the later DBT scale-up year.",
+   "sec": "JAM trinity and India Stack  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly matches the India Stack layer with its examples?\n1. Presence-less layer — Aadhaar authentication\n2. Paperless layer — e-KYC, e-Sign and DigiLocker\n3. Cashless layer — UPI and AePS\n4. Consent layer — DEPA\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four matches are correct: Aadhaar authentication is presence-less; e-KYC, e-Sign and DigiLocker are paperless; UPI and AePS are cashless; and DEPA forms the consent layer.",
+   "ty": "statements",
+   "tq": "Verify each layer-example pair before accepting the comprehensive option.",
+   "sec": "JAM trinity and India Stack  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is the correct order of the four India Stack layers as listed with their functions?",
+   "o": [
+    "Presence-less, paperless, cashless, consent",
+    "Paperless, presence-less, consent, cashless",
+    "Cashless, consent, presence-less, paperless",
+    "Consent, cashless, paperless, presence-less"
+   ],
+   "a": 0,
+   "x": "The layers are presence-less, paperless, cashless and consent, represented respectively by Aadhaar authentication; e-KYC/e-Sign/DigiLocker; UPI/AePS; and DEPA.",
+   "ty": "chronology",
+   "tq": "Use the sequence of layers and check the first and last positions.",
+   "sec": "JAM trinity and India Stack  [APPSC]"
+  },
+  {
+   "s": "Which statement about Jeevan Pramaan is correct?",
+   "o": [
+    "It enables pensioners to create a digital life certificate using Aadhaar biometrics and was launched in 2014.",
+    "It is an LPG subsidy platform launched in 2015 without Aadhaar authentication.",
+    "It is a pension contribution platform available only to minors.",
+    "It is an accident insurance scheme launched in 2014 for workers aged 18–70 years."
+   ],
+   "a": 0,
+   "x": "Jeevan Pramaan was launched in 2014 and enables pensioners to create a digital life certificate using Aadhaar biometrics.",
+   "ty": "fact",
+   "tq": "Identify the service from its distinctive function rather than its general pension association.",
+   "sec": "Aadhaar-enabled services and the Puttaswamy judgement  [APPSC]"
+  },
+  {
+   "s": "Which applications are associated with the National Social Assistance Programme in the context of digital life certification?",
+   "o": [
+    "DigiLocker and UPI app only",
+    "Digital Life Certificate App and SAMBAL app",
+    "PAHAL and Ujjwala apps",
+    "APBS and PMSBY apps"
+   ],
+   "a": 1,
+   "x": "NSAP uses the Digital Life Certificate App and the SAMBAL app.",
+   "ty": "fact",
+   "tq": "Match the welfare programme with its named digital applications.",
+   "sec": "Aadhaar-enabled services and the Puttaswamy judgement  [APPSC]"
+  },
+  {
+   "s": "Section 7 of the Aadhaar Act, 2016 permits Aadhaar to be made a condition for receiving—",
+   "o": [
+    "Membership of every cooperative society",
+    "All private-sector employment",
+    "Subsidies from the Consolidated Fund of India",
+    "Voting rights in all elections"
+   ],
+   "a": 2,
+   "x": "Section 7 of the Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016 permits Aadhaar to be required for subsidies charged to the Consolidated Fund.",
+   "ty": "fact",
+   "tq": "Use the exact statutory section and its limited welfare-related scope.",
+   "sec": "Aadhaar-enabled services and the Puttaswamy judgement  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Puttaswamy judgements:\n1. In 2017, a nine-judge Bench held privacy to be a fundamental right under Article 21.\n2. In 2018, a five-judge Bench upheld Aadhaar for welfare and subsidies under Section 7.\n3. The 2018 judgement struck down private use of Aadhaar under Section 57.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The 2017 nine-judge Bench recognised privacy under Article 21; the 2018 five-judge Bench upheld Aadhaar for welfare under Section 7 and struck down private use under Section 57.",
+   "ty": "statements",
+   "tq": "Track the two judgements separately by year, Bench strength and outcome.",
+   "sec": "Aadhaar-enabled services and the Puttaswamy judgement  [APPSC]"
+  },
+  {
+   "s": "The 2018 Aadhaar judgement was delivered by a five-judge Bench with what majority on the relevant issues?",
+   "o": [
+    "5:0",
+    "4:1",
+    "3:2",
+    "2:3"
+   ],
+   "a": 1,
+   "x": "The 2018 Aadhaar judgement was delivered by a five-judge Bench with a 4:1 majority.",
+   "ty": "numerical",
+   "tq": "Distinguish the Bench strength from the majority ratio.",
+   "sec": "Aadhaar-enabled services and the Puttaswamy judgement  [APPSC]"
+  },
+  {
+   "s": "Which of the following is a recognised challenge associated with Aadhaar-enabled service delivery?\n1. Exclusion caused by biometric authentication failure, especially for elderly persons and labourers with worn fingerprints.\n2. Privacy concerns arising from centralised data.\n3. Complete elimination of all identity-verification risks.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Biometric failure can exclude elderly persons and labourers with worn fingerprints, while centralised data raises privacy concerns. Aadhaar does not eliminate all identity-verification risks, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Reject the extreme claim in statement 3 and retain the two stated challenges.",
+   "sec": "Aadhaar-enabled services and the Puttaswamy judgement  [APPSC]"
+  }
+ ]
+}

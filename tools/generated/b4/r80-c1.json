@@ -1,0 +1,202 @@
+{
+ "book": 4,
+ "row": 80,
+ "chunk": 1,
+ "section": "World agriculture - types of farming, major crop belts and agricultural regions",
+ "subsections": [
+  "Crop domestication - Old World vs New World crops",
+  "Agricultural terms → meaning",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 13,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following sets consists entirely of Old World crops?",
+   "o": [
+    "Chilli, maize, potato and coffee",
+    "Cocoa, rubber, cassava and groundnut",
+    "Wheat, barley, rice and sugarcane",
+    "Maize, potato, tomato and tobacco"
+   ],
+   "a": 2,
+   "x": "Wheat, barley, rice and sugarcane are classified as Old World crops. Maize, potato, tomato, tobacco, cocoa, rubber, cassava, groundnut and chilli are New World crops.",
+   "ty": "fact",
+   "tq": "Use group classification and eliminate sets containing crops from the opposite region.",
+   "sec": "Crop domestication - Old World vs New World crops"
+  },
+  {
+   "s": "Consider the following statements regarding the geographical origin of crops:\n1. Coffee is included among the Old World crops.\n2. Cocoa is included among the New World crops.\n3. Rubber is included among the Old World crops.\n4. Chilli is included among the New World crops.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Coffee is an Old World crop, while cocoa, rubber and chilli are New World crops. Therefore, statements 1, 2 and 4 are correct, whereas statement 3 is false.",
+   "ty": "statements",
+   "tq": "Split the statements by checking each crop against the Old World–New World classification.",
+   "sec": "Crop domestication - Old World vs New World crops"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Crop)\nA. Maize\nB. Tea\nC. Cassava\nD. Barley\n\nList-II (Category)\n1. Old World crop\n2. New World crop\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "A-1, B-2, C-1, D-2",
+    "A-2, B-1, C-2, D-1",
+    "A-2, B-1, C-1, D-2",
+    "A-1, B-2, C-2, D-1"
+   ],
+   "a": 1,
+   "x": "Maize and cassava are New World crops, whereas tea and barley are Old World crops. Thus, A-2, B-1, C-2 and D-1 is the correct matching.",
+   "ty": "match",
+   "tq": "Start from the sure pair and match each crop with its geographical crop group.",
+   "sec": "Crop domestication - Old World vs New World crops"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Groundnut — Old World crop",
+    "Rice — Old World crop",
+    "Sugarcane — Old World crop",
+    "Tobacco — New World crop"
+   ],
+   "a": 0,
+   "x": "Groundnut is a New World crop of the Americas, not an Old World crop. Rice and sugarcane are Old World crops, while tobacco is a New World crop.",
+   "ty": "negative",
+   "tq": "Find the single reversed classification in the crop-origin pairs.",
+   "sec": "Crop domestication - Old World vs New World crops"
+  },
+  {
+   "s": "The term ‘sericulture’ refers to:",
+   "o": [
+    "Cultivation of flowers",
+    "Rearing of silkworms for silk production",
+    "Breeding and rearing of fish",
+    "Rearing of bees for honey production"
+   ],
+   "a": 1,
+   "x": "Sericulture is the practice associated with silk production, particularly the rearing of silkworms. Floriculture, apiculture and pisciculture relate respectively to flowers, bees and fish.",
+   "ty": "fact",
+   "tq": "Discriminate among similar agriculture-related terms by linking each to its specific produce.",
+   "sec": "Agricultural terms → meaning"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Viticulture — Grapes\n2. Floriculture — Flowers\n3. Apiculture — Fish\n4. Pisciculture — Bees\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Viticulture means grape cultivation and floriculture means flower cultivation. Apiculture concerns bees, while pisciculture concerns fish; hence pairs 3 and 4 are interchanged and incorrect.",
+   "ty": "statements",
+   "tq": "Use confusable-pair discrimination to separate apiculture from pisciculture.",
+   "sec": "Agricultural terms → meaning"
+  },
+  {
+   "s": "Which one of the following agricultural terms has the broadest meaning among the terms listed below, covering fruits, vegetables and flowers?",
+   "o": [
+    "Viticulture",
+    "Floriculture",
+    "Horticulture",
+    "Sericulture"
+   ],
+   "a": 2,
+   "x": "Horticulture covers the cultivation of fruits, vegetables and flowers. Viticulture is related to grapes, sericulture to silk and floriculture specifically to flowers.",
+   "ty": "fact",
+   "tq": "Choose the umbrella term rather than a narrower specialised branch.",
+   "sec": "Agricultural terms → meaning"
+  },
+  {
+   "s": "India occupies which position in the production of silk, and what distinction is associated with its silk production?",
+   "o": [
+    "First; it produces only one variety of silk",
+    "Second; it is the only country producing all five varieties of silk",
+    "Second; it produces only the mulberry variety",
+    "Third; it is the only country producing three varieties of silk"
+   ],
+   "a": 1,
+   "x": "India is the second-largest silk producer and is identified as the only country producing all five varieties of silk.",
+   "ty": "numerical",
+   "tq": "Combine the rank and the associated distinction instead of treating them as separate clues.",
+   "sec": "Agricultural terms → meaning"
+  },
+  {
+   "s": "With reference to agricultural output in India, which one of the following statements is correct?",
+   "o": [
+    "Horticulture output is restricted to about 100 MT and remains below foodgrain output.",
+    "Foodgrain output has now exceeded horticulture output of 362–367 MT.",
+    "Horticulture and foodgrain output are reported to be exactly equal at 362–367 MT.",
+    "Horticulture output is now in the range of 362–367 MT and exceeds foodgrain output."
+   ],
+   "a": 3,
+   "x": "Horticulture output is stated to be approximately 362–367 million tonnes and has surpassed foodgrain output.",
+   "ty": "comparison",
+   "tq": "Check both the quantitative range and the direction of comparison.",
+   "sec": "Agricultural terms → meaning"
+  },
+  {
+   "s": "The United Nations has designated 2026 as the:",
+   "o": [
+    "International Year of the Woman Farmer",
+    "International Year of Sustainable Rice Cultivation",
+    "International Year of Agricultural Cooperatives",
+    "International Year of Horticultural Production"
+   ],
+   "a": 0,
+   "x": "The year 2026 has been identified as the UN International Year of the Woman Farmer.",
+   "ty": "numerical",
+   "tq": "Use the year–designation association and reject nearby but unsupported themes.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "In the context of Andhra Pradesh, which one of the following statements is correct?",
+   "o": [
+    "The State ranks second in fruit production and first only in groundnut.",
+    "The State is India's largest fruit producer and ranks first only in sugarcane.",
+    "The State is India's largest fruit producer but ranks first only in tea and coffee.",
+    "The State is India's largest fruit producer and ranks first in oil palm, papaya, cocoa and chillies."
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh is identified as India’s largest fruit producer and as ranking first in oil palm, papaya, cocoa and chillies.",
+   "ty": "fact",
+   "tq": "Retain the complete set of linked state-level distinctions rather than selecting a partial list.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "A policy in Andhra Pradesh seeks to move farmers away from paddy towards drought-hardy crops. This policy response is primarily associated with:",
+   "o": [
+    "Excessive snowfall",
+    "A rain deficit",
+    "A surplus of perennial river water",
+    "Expansion of mangrove forests"
+   ],
+   "a": 1,
+   "x": "The shift from paddy to drought-hardy crops in Andhra Pradesh is being promoted amid a rain deficit.",
+   "ty": "application",
+   "tq": "Link the agricultural decision to the stated climatic pressure rather than to an unrelated geographical condition.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements regarding Andhra Pradesh agriculture is NOT correct?",
+   "o": [
+    "Andhra Pradesh is identified as India’s largest fruit producer.",
+    "Podu cultivation has been stated to occur exclusively in the coastal plains of Andhra Pradesh.",
+    "Podu cultivation persists in the agency tracts.",
+    "Andhra Pradesh ranks first in oil palm among the listed agricultural distinctions."
+   ],
+   "a": 1,
+   "x": "Podu cultivation persists in the agency tracts, not exclusively in the coastal plains. The other three statements correctly describe the stated agricultural features of Andhra Pradesh.",
+   "ty": "negative",
+   "tq": "Identify the wrong location by testing the extreme word “exclusively.”",
+   "sec": "Universal angles"
+  }
+ ]
+}

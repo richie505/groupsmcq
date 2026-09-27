@@ -1,0 +1,469 @@
+{
+ "book": 3,
+ "row": 39,
+ "chunk": 1,
+ "section": "Food security - NFSA 2013, PDS reform, buffer stocks, One Nation One Ration Card, PMGKAY",
+ "subsections": [
+  "Food security concept - definition, dimensions, national vs household",
+  "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN",
+  "Entitlement approach - proponent",
+  "PMGKAY - launch, extensions, merger with NFSA"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 33,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "According to the World Food Summit, 1996, food security exists when all people, at all times, have physical and economic access to which of the following?",
+   "o": [
+    "Food of their choice irrespective of dietary needs",
+    "Adequate food supplied exclusively by the government",
+    "Sufficient, safe and nutritious food for an active and healthy life",
+    "Food grains available only during periods of shortage"
+   ],
+   "a": 2,
+   "x": "The World Food Summit definition emphasizes physical and economic access to sufficient, safe and nutritious food for an active and healthy life.",
+   "ty": "fact",
+   "tq": "Use the precise official definition and reject the look-alike phrase ‘food of their choice’.",
+   "sec": "Food security concept - definition, dimensions, national vs household"
+  },
+  {
+   "s": "Which one of the following is NOT a recognized dimension of food security?",
+   "o": [
+    "Stability",
+    "Accountability",
+    "Accessibility",
+    "Availability"
+   ],
+   "a": 1,
+   "x": "Availability, accessibility, affordability or access, utilisation/absorption and stability are associated with food security. Accountability is not a dimension.",
+   "ty": "negative",
+   "tq": "Find the odd term among the established dimensions.",
+   "sec": "Food security concept - definition, dimensions, national vs household"
+  },
+  {
+   "s": "Which of the following best distinguishes national food security from household food security?",
+   "o": [
+    "National food security concerns only imports, whereas household food security concerns only domestic production.",
+    "National food security concerns aggregate availability, whereas household food security concerns actual access and affordability for each household.",
+    "National food security applies to urban areas, whereas household food security applies only to rural areas.",
+    "National food security is based on nutrition, whereas household food security is based only on buffer stocks."
+   ],
+   "a": 1,
+   "x": "National food security refers to adequate aggregate production and stocks. Household food security requires that each household can actually obtain and afford food.",
+   "ty": "comparison",
+   "tq": "Split the comparison into aggregate availability versus household-level access.",
+   "sec": "Food security concept - definition, dimensions, national vs household"
+  },
+  {
+   "s": "Assertion (A): Food security remains necessary even in years of food surplus.\nReason (R): Starvation may result from unequal distribution even when aggregate food availability is adequate.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and unequal distribution explains why aggregate surplus does not automatically ensure household food security.",
+   "ty": "assertion_reason",
+   "tq": "Test whether the reason explains the distinction between national and household security.",
+   "sec": "Food security concept - definition, dimensions, national vs household"
+  },
+  {
+   "s": "With reference to buffer stocks in India, consider the following statements:\n1. Wheat and rice are procured by the Food Corporation of India from surplus states.\n2. Procurement is made at a pre-announced Minimum Support Price on the advice of the CACP.\n3. The procured grains may be sold at a lower issue price in deficit areas and during calamities.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "FCI procures wheat and rice at the pre-announced MSP advised by CACP, and the stocks are released at lower issue prices in deficit areas or during calamities.",
+   "ty": "statements",
+   "tq": "Verify the agency, procurement price and purpose separately.",
+   "sec": "Food security concept - definition, dimensions, national vs household"
+  },
+  {
+   "s": "The strategic reserve of food grains is maintained at approximately what level above operational stocks?",
+   "o": [
+    "1 million tonnes",
+    "10 million tonnes",
+    "3 million tonnes",
+    "5 million tonnes"
+   ],
+   "a": 3,
+   "x": "The strategic reserve is maintained at 5 million tonnes above operational stocks.",
+   "ty": "numerical",
+   "tq": "Recall the specific quantitative figure; the options are arranged in ascending order.",
+   "sec": "Food security concept - definition, dimensions, national vs household"
+  },
+  {
+   "s": "The principal purpose of OMSS (Domestic) sales of food grains is to:",
+   "o": [
+    "Cool market prices",
+    "Increase the procurement price paid to farmers",
+    "Replace all Fair Price Shops",
+    "Provide only export subsidies"
+   ],
+   "a": 0,
+   "x": "Open Market Sale Scheme (Domestic) sales are used to release food grains and help cool prices.",
+   "ty": "application",
+   "tq": "Link the policy instrument with its stated market-stabilisation purpose.",
+   "sec": "Food security concept - definition, dimensions, national vs household"
+  },
+  {
+   "s": "The Bengal Famine of 1943 resulted in the death of approximately how many people?",
+   "o": [
+    "3 lakh",
+    "10 lakh",
+    "30 lakh",
+    "50 lakh"
+   ],
+   "a": 2,
+   "x": "The Bengal Famine of 1943 is stated to have caused approximately 30 lakh deaths.",
+   "ty": "numerical",
+   "tq": "Distinguish the historically significant figure from nearby numerical distractors.",
+   "sec": "Food security concept - definition, dimensions, national vs household"
+  },
+  {
+   "s": "Which of the following groups are identified among the most food-insecure sections of the population?\n1. Scheduled Castes\n2. Scheduled Tribes\n3. Landless and poor OBC sections\n4. Large landowning households\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Scheduled Castes, Scheduled Tribes and landless or poor OBC sections are identified as among the most food-insecure groups. Large landowning households are not included in this description.",
+   "ty": "statements",
+   "tq": "Identify the socially vulnerable groups and reject the reversed socio-economic category.",
+   "sec": "Food security concept - definition, dimensions, national vs household"
+  },
+  {
+   "s": "Arrange the following developments in the Public Distribution System in chronological order:\nA. Targeted Public Distribution System\nB. Revamped Public Distribution System\nC. National Food Security Act\nD. Initial Public Distribution System\nSelect the correct sequence.",
+   "o": [
+    "D, B, A, C",
+    "B, D, A, C",
+    "D, A, B, C",
+    "A, B, D, C"
+   ],
+   "a": 0,
+   "x": "The sequence is initial PDS in the 1940s, RPDS in June 1992, TPDS in June 1997 and NFSA in 2013.",
+   "ty": "chronology",
+   "tq": "Fix the earliest PDS stage first and then place the dated reforms.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "The Public Distribution System in India originated primarily as:",
+   "o": [
+    "A World War II rationing measure",
+    "A replacement for the Integrated Child Development Services",
+    "A food-export promotion scheme",
+    "A post-liberalisation poverty programme"
+   ],
+   "a": 0,
+   "x": "The PDS began as a rationing measure during the Second World War, against the background of the Bengal famine.",
+   "ty": "fact",
+   "tq": "Use the historical origin rather than the later institutional form of the programme.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "The Revamped Public Distribution System (RPDS) was introduced in June 1992 and covered approximately:",
+   "o": [
+    "1,275 blocks",
+    "775 blocks",
+    "1,775 blocks",
+    "2,775 blocks"
+   ],
+   "a": 2,
+   "x": "RPDS was introduced in June 1992 and covered 1,775 blocks.",
+   "ty": "numerical",
+   "tq": "Match the reform year with its distinctive coverage figure.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "Which of the following correctly describes the Targeted Public Distribution System introduced in June 1997?",
+   "o": [
+    "It classified beneficiaries into BPL and APL categories.",
+    "It provided only cooked meals through schools.",
+    "It replaced all nutrition services at anganwadis.",
+    "It supplied grain exclusively to export-oriented farmers."
+   ],
+   "a": 0,
+   "x": "TPDS was introduced in June 1997 with separate Below Poverty Line and Above Poverty Line categories.",
+   "ty": "fact",
+   "tq": "Use the programme's beneficiary classification as the identifying feature.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Programme)\na. PDS\nb. ICDS\nc. Mid-Day Meal/PM POSHAN\nd. Food-for-Work\n\nList-II (Food support)\ni. Grain as wages\nii. Supplementary nutrition at anganwadis\niii. Subsidised or free grain through Fair Price Shops\niv. Hot cooked meal to eligible school-age children\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "PDS provides grain through Fair Price Shops; ICDS gives supplementary nutrition at anganwadis; PM POSHAN gives hot cooked meals; Food-for-Work gives grain as wages.",
+   "ty": "match",
+   "tq": "Start with the sure pair ‘Food-for-Work—grain as wages’ and eliminate the codes.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "The Integrated Child Development Services (ICDS) was initiated in 1975 on an:",
+   "o": [
+    "Urban-industrial basis",
+    "Experimental basis",
+    "Export-oriented basis",
+    "Emergency rationing basis"
+   ],
+   "a": 1,
+   "x": "ICDS began in 1975 as an experimental programme.",
+   "ty": "fact",
+   "tq": "Recall the programme's launch character, not merely its year.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "Supplementary nutrition under ICDS is primarily provided through anganwadis to:",
+   "o": [
+    "Only elderly persons receiving pensions",
+    "Only children aged 6–14 years enrolled in secondary schools",
+    "Only adult male workers",
+    "Children aged 0–6 years and pregnant and lactating women"
+   ],
+   "a": 3,
+   "x": "ICDS provides supplementary nutrition through anganwadis to children aged 0–6 years and pregnant and lactating women.",
+   "ty": "fact",
+   "tq": "Match the service with its precise beneficiary groups.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "Food-for-Work was introduced in India during:",
+   "o": [
+    "1977–78",
+    "1984–85",
+    "1965–66",
+    "1971–72"
+   ],
+   "a": 0,
+   "x": "The Food-for-Work programme was introduced in 1977–78 and provided grain as wages.",
+   "ty": "numerical",
+   "tq": "Recall the programme year from the closely spaced historical alternatives.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "The Mid-Day Meal/PM POSHAN programme is administered by which Ministry?",
+   "o": [
+    "Ministry of Agriculture and Farmers Welfare",
+    "Ministry of Education",
+    "Ministry of Rural Development",
+    "Ministry of Women and Child Development"
+   ],
+   "a": 1,
+   "x": "Mid-Day Meal, now PM POSHAN, is associated with the Ministry of Education.",
+   "ty": "fact",
+   "tq": "Apply the ‘which ministry performs this function?’ authority test.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "Under the present description of PM POSHAN, hot cooked meals are provided to:",
+   "o": [
+    "Pregnant women and lactating mothers only",
+    "Bal Vatika/pre-school, primary and upper primary students",
+    "Only children in upper primary classes",
+    "Children below six months through anganwadis"
+   ],
+   "a": 1,
+   "x": "PM POSHAN provides hot cooked meals to Bal Vatika or pre-school children and students at the primary and upper primary levels.",
+   "ty": "fact",
+   "tq": "Distinguish the school-meal beneficiary range from ICDS beneficiaries.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Food-for-Work — 1977–78",
+    "ICDS — 1975",
+    "Mid-Day Meal — 1995",
+    "Targeted Public Distribution System — 1985"
+   ],
+   "a": 3,
+   "x": "TPDS was introduced in June 1997, not 1985. ICDS began in 1975, Mid-Day Meal in 1995, and Food-for-Work in 1977–78.",
+   "ty": "negative",
+   "tq": "Check each programme against its launch year and identify the swapped date.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "Under the NFSA, pregnant women and lactating mothers are entitled to:",
+   "o": [
+    "Only subsidised wheat through Fair Price Shops",
+    "A monthly cash transfer of exactly ₹10,000 without food support",
+    "A take-home ration only after the child reaches six years",
+    "A free meal and a maternity benefit of at least ₹6,000"
+   ],
+   "a": 3,
+   "x": "NFSA provides pregnant women and lactating mothers a free meal along with a maternity benefit of at least ₹6,000.",
+   "ty": "fact",
+   "tq": "Test the entitlement package as a combination of food support and maternity benefit.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "Children in the age group of 6 months to 6 years are entitled under the NFSA to:",
+   "o": [
+    "A take-home ration or hot meal through ICDS/anganwadi services",
+    "Grain as wages under Food-for-Work",
+    "Only a school meal under PM POSHAN",
+    "Only an annual cash allowance"
+   ],
+   "a": 0,
+   "x": "Children aged 6 months to 6 years receive a take-home ration or hot meal through ICDS and anganwadi services.",
+   "ty": "fact",
+   "tq": "Separate the NFSA entitlement by age group and delivery channel.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "Children between 6 and 14 years are covered under the NFSA food entitlement primarily through:",
+   "o": [
+    "Open Market Sale Scheme outlets",
+    "Mid-Day meals in schools",
+    "Food-for-Work employment",
+    "Maternity benefit services"
+   ],
+   "a": 1,
+   "x": "Children aged 6–14 years are entitled to a mid-day meal in school; the programme is now known as PM POSHAN.",
+   "ty": "fact",
+   "tq": "Match the age bracket with the appropriate institutional delivery mechanism.",
+   "sec": "Food-based safety net programmes - PDS, ICDS, Mid-Day Meal / PM POSHAN"
+  },
+  {
+   "s": "Who is most closely associated with the entitlement approach to understanding famine?",
+   "o": [
+    "Amartya Sen",
+    "M. S. Swaminathan",
+    "P. C. Mahalanobis",
+    "Rangarajan"
+   ],
+   "a": 0,
+   "x": "Amartya Sen developed the entitlement approach, especially in his work Poverty and Famines (1981).",
+   "ty": "fact",
+   "tq": "Identify the scholar associated with the named analytical approach.",
+   "sec": "Entitlement approach - proponent"
+  },
+  {
+   "s": "According to Amartya Sen's entitlement approach, famines primarily arise from:",
+   "o": [
+    "A fall in aggregate food production in every case",
+    "An increase in the nutritional content of food",
+    "Excessive buffer stocks maintained by the government",
+    "A collapse of people's command over food through income, exchange and transfers"
+   ],
+   "a": 3,
+   "x": "Sen argued that famine results from a collapse of people's entitlements or command over food, not merely from a decline in overall food availability.",
+   "ty": "application",
+   "tq": "Reject the supply-only explanation and apply the income-and-entitlement concept.",
+   "sec": "Entitlement approach - proponent"
+  },
+  {
+   "s": "Poverty and Famines, which set out the entitlement approach to famine, was published in:",
+   "o": [
+    "1961",
+    "1971",
+    "1981",
+    "1991"
+   ],
+   "a": 2,
+   "x": "Amartya Sen's Poverty and Famines was published in 1981.",
+   "ty": "numerical",
+   "tq": "Recall the associated publication year from the standard chronological options.",
+   "sec": "Entitlement approach - proponent"
+  },
+  {
+   "s": "The Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY) was launched in 2020 primarily in the context of the:",
+   "o": [
+    "National Food Security Act's original enactment in 2013",
+    "Second Five-Year Plan",
+    "Green Revolution",
+    "COVID-19 pandemic and Atmanirbhar package"
+   ],
+   "a": 3,
+   "x": "PMGKAY was launched in 2020 as part of the COVID-19 response and the Atmanirbhar package.",
+   "ty": "fact",
+   "tq": "Link the scheme with its crisis context rather than with the later NFSA merger.",
+   "sec": "PMGKAY - launch, extensions, merger with NFSA"
+  },
+  {
+   "s": "At its launch, PMGKAY provided what additional food-grain entitlement?",
+   "o": [
+    "10 kg of free grain per family irrespective of family size",
+    "5 kg of subsidised grain per household instead of NFSA benefits",
+    "One hot cooked meal per person per day through schools",
+    "5 kg of free grain per person over and above the NFSA entitlement"
+   ],
+   "a": 3,
+   "x": "PMGKAY initially provided 5 kg of free food grains per person in addition to the existing NFSA entitlement.",
+   "ty": "numerical",
+   "tq": "Distinguish an additional per-person entitlement from a household entitlement.",
+   "sec": "PMGKAY - launch, extensions, merger with NFSA"
+  },
+  {
+   "s": "From 1 January 2023, PMGKAY was subsumed with the NFSA entitlement. What was the principal effect of this decision?",
+   "o": [
+    "The entitlement was converted into a cash transfer",
+    "NFSA allocations were discontinued for all beneficiaries",
+    "The entire NFSA allocation became free of cost",
+    "Only the APL category received free grain"
+   ],
+   "a": 2,
+   "x": "From 1 January 2023, the entire NFSA allocation became free under the merged arrangement described as ‘One Nation–One Price–One Ration’.",
+   "ty": "fact",
+   "tq": "Test the policy change after merger rather than the original launch feature.",
+   "sec": "PMGKAY - launch, extensions, merger with NFSA"
+  },
+  {
+   "s": "For which period was the free food-grain arrangement under the extended PMGKAY continued?",
+   "o": [
+    "1 January 2024 to 31 December 2028",
+    "1 April 2024 to 31 March 2029",
+    "1 January 2023 to 31 December 2027",
+    "1 January 2025 to 31 December 2029"
+   ],
+   "a": 0,
+   "x": "The arrangement was extended for five years from 1 January 2024 to 31 December 2028.",
+   "ty": "numerical",
+   "tq": "Use both boundary dates to distinguish the five-year extension.",
+   "sec": "PMGKAY - launch, extensions, merger with NFSA"
+  },
+  {
+   "s": "The approximate cost of the five-year extension of the free food-grain arrangement under PMGKAY is:",
+   "o": [
+    "₹5.80 lakh crore",
+    "₹8.80 lakh crore",
+    "₹15.80 lakh crore",
+    "₹11.80 lakh crore"
+   ],
+   "a": 3,
+   "x": "The cost of the five-year extension is approximately ₹11.80 lakh crore, borne by the Union Government.",
+   "ty": "numerical",
+   "tq": "Recall the distinctive budgetary magnitude and reject nearby figures.",
+   "sec": "PMGKAY - launch, extensions, merger with NFSA"
+  },
+  {
+   "s": "The food subsidy provided in the Union Budget 2026–27 was:",
+   "o": [
+    "₹1,27,629 crore",
+    "₹2,27,629 crore",
+    "₹2,72,629 crore",
+    "₹3,27,629 crore"
+   ],
+   "a": 1,
+   "x": "The Union Budget 2026–27 provided ₹2,27,629 crore as food subsidy.",
+   "ty": "numerical",
+   "tq": "Read the crore figure carefully and distinguish the transposed digits.",
+   "sec": "PMGKAY - launch, extensions, merger with NFSA"
+  }
+ ]
+}

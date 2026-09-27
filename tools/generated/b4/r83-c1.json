@@ -1,0 +1,499 @@
+{
+ "book": 4,
+ "row": 83,
+ "chunk": 1,
+ "section": "India - horticulture, plantation crops, livestock and fisheries geography",
+ "subsections": [
+  "Sericulture - silk types → state, largest producer",
+  "Livestock breeds → native region and species",
+  "Agricultural research institutes → location",
+  "Regions → specialised produce",
+  "Plantation crops - coconut, arecanut, cashew, cocoa regions",
+  "Livestock Census - highlights and species ranking"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which silk variety is endemic to Assam and is produced by the silkworm Antheraea assamensis?",
+   "o": [
+    "Tasar silk",
+    "Mulberry silk",
+    "Muga silk",
+    "Eri silk"
+   ],
+   "a": 2,
+   "x": "Muga silk is endemic to Assam and is produced by Antheraea assamensis.",
+   "ty": "fact",
+   "tq": "Use the unique state association to distinguish the confusable silk varieties.",
+   "sec": "Sericulture - silk types → state, largest producer  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding commercial silk varieties in India:\n1. India produces Mulberry, Tropical Tasar, Oak Tasar, Eri and Muga silk.\n2. India is the only country producing all five commercial varieties of silk.\n3. Karnataka is the largest silk-producing state in India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. India produces all five commercial silk varieties and ranks second globally in silk production, while Karnataka is the leading state.",
+   "ty": "statements",
+   "tq": "Test the complete set of related facts through coded statements.",
+   "sec": "Sericulture - silk types → state, largest producer  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Silk)\n a. Mulberry\n b. Tropical Tasar\n c. Eri\n d. Muga\n\nList-II (Food plant)\n i. Castor and tapioca\n ii. Som and Soalu\n iii. Mulberry\n iv. Terminalia and Sal\n\nSelect the correct answer using the codes given below:",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–ii, b–iv, c–i, d–iii"
+   ],
+   "a": 0,
+   "x": "Mulberry silk feeds on mulberry; Tropical Tasar on Terminalia and Sal; Eri on castor and tapioca; and Muga on Som and Soalu.",
+   "ty": "match",
+   "tq": "Start from the sure food-plant pair and eliminate the codes.",
+   "sec": "Sericulture - silk types → state, largest producer  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about silk-producing regions is NOT correctly matched?",
+   "o": [
+    "Muga — Assam",
+    "Oak Tasar — sub-Himalayan belt",
+    "Mulberry — only Assam",
+    "Eri — Assam and Meghalaya"
+   ],
+   "a": 2,
+   "x": "Mulberry silk is produced mainly in Karnataka, Andhra Pradesh, Tamil Nadu and West Bengal; it is not confined to Assam. Muga alone is exclusive to Assam among the listed varieties.",
+   "ty": "negative",
+   "tq": "Find the location statement that wrongly uses an exclusive regional claim.",
+   "sec": "Sericulture - silk types → state, largest producer  [APPSC]"
+  },
+  {
+   "s": "Which State is listed as the second-largest producer of raw silk in India?",
+   "o": [
+    "West Bengal",
+    "Andhra Pradesh",
+    "Telangana",
+    "Tamil Nadu"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh is listed as the second-largest producer of raw silk, after Karnataka.",
+   "ty": "fact",
+   "tq": "Separate the leading state from the second-ranked state in a numerical comparison.",
+   "sec": "Sericulture - silk types → state, largest producer  [APPSC]"
+  },
+  {
+   "s": "The Central Silk Board has its headquarters at:",
+   "o": [
+    "Bengaluru",
+    "Hyderabad",
+    "Cuttack",
+    "Karnal"
+   ],
+   "a": 0,
+   "x": "The headquarters of the Central Silk Board is at Bengaluru.",
+   "ty": "fact",
+   "tq": "Match the specialised national body with its headquarters.",
+   "sec": "Sericulture - silk types → state, largest producer  [APPSC]"
+  },
+  {
+   "s": "The AP Tasar sericulture activity is associated mainly with which of the following areas?",
+   "o": [
+    "Nellore and Prakasam",
+    "Krishna and Guntur",
+    "Kurnool and Anantapur",
+    "East Godavari and ASR district"
+   ],
+   "a": 3,
+   "x": "AP Tasar is a forest-based activity concentrated in East Godavari and the ASR district, particularly around Rampachodavaram.",
+   "ty": "fact",
+   "tq": "Use the location-specific regional association.",
+   "sec": "Sericulture - silk types → state, largest producer  [APPSC]"
+  },
+  {
+   "s": "In Andhra Pradesh Tasar sericulture, approximately how many tribal farmers were associated with the activity in 45 villages?",
+   "o": [
+    "660",
+    "1,160",
+    "1,660",
+    "2,660"
+   ],
+   "a": 2,
+   "x": "AP Tasar sericulture involved 1,660 tribal farmers in 45 villages.",
+   "ty": "numerical",
+   "tq": "Distinguish the exact numerical figure from nearby-value distractors.",
+   "sec": "Sericulture - silk types → state, largest producer  [APPSC]"
+  },
+  {
+   "s": "Which breed–species–native region combination is correctly matched?",
+   "o": [
+    "Ongole — cattle — Prakasam, Andhra Pradesh",
+    "Murrah — goat — Haryana",
+    "Kadaknath — buffalo — Madhya Pradesh",
+    "Jamunapari — poultry — Uttar Pradesh"
+   ],
+   "a": 0,
+   "x": "Ongole is a cattle breed native to the Prakasam district of Andhra Pradesh. Murrah is a buffalo, Kadaknath is poultry, and Jamunapari is a goat.",
+   "ty": "match",
+   "tq": "Check all three components—breed, species and native region—before selecting the combination.",
+   "sec": "Livestock breeds → native region and species  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Punganur — Dwarf cattle — Chittoor\n2. Gir — Cattle — Gujarat\n3. Sahiwal — Cattle — Punjab region\n4. Tharparkar — Cattle — Rajasthan\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Punganur is associated with Chittoor, Gir with Gujarat, Sahiwal with the Punjab region, and Tharparkar with Rajasthan.",
+   "ty": "statements",
+   "tq": "Verify each breed against both its species and native region.",
+   "sec": "Livestock breeds → native region and species  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Murrah — buffalo — Haryana",
+    "Jamunapari — goat — Uttar Pradesh",
+    "Barbari — poultry — Uttar Pradesh",
+    "Hallikar — draught cattle — Karnataka"
+   ],
+   "a": 2,
+   "x": "Barbari is a goat breed of Uttar Pradesh, not a poultry breed. Hallikar, Murrah and Jamunapari are correctly matched.",
+   "ty": "negative",
+   "tq": "Use the species mismatch to identify the incorrect breed association.",
+   "sec": "Livestock breeds → native region and species  [APPSC]"
+  },
+  {
+   "s": "Kadaknath is primarily associated with which species and region?",
+   "o": [
+    "Goat of Etawah, Uttar Pradesh",
+    "Cattle of Gir, Gujarat",
+    "Black-meat poultry of Jhabua, Madhya Pradesh",
+    "Buffalo of Haryana"
+   ],
+   "a": 2,
+   "x": "Kadaknath is a black-meat poultry breed native to the Jhabua region of Madhya Pradesh.",
+   "ty": "confusable",
+   "tq": "Discriminate between livestock breeds by combining species with native region.",
+   "sec": "Livestock breeds → native region and species  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements is correct regarding selected livestock breeds and production facts?\n1. Godavari buffalo, Nellore sheep and Aseel poultry are associated with Andhra Pradesh.\n2. Synthetic Frieswal cattle gives 7,000 kg of milk per lactation.\n3. Improvement of Gir, Kankrej and Sahiwal raised milk yield by 53.71% during 2010–2023.\nSelect the correct answer using the code given below:",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The listed AP breeds, Frieswal yield and the reported 53.71% increase are included in the livestock production data.",
+   "ty": "statements",
+   "tq": "Treat the numerical and regional details as separate checks within one statement set.",
+   "sec": "Livestock breeds → native region and species  [APPSC]"
+  },
+  {
+   "s": "Which one of the following breed–species combinations is correctly matched?",
+   "o": [
+    "Kadaknath — goat",
+    "Punganur — buffalo",
+    "Bhadawari — buffalo",
+    "Barbari — poultry"
+   ],
+   "a": 2,
+   "x": "Bhadawari is a buffalo breed associated with Uttar Pradesh and Madhya Pradesh. Barbari is a goat, Kadaknath is poultry and Punganur is cattle.",
+   "ty": "confusable",
+   "tq": "Identify the correct species before considering the regional association.",
+   "sec": "Livestock breeds → native region and species  [APPSC]"
+  },
+  {
+   "s": "Match the following agricultural research institutes with their locations:\n\nList-I (Institute)\n a. ICRISAT\n b. IARI\n c. CRRI/NRRI\n d. CIFA\n\nList-II (Location)\n i. Cuttack\n ii. Patancheru, Hyderabad\n iii. Bhubaneswar\n iv. New Delhi\n\nSelect the correct answer using the codes given below:",
+   "o": [
+    "a–ii, b–iv, c–i, d–iii",
+    "a–iv, b–ii, c–iii, d–i",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–iii, b–iv, c–i, d–ii"
+   ],
+   "a": 0,
+   "x": "ICRISAT is at Patancheru, IARI at New Delhi, CRRI/NRRI at Cuttack and CIFA at Bhubaneswar.",
+   "ty": "match",
+   "tq": "Begin with the distinctive ICRISAT–Patancheru pair and complete the matching code.",
+   "sec": "Agricultural research institutes → location  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "CIAH — Bikaner",
+    "NDRI — Karnal",
+    "IIHR — Bengaluru",
+    "CIFA — Lucknow"
+   ],
+   "a": 3,
+   "x": "CIFA, the Central Institute of Freshwater Aquaculture, is located at Bhubaneswar, not Lucknow. NDRI, IIHR and CIAH are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the wrong institute location by recalling the specialised function and regional centre.",
+   "sec": "Agricultural research institutes → location  [APPSC]"
+  },
+  {
+   "s": "The Central Institute for Arid Horticulture (CIAH) is located at:",
+   "o": [
+    "Bengaluru",
+    "Cuttack",
+    "Karnal",
+    "Bikaner"
+   ],
+   "a": 3,
+   "x": "CIAH is located at Bikaner and deals with arid horticulture.",
+   "ty": "fact",
+   "tq": "Use the institute’s specialised subject as a clue to its location.",
+   "sec": "Agricultural research institutes → location  [APPSC]"
+  },
+  {
+   "s": "Kinnaur is especially associated with the production of:",
+   "o": [
+    "Pineapples",
+    "Apples",
+    "Cocoa",
+    "Coconut"
+   ],
+   "a": 1,
+   "x": "Kinnaur in Himachal Pradesh is associated with apples and forms part of the temperate fruit belt of Himachal Pradesh and Jammu and Kashmir.",
+   "ty": "fact",
+   "tq": "Link a specialised regional produce with its recognised production belt.",
+   "sec": "Regions → specialised produce  [other exams]"
+  },
+  {
+   "s": "Which of the following statements regarding specialised regional produce is correct?\n1. Tripura is known for pineapple and is the largest producer of true potato seed.\n2. Meghalaya is a leader in pineapple production.\n3. Lakadong turmeric is associated with Meghalaya.\nSelect the correct answer using the code given below:",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Tripura is noted for pineapple and true potato seed, while Meghalaya is associated with pineapple and Lakadong turmeric.",
+   "ty": "statements",
+   "tq": "Check each regional crop association independently rather than relying on one familiar crop.",
+   "sec": "Regions → specialised produce  [other exams]"
+  },
+  {
+   "s": "Which of the following statements about coconut cultivation in India is correct?\n1. Coconut is cultivated along the coastal regions of Kerala, Tamil Nadu, Karnataka and Andhra Pradesh.\n2. Parts of West Bengal and Odisha also have coconut cultivation.\n3. India ranks first in coconut production.\nSelect the correct answer using the code given below:",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Coconut cultivation is concentrated in the listed coastal and eastern regions, and India ranks first in coconut production.",
+   "ty": "statements",
+   "tq": "Combine distributional and ranking facts in a coded statement question.",
+   "sec": "Plantation crops - coconut, arecanut, cashew, cocoa regions"
+  },
+  {
+   "s": "Which of the following crops are covered under the Mission for Integrated Development of Horticulture (MIDH) from 2014–15?",
+   "o": [
+    "Cotton, jute and sugarcane",
+    "Coconut, cashew and cocoa",
+    "Tea, coffee and rubber",
+    "Wheat, rice and pulses"
+   ],
+   "a": 1,
+   "x": "Coconut, cashew and cocoa are covered under MIDH from 2014–15.",
+   "ty": "fact",
+   "tq": "Distinguish the horticultural plantation group from other commercial crops.",
+   "sec": "Plantation crops - coconut, arecanut, cashew, cocoa regions"
+  },
+  {
+   "s": "Andhra Pradesh is noted for which of the following combinations?",
+   "o": [
+    "First in cocoa productivity and a growth-engine region for cashew",
+    "First in tea production and a major rubber region",
+    "Largest producer of arecanut and coffee",
+    "Exclusive producer of Muga silk and saffron"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh is first in cocoa productivity, and cashew is identified as a Rayalaseema/Andhra Pradesh growth-engine crop.",
+   "ty": "comparison",
+   "tq": "Select the option that preserves both the crop and the precise comparison stated.",
+   "sec": "Plantation crops - coconut, arecanut, cashew, cocoa regions"
+  },
+  {
+   "s": "Which one of the following sets consists entirely of crops introduced by the Portuguese into India?",
+   "o": [
+    "Tea, coffee, rubber, jute and cotton",
+    "Cashew, tomato, chilli, potato and tobacco",
+    "Rice, wheat, gram, mustard and barley",
+    "Millet, maize, sugarcane, sesame and pulses"
+   ],
+   "a": 1,
+   "x": "The Portuguese introduced cashew, tomato, chilli, potato and tobacco, among other crops, into India.",
+   "ty": "fact",
+   "tq": "Recognise the historical crop-introduction group without mixing it with indigenous staples.",
+   "sec": "Plantation crops - coconut, arecanut, cashew, cocoa regions"
+  },
+  {
+   "s": "According to the 2019 Livestock Census, which species had the second-highest rank for Andhra Pradesh in India?",
+   "o": [
+    "Sheep",
+    "Cattle",
+    "Buffalo",
+    "Goat"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh ranked second in India in sheep population in the 2019 Livestock Census.",
+   "ty": "numerical",
+   "tq": "Separate species rank from population size and percentage change.",
+   "sec": "Livestock Census - highlights and species ranking"
+  },
+  {
+   "s": "Consider the following statements regarding Andhra Pradesh livestock data in the 2019 Census:\n1. Andhra Pradesh ranked second in India in poultry population.\n2. The poultry population increased by 33.85% over 2012.\n3. The sheep population increased by approximately 30% over 2012.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. AP ranked second in poultry, poultry increased by 33.85%, and sheep increased by about 30%.",
+   "ty": "statements",
+   "tq": "Use the percentage-change figures as independent verification points.",
+   "sec": "Livestock Census - highlights and species ranking"
+  },
+  {
+   "s": "Which one of the following correctly represents the Andhra Pradesh species-wise rank and change over 2012 in the 2019 Livestock Census?",
+   "o": [
+    "Goat — sixth — decline of 3.76%",
+    "Cattle — eleventh — increase of 22.82%",
+    "Sheep — fourteenth — decline of 2.46%",
+    "Buffalo — sixth — decline of 3.76%"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh ranked sixth in buffalo population, which declined by 3.76% compared with 2012.",
+   "ty": "comparison",
+   "tq": "Check both the rank and direction of change; reversed trends are common traps.",
+   "sec": "Livestock Census - highlights and species ranking"
+  },
+  {
+   "s": "Arrange the following Andhra Pradesh livestock species in descending order of their population according to the 2019 Census:\nA. Cattle\nB. Poultry\nC. Sheep\nD. Buffalo",
+   "o": [
+    "B, C, D, A",
+    "C, B, D, A",
+    "B, D, C, A",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The descending order is poultry (1,078.63 lakh), sheep (176.27 lakh), buffalo (62.19 lakh) and cattle (46.00 lakh).",
+   "ty": "chronology",
+   "tq": "Arrange by magnitude, beginning with the clearly largest population.",
+   "sec": "Livestock Census - highlights and species ranking"
+  },
+  {
+   "s": "The total livestock population of Andhra Pradesh according to the 2019 Livestock Census was:",
+   "o": [
+    "240.60 lakh",
+    "340.60 lakh",
+    "440.60 lakh",
+    "540.60 lakh"
+   ],
+   "a": 1,
+   "x": "The total livestock population of Andhra Pradesh was 340.60 lakh in the 2019 Census.",
+   "ty": "numerical",
+   "tq": "Test the exact total with closely spaced numerical distractors.",
+   "sec": "Livestock Census - highlights and species ranking"
+  },
+  {
+   "s": "Which of the following correctly gives the poultry population of Andhra Pradesh in the 2019 Livestock Census?",
+   "o": [
+    "62.19 lakh",
+    "107.90 lakh",
+    "176.27 lakh",
+    "1,078.63 lakh"
+   ],
+   "a": 3,
+   "x": "The poultry population of Andhra Pradesh was 1,078.63 lakh in the 2019 Census. The other figures refer to different species or rounded data.",
+   "ty": "numerical",
+   "tq": "Distinguish lakh-scale figures from rounded million-style distractors.",
+   "sec": "Livestock Census - highlights and species ranking"
+  },
+  {
+   "s": "Which statement best explains the reported offset to the decline in certain livestock headcounts in Andhra Pradesh?",
+   "o": [
+    "A rise in indigenous sheep and Jamunapari goats only",
+    "A rise in crossbred cattle and graded Murrah buffalo",
+    "Expansion of poultry alone",
+    "Replacement of buffaloes by camels"
+   ],
+   "a": 1,
+   "x": "The fall in overall headcount was offset by an increase in crossbred cattle and graded Murrah buffalo.",
+   "ty": "application",
+   "tq": "Identify the cause-effect relationship rather than merely recalling a number.",
+   "sec": "Livestock Census - highlights and species ranking"
+  },
+  {
+   "s": "India’s position in world egg production and its egg output during 2023–24 were respectively:",
+   "o": [
+    "First and 142.77 billion eggs",
+    "Fourth and 142.77 billion eggs",
+    "Second and 142.77 billion eggs",
+    "Second and 102.77 billion eggs"
+   ],
+   "a": 2,
+   "x": "India ranked second in world egg production and produced 142.77 billion eggs during 2023–24.",
+   "ty": "numerical",
+   "tq": "Keep the rank and absolute figure together while eliminating swapped-value options.",
+   "sec": "Livestock Census - highlights and species ranking"
+  },
+  {
+   "s": "Which of the following correctly states India’s per capita egg availability and rank in world meat production?",
+   "o": [
+    "103 eggs per year and fourth in meat production",
+    "73 eggs per year and fourth in meat production",
+    "103 eggs per year and second in meat production",
+    "143 eggs per year and first in meat production"
+   ],
+   "a": 0,
+   "x": "India’s per capita egg availability was 103 eggs per year, and India ranked fourth in meat production.",
+   "ty": "comparison",
+   "tq": "Test two unrelated rankings together to prevent partial recall.",
+   "sec": "Livestock Census - highlights and species ranking"
+  },
+  {
+   "s": "India’s meat production and per capita meat availability during the stated period were:",
+   "o": [
+    "7.39 million tonnes and 10.25 kg per head",
+    "10.25 million tonnes and 5.39 kg per head",
+    "10.25 million tonnes and 7.39 kg per head",
+    "12.25 million tonnes and 8.39 kg per head"
+   ],
+   "a": 2,
+   "x": "India produced 10.25 million tonnes of meat, with per capita availability of 7.39 kg per head.",
+   "ty": "numerical",
+   "tq": "Avoid reversing the total production figure and the per capita measure.",
+   "sec": "Livestock Census - highlights and species ranking"
+  },
+  {
+   "s": "Which of the following is the correct population and rank combination for Andhra Pradesh cattle in the 2019 Livestock Census?",
+   "o": [
+    "62.19 lakh and sixth",
+    "55.22 lakh and eleventh",
+    "176.27 lakh and second",
+    "46.00 lakh and fourteenth"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh had 46.00 lakh cattle and ranked fourteenth in India in the 2019 Census.",
+   "ty": "numerical",
+   "tq": "Match the exact population figure with its corresponding national rank.",
+   "sec": "Livestock Census - highlights and species ranking"
+  }
+ ]
+}

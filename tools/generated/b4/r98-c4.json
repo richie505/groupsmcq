@@ -1,0 +1,527 @@
+{
+ "book": 4,
+ "row": 98,
+ "chunk": 4,
+ "section": "Services sector geography - tourism (India and AP circuits), IT, banking; salient features",
+ "subsections": [
+  "Top states by domestic and foreign tourist visits",
+  "Services sector - GVA, employment, exports and FDI shares, banking spread",
+  "IT and ITES geography - hubs, STPIs, AP IT policy (Visakhapatnam IT hub)",
+  "Pilgrimage and landmark sites → city/state",
+  "Tourism campaigns and bodies",
+  "Heritage schemes - Adarsh Smarak, Adopt a Heritage, ASI monuments"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 39,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "According to the India Year Book 2026, the number of domestic tourist visits in India during 2024 was approximately",
+   "o": [
+    "294.763 million",
+    "2,947.63 million",
+    "2,947.63 crore",
+    "29,476.3 million"
+   ],
+   "a": 1,
+   "x": "India recorded 2,947.63 million domestic tourist visits in 2024.",
+   "ty": "numerical",
+   "tq": "Distinguish million, crore and decimal-place changes in a numerical fact.",
+   "sec": "Top states by domestic and foreign tourist visits  [other exams]"
+  },
+  {
+   "s": "Consider the following statements regarding tourism in India:\n1. Tourism accounted for 5.22% of GDP in FY 2024.\n2. Tourism generated 8.46 crore jobs.\n3. Tourism accounted for 13.3% of employment.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: tourism contributed 5.22% of GDP, generated 8.46 crore jobs and represented 13.3% of employment.",
+   "ty": "statements",
+   "tq": "Test a compact group of related percentages and employment figures together.",
+   "sec": "Top states by domestic and foreign tourist visits  [other exams]"
+  },
+  {
+   "s": "With reference to India’s e-Visa facility, consider the following statements:\n1. It was introduced with Electronic Travel Authorisation in 2014.\n2. In August 2026, eleven entry ports were added.\n3. The number of e-Visa checkpoints consequently increased from 77 to 88.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The e-Visa facility with ETA began in 2014; eleven ports were added in August 2026, increasing checkpoints from 77 to 88.",
+   "ty": "statements",
+   "tq": "Link the date, numerical increase and resulting total in one sequence.",
+   "sec": "Top states by domestic and foreign tourist visits  [other exams]"
+  },
+  {
+   "s": "Which one of the following statements about the services sector in India is correct?",
+   "o": [
+    "It contributes less than half of GVA and is the smallest recipient of FDI.",
+    "It contributes more than half of GVA but is the smallest recipient of FDI.",
+    "It contributes exactly half of GVA and receives no FDI.",
+    "It contributes more than half of GVA and is the largest recipient of FDI."
+   ],
+   "a": 3,
+   "x": "Services account for more than half of India’s GVA and are the largest recipient of FDI.",
+   "ty": "comparison",
+   "tq": "Use the reversed comparison trap involving sectoral contribution and FDI.",
+   "sec": "Services sector - GVA, employment, exports and FDI shares, banking spread"
+  },
+  {
+   "s": "India’s share in global services exports in 2024 was",
+   "o": [
+    "2.0%",
+    "3.4%",
+    "4.3%",
+    "7.0%"
+   ],
+   "a": 2,
+   "x": "India held a 4.3% share of global services exports in 2024, compared with 2% in 2005.",
+   "ty": "numerical",
+   "tq": "Distinguish the current share from the historical comparison figure.",
+   "sec": "Services sector - GVA, employment, exports and FDI shares, banking spread"
+  },
+  {
+   "s": "Arrange the following facts relating to India’s services exports in chronological order:\nA. India’s services-export share was 2%.\nB. India’s services-export share was 4.3%.\nC. Services exports grew by 15.3% in FY26.",
+   "o": [
+    "A, B, C",
+    "B, A, C",
+    "A, C, B",
+    "C, A, B"
+   ],
+   "a": 0,
+   "x": "The 2% share relates to 2005, the 4.3% share to 2024, and the 15.3% growth to FY26.",
+   "ty": "chronology",
+   "tq": "Anchor the sequence using the explicit years before comparing the growth figure.",
+   "sec": "Services sector - GVA, employment, exports and FDI shares, banking spread"
+  },
+  {
+   "s": "What percentage of urban workers in India are engaged in services?",
+   "o": [
+    "52%",
+    "62%",
+    "72%",
+    "82%"
+   ],
+   "a": 1,
+   "x": "Services employ 62% of India’s urban workers.",
+   "ty": "numerical",
+   "tq": "Select the exact employment share from nearby percentage distractors.",
+   "sec": "Services sector - GVA, employment, exports and FDI shares, banking spread"
+  },
+  {
+   "s": "The growth rate of services GVA in Andhra Pradesh during 2024–25 was",
+   "o": [
+    "5.22%",
+    "8.46%",
+    "8.53%",
+    "15.3%"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh services GVA grew by 8.53% in 2024–25.",
+   "ty": "numerical",
+   "tq": "Separate the state GVA rate from national tourism and services figures.",
+   "sec": "Services sector - GVA, employment, exports and FDI shares, banking spread"
+  },
+  {
+   "s": "Which district of Andhra Pradesh had the highest number of bank branches as on 31 December 2024?",
+   "o": [
+    "Visakhapatnam",
+    "Vijayawada",
+    "Alluri Sitharama Raju",
+    "Palnadu"
+   ],
+   "a": 0,
+   "x": "Visakhapatnam had the highest number of bank branches, numbering 624.",
+   "ty": "fact",
+   "tq": "Match the district with the correct banking-spread extreme.",
+   "sec": "Services sector - GVA, employment, exports and FDI shares, banking spread"
+  },
+  {
+   "s": "Which one of the following is correctly matched regarding banking spread in Andhra Pradesh as on 31 December 2024?",
+   "o": [
+    "Visakhapatnam — 52 branches",
+    "Alluri Sitharama Raju — 624 branches",
+    "Palnadu — CD ratio of about 264%",
+    "Palnadu — lowest number of branches"
+   ],
+   "a": 2,
+   "x": "Palnadu had a credit-deposit ratio of about 264%; Visakhapatnam had 624 branches, while Alluri Sitharama Raju had 52 branches.",
+   "ty": "match",
+   "tq": "Start from the sure numerical pair and reject swapped district figures.",
+   "sec": "Services sector - GVA, employment, exports and FDI shares, banking spread"
+  },
+  {
+   "s": "Consider the following statements:\n1. The RBI Financial Inclusion Index was introduced in 2021.\n2. Its base value was 43.4 as on March 2017.\n3. PMJDY was launched on 28 August 2014.\n4. PMJDY has more than 54 crore accounts.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 3 and 4 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The Financial Inclusion Index began in 2021 with a base of 43.4 in March 2017, and PMJDY began on 28 August 2014 with over 54 crore accounts.",
+   "ty": "statements",
+   "tq": "Check every date and numerical detail independently before using the combined option.",
+   "sec": "Services sector - GVA, employment, exports and FDI shares, banking spread"
+  },
+  {
+   "s": "Which one of the following is NOT among the principal IT hubs of India identified in the services-sector geography?",
+   "o": [
+    "Pune",
+    "Hyderabad",
+    "Jaipur",
+    "Bengaluru"
+   ],
+   "a": 2,
+   "x": "The principal hubs listed are Bengaluru, Hyderabad, Pune, Chennai and the National Capital Region. Jaipur is not included in that list.",
+   "ty": "negative",
+   "tq": "Find the outsider in a list of established IT hubs.",
+   "sec": "IT and ITES geography - hubs, STPIs, AP IT policy (Visakhapatnam IT hub)"
+  },
+  {
+   "s": "The spread of IT activity to Tier-2 and Tier-3 cities is particularly associated with the expansion of",
+   "o": [
+    "SEZ ports and inland waterways",
+    "industrial corridors and freight terminals",
+    "STPI units and Global Capability Centres",
+    "co-operative banks and RRBs"
+   ],
+   "a": 2,
+   "x": "STPI units and Global Capability Centres are spreading IT activity to Tier-2 and Tier-3 cities.",
+   "ty": "fact",
+   "tq": "Identify the institutions directly linked with IT decentralisation.",
+   "sec": "IT and ITES geography - hubs, STPIs, AP IT policy (Visakhapatnam IT hub)"
+  },
+  {
+   "s": "Under the Andhra Pradesh IT & GCC Policy 4.0 for 2024–29, co-working and neighbourhood workspaces are to be provided in",
+   "o": [
+    "Visakhapatnam, Anakapalli and Tirupati only",
+    "Tirupati, Visakhapatnam and Vijayawada",
+    "Vijayawada, Guntur and Rajahmundry",
+    "Amaravati, Kurnool and Nellore"
+   ],
+   "a": 1,
+   "x": "The policy provides for co-working and neighbourhood workspaces in Tirupati, Visakhapatnam and Vijayawada.",
+   "ty": "fact",
+   "tq": "Match the policy with its specifically named locations.",
+   "sec": "IT and ITES geography - hubs, STPIs, AP IT policy (Visakhapatnam IT hub)"
+  },
+  {
+   "s": "Consider the following statements about the proposed Google AI data centre in Andhra Pradesh:\n1. It is being built in Visakhapatnam and Anakapalli.\n2. Its proposed investment is US$15 billion.\n3. It is described as Google’s largest AI hub outside the United States.\n4. Its groundbreaking took place in April 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The project involves Visakhapatnam and Anakapalli, an investment of US$15 billion, and groundbreaking in April 2026.",
+   "ty": "statements",
+   "tq": "Combine location, investment, comparative status and date without reversing the project details.",
+   "sec": "IT and ITES geography - hubs, STPIs, AP IT policy (Visakhapatnam IT hub)"
+  },
+  {
+   "s": "The approximate rupee value stated for Google’s proposed US$15-billion AI data-centre investment in Andhra Pradesh is",
+   "o": [
+    "₹8,752 crore",
+    "₹87,520 crore",
+    "₹87,520 lakh",
+    "₹8,75,200 crore"
+   ],
+   "a": 1,
+   "x": "The investment is approximately ₹87,520 crore.",
+   "ty": "numerical",
+   "tq": "Check the crore-lakh conversion and the position of zeroes.",
+   "sec": "IT and ITES geography - hubs, STPIs, AP IT policy (Visakhapatnam IT hub)"
+  },
+  {
+   "s": "Which two IT companies have started operations in Visakhapatnam?",
+   "o": [
+    "TCS and Cognizant",
+    "Infosys and Wipro",
+    "Google and Microsoft",
+    "IBM and Oracle"
+   ],
+   "a": 0,
+   "x": "TCS and Cognizant have started operations in Visakhapatnam.",
+   "ty": "fact",
+   "tq": "Use the company-pair identification method for a location-based industry question.",
+   "sec": "IT and ITES geography - hubs, STPIs, AP IT policy (Visakhapatnam IT hub)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Golden Temple — Amritsar, Punjab",
+    "Sabarimala — Ujjain, Madhya Pradesh",
+    "Dwarka — Tamil Nadu",
+    "Rameswaram — Gujarat"
+   ],
+   "a": 0,
+   "x": "The Golden Temple is located at Amritsar in Punjab. Sabarimala is in Kerala, Dwarka in Gujarat and Rameswaram in Tamil Nadu.",
+   "ty": "match",
+   "tq": "Start with the sure site-city-state pair and reject state swaps.",
+   "sec": "Pilgrimage and landmark sites → city/state  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following pilgrimage sites is correctly matched with its location?",
+   "o": [
+    "Rameswaram — Amritsar, Punjab",
+    "Sabarimala — Pathanamthitta, Kerala",
+    "Dwarka — Ujjain, Madhya Pradesh",
+    "Mahakaleshwar — Rishikesh, Uttarakhand"
+   ],
+   "a": 1,
+   "x": "Sabarimala is located in Pathanamthitta district of Kerala.",
+   "ty": "fact",
+   "tq": "Discriminate between pilgrimage sites that are frequently confused by state and city.",
+   "sec": "Pilgrimage and landmark sites → city/state  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Statue of Unity is located at",
+   "o": [
+    "Amritsar, Punjab",
+    "Rishikesh, Uttarakhand",
+    "Ujjain, Madhya Pradesh",
+    "Kevadia, also known as Ekta Nagar, Gujarat"
+   ],
+   "a": 3,
+   "x": "The Statue of Unity is located at Kevadia, now also known as Ekta Nagar, in Gujarat.",
+   "ty": "fact",
+   "tq": "Test the exact landmark location rather than its associated personality.",
+   "sec": "Pilgrimage and landmark sites → city/state  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding the Statue of Unity:\n1. It is dedicated to Sardar Vallabhbhai Patel.\n2. It is 182 metres tall.\n3. It lies between the Satpura and Vindhya ranges.\n4. It was sculpted by Ram V. Sutar.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the Statue of Unity.",
+   "ty": "statements",
+   "tq": "Verify a landmark through its dedicatee, height, physical setting and sculptor.",
+   "sec": "Pilgrimage and landmark sites → city/state  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Yoga capital of the world — Rishikesh, Uttarakhand",
+    "Mahakaleshwar — Kevadia, Gujarat",
+    "Statue of Unity — Ujjain, Madhya Pradesh",
+    "Char Dham — Rameswaram, Tamil Nadu"
+   ],
+   "a": 0,
+   "x": "Rishikesh in Uttarakhand is known as the Yoga capital of the world.",
+   "ty": "match",
+   "tq": "Reject cross-matching between landmark titles and pilgrimage locations.",
+   "sec": "Pilgrimage and landmark sites → city/state  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following is NOT a member of the Char Dham of Uttarakhand?",
+   "o": [
+    "Rameswaram",
+    "Kedarnath",
+    "Yamunotri",
+    "Badrinath"
+   ],
+   "a": 0,
+   "x": "The Char Dham of Uttarakhand comprises Badrinath, Kedarnath, Gangotri and Yamunotri. Rameswaram is not part of this group.",
+   "ty": "negative",
+   "tq": "Find the outsider in a geographically confined pilgrimage list.",
+   "sec": "Pilgrimage and landmark sites → city/state  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Who was the Union Minister for Tourism associated with the revamped Incredible India Digital Platform in August 2026?",
+   "o": [
+    "Gajendra Singh Shekhawat",
+    "Kiren Rijiju",
+    "Ashwini Vaishnaw",
+    "Dharmendra Pradhan"
+   ],
+   "a": 0,
+   "x": "Gajendra Singh Shekhawat was the Union Minister for Tourism associated with the revamped Incredible India Digital Platform.",
+   "ty": "fact",
+   "tq": "Match the ministry with the correct minister, avoiding neighbouring portfolio names.",
+   "sec": "Tourism campaigns and bodies  [other exams, GROUP-II]"
+  },
+  {
+   "s": "The Incredible India campaign was launched in",
+   "o": [
+    "1991",
+    "1998",
+    "2002",
+    "2010"
+   ],
+   "a": 2,
+   "x": "The Incredible India campaign dates from 2002.",
+   "ty": "numerical",
+   "tq": "Distinguish the campaign’s launch year from later tourism initiatives.",
+   "sec": "Tourism campaigns and bodies  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "ITDC — established in 1966",
+    "Paryatan Didi — launched in 2002",
+    "Incredible India Tourist Facilitator certification — established in 1966",
+    "Travel for LiFE — launched in 2014"
+   ],
+   "a": 0,
+   "x": "ITDC, or India Tourism Development Corporation, was established in 1966. The other initiatives have different dates or are not matched with the stated year.",
+   "ty": "match",
+   "tq": "Use the year-organisation pair as the sure match and identify swapped dates.",
+   "sec": "Tourism campaigns and bodies  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Paryatan Mitra and Paryatan Didi were launched on",
+   "o": [
+    "27 September 2024",
+    "15 August 2022",
+    "26 January 2023",
+    "2 October 2025"
+   ],
+   "a": 0,
+   "x": "Paryatan Mitra and Paryatan Didi were launched on 27 September 2024.",
+   "ty": "fact",
+   "tq": "Retain the exact day-month-year associated with a tourism initiative.",
+   "sec": "Tourism campaigns and bodies  [other exams, GROUP-II]"
+  },
+  {
+   "s": "The 12th International Tourism Mart, held in November 2024, was organised at",
+   "o": [
+    "Kaziranga",
+    "Rishikesh",
+    "Visakhapatnam",
+    "Kevadia"
+   ],
+   "a": 0,
+   "x": "The 12th International Tourism Mart was held at Kaziranga in November 2024.",
+   "ty": "fact",
+   "tq": "Match the event edition and date with its venue.",
+   "sec": "Tourism campaigns and bodies  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Which of the following initiatives is associated with sustainable and responsible tourism behaviour?",
+   "o": [
+    "National Mission on Cultural Mapping",
+    "Adarsh Smarak",
+    "PMJDY",
+    "Travel for LiFE"
+   ],
+   "a": 3,
+   "x": "Travel for LiFE is the tourism initiative associated with sustainable and responsible travel behaviour.",
+   "ty": "application",
+   "tq": "Identify the initiative from its functional objective rather than its institutional name.",
+   "sec": "Tourism campaigns and bodies  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about centrally protected monuments in India:\n1. The Archaeological Survey of India conserves 3,688 centrally protected monuments.\n2. These include 28 World Heritage properties.\n3. Their conservation is governed, among other laws, by the AMASR Act, 1958.\n4. The Antiquities and Art Treasures Act was enacted in 1972.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. ASI conserves 3,688 centrally protected monuments, including 28 World Heritage properties, under the stated legal framework.",
+   "ty": "statements",
+   "tq": "Combine an institutional count with the two relevant Acts and their years.",
+   "sec": "Heritage schemes - Adarsh Smarak, Adopt a Heritage, ASI monuments  [GROUP-II]"
+  },
+  {
+   "s": "The Adarsh Smarak scheme primarily aims to provide",
+   "o": [
+    "model monuments with improved visitor amenities",
+    "financial assistance only to private museums",
+    "digital banking facilities at heritage sites",
+    "new pilgrimage routes between four Himalayan shrines"
+   ],
+   "a": 0,
+   "x": "Adarsh Smarak seeks to develop model monuments with better amenities for visitors.",
+   "ty": "application",
+   "tq": "Select the option that states the scheme’s operational purpose precisely.",
+   "sec": "Heritage schemes - Adarsh Smarak, Adopt a Heritage, ASI monuments  [GROUP-II]"
+  },
+  {
+   "s": "Which group of Andhra Pradesh heritage sites is covered under the Adarsh Smarak scheme?",
+   "o": [
+    "Amaravati, Nagarjunakonda and Bavikonda",
+    "Araku, Lambasingi and Borra Caves",
+    "Visakhapatnam, Vijayawada and Kurnool",
+    "Tirupati, Srisailam and Lepakshi"
+   ],
+   "a": 0,
+   "x": "Amaravati, Nagarjunakonda and Bavikonda in Andhra Pradesh are covered under Adarsh Smarak.",
+   "ty": "fact",
+   "tq": "Recall the complete state-specific site group rather than one isolated monument.",
+   "sec": "Heritage schemes - Adarsh Smarak, Adopt a Heritage, ASI monuments  [GROUP-II]"
+  },
+  {
+   "s": "The scheme ‘Apni Dharohar, Apni Pehchaan’ is popularly known as",
+   "o": [
+    "Adopt a Heritage",
+    "HRIDAY",
+    "Travel for LiFE",
+    "Adarsh Smarak"
+   ],
+   "a": 0,
+   "x": "‘Apni Dharohar, Apni Pehchaan’ is the Adopt a Heritage scheme, launched in 2017.",
+   "ty": "confusable",
+   "tq": "Discriminate between similarly themed heritage schemes by their official title.",
+   "sec": "Heritage schemes - Adarsh Smarak, Adopt a Heritage, ASI monuments  [GROUP-II]"
+  },
+  {
+   "s": "Under the Adopt a Heritage scheme, companies primarily undertake to",
+   "o": [
+    "maintain amenities at adopted heritage sites",
+    "construct new airports near monuments",
+    "administer the AMASR Act",
+    "prepare the national list of World Heritage properties"
+   ],
+   "a": 0,
+   "x": "The scheme enables companies to adopt heritage sites and help maintain amenities there.",
+   "ty": "application",
+   "tq": "Match the scheme with the practical responsibility assigned to participating companies.",
+   "sec": "Heritage schemes - Adarsh Smarak, Adopt a Heritage, ASI monuments  [GROUP-II]"
+  },
+  {
+   "s": "Which pair of initiatives is associated with heritage-city development and cultural mapping, respectively?",
+   "o": [
+    "HRIDAY and National Mission on Cultural Mapping",
+    "Adopt a Heritage and Adarsh Smarak",
+    "Incredible India and Travel for LiFE",
+    "PMJDY and Financial Inclusion Index"
+   ],
+   "a": 0,
+   "x": "HRIDAY concerns heritage city development, while the National Mission on Cultural Mapping focuses on mapping cultural resources.",
+   "ty": "match",
+   "tq": "Start from the functional distinction between urban heritage development and cultural mapping.",
+   "sec": "Heritage schemes - Adarsh Smarak, Adopt a Heritage, ASI monuments  [GROUP-II]"
+  },
+  {
+   "s": "In 2022, the number of new sites identified for the national-importance tag, as stated by the Culture Minister in the Lok Sabha, was",
+   "o": [
+    "12",
+    "20",
+    "28",
+    "36"
+   ],
+   "a": 1,
+   "x": "Twenty new sites were identified for the national-importance tag in 2022.",
+   "ty": "numerical",
+   "tq": "Separate the newly identified sites from the total number of World Heritage properties and monuments.",
+   "sec": "Heritage schemes - Adarsh Smarak, Adopt a Heritage, ASI monuments  [GROUP-II]"
+  }
+ ]
+}

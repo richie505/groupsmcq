@@ -1,0 +1,471 @@
+{
+ "book": 3,
+ "row": 26,
+ "chunk": 0,
+ "section": "Demography of India - Census 2011 findings, population growth, density, sex ratio, literacy",
+ "subsections": [
+  "Census 2011 highest/lowest and rankings - States and UTs",
+  "National aggregates and long-run trend",
+  "AP Census figures across years",
+  "Other demographic sources - NFHS-5, NSS, British-period conditions",
+  "Census 2011 worker data - cultivators vs agricultural labourers",
+  "Census 2011 SC/ST household amenities"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 39,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 6
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched with respect to Census 2011 density figures?",
+   "o": [
+    "Chandigarh — 9,258 persons per sq km",
+    "Kerala — 1,106 persons per sq km",
+    "West Bengal — 860 persons per sq km",
+    "Bihar — 1,028 persons per sq km"
+   ],
+   "a": 0,
+   "x": "Chandigarh had a density of 9,258 persons per square kilometre. The other figures are interchanged among Bihar, West Bengal and Kerala.",
+   "ty": "match",
+   "tq": "Use the exact figure-location pair and watch for swapped numerical values.",
+   "sec": "Census 2011 highest/lowest and rankings - States and UTs  [APPSC]"
+  },
+  {
+   "s": "Which State recorded the largest gender gap in literacy according to the figures given?",
+   "o": [
+    "Bihar",
+    "Kerala",
+    "Andhra Pradesh",
+    "Rajasthan"
+   ],
+   "a": 3,
+   "x": "Rajasthan recorded the largest gender gap in literacy, at 28 percentage points, compared with the national gap of 16 points.",
+   "ty": "fact",
+   "tq": "Identify the exceptional state rather than the state with the highest overall literacy.",
+   "sec": "Census 2011 highest/lowest and rankings - States and UTs  [APPSC]"
+  },
+  {
+   "s": "The national literacy rate in 2011, according to the final Census figure, was",
+   "o": [
+    "67.35%",
+    "72.98%",
+    "74.04%",
+    "76.12%"
+   ],
+   "a": 1,
+   "x": "The final literacy rate of India in 2011 was 72.98%. The provisional figure was 74.04%.",
+   "ty": "numerical",
+   "tq": "Separate the final figure from the provisional estimate.",
+   "sec": "National aggregates and long-run trend  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the change in India's literacy rate between 1951 and 2011?",
+   "o": [
+    "It increased from 8.9% to 74.04%.",
+    "It increased from 27.2% to 64.6%.",
+    "It increased from 18.33% to 72.98%.",
+    "It declined from 72.98% to 18.33%."
+   ],
+   "a": 2,
+   "x": "India's overall literacy rate rose from 18.33% in 1951 to 72.98% in 2011. The figures 27.2% and 8.9% refer to male and female literacy respectively in 1951.",
+   "ty": "comparison",
+   "tq": "Match the overall indicator with its correct beginning and ending values.",
+   "sec": "National aggregates and long-run trend  [APPSC]"
+  },
+  {
+   "s": "In 1951, the male and female literacy rates of India were respectively",
+   "o": [
+    "27.2% and 8.9%",
+    "18.33% and 8.9%",
+    "64.6% and 27.2%",
+    "72.98% and 18.33%"
+   ],
+   "a": 0,
+   "x": "In 1951, male literacy was 27.2% and female literacy was 8.9%; the overall literacy rate was 18.33%.",
+   "ty": "fact",
+   "tq": "Read the sex-specific figures in the order asked.",
+   "sec": "National aggregates and long-run trend  [APPSC]"
+  },
+  {
+   "s": "Arrange the following phases of India's population growth in chronological order:\nA. High but slowing growth\nB. Stagnant population, including decline during 1911–21\nC. Steady growth\nD. Rapid growth, including the population explosion during 1961–71",
+   "o": [
+    "B, C, D, A",
+    "C, B, D, A",
+    "B, D, C, A",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The sequence is 1901–21 stagnant, 1921–51 steady growth, 1951–81 rapid growth, and 1981–2011 high but slowing growth.",
+   "ty": "chronology",
+   "tq": "Use the date ranges as anchors and place the phases from earliest to latest.",
+   "sec": "National aggregates and long-run trend  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents India's religious population figures in 2011?",
+   "o": [
+    "Hindus — 79.8%; Muslims — 14.2%",
+    "Hindus — 84.1%; Muslims — 9.8%",
+    "Hindus — 14.2%; Muslims — 79.8%",
+    "Hindus — 72.98%; Muslims — 17.2%"
+   ],
+   "a": 0,
+   "x": "In 2011, Hindus constituted 79.8% and Muslims 14.2% of India's population. The figures 84.1% and 9.8% are their respective shares in 1951.",
+   "ty": "comparison",
+   "tq": "Separate current shares from the historical comparison figures.",
+   "sec": "National aggregates and long-run trend  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched for India's religious population in 2011?",
+   "o": [
+    "Christians — 2.78 crore and 2.3%",
+    "Sikhs — 2.78 crore and 2.3%",
+    "Christians — 2.08 crore and 1.7%",
+    "Sikhs — 17.2 crore and 14.2%"
+   ],
+   "a": 0,
+   "x": "Christians numbered about 2.78 crore and constituted 2.3% of the population. Sikhs numbered 2.08 crore and constituted 1.7%.",
+   "ty": "match",
+   "tq": "Start with the sure population-share pair and reject swapped religious groups.",
+   "sec": "National aggregates and long-run trend  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about Scheduled Tribes in India:\n1. The Scheduled Tribe population was 10.43 crore in 2011.\n2. Scheduled Tribes constituted 8.6% of India's population.\n3. About 89.97% of the Scheduled Tribe population was rural.\n4. The Scheduled Tribe sex ratio was 990.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct according to the stated Census 2011 figures.",
+   "ty": "statements",
+   "tq": "Verify each component of a compact demographic data set before choosing the complete combination.",
+   "sec": "National aggregates and long-run trend  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly gives the population and sex ratio of Andhra Pradesh in 2011?",
+   "o": [
+    "495.77 lakh and 997",
+    "453.97 lakh and 983",
+    "495.77 lakh and 983",
+    "404.19 lakh and 997"
+   ],
+   "a": 0,
+   "x": "In 2011, Andhra Pradesh had a population of 495.77 lakh and a sex ratio of 997.",
+   "ty": "match",
+   "tq": "Match the year-specific population figure with its corresponding sex ratio.",
+   "sec": "AP Census figures across years  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the population and density of Andhra Pradesh in 1991?",
+   "o": [
+    "333.69 lakh and 208",
+    "404.19 lakh and 252",
+    "453.97 lakh and 279",
+    "495.77 lakh and 304"
+   ],
+   "a": 1,
+   "x": "In 1991, Andhra Pradesh had a population of 404.19 lakh and a density of 252 persons per square kilometre.",
+   "ty": "match",
+   "tq": "Use the year as the key and reject figures belonging to adjacent census years.",
+   "sec": "AP Census figures across years  [APPSC]"
+  },
+  {
+   "s": "The urban population percentage of Andhra Pradesh increased from 24.13% in 2001 to what level in 2011?",
+   "o": [
+    "24.77%",
+    "27.49%",
+    "29.47%",
+    "32.14%"
+   ],
+   "a": 2,
+   "x": "The urban population share of Andhra Pradesh was 29.47% in 2011, compared with 24.13% in 2001.",
+   "ty": "numerical",
+   "tq": "Compare consecutive census values rather than confusing them with the 1991 figure.",
+   "sec": "AP Census figures across years  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding Andhra Pradesh's population growth is correct?\n1. Its decadal growth was 18.88% during 1961–71.\n2. It rose to 21.13% during 1981–91.\n3. It fell to 9.21% during 2001–11.\n4. The 2001–11 figure was lower than India's figure of 17.7%.\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe Andhra Pradesh's decadal growth pattern and its comparison with India.",
+   "ty": "statements",
+   "tq": "Track the trend across several periods and test the final comparison separately.",
+   "sec": "AP Census figures across years  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly compares the literacy rates of Andhra Pradesh and India in 2011?",
+   "o": [
+    "AP 62.07%; India 74.04%",
+    "AP 59.96%; India 64.6%",
+    "AP 72.98%; India 67.35%",
+    "AP 67.35%; India 72.98%"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh had a literacy rate of 67.35%, below India's final rate of 72.98%. The female literacy rate of AP was 59.96%.",
+   "ty": "comparison",
+   "tq": "Keep the State figure, national figure and female-specific figure distinct.",
+   "sec": "AP Census figures across years  [APPSC]"
+  },
+  {
+   "s": "Which district of Andhra Pradesh had the highest population density according to the figures given?",
+   "o": [
+    "Prakasam",
+    "Srikakulam",
+    "YSR Kadapa",
+    "Krishna"
+   ],
+   "a": 3,
+   "x": "Krishna district had the highest density in Andhra Pradesh, at 518 persons per square kilometre.",
+   "ty": "fact",
+   "tq": "Identify the district attached to the stated maximum rather than the districts grouped at the minimum.",
+   "sec": "AP Census figures across years  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched regarding urbanisation in Andhra Pradesh?",
+   "o": [
+    "Visakhapatnam — most urban, 47.45%",
+    "Srikakulam — most urban, 47.45%",
+    "Visakhapatnam — least urban, 16.16%",
+    "Krishna — most urban, 29.47%"
+   ],
+   "a": 0,
+   "x": "Visakhapatnam was the most urban district, with 47.45% urban population. Srikakulam was the least urban, at 16.16%.",
+   "ty": "match",
+   "tq": "Match the district with the correct extreme and percentage.",
+   "sec": "AP Census figures across years  [APPSC]"
+  },
+  {
+   "s": "Which statement correctly describes the Scheduled Tribe population of Andhra Pradesh in 2011?\n1. It was 26.31 lakh.\n2. It constituted 5.3% of the population.\n3. Its literacy rate was 48.8%.\n4. Its sex ratio was 1,009.\nSelect the correct answer.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four figures correctly describe the Scheduled Tribe population and indicators of Andhra Pradesh.",
+   "ty": "statements",
+   "tq": "Treat each demographic indicator as a separate statement before selecting the combined code.",
+   "sec": "AP Census figures across years  [APPSC]"
+  },
+  {
+   "s": "According to NFHS-5, India's overall sex ratio was",
+   "o": [
+    "985",
+    "991",
+    "1,020",
+    "1,037"
+   ],
+   "a": 2,
+   "x": "NFHS-5 recorded an overall sex ratio of 1,020, the first NFHS estimate above 1,000 and the highest since NFHS began in 1992.",
+   "ty": "fact",
+   "tq": "Distinguish the overall NFHS-5 figure from its rural and urban components.",
+   "sec": "Other demographic sources - NFHS-5, NSS, British-period conditions  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the rural and urban sex ratios under NFHS-5?",
+   "o": [
+    "Rural 991; Urban 1,020",
+    "Rural 985; Urban 1,037",
+    "Rural 1,020; Urban 1,037",
+    "Rural 1,037; Urban 985"
+   ],
+   "a": 3,
+   "x": "NFHS-5 recorded a rural sex ratio of 1,037 and an urban sex ratio of 985. NFHS-4 recorded 991 overall.",
+   "ty": "comparison",
+   "tq": "Do not substitute the NFHS-4 overall figure for the NFHS-5 area-wise figures.",
+   "sec": "Other demographic sources - NFHS-5, NSS, British-period conditions  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about NFHS-5:\n1. The total fertility rate was 2.0.\n2. The infant mortality rate was 35.2.\n3. The under-five mortality rate was 41.9.\n4. Women's literacy was 71.5%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four indicators are correctly stated for NFHS-5.",
+   "ty": "statements",
+   "tq": "Check whether all figures belong to the same survey before accepting the complete option.",
+   "sec": "Other demographic sources - NFHS-5, NSS, British-period conditions  [APPSC]"
+  },
+  {
+   "s": "The NFHS-5 sex ratio at birth for children born during the preceding five years was",
+   "o": [
+    "917",
+    "920",
+    "929",
+    "985"
+   ],
+   "a": 2,
+   "x": "NFHS-5 reported a sex ratio at birth of 929. A separate CDI reference gives 920 as a child sex ratio.",
+   "ty": "confusable",
+   "tq": "Distinguish sex ratio at birth from the separately reported child sex-ratio figure.",
+   "sec": "Other demographic sources - NFHS-5, NSS, British-period conditions  [APPSC]"
+  },
+  {
+   "s": "According to CRS 2024, which State recorded the best sex ratio at birth?",
+   "o": [
+    "Nagaland",
+    "Arunachal Pradesh",
+    "Jharkhand",
+    "Kerala"
+   ],
+   "a": 1,
+   "x": "Arunachal Pradesh recorded the best sex ratio at birth under CRS 2024, at 1,050; Kerala recorded 970.",
+   "ty": "fact",
+   "tq": "Identify the best-performing State from the CRS ranking rather than the national census ranking.",
+   "sec": "Other demographic sources - NFHS-5, NSS, British-period conditions  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the lowest CRS 2024 sex ratios at birth?",
+   "o": [
+    "Nagaland and Lakshadweep — 865 each; Jharkhand — 890",
+    "Nagaland and Kerala — 865 each; Jharkhand — 890",
+    "Lakshadweep and Jharkhand — 865 each; Nagaland — 890",
+    "Daman and Diu and Lakshadweep — 865 each; Jharkhand — 890"
+   ],
+   "a": 0,
+   "x": "Nagaland and Lakshadweep recorded 865 each, while Jharkhand recorded 890, among the lowest CRS 2024 figures.",
+   "ty": "match",
+   "tq": "Look for the exact paired minimum and the separately ranked third figure.",
+   "sec": "Other demographic sources - NFHS-5, NSS, British-period conditions  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding CRS 2024 is correct?\n1. Birth and death registration crossed 99% for the first time.\n2. Arunachal Pradesh recorded a sex ratio at birth of 1,050.\n3. Kerala recorded a sex ratio at birth of 970.\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly state the CRS 2024 registration and sex-ratio figures.",
+   "ty": "statements",
+   "tq": "Combine the administrative coverage fact with the two ranking figures.",
+   "sec": "Other demographic sources - NFHS-5, NSS, British-period conditions  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes demographic conditions during the British period in India?",
+   "o": [
+    "Overall literacy below 16%, female literacy about 7%, infant mortality about 218 per 1,000 and life expectancy about 32 years",
+    "Overall literacy 72.98%, female literacy 64.6%, infant mortality 35.2 and life expectancy 32 years",
+    "Overall literacy about 32%, female literacy about 16%, infant mortality 7 per 1,000 and life expectancy 218 years",
+    "Overall literacy below 16%, male literacy about 7%, infant mortality about 32 per 1,000 and life expectancy 218 years"
+   ],
+   "a": 0,
+   "x": "British-period conditions were marked by overall literacy below 16%, female literacy around 7%, infant mortality around 218 per 1,000 and life expectancy around 32 years.",
+   "ty": "comparison",
+   "tq": "Read the complete group of indicators and reject the option with swapped labels or units.",
+   "sec": "Other demographic sources - NFHS-5, NSS, British-period conditions  [APPSC]"
+  },
+  {
+   "s": "Under the Census 2011 worker data, which category outnumbered cultivators for the first time?",
+   "o": [
+    "Household-industry workers",
+    "Rural artisans",
+    "Agricultural labourers",
+    "Non-agricultural self-employed workers"
+   ],
+   "a": 2,
+   "x": "Agricultural labourers outnumbered cultivators for the first time in Census 2011.",
+   "ty": "fact",
+   "tq": "Focus on the occupational reversal rather than the absolute numbers first.",
+   "sec": "Census 2011 worker data - cultivators vs agricultural labourers  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly compares agricultural labourers and cultivators in Census 2011?",
+   "o": [
+    "Agricultural labourers 14.4 crore; cultivators 12.7 crore",
+    "Agricultural labourers 14.4 crore; cultivators 11.9 crore",
+    "Agricultural labourers 12.7 crore; cultivators 14.4 crore",
+    "Agricultural labourers 11.9 crore; cultivators 14.4 crore"
+   ],
+   "a": 1,
+   "x": "Census 2011 recorded about 14.4 crore agricultural labourers and 11.9 crore cultivators. The number of cultivators had been 12.7 crore in 2001.",
+   "ty": "comparison",
+   "tq": "Keep the 2011 categories separate from the 2001 cultivator figure.",
+   "sec": "Census 2011 worker data - cultivators vs agricultural labourers  [APPSC]"
+  },
+  {
+   "s": "The approximate shares of agricultural labourers and cultivators in the total worker data of Census 2011 were respectively",
+   "o": [
+    "11.9% and 12.7%",
+    "30% and 24.6%",
+    "14.4% and 11.9%",
+    "24.6% and 30%"
+   ],
+   "a": 1,
+   "x": "Agricultural labourers accounted for about 30%, while cultivators accounted for about 24.6%.",
+   "ty": "numerical",
+   "tq": "Read the categories in the order used in the question and avoid reversing their percentages.",
+   "sec": "Census 2011 worker data - cultivators vs agricultural labourers  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about Scheduled Tribe households:\n1. There were 23 million ST households.\n2. About 87% used firewood or crop residue for cooking.\n3. Only 9% used LPG for cooking.\n4. Only 23% had drainage facilities.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the Census 2011 ST household amenity data.",
+   "ty": "statements",
+   "tq": "Check the household count and each amenity percentage individually.",
+   "sec": "Census 2011 SC/ST household amenities  [APPSC]"
+  },
+  {
+   "s": "Most Scheduled Tribe landholdings in India were marginal, accounting for",
+   "o": [
+    "23%",
+    "48.8%",
+    "56.26%",
+    "64.83%"
+   ],
+   "a": 2,
+   "x": "Marginal holdings constituted 56.26% of ST landholdings in India. The corresponding figure for Andhra Pradesh was 64.83%.",
+   "ty": "numerical",
+   "tq": "Distinguish the national percentage from the Andhra Pradesh percentage.",
+   "sec": "Census 2011 SC/ST household amenities  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched regarding marginal Scheduled Tribe landholdings?",
+   "o": [
+    "India — 64.83%; Andhra Pradesh — 56.26%",
+    "India — 56.26%; Andhra Pradesh — 64.83%",
+    "India — 48.8%; Andhra Pradesh — 56.26%",
+    "India — 23%; Andhra Pradesh — 64.83%"
+   ],
+   "a": 1,
+   "x": "Marginal ST landholdings accounted for 56.26% in India and 64.83% in Andhra Pradesh.",
+   "ty": "match",
+   "tq": "Start from the national figure and check whether the State figure has been swapped.",
+   "sec": "Census 2011 SC/ST household amenities  [APPSC]"
+  },
+  {
+   "s": "The Scheduled Caste population of Andhra Pradesh comprising 13 districts in 2011 was",
+   "o": [
+    "8.469 crore",
+    "26.31 lakh",
+    "48.8 lakh",
+    "84.69 lakh"
+   ],
+   "a": 3,
+   "x": "The Scheduled Caste population of 13-district Andhra Pradesh was 84.69 lakh in 2011.",
+   "ty": "numerical",
+   "tq": "Distinguish the SC population figure from the AP ST population figure.",
+   "sec": "Census 2011 SC/ST household amenities  [APPSC]"
+  }
+ ]
+}

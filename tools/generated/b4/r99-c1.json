@@ -1,0 +1,468 @@
+{
+ "book": 4,
+ "row": 99,
+ "chunk": 1,
+ "section": "Energy resources - coal, petroleum, natural gas, hydel, nuclear and renewable; distribution in India and AP",
+ "subsections": [
+  "Coalfields → state and river valley",
+  "Nuclear power - reactors → district and state, three-stage programme, breeder concept",
+  "Thermal power stations → state or district"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Raniganj coalfield is located in which State and associated with which river valley?",
+   "o": [
+    "West Bengal — Damodar Valley",
+    "Jharkhand — Son Valley",
+    "Odisha — Brahmani Valley",
+    "Chhattisgarh — Hasdeo Valley"
+   ],
+   "a": 0,
+   "x": "Raniganj coalfield is located in West Bengal and lies in the Damodar Valley. The first coal mine in India was opened at Raniganj in 1774.",
+   "ty": "match",
+   "tq": "Start from the sure location–river pair.",
+   "sec": "Coalfields → state and river valley  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Jharia — Jharkhand — Damodar Valley",
+    "Korba — Madhya Pradesh — Son Valley",
+    "Talcher — Telangana — Godavari Valley",
+    "Singareni — Odisha — Brahmani Valley"
+   ],
+   "a": 0,
+   "x": "Jharia is in Jharkhand and forms part of the Damodar Valley. Korba is in Chhattisgarh, Talcher in Odisha and Singareni in Telangana.",
+   "ty": "match",
+   "tq": "Use the state–valley combination to eliminate swapped locations.",
+   "sec": "Coalfields → state and river valley  [APPSC]"
+  },
+  {
+   "s": "Jharia coalfield is particularly noted for which of the following?",
+   "o": [
+    "Lignite deposits in the Satpura Basin",
+    "The largest coking-coal field",
+    "The first commercial coal mine in India",
+    "Tertiary coal"
+   ],
+   "a": 1,
+   "x": "Jharia in Jharkhand is the largest coking-coal field and is situated in the Damodar Valley.",
+   "ty": "fact",
+   "tq": "Directly distinguish the coalfield by its special characteristic.",
+   "sec": "Coalfields → state and river valley  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\na. Karanpura — Jharkhand — Damodar Valley\nb. Korba — Chhattisgarh — Hasdeo\nc. Umaria — Madhya Pradesh — Son\nd. Singareni — Telangana — Godavari\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "a and b only",
+    "a, b and c only",
+    "b, c and d only",
+    "a, b, c and d"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Karanpura is in the Damodar Valley, Korba in the Hasdeo basin, Umaria in the Son Valley and Singareni in the Godavari Valley.",
+   "ty": "statements",
+   "tq": "Check each pair independently before selecting the coded combination.",
+   "sec": "Coalfields → state and river valley  [APPSC]"
+  },
+  {
+   "s": "Which one of the following coalfields is correctly matched with its State and distinctive feature?",
+   "o": [
+    "Mawlong — Meghalaya — Tertiary coal",
+    "Satpura — Odisha — Brahmani Valley",
+    "Talcher — Madhya Pradesh — Satpura Basin",
+    "Umaria — Chhattisgarh — Hasdeo Valley"
+   ],
+   "a": 0,
+   "x": "Mawlong is located in Meghalaya and is associated with Tertiary coal. Satpura and Umaria are in Madhya Pradesh, while Talcher is in Odisha.",
+   "ty": "match",
+   "tq": "Use the distinctive geological term as the anchor pair.",
+   "sec": "Coalfields → state and river valley  [APPSC]"
+  },
+  {
+   "s": "The Satpura coalfield, including the Pench-Kanhan and Pathakhera fields, is located in which State?",
+   "o": [
+    "Jharkhand",
+    "Chhattisgarh",
+    "West Bengal",
+    "Madhya Pradesh"
+   ],
+   "a": 3,
+   "x": "The Satpura coalfield, including Pench-Kanhan and Pathakhera, is located in Madhya Pradesh and belongs to the Satpura Basin.",
+   "ty": "fact",
+   "tq": "Direct state identification from a grouped coalfield name.",
+   "sec": "Coalfields → state and river valley  [APPSC]"
+  },
+  {
+   "s": "About what proportion of India’s coal reserves is located in the Damodar Valley?",
+   "o": [
+    "About one-half",
+    "About one-quarter",
+    "About one-tenth",
+    "About three-quarters"
+   ],
+   "a": 1,
+   "x": "About one-fourth, or one-quarter, of India’s coal reserves lies in the Damodar Valley.",
+   "ty": "numerical",
+   "tq": "Distinguish the approximate fraction from larger share traps.",
+   "sec": "Coalfields → state and river valley  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding Indian coal is correct?\n1. Gondwana coal accounts for about 98% of India’s coal reserves.\n2. Tertiary coal is mainly associated with North-East India and Jammu and Kashmir.\n3. Tertiary coal accounts for about 50% of India’s coal reserves.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Tertiary coal accounts for about 2%, not 50%, of India’s coal reserves.",
+   "ty": "statements",
+   "tq": "Reject the exaggerated percentage while retaining the geological distribution.",
+   "sec": "Coalfields → state and river valley  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT included among the Gondwana coal-bearing valleys listed for India?",
+   "o": [
+    "Godavari",
+    "Mahanadi",
+    "Damodar",
+    "Narmada"
+   ],
+   "a": 3,
+   "x": "The listed Gondwana coal-bearing valleys are Damodar, Son, Mahanadi, Godavari and Wardha. Narmada is not included in this list.",
+   "ty": "negative",
+   "tq": "Find the odd geographical member in a named group.",
+   "sec": "Coalfields → state and river valley  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about India’s coal resources:\n1. India’s coal reserves are about 344 billion tonnes.\n2. The Coal Directory of India describes India as the world’s fourth-largest coal reserve holder.\n3. Coal India is the world’s largest coal producer.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: reserves are about 344 billion tonnes, India is described as the fourth-largest by the Coal Directory of India, and Coal India is the world’s largest coal producer.",
+   "ty": "statements",
+   "tq": "Test a cluster of numerical and institutional facts together.",
+   "sec": "Coalfields → state and river valley  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Tarapur — Palghar, Maharashtra",
+    "Rawatbhata — Surat, Gujarat",
+    "Kakrapar — Chittorgarh, Rajasthan",
+    "Kaiga — Tirunelveli, Tamil Nadu"
+   ],
+   "a": 0,
+   "x": "Tarapur nuclear power plant is located in Palghar district of Maharashtra. Rawatbhata is in Chittorgarh, Kakrapar in Surat, and Kaiga in Uttara Kannada.",
+   "ty": "match",
+   "tq": "Start from the district–plant pair and watch for swapped districts.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "Rawatbhata nuclear power station is located in which district and State?",
+   "o": [
+    "Srikakulam, Andhra Pradesh",
+    "Ratnagiri, Maharashtra",
+    "Chittorgarh, Rajasthan",
+    "Palghar, Maharashtra"
+   ],
+   "a": 2,
+   "x": "Rawatbhata, also known as RAPS, is located in Chittorgarh district of Rajasthan and is the oldest PHWR site.",
+   "ty": "fact",
+   "tq": "Directly test the district–State location pair.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "Which one of the following nuclear power plants is located in Uttara Kannada district?",
+   "o": [
+    "Kakrapar",
+    "Kudankulam",
+    "Kovvada",
+    "Kaiga"
+   ],
+   "a": 3,
+   "x": "Kaiga nuclear power plant is located in Uttara Kannada district of Karnataka and uses PHWR technology.",
+   "ty": "fact",
+   "tq": "Use the district as the location clue.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "Kudankulam nuclear power plant is associated with which of the following combinations?",
+   "o": [
+    "Tirunelveli — Tamil Nadu — Russian VVER-1000 reactors",
+    "Srikakulam — Andhra Pradesh — French EPRs",
+    "Ratnagiri — Maharashtra — American AP1000 reactors",
+    "Chengalpattu — Tamil Nadu — Canadian CANDU reactors"
+   ],
+   "a": 0,
+   "x": "Kudankulam is located in Tirunelveli district of Tamil Nadu and uses Russian VVER-1000 reactors.",
+   "ty": "match",
+   "tq": "Combine location and reactor technology to avoid country swaps.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Kalpakkam — Chengalpattu, Tamil Nadu — PFBR",
+    "Kovvada — Srikakulam, Andhra Pradesh — proposed AP1000 reactors",
+    "Jaitapur — Ratnagiri, Maharashtra — six EPRs",
+    "Tarapur — Palghar, Maharashtra — Russian VVER-1000 reactors"
+   ],
+   "a": 3,
+   "x": "Tarapur is associated with US-built BWRs, not Russian VVER-1000 reactors. Kovvada, Jaitapur and Kalpakkam are correctly matched as stated.",
+   "ty": "negative",
+   "tq": "Look for the wrong technology attached to a correctly located plant.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "Tarapur nuclear power plant has which distinction?",
+   "o": [
+    "India’s first fully indigenous PHWR plant",
+    "India’s oldest PHWR site",
+    "India’s first fast breeder reactor site",
+    "India’s first commercial nuclear power plant, commissioned in 1969"
+   ],
+   "a": 3,
+   "x": "Tarapur, located in Palghar district of Maharashtra, was commissioned in 1969 and was India’s first commercial nuclear power plant, using US BWRs.",
+   "ty": "fact",
+   "tq": "Match the plant with its specific historical distinction.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the first stage of India’s three-stage nuclear power programme?",
+   "o": [
+    "PHWRs using natural uranium with heavy water as moderator",
+    "Fast breeder reactors breeding more fuel than they consume",
+    "Solar reactors using enriched uranium and light water",
+    "Thorium reactors using monazite-derived fuel"
+   ],
+   "a": 0,
+   "x": "The first stage uses PHWRs operating on natural uranium with heavy water as the moderator. Fast breeder reactors constitute the second stage and thorium reactors the third stage.",
+   "ty": "application",
+   "tq": "Identify the stage by its fuel and moderator combination.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding India’s three-stage nuclear programme:\n1. Stage II uses plutonium obtained from Stage I.\n2. Fast breeder reactors are intended to breed more fuel than they consume.\n3. AHWRs are associated with the thorium-based third stage.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Stage II uses plutonium from Stage I in fast breeder reactors, while AHWRs belong to the thorium-based third stage.",
+   "ty": "statements",
+   "tq": "Test the sequence through fuel conversion and reactor type.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "The Prototype Fast Breeder Reactor at Kalpakkam reached first criticality on:",
+   "o": [
+    "6 April 2026",
+    "6 April 2027",
+    "6 April 2024",
+    "6 April 2025"
+   ],
+   "a": 0,
+   "x": "The PFBR at Kalpakkam reached first criticality on 6 April 2026. Kalpakkam is in Chengalpattu district of Tamil Nadu.",
+   "ty": "numerical",
+   "tq": "Discriminate between closely spaced years in a date-based question.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about India’s nuclear resource base is correct?",
+   "o": [
+    "India’s thorium reserves are the world’s third largest, at about 3.6 lakh tonnes.",
+    "Thorium is used in the first stage based on natural uranium.",
+    "India’s natural uranium reserves are about 3.6 lakh tonnes.",
+    "India has no thorium-bearing beach sands."
+   ],
+   "a": 0,
+   "x": "India’s thorium reserves are the world’s third largest and are estimated at about 3.6 lakh tonnes. Thorium is intended for the third stage of the programme.",
+   "ty": "numerical",
+   "tq": "Separate the thorium figure, rank and programme stage from uranium facts.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with a uranium occurrence in India?",
+   "o": [
+    "Tummalapalle — YSR Kadapa, Andhra Pradesh",
+    "Jaduguda — Srikakulam, Andhra Pradesh",
+    "Narwapahar — Kerala",
+    "Tummalapalle — Chittorgarh, Rajasthan"
+   ],
+   "a": 0,
+   "x": "Tummalapalle uranium deposit is located in YSR Kadapa district of Andhra Pradesh. Jaduguda and Narwapahar are in Jharkhand, and Indian uranium ore is generally low-grade.",
+   "ty": "match",
+   "tq": "Use the State-specific deposit to defeat location swaps.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Nuclear plants generally operate at an 85–90% capacity factor.\n2. Solar power generally operates at a 20–25% capacity factor.\n3. Wind power generally operates at a 25–35% capacity factor.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3",
+    "2 and 3 only",
+    "1 only"
+   ],
+   "a": 1,
+   "x": "All three ranges are correct: nuclear 85–90%, solar 20–25% and wind 25–35%.",
+   "ty": "comparison",
+   "tq": "Compare the ranges rather than relying on the absolute output of a plant.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "The SHANTI Act, 2025 is associated with which of the following provisions?",
+   "o": [
+    "It transfers all nuclear plants to State governments.",
+    "It replaces the three-stage programme with a coal-based programme.",
+    "It prohibits all private participation in nuclear power generation.",
+    "It repeals the Atomic Energy Act, 1962 and the CLNDA, 2010, and admits private companies."
+   ],
+   "a": 3,
+   "x": "The SHANTI Act, 2025 repeals the Atomic Energy Act, 1962 and the CLNDA, 2010, and permits the admission of private companies.",
+   "ty": "fact",
+   "tq": "Test the exact legal effect instead of the Act’s name alone.",
+   "sec": "Nuclear power - reactors → district and state, three-stage programme, breeder concept  [APPSC]"
+  },
+  {
+   "s": "Which one of the following thermal power stations is correctly matched with its location?",
+   "o": [
+    "Kudgi — Vijayapura, Karnataka",
+    "Kahalgaon — Bilaspur, Chhattisgarh",
+    "Sipat — Bhagalpur, Bihar",
+    "Tanda — Kutch, Gujarat"
+   ],
+   "a": 0,
+   "x": "Kudgi thermal power station is located in Vijayapura district of Karnataka. Kahalgaon is in Bhagalpur, Sipat in Bilaspur and Tanda in Ambedkar Nagar.",
+   "ty": "match",
+   "tq": "Match the station with the district before checking the State.",
+   "sec": "Thermal power stations → state or district  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is India’s largest thermal power station according to the given classification?",
+   "o": [
+    "Mundra",
+    "Ramagundam",
+    "Sipat",
+    "Vindhyachal"
+   ],
+   "a": 3,
+   "x": "Vindhyachal thermal power station, located in Singrauli district of Madhya Pradesh, is identified as India’s largest thermal station.",
+   "ty": "fact",
+   "tq": "Directly test the superlative attached to the station.",
+   "sec": "Thermal power stations → state or district  [APPSC]"
+  },
+  {
+   "s": "Ramagundam thermal power station is located in which district and State?",
+   "o": [
+    "Sonbhadra, Uttar Pradesh",
+    "Peddapalli, Telangana",
+    "Visakhapatnam, Andhra Pradesh",
+    "Singrauli, Madhya Pradesh"
+   ],
+   "a": 1,
+   "x": "Ramagundam thermal power station is located in Peddapalli district of Telangana.",
+   "ty": "fact",
+   "tq": "Distinguish the Telangana station from neighbouring pithead stations.",
+   "sec": "Thermal power stations → state or district  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Bhakra — Sutlej, Himachal Pradesh — hydel power",
+    "Obra — Sonbhadra, Uttar Pradesh — thermal power",
+    "Singrauli — Sonbhadra, Uttar Pradesh — pithead thermal power",
+    "Srisailam — Godavari, Andhra Pradesh–Telangana border — hydel power"
+   ],
+   "a": 3,
+   "x": "Srisailam hydel project is located on the Krishna River at the Andhra Pradesh–Telangana border, not on the Godavari. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the incorrect river–project association.",
+   "sec": "Thermal power stations → state or district  [APPSC]"
+  },
+  {
+   "s": "Simhadri thermal power station is correctly described by which of the following?",
+   "o": [
+    "It is located in Vijayapura, Karnataka, and is a lignite station.",
+    "It is located in Visakhapatnam area of Andhra Pradesh and uses seawater.",
+    "It is located in Sonbhadra, Uttar Pradesh, and is a hydel station.",
+    "It is located in Peddapalli, Telangana, and uses river water only."
+   ],
+   "a": 1,
+   "x": "NTPC’s Simhadri is a coal-based thermal station in the Visakhapatnam area of Andhra Pradesh and uses seawater. It has also begun trials of green-hydrogen blending.",
+   "ty": "application",
+   "tq": "Combine location, fuel type and an operational feature in an applied identification question.",
+   "sec": "Thermal power stations → state or district  [APPSC]"
+  },
+  {
+   "s": "Dr NTTPS is located at which of the following places?",
+   "o": [
+    "Ibrahimpatnam in NTR district, Andhra Pradesh",
+    "Kovvada in Srikakulam district, Andhra Pradesh",
+    "Ramagundam in Peddapalli district, Telangana",
+    "Simhadri in Anakapalli district, Andhra Pradesh"
+   ],
+   "a": 0,
+   "x": "Dr NTTPS is a coal thermal power station at Ibrahimpatnam in NTR district of Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Differentiate closely located Andhra Pradesh power stations by district.",
+   "sec": "Thermal power stations → state or district  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding coal-fired power plants:\n1. They generally operate at about 60–85% plant load factor.\n2. They can operate round the clock.\n3. They are among the largest industrial users of water.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Coal plants generally operate at a 60–85% plant load factor, can run continuously and consume substantial industrial water.",
+   "ty": "statements",
+   "tq": "Link operating range, continuity and resource-use characteristics.",
+   "sec": "Thermal power stations → state or district  [APPSC]"
+  },
+  {
+   "s": "Arrange the following power stations from north to south based on their broad locations:\nA. Tanda\nB. Simhadri\nC. Kudgi\nD. Ramagundam",
+   "o": [
+    "A, D, C, B",
+    "D, A, C, B",
+    "A, C, D, B",
+    "B, C, D, A"
+   ],
+   "a": 0,
+   "x": "Tanda in Uttar Pradesh lies to the north, followed broadly by Ramagundam in Telangana, Kudgi in Karnataka and Simhadri in Andhra Pradesh toward the south-east coast.",
+   "ty": "chronology",
+   "tq": "Use the first and last locations, then place the central stations geographically.",
+   "sec": "Thermal power stations → state or district  [APPSC]"
+  },
+  {
+   "s": "NTPC Simhadri’s green-hydrogen initiative relates to which activity?",
+   "o": [
+    "Trials of blending green hydrogen in the thermal power station",
+    "Generating hydel power from hydrogen dams",
+    "Replacing all coal mines with hydrogen mines",
+    "Using hydrogen exclusively in nuclear reactors"
+   ],
+   "a": 0,
+   "x": "NTPC Simhadri has begun trials of green-hydrogen blending. This is an initiative within a coal-based thermal power station, not a replacement of nuclear or hydel generation.",
+   "ty": "application",
+   "tq": "Identify the practical meaning of a current energy initiative.",
+   "sec": "Thermal power stations → state or district  [APPSC]"
+  }
+ ]
+}

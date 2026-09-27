@@ -1,0 +1,651 @@
+{
+ "book": 3,
+ "row": 5,
+ "chunk": 0,
+ "section": "Occupational structure of India - trends and inter-state variation",
+ "subsections": [
+  "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector",
+  "Rural vs urban workforce (Census 2011), gender differences",
+  "Trend shifts - cultivators vs agricultural labourers, Census 2001 to 2011",
+  "Occupational structure - meaning, and reasons for the slow shift out of agriculture"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 46,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which sector has consistently recorded the highest share of employment in India across the major workforce surveys mentioned?",
+   "o": [
+    "Construction",
+    "Agriculture",
+    "Manufacturing",
+    "Services"
+   ],
+   "a": 1,
+   "x": "Agriculture has remained the sector with the highest employment share, although its share has declined over time.",
+   "ty": "fact",
+   "tq": "Use the broad sector comparison and avoid the familiar but incorrect answer of cottage industries.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "The share of workers engaged in agriculture in India was approximately what percentage in 1951?",
+   "o": [
+    "54.6%",
+    "66.7%",
+    "69.8%",
+    "72%"
+   ],
+   "a": 3,
+   "x": "Agriculture accounted for 72% of workers in 1951.",
+   "ty": "numerical",
+   "tq": "Match the earliest year with the highest agricultural employment share.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "Arrange the following agricultural workforce shares in chronological order of the corresponding years:\nA. 54.6%\nB. 69.8%\nC. 64.75%\nD. 66.7%",
+   "o": [
+    "B, D, C, A",
+    "D, B, C, A",
+    "B, C, D, A",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The sequence is 1971 (69.8%), 1981 (66.7%), 1993-94 (64.75%) and 2011 (54.6%).",
+   "ty": "chronology",
+   "tq": "Arrange the figures by attaching each percentage to its year before ordering.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the decline in the agricultural share of workers from 1951 to 2011?",
+   "o": [
+    "72% to 54.6%",
+    "64.75% to 42.4%",
+    "69.8% to 46.1%",
+    "66.7% to 54.6%"
+   ],
+   "a": 0,
+   "x": "The agricultural share declined from 72% in 1951 to 54.6% in Census 2011.",
+   "ty": "comparison",
+   "tq": "Compare the first and last values in the stated Census series.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "The share of workers in agriculture recorded in the 1993-94 NSS was:",
+   "o": [
+    "54.6%",
+    "58.2%",
+    "64.75%",
+    "69.8%"
+   ],
+   "a": 2,
+   "x": "The NSS estimate for 1993-94 placed agriculture's share of workers at 64.75%.",
+   "ty": "fact",
+   "tq": "Discriminate between closely spaced survey-year percentages.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "With reference to the share of workers in agriculture, consider the following statements:\n1. It was 58.2% in Census 2001.\n2. It was 54.6% in Census 2011.\n3. It was 46.1% according to PLFS 2023-24.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three figures are given for the respective Census or PLFS periods.",
+   "ty": "statements",
+   "tq": "Verify each percentage against its survey year instead of relying only on the direction of change.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "In 2021-22, which of the following correctly gives the approximate shares of the primary, secondary and tertiary sectors in the workforce, respectively?",
+   "o": [
+    "43.96%, 33.80%, 22.24%",
+    "22.24%, 33.80%, 43.96%",
+    "43.96%, 22.24%, 33.80%",
+    "33.80%, 43.96%, 22.24%"
+   ],
+   "a": 2,
+   "x": "The 2021-22 workforce shares were primary 43.96%, secondary 22.24% and tertiary 33.80%.",
+   "ty": "numerical",
+   "tq": "Read the sector order carefully; the figures are not arranged in ascending order.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "The share of services in employment rose from 22.82% in 1993-94 to approximately what level in 2009-10?",
+   "o": [
+    "12.43%",
+    "30.00%",
+    "34.90%",
+    "46.10%"
+   ],
+   "a": 2,
+   "x": "Services' share increased from 22.82% in 1993-94 to 34.90% in 2009-10.",
+   "ty": "numerical",
+   "tq": "Track the direction and magnitude of the sectoral shift using the two dated values.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "Which of the following is correctly matched with the 1993-94 employment shares?",
+   "o": [
+    "Agriculture—64.75%; Industry—12.43%; Services—22.82%",
+    "Agriculture—54.6%; Industry—22.82%; Services—12.43%",
+    "Agriculture—64.75%; Industry—22.82%; Services—12.43%",
+    "Agriculture—69.8%; Industry—12.43%; Services—34.90%"
+   ],
+   "a": 0,
+   "x": "In 1993-94, agriculture accounted for 64.75%, industry 12.43% and services, including construction, 22.82%.",
+   "ty": "match",
+   "tq": "Start from the sure agriculture figure and then verify the two smaller sector shares.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "On the eve of Independence, the principal livelihood of the Indian population was:",
+   "o": [
+    "Manufacturing",
+    "Agriculture",
+    "Modern services",
+    "Mining"
+   ],
+   "a": 1,
+   "x": "Agriculture was the main livelihood on the eve of Independence.",
+   "ty": "fact",
+   "tq": "Test the historical baseline rather than the later structural trend.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "According to the NSSO 70th round conducted in 2013, what proportion of rural households were agricultural households?",
+   "o": [
+    "42.4%",
+    "54.6%",
+    "57.8%",
+    "72.4%"
+   ],
+   "a": 2,
+   "x": "The NSSO 70th round reported that 57.8% of rural households were agricultural households.",
+   "ty": "numerical",
+   "tq": "Distinguish a household percentage from workforce and sector-share percentages.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly states the workforce figures given for the recent PLFS estimates?",
+   "o": [
+    "61.6 crore in both PLFS 2025 and Q2 FY26",
+    "61.6 crore in PLFS 2025 and 56.2 crore employed in Q2 FY26",
+    "56.2 crore in PLFS 2025 and 61.6 crore employed in Q2 FY26",
+    "46.1 crore in PLFS 2025 and 56.2 crore employed in Q2 FY26"
+   ],
+   "a": 1,
+   "x": "The workforce was reported as 61.6 crore in PLFS 2025, while 56.2 crore were employed in Q2 FY26.",
+   "ty": "numerical",
+   "tq": "Separate the total workforce figure from the employed-person figure and their reference periods.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding recent employment shares:\n1. Agriculture constituted 42.4% of total employment in PLFS Q2 FY26.\n2. Services constituted 62.0% of urban employment in the same reference period.\n3. Agriculture constituted 54.6% of total employment in PLFS Q2 FY26.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Agriculture accounted for 42.4% of total employment and services for 62.0% of urban employment. The 54.6% figure belongs to Census 2011.",
+   "ty": "statements",
+   "tq": "Reject the statement that transfers an older Census figure to a newer PLFS period.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly compares the rural share of workers with the rural share of India's population in Census 2011?",
+   "o": [
+    "Workers 72.4%; population 68.8%",
+    "Workers 72.4%; population 57.7%",
+    "Workers 68.8%; population 72.4%",
+    "Workers 57.7%; population 68.8%"
+   ],
+   "a": 0,
+   "x": "Rural areas contained 72.4% of workers but 68.8% of the total population.",
+   "ty": "comparison",
+   "tq": "Watch for the reversal of two similar rural percentages.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "The total number of workers and the work participation rate reported for Census 2011 were approximately:",
+   "o": [
+    "48.19 crore and 39.8%, respectively",
+    "61.6 crore and 39.8%, respectively",
+    "39.8 crore and 48.19%, respectively",
+    "48.19 crore and 57.7%, respectively"
+   ],
+   "a": 0,
+   "x": "There were 48.19 crore workers and the work participation rate was 39.8%, implying about 60% non-workers.",
+   "ty": "numerical",
+   "tq": "Keep the absolute number separate from the percentage rate.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "The approximate number of male workers reported in the Census 2011 workforce data was:",
+   "o": [
+    "118.8 million",
+    "144.3 million",
+    "332 million",
+    "481.9 million"
+   ],
+   "a": 2,
+   "x": "Male workers numbered approximately 332 million.",
+   "ty": "numerical",
+   "tq": "Identify the gender-specific workforce figure rather than the cultivator or labourer counts.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the occupational distribution of female workers?",
+   "o": [
+    "55% were cultivators and 24% were salaried workers.",
+    "24% were agricultural labourers and 55% were cultivators.",
+    "55% were agricultural labourers and 24% were cultivators.",
+    "32.5% were agricultural labourers and 12.8% were cultivators."
+   ],
+   "a": 2,
+   "x": "Among female workers, 55% were agricultural labourers and 24% were cultivators.",
+   "ty": "fact",
+   "tq": "Separate the two female agricultural categories and avoid reversing their shares.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "Women held only 12.8% of operational holdings. This fact is associated with which broader trend?",
+   "o": [
+    "Deindustrialisation of India",
+    "Formalisation of employment",
+    "Urbanisation of the workforce",
+    "Feminisation of agriculture"
+   ],
+   "a": 3,
+   "x": "The low share of operational holdings held by women, alongside their agricultural work, is associated with the feminisation of agriculture.",
+   "ty": "application",
+   "tq": "Link the numerical indicator with the concept it illustrates.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "The female labour force participation rate for persons aged 15 years and above increased from 30% in 2019-20 to what level in 2025?",
+   "o": [
+    "32.5%",
+    "37%",
+    "40%",
+    "45.9%"
+   ],
+   "a": 2,
+   "x": "The female LFPR for persons aged 15 years and above rose from 30% to 40%.",
+   "ty": "numerical",
+   "tq": "Distinguish the overall female LFPR from the rural female LFPR.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the change in rural and urban female LFPR between 2019-20 and 2025?",
+   "o": [
+    "Rural: 23.3% to 27.7%; Urban: 33.0% to 45.9%",
+    "Rural: 33.0% to 27.7%; Urban: 23.3% to 45.9%",
+    "Rural: 33.0% to 45.9%; Urban: 23.3% to 27.7%",
+    "Rural: 30.0% to 40.0%; Urban: 33.0% to 45.9%"
+   ],
+   "a": 2,
+   "x": "Rural female LFPR rose from 33.0% to 45.9%, whereas urban female LFPR rose from 23.3% to 27.7%.",
+   "ty": "comparison",
+   "tq": "Compare both geographic series without interchanging their starting and ending values.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about recent female employment:\n1. Women constituted 32.5% of total employment in 2025.\n2. Rural women accounted for 80% of the rise in female workers between 2017-18 and 2023-24.\n3. Women constituted 50% of total employment in 2025.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Women constituted 32.5% of employment, and rural women contributed 80% of the rise in female workers. The 50% claim is incorrect.",
+   "ty": "statements",
+   "tq": "Identify the false extreme share while retaining the two supported statements.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "The share of rural women workers engaged in self-employment increased from 60% in 2011-12 to what percentage in 2023-24?",
+   "o": [
+    "56%",
+    "60%",
+    "73%",
+    "80%"
+   ],
+   "a": 2,
+   "x": "The self-employed share among rural women workers increased to 73% in 2023-24.",
+   "ty": "numerical",
+   "tq": "Track the time-bound increase rather than confusing it with the overall self-employment share.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the change in the overall quality composition of employment between the two PLFS reference points?",
+   "o": [
+    "Regular wage or salaried employment fell from 24% to 22%, while self-employment rose from 56% to 58%.",
+    "Regular wage or salaried employment rose from 22% to 24%, while self-employment fell from 58% to 56%.",
+    "Both regular wage employment and self-employment rose by 2 percentage points.",
+    "Both regular wage employment and self-employment fell by 2 percentage points."
+   ],
+   "a": 1,
+   "x": "The regular wage or salaried share rose from 22% to 24%, whereas self-employment declined from 58% to 56%.",
+   "ty": "comparison",
+   "tq": "Use the opposite movement of the two employment categories as the key discriminator.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "Women earned what proportion of men's wages in the three categories of salaried, casual and self-employed work, respectively?",
+   "o": [
+    "76%, 69% and 36%",
+    "69%, 76% and 36%",
+    "76%, 36% and 69%",
+    "36%, 69% and 76%"
+   ],
+   "a": 0,
+   "x": "Women's earnings were 76% of men's wages in salaried work, 69% in casual work and 36% in self-employment.",
+   "ty": "match",
+   "tq": "Maintain the order of the employment categories while matching the wage ratios.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "The share of women in salaried jobs increased from 16.6% in 2024 to what percentage in 2025?",
+   "o": [
+    "18.2%",
+    "22.0%",
+    "24.0%",
+    "32.5%"
+   ],
+   "a": 0,
+   "x": "Women's share in salaried jobs rose from 16.6% to 18.2%.",
+   "ty": "numerical",
+   "tq": "Distinguish the salaried-job share from the overall female employment share.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "What proportion of women outside the labour force reportedly cited caregiving as the reason?",
+   "o": [
+    "24-32.5%",
+    "12.8-16.6%",
+    "55-60%",
+    "40-44%"
+   ],
+   "a": 3,
+   "x": "Approximately 40-44% of women outside the labour force cited caregiving responsibilities.",
+   "ty": "numerical",
+   "tq": "Identify the range associated with the reason for non-participation, not an employment category.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT identified as a factor driving the feminisation of agriculture?",
+   "o": [
+    "Distress employment",
+    "Unpaid family work",
+    "Rapid expansion of formal manufacturing jobs",
+    "Subsistence farming"
+   ],
+   "a": 2,
+   "x": "Subsistence farming, unpaid family work and distress employment were identified as drivers. Rapid expansion of formal manufacturing jobs was not identified as a driver.",
+   "ty": "negative",
+   "tq": "Find the option that contradicts the stated explanation for feminisation of agriculture.",
+   "sec": "Rural vs urban workforce (Census 2011), gender differences  [APPSC]"
+  },
+  {
+   "s": "Between 2001 and 2011, which change occurred in the number of cultivators and agricultural labourers?",
+   "o": [
+    "Cultivators increased and agricultural labourers decreased.",
+    "Cultivators decreased and agricultural labourers increased.",
+    "Both cultivators and agricultural labourers increased.",
+    "Both cultivators and agricultural labourers decreased."
+   ],
+   "a": 1,
+   "x": "Cultivators declined from 127.3 million to 118.8 million, while agricultural labourers increased from 106.8 million to 144.3 million.",
+   "ty": "fact",
+   "tq": "Test the direction of change in the two closely related occupational categories.",
+   "sec": "Trend shifts - cultivators vs agricultural labourers, Census 2001 to 2011  [APPSC]"
+  },
+  {
+   "s": "In Census 2011, agricultural labourers and cultivators constituted what shares of workers, respectively?",
+   "o": [
+    "24.7% and 30.0%",
+    "30.0% and 30.0%",
+    "30.0% and 24.7%",
+    "24.7% and 24.7%"
+   ],
+   "a": 2,
+   "x": "Agricultural labourers constituted 30.0% of workers, while cultivators constituted 24.7%.",
+   "ty": "comparison",
+   "tq": "Avoid reversing the two occupational shares in the comparison.",
+   "sec": "Trend shifts - cultivators vs agricultural labourers, Census 2001 to 2011  [APPSC]"
+  },
+  {
+   "s": "The number of agricultural labourers first exceeded the number of cultivators in which Census?",
+   "o": [
+    "1991",
+    "2001",
+    "2011",
+    "2021"
+   ],
+   "a": 2,
+   "x": "In 2011, agricultural labourers outnumbered cultivators for the first time.",
+   "ty": "fact",
+   "tq": "Use the milestone year rather than the year in which the underlying trend began.",
+   "sec": "Trend shifts - cultivators vs agricultural labourers, Census 2001 to 2011  [APPSC]"
+  },
+  {
+   "s": "Which of the following best explains the reduction in the number of cultivators between 2001 and 2011?",
+   "o": [
+    "Expansion of average landholding size",
+    "Fragmentation of holdings and the increasing share of small and marginal farmers",
+    "Complete disappearance of agricultural labour",
+    "Exclusive movement of all workers into services"
+   ],
+   "a": 1,
+   "x": "Fragmentation reduced the average holding size and increased the relative importance of small and marginal farmers, contributing to the decline in cultivators.",
+   "ty": "application",
+   "tq": "Link the occupational trend to the structural cause rather than an absolute claim about sectoral movement.",
+   "sec": "Trend shifts - cultivators vs agricultural labourers, Census 2001 to 2011  [APPSC]"
+  },
+  {
+   "s": "The average size of an operational holding declined from 2.28 hectares in 1971 to what level in 2015-16?",
+   "o": [
+    "1.08 hectares",
+    "4.20 hectares",
+    "2.28 hectares",
+    "0.86 hectares"
+   ],
+   "a": 0,
+   "x": "The average holding size fell to 1.08 hectares in 2015-16 from 2.28 hectares in 1971.",
+   "ty": "numerical",
+   "tq": "Read the temporal direction of the landholding change carefully.",
+   "sec": "Trend shifts - cultivators vs agricultural labourers, Census 2001 to 2011  [APPSC]"
+  },
+  {
+   "s": "Small and marginal farmers accounted for approximately what share of farmers?",
+   "o": [
+    "57.8%",
+    "72.4%",
+    "80%",
+    "86%"
+   ],
+   "a": 3,
+   "x": "Small and marginal farmers constituted approximately 86% of farmers.",
+   "ty": "numerical",
+   "tq": "Distinguish the farmer-size composition figure from rural workforce percentages.",
+   "sec": "Trend shifts - cultivators vs agricultural labourers, Census 2001 to 2011  [APPSC]"
+  },
+  {
+   "s": "Occupational structure refers to the:",
+   "o": [
+    "Distribution of workforce across primary, secondary and tertiary activities",
+    "Distribution of land among cultivators and labourers",
+    "Distribution of population only among rural and urban areas",
+    "Share of national income received by different occupations"
+   ],
+   "a": 0,
+   "x": "Occupational structure is the distribution of the workforce across primary, secondary and tertiary activities.",
+   "ty": "fact",
+   "tq": "Select the exact definition and distinguish workforce distribution from income or land distribution.",
+   "sec": "Occupational structure - meaning, and reasons for the slow shift out of agriculture  [other exams]"
+  },
+  {
+   "s": "As an economy develops, occupational structure generally tends to shift away from:",
+   "o": [
+    "Services",
+    "Farming",
+    "All non-farm activities",
+    "Manufacturing"
+   ],
+   "a": 1,
+   "x": "Economic development is generally associated with a shift of workers away from farming towards secondary and tertiary activities.",
+   "ty": "application",
+   "tq": "Apply the standard structural-transformation relationship.",
+   "sec": "Occupational structure - meaning, and reasons for the slow shift out of agriculture  [other exams]"
+  },
+  {
+   "s": "Which of the following is NOT a reason identified for the slow movement of Indian workers out of agriculture?",
+   "o": [
+    "Manufacturing's limited absorption of farm labour",
+    "Population pressure on land",
+    "Abundant formal vocational training for almost all workers",
+    "Skill requirements of services-led growth"
+   ],
+   "a": 2,
+   "x": "Only 4.2% had formal vocational training, so abundant formal vocational training is not a reason for the slow shift.",
+   "ty": "negative",
+   "tq": "Reject the option that reverses the stated skills constraint.",
+   "sec": "Occupational structure - meaning, and reasons for the slow shift out of agriculture  [other exams]"
+  },
+  {
+   "s": "The employment share of agriculture fell only marginally during the Plan era mainly because of:",
+   "o": [
+    "Population pressure on land",
+    "The universal availability of formal non-farm jobs",
+    "A complete shift to capital-intensive manufacturing",
+    "The disappearance of rural employment"
+   ],
+   "a": 0,
+   "x": "Population pressure on land helped keep a large workforce dependent on agriculture, so its employment share declined only marginally during the Plan era.",
+   "ty": "application",
+   "tq": "Connect the demographic pressure with the persistence of agricultural employment.",
+   "sec": "Occupational structure - meaning, and reasons for the slow shift out of agriculture  [other exams]"
+  },
+  {
+   "s": "Which statement best describes the relationship between services-led growth and occupational transformation in India?",
+   "o": [
+    "Services-led growth automatically absorbs all agricultural labour regardless of skills.",
+    "Services-led growth causes agriculture's employment share to rise in every period.",
+    "Services-led growth eliminates the need for manufacturing employment.",
+    "Services-led growth requires skills, limiting the movement of workers without appropriate capabilities."
+   ],
+   "a": 3,
+   "x": "Services-led growth needs appropriate skills, which limits the absorption of surplus agricultural labour into service-sector employment.",
+   "ty": "application",
+   "tq": "Identify the qualification attached to the otherwise positive effect of services-led growth.",
+   "sec": "Occupational structure - meaning, and reasons for the slow shift out of agriculture  [other exams]"
+  },
+  {
+   "s": "The failure of manufacturing to absorb sufficient farm labour is described as:",
+   "o": [
+    "Formalisation of employment",
+    "Feminisation of agriculture",
+    "Premature deindustrialisation",
+    "Demographic dividend"
+   ],
+   "a": 2,
+   "x": "The limited absorption of farm labour by manufacturing is associated with premature deindustrialisation.",
+   "ty": "confusable",
+   "tq": "Discriminate between the structural-development term and related labour-market concepts.",
+   "sec": "Occupational structure - meaning, and reasons for the slow shift out of agriculture  [other exams]"
+  },
+  {
+   "s": "Capital-intensive growth may slow the shift out of agriculture because it:",
+   "o": [
+    "Creates large numbers of formal non-farm jobs with little investment.",
+    "Makes vocational training unnecessary.",
+    "Raises the number of small agricultural holdings directly.",
+    "Fails to absorb surplus agricultural labour into formal non-farm jobs."
+   ],
+   "a": 3,
+   "x": "Capital-intensive growth may fail to absorb surplus agricultural labour into formal non-farm employment.",
+   "ty": "application",
+   "tq": "Choose the option that states the employment consequence rather than an unrelated effect of capital intensity.",
+   "sec": "Occupational structure - meaning, and reasons for the slow shift out of agriculture  [other exams]"
+  },
+  {
+   "s": "Only what proportion of workers had formal vocational training according to the cited PLFS figure?",
+   "o": [
+    "2.4%",
+    "4.2%",
+    "12.8%",
+    "22%"
+   ],
+   "a": 1,
+   "x": "Only 4.2% had formal vocational training.",
+   "ty": "numerical",
+   "tq": "Distinguish the vocational-training percentage from employment-quality percentages.",
+   "sec": "Occupational structure - meaning, and reasons for the slow shift out of agriculture  [other exams]"
+  },
+  {
+   "s": "Which numerical comparison illustrates the imbalance between new labour-market entrants and new jobs?",
+   "o": [
+    "About 20 million entrants and 2 million new jobs annually",
+    "About 2 million entrants and 20 million new jobs annually",
+    "About 4.2 million entrants and 2 million new jobs annually",
+    "About 20 million entrants and 20 million new jobs annually"
+   ],
+   "a": 0,
+   "x": "Approximately 20 million people enter the labour market annually, compared with only about 2 million new jobs and few formal employers.",
+   "ty": "numerical",
+   "tq": "Compare the two annual flows and watch for their reversal.",
+   "sec": "Occupational structure - meaning, and reasons for the slow shift out of agriculture  [other exams]"
+  },
+  {
+   "s": "Colonial deindustrialisation contributed to the persistence of agricultural employment because it:",
+   "o": [
+    "Moved cultivators into modern services",
+    "Expanded formal manufacturing employment",
+    "Increased the average size of holdings",
+    "Pushed artisans onto the land"
+   ],
+   "a": 3,
+   "x": "Colonial deindustrialisation had already pushed artisans onto the land, increasing pressure on agriculture.",
+   "ty": "fact",
+   "tq": "Match the historical process with its stated labour-market consequence.",
+   "sec": "Occupational structure - meaning, and reasons for the slow shift out of agriculture  [other exams]"
+  },
+  {
+   "s": "In the latest quarter cited, the share of rural agricultural employment fell from 58.5% to:",
+   "o": [
+    "42.4%",
+    "55.8%",
+    "57.7%",
+    "62.0%"
+   ],
+   "a": 1,
+   "x": "Rural agricultural employment declined from 58.5% to 55.8% in January-March 2026.",
+   "ty": "numerical",
+   "tq": "Separate the latest rural trend from the all-India and urban sector figures.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  },
+  {
+   "s": "In the latest quarter cited, the shares of rural secondary and tertiary employment were approximately:",
+   "o": [
+    "42.4% and 55.8%, respectively",
+    "55.8% and 42.4%, respectively",
+    "22.6% and 21.7%, respectively",
+    "21.7% and 22.6%, respectively"
+   ],
+   "a": 2,
+   "x": "Rural secondary employment accounted for 22.6% and tertiary employment for 21.7%.",
+   "ty": "comparison",
+   "tq": "Preserve the order of the two non-agricultural sectors in the latest-quarter comparison.",
+   "sec": "Occupational structure - share of workforce by sector (Census, NSS, PLFS), highest-employment sector  [APPSC]"
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "book": 4,
+ "row": 82,
+ "chunk": 2,
+ "section": "India - agriculture: commercial crops (cotton, sugarcane, oilseeds, jute, tea, coffee, rubber, spices) and their regions",
+ "subsections": [
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 11,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "On 5 January 2026, the Indian Council of Agricultural Research (ICAR) released how many high-yielding, climate-resilient cotton varieties?",
+   "o": [
+    "6",
+    "13",
+    "22",
+    "24"
+   ],
+   "a": 3,
+   "x": "ICAR released 24 high-yielding, climate-resilient cotton varieties, of which 22 were Bt varieties.",
+   "ty": "numerical",
+   "tq": "Use the numerical options to distinguish the total cotton varieties from the Bt variety count and other crop-wise figures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following pairs relating to high-yielding, climate-resilient varieties released by ICAR on 5 January 2026:\n1. Cotton — 24 varieties\n2. Oilseeds — 13 varieties\n3. Sugarcane — 6 varieties\n4. Jute — 1 variety\n5. Tobacco — 1 variety\nWhich of the pairs given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4 only",
+    "2, 3, 4 and 5 only",
+    "1, 2, 3, 4 and 5"
+   ],
+   "a": 3,
+   "x": "All five pairs are correct: ICAR released 24 cotton, 13 oilseed, 6 sugarcane, 1 jute and 1 tobacco variety or varieties in the stated release.",
+   "ty": "statements",
+   "tq": "Check every crop-wise numerical pair before selecting the inclusive combination.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following combinations correctly represents the Bt and non-Bt cotton varieties among the 24 climate-resilient cotton varieties released by ICAR on 5 January 2026?",
+   "o": [
+    "22 Bt and 2 non-Bt varieties",
+    "13 Bt and 11 non-Bt varieties",
+    "24 Bt and no non-Bt varieties",
+    "20 Bt and 4 non-Bt varieties"
+   ],
+   "a": 0,
+   "x": "Of the 24 cotton varieties released, 22 were Bt varieties; therefore, the remaining 2 were non-Bt varieties.",
+   "ty": "numerical",
+   "tq": "Subtract the specified subcategory from the total instead of confusing the cotton figure with the oilseed figure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to oilseeds in India, which one of the following trends was reported for 2025–26?",
+   "o": [
+    "Production increased, but area and productivity declined.",
+    "Area increased, but production and productivity declined.",
+    "Area, production and productivity all increased.",
+    "Only productivity increased, while area and production remained unchanged."
+   ],
+   "a": 2,
+   "x": "For 2025–26, the area under oilseeds, their production and their productivity all recorded an increase.",
+   "ty": "fact",
+   "tq": "Test the direction of change across all three linked indicators rather than selecting a partial trend.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding Andhra Pradesh:\n1. It leads India in oil palm area.\n2. It leads India in oil palm production.\n3. It leads India in oil palm productivity.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh is identified as the Indian leader in oil palm area, production and productivity.",
+   "ty": "statements",
+   "tq": "When the same state is associated with area, output and productivity, verify whether the statement covers all three dimensions.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Tobacco Board is headquartered at which of the following places?",
+   "o": [
+    "Kurnool",
+    "Vijayawada",
+    "Guntur",
+    "Visakhapatnam"
+   ],
+   "a": 2,
+   "x": "The Tobacco Board is located at Guntur in Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Use the headquarters-location test and distinguish the named institutional centre from other nearby cities.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The black soils of western Andhra Pradesh are particularly associated with the cultivation of which of the following combination of crops?",
+   "o": [
+    "Cotton, chillies and tobacco",
+    "Oil palm, jute and coffee",
+    "Tea, coffee and rubber",
+    "Jute, sugarcane and tea"
+   ],
+   "a": 0,
+   "x": "The black soils of western Andhra Pradesh are noted for growing cotton, chillies and tobacco.",
+   "ty": "application",
+   "tq": "Match the soil region with the crop combination specifically associated with it.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements regarding geographical indication (GI) tags is correct?",
+   "o": [
+    "Darjeeling Tea received India’s first GI tag.",
+    "Araku Coffee received India’s first GI tag.",
+    "Guntur chillies received India’s first GI tag.",
+    "Indian jute goods received India’s first GI tag."
+   ],
+   "a": 0,
+   "x": "Darjeeling Tea was India’s first product to receive a GI tag.",
+   "ty": "fact",
+   "tq": "Apply the first-in-India distinction carefully and avoid substituting other agricultural products associated with the region.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following initiatives were highlighted in July 2026 in relation to agricultural and horticultural development?\n1. Mission Golden Spice\n2. Restructuring of MIDH\n3. Jute export competition programme\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Mission Golden Spice and the restructuring of MIDH were highlighted in July 2026. The jute push was associated with September 2026, not July 2026.",
+   "ty": "statements",
+   "tq": "Separate initiatives by their stated time reference and reject the item shifted from a later month.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about competition faced by Indian agricultural products:\n1. Cotton competes with synthetic fibres.\n2. Jute goods face export competition from Bangladesh.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "2 only",
+    "1 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both statements are correct: synthetic materials compete with cotton, while Bangladesh competes with Indian jute goods in export markets.",
+   "ty": "comparison",
+   "tq": "Identify the competing product or country separately for each commodity before choosing the combined option.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following sets correctly associates agricultural products or regions with Andhra Pradesh?",
+   "o": [
+    "Oil palm leadership, Araku coffee, and Guntur chillies and tobacco",
+    "Darjeeling tea, Assam jute, and Nilgiri rubber",
+    "Kashmir saffron, Kerala coffee, and Malwa tobacco",
+    "Bengal jute, Coorg tea, and Konkan oil palm"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh is associated with leadership in oil palm and with Araku coffee, Guntur chillies and tobacco.",
+   "ty": "match",
+   "tq": "Start from the sure regional pair and eliminate combinations that shift products to unrelated regions.",
+   "sec": "Universal angles"
+  }
+ ]
+}

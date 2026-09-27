@@ -1,0 +1,357 @@
+{
+ "book": 4,
+ "row": 95,
+ "chunk": 3,
+ "section": "Transport in Andhra Pradesh - highways, railway network, ports (Visakhapatnam, Krishnapatnam, Gangavaram, Kakinada), airports",
+ "subsections": [
+  "Logistics parks and Sagarmala projects in AP",
+  "Railway tunnels and port rail links in AP - longest electrified tunnel",
+  "AP road transport - APSRTC, rural roads, State highways",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 26,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Nexus Integrated Logistics Park is being established at which of the following places in Andhra Pradesh?",
+   "o": [
+    "Mulapeta, Srikakulam",
+    "Orvakal, Kurnool",
+    "Chinna Eetivakam, Satyavedu",
+    "Kopparthy, Kadapa"
+   ],
+   "a": 2,
+   "x": "Nexus Integrated Logistics Park is being built at Chinna Eetivakam in Satyavedu, Tirupati district.",
+   "ty": "fact",
+   "tq": "Direct location recall using nearby logistics nodes as distractors.",
+   "sec": "Logistics parks and Sagarmala projects in AP"
+  },
+  {
+   "s": "Consider the following statements regarding the Nexus Integrated Logistics Park in Andhra Pradesh:\n1. It is being developed through the Andhra Pradesh Medical Board.\n2. It covers 63.01 acres.\n3. The project involves an investment of Rs 255 crore.\n4. It is expected to generate about 1,000 jobs.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 2,
+   "x": "The park is being built through APMB, meaning the Andhra Pradesh Maritime Board, not the Andhra Pradesh Medical Board. Its area, investment and employment projections are 63.01 acres, Rs 255 crore and about 1,000 jobs respectively.",
+   "ty": "statements",
+   "tq": "Wrong-authority trap in a statement about project implementation.",
+   "sec": "Logistics parks and Sagarmala projects in AP"
+  },
+  {
+   "s": "Which of the following combinations correctly represents the logistics and industrial-logistics proposals associated with Andhra Pradesh?\n1. MMLP in Rayalaseema\n2. RMZ industrial-logistics park in Rayalaseema\n3. Bhogapuram aerotropolis with 25,000-tonne cargo capacity\n4. Sagarmala 2.0 funds for fishing harbours\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four are associated with the stated logistics and Sagarmala proposals: an MMLP and RMZ park in Rayalaseema, the Bhogapuram aerotropolis, and Sagarmala 2.0 support for fishing harbours.",
+   "ty": "statements",
+   "tq": "Statement-combination question requiring recognition of the complete project set.",
+   "sec": "Logistics parks and Sagarmala projects in AP"
+  },
+  {
+   "s": "Match the following fishing harbours of Andhra Pradesh with their Phase-I physical progress:\n\nList-I (Harbour)\na. Juvvaladinne\na. Uppada\nc. Nizampatnam\nd. Machilipatnam\n\nList-II (Progress)\ni. 97.98%\nii. 84.29%\niii. 81.61%\niv. 71.45%\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–i, b–ii, c–iii, d–iv",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "Juvvaladinne recorded 97.98%, Uppada 84.29%, Nizampatnam 81.61% and Machilipatnam 71.45% progress in Phase-I.",
+   "ty": "match",
+   "tq": "Start from the highest and lowest sure pairs to eliminate matching codes.",
+   "sec": "Logistics parks and Sagarmala projects in AP"
+  },
+  {
+   "s": "With regard to the proposed Visakhapatnam Metro, consider the following statements:\n1. It is planned with four corridors.\n2. Its total length is 76.70 km.\n3. A metro-cum-four-lane flyover is proposed along NH-16.\n4. The Centre has already given unconditional final approval to the project.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "The project has four corridors covering 76.70 km and includes a metro-cum-four-lane flyover along NH-16. The Centre was still checking its viability, so statement 4 is incorrect.",
+   "ty": "statements",
+   "tq": "Current-affairs trap contrasting State approval claims with the Centre’s viability assessment.",
+   "sec": "Logistics parks and Sagarmala projects in AP"
+  },
+  {
+   "s": "The Cherlopalli–Rapuru railway tunnel is located in which district and has what length?",
+   "o": [
+    "SPSR Nellore; 6.6 km",
+    "Anakapalli; 7.6 km",
+    "Kadapa; 8.6 km",
+    "Tirupati; 5.6 km"
+   ],
+   "a": 0,
+   "x": "The Cherlopalli–Rapuru tunnel in SPSR Nellore is 6.6 km long.",
+   "ty": "numerical",
+   "tq": "Pair the precise numerical figure with the correct location.",
+   "sec": "Railway tunnels and port rail links in AP - longest electrified tunnel  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly describes the Cherlopalli–Rapuru railway tunnel when it opened?",
+   "o": [
+    "India’s first underwater railway tunnel in 2019",
+    "India’s longest electrified rail tunnel in 2019",
+    "India’s longest road tunnel in 2020",
+    "India’s first metro tunnel in 2018"
+   ],
+   "a": 1,
+   "x": "When opened in 2019, the 6.6-km Cherlopalli–Rapuru tunnel was India’s longest electrified rail tunnel.",
+   "ty": "fact",
+   "tq": "Direct identification of a first/longest distinction.",
+   "sec": "Railway tunnels and port rail links in AP - longest electrified tunnel  [GROUP-II]"
+  },
+  {
+   "s": "The Obulavaripalle–Venkatachalam railway line is significant because it:",
+   "o": [
+    "connects Gangavaram Port with the Visakhapatnam Metro",
+    "connects Ramayapatnam Port with the Konkan Railway",
+    "links Krishnapatnam Port with the Rayalaseema hinterland",
+    "links Kakinada Port with the North Coastal Railway zone"
+   ],
+   "a": 2,
+   "x": "The line links Krishnapatnam Port to the Rayalaseema hinterland and includes the Cherlopalli–Rapuru tunnel.",
+   "ty": "application",
+   "tq": "Test the functional relationship between a railway line, port and hinterland.",
+   "sec": "Railway tunnels and port rail links in AP - longest electrified tunnel  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements regarding railway and port connectivity in Andhra Pradesh is correct?",
+   "o": [
+    "Last-mile rail connectivity to all inland logistics nodes is complete.",
+    "Krishnapatnam is connected to the Rayalaseema hinterland only by road.",
+    "Ramayapatnam is situated next to NH-16 and Thettu railway station.",
+    "Kakinada Gateway has no railway line of its own."
+   ],
+   "a": 2,
+   "x": "Ramayapatnam is next to NH-16 and Thettu station. Kakinada Gateway includes its own rail line, while last-mile rail connectivity to Kopparthy, Orvakal and Krishnapatnam nodes remains incomplete.",
+   "ty": "fact",
+   "tq": "Wrong-transport-mode and incomplete-connectivity traps.",
+   "sec": "Railway tunnels and port rail links in AP - longest electrified tunnel  [GROUP-II]"
+  },
+  {
+   "s": "The total road network of Andhra Pradesh in December 2025 was approximately:",
+   "o": [
+    "45,433 km",
+    "54,177 km",
+    "79,452 km",
+    "91,105 km"
+   ],
+   "a": 1,
+   "x": "The total road network was 54,177 km, comprising 45,433 km of State roads and 8,744 km of National Highways.",
+   "ty": "numerical",
+   "tq": "Distinguish the total from its component categories and rural-road figure.",
+   "sec": "AP road transport - APSRTC, rural roads, State highways  [GROUP-II]"
+  },
+  {
+   "s": "Match the road categories of Andhra Pradesh with their lengths:\n\nList-I (Category)\na. State Highways\nb. Major District Roads\nc. Other District Roads\nd. National Highways\n\nList-II (Length)\ni. 8,744 km\nii. 12,653 km\niii. 26,527 km\niv. 6,253 km\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iii, b–ii, c–i, d–iv",
+    "a–iv, b–i, c–iii, d–ii",
+    "a–i, b–iv, c–ii, d–iii"
+   ],
+   "a": 0,
+   "x": "State Highways measure 12,653 km, Major District Roads 26,527 km, Other District Roads 6,253 km and National Highways 8,744 km.",
+   "ty": "match",
+   "tq": "Match category figures by beginning with the distinctive National Highway total.",
+   "sec": "AP road transport - APSRTC, rural roads, State highways  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following statements about road transport in Andhra Pradesh is correct?",
+   "o": [
+    "Roads carry more than 80% of the traffic in the State.",
+    "National Highways account for the entire road network of the State.",
+    "Rural roads are shorter than the State Highway network.",
+    "Roads carry less than 20% of the traffic in the State."
+   ],
+   "a": 0,
+   "x": "Roads carry more than 80% of traffic in Andhra Pradesh. The road network also includes substantial State, district and rural roads.",
+   "ty": "fact",
+   "tq": "Use the transport-share comparison and reject reversed trends.",
+   "sec": "AP road transport - APSRTC, rural roads, State highways  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding rural roads in Andhra Pradesh:\n1. The rural-road network was 79,452 km in April 2025.\n2. PMGSY had connected 99.09% of habitations.\n3. APRDC was established in 1998.\n4. APRBRP and APMCRCIP are associated with NDB assistance.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The rural-road network was 79,452 km, PMGSY coverage was 99.09%, APRDC dates from 1998, and the two named programmes received NDB assistance.",
+   "ty": "statements",
+   "tq": "Statement-combination question covering figures, institutional history and programme linkage.",
+   "sec": "AP road transport - APSRTC, rural roads, State highways  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following correctly represents the APSRTC position in December 2025?",
+   "o": [
+    "8,236 buses, 2,762 depots, 4 zones and 44,215 staff",
+    "10,998 buses, 119 depots, 4 zones and 34,215 staff",
+    "10,998 buses, 129 depots, 4 zones and 44,215 staff",
+    "11,226 buses, 129 depots, 5 zones and 44,215 staff"
+   ],
+   "a": 2,
+   "x": "APSRTC had 10,998 buses, 129 depots, four zones and 44,215 staff in December 2025. The fleet included 8,236 own buses and 2,762 hired buses.",
+   "ty": "numerical",
+   "tq": "Separate total fleet, ownership components, depots, zones and staff figures.",
+   "sec": "AP road transport - APSRTC, rural roads, State highways  [GROUP-II]"
+  },
+  {
+   "s": "The revenue of APSRTC in December 2025 was approximately:",
+   "o": [
+    "Rs 4,815 crore",
+    "Rs 3,815 crore",
+    "Rs 4,261 crore",
+    "Rs 5,815 crore"
+   ],
+   "a": 0,
+   "x": "APSRTC recorded revenue of Rs 4,815 crore in December 2025; Rs 4,261 crore was an earlier figure.",
+   "ty": "numerical",
+   "tq": "Confusable-number discrimination between the current and earlier figures.",
+   "sec": "AP road transport - APSRTC, rural roads, State highways  [GROUP-II]"
+  },
+  {
+   "s": "Stree Shakti bus travel facility in Andhra Pradesh, introduced from 15 August 2025, provides free travel to:",
+   "o": [
+    "Women and all government employees",
+    "Women and transgender persons",
+    "Only women residing in rural areas",
+    "All senior citizens and students"
+   ],
+   "a": 1,
+   "x": "The Stree Shakti scheme provides free bus travel for women and transgender persons from 15 August 2025.",
+   "ty": "fact",
+   "tq": "Confusable-beneficiary discrimination in a welfare transport scheme.",
+   "sec": "AP road transport - APSRTC, rural roads, State highways  [GROUP-II]"
+  },
+  {
+   "s": "Following the introduction of Stree Shakti, which change was reported in APSRTC occupancy?",
+   "o": [
+    "From 84% to 69%",
+    "From 75% to 90%",
+    "From 69% to 84%",
+    "From 60% to 75%"
+   ],
+   "a": 2,
+   "x": "Occupancy increased from 69% to 84% after the introduction of Stree Shakti.",
+   "ty": "numerical",
+   "tq": "Read the direction of change before comparing the two percentages.",
+   "sec": "AP road transport - APSRTC, rural roads, State highways  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about recent APSRTC initiatives:\n1. Seven hundred and fifty e-buses are planned under PM e-Bus Sewa.\n2. Three hundred additional e-buses are planned for the Tirupati–Tirumala route.\n3. A total of 8,819 e-buses is planned over five years.\n4. APSRTC’s accident rate was 0.06 per lakh km, the lowest among State Transport Undertakings.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The plans include 750 PM e-Bus Sewa buses, 300 for Tirupati–Tirumala and 8,819 over five years; the accident rate was 0.06 per lakh km.",
+   "ty": "statements",
+   "tq": "Combine programme figures with a performance indicator while checking every statement.",
+   "sec": "AP road transport - APSRTC, rural roads, State highways  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding recent transport developments in Andhra Pradesh:\n1. South Coastal Railway became operational on 1 June 2026.\n2. Bhogapuram Airport opened in August 2026.\n3. Visakhapatnam Port handled a record 91.17 MMT in FY26.\n4. Vijayawada railway station received IGBC Platinum certification in August 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct: South Coastal Railway became operational on 1 June 2026, Bhogapuram Airport opened in August 2026, Visakhapatnam Port recorded 91.17 MMT in FY26, and Vijayawada station received IGBC Platinum certification in August 2026.",
+   "ty": "statements",
+   "tq": "Date-and-figure verification across multiple current transport developments.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly describes the significance of Andhra Pradesh’s transport and port infrastructure?",
+   "o": [
+    "Seventeen national industrial corridors and three major ports make it a gateway to Western Europe.",
+    "One national industrial corridor, 17 major ports and NH-16 support its role as a west-coast gateway.",
+    "Three national industrial corridors and one non-major port make it an inland gateway to Central Asia.",
+    "Three national industrial corridors, one major port, 17 non-major ports and NH-16 support its role as an east-coast gateway to South-East Asia."
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh has three national industrial corridors, one major port, 17 non-major ports and NH-16, supporting its role as an east-coast gateway to South-East Asia.",
+   "ty": "comparison",
+   "tq": "Use the complete infrastructure count and the correctly stated geographic orientation.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "What is Andhra Pradesh’s stated target for the blue economy by 2035?",
+   "o": [
+    "US$2 billion",
+    "US$20 billion",
+    "US$10 billion",
+    "US$50 billion"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh has set a target of achieving a US$20 billion blue economy by 2035.",
+   "ty": "numerical",
+   "tq": "Direct recall of a policy target with ascending monetary distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs of ports in Andhra Pradesh is stalled pending a Central Bureau of Investigation probe?",
+   "o": [
+    "Vodarevu and Nizampatnam",
+    "Gangavaram and Kakinada",
+    "Krishnapatnam and Ramayapatnam",
+    "Mulapeta and Visakhapatnam"
+   ],
+   "a": 0,
+   "x": "The PPP ports at Vodarevu and Nizampatnam are stalled pending a CBI probe.",
+   "ty": "confusable",
+   "tq": "Pair discrimination among Andhra Pradesh’s coastal ports.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following statements correctly distinguishes Orvakal Airport and Bhogapuram Airport?",
+   "o": [
+    "Orvakal was the first airport in South India built fully by a State government, while Bhogapuram is Andhra Pradesh’s first greenfield airport since 2014.",
+    "Bhogapuram was the first airport in South India built fully by a State government, while Orvakal is the first greenfield airport since 2014.",
+    "Orvakal is Andhra Pradesh’s first greenfield airport since 2014, while Bhogapuram was built fully by a State government.",
+    "Both are the first greenfield airports of Andhra Pradesh since 2014."
+   ],
+   "a": 0,
+   "x": "Orvakal holds the distinction of being the first airport in South India built fully by a State government. Bhogapuram is Andhra Pradesh’s first greenfield airport since 2014.",
+   "ty": "confusable",
+   "tq": "Directly discriminate between two similar first-infrastructure claims.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following is NOT identified as a challenge affecting logistics and port development in Andhra Pradesh?",
+   "o": [
+    "Excess availability of dedicated freight rail to all clusters",
+    "High logistics costs",
+    "Absence of dedicated freight rail to clusters",
+    "Water shortages at inland nodes"
+   ],
+   "a": 0,
+   "x": "The identified challenges include logistics cost, lack of dedicated freight rail to clusters, water-short inland nodes, CBI-stalled ports and land-acquisition delays. Excess availability of dedicated freight rail is not a challenge stated in this context.",
+   "ty": "negative",
+   "tq": "Identify the reversed condition among challenges and constraints.",
+   "sec": "Universal angles"
+  }
+ ]
+}
