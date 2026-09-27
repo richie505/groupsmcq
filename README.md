@@ -12,7 +12,8 @@ MCQ-only practice app for APPSC Group-I + Group-II. It follows the same 90-day p
 
 - **Today** — Day N of 90, days to exam, and two daily targets for the day's sections:
   **PYQ practice** (default 100, APPSC papers first, newest years first) and **Notes MCQ practice**
-  (default 60, in notes order). Practice runs in sets of 25; "Retry wrong" on every card.
+  (default 60, in notes order). Each run covers every remaining question of the set, with
+  Previous / Skip / Next, like the notes app's PYQs; "Retry wrong" on every card.
   Revision/Sunday days add a *Retry mistakes* card; mock days (Phase 3) give a timed mock paper.
 - **Plan** — all 90 days with each day's target progress.
 - **Subjects** — the 6 books → topics → sections, each with its PYQs and its notes MCQs.
@@ -72,8 +73,13 @@ python3 tools/build_assets.py
 
 ```
 python3 tools/build_assets.py        # source/ + tools/generated/ -> app/src/main/assets/
+./gradlew testDebugUnitTest          # every question loads; every screen renders; quiz + mock click-through
 ./gradlew assembleRelease            # app/build/outputs/apk/release/app-release.apk
 ```
+
+Assets: `index.json` holds the question ids of every section and plan day (all counts and targets come
+from it), and `q/{p|n}{book}/r{row}.json` holds one section's questions, so the app only ever reads the
+section files a quiz needs. `build_assets.py` fails the build if the index and the files disagree.
 
 Every push also builds the APK in GitHub Actions (**Build APK**). Builds are signed with
 `keystore/appsc-mcq.jks`, so a new APK installs over the old one and keeps your progress. The app id is
