@@ -166,6 +166,7 @@ fun PracticeCard(
     correct: Int,
     total: Int,
     onStart: (() -> Unit)?,
+    wrong: Int = 0,
     onWrong: (() -> Unit)? = null,
     startLabel: String? = null,
 ) {
@@ -201,9 +202,9 @@ fun PracticeCard(
                     modifier = Modifier.padding(top = 10.dp),
                 )
             }
-            if (onWrong != null && done - correct > 0) {
+            if (onWrong != null && wrong > 0) {
                 Text(
-                    "Retry ${done - correct} wrong",
+                    "Retry $wrong wrong",
                     style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.High),
                     modifier = Modifier.padding(top = 10.dp).clickable(onClick = onWrong),
                 )

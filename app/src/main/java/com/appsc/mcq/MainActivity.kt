@@ -25,7 +25,10 @@ import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -44,7 +47,11 @@ import com.appsc.mcq.data.ProgressStore
 import com.appsc.mcq.data.QuizSource
 import com.appsc.mcq.data.Repository
 import com.appsc.mcq.ui.components.AppState
+import com.appsc.mcq.ui.components.Loading
 import com.appsc.mcq.ui.components.LocalApp
+import com.appsc.mcq.ui.components.Message
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import com.appsc.mcq.ui.screens.BookScreen
 import com.appsc.mcq.ui.screens.DayScreen
 import com.appsc.mcq.ui.screens.MistakesScreen
@@ -66,7 +73,20 @@ class MainActivity : ComponentActivity() {
         val app = AppState(Repository(applicationContext), ProgressStore(applicationContext))
         setContent {
             McqTheme {
-                CompositionLocalProvider(LocalApp provides app) { AppRoot() }
+                // The index (a few MB of ids) and the answer log load off the main thread, once.
+                var ready by remember { mutableStateOf(false) }
+                var failed by remember { mutableStateOf<String?>(null) }
+                LaunchedEffect(Unit) {
+                    runCatching {
+                        withContext(Dispatchers.IO) { app.store.load() }
+                        app.repo.load()
+                    }.onSuccess { ready = true }.onFailure { failed = it.message ?: it.javaClass.simpleName }
+                }
+                when {
+                    ready -> CompositionLocalProvider(LocalApp provides app) { AppRoot() }
+                    failed != null -> Message("Could not open the question bank: $failed")
+                    else -> Box(Modifier.fillMaxSize().background(Color.White)) { Loading() }
+                }
             }
         }
     }

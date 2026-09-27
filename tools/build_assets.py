@@ -23,6 +23,7 @@ Uniqueness
 import hashlib
 import json
 import re
+import shutil
 import sys
 from pathlib import Path
 
@@ -125,29 +126,88 @@ def pyq_token_index(pyq):
     return idx
 
 
+def year_of(src):
+    ys = re.findall(r"(?:19|20)\d\d", src or "")
+    return int(ys[-1]) if ys else 0
+
+
+def write_json(path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")))
+
+
 def main():
+    """Writes small per-section question files plus one id index, so the app never parses a whole bank."""
+    if OUT.exists():
+        for old in list(OUT.glob("pyq*.json")) + list(OUT.glob("notes*.json")):
+            old.unlink()
+        if (OUT / "q").exists():
+            shutil.rmtree(OUT / "q")
     OUT.mkdir(parents=True, exist_ok=True)
-    index = json.loads((SRC / "index.json").read_text())
-    (OUT / "catalog.json").write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")))
+    catalog = json.loads((SRC / "index.json").read_text())
+    plan = json.loads((SRC / "plan.json").read_text())
+    write_json(OUT / "catalog.json", catalog)
     (OUT / "plan.json").write_text((SRC / "plan.json").read_text())
 
     stats = {k: 0 for k in ("pyq_unique", "pyq_cross_filed", "pyq_dupes_in_row", "flashcards_dropped",
                             "notes_mcqs", "notes_exact_dupes", "notes_near_dupes", "notes_dupe_of_pyq")}
     per_book = {}
     seen_ids = set()
+    index = {"rows": {}, "units": {}, "days": {}}
+    meta = {}  # PYQ id -> (appsc, year) for ordering day pools
     for b in range(1, 7):
         pyq = build_pyqs(b, seen_ids, stats)
-        (OUT / f"pyq{b}.json").write_text(json.dumps(pyq, ensure_ascii=False, separators=(",", ":")))
-        before = stats["notes_mcqs"]
         notes = build_notes(b, pyq_token_index(pyq), stats)
-        (OUT / f"notes{b}.json").write_text(json.dumps(notes, ensure_ascii=False, separators=(",", ":")))
+        for key, qs in pyq["rows"].items():
+            write_json(OUT / "q" / f"p{b}" / f"r{key}.json", qs)
+            index["rows"].setdefault(f"{b}:{key}", [[], []])[0] = [q["id"] for q in qs]
+            for q in qs:
+                meta[q["id"]] = ("ap" in q, year_of(q.get("src")))
+        for key, qs in pyq["units"].items():
+            write_json(OUT / "q" / f"p{b}" / f"u{key}.json", qs)
+            index["units"][f"{b}:{key}"] = [q["id"] for q in qs]
+        for key, qs in notes["rows"].items():
+            write_json(OUT / "q" / f"n{b}" / f"r{key}.json", qs)
+            index["rows"].setdefault(f"{b}:{key}", [[], []])[1] = [q["id"] for q in qs]
         per_book[b] = {
             "pyq": len({q["id"] for s in ("rows", "units") for v in pyq[s].values() for q in v}),
-            "notes": stats["notes_mcqs"] - before,
+            "notes": sum(len(v) for v in notes["rows"].values()),
         }
+
+    # Each plan day's pools, in study order: PYQs APPSC first then newest year; notes MCQs in notes order.
+    for d in plan["days"]:
+        pp, nn, sp, sn = [], [], set(), set()
+        for r in d["rows"]:
+            if "ref" not in r:
+                continue
+            ids = index["rows"].get(f"{r['ref'][0]}:{r['ref'][1]}", [[], []])
+            pp += [i for i in ids[0] if not (i in sp or sp.add(i))]
+            nn += [i for i in ids[1] if not (i in sn or sn.add(i))]
+        pp.sort(key=lambda i: (0 if meta[i][0] else 1, -meta[i][1]))
+        index["days"][str(d["n"])] = [pp, nn]
+    write_json(OUT / "index.json", index)
+
     stats["books"] = per_book
     (OUT / "stats.json").write_text(json.dumps(stats, indent=1))
+    check(index)
     print(json.dumps(stats, indent=1))
+
+
+def check(index):
+    """Fail the build if the index and the question files disagree (a missing file would crash a quiz)."""
+    ids_in_files = set()
+    for f in (OUT / "q").rglob("*.json"):
+        for q in json.loads(f.read_text()):
+            assert q.get("id") and q.get("s") and len(q.get("o", [])) >= 2, f"bad question in {f}"
+            assert -1 <= q.get("a", -1) < len(q["o"]), f"answer out of range in {f}: {q['id']}"
+            ids_in_files.add(q["id"])
+    listed = {i for v in index["rows"].values() for part in v for i in part} | {i for v in index["units"].values() for i in v}
+    missing = listed - ids_in_files
+    assert not missing, f"{len(missing)} indexed ids have no question file"
+    for key, (p, n) in index["rows"].items():
+        b, r = key.split(":")
+        assert not p or (OUT / "q" / f"p{b}" / f"r{r}.json").exists(), key
+        assert not n or (OUT / "q" / f"n{b}" / f"r{r}.json").exists(), key
 
 
 if __name__ == "__main__":

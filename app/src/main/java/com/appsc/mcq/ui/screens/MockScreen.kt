@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.activity.compose.BackHandler
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -22,7 +23,6 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableLongStateOf
-import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
@@ -49,52 +49,73 @@ import java.time.LocalDate
 /**
  * Timed mock paper for a plan day: one minute per question, no hints, answers can be changed until
  * submitting; then the key, explanations and techniques are shown and every answer is recorded.
+ * The paper, the picks and the clock are saved, so rotation or the app being killed does not lose the attempt.
  */
 @Composable
 fun MockScreen(dayN: Int, nav: Nav) {
     val app = LocalApp.current
-    val day = app.repo.plan.days.first { it.n == dayN }
-    val size = app.store.mockSize
-    val set by produceState<List<Question>?>(null, dayN, size) { value = Sets.mock(app.repo, app.store, day, size) }
+    val day = app.repo.day(dayN)
+    val ids = rememberSaveable(dayN) { ArrayList(Sets.mock(app.repo, app.store, day, app.store.mockSize)) }
+    val set by produceState<List<Question>?>(null, ids) { value = app.repo.questions(ids).filter { it.scored } }
+    var submitted by rememberSaveable { mutableStateOf(false) }
+    var askLeave by remember { mutableStateOf(false) }
+    val leave: () -> Unit = {
+        if (submitted || set.isNullOrEmpty()) {
+            nav.back()
+        } else {
+            askLeave = true
+        }
+    }
+    BackHandler(onBack = leave)
+
+    if (askLeave) {
+        AlertDialog(
+            onDismissRequest = { askLeave = false },
+            title = { Text("Leave the mock?") },
+            text = { Text("This attempt is not submitted. Leaving now discards it.") },
+            confirmButton = { TextButton(onClick = { askLeave = false; nav.back() }) { Text("Leave") } },
+            dismissButton = { TextButton(onClick = { askLeave = false }) { Text("Keep going") } },
+        )
+    }
 
     Column(Modifier.fillMaxSize()) {
-        TopBar("Mock test · Day $dayN", onBack = nav::back)
+        TopBar("Mock test · Day $dayN", onBack = leave)
         val s = set
         when {
             s == null -> Loading()
             s.isEmpty() -> Message("No questions available for a mock yet.")
-            else -> MockRun(dayN, s, nav)
+            else -> MockRun(dayN, s, submitted, onSubmitted = { submitted = true }, nav)
         }
     }
 }
 
 @Composable
-private fun MockRun(dayN: Int, set: List<Question>, nav: Nav) {
+private fun MockRun(dayN: Int, set: List<Question>, submitted: Boolean, onSubmitted: () -> Unit, nav: Nav) {
     val store = LocalApp.current.store
-    val picks = remember(set) { mutableStateListOf<Int>().apply { repeat(set.size) { add(-1) } } }
+    var picks by rememberSaveable { mutableStateOf(IntArray(set.size) { -1 }) }
+    if (picks.size != set.size) picks = IntArray(set.size) { -1 }
     var index by rememberSaveable { mutableIntStateOf(0) }
-    var submitted by rememberSaveable { mutableStateOf(false) }
     var confirm by remember { mutableStateOf(false) }
-    var left by rememberSaveable { mutableLongStateOf(set.size * 60L) }
+    val left = rememberSaveable { mutableLongStateOf(set.size * 60L) }
     val listState = rememberLazyListState()
     LaunchedEffect(index) { listState.scrollToItem(0) }
 
     fun submit() {
         if (submitted) return
         set.forEachIndexed { i, q -> if (picks[i] >= 0) store.record(q, picks[i]) }
-        val correct = set.indices.count { set[it].scored && picks[it] == set[it].answer }
-        val wrong = set.indices.count { set[it].scored && picks[it] >= 0 && picks[it] != set[it].answer }
+        val correct = set.indices.count { picks[it] == set[it].answer }
+        val wrong = set.indices.count { picks[it] >= 0 && picks[it] != set[it].answer }
         store.addMock(MockResult(LocalDate.now().toString(), dayN, set.size, correct, wrong))
-        submitted = true
+        onSubmitted()
         index = set.size
     }
 
     LaunchedEffect(submitted) {
-        while (!submitted && left > 0) {
+        while (!submitted && left.longValue > 0) {
             delay(1000)
-            left--
+            left.longValue--
         }
-        if (!submitted && left <= 0) submit()
+        if (!submitted && left.longValue <= 0) submit()
     }
 
     if (confirm) {
@@ -108,12 +129,15 @@ private fun MockRun(dayN: Int, set: List<Question>, nav: Nav) {
         )
     }
 
-    if (submitted && index >= set.size) {
-        MockResults(set, picks, onReview = { index = 0 }, onDone = nav::back)
-        return
+    if (index >= set.size) {
+        if (submitted) {
+            MockResults(set, picks.toList(), onReview = { index = 0 }, onDone = nav::back)
+            return
+        }
+        index = set.size - 1
     }
 
-    val q = set[index.coerceIn(0, set.size - 1)]
+    val q = set[index]
     val picked = picks[index]
     Column(Modifier.fillMaxSize()) {
         Column(Modifier.padding(horizontal = 20.dp, vertical = 10.dp)) {
@@ -123,14 +147,7 @@ private fun MockRun(dayN: Int, set: List<Question>, nav: Nav) {
                     style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Accent),
                     modifier = Modifier.weight(1f),
                 )
-                if (!submitted) {
-                    Text(
-                        "%d:%02d left".format(left / 60, left % 60),
-                        style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = if (left < 300) C.High else C.Ink),
-                    )
-                } else {
-                    Text("Review", style = TextStyle(fontSize = 13.sp, color = C.Muted))
-                }
+                if (!submitted) Clock { left.longValue } else Text("Review", style = TextStyle(fontSize = 13.sp, color = C.Muted))
             }
             Spacer(Modifier.height(6.dp))
             ProgressLine(picks.count { it >= 0 } / set.size.toFloat())
@@ -142,11 +159,11 @@ private fun MockRun(dayN: Int, set: List<Question>, nav: Nav) {
                     QuestionBody(q)
                     Spacer(Modifier.height(14.dp))
                     q.options.forEachIndexed { i, opt ->
-                        OptionCard(i, opt, picked, if (submitted && q.scored) q.answer else -1, reveal = submitted) {
-                            if (!submitted) picks[index] = if (picks[index] == i) -1 else i
+                        OptionCard(i, opt, picked, if (submitted) q.answer else -1, reveal = submitted) {
+                            if (!submitted) picks = picks.copyOf().also { it[index] = if (it[index] == i) -1 else i }
                         }
                     }
-                    if (submitted && q.scored) {
+                    if (submitted) {
                         Spacer(Modifier.height(8.dp))
                         Explanation(q, picked)
                     }
@@ -156,7 +173,7 @@ private fun MockRun(dayN: Int, set: List<Question>, nav: Nav) {
         }
         Row(Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 12.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             OutlinedButton(
-                onClick = { index-- },
+                onClick = { if (index > 0) index-- },
                 enabled = index > 0,
                 modifier = Modifier.weight(1f).height(50.dp),
                 shape = RoundedCornerShape(12.dp),
@@ -183,6 +200,16 @@ private fun MockRun(dayN: Int, set: List<Question>, nav: Nav) {
             }
         }
     }
+}
+
+/** Only this text reads the clock, so the ticking does not redraw the question every second. */
+@Composable
+private fun Clock(left: () -> Long) {
+    val l = left()
+    Text(
+        "%d:%02d left".format(l / 60, l % 60),
+        style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = if (l < 300) C.High else C.Ink),
+    )
 }
 
 @Composable

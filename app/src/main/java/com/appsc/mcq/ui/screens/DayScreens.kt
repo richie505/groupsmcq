@@ -35,7 +35,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.produceState
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -75,14 +75,15 @@ interface Nav {
 private val dateFmt = DateTimeFormatter.ofPattern("EEE, d MMM yyyy")
 private val shortFmt = DateTimeFormatter.ofPattern("d MMM")
 
-/** A day's target ids (null while loading). Recomputed when the target sizes change. */
+/** A day's target ids: the first N of its PYQ pool and of its notes MCQ pool (N from settings). */
 @Composable
-fun rememberTarget(day: PlanDay): DayTarget? {
+fun dayTarget(day: PlanDay): DayTarget {
     val app = LocalApp.current
-    val t by produceState<DayTarget?>(null, day.n, app.store.pyqTarget, app.store.notesTarget) {
-        value = app.repo.dayTarget(day, app.store.pyqTarget, app.store.notesTarget)
+    val p = app.store.pyqTarget
+    val n = app.store.notesTarget
+    return remember(day.n, p, n) {
+        DayTarget(app.repo.index.day(Origin.PYQ, day.n).take(p), app.repo.index.day(Origin.NOTES, day.n).take(n))
     }
-    return t
 }
 
 @Composable
@@ -94,7 +95,7 @@ fun TodayScreen(nav: Nav) {
     val beforePlan = today.isBefore(plan.days.first().date)
     val afterPlan = today.isAfter(plan.days.last().date)
     val daysToExam = ChronoUnit.DAYS.between(today, plan.exam).coerceAtLeast(0)
-    val target = rememberTarget(day)
+    val target = dayTarget(day)
 
     LazyColumn(Modifier.fillMaxSize()) {
         item {
@@ -106,9 +107,9 @@ fun TodayScreen(nav: Nav) {
         item { HeroCard(day, target, daysToExam, plan.examLabel, beforePlan, afterPlan, nav) }
         item {
             Row(Modifier.padding(horizontal = 16.dp, vertical = 6.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                MiniStat("${app.store.answeredToday()}", "answered today", Modifier.weight(1f))
+                MiniStat("${app.store.answeredOn(today)}", "answered today", Modifier.weight(1f))
                 MiniStat("${app.store.streak()} days", "streak", Modifier.weight(1f))
-                MiniStat("${app.store.wrongIds.size}", "to retry", Modifier.weight(1f)) { nav.quiz("w", 0, 0, "wrong") }
+                MiniStat("${app.store.wrongIds().size}", "to retry", Modifier.weight(1f)) { nav.quiz("w", 0, 0, "wrong") }
             }
         }
         dayBody(day, target, nav)
@@ -133,7 +134,7 @@ private fun MiniStat(value: String, label: String, modifier: Modifier = Modifier
 @Composable
 private fun HeroCard(
     day: PlanDay,
-    target: DayTarget?,
+    target: DayTarget,
     daysToExam: Long,
     examLabel: String,
     beforePlan: Boolean,
@@ -173,9 +174,9 @@ private fun HeroCard(
                 listOf(prettyPhase(day), day.focus.titleCase()).filter { it.isNotBlank() }.joinToString(" · "),
                 style = TextStyle(fontSize = 14.sp, color = Color(0xFFFFEDD5)),
             )
-            if (target != null && !day.isMock) {
+            if (!day.isMock) {
                 val ids = target.pyq + target.notes
-                val (done, _) = store.stats(ids)
+                val done = store.stats(ids).first
                 if (ids.isNotEmpty()) {
                     Spacer(Modifier.height(14.dp))
                     Row(verticalAlignment = Alignment.CenterVertically) {
@@ -195,7 +196,7 @@ private fun HeroCard(
 }
 
 /** The target cards and sections of a plan day; shared by Today and the Day screen. */
-fun LazyListScope.dayBody(day: PlanDay, target: DayTarget?, nav: Nav) {
+fun LazyListScope.dayBody(day: PlanDay, target: DayTarget, nav: Nav) {
     if (day.isMock) {
         item { SectionHeader("Mock day") }
         item { MockCard(day, nav) }
@@ -213,40 +214,40 @@ fun LazyListScope.dayBody(day: PlanDay, target: DayTarget?, nav: Nav) {
 }
 
 @Composable
-private fun TargetCard(day: PlanDay, target: DayTarget?, origin: Origin, nav: Nav) {
+private fun TargetCard(day: PlanDay, target: DayTarget, origin: Origin, nav: Nav) {
     val app = LocalApp.current
-    val store = app.store
-    val pool by produceState<Int?>(null, day.n, origin) { value = app.repo.dayPool(day, origin).size }
-    val ids = if (origin == Origin.PYQ) target?.pyq else target?.notes
-    val (done, correct) = ids?.let { store.stats(it) } ?: (0 to 0)
-    val total = ids?.size ?: 0
     val pyq = origin == Origin.PYQ
-    val extra = (pool ?: 0) - total
+    val ids = if (pyq) target.pyq else target.notes
+    val (done, correct, wrong) = app.store.stats(ids)
+    val total = ids.size
+    val extra = app.repo.index.day(origin, day.n).size - total
     PracticeCard(
         title = if (pyq) "PYQ practice" else "Notes MCQ practice",
         subtitle = when {
-            ids == null -> "Loading…"
-            total == 0 && !pyq -> "Notes MCQs for these sections are not generated yet"
-            total == 0 -> "No PYQs filed under these sections"
-            done >= total -> "Target done! ${if (extra > 0) "$extra more in these sections" else "Every question here is done"}"
-            else -> "Target $total ${if (pyq) "previous-year questions" else "questions from the Combined Notes"} · sets of 25"
+            total == 0 -> if (pyq) "No PYQs filed under these sections" else "No notes MCQs for these sections"
+            done >= total -> "Target done! " + if (extra > 0) "$extra more in these sections" else "Every question here is done"
+            else -> "Target $total ${if (pyq) "previous-year questions, APPSC first" else "questions from the Combined Notes"}"
         },
         icon = if (pyq) Icons.Filled.History else Icons.Outlined.AutoStories,
         iconBg = if (pyq) C.ExamBg else C.AccentSoft,
         iconFg = if (pyq) C.ExamInk else C.Accent,
         done = done,
         correct = correct,
+        wrong = wrong,
         total = total,
         onStart = if (total == 0) null else {
-            { if (done >= total && extra > 0) nav.quiz(if (pyq) "xp" else "xn", 0, day.n) else nav.quiz(if (pyq) "tp" else "tn", 0, day.n) }
+            {
+                if (done >= total && extra > 0) nav.quiz(if (pyq) "xp" else "xn", 0, day.n)
+                else nav.quiz(if (pyq) "tp" else "tn", 0, day.n, if (done >= total) "all" else "new")
+            }
         },
         onWrong = { nav.quiz(if (pyq) "tp" else "tn", 0, day.n, "wrong") },
         startLabel = when {
             total == 0 -> null
-            done == 0 -> "Start"
+            done == 0 -> "Start · all $total"
             done < total -> "Continue · ${total - done} left"
             extra > 0 -> "Practise $extra more"
-            else -> null
+            else -> "Practise all again"
         },
     )
 }
@@ -273,7 +274,7 @@ private fun MockCard(day: PlanDay, nav: Nav) {
 @Composable
 private fun MistakesCard(nav: Nav) {
     val store = LocalApp.current.store
-    val n = store.wrongIds.size
+    val n = store.wrongIds().size
     PracticeCard(
         title = "Retry mistakes",
         subtitle = if (n == 0) "No wrong answers to retry" else "$n questions you answered wrong, PYQs and notes MCQs",
@@ -292,16 +293,14 @@ private fun MistakesCard(nav: Nav) {
 @Composable
 fun RowItem(book: Int, row: Int, title: String, priority: String, nav: Nav) {
     val app = LocalApp.current
-    val counts by produceState<Pair<List<String>, List<String>>?>(null, book, row) {
-        value = app.repo.rowQuestions(Origin.PYQ, book, row).map { it.id } to app.repo.rowQuestions(Origin.NOTES, book, row).map { it.id }
-    }
-    val c = counts
+    val pyqIds = app.repo.index.row(Origin.PYQ, book, row)
+    val notesIds = app.repo.index.row(Origin.NOTES, book, row)
+    val total = pyqIds.size + notesIds.size
+    val done = app.store.stats(pyqIds).first + app.store.stats(notesIds).first
     Row(
         Modifier.fillMaxWidth().clickable { nav.row(book, row) }.padding(horizontal = 16.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        val total = c?.let { it.first.size + it.second.size } ?: 0
-        val done = c?.let { app.store.stats(it.first + it.second).first } ?: 0
         Box(
             Modifier.size(34.dp).clip(CircleShape).background(if (total > 0 && done >= total) C.GreenSoft else C.ExamBg),
             contentAlignment = Alignment.Center,
@@ -316,7 +315,7 @@ fun RowItem(book: Int, row: Int, title: String, priority: String, nav: Nav) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                 PriorityTag(priority)
                 Text(
-                    if (c == null) "…" else "${c.first.size} PYQs · ${c.second.size} notes MCQs",
+                    "${pyqIds.size} PYQs · ${notesIds.size} notes MCQs",
                     style = TextStyle(fontSize = 12.sp, color = C.Muted),
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis,
@@ -339,8 +338,8 @@ fun RowItem(book: Int, row: Int, title: String, priority: String, nav: Nav) {
 fun DayScreen(n: Int, nav: Nav) {
     val app = LocalApp.current
     val plan = app.repo.plan
-    val day = plan.days.first { it.n == n }
-    val target = rememberTarget(day)
+    val day = app.repo.day(n)
+    val target = dayTarget(day)
     Column(Modifier.fillMaxSize()) {
         TopBar("Day ${day.n}", onBack = nav::back, actions = {
             IconButton(onClick = { nav.back(); nav.day(n - 1) }, enabled = n > 1) {
@@ -375,8 +374,10 @@ fun PlanScreen(nav: Nav) {
     val todayIndex = plan.days.indexOfFirst { it.date == today }
     val listState = rememberLazyListState()
     // all 90 targets at once (needs every bank; done in the background)
-    val targets by produceState<Map<Int, DayTarget>?>(null, app.store.pyqTarget, app.store.notesTarget) {
-        value = plan.days.associate { it.n to app.repo.dayTarget(it, app.store.pyqTarget, app.store.notesTarget) }
+    val p = app.store.pyqTarget
+    val nt = app.store.notesTarget
+    val targets = remember(p, nt) {
+        plan.days.associate { it.n to (app.repo.index.day(Origin.PYQ, it.n).take(p) + app.repo.index.day(Origin.NOTES, it.n).take(nt)) }
     }
     LaunchedEffect(todayIndex) { if (todayIndex > 2) listState.scrollToItem(todayIndex + 1) }
 
@@ -398,7 +399,7 @@ fun PlanScreen(nav: Nav) {
                     item(key = "h-${d.n}") { SectionHeader(phase) }
                 }
                 item(key = "d-${d.n}") {
-                    PlanDayItem(d, targets?.get(d.n), d.date == today, nav)
+                    PlanDayItem(d, targets[d.n] ?: emptyList(), d.date == today, nav)
                     HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 70.dp))
                 }
             }
@@ -408,9 +409,8 @@ fun PlanScreen(nav: Nav) {
 }
 
 @Composable
-private fun PlanDayItem(d: PlanDay, t: DayTarget?, isToday: Boolean, nav: Nav) {
+private fun PlanDayItem(d: PlanDay, ids: List<String>, isToday: Boolean, nav: Nav) {
     val store = LocalApp.current.store
-    val ids = t?.let { it.pyq + it.notes } ?: emptyList()
     val done = if (ids.isEmpty()) 0 else store.stats(ids).first
     val mockDone = d.isMock && store.mocks.any { it.day == d.n }
     val complete = (ids.isNotEmpty() && done >= ids.size) || mockDone

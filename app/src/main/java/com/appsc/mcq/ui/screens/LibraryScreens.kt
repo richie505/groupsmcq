@@ -21,7 +21,7 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.produceState
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -39,17 +39,6 @@ import com.appsc.mcq.ui.components.SectionHeader
 import com.appsc.mcq.ui.components.TopBar
 import com.appsc.mcq.ui.theme.C
 
-/** Unique question ids of a subject from one source. */
-@Composable
-private fun rememberBookIds(book: Int, origin: Origin): List<String>? {
-    val app = LocalApp.current
-    val ids by produceState<List<String>?>(null, book, origin) {
-        val b = app.repo.bank(origin, book)
-        value = (b.rows.values.flatten() + b.units.values.flatten()).map { it.id }.distinct()
-    }
-    return ids
-}
-
 @Composable
 fun SubjectsScreen(nav: Nav) {
     val app = LocalApp.current
@@ -64,8 +53,8 @@ fun SubjectsScreen(nav: Nav) {
                 )
             }
             items(app.repo.catalog, key = { it.id }) { b ->
-                val pyq = rememberBookIds(b.id, Origin.PYQ)
-                val notes = rememberBookIds(b.id, Origin.NOTES)
+                val pyq = remember(b.id) { app.repo.index.book(Origin.PYQ, b.id) }
+                val notes = remember(b.id) { app.repo.index.book(Origin.NOTES, b.id) }
                 Card(onClick = { nav.book(b.id) }) {
                     Column(Modifier.padding(16.dp)) {
                         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -77,22 +66,25 @@ fun SubjectsScreen(nav: Nav) {
                             Column(Modifier.weight(1f)) {
                                 Text(b.short, style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
                                 Text(
-                                    if (pyq == null || notes == null) "…" else "${pyq.size} PYQs · ${notes.size} notes MCQs · ${b.rows.size} sections",
+                                    "${pyq.size} PYQs · ${notes.size} notes MCQs · ${b.rows.size} sections",
                                     style = TextStyle(fontSize = 13.sp, color = C.Muted),
                                 )
                             }
                             Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Faint)
                         }
-                        if (pyq != null && notes != null) {
-                            val ids = pyq + notes
-                            val (done, correct) = app.store.stats(ids)
-                            if (ids.isNotEmpty()) {
+                        run {
+                            val (dp, cp) = app.store.stats(pyq)
+                            val (dn, cn) = app.store.stats(notes)
+                            val done = dp + dn
+                            val correct = cp + cn
+                            val total = pyq.size + notes.size
+                            if (total > 0) {
                                 Spacer(Modifier.height(12.dp))
                                 Row(verticalAlignment = Alignment.CenterVertically) {
-                                    ProgressLine(done / ids.size.toFloat(), Modifier.weight(1f))
+                                    ProgressLine(done / total.toFloat(), Modifier.weight(1f))
                                     Spacer(Modifier.width(10.dp))
                                     Text(
-                                        "$done/${ids.size}" + if (done > 0) " · ${correct * 100 / done}%" else "",
+                                        "$done/$total" + if (done > 0) " · ${correct * 100 / done}%" else "",
                                         style = TextStyle(fontSize = 12.sp, color = C.Muted),
                                     )
                                 }
@@ -109,34 +101,16 @@ fun SubjectsScreen(nav: Nav) {
 @Composable
 fun BookScreen(id: Int, nav: Nav) {
     val app = LocalApp.current
-    val b = app.repo.catalog[id - 1]
-    val unitCounts by produceState<Map<Int, Int>?>(null, id) {
-        value = app.repo.bank(Origin.PYQ, id).units.mapValues { it.value.size }
-    }
+    val b = app.repo.catalog.getOrNull(id - 1)
     Column(Modifier.fillMaxSize()) {
-        TopBar(b.short, onBack = nav::back)
+        TopBar(b?.short ?: "Subject", onBack = nav::back)
+        if (b == null) {
+            Loading()
+            return@Column
+        }
         LazyColumn(Modifier.fillMaxSize()) {
             b.units.forEachIndexed { ui, u ->
                 item(key = "u$ui") { SectionHeader("${u.code} · ${u.title}") }
-                val general = unitCounts?.get(ui) ?: 0
-                if (general > 0) {
-                    item(key = "g$ui") {
-                        val ids by produceState<List<String>?>(null, id, ui) { value = app.repo.unitQuestions(id, ui).map { it.id } }
-                        val (done, correct) = ids?.let { app.store.stats(it) } ?: (0 to 0)
-                        PracticeCard(
-                            title = "General PYQs of this topic",
-                            subtitle = "$general questions not tied to one section",
-                            icon = Icons.Filled.History,
-                            iconBg = C.ExamBg,
-                            iconFg = C.ExamInk,
-                            done = done,
-                            correct = correct,
-                            total = ids?.size ?: 0,
-                            onStart = { nav.quiz("u", id, ui) },
-                            onWrong = { nav.quiz("u", id, ui, "wrong") },
-                        )
-                    }
-                }
                 items(b.rows.filter { it.unitIndex == ui }, key = { "r${it.index}" }) { r ->
                     RowItem(id, r.index, r.title, "", nav)
                 }
@@ -150,21 +124,15 @@ fun BookScreen(id: Int, nav: Nav) {
 fun RowScreen(book: Int, row: Int, nav: Nav) {
     val app = LocalApp.current
     val info = app.repo.rowInfo(book, row)
-    val ids by produceState<Pair<List<String>, List<String>>?>(null, book, row) {
-        value = app.repo.rowQuestions(Origin.PYQ, book, row).map { it.id } to app.repo.rowQuestions(Origin.NOTES, book, row).map { it.id }
-    }
+    val pyqIds = app.repo.index.row(Origin.PYQ, book, row)
+    val notesIds = app.repo.index.row(Origin.NOTES, book, row)
     Column(Modifier.fillMaxSize()) {
         TopBar("Section", onBack = nav::back)
-        val c = ids
-        if (c == null) {
-            Loading()
-            return@Column
-        }
         LazyColumn(Modifier.fillMaxSize()) {
             item {
                 Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 16.dp, bottom = 8.dp)) {
                     Text(
-                        (info?.codes?.joinToString(" · ") ?: "") + (info?.tag?.let { if (it.isNotBlank()) " · $it" else "" } ?: ""),
+                        listOfNotNull(info?.codes?.joinToString(" · "), info?.tag).filter { it.isNotBlank() }.joinToString(" · "),
                         style = TextStyle(fontSize = 12.sp, color = C.Muted),
                     )
                     Text(
@@ -174,39 +142,38 @@ fun RowScreen(book: Int, row: Int, nav: Nav) {
                     )
                 }
             }
-            item {
-                val (done, correct) = app.store.stats(c.first)
-                PracticeCard(
-                    title = "PYQs",
-                    subtitle = "${c.first.size} previous-year questions · APPSC first",
-                    icon = Icons.Filled.History,
-                    iconBg = C.ExamBg,
-                    iconFg = C.ExamInk,
-                    done = done,
-                    correct = correct,
-                    total = c.first.size,
-                    onStart = if (c.first.isEmpty()) null else { { nav.quiz("rp", book, row) } },
-                    onWrong = { nav.quiz("rp", book, row, "wrong") },
-                    startLabel = if (c.first.isEmpty()) null else if (done >= c.first.size) "Practise all again" else "Next 25",
-                )
-            }
-            item {
-                val (done, correct) = app.store.stats(c.second)
-                PracticeCard(
-                    title = "Notes MCQs",
-                    subtitle = if (c.second.isEmpty()) "Not generated yet for this section" else "${c.second.size} questions from the Combined Notes, APPSC-style",
-                    icon = Icons.Outlined.AutoStories,
-                    iconBg = C.AccentSoft,
-                    iconFg = C.Accent,
-                    done = done,
-                    correct = correct,
-                    total = c.second.size,
-                    onStart = if (c.second.isEmpty()) null else { { nav.quiz("rn", book, row) } },
-                    onWrong = { nav.quiz("rn", book, row, "wrong") },
-                    startLabel = if (c.second.isEmpty()) null else if (done >= c.second.size) "Practise all again" else "Next 25",
-                )
-            }
+            item { SourceCard(Origin.PYQ, pyqIds, "rp", book, row, nav) }
+            item { SourceCard(Origin.NOTES, notesIds, "rn", book, row, nav) }
             item { Spacer(Modifier.height(24.dp)) }
         }
     }
+}
+
+@Composable
+private fun SourceCard(origin: Origin, ids: List<String>, kind: String, book: Int, row: Int, nav: Nav) {
+    val (done, correct, wrong) = LocalApp.current.store.stats(ids)
+    val pyq = origin == Origin.PYQ
+    PracticeCard(
+        title = if (pyq) "PYQs" else "Notes MCQs",
+        subtitle = when {
+            ids.isEmpty() -> if (pyq) "No PYQs filed under this section" else "No notes MCQs for this section"
+            pyq -> "${ids.size} previous-year questions"
+            else -> "${ids.size} APPSC-style questions from the Combined Notes"
+        },
+        icon = if (pyq) Icons.Filled.History else Icons.Outlined.AutoStories,
+        iconBg = if (pyq) C.ExamBg else C.AccentSoft,
+        iconFg = if (pyq) C.ExamInk else C.Accent,
+        done = done,
+        correct = correct,
+        wrong = wrong,
+        total = ids.size,
+        onStart = if (ids.isEmpty()) null else { { nav.quiz(kind, book, row, if (done >= ids.size) "all" else "new") } },
+        onWrong = { nav.quiz(kind, book, row, "wrong") },
+        startLabel = when {
+            ids.isEmpty() -> null
+            done == 0 -> "Start · all ${ids.size}"
+            done < ids.size -> "Continue · ${ids.size - done} left"
+            else -> "Practise all again"
+        },
+    )
 }

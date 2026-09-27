@@ -29,6 +29,8 @@ data class Question(
     /** Subject (book) the question is filed under: 1 History … 6 Current Affairs. Drives the technique hints. */
     val book: Int = 0,
     val origin: Origin = Origin.PYQ,
+    /** Notes row (section) the question was loaded from; -1 for topic-level PYQs. */
+    val row: Int = -1,
     /** Notes MCQs: question pattern (statements, match, assertion_reason…), the technique it trains, and its subsection. */
     val type: String = "",
     val technique: String = "",
@@ -36,14 +38,6 @@ data class Question(
 ) {
     val scored get() = kind != 'u' && answer >= 0
     val year: Int get() = Regex("""(19|20)\d\d""").findAll(source).lastOrNull()?.value?.toInt() ?: 0
-}
-
-/** The questions of one subject, by notes row (Section) and by unit (Topic, general PYQs). */
-data class Bank(
-    val rows: Map<Int, List<Question>>,
-    val units: Map<Int, List<Question>> = emptyMap(),
-) {
-    val size: Int get() = (rows.values.flatten() + units.values.flatten()).distinctBy { it.id }.size
 }
 
 // ---- catalogue ----

@@ -6,28 +6,29 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import java.io.File
+import java.io.FileWriter
 import java.time.LocalDate
+import java.util.concurrent.Executors
 
 /**
  * Answers, daily counts, targets and mock results.
- * Answers go to an append-only log (answers.log: id, correct, book, date per line; the latest line
- * for an id wins), so recording one answer never rewrites thousands of entries.
+ *
+ * Answers live in plain hash maps (so recording one is O(1), never a copy of 90,000 entries) and are
+ * appended to answers.log on a background thread: "id \t 1|0|u \t book \t date" per line, the latest
+ * line for an id wins. Composables observe changes through [rev]: every reader function reads it, so
+ * a screen recomposes after an answer without any list being rebuilt.
  */
 class ProgressStore(context: Context) {
     private val prefs = context.getSharedPreferences("mcq", Context.MODE_PRIVATE)
     private val log = File(context.filesDir, "answers.log")
+    private val io = Executors.newSingleThreadExecutor()
 
-    /** question id -> answered correctly (latest attempt). Unscored questions are in [seen] instead. */
-    var answers by mutableStateOf(emptyMap<String, Boolean>())
-        private set
-    /** question id -> subject, for questions that have been answered (to group mistakes). */
-    var bookOf by mutableStateOf(emptyMap<String, Int>())
-        private set
-    var seen by mutableStateOf(emptySet<String>())
-        private set
-    /** date (yyyy-mm-dd) -> questions answered that day. */
-    var daily by mutableStateOf(emptyMap<String, Int>())
-        private set
+    private val answers = HashMap<String, Boolean>()
+    private val seen = HashSet<String>()
+    private val daily = HashMap<String, Int>()
+
+    /** Bumped on every change; read by all getters so Compose tracks them. */
+    private var rev by mutableIntStateOf(0)
 
     var pyqTarget by mutableIntStateOf(prefs.getInt(KEY_PYQ_TARGET, 100))
         private set
@@ -35,59 +36,49 @@ class ProgressStore(context: Context) {
         private set
     var mockSize by mutableIntStateOf(prefs.getInt(KEY_MOCK_SIZE, 150))
         private set
-    var mocks by mutableStateOf(decodeMocks(prefs.getStringSet(KEY_MOCKS, emptySet())!!))
+    var mocks by mutableStateOf(decodeMocks(prefs.getStringSet(KEY_MOCKS, emptySet()) ?: emptySet()))
         private set
 
-    init {
-        load()
-    }
-
-    private fun load() {
+    /** Reads the answer log. Call once, off the main thread, before the UI uses the store. */
+    fun load() {
         if (!log.exists()) return
-        val a = HashMap<String, Boolean>()
-        val b = HashMap<String, Int>()
-        val s = HashSet<String>()
-        val d = HashMap<String, Int>()
-        log.forEachLine { line ->
-            val p = line.split('\t')
-            if (p.size < 4) return@forEachLine
-            when (p[1]) {
-                "u" -> s += p[0]
-                else -> a[p[0]] = p[1] == "1"
+        runCatching {
+            log.forEachLine { line ->
+                val p = line.split('\t')
+                if (p.size < 4 || p[0].isEmpty()) return@forEachLine
+                if (p[1] == "u") seen += p[0] else answers[p[0]] = p[1] == "1"
+                daily[p[3]] = (daily[p[3]] ?: 0) + 1
             }
-            p[2].toIntOrNull()?.let { b[p[0]] = it }
-            d[p[3]] = (d[p[3]] ?: 0) + 1
         }
-        answers = a
-        bookOf = b
-        seen = s
-        daily = d
-    }
-
-    private fun append(q: Question, mark: String) {
-        val today = LocalDate.now().toString()
-        log.appendText("${q.id}\t$mark\t${q.book}\t$today\n")
-        bookOf = bookOf + (q.id to q.book)
-        daily = daily + (today to (daily[today] ?: 0) + 1)
+        rev++
     }
 
     fun record(q: Question, picked: Int) {
-        if (!q.scored) {
-            if (q.id !in seen) seen = seen + q.id
-            append(q, "u")
-            return
-        }
-        val ok = picked == q.answer
-        answers = answers + (q.id to ok)
-        append(q, if (ok) "1" else "0")
+        val mark = if (!q.scored) "u" else if (picked == q.answer) "1" else "0"
+        if (mark == "u") seen += q.id else answers[q.id] = mark == "1"
+        val today = LocalDate.now().toString()
+        daily[today] = (daily[today] ?: 0) + 1
+        rev++
+        val line = "${q.id}\t$mark\t${q.book}\t$today\n"
+        io.execute { runCatching { FileWriter(log, true).use { it.write(line) } } }
     }
 
-    fun attempted(id: String) = id in answers || id in seen
+    fun result(id: String): Boolean? {
+        rev
+        return answers[id]
+    }
 
-    /** (attempted, correct) among the given ids. */
-    fun stats(ids: Collection<String>): Pair<Int, Int> {
+    fun attempted(id: String): Boolean {
+        rev
+        return id in answers || id in seen
+    }
+
+    /** (attempted, correct, wrong) among [ids]. */
+    fun stats(ids: Collection<String>): Triple<Int, Int, Int> {
+        rev
         var attempted = 0
         var correct = 0
+        var wrong = 0
         for (id in ids) {
             val a = answers[id]
             if (a == null) {
@@ -95,17 +86,28 @@ class ProgressStore(context: Context) {
                 continue
             }
             attempted++
-            if (a) correct++
+            if (a) correct++ else wrong++
         }
-        return attempted to correct
+        return Triple(attempted, correct, wrong)
     }
 
-    val wrongIds: List<String> get() = answers.filterValues { !it }.keys.toList()
+    fun wrongIds(): List<String> {
+        rev
+        return answers.filterValues { !it }.keys.toList()
+    }
 
-    fun answeredToday(today: LocalDate = LocalDate.now()) = daily[today.toString()] ?: 0
+    val totalAnswered: Int get() { rev; return answers.size + seen.size }
+    val totalScored: Int get() { rev; return answers.size }
+    val totalCorrect: Int get() { rev; return answers.count { it.value } }
+
+    fun answeredOn(date: LocalDate): Int {
+        rev
+        return daily[date.toString()] ?: 0
+    }
 
     /** Consecutive days (ending today or yesterday) with at least one answer. */
     fun streak(today: LocalDate = LocalDate.now()): Int {
+        rev
         var d = if ((daily[today.toString()] ?: 0) > 0) today else today.minusDays(1)
         var n = 0
         while ((daily[d.toString()] ?: 0) > 0) {
@@ -131,7 +133,7 @@ class ProgressStore(context: Context) {
     }
 
     fun addMock(r: MockResult) {
-        mocks = listOf(r) + mocks
+        mocks = (listOf(r) + mocks).take(50)
         prefs.edit().putStringSet(KEY_MOCKS, mocks.mapIndexed { i, m -> "$i\t${m.date}\t${m.day}\t${m.total}\t${m.correct}\t${m.wrong}" }.toSet()).apply()
     }
 

@@ -1,0 +1,66 @@
+package com.appsc.mcq
+
+import androidx.test.core.app.ApplicationProvider
+import com.appsc.mcq.data.Origin
+import com.appsc.mcq.data.ProgressStore
+import com.appsc.mcq.data.QuizSource
+import com.appsc.mcq.data.Repository
+import com.appsc.mcq.data.Sets
+import com.appsc.mcq.data.Techniques
+import kotlinx.coroutines.runBlocking
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import org.junit.runner.RunWith
+import org.robolectric.RobolectricTestRunner
+import org.robolectric.annotation.Config
+
+/** Every bundled question must load with the app's own parser and survive the technique analysis. */
+@RunWith(RobolectricTestRunner::class)
+@Config(sdk = [34])
+class DataTest {
+    private val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
+
+    @Test
+    fun everyQuestionLoadsAndAnalyses() = runBlocking {
+        val repo = Repository(ctx)
+        repo.load()
+        assertEquals(90, repo.plan.days.size)
+        assertEquals(6, repo.catalog.size)
+        var total = 0
+        for (b in 1..6) for (o in Origin.entries) {
+            val ids = repo.index.book(o, b)
+            val qs = repo.questions(ids)
+            assertEquals("book $b $o: every indexed id loads", ids.size, qs.size)
+            for (q in qs) {
+                assertTrue(q.id, q.options.size >= 2 && q.stem.isNotBlank())
+                assertTrue(q.id, q.answer in -1 until q.options.size)
+                Techniques.hints(q)
+                if (q.answer >= 0) Techniques.review(q, (q.answer + 1) % q.options.size)
+            }
+            total += qs.size
+        }
+        assertTrue("expected a full bank, got $total", total > 90_000)
+    }
+
+    @Test
+    fun everyDayHasTargetsAndMockDaysHaveAPaper() = runBlocking {
+        val repo = Repository(ctx)
+        repo.load()
+        val store = ProgressStore(ctx).also { it.load() }
+        for (d in repo.plan.days) {
+            if (d.isMock) {
+                val ids = Sets.mock(repo, store, d, 150)
+                assertEquals("mock day ${d.n}", 150, ids.size)
+                assertEquals(ids.size, repo.questions(ids).size)
+            } else {
+                val p = Sets.pool(repo, store, QuizSource("tp", 0, d.n))
+                val n = Sets.pool(repo, store, QuizSource("tn", 0, d.n))
+                assertTrue("day ${d.n} has PYQs", p.isNotEmpty())
+                assertTrue("day ${d.n} has notes MCQs", n.isNotEmpty())
+                assertEquals(p.size, repo.questions(p).size)
+                assertEquals(n.size, repo.questions(n).size)
+            }
+        }
+    }
+}

@@ -28,7 +28,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.produceState
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -52,8 +52,9 @@ private val SUBJECTS = listOf("History & Culture", "Polity, Society & IR", "Econ
 @Composable
 fun MistakesScreen(nav: Nav) {
     val store = LocalApp.current.store
-    val wrong = store.wrongIds
-    val byBook = wrong.groupingBy { store.bookOf[it] ?: 0 }.eachCount()
+    val app = LocalApp.current
+    val wrong = store.wrongIds()
+    val byBook = remember(wrong) { wrong.groupingBy { app.repo.index.locate(it)?.second ?: 0 }.eachCount() }
     Column(Modifier.fillMaxSize()) {
         TopBar("Mistakes")
         LazyColumn(Modifier.fillMaxSize()) {
@@ -102,17 +103,12 @@ fun MistakesScreen(nav: Nav) {
 fun ProgressScreen() {
     val app = LocalApp.current
     val store = app.store
-    val totals by produceState<Map<Pair<Int, Origin>, List<String>>?>(null) {
-        val m = HashMap<Pair<Int, Origin>, List<String>>()
-        for (b in 1..6) for (o in Origin.entries) {
-            val bank = app.repo.bank(o, b)
-            m[b to o] = (bank.rows.values.flatten() + bank.units.values.flatten()).map { it.id }.distinct()
-        }
-        value = m
+    val totals: Map<Pair<Int, Origin>, List<String>> = remember {
+        buildMap { for (b in 1..6) for (o in Origin.entries) put(b to o, app.repo.index.book(o, b)) }
     }
-    val answered = store.answers.size + store.seen.size
-    val correct = store.answers.count { it.value }
-    val scored = store.answers.size
+    val answered = store.totalAnswered
+    val correct = store.totalCorrect
+    val scored = store.totalScored
 
     Column(Modifier.fillMaxSize()) {
         TopBar("Progress")
@@ -128,7 +124,7 @@ fun ProgressScreen() {
             item { ActivityBars() }
             item { SectionHeader("By subject") }
             val t = totals
-            if (t != null) {
+            run {
                 items((1..6).toList()) { b ->
                     Card {
                         Column(Modifier.padding(14.dp)) {
@@ -196,7 +192,7 @@ private fun ActivityBars() {
     val store = LocalApp.current.store
     val today = LocalDate.now()
     val days = (13 downTo 0).map { today.minusDays(it.toLong()) }
-    val counts = days.map { store.daily[it.toString()] ?: 0 }
+    val counts = days.map { store.answeredOn(it) }
     val max = (counts.maxOrNull() ?: 0).coerceAtLeast(1)
     Row(
         Modifier.fillMaxWidth().height(110.dp).padding(horizontal = 20.dp),

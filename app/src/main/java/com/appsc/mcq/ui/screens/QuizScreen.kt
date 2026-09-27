@@ -79,51 +79,51 @@ fun quizTitle(src: QuizSource): String = when (src.kind) {
 fun QuizScreen(src: QuizSource, mode: String, nav: Nav) {
     val app = LocalApp.current
     val store = app.store
-    val pool by produceState<List<Question>?>(null, src) { value = Sets.pool(app.repo, store, src) }
+    // Every id of the source; cheap (index only), so it is simply recomputed.
+    val pool = remember(src, store.pyqTarget, store.notesTarget) { Sets.pool(app.repo, store, src) }
     var currentMode by rememberSaveable { mutableStateOf(mode) }
     var round by rememberSaveable { mutableIntStateOf(0) }
+    // The round's ids are frozen and saved, so rotation or the app being killed never reshuffles the run.
+    val setIds = rememberSaveable(round, currentMode) { ArrayList(Sets.pick(pool, store, currentMode)) }
+    val questions by produceState<List<Question>?>(null, setIds) { value = app.repo.questions(setIds) }
 
     Column(Modifier.fillMaxSize()) {
         TopBar(quizTitle(src), onBack = nav::back)
-        val p = pool
-        if (p == null) {
-            Loading()
-            return@Column
-        }
-        if (p.isEmpty()) {
-            Message(
+        val qs = questions
+        when {
+            pool.isEmpty() -> Message(
                 when {
                     src.kind == "w" -> "No mistakes to retry. Well done!"
-                    src.kind.endsWith("n") -> "No notes MCQs here yet. They are generated from the Combined Notes with the OpenAI workflow; rebuild the app after it runs."
+                    src.kind.endsWith("n") -> "No notes MCQs in this set."
                     else -> "No questions here."
                 },
             )
-            return@Column
-        }
-        // freeze the set for this round
-        val set = remember(p, round, currentMode) { Sets.pick(p, store, currentMode) }
-        if (set.isEmpty()) {
-            Column(Modifier.fillMaxSize().padding(32.dp), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally) {
+            setIds.isEmpty() -> Column(
+                Modifier.fillMaxSize().padding(32.dp),
+                verticalArrangement = Arrangement.Center,
+                horizontalAlignment = Alignment.CenterHorizontally,
+            ) {
                 Text(
-                    if (currentMode == "wrong") "No wrong answers left to retry." else "All ${p.size} questions here are done.",
+                    if (currentMode == "wrong") "No wrong answers left to retry." else "All ${pool.size} questions here are done.",
                     style = TextStyle(fontSize = 16.sp, lineHeight = 23.sp, color = C.Muted),
                 )
                 Spacer(Modifier.height(16.dp))
-                OutlinedButton(onClick = { currentMode = "all"; round++ }, shape = RoundedCornerShape(12.dp)) { Text("Practise all ${p.size} again") }
+                OutlinedButton(onClick = { currentMode = "all"; round++ }, shape = RoundedCornerShape(12.dp)) { Text("Practise all ${pool.size} again") }
             }
-            return@Column
+            qs == null -> Loading()
+            qs.isEmpty() -> Message("These questions could not be loaded.")
+            else -> QuizRound(
+                key = "$round-$currentMode",
+                set = qs,
+                pool = pool,
+                mode = currentMode,
+                onNext = { m ->
+                    currentMode = m
+                    round++
+                },
+                onDone = nav::back,
+            )
         }
-        QuizRound(
-            key = "$round-$currentMode",
-            set = set,
-            pool = p,
-            mode = currentMode,
-            onNext = { m ->
-                currentMode = m
-                round++
-            },
-            onDone = nav::back,
-        )
     }
 }
 
@@ -131,19 +131,20 @@ fun QuizScreen(src: QuizSource, mode: String, nav: Nav) {
 private fun QuizRound(
     key: String,
     set: List<Question>,
-    pool: List<Question>,
+    pool: List<String>,
     mode: String,
     onNext: (String) -> Unit,
     onDone: () -> Unit,
 ) {
     val store = LocalApp.current.store
     var index by rememberSaveable(key) { mutableIntStateOf(0) }
-    val picks = remember(key) { mutableStateListOf<Int>().apply { repeat(set.size) { add(-1) } } }
+    var picks by rememberSaveable(key) { mutableStateOf(IntArray(set.size) { -1 }) }
+    if (picks.size != set.size) picks = IntArray(set.size) { -1 }
     val listState = rememberLazyListState()
     LaunchedEffect(index) { listState.scrollToItem(0) }
 
     if (index >= set.size) {
-        Results(set, picks, pool, mode, onNext, onDone)
+        Results(set, picks.toList(), pool, mode, onNext, onDone)
         return
     }
     val q = set[index]
@@ -172,8 +173,8 @@ private fun QuizRound(
                     Spacer(Modifier.height(14.dp))
                     q.options.forEachIndexed { i, opt ->
                         OptionCard(i, opt, picked, if (q.scored) q.answer else -1, reveal = true) {
-                            if (!answered) {
-                                picks[index] = i
+                            if (picks[index] < 0) {
+                                picks = picks.copyOf().also { it[index] = i }
                                 store.record(q, i)
                             }
                         }
@@ -192,7 +193,7 @@ private fun QuizRound(
             index = index,
             last = set.size - 1,
             answered = answered,
-            onPrev = { index-- },
+            onPrev = { if (index > 0) index-- },
             onSkip = { index++ },
             onNext = { index++ },
         )
@@ -426,7 +427,7 @@ private fun QuestionTable(rows: List<List<String>>) {
 private fun Results(
     set: List<Question>,
     picks: List<Int>,
-    pool: List<Question>,
+    pool: List<String>,
     mode: String,
     onNext: (String) -> Unit,
     onDone: () -> Unit,
@@ -436,9 +437,8 @@ private fun Results(
     val wrong = set.indices.count { set[it].scored && picks[it] >= 0 && picks[it] != set[it].answer }
     val unscored = set.count { !it.scored }
     val skipped = set.size - correct - wrong - unscored
-    val (attempted, poolCorrect) = store.stats(pool.map { it.id })
-    val remaining = pool.count { !store.attempted(it.id) }
-    val poolWrong = pool.count { store.answers[it.id] == false }
+    val (attempted, poolCorrect, poolWrong) = store.stats(pool)
+    val remaining = pool.size - attempted
     LazyColumn(Modifier.fillMaxSize()) {
         item {
             Column(Modifier.padding(20.dp), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -461,7 +461,7 @@ private fun Results(
                         style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.Ink),
                     )
                     Spacer(Modifier.height(8.dp))
-                    ProgressLine(attempted / pool.size.toFloat())
+                    ProgressLine(if (pool.isEmpty()) 0f else attempted / pool.size.toFloat())
                 }
                 Spacer(Modifier.height(18.dp))
                 if (remaining > 0) {
@@ -470,7 +470,7 @@ private fun Results(
                         modifier = Modifier.fillMaxWidth().height(50.dp),
                         shape = RoundedCornerShape(12.dp),
                         colors = ButtonDefaults.buttonColors(containerColor = C.Accent),
-                    ) { Text("Next ${minOf(remaining, Sets.SESSION)} questions ($remaining left)", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
+                    ) { Text("Practise the $remaining unattempted", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
                     Spacer(Modifier.height(10.dp))
                 }
                 if (poolWrong > 0) {
