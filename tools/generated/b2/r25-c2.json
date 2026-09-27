@@ -1,0 +1,512 @@
+{
+ "book": 2,
+ "row": 25,
+ "chunk": 2,
+ "section": "President of India - election, qualifications, term, impeachment; executive, legislative, financial, judicial powers",
+ "subsections": [
+  "Vacancy - election time limit and acting President",
+  "Election disputes - Article 71",
+  "Presidents of India - order and FIRSTs",
+  "Pardoning power - Article 72 vs 161",
+  "Ordinance - Article 123, life, lapse, review cases"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Under Article 62 of the Constitution, an election to fill a vacancy in the office of the President caused by the expiration of the term of office shall be completed:",
+   "o": [
+    "Within one year after the expiry of the term",
+    "Within six months after the expiry of the term",
+    "Only after the outgoing President vacates office",
+    "Before the expiration of the term"
+   ],
+   "a": 3,
+   "x": "Article 62(1) requires the election to be completed before the expiration of the President’s term.",
+   "ty": "fact",
+   "tq": "Test the precise time limit rather than confusing expiry-of-term vacancies with casual vacancies.",
+   "sec": "Vacancy - election time limit and acting President  [APPSC]"
+  },
+  {
+   "s": "In the event of the death, resignation, removal, disqualification or void election of the President, the election to fill the vacancy must be held within:",
+   "o": [
+    "One year",
+    "Three months",
+    "Four months",
+    "Six months"
+   ],
+   "a": 3,
+   "x": "For a vacancy arising from a cause other than expiry of the term, Article 62 requires the election within six months.",
+   "ty": "numerical",
+   "tq": "Separate the six-month rule for casual vacancies from the before-expiry rule.",
+   "sec": "Vacancy - election time limit and acting President  [APPSC]"
+  },
+  {
+   "s": "A person elected to fill a casual vacancy in the office of the President holds office for:",
+   "o": [
+    "Three years from the date of election",
+    "A full term of five years from entering office",
+    "The unexpired portion of the predecessor’s term",
+    "Six months only"
+   ],
+   "a": 1,
+   "x": "The President elected to fill a casual vacancy receives a fresh full five-year term.",
+   "ty": "fact",
+   "tq": "Watch for the common trap of treating a casual-vacancy successor as an interim office-holder.",
+   "sec": "Vacancy - election time limit and acting President  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the outgoing President:\n1. The outgoing President continues in office until the successor enters upon office.\n2. This continuation applies even when the election is completed before the expiry of the term.\n3. The outgoing President’s term automatically ends on the date on which the election result is declared.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct under Article 56. Statement 3 is false because declaration of the result alone does not terminate the outgoing President’s office.",
+   "ty": "statements",
+   "tq": "Identify the one statement that wrongly substitutes declaration of result for assumption of office.",
+   "sec": "Vacancy - election time limit and acting President  [APPSC]"
+  },
+  {
+   "s": "When the Vice-President acts as President under Article 65, which one of the following is correct?",
+   "o": [
+    "The Vice-President continues to preside over the Rajya Sabha while acting as President",
+    "The Deputy Chairman presides over the Rajya Sabha during that period",
+    "The Rajya Sabha is automatically dissolved",
+    "The Speaker of the Lok Sabha presides over the Rajya Sabha"
+   ],
+   "a": 1,
+   "x": "While acting as President, the Vice-President ceases to perform the functions of the Chairman of the Rajya Sabha; the Deputy Chairman presides.",
+   "ty": "fact",
+   "tq": "Use the role-separation trap: a person acting as President cannot simultaneously perform the Chairman’s functions in the Rajya Sabha.",
+   "sec": "Vacancy - election time limit and acting President  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes a vacancy in the office of the Vice-President from a vacancy in the office of the President?",
+   "o": [
+    "A Vice-Presidential vacancy is filled only by nomination",
+    "A Vice-Presidential vacancy must also be filled within six months",
+    "A Vice-Presidential vacancy cannot arise by resignation",
+    "A Vice-Presidential vacancy has no six-month deadline under Article 68"
+   ],
+   "a": 3,
+   "x": "Unlike a casual vacancy in the office of the President, Article 68 does not prescribe a six-month deadline for filling a Vice-Presidential vacancy.",
+   "ty": "confusable",
+   "tq": "Discriminate between the similar-looking vacancy provisions of Articles 62 and 68.",
+   "sec": "Vacancy - election time limit and acting President  [APPSC]"
+  },
+  {
+   "s": "If the offices of both the President and Vice-President are vacant, who acts as President first?",
+   "o": [
+    "The Prime Minister",
+    "The Speaker of the Lok Sabha",
+    "The Chief Justice of India",
+    "The Deputy Chairman of the Rajya Sabha"
+   ],
+   "a": 2,
+   "x": "When both offices are vacant, the Chief Justice of India acts as President; in the absence of the CJI, the senior-most Supreme Court judge performs the function.",
+   "ty": "fact",
+   "tq": "Test the constitutional succession sequence by identifying the first office-holder in the chain.",
+   "sec": "Vacancy - election time limit and acting President  [APPSC]"
+  },
+  {
+   "s": "All doubts and disputes relating to the election of the President or Vice-President are decided by:",
+   "o": [
+    "The Parliament",
+    "The Supreme Court of India",
+    "The Union Cabinet",
+    "The Election Commission of India"
+   ],
+   "a": 1,
+   "x": "Article 71 vests the Supreme Court with exclusive authority to decide doubts and disputes concerning Presidential and Vice-Presidential elections.",
+   "ty": "fact",
+   "tq": "Use the authority-identification method: distinguish the body conducting an election from the body deciding its disputes.",
+   "sec": "Election disputes - Article 71  [other exams]"
+  },
+  {
+   "s": "With reference to Article 71, consider the following statements:\n1. The Supreme Court alone decides disputes concerning the election of the President and Vice-President.\n2. Parliament may regulate matters connected with such elections other than the adjudication of election disputes.\n3. An election can be challenged merely because there is a vacancy in the electoral college.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because Article 71(4) bars a challenge on the ground of a vacancy in the electoral college.",
+   "ty": "statements",
+   "tq": "Find the exception hidden in the negative statement about vacancies in the electoral college.",
+   "sec": "Election disputes - Article 71  [other exams]"
+  },
+  {
+   "s": "The 39th Constitutional Amendment and the 44th Constitutional Amendment had what effect on Presidential election disputes?",
+   "o": [
+    "The 39th Amendment vested the disputes in Parliament and the 44th retained that arrangement",
+    "The 39th Amendment removed the Supreme Court’s power and the 44th Amendment restored it",
+    "The 39th Amendment created the power and the 44th Amendment abolished it",
+    "Both Amendments transferred the power to the Election Commission"
+   ],
+   "a": 1,
+   "x": "The 39th Amendment of 1975 took away the Supreme Court’s jurisdiction over these disputes, while the 44th Amendment of 1978 restored it.",
+   "ty": "chronology",
+   "tq": "Link each Amendment to its opposite constitutional effect instead of relying on the later amendment alone.",
+   "sec": "Election disputes - Article 71  [other exams]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Zakir Husain — First President from South India",
+    "Rajendra Prasad — Only President elected twice",
+    "S. Radhakrishnan — First President to die in office",
+    "M. Hidayatullah — Only President elected unopposed"
+   ],
+   "a": 1,
+   "x": "Rajendra Prasad was the only President elected twice, in 1952 and 1957. Radhakrishnan was the first President from South India, Zakir Husain was the first to die in office, and Hidayatullah acted as President.",
+   "ty": "negative",
+   "tq": "Use the wrong-person-with-deed trap by matching each President with the correct distinction.",
+   "sec": "Presidents of India - order and FIRSTs  [other exams]"
+  },
+  {
+   "s": "Who was the first President of India from South India and had earlier served as the first Vice-President?",
+   "o": [
+    "Zakir Husain",
+    "V.V. Giri",
+    "S. Radhakrishnan",
+    "K.R. Narayanan"
+   ],
+   "a": 2,
+   "x": "S. Radhakrishnan, President from 1962 to 1967, was the first President from South India and had earlier been the first Vice-President.",
+   "ty": "fact",
+   "tq": "Combine two linked identifiers to distinguish a President from other holders of ‘first’ positions.",
+   "sec": "Presidents of India - order and FIRSTs  [other exams]"
+  },
+  {
+   "s": "Who was the first President of India to die in office?",
+   "o": [
+    "Rajendra Prasad",
+    "Zakir Husain",
+    "Fakhruddin Ali Ahmed",
+    "N. Sanjiva Reddy"
+   ],
+   "a": 1,
+   "x": "Zakir Husain, who served from 1967 to 1969, was the first President of India to die in office.",
+   "ty": "fact",
+   "tq": "Test the exact sequence of similar facts concerning Presidents who died while holding office.",
+   "sec": "Presidents of India - order and FIRSTs  [other exams]"
+  },
+  {
+   "s": "M. Hidayatullah is remembered in the constitutional history of India as the:",
+   "o": [
+    "Only Chief Justice of India to act as President",
+    "First President from South India",
+    "Only President elected twice",
+    "First tribal President"
+   ],
+   "a": 0,
+   "x": "M. Hidayatullah was the only Chief Justice of India to act as President.",
+   "ty": "fact",
+   "tq": "Identify the unique institutional combination rather than confusing an acting President with an elected President.",
+   "sec": "Presidents of India - order and FIRSTs  [other exams]"
+  },
+  {
+   "s": "V.V. Giri became President after winning on the basis of:",
+   "o": [
+    "A nomination by the Supreme Court",
+    "A unanimous vote of Parliament",
+    "A direct popular election",
+    "Second-preference votes"
+   ],
+   "a": 3,
+   "x": "V.V. Giri won the 1969 Presidential election on second-preference votes.",
+   "ty": "fact",
+   "tq": "Test the distinctive election feature attached to the individual President.",
+   "sec": "Presidents of India - order and FIRSTs  [other exams]"
+  },
+  {
+   "s": "Who acted as President after the death of Fakhruddin Ali Ahmed?",
+   "o": [
+    "V.V. Giri",
+    "N. Sanjiva Reddy",
+    "M. Hidayatullah",
+    "B.D. Jatti"
+   ],
+   "a": 3,
+   "x": "After Fakhruddin Ali Ahmed died in office, B.D. Jatti acted as President.",
+   "ty": "fact",
+   "tq": "Avoid the chronology trap by separating the President who died in office from the person who acted afterward.",
+   "sec": "Presidents of India - order and FIRSTs  [other exams]"
+  },
+  {
+   "s": "Consider the following statements about N. Sanjiva Reddy:\n1. He was the only President elected unopposed.\n2. He was from Andhra Pradesh.\n3. He had earlier served as Speaker of the Lok Sabha.\n4. He was the first Chief Minister of Andhra Pradesh.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe N. Sanjiva Reddy, who served as President from 1977 to 1982.",
+   "ty": "statements",
+   "tq": "Use the all-inclusive option only after verifying each biographical identifier separately.",
+   "sec": "Presidents of India - order and FIRSTs  [other exams]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Droupadi Murmu — First tribal President",
+    "K.R. Narayanan — First Dalit President",
+    "Pratibha Patil — First woman President",
+    "Rajendra Prasad — First woman President"
+   ],
+   "a": 3,
+   "x": "Rajendra Prasad was the first President of India and the only President elected twice; Pratibha Patil was the first woman President.",
+   "ty": "negative",
+   "tq": "Find the biography attached to the wrong President, a standard wrong-person-with-deed trap.",
+   "sec": "Presidents of India - order and FIRSTs  [other exams]"
+  },
+  {
+   "s": "Arrange the following Presidents of India in chronological order of assuming office:\nA. K.R. Narayanan\nB. Pratibha Patil\nC. N. Sanjiva Reddy\nD. Droupadi Murmu",
+   "o": [
+    "C, A, B, D",
+    "A, C, B, D",
+    "C, B, A, D",
+    "A, B, C, D"
+   ],
+   "a": 0,
+   "x": "N. Sanjiva Reddy assumed office in 1977, K.R. Narayanan in 1997, Pratibha Patil in 2007 and Droupadi Murmu in 2022.",
+   "ty": "chronology",
+   "tq": "Place the earliest and latest office-holders first, then resolve the two middle dates.",
+   "sec": "Presidents of India - order and FIRSTs  [other exams]"
+  },
+  {
+   "s": "Droupadi Murmu assumed office as the President of India on:",
+   "o": [
+    "25 July 2017",
+    "25 July 2012",
+    "25 July 2007",
+    "25 July 2022"
+   ],
+   "a": 3,
+   "x": "Droupadi Murmu became President on 25 July 2022 and is the first tribal President of India.",
+   "ty": "numerical",
+   "tq": "Test the exact year associated with a recent constitutional office-holder rather than the sequence number alone.",
+   "sec": "Presidents of India - order and FIRSTs  [other exams]"
+  },
+  {
+   "s": "Which of the following forms of clemency removes both the sentence and the conviction?",
+   "o": [
+    "Reprieve",
+    "Remission",
+    "Pardon",
+    "Commutation"
+   ],
+   "a": 2,
+   "x": "A pardon removes the sentence as well as the conviction. Commutation substitutes a lighter punishment, remission reduces the period, and reprieve temporarily stays execution.",
+   "ty": "confusable",
+   "tq": "Discriminate among closely related forms of pardoning power by their legal effect.",
+   "sec": "Pardoning power - Article 72 vs 161  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with its meaning?",
+   "o": [
+    "Commutation — temporary stay of execution",
+    "Remission — reduction of the period of sentence without changing its character",
+    "Respite — removal of conviction and sentence",
+    "Reprieve — substitution of a lighter form of punishment"
+   ],
+   "a": 1,
+   "x": "Remission reduces the period of punishment while retaining its character. Reprieve is a temporary stay, commutation substitutes a lighter punishment, and pardon removes conviction and sentence.",
+   "ty": "match",
+   "tq": "Start from the precise meaning of one form and eliminate the swapped meanings of the other forms.",
+   "sec": "Pardoning power - Article 72 vs 161  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding the pardoning powers of the President and Governor:\n1. The President may pardon a death sentence.\n2. The Governor cannot pardon a death sentence but may suspend, remit or commute it.\n3. The Governor may grant pardon in a court-martial case.\n4. The President may exercise pardoning power in court-martial cases.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 4 are correct. Statement 3 is false because the Governor has no power to pardon a court-martial sentence.",
+   "ty": "statements",
+   "tq": "Separate the President’s wider jurisdiction over death sentences and court-martial cases from the Governor’s narrower power.",
+   "sec": "Pardoning power - Article 72 vs 161  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The pardoning power of the President under Article 72 and of the Governor under Article 161 respectively relates primarily to offences against:",
+   "o": [
+    "Union laws and State laws",
+    "State laws and Union laws",
+    "International law and State laws",
+    "Municipal laws and Union laws"
+   ],
+   "a": 0,
+   "x": "The President deals with offences against Union laws, while the Governor deals with offences against State laws.",
+   "ty": "comparison",
+   "tq": "Use the Union–State jurisdiction contrast to avoid reversing the two constitutional provisions.",
+   "sec": "Pardoning power - Article 72 vs 161  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The pardoning power of the President is exercised on the advice of the Council of Ministers according to:",
+   "o": [
+    "D.C. Wadhwa (1987)",
+    "Kehar Singh (1989)",
+    "Maru Ram (1980)",
+    "Epuru Sudhakar v. Government of Andhra Pradesh (2006)"
+   ],
+   "a": 2,
+   "x": "Maru Ram (1980) established that the President exercises the pardoning power on the advice of the Council of Ministers.",
+   "ty": "fact",
+   "tq": "Match the case with its specific constitutional holding rather than grouping all pardon cases together.",
+   "sec": "Pardoning power - Article 72 vs 161  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly states the scope of judicial review of the President’s pardoning power?",
+   "o": [
+    "It may be reviewed only for violation of a fundamental right expressly named in the order",
+    "It is completely immune from judicial review",
+    "It may be reviewed for mala fide, arbitrary or irrelevant grounds",
+    "It can be reviewed only by Parliament"
+   ],
+   "a": 2,
+   "x": "Kehar Singh and Epuru Sudhakar recognised limited judicial review where the exercise is mala fide, arbitrary or based on irrelevant grounds.",
+   "ty": "application",
+   "tq": "Reject the extreme-word trap in ‘completely immune’ and apply the limited-review principle.",
+   "sec": "Pardoning power - Article 72 vs 161  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "An Ordinance under Article 123 may be promulgated by the President only when:",
+   "o": [
+    "Either House of Parliament is not in session and immediate action is considered necessary",
+    "The Lok Sabha alone has been dissolved permanently",
+    "The Supreme Court directs the President to promulgate it",
+    "Both Houses of Parliament are in session and urgent legislation is required"
+   ],
+   "a": 0,
+   "x": "Article 123 permits an Ordinance when Parliament is not in session and the President is satisfied that immediate action is necessary. The expression includes a situation in which either House is not in session.",
+   "ty": "fact",
+   "tq": "Focus on the exact constitutional condition and avoid the trap that both Houses must be absent simultaneously.",
+   "sec": "Ordinance - Article 123, life, lapse, review cases  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "An Ordinance promulgated under Article 123 has the same force and effect as:",
+   "o": [
+    "A resolution of either House of Parliament",
+    "A constitutional amendment",
+    "An executive order of the Prime Minister",
+    "An Act of Parliament"
+   ],
+   "a": 3,
+   "x": "An Ordinance has the same force and effect as an Act of Parliament, subject to the constitutional limits governing its promulgation and duration.",
+   "ty": "fact",
+   "tq": "Distinguish legal force from constitutional status: an Ordinance is not a constitutional amendment.",
+   "sec": "Ordinance - Article 123, life, lapse, review cases  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "An Ordinance promulgated by the President ceases to operate:",
+   "o": [
+    "Six weeks after Parliament reassembles, unless earlier disapproved by both Houses",
+    "Six months after promulgation in every case",
+    "Only when the President withdraws it",
+    "Six weeks after it is promulgated, irrespective of Parliament’s sittings"
+   ],
+   "a": 0,
+   "x": "An Ordinance lapses six weeks after Parliament reassembles, or earlier if both Houses disapprove it. The President may also withdraw it at any time.",
+   "ty": "fact",
+   "tq": "Combine the normal lapse rule with the earlier-disapproval exception instead of using the maximum-life figure alone.",
+   "sec": "Ordinance - Article 123, life, lapse, review cases  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "What is the maximum possible life of a Presidential Ordinance, assuming the constitutional conditions for its promulgation and continuation are met?",
+   "o": [
+    "Six months and six weeks",
+    "Four months and six weeks",
+    "One year",
+    "Three months"
+   ],
+   "a": 0,
+   "x": "The maximum possible life of an Ordinance is six months plus six weeks, linked to the interval between parliamentary sessions and the post-reassembly period.",
+   "ty": "numerical",
+   "tq": "Do not confuse the six-week post-reassembly period with the total maximum life.",
+   "sec": "Ordinance - Article 123, life, lapse, review cases  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following statements about the legislative scope of a Presidential Ordinance is correct?",
+   "o": [
+    "It may amend the Constitution because it has the force of an Act",
+    "Its scope is co-extensive with Parliament’s legislative power and it cannot amend the Constitution",
+    "It may legislate on any matter, including matters beyond Parliament’s competence",
+    "It can be issued only on State List subjects"
+   ],
+   "a": 1,
+   "x": "An Ordinance can cover matters within Parliament’s legislative competence, but it cannot be used to amend the Constitution.",
+   "ty": "statements",
+   "tq": "Separate the scope of ordinary legislation from the higher power of constitutional amendment.",
+   "sec": "Ordinance - Article 123, life, lapse, review cases  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Governor’s power corresponding to the President’s power to promulgate Ordinances under Article 123 is provided under:",
+   "o": [
+    "Article 213",
+    "Article 214",
+    "Article 161",
+    "Article 356"
+   ],
+   "a": 0,
+   "x": "Article 213 confers the parallel Ordinance-making power on the Governor of a State.",
+   "ty": "confusable",
+   "tq": "Discriminate between the Governor’s pardoning provision and the Governor’s Ordinance provision.",
+   "sec": "Ordinance - Article 123, life, lapse, review cases  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which Constitutional Amendment made the President’s satisfaction in promulgating an Ordinance final, and which Amendment reversed that position?",
+   "o": [
+    "38th Amendment made it final; 44th Amendment reversed it",
+    "39th Amendment made it final; 42nd Amendment reversed it",
+    "42nd Amendment made it final; 44th Amendment reversed it",
+    "44th Amendment made it final; 38th Amendment reversed it"
+   ],
+   "a": 0,
+   "x": "The 38th Amendment of 1975 made the President’s satisfaction final, while the 44th Amendment reversed that position.",
+   "ty": "chronology",
+   "tq": "Pair the two Amendments with opposite effects and check their chronological order.",
+   "sec": "Ordinance - Article 123, life, lapse, review cases  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Supreme Court in D.C. Wadhwa v. State of Bihar (1987) held that:",
+   "o": [
+    "Every Ordinance automatically becomes a constitutional amendment",
+    "Routine re-promulgation of Ordinances without placing them before the legislature is a fraud on the Constitution",
+    "The President’s satisfaction is never subject to review",
+    "An Ordinance must remain in force for at least six months"
+   ],
+   "a": 1,
+   "x": "D.C. Wadhwa held that routine re-promulgation without placing the Ordinance before the legislature amounts to a fraud on the Constitution.",
+   "ty": "fact",
+   "tq": "Match the case with its distinctive holding and avoid importing the later case’s broader formulation.",
+   "sec": "Ordinance - Article 123, life, lapse, review cases  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following was held in Krishna Kumar Singh v. State of Bihar (2017)?",
+   "o": [
+    "The Ordinance-making power was held to be a power to amend the Constitution",
+    "Re-promulgation is always valid if the executive considers it necessary",
+    "A seven-judge Bench held re-promulgation unconstitutional, made laying before the House mandatory and treated satisfaction as justiciable",
+    "The President alone may decide whether an Ordinance should be laid before the House"
+   ],
+   "a": 2,
+   "x": "The seven-judge Bench in Krishna Kumar Singh held that re-promulgation is unconstitutional, laying the Ordinance before the House is mandatory, and the satisfaction is justiciable.",
+   "ty": "fact",
+   "tq": "Use the case-name-to-holding method and identify the option containing all three linked holdings.",
+   "sec": "Ordinance - Article 123, life, lapse, review cases  [APPSC, GROUP-II]"
+  }
+ ]
+}

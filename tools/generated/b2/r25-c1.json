@@ -1,0 +1,483 @@
+{
+ "book": 2,
+ "row": 25,
+ "chunk": 1,
+ "section": "President of India - election, qualifications, term, impeachment; executive, legislative, financial, judicial powers",
+ "subsections": [
+  "Qualifications, term, re-election, salary, oath, resignation",
+  "Impeachment - Article 61",
+  "Powers of the President - statement based",
+  "Position - constitutional head, Article 74"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is NOT a constitutional qualification for election as the President of India?",
+   "o": [
+    "Qualification for election to the Lok Sabha",
+    "Completion of 35 years of age",
+    "Citizenship of India",
+    "Membership of either House of Parliament"
+   ],
+   "a": 3,
+   "x": "A presidential candidate must be an Indian citizen, at least 35 years old, qualified for election to the Lok Sabha and must not hold an office of profit. Membership of Parliament is not required.",
+   "ty": "negative",
+   "tq": "Find the option that confuses an eligibility qualification with a condition that is not prescribed.",
+   "sec": "Qualifications, term, re-election, salary, oath, resignation"
+  },
+  {
+   "s": "A person who holds an office of profit under the Union Government is generally disqualified from contesting the election to the office of the President because of which constitutional provision?",
+   "o": [
+    "Article 59",
+    "Article 58",
+    "Article 60",
+    "Article 56"
+   ],
+   "a": 1,
+   "x": "Article 58 prescribes the qualifications for election as President, including the condition that the person must not hold an office of profit under the Union, a State or a local or other authority.",
+   "ty": "fact",
+   "tq": "Use the article-number clue to distinguish qualifications from term, office conditions and oath.",
+   "sec": "Qualifications, term, re-election, salary, oath, resignation"
+  },
+  {
+   "s": "Consider the following statements regarding the term and re-election of the President of India:\n1. The President holds office for five years.\n2. The President is eligible for re-election.\n3. The Constitution limits a person to two terms as President.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The President holds office for five years and may be re-elected. The Constitution does not prescribe any limit on the number of terms.",
+   "ty": "statements",
+   "tq": "Reject the familiar but unsupported two-term limitation and retain the two directly stated provisions.",
+   "sec": "Qualifications, term, re-election, salary, oath, resignation"
+  },
+  {
+   "s": "The emoluments of the President of India are primarily dealt with in which of the following constitutional arrangements?",
+   "o": [
+    "They are fixed by the Union Cabinet and listed in the First Schedule.",
+    "They are fixed by Parliament by law and listed in the Second Schedule.",
+    "They are fixed annually by the Finance Commission and listed in the Fourth Schedule.",
+    "They are fixed by the Supreme Court and included in the Third Schedule."
+   ],
+   "a": 1,
+   "x": "The emoluments of the President are fixed by Parliament by law and are listed in the Second Schedule. They cannot be diminished during the term of office.",
+   "ty": "fact",
+   "tq": "Match the financial detail with the correct Schedule and authority instead of relying on a neighbouring Schedule.",
+   "sec": "Qualifications, term, re-election, salary, oath, resignation"
+  },
+  {
+   "s": "Which one of the following statements regarding the emoluments of the President is correct?",
+   "o": [
+    "They cannot be diminished during the President's term of office.",
+    "They are determined by the Chief Justice of India.",
+    "They may be reduced by Parliament during the President's term in the national interest.",
+    "They are determined exclusively by the Council of Ministers."
+   ],
+   "a": 0,
+   "x": "Although Parliament fixes the emoluments by law, they cannot be diminished during the President's term of office.",
+   "ty": "fact",
+   "tq": "Focus on the constitutional protection against diminution rather than on the authority that fixes the emoluments.",
+   "sec": "Qualifications, term, re-election, salary, oath, resignation"
+  },
+  {
+   "s": "The oath of office to the President of India is administered by the:",
+   "o": [
+    "Prime Minister of India",
+    "Speaker of the Lok Sabha",
+    "Chief Justice of India or, in his absence, the senior-most judge of the Supreme Court",
+    "Vice-President of India"
+   ],
+   "a": 2,
+   "x": "Under Article 60, the oath is administered by the Chief Justice of India; in his absence, it is administered by the senior-most judge of the Supreme Court.",
+   "ty": "fact",
+   "tq": "Apply the who-would-do-this-job method to distinguish the oath-taking authority from other constitutional functionaries.",
+   "sec": "Qualifications, term, re-election, salary, oath, resignation"
+  },
+  {
+   "s": "Which expression forms part of the President's oath under Article 60?",
+   "o": [
+    "To preserve, protect and defend the Constitution and the law",
+    "To faithfully execute the office of the Prime Minister",
+    "To protect the Constitution, Parliament and the Supreme Court exclusively",
+    "To uphold the sovereignty and integrity of India alone"
+   ],
+   "a": 0,
+   "x": "The President swears to preserve, protect and defend the Constitution and the law, and to devote himself or herself to the service and well-being of the people of India.",
+   "ty": "confusable",
+   "tq": "Test the exact constitutional wording and reject look-alike phrases that alter or narrow it.",
+   "sec": "Qualifications, term, re-election, salary, oath, resignation"
+  },
+  {
+   "s": "If the President of India resigns from office, the resignation letter is addressed to the:",
+   "o": [
+    "Vice-President",
+    "Speaker of the Lok Sabha",
+    "Prime Minister",
+    "Chief Justice of India"
+   ],
+   "a": 0,
+   "x": "The President resigns by writing to the Vice-President. The Vice-President then informs the Speaker of the Lok Sabha.",
+   "ty": "fact",
+   "tq": "Trace the constitutional communication chain and identify the immediate recipient rather than the person subsequently informed.",
+   "sec": "Qualifications, term, re-election, salary, oath, resignation"
+  },
+  {
+   "s": "Consider the following statements about the constitutional position of the President:\n1. The President cannot be a member of either House of Parliament or a State Legislature.\n2. The official residence of the President is provided rent-free.\n3. The emoluments of the President may be diminished during the term if Parliament so decides.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The President cannot be a member of any legislature and is entitled to an official residence rent-free. The emoluments cannot be diminished during the term, making statement 3 false.",
+   "ty": "statements",
+   "tq": "Identify the reversed protection in statement 3 while retaining the two true conditions of the office.",
+   "sec": "Qualifications, term, re-election, salary, oath, resignation"
+  },
+  {
+   "s": "Which of the following correctly describes the protection available to the President under Article 361?",
+   "o": [
+    "Official acts of the President may always be examined through criminal proceedings during the term.",
+    "The President is immune from all civil suits for an unlimited period.",
+    "The President may be arrested during the term after approval by Parliament.",
+    "No criminal proceedings can be instituted against the President during the term, while a civil suit requires two months' notice."
+   ],
+   "a": 3,
+   "x": "Article 361 protects the President from criminal proceedings during the term and provides immunity for official acts. A civil suit requires two months' prior notice; the immunity from civil proceedings is not unlimited.",
+   "ty": "application",
+   "tq": "Separate criminal immunity, protection for official acts and the notice requirement instead of treating them as one absolute immunity.",
+   "sec": "Qualifications, term, re-election, salary, oath, resignation"
+  },
+  {
+   "s": "The sole constitutional ground for impeachment of the President of India is:",
+   "o": [
+    "Misuse of public funds",
+    "Loss of majority in the Lok Sabha",
+    "Violation of the Constitution",
+    "Disobedience of the advice of the Council of Ministers"
+   ],
+   "a": 2,
+   "x": "Article 61 provides impeachment only for violation of the Constitution. The other grounds are not specified as grounds for presidential impeachment.",
+   "ty": "fact",
+   "tq": "Recall the exact constitutional ground and avoid substituting political or administrative misconduct.",
+   "sec": "Impeachment - Article 61"
+  },
+  {
+   "s": "Which one of the following statements about the use of the term “impeachment” in the constitutional context is correct?",
+   "o": [
+    "It is used for the removal of the President, judges of the Supreme Court and the Vice-President alike.",
+    "It is used for every constitutional office-holder removed by Parliament.",
+    "It is used only for the President; judges and the Vice-President are removed through procedures described as removal.",
+    "It is used only for the Vice-President and Governors."
+   ],
+   "a": 2,
+   "x": "In the constitutional terminology stated here, impeachment is used only for the President. Judges and the Vice-President are described as being removed.",
+   "ty": "confusable",
+   "tq": "Discriminate between closely associated constitutional terms rather than treating impeachment as a generic word for removal.",
+   "sec": "Impeachment - Article 61"
+  },
+  {
+   "s": "A charge for impeachment of the President may be initiated in:",
+   "o": [
+    "Either House of Parliament",
+    "The Lok Sabha only",
+    "A joint sitting of both Houses only",
+    "The Rajya Sabha only"
+   ],
+   "a": 0,
+   "x": "The impeachment charge may be initiated in either House of Parliament. It is not confined to one particular House or to a joint sitting.",
+   "ty": "fact",
+   "tq": "Test the constitutional choice between either House, one specified House and a joint sitting.",
+   "sec": "Impeachment - Article 61"
+  },
+  {
+   "s": "For initiating a charge of impeachment against the President, the notice must be signed by at least:",
+   "o": [
+    "One-tenth of the members of the concerned House",
+    "One-half of the members of the concerned House",
+    "One-sixth of the members of the concerned House",
+    "One-fourth of the members of the concerned House"
+   ],
+   "a": 3,
+   "x": "The notice of the impeachment charge must be signed by at least one-fourth of the members of the House in which the charge is initiated, and fourteen days' notice is required.",
+   "ty": "numerical",
+   "tq": "Use the fraction as the decisive numerical clue and distinguish it from the voting threshold at a later stage.",
+   "sec": "Impeachment - Article 61"
+  },
+  {
+   "s": "The minimum notice period required before moving a charge for impeachment of the President is:",
+   "o": [
+    "7 days",
+    "14 days",
+    "21 days",
+    "30 days"
+   ],
+   "a": 1,
+   "x": "The notice for initiating the charge must be given fourteen days in advance and must be signed by at least one-fourth of the members of the concerned House.",
+   "ty": "numerical",
+   "tq": "Separate the notice period from the two-thirds voting requirement and identify the exact number of days.",
+   "sec": "Impeachment - Article 61"
+  },
+  {
+   "s": "Consider the following statements regarding the impeachment procedure:\n1. The initiating House must pass the charge by a majority of two-thirds of its total membership.\n2. The other House investigates the charge.\n3. The President has the right to appear and to be represented during the investigation.\n4. The other House must also pass the charge by two-thirds of its total membership for impeachment to take effect.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe Article 61. Both Houses must approve the charge by a two-thirds majority of their total membership, with investigation by the other House and an opportunity for the President to appear or be represented.",
+   "ty": "statements",
+   "tq": "Read the procedure sequentially: notice, initiating vote, investigation, representation and final vote.",
+   "sec": "Impeachment - Article 61"
+  },
+  {
+   "s": "Which of the following correctly represents participation in the impeachment of the President?\n1. Elected members of the Lok Sabha participate.\n2. Nominated members of the Rajya Sabha participate.\n3. Elected Members of Legislative Assemblies participate.\n4. Nominated members of Parliament participate.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 3 only",
+    "1, 2 and 4 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Elected and nominated members of both Houses of Parliament participate in impeachment. Elected MLAs of the States, Delhi and Puducherry do not participate.",
+   "ty": "statements",
+   "tq": "Use the composition distinction: the presidential electoral college and the impeachment forum are not identical.",
+   "sec": "Impeachment - Article 61"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding the history of presidential impeachment in India?",
+   "o": [
+    "One President has been impeached by the Rajya Sabha.",
+    "Two Presidents have been impeached by joint sittings of Parliament.",
+    "No President of India has been impeached so far.",
+    "The first President was impeached but later reinstated."
+   ],
+   "a": 2,
+   "x": "No President of India has been impeached so far.",
+   "ty": "fact",
+   "tq": "Identify the precise historical status and reject options that invent a completed impeachment.",
+   "sec": "Impeachment - Article 61"
+  },
+  {
+   "s": "Which one of the following is a legislative power of the President of India?",
+   "o": [
+    "Dissolving the Supreme Court",
+    "Appointing all Members of Legislative Assemblies",
+    "Vetoing judicial decisions of the Supreme Court",
+    "Nominating twelve members to the Rajya Sabha"
+   ],
+   "a": 3,
+   "x": "The President nominates twelve members to the Rajya Sabha. Summoning and proroguing Parliament, dissolving the Lok Sabha and promulgating ordinances are also legislative powers.",
+   "ty": "fact",
+   "tq": "Match the power with the correct constitutional institution and reject powers assigned to the judiciary or State legislatures.",
+   "sec": "Powers of the President - statement based"
+  },
+  {
+   "s": "Consider the following statements regarding the legislative powers of the President:\n1. The President summons and prorogues Parliament.\n2. The President may dissolve the Lok Sabha.\n3. A Money Bill requires the President's prior recommendation.\n4. The President promulgates ordinances under Article 123.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four are legislative powers or functions of the President. Article 123 specifically empowers the President to promulgate ordinances when Parliament is not in session.",
+   "ty": "statements",
+   "tq": "Check each statement against the legislative cluster and use the all-inclusive option only when every item fits.",
+   "sec": "Powers of the President - statement based"
+  },
+  {
+   "s": "The President's prior recommendation is required for the introduction of which of the following?\n1. A Money Bill\n2. A Bill under Article 3 affecting the area, boundaries or name of a State\n3. Every Private Member's Bill in the Lok Sabha\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Prior recommendation is required for a Money Bill and for a Bill under Article 3. It is not required for every Private Member's Bill.",
+   "ty": "statements",
+   "tq": "Spot the overbroad word “every” and distinguish special constitutional introductions from ordinary legislative business.",
+   "sec": "Powers of the President - statement based"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Article 240 — Regulations for certain Union Territories",
+    "Article 123 — Ordinance-making power",
+    "Article 143 — Consultation with the Supreme Court",
+    "Article 360 — Appointment of the Comptroller and Auditor General"
+   ],
+   "a": 3,
+   "x": "Article 360 concerns financial emergency. The Comptroller and Auditor General is appointed by the President under Article 148, whereas Articles 123, 143 and 240 correspond to the powers stated in the other pairs.",
+   "ty": "negative",
+   "tq": "Find the wrong article-power pair by matching each article with its constitutional subject.",
+   "sec": "Powers of the President - statement based"
+  },
+  {
+   "s": "The advice tendered by the Supreme Court to the President under Article 143 is:",
+   "o": [
+    "Binding in every circumstance",
+    "Binding only during a financial emergency",
+    "Not binding on the President",
+    "Binding after approval by the Rajya Sabha"
+   ],
+   "a": 2,
+   "x": "Under Article 143, the President may consult the Supreme Court, but the advice given by the Court is not binding.",
+   "ty": "fact",
+   "tq": "Discriminate between consultation and compulsory compliance by focusing on the legal effect of the advice.",
+   "sec": "Powers of the President - statement based"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Article 72 — Pardoning power\n2. Article 143 — Advisory jurisdiction of the Supreme Court\n3. Article 352 — National Emergency\n4. Article 356 — Financial Emergency\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Articles 72, 143 and 352 correspond respectively to the pardoning power, consultation with the Supreme Court and National Emergency. Article 356 concerns failure of constitutional machinery in a State; Financial Emergency is under Article 360.",
+   "ty": "statements",
+   "tq": "Use article-subject matching and catch the swapped emergency provisions in statement 4.",
+   "sec": "Powers of the President - statement based"
+  },
+  {
+   "s": "Arrange the following functions in the order of the constitutional articles associated with them, beginning with the lowest article number:\nA. Financial Emergency\nB. Pardoning power\nC. Ordinance-making power\nD. Consultation with the Supreme Court",
+   "o": [
+    "B, C, D, A",
+    "C, B, D, A",
+    "B, D, C, A",
+    "D, B, C, A"
+   ],
+   "a": 0,
+   "x": "The relevant articles are Article 72 for pardoning power, Article 123 for ordinances, Article 143 for consultation with the Supreme Court and Article 360 for Financial Emergency. Therefore the order is B, C, D, A.",
+   "ty": "chronology",
+   "tq": "Convert each function into its article number and arrange the numbers rather than the functions by memory alone.",
+   "sec": "Powers of the President - statement based"
+  },
+  {
+   "s": "Which one of the following is a financial power of the President of India?",
+   "o": [
+    "Fixing the repo rate for the Reserve Bank of India",
+    "Auditing every State department directly",
+    "Advancing money from the Contingency Fund of India",
+    "Imposing taxation without parliamentary authority"
+   ],
+   "a": 2,
+   "x": "The President can authorise advances from the Contingency Fund of India. The Budget is laid before Parliament in the President's name, and recommendations are required for Money Bills and demands for grants.",
+   "ty": "application",
+   "tq": "Identify the function that belongs to the President's constitutional financial role without assigning executive or monetary-policy powers to that office.",
+   "sec": "Powers of the President - statement based"
+  },
+  {
+   "s": "Which one of the following correctly states the President's role in the administration of Union Territories?",
+   "o": [
+    "The President has no constitutional role in the administration of Union Territories.",
+    "The President administers all Union Territories directly through the Supreme Court.",
+    "The President administers Union Territories through administrators and may make regulations for certain Union Territories under Article 240.",
+    "The President administers Union Territories only through State Governors."
+   ],
+   "a": 2,
+   "x": "The President administers Union Territories through administrators and may make regulations for certain Union Territories under Article 240.",
+   "ty": "application",
+   "tq": "Match the office with the correct administrative channel and the specific article-based power.",
+   "sec": "Powers of the President - statement based"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the constitutional basis of appointment?\n1. Comptroller and Auditor General — Article 148\n2. Governors — Article 155\n3. Attorney General — Article 76\n4. Chief Election Commissioner and Election Commissioners — Article 324\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairings are correct: Articles 148, 155, 76 and 324 respectively concern the CAG, Governors, Attorney General, and the Election Commission.",
+   "ty": "statements",
+   "tq": "Verify every article-authority pair individually before accepting the comprehensive combination.",
+   "sec": "Powers of the President - statement based"
+  },
+  {
+   "s": "The constitutional arrangement under which the Council of Ministers aids and advises the President is provided in:",
+   "o": [
+    "Article 74",
+    "Article 123",
+    "Article 72",
+    "Article 143"
+   ],
+   "a": 0,
+   "x": "Article 74(1) provides that there shall be a Council of Ministers headed by the Prime Minister to aid and advise the President.",
+   "ty": "fact",
+   "tq": "Match the institutional relationship with its specific constitutional article.",
+   "sec": "Position - constitutional head, Article 74"
+  },
+  {
+   "s": "Which one of the following best describes the constitutional position of the President and the Prime Minister?",
+   "o": [
+    "The President is the real executive and the Prime Minister is the nominal executive.",
+    "The President is the nominal or de jure executive, while the Prime Minister is the real or de facto executive.",
+    "The Prime Minister is the constitutional head and the President is only a ceremonial officer without executive status.",
+    "Both are independent real executives with equal authority in all matters."
+   ],
+   "a": 1,
+   "x": "The President is the nominal or de jure executive, while the Prime Minister, heading the Council of Ministers, functions as the real or de facto executive.",
+   "ty": "comparison",
+   "tq": "Use the nominal-versus-real executive distinction and reject the reversal of roles.",
+   "sec": "Position - constitutional head, Article 74"
+  },
+  {
+   "s": "Consider the following statements about Article 74:\n1. The 42nd Constitutional Amendment made the advice of the Council of Ministers binding on the President.\n2. The 44th Constitutional Amendment enabled the President to return the advice once for reconsideration.\n3. After reconsideration, the President may permanently reject the advice.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The 42nd Amendment made the advice binding. The 44th Amendment allows the President to return it once for reconsideration, but after reconsideration the President must act according to the advice; statement 3 is false.",
+   "ty": "statements",
+   "tq": "Track the amendment sequence and identify the false final consequence of reconsideration.",
+   "sec": "Position - constitutional head, Article 74"
+  },
+  {
+   "s": "Assertion (A): The President may return the advice of the Council of Ministers for reconsideration once.\nReason (R): The 44th Constitutional Amendment introduced this limited power of reconsideration.\nChoose the correct answer using the code given below.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and the 44th Constitutional Amendment is the reason the President acquired the power to return the advice once for reconsideration. After reconsideration, the advice is binding.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the constitutional amendment stated in the Reason directly accounts for the power asserted.",
+   "sec": "Position - constitutional head, Article 74"
+  },
+  {
+   "s": "Under Article 74(2), which of the following is correct regarding the advice tendered by the Council of Ministers?",
+   "o": [
+    "The advice tendered to the President cannot be inquired into by any court.",
+    "The advice becomes public automatically after being tendered.",
+    "Any court may inquire into the advice if the President requests it.",
+    "Only the Supreme Court may inquire into the advice."
+   ],
+   "a": 0,
+   "x": "Article 74(2) provides that the question, if any, and what advice was tendered by Ministers to the President cannot be inquired into by any court.",
+   "ty": "fact",
+   "tq": "Identify the constitutional bar on judicial inquiry and reject options that create exceptions not provided here.",
+   "sec": "Position - constitutional head, Article 74"
+  }
+ ]
+}

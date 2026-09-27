@@ -1,0 +1,343 @@
+{
+ "book": 2,
+ "row": 33,
+ "chunk": 1,
+ "section": "Legislative procedure - ordinary, money, financial and constitutional amendment bills; joint sitting",
+ "subsections": [
+  "Lapsing of bills on dissolution of Lok Sabha",
+  "Money Bill vs Financial Bills (I, II) vs Finance Bill",
+  "Bills by House of introduction; President's prior recommendation",
+  "Private member's bills vs government bills"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 30,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 3
+ },
+ "accepted": [
+  {
+   "s": "A Bill passed by the Rajya Sabha is pending before the Lok Sabha when the Lok Sabha is dissolved. What is the position of the Bill?",
+   "o": [
+    "It does not lapse",
+    "It becomes law after the dissolution",
+    "It lapses",
+    "It is automatically referred to a joint sitting"
+   ],
+   "a": 2,
+   "x": "A Bill passed by the Rajya Sabha and pending in the Lok Sabha lapses when the Lok Sabha is dissolved.",
+   "ty": "application",
+   "tq": "Apply the rule that a Bill pending in the Lok Sabha lapses irrespective of which House passed it first.",
+   "sec": "Lapsing of bills on dissolution of Lok Sabha"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding a joint sitting and dissolution of the Lok Sabha?",
+   "o": [
+    "A joint sitting can be summoned even after the Bill has lapsed",
+    "A joint sitting cannot be summoned for a Bill that has already lapsed",
+    "Every Bill pending in the Rajya Sabha is automatically sent to a joint sitting",
+    "A lapsed Bill must be placed before a joint sitting in the next session"
+   ],
+   "a": 1,
+   "x": "A joint sitting cannot be summoned for a Bill that has already lapsed. Dissolution may terminate the Bill before the deadlock-resolution procedure can operate.",
+   "ty": "fact",
+   "tq": "Distinguish the existence of a Bill from the procedural stage required for a joint sitting.",
+   "sec": "Lapsing of bills on dissolution of Lok Sabha"
+  },
+  {
+   "s": "Match List-I with List-II regarding the effect of parliamentary proceedings:\n\nList-I (Event)\na. Adjournment or adjournment sine die\nb. Prorogation\nc. Dissolution of the Lok Sabha\n\na. List-II (Effect)\ni. All pending business before the Lok Sabha lapses\n ii. Pending notices generally lapse, except notices for introducing Bills\n iii. Bills do not lapse and may be taken up in the next session\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–iii, b–ii, c–i",
+    "a–ii, b–iii, c–i",
+    "a–iii, b–i, c–ii",
+    "a–i, b–ii, c–iii"
+   ],
+   "a": 0,
+   "x": "Adjournment or adjournment sine die does not cause Bills to lapse; prorogation causes pending notices to lapse except notices for introducing Bills; dissolution causes all pending business before the Lok Sabha to lapse.",
+   "ty": "match",
+   "tq": "Start from the sure pair that adjournment does not terminate Bills, then match prorogation and dissolution.",
+   "sec": "Lapsing of bills on dissolution of Lok Sabha"
+  },
+  {
+   "s": "With reference to Financial Bill-I under Article 117(1), consider the following statements:\n1. It can be introduced only in the Lok Sabha.\n2. It requires the President's recommendation at the stage of introduction.\n3. The Rajya Sabha can only recommend amendments to it.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the Rajya Sabha may amend or reject a Financial Bill-I; its powers are not restricted to making recommendations.",
+   "ty": "statements",
+   "tq": "Trap the transfer of the Rajya Sabha's limited Money Bill power to Financial Bill-I.",
+   "sec": "Money Bill vs Financial Bills (I, II) vs Finance Bill"
+  },
+  {
+   "s": "Which one of the following correctly describes a Financial Bill-II under Article 117(3)?",
+   "o": [
+    "It can be introduced in either House and requires the President's recommendation at the consideration stage",
+    "It can be introduced only in the Lok Sabha by a Minister",
+    "It contains exclusively matters specified in Article 110",
+    "It cannot be amended or rejected by the Rajya Sabha"
+   ],
+   "a": 0,
+   "x": "A Financial Bill-II may be introduced in either House, by a Minister or a private member, but the President's recommendation is required when it is taken into consideration. The Rajya Sabha may amend or reject it.",
+   "ty": "fact",
+   "tq": "Separate Financial Bill-II from both the Lok Sabha-only rule and the Money Bill rule.",
+   "sec": "Money Bill vs Financial Bills (I, II) vs Finance Bill"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Financial Bill-II — Joint sitting permitted",
+    "Money Bill — Speaker's certificate required",
+    "Financial Bill-I — Speaker's certificate required",
+    "Money Bill — Joint sitting not permitted"
+   ],
+   "a": 2,
+   "x": "A Financial Bill-I does not require the Speaker's certificate. A Money Bill requires that certificate; joint sitting is permitted for Financial Bills-I and II but not for a Money Bill.",
+   "ty": "negative",
+   "tq": "Check the certification column separately from the House of introduction and joint-sitting columns.",
+   "sec": "Money Bill vs Financial Bills (I, II) vs Finance Bill"
+  },
+  {
+   "s": "Arrange the following Bills in the order of the extent of matters under Article 110 covered by them, beginning with the widest coverage:\nA. Financial Bill-II\nB. Money Bill\nC. Financial Bill-I\n\nSelect the correct sequence.",
+   "o": [
+    "B, C, A",
+    "C, B, A",
+    "B, A, C",
+    "A, C, B"
+   ],
+   "a": 0,
+   "x": "A Money Bill deals exclusively with Article 110 matters; a Financial Bill-I contains such matters partly along with other matters; a Financial Bill-II contains none of the Article 110 matters.",
+   "ty": "chronology",
+   "tq": "Order the Bills by comparing the extent of Article 110 content rather than their financial character alone.",
+   "sec": "Money Bill vs Financial Bills (I, II) vs Finance Bill"
+  },
+  {
+   "s": "Consider the following statements:\n1. Every Money Bill is a Financial Bill.\n2. Every Financial Bill is a Money Bill.\n3. A Finance Bill gives effect to the tax proposals of the Budget.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 3 are correct. Statement 2 is false because every financial bill is not a Money Bill; the categories are not identical.",
+   "ty": "statements",
+   "tq": "Watch for the reversed inclusion trap in the paired expressions 'every Money Bill' and 'every Financial Bill'.",
+   "sec": "Money Bill vs Financial Bills (I, II) vs Finance Bill"
+  },
+  {
+   "s": "Which one of the following statements regarding a Finance Bill is correct?",
+   "o": [
+    "It is always introduced first in the Rajya Sabha",
+    "It can never be certified as a Money Bill",
+    "It gives effect to the tax proposals contained in the Budget",
+    "It cannot contain any proposal relating to taxation"
+   ],
+   "a": 2,
+   "x": "A Finance Bill gives effect to the Budget's tax proposals and is usually certified as a Money Bill. It is not always introduced in the Rajya Sabha and may involve taxation proposals.",
+   "ty": "fact",
+   "tq": "Use the functional meaning of a Finance Bill instead of treating it as identical to every Financial Bill.",
+   "sec": "Money Bill vs Financial Bills (I, II) vs Finance Bill"
+  },
+  {
+   "s": "A proposed amendment to a Financial Bill-I seeks to abolish an existing tax. Is the President's recommendation required for such an amendment?",
+   "o": [
+    "No, because Financial Bills-I never require recommendation",
+    "Yes, because every amendment to a tax requires recommendation",
+    "No, an amendment reducing or abolishing a tax does not require such recommendation",
+    "Yes, but only when the Bill is pending in the Rajya Sabha"
+   ],
+   "a": 2,
+   "x": "An amendment reducing or abolishing a tax does not require the President's recommendation. An amendment increasing a tax requires such recommendation.",
+   "ty": "application",
+   "tq": "Distinguish the direction of the tax change; reducing or abolishing tax is treated differently from increasing it.",
+   "sec": "Money Bill vs Financial Bills (I, II) vs Finance Bill"
+  },
+  {
+   "s": "Which one of the following statements correctly compares the President's power to return the Bills?",
+   "o": [
+    "The President cannot return any financial legislation",
+    "The President can return only a Financial Bill-II",
+    "The President cannot return a Money Bill but can return Financial Bills-I and II",
+    "The President can return a Money Bill but cannot return either Financial Bill"
+   ],
+   "a": 2,
+   "x": "A Money Bill cannot be returned by the President for reconsideration, whereas Financial Bills-I and II can be returned.",
+   "ty": "comparison",
+   "tq": "Compare the President's return power across the three categories instead of assuming all financial Bills follow the Money Bill rule.",
+   "sec": "Money Bill vs Financial Bills (I, II) vs Finance Bill"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Article 117(3) — Financial Bill-II at the consideration stage",
+    "Article 3 — Formation of new States or alteration of their areas, boundaries or names",
+    "Article 117(1) — Financial Bill-I",
+    "Article 274 — Bills relating exclusively to expenditure from the Consolidated Fund of India"
+   ],
+   "a": 3,
+   "x": "Article 274 concerns Bills affecting taxation in which States are interested. Bills involving expenditure from the Consolidated Fund of India require recommendation under Article 117(3).",
+   "ty": "negative",
+   "tq": "Use the Article-subject match and reject the swapped Article 274 description.",
+   "sec": "Bills by House of introduction; President's prior recommendation"
+  },
+  {
+   "s": "A Bill involving expenditure from the Consolidated Fund of India is proposed for consideration. At what stage is the President's recommendation required under Article 117(3)?",
+   "o": [
+    "No recommendation is required at any stage",
+    "Before the Bill is taken into consideration",
+    "Only before its introduction in the Rajya Sabha",
+    "Only after the Bill has been passed by both Houses"
+   ],
+   "a": 1,
+   "x": "For a Financial Bill-II involving expenditure from the Consolidated Fund of India, the President's recommendation is required before the Bill is taken into consideration.",
+   "ty": "fact",
+   "tq": "Focus on the stage specified—consideration—not merely on the fact that the Bill concerns public expenditure.",
+   "sec": "Bills by House of introduction; President's prior recommendation"
+  },
+  {
+   "s": "Which one of the following statements regarding State legislation is correct?",
+   "o": [
+    "Such a Bill can be introduced only in the Rajya Sabha",
+    "Such a Bill requires the Speaker's certificate as a Money Bill",
+    "A Bill restricting inter-State trade may be introduced in a State Legislature without any prior sanction",
+    "A Bill restricting inter-State trade requires the President's previous sanction before introduction in a State Legislature"
+   ],
+   "a": 3,
+   "x": "A State Bill restricting inter-State trade cannot be introduced without the President's previous sanction.",
+   "ty": "fact",
+   "tq": "Apply the prior-sanction rule at the State level and distinguish it from parliamentary Money Bill certification.",
+   "sec": "Bills by House of introduction; President's prior recommendation"
+  },
+  {
+   "s": "Which of the following is the correct distinction between a Government Bill and a Private Member's Bill?",
+   "o": [
+    "A Government Bill is introduced by a Minister, whereas a Private Member's Bill is introduced by an MP who is not a Minister",
+    "A Private Member's Bill can be introduced only in the Rajya Sabha",
+    "A Government Bill is introduced by any MP, whereas a Private Member's Bill is introduced only by a Minister",
+    "Both Bills are drafted exclusively by the Law Ministry"
+   ],
+   "a": 0,
+   "x": "A Government Bill is introduced by a Minister. A Private Member's Bill is introduced by any Member of Parliament who is not a Minister.",
+   "ty": "confusable",
+   "tq": "Discriminate the two Bills by the identity of the member introducing them.",
+   "sec": "Private member's bills vs government bills"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Government Bill — one month's notice",
+    "Private Member's Bill — seven days' notice",
+    "Government Bill — rejection necessarily signals loss of confidence in the government",
+    "Private Member's Bill — defeat has no bearing on the government's continuation in office"
+   ],
+   "a": 3,
+   "x": "Defeat of a Private Member's Bill does not affect the government's continuation in office. Government Bills generally require seven days' notice, while Private Members' Bills require one month's notice; rejection of a Government Bill may signal loss of confidence.",
+   "ty": "match",
+   "tq": "Compare notice period and political consequence together to avoid swapping the two categories.",
+   "sec": "Private member's bills vs government bills"
+  },
+  {
+   "s": "A Member of Parliament who is not a Minister intends to introduce a Bill. Which of the following is applicable to the Bill?",
+   "o": [
+    "It is a Financial Bill-I and must be introduced by a Minister",
+    "It is a Private Member's Bill and ordinarily requires one month's notice",
+    "It is a Government Bill and requires seven days' notice",
+    "It is a Money Bill and requires no recommendation"
+   ],
+   "a": 1,
+   "x": "A Bill introduced by an MP who is not a Minister is a Private Member's Bill. Such a Bill ordinarily requires one month's notice.",
+   "ty": "application",
+   "tq": "Identify the category from the status of the proposer, then apply the corresponding notice period.",
+   "sec": "Private member's bills vs government bills"
+  },
+  {
+   "s": "Who normally drafts a Government Bill and who drafts a Private Member's Bill?",
+   "o": [
+    "The Government Bill is drafted by the Rajya Sabha Secretariat, while the Private Member's Bill is drafted by the President",
+    "The Government Bill is drafted by the department with the Law Ministry, while the Private Member's Bill is drafted by the member",
+    "Both are drafted by the concerned Member of Parliament",
+    "Both are drafted by the Election Commission"
+   ],
+   "a": 1,
+   "x": "A Government Bill is drafted by the concerned department in association with the Law Ministry. A Private Member's Bill is drafted by the member introducing it.",
+   "ty": "comparison",
+   "tq": "Use the drafting agency as the decisive distinction between Government and Private Member's Bills.",
+   "sec": "Private member's bills vs government bills"
+  },
+  {
+   "s": "Which one of the following statements about the Committee on Private Members' Bills and Resolutions is correct?",
+   "o": [
+    "It is a committee of the President's Secretariat",
+    "It is a committee of the Rajya Sabha that certifies Money Bills",
+    "It is a joint committee that drafts all Government Bills",
+    "It is a Lok Sabha committee that classifies Private Members' Bills and allots time to them"
+   ],
+   "a": 3,
+   "x": "The Lok Sabha's Committee on Private Members' Bills and Resolutions classifies such Bills and allots time for their discussion.",
+   "ty": "fact",
+   "tq": "Identify the correct House and function instead of confusing this committee with the Business Advisory Committee.",
+   "sec": "Private member's bills vs government bills"
+  },
+  {
+   "s": "Which one of the following functions is performed by the Lok Sabha's Committee on Private Members' Bills and Resolutions?",
+   "o": [
+    "It recommends the President's assent to Money Bills",
+    "It decides whether a Government Bill should be returned by the President",
+    "It appoints Ministers of the Union",
+    "It examines Private Members' constitutional amendment Bills before their introduction"
+   ],
+   "a": 3,
+   "x": "The Lok Sabha committee examines constitutional amendment Bills introduced by Private Members before their introduction, besides classifying Bills and allotting time.",
+   "ty": "fact",
+   "tq": "Test the committee's specific procedural role rather than its general legislative association.",
+   "sec": "Private member's bills vs government bills"
+  },
+  {
+   "s": "Consider the following statements regarding Private Members' Bills:\n1. A Private Member's Bill is introduced by an MP who is not a Minister.\n2. Its defeat necessarily amounts to a loss of confidence in the government.\n3. In the Lok Sabha, time for such Bills is allotted by the Committee on Private Members' Bills and Resolutions.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 3 are correct. Statement 2 is false: defeat of a Private Member's Bill has no bearing on the government's continuation in office.",
+   "ty": "statements",
+   "tq": "Reject the political-consequence trap and retain the proposer and time-allocation statements.",
+   "sec": "Private member's bills vs government bills"
+  },
+  {
+   "s": "Which one of the following statements regarding the Rajya Sabha's procedure for Private Members' Bills is correct?",
+   "o": [
+    "No body can allot time for such Bills in the Rajya Sabha",
+    "The Rajya Sabha's Business Advisory Committee allots time for Private Members' Bills",
+    "The Rajya Sabha has a Committee on Private Members' Bills and Resolutions identical to the Lok Sabha committee",
+    "The President allots time for such Bills in the Rajya Sabha"
+   ],
+   "a": 1,
+   "x": "The Rajya Sabha has no separate Committee on Private Members' Bills and Resolutions for this purpose; its Business Advisory Committee allots the time.",
+   "ty": "confusable",
+   "tq": "Distinguish the Lok Sabha committee from the Rajya Sabha's Business Advisory Committee.",
+   "sec": "Private member's bills vs government bills"
+  },
+  {
+   "s": "How many Private Members' Bills have become law, and in which year was the last such Bill enacted?",
+   "o": [
+    "14; 1970",
+    "12; 1968",
+    "16; 1972",
+    "20; 1975"
+   ],
+   "a": 0,
+   "x": "Only 14 Private Members' Bills have become law, and the last such enactment was in 1970.",
+   "ty": "numerical",
+   "tq": "Pair the count with the year; do not treat the numerical figure and date as separate clues.",
+   "sec": "Private member's bills vs government bills"
+  }
+ ]
+}

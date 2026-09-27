@@ -1,0 +1,229 @@
+{
+ "book": 2,
+ "row": 2,
+ "chunk": 1,
+ "section": "Sources of the Indian Constitution - borrowed features and their origin countries",
+ "subsections": [
+  "Match-list sets: feature → source country",
+  "Election of Rajya Sabha members and amendment procedure → source"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 16,
+ "rejected": {
+  "invalid": 1,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Bicameralism — France",
+    "Parliamentary privileges — United States of America",
+    "Prerogative writs — Britain",
+    "Office of Speaker — Ireland"
+   ],
+   "a": 2,
+   "x": "Prerogative writs were borrowed from Britain. Parliamentary privileges, bicameralism and the office of Speaker were also associated with the British constitutional model, not the countries stated in the other options.",
+   "ty": "negative",
+   "tq": "Use the source-country cluster and reject swapped authorities or countries.",
+   "sec": "Match-list sets: feature → source country"
+  },
+  {
+   "s": "Consider the following statements:\n1. Judicial review in India was inspired by the Constitution of the United States of America.\n2. The power of impeachment of the President was borrowed from the United States of America.\n3. The office of Vice-President was borrowed from Ireland.\n4. The provision for removal of Supreme Court and High Court judges was borrowed from the United States of America.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 4 only",
+    "1 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 4 are correct. Statement 3 is false because the office of Vice-President was borrowed from the United States of America.",
+   "ty": "statements",
+   "tq": "Find the one swapped source in a group of closely related constitutional features.",
+   "sec": "Match-list sets: feature → source country"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Feature)\nA. Directive Principles of State Policy\nB. Nomination of members to the Rajya Sabha\nC. Strong Centre in the federation\nD. Advisory jurisdiction of the Supreme Court\n\nList-II (Source)\n1. Ireland\n2. Canada\n3. United States of America\n4. Britain\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "A-1, B-1, C-2, D-2",
+    "A-2, B-1, C-1, D-2",
+    "A-1, B-2, C-2, D-4",
+    "A-4, B-3, C-2, D-1"
+   ],
+   "a": 0,
+   "x": "The Directive Principles and nomination of Rajya Sabha members came from Ireland. A strong Centre and the advisory jurisdiction of the Supreme Court were borrowed from Canada.",
+   "ty": "match",
+   "tq": "Begin with the sure Ireland pair, then separate the Canadian federal features.",
+   "sec": "Match-list sets: feature → source country"
+  },
+  {
+   "s": "Consider the following statements regarding constitutional features borrowed from Australia and the USSR:\n1. The Concurrent List was borrowed from Australia.\n2. Freedom of trade, commerce and intercourse was borrowed from Australia.\n3. Fundamental Duties were borrowed from the USSR.\n4. The ideals of social, economic and political justice in the Preamble were borrowed from Australia.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is false because the ideals of social, economic and political justice in the Preamble were borrowed from the USSR.",
+   "ty": "statements",
+   "tq": "Separate the Australian federal-trade features from the Soviet ideological features.",
+   "sec": "Match-list sets: feature → source country"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Procedure established by law — Japan",
+    "Suspension of Fundamental Rights during Emergency — Weimar Germany",
+    "Republic and liberty, equality and fraternity — France",
+    "Fundamental Duties — France"
+   ],
+   "a": 3,
+   "x": "Fundamental Duties were borrowed from the USSR, not France. Weimar Germany, France and Japan are correctly associated with the features given in the other options.",
+   "ty": "negative",
+   "tq": "Look for the wrong person-country association rather than the wrong constitutional feature.",
+   "sec": "Match-list sets: feature → source country"
+  },
+  {
+   "s": "A student is asked to distinguish between two Rajya Sabha-related provisions. Which of the following correctly identifies their sources?",
+   "o": [
+    "Election of members — Canada; nomination of members — Australia",
+    "Election of members — USA; nomination of members — Britain",
+    "Election of members — South Africa; nomination of members — Ireland",
+    "Election of members — Ireland; nomination of members — South Africa"
+   ],
+   "a": 2,
+   "x": "The election of Rajya Sabha members was borrowed from South Africa, whereas the nomination of members to the Rajya Sabha was borrowed from Ireland.",
+   "ty": "confusable",
+   "tq": "Split the paired terms election and nomination before matching their sources.",
+   "sec": "Election of Rajya Sabha members and amendment procedure → source"
+  },
+  {
+   "s": "The procedure for amendment of the Constitution under Article 368 was borrowed from the Constitution of:",
+   "o": [
+    "Canada",
+    "Ireland",
+    "South Africa",
+    "Australia"
+   ],
+   "a": 2,
+   "x": "The procedure for constitutional amendment under Article 368 was borrowed from South Africa.",
+   "ty": "fact",
+   "tq": "Match the specific constitutional procedure with its source rather than a neighbouring federal feature.",
+   "sec": "Election of Rajya Sabha members and amendment procedure → source"
+  },
+  {
+   "s": "Consider the following statements:\n1. The method of election of the President was borrowed from Ireland.\n2. The nomination of members to the Rajya Sabha was borrowed from Ireland.\n3. The election of members of the Rajya Sabha and the amendment procedure were both borrowed from South Africa.\n4. Residuary powers with the Centre were borrowed from South Africa.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is false because residuary powers with the Centre were borrowed from Canada.",
+   "ty": "statements",
+   "tq": "Use the election-versus-nomination distinction and identify the swapped source in the final statement.",
+   "sec": "Election of Rajya Sabha members and amendment procedure → source"
+  },
+  {
+   "s": "Which of the following constitutional features was borrowed from Canada?",
+   "o": [
+    "Residuary powers with the Centre",
+    "Suspension of Fundamental Rights during Emergency",
+    "Procedure established by law",
+    "Fundamental Duties"
+   ],
+   "a": 0,
+   "x": "Residuary powers with the Centre, along with a strong Centre, centrally appointed Governors and the advisory jurisdiction of the Supreme Court, were borrowed from Canada.",
+   "ty": "fact",
+   "tq": "Use source-specific clusters instead of matching a feature with a superficially similar country.",
+   "sec": "Election of Rajya Sabha members and amendment procedure → source"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Feature)\nA. Joint sitting of the two Houses\nB. Fundamental Duties\nC. Republic\nD. Procedure established by law\n\nList-II (Source)\n1. Australia\n2. USSR\n3. France\n4. Japan\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "A-1, B-2, C-3, D-4",
+    "A-2, B-1, C-4, D-3",
+    "A-1, B-3, C-2, D-4",
+    "A-4, B-2, C-3, D-1"
+   ],
+   "a": 0,
+   "x": "The joint sitting of the two Houses came from Australia, Fundamental Duties from the USSR, the republican ideal from France and procedure established by law from Japan.",
+   "ty": "match",
+   "tq": "Build the answer from four distinctive source-feature associations.",
+   "sec": "Match-list sets: feature → source country"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched with its source?",
+   "o": [
+    "Freedom of trade, commerce and intercourse — Canada",
+    "Five-Year Plans — USSR",
+    "Nominal head comparable to the Crown — Britain",
+    "Parliamentary government — Britain"
+   ],
+   "a": 0,
+   "x": "Freedom of trade, commerce and intercourse was borrowed from Australia, not Canada. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Check the country attached to a detailed feature rather than relying only on the broad constitutional system.",
+   "sec": "Match-list sets: feature → source country"
+  },
+  {
+   "s": "The Constitution of India is considered the lengthiest written Constitution partly because it drew upon:",
+   "o": [
+    "Only the constitutions of the United States of America and Ireland",
+    "Only the British constitutional model and the Government of India Act, 1935",
+    "The constitutions of several countries along with the Government of India Act, 1935",
+    "The Government of India Act, 1919 and the unwritten conventions of France"
+   ],
+   "a": 2,
+   "x": "The Constitution drew upon several world constitutions as well as the Government of India Act, 1935. This wide borrowing is one reason for its considerable length.",
+   "ty": "fact",
+   "tq": "Reject the extreme word only and choose the comprehensive but precise description.",
+   "sec": "Match-list sets: feature → source country"
+  },
+  {
+   "s": "Which one of the following sets contains only features borrowed from the Government of India Act, 1935?",
+   "o": [
+    "Concurrent List, joint sitting and freedom of trade",
+    "Fundamental Rights, judicial review, impeachment and Vice-President",
+    "Federal scheme, office of Governor, judiciary and Public Service Commissions",
+    "Fundamental Duties, Five-Year Plans and ideals of justice"
+   ],
+   "a": 2,
+   "x": "The Government of India Act, 1935 contributed the federal scheme, office of Governor, judiciary and Public Service Commissions, among other administrative features.",
+   "ty": "application",
+   "tq": "Group the administrative and institutional provisions before considering ideological or federal borrowings from other countries.",
+   "sec": "Match-list sets: feature → source country"
+  },
+  {
+   "s": "Consider the following statements about residuary powers:\n1. In India, residuary powers lie with Parliament under Article 248.\n2. In the United States of America and Australia, residuary powers lie with the States.\n3. The Indian arrangement of residuary powers was borrowed from Canada.\n4. In India, residuary powers lie exclusively with the States.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is false because residuary powers in India lie with Parliament, reflecting the Canadian model.",
+   "ty": "statements",
+   "tq": "Use the reversed-comparison trap involving the Centre in India and the States in the USA and Australia.",
+   "sec": "Election of Rajya Sabha members and amendment procedure → source"
+  },
+  {
+   "s": "Which of the following combinations is correctly arranged according to the source of the feature?\n\n1. Fundamental Rights — United States of America\n2. Directive Principles — Ireland\n3. Suspension of Fundamental Rights during Emergency — Weimar Germany\n4. Amendment procedure — South Africa",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct: Fundamental Rights came from the United States of America, Directive Principles from Ireland, suspension of Fundamental Rights during Emergency from Weimar Germany and the amendment procedure from South Africa.",
+   "ty": "statements",
+   "tq": "When all four source-feature pairs belong to distinct clusters, verify each pair before selecting the complete combination.",
+   "sec": "Match-list sets: feature → source country"
+  }
+ ]
+}

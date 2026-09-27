@@ -1,0 +1,372 @@
+{
+ "book": 2,
+ "row": 27,
+ "chunk": 2,
+ "section": "Vice-President; Prime Minister and the Union Council of Ministers - Articles 74, 75, 77, 78",
+ "subsections": [
+  "Prime Ministers - FIRSTs and unique facts",
+  "Deputy PM and Leader of the House - status",
+  "Categories of ministers - Cabinet, MoS (independent charge), MoS, Deputy Minister",
+  "Executive power in practice - nominal vs real, Business Rules",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 28,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Who was the first Prime Minister of India and also holds the record for the longest overall tenure as Prime Minister?",
+   "o": [
+    "Narendra Modi",
+    "Lal Bahadur Shastri",
+    "Indira Gandhi",
+    "Jawaharlal Nehru"
+   ],
+   "a": 3,
+   "x": "Jawaharlal Nehru was the first Prime Minister of India and had the maximum aggregate tenure as Prime Minister, from 1947 to 1964.",
+   "ty": "fact",
+   "tq": "Directly identify the office-holder associated with two linked firsts.",
+   "sec": "Prime Ministers - FIRSTs and unique facts"
+  },
+  {
+   "s": "Gulzarilal Nanda is distinguished in Indian political history as the",
+   "o": [
+    "first Deputy Prime Minister of India",
+    "Prime Minister with the shortest regular tenure",
+    "first acting Prime Minister of India, serving twice",
+    "first Prime Minister from the Rajya Sabha"
+   ],
+   "a": 2,
+   "x": "Gulzarilal Nanda was the first acting Prime Minister and served as acting Prime Minister twice, in 1964 and 1966.",
+   "ty": "fact",
+   "tq": "Distinguish a temporary office-holder from regular Prime Ministers using the specific numerical clue.",
+   "sec": "Prime Ministers - FIRSTs and unique facts"
+  },
+  {
+   "s": "Indira Gandhi became the first Prime Minister of India to come from the",
+   "o": [
+    "Nominated category of Parliament",
+    "Lok Sabha",
+    "Rajya Sabha",
+    "Legislative Council of a State"
+   ],
+   "a": 2,
+   "x": "Indira Gandhi became Prime Minister from the Rajya Sabha in 1966, making her the first Prime Minister to do so.",
+   "ty": "confusable",
+   "tq": "Discriminate between the two Houses of Parliament in a first-in-office question.",
+   "sec": "Prime Ministers - FIRSTs and unique facts"
+  },
+  {
+   "s": "Consider the following statements regarding Prime Ministers of India:\n1. P.V. Narasimha Rao became Prime Minister in 1991 without initially being a Member of Parliament.\n2. He subsequently entered the Lok Sabha from Nandyal.\n3. He was the first Prime Minister from South India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. P.V. Narasimha Rao became Prime Minister in 1991 without initially being an MP, later won from Nandyal, and was the first Prime Minister from South India.",
+   "ty": "statements",
+   "tq": "Check each linked biographical statement separately before selecting the coded combination.",
+   "sec": "Prime Ministers - FIRSTs and unique facts"
+  },
+  {
+   "s": "Which one of the following was NOT a Prime Minister of India who came from the Rajya Sabha?",
+   "o": [
+    "I.K. Gujral",
+    "Charan Singh",
+    "H.D. Deve Gowda",
+    "Manmohan Singh"
+   ],
+   "a": 1,
+   "x": "H.D. Deve Gowda, I.K. Gujral and Manmohan Singh were Prime Ministers from the Rajya Sabha. Charan Singh is not included in this group.",
+   "ty": "negative",
+   "tq": "Find the odd office-holder by comparing the complete list of Rajya Sabha Prime Ministers.",
+   "sec": "Prime Ministers - FIRSTs and unique facts"
+  },
+  {
+   "s": "The shortest tenure of a regular Prime Minister of India was held by",
+   "o": [
+    "Charan Singh",
+    "A.B. Vajpayee",
+    "Gulzarilal Nanda",
+    "Lal Bahadur Shastri"
+   ],
+   "a": 1,
+   "x": "A.B. Vajpayee had the shortest tenure of a regular Prime Minister, lasting 13 days in 1996. Gulzarilal Nanda served as an acting Prime Minister and is therefore not the answer.",
+   "ty": "numerical",
+   "tq": "Use the duration and the qualification ‘regular Prime Minister’ to eliminate temporary office-holders.",
+   "sec": "Prime Ministers - FIRSTs and unique facts"
+  },
+  {
+   "s": "Who among the following Prime Ministers of India never faced the Lok Sabha?",
+   "o": [
+    "A.B. Vajpayee",
+    "V.P. Singh",
+    "Morarji Desai",
+    "Charan Singh"
+   ],
+   "a": 3,
+   "x": "Charan Singh became Prime Minister in 1979 but never faced the Lok Sabha as Prime Minister.",
+   "ty": "fact",
+   "tq": "Test a unique negative fact rather than a general tenure detail.",
+   "sec": "Prime Ministers - FIRSTs and unique facts"
+  },
+  {
+   "s": "On 10 June 2026, Narendra Modi was reported to have become the longest continuously serving elected Prime Minister. Which statement best captures the related distinction regarding Jawaharlal Nehru?",
+   "o": [
+    "Nehru retains the record for maximum aggregate days as Prime Minister.",
+    "Nehru was never an elected Prime Minister.",
+    "Nehru had the shortest continuous tenure among elected Prime Ministers.",
+    "Nehru became Prime Minister after Narendra Modi."
+   ],
+   "a": 0,
+   "x": "Narendra Modi was reported as the longest continuously serving elected Prime Minister on 10 June 2026, while Jawaharlal Nehru retains the record for maximum aggregate days as Prime Minister.",
+   "ty": "comparison",
+   "tq": "Separate continuous-tenure claims from aggregate-tenure claims instead of treating them as identical.",
+   "sec": "Prime Ministers - FIRSTs and unique facts"
+  },
+  {
+   "s": "Which one of the following Vice-Presidents also served two full terms?",
+   "o": [
+    "R. Venkataraman",
+    "Hamid Ansari",
+    "K.R. Narayanan",
+    "V.V. Giri"
+   ],
+   "a": 1,
+   "x": "Hamid Ansari served two full terms as Vice-President from 2007 to 2017. Dr. S. Radhakrishnan was the other Vice-President associated with two terms.",
+   "ty": "numerical",
+   "tq": "Distinguish the two-term office-holders from Vice-Presidents who served only one term.",
+   "sec": "Prime Ministers - FIRSTs and unique facts"
+  },
+  {
+   "s": "Match List-I with List-II regarding Vice-Presidents who later became Presidents of India:\n\nList-I\nA. S. Radhakrishnan\nB. Zakir Husain\nC. V.V. Giri\nD. K.R. Narayanan\n\nList-II\ni. 1962\nii. 1967\niii. 1969\niv. 1997\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "A-i, B-ii, C-iii, D-iv",
+    "A-ii, B-i, C-iv, D-iii",
+    "A-i, B-iii, C-ii, D-iv",
+    "A-iv, B-ii, C-i, D-iii"
+   ],
+   "a": 0,
+   "x": "S. Radhakrishnan became President in 1962, Zakir Husain in 1967, V.V. Giri in 1969 and K.R. Narayanan in 1997.",
+   "ty": "match",
+   "tq": "Start with the secure year-office pair and eliminate codes containing a mismatched pair.",
+   "sec": "Prime Ministers - FIRSTs and unique facts"
+  },
+  {
+   "s": "Who is the Vice-President of India elected after the mid-term vacancy created by the resignation of Jagdeep Dhankhar in July 2025?",
+   "o": [
+    "C.P. Radhakrishnan",
+    "S. Radhakrishnan",
+    "Hamid Ansari",
+    "M. Venkaiah Naidu"
+   ],
+   "a": 0,
+   "x": "C.P. Radhakrishnan was elected Vice-President after the mid-term vacancy caused by Jagdeep Dhankhar’s resignation in July 2025.",
+   "ty": "fact",
+   "tq": "Use the vacancy event as the identifying clue for the current office-holder.",
+   "sec": "Prime Ministers - FIRSTs and unique facts"
+  },
+  {
+   "s": "Consider the following statements about the office of Deputy Prime Minister in India:\n1. The office of Deputy Prime Minister is expressly mentioned in the Constitution.\n2. A Deputy Prime Minister takes oath as an ordinary Minister.\n3. Sardar Patel was the first Deputy Prime Minister.\n4. The office is placed at rank 5A in the Table of Precedence.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 3 and 4 only"
+   ],
+   "a": 2,
+   "x": "Statements 2, 3 and 4 are correct. The office of Deputy Prime Minister is not mentioned in the Constitution; the Deputy Prime Minister takes oath as an ordinary Minister, Sardar Patel was the first, and the office has rank 5A in the Table of Precedence.",
+   "ty": "statements",
+   "tq": "Identify the constitutional-status trap before checking the factual details of the office.",
+   "sec": "Deputy PM and Leader of the House - status"
+  },
+  {
+   "s": "The Prime Minister’s Office is best described as a/an",
+   "o": [
+    "constitutional body created under Article 77",
+    "parliamentary committee of the Lok Sabha",
+    "statutory body headed by the President",
+    "extra-constitutional staff agency of the Prime Minister"
+   ],
+   "a": 3,
+   "x": "The Prime Minister’s Office is not mentioned in the Constitution; it is an extra-constitutional staff agency assisting the Prime Minister.",
+   "ty": "confusable",
+   "tq": "Distinguish constitutional, statutory and extra-constitutional institutions by their legal source.",
+   "sec": "Deputy PM and Leader of the House - status"
+  },
+  {
+   "s": "Match List-I with List-II regarding categories of Ministers:\n\nList-I\nA. Cabinet Minister\nB. Minister of State with independent charge\nC. Minister of State\nD. Deputy Minister\n\nList-II\ni. Assists a Cabinet Minister or Minister of State\nii. Heads an important ministry and attends Cabinet meetings\niii. Holds a ministry or department on his or her own\niv. Is attached to a Cabinet Minister\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "A-ii, B-iii, C-iv, D-i",
+    "A-iii, B-ii, C-i, D-iv",
+    "A-ii, B-iv, C-iii, D-i",
+    "A-i, B-iii, C-iv, D-ii"
+   ],
+   "a": 0,
+   "x": "A Cabinet Minister heads an important ministry and attends Cabinet meetings; a Minister of State with independent charge heads a ministry independently; a Minister of State is attached to a Cabinet Minister; and a Deputy Minister assists a senior Minister.",
+   "ty": "match",
+   "tq": "Start from the distinctive phrase ‘independent charge’ and then complete the remaining role pairs.",
+   "sec": "Categories of ministers - Cabinet, MoS (independent charge), MoS, Deputy Minister"
+  },
+  {
+   "s": "Which of the following statements regarding the classification of Ministers in India is correct?\n\n1. The Constitution itself classifies Ministers into Cabinet Ministers, Ministers of State and Deputy Ministers.\n2. The Council of Ministers comprises the four conventionally recognised categories of Ministers.\n3. The ranking among Ministers is determined by convention and by the Prime Minister.\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "1 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 2 and 3 are correct. The Constitution does not itself classify Ministers into these categories; the classification and ranking operate through convention, with the Prime Minister determining the arrangement.",
+   "ty": "statements",
+   "tq": "Spot the wrong constitutional-attribution statement and retain the convention-based statements.",
+   "sec": "Categories of ministers - Cabinet, MoS (independent charge), MoS, Deputy Minister"
+  },
+  {
+   "s": "In the Union executive, the President and the Prime Minister are respectively regarded as the",
+   "o": [
+    "nominal executive and real executive",
+    "real executive and nominal executive",
+    "Head of Government and Head of State",
+    "de facto executive and de jure executive"
+   ],
+   "a": 0,
+   "x": "The President is the nominal or de jure executive and Head of State, whereas the Prime Minister is the real or de facto executive and Head of Government.",
+   "ty": "comparison",
+   "tq": "Keep the paired distinctions—nominal/real and State/Government—in their correct order.",
+   "sec": "Executive power in practice - nominal vs real, Business Rules"
+  },
+  {
+   "s": "Article 77(1) of the Constitution provides that all executive action of the Government of India shall be expressed to be taken in the name of the",
+   "o": [
+    "President",
+    "Prime Minister",
+    "Parliament",
+    "Union Council of Ministers"
+   ],
+   "a": 0,
+   "x": "Article 77(1) requires all executive action of the Government of India to be expressed in the name of the President.",
+   "ty": "fact",
+   "tq": "Match the constitutional article with the authority in whose name executive action is expressed.",
+   "sec": "Executive power in practice - nominal vs real, Business Rules"
+  },
+  {
+   "s": "Under Article 77(3), the President makes rules for the convenient transaction of the business of the Government of India and for its allocation among Ministers. These rules are known as the",
+   "o": [
+    "Union Executive Rules and Ministerial Responsibility Rules",
+    "Allocation of Business Rules and Transaction of Business Rules",
+    "Conduct of Government Rules and Delegation Rules",
+    "Rules of Procedure of Parliament and Cabinet Manual"
+   ],
+   "a": 1,
+   "x": "Article 77(3) is implemented through the Allocation of Business Rules, 1961 and the Transaction of Business Rules, 1961.",
+   "ty": "fact",
+   "tq": "Identify the precise official titles associated with a constitutional rule-making power.",
+   "sec": "Executive power in practice - nominal vs real, Business Rules"
+  },
+  {
+   "s": "Which one of the following pairs of dates and Ministers is correctly matched?",
+   "o": [
+    "Ravneet Singh Bittu — resigned on 23 June 2026 after his Rajya Sabha term ended on 21 June 2026",
+    "George Kurian — resigned on 24 July 2026 under Article 75(2)",
+    "Ravneet Singh Bittu — resigned on 21 June 2026 on expiry of his Lok Sabha term",
+    "George Kurian — resigned on 23 June 2026 after his Rajya Sabha term ended on 21 June 2026"
+   ],
+   "a": 3,
+   "x": "George Kurian resigned on 23 June 2026 after his Rajya Sabha term ended on 21 June 2026. Ravneet Singh Bittu resigned later, on 24 July 2026, under Article 75(2).",
+   "ty": "negative",
+   "tq": "Compare closely placed names and dates, paying attention to the House and the constitutional provision.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Ravneet Singh Bittu resigned from the Union Council of Ministers on 24 July 2026 under",
+   "o": [
+    "Article 77(1)",
+    "Article 74(1)",
+    "Article 78",
+    "Article 75(2)"
+   ],
+   "a": 3,
+   "x": "Ravneet Singh Bittu’s resignation on 24 July 2026 was associated with Article 75(2), which concerns Ministers holding office during the pleasure of the President.",
+   "ty": "fact",
+   "tq": "Match a current constitutional event with the specific Article cited for it.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The 130th Constitution Amendment Bill, 2025 proposed that a Prime Minister, Chief Minister or Minister detained for 30 consecutive days for an offence punishable with imprisonment of five years or more would be removed on the",
+   "o": [
+    "15th day",
+    "30th day",
+    "60th day",
+    "31st day"
+   ],
+   "a": 3,
+   "x": "The proposal contemplated removal on the 31st day after 30 consecutive days of detention for an offence punishable with imprisonment of five years or more. It was referred to a Joint Parliamentary Committee.",
+   "ty": "numerical",
+   "tq": "Distinguish the completed period of detention from the day on which the proposed consequence begins.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding the 130th Constitution Amendment Bill, 2025:\n1. It concerned the possible removal of the Prime Minister, Chief Minister or Minister after 30 consecutive days of detention.\n2. It applied to an offence punishable with imprisonment of five years or more.\n3. It was referred to a Joint Parliamentary Committee.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The Bill dealt with prolonged detention of specified executive office-holders, a five-year punishment threshold, and referral to a Joint Parliamentary Committee.",
+   "ty": "statements",
+   "tq": "Verify the subject, threshold and legislative stage as three separate components of a current-affairs statement.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes the position of the Prime Minister in the United Kingdom from that in India?",
+   "o": [
+    "The UK Prime Minister must belong to the House of Lords, whereas the Indian Prime Minister must belong to the Lok Sabha.",
+    "The UK Prime Minister must belong to the House of Commons, whereas the Indian Prime Minister may belong to either House of Parliament.",
+    "Both the UK and Indian Prime Ministers must be members of the lower House.",
+    "Neither the UK nor the Indian Prime Minister may be a member of the upper House."
+   ],
+   "a": 1,
+   "x": "The UK Prime Minister must belong to the House of Commons, while the Indian Prime Minister may be a member of either the Lok Sabha or the Rajya Sabha.",
+   "ty": "comparison",
+   "tq": "Use the House-membership distinction to separate the British and Indian parliamentary arrangements.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding the tenure of the Prime Minister of India?",
+   "o": [
+    "The Constitution fixes a six-year term for every Prime Minister.",
+    "The Constitution fixes a maximum of two terms for the Prime Minister.",
+    "The Prime Minister must retire after completing one Lok Sabha term.",
+    "There is no constitutional term limit for the Prime Minister."
+   ],
+   "a": 3,
+   "x": "The Constitution does not prescribe a term limit for the Prime Minister. The Prime Minister continues in office subject to the parliamentary system and political confidence.",
+   "ty": "fact",
+   "tq": "Test whether a specific constitutional limitation actually exists rather than assuming a fixed tenure.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The 1956 Gentlemen’s Agreement relating to the united Andhra Pradesh cabinet provided for the proportion of Andhra and Telangana representation as",
+   "o": [
+    "60% Andhra and 40% Telangana",
+    "40% Andhra and 60% Telangana",
+    "50% Andhra and 50% Telangana",
+    "70% Andhra and 30% Telangana"
+   ],
+   "a": 0,
+   "x": "The 1956 Gentlemen’s Agreement fixed the united Andhra Pradesh cabinet proportion at 60% Andhra and 40% Telangana.",
+   "ty": "numerical",
+   "tq": "Retain the direction of the comparison as well as the two percentages.",
+   "sec": "Universal angles"
+  }
+ ]
+}
