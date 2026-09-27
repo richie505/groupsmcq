@@ -1,0 +1,584 @@
+{
+ "book": 5,
+ "row": 3,
+ "chunk": 0,
+ "section": "Research and development spending in India; GERD, innovation indices, patents ecosystem",
+ "subsections": [
+  "GERD as % of GDP - India vs USA, China, Israel, South Korea",
+  "R&D spending share - government vs private, department-wise",
+  "Global Innovation Index - publisher, India's rank trend, pillars",
+  "India Innovation Index - publisher, state categories, AP position",
+  "Patents ecosystem - Patents Act 1970, National IPR Policy 2016, filings rank, resident vs non-resident",
+  "Researchers per million, publications rank, PhDs",
+  "Startup and innovation ecosystem - unicorns, Startup India, incubators, agri-startups"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 42,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "According to the figures for FY 2023–24, India's Gross Expenditure on Research and Development (GERD) as a percentage of GDP was:",
+   "o": [
+    "0.64%",
+    "0.84%",
+    "1.24%",
+    "1.84%"
+   ],
+   "a": 1,
+   "x": "India's GERD was 0.84% of GDP in FY 2023–24, described as a 15-year high after reversing a decade-long decline.",
+   "ty": "numerical",
+   "tq": "Distinguish the latest figure from the earlier 2020–21 figure.",
+   "sec": "GERD as % of GDP - India vs USA, China, Israel, South Korea"
+  },
+  {
+   "s": "Which one of the following countries has the highest GERD as a percentage of GDP among the countries listed below?",
+   "o": [
+    "South Korea",
+    "China",
+    "India",
+    "USA"
+   ],
+   "a": 0,
+   "x": "South Korea's GERD is about 5.3% of GDP, compared with about 5% for Israel, 3.5% for the USA, 2.4% for China and 0.84% for India.",
+   "ty": "comparison",
+   "tq": "Compare the numerical values rather than relying on country size.",
+   "sec": "GERD as % of GDP - India vs USA, China, Israel, South Korea"
+  },
+  {
+   "s": "Arrange the following countries in descending order of GERD as a percentage of GDP:\nA. China\nB. Israel\nC. India\nD. South Korea",
+   "o": [
+    "D, B, A, C",
+    "B, D, A, C",
+    "D, A, B, C",
+    "B, A, D, C"
+   ],
+   "a": 0,
+   "x": "The order is South Korea, Israel, China and India, corresponding approximately to 5.3%, 5%, 2.4% and 0.84%, respectively.",
+   "ty": "chronology",
+   "tq": "Order the options by magnitude from highest to lowest.",
+   "sec": "GERD as % of GDP - India vs USA, China, Israel, South Korea"
+  },
+  {
+   "s": "The GERD figure of 0.64–0.65% of GDP generally quoted for India relates to which period?",
+   "o": [
+    "2018–19",
+    "2023–24",
+    "2015–16",
+    "2020–21"
+   ],
+   "a": 3,
+   "x": "The earlier figure of 0.64–0.65% relates to 2020–21 data; the later FY 2023–24 figure is 0.84%.",
+   "ty": "fact",
+   "tq": "Use the date to separate the earlier and revised figures.",
+   "sec": "GERD as % of GDP - India vs USA, China, Israel, South Korea"
+  },
+  {
+   "s": "India's total R&D funding increased from approximately ₹1.33 lakh crore in FY 2020 to:",
+   "o": [
+    "₹1.75 lakh crore in FY 2022",
+    "₹3.45 lakh crore in FY 2024",
+    "₹2.45 lakh crore in FY 2024",
+    "₹2.05 lakh crore in FY 2023"
+   ],
+   "a": 2,
+   "x": "Total R&D funding nearly doubled from ₹1.33 lakh crore in FY20 to ₹2.45 lakh crore in FY24.",
+   "ty": "numerical",
+   "tq": "Match the starting and ending values in the reported increase.",
+   "sec": "GERD as % of GDP - India vs USA, China, Israel, South Korea"
+  },
+  {
+   "s": "India's stated target for R&D expenditure is what percentage of GDP?",
+   "o": [
+    "0.84%",
+    "1.5%",
+    "2%",
+    "3.5%"
+   ],
+   "a": 2,
+   "x": "The target is to raise R&D expenditure to 2% of GDP.",
+   "ty": "fact",
+   "tq": "Identify the policy target rather than the current expenditure ratio.",
+   "sec": "GERD as % of GDP - India vs USA, China, Israel, South Korea"
+  },
+  {
+   "s": "With reference to India's position among BRICS countries in GERD as a percentage of GDP, which statement is correct?",
+   "o": [
+    "India has the highest GERD among BRICS countries.",
+    "India is lower than South Africa but higher than all other BRICS countries.",
+    "India is the second-lowest, with only South Africa below it.",
+    "India and South Africa have identical GERD levels."
+   ],
+   "a": 2,
+   "x": "India is among the lowest in BRICS, and only South Africa has a lower GERD share.",
+   "ty": "comparison",
+   "tq": "Watch for the reversed comparison trap involving India and South Africa.",
+   "sec": "GERD as % of GDP - India vs USA, China, Israel, South Korea"
+  },
+  {
+   "s": "In FY 2023–24, the share of private industry in India's R&D expenditure was approximately:",
+   "o": [
+    "36%",
+    "45.2%",
+    "51.8%",
+    "70%"
+   ],
+   "a": 2,
+   "x": "Private industry accounted for 51.8% of R&D expenditure in FY 2023–24 and overtook public funding for the first time.",
+   "ty": "numerical",
+   "tq": "Distinguish the latest private-sector share from the earlier 2020–21 share.",
+   "sec": "R&D spending share - government vs private, department-wise"
+  },
+  {
+   "s": "Consider the following statements regarding India's private R&D expenditure:\n1. Its share was approximately 36% of GERD in 2020–21.\n2. It was approximately 70% in the USA during the comparable period.\n3. It was approximately 76% in South Korea during the comparable period.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: India's private share was about 36%, compared with about 70% in the USA and 76% in South Korea.",
+   "ty": "statements",
+   "tq": "Check each country-specific percentage before selecting the coded combination.",
+   "sec": "R&D spending share - government vs private, department-wise"
+  },
+  {
+   "s": "Private R&D expenditure in India increased from approximately ₹44,800 crore to ₹1.26 lakh crore between the earlier period and FY 2023–24. This change is best described as:",
+   "o": [
+    "A doubling followed by a decline",
+    "A marginal increase of less than 10%",
+    "A reduction by nearly half",
+    "A near tripling of expenditure"
+   ],
+   "a": 3,
+   "x": "Private R&D spending nearly tripled, rising from ₹44,800 crore to ₹1.26 lakh crore.",
+   "ty": "application",
+   "tq": "Interpret the direction and scale of change from the two figures.",
+   "sec": "R&D spending share - government vs private, department-wise"
+  },
+  {
+   "s": "Which one of the following is NOT identified as a reason for the gap in private R&D spending in India?",
+   "o": [
+    "Weak laboratory–industry linkages",
+    "Shortage of deep-tech capital",
+    "Private-sector risk aversion",
+    "Excessive private investment in basic research"
+   ],
+   "a": 3,
+   "x": "The identified reasons are private risk aversion, weak lab–industry linkages and a shortage of deep-tech capital. Excessive private investment in basic research is not listed as a reason.",
+   "ty": "negative",
+   "tq": "Find the option that does not belong to the stated causal group.",
+   "sec": "R&D spending share - government vs private, department-wise"
+  },
+  {
+   "s": "The Global Innovation Index is published by:",
+   "o": [
+    "WIPO",
+    "NITI Aayog",
+    "World Bank",
+    "UNESCO"
+   ],
+   "a": 0,
+   "x": "The Global Innovation Index is published by the World Intellectual Property Organization (WIPO). NITI Aayog is India's nodal agency for improving India's GII rank.",
+   "ty": "fact",
+   "tq": "Separate the publisher from the national coordinating agency.",
+   "sec": "Global Innovation Index - publisher, India's rank trend, pillars"
+  },
+  {
+   "s": "India's rank in the Global Innovation Index in 2025 was:",
+   "o": [
+    "38th out of 139 economies",
+    "39th out of 139 economies",
+    "49th out of 139 economies",
+    "40th out of 133 economies"
+   ],
+   "a": 0,
+   "x": "India ranked 38th among 139 economies in the 2025 Global Innovation Index.",
+   "ty": "numerical",
+   "tq": "Match the rank with its correct year and number of economies.",
+   "sec": "Global Innovation Index - publisher, India's rank trend, pillars"
+  },
+  {
+   "s": "Which one of the following correctly represents India's Global Innovation Index rank trend?",
+   "o": [
+    "81 in 2015, 66 in 2016, 52 in 2019, 40 in 2022, 39 in 2024 and 38 in 2025",
+    "81 in 2015, 52 in 2016, 66 in 2019, 39 in 2022, 40 in 2024 and 38 in 2025",
+    "66 in 2015, 81 in 2016, 52 in 2019, 40 in 2022, 38 in 2024 and 39 in 2025",
+    "81 in 2015, 66 in 2016, 40 in 2019, 52 in 2022, 39 in 2024 and 38 in 2025"
+   ],
+   "a": 0,
+   "x": "The recorded ranks are 81 (2015), 66 (2016), 52 (2019), 40 (2022), 39 (2024) and 38 (2025).",
+   "ty": "chronology",
+   "tq": "Verify the year–rank pairs in sequence, especially the close 2019 and 2016 values.",
+   "sec": "Global Innovation Index - publisher, India's rank trend, pillars"
+  },
+  {
+   "s": "How many pillars constitute the Global Innovation Index framework, and how are they divided?",
+   "o": [
+    "Eight pillars: five input and three output",
+    "Seven pillars: five input and two output",
+    "Seven pillars: two input and five output",
+    "Five pillars: three input and two output"
+   ],
+   "a": 1,
+   "x": "The GII has seven pillars, comprising five input pillars and two output pillars.",
+   "ty": "fact",
+   "tq": "Break the framework into its total and input–output components.",
+   "sec": "Global Innovation Index - publisher, India's rank trend, pillars"
+  },
+  {
+   "s": "Which of the following is an output pillar of the Global Innovation Index?\n1. Knowledge and technology outputs\n2. Creative outputs\n3. Market sophistication\nSelect the correct answer using the code below.",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Knowledge and technology outputs and creative outputs are the two output pillars. Market sophistication is an input pillar.",
+   "ty": "statements",
+   "tq": "Separate input pillars from output pillars.",
+   "sec": "Global Innovation Index - publisher, India's rank trend, pillars"
+  },
+  {
+   "s": "Which one of the following is NOT an input pillar of the Global Innovation Index?",
+   "o": [
+    "Institutions",
+    "Business sophistication",
+    "Creative outputs",
+    "Infrastructure"
+   ],
+   "a": 2,
+   "x": "Institutions, infrastructure and business sophistication are input pillars. Creative outputs is one of the two output pillars.",
+   "ty": "negative",
+   "tq": "Identify the item belonging to the opposite category.",
+   "sec": "Global Innovation Index - publisher, India's rank trend, pillars"
+  },
+  {
+   "s": "The India Innovation Index is released by:",
+   "o": [
+    "DST with WIPO",
+    "WIPO alone",
+    "The World Economic Forum with NITI Aayog",
+    "NITI Aayog with the Institute for Competitiveness"
+   ],
+   "a": 3,
+   "x": "The India Innovation Index is released by NITI Aayog in association with the Institute for Competitiveness.",
+   "ty": "fact",
+   "tq": "Use the institutional partnership rather than confusing it with the GII publisher.",
+   "sec": "India Innovation Index - publisher, state categories, AP position"
+  },
+  {
+   "s": "Which of the following correctly lists the categories used in the India Innovation Index?",
+   "o": [
+    "Coastal States; Inland States; Union Territories and District States",
+    "Major States; Himalayan States; Metropolitan Territories and Rural States",
+    "Southern States; Northern States; Union Territories and Special States",
+    "Major States; North-East and Hill States; Union Territories and City States"
+   ],
+   "a": 3,
+   "x": "The categories are Major States, North-East and Hill States, and Union Territories and City States.",
+   "ty": "fact",
+   "tq": "Recall the exact official category names.",
+   "sec": "India Innovation Index - publisher, state categories, AP position"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with the 2021 leaders in the India Innovation Index categories?",
+   "o": [
+    "Major States—Karnataka; North-East and Hill States—Manipur; UTs and City States—Chandigarh",
+    "Major States—Manipur; North-East and Hill States—Karnataka; UTs and City States—Delhi",
+    "Major States—Chandigarh; North-East and Hill States—Manipur; UTs and City States—Karnataka",
+    "Major States—Karnataka; North-East and Hill States—Chandigarh; UTs and City States—Manipur"
+   ],
+   "a": 0,
+   "x": "The 2021 leaders were Karnataka among Major States, Manipur among North-East and Hill States, and Chandigarh among UTs and City States.",
+   "ty": "match",
+   "tq": "Start from the sure category–leader pair and eliminate swapped entries.",
+   "sec": "India Innovation Index - publisher, state categories, AP position"
+  },
+  {
+   "s": "Under the Patents Act, 1970, the normal period of patent protection is:",
+   "o": [
+    "10 years",
+    "15 years",
+    "20 years",
+    "25 years"
+   ],
+   "a": 2,
+   "x": "The Patents Act, 1970 governs patents in India and provides protection for 20 years.",
+   "ty": "numerical",
+   "tq": "Distinguish the statutory protection period from nearby round-number distractors.",
+   "sec": "Patents ecosystem - Patents Act 1970, National IPR Policy 2016, filings rank, resident vs non-resident"
+  },
+  {
+   "s": "For an invention to qualify for patent protection, it must be novel and have:",
+   "o": [
+    "Foreign manufacture",
+    "Commercial application",
+    "Only artistic value",
+    "Government ownership"
+   ],
+   "a": 1,
+   "x": "The invention must be novel and capable of commercial application.",
+   "ty": "fact",
+   "tq": "Identify the substantive eligibility condition rather than an ownership condition.",
+   "sec": "Patents ecosystem - Patents Act 1970, National IPR Policy 2016, filings rank, resident vs non-resident"
+  },
+  {
+   "s": "Article 28 of the TRIPS Agreement provides rights relating to:",
+   "o": [
+    "Geographical indication registration only",
+    "Trade secret disclosure",
+    "Product patents",
+    "Copyright duration only"
+   ],
+   "a": 2,
+   "x": "TRIPS Article 28 provides product-patent rights.",
+   "ty": "fact",
+   "tq": "Match the article number with the specific intellectual-property right.",
+   "sec": "Patents ecosystem - Patents Act 1970, National IPR Policy 2016, filings rank, resident vs non-resident"
+  },
+  {
+   "s": "The slogan associated with the National IPR Policy, 2016 is:",
+   "o": [
+    "Digital India; Patent India",
+    "Innovate India; Manufacture India",
+    "Knowledge India; Science India",
+    "Creative India; Innovative India"
+   ],
+   "a": 3,
+   "x": "The National IPR Policy, 2016 uses the slogan “Creative India; Innovative India” and seeks to promote awareness, enforcement and innovation through IP protection.",
+   "ty": "fact",
+   "tq": "Recall the exact official slogan, avoiding look-alike wording.",
+   "sec": "Patents ecosystem - Patents Act 1970, National IPR Policy 2016, filings rank, resident vs non-resident"
+  },
+  {
+   "s": "India ranked sixth globally in patent filing activity according to the cited WIPO data for:",
+   "o": [
+    "2020",
+    "2021",
+    "2023",
+    "2025"
+   ],
+   "a": 2,
+   "x": "India ranked sixth in patent filing activity in the WIPO 2023 data.",
+   "ty": "numerical",
+   "tq": "Link the rank to the year of the underlying WIPO data.",
+   "sec": "Patents ecosystem - Patents Act 1970, National IPR Policy 2016, filings rank, resident vs non-resident"
+  },
+  {
+   "s": "Approximately what share of patent filings in India in 2024–25 came from resident applicants?",
+   "o": [
+    "36%",
+    "51.8%",
+    "62%",
+    "76%"
+   ],
+   "a": 2,
+   "x": "Resident or domestic applicants accounted for about 62% of filings in 2024–25, marking a policy-driven shift.",
+   "ty": "numerical",
+   "tq": "Distinguish the patent-resident share from R&D spending shares.",
+   "sec": "Patents ecosystem - Patents Act 1970, National IPR Policy 2016, filings rank, resident vs non-resident"
+  },
+  {
+   "s": "Which one of the following correctly describes the SIPP initiative?",
+   "o": [
+    "It prohibits online filing of intellectual-property applications.",
+    "It provides only tax exemptions for foreign patent applicants.",
+    "It transfers all patent appeals to the Supreme Court.",
+    "It provides free facilitation for start-up patent, trademark and design filings."
+   ],
+   "a": 3,
+   "x": "SIPP provides free facilitation for start-ups filing patents, trademarks and designs; more than 95% of applications are filed online.",
+   "ty": "application",
+   "tq": "Match the initiative with its practical service and intended beneficiaries.",
+   "sec": "Patents ecosystem - Patents Act 1970, National IPR Policy 2016, filings rank, resident vs non-resident"
+  },
+  {
+   "s": "Which statement regarding WIPO is correct?",
+   "o": [
+    "It was established in 1893 and is headquartered in New York as a UN fund.",
+    "It was established in 1967, is headquartered in Geneva and is a UN specialised agency.",
+    "It was established in 1967 and is headquartered in Paris as a WTO body.",
+    "It was established in 2003 and is headquartered in Geneva as a World Bank agency."
+   ],
+   "a": 1,
+   "x": "WIPO was established in 1967, is headquartered in Geneva and is a specialised agency of the United Nations. The 1893 reference relates to its predecessor union bureau.",
+   "ty": "fact",
+   "tq": "Separate WIPO's establishment from the date of its predecessor organisation.",
+   "sec": "Patents ecosystem - Patents Act 1970, National IPR Policy 2016, filings rank, resident vs non-resident"
+  },
+  {
+   "s": "The Intellectual Property Appellate Board (IPAB), established in 2003, was abolished in 2021 under the:",
+   "o": [
+    "Companies Reorganisation Act",
+    "Tribunals Reforms Act",
+    "Patents Amendment Act",
+    "National IPR Policy"
+   ],
+   "a": 1,
+   "x": "IPAB was abolished in 2021 through the Tribunals Reforms Act, and appeals were transferred to High Courts.",
+   "ty": "fact",
+   "tq": "Match the abolished body with the legislation that changed its status.",
+   "sec": "Patents ecosystem - Patents Act 1970, National IPR Policy 2016, filings rank, resident vs non-resident"
+  },
+  {
+   "s": "India had approximately how many full-time-equivalent researchers per million people?",
+   "o": [
+    "126",
+    "262",
+    "620",
+    "1,262"
+   ],
+   "a": 1,
+   "x": "India had approximately 262 FTE researchers per million people.",
+   "ty": "numerical",
+   "tq": "Handle the per-million figure without reversing its digits or scale.",
+   "sec": "Researchers per million, publications rank, PhDs"
+  },
+  {
+   "s": "India's global rank in scientific publications was reported as:",
+   "o": [
+    "Fifth",
+    "Third",
+    "Second",
+    "First"
+   ],
+   "a": 1,
+   "x": "India ranked third globally in scientific publications; its nanoscience publications also ranked third after China and the USA.",
+   "ty": "fact",
+   "tq": "Distinguish the overall publication rank from the leading countries in nanoscience.",
+   "sec": "Researchers per million, publications rank, PhDs"
+  },
+  {
+   "s": "In nanoscience publications, India ranked third after:",
+   "o": [
+    "China and USA",
+    "South Korea and USA",
+    "USA and Japan",
+    "Germany and China"
+   ],
+   "a": 0,
+   "x": "India's nanoscience publication rank was third, after China and the USA.",
+   "ty": "fact",
+   "tq": "Use the stated order of the leading countries.",
+   "sec": "Researchers per million, publications rank, PhDs"
+  },
+  {
+   "s": "Which comparison of grant success or funding rates is correct?",
+   "o": [
+    "Indian agencies fund less than 10% of applications, compared with 26% for US NSF and 19% for UKRI.",
+    "Indian agencies and US NSF fund applications at the same rate.",
+    "Indian agencies fund 19%, compared with less than 10% for UKRI.",
+    "Indian agencies fund over 50% of applications, compared with 26% for US NSF."
+   ],
+   "a": 0,
+   "x": "Indian agencies fund less than 10% of applications, while the corresponding figures cited are 26% for the US NSF and 19% for UKRI.",
+   "ty": "comparison",
+   "tq": "Compare all three percentages and watch for reversed institutional figures.",
+   "sec": "Researchers per million, publications rank, PhDs"
+  },
+  {
+   "s": "Startup India was launched on:",
+   "o": [
+    "7 February 2026",
+    "21 July 2016",
+    "16 January 2015",
+    "16 January 2016"
+   ],
+   "a": 3,
+   "x": "Startup India was launched on 16 January 2016.",
+   "ty": "fact",
+   "tq": "Match the programme with its launch date rather than a later start-up policy date.",
+   "sec": "Startup and innovation ecosystem - unicorns, Startup India, incubators, agri-startups  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT a feature associated with Startup India?",
+   "o": [
+    "Tax exemption for three years",
+    "Mandatory winding up within 30 days",
+    "Fund of Funds of ₹10,000 crore",
+    "Self-certification under nine labour and environment laws"
+   ],
+   "a": 1,
+   "x": "Startup India provides for winding up in 90 days, not 30 days. The Fund of Funds, three-year tax exemption and self-certification provisions are associated features.",
+   "ty": "negative",
+   "tq": "Locate the altered numerical period in an otherwise familiar policy description.",
+   "sec": "Startup and innovation ecosystem - unicorns, Startup India, incubators, agri-startups  [APPSC]"
+  },
+  {
+   "s": "India is described as the world's ______ largest start-up hub, with 1.59 lakh DPIIT-recognised start-ups.",
+   "o": [
+    "Third",
+    "First",
+    "Second",
+    "Fourth"
+   ],
+   "a": 0,
+   "x": "India is the third-largest start-up hub and had 1.59 lakh DPIIT-recognised start-ups according to the cited figure.",
+   "ty": "numerical",
+   "tq": "Combine the ordinal rank with the associated count.",
+   "sec": "Startup and innovation ecosystem - unicorns, Startup India, incubators, agri-startups  [APPSC]"
+  },
+  {
+   "s": "Which of the following is associated with the deep-tech start-up ecosystem in India?\n1. National Deep-Tech Startup Policy\n2. Deep-tech start-up eligibility notified in February 2026\n3. Startup Fund of Funds 2.0\nSelect the correct answer using the code below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three are associated with India's deep-tech start-up ecosystem: the National Deep-Tech Startup Policy, February 2026 eligibility notification and Startup Fund of Funds 2.0.",
+   "ty": "statements",
+   "tq": "Test whether all listed policy measures belong to the same ecosystem.",
+   "sec": "Startup and innovation ecosystem - unicorns, Startup India, incubators, agri-startups  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the Atal Innovation Mission?",
+   "o": [
+    "It establishes tinkering labs in schools, incubation centres and a mentor network.",
+    "It operates only agricultural warehouses.",
+    "It regulates patent appeals in High Courts.",
+    "It exclusively finances foreign patent applications."
+   ],
+   "a": 0,
+   "x": "The Atal Innovation Mission promotes innovation through school tinkering labs, incubation centres and a mentor network.",
+   "ty": "application",
+   "tq": "Identify the institution from its characteristic set of activities.",
+   "sec": "Startup and innovation ecosystem - unicorns, Startup India, incubators, agri-startups  [APPSC]"
+  },
+  {
+   "s": "Which pair is correctly matched with an innovation or start-up initiative?",
+   "o": [
+    "Defence innovation—iDEX; India–Korea innovation—KIND-X",
+    "Defence innovation—KIND-X; India–Korea innovation—iDEX",
+    "Agribusiness incubation—IPAB; India–Korea innovation—SIPP",
+    "School innovation—RKVY-RAFTAAR; defence innovation—MANAGE"
+   ],
+   "a": 0,
+   "x": "iDEX is associated with defence innovation, while KIND-X is the India–Korea initiative cited for 2026.",
+   "ty": "match",
+   "tq": "Start from the institutional context and eliminate swapped initiative names.",
+   "sec": "Startup and innovation ecosystem - unicorns, Startup India, incubators, agri-startups  [APPSC]"
+  },
+  {
+   "s": "RKVY-RAFTAAR is associated with:",
+   "o": [
+    "Agribusiness incubators",
+    "Defence procurement exclusively",
+    "Patent appeals",
+    "Global innovation rankings"
+   ],
+   "a": 0,
+   "x": "RKVY-RAFTAAR supports agribusiness incubators. MANAGE in Hyderabad is associated with incubation in the agri-start-up ecosystem.",
+   "ty": "fact",
+   "tq": "Match the scheme with its sector-specific incubation function.",
+   "sec": "Startup and innovation ecosystem - unicorns, Startup India, incubators, agri-startups  [APPSC]"
+  }
+ ]
+}

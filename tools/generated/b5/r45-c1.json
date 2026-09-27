@@ -1,0 +1,623 @@
+{
+ "book": 5,
+ "row": 45,
+ "chunk": 1,
+ "section": "Applications of space technology - agriculture, disaster management, telemedicine, tele-education, navigation",
+ "subsections": [
+  "Spectral indices and bands - NDVI, cloud-covered areas, InSAR",
+  "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture",
+  "Fisheries and maritime safety - PFZ, safety devices, surveillance",
+  "GIS - components, data layers, situational awareness"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 44,
+ "rejected": {
+  "invalid": 1,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly describes the usual range and interpretation of the Normalized Difference Vegetation Index (NDVI)?",
+   "o": [
+    "It ranges from 0 to 100; higher values indicate barren land.",
+    "It ranges from −100 to +100; lower values indicate dense vegetation.",
+    "It ranges from 1 to 10; higher values indicate cloud cover.",
+    "It ranges from −1 to +1; higher values generally indicate healthy green vegetation."
+   ],
+   "a": 3,
+   "x": "NDVI ranges from −1 to +1. High positive values are associated with healthy green vegetation.",
+   "ty": "fact",
+   "tq": "Use the paired numerical range and interpretation to eliminate reversed meanings.",
+   "sec": "Spectral indices and bands - NDVI, cloud-covered areas, InSAR  [APPSC]"
+  },
+  {
+   "s": "Among the following, the index most widely used for the operational assessment of drought is",
+   "o": [
+    "Vegetation Condition Index",
+    "Normalized Difference Vegetation Index",
+    "Enhanced Water Index",
+    "Soil Adjusted Vegetation Index"
+   ],
+   "a": 1,
+   "x": "NDVI is the most widely used spectral vegetation index for operational drought assessment.",
+   "ty": "fact",
+   "tq": "Direct recall of the standard operational index.",
+   "sec": "Spectral indices and bands - NDVI, cloud-covered areas, InSAR  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Vegetation Condition Index is derived from NDVI.\n2. The Vegetation Condition Index is used in drought declaration.\n3. The Vegetation Condition Index is calculated only from sea-surface temperature.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because VCI is derived from vegetation-related NDVI data, not only from sea-surface temperature.",
+   "ty": "statements",
+   "tq": "Find the statement that swaps a vegetation index with an oceanographic variable.",
+   "sec": "Spectral indices and bands - NDVI, cloud-covered areas, InSAR  [APPSC]"
+  },
+  {
+   "s": "For obtaining remote-sensing information in cloud-covered areas and during darkness, which type of bands is most suitable?",
+   "o": [
+    "Microwave bands using radar or SAR",
+    "Only thermal infrared bands",
+    "Only visible red bands",
+    "Ultraviolet bands"
+   ],
+   "a": 0,
+   "x": "Microwave radar and SAR signals can penetrate clouds and operate in darkness, making them suitable for all-weather observation.",
+   "ty": "application",
+   "tq": "Apply the cloud-penetration and day-night capability of microwave sensing.",
+   "sec": "Spectral indices and bands - NDVI, cloud-covered areas, InSAR  [APPSC]"
+  },
+  {
+   "s": "The proposed use of Synthetic Aperture Radar (SAR) in flood-monitoring satellites for Assam is particularly relevant because",
+   "o": [
+    "SAR can measure only atmospheric temperature",
+    "SAR is designed exclusively for crop-yield estimation",
+    "Assam remains cloudy for a substantial part of the year",
+    "visible light is unavailable throughout Assam"
+   ],
+   "a": 2,
+   "x": "SAR is suitable for Assam’s flood monitoring because the State is reported to be cloudy for about half the year, while radar can operate through clouds.",
+   "ty": "application",
+   "tq": "Link the environmental condition with the appropriate sensing technology.",
+   "sec": "Spectral indices and bands - NDVI, cloud-covered areas, InSAR  [APPSC]"
+  },
+  {
+   "s": "InSAR is primarily used to",
+   "o": [
+    "measure only the colour of vegetation",
+    "compare the phase of radar images to map ground deformation",
+    "calculate crop production from field surveys alone",
+    "transmit fishing advisories through satellites"
+   ],
+   "a": 1,
+   "x": "Interferometric SAR compares the phase of two or more radar images of the same area to detect ground deformation.",
+   "ty": "fact",
+   "tq": "Break the term into interferometric comparison and SAR imaging.",
+   "sec": "Spectral indices and bands - NDVI, cloud-covered areas, InSAR  [APPSC]"
+  },
+  {
+   "s": "Which of the following phenomena can be monitored using InSAR?\n1. Earthquakes\n2. Land subsidence\n3. Landslides\n4. Glacier movement\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "InSAR can map ground deformation associated with earthquakes, land subsidence, landslides, volcanoes and glacier movement.",
+   "ty": "statements",
+   "tq": "Recognise the common ground-deformation applications rather than treating InSAR as a single-purpose tool.",
+   "sec": "Spectral indices and bands - NDVI, cloud-covered areas, InSAR  [APPSC]"
+  },
+  {
+   "s": "Which programme is associated with pre-harvest forecasts of crop acreage and production?",
+   "o": [
+    "FASAL",
+    "Krishi-DSS",
+    "NADAMS",
+    "CHAMAN"
+   ],
+   "a": 0,
+   "x": "FASAL provides pre-harvest crop acreage and production forecasts using space, agro-meteorological and land-based observations.",
+   "ty": "fact",
+   "tq": "Match the programme with its distinctive agricultural output.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "FASAL is the acronym for",
+   "o": [
+    "Food Assessment through Satellite and Atmospheric Land-use observations",
+    "Forecasting Agro-soil and Livestock using Advanced Logistics",
+    "Farm Analysis through Space Applications and Land surveys",
+    "Forecasting Agricultural output using Space, Agro-meteorology and Land-based observations"
+   ],
+   "a": 3,
+   "x": "FASAL stands for Forecasting Agricultural output using Space, Agro-meteorology and Land-based observations.",
+   "ty": "fact",
+   "tq": "Test the exact expansion by separating the space, agro-meteorology and land-observation components.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "YES-TECH is primarily associated with",
+   "o": [
+    "mapping horticultural areas and production",
+    "satellite-based crop-yield estimation for crop insurance under PMFBY",
+    "tracking vehicles fitted with AIS-140 devices",
+    "monitoring ocean waves and cyclone tracks"
+   ],
+   "a": 1,
+   "x": "YES-TECH estimates crop yield using satellite technology for crop insurance under the Pradhan Mantri Fasal Bima Yojana.",
+   "ty": "fact",
+   "tq": "Distinguish yield estimation from horticulture assessment and maritime monitoring.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "CHAMAN is concerned with",
+   "o": [
+    "horticulture area and production assessment",
+    "jute acreage and crop-health assessment",
+    "agricultural drought declaration based on rainfall alone",
+    "farm-level weather-network management"
+   ],
+   "a": 0,
+   "x": "CHAMAN is used for horticulture area and production assessment, including horticulture area and condition mapping.",
+   "ty": "fact",
+   "tq": "Use the programme’s horticulture-specific purpose to reject neighbouring agricultural programmes.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "The full form of CHAMAN is",
+   "o": [
+    "Crop Horticulture Assessment and Monitoring of Natural resources",
+    "Central Horticulture Analysis and Mapping through Agricultural Networks",
+    "Coordinated Harvest and Agricultural Management using Navigation",
+    "Coordinated Horticulture Assessment and Management using geoiNformatics"
+   ],
+   "a": 3,
+   "x": "CHAMAN expands to Coordinated Horticulture Assessment and Management using geoiNformatics.",
+   "ty": "fact",
+   "tq": "Recall the official expansion and the distinctive geoinformatics reference.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "NADAMS is designed for",
+   "o": [
+    "national agricultural drought assessment and monitoring",
+    "navigation and maritime distress messaging",
+    "crop insurance claim settlement without satellite data",
+    "mapping only urban road networks"
+   ],
+   "a": 0,
+   "x": "NADAMS, or the National Agricultural Drought Assessment and Monitoring System, uses satellite information for agricultural drought monitoring.",
+   "ty": "fact",
+   "tq": "Match the acronym’s drought-related meaning with its actual application.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "Which one of the following platforms is intended for decision support in farm-level planning?",
+   "o": [
+    "FASAL",
+    "Krishi-DSS",
+    "PFZ",
+    "NADAMS"
+   ],
+   "a": 1,
+   "x": "Krishi-DSS is a decision-support platform intended to assist farm-level planning.",
+   "ty": "fact",
+   "tq": "Identify the platform whose name and purpose directly indicate decision support.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "The SAC drought geoportal provides information on",
+   "o": [
+    "only forest-fire ignition points",
+    "only crop prices and market arrivals",
+    "rainfall, temperature and soil moisture",
+    "wave height, sea state and cyclone tracks"
+   ],
+   "a": 2,
+   "x": "The SAC drought geoportal tracks rainfall, temperature and soil moisture for drought-related assessment.",
+   "ty": "fact",
+   "tq": "Separate drought-monitoring variables from ocean-state variables.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "Which type of sensor is best suited for measuring soil moisture from space?",
+   "o": [
+    "Only a visible-light camera",
+    "A plotter attached to a GIS workstation",
+    "Only an ultraviolet spectrometer",
+    "Microwave or SAR sensor"
+   ],
+   "a": 3,
+   "x": "Microwave and SAR sensors are particularly suitable for soil-moisture measurement; NISAR uses L-band and S-band radar for such applications.",
+   "ty": "application",
+   "tq": "Select the sensor according to its ability to respond to moisture and operate through clouds.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "NISAR’s radar bands specifically mentioned in relation to soil-moisture measurement are",
+   "o": [
+    "K-band and Ka-band",
+    "C-band and X-band",
+    "U-band and V-band",
+    "L-band and S-band"
+   ],
+   "a": 3,
+   "x": "L-band and S-band radar are the bands mentioned for NISAR’s soil-moisture-related sensing capability.",
+   "ty": "numerical",
+   "tq": "Recall the specific band pair rather than the general term microwave.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "Resourcesat-series data are useful for",
+   "o": [
+    "only satellite navigation and timing",
+    "crop acreage assessment, watershed management and precision farming",
+    "only two-way messaging to fishermen",
+    "only ocean-wave forecasting"
+   ],
+   "a": 1,
+   "x": "Resourcesat data support crop acreage assessment, watershed management and precision farming.",
+   "ty": "fact",
+   "tq": "Choose the option containing the linked agricultural and land-resource applications.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "The Mahalanobis National Crop Forecast Centre was established in",
+   "o": [
+    "2005",
+    "2010",
+    "2012",
+    "2020"
+   ],
+   "a": 2,
+   "x": "The Mahalanobis National Crop Forecast Centre, or MNCFC, was established in 2012.",
+   "ty": "numerical",
+   "tq": "Distinguish the exact establishment year from nearby decade values.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "Which organisation makes ISRO crop-forecasting methods operational?",
+   "o": [
+    "INCOIS",
+    "APMVTS",
+    "MNCFC",
+    "SLUSI"
+   ],
+   "a": 2,
+   "x": "MNCFC makes ISRO’s crop-forecasting methods operational.",
+   "ty": "fact",
+   "tq": "Match the institutional role with the crop-forecasting body.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\nProgramme or framework — Principal purpose\n1. CROP framework — Wheat estimate using EOS-04, EOS-06 and Resourcesat-2A\n2. JCIS — Jute acreage and crop health\n3. CROPIC — Farm decision support\n4. WINDS — Weather network\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. CROPIC supports crop-photo applications, while WINDS relates to a weather network and JCIS to jute acreage and crop health.",
+   "ty": "match",
+   "tq": "Start with the distinctive crop, photo and weather associations before checking the full combination.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "The CROP framework estimated the rabi 2024–25 wheat production at",
+   "o": [
+    "112.724 million tonnes",
+    "132.724 million tonnes",
+    "122.724 million tonnes",
+    "102.724 million tonnes"
+   ],
+   "a": 2,
+   "x": "The CROP framework estimated rabi 2024–25 wheat production at 122.724 million tonnes using EOS-04, EOS-06 and Resourcesat-2A.",
+   "ty": "numerical",
+   "tq": "Read the closely spaced numerical alternatives carefully and retain the exact decimal figure.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "The Soil and Land Use Survey of India uses satellite data primarily to",
+   "o": [
+    "estimate fish shoals in the sea",
+    "map soil resources",
+    "provide two-way messaging to farmers",
+    "issue cyclone warnings to ships"
+   ],
+   "a": 1,
+   "x": "The Soil and Land Use Survey of India maps soil resources using satellite data.",
+   "ty": "fact",
+   "tq": "Match the institution’s land-resource function with the correct application.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  },
+  {
+   "s": "Potential Fishing Zone advisories are prepared mainly using satellite-derived information on",
+   "o": [
+    "cloud height and crop acreage",
+    "ground deformation and glacier movement",
+    "soil moisture and land temperature",
+    "chlorophyll and sea-surface temperature"
+   ],
+   "a": 3,
+   "x": "PFZ advisories identify fish-rich areas using satellite observations of chlorophyll and sea-surface temperature.",
+   "ty": "fact",
+   "tq": "Separate marine biological and thermal indicators from terrestrial remote-sensing variables.",
+   "sec": "Fisheries and maritime safety - PFZ, safety devices, surveillance  [APPSC]"
+  },
+  {
+   "s": "Potential Fishing Zone advisories are issued by",
+   "o": [
+    "MNCFC, New Delhi",
+    "INCOIS, Hyderabad",
+    "APSAC, Vijayawada",
+    "SLUSI, Dehradun"
+   ],
+   "a": 1,
+   "x": "The Indian National Centre for Ocean Information Services (INCOIS), Hyderabad, issues PFZ advisories.",
+   "ty": "fact",
+   "tq": "Use the issuing-agency trap by distinguishing INCOIS from agricultural and State GIS institutions.",
+   "sec": "Fisheries and maritime safety - PFZ, safety devices, surveillance  [APPSC]"
+  },
+  {
+   "s": "EOS-06, also known as Oceansat-3, is used in relation to",
+   "o": [
+    "soil-resource mapping only",
+    "ground-deformation mapping only",
+    "horticulture area assessment only",
+    "PFZ advisories"
+   ],
+   "a": 3,
+   "x": "EOS-06 or Oceansat-3 provides data used for Potential Fishing Zone advisories.",
+   "ty": "fact",
+   "tq": "Link the satellite name with its ocean-observation application.",
+   "sec": "Fisheries and maritime safety - PFZ, safety devices, surveillance  [APPSC]"
+  },
+  {
+   "s": "Which of the following is a benefit of Potential Fishing Zone advisories to fishermen?",
+   "o": [
+    "Reduction in fuel costs by directing them towards fish-rich zones",
+    "Elimination of the need for all safety equipment",
+    "Measurement of agricultural soil moisture at sea",
+    "Replacement of all coastal surveillance systems"
+   ],
+   "a": 0,
+   "x": "PFZ advisories help fishermen reach fish-rich areas more efficiently and thereby reduce fuel costs.",
+   "ty": "application",
+   "tq": "Identify the practical economic benefit that follows from locating fish-rich zones.",
+   "sec": "Fisheries and maritime safety - PFZ, safety devices, surveillance  [APPSC]"
+  },
+  {
+   "s": "Ocean State Forecasts issued by INCOIS include information on",
+   "o": [
+    "crop yield, soil moisture and land use",
+    "wave height, sea state and cyclone tracks",
+    "road networks, mineral vehicles and land parcels",
+    "vegetation health, drought declaration and crop acreage"
+   ],
+   "a": 1,
+   "x": "INCOIS Ocean State Forecasts provide information on wave height, sea state and cyclone tracks.",
+   "ty": "fact",
+   "tq": "Distinguish ocean-state variables from land-based GIS and agricultural variables.",
+   "sec": "Fisheries and maritime safety - PFZ, safety devices, surveillance  [APPSC]"
+  },
+  {
+   "s": "Nabhmitra, tested at Neendakara in Kerala in August 2023, is",
+   "o": [
+    "a GIS software package",
+    "a satellite-based safety device for fishermen",
+    "a crop-yield estimation framework",
+    "an agricultural drought index"
+   ],
+   "a": 1,
+   "x": "Nabhmitra is a satellite-based fishermen safety device developed by ISRO’s Space Applications Centre, Ahmedabad, and tested at Neendakara in August 2023.",
+   "ty": "fact",
+   "tq": "Combine the device, developer, location and date to avoid confusing it with GEMINI.",
+   "sec": "Fisheries and maritime safety - PFZ, safety devices, surveillance  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about Nabhmitra is correct?",
+   "o": [
+    "It provides only one-way crop-yield estimates through Resourcesat.",
+    "It provides two-way messaging through GSAT.",
+    "It is operated exclusively through AIS-140 vehicle devices.",
+    "It issues only drought declarations through NDVI."
+   ],
+   "a": 1,
+   "x": "Nabhmitra supports two-way messaging through GSAT as part of its fishermen-safety function.",
+   "ty": "fact",
+   "tq": "Distinguish the communication function of a safety device from unrelated satellite applications.",
+   "sec": "Fisheries and maritime safety - PFZ, safety devices, surveillance  [APPSC]"
+  },
+  {
+   "s": "GEMINI, developed by INCOIS with AAI and using GAGAN, provides fishermen with",
+   "o": [
+    "only GIS road-network layers",
+    "PFZ, Ocean State Forecast and disaster alerts",
+    "only horticulture production forecasts",
+    "only satellite-based crop-insurance claims"
+   ],
+   "a": 1,
+   "x": "GEMINI sends PFZ, Ocean State Forecast and disaster alerts to fishermen at sea, using GAGAN-related capability.",
+   "ty": "fact",
+   "tq": "Match the maritime communication device with all three of its specified information services.",
+   "sec": "Fisheries and maritime safety - PFZ, safety devices, surveillance  [APPSC]"
+  },
+  {
+   "s": "The coastal-fishermen alert service operated through the RTGS hub at Vijayawada provides alerts regarding",
+   "o": [
+    "cyclones, high waves and fish shoals",
+    "only earthquakes and volcanoes",
+    "only crop diseases and soil nutrients",
+    "only road congestion and vehicle permits"
+   ],
+   "a": 0,
+   "x": "The RTGS hub at Vijayawada provides satellite-based alerts to coastal fishermen about cyclones, high waves and fish shoals.",
+   "ty": "fact",
+   "tq": "Identify the three maritime alert categories rather than selecting unrelated disaster or GIS functions.",
+   "sec": "Fisheries and maritime safety - PFZ, safety devices, surveillance  [APPSC]"
+  },
+  {
+   "s": "Which technologies are associated with maritime surveillance?",
+   "o": [
+    "NDVI and VCI alone",
+    "QGIS and digitizers alone",
+    "RISAT/SAR and ship-tracking feeds",
+    "FASAL and CHAMAN alone"
+   ],
+   "a": 2,
+   "x": "Maritime surveillance uses RISAT/SAR data together with ship-tracking feeds.",
+   "ty": "fact",
+   "tq": "Associate radar imaging and ship-tracking data with maritime surveillance.",
+   "sec": "Fisheries and maritime safety - PFZ, safety devices, surveillance  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with a Geographic Information System component?",
+   "o": [
+    "Hardware — computer, digitizer, scanner, GPS receiver and plotter",
+    "Software — only attribute tables",
+    "Data — analysts and procedures",
+    "People and methods — satellite images only"
+   ],
+   "a": 0,
+   "x": "Computers, digitizers, scanners, GPS receivers and plotters are examples of GIS hardware. Software includes GIS packages, data includes spatial and attribute information, and people and methods include analysts and procedures.",
+   "ty": "match",
+   "tq": "Classify each item by asking whether it is equipment, software, data or human procedure.",
+   "sec": "GIS - components, data layers, situational awareness  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes GIS data?",
+   "o": [
+    "Raster data consists only of points, lines and polygons.",
+    "Attribute tables are GIS hardware devices.",
+    "Spatial data may be vector or raster, and may be linked with attribute tables.",
+    "Spatial data consists exclusively of written procedures."
+   ],
+   "a": 2,
+   "x": "GIS data includes spatial data such as vector points, lines and polygons and raster satellite images, along with attribute tables.",
+   "ty": "fact",
+   "tq": "Distinguish spatial representation from hardware and procedural components.",
+   "sec": "GIS - components, data layers, situational awareness  [APPSC]"
+  },
+  {
+   "s": "In a GIS, roads, soils, land use and water are generally represented as",
+   "o": [
+    "attribute-table operators",
+    "different types of GPS receivers",
+    "separate thematic data layers",
+    "software licences"
+   ],
+   "a": 2,
+   "x": "Each theme, such as roads, soils, land use or water, is represented as a separate GIS layer.",
+   "ty": "fact",
+   "tq": "Apply the layered representation principle to familiar geographic themes.",
+   "sec": "GIS - components, data layers, situational awareness  [APPSC]"
+  },
+  {
+   "s": "Overlay analysis in GIS refers to",
+   "o": [
+    "sending PFZ messages to fishermen",
+    "converting all raster data into hardware",
+    "measuring only the phase of radar images",
+    "combining different data layers for analysis"
+   ],
+   "a": 3,
+   "x": "Overlay analysis combines multiple thematic layers to derive and analyse relationships between them.",
+   "ty": "fact",
+   "tq": "Use the meaning of overlay as the combination of thematic layers.",
+   "sec": "GIS - components, data layers, situational awareness  [APPSC]"
+  },
+  {
+   "s": "The Andhra Pradesh State Spatial Data Infrastructure standardised how many GIS layers, according to the stated AP data?",
+   "o": [
+    "47",
+    "64",
+    "74",
+    "84"
+   ],
+   "a": 2,
+   "x": "APSSDI standardised 74 GIS layers, registered with the National Data Registry.",
+   "ty": "numerical",
+   "tq": "Retain the exact layer count and distinguish it from nearby numerical distractors.",
+   "sec": "GIS - components, data layers, situational awareness  [APPSC]"
+  },
+  {
+   "s": "The cost associated with the APSSDI GIS-layer standardisation mentioned in the State data is",
+   "o": [
+    "₹5.76 crore",
+    "₹10.76 crore",
+    "₹15.76 crore",
+    "₹25.76 crore"
+   ],
+   "a": 2,
+   "x": "The stated cost of the APSSDI GIS-layer standardisation was ₹15.76 crore.",
+   "ty": "numerical",
+   "tq": "Use precise numerical discrimination among closely related cost figures.",
+   "sec": "GIS - components, data layers, situational awareness  [APPSC]"
+  },
+  {
+   "s": "Which of the following is an example of GIS-based situational awareness in Andhra Pradesh?",
+   "o": [
+    "Only pre-harvest crop acreage forecasting",
+    "Only calculation of the NDVI formula",
+    "Only measurement of ocean chlorophyll",
+    "Real-time flood alerts and mineral-vehicle tracking"
+   ],
+   "a": 3,
+   "x": "Situational awareness uses real-time layers for disaster response, including flood alerts and mineral-vehicle tracking, as well as shoreline mapping.",
+   "ty": "application",
+   "tq": "Identify the real-time operational uses rather than static remote-sensing measures.",
+   "sec": "GIS - components, data layers, situational awareness  [APPSC]"
+  },
+  {
+   "s": "APMVTS refers in the given Andhra Pradesh application context to a system associated with",
+   "o": [
+    "tracking mineral vehicles",
+    "issuing PFZ advisories",
+    "monitoring agricultural drought through VCI",
+    "estimating horticulture production"
+   ],
+   "a": 0,
+   "x": "APMVTS is associated with mineral-vehicle tracking and forms part of GIS-based situational awareness.",
+   "ty": "fact",
+   "tq": "Match the acronym with its distinctive vehicle-tracking function.",
+   "sec": "GIS - components, data layers, situational awareness  [APPSC]"
+  },
+  {
+   "s": "The number of vehicles mentioned as being tracked through APMVTS using AIS-140 devices is",
+   "o": [
+    "5,000",
+    "25,000",
+    "50,000",
+    "75,000"
+   ],
+   "a": 2,
+   "x": "APMVTS is stated to track 50,000 vehicles fitted with AIS-140 devices.",
+   "ty": "numerical",
+   "tq": "Recall the exact scale of the vehicle-tracking application.",
+   "sec": "GIS - components, data layers, situational awareness  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched?",
+   "o": [
+    "CHAMAN — horticulture area and condition mapping",
+    "NADAMS — agricultural drought monitoring",
+    "FASAL — pre-harvest crop acreage and production forecasts",
+    "GEMINI — mapping soil resources from satellite data"
+   ],
+   "a": 3,
+   "x": "GEMINI sends PFZ, Ocean State Forecast and disaster alerts to fishermen. Soil-resource mapping from satellite data is associated with the Soil and Land Use Survey of India.",
+   "ty": "negative",
+   "tq": "Find the mismatched agency-purpose pair by separating agricultural, maritime and soil-resource functions.",
+   "sec": "Agriculture - drought monitoring, FASAL, CHAMAN, soil moisture  [APPSC]"
+  }
+ ]
+}

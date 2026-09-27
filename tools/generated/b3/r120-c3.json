@@ -1,0 +1,596 @@
+{
+ "book": 3,
+ "row": 120,
+ "chunk": 3,
+ "section": "Approaches and initiatives in AP agriculture - APCNF/ZBNF, horticulture, aquaculture, allied sectors",
+ "subsections": [
+  "Allied sectors - livestock, dairy (Amul-AP), poultry ranks",
+  "Land use - cultivated area, food-grain area, gross cropped area trends",
+  "Operational holdings in AP - size classes, number, average size",
+  "Crop research institutes and varieties",
+  "Crop → dominant region/district"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 43,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "According to the APSES 2025-26 data, Andhra Pradesh ranked first in the country in which allied-sector product during 2024-25?",
+   "o": [
+    "Milk",
+    "Wool",
+    "Meat",
+    "Eggs"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh ranked first in egg production in 2024-25, producing 2,739 crore eggs.",
+   "ty": "fact",
+   "tq": "Direct recall of a rank and product pair.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "The production and national rank of eggs in Andhra Pradesh during 2024-25 were respectively:",
+   "o": [
+    "139.46 lakh MT and seventh",
+    "2,739 crore and first",
+    "2,548.74 crore and fifth",
+    "11.37 lakh MT and fourth"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh produced 2,739 crore eggs and held the first rank in 2024-25.",
+   "ty": "numerical",
+   "tq": "Match the numerical figure with its corresponding rank.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "Consider the following statements regarding Andhra Pradesh's allied-sector position in 2024-25:\n1. Andhra Pradesh ranked first in egg production.\n2. Andhra Pradesh ranked fourth in meat production.\n3. Andhra Pradesh ranked seventh in milk production.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The respective ranks were first for eggs, fourth for meat and seventh for milk.",
+   "ty": "statements",
+   "tq": "Verify each rank before selecting the coded combination.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched for Andhra Pradesh in 2024-25?",
+   "o": [
+    "Meat — 11.37 lakh MT; fourth rank",
+    "Milk — 11.37 lakh MT; fourth rank",
+    "Eggs — 139.46 lakh MT; seventh rank",
+    "Meat — 2,739 crore; first rank"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh produced 11.37 lakh MT of meat and ranked fourth in 2024-25.",
+   "ty": "match",
+   "tq": "Use the product-unit combination to eliminate reversed and swapped entries.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "Which allied-sector output of Andhra Pradesh retained the first national rank in each of the years 2022-23, 2023-24 and 2024-25?",
+   "o": [
+    "Eggs",
+    "Milk",
+    "Poultry population",
+    "Meat"
+   ],
+   "a": 0,
+   "x": "Eggs ranked first in all three years. The egg rank is noted as having never changed.",
+   "ty": "comparison",
+   "tq": "Identify the unchanged rank across the comparison years.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "Arrange the following Andhra Pradesh allied-sector rankings for 2023-24 in descending order of national rank number, beginning with the lowest rank position:\nA. Milk\nB. Eggs\nC. Meat",
+   "o": [
+    "B, C, A",
+    "A, C, B",
+    "C, A, B",
+    "B, A, C"
+   ],
+   "a": 0,
+   "x": "In 2023-24, eggs ranked first, meat fifth and milk seventh. Thus, in ascending rank position, the order is Eggs, Meat and Milk.",
+   "ty": "chronology",
+   "tq": "Arrange by the numerical rank positions rather than by production volume.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "Which one of the following statements correctly describes the change in Andhra Pradesh's allied-sector outputs in 2023-24?",
+   "o": [
+    "Milk production remained unchanged, while eggs and meat declined.",
+    "All three outputs increased, with meat showing the largest increase.",
+    "All three outputs fell, and milk recorded the largest decline of 9.41%.",
+    "Only egg production fell, while milk and meat increased."
+   ],
+   "a": 2,
+   "x": "Egg, meat and milk outputs all fell in 2023-24; milk recorded the largest decline, at 9.41%.",
+   "ty": "fact",
+   "tq": "Test the trend and the precise percentage together.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "The tie-up between the Andhra Pradesh Dairy Development Cooperative Federation and Amul was made in:",
+   "o": [
+    "2018",
+    "2019",
+    "2020",
+    "2021"
+   ],
+   "a": 2,
+   "x": "The AP Dairy Development Cooperative Federation entered into the Amul-AP tie-up in 2020.",
+   "ty": "fact",
+   "tq": "Direct recall of the year associated with an institutional arrangement.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched with a breed associated with Andhra Pradesh?",
+   "o": [
+    "Ongole — cattle",
+    "Nellore — sheep",
+    "Godavari — buffalo",
+    "Aseel — buffalo"
+   ],
+   "a": 3,
+   "x": "Aseel is a poultry breed, not a buffalo breed. Ongole is cattle, Godavari is buffalo and Nellore is sheep.",
+   "ty": "negative",
+   "tq": "Find the wrong species association in a breed list.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "With reference to the 2019 livestock census in Andhra Pradesh, consider the following statements:\n1. Sheep population was 176.27 lakh and Andhra Pradesh ranked second.\n2. Poultry population was 1,078.63 lakh and Andhra Pradesh ranked second.\n3. Cattle population was 46.00 lakh and Andhra Pradesh ranked fourteenth.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly state the population, unit and national rank for 2019.",
+   "ty": "statements",
+   "tq": "Check population figures and ranks as separate components.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "Which species had a population of 62.19 lakh in Andhra Pradesh in 2019 and ranked sixth nationally?",
+   "o": [
+    "Buffalo",
+    "Cattle",
+    "Goat",
+    "Sheep"
+   ],
+   "a": 0,
+   "x": "The buffalo population was 62.19 lakh and Andhra Pradesh ranked sixth nationally.",
+   "ty": "numerical",
+   "tq": "Identify the species from its population-rank pair.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "Which one of the following statements regarding livestock changes in Andhra Pradesh is correct?",
+   "o": [
+    "Pig population increased by 41.40%.",
+    "Goat population declined by 22.82%.",
+    "Cattle population increased by 2.46%.",
+    "Sheep population increased by 29.99%."
+   ],
+   "a": 3,
+   "x": "Sheep population increased by 29.99% over 2012. Pigs declined by 41.40%, while cattle declined by 2.46%.",
+   "ty": "fact",
+   "tq": "Use the direction of change and percentage to reject reversed trends.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "Milk production in Andhra Pradesh was sustained comparatively because of:",
+   "o": [
+    "poultry and pig farming",
+    "crossbred cattle and graded Murrah buffaloes",
+    "sheep and goat populations",
+    "indigenous cattle alone"
+   ],
+   "a": 1,
+   "x": "Milk production was supported by crossbred cattle and graded Murrah buffaloes.",
+   "ty": "application",
+   "tq": "Link the stated production outcome with its identified cause.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "India produced 239.30 MT of milk in 2023-24, with per capita availability of:",
+   "o": [
+    "471 g per day",
+    "1,078 g per day",
+    "710 g per day",
+    "239 g per day"
+   ],
+   "a": 0,
+   "x": "India's per capita milk availability was 471 grams per day in 2023-24.",
+   "ty": "numerical",
+   "tq": "Associate a national production figure with its per capita measure.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "Which one of the following is correctly matched with India's 2023-24 allied-sector position in the world?",
+   "o": [
+    "Milk — second",
+    "Eggs — first",
+    "Meat — fourth",
+    "Meat — second"
+   ],
+   "a": 2,
+   "x": "India ranked fourth in the world in meat production. It ranked second in eggs.",
+   "ty": "negative",
+   "tq": "Discriminate between closely placed international ranks.",
+   "sec": "Allied sectors - livestock, dairy (Amul-AP), poultry ranks"
+  },
+  {
+   "s": "The geographical area of Andhra Pradesh is approximately:",
+   "o": [
+    "162.97 lakh hectares",
+    "49.55 lakh hectares",
+    "102.10 lakh hectares",
+    "239.30 lakh hectares"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh has a geographical area of 162.97 lakh hectares according to APSES 2024-25.",
+   "ty": "numerical",
+   "tq": "Distinguish the geographical base from component land-use areas.",
+   "sec": "Land use - cultivated area, food-grain area, gross cropped area trends"
+  },
+  {
+   "s": "In 2023-24, which category accounted for 49.55 lakh hectares, or 30.40% of Andhra Pradesh's geographical area?",
+   "o": [
+    "Net area sown, including fish culture",
+    "Non-agricultural uses",
+    "Current fallows",
+    "Forest"
+   ],
+   "a": 0,
+   "x": "Net area sown, including fish culture, was 49.55 lakh hectares, constituting 30.40% of the geographical area.",
+   "ty": "fact",
+   "tq": "Match the area figure with its land-use category and percentage.",
+   "sec": "Land use - cultivated area, food-grain area, gross cropped area trends"
+  },
+  {
+   "s": "Which of the following correctly represents the forest area of Andhra Pradesh in 2023-24?",
+   "o": [
+    "20.93 lakh hectares, or 12.84% of geographical area",
+    "24.29 lakh hectares, or 14.90% of geographical area",
+    "13.35 lakh hectares, or 8.19% of geographical area",
+    "36.88 lakh hectares, or 22.63% of geographical area"
+   ],
+   "a": 3,
+   "x": "Forest area was 36.88 lakh hectares, accounting for 22.63% of the geographical area.",
+   "ty": "fact",
+   "tq": "Test the precise area-percentage pair rather than the category alone.",
+   "sec": "Land use - cultivated area, food-grain area, gross cropped area trends"
+  },
+  {
+   "s": "Consider the following statements about land use in Andhra Pradesh in 2023-24:\n1. Current fallows covered 24.29 lakh hectares.\n2. Non-agricultural uses covered 20.93 lakh hectares.\n3. Barren and unculturable land covered 13.35 lakh hectares.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three figures are correct for the respective land-use categories in 2023-24.",
+   "ty": "statements",
+   "tq": "Verify each area figure independently before choosing the combination.",
+   "sec": "Land use - cultivated area, food-grain area, gross cropped area trends"
+  },
+  {
+   "s": "Other fallows and culturable waste in Andhra Pradesh covered, respectively, how much area in 2023-24?",
+   "o": [
+    "4.04 lakh ha and 10.36 lakh ha",
+    "10.36 lakh ha and 4.04 lakh ha",
+    "24.29 lakh ha and 13.35 lakh ha",
+    "20.93 lakh ha and 10.36 lakh ha"
+   ],
+   "a": 1,
+   "x": "Other fallows covered 10.36 lakh hectares and culturable waste covered 4.04 lakh hectares.",
+   "ty": "comparison",
+   "tq": "Compare adjacent land-use categories without reversing their order.",
+   "sec": "Land use - cultivated area, food-grain area, gross cropped area trends"
+  },
+  {
+   "s": "Net sown area in Andhra Pradesh declined from 67.26 lakh hectares in 2008-09 to which level in 2023-24?",
+   "o": [
+    "37.51 lakh hectares",
+    "49.55 lakh hectares",
+    "41.44 lakh hectares",
+    "67.26 lakh hectares"
+   ],
+   "a": 1,
+   "x": "Net sown area fell to 49.55 lakh hectares in 2023-24, a decline of about one-quarter from 2008-09.",
+   "ty": "numerical",
+   "tq": "Track the end value in a two-year trend.",
+   "sec": "Land use - cultivated area, food-grain area, gross cropped area trends"
+  },
+  {
+   "s": "According to NITI Aayog, the cultivated area of Andhra Pradesh in 2020-21 was 10.1 million hectares, equivalent to approximately what share of its geographical area?",
+   "o": [
+    "22%",
+    "30%",
+    "37%",
+    "49%"
+   ],
+   "a": 2,
+   "x": "NITI Aayog reported 10.1 million hectares of cultivated area, equivalent to 37% of the geographical area.",
+   "ty": "numerical",
+   "tq": "Connect the reported area with its stated percentage and year.",
+   "sec": "Land use - cultivated area, food-grain area, gross cropped area trends"
+  },
+  {
+   "s": "Arrange the food-grain area of Andhra Pradesh in chronological order from earliest to latest:\nA. 37.51 lakh hectares\nB. 41.44 lakh hectares\nC. 33.24 lakh hectares",
+   "o": [
+    "B, C, A",
+    "A, B, C",
+    "C, B, A",
+    "B, A, C"
+   ],
+   "a": 0,
+   "x": "Food-grain area was 41.44 lakh hectares in 2021-22, 33.24 lakh hectares in 2023-24 and 37.51 lakh hectares in 2024-25.",
+   "ty": "chronology",
+   "tq": "Use the years attached to the figures to establish sequence.",
+   "sec": "Land use - cultivated area, food-grain area, gross cropped area trends"
+  },
+  {
+   "s": "The food-grain output of Andhra Pradesh in 2024-25 was:",
+   "o": [
+    "33.24 lakh tonnes",
+    "41.44 lakh tonnes",
+    "161.86 lakh tonnes",
+    "37.51 lakh tonnes"
+   ],
+   "a": 2,
+   "x": "Food-grain output was 161.86 lakh tonnes in 2024-25.",
+   "ty": "numerical",
+   "tq": "Distinguish output from the corresponding cultivated-area figures.",
+   "sec": "Land use - cultivated area, food-grain area, gross cropped area trends"
+  },
+  {
+   "s": "The cropping intensity of Andhra Pradesh in 2023-24, calculated as gross cropped area divided by net sown area, was:",
+   "o": [
+    "1.21",
+    "1.38",
+    "1.88",
+    "2.21"
+   ],
+   "a": 0,
+   "x": "The APSES 2024-25 recorded cropping intensity of 1.21 for 2023-24.",
+   "ty": "numerical",
+   "tq": "Apply the stated ratio concept to the reported year-specific value.",
+   "sec": "Land use - cultivated area, food-grain area, gross cropped area trends"
+  },
+  {
+   "s": "An operational holding is best defined as:",
+   "o": [
+    "Only irrigated land cultivated by a household",
+    "All land owned by a person, irrespective of whether it is cultivated",
+    "All land used for agricultural production and operated as one technical unit by one person, alone or with others, irrespective of title, size or location",
+    "Land recorded in the name of a single legal owner"
+   ],
+   "a": 2,
+   "x": "An operational holding comprises land used for agricultural production and operated as one technical unit, regardless of title, size or location.",
+   "ty": "application",
+   "tq": "Choose the definition that includes all qualifying conditions and the stated exception to title.",
+   "sec": "Operational holdings in AP - size classes, number, average size"
+  },
+  {
+   "s": "The Agriculture Census classifies operational holdings in Andhra Pradesh into how many size classes?",
+   "o": [
+    "Five",
+    "Four",
+    "Three",
+    "Six"
+   ],
+   "a": 0,
+   "x": "The five size classes are marginal, small, semi-medium, medium and large.",
+   "ty": "numerical",
+   "tq": "Recall the number of categories in an official classification.",
+   "sec": "Operational holdings in AP - size classes, number, average size"
+  },
+  {
+   "s": "Which of the following is the correct order of operational holding size classes from smallest to largest?",
+   "o": [
+    "Small, marginal, medium, semi-medium, large",
+    "Marginal, small, semi-medium, medium, large",
+    "Marginal, semi-medium, small, medium, large",
+    "Small, semi-medium, marginal, large, medium"
+   ],
+   "a": 1,
+   "x": "The order is marginal, small, semi-medium, medium and large.",
+   "ty": "chronology",
+   "tq": "Arrange classification categories by their area ranges.",
+   "sec": "Operational holdings in AP - size classes, number, average size"
+  },
+  {
+   "s": "A holding of 3 hectares belongs to which operational holding class?",
+   "o": [
+    "Semi-medium",
+    "Small",
+    "Medium",
+    "Marginal"
+   ],
+   "a": 0,
+   "x": "Semi-medium holdings operate 2 to 4 hectares. A 3-hectare holding falls within this range.",
+   "ty": "application",
+   "tq": "Apply the stated size boundaries to a practical case.",
+   "sec": "Operational holdings in AP - size classes, number, average size"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Medium — 4 to 10 hectares",
+    "Marginal — below 1 hectare",
+    "Small — 1 to 2 hectares",
+    "Large — below 10 hectares"
+   ],
+   "a": 3,
+   "x": "Large holdings are 10 hectares and above, not below 10 hectares.",
+   "ty": "negative",
+   "tq": "Locate the reversed boundary in a classification table.",
+   "sec": "Operational holdings in AP - size classes, number, average size"
+  },
+  {
+   "s": "Besides five size classes, the Agriculture Census groups operational holdings into which three social groups?",
+   "o": [
+    "ST, Women and Others",
+    "Marginal, Small and Others",
+    "SC, OBC and Minorities",
+    "SC, ST and Others"
+   ],
+   "a": 3,
+   "x": "The three social groups are Scheduled Castes, Scheduled Tribes and Others.",
+   "ty": "fact",
+   "tq": "Separate social classification from area classification.",
+   "sec": "Operational holdings in AP - size classes, number, average size"
+  },
+  {
+   "s": "Sulakshana, associated with ICAR-CTRI, is a high-yielding variety of:",
+   "o": [
+    "Rice",
+    "Chilli",
+    "Tobacco",
+    "Groundnut"
+   ],
+   "a": 2,
+   "x": "Sulakshana is a high-yielding tobacco variety developed in association with the Central Tobacco Research Institute.",
+   "ty": "fact",
+   "tq": "Direct recall of a variety-crop association.",
+   "sec": "Crop research institutes and varieties"
+  },
+  {
+   "s": "The Central Tobacco Research Institute is located at:",
+   "o": [
+    "Prakasam",
+    "Rajahmundry",
+    "Guntur",
+    "Kakinada"
+   ],
+   "a": 1,
+   "x": "The Central Tobacco Research Institute, an ICAR institute, is located at Rajahmundry.",
+   "ty": "fact",
+   "tq": "Recall the institute-location pair.",
+   "sec": "Crop research institutes and varieties"
+  },
+  {
+   "s": "Why were Kakinada farmers advised in December 2019 to stop growing Bondalu paddy?",
+   "o": [
+    "The variety was prohibited under the Agriculture Census.",
+    "Kerala, which had purchased the rice from Andhra Pradesh, began growing it itself.",
+    "The variety was declared unsuitable for black soils.",
+    "The variety required more irrigation than other paddy varieties."
+   ],
+   "a": 1,
+   "x": "Officials advised stopping Bondalu paddy cultivation because Kerala, its earlier buyer, had started producing the rice itself.",
+   "ty": "application",
+   "tq": "Identify the market-related cause behind an agricultural advisory.",
+   "sec": "Crop research institutes and varieties"
+  },
+  {
+   "s": "Which region is identified as Andhra Pradesh's main rice-growing area and aquaculture hub?",
+   "o": [
+    "Anantapuramu dry zone",
+    "Rayalaseema plateau",
+    "Godavari delta comprising East and West Godavari",
+    "Prakasam tobacco belt"
+   ],
+   "a": 2,
+   "x": "The Godavari delta, covering East and West Godavari, is the main rice-growing area and an aquaculture hub.",
+   "ty": "fact",
+   "tq": "Match a region with its distinctive crop and allied activity.",
+   "sec": "Crop → dominant region/district"
+  },
+  {
+   "s": "Which crop combination is particularly associated with the Krishna zone comprising Krishna, Guntur and Prakasam?",
+   "o": [
+    "Wheat, barley and maize",
+    "Rice, chillies and cotton",
+    "Groundnut, tobacco and onion",
+    "Mango, banana and coconut"
+   ],
+   "a": 1,
+   "x": "The Krishna zone grows paddy, chillies and cotton.",
+   "ty": "fact",
+   "tq": "Recall a multi-crop regional association.",
+   "sec": "Crop → dominant region/district"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Groundnut — Anantapuramu",
+    "Chillies — Nellore",
+    "FCV tobacco — Kurnool",
+    "Onion — Guntur only"
+   ],
+   "a": 0,
+   "x": "Groundnut is the main crop of the scarce-rainfall district Anantapuramu. Guntur is associated with chillies, and Prakasam with FCV tobacco.",
+   "ty": "match",
+   "tq": "Use the dominant crop-district pair and reject geographical swaps.",
+   "sec": "Crop → dominant region/district"
+  },
+  {
+   "s": "Guntur is especially known in Andhra Pradesh as the district associated with:",
+   "o": [
+    "Sheep",
+    "Groundnut",
+    "FCV tobacco",
+    "Chillies"
+   ],
+   "a": 3,
+   "x": "Guntur is identified as the chilli district of Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Direct recall of a crop-district identity.",
+   "sec": "Crop → dominant region/district"
+  },
+  {
+   "s": "Which districts are associated with onion production and the compensation payment of ₹128.33 crore to 37,752 onion farmers in 2025-26?",
+   "o": [
+    "Guntur and Prakasam",
+    "Kurnool and YSR Kadapa",
+    "Nellore and Anantapuramu",
+    "East Godavari and West Godavari"
+   ],
+   "a": 1,
+   "x": "The onion-related compensation was paid to farmers in Kurnool and YSR Kadapa districts.",
+   "ty": "numerical",
+   "tq": "Link the compensation figure and beneficiary count to the correct districts.",
+   "sec": "Crop → dominant region/district"
+  },
+  {
+   "s": "The main FCV tobacco districts of Andhra Pradesh are:",
+   "o": [
+    "Guntur and Krishna",
+    "Kurnool and YSR Kadapa",
+    "Prakasam and Nellore",
+    "East Godavari and Anantapuramu"
+   ],
+   "a": 2,
+   "x": "Prakasam and Nellore are the main FCV tobacco districts.",
+   "ty": "fact",
+   "tq": "Distinguish the broader tobacco districts from the location of the Tobacco Board.",
+   "sec": "Crop → dominant region/district"
+  },
+  {
+   "s": "The Tobacco Board of India is located at:",
+   "o": [
+    "Rajahmundry",
+    "Nellore",
+    "Guntur",
+    "Prakasam"
+   ],
+   "a": 2,
+   "x": "The Tobacco Board is located at Guntur, although Prakasam and Nellore are the main FCV tobacco districts.",
+   "ty": "confusable",
+   "tq": "Separate the institution's location from the crop's dominant districts.",
+   "sec": "Crop → dominant region/district"
+  }
+ ]
+}

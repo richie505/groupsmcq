@@ -1,0 +1,541 @@
+{
+ "book": 3,
+ "row": 132,
+ "chunk": 1,
+ "section": "AP Socio-Economic Survey - key indicators of the latest edition",
+ "subsections": [
+  "Institutional numbers in the latest Survey - RSKs, secretariats, fair price shops, SHGs",
+  "AP per capita income as per the latest Survey - value, growth, national comparison",
+  "Survey publisher - Planning Department, release with the Budget, chapter structure",
+  "Agriculture indicators - foodgrains, horticulture area, aquaculture output",
+  "Social indicators - literacy, IMR, MMR, sex ratio",
+  "Welfare scheme coverage - beneficiaries and expenditure"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 44,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 7,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "According to the latest Socio-Economic Survey of Andhra Pradesh, how many Rythu Seva Kendras were functional after rationalisation?",
+   "o": [
+    "3,863",
+    "8,489",
+    "10,606",
+    "10,778"
+   ],
+   "a": 1,
+   "x": "The Survey reported 8,489 functional Rythu Seva Kendras after rationalisation.",
+   "ty": "fact",
+   "tq": "Direct recall of an institutional count.",
+   "sec": "Institutional numbers in the latest Survey - RSKs, secretariats, fair price shops, SHGs"
+  },
+  {
+   "s": "The Survey cites different Rythu Seva Kendra counts for different functions. Which count is associated with soil sampling?",
+   "o": [
+    "8,489",
+    "10,606",
+    "10,778",
+    "29,796"
+   ],
+   "a": 2,
+   "x": "The Survey cites 10,778 Rythu Seva Kendras in connection with soil sampling.",
+   "ty": "confusable",
+   "tq": "Discriminate between closely related institutional figures.",
+   "sec": "Institutional numbers in the latest Survey - RSKs, secretariats, fair price shops, SHGs"
+  },
+  {
+   "s": "The Rythu Seva Kendras in Andhra Pradesh were set up next to which institutions?",
+   "o": [
+    "Village secretariats",
+    "Fair price shops",
+    "Mandal Samakhyas",
+    "Ward secretariats"
+   ],
+   "a": 0,
+   "x": "Rythu Seva Kendras were set up next to village secretariats.",
+   "ty": "fact",
+   "tq": "Test the location relationship between two institutions.",
+   "sec": "Institutional numbers in the latest Survey - RSKs, secretariats, fair price shops, SHGs"
+  },
+  {
+   "s": "Consider the following statements regarding institutional indicators in Andhra Pradesh:\n1. There were 29,796 fair price shops.\n2. These fair price shops covered 1.48 crore ration cards.\n3. The number of beneficiaries was 4.35 crore.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the Survey reported 29,796 fair price shops, 1.48 crore ration cards and 4.35 crore beneficiaries.",
+   "ty": "statements",
+   "tq": "Combine an institutional count with its coverage figures.",
+   "sec": "Institutional numbers in the latest Survey - RSKs, secretariats, fair price shops, SHGs"
+  },
+  {
+   "s": "Which of the following correctly describes the rural SHG network under SERP?",
+   "o": [
+    "8.34 lakh SHGs, 84.47 lakh women, 27,408 VOs, 660 Mandal Samakhyas and 26 Zilla Samakhyas",
+    "2.74 lakh SHGs, 24.34 lakh members and 9,018 slum-level federations",
+    "8.34 lakh SHGs, 24.34 lakh women, 660 VOs and 26 Mandal Samakhyas",
+    "2.74 lakh SHGs, 84.47 lakh members, 27,408 VOs and 660 Zilla Samakhyas"
+   ],
+   "a": 0,
+   "x": "SERP's rural network comprised 8.34 lakh SHGs, 84.47 lakh women, 27,408 VOs, 660 Mandal Samakhyas and 26 Zilla Samakhyas.",
+   "ty": "match",
+   "tq": "Match the institution with its complete numerical profile.",
+   "sec": "Institutional numbers in the latest Survey - RSKs, secretariats, fair price shops, SHGs"
+  },
+  {
+   "s": "With reference to urban Self-Help Groups under MEPMA, consider the following statements:\n1. There were 2.74 lakh urban SHGs.\n2. They had 24.34 lakh members.\n3. There were 9,018 slum-level federations.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "MEPMA's urban SHG network had 2.74 lakh SHGs, 24.34 lakh members and 9,018 slum-level federations.",
+   "ty": "statements",
+   "tq": "Use an all-inclusive option after verifying each numerical statement.",
+   "sec": "Institutional numbers in the latest Survey - RSKs, secretariats, fair price shops, SHGs"
+  },
+  {
+   "s": "How many ward secretariats were reported in APSES 2024-25?",
+   "o": [
+    "2,740",
+    "3,863",
+    "8,489",
+    "9,018"
+   ],
+   "a": 1,
+   "x": "APSES 2024-25 reported 3,863 ward secretariats.",
+   "ty": "numerical",
+   "tq": "Recall a year-specific institutional number.",
+   "sec": "Institutional numbers in the latest Survey - RSKs, secretariats, fair price shops, SHGs"
+  },
+  {
+   "s": "What was the growth rate of Andhra Pradesh per capita income in 2025-26 (FAE)?",
+   "o": [
+    "6.90%",
+    "10.43%",
+    "11.44%",
+    "13.31%"
+   ],
+   "a": 1,
+   "x": "The growth rate of AP's per capita income in 2025-26 (FAE) was 10.43%.",
+   "ty": "numerical",
+   "tq": "Separate the state growth rate from comparable annual figures.",
+   "sec": "AP per capita income as per the latest Survey - value, growth, national comparison"
+  },
+  {
+   "s": "In 2025-26 (FAE), Andhra Pradesh's per capita income was compared with the All-India figure as follows:",
+   "o": [
+    "Rs 2,05,324 and Rs 2,66,699 respectively",
+    "Rs 2,94,507 and Rs 2,19,575 respectively",
+    "Rs 2,19,575 and Rs 2,94,507 respectively",
+    "Rs 2,66,699 and Rs 2,05,324 respectively"
+   ],
+   "a": 1,
+   "x": "In 2025-26 (FAE), AP's per capita income was Rs 2,94,507, while the All-India figure was Rs 2,19,575.",
+   "ty": "comparison",
+   "tq": "Preserve the direction of a state-versus-national comparison.",
+   "sec": "AP per capita income as per the latest Survey - value, growth, national comparison"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched for 2024-25 (FRE)?",
+   "o": [
+    "AP PCI—Rs 2,66,699; All-India PCI—Rs 2,05,324",
+    "AP PCI—Rs 2,94,507; All-India PCI—Rs 2,19,575",
+    "AP PCI—Rs 93,903; All-India PCI—Rs 86,647",
+    "AP PCI—Rs 2,68,653; All-India PCI—Rs 2,00,162"
+   ],
+   "a": 0,
+   "x": "For 2024-25 (FRE), AP PCI was Rs 2,66,699 and All-India PCI was Rs 2,05,324.",
+   "ty": "comparison",
+   "tq": "Match the year with the correct pair of comparable values.",
+   "sec": "AP per capita income as per the latest Survey - value, growth, national comparison"
+  },
+  {
+   "s": "Which of the following statements regarding per capita income is correct?",
+   "o": [
+    "PCI is calculated as NSDP divided by population and is a net figure.",
+    "PCI is calculated as GSDP divided by population and is a gross figure.",
+    "PCI is calculated as population divided by NSDP and is a net figure.",
+    "PCI is calculated as GSDP divided by population and is always compared with APP."
+   ],
+   "a": 0,
+   "x": "PCI is NSDP divided by population and therefore represents a net figure.",
+   "ty": "application",
+   "tq": "Apply the correct formula and distinguish net from gross measures.",
+   "sec": "AP per capita income as per the latest Survey - value, growth, national comparison"
+  },
+  {
+   "s": "Who prepares the Socio-Economic Survey of Andhra Pradesh?",
+   "o": [
+    "Planning Department, Government of Andhra Pradesh",
+    "NITI Aayog",
+    "Finance Department, Government of India",
+    "Reserve Bank of India"
+   ],
+   "a": 0,
+   "x": "The Socio-Economic Survey is prepared by the Planning Department of the Government of Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Direct recall of the responsible department.",
+   "sec": "Survey publisher - Planning Department, release with the Budget, chapter structure"
+  },
+  {
+   "s": "By convention, the Andhra Pradesh Socio-Economic Survey is tabled:",
+   "o": [
+    "At the end of the financial year",
+    "Only along with the Annual Financial Statement after voting",
+    "Before the State Budget",
+    "After the State Budget is passed"
+   ],
+   "a": 2,
+   "x": "By convention, the Survey is tabled before the State Budget, following the practice of the Union Economic Survey.",
+   "ty": "fact",
+   "tq": "Distinguish conventional sequencing from constitutional procedure.",
+   "sec": "Survey publisher - Planning Department, release with the Budget, chapter structure"
+  },
+  {
+   "s": "Consider the following statements about the Andhra Pradesh Socio-Economic Survey:\n1. Its presentation before the Budget is a constitutional obligation.\n2. The Annual Financial Statement is a constitutional requirement.\n3. In 2026, the government did not present the Survey in the Budget session.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "The Survey's presentation before the Budget is not a constitutional obligation, whereas the Annual Financial Statement is constitutional. In 2026, the Survey was not presented in the Budget session.",
+   "ty": "statements",
+   "tq": "Find the false statement by distinguishing convention from constitutional obligation.",
+   "sec": "Survey publisher - Planning Department, release with the Budget, chapter structure"
+  },
+  {
+   "s": "How many chapters are included in SES 2025-26?",
+   "o": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "a": 2,
+   "x": "SES 2025-26 contains 11 chapters.",
+   "ty": "numerical",
+   "tq": "Direct recall of the chapter count.",
+   "sec": "Survey publisher - Planning Department, release with the Budget, chapter structure"
+  },
+  {
+   "s": "Which of the following was the last chapter of SES 2024-25?",
+   "o": [
+    "Progress Monitoring - KPIs and SDGs",
+    "Poverty, Employment and Unemployment",
+    "Data-Driven Governance",
+    "Swarna Andhra @2047 Vision"
+   ],
+   "a": 0,
+   "x": "The last chapter of SES 2024-25 was titled “Progress Monitoring - KPIs and SDGs.”",
+   "ty": "fact",
+   "tq": "Use an exact-title trap involving successive editions.",
+   "sec": "Survey publisher - Planning Department, release with the Budget, chapter structure"
+  },
+  {
+   "s": "Which one of the following is NOT a chapter of SES 2025-26?",
+   "o": [
+    "Progress Monitoring - KPIs and SDGs",
+    "Data-Driven Governance",
+    "Economic Infrastructure",
+    "Public Finance"
+   ],
+   "a": 0,
+   "x": "“Progress Monitoring - KPIs and SDGs” was the last chapter of SES 2024-25, not a listed chapter of SES 2025-26.",
+   "ty": "negative",
+   "tq": "Find the title belonging to the previous edition.",
+   "sec": "Survey publisher - Planning Department, release with the Budget, chapter structure"
+  },
+  {
+   "s": "The second Advance Estimates for foodgrains in Andhra Pradesh in 2025-26 placed total production at:",
+   "o": [
+    "406.38 lakh tonnes",
+    "190.29 lakh tonnes",
+    "146.09 lakh tonnes",
+    "47.28 lakh tonnes"
+   ],
+   "a": 1,
+   "x": "Foodgrain production was estimated at 190.29 lakh tonnes in 2025-26.",
+   "ty": "numerical",
+   "tq": "Distinguish total foodgrains from crop-specific and allied-sector outputs.",
+   "sec": "Agriculture indicators - foodgrains, horticulture area, aquaculture output"
+  },
+  {
+   "s": "Consider the following statements regarding foodgrain production in Andhra Pradesh in 2025-26:\n1. Production was estimated at 190.29 lakh tonnes.\n2. The area covered was 42.74 lakh hectares.\n3. Kharif production was 110.00 lakh tonnes and rabi production was 80.29 lakh tonnes.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct according to the second Advance Estimates for 2025-26.",
+   "ty": "statements",
+   "tq": "Verify total, area and seasonal components together.",
+   "sec": "Agriculture indicators - foodgrains, horticulture area, aquaculture output"
+  },
+  {
+   "s": "Which of the following correctly describes paddy production in Andhra Pradesh in 2025-26?",
+   "o": [
+    "190.29 lakh tonnes from 42.74 lakh hectares",
+    "110.00 lakh tonnes from 24.68 lakh hectares",
+    "146.09 lakh tonnes from 24.68 lakh hectares",
+    "80.29 lakh tonnes from 42.74 lakh hectares"
+   ],
+   "a": 2,
+   "x": "Paddy production was 146.09 lakh tonnes from 24.68 lakh hectares.",
+   "ty": "comparison",
+   "tq": "Match a crop with its specific production and area figures.",
+   "sec": "Agriculture indicators - foodgrains, horticulture area, aquaculture output"
+  },
+  {
+   "s": "Which statement about horticulture in Andhra Pradesh is correct?",
+   "o": [
+    "Rayalaseema is being developed as an aquaculture hub rather than a Horticulture Hub.",
+    "Horticulture covered 45.59 lakh acres and produced 406.38 lakh tonnes exclusively in coastal districts.",
+    "Horticulture covered 46.43 lakh hectares and produced 45.59 lakh MT.",
+    "Horticulture covered 46.43 lakh acres and produced 406.38 lakh MT; Rayalaseema is being developed as a Horticulture Hub."
+   ],
+   "a": 3,
+   "x": "The Survey reported 46.43 lakh acres and 406.38 lakh MT, and identified Rayalaseema for development as a Horticulture Hub.",
+   "ty": "fact",
+   "tq": "Avoid unit and sector substitution in a multi-part fact.",
+   "sec": "Agriculture indicators - foodgrains, horticulture area, aquaculture output"
+  },
+  {
+   "s": "Up to December 2025, fisheries production in Andhra Pradesh was what percentage of the annual target?",
+   "o": [
+    "17.03%",
+    "36.29%",
+    "72%",
+    "84.47%"
+   ],
+   "a": 2,
+   "x": "Fisheries production up to December 2025 represented 72% of the annual target.",
+   "ty": "numerical",
+   "tq": "Identify the target-progress percentage rather than a production-growth rate.",
+   "sec": "Agriculture indicators - foodgrains, horticulture area, aquaculture output"
+  },
+  {
+   "s": "The Fishing and Aquaculture Gross Value Added of Andhra Pradesh at constant prices was reported as:",
+   "o": [
+    "Rs 90,673 crore",
+    "Rs 90,673 lakh",
+    "Rs 406.38 crore",
+    "Rs 9,067.3 crore"
+   ],
+   "a": 0,
+   "x": "Fishing and Aquaculture GVA at constant prices was Rs 90,673 crore.",
+   "ty": "numerical",
+   "tq": "Check both the numerical value and its unit.",
+   "sec": "Agriculture indicators - foodgrains, horticulture area, aquaculture output"
+  },
+  {
+   "s": "Consider the following statements:\n1. The net area sown in Andhra Pradesh was 59.14 lakh hectares.\n2. It constituted 36.29 percent.\n3. APCNF covered 10.20 lakh farmers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The net area sown was 59.14 lakh hectares, representing 36.29 percent, while APCNF covered 10.20 lakh farmers.",
+   "ty": "statements",
+   "tq": "Combine area, share and farmer-coverage figures.",
+   "sec": "Agriculture indicators - foodgrains, horticulture area, aquaculture output"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched for Andhra Pradesh's social indicators?",
+   "o": [
+    "Sex ratio (2011)—997; Child sex ratio—944",
+    "Sex ratio (2011)—943; Child sex ratio—997",
+    "Sex ratio (2011)—944; Child sex ratio—918",
+    "Sex ratio (2011)—997; Child sex ratio—918"
+   ],
+   "a": 0,
+   "x": "AP's sex ratio was 997 and its child sex ratio was 944.",
+   "ty": "match",
+   "tq": "Match two related indicators while avoiding their numerical interchange.",
+   "sec": "Social indicators - literacy, IMR, MMR, sex ratio"
+  },
+  {
+   "s": "Which of the following correctly compares literacy rates in 2011?",
+   "o": [
+    "AP 67.35%, female literacy in AP 59.96%, India 72.98%",
+    "AP 72.98%, female literacy in AP 67.35%, India 59.96%",
+    "AP 67.35%, female literacy in AP 72.98%, India 59.96%",
+    "AP 59.96%, female literacy in AP 67.35%, India 72.98%"
+   ],
+   "a": 0,
+   "x": "AP's literacy rate was 67.35%, female literacy was 59.96%, and India's literacy rate was 72.98%.",
+   "ty": "comparison",
+   "tq": "Keep the state, subgroup and national figures in their proper positions.",
+   "sec": "Social indicators - literacy, IMR, MMR, sex ratio"
+  },
+  {
+   "s": "Which district had the highest literacy rate among the 28 districts, according to the reported district extremes?",
+   "o": [
+    "Polavaram",
+    "Visakhapatnam",
+    "Alluri Sitarama Raju",
+    "Markapuram"
+   ],
+   "a": 1,
+   "x": "Visakhapatnam recorded the highest literacy rate at 79.05%.",
+   "ty": "fact",
+   "tq": "Match the district with the correct social-indicator extreme.",
+   "sec": "Social indicators - literacy, IMR, MMR, sex ratio"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Alluri Sitarama Raju—lowest literacy, 44.67%",
+    "Polavaram—highest sex ratio, 1,051",
+    "Markapuram—highest sex ratio, 1,051",
+    "Visakhapatnam—highest literacy, 79.05%"
+   ],
+   "a": 2,
+   "x": "Markapuram had the lowest reported sex ratio, 962; Polavaram had the highest, 1,051.",
+   "ty": "negative",
+   "tq": "Find the district and extreme that have been deliberately interchanged.",
+   "sec": "Social indicators - literacy, IMR, MMR, sex ratio"
+  },
+  {
+   "s": "According to the SRS indicators, Andhra Pradesh and India had IMR values of:",
+   "o": [
+    "24 and 28 respectively",
+    "25 and 19 respectively",
+    "19 and 25 respectively",
+    "21 and 29 respectively"
+   ],
+   "a": 2,
+   "x": "The SRS IMR was 19 for Andhra Pradesh and 25 for India.",
+   "ty": "comparison",
+   "tq": "Distinguish the main IMR comparison from the later SRS 2020 series.",
+   "sec": "Social indicators - literacy, IMR, MMR, sex ratio"
+  },
+  {
+   "s": "Consider the following pairs:\n1. U5MR—AP 21; India 29\n2. TFR—AP 1.5; India 1.9\n3. NITI MPI headcount—AP 6.06%; India 14.96%\nWhich of the pairs given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correctly stated for U5MR, TFR and NITI MPI headcount.",
+   "ty": "statements",
+   "tq": "Check paired state-national values across different social indicators.",
+   "sec": "Social indicators - literacy, IMR, MMR, sex ratio"
+  },
+  {
+   "s": "Which of the following correctly represents the SRS 2020 and SRS 2018-20 indicators?",
+   "o": [
+    "IMR: AP 28, India 24; MMR: AP 97, India 45",
+    "IMR: AP 24, India 28; MMR: AP 45, India 97",
+    "IMR: AP 19, India 25; MMR: AP 30, India 88",
+    "IMR: AP 24, India 25; MMR: AP 45, India 88"
+   ],
+   "a": 1,
+   "x": "SRS 2020 recorded IMR of 24 for AP and 28 for India, while SRS 2018-20 recorded MMR of 45 for AP and 97 for India.",
+   "ty": "comparison",
+   "tq": "Separate similar indicators by their survey periods.",
+   "sec": "Social indicators - literacy, IMR, MMR, sex ratio"
+  },
+  {
+   "s": "The life expectancy at birth figures for males and females in Andhra Pradesh during 2016-20 were respectively:",
+   "o": [
+    "68.6 years and 72.2 years",
+    "69.1 years and 71.4 years",
+    "68.6 years and 71.4 years",
+    "69.1 years and 72.2 years"
+   ],
+   "a": 3,
+   "x": "AP's life expectancy was 69.1 years for males and 72.2 years for females during 2016-20.",
+   "ty": "numerical",
+   "tq": "Preserve both the sex order and the state-specific figures.",
+   "sec": "Social indicators - literacy, IMR, MMR, sex ratio"
+  },
+  {
+   "s": "NFHS-6 was released by which ministry, and which institution served as its nodal agency?",
+   "o": [
+    "Ministry of Rural Development; NIRDPR Hyderabad",
+    "Ministry of Health and Family Welfare; IIPS Mumbai",
+    "Ministry of Statistics; NSO New Delhi",
+    "Ministry of Women and Child Development; UNICEF India"
+   ],
+   "a": 1,
+   "x": "NFHS-6 was released by the Ministry of Health and Family Welfare, with IIPS Mumbai as the nodal agency.",
+   "ty": "match",
+   "tq": "Match a national survey with its ministry and nodal agency.",
+   "sec": "Social indicators - literacy, IMR, MMR, sex ratio"
+  },
+  {
+   "s": "Under Annadata Sukhibhava-PM Kisan, the reported coverage and expenditure were:",
+   "o": [
+    "46.86 lakh farmer families and Rs 6,309 crore through two instalments",
+    "1.84 crore farmer families and Rs 32,754.90 crore through two instalments",
+    "33.32 crore farmer families and Rs 6,309 crore through three instalments",
+    "46.86 lakh farmer families and Rs 1,554.06 crore through two instalments"
+   ],
+   "a": 0,
+   "x": "Annadata Sukhibhava-PM Kisan covered 46.86 lakh farmer families, with Rs 6,309 crore released through two instalments.",
+   "ty": "fact",
+   "tq": "Match a welfare scheme with both coverage and spending.",
+   "sec": "Welfare scheme coverage - beneficiaries and expenditure"
+  },
+  {
+   "s": "Which welfare scheme provided three free LPG cylinders a year?",
+   "o": [
+    "Annadata Sukhibhava-PM Kisan",
+    "NTR Bharosa Pensions",
+    "Deepam-2",
+    "Talliki Vandanam"
+   ],
+   "a": 2,
+   "x": "Deepam-2 provided three free LPG cylinders a year.",
+   "ty": "fact",
+   "tq": "Identify the scheme from its distinctive benefit.",
+   "sec": "Welfare scheme coverage - beneficiaries and expenditure"
+  },
+  {
+   "s": "Consider the following statements about welfare schemes:\n1. Deepam-2 had 1.84 crore beneficiaries.\n2. Expenditure under Deepam-2 was Rs 1,554.06 crore.\n3. NTR Bharosa Pensions involved Rs 32,754.90 crore released from December 2024 to November 2025.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly state the coverage, expenditure and release period reported for the two schemes.",
+   "ty": "statements",
+   "tq": "Combine scheme-specific figures with a release period.",
+   "sec": "Welfare scheme coverage - beneficiaries and expenditure"
+  },
+  {
+   "s": "Stree Shakti, launched for free bus travel for women, was associated with which figures?",
+   "o": [
+    "From 15 August 2025 and 33.32 crore free journeys",
+    "From 15 August 2025 and 1.84 crore free journeys",
+    "From 15 August 2024 and 33.32 lakh free journeys",
+    "From 26 January 2025 and 33.32 crore beneficiaries"
+   ],
+   "a": 0,
+   "x": "Stree Shakti provided free bus travel for women from 15 August 2025 and recorded 33.32 crore free journeys.",
+   "ty": "fact",
+   "tq": "Match a scheme with its launch date and output figure.",
+   "sec": "Welfare scheme coverage - beneficiaries and expenditure"
+  }
+ ]
+}

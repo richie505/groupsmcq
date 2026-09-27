@@ -1,0 +1,272 @@
+{
+ "book": 5,
+ "row": 9,
+ "chunk": 1,
+ "section": "Prominent Indian scientists - C.V. Raman, J.C. Bose, S.N. Bose, Ramanujan, Meghnad Saha, Homi Bhabha",
+ "subsections": [
+  "Awards and honours - Nobel, Bharat Ratna, FRS, Padma",
+  "S.N. Bose - statistics and particle class, collaborator",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 18,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly describes the honours received by C. V. Raman?",
+   "o": [
+    "Nobel Prize in 1930, Bharat Ratna in 1954 and knighthood in 1929",
+    "Nobel Prize in 1954, Bharat Ratna in 1929 and knighthood in 1930",
+    "Nobel Prize in 1929, Bharat Ratna in 1930 and knighthood in 1954",
+    "FRS in 1930, Padma Bhushan in 1954 and knighthood in 1929"
+   ],
+   "a": 0,
+   "x": "C. V. Raman received the Nobel Prize in 1930, was awarded the Bharat Ratna in 1954 and was knighted in 1929.",
+   "ty": "fact",
+   "tq": "Use the exact year-and-honour combination to avoid swapped-date traps.",
+   "sec": "Awards and honours - Nobel, Bharat Ratna, FRS, Padma  [other exams]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. J. C. Bose — Knighthood in 1917 and FRS in 1920\n2. Srinivasa Ramanujan — FRS in 1918\n3. Meghnad Saha — FRS in 1927\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correctly matched. J. C. Bose was knighted in 1917 and became an FRS in 1920; Ramanujan and Meghnad Saha became FRS in 1918 and 1927 respectively.",
+   "ty": "statements",
+   "tq": "Check each person against the associated honour and year before selecting the combined code.",
+   "sec": "Awards and honours - Nobel, Bharat Ratna, FRS, Padma  [other exams]"
+  },
+  {
+   "s": "With reference to Homi Bhabha and S. N. Bose, consider the following statements:\n1. Homi Bhabha became an FRS in 1941.\n2. Homi Bhabha received the Padma Bhushan in 1954.\n3. S. N. Bose received the Padma Vibhushan in 1954.\n4. S. N. Bose became an FRS in 1958.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Bhabha received the FRS in 1941 and Padma Bhushan in 1954, while S. N. Bose received Padma Vibhushan in 1954 and FRS in 1958.",
+   "ty": "statements",
+   "tq": "Treat a multi-person honour list as separate statements and verify every year.",
+   "sec": "Awards and honours - Nobel, Bharat Ratna, FRS, Padma  [other exams]"
+  },
+  {
+   "s": "S. N. Bose sent his paper entitled “Planck’s Law and the Hypothesis of Light Quanta” to which scientist?",
+   "o": [
+    "V. Raman",
+    "Meghnad Saha",
+    "Paul Dirac",
+    "Albert Einstein"
+   ],
+   "a": 3,
+   "x": "S. N. Bose sent the paper to Albert Einstein, who translated it into German and arranged its publication.",
+   "ty": "fact",
+   "tq": "Identify the collaborator directly associated with the named paper.",
+   "sec": "S.N. Bose - statistics and particle class, collaborator"
+  },
+  {
+   "s": "The paper “Planck’s Law and the Hypothesis of Light Quanta” was originally associated with which of the following contexts?",
+   "o": [
+    "A lecture at Dhaka University",
+    "A research project at the Indian Institute of Science",
+    "A report prepared for NASA experiments",
+    "A lecture at the University of Cambridge"
+   ],
+   "a": 0,
+   "x": "The paper originated from an S. N. Bose lecture at Dhaka University.",
+   "ty": "fact",
+   "tq": "Distinguish the original institutional context from the later collaborator and publication details.",
+   "sec": "S.N. Bose - statistics and particle class, collaborator"
+  },
+  {
+   "s": "Which one of the following sequences correctly represents the major stages in the publication history of S. N. Bose’s paper?",
+   "o": [
+    "Sent to Einstein → translated into German → published in Zeitschrift fur Physik",
+    "Published in Zeitschrift fur Physik → sent to Einstein → translated into German",
+    "Translated into German → published in Zeitschrift fur Physik → sent to Einstein",
+    "Sent to Einstein → published in English → translated into German by Paul Dirac"
+   ],
+   "a": 0,
+   "x": "Bose sent the paper to Einstein; Einstein translated it into German, after which it was published in Zeitschrift fur Physik in 1924.",
+   "ty": "chronology",
+   "tq": "Follow the first-to-last sequence rather than matching isolated details.",
+   "sec": "S.N. Bose - statistics and particle class, collaborator"
+  },
+  {
+   "s": "Bose–Einstein statistics is associated with the work of which scientist?",
+   "o": [
+    "S. N. Bose",
+    "J. C. Bose",
+    "Homi Bhabha",
+    "Meghnad Saha"
+   ],
+   "a": 0,
+   "x": "Bose–Einstein statistics emerged from S. N. Bose’s work on the statistical treatment of light quanta.",
+   "ty": "fact",
+   "tq": "Use the scientist’s name embedded in the technical term while distinguishing J. C. Bose from S. N. Bose.",
+   "sec": "S.N. Bose - statistics and particle class, collaborator"
+  },
+  {
+   "s": "The term “bosons” was named after S. N. Bose by which scientist?",
+   "o": [
+    "Paul Dirac",
+    "Rabindranath Tagore",
+    "Albert Einstein",
+    "V. Raman"
+   ],
+   "a": 0,
+   "x": "Paul Dirac named the class of particles called bosons after S. N. Bose.",
+   "ty": "fact",
+   "tq": "Apply the who-named-what pattern without confusing the collaborator Einstein with the namer Dirac.",
+   "sec": "S.N. Bose - statistics and particle class, collaborator"
+  },
+  {
+   "s": "Rabindranath Tagore dedicated his only science book, *Visva-Parichay*, to:",
+   "o": [
+    "S. N. Bose",
+    "Meghnad Saha",
+    "V. Raman",
+    "J. C. Bose"
+   ],
+   "a": 0,
+   "x": "Rabindranath Tagore dedicated *Visva-Parichay*, published in 1937, to S. N. Bose.",
+   "ty": "fact",
+   "tq": "Link the literary work, its year and its dedicatee rather than its scientific subject.",
+   "sec": "S.N. Bose - statistics and particle class, collaborator"
+  },
+  {
+   "s": "Consider the following statements regarding Bose–Einstein Condensate:\n1. It is described as the fifth state of matter.\n2. It has been observed in space through NASA experiments on the International Space Station.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "x": "Both statements are correct. Bose–Einstein Condensate is described as the fifth state of matter, and NASA experiments on the ISS observed it in space.",
+   "ty": "statements",
+   "tq": "Combine the definition and application statements, checking whether both parts belong to the same concept.",
+   "sec": "S.N. Bose - statistics and particle class, collaborator"
+  },
+  {
+   "s": "The Indian Association for the Cultivation of Science (IACS), Kolkata, was founded in 1876 by:",
+   "o": [
+    "Homi Bhabha",
+    "Mahendra Lal Sircar",
+    "S. N. Bose",
+    "Meghnad Saha"
+   ],
+   "a": 1,
+   "x": "IACS was founded in Kolkata in 1876 by Mahendra Lal Sircar.",
+   "ty": "fact",
+   "tq": "Match the institution with its founder and founding year.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following best describes the Indian Association for the Cultivation of Science?",
+   "o": [
+    "A university founded by Tagore for literary and scientific studies",
+    "A nuclear research centre established by Homi Bhabha and funded exclusively by the Union Government",
+    "The oldest institute for basic research, funded by the Department of Science and Technology and the Government of West Bengal",
+    "The oldest Indian space agency, funded exclusively by NASA"
+   ],
+   "a": 2,
+   "x": "IACS is described as the oldest institute for basic research and is funded by the Department of Science and Technology and the Government of West Bengal.",
+   "ty": "comparison",
+   "tq": "Separate the institution’s function and funding bodies from nearby scientific institutions and organisations.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The 150th anniversary of the Indian Association for the Cultivation of Science was celebrated in:",
+   "o": [
+    "2024",
+    "2025",
+    "2026",
+    "2027"
+   ],
+   "a": 2,
+   "x": "Since IACS was founded in 1876, its 150th anniversary was celebrated in 2026.",
+   "ty": "numerical",
+   "tq": "Calculate the anniversary from the founding year and reject adjacent-year distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following groups of scientists is associated with work at the Indian Association for the Cultivation of Science?",
+   "o": [
+    "V. Raman, Homi Bhabha, Tagore and Mahendra Lal Sircar only",
+    "Homi Bhabha, Albert Einstein, Paul Dirac and Ramanujan",
+    "J. C. Bose, Meghnad Saha, S. N. Bose and C. V. Raman",
+    "Ramanujan, Einstein, Saha and NASA scientists only"
+   ],
+   "a": 2,
+   "x": "J. C. Bose, Meghnad Saha, S. N. Bose and C. V. Raman all worked at IACS.",
+   "ty": "fact",
+   "tq": "Identify the complete institutional association instead of selecting a partly overlapping group.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The term “Matilda effect” refers to:",
+   "o": [
+    "The condensation of particles into the fifth state of matter",
+    "The translation of a scientific paper from English into German",
+    "The systematic omission or under-recognition of women scientists from public memory",
+    "The award of the FRS to scientists from the Commonwealth"
+   ],
+   "a": 2,
+   "x": "The Matilda effect denotes the exclusion or under-recognition of women scientists in the historical public record.",
+   "ty": "fact",
+   "tq": "Use the definition of the named concept and eliminate scientifically related but unrelated alternatives.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which pair of scientists is specifically cited in connection with the public-memory criticism represented by the Matilda effect?",
+   "o": [
+    "Srinivasa Ramanujan and J. C. Bose",
+    "Janaki Ammal and Anna Mani",
+    "Homi Bhabha and Meghnad Saha",
+    "V. Raman and S. N. Bose"
+   ],
+   "a": 1,
+   "x": "Janaki Ammal and Anna Mani are cited as women scientists who were left out of public memory.",
+   "ty": "fact",
+   "tq": "Discriminate between the named women scientists and the prominent male scientists in the same topic.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which organisation’s India@75 series was associated with efforts to revive the public memory of women scientists such as Janaki Ammal and Anna Mani?",
+   "o": [
+    "Department of Space",
+    "National Book Trust, India",
+    "International Astronomical Union",
+    "Indian Association for the Cultivation of Science"
+   ],
+   "a": 1,
+   "x": "The National Book Trust, India, through its India@75 series, helped revive public recognition of these women scientists.",
+   "ty": "fact",
+   "tq": "Identify the responsible body rather than confusing it with a scientific institution or ministry.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Who was the first Asian recipient of a Nobel Prize in a science discipline?",
+   "o": [
+    "Homi Bhabha",
+    "S. N. Bose",
+    "Meghnad Saha",
+    "V. Raman"
+   ],
+   "a": 3,
+   "x": "C. V. Raman became the first Asian recipient of a Nobel Prize in a science discipline when he received the Physics Nobel in 1930.",
+   "ty": "fact",
+   "tq": "Use the first-in-region distinction, not merely the general Nobel-recipient fact.",
+   "sec": "Universal angles"
+  }
+ ]
+}

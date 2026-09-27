@@ -1,0 +1,327 @@
+{
+ "book": 5,
+ "row": 29,
+ "chunk": 0,
+ "section": "Cyber security concerns - types of cyber crime, malware, ransomware, phishing, social engineering",
+ "subsections": [
+  "Malware types → mechanism (virus, worm, trojan, ransomware, spyware, adware, rootkit, keylogger, botnet)",
+  "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 23,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly describes the mode of operation of a computer virus?",
+   "o": [
+    "It automatically spreads across networks without any user interaction",
+    "It attaches itself to files or programmes and generally requires the user to execute the infected file",
+    "It disguises itself as legitimate software and never modifies files",
+    "It records every keystroke without attaching to any file"
+   ],
+   "a": 1,
+   "x": "A virus attaches to files or programmes and usually requires the user to execute the infected file. It may corrupt or delete data.",
+   "ty": "fact",
+   "tq": "Distinguish malware by its precise mechanism rather than by its general harmful effect.",
+   "sec": "Malware types → mechanism (virus, worm, trojan, ransomware, spyware, adware, rootkit, keylogger, botnet)"
+  },
+  {
+   "s": "Consider the following statements about computer worms:\n1. They can self-replicate across networks.\n2. They require the user to execute an infected file before spreading.\n3. They may consume network bandwidth.\n4. They are regarded as the fastest-spreading type of malware.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 3 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 3 and 4 are correct. Statement 2 describes a typical virus; a worm spreads automatically without user interaction.",
+   "ty": "statements",
+   "tq": "Separate the closely related virus and worm mechanisms by checking the user-interaction condition.",
+   "sec": "Malware types → mechanism (virus, worm, trojan, ransomware, spyware, adware, rootkit, keylogger, botnet)"
+  },
+  {
+   "s": "A malicious programme is disguised as legitimate software, does not self-replicate and opens a backdoor into a system. It is best classified as a:",
+   "o": [
+    "Virus",
+    "Rootkit",
+    "Worm",
+    "Trojan"
+   ],
+   "a": 3,
+   "x": "A Trojan is disguised as legitimate software, does not self-replicate and may open a backdoor for unauthorised access.",
+   "ty": "application",
+   "tq": "Apply the three-part distinction of disguise, self-replication and backdoor access.",
+   "sec": "Malware types → mechanism (virus, worm, trojan, ransomware, spyware, adware, rootkit, keylogger, botnet)"
+  },
+  {
+   "s": "The AIIMS Delhi cyber incident of 2022 is associated with which type of malware?",
+   "o": [
+    "Adware",
+    "Keylogger",
+    "Botnet",
+    "Ransomware"
+   ],
+   "a": 3,
+   "x": "The AIIMS Delhi attack of 2022 is cited as an example of ransomware, which encrypts files or systems and demands payment for restoration.",
+   "ty": "fact",
+   "tq": "Use the named incident as the anchor for identifying the malware category.",
+   "sec": "Malware types → mechanism (virus, worm, trojan, ransomware, spyware, adware, rootkit, keylogger, botnet)"
+  },
+  {
+   "s": "Which one of the following best describes spyware?",
+   "o": [
+    "Software that secretly monitors users and steals passwords or banking data",
+    "Software that displays unwanted advertisements",
+    "A network of remotely controlled infected devices",
+    "Software that encrypts the master boot record and demands cryptocurrency"
+   ],
+   "a": 0,
+   "x": "Spyware performs secret surveillance and may steal passwords and banking information from the user.",
+   "ty": "fact",
+   "tq": "Discriminate malware by its primary objective instead of its method of entry.",
+   "sec": "Malware types → mechanism (virus, worm, trojan, ransomware, spyware, adware, rootkit, keylogger, botnet)"
+  },
+  {
+   "s": "Adware is most commonly associated with which of the following?",
+   "o": [
+    "Recording every keystroke entered by a user",
+    "Automatic replication through network connections",
+    "Hiding malware through administrator-level access",
+    "Unwanted advertisements bundled with free or pirated software"
+   ],
+   "a": 3,
+   "x": "Adware displays unwanted advertisements and is often bundled with free or pirated software.",
+   "ty": "fact",
+   "tq": "Match the malware name with its characteristic visible behaviour.",
+   "sec": "Malware types → mechanism (virus, worm, trojan, ransomware, spyware, adware, rootkit, keylogger, botnet)"
+  },
+  {
+   "s": "Which of the following is the principal feature of a rootkit?",
+   "o": [
+    "It spreads only through infected removable files",
+    "It sends repeated advertising messages to users",
+    "It demands ransom in cryptocurrency after encrypting files",
+    "It obtains administrator-level access and hides other malware"
+   ],
+   "a": 3,
+   "x": "A rootkit gains deep administrator-level access and conceals other malicious components, making it particularly difficult to detect.",
+   "ty": "fact",
+   "tq": "Identify the defining privilege and concealment feature of the malware.",
+   "sec": "Malware types → mechanism (virus, worm, trojan, ransomware, spyware, adware, rootkit, keylogger, botnet)"
+  },
+  {
+   "s": "A programme that records passwords, PINs, OTPs and card numbers by capturing every keystroke is known as a:",
+   "o": [
+    "Keylogger",
+    "Botnet",
+    "Rootkit",
+    "Worm"
+   ],
+   "a": 0,
+   "x": "A keylogger records every keystroke, including passwords, PINs, OTPs and card numbers.",
+   "ty": "fact",
+   "tq": "Use the direct functional clue—recording keystrokes—to identify the malware.",
+   "sec": "Malware types → mechanism (virus, worm, trojan, ransomware, spyware, adware, rootkit, keylogger, botnet)"
+  },
+  {
+   "s": "A botnet is best described as:",
+   "o": [
+    "A legitimate software package containing advertisements",
+    "A network of infected devices remotely controlled for activities such as DDoS attacks",
+    "A collection of encrypted files held for ransom",
+    "A virus that can operate only after a user opens an attachment"
+   ],
+   "a": 1,
+   "x": "A botnet consists of infected ‘zombie’ devices controlled remotely and may be used for DDoS attacks, spam or crypto-mining.",
+   "ty": "fact",
+   "tq": "Identify the network-level concept from the words ‘infected devices’ and ‘remote control’.",
+   "sec": "Malware types → mechanism (virus, worm, trojan, ransomware, spyware, adware, rootkit, keylogger, botnet)"
+  },
+  {
+   "s": "The Creeper programme, associated with the year 1971, was developed in connection with which network?",
+   "o": [
+    "Internet Relay Chat",
+    "The World Wide Web",
+    "ARPANET",
+    "Windows SMB"
+   ],
+   "a": 2,
+   "x": "Creeper appeared on ARPANET in 1971 and is recognised as the first self-replicating programme or virus. It was associated with Bob Thomas of BBN.",
+   "ty": "fact",
+   "tq": "Link the historical malware name with its year and network of origin.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  },
+  {
+   "s": "Which one of the following is correctly associated with Elk Cloner?",
+   "o": [
+    "A ransomware worm that used the EternalBlue exploit in 2017",
+    "The first virus in the wild, affecting Apple II computers in 1982",
+    "The first IBM-PC boot-sector virus, created in Lahore in 1986",
+    "A worm that sabotaged uranium centrifuges in Iran"
+   ],
+   "a": 1,
+   "x": "Elk Cloner, created by Rich Skrenta, is regarded as the first virus in the wild and affected Apple II computers in 1982.",
+   "ty": "fact",
+   "tq": "Use the platform and historical status together to distinguish early named viruses.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  },
+  {
+   "s": "With reference to the Brain virus, consider the following statements:\n1. It was an IBM-PC boot-sector virus.\n2. It was associated with MS-DOS.\n3. It originated in Lahore, Pakistan.\n4. It was created in 1971 on ARPANET.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Brain was the first IBM-PC MS-DOS boot-sector virus and was created by the Alvi brothers in Lahore, Pakistan, in 1986. Statement 4 refers to Creeper.",
+   "ty": "statements",
+   "tq": "Use platform, operating system and place to separate Brain from other early viruses.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  },
+  {
+   "s": "WannaCry is best described as:",
+   "o": [
+    "A ransomware worm that spread by exploiting EternalBlue",
+    "A spyware programme developed by NSO Group",
+    "A botnet that hijacked Internet of Things devices",
+    "An Android vulnerability discovered by Promon"
+   ],
+   "a": 0,
+   "x": "WannaCry was a ransomware worm that spread through the EternalBlue exploit in 2017. It has also been attributed to the Lazarus group of North Korea.",
+   "ty": "fact",
+   "tq": "Combine the malware type with the named exploit to identify the correct attack.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  },
+  {
+   "s": "Which of the following statements regarding Petya is correct?",
+   "o": [
+    "It is a botnet made up of hijacked IoT devices.",
+    "It is a spyware programme requiring no user interaction.",
+    "It is an adware programme bundled with pirated software.",
+    "It is a ransomware that encrypts disk boot records."
+   ],
+   "a": 3,
+   "x": "Petya is ransomware that encrypts the master boot record or disk boot records. NotPetya, its later variant, notably affected Ukraine in 2017.",
+   "ty": "fact",
+   "tq": "Distinguish a named ransomware by the specific system component it encrypts.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  },
+  {
+   "s": "EternalBlue refers to which of the following?",
+   "o": [
+    "A rootkit component of Stuxnet",
+    "An exploit of a Windows SMB vulnerability",
+    "A surveillance tool developed by NSO Group",
+    "An Android vulnerability found by Promon"
+   ],
+   "a": 1,
+   "x": "EternalBlue exploited a flaw in Windows SMB. It was developed by the United States NSA and leaked by the Shadow Brokers in 2017.",
+   "ty": "fact",
+   "tq": "Distinguish an exploit from the malware that used it and from the organisation associated with spyware.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  },
+  {
+   "s": "Stuxnet was notable primarily because it:",
+   "o": [
+    "Hijacked IoT devices to conduct DDoS attacks",
+    "Encrypted files on the computers of AIIMS Delhi",
+    "Targeted Iran’s Natanz uranium centrifuges using a worm with rootkit components",
+    "Affected Apple II computers as the first virus in the wild"
+   ],
+   "a": 2,
+   "x": "Stuxnet was a worm containing rootkit components that sabotaged Siemens PLC-controlled uranium centrifuges at Iran’s Natanz facility.",
+   "ty": "application",
+   "tq": "Connect the named malware with its distinctive target and industrial-control context.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  },
+  {
+   "s": "Which one of the following correctly describes Pegasus?",
+   "o": [
+    "An Android vulnerability discovered by a Norwegian firm",
+    "A boot-sector virus created in Lahore",
+    "A ransomware worm developed by the United States NSA",
+    "A zero-click spyware associated with NSO Group of Israel"
+   ],
+   "a": 3,
+   "x": "Pegasus is state-grade zero-click spyware associated with Israel’s NSO Group and can exploit zero-days without requiring user interaction.",
+   "ty": "fact",
+   "tq": "Separate spyware identity, developer and zero-click capability from other named threats.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  },
+  {
+   "s": "StrandHogg is associated with which of the following?",
+   "o": [
+    "An Android vulnerability that allows malware to pose as genuine applications",
+    "A Windows SMB exploit leaked by the Shadow Brokers",
+    "A worm targeting Siemens industrial controllers",
+    "A ransomware programme that encrypts master boot records"
+   ],
+   "a": 0,
+   "x": "StrandHogg is an Android vulnerability that allows malware to impersonate genuine applications and steal user data. It was found by the Norwegian firm Promon in 2019.",
+   "ty": "fact",
+   "tq": "Use the operating system and impersonation behaviour to identify the vulnerability.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  },
+  {
+   "s": "Mirai is correctly matched with which of the following?",
+   "o": [
+    "Botnet — hijacked Internet of Things devices used for massive DDoS attacks",
+    "Trojan — disguised software opening a backdoor",
+    "Keylogger — recording passwords and OTPs",
+    "Adware — displaying advertisements through pirated software"
+   ],
+   "a": 0,
+   "x": "Mirai is a botnet that hijacked IoT devices and used them to launch large-scale DDoS attacks.",
+   "ty": "match",
+   "tq": "Match the named malware with its distinctive device class and attack method.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. Appearance of Creeper on ARPANET\nB. Appearance of Brain virus\nC. Appearance of Stuxnet\nD. Appearance of WannaCry\nWhich one of the following is the correct sequence?",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "C, A, B, D"
+   ],
+   "a": 0,
+   "x": "Creeper appeared in 1971, Brain in 1986, Stuxnet in 2010 and WannaCry in 2017. Therefore, the sequence is A, B, C, D.",
+   "ty": "chronology",
+   "tq": "Place the earliest and latest events first, then order the middle events by year.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  },
+  {
+   "s": "Consider the following statements:\n1. In 2016, a breach involving 3.2 million debit cards was reported.\n2. Zomato suffered a data theft incident in 2017.\n3. NotPetya notably affected Ukraine in 2017.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the 2016 breach involved 3.2 million debit cards, Zomato faced data theft in 2017, and NotPetya affected Ukraine in 2017.",
+   "ty": "statements",
+   "tq": "Check each dated incident independently before selecting the coded combination.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  },
+  {
+   "s": "Which of the following was flagged by CERT-In in 2014 as a Trojan or related cyber-security threat?",
+   "o": [
+    "Hikti",
+    "Mirai",
+    "Creeper",
+    "Elk Cloner"
+   ],
+   "a": 0,
+   "x": "CERT-In flagged Hikti, Dyreza Trojan and Shellshock in 2014. The other options are associated with different malware histories.",
+   "ty": "negative",
+   "tq": "Identify the correct item from a specific agency-and-year association.",
+   "sec": "Named malware and attacks → type + origin (Creeper, Brain, Elk Cloner, WannaCry, Petya, EternalBlue, Stuxnet, Pegasus, StrandHogg), FIRST virus"
+  }
+ ]
+}

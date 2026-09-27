@@ -1,0 +1,303 @@
+{
+ "book": 3,
+ "row": 132,
+ "chunk": 2,
+ "section": "AP Socio-Economic Survey - key indicators of the latest edition",
+ "subsections": [
+  "Socio-economic status - awards, national index ranks",
+  "Rythu Bharosa Kendras / Rythu Seva Kendralu - number and services",
+  "Demographic indicators (Census 2011 base)",
+  "Agriculture indicators - area, production, ranks",
+  "Survey theme and new chapters",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 25,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 5,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which institution conferred the Best State Award on Andhra Pradesh for export promotion?",
+   "o": [
+    "National Horticulture Board",
+    "Agricultural and Processed Food Products Export Development Authority",
+    "Indian Institute of Horticultural Research",
+    "Indian Council of Agricultural Research–National Research Centre for Banana"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh received the Best State Award of the ICAR–National Research Centre for Banana for export promotion.",
+   "ty": "fact",
+   "tq": "Identify the institution associated with the specific award.",
+   "sec": "Socio-economic status - awards, national index ranks"
+  },
+  {
+   "s": "Consider the following statements regarding Andhra Pradesh and national development indices:\n1. Andhra Pradesh was ranked 17th in the NITI Fiscal Health Index 2023-24.\n2. The nominal GSDP of Andhra Pradesh tripled in a decade.\n3. Andhra Pradesh ranked first in the NITI Fiscal Health Index 2023-24.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh was ranked 17th in the NITI Fiscal Health Index 2023-24, and its nominal GSDP tripled over a decade. The first rank statement is incorrect.",
+   "ty": "statements",
+   "tq": "Split the statements using the stated rank and reject the reversed comparison.",
+   "sec": "Socio-economic status - awards, national index ranks"
+  },
+  {
+   "s": "Under SDG 8 indicators for Andhra Pradesh in the SDG India Index 2023-24, which of the following combinations is correctly matched?",
+   "o": [
+    "Bank/post office accounts—95.8%; women PMJDY holders—57.35%",
+    "Bank/post office accounts—67.3%; women PMJDY holders—4.4%",
+    "Unemployment—95.8%; LFPR—57.35%",
+    "Women PMJDY holders—4.4%; unemployment—67.3%"
+   ],
+   "a": 0,
+   "x": "The reported SDG 8 figures include 95.8% for bank or post office accounts and 57.35% for women PMJDY holders.",
+   "ty": "match",
+   "tq": "Start from the sure numerical pair and eliminate swapped indicators.",
+   "sec": "Socio-economic status - awards, national index ranks"
+  },
+  {
+   "s": "Which one of the following correctly states the unemployment rate and labour force participation rate of Andhra Pradesh under the SDG India Index 2023-24 indicators mentioned for SDG 8?",
+   "o": [
+    "Unemployment 67.3% and LFPR 4.4%",
+    "Unemployment 57.35% and LFPR 95.8%",
+    "Unemployment 4.4% and LFPR 67.3%",
+    "Unemployment 4.4% and LFPR 57.35%"
+   ],
+   "a": 2,
+   "x": "The stated values are 4.4% for unemployment and 67.3% for the labour force participation rate.",
+   "ty": "confusable",
+   "tq": "Discriminate between closely placed percentage indicators rather than reversing their meanings.",
+   "sec": "Socio-economic status - awards, national index ranks"
+  },
+  {
+   "s": "As per Census 2011-based indicators, Andhra Pradesh accounted for what percentage of India’s population and held which rank on this measure?",
+   "o": [
+    "10.00% and 4th",
+    "4.09% and 10th",
+    "8.00% and 10th",
+    "4.09% and 8th"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh accounted for 4.09% of India’s population and was ranked 10th on this indicator.",
+   "ty": "numerical",
+   "tq": "Keep the percentage and rank as a linked pair.",
+   "sec": "Demographic indicators (Census 2011 base)"
+  },
+  {
+   "s": "Which one of the following correctly represents the area and population density of Andhra Pradesh according to the Census 2011-based indicators?",
+   "o": [
+    "1,47,000 sq km and 382 persons per sq km",
+    "1,62,970 sq km and 382 persons per sq km",
+    "1,62,970 sq km and 304 persons per sq km",
+    "1,47,000 sq km and 304 persons per sq km"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh had an area of 1,62,970 sq km and a population density of 304 persons per sq km. The figure 382 is the India-level density.",
+   "ty": "comparison",
+   "tq": "Separate the State figure from the corresponding India figure.",
+   "sec": "Demographic indicators (Census 2011 base)"
+  },
+  {
+   "s": "Consider the following statements about demographic indicators of Andhra Pradesh:\n1. Krishna district recorded the highest population density at 518 persons per sq km.\n2. The sex ratio of Andhra Pradesh was 997, compared with 943 for India.\n3. The literacy rate of Andhra Pradesh was higher than the national literacy rate.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Krishna had the highest density at 518, and the State and India sex ratios were 997 and 943. Statement 3 is false because Andhra Pradesh literacy was 67.35%, below India’s 72.98%.",
+   "ty": "statements",
+   "tq": "Use the reversed-comparison trap in the literacy statement.",
+   "sec": "Demographic indicators (Census 2011 base)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched in respect of urbanisation and the number of districts in Andhra Pradesh?",
+   "o": [
+    "Urbanisation 29.47%; 26 districts",
+    "Urbanisation 47.45%; 26 districts",
+    "Urbanisation 29.47%; 30 districts",
+    "Urbanisation 67.35%; 26 districts"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh had an urbanisation level of 29.47% and 26 districts. The 47.45% figure relates to Visakhapatnam’s urbanisation.",
+   "ty": "match",
+   "tq": "Distinguish the State-level value from the district-level value.",
+   "sec": "Demographic indicators (Census 2011 base)"
+  },
+  {
+   "s": "The urbanisation level of Visakhapatnam, as reported among the demographic indicators of Andhra Pradesh, was:",
+   "o": [
+    "29.47%",
+    "47.45%",
+    "67.35%",
+    "72.98%"
+   ],
+   "a": 1,
+   "x": "Visakhapatnam recorded an urbanisation level of 47.45%, while the corresponding Andhra Pradesh figure was 29.47%.",
+   "ty": "fact",
+   "tq": "Identify the district-specific figure rather than the State aggregate.",
+   "sec": "Demographic indicators (Census 2011 base)"
+  },
+  {
+   "s": "Which of the following statements about Andhra Pradesh’s geographical and administrative indicators is correct?",
+   "o": [
+    "The State has 30 districts and a coastline of 974 km; the CDI describes it as having the third-longest coastline.",
+    "The State has 26 districts and a coastline of 974 km; the CDI describes it as having the second-longest coastline.",
+    "The State has 26 districts and a coastline of 974 km; the CDI describes it as having the third-longest coastline.",
+    "The State has 26 districts and a coastline of 1,024 km; the CDI describes it as having the third-longest coastline."
+   ],
+   "a": 2,
+   "x": "The stated figures are 26 districts and a 974 km coastline. The CDI calls it the third-longest coastline, although older material described it as second-longest.",
+   "ty": "fact",
+   "tq": "Use the source-qualified wording when competing rank descriptions exist.",
+   "sec": "Demographic indicators (Census 2011 base)"
+  },
+  {
+   "s": "Which of the following correctly describes horticulture in Andhra Pradesh during 2023-24 on the basis of final estimates?",
+   "o": [
+    "19.89 lakh acres and 200.66 lakh metric tonnes",
+    "19.89 lakh acres and 365.92 lakh metric tonnes",
+    "45.59 lakh acres and 365.92 lakh metric tonnes",
+    "45.59 lakh acres and 200.66 lakh metric tonnes"
+   ],
+   "a": 2,
+   "x": "Total horticulture covered 45.59 lakh acres and produced 365.92 lakh metric tonnes in 2023-24. The figures 19.89 lakh acres and 200.66 lakh metric tonnes relate specifically to fruits.",
+   "ty": "comparison",
+   "tq": "Match the total horticulture figures before separating the fruit subcategory.",
+   "sec": "Agriculture indicators - area, production, ranks"
+  },
+  {
+   "s": "With reference to fruit production in Andhra Pradesh during 2023-24, which one of the following is correct?",
+   "o": [
+    "45.59 lakh acres and 200.66 lakh metric tonnes",
+    "45.59 lakh acres and 365.92 lakh metric tonnes",
+    "19.89 lakh acres and 200.66 lakh metric tonnes",
+    "19.89 lakh acres and 365.92 lakh metric tonnes"
+   ],
+   "a": 2,
+   "x": "Fruits occupied 19.89 lakh acres and recorded production of 200.66 lakh metric tonnes in 2023-24.",
+   "ty": "numerical",
+   "tq": "Distinguish the subcategory figures from the overall horticulture figures.",
+   "sec": "Agriculture indicators - area, production, ranks"
+  },
+  {
+   "s": "Consider the following statements regarding agriculture and allied-sector rankings of Andhra Pradesh in 2023-24:\n1. Andhra Pradesh ranked first in egg production.\n2. Andhra Pradesh ranked fifth in meat production.\n3. Andhra Pradesh ranked seventh in milk production.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Andhra Pradesh ranked first in eggs, fifth in meat and seventh in milk in 2023-24.",
+   "ty": "statements",
+   "tq": "Check each rank independently before choosing the all-inclusive combination.",
+   "sec": "Agriculture indicators - area, production, ranks"
+  },
+  {
+   "s": "Which chapter was included in the Andhra Pradesh Socio-Economic Survey 2024-25 for monitoring development performance?",
+   "o": [
+    "District Reorganisation - Administrative KPIs",
+    "Fiscal Consolidation - FRBM and Debt Management",
+    "Progress Monitoring - KPIs & SDGs",
+    "Agricultural Markets - MSP and Procurement"
+   ],
+   "a": 2,
+   "x": "The Socio-Economic Survey 2024-25 included a chapter titled “Progress Monitoring - KPIs & SDGs.”",
+   "ty": "fact",
+   "tq": "Identify the exact official chapter title.",
+   "sec": "Survey theme and new chapters"
+  },
+  {
+   "s": "In the Swarnandhra-Vision monitoring framework, the reference to five horticulture KPIs indicates that the framework primarily emphasises:",
+   "o": [
+    "Replacing all agricultural indicators with a single horticulture index",
+    "Measuring only the State’s fiscal deficit",
+    "Monitoring selected performance indicators for horticulture",
+    "Assessing only urbanisation in horticultural districts"
+   ],
+   "a": 2,
+   "x": "The Swarnandhra-Vision framework includes KPIs, including five horticulture KPIs, to monitor progress in identified areas.",
+   "ty": "application",
+   "tq": "Translate the KPI example into its practical monitoring purpose.",
+   "sec": "Survey theme and new chapters"
+  },
+  {
+   "s": "Consider the following statements regarding the monitoring architecture associated with Swarna Andhra @2047:\n1. Monthly Economic Reports are part of the monitoring framework.\n2. The framework contains 651 KPIs.\n3. These KPIs cover 30 departments.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Monthly Economic Reports, 651 KPIs and coverage of 30 departments are all associated with the stated monitoring framework.",
+   "ty": "statements",
+   "tq": "Combine the monitoring instrument, numerical count and administrative coverage.",
+   "sec": "Survey theme and new chapters"
+  },
+  {
+   "s": "The revenue-deficit estimate of about ₹48,000 crore for Andhra Pradesh in 2025-26 was associated with which development?",
+   "o": [
+    "The removal of all central tax devolution to Andhra Pradesh",
+    "The introduction of revenue-deficit grants by the Sixteenth Finance Commission",
+    "The end of revenue-deficit grants by the Sixteenth Finance Commission",
+    "The replacement of the Finance Commission by NITI Aayog"
+   ],
+   "a": 2,
+   "x": "The Finance Minister linked the widening revenue deficit to about ₹48,000 crore with the Sixteenth Finance Commission ending revenue-deficit grants.",
+   "ty": "fact",
+   "tq": "Match the fiscal consequence with the responsible institutional change.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes the two reported revenue-deficit figures for Andhra Pradesh for 2025-26?",
+   "o": [
+    "The Finance Minister cited ₹41,118 crore, whereas SES 2025-26 RE placed it at about ₹48,000 crore.",
+    "The Finance Minister cited about ₹48,000 crore, whereas SES 2025-26 RE placed it at ₹41,118 crore.",
+    "Both the Finance Minister and SES 2025-26 RE placed it at exactly ₹48,000 crore.",
+    "Both the Finance Minister and SES 2025-26 RE placed it at exactly ₹41,118 crore."
+   ],
+   "a": 1,
+   "x": "The Finance Minister’s statement referred to about ₹48,000 crore, while the Revised Estimate in SES 2025-26 placed the deficit at ₹41,118 crore.",
+   "ty": "comparison",
+   "tq": "Preserve the source attribution while comparing two similar numerical estimates.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Under Swarna Andhra @2047, which set of places represents the three economic regions of Andhra Pradesh?",
+   "o": [
+    "Visakhapatnam, Amaravati and Tirupati",
+    "Vijayawada, Kurnool and Nellore",
+    "Visakhapatnam, Guntur and Kadapa",
+    "Amaravati, Rajamahendravaram and Anantapur"
+   ],
+   "a": 0,
+   "x": "The three economic regions identified under Swarna Andhra @2047 are Visakhapatnam, Amaravati and Tirupati.",
+   "ty": "match",
+   "tq": "Recognise the complete named list without substituting nearby regional centres.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Socio-Economic Survey 2025-26 was not tabled in the 2026 Budget session.\n2. India’s national GDP series moved to the base year 2022-23.\n3. The 2023-24 agricultural growth estimate for Andhra Pradesh changed from +1.69% in AE to -1.58% in FRE.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: SES 2025-26 was not tabled in the 2026 Budget session, the GDP base year moved to 2022-23, and the agriculture estimate changed from +1.69% AE to -1.58% FRE.",
+   "ty": "statements",
+   "tq": "Check the separate current-affairs developments and the reversal in the revised estimate.",
+   "sec": "Universal angles"
+  }
+ ]
+}

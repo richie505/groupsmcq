@@ -1,0 +1,412 @@
+{
+ "book": 5,
+ "row": 41,
+ "chunk": 1,
+ "section": "Space science missions - Chandrayaan-1, 2 and 3; Mangalyaan; AstroSat; Aditya-L1; XPoSat",
+ "subsections": [
+  "Aditya-L1 - L1 point, payloads, dates",
+  "AstroSat and XPoSat - bands, partner, payloads, FIRST",
+  "Upcoming Indian missions → target + partner"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 32,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Aditya-L1 is placed in a halo orbit around which of the following points?",
+   "o": [
+    "Sun-Earth L1 point",
+    "Earth-Moon L2 point",
+    "Earth-Moon L1 point",
+    "Sun-Earth L2 point"
+   ],
+   "a": 0,
+   "x": "Aditya-L1 is placed in a halo orbit around the Sun-Earth L1 point.",
+   "ty": "fact",
+   "tq": "Use the mission-target association to distinguish L1 from L2 and Earth-Moon points.",
+   "sec": "Aditya-L1 - L1 point, payloads, dates"
+  },
+  {
+   "s": "The approximate distance of the Sun-Earth L1 point from Earth, where Aditya-L1 operates, is",
+   "o": [
+    "15 lakh km",
+    "1.5 lakh km",
+    "15 crore km",
+    "1.5 crore km"
+   ],
+   "a": 0,
+   "x": "The Sun-Earth L1 point is approximately 1.5 million km, or 15 lakh km, from Earth.",
+   "ty": "numerical",
+   "tq": "Convert the stated distance into Indian numerical notation before selecting the answer.",
+   "sec": "Aditya-L1 - L1 point, payloads, dates"
+  },
+  {
+   "s": "Aditya-L1 reached its halo orbit around the Sun-Earth L1 point on",
+   "o": [
+    "6 January 2024",
+    "25 January 2024",
+    "1 January 2024",
+    "2 September 2023"
+   ],
+   "a": 0,
+   "x": "Aditya-L1 was inserted into its halo orbit on 6 January 2024. Its launch date was 2 September 2023.",
+   "ty": "fact",
+   "tq": "Apply the date-separation trap by distinguishing launch from orbit insertion.",
+   "sec": "Aditya-L1 - L1 point, payloads, dates"
+  },
+  {
+   "s": "Consider the following statements regarding the payload classification of Aditya-L1:\n1. It carries four remote-sensing payloads.\n2. It carries three in-situ payloads.\n3. It carries seven scientific payloads in total.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Aditya-L1 carries seven payloads: four remote-sensing payloads and three in-situ payloads.",
+   "ty": "statements",
+   "tq": "Split the total into its two component categories and check their sum.",
+   "sec": "Aditya-L1 - L1 point, payloads, dates"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "VELC — Corona imaging and spectroscopy",
+    "SUIT — Solar-wind electrons and heavier ions",
+    "ASPEX — Magnetic-field measurements",
+    "HEL1OS — Photosphere and chromosphere imaging"
+   ],
+   "a": 0,
+   "x": "VELC studies the solar corona through imaging and spectroscopy. SUIT studies the photosphere and chromosphere, ASPEX studies solar-wind protons and heavier ions, and HEL1OS is a hard X-ray spectrometer.",
+   "ty": "match",
+   "tq": "Start with the payload whose study area is most directly associated with its name and function.",
+   "sec": "Aditya-L1 - L1 point, payloads, dates"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below:\nList-I (Payload)\nA. SUIT\nB. SoLEXS\nC. HEL1OS\nD. Magnetometer\n\nList-II (Function)\n1. Soft X-ray spectroscopy\n2. Magnetic-field measurement\n3. Near-ultraviolet imaging of the solar disc\n4. Hard X-ray spectroscopy",
+   "o": [
+    "A-3, B-1, C-4, D-2",
+    "A-1, B-3, C-2, D-4",
+    "A-4, B-2, C-3, D-1",
+    "A-2, B-4, C-1, D-3"
+   ],
+   "a": 0,
+   "x": "SUIT performs near-ultraviolet imaging, SoLEXS performs soft X-ray spectroscopy, HEL1OS performs hard X-ray spectroscopy, and the Magnetometer measures the magnetic field.",
+   "ty": "match",
+   "tq": "Begin with the sure X-ray pair and then eliminate codes with reversed payload functions.",
+   "sec": "Aditya-L1 - L1 point, payloads, dates"
+  },
+  {
+   "s": "Which of the following Aditya-L1 payloads was built by the Indian Institute of Astrophysics?",
+   "o": [
+    "ASPEX",
+    "SUIT",
+    "VELC",
+    "PAPA"
+   ],
+   "a": 2,
+   "x": "The Visible Emission Line Coronagraph (VELC) was built by the Indian Institute of Astrophysics.",
+   "ty": "fact",
+   "tq": "Test the institution–payload association rather than the scientific function alone.",
+   "sec": "Aditya-L1 - L1 point, payloads, dates"
+  },
+  {
+   "s": "SUIT, one of the remote-sensing payloads of Aditya-L1, was built by",
+   "o": [
+    "Raman Research Institute",
+    "Indian Institute of Astrophysics",
+    "U. R. Rao Space Centre",
+    "Inter-University Centre for Astronomy and Astrophysics"
+   ],
+   "a": 3,
+   "x": "SUIT was built by the Inter-University Centre for Astronomy and Astrophysics (IUCAA).",
+   "ty": "fact",
+   "tq": "Use the builder–payload pairing and reject institutions associated with other missions or payloads.",
+   "sec": "Aditya-L1 - L1 point, payloads, dates"
+  },
+  {
+   "s": "Which of the following correctly describes the in-situ payloads of Aditya-L1?",
+   "o": [
+    "ASPEX and PAPA study solar-wind particles, while the Magnetometer measures the magnetic field.",
+    "ASPEX and PAPA image the corona, while the Magnetometer measures ultraviolet radiation.",
+    "ASPEX studies soft X-rays, PAPA studies hard X-rays, and the Magnetometer images the photosphere.",
+    "All three are remote-sensing spectrometers."
+   ],
+   "a": 0,
+   "x": "ASPEX and PAPA investigate solar-wind particles, while the Magnetometer measures magnetic-field components.",
+   "ty": "application",
+   "tq": "Separate direct particle measurements from remote sensing and magnetic-field measurement.",
+   "sec": "Aditya-L1 - L1 point, payloads, dates"
+  },
+  {
+   "s": "During the 2025 solar maximum, VELC recorded the first-ever spectroscopic observations of coronal mass ejections in",
+   "o": [
+    "visible wavelengths",
+    "gamma-ray wavelengths",
+    "microwave wavelengths",
+    "radio wavelengths"
+   ],
+   "a": 0,
+   "x": "VELC recorded the first-ever spectroscopic observations of coronal mass ejections in visible wavelengths during the 2025 solar maximum.",
+   "ty": "fact",
+   "tq": "Focus on the exact wavelength rather than the general subject of solar observations.",
+   "sec": "Aditya-L1 - L1 point, payloads, dates"
+  },
+  {
+   "s": "The VELC observations of coronal mass ejections in visible wavelengths were associated with cooperation between the Indian Institute of Astrophysics and",
+   "o": [
+    "RRI",
+    "ESA",
+    "JAXA",
+    "NASA"
+   ],
+   "a": 3,
+   "x": "The visible-wavelength spectroscopic observations were made by the Indian Institute of Astrophysics in association with NASA.",
+   "ty": "fact",
+   "tq": "Distinguish the scientific collaborator from the institutions that built other payloads.",
+   "sec": "Aditya-L1 - L1 point, payloads, dates"
+  },
+  {
+   "s": "More than how much solar data from Aditya-L1 had been released?",
+   "o": [
+    "2.7 TB",
+    "27 TB",
+    "2,700 TB",
+    "270 TB"
+   ],
+   "a": 1,
+   "x": "More than 27 TB of solar data from Aditya-L1 had been released.",
+   "ty": "numerical",
+   "tq": "Check the order of magnitude carefully before selecting the figure.",
+   "sec": "Aditya-L1 - L1 point, payloads, dates"
+  },
+  {
+   "s": "AstroSat, launched in 2015 by PSLV-C30, is best described as",
+   "o": [
+    "India's first dedicated multi-wavelength space observatory",
+    "India's first lunar sample-return spacecraft",
+    "India's first X-ray polarimetry mission",
+    "India's first space-based solar observatory"
+   ],
+   "a": 0,
+   "x": "AstroSat is India's first dedicated multi-wavelength space observatory.",
+   "ty": "fact",
+   "tq": "Distinguish the first observatory claim of AstroSat from the solar and polarimetry missions.",
+   "sec": "AstroSat and XPoSat - bands, partner, payloads, FIRST"
+  },
+  {
+   "s": "Which of the following bands are observed by AstroSat?",
+   "o": [
+    "Only visible and ultraviolet bands",
+    "Only microwave and radio bands",
+    "Visible, ultraviolet and X-ray bands",
+    "Infrared, gamma-ray and radio bands"
+   ],
+   "a": 2,
+   "x": "AstroSat observes in the visible, ultraviolet and X-ray bands.",
+   "ty": "fact",
+   "tq": "Use the complete band combination instead of selecting a partial list.",
+   "sec": "AstroSat and XPoSat - bands, partner, payloads, FIRST"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below:\nList-I (AstroSat payload)\nA. UVIT\nB. LAXPC\nC. SXT\nD. CZTI\n\nList-II (Payload group)\n1. X-ray telescope\n2. Cadmium Zinc Telluride imager\n3. Ultraviolet imaging telescope\n4. Large Area X-ray Proportional Counter",
+   "o": [
+    "A-3, B-4, C-1, D-2",
+    "A-1, B-2, C-4, D-3",
+    "A-4, B-3, C-2, D-1",
+    "A-2, B-1, C-3, D-4"
+   ],
+   "a": 0,
+   "x": "UVIT is the Ultraviolet Imaging Telescope, LAXPC is the Large Area X-ray Proportional Counter, SXT is the X-ray Telescope, and CZTI is the Cadmium Zinc Telluride Imager.",
+   "ty": "match",
+   "tq": "Expand the payload abbreviations and match the distinctive instrument names first.",
+   "sec": "AstroSat and XPoSat - bands, partner, payloads, FIRST"
+  },
+  {
+   "s": "Which one of the following is NOT associated with the institutional partnership of AstroSat?",
+   "o": [
+    "TIFR",
+    "JAXA",
+    "IIA",
+    "IUCAA"
+   ],
+   "a": 1,
+   "x": "AstroSat involved IUCAA, TIFR, IIA and RRI. JAXA is not listed among its institutional partners.",
+   "ty": "negative",
+   "tq": "Find the one institution outside the stated multi-institution partnership.",
+   "sec": "AstroSat and XPoSat - bands, partner, payloads, FIRST"
+  },
+  {
+   "s": "XPoSat was launched on 1 January 2024 by which launch vehicle?",
+   "o": [
+    "GSLV-F16",
+    "PSLV-C57",
+    "PSLV-C30",
+    "PSLV-C58"
+   ],
+   "a": 3,
+   "x": "XPoSat was launched on 1 January 2024 aboard PSLV-C58.",
+   "ty": "fact",
+   "tq": "Separate the launch vehicles of AstroSat, Aditya-L1, XPoSat and NISAR.",
+   "sec": "AstroSat and XPoSat - bands, partner, payloads, FIRST"
+  },
+  {
+   "s": "Consider the following statements regarding XPoSat:\n1. It is India's first X-ray polarimetry mission.\n2. It is the world's second X-ray polarimetry mission after NASA's IXPE.\n3. It studies the X-ray polarization of black holes and neutron stars.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. XPoSat is India's first and the world's second X-ray polarimetry mission, after NASA's IXPE, and studies black holes and neutron stars.",
+   "ty": "statements",
+   "tq": "Check the national first, global rank and scientific target as three separate facts.",
+   "sec": "AstroSat and XPoSat - bands, partner, payloads, FIRST"
+  },
+  {
+   "s": "The POLIX payload of XPoSat was developed by",
+   "o": [
+    "U. R. Rao Space Centre",
+    "Inter-University Centre for Astronomy and Astrophysics",
+    "Raman Research Institute, Bengaluru",
+    "Indian Institute of Astrophysics"
+   ],
+   "a": 2,
+   "x": "POLIX was developed by the Raman Research Institute (RRI), Bengaluru.",
+   "ty": "fact",
+   "tq": "Use the payload–institution association and distinguish it from AstroSat's partner institutions.",
+   "sec": "AstroSat and XPoSat - bands, partner, payloads, FIRST"
+  },
+  {
+   "s": "Which of the following correctly matches the two XPoSat payloads with their institutions?",
+   "o": [
+    "POLIX—RRI; XSPECT—URSC",
+    "POLIX—URSC; XSPECT—RRI",
+    "POLIX—IIA; XSPECT—IUCAA",
+    "POLIX—TIFR; XSPECT—NASA"
+   ],
+   "a": 0,
+   "x": "XPoSat carries POLIX developed by RRI and XSPECT developed by the U. R. Rao Space Centre (URSC).",
+   "ty": "match",
+   "tq": "Start from the sure POLIX–RRI pair and identify the remaining payload institution.",
+   "sec": "AstroSat and XPoSat - bands, partner, payloads, FIRST"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "XPoSat — visible, ultraviolet and X-ray multi-wavelength observatory launched in 2015",
+    "AstroSat — X-ray polarization of black holes and neutron stars",
+    "AstroSat — PSLV-C30 and multi-wavelength observations",
+    "XPoSat — PSLV-C30 and first dedicated multi-wavelength observatory"
+   ],
+   "a": 2,
+   "x": "AstroSat was launched by PSLV-C30 in 2015 and is India's first dedicated multi-wavelength space observatory. The other descriptions confuse AstroSat with XPoSat.",
+   "ty": "confusable",
+   "tq": "Compare the launch year, vehicle, first claim and scientific target of the two observatories.",
+   "sec": "AstroSat and XPoSat - bands, partner, payloads, FIRST"
+  },
+  {
+   "s": "The Venus Orbiter Mission, also known as Shukrayaan, is intended to enter orbit around",
+   "o": [
+    "Venus",
+    "Jupiter",
+    "Saturn",
+    "Mars"
+   ],
+   "a": 0,
+   "x": "Shukrayaan, or the Venus Orbiter Mission, targets Venus. It is not a mission to Saturn.",
+   "ty": "confusable",
+   "tq": "Use the mission name and target association to avoid the Venus–Saturn substitution trap.",
+   "sec": "Upcoming Indian missions → target + partner"
+  },
+  {
+   "s": "The European Space Agency is exploring complementary cooperation with India in connection with",
+   "o": [
+    "Mangalyaan-2",
+    "Chandrayaan-5 or LUPEX",
+    "Chandrayaan-4",
+    "Shukrayaan or the Venus Orbiter Mission"
+   ],
+   "a": 3,
+   "x": "ESA is exploring complementary cooperation for Shukrayaan, the Venus Orbiter Mission.",
+   "ty": "fact",
+   "tq": "Match the international partner with the mission rather than with a similarly named lunar programme.",
+   "sec": "Upcoming Indian missions → target + partner"
+  },
+  {
+   "s": "Chandrayaan-4 is primarily planned as a mission for",
+   "o": [
+    "X-ray polarimetry of neutron stars",
+    "Lunar sample return",
+    "Venus atmospheric entry",
+    "Solar-wind measurement at L1"
+   ],
+   "a": 1,
+   "x": "Chandrayaan-4 is planned as a lunar sample-return mission involving regolith and ice.",
+   "ty": "fact",
+   "tq": "Distinguish the sample-return objective from lunar exploration without return capability.",
+   "sec": "Upcoming Indian missions → target + partner"
+  },
+  {
+   "s": "The proposed landing site for Chandrayaan-4 is near",
+   "o": [
+    "Mare Tranquillitatis near the lunar equator",
+    "Mons Mouton near the lunar south pole",
+    "Olympus Mons on Mars",
+    "The Sun-Earth L1 point"
+   ],
+   "a": 1,
+   "x": "A landing site near Mons Mouton, a flat-topped mountain near the lunar south pole, has been selected for Chandrayaan-4.",
+   "ty": "fact",
+   "tq": "Separate the lunar geographical feature from similarly named planetary locations.",
+   "sec": "Upcoming Indian missions → target + partner"
+  },
+  {
+   "s": "LUPEX, also referred to as Chandrayaan-5, is a joint lunar polar exploration mission of India and",
+   "o": [
+    "Roscosmos",
+    "JAXA of Japan",
+    "NASA",
+    "ESA"
+   ],
+   "a": 1,
+   "x": "LUPEX or Chandrayaan-5 is planned jointly with Japan's JAXA and focuses on lunar polar exploration, including water ice.",
+   "ty": "fact",
+   "tq": "Match the mission acronym and target with the correct international partner.",
+   "sec": "Upcoming Indian missions → target + partner"
+  },
+  {
+   "s": "NISAR is correctly described by which of the following statements?",
+   "o": [
+    "It is a NASA–ISRO Earth-observation mission using L- and S-band SAR.",
+    "It is an ISRO–JAXA mission for lunar water-ice exploration.",
+    "It is a NASA–ISRO mission for X-ray polarimetry.",
+    "It is an ESA–ISRO mission for Venus orbit insertion."
+   ],
+   "a": 0,
+   "x": "NISAR is a NASA–ISRO Earth-observation mission using L- and S-band synthetic aperture radar to study climate and hazards.",
+   "ty": "statements",
+   "tq": "Match the agency partnership, observation target and radar bands as a combined identification test.",
+   "sec": "Upcoming Indian missions → target + partner"
+  },
+  {
+   "s": "Arrange the following missions in order from the earliest launch to the latest launch:\nA. AstroSat\nB. Aditya-L1\nC. XPoSat\nD. NISAR",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "AstroSat was launched in 2015, Aditya-L1 in 2023, XPoSat in 2024 and NISAR in 2025.",
+   "ty": "chronology",
+   "tq": "Fix the earliest mission first and then place the missions by their launch years.",
+   "sec": "AstroSat and XPoSat - bands, partner, payloads, FIRST"
+  }
+ ]
+}

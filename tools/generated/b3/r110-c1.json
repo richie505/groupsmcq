@@ -1,0 +1,402 @@
+{
+ "book": 3,
+ "row": 110,
+ "chunk": 1,
+ "section": "AP per capita income, district-level disparities and the state's position among Indian states",
+ "subsections": [
+  "Regional disparities - Coastal Andhra vs Rayalaseema vs North Coastal",
+  "District-level infrastructure disparities - leading districts",
+  "AP rank among States - per capita GSDP, HDI, SDG, MPI, Mission Antyodaya",
+  "District-wise per capita income - highest and lowest after reorganisation",
+  "District GDP estimates - DDP and its publisher",
+  "Aspirational districts in AP - list and lagging indicators",
+  "Historical PCI series - early decades, at bifurcation, AP vs Telangana"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 7,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which of the following coastal regions of Andhra Pradesh has historically been more developed than North Andhra and Rayalaseema?",
+   "o": [
+    "Kadapa-Chittoor belt",
+    "Krishna-Guntur coastal belt",
+    "Srikakulam-Vizianagaram belt",
+    "Kurnool-Anantapur belt"
+   ],
+   "a": 1,
+   "x": "The Krishna-Guntur coastal belt has historically been more developed than North Andhra and Rayalaseema.",
+   "ty": "fact",
+   "tq": "Identify the precise regional comparison rather than selecting a neighbouring region.",
+   "sec": "Regional disparities - Coastal Andhra vs Rayalaseema vs North Coastal"
+  },
+  {
+   "s": "The seven backward districts identified under the Andhra Pradesh Reorganisation Act, 2014 consisted of:",
+   "o": [
+    "Four Rayalaseema districts and three North Coastal districts",
+    "Three Rayalaseema districts and four North Coastal districts",
+    "Two Rayalaseema districts and five North Coastal districts",
+    "Four Coastal Andhra districts and three Rayalaseema districts"
+   ],
+   "a": 0,
+   "x": "The backward-area package covered seven districts—four in Rayalaseema and three in the North Coastal region.",
+   "ty": "numerical",
+   "tq": "Split the total into its two component regional counts.",
+   "sec": "Regional disparities - Coastal Andhra vs Rayalaseema vs North Coastal"
+  },
+  {
+   "s": "The backward-area package for the seven districts under the Andhra Pradesh Reorganisation Act, 2014 provided, as a general annual allocation,",
+   "o": [
+    "₹75 crore per district",
+    "₹40 crore per district",
+    "₹50 crore per district",
+    "₹25 crore per district"
+   ],
+   "a": 2,
+   "x": "The package was stated as ₹50 crore per district per year, although releases subsequently stalled.",
+   "ty": "numerical",
+   "tq": "Use the exact per-district figure and distinguish it from the total number of districts.",
+   "sec": "Regional disparities - Coastal Andhra vs Rayalaseema vs North Coastal"
+  },
+  {
+   "s": "Consider the following statements regarding Rayalaseema:\n1. It is characterised by a rain-shadow location and drought-prone conditions.\n2. It accounts for 43% of Andhra Pradesh's horticulture area.\n3. It accounts for 52% of the State's horticulture output.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Rayalaseema is rain-shadow and drought-prone, but has emerged as a horticulture hub with 43% of the area and 52% of the output.",
+   "ty": "statements",
+   "tq": "Test a regional disadvantage together with its later sectoral strength.",
+   "sec": "Regional disparities - Coastal Andhra vs Rayalaseema vs North Coastal"
+  },
+  {
+   "s": "Which district recorded the lowest multidimensional poverty percentage among the old 13 districts of Andhra Pradesh on the NFHS-5 basis?",
+   "o": [
+    "Visakhapatnam",
+    "Vizianagaram",
+    "Kurnool",
+    "West Godavari"
+   ],
+   "a": 3,
+   "x": "West Godavari recorded the lowest multidimensional poverty percentage at 2.42%.",
+   "ty": "fact",
+   "tq": "Discriminate between the lowest and higher district-level poverty figures.",
+   "sec": "Regional disparities - Coastal Andhra vs Rayalaseema vs North Coastal"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Kurnool — MPI 2.42%",
+    "West Godavari — MPI 12.84%",
+    "Vizianagaram — MPI 8.66%",
+    "Visakhapatnam — MPI 12.84%"
+   ],
+   "a": 2,
+   "x": "Vizianagaram recorded 8.66%; West Godavari recorded 2.42%, Kurnool 12.84%, and Visakhapatnam 7.60%.",
+   "ty": "match",
+   "tq": "Start from the sure district-percentage pair and reject swapped figures.",
+   "sec": "Regional disparities - Coastal Andhra vs Rayalaseema vs North Coastal"
+  },
+  {
+   "s": "The rise in the Gini coefficient of per capita income across Indian States from 0.230 in 1994-95 to 0.261 in 2025-26 indicates:",
+   "o": [
+    "Uniformity in State incomes",
+    "Convergence among States",
+    "Divergence among States",
+    "A fall in inter-State inequality"
+   ],
+   "a": 2,
+   "x": "The increase in the Gini coefficient indicates greater divergence in per capita income among Indian States.",
+   "ty": "comparison",
+   "tq": "Read the direction of change in the inequality measure before interpreting it.",
+   "sec": "Regional disparities - Coastal Andhra vs Rayalaseema vs North Coastal"
+  },
+  {
+   "s": "Which district had the highest number of post offices in Andhra Pradesh according to the infrastructure indicators for 2025-26?",
+   "o": [
+    "Visakhapatnam",
+    "Prakasam",
+    "SPSR Nellore",
+    "Guntur"
+   ],
+   "a": 1,
+   "x": "Prakasam had the highest number of post offices, with 668, followed by SPSR Nellore with 643.",
+   "ty": "fact",
+   "tq": "Distinguish the leading district from the second-ranked district and the urban low.",
+   "sec": "District-level infrastructure disparities - leading districts"
+  },
+  {
+   "s": "Which district recorded the lowest number of post offices among the districts specifically identified in the infrastructure comparison?",
+   "o": [
+    "Visakhapatnam",
+    "East Godavari",
+    "SPSR Nellore",
+    "Prakasam"
+   ],
+   "a": 0,
+   "x": "Visakhapatnam had 156 post offices, compared with 668 in Prakasam and 643 in SPSR Nellore.",
+   "ty": "fact",
+   "tq": "Identify the lowest figure in a direct highest-lowest comparison.",
+   "sec": "District-level infrastructure disparities - leading districts"
+  },
+  {
+   "s": "Consider the following statements regarding district-level infrastructure in Andhra Pradesh:\n1. The State had 10,660 post offices.\n2. Visakhapatnam led in mobile connections with 3.77 lakh connections.\n3. NTR, East Godavari and Visakhapatnam were among the leading districts in telephone exchanges.\n4. The State had 358 telephone exchanges.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correspond to the stated infrastructure indicators: 10,660 post offices, 3.77 lakh mobile connections in Visakhapatnam, the three leading districts in exchanges, and 358 exchanges statewide.",
+   "ty": "statements",
+   "tq": "Check each numerical and district-level statement independently before selecting the coded combination.",
+   "sec": "District-level infrastructure disparities - leading districts"
+  },
+  {
+   "s": "Which of the following statements is correct regarding banking infrastructure in Andhra Pradesh?",
+   "o": [
+    "The State had 14.98 bank branches per lakh population and 43.31% credit-deposit ratio.",
+    "The State had 10,660 bank branches and a credit-deposit ratio of 43.31%.",
+    "The State had 8,555 bank branches and a credit-deposit ratio below 100%.",
+    "The State had 8,555 bank branches and a credit-deposit ratio of 157.4%."
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh had 8,555 bank branches and a credit-deposit ratio of 157.4%; several districts recorded ratios above 200%.",
+   "ty": "fact",
+   "tq": "Separate statewide totals and ratios from the per-lakh population comparison.",
+   "sec": "District-level infrastructure disparities - leading districts"
+  },
+  {
+   "s": "Which one of the following correctly explains the distribution of branch post offices and commercial bank branches in the comparison provided?",
+   "o": [
+    "Urban districts generally have more branch post offices, while Andhra Pradesh has 43.31 commercial bank branches per lakh population.",
+    "Rural districts generally have more branch post offices, while Andhra Pradesh has 14.98 commercial bank branches per lakh population compared with Goa's 43.31.",
+    "Rural districts generally have fewer branch post offices, while Andhra Pradesh has 157.4 branches per lakh population.",
+    "Rural districts and urban districts have an equal number of branch post offices, while Goa has 14.98 branches per lakh population."
+   ],
+   "a": 1,
+   "x": "Universal-service requirements result in more branch post offices in rural districts. Andhra Pradesh has 14.98 commercial bank branches per lakh population, against Goa's 43.31.",
+   "ty": "comparison",
+   "tq": "Combine the distributional explanation with the exact inter-State figure comparison.",
+   "sec": "District-level infrastructure disparities - leading districts"
+  },
+  {
+   "s": "In the SDG India Index 2023-24, Andhra Pradesh was placed in which category and rank with a score of 74?",
+   "o": [
+    "Front Runner, 9th",
+    "Aspirant, 11th",
+    "Performer, 9th",
+    "Front Runner, 7th"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh scored 74, ranked ninth, and was classified as a Front Runner in the SDG India Index 2023-24.",
+   "ty": "numerical",
+   "tq": "Match the score, rank and category without confusing category labels.",
+   "sec": "AP rank among States - per capita GSDP, HDI, SDG, MPI, Mission Antyodaya"
+  },
+  {
+   "s": "What was Andhra Pradesh's rank in terms of GSDP among States as stated for 2026?",
+   "o": [
+    "8th",
+    "9th",
+    "6th",
+    "7th"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh was reported to hold the eighth rank in GSDP.",
+   "ty": "fact",
+   "tq": "Select the exact ordinal rank rather than the nearby SDG rank.",
+   "sec": "AP rank among States - per capita GSDP, HDI, SDG, MPI, Mission Antyodaya"
+  },
+  {
+   "s": "The number of districts in Andhra Pradesh changed from 13 in 2014 to which numbers in 2022 and 2025, respectively?",
+   "o": [
+    "28 and 26",
+    "26 and 30",
+    "26 and 28",
+    "25 and 28"
+   ],
+   "a": 2,
+   "x": "The number increased from 13 districts in 2014 to 26 in 2022 and 28 in 2025.",
+   "ty": "numerical",
+   "tq": "Track the chronological sequence of administrative changes.",
+   "sec": "District-wise per capita income - highest and lowest after reorganisation"
+  },
+  {
+   "s": "Which two districts were identified as new districts in the 2025 district structure?",
+   "o": [
+    "Tirupati and Bapatla",
+    "Kurnool and Anantapur",
+    "Polavaram and Markapuram",
+    "NTR and Alluri Sitarama Raju"
+   ],
+   "a": 2,
+   "x": "Polavaram and Markapuram were identified as the new districts in the 2025 structure.",
+   "ty": "fact",
+   "tq": "Distinguish the newly named districts from other recently reorganised districts.",
+   "sec": "District-wise per capita income - highest and lowest after reorganisation"
+  },
+  {
+   "s": "Which of the following was NOT identified as a major driver of Visakhapatnam's leading district per capita income?",
+   "o": [
+    "Vizag Port",
+    "Eastern Naval Command",
+    "Amaravati Capital Region Secretariat",
+    "Rushikonda IT Park"
+   ],
+   "a": 2,
+   "x": "The identified drivers were Vizag Port; RINL, Hindustan Shipyard and HPCL refinery; Rushikonda IT Park; and the Eastern Naval Command. Amaravati Capital Region Secretariat was not included in that list.",
+   "ty": "negative",
+   "tq": "Find the option outside the stated set of sectoral and institutional drivers.",
+   "sec": "District-wise per capita income - highest and lowest after reorganisation"
+  },
+  {
+   "s": "The per capita income of NTR district in 2023-24 and its target were, respectively:",
+   "o": [
+    "₹3,15,000 and ₹4,17,000",
+    "₹2,07,000 and ₹3,21,651",
+    "₹3,21,651 and ₹4,17,412",
+    "₹4,17,412 and ₹3,21,651"
+   ],
+   "a": 2,
+   "x": "NTR district recorded a per capita income of ₹3,21,651 in 2023-24, with a target of ₹4,17,412.",
+   "ty": "numerical",
+   "tq": "Keep the actual value and target in their correct order.",
+   "sec": "District-wise per capita income - highest and lowest after reorganisation"
+  },
+  {
+   "s": "Consider the following statements regarding district development monitoring in Andhra Pradesh:\n1. District Vision Action Plans are tracked at district, constituency and mandal levels.\n2. Collectors are to be rated on investment, jobs and the rise in district per capita income.\n3. DDP is compiled by the State Directorate of Economics and Statistics.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. District development monitoring includes multi-level KPI tracking, Collector assessment on specified outcomes, and DES compilation of DDP.",
+   "ty": "statements",
+   "tq": "Combine institutional responsibility with the stated monitoring and evaluation mechanisms.",
+   "sec": "District GDP estimates - DDP and its publisher"
+  },
+  {
+   "s": "Under the Aspirational Districts Programme, the 112 districts are ranked monthly on:",
+   "o": [
+    "29 indicators under three themes",
+    "50 indicators under four themes",
+    "112 indicators under five themes",
+    "49 indicators under five themes"
+   ],
+   "a": 3,
+   "x": "The Aspirational Districts Programme ranks 112 districts monthly on 49 key performance indicators under five themes.",
+   "ty": "numerical",
+   "tq": "Match the programme's coverage, indicator count and thematic count precisely.",
+   "sec": "Aspirational districts in AP - list and lagging indicators"
+  },
+  {
+   "s": "Which of the following is NOT one of the five themes of the Aspirational Districts Programme?",
+   "o": [
+    "Education",
+    "Financial Inclusion and Skills",
+    "Urban Transport",
+    "Health and Nutrition"
+   ],
+   "a": 2,
+   "x": "The five themes are Health and Nutrition, Education, Agriculture and Water, Financial Inclusion and Skills, and Infrastructure. Urban Transport is not one of them.",
+   "ty": "negative",
+   "tq": "Identify the unrelated thematic label among the official programme themes.",
+   "sec": "Aspirational districts in AP - list and lagging indicators"
+  },
+  {
+   "s": "Which district had the lowest literacy rate among the lagging tribal or backward areas cited for Andhra Pradesh?",
+   "o": [
+    "Visakhapatnam",
+    "Alluri Sitarama Raju",
+    "Vizianagaram",
+    "YSR Kadapa"
+   ],
+   "a": 1,
+   "x": "Alluri Sitarama Raju district had the lowest cited literacy rate, at 44.67%.",
+   "ty": "fact",
+   "tq": "Distinguish the literacy indicator from the poverty-headcount indicator.",
+   "sec": "Aspirational districts in AP - list and lagging indicators"
+  },
+  {
+   "s": "At the time of bifurcation, the per capita income of Andhra Pradesh was stated as:",
+   "o": [
+    "₹7,781",
+    "₹8,979",
+    "₹93,903",
+    "₹2,07,000"
+   ],
+   "a": 2,
+   "x": "The per capita income at bifurcation was ₹93,903 in 2014-15.",
+   "ty": "numerical",
+   "tq": "Place the bifurcation-year figure apart from the early historical and later figures.",
+   "sec": "Historical PCI series - early decades, at bifurcation, AP vs Telangana"
+  },
+  {
+   "s": "In 2015-16, the per capita income figures cited for Telangana and Andhra Pradesh, respectively, were:",
+   "o": [
+    "₹15,454 and ₹8,979",
+    "₹93,903 and ₹15,454",
+    "₹15,454 and ₹93,903",
+    "₹8,979 and ₹15,454"
+   ],
+   "a": 0,
+   "x": "The cited 2015-16 figures were ₹15,454 for Telangana and ₹8,979 for Andhra Pradesh.",
+   "ty": "comparison",
+   "tq": "Read the State order in the question carefully before comparing the values.",
+   "sec": "Historical PCI series - early decades, at bifurcation, AP vs Telangana"
+  },
+  {
+   "s": "Consider the following statements regarding the relative per capita income of Telangana and Andhra Pradesh:\n1. Telangana's per capita income was 6% above Andhra Pradesh's in 2004-05.\n2. It was 1.3 times Andhra Pradesh's in 2013-14.\n3. It was 1.35 times Andhra Pradesh's in 2024-25.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three stated comparisons are correct: 6% higher in 2004-05, 1.3 times in 2013-14, and 1.35 times in 2024-25.",
+   "ty": "statements",
+   "tq": "Track the changing relative multiple across the three specified years.",
+   "sec": "Historical PCI series - early decades, at bifurcation, AP vs Telangana"
+  },
+  {
+   "s": "Before the formation of Andhra Pradesh in 1956, the higher per capita income and revenue of Telangana were used by which body to argue that Telangana was viable on its own?",
+   "o": [
+    "State Finance Commission",
+    "Hyderabad PCC",
+    "National Income Committee",
+    "Planning Commission"
+   ],
+   "a": 1,
+   "x": "The Hyderabad PCC used Telangana's higher per capita income and revenue to argue for its independent viability in the context of the SRC discussions of 1955.",
+   "ty": "fact",
+   "tq": "Match the institutional actor with the argument it advanced.",
+   "sec": "Historical PCI series - early decades, at bifurcation, AP vs Telangana"
+  },
+  {
+   "s": "The first official national estimate placed India's per capita income for 1948-49 at:",
+   "o": [
+    "₹125",
+    "₹225",
+    "₹325",
+    "₹425"
+   ],
+   "a": 1,
+   "x": "The National Income Committee's first official estimate placed per capita income for 1948-49 at ₹225.",
+   "ty": "numerical",
+   "tq": "Recall the early benchmark year and its exact rupee value together.",
+   "sec": "Historical PCI series - early decades, at bifurcation, AP vs Telangana"
+  }
+ ]
+}

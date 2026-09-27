@@ -1,0 +1,512 @@
+{
+ "book": 5,
+ "row": 20,
+ "chunk": 1,
+ "section": "Telecom technologies - 3G to 5G and 6G roadmap, satellite communication, optical fibre",
+ "subsections": [
+  "Wireless and alternative access - WLAN, RFID, CCTV, Project Loon, PM-WANI, Wi-Fi 6/7",
+  "6G - Bharat 6G Vision, Bharat 6G Alliance, target year",
+  "Spectrum - auctions, Telecommunications Act 2023, satellite spectrum",
+  "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following correctly describes WLAN/Wi-Fi communication?",
+   "o": [
+    "It operates exclusively through geostationary satellites",
+    "It uses radio waves over a short range",
+    "It requires a wired backbone between every pair of devices",
+    "It uses only infrared waves over a long range"
+   ],
+   "a": 1,
+   "x": "WLAN or Wi-Fi uses radio waves for short-range wireless communication. It does not require every communicating device to have a separate wired connection.",
+   "ty": "fact",
+   "tq": "Identify the defining medium and range of the technology.",
+   "sec": "Wireless and alternative access - WLAN, RFID, CCTV, Project Loon, PM-WANI, Wi-Fi 6/7  [other exams]"
+  },
+  {
+   "s": "Wi-Fi Direct is primarily used to:",
+   "o": [
+    "Provide television broadcasting through balloons",
+    "Connect only satellites to ground stations",
+    "Link devices directly without a conventional LAN",
+    "Replace radio waves with optical fibre"
+   ],
+   "a": 2,
+   "x": "Wi-Fi Direct enables compatible devices to communicate directly without being connected through a conventional local area network.",
+   "ty": "application",
+   "tq": "Apply the core function of a named communication standard.",
+   "sec": "Wireless and alternative access - WLAN, RFID, CCTV, Project Loon, PM-WANI, Wi-Fi 6/7  [other exams]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Wi-Fi 6 — IEEE 802.11ax\n2. Wi-Fi 7 — IEEE 802.11be\n3. Wi-Fi Direct — IEEE 802.11be\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Wi-Fi 6 corresponds to IEEE 802.11ax and Wi-Fi 7 to IEEE 802.11be. Wi-Fi Direct is a device-to-device connectivity feature, not the designation of IEEE 802.11be.",
+   "ty": "statements",
+   "tq": "Use precise standard-number matching and eliminate the swapped technology.",
+   "sec": "Wireless and alternative access - WLAN, RFID, CCTV, Project Loon, PM-WANI, Wi-Fi 6/7  [other exams]"
+  },
+  {
+   "s": "Radio Frequency Identification (RFID) technology is based on:",
+   "o": [
+    "Reading tags only through optical fibre",
+    "Using high-altitude balloons as signal repeaters",
+    "Transmitting data exclusively through visible light",
+    "Reading radio tags wirelessly"
+   ],
+   "a": 3,
+   "x": "RFID identifies objects by wirelessly reading radio-frequency tags. It does not require direct optical-fibre transmission.",
+   "ty": "fact",
+   "tq": "Distinguish the operating principle of a named access technology.",
+   "sec": "Wireless and alternative access - WLAN, RFID, CCTV, Project Loon, PM-WANI, Wi-Fi 6/7  [other exams]"
+  },
+  {
+   "s": "Kavach track tags, as an example of RFID application, are used in a system involving:",
+   "o": [
+    "Satellite-based broadcasting from GEO satellites",
+    "Internet access through balloons",
+    "Wireless reading of radio tags",
+    "Visible-light communication between household appliances"
+   ],
+   "a": 2,
+   "x": "Kavach track tags are cited as an example of RFID, in which radio tags are read wirelessly for identification or tracking.",
+   "ty": "application",
+   "tq": "Connect a real-world example with its underlying technology.",
+   "sec": "Wireless and alternative access - WLAN, RFID, CCTV, Project Loon, PM-WANI, Wi-Fi 6/7  [other exams]"
+  },
+  {
+   "s": "Near Field Communication (NFC) generally operates over a range of:",
+   "o": [
+    "About 35,786 kilometres",
+    "A few centimetres",
+    "About 2,000 kilometres",
+    "More than 100 kilometres"
+   ],
+   "a": 1,
+   "x": "NFC is a very short-range wireless communication technology, generally operating over a distance of a few centimetres.",
+   "ty": "numerical",
+   "tq": "Recall the characteristic range rather than confusing it with satellite distances.",
+   "sec": "Wireless and alternative access - WLAN, RFID, CCTV, Project Loon, PM-WANI, Wi-Fi 6/7  [other exams]"
+  },
+  {
+   "s": "Project Loon, developed by Google/Alphabet, sought to provide internet connectivity through:",
+   "o": [
+    "High-altitude balloons",
+    "Undersea optical-fibre cables",
+    "CCTV networks",
+    "LEO satellites alone"
+   ],
+   "a": 0,
+   "x": "Project Loon attempted to deliver internet connectivity using high-altitude balloons. The project was shut down in 2021.",
+   "ty": "fact",
+   "tq": "Match the project with its distinctive infrastructure.",
+   "sec": "Wireless and alternative access - WLAN, RFID, CCTV, Project Loon, PM-WANI, Wi-Fi 6/7  [other exams]"
+  },
+  {
+   "s": "In which year was Project Loon shut down?",
+   "o": [
+    "2018",
+    "2019",
+    "2021",
+    "2023"
+   ],
+   "a": 2,
+   "x": "Google/Alphabet's Project Loon, which used high-altitude balloons for internet access, was shut down in 2021.",
+   "ty": "numerical",
+   "tq": "Discriminate between closely spaced years associated with a technology project.",
+   "sec": "Wireless and alternative access - WLAN, RFID, CCTV, Project Loon, PM-WANI, Wi-Fi 6/7  [other exams]"
+  },
+  {
+   "s": "How many PM-WANI public Wi-Fi hotspots were mapped on the Gati Shakti National Master Plan platform?",
+   "o": [
+    "1.15 lakh",
+    "2.15 lakh",
+    "3.15 lakh",
+    "5.15 lakh"
+   ],
+   "a": 2,
+   "x": "The number of PM-WANI public Wi-Fi hotspots mapped on the Gati Shakti National Master Plan platform was 3.15 lakh.",
+   "ty": "numerical",
+   "tq": "Recall the exact quantitative figure and reject altered numerical distractors.",
+   "sec": "Wireless and alternative access - WLAN, RFID, CCTV, Project Loon, PM-WANI, Wi-Fi 6/7  [other exams]"
+  },
+  {
+   "s": "Consider the following statements regarding the Bharat 6G Vision document:\n1. It seeks to enable India to lead the design, development and deployment of 6G.\n2. The target year for this objective is 2030.\n3. The document was released in March 2023.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Bharat 6G Vision document was released in March 2023 and aims for India to lead the design, development and deployment of 6G by 2030.",
+   "ty": "statements",
+   "tq": "Combine objective, target year and release date in a coded statement question.",
+   "sec": "6G - Bharat 6G Vision, Bharat 6G Alliance, target year"
+  },
+  {
+   "s": "The Bharat 6G Alliance was launched in:",
+   "o": [
+    "2021",
+    "2022",
+    "2023",
+    "2025"
+   ],
+   "a": 2,
+   "x": "The Bharat 6G Alliance was launched in 2023.",
+   "ty": "numerical",
+   "tq": "Test the launch year against nearby technology-policy years.",
+   "sec": "6G - Bharat 6G Vision, Bharat 6G Alliance, target year"
+  },
+  {
+   "s": "Which one of the following is NOT included among the participants brought together by the Bharat 6G Alliance?",
+   "o": [
+    "Public and private firms",
+    "Standards bodies",
+    "Only foreign military organisations",
+    "Academic institutions"
+   ],
+   "a": 2,
+   "x": "The Bharat 6G Alliance brings together public and private firms, academia and standards bodies. It is not constituted exclusively of foreign military organisations.",
+   "ty": "negative",
+   "tq": "Find the option that violates the stated composition of the institution.",
+   "sec": "6G - Bharat 6G Vision, Bharat 6G Alliance, target year"
+  },
+  {
+   "s": "How many Working Groups does the Bharat 6G Alliance have?",
+   "o": [
+    "Seven",
+    "Nine",
+    "Five",
+    "Eleven"
+   ],
+   "a": 0,
+   "x": "The Bharat 6G Alliance has seven Working Groups.",
+   "ty": "numerical",
+   "tq": "Recall the exact organisational count.",
+   "sec": "6G - Bharat 6G Vision, Bharat 6G Alliance, target year"
+  },
+  {
+   "s": "The Bharat 6G Alliance has entered into Memoranda of Understanding with:",
+   "o": [
+    "International financial institutions exclusively",
+    "Global 6G alliances",
+    "Only domestic television broadcasters",
+    "Only GEO satellite operators"
+   ],
+   "a": 1,
+   "x": "The Bharat 6G Alliance has signed MoUs with global 6G alliances to promote cooperation in the development of next-generation communications.",
+   "ty": "fact",
+   "tq": "Identify the correct institutional counterpart.",
+   "sec": "6G - Bharat 6G Vision, Bharat 6G Alliance, target year"
+  },
+  {
+   "s": "Which of the following combinations is correct regarding the TRAI recommendations of February 2026?",
+   "o": [
+    "Auction of all available spectrum across nine bands; uniform 35% spectrum cap; new-entrant net worth reduced from Rs 100 crore to Rs 50 crore per service area",
+    "Auction across nine bands; no spectrum cap; net worth reduced to Rs 25 crore",
+    "Auction across five bands; uniform 50% cap; net worth increased to Rs 200 crore",
+    "Administrative assignment across nine bands; uniform 35% cap; net worth retained at Rs 100 crore"
+   ],
+   "a": 0,
+   "x": "TRAI recommended auctioning all available spectrum across nine bands, a uniform 35% spectrum cap, and reducing the new-entrant net-worth requirement from Rs 100 crore to Rs 50 crore per service area.",
+   "ty": "comparison",
+   "tq": "Check all components of a multi-part policy recommendation together.",
+   "sec": "Spectrum - auctions, Telecommunications Act 2023, satellite spectrum"
+  },
+  {
+   "s": "At the reserve price, the spectrum proposed for auction under the February 2026 recommendations was valued at approximately:",
+   "o": [
+    "Rs 1,50,000 crore",
+    "Rs 81,000 crore",
+    "Rs 50,000 crore",
+    "Rs 18,000 crore"
+   ],
+   "a": 1,
+   "x": "At the reserve price, the value of the spectrum was approximately Rs 81,000 crore.",
+   "ty": "numerical",
+   "tq": "Recall the reported reserve-price estimate rather than the policy percentages.",
+   "sec": "Spectrum - auctions, Telecommunications Act 2023, satellite spectrum"
+  },
+  {
+   "s": "With reference to the Supreme Court decision of February 2026, consider the following statements:\n1. Telecom companies do not own spectrum.\n2. The Insolvency and Bankruptcy Code can restructure spectrum rights in the Aircel case.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "x": "The Supreme Court held that telecom companies do not own spectrum. It also held that the IBC cannot restructure spectrum rights in the Aircel case, making statement 2 false.",
+   "ty": "statements",
+   "tq": "Use the negative legal conclusion to identify the reversed statement.",
+   "sec": "Spectrum - auctions, Telecommunications Act 2023, satellite spectrum"
+  },
+  {
+   "s": "The Telecommunications Act, 2023 represents a shift from:",
+   "o": [
+    "Auctioning to taxation",
+    "Regulation to complete deregulation",
+    "Licensing to authorisation",
+    "Authorisation to licensing"
+   ],
+   "a": 2,
+   "x": "The Telecommunications Act, 2023 moves from a licensing framework to a light-touch authorisation framework.",
+   "ty": "confusable",
+   "tq": "Discriminate between two closely related regulatory terms.",
+   "sec": "Spectrum - auctions, Telecommunications Act 2023, satellite spectrum"
+  },
+  {
+   "s": "Under the July 2026 rule of the Department of Telecommunications for infrastructure providers, telecom data and logs must be stored:",
+   "o": [
+    "Exclusively in geostationary satellites",
+    "In India",
+    "Only in the country of the equipment manufacturer",
+    "Only outside India"
+   ],
+   "a": 1,
+   "x": "The Department of Telecommunications rule requires all telecom data and logs of infrastructure providers to be stored in India.",
+   "ty": "fact",
+   "tq": "Identify the authority and location attached to a data-localisation requirement.",
+   "sec": "Spectrum - auctions, Telecommunications Act 2023, satellite spectrum"
+  },
+  {
+   "s": "How is satellite spectrum assigned under the First Schedule of the Telecommunications Act, 2023?",
+   "o": [
+    "Through allocation by private satellite companies",
+    "Administratively rather than through auctions",
+    "Through first-come, first-served auctions conducted by the ITU",
+    "Through mandatory auctions only"
+   ],
+   "a": 1,
+   "x": "Satellite spectrum is assigned administratively under the First Schedule of the Telecommunications Act, 2023, rather than being auctioned.",
+   "ty": "fact",
+   "tq": "Distinguish administrative assignment from auction-based allocation.",
+   "sec": "Spectrum - auctions, Telecommunications Act 2023, satellite spectrum"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes GEO satellites from LEO satellites?",
+   "o": [
+    "GEO satellites are about 35,786 km above Earth and have higher latency, whereas LEO satellites are below about 2,000 km and have lower latency",
+    "GEO satellites always have lower latency than LEO satellites because they remain fixed over one spot",
+    "GEO satellites orbit below 2,000 km, whereas LEO satellites orbit at about 35,786 km",
+    "Both GEO and LEO satellites operate at the same altitude and have identical latency"
+   ],
+   "a": 0,
+   "x": "GEO satellites are approximately 35,786 km above Earth, remain fixed over one spot and have higher latency. LEO satellites are below about 2,000 km and generally provide lower latency.",
+   "ty": "comparison",
+   "tq": "Compare altitude, apparent position and latency in a single table-based question.",
+   "sec": "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS"
+  },
+  {
+   "s": "Which of the following statements about geostationary communication satellites is correct?",
+   "o": [
+    "They remain fixed over one spot and are located about 35,786 km above Earth",
+    "They are used only for personal mobile communication",
+    "They necessarily provide lower latency than LEO satellites",
+    "They form large constellations below 2,000 km"
+   ],
+   "a": 0,
+   "x": "GEO satellites are positioned at about 35,786 km and appear fixed over one spot on Earth. Their greater distance generally results in higher latency than that of LEO satellites.",
+   "ty": "fact",
+   "tq": "Use the altitude-and-orbital-behaviour pair as the identifying feature.",
+   "sec": "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS"
+  },
+  {
+   "s": "Which of the following is an example of a GEO satellite series, with GSAT-7 and GSAT-7A being associated with defence?",
+   "o": [
+    "OneWeb constellation",
+    "Starlink series",
+    "Amazon Kuiper constellation",
+    "GSAT series"
+   ],
+   "a": 3,
+   "x": "The GSAT series is cited as an example of GEO satellites, and GSAT-7 and GSAT-7A are associated with defence applications.",
+   "ty": "fact",
+   "tq": "Match the satellite series with its orbital category and use.",
+   "sec": "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS"
+  },
+  {
+   "s": "Which of the following groups consists entirely of LEO satellite constellations?",
+   "o": [
+    "Starlink, Eutelsat OneWeb and Amazon Kuiper",
+    "GSAT-7A, GSAT-7 and GSAT-8",
+    "GSAT series, OneWeb and Kuiper",
+    "GSAT-7, GSAT-7A and Starlink"
+   ],
+   "a": 0,
+   "x": "Starlink, Eutelsat OneWeb and Amazon Kuiper are identified as LEO constellations. The GSAT examples listed are GEO satellites.",
+   "ty": "odd_one_out",
+   "tq": "Separate the LEO group from the nearby GEO examples.",
+   "sec": "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS"
+  },
+  {
+   "s": "Which of the following statements is correct regarding Starlink and OneWeb in India?",
+   "o": [
+    "Starlink has more than 8,000 LEO satellites and obtained its GMPCS licence in India in 2025, while OneWeb earlier received an LoI",
+    "Starlink operates only GEO satellites and OneWeb obtained its licence after 2025",
+    "OneWeb has more than 8,000 GEO satellites and Starlink received only an LoI",
+    "Both companies received their Indian GMPCS licences in 2023"
+   ],
+   "a": 0,
+   "x": "Starlink has more than 8,000 LEO satellites and received its GMPCS licence in India in 2025. Eutelsat OneWeb, associated with Bharti, had earlier received a letter of intent.",
+   "ty": "comparison",
+   "tq": "Track company, constellation type, licence status and sequence of regulatory approval.",
+   "sec": "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS"
+  },
+  {
+   "s": "GMPCS stands for:",
+   "o": [
+    "Geostationary Mobile Personal Communication Service",
+    "Global Mobile Personal Communication by Satellite",
+    "Global Microwave and Private Communication System",
+    "Government Mobile Public Communication Service"
+   ],
+   "a": 1,
+   "x": "GMPCS means Global Mobile Personal Communication by Satellite. It is the Department of Telecommunications licence required for satellite communication operators.",
+   "ty": "fact",
+   "tq": "Expand the exact acronym without substituting a similar satellite term.",
+   "sec": "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS"
+  },
+  {
+   "s": "Which of the following is NOT a condition associated with the GMPCS licence for satellite communication operators?",
+   "o": [
+    "Prevention of cross-border spillover",
+    "Mandatory manufacture of all satellites in India within five years",
+    "Geofencing",
+    "Lawful surveillance"
+   ],
+   "a": 1,
+   "x": "The conditions include geofencing, no cross-border spillover, lawful surveillance and terminals made in India within five years. The requirement concerns terminals, not mandatory manufacture of all satellites in India.",
+   "ty": "negative",
+   "tq": "Find the option that changes the exact object of a regulatory condition.",
+   "sec": "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS"
+  },
+  {
+   "s": "Under the stated GMPCS conditions, terminals are required to be made in India within:",
+   "o": [
+    "Seven years",
+    "Ten years",
+    "Five years",
+    "Three years"
+   ],
+   "a": 2,
+   "x": "One of the GMPCS conditions is that terminals must be made in India within five years.",
+   "ty": "numerical",
+   "tq": "Recall the compliance period attached to the licence condition.",
+   "sec": "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS"
+  },
+  {
+   "s": "Which one of the following correctly describes the allocation of orbital slots by the International Telecommunication Union?",
+   "o": [
+    "They are allocated on a first-come, first-served basis",
+    "They are assigned exclusively to LEO operators",
+    "They are allocated after satellites complete their missions",
+    "They are allocated only through national auctions"
+   ],
+   "a": 0,
+   "x": "The ITU gives orbital slots on a first-come, first-served basis.",
+   "ty": "fact",
+   "tq": "Identify the allocation principle of the international body.",
+   "sec": "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS"
+  },
+  {
+   "s": "Satellites are required to be de-orbited within what period after the end of their mission?",
+   "o": [
+    "Fifty years",
+    "Ten years",
+    "Five years",
+    "Twenty-five years"
+   ],
+   "a": 3,
+   "x": "The stated rule requires satellites to be de-orbited within 25 years of the end of their mission.",
+   "ty": "numerical",
+   "tq": "Recall the exact post-mission orbital-disposal period.",
+   "sec": "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS"
+  },
+  {
+   "s": "India's first experimental satellite telecommunication activity took place in:",
+   "o": [
+    "1969",
+    "1972",
+    "1975",
+    "1980"
+   ],
+   "a": 2,
+   "x": "India's first experimental satellite telecommunication activity was conducted in 1975.",
+   "ty": "chronology",
+   "tq": "Distinguish the first experimental milestone from later satellite developments.",
+   "sec": "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS"
+  },
+  {
+   "s": "Approximately what proportion of India's population lives in areas where terrestrial networks are difficult to reach?",
+   "o": [
+    "5–10 percent",
+    "20–25 percent",
+    "40–45 percent",
+    "10–15 percent"
+   ],
+   "a": 1,
+   "x": "Approximately 20–25 percent of Indians live in areas that are difficult to reach through terrestrial networks, highlighting the importance of satellite connectivity.",
+   "ty": "numerical",
+   "tq": "Recall the population-range estimate linked to satellite communication need.",
+   "sec": "Satellite communication - GEO vs LEO (Starlink, OneWeb, Kuiper), GMPCS"
+  },
+  {
+   "s": "On 30 June 2026, Andhra Pradesh Chief Minister N. Chandrababu Naidu directed telecom operators to:",
+   "o": [
+    "Finish new towers within 100 days",
+    "Stop expanding telecom infrastructure in Amaravati",
+    "Replace all mobile towers with satellites within 25 years",
+    "Complete all spectrum auctions within 30 days"
+   ],
+   "a": 0,
+   "x": "The Chief Minister directed telecom operators to complete new towers within 100 days. He also reviewed a fibre-optic network for Amaravati.",
+   "ty": "fact",
+   "tq": "Identify the action and deadline in a current-affairs directive.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The fibre-optic network reviewed in the current telecommunications context was associated with:",
+   "o": [
+    "Visakhapatnam's satellite launch centre",
+    "Amaravati",
+    "The Gati Shakti railway corridor",
+    "A national GEO satellite station only"
+   ],
+   "a": 1,
+   "x": "The fibre-optic network reviewed by the Andhra Pradesh Chief Minister was for Amaravati.",
+   "ty": "fact",
+   "tq": "Match the infrastructure project with its location.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "India's position in the Network Readiness Index 2024 was:",
+   "o": [
+    "79th, improving from 60th",
+    "29th, improving from 40th",
+    "60th, improving from 49th",
+    "49th, improving from 60th"
+   ],
+   "a": 3,
+   "x": "India rose to 49th in the Network Readiness Index 2024 from 60th earlier.",
+   "ty": "numerical",
+   "tq": "Track both the current rank and the direction of change.",
+   "sec": "Universal angles"
+  }
+ ]
+}

@@ -1,0 +1,624 @@
+{
+ "book": 5,
+ "row": 20,
+ "chunk": 0,
+ "section": "Telecom technologies - 3G to 5G and 6G roadmap, satellite communication, optical fibre",
+ "subsections": [
+  "Optical fibre - working principle, signal form, undersea cables (CANI), national fibre targets",
+  "Telecom bodies - role (DoT, TRAI, TDSAT, C-DOT, TEC), 1980s reforms, EMF limits for towers",
+  "Mobile generations 1G-6G - core technology, speed, GSM family terms",
+  "Li-Fi and Visible Light Communication - full form, medium, vs Wi-Fi",
+  "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 43,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following is the fastest data-transmission medium among the listed communication media?",
+   "o": [
+    "Radio waves",
+    "Copper cable",
+    "Optical fibre",
+    "Satellite signals"
+   ],
+   "a": 2,
+   "x": "Optical fibre provides faster data transmission than copper cable, radio waves and satellite signals.",
+   "ty": "fact",
+   "tq": "Use the direct comparative fact and eliminate the slower neighbouring media.",
+   "sec": "Optical fibre - working principle, signal form, undersea cables (CANI), national fibre targets  [APPSC]"
+  },
+  {
+   "s": "With reference to optical fibre communication, consider the following statements:\n1. Single-mode fibre is suitable for long-distance signal transmission.\n2. Multi-mode fibre is generally used for short-distance runs.\n3. Single-mode fibre is designed only for satellite communication.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Single-mode fibre carries signals over long distances and multi-mode fibre is used over short runs. The claim that single-mode fibre is designed only for satellite communication is false.",
+   "ty": "statements",
+   "tq": "Identify the two correct application statements and reject the extreme word 'only'.",
+   "sec": "Optical fibre - working principle, signal form, undersea cables (CANI), national fibre targets  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding undersea communication cables:\n1. They are fibre-optic lines laid on the seabed.\n2. Optical repeaters are generally placed at intervals of about 60–80 km.\n3. They carry nearly 99% of international Internet and telecommunications traffic.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly describe undersea fibre-optic cables, their repeater spacing and their dominant share in international Internet and telecom traffic.",
+   "ty": "statements",
+   "tq": "Test a compact cluster of quantitative and definitional statements together.",
+   "sec": "Optical fibre - working principle, signal form, undersea cables (CANI), national fibre targets  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes undersea fibre-optic cables from satellite communication for international connectivity?",
+   "o": [
+    "Undersea cables are more expensive and have higher latency than satellites.",
+    "Undersea cables cannot carry international telecommunications traffic.",
+    "Satellite communication uses fibre-optic lines laid on the seabed.",
+    "Undersea cables are generally cheaper and have lower latency than satellites."
+   ],
+   "a": 3,
+   "x": "Undersea fibre-optic cables are cheaper and offer lower latency than satellite communication for international connectivity.",
+   "ty": "comparison",
+   "tq": "Use the reversed-comparison trap by checking both cost and latency.",
+   "sec": "Optical fibre - working principle, signal form, undersea cables (CANI), national fibre targets  [APPSC]"
+  },
+  {
+   "s": "CANI, in the context of Indian telecommunications, refers to which of the following?",
+   "o": [
+    "Chennai-Andaman and Nicobar Islands submarine optical-fibre cable",
+    "Chennai-Asia National Information cable",
+    "Coastal Andaman Network Interface",
+    "Chennai-Andhra National Internet cable"
+   ],
+   "a": 0,
+   "x": "CANI is the Chennai-Andaman & Nicobar Islands submarine optical-fibre cable project.",
+   "ty": "confusable",
+   "tq": "Expand the acronym by separating the geographical components rather than relying on look-alike expansions.",
+   "sec": "Optical fibre - working principle, signal form, undersea cables (CANI), national fibre targets  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the CANI submarine optical-fibre project:\n1. It is about 2,300 km long.\n2. It was laid by BSNL.\n3. It was inaugurated in August 2020.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The CANI cable is approximately 2,300 km long, was laid by BSNL and was inaugurated in August 2020.",
+   "ty": "statements",
+   "tq": "Combine the project’s length, implementing organisation and inauguration date in a coded statement question.",
+   "sec": "Optical fibre - working principle, signal form, undersea cables (CANI), national fibre targets  [APPSC]"
+  },
+  {
+   "s": "The National Optical Fibre Network (NOFN) was planned primarily to connect which of the following?",
+   "o": [
+    "All 2,50,000 Gram Panchayats",
+    "All district headquarters only",
+    "All major international airports",
+    "All municipal corporations in India"
+   ],
+   "a": 0,
+   "x": "NOFN was planned to connect all 2,50,000 Gram Panchayats through a national optical-fibre network.",
+   "ty": "numerical",
+   "tq": "Target the distinctive numerical coverage objective directly.",
+   "sec": "Optical fibre - working principle, signal form, undersea cables (CANI), national fibre targets  [APPSC]"
+  },
+  {
+   "s": "Which of the following combinations regarding NOFN is correctly matched?\n1. Funding — Universal Service Obligation Fund\n2. Access technology — GPON\n3. Existing public-sector fibre — BSNL, RailTel and Power Grid\n4. Estimated cost — Rs 20,000 crore",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "NOFN was funded by USOF, used GPON technology, relied on fibre of BSNL, RailTel and Power Grid, and had an estimated cost of Rs 20,000 crore.",
+   "ty": "statements",
+   "tq": "Verify each component of a scheme through a complete combination option.",
+   "sec": "Optical fibre - working principle, signal form, undersea cables (CANI), national fibre targets  [APPSC]"
+  },
+  {
+   "s": "NOFN was subsequently renamed as which of the following?",
+   "o": [
+    "GramNet",
+    "BharatNet",
+    "Digital India Fibre Grid",
+    "National Broadband Mission"
+   ],
+   "a": 1,
+   "x": "The National Optical Fibre Network was later renamed BharatNet.",
+   "ty": "fact",
+   "tq": "Use a direct former-name versus present-name distinction.",
+   "sec": "Optical fibre - working principle, signal form, undersea cables (CANI), national fibre targets  [APPSC]"
+  },
+  {
+   "s": "Which of the following assets are included under the PM Gati Shakti National Master Plan in the telecommunications context?\n1. About 13.5 lakh route km of PSU optical fibre cable\n2. About 43,000 route km of State/private optical fibre cable\n3. About 8.26 lakh towers\n4. About 30.15 lakh BTSs\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The listed PM Gati Shakti telecommunications assets include all four figures: 13.5 lakh PSU OFC route km, 43,000 State/private OFC route km, 8.26 lakh towers and 30.15 lakh BTSs.",
+   "ty": "statements",
+   "tq": "Handle a data-rich list by checking whether the complete numerical set is present.",
+   "sec": "Optical fibre - working principle, signal form, undersea cables (CANI), national fibre targets  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "TRAI — Regulation of telecom and broadcasting",
+    "TDSAT — Settlement of disputes and appeals against TRAI",
+    "TEC — Collection of Universal Service Obligation Fund",
+    "Department of Telecommunications — Telecom policy and licensing"
+   ],
+   "a": 2,
+   "x": "TEC is DoT’s technical body for telecom standards and equipment testing. Collection of USOF is not its stated role.",
+   "ty": "negative",
+   "tq": "Find the body-role mismatch by distinguishing policy, regulation, adjudication and technical functions.",
+   "sec": "Telecom bodies - role (DoT, TRAI, TDSAT, C-DOT, TEC), 1980s reforms, EMF limits for towers  [APPSC]"
+  },
+  {
+   "s": "The Telecom Regulatory Authority of India (TRAI) was established in which year under the TRAI Act?",
+   "o": [
+    "1984",
+    "1986",
+    "1997",
+    "2000"
+   ],
+   "a": 2,
+   "x": "TRAI was set up in 1997 under the TRAI Act as the regulator of telecom and broadcasting.",
+   "ty": "numerical",
+   "tq": "Distinguish the regulatory body’s establishment year from nearby telecom reform years.",
+   "sec": "Telecom bodies - role (DoT, TRAI, TDSAT, C-DOT, TEC), 1980s reforms, EMF limits for towers  [APPSC]"
+  },
+  {
+   "s": "TDSAT was created primarily to perform which of the following functions?",
+   "o": [
+    "Settle disputes and hear appeals against TRAI",
+    "Develop telecom equipment and standards",
+    "Manage the national spectrum allocation process",
+    "Operate public-sector telephone exchanges"
+   ],
+   "a": 0,
+   "x": "TDSAT is the Telecom Disputes Settlement and Appellate Tribunal, created to settle disputes and hear appeals against TRAI.",
+   "ty": "fact",
+   "tq": "Match the adjudicatory body with its distinctive dispute-settlement function.",
+   "sec": "Telecom bodies - role (DoT, TRAI, TDSAT, C-DOT, TEC), 1980s reforms, EMF limits for towers  [APPSC]"
+  },
+  {
+   "s": "TDSAT was created by which of the following?",
+   "o": [
+    "The 2012 EMF regulation",
+    "The 2000 amendment",
+    "The 1997 TRAI Act itself",
+    "The 1984 telecom reform"
+   ],
+   "a": 1,
+   "x": "TDSAT was created by the 2000 amendment.",
+   "ty": "fact",
+   "tq": "Use the close-date trap between the creation of TRAI and the later creation of TDSAT.",
+   "sec": "Telecom bodies - role (DoT, TRAI, TDSAT, C-DOT), 1980s reforms, EMF limits for towers  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "C-DOT — Government telecom research and development centre",
+    "TEC — Broadcasting content regulator",
+    "TRAI — Telecom equipment testing body",
+    "TDSAT — Telecom research laboratory"
+   ],
+   "a": 0,
+   "x": "C-DOT is the government telecom research and development centre. TEC is associated with technical standards and equipment testing, TRAI with regulation, and TDSAT with dispute settlement.",
+   "ty": "match",
+   "tq": "Start from the sure institutional pair and reject swapped organisational roles.",
+   "sec": "Telecom bodies - role (DoT, TRAI, TDSAT, C-DOT, TEC), 1980s reforms, EMF limits for towers  [APPSC]"
+  },
+  {
+   "s": "Arrange the following developments in the telecommunications sector in chronological order:\nA. Establishment of C-DOT\nB. Creation of the Department of Telecommunications after the split of Posts and Telecom\nC. Establishment of MTNL and VSNL\nD. Establishment of TRAI",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, A, B, C"
+   ],
+   "a": 0,
+   "x": "C-DOT was set up in 1984, DoT was created in 1985, MTNL and VSNL were established in 1986, and TRAI was set up in 1997.",
+   "ty": "chronology",
+   "tq": "Fix the sequence using the stated years and then place the later regulatory reform.",
+   "sec": "Telecom bodies - role (DoT, TRAI, TDSAT, C-DOT, 1980s reforms, EMF limits for towers  [APPSC]"
+  },
+  {
+   "s": "C-DOT was set up in which year?",
+   "o": [
+    "1984",
+    "1985",
+    "1986",
+    "1997"
+   ],
+   "a": 0,
+   "x": "C-DOT, the government telecom R&D centre, was set up in 1984.",
+   "ty": "numerical",
+   "tq": "Separate adjacent reform years by linking each year to its institution.",
+   "sec": "Telecom bodies - role (DoT, TRAI, TDSAT, C-DOT, 1980s reforms, EMF limits for towers  [APPSC]"
+  },
+  {
+   "s": "India’s EMF exposure limit for telecom towers, applicable since 2012, is generally set at what fraction of the ICNIRP limit?",
+   "o": [
+    "One-hundredth",
+    "One-half",
+    "One-third",
+    "One-tenth"
+   ],
+   "a": 3,
+   "x": "India’s tower EMF limits since 2012 are set at one-tenth of the ICNIRP limits.",
+   "ty": "numerical",
+   "tq": "Test the distinctive fraction directly and guard against proportion swaps.",
+   "sec": "Telecom bodies - role (DoT, TRAI, TDSAT, C-DOT, 1980s reforms, EMF limits for towers  [APPSC]"
+  },
+  {
+   "s": "At 1800 MHz, which of the following correctly states the EMF values referred to for India and ICNIRP respectively?",
+   "o": [
+    "India: 0.92 W/m²; ICNIRP: 9.2 W/m²",
+    "India: 0.092 W/m²; ICNIRP: 0.92 W/m²",
+    "India: 92 W/m²; ICNIRP: 9.2 W/m²",
+    "India: 9.2 W/m²; ICNIRP: 0.92 W/m²"
+   ],
+   "a": 0,
+   "x": "At 1800 MHz, the Indian limit is 0.92 W/m², while the ICNIRP value is 9.2 W/m².",
+   "ty": "numerical",
+   "tq": "Compare the paired values carefully and avoid reversing the authority-specific limits.",
+   "sec": "Telecom bodies - role (DoT, TRAI, TDSAT, C-DOT, 1980s reforms, EMF limits for towers  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the core technology of 1G mobile communication?",
+   "o": [
+    "CDMA-based mobile data",
+    "LTE with OFDMA",
+    "Analog voice with FDMA",
+    "Digital voice with GSM"
+   ],
+   "a": 2,
+   "x": "1G, associated with the 1980s, used analog voice and FDMA.",
+   "ty": "fact",
+   "tq": "Match the earliest generation with its analogue voice and access technology.",
+   "sec": "Mobile generations 1G-6G - core technology, speed, GSM family terms  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about mobile generations:\n1. 2G introduced digital communication and included GSM and CDMA.\n2. SMS is associated with 2G services.\n3. 3G was based on mobile data and included WCDMA and CDMA2000.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: 2G was digital and supported GSM/CDMA and SMS, while 3G used CDMA-based technologies such as WCDMA and CDMA2000.",
+   "ty": "statements",
+   "tq": "Test the transition from 2G digital services to 3G CDMA-based data.",
+   "sec": "Mobile generations 1G-6G - core technology, speed, GSM family terms  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with the intermediate GSM data technology?",
+   "o": [
+    "2.5G — GPRS; 2.75G — EDGE",
+    "2.5G — LTE; 2.75G — FDMA",
+    "2.5G — VoLTE; 2.75G — OFDMA",
+    "2.5G — CDMA2000; 2.75G — WCDMA"
+   ],
+   "a": 0,
+   "x": "GPRS is associated with 2.5G and EDGE with 2.75G, both representing faster GSM data developments.",
+   "ty": "match",
+   "tq": "Discriminate between closely named intermediate generations using their associated technologies.",
+   "sec": "Mobile generations 1G-6G - core technology, speed, GSM family terms  [APPSC]"
+  },
+  {
+   "s": "With reference to 4G mobile technology, consider the following statements:\n1. LTE is associated with 4G.\n2. OFDMA is used in 4G.\n3. VoLTE means voice over the LTE data network.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "LTE and OFDMA are associated with 4G, and VoLTE denotes voice carried over the LTE data network.",
+   "ty": "statements",
+   "tq": "Check the generation, access method and precise expansion together.",
+   "sec": "Mobile generations 1G-6G - core technology, speed, GSM family terms  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding 5G and 6G is correct?",
+   "o": [
+    "5G uses GPRS while 6G is based exclusively on EDGE.",
+    "5G uses OFDMA and can provide latency as low as 1 millisecond; 6G is expected in the early 2030s.",
+    "5G uses FDMA and 6G was fully deployed in the 1980s.",
+    "5G is limited to analog voice and 6G uses only copper networks."
+   ],
+   "a": 1,
+   "x": "5G uses OFDMA and may achieve latency as low as 1 ms. 6G is expected in the early 2030s.",
+   "ty": "comparison",
+   "tq": "Contrast adjacent generations while checking technology, performance and expected timeframe.",
+   "sec": "Mobile generations 1G-6G - core technology, speed, GSM family terms  [APPSC]"
+  },
+  {
+   "s": "The expression “omnipresent wireless intelligence” is associated with which generation of mobile communication?",
+   "o": [
+    "3G",
+    "5G",
+    "6G",
+    "2G"
+   ],
+   "a": 2,
+   "x": "“Omnipresent wireless intelligence” is used to describe the expected character of 6G communication.",
+   "ty": "fact",
+   "tq": "Test the distinctive descriptive phrase associated with the future generation.",
+   "sec": "Mobile generations 1G-6G - core technology, speed, GSM family terms  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "WiMAX — Wireless Local Loop replacing the copper last mile",
+    "WiMAX — IEEE 802.16 wireless broadband",
+    "WLL — IEEE 802.16 satellite standard",
+    "WLL — Optical fibre repeater technology"
+   ],
+   "a": 1,
+   "x": "WiMAX is IEEE 802.16 wireless broadband. WLL refers to a radio link that replaces the copper last mile.",
+   "ty": "confusable",
+   "tq": "Separate two similar wireless terms by matching each with its exact technical description.",
+   "sec": "Mobile generations 1G-6G - core technology, speed, GSM family terms  [APPSC]"
+  },
+  {
+   "s": "Which of the following is a characteristic of Li-Fi rather than Wi-Fi?",
+   "o": [
+    "It provides longer range through radio transmission.",
+    "It uses radio waves and passes through walls.",
+    "It uses visible light from LEDs and generally does not pass through walls.",
+    "It is a wired optical network using fibre cables."
+   ],
+   "a": 2,
+   "x": "Li-Fi uses visible light from LEDs and does not pass through walls. Wi-Fi uses radio waves and can pass through walls.",
+   "ty": "comparison",
+   "tq": "Use the paired-medium and wall-penetration distinction to separate Li-Fi from Wi-Fi.",
+   "sec": "Li-Fi and Visible Light Communication - full form, medium, vs Wi-Fi  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about Li-Fi:\n1. It is a form of wireless optical networking.\n2. It transmits data using LEDs.\n3. It was coined as a term by Harald Haas in 2011.\n4. It generally offers more bandwidth, efficiency and security than Wi-Fi.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe Li-Fi, including its LED-based optical transmission, the origin of the term and its stated advantages over Wi-Fi.",
+   "ty": "statements",
+   "tq": "Use a complete set of technical characteristics and identify the all-correct combination.",
+   "sec": "Li-Fi and Visible Light Communication - full form, medium, vs Wi-Fi  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched in the comparison of Li-Fi and Wi-Fi?",
+   "o": [
+    "Wi-Fi — Suitable for wireless local area networks",
+    "Li-Fi — Visible light from LEDs",
+    "Wi-Fi — Radio waves",
+    "Li-Fi — Generally longer range than Wi-Fi"
+   ],
+   "a": 3,
+   "x": "Wi-Fi has longer range than Li-Fi. Li-Fi is associated with visible light, while Wi-Fi uses radio waves and supports wireless LANs.",
+   "ty": "negative",
+   "tq": "Detect the reversed comparison in the range characteristic.",
+   "sec": "Li-Fi and Visible Light Communication - full form, medium, vs Wi-Fi  [APPSC]"
+  },
+  {
+   "s": "Free-Space Optical (FSO) communication transmits data primarily through which medium?",
+   "o": [
+    "Laser or light beams without fibre",
+    "Copper wires",
+    "Low-frequency radio waves only",
+    "Undersea coaxial cables"
+   ],
+   "a": 0,
+   "x": "FSO communication sends data through laser or light beams without using fibre cables.",
+   "ty": "fact",
+   "tq": "Distinguish free-space optical transmission from fibre-guided optical transmission.",
+   "sec": "Li-Fi and Visible Light Communication - full form, medium, vs Wi-Fi  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the reported high-speed FSO link is correct?",
+   "o": [
+    "It was a 2 Mbit/s link using Wi-Fi routers.",
+    "It was the world’s first 2 Tbit/s FSO link using small terminals for satellites and HAPS.",
+    "It was a 2 Tbit/s copper link between mobile towers.",
+    "It was a 2 Gbit/s link using undersea fibre cables only."
+   ],
+   "a": 1,
+   "x": "The reported link was the world’s first 2 Tbit/s free-space optical link, using small terminals for satellites and high-altitude platform stations.",
+   "ty": "numerical",
+   "tq": "Preserve the unit scale and application context while rejecting altered figures.",
+   "sec": "Li-Fi and Visible Light Communication - full form, medium, vs Wi-Fi  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the spectrum-band characteristics of 5G?",
+   "o": [
+    "mmWave is used only for satellite television and not for 5G.",
+    "Sub-6 GHz offers wider coverage and better penetration, whereas mmWave offers very high data rates over short ranges.",
+    "Sub-6 GHz is restricted to short-range communication, whereas mmWave offers the widest coverage.",
+    "Both sub-6 GHz and mmWave have identical coverage and penetration characteristics."
+   ],
+   "a": 1,
+   "x": "Sub-6 GHz bands provide wider coverage and better penetration, while mmWave bands provide very high data rates but have short range.",
+   "ty": "comparison",
+   "tq": "Test the reversed coverage, penetration and data-rate comparison between 5G bands.",
+   "sec": "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons  [APPSC]"
+  },
+  {
+   "s": "Network slicing in 5G refers to which of the following?",
+   "o": [
+    "Restricting one network to a single application",
+    "Dividing one network into virtual slices for different services",
+    "Splitting an optical fibre into copper segments",
+    "Dividing a physical tower into separate buildings"
+   ],
+   "a": 1,
+   "x": "Network slicing creates virtual network slices from one physical network, allowing different services to receive suitably configured resources.",
+   "ty": "application",
+   "tq": "Apply the abstract networking concept to its service-differentiation meaning.",
+   "sec": "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons  [APPSC]"
+  },
+  {
+   "s": "What is the principal feature of 5G Standalone (SA) architecture?",
+   "o": [
+    "It requires copper last-mile connections.",
+    "It eliminates network slicing.",
+    "It operates without a 4G core.",
+    "It operates only through a 3G core."
+   ],
+   "a": 2,
+   "x": "5G SA runs without a 4G core, enabling lower latency and better network slicing capabilities.",
+   "ty": "fact",
+   "tq": "Use the architecture distinction between standalone and non-standalone deployment.",
+   "sec": "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons  [APPSC]"
+  },
+  {
+   "s": "Which of the following are recognised uses or application areas of 5G?\n1. Enhanced mobile broadband\n2. Internet of Things\n3. Augmented and virtual reality\n4. Remote surgery and autonomous vehicles\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "5G applications include eMBB, IoT, AR/VR, remote surgery and autonomous vehicles.",
+   "ty": "statements",
+   "tq": "Recognise the broad application set and use the complete combination option.",
+   "sec": "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons  [APPSC]"
+  },
+  {
+   "s": "For vehicle communication, which technology does TRAI prefer over 4G/5G-based alternatives?",
+   "o": [
+    "C-V2X",
+    "FDMA",
+    "GPON",
+    "FSO"
+   ],
+   "a": 0,
+   "x": "TRAI prefers Cellular Vehicle-to-Everything (C-V2X) for vehicle communication over the stated 4G/5G alternatives.",
+   "ty": "fact",
+   "tq": "Match the regulatory preference with the specialised vehicle-communication term.",
+   "sec": "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly states the first 5G launch locations and dates mentioned for global and Indian deployment?",
+   "o": [
+    "South Korea in April 2019; India on 1 October 2022 at India Mobile Congress",
+    "Japan in April 2019; India on 1 January 2022 at Digital India Week",
+    "South Korea in October 2022; India on 1 April 2019 at India Mobile Congress",
+    "United States in 2018; India on 15 August 2021 at the World Mobile Congress"
+   ],
+   "a": 0,
+   "x": "The world’s first 5G launch was in South Korea in April 2019. India launched 5G on 1 October 2022 at India Mobile Congress.",
+   "ty": "chronology",
+   "tq": "Lock the answer through the paired country-date-event sequence.",
+   "sec": "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the Telecom Technology Development Fund (TTDF):\n1. It was introduced in 2022.\n2. It receives 5% of Digital Bharat Nidhi collections.\n3. It receives approximately Rs 500 crore per year.\n4. It has funded India 5G Stack, 6G and quantum-encryption projects.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "TTDF was introduced in 2022, receives 5% of Digital Bharat Nidhi collections—about Rs 500 crore annually—and has funded 5G Stack, 6G and quantum-encryption projects.",
+   "ty": "statements",
+   "tq": "Check the fund’s year, revenue share, annual amount and funded technologies as one factual cluster.",
+   "sec": "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons  [APPSC]"
+  },
+  {
+   "s": "The Open-RAN 5G partnership mentioned in the context of India is between which of the following?",
+   "o": [
+    "TRAI and TDSAT",
+    "BSNL and RailTel",
+    "DoT and DST",
+    "Airtel and Tata"
+   ],
+   "a": 3,
+   "x": "The indigenous Open-RAN 5G partnership is between Airtel and Tata.",
+   "ty": "fact",
+   "tq": "Identify the private-sector partnership rather than substituting telecom authorities or public-sector entities.",
+   "sec": "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons  [APPSC]"
+  },
+  {
+   "s": "Which institution ranked first in the Department of Telecommunications’ gradation of 100 5G Use Case Labs for January–June 2026 in all four categories?",
+   "o": [
+    "C-DOT Bengaluru",
+    "IIT Hyderabad",
+    "TRAI Innovation Centre",
+    "IIITDM Kurnool"
+   ],
+   "a": 3,
+   "x": "IIITDM Kurnool ranked first in DoT’s January–June 2026 gradation in all four categories.",
+   "ty": "fact",
+   "tq": "Match the institution with the specific ranking and evaluation period.",
+   "sec": "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the 5G Use Case Lab at IIITDM Kurnool:\n1. The lab was established in 2023.\n2. It had built 18 products.\n3. It ranked first in all four categories of the relevant DoT gradation.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The IIITDM Kurnool lab was established in 2023, had built 18 products and ranked first in all four categories of DoT’s gradation.",
+   "ty": "statements",
+   "tq": "Combine institutional achievement, date and output count in a coded question.",
+   "sec": "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons  [APPSC]"
+  },
+  {
+   "s": "The 5G & Beyond Hackathon 2023 was conducted by which organisation?",
+   "o": [
+    "Department of Telecommunications",
+    "Telecom Regulatory Authority of India",
+    "Department of Science and Technology",
+    "Centre for Development of Telematics"
+   ],
+   "a": 0,
+   "x": "The 5G & Beyond Hackathon 2023 was conducted by the Department of Telecommunications, not the Department of Science and Technology.",
+   "ty": "confusable",
+   "tq": "Apply the wrong-ministry trap by distinguishing DoT from DST.",
+   "sec": "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons  [APPSC]"
+  },
+  {
+   "s": "The 5G & Beyond Hackathon 2023 was open to which of the following groups?\n1. Individuals\n2. Students\n3. Start-ups\n4. Academics\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The hackathon was open to individuals, students, start-ups and academics.",
+   "ty": "statements",
+   "tq": "Treat the participation categories as a complete list and select the all-inclusive combination.",
+   "sec": "5G - spectrum bands, network slicing, uses, indigenous stack, launch, hackathons  [APPSC]"
+  }
+ ]
+}

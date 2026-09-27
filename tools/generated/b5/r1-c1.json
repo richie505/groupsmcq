@@ -1,0 +1,404 @@
+{
+ "book": 5,
+ "row": 1,
+ "chunk": 1,
+ "section": "Relevance of science and technology to day-to-day life - health, food, transport, communication, household",
+ "subsections": [
+  "Geospatial technology in public health",
+  "Household appliances → working principle",
+  "Smart materials and sensors → daily application",
+  "Transport technologies - EVs, FASTag, metro, GPS tracking, hydrogen",
+  "Universal angles",
+  "General science PYQs - Physics (motion, light, sound, heat, electricity, magnetism, units)",
+  "General science PYQs - Chemistry (elements, compounds, acids and bases, metals, everyday chemicals)",
+  "General science PYQs - Biology (cells, plants, animals, genetics, evolution)",
+  "General science PYQs - Human body (organs, blood, nutrition, vitamins, hormones)"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 27,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "In public health, the identification of disease hotspots is primarily associated with which application of geospatial technology?",
+   "o": [
+    "Laboratory culturing",
+    "Drug formulation",
+    "Facility sterilisation",
+    "Disease mapping"
+   ],
+   "a": 3,
+   "x": "Disease mapping uses geospatial technology to identify and visualise disease hotspots.",
+   "ty": "fact",
+   "tq": "Use the direct definition of the application rather than confusing it with a clinical or laboratory process.",
+   "sec": "Geospatial technology in public health  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the use of geospatial technology in public health are correct?\n1. Aarogya Setu used Bluetooth and GPS for COVID-19 contact tracing.\n2. Facility location may consider population distribution and travel time.\n3. Disease mapping is used to identify disease hotspots.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Geospatial tools support contact tracing, hotspot mapping and the selection of suitable locations for PHCs and hospitals.",
+   "ty": "statements",
+   "tq": "Check each statement against a distinct application before selecting the coded combination.",
+   "sec": "Geospatial technology in public health  [APPSC]"
+  },
+  {
+   "s": "GIS-enabled real-time disease surveillance is carried out through which platform of the Integrated Disease Surveillance Programme?",
+   "o": [
+    "National Medical Commission Platform",
+    "National One Health Mission",
+    "Health Facility Mapping System",
+    "Integrated Health Information Platform"
+   ],
+   "a": 3,
+   "x": "The Integrated Health Information Platform, or IHIP, of IDSP supports GIS-enabled real-time disease surveillance.",
+   "ty": "fact",
+   "tq": "Distinguish the named digital platform from the broader mission or programme.",
+   "sec": "Geospatial technology in public health  [APPSC]"
+  },
+  {
+   "s": "The epidemiology unit of AIIMS Mangalagiri is associated with which of the following activities?\n1. Tracking regional outbreaks\n2. Mapping non-communicable disease indicators\n3. Operating the National One Health Mission\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The epidemiology unit at AIIMS Mangalagiri tracks regional outbreaks and maps NCD indicators. Operating the National One Health Mission is not stated as its function.",
+   "ty": "statements",
+   "tq": "Find the one statement that assigns a broader national mission to a specialised institutional unit.",
+   "sec": "Geospatial technology in public health  [APPSC]"
+  },
+  {
+   "s": "The National One Health Mission brings together which sectors to address zoonoses and antimicrobial resistance?",
+   "o": [
+    "Health, Agriculture, Finance and Railways",
+    "Health, Animal Husbandry, Environment and Science and Technology",
+    "Environment, Education, Defence and Commerce",
+    "Animal Husbandry, Tourism, Housing and Heavy Industries"
+   ],
+   "a": 1,
+   "x": "The mission joins the Health, Animal Husbandry, Environment and Science and Technology ministries to address zoonoses and antimicrobial resistance.",
+   "ty": "match",
+   "tq": "Match the mission with its participating ministries and stated targets.",
+   "sec": "Geospatial technology in public health  [APPSC]"
+  },
+  {
+   "s": "Microwave ovens heat food primarily because microwaves of approximately which frequency cause water molecules to rotate?",
+   "o": [
+    "245 GHz",
+    "24.5 MHz",
+    "2.45 MHz",
+    "2.45 GHz"
+   ],
+   "a": 3,
+   "x": "Microwave ovens use microwaves of about 2.45 GHz, which make water molecules rotate and thereby generate heat.",
+   "ty": "numerical",
+   "tq": "Separate MHz from GHz while retaining the exact numerical value.",
+   "sec": "Household appliances → working principle  [other exams]"
+  },
+  {
+   "s": "Which one of the following correctly describes the vapour-compression cycle in a refrigerator?",
+   "o": [
+    "The refrigerant releases heat while evaporating inside the refrigerator and absorbs it at the condenser.",
+    "Water absorbs heat at the condenser and releases it in the freezer.",
+    "The refrigerant absorbs heat while evaporating inside the refrigerator and releases it at the condenser.",
+    "The refrigerant produces cold by electromagnetic induction in the storage chamber."
+   ],
+   "a": 2,
+   "x": "In a vapour-compression refrigerator, the refrigerant absorbs heat while evaporating inside and releases heat at the condenser.",
+   "ty": "application",
+   "tq": "Follow the direction of heat transfer rather than relying on the familiar but imprecise idea that the refrigerator creates cold.",
+   "sec": "Household appliances → working principle  [other exams]"
+  },
+  {
+   "s": "Consider the following statements:\n1. An induction cooktop works through electromagnetic induction.\n2. Eddy currents are produced in a ferromagnetic vessel such as an iron or steel vessel.\n3. The cooking vessel is heated mainly by combustion of LPG.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Induction cooking uses electromagnetic induction and eddy currents in a ferromagnetic vessel. It does not heat the vessel by LPG combustion.",
+   "ty": "statements",
+   "tq": "Reject the statement that substitutes a nearby household technology for the actual working principle.",
+   "sec": "Household appliances → working principle  [other exams]"
+  },
+  {
+   "s": "Light emission from an LED is based on electroluminescence occurring at a semiconductor",
+   "o": [
+    "vacuum chamber",
+    "metallic filament",
+    "p-n junction",
+    "electrolytic cell"
+   ],
+   "a": 2,
+   "x": "An LED produces light through electroluminescence at a semiconductor p-n junction.",
+   "ty": "fact",
+   "tq": "Recall the exact semiconductor component instead of the older filament-based lighting principle.",
+   "sec": "Household appliances → working principle  [other exams]"
+  },
+  {
+   "s": "Reverse osmosis purifiers produce purified water by",
+   "o": [
+    "rotating water molecules with microwaves",
+    "using electromagnetic induction in a steel container",
+    "applying pressure against osmosis to push water through a semi-permeable membrane",
+    "boiling water at a pressure of about 120°C"
+   ],
+   "a": 2,
+   "x": "An RO purifier applies pressure against osmosis and forces water through a semi-permeable membrane.",
+   "ty": "application",
+   "tq": "Identify the process from the direction of pressure and membrane movement.",
+   "sec": "Household appliances → working principle  [other exams]"
+  },
+  {
+   "s": "Why does food cook faster in a pressure cooker?",
+   "o": [
+    "The pressure lowers the boiling point of water below room temperature.",
+    "The cooker converts water directly into ice vapour.",
+    "Higher pressure raises the boiling point of water to about 120°C.",
+    "The cooker uses electromagnetic induction in all types of vessels."
+   ],
+   "a": 2,
+   "x": "Higher pressure raises the boiling point of water to about 120°C, allowing food to cook at a higher temperature.",
+   "ty": "application",
+   "tq": "Link the appliance effect to the change in boiling point rather than to the source of heat.",
+   "sec": "Household appliances → working principle  [other exams]"
+  },
+  {
+   "s": "In March 2026, the demand for induction stoves rose by approximately how much amid fears of LPG shortages?",
+   "o": [
+    "Two-fold",
+    "Ten-fold",
+    "Five-fold",
+    "Three-fold"
+   ],
+   "a": 3,
+   "x": "Induction stove demand rose by about three-fold in March 2026 amid fears of LPG shortages.",
+   "ty": "numerical",
+   "tq": "Use the approximate multiplier given for the current-affairs development.",
+   "sec": "Household appliances → working principle  [other exams]"
+  },
+  {
+   "s": "Hydrogels find application in which of the following groups?",
+   "o": [
+    "Contact lenses, wound dressings, diapers and drug delivery",
+    "Solar cells, transformers, magnets and satellites",
+    "Brake fluids, cement, glass and steel",
+    "Tyres, batteries, optical fibres and semiconductors only"
+   ],
+   "a": 0,
+   "x": "Hydrogels are water-absorbing polymers used in contact lenses, wound dressings, diapers and drug delivery.",
+   "ty": "match",
+   "tq": "Match the smart material with its cluster of daily-life applications.",
+   "sec": "Smart materials and sensors → daily application  [other exams]"
+  },
+  {
+   "s": "Which of the following is an application of an accelerometer in a mobile or vehicle system?\n1. Detecting sudden deceleration to trigger airbags\n2. Enabling screen rotation\n3. Counting steps\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "An accelerometer can detect sudden deceleration for airbag deployment and can also support screen rotation and step counting.",
+   "ty": "statements",
+   "tq": "Recognise that one sensor can support several applications rather than treating them as mutually exclusive.",
+   "sec": "Smart materials and sensors → daily application  [other exams]"
+  },
+  {
+   "s": "MEMS sensors in mobile phones are associated with which of the following components?\n1. Gyroscopes\n2. Microphones\n3. Pressure sensors\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Micro-electro-mechanical systems are used in phone gyroscopes, microphones and pressure sensors.",
+   "ty": "statements",
+   "tq": "Treat the three listed examples as separate applications of the same technology.",
+   "sec": "Smart materials and sensors → daily application  [other exams]"
+  },
+  {
+   "s": "Which one of the following best describes the graphene oxide sensor developed with pencil-drawn electrodes?",
+   "o": [
+    "A low-cost flexible sensor",
+    "A combustion-based heat sensor",
+    "A high-pressure rigid sensor",
+    "A disposable optical lens"
+   ],
+   "a": 0,
+   "x": "The graphene oxide sensor is described as a low-cost flexible sensor using pencil-drawn electrodes.",
+   "ty": "fact",
+   "tq": "Select the option retaining both defining descriptors: low-cost and flexible.",
+   "sec": "Smart materials and sensors → daily application  [other exams]"
+  },
+  {
+   "s": "Flexible batteries using graphene or carbon-fibre electrodes are intended to power",
+   "o": [
+    "only railway locomotives",
+    "only household refrigerators",
+    "wearables and flexible displays",
+    "large hydroelectric turbines"
+   ],
+   "a": 2,
+   "x": "Graphene- or carbon-fibre-electrode flexible batteries can power wearables and flexible displays.",
+   "ty": "application",
+   "tq": "Connect the material property of flexibility with the devices requiring flexible power sources.",
+   "sec": "Smart materials and sensors → daily application  [other exams]"
+  },
+  {
+   "s": "Which of the following correctly distinguishes FASTag from a metro card?",
+   "o": [
+    "FASTag uses passive NFC, whereas a metro card uses active RFID powered by a battery.",
+    "FASTag uses passive RFID, whereas a metro card uses passive NFC at 13.56 MHz and about 4 cm range.",
+    "FASTag uses active GPS, whereas a metro card uses passive Bluetooth.",
+    "Both use only satellite communication and require an internal battery."
+   ],
+   "a": 1,
+   "x": "FASTag is a passive RFID system powered by the reader's field. Metro cards use passive NFC, generally at 13.56 MHz and about 4 cm range.",
+   "ty": "confusable",
+   "tq": "Separate the two similar contactless systems by technology, frequency and range.",
+   "sec": "Transport technologies - EVs, FASTag, metro, GPS tracking, hydrogen"
+  },
+  {
+   "s": "Which one of the following statements about FASTag is correct?",
+   "o": [
+    "It is an active GPS device powered by a lithium-ion battery.",
+    "It is a passive optical code read only by cameras.",
+    "It is a passive RFID tag powered by the field of the reader.",
+    "It communicates exclusively through 5G cellular networks."
+   ],
+   "a": 2,
+   "x": "FASTag uses passive RFID and obtains power from the reader's field; it does not require an independent battery for its basic operation.",
+   "ty": "fact",
+   "tq": "Identify the power source and communication technology instead of confusing RFID with GPS or cellular communication.",
+   "sec": "Transport technologies - EVs, FASTag, metro, GPS tracking, hydrogen"
+  },
+  {
+   "s": "India's own satellite-based navigation system is known as",
+   "o": [
+    "DSRC",
+    "IHIP",
+    "C-V2X",
+    "NavIC"
+   ],
+   "a": 3,
+   "x": "NavIC is India's own satellite-based navigation system and supports location-related services.",
+   "ty": "fact",
+   "tq": "Distinguish the national navigation system from transport communication standards and health platforms.",
+   "sec": "Transport technologies - EVs, FASTag, metro, GPS tracking, hydrogen"
+  },
+  {
+   "s": "Consider the following statements regarding vehicle communication technologies:\n1. C-V2X uses 4G and 5G networks.\n2. DSRC is Wi-Fi-based.\n3. The TRAI consultation paper preferred DSRC over C-V2X.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "C-V2X uses 4G/5G and DSRC is Wi-Fi-based. The TRAI consultation paper preferred C-V2X over DSRC, making statement 3 false.",
+   "ty": "statements",
+   "tq": "Use the reversed-comparison trap in the third statement after verifying the technical characteristics.",
+   "sec": "Transport technologies - EVs, FASTag, metro, GPS tracking, hydrogen"
+  },
+  {
+   "s": "The National Mission on Interdisciplinary Cyber-Physical Systems was approved in which year, with an allocation of ₹3,660 crore for nine years?",
+   "o": [
+    "2016",
+    "2018",
+    "2020",
+    "2022"
+   ],
+   "a": 1,
+   "x": "The National Mission on Interdisciplinary Cyber-Physical Systems was approved in 2018 with ₹3,660 crore allocated for nine years.",
+   "ty": "numerical",
+   "tq": "Match the approval year with the associated financial allocation and duration.",
+   "sec": "Transport technologies - EVs, FASTag, metro, GPS tracking, hydrogen"
+  },
+  {
+   "s": "Which of the following is an example of a cyber-physical system?",
+   "o": [
+    "A manual thermometer without digital control",
+    "A conventional paper ticket",
+    "A printed road map",
+    "A driverless car"
+   ],
+   "a": 3,
+   "x": "Driverless cars and smart factories are examples of cyber-physical systems, in which computational systems interact with physical processes.",
+   "ty": "application",
+   "tq": "Identify the option combining computation, sensing and control of a physical process.",
+   "sec": "Transport technologies - EVs, FASTag, metro, GPS tracking, hydrogen"
+  },
+  {
+   "s": "Hydrogen fuel-cell vehicles generate electricity through the reaction of",
+   "o": [
+    "carbon dioxide and nitrogen, with oxygen emitted",
+    "hydrogen and nitrogen, with carbon monoxide emitted",
+    "hydrogen and oxygen, with only water emitted",
+    "methane and oxygen, with sulphur dioxide emitted"
+   ],
+   "a": 2,
+   "x": "A hydrogen fuel cell combines H2 and O2 to produce electricity, with water as the only emission stated.",
+   "ty": "application",
+   "tq": "Follow the reactants and stated emission instead of confusing fuel cells with combustion engines.",
+   "sec": "Transport technologies - EVs, FASTag, metro, GPS tracking, hydrogen"
+  },
+  {
+   "s": "Which statement correctly describes an electric vehicle as presented in transport technology applications?",
+   "o": [
+    "It uses a steam engine powered by a pressure cooker principle.",
+    "It uses a petrol-driven motor with reduced tailpipe emission.",
+    "It uses lithium-ion battery-driven motors and has no tailpipe emission.",
+    "It uses a hydrogen combustion engine and emits only nitrogen."
+   ],
+   "a": 2,
+   "x": "Electric vehicles use motors driven by lithium-ion batteries and have no tailpipe emission.",
+   "ty": "fact",
+   "tq": "Distinguish battery-electric propulsion from hydrogen, petrol and steam propulsion.",
+   "sec": "Transport technologies - EVs, FASTag, metro, GPS tracking, hydrogen"
+  },
+  {
+   "s": "The Supreme Court notice concerning unregulated welfare-related artificial intelligence was reported in",
+   "o": [
+    "July 2026",
+    "August 2026",
+    "September 2026",
+    "March 2026"
+   ],
+   "a": 1,
+   "x": "The Supreme Court notice on unregulated welfare AI was reported on 14 August 2026.",
+   "ty": "numerical",
+   "tq": "Retain the month associated with the reported current-affairs development.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Food-safety reform roadmap — July 2026\n2. AIIMS Mangalagiri — digital health, tele-medicine and AI screening research\n3. VFSTR Guntur — semiconductor and AI ties with Asia University in Taiwan\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correct. The food-safety reform roadmap was reported in July 2026, AIIMS Mangalagiri is associated with the listed digital-health activities, and VFSTR Guntur has the stated Taiwan collaboration.",
+   "ty": "match",
+   "tq": "Verify each institution or initiative against its associated activity, date or partner before choosing the code.",
+   "sec": "Universal angles"
+  }
+ ]
+}

@@ -1,0 +1,456 @@
+{
+ "book": 5,
+ "row": 13,
+ "chunk": 1,
+ "section": "Networks and the internet - LAN/WAN, protocols, IP, DNS, web technologies",
+ "subsections": [
+  "Network types and topologies - PAN, LAN, MAN, WAN, VPN",
+  "Internet governance - ICANN, NIXI and .in, Universal Acceptance, IDNs (BhashaNet)",
+  "Network devices and transmission - router, switch, hub, modem, duplex, DSL/cable/fibre",
+  "OSI model - seven layers → protocols/devices",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 32,
+ "rejected": {
+  "invalid": 1,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "A network confined to the personal devices of an individual, generally using Bluetooth, is known as:",
+   "o": [
+    "LAN",
+    "PAN",
+    "WAN",
+    "MAN"
+   ],
+   "a": 1,
+   "x": "PAN stands for Personal Area Network and connects an individual's nearby devices, commonly through Bluetooth.",
+   "ty": "fact",
+   "tq": "Use the coverage-area clue to distinguish network types.",
+   "sec": "Network types and topologies - PAN, LAN, MAN, WAN, VPN  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the usual geographical coverage of a MAN?",
+   "o": [
+    "A city",
+    "A single person's devices",
+    "An office building or campus",
+    "Several countries"
+   ],
+   "a": 0,
+   "x": "A Metropolitan Area Network (MAN) generally covers a city, placing it between a LAN and a WAN in geographical extent.",
+   "ty": "fact",
+   "tq": "Split the options by geographical scale.",
+   "sec": "Network types and topologies - PAN, LAN, MAN, WAN, VPN  [APPSC]"
+  },
+  {
+   "s": "A network that spans a large geographical area and links LANs at different locations is called:",
+   "o": [
+    "WAN",
+    "VPN",
+    "MAN",
+    "PAN"
+   ],
+   "a": 0,
+   "x": "A Wide Area Network (WAN) connects networks over large areas; the Internet is an example of a global WAN.",
+   "ty": "fact",
+   "tq": "Match the definition with the widest network category.",
+   "sec": "Network types and topologies - PAN, LAN, MAN, WAN, VPN  [APPSC]"
+  },
+  {
+   "s": "A Virtual Private Network primarily provides:",
+   "o": [
+    "A replacement for all network protocols",
+    "A wireless connection restricted to one room",
+    "A physical cable exclusively owned by a user",
+    "An encrypted tunnel over a public network"
+   ],
+   "a": 3,
+   "x": "A VPN creates an encrypted tunnel through a public network, improving the privacy of communication.",
+   "ty": "application",
+   "tq": "Identify the function rather than the physical form of the network.",
+   "sec": "Network types and topologies - PAN, LAN, MAN, WAN, VPN  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding network topologies:\n1. In a bus topology, all nodes share one backbone cable.\n2. In a star topology, failure of one node normally isolates the entire network.\n3. In a ring topology, each node is linked to two neighbouring nodes.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 3 are correct. In a star topology, failure of one node is generally isolated; failure of the central hub can stop the network.",
+   "ty": "statements",
+   "tq": "Find the incorrect resilience statement before selecting the code.",
+   "sec": "Network types and topologies - PAN, LAN, MAN, WAN, VPN  [APPSC]"
+  },
+  {
+   "s": "Which topology is characterised by every node being connected to every other node?",
+   "o": [
+    "Bus",
+    "Tree",
+    "Mesh",
+    "Ring"
+   ],
+   "a": 2,
+   "x": "In a mesh topology, every node is linked to every other node, making it highly resilient but costly.",
+   "ty": "fact",
+   "tq": "Use the complete-connectivity clue.",
+   "sec": "Network types and topologies - PAN, LAN, MAN, WAN, VPN  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Tree topology — It has no hierarchical structure",
+    "Bus topology — Failure of one node isolates only that node",
+    "Star topology — Failure of the central hub can stop all nodes",
+    "Ring topology — Every node is connected to every other node"
+   ],
+   "a": 2,
+   "x": "In a star topology, all nodes depend on the central hub or switch; its failure can stop the entire network.",
+   "ty": "comparison",
+   "tq": "Test the resilience consequence associated with each layout.",
+   "sec": "Network types and topologies - PAN, LAN, MAN, WAN, VPN  [APPSC]"
+  },
+  {
+   "s": "A tree topology is best described as:",
+   "o": [
+    "A single circular connection of nodes",
+    "A topology in which every node has a direct link to every other node",
+    "A network using only one backbone cable",
+    "A hierarchy of star networks"
+   ],
+   "a": 3,
+   "x": "A tree topology combines star networks in a hierarchy. Failure of a parent can affect the branch below it.",
+   "ty": "fact",
+   "tq": "Match the structural description with the topology name.",
+   "sec": "Network types and topologies - PAN, LAN, MAN, WAN, VPN  [APPSC]"
+  },
+  {
+   "s": "ICANN, established in 1998 as a United States non-profit organisation, is primarily associated with:",
+   "o": [
+    "Providing satellite Internet to villages",
+    "Regulating telephone tariffs in India",
+    "Managing India's .in registry alone",
+    "Coordinating the global domain name system and IP address allocation"
+   ],
+   "a": 3,
+   "x": "ICANN coordinates the global Domain Name System and IP address allocation. It was established in 1998 as a US non-profit organisation.",
+   "ty": "fact",
+   "tq": "Use the organisation-function and year combination.",
+   "sec": "Internet governance - ICANN, NIXI and .in, Universal Acceptance, IDNs (BhashaNet)  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about NIXI:\n1. It was established in 2003.\n2. It is a not-for-profit organisation under MeitY.\n3. It runs the .in registry and IRINN.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "NIXI was established in 2003, functions as a not-for-profit organisation under MeitY, and runs Internet exchange points, the .in registry and IRINN.",
+   "ty": "statements",
+   "tq": "Check each institutional detail before choosing the combined code.",
+   "sec": "Internet governance - ICANN, NIXI and .in, Universal Acceptance, IDNs (BhashaNet)  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT a function associated with NIXI?",
+   "o": [
+    "Running Internet exchange points",
+    "Running IRINN for IP addresses",
+    "Managing the .in registry",
+    "Coordinating the entire global DNS and global IP allocation system"
+   ],
+   "a": 3,
+   "x": "NIXI performs Indian Internet exchange, .in registry and IRINN functions. Global DNS coordination and global IP allocation are associated with ICANN.",
+   "ty": "negative",
+   "tq": "Separate the national Internet institution from the global coordinating body.",
+   "sec": "Internet governance - ICANN, NIXI and .in, Universal Acceptance, IDNs (BhashaNet)  [APPSC]"
+  },
+  {
+   "s": "An Internationalised Domain Name (IDN) is a domain name that:",
+   "o": [
+    "Is restricted to government websites",
+    "Works only without an Internet connection",
+    "Can be written only in hexadecimal characters",
+    "Uses local-language scripts"
+   ],
+   "a": 3,
+   "x": "IDNs permit domain names in local scripts, such as .Bharat written in Devanagari.",
+   "ty": "fact",
+   "tq": "Use the meaning of 'internationalised' in the domain-name context.",
+   "sec": "Internet governance - ICANN, NIXI and .in, Universal Acceptance, IDNs (BhashaNet)  [APPSC]"
+  },
+  {
+   "s": "Universal Acceptance in the context of Internet governance means that:",
+   "o": [
+    "All Internet content must be available without authentication",
+    "Every application and e-mail system should accept all valid domain names and e-mail IDs, including those in local scripts",
+    "Every country must use one common domain name",
+    "Only English-language domain names can be accessed universally"
+   ],
+   "a": 1,
+   "x": "Universal Acceptance ensures that applications and e-mail systems correctly accept all valid domain names and e-mail IDs, including IDNs.",
+   "ty": "application",
+   "tq": "Identify the inclusive technical standard rather than a content policy.",
+   "sec": "Internet governance - ICANN, NIXI and .in, Universal Acceptance, IDNs (BhashaNet)  [APPSC]"
+  },
+  {
+   "s": "BhashaNet, associated with MeitY and NIXI and launched in 2022, promotes:",
+   "o": [
+    "Replacement of .in by .com",
+    "Universal Acceptance for Indian languages",
+    "Satellite television broadcasting",
+    "Exclusive use of English on the Internet"
+   ],
+   "a": 1,
+   "x": "BhashaNet promotes Universal Acceptance and the use of Indian-language Internet domain names and e-mail IDs; it is associated with MeitY-NIXI and the year 2022.",
+   "ty": "fact",
+   "tq": "Combine the initiative, institutional partners and objective.",
+   "sec": "Internet governance - ICANN, NIXI and .in, Universal Acceptance, IDNs (BhashaNet)  [APPSC]"
+  },
+  {
+   "s": "Which provisions are associated with governmental blocking of online content in India?\n1. Section 69A of the Information Technology Act, 2000\n2. Section 79 of the Information Technology Act, 2000\n3. Section 3 of the Telegraph Act, 1885\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Sections 69A and 79 of the Information Technology Act, 2000 are associated with orders to ISPs and intermediaries for blocking content. Section 3 of the Telegraph Act is not the stated blocking provision.",
+   "ty": "statements",
+   "tq": "Eliminate the unrelated statutory provision.",
+   "sec": "Internet governance - ICANN, NIXI and .in, Universal Acceptance, IDNs (BhashaNet)  [APPSC]"
+  },
+  {
+   "s": "Which legislation replaced the Telegraph Act, 1885 and contains the power to suspend Internet services?",
+   "o": [
+    "Telecommunications Act, 2023",
+    "Information Technology Act, 2000",
+    "Indian Telegraph Rules, 1951",
+    "Digital Personal Data Protection Act, 2023"
+   ],
+   "a": 0,
+   "x": "The Telecommunications Act, 2023 replaced the Telegraph Act and contains the power to suspend Internet services.",
+   "ty": "fact",
+   "tq": "Distinguish content-blocking provisions from the later telecommunications legislation.",
+   "sec": "Internet governance - ICANN, NIXI and .in, Universal Acceptance, IDNs (BhashaNet)  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Device)\na. Hub\nb. Switch\nc. Router\nd. Modem\n\nList-II (Primary role)\ni. Routes packets using IP\n ii. Converts digital and analogue signals\n iii. Broadcasts data to all ports\n iv. Forwards frames using MAC addresses\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–iii, b–i, c–iv, d–ii"
+   ],
+   "a": 0,
+   "x": "A hub broadcasts to all ports, a switch forwards frames by MAC address, a router routes using IP, and a modem converts between digital and analogue signals.",
+   "ty": "match",
+   "tq": "Start from the sure device-function pairs and complete the code.",
+   "sec": "Network devices and transmission - router, switch, hub, modem, duplex, DSL/cable/fibre  [other exams]"
+  },
+  {
+   "s": "A repeater is used primarily to:",
+   "o": [
+    "Regenerate a weak signal",
+    "Assign domain names",
+    "Encrypt all application data",
+    "Route packets between different networks"
+   ],
+   "a": 0,
+   "x": "A repeater regenerates a weak signal and operates at the Physical layer.",
+   "ty": "fact",
+   "tq": "Match the device with its signal-level function.",
+   "sec": "Network devices and transmission - router, switch, hub, modem, duplex, DSL/cable/fibre  [other exams]"
+  },
+  {
+   "s": "A gateway differs from a router chiefly because a gateway:",
+   "o": [
+    "Joins networks using different protocols",
+    "Connects only Bluetooth devices",
+    "Operates only as a physical cable",
+    "Broadcasts every frame to all ports"
+   ],
+   "a": 0,
+   "x": "A gateway joins networks that use different protocols and may operate across all or upper OSI layers.",
+   "ty": "confusable",
+   "tq": "Discriminate between two nearby networking devices by their interoperability function.",
+   "sec": "Network devices and transmission - router, switch, hub, modem, duplex, DSL/cable/fibre  [other exams]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with its transmission mode?\n1. Radio or television broadcast — Simplex\n2. Walkie-talkie — Half duplex\n3. Telephone conversation — Full duplex\nSelect the correct answer.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Simplex permits one-way transmission, half duplex permits two-way transmission one at a time, and full duplex permits simultaneous two-way transmission.",
+   "ty": "statements",
+   "tq": "Compare the direction and simultaneity of communication.",
+   "sec": "Network devices and transmission - router, switch, hub, modem, duplex, DSL/cable/fibre  [other exams]"
+  },
+  {
+   "s": "Which transmission mode is used when communication can occur in both directions, but not simultaneously?",
+   "o": [
+    "Full duplex",
+    "Half duplex",
+    "Multiplex",
+    "Simplex"
+   ],
+   "a": 1,
+   "x": "Half duplex permits communication in both directions, but one direction operates at a time, as in a walkie-talkie.",
+   "ty": "confusable",
+   "tq": "Focus on the phrase 'both ways, one at a time'.",
+   "sec": "Network devices and transmission - router, switch, hub, modem, duplex, DSL/cable/fibre  [other exams]"
+  },
+  {
+   "s": "Consider the following statements about Internet connection media:\n1. DSL uses telephone copper lines.\n2. Cable Internet uses coaxial television cable.\n3. Fibre Internet transmits data as light pulses through optical fibre.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "DSL uses telephone copper lines, cable Internet uses coaxial TV cable, and fibre Internet uses optical fibre carrying light pulses.",
+   "ty": "statements",
+   "tq": "Match each technology with its physical transmission medium.",
+   "sec": "Network devices and transmission - router, switch, hub, modem, duplex, DSL/cable/fibre  [other exams]"
+  },
+  {
+   "s": "Satellite Internet generally consists of which three segments?",
+   "o": [
+    "Space, ground and user (VSAT) segments",
+    "Application, session and transport segments",
+    "Copper, coaxial and fibre segments",
+    "Router, switch and modem segments"
+   ],
+   "a": 0,
+   "x": "Satellite Internet has space, ground and user (VSAT) segments and does not require a terrestrial wire connection.",
+   "ty": "fact",
+   "tq": "Recall the three-part system architecture.",
+   "sec": "Network devices and transmission - router, switch, hub, modem, duplex, DSL/cable/fibre  [other exams]"
+  },
+  {
+   "s": "Which of the following represents the correct top-to-bottom order of the OSI model?",
+   "o": [
+    "Application, Presentation, Session, Transport, Network, Data Link, Physical",
+    "Physical, Data Link, Network, Transport, Session, Presentation, Application",
+    "Application, Session, Presentation, Network, Transport, Data Link, Physical",
+    "Presentation, Application, Session, Transport, Data Link, Network, Physical"
+   ],
+   "a": 0,
+   "x": "From the top layer downward, the OSI model is Application, Presentation, Session, Transport, Network, Data Link and Physical.",
+   "ty": "chronology",
+   "tq": "Use the first and last layers, then verify the middle sequence.",
+   "sec": "OSI model - seven layers → protocols/devices  [other exams]"
+  },
+  {
+   "s": "Match the following OSI layers with their associated functions or protocols:\nList-I (Layer)\na. Presentation\nb. Session\nc. Transport\nd. Data Link\n\nList-II (Function or protocol)\ni. TCP and UDP\nii. Encryption, compression and formats\n iii. Opens and closes sessions\n iv. MAC addressing and frame forwarding\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–iv, b–i, c–iii, d–ii",
+    "a–ii, b–iv, c–iii, d–i"
+   ],
+   "a": 0,
+   "x": "The Presentation layer handles encryption, compression and formats; the Session layer opens and closes sessions; the Transport layer uses TCP and UDP; and the Data Link layer handles MAC-based frame operations.",
+   "ty": "match",
+   "tq": "Start with the distinctive TCP/UDP and MAC pairs.",
+   "sec": "OSI model - seven layers → protocols/devices  [other exams]"
+  },
+  {
+   "s": "Which of the following is correctly matched with the OSI layer?\n1. HTTP — Application layer\n2. IP — Network layer\n3. MAC — Data Link layer\n4. Cables — Physical layer\nSelect the correct answer.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "HTTP is an Application-layer protocol, IP belongs to the Network layer, MAC is associated with the Data Link layer, and cables operate at the Physical layer.",
+   "ty": "statements",
+   "tq": "Use protocol and device layer matching to validate each statement.",
+   "sec": "OSI model - seven layers → protocols/devices  [other exams]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Switch — Data Link layer",
+    "Router — Network layer",
+    "Modem — Transport layer",
+    "Hub — Physical layer"
+   ],
+   "a": 2,
+   "x": "A modem is associated with the Physical layer because it modulates and demodulates signals; it is not a Transport-layer device.",
+   "ty": "negative",
+   "tq": "Find the device placed at the wrong OSI layer.",
+   "sec": "OSI model - seven layers → protocols/devices  [other exams]"
+  },
+  {
+   "s": "An organisation notices that a particular website is inaccessible to users of one Internet service provider, while users of another provider can access it. Which explanation is consistent with this situation?",
+   "o": [
+    "The provider may be using DNS poisoning, HTTP interception or SNI filtering",
+    "The OSI model has ceased to operate for that website",
+    "All websites have been permanently removed from the Internet",
+    "A PAN has automatically become a WAN"
+   ],
+   "a": 0,
+   "x": "ISPs may block sites through DNS poisoning, HTTP interception or SNI filtering on HTTPS. Consequently, blocklists and access results can differ between ISPs.",
+   "ty": "application",
+   "tq": "Apply the technical mechanism to the observed provider-specific outcome.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following correctly states the change in Internet connections in India mentioned for the period 2014–2024?",
+   "o": [
+    "From 2.515 crore to 9.696 crore",
+    "From 96.96 crore to 25.15 crore",
+    "From 25.15 lakh to 96.96 lakh",
+    "From 25.15 crore to 96.96 crore"
+   ],
+   "a": 3,
+   "x": "Internet connections increased from 25.15 crore in 2014 to 96.96 crore in 2024.",
+   "ty": "numerical",
+   "tq": "Check both the direction of change and the units.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "BharatNet fibre, as indicated for 2025–26, reaches approximately how many gram panchayats?",
+   "o": [
+    "2.18 lakh",
+    "2.18 crore",
+    "18.2 lakh",
+    "21.8 lakh"
+   ],
+   "a": 0,
+   "x": "BharatNet fibre reaches approximately 2.18 lakh gram panchayats according to the stated 2025–26 figure.",
+   "ty": "numerical",
+   "tq": "Distinguish the lakh figure from crore and reversed-number distractors.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which set of issues was discussed by Chief Minister Naidu and Sunil Mittal in relation to Andhra Pradesh?",
+   "o": [
+    "Only the replacement of optical fibre by copper cable",
+    "Coal mining, irrigation dams and inland waterways",
+    "Last-mile connectivity, data centres and an undersea cable landing station",
+    "Only satellite launching and missile testing"
+   ],
+   "a": 2,
+   "x": "The discussion concerned last-mile connectivity, data centres and an undersea cable landing station for Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Identify the complete issue cluster rather than a partial distractor.",
+   "sec": "Universal angles"
+  }
+ ]
+}

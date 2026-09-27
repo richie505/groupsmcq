@@ -1,0 +1,512 @@
+{
+ "book": 3,
+ "row": 88,
+ "chunk": 2,
+ "section": "Financial inclusion - PMJDY, MUDRA, microfinance and SHG-bank linkage; digital payments and UPI",
+ "subsections": [
+  "MUDRA - ministry, categories, limits, refinance",
+  "Financial inclusion and digital payment committees",
+  "Microfinance - NBFC-MFI regulation, MFIN, AP Ordinance 2010",
+  "SHG-bank linkage - pilot, institutions, NRLM, AP SERP/DWCRA",
+  "Social security trio - PMJJBY, PMSBY, APY"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Pradhan Mantri MUDRA Yojana (PMMY) was launched on which date?",
+   "o": [
+    "24 October 2024",
+    "9 May 2015",
+    "8 April 2015",
+    "18 March 2015"
+   ],
+   "a": 2,
+   "x": "PMMY was launched on 8 April 2015. MUDRA Ltd was established earlier, on 18 March 2015.",
+   "ty": "fact",
+   "tq": "Distinguish the scheme launch date from the institutional set-up date.",
+   "sec": "MUDRA - ministry, categories, limits, refinance  [APPSC]"
+  },
+  {
+   "s": "MUDRA Ltd, which refinances banks, NBFCs and MFIs under PMMY, was established as a subsidiary of which institution?",
+   "o": [
+    "NABARD",
+    "SEBI",
+    "PFRDA",
+    "SIDBI"
+   ],
+   "a": 3,
+   "x": "MUDRA Ltd was set up as a subsidiary of SIDBI on 18 March 2015 and undertakes refinance functions.",
+   "ty": "fact",
+   "tq": "Use the institutional-ownership trap by separating SIDBI from other financial regulators and institutions.",
+   "sec": "MUDRA - ministry, categories, limits, refinance  [APPSC]"
+  },
+  {
+   "s": "Which Union Ministry administers the Pradhan Mantri MUDRA Yojana?",
+   "o": [
+    "Ministry of Micro, Small and Medium Enterprises",
+    "Ministry of Finance through the Department of Financial Services",
+    "Ministry of Cooperation",
+    "Ministry of Rural Development"
+   ],
+   "a": 1,
+   "x": "PMMY is run by the Ministry of Finance, specifically through the Department of Financial Services.",
+   "ty": "fact",
+   "tq": "Apply the ‘which ministry’ trap by distinguishing the implementing ministry from the target sector.",
+   "sec": "MUDRA - ministry, categories, limits, refinance  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II regarding the categories of MUDRA loans:\n\nList-I (Category)\na. Shishu\nb. Kishore\nc. Tarun\nd. Tarun Plus\n\nList-II (Loan limit)\ni. ₹10 lakh to ₹20 lakh\nii. Up to ₹50,000\niii. ₹5 lakh to ₹10 lakh\niv. ₹50,001 to ₹5 lakh\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–ii, c–i, d–iii",
+    "a–ii, b–iii, c–iv, d–i",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "Shishu covers loans up to ₹50,000; Kishore covers ₹50,001–₹5 lakh; Tarun covers ₹5–₹10 lakh; and Tarun Plus covers ₹10–₹20 lakh.",
+   "ty": "match",
+   "tq": "Start from the sure pairs and eliminate codes that repeat or shift the category limits.",
+   "sec": "MUDRA - ministry, categories, limits, refinance  [APPSC]"
+  },
+  {
+   "s": "Tarun Plus under PMMY is intended for which borrowers?",
+   "o": [
+    "Borrowers who have successfully repaid Tarun loans",
+    "Existing borrowers seeking loans exclusively for agriculture",
+    "New borrowers seeking loans below ₹50,000",
+    "Only women borrowers in rural areas"
+   ],
+   "a": 0,
+   "x": "Tarun Plus provides loans of ₹10 lakh to ₹20 lakh to borrowers who have repaid their earlier Tarun loans.",
+   "ty": "fact",
+   "tq": "Test the eligibility condition attached to the highest MUDRA category.",
+   "sec": "MUDRA - ministry, categories, limits, refinance  [APPSC]"
+  },
+  {
+   "s": "Tarun Plus was introduced under PMMY with effect from:",
+   "o": [
+    "24 October 2024",
+    "30 July 2025",
+    "8 April 2015",
+    "1 October 2022"
+   ],
+   "a": 0,
+   "x": "The Tarun Plus category, covering ₹10 lakh to ₹20 lakh, was introduced from 24 October 2024.",
+   "ty": "numerical",
+   "tq": "Use the date-based distinction between the original PMMY launch and a later category expansion.",
+   "sec": "MUDRA - ministry, categories, limits, refinance  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly associated with PMMY?",
+   "o": [
+    "Loans restricted exclusively to large corporate enterprises",
+    "MUDRA Card based on RuPay",
+    "Collateral-free loans up to ₹20 lakh",
+    "Credit guarantees through CGFMU"
+   ],
+   "a": 0,
+   "x": "PMMY targets non-corporate, non-farm micro and small enterprises, not large corporate enterprises. Loans are collateral-free up to ₹20 lakh, supported by CGFMU guarantees, and linked with the MUDRA Card.",
+   "ty": "negative",
+   "tq": "Find the option that reverses the target group of the scheme.",
+   "sec": "MUDRA - ministry, categories, limits, refinance  [APPSC]"
+  },
+  {
+   "s": "PMMY primarily provides collateral-free credit to which of the following sectors?\n\n1. Non-corporate micro and small enterprises\n2. Non-farm enterprises\n3. Manufacturing, trading and services\n4. Allied agricultural activities\n\nSelect the correct answer using the code below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4",
+    "1 and 4 only"
+   ],
+   "a": 2,
+   "x": "PMMY covers non-corporate, non-farm micro and small enterprises in manufacturing, trading, services and allied agricultural activities.",
+   "ty": "statements",
+   "tq": "Recognise the broad sectoral coverage rather than treating MUDRA as an agriculture-only scheme.",
+   "sec": "MUDRA - ministry, categories, limits, refinance  [APPSC]"
+  },
+  {
+   "s": "According to the Economic Survey 2025–26 figure given for October 2025, PMMY had sanctioned approximately:",
+   "o": [
+    "40 crore loans worth ₹57 lakh crore",
+    "57 crore loans worth ₹40 lakh crore",
+    "36.18 crore loans worth ₹55.45 lakh crore",
+    "55.45 crore loans worth ₹36.18 lakh crore"
+   ],
+   "a": 3,
+   "x": "By October 2025, PMMY had covered 55.45 crore loans amounting to ₹36.18 lakh crore according to the cited Economic Survey figure.",
+   "ty": "numerical",
+   "tq": "Keep the loan count and aggregate amount in their correct positions.",
+   "sec": "MUDRA - ministry, categories, limits, refinance  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the later CDI figure associated with PMMY?",
+   "o": [
+    "57 crore-plus loans worth about ₹40 lakh crore, with 66% going to women",
+    "40 crore loans worth ₹57 lakh crore, with 66% going to women",
+    "55.45 crore loans worth ₹36.18 lakh crore, with 67% going to women",
+    "36 crore loans worth ₹57 lakh crore, with 40% going to women"
+   ],
+   "a": 0,
+   "x": "The later CDI figure refers to more than 57 crore loans worth about ₹40 lakh crore, with 66% of loans going to women and nearly half to SC, ST and OBC borrowers.",
+   "ty": "numerical",
+   "tq": "Compare closely related time-specific figures instead of merging separate statistical snapshots.",
+   "sec": "MUDRA - ministry, categories, limits, refinance  [APPSC]"
+  },
+  {
+   "s": "Who chaired the Committee on Comprehensive Financial Services for Small Businesses and Low-Income Households, which provided the basis for PMJDY and payments and small finance banks?",
+   "o": [
+    "Nachiket Mor",
+    "Deepak Mohanty",
+    "Rangarajan",
+    "Ratan Watal"
+   ],
+   "a": 0,
+   "x": "The Nachiket Mor Committee was constituted in 2013 and recommended comprehensive financial services, including a bank account for every household.",
+   "ty": "fact",
+   "tq": "Match the committee chairperson with the distinctive subject of the committee.",
+   "sec": "Financial inclusion and digital payment committees  [APPSC]"
+  },
+  {
+   "s": "Match the following committees with their subjects:\n\na. C. Rangarajan Committee\nb. Ratan Watal Committee\nc. Deepak Mohanty Committee\nd. Y.H. Malegam Committee\n\ni. Digital payments\n ii. Medium-term path on financial inclusion\n iii. Microfinance sector after the Andhra Pradesh crisis\n iv. Financial inclusion\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–iv, b–i, c–ii, d–iii",
+    "a–i, b–iv, c–iii, d–ii",
+    "a–iv, b–ii, c–i, d–iii",
+    "a–iii, b–i, c–ii, d–iv"
+   ],
+   "a": 0,
+   "x": "Rangarajan dealt with financial inclusion; Watal with digital payments; Mohanty with the medium-term path on financial inclusion; and Malegam with the microfinance sector after the AP crisis.",
+   "ty": "match",
+   "tq": "Start with the distinctive Malegam–microfinance pair and resolve the remaining matches.",
+   "sec": "Financial inclusion and digital payment committees  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the RBI Financial Inclusion Index?",
+   "o": [
+    "It uses 97 indicators, has a 0–100 scale and is published every July.",
+    "It uses 100 indicators, has a 0–10 scale and is published every April.",
+    "It uses 75 indicators, has a 0–100 scale and is published every July.",
+    "It uses 97 indicators, has a 0–1 scale and is published every January."
+   ],
+   "a": 0,
+   "x": "The FI-Index covers 97 indicators relating to banking, investment, insurance, postal and pension services; its scale is 0–100 and it is published every July.",
+   "ty": "numerical",
+   "tq": "Retain the index’s coverage, scale and publication month as a three-part numerical combination.",
+   "sec": "Financial inclusion and digital payment committees  [APPSC]"
+  },
+  {
+   "s": "The National Strategy for Financial Inclusion covering 2019–24 was issued by:",
+   "o": [
+    "SEBI",
+    "Ministry of Rural Development",
+    "RBI",
+    "NABARD"
+   ],
+   "a": 2,
+   "x": "The National Strategy for Financial Inclusion 2019–24 was issued by the Reserve Bank of India.",
+   "ty": "fact",
+   "tq": "Use the issuing-authority trap among institutions working in financial inclusion.",
+   "sec": "Financial inclusion and digital payment committees  [APPSC]"
+  },
+  {
+   "s": "Which development followed the Andhra Pradesh microfinance crisis and the 2010 Ordinance?",
+   "o": [
+    "Creation of the NBFC-MFI category in 2011 and constitution of the Malegam Committee",
+    "Establishment of MUDRA Ltd in 2015 and launch of PMMY",
+    "Creation of the Financial Inclusion Index in 2025",
+    "Replacement of APY by Swavalamban"
+   ],
+   "a": 0,
+   "x": "The crisis and Ordinance led to the Malegam Committee and subsequently to the NBFC-MFI category in 2011.",
+   "ty": "chronology",
+   "tq": "Follow the cause-and-effect sequence from the AP crisis to the regulatory response.",
+   "sec": "Microfinance - NBFC-MFI regulation, MFIN, AP Ordinance 2010  [APPSC]"
+  },
+  {
+   "s": "MFIN and Sa-Dhan were recognised by the RBI as Self-Regulatory Organisations for the microfinance sector in:",
+   "o": [
+    "2009",
+    "2010",
+    "2011",
+    "2014"
+   ],
+   "a": 3,
+   "x": "MFIN and Sa-Dhan were recognised as SROs by the RBI in 2014.",
+   "ty": "numerical",
+   "tq": "Distinguish the year of MFIN’s establishment from the later year of SRO recognition.",
+   "sec": "Microfinance - NBFC-MFI regulation, MFIN, AP Ordinance 2010  [APPSC]"
+  },
+  {
+   "s": "Under the RBI microfinance framework of March 2022, which combination is correct?\n\n1. Annual household income cap: ₹3 lakh\n2. Repayment obligation: not more than 50% of household income\n3. Microfinance loans are collateral-free\n4. At least 75% of an NBFC-MFI’s assets must be in microfinance loans\n\nSelect the correct answer using the code below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The March 2022 framework specifies a ₹3 lakh annual household income cap, a 50% repayment limit, collateral-free lending and a 75% asset requirement for NBFC-MFIs.",
+   "ty": "statements",
+   "tq": "Verify each numerical threshold independently before choosing the all-inclusive code.",
+   "sec": "Microfinance - NBFC-MFI regulation, MFIN, AP Ordinance 2010  [APPSC]"
+  },
+  {
+   "s": "The SHG-bank linkage model was pioneered by which organisation during the mid-1980s?",
+   "o": [
+    "MYRADA",
+    "MUDRA Ltd",
+    "Sa-Dhan",
+    "SERP"
+   ],
+   "a": 0,
+   "x": "MYRADA pioneered the SHG-bank linkage approach in the mid-1980s.",
+   "ty": "fact",
+   "tq": "Separate the pioneer organisation from later banking and government institutions.",
+   "sec": "SHG-bank linkage - pilot, institutions, NRLM, AP SERP/DWCRA  [APPSC]"
+  },
+  {
+   "s": "The NABARD pilot project for linking Self-Help Groups with banks was launched in:",
+   "o": [
+    "1982",
+    "1985",
+    "1992",
+    "2011"
+   ],
+   "a": 2,
+   "x": "NABARD launched the SHG-Bank Linkage pilot in 1992. It became the world’s largest microfinance project, with banks lending to SHGs.",
+   "ty": "numerical",
+   "tq": "Distinguish the mid-1980s pioneering phase from the 1992 NABARD pilot.",
+   "sec": "SHG-bank linkage - pilot, institutions, NRLM, AP SERP/DWCRA  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes DAY-NRLM?",
+   "o": [
+    "It is a Ministry of Rural Development programme launched in 2011 for rural livelihoods and SHGs.",
+    "It is an RBI programme launched in 1992 for bank recapitalisation.",
+    "It is an AP Government programme launched in 1982 for urban women.",
+    "It is a Ministry of Finance programme launched in 2015 for urban enterprises."
+   ],
+   "a": 0,
+   "x": "DAY-NRLM is associated with the Ministry of Rural Development and was launched in 2011 to promote rural livelihoods through SHGs and related institutions.",
+   "ty": "fact",
+   "tq": "Use the ministry, year and rural-or-urban distinction together.",
+   "sec": "SHG-bank linkage - pilot, institutions, NRLM, AP SERP/DWCRA  [APPSC]"
+  },
+  {
+   "s": "Which of the following figures is associated with DAY-NRLM as cited for 2026?\n\n1. More than 90.90 lakh SHGs\n2. 10.05 crore rural women households\n3. Repayment rate above 98%\n\nSelect the correct answer using the code below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "DAY-NRLM is associated with more than 90.90 lakh SHGs, 10.05 crore rural women households and a repayment rate exceeding 98%.",
+   "ty": "statements",
+   "tq": "Treat each programme statistic as an independent statement before selecting the combined option.",
+   "sec": "SHG-bank linkage - pilot, institutions, NRLM, AP SERP/DWCRA  [APPSC]"
+  },
+  {
+   "s": "In Andhra Pradesh, DWCRA, which served as a precursor to the present SHG model, was associated with:",
+   "o": [
+    "1992–93",
+    "2015–16",
+    "2010–11",
+    "1982–83"
+   ],
+   "a": 3,
+   "x": "The Development of Women and Children in Rural Areas (DWCRA) programme in Andhra Pradesh dates to 1982–83 and preceded the present SHG model.",
+   "ty": "numerical",
+   "tq": "Use the earliest date in the institutional sequence and distinguish it from the NABARD pilot year.",
+   "sec": "SHG-bank linkage - pilot, institutions, NRLM, AP SERP/DWCRA  [APPSC]"
+  },
+  {
+   "s": "Which institution runs the SHG model in Andhra Pradesh?",
+   "o": [
+    "MFIN",
+    "PFRDA",
+    "SERP",
+    "NABARD"
+   ],
+   "a": 2,
+   "x": "The Society for Elimination of Rural Poverty (SERP) runs the SHG model in Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Identify the state-level implementing institution rather than the national financing institution.",
+   "sec": "SHG-bank linkage - pilot, institutions, NRLM, AP SERP/DWCRA  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the institutional structure reported for the Andhra Pradesh SHG model?",
+   "o": [
+    "8.50 lakh SHGs, 89.21 lakh women, 27,422 VOs, 660 Mandal Samakhyas and 26 Zilla Samakhyas",
+    "90.90 lakh SHGs, 10.05 crore women, 660 VOs and 26 Mandal Samakhyas",
+    "8.50 crore SHGs, 89.21 lakh women, 27,422 Mandal Samakhyas and 660 Zilla Samakhyas",
+    "89.21 lakh SHGs, 8.50 lakh women, 26 VOs and 27,422 Zilla Samakhyas"
+   ],
+   "a": 0,
+   "x": "The reported SERP structure includes 8.50 lakh SHGs, 89.21 lakh women, 27,422 Village Organisations, 660 Mandal Samakhyas and 26 Zilla Samakhyas.",
+   "ty": "comparison",
+   "tq": "Keep the organisational levels and their numerical counts in the correct order.",
+   "sec": "SHG-bank linkage - pilot, institutions, NRLM, AP SERP/DWCRA  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly associated with the Andhra Pradesh SHG system?",
+   "o": [
+    "Savings of ₹32,190 crore and corpus of ₹14,500 crore",
+    "Savings of ₹14,500 crore and corpus of ₹32,190 crore",
+    "Savings of ₹16,941.95 crore and corpus of ₹14,500 crore",
+    "Savings of ₹14,500 crore and corpus of ₹16,941.95 crore"
+   ],
+   "a": 3,
+   "x": "The AP SERP figures cited are savings of ₹14,500 crore and a corpus of ₹16,941.95 crore.",
+   "ty": "numerical",
+   "tq": "Distinguish the savings figure from the larger corpus figure instead of reversing them.",
+   "sec": "SHG-bank linkage - pilot, institutions, NRLM, AP SERP/DWCRA  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding Andhra Pradesh’s SHG-bank linkage performance:\n\n1. Andhra Pradesh ranks first and accounts for about 36% of the national share.\n2. Its recovery rate is 99.66%.\n3. Approximately ₹32,190 crore has been disbursed.\n4. Stree Nidhi loans can extend up to ₹1 lakh.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements describe the cited performance and lending features of the Andhra Pradesh SHG system and Stree Nidhi.",
+   "ty": "statements",
+   "tq": "Combine ranking, percentage, recovery, disbursement and loan-limit facts without reversing their units.",
+   "sec": "SHG-bank linkage - pilot, institutions, NRLM, AP SERP/DWCRA  [APPSC]"
+  },
+  {
+   "s": "Which scheme provides life insurance cover of ₹2 lakh for death due to any cause to eligible persons aged 18–50 years?",
+   "o": [
+    "PM-SYM",
+    "APY",
+    "PMJJBY",
+    "PMSBY"
+   ],
+   "a": 2,
+   "x": "Pradhan Mantri Jeevan Jyoti Bima Yojana provides ₹2 lakh life cover for death due to any cause to subscribers aged 18–50 years.",
+   "ty": "confusable",
+   "tq": "Separate life insurance from accident insurance and pension among the social-security trio.",
+   "sec": "Social security trio - PMJJBY, PMSBY, APY  [APPSC]"
+  },
+  {
+   "s": "Under PMSBY, the annual premium and age eligibility are respectively:",
+   "o": [
+    "₹20 and 18–70 years",
+    "₹436 and 18–50 years",
+    "₹20 and 18–50 years",
+    "Age-linked premium and 18–40 years"
+   ],
+   "a": 0,
+   "x": "PMSBY has an annual premium of ₹20 and is available to persons aged 18–70 years.",
+   "ty": "comparison",
+   "tq": "Use the premium-age pair to distinguish PMSBY from PMJJBY and APY.",
+   "sec": "Social security trio - PMJJBY, PMSBY, APY  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the benefits under PMSBY?",
+   "o": [
+    "₹2 lakh for accidental death or full disability and ₹1 lakh for partial disability",
+    "₹1 lakh for accidental death and ₹2 lakh for partial disability",
+    "₹2 lakh for death from any cause and no disability benefit",
+    "Monthly pension of ₹1,000–₹5,000 after the age of 60"
+   ],
+   "a": 0,
+   "x": "PMSBY provides ₹2 lakh for accidental death or full disability and ₹1 lakh for partial disability.",
+   "ty": "fact",
+   "tq": "Distinguish accident-related benefits and the separate amount for partial disability.",
+   "sec": "Social security trio - PMJJBY, PMSBY, APY  [APPSC]"
+  },
+  {
+   "s": "Atal Pension Yojana is correctly described by which of the following statements?\n\n1. It replaced Swavalamban.\n2. It provides a pension of ₹1,000 to ₹5,000 per month after the age of 60.\n3. It is administered under PFRDA.\n4. New enrolment of taxpayers has not been permitted from 1 October 2022.\n\nSelect the correct answer using the code below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "APY replaced Swavalamban, provides a monthly pension of ₹1,000–₹5,000 from age 60, is administered by PFRDA, and excludes taxpayers from new enrolment from 1 October 2022.",
+   "ty": "statements",
+   "tq": "Check the scheme’s predecessor, benefit, regulator and eligibility restriction as separate components.",
+   "sec": "Social security trio - PMJJBY, PMSBY, APY  [APPSC]"
+  },
+  {
+   "s": "Arrange the following social-security schemes in chronological order of their launch in 2015:\n\nA. PMJJBY\nB. PMSBY\nC. APY\n\nSelect the correct answer.",
+   "o": [
+    "A, B, C",
+    "B, A, C",
+    "C, A, B",
+    "A, C, B"
+   ],
+   "a": 0,
+   "x": "PMJJBY, PMSBY and APY were launched together on 9 May 2015; therefore, the schemes have the same launch date and the listed order is the valid sequence among the options.",
+   "ty": "chronology",
+   "tq": "Identify the common launch date before attempting to force a false date distinction.",
+   "sec": "Social security trio - PMJJBY, PMSBY, APY  [APPSC]"
+  },
+  {
+   "s": "PMJJBY and PMSBY were launched together on:",
+   "o": [
+    "1 October 2022",
+    "8 April 2015",
+    "30 July 2025",
+    "9 May 2015"
+   ],
+   "a": 3,
+   "x": "PMJJBY and PMSBY, along with APY, were launched on 9 May 2015.",
+   "ty": "numerical",
+   "tq": "Separate the common launch date from later premium revisions and enrolment dates.",
+   "sec": "Social security trio - PMJJBY, PMSBY, APY  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly matches the three schemes with their age limits?\n\n1. PMJJBY — 18–50 years\n2. PMSBY — 18–70 years\n3. APY — 18–40 years\n\nSelect the correct answer using the code below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The age limits are 18–50 years for PMJJBY, 18–70 years for PMSBY and 18–40 years for APY.",
+   "ty": "statements",
+   "tq": "Compare all three age bands to avoid swapping the insurance and pension eligibility ranges.",
+   "sec": "Social security trio - PMJJBY, PMSBY, APY  [APPSC]"
+  },
+  {
+   "s": "According to the enrolment figures dated 30 July 2025, which scheme had the larger enrolment?",
+   "o": [
+    "PMJJBY, with 24.34 crore subscribers",
+    "PMJJBY, with 52.54 crore subscribers",
+    "APY, with 57.92 crore subscribers",
+    "PMSBY, with 52.54 crore subscribers"
+   ],
+   "a": 3,
+   "x": "As on 30 July 2025, PMSBY had 52.54 crore enrolments compared with 24.34 crore under PMJJBY.",
+   "ty": "comparison",
+   "tq": "Compare the scheme names and enrolment figures without confusing the two insurance products.",
+   "sec": "Social security trio - PMJJBY, PMSBY, APY  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with the cited CDI enrolment figures?",
+   "o": [
+    "PMJJBY — 27.33 crore; PMSBY — 57.92 crore; APY — 8.96 crore",
+    "PMJJBY — 57.92 crore; PMSBY — 27.33 crore; APY — 8.96 crore",
+    "PMJJBY — 24.34 crore; PMSBY — 52.54 crore; APY — 8.96 crore",
+    "PMJJBY — 27.33 crore; PMSBY — 8.96 crore; APY — 57.92 crore"
+   ],
+   "a": 0,
+   "x": "The cited CDI enrolment figures are 27.33 crore for PMJJBY, 57.92 crore for PMSBY and 8.96 crore for APY.",
+   "ty": "comparison",
+   "tq": "Match each scheme with its distinct enrolment magnitude and eliminate swapped figures.",
+   "sec": "Social security trio - PMJJBY, PMSBY, APY  [APPSC]"
+  }
+ ]
+}

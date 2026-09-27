@@ -1,0 +1,313 @@
+{
+ "book": 5,
+ "row": 42,
+ "chunk": 0,
+ "section": "Human spaceflight - Gaganyaan programme, Bharatiya Antariksh Station roadmap",
+ "subsections": [
+  "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline",
+  "Astronaut-designates - service background, training"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 22,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Gaganyaan programme was approved in which year?",
+   "o": [
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+   ],
+   "a": 2,
+   "x": "The Gaganyaan human spaceflight programme was approved in 2018.",
+   "ty": "fact",
+   "tq": "Use the year-based numerical recall method.",
+   "sec": "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline  [APPSC]"
+  },
+  {
+   "s": "The primary objective of the Gaganyaan programme is to place how many astronauts in a 400 km low Earth orbit for a three-day mission?",
+   "o": [
+    "Two",
+    "Three",
+    "Five",
+    "Four"
+   ],
+   "a": 1,
+   "x": "Gaganyaan is designed to carry a crew of three astronauts to a 400 km low Earth orbit for three days.",
+   "ty": "numerical",
+   "tq": "Split the mission parameters into crew, orbit and duration.",
+   "sec": "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline  [APPSC]"
+  },
+  {
+   "s": "The crew of the Gaganyaan mission is expected to return to Earth by:",
+   "o": [
+    "A controlled landing on an Antarctic ice shelf",
+    "A splashdown in Indian sea waters",
+    "A runway landing at Sriharikota",
+    "A parachute-assisted landing in the Thar Desert"
+   ],
+   "a": 1,
+   "x": "The Crew Module is designed to splash down in Indian sea waters after re-entry.",
+   "ty": "fact",
+   "tq": "Distinguish the recovery method from the launch location.",
+   "sec": "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is the human-rated launch vehicle for the Gaganyaan mission?",
+   "o": [
+    "Human-rated LVM3 (HLVM3)",
+    "SSLV-D3",
+    "GSLV Mk-II",
+    "PSLV-XL"
+   ],
+   "a": 0,
+   "x": "Gaganyaan will use the human-rated LVM3, also referred to as HLVM3 or HRLV. The earlier GSLV Mk-III structures were redesigned for human rating.",
+   "ty": "fact",
+   "tq": "Apply the wrong-launcher trap by separating vehicle generations and variants.",
+   "sec": "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the launch vehicle of Gaganyaan:\n1. The GSLV Mk-III structures were redesigned for human rating.\n2. The Vikas engine for the human-rated L110 stage was qualified in three tests.\n3. The three tests together totalled 730 seconds.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The human-rated LVM3 uses redesigned GSLV Mk-III structures, and the Vikas engine for its human-rated L110 stage completed three tests totalling 730 seconds.",
+   "ty": "statements",
+   "tq": "Check each technical specification separately before selecting the combination.",
+   "sec": "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline  [APPSC]"
+  },
+  {
+   "s": "Which of the following ISRO organisational units was created as a dedicated vertical for human spaceflight?",
+   "o": [
+    "Indian Institute of Remote Sensing (IIRS)",
+    "Human Space Flight Centre (HSFC)",
+    "National Remote Sensing Centre (NRSC)",
+    "Space Applications Centre (SAC)"
+   ],
+   "a": 1,
+   "x": "The Human Space Flight Centre was created as a dedicated ISRO vertical for human spaceflight activities.",
+   "ty": "fact",
+   "tq": "Use the organisational-body discrimination method.",
+   "sec": "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Gaganyaan component)\n\na. Orbital Module\nb. Crew Module\nc. Service Module\n\nd. Human-rated LVM3\n\nList-II (Function or description)\n\ni. Provides on-orbit support and performs de-orbit manoeuvres\n ii. Injects the Orbital Module into orbit\n iii. Consists of the Crew Module and Service Module joined by a joint\n iv. Provides crew habitat and survives re-entry and splashdown\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–iii, b–i, c–ii, d–iv"
+   ],
+   "a": 0,
+   "x": "The Orbital Module consists of the Crew and Service Modules; the Crew Module houses the crew and survives re-entry; the Service Module provides on-orbit support and de-orbits the vehicle; and HLVM3 injects it into orbit.",
+   "ty": "match",
+   "tq": "Start from the sure pair linking the launcher with orbital injection.",
+   "sec": "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline  [APPSC]"
+  },
+  {
+   "s": "With reference to the Gaganyaan modules, consider the following statements:\n1. The Crew Module is double-walled and pressurised.\n2. The Service Module fires thrusters to de-orbit the Orbital Module.\n3. The Service Module remains attached during the entire splashdown operation.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. The Service Module separates from the Orbital Module after the de-orbit operation and burns up; therefore, statement 3 is false.",
+   "ty": "statements",
+   "tq": "Find the false statement by checking the separation stage of the Service Module.",
+   "sec": "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the configuration used by Russia's Soyuz and China's Shenzhou spacecraft?",
+   "o": [
+    "A two-module configuration consisting of crew and propulsion modules",
+    "A single integrated module without a separate service section",
+    "A four-module configuration consisting of orbital, laboratory, service and recovery modules",
+    "A three-module configuration consisting of orbital, descent and service modules"
+   ],
+   "a": 3,
+   "x": "Both Soyuz and Shenzhou use a three-module configuration: orbital, descent and service modules.",
+   "ty": "comparison",
+   "tq": "Compare the named spacecraft by matching their shared module structure.",
+   "sec": "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline  [APPSC]"
+  },
+  {
+   "s": "Arrange the following Gaganyaan programme milestones in chronological order:\nA. Original announcement target of December 2021\nB. Later target of 2023\nC. Current target of H1 in Q1 2027\nD. LENS assessment describing H1 as likely beyond 2027",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The targets progressed from December 2021 to 2023 and then to H1 in Q1 2027; the later LENS assessment described the mission as likely beyond 2027.",
+   "ty": "chronology",
+   "tq": "Fix the earliest announced target first, then place later revisions in sequence.",
+   "sec": "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline  [APPSC]"
+  },
+  {
+   "s": "Which one of the following represents the present sequence of Gaganyaan missions?",
+   "o": [
+    "G1 → G2 → G3 → H1",
+    "G1 → H1 → G2 → G3",
+    "H1 → G1 → G2 → G3",
+    "G3 → G2 → G1 → H1"
+   ],
+   "a": 0,
+   "x": "The planned sequence is two or more uncrewed missions, G1 followed by G2 and G3, before the crewed H1 mission.",
+   "ty": "chronology",
+   "tq": "Identify the uncrewed tests before the first crewed flight.",
+   "sec": "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline  [APPSC]"
+  },
+  {
+   "s": "The current target for the first crewed Gaganyaan flight, designated H1, is:",
+   "o": [
+    "The second half of 2026",
+    "The last quarter of 2028",
+    "The first quarter of 2025",
+    "The first quarter of 2027"
+   ],
+   "a": 3,
+   "x": "The current target is H1 during the first quarter of 2027, although later assessments have indicated that it could slip beyond 2027.",
+   "ty": "numerical",
+   "tq": "Distinguish the current target from earlier announced targets and later risk assessments.",
+   "sec": "Gaganyaan - modules, orbit, duration, crew, launch vehicle, timeline  [APPSC]"
+  },
+  {
+   "s": "Which one of the following groups consists entirely of the four Gaganyatris named in February 2024?",
+   "o": [
+    "Prasanth Balakrishnan Nair, Pankaj M. Sinha, Angad Pratap and Shubhanshu Shukla",
+    "Ajit Krishnan, Pankaj M. Sinha, Angad Pratap and Shubhanshu Shukla",
+    "Prasanth Balakrishnan Nair, Ajit Krishnan, Pankaj M. Sinha and Angad Pratap",
+    "Prasanth Balakrishnan Nair, Ajit Krishnan, Angad Pratap and Shubhanshu Shukla"
+   ],
+   "a": 3,
+   "x": "The four Gaganyatris named in February 2024 were Prasanth Balakrishnan Nair, Ajit Krishnan, Angad Pratap and Shubhanshu Shukla. Pankaj M. Sinha is not one of them.",
+   "ty": "negative",
+   "tq": "Eliminate the option containing the non-member of the named group.",
+   "sec": "Astronaut-designates - service background, training  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the professional background of the Gaganyatris:\n1. All four were Indian Air Force test pilots.\n2. Prasanth Balakrishnan Nair, Ajit Krishnan and Angad Pratap were Group Captains when named.\n3. Shubhanshu Shukla was a Wing Commander when named and later became a Group Captain.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The four astronaut-designates were IAF test pilots; three were Group Captains at naming, while Shubhanshu Shukla was then a Wing Commander and later became a Group Captain.",
+   "ty": "statements",
+   "tq": "Separate the common service background from the individual rank details.",
+   "sec": "Astronaut-designates - service background, training  [APPSC]"
+  },
+  {
+   "s": "At the time of their naming in February 2024, which Gaganyatri held the rank of Wing Commander?",
+   "o": [
+    "Ajit Krishnan",
+    "Angad Pratap",
+    "Shubhanshu Shukla",
+    "Prasanth Balakrishnan Nair"
+   ],
+   "a": 2,
+   "x": "Shubhanshu Shukla was a Wing Commander when the four Gaganyatris were named; he later became a Group Captain.",
+   "ty": "confusable",
+   "tq": "Use the rank-based distinction among otherwise similar service profiles.",
+   "sec": "Astronaut-designates - service background, training  [APPSC]"
+  },
+  {
+   "s": "Which of the following is the correct sequence of basic astronaut training for the Gaganyatris?",
+   "o": [
+    "ISRO facility, Bengaluru → NASA → Yuri Gagarin Centre, Russia",
+    "Yuri Gagarin Cosmonaut Training Centre, Russia → ISRO Astronaut Training Facility, Bengaluru",
+    "IAF Institute of Aerospace Medicine, Leh → ESA facility → ISRO facility, Bengaluru",
+    "NASA → Yuri Gagarin Cosmonaut Training Centre, Russia → Sriharikota"
+   ],
+   "a": 1,
+   "x": "The basic training sequence included the Yuri Gagarin Cosmonaut Training Centre in Russia followed by ISRO's Astronaut Training Facility in Bengaluru.",
+   "ty": "chronology",
+   "tq": "Follow the training locations in their stated order rather than selecting a familiar agency.",
+   "sec": "Astronaut-designates - service background, training  [APPSC]"
+  },
+  {
+   "s": "Which institution conducted the selection and aeromedical testing of the Gaganyaan astronaut candidates?",
+   "o": [
+    "IAF Institute of Aerospace Medicine, Bengaluru",
+    "Yuri Gagarin Cosmonaut Training Centre, Russia",
+    "Human Space Flight Centre, Sriharikota",
+    "NASA Johnson Space Center"
+   ],
+   "a": 0,
+   "x": "The IAF Institute of Aerospace Medicine in Bengaluru conducted the selection and aeromedical testing of the astronaut candidates.",
+   "ty": "fact",
+   "tq": "Match the institutional responsibility with the correct agency and location.",
+   "sec": "Astronaut-designates - service background, training  [APPSC]"
+  },
+  {
+   "s": "Mission MITRA, associated with the Gaganyaan crew, is best described as:",
+   "o": [
+    "A joint ESA-ISRO ground-station tracking experiment",
+    "A sea-recovery exercise for the Crew Module",
+    "A behavioural study involving ISRO and the IAF Institute of Aerospace Medicine",
+    "A propulsion test of the human-rated L110 stage"
+   ],
+   "a": 2,
+   "x": "MITRA stands for Mapping of Interoperable Traits and Response Assessment. It is an ISRO behavioural study conducted with the IAF Institute of Aerospace Medicine.",
+   "ty": "fact",
+   "tq": "Expand the mission acronym and distinguish its human-factors purpose from engineering tests.",
+   "sec": "Astronaut-designates - service background, training  [APPSC]"
+  },
+  {
+   "s": "Mission MITRA examines the response of the Gaganyaan crew to which of the following conditions at Leh, Ladakh?\n1. Hypoxia\n2. Cold\n3. Isolation\n4. Oceanic pressure during splashdown\nSelect the correct answer using the code given below:",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "MITRA studies hypoxia, cold and isolation at Leh, Ladakh. Oceanic pressure during splashdown is not one of the listed components of the behavioural study.",
+   "ty": "statements",
+   "tq": "Find the excluded condition by separating astronaut behavioural testing from recovery operations.",
+   "sec": "Astronaut-designates - service background, training  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the specialised training of Shubhanshu Shukla and Prasanth Balakrishnan Nair is correct?",
+   "o": [
+    "Shukla was the prime astronaut and Nair the backup for Axiom-4 training in the United States.",
+    "Nair was the prime astronaut and Shukla was not included in the Axiom-4 training.",
+    "Shukla was the backup and Nair was the prime astronaut for Axiom-4 training.",
+    "Both were trained only at the Yuri Gagarin Cosmonaut Training Centre."
+   ],
+   "a": 0,
+   "x": "Shubhanshu Shukla was the prime astronaut and Prasanth Balakrishnan Nair was the backup for Axiom-4 training in the United States.",
+   "ty": "confusable",
+   "tq": "Discriminate between the prime and backup roles rather than the common training location.",
+   "sec": "Astronaut-designates - service background, training  [APPSC]"
+  },
+  {
+   "s": "Which one of the following organisations has also provided training to the Gaganyaan astronaut candidates in addition to their Russian and Indian training?",
+   "o": [
+    "NASA",
+    "WMO",
+    "UNEP",
+    "IUCN"
+   ],
+   "a": 0,
+   "x": "NASA has also trained the Gaganyaan astronaut candidates, in addition to basic training in Russia and training at ISRO's facility in Bengaluru.",
+   "ty": "fact",
+   "tq": "Use the agency-identification method for international training cooperation.",
+   "sec": "Astronaut-designates - service background, training  [APPSC]"
+  }
+ ]
+}

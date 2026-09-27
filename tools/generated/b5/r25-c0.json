@@ -1,0 +1,583 @@
+{
+ "book": 5,
+ "row": 25,
+ "chunk": 0,
+ "section": "Digital identity and payments - Aadhaar, UPI, DBT, India Stack, ONDC, Account Aggregator",
+ "subsections": [
+  "Aadhaar - first number, first village, UIDAI, Aadhaar Act uses, open APIs, biometrics",
+  "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance",
+  "Digital payment systems - operator, wallets, iPay",
+  "Chronology of digital initiatives",
+  "Aadhaar-based delivery in AP - sole identifier, e-PoS ration",
+  "Nodal responsibility for digital payments - ministry, Digital Payments Index"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 43,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Who was the first Indian citizen to receive an Aadhaar number?",
+   "o": [
+    "Ranjana Sonawane",
+    "Kiran Kumar Reddy",
+    "Nandan Nilekani",
+    "Jairam Ramesh"
+   ],
+   "a": 0,
+   "x": "Ranjana Sonawane was the first Indian citizen to receive an Aadhaar number.",
+   "ty": "fact",
+   "tq": "Use direct person-identification recall.",
+   "sec": "Aadhaar - first number, first village, UIDAI, Aadhaar Act uses, open APIs, biometrics  [APPSC]"
+  },
+  {
+   "s": "The first Aadhaar number was issued on:",
+   "o": [
+    "1 January 2010",
+    "29 September 2009",
+    "29 September 2010",
+    "26 January 2011"
+   ],
+   "a": 2,
+   "x": "The first Aadhaar number was issued to Ranjana Sonawane on 29 September 2010.",
+   "ty": "numerical",
+   "tq": "Separate the launch year from the year and date of the first number.",
+   "sec": "Aadhaar - first number, first village, UIDAI, Aadhaar Act uses, open APIs, biometrics  [APPSC]"
+  },
+  {
+   "s": "Tembhli village, associated with the first Aadhaar number, is located in:",
+   "o": [
+    "Nandurbar district, Gujarat",
+    "East Godavari district, Andhra Pradesh",
+    "Nandurbar district, Maharashtra",
+    "Nashik district, Maharashtra"
+   ],
+   "a": 2,
+   "x": "Tembhli village in Nandurbar district of Maharashtra was the first Aadhaar village and was the place where the first Aadhaar number was issued.",
+   "ty": "fact",
+   "tq": "Combine person, place and district carefully to avoid location swaps.",
+   "sec": "Aadhaar - first number, first village, UIDAI, Aadhaar Act uses, open APIs, biometrics  [APPSC]"
+  },
+  {
+   "s": "Aadhaar was launched in:",
+   "o": [
+    "2009",
+    "2010",
+    "2012",
+    "2016"
+   ],
+   "a": 0,
+   "x": "Aadhaar was launched in 2009, while the first Aadhaar number was issued in 2010.",
+   "ty": "fact",
+   "tq": "Discriminate between the launch year and the first-number year.",
+   "sec": "Aadhaar - first number, first village, UIDAI, Aadhaar Act uses, open APIs, biometrics  [APPSC]"
+  },
+  {
+   "s": "With reference to UIDAI, consider the following statements:\n1. UIDAI became a statutory body under the Aadhaar Act, 2016.\n2. UIDAI works under the Ministry of Electronics and Information Technology.\n3. The Aadhaar Act was amended in 2019.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. UIDAI became statutory under the Aadhaar Act, 2016, functions under MeitY, and the Act was amended in 2019.",
+   "ty": "statements",
+   "tq": "Check each institutional statement before selecting the complete combination.",
+   "sec": "Aadhaar - first number, first village, UIDAI, Aadhaar Act uses, open APIs, biometrics  [APPSC]"
+  },
+  {
+   "s": "The Aadhaar Act primarily covers which of the following functions?\n1. Enrolment\n2. Authentication\n3. Targeted delivery of subsidies, benefits and services\nSelect the correct answer using the code below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Aadhaar Act covers enrolment, authentication and targeted delivery of subsidies, benefits and services.",
+   "ty": "statements",
+   "tq": "Test the full statutory scope rather than one isolated function.",
+   "sec": "Aadhaar - first number, first village, UIDAI, Aadhaar Act uses, open APIs, biometrics  [APPSC]"
+  },
+  {
+   "s": "Under the Aadhaar Authentication for Good Governance Rules, 2020, which organisation was allowed voluntary Aadhaar authentication of candidates in 2025?",
+   "o": [
+    "UIDAI",
+    "IBPS",
+    "UPSC",
+    "NPCI"
+   ],
+   "a": 1,
+   "x": "The Institute of Banking Personnel Selection was allowed voluntary Aadhaar authentication of candidates in 2025 under the Aadhaar Authentication for Good Governance Rules, 2020.",
+   "ty": "fact",
+   "tq": "Identify the organisation linked with the specific permitted use.",
+   "sec": "Aadhaar - first number, first village, UIDAI, Aadhaar Act uses, open APIs, biometrics  [APPSC]"
+  },
+  {
+   "s": "As on 31 July 2025, the number of Aadhaar numbers generated and the number of live Aadhaar numbers after adjustment for deaths were approximately:",
+   "o": [
+    "142 crore and 145 crore respectively",
+    "142 crore and 133.65 crore respectively",
+    "145 crore and 142 crore respectively",
+    "133.65 crore and 142 crore respectively"
+   ],
+   "a": 1,
+   "x": "Approximately 142 crore Aadhaar numbers had been generated, while about 133.65 crore were live after adjustment for deaths as on 31 July 2025.",
+   "ty": "numerical",
+   "tq": "Read paired figures in the correct order instead of reversing them.",
+   "sec": "Aadhaar - first number, first village, UIDAI, Aadhaar Act uses, open APIs, biometrics  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the biometric information captured for Aadhaar?",
+   "o": [
+    "Ten fingerprints, two iris scans and a face photograph",
+    "Eight fingerprints, one iris scan and a voice sample",
+    "Ten fingerprints, two iris scans and a DNA sample",
+    "All biometric traits without any facial photograph"
+   ],
+   "a": 0,
+   "x": "Aadhaar captures ten fingerprints, two irises and a face photograph.",
+   "ty": "fact",
+   "tq": "Use the exact numerical combination in a biometric list.",
+   "sec": "Aadhaar - first number, first village, UIDAI, Aadhaar Act uses, open APIs, biometrics  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding open APIs and Aadhaar is correct?",
+   "o": [
+    "API Setu was developed by NPCI exclusively for card payments.",
+    "Aadhaar e-KYC can be used only for election-related services.",
+    "The Policy on Open APIs was issued by RBI in 2015 and prohibited integration with public services.",
+    "MeitY's Policy on Open APIs, 2015, led to API Setu; Aadhaar e-KYC simplified banking and public services."
+   ],
+   "a": 3,
+   "x": "MeitY's Policy on Open APIs, 2015, led to API Setu. Aadhaar e-KYC simplified banking and public services.",
+   "ty": "application",
+   "tq": "Identify the correct authority, year and practical application together.",
+   "sec": "Aadhaar - first number, first village, UIDAI, Aadhaar Act uses, open APIs, biometrics  [APPSC]"
+  },
+  {
+   "s": "UPI was launched in April 2016 by:",
+   "o": [
+    "Department of Financial Services",
+    "Reserve Bank of India",
+    "Ministry of Finance",
+    "National Payments Corporation of India"
+   ],
+   "a": 3,
+   "x": "The Unified Payments Interface was launched in April 2016 by NPCI.",
+   "ty": "fact",
+   "tq": "Apply the who-launched-what institutional trap.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  },
+  {
+   "s": "Which one of the following best describes the functioning of UPI?",
+   "o": [
+    "It permits cash withdrawals only through Aadhaar-enabled micro-ATMs.",
+    "It permits a single application to route payments from several bank accounts using a VPA such as name@bank.",
+    "It is a wallet system that operates without bank accounts or virtual payment addresses.",
+    "It is a card network that cannot link more than one bank account."
+   ],
+   "a": 1,
+   "x": "UPI allows one application to route payments from several bank accounts through a Virtual Payment Address such as name@bank.",
+   "ty": "application",
+   "tq": "Match the digital-payment mechanism with its defining operational feature.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  },
+  {
+   "s": "Which of the following features is associated with UPI 2.0?\n1. Linking of overdraft accounts\n2. Pre-authorised payments\n3. Signed merchant QR codes\n4. A daily limit of Rs 2 lakh\nSelect the correct answer using the code below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "UPI 2.0 includes overdraft-account linking, pre-authorised payments, signed merchant QR codes and a daily limit of Rs 2 lakh.",
+   "ty": "statements",
+   "tq": "Recognise a complete feature set and avoid omitting the numerical limit.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  },
+  {
+   "s": "Which product is correctly matched with its description?",
+   "o": [
+    "BHIM — NPCI's UPI app launched on 30 December 2016",
+    "e-RUPI — a permanent cash transfer account with no specified purpose",
+    "UPI Lite — a large-value payment system requiring a UPI PIN for every transaction",
+    "Bharat QR — a non-interoperable QR code restricted to one card network"
+   ],
+   "a": 0,
+   "x": "BHIM is NPCI's UPI app and was launched on 30 December 2016. Bharat QR is interoperable, UPI Lite is designed for small-value payments without a UPI PIN, and e-RUPI is a one-time purpose-specific voucher.",
+   "ty": "negative",
+   "tq": "Find the correctly matched product while rejecting swapped or reversed descriptions.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about e-RUPI:\n1. It is a one-time voucher.\n2. It is cashless and person-specific.\n3. It is purpose-specific.\n4. It was launched in August 2021.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "e-RUPI is a one-time, cashless, person-specific and purpose-specific voucher launched in August 2021.",
+   "ty": "statements",
+   "tq": "Test all attributes of a named digital voucher, including its launch date.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  },
+  {
+   "s": "e-RUPI was developed through collaboration among NPCI and which of the following?",
+   "o": [
+    "DFS, MoHFW and NHA",
+    "RBI, MeitY and NITI Aayog",
+    "NHAI, IHMCL and IRCTC",
+    "UNDP, WHO and World Bank"
+   ],
+   "a": 0,
+   "x": "e-RUPI was developed by NPCI in association with the Department of Financial Services, Ministry of Health and Family Welfare, and National Health Authority.",
+   "ty": "match",
+   "tq": "Identify the correct institutional group rather than a neighbouring digital-payment body.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  },
+  {
+   "s": "UPI Lite is best described as:",
+   "o": [
+    "An on-device wallet for small-value payments without a UPI PIN",
+    "A facility for international remittances requiring a passport for each payment",
+    "A credit-card network operated by RBI",
+    "A system for high-value payments requiring two physical signatures"
+   ],
+   "a": 0,
+   "x": "UPI Lite is an on-device wallet intended for small-value payments without requiring a UPI PIN for each transaction.",
+   "ty": "fact",
+   "tq": "Separate small-value convenience features from high-value and card-based systems.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  },
+  {
+   "s": "Which country was the first in Europe to accept UPI?",
+   "o": [
+    "Netherlands",
+    "Germany",
+    "Singapore",
+    "France"
+   ],
+   "a": 3,
+   "x": "France was the first country in Europe to accept UPI.",
+   "ty": "fact",
+   "tq": "Use geographical discrimination among named international UPI markets.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  },
+  {
+   "s": "The PayNow-UPI linkage was established between India and Singapore in:",
+   "o": [
+    "2021",
+    "2022",
+    "2023",
+    "2025"
+   ],
+   "a": 2,
+   "x": "The PayNow-UPI linkage between India and Singapore was established in 2023.",
+   "ty": "numerical",
+   "tq": "Distinguish the bilateral-link year from the wider international acceptance facts.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  },
+  {
+   "s": "Which of the following countries are among the markets where UPI is accepted?\n1. Bhutan\n2. Nepal\n3. Sri Lanka\n4. Mauritius\nSelect the correct answer using the code below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "UPI is accepted in Bhutan, Nepal, Sri Lanka and Mauritius, among other international markets.",
+   "ty": "statements",
+   "tq": "Check every item in a geographical list before selecting the complete combination.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "NEFT and RTGS — RBI",
+    "IMPS and UPI — RBI alone",
+    "Wallets — NPCI alone",
+    "BBPS — Ministry of Finance directly"
+   ],
+   "a": 0,
+   "x": "NEFT and RTGS are operated by RBI. IMPS and UPI are NPCI products, wallets are issued by RBI-authorised banks and non-banks, and BBPS is operated by NPCI Bharat BillPay Ltd.",
+   "ty": "match",
+   "tq": "Start from the sure operator-authority pair and reject neighbouring-body swaps.",
+   "sec": "Digital payment systems - operator, wallets, iPay  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched?",
+   "o": [
+    "RuPay — NPCI",
+    "AePS — NPCI",
+    "IMPS — NPCI",
+    "FASTag (NETC) — RBI alone"
+   ],
+   "a": 3,
+   "x": "FASTag (NETC) is operated by NPCI with NHAI and IHMCL, not by RBI alone. IMPS, AePS and RuPay are NPCI-operated systems.",
+   "ty": "negative",
+   "tq": "Find the wrong operator by checking the authority responsible for each system.",
+   "sec": "Digital payment systems - operator, wallets, iPay  [APPSC]"
+  },
+  {
+   "s": "AePS enables which of the following through micro-ATMs?",
+   "o": [
+    "Only cheque clearing between RBI offices",
+    "Only international card settlement without identity verification",
+    "Issuance of government bonds through a QR code",
+    "Cash withdrawal and balance enquiry using Aadhaar"
+   ],
+   "a": 3,
+   "x": "AePS enables cash withdrawal and balance enquiry at micro-ATMs using Aadhaar-based authentication.",
+   "ty": "application",
+   "tq": "Link the payment product with its practical service and authentication method.",
+   "sec": "Digital payment systems - operator, wallets, iPay  [APPSC]"
+  },
+  {
+   "s": "Bharat BillPay (BBPS) is operated by:",
+   "o": [
+    "NHAI",
+    "RBI directly",
+    "NPCI Bharat BillPay Ltd",
+    "IRCTC"
+   ],
+   "a": 2,
+   "x": "BBPS is operated by NPCI Bharat BillPay Ltd.",
+   "ty": "fact",
+   "tq": "Identify the operating entity rather than the regulator or end-use organisation.",
+   "sec": "Digital payment systems - operator, wallets, iPay  [APPSC]"
+  },
+  {
+   "s": "FASTag (NETC) is operated by:",
+   "o": [
+    "NPCI with NHAI and IHMCL",
+    "DFS alone",
+    "UIDAI with MeitY",
+    "RBI with IRCTC"
+   ],
+   "a": 0,
+   "x": "FASTag (NETC) is operated by NPCI in association with NHAI and IHMCL. It is also counted among digital public infrastructure indicators.",
+   "ty": "fact",
+   "tq": "Use the multi-agency operator trap in infrastructure systems.",
+   "sec": "Digital payment systems - operator, wallets, iPay  [APPSC]"
+  },
+  {
+   "s": "Wallets or Prepaid Payment Instruments are issued by:",
+   "o": [
+    "RBI-authorised banks and non-banks",
+    "Only NPCI",
+    "Only the Ministry of Finance",
+    "Only telecom companies without RBI authorisation"
+   ],
+   "a": 0,
+   "x": "Wallets or PPIs are issued by RBI-authorised banks and non-banks.",
+   "ty": "fact",
+   "tq": "Distinguish the regulator-authorisation condition from exclusive-operator claims.",
+   "sec": "Digital payment systems - operator, wallets, iPay  [APPSC]"
+  },
+  {
+   "s": "RBI's proposed New Umbrella Entities are intended primarily to:",
+   "o": [
+    "End NPCI's monopoly in retail payments",
+    "Eliminate all private payment operators",
+    "Operate only government welfare schemes",
+    "Replace Aadhaar with a new identity number"
+   ],
+   "a": 0,
+   "x": "New Umbrella Entities are intended to introduce competition and end NPCI's monopoly in retail payments.",
+   "ty": "application",
+   "tq": "Identify the policy objective rather than an unrelated function of the entities.",
+   "sec": "Digital payment systems - operator, wallets, iPay  [APPSC]"
+  },
+  {
+   "s": "The minimum capital requirement for RBI's New Umbrella Entities is:",
+   "o": [
+    "Rs 500 crore",
+    "Rs 1,000 crore",
+    "Rs 50 crore",
+    "Rs 100 crore"
+   ],
+   "a": 0,
+   "x": "The minimum capital requirement for New Umbrella Entities is Rs 500 crore.",
+   "ty": "numerical",
+   "tq": "Recall the exact capital threshold and reject scale-based distractors.",
+   "sec": "Digital payment systems - operator, wallets, iPay  [APPSC]"
+  },
+  {
+   "s": "Arrange the following digital initiatives in chronological order:\nA. Digital India / DigiLocker\nB. DBT pilot\nC. ONDC\nD. ABDM\nE. MyGov\nSelect the correct answer using the code below.",
+   "o": [
+    "B, E, A, D, C",
+    "E, B, A, C, D",
+    "B, A, E, D, C",
+    "A, B, E, D, C"
+   ],
+   "a": 0,
+   "x": "The DBT pilot began in 2013, MyGov was launched in 2014, Digital India/DigiLocker in 2015, ABDM in 2021 and ONDC in 2022.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest initiatives first, then place the middle years.",
+   "sec": "Chronology of digital initiatives  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "MyGov — 2012",
+    "DBT pilot — 1 January 2013",
+    "PM eVIDYA — 2018",
+    "ONDC — 2021"
+   ],
+   "a": 1,
+   "x": "The DBT pilot was inaugurated on 1 January 2013. MyGov began in 2014, PM eVIDYA in 2020 and ONDC in 2022.",
+   "ty": "numerical",
+   "tq": "Match each initiative with its exact year while rejecting near-year traps.",
+   "sec": "Chronology of digital initiatives  [APPSC]"
+  },
+  {
+   "s": "The correct chronological sequence of the following initiatives is: Aadhaar, MyGov, PM eVIDYA and ONDC.",
+   "o": [
+    "MyGov, Aadhaar, ONDC, PM eVIDYA",
+    "Aadhaar, MyGov, PM eVIDYA, ONDC",
+    "Aadhaar, PM eVIDYA, MyGov, ONDC",
+    "ONDC, PM eVIDYA, MyGov, Aadhaar"
+   ],
+   "a": 1,
+   "x": "Aadhaar was launched in 2009, MyGov in 2014, PM eVIDYA in 2020 and ONDC in 2022.",
+   "ty": "chronology",
+   "tq": "Use the first and last items as chronological anchors before checking the middle pair.",
+   "sec": "Chronology of digital initiatives  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly states the inauguration details of DBT in Andhra Pradesh?",
+   "o": [
+    "It was inaugurated at Amaravati on 6 January 2016 by UIDAI.",
+    "It was inaugurated at Tembhli, Maharashtra, on 29 September 2010.",
+    "It was inaugurated at Gollaprolu, East Godavari, on 6 January 2013.",
+    "It was inaugurated at Gollaprolu on 1 January 2014 by NPCI."
+   ],
+   "a": 2,
+   "x": "DBT was inaugurated at Gollaprolu in East Godavari on 6 January 2013 by Jairam Ramesh along with Chief Minister Kiran Kumar Reddy.",
+   "ty": "fact",
+   "tq": "Combine venue, district, date and associated persons without swapping the event with Aadhaar.",
+   "sec": "Aadhaar-based delivery in AP - sole identifier, e-PoS ration  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes e-Seva in Andhra Pradesh?",
+   "o": [
+    "It is an NPCI payment network established in 2016.",
+    "It was launched in 2019 as a replacement for Aadhaar enrolment.",
+    "It was launched in 2001 as India's first integrated citizen service centres.",
+    "It was the first Aadhaar village in Maharashtra."
+   ],
+   "a": 2,
+   "x": "e-Seva was introduced in 2001 and constituted the first integrated citizen service centres in India.",
+   "ty": "fact",
+   "tq": "Distinguish the AP service-delivery platform from later systems and national payment networks.",
+   "sec": "Aadhaar-based delivery in AP - sole identifier, e-PoS ration  [APPSC]"
+  },
+  {
+   "s": "Which sequence correctly represents the development of Andhra Pradesh's service-delivery chain?",
+   "o": [
+    "MeeSeva, e-Seva, Village/Ward Secretariats",
+    "e-Seva, MeeSeva, Village/Ward Secretariats",
+    "Village/Ward Secretariats, e-Seva, MeeSeva",
+    "e-Seva, Village/Ward Secretariats, MeeSeva"
+   ],
+   "a": 1,
+   "x": "The sequence is e-Seva, introduced in 2001, followed by MeeSeva and then Village/Ward Secretariats established in 2019.",
+   "ty": "chronology",
+   "tq": "Arrange state service platforms by their stated progression and dates.",
+   "sec": "Aadhaar-based delivery in AP - sole identifier, e-PoS ration  [APPSC]"
+  },
+  {
+   "s": "At present, the nodal responsibility for digital payments rests with:",
+   "o": [
+    "MeitY under the Ministry of Electronics and Information Technology",
+    "NPCI under the Ministry of Railways",
+    "Department of Financial Services under the Ministry of Finance",
+    "RBI under the Ministry of Commerce"
+   ],
+   "a": 2,
+   "x": "Digital payments currently come under the Department of Financial Services in the Ministry of Finance, which also gives the Digital Payments Awards. Earlier, MeitY was the nodal department for promoting digital payments.",
+   "ty": "fact",
+   "tq": "Distinguish present responsibility from the earlier nodal arrangement.",
+   "sec": "Nodal responsibility for digital payments - ministry, Digital Payments Index  [APPSC]"
+  },
+  {
+   "s": "The Digital Payments Index of RBI has which of the following characteristics?\n1. Its base period is March 2018.\n2. The base value is 100.\n3. It is published half-yearly.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The RBI Digital Payments Index uses March 2018 as its base period with a base value of 100 and is published half-yearly.",
+   "ty": "statements",
+   "tq": "Verify the base period, base value and publication frequency as separate facts.",
+   "sec": "Nodal responsibility for digital payments - ministry, Digital Payments Index  [APPSC]"
+  },
+  {
+   "s": "According to the stated figures, digital-payment transactions increased from 2,071 crore in 2017–18 to 22,831 crore in 2024–25, representing approximately:",
+   "o": [
+    "71% CAGR",
+    "14% CAGR",
+    "24% CAGR",
+    "41% CAGR"
+   ],
+   "a": 3,
+   "x": "Digital-payment transactions rose from 2,071 crore to 22,831 crore over the stated period, corresponding to a 41% compound annual growth rate.",
+   "ty": "numerical",
+   "tq": "Match the growth figures with the reported CAGR rather than estimating from a single year.",
+   "sec": "Digital payment systems - operator, wallets, iPay  [APPSC]"
+  },
+  {
+   "s": "UPI accounted for approximately what share of digital payments by volume in FY 2025–26?",
+   "o": [
+    "49%",
+    "65%",
+    "75%",
+    "85%"
+   ],
+   "a": 3,
+   "x": "UPI accounted for approximately 85% of digital payments by volume in FY 2025–26.",
+   "ty": "numerical",
+   "tq": "Recall the reported percentage and distinguish it from UPI's global real-time-payment share.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  },
+  {
+   "s": "According to the stated FY 2025–26 figures, UPI processed approximately:",
+   "o": [
+    "24,160 crore transactions worth Rs 31.4 lakh crore",
+    "2,416 crore transactions worth Rs 31.4 lakh crore",
+    "24,160 crore transactions worth Rs 314 lakh crore",
+    "2,416 crore transactions worth Rs 314 lakh crore"
+   ],
+   "a": 2,
+   "x": "UPI processed about 24,160 crore transactions valued at Rs 314 lakh crore in FY 2025–26.",
+   "ty": "numerical",
+   "tq": "Keep the transaction count and monetary value in their correct units and order.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  },
+  {
+   "s": "In 2025, UPI handled approximately what share of the world's real-time payments, according to the IMF?",
+   "o": [
+    "29%",
+    "39%",
+    "49%",
+    "59%"
+   ],
+   "a": 2,
+   "x": "The IMF reported that UPI handled approximately 49% of the world's real-time payments in 2025.",
+   "ty": "numerical",
+   "tq": "Distinguish a global share from domestic transaction-volume percentages.",
+   "sec": "UPI and NPCI products - BHIM, Bharat QR, e-RUPI, UPI Lite, international acceptance  [APPSC]"
+  }
+ ]
+}

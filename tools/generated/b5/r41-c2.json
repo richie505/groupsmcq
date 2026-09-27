@@ -1,0 +1,428 @@
+{
+ "book": 5,
+ "row": 41,
+ "chunk": 2,
+ "section": "Space science missions - Chandrayaan-1, 2 and 3; Mangalyaan; AstroSat; Aditya-L1; XPoSat",
+ "subsections": [
+  "Foreign missions and vehicles → agency + target",
+  "Space history - FIRST satellite repaired in orbit, space shuttle missions",
+  "Mangalyaan - FIRST-attempt record, rank, orbit, payloads",
+  "Space science terms - Lagrange points, escape velocity, soft landing, Hohmann transfer",
+  "Chandrayaan-1 - Moon Impact Probe, payloads → discovery"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nMission — Agency/Country",
+   "o": [
+    "ExoMars — NASA",
+    "Europa Clipper — NASA",
+    "Psyche — China",
+    "Nuri — Japan"
+   ],
+   "a": 1,
+   "x": "Europa Clipper is a NASA mission aimed at studying Jupiter’s moon Europa. ExoMars is associated with ESA and Roscosmos, Psyche with NASA, and Nuri with South Korea.",
+   "ty": "match",
+   "tq": "Start from the sure agency–mission pair and eliminate swapped agencies.",
+   "sec": "Foreign missions and vehicles → agency + target  [APPSC]"
+  },
+  {
+   "s": "ExoMars is primarily associated with the search for signs of life on which celestial body?",
+   "o": [
+    "The Moon",
+    "Mars",
+    "Europa",
+    "16 Psyche"
+   ],
+   "a": 1,
+   "x": "ExoMars is an ESA mission undertaken with Roscosmos involvement to search for signs of life on Mars.",
+   "ty": "fact",
+   "tq": "Directly identify the target body of a named mission.",
+   "sec": "Foreign missions and vehicles → agency + target  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Chang’e-3 achieved the first soft landing on the Moon since 1976.\n2. Chang’e-4 achieved the first soft landing on the far side of the Moon.\n3. Yutu-2 is associated with Chang’e-4.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Chang’e-3 landed softly in 2013, Chang’e-4 made the first far-side soft landing in 2019, and its rover was Yutu-2.",
+   "ty": "statements",
+   "tq": "Check each statement against the mission’s date, achievement and rover association.",
+   "sec": "Foreign missions and vehicles → agency + target  [APPSC]"
+  },
+  {
+   "s": "Chang’e-6, launched by China, is particularly associated with which achievement?",
+   "o": [
+    "Testing the first crewed flight around the Moon",
+    "Landing humans on the Moon",
+    "Studying the metal-rich asteroid 16 Psyche",
+    "Returning samples from the far side of the Moon"
+   ],
+   "a": 3,
+   "x": "Chang’e-6 conducted a far-side lunar sample-return mission in 2024.",
+   "ty": "fact",
+   "tq": "Distinguish closely related missions of the same lunar programme by their specific achievement.",
+   "sec": "Foreign missions and vehicles → agency + target  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the Artemis programme is correct?",
+   "o": [
+    "It is an ESA programme for studying Europa.",
+    "It is a Japanese programme for landing on Mars.",
+    "It is a Chinese programme for commercial Earth observation.",
+    "It is a NASA programme intended to return humans to the Moon."
+   ],
+   "a": 3,
+   "x": "Artemis is NASA’s programme for returning humans to the Moon. India signed the Artemis Accords in 2023 and was invited to NASA’s Moon Base programme.",
+   "ty": "fact",
+   "tq": "Use the programme’s stated objective to separate it from other space missions.",
+   "sec": "Foreign missions and vehicles → agency + target  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about the Artemis missions is correct?",
+   "o": [
+    "Artemis I was an uncrewed SLS-Orion test in 2022.",
+    "Artemis II was the first Artemis landing on the Moon.",
+    "Artemis III was the first uncrewed SLS-Orion test.",
+    "Artemis IV was completed as the first crewed lunar landing in 2024."
+   ],
+   "a": 0,
+   "x": "Artemis I was an uncrewed SLS-Orion test conducted in 2022. The stated programme plan places the Artemis III crewed Earth-orbit test in 2027 and the first Artemis landing attempt under Artemis IV in 2028.",
+   "ty": "statements",
+   "tq": "Trap the interchange of mission numbers and their assigned phases.",
+   "sec": "Foreign missions and vehicles → agency + target  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Mission/vehicle)\na. Europa Clipper\nb. Psyche\nc. SuperView\n d. Nuri\n\nList-II (Target or purpose)\ni. Commercial high-resolution Earth observation\n ii. Jupiter’s moon Europa\n iii. Metal-rich asteroid 16 Psyche\n iv. South Korea’s indigenous launch vehicle\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–i, c–iii, d–iv",
+    "a–iv, b–iii, c–i, d–ii"
+   ],
+   "a": 0,
+   "x": "Europa Clipper targets Europa, Psyche targets asteroid 16 Psyche, SuperView provides commercial high-resolution Earth observation, and Nuri is South Korea’s indigenous launch vehicle.",
+   "ty": "match",
+   "tq": "Begin with the distinctive target 16 Psyche and then complete the remaining pairs.",
+   "sec": "Foreign missions and vehicles → agency + target  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Moon Impact Probe — NASA’s 2009 polar-crater impactor",
+    "SLIM — Japan’s fifth-nation soft landing on the Moon",
+    "Luna-25 — Successful first Russian soft landing on the Moon in 2023",
+    "LCROSS — First spacecraft to hit the Moon in 1959"
+   ],
+   "a": 1,
+   "x": "Japan’s SLIM achieved the country’s soft landing on the Moon and was described as the ‘Moon sniper’. Luna-25 crashed before landing, Luna 2 was the first lunar impactor in 1959, and India’s MIP was the 2008 impact probe.",
+   "ty": "negative",
+   "tq": "Find the correctly matched mission and reject swapped dates, agencies and achievements.",
+   "sec": "Foreign missions and vehicles → agency + target  [APPSC]"
+  },
+  {
+   "s": "Arrange the following space-shuttle events in chronological order:\nA. First flight of Columbia\nB. Repair of the Solar Maximum Mission satellite\nC. Loss of Challenger\nD. Loss of Columbia during re-entry",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The sequence is Columbia’s first flight in 1981, Solar Maximum Mission repair in 1984, Challenger’s loss in 1986, and Columbia’s loss during re-entry in 2003.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest events first, then arrange the middle events by year.",
+   "sec": "Space history - FIRST satellite repaired in orbit, space shuttle missions  [APPSC]"
+  },
+  {
+   "s": "The first satellite repaired in orbit was which of the following?",
+   "o": [
+    "Solar Maximum Mission",
+    "Rohini",
+    "Aryabhata",
+    "INSAT-3B"
+   ],
+   "a": 0,
+   "x": "NASA’s Solar Maximum Mission satellite was repaired by the crew of Space Shuttle Challenger in April 1984 during mission STS-41C.",
+   "ty": "fact",
+   "tq": "Directly identify the unique satellite associated with the first in-orbit repair.",
+   "sec": "Space history - FIRST satellite repaired in orbit, space shuttle missions  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding India’s early space milestones?",
+   "o": [
+    "SLV-3 was first used for Aryabhata in 1975.",
+    "Aryabhata was launched in 1975 using a Soviet rocket.",
+    "Aryabhata made India the sixth nation to launch a satellite indigenously.",
+    "Rohini was launched in 1975 using a Soviet rocket."
+   ],
+   "a": 1,
+   "x": "Aryabhata, India’s first satellite, was launched in 1975 on a Soviet rocket. In 1980, SLV-3 launched Rohini, making India the sixth nation to launch a satellite indigenously.",
+   "ty": "fact",
+   "tq": "Separate the satellite, launch vehicle and year in two closely related milestones.",
+   "sec": "Space history - FIRST satellite repaired in orbit, space shuttle missions  [APPSC]"
+  },
+  {
+   "s": "India’s first interplanetary mission, launched on PSLV-C25, was designated as which of the following?",
+   "o": [
+    "AstroSat",
+    "Chandrayaan-1",
+    "Mars Orbiter Mission",
+    "Aditya-L1"
+   ],
+   "a": 2,
+   "x": "Mangalyaan was India’s first interplanetary mission and was also known as the Mars Orbiter Mission. It was launched on PSLV-C25.",
+   "ty": "fact",
+   "tq": "Identify the alternate official name of the mission from its launch vehicle association.",
+   "sec": "Mangalyaan - FIRST-attempt record, rank, orbit, payloads  [other exams]"
+  },
+  {
+   "s": "Which one of the following achievements is associated with Mangalyaan?",
+   "o": [
+    "India became the first country to return samples from Mars.",
+    "India became the first country to soft-land on the Moon.",
+    "India became the first country to land a rover on the far side of the Moon.",
+    "India became the first country to reach Mars orbit on its maiden attempt."
+   ],
+   "a": 3,
+   "x": "India reached Mars orbit on its maiden attempt through Mangalyaan. It also made India the first Asian nation to orbit Mars.",
+   "ty": "fact",
+   "tq": "Distinguish an orbital achievement from landing and sample-return achievements.",
+   "sec": "Mangalyaan - FIRST-attempt record, rank, orbit, payloads  [other exams]"
+  },
+  {
+   "s": "ISRO became the fourth space agency to place a spacecraft in Mars orbit after which sequence of agencies?",
+   "o": [
+    "NASA, Roscosmos and ESA",
+    "CNSA, JAXA and NASA",
+    "ESA, CNSA and JAXA",
+    "Roscosmos, CNSA and JAXA"
+   ],
+   "a": 0,
+   "x": "ISRO was the fourth space agency to orbit Mars, after NASA, Roscosmos and ESA.",
+   "ty": "chronology",
+   "tq": "Use the stated rank and identify the three agencies preceding it.",
+   "sec": "Mangalyaan - FIRST-attempt record, rank, orbit, payloads  [other exams]"
+  },
+  {
+   "s": "Which one of the following is NOT a payload carried by Mangalyaan?",
+   "o": [
+    "Moon Mineralogy Mapper",
+    "Mars Colour Camera",
+    "Methane Sensor for Mars",
+    "MENCA"
+   ],
+   "a": 0,
+   "x": "Mangalyaan carried the Methane Sensor for Mars, Mars Colour Camera, MENCA, Lyman Alpha Photometer and Thermal Infrared Imaging Spectrometer. Moon Mineralogy Mapper was a Chandrayaan-1 payload.",
+   "ty": "negative",
+   "tq": "Find the instrument belonging to a different mission rather than the named mission.",
+   "sec": "Mangalyaan - FIRST-attempt record, rank, orbit, payloads  [other exams]"
+  },
+  {
+   "s": "The orbit of Mangalyaan around Mars was described as:",
+   "o": [
+    "Circular and polar",
+    "Geostationary",
+    "Sun-synchronous",
+    "Highly elliptical"
+   ],
+   "a": 3,
+   "x": "Mangalyaan was placed in a highly elliptical orbit around Mars.",
+   "ty": "fact",
+   "tq": "Discriminate the mission’s actual orbit from familiar Earth-orbit terms.",
+   "sec": "Mangalyaan - FIRST-attempt record, rank, orbit, payloads  [other exams]"
+  },
+  {
+   "s": "Consider the following statements about Mangalyaan:\n1. It was designed for a six-month mission.\n2. It functioned for approximately eight years.\n3. Contact with it was lost in 2022.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Mangalyaan was designed for six months but operated for about eight years, and contact was lost in 2022. Therefore, all three statements are correct.",
+   "ty": "statements",
+   "tq": "Check the planned duration, actual performance and termination fact separately.",
+   "sec": "Mangalyaan - FIRST-attempt record, rank, orbit, payloads  [other exams]"
+  },
+  {
+   "s": "In a two-body system, the points at which a small object can remain in balance are known as:",
+   "o": [
+    "Hubble points",
+    "Lagrange points",
+    "Kepler points",
+    "Hohmann points"
+   ],
+   "a": 1,
+   "x": "Lagrange points are five points, L1 to L5, in a two-body system where a small object can remain in balance. The Sun–Earth L1 point is about 1.5 million km sunward of Earth.",
+   "ty": "fact",
+   "tq": "Match the exact scientific term with its defining condition.",
+   "sec": "Space science terms - Lagrange points, escape velocity, soft landing, Hohmann transfer"
+  },
+  {
+   "s": "The Sun–Earth L1 point, used as the station for Aditya-L1, is located approximately:",
+   "o": [
+    "1.5 million km beyond the Moon",
+    "1.5 million km sunward of Earth",
+    "150 million km away from the Sun on the opposite side of Earth",
+    "5 million km south of the lunar orbit"
+   ],
+   "a": 1,
+   "x": "The Sun–Earth L1 point is approximately 1.5 million km sunward of Earth and is the station associated with Aditya-L1.",
+   "ty": "numerical",
+   "tq": "Use the directional qualifier and scale together to avoid confusing L1 with lunar or solar distances.",
+   "sec": "Space science terms - Lagrange points, escape velocity, soft landing, Hohmann transfer"
+  },
+  {
+   "s": "The minimum speed required for an object to escape the gravitational field of Earth is approximately:",
+   "o": [
+    "1.12 km/s",
+    "11.2 km/s",
+    "112 km/s",
+    "0.112 km/s"
+   ],
+   "a": 1,
+   "x": "Earth’s escape velocity is approximately 11.2 km/s.",
+   "ty": "numerical",
+   "tq": "Check the decimal place carefully in a standard numerical value.",
+   "sec": "Space science terms - Lagrange points, escape velocity, soft landing, Hohmann transfer"
+  },
+  {
+   "s": "A Hohmann transfer is best described as:",
+   "o": [
+    "A controlled low-speed touchdown on a planetary surface",
+    "A point of gravitational balance in a two-body system",
+    "A direct vertical launch requiring continuous engine thrust",
+    "A fuel-efficient transfer between two orbits using an elliptical orbit and two engine burns"
+   ],
+   "a": 3,
+   "x": "A Hohmann transfer uses an elliptical transfer orbit and two engine burns to move between two orbits efficiently. Mangalyaan used this method to reach Mars.",
+   "ty": "application",
+   "tq": "Match the operational description with the correct orbital-mechanics term.",
+   "sec": "Space science terms - Lagrange points, escape velocity, soft landing, Hohmann transfer"
+  },
+  {
+   "s": "Which of the following correctly describes the soft-landing limits of Chandrayaan-3?",
+   "o": [
+    "Vertical speed not more than 2 km/s, horizontal speed not more than 0.5 km/s and slope not more than 12°",
+    "Vertical speed not more than 12 m/s, horizontal speed not more than 2 m/s and slope not more than 0.5°",
+    "Vertical speed not more than 2 m/s, horizontal speed not more than 0.5 m/s and slope not more than 12°",
+    "Vertical speed not more than 0.5 m/s, horizontal speed not more than 2 m/s and slope not more than 30°"
+   ],
+   "a": 2,
+   "x": "The Chandrayaan-3 soft-landing limits were vertical speed up to 2 m/s, horizontal speed up to 0.5 m/s and slope up to 12 degrees.",
+   "ty": "numerical",
+   "tq": "Keep the three limits aligned with their respective physical quantities and units.",
+   "sec": "Space science terms - Lagrange points, escape velocity, soft landing, Hohmann transfer"
+  },
+  {
+   "s": "Which one of the following statements about Chandrayaan-1 is correct?",
+   "o": [
+    "It weighed 138 kg and carried five instruments from India alone.",
+    "It weighed 13,800 kg and carried only Indian instruments.",
+    "It weighed 1,380 kg and carried 11 instruments from India and other countries.",
+    "It weighed 1,380 kg and carried no international instruments."
+   ],
+   "a": 2,
+   "x": "Chandrayaan-1 had a mass of 1,380 kg and carried 11 instruments contributed by India, the USA, the UK, Germany, Sweden and Bulgaria.",
+   "ty": "numerical",
+   "tq": "Test the mass, instrument count and international participation together.",
+   "sec": "Chandrayaan-1 - Moon Impact Probe, payloads → discovery  [other exams, GROUP-II]"
+  },
+  {
+   "s": "The Moon Impact Probe of Chandrayaan-1 reached the lunar south polar region on:",
+   "o": [
+    "29 August 2009",
+    "24 September 2014",
+    "23 August 2023",
+    "14 November 2008"
+   ],
+   "a": 3,
+   "x": "Chandrayaan-1’s Moon Impact Probe hit the lunar south polar region on 14 November 2008.",
+   "ty": "fact",
+   "tq": "Distinguish the impact date from the later Chandrayaan-1 contact-loss date and Mars-orbit date.",
+   "sec": "Chandrayaan-1 - Moon Impact Probe, payloads → discovery  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Which instrument supplied evidence of water or hydroxyl on the Moon in the Chandrayaan-1 mission?",
+   "o": [
+    "MENCA",
+    "Moon Mineralogy Mapper (M3)",
+    "Mars Colour Camera",
+    "Methane Sensor for Mars"
+   ],
+   "a": 1,
+   "x": "NASA’s Moon Mineralogy Mapper, or M3, provided evidence of water or hydroxyl on the Moon. The other listed instruments were associated with Mangalyaan.",
+   "ty": "confusable",
+   "tq": "Separate similarly named instruments by their target body and mission.",
+   "sec": "Chandrayaan-1 - Moon Impact Probe, payloads → discovery  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is NOT a payload of Chandrayaan-1?",
+   "o": [
+    "Mini-SAR",
+    "CIXS",
+    "Lyman Alpha Photometer",
+    "TMC"
+   ],
+   "a": 2,
+   "x": "TMC, Mini-SAR and CIXS were among the Chandrayaan-1 payloads. Lyman Alpha Photometer was one of Mangalyaan’s five payloads.",
+   "ty": "negative",
+   "tq": "Identify the instrument that belongs to the neighbouring Mars mission.",
+   "sec": "Chandrayaan-1 - Moon Impact Probe, payloads → discovery  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding Chandrayaan-1:\n1. It completed more than 3,400 orbits.\n2. Contact with it was lost on 29 August 2009.\n3. It operated for 312 days.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Chandrayaan-1 completed over 3,400 orbits, operated for 312 days and lost contact on 29 August 2009. All three statements are correct.",
+   "ty": "statements",
+   "tq": "Verify the count, duration and termination date as separate factual components.",
+   "sec": "Chandrayaan-1 - Moon Impact Probe, payloads → discovery  [other exams, GROUP-II]"
+  },
+  {
+   "s": "India became the fourth nation to place its flag on the Moon through an impact probe. Which sequence lists the nations preceding India in this achievement?",
+   "o": [
+    "USSR, USA and Japan",
+    "USA, China and Russia",
+    "USSR, China and Japan",
+    "USA, Japan and France"
+   ],
+   "a": 0,
+   "x": "India was the fourth nation to place its flag on the Moon through an impact probe, after the USSR, the USA and Japan.",
+   "ty": "chronology",
+   "tq": "Use the stated rank and identify the preceding countries without substituting later lunar powers.",
+   "sec": "Chandrayaan-1 - Moon Impact Probe, payloads → discovery  [other exams, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following sets contains only Chandrayaan-1 payloads?",
+   "o": [
+    "TMC, HySI, LLRI and HEX",
+    "MENCA, TIS, Mars Colour Camera and LAP",
+    "M3, MENCA, Mini-SAR and SARA",
+    "Methane Sensor for Mars, CIXS, SIR-2 and RADOM"
+   ],
+   "a": 0,
+   "x": "TMC, HySI, LLRI and HEX were Chandrayaan-1 payloads. MENCA, TIS, Mars Colour Camera, LAP and the Methane Sensor for Mars were associated with Mangalyaan, while M3 and other instruments were mixed in the remaining options.",
+   "ty": "match",
+   "tq": "Check every item in the set, not merely the first familiar instrument.",
+   "sec": "Chandrayaan-1 - Moon Impact Probe, payloads → discovery  [other exams, GROUP-II]"
+  }
+ ]
+}

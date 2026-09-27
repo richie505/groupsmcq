@@ -1,0 +1,513 @@
+{
+ "book": 3,
+ "row": 109,
+ "chunk": 7,
+ "section": "Basic features of the Andhra Pradesh economy after bifurcation - GSDP, growth rate, sectoral shares",
+ "subsections": [
+  "District-wise service infrastructure - post offices, telephones, bank branches: leading district",
+  "Sub-sector composition",
+  "Services employment in AP - PLFS",
+  "Services exports from AP - IT/ITES, tourism, logistics",
+  "Emerging services - GCCs, fintech, healthcare, education",
+  "Urban service hubs - Visakhapatnam, Vijayawada, Tirupati"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 5,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "According to data as on March 2016, the districts having the maximum number of post offices, telephone connections and bank branches respectively were:",
+   "o": [
+    "Visakhapatnam, Chittoor and Guntur",
+    "Chittoor, Visakhapatnam and Visakhapatnam",
+    "Chittoor, Krishna and Guntur",
+    "Prakasam, Krishna and Visakhapatnam"
+   ],
+   "a": 1,
+   "x": "As per the March 2016 data, Chittoor had the most post offices, while Visakhapatnam led in both telephone connections and bank branches.",
+   "ty": "fact",
+   "tq": "Sequence-based recall of three linked district leaders.",
+   "sec": "District-wise service infrastructure - post offices, telephones, bank branches: leading district"
+  },
+  {
+   "s": "As on 31 December 2024, the total number of post offices in Andhra Pradesh was:",
+   "o": [
+    "8,388",
+    "8,555",
+    "10,660",
+    "10,672"
+   ],
+   "a": 3,
+   "x": "The total number of post offices in Andhra Pradesh as on 31 December 2024 was 10,672.",
+   "ty": "numerical",
+   "tq": "Distinguish closely related annual totals and dates.",
+   "sec": "District-wise service infrastructure - post offices, telephones, bank branches: leading district"
+  },
+  {
+   "s": "Consider the following statements regarding the composition of post offices in Andhra Pradesh as on 31 December 2024:\n1. There were 57 Head Post Offices.\n2. There were 1,505 Sub-Post Offices.\n3. There were 9,101 Branch Post Offices.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The composition was 57 Head Post Offices, 8 MDG offices, 1,505 Sub-Post Offices and 9,101 Branch Post Offices. Hence all three statements are correct.",
+   "ty": "statements",
+   "tq": "Check each numerical component before selecting the combined code.",
+   "sec": "District-wise service infrastructure - post offices, telephones, bank branches: leading district"
+  },
+  {
+   "s": "Which district had the highest number of post offices as on 31 December 2024?",
+   "o": [
+    "SPSR Nellore",
+    "Prakasam",
+    "YSR Kadapa",
+    "Visakhapatnam"
+   ],
+   "a": 1,
+   "x": "Prakasam had the highest number of post offices, with 668, followed by SPSR Nellore with 643 and YSR Kadapa with 580.",
+   "ty": "fact",
+   "tq": "Direct district-wise leader recall.",
+   "sec": "District-wise service infrastructure - post offices, telephones, bank branches: leading district"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Mobile connections — Visakhapatnam district",
+    "Bank branches — Visakhapatnam district",
+    "Post offices — Visakhapatnam district",
+    "Landline connections — Krishna district"
+   ],
+   "a": 2,
+   "x": "Visakhapatnam had the fewest post offices, whereas Prakasam had the highest number. Visakhapatnam led in mobile connections and bank branches, while Krishna led in landline connections.",
+   "ty": "negative",
+   "tq": "Find the one reversed district-leader relationship.",
+   "sec": "District-wise service infrastructure - post offices, telephones, bank branches: leading district"
+  },
+  {
+   "s": "The total number of landline connections in the 13 old districts of Andhra Pradesh was:",
+   "o": [
+    "46.05 lakh",
+    "37,077",
+    "49,621",
+    "3,18,023"
+   ],
+   "a": 2,
+   "x": "The 13 old districts together had 49,621 landline connections.",
+   "ty": "numerical",
+   "tq": "Separate an old-district landline figure from statewide mobile data.",
+   "sec": "District-wise service infrastructure - post offices, telephones, bank branches: leading district"
+  },
+  {
+   "s": "With reference to mobile connections in Andhra Pradesh in 2025, consider the following statements:\n1. The state total was 46.05 lakh.\n2. Visakhapatnam had the highest number of mobile connections.\n3. Guntur and Tirupati followed Visakhapatnam among the leading districts.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh had 46.05 lakh mobile connections in 2025. Visakhapatnam led with 3.77 lakh, followed by Guntur and Tirupati among the districts identified.",
+   "ty": "statements",
+   "tq": "Use the total and ranking together to verify all statements.",
+   "sec": "District-wise service infrastructure - post offices, telephones, bank branches: leading district"
+  },
+  {
+   "s": "As on 31 December 2024, which district had the highest number of bank branches in Andhra Pradesh?",
+   "o": [
+    "Visakhapatnam",
+    "Guntur",
+    "NTR",
+    "Krishna"
+   ],
+   "a": 0,
+   "x": "Visakhapatnam had the highest number of bank branches, numbering 624, followed by Guntur with 543 and NTR with 522.",
+   "ty": "fact",
+   "tq": "Direct recall of the leading district and its figure.",
+   "sec": "District-wise service infrastructure - post offices, telephones, bank branches: leading district"
+  },
+  {
+   "s": "The Credit-Deposit ratio of Andhra Pradesh reported in the SES 2025-26 update was:",
+   "o": [
+    "60%",
+    "85%",
+    "157.40%",
+    "264%"
+   ],
+   "a": 2,
+   "x": "The state-level Credit-Deposit ratio was 157.40%, compared with the RBI norm of 60%.",
+   "ty": "numerical",
+   "tq": "Distinguish the state ratio from district ratios and the regulatory norm.",
+   "sec": "District-wise service infrastructure - post offices, telephones, bank branches: leading district"
+  },
+  {
+   "s": "Which district recorded the highest Credit-Deposit ratio in Andhra Pradesh according to APSES 2024-25?",
+   "o": [
+    "Tirupati",
+    "Palnadu",
+    "NTR",
+    "Visakhapatnam"
+   ],
+   "a": 1,
+   "x": "Palnadu recorded the highest Credit-Deposit ratio at 264%.",
+   "ty": "fact",
+   "tq": "Direct recall of the extreme value in a comparison pair.",
+   "sec": "District-wise service infrastructure - post offices, telephones, bank branches: leading district"
+  },
+  {
+   "s": "Assertion (A): Tirupati had a lower Credit-Deposit ratio than Palnadu.\nReason (R): Tirupati's Credit-Deposit ratio was 85%, whereas Palnadu's was 264%.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and the figures of 85% and 264% directly establish why Tirupati's ratio was lower than Palnadu's.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the numerical reason directly establishes the comparison.",
+   "sec": "District-wise service infrastructure - post offices, telephones, bank branches: leading district"
+  },
+  {
+   "s": "Which one of the following correctly describes the change in landline infrastructure in Andhra Pradesh between 2021 and 2025?",
+   "o": [
+    "Exchanges declined from 3,18,023 to 37,077 and DELs declined from 1,540 to 358.",
+    "Exchanges increased from 358 to 1,540 and DELs increased from 37,077 to 3,18,023.",
+    "Exchanges declined from 1,540 to 358 and DELs declined from 3,18,023 to 37,077.",
+    "Exchanges remained unchanged, while DELs declined from 3,18,023 to 37,077."
+   ],
+   "a": 2,
+   "x": "Telecom landline infrastructure shrank: exchanges fell from 1,540 to 358 and DELs from 3,18,023 to 37,077.",
+   "ty": "comparison",
+   "tq": "Avoid reversal of the two paired indicators and their trends.",
+   "sec": "District-wise service infrastructure - post offices, telephones, bank branches: leading district"
+  },
+  {
+   "s": "How many sub-sectors constitute the services sector classification used for Andhra Pradesh?",
+   "o": [
+    "Seven",
+    "Eight",
+    "Nine",
+    "Six"
+   ],
+   "a": 1,
+   "x": "The classification contains eight sub-sectors, including trade, transport, communications, banking, real estate, public administration and other services.",
+   "ty": "fact",
+   "tq": "Direct recall of a classification count.",
+   "sec": "Sub-sector composition"
+  },
+  {
+   "s": "Which of the following is the correct list of the eight services sub-sectors in Andhra Pradesh?\n1. Trade, Hotels and Restaurants\n2. Railways\n3. Transport by other means and Storage\n4. Communications\n5. Banking and Insurance\n6. Real Estate and Ownership of Dwellings\n7. Public Administration\n8. Other Services",
+   "o": [
+    "1, 2, 3 and 4 only",
+    "1, 2, 4, 5, 6 and 8 only",
+    "2, 3, 5, 6 and 7 only",
+    "1, 2, 3, 4, 5, 6, 7 and 8"
+   ],
+   "a": 3,
+   "x": "All eight listed categories form the services sub-sector classification, with real estate and ownership of dwellings including professional services.",
+   "ty": "statements",
+   "tq": "Verify a complete classification rather than selecting only familiar categories.",
+   "sec": "Sub-sector composition"
+  },
+  {
+   "s": "In 2024-25, the two largest services sub-sectors of Andhra Pradesh by GVA were:",
+   "o": [
+    "Railways and Communications",
+    "Trade, Hotels and Restaurants and Real Estate and Ownership of Dwellings",
+    "Banking and Insurance and Public Administration",
+    "Other Services and Transport by other means and Storage"
+   ],
+   "a": 1,
+   "x": "Trade, Hotels and Restaurants had a GVA of ₹69,836 crore, while Real Estate and Dwellings had ₹62,845 crore, making them the two largest sub-sectors.",
+   "ty": "fact",
+   "tq": "Identify the two largest entries from a sectoral ranking.",
+   "sec": "Sub-sector composition"
+  },
+  {
+   "s": "Which pair constituted the smallest services sub-sectors by GVA in Andhra Pradesh in 2024-25?",
+   "o": [
+    "Communications and Banking",
+    "Railways and Communications",
+    "Other Services and Public Administration",
+    "Public Administration and Railways"
+   ],
+   "a": 1,
+   "x": "Railways and Communications were the smallest services sub-sectors by GVA in 2024-25.",
+   "ty": "fact",
+   "tq": "Test the lower extreme rather than the more obvious largest sectors.",
+   "sec": "Sub-sector composition"
+  },
+  {
+   "s": "In current prices in 2025-26, the shares of Real Estate and Dwellings and Other Services in GVA were respectively:",
+   "o": [
+    "11.99% and 8.96%",
+    "8.51% and 11.99%",
+    "8.81% and 8.51%",
+    "8.51% and 8.81%"
+   ],
+   "a": 3,
+   "x": "Real Estate and Dwellings accounted for 8.51% of GVA, while Other Services accounted for 8.81%.",
+   "ty": "comparison",
+   "tq": "Avoid swapping two closely related percentage figures.",
+   "sec": "Sub-sector composition"
+  },
+  {
+   "s": "Consider the following statements regarding services in Andhra Pradesh in 2025-26:\n1. Services GVA at constant 2011-12 prices was ₹3,59,931 crore.\n2. Services grew by 10.67%.\n3. Services recorded the highest growth among agriculture, industry and services.\n4. GSDP growth was 9.88%, compared with 7.4% for India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct for the 2025-26 FAE. Services growth exceeded agriculture at 10.14% and industry at 9.15%, while state GSDP growth was 9.88%.",
+   "ty": "statements",
+   "tq": "Combine level, growth, ranking and inter-state comparison.",
+   "sec": "Sub-sector composition"
+  },
+  {
+   "s": "Arrange the following services sub-sectors in descending order of their 2025-26 FAE growth rates:\nA. Banking and Insurance\nB. Trade, Hotels and Restaurants\nC. Communications\nD. Real Estate and Dwellings",
+   "o": [
+    "C, A, B, D",
+    "A, C, B, D",
+    "C, B, A, D",
+    "D, B, A, C"
+   ],
+   "a": 0,
+   "x": "The growth rates were Communications 15.13%, Banking and Insurance 13.59%, Trade, Hotels and Restaurants 12.41%, and Real Estate and Dwellings 11.99%.",
+   "ty": "chronology",
+   "tq": "Rank the options using the supplied growth percentages.",
+   "sec": "Sub-sector composition"
+  },
+  {
+   "s": "The highest and lowest growth rates of services in Andhra Pradesh over the stated long-run period were respectively:",
+   "o": [
+    "10.67% and 0.05%",
+    "8.53% and -9.21%",
+    "14.25% and 0.09%",
+    "12.08% and -9.21%"
+   ],
+   "a": 3,
+   "x": "The highest long-run services growth was 12.08% in 2015-16, and the lowest was -9.21% in 2020-21.",
+   "ty": "numerical",
+   "tq": "Distinguish long-run extremes from single-year estimates.",
+   "sec": "Sub-sector composition"
+  },
+  {
+   "s": "The new national GDP series with base year 2022-23 placed FY 2026 growth and tertiary-sector growth at respectively:",
+   "o": [
+    "7.4% and 8.9%",
+    "8.9% and 7.6%",
+    "7.6% and 8.9%",
+    "7.6% and 7.4%"
+   ],
+   "a": 2,
+   "x": "The new GDP series placed FY 2026 overall growth at 7.6% and tertiary-sector growth at 8.9%.",
+   "ty": "numerical",
+   "tq": "Keep the overall-growth figure separate from the sectoral-growth figure.",
+   "sec": "Sub-sector composition"
+  },
+  {
+   "s": "The first Index of Services Production introduced by MoSPI is best described as:",
+   "o": [
+    "An index based on the 2011-12 series covering all economic activity",
+    "A measure restricted to agricultural services",
+    "The services counterpart of the Index of Industrial Production",
+    "A replacement for the Consumer Price Index covering all services"
+   ],
+   "a": 2,
+   "x": "MoSPI's Index of Services Production is the services counterpart of the IIP; its stated base is 2024-25 and it covers 19 sub-sectors representing about 60% of services.",
+   "ty": "application",
+   "tq": "Identify the institutional counterpart by function and scope.",
+   "sec": "Sub-sector composition"
+  },
+  {
+   "s": "According to PLFS 2023-24, the Labour Force Participation Rate in Andhra Pradesh and India was respectively:",
+   "o": [
+    "50.1% and 41.3%",
+    "59.5% and 35.8%",
+    "45.1% and 47.5%",
+    "47.5% and 45.1%"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh recorded an LFPR of 47.5%, compared with India's 45.1%.",
+   "ty": "comparison",
+   "tq": "Compare state and national values without confusing rural, urban or gender rates.",
+   "sec": "Services employment in AP - PLFS"
+  },
+  {
+   "s": "Which one of the following correctly represents the gender-wise LFPR in Andhra Pradesh in 2023-24?",
+   "o": [
+    "Male 50.1% and female 41.3%",
+    "Male 59.5% and female 35.8%",
+    "Male 47.5% and female 45.1%",
+    "Male 35.8% and female 59.5%"
+   ],
+   "a": 1,
+   "x": "The male LFPR in Andhra Pradesh was 59.5%, while the female LFPR was 35.8%.",
+   "ty": "comparison",
+   "tq": "Avoid reversal of paired male and female percentages.",
+   "sec": "Services employment in AP - PLFS"
+  },
+  {
+   "s": "The rural and urban Labour Force Participation Rates in Andhra Pradesh in 2023-24 were respectively:",
+   "o": [
+    "47.5% and 45.1%",
+    "50.1% and 41.3%",
+    "41.3% and 50.1%",
+    "59.5% and 35.8%"
+   ],
+   "a": 1,
+   "x": "Rural Andhra Pradesh recorded an LFPR of 50.1%, while the urban LFPR was 41.3%.",
+   "ty": "comparison",
+   "tq": "Match the residence category with its correct percentage.",
+   "sec": "Services employment in AP - PLFS"
+  },
+  {
+   "s": "Consider the following statements regarding rural workers in Andhra Pradesh:\n1. Regular wage or salaried workers constituted 13.7%.\n2. Casual labour constituted 33.8%.\n3. The share of casual labour was higher than the corresponding Indian share of 22.5%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: regular wage or salaried workers formed 13.7%, casual labour 33.8%, and the latter exceeded India's 22.5%.",
+   "ty": "statements",
+   "tq": "Use both the state figures and the national comparator.",
+   "sec": "Services employment in AP - PLFS"
+  },
+  {
+   "s": "Nationally, approximately what share of service workers are informal according to the cited PLFS-based estimate?",
+   "o": [
+    "50-55%",
+    "33-38%",
+    "85-90%",
+    "70-75%"
+   ],
+   "a": 3,
+   "x": "The cited national estimate places the share of informal service workers at approximately 70-75%.",
+   "ty": "numerical",
+   "tq": "Recall the range rather than a single-point estimate.",
+   "sec": "Services employment in AP - PLFS"
+  },
+  {
+   "s": "The principal character of Andhra Pradesh's exports in 2024-25 was:",
+   "o": [
+    "Mainly merchandise exports, particularly marine products and pharmaceuticals",
+    "Exclusively IT and IT-enabled services exports",
+    "Exclusively tourism and logistics services exports",
+    "Mainly education and healthcare services exports"
+   ],
+   "a": 0,
+   "x": "The exports were mainly merchandise, with marine products and pharmaceuticals identified as important components.",
+   "ty": "fact",
+   "tq": "Reject the sectoral overstatement created by the services theme.",
+   "sec": "Services exports from AP - IT/ITES, tourism, logistics"
+  },
+  {
+   "s": "Which set of cities emerged as locations for new IT parks in Andhra Pradesh after bifurcation?",
+   "o": [
+    "Rajahmundry, Ongole and Kadapa",
+    "Visakhapatnam, Tirupati and Vijayawada",
+    "Guntur, Kurnool and Nellore",
+    "Srikakulam, Anantapur and Machilipatnam"
+   ],
+   "a": 1,
+   "x": "After bifurcation left Andhra Pradesh without Hyderabad's IT export base, new IT parks came up in Visakhapatnam, Tirupati and Vijayawada.",
+   "ty": "fact",
+   "tq": "Recall the three-city location cluster.",
+   "sec": "Services exports from AP - IT/ITES, tourism, logistics"
+  },
+  {
+   "s": "The RMZ GCC Park associated with a US$10 billion partnership is located at:",
+   "o": [
+    "Tirupati",
+    "Mangalagiri",
+    "Kapuluppada, Visakhapatnam",
+    "Vijayawada"
+   ],
+   "a": 2,
+   "x": "RMZ's GCC Park is located at Kapuluppada in Visakhapatnam. The partnership also covers a 1 GW data-centre cluster.",
+   "ty": "fact",
+   "tq": "Use the precise location rather than only the city or institution.",
+   "sec": "Emerging services - GCCs, fintech, healthcare, education"
+  },
+  {
+   "s": "The US$10 billion partnership associated with the RMZ GCC Park also covers:",
+   "o": [
+    "A 1 GW irrigation project",
+    "A 1 GW data-centre cluster",
+    "A 10 GW port expansion",
+    "A 10 GW solar park"
+   ],
+   "a": 1,
+   "x": "The partnership involving the RMZ GCC Park also covers a 1 GW data-centre cluster.",
+   "ty": "fact",
+   "tq": "Identify the linked investment component without changing its unit or sector.",
+   "sec": "Emerging services - GCCs, fintech, healthcare, education"
+  },
+  {
+   "s": "Which institutions constitute the education and health anchors identified for Andhra Pradesh's emerging services sector?",
+   "o": [
+    "AIIMS Mangalagiri, IIM Visakhapatnam and IIT Tirupati",
+    "AIIMS Tirupati, IIM Mangalagiri and IIT Visakhapatnam",
+    "AIIMS Visakhapatnam, IIM Tirupati and IIT Mangalagiri",
+    "AIIMS Vijayawada, IIM Guntur and IIT Amaravati"
+   ],
+   "a": 0,
+   "x": "The identified anchors are AIIMS Mangalagiri, IIM Visakhapatnam and IIT Tirupati.",
+   "ty": "match",
+   "tq": "Match each institution with its correct Andhra Pradesh location.",
+   "sec": "Emerging services - GCCs, fintech, healthcare, education"
+  },
+  {
+   "s": "Which one of the following statements about Visakhapatnam as an urban service hub is correct?",
+   "o": [
+    "It has the highest number of bank branches and mobile connections, and hosts Google data centre, TCS and Cognizant facilities.",
+    "It is the location of IIT Tirupati and AIIMS Mangalagiri.",
+    "It has the highest post-office count and the lowest number of bank branches.",
+    "It has the lowest Credit-Deposit ratio and no major IT presence."
+   ],
+   "a": 0,
+   "x": "Visakhapatnam leads in bank branches and mobile connections and has the presence of Google data centre, TCS and Cognizant.",
+   "ty": "application",
+   "tq": "Combine several identifying features to recognise the correct urban hub.",
+   "sec": "Urban service hubs - Visakhapatnam, Vijayawada, Tirupati"
+  },
+  {
+   "s": "Which of the following correctly describes the banking infrastructure of Vijayawada, represented by NTR district?",
+   "o": [
+    "522 bank branches, of which 85 were metro branches",
+    "624 bank branches, of which 244 were metro branches",
+    "522 bank branches, of which 244 were metro branches",
+    "543 bank branches, of which 264 were metro branches"
+   ],
+   "a": 2,
+   "x": "NTR district had 522 bank branches, including 244 metro branches.",
+   "ty": "numerical",
+   "tq": "Distinguish the district total from the metro-branch subset.",
+   "sec": "Urban service hubs - Visakhapatnam, Vijayawada, Tirupati"
+  },
+  {
+   "s": "Which statement correctly describes Tirupati's banking position?",
+   "o": [
+    "It had deposits of ₹6,08,834 crore and a Credit-Deposit ratio of 157.40%.",
+    "It had deposits of ₹47,299 crore and the state's highest Credit-Deposit ratio of 264%.",
+    "It had deposits of ₹9,58,277 crore and a Credit-Deposit ratio of 60%.",
+    "It had deposits of ₹47,299 crore and a Credit-Deposit ratio of 85%."
+   ],
+   "a": 3,
+   "x": "Tirupati had deposits of ₹47,299 crore, but its Credit-Deposit ratio was only 85%.",
+   "ty": "comparison",
+   "tq": "Pair the district deposit figure with its correct ratio and avoid substituting state-level data.",
+   "sec": "Urban service hubs - Visakhapatnam, Vijayawada, Tirupati"
+  }
+ ]
+}

@@ -1,0 +1,514 @@
+{
+ "book": 5,
+ "row": 45,
+ "chunk": 2,
+ "section": "Applications of space technology - agriculture, disaster management, telemedicine, tele-education, navigation",
+ "subsections": [
+  "Agency → remote sensing role",
+  "Weather and lightning alert apps → developer",
+  "Telemedicine and tele-education - networks, Village Resource Centres",
+  "Remote sensing applications - what can/cannot be measured; NDVI",
+  "Navigation applications - devices, fishermen alerts, tracking, GPS uses",
+  "ISRO-Geosphere Biosphere Programme - National Carbon Project",
+  "AP Space Applications Centre (APSAC) - state mapping"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 1,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following agencies functions as the nodal agency for receiving, processing and supplying satellite data, while also operating Bhuvan and providing disaster-support services to States?",
+   "o": [
+    "Space Applications Centre",
+    "North Eastern Space Applications Centre",
+    "National Remote Sensing Centre",
+    "Indian Institute of Remote Sensing"
+   ],
+   "a": 2,
+   "x": "The National Remote Sensing Centre (NRSC), Hyderabad, receives, processes and supplies satellite data, runs Bhuvan and supports States in disaster management.",
+   "ty": "fact",
+   "tq": "Identify the agency from its distinctive combination of functions.",
+   "sec": "Agency → remote sensing role"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Agency)\na. IIRS\nb. NESAC\nc. SAC\n d. Regional Remote Sensing Centres\n\nList-II (Primary role)\ni. Sensors and applications\n ii. Training and education in remote sensing and GIS\n iii. Regional remote-sensing projects for States\n iv. Space applications for the North-East\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iv, c–i, d–iii",
+    "a–iv, b–ii, c–iii, d–i",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–iii, b–iv, c–i, d–ii"
+   ],
+   "a": 0,
+   "x": "IIRS provides training and education; NESAC serves the North-East; SAC works on sensors and applications; and the five RRSCs undertake regional projects for States.",
+   "ty": "match",
+   "tq": "Start from the sure agency-role pairs and eliminate the codes.",
+   "sec": "Agency → remote sensing role"
+  },
+  {
+   "s": "With reference to the Regional Remote Sensing Centres, consider the following statements:\n1. There are five such centres under the NRSC.\n2. They are located at Bengaluru, Jodhpur, Kharagpur, Nagpur and Delhi.\n3. They function as centres for regional remote-sensing projects for States.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The five RRSCs are under NRSC and undertake regional remote-sensing projects for States at the listed locations.",
+   "ty": "statements",
+   "tq": "Check the count, locations and function separately before choosing the coded option.",
+   "sec": "Agency → remote sensing role"
+  },
+  {
+   "s": "The North Eastern Space Applications Centre is located at which of the following places?",
+   "o": [
+    "Shadnagar, Telangana",
+    "Dehradun, Uttarakhand",
+    "Ahmedabad, Gujarat",
+    "Umiam, Meghalaya"
+   ],
+   "a": 3,
+   "x": "NESAC is located at Umiam in Meghalaya and undertakes space applications for the North-East.",
+   "ty": "fact",
+   "tq": "Use the location-agency association rather than the agency acronym alone.",
+   "sec": "Agency → remote sensing role"
+  },
+  {
+   "s": "NESAC functions through the joint involvement of which of the following?",
+   "o": [
+    "Department of Science and Technology and ICAR",
+    "Ministry of Earth Sciences and NITI Aayog",
+    "Department of Space and North Eastern Council",
+    "Ministry of Home Affairs and NHAI"
+   ],
+   "a": 2,
+   "x": "NESAC is a joint initiative of the Department of Space and the North Eastern Council.",
+   "ty": "fact",
+   "tq": "Distinguish the institutional partners of a specialised regional agency.",
+   "sec": "Agency → remote sensing role"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "NESAC — Coastal shoreline mapping of Andhra Pradesh",
+    "NRSC — Earth station at Shadnagar",
+    "SAC, Ahmedabad — Sensors and applications",
+    "IIRS — Training in remote sensing and GIS"
+   ],
+   "a": 0,
+   "x": "NESAC deals with space applications for the North-East. Coastal shoreline mapping of Andhra Pradesh is associated with APSAC.",
+   "ty": "negative",
+   "tq": "Find the agency-role mismatch by locating the function belonging to another centre.",
+   "sec": "Agency → remote sensing role"
+  },
+  {
+   "s": "The Damini application is primarily associated with which of the following services?",
+   "o": [
+    "Vehicle tracking",
+    "Lightning alerts",
+    "Satellite-based land registration",
+    "Agro-met advisories"
+   ],
+   "a": 1,
+   "x": "Damini is a lightning-alert application developed by IITM, Pune, under the Ministry of Earth Sciences.",
+   "ty": "fact",
+   "tq": "Discriminate between similarly themed weather and agriculture applications.",
+   "sec": "Weather and lightning alert apps → developer"
+  },
+  {
+   "s": "Which one of the following organisations is associated with the development of the Meghdoot application?",
+   "o": [
+    "RTGS in association with APSDMA",
+    "IITM Pune alone",
+    "IMD in association with IITM and ICAR",
+    "SAC, Ahmedabad in association with NHAI"
+   ],
+   "a": 2,
+   "x": "Meghdoot provides agro-met advisories and is associated with IMD, IITM and ICAR.",
+   "ty": "fact",
+   "tq": "Match an application with its developer group and purpose.",
+   "sec": "Weather and lightning alert apps → developer"
+  },
+  {
+   "s": "Consider the following statements regarding the City Flood Alert application in Andhra Pradesh:\n1. It was developed by RTGS with APSDMA and IIT Gandhinagar.\n2. It provides AI-based urban flood forecasting.\n3. It provides 48-hour rainfall warnings and 6-hour flash-flood warnings.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The City Flood Alert application has all three features: the stated institutional collaboration, AI-based forecasting and the specified warning periods.",
+   "ty": "statements",
+   "tq": "Treat each service feature as an independent statement before selecting the code.",
+   "sec": "Weather and lightning alert apps → developer"
+  },
+  {
+   "s": "The City Flood Alert system in Andhra Pradesh was first implemented in which city using satellite DEMs and Budameru flood data?",
+   "o": [
+    "Vijayawada",
+    "Tirupati",
+    "Kakinada",
+    "Visakhapatnam"
+   ],
+   "a": 0,
+   "x": "The system was first implemented in Vijayawada, using satellite digital elevation models and Budameru flood data.",
+   "ty": "fact",
+   "tq": "Test the specific pilot location rather than the State-wide scope of the application.",
+   "sec": "Weather and lightning alert apps → developer"
+  },
+  {
+   "s": "The MoU signed on 15 April 2026 between APSDMA and NRSC primarily seeks to address which problem in rural Andhra Pradesh?",
+   "o": [
+    "Crop-yield estimation",
+    "Lightning deaths",
+    "Coastal erosion",
+    "Groundwater depletion"
+   ],
+   "a": 1,
+   "x": "The APSDMA-NRSC MoU aims to prevent lightning deaths in rural Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Link the institutional agreement with its stated problem-specific objective.",
+   "sec": "Weather and lightning alert apps → developer"
+  },
+  {
+   "s": "Which of the following combinations correctly describes the functions of Village Resource Centres established through space technology?\n1. Tele-education\n2. Telemedicine\n3. Weather advisories\n4. Land and water advisories\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Village Resource Centres are single-window centres combining tele-education, telemedicine, weather information and remote-sensing-based land and water advisories.",
+   "ty": "statements",
+   "tq": "Recognise the complete service basket of a single-window centre.",
+   "sec": "Telemedicine and tele-education - networks, Village Resource Centres"
+  },
+  {
+   "s": "Which satellite communication systems have enabled tele-education, telemedicine and Village Resource Centres in India?",
+   "o": [
+    "NavIC and GPS",
+    "INSAT and GSAT",
+    "IRS and Cartosat only",
+    "Oceansat and Resourcesat only"
+   ],
+   "a": 1,
+   "x": "INSAT and GSAT satellite communication systems have enabled tele-education, telemedicine and Village Resource Centres.",
+   "ty": "fact",
+   "tq": "Separate communication satellite systems from navigation and remote-sensing systems.",
+   "sec": "Telemedicine and tele-education - networks, Village Resource Centres"
+  },
+  {
+   "s": "Which of the following is correctly matched with the present tele-education arrangement?",
+   "o": [
+    "GRAMSAT — vehicle tracking through AIS-140",
+    "Swayam Prabha — 40 free DTH channels on GSAT-15",
+    "Swayam Prabha — 75 satellite channels on IRNSS-1A",
+    "EDUSAT — six-hour flash-flood warnings"
+   ],
+   "a": 1,
+   "x": "Swayam Prabha provides 40 free DTH channels through GSAT-15. The other options mix unrelated navigation or disaster-management functions.",
+   "ty": "fact",
+   "tq": "Use the exact channel count and satellite association to identify the correct pair.",
+   "sec": "Telemedicine and tele-education - networks, Village Resource Centres"
+  },
+  {
+   "s": "Space Labs associated with the tele-education initiative have been established in how many Eklavya Model Residential Schools?",
+   "o": [
+    "40",
+    "50",
+    "75",
+    "100"
+   ],
+   "a": 2,
+   "x": "Space Labs have been established in 75 Eklavya Model Residential Schools.",
+   "ty": "numerical",
+   "tq": "Recall the specific numerical extent of the education initiative.",
+   "sec": "Telemedicine and tele-education - networks, Village Resource Centres"
+  },
+  {
+   "s": "Which one of the following cannot ordinarily be directly measured or assessed through the remote-sensing applications listed below?",
+   "o": [
+    "Individual bank-account balance",
+    "Crop area and yield",
+    "Forest cover",
+    "Land cover"
+   ],
+   "a": 0,
+   "x": "Remote sensing can assess land cover, forest cover and crop area or yield, but it cannot measure an individual bank-account balance.",
+   "ty": "negative",
+   "tq": "Identify the non-spatial socioeconomic item among measurable Earth-surface parameters.",
+   "sec": "Remote sensing applications - what can/cannot be measured; NDVI"
+  },
+  {
+   "s": "Remote sensing is used for assessing which of the following natural-resource and environmental features?\n1. Surface and groundwater prospects\n2. Snow and glaciers\n3. Wetlands\n4. Mineral and hydrocarbon zones\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four are recognised applications of remote sensing for natural-resource and environmental assessment.",
+   "ty": "statements",
+   "tq": "Group the listed applications by their spatial and environmental character.",
+   "sec": "Remote sensing applications - what can/cannot be measured; NDVI"
+  },
+  {
+   "s": "Why is near-infrared reflectance important in assessing vegetation health through remote sensing?",
+   "o": [
+    "Healthy vegetation absorbs all near-infrared radiation.",
+    "Near-infrared radiation is emitted only by dry soil.",
+    "Vegetation health is assessed without using spectral reflectance.",
+    "Healthy vegetation reflects strongly in the near-infrared band."
+   ],
+   "a": 3,
+   "x": "Healthy vegetation reflects strongly in the near-infrared band, which is why NIR is used in vegetation indices such as NDVI.",
+   "ty": "application",
+   "tq": "Connect the physical spectral property with the remote-sensing application.",
+   "sec": "Remote sensing applications - what can/cannot be measured; NDVI"
+  },
+  {
+   "s": "Which index is used for mandal-level drought declaration in Andhra Pradesh?",
+   "o": [
+    "Crop Yield Index",
+    "Vegetation Condition Index",
+    "Normalized Difference Water Index",
+    "Highway Green Cover Index"
+   ],
+   "a": 1,
+   "x": "The Vegetation Condition Index (VCI) is used for mandal-level drought declaration in Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Distinguish the drought-declaration index from other vegetation and infrastructure indices.",
+   "sec": "Remote sensing applications - what can/cannot be measured; NDVI"
+  },
+  {
+   "s": "The NH Green Cover Index 2025–26 is notable because it represents which of the following?",
+   "o": [
+    "India’s first satellite-based assessment of ocean salinity",
+    "The first nationwide crop-yield forecast using only ground surveys",
+    "A navigation index for highway vehicles",
+    "India’s first satellite-based green-cover assessment of highways"
+   ],
+   "a": 3,
+   "x": "The NH Green Cover Index is India’s first satellite-based green-cover assessment of highways and uses chlorophyll detection.",
+   "ty": "fact",
+   "tq": "Identify the significance of a named index from its application domain.",
+   "sec": "Remote sensing applications - what can/cannot be measured; NDVI"
+  },
+  {
+   "s": "The NH Green Cover Index 2025–26 assessed highway green cover over approximately how much distance and in how many States?",
+   "o": [
+    "10,000 km in 12 States",
+    "30,000 km in 24 States",
+    "50,000 km in 28 States",
+    "20,000 km in 18 States"
+   ],
+   "a": 1,
+   "x": "The assessment covered about 30,000 km of highways across 24 States, using chlorophyll detection.",
+   "ty": "numerical",
+   "tq": "Combine the two quantitative clues—coverage length and number of States.",
+   "sec": "Remote sensing applications - what can/cannot be measured; NDVI"
+  },
+  {
+   "s": "Nabhmitra, developed by SAC, Ahmedabad, is primarily intended for which group?",
+   "o": [
+    "Fishermen",
+    "Highway engineers",
+    "Mountain climbers",
+    "Forest surveyors"
+   ],
+   "a": 0,
+   "x": "Nabhmitra is an ISRO-SAC fishermen-safety device, tested at Neendakara in Kerala in August 2023.",
+   "ty": "fact",
+   "tq": "Match the device with its target users and field of application.",
+   "sec": "Navigation applications - devices, fishermen alerts, tracking, GPS uses"
+  },
+  {
+   "s": "Which one of the following correctly describes the navigation-related function of reconfigured IRNSS-1A?",
+   "o": [
+    "It performs only highway vegetation assessment.",
+    "It replaces all terrestrial internet services in rural clinics.",
+    "It provides agro-met advisories to farmers through DTH channels.",
+    "It broadcasts cyclone, tsunami and high-wave alerts to fishermen."
+   ],
+   "a": 3,
+   "x": "Reconfigured IRNSS-1A broadcasts cyclone, tsunami and high-wave alerts to fishermen.",
+   "ty": "fact",
+   "tq": "Separate satellite navigation and alert functions from unrelated communication services.",
+   "sec": "Navigation applications - devices, fishermen alerts, tracking, GPS uses"
+  },
+  {
+   "s": "Which satellite continued to provide one-way messaging even after a clock failure?",
+   "o": [
+    "Oceansat-2",
+    "IRNSS-1F",
+    "GSAT-15",
+    "IRNSS-1A"
+   ],
+   "a": 1,
+   "x": "IRNSS-1F continued one-way messaging despite its clock failure.",
+   "ty": "confusable",
+   "tq": "Discriminate between closely numbered members of the IRNSS series.",
+   "sec": "Navigation applications - devices, fishermen alerts, tracking, GPS uses"
+  },
+  {
+   "s": "The APMVTS in Andhra Pradesh uses AIS-140 devices primarily for tracking which vehicles?",
+   "o": [
+    "School buses only",
+    "Mineral vehicles",
+    "Satellite launch vehicles",
+    "Fishing boats"
+   ],
+   "a": 1,
+   "x": "The Andhra Pradesh Motor Vehicle Tracking System fitted 50,000 mineral vehicles with AIS-140 tracking devices.",
+   "ty": "fact",
+   "tq": "Match the tracking technology with the vehicle category and scale of deployment.",
+   "sec": "Navigation applications - devices, fishermen alerts, tracking, GPS uses"
+  },
+  {
+   "s": "Which of the following correctly states two uses of satellite-based timing?",
+   "o": [
+    "Banks time-stamp transactions and power grids synchronise their phase.",
+    "Banks monitor glaciers and power grids conduct telemedicine.",
+    "Banks measure chlorophyll and power grids map wetlands.",
+    "Banks issue lightning alerts and power grids estimate crop yield."
+   ],
+   "a": 0,
+   "x": "Satellite time is used by banks to time-stamp transactions and by power grids to synchronise their phase.",
+   "ty": "application",
+   "tq": "Link a common technological input—precise time—to sector-specific applications.",
+   "sec": "Navigation applications - devices, fishermen alerts, tracking, GPS uses"
+  },
+  {
+   "s": "The National Carbon Project under the ISRO Geosphere Biosphere Programme seeks to assess which of the following?\n1. Carbon pools\n2. Carbon fluxes\n3. Net carbon balance of India’s terrestrial biomes\n4. Only atmospheric carbon, excluding vegetation and soil\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "The project assesses carbon pools, carbon fluxes and the net carbon balance of terrestrial biomes. It includes vegetation and soil carbon and is not restricted to atmospheric carbon alone.",
+   "ty": "statements",
+   "tq": "Reject the extreme exclusion in statement 4 and retain the three components of the project.",
+   "sec": "ISRO-Geosphere Biosphere Programme - National Carbon Project"
+  },
+  {
+   "s": "Which of the following components are specifically covered while assessing carbon under the National Carbon Project?\n1. Vegetation carbon\n2. Soil carbon\n3. Land/ocean-atmosphere fluxes\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The National Carbon Project covers vegetation carbon, soil carbon and land/ocean-atmosphere carbon fluxes.",
+   "ty": "statements",
+   "tq": "Check whether each carbon component belongs to the project’s accounting framework.",
+   "sec": "ISRO-Geosphere Biosphere Programme - National Carbon Project"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched in relation to APSAC activities?",
+   "o": [
+    "VCI — Agricultural drought assessment at mandal level",
+    "APSSDI — Satellite-based lightning alert application",
+    "YES-TECH — Yield estimation in Nandyal and Kakinada",
+    "SVAMITVA — Drone survey"
+   ],
+   "a": 1,
+   "x": "APSSDI standardises GIS layers and supports spatial mapping; the satellite-based lightning alert application is not its stated function. APSAC uses VCI, YES-TECH and SVAMITVA for the functions listed in the other pairs.",
+   "ty": "negative",
+   "tq": "Locate the option that assigns a specialised function to the wrong APSAC programme.",
+   "sec": "AP Space Applications Centre (APSAC) - state mapping"
+  },
+  {
+   "s": "YES-TECH yield estimation in Andhra Pradesh is being undertaken in which districts or areas in association with ISRO and the Ministry of Agriculture and Farmers Welfare?",
+   "o": [
+    "Nandyal and Kakinada",
+    "Tirupati and Srikakulam",
+    "Vijayawada and Visakhapatnam",
+    "Anantapur and Nellore"
+   ],
+   "a": 0,
+   "x": "APSAC undertakes YES-TECH yield estimation in Nandyal and Kakinada with ISRO and the Ministry of Agriculture and Farmers Welfare.",
+   "ty": "fact",
+   "tq": "Recall the two-location association of a named yield-estimation programme.",
+   "sec": "AP Space Applications Centre (APSAC) - state mapping"
+  },
+  {
+   "s": "Consider the following statements about APSSDI:\n1. It standardised 74 GIS layers.\n2. Its stated cost is Rs 15.76 crore.\n3. The Centre–State sharing ratio is 70:30.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "APSSDI standardised 74 GIS layers at a cost of Rs 15.76 crore, with a 70:30 Centre–State sharing ratio.",
+   "ty": "statements",
+   "tq": "Verify the count, cost and funding ratio as separate quantitative facts.",
+   "sec": "AP Space Applications Centre (APSAC) - state mapping"
+  },
+  {
+   "s": "What is the present status of rural water-supply mapping associated with APSAC?",
+   "o": [
+    "38,000 schemes mapped and 1,200 pending approval",
+    "74 schemes identified and 15.76 crore mapped",
+    "1,200 schemes identified and 38,000 mapped",
+    "38,000 schemes identified and 1,200 mapped"
+   ],
+   "a": 3,
+   "x": "The rural water-supply mapping covers 38,000 schemes, of which 1,200 have been mapped so far.",
+   "ty": "numerical",
+   "tq": "Watch for reversal of the total and the number completed.",
+   "sec": "AP Space Applications Centre (APSAC) - state mapping"
+  },
+  {
+   "s": "According to the shoreline-change assessment of Andhra Pradesh, what proportion of the 1,053 km coast is classified as stable?",
+   "o": [
+    "20 percent",
+    "26 percent",
+    "54 percent",
+    "70 percent"
+   ],
+   "a": 0,
+   "x": "Of the 1,053 km coastline, 20 percent is classified as stable; 26 percent is eroded and 54 percent is accreting.",
+   "ty": "numerical",
+   "tq": "Separate the three shoreline categories and avoid confusing stable with accreting.",
+   "sec": "AP Space Applications Centre (APSAC) - state mapping"
+  },
+  {
+   "s": "Arrange the following shoreline categories of Andhra Pradesh in descending order of their reported shares:\nA. Stable\nB. Eroded\nC. Accreting\nSelect the correct sequence.",
+   "o": [
+    "C, B, A",
+    "B, C, A",
+    "C, A, B",
+    "A, C, B"
+   ],
+   "a": 0,
+   "x": "Accreting coastline accounts for 54 percent, eroded coastline for 26 percent and stable coastline for 20 percent; therefore the order is C, B, A.",
+   "ty": "chronology",
+   "tq": "Apply ranking by numerical magnitude rather than chronological ordering.",
+   "sec": "AP Space Applications Centre (APSAC) - state mapping"
+  },
+  {
+   "s": "Which of the following statements correctly describes APSAC’s land-use and land-cover activity for 2025–26?",
+   "o": [
+    "It confined mapping exclusively to urban municipal boundaries.",
+    "It replaced all NRSC data with GPS-only field observations.",
+    "It used only AIS-140 vehicle data for land classification.",
+    "It updated land use and land cover using NRSC data."
+   ],
+   "a": 3,
+   "x": "APSAC updated land use and land cover for 2025–26 using data from the NRSC.",
+   "ty": "fact",
+   "tq": "Identify the correct data-source relationship in a mapping activity.",
+   "sec": "AP Space Applications Centre (APSAC) - state mapping"
+  }
+ ]
+}

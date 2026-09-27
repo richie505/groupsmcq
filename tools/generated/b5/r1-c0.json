@@ -1,0 +1,469 @@
+{
+ "book": 5,
+ "row": 1,
+ "chunk": 0,
+ "section": "Relevance of science and technology to day-to-day life - health, food, transport, communication, household",
+ "subsections": [
+  "Harmful chemicals in daily-use products → product or source",
+  "Health technologies - telemedicine, dialysis, imaging, indigenous devices",
+  "Food technology - additives, adulterants, preservation, fortification, irradiation, cold chain, packaging",
+  "Positive vs negative impacts of technology on daily life"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 34,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Rhodamine B is associated with which of the following products and hazards?",
+   "o": [
+    "Cotton candy colouring and carcinogenicity",
+    "Toothpaste and antimicrobial resistance",
+    "Thermal receipts and endocrine disruption",
+    "PVC toys and kidney damage"
+   ],
+   "a": 0,
+   "x": "Rhodamine B is an industrial textile dye illegally used to colour cotton candy and is carcinogenic. Its sale was banned in Tamil Nadu.",
+   "ty": "match",
+   "tq": "Match the product or source with the associated harmful chemical.",
+   "sec": "Harmful chemicals in daily-use products → product or source"
+  },
+  {
+   "s": "Aristolochic acid is found in some herbal medicines prepared from Aristolochia plants. Its exposure is particularly associated with:",
+   "o": [
+    "Antimicrobial resistance",
+    "Eye strain and sedentary life",
+    "Kidney damage and urinary-tract cancer",
+    "Neurotoxicity, especially in children"
+   ],
+   "a": 2,
+   "x": "Aristolochic acid occurs in Aristolochia plants used in some herbal medicines and is associated with kidney damage and urinary-tract cancer.",
+   "ty": "fact",
+   "tq": "Link the named chemical to its specific health effect.",
+   "sec": "Harmful chemicals in daily-use products → product or source"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Triclosan — Antibacterial soaps and toothpaste",
+    "BPA — Polycarbonate plastics and thermal receipts",
+    "Phthalates — PVC, toys and cosmetics",
+    "Lead — MRI contrast agent"
+   ],
+   "a": 3,
+   "x": "Lead is associated with old paints, pipes, some cosmetics and lead-chromate-adulterated spices, not MRI contrast agents. BPA, triclosan and phthalates are correctly matched with their listed sources.",
+   "ty": "negative",
+   "tq": "Find the incorrectly matched source among closely related chemical-product pairs.",
+   "sec": "Harmful chemicals in daily-use products → product or source"
+  },
+  {
+   "s": "Consider the following statements:\n1. BPA is an endocrine disruptor.\n2. Triclosan is associated with antimicrobial-resistance concerns.\n3. Phthalates are endocrine disruptors.\n4. Lead is neurotoxic and is particularly harmful to children.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. BPA, triclosan and phthalates have endocrine-related concerns, while lead is neurotoxic and especially harmful to children.",
+   "ty": "statements",
+   "tq": "Check each chemical-hazard association before selecting the coded combination.",
+   "sec": "Harmful chemicals in daily-use products → product or source"
+  },
+  {
+   "s": "Lead chromate adulteration is specifically associated with which food item?",
+   "o": [
+    "Turmeric",
+    "Mustard oil",
+    "Chilli powder",
+    "Milk"
+   ],
+   "a": 0,
+   "x": "Lead chromate is a common adulterant associated with turmeric. It is harmful because lead is neurotoxic.",
+   "ty": "fact",
+   "tq": "Discriminate between food-specific adulterants.",
+   "sec": "Harmful chemicals in daily-use products → product or source"
+  },
+  {
+   "s": "Telemedicine requires which combination for effective operation?",
+   "o": [
+    "Only thermal receipts and mobile applications",
+    "IT fibre backbone and satellite communication",
+    "Magnetic fields and radio waves only",
+    "Cold storage and gamma irradiation"
+   ],
+   "a": 1,
+   "x": "Telemedicine depends on an IT fibre backbone together with satellite communication. It is particularly useful in tele-cardiology, pathology, dermatology and radiology.",
+   "ty": "application",
+   "tq": "Identify the infrastructure required for the applied technology.",
+   "sec": "Health technologies - telemedicine, dialysis, imaging, indigenous devices"
+  },
+  {
+   "s": "Which of the following is the national telemedicine service of India?",
+   "o": [
+    "Anna Chakra",
+    "eSanjeevani",
+    "Kalam-Raju",
+    "Food Safety on Wheels"
+   ],
+   "a": 1,
+   "x": "eSanjeevani is the national telemedicine service. Telemedicine is also used for Continuing Medical Education and several specialist services.",
+   "ty": "fact",
+   "tq": "Distinguish the named national service from unrelated technology initiatives.",
+   "sec": "Health technologies - telemedicine, dialysis, imaging, indigenous devices"
+  },
+  {
+   "s": "Consider the following statements regarding telemedicine:\n1. It is strongest in tele-cardiology, pathology, dermatology and radiology.\n2. It is used for Continuing Medical Education.\n3. It is fully mature throughout India's public sector.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Telemedicine remains nascent in India's public sector, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Reject the extreme maturity claim and retain the specific functions supported by the facts.",
+   "sec": "Health technologies - telemedicine, dialysis, imaging, indigenous devices"
+  },
+  {
+   "s": "Dialysis is recommended primarily when:",
+   "o": [
+    "The lungs cannot absorb oxygen",
+    "The liver fails to produce bile",
+    "The heart valve becomes narrow",
+    "The kidneys fail to remove wastes and excess water from blood"
+   ],
+   "a": 3,
+   "x": "Dialysis is recommended in kidney failure and removes wastes and excess water from blood.",
+   "ty": "application",
+   "tq": "Match the medical intervention with the organ failure it addresses.",
+   "sec": "Health technologies - telemedicine, dialysis, imaging, indigenous devices"
+  },
+  {
+   "s": "Which of the following correctly distinguishes the two major forms of dialysis?",
+   "o": [
+    "Haemodialysis uses the peritoneum, whereas peritoneal dialysis uses radio waves.",
+    "Haemodialysis uses a machine filter, whereas peritoneal dialysis uses the peritoneum as a membrane.",
+    "Both forms use only magnetic fields to remove wastes.",
+    "Both forms are imaging techniques used to detect fractures."
+   ],
+   "a": 1,
+   "x": "Haemodialysis filters blood through a machine, while peritoneal dialysis uses the peritoneum as a membrane.",
+   "ty": "confusable",
+   "tq": "Separate two closely related medical procedures by their operating principle.",
+   "sec": "Health technologies - telemedicine, dialysis, imaging, indigenous devices"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Imaging technique)\na. X-ray\nb. CT scan\nc. MRI\nd. Ultrasound\n\nList-II (Principal characteristic)\ni. Strong magnetic field and radio waves acting on hydrogen nuclei\nii. High-frequency sound waves and echoes\niii. Ionising electromagnetic radiation\niv. Computer reconstruction of many X-ray images into cross-sections\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a-iii, b-iv, c-i, d-ii",
+    "a-iv, b-iii, c-ii, d-i",
+    "a-ii, b-i, c-iv, d-iii",
+    "a-i, b-ii, c-iii, d-iv"
+   ],
+   "a": 0,
+   "x": "X-ray uses ionising electromagnetic radiation; CT reconstructs multiple X-ray images; MRI uses magnetic fields and radio waves; ultrasound uses sound waves and echoes.",
+   "ty": "match",
+   "tq": "Start from the sure pair and eliminate codes with mismatched principles.",
+   "sec": "Health technologies - telemedicine, dialysis, imaging, indigenous devices"
+  },
+  {
+   "s": "Which one of the following statements regarding medical imaging is correct?",
+   "o": [
+    "CT scan uses no X-ray images and has a lower radiation dose than all other methods.",
+    "Ultrasound operates through visible light waves.",
+    "X-ray imaging is useful for fractures because dense bone absorbs more radiation.",
+    "MRI uses ionising radiation and is mainly used for fractures."
+   ],
+   "a": 2,
+   "x": "Dense bone absorbs more X-ray radiation, making X-rays useful for detecting fractures. MRI does not use ionising radiation, while ultrasound uses high-frequency sound waves.",
+   "ty": "fact",
+   "tq": "Use the working principle to identify the valid application.",
+   "sec": "Health technologies - telemedicine, dialysis, imaging, indigenous devices"
+  },
+  {
+   "s": "Assertion (A): Ultrasound is used for monitoring foetal development.\nReason (R): Ultrasound uses high-frequency sound waves and does not involve ionising radiation.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and the absence of ionising radiation explains the use of ultrasound in monitoring foetal development.",
+   "ty": "assertion_reason",
+   "tq": "Test whether the stated safety characteristic explains the medical application.",
+   "sec": "Health technologies - telemedicine, dialysis, imaging, indigenous devices"
+  },
+  {
+   "s": "A CT scan differs from an ordinary X-ray examination because it:",
+   "o": [
+    "Reconstructs many X-ray images by computer into cross-sections and involves a higher radiation dose",
+    "Uses the peritoneum as a filtering membrane",
+    "Uses a strong magnetic field without radio waves",
+    "Uses only sound-wave echoes"
+   ],
+   "a": 0,
+   "x": "A CT scan reconstructs multiple X-ray images by computer to produce cross-sectional views and generally involves a higher radiation dose than an ordinary X-ray.",
+   "ty": "comparison",
+   "tq": "Compare technologies through both their operating method and key limitation.",
+   "sec": "Health technologies - telemedicine, dialysis, imaging, indigenous devices"
+  },
+  {
+   "s": "The Chitra heart valve was developed by:",
+   "o": [
+    "DAE, Hyderabad",
+    "MoFPI, Thiruvananthapuram",
+    "FSSAI, New Delhi",
+    "SCTIMST, Thiruvananthapuram"
+   ],
+   "a": 3,
+   "x": "The Chitra heart valve is an indigenous device developed by SCTIMST at Thiruvananthapuram.",
+   "ty": "fact",
+   "tq": "Identify the institution associated with an indigenous medical device.",
+   "sec": "Health technologies - telemedicine, dialysis, imaging, indigenous devices"
+  },
+  {
+   "s": "The Kalam-Raju coronary stent is associated with:",
+   "o": [
+    "SCTIMST and the developers of Chitra valve, Thiruvananthapuram",
+    "FSSAI and MoFPI, New Delhi",
+    "DAE and Food Safety on Wheels, Hyderabad",
+    "Dr B. Soma Raju and A.P.J. Abdul Kalam, Hyderabad"
+   ],
+   "a": 3,
+   "x": "The Kalam-Raju coronary stent was developed by Dr B. Soma Raju with A.P.J. Abdul Kalam and is associated with Hyderabad.",
+   "ty": "fact",
+   "tq": "Match the indigenous device with its developers and location.",
+   "sec": "Health technologies - telemedicine, dialysis, imaging, indigenous devices"
+  },
+  {
+   "s": "What is the principal benefit of wearable health devices mentioned in relation to medical care?",
+   "o": [
+    "They eliminate the need for all imaging techniques.",
+    "They replace dialysis machines completely.",
+    "They destroy harmful food organisms.",
+    "They provide doctors with real-time patient data."
+   ],
+   "a": 3,
+   "x": "Wearables can provide doctors with real-time patient data, supporting smarter health tracking.",
+   "ty": "application",
+   "tq": "Identify the practical use of a technology rather than an exaggerated replacement claim.",
+   "sec": "Health technologies - telemedicine, dialysis, imaging, indigenous devices"
+  },
+  {
+   "s": "Which one of the following is NOT a category of food additive listed for improving food qualities?",
+   "o": [
+    "Sweeteners",
+    "Emulsifiers",
+    "Dialysis membranes",
+    "Preservatives"
+   ],
+   "a": 2,
+   "x": "Preservatives, colours, emulsifiers, sweeteners and flavour enhancers such as MSG are food additives. Dialysis membranes are medical devices, not food additives.",
+   "ty": "negative",
+   "tq": "Find the outsider in a list of closely related food-technology terms.",
+   "sec": "Food technology - additives, adulterants, preservation, fortification, irradiation, cold chain, packaging"
+  },
+  {
+   "s": "Food adulteration refers to:",
+   "o": [
+    "Maintaining food at a controlled low temperature during transport",
+    "Adding micronutrients to improve nutritional value",
+    "Using ionising radiation to destroy harmful organisms",
+    "Intentionally adding inferior or harmful substances to food"
+   ],
+   "a": 3,
+   "x": "Adulteration involves the intentional addition of inferior or harmful substances. It can cause acute poisoning, allergies and nutritional deficiency.",
+   "ty": "fact",
+   "tq": "Use precise definitions to distinguish adulteration from fortification and preservation.",
+   "sec": "Food technology - additives, adulterants, preservation, fortification, irradiation, cold chain, packaging"
+  },
+  {
+   "s": "Which of the following pairs is NOT correctly matched?",
+   "o": [
+    "Chilli powder — Brick powder or Sudan dyes",
+    "Milk — Water, detergent, urea or starch",
+    "Mustard oil — Argemone oil",
+    "Turmeric — Peritoneum"
+   ],
+   "a": 3,
+   "x": "Turmeric may be adulterated with metanil yellow or lead chromate. The peritoneum is a dialysis membrane, not a turmeric adulterant.",
+   "ty": "negative",
+   "tq": "Identify the food-adulterant mismatch by checking the food-specific associations.",
+   "sec": "Food technology - additives, adulterants, preservation, fortification, irradiation, cold chain, packaging"
+  },
+  {
+   "s": "Epidemic dropsy is associated with adulteration of mustard oil by:",
+   "o": [
+    "Metanil yellow",
+    "Argemone oil",
+    "Sudan dyes",
+    "Brick powder"
+   ],
+   "a": 1,
+   "x": "Argemone oil is a common adulterant of mustard oil and is associated with epidemic dropsy.",
+   "ty": "fact",
+   "tq": "Link the named disease effect to the particular adulterant and food.",
+   "sec": "Food technology - additives, adulterants, preservation, fortification, irradiation, cold chain, packaging"
+  },
+  {
+   "s": "Which of the following correctly describes food irradiation?",
+   "o": [
+    "It is identical to food adulteration.",
+    "It uses only magnetic fields to reconstruct food images.",
+    "It always increases the need for chemical preservatives and refrigeration.",
+    "It uses ionising radiation to destroy harmful organisms without altering nutrition substantially."
+   ],
+   "a": 3,
+   "x": "Food irradiation uses ionising radiation to destroy harmful organisms without altering nutrition. It can reduce the need for chemical additives and refrigeration.",
+   "ty": "application",
+   "tq": "Select the option that combines the process, purpose and consequence correctly.",
+   "sec": "Food technology - additives, adulterants, preservation, fortification, cold chain, packaging"
+  },
+  {
+   "s": "The chemical change caused by radiolytic products during food irradiation is described as:",
+   "o": [
+    "Greater than the effect of all chemical additives",
+    "Equivalent to acute poisoning",
+    "Always destructive to all nutrients",
+    "Negligible"
+   ],
+   "a": 3,
+   "x": "Radiolytic products associated with irradiation cause negligible chemical change, while irradiation helps destroy harmful organisms.",
+   "ty": "fact",
+   "tq": "Avoid the extreme claim that a preservation technology destroys all nutritional value.",
+   "sec": "Food technology - additives, adulterants, preservation, fortification, irradiation, cold chain, packaging"
+  },
+  {
+   "s": "Consider the following statements:\n1. The Department of Atomic Energy has installed 25 food irradiators in PPP mode.\n2. Gamma rays can extend the shelf life of potatoes and onions to eight months without cold storage.\n3. Irradiation necessarily requires refrigeration after treatment.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Irradiation can extend shelf life without cold storage, so statement 3 is false.",
+   "ty": "numerical",
+   "tq": "Check the numerical facts and reject the reversed preservation claim.",
+   "sec": "Food technology - additives, adulterants, preservation, fortification, irradiation, cold chain, packaging"
+  },
+  {
+   "s": "With reference to the Cold Chain scheme of PM Kisan Sampada Yojana, which one of the following is correct?",
+   "o": [
+    "MoFPI funds multi-product irradiation units; 16 were approved and 9 were operational in August 2025.",
+    "MoFPI funds thermal-receipt units; 25 were approved and all were operational in August 2025.",
+    "DAE funds fair price shops; 9 were approved and 16 were operational in August 2025.",
+    "FSSAI funds 25 MRI units; 16 were approved and 9 were operational in August 2025."
+   ],
+   "a": 0,
+   "x": "MoFPI funds multi-product irradiation units under the Cold Chain scheme of PM Kisan Sampada Yojana. In August 2025, 16 were approved and 9 were operational.",
+   "ty": "numerical",
+   "tq": "Combine the correct ministry, scheme and approved-versus-operational figures.",
+   "sec": "Food technology - additives, adulterants, preservation, fortification, irradiation, cold chain, packaging"
+  },
+  {
+   "s": "Which one of the following is correctly matched with food fortification?",
+   "o": [
+    "Salt with iodine; rice with iron, folic acid and B12; oil and milk with vitamins A and D",
+    "Milk with brick powder; rice with Sudan dyes; salt with argemone oil",
+    "Oil with lead chromate; turmeric with vitamin D; milk with metanil yellow",
+    "Rice with only preservatives; salt with only emulsifiers; milk with only MSG"
+   ],
+   "a": 0,
+   "x": "Fortification adds micronutrients: iodised salt, rice fortified with iron, folic acid and B12, and oil and milk fortified with vitamins A and D. The FSSAI '+F' logo identifies fortified foods.",
+   "ty": "match",
+   "tq": "Match several foods with their specified micronutrient fortification.",
+   "sec": "Food technology - additives, adulterants, preservation, irradiation, cold chain, packaging"
+  },
+  {
+   "s": "The FSSAI symbol associated with fortified food is:",
+   "o": [
+    "PPP",
+    "BPA",
+    "MRI",
+    "+F"
+   ],
+   "a": 3,
+   "x": "The '+F' logo is used by FSSAI for fortified food products.",
+   "ty": "fact",
+   "tq": "Identify the official symbol from a set of nearby technical abbreviations.",
+   "sec": "Food technology - additives, adulterants, preservation, irradiation, cold chain, packaging"
+  },
+  {
+   "s": "Which of the following is included among the food-safety reforms reported for July 2026?\n\n1. Food Safety on Wheels\n2. Blockchain batch tracing\n3. One Nation, One Regulator\n4. Ending dual BIS/AGMARK certification\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four items were included in the reported July 2026 food-safety reforms, including the proposal to end dual BIS/AGMARK certification.",
+   "ty": "statements",
+   "tq": "Treat the reform list as a complete set and verify each component.",
+   "sec": "Food technology - additives, adulterants, preservation, irradiation, cold chain, packaging"
+  },
+  {
+   "s": "Anna Chakra is associated with:",
+   "o": [
+    "Tracing biometric surveillance risks in AI systems",
+    "Providing telemedicine to 4.37 lakh hospitals",
+    "Installing 25 food irradiators in PPP mode",
+    "Optimising PDS routes to 4.37 lakh fair price shops and saving about ₹250 crore per year"
+   ],
+   "a": 3,
+   "x": "Anna Chakra optimises Public Distribution System routes to 4.37 lakh fair price shops and is reported to save about ₹250 crore annually.",
+   "ty": "numerical",
+   "tq": "Match the named initiative with its numerical reach and outcome.",
+   "sec": "Food technology - additives, adulterants, preservation, irradiation, cold chain, packaging"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Wearables — smarter health tracking\n2. Digital payments — e-governance\n3. Screen time — sedentary life and eye strain\n4. Digital technology — cyber fraud\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct. Wearables support health tracking; digital payments relate to e-governance, while screen time and cyber fraud are negative consequences.",
+   "ty": "statements",
+   "tq": "Match each technology-related effect with its correct impact category.",
+   "sec": "Positive vs negative impacts of technology on daily life"
+  },
+  {
+   "s": "Which one of the following is NOT listed as a negative impact of technology on daily life?",
+   "o": [
+    "Data security and surveillance risks",
+    "Screen time and sedentary life",
+    "Improved communication",
+    "Digital divide"
+   ],
+   "a": 2,
+   "x": "Improved communication is a positive impact. Data-security risks, the digital divide, and screen-related sedentary life are negative impacts.",
+   "ty": "negative",
+   "tq": "Find the positive item embedded in a list of negative consequences.",
+   "sec": "Positive vs negative impacts of technology on daily life"
+  },
+  {
+   "s": "The plea concerning the absence of a statutory regime for high-risk AI involved technologies such as:",
+   "o": [
+    "MRI and CT scanning used only for fracture diagnosis",
+    "Biometric surveillance and risk-scoring used in food, health, pension and scholarship delivery",
+    "Gamma irradiation used only for potatoes and onions",
+    "Blockchain used exclusively for PDS route optimisation"
+   ],
+   "a": 1,
+   "x": "In August 2026, the Supreme Court sought the Centre's reply on a plea concerning high-risk AI, including biometric surveillance and risk-scoring in food, health, pension and scholarship delivery.",
+   "ty": "application",
+   "tq": "Identify the scope and public-service applications of the technology in the scenario.",
+   "sec": "Positive vs negative impacts of technology on daily life"
+  }
+ ]
+}

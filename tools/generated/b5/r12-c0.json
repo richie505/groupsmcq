@@ -1,0 +1,708 @@
+{
+ "book": 5,
+ "row": 12,
+ "chunk": 0,
+ "section": "Nature and scope of ICT; basics of hardware, software, memory and operating systems",
+ "subsections": [
+  "Memory and storage - primary vs secondary, capacities, storage units",
+  "Hardware - input vs output, CPU components, processors, readers, printers",
+  "Software types - system, application, utility, open-source",
+  "Operating systems - functions, types, interfaces, examples",
+  "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 51,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly represents the order of digital information units from smaller to larger, excluding the units already commonly used for basic computer measurements?",
+   "o": [
+    "GB < MB < TB",
+    "YB < ZB < EB",
+    "PB < KB < MB",
+    "EB < ZB < YB"
+   ],
+   "a": 3,
+   "x": "The larger units follow the sequence PB, EB, ZB and YB; therefore EB < ZB < YB is correct.",
+   "ty": "fact",
+   "tq": "Test the numerical sequence by comparing adjacent units.",
+   "sec": "Memory and storage - primary vs secondary, capacities, storage units  [APPSC]"
+  },
+  {
+   "s": "A nibble in computer terminology consists of",
+   "o": [
+    "8 bits",
+    "2 bits",
+    "16 bits",
+    "4 bits"
+   ],
+   "a": 3,
+   "x": "A nibble is a group of four bits.",
+   "ty": "numerical",
+   "tq": "Recall the fixed-size relationship between binary storage units.",
+   "sec": "Memory and storage - primary vs secondary, capacities, storage units  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about RAM is correct?",
+   "o": [
+    "It is slower than magnetic tape.",
+    "It is temporary working memory and is volatile.",
+    "It is erased only by ultraviolet light.",
+    "It permanently stores firmware."
+   ],
+   "a": 1,
+   "x": "RAM temporarily stores data and instructions currently in use and loses its contents when power is removed.",
+   "ty": "fact",
+   "tq": "Distinguish volatile working memory from non-volatile storage.",
+   "sec": "Memory and storage - primary vs secondary, capacities, storage units  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. SRAM is used in cache memory.\n2. DRAM is commonly used as main memory.\n3. Both SRAM and DRAM are types of ROM.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "SRAM is associated with cache and DRAM with main memory. Statement 3 is false because both are forms of RAM.",
+   "ty": "statements",
+   "tq": "Identify the single wrong classification in a set of related memory statements.",
+   "sec": "Memory and storage - primary vs secondary, capacities, storage units  [APPSC]"
+  },
+  {
+   "s": "Which type of ROM can be erased using ultraviolet light?",
+   "o": [
+    "PROM",
+    "EEPROM",
+    "DRAM",
+    "EPROM"
+   ],
+   "a": 3,
+   "x": "EPROM is erased by exposure to ultraviolet light, whereas EEPROM is erased electrically.",
+   "ty": "confusable",
+   "tq": "Discriminate between similar memory technologies by their erasure methods.",
+   "sec": "Memory and storage - primary vs secondary, capacities, storage units  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "ROM — volatile working memory",
+    "PROM — electrically erasable memory",
+    "EPROM — ultraviolet-light erasable memory",
+    "EEPROM — erasable only by ultraviolet light"
+   ],
+   "a": 2,
+   "x": "EPROM is erased using ultraviolet light. EEPROM is electrically erasable, while ROM is non-volatile.",
+   "ty": "negative",
+   "tq": "Use the exact technical distinction among closely related memory terms.",
+   "sec": "Memory and storage - primary vs secondary, capacities, storage units  [APPSC]"
+  },
+  {
+   "s": "Arrange the following in descending order of access speed:\nA. RAM\nB. Registers\nC. Magnetic tape\nD. Cache",
+   "o": [
+    "B, D, A, C",
+    "D, B, A, C",
+    "B, A, D, C",
+    "C, A, D, B"
+   ],
+   "a": 0,
+   "x": "The speed order is registers, cache, RAM and magnetic tape.",
+   "ty": "chronology",
+   "tq": "Arrange items by performance hierarchy, beginning with the fastest.",
+   "sec": "Memory and storage - primary vs secondary, capacities, storage units  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is a characteristic of a solid-state drive?",
+   "o": [
+    "It uses flash memory and has no moving parts.",
+    "It uses magnetic spinning disks.",
+    "It provides only sequential access.",
+    "It uses a blue-violet laser to read data."
+   ],
+   "a": 0,
+   "x": "An SSD uses flash memory, has no moving parts and is generally faster than an HDD.",
+   "ty": "fact",
+   "tq": "Separate storage devices by their underlying technology.",
+   "sec": "Memory and storage - primary vs secondary, capacities, storage units  [APPSC]"
+  },
+  {
+   "s": "Which storage medium is primarily associated with sequential access and archival backup?",
+   "o": [
+    "Blu-ray disc",
+    "SSD",
+    "Cache memory",
+    "Magnetic tape"
+   ],
+   "a": 3,
+   "x": "Magnetic tape is a sequential-access medium commonly used for backup and archival purposes.",
+   "ty": "fact",
+   "tq": "Match a storage medium with its characteristic use.",
+   "sec": "Memory and storage - primary vs secondary, capacities, storage units  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with the approximate single-layer capacity?\n1. CD — 700 MB\n2. DVD — 4.7 GB\n3. Blu-ray — 25 GB",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "A single-layer CD stores about 700 MB, a single-layer DVD about 4.7 GB and a single-layer Blu-ray disc about 25 GB.",
+   "ty": "statements",
+   "tq": "Check all numerical pairings before selecting the coded option.",
+   "sec": "Memory and storage - primary vs secondary, capacities, storage units  [APPSC]"
+  },
+  {
+   "s": "Blu-ray discs use which type of laser?",
+   "o": [
+    "Blue-violet laser",
+    "Infrared laser",
+    "Red laser",
+    "Ultraviolet laser"
+   ],
+   "a": 0,
+   "x": "Blu-ray technology uses a blue-violet laser to read and write data.",
+   "ty": "fact",
+   "tq": "Recall the device-specific technology rather than the general category.",
+   "sec": "Memory and storage - primary vs secondary, capacities, storage units  [APPSC]"
+  },
+  {
+   "s": "A flash drive or memory card is primarily based on",
+   "o": [
+    "EEPROM-based flash technology",
+    "mechanical relay technology",
+    "optical disc technology",
+    "magnetic tape technology"
+   ],
+   "a": 0,
+   "x": "Pen drives and memory cards use EEPROM-based flash memory.",
+   "ty": "fact",
+   "tq": "Match portable storage devices with their internal technology.",
+   "sec": "Memory and storage - primary vs secondary, capacities, storage units  [APPSC]"
+  },
+  {
+   "s": "Which one of the following devices can function as both an input and an output device?",
+   "o": [
+    "Keyboard",
+    "Touch screen",
+    "Microphone",
+    "Plotter"
+   ],
+   "a": 1,
+   "x": "A touch screen displays output and also receives input through touch.",
+   "ty": "application",
+   "tq": "Apply the input-output classification to a dual-function device.",
+   "sec": "Hardware - input vs output, CPU components, processors, readers, printers  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Device)\na. Barcode reader\na. OCR\nb. MICR\nc. OMR\n\nList-II (Primary use)\ni. Reading marked answer sheets\nii. Reading characters printed with magnetic ink\niii. Reading machine-readable bars\niv. Converting printed or handwritten text into editable text\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iii, b–ii, c–i, d–iv",
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iv, b–ii, c–iii, d–i"
+   ],
+   "a": 1,
+   "x": "Barcode readers read bars, MICR reads magnetic-ink characters, OMR reads marked sheets and OCR converts text into editable form.",
+   "ty": "match",
+   "tq": "Start from the sure pair and eliminate codes containing a wrong reader-function pair.",
+   "sec": "Hardware - input vs output, CPU components, processors, readers, printers  [APPSC]"
+  },
+  {
+   "s": "A barcode is best described as",
+   "o": [
+    "a printed image converted into editable text",
+    "a two-dimensional matrix of square modules",
+    "machine-readable vertical bars of varying widths",
+    "a magnetic character sequence used on cheques"
+   ],
+   "a": 2,
+   "x": "A conventional barcode consists of machine-readable vertical bars of varying widths.",
+   "ty": "fact",
+   "tq": "Distinguish barcode, QR code, OCR and MICR by physical form and function.",
+   "sec": "Hardware - input vs output, CPU components, processors, readers, printers  [APPSC]"
+  },
+  {
+   "s": "The Arithmetic and Logic Unit of a CPU primarily performs",
+   "o": [
+    "power supply and voltage regulation",
+    "communication through the internet",
+    "arithmetic and logical operations",
+    "file storage and backup"
+   ],
+   "a": 2,
+   "x": "The ALU performs arithmetic calculations and logical operations.",
+   "ty": "fact",
+   "tq": "Match each CPU component with its specific responsibility.",
+   "sec": "Hardware - input vs output, CPU components, processors, readers, printers  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about CPU components:\n1. The control unit fetches and decodes instructions.\n2. Registers are very fast storage locations inside the CPU.\n3. The power supply unit directs the execution of program instructions.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "The control unit fetches, decodes and directs operations, while registers provide very fast internal storage. The PSU supplies power and does not direct instruction execution.",
+   "ty": "statements",
+   "tq": "Reject the statement assigning a CPU control function to a power-supply component.",
+   "sec": "Hardware - input vs output, CPU components, processors, readers, printers  [GK]"
+  },
+  {
+   "s": "The motherboard primarily performs which function?",
+   "o": [
+    "It produces only graphical output.",
+    "It converts printed text into editable text.",
+    "It permanently stores all user files.",
+    "It links the major components of a computer."
+   ],
+   "a": 3,
+   "x": "The motherboard provides the principal connections among the computer's components.",
+   "ty": "fact",
+   "tq": "Identify the central hardware interconnection component.",
+   "sec": "Hardware - input vs output, CPU components, processors, readers, printers  [GK]"
+  },
+  {
+   "s": "Which one of the following was the first commercial microprocessor?",
+   "o": [
+    "Celeron",
+    "Intel 4004",
+    "Intel Pentium",
+    "Intel Core i9"
+   ],
+   "a": 1,
+   "x": "The Intel 4004, introduced in 1971, was the first commercial microprocessor.",
+   "ty": "numerical",
+   "tq": "Link the historical milestone with the specific processor model.",
+   "sec": "Hardware - input vs output, CPU components, processors, readers, printers  [GK]"
+  },
+  {
+   "s": "Which processor technology is especially suited to graphics processing and several artificial-intelligence workloads?",
+   "o": [
+    "GPU",
+    "OMR",
+    "PSU",
+    "MICR"
+   ],
+   "a": 0,
+   "x": "Graphics processing units are designed for highly parallel computations used in graphics and many AI workloads.",
+   "ty": "application",
+   "tq": "Infer the processor type from the stated computational application.",
+   "sec": "Hardware - input vs output, CPU components, processors, readers, printers  [GK]"
+  },
+  {
+   "s": "Which one of the following is a non-impact printer?",
+   "o": [
+    "Dot-matrix printer",
+    "Laser printer",
+    "Daisy-wheel printer",
+    "Line printer"
+   ],
+   "a": 1,
+   "x": "Laser printers are non-impact printers; dot-matrix, daisy-wheel and line printers are impact printers.",
+   "ty": "confusable",
+   "tq": "Separate printer classes by whether the print mechanism strikes the paper.",
+   "sec": "Hardware - input vs output, CPU components, processors, readers, printers  [GK]"
+  },
+  {
+   "s": "Printer quality and speed are commonly expressed, respectively, in",
+   "o": [
+    "GHz and dpi",
+    "ppm and dpi",
+    "dpi and ppm",
+    "cps and GHz"
+   ],
+   "a": 2,
+   "x": "Print quality is measured in dots per inch (dpi), while speed may be expressed in pages per minute (ppm).",
+   "ty": "fact",
+   "tq": "Match measurement units with the correct printer performance parameter.",
+   "sec": "Hardware - input vs output, CPU components, processors, readers, printers  [GK]"
+  },
+  {
+   "s": "Which one of the following is utility software rather than application software?",
+   "o": [
+    "Antivirus program",
+    "Web browser",
+    "Media player",
+    "Spreadsheet program"
+   ],
+   "a": 0,
+   "x": "Antivirus software is a utility designed to maintain or protect the computer system.",
+   "ty": "confusable",
+   "tq": "Distinguish software by its primary purpose rather than by its interface.",
+   "sec": "Software types - system, application, utility, open-source  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Operating system — system software\n2. Disk cleanup — utility software\n3. Word processor — application software\n4. Device driver — application software\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Operating systems, disk-cleanup tools and word processors are correctly classified. A device driver is system software, so pair 4 is false.",
+   "ty": "statements",
+   "tq": "Spot the wrongly classified software category.",
+   "sec": "Software types - system, application, utility, open-source  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT an example of application software?",
+   "o": [
+    "Photoshop graphics program",
+    "Oracle database system",
+    "Media player",
+    "Language compiler"
+   ],
+   "a": 3,
+   "x": "A compiler is a language translator and therefore system software; the other three are application programs.",
+   "ty": "negative",
+   "tq": "Find the exception by separating system tools from end-user applications.",
+   "sec": "Software types - system, application, utility, open-source  [APPSC]"
+  },
+  {
+   "s": "Which statement best describes open-source software?",
+   "o": [
+    "It is limited to operating systems produced by one company.",
+    "Its source code is permanently hidden from users.",
+    "It can never be commercially distributed.",
+    "Its source code is free to view, modify and share, subject to its licence."
+   ],
+   "a": 3,
+   "x": "Open-source software makes source code available for viewing, modification and sharing under the applicable licence.",
+   "ty": "fact",
+   "tq": "Reject absolute claims and identify the precise definition.",
+   "sec": "Software types - system, application, utility, open-source  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Richard Stallman — Linux kernel, 1991",
+    "Richard Stallman — GNU project, 1983",
+    "Linus Torvalds — GNU project, 1983",
+    "James Gosling — GPL licence"
+   ],
+   "a": 1,
+   "x": "Richard Stallman initiated the GNU project in 1983. Linus Torvalds developed the Linux kernel in 1991.",
+   "ty": "negative",
+   "tq": "Use the person-project-year trap to distinguish related open-source milestones.",
+   "sec": "Software types - system, application, utility, open-source  [GK]"
+  },
+  {
+   "s": "Which one of the following is an open-source software product?",
+   "o": [
+    "A proprietary device driver only",
+    "A magnetic tape backup",
+    "A closed firmware chip",
+    "LibreOffice"
+   ],
+   "a": 3,
+   "x": "LibreOffice is an example of open-source software; Firefox is another example.",
+   "ty": "fact",
+   "tq": "Identify a product from the open-source software category.",
+   "sec": "Software types - system, application, utility, open-source  [GK]"
+  },
+  {
+   "s": "Which of the following is NOT a normal responsibility of an operating system?\n1. Managing hardware\n2. Handling processes and memory\n3. Managing files and device drivers\n4. Manufacturing the motherboard",
+   "o": [
+    "1 only",
+    "2 and 3 only",
+    "4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 2,
+   "x": "An operating system manages hardware resources, processes, memory, files and drivers. Manufacturing a motherboard is not an operating-system function.",
+   "ty": "negative",
+   "tq": "Find the unrelated function among genuine operating-system responsibilities.",
+   "sec": "Operating systems - functions, types, interfaces, examples  [APPSC]"
+  },
+  {
+   "s": "An operating system used for missile guidance, air-traffic control or a medical device generally requires",
+   "o": [
+    "only a graphical user interface",
+    "batch processing without deadlines",
+    "real-time processing with fixed response deadlines",
+    "sequential tape access"
+   ],
+   "a": 2,
+   "x": "Real-time operating systems are designed to respond within fixed deadlines, which is essential in such applications.",
+   "ty": "application",
+   "tq": "Infer the operating-system type from the timing requirement of the application.",
+   "sec": "Operating systems - functions, types, interfaces, examples  [GK]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Real-time operating system — no response deadline",
+    "Batch operating system — jobs run without user interaction after grouping",
+    "Time-sharing operating system — one user permanently monopolises the CPU",
+    "Distributed operating system — a single isolated machine only"
+   ],
+   "a": 1,
+   "x": "Batch systems group jobs and run them without continuous user interaction. The other options reverse or deny the defining features of their systems.",
+   "ty": "negative",
+   "tq": "Match each operating-system type with its defining operational feature.",
+   "sec": "Operating systems - functions, types, interfaces, examples  [GK]"
+  },
+  {
+   "s": "A time-sharing or multi-user operating system is characterised by",
+   "o": [
+    "one job being processed without any scheduling",
+    "absence of process management",
+    "many users sharing CPU time",
+    "exclusive use of optical discs"
+   ],
+   "a": 2,
+   "x": "Time-sharing systems allocate CPU time among multiple users or processes; UNIX is an example.",
+   "ty": "fact",
+   "tq": "Identify the defining feature rather than merely recalling an example.",
+   "sec": "Operating systems - functions, types, interfaces, examples  [GK]"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding mobile operating systems?",
+   "o": [
+    "iOS is developed by Google.",
+    "Android is Linux-based and associated with Google.",
+    "Android and iOS are command-line-only systems.",
+    "BharOS was developed by a private foreign corporation."
+   ],
+   "a": 1,
+   "x": "Android is Linux-based and associated with Google, while iOS is associated with Apple. BharOS was developed at IIT Madras.",
+   "ty": "negative",
+   "tq": "Use the developer-platform-location distinction to reject swapped associations.",
+   "sec": "Operating systems - functions, types, interfaces, examples  [GK]"
+  },
+  {
+   "s": "BharOS is associated with",
+   "o": [
+    "IIT Madras",
+    "the Intel 4004 processor",
+    "the GNU project of 1983",
+    "Apple's proprietary hardware division"
+   ],
+   "a": 0,
+   "x": "BharOS is an Indian mobile operating system associated with IIT Madras.",
+   "ty": "fact",
+   "tq": "Recall the institutional association of a named operating system.",
+   "sec": "Operating systems - functions, types, interfaces, examples  [GK]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "MS-DOS — command-line interface",
+    "CLI — icons and windows controlled mainly by a mouse",
+    "GUI — command-line-only interaction",
+    "Windows — absence of graphical elements"
+   ],
+   "a": 0,
+   "x": "MS-DOS is associated with a command-line interface. GUIs use icons, windows and mouse interaction, as in Windows and macOS.",
+   "ty": "confusable",
+   "tq": "Distinguish CLI and GUI by their visible interaction method.",
+   "sec": "Operating systems - functions, types, interfaces, examples  [GK]"
+  },
+  {
+   "s": "Which programming-language generation uses mnemonics and requires an assembler for conversion?",
+   "o": [
+    "4GL",
+    "1GL",
+    "3GL",
+    "2GL"
+   ],
+   "a": 3,
+   "x": "Second-generation assembly language uses mnemonics and is converted into machine language by an assembler.",
+   "ty": "fact",
+   "tq": "Match the language generation with its characteristic translator.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements is correct?",
+   "o": [
+    "Assembly language is a fourth-generation database language.",
+    "Machine language uses English-like pseudocode.",
+    "SQL is a first-generation machine language.",
+    "FORTRAN was the first high-level language and appeared in 1957."
+   ],
+   "a": 3,
+   "x": "FORTRAN is identified as the first high-level language and dates from 1957. SQL is a fourth-generation language used for database queries.",
+   "ty": "numerical",
+   "tq": "Combine the language-generation fact with its historical date.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates  [GK]"
+  },
+  {
+   "s": "Match the following programmers with the associated language:\n\na. Dennis Ritchie\na. C++\nb. Bjarne Stroustrup\nc. James Gosling\nd. Guido van Rossum\n\ni. Python\nii. Java\niii. C\niv. C++\n\nSelect the correct code:",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iv, c–iii, d–i"
+   ],
+   "a": 0,
+   "x": "Dennis Ritchie is associated with C, Bjarne Stroustrup with C++, James Gosling with Java and Guido van Rossum with Python.",
+   "ty": "match",
+   "tq": "Start with the distinctive person-language pairs and eliminate inconsistent codes.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates  [GK]"
+  },
+  {
+   "s": "Which statement correctly distinguishes a compiler from an interpreter?",
+   "o": [
+    "A compiler translates only comments, whereas an interpreter translates only variables.",
+    "An interpreter is used exclusively for assembly language.",
+    "A compiler translates the whole program at once, whereas an interpreter translates and runs it line by line.",
+    "Both always translate only one line at a time."
+   ],
+   "a": 2,
+   "x": "A compiler processes the complete program before execution, while an interpreter translates and executes line by line, making debugging easier.",
+   "ty": "confusable",
+   "tq": "Compare paired translators by the unit and timing of translation.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates  [GK]"
+  },
+  {
+   "s": "Which one of the following correctly describes an algorithm?",
+   "o": [
+    "A permanent hardware component inside the CPU",
+    "A pictorial symbol used only for decisions",
+    "A finite, step-by-step procedure for solving a problem",
+    "A storage unit larger than a byte"
+   ],
+   "a": 2,
+   "x": "An algorithm is a finite sequence of ordered steps used to solve a problem or perform a task.",
+   "ty": "fact",
+   "tq": "Identify the formal definition among unrelated descriptions.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates  [GK]"
+  },
+  {
+   "s": "Which one of the following correctly matches a flowchart symbol with its function?",
+   "o": [
+    "Parallelogram — process",
+    "Oval — start or end",
+    "Diamond — input or output",
+    "Rectangle — decision"
+   ],
+   "a": 1,
+   "x": "An oval represents start or end; a diamond represents decision, a parallelogram input/output and a rectangle a process.",
+   "ty": "negative",
+   "tq": "Use the symbol-function pair and reject swapped flowchart meanings.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems  [GK]"
+  },
+  {
+   "s": "Pseudocode is best described as",
+   "o": [
+    "a machine-readable barcode",
+    "a binary storage device",
+    "an English-like outline of a program or algorithm",
+    "a hardware control circuit"
+   ],
+   "a": 2,
+   "x": "Pseudocode expresses program logic in an English-like form without requiring the exact syntax of a programming language.",
+   "ty": "fact",
+   "tq": "Distinguish a planning representation from executable code and hardware.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems  [GK]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with its number-system base?",
+   "o": [
+    "Hexadecimal — 12",
+    "Decimal — 8",
+    "Binary — 2",
+    "Octal — 6"
+   ],
+   "a": 2,
+   "x": "Binary, octal, decimal and hexadecimal have bases 2, 8, 10 and 16 respectively.",
+   "ty": "numerical",
+   "tq": "Check the base rather than the familiar name of the number system.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates  [GK]"
+  },
+  {
+   "s": "The hexadecimal number (FF)₁₆ is equal to",
+   "o": [
+    "15",
+    "100",
+    "255",
+    "256"
+   ],
+   "a": 2,
+   "x": "F represents 15, so FF equals 15 × 16 + 15 = 255.",
+   "ty": "numerical",
+   "tq": "Convert hexadecimal by applying place value and digit value.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates  [GK]"
+  },
+  {
+   "s": "The binary number (1010)₂ is equal to",
+   "o": [
+    "8",
+    "10",
+    "12",
+    "14"
+   ],
+   "a": 1,
+   "x": "(1010)₂ equals 8 + 0 + 2 + 0, which is 10 in decimal notation.",
+   "ty": "numerical",
+   "tq": "Evaluate binary digits using powers of two.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates  [GK]"
+  },
+  {
+   "s": "Which one of the following gates is a universal gate?",
+   "o": [
+    "NAND",
+    "AND only",
+    "XOR only",
+    "NOT only"
+   ],
+   "a": 0,
+   "x": "NAND and NOR are universal gates because basic logic functions can be implemented using either of them.",
+   "ty": "fact",
+   "tq": "Recall the special classification of universal logic gates.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates  [GK]"
+  },
+  {
+   "s": "An XOR gate produces output 1 when",
+   "o": [
+    "the inputs are different",
+    "all inputs are identical and 1",
+    "all inputs are 0",
+    "no input is present"
+   ],
+   "a": 0,
+   "x": "For the stated two-input condition, XOR gives 1 when the inputs differ.",
+   "ty": "application",
+   "tq": "Apply the truth condition rather than confusing XOR with OR.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates  [GK]"
+  },
+  {
+   "s": "Consider the following Boolean identities:\n1. A + A = A\n2. A · A′ = 0\n3. (A + B)′ = A′ · B′\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three are valid Boolean identities; the third is De Morgan's law.",
+   "ty": "statements",
+   "tq": "Verify each algebraic identity independently before selecting the combined code.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates  [GK]"
+  },
+  {
+   "s": "The laws represented by (A + B)′ = A′ · B′ are associated with",
+   "o": [
+    "the compiler-interpreter distinction",
+    "the flowchart decision symbol",
+    "the octal number system",
+    "George Boole's De Morgan law"
+   ],
+   "a": 3,
+   "x": "The stated complement relation is De Morgan's law within Boolean algebra, developed in the Boolean tradition associated here with George Boole.",
+   "ty": "fact",
+   "tq": "Identify the named logical law from its algebraic expression.",
+   "sec": "Programming and logic - languages, translators, algorithm/flowchart/pseudocode, number systems, logic gates  [GK]"
+  }
+ ]
+}

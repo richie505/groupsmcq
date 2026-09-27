@@ -1,0 +1,426 @@
+{
+ "book": 3,
+ "row": 96,
+ "chunk": 1,
+ "section": "Goods and Services Tax - structure, slabs, GST Council, IGST settlement, compensation cess",
+ "subsections": [
+  "Taxes subsumed vs retained; objectives",
+  "GST mechanisms",
+  "Items outside GST; exempt vs nil vs zero-rated"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 33,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is a Central tax subsumed into the Goods and Services Tax (GST)?",
+   "o": [
+    "Basic Customs Duty",
+    "Stamp Duty",
+    "Central Excise Duty",
+    "Electricity Duty"
+   ],
+   "a": 2,
+   "x": "Central Excise Duty was subsumed into GST. Basic Customs Duty, stamp duty and electricity duty continue outside GST.",
+   "ty": "fact",
+   "tq": "Identify the tax retained outside GST before selecting the subsumed tax.",
+   "sec": "Taxes subsumed vs retained; objectives"
+  },
+  {
+   "s": "Which of the following State taxes was subsumed into GST, subject to the stated exception?",
+   "o": [
+    "Property Tax, except when imposed by local bodies",
+    "Electricity Duty, except when imposed by local bodies",
+    "Entertainment Tax, except when imposed by local bodies",
+    "Motor Vehicle Tax, except when imposed by local bodies"
+   ],
+   "a": 2,
+   "x": "Entertainment Tax was subsumed into GST except when levied by local bodies. Electricity duty, property tax and motor vehicle tax remain outside GST.",
+   "ty": "fact",
+   "tq": "Focus on the exception attached to the correctly identified tax.",
+   "sec": "Taxes subsumed vs retained; objectives"
+  },
+  {
+   "s": "Which one of the following groups consists entirely of State taxes subsumed into GST?",
+   "o": [
+    "Purchase Tax, Luxury Tax and Entry Tax",
+    "Stamp Duty, Electricity Duty and Property Tax",
+    "Motor Vehicle Tax, State Excise on Liquor and Stamp Duty",
+    "Basic Customs Duty, Purchase Tax and Electricity Duty"
+   ],
+   "a": 0,
+   "x": "Purchase Tax, Luxury Tax and Entry Tax in all forms were subsumed into GST. The other groups contain taxes retained outside GST.",
+   "ty": "match",
+   "tq": "Eliminate each group containing a retained tax.",
+   "sec": "Taxes subsumed vs retained; objectives"
+  },
+  {
+   "s": "The number of Central and State taxes subsumed into GST, as conventionally stated, is respectively:",
+   "o": [
+    "8 and 9",
+    "8 and 8",
+    "9 and 9",
+    "9 and 8"
+   ],
+   "a": 0,
+   "x": "The conventional classification identifies eight Central taxes and nine State taxes as subsumed into GST.",
+   "ty": "numerical",
+   "tq": "Recall the paired numerical classification rather than counting only one category.",
+   "sec": "Taxes subsumed vs retained; objectives"
+  },
+  {
+   "s": "Which of the following concepts was dropped with the introduction of the GST framework?",
+   "o": [
+    "Input tax credit",
+    "Tax on supply",
+    "Declared goods of special importance",
+    "Destination principle"
+   ],
+   "a": 2,
+   "x": "The concept of declared goods of special importance was dropped under the GST framework. Destination-based taxation, input tax credit and taxation of supply are GST features.",
+   "ty": "fact",
+   "tq": "Test the discontinued concept against continuing GST mechanisms.",
+   "sec": "Taxes subsumed vs retained; objectives"
+  },
+  {
+   "s": "Which one of the following is NOT retained outside GST?",
+   "o": [
+    "Stamp Duty",
+    "Central Excise Duty",
+    "Basic Customs Duty",
+    "Electricity Duty"
+   ],
+   "a": 1,
+   "x": "Central Excise Duty was subsumed into GST. Basic Customs Duty, stamp duty and electricity duty are retained outside GST.",
+   "ty": "negative",
+   "tq": "Find the one item that does not belong among retained taxes.",
+   "sec": "Taxes subsumed vs retained; objectives"
+  },
+  {
+   "s": "A supplier pays tax on inputs and seeks to set it off against the tax payable on outward supplies. This facility is known as:",
+   "o": [
+    "Reverse Charge Mechanism",
+    "Input Tax Credit",
+    "Anti-profiteering",
+    "Destination Principle"
+   ],
+   "a": 1,
+   "x": "Input Tax Credit allows tax paid on inputs to be set off against output tax. It helps prevent cascading of taxes.",
+   "ty": "application",
+   "tq": "Identify the mechanism from its practical business operation.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "Under the Reverse Charge Mechanism in GST, the liability to pay tax is shifted from the:",
+   "o": [
+    "State to the local body",
+    "Consumer to the producer",
+    "Supplier to the recipient",
+    "Recipient to the supplier"
+   ],
+   "a": 2,
+   "x": "Under reverse charge, the recipient, rather than the supplier, pays GST on specified supplies.",
+   "ty": "confusable",
+   "tq": "Distinguish the direction of liability by asking who actually remits the tax.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "The anti-profiteering provision under Section 171 of the Central Goods and Services Tax framework is intended to ensure that:",
+   "o": [
+    "The benefit of tax-rate reductions or input-tax credit reaches consumers",
+    "Only exporters receive input-tax credit",
+    "The supplier is exempt from GST when prices rise",
+    "All GST rates remain unchanged permanently"
+   ],
+   "a": 0,
+   "x": "Section 171 requires the benefit of a rate reduction or input-tax credit to be passed on to consumers through commensurate reduction in prices.",
+   "ty": "application",
+   "tq": "Link the statutory mechanism with its consumer-protection objective.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "With effect from 1 October 2024, cases relating to anti-profiteering are handled by the:",
+   "o": [
+    "Central Board of Direct Taxes",
+    "Principal Bench of the GST Appellate Tribunal",
+    "Competition Commission of India alone",
+    "Reserve Bank of India"
+   ],
+   "a": 1,
+   "x": "From 1 October 2024, the Principal Bench of GSTAT handles anti-profiteering cases. The earlier institutional arrangements included the National Anti-Profiteering Authority and subsequently the CCI.",
+   "ty": "fact",
+   "tq": "Use the effective-date clue to identify the current adjudicatory body.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "Consider the following statements about the electronic way bill:\n1. It is an electronic document used for movement of goods.\n2. It is required for goods valued above ₹50,000.\n3. Its validity is one day for every 200 kilometres.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "An e-way bill is an electronic document for movement of goods valued above ₹50,000, with validity of one day per 200 kilometres.",
+   "ty": "statements",
+   "tq": "Verify the document, value threshold and validity-period statements together.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "Under the destination principle of GST, tax revenue primarily accrues to the State:",
+   "o": [
+    "Where the invoice was generated",
+    "Where the goods or services are consumed",
+    "Where the goods were manufactured",
+    "Where the supplier is registered"
+   ],
+   "a": 1,
+   "x": "The destination principle assigns revenue to the State of consumption rather than the State of production or registration.",
+   "ty": "fact",
+   "tq": "Distinguish destination-based taxation from origin-based taxation.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "A registered person opts for the composition scheme. Which one of the following combinations correctly describes the scheme?",
+   "o": [
+    "₹50 lakh goods turnover, ₹1.5 crore services turnover, 1% goods, 6% services and no ITC",
+    "₹1.5 crore goods turnover, ₹50 lakh services turnover, 6% goods, 1% services and full ITC",
+    "₹1.5 crore goods turnover, ₹50 lakh services turnover, 1% goods, 6% services and no ITC",
+    "₹50 lakh goods turnover, ₹1.5 crore services turnover, 6% goods, 1% services and full ITC"
+   ],
+   "a": 2,
+   "x": "The composition scheme applies up to ₹1.5 crore for goods and ₹50 lakh for services, with rates of 1% for goods and 6% for services and no input tax credit.",
+   "ty": "comparison",
+   "tq": "Match the turnover limits, rates and ITC consequence as one complete package.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "Which one of the following statements regarding the composition scheme is correct?",
+   "o": [
+    "It does not allow input tax credit, although refunds may be allowed for an inverted duty structure.",
+    "It is available only to exporters making zero-rated supplies.",
+    "It replaces the destination principle with an origin principle.",
+    "It permits unrestricted input tax credit to the taxpayer."
+   ],
+   "a": 0,
+   "x": "A composition taxpayer cannot claim input tax credit. Refunds may nevertheless be permitted in relation to an inverted duty structure.",
+   "ty": "fact",
+   "tq": "Use the principal restriction to separate the composition scheme from the regular scheme.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "Which of the following correctly describes GSTIN?",
+   "o": [
+    "A 16-digit number issued by the RBI",
+    "A 12-digit number for e-way bills only",
+    "A 15-digit identification number under GST",
+    "A 10-digit identification number for direct taxpayers"
+   ],
+   "a": 2,
+   "x": "GSTIN is a 15-digit Goods and Services Tax Identification Number. It is not a PAN, RBI number or e-way bill number.",
+   "ty": "numerical",
+   "tq": "Use the exact numerical length to distinguish GSTIN from other identifiers.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "Which of the following combinations is correctly matched with its GST compliance function?",
+   "o": [
+    "E-invoicing — checking fake invoices; HSN/SAC — classification codes",
+    "E-invoicing — determining the State share of GST; HSN/SAC — fixing the repo rate",
+    "E-invoicing — replacing GSTIN; HSN/SAC — exempting all services",
+    "E-invoicing — collecting stamp duty; HSN/SAC — issuing passports"
+   ],
+   "a": 0,
+   "x": "E-invoicing helps check fake invoices, while HSN and SAC are classification codes for goods and services respectively.",
+   "ty": "match",
+   "tq": "Start from the sure compliance pair and reject unrelated administrative functions.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "For low-risk applicants, automated GST registration is to be completed within:",
+   "o": [
+    "30 working days",
+    "7 working days",
+    "3 working days",
+    "15 working days"
+   ],
+   "a": 2,
+   "x": "Automated registration for low-risk applicants is completed within three working days.",
+   "ty": "numerical",
+   "tq": "Recall the prescribed time limit and distinguish working days from calendar periods.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "Revenue Neutral Rate (RNR) in the context of GST refers to a rate that:",
+   "o": [
+    "Keeps revenue equal to the level prevailing before GST",
+    "Maximises tax revenue irrespective of the pre-GST position",
+    "Applies only to petroleum products",
+    "Eliminates all indirect taxes permanently"
+   ],
+   "a": 0,
+   "x": "RNR is the rate designed to keep revenue at the pre-GST level. The concept was associated with the Arvind Subramanian Committee in 2015.",
+   "ty": "fact",
+   "tq": "Match the technical term with its precise revenue objective.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "The Revenue Neutral Rate in relation to GST was associated with the committee headed by:",
+   "o": [
+    "Urjit Patel",
+    "N. K. Singh",
+    "Vijay Kelkar",
+    "Arvind Subramanian"
+   ],
+   "a": 3,
+   "x": "The Revenue Neutral Rate was associated with the Arvind Subramanian Committee, constituted in 2015 for this purpose.",
+   "ty": "fact",
+   "tq": "Use the committee-chairperson association rather than confusing it with other fiscal committees.",
+   "sec": "GST mechanisms"
+  },
+  {
+   "s": "Which of the following is constitutionally within the GST framework but is to be levied under GST only from a date recommended by the GST Council?",
+   "o": [
+    "Alcoholic liquor for human consumption",
+    "Petroleum products",
+    "Stamp duty",
+    "Property tax"
+   ],
+   "a": 1,
+   "x": "The Constitution permits petroleum products to be brought under GST from a date recommended by the GST Council. Alcoholic liquor for human consumption is excluded by the Constitution itself.",
+   "ty": "confusable",
+   "tq": "Separate constitutional inclusion with deferred levy from constitutional exclusion.",
+   "sec": "Items outside GST; exempt vs nil vs zero-rated"
+  },
+  {
+   "s": "Which one of the following is constitutionally excluded from GST rather than merely awaiting a notified date for levy?",
+   "o": [
+    "Aviation turbine fuel",
+    "Natural gas",
+    "Alcoholic liquor for human consumption",
+    "Crude oil"
+   ],
+   "a": 2,
+   "x": "Alcoholic liquor for human consumption is constitutionally excluded from GST. The listed petroleum products are constitutionally within GST but have not been brought under it for levy.",
+   "ty": "confusable",
+   "tq": "Compare the constitutional treatment of liquor with petroleum products.",
+   "sec": "Items outside GST; exempt vs nil vs zero-rated"
+  },
+  {
+   "s": "Which of the following is NOT one of the five petroleum products kept outside the current levy of GST?",
+   "o": [
+    "Lubricating oil",
+    "Aviation turbine fuel",
+    "Crude oil",
+    "High-speed diesel"
+   ],
+   "a": 0,
+   "x": "The five petroleum products are crude oil, petrol or motor spirit, high-speed diesel, natural gas and aviation turbine fuel. Lubricating oil is not included in that specified list.",
+   "ty": "negative",
+   "tq": "Recall the complete five-item list and identify the outsider.",
+   "sec": "Items outside GST; exempt vs nil vs zero-rated"
+  },
+  {
+   "s": "Consider the following items:\n1. Electricity supply\n2. Real estate transactions subject to stamp duty\n3. Alcoholic liquor for human consumption\n4. Aviation turbine fuel\nWhich of the above are outside the current GST levy?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Electricity, real estate transactions subject to stamp duty, alcoholic liquor for human consumption and aviation turbine fuel are outside the current GST levy.",
+   "ty": "statements",
+   "tq": "Treat each item independently and select the complete set of excluded items.",
+   "sec": "Items outside GST; exempt vs nil vs zero-rated"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes zero-rated supplies from nil-rated supplies under GST?",
+   "o": [
+    "Nil-rated supplies are taxable at the standard rate, whereas zero-rated supplies are exempt by notification.",
+    "Zero-rated supplies include exports and SEZ supplies with full ITC refund; nil-rated supplies do not allow ITC.",
+    "Zero-rated supplies carry a 0% rate and nil-rated supplies allow full ITC refund.",
+    "Both categories are identical because neither permits ITC."
+   ],
+   "a": 1,
+   "x": "Exports and supplies to SEZs are zero-rated and permit full input tax credit refund. Nil-rated supplies attract a zero rate and do not permit ITC.",
+   "ty": "comparison",
+   "tq": "Compare both the type of supply and the input-tax-credit consequence.",
+   "sec": "Items outside GST; exempt vs nil vs zero-rated"
+  },
+  {
+   "s": "A supply is specifically exempted from GST by notification. Which one of the following follows from this classification?",
+   "o": [
+    "It is automatically zero-rated and full ITC must be refunded.",
+    "It is taxed at the highest GST slab.",
+    "It is an exempt supply and input tax credit is unavailable.",
+    "It can be treated as an export irrespective of destination."
+   ],
+   "a": 2,
+   "x": "An exempt supply is notified as being outside tax and does not qualify for input tax credit. Exemption is distinct from zero-rating.",
+   "ty": "application",
+   "tq": "Apply the ITC consequence to distinguish exempt from zero-rated supplies.",
+   "sec": "Items outside GST; exempt vs nil vs zero-rated"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Nil-rated — 0% rate; exempt — notified out of tax; zero-rated — exports and SEZ supplies",
+    "Nil-rated — full ITC refund; exempt — exports; zero-rated — no ITC",
+    "Nil-rated — only petroleum supplies; exempt — only liquor; zero-rated — only domestic supplies",
+    "Nil-rated — stamp duty; exempt — customs duty; zero-rated — electricity duty"
+   ],
+   "a": 0,
+   "x": "Nil-rated supplies attract a zero rate, exempt supplies are notified out of tax, and zero-rated supplies include exports and SEZ supplies with full ITC refund.",
+   "ty": "match",
+   "tq": "Match each term with its exact legal and ITC consequence.",
+   "sec": "Items outside GST; exempt vs nil vs zero-rated"
+  },
+  {
+   "s": "Under the GST 2.0 changes referred to in the current tax structure, which of the following is exempted?",
+   "o": [
+    "All commercial insurance premiums",
+    "All banking services",
+    "All motor vehicle insurance premiums without exception",
+    "Individual life and health insurance premiums"
+   ],
+   "a": 3,
+   "x": "GST 2.0 provides exemption for individual life and health insurance premiums. The exemption is not stated as a blanket exemption for every insurance service.",
+   "ty": "fact",
+   "tq": "Avoid extending a specific exemption into an unsupported blanket exemption.",
+   "sec": "Items outside GST; exempt vs nil vs zero-rated"
+  },
+  {
+   "s": "Under the GST 2.0 changes, rare-disease medicines are treated as:",
+   "o": [
+    "Fully exempt",
+    "Taxable at the highest GST rate",
+    "Outside GST but subject to stamp duty",
+    "Zero-rated only when exported"
+   ],
+   "a": 0,
+   "x": "Rare-disease medicines are fully exempt under the stated GST 2.0 changes.",
+   "ty": "fact",
+   "tq": "Identify the precise tax treatment rather than confusing exemption with zero-rating.",
+   "sec": "Items outside GST; exempt vs nil vs zero-rated"
+  },
+  {
+   "s": "Which of the following statements correctly describes the relationship between GST and input tax credit for non-taxable or exempt supplies?",
+   "o": [
+    "ITC is compulsory even when no GST is charged.",
+    "ITC is available only on supplies subject to stamp duty.",
+    "ITC is available on every exempt and non-taxable supply.",
+    "ITC is not available on exempt or non-taxable supplies."
+   ],
+   "a": 3,
+   "x": "Input tax credit is not available on exempt or non-taxable supplies. Zero-rated supplies are different because they permit full ITC refund.",
+   "ty": "fact",
+   "tq": "Use the ITC rule to separate exempt and non-taxable supplies from zero-rated supplies.",
+   "sec": "Items outside GST; exempt vs nil vs zero-rated"
+  }
+ ]
+}

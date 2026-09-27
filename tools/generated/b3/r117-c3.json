@@ -1,0 +1,173 @@
+{
+ "book": 3,
+ "row": 117,
+ "chunk": 3,
+ "section": "Infrastructure initiatives - power sector position, transport (ports, airports, highways, railways)",
+ "subsections": [
+  "Oil and gas - KG basin, refinery complex",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 11,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following best describes the Kakinada–Konaseema region in relation to Andhra Pradesh?",
+   "o": [
+    "The principal cotton-textile cluster of Andhra Pradesh",
+    "The oil and gas hub of Andhra Pradesh",
+    "The state's major automobile manufacturing corridor",
+    "The principal iron-ore belt of Andhra Pradesh"
+   ],
+   "a": 1,
+   "x": "The Kakinada–Konaseema region constitutes Andhra Pradesh's oil and gas hub and is associated with the KG basin.",
+   "ty": "fact",
+   "tq": "Use the direct location-to-sector association.",
+   "sec": "Oil and gas - KG basin, refinery complex  [GROUP-II]"
+  },
+  {
+   "s": "The Andhra Pradesh Gas Infrastructure Corporation (APGIC) was established on:",
+   "o": [
+    "15 August 2009",
+    "1 June 2014",
+    "2 September 2009",
+    "2 October 2014"
+   ],
+   "a": 2,
+   "x": "APGIC was established on 2 September 2009.",
+   "ty": "fact",
+   "tq": "Apply precise-date recall to distinguish closely spaced institutional milestones.",
+   "sec": "Oil and gas - KG basin, refinery complex  [GROUP-II]"
+  },
+  {
+   "s": "With reference to the ownership pattern of APGIC, consider the following statements:\n1. APIIC holds 51 per cent of APGIC.\n2. APGENCO holds 49 per cent of APGIC.\n3. APGIC is owned entirely by APGENCO.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "2 and 3 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "APIIC holds 51 per cent and APGENCO holds 49 per cent of APGIC. Therefore, the corporation is not owned entirely by APGENCO.",
+   "ty": "statements",
+   "tq": "Split the ownership percentages and reject the absolute ownership claim.",
+   "sec": "Oil and gas - KG basin, refinery complex  [GROUP-II]"
+  },
+  {
+   "s": "APGIC is a partner in a consortium associated with:",
+   "o": [
+    "The Bhogapuram airport project",
+    "A Duggirajupatnam port project",
+    "A KG exploration project",
+    "The South Coast Railway zone project"
+   ],
+   "a": 2,
+   "x": "APGIC is a partner in a consortium undertaking exploration in the KG basin.",
+   "ty": "fact",
+   "tq": "Identify the institution by linking it to its specialised activity.",
+   "sec": "Oil and gas - KG basin, refinery complex  [GROUP-II]"
+  },
+  {
+   "s": "The BPCL refinery-cum-petrochemical complex proposed near Ramayapatnam is designed with a capacity of:",
+   "o": [
+    "9 MTPA",
+    "12 MTPA",
+    "7 MTPA",
+    "5 MTPA"
+   ],
+   "a": 0,
+   "x": "The proposed BPCL refinery-cum-petrochemical complex near Ramayapatnam has a planned capacity of 9 MTPA.",
+   "ty": "numerical",
+   "tq": "Use quantitative elimination among ascending capacity figures.",
+   "sec": "Oil and gas - KG basin, refinery complex  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements regarding the BPCL refinery-cum-petrochemical complex near Ramayapatnam:\n1. Its estimated investment is approximately ₹1.45 lakh crore.\n2. Final environmental clearance was expected by the end of September 2026.\n3. It is located near Bhogapuram.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The complex involves an estimated investment of about ₹1.45 lakh crore, and final environmental clearance was expected by the end of September 2026. It is near Ramayapatnam, not Bhogapuram.",
+   "ty": "statements",
+   "tq": "Check the location carefully while retaining the correct cost and timeline statements.",
+   "sec": "Oil and gas - KG basin, refinery complex  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Bhogapuram airport — Became operational on 1 August 2026",
+    "SCoR zone — Became operational on 1 August 2026",
+    "Bhogapuram airport — Became operational on 1 June 2026",
+    "SCoR zone — Became operational on 1 September 2026"
+   ],
+   "a": 0,
+   "x": "Bhogapuram airport became operational on 1 August 2026. The SCoR zone became operational on 1 June 2026.",
+   "ty": "match",
+   "tq": "Start from the sure date and eliminate the swapped-date pairs.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The SCoR zone became operational on:",
+   "o": [
+    "1 September 2026",
+    "1 January 2026",
+    "1 June 2026",
+    "1 August 2026"
+   ],
+   "a": 2,
+   "x": "The SCoR zone became operational on 1 June 2026.",
+   "ty": "fact",
+   "tq": "Test exact-date recall for a current infrastructure institution.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to recent port administration in Andhra Pradesh, which of the following statements is correct?",
+   "o": [
+    "Port limits were cut under the Indian Ports Act, 2025.",
+    "Port limits were transferred to the SCoR zone under the Indian Ports Act, 2025.",
+    "Port limits were increased under the Indian Ports Act, 2014.",
+    "Port limits were abolished under the Indian Ports Act, 2025."
+   ],
+   "a": 0,
+   "x": "Port limits were cut under the Indian Ports Act, 2025.",
+   "ty": "fact",
+   "tq": "Use the authority-and-year trap in a legislation-based infrastructure question.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Under the Andhra Pradesh Reorganisation Act, 2014, the Government of India was to examine which of the following proposals?\n1. Upgradation of the Visakhapatnam, Vijayawada and Tirupati airports\n2. Creation of a new railway zone\n3. Establishment of a major port at Duggirajupatnam\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Act provided for examination of upgrades to the Visakhapatnam, Vijayawada and Tirupati airports, a new railway zone and a major port at Duggirajupatnam.",
+   "ty": "statements",
+   "tq": "Treat the listed infrastructure commitments as a single statutory package.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. Establishment of APGIC\nB. Enactment of the Andhra Pradesh Reorganisation Act\nC. Operationalisation of the SCoR zone\nD. Operationalisation of Bhogapuram airport",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "B, C, A, D"
+   ],
+   "a": 0,
+   "x": "APGIC was established in 2009, the Andhra Pradesh Reorganisation Act was enacted in 2014, the SCoR zone became operational on 1 June 2026, and Bhogapuram airport became operational on 1 August 2026.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest events first, then place the two 2026 developments by date.",
+   "sec": "Universal angles"
+  }
+ ]
+}

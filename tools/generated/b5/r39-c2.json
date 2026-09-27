@@ -1,0 +1,500 @@
+{
+ "book": 5,
+ "row": 39,
+ "chunk": 2,
+ "section": "Earth observation - IRS series, Cartosat, Resourcesat, Oceansat, RISAT, EOS series and applications",
+ "subsections": [
+  "Orbits for EO - LEO, sun-synchronous polar orbit",
+  "NRSC data platforms - Bhuvan, Bhoonidhi, VEDAS",
+  "EO use in AP - APSAC, Polavaram, coastal monitoring",
+  "Individual satellites → launch vehicle, site, function (GSAT-7, GSAT-10, GSAT-30, Cartosat-2S, Cartosat-3, EOS-03)",
+  "NavIC/IRNSS - full form, constellation, orbits, coverage, NVS series, devices",
+  "Global navigation systems → owner",
+  "GAGAN - full form, partner, ground segment, aviation use"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 5,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "What does the abbreviation LEO stand for in the context of satellite orbits?",
+   "o": [
+    "Low Equatorial Orbit",
+    "Low Earth Orbit",
+    "Long Elliptical Orbit",
+    "Lunar Earth Orbit"
+   ],
+   "a": 1,
+   "x": "LEO stands for Low Earth Orbit.",
+   "ty": "fact",
+   "tq": "Use the exact expansion of the orbital abbreviation.",
+   "sec": "Orbits for EO - LEO, sun-synchronous polar orbit"
+  },
+  {
+   "s": "Consider the following statements regarding sun-synchronous polar orbits:\n1. They are near-polar orbits.\n2. A satellite passes a given place at approximately the same local solar time.\n3. They provide consistent lighting conditions for imaging.\n4. Their path covers the whole globe.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe sun-synchronous polar orbits used for Earth observation.",
+   "ty": "statements",
+   "tq": "Test a cluster of linked features by checking whether the orbit’s geometry supports each statement.",
+   "sec": "Orbits for EO - LEO, sun-synchronous polar orbit"
+  },
+  {
+   "s": "The PSLV is particularly suited for placing Earth-observation satellites into sun-synchronous orbit. Approximately how much mass can it place at an altitude of 620 km in such an orbit?",
+   "o": [
+    "600 kg",
+    "1,600 kg",
+    "3,600 kg",
+    "6,200 kg"
+   ],
+   "a": 1,
+   "x": "The PSLV is described as capable of placing approximately 1,600 kg into a 620 km sun-synchronous orbit.",
+   "ty": "numerical",
+   "tq": "Identify the correct numerical pairing of launch vehicle, orbit and payload capacity.",
+   "sec": "Orbits for EO - LEO, sun-synchronous polar orbit"
+  },
+  {
+   "s": "Which one of the following correctly describes the trade-off between LEO and geosynchronous imaging satellites?",
+   "o": [
+    "LEO provides finer detail with periodic revisit, whereas geosynchronous imaging provides coarser detail with frequent observation of priority targets.",
+    "LEO is used only for navigation, whereas geosynchronous orbit is used only for communication.",
+    "LEO provides continuous observation of one region, whereas geosynchronous satellites provide only occasional observation.",
+    "Both provide the same image detail and revisit frequency because they operate at similar altitudes."
+   ],
+   "a": 0,
+   "x": "LEO satellites generally provide finer detail but revisit periodically. Geosynchronous imagers provide coarser detail but can observe priority targets very frequently.",
+   "ty": "comparison",
+   "tq": "Use the reversed-comparison trap by separating image detail from revisit frequency.",
+   "sec": "Orbits for EO - LEO, sun-synchronous polar orbit"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "LEO — 200 to 2,000 km; Earth observation",
+    "MEO — 35,786 km over the Equator; communication",
+    "GEO — 2,000 to 30,000 km; navigation",
+    "SSPO — equatorial orbit; satellite appears fixed"
+   ],
+   "a": 0,
+   "x": "LEO extends approximately from 200 to 2,000 km and is widely used for Earth observation. MEO is associated with navigation, GEO with communication and weather, and SSPO with polar imaging.",
+   "ty": "match",
+   "tq": "Start from the sure altitude-use pair and eliminate swapped orbital categories.",
+   "sec": "Orbits for EO - LEO, sun-synchronous polar orbit"
+  },
+  {
+   "s": "Consider the following statements:\n1. A geostationary satellite is in a circular orbit with zero inclination.\n2. A geosynchronous orbit may be inclined or elliptical.\n3. A geosynchronous satellite traces a figure-eight pattern as viewed from Earth.\n4. Both GEO and GSO have a period of approximately 23 hours 56 minutes.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "GEO is the special zero-inclination circular case of GSO. GSO may be inclined or elliptical, has a sidereal-day period and can trace a figure-eight pattern.",
+   "ty": "statements",
+   "tq": "Distinguish a general orbital class from its special geostationary case.",
+   "sec": "Orbits for EO - LEO, sun-synchronous polar orbit"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched with its principal use?\n1. LEO — Earth observation\n2. MEO — GPS navigation\n3. GEO — communication and weather\n4. GSO — satellite appears permanently fixed over one equatorial point\nSelect the correct answer using the code below.",
+   "o": [
+    "1 only",
+    "2 only",
+    "4 only",
+    "3 only"
+   ],
+   "a": 2,
+   "x": "Statement 4 is incorrect. A satellite appears permanently fixed over one equatorial point only in the geostationary special case, not in every geosynchronous orbit.",
+   "ty": "negative",
+   "tq": "Find the overbroad statement created by applying a special GEO property to all GSO orbits.",
+   "sec": "Orbits for EO - LEO, sun-synchronous polar orbit"
+  },
+  {
+   "s": "Which of the following is the correct altitude range associated with a sun-synchronous polar orbit used for imaging?",
+   "o": [
+    "35,000–36,000 km",
+    "500–900 km",
+    "2,000–30,000 km",
+    "100–200 km"
+   ],
+   "a": 1,
+   "x": "Sun-synchronous polar imaging orbits generally operate at approximately 500–900 km.",
+   "ty": "numerical",
+   "tq": "Compare the numerical altitude bands of LEO, MEO, GEO and SSPO.",
+   "sec": "Orbits for EO - LEO, sun-synchronous polar orbit"
+  },
+  {
+   "s": "Which platform is the ISRO geoportal through which Earth-observation data are made openly accessible?",
+   "o": [
+    "SIS-DP",
+    "Yuktdhara",
+    "INFFRAS",
+    "Bhuvan"
+   ],
+   "a": 3,
+   "x": "Bhuvan is the ISRO geoportal through which Earth-observation data are made openly accessible along with NRSC data services.",
+   "ty": "fact",
+   "tq": "Identify the platform by matching the service with its specific function.",
+   "sec": "NRSC data platforms - Bhuvan, Bhoonidhi, VEDAS"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. Bhoonidhi — ISRO-hosted Earth-observation data platform\n2. VEDAS — ISRO-hosted data platform\n3. Yuktdhara — planning MGNREGA assets for gram panchayats\n4. MOSDAC — ISRO-hosted data platform\nSelect the correct answer using the code below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4",
+    "2 and 4 only"
+   ],
+   "a": 2,
+   "x": "Bhoonidhi, VEDAS and MOSDAC are hosted by ISRO as data platforms, while Yuktdhara supports gram panchayats in planning MGNREGA assets.",
+   "ty": "statements",
+   "tq": "Use the all-inclusive option after verifying each platform-function pairing.",
+   "sec": "NRSC data platforms - Bhuvan, Bhoonidhi, VEDAS"
+  },
+  {
+   "s": "Yuktdhara is primarily intended to assist which of the following in planning assets under MGNREGA?",
+   "o": [
+    "District courts",
+    "State legislatures",
+    "Airports Authority of India",
+    "Gram panchayats"
+   ],
+   "a": 3,
+   "x": "Yuktdhara helps gram panchayats plan assets under MGNREGA.",
+   "ty": "application",
+   "tq": "Match the digital platform with its operational user group.",
+   "sec": "NRSC data platforms - Bhuvan, Bhoonidhi, VEDAS"
+  },
+  {
+   "s": "Which of the following is NOT a national Earth-observation application listed for NRSC and related platforms?",
+   "o": [
+    "Operation of civil aviation precision-landing systems",
+    "FASAL crop forecasting",
+    "Forest-fire monitoring through INFFRAS",
+    "Groundwater prospects mapping"
+   ],
+   "a": 0,
+   "x": "Groundwater mapping, FASAL crop forecasting and INFFRAS forest-fire monitoring are listed Earth-observation applications. Civil aviation precision landing is associated with GAGAN, not this list of NRSC applications.",
+   "ty": "negative",
+   "tq": "Separate the application domain of NRSC platforms from the aviation function of GAGAN.",
+   "sec": "NRSC data platforms - Bhuvan, Bhoonidhi, VEDAS"
+  },
+  {
+   "s": "The AP Space Applications Centre, or APSAC, is primarily the remote-sensing agency of which State?",
+   "o": [
+    "Andhra Pradesh",
+    "Karnataka",
+    "Telangana",
+    "Odisha"
+   ],
+   "a": 0,
+   "x": "APSAC is Andhra Pradesh’s State remote-sensing agency.",
+   "ty": "fact",
+   "tq": "Use the location clue embedded in the institutional name and context.",
+   "sec": "EO use in AP - APSAC, Polavaram, coastal monitoring"
+  },
+  {
+   "s": "The coastal location of SDSC-SHAR enables it to contribute data for tracking cyclones over which water body for APSDMA?",
+   "o": [
+    "Indian Ocean south of Mauritius",
+    "Bay of Bengal",
+    "Arabian Sea",
+    "Andaman Sea only"
+   ],
+   "a": 1,
+   "x": "SDSC-SHAR contributes data for Bay of Bengal cyclone tracking for APSDMA.",
+   "ty": "application",
+   "tq": "Link the geographic location of the centre with the nearby cyclone-monitoring region.",
+   "sec": "EO use in AP - APSAC, Polavaram, coastal monitoring"
+  },
+  {
+   "s": "Which launch vehicle and launch site combination is associated with GSAT-7, also known as Rukmini?",
+   "o": [
+    "Ariane-5 from Satish Dhawan Space Centre",
+    "Ariane-5 from Kourou",
+    "GSLV-F10 from Sriharikota",
+    "PSLV-C37 from Sriharikota"
+   ],
+   "a": 1,
+   "x": "GSAT-7 was launched by Ariane-5 from Kourou in 2013.",
+   "ty": "fact",
+   "tq": "Discriminate between Indian launch vehicles and the foreign launch site used for GSAT satellites.",
+   "sec": "Individual satellites → launch vehicle, site, function (GSAT-7, GSAT-10, GSAT-30, Cartosat-2S, Cartosat-3, EOS-03)"
+  },
+  {
+   "s": "GSAT-7 is primarily dedicated to communication requirements of which organisation?",
+   "o": [
+    "Airports Authority of India",
+    "Indian Coast Guard alone",
+    "Indian Navy",
+    "Indian Air Force"
+   ],
+   "a": 2,
+   "x": "GSAT-7, named Rukmini, is the Navy’s dedicated communication satellite. GSAT-7A is associated with the Indian Air Force.",
+   "ty": "confusable",
+   "tq": "Distinguish the closely related GSAT-7 and GSAT-7A by their user organisation.",
+   "sec": "Individual satellites → launch vehicle, site, function (GSAT-7, GSAT-10, GSAT-30, Cartosat-2S, Cartosat-3, EOS-03)"
+  },
+  {
+   "s": "Which one of the following statements regarding GSAT-10 is correct?",
+   "o": [
+    "It was launched by Ariane-5 from Kourou in 2012 and carried a GAGAN payload.",
+    "It was launched by GSLV-F10 for geostationary imaging.",
+    "It was launched by PSLV-C47 for high-resolution mapping.",
+    "It was launched in 2024 as a weather satellite fully funded by MoES."
+   ],
+   "a": 0,
+   "x": "GSAT-10 was launched by Ariane-5 from Kourou in 2012 and carried a GAGAN payload.",
+   "ty": "fact",
+   "tq": "Match the satellite with its launch year, vehicle, site and distinctive payload.",
+   "sec": "Individual satellites → launch vehicle, site, function (GSAT-7, GSAT-10, GSAT-30, Cartosat-2S, Cartosat-3, EOS-03)"
+  },
+  {
+   "s": "Which of the following correctly describes GSAT-30?",
+   "o": [
+    "A C/Ku-band communication satellite launched by Ariane-5 from Kourou in January 2020",
+    "A mapping satellite launched by PSLV-C37 in February 2017",
+    "A weather satellite launched by GSLV-F14 in February 2024",
+    "A navigation satellite launched by GSLV-F15 in January 2025"
+   ],
+   "a": 0,
+   "x": "GSAT-30 is a C/Ku-band communication satellite launched by Ariane-5 from Kourou in January 2020; it replaced INSAT-4A.",
+   "ty": "fact",
+   "tq": "Use the distinctive band and replacement role to identify the satellite.",
+   "sec": "Individual satellites → launch vehicle, site, function (GSAT-7, GSAT-10, GSAT-30, Cartosat-2S, Cartosat-3, EOS-03)"
+  },
+  {
+   "s": "Which mission formed part of the record launch of 104 satellites into a 506 km sun-synchronous orbit on 15 February 2017?",
+   "o": [
+    "Cartosat-2 series launched by PSLV-C37",
+    "EOS-03 launched by GSLV-F10",
+    "Cartosat-3 launched by PSLV-C47",
+    "INSAT-3DS launched by GSLV-F14"
+   ],
+   "a": 0,
+   "x": "The Cartosat-2 series was launched by PSLV-C37 on 15 February 2017 and formed part of the record 104-satellite launch into a 506 km SSO. Its mass was 714 kg.",
+   "ty": "numerical",
+   "tq": "Combine the date, launch vehicle, orbit and record number to identify the mission.",
+   "sec": "Individual satellites → launch vehicle, site, function (GSAT-7, GSAT-10, GSAT-30, Cartosat-2S, Cartosat-3, EOS-03)"
+  },
+  {
+   "s": "Consider the following statements about EOS-03:\n1. It was also known as GISAT-1.\n2. It was launched by GSLV-F10 in August 2021.\n3. It successfully entered orbit and began geostationary imaging.\n4. Its mission failed because of a cryogenic-stage problem.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "1 and 3 only",
+    "2, 3 and 4 only"
+   ],
+   "a": 1,
+   "x": "EOS-03 was also called GISAT-1 and was launched by GSLV-F10 in August 2021. The mission failed because of a cryogenic-stage problem, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Test a mission’s identity, launch details and outcome, with success-versus-failure as the trap.",
+   "sec": "Individual satellites → launch vehicle, site, function (GSAT-7, GSAT-10, GSAT-30, Cartosat-2S, Cartosat-3, EOS-03)"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "EOS-05 — first Indian EO imaging satellite in GEO",
+    "INSAT-3DS — navigation satellite launched in 2025",
+    "EOS-03 — successful weather satellite launched by GSLV-F14",
+    "GSAT-30 — Earth-observation satellite launched by PSLV-C37"
+   ],
+   "a": 0,
+   "x": "EOS-05, formerly GISAT-1A, is described as India’s first Earth-observation imaging satellite in GEO. INSAT-3DS is a weather satellite launched by GSLV-F14 in 2024.",
+   "ty": "match",
+   "tq": "Start with the distinctive first-in-category description and reject function and vehicle swaps.",
+   "sec": "Individual satellites → launch vehicle, site, function (GSAT-7, GSAT-10, GSAT-30, Cartosat-2S, Cartosat-3, EOS-03)"
+  },
+  {
+   "s": "Which satellite was fully funded by the Ministry of Earth Sciences and launched by GSLV-F14 on 17 February 2024?",
+   "o": [
+    "GSAT-10",
+    "INSAT-3DS",
+    "Cartosat-3",
+    "EOS-03"
+   ],
+   "a": 1,
+   "x": "INSAT-3DS is a weather satellite fully funded by the Ministry of Earth Sciences and was launched by GSLV-F14 on 17 February 2024.",
+   "ty": "fact",
+   "tq": "Match the funding ministry with the satellite’s weather function and launch date.",
+   "sec": "Individual satellites → launch vehicle, site, function (GSAT-7, GSAT-10, GSAT-30, Cartosat-2S, Cartosat-3, EOS-03)"
+  },
+  {
+   "s": "EOS-05 is reported to image priority targets every five minutes and the entire Indian landmass every:",
+   "o": [
+    "30 minutes",
+    "5 minutes",
+    "60 minutes",
+    "15 minutes"
+   ],
+   "a": 0,
+   "x": "EOS-05 images priority targets every five minutes and the whole Indian landmass every 30 minutes.",
+   "ty": "numerical",
+   "tq": "Separate the two revisit intervals instead of applying the shorter interval to the entire coverage area.",
+   "sec": "Individual satellites → launch vehicle, site, function (GSAT-7, GSAT-10, GSAT-30, Cartosat-2S, Cartosat-3, EOS-03)"
+  },
+  {
+   "s": "Consider the following statements about IRNSS/NavIC:\n1. IRNSS stands for Indian Regional Navigation Satellite System.\n2. NavIC has been operational since 2018.\n3. Its nominal constellation consists of three GEO and four GSO satellites.\n4. It covers India and an area extending up to 1,500 km beyond India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. NavIC is the operational Indian regional navigation system, with a seven-satellite constellation of three GEO and four GSO satellites and coverage extending up to 1,500 km beyond India.",
+   "ty": "statements",
+   "tq": "Verify the system’s name, operational date, constellation composition and coverage together.",
+   "sec": "NavIC/IRNSS - full form, constellation, orbits, coverage, NVS series, devices"
+  },
+  {
+   "s": "NavIC signals are broadcast in which of the following frequency bands?",
+   "o": [
+    "VHF and UHF bands",
+    "C and Ku bands",
+    "X and Ka bands",
+    "L5 and S bands"
+   ],
+   "a": 3,
+   "x": "NavIC provides signals in the L5 and S bands.",
+   "ty": "fact",
+   "tq": "Distinguish navigation signal bands from communication payload bands such as C and Ku.",
+   "sec": "NavIC/IRNSS - full form, constellation, orbits, coverage, NVS series, devices"
+  },
+  {
+   "s": "Which of the following correctly describes the NavIC situation after the IRNSS-1F clock stopped in March 2026?",
+   "o": [
+    "Only three PNT-capable satellites remained, whereas at least four are needed for a PNT fix.",
+    "A PNT fix could be obtained with only one satellite.",
+    "All seven satellites became unusable immediately.",
+    "Fourteen PNT-capable satellites became available through the NVS series."
+   ],
+   "a": 0,
+   "x": "After the last rubidium atomic clock on IRNSS-1F stopped on 13 March 2026, only IRNSS-1B, IRNSS-1I and NVS-01 remained PNT-capable. At least four satellites are needed for a PNT fix.",
+   "ty": "numerical",
+   "tq": "Track the change in operational capacity and compare the remaining count with the minimum requirement.",
+   "sec": "NavIC/IRNSS - full form, constellation, orbits, coverage, NVS series, devices"
+  },
+  {
+   "s": "Which one of the following statements regarding NVS-02 is correct?",
+   "o": [
+    "It was launched by PSLV-C47 in 2019 and entered a sun-synchronous orbit.",
+    "It was launched by GSLV-F15 on 29 January 2025 but did not reach its circular orbit.",
+    "It was launched by GSLV-F14 in 2024 and became a weather satellite.",
+    "It was launched by Ariane-5 from Kourou in 2020 and replaced INSAT-4A."
+   ],
+   "a": 1,
+   "x": "NVS-02 was launched by GSLV-F15 on 29 January 2025, the 100th launch from Sriharikota, but did not reach its circular orbit. A review panel attributed the failure to a loose pyro connector.",
+   "ty": "fact",
+   "tq": "Match the navigation satellite with its launch vehicle, date and mission outcome.",
+   "sec": "NavIC/IRNSS - full form, constellation, orbits, coverage, NVS series, devices"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. NVS-01 is launched\nB. NavIC becomes operational\nC. NVS-02 is launched\nD. The IRNSS-1F rubidium atomic clock stops",
+   "o": [
+    "B, A, C, D",
+    "A, B, C, D",
+    "B, C, A, D",
+    "D, B, A, C"
+   ],
+   "a": 0,
+   "x": "NavIC became operational in 2018, NVS-01 was launched in 2023, NVS-02 in January 2025, and the IRNSS-1F clock stopped in March 2026.",
+   "ty": "chronology",
+   "tq": "Place the dated system milestones first and then use the later 2025 and 2026 events.",
+   "sec": "NavIC/IRNSS - full form, constellation, orbits, coverage, NVS series, devices"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "GPS — United States of America",
+    "GLONASS — European Union",
+    "Galileo — China",
+    "BeiDou — Japan"
+   ],
+   "a": 0,
+   "x": "GPS is owned by the United States. GLONASS is Russian, Galileo belongs to the European Union and BeiDou belongs to China.",
+   "ty": "match",
+   "tq": "Use the ownership pairs of global navigation systems and eliminate country swaps.",
+   "sec": "Global navigation systems → owner"
+  },
+  {
+   "s": "GAGAN is an abbreviation for:",
+   "o": [
+    "Geostationary Air Guidance and Network",
+    "GPS Aided GEO Augmented Navigation",
+    "GPS Assisted Ground and Atmospheric Network",
+    "Global Aviation Grid and Navigation"
+   ],
+   "a": 1,
+   "x": "GAGAN stands for GPS Aided GEO Augmented Navigation.",
+   "ty": "fact",
+   "tq": "Recall the exact official expansion, including the word GEO.",
+   "sec": "GAGAN - full form, partner, ground segment, aviation use"
+  },
+  {
+   "s": "Through payloads on which satellites does GAGAN broadcast corrections to GPS orbit, clock and ionospheric errors?",
+   "o": [
+    "GSAT-7, GSAT-10 and GSAT-30",
+    "GSAT-8, GSAT-10 and GSAT-15",
+    "Cartosat-2, Cartosat-3 and EOS-03",
+    "NVS-01, NVS-02 and IRNSS-1F"
+   ],
+   "a": 1,
+   "x": "GAGAN broadcasts real-time corrections through payloads on GSAT-8, GSAT-10 and GSAT-15.",
+   "ty": "match",
+   "tq": "Identify the satellite trio associated with augmentation payloads, not navigation or imaging missions.",
+   "sec": "GAGAN - full form, partner, ground segment, aviation use"
+  },
+  {
+   "s": "Which one of the following correctly describes the ground segment of GAGAN?",
+   "o": [
+    "Gram panchayat centres with the master control centre at New Delhi",
+    "Foreign Reference Stations with the master control centre at Kourou",
+    "Indian Reference Stations with the master control centre at Bengaluru",
+    "Coastal radar stations with the master control centre at Hyderabad"
+   ],
+   "a": 2,
+   "x": "GAGAN’s ground segment includes Indian Reference Stations, and its master control centre is located at Bengaluru.",
+   "ty": "fact",
+   "tq": "Match the technical ground component with its control-centre location.",
+   "sec": "GAGAN - full form, partner, ground segment, aviation use"
+  },
+  {
+   "s": "The primary aviation use of GAGAN is to support:",
+   "o": [
+    "Military satellite communication for the Navy",
+    "High-resolution mapping of agricultural land",
+    "Tracking of ocean currents for fisheries",
+    "Precision approach and landing for civil aviation"
+   ],
+   "a": 3,
+   "x": "GAGAN supports precision approach and landing for civil aviation by providing augmented navigation information over the Indian Flight Information Region.",
+   "ty": "application",
+   "tq": "Link the augmentation function to its practical civil-aviation application.",
+   "sec": "GAGAN - full form, partner, ground segment, aviation use"
+  },
+  {
+   "s": "Consider the following statements about GAGAN:\n1. It is a satellite-based augmentation system.\n2. It provides corrections for GPS orbit, clock and ionospheric errors.\n3. It covers the Indian Flight Information Region.\n4. Its nodal body is ISRO’s Satellite Navigation Programme Office.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe GAGAN’s system type, correction services, coverage and nodal body.",
+   "ty": "statements",
+   "tq": "Verify the system, correction type, geographical coverage and nodal authority before choosing the complete combination.",
+   "sec": "GAGAN - full form, partner, ground segment, aviation use"
+  }
+ ]
+}

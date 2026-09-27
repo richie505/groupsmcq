@@ -1,0 +1,484 @@
+{
+ "book": 5,
+ "row": 12,
+ "chunk": 1,
+ "section": "Nature and scope of ICT; basics of hardware, software, memory and operating systems",
+ "subsections": [
+  "File formats and acronyms → expansion or type",
+  "Computing history - generations, inventors",
+  "Computer performance terms - word length, bandwidth, clock speed, MIPS, FLOPS",
+  "Computer types - analog, digital, hybrid, PC, supercomputer, quantum",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is correctly matched with its file type?",
+   "o": [
+    "MP3 — Video",
+    "MP4 — Video",
+    "PDF — Audio",
+    "MOV — Image"
+   ],
+   "a": 1,
+   "x": "MP4 stands for MPEG-4 Part 14 and is a video file format. MP3 is audio, PDF is a document format and MOV is a video format.",
+   "ty": "match",
+   "tq": "Start from the sure file-type pair and eliminate the swapped categories.",
+   "sec": "File formats and acronyms → expansion or type  [APPSC]"
+  },
+  {
+   "s": "The acronym MP3 stands for",
+   "o": [
+    "MPEG-1 Audio Layer 3",
+    "Moving Picture Graphics Layer 3",
+    "MPEG-4 Audio Protocol 3",
+    "Microsoft Picture Layer 3"
+   ],
+   "a": 0,
+   "x": "MP3 expands to MPEG-1 Audio Layer 3 and is an audio format.",
+   "ty": "fact",
+   "tq": "Test the exact expansion rather than identifying the general file category.",
+   "sec": "File formats and acronyms → expansion or type  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "GIF — Graphics Interchange Format",
+    "AVI — Audio Video Interleave",
+    "MOV — QuickTime Movie",
+    "PNG — Portable Network Graphics Interface"
+   ],
+   "a": 3,
+   "x": "PNG stands for Portable Network Graphics, not Portable Network Graphics Interface. AVI, MOV and GIF are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the altered word in an otherwise familiar acronym expansion.",
+   "sec": "File formats and acronyms → expansion or type  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding ASCII:\n1. ASCII is a 7-bit character-encoding scheme.\n2. ASCII represents 128 characters.\n3. Unicode extends the character-representation capability of ASCII.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "ASCII is a 7-bit code representing 128 characters, while Unicode extends the range of character representation. All three statements are correct.",
+   "ty": "statements",
+   "tq": "Check each numerical and relationship statement before selecting the combined code.",
+   "sec": "File formats and acronyms → expansion or type  [APPSC]"
+  },
+  {
+   "s": "JPEG is primarily associated with which of the following?",
+   "o": [
+    "Video subtitle encoding",
+    "Lossy image compression",
+    "Lossless audio compression",
+    "Document encryption"
+   ],
+   "a": 1,
+   "x": "JPEG, or Joint Photographic Experts Group, is an image format commonly associated with lossy compression.",
+   "ty": "fact",
+   "tq": "Distinguish the file format’s information type from unrelated compression categories.",
+   "sec": "File formats and acronyms → expansion or type  [APPSC]"
+  },
+  {
+   "s": "Which generation of computers used vacuum tubes as its core technology?",
+   "o": [
+    "Fourth generation",
+    "First generation",
+    "Third generation",
+    "Second generation"
+   ],
+   "a": 1,
+   "x": "First-generation computers, broadly dating from the 1940s to 1956, used vacuum tubes. ENIAC and UNIVAC are associated with this generation.",
+   "ty": "fact",
+   "tq": "Link the generation number with its defining core technology.",
+   "sec": "Computing history - generations, inventors  [APPSC]"
+  },
+  {
+   "s": "Arrange the following computer generations in chronological order of their core technologies:\nA. Integrated circuits\nB. Vacuum tubes\nC. Microprocessors\nD. Transistors",
+   "o": [
+    "B, D, A, C",
+    "D, B, A, C",
+    "B, A, D, C",
+    "D, A, B, C"
+   ],
+   "a": 0,
+   "x": "The correct sequence is vacuum tubes, transistors, integrated circuits and microprocessors, corresponding broadly to the first through fourth generations.",
+   "ty": "chronology",
+   "tq": "Fix the first and last technologies, then place the intermediate generations.",
+   "sec": "Computing history - generations, inventors  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the fifth generation of computers?",
+   "o": [
+    "Only mechanical calculating devices",
+    "Artificial intelligence, ULSI and parallel processing",
+    "Vacuum tubes and magnetic drums",
+    "Transistors and magnetic-core memory"
+   ],
+   "a": 1,
+   "x": "The fifth generation is associated with artificial intelligence, ultra-large-scale integration and parallel processing.",
+   "ty": "fact",
+   "tq": "Use the distinctive technology cluster to identify the generation.",
+   "sec": "Computing history - generations, inventors  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\na. Charles Babbage — Analytical Engine\nb. Ada Lovelace — First programmer\nc. Douglas Engelbart — Computer mouse\nd. Larry Tesler — Cut, copy and paste\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "a and b only",
+    "a, b and c only",
+    "b, c and d only",
+    "a, b, c and d"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched. Babbage is associated with the Analytical Engine, Lovelace with the first program, Engelbart with the mouse, and Tesler with cut, copy and paste.",
+   "ty": "match",
+   "tq": "Match each inventor with the specific contribution, avoiding famous-name substitution.",
+   "sec": "Computing history - generations, inventors  [APPSC]"
+  },
+  {
+   "s": "Who is associated with the creation of the World Wide Web in 1989?",
+   "o": [
+    "John von Neumann",
+    "Vijay Bhatkar",
+    "Tim Berners-Lee",
+    "Douglas Engelbart"
+   ],
+   "a": 2,
+   "x": "Tim Berners-Lee is associated with the World Wide Web, developed in 1989.",
+   "ty": "fact",
+   "tq": "Identify the person linked to the named invention and its date.",
+   "sec": "Computing history - generations, inventors  [APPSC]"
+  },
+  {
+   "s": "The stored-program architecture is associated with",
+   "o": [
+    "Ada Lovelace",
+    "John von Neumann",
+    "Charles Babbage",
+    "Larry Tesler"
+   ],
+   "a": 1,
+   "x": "John von Neumann is associated with the stored-program architecture.",
+   "ty": "fact",
+   "tq": "Discriminate between closely related pioneers by their specific contribution.",
+   "sec": "Computing history - generations, inventors  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements is correct regarding early Indian computing achievements?\n1. TIFRAC was the first indigenous computer of India.\n2. PARAM 8000 was the first Indian supercomputer.\n3. PARAM 8000 was developed in 1991 by C-DAC under Vijay Bhatkar.\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "TIFRAC was India’s first indigenous computer. PARAM 8000, developed in 1991 by C-DAC under Vijay Bhatkar, was the first Indian supercomputer.",
+   "ty": "statements",
+   "tq": "Combine the institution, year and achievement only after checking each statement.",
+   "sec": "Computing history - generations, inventors  [APPSC]"
+  },
+  {
+   "s": "In the context of computing history, “technology preservation” refers to a",
+   "o": [
+    "system of protecting computer networks",
+    "computer museum",
+    "method of storing data in RAM",
+    "technique for increasing clock speed"
+   ],
+   "a": 1,
+   "x": "“Technology preservation” is associated with a computer museum, where earlier technologies are retained and displayed.",
+   "ty": "fact",
+   "tq": "Recognise the exact term-to-meaning association instead of interpreting it literally.",
+   "sec": "Computing history - generations, inventors  [APPSC]"
+  },
+  {
+   "s": "Word length of a computer refers to the",
+   "o": [
+    "number of bits handled by the CPU at one time",
+    "physical length of a memory module",
+    "number of characters stored in a file name",
+    "number of instructions executed in one minute"
+   ],
+   "a": 0,
+   "x": "Word length is the number of bits that the CPU can handle at once, such as 32-bit or 64-bit processing.",
+   "ty": "fact",
+   "tq": "Separate a processing-width term from storage and speed terms.",
+   "sec": "Computer performance terms - word length, bandwidth, clock speed, MIPS, FLOPS  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Bandwidth — bits per second",
+    "Clock speed — floating-point operations per second",
+    "MIPS — data-transfer rate",
+    "Word length — hertz"
+   ],
+   "a": 0,
+   "x": "Bandwidth measures data-transfer rate in bits per second. Clock speed is measured in hertz, MIPS denotes million instructions per second, and word length is measured in bits.",
+   "ty": "match",
+   "tq": "Match each performance term with its precise unit or meaning.",
+   "sec": "Computer performance terms - word length, bandwidth, clock speed, MIPS, FLOPS  [APPSC]"
+  },
+  {
+   "s": "MIPS is the abbreviation for",
+   "o": [
+    "Memory Instructions Per Storage",
+    "Microprocessor Input Processing Speed",
+    "Million Instructions Per Second",
+    "Multiple Integrated Processing Systems"
+   ],
+   "a": 2,
+   "x": "MIPS means million instructions per second and is used to express instruction-processing performance.",
+   "ty": "fact",
+   "tq": "Test the exact expansion of a performance acronym.",
+   "sec": "Computer performance terms - word length, bandwidth, clock speed, MIPS, FLOPS  [APPSC]"
+  },
+  {
+   "s": "The clock speed of a computer is generally measured in",
+   "o": [
+    "bytes",
+    "hertz",
+    "bits per second",
+    "floating-point operations"
+   ],
+   "a": 1,
+   "x": "Clock speed is measured in hertz, commonly expressed as gigahertz (GHz).",
+   "ty": "numerical",
+   "tq": "Distinguish frequency units from data-transfer and storage units.",
+   "sec": "Computer performance terms - word length, bandwidth, clock speed, MIPS, FLOPS  [APPSC]"
+  },
+  {
+   "s": "FLOPS is used to express",
+   "o": [
+    "floating-point operations per second",
+    "file locations on physical storage",
+    "fixed-length output processing speed",
+    "frequency of logical processing systems"
+   ],
+   "a": 0,
+   "x": "FLOPS means floating-point operations per second and is used particularly to indicate supercomputer performance.",
+   "ty": "fact",
+   "tq": "Expand the acronym and connect it with the correct performance measure.",
+   "sec": "Computer performance terms - word length, bandwidth, clock speed, MIPS, FLOPS  [APPSC]"
+  },
+  {
+   "s": "Which benchmark measures floating-point performance while solving large dense linear systems and forms the basis of world supercomputer rankings?",
+   "o": [
+    "Linpack or HPL benchmark",
+    "ASCII benchmark",
+    "MIPS standard",
+    "Unicode benchmark"
+   ],
+   "a": 0,
+   "x": "The Linpack, or HPL, benchmark measures floating-point power in solving large dense linear systems and is used for world supercomputer rankings.",
+   "ty": "application",
+   "tq": "Identify the benchmark from its distinctive workload and ranking application.",
+   "sec": "Computer performance terms - word length, bandwidth, clock speed, MIPS, FLOPS  [APPSC]"
+  },
+  {
+   "s": "A speedometer and a thermometer illustrate the use of which type of computer or computing principle?",
+   "o": [
+    "Digital",
+    "Mainframe",
+    "Quantum",
+    "Analog"
+   ],
+   "a": 3,
+   "x": "Analog computers or systems represent continuous quantities; speedometers and thermometers are examples.",
+   "ty": "application",
+   "tq": "Infer the computer type from whether the quantity is continuous or discrete.",
+   "sec": "Computer types - analog, digital, hybrid, PC, supercomputer, quantum  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is characteristic of a digital computer?",
+   "o": [
+    "It processes only continuously varying physical quantities.",
+    "It necessarily combines an ECG monitor with a thermometer.",
+    "It processes discrete data, commonly in binary form.",
+    "It uses qubits as its basic information unit."
+   ],
+   "a": 2,
+   "x": "Digital computers process discrete data, commonly represented in binary form. PCs are common examples.",
+   "ty": "fact",
+   "tq": "Separate discrete binary processing from analog and quantum characteristics.",
+   "sec": "Computer types - analog, digital, hybrid, PC, supercomputer, quantum  [APPSC]"
+  },
+  {
+   "s": "A hospital intensive-care monitor that combines continuous measurements with digital processing is best classified as a",
+   "o": [
+    "hybrid computer",
+    "quantum computer",
+    "purely analog computer",
+    "stand-alone microcomputer only"
+   ],
+   "a": 0,
+   "x": "Hybrid computers combine analog and digital features. Hospital ICU monitors and ECG systems are examples.",
+   "ty": "application",
+   "tq": "Apply the both-features clue to identify a hybrid system.",
+   "sec": "Computer types - analog, digital, hybrid, PC, supercomputer, quantum  [APPSC]"
+  },
+  {
+   "s": "Which of the following are included among personal or microcomputer devices?\n1. Desktop\n2. Laptop\n3. Tablet\n4. Smartwatch\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Desktops, laptops, tablets and smartwatches are all included among personal or microcomputer devices. Smartphones, fitness trackers and AR glasses also fall within this broad group.",
+   "ty": "statements",
+   "tq": "Recognise the inclusive device category rather than restricting personal computers to desktops.",
+   "sec": "Computer types - analog, digital, hybrid, PC, supercomputer, quantum  [APPSC]"
+  },
+  {
+   "s": "Mini and mainframe computers are primarily characterised as",
+   "o": [
+    "multi-user organisational machines",
+    "analogue measuring instruments",
+    "devices that use only qubits",
+    "single-purpose household calculators"
+   ],
+   "a": 0,
+   "x": "Mini and mainframe computers are multi-user machines used in organisations.",
+   "ty": "fact",
+   "tq": "Match the computer class with its scale and user pattern.",
+   "sec": "Computer types - analog, digital, hybrid, PC, supercomputer, quantum  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes a supercomputer?",
+   "o": [
+    "A computer with the highest processing power, commonly expressed in FLOPS",
+    "A computer with the lowest processing speed, measured only in bytes",
+    "A computer that represents information only through qubits",
+    "A computer used exclusively as a word processor"
+   ],
+   "a": 0,
+   "x": "Supercomputers provide the highest processing power and their speed is commonly expressed in FLOPS.",
+   "ty": "fact",
+   "tq": "Use the defining performance feature to distinguish supercomputers from other types.",
+   "sec": "Computer types - analog, digital, hybrid, PC, supercomputer, quantum  [APPSC]"
+  },
+  {
+   "s": "According to the ISC 2026 ranking referred to here, the world’s fastest supercomputer is",
+   "o": [
+    "LineShine of China",
+    "PARAM 8000 of India",
+    "Param Shakti of Japan",
+    "El Capitan of the United States"
+   ],
+   "a": 0,
+   "x": "China’s LineShine topped the ISC 2026 supercomputer list, replacing the United States’ El Capitan.",
+   "ty": "fact",
+   "tq": "Track the current ranking and the country-replacement relationship carefully.",
+   "sec": "Computer types - analog, digital, hybrid, PC, supercomputer, quantum  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about Param Shakti at IIT Madras:\n1. It was launched by MeitY.\n2. It has a capacity of 3.1 petaflops.\n3. It uses C-DAC RUDRA servers.\n4. It operates with open-source AlmaLinux.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Param Shakti at IIT Madras was launched by MeitY, has 3.1 petaflops capacity, uses C-DAC RUDRA servers and runs open-source AlmaLinux.",
+   "ty": "statements",
+   "tq": "Verify all institutional, numerical and technical attributes before choosing the complete code.",
+   "sec": "Computer types - analog, digital, hybrid, PC, supercomputer, quantum  [APPSC]"
+  },
+  {
+   "s": "Param Shakti at IIT Madras was funded under the",
+   "o": [
+    "Integrated Circuits Preservation Mission",
+    "National Quantum Encryption Mission only",
+    "World Wide Web Mission",
+    "National Supercomputing Mission"
+   ],
+   "a": 3,
+   "x": "Param Shakti was funded under the National Supercomputing Mission.",
+   "ty": "fact",
+   "tq": "Identify the correct government mission associated with the named installation.",
+   "sec": "Computer types - analog, digital, hybrid, PC, supercomputer, quantum  [APPSC]"
+  },
+  {
+   "s": "Which of the following are associated with quantum computing?\n1. Superposition\n2. Entanglement\n3. Cryptography\n4. Optimisation\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Quantum computing uses superposition and entanglement and has applications in cryptography and optimisation. All four statements are correct.",
+   "ty": "statements",
+   "tq": "Combine the underlying principles with the listed application areas.",
+   "sec": "Computer types - analog, digital, hybrid, PC, supercomputer, quantum  [APPSC]"
+  },
+  {
+   "s": "Q-Day refers to the point at which quantum computers may be capable of",
+   "o": [
+    "replacing all analog computers",
+    "breaking RSA-2048 public-key encryption using Shor’s algorithm",
+    "converting every file into PDF format",
+    "increasing the clock speed of classical processors"
+   ],
+   "a": 1,
+   "x": "Q-Day denotes the anticipated point when quantum computers can break RSA-2048 public-key encryption through Shor’s algorithm, proposed in 1994.",
+   "ty": "application",
+   "tq": "Link the specialised term to its specific security consequence and algorithm.",
+   "sec": "Computer types - analog, digital, hybrid, PC, supercomputer, quantum  [APPSC]"
+  },
+  {
+   "s": "Information and Communication Technology (ICT) is best understood as an umbrella term covering devices and applications used to",
+   "o": [
+    "only calculate numerical data",
+    "replace all forms of human communication",
+    "access, store, transmit and manipulate digital information",
+    "manufacture semiconductor chips exclusively"
+   ],
+   "a": 2,
+   "x": "ICT covers devices and applications used to access, store, transmit and manipulate digital information, including mobiles, networks, software, the internet and satellites.",
+   "ty": "fact",
+   "tq": "Choose the comprehensive definition rather than an exclusive or extreme description.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following is NOT identified as a criticism or debate associated with ICT?",
+   "o": [
+    "Job insecurity",
+    "Guaranteed elimination of technological dependence",
+    "Privacy risks",
+    "Digital divide"
+   ],
+   "a": 1,
+   "x": "Privacy risks, the digital divide, job insecurity and over-reliance on technology are identified concerns. Guaranteed elimination of technological dependence is not such a criticism.",
+   "ty": "negative",
+   "tq": "Find the option that does not belong to the stated group of ICT concerns.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "ICT aims to facilitate communication among which of the following?\n1. Human and human\n2. Human and machine\n3. Machine and machine\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "ICT aims at efficient human-human, human-machine and machine-to-machine communication. Therefore, all three forms are included.",
+   "ty": "statements",
+   "tq": "Read the communication relationships separately before selecting the combined option.",
+   "sec": "Universal angles"
+  }
+ ]
+}

@@ -1,0 +1,370 @@
+{
+ "book": 5,
+ "row": 29,
+ "chunk": 1,
+ "section": "Cyber security concerns - types of cyber crime, malware, ransomware, phishing, social engineering",
+ "subsections": [
+  "Cyber threats → description matching (phishing, spam, e-mail bombing, spoofing, MITM, DoS/DDoS, SQL injection, zero-day, social engineering)",
+  "Cyber crime types - identity theft, sextortion, digital arrest, cyber slavery, dark web",
+  "Security tools - firewall, antivirus, VPN, 2FA, passwords, honeypot, indigenous software → developer"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 26,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which cyber threat exploits a previously unknown and unpatched software flaw, thereby giving developers no prior opportunity to prepare a patch?",
+   "o": [
+    "Man-in-the-middle attack",
+    "Zero-day exploit",
+    "SQL injection",
+    "Supply-chain attack"
+   ],
+   "a": 1,
+   "x": "A zero-day exploit targets an unknown, unpatched vulnerability; developers have had effectively zero days to fix it.",
+   "ty": "fact",
+   "tq": "Use the exact technical definition rather than matching a general attack category.",
+   "sec": "Cyber threats → description matching (phishing, spam, e-mail bombing, spoofing, MITM, DoS/DDoS, SQL injection, zero-day, social engineering)  [APPSC]"
+  },
+  {
+   "s": "The SolarWinds incident of 2020 is commonly cited as an example of which of the following?",
+   "o": [
+    "E-mail bombing",
+    "Supply-chain attack",
+    "SIM-swap fraud",
+    "Zero-day exploit"
+   ],
+   "a": 1,
+   "x": "In a supply-chain attack, a trusted vendor or supplier is compromised to reach the ultimate target; SolarWinds is a cited example from 2020.",
+   "ty": "fact",
+   "tq": "Identify the attack from its named real-world example.",
+   "sec": "Cyber threats → description matching (phishing, spam, e-mail bombing, spoofing, MITM, DoS/DDoS, zero-day, social engineering)  [APPSC]"
+  },
+  {
+   "s": "Which one of the following best describes social engineering in cyber security?",
+   "o": [
+    "Flooding a server with requests from a botnet",
+    "Encrypting traffic through a public network",
+    "Manipulating people through trust, urgency or curiosity to obtain an intended action",
+    "Injecting malicious database commands through a website input field"
+   ],
+   "a": 2,
+   "x": "Social engineering targets human behaviour rather than merely exploiting a technical system. Trust, urgency and curiosity are commonly manipulated, and such methods can also be AI-enabled.",
+   "ty": "application",
+   "tq": "Distinguish a human-targeting method from system-based attacks.",
+   "sec": "Cyber threats → description matching (phishing, spam, e-mail bombing, spoofing, MITM, DoS/DDoS, zero-day, social engineering)  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Cyber espionage is often state-sponsored.\n2. Spear-phishing and zero-day exploits may be used in cyber espionage.\n3. Cyber espionage necessarily involves flooding a server with traffic.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Cyber espionage is often state-sponsored and may employ spear-phishing and zero-days. Server flooding describes a denial-of-service attack, not a necessary feature of espionage.",
+   "ty": "statements",
+   "tq": "Find the one overbroad statement that confuses espionage with denial of service.",
+   "sec": "Cyber threats → description matching (phishing, spam, e-mail bombing, spoofing, MITM, DoS/DDoS, zero-day, social engineering)  [APPSC]"
+  },
+  {
+   "s": "With reference to denial-of-service attacks, consider the following statements:\n1. A DoS attack seeks to deny genuine users access to a service.\n2. A DDoS attack generally uses multiple machines, often organised as a botnet.\n3. Mirai is an example of a botnet associated with DDoS attacks.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. DoS/DDoS attacks overwhelm a system, while DDoS traffic originates from multiple machines such as a Mirai-linked botnet.",
+   "ty": "statements",
+   "tq": "Combine the general definition with the distinguishing feature and example.",
+   "sec": "Cyber threats → description matching (phishing, spam, e-mail bombing, spoofing, MITM, DoS/DDoS, zero-day, social engineering)  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly differentiates spam from e-mail bombing?",
+   "o": [
+    "Spam uses only voice calls, whereas e-mail bombing uses duplicate SIM cards.",
+    "Spam exploits unknown flaws, whereas e-mail bombing compromises a trusted vendor.",
+    "Spam is unsolicited bulk messaging, whereas e-mail bombing floods an inbox with huge volumes of mail to crash it.",
+    "Spam intercepts communication, whereas e-mail bombing alters database commands."
+   ],
+   "a": 2,
+   "x": "Spam consists of unsolicited bulk messages. E-mail bombing is the deliberate flooding of an inbox with very large volumes of mail, potentially crashing it.",
+   "ty": "confusable",
+   "tq": "Separate two closely related terms by their specific purpose and effect.",
+   "sec": "Cyber threats → description matching (phishing, spam, e-mail bombing, spoofing, MITM, DoS/DDoS, zero-day, social engineering)  [APPSC]"
+  },
+  {
+   "s": "An attacker secretly intercepts and alters communication between two parties without either party knowing it. This is called:",
+   "o": [
+    "Zero-day exploit",
+    "Supply-chain attack",
+    "Man-in-the-middle attack",
+    "E-mail bombing"
+   ],
+   "a": 2,
+   "x": "A man-in-the-middle attack involves secretly intercepting, and potentially altering, communication between two communicating parties.",
+   "ty": "fact",
+   "tq": "Match the defining action with the exact attack name.",
+   "sec": "Cyber threats → description matching (phishing, spam, e-mail bombing, spoofing, MITM, DoS/DDoS, zero-day, social engineering)  [APPSC]"
+  },
+  {
+   "s": "SQL injection is primarily associated with which of the following activities?",
+   "o": [
+    "Using a decoy system to study attackers",
+    "Routing traffic through an encrypted public-network tunnel",
+    "Forging a caller ID to impersonate another person",
+    "Entering malicious database code through a website input field"
+   ],
+   "a": 3,
+   "x": "SQL injection places malicious database code into an application's input field in order to manipulate or access the underlying database.",
+   "ty": "application",
+   "tq": "Link the attack to the technical entry point through which it operates.",
+   "sec": "Cyber threats → description matching (phishing, spam, e-mail bombing, spoofing, MITM, DoS/DDoS, zero-day, social engineering)  [APPSC]"
+  },
+  {
+   "s": "DRDO-led Exercise Cyber Suraksha is associated with which of the following?",
+   "o": [
+    "Developing a national antivirus for private companies",
+    "Training bank customers in digital payments over 12 months",
+    "Testing satellite navigation systems for civilian transport",
+    "Training the armed forces in cyber preparedness over 12 days"
+   ],
+   "a": 3,
+   "x": "Exercise Cyber Suraksha is a DRDO-led 12-day exercise intended to train the armed forces in cyber security and preparedness.",
+   "ty": "fact",
+   "tq": "Use the organiser, duration and target group together to identify the exercise.",
+   "sec": "Cyber threats → description matching (phishing, spam, e-mail bombing, spoofing, MITM, DoS/DDoS, zero-day, social engineering)  [APPSC]"
+  },
+  {
+   "s": "Which of the following most accurately describes ‘digital arrest’ in the context of cyber crime?",
+   "o": [
+    "A cyber criminal’s use of fake police or agency officials on a video call to frighten a victim and extort money",
+    "A court-ordered arrest carried out entirely through an online warrant",
+    "Police surveillance of cyber criminals through digital devices",
+    "Temporary suspension of a person’s digital identity by an internet service provider"
+   ],
+   "a": 0,
+   "x": "Digital arrest is a criminal intimidation technique in which impostors claim that the victim is under arrest and demand money, often while keeping the victim on a video call.",
+   "ty": "application",
+   "tq": "Reject the official-sounding but incorrect meaning and identify the criminal modus operandi.",
+   "sec": "Cyber crime types - identity theft, sextortion, digital arrest, cyber slavery, dark web  [APPSC]"
+  },
+  {
+   "s": "The number of digital-arrest complaints recorded on the National Cybercrime Reporting Portal declined from 1,23,672 in 2024 to which figure in 2025?",
+   "o": [
+    "16,377",
+    "58,249",
+    "1,23,672",
+    "8,00,000"
+   ],
+   "a": 1,
+   "x": "Digital-arrest complaints declined from 1,23,672 in 2024 to 58,249 in 2025.",
+   "ty": "numerical",
+   "tq": "Read the year-wise figures carefully and avoid confusing the later year-to-date number.",
+   "sec": "Cyber crime types - identity theft, sextortion, digital arrest, cyber slavery, dark web  [APPSC]"
+  },
+  {
+   "s": "Digital-arrest complaints recorded on the National Cybercrime Reporting Portal stood at what number up to 30 June 2026?",
+   "o": [
+    "16,377",
+    "30,620",
+    "58,249",
+    "1,23,672"
+   ],
+   "a": 0,
+   "x": "The reported figure for digital-arrest complaints up to 30 June 2026 was 16,377.",
+   "ty": "numerical",
+   "tq": "Distinguish a year-to-date figure from full-year complaint totals.",
+   "sec": "Cyber crime types - identity theft, sextortion, digital arrest, cyber slavery, dark web  [APPSC]"
+  },
+  {
+   "s": "The Supreme Court directions concerning digital-arrest cases included which of the following?\n1. Framing standard operating procedures by the Centre, States, RBI and telecom authorities.\n2. Use of zero FIRs.\n3. Restoration of victims’ money.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The directions covered SOPs by the specified authorities, the use of zero FIRs and restoration of money to victims.",
+   "ty": "statements",
+   "tq": "Treat each stated component of an institutional direction as a separate proposition.",
+   "sec": "Cyber crime types - identity theft, sextortion, digital arrest, cyber slavery, dark web  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes cyber slavery?",
+   "o": [
+    "Trafficking people and forcing them to conduct cyber fraud, often in scam centres",
+    "Using a VPN to conceal a victim’s browsing history",
+    "Stealing a person’s identity to obtain a duplicate SIM",
+    "Selling stolen data only through encrypted e-mail"
+   ],
+   "a": 0,
+   "x": "Cyber slavery involves trafficking victims and coercing them to operate cyber-fraud schemes, frequently from scam centres.",
+   "ty": "fact",
+   "tq": "Identify the crime from its coercion-and-trafficking element.",
+   "sec": "Cyber crime types - identity theft, sextortion, digital arrest, cyber slavery, dark web  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding cyber slavery and scam centres:\n1. Telangana Police registered one of India’s first cases involving human trafficking to force victims to commit cyber fraud.\n2. Scam centres connected with this phenomenon have been linked to Myanmar and Laos.\n3. FIU-India flagged Rs 800 crore in cross-border laundering linked to the issue.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the Telangana case involved trafficking for cyber fraud, scam centres were linked to Myanmar and Laos, and FIU-India flagged Rs 800 crore in cross-border laundering.",
+   "ty": "statements",
+   "tq": "Check the institution, locations and quantified financial detail separately.",
+   "sec": "Cyber crime types - identity theft, sextortion, digital arrest, cyber slavery, dark web  [APPSC]"
+  },
+  {
+   "s": "Which of the following is a characteristic of the dark web?",
+   "o": [
+    "It is a secure government-only network used exclusively for defence communication.",
+    "It is a hidden part of the internet, reachable through tools such as Tor, and may host illicit marketplaces and data dumps.",
+    "It is the publicly indexed portion of the internet accessible through ordinary search engines.",
+    "It is a type of antivirus database maintained by CERT-In."
+   ],
+   "a": 1,
+   "x": "The dark web is a hidden part of the internet commonly accessed through tools such as Tor. It may contain illicit marketplaces, hacking tools and data dumps.",
+   "ty": "fact",
+   "tq": "Separate a hidden network from the ordinary publicly indexed web.",
+   "sec": "Cyber crime types - identity theft, sextortion, digital arrest, cyber slavery, dark web  [APPSC]"
+  },
+  {
+   "s": "Identity theft and sextortion are correctly distinguished by which of the following statements?",
+   "o": [
+    "Identity theft uses stolen personal data for impersonation, whereas sextortion involves blackmail using intimate images or material.",
+    "Identity theft means flooding an inbox, whereas sextortion means forging a caller ID.",
+    "Identity theft is committed only on the dark web, whereas sextortion is committed only through e-mail.",
+    "Identity theft always involves ransomware, whereas sextortion always involves DDoS traffic."
+   ],
+   "a": 0,
+   "x": "Identity theft involves using stolen personal information to impersonate a person. Sextortion involves blackmail or extortion using intimate images or similar material.",
+   "ty": "confusable",
+   "tq": "Discriminate between two crimes by their distinct modus operandi.",
+   "sec": "Cyber crime types - identity theft, sextortion, digital arrest, cyber slavery, dark web  [APPSC]"
+  },
+  {
+   "s": "Which of the following statutory provisions is associated with identity theft under the Information Technology Act?",
+   "o": [
+    "Section 67A only",
+    "Section 66C",
+    "Section 43A only",
+    "Section 72A only"
+   ],
+   "a": 1,
+   "x": "Section 66C of the Information Technology Act is associated with identity theft. Sections 66E and 67A are relevant to offences involving privacy violations and sexually explicit material respectively.",
+   "ty": "fact",
+   "tq": "Use the offence-to-section association while avoiding neighbouring provisions.",
+   "sec": "Cyber crime types - identity theft, sextortion, digital arrest, cyber slavery, dark web  [APPSC]"
+  },
+  {
+   "s": "Which security mechanism is primarily intended to prevent unauthorised network access?",
+   "o": [
+    "Password manager",
+    "Antivirus",
+    "Firewall",
+    "Honeypot"
+   ],
+   "a": 2,
+   "x": "A firewall controls network traffic and helps prevent illegal or unauthorised access to a network or system.",
+   "ty": "fact",
+   "tq": "Match the security tool with its principal protective function.",
+   "sec": "Security tools - firewall, antivirus, VPN, 2FA, passwords, honeypot, indigenous software → developer  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about common cyber-security tools:\n1. Antivirus software helps prevent and heal infections.\n2. A VPN creates an encrypted tunnel over a public network.\n3. Two-factor authentication requires two independent proofs of identity.\n4. A honeypot is a decoy system designed to lure and study attackers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Antivirus addresses malicious infections, VPNs protect traffic through an encrypted tunnel, 2FA uses independent proofs, and honeypots attract attackers for observation.",
+   "ty": "statements",
+   "tq": "Verify each tool against its precise function before selecting the complete combination.",
+   "sec": "Security tools - firewall, antivirus, VPN, 2FA, passwords, honeypot, indigenous software → developer  [APPSC]"
+  },
+  {
+   "s": "A user authenticates an online account with a password and then an OTP or biometric proof. This arrangement is known as:",
+   "o": [
+    "Single sign-on",
+    "A honeypot",
+    "Two-factor or multi-factor authentication",
+    "A firewall rule"
+   ],
+   "a": 2,
+   "x": "Two-factor or multi-factor authentication uses two independent forms of proof, such as a password combined with an OTP or biometric.",
+   "ty": "application",
+   "tq": "Identify the security concept from the number and independence of authentication proofs.",
+   "sec": "Security tools - firewall, antivirus, VPN, 2FA, passwords, honeypot, indigenous software → developer  [APPSC]"
+  },
+  {
+   "s": "A security team intentionally exposes a decoy computer so that intruders can be attracted and their methods observed. The decoy is called a:",
+   "o": [
+    "Zero-day",
+    "Firewall",
+    "VPN",
+    "Honeypot"
+   ],
+   "a": 3,
+   "x": "A honeypot is a decoy system designed to lure attackers and enable security teams to study their behaviour and techniques.",
+   "ty": "application",
+   "tq": "Infer the tool from its deliberate decoy-and-observation role.",
+   "sec": "Security tools - firewall, antivirus, VPN, 2FA, passwords, honeypot, indigenous software → developer  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?\n1. BOSS Linux — C-DAC\n2. Maya OS with Chakravyuh endpoint protection — Ministry of Defence\n3. M-Kavach — C-DAC Hyderabad\n4. CERT-In — CVE Numbering Authority for products made in India\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched: BOSS Linux is associated with C-DAC, Maya OS with Chakravyuh with the Ministry of Defence, M-Kavach with C-DAC Hyderabad, and CERT-In with CVE numbering for products made in India.",
+   "ty": "match",
+   "tq": "Start with the sure developer pair and verify each institutional association.",
+   "sec": "Security tools - firewall, antivirus, VPN, 2FA, passwords, honeypot, indigenous software → developer  [APPSC]"
+  },
+  {
+   "s": "Maya OS, associated with Chakravyuh endpoint protection, was developed by which organisation?",
+   "o": [
+    "CERT-In",
+    "C-DAC Hyderabad",
+    "DRDO exclusively for Exercise Cyber Suraksha",
+    "Ministry of Defence"
+   ],
+   "a": 3,
+   "x": "Maya OS with Chakravyuh endpoint protection is associated with the Ministry of Defence and was introduced in 2023.",
+   "ty": "fact",
+   "tq": "Apply the developer-versus-security-agency distinction in a matching question.",
+   "sec": "Security tools - firewall, antivirus, VPN, 2FA, passwords, honeypot, indigenous software → developer  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly identifies M-Kavach?",
+   "o": [
+    "A CVE numbering system administered by CERT-In",
+    "A decoy network developed by the Ministry of Defence",
+    "A Linux distribution developed by DRDO",
+    "A mobile-security software associated with C-DAC Hyderabad"
+   ],
+   "a": 3,
+   "x": "M-Kavach is indigenous mobile-security software associated with C-DAC Hyderabad.",
+   "ty": "fact",
+   "tq": "Use the product-purpose-location association to eliminate swapped institutional pairs.",
+   "sec": "Security tools - firewall, antivirus, VPN, 2FA, passwords, honeypot, indigenous software → developer  [APPSC]"
+  }
+ ]
+}

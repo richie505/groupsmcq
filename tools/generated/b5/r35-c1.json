@@ -1,0 +1,710 @@
+{
+ "book": 5,
+ "row": 35,
+ "chunk": 1,
+ "section": "Launch vehicles - SLV-3, ASLV, PSLV variants, GSLV Mk-II, LVM3/GSLV Mk-III, SSLV",
+ "subsections": [
+  "SSLV - design goals, payload, launch-on-demand, first flight",
+  "Sounding rockets - Rohini RH series, Thumba milestones",
+  "Launch vehicle chronology - order and first payload",
+  "Launch direction and site physics",
+  "Payload capacity and PSLV variants",
+  "Private launch vehicles → company",
+  "Reusable and future vehicles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 51,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following is NOT a principal design goal of the Small Satellite Launch Vehicle (SSLV)?",
+   "o": [
+    "Launch-on-demand capability",
+    "Requirement of extensive launch infrastructure",
+    "Short turnaround time",
+    "Low-cost operation"
+   ],
+   "a": 1,
+   "x": "SSLV is designed for low cost, short turnaround, launch-on-demand missions and minimal infrastructure. Extensive infrastructure is contrary to its design objective.",
+   "ty": "negative",
+   "tq": "Find the option that reverses the stated design objective.",
+   "sec": "SSLV - design goals, payload, launch-on-demand, first flight  [APPSC]"
+  },
+  {
+   "s": "The SSLV is designed to place approximately what payload into a 500 km Low Earth Orbit?",
+   "o": [
+    "150 kg",
+    "350 kg",
+    "500 kg",
+    "1,000 kg"
+   ],
+   "a": 2,
+   "x": "SSLV is designed to place a payload of about 500 kg into a 500 km Low Earth Orbit.",
+   "ty": "numerical",
+   "tq": "Match the vehicle with its standard payload figure.",
+   "sec": "SSLV - design goals, payload, launch-on-demand, first flight  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding SSLV:\n1. It has three solid stages.\n2. It is intended to support launch-on-demand missions.\n3. Its first flight, SSLV-D1, successfully placed its payload in the intended orbit in August 2022.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "SSLV has three solid stages and is intended for launch-on-demand missions. SSLV-D1, launched in August 2022, failed to reach the intended orbit.",
+   "ty": "statements",
+   "tq": "Split the statements and check the launch outcome against the vehicle’s first flight.",
+   "sec": "SSLV - design goals, payload, launch-on-demand, first flight  [APPSC]"
+  },
+  {
+   "s": "Which sequence correctly represents the early flight record of the SSLV?",
+   "o": [
+    "D1 failed, D2 succeeded, D3 succeeded",
+    "D1 succeeded, D2 failed, D3 succeeded",
+    "D1 failed, D2 failed, D3 succeeded",
+    "D1 succeeded, D2 succeeded, D3 failed"
+   ],
+   "a": 0,
+   "x": "SSLV-D1 failed in August 2022, while SSLV-D2 in 2023 and SSLV-D3 in 2024 succeeded.",
+   "ty": "chronology",
+   "tq": "Use the first-and-later-flight sequence to eliminate reversed outcomes.",
+   "sec": "SSLV - design goals, payload, launch-on-demand, first flight  [APPSC]"
+  },
+  {
+   "s": "Which company won the ₹511 crore Transfer of Technology agreement to build and operate SSLV independently?",
+   "o": [
+    "Bharat Electronics Limited",
+    "Skyroot Aerospace",
+    "Hindustan Aeronautics Limited",
+    "Agnikul Cosmos"
+   ],
+   "a": 2,
+   "x": "Hindustan Aeronautics Limited (HAL) won the ₹511 crore SSLV Transfer of Technology agreement. It was described as the first full Transfer of Technology of an ISRO launch vehicle to industry.",
+   "ty": "fact",
+   "tq": "Match the industrial agency with the specific technology-transfer arrangement.",
+   "sec": "SSLV - design goals, payload, launch-on-demand, first flight  [APPSC]"
+  },
+  {
+   "s": "The dedicated SSLV spaceport is being developed at:",
+   "o": [
+    "Sriharikota, Andhra Pradesh",
+    "Thumba, Kerala",
+    "Kulasekarapattinam, Tamil Nadu",
+    "Mahendragiri, Tamil Nadu"
+   ],
+   "a": 2,
+   "x": "The dedicated SSLV spaceport is located at Kulasekarapattinam in Thoothukudi district of Tamil Nadu.",
+   "ty": "fact",
+   "tq": "Apply the location trap by distinguishing the dedicated site from Sriharikota.",
+   "sec": "SSLV - design goals, payload, launch-on-demand, first flight  [APPSC]"
+  },
+  {
+   "s": "The Thumba Equatorial Rocket Launching Station (TERLS) was set up in:",
+   "o": [
+    "1962",
+    "1963",
+    "1965",
+    "1975"
+   ],
+   "a": 1,
+   "x": "TERLS at Thumba, near Thiruvananthapuram, was set up in 1963.",
+   "ty": "fact",
+   "tq": "Use the year-place association for the early Indian space programme.",
+   "sec": "Sounding rockets - Rohini RH series, Thumba milestones  [APPSC]"
+  },
+  {
+   "s": "The first rocket was launched from TERLS on:",
+   "o": [
+    "21 November 1963",
+    "24 March 1987",
+    "10 August 1979",
+    "18 July 1980"
+   ],
+   "a": 0,
+   "x": "The first launch from TERLS took place on 21 November 1963, marking the beginning of the Indian space programme.",
+   "ty": "fact",
+   "tq": "Distinguish the first Thumba launch date from later launch-vehicle milestones.",
+   "sec": "Sounding rockets - Rohini RH series, Thumba milestones  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs of early sounding rockets and their countries of origin is correctly matched?",
+   "o": [
+    "M-100 — Russia; Centaure — France",
+    "M-100 — France; Centaure — Russia",
+    "M-100 — India; Centaure — Russia",
+    "M-100 — Russia; Centaure — India"
+   ],
+   "a": 0,
+   "x": "The M-100 was imported from Russia and the Centaure from France. Indigenous sounding rockets began to be developed from 1965.",
+   "ty": "match",
+   "tq": "Start from the sure country–rocket pair and reject the swapped origins.",
+   "sec": "Sounding rockets - Rohini RH series, Thumba milestones  [APPSC]"
+  },
+  {
+   "s": "The indigenous Rohini Sounding Rocket programme was consolidated in:",
+   "o": [
+    "1963",
+    "1965",
+    "1975",
+    "1980"
+   ],
+   "a": 2,
+   "x": "Although indigenous rockets began from 1965, the Rohini Sounding Rocket programme was consolidated in 1975.",
+   "ty": "fact",
+   "tq": "Separate the starting year of indigenous development from the consolidation year.",
+   "sec": "Sounding rockets - Rohini RH series, Thumba milestones  [APPSC]"
+  },
+  {
+   "s": "The operational Rohini sounding rockets generally have which of the following characteristics?",
+   "o": [
+    "Payload of 100–500 kg and apogee of 500–1,000 km",
+    "Payload of 500–1,000 kg and apogee of 80–475 km",
+    "Payload of 1–8 kg and apogee of 10–50 km",
+    "Payload of 8–100 kg and apogee of 80–475 km"
+   ],
+   "a": 3,
+   "x": "The three operational Rohini versions carry payloads of about 8–100 kg and reach apogees ranging from 80 to 475 km.",
+   "ty": "comparison",
+   "tq": "Compare both numerical ranges together instead of matching only one figure.",
+   "sec": "Sounding rockets - Rohini RH series, Thumba milestones  [APPSC]"
+  },
+  {
+   "s": "Rohini sounding rockets are primarily used for:",
+   "o": [
+    "Geostationary communication and television broadcasting only",
+    "Atmospheric research and qualification of launch-vehicle subsystems",
+    "Manned lunar landing missions",
+    "Intercontinental ballistic missile deployment"
+   ],
+   "a": 1,
+   "x": "Rohini sounding rockets carry payloads for atmospheric research and are also used to test and qualify systems intended for larger launch vehicles.",
+   "ty": "application",
+   "tq": "Identify the operational uses rather than the launch vehicle’s name alone.",
+   "sec": "Sounding rockets - Rohini RH series, Thumba milestones  [APPSC]"
+  },
+  {
+   "s": "In the Rohini sounding-rocket designations RH-200, RH-300 and RH-560, the number indicates the:",
+   "o": [
+    "Diameter in millimetres",
+    "Payload in kilograms",
+    "Year of development",
+    "Maximum altitude in kilometres"
+   ],
+   "a": 0,
+   "x": "The number in an RH designation denotes the rocket diameter in millimetres.",
+   "ty": "confusable",
+   "tq": "Break the designation into its technical meaning rather than treating it as an altitude or payload figure.",
+   "sec": "Sounding rockets - Rohini RH series, Thumba milestones  [APPSC]"
+  },
+  {
+   "s": "The 200th consecutive successful launch from Thumba was achieved by RH-200 in:",
+   "o": [
+    "November 2023",
+    "November 2020",
+    "November 2021",
+    "November 2022"
+   ],
+   "a": 3,
+   "x": "RH-200 completed its 200th consecutive successful launch from Thumba in November 2022.",
+   "ty": "numerical",
+   "tq": "Link the milestone number with its specific month and year.",
+   "sec": "Sounding rockets - Rohini RH series, Thumba milestones  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. TERLS is situated near the magnetic equator.\n2. The first launch from TERLS took place in 1963.\n3. The Rohini series was used only for communication satellites.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "TERLS is near the magnetic equator and its first launch occurred in 1963. Rohini rockets are used for atmospheric research and subsystem testing, not only communication satellites.",
+   "ty": "statements",
+   "tq": "Find the single over-restrictive statement using the word ‘only’.",
+   "sec": "Sounding rockets - Rohini RH series, Thumba milestones  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly represents the first successful indigenous launch sequence?",
+   "o": [
+    "SLV-3 — Rohini RS-1; PSLV — IRS-P2; GSLV — GSAT-1",
+    "SLV-3 — GSAT-1; PSLV — Rohini RS-1; GSLV — IRS-P2",
+    "ASLV — Rohini RS-1; SLV-3 — IRS-P2; PSLV — GSAT-1",
+    "PSLV — GSAT-1; GSLV — IRS-P2; SLV-3 — GSAT-19"
+   ],
+   "a": 0,
+   "x": "SLV-3’s successful payload was Rohini RS-1, PSLV’s first successful payload was IRS-P2, and GSLV’s first payload was GSAT-1.",
+   "ty": "match",
+   "tq": "Start from the vehicle–first-payload pairs and eliminate cross-generational swaps.",
+   "sec": "Launch vehicle chronology - order and first payload  [other exams]"
+  },
+  {
+   "s": "Arrange the following launch vehicles in chronological order of their first flight:\nA. GSLV\nB. SLV-3\nC. PSLV\nD. ASLV",
+   "o": [
+    "B, D, C, A",
+    "D, B, C, A",
+    "B, C, D, A",
+    "C, B, D, A"
+   ],
+   "a": 0,
+   "x": "The first flights occurred in the order SLV-3 (1979), ASLV (1987), PSLV (1994) and GSLV (2001).",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest vehicles first, then place ASLV and PSLV by year.",
+   "sec": "Launch vehicle chronology - order and first payload  [other exams]"
+  },
+  {
+   "s": "Which of the following statements about SLV-3 is correct?",
+   "o": [
+    "It first carried IRS-P2 in 1994.",
+    "Its first flight in 1979 successfully carried Rohini RS-1.",
+    "Its first successful launch occurred on 18 July 1980 with Rohini RS-1.",
+    "It first carried GSAT-1 in 2001."
+   ],
+   "a": 2,
+   "x": "The first SLV-3 attempt on 10 August 1979 failed with the Rohini Technology Payload. The successful flight on 18 July 1980 carried Rohini RS-1.",
+   "ty": "fact",
+   "tq": "Distinguish the first attempt from the first successful mission.",
+   "sec": "Launch vehicle chronology - order and first payload  [other exams]"
+  },
+  {
+   "s": "The first successful payload of the PSLV was:",
+   "o": [
+    "IRS-P2",
+    "Rohini RS-1",
+    "GSAT-1",
+    "SROSS"
+   ],
+   "a": 0,
+   "x": "The PSLV’s first successful flight was PSLV-D2 on 15 October 1994, carrying IRS-P2.",
+   "ty": "fact",
+   "tq": "Match the launch vehicle with its first successful payload.",
+   "sec": "Launch vehicle chronology - order and first payload  [other exams]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "SSLV — first flight in 2001 with EOS-07",
+    "ASLV — first success in 1987 with SROSS",
+    "GSLV — first flight in 2001 with GSAT-1",
+    "LVM3 — first flight in 1994 with IRS-P2"
+   ],
+   "a": 2,
+   "x": "GSLV’s first flight was GSLV-D1 on 18 April 2001, carrying GSAT-1. ASLV’s 1987 and 1988 attempts failed, LVM3 began later, and EOS-07 was associated with SSLV-D2 in 2023.",
+   "ty": "negative",
+   "tq": "Check both the vehicle date and the first payload before accepting a match.",
+   "sec": "Launch vehicle chronology - order and first payload  [other exams]"
+  },
+  {
+   "s": "The first successful ASLV mission in 1992 carried a satellite of the:",
+   "o": [
+    "SROSS series",
+    "GSAT series",
+    "IRS series",
+    "EOS series"
+   ],
+   "a": 0,
+   "x": "The ASLV achieved its first success in 1992 with a SROSS-series satellite; its 1987 and 1988 attempts had failed.",
+   "ty": "fact",
+   "tq": "Use the first-success payload association for ASLV.",
+   "sec": "Launch vehicle chronology - order and first payload  [other exams]"
+  },
+  {
+   "s": "CARE, launched by LVM3 on 18 December 2014, was a:",
+   "o": [
+    "Geostationary communication satellite",
+    "Crewed orbital capsule",
+    "Suborbital experimental payload",
+    "Polar remote-sensing satellite"
+   ],
+   "a": 2,
+   "x": "CARE was a suborbital experimental payload launched by LVM3 on 18 December 2014.",
+   "ty": "application",
+   "tq": "Distinguish an experimental suborbital payload from operational orbital satellites.",
+   "sec": "Launch vehicle chronology - order and first payload  [other exams]"
+  },
+  {
+   "s": "Which SSLV mission carried EOS-07 successfully?",
+   "o": [
+    "SSLV-D3",
+    "SSLV-D4",
+    "SSLV-D2",
+    "SSLV-D1"
+   ],
+   "a": 2,
+   "x": "EOS-07 was successfully launched by SSLV-D2 on 10 February 2023.",
+   "ty": "fact",
+   "tq": "Match the mission designation with its successful payload and date.",
+   "sec": "Launch vehicle chronology - order and first payload  [other exams]"
+  },
+  {
+   "s": "Why are rockets generally launched eastward from a spaceport?",
+   "o": [
+    "To ensure that every launch reaches a polar orbit",
+    "To cancel the rotational velocity of the Earth",
+    "To avoid entering an orbit around the Earth",
+    "To gain the Earth’s rotational speed and save fuel"
+   ],
+   "a": 3,
+   "x": "An eastward launch receives an additional velocity from Earth’s rotation, thereby reducing the fuel required to attain orbital speed.",
+   "ty": "application",
+   "tq": "Apply the physical principle rather than memorising the direction alone.",
+   "sec": "Launch direction and site physics  [other exams]"
+  },
+  {
+   "s": "Which location provides the greatest advantage from the Earth’s rotational speed for eastward launches?",
+   "o": [
+    "A site near the equator",
+    "A site farthest from the equator",
+    "A site at a high mountain latitude",
+    "A site near the North Pole"
+   ],
+   "a": 0,
+   "x": "The rotational speed of the Earth is greatest near the equator, so equatorial or near-equatorial sites provide the maximum eastward-launch advantage.",
+   "ty": "fact",
+   "tq": "Use the latitude comparison: rotational speed is highest near the equator.",
+   "sec": "Launch direction and site physics  [other exams]"
+  },
+  {
+   "s": "Sriharikota’s east-coast location is especially advantageous because it:",
+   "o": [
+    "Allows rockets to fly over the sea away from populated land",
+    "Permits launches only towards the west",
+    "Places every satellite directly into geostationary orbit",
+    "Eliminates the need for a launch azimuth"
+   ],
+   "a": 0,
+   "x": "Sriharikota’s east-coast position allows launch trajectories to pass over the sea, reducing risk to populated areas.",
+   "ty": "application",
+   "tq": "Identify the safety advantage of the launch-site location.",
+   "sec": "Launch direction and site physics  [other exams]"
+  },
+  {
+   "s": "Polar and Sun-synchronous orbit launches from Sriharikota generally require a dog-leg trajectory around Sri Lanka because they proceed:",
+   "o": [
+    "Westward over the Indian mainland",
+    "Southward",
+    "Northward",
+    "Eastward only"
+   ],
+   "a": 1,
+   "x": "Polar and Sun-synchronous launches generally follow a southward trajectory from Sriharikota; a dog-leg is used to avoid Sri Lanka.",
+   "ty": "fact",
+   "tq": "Connect the orbit type with the launch direction and geographical constraint.",
+   "sec": "Launch direction and site physics  [other exams]"
+  },
+  {
+   "s": "Which of the following correctly compares the payload capacities of SLV-3 and ASLV to LEO?",
+   "o": [
+    "SLV-3: 150 kg; ASLV: 40 kg",
+    "SLV-3: 1,000 kg; ASLV: 2,500 kg",
+    "SLV-3: 40 kg; ASLV: 150 kg",
+    "SLV-3: 500 kg; ASLV: 1,750 kg"
+   ],
+   "a": 2,
+   "x": "SLV-3 carried about 40 kg to LEO, while ASLV was designed for about 150 kg to LEO.",
+   "ty": "comparison",
+   "tq": "Compare the two early vehicles using their LEO capacity figures.",
+   "sec": "Payload capacity and PSLV variants  [APPSC]"
+  },
+  {
+   "s": "Which launch vehicle is associated with approximately 1,750 kg to SSO and approximately 1,425 kg to GTO?",
+   "o": [
+    "ASLV",
+    "SSLV",
+    "GSLV Mk-II",
+    "PSLV"
+   ],
+   "a": 3,
+   "x": "The PSLV has an approximate capacity of 1,750 kg to SSO and about 1,425 kg to GTO.",
+   "ty": "numerical",
+   "tq": "Match the paired orbit capacities with the correct vehicle.",
+   "sec": "Payload capacity and PSLV variants  [APPSC]"
+  },
+  {
+   "s": "Which of the following is correctly matched with its approximate payload capacity?",
+   "o": [
+    "ASLV — 4 tonnes to GTO",
+    "SLV-3 — 1,750 kg to SSO",
+    "SSLV — 10 tonnes to LEO",
+    "GSLV Mk-II — 2–2.5 tonnes to GTO"
+   ],
+   "a": 3,
+   "x": "GSLV Mk-II can carry about 2–2.5 tonnes to GTO. SSLV, ASLV and SLV-3 have much lower capacities than those stated in the other options.",
+   "ty": "negative",
+   "tq": "Reject the options with swapped capacity ranges between generations of launch vehicles.",
+   "sec": "Payload capacity and PSLV variants  [APPSC]"
+  },
+  {
+   "s": "According to the stated capacity figures, LVM3 can carry approximately how much payload to GTO and LEO respectively?",
+   "o": [
+    "8 tonnes to GTO and 4 tonnes to LEO",
+    "4 tonnes to GTO and 8 tonnes to LEO",
+    "2 tonnes to GTO and 4 tonnes to LEO",
+    "500 kg to GTO and 1,750 kg to LEO"
+   ],
+   "a": 1,
+   "x": "The stated LVM3 capacity is about 4 tonnes to GTO and 8 tonnes to LEO, although some descriptions cite approximately 10 tonnes to LEO.",
+   "ty": "comparison",
+   "tq": "Read the orbit–capacity pair in the correct order.",
+   "sec": "Payload capacity and PSLV variants  [APPSC]"
+  },
+  {
+   "s": "Which PSLV variant has no strap-on boosters and uses only the core vehicle?",
+   "o": [
+    "PSLV-DL",
+    "PSLV-QL",
+    "PSLV-XL",
+    "PSLV-CA"
+   ],
+   "a": 3,
+   "x": "PSLV-CA is the core-alone configuration with zero strap-on boosters.",
+   "ty": "confusable",
+   "tq": "Decode the variant by the number of strap-ons rather than by the mission code.",
+   "sec": "Payload capacity and PSLV variants  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (PSLV variant)\na. PSLV-CA\nb. PSLV-DL\nc. PSLV-QL\nd. PSLV-G\n\nList-II (Number of strap-ons)\ni. Six\nii. Two\niii. Zero\niv. Four\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–iii, b–iv, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "PSLV-CA has zero strap-ons, PSLV-DL has two, PSLV-QL has four and PSLV-G has six.",
+   "ty": "match",
+   "tq": "Start from the core-alone variant and then assign the increasing strap-on counts.",
+   "sec": "Payload capacity and PSLV variants  [APPSC]"
+  },
+  {
+   "s": "PSLV-C62 flew in which configuration?",
+   "o": [
+    "PSLV-QL",
+    "PSLV-XL",
+    "PSLV-CA",
+    "PSLV-DL"
+   ],
+   "a": 3,
+   "x": "PSLV-C62 flew as the PSLV-DL variant, which uses two strap-on boosters.",
+   "ty": "fact",
+   "tq": "Distinguish the mission number from the vehicle configuration designation.",
+   "sec": "Payload capacity and PSLV variants  [APPSC]"
+  },
+  {
+   "s": "Vikram-S, launched in November 2022 under Mission Prarambh, was developed by:",
+   "o": [
+    "HAL",
+    "Skyroot Aerospace",
+    "Agnikul Cosmos",
+    "ISRO’s Vikram Sarabhai Space Centre alone"
+   ],
+   "a": 1,
+   "x": "Vikram-S was developed by Skyroot Aerospace and was India’s first private rocket, designed for a suborbital mission.",
+   "ty": "fact",
+   "tq": "Match the private rocket with its company and mission identity.",
+   "sec": "Private launch vehicles → company  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Agnibaan is associated with which company?",
+   "o": [
+    "Hindustan Aeronautics Limited",
+    "Agnikul Cosmos",
+    "Skyroot Aerospace",
+    "SpaceX India"
+   ],
+   "a": 1,
+   "x": "Agnibaan was developed by Agnikul Cosmos and was launched from the private launch pad named Dhanush at Sriharikota.",
+   "ty": "fact",
+   "tq": "Use the company–vehicle pair to avoid confusing the two Indian private launch firms.",
+   "sec": "Private launch vehicles → company  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Kalam series — Agnikul Cosmos",
+    "Agnibaan — Dhanush private launch pad",
+    "Vikram-S — Agnikul Cosmos",
+    "Vikram-1 — Agnikul Cosmos"
+   ],
+   "a": 1,
+   "x": "Agnibaan is associated with Agnikul Cosmos and the Dhanush launch pad. Vikram-S, Vikram-1 and the Kalam series are associated with Skyroot Aerospace.",
+   "ty": "negative",
+   "tq": "Check both the vehicle and company before accepting the match.",
+   "sec": "Private launch vehicles → company  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Agnibaan was notable for using the world’s first:",
+   "o": [
+    "Six-stage solid-fuel engine",
+    "Nuclear-powered rocket engine",
+    "Single-piece 3D-printed semi-cryogenic engine",
+    "Reusable cryogenic upper stage"
+   ],
+   "a": 2,
+   "x": "Agnibaan used the world’s first single-piece 3D-printed semi-cryogenic engine.",
+   "ty": "fact",
+   "tq": "Identify the precise technology description instead of the broader term ‘3D-printed rocket’.",
+   "sec": "Private launch vehicles → company  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Vikram-1 is described as India’s first private orbital rocket. Which of the following is correct about it?",
+   "o": [
+    "It has four stages and can carry up to 350 kg to LEO.",
+    "It is a single-stage suborbital vehicle carrying 40 kg to LEO.",
+    "It has three stages and carries 6,100 kg to GTO.",
+    "It is a government-only vehicle for Gaganyaan."
+   ],
+   "a": 0,
+   "x": "Vikram-1, developed by Skyroot, is a four-stage private orbital rocket with a payload capacity of up to 350 kg to LEO.",
+   "ty": "statements",
+   "tq": "Combine the stage count, orbital role and payload figure to identify the precise option.",
+   "sec": "Private launch vehicles → company  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "With the launch of Vikram-1, India became the third country after which two countries to possess private orbital launch capability?",
+   "o": [
+    "Russia and Japan",
+    "United Kingdom and Australia",
+    "United States and China",
+    "France and Germany"
+   ],
+   "a": 2,
+   "x": "India was described as the third country, after the United States and China, with private orbital launch capability following Vikram-1.",
+   "ty": "fact",
+   "tq": "Use the order-of-countries comparison rather than the rocket’s technical specifications.",
+   "sec": "Private launch vehicles → company  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Kalam series of vehicles is associated with:",
+   "o": [
+    "ISRO’s reusable spacecraft programme",
+    "Skyroot’s solid motors named after A.P.J. Abdul Kalam",
+    "DRDO’s missile-defence interceptors",
+    "Agnikul’s liquid engines named after Vikram Sarabhai"
+   ],
+   "a": 1,
+   "x": "The Kalam series refers to Skyroot’s solid motors, named after former President and scientist A.P.J. Abdul Kalam.",
+   "ty": "fact",
+   "tq": "Distinguish a private company’s product family from government launch programmes.",
+   "sec": "Private launch vehicles → company  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "RLV-LEX refers to:",
+   "o": [
+    "A sounding-rocket series for atmospheric research",
+    "Autonomous landing tests of the Reusable Launch Vehicle Technology Demonstrator",
+    "A cryogenic engine test for GSLV Mk-II",
+    "A lunar rover deployment experiment"
+   ],
+   "a": 1,
+   "x": "RLV-LEX denotes autonomous landing tests of the Reusable Launch Vehicle Technology Demonstrator. The tests began with a landing on 2 April 2023, followed by Pushpak landings in 2024.",
+   "ty": "application",
+   "tq": "Expand the programme acronym through its principal test objective.",
+   "sec": "Reusable and future vehicles  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The later reusable-launch-vehicle landings in 2024 were associated with the name:",
+   "o": [
+    "Prarambh",
+    "Dhanush",
+    "Aagaman",
+    "Pushpak"
+   ],
+   "a": 3,
+   "x": "The later RLV landing demonstrations in 2024 were referred to as Pushpak landings.",
+   "ty": "fact",
+   "tq": "Separate reusable-vehicle test names from private-rocket mission names.",
+   "sec": "Reusable and future vehicles  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements about the Next Generation Launch Vehicle (NGLV) is correct?\n1. It is about 90 m tall.\n2. Its lift-off mass is approximately 1,000 tonnes.\n3. It is intended to support the Bharatiya Antariksh Station by 2035.\n4. It is intended to support a crewed lunar landing by 2040.\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. NGLV is described as about 90 m tall, with an approximately 1,000-tonne lift-off mass, and is linked to the 2035 space-station and 2040 crewed lunar-landing goals.",
+   "ty": "statements",
+   "tq": "Verify each numerical and mission objective statement before selecting the complete combination.",
+   "sec": "Reusable and future vehicles  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Third Launch Pad is particularly required for the development and operation of:",
+   "o": [
+    "NGLV",
+    "RH-200",
+    "PSLV-CA only",
+    "Vikram-S"
+   ],
+   "a": 0,
+   "x": "The NGLV programme requires the Third Launch Pad, with an estimated construction period of about four years.",
+   "ty": "fact",
+   "tq": "Match the infrastructure requirement with the future launch vehicle.",
+   "sec": "Reusable and future vehicles  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which launch vehicle is intended to carry Gaganyaan crew to approximately 400 km LEO for three days?",
+   "o": [
+    "SSLV",
+    "ASLV",
+    "HLVM3",
+    "Vikram-S"
+   ],
+   "a": 2,
+   "x": "The human-rated LVM3, designated HLVM3, is intended for the Gaganyaan crew mission to a 400 km LEO orbit for three days.",
+   "ty": "fact",
+   "tq": "Match the human-rating designation with the mission profile.",
+   "sec": "Reusable and future vehicles  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "SOLVE, associated with the Gaganyaan programme, is a:",
+   "o": [
+    "Suborbital test vehicle using a solid motor",
+    "Geostationary communication satellite",
+    "Reusable orbital spaceplane",
+    "Polar remote-sensing payload"
+   ],
+   "a": 0,
+   "x": "SOLVE is a suborbital test vehicle using a solid motor; its motor was ground-tested at SHAR in July 2026.",
+   "ty": "fact",
+   "tq": "Distinguish the test vehicle from the human-rated orbital launcher.",
+   "sec": "Reusable and future vehicles  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The first Integrated Air Drop Test associated with the human spaceflight programme was conducted on:",
+   "o": [
+    "2 April 2023",
+    "18 December 2014",
+    "20 July 2026",
+    "24 August 2025"
+   ],
+   "a": 3,
+   "x": "The first Integrated Air Drop Test was conducted on 24 August 2025.",
+   "ty": "numerical",
+   "tq": "Match the test milestone with its exact date, avoiding confusion with RLV and SOLVE dates.",
+   "sec": "Reusable and future vehicles  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Falcon 9 — SpaceX; New Shepard — Blue Origin",
+    "Falcon 9 — Blue Origin; New Shepard — SpaceX",
+    "Falcon 9 — Skyroot; New Shepard — Agnikul Cosmos",
+    "Falcon 9 — ISRO; New Shepard — DRDO"
+   ],
+   "a": 0,
+   "x": "Falcon 9 is a reusable launch vehicle developed by SpaceX, while New Shepard is Blue Origin’s reusable suborbital vehicle.",
+   "ty": "match",
+   "tq": "Start from the company–vehicle pair and distinguish orbital Falcon 9 from suborbital New Shepard.",
+   "sec": "Reusable and future vehicles  [APPSC, GROUP-II]"
+  }
+ ]
+}

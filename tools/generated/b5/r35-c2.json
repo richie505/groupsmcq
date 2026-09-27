@@ -1,0 +1,356 @@
+{
+ "book": 5,
+ "row": 35,
+ "chunk": 2,
+ "section": "Launch vehicles - SLV-3, ASLV, PSLV variants, GSLV Mk-II, LVM3/GSLV Mk-III, SSLV",
+ "subsections": [
+  "Cryogenic and semi-cryogenic engines",
+  "Orbital terms",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 25,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nEngine — Application",
+   "o": [
+    "CE-7.5 — GSLV Mk-II upper stage",
+    "CE-20 — GSLV Mk-II upper stage",
+    "SCE-200 — LVM3 C25 stage",
+    "CE-7.5 — NGLV semi-cryogenic stage"
+   ],
+   "a": 0,
+   "x": "CE-7.5, using liquid hydrogen and liquid oxygen, is used in the upper stage of GSLV Mk-II. CE-20 is used in the LVM3 C25 stage, while SCE-200 is intended for the LVM3 upgrade and NGLV.",
+   "ty": "match",
+   "tq": "Start from the sure engine–application pair and eliminate the swapped-stage options.",
+   "sec": "Cryogenic and semi-cryogenic engines"
+  },
+  {
+   "s": "Consider the following statements regarding Indian cryogenic and semi-cryogenic engines:\n1. CE-7.5 and CE-20 use liquid hydrogen and liquid oxygen.\n2. SCE-200 uses refined kerosene and liquid oxygen.\n3. SCE-200 is intended for the LVM3 upgrade and NGLV.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. CE-7.5 and CE-20 are cryogenic engines using LH2 and LOX, whereas the semi-cryogenic SCE-200 uses refined kerosene and LOX and is planned for LVM3 upgrades and NGLV.",
+   "ty": "statements",
+   "tq": "Check the propellant distinction first, then verify the stated applications.",
+   "sec": "Cryogenic and semi-cryogenic engines"
+  },
+  {
+   "s": "The C25 stage of LVM3 is powered by which of the following engines?",
+   "o": [
+    "SCE-200",
+    "CE-20",
+    "A cryogenic engine developed by Russia",
+    "CE-7.5"
+   ],
+   "a": 1,
+   "x": "The CE-20 engine, using liquid hydrogen and liquid oxygen, is used in the LVM3 C25 stage.",
+   "ty": "fact",
+   "tq": "Directly identify the engine associated with the named launch-vehicle stage.",
+   "sec": "Cryogenic and semi-cryogenic engines"
+  },
+  {
+   "s": "Consider the following statements:\n1. Russian cryogenic engines were used in the early GSLV launches.\n2. India developed its own cryogenic engine after technology-transfer denial in the 1990s.\n3. GSLV-D5 marked the first successful use of India's indigenous cryogenic engine.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Russia supplied cryogenic engines for early GSLVs; following technology-transfer denial in the 1990s, India developed its own engine, whose first success was GSLV-D5 in 2014.",
+   "ty": "statements",
+   "tq": "Use the chronological cause-and-effect chain to test all three statements.",
+   "sec": "Cryogenic and semi-cryogenic engines"
+  },
+  {
+   "s": "The first successful flight of an Indian indigenous cryogenic engine was associated with which launch vehicle and year?",
+   "o": [
+    "GSLV-D2 in 2003",
+    "LVM3 in 2017",
+    "GSLV-D5 in 2014",
+    "PSLV-C61 in 2025"
+   ],
+   "a": 2,
+   "x": "GSLV-D5 in 2014 marked the first successful use of India's indigenous cryogenic engine.",
+   "ty": "numerical",
+   "tq": "Match the milestone with its precise vehicle and year rather than a nearby launch event.",
+   "sec": "Cryogenic and semi-cryogenic engines"
+  },
+  {
+   "s": "Engine tests for Indian cryogenic and semi-cryogenic systems are conducted at:",
+   "o": [
+    "Satish Dhawan Space Centre, Sriharikota",
+    "Kulasekarapattinam, Tamil Nadu",
+    "LPSC, Valiamala, Kerala",
+    "IPRC, Mahendragiri, Tamil Nadu"
+   ],
+   "a": 3,
+   "x": "The tests are conducted at the ISRO Propulsion Complex (IPRC), Mahendragiri, in Tamil Nadu. LPSC Valiamala is associated with design work and is not the testing facility identified here.",
+   "ty": "confusable",
+   "tq": "Discriminate between the design centre and the propulsion-test facility.",
+   "sec": "Cryogenic and semi-cryogenic engines"
+  },
+  {
+   "s": "Why are orbital launches generally conducted in an eastward direction?",
+   "o": [
+    "It prevents the launch vehicle from entering a polar orbit",
+    "It adds Earth's rotational speed to the launch vehicle's velocity and saves fuel",
+    "It places every satellite directly into geostationary orbit",
+    "It reduces the effect of Earth's gravity completely"
+   ],
+   "a": 1,
+   "x": "An eastward launch takes advantage of Earth's west-to-east rotation. The rotational velocity contributes to the launch vehicle's speed and consequently reduces fuel requirements.",
+   "ty": "application",
+   "tq": "Apply the physical principle to identify the operational advantage of eastward launch.",
+   "sec": "Orbital terms"
+  },
+  {
+   "s": "Which one of the following correctly describes a Geostationary Transfer Orbit (GTO)?",
+   "o": [
+    "An orbit whose perigee and apogee are both near 36,000 km",
+    "A circular orbit over the equator at a fixed altitude",
+    "An elliptical transfer orbit with its apogee near 36,000 km",
+    "A near-polar orbit passing places at the same local solar time"
+   ],
+   "a": 2,
+   "x": "GTO is an elliptical transfer orbit whose apogee is near 36,000 km. It is used as a transfer path toward geosynchronous or geostationary orbit.",
+   "ty": "fact",
+   "tq": "Distinguish the transfer orbit from the final geostationary and sun-synchronous orbits.",
+   "sec": "Orbital terms"
+  },
+  {
+   "s": "Consider the following statements regarding GSO and GEO:\n1. A geosynchronous orbit has a period of one day.\n2. A geostationary orbit is a geosynchronous orbit over the equator.\n3. A satellite in a geostationary orbit appears fixed in the sky.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only"
+   ],
+   "a": 0,
+   "x": "All three statements are correct. GSO has a one-day period, while GEO is the equatorial form of such an orbit in which the satellite appears fixed relative to the sky.",
+   "ty": "comparison",
+   "tq": "Separate the broader geosynchronous category from its equatorial geostationary form.",
+   "sec": "Orbital terms"
+  },
+  {
+   "s": "A sun-synchronous satellite is particularly suitable for imaging because it:",
+   "o": [
+    "always travels in an eastward equatorial orbit",
+    "passes over a given place at the same local solar time",
+    "remains fixed over the equator",
+    "has an apogee near 36,000 km"
+   ],
+   "a": 1,
+   "x": "A sun-synchronous orbit is generally near-polar and passes over a given location at approximately the same local solar time, which is useful for consistent imaging conditions.",
+   "ty": "application",
+   "tq": "Link the orbital characteristic with its practical imaging advantage.",
+   "sec": "Orbital terms"
+  },
+  {
+   "s": "What is the principal function of strap-on boosters attached to a launch vehicle?",
+   "o": [
+    "To reduce the apogee of the transfer orbit",
+    "To maintain the satellite in geostationary orbit",
+    "To provide the satellite's communication payload",
+    "To increase lift-off thrust available to the core vehicle"
+   ],
+   "a": 3,
+   "x": "Strap-on boosters supplement the core stage by providing additional thrust during lift-off.",
+   "ty": "fact",
+   "tq": "Identify the component by its function during the initial phase of flight.",
+   "sec": "Orbital terms"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Apogee — farthest point from Earth",
+    "Apogee — nearest point to Earth",
+    "Perigee — farthest point from Earth",
+    "Perigee — highest point of a geostationary orbit only"
+   ],
+   "a": 0,
+   "x": "Apogee is the farthest point of an orbit from Earth, while perigee is the nearest point.",
+   "ty": "confusable",
+   "tq": "Discriminate between the commonly confused orbital terms by their distance from Earth.",
+   "sec": "Orbital terms"
+  },
+  {
+   "s": "Which of the following correctly identifies the launch and payload event of 4 September 2026?",
+   "o": [
+    "PSLV-C61 placed EOS-09 into a sun-synchronous orbit",
+    "GSLV-F17 placed EOS-05 into a sub-GTO",
+    "PSLV-C62 placed EOS-N1 into a geostationary orbit",
+    "LVM3 placed EOS-05 into a polar orbit"
+   ],
+   "a": 1,
+   "x": "GSLV-F17 successfully placed EOS-05, India's first imaging satellite in geosynchronous orbit, into a sub-GTO on 4 September 2026.",
+   "ty": "numerical",
+   "tq": "Match the vehicle, payload, orbit and date without confusing nearby PSLV events.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "EOS-05, placed into a sub-GTO by GSLV-F17, was significant because it was India's first imaging satellite in:",
+   "o": [
+    "a polar transfer orbit",
+    "a low Earth orbit",
+    "a geosynchronous orbit",
+    "a sun-synchronous orbit"
+   ],
+   "a": 2,
+   "x": "EOS-05 was India's first imaging satellite in geosynchronous orbit; GSLV-F17 placed it into a sub-GTO as part of that mission.",
+   "ty": "fact",
+   "tq": "Use the payload's stated orbital distinction rather than the launch vehicle alone.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding recent PSLV missions:\n1. PSLV-C61 carrying EOS-09 failed at the third stage on 18 May 2025.\n2. PSLV-C62 carrying EOS-N1 failed at the third stage on 12 January 2026.\n3. No ISRO launches took place in the first quarter of 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The failures of C61 and C62 at the third stage were followed by the absence of ISRO launches in the first quarter of 2026.",
+   "ty": "statements",
+   "tq": "Verify each date-event relationship before selecting the coded combination.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "According to ISSAR 2025, which of the following figures correctly represents the number of successful launches worldwide?",
+   "o": [
+    "27",
+    "86",
+    "315",
+    "4,651"
+   ],
+   "a": 2,
+   "x": "ISSAR 2025 recorded 315 successful launches worldwide. It also reported 4,651 objects placed in orbit, while India's figures were 86 satellites in orbit and 27 operational satellites.",
+   "ty": "numerical",
+   "tq": "Separate the global launch count from the objects-placed and India-specific figures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following combinations correctly represents the ISSAR 2025 figures?",
+   "o": [
+    "315 successful launches worldwide and 4,651 objects placed in orbit",
+    "4,651 successful launches worldwide and 315 objects placed in orbit",
+    "86 successful launches worldwide and 27 objects placed in orbit",
+    "27 successful launches worldwide and 86 objects placed in orbit"
+   ],
+   "a": 0,
+   "x": "ISSAR 2025 reported 315 successful launches worldwide and 4,651 objects placed in orbit.",
+   "ty": "match",
+   "tq": "Match the two related numerical indicators without reversing their meanings.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "India's satellite status as reported in the relevant 2026 assessment was:",
+   "o": [
+    "4,651 satellites in orbit, of which 86 were operational",
+    "86 satellites in orbit, of which 27 were operational",
+    "27 satellites in orbit, of which 86 were operational",
+    "315 satellites in orbit, of which 27 were operational"
+   ],
+   "a": 1,
+   "x": "India had 86 satellites in orbit, of which 27 were operational.",
+   "ty": "numerical",
+   "tq": "Read the total and subset figures in the correct order.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The proposed Third Launch Pad is primarily intended to support which of the following future objectives?\n1. Launches of NGLV and semi-cryogenic LVM3\n2. Bharatiya Antariksh Station by 2035\n3. Crewed lunar landing by 2040\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The Third Launch Pad is planned to support NGLV and semi-cryogenic LVM3 missions and is associated with the objectives of establishing the Bharatiya Antariksh Station by 2035 and achieving a crewed lunar landing by 2040.",
+   "ty": "statements",
+   "tq": "Treat the launch-pad proposal as a linked infrastructure-and-objectives question.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which launch vehicle and satellite combination marked India's acquisition of its own orbital launch capability in 1980?",
+   "o": [
+    "SLV-3 and Rohini RS-1",
+    "ASLV and EOS-05",
+    "PSLV and EOS-09",
+    "GSLV and Aryabhata"
+   ],
+   "a": 0,
+   "x": "Rohini RS-1 was launched by SLV-3 in 1980, marking India's status as a nation with its own orbital launch capability.",
+   "ty": "chronology",
+   "tq": "Identify the first milestone by pairing the launch vehicle with its payload and year.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. GSLV-D5 achieves the first successful indigenous cryogenic-engine flight\nB. Rohini RS-1 is launched by SLV-3\nC. PSLV-C61 fails at the third stage\nD. PSLV-C62 fails at the third stage",
+   "o": [
+    "B, A, C, D",
+    "A, B, C, D",
+    "B, C, A, D",
+    "A, B, D, C"
+   ],
+   "a": 0,
+   "x": "Rohini RS-1 was launched in 1980, GSLV-D5 succeeded in 2014, PSLV-C61 failed in May 2025, and PSLV-C62 failed in January 2026.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest events first, then place the two intermediate milestones.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The current foreign direct investment rules permit what level of automatic FDI in launch vehicles and spaceports?",
+   "o": [
+    "26%",
+    "49%",
+    "51%",
+    "74%"
+   ],
+   "a": 1,
+   "x": "The revised rules allow 49% automatic FDI in launch vehicles and spaceports.",
+   "ty": "numerical",
+   "tq": "Recall the precise percentage and distinguish it from nearby investment thresholds.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements regarding Indian launch sites is correct?",
+   "o": [
+    "All orbital launches take place from Kulasekarapattinam, while Sriharikota is used only for defence launches.",
+    "Private Agnibaan launches take place exclusively from Kerala, and SSLV launches are restricted to Sriharikota.",
+    "All orbital launches, including private Agnibaan, take place from Sriharikota; a second SSLV spaceport is being established at Kulasekarapattinam.",
+    "Sriharikota is being replaced by a second spaceport at Mahendragiri for all orbital launches."
+   ],
+   "a": 2,
+   "x": "Orbital launches, including private Agnibaan missions, are conducted from Sriharikota. A second spaceport for SSLV is being established at Kulasekarapattinam in Tamil Nadu.",
+   "ty": "application",
+   "tq": "Use the location rule and the planned second-spaceport distinction to reject swapped locations.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The foundation for the second spaceport intended for SSLV launches was laid at Kulasekarapattinam on:",
+   "o": [
+    "12 January 2026",
+    "18 May 2025",
+    "27 August 2025",
+    "4 September 2026"
+   ],
+   "a": 2,
+   "x": "The foundation for the second SSLV spaceport at Kulasekarapattinam, Tamil Nadu, was laid on 27 August 2025.",
+   "ty": "numerical",
+   "tq": "Match the infrastructure milestone with its exact date rather than a launch date.",
+   "sec": "Universal angles"
+  }
+ ]
+}

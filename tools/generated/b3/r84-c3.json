@@ -1,0 +1,356 @@
+{
+ "book": 3,
+ "row": 84,
+ "chunk": 3,
+ "section": "Banking in India - nationalisation, structure, priority sector, small finance and payments banks",
+ "subsections": [
+  "Banks → founder, headquarters, year",
+  "Development finance institutions → year and purpose",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 27,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Who founded Andhra Bank?",
+   "o": [
+    "Dr. Bhogaraju Pattabhi Sitaramaiah",
+    "Sivaraman",
+    "Ammembal Subba Rao Pai",
+    "Lala Lajpat Rai"
+   ],
+   "a": 0,
+   "x": "Andhra Bank was founded by Dr. Bhogaraju Pattabhi Sitaramaiah.",
+   "ty": "fact",
+   "tq": "Match the founder with the correct bank.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "Andhra Bank was established on 20 November 1923 at which place?",
+   "o": [
+    "Mangaluru",
+    "Vijayawada",
+    "Machilipatnam",
+    "Lahore"
+   ],
+   "a": 2,
+   "x": "Andhra Bank was established on 20 November 1923 at Machilipatnam.",
+   "ty": "fact",
+   "tq": "Separate the establishment place from the headquarters or merger details.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "Dr. Bhogaraju Pattabhi Sitaramaiah was also the President of the Indian National Congress during:",
+   "o": [
+    "1937–38",
+    "1948–49",
+    "1955–56",
+    "1923–24"
+   ],
+   "a": 1,
+   "x": "Dr. Bhogaraju Pattabhi Sitaramaiah was also INC President in 1948–49.",
+   "ty": "numerical",
+   "tq": "Use the precise year range rather than the bank’s year of establishment.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Punjab National Bank — Lahore, 1894/95; headquarters now at New Delhi",
+    "Allahabad Bank — Mangaluru, 1906; headquarters now at Chennai",
+    "Canara Bank — Lahore, 1894/95; headquarters now at New Delhi",
+    "Equitas Small Finance Bank — Machilipatnam, 1923; headquarters now at Chennai"
+   ],
+   "a": 0,
+   "x": "Punjab National Bank originated at Lahore in 1894/95 and its headquarters is now at New Delhi. The other options interchange the origins or locations of the banks.",
+   "ty": "match",
+   "tq": "Start from the sure location-year pair and eliminate swapped bank details.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "Consider the following statements:\n1. Allahabad Bank was established in 1865.\n2. Allahabad Bank was merged into Indian Bank.\n3. Canara Bank was founded by Ammembal Subba Rao Pai.\n4. Canara Bank took over Syndicate Bank.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Allahabad Bank dates from 1865 and merged into Indian Bank, while Canara Bank was founded by Ammembal Subba Rao Pai and took over Syndicate Bank.",
+   "ty": "statements",
+   "tq": "Verify each bank’s year, merger, founder and takeover separately.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "Canara Bank was established in 1906 at:",
+   "o": [
+    "Lahore",
+    "New Delhi",
+    "Machilipatnam",
+    "Mangaluru"
+   ],
+   "a": 3,
+   "x": "Canara Bank was established in 1906 at Mangaluru.",
+   "ty": "fact",
+   "tq": "Distinguish the origin city of Canara Bank from those of other listed banks.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "The Imperial Bank of India was formed through the merger of:",
+   "o": [
+    "The three Presidency banks",
+    "Punjab National Bank, Allahabad Bank and Canara Bank",
+    "The three Presidency banks and the State Bank of India",
+    "The Imperial Bank and three Regional Rural Banks"
+   ],
+   "a": 0,
+   "x": "The Imperial Bank of India was formed by merging the three Presidency banks.",
+   "ty": "fact",
+   "tq": "Identify the constituent institutions rather than the later successor.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "The headquarters of Equitas Small Finance Bank is located at:",
+   "o": [
+    "Machilipatnam",
+    "New Delhi",
+    "Mumbai",
+    "Chennai"
+   ],
+   "a": 3,
+   "x": "Equitas Small Finance Bank has its headquarters at Chennai.",
+   "ty": "fact",
+   "tq": "Test a headquarters fact against the other banking locations.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "Which development finance institution was the first DFI in India and was established for long-term industrial finance?",
+   "o": [
+    "IFCI",
+    "SIDBI",
+    "IDBI",
+    "Exim Bank"
+   ],
+   "a": 0,
+   "x": "IFCI, established in 1948, was the first development finance institution and provided long-term industrial finance.",
+   "ty": "fact",
+   "tq": "Link the institutional first and its distinctive purpose.",
+   "sec": "Development finance institutions → year and purpose"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Institution)\na. ICICI\nb. IDBI\nc. Exim Bank\nd. SIDBI\nList-II (Primary purpose)\ni. MSME finance\nii. Export-import finance\niii. Private-sector industrial credit\niv. Apex industrial development banking\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–i, b–ii, c–iii, d–iv"
+   ],
+   "a": 0,
+   "x": "ICICI provided private-sector industrial credit, IDBI was the apex industrial development bank, Exim Bank financed export-import activity, and SIDBI focused on MSME finance.",
+   "ty": "match",
+   "tq": "Start from the distinctive export-import and MSME purposes to fix the code.",
+   "sec": "Development finance institutions → year and purpose"
+  },
+  {
+   "s": "Arrange the following development finance institutions in chronological order of establishment:\nA. SIDBI\nB. IFCI\nC. Exim Bank\nD. IDBI",
+   "o": [
+    "B, D, C, A",
+    "D, B, C, A",
+    "B, C, D, A",
+    "C, B, D, A"
+   ],
+   "a": 0,
+   "x": "The correct order is IFCI (1948), IDBI (1964), Exim Bank (1982) and SIDBI (1990).",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest institutions first, then place the middle years.",
+   "sec": "Development finance institutions → year and purpose"
+  },
+  {
+   "s": "The Export-Import Bank of India was established in 1982 primarily to provide:",
+   "o": [
+    "MSME finance",
+    "Rural infrastructure finance through RIDF",
+    "Export-import finance",
+    "Housing finance refinance"
+   ],
+   "a": 2,
+   "x": "Exim Bank was established in 1982 for export-import finance.",
+   "ty": "fact",
+   "tq": "Match the institution’s name and year with its specific financing role.",
+   "sec": "Development finance institutions → year and purpose"
+  },
+  {
+   "s": "Which one of the following statements regarding NABARD is correct?",
+   "o": [
+    "It was established in 1990 for MSME finance.",
+    "It was established on 9 July 1988 for housing finance refinance.",
+    "It was established on 12 July 1982 and serves as an apex institution for rural credit.",
+    "It was established under the NaBFID Act, 2021 for infrastructure finance."
+   ],
+   "a": 2,
+   "x": "NABARD was established on 12 July 1982 and functions as the apex bank for rural credit. The other descriptions refer to SIDBI, NHB and NaBFID respectively.",
+   "ty": "fact",
+   "tq": "Use the year-purpose pair and reject institution-swapping traps.",
+   "sec": "Development finance institutions → year and purpose"
+  },
+  {
+   "s": "With reference to NABARD, consider the following statements:\n1. It was established under an Act of 1981.\n2. It supervises Regional Rural Banks and cooperative institutions.\n3. It took over the RBI’s agricultural-credit functions and the refinance portfolio of ARDC.\n4. It was established primarily for housing finance refinance.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Housing finance refinance is the purpose of NHB, not NABARD; therefore statement 4 is false.",
+   "ty": "statements",
+   "tq": "Identify the institution-swapped purpose in the fourth statement.",
+   "sec": "Development finance institutions → year and purpose"
+  },
+  {
+   "s": "The National Housing Bank was established on 9 July 1988 under an Act of:",
+   "o": [
+    "1981",
+    "1987",
+    "1990",
+    "2021"
+   ],
+   "a": 1,
+   "x": "NHB was established on 9 July 1988 under the National Housing Bank Act, 1987.",
+   "ty": "numerical",
+   "tq": "Keep the establishment date distinct from the year of the enabling Act.",
+   "sec": "Development finance institutions → year and purpose"
+  },
+  {
+   "s": "Which of the following correctly describes the ownership change relating to the National Housing Bank?",
+   "o": [
+    "The Centre took full ownership of NHB in 1988.",
+    "The RBI took full ownership of NHB in 2019.",
+    "The Centre took full ownership of NHB in 2019.",
+    "NABARD took full ownership of NHB in 2019."
+   ],
+   "a": 2,
+   "x": "The Centre took full ownership of the National Housing Bank in 2019.",
+   "ty": "fact",
+   "tq": "Apply the ‘who took ownership and when’ test to distinguish the authorities.",
+   "sec": "Development finance institutions → year and purpose"
+  },
+  {
+   "s": "NaBFID was established under the NaBFID Act, 2021 for:",
+   "o": [
+    "Housing finance refinance",
+    "Export-import finance",
+    "Private-sector industrial credit",
+    "Long-term infrastructure finance"
+   ],
+   "a": 3,
+   "x": "NaBFID was created under the NaBFID Act, 2021 to provide long-term infrastructure finance.",
+   "ty": "fact",
+   "tq": "Match the statutory institution with its specialised financing purpose.",
+   "sec": "Development finance institutions → year and purpose"
+  },
+  {
+   "s": "Which one of the following development finance institutions is regulated by the Reserve Bank of India and focuses on long-term infrastructure finance?",
+   "o": [
+    "NABARD",
+    "SIDBI",
+    "NaBFID",
+    "NHB"
+   ],
+   "a": 2,
+   "x": "NaBFID is regulated by the RBI and focuses on long-term infrastructure finance.",
+   "ty": "confusable",
+   "tq": "Separate the infrastructure-finance institution from rural, MSME and housing institutions.",
+   "sec": "Development finance institutions → year and purpose"
+  },
+  {
+   "s": "The Capital Small Finance Bank is associated with which distinction?",
+   "o": [
+    "First development finance institution",
+    "First Payments Bank",
+    "First Regional Rural Bank",
+    "First Small Finance Bank"
+   ],
+   "a": 3,
+   "x": "Capital Small Finance Bank is identified as the first Small Finance Bank.",
+   "ty": "fact",
+   "tq": "Use the first-in-category clue without confusing SFBs with RRBs or DFIs.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "In the context of banking in Andhra Pradesh, the Credit-Deposit ratio mentioned is:",
+   "o": [
+    "57%",
+    "105%",
+    "157%",
+    "215%"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh’s Credit-Deposit ratio is 157%, placing it among the highest.",
+   "ty": "numerical",
+   "tq": "Read the percentage precisely and reject reversed or truncated figures.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "A Mega Credit Outreach Programme held in Andhra Pradesh disbursed credit amounting to:",
+   "o": [
+    "₹1,986 crore",
+    "₹2,520 crore",
+    "₹3,216 crore",
+    "₹5,216 crore"
+   ],
+   "a": 2,
+   "x": "The Mega Credit Outreach Programme in Andhra Pradesh disbursed ₹3,216 crore.",
+   "ty": "numerical",
+   "tq": "Use the exact financial figure rather than a nearby rounded amount.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "The Mega Credit Outreach Programme in Andhra Pradesh involving Chief Minister N. Chandrababu Naidu and Finance Minister Sitharaman was held on:",
+   "o": [
+    "12 September 2026",
+    "18 July 2024",
+    "18 July 2025",
+    "18 July 2026"
+   ],
+   "a": 3,
+   "x": "The programme was held on 18 July 2026 and involved Chief Minister N. Chandrababu Naidu and Finance Minister Sitharaman.",
+   "ty": "numerical",
+   "tq": "Distinguish the event date from the separate September 2026 banking strike date.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "Which of the following developments was associated with September 2026?",
+   "o": [
+    "The United Forum of Bank Unions held a strike demanding a five-day week in public sector banks.",
+    "The Centre took full ownership of the National Housing Bank.",
+    "Andhra Bank was merged into Union Bank of India.",
+    "NaBFID was established under its enabling Act."
+   ],
+   "a": 0,
+   "x": "The United Forum of Bank Unions held a strike on 12 September 2026 seeking a five-day week in public sector banks. The other events belong to 2019, 2020 and 2021 respectively.",
+   "ty": "fact",
+   "tq": "Use the year-event pairing to eliminate historical distractors.",
+   "sec": "Banks → founder, headquarters, year"
+  },
+  {
+   "s": "Which of the following correctly represents the banking-sector indicators mentioned for 2025–26?",
+   "o": [
+    "PSB 4R strategy and GNPA at 2.2% in September 2026",
+    "PSB 5R strategy and GNPA at 2.2% in September 2025",
+    "PSB 3R strategy and GNPA at 5.2% in September 2025",
+    "PSB 4R strategy and GNPA at 2.2% in September 2025"
+   ],
+   "a": 3,
+   "x": "The banking-sector significance highlighted is the 4R strategy for public sector banks and GNPA of 2.2% in September 2025, a multi-decadal low.",
+   "ty": "comparison",
+   "tq": "Check both the strategy label and the date-linked percentage before selecting the pair.",
+   "sec": "Banks → founder, headquarters, year"
+  }
+ ]
+}

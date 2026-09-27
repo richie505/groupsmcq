@@ -1,0 +1,427 @@
+{
+ "book": 5,
+ "row": 28,
+ "chunk": 0,
+ "section": "Netiquettes - digital etiquette, digital literacy, misinformation and fake news",
+ "subsections": [
+  "Online safety practices - passwords, friend requests, privacy settings, 2FA, verify before sharing",
+  "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges",
+  "Digital literacy - levels, Computer Literacy Day, NSS data, school curriculum",
+  "Online behaviour terms - cyber venting, trolling, cyberbullying, doxxing, cyberstalking, remedies"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 30,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is NOT recommended as an online safety practice?",
+   "o": [
+    "Being cautious while sharing personal or sensitive information",
+    "Using strong passwords",
+    "Verifying information before sharing it",
+    "Accepting friend requests from unknown persons without caution"
+   ],
+   "a": 3,
+   "x": "Accepting friend requests from unknown persons without caution is not a safe online practice. Strong passwords, verification before sharing and caution with sensitive information are recommended.",
+   "ty": "negative",
+   "tq": "Find the one unsafe practice among otherwise safe digital habits.",
+   "sec": "Online safety practices - passwords, friend requests, privacy settings, 2FA, verify before sharing"
+  },
+  {
+   "s": "Which of the following is a set of recognised authentication methods?",
+   "o": [
+    "Trolling, doxxing and cyberstalking",
+    "Passwords, biometrics and multi-factor authentication",
+    "Friend requests, QR codes and Wi-Fi names",
+    "Digital footprint, privacy settings and netiquette"
+   ],
+   "a": 1,
+   "x": "Passwords, biometrics and multi-factor authentication are authentication methods used to verify a user's identity.",
+   "ty": "fact",
+   "tq": "Identify the option containing only methods belonging to the same functional category.",
+   "sec": "Online safety practices - passwords, friend requests, privacy settings, 2FA, verify before sharing"
+  },
+  {
+   "s": "A person receives a message from a friend urgently asking for money. Which is the safest immediate course of action?",
+   "o": [
+    "Verify the request through another channel before making any payment",
+    "Transfer the money immediately because the request came from a known contact",
+    "Scan a QR code sent by the friend to receive the money",
+    "Click the accompanying link to confirm the friend's identity"
+   ],
+   "a": 0,
+   "x": "A friend's account or identity may have been hacked, so the request should be independently verified before payment. Links or QR codes should not be clicked or scanned to receive money.",
+   "ty": "application",
+   "tq": "Apply the cyber-hygiene rule to a realistic digital-fraud situation.",
+   "sec": "Online safety practices - passwords, friend requests, privacy settings, 2FA, verify before sharing"
+  },
+  {
+   "s": "Which of the following practices is specifically recommended for securing a wireless network?",
+   "o": [
+    "Scanning every QR code received through messaging applications",
+    "Keeping the digital footprint unrestricted",
+    "Using WPA3 Wi-Fi",
+    "Accepting unknown contacts to increase network access"
+   ],
+   "a": 2,
+   "x": "Using WPA3 Wi-Fi is recommended as a cyber-hygiene measure. Keeping one's digital footprint low is also advised, whereas indiscriminate QR-code scanning and accepting unknown contacts are unsafe.",
+   "ty": "fact",
+   "tq": "Select the precise technical safety measure from closely related online behaviours.",
+   "sec": "Online safety practices - passwords, friend requests, privacy settings, 2FA, verify before sharing"
+  },
+  {
+   "s": "Nomophobia refers to:",
+   "o": [
+    "Irrational fear of being without one's mobile phone",
+    "Fear of receiving unsolicited friend requests",
+    "Fear of using biometric authentication",
+    "Fear of sharing personal information online"
+   ],
+   "a": 0,
+   "x": "Nomophobia is the irrational fear of being without one's mobile phone, including situations involving no signal, low battery or insufficient balance.",
+   "ty": "confusable",
+   "tq": "Discriminate between a technical term and nearby digital-safety concepts.",
+   "sec": "Online safety practices - passwords, friend requests, privacy settings, 2FA, verify before sharing"
+  },
+  {
+   "s": "The Fact Check Unit of the Press Information Bureau was set up in:",
+   "o": [
+    "2017",
+    "2018",
+    "2019",
+    "2021"
+   ],
+   "a": 2,
+   "x": "The PIB Fact Check Unit was set up in November 2019 to debunk fake news concerning the Government of India, its ministries, public sector undertakings and central bodies.",
+   "ty": "numerical",
+   "tq": "Use the year-specific numerical recall method.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "The primary mandate of the PIB Fact Check Unit is to debunk fake news relating to:",
+   "o": [
+    "The Government of India, its ministries, PSUs and central bodies",
+    "Only State Government welfare schemes",
+    "Only private social-media companies",
+    "International sports organisations and broadcasters"
+   ],
+   "a": 0,
+   "x": "The PIB Fact Check Unit deals with fake news concerning the Government of India, its ministries, PSUs and central bodies.",
+   "ty": "fact",
+   "tq": "Identify the correct institutional jurisdiction rather than an adjacent one.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "Which of the following is the official WhatsApp contact number given for reporting information to the PIB Fact Check Unit?",
+   "o": [
+    "+91 8799711259",
+    "+91 7899711259",
+    "+91 8799711529",
+    "+91 8799712159"
+   ],
+   "a": 0,
+   "x": "The PIB Fact Check Unit can be contacted through WhatsApp at +91 8799711259. Its other reported channels include factcheck@pib.gov.in and factcheck.pib.gov.in.",
+   "ty": "numerical",
+   "tq": "Carefully distinguish a precise contact number from close numerical distractors.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "The PIB Fact Check Unit flagged more than 50 deepfakes or manipulated videos in:",
+   "o": [
+    "One year",
+    "Six months",
+    "One month",
+    "One week"
+   ],
+   "a": 2,
+   "x": "The PIB Fact Check Unit flagged more than 50 deepfakes or manipulated videos in one month; many were associated with Pakistani propaganda handles.",
+   "ty": "numerical",
+   "tq": "Match the reported quantity with its precise time period.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "Ahead of the 2019 Lok Sabha election, which platform launched a tip line to curb fake news?",
+   "o": [
+    "Telegram",
+    "WhatsApp",
+    "DigiLocker",
+    "SAHYOG"
+   ],
+   "a": 1,
+   "x": "WhatsApp launched a tip line to help curb fake news ahead of the 2019 Lok Sabha election.",
+   "ty": "fact",
+   "tq": "Recall the platform associated with the election-related fact-check initiative.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "Consider the following statements regarding the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021:\n1. They were notified under Section 87 of the Information Technology Act, 2000.\n2. They provide for a grievance officer and a nodal contact.\n3. Significant social media intermediaries are required to appoint a Resident Compliance Officer and submit monthly compliance reports.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The 2021 Rules were notified under Section 87 of the IT Act, 2000 and prescribe grievance, nodal and additional compliance obligations for significant social media intermediaries.",
+   "ty": "statements",
+   "tq": "Check each statement against the legal framework before selecting the complete combination.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "Under the April 2023 amendment to the IT Rules, an intermediary could lose safe-harbour protection when:",
+   "o": [
+    "A platform received fewer than 100 complaints in a month",
+    "A court refused to hear a cybercrime petition",
+    "The PIB Fact Check Unit flagged content as fake concerning the business of the Central Government",
+    "Any private user described content as unpopular"
+   ],
+   "a": 2,
+   "x": "The April 2023 amendment provided for loss of safe harbour where content concerning the business of the Central Government was flagged as fake by the PIB Fact Check Unit.",
+   "ty": "fact",
+   "tq": "Identify the authority and subject-matter combination attached to a legal consequence.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\nA. IT Rules, 2021 were notified\nB. The PIB Fact Check Unit was set up\nC. The FCU was formally notified under PIB\nD. The April 2023 amendment to the IT Rules was issued",
+   "o": [
+    "B, A, D, C",
+    "A, B, D, C",
+    "B, D, A, C",
+    "D, B, A, C"
+   ],
+   "a": 0,
+   "x": "The PIB Fact Check Unit was set up in November 2019, the IT Rules were notified in 2021, the amendment followed in April 2023, and the FCU was formally notified in March 2024.",
+   "ty": "chronology",
+   "tq": "Use the first and last dates, then place the intervening developments.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "The PIB Fact Check Unit was formally notified in:",
+   "o": [
+    "November 2019",
+    "September 2024",
+    "April 2023",
+    "March 2024"
+   ],
+   "a": 3,
+   "x": "The PIB Fact Check Unit was formally notified in March 2024. This was distinct from its earlier establishment in November 2019.",
+   "ty": "numerical",
+   "tq": "Distinguish the date of formal notification from the date of initial establishment.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "Which one of the following correctly describes the judicial developments concerning the PIB Fact Check Unit notification and amendment?",
+   "o": [
+    "The Supreme Court stayed the March 2024 notification, and the Bombay High Court struck down the 2023 amendment in September 2024.",
+    "The Bombay High Court stayed the March 2024 notification, and the Supreme Court struck down the 2023 amendment in September 2024.",
+    "The Supreme Court struck down the March 2024 notification before it was issued.",
+    "Both the notification and amendment were upheld by the Bombay High Court."
+   ],
+   "a": 0,
+   "x": "The Supreme Court stayed the FCU notification in March 2024, while the Bombay High Court struck down the 2023 FCU amendment in September 2024.",
+   "ty": "fact",
+   "tq": "Separate the court, the legal instrument and the date instead of swapping authorities.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "In the March 2026 Supreme Court hearing concerning the PIB Fact Check Unit, the Centre stated that the Rules do not curb:",
+   "o": [
+    "Only encrypted messaging",
+    "Humour, satire or criticism",
+    "Only commercial advertising",
+    "Parliamentary privilege"
+   ],
+   "a": 1,
+   "x": "The Centre argued before the Supreme Court that the Rules do not curb humour, satire or criticism.",
+   "ty": "fact",
+   "tq": "Identify the precise content categories mentioned in the legal argument.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "SAHYOG Portal is operated by which organisation and for what principal purpose?",
+   "o": [
+    "I4C under the Ministry of Home Affairs, for takedown notices",
+    "PIB under the Ministry of Education, for issuing school certificates",
+    "NSS under the Ministry of Statistics, for collecting literacy data",
+    "AIGDF under the Ministry of Electronics and IT, for gaming licences"
+   ],
+   "a": 0,
+   "x": "SAHYOG Portal is run by the Indian Cyber Crime Coordination Centre (I4C) under the Ministry of Home Affairs for takedown notices, alongside the Cyber Crime Reporting Portal.",
+   "ty": "fact",
+   "tq": "Use the who-does-what method to match the body with its function.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "Platforms are required to remove flagged unlawful content within how much time after a court order or reasoned government intimation, as stated for the SAHYOG mechanism?",
+   "o": [
+    "One hour",
+    "Twenty-four hours",
+    "Seventy-two hours",
+    "Three hours"
+   ],
+   "a": 3,
+   "x": "Platforms must remove flagged unlawful content within three hours of a court order or reasoned government intimation. The Ministry of Home Affairs sends about 290 takedown notices a day.",
+   "ty": "numerical",
+   "tq": "Recall the legally significant time limit from close numerical alternatives.",
+   "sec": "Fact-check mechanisms - PIB FCU, tip lines, IT Rules amendments, Sahyog portal, court challenges"
+  },
+  {
+   "s": "Digital India Vision Area 3, ‘Digital Empowerment of Citizens’, begins with:",
+   "o": [
+    "Compulsory social-media membership",
+    "National gaming literacy",
+    "Universal digital literacy",
+    "Universal biometric taxation"
+   ],
+   "a": 2,
+   "x": "Digital India Vision Area 3, Digital Empowerment of Citizens, begins with Universal Digital Literacy.",
+   "ty": "fact",
+   "tq": "Match the named vision area with its foundational component.",
+   "sec": "Digital literacy - levels, Computer Literacy Day, NSS data, school curriculum"
+  },
+  {
+   "s": "Which of the following correctly describes PMGDISHA?",
+   "o": [
+    "It provides advanced coding only to urban professionals and was launched at Bengaluru.",
+    "It is a cybercrime takedown portal operated by I4C.",
+    "It aims to provide one digitally literate person in every rural family and was launched by the Prime Minister at Gandhinagar.",
+    "It is a financial-literacy programme for adults aged 15 years and above under ULLAS."
+   ],
+   "a": 2,
+   "x": "PMGDISHA promotes digital literacy among rural people, with the aim of having one digitally literate person in every family; it was launched by the Prime Minister at Gandhinagar.",
+   "ty": "fact",
+   "tq": "Combine the scheme's target group, objective and launch location without confusing it with another programme.",
+   "sec": "Digital literacy - levels, Computer Literacy Day, NSS data, school curriculum"
+  },
+  {
+   "s": "Consider the following statements about ULLAS:\n1. It is a Centrally Sponsored Scheme for the period 2022–27.\n2. It is implemented by the Ministry of Education for adults aged 15 years and above.\n3. Its ‘Critical Life Skills’ component includes digital literacy and financial literacy.\n4. Himachal Pradesh became the fifth State or Union Territory to achieve full functional literacy.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. ULLAS covers adults aged 15 years and above during 2022–27 and includes digital and financial literacy under Critical Life Skills; Himachal Pradesh was the fifth State/UT to achieve full functional literacy.",
+   "ty": "statements",
+   "tq": "Verify the scheme period, ministry, age group, component and milestone separately.",
+   "sec": "Digital literacy - levels, Computer Literacy Day, NSS data, school curriculum"
+  },
+  {
+   "s": "The National Education Policy (NEP) 2020 treats which combination as important educational emphases and a counter-measure against fake news?",
+   "o": [
+    "Critical thinking and civic engagement",
+    "Memorisation and unrestricted forwarding",
+    "Anonymous posting and reduced classroom discussion",
+    "Only vocational licensing and biometric enrolment"
+   ],
+   "a": 0,
+   "x": "NEP 2020 stresses critical thinking and civic engagement. Critical-thinking education in curricula can help counter fake news.",
+   "ty": "fact",
+   "tq": "Select the constructive educational pair rather than digital behaviours that amplify misinformation.",
+   "sec": "Digital literacy - levels, Computer Literacy Day, NSS data, school curriculum"
+  },
+  {
+   "s": "Which statement best reflects the gender gap in India's internet use?",
+   "o": [
+    "Women constitute nearly all of India's internet users",
+    "Women constitute about one-third of India's internet users",
+    "Women constitute less than one-tenth of India's internet users",
+    "Men and women have exactly equal shares of internet users"
+   ],
+   "a": 1,
+   "x": "Only about one-third of India's internet users are women, indicating a significant gender gap in internet access and use.",
+   "ty": "numerical",
+   "tq": "Identify the approximate share without reversing the gender comparison.",
+   "sec": "Digital literacy - levels, Computer Literacy Day, NSS data, school curriculum"
+  },
+  {
+   "s": "Doxxing is best described as:",
+   "o": [
+    "Using websites to express one's own grievances",
+    "Repeatedly contacting a person online against their will",
+    "Sending a verified government notification to a platform",
+    "Publicly sharing a person's private information online without consent to harm or shame them"
+   ],
+   "a": 3,
+   "x": "Doxxing involves publicly sharing private information such as a real name, location or workplace online without consent, generally to harm or shame the person.",
+   "ty": "confusable",
+   "tq": "Distinguish disclosure of private information from monitoring, venting and trolling.",
+   "sec": "Online behaviour terms - cyber venting, trolling, cyberbullying, doxxing, cyberstalking, remedies"
+  },
+  {
+   "s": "Which statement regarding doxxing is correct?",
+   "o": [
+    "It has no universal legal definition and may be prosecuted under stalking, harassment or cyber-crime laws",
+    "It has a universal, self-contained legal definition in all jurisdictions",
+    "It is prosecuted only under a separate offence named doxxing",
+    "It is legally identical to cyber venting in every case"
+   ],
+   "a": 0,
+   "x": "Doxxing has no universal legal definition. Depending on the conduct, prosecution may rely on stalking, harassment or cyber-crime laws.",
+   "ty": "fact",
+   "tq": "Watch for the absolute legal-definition trap and choose the qualified statement.",
+   "sec": "Online behaviour terms - cyber venting, trolling, cyberbullying, doxxing, cyberstalking, remedies"
+  },
+  {
+   "s": "Cyberstalking refers to:",
+   "o": [
+    "Posting deliberately provocative material to derail a discussion",
+    "Teaching adults to use digital payment systems",
+    "Repeatedly monitoring or contacting a person online against that person's will",
+    "Sharing one's own grievances through websites"
+   ],
+   "a": 2,
+   "x": "Cyberstalking is the repeated monitoring or contacting of a person online against the person's will.",
+   "ty": "confusable",
+   "tq": "Separate persistent unwanted monitoring from trolling and cyberbullying.",
+   "sec": "Online behaviour terms - cyber venting, trolling, cyberbullying, doxxing, cyberstalking, remedies"
+  },
+  {
+   "s": "Which of the following pairs of legal provisions and remedies is correctly matched?",
+   "o": [
+    "IT Act Section 66E—privacy violation; IT Act Section 67—obscene material; BNS Section 78—stalking including monitoring electronic communication",
+    "IT Act Section 66E—financial literacy; IT Act Section 67—digital empowerment; BNS Section 78—takedown notices only",
+    "IT Act Section 66E—election tip line; IT Act Section 67—Wi-Fi security; BNS Section 78—doxxing definition",
+    "IT Act Section 66E—civic engagement; IT Act Section 67—universal literacy; BNS Section 78—password recovery"
+   ],
+   "a": 0,
+   "x": "Section 66E of the IT Act concerns privacy violation, Section 67 concerns obscene material, and Section 78 of the Bharatiya Nyaya Sanhita covers stalking, including monitoring electronic communication.",
+   "ty": "match",
+   "tq": "Match each legal provision with its exact offence instead of a neighbouring digital-safety concept.",
+   "sec": "Online behaviour terms - cyber venting, trolling, cyberbullying, doxxing, cyberstalking, remedies"
+  },
+  {
+   "s": "A victim of an online financial or cyber offence may report it through which combination?",
+   "o": [
+    "PMGDISHA and helpline 181 only",
+    "factcheck.pib.gov.in and helpline 1098 only",
+    "cybercrime.gov.in and helpline 1930",
+    "SAHYOG Portal and helpline 112 only"
+   ],
+   "a": 2,
+   "x": "Cyber offences can be reported at cybercrime.gov.in or through the helpline 1930.",
+   "ty": "fact",
+   "tq": "Identify the dedicated reporting channel and number rather than a related government portal.",
+   "sec": "Online behaviour terms - cyber venting, trolling, cyberbullying, doxxing, cyberstalking, remedies"
+  },
+  {
+   "s": "The Digital Detox initiative of the Karnataka Government was undertaken with which organisation and focused on which area?",
+   "o": [
+    "PIB FCU; government-related fake news",
+    "AIGDF; gaming and social-media use",
+    "NSS; internet-user gender data",
+    "I4C; takedown notices and court orders"
+   ],
+   "a": 1,
+   "x": "The Karnataka Government's Digital Detox initiative was undertaken with the All India Game Developers Forum and addressed gaming and social-media use.",
+   "ty": "fact",
+   "tq": "Match the initiative with its partner organisation and subject area.",
+   "sec": "Online behaviour terms - cyber venting, trolling, cyberbullying, doxxing, cyberstalking, remedies"
+  }
+ ]
+}

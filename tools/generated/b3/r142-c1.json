@@ -1,0 +1,511 @@
+{
+ "book": 3,
+ "row": 142,
+ "chunk": 1,
+ "section": "Expressways and industrial corridors promised under the Act; Vizag-Chennai Industrial Corridor",
+ "subsections": [
+  "Expressways in AP - routes (Bengaluru-Chennai, Raipur-Visakhapatnam, Anantapur-Amaravati, Chittoor-Thatchur)",
+  "Thirteenth Schedule rapid rail and road connectivity - Hyderabad to Amaravati",
+  "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority",
+  "Status and funding - loan tranches, land acquisition, node development"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 39,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The Bengaluru–Chennai Expressway, in Andhra Pradesh, enters or passes through which district?",
+   "o": [
+    "Anantapur",
+    "Nellore",
+    "Kurnool",
+    "Chittoor"
+   ],
+   "a": 3,
+   "x": "The Bengaluru–Chennai Expressway crosses Chittoor district in Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Use the route-and-location association to distinguish nearby districts.",
+   "sec": "Expressways in AP - routes (Bengaluru-Chennai, Raipur-Visakhapatnam, Anantapur-Amaravati, Chittoor-Thatchur)"
+  },
+  {
+   "s": "Consider the following statements regarding the Bengaluru–Chennai Expressway:\n1. It is a greenfield expressway.\n2. It is being developed under Bharatmala Pariyojana Phase-I.\n3. It starts at Hoskote in Karnataka.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The expressway is a greenfield project under Bharatmala Pariyojana Phase-I and starts at Hoskote in Karnataka.",
+   "ty": "statements",
+   "tq": "Combine project type, scheme and starting point before selecting the inclusive option.",
+   "sec": "Expressways in AP - routes (Bengaluru-Chennai, Raipur-Visakhapatnam, Anantapur-Amaravati, Chittoor-Thatchur)"
+  },
+  {
+   "s": "The Bengaluru–Chennai Expressway passes through the Koundinya Wildlife Sanctuary elephant corridor. The animal underpasses cleared for this corridor have a total length of:",
+   "o": [
+    "1,400 metres",
+    "3,475 metres",
+    "2,300 metres",
+    "5,000 metres"
+   ],
+   "a": 1,
+   "x": "The Supreme Court’s National Board for Wildlife clearance covers 3,475 metres of animal underpasses, including a continuous stretch of 1,400 metres.",
+   "ty": "numerical",
+   "tq": "Separate the total length from the continuous sub-stretch.",
+   "sec": "Expressways in AP - routes (Bengaluru-Chennai, Raipur-Visakhapatnam, Anantapur-Amaravati, Chittoor-Thatchur)"
+  },
+  {
+   "s": "Which one of the following correctly describes the status of the Bengaluru–Chennai Expressway mentioned for 2024–26?",
+   "o": [
+    "The Karnataka stretch was open, while the Andhra Pradesh and Tamil Nadu stretches remained under construction.",
+    "All three State stretches were opened in December 2024.",
+    "The Tamil Nadu stretch was open, while the Karnataka and Andhra Pradesh stretches remained under construction.",
+    "Only the Andhra Pradesh stretch was opened in December 2024."
+   ],
+   "a": 0,
+   "x": "The Karnataka stretch was reported open since December 2024, whereas the Andhra Pradesh and Tamil Nadu stretches were still under construction.",
+   "ty": "comparison",
+   "tq": "Compare the status of each State stretch instead of treating the project as uniformly operational.",
+   "sec": "Expressways in AP - routes (Bengaluru-Chennai, Raipur-Visakhapatnam, Anantapur-Amaravati, Chittoor-Thatchur)"
+  },
+  {
+   "s": "The Bengaluru–Chennai Expressway is regarded as a priority link of which industrial corridor?",
+   "o": [
+    "Chennai–Bengaluru Industrial Corridor",
+    "Delhi–Mumbai Industrial Corridor",
+    "Amritsar–Kolkata Industrial Corridor",
+    "Visakhapatnam–Chennai Industrial Corridor"
+   ],
+   "a": 0,
+   "x": "The Bengaluru–Chennai Expressway is a priority link of the Chennai–Bengaluru Industrial Corridor.",
+   "ty": "fact",
+   "tq": "Match the transport link with its associated industrial corridor.",
+   "sec": "Expressways in AP - routes (Bengaluru-Chennai, Raipur-Visakhapatnam, Anantapur-Amaravati, Chittoor-Thatchur)"
+  },
+  {
+   "s": "The proposed Raipur–Visakhapatnam greenfield expressway is to pass through which combination of States?",
+   "o": [
+    "Karnataka, Telangana and Andhra Pradesh",
+    "Chhattisgarh, Odisha and Andhra Pradesh",
+    "Telangana, Odisha and Andhra Pradesh",
+    "Chhattisgarh, Maharashtra and Andhra Pradesh"
+   ],
+   "a": 1,
+   "x": "The Raipur–Visakhapatnam Expressway is described as a greenfield route through Chhattisgarh, Odisha and Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Use the endpoint-to-State route sequence to eliminate neighbouring-State combinations.",
+   "sec": "Expressways in AP - routes (Bengaluru-Chennai, Raipur-Visakhapatnam, Anantapur-Amaravati, Chittoor-Thatchur)"
+  },
+  {
+   "s": "Which of the following is NOT listed among the expressway proposals or fast-tracked routes associated with Andhra Pradesh?",
+   "o": [
+    "Mumbai–Nagpur–Vijayawada",
+    "Kharagpur–Amaravati",
+    "Nagpur–Machilipatnam via Vijayawada",
+    "Raipur–Amaravati"
+   ],
+   "a": 0,
+   "x": "Kharagpur–Amaravati, Nagpur–Machilipatnam via Vijayawada and Raipur–Amaravati are listed proposals. Mumbai–Nagpur–Vijayawada is not listed.",
+   "ty": "negative",
+   "tq": "Find the route that does not belong to the stated proposal list.",
+   "sec": "Expressways in AP - routes (Bengaluru-Chennai, Raipur-Visakhapatnam, Anantapur-Amaravati, Chittoor-Thatchur)"
+  },
+  {
+   "s": "The Bengaluru–Kadapa–Vijayawada Economic Corridor is expected to be completed by:",
+   "o": [
+    "2026",
+    "2027",
+    "2028",
+    "2029"
+   ],
+   "a": 1,
+   "x": "The Bengaluru–Kadapa–Vijayawada Economic Corridor is expected to be completed by 2027.",
+   "ty": "numerical",
+   "tq": "Identify the specific completion year rather than the separate year associated with NH works.",
+   "sec": "Expressways in AP - routes (Bengaluru-Chennai, Raipur-Visakhapatnam, Anantapur-Amaravati, Chittoor-Thatchur)"
+  },
+  {
+   "s": "National Highway works worth approximately what amount were stated to be undertaken in Andhra Pradesh by 2029?",
+   "o": [
+    "₹1.40 lakh crore",
+    "₹1.20 lakh crore",
+    "₹1.60 lakh crore",
+    "₹1.04 lakh crore"
+   ],
+   "a": 0,
+   "x": "National Highway works valued at ₹1.40 lakh crore were stated to be undertaken by 2029.",
+   "ty": "numerical",
+   "tq": "Read the amount and target year together as a numerical pair.",
+   "sec": "Expressways in AP - routes (Bengaluru-Chennai, Raipur-Visakhapatnam, Anantapur-Amaravati, Chittoor-Thatchur)"
+  },
+  {
+   "s": "Which pair was listed as greenfield expressways being fast-tracked by the Governor?",
+   "o": [
+    "Anantapur–Amaravati and Bengaluru–Chennai",
+    "Raipur–Visakhapatnam and Chittoor–Thatchur",
+    "Nagpur–Vijayawada and Kharagpur–Visakhapatnam–Amaravati",
+    "Kharagpur–Amaravati and Raipur–Amaravati"
+   ],
+   "a": 2,
+   "x": "The Governor listed Nagpur–Vijayawada and Kharagpur–Visakhapatnam–Amaravati as greenfield expressways being fast-tracked.",
+   "ty": "fact",
+   "tq": "Match the exact paired proposals rather than selecting routes merely mentioned elsewhere.",
+   "sec": "Expressways in AP - routes (Bengaluru-Chennai, Raipur-Visakhapatnam, Anantapur-Amaravati, Chittoor-Thatchur)"
+  },
+  {
+   "s": "Under the Thirteenth Schedule of the A.P. Reorganisation Act, the Government of India is required to take steps for rapid rail and road connectivity from the new capital of Andhra Pradesh to:",
+   "o": [
+    "Delhi and other important cities of northern India",
+    "Visakhapatnam and all coastal cities only",
+    "Bengaluru and all cities of Karnataka only",
+    "Hyderabad and other important cities of Telangana"
+   ],
+   "a": 3,
+   "x": "The Act provides for rapid rail and road connectivity from the new Andhra Pradesh capital to Hyderabad and other important cities of Telangana.",
+   "ty": "fact",
+   "tq": "Focus on the statutory destination and the additional regional connectivity specified.",
+   "sec": "Thirteenth Schedule rapid rail and road connectivity - Hyderabad to Amaravati"
+  },
+  {
+   "s": "Which one of the following is NOT included among the seven high-speed rail corridors identified as “growth connectors” in the Union Budget 2026–27?",
+   "o": [
+    "Pune–Hyderabad",
+    "Hyderabad–Chennai",
+    "Amaravati–Visakhapatnam",
+    "Delhi–Varanasi"
+   ],
+   "a": 2,
+   "x": "The seven corridors include Pune–Hyderabad, Hyderabad–Chennai and Delhi–Varanasi; Amaravati–Visakhapatnam is not included in that list.",
+   "ty": "negative",
+   "tq": "Check every listed corridor against the complete seven-corridor set.",
+   "sec": "Thirteenth Schedule rapid rail and road connectivity - Hyderabad to Amaravati"
+  },
+  {
+   "s": "The total estimated cost of the seven high-speed rail corridors announced as “growth connectors” in the Union Budget 2026–27 is:",
+   "o": [
+    "₹7 lakh crore",
+    "₹12 lakh crore",
+    "₹16 lakh crore",
+    "₹20 lakh crore"
+   ],
+   "a": 2,
+   "x": "The total estimated cost of the seven high-speed rail corridors is ₹16 lakh crore.",
+   "ty": "numerical",
+   "tq": "Use the aggregate figure rather than confusing it with the number of corridors.",
+   "sec": "Thirteenth Schedule rapid rail and road connectivity - Hyderabad to Amaravati"
+  },
+  {
+   "s": "The proposed Hyderabad–Chennai high-speed rail service is expected to cover the journey in approximately:",
+   "o": [
+    "3 hours 25 minutes",
+    "4 hours 10 minutes",
+    "2 hours 55 minutes",
+    "2 hours 15 minutes"
+   ],
+   "a": 2,
+   "x": "The Hyderabad–Chennai high-speed rail corridor is specified with a travel time of 2 hours 55 minutes.",
+   "ty": "numerical",
+   "tq": "Distinguish the precise travel time from nearby rounded alternatives.",
+   "sec": "Thirteenth Schedule rapid rail and road connectivity - Hyderabad to Amaravati"
+  },
+  {
+   "s": "Consider the following statements regarding the proposed Amaravati–Hyderabad bullet train:\n1. The journey is proposed to take 70 minutes.\n2. Amaravati is proposed as a stop through the 57-kilometre Errupalem–Namburu line.\n3. A DPR for the Hyderabad–Chennai high-speed rail corridor is to be prepared.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The proposed Amaravati–Hyderabad bullet train journey is 70 minutes, Amaravati is linked through the 57-kilometre Errupalem–Namburu line, and a DPR for Hyderabad–Chennai HSR is to be prepared.",
+   "ty": "statements",
+   "tq": "Test the travel time, intermediate line and DPR details as a combined factual set.",
+   "sec": "Thirteenth Schedule rapid rail and road connectivity - Hyderabad to Amaravati"
+  },
+  {
+   "s": "NICDC is the abbreviation for:",
+   "o": [
+    "National Industrial Corridor Development Corporation",
+    "National Industrial Construction and Development Commission",
+    "National Investment Corridor Development Corporation",
+    "National Infrastructure and Connectivity Development Council"
+   ],
+   "a": 0,
+   "x": "NICDC stands for National Industrial Corridor Development Corporation.",
+   "ty": "fact",
+   "tq": "Discriminate between closely similar institutional expansions.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "Which one of the following correctly describes NICDC?",
+   "o": [
+    "It is the State nodal agency for industrial-park land in Andhra Pradesh.",
+    "It funds only road projects and has no role in industrial parks.",
+    "It was established under the A.P. Industrial Corridor Development Authority Act, 2017.",
+    "It was incorporated in January 2008 and was formerly known as DMICDC."
+   ],
+   "a": 3,
+   "x": "NICDC was incorporated in January 2008, was formerly known as DMICDC, and functions under the Ministry of Commerce and Industry through DPIIT.",
+   "ty": "fact",
+   "tq": "Use the incorporation date and former name to identify the correct institution.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "NICDC functions under which Ministry and Department?",
+   "o": [
+    "Ministry of Heavy Industries and Department of Public Enterprises",
+    "Ministry of Finance and Department of Economic Affairs",
+    "Ministry of Commerce and Industry and DPIIT",
+    "Ministry of Road Transport and Highways and NHAI"
+   ],
+   "a": 2,
+   "x": "NICDC functions under the Ministry of Commerce and Industry, with DPIIT as the concerned department.",
+   "ty": "fact",
+   "tq": "Apply the ‘who administers this body?’ institutional-authority test.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "Which institution is responsible for funding node trunk infrastructure at Kopparthy, Krishnapatnam and Orvakal?",
+   "o": [
+    "NICDIT",
+    "NICDC",
+    "GVMC",
+    "APIIC"
+   ],
+   "a": 0,
+   "x": "NICDIT funds node trunk infrastructure at the Kopparthy, Krishnapatnam and Orvakal nodes.",
+   "ty": "fact",
+   "tq": "Match the institution with its specific funding function and nodes.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "The AP Industrial Corridor Development Authority was constituted under which legislation?",
+   "o": [
+    "A.P. Industrial Corridor Development Authority Act, 2017",
+    "A.P. Reorganisation Act, 2014 only",
+    "National Industrial Corridor Act, 2017",
+    "Andhra Pradesh Industrial Parks Act, 2020"
+   ],
+   "a": 0,
+   "x": "The AP Industrial Corridor Development Authority was constituted under the A.P. Industrial Corridor Development Authority Act, 2017.",
+   "ty": "fact",
+   "tq": "Use the exact statute-name and year distinction.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "Industrial parks under the AP Industrial Corridor Development Authority are notified under which section of the 2017 Act?",
+   "o": [
+    "Section 3",
+    "Section 1",
+    "Section 9",
+    "Section 5"
+   ],
+   "a": 0,
+   "x": "Industrial parks are notified under Section 3 of the A.P. Industrial Corridor Development Authority Act, 2017.",
+   "ty": "fact",
+   "tq": "Test the exact statutory provision rather than the authority’s general function.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "NICDC — Municipal agency for GVMC infrastructure",
+    "APIIC — State nodal agency for industrial parks and corridor land",
+    "NICDIT — State agency for all industrial-park land acquisition",
+    "AP-ICDA — Implementing agency for every national industrial corridor"
+   ],
+   "a": 1,
+   "x": "APIIC is the State nodal agency for industrial parks and corridor land. The other institutions have different national, statutory or project-specific roles.",
+   "ty": "negative",
+   "tq": "Find the correct institution-function pairing among similar corridor bodies.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "The approval of 12 additional industrial corridor projects by the Centre in August 2024 took the total number of projects to:",
+   "o": [
+    "11",
+    "12",
+    "20",
+    "23"
+   ],
+   "a": 2,
+   "x": "The 12 projects approved in August 2024 increased the total number of projects to 20.",
+   "ty": "numerical",
+   "tq": "Distinguish the added number from the resulting total.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "In the implementation structure of the Visakhapatnam–Chennai Industrial Corridor, which body functions as the executing agency?",
+   "o": [
+    "Andhra Pradesh State Road Transport Corporation",
+    "Department of Industries and Commerce",
+    "National Highways Authority of India",
+    "Department of Economic Affairs"
+   ],
+   "a": 1,
+   "x": "The Department of Industries and Commerce is the executing agency for the Visakhapatnam–Chennai Industrial Corridor machinery.",
+   "ty": "fact",
+   "tq": "Identify the executing authority rather than the project-management or field units.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "Which of the following correctly lists the four Project Implementation Units of the Visakhapatnam–Chennai Industrial Corridor?",
+   "o": [
+    "APIIC, APSRTC, APGENCO and GVMC",
+    "APIIC, NICDC, AP-ICDA and GVMC",
+    "APRDC, NHAI, AP Transco and CRDA",
+    "APIIC, APRDC, AP Transco and GVMC"
+   ],
+   "a": 3,
+   "x": "The four PIUs are APIIC, APRDC, AP Transco and GVMC.",
+   "ty": "fact",
+   "tq": "Recall the complete institutional composition and reject swapped agencies.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "Which statement about the BHAVYA scheme is correct?",
+   "o": [
+    "It provides 100 plug-and-play parks during 2026–27 to 2031–32 with an outlay of ₹33,660 crore.",
+    "It is limited to railway sidings and water supply in Kopparthy.",
+    "It is implemented exclusively by APIIC without State special purpose vehicles.",
+    "It provides 20 industrial corridors during 2024–25 to 2026–27 with an outlay of ₹3,000 crore."
+   ],
+   "a": 0,
+   "x": "BHAVYA covers 2026–27 to 2031–32, provides 100 plug-and-play parks and has an outlay of ₹33,660 crore.",
+   "ty": "fact",
+   "tq": "Combine scheme period, physical target and financial outlay.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "The six new parks proposed in Andhra Pradesh under BHAVYA are to be developed through:",
+   "o": [
+    "ADB–GoAP loan agreements only",
+    "NICDIT–State special purpose vehicles",
+    "AP Transco–APRDC consortia",
+    "GVMC–NHAI joint ventures"
+   ],
+   "a": 1,
+   "x": "BHAVYA parks are to be developed through NICDIT–State SPVs, with six new parks proposed in Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Identify the implementation partnership rather than the financing institution alone.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "Which of the following correctly describes the Kopparthy industrial smart city project?",
+   "o": [
+    "It costs ₹3,000 crore and targets about ₹33,660 crore of investment.",
+    "It costs ₹1,264 crore and targets about ₹8,860 crore of investment.",
+    "It costs ₹8,860 crore and targets about ₹1,264 crore of investment.",
+    "It costs ₹202 crore and targets about ₹2,300 crore of investment."
+   ],
+   "a": 1,
+   "x": "Kopparthy costs ₹1,264 crore and targets approximately ₹8,860 crore of investment.",
+   "ty": "comparison",
+   "tq": "Keep project cost and targeted investment separate to avoid reversing the figures.",
+   "sec": "Industrial corridor institutions - NICDIT, NICDC, AP industrial corridor authority"
+  },
+  {
+   "s": "Under the ADB funding structure for the industrial corridor, the Policy-Based Loan consisted of:",
+   "o": [
+    "ADB $500 million and GoAP $215 million",
+    "ADB $625 million and GoAP $215 million",
+    "ADB nil and GoAP $125 million",
+    "ADB $125 million and GoAP nil"
+   ],
+   "a": 3,
+   "x": "The Policy-Based Loan provided $125 million from ADB, with no GoAP contribution shown for that component.",
+   "ty": "numerical",
+   "tq": "Separate the policy loan from the infrastructure project loan.",
+   "sec": "Status and funding - loan tranches, land acquisition, node development"
+  },
+  {
+   "s": "The Project Loan for infrastructure under the ADB funding arrangement was divided between ADB and GoAP in which proportion?",
+   "o": [
+    "50:50",
+    "60:40",
+    "70:30",
+    "80:20"
+   ],
+   "a": 2,
+   "x": "The infrastructure Project Loan followed a 70:30 contribution structure between ADB and GoAP.",
+   "ty": "numerical",
+   "tq": "Identify the stated contribution ratio before considering the total amount.",
+   "sec": "Status and funding - loan tranches, land acquisition, node development"
+  },
+  {
+   "s": "Which one of the following correctly represents the total ADB funding arrangement?",
+   "o": [
+    "ADB $715 million, GoAP $125 million and total $840 million",
+    "ADB $500 million, GoAP $215 million and total $625 million",
+    "ADB $625 million, GoAP $215 million and total $840 million",
+    "ADB $840 million, GoAP $625 million and total $215 million"
+   ],
+   "a": 2,
+   "x": "The total arrangement comprises $625 million from ADB and $215 million from GoAP, making $840 million.",
+   "ty": "numerical",
+   "tq": "Add the component contributions and verify the total.",
+   "sec": "Status and funding - loan tranches, land acquisition, node development"
+  },
+  {
+   "s": "Tranche-I and the Policy-Based Loan agreements for the industrial corridor were signed on:",
+   "o": [
+    "1 February 2026",
+    "23 February 2017",
+    "23 August 2017",
+    "29 March 2024"
+   ],
+   "a": 1,
+   "x": "The Tranche-I and Policy-Based Loan agreements were signed on 23 February 2017 by the DEA, ADB and GoAP.",
+   "ty": "fact",
+   "tq": "Use the exact agreement date and distinguish it from later progress reports.",
+   "sec": "Status and funding - loan tranches, land acquisition, node development"
+  },
+  {
+   "s": "The approximate value of Tranche-I works, which were described as being at an advanced stage, is:",
+   "o": [
+    "₹1,264 crore",
+    "₹2,300 crore",
+    "₹3,000 crore",
+    "₹8,860 crore"
+   ],
+   "a": 1,
+   "x": "Tranche-I works were valued at approximately ₹2,300 crore and were described as being at an advanced stage.",
+   "ty": "numerical",
+   "tq": "Match the progress description with the corresponding project value.",
+   "sec": "Status and funding - loan tranches, land acquisition, node development"
+  },
+  {
+   "s": "Under PM Gati Shakti–SASCI, Kopparthy received ₹202 crore for:",
+   "o": [
+    "A 70-kilometre expressway and a freight terminal",
+    "Land acquisition and plug-and-play factory construction",
+    "A 100 MLD water supply and an airport link",
+    "A 46 MLD water supply and a railway siding"
+   ],
+   "a": 3,
+   "x": "Kopparthy received ₹202 crore under PM Gati Shakti–SASCI for a 46 MLD water supply system and a railway siding.",
+   "ty": "application",
+   "tq": "Match the allocation with its specific infrastructure purposes and capacity figure.",
+   "sec": "Status and funding - loan tranches, land acquisition, node development"
+  },
+  {
+   "s": "Which of the following statements best reflects the reported implementation status of the industrial corridor?",
+   "o": [
+    "Development was described as rapid, with no further funding demand from industry.",
+    "Development was cancelled because ADB withdrew its entire loan.",
+    "Development was described as slow, and industry sought a special fund for VCIC and HBIC plug-and-play infrastructure.",
+    "Development was completed, and industry sought funds only for new expressways."
+   ],
+   "a": 2,
+   "x": "Implementation was described as slow, while CII sought a special fund for VCIC and HBIC plug-and-play infrastructure before the 2026–27 Budget.",
+   "ty": "fact",
+   "tq": "Combine the progress assessment with the industry’s funding demand.",
+   "sec": "Status and funding - loan tranches, land acquisition, node development"
+  }
+ ]
+}

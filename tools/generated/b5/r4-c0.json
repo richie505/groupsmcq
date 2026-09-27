@@ -1,0 +1,624 @@
+{
+ "book": 5,
+ "row": 4,
+ "chunk": 0,
+ "section": "S&T institutions - CSIR and its laboratories, DST, DBT, DSIR, SERB",
+ "subsections": [
+  "CSIR laboratories → location, founding year, field",
+  "DBT - autonomous institutes → location, and BIRAC",
+  "CSIR technologies in news → developing lab",
+  "CSIR - setup year, ex-officio president, structure, number of labs",
+  "Other national research institutes → location, founder/year"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 43,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The National Environmental Engineering Research Institute (NEERI) was established in which year?",
+   "o": [
+    "1948",
+    "1951",
+    "1958",
+    "1961"
+   ],
+   "a": 2,
+   "x": "NEERI was established in 1958. It is located in Nagpur and is associated with environmental engineering.",
+   "ty": "numerical",
+   "tq": "Use the year options to distinguish closely spaced institutional dates.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "NEERI-ZAR, developed by the National Environmental Engineering Research Institute, is primarily associated with which of the following?",
+   "o": [
+    "Electrochemical battery development",
+    "Methanol conversion into DME",
+    "Oceanographic surveying",
+    "Gravity-based water purification"
+   ],
+   "a": 3,
+   "x": "NEERI-ZAR is a gravity water purifier that operates without electricity. It was developed by NEERI, Nagpur.",
+   "ty": "fact",
+   "tq": "Link the technology with the specialised field of its developing laboratory.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "The Central Institute of Cellular and Molecular Biology (CCMB) was founded in:",
+   "o": [
+    "1959",
+    "1966",
+    "1977",
+    "1984"
+   ],
+   "a": 2,
+   "x": "CCMB was founded in 1977. Its work concerns cellular and molecular biology.",
+   "ty": "numerical",
+   "tq": "Distinguish institutional years by matching the date with the laboratory’s field.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "Which one of the following is associated with the zoo bio-bank mentioned in connection with CCMB?",
+   "o": [
+    "Geophysics and earthquakes",
+    "National measurement standards",
+    "Cellular and molecular biology",
+    "Food technology"
+   ],
+   "a": 2,
+   "x": "The zoo bio-bank is associated with CCMB, whose principal field is cellular and molecular biology.",
+   "ty": "fact",
+   "tq": "Identify the laboratory from its distinctive specialised activity.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "Saheli, the weekly oral contraceptive pill based on centchroman, was developed by:",
+   "o": [
+    "CIMAP, Lucknow",
+    "NCL, Pune",
+    "CDRI, Lucknow",
+    "CSIO, Chandigarh"
+   ],
+   "a": 2,
+   "x": "Saheli, a centchroman-based weekly oral contraceptive, was developed by the Central Drug Research Institute (CDRI), Lucknow.",
+   "ty": "confusable",
+   "tq": "Discriminate between laboratories in the same city by their signature technology.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "The Central Drug Research Institute (CDRI) was established in:",
+   "o": [
+    "1948",
+    "1951",
+    "1954",
+    "1959"
+   ],
+   "a": 1,
+   "x": "CDRI was established in 1951 and is known for drug research and the development of Saheli.",
+   "ty": "numerical",
+   "tq": "Use nearby year options to test precise institutional chronology.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "Consider the following statements about CSIR laboratories:\n1. CSMCRI is located at Bhavnagar in Gujarat.\n2. CSMCRI is associated with salt, marine chemicals and desalination.\n3. CSMCRI was established in 1959.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "CSMCRI is located at Bhavnagar and works on salt, marine chemicals and desalination. It was established in 1954, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Find the wrong date while retaining the correct location and field statements.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "The Central Electrochemical Research Institute (CECRI) is located at:",
+   "o": [
+    "Durgapur, West Bengal",
+    "Mysuru, Karnataka",
+    "Bhavnagar, Gujarat",
+    "Karaikudi, Tamil Nadu"
+   ],
+   "a": 3,
+   "x": "CECRI is located at Karaikudi in Tamil Nadu. Its field includes electrochemistry and batteries.",
+   "ty": "fact",
+   "tq": "Match the institute with its distinctive location and nearby research field.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "CIMAP — 1959 — Medicinal and aromatic plants",
+    "CECRI — 1950 — Food technology",
+    "NCL — 1947 — National measurement standards",
+    "NGRI — 1966 — Oceanography"
+   ],
+   "a": 0,
+   "x": "CIMAP was established in 1959 and is associated with medicinal and aromatic plants. The other pairs combine the wrong years or fields with the institutes.",
+   "ty": "negative",
+   "tq": "Check the institute-year-field combination rather than recognising only one component.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "The National Chemical Laboratory (NCL), Pune, is associated with which technology?",
+   "o": [
+    "HANSA-3 aircraft development",
+    "Methanol-to-DME conversion",
+    "FAIR accelerator beam catching",
+    "Steel slag road construction"
+   ],
+   "a": 1,
+   "x": "NCL, Pune, is associated with methanol-to-DME technology, in which DME can serve as an LPG substitute.",
+   "ty": "fact",
+   "tq": "Identify a laboratory through its specialised technology rather than its location alone.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "The Indian Institute of Chemical Technology (IICT) is located in:",
+   "o": [
+    "Chandigarh",
+    "Nagpur",
+    "Pune",
+    "Hyderabad"
+   ],
+   "a": 3,
+   "x": "IICT is located in Hyderabad. Its areas include chemical technology, drug discovery, catalysis and green chemistry.",
+   "ty": "fact",
+   "tq": "Use location-based recall while distinguishing neighbouring CSIR laboratories.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "CFTRI — Mysuru — Food technology",
+    "NIO — Goa — Oceanography",
+    "NPL — New Delhi — Microbial technology",
+    "NGRI — Hyderabad — Geophysics"
+   ],
+   "a": 2,
+   "x": "NPL, New Delhi, is associated with national measurement standards and Indian Standard Time. Microbial technology is associated with IMTECH, Chandigarh.",
+   "ty": "negative",
+   "tq": "Find the swapped field in an institute-location-specialisation pair.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "The National Geophysical Research Institute (NGRI) was established in:",
+   "o": [
+    "1958",
+    "1961",
+    "1966",
+    "1977"
+   ],
+   "a": 1,
+   "x": "NGRI was established in 1961. It works in geophysics, earthquakes and groundwater studies.",
+   "ty": "numerical",
+   "tq": "Separate close institutional years using the associated research discipline.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "Which CSIR laboratory maintains national measurement standards and keeps Indian Standard Time?",
+   "o": [
+    "NCL",
+    "NIO",
+    "NPL",
+    "NGRI"
+   ],
+   "a": 2,
+   "x": "The National Physical Laboratory (NPL), New Delhi, maintains national measurement standards and keeps Indian Standard Time.",
+   "ty": "fact",
+   "tq": "Identify the institution from a unique statutory or national function.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "IMTECH is particularly associated with which of the following?",
+   "o": [
+    "MTCC gene bank and microbial technology",
+    "Salt production and desalination",
+    "Medicinal and aromatic plants",
+    "National measurement standards"
+   ],
+   "a": 0,
+   "x": "IMTECH, Chandigarh, works in microbial technology and hosts the MTCC gene bank, an IDA under the Budapest Treaty.",
+   "ty": "fact",
+   "tq": "Use a distinctive repository or technical facility as the identifying clue.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "Which one of the following CSIR laboratories was established earliest?",
+   "o": [
+    "CECRI",
+    "IICT",
+    "NPL",
+    "NCL"
+   ],
+   "a": 1,
+   "x": "IICT was established in 1944, earlier than NPL in 1947, CECRI in 1948 and NCL in 1950.",
+   "ty": "chronology",
+   "tq": "Arrange institutional years from the earliest date instead of relying on present prominence.",
+   "sec": "CSIR laboratories → location, founding year, field"
+  },
+  {
+   "s": "The National Biotechnology Board was upgraded to a Department in 1986. It had been established in 1982 with the participation of which group of organisations?",
+   "o": [
+    "DAE, DoS, DRDO and ICAR",
+    "DST, UGC, ICMR and CSIR",
+    "WHO, UNESCO, UGC and CSIR",
+    "MoES, ICAR, ICMR and NITI Aayog"
+   ],
+   "a": 1,
+   "x": "The National Biotechnology Board was established in 1982 with DST, UGC, ICMR and CSIR, and was upgraded to the Department of Biotechnology in 1986.",
+   "ty": "fact",
+   "tq": "Recall the founding participants and distinguish them from adjacent science bodies.",
+   "sec": "DBT - autonomous institutes → location, and BIRAC"
+  },
+  {
+   "s": "Consider the following statements about BRIC:\n1. BRIC was established in 2023.\n2. It integrates 14 DBT institutions.\n3. It is chaired by the Union Minister for Science and Technology.\n4. The DBT Secretary serves as its ex officio Director-General.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. BRIC was established in 2023 as an apex body integrating 14 DBT institutions, with the Union S&T Minister as Chair and the DBT Secretary as ex officio Director-General.",
+   "ty": "statements",
+   "tq": "Test a compact institutional profile through several independently verifiable statements.",
+   "sec": "DBT - autonomous institutes → location, and BIRAC"
+  },
+  {
+   "s": "The National Institute of Immunology (NII) and the National Institute of Plant Genome Research (NIPGR) are both located in:",
+   "o": [
+    "New Delhi",
+    "Faridabad",
+    "Hyderabad",
+    "Pune"
+   ],
+   "a": 0,
+   "x": "Both NII and NIPGR are located in New Delhi.",
+   "ty": "comparison",
+   "tq": "Compare two institutions that share a location while differing in their research specialisation.",
+   "sec": "DBT - autonomous institutes → location, and BIRAC"
+  },
+  {
+   "s": "NCCS, which hosts the Microbial Culture Collection, is located at:",
+   "o": [
+    "Pune",
+    "Thiruvananthapuram",
+    "New Delhi",
+    "Mohali"
+   ],
+   "a": 0,
+   "x": "The National Centre for Cell Science (NCCS) is located in Pune and hosts the Microbial Culture Collection.",
+   "ty": "fact",
+   "tq": "Associate a repository with the correct institute and location.",
+   "sec": "DBT - autonomous institutes → location, and BIRAC"
+  },
+  {
+   "s": "The Regional Centre for Biotechnology (RCB) is located at:",
+   "o": [
+    "Mohali",
+    "Faridabad",
+    "Hyderabad",
+    "Pune"
+   ],
+   "a": 1,
+   "x": "RCB is located at Faridabad. It is distinct from CIAB at Mohali and NCCS at Pune.",
+   "ty": "fact",
+   "tq": "Distinguish similarly classified biotechnology institutions by location.",
+   "sec": "DBT - autonomous institutes → location, and BIRAC"
+  },
+  {
+   "s": "Which of the following is correctly matched?",
+   "o": [
+    "NCCS — Faridabad",
+    "CIAB — Mohali",
+    "RCB — Pune",
+    "NIPGR — Hyderabad"
+   ],
+   "a": 1,
+   "x": "The Centre of Innovative and Applied Bioprocessing (CIAB) is located at Mohali. NCCS is at Pune, RCB at Faridabad and NIPGR at New Delhi.",
+   "ty": "negative",
+   "tq": "Start with the sure institute-location pair and eliminate the swapped locations.",
+   "sec": "DBT - autonomous institutes → location, and BIRAC"
+  },
+  {
+   "s": "BIRAC is best described as:",
+   "o": [
+    "A constitutional body regulating biotechnology education",
+    "A statutory authority for national measurement standards",
+    "A not-for-profit Section 8 company of DBT that funds biotechnology start-ups",
+    "A CSIR laboratory working on drug discovery"
+   ],
+   "a": 2,
+   "x": "BIRAC, or Biotechnology Industry Research Assistance Council, is a not-for-profit Section 8 company of DBT established in 2012 to fund biotechnology start-ups.",
+   "ty": "fact",
+   "tq": "Discriminate between an institution’s legal form, parent department and function.",
+   "sec": "DBT - autonomous institutes → location, and BIRAC"
+  },
+  {
+   "s": "The Grand Challenge Award of BIRAC was given to CSIR-IGIB for which technology?",
+   "o": [
+    "NEERI-ZAR purifier",
+    "HANSA-3 aircraft",
+    "Saheli pill",
+    "FELUDA test"
+   ],
+   "a": 3,
+   "x": "BIRAC’s Grand Challenge Award went to CSIR-IGIB’s FELUDA test.",
+   "ty": "fact",
+   "tq": "Link an award with the specific technology and developing institution.",
+   "sec": "DBT - autonomous institutes → location, and BIRAC"
+  },
+  {
+   "s": "The NEERI-ZAR gravity water purifier has which of the following features?\n1. It does not require electricity.\n2. It was supplied to Assam during floods.\n3. Its stated capacity is 2,500 litres per hour.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "NEERI-ZAR works without electricity, 100 units were supplied during the Assam floods, and its stated capacity is 2,500 litres per hour.",
+   "ty": "statements",
+   "tq": "Combine operational features, deployment details and a numerical specification.",
+   "sec": "CSIR technologies in news → developing lab"
+  },
+  {
+   "s": "Methanol-to-DME technology, described as an LPG substitute, was scaled up by which laboratory?",
+   "o": [
+    "NCL, Pune",
+    "NEERI, Nagpur",
+    "CMERI, Durgapur",
+    "CRRI, New Delhi"
+   ],
+   "a": 0,
+   "x": "NCL, Pune, developed and scaled up methanol-to-DME technology, with DME serving as an LPG substitute.",
+   "ty": "fact",
+   "tq": "Match the fuel technology with the correct CSIR laboratory.",
+   "sec": "CSIR technologies in news → developing lab"
+  },
+  {
+   "s": "The world’s first steel slag road was developed by:",
+   "o": [
+    "NAL, Bengaluru",
+    "CRRI, New Delhi",
+    "IGIB, New Delhi",
+    "CSIO, Chandigarh"
+   ],
+   "a": 1,
+   "x": "The world’s first steel slag road is associated with CSIR-CRRI, New Delhi.",
+   "ty": "fact",
+   "tq": "Identify the institution from a distinctive infrastructure innovation.",
+   "sec": "CSIR technologies in news → developing lab"
+  },
+  {
+   "s": "HANSA-3 (NG), for which Letters of Intent were reported from 114 entities, is a:",
+   "o": [
+    "Beam catcher developed by CMERI",
+    "Trainer aircraft developed by NAL",
+    "Water purifier developed by NEERI",
+    "COVID test developed by IGIB"
+   ],
+   "a": 1,
+   "x": "HANSA-3 (NG) is a trainer aircraft developed by NAL, and Letters of Intent were reported for 114 aircraft.",
+   "ty": "numerical",
+   "tq": "Use the product category and the associated numerical figure together.",
+   "sec": "CSIR technologies in news → developing lab"
+  },
+  {
+   "s": "The zoo bio-bank at Darjeeling, involving cryo-storage at −196°C, is associated with:",
+   "o": [
+    "CIMAP",
+    "NGRI",
+    "CCMB",
+    "CFTRI"
+   ],
+   "a": 2,
+   "x": "The Darjeeling zoo bio-bank is associated with CCMB and uses cryo-storage at −196°C.",
+   "ty": "numerical",
+   "tq": "Recognise the institution from a distinctive facility and its technical temperature.",
+   "sec": "CSIR technologies in news → developing lab"
+  },
+  {
+   "s": "Which one of the following was NOT among the technologies transferred by CSIO, Chandigarh?",
+   "o": [
+    "Su-30 HUD optics",
+    "FELUDA COVID test",
+    "Power-quality analyser",
+    "MSCOPE motor stethoscope"
+   ],
+   "a": 1,
+   "x": "CSIO transferred the MSCOPE motor stethoscope, power-quality analyser and Su-30 HUD optics. FELUDA was developed by CSIR-IGIB.",
+   "ty": "negative",
+   "tq": "Find the technology belonging to a different laboratory rather than the common institution.",
+   "sec": "CSIR technologies in news → developing lab"
+  },
+  {
+   "s": "A beam catcher for the FAIR accelerator in Germany was developed by:",
+   "o": [
+    "NPL, New Delhi",
+    "CRRI, New Delhi",
+    "CSIO, Chandigarh",
+    "CMERI, Durgapur"
+   ],
+   "a": 3,
+   "x": "CMERI, Durgapur, developed the beam catcher for the FAIR accelerator in Germany.",
+   "ty": "fact",
+   "tq": "Match an advanced engineering component with its developing laboratory.",
+   "sec": "CSIR technologies in news → developing lab"
+  },
+  {
+   "s": "CSIR’s Smart Village at Kusunpur in Kendrapara district is associated with which innovation?",
+   "o": [
+    "Satellite-based tsunami warning",
+    "Steel slag road construction",
+    "AI-based crocodile-alert system",
+    "Microbial culture preservation"
+   ],
+   "a": 2,
+   "x": "The Smart Village at Kusunpur, Kendrapara, Odisha, uses an AI crocodile-alert system.",
+   "ty": "application",
+   "tq": "Connect a place-based rural initiative with its practical technology application.",
+   "sec": "CSIR technologies in news → developing lab"
+  },
+  {
+   "s": "CSIR was set up in September 1942 as:",
+   "o": [
+    "A constitutional commission",
+    "An autonomous body registered as a society",
+    "A private Section 8 company",
+    "A statutory corporation under the Ministry of Education"
+   ],
+   "a": 1,
+   "x": "CSIR was set up in September 1942 as an autonomous body and is registered as a society.",
+   "ty": "fact",
+   "tq": "Distinguish the organisation’s origin and legal character from similar institutional forms.",
+   "sec": "CSIR - setup year, ex-officio president, structure, number of labs"
+  },
+  {
+   "s": "Consider the following statements regarding the leadership of CSIR:\n1. The Prime Minister is its ex officio President.\n2. The Union Science and Technology Minister is its Vice-President.\n3. The Director-General of CSIR is also Secretary, DSIR.\n4. The Director-General of CSIR heads the Governing Body.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the leadership structure of CSIR. The Prime Minister is ex officio President, while the Union S&T Minister is Vice-President.",
+   "ty": "statements",
+   "tq": "Test constitutional-style offices and ex officio positions through a complete institutional profile.",
+   "sec": "CSIR - setup year, ex-officio president, structure, number of labs"
+  },
+  {
+   "s": "The CSIR network comprises which of the following?",
+   "o": [
+    "39 national laboratories, 37 outreach centres, 1 innovation complex and 3 units",
+    "37 national laboratories, 39 outreach centres, 3 innovation complexes and 1 unit",
+    "37 national laboratories, 39 outreach centres, 1 innovation complex and 3 units",
+    "39 national laboratories, 37 outreach centres, 3 innovation complexes and 1 unit"
+   ],
+   "a": 2,
+   "x": "The CSIR network consists of 37 national laboratories, 39 outreach centres, 1 innovation complex and 3 units.",
+   "ty": "numerical",
+   "tq": "Separate closely similar counts by reading the institutional structure as a complete set.",
+   "sec": "CSIR - setup year, ex-officio president, structure, number of labs"
+  },
+  {
+   "s": "The CSIR network has more than how many scientists?",
+   "o": [
+    "1,300",
+    "2,300",
+    "3,300",
+    "4,300"
+   ],
+   "a": 2,
+   "x": "The CSIR network has more than 3,300 scientists.",
+   "ty": "numerical",
+   "tq": "Identify the correct magnitude from closely spaced numerical options.",
+   "sec": "CSIR - setup year, ex-officio president, structure, number of labs"
+  },
+  {
+   "s": "In 2026, which group of organisations was allowed to bypass GeM for scientific equipment?",
+   "o": [
+    "DAE, DoS, WHO, UNESCO and ICAR",
+    "CSIR, DRDO, UGC, DST and MoES",
+    "ICMR, DBT, NITI Aayog, UGC and CSIR",
+    "CSIR, DAE, DoS, ICMR and ICAR"
+   ],
+   "a": 3,
+   "x": "In 2026, CSIR, DAE, DoS, ICMR and ICAR were allowed to bypass GeM for scientific equipment.",
+   "ty": "fact",
+   "tq": "Recall the exact composition of an institutional group instead of selecting a broadly related body.",
+   "sec": "CSIR - setup year, ex-officio president, structure, number of labs"
+  },
+  {
+   "s": "The Indian Institute of Science (IISc) was founded in 1909 with the vision of:",
+   "o": [
+    "Vikram Sarabhai",
+    "Jamsetji Tata",
+    "J.C. Bose",
+    "Homi J. Bhabha"
+   ],
+   "a": 1,
+   "x": "IISc, Bengaluru, was founded in 1909 with the vision of Jamsetji Tata.",
+   "ty": "fact",
+   "tq": "Link a major institution with its founder or founding vision and year.",
+   "sec": "Other national research institutes → location, founder/year"
+  },
+  {
+   "s": "Which statement about NCESS is correct?",
+   "o": [
+    "It was established in 1978 in Kerala and has been under MoES since 2014.",
+    "It was established in 1999 in Hyderabad and functions under MoES.",
+    "It was established in 1917 in Kolkata by J.C. Bose.",
+    "It was established in 1909 in Bengaluru with the vision of Jamsetji Tata."
+   ],
+   "a": 0,
+   "x": "The National Centre for Earth Science Studies (NCESS) was established in Kerala in 1978 and has been under the Ministry of Earth Sciences since 2014.",
+   "ty": "fact",
+   "tq": "Distinguish institutions by combining location, year and administrative affiliation.",
+   "sec": "Other national research institutes → location, founder/year"
+  },
+  {
+   "s": "INCOIS, located in Hyderabad, is particularly associated with:",
+   "o": [
+    "Food technology",
+    "Medicinal plant research",
+    "Steel slag roads",
+    "Tsunami early warning"
+   ],
+   "a": 3,
+   "x": "INCOIS was established in 1999 under MoES and is associated with tsunami early warning.",
+   "ty": "application",
+   "tq": "Identify an institution from its public-service application.",
+   "sec": "Other national research institutes → location, founder/year"
+  },
+  {
+   "s": "The Bose Institute was established in 1917 by:",
+   "o": [
+    "M.S. Swaminathan",
+    "J.C. Bose",
+    "Jamsetji Tata",
+    "S. Chandrasekhar"
+   ],
+   "a": 1,
+   "x": "The Bose Institute, Kolkata, was established in 1917 by J.C. Bose. It is an autonomous institute under DST.",
+   "ty": "fact",
+   "tq": "Use founder-year pairing to distinguish similarly prestigious research institutions.",
+   "sec": "Other national research institutes → location, founder/year"
+  },
+  {
+   "s": "Which of the following statements about the Bose Institute is correct?\n1. It is located in Kolkata.\n2. It is an autonomous institute under DST.\n3. It is India’s nodal body for FAIR.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The Bose Institute is located in Kolkata, functions as a DST autonomous institute and is India’s nodal body for FAIR.",
+   "ty": "statements",
+   "tq": "Combine location, administrative status and international scientific responsibility in one set.",
+   "sec": "Other national research institutes → location, founder/year"
+  },
+  {
+   "s": "Which of the following institutions are identified as nano research hubs?\n1. IISc\n2. JNCASR\n3. TIFR\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "IISc, JNCASR and TIFR are all identified as nano research hubs.",
+   "ty": "statements",
+   "tq": "Test whether the complete list, rather than only part of it, is included.",
+   "sec": "Other national research institutes → location, founder/year"
+  }
+ ]
+}

@@ -1,0 +1,677 @@
+{
+ "book": 3,
+ "row": 79,
+ "chunk": 1,
+ "section": "Structure of the Indian financial system - banks, NBFCs, development finance institutions, cooperatives",
+ "subsections": [
+  "NBFC categories, regulators, restrictions",
+  "Cooperative credit structure, UCBs, AP data"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 49,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following combinations correctly describes the principal business test for registration as an NBFC?",
+   "o": [
+    "Financial assets exceed 50% of total assets and financial income exceeds 50% of gross income",
+    "Financial assets exceed 50% of total assets and financial income exceeds 25% of gross income",
+    "Financial assets and financial income must each exceed 75%",
+    "Financial assets exceed 25% of total assets and financial income exceeds 50% of gross income"
+   ],
+   "a": 0,
+   "x": "An NBFC satisfies the 50-50 test when financial assets constitute more than 50% of total assets and financial income constitutes more than 50% of gross income.",
+   "ty": "fact",
+   "tq": "Apply the exact numerical threshold rather than confusing the two parts of the 50-50 test.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "NBFCs in India are registered under which of the following laws?",
+   "o": [
+    "Banking Regulation Act, 1949 alone",
+    "Reserve Bank of India Act, 1934",
+    "Companies Act",
+    "State Cooperative Societies Act"
+   ],
+   "a": 2,
+   "x": "An NBFC is registered under the Companies Act, although it is regulated by the Reserve Bank for the activities covered by the applicable regulatory framework.",
+   "ty": "fact",
+   "tq": "Distinguish the statute of incorporation from the regulator exercising financial supervision.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Foreign direct investment in NBFCs is permitted under which route, as specified in the framework?",
+   "o": [
+    "Government route only",
+    "Automatic route up to 49 per cent",
+    "Automatic route up to 74 per cent",
+    "Automatic route for 100 per cent FDI"
+   ],
+   "a": 3,
+   "x": "The framework permits 100 per cent foreign direct investment in NBFCs through the automatic route.",
+   "ty": "numerical",
+   "tq": "Use the exact percentage and distinguish it from commonly used partial FDI limits.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which one of the following facilities is NOT available to NBFCs?",
+   "o": [
+    "Operation subject to RBI regulation",
+    "Investment in permitted financial assets",
+    "Financing activities permitted by their regulatory category",
+    "Acceptance of demand deposits"
+   ],
+   "a": 3,
+   "x": "NBFCs cannot accept demand deposits. Their permitted financing and investment activities remain subject to their regulatory category and RBI requirements.",
+   "ty": "negative",
+   "tq": "Find the prohibited banking function rather than the general activities NBFCs may undertake.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Consider the following statements regarding NBFCs:\n1. An NBFC cannot issue cheques drawn on itself.\n2. Deposits with NBFCs carry deposit-insurance cover.\n3. An NBFC cannot join the payment and settlement system.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 3 are correct. Deposits with NBFCs do not carry deposit-insurance cover, so statement 2 is false.",
+   "ty": "statements",
+   "tq": "Split the options by checking each restriction separately, especially the deposit-insurance trap.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "With reference to liquidity support from the Reserve Bank of India, which statement is correct regarding NBFCs?",
+   "o": [
+    "They automatically receive LAF support when deposits decline.",
+    "They have access only to the marginal standing facility.",
+    "They have unrestricted access to the RBI’s Liquidity Adjustment Facility.",
+    "They have no access to the RBI’s Liquidity Adjustment Facility."
+   ],
+   "a": 3,
+   "x": "NBFCs do not have access to the Reserve Bank’s Liquidity Adjustment Facility window.",
+   "ty": "fact",
+   "tq": "Distinguish NBFC status from the liquidity facilities ordinarily associated with banks.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Under the Scale-Based Regulation framework, which is the correct order of the four NBFC layers from lower to higher regulatory intensity?",
+   "o": [
+    "Base, Upper, Middle, Top",
+    "Middle, Base, Upper, Top",
+    "Base, Middle, Upper, Top",
+    "Top, Upper, Middle, Base"
+   ],
+   "a": 2,
+   "x": "The four layers are Base Layer, Middle Layer, Upper Layer and Top Layer, with regulation increasing across the framework.",
+   "ty": "chronology",
+   "tq": "Arrange the regulatory layers in their stated progression from base to top.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which category is generally placed in the Base Layer under Scale-Based Regulation?",
+   "o": [
+    "Small non-deposit-taking NBFCs",
+    "Only government-owned NBFCs",
+    "All identified systemically important NBFCs",
+    "All deposit-taking NBFCs and HFCs"
+   ],
+   "a": 0,
+   "x": "The Base Layer applies to small non-deposit-taking NBFCs. Deposit-taking NBFCs and specified entities such as HFCs fall in the Middle Layer.",
+   "ty": "fact",
+   "tq": "Match the layer with its defining entity instead of relying on the word ‘base’ alone.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which of the following entities are included in the Middle Layer under Scale-Based Regulation?\n1. All deposit-taking NBFCs\n2. Housing Finance Companies\n3. Infrastructure Finance Companies\n4. Core Investment Companies\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The Middle Layer includes all deposit-taking NBFCs, HFCs, IFCs and CICs. Therefore, all four statements are correct.",
+   "ty": "statements",
+   "tq": "Use the complete composition of a regulatory layer to identify the ‘all four’ combination.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "The Top Layer under Scale-Based Regulation is intended to be used when:",
+   "o": [
+    "there is a sharp rise in systemic risk",
+    "the RBI stops supervising HFCs",
+    "an NBFC fails the 50-50 test",
+    "all NBFCs begin accepting deposits"
+   ],
+   "a": 0,
+   "x": "The Top Layer is kept empty in normal circumstances and is intended for a sharp rise in systemic risk.",
+   "ty": "application",
+   "tq": "Apply the exceptional-use condition to identify when the otherwise empty layer becomes relevant.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which one of the following statements regarding the Upper Layer is correct?",
+   "o": [
+    "It is reserved exclusively for cooperative banks.",
+    "It is identified by the RBI, follows bank-like norms for at least five years and requires listing within three years.",
+    "It consists only of small non-deposit NBFCs and has no listing requirement.",
+    "It is automatically assigned to every NBFC with foreign investment."
+   ],
+   "a": 1,
+   "x": "The RBI identifies entities in the Upper Layer. They are subject to bank-like norms for at least five years and must list within three years.",
+   "ty": "fact",
+   "tq": "Combine the authority, duration and listing requirements without swapping the regulatory layer.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "For 2026–27, how many NBFCs were named by the RBI in the Upper Layer?",
+   "o": [
+    "15",
+    "16",
+    "17",
+    "20"
+   ],
+   "a": 2,
+   "x": "The RBI named 17 NBFCs in the NBFC-UL list for 2026–27.",
+   "ty": "numerical",
+   "tq": "Recall the exact current count and reject nearby earlier or rounded figures.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which one of the following companies was specifically included in the NBFC-UL list for 2026–27?",
+   "o": [
+    "Tata Sons",
+    "NHB",
+    "NABARD",
+    "SEBI"
+   ],
+   "a": 0,
+   "x": "Tata Sons was included among the 17 companies named in the NBFC-UL list for 2026–27.",
+   "ty": "fact",
+   "tq": "Identify the company from the list while separating it from regulators and development institutions.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "What was the RBI’s position regarding Tata Sons’ request to surrender its NBFC licence?",
+   "o": [
+    "The request was transferred to SEBI for final approval.",
+    "The licence was converted into a cooperative banking licence.",
+    "The request was rejected and Tata Sons was asked to prepare to list.",
+    "The request was accepted and the company was removed from regulation."
+   ],
+   "a": 2,
+   "x": "The RBI rejected Tata Sons’ bid to surrender its NBFC licence and asked it to prepare for listing.",
+   "ty": "fact",
+   "tq": "Use the authority-action pairing to avoid confusing rejection with approval.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which regulatory change has been proposed in relation to NBFC-UL identification?",
+   "o": [
+    "Removing all asset-based criteria",
+    "Applying only a ₹10 crore net-worth threshold",
+    "Replacing the parametric scoring model with a single ₹1 lakh crore asset threshold",
+    "Replacing RBI identification with State Government identification"
+   ],
+   "a": 2,
+   "x": "A proposal seeks to replace the parametric scoring model with a simple ₹1 lakh crore asset-size test for identifying Upper Layer NBFCs.",
+   "ty": "numerical",
+   "tq": "Match the proposed reform with its exact threshold and the model it would replace.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which one of the following is NOT an NBFC category listed in the regulatory classification?",
+   "o": [
+    "Core Investment Company",
+    "Regional Rural Banking Company",
+    "Infrastructure Finance Company",
+    "Housing Finance Company"
+   ],
+   "a": 1,
+   "x": "AFC, Loan Company, Investment Company, IFC, NBFC-MFI, CIC, HFC and IDF are listed NBFC categories. ‘Regional Rural Banking Company’ is not one of them.",
+   "ty": "negative",
+   "tq": "Find the invented-looking category that does not belong to the recognised list.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with respect to minimum net owned fund?\n1. NBFC-MFI — ₹10 crore\n2. NBFC-ICC — ₹10 crore\n3. HFC — ₹20 crore\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The minimum net owned funds are ₹10 crore for NBFC-MFI, ₹10 crore for general NBFC-ICC and ₹20 crore for HFCs.",
+   "ty": "statements",
+   "tq": "Compare category-specific thresholds and select the complete set of correctly matched figures.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "The minimum net owned fund for a general NBFC-ICC was raised from ₹2 crore to:",
+   "o": [
+    "₹5 crore",
+    "₹10 crore",
+    "₹15 crore",
+    "₹20 crore"
+   ],
+   "a": 1,
+   "x": "Under Scale-Based Regulation, the minimum net owned fund for a general NBFC-ICC was raised from ₹2 crore to ₹10 crore, with a glide path up to March 2027.",
+   "ty": "numerical",
+   "tq": "Track the changed threshold rather than selecting the old figure mentioned in the question.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which one of the following regulator–entity pairs is correctly matched?",
+   "o": [
+    "Merchant bankers — IRDAI",
+    "Insurance companies — SEBI",
+    "Chit fund companies — State Government",
+    "NBFCs — State Government exclusively"
+   ],
+   "a": 2,
+   "x": "Chit fund companies are regulated by the State Government. Merchant bankers are regulated by SEBI, insurance companies by IRDAI and NBFCs by RBI.",
+   "ty": "match",
+   "tq": "Start with the sure regulator–entity pair and eliminate swapped authorities.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which regulator is responsible for merchant bankers, venture capital entities and stock brokers?",
+   "o": [
+    "SEBI",
+    "RBI",
+    "NHB",
+    "IRDAI"
+   ],
+   "a": 0,
+   "x": "SEBI regulates merchant bankers, venture capital entities and stock brokers.",
+   "ty": "fact",
+   "tq": "Identify the securities-market regulator rather than the banking or insurance regulator.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Consider the following statements:\n1. Regulation of housing finance companies was moved from NHB to RBI in 2019.\n2. NHB continues to supervise and refinance housing finance companies.\n3. About 90 HFCs were registered as of June 2025.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: regulatory control moved to RBI in 2019, while NHB retained supervisory and refinancing functions; 90 HFCs were registered as of June 2025.",
+   "ty": "statements",
+   "tq": "Separate regulatory control from continuing supervisory and refinancing functions.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "According to the Equifax–SIDBI data cited for Q3 FY26, banks’ microfinance institution portfolio fell year-on-year to approximately:",
+   "o": [
+    "₹45,687 crore",
+    "₹55,687 crore",
+    "₹65,687 crore",
+    "₹75,687 crore"
+   ],
+   "a": 2,
+   "x": "Banks’ MFI portfolio fell 40 per cent year-on-year to ₹65,687 crore in Q3 FY26.",
+   "ty": "numerical",
+   "tq": "Recall the exact crore figure together with its reporting period.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which statement correctly describes the microfinance stress reported for Q3 FY26?",
+   "o": [
+    "Banks’ MFI portfolio fell 22 per cent, while the industry portfolio fell 40 per cent.",
+    "Banks’ MFI portfolio rose 40 per cent and the industry portfolio rose 22 per cent.",
+    "Banks’ MFI portfolio fell 40 per cent, while the industry portfolio fell 22 per cent.",
+    "Both portfolios remained unchanged year-on-year."
+   ],
+   "a": 2,
+   "x": "Banks’ MFI portfolio declined 40 per cent year-on-year, while the industry portfolio declined 22 per cent.",
+   "ty": "comparison",
+   "tq": "Keep the two percentage changes attached to the correct portfolio instead of reversing them.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "The NBFC Ombudsman Scheme, 2018 was subsequently merged into:",
+   "o": [
+    "The Banking Ombudsman Scheme, 2006",
+    "The SEBI Investor Protection Scheme, 2022",
+    "The National Financial Consumer Scheme, 2020",
+    "The RBI Integrated Ombudsman Scheme, 2021"
+   ],
+   "a": 3,
+   "x": "The NBFC Ombudsman Scheme, 2018 was merged into the RBI Integrated Ombudsman Scheme, 2021.",
+   "ty": "fact",
+   "tq": "Arrange the institutional schemes by identifying the later integrated framework.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which entities are additionally covered by the RBI Integrated Ombudsman Scheme as indicated in the framework?\n1. State cooperative banks\n2. Central cooperative banks\n3. Stock exchanges\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "The RBI Integrated Ombudsman Scheme also covers state cooperative banks and central cooperative banks. Stock exchanges are not included in this stated extension.",
+   "ty": "statements",
+   "tq": "Identify the two cooperative banking entities and reject the securities-market distractor.",
+   "sec": "NBFC categories, regulators, restrictions"
+  },
+  {
+   "s": "Which one of the following correctly represents the three-tier short-term rural cooperative credit structure?",
+   "o": [
+    "PACS → DCCB → StCB",
+    "DCCB → PACS → StCB",
+    "StCB → PACS → DCCB",
+    "PACS → StCB → DCCB"
+   ],
+   "a": 0,
+   "x": "The short-term rural cooperative structure runs from Primary Agricultural Credit Societies at the village level to DCCBs at the district level and StCBs at the state level.",
+   "ty": "chronology",
+   "tq": "Arrange the institutions from village to district to state.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Which one of the following correctly represents the long-term rural cooperative credit structure from state level to village level?",
+   "o": [
+    "PACS → DCCB",
+    "PCARDB → SCARDB",
+    "StCB → DCCB",
+    "SCARDB → PCARDB"
+   ],
+   "a": 3,
+   "x": "The long-term structure consists of the State Cooperative Agriculture and Rural Development Bank at the state level and the Primary Cooperative Agriculture and Rural Development Bank below it.",
+   "ty": "fact",
+   "tq": "Distinguish the long-term land-development structure from the short-term three-tier structure.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer.\nList-I (Tier)\n a. State, short-term\n b. District, short-term\n c. Village, short-term\n d. Village, long-term\nList-II (Institution)\n i. Primary Cooperative Agriculture and Rural Development Bank\n ii. State Cooperative Bank\n iii. District Central Cooperative Bank\n iv. Primary Agricultural Credit Society",
+   "o": [
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iii, b–ii, c–iv, d–i",
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–iii, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "The correct matching is State–StCB, District–DCCB, Village short-term–PACS and Village long-term–PCARDB.",
+   "ty": "match",
+   "tq": "Start from the state and district institutional pairs, then place the two village-level entities.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Which statement correctly describes the regulatory position of StCBs, DCCBs and PACS?",
+   "o": [
+    "NABARD licenses all three and RBI only audits them.",
+    "StCBs and DCCBs are licensed by RBI and inspected by NABARD, whereas PACS are under State Registrars.",
+    "PACS are licensed by RBI and StCBs are controlled by State Registrars.",
+    "All three are licensed and inspected exclusively by RBI."
+   ],
+   "a": 1,
+   "x": "StCBs and DCCBs are licensed by RBI and inspected by NABARD. PACS fall under the jurisdiction of State Registrars.",
+   "ty": "comparison",
+   "tq": "Separate licensing, inspection and state-registration functions among the three institutions.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "With reference to cooperative societies in India, consider the following statements:\n1. They are registered under State Cooperative Societies Acts.\n2. They are also subject to the Banking Regulation Act, 1949 where applicable.\n3. Their operating principles include ‘one member, one vote’ and ‘no-profit-no-loss’.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Cooperative institutions are registered under state cooperative laws, may be governed by the Banking Regulation Act, and follow the stated cooperative principles.",
+   "ty": "statements",
+   "tq": "Combine the legal basis with the two defining cooperative principles.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Urban Cooperative Banks traditionally operated under which form of dual control?",
+   "o": [
+    "NABARD and IRDAI",
+    "RBI and SEBI",
+    "State Registrar of Cooperative Societies and RBI",
+    "Finance Commission and State Legislature"
+   ],
+   "a": 2,
+   "x": "UCBs traditionally faced dual control by the State Registrar of Cooperative Societies and the RBI.",
+   "ty": "fact",
+   "tq": "Identify the two authorities sharing cooperative and banking oversight.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "The Banking Regulation (Amendment) Act, 2020 strengthened RBI supervision over UCBs and multi-state cooperative banks in relation to which areas?\n1. Management\n2. Capital\n3. Audit\n4. Resolution\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Following the PMC Bank crisis, the 2020 amendment brought management, capital, audit and resolution of UCBs and multi-state cooperative banks under stronger RBI supervision.",
+   "ty": "statements",
+   "tq": "Use the complete set of strengthened supervisory areas to identify the correct code.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "The Banking Regulation (Amendment) Act, 2020 relating to UCBs was enacted after which event mentioned in the framework?",
+   "o": [
+    "The PMC Bank crisis",
+    "The IL&FS resolution",
+    "The global financial crisis of 2008",
+    "The introduction of GST"
+   ],
+   "a": 0,
+   "x": "The amendment strengthening RBI supervision over UCBs followed the PMC Bank crisis.",
+   "ty": "fact",
+   "tq": "Link the legislative response with the specific banking event rather than a general financial crisis.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "As reported in August 2026, the number of Urban Cooperative Banks in India was:",
+   "o": [
+    "1,257",
+    "1,357",
+    "1,457",
+    "1,557"
+   ],
+   "a": 2,
+   "x": "The reported number of UCBs was 1,457.",
+   "ty": "numerical",
+   "tq": "Recall the exact institutional count and distinguish it from nearby figures.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "What change in the licensing policy for Urban Cooperative Banks was indicated by the RBI?",
+   "o": [
+    "Licensing restricted to multi-state cooperative banks only",
+    "Resumption of licensing on tap after a pause of more than two decades",
+    "Licensing transferred entirely to State Registrars",
+    "Permanent prohibition on new UCB licences"
+   ],
+   "a": 1,
+   "x": "The RBI indicated that it would resume licensing UCBs on tap after a pause of more than two decades.",
+   "ty": "fact",
+   "tq": "Use the policy-action and time-duration combination to identify the correct statement.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Which institution was set up as an umbrella body for Urban Cooperative Banks?",
+   "o": [
+    "NUCFDC",
+    "SCARDB",
+    "NHB",
+    "APCOB"
+   ],
+   "a": 0,
+   "x": "NUCFDC was set up as an umbrella body for Urban Cooperative Banks.",
+   "ty": "fact",
+   "tq": "Match the institutional acronym with its sector rather than with rural cooperative banking.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "The RBI gave in-principle approval to NABARD’s Sahakar Sarathi as a shared-services entity for:",
+   "o": [
+    "Merchant banking companies",
+    "Urban cooperative banks only",
+    "Rural cooperative banks",
+    "Insurance companies"
+   ],
+   "a": 2,
+   "x": "Sahakar Sarathi was proposed as a shared-services entity for rural cooperative banks.",
+   "ty": "fact",
+   "tq": "Distinguish the rural cooperative purpose of the entity from the separate UCB umbrella body.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Which one of the following correctly states the principal cooperative credit structure in Andhra Pradesh?",
+   "o": [
+    "APCOB — 18 branches; 13 DCCBs — 436 branches; 2,024 PACS",
+    "APCOB — 18 branches; 436 DCCBs — 13 branches; 2,024 PACS",
+    "APCOB — 13 branches; 18 DCCBs — 436 branches; 2,024 PACS",
+    "APCOB — 20 branches; 13 DCCBs — 402 branches; 2,024 PACS"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh has the apex APCOB with 18 branches, 13 DCCBs with 436 branches and 2,024 PACS.",
+   "ty": "numerical",
+   "tq": "Keep each numerical figure attached to the correct institutional level.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "In Andhra Pradesh, the combined production credit through PACS and DCCBs in 2024–25 was ₹5,933.92 crore, while long-term credit was:",
+   "o": [
+    "₹1,145.51 crore",
+    "₹1,245.51 crore",
+    "₹1,345.51 crore",
+    "₹1,445.51 crore"
+   ],
+   "a": 2,
+   "x": "Production credit was ₹5,933.92 crore and long-term credit was ₹1,345.51 crore in 2024–25.",
+   "ty": "numerical",
+   "tq": "Recall the paired production and long-term credit figures without shifting the decimal value.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Under the Centrally Sponsored Scheme mentioned for Andhra Pradesh, how many PACS were covered for computerisation?",
+   "o": [
+    "1,937",
+    "2,024",
+    "2,037",
+    "2,137"
+   ],
+   "a": 2,
+   "x": "Computerisation was undertaken for 2,037 PACS under the Centrally Sponsored Scheme.",
+   "ty": "numerical",
+   "tq": "Distinguish the computerised PACS count from the total number of PACS in the state.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Which pair of Andhra Pradesh laws is correctly matched with its year?",
+   "o": [
+    "AP Cooperative Societies Act — 1964; AP MACS Act — 1995",
+    "AP Cooperative Societies Act — 1956; AP MACS Act — 1985",
+    "AP Cooperative Societies Act — 1972; AP MACS Act — 2005",
+    "AP Cooperative Societies Act — 1964; AP MACS Act — 2000"
+   ],
+   "a": 0,
+   "x": "The relevant laws are the AP Cooperative Societies Act, 1964 and the AP Mutually Aided Cooperative Societies Act, 1995.",
+   "ty": "fact",
+   "tq": "Match each law with its exact year and avoid swapping the two enactments.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Which statement correctly describes the jurisdiction of the AP Cooperative Tribunal?",
+   "o": [
+    "It has only advisory jurisdiction under both Acts.",
+    "It has original jurisdiction under the 1964 Act and appellate jurisdiction under the MACS Act.",
+    "It has appellate jurisdiction under the 1964 Act and original jurisdiction under the MACS Act.",
+    "It exercises jurisdiction only over Urban Cooperative Banks."
+   ],
+   "a": 2,
+   "x": "Under Section 75 of the AP Cooperative Societies Act, 1964, the Tribunal is appellate under that Act and has original jurisdiction under the MACS Act.",
+   "ty": "comparison",
+   "tq": "Compare the two Acts carefully because the Tribunal’s jurisdiction is reversed between them.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Section 75 of which law establishes the appellate role of the AP Cooperative Tribunal referred to in the framework?",
+   "o": [
+    "AP Mutually Aided Cooperative Societies Act, 1995",
+    "Banking Regulation Act, 1949",
+    "Reserve Bank of India Act, 1934",
+    "AP Cooperative Societies Act, 1964"
+   ],
+   "a": 3,
+   "x": "Section 75 of the AP Cooperative Societies Act, 1964 provides the basis for the Tribunal’s appellate jurisdiction under that Act.",
+   "ty": "fact",
+   "tq": "Match the section number with the correct state cooperative legislation.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Cooperative credit institutions primarily serve which sector according to their stated role?",
+   "o": [
+    "Foreign-exchange market operations",
+    "Farm and rural credit",
+    "Large-scale urban infrastructure alone",
+    "International securities trading"
+   ],
+   "a": 1,
+   "x": "Cooperative credit institutions are mainly oriented towards farm and rural credit.",
+   "ty": "application",
+   "tq": "Identify the institutional purpose from the sector that it primarily serves.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Consider the following statements about the long-term cooperative credit structure:\n1. It is associated with land development banks.\n2. Its state-level institution is SCARDB.\n3. Its lower-level institution is PCARDB.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Long-term cooperative credit is associated with land development banks and follows the SCARDB–PCARDB structure. All three statements are correct.",
+   "ty": "statements",
+   "tq": "Confirm the sector, state-level institution and lower-level institution together.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "District level, short-term — District Central Cooperative Bank",
+    "Village level, short-term — Primary Agricultural Credit Society",
+    "Village level, long-term — District Central Cooperative Bank",
+    "State level, short-term — State Cooperative Bank"
+   ],
+   "a": 2,
+   "x": "The village-level long-term institution is the Primary Cooperative Agriculture and Rural Development Bank, not the District Central Cooperative Bank.",
+   "ty": "negative",
+   "tq": "Find the wrong tier–institution pairing by checking both the level and the time horizon.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  },
+  {
+   "s": "Which statement best describes the proposed review concerning rural cooperative banks?",
+   "o": [
+    "IRDAI is reviewing their insurance-premium norms.",
+    "The State Registrar is abolishing all concentration limits.",
+    "The RBI is reviewing concentration-risk norms for rural cooperative banks.",
+    "SEBI is reviewing their stock-exchange listing norms."
+   ],
+   "a": 2,
+   "x": "The RBI is reviewing concentration-risk norms for rural cooperative banks.",
+   "ty": "fact",
+   "tq": "Identify the regulator and the specific prudential issue involved.",
+   "sec": "Cooperative credit structure, UCBs, AP data"
+  }
+ ]
+}

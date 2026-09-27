@@ -1,0 +1,540 @@
+{
+ "book": 5,
+ "row": 13,
+ "chunk": 0,
+ "section": "Networks and the internet - LAN/WAN, protocols, IP, DNS, web technologies",
+ "subsections": [
+  "Web technologies - HTML tags, web server vs browser vs search engine, URL, WWW, W3C, Web 3.0",
+  "Internet history - ARPANET, WWW inventor, first Indian ISPs",
+  "IP and MAC addressing - IPv4 vs IPv6, MAC length, notation, classes",
+  "Wireless standards - Bluetooth vs Wi-Fi bands and versions, 2.4 GHz devices",
+  "Protocols → function; protocol elements"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly describes the function of HTML tags in a webpage?",
+   "o": [
+    "They define and mark up the structure of text and other content",
+    "They assign numerical IP addresses to webpages",
+    "They index webpages for retrieval",
+    "They encrypt all browser-server communication"
+   ],
+   "a": 0,
+   "x": "HTML tags mark up and structure the text and other content of webpages. Encryption and indexing are performed by other technologies or services.",
+   "ty": "fact",
+   "tq": "Distinguish the structural role of HTML from the functions of encryption, addressing and search.",
+   "sec": "Web technologies - HTML tags, web server vs browser vs search engine, URL, WWW, W3C, Web 3.0  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding web technologies:\n1. A web server stores webpages and sends them when requested.\n2. A web browser requests webpages and displays them on the screen.\n3. A search engine indexes webpages so that they can be found.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The server stores and serves pages, the browser displays them, and the search engine indexes them for discovery.",
+   "ty": "statements",
+   "tq": "Separate the closely related functions of the server, browser and search engine.",
+   "sec": "Web technologies - HTML tags, web server vs browser vs search engine, URL, WWW, W3C, Web 3.0  [APPSC]"
+  },
+  {
+   "s": "HTTP primarily specifies which of the following?",
+   "o": [
+    "How messages pass between web browsers and web servers",
+    "How domain names are converted into IP addresses",
+    "How wireless devices communicate within a PAN",
+    "How e-mails are downloaded to a device"
+   ],
+   "a": 0,
+   "x": "HTTP specifies the communication of messages between web browsers and web servers. DNS, POP3 and Bluetooth serve different functions.",
+   "ty": "fact",
+   "tq": "Match the protocol with its immediate communication function rather than with a neighbouring networking function.",
+   "sec": "Web technologies - HTML tags, web server vs browser vs search engine, URL, WWW, W3C, Web 3.0  [APPSC]"
+  },
+  {
+   "s": "Which one of the following represents the correct order of the principal parts of a URL?",
+   "o": [
+    "Path, protocol, domain name",
+    "Protocol, domain name, path to the file",
+    "Protocol, path to the file, domain name",
+    "Domain name, path, protocol"
+   ],
+   "a": 1,
+   "x": "A URL contains the protocol, such as https://, followed by the domain name and the path to the file.",
+   "ty": "fact",
+   "tq": "Test the internal order of URL components instead of merely recalling its expansion.",
+   "sec": "Web technologies - HTML tags, web server vs browser vs search engine, URL, WWW, W3C, Web 3.0  [APPSC]"
+  },
+  {
+   "s": "The principal role of the World Wide Web Consortium (W3C) is to:",
+   "o": [
+    "Develop and maintain web standards",
+    "Assign MAC addresses to network cards",
+    "Provide internet connectivity to households",
+    "Operate the global DNS root servers"
+   ],
+   "a": 0,
+   "x": "W3C develops and maintains web standards so that webpages function consistently across different browsers.",
+   "ty": "fact",
+   "tq": "Identify the responsible body by its standard-setting function.",
+   "sec": "Web technologies - HTML tags, web server vs browser vs search engine, URL, WWW, Web 3.0  [APPSC]"
+  },
+  {
+   "s": "Which of the following constitutes the core front-end technologies mentioned in relation to modern web development?\n1. HTML5\n2. CSS3\n3. JavaScript\n4. DHCP\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "HTML5, CSS3 and JavaScript are core front-end technologies. DHCP is a network protocol that assigns IP addresses automatically.",
+   "ty": "statements",
+   "tq": "Find the unrelated networking protocol among front-end web technologies.",
+   "sec": "Web technologies - HTML tags, web server vs browser vs search engine, URL, WWW, W3C, Web 3.0  [APPSC]"
+  },
+  {
+   "s": "With reference to Web 3.0, consider the following statements:\n1. It represents the third generation of the web.\n2. It changes how the web is used, how sites are managed and how services are delivered.\n3. OCEN is linked with Web 3.0 and aims to democratise lending.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Web 3.0 is the third generation of the web and involves changes in usage, site management and service delivery. OCEN seeks to democratise lending and improve credit terms for small borrowers.",
+   "ty": "statements",
+   "tq": "Combine the definition, scope and associated initiative without confusing Web 3.0 with a single application.",
+   "sec": "Web technologies - HTML tags, web server vs browser vs search engine, URL, WWW, W3C, Web 3.0  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with its description?",
+   "o": [
+    "Surface web — not indexed by search engines",
+    "Deep web — entirely associated with illegal markets",
+    "Dark web — hidden subset of the deep web requiring tools such as Tor or I2P",
+    "Surface web — accessible only through anonymous networks"
+   ],
+   "a": 2,
+   "x": "The dark web is a small hidden subset of the deep web and is associated with anonymous access through tools such as Tor or I2P. The surface web is indexed, while the deep web is not necessarily malicious.",
+   "ty": "match",
+   "tq": "Use the defining access and indexing features to separate surface, deep and dark web.",
+   "sec": "Web technologies - HTML tags, web server vs browser vs search engine, URL, WWW, W3C, Web 3.0  [APPSC]"
+  },
+  {
+   "s": "Arrange the following layers of the web in descending order of their approximate share:\nA. Dark web\nB. Surface web\nC. Deep web\nSelect the correct sequence.",
+   "o": [
+    "A, B, C",
+    "C, B, A",
+    "B, C, A",
+    "C, A, B"
+   ],
+   "a": 1,
+   "x": "The deep web accounts for approximately 90–95%, the surface web about 4–5%, and the dark web is a small hidden subset.",
+   "ty": "chronology",
+   "tq": "Order categories by relative size, beginning with the largest share.",
+   "sec": "Web technologies - HTML tags, web server vs browser vs search engine, URL, WWW, W3C, Web 3.0  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Net banking — deep web",
+    "Intranets — deep web",
+    "Indexed public webpages — dark web",
+    "E-mail inboxes — deep web"
+   ],
+   "a": 2,
+   "x": "Indexed public webpages belong to the surface web, not the dark web. E-mail inboxes, net banking and intranets are examples of deep-web content.",
+   "ty": "negative",
+   "tq": "Identify the one reversed classification by applying the indexing criterion.",
+   "sec": "Web technologies - HTML tags, web server vs browser vs search engine, URL, WWW, W3C, Web 3.0  [APPSC]"
+  },
+  {
+   "s": "ARPANET, established in 1969, was developed under which organisation and is regarded as the forerunner of the Internet?",
+   "o": [
+    "United States Department of Defense",
+    "International Telecommunication Union",
+    "World Wide Web Consortium",
+    "United Nations Development Programme"
+   ],
+   "a": 0,
+   "x": "ARPANET was developed under the United States Department of Defense in 1969 and became the forerunner of the Internet.",
+   "ty": "fact",
+   "tq": "Link the historical network with its sponsoring organisation and legacy.",
+   "sec": "Internet history - ARPANET, WWW inventor, first Indian ISPs  [APPSC]"
+  },
+  {
+   "s": "The World Wide Web Consortium (W3C) was founded in which year?",
+   "o": [
+    "1986",
+    "1989",
+    "1994",
+    "1998"
+   ],
+   "a": 2,
+   "x": "Tim Berners-Lee founded the W3C in 1994. The other years correspond to ERNET, the invention of the WWW and the emergence of Satyam Infoway as a private ISP.",
+   "ty": "numerical",
+   "tq": "Discriminate between closely related milestones by their years.",
+   "sec": "Internet history - ARPANET, WWW inventor, first Indian ISPs  [APPSC]"
+  },
+  {
+   "s": "Which one of the following sequences correctly represents the Indian Internet milestones in chronological order?",
+   "o": [
+    "Public internet by VSNL, ERNET, Satyam Infoway",
+    "Satyam Infoway, ERNET, public internet by VSNL",
+    "ERNET, public internet by VSNL, Satyam Infoway",
+    "ERNET, Satyam Infoway, public internet by VSNL"
+   ],
+   "a": 2,
+   "x": "ERNET began in 1986, public internet was launched by VSNL on 15 August 1995, and Satyam Infoway became the first private ISP in 1998.",
+   "ty": "chronology",
+   "tq": "Use the first, middle and last dates to establish the sequence.",
+   "sec": "Internet history - ARPANET, WWW inventor, first Indian ISPs  [APPSC]"
+  },
+  {
+   "s": "On which date was public Internet service launched in India by VSNL?",
+   "o": [
+    "15 August 1995",
+    "26 January 1990",
+    "15 August 1986",
+    "26 January 1998"
+   ],
+   "a": 0,
+   "x": "VSNL launched public Internet service in India on 15 August 1995. ERNET had been established earlier as an academic network in 1986.",
+   "ty": "numerical",
+   "tq": "Distinguish the public-service launch date from the academic-network and private-ISP dates.",
+   "sec": "Internet history - ARPANET, WWW inventor, first Indian ISPs  [APPSC]"
+  },
+  {
+   "s": "Which of the following was India’s academic network established in 1986?",
+   "o": [
+    "Satyam Infoway",
+    "OCEN",
+    "VSNL",
+    "ERNET"
+   ],
+   "a": 3,
+   "x": "ERNET was India’s academic network established in 1986. VSNL launched public internet service in 1995, while Satyam Infoway became the first private ISP in 1998.",
+   "ty": "fact",
+   "tq": "Match the network name with its historical category and year.",
+   "sec": "Internet history - ARPANET, WWW inventor, first Indian ISPs  [APPSC]"
+  },
+  {
+   "s": "Which notation is characteristic of an IPv4 address?",
+   "o": [
+    "Six hexadecimal pairs separated by hyphens",
+    "Four decimal octets separated by dots",
+    "A domain name followed by a file path",
+    "Eight hexadecimal groups separated by colons"
+   ],
+   "a": 1,
+   "x": "IPv4 uses dotted-decimal notation, such as 192.168.1.1. IPv6 uses eight hexadecimal groups separated by colons, whereas six hexadecimal pairs describe a MAC address.",
+   "ty": "confusable",
+   "tq": "Separate the notations of IPv4, IPv6 and MAC addressing.",
+   "sec": "IP and MAC addressing - IPv4 vs IPv6, MAC length, notation, classes  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes an IPv6 address?",
+   "o": [
+    "A 64-bit address used only for multicast",
+    "A 48-bit address burnt into a network card",
+    "A 32-bit address written only in dotted decimal",
+    "A 128-bit address written as eight hexadecimal groups separated by colons"
+   ],
+   "a": 3,
+   "x": "IPv6 is 128 bits long and is written as eight hexadecimal groups separated by colons. A 48-bit physical address refers to MAC addressing.",
+   "ty": "fact",
+   "tq": "Use length and notation together to distinguish IPv6 from IPv4 and MAC addresses.",
+   "sec": "IP and MAC addressing - IPv4 vs IPv6, MAC length, notation, classes  [APPSC]"
+  },
+  {
+   "s": "A MAC address is best described as a:",
+   "o": [
+    "48-bit physical address burnt into the network card and used at the data link layer",
+    "128-bit address assigned by DNS",
+    "16-bit address used only by web browsers",
+    "32-bit logical address used at the network layer"
+   ],
+   "a": 0,
+   "x": "A MAC address is a 48-bit physical address, equal to 6 bytes or 12 hexadecimal digits, generally burnt into the network card and used at the data link layer.",
+   "ty": "fact",
+   "tq": "Combine the address length, physical nature and OSI-layer association.",
+   "sec": "IP and MAC addressing - IPv4 vs IPv6, MAC length, notation, classes  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs correctly represents IPv4 address classes by their first-octet ranges?\n1. Class A — 1 to 126\n2. Class B — 128 to 191\n3. Class C — 192 to 223\n4. Class D — 240 to 255\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Classes A, B and C have ranges 1–126, 128–191 and 192–223 respectively. Class D is 224–239 for multicast; 240–255 is Class E for experimental use.",
+   "ty": "statements",
+   "tq": "Check each numerical range against the class boundary, especially the swapped D and E ranges.",
+   "sec": "IP and MAC addressing - IPv4 vs IPv6, MAC length, notation, classes  [APPSC]"
+  },
+  {
+   "s": "The address range 224–239 in IPv4 is associated with:",
+   "o": [
+    "Class E experimental addresses",
+    "Class D multicast addresses",
+    "Class A unicast addresses",
+    "Loopback addresses"
+   ],
+   "a": 1,
+   "x": "The first-octet range 224–239 constitutes Class D, used for multicast. Class E occupies 240–255, while 127.x.x.x is reserved for loopback.",
+   "ty": "fact",
+   "tq": "Test the boundary ranges of the IPv4 classes directly.",
+   "sec": "IP and MAC addressing - IPv4 vs IPv6, MAC length, notation, classes  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "192–223 — Class B",
+    "127.x.x.x — loopback",
+    "224–239 — experimental class",
+    "240–255 — multicast class"
+   ],
+   "a": 1,
+   "x": "The 127.x.x.x range is used for loopback. Class D multicast is 224–239, Class E experimental is 240–255, and 192–223 is Class C.",
+   "ty": "negative",
+   "tq": "Find the correctly matched exception among deliberately interchanged class ranges.",
+   "sec": "IP and MAC addressing - IPv4 vs IPv6, MAC length, notation, classes  [APPSC]"
+  },
+  {
+   "s": "DNS performs which of the following functions?",
+   "o": [
+    "Assigns MAC addresses to network cards",
+    "Converts human-readable domain names into numerical IP addresses",
+    "Encrypts all e-mail messages",
+    "Transfers files between computers"
+   ],
+   "a": 1,
+   "x": "DNS acts as the Internet’s directory by translating human-readable domain names into numerical IP addresses.",
+   "ty": "application",
+   "tq": "Identify the service needed when a user knows a name but the network requires an IP address.",
+   "sec": "IP and MAC addressing - IPv4 vs IPv6, MAC length, notation, classes  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the wireless standard?",
+   "o": [
+    "Bluetooth — IEEE 802.11 wireless LAN",
+    "Wi-Fi — IEEE 802.15.1 personal area network",
+    "Bluetooth — IEEE 802.15.1 personal area network",
+    "Wi-Fi Direct — IEEE 802.15.1 cellular network"
+   ],
+   "a": 2,
+   "x": "Bluetooth uses IEEE 802.15.1 and is a personal area network technology. Wi-Fi uses IEEE 802.11 and is associated with wireless LANs.",
+   "ty": "match",
+   "tq": "Start from the standard number to distinguish Bluetooth from Wi-Fi.",
+   "sec": "Wireless standards - Bluetooth vs Wi-Fi bands and versions, 2.4 GHz devices  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding Bluetooth and Wi-Fi:\n1. Bluetooth generally has a short range of about 10 metres for a class 2 device.\n2. Wi-Fi generally provides coverage over a longer range, such as a whole building.\n3. Bluetooth operates only in the 5 GHz band.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Bluetooth class 2 devices have a short range of approximately 10 metres, while Wi-Fi generally covers a larger area. Bluetooth operates in the 2.4 GHz ISM band, not only in 5 GHz.",
+   "ty": "statements",
+   "tq": "Use range and frequency comparisons to reject the absolute frequency claim.",
+   "sec": "Wireless standards - Bluetooth vs Wi-Fi bands and versions, 2.4 GHz devices  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements about Wi-Fi frequency bands is correct?",
+   "o": [
+    "Wi-Fi operates only in the 6 GHz band.",
+    "Wi-Fi uses the 2.4 GHz band only for Bluetooth compatibility.",
+    "Wi-Fi operates in 2.4 GHz and 5 GHz bands, with 6 GHz available in Wi-Fi 6E.",
+    "Wi-Fi operates only in the 2.4 GHz band."
+   ],
+   "a": 2,
+   "x": "Wi-Fi uses the 2.4 GHz and 5 GHz bands; Wi-Fi 6E also includes the 6 GHz band. Bluetooth uses the 2.4 GHz ISM band.",
+   "ty": "fact",
+   "tq": "Test the frequency-band comparison and the Wi-Fi 6E exception.",
+   "sec": "Wireless standards - Bluetooth vs Wi-Fi bands and versions, 2.4 GHz devices  [APPSC]"
+  },
+  {
+   "s": "Which of the following devices commonly operates in the 2.4 GHz range?\n1. Microwave oven\n2. Cordless phone\n3. Bluetooth device\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Microwave ovens, cordless phones and Bluetooth devices are among the devices associated with the 2.4 GHz range.",
+   "ty": "statements",
+   "tq": "Use the shared-band idea to identify all applicable devices.",
+   "sec": "Wireless standards - Bluetooth vs Wi-Fi bands and versions, 2.4 GHz devices  [APPSC]"
+  },
+  {
+   "s": "The 2019 APPSC key identified which version as the latest version of Bluetooth?",
+   "o": [
+    "Bluetooth 5.1",
+    "Bluetooth 6.0",
+    "Bluetooth 4.0",
+    "Bluetooth 5.0"
+   ],
+   "a": 0,
+   "x": "The 2019 APPSC key treated Bluetooth 5.1 as the latest version. This is a time-specific reference and should not be confused with later versions.",
+   "ty": "numerical",
+   "tq": "Recognise the dated examination reference rather than applying an unspecified current-version claim.",
+   "sec": "Wireless standards - Bluetooth vs Wi-Fi bands and versions, 2.4 GHz devices  [APPSC]"
+  },
+  {
+   "s": "Which one of the following technologies links devices directly without requiring a LAN?",
+   "o": [
+    "DHCP",
+    "Wi-Fi Direct",
+    "DNS",
+    "Li-Fi"
+   ],
+   "a": 1,
+   "x": "Wi-Fi Direct enables devices to connect directly without a LAN. DNS resolves names, DHCP assigns IP addresses and Li-Fi transmits data through LED light.",
+   "ty": "application",
+   "tq": "Select the technology that satisfies the stated direct-connect requirement.",
+   "sec": "Wireless standards - Bluetooth vs Wi-Fi bands and versions, 2.4 GHz devices  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements correctly distinguishes Li-Fi from Wi-Fi?",
+   "o": [
+    "Li-Fi carries data on LED light and can provide better bandwidth and security than Wi-Fi.",
+    "Li-Fi operates only through telephone lines and has no wireless application.",
+    "Li-Fi is a form of DNS-based addressing.",
+    "Li-Fi is restricted to Bluetooth personal area networks."
+   ],
+   "a": 0,
+   "x": "Li-Fi transmits data using LED light and is described as offering better bandwidth and security than Wi-Fi.",
+   "ty": "comparison",
+   "tq": "Use the transmission medium to distinguish Li-Fi from radio-based Wi-Fi.",
+   "sec": "Wireless standards - Bluetooth vs Wi-Fi bands and versions, 2.4 GHz devices  [APPSC]"
+  },
+  {
+   "s": "NFC is characterised by which of the following features?",
+   "o": [
+    "Operation over several kilometres at gigabit speed",
+    "Operation only at a few centimetres with a rate of 106–424 kbps",
+    "Operation exclusively through optical fibre",
+    "Operation throughout a building using 5 GHz only"
+   ],
+   "a": 1,
+   "x": "NFC works only over a few centimetres and has a stated data rate of 106–424 kbps.",
+   "ty": "numerical",
+   "tq": "Combine the very short range with the specified data-rate interval.",
+   "sec": "Wireless standards - Bluetooth vs Wi-Fi bands and versions, 2.4 GHz devices  [APPSC]"
+  },
+  {
+   "s": "Which protocol is primarily used for reliable delivery of data in the TCP/IP suite?",
+   "o": [
+    "DHCP",
+    "DNS",
+    "IP",
+    "TCP"
+   ],
+   "a": 3,
+   "x": "Within TCP/IP, TCP ensures reliable delivery, while IP addresses and routes packets.",
+   "ty": "fact",
+   "tq": "Separate the transport reliability function of TCP from the addressing and routing function of IP.",
+   "sec": "Protocols → function; protocol elements  [APPSC]"
+  },
+  {
+   "s": "Which one of the following protocols transfers webpages, with its secure version encrypting browser-server traffic through TLS?",
+   "o": [
+    "SMTP",
+    "FTP",
+    "IMAP",
+    "HTTP/HTTPS"
+   ],
+   "a": 3,
+   "x": "HTTP transfers webpages, while HTTPS encrypts browser-server traffic using TLS.",
+   "ty": "fact",
+   "tq": "Match the protocol pair with web transfer and security rather than with mail or file transfer.",
+   "sec": "Protocols → function; protocol elements  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "POP3 — downloading mail to one device, usually deleting it from the server",
+    "FTP — file transfer between computers",
+    "SMTP — sending e-mail",
+    "IMAP — permanently deleting mail from the server after downloading it to one device"
+   ],
+   "a": 3,
+   "x": "IMAP keeps mail on the server and synchronises it across devices. POP3 generally downloads mail to one device and usually deletes it from the server.",
+   "ty": "negative",
+   "tq": "Distinguish the confusable mail protocols by their treatment of messages on the server.",
+   "sec": "Protocols → function; protocol elements  [APPSC]"
+  },
+  {
+   "s": "A user wants the same e-mail account to remain synchronised across several devices. Which protocol is most suitable?",
+   "o": [
+    "POP3",
+    "FTP",
+    "IMAP",
+    "SMTP"
+   ],
+   "a": 2,
+   "x": "IMAP keeps mail on the server and synchronises it across devices. POP3 is generally intended for downloading mail to one device.",
+   "ty": "application",
+   "tq": "Infer the protocol from the practical requirement of multi-device synchronisation.",
+   "sec": "Protocols → function; protocol elements  [APPSC]"
+  },
+  {
+   "s": "Which protocol automatically assigns IP addresses to devices on a network?",
+   "o": [
+    "HTTP",
+    "DHCP",
+    "DNS",
+    "TCP"
+   ],
+   "a": 1,
+   "x": "DHCP assigns IP addresses automatically. DNS translates names into IP addresses, while HTTP and TCP perform different communication functions.",
+   "ty": "fact",
+   "tq": "Identify the protocol by its automatic address-assignment function.",
+   "sec": "Protocols → function; protocol elements  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below.\n\nList-I (Protocol element)\nA. Syntax\nB. Semantics\nC. Timing\n\nList-II (Meaning)\n1. Meaning of each field\n2. Format of data\n3. When and how fast to send\n\noption_a",
+   "o": [
+    "A-2, B-1, C-3",
+    "A-1, B-2, C-3",
+    "A-3, B-1, C-2",
+    "A-2, B-3, C-1"
+   ],
+   "a": 0,
+   "x": "Syntax specifies the format of data, semantics specifies the meaning of each field, and timing specifies when and how fast data is sent.",
+   "ty": "match",
+   "tq": "Start from the sure pair ‘syntax–format’ and complete the protocol-element mapping.",
+   "sec": "Protocols → function; protocol elements  [APPSC]"
+  },
+  {
+   "s": "Assertion (A): HTTPS provides greater security for browser-server communication than HTTP.\nReason (R): HTTPS encrypts the traffic between the browser and the server through TLS.\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and TLS-based encryption directly explains why HTTPS provides greater security than HTTP.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the reason directly explains the security difference between HTTP and HTTPS.",
+   "sec": "Protocols → function; protocol elements  [APPSC]"
+  }
+ ]
+}

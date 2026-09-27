@@ -1,0 +1,584 @@
+{
+ "book": 3,
+ "row": 86,
+ "chunk": 0,
+ "section": "Non-performing assets - causes, twin balance sheet problem, recognition and provisioning",
+ "subsections": [
+  "NPA definition - overdue period, classification (standard, sub-standard, doubtful, loss)",
+  "Stress indicators - interest coverage ratio, SMA-0/1/2, restructured and stressed assets",
+  "Gross NPA vs net NPA - trend and peak year, PSB vs private banks",
+  "Provisioning coverage ratio and income recognition norms",
+  "Twin balance sheet problem - meaning, which Economic Survey framed it",
+  "Causes of NPAs - infrastructure lending, evergreening, wilful defaulters",
+  "Asset Quality Review - year, purpose, outcome"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 40,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "A loan or advance is generally classified as a Non-Performing Asset when the interest or principal instalment remains overdue for more than:",
+   "o": [
+    "30 days",
+    "60 days",
+    "90 days",
+    "180 days"
+   ],
+   "a": 2,
+   "x": "An asset becomes an NPA when interest or principal remains overdue for more than 90 days.",
+   "ty": "fact",
+   "tq": "Use the precise numerical threshold rather than a nearby overdue period.",
+   "sec": "NPA definition - overdue period, classification (standard, sub-standard, doubtful, loss)"
+  },
+  {
+   "s": "In the case of farm loans, the overdue criterion for a short-duration crop is generally:",
+   "o": [
+    "90 calendar days only",
+    "One crop season",
+    "Two crop seasons",
+    "Three crop seasons"
+   ],
+   "a": 2,
+   "x": "For short-duration crops, a farm loan is treated as overdue after two crop seasons.",
+   "ty": "numerical",
+   "tq": "Distinguish crop-season rules from the general 90-day banking rule.",
+   "sec": "NPA definition - overdue period, classification (standard, sub-standard, doubtful, loss)"
+  },
+  {
+   "s": "For a farm loan relating to a long-duration crop, the overdue criterion is:",
+   "o": [
+    "Two crop seasons",
+    "90 days",
+    "One crop season",
+    "Six months"
+   ],
+   "a": 2,
+   "x": "For long-duration crops, the relevant overdue period is one crop season.",
+   "ty": "fact",
+   "tq": "Test the confusable pair of one crop season and two crop seasons.",
+   "sec": "NPA definition - overdue period, classification (standard, sub-standard, doubtful, loss)"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Standard asset — NPA for more than 12 months",
+    "Sub-standard asset — NPA for 12 months or less",
+    "Doubtful asset — regular account with no overdue",
+    "Loss asset — asset that has been fully recovered"
+   ],
+   "a": 1,
+   "x": "A sub-standard asset is an NPA for 12 months or less. A doubtful asset is an NPA for more than 12 months, while a loss asset has been identified as a loss but may not yet have been written off.",
+   "ty": "match",
+   "tq": "Match each classification with its exact time or recognition criterion.",
+   "sec": "NPA definition - overdue period, classification (standard, sub-standard, doubtful, loss)"
+  },
+  {
+   "s": "Consider the following statements regarding the new borrower-level NPA tagging system:\n1. The system is to be effective from 1 April 2027.\n2. If one loan of a borrower becomes an NPA, all loans of that borrower at the same bank become NPAs.\n3. An account can be upgraded even if arrears on one facility remain unpaid.\n4. Banks are required to identify NPAs through automated systems.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 4 are correct. An account is upgraded only after all arrears on every facility have been paid, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Find the single reversal in the condition for upgrading an account.",
+   "sec": "NPA definition - overdue period, classification (standard, sub-standard, doubtful, loss)"
+  },
+  {
+   "s": "Special Mention Accounts are best described as accounts which are:",
+   "o": [
+    "Already written-off assets",
+    "Stressed but still classified as standard",
+    "Loss assets awaiting audit confirmation",
+    "Loans overdue for more than 180 days"
+   ],
+   "a": 1,
+   "x": "Special Mention Accounts are stressed accounts that remain standard, generally involving overdue periods of 1 to 90 days.",
+   "ty": "fact",
+   "tq": "Separate an early-warning category from the NPA categories.",
+   "sec": "Stress indicators - interest coverage ratio, SMA-0/1/2, restructured and stressed assets"
+  },
+  {
+   "s": "Match List-I with List-II regarding Special Mention Accounts.\nList-I\n a. SMA-0\n b. SMA-1\n c. SMA-2\n d. NPA\nList-II\n i. 61–90 days overdue\n ii. More than 90 days overdue\n iii. 0–30 days overdue\n iv. 31–60 days overdue\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–ii, b–iv, c–i, d–iii"
+   ],
+   "a": 0,
+   "x": "SMA-0 covers 0–30 days, SMA-1 covers 31–60 days, SMA-2 covers 61–90 days, and an NPA is generally beyond 90 days overdue.",
+   "ty": "match",
+   "tq": "Start from the sure numerical pair and eliminate codes with mismatched day bands.",
+   "sec": "Stress indicators - interest coverage ratio, SMA-0/1/2, restructured and stressed assets"
+  },
+  {
+   "s": "The usual progression of asset stress is:",
+   "o": [
+    "NPA, SMA-2, SMA-1, SMA-0, standard asset",
+    "SMA-0, SMA-1, SMA-2, sub-standard, doubtful, loss",
+    "SMA-2, standard, SMA-0, loss, doubtful",
+    "Standard, doubtful, SMA-0, sub-standard, loss"
+   ],
+   "a": 1,
+   "x": "The sequence proceeds from SMA-0 to SMA-1 and SMA-2, followed by NPA classification as sub-standard, doubtful and loss.",
+   "ty": "chronology",
+   "tq": "Arrange the stages from early stress to severe deterioration.",
+   "sec": "Stress indicators - interest coverage ratio, SMA-0/1/2, restructured and stressed assets"
+  },
+  {
+   "s": "Stressed assets comprise:",
+   "o": [
+    "NPAs, restructured loans and written-off assets",
+    "Only standard and sub-standard assets",
+    "Provisions, capital and deposits",
+    "Only gross NPAs and net NPAs"
+   ],
+   "a": 0,
+   "x": "Stressed assets include NPAs, restructured loans and written-off assets.",
+   "ty": "fact",
+   "tq": "Test the exact components of a composite banking term.",
+   "sec": "Stress indicators - interest coverage ratio, SMA-0/1/2, restructured and stressed assets"
+  },
+  {
+   "s": "The Interest Coverage Ratio is calculated as:",
+   "o": [
+    "Net profit divided by total assets",
+    "Interest due divided by operating earnings",
+    "Operating earnings divided by interest due",
+    "Gross NPA divided by provisions"
+   ],
+   "a": 2,
+   "x": "Interest Coverage Ratio equals operating earnings, or EBIT, divided by interest due.",
+   "ty": "numerical",
+   "tq": "Recall the numerator-denominator order in the formula.",
+   "sec": "Stress indicators - interest coverage ratio, SMA-0/1/2, restructured and stressed assets"
+  },
+  {
+   "s": "If the Interest Coverage Ratio of a borrower is below 1, it indicates that:",
+   "o": [
+    "The borrower has no outstanding debt",
+    "The borrower's earnings exceed its interest obligation",
+    "The borrower's earnings do not cover the interest due",
+    "The loan has necessarily been written off"
+   ],
+   "a": 2,
+   "x": "An Interest Coverage Ratio below 1 means that operating earnings are insufficient to cover interest due.",
+   "ty": "application",
+   "tq": "Apply the formula to interpret a risk indicator rather than merely recalling its definition.",
+   "sec": "Stress indicators - interest coverage ratio, SMA-0/1/2, restructured and stressed assets"
+  },
+  {
+   "s": "Net NPA is obtained by deducting which of the following from Gross NPA?",
+   "o": [
+    "Deposits",
+    "Bank capital",
+    "Provisions",
+    "Interest income"
+   ],
+   "a": 2,
+   "x": "Net NPA is calculated as Gross NPA minus provisions.",
+   "ty": "fact",
+   "tq": "Distinguish the stock of bad loans from the amount remaining after provisioning.",
+   "sec": "Gross NPA vs net NPA - trend and peak year, PSB vs private banks"
+  },
+  {
+   "s": "The GNPA ratio of Scheduled Commercial Banks reached an approximate peak of 11.2 per cent in:",
+   "o": [
+    "March 2018",
+    "March 2026",
+    "March 2015",
+    "March 2025"
+   ],
+   "a": 0,
+   "x": "SCB GNPA peaked at approximately 11.2 per cent in March 2018, after the Asset Quality Review.",
+   "ty": "numerical",
+   "tq": "Use the peak-year clue to distinguish pre-AQR, post-AQR and recovery-period figures.",
+   "sec": "Gross NPA vs net NPA - trend and peak year, PSB vs private banks"
+  },
+  {
+   "s": "Which one of the following correctly represents the SCB GNPA position in March 2025?",
+   "o": [
+    "4.28 per cent",
+    "1.93 per cent",
+    "11.2 per cent",
+    "2.2–2.3 per cent"
+   ],
+   "a": 3,
+   "x": "In March 2025, SCB GNPA was approximately 2.2–2.3 per cent and NNPA was 0.5 per cent.",
+   "ty": "numerical",
+   "tq": "Match the date with the correct ratio instead of relying on the direction of the trend alone.",
+   "sec": "Gross NPA vs net NPA - trend and peak year, PSB vs private banks"
+  },
+  {
+   "s": "Consider the following statements about GNPA trends:\n1. SCB GNPA was 4.28 per cent in March 2015.\n2. SCB GNPA was approximately 11.2 per cent in March 2018.\n3. SCB GNPA was 2.15 per cent in September 2025.\n4. SCB GNPA was 1.93 per cent in March 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly state the reported GNPA figures for the respective dates.",
+   "ty": "statements",
+   "tq": "Cross-check each date-value pair, especially the closely spaced 2025 and 2026 observations.",
+   "sec": "Gross NPA vs net NPA - trend and peak year, PSB vs private banks"
+  },
+  {
+   "s": "The GNPA of Scheduled Commercial Banks in March 2026, together with the corresponding NNPA, was:",
+   "o": [
+    "2.15 per cent and 0.50 per cent",
+    "2.30 per cent and 0.39 per cent",
+    "1.93 per cent and 0.39 per cent",
+    "1.93 per cent and 0.50 per cent"
+   ],
+   "a": 2,
+   "x": "In March 2026, GNPA was 1.93 per cent and NNPA was 0.39 per cent, described as a decadal low.",
+   "ty": "numerical",
+   "tq": "Pair the two related ratios with the same reporting date.",
+   "sec": "Gross NPA vs net NPA - trend and peak year, PSB vs private banks"
+  },
+  {
+   "s": "Which of the following statements is NOT correct regarding the banking-sector NPA trend?\n1. GNPA has fallen for eight straight years.\n2. Agriculture GNPA remains relatively high at about 6.0 per cent.\n3. Agriculture GNPA is lower than 1 per cent.\n4. September 2025 GNPA was reported at 2.15 per cent.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 4 only",
+    "1 only",
+    "3 only",
+    "2 and 3 only"
+   ],
+   "a": 2,
+   "x": "Statement 3 is incorrect because agriculture GNPA was reported at about 6.0 per cent, with another estimate at 5.7 per cent. Statements 1, 2 and 4 are correct.",
+   "ty": "negative",
+   "tq": "Identify the statement that reverses the reported sectoral trend.",
+   "sec": "Gross NPA vs net NPA - trend and peak year, PSB vs private banks"
+  },
+  {
+   "s": "Between March 2015 and March 2025, the GNPA ratio of Public Sector Banks declined from:",
+   "o": [
+    "4.28 per cent to 2.15 per cent",
+    "2.58 per cent to 4.97 per cent",
+    "11.2 per cent to 1.93 per cent",
+    "4.97 per cent to 2.58 per cent"
+   ],
+   "a": 3,
+   "x": "PSB GNPA declined from 4.97 per cent in March 2015 to 2.58 per cent in March 2025.",
+   "ty": "comparison",
+   "tq": "Read both endpoints and check the direction of change.",
+   "sec": "Gross NPA vs net NPA - trend and peak year, PSB vs private banks"
+  },
+  {
+   "s": "Which of the following private-bank GNPA figures for June 2026 is correctly matched?",
+   "o": [
+    "HDFC — 1.38 per cent",
+    "ICICI — 1.28 per cent",
+    "Axis — 1.17 per cent",
+    "HDFC — 1.17 per cent"
+   ],
+   "a": 3,
+   "x": "The reported June 2026 GNPA figures were HDFC 1.17 per cent, ICICI 1.38 per cent and Axis 1.28 per cent.",
+   "ty": "match",
+   "tq": "Use institution-figure pairing to avoid swapping closely related percentages.",
+   "sec": "Gross NPA vs net NPA - trend and peak year, PSB vs private banks"
+  },
+  {
+   "s": "Provisioning Coverage Ratio is defined as:",
+   "o": [
+    "Provisions held divided by total deposits",
+    "Gross NPAs divided by provisions held",
+    "Net NPAs divided by Gross NPAs",
+    "Provisions held divided by Gross NPAs"
+   ],
+   "a": 3,
+   "x": "PCR is the ratio of provisions held to Gross NPAs.",
+   "ty": "fact",
+   "tq": "Distinguish the coverage ratio from its reciprocal.",
+   "sec": "Provisioning coverage ratio and income recognition norms"
+  },
+  {
+   "s": "The PCR of Scheduled Commercial Banks reported for March 2025 was:",
+   "o": [
+    "76.3 per cent",
+    "94.31 per cent",
+    "46–49 per cent",
+    "74.0 per cent"
+   ],
+   "a": 0,
+   "x": "The reported SCB PCR for March 2025 was 76.3 per cent. A higher figure of 93.14 per cent was also cited in a context that included technical write-offs.",
+   "ty": "numerical",
+   "tq": "Match the exact percentage with the correct institutional aggregate and date.",
+   "sec": "Provisioning coverage ratio and income recognition norms"
+  },
+  {
+   "s": "Under income-recognition norms, interest on an NPA is booked as income:",
+   "o": [
+    "Only when it is actually received",
+    "When the loan becomes sub-standard",
+    "After the asset is written off",
+    "When it is accrued, whether or not received"
+   ],
+   "a": 0,
+   "x": "Interest on an NPA is not recognised as income until it is actually received. This forms part of the IRACP framework.",
+   "ty": "application",
+   "tq": "Apply the recognition rule to distinguish accrual from actual receipt.",
+   "sec": "Provisioning coverage ratio and income recognition norms"
+  },
+  {
+   "s": "IRACP stands for:",
+   "o": [
+    "Interest Recognition and Credit Provisioning",
+    "Income Recovery and Capital Planning",
+    "Income Recognition, Asset Classification, Provisioning",
+    "Indian Regulation of Accounts and Credit Policy"
+   ],
+   "a": 2,
+   "x": "IRACP means Income Recognition, Asset Classification, Provisioning.",
+   "ty": "fact",
+   "tq": "Test the exact expansion of a regulatory acronym.",
+   "sec": "Provisioning coverage ratio and income recognition norms"
+  },
+  {
+   "s": "Match the stages of the Expected Credit Loss model with their provisioning treatment.\nList-I\n a. Stage 1\n b. Stage 2\n c. Stage 3\n d. EIR method\nList-II\n i. Lifetime expected loss\n ii. Effective interest rate method\n iii. 12-month expected loss\n iv. Full lifetime provision for credit-impaired assets\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–iii, b–i, c–iv, d–ii",
+    "a–i, b–iii, c–iv, d–ii",
+    "a–iii, b–iv, c–i, d–ii",
+    "a–ii, b–i, c–iv, d–iii"
+   ],
+   "a": 0,
+   "x": "Stage 1 involves 12-month expected loss, Stage 2 lifetime loss, Stage 3 full lifetime provision, and loss allowances use the effective interest rate method.",
+   "ty": "match",
+   "tq": "Start with the distinctive EIR pair and then match the three stages by severity.",
+   "sec": "Provisioning coverage ratio and income recognition norms"
+  },
+  {
+   "s": "Consider the following statements about the Expected Credit Loss model:\n1. Stage 1 applies to low-risk exposures.\n2. Stage 2 applies when there is a significant rise in risk.\n3. Stage 3 applies to credit-impaired assets, including those overdue for more than 90 days.\n4. ECL may reduce Tier-1 ratios by 100–150 basis points.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct descriptions of the proposed three-stage ECL framework and its possible effect on Tier-1 ratios.",
+   "ty": "statements",
+   "tq": "Check whether the final quantitative implication is also supported rather than stopping at the conceptual statements.",
+   "sec": "Provisioning coverage ratio and income recognition norms"
+  },
+  {
+   "s": "The twin balance sheet problem refers to the simultaneous existence of:",
+   "o": [
+    "High exports and low public debt",
+    "Fiscal surplus and excess bank liquidity",
+    "High household savings and low inflation",
+    "Over-leveraged corporates and capital-starved, NPA-laden banks"
+   ],
+   "a": 3,
+   "x": "The twin balance sheet problem describes over-leveraged firms alongside capital-starved banks burdened with NPAs.",
+   "ty": "fact",
+   "tq": "Identify the two linked balance-sheet weaknesses rather than one symptom alone.",
+   "sec": "Twin balance sheet problem - meaning, which Economic Survey framed it"
+  },
+  {
+   "s": "The twin balance sheet problem was prominently framed in the Economic Survey:",
+   "o": [
+    "2016–17",
+    "2014–15",
+    "2018–19",
+    "2015–16"
+   ],
+   "a": 0,
+   "x": "The Economic Survey 2016–17, under Chief Economic Adviser Arvind Subramanian, discussed the festering twin balance sheet problem.",
+   "ty": "fact",
+   "tq": "Use the year and institutional context together to avoid nearby Economic Survey years.",
+   "sec": "Twin balance sheet problem - meaning, which Economic Survey framed it"
+  },
+  {
+   "s": "Consider the following statements about the mechanism of the twin balance sheet problem:\n1. Loan losses erode bank capital.\n2. Banks may freeze new lending rather than recall old loans.\n3. Private investment can decline as a result.\n4. Over-leveraged firms are able to undertake fresh investment without difficulty.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Over-leveraged firms face difficulty investing, so statement 4 is false.",
+   "ty": "statements",
+   "tq": "Trace the cause-effect chain and reject the statement that reverses its final effect.",
+   "sec": "Twin balance sheet problem - meaning, which Economic Survey framed it"
+  },
+  {
+   "s": "Aggressive lending during 2010–15 was especially associated with which sectors in the build-up of NPAs?",
+   "o": [
+    "Agriculture, tourism and textiles",
+    "Infrastructure, steel and power",
+    "Information technology, pharmaceuticals and education",
+    "Retail trade, fisheries and transport"
+   ],
+   "a": 1,
+   "x": "Aggressive lending to infrastructure, steel and power projects during 2010–15 contributed to the later NPA problem, particularly when projects stalled.",
+   "ty": "fact",
+   "tq": "Link the lending episode with the specific sectoral cluster.",
+   "sec": "Causes of NPAs - infrastructure lending, evergreening, wilful defaulters"
+  },
+  {
+   "s": "Which of the following external developments weakened borrowers' cash flows and contributed to NPAs?",
+   "o": [
+    "A fall in domestic savings alone",
+    "The 2008 global financial crisis and weak exports",
+    "A sharp rise in agricultural exports alone",
+    "The introduction of GST and higher tax compliance"
+   ],
+   "a": 1,
+   "x": "The 2008 crisis and weak exports adversely affected borrowers' cash flows and contributed to stress in bank assets.",
+   "ty": "fact",
+   "tq": "Select the paired external shocks that explain the deterioration in repayment capacity.",
+   "sec": "Causes of NPAs - infrastructure lending, evergreening, wilful defaulters"
+  },
+  {
+   "s": "A wilful defaulter is a borrower who:",
+   "o": [
+    "Can pay but does not, or diverts borrowed funds",
+    "Cannot pay because of a temporary fall in income",
+    "Has an account overdue for less than 30 days",
+    "Has repaid the loan before its due date"
+   ],
+   "a": 0,
+   "x": "A wilful defaulter has the capacity to repay but refuses to do so or diverts the borrowed funds.",
+   "ty": "confusable",
+   "tq": "Distinguish deliberate non-payment from inability to repay.",
+   "sec": "Causes of NPAs - infrastructure lending, evergreening, wilful defaulters"
+  },
+  {
+   "s": "Evergreening of loans means:",
+   "o": [
+    "Increasing provisions against standard assets",
+    "Writing off all old loans immediately",
+    "Converting all NPAs into equity automatically",
+    "Giving fresh loans to repay old loans and conceal default"
+   ],
+   "a": 3,
+   "x": "Evergreening involves extending fresh loans to repay old loans, thereby keeping the underlying default hidden.",
+   "ty": "fact",
+   "tq": "Recognise the concealment mechanism rather than confuse it with write-off or restructuring.",
+   "sec": "Causes of NPAs - infrastructure lending, evergreening, wilful defaulters"
+  },
+  {
+   "s": "Which one of the following was a direct effect of the Asset Quality Review on evergreening?",
+   "o": [
+    "It strengthened the practice of concealing defaults",
+    "It reduced the need for provisioning",
+    "It ended the practice of evergreening by uncovering hidden stress",
+    "It converted all loans into standard assets"
+   ],
+   "a": 2,
+   "x": "The Asset Quality Review exposed hidden stress and ended the practice of keeping defaults concealed through evergreening.",
+   "ty": "application",
+   "tq": "Connect the regulatory intervention with its specific outcome.",
+   "sec": "Causes of NPAs - infrastructure lending, evergreening, wilful defaulters"
+  },
+  {
+   "s": "Which combination correctly identifies two structural causes of NPAs?\n1. Weak credit appraisal\n2. Slow recovery laws\n3. Automatic repayment by promoters\n4. Strict appraisal of every infrastructure project\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 4 only",
+    "3 and 4 only"
+   ],
+   "a": 0,
+   "x": "Weak credit appraisal and slow recovery laws contributed to NPAs. Automatic repayment and strict appraisal are not causes identified in this context.",
+   "ty": "statements",
+   "tq": "Separate documented weaknesses from statements that describe their opposite.",
+   "sec": "Causes of NPAs - infrastructure lending, evergreening, wilful defaulters"
+  },
+  {
+   "s": "Arrange the following stages of the NPA vicious cycle in the correct sequence:\nA. Provisioning and capital erosion\nB. Aggressive lending and external shocks\nC. Weak credit growth\nD. Accumulation of NPAs",
+   "o": [
+    "B, D, A, C",
+    "B, A, D, C",
+    "D, B, A, C",
+    "B, D, C, A"
+   ],
+   "a": 0,
+   "x": "Aggressive lending and shocks lead to NPAs, which require provisioning and cause capital erosion, resulting in weak credit growth.",
+   "ty": "chronology",
+   "tq": "Follow the causal sequence from initial shock to the final credit consequence.",
+   "sec": "Causes of NPAs - infrastructure lending, evergreening, wilful defaulters"
+  },
+  {
+   "s": "The Asset Quality Review was carried out by the RBI in:",
+   "o": [
+    "2013",
+    "2014",
+    "2015",
+    "2017"
+   ],
+   "a": 2,
+   "x": "The RBI conducted the Asset Quality Review in 2015.",
+   "ty": "fact",
+   "tq": "Recall the intervention year and distinguish it from the later NPA peak.",
+   "sec": "Asset Quality Review - year, purpose, outcome"
+  },
+  {
+   "s": "The principal purpose of the Asset Quality Review was to:",
+   "o": [
+    "Increase bank deposits through higher interest rates",
+    "Uncover hidden NPAs and make banks recognise them",
+    "Replace the monetary policy framework",
+    "Provide automatic loan waivers to infrastructure companies"
+   ],
+   "a": 1,
+   "x": "The AQR was designed to uncover hidden NPAs and ensure that banks recognised the underlying asset quality problems.",
+   "ty": "application",
+   "tq": "Identify the regulatory purpose rather than a general banking reform objective.",
+   "sec": "Asset Quality Review - year, purpose, outcome"
+  },
+  {
+   "s": "Which of the following correctly describes the outcome of the Asset Quality Review?\n1. Disclosed NPAs increased sharply.\n2. NPA levels peaked in 2018.\n3. The twin balance sheet problem was exposed.\n4. Hidden defaults continued to be classified as standard in all cases.\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. The AQR was intended to end, not perpetuate, the concealment of defaults as standard assets.",
+   "ty": "statements",
+   "tq": "Reject the absolute reversal of the review's transparency objective.",
+   "sec": "Asset Quality Review - year, purpose, outcome"
+  },
+  {
+   "s": "The Government's 4R strategy in response to the banking-sector stress consisted of:",
+   "o": [
+    "Recognise, Resolve, Recapitalise and Reform",
+    "Recognise, Restructure, Reprice and Reimburse",
+    "Review, Refinance, Restrict and Reform",
+    "Recover, Reduce, Regulate and Reinvest"
+   ],
+   "a": 0,
+   "x": "The four Rs were Recognise, Resolve, Recapitalise and Reform. The response included the IBC, recapitalisation and NARCL.",
+   "ty": "fact",
+   "tq": "Recall the exact expansion of a policy framework acronym.",
+   "sec": "Asset Quality Review - year, purpose, outcome"
+  },
+  {
+   "s": "Which of the following measures formed part of the Government's response to the NPA problem under the 4R strategy?\n1. Insolvency and Bankruptcy Code\n2. Bank recapitalisation\n3. National Asset Reconstruction Company Limited\n4. Abolition of provisioning norms\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "The response included the IBC, recapitalisation and NARCL. Provisioning norms were not abolished.",
+   "ty": "statements",
+   "tq": "Identify the genuine policy instruments and eliminate the measure that contradicts banking prudence.",
+   "sec": "Asset Quality Review - year, purpose, outcome"
+  }
+ ]
+}

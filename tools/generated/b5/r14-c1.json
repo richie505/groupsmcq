@@ -1,0 +1,413 @@
+{
+ "book": 5,
+ "row": 14,
+ "chunk": 1,
+ "section": "ICT in day-to-day life - mobile telephony, social media, e-commerce, digital media",
+ "subsections": [
+  "E-commerce - models, FDI, Consumer Protection (E-Commerce) Rules 2020",
+  "E-mail and video conferencing - address parts, attachments, components",
+  "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 28,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Match List-I with List-II:\n\nList-I (E-commerce model)\na. B2B\nb. B2C\nc. C2C\nd. D2C\n\nList-II (Nature of transaction)\ni. Brand sells directly to the consumer without a middleman\nii. Business sells to another business\niii. Consumer sells to another consumer\naiv. Business sells to the consumer\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–ii, c–i, d–iii",
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iii, b–iv, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "B2B denotes business-to-business transactions, B2C business-to-consumer transactions, C2C consumer-to-consumer transactions, and D2C direct brand-to-consumer sales.",
+   "ty": "match",
+   "tq": "Start from the sure pair and eliminate codes containing a reversed business-consumer relationship.",
+   "sec": "E-commerce - models, FDI, Consumer Protection (E-Commerce) Rules 2020"
+  },
+  {
+   "s": "With reference to ONDC, consider the following statements:\n1. It is an open, network-based protocol.\n2. It functions as a single e-commerce platform owned by one seller.\n3. It can connect a buyer application with a seller across B2C and B2B transactions.\n4. It is intended to help MSMEs.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 3 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "ONDC is a network-based protocol rather than a single platform. It connects buyer and seller applications across B2C and B2B transactions and is intended to benefit MSMEs.",
+   "ty": "statements",
+   "tq": "Reject the statement that changes a network protocol into a single platform.",
+   "sec": "E-commerce - models, FDI, Consumer Protection (E-Commerce) Rules 2020"
+  },
+  {
+   "s": "ONDC was beta-tested in which of the following places?",
+   "o": [
+    "Ahmedabad",
+    "Hyderabad",
+    "New Delhi",
+    "Bengaluru"
+   ],
+   "a": 3,
+   "x": "The beta testing of ONDC took place in Bengaluru.",
+   "ty": "fact",
+   "tq": "Use the location-specific recall approach for pilot and beta-test questions.",
+   "sec": "E-commerce - models, FDI, Consumer Protection (E-Commerce) Rules 2020"
+  },
+  {
+   "s": "Which one of the following correctly describes the textbook position regarding Foreign Direct Investment in e-commerce?",
+   "o": [
+    "FDI is permitted only in the inventory model and prohibited in the marketplace model.",
+    "100% FDI is permitted under the automatic route in both marketplace and inventory models.",
+    "100% FDI is permitted under the automatic route in the marketplace model, while FDI is not permitted in the inventory model.",
+    "FDI is prohibited in both marketplace and inventory models."
+   ],
+   "a": 2,
+   "x": "The stated textbook position permits 100% FDI under the automatic route in the marketplace model but does not permit FDI in the inventory model.",
+   "ty": "comparison",
+   "tq": "Split the options by comparing the treatment of marketplace and inventory models.",
+   "sec": "E-commerce - models, FDI, Consumer Protection (E-Commerce) Rules 2020"
+  },
+  {
+   "s": "The Consumer Protection (E-Commerce) Rules, 2020 derive their legal basis from the:",
+   "o": [
+    "Consumer Protection Act, 2019",
+    "Digital Personal Data Protection Act, 2023",
+    "Companies Act, 2013",
+    "Information Technology Act, 2000"
+   ],
+   "a": 0,
+   "x": "The Consumer Protection (E-Commerce) Rules, 2020 were framed under the Consumer Protection Act, 2019.",
+   "ty": "fact",
+   "tq": "Apply the parent-statute trap by distinguishing consumer law from information-technology law.",
+   "sec": "E-commerce - models, FDI, Consumer Protection (E-Commerce) Rules 2020"
+  },
+  {
+   "s": "The Consumer Protection (E-Commerce) Rules, 2020 apply to which of the following entities and require which of the following measures?\n1. Marketplace entities\n2. Inventory entities\n3. Appointment of a grievance officer\n4. Display of the country of origin\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The Rules cover both marketplace and inventory entities. They also require a grievance officer and display of the country of origin.",
+   "ty": "statements",
+   "tq": "When all listed regulatory duties and covered entities fit the provision, select the complete combination.",
+   "sec": "E-commerce - models, FDI, Consumer Protection (E-Commerce) Rules 2020"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "SMTP — sending e-mail",
+    "SMTP — receiving e-mail from a mail server",
+    "POP3/IMAP — sending e-mail to a mail server",
+    "BCC — displaying all recipients to one another"
+   ],
+   "a": 0,
+   "x": "SMTP is used for sending e-mail. POP3 and IMAP are used for receiving mail, while BCC hides recipients from one another.",
+   "ty": "confusable",
+   "tq": "Discriminate between the sending protocol, receiving protocols and recipient-copy fields.",
+   "sec": "E-mail and video conferencing - address parts, attachments, components"
+  },
+  {
+   "s": "A sender wants to send copies of an e-mail to several recipients without revealing the recipients' addresses to one another. Which field should be used?",
+   "o": [
+    "IMAP",
+    "BCC",
+    "CC",
+    "SMTP"
+   ],
+   "a": 1,
+   "x": "BCC, or blind carbon copy, sends copies while hiding the recipients' addresses from one another.",
+   "ty": "application",
+   "tq": "Translate the privacy requirement in the scenario into the correct e-mail field.",
+   "sec": "E-mail and video conferencing - address parts, attachments, components"
+  },
+  {
+   "s": "The Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 were framed under which provision of the Information Technology Act?",
+   "o": [
+    "Section 87",
+    "Section 43",
+    "Section 79",
+    "Section 66"
+   ],
+   "a": 0,
+   "x": "The IT Rules, 2021 were framed under Section 87 of the Information Technology Act.",
+   "ty": "fact",
+   "tq": "Use exact-section recall and distinguish the rule-making provision from the safe-harbour provision.",
+   "sec": "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers"
+  },
+  {
+   "s": "The IT (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 replaced the guidelines issued in:",
+   "o": [
+    "2000",
+    "2008",
+    "2011",
+    "2016"
+   ],
+   "a": 2,
+   "x": "The 2021 Rules replaced the Information Technology (Intermediary Guidelines) Rules, 2011.",
+   "ty": "numerical",
+   "tq": "Use the year-sequence trap by distinguishing the replaced guidelines from the later rules.",
+   "sec": "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers"
+  },
+  {
+   "s": "Consider the following statements regarding the IT Rules, 2021:\n1. They regulate social media intermediaries.\n2. They regulate OTT platforms and digital news.\n3. They include a Code of Ethics.\n4. They provide for a three-tier grievance redressal system.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The IT Rules, 2021 cover social media, OTT and digital news platforms, and contain both a Code of Ethics and a three-tier grievance redressal mechanism.",
+   "ty": "statements",
+   "tq": "Check whether each statement describes a separate component of the regulatory framework before selecting the complete set.",
+   "sec": "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers"
+  },
+  {
+   "s": "Under the IT Amendment Rules, 2023, an intermediary may lose safe-harbour protection under which section if it ignores government orders concerning false content?",
+   "o": [
+    "Section 43",
+    "Section 79",
+    "Section 69",
+    "Section 87"
+   ],
+   "a": 1,
+   "x": "The 2023 amendment links failure to comply with government orders on false content with loss of safe-harbour protection under Section 79 of the IT Act.",
+   "ty": "fact",
+   "tq": "Distinguish the substantive safe-harbour section from the rule-making section.",
+   "sec": "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers"
+  },
+  {
+   "s": "The IT Rules were amended again in:",
+   "o": [
+    "February 2026",
+    "February 2025",
+    "February 2024",
+    "August 2026"
+   ],
+   "a": 0,
+   "x": "The IT Rules were amended again in February 2026.",
+   "ty": "numerical",
+   "tq": "Use precise month-year recall for a current-affairs amendment.",
+   "sec": "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers"
+  },
+  {
+   "s": "What change was proposed in the draft dated 30 March 2026 concerning online content?",
+   "o": [
+    "Only courts could issue notices to digital news platforms.",
+    "The Ministry of Information and Broadcasting could send takedown notices directly to individual users.",
+    "All social-media intermediaries were exempted from takedown obligations.",
+    "The Ministry of Electronics and Information Technology was abolished as a regulator."
+   ],
+   "a": 1,
+   "x": "The draft dated 30 March 2026 proposed enabling the Ministry of Information and Broadcasting to send takedown notices to individual users.",
+   "ty": "fact",
+   "tq": "Identify the changed authority and affected party rather than being distracted by unrelated regulatory changes.",
+   "sec": "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers"
+  },
+  {
+   "s": "According to a Lok Sabha reply, how many OTT platforms were blocked over a period of two years for obscenity or violations of the Information Technology Act?",
+   "o": [
+    "25",
+    "40",
+    "50",
+    "75"
+   ],
+   "a": 2,
+   "x": "The number of OTT platforms reported as blocked was 50, for reasons including obscenity or violations of the IT Act.",
+   "ty": "numerical",
+   "tq": "Use numerical discrimination among nearby figures; the reported count is the key fact.",
+   "sec": "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers"
+  },
+  {
+   "s": "Which one of the following is a principal feature of the Promotion and Regulation of Online Gaming Act, 2025?",
+   "o": [
+    "It transferred online gaming regulation exclusively to State governments.",
+    "It prohibited e-sports registration.",
+    "It banned all forms of digital communication.",
+    "It banned real-money gaming."
+   ],
+   "a": 3,
+   "x": "The Promotion and Regulation of Online Gaming Act, 2025 banned real-money gaming.",
+   "ty": "fact",
+   "tq": "Reject extreme distractors and identify the specific activity targeted by the legislation.",
+   "sec": "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers"
+  },
+  {
+   "s": "Consider the following statements regarding the rules under the Online Gaming Act, 2025:\n1. The rules were notified in April 2026.\n2. They took effect on 1 May 2026.\n3. They created the Online Gaming Authority of India.\n4. Registration of e-sports was made mandatory.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The rules were notified in April 2026, came into effect on 1 May 2026, established the Online Gaming Authority of India, and made e-sports registration mandatory.",
+   "ty": "statements",
+   "tq": "Separate the notification date from the commencement date and test the institutional consequences together.",
+   "sec": "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers"
+  },
+  {
+   "s": "The Online Gaming Authority of India is described as a digital attached office of the:",
+   "o": [
+    "Ministry of Information and Broadcasting",
+    "Ministry of Youth Affairs and Sports",
+    "Ministry of Home Affairs",
+    "Ministry of Electronics and Information Technology"
+   ],
+   "a": 3,
+   "x": "The Online Gaming Authority of India is a digital attached office of the Ministry of Electronics and Information Technology.",
+   "ty": "fact",
+   "tq": "Apply the wrong-ministry trap by matching the authority with its parent ministry.",
+   "sec": "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers"
+  },
+  {
+   "s": "Gig workers and platform workers were defined for the first time in which legislation?",
+   "o": [
+    "Code on Social Security, 2020",
+    "Industrial Relations Code, 2020",
+    "Consumer Protection Act, 2019",
+    "Code on Wages, 2019"
+   ],
+   "a": 0,
+   "x": "The Code on Social Security, 2020 provided the first statutory definitions of gig workers and platform workers.",
+   "ty": "fact",
+   "tq": "Use the subject-matter match: social-security definitions belong to the Code on Social Security.",
+   "sec": "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers"
+  },
+  {
+   "s": "Under the framework concerning gig and platform workers, who is required to contribute to their social-security fund?",
+   "o": [
+    "The aggregators",
+    "Only the workers themselves",
+    "Only State governments",
+    "Consumers using digital platforms"
+   ],
+   "a": 0,
+   "x": "Aggregators are required to contribute to the social-security fund for gig and platform workers.",
+   "ty": "application",
+   "tq": "Ask who bears the statutory contribution obligation rather than who receives the benefit.",
+   "sec": "Digital platforms regulation - IT Rules 2021, Online Gaming Act 2025, gig workers"
+  },
+  {
+   "s": "Under Section 9 of the Digital Personal Data Protection Act, a person below what age is treated as a child?",
+   "o": [
+    "13 years",
+    "14 years",
+    "16 years",
+    "18 years"
+   ],
+   "a": 3,
+   "x": "The DPDP Act treats anyone below 18 years as a child and requires verifiable parental consent for processing the child's personal data.",
+   "ty": "numerical",
+   "tq": "Distinguish the Indian statutory threshold from lower age limits used in other digital-policy debates.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which safeguard is required under Section 9 of the Digital Personal Data Protection Act for processing the personal data of a child?",
+   "o": [
+    "No consent if the service is provided online",
+    "Verifiable parental consent",
+    "Consent only from the child's school",
+    "Approval from the Election Commission of India"
+   ],
+   "a": 1,
+   "x": "Section 9 requires verifiable parental consent for processing the personal data of a child.",
+   "ty": "application",
+   "tq": "Convert the statutory requirement into a practical digital-platform situation.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The proposed separate law on age-based access to social media is reported to favour:",
+   "o": [
+    "A ban limited only to digital news platforms",
+    "Unrestricted access without age verification",
+    "A blanket ban for every person below 18 years",
+    "Graded limits based on age rather than a blanket ban"
+   ],
+   "a": 3,
+   "x": "The proposed approach favours graded limits based on age instead of imposing a blanket ban on all persons below a specified age.",
+   "ty": "comparison",
+   "tq": "Focus on the contrast between graded regulation and an absolute prohibition.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Digital India completed 11 years during which period?",
+   "o": [
+    "2014–2025",
+    "2015–2026",
+    "2016–2027",
+    "2017–2028"
+   ],
+   "a": 1,
+   "x": "Digital India was described as completing 11 years during 2015–2026.",
+   "ty": "numerical",
+   "tq": "Calculate the duration from the stated start and completion years instead of relying on a familiar launch-year guess.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following initiatives are identified as being associated with the Digital India journey?\n1. JAM\n2. eSanjeevani\n3. GeM\n4. ONDC\n5. AgriStack\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 3, 4 and 5 only",
+    "2, 3 and 4 only",
+    "1, 2, 3, 4 and 5"
+   ],
+   "a": 3,
+   "x": "The listed Digital India initiatives include JAM, eSanjeevani, GeM, ONDC and AgriStack.",
+   "ty": "statements",
+   "tq": "Test a named initiative list as a complete set and avoid excluding an item merely because it belongs to a different sector.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which country has the world's first nationwide under-16 social-media ban, effective from 10 December 2025?",
+   "o": [
+    "United Kingdom",
+    "New Zealand",
+    "Australia",
+    "Canada"
+   ],
+   "a": 2,
+   "x": "Australia introduced the world's first nationwide under-16 social-media ban, effective from 10 December 2025.",
+   "ty": "fact",
+   "tq": "Use country-date pairing and distinguish a nationwide measure from a regional restriction.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Supreme Court directed the government to frame guidelines relating to:",
+   "o": [
+    "Online content",
+    "Foreign direct investment in inventory e-commerce",
+    "E-mail attachment formats",
+    "Mobile tower radiation limits"
+   ],
+   "a": 0,
+   "x": "The Supreme Court directed the government to frame guidelines concerning online content.",
+   "ty": "fact",
+   "tq": "Match the judicial direction with the correct digital-policy subject rather than a technical ICT issue.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which age-based social-media restriction is associated with Andhra Pradesh?",
+   "o": [
+    "A ban for persons below 10 years",
+    "A ban for persons below 16 years",
+    "A ban for persons below 13 years",
+    "A ban for persons below 18 years"
+   ],
+   "a": 2,
+   "x": "The Andhra Pradesh measure is described as an under-13 social-media ban.",
+   "ty": "numerical",
+   "tq": "Compare the State-specific age threshold with the separate national child-data threshold.",
+   "sec": "Universal angles"
+  }
+ ]
+}

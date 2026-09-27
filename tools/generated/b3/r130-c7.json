@@ -1,0 +1,275 @@
+{
+ "book": 3,
+ "row": 130,
+ "chunk": 7,
+ "section": "AP state finances - revenue receipts and expenditure, debt and interest payments, latest AP Budget",
+ "subsections": [
+  "Expenditure quality indicators - capex-to-GSDP, RE-to-capital outlay ratio",
+  "Salary and pension reforms - PRC, Guaranteed Pension System",
+  "Developmental vs non-developmental expenditure - classification",
+  "Public debt as % of GSDP - budget estimates by year",
+  "Debt composition - market loans, central loans, small savings, PF, guarantees",
+  "Debt-GSDP ceiling - AP FRBM target, FC recommended path"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 22,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "In Andhra Pradesh, the revenue expenditure to capital outlay ratio is estimated to change from approximately 9.3:1 in 2024-25 RE to approximately what ratio in 2026-27 BE?",
+   "o": [
+    "7.8:1",
+    "5.3:1",
+    "3.9:1",
+    "6.5:1"
+   ],
+   "a": 1,
+   "x": "The ratio is projected to improve from about 9.3:1 in 2024-25 RE to about 5.3:1 in 2026-27 BE, indicating a relatively stronger capital-outlay position.",
+   "ty": "numerical",
+   "tq": "Use the direction and magnitude of the change in the expenditure-quality indicator.",
+   "sec": "Expenditure quality indicators - capex-to-GSDP, RE-to-capital outlay ratio"
+  },
+  {
+   "s": "Consider the following statements regarding capital outlay by all States:\n1. Capital outlay was 2.17% of GDP in FY 2021-22.\n2. Capital outlay increased to 2.37% of GDP in FY 2024-25.\n3. Excluding SASCI, capital outlay rose from 2.11% to 2.37% during the period mentioned.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false: excluding SASCI, capital outlay fell from 2.11% to 1.92% in the estimates for 2025-26.",
+   "ty": "statements",
+   "tq": "Split the statements by checking the direction of the trend and the effect of excluding SASCI.",
+   "sec": "Expenditure quality indicators - capex-to-GSDP, RE-to-capital outlay ratio"
+  },
+  {
+   "s": "The States' Accelerated Scheme for Capital Investment (SASCI) is associated with which of the following?\n1. Fifty-year interest-free loans for capital expenditure\n2. Allocation of Rs. 1.5 lakh crore in 2025-26\n3. Loans intended exclusively for revenue expenditure\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "SASCI provides 50-year interest-free loans for capital expenditure, with Rs. 1.5 lakh crore allocated in 2025-26. It is not intended exclusively for revenue expenditure.",
+   "ty": "statements",
+   "tq": "Reject the statement that reverses capital expenditure and revenue expenditure.",
+   "sec": "Expenditure quality indicators - capex-to-GSDP, RE-to-capital outlay ratio"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with respect to expenditure classification?",
+   "o": [
+    "Education and health — General services",
+    "Police and defence — Economic services",
+    "Agriculture and irrigation — Economic services",
+    "Interest payments and pensions — Social services"
+   ],
+   "a": 2,
+   "x": "Agriculture and irrigation are economic services and therefore developmental expenditure. Police, defence, interest payments and pensions are classified under non-developmental expenditure.",
+   "ty": "match",
+   "tq": "Classify each item by identifying whether it promotes social or economic development or represents general government services.",
+   "sec": "Developmental vs non-developmental expenditure - classification"
+  },
+  {
+   "s": "Which one of the following is classified as non-developmental expenditure in the public finance classification?",
+   "o": [
+    "Irrigation",
+    "Maintenance of law and order",
+    "Rural development",
+    "Nutrition programmes"
+   ],
+   "a": 1,
+   "x": "Maintenance of law and order is a general service and is classified as non-developmental expenditure. Rural development, nutrition and irrigation are developmental activities.",
+   "ty": "negative",
+   "tq": "Identify the general-service item among social and economic services.",
+   "sec": "Developmental vs non-developmental expenditure - classification"
+  },
+  {
+   "s": "Consider the following statements about developmental and non-developmental expenditure:\n1. Developmental expenditure may be incurred as revenue expenditure.\n2. Salaries of teachers can constitute developmental revenue expenditure.\n3. Construction of irrigation dams can constitute developmental capital expenditure.\n4. The developmental classification is identical to the revenue-capital classification.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is false: the developmental/non-developmental division cuts across the revenue/capital division.",
+   "ty": "statements",
+   "tq": "Separate two intersecting classifications instead of treating them as identical.",
+   "sec": "Developmental vs non-developmental expenditure - classification"
+  },
+  {
+   "s": "Which one of the following represents a non-developmental item under the general-services classification?",
+   "o": [
+    "Energy development",
+    "Water supply",
+    "Housing for welfare purposes",
+    "Tax-collection charges"
+   ],
+   "a": 3,
+   "x": "Tax-collection charges are general government services and are classified as non-developmental expenditure. Water supply, housing welfare and energy development are developmental items.",
+   "ty": "odd_one_out",
+   "tq": "Find the general administrative service among social and economic development items.",
+   "sec": "Developmental vs non-developmental expenditure - classification"
+  },
+  {
+   "s": "The public debt of Andhra Pradesh as a percentage of GSDP was estimated at 33.71% in which of the following budget categories?",
+   "o": [
+    "2023-24 RE",
+    "2024-25 BE",
+    "2022-23 Actuals",
+    "2026-27 BE"
+   ],
+   "a": 0,
+   "x": "The public debt-GSDP ratio for Andhra Pradesh was estimated at 33.71% in 2023-24 RE. The corresponding figures were 34.14% for 2024-25 BE and 36% for 2026-27 BE.",
+   "ty": "fact",
+   "tq": "Match the precise percentage with the correct budget year and estimate category.",
+   "sec": "Public debt as % of GSDP - budget estimates by year"
+  },
+  {
+   "s": "Arrange the following Andhra Pradesh public debt-GSDP ratios in ascending order:\nA. 2022-23 Actual — 32.60%\nB. 2023-24 RE — 33.71%\nC. 2024-25 BE — 34.14%\nD. 2026-27 BE — 36%",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The ratios rise sequentially from 32.60% to 33.71%, 34.14% and finally 36%.",
+   "ty": "chronology",
+   "tq": "Arrange the numerical values from the smallest to the largest before checking the year labels.",
+   "sec": "Public debt as % of GSDP - budget estimates by year"
+  },
+  {
+   "s": "Consider the following statements regarding the composition of Andhra Pradesh's outstanding debt:\n1. Market loans were Rs. 3,11,235 crore in 2022-23 and Rs. 4,24,070 crore in 2024-25 RE.\n2. Central loans were Rs. 24,508 crore in 2022-23 and Rs. 42,910 crore in 2024-25 RE.\n3. Provident Fund liabilities were Rs. 28,278 crore in 2022-23 and Rs. 31,188 crore in 2024-25 RE.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly state the amounts of market loans, central loans and Provident Fund liabilities for 2022-23 and 2024-25 RE.",
+   "ty": "statements",
+   "tq": "Verify each numerical pair independently before selecting the combined code.",
+   "sec": "Debt composition - market loans, central loans, small savings, PF, guarantees"
+  },
+  {
+   "s": "Which one of the following correctly represents the movement of small-savings loans of Andhra Pradesh?",
+   "o": [
+    "Rs. 5,506 crore in 2022-23, Rs. 6,640 crore in 2023-24 and Rs. 7,813 crore in 2024-25 RE",
+    "Rs. 6,640 crore in 2022-23, Rs. 7,813 crore in 2023-24 and Rs. 5,506 crore in 2024-25 RE",
+    "Rs. 7,813 crore in 2022-23, Rs. 5,506 crore in 2023-24 and Rs. 6,640 crore in 2024-25 RE",
+    "Rs. 7,813 crore in 2022-23, Rs. 6,640 crore in 2023-24 and Rs. 5,506 crore in 2024-25 RE"
+   ],
+   "a": 3,
+   "x": "Small-savings loans declined from Rs. 7,813 crore in 2022-23 to Rs. 6,640 crore in 2023-24 and Rs. 5,506 crore in 2024-25 RE.",
+   "ty": "numerical",
+   "tq": "Track the sequence of three closely related figures and detect the declining trend.",
+   "sec": "Debt composition - market loans, central loans, small savings, PF, guarantees"
+  },
+  {
+   "s": "In Andhra Pradesh's debt composition for 2024-25 RE, which component accounted for approximately 75%?",
+   "o": [
+    "Provident Fund",
+    "Central loans",
+    "Small-savings loans",
+    "Market loans"
+   ],
+   "a": 3,
+   "x": "Market loans were estimated at Rs. 4,24,070 crore and accounted for approximately 75% of the debt composition in 2024-25 RE.",
+   "ty": "fact",
+   "tq": "Match the dominant share with the largest debt component.",
+   "sec": "Debt composition - market loans, central loans, small savings, PF, guarantees"
+  },
+  {
+   "s": "Consider the following statements about Andhra Pradesh's debt and guarantees:\n1. Market borrowing was estimated at Rs. 4,83,093 crore in 2025-26 RE.\n2. Small-savings deposits are transferred to the National Small Savings Fund.\n3. Guarantees are contingent liabilities and are included in outstanding debt.\n4. Guarantees were Rs. 1,77,328 crore, or 10% of GSDP, in the 2026-27 Budget.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 4 are correct. Statement 3 is false: guarantees are contingent liabilities outside outstanding debt.",
+   "ty": "statements",
+   "tq": "Spot the false statement that changes the accounting treatment of contingent liabilities.",
+   "sec": "Debt composition - market loans, central loans, small savings, PF, guarantees"
+  },
+  {
+   "s": "The guarantees of Andhra Pradesh were reported at Rs. 1,54,797 crore, equivalent to 11% of GSDP, in which period?",
+   "o": [
+    "2023-24",
+    "2024-25 RE",
+    "2022-23",
+    "2026-27 BE"
+   ],
+   "a": 0,
+   "x": "Guarantees were earlier reported at Rs. 1,54,797 crore, equivalent to 11% of GSDP, in 2023-24. In the 2026-27 Budget, they were Rs. 1,77,328 crore or 10% of GSDP.",
+   "ty": "fact",
+   "tq": "Distinguish the earlier guarantee figure from the later budget estimate.",
+   "sec": "Debt composition - market loans, central loans, small savings, PF, guarantees"
+  },
+  {
+   "s": "The FRBM framework, as amended in 2018, envisaged that by 31 March 2025:",
+   "o": [
+    "General Government debt would be at or below 50% of GDP and Central Government debt at or below 30% of GDP.",
+    "State Government debt would be at or below 40% of GSDP and Central Government debt at or below 20% of GDP.",
+    "General Government debt would be at or below 40% of GDP and Central Government debt at or below 60% of GDP.",
+    "General Government debt would be at or below 60% of GDP and Central Government debt at or below 40% of GDP."
+   ],
+   "a": 3,
+   "x": "The amended FRBM framework specified a General Government debt ceiling of 60% of GDP and a Central Government debt ceiling of 40% of GDP by 31 March 2025.",
+   "ty": "fact",
+   "tq": "Match each ceiling with the correct level of government and date.",
+   "sec": "Debt-GSDP ceiling - AP FRBM target, FC recommended path"
+  },
+  {
+   "s": "Consider the following statements regarding the recommendations of the Sixteenth Finance Commission:\n1. States' fiscal deficit is capped at 3% of GSDP.\n2. The Union Government's fiscal deficit is capped at 3.5% of GDP.\n3. States are to discontinue off-budget borrowings.\n4. Off-budget borrowings are to remain outside the budget to preserve fiscal transparency.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Statement 4 is false: the Sixteenth Finance Commission recommended bringing off-budget borrowings on budget and discontinuing them.",
+   "ty": "statements",
+   "tq": "Reject the statement that reverses the transparency requirement for off-budget borrowing.",
+   "sec": "Debt-GSDP ceiling - AP FRBM target, FC recommended path"
+  },
+  {
+   "s": "The Union Government's new debt anchor is targeted at approximately what level by 2030-31?",
+   "o": [
+    "45 ± 1% of GDP",
+    "60 ± 1% of GDP",
+    "40 ± 1% of GDP",
+    "50 ± 1% of GDP"
+   ],
+   "a": 3,
+   "x": "The Union Government's new debt anchor is 50 ± 1% of GDP by 2030-31.",
+   "ty": "numerical",
+   "tq": "Identify the precise target band rather than confusing it with the FRBM ceiling.",
+   "sec": "Debt-GSDP ceiling - AP FRBM target, FC recommended path"
+  },
+  {
+   "s": "Which one of the following correctly states the debt-GSDP comparison among the specified States for 2023-24 according to the Sixteenth Finance Commission comparison?",
+   "o": [
+    "Andhra Pradesh 37.9%, Punjab 38.3%, West Bengal 42.9%, Rajasthan 34.6%",
+    "Andhra Pradesh 38.3%, Punjab 37.9%, West Bengal 34.6%, Rajasthan 42.9%",
+    "Andhra Pradesh 42.9%, Punjab 34.6%, West Bengal 37.9%, Rajasthan 38.3%",
+    "Andhra Pradesh 34.6%, Punjab 42.9%, West Bengal 38.3%, Rajasthan 37.9%"
+   ],
+   "a": 3,
+   "x": "The comparison was Andhra Pradesh 34.6%, Punjab 42.9%, West Bengal 38.3% and Rajasthan 37.9% of GSDP.",
+   "ty": "comparison",
+   "tq": "Start with the sure State-value pair and verify the remaining pairs without reversing the columns.",
+   "sec": "Expenditure quality indicators - capex-to-GSDP, RE-to-capital outlay ratio"
+  }
+ ]
+}

@@ -1,0 +1,453 @@
+{
+ "book": 5,
+ "row": 45,
+ "chunk": 0,
+ "section": "Applications of space technology - agriculture, disaster management, telemedicine, tele-education, navigation",
+ "subsections": [
+  "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS",
+  "Bhuvan geoportals - versions, developer, SVAMITVA, Gati Shakti"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 31,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Remote sensing of the Earth's surface primarily involves obtaining information through:",
+   "o": [
+    "Measurement of underground seismic waves alone",
+    "Physical contact with the surface only",
+    "Collection of soil samples from selected locations",
+    "Reflected or emitted radiation without physical contact"
+   ],
+   "a": 3,
+   "x": "Remote sensing obtains information about the Earth's surface without physical contact by detecting reflected or emitted radiation.",
+   "ty": "fact",
+   "tq": "Use the definition and distinguish remote observation from direct physical measurement.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes passive remote sensing from active remote sensing?",
+   "o": [
+    "Passive sensors detect naturally available radiation, whereas active sensors transmit their own signal.",
+    "Passive sensors operate only at night, whereas active sensors operate only during the day.",
+    "Passive sensors emit radar signals, whereas active sensors depend only on sunlight.",
+    "Both passive and active sensors depend exclusively on solar radiation."
+   ],
+   "a": 0,
+   "x": "Passive remote sensing uses naturally available radiation such as solar radiation, while active systems transmit their own signal. Resourcesat and Oceansat illustrate passive applications, whereas RISAT uses radar.",
+   "ty": "confusable",
+   "tq": "Discriminate paired concepts by their defining operational difference.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Resourcesat — Passive remote sensing\n2. Oceansat — Passive remote sensing\n3. RISAT — Active radar remote sensing\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Resourcesat and Oceansat use naturally available radiation in passive remote sensing, while RISAT employs its own radar signal and is an active system.",
+   "ty": "statements",
+   "tq": "Check each technology against the defining feature of passive or active sensing.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Which satellite-system combination is correctly matched with its disaster-management application?",
+   "o": [
+    "RISAT/SAR — Flood mapping through clouds",
+    "INSAT-3DS — Mapping individual heart attacks",
+    "Oceansat — Property-card preparation",
+    "Cartosat — Detection of human disease spread"
+   ],
+   "a": 0,
+   "x": "RISAT/SAR can support flood mapping even through cloud cover. INSAT-3DS is used for cyclone tracking, Oceansat for ocean-state information and Cartosat for damage mapping.",
+   "ty": "match",
+   "tq": "Start from the sure satellite–application pair and eliminate mismatched uses.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Bhuvan combines inputs from RISAT/SAR and INSAT-3DS primarily to provide:",
+   "o": [
+    "Earthquake prediction through underground drilling",
+    "Flood-inundation maps and cyclone warnings",
+    "Individual medical diagnoses in remote areas",
+    "Gold-reserve estimates for coastal districts"
+   ],
+   "a": 1,
+   "x": "Bhuvan combines RISAT/SAR flood-related imagery and INSAT-3DS cyclone-track information to support flood-inundation mapping and cyclone warnings.",
+   "ty": "application",
+   "tq": "Link the satellite input to the stated decision-support output.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding disaster applications of satellites:\n1. Oceansat provides information related to ocean state.\n2. Cartosat can be used for damage mapping.\n3. INSAT-3DS is used for tracking cyclones.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Oceansat supports ocean-state observations, Cartosat supports damage mapping, and INSAT-3DS supports cyclone tracking; all three statements are correct.",
+   "ty": "statements",
+   "tq": "Verify each statement against the specific application of the named satellite.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Fire hotspots are primarily detected by which of the following sensor and satellite combinations?",
+   "o": [
+    "Thermal-infrared sensors on MODIS and VIIRS satellites",
+    "Ultrasonic sensors on Cartosat and Oceansat",
+    "Optical sensors on communication satellites only",
+    "Seismic sensors on INSAT-3DS and RISAT"
+   ],
+   "a": 0,
+   "x": "Fire hotspots are detected using thermal-infrared sensors, particularly MODIS on NASA's Terra and Aqua satellites and VIIRS on Suomi-NPP.",
+   "ty": "fact",
+   "tq": "Match the environmental phenomenon with the appropriate sensing band and platform.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "MODIS and VIIRS data used for fire-hotspot monitoring are received in India at the Earth station located at:",
+   "o": [
+    "Shadnagar",
+    "Chennai",
+    "Sriharikota",
+    "Ahmedabad"
+   ],
+   "a": 0,
+   "x": "Fire-hotspot data from MODIS and VIIRS are received at NRSC's Shadnagar Earth station and passed to the Forest Survey of India alert system.",
+   "ty": "fact",
+   "tq": "Test the precise location associated with a data-reception function.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "The fire-hotspot data received at Shadnagar are passed to which organisation's alert system?",
+   "o": [
+    "Survey of India",
+    "India Meteorological Department",
+    "Forest Survey of India",
+    "National Disaster Management Authority"
+   ],
+   "a": 2,
+   "x": "The data are passed to the Forest Survey of India alert system for forest-fire monitoring.",
+   "ty": "fact",
+   "tq": "Use the institutional-role trap by distinguishing data reception from alert generation.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "With reference to the Disaster Management Support Programme of ISRO, consider the following statements:\n1. It uses INSAT and IRS systems for warning and damage assessment.\n2. It is listed among the applications of INSAT.\n3. It supplies satellite imaging and communication support for several disasters.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The DMS Programme uses INSAT and IRS, is recognised as an INSAT application, and provides satellite imaging and communication support for floods, cyclones, droughts, fires, landslides and earthquakes.",
+   "ty": "statements",
+   "tq": "Test multiple institutional functions through a coded statement combination.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT an identified research and development area under ISRO's Disaster Management Support Programme?",
+   "o": [
+    "Coastal vulnerability assessment",
+    "Landslide early warning",
+    "Manufacture of commercial passenger aircraft",
+    "Cyclone-track and landfall prediction"
+   ],
+   "a": 2,
+   "x": "Cyclone prediction, coastal vulnerability and landslide early warning are identified DMS research areas. Manufacture of commercial passenger aircraft is not a DMS research area.",
+   "ty": "negative",
+   "tq": "Find the one option outside the stated disaster-management domain.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "The Decision Support Centre and the National Database for Emergency Management are located at:",
+   "o": [
+    "DRDO headquarters, New Delhi",
+    "NRSC, Hyderabad",
+    "Survey of India, Dehradun",
+    "SAC, Ahmedabad"
+   ],
+   "a": 1,
+   "x": "The Decision Support Centre and NDEM are housed at NRSC, Hyderabad. The centre acts as a single window for satellite inputs during disasters.",
+   "ty": "fact",
+   "tq": "Distinguish the location of the coordinating centre from other major space institutions.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "The National Database for Emergency Management (NDEM) is best described as:",
+   "o": [
+    "A GIS repository covering the full disaster-management cycle",
+    "A database exclusively for census enumeration",
+    "A communication network used only for television broadcasting",
+    "A satellite launch vehicle tracking system"
+   ],
+   "a": 0,
+   "x": "NDEM is a GIS repository designed to support the full disaster-management cycle.",
+   "ty": "fact",
+   "tq": "Expand the official acronym by identifying its functional description.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "During a disaster, the Decision Support Centre of NRSC functions primarily as:",
+   "o": [
+    "A single window for satellite inputs",
+    "A laboratory for manufacturing radar chips",
+    "A launch site for polar satellites",
+    "A centre for issuing driving licences"
+   ],
+   "a": 0,
+   "x": "The Decision Support Centre acts as a single window for satellite inputs required during disasters.",
+   "ty": "application",
+   "tq": "Identify the operational role of the institution rather than its name alone.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements regarding access to satellite data for disaster management is correct?",
+   "o": [
+    "Satellite data are released only after the disaster-management cycle ends.",
+    "States are prohibited from using satellite data during disasters.",
+    "States must request the relevant satellite data from NRSC.",
+    "Only foreign agencies can request Indian satellite data."
+   ],
+   "a": 2,
+   "x": "States must request satellite data from NRSC for disaster-management purposes.",
+   "ty": "fact",
+   "tq": "Apply the institutional-authority test: identify who supplies the requested data.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Microwave or Synthetic Aperture Radar (SAR) remote sensing is especially useful during floods because it can:",
+   "o": [
+    "Operate through cloud cover and in darkness",
+    "Replace all ground surveys under every condition",
+    "Predict the exact time of an earthquake",
+    "Detect only human heart attacks"
+   ],
+   "a": 0,
+   "x": "Microwave/SAR systems can observe through cloud cover and in darkness, making them useful for flood mapping during cloudy conditions.",
+   "ty": "application",
+   "tq": "Use the practical advantage of the technology to solve the stated disaster scenario.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Assam's proposal to use SAR satellites for flood-related observation is particularly relevant because the State is cloudy for approximately:",
+   "o": [
+    "One month in a year",
+    "Three months in a year",
+    "The entire year",
+    "Half the year"
+   ],
+   "a": 3,
+   "x": "Assam is reported to be cloudy for about half the year; SAR is useful because it can observe through cloud cover.",
+   "ty": "numerical",
+   "tq": "Test the approximate quantitative figure and connect it with the technology's advantage.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "InSAR is used in remote sensing primarily to:",
+   "o": [
+    "Map ground deformation by comparing radar images",
+    "Transmit cyclone warnings through television towers",
+    "Measure only ocean salinity from optical images",
+    "Identify crop diseases through manual inspection"
+   ],
+   "a": 0,
+   "x": "InSAR, or Interferometric SAR, maps ground deformation by comparing radar images of the Earth's surface.",
+   "ty": "fact",
+   "tq": "Break the technical term into its component parts and identify its use.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about NISAR:\n1. It can detect ground movement to the centimetre scale.\n2. It has applications in studying land subsidence, earthquakes and glaciers.\n3. It depends exclusively on visible-light images and cannot use radar observations.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "NISAR can detect centimetre-scale ground movement and is useful for land subsidence, earthquakes and glaciers. Statement 3 is false because NISAR uses radar observations.",
+   "ty": "statements",
+   "tq": "Reject the extreme and technically reversed statement while retaining the supported applications.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the role of the International Charter Space and Major Disasters?",
+   "o": [
+    "It coordinates space-based support during major disasters.",
+    "It prepares India's annual Union Budget.",
+    "It certifies all weather instruments sold in India.",
+    "It regulates commercial airline ticket prices."
+   ],
+   "a": 0,
+   "x": "The International Charter Space and Major Disasters provides space-based support for major disasters. ISRO took the lead role for six months from April 2025.",
+   "ty": "fact",
+   "tq": "Identify the function of an international mechanism from its institutional title.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "ISRO took the lead role in the International Charter Space and Major Disasters for six months beginning in:",
+   "o": [
+    "April 2023",
+    "April 2025",
+    "April 2026",
+    "April 2024"
+   ],
+   "a": 1,
+   "x": "ISRO assumed the lead role in the International Charter Space and Major Disasters for six months from April 2025.",
+   "ty": "numerical",
+   "tq": "Test the precise commencement date using closely spaced year options.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Which sequence correctly represents the communication chain in the INSAT Disaster Warning System?",
+   "o": [
+    "Coastal receiver → C-band uplink → Cyclone Warning Centre, Chennai → S-band downlink",
+    "Cyclone Warning Centre, Chennai → C-band uplink → S-band downlink → coastal receivers",
+    "S-band uplink → NRSC, Hyderabad → C-band downlink → inland receivers",
+    "Forest Survey of India → optical uplink → INSAT-3DS → ocean receivers"
+   ],
+   "a": 1,
+   "x": "The system follows the chain: Cyclone Warning Centre at Chennai, C-band uplink, S-band downlink and reception by coastal disaster-warning receivers.",
+   "ty": "chronology",
+   "tq": "Follow the first-to-last communication sequence and eliminate reversed links.",
+   "sec": "Remote sensing in disaster management - can/cannot monitor, satellites, fire hotspots, DMS  [APPSC]"
+  },
+  {
+   "s": "Bhuvan was launched in which year?",
+   "o": [
+    "2007",
+    "2008",
+    "2009",
+    "2011"
+   ],
+   "a": 2,
+   "x": "ISRO's Bhuvan geoportal was launched in 2009.",
+   "ty": "numerical",
+   "tq": "Use the year-specific recall pattern with nearby distractor years.",
+   "sec": "Bhuvan geoportals - versions, developer, SVAMITVA, Gati Shakti  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Bhoonidhi — Archive and hub for Indian and foreign Earth-observation data since 1988",
+    "MOSDAC — Property cards for rural households",
+    "VEDAS — MGNREGA wage-payment portal",
+    "Bhuvan Panchayat — Ocean-current forecasting only"
+   ],
+   "a": 0,
+   "x": "Bhoonidhi provides access to an archive of Indian and foreign Earth-observation data dating from 1988. MOSDAC concerns meteorological and oceanographic data, while VEDAS supports visualisation of Earth-observation data.",
+   "ty": "match",
+   "tq": "Start from the distinctive archive date and verify the portal's actual function.",
+   "sec": "Bhuvan geoportals - versions, developer, SVAMITVA, Gati Shakti  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Portal or service)\na. Bhuvan Panchayat\nb. Yuktdhara\nc. SVAMITVA\n d. PM Gati Shakti\nList-II (Primary use)\ni. National Master Plan GIS platform\n ii. Geospatial support for Gram Panchayat development planning\n iii. Drone mapping and property cards\n iv. Planning and monitoring MGNREGA assets\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–ii, c–i, d–iii",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–i, b–iii, c–ii, d–iv"
+   ],
+   "a": 0,
+   "x": "Bhuvan Panchayat supports Gram Panchayat planning; Yuktdhara concerns MGNREGA assets; SVAMITVA uses drone mapping and provides property cards; PM Gati Shakti is the National Master Plan GIS platform.",
+   "ty": "match",
+   "tq": "Start from the sure pair and check that each List-II item is used exactly once.",
+   "sec": "Bhuvan geoportals - versions, developer, SVAMITVA, Gati Shakti  [APPSC]"
+  },
+  {
+   "s": "SVAMITVA is associated with which of the following activities?",
+   "o": [
+    "Mapping of ocean temperature using weather satellites",
+    "Monitoring only urban metro-rail construction",
+    "Drone mapping of rural inhabited properties and preparation of property cards",
+    "Detection of forest fires through MODIS"
+   ],
+   "a": 2,
+   "x": "SVAMITVA involves drone mapping of rural inhabited properties in association with the Survey of India and supports the issue of property cards.",
+   "ty": "fact",
+   "tq": "Match the scheme with its distinctive field technology and output.",
+   "sec": "Bhuvan geoportals - versions, developer, SVAMITVA, Gati Shakti  [APPSC]"
+  },
+  {
+   "s": "Which organisation developed the PM Gati Shakti National Master Plan GIS platform?",
+   "o": [
+    "BISAG-N",
+    "India Meteorological Department",
+    "Forest Survey of India",
+    "National Remote Sensing Centre alone"
+   ],
+   "a": 0,
+   "x": "The PM Gati Shakti National Master Plan GIS platform was built by BISAG-N.",
+   "ty": "fact",
+   "tq": "Apply the wrong-agency trap by distinguishing the platform developer from other geospatial bodies.",
+   "sec": "Bhuvan geoportals - versions, developer, SVAMITVA, Gati Shakti  [APPSC]"
+  },
+  {
+   "s": "In Andhra Pradesh, the PM Gati Shakti platform integrated GIS layers across how many departments and layers, respectively?",
+   "o": [
+    "271 departments and 27 layers",
+    "27 departments and 172 layers",
+    "17 departments and 127 layers",
+    "27 departments and 271 layers"
+   ],
+   "a": 3,
+   "x": "The Andhra Pradesh implementation integrated 271 GIS layers across 27 departments.",
+   "ty": "numerical",
+   "tq": "Keep the paired numbers in their correct order and reject the reversed combination.",
+   "sec": "Bhuvan geoportals - versions, developer, SVAMITVA, Gati Shakti  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with its portal or service?",
+   "o": [
+    "MOSDAC — Meteorological and oceanographic satellite data",
+    "VEDAS — Property-card distribution under SVAMITVA",
+    "Bhoonidhi — Exclusive platform for MGNREGA asset planning",
+    "Srishti — Cyclone-warning receiver network"
+   ],
+   "a": 0,
+   "x": "MOSDAC provides meteorological and oceanographic satellite data. VEDAS visualises Earth-observation data, Bhoonidhi is an Earth-observation data hub, and Srishti concerns watershed monitoring.",
+   "ty": "match",
+   "tq": "Use nearby portal names as distractors and verify the exact service association.",
+   "sec": "Bhuvan geoportals - versions, developer, SVAMITVA, Gati Shakti  [APPSC]"
+  },
+  {
+   "s": "The Srishti service is associated with monitoring of:",
+   "o": [
+    "Rural property ownership through drones",
+    "Watersheds under IWMP",
+    "Oceanographic satellite data archives",
+    "Coastal cyclone warnings"
+   ],
+   "a": 1,
+   "x": "Srishti is used for watershed monitoring under the Integrated Watershed Management Programme (IWMP).",
+   "ty": "fact",
+   "tq": "Test a less prominent portal by its specific sectoral application.",
+   "sec": "Bhuvan geoportals - versions, developer, SVAMITVA, Gati Shakti  [APPSC]"
+  },
+  {
+   "s": "Which statement correctly describes Yuktdhara?",
+   "o": [
+    "It plans and monitors MGNREGA assets for Gram Panchayats.",
+    "It functions as a coastal cyclone-warning receiver.",
+    "It prepares property cards through urban cadastral surveys alone.",
+    "It provides only foreign Earth-observation data acquired before 1988."
+   ],
+   "a": 0,
+   "x": "Yuktdhara is used to plan and monitor MGNREGA assets for Gram Panchayats.",
+   "ty": "fact",
+   "tq": "Identify the exact service purpose while rejecting neighbouring portal functions.",
+   "sec": "Bhuvan geoportals - versions, developer, SVAMITVA, Gati Shakti  [APPSC]"
+  }
+ ]
+}

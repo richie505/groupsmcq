@@ -1,0 +1,314 @@
+{
+ "book": 3,
+ "row": 120,
+ "chunk": 0,
+ "section": "Approaches and initiatives in AP agriculture - APCNF/ZBNF, horticulture, aquaculture, allied sectors",
+ "subsections": [
+  "Farmer service institutions - year, count, features",
+  "AP farmer support schemes - amount, instalments, eligibility",
+  "Soil and crop health programmes - outlay and objective"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 23,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following statements regarding the administration of agricultural markets in Andhra Pradesh is correct?",
+   "o": [
+    "Rythu Bazars are run by Market Committees, whereas regulated yards are run by Estate Officers.",
+    "Rythu Bazars are run by Estate Officers, whereas regulated yards are run by Market Committees.",
+    "Both Rythu Bazars and regulated yards are run by District Collectors.",
+    "Both Rythu Bazars and regulated yards are run by Estate Officers."
+   ],
+   "a": 1,
+   "x": "A Rythu Bazar is run by an Estate Officer, while a regulated yard is run by a Market Committee.",
+   "ty": "comparison",
+   "tq": "Split the options by comparing the authorities responsible for two similar institutions.",
+   "sec": "Farmer service institutions - year, count, features"
+  },
+  {
+   "s": "Consider the following statements regarding Rythu Bazars in Andhra Pradesh:\n1. Farmers sell their produce directly to consumers.\n2. There are 129 functioning Rythu Bazars.\n3. Ten additional Rythu Bazars are under construction.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Rythu Bazars facilitate direct sale from farmers to consumers; 129 are functioning and 10 are under construction.",
+   "ty": "statements",
+   "tq": "Combine a service feature with numerical statements and test the complete combination.",
+   "sec": "Farmer service institutions - year, count, features"
+  },
+  {
+   "s": "In Rythu Bazars, prices are generally fixed at which of the following levels?",
+   "o": [
+    "About 25% below wholesale prices and above local retail prices",
+    "Equal to wholesale prices and above local retail prices",
+    "Equal to local retail prices and below wholesale prices",
+    "About 25% above wholesale prices and below local retail prices"
+   ],
+   "a": 3,
+   "x": "Rythu Bazar prices are fixed at about 25% above wholesale prices but below local retail prices.",
+   "ty": "fact",
+   "tq": "Test the direction of a comparison by separating the wholesale and retail reference points.",
+   "sec": "Farmer service institutions - year, count, features"
+  },
+  {
+   "s": "Rythu Bharosa Kendras were established in Andhra Pradesh in 2020 with an initial network of:",
+   "o": [
+    "12,478 centres",
+    "10,778 centres",
+    "8,489 centres",
+    "10,606 centres"
+   ],
+   "a": 1,
+   "x": "Rythu Bharosa Kendras were established in 2020, and 10,778 centres were set up beside village secretariats.",
+   "ty": "numerical",
+   "tq": "Match the institutional year with the original network count rather than the later functional count.",
+   "sec": "Farmer service institutions - year, count, features"
+  },
+  {
+   "s": "Rythu Bharosa Kendras are now known as Rythu Seva Kendras and have been rationalised to how many functional centres?",
+   "o": [
+    "8,489",
+    "10,606",
+    "10,778",
+    "12,489"
+   ],
+   "a": 0,
+   "x": "The centres are now called Rythu Seva Kendras, and the rationalised number of functional RSKs is 8,489.",
+   "ty": "numerical",
+   "tq": "Use the confusable-pair method to distinguish the original establishment count from the current functional count.",
+   "sec": "Farmer service institutions - year, count, features"
+  },
+  {
+   "s": "Which of the following services is NOT associated with Rythu Seva Kendras?",
+   "o": [
+    "Issuing industrial licences",
+    "Crop insurance facilitation",
+    "Soil testing",
+    "e-Panta booking"
+   ],
+   "a": 0,
+   "x": "RSKs provide agricultural services such as soil testing, e-Panta, CCRC issuance, input subsidies, crop insurance, drone awareness and procurement. Issuing industrial licences is not among these services.",
+   "ty": "negative",
+   "tq": "Find the one option outside the closely related group of agricultural services.",
+   "sec": "Farmer service institutions - year, count, features"
+  },
+  {
+   "s": "Consider the following statements about Rythu Seva Kendras:\n1. They are attached to village secretariats.\n2. They provide awareness regarding the use of drones in agriculture.\n3. They facilitate procurement.\n4. They issue Crop Cultivator Rights Cards.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "RSKs are attached to village secretariats and provide drone awareness, procurement support and CCRC issuance, along with other farmer services.",
+   "ty": "statements",
+   "tq": "When all listed services belong to the same institutional mandate, test the complete combination.",
+   "sec": "Farmer service institutions - year, count, features"
+  },
+  {
+   "s": "Doorstep veterinary care through Animal Husbandry Assistants is provided by how many Rythu Seva Kendras?",
+   "o": [
+    "8,489",
+    "10,606",
+    "10,778",
+    "12,000"
+   ],
+   "a": 1,
+   "x": "A total of 10,606 Rythu Seva Kendras provide doorstep veterinary care through Animal Husbandry Assistants.",
+   "ty": "numerical",
+   "tq": "Distinguish a service-specific count from the total and rationalised counts of the institution.",
+   "sec": "Farmer service institutions - year, count, features"
+  },
+  {
+   "s": "Rythu Sadhikara Samstha (RySS) is best described as:",
+   "o": [
+    "A cooperative bank incorporated in 2019",
+    "A not-for-profit company incorporated in October 2014",
+    "A statutory market committee established in 1999",
+    "A central government department established in 2020"
+   ],
+   "a": 1,
+   "x": "RySS is a not-for-profit company incorporated in October 2014.",
+   "ty": "fact",
+   "tq": "Use the organisation-type and incorporation-date combination to eliminate institutional distractors.",
+   "sec": "Farmer service institutions - year, count, features"
+  },
+  {
+   "s": "Which of the following activities is associated with Rythu Sadhikara Samstha?",
+   "o": [
+    "Conducting the Agriculture Census and publishing the Economic Survey",
+    "Running the Debt Redemption Scheme 2014 and the Andhra Pradesh Community-managed Natural Farming programme",
+    "Managing the PM-KISAN scheme for the entire country",
+    "Fixing retail prices in all regulated markets and issuing MSP notifications"
+   ],
+   "a": 1,
+   "x": "RySS ran the Debt Redemption Scheme 2014, under which assistance was provided up to ₹1.5 lakh per family, and currently runs APCNF.",
+   "ty": "fact",
+   "tq": "Identify the organisation by matching it with its distinctive schemes rather than a neighbouring government function.",
+   "sec": "Farmer service institutions - year, count, features"
+  },
+  {
+   "s": "Under the Debt Redemption Scheme 2014 implemented by RySS, assistance was provided up to:",
+   "o": [
+    "₹1.5 lakh per family",
+    "₹2 lakh per family",
+    "₹50,000 per family",
+    "₹1 lakh per family"
+   ],
+   "a": 0,
+   "x": "The Debt Redemption Scheme 2014 provided assistance up to ₹1.5 lakh per family.",
+   "ty": "numerical",
+   "tq": "Apply precise amount recall to a scheme-specific numerical provision.",
+   "sec": "Farmer service institutions - year, count, features"
+  },
+  {
+   "s": "Which one of the following correctly describes YSR Rythu Bharosa-PM Kisan during 2019–2024?",
+   "o": [
+    "₹12,000 per acre annually, restricted to landowners",
+    "₹6,000 per farmer family annually, covering only tenant farmers",
+    "₹13,500 per farmer family annually, covering owners, tenants and RoFR cultivators",
+    "₹20,000 per farmer family annually, restricted to CCRC holders"
+   ],
+   "a": 2,
+   "x": "During 2019–2024, YSR Rythu Bharosa-PM Kisan provided ₹13,500 per family per year and covered owners, tenant farmers and RoFR cultivators.",
+   "ty": "comparison",
+   "tq": "Separate the amount, period and beneficiary categories of two similarly named support schemes.",
+   "sec": "AP farmer support schemes - amount, instalments, eligibility"
+  },
+  {
+   "s": "The annual assistance under Annadata Sukhibhava-PM Kisan is:",
+   "o": [
+    "₹20,000 per farmer family, comprising ₹14,000 from the State and ₹6,000 from the Centre",
+    "₹12,000 per farmer family, comprising ₹6,000 from each government",
+    "₹13,500 per farmer family, entirely from the State Government",
+    "₹20,000 per acre, comprising ₹14,000 from the Centre and ₹6,000 from the State"
+   ],
+   "a": 0,
+   "x": "Annadata Sukhibhava-PM Kisan provides ₹20,000 per farmer family annually, including ₹14,000 from the State and ₹6,000 under PM-KISAN from the Centre.",
+   "ty": "numerical",
+   "tq": "Check both the unit of assistance and the State–Centre contribution split.",
+   "sec": "AP farmer support schemes - amount, instalments, eligibility"
+  },
+  {
+   "s": "With reference to Annadata Sukhibhava-PM Kisan, consider the following statements:\n1. It commenced from 2024–25 onwards.\n2. It includes tenant farmers holding CCRC.\n3. The ₹6,000 PM-KISAN component is meant for landholders.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Annadata Sukhibhava-PM Kisan operates from 2024–25 onwards, covers farmer families including CCRC-holding tenants, and includes the ₹6,000 PM-KISAN component for landholders.",
+   "ty": "statements",
+   "tq": "Test the scheme period and the distinction between tenant coverage and the landholder-linked central component.",
+   "sec": "AP farmer support schemes - amount, instalments, eligibility"
+  },
+  {
+   "s": "During 2025–26, Annadata Sukhibhava covered 46,85,838 families, including how many RoFR cultivator families?",
+   "o": [
+    "1,06,021",
+    "1,16,021",
+    "1,26,021",
+    "1,60,021"
+   ],
+   "a": 1,
+   "x": "The scheme covered 46,85,838 families in 2025–26, including 1,16,021 RoFR cultivator families.",
+   "ty": "numerical",
+   "tq": "Use exact numerical discrimination among closely spaced figures.",
+   "sec": "AP farmer support schemes - amount, instalments, eligibility"
+  },
+  {
+   "s": "In 2025–26, the amount paid under Annadata Sukhibhava was:",
+   "o": [
+    "₹6,309 crore in three instalments",
+    "₹5,309 crore in one instalment",
+    "₹7,260 crore in two instalments",
+    "₹6,309 crore in two instalments"
+   ],
+   "a": 3,
+   "x": "In 2025–26, ₹6,309 crore was paid under Annadata Sukhibhava in two instalments.",
+   "ty": "numerical",
+   "tq": "Distinguish the amount already paid from the amount proposed for the following year.",
+   "sec": "AP farmer support schemes - amount, instalments, eligibility"
+  },
+  {
+   "s": "For 2026–27, the proposed allocation under Annadata Sukhibhava was ₹7,260 crore for approximately:",
+   "o": [
+    "48 lakh families",
+    "51 lakh families",
+    "56 lakh families",
+    "46 lakh families"
+   ],
+   "a": 1,
+   "x": "For 2026–27, ₹7,260 crore was proposed to cover 51 lakh families.",
+   "ty": "numerical",
+   "tq": "Pair the proposed allocation with its intended beneficiary count, not the previous year's actual coverage.",
+   "sec": "AP farmer support schemes - amount, instalments, eligibility"
+  },
+  {
+   "s": "Crop insurance in Andhra Pradesh returned to voluntary enrolment from which agricultural season?",
+   "o": [
+    "Kharif 2024–25",
+    "Rabi 2023–24",
+    "Rabi 2024–25",
+    "Kharif 2023–24"
+   ],
+   "a": 2,
+   "x": "Crop insurance returned to voluntary enrolment from Rabi 2024–25, when 10.63 lakh farmers enrolled.",
+   "ty": "fact",
+   "tq": "Use the season-year combination to discriminate between adjacent agricultural periods.",
+   "sec": "AP farmer support schemes - amount, instalments, eligibility"
+  },
+  {
+   "s": "The primary objective of Soil Health Cards under the Rashtriya Krishi Vikas Yojana is to promote:",
+   "o": [
+    "Mandatory crop insurance enrolment",
+    "Universal mechanisation of farms",
+    "Direct export of horticultural produce",
+    "Judicious use of fertilisers"
+   ],
+   "a": 3,
+   "x": "Soil Health Cards promote judicious fertiliser use by providing information about soil conditions and nutrient requirements.",
+   "ty": "application",
+   "tq": "Identify the practical objective of a programme from the action it promotes.",
+   "sec": "Soil and crop health programmes - outlay and objective"
+  },
+  {
+   "s": "e-Crop booking at Rythu Seva Kendras is best understood as:",
+   "o": [
+    "A digital land-sale register used only for property taxation",
+    "A veterinary database used for livestock vaccination",
+    "An online market-price bulletin used only by regulated yards",
+    "A digital crop record used for insurance, MSP procurement, input subsidy and loss assessment"
+   ],
+   "a": 3,
+   "x": "e-Crop booking creates a digital crop record that serves as the basis for insurance, MSP procurement, input subsidy and loss assessment.",
+   "ty": "application",
+   "tq": "Match a digital system with the full set of decisions and benefits it supports.",
+   "sec": "Soil and crop health programmes - outlay and objective"
+  },
+  {
+   "s": "Which digital system performs for aqua farmers a function analogous to the function of e-Crop booking for crop farmers?",
+   "o": [
+    "Rythu Bharosa",
+    "e-Panta",
+    "CCRC issuance",
+    "e-Fish booking"
+   ],
+   "a": 3,
+   "x": "e-Fish booking provides the corresponding digital record function for aqua farmers.",
+   "ty": "confusable",
+   "tq": "Discriminate between similarly named digital services by identifying their beneficiary sector.",
+   "sec": "Soil and crop health programmes - outlay and objective"
+  }
+ ]
+}

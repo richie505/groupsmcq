@@ -1,0 +1,302 @@
+{
+ "book": 5,
+ "row": 34,
+ "chunk": 2,
+ "section": "ISRO - organisational structure, major centres and their functions",
+ "subsections": [
+  "DoS autonomous bodies - function",
+  "Second spaceport for SSLV - location and reason",
+  "FIRST Indian satellites and experiments → launch vehicle + site",
+  "Milestones - INCOSPAR, TERLS, ISRO, DoS",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 24,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nBody — Principal function",
+   "o": [
+    "Physical Research Laboratory — Atmospheric research",
+    "National Atmospheric Research Laboratory — Atmospheric research",
+    "North Eastern Space Applications Centre — Microelectronics and chip fabrication",
+    "Semi-Conductor Laboratory — Space and planetary science"
+   ],
+   "a": 1,
+   "x": "The National Atmospheric Research Laboratory (NARL), located at Gadanki, undertakes atmospheric research. The other functions are associated with PRL, NE-SAC and SCL respectively.",
+   "ty": "match",
+   "tq": "Start from the sure function-location pair and eliminate the swapped functions.",
+   "sec": "DoS autonomous bodies - function"
+  },
+  {
+   "s": "Consider the following statements regarding autonomous bodies associated with the Department of Space:\n1. The Physical Research Laboratory is located at Ahmedabad.\n2. The North Eastern Space Applications Centre is located at Shillong.\n3. The Semi-Conductor Laboratory is located at Mohali.\n4. The Indian Institute of Space Science and Technology is located at Gadanki.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "PRL is at Ahmedabad, NE-SAC is at Shillong and SCL is at Mohali. IIST is at Thiruvananthapuram, not Gadanki.",
+   "ty": "statements",
+   "tq": "The false statement swaps the location of IIST with the location of NARL.",
+   "sec": "DoS autonomous bodies - function"
+  },
+  {
+   "s": "The Indian Institute of Space Science and Technology (IIST) is primarily associated with which of the following?\n\n1. Space education\n2. Functioning as a deemed university\n3. Microelectronics and chip fabrication\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "IIST is a deemed university devoted to space education. Microelectronics and chip fabrication are associated with the Semi-Conductor Laboratory.",
+   "ty": "statements",
+   "tq": "Split the options by matching the institution with its distinctive function.",
+   "sec": "DoS autonomous bodies - function"
+  },
+  {
+   "s": "With reference to the Department of Space establishments, consider the following pairs:\n\n1. NE-SAC — Umiam (Shillong), Meghalaya\n2. IIST — Thiruvananthapuram\n3. SCL — Mohali, Punjab\n\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three pairs are correctly matched. NE-SAC is associated with Umiam near Shillong, IIST with Thiruvananthapuram and SCL with Mohali in Punjab.",
+   "ty": "statements",
+   "tq": "Check each location independently before selecting the combined code.",
+   "sec": "DoS autonomous bodies - function"
+  },
+  {
+   "s": "The foundation stone for the SSLV Launch Complex at Kulasekarapattinam was laid on 27 August 2025. It is located in which district and State?",
+   "o": [
+    "Kanyakumari district, Tamil Nadu",
+    "Tirupati district, Andhra Pradesh",
+    "Thoothukudi district, Tamil Nadu",
+    "Nellore district, Andhra Pradesh"
+   ],
+   "a": 2,
+   "x": "The SSLV Launch Complex is at Kulasekarapattinam in Thoothukudi, also known as Tuticorin, district of Tamil Nadu.",
+   "ty": "fact",
+   "tq": "Use the exact place-name and district distinction to avoid confusing the two spaceport regions.",
+   "sec": "Second spaceport for SSLV - location and reason"
+  },
+  {
+   "s": "What is the principal strategic advantage of the Kulasekarapattinam launch complex for SSLV missions?",
+   "o": [
+    "It is exclusively intended for launches of heavy-lift launch vehicles.",
+    "It permits direct southward launch into polar and sun-synchronous orbits without manoeuvring around Sri Lanka.",
+    "It is situated closer to the equator than Sriharikota and therefore eliminates all launch-cost constraints.",
+    "It enables launches directly into geostationary orbit without a cryogenic stage."
+   ],
+   "a": 1,
+   "x": "Kulasekarapattinam allows a direct southward trajectory into polar and sun-synchronous orbits, avoiding the fuel-costly manoeuvre around Sri Lanka required from Sriharikota.",
+   "ty": "application",
+   "tq": "Apply the location to the launch trajectory and fuel-saving reason rather than to the vehicle name alone.",
+   "sec": "Second spaceport for SSLV - location and reason"
+  },
+  {
+   "s": "Consider the following statements about the Kulasekarapattinam SSLV Launch Complex:\n1. It is intended mainly for SSLV launches.\n2. Its development is linked to the entry of private players into the space sector.\n3. It is located in Thoothukudi district of Tamil Nadu.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The complex is designed mainly for SSLV launches and is expected to support increasing participation by private players.",
+   "ty": "statements",
+   "tq": "The complete combination is appropriate when the location, purpose and policy context all align.",
+   "sec": "Second spaceport for SSLV - location and reason"
+  },
+  {
+   "s": "The first sounding rocket launched by India was which of the following?",
+   "o": [
+    "Rohini RS-1",
+    "Aryabhata",
+    "Bhaskara-I",
+    "Nike-Apache"
+   ],
+   "a": 3,
+   "x": "Nike-Apache was the first sounding rocket launched by India in 1963. It was American-built and launched from TERLS at Thumba.",
+   "ty": "fact",
+   "tq": "Distinguish the first rocket experiment from the first satellite and the first Indian rocket.",
+   "sec": "FIRST Indian satellites and experiments → launch vehicle + site  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Aryabhata, India’s first indigenous satellite, was launched in 1975 using which launch vehicle and from which site?",
+   "o": [
+    "SLV-3 from Sriharikota",
+    "Soviet Kosmos-3M from Kapustin Yar",
+    "Ariane from Kourou",
+    "Nike-Apache from Thumba"
+   ],
+   "a": 1,
+   "x": "Aryabhata was launched in 1975 by a Soviet Kosmos-3M rocket from Kapustin Yar in the USSR.",
+   "ty": "match",
+   "tq": "Pair the satellite with its foreign launch vehicle and launch site, not with India’s later indigenous launcher.",
+   "sec": "FIRST Indian satellites and experiments → launch vehicle + site  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "The Satellite Instructional Television Experiment (SITE) of 1975–76 was conducted with which organisation and was primarily intended to provide educational television to which scale of audience?",
+   "o": [
+    "CNES and 24,000 villages, covering about 50 million people",
+    "ESA and 240 villages",
+    "Soviet space agency and 5,000 villages",
+    "NASA and 2,400 villages, covering about 5 million people"
+   ],
+   "a": 3,
+   "x": "SITE was conducted with NASA using ATS-6 and provided educational television to about 2,400 villages, reaching nearly 5 million people.",
+   "ty": "numerical",
+   "tq": "Retain both the collaborating agency and the paired village-population figures.",
+   "sec": "FIRST Indian satellites and experiments → launch vehicle + site  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "APPLE — 1981; Ariane from Kourou",
+    "Bhaskara-I — 1979; Soviet rocket from Kapustin Yar",
+    "Rohini RS-1 — 18 July 1980; SLV-3 from Sriharikota",
+    "IRS-1A — 1975; Kosmos-3M from Kapustin Yar"
+   ],
+   "a": 3,
+   "x": "IRS-1A was India’s first operational remote-sensing satellite and was launched on 17 March 1988. The 1975 Kosmos-3M launch from Kapustin Yar relates to Aryabhata.",
+   "ty": "negative",
+   "tq": "Find the wrong year-vehicle pairing among otherwise familiar early satellite milestones.",
+   "sec": "FIRST Indian satellites and experiments → launch vehicle + site  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Rohini RS-1 is significant in the history of the Indian space programme because it was the first Indian satellite to be launched on an Indian rocket. Which combination is correct?",
+   "o": [
+    "17 March 1988 — PSLV — Sriharikota",
+    "1975 — Kosmos-3M — Kapustin Yar",
+    "1981 — Ariane — Kourou",
+    "18 July 1980 — SLV-3 — Sriharikota"
+   ],
+   "a": 3,
+   "x": "Rohini RS-1 was launched on 18 July 1980 by India’s SLV-3 from Sriharikota, making it the first satellite launched on an Indian rocket.",
+   "ty": "fact",
+   "tq": "Use the three-part identification: date, vehicle and site.",
+   "sec": "FIRST Indian satellites and experiments → launch vehicle + site  [APPSC, GROUP-II]"
+  },
+  {
+   "s": "Arrange the following developments in chronological order:\n\nA. Formation of ISRO\nB. Establishment of INCOSPAR\nC. Space research placed under the Department of Atomic Energy\nD. Establishment of the Space Commission and Department of Space",
+   "o": [
+    "C, B, A, D",
+    "B, C, A, D",
+    "C, A, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "Space research was placed under the Department of Atomic Energy in 1961, INCOSPAR was established in 1962, ISRO was formed in 1969, and the Space Commission and Department of Space were established in 1972.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest milestones first, then place INCOSPAR and ISRO between them.",
+   "sec": "Milestones - INCOSPAR, TERLS, ISRO, DoS  [GROUP-II]"
+  },
+  {
+   "s": "The work on the Thumba Equatorial Rocket Launching Station (TERLS) began after which institutional development?",
+   "o": [
+    "Formation of the Space Commission in 1972",
+    "Establishment of INCOSPAR in 1962",
+    "Introduction of the Indian Space Policy in 2023",
+    "Formation of NSIL in 2019"
+   ],
+   "a": 1,
+   "x": "INCOSPAR was established in 1962, and work on TERLS near Thiruvananthapuram began thereafter.",
+   "ty": "fact",
+   "tq": "Link the infrastructure milestone to the institution that initiated it.",
+   "sec": "Milestones - INCOSPAR, TERLS, ISRO, DoS  [GROUP-II]"
+  },
+  {
+   "s": "With reference to the institutional development of India’s space programme, consider the following statements:\n1. ISRO replaced INCOSPAR.\n2. ISRO was brought under the Department of Space on 1 June 1972.\n3. The Department of Space works directly under the Prime Minister.\n4. NSIL was established in 1972 as the first space-sector commercial arm.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "ISRO replaced INCOSPAR in 1969, was brought under the Department of Space on 1 June 1972, and the Department of Space functions directly under the Prime Minister. NSIL was established in 2019, not 1972.",
+   "ty": "statements",
+   "tq": "The false statement uses a wrong year for the commercial arm while the institutional statements are correct.",
+   "sec": "Milestones - INCOSPAR, TERLS, ISRO, DoS  [GROUP-II]"
+  },
+  {
+   "s": "Which one of the following correctly describes the reforms and policy milestones in India’s space sector?",
+   "o": [
+    "NSIL was established in 2019, IN-SPACe in 2020, and the Indian Space Policy was issued in 2023.",
+    "NSIL was established in 2020, IN-SPACe in 2019, and the Indian Space Policy was issued in 2023.",
+    "NSIL was established in 2019, IN-SPACe in 2023, and the Indian Space Policy was issued in 2020.",
+    "NSIL, IN-SPACe and the Indian Space Policy were all established in 2020."
+   ],
+   "a": 0,
+   "x": "NSIL was established in 2019 as a CPSE and commercial arm, space-sector reforms including IN-SPACe followed in 2020, and the Indian Space Policy was issued in 2023.",
+   "ty": "chronology",
+   "tq": "Compare the close reform years carefully instead of treating them as one event.",
+   "sec": "Milestones - INCOSPAR, TERLS, ISRO, DoS  [GROUP-II]"
+  },
+  {
+   "s": "Which of the following statements regarding the current institutional debate on India’s space sector is correct?",
+   "o": [
+    "The Department of Space has withdrawn support for all private space start-ups.",
+    "IN-SPACe has declared that ISRO’s role in space activities has already ended.",
+    "ISRO has stated that it will not be privatised, while the role of private participation is expanding through space start-ups and reforms.",
+    "ISRO has announced that it will be completely privatised by 2033."
+   ],
+   "a": 2,
+   "x": "ISRO stated that it would not be privatised, while India is encouraging private participation through space-sector reforms and a growing start-up ecosystem.",
+   "ty": "fact",
+   "tq": "Reject extreme claims and distinguish institutional continuity from private-sector expansion.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "India’s space economy has been projected to grow from approximately $8.4 billion to what approximate value by 2033?",
+   "o": [
+    "$18 billion",
+    "$24 billion",
+    "$44 billion",
+    "$84 billion"
+   ],
+   "a": 2,
+   "x": "The stated plan is to expand the space economy from about $8.4 billion to approximately $44 billion by 2033, alongside the growth of more than 450 space start-ups.",
+   "ty": "numerical",
+   "tq": "Identify the target figure by comparing the closely spaced numerical options.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements about the Andhra Pradesh-related space infrastructure:\n1. Sriharikota is located in Tirupati district.\n2. NARL at Gadanki is another Department of Space asset in Andhra Pradesh.\n3. Sriharikota and NARL Gadanki are described as the State’s two Department of Space assets.\n4. NARL Gadanki is located in Nellore district.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Sriharikota is in Tirupati district and NARL is at Gadanki in Tirupati district. Together they are identified as Andhra Pradesh’s two Department of Space assets; NARL is not in Nellore district.",
+   "ty": "statements",
+   "tq": "Use the district distinction to detect the swapped-location statement.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following statements about India’s space-sector legal framework is correct?",
+   "o": [
+    "India already has a comprehensive Space Activities Act covering the entire space sector.",
+    "India has no comprehensive Space Activities Act as of 2026.",
+    "The Space Activities Act was enacted when ISRO was formed in 1969.",
+    "The Space Activities Act was enacted along with the 2023 Indian Space Policy."
+   ],
+   "a": 1,
+   "x": "As of 2026, India still does not have a comprehensive Space Activities Act, although the country has introduced policy and institutional reforms for the space sector.",
+   "ty": "negative",
+   "tq": "Watch the time qualifier and distinguish a policy framework from a comprehensive statute.",
+   "sec": "Universal angles"
+  }
+ ]
+}

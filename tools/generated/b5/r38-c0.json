@@ -1,0 +1,697 @@
+{
+ "book": 5,
+ "row": 38,
+ "chunk": 0,
+ "section": "Navigation satellites - IRNSS/NavIC constellation and GAGAN; applications and limitations",
+ "subsections": [
+  "GNSS → owner country",
+  "NavIC-based devices and adoption",
+  "NavIC - full form, constellation, coverage, bands, services",
+  "Applications - GPS full form, timing, fishermen, surveying, fleet",
+  "GAGAN - SBAS concept, ground stations, developers, aviation",
+  "IRNSS satellites - launch, NVS series, clock issues",
+  "Limitations - coverage, receivers, failures",
+  "Other SBAS → region"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 49,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "GPS — Russia",
+    "GLONASS — Russia",
+    "Galileo — United States of America",
+    "BeiDou — Japan"
+   ],
+   "a": 1,
+   "x": "GLONASS is owned by Russia. GPS belongs to the USA, Galileo to the European Union and BeiDou to China.",
+   "ty": "match",
+   "tq": "Use owner-country discrimination and reject swapped global systems.",
+   "sec": "GNSS → owner country"
+  },
+  {
+   "s": "Consider the following statements regarding satellite navigation systems:\n1. GPS, GLONASS, Galileo and BeiDou are global systems.\n2. NavIC and QZSS are regional systems.\n3. QZSS is owned by Japan.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. GPS, GLONASS, Galileo and BeiDou are global systems, whereas NavIC and QZSS are regional systems; QZSS belongs to Japan.",
+   "ty": "statements",
+   "tq": "Check the system type first and then verify the owner-country statement.",
+   "sec": "GNSS → owner country"
+  },
+  {
+   "s": "India’s NavIC is distinctive among developing countries because it is:",
+   "o": [
+    "the only system using both civilian and military signals",
+    "the only developing country operating a global navigation system",
+    "the only developing country with an independent regional navigation system",
+    "the first system jointly owned by India and the United States"
+   ],
+   "a": 2,
+   "x": "India is described as the only developing country with its own independent regional navigation system.",
+   "ty": "fact",
+   "tq": "Identify the precise comparative claim rather than confusing regional and global status.",
+   "sec": "GNSS → owner country"
+  },
+  {
+   "s": "Which company developed India’s first NavIC-based device intended to provide precise directions for infrastructure projects?",
+   "o": [
+    "SpectraTime",
+    "Airports Authority of India",
+    "Elena Geo Systems",
+    "Qualcomm"
+   ],
+   "a": 2,
+   "x": "Elena Geo Systems developed India’s first NavIC-based device for precise directions on infrastructure projects.",
+   "ty": "fact",
+   "tq": "Match the specialised company with its specific technological product.",
+   "sec": "NavIC-based devices and adoption"
+  },
+  {
+   "s": "Which of the following statements regarding NavIC adoption in mobile devices is correct?",
+   "o": [
+    "NavIC adoption in phones is unrelated to the signals carried by NVS satellites.",
+    "The L1 signal was removed from newer NVS satellites to restrict civilian use.",
+    "NavIC can be received only through dedicated military terminals.",
+    "Qualcomm Snapdragon chipsets support NavIC."
+   ],
+   "a": 3,
+   "x": "Qualcomm Snapdragon chipsets support NavIC. Newer NVS satellites add a civilian L1 signal, making integration with other GNSS-enabled phones easier.",
+   "ty": "fact",
+   "tq": "Select the positive technology-adoption statement and reject reversed signal claims.",
+   "sec": "NavIC-based devices and adoption"
+  },
+  {
+   "s": "The AIS-140 requirement relating to NavIC primarily concerns:",
+   "o": [
+    "replacement of all GPS satellites by NavIC satellites",
+    "mandatory NavIC-enabled location trackers in public transport vehicles",
+    "use of NavIC only in military aircraft",
+    "mandatory NavIC receivers for all private household appliances"
+   ],
+   "a": 1,
+   "x": "The Ministry of Road Transport and Highways’ AIS-140 rule made NavIC-enabled location trackers compulsory in public transport vehicles.",
+   "ty": "application",
+   "tq": "Identify the regulatory application from the vehicle-tracking context.",
+   "sec": "NavIC-based devices and adoption"
+  },
+  {
+   "s": "Which of the following is NOT identified as an application encouraged through NavIC adoption?",
+   "o": [
+    "Smart devices",
+    "Fleet management",
+    "Deep-sea mineral extraction only",
+    "Vehicle tracking"
+   ],
+   "a": 2,
+   "x": "Smart devices, vehicle tracking and fleet management are identified applications. Deep-sea mineral extraction only is not stated as a NavIC adoption application.",
+   "ty": "negative",
+   "tq": "Find the option that does not belong to the stated application group.",
+   "sec": "NavIC-based devices and adoption"
+  },
+  {
+   "s": "The original name of NavIC was:",
+   "o": [
+    "GAGAN",
+    "IRNSS",
+    "GPS-Aided Regional System",
+    "NVS"
+   ],
+   "a": 1,
+   "x": "NavIC was formerly known as the Indian Regional Navigation Satellite System, or IRNSS.",
+   "ty": "confusable",
+   "tq": "Separate the former system name from the later public name and related programmes.",
+   "sec": "NavIC - full form, constellation, coverage, bands, services"
+  },
+  {
+   "s": "NavIC became fully operational in:",
+   "o": [
+    "1999",
+    "2013",
+    "2018",
+    "2023"
+   ],
+   "a": 2,
+   "x": "NavIC became fully operational in 2018.",
+   "ty": "numerical",
+   "tq": "Use the operational milestone rather than the first-launch or second-generation year.",
+   "sec": "NavIC - full form, constellation, coverage, bands, services"
+  },
+  {
+   "s": "The genesis of India’s regional navigation system is associated with the denial of GPS data during the:",
+   "o": [
+    "1962 India-China War",
+    "Pokhran tests of 1998",
+    "1971 India-Pakistan War",
+    "Kargil War of 1999"
+   ],
+   "a": 3,
+   "x": "The denial of GPS data to India during the 1999 Kargil War encouraged the development of an independent navigation system.",
+   "ty": "fact",
+   "tq": "Link the triggering event with the correct year and context.",
+   "sec": "NavIC - full form, constellation, coverage, bands, services"
+  },
+  {
+   "s": "With reference to the NavIC constellation, consider the following statements:\n1. It consists of seven satellites.\n2. Three satellites are in geostationary orbit.\n3. Four satellites are in inclined geosynchronous orbit at about 29° to the equator.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "NavIC’s planned constellation has seven satellites: three in geostationary orbit and four in inclined geosynchronous orbit at about 29° to the equator.",
+   "ty": "statements",
+   "tq": "Verify the total and split the constellation into its two orbital groups.",
+   "sec": "NavIC - full form, constellation, coverage, bands, services"
+  },
+  {
+   "s": "The primary service area of NavIC extends over India and approximately:",
+   "o": [
+    "1,500 km beyond its borders",
+    "5,000 km beyond its borders",
+    "500 km beyond its borders",
+    "1,000 km beyond its borders"
+   ],
+   "a": 0,
+   "x": "NavIC provides coverage over India and approximately 1,500 km beyond India’s borders.",
+   "ty": "numerical",
+   "tq": "Distinguish the regional coverage figure from global-system coverage.",
+   "sec": "NavIC - full form, constellation, coverage, bands, services"
+  },
+  {
+   "s": "Which frequency bands are associated with the original NavIC services?",
+   "o": [
+    "Ku and Ka only",
+    "L1 and L2 only",
+    "C and X only",
+    "L5 and S"
+   ],
+   "a": 3,
+   "x": "NavIC traditionally provides signals in the L5 and S bands. The NVS series additionally introduces an L1 civilian signal.",
+   "ty": "fact",
+   "tq": "Avoid importing the familiar GPS bands into the NavIC question.",
+   "sec": "NavIC - full form, constellation, coverage, bands, services"
+  },
+  {
+   "s": "The major signal-related improvement introduced by the NVS series is the addition of:",
+   "o": [
+    "an optical communication beam",
+    "a military-only S-band signal",
+    "a new deep-space X-band service",
+    "a civilian L1 signal"
+   ],
+   "a": 3,
+   "x": "The NVS series adds a civilian L1 signal compatible with other GNSS systems, helping mobile-phone adoption.",
+   "ty": "fact",
+   "tq": "Identify the exact new band and its civilian-use implication.",
+   "sec": "NavIC - full form, constellation, coverage, bands, services"
+  },
+  {
+   "s": "Which one of the following correctly describes NavIC’s Standard Positioning Service?",
+   "o": [
+    "It is available only to authorised military users and is encrypted.",
+    "It is available only outside India and offers accuracy better than 100 metres.",
+    "It is a timing-only service without positioning capability.",
+    "It is available to all civilians and offers accuracy better than 20 metres."
+   ],
+   "a": 3,
+   "x": "The Standard Positioning Service is available to all civilian users and has a design positioning accuracy better than 20 metres.",
+   "ty": "comparison",
+   "tq": "Contrast civilian SPS with the authorised and encrypted Restricted Service.",
+   "sec": "NavIC - full form, constellation, coverage, bands, services"
+  },
+  {
+   "s": "Consider the following statements about NavIC services:\n1. The Restricted Service is intended for authorised or military users.\n2. The Restricted Service is encrypted.\n3. The Standard Positioning Service is available to all civilians.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. RS is an encrypted service for authorised or military users, while SPS is available to civilians.",
+   "ty": "statements",
+   "tq": "Use the user-category and encryption distinctions to identify the complete combination.",
+   "sec": "NavIC - full form, constellation, coverage, bands, services"
+  },
+  {
+   "s": "The design figure given for the timing accuracy of NavIC’s Standard Positioning Service is better than:",
+   "o": [
+    "20 nanoseconds",
+    "40 nanoseconds",
+    "4 nanoseconds",
+    "400 nanoseconds"
+   ],
+   "a": 1,
+   "x": "The timing accuracy of NavIC’s Standard Positioning Service is stated as better than 40 nanoseconds.",
+   "ty": "numerical",
+   "tq": "Read the numerical unit carefully and distinguish timing accuracy from positioning accuracy.",
+   "sec": "NavIC - full form, constellation, coverage, bands, services"
+  },
+  {
+   "s": "The GPS programme was initiated by the United States Department of Defense in:",
+   "o": [
+    "1965",
+    "1973",
+    "1978",
+    "1999"
+   ],
+   "a": 1,
+   "x": "The GPS programme was initiated by the United States Department of Defense in 1973; its first satellite was launched in 1978.",
+   "ty": "numerical",
+   "tq": "Separate the programme-start year from the first-satellite year.",
+   "sec": "Applications - GPS full form, timing, fishermen, surveying, fleet"
+  },
+  {
+   "s": "Which of the following correctly describes the original GPS constellation design?",
+   "o": [
+    "Seven satellites in three geostationary and four inclined orbits",
+    "24 satellites in six orbits at about 20,200 km altitude",
+    "12 satellites in two polar orbits at 1,500 km altitude",
+    "30 satellites in ten orbits at geostationary altitude"
+   ],
+   "a": 1,
+   "x": "The original GPS design comprised 24 satellites in six orbits at about 20,200 km altitude.",
+   "ty": "fact",
+   "tq": "Separate GPS orbital architecture from the seven-satellite NavIC architecture.",
+   "sec": "Applications - GPS full form, timing, fishermen, surveying, fleet"
+  },
+  {
+   "s": "Each satellite in the original GPS constellation circles the Earth approximately:",
+   "o": [
+    "once a day",
+    "twice a day",
+    "once every two days",
+    "four times a month"
+   ],
+   "a": 1,
+   "x": "Each of the original GPS satellites circles the Earth twice a day.",
+   "ty": "numerical",
+   "tq": "Focus on the orbital-period figure rather than the total satellite count.",
+   "sec": "Applications - GPS full form, timing, fishermen, surveying, fleet"
+  },
+  {
+   "s": "Which of the following statements about GPS signals is correct?",
+   "o": [
+    "GPS signals are confined to marine navigation.",
+    "GPS uses signals on L1 at 1,575.42 MHz and on L2.",
+    "GPS operates only on NavIC’s S band.",
+    "GPS transmits only a civilian L5 signal and no L1 signal."
+   ],
+   "a": 1,
+   "x": "GPS uses the L1 signal at 1,575.42 MHz and the L2 signal. Its applications extend well beyond marine navigation.",
+   "ty": "fact",
+   "tq": "Match the exact frequency and bands while rejecting scope and system swaps.",
+   "sec": "Applications - GPS full form, timing, fishermen, surveying, fleet"
+  },
+  {
+   "s": "Which of the following is an appropriate application of GPS?\n1. Precise timing for power, telecommunications and banking\n2. Surveying and geodetic mapping\n3. Vehicle tracking and fleet management\n4. Precision farming and disaster management",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "GPS supports all the listed applications, including precise timing, surveying, vehicle and fleet tracking, precision farming and disaster management.",
+   "ty": "statements",
+   "tq": "Recognise the broad multi-sector application set and select the complete combination.",
+   "sec": "Applications - GPS full form, timing, fishermen, surveying, fleet"
+  },
+  {
+   "s": "Reconfigured IRNSS-1A helped fishermen at sea by broadcasting warnings relating to:",
+   "o": [
+    "earthquake magnitude at global stations",
+    "cyclones, tsunamis and high waves",
+    "only rainfall and air pollution",
+    "solar flares and auroras only"
+   ],
+   "a": 1,
+   "x": "Reconfigured IRNSS-1A broadcasts cyclone, tsunami and high-wave warnings to fishermen at sea.",
+   "ty": "application",
+   "tq": "Match the satellite function with the specific maritime-warning group.",
+   "sec": "Applications - GPS full form, timing, fishermen, surveying, fleet"
+  },
+  {
+   "s": "An error of approximately one microsecond in an atomic clock used for positioning may produce a position error of about:",
+   "o": [
+    "3,000 metres",
+    "3 metres",
+    "300 metres",
+    "30 metres"
+   ],
+   "a": 2,
+   "x": "A one-microsecond clock error can produce an approximate position error of 300 metres, illustrating the importance of atomic clocks in navigation.",
+   "ty": "numerical",
+   "tq": "Convert the stated clock-error relationship without changing the unit scale.",
+   "sec": "Applications - GPS full form, timing, fishermen, surveying, fleet"
+  },
+  {
+   "s": "GAGAN is an augmentation system whose full form is:",
+   "o": [
+    "GPS Aided GEO Augmented Navigation",
+    "Global Aviation Ground Assistance Network",
+    "Geostationary Aircraft Guidance and Navigation",
+    "Global Augmentation and Geospatial Navigation"
+   ],
+   "a": 0,
+   "x": "GAGAN stands for GPS Aided GEO Augmented Navigation.",
+   "ty": "fact",
+   "tq": "Use exact expansion discrimination among similar navigation terms.",
+   "sec": "GAGAN - SBAS concept, ground stations, developers, aviation"
+  },
+  {
+   "s": "The principal function of a Satellite-Based Augmentation System is to:",
+   "o": [
+    "provide encrypted military communication only",
+    "replace every navigation satellite with a ground-based radar",
+    "broadcast real-time corrections for orbit, clock and ionospheric delay",
+    "increase satellite altitude without correcting navigation data"
+   ],
+   "a": 2,
+   "x": "An SBAS broadcasts real-time corrections for orbit, clock and ionospheric delay, improving accuracy, integrity and availability.",
+   "ty": "application",
+   "tq": "Identify the correction functions that define SBAS operation.",
+   "sec": "GAGAN - SBAS concept, ground stations, developers, aviation"
+  },
+  {
+   "s": "GAGAN was developed jointly by:",
+   "o": [
+    "AAI and the Japan Aerospace Exploration Agency",
+    "ISRO and the United States Department of Defense",
+    "DRDO and the European Union",
+    "ISRO and the Airports Authority of India"
+   ],
+   "a": 3,
+   "x": "GAGAN was jointly developed by ISRO and the Airports Authority of India.",
+   "ty": "fact",
+   "tq": "Apply the developer-agency matching method to distinguish GAGAN from GPS.",
+   "sec": "GAGAN - SBAS concept, ground stations, developers, aviation"
+  },
+  {
+   "s": "GAGAN payloads are carried on which of the following satellites?\n1. GSAT-8\n2. GSAT-10\n3. GSAT-15",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "GAGAN payloads are carried on GSAT-8, GSAT-10 and GSAT-15.",
+   "ty": "statements",
+   "tq": "Check all listed satellite platforms before selecting the complete combination.",
+   "sec": "GAGAN - SBAS concept, ground stations, developers, aviation"
+  },
+  {
+   "s": "The service area of GAGAN is the:",
+   "o": [
+    "Indian Flight Information Region",
+    "North American Flight Information Region",
+    "European Flight Information Region",
+    "global oceanic flight region only"
+   ],
+   "a": 0,
+   "x": "GAGAN serves the Indian Flight Information Region.",
+   "ty": "fact",
+   "tq": "Match the augmentation system with its aviation region.",
+   "sec": "GAGAN - SBAS concept, ground stations, developers, aviation"
+  },
+  {
+   "s": "Which one of the following correctly represents the GAGAN ground segment?",
+   "o": [
+    "INRES, INMCC and INLUS",
+    "IRNSS, GPS and GLONASS",
+    "GSAT, PSLV and GSLV",
+    "DGCA, DRDO and SAC only"
+   ],
+   "a": 0,
+   "x": "The GAGAN ground segment includes Indian Reference Stations (INRES), the Indian Master Control Centre (INMCC) and uplink stations (INLUS).",
+   "ty": "match",
+   "tq": "Decode the institutional abbreviations and match them with the ground segment.",
+   "sec": "GAGAN - SBAS concept, ground stations, developers, aviation"
+  },
+  {
+   "s": "GAGAN was certified by the Directorate General of Civil Aviation for aviation approach guidance in:",
+   "o": [
+    "2013",
+    "2015",
+    "2018",
+    "2023"
+   ],
+   "a": 1,
+   "x": "The Directorate General of Civil Aviation certified GAGAN for aviation approach guidance in 2015.",
+   "ty": "numerical",
+   "tq": "Distinguish the aviation-certification year from system-development and operational years.",
+   "sec": "GAGAN - SBAS concept, ground stations, developers, aviation"
+  },
+  {
+   "s": "Which organisation is the nodal authority for both NavIC and GAGAN?",
+   "o": [
+    "Satellite Navigation Programme Office under ISRO",
+    "Directorate General of Civil Aviation alone",
+    "Airports Authority of India alone",
+    "Ministry of Defence’s Integrated Defence Staff"
+   ],
+   "a": 0,
+   "x": "The Satellite Navigation Programme Office under ISRO is the nodal authority for NavIC and GAGAN.",
+   "ty": "fact",
+   "tq": "Identify the coordinating authority rather than an implementing or certifying agency.",
+   "sec": "GAGAN - SBAS concept, ground stations, developers, aviation"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. First GPS satellite launched\nB. GPS programme initiated\nC. NavIC became fully operational\nD. NVS-01 launched",
+   "o": [
+    "B, A, C, D",
+    "A, B, C, D",
+    "B, C, A, D",
+    "C, B, A, D"
+   ],
+   "a": 0,
+   "x": "The GPS programme began in 1973, its first satellite was launched in 1978, NavIC became fully operational in 2018, and NVS-01 was launched in 2023.",
+   "ty": "chronology",
+   "tq": "Place the events by their years, using the first two close milestones carefully.",
+   "sec": "IRNSS satellites - launch, NVS series, clock issues"
+  },
+  {
+   "s": "Which statement regarding the IRNSS satellite launches is correct?",
+   "o": [
+    "All IRNSS satellites were launched from a foreign spaceport using only GSLV vehicles.",
+    "All IRNSS satellites were launched from Sriharikota, and the IRNSS-1 series used PSLV launch vehicles.",
+    "The IRNSS-1 series was launched only by reusable spaceplanes.",
+    "The IRNSS satellites were placed in orbit without launch vehicles."
+   ],
+   "a": 1,
+   "x": "The IRNSS satellites were launched from Sriharikota, and the IRNSS-1 series was launched using PSLV vehicles.",
+   "ty": "fact",
+   "tq": "Combine launch-location and launch-vehicle facts while rejecting absolute but unsupported alternatives.",
+   "sec": "IRNSS satellites - launch, NVS series, clock issues"
+  },
+  {
+   "s": "As of March 2026, the number of navigation satellites launched for the IRNSS programme since 2013 was reported as:",
+   "o": [
+    "7",
+    "9",
+    "11",
+    "15"
+   ],
+   "a": 2,
+   "x": "Eleven navigation satellites had been launched since 2013, including the original seven and replacement satellites.",
+   "ty": "numerical",
+   "tq": "Distinguish the total launches from the seven-satellite nominal constellation.",
+   "sec": "IRNSS satellites - launch, NVS series, clock issues"
+  },
+  {
+   "s": "Which one of the following correctly describes NVS-01?",
+   "o": [
+    "It was launched in January 2025 by GSLV-F15 and suffered a valve glitch.",
+    "It was launched in March 2016 by PSLV and was decommissioned above GEO.",
+    "It was launched in May 2023 by GSLV-F12 and was the first satellite with an indigenous rubidium atomic clock.",
+    "It was launched in 2018 by a foreign launch vehicle without an atomic clock."
+   ],
+   "a": 2,
+   "x": "NVS-01, the second-generation satellite, was launched in May 2023 on GSLV-F12 and was the first to carry an indigenous rubidium atomic clock.",
+   "ty": "fact",
+   "tq": "Match the satellite with its launch date, vehicle and distinctive payload.",
+   "sec": "IRNSS satellites - launch, NVS series, clock issues"
+  },
+  {
+   "s": "NVS-02 was launched by GSLV-F15 in January 2025, but a valve glitch:",
+   "o": [
+    "left it in the wrong orbit, after which it was salvaged for alternate use",
+    "prevented it from carrying any navigation payload",
+    "destroyed it immediately during lift-off",
+    "caused it to land in the Bay of Bengal"
+   ],
+   "a": 0,
+   "x": "A valve glitch left NVS-02 in the wrong orbit, but the satellite was salvaged for alternate use. The launch was also the 100th Sriharikota launch.",
+   "ty": "fact",
+   "tq": "Track the failure consequence without confusing it with total mission destruction.",
+   "sec": "IRNSS satellites - launch, NVS series, clock issues"
+  },
+  {
+   "s": "The launch of NVS-02 in January 2025 was significant because it marked the:",
+   "o": [
+    "first launch from Sriharikota",
+    "75th launch from Sriharikota",
+    "50th launch from Sriharikota",
+    "100th launch from Sriharikota"
+   ],
+   "a": 3,
+   "x": "The NVS-02 mission marked the 100th launch from Sriharikota.",
+   "ty": "numerical",
+   "tq": "Retain the milestone number separately from the satellite’s technical failure.",
+   "sec": "IRNSS satellites - launch, NVS series, clock issues"
+  },
+  {
+   "s": "Which statement correctly describes the change in atomic clocks used in IRNSS satellites?",
+   "o": [
+    "IRNSS satellites never used rubidium clocks.",
+    "ISRO replaced indigenous clocks with Swiss clocks in 2018 because the indigenous clocks failed.",
+    "The clock issue concerned only GPS satellites and not IRNSS satellites.",
+    "ISRO replaced repeatedly failing Swiss SpectraTime rubidium clocks with indigenous clocks in 2018."
+   ],
+   "a": 3,
+   "x": "First-generation IRNSS satellites used rubidium clocks supplied by Swiss firm SpectraTime, which repeatedly failed; ISRO switched to indigenous clocks in 2018.",
+   "ty": "confusable",
+   "tq": "Track the direction of the technology switch and the supplier’s identity.",
+   "sec": "IRNSS satellites - launch, NVS series, clock issues"
+  },
+  {
+   "s": "On 13 March 2026, the failure of the last clock on IRNSS-1F resulted in which situation?",
+   "o": [
+    "IRNSS-1F immediately became a new GEO satellite.",
+    "Only three PNT-capable satellites remained, below the four needed for the required service.",
+    "The constellation gained two additional PNT-capable satellites.",
+    "All seven satellites became fully operational."
+   ],
+   "a": 1,
+   "x": "After the last clock on IRNSS-1F failed, only IRNSS-1B, IRNSS-1I and NVS-01 remained PNT-capable—three satellites, below the four needed.",
+   "ty": "fact",
+   "tq": "Count the surviving satellites and compare the number with the service threshold.",
+   "sec": "IRNSS satellites - launch, NVS series, clock issues"
+  },
+  {
+   "s": "Which of the following satellites were the three PNT-capable satellites remaining after the March 2026 clock failure?",
+   "o": [
+    "IRNSS-1A, IRNSS-1D and IRNSS-1F",
+    "IRNSS-1B, IRNSS-1I and NVS-01",
+    "IRNSS-1C, IRNSS-1E and NVS-02",
+    "IRNSS-1A, NVS-01 and NVS-02"
+   ],
+   "a": 1,
+   "x": "The three remaining PNT-capable satellites were IRNSS-1B, IRNSS-1I and NVS-01.",
+   "ty": "match",
+   "tq": "Start with the sure satellite names and reject combinations containing failed or unsuitable spacecraft.",
+   "sec": "IRNSS satellites - launch, NVS series, clock issues"
+  },
+  {
+   "s": "IRNSS-1F, launched in March 2016, had its ten-year life end on 10 March 2026; after its clock failed, it continued to provide:",
+   "o": [
+    "GAGAN aviation certification",
+    "one-way messaging",
+    "global GPS replacement service",
+    "two-way military navigation"
+   ],
+   "a": 1,
+   "x": "Although IRNSS-1F lost its navigation capability after the clock failure, it continued one-way messaging.",
+   "ty": "fact",
+   "tq": "Separate residual satellite functionality from full PNT capability.",
+   "sec": "IRNSS satellites - launch, NVS series, clock issues"
+  },
+  {
+   "s": "IRNSS-1D was decommissioned to an orbit approximately:",
+   "o": [
+    "1,500 km beyond India’s borders",
+    "600 km below low Earth orbit",
+    "600 km above geostationary orbit",
+    "20,200 km above the equator"
+   ],
+   "a": 2,
+   "x": "IRNSS-1D was decommissioned to an orbit 600 km above geostationary Earth orbit.",
+   "ty": "numerical",
+   "tq": "Read the orbital disposal figure and distinguish it from operational coverage distances.",
+   "sec": "IRNSS satellites - launch, NVS series, clock issues"
+  },
+  {
+   "s": "Which of the following is a structural limitation of NavIC when compared with GPS?",
+   "o": [
+    "NavIC has no satellite-based positioning service.",
+    "NavIC is global, whereas GPS covers only India.",
+    "NavIC is regional, covering India and about 1,500 km beyond its borders, whereas GPS is global.",
+    "Both systems are limited to the Indian Flight Information Region."
+   ],
+   "a": 2,
+   "x": "NavIC is a regional system, while GPS is global. NavIC’s stated coverage is India plus approximately 1,500 km beyond its borders.",
+   "ty": "comparison",
+   "tq": "Use the regional-versus-global contrast to identify the limitation.",
+   "sec": "Limitations - coverage, receivers, failures"
+  },
+  {
+   "s": "The thin ecosystem of NavIC receivers was initially related mainly to the fact that:",
+   "o": [
+    "L5 and S bands were not commonly included in mobile-phone chipsets",
+    "NavIC had no satellites in orbit",
+    "GPS prevented all receivers from using satellite signals",
+    "NavIC signals were transmitted only through optical fibre"
+   ],
+   "a": 0,
+   "x": "Receiver adoption was constrained because L5 and S bands were not commonly supported in phone chipsets; the newer civilian L1 signal helps address this limitation.",
+   "ty": "application",
+   "tq": "Connect the receiver limitation with the relevant frequency-band issue.",
+   "sec": "Limitations - coverage, receivers, failures"
+  },
+  {
+   "s": "Which combination best explains why NavIC could not fully replace GPS over India as reported in March 2026?",
+   "o": [
+    "Absence of any regional coverage and lack of satellites since 1999",
+    "Excessive global coverage and too many civilian receivers",
+    "Repeated atomic-clock failures and the NVS-02 launch failure",
+    "Only the use of geostationary satellites, with no clock problems"
+   ],
+   "a": 2,
+   "x": "Repeated atomic-clock failures and the NVS-02 launch failure reduced the effective constellation, preventing NavIC from fully replacing GPS over India.",
+   "ty": "application",
+   "tq": "Combine the operational failure causes rather than choosing a coverage or orbit distraction.",
+   "sec": "Limitations - coverage, receivers, failures"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "WAAS — Europe",
+    "EGNOS — Japan",
+    "MSAS — Japan",
+    "GAGAN — North America"
+   ],
+   "a": 2,
+   "x": "MSAS is the SBAS associated with Japan. WAAS serves the USA and North America, EGNOS serves Europe and GAGAN serves India.",
+   "ty": "match",
+   "tq": "Use region-based elimination among similarly named augmentation systems.",
+   "sec": "Other SBAS → region"
+  },
+  {
+   "s": "Consider the following statements about SBAS regions:\n1. WAAS serves the USA and North America.\n2. EGNOS serves Europe.\n3. GAGAN serves India.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: WAAS serves the USA/North America, EGNOS Europe and GAGAN India.",
+   "ty": "statements",
+   "tq": "Verify each regional assignment and select the complete combination.",
+   "sec": "Other SBAS → region"
+  }
+ ]
+}

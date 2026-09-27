@@ -1,0 +1,556 @@
+{
+ "book": 3,
+ "row": 125,
+ "chunk": 3,
+ "section": "Approaches and initiatives in AP industry - industrial policy, single desk, MSMEs, industrial nodes",
+ "subsections": [
+  "Sector-specific enterprises and parks → sector / location",
+  "AP's rank in industrial output (Handbook of Statistics on Indian States)",
+  "Major industrial units - Visakhapatnam Steel Plant, central PSUs in AP",
+  "Mineral-based industries - cement, beach sand minerals, barytes",
+  "Large and mega projects - number, investment, employment",
+  "Industrial GVA of AP - sector shares and growth",
+  "Major industrial sectors - district map"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 45,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 5,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Andhra Pradesh MedTech Zone (AMTZ), located at Visakhapatnam, is primarily associated with which sector?",
+   "o": [
+    "Petrochemicals",
+    "Cement",
+    "Textiles",
+    "Medical devices"
+   ],
+   "a": 3,
+   "x": "AMTZ at Visakhapatnam is a dedicated medical devices park.",
+   "ty": "fact",
+   "tq": "Direct sector-location recall.",
+   "sec": "Sector-specific enterprises and parks → sector / location"
+  },
+  {
+   "s": "The Mega Food Park at Mallavalli is located in which district of Andhra Pradesh?",
+   "o": [
+    "Anakapalli",
+    "Palnadu",
+    "Guntur",
+    "Krishna"
+   ],
+   "a": 3,
+   "x": "The Mega Food Park at Mallavalli is located in Krishna district and includes a Central Processing Centre.",
+   "ty": "fact",
+   "tq": "Location-based recall using a nearby-district trap.",
+   "sec": "Sector-specific enterprises and parks → sector / location"
+  },
+  {
+   "s": "Consider the following pairs:\n1. A.P. Space City — Tirupati\n2. A.P. Drone City — Kurnool\n3. Tekulodu Aerospace and Defence Park — Sri Sathya Sai\n4. Makavaripalem Organic Food Park — Anakapalli\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correctly matched under the parks proposed through BHAVYA.",
+   "ty": "statements",
+   "tq": "Check each sector-location pair before selecting the coded combination.",
+   "sec": "Sector-specific enterprises and parks → sector / location"
+  },
+  {
+   "s": "With reference to the parks proposed under BHAVYA, which one of the following is correctly matched?",
+   "o": [
+    "Renewable Energy Manufacturing Zone — Prakasam",
+    "Veldurthi Mega Textile Park — Tirupati",
+    "A.P. Drone City — Palnadu",
+    "A.P. Space City — Kurnool"
+   ],
+   "a": 0,
+   "x": "The Renewable Energy Manufacturing Zone is proposed in Prakasam district. Veldurthi is in Palnadu, the Drone City is in Kurnool, and the Space City is in Tirupati.",
+   "ty": "match",
+   "tq": "Start from the sure location and eliminate swapped districts.",
+   "sec": "Sector-specific enterprises and parks → sector / location"
+  },
+  {
+   "s": "Which of the following parks proposed under BHAVYA has the largest proposed area?",
+   "o": [
+    "A.P. Drone City",
+    "A.P. Space City",
+    "Tekulodu Aerospace and Defence Park",
+    "Renewable Energy Manufacturing Zone"
+   ],
+   "a": 1,
+   "x": "A.P. Space City at Tirupati has the largest proposed area, measuring 1,000 acres.",
+   "ty": "numerical",
+   "tq": "Compare the figures in the park-area list.",
+   "sec": "Sector-specific enterprises and parks → sector / location"
+  },
+  {
+   "s": "The proposed area of the A.P. Drone City at Kurnool is:",
+   "o": [
+    "500 acres",
+    "486 acres",
+    "1,000 acres",
+    "498 acres"
+   ],
+   "a": 1,
+   "x": "The A.P. Drone City is proposed over 486 acres in Kurnool district.",
+   "ty": "numerical",
+   "tq": "Direct numerical recall with nearby figures as distractors.",
+   "sec": "Sector-specific enterprises and parks → sector / location"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched with its proposed area under BHAVYA?",
+   "o": [
+    "Renewable Energy Manufacturing Zone — 498 acres",
+    "Veldurthi Mega Textile Park — 500 acres",
+    "Tekulodu Aerospace and Defence Park — 500 acres",
+    "Makavaripalem Organic Food Park — 500 acres"
+   ],
+   "a": 0,
+   "x": "The Renewable Energy Manufacturing Zone in Prakasam is proposed over 498 acres; the other three parks listed have an area of 500 acres.",
+   "ty": "negative",
+   "tq": "Find the single numerical mismatch in a comparison list.",
+   "sec": "Sector-specific enterprises and parks → sector / location"
+  },
+  {
+   "s": "How many parks were proposed under the Government of India's BHAVYA scheme in the set of projects identified for Andhra Pradesh?",
+   "o": [
+    "Seven",
+    "Six",
+    "Four",
+    "Five"
+   ],
+   "a": 1,
+   "x": "Six parks were proposed: Space City, Drone City, Tekulodu Aerospace and Defence Park, Makavaripalem Organic Food Park, Renewable Energy Manufacturing Zone and Veldurthi Mega Textile Park.",
+   "ty": "numerical",
+   "tq": "Count the complete named list rather than individual entries.",
+   "sec": "Sector-specific enterprises and parks → sector / location"
+  },
+  {
+   "s": "Visakhapatnam Steel Plant is operated by which organisation?",
+   "o": [
+    "National Thermal Power Corporation",
+    "Rashtriya Ispat Nigam Limited",
+    "Hindustan Shipyard Limited",
+    "Hindustan Petroleum Corporation Limited"
+   ],
+   "a": 1,
+   "x": "Visakhapatnam Steel Plant is operated by Rashtriya Ispat Nigam Limited (RINL).",
+   "ty": "fact",
+   "tq": "Match the industrial unit with its operating organisation.",
+   "sec": "Major industrial units - Visakhapatnam Steel Plant, central PSUs in AP"
+  },
+  {
+   "s": "Which statement regarding the Visakhapatnam Steel Plant is correct?",
+   "o": [
+    "It is a coastal aluminium plant built with German collaboration and dedicated in 1992.",
+    "It is a shore-based integrated steel plant built with Soviet technical collaboration and dedicated to the nation on 1 August 1992.",
+    "It is a captive inland steel plant built with Japanese collaboration and dedicated in 1984.",
+    "It is a shipyard established by RINL in 2001 without foreign technical collaboration."
+   ],
+   "a": 1,
+   "x": "The Visakhapatnam Steel Plant is a shore-based integrated steel plant built with Soviet or USSR technical collaboration and dedicated to the nation on 1 August 1992.",
+   "ty": "fact",
+   "tq": "Combine plant character, collaboration and date without accepting a swapped detail.",
+   "sec": "Major industrial units - Visakhapatnam Steel Plant, central PSUs in AP"
+  },
+  {
+   "s": "Which of the following is NOT a central public sector undertaking located in Visakhapatnam as listed among the major industrial units of Andhra Pradesh?",
+   "o": [
+    "Mangampet Barytes Mine",
+    "HPCL Visakh Refinery",
+    "NTPC Simhadri",
+    "Hindustan Shipyard Limited"
+   ],
+   "a": 0,
+   "x": "HPCL Visakh Refinery, Hindustan Shipyard Limited and NTPC Simhadri are central PSUs in Visakhapatnam. Mangampet is known for its barytes deposit in Kadapa.",
+   "ty": "negative",
+   "tq": "Identify the item belonging to the mineral-resource category rather than the PSU list.",
+   "sec": "Major industrial units - Visakhapatnam Steel Plant, central PSUs in AP"
+  },
+  {
+   "s": "Cement production in Andhra Pradesh is concentrated mainly in which group of districts?",
+   "o": [
+    "Visakhapatnam, Prakasam and Palnadu",
+    "Krishna, West Godavari and Tirupati",
+    "YSR Kadapa, Kurnool and Guntur",
+    "Srikakulam, Nellore and Anantapur"
+   ],
+   "a": 2,
+   "x": "The principal concentration of cement industries is in YSR Kadapa, Kurnool and Guntur districts.",
+   "ty": "fact",
+   "tq": "District-cluster recall with geographically plausible alternatives.",
+   "sec": "Mineral-based industries - cement, beach sand minerals, barytes"
+  },
+  {
+   "s": "Which one of the following is NOT included among the important mineral resources forming the mineral base of Andhra Pradesh?",
+   "o": [
+    "Barytes",
+    "Limestone",
+    "Beach sands",
+    "Natural rubber"
+   ],
+   "a": 3,
+   "x": "Limestone, barytes, beach sands and granite are identified as important components of Andhra Pradesh's mineral base. Natural rubber is not included in this list.",
+   "ty": "odd_one_out",
+   "tq": "Odd-one-out from the stated mineral-resource group.",
+   "sec": "Mineral-based industries - cement, beach sand minerals, barytes"
+  },
+  {
+   "s": "Mangampet in Kadapa district is particularly noted for which mineral deposit?",
+   "o": [
+    "Granite",
+    "Beach sand monazite",
+    "Barytes",
+    "Coal"
+   ],
+   "a": 2,
+   "x": "Mangampet in Kadapa has one of the world's largest barytes deposits.",
+   "ty": "fact",
+   "tq": "Location-resource association.",
+   "sec": "Mineral-based industries - cement, beach sand minerals, barytes"
+  },
+  {
+   "s": "The proposed ₹16,000 crore titanium project associated with beach sand minerals is located at:",
+   "o": [
+    "Srikakulam",
+    "Kurnool",
+    "Kadapa",
+    "Eluru"
+   ],
+   "a": 0,
+   "x": "Adani's ₹16,000 crore titanium project is proposed at Srikakulam.",
+   "ty": "numerical",
+   "tq": "Link the investment figure with the project location.",
+   "sec": "Mineral-based industries - cement, beach sand minerals, barytes"
+  },
+  {
+   "s": "Traces of lithium and gallium were found by NGRI at which location in Andhra Pradesh?",
+   "o": [
+    "Tummalapalle in Kadapa",
+    "Mallavalli in Krishna",
+    "Chintalapudi in Eluru",
+    "Mangampet in Kadapa"
+   ],
+   "a": 0,
+   "x": "NGRI found traces of lithium and gallium at Tummalapalle in Kadapa district.",
+   "ty": "fact",
+   "tq": "Distinguish two mineral-related locations within Kadapa.",
+   "sec": "Mineral-based industries - cement, beach sand minerals, barytes"
+  },
+  {
+   "s": "The Mines Department of Andhra Pradesh signed memoranda of understanding with which institutions in connection with the mineral findings at Tummalapalle?",
+   "o": [
+    "NGRI and IIT Dhanbad",
+    "ISRO and IIT Madras",
+    "DRDO and IIT Bombay",
+    "GSI and IIT Kanpur"
+   ],
+   "a": 0,
+   "x": "The Mines Department signed MoUs with NGRI and IIT Dhanbad.",
+   "ty": "match",
+   "tq": "Match the department's institutional partners without swapping similar technical bodies.",
+   "sec": "Mineral-based industries - cement, beach sand minerals, barytes"
+  },
+  {
+   "s": "A coal gasification hub is planned in which belt of Andhra Pradesh?",
+   "o": [
+    "Eluru–Chintalapudi–Recherla",
+    "Kadapa–Mangampet–Tummalapalle",
+    "Srikakulam–Palasa–Ichchapuram",
+    "Kurnool–Nandyal–Adoni"
+   ],
+   "a": 0,
+   "x": "The planned coal gasification hub is in the Eluru-Chintalapudi-Recherla belt.",
+   "ty": "fact",
+   "tq": "Recall the complete geographical sequence.",
+   "sec": "Mineral-based industries - cement, beach sand minerals, barytes"
+  },
+  {
+   "s": "Consider the following statements regarding large and mega industrial units in Andhra Pradesh:\n1. There were 1,074 operational large and mega units.\n2. Their investment was ₹3.01 lakh crore.\n3. They provided 5.33 lakh jobs.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The operational large and mega units numbered 1,074, involved ₹3.01 lakh crore investment and generated 5.33 lakh jobs.",
+   "ty": "statements",
+   "tq": "Verify all three figures in the same indicator row.",
+   "sec": "Large and mega projects - number, investment, employment"
+  },
+  {
+   "s": "How many large and mega projects, including PSUs, were under implementation in Andhra Pradesh?",
+   "o": [
+    "60",
+    "87",
+    "107",
+    "1,074"
+   ],
+   "a": 0,
+   "x": "Sixty large and mega projects, including PSUs, were under implementation.",
+   "ty": "numerical",
+   "tq": "Separate the under-implementation count from the operational-unit count.",
+   "sec": "Large and mega projects - number, investment, employment"
+  },
+  {
+   "s": "By December 2024, how many large and mega units had been established in Andhra Pradesh during 2024-25?",
+   "o": [
+    "8",
+    "10",
+    "60",
+    "87"
+   ],
+   "a": 1,
+   "x": "Ten units had been established during 2024-25 up to December 2024.",
+   "ty": "numerical",
+   "tq": "Use the time qualifier before selecting the count.",
+   "sec": "Large and mega projects - number, investment, employment"
+  },
+  {
+   "s": "Consider the following statements about SIPB approvals during FY 2024-25:\n1. Eight projects were approved.\n2. The approved investment was ₹2,45,275 crore.\n3. The projects were expected to generate 65,541 jobs.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "SIPB approved eight projects involving ₹2,45,275 crore and 65,541 jobs during FY 2024-25.",
+   "ty": "statements",
+   "tq": "Test a complete statistical row through three linked statements.",
+   "sec": "Large and mega projects - number, investment, employment"
+  },
+  {
+   "s": "In June 2026, the Andhra Pradesh Cabinet ratified how many SIPB-vetted proposals worth ₹34,000 crore?",
+   "o": [
+    "60",
+    "78",
+    "87",
+    "107"
+   ],
+   "a": 2,
+   "x": "The Cabinet ratified 87 SIPB-vetted proposals worth ₹34,000 crore in June 2026.",
+   "ty": "numerical",
+   "tq": "Distinguish the newer proposal count from earlier project counts.",
+   "sec": "Large and mega projects - number, investment, employment"
+  },
+  {
+   "s": "Which combination represents the broad areas associated with the 87 SIPB-vetted proposals ratified in June 2026?",
+   "o": [
+    "Green energy, textile parks and eco-tourism",
+    "Medical devices, leather and fisheries only",
+    "Steel, coal mining and petroleum refining",
+    "Cement, barytes and shipbuilding"
+   ],
+   "a": 0,
+   "x": "The proposals covered green energy, textile parks and eco-tourism.",
+   "ty": "fact",
+   "tq": "Identify the correct sector grouping rather than a swapped industrial cluster.",
+   "sec": "Large and mega projects - number, investment, employment"
+  },
+  {
+   "s": "Manufacturing contributes approximately what share of the Gross State Domestic Product of Andhra Pradesh?",
+   "o": [
+    "6%",
+    "11%",
+    "18%",
+    "30%"
+   ],
+   "a": 1,
+   "x": "Manufacturing contributes about 11% of Andhra Pradesh's GSDP.",
+   "ty": "numerical",
+   "tq": "Direct percentage recall with national MSME figures as distractors.",
+   "sec": "Industrial GVA of AP - sector shares and growth"
+  },
+  {
+   "s": "After bifurcation, the MSME profile of Andhra Pradesh shifted towards:",
+   "o": [
+    "Capital-intensive industries",
+    "Import-dependent service activities",
+    "Only traditional handicrafts",
+    "Exclusively agricultural enterprises"
+   ],
+   "a": 0,
+   "x": "The post-bifurcation MSME profile shifted towards capital-intensive industries.",
+   "ty": "fact",
+   "tq": "Direct trend identification using extreme distractors.",
+   "sec": "Industrial GVA of AP - sector shares and growth"
+  },
+  {
+   "s": "Consider the following statements regarding the national Index of Industrial Production framework:\n1. The IIP base has been revised to 2022-23.\n2. The revised core index contains nine industries.\n3. Iron ore was added to the core index.\n4. The revised weight of the core index is 32.88%.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The revised IIP framework uses 2022-23 as the base, has nine core industries after adding iron ore, and assigns them a 32.88% weight.",
+   "ty": "statements",
+   "tq": "Check the revised framework against the earlier eight-industry arrangement.",
+   "sec": "Industrial GVA of AP - sector shares and growth"
+  },
+  {
+   "s": "Which statement correctly contrasts the earlier and revised core-industry index weights?",
+   "o": [
+    "The earlier nine-industry index had a 32.88% weight, while the revised eight-industry index has a 40.27% weight.",
+    "The earlier eight-industry index had a 40.27% weight, while the revised nine-industry index has a 32.88% weight.",
+    "Both the earlier and revised indices had a 40.27% weight.",
+    "Both the earlier and revised indices had a 32.88% weight."
+   ],
+   "a": 1,
+   "x": "The earlier core index covered eight industries with a 40.27% weight; the revised index has nine industries and a 32.88% weight.",
+   "ty": "comparison",
+   "tq": "Compare both the count and weight before choosing the reversed-comparison trap.",
+   "sec": "Industrial GVA of AP - sector shares and growth"
+  },
+  {
+   "s": "Which statement regarding the contribution of Andhra Pradesh MSMEs to GSDP is correct?",
+   "o": [
+    "They contribute exactly 33.5% of GSDP.",
+    "They contribute 46% of Andhra Pradesh's GSDP.",
+    "They contribute 28% of Andhra Pradesh's GSDP.",
+    "The claim that they contribute 33.5% of GSDP was treated as incorrect."
+   ],
+   "a": 3,
+   "x": "The statement that Andhra Pradesh MSMEs contribute 33.5% of GSDP was keyed as incorrect; no alternative AP percentage is established here.",
+   "ty": "negative",
+   "tq": "Recognise the explicitly rejected percentage rather than importing national figures.",
+   "sec": "Industrial GVA of AP - sector shares and growth"
+  },
+  {
+   "s": "According to the national figures cited, the number of Udyam and Udyam Assist registrations from July 2020 to July 2025 was:",
+   "o": [
+    "2.72 crore",
+    "6.63 crore",
+    "9 lakh",
+    "28 crore"
+   ],
+   "a": 1,
+   "x": "There were 6.63 crore Udyam and Udyam Assist registrations during the period July 2020 to July 2025.",
+   "ty": "numerical",
+   "tq": "Use the date range to identify the national registration figure.",
+   "sec": "Industrial GVA of AP - sector shares and growth"
+  },
+  {
+   "s": "Which combination correctly states the cited national contribution of MSMEs?",
+   "o": [
+    "About 46% of GDP, 30% of exports and 6.63 crore jobs",
+    "About 11% of GDP, 40.27% of exports and 9 lakh jobs",
+    "About 28% of GDP, 33.5% of exports and 2.72 crore jobs",
+    "About 30% of GDP, 46% of exports and 28 crore jobs"
+   ],
+   "a": 3,
+   "x": "The cited national figures are about 30% of GDP, 46% of exports and 28 crore jobs.",
+   "ty": "comparison",
+   "tq": "Keep percentage and employment figures in their correct columns.",
+   "sec": "Industrial GVA of AP - sector shares and growth"
+  },
+  {
+   "s": "Which district-sector pair is correctly matched?",
+   "o": [
+    "Visakhapatnam — engineering, life sciences, electronics, automobiles and metallurgy",
+    "Srikakulam — textiles and ceramics",
+    "Guntur — leather and auto components",
+    "Nellore — cement and food processing"
+   ],
+   "a": 0,
+   "x": "Visakhapatnam is associated with engineering, life sciences, electronics, automobiles and metallurgy. Textiles and ceramics relate to West Godavari, while Nellore has leather, electronics and auto components.",
+   "ty": "match",
+   "tq": "Use one sure district-sector pair and eliminate sector swaps.",
+   "sec": "Major industrial sectors - district map"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Srikakulam — Agro and food processing, chemicals, petrochemicals\n2. East Godavari — Chemicals and petrochemicals\n3. West Godavari — Textiles and ceramics\n4. Guntur — Food processing and cement\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four district-sector pairs are correctly matched.",
+   "ty": "statements",
+   "tq": "Verify each row of the district-sector map before selecting all correct pairs.",
+   "sec": "Major industrial sectors - district map"
+  },
+  {
+   "s": "Which of the following district-sector pairs is NOT correctly matched?",
+   "o": [
+    "Prakasam — Mineral-based industries",
+    "Kurnool — Mineral-based industries",
+    "Nellore — Leather, electronics and auto components",
+    "Kadapa — Agro and food processing, chemicals and petrochemicals"
+   ],
+   "a": 3,
+   "x": "Kadapa is associated with textiles, while Anantapur is associated with textiles and electronics. Agro and food processing, chemicals and petrochemicals are associated with Srikakulam.",
+   "ty": "negative",
+   "tq": "Find the district assigned to a neighbouring district's sector group.",
+   "sec": "Major industrial sectors - district map"
+  },
+  {
+   "s": "Which statement correctly describes the industrial-sector association of Kadapa and Anantapur?",
+   "o": [
+    "Kadapa has leather and auto components, while Anantapur has cement.",
+    "Kadapa has petrochemicals, while Anantapur has ceramics only.",
+    "Both are associated only with mineral-based industries.",
+    "Both are associated with textiles, while Anantapur also has electronics."
+   ],
+   "a": 3,
+   "x": "Kadapa and Anantapur are associated with textiles; Anantapur additionally has electronics.",
+   "ty": "comparison",
+   "tq": "Test the shared sector and the additional sector separately.",
+   "sec": "Major industrial sectors - district map"
+  },
+  {
+   "s": "Which of the following is NOT listed as one of the five major endowments of Andhra Pradesh?",
+   "o": [
+    "Six operational ports",
+    "A national surplus of coal reserves",
+    "A 974-km coastline described as the third-longest",
+    "A strong agricultural base"
+   ],
+   "a": 1,
+   "x": "The five endowments are the 974-km coastline, six operational ports, minerals, an agricultural base and power surplus. A national surplus of coal reserves is not listed.",
+   "ty": "negative",
+   "tq": "Eliminate the invented endowment from the stated five-item list.",
+   "sec": "Major industrial sectors - district map"
+  },
+  {
+   "s": "The coastline of Andhra Pradesh referred to among its industrial endowments measures approximately:",
+   "o": [
+    "674 km",
+    "874 km",
+    "974 km",
+    "1,174 km"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh has a coastline of about 974 km, described as the third-longest in the country.",
+   "ty": "numerical",
+   "tq": "Direct numerical recall with ascending options.",
+   "sec": "Major industrial sectors - district map"
+  },
+  {
+   "s": "How many operational ports are included among the listed endowments of Andhra Pradesh?",
+   "o": [
+    "4",
+    "6",
+    "8",
+    "10"
+   ],
+   "a": 1,
+   "x": "Six operational ports are identified among the State's industrial endowments.",
+   "ty": "numerical",
+   "tq": "Direct count recall.",
+   "sec": "Major industrial sectors - district map"
+  }
+ ]
+}

@@ -1,0 +1,285 @@
+{
+ "book": 3,
+ "row": 129,
+ "chunk": 1,
+ "section": "Social welfare programmes in AP - SC/ST/BC/minority welfare, pensions, housing, women and child welfare",
+ "subsections": [
+  "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 23,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly describes the scale of village and ward secretariats in Andhra Pradesh?",
+   "o": [
+    "More than 15,000 secretariats offering more than 1,000 services",
+    "More than 20,000 secretariats offering more than 500 services",
+    "More than 10,000 secretariats offering more than 500 services",
+    "More than 5,000 secretariats offering more than 200 services"
+   ],
+   "a": 2,
+   "x": "The village and ward secretariat system comprises more than 10,000 secretariats and offers more than 500 services.",
+   "ty": "comparison",
+   "tq": "Match both quantitative dimensions rather than identifying only one correct figure.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "The volunteer-based delivery model associated with Andhra Pradesh village and ward secretariats provides approximately one volunteer for every",
+   "o": [
+    "40 households",
+    "50 households",
+    "25 households",
+    "100 households"
+   ],
+   "a": 1,
+   "x": "The stated volunteer norm is one volunteer for every 50 households.",
+   "ty": "numerical",
+   "tq": "Focus on the ratio and reject nearby numerical distractors.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "How many households have been mapped under the Andhra Pradesh family-oriented welfare delivery exercise?",
+   "o": [
+    "1.08 crore",
+    "1.28 crore",
+    "1.68 crore",
+    "1.86 crore"
+   ],
+   "a": 2,
+   "x": "The family mapping exercise covered 1.68 crore households.",
+   "ty": "numerical",
+   "tq": "Use exact-figure recall while distinguishing transposed digits and nearby values.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "Navaratnalu, announced by the YSRCP in 2019, refers to",
+   "o": [
+    "nine constitutional amendments",
+    "nine welfare promises",
+    "nine categories of local government institutions",
+    "nine agricultural districts"
+   ],
+   "a": 1,
+   "x": "Navaratnalu was the YSRCP's programme of nine welfare promises announced in 2019.",
+   "ty": "fact",
+   "tq": "Identify the programme's defining classification rather than an associated sector.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "Which of the following schemes were included among the promises associated with Navaratnalu?\n1. Amma Vodi\n2. Aasara\n3. Pedalandariki Illu\n4. Pension Kanuka\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Amma Vodi, Aasara, Pedalandariki Illu and Pension Kanuka were among the schemes included in Navaratnalu.",
+   "ty": "statements",
+   "tq": "Test a named-list cluster by checking whether every item belongs to the programme.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "The Super Six welfare programme in Andhra Pradesh is associated with the",
+   "o": [
+    "United Progressive Alliance in 2024",
+    "NDA in 2024",
+    "NDA in 2019",
+    "YSRCP in 2019"
+   ],
+   "a": 1,
+   "x": "Super Six is associated with the NDA's 2024 programme.",
+   "ty": "fact",
+   "tq": "Separate the programme by political grouping and year.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "Under the Talliki Vandanam promise, the proposed assistance is",
+   "o": [
+    "₹20,000 per child",
+    "₹10,000 per child",
+    "₹12,000 per child",
+    "₹15,000 per child"
+   ],
+   "a": 3,
+   "x": "Talliki Vandanam provides ₹15,000 per child.",
+   "ty": "numerical",
+   "tq": "Recall the scheme-specific amount and reject amounts belonging to other Super Six promises.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "Consider the following statements about Annadata Sukhibhava:\n1. The total assistance is ₹20,000.\n2. The State contribution is ₹14,000.\n3. The PM-KISAN contribution is ₹6,000.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Annadata Sukhibhava provides ₹20,000 in total, comprising ₹14,000 from the State and ₹6,000 through PM-KISAN.",
+   "ty": "statements",
+   "tq": "Split the total into its component contributions before choosing the coded answer.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with a Super Six promise?",
+   "o": [
+    "Deepam — three free cylinders",
+    "Stree Shakti — ₹15,000 per child",
+    "Talliki Vandanam — free bus travel",
+    "Aadabidda Nidhi — 20 lakh jobs"
+   ],
+   "a": 0,
+   "x": "Deepam provides three free cylinders. Stree Shakti concerns free bus travel, Talliki Vandanam provides ₹15,000 per child, and Aadabidda Nidhi provides a monthly amount to women.",
+   "ty": "match",
+   "tq": "Start with the sure scheme-benefit pair and use elimination for the swapped associations.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "The Stree Shakti promise under the Super Six programme relates to",
+   "o": [
+    "monthly assistance to women",
+    "free cooking gas cylinders",
+    "unemployment allowance",
+    "free bus travel"
+   ],
+   "a": 3,
+   "x": "Stree Shakti provides free bus travel.",
+   "ty": "fact",
+   "tq": "Discriminate among closely related women-focused and household-focused benefits.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "The employment-related promise under the Super Six programme consists of",
+   "o": [
+    "10 lakh jobs or ₹2,000 unemployment allowance",
+    "20 lakh jobs or ₹3,000 unemployment allowance",
+    "15 lakh jobs or ₹2,500 unemployment allowance",
+    "25 lakh jobs or ₹5,000 unemployment allowance"
+   ],
+   "a": 1,
+   "x": "The promise is for 20 lakh jobs or an unemployment allowance of ₹3,000.",
+   "ty": "numerical",
+   "tq": "Compare the paired job target and allowance amount as one combined promise.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "Aadabidda Nidhi under the Super Six programme provides women with",
+   "o": [
+    "₹3,000 per month",
+    "₹1,000 per month",
+    "₹1,500 per month",
+    "₹2,000 per month"
+   ],
+   "a": 2,
+   "x": "Aadabidda Nidhi provides ₹1,500 per month to women.",
+   "ty": "numerical",
+   "tq": "Use exact monthly-amount recall and distinguish it from the unemployment allowance.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "The proposed family-centred approach to welfare delivery in Andhra Pradesh treats the ______ as the unit and provides 5 kg of rice for every member.",
+   "o": [
+    "household or family",
+    "local body",
+    "village",
+    "self-help group"
+   ],
+   "a": 0,
+   "x": "The family is proposed as the unit of welfare, with 5 kg of rice for every family member.",
+   "ty": "application",
+   "tq": "Apply the stated delivery principle to identify the relevant administrative unit.",
+   "sec": "Welfare delivery - volunteers, DBT, Navaratnalu, Super Six"
+  },
+  {
+   "s": "Which one of the following statements regarding recent welfare and governance developments in Andhra Pradesh is correct?",
+   "o": [
+    "The Disha Bill was withdrawn in September 2025.",
+    "The Disha Bill was enacted in August 2026.",
+    "The Disha Bill was transferred to local governments in August 2026.",
+    "The Disha Bill was withdrawn in August 2026."
+   ],
+   "a": 3,
+   "x": "The Disha Bill was withdrawn in August 2026.",
+   "ty": "fact",
+   "tq": "Use precise date-and-event matching and avoid reversing enactment with withdrawal.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Before new pensions are issued in Andhra Pradesh, which of the following is expected to take place?",
+   "o": [
+    "Reclassification of all municipalities",
+    "Census enumeration by Parliament",
+    "District delimitation",
+    "Family mapping"
+   ],
+   "a": 3,
+   "x": "Family mapping is due before the issue of new pensions.",
+   "ty": "application",
+   "tq": "Identify the prerequisite action in a policy-delivery sequence.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Welfare expenditure in Andhra Pradesh has been criticised on the ground that it accounts for approximately",
+   "o": [
+    "17 paise per rupee",
+    "7 paise per rupee",
+    "12 paise per rupee",
+    "27 paise per rupee"
+   ],
+   "a": 0,
+   "x": "Welfare expenditure has been described as accounting for 17 paise per rupee, raising concerns about fiscal strain.",
+   "ty": "numerical",
+   "tq": "Recall the exact expenditure share and distinguish it from nearby proportions.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Welfare expenditure — 17 paise per rupee; poverty headcount in AP — 6.06%",
+    "Welfare expenditure — 6.06 paise per rupee; poverty headcount in AP — 17%",
+    "Welfare expenditure — 14.96 paise per rupee; poverty headcount in AP — 0.025%",
+    "Welfare expenditure — 0.053 paise per rupee; poverty headcount in AP — 14.96%"
+   ],
+   "a": 0,
+   "x": "Welfare expenditure is stated as 17 paise per rupee, while Andhra Pradesh's poverty headcount is 6.06%.",
+   "ty": "match",
+   "tq": "Match figures with the correct indicators and avoid swapping percentages across subjects.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The opposition's criticism regarding the employment component of the Super Six programme is that",
+   "o": [
+    "free bus travel has been discontinued",
+    "the unemployment allowance has not been paid",
+    "the allowance is being paid only to farmers",
+    "the 20 lakh job target has already been exceeded"
+   ],
+   "a": 1,
+   "x": "The opposition has alleged that the promised unemployment allowance remains unpaid.",
+   "ty": "fact",
+   "tq": "Identify the specific criticism rather than a broader or unrelated policy dispute.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The shift in welfare delivery from rights-based provisions towards cash transfers has been described as",
+   "o": [
+    "participatory federalism",
+    "social federalism",
+    "new welfarism",
+    "cooperative planning"
+   ],
+   "a": 2,
+   "x": "The movement from rights-based welfare towards cash transfers has been described as “new welfarism.”",
+   "ty": "confusable",
+   "tq": "Discriminate between the exact policy term and plausible governance expressions.",
+   "sec": "Universal angles"
+  }
+ ]
+}

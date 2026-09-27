@@ -1,0 +1,500 @@
+{
+ "book": 5,
+ "row": 29,
+ "chunk": 2,
+ "section": "Cyber security concerns - types of cyber crime, malware, ransomware, phishing, social engineering",
+ "subsections": [
+  "Cryptography terms - encryption, decryption, symmetric vs asymmetric, digital signature, hashing",
+  "Cyber attacks on Indian public systems → target + state",
+  "Information security principles - CIA triad, cyber insurance for individuals",
+  "Financial cyber frauds - SIM swap, UPI and QR fraud, loan apps, crypto-jacking",
+  "Security basics - firewall, encryption, passwords, virtual keyboards, CIA triad",
+  "Cyber warfare and espionage - state-sponsored APTs, cyber terrorism",
+  "Cyber crime data - NCRB trends, top states"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 36,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following best describes cryptography?",
+   "o": [
+    "Encoding information so that only authorised parties can read it",
+    "Deleting all records after data transmission",
+    "Scanning a system only for hardware defects",
+    "Increasing the speed of a computer network"
+   ],
+   "a": 0,
+   "x": "Cryptography is the practice of encoding information so that it can be read only by authorised parties.",
+   "ty": "fact",
+   "tq": "Use the precise definition rather than a related security function.",
+   "sec": "Cryptography terms - encryption, decryption, symmetric vs asymmetric, digital signature, hashing"
+  },
+  {
+   "s": "In the process of encryption and decryption, which one of the following is correct?",
+   "o": [
+    "Plaintext is converted into ciphertext during encryption and converted back during decryption using a key",
+    "Plaintext and ciphertext are identical forms of information",
+    "Ciphertext is converted into plaintext during encryption",
+    "Both encryption and decryption permanently delete the key"
+   ],
+   "a": 0,
+   "x": "Encryption converts readable plaintext into ciphertext, while decryption converts ciphertext back into plaintext using a key.",
+   "ty": "confusable",
+   "tq": "Discriminate between the forward and reverse stages of a paired process.",
+   "sec": "Cryptography terms - encryption, decryption, symmetric vs asymmetric, digital signature, hashing"
+  },
+  {
+   "s": "Consider the following statements regarding symmetric cryptography:\n1. It uses the same secret key for encryption and decryption.\n2. AES is an example of a symmetric encryption algorithm.\n3. Key sharing is one of its principal challenges.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Symmetric systems are generally fast, but securely sharing the common secret key is a key-management problem.",
+   "ty": "statements",
+   "tq": "Combine the operating principle, example and limitation of one technical system.",
+   "sec": "Cryptography terms - encryption, decryption, symmetric vs asymmetric, digital signature, hashing"
+  },
+  {
+   "s": "Which of the following is the characteristic feature of asymmetric cryptography?",
+   "o": [
+    "It is confined to hashing operations",
+    "It uses no key during encryption",
+    "It uses a public-private key pair and forms the basis of PKI",
+    "It uses a single password for every user"
+   ],
+   "a": 2,
+   "x": "Asymmetric cryptography uses a mathematically related public key and private key pair and underlies Public Key Infrastructure (PKI).",
+   "ty": "fact",
+   "tq": "Identify the defining feature and application of a confusable technical pair.",
+   "sec": "Cryptography terms - encryption, decryption, symmetric vs asymmetric, digital signature, hashing"
+  },
+  {
+   "s": "With reference to a digital signature, consider the following statements:\n1. The signature is made using the sender's private key.\n2. The signature is verified using the sender's public key.\n3. It helps establish origin and integrity of the message.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "A digital signature is generated with the sender's private key and verified with the corresponding public key; it helps prove the message's origin and integrity.",
+   "ty": "statements",
+   "tq": "Check the direction of private-key signing and public-key verification.",
+   "sec": "Cryptography terms - encryption, decryption, symmetric vs asymmetric, digital signature, hashing"
+  },
+  {
+   "s": "Which one of the following correctly describes hashing?",
+   "o": [
+    "A reversible process that always produces variable-length output",
+    "A process that uses only a sender's private key to sign documents",
+    "A method of sharing the same secret key with all users",
+    "A one-way process producing a fixed-length digest, in which any change alters the hash"
+   ],
+   "a": 3,
+   "x": "Hashing is one-way and produces a fixed-length digest. Even a small change in the input changes the resulting hash; SHA-256 is an example.",
+   "ty": "fact",
+   "tq": "Separate hashing from encryption and digital signatures by its defining properties.",
+   "sec": "Cryptography terms - encryption, decryption, symmetric vs asymmetric, digital signature, hashing"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Cyber incident)\n a. e-Nagarpalika portal attack\n b. AIIMS Delhi attack\n c. Kudankulam NPP incident\n d. Cosmos Bank incident\n\nList-II (Description)\n i. ATM/SWIFT fraud of about Rs 94 crore\n ii. Malware on an administrative network\n iii. Ransomware disrupting hospital services\n iv. Attack on an online civic tax payment portal\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "a–iv, b–iii, c–ii, d–i",
+    "a–iii, b–iv, c–i, d–ii",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–i, b–ii, c–iii, d–iv"
+   ],
+   "a": 0,
+   "x": "The e-Nagarpalika portal was attacked as an online civic tax payment system; AIIMS Delhi suffered ransomware; Kudankulam's administrative network was affected by malware; Cosmos Bank faced ATM/SWIFT fraud of about Rs 94 crore.",
+   "ty": "match",
+   "tq": "Start from the sure incident-description pair and eliminate incompatible codes.",
+   "sec": "Cyber attacks on Indian public systems → target + state"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Cosmos Bank — 2018 ATM/SWIFT fraud in Pune",
+    "AIIMS Delhi — 2022 ransomware attack",
+    "Kudankulam Nuclear Power Plant — 2019 malware incident",
+    "AIIMS Delhi — 2019 malware on an administrative network"
+   ],
+   "a": 3,
+   "x": "The AIIMS Delhi ransomware attack occurred in 2022. The 2019 malware incident involving an administrative network was associated with Kudankulam Nuclear Power Plant.",
+   "ty": "negative",
+   "tq": "Find the swapped year and incident rather than the familiar institution.",
+   "sec": "Cyber attacks on Indian public systems → target + state"
+  },
+  {
+   "s": "The Cosmos Bank cyber incident of 2018 was associated with which place and amount?",
+   "o": [
+    "Pune, Maharashtra and approximately Rs 94 crore",
+    "Delhi and approximately Rs 50 crore",
+    "Bhopal, Madhya Pradesh and approximately Rs 10.5 trillion",
+    "Chennai, Tamil Nadu and approximately Rs 77.75 lakh"
+   ],
+   "a": 0,
+   "x": "The 2018 Cosmos Bank incident involved an ATM/SWIFT fraud of about Rs 94 crore and was associated with Pune, Maharashtra.",
+   "ty": "numerical",
+   "tq": "Link the incident with both its location and quantitative figure.",
+   "sec": "Cyber attacks on Indian public systems → target + state"
+  },
+  {
+   "s": "The Critical Government Infrastructure of Andhra Pradesh is monitored through APCSOC by which organisation?",
+   "o": [
+    "CERT-In",
+    "I4C",
+    "APTS",
+    "MeitY"
+   ],
+   "a": 2,
+   "x": "APTS monitors Andhra Pradesh's Critical Government Infrastructure through the Andhra Pradesh Security Operations Centre (APSOC/APCSOC).",
+   "ty": "fact",
+   "tq": "Identify the responsible state-level agency from the institutional relationship.",
+   "sec": "Cyber attacks on Indian public systems → target + state"
+  },
+  {
+   "s": "How many Government of Andhra Pradesh applications were audited by APTS as stated in the security assessment?",
+   "o": [
+    "90",
+    "270",
+    "770",
+    "2,700"
+   ],
+   "a": 1,
+   "x": "APTS audited 270 Government of Andhra Pradesh applications.",
+   "ty": "numerical",
+   "tq": "Use the exact quantitative detail and reject scale-shifted distractors.",
+   "sec": "Cyber attacks on Indian public systems → target + state"
+  },
+  {
+   "s": "Which of the following are the three elements of the CIA triad?\n1. Confidentiality\n2. Integrity\n3. Availability\n4. Authentication\nSelect the correct answer using the code given below.",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "1, 3 and 4 only",
+    "2, 3 and 4 only"
+   ],
+   "a": 0,
+   "x": "The CIA triad consists of confidentiality, integrity and availability. Authentication is an important security function but is not one of the three elements of the CIA triad.",
+   "ty": "statements",
+   "tq": "Separate the named triad from a closely related security concept.",
+   "sec": "Information security principles - CIA triad, cyber insurance for individuals"
+  },
+  {
+   "s": "A cyber attack exposes confidential medical records, alters several records and prevents doctors from accessing the hospital system. Which information-security principles have been compromised?",
+   "o": [
+    "Integrity only",
+    "Confidentiality, integrity and availability",
+    "Confidentiality only",
+    "Availability only"
+   ],
+   "a": 1,
+   "x": "Exposure compromises confidentiality, alteration compromises integrity, and denial of access compromises availability; together they cover all elements of the CIA triad.",
+   "ty": "application",
+   "tq": "Map each consequence in a scenario to the relevant CIA principle.",
+   "sec": "Information security principles - CIA triad, cyber insurance for individuals"
+  },
+  {
+   "s": "Which one of the following correctly describes the rule associated with QR-code fraud?",
+   "o": [
+    "Scanning any QR code automatically verifies the identity of the recipient",
+    "A QR code is scanned only to make a payment, not to receive money",
+    "A QR code must be scanned to receive money into a bank account",
+    "QR codes can be used only for international transfers"
+   ],
+   "a": 1,
+   "x": "A QR code is used to initiate a payment. It is not required for receiving money, and fraudsters may misuse this misconception.",
+   "ty": "confusable",
+   "tq": "Test the reversed action in a common payment-fraud misconception.",
+   "sec": "Financial cyber frauds - SIM swap, UPI and QR fraud, loan apps, crypto-jacking"
+  },
+  {
+   "s": "In a SIM-swap and OTP-diversion racket, fraudsters primarily seek to obtain control over which facility?",
+   "o": [
+    "The victim's electricity meter",
+    "Only the victim's device camera",
+    "A public website's domain name",
+    "The victim's mobile number and authentication messages"
+   ],
+   "a": 3,
+   "x": "SIM manipulation allows fraudsters to control the victim's mobile connection and divert OTPs, often after posing as bank officials through voice phishing.",
+   "ty": "application",
+   "tq": "Infer the fraud objective from the mechanism used to divert OTPs.",
+   "sec": "Financial cyber frauds - SIM swap, UPI and QR fraud, loan apps, crypto-jacking"
+  },
+  {
+   "s": "The Cyberabad police case involving voice phishing, SIM manipulation and OTP diversion concerned a fraud of approximately:",
+   "o": [
+    "Rs 7.75 lakh",
+    "Rs 50,000",
+    "Rs 94 crore",
+    "Rs 77.75 lakh"
+   ],
+   "a": 3,
+   "x": "The racket involved approximately Rs 77.75 lakh and was associated with six persons arrested from West Bengal.",
+   "ty": "numerical",
+   "tq": "Distinguish closely scaled monetary figures in a financial-fraud case.",
+   "sec": "Financial cyber frauds - SIM swap, UPI and QR fraud, loan apps, crypto-jacking"
+  },
+  {
+   "s": "Illegal instant-loan applications commonly commit fraud by:",
+   "o": [
+    "Mining cryptocurrency without accessing the device",
+    "Harvesting contacts and photographs and then extorting borrowers",
+    "Using only hardware encryption to protect borrowers",
+    "Providing interest-free loans through public banks"
+   ],
+   "a": 1,
+   "x": "Illegal loan apps may harvest contacts and photographs and use the collected information to extort borrowers.",
+   "ty": "fact",
+   "tq": "Identify the distinctive harm associated with a named fraud model.",
+   "sec": "Financial cyber frauds - SIM swap, UPI and QR fraud, loan apps, crypto-jacking"
+  },
+  {
+   "s": "What is meant by crypto-jacking?",
+   "o": [
+    "Encrypting a wallet with a public key",
+    "Stealing a cryptocurrency exchange's physical building",
+    "Scanning a QR code to receive cryptocurrency",
+    "Using a victim's device secretly to mine cryptocurrency"
+   ],
+   "a": 3,
+   "x": "Crypto-jacking is the unauthorised and concealed use of a victim's computing device to mine cryptocurrency; botnets may also be used for this purpose.",
+   "ty": "fact",
+   "tq": "Use the action-object relationship to distinguish a malware-related term.",
+   "sec": "Financial cyber frauds - SIM swap, UPI and QR fraud, loan apps, crypto-jacking"
+  },
+  {
+   "s": "Consider the following statements regarding recent digital-payment threats:\n1. Attacks are shifting towards social engineering and credential theft.\n2. Supply-chain and cloud exploitation are among the reported areas of concern.\n3. The four-layer 'Anatomy of Cyber Failure' and an 18-month roadmap were included in the Digital Threat Report framework.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements reflect the framework and threat directions described in the MeitY Digital Threat Report 2025–26 for BFSI and digital payments.",
+   "ty": "statements",
+   "tq": "Combine multiple components of a named report without confusing its threat areas and roadmap.",
+   "sec": "Financial cyber frauds - SIM swap, UPI and QR fraud, loan apps, crypto-jacking"
+  },
+  {
+   "s": "According to the Digital Threat Report 2025–26, how many of the seven predictions in the 2024–25 edition came true?",
+   "o": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "a": 2,
+   "x": "Six of the seven predictions made in the 2024–25 edition were reported to have come true.",
+   "ty": "numerical",
+   "tq": "Test the exact count rather than the total number of predictions.",
+   "sec": "Financial cyber frauds - SIM swap, UPI and QR fraud, loan apps, crypto-jacking"
+  },
+  {
+   "s": "Under the MHA Standard Operating Procedure for CFCFRMS, banks may refund certain fraud losses without court approval when the amount is below:",
+   "o": [
+    "Rs 94 crore",
+    "Rs 5,000",
+    "Rs 50,000",
+    "Rs 77.75 lakh"
+   ],
+   "a": 2,
+   "x": "Banks may refund frauds below Rs 50,000 without court approval under the stated procedure.",
+   "ty": "numerical",
+   "tq": "Select the threshold value and reject figures borrowed from other fraud cases.",
+   "sec": "Financial cyber frauds - SIM swap, UPI and QR fraud, loan apps, crypto-jacking"
+  },
+  {
+   "s": "Frozen funds under the MHA procedure are to be released within 90 days when:",
+   "o": [
+    "A court order is absent",
+    "The bank changes the SIM card",
+    "The accused admits the offence",
+    "The victim scans a new QR code"
+   ],
+   "a": 0,
+   "x": "Frozen funds are released within 90 days if no court order has been issued.",
+   "ty": "fact",
+   "tq": "Match the procedural time limit with its stated condition.",
+   "sec": "Financial cyber frauds - SIM swap, UPI and QR fraud, loan apps, crypto-jacking"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "Encryption — permits every user to read protected data",
+    "Firewall — prevents illegal or unauthorised network access",
+    "Virtual keyboard — creates a fixed-length one-way digest",
+    "Cyber Swachhta Kendra — conducts ATM/SWIFT frauds"
+   ],
+   "a": 1,
+   "x": "A firewall prevents illegal or unauthorised network access. Virtual keyboards help defeat keyloggers, hashing creates a digest, and encryption restricts readability to authorised parties.",
+   "ty": "negative",
+   "tq": "Find the one correct function among swapped security tools and functions.",
+   "sec": "Security basics - firewall, encryption, passwords, virtual keyboards, CIA triad"
+  },
+  {
+   "s": "Virtual keyboards are particularly useful in defeating which of the following?",
+   "o": [
+    "QR codes",
+    "Keyloggers",
+    "Dark-web marketplaces",
+    "Ransomware encryption"
+   ],
+   "a": 1,
+   "x": "Virtual keyboards help protect against keyloggers by reducing the usefulness of recording physical keyboard keystrokes.",
+   "ty": "fact",
+   "tq": "Match a protective measure with the specific attack mechanism it addresses.",
+   "sec": "Security basics - firewall, encryption, passwords, virtual keyboards, CIA triad"
+  },
+  {
+   "s": "Cyber Swachhta Kendra, associated with CERT-In, provides:",
+   "o": [
+    "Only cryptocurrency exchange services",
+    "Private keys for all digital signatures",
+    "Court approval for bank refunds",
+    "Free botnet-cleaning and malware-removal tools"
+   ],
+   "a": 3,
+   "x": "Cyber Swachhta Kendra provides free tools for cleaning botnets and malware from devices.",
+   "ty": "fact",
+   "tq": "Identify the service offered by the correct security body.",
+   "sec": "Security basics - firewall, encryption, passwords, virtual keyboards, CIA triad"
+  },
+  {
+   "s": "Which of the following combinations is most characteristic of state-sponsored cyber espionage?\n1. Spear-phishing\n2. Advanced malware\n3. Zero-day vulnerabilities\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "State-sponsored cyber espionage commonly uses spear-phishing, advanced malware and zero-day vulnerabilities.",
+   "ty": "statements",
+   "tq": "Recognise the cluster of methods associated with a specific cyber operation.",
+   "sec": "Cyber warfare and espionage - state-sponsored APTs, cyber terrorism"
+  },
+  {
+   "s": "Cyber terrorism is primarily associated with which objective?",
+   "o": [
+    "Creating fixed-length hash values",
+    "Improving the speed of lawful payments",
+    "Disrupting critical infrastructure",
+    "Auditing government applications"
+   ],
+   "a": 2,
+   "x": "Cyber terrorism seeks to disrupt critical infrastructure. Attribution is difficult because attackers may use VPNs, proxies and botnets.",
+   "ty": "fact",
+   "tq": "Identify the objective while distinguishing it from the methods used to conceal attribution.",
+   "sec": "Cyber warfare and espionage - state-sponsored APTs, cyber terrorism"
+  },
+  {
+   "s": "Why is attribution of cyber-terrorist activity often difficult?",
+   "o": [
+    "Critical infrastructure cannot be monitored",
+    "All cyber attacks are automatically anonymous by law",
+    "Attackers may use VPNs, proxies and botnets",
+    "Encryption makes every attack impossible to investigate"
+   ],
+   "a": 2,
+   "x": "VPNs, proxies and botnets can obscure the true source of an attack, making attribution difficult.",
+   "ty": "application",
+   "tq": "Connect the stated concealment tools with the attribution problem.",
+   "sec": "Cyber warfare and espionage - state-sponsored APTs, cyber terrorism"
+  },
+  {
+   "s": "Consider the following statements regarding state-linked cyber operations:\n1. China, Russia, Iran and North Korea together sponsor 77% of state-linked operations.\n2. China alone accounts for 33% of such operations.\n3. The United States, Ukraine, Israel and India are among the most targeted countries.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct according to the cited assessment of state-linked operations and targeting patterns.",
+   "ty": "statements",
+   "tq": "Check both the percentages and the membership of the named country groups.",
+   "sec": "Cyber warfare and espionage - state-sponsored APTs, cyber terrorism"
+  },
+  {
+   "s": "The projected global cost of cybercrime in 2025 was stated as approximately:",
+   "o": [
+    "$1.05 trillion",
+    "$94 trillion",
+    "$10.5 trillion",
+    "$77.75 billion"
+   ],
+   "a": 2,
+   "x": "The projected cost was approximately $10.5 trillion in 2025.",
+   "ty": "numerical",
+   "tq": "Distinguish the exact scale and unit of a large projected figure.",
+   "sec": "Cyber warfare and espionage - state-sponsored APTs, cyber terrorism"
+  },
+  {
+   "s": "Which one of the following correctly represents the trend in digital-arrest complaints recorded on the National Cybercrime Reporting Portal?",
+   "o": [
+    "1,23,672 in 2024; 58,249 in 2025; 16,377 up to 30 June 2026",
+    "16,377 in 2024; 58,249 in 2025; 1,23,672 up to 30 June 2026",
+    "58,249 in 2024; 1,23,672 in 2025; 16,377 up to 30 June 2026",
+    "1,23,672 in 2024; 16,377 in 2025; 58,249 up to 30 June 2026"
+   ],
+   "a": 0,
+   "x": "The complaints declined from 1,23,672 in 2024 to 58,249 in 2025 and stood at 16,377 up to 30 June 2026.",
+   "ty": "chronology",
+   "tq": "Preserve the time sequence before comparing the figures.",
+   "sec": "Cyber crime data - NCRB trends, top states"
+  },
+  {
+   "s": "CERT-In recorded how many cyber-security incidents in 2025, and how many in 2024?",
+   "o": [
+    "2.944 lakh in 2025 and 2.041 lakh in 2024",
+    "29.44 lakh in 2025 and 20.41 lakh in 2024",
+    "20.41 lakh in 2025 and 29.44 lakh in 2024",
+    "29.44 crore in 2025 and 20.41 crore in 2024"
+   ],
+   "a": 1,
+   "x": "CERT-In recorded 29.44 lakh incidents in 2025 compared with 20.41 lakh in 2024; 2025 was the highest level in five years.",
+   "ty": "numerical",
+   "tq": "Check both the year-wise figures and the lakh unit.",
+   "sec": "Cyber attacks on Indian public systems → target + state"
+  },
+  {
+   "s": "In 2025, the highest number of cyber-security incidents recorded by CERT-In was reported from:",
+   "o": [
+    "Madhya Pradesh",
+    "Tamil Nadu",
+    "Delhi",
+    "Maharashtra"
+   ],
+   "a": 2,
+   "x": "Delhi was reported as the source of the highest number of cyber-security incidents in 2025.",
+   "ty": "fact",
+   "tq": "Identify the leading location rather than the locations of specific historical attacks.",
+   "sec": "Cyber attacks on Indian public systems → target + state"
+  },
+  {
+   "s": "Which of the following best describes 'crime-as-a-service'?",
+   "o": [
+    "Syndicates renting out ransomware and fraud infrastructure",
+    "Banks refunding small fraud losses without court approval",
+    "A process for verifying digital signatures",
+    "Government agencies providing free malware-cleaning tools"
+   ],
+   "a": 0,
+   "x": "Crime-as-a-service refers to criminal syndicates renting ransomware and fraud infrastructure to other offenders.",
+   "ty": "fact",
+   "tq": "Decode a service-model term through the actor and activity involved.",
+   "sec": "Financial cyber frauds - SIM swap, UPI and QR fraud, loan apps, crypto-jacking"
+  }
+ ]
+}

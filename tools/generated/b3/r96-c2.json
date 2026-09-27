@@ -1,0 +1,527 @@
+{
+ "book": 3,
+ "row": 96,
+ "chunk": 2,
+ "section": "Goods and Services Tax - structure, slabs, GST Council, IGST settlement, compensation cess",
+ "subsections": [
+  "GST compensation - Act, cess, period, end",
+  "Rate structure - GST 2.0 rationalisation",
+  "Committees on GST design",
+  "Dual GST components, IGST settlement, GSTN",
+  "Rate-change procedure - notification vs Parliament, ceilings",
+  "GSTN, e-way bill, e-invoicing"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 37,
+ "rejected": {
+  "invalid": 1,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Under the GST (Compensation to States) Act, 2017, the States were assured an annual revenue growth of:",
+   "o": [
+    "15% over the 2016–17 base year",
+    "14% over the 2015–16 base year",
+    "12% over the 2015–16 base year",
+    "10% over the 2014–15 base year"
+   ],
+   "a": 1,
+   "x": "The Act assured States 14% annual revenue growth over the base year 2015–16.",
+   "ty": "numerical",
+   "tq": "Use the base year and percentage together to eliminate nearby figures.",
+   "sec": "GST compensation - Act, cess, period, end"
+  },
+  {
+   "s": "The original period for compensation to States under the GST compensation mechanism extended up to:",
+   "o": [
+    "June 2024",
+    "June 2022",
+    "March 2021",
+    "March 2023"
+   ],
+   "a": 1,
+   "x": "The compensation period was for five years and ended in June 2022.",
+   "ty": "fact",
+   "tq": "Anchor the answer to the stated five-year compensation period.",
+   "sec": "GST compensation - Act, cess, period, end"
+  },
+  {
+   "s": "Consider the following statements regarding GST compensation cess:\n1. Its levy was extended up to March 2026 to repay loans taken for paying compensation.\n2. From 22 September 2025, it was scrapped for all goods without exception.\n3. It continued on tobacco after the general withdrawal of the cess.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 3 are correct. The cess was scrapped for all goods except tobacco, so statement 2 is false.",
+   "ty": "statements",
+   "tq": "Find the exception hidden in an otherwise broad statement.",
+   "sec": "GST compensation - Act, cess, period, end"
+  },
+  {
+   "s": "Which of the following replaced the compensation-cess arrangement for tobacco and pan masala from 1 February 2026?",
+   "o": [
+    "A special State GST on tobacco products",
+    "A customs duty collected by the GST Council",
+    "Higher excise on tobacco and Health Security se National Security Cess on pan masala units",
+    "A surcharge under the Integrated Goods and Services Tax Act"
+   ],
+   "a": 2,
+   "x": "Higher excise was imposed on tobacco under the Central Excise (Amendment) Act, 2025, while Health Security se National Security Cess was imposed on pan masala units.",
+   "ty": "fact",
+   "tq": "Match the replacement measures with the correct commodities.",
+   "sec": "GST compensation - Act, cess, period, end"
+  },
+  {
+   "s": "The Health Security se National Security Cess on pan masala units is levied on the basis of:",
+   "o": [
+    "Machine production capacity",
+    "Retail turnover of the units",
+    "Value of imported raw material",
+    "Number of retail outlets"
+   ],
+   "a": 0,
+   "x": "The cess is levied on machine production capacity. Its proceeds are credited to the Consolidated Fund of India and are not shared with the States.",
+   "ty": "fact",
+   "tq": "Distinguish the production-capacity base from turnover-based taxation.",
+   "sec": "GST compensation - Act, cess, period, end"
+  },
+  {
+   "s": "The compensation cess for States formally ended on:",
+   "o": [
+    "30 June 2026",
+    "22 September 2025",
+    "31 March 2026",
+    "31 December 2025"
+   ],
+   "a": 2,
+   "x": "Although the cess was withdrawn for most goods from 22 September 2025 and retained for tobacco, the compensation cess ended on 31 March 2026.",
+   "ty": "fact",
+   "tq": "Separate the rate-change date from the formal end date.",
+   "sec": "GST compensation - Act, cess, period, end"
+  },
+  {
+   "s": "Which one of the following correctly represents the GST rate structure from 22 September 2025?",
+   "o": [
+    "0%, 8%, 16% and 32%",
+    "5%, 12%, 18% and 40%",
+    "0%, 5% as merit rate, 18% as standard rate and 40% as demerit rate",
+    "0%, 5%, 12%, 18% and 28%"
+   ],
+   "a": 2,
+   "x": "GST 2.0 rationalised the principal slabs into 0%, 5%, 18% and 40%, with 5% as the merit rate, 18% as the standard rate and 40% as the demerit rate.",
+   "ty": "comparison",
+   "tq": "Compare the post-rationalisation labels and rates as a complete structure.",
+   "sec": "Rate structure - GST 2.0 rationalisation"
+  },
+  {
+   "s": "The GST rate applicable to rough diamonds and gold, silver and jewellery under the special-rate structure is, respectively:",
+   "o": [
+    "5% and 3%",
+    "3% and 0.25%",
+    "0.5% and 5%",
+    "0.25% and 3%"
+   ],
+   "a": 3,
+   "x": "Rough diamonds attract a special rate of 0.25%, while gold, silver and jewellery attract 3%.",
+   "ty": "numerical",
+   "tq": "Read paired numerical rates in the order in which the commodities are given.",
+   "sec": "Rate structure - GST 2.0 rationalisation"
+  },
+  {
+   "s": "Which of the following rate changes is correctly matched?",
+   "o": [
+    "Bikes above 350 cc — 28% to 18%",
+    "Small cars and bikes up to 350 cc — 28% to 5%",
+    "Air-conditioners — 28% to 18%",
+    "Tractors — 12% to 18%"
+   ],
+   "a": 2,
+   "x": "Air-conditioners were shifted from 28% to 18%. Tractors moved from 12% to 5%; small cars and bikes up to 350 cc moved from 28% to 18%; larger bikes and big cars moved to 40%.",
+   "ty": "negative",
+   "tq": "Check both the commodity and the direction of the rate change.",
+   "sec": "Rate structure - GST 2.0 rationalisation"
+  },
+  {
+   "s": "Under GST 2.0, which group was placed in the 40% demerit-rate category?",
+   "o": [
+    "Ultra-luxury cars, tobacco, pan masala, online gaming and aerated drinks",
+    "Tractors, rough diamonds and agricultural implements",
+    "Small cars, bikes up to 350 cc and air-conditioners",
+    "Essential food items and medicines"
+   ],
+   "a": 0,
+   "x": "The 40% rate applies to specified demerit goods and services, including ultra-luxury cars, tobacco, pan masala, online gaming and aerated drinks.",
+   "ty": "fact",
+   "tq": "Group the demerit items instead of confusing them with standard-rate goods.",
+   "sec": "Rate structure - GST 2.0 rationalisation"
+  },
+  {
+   "s": "Approximately what proportion of the items earlier taxed at 12% moved to the 5% slab under GST 2.0?",
+   "o": [
+    "About 90%",
+    "About 99%",
+    "About 85%",
+    "About 75%"
+   ],
+   "a": 1,
+   "x": "Approximately 99% of the items earlier in the 12% slab moved to 5%.",
+   "ty": "numerical",
+   "tq": "Distinguish the 12% transition figure from the separate 28% transition figure.",
+   "sec": "Rate structure - GST 2.0 rationalisation"
+  },
+  {
+   "s": "Approximately what proportion of the items earlier taxed at 28% moved to the 18% slab under GST 2.0?",
+   "o": [
+    "About 90%",
+    "About 99%",
+    "About 66%",
+    "About 80%"
+   ],
+   "a": 0,
+   "x": "Approximately 90% of the items earlier taxed at 28% moved to 18%; the remaining demerit items moved to 40%.",
+   "ty": "numerical",
+   "tq": "Keep the 90% figure linked to the old 28% slab.",
+   "sec": "Rate structure - GST 2.0 rationalisation"
+  },
+  {
+   "s": "The Economic Survey 2025–26 described GST 2.0 as the:",
+   "o": [
+    "second pillar of tax reform",
+    "first pillar of monetary reform",
+    "third pillar of tax reform",
+    "fourth pillar of fiscal federalism"
+   ],
+   "a": 2,
+   "x": "GST 2.0 was described as the third pillar of tax reform, after the 2019 corporate tax cut and the 2025 personal income-tax reform.",
+   "ty": "fact",
+   "tq": "Use the sequence of reforms rather than identifying GST only by its tax rates.",
+   "sec": "Rate structure - GST 2.0 rationalisation"
+  },
+  {
+   "s": "Which of the following statements regarding the GST tax base and collections is correct?",
+   "o": [
+    "The taxpayer base increased from 66.5 lakh in 2017 to 1.51 crore in 2025.",
+    "Gross GST revenue in FY 2024–25 was ₹8.43 lakh crore.",
+    "The taxpayer base declined from 1.51 crore in 2017 to 66.5 lakh in 2025.",
+    "The taxpayer base remained unchanged between 2017 and 2025."
+   ],
+   "a": 0,
+   "x": "The tax base increased from 66.5 lakh taxpayers in 2017 to 1.51 crore in 2025. Gross GST collections in FY 2024–25 were ₹22.08 lakh crore.",
+   "ty": "fact",
+   "tq": "Check the direction of change and distinguish taxpayer counts from revenue figures.",
+   "sec": "Rate structure - GST 2.0 rationalisation"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Body)\na. Kelkar Task Force\nb. Empowered Committee of State Finance Ministers\nc. Revenue Neutral Rate Committee\n\nList-II (Chair)\ni. Arvind Subramanian\nii. Vijay Kelkar\niii. Asim Dasgupta\n\nSelect the correct answer using the code below.",
+   "o": [
+    "a–ii, b–iii, c–i",
+    "a–iii, b–ii, c–i",
+    "a–ii, b–i, c–iii",
+    "a–i, b–iii, c–ii"
+   ],
+   "a": 0,
+   "x": "The Kelkar Task Force was chaired by Vijay Kelkar, the Empowered Committee by Asim Dasgupta, and the Revenue Neutral Rate Committee by Arvind Subramanian.",
+   "ty": "match",
+   "tq": "Start from the sure chairperson–committee pair and eliminate the codes.",
+   "sec": "Committees on GST design"
+  },
+  {
+   "s": "The Kelkar Task Force first recommended a comprehensive national GST in connection with:",
+   "o": [
+    "The implementation of the FRBM framework",
+    "The nationalisation of banks",
+    "The creation of the GST Appellate Tribunal",
+    "The introduction of the Insolvency and Bankruptcy Code"
+   ],
+   "a": 0,
+   "x": "The Kelkar Task Force was associated with FRBM implementation and first recommended a comprehensive national GST. The roadmap is also dated to 2002 in the cited chronology.",
+   "ty": "fact",
+   "tq": "Link the committee to its stated institutional context.",
+   "sec": "Committees on GST design"
+  },
+  {
+   "s": "The Empowered Committee of State Finance Ministers produced which of the following documents in April 2008?",
+   "o": [
+    "A Model and Roadmap for GST",
+    "The Revenue Neutral Rate Report",
+    "The National Taxpayer Charter",
+    "The First Finance Commission Memorandum"
+   ],
+   "a": 0,
+   "x": "The Empowered Committee produced “A Model and Roadmap for GST” in April 2008 and issued the First Discussion Paper in November 2009.",
+   "ty": "fact",
+   "tq": "Distinguish the committee’s roadmap document from the later discussion paper.",
+   "sec": "Committees on GST design"
+  },
+  {
+   "s": "The Revenue Neutral Rate Committee recommended an RNR of approximately:",
+   "o": [
+    "5–7% and a standard rate of 8–10%",
+    "10–12% and a standard rate of 12–14%",
+    "20–22% and a standard rate of 24–28%",
+    "15–15.5% and a standard rate of 17–18%"
+   ],
+   "a": 3,
+   "x": "The Revenue Neutral Rate Committee, chaired by Arvind Subramanian, recommended an RNR of about 15–15.5% and a standard rate of 17–18%.",
+   "ty": "numerical",
+   "tq": "Keep the RNR range distinct from the proposed standard-rate range.",
+   "sec": "Committees on GST design"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. First Discussion Paper on GST\nB. GST rollout at a midnight session\nC. Empowered Committee roadmap for GST\nD. Union Finance Minister’s commitment to 1 April 2010 as the target date",
+   "o": [
+    "C, D, A, B",
+    "D, C, A, B",
+    "C, A, D, B",
+    "A, C, D, B"
+   ],
+   "a": 0,
+   "x": "The roadmap was issued in 2008, the commitment to 1 April 2010 was made in July 2009, the First Discussion Paper appeared in November 2009, and GST was rolled out on 1 July 2017.",
+   "ty": "chronology",
+   "tq": "Fix the first and last events, then order the two intervening 2009 events.",
+   "sec": "Committees on GST design"
+  },
+  {
+   "s": "Which of the following statements about the design and origin of GST is correct?",
+   "o": [
+    "The GST idea was first proposed under the Vajpayee government, recommended by the Vijay Kelkar Task Force, and was based on the Canadian dual model.",
+    "The GST idea originated under the Manmohan Singh government and followed an exclusively French model.",
+    "The GST was first used in Canada and later proposed by the Kelkar Task Force.",
+    "The GST was designed as a single-level State tax without a dual structure."
+   ],
+   "a": 0,
+   "x": "The idea was first proposed under the Vajpayee government, recommended by the Vijay Kelkar Task Force, and followed the Canadian dual model. The concept was first used in France.",
+   "ty": "statements",
+   "tq": "Combine origin, recommending body and model while rejecting swapped-country traps.",
+   "sec": "Committees on GST design"
+  },
+  {
+   "s": "Which one of the following correctly describes the components of India’s dual GST system?",
+   "o": [
+    "CGST is levied by States and SGST by the Centre on inter-State supplies.",
+    "UTGST is levied by States with legislatures on inter-State imports.",
+    "CGST and SGST are levied on intra-State supplies, while IGST is levied on inter-State supplies and imports.",
+    "IGST is levied by States and retained entirely by the exporting State."
+   ],
+   "a": 2,
+   "x": "CGST and SGST apply to intra-State supplies, while IGST is levied by the Centre on inter-State supplies and imports.",
+   "ty": "comparison",
+   "tq": "Identify the taxing authority and type of supply together.",
+   "sec": "Dual GST components, IGST settlement, GSTN"
+  },
+  {
+   "s": "In an intra-State supply, the State component of GST is generally represented by:",
+   "o": [
+    "IGST alone",
+    "Compensation cess alone",
+    "UTGST, collected by the Centre in every State",
+    "SGST, collected by the State, alongside an equal CGST component"
+   ],
+   "a": 3,
+   "x": "For an intra-State supply, CGST is levied by the Centre and SGST by the State in equal halves of the applicable GST rate.",
+   "ty": "application",
+   "tq": "Apply the dual-tax principle to an intra-State transaction.",
+   "sec": "Dual GST components, IGST settlement, GSTN"
+  },
+  {
+   "s": "UTGST is applicable principally to:",
+   "o": [
+    "Exports from Union Territories with legislatures",
+    "Inter-State supplies made by States with legislatures",
+    "Intra-Union Territory supplies in Union Territories without legislatures",
+    "Imports entering any State"
+   ],
+   "a": 2,
+   "x": "UTGST is the Union Territory counterpart for intra-UT supplies in Union Territories without legislatures and is levied by the Centre.",
+   "ty": "fact",
+   "tq": "Match UTGST with both the territory and the nature of supply.",
+   "sec": "Dual GST components, IGST settlement, GSTN"
+  },
+  {
+   "s": "IGST revenue is ultimately apportioned to the:",
+   "o": [
+    "Origin State from which the goods are dispatched",
+    "Union Territory in which the invoice is generated",
+    "Destination State where the goods or services are consumed",
+    "State having the largest tax base"
+   ],
+   "a": 2,
+   "x": "IGST follows the destination principle; revenue is settled to the consuming or destination State.",
+   "ty": "application",
+   "tq": "Apply the destination principle rather than the place-of-origin principle.",
+   "sec": "Dual GST components, IGST settlement, GSTN"
+  },
+  {
+   "s": "Which authority alone legislates on IGST?",
+   "o": [
+    "The State Legislature of the exporting State",
+    "The GST Council",
+    "The Finance Commission",
+    "The Parliament"
+   ],
+   "a": 3,
+   "x": "Parliament alone legislates on IGST, while the GST Council makes recommendations on GST matters.",
+   "ty": "fact",
+   "tq": "Distinguish the recommending body from the legislative authority.",
+   "sec": "Dual GST components, IGST settlement, GSTN"
+  },
+  {
+   "s": "GSTN primarily functions as the IT backbone for:",
+   "o": [
+    "Customs valuation and foreign-exchange management only",
+    "State-budget preparation and public-debt auctions",
+    "Currency printing and monetary-policy operations",
+    "Registration, returns and input-tax-credit matching"
+   ],
+   "a": 3,
+   "x": "GSTN supports GST registration, return filing and input-tax-credit matching; AI tools are also being used for scrutiny.",
+   "ty": "fact",
+   "tq": "Identify the core digital functions rather than unrelated financial functions.",
+   "sec": "Dual GST components, IGST settlement, GSTN"
+  },
+  {
+   "s": "The GSTN is using AI tools particularly for:",
+   "o": [
+    "Fixing the policy repo rate",
+    "Conducting monetary-policy voting",
+    "Determining the exchange rate of the rupee",
+    "Scrutiny of GST-related transactions and returns"
+   ],
+   "a": 3,
+   "x": "AI tools are being used for scrutiny within the GSTN-supported tax administration system.",
+   "ty": "fact",
+   "tq": "Separate tax-administration applications of AI from RBI functions.",
+   "sec": "Dual GST components, IGST settlement, GSTN"
+  },
+  {
+   "s": "Which of the following statements regarding compensation cess is correct?\n1. It was imposed on specified luxury and sin goods.\n2. It was intended to support compensation to States for five years at 14% annual growth over 2015–16.\n3. Compensation to States continued indefinitely after June 2022.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Compensation to States ended in June 2022, although cess collections continued for loan repayment.",
+   "ty": "statements",
+   "tq": "Reject the indefinite-continuation trap in statement 3.",
+   "sec": "Dual GST components, IGST settlement, GSTN"
+  },
+  {
+   "s": "Under the GST Acts, the ceiling for CGST is:",
+   "o": [
+    "5%",
+    "18%",
+    "20%",
+    "40%"
+   ],
+   "a": 2,
+   "x": "The CGST Act provides a ceiling of 20%. The corresponding IGST ceiling is 40%.",
+   "ty": "numerical",
+   "tq": "Keep the CGST ceiling separate from the IGST ceiling.",
+   "sec": "Rate-change procedure - notification vs Parliament, ceilings"
+  },
+  {
+   "s": "Under the GST Acts, the ceiling for IGST is:",
+   "o": [
+    "20%",
+    "28%",
+    "40%",
+    "50%"
+   ],
+   "a": 2,
+   "x": "The IGST Act provides a ceiling of 40%, while the CGST ceiling is 20%.",
+   "ty": "numerical",
+   "tq": "Use the paired statutory ceilings to avoid reversing them.",
+   "sec": "Rate-change procedure - notification vs Parliament, ceilings"
+  },
+  {
+   "s": "GST rates are normally changed by:",
+   "o": [
+    "An order of the Reserve Bank of India",
+    "Amending the GST Acts through Parliament in every case",
+    "Government notification issued on the recommendation of the GST Council, subject to statutory ceilings",
+    "A resolution of the Finance Commission"
+   ],
+   "a": 2,
+   "x": "Rates are normally changed through government notification on the recommendation of the GST Council, rather than by amending the Acts each time.",
+   "ty": "fact",
+   "tq": "Ask which authority performs the operational rate change and who recommends it.",
+   "sec": "Rate-change procedure - notification vs Parliament, ceilings"
+  },
+  {
+   "s": "An e-way bill is mandatory for the movement of goods when their value exceeds:",
+   "o": [
+    "₹10,000",
+    "₹25,000",
+    "₹50,000",
+    "₹1,00,000"
+   ],
+   "a": 2,
+   "x": "An e-way bill is mandatory for moving goods worth more than ₹50,000.",
+   "ty": "numerical",
+   "tq": "Identify the statutory value threshold rather than the validity period.",
+   "sec": "GSTN, e-way bill, e-invoicing"
+  },
+  {
+   "s": "The normal validity period of an e-way bill is:",
+   "o": [
+    "One week for every 500 km",
+    "One day for every 200 km",
+    "One day for every 100 km",
+    "Two days for every 200 km"
+   ],
+   "a": 1,
+   "x": "The e-way bill is valid for one day for every 200 km of movement.",
+   "ty": "numerical",
+   "tq": "Read the validity rule as a distance-to-day ratio.",
+   "sec": "GSTN, e-way bill, e-invoicing"
+  },
+  {
+   "s": "The principal purpose of e-invoicing is to:",
+   "o": [
+    "Replace all GST returns with paper invoices",
+    "Digitally report invoices, curb fake invoices and verify input-tax credit",
+    "Set the GST Council’s voting weights",
+    "Determine the annual borrowing limit of States"
+   ],
+   "a": 1,
+   "x": "E-invoicing digitally reports invoices, helps curb fake invoices and supports verification of input-tax credit.",
+   "ty": "application",
+   "tq": "Connect the digital mechanism with its compliance objectives.",
+   "sec": "GSTN, e-way bill, e-invoicing"
+  },
+  {
+   "s": "Under Budget 2026–27, automated GST registration within three working days is intended for low-risk applicants whose monthly tax liability is up to:",
+   "o": [
+    "₹1 lakh",
+    "₹2.5 lakh",
+    "₹5 lakh",
+    "₹50,000"
+   ],
+   "a": 1,
+   "x": "Low-risk applicants with a monthly tax liability up to ₹2.5 lakh are eligible for the automated registration facility within three working days.",
+   "ty": "numerical",
+   "tq": "Combine the applicant category, time limit and monetary threshold.",
+   "sec": "GSTN, e-way bill, e-invoicing"
+  },
+  {
+   "s": "Which of the following collection figures is correctly matched with its period?\n1. January 2026 — ₹1.93 lakh crore\n2. February 2026 — ₹1.83 lakh crore\n3. April–July 2026 — ₹8.43 lakh crore\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three figures are correctly matched: ₹1.93 lakh crore in January 2026, ₹1.83 lakh crore in February 2026, and ₹8.43 lakh crore during April–July 2026.",
+   "ty": "statements",
+   "tq": "Verify each figure against its time period before selecting the coded option.",
+   "sec": "Committees on GST design"
+  }
+ ]
+}

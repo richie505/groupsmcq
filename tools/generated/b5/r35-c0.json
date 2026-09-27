@@ -1,0 +1,539 @@
+{
+ "book": 5,
+ "row": 35,
+ "chunk": 0,
+ "section": "Launch vehicles - SLV-3, ASLV, PSLV variants, GSLV Mk-II, LVM3/GSLV Mk-III, SSLV",
+ "subsections": [
+  "Satellite → launch vehicle + flight number",
+  "Launch vehicle → stages + propellant per stage",
+  "Record and landmark launches",
+  "Full forms and orbits served"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "NVS-01 was launched by which of the following launch vehicles in May 2023?",
+   "o": [
+    "PSLV-C57",
+    "GSLV-F15",
+    "LVM3-M4",
+    "GSLV-F12"
+   ],
+   "a": 3,
+   "x": "NVS-01 was launched by GSLV-F12 in May 2023.",
+   "ty": "fact",
+   "tq": "Match the satellite with its specific launch vehicle and flight number.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "Consider the following statements regarding NVS-02:\n1. It was launched by GSLV-F15.\n2. Its launch marked the 100th launch from Sriharikota.\n3. It was placed in its intended orbit without any technical difficulty.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "NVS-02 was launched by GSLV-F15 and marked the 100th Sriharikota launch. A valve malfunction prevented it from reaching its intended orbit, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Find the false statement by checking the failure detail against the successful-launch statements.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "GSAT-6A was launched by which launch vehicle?",
+   "o": [
+    "GSLV-F10",
+    "GSLV-F08",
+    "PSLV-C55",
+    "GSLV-F12"
+   ],
+   "a": 1,
+   "x": "GSAT-6A was launched by GSLV-F08 in March 2018; contact was subsequently lost after launch.",
+   "ty": "fact",
+   "tq": "Use the vehicle-flight number association rather than the satellite date alone.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "TeLEOS-2 — PSLV-C55",
+    "Aditya-L1 — PSLV-C60",
+    "Chandrayaan-3 — GSLV-F14",
+    "INSAT-3DS — PSLV-C57"
+   ],
+   "a": 0,
+   "x": "TeLEOS-2 of Singapore was launched by PSLV-C55 in April 2023. The other satellites were associated with different launch vehicles.",
+   "ty": "match",
+   "tq": "Start with the sure satellite–launcher pair and eliminate swapped flight numbers.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "Chandrayaan-3 was launched by which of the following?",
+   "o": [
+    "GSLV-F10",
+    "GSLV Mk III-M1",
+    "PSLV-C57",
+    "LVM3-M4"
+   ],
+   "a": 3,
+   "x": "Chandrayaan-3 was launched by LVM3-M4 in July 2023.",
+   "ty": "fact",
+   "tq": "Distinguish the LVM3 flight used for Chandrayaan-3 from the earlier Chandrayaan-2 flight.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "The OneWeb missions conducted by LVM3 placed how many satellites in orbit in total?",
+   "o": [
+    "36",
+    "48",
+    "72",
+    "104"
+   ],
+   "a": 2,
+   "x": "Two LVM3 missions, designated M2 and M3, launched a total of 72 OneWeb satellites.",
+   "ty": "numerical",
+   "tq": "Use the distinctive cumulative figure rather than the number carried in one mission.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "Aditya-L1 was launched by which launch vehicle?",
+   "o": [
+    "PSLV-C57",
+    "GSLV-F15",
+    "PSLV-C55",
+    "LVM3-M4"
+   ],
+   "a": 0,
+   "x": "Aditya-L1 was launched by PSLV-C57 in September 2023.",
+   "ty": "fact",
+   "tq": "Link the scientific mission with its PSLV flight designation.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "India's SPADEX mission was launched by PSLV-C60 on which date?",
+   "o": [
+    "30 December 2024",
+    "12 January 2026",
+    "29 January 2025",
+    "16 January 2025"
+   ],
+   "a": 0,
+   "x": "SPADEX was launched by PSLV-C60 on 30 December 2024. The docking occurred later, on 16 January 2025.",
+   "ty": "fact",
+   "tq": "Separate the mission-launch date from the later docking date.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "Consider the following statements about SPADEX:\n1. It docked on 16 January 2025.\n2. India became the fourth nation to achieve the relevant docking milestone.\n3. India achieved the milestone after the United States, Russia and China.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: SPADEX docked on 16 January 2025, making India the fourth nation after the United States, Russia and China.",
+   "ty": "statements",
+   "tq": "Confirm each statement independently before selecting the inclusive code.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "BlueBird Block-2, developed by AST SpaceMobile of the United States, was launched by which vehicle?",
+   "o": [
+    "LVM3-M4",
+    "PSLV-C62",
+    "GSLV-F17",
+    "LVM3-M6"
+   ],
+   "a": 3,
+   "x": "BlueBird Block-2 was launched by LVM3-M6 on 24 December 2025.",
+   "ty": "fact",
+   "tq": "Discriminate between closely related LVM3 mission designations.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "Which of the following statements regarding EOS-N1, also called Anvesha, is correct?",
+   "o": [
+    "It was a navigation satellite launched by PSLV-C57 and docked during SPADEX.",
+    "It was a lunar spacecraft launched by LVM3-M6 and lost during the cryogenic stage.",
+    "It was a communications satellite launched by GSLV-F15 and placed in its intended orbit.",
+    "It was a DRDO hyperspectral satellite launched by PSLV-C62 and the mission failed because of a third-stage anomaly."
+   ],
+   "a": 3,
+   "x": "EOS-N1 or Anvesha was a DRDO hyperspectral satellite launched with 15 co-passengers by PSLV-C62 on 12 January 2026; the mission failed because of a third-stage anomaly.",
+   "ty": "application",
+   "tq": "Combine the satellite's purpose, launcher and failure stage in one identification question.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "INSAT-3DS — GSLV-F14",
+    "NISAR — GSLV-F10",
+    "EOS-05 — PSLV-C62",
+    "NVS-02 — GSLV-F16"
+   ],
+   "a": 0,
+   "x": "INSAT-3DS was launched by GSLV-F14 on 17 February 2024. NISAR was associated with GSLV-F16, EOS-05 with GSLV-F17 and NVS-02 with GSLV-F15.",
+   "ty": "match",
+   "tq": "Begin with the correctly paired launcher and eliminate flight-number substitutions.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "GSLV-F16 was notable for which of the following achievements?",
+   "o": [
+    "It carried GISAT-1 and successfully completed its cryogenic-stage burn.",
+    "It carried EOS-05 into sub-GTO and became the 107th Sriharikota launch.",
+    "It carried NISAR and became the first GSLV launch to a sun-synchronous polar orbit.",
+    "It carried NVS-02 and marked the 100th Sriharikota launch."
+   ],
+   "a": 2,
+   "x": "GSLV-F16 launched NISAR on 30 July 2025 and was the first GSLV launch to a sun-synchronous polar orbit.",
+   "ty": "fact",
+   "tq": "Identify the landmark associated with the correct mission rather than a nearby GSLV flight.",
+   "sec": "Satellite → launch vehicle + flight number"
+  },
+  {
+   "s": "The SLV-3 consisted of how many stages and used which propellant arrangement?",
+   "o": [
+    "Four stages, solid-liquid-solid-liquid",
+    "Three stages, all liquid",
+    "Five stages, all solid",
+    "Four stages, all solid"
+   ],
+   "a": 3,
+   "x": "SLV-3 had four stages, all of which used solid propellant.",
+   "ty": "fact",
+   "tq": "Separate the number of stages from the propellant sequence of similar vehicles.",
+   "sec": "Launch vehicle → stages + propellant per stage"
+  },
+  {
+   "s": "Which of the following correctly describes the ASLV?",
+   "o": [
+    "A four-stage vehicle with alternating solid and liquid stages capable of placing 150 kg into GTO",
+    "A three-stage vehicle with a cryogenic upper stage designed for 4-tonne GTO payloads",
+    "A three-stage solid vehicle with a liquid trimming module designed for geostationary satellites",
+    "A five-stage, all-solid launch vehicle capable of placing about 150 kg into LEO"
+   ],
+   "a": 3,
+   "x": "ASLV had five all-solid stages and could place approximately 150 kg into Low Earth Orbit.",
+   "ty": "application",
+   "tq": "Use stage count, propellant type and payload class together to identify the vehicle.",
+   "sec": "Launch vehicle → stages + propellant per stage"
+  },
+  {
+   "s": "Which launch vehicle was the first Indian vehicle to incorporate liquid stages?",
+   "o": [
+    "SSLV",
+    "PSLV",
+    "ASLV",
+    "SLV-3"
+   ],
+   "a": 1,
+   "x": "PSLV was the first Indian launch vehicle with liquid stages and is regarded as ISRO's workhorse.",
+   "ty": "fact",
+   "tq": "Test the landmark distinction between successive generations of launch vehicles.",
+   "sec": "Launch vehicle → stages + propellant per stage"
+  },
+  {
+   "s": "The stage-wise propellant sequence of PSLV is correctly represented by:",
+   "o": [
+    "Solid-liquid-cryogenic-liquid",
+    "Solid-liquid-solid-liquid",
+    "Liquid-solid-liquid-solid",
+    "Solid-solid-liquid-cryogenic"
+   ],
+   "a": 1,
+   "x": "PSLV has four stages in the sequence solid, liquid, solid and liquid.",
+   "ty": "fact",
+   "tq": "Recall the exact sequence rather than merely the presence of liquid stages.",
+   "sec": "Launch vehicle → stages + propellant per stage"
+  },
+  {
+   "s": "Consider the following statements regarding GSLV Mk II:\n1. Its first stage uses HTPB solid propellant.\n2. Its second stage uses a Vikas engine with UH25 and N2O4.\n3. Its third stage is cryogenic and uses LH2 and LOX.\n4. It has four liquid strap-ons.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe GSLV Mk II: its HTPB solid first stage, Vikas-powered liquid second stage, LH2-LOX cryogenic third stage and four liquid strap-ons.",
+   "ty": "statements",
+   "tq": "Check each component of a multi-stage vehicle before choosing the complete code.",
+   "sec": "Launch vehicle → stages + propellant per stage"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the LVM3 configuration?",
+   "o": [
+    "S200 solid strap-ons, L110 liquid core and C25 cryogenic stage",
+    "Four solid stages followed by a Vikas liquid stage",
+    "HTPB first stage, UH25 second stage and CE-7.5 third stage with four strap-ons",
+    "Three solid stages followed only by a liquid velocity-trimming module"
+   ],
+   "a": 0,
+   "x": "LVM3 uses two S200 solid strap-ons, an L110 liquid core and a C25 cryogenic stage. The C25 stage is fully indigenous.",
+   "ty": "match",
+   "tq": "Distinguish the named LVM3 modules from the corresponding GSLV Mk II components.",
+   "sec": "Launch vehicle → stages + propellant per stage"
+  },
+  {
+   "s": "The C25 stage of LVM3 is significant because it is:",
+   "o": [
+    "a solid strap-on booster",
+    "the first liquid stage used by PSLV",
+    "fully indigenous cryogenic technology",
+    "the liquid Velocity Trimming Module of SSLV"
+   ],
+   "a": 2,
+   "x": "The C25 is LVM3's fully indigenous cryogenic stage.",
+   "ty": "fact",
+   "tq": "Use the technology-specific descriptor to distinguish the upper-stage components.",
+   "sec": "Launch vehicle → stages + propellant per stage"
+  },
+  {
+   "s": "Which of the following statements about SSLV is correct?",
+   "o": [
+    "It has four stages in a solid-liquid-solid-liquid sequence and is designed mainly for GTO missions.",
+    "It has three solid stages and a liquid Velocity Trimming Module that enables precise orbit insertion.",
+    "It has one solid, one liquid and one cryogenic stage with four liquid strap-ons.",
+    "It has five all-solid stages and places 150 kg into LEO."
+   ],
+   "a": 1,
+   "x": "SSLV consists of three solid stages and a liquid Velocity Trimming Module, which provides precise orbit insertion.",
+   "ty": "application",
+   "tq": "Identify the vehicle by its distinctive auxiliary module and mission function.",
+   "sec": "Launch vehicle → stages + propellant per stage"
+  },
+  {
+   "s": "Which of the following chronological sequences is correct?",
+   "o": [
+    "SLV-3, ASLV, PSLV, GSLV Mk II, LVM3, SSLV",
+    "ASLV, SLV-3, PSLV, LVM3, GSLV Mk II, SSLV",
+    "SLV-3, PSLV, ASLV, GSLV Mk II, SSLV, LVM3",
+    "PSLV, SLV-3, ASLV, GSLV Mk II, LVM3, SSLV"
+   ],
+   "a": 0,
+   "x": "The development sequence proceeds from SLV-3 to ASLV, PSLV, GSLV Mk II, LVM3 and SSLV.",
+   "ty": "chronology",
+   "tq": "Arrange the vehicle generations from the earliest basic launcher to later specialised systems.",
+   "sec": "Launch vehicle → stages + propellant per stage"
+  },
+  {
+   "s": "Which launch vehicle is described as ISRO's “workhorse”?",
+   "o": [
+    "ASLV",
+    "PSLV",
+    "GSLV Mk II",
+    "LVM3"
+   ],
+   "a": 1,
+   "x": "PSLV is widely described as ISRO's workhorse and was the first Indian launch vehicle with liquid stages.",
+   "ty": "fact",
+   "tq": "Recall the standard institutional description associated with the vehicle.",
+   "sec": "Launch vehicle → stages + propellant per stage"
+  },
+  {
+   "s": "The record for launching the largest number of satellites in a single Indian launch was set by:",
+   "o": [
+    "GSLV-F15 in January 2025",
+    "PSLV-C37 in February 2017",
+    "LVM3-M6 in December 2025",
+    "PSLV-C62 in January 2026"
+   ],
+   "a": 1,
+   "x": "PSLV-C37 launched 104 satellites in February 2017, establishing the multi-satellite record stated here.",
+   "ty": "fact",
+   "tq": "Pair the record with both its launch vehicle and date to avoid nearby record traps.",
+   "sec": "Record and landmark launches"
+  },
+  {
+   "s": "Consider the following statements:\n1. GSLV-F15 was the 17th GSLV flight.\n2. PSLV-C62 was the 105th launch from Sriharikota.\n3. GSLV-F17 was the 107th launch from Sriharikota and the 19th GSLV flight.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 3 are correct. PSLV-C62 was associated with the 105th Sriharikota launch, but statement 2 incorrectly describes it as the 105th launch without the stated context?",
+   "ty": "statements",
+   "tq": "Compare ordinal launch numbers carefully and reject the statement that misstates the record association.",
+   "sec": "Record and landmark launches"
+  },
+  {
+   "s": "The heaviest payload launched from Indian soil, according to the stated record, was:",
+   "o": [
+    "BlueBird Block-2, weighing 6,100 kg, launched by LVM3-M6",
+    "EOS-05, weighing 2,367 kg, launched by GSLV-F17",
+    "NVS-02, weighing 6,100 kg, launched by GSLV-F15",
+    "INSAT-4CR, weighing 2,130 kg, launched by GSLV-F04"
+   ],
+   "a": 0,
+   "x": "BlueBird Block-2, weighing 6,100 kg, was launched by LVM3-M6 and represents the stated current record. INSAT-4CR was the older record for its time at 2,130 kg.",
+   "ty": "comparison",
+   "tq": "Separate the current record from the older record explicitly qualified as historical.",
+   "sec": "Record and landmark launches"
+  },
+  {
+   "s": "Which one of the following statements about BlueBird Block-2 is correct?",
+   "o": [
+    "It was a 150 kg remote-sensing satellite placed in LEO by ASLV.",
+    "It was a 2,367 kg navigation satellite placed in sub-GTO by GSLV-F17.",
+    "It had a 2,130 square metre phased array and was placed in GTO by GSLV-F04.",
+    "It had a 223 square metre phased array and was the largest commercial communication satellite in LEO."
+   ],
+   "a": 3,
+   "x": "BlueBird Block-2 had a 223 m² phased array and was described as the largest commercial communication satellite in Low Earth Orbit.",
+   "ty": "fact",
+   "tq": "Use the distinctive size and orbit description to distinguish the satellite from launch-mass records.",
+   "sec": "Record and landmark launches"
+  },
+  {
+   "s": "Which of the following correctly describes the two recent PSLV setbacks mentioned?",
+   "o": [
+    "PSLV-C61/EOS-09 and PSLV-C62/EOS-N1 both failed in the third stage and were described as “marginally missed”.",
+    "Both failed during the cryogenic stage and were described as complete launch successes.",
+    "PSLV-C61 failed in the first stage, whereas PSLV-C62 failed during docking.",
+    "Both were GSLV missions involving valve malfunction in the navigation satellite payload."
+   ],
+   "a": 0,
+   "x": "PSLV-C61/EOS-09 on 18 May 2025 and PSLV-C62/EOS-N1 on 12 January 2026 both failed in the third stage; ISRO described them as “marginally missed”.",
+   "ty": "statements",
+   "tq": "Match the failures with the correct stage and official characterisation.",
+   "sec": "Record and landmark launches"
+  },
+  {
+   "s": "The principal significance of LVM3 as a heavy-lift vehicle is that it:",
+   "o": [
+    "was designed exclusively for sun-synchronous polar orbits",
+    "is restricted to nano-satellites in LEO and cannot carry human-rated missions",
+    "can place 4 tonnes into GTO and ended dependence on foreign launchers for 4-tonne satellites",
+    "uses only solid stages and is limited to 150 kg in LEO"
+   ],
+   "a": 2,
+   "x": "LVM3 can place about 4 tonnes into GTO and ended India's dependence on foreign launchers for 4-tonne satellites. A human-rated LVM3 is intended for Gaganyaan.",
+   "ty": "application",
+   "tq": "Infer the vehicle's strategic importance from its payload capability and stated operational role.",
+   "sec": "Record and landmark launches"
+  },
+  {
+   "s": "The full form of SSO, in the context of satellite orbits, is:",
+   "o": [
+    "Sub-Geosynchronous Orbit",
+    "Satellite Stationary Orbit",
+    "Solar Synchronous Observatory",
+    "Sun-Synchronous Orbit"
+   ],
+   "a": 3,
+   "x": "SSO stands for Sun-Synchronous Orbit, a type of polar orbit for which PSLV has special capability.",
+   "ty": "fact",
+   "tq": "Discriminate the official expansion from plausible but incorrect orbital terms.",
+   "sec": "Full forms and orbits served"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "LEO — Low Earth Orbit",
+    "GTO — Geostationary Low Orbit",
+    "MEO — Medium Polar Orbit",
+    "SSO — Solar Transfer Orbit"
+   ],
+   "a": 0,
+   "x": "LEO means Low Earth Orbit. GTO means Geosynchronous Transfer Orbit and MEO means Medium Earth Orbit.",
+   "ty": "match",
+   "tq": "Use exact official expansions rather than approximate descriptions of orbits.",
+   "sec": "Full forms and orbits served"
+  },
+  {
+   "s": "The approximate upper limit specified for Low Earth Orbit is:",
+   "o": [
+    "200 km",
+    "2,000 km",
+    "20,000 km",
+    "36,000 km"
+   ],
+   "a": 1,
+   "x": "LEO is specified here as extending up to approximately 2,000 km.",
+   "ty": "numerical",
+   "tq": "Distinguish the LEO boundary from MEO and geostationary-orbit altitudes.",
+   "sec": "Full forms and orbits served"
+  },
+  {
+   "s": "Which of the following combinations of launch vehicle and principal orbit capability is correctly matched?",
+   "o": [
+    "SSLV — exclusively GTO for heavy communication satellites",
+    "LVM3 — only sun-synchronous polar orbit missions",
+    "PSLV — SSO, LEO and GTO",
+    "GSLV Mk II — only nano-satellites in LEO"
+   ],
+   "a": 2,
+   "x": "PSLV serves SSO, LEO and GTO missions, including Chandrayaan-1 and the Mars Orbiter Mission. The other combinations reverse or restrict the stated capabilities.",
+   "ty": "comparison",
+   "tq": "Compare the orbit portfolios of the four launch-vehicle families.",
+   "sec": "Full forms and orbits served"
+  },
+  {
+   "s": "Which launch vehicle is primarily associated with placing 2–2.5 tonne communication and navigation satellites into GTO?",
+   "o": [
+    "ASLV",
+    "SSLV",
+    "PSLV",
+    "GSLV Mk II"
+   ],
+   "a": 3,
+   "x": "GSLV Mk II is designed to place 2–2.5 tonne communication and navigation satellites into Geosynchronous Transfer Orbit.",
+   "ty": "fact",
+   "tq": "Match the payload class and target orbit with the appropriate launcher.",
+   "sec": "Full forms and orbits served"
+  },
+  {
+   "s": "Consider the following statements regarding LVM3:\n1. It can place about 4 tonnes into GTO.\n2. It can place about 10 tonnes into LEO.\n3. It is the vehicle identified for the human-rated launcher role in Gaganyaan.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. LVM3 is specified for approximately 4 tonnes to GTO, 10 tonnes to LEO and the human-rated Gaganyaan role.",
+   "ty": "statements",
+   "tq": "Combine payload figures with the programme-role statement before selecting the code.",
+   "sec": "Full forms and orbits served"
+  },
+  {
+   "s": "Which one of the following correctly describes SSLV's intended payload and orbit service?",
+   "o": [
+    "Mini, micro and nano satellites to LEO",
+    "Four-tonne communication satellites to GTO",
+    "Only human-rated spacecraft to SSO",
+    "Medium Earth Orbit navigation constellations exclusively"
+   ],
+   "a": 0,
+   "x": "SSLV is intended for launching mini, micro and nano satellites into Low Earth Orbit.",
+   "ty": "application",
+   "tq": "Infer the launcher from the small-payload category and target orbit.",
+   "sec": "Full forms and orbits served"
+  },
+  {
+   "s": "MEO, an orbit in which GPS satellites are cited as an example, stands for:",
+   "o": [
+    "Medium Equatorial Orbit",
+    "Mean Elliptical Orbit",
+    "Medium Earth Orbit",
+    "Multiple Earth Observatory"
+   ],
+   "a": 2,
+   "x": "MEO stands for Medium Earth Orbit; GPS is given as an example of a system using this orbital region.",
+   "ty": "fact",
+   "tq": "Test the exact full form while retaining the example as a confirmation clue.",
+   "sec": "Full forms and orbits served"
+  }
+ ]
+}

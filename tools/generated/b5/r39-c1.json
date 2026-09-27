@@ -1,0 +1,400 @@
+{
+ "book": 5,
+ "row": 39,
+ "chunk": 1,
+ "section": "Earth observation - IRS series, Cartosat, Resourcesat, Oceansat, RISAT, EOS series and applications",
+ "subsections": [
+  "Remote sensing fundamentals - components, EMR, sensors, resolution",
+  "EO in news - land subsidence, landslide atlas, glacial lakes",
+  "Cartosat series - first mapping satellite, resolution, vehicles, Cartosat-3",
+  "NISAR - partner, radar bands, vehicle, objectives",
+  "Remote sensing techniques → what each maps"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following most appropriately describes remote sensing?",
+   "o": [
+    "Preparation of maps only through manual surveying",
+    "Measurement of only the chemical composition of rocks by direct sampling",
+    "Recording of atmospheric pressure exclusively through ground instruments",
+    "Collection of information about the Earth without physical contact, using reflected or emitted electromagnetic radiation"
+   ],
+   "a": 3,
+   "x": "Remote sensing obtains information about the Earth without physical contact by detecting reflected or emitted electromagnetic radiation.",
+   "ty": "fact",
+   "tq": "Use the precise definition and eliminate options that restrict the concept to one application or instrument.",
+   "sec": "Remote sensing fundamentals - components, EMR, sensors, resolution  [APPSC]"
+  },
+  {
+   "s": "Consider the following stages in the remote sensing process:\n1. Energy source or illumination\n2. Interaction of radiation with the target\n3. Recording by a sensor\n4. Interpretation and application\nWhich of the stages given above are included in the remote sensing system?",
+   "o": [
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The remote sensing chain includes illumination, atmospheric transmission, target interaction, sensor recording, data processing, interpretation and application. All four listed stages are included.",
+   "ty": "statements",
+   "tq": "Recognise the complete process chain rather than treating remote sensing as sensor recording alone.",
+   "sec": "Remote sensing fundamentals - components, EMR, sensors, resolution  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a component or stage of a standard remote sensing system?",
+   "o": [
+    "Recording by a sensor",
+    "Interaction of radiation with the target",
+    "Interaction of energy with minimisation",
+    "Transmission, reception and processing"
+   ],
+   "a": 2,
+   "x": "Interaction of energy with minimisation is not a component of the remote sensing system. The relevant stage is interaction of energy or radiation with the target.",
+   "ty": "negative",
+   "tq": "Find the look-alike phrase that substitutes an incorrect term for the standard process stage.",
+   "sec": "Remote sensing fundamentals - components, EMR, sensors, resolution  [APPSC]"
+  },
+  {
+   "s": "In the Indian remote sensing data chain, processing is carried out at the nodal centre located at:",
+   "o": [
+    "Bhuvan centre, New Delhi",
+    "ISRO headquarters, Bengaluru",
+    "NRSC, Hyderabad",
+    "Sriharikota launch centre"
+   ],
+   "a": 2,
+   "x": "After collection and reception at a ground station, remote sensing data are processed at the National Remote Sensing Centre (NRSC), Hyderabad, which functions as the nodal centre.",
+   "ty": "fact",
+   "tq": "Test the institutional location by distinguishing the processing centre from the launch and headquarters locations.",
+   "sec": "Remote sensing fundamentals - components, EMR, sensors, resolution  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Sensor type)\na. Passive sensor\nb. Active sensor\nc. Optical sensor\nd. SAR sensor\n\nList-II (Characteristic)\ni. Uses its own signal and reads the echo\n ii. Uses reflected light and is affected by cloud cover\n iii. Detects natural sunlight or emitted heat\n iv. Uses microwave energy and can operate through cloud and darkness\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–i, c–ii, d–iv",
+    "a–i, b–iii, c–iv, d–ii",
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–ii, c–i, d–iii"
+   ],
+   "a": 0,
+   "x": "Passive sensors detect natural sunlight or emitted heat; active sensors transmit their own signal. Optical sensors use reflected light, while SAR uses microwaves and can observe through clouds and in darkness.",
+   "ty": "match",
+   "tq": "Start from the sure pair—active sensor with its own signal—and complete the remaining pairs by elimination.",
+   "sec": "Remote sensing fundamentals - components, EMR, sensors, resolution  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "SAR — optical sensor blocked by cloud",
+    "IRS — passive sensor using reflected or emitted natural energy",
+    "RISAT radar — passive sensor dependent only on sunlight",
+    "LiDAR — passive sensor receiving only natural heat"
+   ],
+   "a": 1,
+   "x": "IRS is an example of a passive remote sensing system. RISAT SAR and LiDAR are active systems, while optical sensing is vulnerable to cloud cover.",
+   "ty": "comparison",
+   "tq": "Separate passive and active sensors by asking who supplies the energy—the target or the sensor.",
+   "sec": "Remote sensing fundamentals - components, EMR, sensors, resolution  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs correctly represents a type of remote sensing resolution and its meaning?\n\n1. Spatial resolution — size of the smallest ground detail distinguishable\n2. Spectral resolution — ability to distinguish wavelength bands\n3. Temporal resolution — frequency of coverage of an area\n4. Radiometric resolution — sensitivity to differences in energy intensity",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Spatial, spectral, temporal and radiometric are the four recognised resolution types. Their meanings correspond to the four statements.",
+   "ty": "statements",
+   "tq": "Match each resolution term with the dimension it measures: space, wavelength, time or energy intensity.",
+   "sec": "Remote sensing fundamentals - components, EMR, sensors, resolution  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Optical remote sensing primarily uses reflected light.\n2. Synthetic Aperture Radar can operate through cloud cover and in darkness.\n3. Thermal infrared sensing records emitted heat.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Optical sensing uses reflected visible or near-infrared light, SAR uses microwave energy that penetrates cloud and darkness, and thermal infrared detects emitted heat.",
+   "ty": "statements",
+   "tq": "Compare optical, microwave and thermal sensing by their energy source and atmospheric capability.",
+   "sec": "Remote sensing fundamentals - components, EMR, sensors, resolution  [APPSC]"
+  },
+  {
+   "s": "Hyperspectral remote sensing is particularly useful for:",
+   "o": [
+    "Producing radar echoes from a single microwave band",
+    "Identifying materials or chemicals using hundreds of narrow spectral bands",
+    "Measuring only the revisit interval of a satellite",
+    "Determining satellite launch velocity without imaging"
+   ],
+   "a": 1,
+   "x": "Hyperspectral sensing uses hundreds of narrow spectral bands, enabling identification of materials and their chemical characteristics.",
+   "ty": "application",
+   "tq": "Link the prefix ‘hyper’ with numerous narrow bands and material discrimination.",
+   "sec": "Remote sensing fundamentals - components, EMR, sensors, resolution  [APPSC]"
+  },
+  {
+   "s": "The sensor suite of EOS-05 spans which of the following bands?",
+   "o": [
+    "Only visible and ultraviolet bands",
+    "Visible, near-infrared, short-wave infrared and long-wave infrared bands",
+    "Only gamma-ray and X-ray bands",
+    "Only microwave and radio bands"
+   ],
+   "a": 1,
+   "x": "EOS-05 sensors span visible, near-infrared, short-wave infrared and long-wave infrared portions of the electromagnetic spectrum.",
+   "ty": "fact",
+   "tq": "Select the option that gives the complete spectral range rather than a partial range.",
+   "sec": "Remote sensing fundamentals - components, EMR, sensors, resolution  [APPSC]"
+  },
+  {
+   "s": "The Landslide Atlas of India was released by:",
+   "o": [
+    "Indian National Centre for Ocean Information Services",
+    "Defence Research and Development Organisation",
+    "National Remote Sensing Centre",
+    "India Meteorological Department"
+   ],
+   "a": 2,
+   "x": "The Landslide Atlas of India was released by the National Remote Sensing Centre in 2023.",
+   "ty": "fact",
+   "tq": "Use the responsible-agency trap by distinguishing the remote sensing agency from neighbouring scientific organisations.",
+   "sec": "EO in news - land subsidence, landslide atlas, glacial lakes  [APPSC]"
+  },
+  {
+   "s": "Joshimath subsidence was mapped by NRSC using images from:",
+   "o": [
+    "Oceansat-3",
+    "EOS-04",
+    "Cartosat-1",
+    "Cartosat-2S"
+   ],
+   "a": 3,
+   "x": "NRSC mapped the Joshimath subsidence using Cartosat-2S images in 2023.",
+   "ty": "fact",
+   "tq": "Discriminate between closely related Cartosat and EOS satellite designations.",
+   "sec": "EO in news - land subsidence, landslide atlas, glacial lakes  [APPSC]"
+  },
+  {
+   "s": "CROP, the NRSC framework, uses EOS-04 SAR data primarily to monitor:",
+   "o": [
+    "Satellite launch trajectories and orbital debris",
+    "Urban heat islands and volcanic eruptions",
+    "Sowing, crop growth and harvesting near real time",
+    "Only ocean salinity and sea-surface temperature"
+   ],
+   "a": 2,
+   "x": "CROP stands for Comprehensive Remote Sensing Observation on Crop Progress and uses EOS-04 SAR to track sowing, growth and harvest near real time.",
+   "ty": "application",
+   "tq": "Expand the acronym and connect the named framework with its agricultural application.",
+   "sec": "EO in news - land subsidence, landslide atlas, glacial lakes  [APPSC]"
+  },
+  {
+   "s": "Bhuvan provides flood-inundation maps and cyclone tracks using data from:",
+   "o": [
+    "EOS-05 and Oceansat only",
+    "Cartosat-1 and NISAR only",
+    "RISAT and INSAT-3DS",
+    "GSAT-7 and NavIC only"
+   ],
+   "a": 2,
+   "x": "Bhuvan uses RISAT and INSAT-3DS data to provide flood-inundation maps and cyclone tracks.",
+   "ty": "fact",
+   "tq": "Match the application platform with the specific satellite data sources.",
+   "sec": "EO in news - land subsidence, landslide atlas, glacial lakes  [APPSC]"
+  },
+  {
+   "s": "Cartosat-1 was primarily designed for:",
+   "o": [
+    "Topographic mapping using stereo imagery for three-dimensional maps and elevation models",
+    "Measuring ocean waves and cyclone intensity",
+    "Providing dual-band radar observations of glaciers",
+    "Real-time crop monitoring through microwave radar only"
+   ],
+   "a": 0,
+   "x": "Cartosat-1, launched in 2005, was intended for topographic mapping and supplied stereo images for 3D maps and elevation models.",
+   "ty": "application",
+   "tq": "Associate stereo imagery with three-dimensional mapping and elevation modelling.",
+   "sec": "Cartosat series - first mapping satellite, resolution, vehicles, Cartosat-3  [APPSC]"
+  },
+  {
+   "s": "Which one of the following applications is most closely associated with the Cartosat-2 series?",
+   "o": [
+    "Monitoring only volcanic heat through thermal infrared",
+    "Tracking crop harvest exclusively through EOS-04 SAR",
+    "Smart Cities, transport and border management using sub-metre imagery",
+    "Mapping only ocean colour and marine phytoplankton"
+   ],
+   "a": 2,
+   "x": "The Cartosat-2 series, operational from 2007 onward, provides sub-metre resolution imagery for Smart Cities, transport, border management and infrastructure corridors.",
+   "ty": "application",
+   "tq": "Use the application cluster associated with high-resolution mapping satellites.",
+   "sec": "Cartosat series - first mapping satellite, resolution, vehicles, Cartosat-3  [APPSC]"
+  },
+  {
+   "s": "The approximate spatial resolution of Cartosat-3 is:",
+   "o": [
+    "25 metres",
+    "250 kilometres",
+    "2.5 kilometres",
+    "25 centimetres"
+   ],
+   "a": 3,
+   "x": "Cartosat-3 provides approximately 25-centimetre resolution imagery.",
+   "ty": "numerical",
+   "tq": "Check the unit carefully; centimetres, metres and kilometres produce radically different resolution claims.",
+   "sec": "Cartosat series - first mapping satellite, resolution, vehicles, Cartosat-3  [APPSC]"
+  },
+  {
+   "s": "Which launch combination is correctly associated with Cartosat-3?",
+   "o": [
+    "GSLV-F16 and 13 European communication satellites",
+    "PSLV-C11 and 13 Indian navigation satellites",
+    "PSLV-C47 and 13 United States nanosatellites",
+    "GSLV-Mk III and 13 Japanese radar satellites"
+   ],
+   "a": 2,
+   "x": "Cartosat-3 was launched on PSLV-C47 along with 13 United States nanosatellites in 2019.",
+   "ty": "fact",
+   "tq": "Pair the satellite with its launch vehicle and accompanying payload, avoiding vehicle-swapping traps.",
+   "sec": "Cartosat series - first mapping satellite, resolution, vehicles, Cartosat-3  [APPSC]"
+  },
+  {
+   "s": "Cartosat-3 imagery is associated with which of the following applications?\n1. Smart Cities\n2. PM Gati Shakti\n3. Border surveillance\n4. Heritage applications such as KASTURI and Bharat Darshan\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Cartosat-3 imagery supports Smart Cities, PM Gati Shakti, border surveillance and heritage applications including KASTURI and Bharat Darshan.",
+   "ty": "statements",
+   "tq": "Group all applications belonging to the same high-resolution Earth observation mission.",
+   "sec": "Cartosat series - first mapping satellite, resolution, vehicles, Cartosat-3  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the radar configuration of NISAR?",
+   "o": [
+    "L-band supplied by NASA and S-band supplied by ISRO",
+    "S-band supplied by NASA and L-band supplied by ISRO",
+    "Both L-band and S-band supplied by NASA",
+    "Both L-band and S-band supplied by ISRO"
+   ],
+   "a": 0,
+   "x": "NISAR carries dual radar: NASA provides the L-band system and ISRO provides the S-band system.",
+   "ty": "confusable",
+   "tq": "Resolve the paired-band confusion by fixing one agency to each radar band.",
+   "sec": "NISAR - partner, radar bands, vehicle, objectives  [APPSC]"
+  },
+  {
+   "s": "NISAR was launched on which launch vehicle?",
+   "o": [
+    "GSLV-F16",
+    "GSLV-F05",
+    "SSLV-D3",
+    "PSLV-C47"
+   ],
+   "a": 0,
+   "x": "NISAR was launched on the GSLV-F16 in July 2025.",
+   "ty": "fact",
+   "tq": "Distinguish the NISAR launch vehicle from the PSLV vehicle used for Cartosat-3.",
+   "sec": "NISAR - partner, radar bands, vehicle, objectives  [APPSC]"
+  },
+  {
+   "s": "Consider the following objectives of NISAR:\n1. Monitoring land deformation caused by earthquakes, landslides and subsidence\n2. Observing ice sheets and glaciers\n3. Studying ecosystems and biomass\n4. Supporting disaster observation\nWhich of the objectives given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "NISAR is designed to monitor land deformation, ice sheets and glaciers, ecosystems and biomass, and disaster-related changes.",
+   "ty": "statements",
+   "tq": "Treat a multi-objective satellite question as a completeness test; all listed applications belong to the mission.",
+   "sec": "NISAR - partner, radar bands, vehicle, objectives  [APPSC]"
+  },
+  {
+   "s": "Which technique is most suitable for mapping ground deformation due to subsidence, earthquakes and volcanic uplift?",
+   "o": [
+    "InSAR",
+    "Thermal infrared imaging",
+    "NDVI",
+    "LiDAR"
+   ],
+   "a": 0,
+   "x": "InSAR maps ground deformation, including subsidence, earthquake-related movement and volcanic uplift.",
+   "ty": "application",
+   "tq": "Match the technique to its characteristic output—in this case, surface displacement.",
+   "sec": "Remote sensing techniques → what each maps  [APPSC]"
+  },
+  {
+   "s": "LiDAR is primarily used for:",
+   "o": [
+    "Measuring vegetation health from red and near-infrared reflectance",
+    "Laser ranging, elevation measurement and three-dimensional terrain or forest-canopy mapping",
+    "Detecting only subsidence through radar phase differences",
+    "Recording only emitted heat from fires"
+   ],
+   "a": 1,
+   "x": "LiDAR uses laser ranging to derive elevation, three-dimensional terrain and forest canopy height.",
+   "ty": "application",
+   "tq": "Use the energy clue—laser ranging—to separate LiDAR from radar, vegetation and thermal techniques.",
+   "sec": "Remote sensing techniques → what each maps  [APPSC]"
+  },
+  {
+   "s": "The Normalized Difference Vegetation Index (NDVI) is used to assess:",
+   "o": [
+    "Forest-canopy height from laser pulses alone",
+    "Volcanic temperature from long-wave infrared alone",
+    "Vegetation health from red and near-infrared reflectance",
+    "Ground deformation from microwave phase differences"
+   ],
+   "a": 2,
+   "x": "NDVI assesses vegetation health by comparing red and near-infrared reflectance.",
+   "ty": "fact",
+   "tq": "Remember the distinctive spectral pair—red and near-infrared—for vegetation-index questions.",
+   "sec": "Remote sensing techniques → what each maps  [APPSC]"
+  },
+  {
+   "s": "Which technique is most directly suited to detecting heat from volcanic eruptions, forest fires and urban heat?",
+   "o": [
+    "NDVI",
+    "LiDAR",
+    "InSAR",
+    "Thermal infrared sensing"
+   ],
+   "a": 3,
+   "x": "Thermal infrared sensing records emitted heat and is therefore useful for volcanic eruptions, forest fires and urban heat mapping.",
+   "ty": "application",
+   "tq": "Link emitted heat with thermal infrared and eliminate techniques measuring vegetation, elevation or deformation.",
+   "sec": "Remote sensing techniques → what each maps  [APPSC]"
+  },
+  {
+   "s": "Arrange the following remote sensing techniques according to the principal phenomenon they map, beginning with surface deformation and ending with heat:\nA. Thermal infrared\nB. NDVI\nC. InSAR\nD. LiDAR",
+   "o": [
+    "C, D, B, A",
+    "D, C, B, A",
+    "C, B, D, A",
+    "B, D, C, A"
+   ],
+   "a": 0,
+   "x": "InSAR maps deformation, LiDAR maps elevation and 3D terrain, NDVI maps vegetation health, and thermal infrared maps heat. Hence the order is C, D, B, A.",
+   "ty": "chronology",
+   "tq": "Arrange by the phenomenon mapped, using the first and last clues—deformation first and heat last.",
+   "sec": "Remote sensing techniques → what each maps  [APPSC]"
+  }
+ ]
+}

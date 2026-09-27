@@ -1,0 +1,485 @@
+{
+ "book": 5,
+ "row": 22,
+ "chunk": 1,
+ "section": "ICT and governance - National e-Governance Plan, Digital India pillars, e-Kranti",
+ "subsections": [
+  "Digital India - nine pillars, three vision areas, launch",
+  "E-governance indices - UN EGDI, NeSDA",
+  "Digital divide - rural connectivity, language (Bhashini), accessibility",
+  "Key initiatives → launch sequence",
+  "Aadhaar - UIDAI, number format, FIRST village, APIs, uses",
+  "Digital education platforms → purpose + coverage"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 33,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Digital India was launched on which date?",
+   "o": [
+    "15 August 2015",
+    "1 July 2014",
+    "26 January 2016",
+    "1 July 2015"
+   ],
+   "a": 3,
+   "x": "Digital India was launched on 1 July 2015.",
+   "ty": "fact",
+   "tq": "Direct date recall using closely spaced dates.",
+   "sec": "Digital India - nine pillars, three vision areas, launch"
+  },
+  {
+   "s": "Which Union Ministry coordinates the Digital India programme?",
+   "o": [
+    "Ministry of Communications",
+    "Ministry of Finance",
+    "Ministry of Electronics and Information Technology",
+    "Ministry of Education"
+   ],
+   "a": 2,
+   "x": "The Ministry of Electronics and Information Technology (MeitY) coordinates Digital India, with Central and State ministries as partners.",
+   "ty": "fact",
+   "tq": "Identify the correct ministry responsible for the programme.",
+   "sec": "Digital India - nine pillars, three vision areas, launch"
+  },
+  {
+   "s": "Consider the following statements regarding Digital India:\n1. It is an umbrella programme that prefers public-private partnership.\n2. It aims at creating a knowledge-based economy and a digitally empowered society.\n3. Its slogan is expressed as “IT + IT = IT”.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Digital India is an umbrella programme preferring PPP, seeks a knowledge-based economy and digitally empowered society, and is associated with the expression “IT + IT = IT”.",
+   "ty": "statements",
+   "tq": "Use the all-inclusive option after checking each programme characteristic.",
+   "sec": "Digital India - nine pillars, three vision areas, launch"
+  },
+  {
+   "s": "Which one of the following is NOT one of the three vision areas of Digital India?",
+   "o": [
+    "Governance and services on demand",
+    "Digital infrastructure as a core utility",
+    "Issue of digital currency",
+    "Digital empowerment of citizens"
+   ],
+   "a": 2,
+   "x": "The three vision areas are digital infrastructure as a core utility, governance and services on demand, and digital empowerment of citizens. Issue of digital currency is not a Digital India vision area.",
+   "ty": "negative",
+   "tq": "Find the item that is outside the officially stated vision areas.",
+   "sec": "Digital India - nine pillars, three vision areas, launch"
+  },
+  {
+   "s": "Which of the following is correctly matched with a Digital India vision area?",
+   "o": [
+    "Digital infrastructure as a core utility — high-speed internet and cloud locker",
+    "Governance and services on demand — universal digital literacy only",
+    "Digital empowerment of citizens — GIS decision support only",
+    "Digital infrastructure as a core utility — cashless transactions only"
+   ],
+   "a": 0,
+   "x": "High-speed internet, cradle-to-grave digital identity, Common Service Centre access and cloud locker are examples under digital infrastructure as a core utility.",
+   "ty": "match",
+   "tq": "Match each example with the correct vision area rather than a neighbouring area.",
+   "sec": "Digital India - nine pillars, three vision areas, launch"
+  },
+  {
+   "s": "BharatNet, under the Broadband Highways pillar of Digital India, had connected how many Gram Panchayats and laid approximately how much optical-fibre cable by March 2025?",
+   "o": [
+    "2,18,347 Gram Panchayats and 5.25 lakh km of OFC",
+    "1,18,347 Gram Panchayats and 6.92 lakh km of OFC",
+    "2,81,347 Gram Panchayats and 6.29 lakh km of OFC",
+    "2,18,347 Gram Panchayats and 6.92 lakh km of OFC"
+   ],
+   "a": 3,
+   "x": "By March 2025, BharatNet covered 2,18,347 Gram Panchayats and 6.92 lakh km of optical-fibre cable.",
+   "ty": "numerical",
+   "tq": "Pair the two quantitative figures without reversing their units.",
+   "sec": "Digital India - nine pillars, three vision areas, launch"
+  },
+  {
+   "s": "As of December 2024, 4G connectivity was available in how many of the 6,44,131 villages?",
+   "o": [
+    "5,15,836",
+    "5,97,000",
+    "6,15,836",
+    "6,44,131"
+   ],
+   "a": 2,
+   "x": "4G connectivity was available in 6,15,836 out of 6,44,131 villages as of December 2024.",
+   "ty": "numerical",
+   "tq": "Distinguish the coverage figure from the total number of villages.",
+   "sec": "Digital India - nine pillars, three vision areas, launch"
+  },
+  {
+   "s": "Which of the following correctly represents the status of Common Service Centres under the Public Internet Access pillar?",
+   "o": [
+    "6.92 lakh CSCs, including 4.73 lakh at Gram Panchayat level",
+    "5.25 lakh CSCs, including 2.18 lakh at Gram Panchayat level",
+    "4.73 lakh CSCs, including 5.97 lakh at Gram Panchayat level",
+    "5.97 lakh CSCs, including 4.73 lakh at Gram Panchayat level"
+   ],
+   "a": 3,
+   "x": "There were 5.97 lakh Common Service Centres, of which 4.73 lakh were at Gram Panchayat level, as of April 2025.",
+   "ty": "numerical",
+   "tq": "Keep the total and the Gram Panchayat-level subset in the correct order.",
+   "sec": "Digital India - nine pillars, three vision areas, launch"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched with its Digital India pillar?",
+   "o": [
+    "Early Harvest Programmes — long-term university research grants",
+    "IT for Jobs — skilling for IT and ITeS jobs",
+    "e-Governance — e-Office, e-HRMS and e-Procurement",
+    "Information for All — Open Government Data platform"
+   ],
+   "a": 0,
+   "x": "Early Harvest Programmes comprise quick-win projects such as biometric attendance and Wi-Fi in universities; they are not defined as long-term university research grants.",
+   "ty": "negative",
+   "tq": "Reject the option that swaps a pillar’s quick-win function with an unrelated activity.",
+   "sec": "Digital India - nine pillars, three vision areas, launch"
+  },
+  {
+   "s": "The e-Kranti pillar of Digital India is associated with which of the following?",
+   "o": [
+    "Universal biometric registration of all citizens",
+    "Manufacture of electronic goods to achieve net zero imports only",
+    "Electronic delivery of services through 44 Mission Mode Projects",
+    "Construction of rural roads through 44 projects"
+   ],
+   "a": 2,
+   "x": "e-Kranti focuses on electronic delivery of services and includes 44 Mission Mode Projects.",
+   "ty": "application",
+   "tq": "Identify the function that naturally belongs to the e-Kranti pillar.",
+   "sec": "Digital India - nine pillars, three vision areas, launch"
+  },
+  {
+   "s": "Which statement about the Electronics Manufacturing pillar is correct?",
+   "o": [
+    "Its target is zero exports, and output fell from Rs 5.25 lakh crore to Rs 2.13 lakh crore.",
+    "Its target is 4G coverage in villages, and output was Rs 2.18 lakh crore in 2020–21.",
+    "Its target is net zero imports, and output rose from Rs 2.13 lakh crore in 2020–21 to Rs 5.25 lakh crore in 2024–25.",
+    "Its target is universal digital literacy, and output was Rs 6.92 lakh crore in 2024–25."
+   ],
+   "a": 2,
+   "x": "The Electronics Manufacturing pillar targets net zero imports. Output increased from Rs 2.13 lakh crore in 2020–21 to Rs 5.25 lakh crore in 2024–25.",
+   "ty": "comparison",
+   "tq": "Check both the direction of change and the associated target.",
+   "sec": "Digital India - nine pillars, three vision areas, launch"
+  },
+  {
+   "s": "Which of the following is included among the sub-schemes or associated components of Digital India?\n1. National Knowledge Network\n2. Capacity building\n3. Cyber security\n4. IndiaAI Mission\nSelect the correct answer using the code below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4",
+    "1, 3 and 4 only"
+   ],
+   "a": 2,
+   "x": "National Knowledge Network, capacity building, cyber security and the IndiaAI Mission are all included among the listed Digital India components, along with electronics and IT/ITeS promotion, R&D and e-Governance.",
+   "ty": "statements",
+   "tq": "Test completeness of a programme-component list.",
+   "sec": "Digital India - nine pillars, three vision areas, launch"
+  },
+  {
+   "s": "India’s rank in the United Nations E-Government Development Index 2024 was:",
+   "o": [
+    "87th",
+    "107th",
+    "97th",
+    "79th"
+   ],
+   "a": 2,
+   "x": "India ranked 97th in the UN E-Government Development Index 2024.",
+   "ty": "numerical",
+   "tq": "Recall the exact rank from closely spaced alternatives.",
+   "sec": "E-governance indices - UN EGDI, NeSDA"
+  },
+  {
+   "s": "The NeSDA 2025 portal was launched by which organisation and was modelled on which index?",
+   "o": [
+    "MeitY; UN E-Government Development Index",
+    "DARPG; UN Online Service Index",
+    "UIDAI; UN Human Development Index",
+    "NITI Aayog; Global Innovation Index"
+   ],
+   "a": 1,
+   "x": "NeSDA 2025 was launched by the Department of Administrative Reforms and Public Grievances (DARPG) and modelled on the UN Online Service Index.",
+   "ty": "match",
+   "tq": "Match the portal with its implementing authority and model index.",
+   "sec": "E-governance indices - UN EGDI, NeSDA"
+  },
+  {
+   "s": "NeSDA 2025 covers which categories of services?",
+   "o": [
+    "Business-to-Consumer and Consumer-to-Consumer services",
+    "Only Government-to-Government services",
+    "Only Government-to-Business services",
+    "Government-to-Citizen and Government-to-Business services"
+   ],
+   "a": 3,
+   "x": "NeSDA 2025 covers G2C and G2B services.",
+   "ty": "fact",
+   "tq": "Discriminate between similar e-governance service categories.",
+   "sec": "E-governance indices - UN EGDI, NeSDA"
+  },
+  {
+   "s": "Which combination best represents the major rural digital-divide gaps identified in the context of Digital India?",
+   "o": [
+    "GP fibre connectivity through BharatNet and 4G coverage in villages",
+    "Only urban 5G availability and satellite television",
+    "Industrial broadband and international roaming",
+    "Banking passwords and electronic voting machines"
+   ],
+   "a": 0,
+   "x": "Rural digital gaps particularly concern Gram Panchayat fibre connectivity through BharatNet and 4G coverage in villages.",
+   "ty": "application",
+   "tq": "Select the pair that directly addresses rural connectivity barriers.",
+   "sec": "Digital divide - rural connectivity, language (Bhashini), accessibility"
+  },
+  {
+   "s": "Bhashini is best described as:",
+   "o": [
+    "A biometric attendance system for universities",
+    "A digital locker for storing land records only",
+    "An AI language platform integrated with NIC tools such as CollabFiles",
+    "A network for electronic manufacturing units"
+   ],
+   "a": 2,
+   "x": "Bhashini is an AI language platform integrated with NIC tools such as CollabFiles, supporting access to services in Indian languages.",
+   "ty": "fact",
+   "tq": "Use the exact function to distinguish Bhashini from other digital initiatives.",
+   "sec": "Digital divide - rural connectivity, language (Bhashini), accessibility"
+  },
+  {
+   "s": "Which of the following initiatives was launched in July 2014 as a citizen-participation platform?",
+   "o": [
+    "MyGov",
+    "UMANG",
+    "ONDC",
+    "DigiLocker"
+   ],
+   "a": 0,
+   "x": "MyGov was launched in July 2014 as a citizen-participation platform.",
+   "ty": "fact",
+   "tq": "Match the initiative with its launch year and purpose.",
+   "sec": "Key initiatives → launch sequence"
+  },
+  {
+   "s": "DigiLocker was launched in which year?",
+   "o": [
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+   ],
+   "a": 1,
+   "x": "DigiLocker was launched in February 2015.",
+   "ty": "numerical",
+   "tq": "Recall the year while avoiding confusion with adjacent digital initiatives.",
+   "sec": "Key initiatives → launch sequence"
+  },
+  {
+   "s": "Which pair of initiatives was launched in 2016?",
+   "o": [
+    "UMANG and PM eVIDYA",
+    "UPI and BHIM",
+    "DigiLocker and BharatNet",
+    "Aadhaar and MyGov"
+   ],
+   "a": 1,
+   "x": "UPI and BHIM were launched in 2016.",
+   "ty": "confusable",
+   "tq": "Discriminate between initiative pairs belonging to adjacent years.",
+   "sec": "Key initiatives → launch sequence"
+  },
+  {
+   "s": "UMANG app was launched in:",
+   "o": [
+    "2015",
+    "2016",
+    "2017",
+    "2020"
+   ],
+   "a": 2,
+   "x": "The UMANG app was launched in 2017.",
+   "ty": "fact",
+   "tq": "Direct recall of a single launch year.",
+   "sec": "Key initiatives → launch sequence"
+  },
+  {
+   "s": "PM eVIDYA was launched in 2020 primarily in the context of:",
+   "o": [
+    "The pandemic",
+    "The launch of Aadhaar",
+    "The replacement of BharatNet",
+    "The establishment of UIDAI"
+   ],
+   "a": 0,
+   "x": "PM eVIDYA was launched in 2020 in response to the educational requirements arising during the pandemic.",
+   "ty": "fact",
+   "tq": "Link the initiative to its immediate context rather than its technology alone.",
+   "sec": "Key initiatives → launch sequence"
+  },
+  {
+   "s": "Which of the following correctly describes the Aadhaar number?",
+   "o": [
+    "A 12-digit number issued only for bank accounts and renewable every five years",
+    "A 16-digit number encoding religion and State of residence",
+    "A 12-digit random number that is free and lifelong",
+    "A 10-digit number encoding caste and geographical location"
+   ],
+   "a": 2,
+   "x": "Aadhaar is a free, lifelong, 12-digit random number. It does not encode caste, religion or geography.",
+   "ty": "confusable",
+   "tq": "Reject swapped meanings involving number length and encoded attributes.",
+   "sec": "Aadhaar - UIDAI, number format, FIRST village, APIs, uses"
+  },
+  {
+   "s": "Which legislation was amended by the Aadhaar and Other Laws (Amendment) Act, 2019?",
+   "o": [
+    "The Citizenship Act, 1955",
+    "The Aadhaar Act, 2016",
+    "The Information Technology Act, 2000",
+    "The Representation of the People Act, 1951"
+   ],
+   "a": 1,
+   "x": "The Aadhaar Act, 2016 was amended by the Aadhaar and Other Laws (Amendment) Act, 2019.",
+   "ty": "fact",
+   "tq": "Match the amending law with the principal legislation.",
+   "sec": "Aadhaar - UIDAI, number format, FIRST village, APIs, uses"
+  },
+  {
+   "s": "As of 31 July 2025, which of the following figures correctly represents Aadhaar generation and live numbers after deaths?",
+   "o": [
+    "125 crore generated and 113.65 crore live",
+    "133.65 crore generated and 142 crore live",
+    "142 crore generated and 138.65 crore live",
+    "142 crore generated and 133.65 crore live"
+   ],
+   "a": 3,
+   "x": "By 31 July 2025, 142 crore Aadhaar numbers had been generated and 133.65 crore remained live after accounting for deaths.",
+   "ty": "numerical",
+   "tq": "Keep the gross generated figure separate from the adjusted live figure.",
+   "sec": "Aadhaar - UIDAI, number format, FIRST village, APIs, uses"
+  },
+  {
+   "s": "Which of the following is NOT an open API-related Aadhaar service listed among its uses?",
+   "o": [
+    "Authentication",
+    "e-Sign",
+    "GIS decision support",
+    "e-KYC"
+   ],
+   "a": 2,
+   "x": "Aadhaar open APIs include authentication, e-KYC and e-Sign. GIS decision support is an example under Digital India’s governance and services vision, not an Aadhaar open API service.",
+   "ty": "negative",
+   "tq": "Separate Aadhaar API functions from examples belonging to another Digital India area.",
+   "sec": "Aadhaar - UIDAI, number format, FIRST village, APIs, uses"
+  },
+  {
+   "s": "Aadhaar is used in which of the following applications?\n1. Direct Benefit Transfer under the JAM trinity\n2. Jeevan Pramaan digital life certificate\n3. Bank and mobile KYC\nSelect the correct answer using the code below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Aadhaar supports DBT under the JAM trinity, Jeevan Pramaan digital life certificates, and bank and mobile KYC.",
+   "ty": "statements",
+   "tq": "Check whether all listed applications are genuine uses of Aadhaar.",
+   "sec": "Aadhaar - UIDAI, number format, FIRST village, APIs, uses"
+  },
+  {
+   "s": "Which platform provides free MOOCs for higher education from institutions such as IITs, IIMs and central universities?",
+   "o": [
+    "Bhashini",
+    "DIKSHA",
+    "SWAYAM",
+    "PM eVIDYA"
+   ],
+   "a": 2,
+   "x": "SWAYAM provides free massive open online courses for higher education, including courses from IITs, IIMs and central universities.",
+   "ty": "fact",
+   "tq": "Distinguish platforms by their educational level and content purpose.",
+   "sec": "Digital education platforms → purpose + coverage"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "DIKSHA — national school e-content repository with QR-coded textbooks and teacher training",
+    "SWAYAM — biometric attendance and Wi-Fi in universities",
+    "PM eVIDYA — only higher-education MOOCs from IITs",
+    "Bhashini — repository of QR-coded school textbooks"
+   ],
+   "a": 0,
+   "x": "DIKSHA is the national school e-content repository and includes QR-coded textbooks and teacher training. The other descriptions belong to different platforms or programmes.",
+   "ty": "match",
+   "tq": "Match each platform with its distinctive purpose and target group.",
+   "sec": "Digital education platforms → purpose + coverage"
+  },
+  {
+   "s": "Which statement regarding PM eVIDYA is correct?",
+   "o": [
+    "It provides One Class, One TV Channel through DTH, along with radio and podcasts, and integrates DIKSHA and SWAYAM.",
+    "It replaced all school e-content repositories with a single physical textbook system.",
+    "It is a platform exclusively for industrial BPO training.",
+    "It is restricted to bank and mobile KYC services."
+   ],
+   "a": 0,
+   "x": "PM eVIDYA uses the One Class, One TV Channel approach through DTH, radio and podcasts, and integrates DIKSHA and SWAYAM.",
+   "ty": "application",
+   "tq": "Identify the option containing the complete service bundle of the platform.",
+   "sec": "Digital education platforms → purpose + coverage"
+  },
+  {
+   "s": "DIKSHA had more than how many users?",
+   "o": [
+    "1 crore",
+    "5 crore",
+    "10 crore",
+    "25 crore"
+   ],
+   "a": 2,
+   "x": "DIKSHA had more than 10 crore users.",
+   "ty": "numerical",
+   "tq": "Recall the scale figure without confusing it with the number of Aadhaar holders.",
+   "sec": "Digital education platforms → purpose + coverage"
+  },
+  {
+   "s": "Which of the following is NOT listed as a national coordinator or partner of SWAYAM?",
+   "o": [
+    "IGNOU",
+    "UGC",
+    "UIDAI",
+    "NPTEL"
+   ],
+   "a": 2,
+   "x": "NPTEL, UGC, AICTE, IGNOU, NCERT, NIOS and CEC are listed as SWAYAM national coordinators. UIDAI is not an SWAYAM coordinator.",
+   "ty": "negative",
+   "tq": "Find the unrelated organisation in a list of educational coordinators.",
+   "sec": "Digital education platforms → purpose + coverage"
+  },
+  {
+   "s": "UNESCO recognised India’s use of ICT in education during which period?",
+   "o": [
+    "The 1991 economic reforms",
+    "The COVID-19 period",
+    "The Green Revolution",
+    "The launch of BharatNet"
+   ],
+   "a": 1,
+   "x": "UNESCO recognised India’s use of ICT in education during the COVID-19 period.",
+   "ty": "fact",
+   "tq": "Connect the international recognition with its stated context.",
+   "sec": "Digital education platforms → purpose + coverage"
+  }
+ ]
+}

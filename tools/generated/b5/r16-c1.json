@@ -1,0 +1,427 @@
+{
+ "book": 5,
+ "row": 16,
+ "chunk": 1,
+ "section": "Artificial intelligence and machine learning - concepts, applications, national AI strategy, ethical concerns",
+ "subsections": [
+  "Ethical concerns - bias, deepfakes, privacy, facial recognition, jobs, explainability",
+  "AI education and challenges - first AI degrees, AP university, competitions",
+  "Global AI governance - summits → host city, GPAI, EU AI Act",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following is the principal source of bias in an artificial intelligence system?",
+   "o": [
+    "Training data that is not representative of the population",
+    "High processing speed of GPUs",
+    "Use of large neural networks alone",
+    "Use of diffusion models for image generation"
+   ],
+   "a": 0,
+   "x": "AI bias can arise when the training data does not adequately represent the population on which the system is used.",
+   "ty": "fact",
+   "tq": "Identify the underlying cause rather than the technology used by the system.",
+   "sec": "Ethical concerns - bias, deepfakes, privacy, facial recognition, jobs, explainability  [APPSC]"
+  },
+  {
+   "s": "Health-related artificial intelligence trained mainly on urban and Western data may produce unreliable results in India because it may fail to account for",
+   "o": [
+    "India's social, genetic and demographic diversity",
+    "the absence of neural networks in India",
+    "the non-availability of all digital records worldwide",
+    "the prohibition of machine learning in healthcare"
+   ],
+   "a": 0,
+   "x": "Training data dominated by urban and Western populations may not represent India's diverse health conditions and populations.",
+   "ty": "application",
+   "tq": "Apply the data-representativeness principle to a real-world case.",
+   "sec": "Ethical concerns - bias, deepfakes, privacy, facial recognition, jobs, explainability  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding facial-recognition systems:\n1. Their accuracy may vary with lighting conditions.\n2. Their accuracy may vary with the pose of the person being identified.\n3. Their accuracy is completely independent of demographic characteristics.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Facial-recognition accuracy can vary with lighting, pose and demographic characteristics. Therefore, statements 1 and 2 are correct, while statement 3 is false.",
+   "ty": "statements",
+   "tq": "Reject the absolute claim that performance is completely independent of relevant conditions.",
+   "sec": "Ethical concerns - bias, deepfakes, privacy, facial recognition, jobs, explainability  [APPSC]"
+  },
+  {
+   "s": "Deepfakes may be generated using which of the following technologies?\n1. Generative Adversarial Networks\n2. Diffusion models\n3. Large neural networks\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Deepfakes can be produced using GANs, diffusion models and large neural networks.",
+   "ty": "statements",
+   "tq": "Use the inclusive option when all listed technologies are directly associated with the concept.",
+   "sec": "Ethical concerns - bias, deepfakes, privacy, facial recognition, jobs, explainability  [APPSC]"
+  },
+  {
+   "s": "Deepfake content can occur in which of the following forms?\n1. Text\n2. Voice\n3. Image\n4. Video\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Deepfakes are not restricted to video; they may be created as text, voice, image or video content.",
+   "ty": "statements",
+   "tq": "Test the complete range of forms instead of assuming that deepfakes are limited to visual media.",
+   "sec": "Ethical concerns - bias, deepfakes, privacy, facial recognition, jobs, explainability  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT an ethical concern associated with AI-enabled identification and surveillance?",
+   "o": [
+    "Guaranteed protection of civil liberties in every case",
+    "Predictive policing threatening due process",
+    "Identification without consent",
+    "Mass surveillance"
+   ],
+   "a": 0,
+   "x": "Identification without consent, mass surveillance and predictive policing that threatens due process are ethical concerns. Guaranteed protection of civil liberties is not such a concern; it is an opposite claim.",
+   "ty": "negative",
+   "tq": "Find the option that reverses the stated ethical effect.",
+   "sec": "Ethical concerns - bias, deepfakes, privacy, facial recognition, jobs, explainability  [APPSC]"
+  },
+  {
+   "s": "Predictive policing becomes an ethical concern primarily when it",
+   "o": [
+    "threatens due process through data-driven identification of supposed risks",
+    "uses computers to store administrative records",
+    "prevents all forms of surveillance",
+    "reduces the amount of information available to law-enforcement agencies"
+   ],
+   "a": 0,
+   "x": "Predictive policing raises concern when algorithmic predictions threaten due process or influence policing without adequate safeguards.",
+   "ty": "application",
+   "tq": "Connect the practice with its specific constitutional and procedural risk.",
+   "sec": "Ethical concerns - bias, deepfakes, privacy, facial recognition, jobs, explainability  [APPSC]"
+  },
+  {
+   "s": "The concern that deep-learning models are difficult to justify because their decision-making process is not transparent is known as the problem of",
+   "o": [
+    "encryption",
+    "data portability",
+    "interoperability",
+    "explainability"
+   ],
+   "a": 3,
+   "x": "Deep models are often described as ‘black boxes’; explainability concerns the ability to understand and justify their decisions.",
+   "ty": "confusable",
+   "tq": "Distinguish the exact ethical term from neighbouring technology terms.",
+   "sec": "Ethical concerns - bias, deepfakes, privacy, facial recognition, jobs, explainability  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the employment impact associated with artificial intelligence?",
+   "o": [
+    "AI can displace workers only in intellectual occupations.",
+    "AI-related displacement can affect both manual and intellectual work.",
+    "AI can displace workers only in manual occupations.",
+    "AI cannot affect employment because it merely processes data."
+   ],
+   "a": 1,
+   "x": "Artificial intelligence may cause job displacement in both manual and intellectual forms of work.",
+   "ty": "comparison",
+   "tq": "Avoid the restricted ‘only’ claims and select the option covering both categories.",
+   "sec": "Ethical concerns - bias, deepfakes, privacy, facial recognition, jobs, explainability  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the advanced-technology campus proposed in Andhra Pradesh:\n1. It is associated with NIELIT, a deemed university under the Ministry of Electronics and Information Technology.\n2. It is billed as India’s first dedicated Quantum and AI university campus.\n3. It is proposed to receive 8.5 acres and ₹730.70 crore over five years as a MeitY grant.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The NIELIT campus is a MeitY-linked deemed-university initiative, described as India’s first dedicated Quantum and AI university campus, with 8.5 acres and a ₹730.70 crore five-year grant.",
+   "ty": "statements",
+   "tq": "Check institutional identity, description and numerical details together.",
+   "sec": "AI education and challenges - first AI degrees, AP university, competitions  [APPSC]"
+  },
+  {
+   "s": "The classes of the NIELIT advanced-technology campus in Andhra Pradesh are scheduled to begin in September 2026 at a temporary site in",
+   "o": [
+    "Central Sanskrit University, New Delhi",
+    "IIT Hyderabad",
+    "Acharya Nagarjuna University, Guntur",
+    "Bletchley Park, United Kingdom"
+   ],
+   "a": 2,
+   "x": "Classes are scheduled to begin in September 2026 at a temporary site in Acharya Nagarjuna University, Guntur.",
+   "ty": "fact",
+   "tq": "Match the temporary institutional location with the programme’s start date.",
+   "sec": "AI education and challenges - first AI degrees, AP university, competitions  [APPSC]"
+  },
+  {
+   "s": "The advanced-technology campus associated with Quantum and AI education in Andhra Pradesh is located at",
+   "o": [
+    "Tirupati",
+    "Kurnool",
+    "Amaravati",
+    "Visakhapatnam"
+   ],
+   "a": 2,
+   "x": "The NIELIT Quantum and AI campus is associated with Amaravati.",
+   "ty": "fact",
+   "tq": "Use the location-specific AP angle without confusing it with the temporary teaching site.",
+   "sec": "AI education and challenges - first AI degrees, AP university, competitions  [APPSC]"
+  },
+  {
+   "s": "Central Sanskrit University has started which of the following programmes from the academic year 2026–27?",
+   "o": [
+    "B.Tech in cyber law and governance",
+    "B.Tech in quantum physics only",
+    "B.Tech in AI and data science",
+    "B.Tech in robotics and aerospace engineering"
+   ],
+   "a": 2,
+   "x": "Central Sanskrit University started a B.Tech in AI and data science from 2026–27.",
+   "ty": "fact",
+   "tq": "Identify the exact programme rather than a related emerging-technology course.",
+   "sec": "AI education and challenges - first AI degrees, AP university, competitions  [APPSC]"
+  },
+  {
+   "s": "With reference to Central Sanskrit University’s AI-related engineering programme, consider the following statements:\n1. It has 66 seats.\n2. It is the first engineering programme offered by a Sanskrit university.\n3. It commenced from the academic year 2025–26.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The programme has 66 seats and is the first engineering programme offered by a Sanskrit university. It began from 2026–27, not 2025–26, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Use the close academic-year trap to separate the correct numerical and institutional facts.",
+   "sec": "AI education and challenges - first AI degrees, AP university, competitions  [APPSC]"
+  },
+  {
+   "s": "The All India Council for Technical Education declared 2025 as the",
+   "o": [
+    "Year of Quantum Computing",
+    "Year of Digital Governance",
+    "Year of Artificial Intelligence",
+    "Year of Cyber Security"
+   ],
+   "a": 2,
+   "x": "AICTE declared 2025 the ‘Year of AI’.",
+   "ty": "numerical",
+   "tq": "Test the year-title association directly.",
+   "sec": "AI education and challenges - first AI degrees, AP university, competitions  [APPSC]"
+  },
+  {
+   "s": "India’s gross expenditure on research and development is approximately",
+   "o": [
+    "0.064–0.07% of GDP",
+    "0.64–0.70% of GDP",
+    "64–70% of GDP",
+    "6.4–7.0% of GDP"
+   ],
+   "a": 1,
+   "x": "India’s GERD is approximately 0.64–0.70% of GDP.",
+   "ty": "numerical",
+   "tq": "Place the decimal correctly in a percentage-based figure.",
+   "sec": "AI education and challenges - first AI degrees, AP university, competitions  [APPSC]"
+  },
+  {
+   "s": "Which of the following represents a major challenge for the development of frontier AI in India?\n1. GPU shortage\n2. Dependence on imported chips\n3. Shortage of frontier-AI skills\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "GPU shortages, dependence on imported chips and a shortage of frontier-AI skills are all identified as challenges.",
+   "ty": "statements",
+   "tq": "Recognise the cumulative effect of infrastructure, supply-chain and skill constraints.",
+   "sec": "AI education and challenges - first AI degrees, AP university, competitions  [APPSC]"
+  },
+  {
+   "s": "Arrange the following global AI events in chronological order:\nA. AI Safety Summit at Bletchley Park\nB. REAIM Summit at The Hague\nC. AI Seoul Summit\nD. AI Action Summit at Paris",
+   "o": [
+    "B, A, C, D",
+    "A, B, C, D",
+    "B, C, A, D",
+    "D, C, A, B"
+   ],
+   "a": 0,
+   "x": "REAIM was held in 2023, the AI Safety Summit in November 2023, the AI Seoul Summit in 2024 and the AI Action Summit in 2025.",
+   "ty": "chronology",
+   "tq": "Anchor the sequence with the years before resolving the two events held in 2023.",
+   "sec": "Global AI governance - summits → host city, GPAI, EU AI Act  [other exams]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (Summit)\na. REAIM, 2023\na. AI Safety Summit, November 2023\nc. AI Seoul Summit, 2024\nd. AI Action Summit, 2025\n\nList-II (Host)\ni. Seoul\nii. Paris\niii. The Hague\niv. Bletchley Park\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–iii, b–i, c–iv, d–ii",
+    "a–ii, b–iv, c–i, d–iii"
+   ],
+   "a": 0,
+   "x": "REAIM 2023 was hosted at The Hague, the November 2023 AI Safety Summit at Bletchley Park, the 2024 AI Seoul Summit at Seoul and the 2025 AI Action Summit at Paris.",
+   "ty": "match",
+   "tq": "Start from the distinctive host locations and eliminate codes with a mismatched pair.",
+   "sec": "Global AI governance - summits → host city, GPAI, EU AI Act  [other exams]"
+  },
+  {
+   "s": "Which city hosted the AI Impact Summit in 2026, described as the first global AI summit in the Global South?",
+   "o": [
+    "Seoul",
+    "New Delhi",
+    "The Hague",
+    "Paris"
+   ],
+   "a": 1,
+   "x": "The 2026 AI Impact Summit was hosted in New Delhi and was described as the first global AI summit in the Global South.",
+   "ty": "fact",
+   "tq": "Separate the 2026 summit from the similarly named 2025 AI Action Summit.",
+   "sec": "Global AI governance - summits → host city, GPAI, EU AI Act  [other exams]"
+  },
+  {
+   "s": "Consider the following statements about the Global Partnership on Artificial Intelligence (GPAI):\n1. India is a founding member.\n2. India joined GPAI on 15 June 2020.\n3. India was elected Incoming Council Chair.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "India is a founding member of GPAI, joined it on 15 June 2020 and was elected Incoming Council Chair.",
+   "ty": "statements",
+   "tq": "Combine membership, date and institutional-position facts in one coded question.",
+   "sec": "Global AI governance - summits → host city, GPAI, EU AI Act  [other exams]"
+  },
+  {
+   "s": "The EU AI Act is significant because it is regarded as",
+   "o": [
+    "the first comprehensive AI law in the world",
+    "the first international treaty on military AI",
+    "the first law regulating only facial recognition",
+    "the first global agreement establishing GPAI"
+   ],
+   "a": 0,
+   "x": "The EU AI Act is regarded as the world’s first comprehensive AI law.",
+   "ty": "fact",
+   "tq": "Distinguish a comprehensive law from a summit, treaty or technology-specific regulation.",
+   "sec": "Global AI governance - summits → host city, GPAI, EU AI Act  [other exams]"
+  },
+  {
+   "s": "The EU AI Act entered into force in",
+   "o": [
+    "January 2025",
+    "November 2023",
+    "June 2024",
+    "August 2024"
+   ],
+   "a": 3,
+   "x": "The EU AI Act entered into force in August 2024.",
+   "ty": "numerical",
+   "tq": "Use the month-year association to distinguish enactment from later AI summits.",
+   "sec": "Global AI governance - summits → host city, GPAI, EU AI Act  [other exams]"
+  },
+  {
+   "s": "Which one of the following is NOT a risk category used by the EU AI Act?",
+   "o": [
+    "Unlimited risk",
+    "High risk",
+    "Unacceptable risk",
+    "Limited risk"
+   ],
+   "a": 0,
+   "x": "The EU AI Act sorts AI systems into unacceptable, high, limited and minimal risk categories. ‘Unlimited risk’ is not one of those categories.",
+   "ty": "negative",
+   "tq": "Find the look-alike category that does not belong to the official classification.",
+   "sec": "Global AI governance - summits → host city, GPAI, EU AI Act  [other exams]"
+  },
+  {
+   "s": "Which of the following correctly represents the risk categories under the EU AI Act?",
+   "o": [
+    "Local, national, regional and global",
+    "Critical, strategic, ordinary and negligible",
+    "Unacceptable, high, limited and minimal",
+    "Military, civilian, commercial and public"
+   ],
+   "a": 2,
+   "x": "The EU AI Act classifies AI according to unacceptable, high, limited and minimal risk levels.",
+   "ty": "comparison",
+   "tq": "Recall the exact official classification rather than substitute general regulatory categories.",
+   "sec": "Global AI governance - summits → host city, GPAI, EU AI Act  [other exams]"
+  },
+  {
+   "s": "The Supreme Court sought the Centre’s response regarding the absence of a statutory framework for high-risk AI in the context of",
+   "o": [
+    "university admissions only",
+    "military procurement only",
+    "international trade negotiations",
+    "welfare delivery"
+   ],
+   "a": 3,
+   "x": "The issue concerned the lack of a statutory framework for high-risk AI used in welfare delivery.",
+   "ty": "application",
+   "tq": "Link the judicial concern with the specific public-service context in which high-risk AI is used.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The statement that AI summits have moved from ‘safety to scale’ refers to the criticism that",
+   "o": [
+    "AI research has completely stopped because of safety concerns",
+    "only small public-sector models are receiving investment",
+    "global summits no longer discuss AI applications",
+    "safety concerns are declining while large financial interests are increasing"
+   ],
+   "a": 3,
+   "x": "The criticism is expressed as ‘safety is declining, and big money is on the rise’, indicating a shift from safety emphasis towards scale and investment.",
+   "ty": "fact",
+   "tq": "Interpret the quoted contrast instead of taking ‘scale’ as a technical measurement.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The Economic Survey 2025–26 argues that India should preferably pursue",
+   "o": [
+    "small, application-specific models and a state-built AI-OS modelled on UPI and Aadhaar",
+    "only very large general-purpose models trained abroad",
+    "complete withdrawal of the state from AI infrastructure",
+    "exclusive dependence on imported AI platforms"
+   ],
+   "a": 0,
+   "x": "The Economic Survey 2025–26 favours small, application-specific models and a state-built AI-OS modelled on UPI and Aadhaar.",
+   "ty": "application",
+   "tq": "Identify the policy recommendation by separating it from extreme alternatives such as exclusive dependence or complete withdrawal.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Bias — non-representative training data\n2. Explainability — difficulty in justifying black-box decisions\n3. Deepfake — content produced only in video form\n4. Facial-recognition accuracy — unaffected by lighting and pose\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Pairs 1 and 2 are correct. Deepfakes can occur as text, voice, image or video, and facial-recognition accuracy can vary with lighting and pose; therefore pairs 3 and 4 are false.",
+   "ty": "statements",
+   "tq": "Test exact definitions while rejecting ‘only’ and ‘unaffected’ overstatements.",
+   "sec": "Ethical concerns - bias, deepfakes, privacy, facial recognition, jobs, explainability  [APPSC]"
+  }
+ ]
+}

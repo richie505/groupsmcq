@@ -1,0 +1,512 @@
+{
+ "book": 5,
+ "row": 42,
+ "chunk": 2,
+ "section": "Human spaceflight - Gaganyaan programme, Bharatiya Antariksh Station roadmap",
+ "subsections": [
+  "International Space Station - partners, modules, retirement, Tiangong",
+  "Microgravity effects on the human body",
+  "Test missions - TV-D1, G1, Vyommitra, crew escape, air drops",
+  "Bharatiya Antariksh Station - modules, first module, completion",
+  "Supporting institutions - HSFC, IAM, ISTRAC"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 35,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The International Space Station (ISS) is best described as a modular laboratory situated in which region of space?",
+   "o": [
+    "Low Earth orbit at about 400 km",
+    "A polar orbit at about 1,000 km",
+    "Geostationary orbit at about 36,000 km",
+    "Medium Earth orbit at about 20,000 km"
+   ],
+   "a": 0,
+   "x": "The ISS is a modular microgravity laboratory in Low Earth Orbit (LEO), at an altitude of approximately 400 km.",
+   "ty": "fact",
+   "tq": "Use the location-and-altitude clue to distinguish orbital regimes.",
+   "sec": "International Space Station - partners, modules, retirement, Tiangong  [APPSC]"
+  },
+  {
+   "s": "Which of the following agencies jointly operate the International Space Station?",
+   "o": [
+    "NASA, Roscosmos, JAXA, ESA and CSA",
+    "NASA, ISRO, CNSA, ESA and Roscosmos",
+    "Roscosmos, CNSA, JAXA, ISRO and NASA",
+    "NASA, ESA, ISRO, CNSA and CSA"
+   ],
+   "a": 0,
+   "x": "The ISS is operated by NASA, Roscosmos, JAXA, the European Space Agency (ESA) and the Canadian Space Agency (CSA).",
+   "ty": "fact",
+   "tq": "Recall the exact five-agency partnership rather than confusing it with China’s independent station.",
+   "sec": "International Space Station - partners, modules, retirement, Tiangong  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the International Space Station:\n1. It has been continuously inhabited since November 2000.\n2. It is situated in Low Earth Orbit at approximately 400 km.\n3. Its first module was Zvezda.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. The first ISS module was Zarya, not Zvezda, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Find the wrong module name while retaining the correct date and orbit facts.",
+   "sec": "International Space Station - partners, modules, retirement, Tiangong  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (ISS module)\nA. Zarya\nB. Zvezda\nC. Destiny\nD. Kibo\n\nList-II (Association)\n1. Japan\n2. First ISS module\n3. United States\n4. Russia\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "A-2, B-4, C-3, D-1",
+    "A-4, B-2, C-1, D-3",
+    "A-2, B-3, C-4, D-1",
+    "A-1, B-4, C-3, D-2"
+   ],
+   "a": 0,
+   "x": "Zarya was the first ISS module, Zvezda is Russian, Destiny is the US module and Kibo is the Japanese module.",
+   "ty": "match",
+   "tq": "Start from the sure pair Zarya–first module and eliminate the remaining codes.",
+   "sec": "International Space Station - partners, modules, retirement, Tiangong  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the International Space Station?",
+   "o": [
+    "Destiny — China",
+    "Zvezda — Canada",
+    "Columbus — European Space Agency",
+    "Kibo — Roscosmos"
+   ],
+   "a": 2,
+   "x": "Columbus is the module associated with the European Space Agency. Kibo is Japanese, Destiny is US and Zvezda is Russian.",
+   "ty": "negative",
+   "tq": "Use the agency-module association and reject swapped partners.",
+   "sec": "International Space Station - partners, modules, retirement, Tiangong  [APPSC]"
+  },
+  {
+   "s": "The planned retirement of the International Space Station is expected to be followed by which of the following?",
+   "o": [
+    "Transfer to a geostationary orbit by China",
+    "Controlled de-orbit and subsequent private stations",
+    "Immediate conversion into a lunar station",
+    "Permanent abandonment without de-orbit operations"
+   ],
+   "a": 1,
+   "x": "The ISS is planned to be retired around 2030, followed by a controlled de-orbit. Private space stations are expected to follow it.",
+   "ty": "fact",
+   "tq": "Link the planned date with the stated post-retirement sequence.",
+   "sec": "International Space Station - partners, modules, retirement, Tiangong  [APPSC]"
+  },
+  {
+   "s": "With reference to the ISS and Tiangong, consider the following statements:\n1. The ISS is operated by five partner agencies, whereas Tiangong is owned by China alone.\n2. The ISS has modules such as Zarya, Zvezda, Destiny, Kibo and Columbus.\n3. Tiangong consists of the Tianhe core module along with Wentian and Mengtian.\n4. Tiangong was completed in 2022.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2, 3 and 4",
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 2 and 3 only"
+   ],
+   "a": 0,
+   "x": "All four statements are correct. The ISS is a multinational station, while Tiangong is China’s own station with Tianhe, Wentian and Mengtian, completed in 2022.",
+   "ty": "comparison",
+   "tq": "Compare ownership, module composition and completion status across the two stations.",
+   "sec": "International Space Station - partners, modules, retirement, Tiangong  [APPSC]"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. Launch of Gagarin in Vostok\nB. Continuous habitation of the ISS begins\nC. Completion of Tiangong\nD. First module of the ISS, Zarya, is launched",
+   "o": [
+    "A, D, B, C",
+    "D, A, B, C",
+    "A, B, D, C",
+    "D, B, A, C"
+   ],
+   "a": 0,
+   "x": "Gagarin’s Vostok flight occurred in 1961, Zarya was launched in 1998, continuous ISS habitation began in 2000, and Tiangong was completed in 2022.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest events first, then place the two ISS milestones.",
+   "sec": "International Space Station - partners, modules, retirement, Tiangong  [APPSC]"
+  },
+  {
+   "s": "Which of the following countries had its own crewed space-launch capability before the proposed Gaganyaan mission?",
+   "o": [
+    "India",
+    "Canada",
+    "Japan",
+    "China"
+   ],
+   "a": 3,
+   "x": "The USSR/Russia, the United States and China had their own crewed launch capability. Gaganyaan would make India the fourth country in this group.",
+   "ty": "fact",
+   "tq": "Distinguish existing crewed-launch nations from India’s proposed capability.",
+   "sec": "International Space Station - partners, modules, retirement, Tiangong  [APPSC]"
+  },
+  {
+   "s": "Soyuz MS-29 in July 2026 carried which Indian-origin NASA astronaut to the International Space Station for an eight-month stay?",
+   "o": [
+    "Anil Menon",
+    "Rakesh Sharma",
+    "Oleg Kononenko",
+    "Tim Peake"
+   ],
+   "a": 0,
+   "x": "Soyuz MS-29 carried Indian-origin NASA astronaut Anil Menon to the ISS for an eight-month stay.",
+   "ty": "fact",
+   "tq": "Use the mission-specific name and duration as a direct current-affairs recall point.",
+   "sec": "International Space Station - partners, modules, retirement, Tiangong  [APPSC]"
+  },
+  {
+   "s": "In microgravity, the average monthly bone-mass loss without loading is approximately:",
+   "o": [
+    "3–4 percent",
+    "0.1–0.5 percent",
+    "5–6 percent",
+    "1–1.5 percent"
+   ],
+   "a": 3,
+   "x": "Spaceflight osteopenia can cause approximately 1–1.5% loss of bone mass per month without mechanical loading.",
+   "ty": "numerical",
+   "tq": "Identify the precise range rather than the nearby larger estimates.",
+   "sec": "Microgravity effects on the human body  [APPSC]"
+  },
+  {
+   "s": "Which condition is specifically associated with weakening of postural muscles during spaceflight?",
+   "o": [
+    "Space Adaptation Syndrome",
+    "Radiation cataract syndrome",
+    "Muscle atrophy",
+    "SANS"
+   ],
+   "a": 2,
+   "x": "Muscle atrophy in microgravity weakens postural muscles. Muscle regeneration was tested during Ax-4.",
+   "ty": "fact",
+   "tq": "Match the physiological condition with its stated bodily effect.",
+   "sec": "Microgravity effects on the human body  [APPSC]"
+  },
+  {
+   "s": "The expression “puffy face, bird legs” in relation to astronauts refers to:",
+   "o": [
+    "Radiation-induced swelling of the limbs",
+    "Muscle regeneration after treadmill exercise",
+    "Fluid shifting towards the head in microgravity",
+    "Loss of bone mass in the legs"
+   ],
+   "a": 2,
+   "x": "Microgravity causes body fluids to shift towards the head, producing a puffy face and comparatively thinner-looking legs.",
+   "ty": "confusable",
+   "tq": "Distinguish fluid redistribution from bone loss and muscle atrophy.",
+   "sec": "Microgravity effects on the human body  [APPSC]"
+  },
+  {
+   "s": "Space motion sickness experienced during the first days in space is known as:",
+   "o": [
+    "Spaceflight Osteopenia",
+    "Crew Escape Syndrome",
+    "Spaceflight-Associated Neuro-ocular Syndrome",
+    "Space Adaptation Syndrome"
+   ],
+   "a": 3,
+   "x": "Space Adaptation Syndrome is the space motion sickness commonly experienced during the initial days of spaceflight.",
+   "ty": "fact",
+   "tq": "Discriminate between similarly named spaceflight medical conditions.",
+   "sec": "Microgravity effects on the human body  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is associated with Spaceflight-Associated Neuro-ocular Syndrome (SANS)?",
+   "o": [
+    "Parachute deceleration",
+    "Only loss of muscle mass",
+    "Optic disc swelling and vision changes",
+    "Crew-module separation"
+   ],
+   "a": 2,
+   "x": "SANS involves optic disc swelling and changes in vision. It is distinct from muscle atrophy and space motion sickness.",
+   "ty": "fact",
+   "tq": "Match the medical acronym with its specific symptoms.",
+   "sec": "Microgravity effects on the human body  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the effects of microgravity:\n1. Radiation exposure increases the risk of cancer and cataracts.\n2. Daily resistance and treadmill exercise are used as countermeasures.\n3. Diet and medication form part of the countermeasure strategy.\n4. Space medicine is studied only through actual spaceflight and not through ground analogues.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. Space medicine is also studied through ground analogues such as Leh and HOPE, so statement 4 is false.",
+   "ty": "statements",
+   "tq": "Reject the absolute word “only” in the false statement about research methods.",
+   "sec": "Microgravity effects on the human body  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "SANS — parachute recovery system",
+    "Leh and HOPE — ground analogues for space-medicine studies",
+    "Ax-4 — ISS retirement programme",
+    "Space Adaptation Syndrome — bone-mass measurement"
+   ],
+   "a": 1,
+   "x": "Leh and HOPE are ground analogues used in studying space medicine. The other pairs incorrectly link medical conditions or missions with unrelated functions.",
+   "ty": "negative",
+   "tq": "Find the one valid application-function pair among closely related terms.",
+   "sec": "Microgravity effects on the human body  [APPSC]"
+  },
+  {
+   "s": "The TV-D1 test of the Gaganyaan programme was conducted on:",
+   "o": [
+    "18 October 2023",
+    "3 July 2026",
+    "24 August 2025",
+    "10 April 2026"
+   ],
+   "a": 0,
+   "x": "TV-D1 was conducted on 18 October 2023.",
+   "ty": "numerical",
+   "tq": "Separate the first abort test date from the later integrated air-drop and ground tests.",
+   "sec": "Test missions - TV-D1, G1, Vyommitra, crew escape, air drops"
+  },
+  {
+   "s": "What did the TV-D1 mission demonstrate?",
+   "o": [
+    "Only the docking of two spacecraft in orbit",
+    "Deployment of the Bharatiya Antariksh Station",
+    "In-flight crew escape at Mach 1.2, crew-module separation and sea recovery",
+    "A crewed lunar landing"
+   ],
+   "a": 2,
+   "x": "TV-D1 demonstrated an in-flight abort of the Crew Escape System at Mach 1.2, followed by crew-module separation and sea recovery.",
+   "ty": "fact",
+   "tq": "Identify the mission by its demonstrated safety sequence and speed.",
+   "sec": "Test missions - TV-D1, G1, Vyommitra, crew escape, air drops"
+  },
+  {
+   "s": "Match the test with its distinguishing feature:\n\nA. IADT-01\nB. IADT-02\nC. CARE\nD. SOLVE\n\n1. Crew-module re-entry\n2. 4.8-tonne dummy module dropped from 3 km\n3. Solid-motor ground test for lofting the module to 10–17 km\n4. 5.7-tonne module with ten parachutes of four types\n\nSelect the correct answer using the code given below:",
+   "o": [
+    "A-2, B-4, C-1, D-3",
+    "A-4, B-2, C-3, D-1",
+    "A-2, B-1, C-4, D-3",
+    "A-3, B-4, C-1, D-2"
+   ],
+   "a": 0,
+   "x": "IADT-01 involved the 4.8-tonne dummy module, IADT-02 the 5.7-tonne module and ten parachutes, CARE tested re-entry, and SOLVE tested the solid motor.",
+   "ty": "match",
+   "tq": "Start with CARE–re-entry and SOLVE–solid motor, then resolve the two air-drop tests.",
+   "sec": "Test missions - TV-D1, G1, Vyommitra, crew escape, air drops"
+  },
+  {
+   "s": "IADT-01, conducted on 24 August 2025, involved which of the following?",
+   "o": [
+    "A solid-motor test from PSLV strap-ons",
+    "A 5.7-tonne crew module recovered by the Navy after an orbital flight",
+    "A crew escape abort at Mach 1.2",
+    "A 4.8-tonne dummy crew module dropped from 3 km by an IAF Chinook"
+   ],
+   "a": 3,
+   "x": "IADT-01 involved dropping a 4.8-tonne dummy crew module from 3 km using an IAF Chinook; parachute deceleration was validated.",
+   "ty": "fact",
+   "tq": "Use the aircraft, mass and drop altitude as identifying details.",
+   "sec": "Test missions - TV-D1, G1, Vyommitra, crew escape, air drops"
+  },
+  {
+   "s": "Which statement correctly describes IADT-02 of 10 April 2026?",
+   "o": [
+    "It was a ground test of a solid motor to loft the module to 10–17 km.",
+    "It used a 5.7-tonne module equal to the G1 crew-module mass and ten parachutes of four types.",
+    "It tested only the crew-module re-entry profile.",
+    "It used a 4.8-tonne dummy module and two parachutes."
+   ],
+   "a": 1,
+   "x": "IADT-02 used a 5.7-tonne module, equal to the G1 crew-module mass, and tested ten parachutes of four types; the module was recovered with the Navy.",
+   "ty": "fact",
+   "tq": "Distinguish IADT-02 from IADT-01 and SOLVE using mass and parachute details.",
+   "sec": "Test missions - TV-D1, G1, Vyommitra, crew escape, air drops"
+  },
+  {
+   "s": "The Crew Module Uprighting System tested in July 2026 uses:",
+   "o": [
+    "Liquid oxygen",
+    "Solid propellant only",
+    "Hydrogen peroxide",
+    "Cold gas"
+   ],
+   "a": 3,
+   "x": "The Crew Module Uprighting System tested in July 2026 uses cold gas. The same qualification tests included service-module connect-disconnect and apex-cover separation.",
+   "ty": "fact",
+   "tq": "Recall the exact propellant or operating medium used in the tested system.",
+   "sec": "Test missions - TV-D1, G1, Vyommitra, crew escape, air drops"
+  },
+  {
+   "s": "Which of the following statements about Vyommitra is correct?",
+   "o": [
+    "It is the parachute recovery system of the Crew Escape System.",
+    "It is an unmanned Chinese space station module.",
+    "It is a male humanoid robot planned only for the crewed mission.",
+    "It is an AI-enabled female-form half-humanoid robot planned to fly on uncrewed G1 and G2."
+   ],
+   "a": 3,
+   "x": "Vyommitra is an AI-enabled, female-form semi-humanoid robot intended to fly on the uncrewed G1 and G2 missions before the crewed flight.",
+   "ty": "confusable",
+   "tq": "Use the robot’s form, artificial intelligence and mission sequence to reject look-alike descriptions.",
+   "sec": "Test missions - TV-D1, G1, Vyommitra, crew escape, air drops"
+  },
+  {
+   "s": "Which one of the following statements is NOT correct regarding the Gaganyaan test sequence?",
+   "o": [
+    "TV-D2 was completed before TV-D1 in the test series.",
+    "TV-D2 is the second abort test and is yet to come.",
+    "TV-D1 demonstrated an in-flight abort and sea recovery.",
+    "DRDO tested the parachute recovery system of the Crew Escape System."
+   ],
+   "a": 0,
+   "x": "TV-D2 is the second abort test and was still to come; it had not been completed before TV-D1. DRDO tested the parachute recovery system, while TV-D1 demonstrated abort and sea recovery.",
+   "ty": "negative",
+   "tq": "Find the reversed sequence in the statement about the two abort tests.",
+   "sec": "Test missions - TV-D1, G1, Vyommitra, crew escape, air drops"
+  },
+  {
+   "s": "CARE, conducted on 18 December 2014 using LVM3-X, was associated with testing of:",
+   "o": [
+    "Crew selection and aeromedical training",
+    "ISS docking",
+    "Crew-module re-entry",
+    "The BAS-1 module"
+   ],
+   "a": 2,
+   "x": "CARE tested crew-module re-entry on 18 December 2014 using LVM3-X.",
+   "ty": "fact",
+   "tq": "Match the mission acronym and launch vehicle with its demonstrated capability.",
+   "sec": "Test missions - TV-D1, G1, Vyommitra, crew escape, air drops"
+  },
+  {
+   "s": "The SOLVE ground test of 3 July 2026 concerned a solid motor derived from:",
+   "o": [
+    "GSLV cryogenic stages",
+    "The Soyuz launch vehicle",
+    "PSLV strap-ons",
+    "The Ariane upper stage"
+   ],
+   "a": 2,
+   "x": "SOLVE tested a solid motor derived from PSLV strap-ons, intended to loft the crew module to 10–17 km for ten-parachute tests.",
+   "ty": "fact",
+   "tq": "Identify the source hardware behind the solid-motor test.",
+   "sec": "Test missions - TV-D1, G1, Vyommitra, crew escape, air drops"
+  },
+  {
+   "s": "The Bharatiya Antariksh Station (BAS) is planned as a:",
+   "o": [
+    "Geostationary communication satellite",
+    "Permanent lunar base",
+    "Modular space station in Low Earth Orbit",
+    "Deep-sea research platform"
+   ],
+   "a": 2,
+   "x": "BAS is India’s planned modular space station in Low Earth Orbit.",
+   "ty": "fact",
+   "tq": "Distinguish the station’s location and architecture from other space infrastructure.",
+   "sec": "Bharatiya Antariksh Station - modules, first module, completion"
+  },
+  {
+   "s": "Consider the following statements regarding the Bharatiya Antariksh Station:\n1. It was approved by the Union Cabinet in September 2024.\n2. The first module, BAS-1, is targeted for 2028.\n3. The full station is targeted for completion by 2035.\n4. India’s first astronaut is targeted to reach the Moon by 2040.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. The stated goal for 2040 is to place an Indian on the Moon, not specifically India’s first astronaut as worded in statement 4.",
+   "ty": "statements",
+   "tq": "Reject the subtle wording change in the final statement while retaining the approved dates and targets.",
+   "sec": "Bharatiya Antariksh Station - modules, first module, completion"
+  },
+  {
+   "s": "Which of the following is NOT identified as a precursor or supporting mission for the Bharatiya Antariksh Station roadmap?",
+   "o": [
+    "Gaganyaan",
+    "Axiom-4",
+    "SpaDeX",
+    "TV-D1"
+   ],
+   "a": 3,
+   "x": "SpaDeX, Axiom-4 and Gaganyaan are identified as precursor missions for the BAS roadmap. TV-D1 is a Gaganyaan abort test, not listed as a BAS precursor mission.",
+   "ty": "negative",
+   "tq": "Separate named precursor missions from an associated but differently classified test.",
+   "sec": "Bharatiya Antariksh Station - modules, first module, completion"
+  },
+  {
+   "s": "Arrange the following SpaDeX-related events in chronological order:\nA. SpaDeX docking in space\nB. SpaDeX launch on PSLV-C60\nC. India becomes the fourth nation to dock in space\nD. Target year for BAS-1",
+   "o": [
+    "B, A, C, D",
+    "A, B, C, D",
+    "B, C, A, D",
+    "D, B, A, C"
+   ],
+   "a": 0,
+   "x": "SpaDeX was launched on 30 December 2024, docked on 16 January 2025, the docking made India the fourth nation to dock in space, and BAS-1 is targeted for 2028.",
+   "ty": "chronology",
+   "tq": "Place the launch before docking, then the consequence, and finally the future target year.",
+   "sec": "Bharatiya Antariksh Station - modules, first module, completion"
+  },
+  {
+   "s": "Which of the following correctly matches an institution with its role in India’s human-spaceflight programme?",
+   "o": [
+    "HSFC — leads Gaganyaan as a new ISRO vertical",
+    "IAM — tracks satellites and operates the ground network",
+    "ISTRAC — conducts crew selection and aeromedical training",
+    "DRDO — approves the BAS roadmap in place of the Union Cabinet"
+   ],
+   "a": 0,
+   "x": "The Human Space Flight Centre (HSFC), Bengaluru, is the new ISRO vertical leading Gaganyaan. IAM handles crew selection and aeromedical training, ISTRAC handles tracking and ground networks, and DRDO provides technical inputs.",
+   "ty": "match",
+   "tq": "Match each institution with its distinctive responsibility and reject role swaps.",
+   "sec": "Supporting institutions - HSFC, IAM, ISTRAC  [GROUP-II]"
+  },
+  {
+   "s": "The Institute of Aerospace Medicine (IAM), Bengaluru, is associated with:",
+   "o": [
+    "Tracking and ground-network operations",
+    "Crew selection, aeromedical training and MITRA",
+    "Construction of the Tiangong station",
+    "Controlled de-orbit of the ISS"
+   ],
+   "a": 1,
+   "x": "IAM of the Indian Air Force in Bengaluru undertakes crew selection, aeromedical training and MITRA-related work.",
+   "ty": "fact",
+   "tq": "Identify the institution from its human-factor and medical functions.",
+   "sec": "Supporting institutions - HSFC, IAM, ISTRAC  [GROUP-II]"
+  },
+  {
+   "s": "Which organisation is primarily associated with tracking and the ground network for the Indian human-spaceflight programme?",
+   "o": [
+    "Human Space Flight Centre",
+    "ISTRAC",
+    "Institute of Aerospace Medicine",
+    "Axiom-4"
+   ],
+   "a": 1,
+   "x": "ISTRAC, based in Bengaluru, provides tracking and ground-network functions; ESA adds stations to the network.",
+   "ty": "fact",
+   "tq": "Distinguish operational tracking from crew training and mission leadership.",
+   "sec": "Supporting institutions - HSFC, IAM, ISTRAC  [GROUP-II]"
+  },
+  {
+   "s": "Consider the following statements about institutional support for Gaganyaan:\n1. HSFC is a new ISRO vertical based in Bengaluru.\n2. IAM is associated with the Indian Air Force and is based in Bengaluru.\n3. DRDO contributes parachutes, life-support and crew-recovery inputs.\n4. ISTRAC has no role in tracking or ground networks.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 3 are correct. ISTRAC does have a role in tracking and ground networks, so statement 4 is false.",
+   "ty": "statements",
+   "tq": "Identify the single negated role statement among the correct institutional descriptions.",
+   "sec": "Supporting institutions - HSFC, IAM, ISTRAC  [GROUP-II]"
+  }
+ ]
+}

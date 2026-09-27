@@ -1,0 +1,694 @@
+{
+ "book": 3,
+ "row": 117,
+ "chunk": 2,
+ "section": "Infrastructure initiatives - power sector position, transport (ports, airports, highways, railways)",
+ "subsections": [
+  "Airports - category",
+  "National highways and expressways - length, Bharatmala, Sagarmala",
+  "Railways in AP - new zone, new lines, freight corridors",
+  "Maritime Policy and AP Maritime Board - port-led targets",
+  "APIIC and APIDC - incorporation, parks, land bank"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 51,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is correctly matched with its airport category in Andhra Pradesh?",
+   "o": [
+    "Orvakal — Domestic greenfield no-frills airport",
+    "Rajahmundry — International airport",
+    "Bhogapuram — Domestic airport",
+    "Puttaparthi — International airport"
+   ],
+   "a": 0,
+   "x": "Orvakal, also known as Uyyalawada Narasimha Reddy Airport, is a domestic greenfield no-frills airport. Bhogapuram is a greenfield international airport, while Puttaparthi has a private airstrip.",
+   "ty": "comparison",
+   "tq": "Use comparison-table discrimination by matching each airport with its precise category.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "Which airport in Andhra Pradesh is associated with the INS Dega civil enclave?",
+   "o": [
+    "Bhogapuram Airport",
+    "Visakhapatnam Airport",
+    "Tirupati Airport",
+    "Vijayawada Airport"
+   ],
+   "a": 1,
+   "x": "Visakhapatnam Airport operates from the INS Dega civil enclave. Commercial flights from this airport ended on 17 August 2026 after Bhogapuram became operational.",
+   "ty": "fact",
+   "tq": "Direct location-based recall of an airport and its civil enclave.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "Consider the following airports of Andhra Pradesh:\n1. Vijayawada\n2. Tirupati\n3. Rajahmundry\n4. Kadapa\nWhich of the above are international airports?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Vijayawada and Tirupati are international airports. Rajahmundry and Kadapa are domestic airports.",
+   "ty": "statements",
+   "tq": "Split the options by separating international airports from domestic airports.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "The Alluri Sitarama Raju International Airport is located at:",
+   "o": [
+    "Gannavaram",
+    "Orvakal",
+    "Dagadarthi",
+    "Bhogapuram"
+   ],
+   "a": 3,
+   "x": "The Alluri Sitarama Raju International Airport is the greenfield international airport at Bhogapuram in Vizianagaram district.",
+   "ty": "fact",
+   "tq": "Direct place-name recall involving a newly established infrastructure project.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "With reference to the Alluri Sitarama Raju International Airport, consider the following statements:\n1. It is being developed by GMR through a PPP-DBFOT model.\n2. Its initial capacity is 6 million passengers per annum.\n3. Its capacity can be expanded to 40 million passengers per annum.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The airport is being developed by GMR's GVIAL under the PPP-DBFOT model, with an initial capacity of 6 Mppa and expandable capacity of 40 Mppa.",
+   "ty": "statements",
+   "tq": "Verify all components of a project profile, including developer, model and capacity.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "The Alluri Sitarama Raju International Airport at Bhogapuram was inaugurated by the Prime Minister on:",
+   "o": [
+    "4 January 2026",
+    "28 March 2021",
+    "1 August 2026",
+    "17 August 2026"
+   ],
+   "a": 2,
+   "x": "The airport was inaugurated by the Prime Minister on 1 August 2026. Commercial operations commenced later, on 17 August 2026.",
+   "ty": "fact",
+   "tq": "Distinguish closely spaced project milestones rather than confusing inauguration with commercial operation.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "The commercial operations of the Bhogapuram airport commenced on 17 August 2026 under which airport code?",
+   "o": [
+    "VGA",
+    "VTZ",
+    "TIR",
+    "KDP"
+   ],
+   "a": 1,
+   "x": "Commercial operations at Bhogapuram commenced on 17 August 2026 under the code VTZ, with 52 flights on the first day.",
+   "ty": "fact",
+   "tq": "Numerical and code-based recall of an airport commissioning event.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "Which one of the following correctly describes APADCL?",
+   "o": [
+    "It is a Central Government agency for national highways.",
+    "It is the railway zone headquartered at Visakhapatnam.",
+    "It is the 100% State-owned nodal SPV for the Bhogapuram airport project.",
+    "It is a privately owned airport operator headquartered at Tirupati."
+   ],
+   "a": 2,
+   "x": "APADCL, formerly Bhogapuram International Airport Corporation Limited, is the 100% State-owned nodal special purpose vehicle for the Bhogapuram airport project.",
+   "ty": "fact",
+   "tq": "Identify the correct institutional responsibility instead of a neighbouring infrastructure authority.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "Before August 2026, how many airports were listed as operating in Andhra Pradesh in the stated international-domestic classification?",
+   "o": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "a": 2,
+   "x": "Before August 2026, Andhra Pradesh had six listed airports: three international—Visakhapatnam, Vijayawada and Tirupati—and three domestic—Rajahmundry, Kadapa and Orvakal.",
+   "ty": "numerical",
+   "tq": "Count the entries after grouping them by category.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "Which airport was described as the first South Indian airport built entirely by a State Government?",
+   "o": [
+    "Tirupati International Airport",
+    "Vijayawada International Airport",
+    "Orvakal Airport",
+    "Rajahmundry Airport"
+   ],
+   "a": 2,
+   "x": "Orvakal, or Uyyalawada Narasimha Reddy Airport in Kurnool, was described as the first South Indian airport built entirely by a State Government.",
+   "ty": "fact",
+   "tq": "Direct distinction based on the unique project description.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "Orvakal Airport began flight operations in:",
+   "o": [
+    "January 2026",
+    "March 2021",
+    "October 2015",
+    "August 2026"
+   ],
+   "a": 1,
+   "x": "Flights from Orvakal Airport began on 28 March 2021; the airport has been operational since March 2021.",
+   "ty": "fact",
+   "tq": "Use the exact operational date rather than the date of a later airport project.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "Tirupati airport acquired international status in:",
+   "o": [
+    "October 2015",
+    "August 2026",
+    "March 2021",
+    "September 1973"
+   ],
+   "a": 0,
+   "x": "Tirupati airport has had international status since October 2015.",
+   "ty": "fact",
+   "tq": "Direct date recall for a status change.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "The runway of Rajahmundry Airport was extended to:",
+   "o": [
+    "2,065 metres",
+    "8,744 metres",
+    "5,640 metres",
+    "3,165 metres"
+   ],
+   "a": 3,
+   "x": "The Rajahmundry airport runway was extended to 3,165 metres. A new terminal costing ₹350 crore was also associated with the airport's development.",
+   "ty": "numerical",
+   "tq": "Separate airport-specific measurements from nearby infrastructure figures.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "Which of the following is NOT included among the proposed greenfield airport locations in Andhra Pradesh?",
+   "o": [
+    "Gannavaram",
+    "Srikakulam",
+    "Dagadarthi",
+    "Kuppam"
+   ],
+   "a": 0,
+   "x": "Dagadarthi, Kuppam and Srikakulam are among the proposed greenfield airport locations. Gannavaram is the existing location of Vijayawada Airport.",
+   "ty": "negative",
+   "tq": "Find the location that does not belong to the proposed greenfield-airport list.",
+   "sec": "Airports - category"
+  },
+  {
+   "s": "The total length of National Highways in Andhra Pradesh was stated as approximately:",
+   "o": [
+    "5,417 km",
+    "8,744 km",
+    "17,640 km",
+    "54,177 km"
+   ],
+   "a": 1,
+   "x": "The National Highway network in Andhra Pradesh was stated to be 8,744 km. The total road length was 54,177 km.",
+   "ty": "numerical",
+   "tq": "Distinguish the National Highway figure from the total-road figure and density figures.",
+   "sec": "National highways and expressways - length, Bharatmala, Sagarmala"
+  },
+  {
+   "s": "Which statement correctly compares the National Highway density of Andhra Pradesh with the all-India figure?",
+   "o": [
+    "54.177 km per lakh population in Andhra Pradesh against 8.744 km all-India",
+    "8.744 km per lakh population in Andhra Pradesh against 54.177 km all-India",
+    "12.09 km per lakh population in Andhra Pradesh against 17.64 km all-India",
+    "17.64 km per lakh population in Andhra Pradesh against 12.09 km all-India"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh had an NH density of 17.64 km per lakh population, compared with 12.09 km per lakh population for India as a whole.",
+   "ty": "comparison",
+   "tq": "Use the direction of comparison and preserve the units attached to each figure.",
+   "sec": "National highways and expressways - length, Bharatmala, Sagarmala"
+  },
+  {
+   "s": "Consider the following statements regarding National Highway projects in Andhra Pradesh:\n1. Ninety-three projects were under way.\n2. Their combined length was 2,065 km.\n3. Their stated cost was ₹45,633 crore.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three figures are correct: 93 projects, covering 2,065 km, with a stated cost of ₹45,633 crore.",
+   "ty": "statements",
+   "tq": "Check a project statistic as a complete numerical package.",
+   "sec": "National highways and expressways - length, Bharatmala, Sagarmala"
+  },
+  {
+   "s": "How many kilometres of National Highway work were stated to have been completed in Andhra Pradesh during 2025–26?",
+   "o": [
+    "392 km",
+    "635 km",
+    "2,065 km",
+    "8,744 km"
+   ],
+   "a": 0,
+   "x": "A total of 392 km of National Highway work was stated to have been completed during 2025–26.",
+   "ty": "numerical",
+   "tq": "Distinguish completed length from the total length of projects under way.",
+   "sec": "National highways and expressways - length, Bharatmala, Sagarmala"
+  },
+  {
+   "s": "The National Highway works targeted for completion by 2029 were valued at over:",
+   "o": [
+    "₹45,633 crore",
+    "₹18,000 crore",
+    "₹1.40 lakh crore",
+    "₹16,000 crore"
+   ],
+   "a": 2,
+   "x": "National Highway works worth more than ₹1.40 lakh crore were targeted for completion by 2029.",
+   "ty": "numerical",
+   "tq": "Match the financial value with the correct infrastructure programme and deadline.",
+   "sec": "National highways and expressways - length, Bharatmala, Sagarmala"
+  },
+  {
+   "s": "Which project was stated to be due for completion by 2027?",
+   "o": [
+    "Errupalem–Nambur Railway Line",
+    "Kharagpur–Amaravati Expressway",
+    "Bengaluru–Kadapa–Vijayawada Economic Corridor",
+    "Raipur–Visakhapatnam Greenfield Expressway"
+   ],
+   "a": 2,
+   "x": "The Bengaluru–Kadapa–Vijayawada Economic Corridor was stated to be due by 2027. A DPR was ordered separately for the Kharagpur–Amaravati expressway.",
+   "ty": "fact",
+   "tq": "Discriminate between projects by their stated implementation stage and deadline.",
+   "sec": "National highways and expressways - length, Bharatmala, Sagarmala"
+  },
+  {
+   "s": "The Raipur–Visakhapatnam greenfield expressway is associated with which programme?",
+   "o": [
+    "Sagarmala",
+    "East Coast Dedicated Freight Corridor",
+    "AP Maritime Policy",
+    "Bharatmala"
+   ],
+   "a": 3,
+   "x": "The Raipur–Visakhapatnam greenfield expressway is described as a Bharatmala economic corridor.",
+   "ty": "fact",
+   "tq": "Identify the responsible national infrastructure programme.",
+   "sec": "National highways and expressways - length, Bharatmala, Sagarmala"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Industrial corridor)\na. VCIC\nb. CBIC\nc. HBIC\n\nList-II (Associated feature)\ni. Orvakal node\nii. Krishnapatnam node\niii. Part of ECEC and ADB-funded\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "a-iii, b-ii, c-i",
+    "a-ii, b-i, c-iii",
+    "a-i, b-iii, c-ii",
+    "a-iii, b-i, c-ii"
+   ],
+   "a": 0,
+   "x": "VCIC is part of the ECEC and is ADB-funded; CBIC has the Krishnapatnam node; HBIC has the Orvakal node.",
+   "ty": "match",
+   "tq": "Start from the sure corridor-node pairs and eliminate inconsistent combinations.",
+   "sec": "National highways and expressways - length, Bharatmala, Sagarmala"
+  },
+  {
+   "s": "South Coast Railway is:",
+   "o": [
+    "India's 16th railway zone headquartered at Vijayawada",
+    "India's 18th railway zone headquartered at Visakhapatnam",
+    "India's 17th railway zone headquartered at Guntur",
+    "India's 19th railway zone headquartered at Guntakal"
+   ],
+   "a": 1,
+   "x": "South Coast Railway is India's 18th railway zone, with its headquarters at Visakhapatnam.",
+   "ty": "fact",
+   "tq": "Direct recall of the zone number and headquarters, a common paired trap.",
+   "sec": "Railways in AP - new zone, new lines, freight corridors"
+  },
+  {
+   "s": "Which set correctly represents the divisions of South Coast Railway?",
+   "o": [
+    "Guntakal, Guntur, Vijayawada and Visakhapatnam",
+    "Guntur, Hyderabad, Chennai and Visakhapatnam",
+    "Nellore, Kurnool, Kadapa and Tirupati",
+    "Vijayawada, Rajahmundry, Amaravati and Kakinada"
+   ],
+   "a": 0,
+   "x": "The divisions of South Coast Railway are Guntakal, Guntur, Vijayawada and Visakhapatnam.",
+   "ty": "fact",
+   "tq": "Recall a complete administrative composition list without substituting nearby regional places.",
+   "sec": "Railways in AP - new zone, new lines, freight corridors"
+  },
+  {
+   "s": "Consider the following statements about South Coast Railway:\n1. Its creation was promised in the A.P. Reorganisation Act, 2014.\n2. The promise appears in the Thirteenth Schedule of the Act.\n3. It was carved out of the South Central Railway and East Coast Railway.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. South Coast Railway was promised in the Thirteenth Schedule of the A.P. Reorganisation Act, 2014, and was carved from SCR and ECoR.",
+   "ty": "statements",
+   "tq": "Combine a legal provision with the organisational origin of a new body.",
+   "sec": "Railways in AP - new zone, new lines, freight corridors"
+  },
+  {
+   "s": "The proposed Amaravati railway line is the:",
+   "o": [
+    "57-km Errupalem–Nambur line including a 3-km Krishna bridge",
+    "92-km Errupalem–Nambur line including a 3-km Krishna bridge",
+    "3-km Errupalem–Nambur line including a 57-km Krishna bridge",
+    "57-km Guntakal–Guntur line including a 5-km Godavari bridge"
+   ],
+   "a": 0,
+   "x": "The Amaravati line is a 57-km Errupalem–Nambur railway line, including a 3-km bridge over the Krishna River.",
+   "ty": "numerical",
+   "tq": "Keep the route length and bridge length in their correct positions.",
+   "sec": "Railways in AP - new zone, new lines, freight corridors"
+  },
+  {
+   "s": "Which statement about the railway network of Andhra Pradesh is correct?",
+   "o": [
+    "It is 75% electrified and has ₹45,633 crore of works under way.",
+    "It is 100% electrified and has ₹18,000 crore of rail works under way.",
+    "It is 50% electrified and has ₹92,649 crore of rail works completed.",
+    "It is 100% electrified and has ₹92,649 crore of rail works under way."
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh's railway network was stated to be 100% electrified, with ₹92,649 crore of railway works under way.",
+   "ty": "comparison",
+   "tq": "Check both the percentage and the associated financial figure before selecting an option.",
+   "sec": "Railways in AP - new zone, new lines, freight corridors"
+  },
+  {
+   "s": "The Andhra Pradesh Industrial Policy 2024–29 gives priority to industrial links with:",
+   "o": [
+    "Western DFC and Eastern DFC only",
+    "East Coast DFC and North–South DFC",
+    "Chennai Metro and Hyderabad Metro",
+    "Sagarmala and Bharatmala only"
+   ],
+   "a": 1,
+   "x": "The policy gives priority to links with the East Coast Dedicated Freight Corridor and the North–South Dedicated Freight Corridor.",
+   "ty": "fact",
+   "tq": "Identify the exact pair of freight corridors named in the policy.",
+   "sec": "Railways in AP - new zone, new lines, freight corridors"
+  },
+  {
+   "s": "Which railway work was stated to have been cleared?",
+   "o": [
+    "Errupalem–Nambur four-laning",
+    "Ballari–Guntakal multi-tracking",
+    "Guntur–Kakinada metro corridor",
+    "Visakhapatnam–Tirupati airport line"
+   ],
+   "a": 1,
+   "x": "Ballari–Guntakal multi-tracking was stated to have been cleared.",
+   "ty": "fact",
+   "tq": "Direct recall of the specific cleared railway work.",
+   "sec": "Railways in AP - new zone, new lines, freight corridors"
+  },
+  {
+   "s": "The Andhra Pradesh Maritime Policy 2024–29 aims to make Andhra Pradesh:",
+   "o": [
+    "India's leading maritime gateway",
+    "India's sole international airport hub",
+    "India's largest inland-waterway State",
+    "India's largest railway zone"
+   ],
+   "a": 0,
+   "x": "The Andhra Pradesh Maritime Policy 2024–29 aims to make Andhra Pradesh India's leading maritime gateway.",
+   "ty": "fact",
+   "tq": "Identify the stated objective of a policy from its precise wording.",
+   "sec": "Maritime Policy and AP Maritime Board - port-led targets"
+  },
+  {
+   "s": "The special purpose vehicle NSHIP-AP Ltd was formed in:",
+   "o": [
+    "2024",
+    "2025",
+    "2026",
+    "2029"
+   ],
+   "a": 2,
+   "x": "NSHIP-AP Ltd was formed in 2026 as the special purpose vehicle associated with the maritime policy initiatives.",
+   "ty": "fact",
+   "tq": "Direct year-based recall of an institutional formation.",
+   "sec": "Maritime Policy and AP Maritime Board - port-led targets"
+  },
+  {
+   "s": "Under the Andhra Pradesh Maritime Policy 2024–29, the target for the global ranking of at least one port is:",
+   "o": [
+    "Among the world's top 5 ports",
+    "Among the world's top 50 ports",
+    "Among the world's top 20 ports",
+    "Among the world's top 10 ports"
+   ],
+   "a": 2,
+   "x": "The policy targets at least one Andhra Pradesh port being placed among the world's top 20 ports.",
+   "ty": "numerical",
+   "tq": "Select the exact ranking threshold from closely spaced alternatives.",
+   "sec": "Maritime Policy and AP Maritime Board - port-led targets"
+  },
+  {
+   "s": "Which target is correctly matched under the Andhra Pradesh Maritime Policy 2024–29?",
+   "o": [
+    "Professional training — 5,000 persons by 2035",
+    "Port cargo share — 20% of all-India port cargo by 2047",
+    "Turnaround time — under 30 hours",
+    "Port utilisation — 25% by 2030"
+   ],
+   "a": 1,
+   "x": "The policy targets a 20% share of all-India port cargo by 2047. It also targets 5,000 professionals by 2028, 75% utilisation by 2030 and turnaround time under 15 hours.",
+   "ty": "comparison",
+   "tq": "Match the target with both its correct value and deadline.",
+   "sec": "Maritime Policy and AP Maritime Board - port-led targets"
+  },
+  {
+   "s": "The shipbuilding target of the Andhra Pradesh Maritime Policy is:",
+   "o": [
+    "20% of the national target by 2047",
+    "10% of the national target by 2030",
+    "50% of the national target by 2035",
+    "25% of the national target by 2047"
+   ],
+   "a": 3,
+   "x": "The policy targets 25% of the national shipbuilding target by 2047, described in connection with the Global Shipyard objective.",
+   "ty": "numerical",
+   "tq": "Preserve the target percentage and its long-term deadline together.",
+   "sec": "Maritime Policy and AP Maritime Board - port-led targets"
+  },
+  {
+   "s": "By 2028, the Andhra Pradesh Maritime Policy seeks to train:",
+   "o": [
+    "15,000 professionals",
+    "5,000 professionals",
+    "500 professionals",
+    "50,000 professionals"
+   ],
+   "a": 1,
+   "x": "The skills target under the policy is to train 5,000 professionals by 2028.",
+   "ty": "numerical",
+   "tq": "Direct quantitative recall of a sectoral skills target.",
+   "sec": "Maritime Policy and AP Maritime Board - port-led targets"
+  },
+  {
+   "s": "Which of the following correctly represents the phased cargo-capacity targets under the maritime initiatives of Andhra Pradesh?",
+   "o": [
+    "75 MTPA by 2030 and 145 MTPA by 2047",
+    "145 MTPA by 2028 and 500 MTPA by 2035",
+    "300 MTPA by 2030 and 145 MTPA by 2047",
+    "145 MTPA by 2030 and 300 MTPA by 2047"
+   ],
+   "a": 3,
+   "x": "The targets are an additional 145 MTPA by 2030 in Phase I and 300 MTPA by 2047 in Phase II.",
+   "ty": "numerical",
+   "tq": "Arrange each capacity figure with its correct phase and year.",
+   "sec": "Maritime Policy and AP Maritime Board - port-led targets"
+  },
+  {
+   "s": "The Blue Economy target associated with Andhra Pradesh's maritime initiatives is US$20 billion by:",
+   "o": [
+    "2029",
+    "2030",
+    "2035",
+    "2047"
+   ],
+   "a": 2,
+   "x": "The Blue Economy target is US$20 billion by 2035.",
+   "ty": "fact",
+   "tq": "Match the economic target with its stated year.",
+   "sec": "Maritime Policy and AP Maritime Board - port-led targets"
+  },
+  {
+   "s": "The Andhra Pradesh Industrial Development Corporation (APIDC) was set up in:",
+   "o": [
+    "1956",
+    "1960",
+    "1973",
+    "1991"
+   ],
+   "a": 1,
+   "x": "APIDC was set up in 1960 and is associated with industrial financing and promotion.",
+   "ty": "fact",
+   "tq": "Direct incorporation-year recall while distinguishing APIDC from APIIC.",
+   "sec": "APIIC and APIDC - incorporation, parks, land bank"
+  },
+  {
+   "s": "Which one of the following correctly describes the role of APIDC?",
+   "o": [
+    "Industrial financing and promotion",
+    "Management of non-major ports",
+    "Construction of National Highways",
+    "Airport traffic regulation and air navigation"
+   ],
+   "a": 0,
+   "x": "The Andhra Pradesh Industrial Development Corporation is associated with industrial financing and promotion.",
+   "ty": "fact",
+   "tq": "Match an institution with its core role rather than a related infrastructure function.",
+   "sec": "APIIC and APIDC - incorporation, parks, land bank"
+  },
+  {
+   "s": "APIIC was incorporated on:",
+   "o": [
+    "1 January 1991",
+    "26 September 2024",
+    "1 June 1960",
+    "26 September 1973"
+   ],
+   "a": 3,
+   "x": "The Andhra Pradesh Industrial Infrastructure Corporation was incorporated on 26 September 1973.",
+   "ty": "fact",
+   "tq": "Distinguish the exact incorporation date from the establishment year of APIDC.",
+   "sec": "APIIC and APIDC - incorporation, parks, land bank"
+  },
+  {
+   "s": "Consider the following statements about APIIC:\n1. It is wholly State-owned.\n2. It is associated with industrial parks, estates, SEZs, EMCs and a land bank.\n3. It performs industrial financing and promotion as its principal role instead of APIDC.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Industrial financing and promotion are associated with APIDC, whereas APIIC focuses on industrial infrastructure and land development.",
+   "ty": "statements",
+   "tq": "Separate the roles of two similarly named industrial corporations.",
+   "sec": "APIIC and APIDC - incorporation, parks, land bank"
+  },
+  {
+   "s": "According to the stated 2025–26 figures, APIIC had how many parks and estates respectively?",
+   "o": [
+    "571 parks and 22 estates",
+    "331 parks and 304 estates",
+    "304 parks and 331 estates",
+    "331 parks and 635 estates"
+   ],
+   "a": 1,
+   "x": "APIIC was stated to have 331 parks and 304 estates in 2025–26.",
+   "ty": "numerical",
+   "tq": "Preserve the order of paired statistics instead of reversing the two categories.",
+   "sec": "APIIC and APIDC - incorporation, parks, land bank"
+  },
+  {
+   "s": "The 331 parks and 304 estates of APIIC were stated to constitute how many clusters?",
+   "o": [
+    "331",
+    "571",
+    "635",
+    "1,210"
+   ],
+   "a": 2,
+   "x": "The figures were presented as 331 UDLs and 635 clusters, with the 331 parks and 304 estates forming the stated industrial infrastructure network.",
+   "ty": "numerical",
+   "tq": "Distinguish a component count from the aggregate cluster count.",
+   "sec": "APIIC and APIDC - incorporation, parks, land bank"
+  },
+  {
+   "s": "Which of the following is correctly matched with the stated APIIC figure for 2025–26?",
+   "o": [
+    "Joint ventures — 331",
+    "Land bank — approximately 1.21 lakh acres",
+    "Developed area — approximately 1.21 lakh acres",
+    "Land bank — 635 acres"
+   ],
+   "a": 2,
+   "x": "APIIC had developed approximately 1.21 lakh acres. Its land bank was 41,998 acres and it had 25 joint ventures.",
+   "ty": "comparison",
+   "tq": "Match each statistic with the correct category rather than a nearby figure.",
+   "sec": "APIIC and APIDC - incorporation, parks, land bank"
+  },
+  {
+   "s": "APIIC's land bank was stated to comprise:",
+   "o": [
+    "1.21 lakh acres",
+    "25 acres",
+    "5,000 acres",
+    "41,998 acres"
+   ],
+   "a": 3,
+   "x": "APIIC's land bank was stated to be 41,998 acres. The larger figure of approximately 1.21 lakh acres referred to developed area.",
+   "ty": "numerical",
+   "tq": "Separate land-bank area from total developed area.",
+   "sec": "APIIC and APIDC - incorporation, parks, land bank"
+  },
+  {
+   "s": "After 1991, APIIC changed its orientation from:",
+   "o": [
+    "Financier to regulator",
+    "Manufacturer to facilitator",
+    "Port operator to airport operator",
+    "Facilitator to manufacturer"
+   ],
+   "a": 1,
+   "x": "After 1991, APIIC changed from a manufacturer-oriented role to that of a facilitator.",
+   "ty": "confusable",
+   "tq": "Test the direction of institutional change by contrasting the two paired terms.",
+   "sec": "APIIC and APIDC - incorporation, parks, land bank"
+  },
+  {
+   "s": "Which authority can allot up to 50 acres without Cabinet approval, according to the stated arrangement?",
+   "o": [
+    "AP Maritime Board",
+    "South Coast Railway",
+    "APIDC",
+    "APIIC"
+   ],
+   "a": 3,
+   "x": "APIIC can allot up to 50 acres without Cabinet approval under the stated arrangement.",
+   "ty": "application",
+   "tq": "Use the authority-function method: identify which body has the land-allotment power.",
+   "sec": "APIIC and APIDC - incorporation, parks, land bank"
+  },
+  {
+   "s": "APIIC is the nodal agency for the Centre's:",
+   "o": [
+    "Sagarmala ports",
+    "Dedicated Freight Corridors",
+    "Bharatmala expressways",
+    "BHAVYA parks"
+   ],
+   "a": 3,
+   "x": "APIIC was identified as the nodal agency for the Centre's BHAVYA parks.",
+   "ty": "fact",
+   "tq": "Match the nodal agency with the correct programme, avoiding neighbouring infrastructure schemes.",
+   "sec": "APIIC and APIDC - incorporation, parks, land bank"
+  }
+ ]
+}
