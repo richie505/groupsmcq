@@ -263,7 +263,7 @@ def call_model(model, key, system, user):
             return content, data.get("usage", {})
         except urllib.error.HTTPError as e:
             msg = e.read().decode(errors="replace")[:300]
-            if e.code in (400, 401, 403, 404):
+            if e.code in (400, 401, 403, 404) or "insufficient_quota" in msg:
                 raise RuntimeError(f"OpenAI HTTP {e.code}: {msg}")
             last = f"HTTP {e.code}: {msg}"
             wait = min(90, 2 ** attempt * (5 if e.code == 429 else 2))
@@ -479,8 +479,8 @@ def main():
             except Exception as e:  # noqa: BLE001 - one chunk failing must not stop the run
                 totals["failed"] += 1
                 log(f"[{n}/{len(jobs)}] b{b} r{ri} c{ci} FAILED: {e}")
-                if "HTTP 401" in str(e) or "HTTP 403" in str(e):
-                    log("The API key was refused; stopping.")
+                if "HTTP 401" in str(e) or "HTTP 403" in str(e) or "insufficient_quota" in str(e):
+                    log("The API key was refused or the account is out of credits; stopping.")
                     pool.shutdown(cancel_futures=True)
                     break
 
