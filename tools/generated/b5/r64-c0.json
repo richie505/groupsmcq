@@ -1,0 +1,501 @@
+{
+ "book": 5,
+ "row": 64,
+ "chunk": 0,
+ "section": "Renewable energy sources and installed capacities in India - overall targets",
+ "subsections": [
+  "Renewable vs non-conventional - sources that count, sources not derived from the Sun",
+  "Renewable capacity and potential → source-wise share",
+  "Cumulative solar and wind installed milestones",
+  "IREDA - category, ministry, functions, listing",
+  "Capacity targets - earlier and current, achievement status",
+  "Rankings - India and top states",
+  "Renewable Purchase Obligation and Renewable Consumption Obligation",
+  "Green Energy Corridors - phases, intra and inter-state"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 2,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is a renewable source of energy?",
+   "o": [
+    "Nuclear fuel",
+    "Coal",
+    "Natural gas",
+    "Geothermal energy"
+   ],
+   "a": 3,
+   "x": "Geothermal energy is naturally replenished through the Earth's internal heat and is classified as renewable. Coal, natural gas and nuclear fuel are finite on a human timescale.",
+   "ty": "fact",
+   "tq": "Classify the source by whether it is naturally replenished or finite.",
+   "sec": "Renewable vs non-conventional - sources that count, sources not derived from the Sun  [APPSC]"
+  },
+  {
+   "s": "For India, which of the following is regarded as the most important non-conventional source of energy?",
+   "o": [
+    "Solar energy",
+    "Geothermal energy",
+    "Biomass energy",
+    "Tidal energy"
+   ],
+   "a": 0,
+   "x": "Solar energy is regarded as the most important non-conventional source of energy for India.",
+   "ty": "fact",
+   "tq": "Direct recall of the leading source in the national context.",
+   "sec": "Renewable vs non-conventional - sources that count, sources not derived from the Sun  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with the principal origin of its energy?",
+   "o": [
+    "Tidal energy — gravitational pull of the Moon",
+    "Geothermal energy — photosynthesis",
+    "Nuclear energy — movement of atmospheric air",
+    "Wind energy — fission of heavy nuclei"
+   ],
+   "a": 0,
+   "x": "Tidal energy is produced primarily by the gravitational pull of the Moon. Geothermal energy comes from Earth's internal heat, nuclear energy from fission of heavy nuclei, and wind energy is ultimately linked mainly to solar heating.",
+   "ty": "match",
+   "tq": "Match each energy source with its immediate physical origin.",
+   "sec": "Renewable vs non-conventional - sources that count, sources not derived from the Sun  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding India's renewable-energy capacity:\n1. Wind capacity was 58.14 GW in August 2026.\n2. Large-hydro capacity was 51.96 GW according to CDI 2026.\n3. Bio-power capacity was 11.75 GW in August 2026.\n4. Small-hydro capacity was 5.18 GW.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly state the listed capacities: wind 58.14 GW, large hydro 51.96 GW, bio-power 11.75 GW and small hydro 5.18 GW.",
+   "ty": "statements",
+   "tq": "Check each numerical statement independently before using the combination option.",
+   "sec": "Renewable capacity and potential → source-wise share  [APPSC]"
+  },
+  {
+   "s": "The 11.75 GW bio-power capacity comprises which of the following components?",
+   "o": [
+    "Biomass and bagasse 10.87 GW plus waste-to-energy 0.88 GW",
+    "Biomass and bagasse 11.25 GW plus waste-to-energy 0.50 GW",
+    "Biomass and bagasse 10.25 GW plus waste-to-energy 1.50 GW",
+    "Biomass and bagasse 9.87 GW plus waste-to-energy 1.88 GW"
+   ],
+   "a": 0,
+   "x": "Bio-power consists of 10.87 GW from biomass and bagasse and 0.88 GW from waste-to-energy, totalling 11.75 GW.",
+   "ty": "numerical",
+   "tq": "Split the aggregate figure into its stated components.",
+   "sec": "Renewable capacity and potential → source-wise share  [APPSC]"
+  },
+  {
+   "s": "Approximately what proportion of India's 21 GW small-hydro potential had been utilised?",
+   "o": [
+    "14.6%",
+    "24.6%",
+    "34.6%",
+    "44.6%"
+   ],
+   "a": 1,
+   "x": "Small-hydro capacity was 5.18 GW against a potential of 21 GW, representing approximately 24.6% utilisation.",
+   "ty": "numerical",
+   "tq": "Relate the installed capacity to the stated potential rather than the total renewable capacity.",
+   "sec": "Renewable capacity and potential → source-wise share  [APPSC]"
+  },
+  {
+   "s": "Which one of the following statements is correct regarding India's energy-capacity profile as stated for 2026?",
+   "o": [
+    "Nuclear capacity was 8.78 GW and formed about 1.6–1.7% of total capacity.",
+    "Non-fossil capacity was below 40% of total installed capacity.",
+    "Solar capacity was below 100 GW in August 2026.",
+    "Coal formed over 54% of total installed capacity."
+   ],
+   "a": 0,
+   "x": "Nuclear capacity was 8.78 GW, accounting for about 1.6–1.7% of capacity. Non-fossil sources exceeded 54%, coal was about 42%, and solar reached 164.59 GW.",
+   "ty": "comparison",
+   "tq": "Use percentage and magnitude comparisons to reject reversed or understated claims.",
+   "sec": "Renewable capacity and potential → source-wise share  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes India's solar-energy potential and its utilisation?",
+   "o": [
+    "748 GW potential, of which about 54.5% had been utilised",
+    "748 GW potential, of which about 24.5% had been utilised",
+    "748 GW potential, of which about 4.5% had been utilised",
+    "248 GW potential, of which about 4.5% had been utilised"
+   ],
+   "a": 2,
+   "x": "India's solar potential was estimated at 748 GW, while only about 4.5% had been utilised.",
+   "ty": "numerical",
+   "tq": "Keep the potential figure separate from the percentage already utilised.",
+   "sec": "Renewable capacity and potential → source-wise share  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the order of the leading states in renewable-energy potential as listed?",
+   "o": [
+    "Rajasthan, Maharashtra, Gujarat, Andhra Pradesh, Karnataka, Madhya Pradesh",
+    "Gujarat, Rajasthan, Andhra Pradesh, Maharashtra, Madhya Pradesh, Karnataka",
+    "Rajasthan, Gujarat, Maharashtra, Karnataka, Andhra Pradesh, Madhya Pradesh",
+    "Maharashtra, Rajasthan, Gujarat, Andhra Pradesh, Madhya Pradesh, Karnataka"
+   ],
+   "a": 0,
+   "x": "The listed leading states are Rajasthan, Maharashtra, Gujarat, Andhra Pradesh, Karnataka and Madhya Pradesh. Rajasthan accounts for 23.70% and Andhra Pradesh for 9.10% of the stated potential ranking data.",
+   "ty": "chronology",
+   "tq": "Preserve the exact sequence in a ranked list and watch for adjacent swaps.",
+   "sec": "Renewable capacity and potential → source-wise share  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with cumulative installed capacity in 2014?",
+   "o": [
+    "Solar — 21 GW; Wind — 2.8 GW",
+    "Solar — 2.8 GW; Wind — 21 GW",
+    "Solar — 63.30 GW; Wind — 21 GW",
+    "Solar — 2.8 GW; Wind — 58.14 GW"
+   ],
+   "a": 1,
+   "x": "In 2014, cumulative solar capacity was 2.8 GW and wind capacity was 21 GW. Wind was then the largest renewable source.",
+   "ty": "match",
+   "tq": "Anchor the comparison to the historical base year before judging later milestones.",
+   "sec": "Cumulative solar and wind installed milestones  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly gives India's cumulative solar capacity on 31 December 2022?",
+   "o": [
+    "150.26 GW",
+    "127.33 GW",
+    "53.12 GW",
+    "63.30 GW"
+   ],
+   "a": 3,
+   "x": "Cumulative solar capacity stood at 63.30 GW on 31 December 2022.",
+   "ty": "numerical",
+   "tq": "Distinguish the dated milestone from the later 2025 and 2026 figures.",
+   "sec": "Cumulative solar and wind installed milestones  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding solar and wind milestones:\n1. Wind capacity crossed 50 GW in March 2025.\n2. Solar capacity was 150.26 GW on 31 March 2026.\n3. Wind capacity was 56.09 GW on 31 March 2026.\n4. Solar capacity was 164.59 GW in August 2026.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct milestones. Wind crossed 50 GW in March 2025, and the stated solar and wind capacities were reached by 31 March and August 2026 respectively.",
+   "ty": "statements",
+   "tq": "Match each capacity with its date; do not substitute a nearby milestone.",
+   "sec": "Cumulative solar and wind installed milestones  [APPSC]"
+  },
+  {
+   "s": "Arrange the following solar-capacity milestones in chronological order:\nA. 63.30 GW\nB. 127.33 GW\nC. 150.26 GW\nD. 164.59 GW",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "Solar capacity was 63.30 GW on 31 December 2022, 127.33 GW in October 2025, 150.26 GW on 31 March 2026 and 164.59 GW in August 2026.",
+   "ty": "chronology",
+   "tq": "Identify the dates first and then arrange the capacity values in time order.",
+   "sec": "Cumulative solar and wind installed milestones  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the renewable-energy additions reported for 2025?",
+   "o": [
+    "About 44.6 GW in total, including 38 GW solar and 6.05 GW wind",
+    "About 38 GW in total, including 6.3 GW solar and 6.05 GW wind",
+    "About 48 GW in total, including 44.6 GW solar and 6.3 GW wind",
+    "About 48 GW in total, including 38 GW solar and 6.3 GW wind"
+   ],
+   "a": 3,
+   "x": "In 2025, about 48 GW of renewable capacity was added, comprising approximately 38 GW solar and 6.3 GW wind.",
+   "ty": "numerical",
+   "tq": "Separate calendar-year additions from financial-year additions.",
+   "sec": "Cumulative solar and wind installed milestones  [APPSC]"
+  },
+  {
+   "s": "For FY 2025–26, the record additions were approximately:",
+   "o": [
+    "48 GW solar and 6.3 GW wind",
+    "44.6 GW wind and 6.05 GW solar",
+    "38 GW solar and 6.3 GW wind",
+    "44.6 GW solar and 6.05 GW wind"
+   ],
+   "a": 3,
+   "x": "During FY 2025–26, record additions of 44.6 GW solar and 6.05 GW wind were reported.",
+   "ty": "numerical",
+   "tq": "Read the time label carefully to distinguish FY data from calendar-year data.",
+   "sec": "Cumulative solar and wind installed milestones  [APPSC]"
+  },
+  {
+   "s": "The Indian Renewable Energy Development Agency Limited (IREDA) is best described as:",
+   "o": [
+    "A commercial bank under the Ministry of Finance",
+    "An NBFC under the administrative control of the Ministry of New and Renewable Energy",
+    "A statutory regulator under the Ministry of Power",
+    "A non-governmental organisation under the Ministry of Environment, Forest and Climate Change"
+   ],
+   "a": 1,
+   "x": "IREDA is an NBFC under the administrative control of the Ministry of New and Renewable Energy (MNRE).",
+   "ty": "fact",
+   "tq": "Identify the institution by both its category and controlling ministry.",
+   "sec": "IREDA - category, ministry, functions, listing  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT a function of IREDA?",
+   "o": [
+    "Consultancy for renewable-energy projects",
+    "Determining statutory electricity tariffs for all States",
+    "Appraisal of renewable-energy projects",
+    "Providing term, bridge and working-capital loans"
+   ],
+   "a": 1,
+   "x": "IREDA undertakes project financing, appraisal, consultancy and provides term, bridge and working-capital loans. Determination of statutory tariffs for all States is not its function.",
+   "ty": "negative",
+   "tq": "Find the activity that belongs to a regulator rather than a project-financing agency.",
+   "sec": "IREDA - category, ministry, functions, listing  [APPSC]"
+  },
+  {
+   "s": "IREDA raises funds from which of the following sources?\n1. Government sources\n2. Multilateral agencies\n3. Capital market\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "IREDA raises funds from the Government, multilateral agencies and the capital market. Therefore, all three statements are correct.",
+   "ty": "statements",
+   "tq": "Use the complete-source combination when all listed funding channels are supported.",
+   "sec": "IREDA - category, ministry, functions, listing  [APPSC]"
+  },
+  {
+   "s": "IREDA was set up in 1987 and was listed on stock exchanges through an IPO in:",
+   "o": [
+    "November 2023",
+    "November 2022",
+    "November 2024",
+    "November 2021"
+   ],
+   "a": 0,
+   "x": "IREDA was established in 1987 and entered the stock exchanges through an initial public offering in November 2023.",
+   "ty": "numerical",
+   "tq": "Pair the establishment year with the later listing year.",
+   "sec": "IREDA - category, ministry, functions, listing  [APPSC]"
+  },
+  {
+   "s": "The original target of 175 GW renewable-energy capacity by 2022 consisted of which combination?",
+   "o": [
+    "75 GW solar, 60 GW wind, 30 GW bio-power and 10 GW small hydro",
+    "60 GW solar, 100 GW wind, 10 GW bio-power and 5 GW small hydro",
+    "100 GW solar, 50 GW wind, 20 GW bio-power and 5 GW small hydro",
+    "100 GW solar, 60 GW wind, 10 GW bio-power and 5 GW small hydro"
+   ],
+   "a": 3,
+   "x": "The 175 GW target comprised 100 GW solar, 60 GW wind, 10 GW bio-power and 5 GW small hydro. The target was not achieved on time and was later superseded.",
+   "ty": "numerical",
+   "tq": "Break the aggregate target into its source-wise components.",
+   "sec": "Capacity targets - earlier and current, achievement status"
+  },
+  {
+   "s": "Consider the following statements regarding India's non-fossil capacity targets:\n1. The 2015 NDC set a target of 40% non-fossil capacity by 2030.\n2. The updated NDC and COP26 Panchamrit raised the target to 50% by 2030.\n3. The 50% target was achieved in June 2025, five years ahead of schedule.\n4. Non-fossil capacity stood at 51.93% in December 2025.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct: the 2015 target was 40%, the updated target was 50%, it was achieved in June 2025, and the December 2025 level was 51.93%.",
+   "ty": "statements",
+   "tq": "Track the progression from the original target to the revised target and achievement.",
+   "sec": "Capacity targets - earlier and current, achievement status"
+  },
+  {
+   "s": "Which one of the following pairs correctly states India's 2030 and 2070 energy commitments?",
+   "o": [
+    "500 GW renewable capacity by 2030 and Net Zero by 2050",
+    "300 GW non-fossil capacity by 2030 and Net Zero by 2070",
+    "500 GW non-fossil capacity by 2030 and Net Zero by 2060",
+    "500 GW non-fossil capacity by 2030 and Net Zero by 2070"
+   ],
+   "a": 3,
+   "x": "India's stated commitments include 500 GW of non-fossil capacity by 2030 and achieving Net Zero by 2070.",
+   "ty": "comparison",
+   "tq": "Separate the capacity milestone from the long-term emissions target.",
+   "sec": "Capacity targets - earlier and current, achievement status"
+  },
+  {
+   "s": "The approximately 500 GW non-fossil capacity target for 2030 includes about how much solar capacity, and what level had been reached in 2026?",
+   "o": [
+    "175 GW solar; approximately 250 GW non-fossil capacity",
+    "300 GW solar; approximately 292 GW non-fossil capacity",
+    "292 GW solar; approximately 300 GW non-fossil capacity",
+    "250 GW solar; approximately 200 GW non-fossil capacity"
+   ],
+   "a": 2,
+   "x": "The 2030 target includes approximately 292 GW of solar capacity, and around 300 GW of non-fossil capacity had been reached in 2026.",
+   "ty": "numerical",
+   "tq": "Keep the solar sub-target distinct from the aggregate non-fossil target achieved.",
+   "sec": "Capacity targets - earlier and current, achievement status"
+  },
+  {
+   "s": "According to IRENA 2026 rankings, India stood at which position globally in renewable-energy capacity?",
+   "o": [
+    "First",
+    "Second",
+    "Third",
+    "Fourth"
+   ],
+   "a": 2,
+   "x": "India ranked third in renewable-energy capacity after China and the United States. The stated capacities were China 2,258 GW, the USA 468 GW and India 250.5 GW.",
+   "ty": "fact",
+   "tq": "Rank the countries using the capacity figures rather than the order of mention alone.",
+   "sec": "Rankings - India and top states"
+  },
+  {
+   "s": "Which State was the leading renewable-energy State, with 42.58 GW and 16.5% of India's renewable capacity in June 2026?",
+   "o": [
+    "Andhra Pradesh",
+    "Gujarat",
+    "Maharashtra",
+    "Rajasthan"
+   ],
+   "a": 1,
+   "x": "Gujarat was the leading renewable-energy State in June 2026, with 42.58 GW and 16.5% of India's renewable capacity.",
+   "ty": "numerical",
+   "tq": "Link the State ranking to both its capacity and percentage figures.",
+   "sec": "Rankings - India and top states"
+  },
+  {
+   "s": "Renewable Purchase Obligation (RPO) requires which entities to purchase a prescribed share of electricity from renewable sources?",
+   "o": [
+    "Only household consumers",
+    "Only State electricity regulatory commissions",
+    "Only renewable-energy generators",
+    "DISCOMs and large or designated consumers"
+   ],
+   "a": 3,
+   "x": "RPO requires DISCOMs and large or designated consumers to procure a prescribed share of their power from renewable sources.",
+   "ty": "application",
+   "tq": "Identify the obligated party rather than the agency that regulates the obligation.",
+   "sec": "Renewable Purchase Obligation and Renewable Consumption Obligation"
+  },
+  {
+   "s": "The Solar Renewable Purchase Obligation was raised to what level by March 2022?",
+   "o": [
+    "5%",
+    "6%",
+    "8%",
+    "10%"
+   ],
+   "a": 2,
+   "x": "The Solar RPO trajectory raised the solar obligation to 8% by March 2022.",
+   "ty": "numerical",
+   "tq": "Recall the specific percentage and date attached to the Solar RPO trajectory.",
+   "sec": "Renewable Purchase Obligation and Renewable Consumption Obligation"
+  },
+  {
+   "s": "What is the principal distinction between RPO and RCO?",
+   "o": [
+    "RPO applies only to households, whereas RCO applies only to generators.",
+    "RPO concerns nuclear power, whereas RCO concerns coal consumption.",
+    "RPO is a tax, whereas RCO is a capital subsidy.",
+    "RPO concerns renewable purchase, whereas RCO recasts it as an obligation to consume renewable energy."
+   ],
+   "a": 3,
+   "x": "RPO requires procurement of renewable power, while RCO recasts the obligation as consumption of renewable energy under the Energy Conservation (Amendment) Act, 2022.",
+   "ty": "confusable",
+   "tq": "Discriminate between the paired terms by focusing on purchase versus consumption.",
+   "sec": "Renewable Purchase Obligation and Renewable Consumption Obligation"
+  },
+  {
+   "s": "Arrange the following events connected with the Green Energy Corridors in chronological order:\nA. PGCIL study on evacuation gaps near renewable-energy sites\nB. Green Energy Corridor report\nC. Commencement of implementation\nD. Approval of Intra-State GEC-II",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "D, C, B, A"
+   ],
+   "a": 0,
+   "x": "The PGCIL study was conducted in 2012, the GEC report was issued in September 2012, implementation began in 2015, and Intra-State GEC-II was approved in 2022.",
+   "ty": "chronology",
+   "tq": "Use the stated years to establish the first three stages before placing the 2022 approval.",
+   "sec": "Green Energy Corridors - phases, intra and inter-state"
+  },
+  {
+   "s": "Which of the following correctly describes Intra-State Green Energy Corridor-I?",
+   "o": [
+    "It covered 8 States, about 9,700 ckm of lines, 22,600 MVA substations and about 24 GW renewable capacity.",
+    "It covered 7 States, about 20,000 ckm of lines and 50 GW renewable capacity.",
+    "It covered 9 States, about 9,700 ckm of lines and 20 GW renewable capacity.",
+    "It covered 8 States, about 20,000 ckm of lines and 24 GW renewable capacity."
+   ],
+   "a": 0,
+   "x": "GEC-I covered eight States and involved about 9,700 ckm of transmission lines, 22,600 MVA of substations and approximately 24 GW of renewable-energy integration.",
+   "ty": "numerical",
+   "tq": "Check the phase-specific figures together instead of mixing GEC-I and GEC-II data.",
+   "sec": "Green Energy Corridors - phases, intra and inter-state"
+  },
+  {
+   "s": "Which of the following States was NOT included among the eight States covered by Intra-State GEC-I?",
+   "o": [
+    "Telangana",
+    "Andhra Pradesh",
+    "Tamil Nadu",
+    "Gujarat"
+   ],
+   "a": 0,
+   "x": "GEC-I included Andhra Pradesh, Gujarat, Himachal Pradesh, Karnataka, Madhya Pradesh, Maharashtra, Rajasthan and Tamil Nadu. Telangana was not included in the listed eight-State group.",
+   "ty": "negative",
+   "tq": "Find the outsider by comparing each option with the complete membership list.",
+   "sec": "Green Energy Corridors - phases, intra and inter-state"
+  },
+  {
+   "s": "The financing pattern for Intra-State GEC-I was:",
+   "o": [
+    "MNRE 50%, KfW loan 25% and State utility 25%",
+    "MNRE 20%, KfW loan 40% and State utility 40%",
+    "MNRE 40%, KfW loan 20% and State utility 40%",
+    "MNRE 40%, KfW loan 40% and State utility 20%"
+   ],
+   "a": 3,
+   "x": "The cost-sharing pattern was MNRE 40%, KfW of Germany loan 40% and State utility contribution 20%.",
+   "ty": "numerical",
+   "tq": "Match each percentage with the correct financing institution or agency.",
+   "sec": "Green Energy Corridors - phases, intra and inter-state"
+  },
+  {
+   "s": "Which one of the following statements regarding Intra-State GEC-II is correct?",
+   "o": [
+    "It was approved in 2022 for eight States and about 24 GW of renewable energy.",
+    "It was approved in 2015 for eight States and 24 GW of renewable energy.",
+    "It was approved in 2025 for seven States and about 50 GW of renewable energy.",
+    "It was approved in 2022 for seven States and about 20 GW of renewable energy."
+   ],
+   "a": 3,
+   "x": "Intra-State GEC-II was approved in 2022 for seven States and was designed to support about 20 GW of renewable energy.",
+   "ty": "fact",
+   "tq": "Discriminate the second phase using its approval year, State count and capacity.",
+   "sec": "Green Energy Corridors - phases, intra and inter-state"
+  },
+  {
+   "s": "Inter-State Green Energy Corridor lines are built by which agency, and what is their principal purpose?",
+   "o": [
+    "MNRE; transporting coal from mines to power stations",
+    "IREDA; supplying renewable energy only to rural households",
+    "KfW; connecting only intra-State distribution networks",
+    "PGCIL; evacuating renewable energy from renewable-rich zones to load centres"
+   ],
+   "a": 3,
+   "x": "Inter-State GEC lines are built by Power Grid Corporation of India Limited (PGCIL) to evacuate renewable energy from renewable-rich zones to load centres.",
+   "ty": "application",
+   "tq": "Ask who performs the infrastructure function and where the power is moved.",
+   "sec": "Green Energy Corridors - phases, intra and inter-state"
+  }
+ ]
+}

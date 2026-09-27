@@ -1,0 +1,159 @@
+{
+ "book": 5,
+ "row": 40,
+ "chunk": 1,
+ "section": "Recent Indian satellite launches and their applications",
+ "subsections": [
+  "Satellite → application domain",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 10,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below the lists:\n\nList-I (Satellite group)\na. INSAT-3DS and Kalpana-1\na. Oceansat series\nc. RISAT, Cartosat, EMISAT and EOS-N1\nd. GSAT-19, GSAT-29, GSAT-11 and GSAT-N2\n\nList-II (Application domain)\ni. Broadband\n ii. Weather monitoring\n iii. Strategic surveillance\n iv. Ocean studies\n\nCodes:\na–ii, b–iv, c–iii, d–i\n a–iv, b–ii, c–i, d–iii\n a–ii, b–iii, c–iv, d–i\n a–iii, b–iv, c–ii, d–i",
+   "o": [
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–ii, c–i, d–iii",
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iii, b–iv, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "INSAT-3DS and Kalpana-1 are weather satellites; Oceansat serves ocean studies; RISAT, Cartosat, EMISAT and EOS-N1 are associated with strategic surveillance; and the GSAT satellites listed provide broadband services.",
+   "ty": "match",
+   "tq": "Start from the sure pair and eliminate codes with reversed application domains.",
+   "sec": "Satellite → application domain"
+  },
+  {
+   "s": "Which one of the following statements regarding Indian satellites used for military communication is correct?",
+   "o": [
+    "GSAT-7, GSAT-7A and GSAT-7B are all operational satellites exclusively used by the Navy.",
+    "GSAT-7 is associated with the Navy, GSAT-7A with the IAF, and GSAT-7B has been proposed for the Army.",
+    "GSAT-7 is a broadband satellite, GSAT-7A is an ocean satellite, and GSAT-7B is a weather satellite.",
+    "GSAT-7 is associated with the IAF, GSAT-7A with the Army, and GSAT-7B is used by the Navy."
+   ],
+   "a": 1,
+   "x": "GSAT-7 serves the Navy, GSAT-7A, known as the ‘Angry Bird’, serves the IAF, and GSAT-7B has been proposed for the Army.",
+   "ty": "fact",
+   "tq": "Use the service-wise association and reject swapped users or unsupported operational status.",
+   "sec": "Satellite → application domain"
+  },
+  {
+   "s": "Kalpana-1 is best described as which one of the following?",
+   "o": [
+    "India’s first exclusive oceanographic satellite, launched by GSLV in 2002",
+    "India’s first navigation satellite, launched by PSLV in 2005",
+    "India’s first military communication satellite, launched by GSLV in 2005",
+    "India’s first exclusive meteorological satellite, launched by PSLV in 2002"
+   ],
+   "a": 3,
+   "x": "Kalpana-1 was India’s first exclusive meteorological satellite and was launched by PSLV in 2002.",
+   "ty": "numerical",
+   "tq": "Split the option into mission purpose, launch vehicle and year before selecting the exact combination.",
+   "sec": "Satellite → application domain"
+  },
+  {
+   "s": "Consider the following statements:\n1. NVS and NavIC are associated with navigation.\n2. XPoSat and Aditya-L1 are associated with scientific studies.\n3. Oceansat satellites are primarily military communication satellites.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "NVS/NavIC are navigation systems, while XPoSat and Aditya-L1 are science missions. Statement 3 is false because Oceansat belongs to the ocean-study domain.",
+   "ty": "statements",
+   "tq": "Find the single domain mismatch and use the coded options to eliminate it.",
+   "sec": "Satellite → application domain"
+  },
+  {
+   "s": "GSAT-7A is popularly known by which one of the following names?",
+   "o": [
+    "Ocean Sentinel",
+    "Sky Guardian",
+    "Blue Star",
+    "Angry Bird"
+   ],
+   "a": 3,
+   "x": "GSAT-7A is popularly known as ‘Angry Bird’ and is associated with military communication for the Indian Air Force.",
+   "ty": "fact",
+   "tq": "Test the exact official nickname rather than the satellite’s application alone.",
+   "sec": "Satellite → application domain"
+  },
+  {
+   "s": "How many operational communication satellites of India were transferred to NSIL in 2022?",
+   "o": [
+    "8",
+    "10",
+    "12",
+    "19"
+   ],
+   "a": 1,
+   "x": "India had 19 operational communication satellites, of which 10 were transferred to NSIL in 2022.",
+   "ty": "numerical",
+   "tq": "Separate the total number from the number transferred and compare the precise figures.",
+   "sec": "Satellite → application domain"
+  },
+  {
+   "s": "Which one of the following statements correctly describes the launch event associated with GSLV-F17/EOS-05?",
+   "o": [
+    "It marked the first launch of an Indian navigation satellite after two failures of GSLV.",
+    "It ended a two-month launch pause following one PSLV failure.",
+    "It ended an eight-month launch pause following two PSLV failures.",
+    "It began an eight-month launch pause following two GSLV failures."
+   ],
+   "a": 2,
+   "x": "The GSLV-F17/EOS-05 mission ended an eight-month launch pause that followed two PSLV failures.",
+   "ty": "fact",
+   "tq": "Track the launch vehicle, duration of the pause and type and number of earlier failures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Consider the following statements regarding the Indian Space Situational Assessment Report 2025:\n1. It recorded 86 Indian satellites in orbit.\n2. It recorded 27 operational Indian satellites.\n3. Eight Indian satellites were launched in 2025.\n4. The world recorded 315 launches in 2025.\n\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The report recorded 86 Indian satellites in orbit, including 27 operational satellites; eight were launched in 2025, while the world recorded 315 launches during that year.",
+   "ty": "statements",
+   "tq": "Check each numerical statement independently before choosing the inclusive coded option.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "With reference to Starlink in India, which one of the following statements is correct?",
+   "o": [
+    "Starlink received a navigation licence from the Department of Telecommunications in 2025, with local terminal manufacturing required within ten years.",
+    "Starlink received a GMPCS licence from DRDO in 2026, without any geofencing requirement.",
+    "Starlink received a GMPCS licence from the Department of Telecommunications in 2025, subject to geofencing and local terminal manufacturing within five years.",
+    "Starlink received a broadcasting licence from ISRO in 2025, with satellite manufacturing to be completed within two years."
+   ],
+   "a": 2,
+   "x": "Starlink obtained a GMPCS licence from the Department of Telecommunications in 2025. The new rules require geofencing and local terminal manufacturing within five years.",
+   "ty": "application",
+   "tq": "Identify the correct licensing authority and distinguish the paired compliance conditions.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "All the missions and satellites listed under the recent Indian satellite-launch context were launched from which location?",
+   "o": [
+    "Dr. Abdul Kalam Island, Balasore, in Khordha district",
+    "U.R. Rao Satellite Centre, Bengaluru, in Mysuru district",
+    "Vikram Sarabhai Space Centre, Thiruvananthapuram, in Kollam district",
+    "Satish Dhawan Space Centre–SHAR, Sriharikota, in Tirupati district"
+   ],
+   "a": 3,
+   "x": "The missions referred to were launched from SDSC-SHAR at Sriharikota, located in Tirupati district of Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Use the launch-site and district pairing to reject nearby but incorrect Indian space facilities.",
+   "sec": "Universal angles"
+  }
+ ]
+}

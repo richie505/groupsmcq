@@ -1,0 +1,654 @@
+{
+ "book": 5,
+ "row": 21,
+ "chunk": 0,
+ "section": "Emerging ICT applications - AI, big data, cloud, blockchain, IoT and 5G",
+ "subsections": [
+  "Terms and full forms (IoT, IIoT, SaaS, PaaS, IaaS, NFT, DLT, RFID, Li-Fi, 5G NR, Web 3.0)",
+  "IoT - layers, smart agriculture and smart city uses, wearables",
+  "AI tools and LLM platforms → developer; AI in AP farming → partner",
+  "Blockchain - features, tokenization, governance uses",
+  "Other digital technologies - digital twin, metaverse, facial recognition, RFID, AR/VR, edge computing",
+  "5G - generations, features, hackathons, indigenous stack, Bharat 6G Vision",
+  "Big data - defining Vs, analytics in governance"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 49,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following correctly explains the term IIoT?",
+   "o": [
+    "International Internet of Tools",
+    "Industrial Internet of Things",
+    "Integrated Internet of Telecommunication",
+    "Internet of Information Technology"
+   ],
+   "a": 1,
+   "x": "IIoT stands for Industrial Internet of Things and is associated with production processes and equipment-health monitoring.",
+   "ty": "fact",
+   "tq": "Test the exact expansion of a confusable technology acronym.",
+   "sec": "Terms and full forms (IoT, IIoT, SaaS, PaaS, IaaS, NFT, DLT, RFID, Li-Fi, 5G NR, Web 3.0)"
+  },
+  {
+   "s": "Which of the following statements correctly distinguishes an NFT from DLT?",
+   "o": [
+    "NFT denotes Near-Field Transmission, whereas DLT denotes Digital Link Transfer.",
+    "NFT refers to a radio tag, whereas DLT refers to a light-based data network.",
+    "NFT is a cloud service layer, whereas DLT is a wireless interface standard.",
+    "NFT denotes a unique blockchain token, whereas DLT denotes Distributed Ledger Technology."
+   ],
+   "a": 3,
+   "x": "NFT means Non-Fungible Token, a unique blockchain token. DLT means Distributed Ledger Technology.",
+   "ty": "confusable",
+   "tq": "Discriminate between similar digital-asset and ledger-related abbreviations.",
+   "sec": "Terms and full forms (IoT, IIoT, SaaS, PaaS, IaaS, NFT, DLT, RFID, Li-Fi, 5G NR, Web 3.0)"
+  },
+  {
+   "s": "RFID is best described as a technology involving",
+   "o": [
+    "blockchain-based identity verification",
+    "communication within a few centimetres using magnetic induction only",
+    "tags and readers communicating through radio waves",
+    "data transmission through LEDs alone"
+   ],
+   "a": 2,
+   "x": "RFID stands for Radio Frequency Identification and uses tags and readers communicating through radio waves.",
+   "ty": "fact",
+   "tq": "Identify the defining hardware pair and transmission medium.",
+   "sec": "Terms and full forms (IoT, IIoT, SaaS, PaaS, IaaS, NFT, DLT, RFID, Li-Fi, 5G NR, Web 3.0)"
+  },
+  {
+   "s": "Consider the following statements:\n1. Li-Fi stands for Light Fidelity.\n2. Li-Fi transmits data through LEDs.\n3. Li-Fi can offer better bandwidth and security than Wi-Fi.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Li-Fi means Light Fidelity, uses LEDs for data transmission and is noted for better bandwidth and security than Wi-Fi.",
+   "ty": "statements",
+   "tq": "Use the meaning, medium and comparative advantage together.",
+   "sec": "Terms and full forms (IoT, IIoT, SaaS, PaaS, IaaS, NFT, DLT, RFID, Li-Fi, 5G NR, Web 3.0)"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "NFC — Near-Field Communication",
+    "5G NR — 5G New Radio",
+    "Web 3.0 — Decentralised, blockchain-based internet",
+    "Web 3.0 — Centralised internet controlled by a single intermediary"
+   ],
+   "a": 3,
+   "x": "Web 3.0 refers to a decentralised, blockchain-based internet. NFC means Near-Field Communication and generally operates within a few centimetres.",
+   "ty": "negative",
+   "tq": "Find the reversed meaning in the negatively framed option.",
+   "sec": "Terms and full forms (IoT, IIoT, SaaS, PaaS, IaaS, NFT, DLT, RFID, Li-Fi, 5G NR, Web 3.0)"
+  },
+  {
+   "s": "Wi-Fi 7 is associated with which of the following specifications?",
+   "o": [
+    "IEEE 802.11be and Multi-Link Operation",
+    "IEEE 802.11ax and a maximum speed of 1 Gbps",
+    "IEEE 802.11n and optical-only transmission",
+    "IEEE 802.11ac and single-link operation"
+   ],
+   "a": 0,
+   "x": "Wi-Fi 7 is based on IEEE 802.11be, supports Multi-Link Operation and is specified with speeds up to 46 Gbps.",
+   "ty": "fact",
+   "tq": "Match the latest standard with its identifying technical feature.",
+   "sec": "Terms and full forms (IoT, IIoT, SaaS, PaaS, IaaS, NFT, DLT, Li-Fi, 5G NR, Web 3.0)"
+  },
+  {
+   "s": "Which company began manufacturing Wi-Fi 7 equipment in India on 27 May 2026?",
+   "o": [
+    "Reliance",
+    "Microsoft",
+    "Airtel",
+    "TP-Link"
+   ],
+   "a": 3,
+   "x": "TP-Link began manufacturing Wi-Fi 7 equipment in India on 27 May 2026.",
+   "ty": "numerical",
+   "tq": "Link the dated current-affairs event with the organisation involved.",
+   "sec": "Terms and full forms (IoT, IIoT, SaaS, PaaS, IaaS, NFT, DLT, RFID, Li-Fi, 5G NR, Web 3.0)"
+  },
+  {
+   "s": "Which of the following is the correct sequence of the three-layer IoT architecture from the physical level to the user-service level?",
+   "o": [
+    "Application → Network → Perception",
+    "Perception → Network → Application",
+    "Network → Application → Perception",
+    "Perception → Application → Network"
+   ],
+   "a": 1,
+   "x": "The three layers are perception, which uses sensors; network, which transmits data; and application, which provides user services.",
+   "ty": "chronology",
+   "tq": "Arrange the layers from sensing to transmission to service delivery.",
+   "sec": "IoT - layers, smart agriculture and smart city uses, wearables"
+  },
+  {
+   "s": "Which of the following are identified as pillars of the Internet of Things?\n1. Device\n2. Data\n3. Analytics\n4. Connectivity\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The four identified IoT pillars are device, data, analytics and connectivity.",
+   "ty": "statements",
+   "tq": "Treat a complete four-part technical list as an all-inclusive option.",
+   "sec": "IoT - layers, smart agriculture and smart city uses, wearables"
+  },
+  {
+   "s": "A municipal authority installs sensors to monitor traffic, air quality and waste collection. These applications primarily represent",
+   "o": [
+    "smart agriculture",
+    "smart city applications",
+    "industrial IoT only",
+    "wearable computing"
+   ],
+   "a": 1,
+   "x": "Traffic monitoring, air-quality monitoring and waste collection are examples of smart-city IoT applications.",
+   "ty": "application",
+   "tq": "Identify the application domain from the operational examples.",
+   "sec": "IoT - layers, smart agriculture and smart city uses, wearables"
+  },
+  {
+   "s": "Which one of the following is NOT an example of smart agriculture use of IoT?",
+   "o": [
+    "Livestock monitoring",
+    "Precision farming",
+    "Public traffic control",
+    "Soil monitoring"
+   ],
+   "a": 2,
+   "x": "Precision farming, soil monitoring and livestock monitoring are smart-agriculture uses. Public traffic control is a smart-city use.",
+   "ty": "negative",
+   "tq": "Separate closely related smart-city and smart-agriculture applications.",
+   "sec": "IoT - layers, smart agriculture and smart city uses, wearables"
+  },
+  {
+   "s": "Fitness trackers and health monitors are examples of",
+   "o": [
+    "digital twins",
+    "blockchain tokens",
+    "network slices",
+    "IoT wearables"
+   ],
+   "a": 3,
+   "x": "Fitness trackers and health monitors are wearable IoT devices.",
+   "ty": "fact",
+   "tq": "Use a familiar device example to identify the technology category.",
+   "sec": "IoT - layers, smart agriculture and smart city uses, wearables"
+  },
+  {
+   "s": "Which of the following combinations consists only of other IoT applications listed apart from smart cities, smart agriculture and wearables?",
+   "o": [
+    "Smart grids, logistics tracking and smart buildings",
+    "Facial recognition, metaverse and e-voting",
+    "NFTs, Li-Fi and 5G NR",
+    "Cloud storage, search engines and email"
+   ],
+   "a": 0,
+   "x": "Smart grids, logistics tracking and smart buildings, including HVAC systems, are additional IoT applications.",
+   "ty": "match",
+   "tq": "Recognise the complete application cluster rather than an unrelated technology list.",
+   "sec": "IoT - layers, smart agriculture and smart city uses, wearables"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Krutrim — Ola\n2. OpenHathi — Sarvam AI\n3. ChatGPT — OpenAI\n4. Siri — Amazon\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 0,
+   "x": "Krutrim–Ola, OpenHathi–Sarvam AI and ChatGPT–OpenAI are correctly matched. Siri is associated with Apple, whereas Alexa is associated with Amazon.",
+   "ty": "statements",
+   "tq": "Detect the wrong developer by checking the familiar assistant pairing.",
+   "sec": "AI tools and LLM platforms → developer; AI in AP farming → partner"
+  },
+  {
+   "s": "Bhashini is associated with which organisation?",
+   "o": [
+    "DoT",
+    "ICRISAT",
+    "NCRB",
+    "MeitY"
+   ],
+   "a": 3,
+   "x": "Bhashini is associated with the Ministry of Electronics and Information Technology (MeitY). It is used in more than 150 government websites, including CPGRAMS and the PM-KISAN chatbot.",
+   "ty": "fact",
+   "tq": "Match the digital platform with the responsible public organisation.",
+   "sec": "AI tools and LLM platforms → developer; AI in AP farming → partner"
+  },
+  {
+   "s": "Which of the following statements regarding AI applications and initiatives is correct?",
+   "o": [
+    "Microsoft developed Siri as an agricultural chatbot for Andhra Pradesh.",
+    "ICRISAT launched the 5G New Radio standard for AP farming.",
+    "Microsoft worked with Andhra Pradesh farmers on AI yield management with ICRISAT's AI sowing app.",
+    "Bhashini is an AI sowing app developed exclusively by NCRB."
+   ],
+   "a": 2,
+   "x": "Microsoft worked with Andhra Pradesh farmers on AI yield management in connection with ICRISAT's AI sowing app.",
+   "ty": "application",
+   "tq": "Connect the partner organisation with the specific field application.",
+   "sec": "AI tools and LLM platforms → developer; AI in AP farming → partner"
+  },
+  {
+   "s": "Which one of the following correctly describes FutureSkills PRIME?",
+   "o": [
+    "A blockchain-based land-record platform of Andhra Pradesh",
+    "A DoT programme for constructing 100 5G towers",
+    "A facial-recognition system operated by NCRB",
+    "A MeitY skilling initiative with more than 22.79 lakh sign-ups and 7.34 lakh completions"
+   ],
+   "a": 3,
+   "x": "FutureSkills PRIME is a MeitY skilling initiative reporting more than 22.79 lakh sign-ups and 7.34 lakh completions.",
+   "ty": "numerical",
+   "tq": "Match the programme with both its ministry and scale figures.",
+   "sec": "AI tools and LLM platforms → developer; AI in AP farming → partner"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with respect to youth-oriented AI initiatives?",
+   "o": [
+    "YUVAi — a blockchain land-record system",
+    "YUVAi — classes 8 to 12",
+    "FutureSkills PRIME — only for government employees",
+    "Responsible AI for Youth — launched on 30 July 2026"
+   ],
+   "a": 1,
+   "x": "YUVAi is intended for students of classes 8 to 12. Responsible AI for Youth is associated with 30 July 2022, not 2026.",
+   "ty": "negative",
+   "tq": "Separate the target group from the date-based distractor.",
+   "sec": "AI tools and LLM platforms → developer; AI in AP farming → partner"
+  },
+  {
+   "s": "The AP–Google task force announced on 16 June 2026 relates to",
+   "o": [
+    "facial recognition in railway stations",
+    "AI, cloud and digital governance",
+    "land acquisition and irrigation pricing",
+    "5G spectrum auctions only"
+   ],
+   "a": 1,
+   "x": "The AP–Google task force concerns artificial intelligence, cloud technologies and digital governance.",
+   "ty": "fact",
+   "tq": "Use the organisation-pair and subject-area combination to reject nearby distractors.",
+   "sec": "AI tools and LLM platforms → developer; AI in AP farming → partner"
+  },
+  {
+   "s": "Which of the following is NOT a stated feature of blockchain technology?",
+   "o": [
+    "Decentralised distributed ledger",
+    "Transparency",
+    "Compulsory control by a single central authority",
+    "Immutability"
+   ],
+   "a": 2,
+   "x": "Blockchain is characterised by a decentralised distributed ledger, immutability and transparency. Compulsory control by a single central authority is contrary to the stated features.",
+   "ty": "negative",
+   "tq": "Find the option that reverses the decentralised nature of blockchain.",
+   "sec": "Blockchain - features, tokenization, governance uses"
+  },
+  {
+   "s": "Tokenization in blockchain applications may represent",
+   "o": [
+    "unique digital assets and real-world assets such as land and bonds",
+    "only internet domain names",
+    "only biometric passwords",
+    "only physical currency notes"
+   ],
+   "a": 0,
+   "x": "Tokenization can create NFTs representing unique digital assets and tokens representing real-world assets such as land and bonds.",
+   "ty": "application",
+   "tq": "Distinguish the broad asset scope from an extreme only-statement.",
+   "sec": "Blockchain - features, tokenization, governance uses"
+  },
+  {
+   "s": "Which of the following is NOT identified as a governance use of blockchain?",
+   "o": [
+    "Digital certificates",
+    "Replacing all public administration with cryptocurrency mining",
+    "Farm insurance",
+    "Land records"
+   ],
+   "a": 1,
+   "x": "Blockchain governance uses include land records, digital certificates and farm insurance, among others. Replacing all public administration with cryptocurrency mining is not a stated use.",
+   "ty": "negative",
+   "tq": "Reject the extreme and unrelated governance claim.",
+   "sec": "Blockchain - features, tokenization, governance uses"
+  },
+  {
+   "s": "E-Notary, as a blockchain governance application, is associated with",
+   "o": [
+    "radio-frequency tagging",
+    "satellite-based crop imaging",
+    "virtual-reality simulation",
+    "blockchain e-Sign"
+   ],
+   "a": 3,
+   "x": "E-Notary is described as a blockchain e-Sign application.",
+   "ty": "fact",
+   "tq": "Identify the exact functional meaning of a specialised governance term.",
+   "sec": "Blockchain - features, tokenization, governance uses"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with a blockchain governance application?",
+   "o": [
+    "DigiVerify — NCRB facial-recognition system",
+    "DigiVerify — CDI, Andhra Pradesh",
+    "DigiVerify — Wi-Fi 7 manufacturing programme",
+    "DigiVerify — 5G network-slicing standard"
+   ],
+   "a": 1,
+   "x": "DigiVerify is an Andhra Pradesh blockchain-related initiative associated with CDI.",
+   "ty": "fact",
+   "tq": "Match the named state initiative with its institutional association.",
+   "sec": "Blockchain - features, tokenization, governance uses"
+  },
+  {
+   "s": "A digital twin is best defined as",
+   "o": [
+    "a blockchain token representing a person",
+    "a duplicate physical machine kept in reserve",
+    "a virtual replica of a physical asset or system",
+    "a wireless tag powered by a reader"
+   ],
+   "a": 2,
+   "x": "A digital twin is a virtual replica of a physical asset or system.",
+   "ty": "fact",
+   "tq": "Choose the precise definition rather than a literal physical duplicate.",
+   "sec": "Other digital technologies - digital twin, metaverse, facial recognition, RFID, AR/VR, edge computing"
+  },
+  {
+   "s": "‘Sangam: Digital Twin’ is an initiative of the",
+   "o": [
+    "Department of Telecommunications",
+    "Ministry of Agriculture",
+    "International Telecommunication Union alone",
+    "National Crime Records Bureau"
+   ],
+   "a": 0,
+   "x": "‘Sangam: Digital Twin’ is identified as an initiative of the Department of Telecommunications.",
+   "ty": "fact",
+   "tq": "Apply the wrong-department trap to a named government initiative.",
+   "sec": "Other digital technologies - digital twin, metaverse, facial recognition, RFID, AR/VR, edge computing"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes AR from VR?",
+   "o": [
+    "AR overlays digital content on the real world, whereas VR creates a fully simulated environment.",
+    "AR creates a fully simulated environment, whereas VR overlays content on the real world.",
+    "Both AR and VR are limited to radio-frequency identification.",
+    "Neither AR nor VR uses immersive digital content."
+   ],
+   "a": 0,
+   "x": "Augmented Reality overlays digital information on the real world, while Virtual Reality provides a fully simulated environment.",
+   "ty": "confusable",
+   "tq": "Discriminate between the reversed meanings of two look-alike technologies.",
+   "sec": "Other digital technologies - digital twin, metaverse, facial recognition, RFID, AR/VR, edge computing"
+  },
+  {
+   "s": "The metaverse is primarily described as",
+   "o": [
+    "a radio-based tagging system",
+    "a centralised spreadsheet service",
+    "a shared immersive virtual world using AR and VR",
+    "a passive database of land records"
+   ],
+   "a": 2,
+   "x": "The metaverse is a shared immersive virtual world that uses AR and VR technologies.",
+   "ty": "fact",
+   "tq": "Identify the defining environment and enabling technologies.",
+   "sec": "Other digital technologies - digital twin, metaverse, facial recognition, RFID, AR/VR, edge computing"
+  },
+  {
+   "s": "The National Automated Facial Recognition System (NAFRS) is associated with the",
+   "o": [
+    "National Crime Records Bureau",
+    "Ministry of Electronics and Information Technology exclusively",
+    "Department of Telecommunications",
+    "International Telecommunication Union"
+   ],
+   "a": 0,
+   "x": "NAFRS is associated with the National Crime Records Bureau (NCRB). Facial-recognition systems also raise privacy concerns.",
+   "ty": "fact",
+   "tq": "Match the named system with the correct government body.",
+   "sec": "Other digital technologies - digital twin, metaverse, facial recognition, RFID, AR/VR, edge computing"
+  },
+  {
+   "s": "Consider the following statements about RFID tags:\n1. Active tags have their own battery.\n2. Active tags generally have a longer range than passive tags.\n3. Passive tags are powered by the reader's signal.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Active RFID tags contain their own battery and generally offer longer range. Passive tags draw power from the reader's signal.",
+   "ty": "statements",
+   "tq": "Combine power source and range to distinguish active and passive tags.",
+   "sec": "Other digital technologies - digital twin, metaverse, facial recognition, RFID, AR/VR, edge computing"
+  },
+  {
+   "s": "What is the principal advantage of edge computing over sending all data to a distant cloud first?",
+   "o": [
+    "It replaces all sensors with blockchain tokens.",
+    "It ensures that no data is ever processed by a computer.",
+    "It processes data near the source, reducing latency and bandwidth use while supporting privacy.",
+    "It always requires a central data centre in another country."
+   ],
+   "a": 2,
+   "x": "Edge computing processes data near its source, which can reduce latency, save bandwidth and support privacy.",
+   "ty": "application",
+   "tq": "Select the option containing the complete operational advantage.",
+   "sec": "Other digital technologies - digital twin, metaverse, facial recognition, RFID, AR/VR, edge computing"
+  },
+  {
+   "s": "Fog computing is positioned primarily",
+   "o": [
+    "inside an RFID tag battery",
+    "above the application layer of IoT only",
+    "between edge computing and the cloud",
+    "between 1G and 2G networks"
+   ],
+   "a": 2,
+   "x": "Fog computing occupies an intermediate position between edge devices and cloud computing.",
+   "ty": "fact",
+   "tq": "Use the spatial relationship in the computing hierarchy.",
+   "sec": "Other digital technologies - digital twin, metaverse, facial recognition, RFID, AR/VR, edge computing"
+  },
+  {
+   "s": "Reliance pledged a nationwide edge network at the",
+   "o": [
+    "India AI Summit",
+    "Bharat 6G Alliance launch only",
+    "Global Blockchain Congress",
+    "World Health Assembly"
+   ],
+   "a": 0,
+   "x": "Reliance made the pledge for a nationwide edge network at the India AI Summit.",
+   "ty": "fact",
+   "tq": "Match the current-affairs pledge with the event at which it was made.",
+   "sec": "Other digital technologies - digital twin, metaverse, facial recognition, RFID, AR/VR, edge computing"
+  },
+  {
+   "s": "Arrange the following mobile communication generations in chronological order:\nA. 1G\nB. 3G\nC. 5G\nD. 2G",
+   "o": [
+    "A, D, B, C",
+    "D, A, B, C",
+    "A, B, D, C",
+    "B, A, D, C"
+   ],
+   "a": 0,
+   "x": "The generations progress as 1G, 2G, 3G and 5G. The material places 1G in the 1980s and 5G in the present period.",
+   "ty": "chronology",
+   "tq": "Fix the first and last generation, then arrange the intervening generations.",
+   "sec": "5G - generations, features, hackathons, indigenous stack, Bharat 6G Vision"
+  },
+  {
+   "s": "Which of the following statements about 5G is correct?",
+   "o": [
+    "It can have latency as low as 1 millisecond and supports massive device connectivity.",
+    "It necessarily operates only through a 4G core.",
+    "It was designed without any requirement of high reliability.",
+    "It supports fewer connected devices than earlier generations by definition."
+   ],
+   "a": 0,
+   "x": "5G can provide latency as low as 1 millisecond, massive device connectivity and high reliability. 5G standalone can operate without a 4G core.",
+   "ty": "statements",
+   "tq": "Prefer the option containing the characteristic features without an absolute restriction.",
+   "sec": "5G - generations, features, hackathons, indigenous stack, Bharat 6G Vision"
+  },
+  {
+   "s": "In the context of 5G, Standalone (SA) architecture means that the network",
+   "o": [
+    "uses only 2G radio equipment",
+    "cannot support network slicing",
+    "runs without a 4G core",
+    "operates without any core network"
+   ],
+   "a": 2,
+   "x": "5G SA runs without a 4G core. It does not mean that the network has no core network at all.",
+   "ty": "confusable",
+   "tq": "Distinguish standalone 5G from a network with no core network.",
+   "sec": "5G - generations, features, hackathons, indigenous stack, Bharat 6G Vision"
+  },
+  {
+   "s": "Network slicing in 5G refers to",
+   "o": [
+    "converting 5G signals into blockchain tokens",
+    "cutting a fibre cable into separate physical networks",
+    "splitting one physical network into virtual networks using SDN/NFV",
+    "dividing a smartphone screen into multiple displays"
+   ],
+   "a": 2,
+   "x": "Network slicing creates multiple virtual networks over one physical network using Software-Defined Networking and Network Functions Virtualization.",
+   "ty": "fact",
+   "tq": "Identify the exact technical meaning rather than a literal interpretation of slicing.",
+   "sec": "5G - generations, features, hackathons, indigenous stack, Bharat 6G Vision"
+  },
+  {
+   "s": "Which of the following is NOT correctly matched with a 5G use-case category?",
+   "o": [
+    "URLLC — Ultra-Reliable Low-Latency Communications",
+    "eMBB — exclusive Mobile Blockchain",
+    "eMBB — enhanced Mobile Broadband",
+    "mMTC — massive Machine-Type Communications"
+   ],
+   "a": 1,
+   "x": "The recognised categories are eMBB, URLLC and mMTC. eMBB means enhanced Mobile Broadband, not exclusive Mobile Blockchain.",
+   "ty": "negative",
+   "tq": "Reject the look-alike expansion of a standard technical abbreviation.",
+   "sec": "5G - generations, features, hackathons, indigenous stack, Bharat 6G Vision"
+  },
+  {
+   "s": "The ‘Priority Postpaid’ offering of Airtel led to a debate concerning",
+   "o": [
+    "facial-recognition privacy only",
+    "Wi-Fi 7 manufacturing standards",
+    "net neutrality",
+    "land-record tokenization"
+   ],
+   "a": 2,
+   "x": "Airtel's ‘Priority Postpaid’ offering raised a debate on net neutrality.",
+   "ty": "fact",
+   "tq": "Match the named telecom offering with the policy issue it raised.",
+   "sec": "5G - generations, features, hackathons, indigenous stack, Bharat 6G Vision"
+  },
+  {
+   "s": "Which of the following statements regarding Bharat's 6G initiatives is correct?",
+   "o": [
+    "The Bharat 6G Alliance was launched in 2023 and the Bharat 6G Vision document was also issued in 2023.",
+    "The Bharat 6G Alliance was launched in 2013 and the Vision document in 2015.",
+    "The Alliance is a 5G network slice operated by Airtel.",
+    "The Vision document was issued before the advent of 1G in the 1980s."
+   ],
+   "a": 0,
+   "x": "The Bharat 6G Alliance was launched in 2023, and the Bharat 6G Vision document is also dated 2023.",
+   "ty": "statements",
+   "tq": "Check both the organisation's date and the document's date together.",
+   "sec": "5G - generations, features, hackathons, indigenous stack, Bharat 6G Vision"
+  },
+  {
+   "s": "6G is expected, according to the stated projection, to emerge in the",
+   "o": [
+    "late 2020s",
+    "early 2050s",
+    "early 2030s",
+    "mid-2040s"
+   ],
+   "a": 2,
+   "x": "The projection places the expected emergence of 6G in the early 2030s.",
+   "ty": "numerical",
+   "tq": "Distinguish the projected decade from nearby time ranges.",
+   "sec": "5G - generations, features, hackathons, indigenous stack, Bharat 6G Vision"
+  },
+  {
+   "s": "Which of the following is NOT included among the commonly cited five Vs of big data?",
+   "o": [
+    "Variety",
+    "Volume",
+    "Visibility",
+    "Velocity"
+   ],
+   "a": 2,
+   "x": "The five Vs listed are Volume, Velocity, Variety, Veracity and Value. Visibility is not included in that list.",
+   "ty": "negative",
+   "tq": "Recall the complete named list and identify the substituted term.",
+   "sec": "Big data - defining Vs, analytics in governance"
+  },
+  {
+   "s": "In big-data terminology, ‘Veracity’ primarily relates to",
+   "o": [
+    "the speed of a mobile network only",
+    "the physical size of storage equipment",
+    "the number of virtual worlds created",
+    "the reliability or quality of data"
+   ],
+   "a": 3,
+   "x": "Veracity refers to the reliability, accuracy or trustworthiness of data within the big-data framework.",
+   "ty": "fact",
+   "tq": "Break the named V-list into the specific meaning of each term.",
+   "sec": "Big data - defining Vs, analytics in governance"
+  },
+  {
+   "s": "The Andhra Pradesh State Data Lake is used to cross-link which of the following data combinations for plugging leakages?",
+   "o": [
+    "RCH health with POSHAN data, and housing with land pattas",
+    "5G traffic with Wi-Fi 7, and NFTs with bonds",
+    "Facial images with AR overlays, and RFID with Li-Fi",
+    "SaaS with PaaS, and IaaS with Web 3.0"
+   ],
+   "a": 0,
+   "x": "The AP State Data Lake cross-links RCH health data with POSHAN data and housing data with land pattas to help plug leakages.",
+   "ty": "match",
+   "tq": "Pair the governance datasets with their stated administrative purpose.",
+   "sec": "Big data - defining Vs, analytics in governance"
+  },
+  {
+   "s": "I4C's NCAP uses artificial intelligence and big data primarily for analysing",
+   "o": [
+    "soil moisture and livestock yields",
+    "5G radio interfaces",
+    "cloud-service pricing",
+    "crime trends"
+   ],
+   "a": 3,
+   "x": "I4C's NCAP uses AI and big data to analyse crime trends.",
+   "ty": "application",
+   "tq": "Identify the governance problem addressed by the analytics system.",
+   "sec": "Big data - defining Vs, analytics in governance"
+  }
+ ]
+}

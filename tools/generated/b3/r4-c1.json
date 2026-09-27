@@ -1,0 +1,273 @@
+{
+ "book": 3,
+ "row": 4,
+ "chunk": 1,
+ "section": "Other services - tourism, banking, insurance, health and education services",
+ "subsections": [
+  "Insurance principles and products",
+  "Education services - public expenditure, NEP 2020 target",
+  "Transport, postal and telecom - UDAN, post office network, BSNL, tele-density, 5G",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 18,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The principle of indemnity in insurance is primarily intended to:",
+   "o": [
+    "Provide the insured with a profit after occurrence of loss",
+    "Restore the insured to the pre-loss position without allowing profit",
+    "Cover only the death of the insured",
+    "Guarantee payment irrespective of the occurrence of loss"
+   ],
+   "a": 1,
+   "x": "The principle of indemnity restores the insured to the position existing before the loss and does not permit profit from the insurance claim.",
+   "ty": "fact",
+   "tq": "Test the precise meaning of a paired insurance principle rather than its broad objective.",
+   "sec": "Insurance principles and products  [other exams]"
+  },
+  {
+   "s": "Which one of the following combinations is correctly matched?\n\n a. Cyber insurance — Losses arising from ransomware\n b. Aviation hull insurance — Third-party liabilities of shipowners\n c. Protection and Indemnity insurance — Physical damage to an aircraft\n d. Life insurance — Application of the principle of indemnity",
+   "o": [
+    "a only",
+    "a and b only",
+    "b and c only",
+    "a, b, c and d"
+   ],
+   "a": 0,
+   "x": "Cyber insurance covers losses such as data breaches, hacking, ransomware and identity theft. Aviation hull insurance covers physical damage to the aircraft, while P&I insurance covers shipowners' third-party liabilities; the principle of indemnity does not apply to life insurance.",
+   "ty": "statements",
+   "tq": "Use the wrong-product and swapped-meaning traps to identify the single correctly matched statement.",
+   "sec": "Insurance principles and products  [other exams]"
+  },
+  {
+   "s": "Protection and Indemnity (P&I) insurance primarily covers:",
+   "o": [
+    "Shipowners' third-party liabilities",
+    "Losses caused by identity theft",
+    "The pre-loss value of a life assured",
+    "Physical damage to an aircraft"
+   ],
+   "a": 0,
+   "x": "Protection and Indemnity insurance covers liabilities incurred by shipowners towards third parties.",
+   "ty": "fact",
+   "tq": "Discriminate between closely related insurance products by their specific risk covered.",
+   "sec": "Insurance principles and products  [other exams]"
+  },
+  {
+   "s": "Consider the following statements regarding India's first sovereign-backed Protection and Indemnity cover:\n1. It was launched under the Bharat Maritime Insurance Pool.\n2. It was designed by New India Assurance.\n3. The first policy was issued to the Shipping Corporation of India.\n4. The indemnity provided was up to USD 1.5 billion.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The sovereign-backed P&I cover was launched under the Bharat Maritime Insurance Pool, designed by New India Assurance, issued first to SCI and provided indemnity up to USD 1.5 billion.",
+   "ty": "statements",
+   "tq": "Check a multi-detail factual statement by verifying the institution, designer, first beneficiary and amount.",
+   "sec": "Insurance principles and products  [other exams]"
+  },
+  {
+   "s": "The target of the National Education Policy, 2020 regarding public expenditure on education is:",
+   "o": [
+    "10% of GDP",
+    "4% of GDP",
+    "3% of GDP",
+    "6% of GDP"
+   ],
+   "a": 3,
+   "x": "NEP 2020 targets public spending on education at 6% of GDP.",
+   "ty": "numerical",
+   "tq": "Test the exact policy target using distinct numerical alternatives.",
+   "sec": "Education services - public expenditure, NEP 2020 target"
+  },
+  {
+   "s": "Education is included in which one of the following lists of the Constitution of India?",
+   "o": [
+    "Union List",
+    "Concurrent List",
+    "State List",
+    "Residuary List"
+   ],
+   "a": 1,
+   "x": "Education is a subject in the Concurrent List, permitting legislative action by both Parliament and State Legislatures subject to constitutional provisions.",
+   "ty": "fact",
+   "tq": "Apply the constitutional-list distinction to a familiar public service.",
+   "sec": "Education services - public expenditure, NEP 2020 target"
+  },
+  {
+   "s": "With reference to the UDAN scheme, consider the following statements:\n1. UDAN stands for Ude Desh ka Aam Nagrik.\n2. It was launched in 2016.\n3. Its first flight operated between Shimla and Delhi in April 2017.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "UDAN means Ude Desh ka Aam Nagrik, was launched in 2016, and its first flight was the Shimla-Delhi service in April 2017.",
+   "ty": "statements",
+   "tq": "Combine an acronym, launch year and inaugural route-date while avoiding reversal of the sequence.",
+   "sec": "Transport, postal and telecom - UDAN, post office network, BSNL, tele-density, 5G"
+  },
+  {
+   "s": "The first flight under the UDAN regional air connectivity scheme was operated on which route?",
+   "o": [
+    "Delhi-Mumbai",
+    "Hyderabad-Bengaluru",
+    "Chennai-Kolkata",
+    "Shimla-Delhi"
+   ],
+   "a": 3,
+   "x": "The first UDAN flight operated between Shimla and Delhi in April 2017.",
+   "ty": "fact",
+   "tq": "Use route-based recall to distinguish the inaugural service from ordinary domestic routes.",
+   "sec": "Transport, postal and telecom - UDAN, post office network, BSNL, tele-density, 5G"
+  },
+  {
+   "s": "Which of the following is NOT associated with the public-service functions of the post office network described below?",
+   "o": [
+    "Postal Life Insurance",
+    "Direct Benefit Transfer",
+    "Aadhaar-related services",
+    "Operation of regional air connectivity flights"
+   ],
+   "a": 3,
+   "x": "The post office network supports DBT, Aadhaar services and Postal Life Insurance, whereas regional air connectivity flights are associated with UDAN.",
+   "ty": "negative",
+   "tq": "Find the odd service by separating postal functions from the nearby aviation scheme.",
+   "sec": "Transport, postal and telecom - UDAN, post office network, BSNL, tele-density, 5G"
+  },
+  {
+   "s": "Which of the following combinations correctly represents services or schemes associated with the post office network?\n\n1. India Post Payments Bank\n2. Savings schemes\n3. Sukanya Samriddhi and National Savings Certificate\n4. Rural banking\n\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The post office network contributes to financial inclusion through India Post Payments Bank, savings schemes, Sukanya Samriddhi, NSC and rural banking.",
+   "ty": "statements",
+   "tq": "Use the all-inclusive option after checking whether each listed service belongs to the same institutional network.",
+   "sec": "Transport, postal and telecom - UDAN, post office network, BSNL, tele-density, 5G"
+  },
+  {
+   "s": "India Post Payments Bank was launched in:",
+   "o": [
+    "2016",
+    "2017",
+    "2018",
+    "2020"
+   ],
+   "a": 2,
+   "x": "India Post Payments Bank was launched in 2018 as part of the financial-inclusion role of the post office network.",
+   "ty": "numerical",
+   "tq": "Test a scheme year against nearby launch years from the same services sector.",
+   "sec": "Transport, postal and telecom - UDAN, post office network, BSNL, tele-density, 5G"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. Corporatisation of BSNL\nB. Launch of India Post Payments Bank\nC. First UDAN flight\nD. Beginning of 5G services in India",
+   "o": [
+    "A, C, B, D",
+    "C, A, B, D",
+    "A, B, C, D",
+    "B, A, C, D"
+   ],
+   "a": 2,
+   "x": "BSNL was corporatised on 1 October 2000, the first UDAN flight took place in April 2017, India Post Payments Bank was launched in 2018, and 5G services began on 1 October 2022.",
+   "ty": "chronology",
+   "tq": "Anchor the sequence with the earliest and latest dates before placing the middle events.",
+   "sec": "Transport, postal and telecom - UDAN, post office network, BSNL, tele-density, 5G"
+  },
+  {
+   "s": "BSNL was corporatised on:",
+   "o": [
+    "1 October 2005",
+    "1 October 2000",
+    "1 October 2002",
+    "1 October 1998"
+   ],
+   "a": 1,
+   "x": "BSNL was corporatised on 1 October 2000.",
+   "ty": "fact",
+   "tq": "Test an exact institutional date using closely spaced year alternatives.",
+   "sec": "Transport, postal and telecom - UDAN, post office network, BSNL, tele-density, 5G"
+  },
+  {
+   "s": "5G services in India began on:",
+   "o": [
+    "1 October 2020",
+    "1 October 2021",
+    "1 October 2022",
+    "1 October 2018"
+   ],
+   "a": 2,
+   "x": "5G services began in India on 1 October 2022.",
+   "ty": "fact",
+   "tq": "Separate the date of a later technology rollout from earlier telecom milestones.",
+   "sec": "Transport, postal and telecom - UDAN, post office network, BSNL, tele-density, 5G"
+  },
+  {
+   "s": "Consider the following statements regarding recent health-sector conditions:\n1. A committee identified more than 40 crore Indians as being in a healthcare gap.\n2. Public health spending was reported as 1.43% of GDP.\n3. The reported public health spending was 6% of GDP.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "More than 40 crore Indians were reported to be in a healthcare gap, while public health spending was reported at 1.43% of GDP. The 6% figure is the NEP 2020 target for public spending on education, not the reported public health expenditure.",
+   "ty": "statements",
+   "tq": "Separate a current expenditure figure from a different sector's policy target.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "An IRDAI sub-committee was reported to be reviewing which of the following?",
+   "o": [
+    "Postal savings schemes",
+    "Private health insurance",
+    "Regional air connectivity",
+    "Public expenditure on education"
+   ],
+   "a": 1,
+   "x": "The IRDAI sub-committee was reviewing private health insurance.",
+   "ty": "fact",
+   "tq": "Match the regulator with the specific sectoral review under its jurisdiction.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The bank credit-deposit ratio reported at a 62-year high in Q1 FY27 was:",
+   "o": [
+    "62.8%",
+    "72.6%",
+    "82.6%",
+    "92.8%"
+   ],
+   "a": 2,
+   "x": "The bank credit-deposit ratio reached 82.6% in the first quarter of FY27, described as a 62-year high.",
+   "ty": "numerical",
+   "tq": "Test the exact percentage while retaining the associated time reference as a confirmation clue.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which one of the following correctly represents the reported services-sector performance of Andhra Pradesh?",
+   "o": [
+    "Services grew by 1.43%, while banking and insurance grew by 6%",
+    "Services grew by 10.67%, while banking and insurance grew by 13.59%",
+    "Services grew by 13.59%, while banking and insurance grew by 10.67%",
+    "Services grew by 6%, while banking and insurance grew by 1.43%"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh services were reported to be growing at 10.67%, with banking and insurance growing at 13.59%.",
+   "ty": "comparison",
+   "tq": "Guard against reversed comparisons by matching each percentage with its correct sector.",
+   "sec": "Universal angles"
+  }
+ ]
+}

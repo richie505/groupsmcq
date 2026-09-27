@@ -1,0 +1,570 @@
+{
+ "book": 3,
+ "row": 124,
+ "chunk": 0,
+ "section": "Agricultural marketing in Andhra Pradesh - market yards, Rythu Bazaars and e-marketing",
+ "subsections": [
+  "Rythu Bazaars - year, coordinating officer, estate officer, management",
+  "Agricultural Market Committees and market yards - number, commodities, fee",
+  "AP (Agricultural Produce and Livestock) Markets Act, 1966 - provisions",
+  "e-NAM mandis in AP and e-marketing",
+  "Market intervention / price stabilisation",
+  "Cold storage, warehousing (APSWC) and post-harvest infrastructure",
+  "FPOs in AP and collective marketing"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 45,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 5,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The primary purpose of a Rythu Bazar in Andhra Pradesh is to",
+   "o": [
+    "replace Agricultural Market Committees in all notified areas",
+    "provide subsidised agricultural inputs to tenant farmers",
+    "enable farmers to sell directly to consumers while ensuring better prices for farmers and fair prices for consumers",
+    "enable licensed traders to purchase agricultural produce from farmers through auctions"
+   ],
+   "a": 2,
+   "x": "Rythu Bazars enable farmers to sell directly to consumers without middlemen. Their stated purpose is to provide a better price to farmers and a fair price to consumers.",
+   "ty": "fact",
+   "tq": "Test the core purpose and distinguish direct marketing from regulated wholesale marketing.",
+   "sec": "Rythu Bazaars - year, coordinating officer, estate officer, management"
+  },
+  {
+   "s": "Who coordinates the functioning of Rythu Bazars at the district level in Andhra Pradesh?",
+   "o": [
+    "Joint Collector",
+    "District Collector",
+    "District Agricultural Trade and Marketing Officer",
+    "Estate Officer of the nearest market yard"
+   ],
+   "a": 0,
+   "x": "The Joint Collector is the coordinating officer for Rythu Bazars. The District Collector is not the coordinating officer for this purpose.",
+   "ty": "confusable",
+   "tq": "Discriminate between the District Collector and Joint Collector, a common authority-substitution trap.",
+   "sec": "Rythu Bazaars - year, coordinating officer, estate officer, management"
+  },
+  {
+   "s": "Each Rythu Bazar is managed by an Estate Officer and comes under which department?",
+   "o": [
+    "Cooperation Department",
+    "Revenue Department",
+    "Civil Supplies Department",
+    "Agricultural Marketing Department"
+   ],
+   "a": 1,
+   "x": "A Rythu Bazar is managed by an Estate Officer and functions under the Revenue Department.",
+   "ty": "fact",
+   "tq": "Apply the who-manages-and-under-which-department pattern.",
+   "sec": "Rythu Bazaars - year, coordinating officer, estate officer, management"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes a Rythu Bazar from a regulated market yard?",
+   "o": [
+    "A Rythu Bazar is governed by the AP Markets Act, 1966 and a regulated market yard is an executive scheme.",
+    "A Rythu Bazar is managed by an Agricultural Market Committee and a regulated market yard by an Estate Officer.",
+    "A Rythu Bazar charges a market fee of 1%, whereas a regulated market yard has no market fee.",
+    "A Rythu Bazar permits farmers to sell directly to consumers, whereas a regulated market yard involves farmers selling to licensed traders."
+   ],
+   "a": 3,
+   "x": "Farmers sell directly to consumers in Rythu Bazars, while farmers sell to licensed traders in regulated market yards. The other alternatives reverse the institutional and fee arrangements.",
+   "ty": "comparison",
+   "tq": "Split the options by comparing seller, manager, legal basis and fee.",
+   "sec": "Rythu Bazaars - year, coordinating officer, estate officer, management"
+  },
+  {
+   "s": "The prices in Rythu Bazars are fixed with the aim of being approximately what percentage in relation to open-market prices?",
+   "o": [
+    "10%",
+    "15%",
+    "25%",
+    "40%"
+   ],
+   "a": 2,
+   "x": "Rythu Bazar prices are fixed with the aim of being around 25% in relation to open-market prices.",
+   "ty": "numerical",
+   "tq": "Test the precise percentage rather than the general objective of price fairness.",
+   "sec": "Rythu Bazaars - year, coordinating officer, estate officer, management"
+  },
+  {
+   "s": "Consider the following statements regarding Rythu Bazars:\n1. They function outside the purview of Agricultural Market Committees.\n2. They are managed by Estate Officers.\n3. They operate under the Revenue Department.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Rythu Bazars are outside the Agricultural Market Committee framework, managed by Estate Officers and placed under the Revenue Department.",
+   "ty": "statements",
+   "tq": "Use the institutional features together and select the complete combination.",
+   "sec": "Rythu Bazaars - year, coordinating officer, estate officer, management"
+  },
+  {
+   "s": "According to APSES 2024-25, how many Rythu Bazars were functioning in Andhra Pradesh?",
+   "o": [
+    "102",
+    "114",
+    "124",
+    "134"
+   ],
+   "a": 2,
+   "x": "APSES 2024-25 reports 124 functioning Rythu Bazars.",
+   "ty": "numerical",
+   "tq": "Test an official count using nearby numerical distractors.",
+   "sec": "Rythu Bazaars - year, coordinating officer, estate officer, management"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "Regulated market yard — Executive scheme of 1999",
+    "Rythu Bazar — AP (Agricultural Produce and Livestock) Markets Act, 1966",
+    "Regulated market yard — Agricultural Market Committee as manager",
+    "Rythu Bazar — market fee of 1%"
+   ],
+   "a": 2,
+   "x": "A regulated market yard is managed by an Agricultural Market Committee. Rythu Bazars are an executive scheme of 1999, managed by Estate Officers, and do not impose a middleman margin.",
+   "ty": "match",
+   "tq": "Start from the sure institutional pair and eliminate reversed associations.",
+   "sec": "Rythu Bazaars - year, coordinating officer, estate officer, management"
+  },
+  {
+   "s": "Which of the following represents the correct sequence in the establishment of a regulated market under the Andhra Pradesh framework?\nA. Establishment of the notified market\nB. Constitution of a Market Committee\nC. Declaration of a notified area",
+   "o": [
+    "A, B, C",
+    "B, C, A",
+    "C, B, A",
+    "C, A, B"
+   ],
+   "a": 2,
+   "x": "The Government first declares a notified area, then constitutes a Market Committee for it, and the committee establishes the notified market.",
+   "ty": "chronology",
+   "tq": "Arrange the administrative steps from notification to establishment.",
+   "sec": "Agricultural Market Committees and market yards - number, commodities, fee"
+  },
+  {
+   "s": "What was the market fee collected in Andhra Pradesh up to December 2024, as reported in APSES 2024-25?",
+   "o": [
+    "Rs 429.77 crore",
+    "Rs 505.86 crore",
+    "Rs 433.39 crore",
+    "Rs 594.96 crore"
+   ],
+   "a": 2,
+   "x": "APSES 2024-25 reports market fee collection of Rs 433.39 crore up to December 2024.",
+   "ty": "numerical",
+   "tq": "Use the exact reported amount and distinguish it from the later-year figure.",
+   "sec": "Agricultural Market Committees and market yards - number, commodities, fee"
+  },
+  {
+   "s": "Which of the following correctly states the godown position reported for 2024-25 in Andhra Pradesh?",
+   "o": [
+    "1,052 godowns with total capacity of 5,65,508 MT",
+    "1,052 godowns with total capacity of 9,65,492 MT",
+    "643 godowns with total capacity of 5,92,163 MT",
+    "626 godowns with total capacity of 9,65,492 MT"
+   ],
+   "a": 1,
+   "x": "For 2024-25, the total godown stock was 1,052 godowns with a capacity of 9,65,492 metric tonnes. The figures of 626 godowns and 5,65,508 MT refer to operational godowns.",
+   "ty": "numerical",
+   "tq": "Separate total capacity figures from operational-capacity figures.",
+   "sec": "Agricultural Market Committees and market yards - number, commodities, fee"
+  },
+  {
+   "s": "In 2024-25, the number and capacity of operational godowns were",
+   "o": [
+    "1,052 and 5,65,508 MT",
+    "1,052 and 9,65,492 MT",
+    "626 and 5,65,508 MT",
+    "643 and 5,92,163 MT"
+   ],
+   "a": 2,
+   "x": "APSES 2024-25 reports 626 operational godowns with a capacity of 5,65,508 MT.",
+   "ty": "numerical",
+   "tq": "Match the operational count with its corresponding capacity.",
+   "sec": "Agricultural Market Committees and market yards - number, commodities, fee"
+  },
+  {
+   "s": "According to SES 2025-26, the number and capacity of operational godowns were",
+   "o": [
+    "643 and 5,92,163 MT",
+    "1,052 and 9.65 lakh MT",
+    "643 and 9.65 lakh MT",
+    "626 and 5,65,508 MT"
+   ],
+   "a": 0,
+   "x": "SES 2025-26 reports 643 operational godowns with a capacity of 5,92,163 MT.",
+   "ty": "numerical",
+   "tq": "Distinguish the later-year operational figures from the total godown figures.",
+   "sec": "Agricultural Market Committees and market yards - number, commodities, fee"
+  },
+  {
+   "s": "The market fee associated with a regulated market yard in Andhra Pradesh is",
+   "o": [
+    "2%",
+    "0.5%",
+    "1%",
+    "No fee"
+   ],
+   "a": 2,
+   "x": "The comparison table specifies a market fee of 1% for a regulated market yard. A Rythu Bazar has no middleman margin.",
+   "ty": "fact",
+   "tq": "Test the fee distinction between regulated yards and direct-consumer bazaars.",
+   "sec": "Agricultural Market Committees and market yards - number, commodities, fee"
+  },
+  {
+   "s": "The AP (Agricultural Produce and Livestock) Markets Rules, 1969 were framed under which provision?",
+   "o": [
+    "Section 25 of the Act",
+    "Section 42 of the Act",
+    "Section 33 of the Act",
+    "Section 16 of the Act"
+   ],
+   "a": 2,
+   "x": "The AP (AP&L) Markets Rules, 1969 were framed under Section 33 of the 1966 Act.",
+   "ty": "fact",
+   "tq": "Use the section-number trap to distinguish enabling provisions.",
+   "sec": "AP (Agricultural Produce and Livestock) Markets Act, 1966 - provisions"
+  },
+  {
+   "s": "The AP (AP&L) Markets Rules, 1969 primarily govern matters relating to",
+   "o": [
+    "land acquisition and irrigation command areas",
+    "licensing, including issue, fees, turnover and period",
+    "export quotas for agricultural commodities",
+    "crop insurance claims and premium subsidies"
+   ],
+   "a": 1,
+   "x": "The Rules govern licensing-related matters such as issue of licences, fees, turnover and the period of validity.",
+   "ty": "application",
+   "tq": "Identify the regulatory subject from the specific functions assigned to the Rules.",
+   "sec": "AP (Agricultural Produce and Livestock) Markets Act, 1966 - provisions"
+  },
+  {
+   "s": "Which of the following is NOT a feature of the AP (Agricultural Produce and Livestock) Markets Act, 1966?",
+   "o": [
+    "Coverage of crops, livestock and livestock products",
+    "Abolition of all licensed buyers from market transactions",
+    "Use of standard weights and recording of prices",
+    "Enforcement of open auction"
+   ],
+   "a": 1,
+   "x": "The Act provides for licensed buyers; it does not abolish them. It covers crops, livestock and livestock products and promotes open auctions, standard weights and recorded prices.",
+   "ty": "negative",
+   "tq": "Find the reversed or absolute institutional statement among genuine provisions.",
+   "sec": "AP (Agricultural Produce and Livestock) Markets Act, 1966 - provisions"
+  },
+  {
+   "s": "The principal economic purpose of open auctions, standard weights, recorded prices and licensed buyers under the AP Markets Act is to",
+   "o": [
+    "eliminate the need for market yards",
+    "increase the bargaining power of traders over farmers",
+    "correct the bargaining imbalance between farmers and traders",
+    "fix the retail prices of every agricultural commodity"
+   ],
+   "a": 2,
+   "x": "These regulatory measures are intended to correct the bargaining imbalance between farmers and traders.",
+   "ty": "application",
+   "tq": "Link regulatory instruments with their stated economic objective.",
+   "sec": "AP (Agricultural Produce and Livestock) Markets Act, 1966 - provisions"
+  },
+  {
+   "s": "Which statement correctly describes the position of the 1966 Agricultural Market Committee framework after the repeal of the three central farm laws?",
+   "o": [
+    "It remained operative after the laws were repealed in November 2021.",
+    "It was suspended until the enactment of new State market rules.",
+    "It ceased to operate in November 2021.",
+    "It was replaced by the Model APMC Act in November 2021."
+   ],
+   "a": 0,
+   "x": "The three central farm laws of 2020 were repealed in November 2021, but the 1966 AMC framework remained operative.",
+   "ty": "fact",
+   "tq": "Use a date-event relationship and avoid assuming repeal of central laws ended the State framework.",
+   "sec": "AP (Agricultural Produce and Livestock) Markets Act, 1966 - provisions"
+  },
+  {
+   "s": "Which one of the following was associated with the Model APMC Act?",
+   "o": [
+    "Abolition of all agricultural markets and open auctions",
+    "A single market fee, registration instead of licensing, and farmers' and consumers' markets",
+    "Transfer of all market regulation to the Revenue Department",
+    "Multiple market fees and compulsory licensing in every market"
+   ],
+   "a": 1,
+   "x": "The Model APMC Act introduced a single market fee, registration in place of licensing, and farmers' and consumers' markets.",
+   "ty": "fact",
+   "tq": "Recognise the reform package and reject swapped regulatory features.",
+   "sec": "AP (Agricultural Produce and Livestock) Markets Act, 1966 - provisions"
+  },
+  {
+   "s": "Which of the following correctly states the e-NAM registration and commodity coverage figures reported in 2026?",
+   "o": [
+    "1.79 lakh farmers and 247 commodities",
+    "1.79 crore farmers and 274 commodities",
+    "1.79 crore farmers and 247 commodities",
+    "17.9 crore farmers and 247 commodities"
+   ],
+   "a": 2,
+   "x": "e-NAM had 1.79 crore registered farmers and covered 247 commodities according to the cited 2026 information.",
+   "ty": "numerical",
+   "tq": "Distinguish crore from lakh and avoid transposition of the commodity count.",
+   "sec": "e-NAM mandis in AP and e-marketing"
+  },
+  {
+   "s": "e-NAM is integrated with e-NWR from warehouses accredited by which organisation?",
+   "o": [
+    "NAFED",
+    "NCCF",
+    "WDRA",
+    "SFAC"
+   ],
+   "a": 2,
+   "x": "e-NAM is integrated with electronic Negotiable Warehouse Receipts from WDRA-accredited warehouses. WDRA is the Warehousing Development and Regulatory Authority.",
+   "ty": "fact",
+   "tq": "Identify the correct institutional partner rather than a nearby agricultural agency.",
+   "sec": "e-NAM mandis in AP and e-marketing"
+  },
+  {
+   "s": "In Andhra Pradesh, e-NAM was integrated with how many markets?",
+   "o": [
+    "23",
+    "33",
+    "39",
+    "52"
+   ],
+   "a": 1,
+   "x": "e-NAM was integrated with 33 markets in Andhra Pradesh.",
+   "ty": "numerical",
+   "tq": "Use the State-specific count and distinguish it from FPO and national coverage figures.",
+   "sec": "e-NAM mandis in AP and e-marketing"
+  },
+  {
+   "s": "Which one of the following is NOT among the commodities specifically mentioned as being traded through e-NAM markets in Andhra Pradesh?",
+   "o": [
+    "Sugarcane",
+    "Cotton",
+    "Turmeric",
+    "Dry chilli"
+   ],
+   "a": 0,
+   "x": "The listed commodities include dry chillies, cotton, turmeric, lemons, onions, tomatoes, groundnut, castor and ajwain. Sugarcane is not included in that list.",
+   "ty": "negative",
+   "tq": "Find the commodity outside the specified list without relying on general agricultural knowledge.",
+   "sec": "e-NAM mandis in AP and e-marketing"
+  },
+  {
+   "s": "Consider the following statements regarding e-NAM in Andhra Pradesh:\n1. The volume traded was 9.01 lakh MT in December 2024.\n2. The value of trade was Rs 5,954.96 crore in December 2024.\n3. The number of registered FPOs was 52 in December 2024.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three figures are reported for December 2024: 9.01 lakh MT, Rs 5,954.96 crore and 52 registered FPOs.",
+   "ty": "statements",
+   "tq": "Read the figures across a comparison table and select the complete set.",
+   "sec": "e-NAM mandis in AP and e-marketing"
+  },
+  {
+   "s": "Which of the following correctly describes the two reported weaknesses in e-NAM implementation in Andhra Pradesh?",
+   "o": [
+    "Online payments were Rs 5,054.86 crore and only 11 mandis traded within one market.",
+    "Online payments were Rs 26.88 lakh and only 11 mandis traded across mandi boundaries.",
+    "Online payments were Rs 13.98 crore and 52 mandis traded across boundaries.",
+    "Online payments were Rs 26.88 crore and 33 mandis traded across boundaries."
+   ],
+   "a": 1,
+   "x": "Online payments amounted to only Rs 26.88 lakh, and just 11 mandis traded across mandi boundaries, involving Rs 13.98 crore.",
+   "ty": "fact",
+   "tq": "Separate the online-payment amount from the cross-boundary trade value.",
+   "sec": "e-NAM mandis in AP and e-marketing"
+  },
+  {
+   "s": "Agmarknet 2.0, developed by NIC in 2025, is primarily a",
+   "o": [
+    "price-information portal",
+    "crop insurance platform",
+    "warehouse financing platform",
+    "fertiliser distribution portal"
+   ],
+   "a": 0,
+   "x": "Agmarknet 2.0 is a price-information portal developed by the National Informatics Centre in 2025.",
+   "ty": "fact",
+   "tq": "Identify the function of the digital platform rather than its developer alone.",
+   "sec": "e-NAM mandis in AP and e-marketing"
+  },
+  {
+   "s": "For perishable commodities, Rythu Bazars serve as the State's quickest market-intervention channel because the Government can",
+   "o": [
+    "replace all wholesale markets with cold stores",
+    "close all private markets permanently",
+    "fix export prices through the Reserve Bank of India",
+    "procure through them to stabilise prices"
+   ],
+   "a": 3,
+   "x": "For perishables, the Government intervenes through procurement in Rythu Bazars to stabilise prices.",
+   "ty": "application",
+   "tq": "Apply the intervention mechanism to the perishable-commodity situation.",
+   "sec": "Market intervention / price stabilisation"
+  },
+  {
+   "s": "Under the Price Support Scheme of PM-AASHA, which commodities are procured at MSP through NAFED and NCCF?",
+   "o": [
+    "Rice, wheat and sugarcane",
+    "Cotton, tobacco and jute",
+    "Onions, tomatoes and lemons",
+    "Pulses, oilseeds and copra"
+   ],
+   "a": 3,
+   "x": "PM-AASHA's Price Support Scheme procures pulses, oilseeds and copra at MSP through NAFED and NCCF.",
+   "ty": "fact",
+   "tq": "Match the scheme with its commodity basket and implementing agencies.",
+   "sec": "Market intervention / price stabilisation"
+  },
+  {
+   "s": "PM-AASHA's Price Support Scheme was introduced in",
+   "o": [
+    "August 2026",
+    "November 2021",
+    "September 2018",
+    "April 2016"
+   ],
+   "a": 2,
+   "x": "The Price Support Scheme under PM-AASHA was introduced in September 2018.",
+   "ty": "numerical",
+   "tq": "Distinguish the scheme's launch date from e-NAM and later price-intervention events.",
+   "sec": "Market intervention / price stabilisation"
+  },
+  {
+   "s": "When retail onion prices reached Rs 62 per kilogram, the Centre sold onions at what price through NAFED and NCCF?",
+   "o": [
+    "Rs 42 per kilogram",
+    "Rs 25 per kilogram",
+    "Rs 35 per kilogram",
+    "Rs 62 per kilogram"
+   ],
+   "a": 2,
+   "x": "The Centre sold onions at Rs 35 per kilogram through NAFED and NCCF when retail prices reached Rs 62 per kilogram.",
+   "ty": "numerical",
+   "tq": "Compare the intervention price with the prevailing retail price.",
+   "sec": "Market intervention / price stabilisation"
+  },
+  {
+   "s": "The Agriculture Infrastructure Fund primarily supports",
+   "o": [
+    "procurement of all crops at a uniform MSP",
+    "construction of only urban wholesale markets",
+    "farm-gate infrastructure at Rythu Bharosa Kendras and conversion of PACS into multipurpose facility centres",
+    "replacement of PACS by private banks"
+   ],
+   "a": 2,
+   "x": "AIF funds farm-gate infrastructure at Rythu Bharosa Kendras and supports the conversion of PACS into multipurpose facility centres.",
+   "ty": "application",
+   "tq": "Identify the scheme's infrastructure focus and the institutions it upgrades.",
+   "sec": "Cold storage, warehousing (APSWC) and post-harvest infrastructure"
+  },
+  {
+   "s": "Under the national Agricultural Marketing Infrastructure programme, how many warehouses were sanctioned with what capacity?",
+   "o": [
+    "98,294 warehouses and 497.96 lakh MT",
+    "49,796 warehouses and 982.94 lakh MT",
+    "49,796 warehouses and 98.294 lakh MT",
+    "39,000 warehouses and 686.0 lakh MT"
+   ],
+   "a": 1,
+   "x": "AMI sanctioned 49,796 warehouses with a total capacity of 982.94 lakh metric tonnes.",
+   "ty": "numerical",
+   "tq": "Keep the warehouse count and capacity in their correct units and order of magnitude.",
+   "sec": "Cold storage, warehousing (APSWC) and post-harvest infrastructure"
+  },
+  {
+   "s": "Which of the following best describes the main post-harvest infrastructure gap identified in Andhra Pradesh?",
+   "o": [
+    "Excess operational storage and surplus cold-storage capacity",
+    "Excessive online payments through e-NAM",
+    "Absence of all market yards despite adequate warehouses",
+    "Limited operational storage and the need for more cold storage"
+   ],
+   "a": 3,
+   "x": "The main gap is limited operational storage, along with the need for additional cold-storage facilities.",
+   "ty": "fact",
+   "tq": "Select the stated constraint rather than an extreme reversal of the trend.",
+   "sec": "Cold storage, warehousing (APSWC) and post-harvest infrastructure"
+  },
+  {
+   "s": "The central scheme for forming 10,000 Farmer Producer Organisations has a budget of",
+   "o": [
+    "Rs 10,000 crore",
+    "Rs 5,000 crore",
+    "Rs 6,860 crore",
+    "Rs 1,000 crore"
+   ],
+   "a": 2,
+   "x": "The central scheme for formation of 10,000 FPOs has a budget allocation of Rs 6,860 crore.",
+   "ty": "numerical",
+   "tq": "Test the scheme's target and budget through the exact financial figure.",
+   "sec": "FPOs in AP and collective marketing"
+  },
+  {
+   "s": "Which one of the following correctly states the institutional arrangement for FPO development in Andhra Pradesh?",
+   "o": [
+    "PACS in 207 blocks are being treated as FPOs, with APCOB as the CBBO.",
+    "PACS in 33 blocks are being treated as FPOs, with NAFED as the CBBO.",
+    "PACS in 207 blocks are being treated as FPOs, with WDRA as the CBBO.",
+    "PACS in 52 blocks are being treated as FPOs, with SFAC as the CBBO."
+   ],
+   "a": 0,
+   "x": "PACS in 207 blocks are being treated as FPOs, and APCOB is the Cluster-Based Business Organisation in this arrangement.",
+   "ty": "fact",
+   "tq": "Match the block count with the correct institutional acronym and authority.",
+   "sec": "FPOs in AP and collective marketing"
+  },
+  {
+   "s": "How many FPOs were integrated with e-NAM in Andhra Pradesh according to the recent State Economic Survey figure?",
+   "o": [
+    "39",
+    "52",
+    "207",
+    "247"
+   ],
+   "a": 0,
+   "x": "The SES 2025-26 figure records 39 FPOs integrated with e-NAM in Andhra Pradesh.",
+   "ty": "numerical",
+   "tq": "Distinguish the current FPO integration count from the earlier figure of 52 and other scheme counts.",
+   "sec": "FPOs in AP and collective marketing"
+  },
+  {
+   "s": "In May 2026, the AP Food Processing Society signed an MoU with which organisation to strengthen FPOs?",
+   "o": [
+    "APCOB",
+    "Ace Agri Business",
+    "NAFED",
+    "SFAC"
+   ],
+   "a": 1,
+   "x": "In May 2026, the AP Food Processing Society signed an MoU with Ace Agri Business to strengthen FPOs.",
+   "ty": "fact",
+   "tq": "Identify the partner organisation in a recent institutional agreement.",
+   "sec": "FPOs in AP and collective marketing"
+  },
+  {
+   "s": "The May 2026 MoU for strengthening FPOs covered which group of commodities?",
+   "o": [
+    "Cocoa, coffee, coconut, dry chilli, turmeric and pepper",
+    "Rice, wheat, sugarcane, cotton, tobacco and jute",
+    "Pulses, oilseeds, copra, rice, wheat and sugarcane",
+    "Onion, potato, tomato, lemon, groundnut and castor only"
+   ],
+   "a": 0,
+   "x": "The MoU covered cocoa, coffee, coconut, dry chilli, turmeric and pepper.",
+   "ty": "fact",
+   "tq": "Test the complete commodity list rather than a partial or substituted list.",
+   "sec": "FPOs in AP and collective marketing"
+  }
+ ]
+}

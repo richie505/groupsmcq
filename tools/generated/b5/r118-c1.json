@@ -1,0 +1,427 @@
+{
+ "book": 5,
+ "row": 118,
+ "chunk": 1,
+ "section": "Health outcomes in India and Andhra Pradesh - IMR, MMR, TFR, life expectancy and nutrition indicators",
+ "subsections": [
+  "TFR - definition, replacement level, values, states, AP",
+  "Nutrition programmes - POSHAN Abhiyaan, PM POSHAN, Anemia Mukt Bharat, fortification",
+  "NFHS rounds - indicators included and excluded",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 29,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Total Fertility Rate (TFR) refers to the:",
+   "o": [
+    "Percentage of women using modern contraceptive methods",
+    "Average age at which women give birth to their first child",
+    "Number of children born per 1,000 women in one year",
+    "Average number of children a woman is expected to have during her reproductive years"
+   ],
+   "a": 3,
+   "x": "TFR is the average number of children a woman is expected to have during her reproductive years.",
+   "ty": "fact",
+   "tq": "Use the precise definition rather than confusing TFR with a crude birth rate or contraceptive prevalence rate.",
+   "sec": "TFR - definition, replacement level, values, states, AP"
+  },
+  {
+   "s": "The replacement-level Total Fertility Rate is generally taken as:",
+   "o": [
+    "1.8",
+    "2.0",
+    "2.1",
+    "2.5"
+   ],
+   "a": 2,
+   "x": "The replacement-level TFR is 2.1, at which a population is broadly able to replace itself from one generation to the next.",
+   "ty": "numerical",
+   "tq": "Recall the standard replacement-level figure and distinguish it from current national values.",
+   "sec": "TFR - definition, replacement level, values, states, AP"
+  },
+  {
+   "s": "Consider the following statements regarding India’s Total Fertility Rate:\n1. India’s TFR was 2.2 according to NFHS-4.\n2. India’s TFR declined to 2.0 according to NFHS-5.\n3. The SRS 2021 also reported India’s TFR as 2.0.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: India’s TFR declined from 2.2 in NFHS-4 to 2.0 in NFHS-5, and SRS 2021 also recorded 2.0.",
+   "ty": "statements",
+   "tq": "Check the chronological trend and identify the option containing all the correct numerical statements.",
+   "sec": "TFR - definition, replacement level, values, states, AP"
+  },
+  {
+   "s": "According to NFHS-5, which pair correctly represents the rural and urban Total Fertility Rates in India?",
+   "o": [
+    "Rural 2.2 and urban 2.0",
+    "Rural 1.6 and urban 2.1",
+    "Rural 2.0 and urban 2.2",
+    "Rural 2.1 and urban 1.6"
+   ],
+   "a": 3,
+   "x": "NFHS-5 reported a rural TFR of 2.1 and an urban TFR of 1.6.",
+   "ty": "comparison",
+   "tq": "Compare the rural and urban figures without reversing the two categories.",
+   "sec": "TFR - definition, replacement level, values, states, AP"
+  },
+  {
+   "s": "As per SRS 2021, which State had the highest Total Fertility Rate in India?",
+   "o": [
+    "Bihar",
+    "Haryana",
+    "Odisha",
+    "Assam"
+   ],
+   "a": 0,
+   "x": "Bihar recorded the highest TFR in SRS 2021, at 3.0.",
+   "ty": "fact",
+   "tq": "Use the highest-value trap and distinguish Bihar from the States at or below replacement level.",
+   "sec": "TFR - definition, replacement level, values, states, AP"
+  },
+  {
+   "s": "Which of the following correctly identifies the lowest TFR values reported by SRS 2021?",
+   "o": [
+    "Kerala and Tamil Nadu — 1.5",
+    "Andhra Pradesh and Telangana — 1.7",
+    "Punjab and Himachal Pradesh — 1.6",
+    "Delhi and West Bengal — 1.4"
+   ],
+   "a": 3,
+   "x": "SRS 2021 reported the lowest TFR of 1.4 for Delhi and West Bengal.",
+   "ty": "numerical",
+   "tq": "Match the lowest value with the correct pair of States rather than selecting States known generally for low fertility.",
+   "sec": "TFR - definition, replacement level, values, states, AP"
+  },
+  {
+   "s": "Which one of the following sets consists entirely of States reported to be at or below the replacement-level TFR?",
+   "o": [
+    "Tamil Nadu, Andhra Pradesh, Kerala, Maharashtra",
+    "Bihar, Uttar Pradesh, Jharkhand, Rajasthan",
+    "Bihar, Assam, Haryana, Gujarat",
+    "Uttar Pradesh, Madhya Pradesh, Bihar, Odisha"
+   ],
+   "a": 0,
+   "x": "Tamil Nadu, Andhra Pradesh, Kerala and Maharashtra are among the States reported at or below the replacement level. Bihar, Uttar Pradesh and several other States in the distractors are not all in that category.",
+   "ty": "statements",
+   "tq": "Find the option in which every member belongs to the specified category.",
+   "sec": "TFR - definition, replacement level, values, states, AP"
+  },
+  {
+   "s": "Which Union Territory was reported by NFHS-6 as having India’s lowest Total Fertility Rate?",
+   "o": [
+    "Delhi",
+    "Andaman and Nicobar Islands",
+    "Puducherry",
+    "Chandigarh"
+   ],
+   "a": 1,
+   "x": "NFHS-6 reported the Andaman and Nicobar Islands as having India’s lowest TFR.",
+   "ty": "fact",
+   "tq": "Discriminate between a Union Territory and States or other Union Territories with low fertility values.",
+   "sec": "TFR - definition, replacement level, values, states, AP"
+  },
+  {
+   "s": "Consider the following statements about Andhra Pradesh:\n1. Its TFR was 1.5 compared with India’s 2.0 in SRS 2020.\n2. Its demographic goal is a TFR of 1.8.\n3. Its contraceptive prevalence rate was 71.1%, compared with 66.7% for India in NFHS-5.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: Andhra Pradesh had a TFR of 1.5, a demographic goal of 1.8 and a contraceptive prevalence rate of 71.1% against India’s 66.7%.",
+   "ty": "statements",
+   "tq": "Verify each State-level figure separately before selecting the coded combination.",
+   "sec": "TFR - definition, replacement level, values, states, AP"
+  },
+  {
+   "s": "POSHAN Abhiyaan was launched in 2018 under which Ministry?",
+   "o": [
+    "Ministry of Women and Child Development",
+    "Ministry of Health and Family Welfare",
+    "Ministry of Education",
+    "Ministry of Rural Development"
+   ],
+   "a": 0,
+   "x": "POSHAN Abhiyaan, also called the National Nutrition Mission, was launched in 2018 under the Ministry of Women and Child Development.",
+   "ty": "fact",
+   "tq": "Apply the ‘who launched or administers the programme?’ authority test.",
+   "sec": "Nutrition programmes - POSHAN Abhiyaan, PM POSHAN, Anemia Mukt Bharat, fortification"
+  },
+  {
+   "s": "Which of the following is NOT one of the stated objectives of POSHAN Abhiyaan?",
+   "o": [
+    "Reducing stunting",
+    "Reducing wasting",
+    "Reducing anaemia and low birth weight",
+    "Increasing the legal retirement age of public employees"
+   ],
+   "a": 3,
+   "x": "POSHAN Abhiyaan aims to reduce stunting, wasting, anaemia and low birth weight. The legal retirement age of public employees is unrelated to the programme.",
+   "ty": "negative",
+   "tq": "Find the option outside the programme’s nutrition-related objectives.",
+   "sec": "Nutrition programmes - POSHAN Abhiyaan, PM POSHAN, Anemia Mukt Bharat, fortification"
+  },
+  {
+   "s": "POSHAN Abhiyaan is based, among other things, on convergence of which of the following programmes or initiatives?\n1. ICDS\n2. National Health Mission\n3. Swachh Bharat\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "POSHAN Abhiyaan promotes convergence among ICDS, the National Health Mission and Swachh Bharat.",
+   "ty": "statements",
+   "tq": "Recognise convergence questions by checking whether all listed programmes support the stated mission.",
+   "sec": "Nutrition programmes - POSHAN Abhiyaan, PM POSHAN, Anemia Mukt Bharat, fortification"
+  },
+  {
+   "s": "The eighth Poshan Pakhwada was held in:",
+   "o": [
+    "2024",
+    "2025",
+    "2026",
+    "2027"
+   ],
+   "a": 2,
+   "x": "The eighth Poshan Pakhwada was held in 2026.",
+   "ty": "numerical",
+   "tq": "Use the event-number and year combination as a direct current-affairs recall point.",
+   "sec": "Nutrition programmes - POSHAN Abhiyaan, PM POSHAN, Anemia Mukt Bharat, fortification"
+  },
+  {
+   "s": "Which of the following correctly describes the beneficiaries of Anganwadi Services under ICDS?",
+   "o": [
+    "Only children below six months of age",
+    "Only elderly persons and persons with disabilities",
+    "Children aged six months to six years, and pregnant and lactating women",
+    "Only school-going children aged six to fourteen years"
+   ],
+   "a": 2,
+   "x": "Anganwadi Services cover children from six months to six years and pregnant and lactating women.",
+   "ty": "fact",
+   "tq": "Distinguish the programme’s target groups from beneficiaries of school or social-security schemes.",
+   "sec": "Nutrition programmes - POSHAN Abhiyaan, PM POSHAN, Anemia Mukt Bharat, fortification"
+  },
+  {
+   "s": "Which one of the following is NOT included among the six services provided through Anganwadi Services?",
+   "o": [
+    "Supplementary nutrition",
+    "Pre-school education",
+    "Referral services",
+    "Old-age pension distribution"
+   ],
+   "a": 3,
+   "x": "The six services include supplementary nutrition, pre-school education, nutrition and health education, immunisation, health check-up and referral services. Old-age pension distribution is not one of them.",
+   "ty": "negative",
+   "tq": "Locate the option that does not belong to the programme’s fixed list of six services.",
+   "sec": "Nutrition programmes - POSHAN Abhiyaan, PM POSHAN, Anemia Mukt Bharat, fortification"
+  },
+  {
+   "s": "The school meal programme formerly known as the Mid-Day Meal Scheme was renamed as PM POSHAN in:",
+   "o": [
+    "2018",
+    "2019",
+    "2020",
+    "2021"
+   ],
+   "a": 3,
+   "x": "The Mid-Day Meal programme was renamed PM POSHAN in 2021.",
+   "ty": "fact",
+   "tq": "Separate the launch year of one nutrition programme from the renaming year of another.",
+   "sec": "Nutrition programmes - POSHAN Abhiyaan, PM POSHAN, Anemia Mukt Bharat, fortification"
+  },
+  {
+   "s": "The 6x6x6 strategy is associated with which programme?",
+   "o": [
+    "Rice fortification under the Public Distribution System",
+    "PM POSHAN",
+    "Anemia Mukt Bharat",
+    "POSHAN Abhiyaan"
+   ],
+   "a": 2,
+   "x": "Anemia Mukt Bharat uses a 6x6x6 strategy consisting of six interventions, six target groups and six institutional mechanisms.",
+   "ty": "confusable",
+   "tq": "Discriminate between similarly themed nutrition programmes by their signature strategy.",
+   "sec": "Nutrition programmes - POSHAN Abhiyaan, PM POSHAN, Anemia Mukt Bharat, fortification"
+  },
+  {
+   "s": "Fortified rice supplied through the Public Distribution System, ICDS and PM POSHAN is fortified with:",
+   "o": [
+    "Protein, calcium and vitamin K",
+    "Calcium, vitamin C and vitamin D",
+    "Iron, folic acid and vitamin B12",
+    "Iodine, zinc and vitamin A only"
+   ],
+   "a": 2,
+   "x": "The specified fortified rice contains iron, folic acid and vitamin B12 and is supplied through the PDS, ICDS and PM POSHAN.",
+   "ty": "fact",
+   "tq": "Match the intervention with its exact micronutrient combination and delivery channels.",
+   "sec": "Nutrition programmes - POSHAN Abhiyaan, PM POSHAN, Anemia Mukt Bharat, fortification"
+  },
+  {
+   "s": "Match List-I with List-II and select the correct answer using the code given below:\n\nList-I (NFHS Round)\na. NFHS-1\nb. NFHS-2\nc. NFHS-3\nd. NFHS-4\n\nList-II (Year)\ni. 2005-06\nii. 1992-93\niii. 2015-16\niv. 1998-99",
+   "o": [
+    "a–ii, b–iv, c–i, d–iii",
+    "a–iv, b–ii, c–iii, d–i",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–iii, b–iv, c–i, d–ii"
+   ],
+   "a": 0,
+   "x": "NFHS-1 was conducted in 1992-93, NFHS-2 in 1998-99, NFHS-3 in 2005-06 and NFHS-4 in 2015-16.",
+   "ty": "match",
+   "tq": "Start with the sure earliest and latest pairs, then complete the middle matches.",
+   "sec": "NFHS rounds - indicators included and excluded"
+  },
+  {
+   "s": "Which one of the following correctly matches the NFHS round with its period?",
+   "o": [
+    "NFHS-2 — 2005-06",
+    "NFHS-3 — 1998-99",
+    "NFHS-5 — 2019-21",
+    "NFHS-6 — 2015-16"
+   ],
+   "a": 2,
+   "x": "NFHS-5 corresponds to 2019-21. NFHS-2 was 1998-99, NFHS-3 was 2005-06 and NFHS-6 was scheduled for 2023-24 with results released in 2026.",
+   "ty": "confusable",
+   "tq": "Use round-to-year matching while rejecting shifted or reversed chronological pairs.",
+   "sec": "NFHS rounds - indicators included and excluded"
+  },
+  {
+   "s": "NFHS is conducted under the Ministry of Health and Family Welfare, with which institution serving as the nodal agency?",
+   "o": [
+    "Indian Council of Medical Research, Hyderabad",
+    "International Institute for Population Sciences, Mumbai",
+    "National Statistical Office, Kolkata",
+    "National Health Authority, New Delhi"
+   ],
+   "a": 1,
+   "x": "NFHS is conducted under the Ministry of Health and Family Welfare, and the International Institute for Population Sciences (IIPS), Mumbai, is the nodal agency.",
+   "ty": "fact",
+   "tq": "Apply the institutional-authority trap by distinguishing the conducting ministry from the nodal agency.",
+   "sec": "NFHS rounds - indicators included and excluded"
+  },
+  {
+   "s": "Which of the following is NOT ordinarily covered as an indicator in the National Family Health Survey?",
+   "o": [
+    "India’s annual gross domestic product growth rate",
+    "Infant and child mortality",
+    "Fertility and family planning",
+    "Maternal and child health"
+   ],
+   "a": 0,
+   "x": "NFHS covers health, mortality, nutrition, immunisation, fertility, family planning and related social indicators. It does not report India’s annual GDP growth rate as a survey indicator.",
+   "ty": "negative",
+   "tq": "Find the unrelated macroeconomic indicator among the health and demographic indicators.",
+   "sec": "NFHS rounds - indicators included and excluded"
+  },
+  {
+   "s": "Which of the following was an addition in NFHS-5?\n1. Death registration\n2. Menstrual hygiene\n3. Alcohol and tobacco use\n4. NCD screening for all persons aged 15 years and above\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "NFHS-5 added death registration, pre-school education, menstrual hygiene, alcohol and tobacco use, and NCD screening for all aged 15 years and above. Thus all four listed additions are correct.",
+   "ty": "statements",
+   "tq": "Treat the additions as a cumulative list and check each item before choosing the complete combination.",
+   "sec": "NFHS rounds - indicators included and excluded"
+  },
+  {
+   "s": "Which statement best describes the reporting of malnutrition in the National Family Health Survey?",
+   "o": [
+    "NFHS reports one single overall malnutrition percentage for the country.",
+    "NFHS reports only wasting and excludes stunting and underweight.",
+    "NFHS reports malnutrition only for urban children.",
+    "NFHS reports stunting, wasting and underweight separately rather than providing one single overall malnutrition percentage."
+   ],
+   "a": 3,
+   "x": "NFHS reports stunting, wasting and underweight as separate indicators; it does not provide one single overall ‘malnutrition percentage’.",
+   "ty": "confusable",
+   "tq": "Distinguish separate indicators from an aggregated figure that the survey does not provide.",
+   "sec": "NFHS rounds - indicators included and excluded"
+  },
+  {
+   "s": "According to NFHS-5, which statement regarding sex ratio is correct?",
+   "o": [
+    "The overall sex ratio was 1020; the rural ratio was 1,037 and the urban ratio was 985.",
+    "The overall sex ratio was 920, with the rural ratio lower than the urban ratio.",
+    "The overall sex ratio was 985; the rural ratio was 1,020 and the urban ratio was 1,037.",
+    "The overall sex ratio was 1,037, while both rural and urban ratios were below 1,000."
+   ],
+   "a": 0,
+   "x": "NFHS-5 reported an overall sex ratio of 1020, with 1,037 in rural areas and 985 in urban areas. The figure 920 refers to the child sex ratio mentioned separately.",
+   "ty": "comparison",
+   "tq": "Avoid the confusable-pair trap between overall sex ratio and child sex ratio, and compare rural with urban values correctly.",
+   "sec": "NFHS rounds - indicators included and excluded"
+  },
+  {
+   "s": "The Child Sex Ratio associated with the NFHS-5 figures was:",
+   "o": [
+    "918",
+    "920",
+    "985",
+    "1020"
+   ],
+   "a": 1,
+   "x": "The Child Sex Ratio cited with NFHS-5 was 920. The overall NFHS-5 sex ratio was 1020.",
+   "ty": "numerical",
+   "tq": "Separate closely placed demographic indicators instead of treating sex ratio and child sex ratio as identical.",
+   "sec": "NFHS rounds - indicators included and excluded"
+  },
+  {
+   "s": "Which of the following correctly describes the recent nutrition findings attributed to NFHS-6?",
+   "o": [
+    "Stunting increased to 31.8%, while underweight declined to 29.3%.",
+    "Stunting declined to 29.3%, while underweight remained at 31.8%.",
+    "Both stunting and underweight declined to 29.3%.",
+    "Both stunting and underweight increased to 31.8%."
+   ],
+   "a": 1,
+   "x": "NFHS-6 findings showed stunting declining to 29.3%, while underweight remained at 31.8%, indicating a continuing double burden of malnutrition.",
+   "ty": "comparison",
+   "tq": "Compare the direction and value of two indicators without swapping their figures.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The term ‘double burden’ in the context of the recent nutrition findings refers to:",
+   "o": [
+    "The simultaneous presence of declining stunting and persistent underweight",
+    "The coexistence of rural and urban sanitation programmes",
+    "The replacement of all nutrition programmes by one scheme",
+    "The simultaneous rise of life expectancy and fertility"
+   ],
+   "a": 0,
+   "x": "The reported double burden is reflected in declining stunting alongside underweight remaining high, at 31.8%.",
+   "ty": "application",
+   "tq": "Apply the concept to the indicator trend rather than treating ‘double burden’ as two separate programmes.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following correctly compares Andhra Pradesh with the national averages mentioned for key health outcomes?",
+   "o": [
+    "Andhra Pradesh performs better than the national averages on IMR, MMR, TFR and life expectancy.",
+    "Andhra Pradesh has the same IMR, MMR, TFR and life expectancy as India.",
+    "Andhra Pradesh has higher IMR, MMR and TFR than India but lower life expectancy.",
+    "Andhra Pradesh performs better only on TFR and worse on all the other listed indicators."
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh was reported to outperform the national averages on IMR, MMR, TFR and life expectancy, with IMR 24, MMR 45 and TFR 1.5.",
+   "ty": "comparison",
+   "tq": "Use the direction of comparison across all listed indicators and reject the partially reversed options.",
+   "sec": "Universal angles"
+  }
+ ]
+}

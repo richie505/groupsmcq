@@ -1,0 +1,696 @@
+{
+ "book": 5,
+ "row": 117,
+ "chunk": 0,
+ "section": "Healthcare delivery in India - three-tier structure, human resources and infrastructure",
+ "subsections": [
+  "Three-tier structure - SHC, PHC, CHC, district hospital, tertiary; norms and counts",
+  "AP delivery network - village health clinics, 104/108, specialty centres",
+  "Health committees - recommendations",
+  "Public vs private delivery - NFHS, curative focus, PPP",
+  "Indian Public Health Standards",
+  "Human resources - doctors, nurses, ASHAs, specialist shortfall",
+  "Ayushman Arogya Mandirs - service package"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 49,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following is regarded as the first contact point in the primary healthcare tier?",
+   "o": [
+    "Sub Health Centre",
+    "Community Health Centre",
+    "Primary Health Centre",
+    "District Hospital"
+   ],
+   "a": 0,
+   "x": "The Sub Health Centre is the first contact point in the primary healthcare tier.",
+   "ty": "fact",
+   "tq": "Directly identify the facility associated with the stated function.",
+   "sec": "Three-tier structure - SHC, PHC, CHC, district hospital, tertiary; norms and counts  [APPSC]"
+  },
+  {
+   "s": "The population norm for a Sub Health Centre in plain areas and hilly-tribal areas respectively is:",
+   "o": [
+    "25,000 and 15,000",
+    "1,20,000 and 80,000",
+    "5,000 and 3,000",
+    "30,000 and 20,000"
+   ],
+   "a": 2,
+   "x": "The population norm for a Sub Health Centre is 5,000 in plain areas and 3,000 in hilly-tribal areas.",
+   "ty": "numerical",
+   "tq": "Compare the paired numerical norms before considering the facility name.",
+   "sec": "Three-tier structure - SHC, PHC, CHC, district hospital, tertiary; norms and counts  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the primary healthcare tier:\n1. The PHC functions as a referral centre for Sub Health Centres.\n2. The population norm for a PHC is 30,000 in plain areas and 20,000 in hilly-tribal areas.\n3. The PHC belongs to the secondary healthcare tier.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the PHC belongs to the primary tier.",
+   "ty": "statements",
+   "tq": "Find the statement that reverses the classification of a facility.",
+   "sec": "Three-tier structure - SHC, PHC, CHC, district hospital, tertiary; norms and counts  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the population norm of a Community Health Centre?",
+   "o": [
+    "Population is fixed at 50,000 in all areas",
+    "30,000 in plain areas and 20,000 in hilly areas",
+    "5,000 in plain areas and 3,000 in hilly areas",
+    "1,20,000 in plain areas and 80,000 in hilly-tribal areas"
+   ],
+   "a": 3,
+   "x": "A Community Health Centre has a norm of 1,20,000 people in plain areas and 80,000 in hilly-tribal areas.",
+   "ty": "numerical",
+   "tq": "Match the facility with its distinctive population range.",
+   "sec": "Three-tier structure - SHC, PHC, CHC, district hospital, tertiary; norms and counts  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "District hospital — Secondary tier",
+    "Medical college — Tertiary tier",
+    "PHC — Tertiary referral hospital",
+    "CHC — Referral centre for PHCs"
+   ],
+   "a": 2,
+   "x": "A PHC is a primary-level referral centre for Sub Health Centres, not a tertiary referral hospital.",
+   "ty": "negative",
+   "tq": "Find the facility placed in the wrong healthcare tier.",
+   "sec": "Three-tier structure - SHC, PHC, CHC, district hospital, tertiary; norms and counts  [APPSC]"
+  },
+  {
+   "s": "Community Health Centres are distinguished in the healthcare structure by the provision of:",
+   "o": [
+    "Operation theatres and beds",
+    "Only outpatient services without beds",
+    "Only mobile medical units",
+    "Medical college education exclusively"
+   ],
+   "a": 0,
+   "x": "CHCs function as referrals for PHCs and are equipped with operation theatres and beds.",
+   "ty": "fact",
+   "tq": "Use the distinctive infrastructure feature to identify the correct facility.",
+   "sec": "Three-tier structure - SHC, PHC, CHC, district hospital, tertiary; norms and counts  [APPSC]"
+  },
+  {
+   "s": "Which of the following facilities belongs to the tertiary healthcare tier?",
+   "o": [
+    "Primary Health Centre",
+    "Super-specialty hospital",
+    "Sub Health Centre",
+    "Community Health Centre"
+   ],
+   "a": 1,
+   "x": "Medical colleges, AIIMS and super-specialty hospitals constitute the tertiary tier, serving a region or state.",
+   "ty": "fact",
+   "tq": "Identify the highest-level facility from the tier structure.",
+   "sec": "Three-tier structure - SHC, PHC, CHC, district hospital, tertiary; norms and counts  [APPSC]"
+  },
+  {
+   "s": "Urban Primary Health Centres generally cover which of the following population and service-radius combinations?",
+   "o": [
+    "25,000–30,000 people within a 2–3 kilometre radius",
+    "50,000–60,000 people within a 10 kilometre radius",
+    "1,20,000–1,50,000 people within a 5 kilometre radius",
+    "5,000–10,000 people within 1 kilometre"
+   ],
+   "a": 0,
+   "x": "Urban PHCs generally cover 25,000–30,000 people within a radius of 2–3 kilometres.",
+   "ty": "comparison",
+   "tq": "Pair the correct population range with the corresponding geographic radius.",
+   "sec": "Three-tier structure - SHC, PHC, CHC, district hospital, tertiary; norms and counts  [APPSC]"
+  },
+  {
+   "s": "According to the stated figures, the number of PHCs as of December 2021 was:",
+   "o": [
+    "725",
+    "11,086",
+    "23,391",
+    "30,045"
+   ],
+   "a": 2,
+   "x": "The stated December 2021 figure is 23,391 PHCs.",
+   "ty": "numerical",
+   "tq": "Distinguish the dated count from the historical and alternative counts.",
+   "sec": "Three-tier structure - SHC, PHC, CHC, district hospital, tertiary; norms and counts  [APPSC]"
+  },
+  {
+   "s": "The number of PHCs increased from 725 in 1950–51 to which figure in 2019, according to the stated APP figure?",
+   "o": [
+    "1,293",
+    "10,032",
+    "23,391",
+    "30,045"
+   ],
+   "a": 3,
+   "x": "The APP figure gives 30,045 PHCs in 2019, compared with 725 in 1950–51; the figure includes urban PHCs.",
+   "ty": "numerical",
+   "tq": "Use the historical comparison rather than the separately dated 2021 count.",
+   "sec": "Three-tier structure - SHC, PHC, CHC, district hospital, tertiary; norms and counts  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the stated number of Village Health Clinics in Andhra Pradesh?",
+   "o": [
+    "173",
+    "1,293",
+    "10,032",
+    "11,086"
+   ],
+   "a": 2,
+   "x": "The stated number of Village Health Clinics is 10,032.",
+   "ty": "numerical",
+   "tq": "Separate the Village Health Clinic count from the Sub Centre and CHC counts.",
+   "sec": "AP delivery network - village health clinics, 104/108, specialty centres  [APPSC]"
+  },
+  {
+   "s": "Consider the following pairs relating to Andhra Pradesh's healthcare network:\na. Sub Centres — 11,086\nb. CHCs — 173\nc. Area Hospitals — 54\nd. District Hospitals — 9\nWhich of the pairs given above are correct?",
+   "o": [
+    "a and b only",
+    "b, c and d only",
+    "a, c and d only",
+    "a, b, c and d"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct: Andhra Pradesh has 11,086 Sub Centres, 173 CHCs, 54 Area Hospitals and 9 District Hospitals in the stated table.",
+   "ty": "statements",
+   "tq": "Verify each numerical pair independently before selecting the coded combination.",
+   "sec": "AP delivery network - village health clinics, 104/108, specialty centres  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly gives the number of Rural PHCs and Urban PHCs respectively in the stated Andhra Pradesh delivery network?",
+   "o": [
+    "10,032 and 11,086",
+    "1,144 and 560",
+    "1,293 and 559",
+    "559 and 1,293"
+   ],
+   "a": 2,
+   "x": "The stated table gives 1,293 Rural PHCs and 559 Urban PHCs.",
+   "ty": "comparison",
+   "tq": "Watch for reversal of the two closely related facility counts.",
+   "sec": "AP delivery network - village health clinics, 104/108, specialty centres  [APPSC]"
+  },
+  {
+   "s": "Under the APSES 2024–25 figures, the converted Ayushman Arogya Mandir network included:",
+   "o": [
+    "10,032 Sub Centres, 1,144 PHCs and 560 UPHCs",
+    "11,086 Sub Centres, 1,293 PHCs and 559 UPHCs",
+    "10,032 PHCs, 1,144 UPHCs and 560 CHCs",
+    "1,144 Sub Centres, 560 PHCs and 10,032 UPHCs"
+   ],
+   "a": 0,
+   "x": "The converted network comprised 10,032 Sub Centres, 1,144 PHCs and 560 UPHCs.",
+   "ty": "match",
+   "tq": "Match each facility category with its corresponding converted count.",
+   "sec": "AP delivery network - village health clinics, 104/108, specialty centres  [APPSC]"
+  },
+  {
+   "s": "With reference to Andhra Pradesh's emergency and mobile health services, which statement is correct?",
+   "o": [
+    "104 is the emergency ambulance service and 108 is the advisory service.",
+    "104 is a specialty hospital network and 108 is a telemedicine platform.",
+    "108 is the emergency ambulance service, while 104 is the mobile medical unit and health advisory service.",
+    "Both 104 and 108 are emergency ambulance services."
+   ],
+   "a": 2,
+   "x": "The 108 service provides emergency ambulances, whereas 104 provides mobile medical units and health advisory services.",
+   "ty": "confusable",
+   "tq": "Discriminate between two easily reversed service numbers.",
+   "sec": "AP delivery network - village health clinics, 104/108, specialty centres  [APPSC]"
+  },
+  {
+   "s": "The Kidney Research Centre and Super Specialty Hospital mentioned in relation to Andhra Pradesh is located at:",
+   "o": [
+    "Anantapur",
+    "Eluru",
+    "Palasa, Srikakulam",
+    "Mangalagiri"
+   ],
+   "a": 2,
+   "x": "The Kidney Research Centre and Super Specialty Hospital is located at Palasa in Srikakulam.",
+   "ty": "fact",
+   "tq": "Use the location-specific hospital association.",
+   "sec": "AP delivery network - village health clinics, 104/108, specialty centres  [APPSC]"
+  },
+  {
+   "s": "Which institution functions as the telemedicine anchor in Andhra Pradesh and has over 2,500 out-patients a day?",
+   "o": [
+    "Kidney Research Centre, Palasa",
+    "District Hospital, Nellore",
+    "Greyfield Hospital, Eluru",
+    "AIIMS Mangalagiri"
+   ],
+   "a": 3,
+   "x": "AIIMS Mangalagiri is the telemedicine anchor and has over 2,500 OPD patients a day.",
+   "ty": "fact",
+   "tq": "Match the institution with its distinctive service role and patient figure.",
+   "sec": "AP delivery network - village health clinics, 104/108, specialty centres  [APPSC]"
+  },
+  {
+   "s": "Greyfield super-specialty blocks were being completed at which set of places?",
+   "o": [
+    "Srikakulam, Kadapa and Ongole",
+    "Palasa, Mangalagiri and Srikakulam",
+    "Anantapur, Nellore and Eluru",
+    "Vijayawada, Guntur and Kurnool"
+   ],
+   "a": 2,
+   "x": "The Greyfield super-specialty blocks were being finished at Anantapur, Nellore and Eluru.",
+   "ty": "fact",
+   "tq": "Identify the complete location set rather than a partially correct pair.",
+   "sec": "AP delivery network - village health clinics, 104/108, specialty centres  [APPSC]"
+  },
+  {
+   "s": "The Bhore Committee was appointed primarily to:",
+   "o": [
+    "Introduce multipurpose health workers",
+    "Survey the state of public health",
+    "Establish village health guides",
+    "Consolidate existing PHCs before expansion"
+   ],
+   "a": 1,
+   "x": "The Bhore Committee was appointed to survey the state of public health.",
+   "ty": "fact",
+   "tq": "Match a committee with its stated mandate, not merely its broad sector.",
+   "sec": "Health committees - recommendations  [APPSC]"
+  },
+  {
+   "s": "Which of the following recommendations is associated with the Bhore Committee?",
+   "o": [
+    "Integrated preventive and curative care with a three-tier PHC-based system",
+    "One PHC for every 50,000 people",
+    "Referral Services Complex through village health guides",
+    "Consolidation of existing PHCs before expansion only"
+   ],
+   "a": 0,
+   "x": "The Bhore Committee recommended integrated preventive and curative care and a three-tier PHC-based system.",
+   "ty": "match",
+   "tq": "Avoid swapping recommendations among committees with similar health-sector mandates.",
+   "sec": "Health committees - recommendations  [APPSC]"
+  },
+  {
+   "s": "Arrange the following committees in chronological order of their reporting or recommendation period:\nA. Shrivastava Committee\nB. Bhore Committee\nC. Kartar Singh Committee\nD. Mudaliar Committee",
+   "o": [
+    "B, D, C, A",
+    "D, B, C, A",
+    "B, C, D, A",
+    "A, C, D, B"
+   ],
+   "a": 0,
+   "x": "The correct sequence is Bhore (1943–46), Mudaliar (1959–62), Kartar Singh (1973), and Shrivastava (1975).",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest committees first, then arrange the middle two.",
+   "sec": "Health committees - recommendations  [APPSC]"
+  },
+  {
+   "s": "Which committee recommended consolidation of existing PHCs before expansion and strengthening of district hospitals?",
+   "o": [
+    "Shrivastava Committee",
+    "Kartar Singh Committee",
+    "Bhore Committee",
+    "Mudaliar Committee"
+   ],
+   "a": 3,
+   "x": "The Mudaliar Committee, working during 1959–62, recommended consolidating existing PHCs before expansion and strengthening district hospitals.",
+   "ty": "fact",
+   "tq": "Match the distinctive reform recommendation with the committee.",
+   "sec": "Health committees - recommendations  [APPSC]"
+  },
+  {
+   "s": "The recommendation of one PHC for every 50,000 people and the introduction of multipurpose health workers are associated with:",
+   "o": [
+    "Mudaliar Committee",
+    "Shrivastava Committee",
+    "Kartar Singh Committee",
+    "Bhore Committee"
+   ],
+   "a": 2,
+   "x": "The Kartar Singh Committee (1973) recommended multipurpose health workers and one PHC per 50,000 people.",
+   "ty": "numerical",
+   "tq": "Link the numerical norm to the committee that proposed it.",
+   "sec": "Health committees - recommendations  [APPSC]"
+  },
+  {
+   "s": "The Shrivastava Committee recommended:",
+   "o": [
+    "Community health volunteers or village health guides and a Referral Services Complex",
+    "Only the expansion of medical colleges",
+    "One PHC per 50,000 people and multipurpose workers",
+    "Consolidation of PHCs before any district hospital strengthening"
+   ],
+   "a": 0,
+   "x": "The Shrivastava Committee (1975) recommended community health volunteers or village health guides and a Referral Services Complex.",
+   "ty": "fact",
+   "tq": "Distinguish the community-volunteer recommendation from other committee proposals.",
+   "sec": "Health committees - recommendations  [APPSC]"
+  },
+  {
+   "s": "According to NFHS-3, the private sector was the main source of care for what proportion of urban households?",
+   "o": [
+    "43%",
+    "60%",
+    "70%",
+    "90%"
+   ],
+   "a": 2,
+   "x": "NFHS-3 reported that the private sector was the main source of care for 70% of urban households.",
+   "ty": "numerical",
+   "tq": "Recall the survey-linked percentage without confusing it with other health-sector shares.",
+   "sec": "Public vs private delivery - NFHS, curative focus, PPP  [other exams]"
+  },
+  {
+   "s": "Which one of the following correctly states the current private-sector care shares given for India?",
+   "o": [
+    "43.4% of inpatient care and 1.43% of outpatient care",
+    "Over 60% of inpatient care and about 70% of outpatient care",
+    "30% of inpatient care and 70% of outpatient care",
+    "About 70% of inpatient care and over 60% of outpatient care"
+   ],
+   "a": 1,
+   "x": "The private sector handles over 60% of inpatient care and about 70% of outpatient care.",
+   "ty": "comparison",
+   "tq": "Keep inpatient and outpatient percentages in their correct order.",
+   "sec": "Public vs private delivery - NFHS, curative focus, PPP  [other exams]"
+  },
+  {
+   "s": "Out-of-pocket expenditure constituted what percentage of total health spending in 2022–23, according to the stated figure?",
+   "o": [
+    "1.43%",
+    "2.5%",
+    "43.4%",
+    "70%"
+   ],
+   "a": 2,
+   "x": "Out-of-pocket expenditure was 43.4% of total health spending in 2022–23.",
+   "ty": "numerical",
+   "tq": "Distinguish the expenditure share from GDP-based government spending figures.",
+   "sec": "Public vs private delivery - NFHS, curative focus, PPP  [other exams]"
+  },
+  {
+   "s": "Government health spending as a percentage of GDP was 1.43%, whereas the National Health Policy 2017 target was:",
+   "o": [
+    "1.5%",
+    "2.0%",
+    "2.5%",
+    "4.0%"
+   ],
+   "a": 2,
+   "x": "Government health spending was stated as 1.43% of GDP against the NHP 2017 target of 2.5%.",
+   "ty": "comparison",
+   "tq": "Compare the actual value with the policy target rather than the OOPE percentage.",
+   "sec": "Public vs private delivery - NFHS, curative focus, PPP  [other exams]"
+  },
+  {
+   "s": "The average hospitalisation cost in a private facility was approximately how much, compared with Rs 6,631 in a government facility?",
+   "o": [
+    "Rs 70,000",
+    "Rs 43,400",
+    "Rs 23,391",
+    "Rs 50,508"
+   ],
+   "a": 3,
+   "x": "The average hospitalisation cost was Rs 50,508 in a private facility, compared with Rs 6,631 in a government facility.",
+   "ty": "numerical",
+   "tq": "Use the paired cost comparison and reject the nearby percentage figures.",
+   "sec": "Public vs private delivery - NFHS, curative focus, PPP  [other exams]"
+  },
+  {
+   "s": "Which of the following was included among the recommendations of the committee concerning hospitalisation costs?",
+   "o": [
+    "Uniform tariffs based only on rural PHC costs",
+    "Standard package rates and tariffs capped near nearby three-star hotel rates",
+    "Removal of all package rates",
+    "A ban on private inpatient care"
+   ],
+   "a": 1,
+   "x": "The committee made 368 recommendations, including standard package rates and tariffs capped near nearby three-star hotel rates.",
+   "ty": "fact",
+   "tq": "Identify the specific regulatory recommendation among plausible policy alternatives.",
+   "sec": "Public vs private delivery - NFHS, curative focus, PPP  [other exams]"
+  },
+  {
+   "s": "Approximately what proportion of health infrastructure is located in urban areas, which contain what proportion of the population?",
+   "o": [
+    "30% infrastructure and 70% population",
+    "50% infrastructure and 50% population",
+    "90% infrastructure and 10% population",
+    "70% infrastructure and 30% population"
+   ],
+   "a": 3,
+   "x": "About 70% of health infrastructure is in urban areas, which contain only 30% of the population.",
+   "ty": "comparison",
+   "tq": "Identify the reversed infrastructure-population distribution trap.",
+   "sec": "Public vs private delivery - NFHS, curative focus, PPP  [other exams]"
+  },
+  {
+   "s": "The latest revision of the Indian Public Health Standards is:",
+   "o": [
+    "IPHS 2017",
+    "IPHS 2005",
+    "IPHS 2022",
+    "IPHS 2012"
+   ],
+   "a": 2,
+   "x": "IPHS 2022 is the latest revision stated for Indian Public Health Standards.",
+   "ty": "fact",
+   "tq": "Recall the latest revision year and avoid substituting a policy year.",
+   "sec": "Indian Public Health Standards"
+  },
+  {
+   "s": "IPHS 2022 sets norms for which of the following groups of facilities?",
+   "o": [
+    "Only district hospitals and medical colleges",
+    "SHC and HWC, PHC, CHC, sub-district hospitals and district hospitals",
+    "Only private hospitals and nursing homes",
+    "Only tertiary super-specialty hospitals"
+   ],
+   "a": 1,
+   "x": "IPHS 2022 covers SHC and HWC, PHC, CHC, sub-district hospitals and district hospitals.",
+   "ty": "statements",
+   "tq": "Select the complete scope instead of an artificially restricted list.",
+   "sec": "Indian Public Health Standards"
+  },
+  {
+   "s": "Which statement regarding Andhra Pradesh's Urban Primary Health Centres is correct?",
+   "o": [
+    "They have not been brought under IPHS norms.",
+    "All UPHCs are medical colleges.",
+    "They have been upgraded to IPHS norms; 92 are NQAS-certified and 267 scored above 70% for Kayakalp.",
+    "Only 9 UPHCs are NQAS-certified."
+   ],
+   "a": 2,
+   "x": "AP's UPHCs have been upgraded to IPHS norms; 92 are NQAS-certified and 267 scored above 70% for Kayakalp.",
+   "ty": "statements",
+   "tq": "Combine the norm, certification and performance figures without dropping one part.",
+   "sec": "Indian Public Health Standards"
+  },
+  {
+   "s": "The stated doctor-population ratio for NMC-registered allopathic doctors is approximately:",
+   "o": [
+    "1:1,000",
+    "1:500",
+    "1:2,500",
+    "1:834"
+   ],
+   "a": 3,
+   "x": "The stated doctor-population ratio is approximately 1:834 for NMC-registered allopathic doctors.",
+   "ty": "numerical",
+   "tq": "Distinguish the observed ratio from the WHO benchmark.",
+   "sec": "Human resources - doctors, nurses, ASHAs, specialist shortfall"
+  },
+  {
+   "s": "The WHO norm against which India's doctor-population ratio is compared is:",
+   "o": [
+    "1:500",
+    "1:834",
+    "1:1,000",
+    "1:10,000"
+   ],
+   "a": 2,
+   "x": "The WHO norm stated for the doctor-population ratio is 1:1,000.",
+   "ty": "numerical",
+   "tq": "Separate the benchmark from the country-specific ratio.",
+   "sec": "Human resources - doctors, nurses, ASHAs, specialist shortfall"
+  },
+  {
+   "s": "Why may the real availability of doctors be lower than the registered doctor-population ratio suggests?",
+   "o": [
+    "Doctors are distributed uniformly only in rural areas.",
+    "Doctors cluster in cities.",
+    "All doctors work exclusively in district hospitals.",
+    "The ratio includes only nurses and ASHAs."
+   ],
+   "a": 1,
+   "x": "The real availability is lower because doctors are concentrated in cities rather than being evenly distributed.",
+   "ty": "application",
+   "tq": "Apply the distributional qualification to an apparently favourable ratio.",
+   "sec": "Human resources - doctors, nurses, ASHAs, specialist shortfall"
+  },
+  {
+   "s": "Which of the following correctly describes human-resource challenges in rural healthcare?",
+   "o": [
+    "The nurse ratio exceeds global norms and rural CHCs have no vacancies.",
+    "The nurse ratio is below global norms and specialist posts at rural CHCs have high vacancies.",
+    "Only urban CHCs face specialist vacancies.",
+    "Rural CHCs have surplus specialists and no nursing shortage."
+   ],
+   "a": 1,
+   "x": "The nurse ratio is below global norms, while specialist posts at rural CHCs have high vacancies.",
+   "ty": "statements",
+   "tq": "Identify the option that preserves both linked shortages.",
+   "sec": "Human resources - doctors, nurses, ASHAs, specialist shortfall"
+  },
+  {
+   "s": "Each Andhra Pradesh Urban Primary Health Centre has how many staff, according to the stated APSES figure?",
+   "o": [
+    "5",
+    "7",
+    "9",
+    "12"
+   ],
+   "a": 1,
+   "x": "Each AP UPHC has seven staff members.",
+   "ty": "numerical",
+   "tq": "Recall the facility-level staffing number directly.",
+   "sec": "Human resources - doctors, nurses, ASHAs, specialist shortfall"
+  },
+  {
+   "s": "In Andhra Pradesh's UPHC system, field work is handled primarily by:",
+   "o": [
+    "ANMs and ASHAs",
+    "Medical college professors and district collectors",
+    "Only private specialists",
+    "Hospital administrators and pharmacists"
+   ],
+   "a": 0,
+   "x": "ANMs and ASHAs handle field work in the AP UPHC system.",
+   "ty": "fact",
+   "tq": "Match the operational role with the correct frontline workers.",
+   "sec": "Human resources - doctors, nurses, ASHAs, specialist shortfall"
+  },
+  {
+   "s": "Which category of health personnel is stated to carry the heaviest workload?",
+   "o": [
+    "Community workers",
+    "Tertiary-care surgeons",
+    "Private hospital owners",
+    "Medical college administrators"
+   ],
+   "a": 0,
+   "x": "Community workers are stated to carry the heaviest workload.",
+   "ty": "fact",
+   "tq": "Identify the workload-related observation without confusing it with staffing numbers.",
+   "sec": "Human resources - doctors, nurses, ASHAs, specialist shortfall"
+  },
+  {
+   "s": "Ayushman Arogya Mandirs were launched in:",
+   "o": [
+    "2014",
+    "2017",
+    "2018",
+    "2022"
+   ],
+   "a": 2,
+   "x": "Ayushman Arogya Mandirs were launched in 2018.",
+   "ty": "fact",
+   "tq": "Recall the launch year, distinct from the later renaming and count milestones.",
+   "sec": "Ayushman Arogya Mandirs - service package"
+  },
+  {
+   "s": "By December 2022, how many Health and Wellness Centres had been built by upgrading Sub Health Centres and PHCs?",
+   "o": [
+    "50,000",
+    "92,000",
+    "1,00,000",
+    "1,50,000"
+   ],
+   "a": 3,
+   "x": "By December 2022, 1,50,000 HWCs had been built by upgrading SHCs and PHCs; they were later renamed Ayushman Arogya Mandirs.",
+   "ty": "numerical",
+   "tq": "Distinguish the December 2022 milestone from the later functioning count.",
+   "sec": "Ayushman Arogya Mandirs - service package"
+  },
+  {
+   "s": "The number of Ayushman Arogya Mandirs functioning at present in the stated figure is more than:",
+   "o": [
+    "1.14 lakh",
+    "1.50 lakh",
+    "1.79 lakh",
+    "2.50 lakh"
+   ],
+   "a": 2,
+   "x": "More than 1.79 lakh Ayushman Arogya Mandirs are stated to be functioning.",
+   "ty": "numerical",
+   "tq": "Separate the current count from the earlier construction milestone.",
+   "sec": "Ayushman Arogya Mandirs - service package"
+  },
+  {
+   "s": "Which of the following is included in the Comprehensive Primary Health Care package of Ayushman Arogya Mandirs?",
+   "o": [
+    "NCD screening including hypertension, diabetes and oral, breast and cervical cancer",
+    "Only emergency ambulance operations",
+    "Only tertiary surgical procedures",
+    "Only maternal health and immunisation"
+   ],
+   "a": 0,
+   "x": "The CPHC package includes NCD screening for hypertension, diabetes, and oral, breast and cervical cancers, along with several other services.",
+   "ty": "application",
+   "tq": "Recognise the broad primary-care package from its specific screening components.",
+   "sec": "Ayushman Arogya Mandirs - service package"
+  },
+  {
+   "s": "Consider the following services:\n1. Mental health\n2. ENT and eye care\n3. Geriatric and palliative care\n4. Yoga and wellness\nWhich of the services given above form part of the CPHC package at Ayushman Arogya Mandirs?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Mental health, ENT, eye care, geriatric and palliative care, and Yoga and wellness are all included in the stated CPHC package.",
+   "ty": "statements",
+   "tq": "Check each service against the complete package before choosing the all-inclusive option.",
+   "sec": "Ayushman Arogya Mandirs - service package"
+  },
+  {
+   "s": "Which pair correctly states the medicines and diagnostics available at AAM-PHCs?",
+   "o": [
+    "106 drugs and 63 diagnostics",
+    "172 drugs and 63 diagnostics",
+    "172 drugs and 14 diagnostics",
+    "106 drugs and 14 diagnostics"
+   ],
+   "a": 1,
+   "x": "AAM-PHCs provide 172 drugs and 63 diagnostics.",
+   "ty": "numerical",
+   "tq": "Keep the drug count and diagnostic count paired with the correct facility level.",
+   "sec": "Ayushman Arogya Mandirs - service package"
+  },
+  {
+   "s": "At AAM-SHCs, the stated availability is:",
+   "o": [
+    "106 drugs and 14 diagnostics",
+    "106 drugs and 63 diagnostics",
+    "63 drugs and 14 diagnostics",
+    "172 drugs and 63 diagnostics"
+   ],
+   "a": 0,
+   "x": "AAM-SHCs provide 106 drugs and 14 diagnostics.",
+   "ty": "comparison",
+   "tq": "Compare the SHC package with the larger PHC package without reversing the figures.",
+   "sec": "Ayushman Arogya Mandirs - service package"
+  }
+ ]
+}

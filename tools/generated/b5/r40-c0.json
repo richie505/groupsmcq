@@ -1,0 +1,668 @@
+{
+ "book": 5,
+ "row": 40,
+ "chunk": 0,
+ "section": "Recent Indian satellite launches and their applications",
+ "subsections": [
+  "Recent launches → vehicle + orbit + purpose",
+  "Mission FIRSTs - SpaDeX, demand-driven, records",
+  "Student, university and women-built satellites → builder",
+  "Foreign customer satellites → country + vehicle",
+  "Private surveillance and startup satellites → company",
+  "Launch failures and orbital re-entries",
+  "Joint missions → partner agency + objective"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 52,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 4,
+  "dupe_of_pyq": 2
+ },
+ "accepted": [
+  {
+   "s": "Which launch vehicle placed RISAT-2BR1 into orbit in December 2019?",
+   "o": [
+    "PSLV-C19",
+    "GSLV-F14",
+    "PSLV-C48",
+    "SSLV-D2"
+   ],
+   "a": 2,
+   "x": "RISAT-2BR1 was launched by PSLV-C48 in December 2019.",
+   "ty": "fact",
+   "tq": "Identify the vehicle directly associated with the satellite.",
+   "sec": "Recent launches → vehicle + orbit + purpose"
+  },
+  {
+   "s": "RISAT-2BR1 is primarily associated with which combination of applications?",
+   "o": [
+    "Radar imaging, disaster management and surveillance",
+    "X-ray polarimetry and astronomy",
+    "Meteorology and navigation",
+    "Thermal infrared imaging of natural resources"
+   ],
+   "a": 0,
+   "x": "RISAT-2BR1 serves radar imaging, disaster management and surveillance applications.",
+   "ty": "application",
+   "tq": "Match the satellite with its stated operational purpose.",
+   "sec": "Recent launches → vehicle + orbit + purpose"
+  },
+  {
+   "s": "Consider the following statements regarding RISAT-1:\n1. It was launched by PSLV-C19.\n2. It uses C-band SAR at 5.35 GHz.\n3. It provides day-night, all-weather imaging.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. RISAT-1 was launched by PSLV-C19 and used 5.35 GHz C-band SAR for day-night, all-weather imaging.",
+   "ty": "statements",
+   "tq": "Check each technical specification separately before selecting the coded combination.",
+   "sec": "Recent launches → vehicle + orbit + purpose"
+  },
+  {
+   "s": "EOS-07, launched by SSLV-D2 on 10 February 2023, was intended mainly for:",
+   "o": [
+    "Communication through GTO",
+    "Navigation and timing services",
+    "Earth observation and technology demonstration",
+    "X-ray polarimetry"
+   ],
+   "a": 2,
+   "x": "EOS-07 was an Earth-observation and technology-demonstration mission launched by SSLV-D2.",
+   "ty": "fact",
+   "tq": "Use the purpose to distinguish an Earth-observation satellite from communication and navigation satellites.",
+   "sec": "Recent launches → vehicle + orbit + purpose"
+  },
+  {
+   "s": "XPoSat was launched by PSLV-C58 on 1 January 2024 for:",
+   "o": [
+    "Weather forecasting",
+    "C-band radar imaging",
+    "X-ray polarimetry",
+    "Satellite navigation"
+   ],
+   "a": 2,
+   "x": "XPoSat is a scientific mission dedicated to X-ray polarimetry.",
+   "ty": "fact",
+   "tq": "Discriminate the distinctive scientific payload purpose from common satellite applications.",
+   "sec": "Recent launches → vehicle + orbit + purpose"
+  },
+  {
+   "s": "Which one of the following correctly describes INSAT-3DS?",
+   "o": [
+    "It was launched by SSLV-D2 for technology demonstration alone.",
+    "It was launched by LVM3-M5 for direct-to-smartphone broadband.",
+    "It was launched by PSLV-C58 into a sun-synchronous polar orbit for X-ray studies.",
+    "It was launched by GSLV-F14 into GTO for meteorology and disaster warning, with funding from MoES."
+   ],
+   "a": 3,
+   "x": "INSAT-3DS was launched by GSLV-F14 on 17 February 2024 into GTO. Its purposes include meteorology and disaster warning, and it was funded by the Ministry of Earth Sciences.",
+   "ty": "confusable",
+   "tq": "Separate the vehicle, orbit, date and purpose instead of relying on the satellite name alone.",
+   "sec": "Recent launches → vehicle + orbit + purpose"
+  },
+  {
+   "s": "Which satellite was intended for NavIC navigation but missed its intended orbit?",
+   "o": [
+    "EOS-07",
+    "NVS-02",
+    "CMS-03",
+    "INSAT-3DS"
+   ],
+   "a": 1,
+   "x": "NVS-02, launched by GSLV-F15 in January 2025, was intended for NavIC navigation but missed its intended orbit.",
+   "ty": "fact",
+   "tq": "Link the unusual mission outcome with the correct navigation satellite.",
+   "sec": "Recent launches → vehicle + orbit + purpose"
+  },
+  {
+   "s": "NISAR, launched by GSLV-F16 on 30 July 2025, is associated with:",
+   "o": [
+    "Earth observation in a sun-synchronous polar orbit with NASA",
+    "Communication services in geostationary orbit",
+    "Meteorological observations in GTO",
+    "Navigation through NavIC"
+   ],
+   "a": 0,
+   "x": "NISAR is an Earth-observation mission with NASA and was placed in a sun-synchronous polar orbit.",
+   "ty": "fact",
+   "tq": "Use the mission's international partnership and orbit-purpose combination.",
+   "sec": "Recent launches → vehicle + orbit + purpose"
+  },
+  {
+   "s": "CMS-03 was launched by which vehicle and is intended primarily for communication?",
+   "o": [
+    "GSLV-F10",
+    "GSLV-F17",
+    "PSLV-C60",
+    "LVM3-M5"
+   ],
+   "a": 3,
+   "x": "CMS-03 was launched by LVM3-M5 on 2 November 2025 for communication purposes.",
+   "ty": "fact",
+   "tq": "Pair the communication satellite with its launch vehicle rather than with navigation vehicles.",
+   "sec": "Recent launches → vehicle + orbit + purpose"
+  },
+  {
+   "s": "EOS-05, launched by GSLV-F17 in September 2026, is described as an ‘eye in the sky’ for which purposes?",
+   "o": [
+    "Agriculture, environment and disaster management",
+    "Only intercontinental communication",
+    "Space docking and orbital refuelling",
+    "X-ray polarimetry and solar studies"
+   ],
+   "a": 0,
+   "x": "EOS-05 is a geo-platform imaging satellite intended for agriculture, environmental monitoring and disaster applications.",
+   "ty": "application",
+   "tq": "Interpret the mission description through its stated application areas.",
+   "sec": "Recent launches → vehicle + orbit + purpose"
+  },
+  {
+   "s": "Which one of the following launch-date statements is correct?",
+   "o": [
+    "NISAR was launched by PSLV-C56 in 2023.",
+    "INSAT-3DS was launched by GSLV-F14 in 2024.",
+    "Aditya-L1 was launched by PSLV-C48 in 2019.",
+    "DS-SAR was launched by PSLV-C59 in 2024."
+   ],
+   "a": 1,
+   "x": "INSAT-3DS was launched by GSLV-F14 in 2024. Aditya-L1 was launched by PSLV-C57 in 2023, DS-SAR by PSLV-C56 in 2023, and NISAR by GSLV-F16 in 2025.",
+   "ty": "negative",
+   "tq": "Find the correctly matched vehicle and year among closely related launch facts.",
+   "sec": "Recent launches → vehicle + orbit + purpose"
+  },
+  {
+   "s": "SpaDeX was launched by PSLV-C60 on 30 December 2024 into an orbit of approximately:",
+   "o": [
+    "400 km",
+    "450 km",
+    "474 km",
+    "550 km"
+   ],
+   "a": 2,
+   "x": "SpaDeX was launched into a 474-km orbit by PSLV-C60 on 30 December 2024.",
+   "ty": "numerical",
+   "tq": "Distinguish the exact orbital figure from nearby mission altitudes.",
+   "sec": "Mission FIRSTs - SpaDeX, demand-driven, records"
+  },
+  {
+   "s": "On what date did the SpaDeX spacecraft achieve docking?",
+   "o": [
+    "30 December 2024",
+    "16 January 2025",
+    "24 December 2025",
+    "1 January 2025"
+   ],
+   "a": 1,
+   "x": "SpaDeX achieved docking on 16 January 2025 after its launch on 30 December 2024.",
+   "ty": "fact",
+   "tq": "Separate the launch date from the later milestone date.",
+   "sec": "Mission FIRSTs - SpaDeX, demand-driven, records"
+  },
+  {
+   "s": "India became the fourth country to dock in space through SpaDeX. Which of the following countries were identified as the earlier three?",
+   "o": [
+    "Japan, France and Germany",
+    "United Kingdom, Japan and France",
+    "United States, Russia and China",
+    "United States, India and China"
+   ],
+   "a": 2,
+   "x": "The United States, Russia and China had achieved space docking before India, making India the fourth country through SpaDeX.",
+   "ty": "fact",
+   "tq": "Use the stated ordinal ranking and identify the complete preceding group.",
+   "sec": "Mission FIRSTs - SpaDeX, demand-driven, records"
+  },
+  {
+   "s": "The SpaDeX capability is particularly needed for which proposed Indian space facility?",
+   "o": [
+    "National Remote Sensing Centre",
+    "Indian Deep Space Network",
+    "Bharatiya Antariksh Station",
+    "NavIC Control Station"
+   ],
+   "a": 2,
+   "x": "Space docking capability demonstrated by SpaDeX is needed for the Bharatiya Antariksh Station.",
+   "ty": "application",
+   "tq": "Connect a technology demonstration with its stated future application.",
+   "sec": "Mission FIRSTs - SpaDeX, demand-driven, records"
+  },
+  {
+   "s": "Which satellite is recognised as India’s first demand-driven satellite?",
+   "o": [
+    "NVS-02",
+    "GSAT-1",
+    "GSAT-24",
+    "CMS-03"
+   ],
+   "a": 2,
+   "x": "GSAT-24, associated with NSIL and launched in 2022, is identified as the first demand-driven satellite.",
+   "ty": "fact",
+   "tq": "Identify the mission associated with the distinctive ‘first’ description.",
+   "sec": "Mission FIRSTs - SpaDeX, demand-driven, records"
+  },
+  {
+   "s": "The heaviest satellite launched by an Indian vehicle, weighing 6,100 kg, was:",
+   "o": [
+    "NISAR",
+    "INSAT-3DS",
+    "BlueBird Block-2",
+    "CMS-03"
+   ],
+   "a": 2,
+   "x": "BlueBird Block-2, weighing 6,100 kg, was launched by LVM3-M6 on 24 December 2025 and constituted the stated heaviest-satellite record.",
+   "ty": "numerical",
+   "tq": "Use the exact record figure to distinguish similarly large payloads.",
+   "sec": "Mission FIRSTs - SpaDeX, demand-driven, records"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "SATYABAMASAT — Sathyabama University, Chennai",
+    "Jugnu — IIT Kanpur",
+    "ANUSAT — Anna University",
+    "StudSat — Indian Space Research Organisation"
+   ],
+   "a": 3,
+   "x": "StudSat was built by a consortium of engineering colleges in Karnataka and Andhra Pradesh and was India’s first pico-satellite; it was not built by ISRO.",
+   "ty": "negative",
+   "tq": "Find the swapped builder in a list of student and university satellites.",
+   "sec": "Student, university and women-built satellites → builder"
+  },
+  {
+   "s": "Which satellite was built by Space Kidz India?",
+   "o": [
+    "ANUSAT",
+    "Kalamsat-V2",
+    "WESAT",
+    "Jugnu"
+   ],
+   "a": 1,
+   "x": "Kalamsat-V2 was built by Space Kidz India.",
+   "ty": "fact",
+   "tq": "Recall the organisation associated with the satellite builder.",
+   "sec": "Student, university and women-built satellites → builder"
+  },
+  {
+   "s": "AzaadiSAT was built by Space Kidz India with the participation of:",
+   "o": [
+    "75 women scientists",
+    "750 university professors",
+    "75 engineering colleges only",
+    "750 girl students"
+   ],
+   "a": 3,
+   "x": "AzaadiSAT was built by Space Kidz India with the participation of 750 girl students.",
+   "ty": "numerical",
+   "tq": "Retain the exact participation figure attached to the satellite.",
+   "sec": "Student, university and women-built satellites → builder"
+  },
+  {
+   "s": "Which satellite was the first Indian satellite fully built by women students?",
+   "o": [
+    "StudSat",
+    "SATYABAMASAT",
+    "AzaadiSAT",
+    "WESAT"
+   ],
+   "a": 3,
+   "x": "WESAT, built by the LBS Institute of Technology for Women in Kerala, was the first Indian satellite fully built by women students.",
+   "ty": "fact",
+   "tq": "Distinguish the women-student first from the satellite involving 750 girl students.",
+   "sec": "Student, university and women-built satellites → builder"
+  },
+  {
+   "s": "Consider the following statements:\n1. GSAT-1 was a student satellite.\n2. GSAT-1 was the first GSLV payload.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 1,
+   "x": "GSAT-1 was not a student satellite; it was the first GSLV payload in 2001. Therefore, only statement 2 is correct.",
+   "ty": "statements",
+   "tq": "Use the explicit exception to reject a tempting classification.",
+   "sec": "Student, university and women-built satellites → builder"
+  },
+  {
+   "s": "Duchifat-3, a foreign customer satellite launched by PSLV-C48, belonged to which country?",
+   "o": [
+    "Israel",
+    "United Kingdom",
+    "United States",
+    "France"
+   ],
+   "a": 0,
+   "x": "Duchifat-3 was an Israeli satellite launched by PSLV-C48.",
+   "ty": "fact",
+   "tq": "Pair the foreign satellite with its country and vehicle.",
+   "sec": "Foreign customer satellites → country + vehicle"
+  },
+  {
+   "s": "Proba-3 was launched by PSLV-C59 in December 2024 for which agency?",
+   "o": [
+    "NASA",
+    "CNES",
+    "ESA",
+    "JAXA"
+   ],
+   "a": 2,
+   "x": "Proba-3 was an ESA satellite mission launched by PSLV-C59 in December 2024.",
+   "ty": "fact",
+   "tq": "Distinguish the European agency from the agencies involved in other joint missions.",
+   "sec": "Foreign customer satellites → country + vehicle"
+  },
+  {
+   "s": "Which one of the following correctly describes BlueBird Block-2?",
+   "o": [
+    "A US satellite of AST SpaceMobile launched by LVM3-M6, with a 223 m² phased array for direct-to-smartphone broadband.",
+    "An ESA solar satellite launched by PSLV-C59 for corona studies.",
+    "A UK navigation satellite launched by PSLV-C48 with a 64 m² radar antenna.",
+    "An Israeli weather satellite launched by GSLV-F14 for disaster warning."
+   ],
+   "a": 0,
+   "x": "BlueBird Block-2 belongs to AST SpaceMobile of the United States. It was launched by LVM3-M6 and has a 223 m² phased array for direct-to-smartphone broadband.",
+   "ty": "application",
+   "tq": "Combine ownership, vehicle, antenna size and application to avoid mixed attributes.",
+   "sec": "Foreign customer satellites → country + vehicle"
+  },
+  {
+   "s": "As reported for the Indian space programme, ISRO had launched how many foreign satellites of more than 34 countries?",
+   "o": [
+    "104",
+    "138",
+    "141",
+    "433"
+   ],
+   "a": 3,
+   "x": "ISRO had launched 433 foreign satellites from more than 34 countries; more than half were from the United States.",
+   "ty": "numerical",
+   "tq": "Distinguish the overall ISRO total from the smaller NSIL figures.",
+   "sec": "Foreign customer satellites → country + vehicle"
+  },
+  {
+   "s": "Shakuntala, a hyperspectral satellite, was developed by:",
+   "o": [
+    "Skyroot",
+    "Dhruva Space",
+    "Tata Advanced Systems",
+    "Pixxel"
+   ],
+   "a": 3,
+   "x": "Shakuntala is a hyperspectral satellite developed by Pixxel.",
+   "ty": "fact",
+   "tq": "Identify the private company from the satellite’s distinctive technology.",
+   "sec": "Private surveillance and startup satellites → company"
+  },
+  {
+   "s": "Which organisations formed part of the PPP EOS constellation led by Pixxel and approved by IN-SPACe?",
+   "o": [
+    "Grahaa Space, Cosmoserve and CNES",
+    "Skyroot, Axiom Space and JAXA",
+    "Tata Advanced Systems, NASA and ESA",
+    "Dhruva Space, SatSure and Piersight"
+   ],
+   "a": 3,
+   "x": "The IN-SPACe-approved PPP EOS constellation was led by Pixxel with Dhruva Space, SatSure and Piersight.",
+   "ty": "fact",
+   "tq": "Identify the participating private organisations without substituting partners from other missions.",
+   "sec": "Private surveillance and startup satellites → company"
+  },
+  {
+   "s": "Vikram-1 carried which combination of startup payloads to 450 km LEO?",
+   "o": [
+    "NISAR, TRISHNA and Proba-3",
+    "SCOPE, SOLARAS S3 and Embrace",
+    "AzaadiSAT, WESAT and ANUSAT",
+    "Shakuntala, Thybolt and TSAT-1A"
+   ],
+   "a": 1,
+   "x": "Skyroot’s Vikram-1 carried Skyroot’s SCOPE, Grahaa Space’s SOLARAS S3 and Cosmoserve’s Embrace to 450 km low Earth orbit.",
+   "ty": "fact",
+   "tq": "Associate the launch vehicle mission with its three named startup payloads.",
+   "sec": "Private surveillance and startup satellites → company"
+  },
+  {
+   "s": "Which mission and lost payload are correctly matched?",
+   "o": [
+    "GSLV-F10 — INSAT-3DS",
+    "SSLV-D1 — EOS-03 only",
+    "GSLV-F02 — INSAT-4C",
+    "PSLV-C61 — EOS-02 and AzaadiSAT"
+   ],
+   "a": 2,
+   "x": "GSLV-F02 lost INSAT-4C in 2006. GSLV-F10 lost EOS-03, SSLV-D1 lost EOS-02 and AzaadiSAT, and PSLV-C61 lost EOS-09.",
+   "ty": "negative",
+   "tq": "Find the correctly matched failure and payload among swapped mission pairs.",
+   "sec": "Launch failures and orbital re-entries"
+  },
+  {
+   "s": "The GSLV-F10 failure in 2021 resulted in the loss of:",
+   "o": [
+    "EOS-03/GISAT-1",
+    "INSAT-4C",
+    "EOS-N1/Anvesha",
+    "EOS-09/RISAT-1B"
+   ],
+   "a": 0,
+   "x": "GSLV-F10 failed in 2021, resulting in the loss of EOS-03, also designated GISAT-1.",
+   "ty": "fact",
+   "tq": "Distinguish payload names associated with different launch failures.",
+   "sec": "Launch failures and orbital re-entries"
+  },
+  {
+   "s": "Which payloads were lost in the SSLV-D1 failure of 2022?",
+   "o": [
+    "EOS-02 and AzaadiSAT",
+    "EOS-09 and AayulSAT",
+    "EOS-03 and GISAT-1",
+    "INSAT-4C and EOS-N1"
+   ],
+   "a": 0,
+   "x": "The SSLV-D1 failure in 2022 resulted in the loss of EOS-02 and AzaadiSAT.",
+   "ty": "fact",
+   "tq": "Recall the paired payloads rather than confusing them with GSLV failures.",
+   "sec": "Launch failures and orbital re-entries"
+  },
+  {
+   "s": "Consider the following statements about PSLV-C61:\n1. It was launched on 18 May 2025.\n2. It lost EOS-09, also known as RISAT-1B.\n3. EOS-09 carried a C-band SAR payload.\n4. The failure occurred at the third stage.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct regarding the PSLV-C61 failure and EOS-09/RISAT-1B.",
+   "ty": "statements",
+   "tq": "Verify date, alternate name, payload type and failure stage independently.",
+   "sec": "Launch failures and orbital re-entries"
+  },
+  {
+   "s": "Which one of the following statements about PSLV-C62 is correct?",
+   "o": [
+    "It successfully placed NISAR into its intended orbit.",
+    "Its third stage did not ignite, resulting in the loss of EOS-N1 ‘Anvesha’ and 15 co-passengers.",
+    "It failed because the first stage did not ignite and lost INSAT-4C.",
+    "It carried only a Spanish re-entry capsule and no satellite payload."
+   ],
+   "a": 1,
+   "x": "On 12 January 2026, PSLV-C62 suffered failure of its third-stage ignition and lost EOS-N1 ‘Anvesha’ along with 15 co-passengers.",
+   "ty": "fact",
+   "tq": "Use the failed stage and payload count to separate PSLV-C62 from earlier failures.",
+   "sec": "Launch failures and orbital re-entries"
+  },
+  {
+   "s": "EOS-N1 ‘Anvesha’, lost during PSLV-C62, was a DRDO satellite of approximately:",
+   "o": [
+    "104 kg",
+    "400 kg",
+    "450 kg",
+    "6,100 kg"
+   ],
+   "a": 1,
+   "x": "EOS-N1 ‘Anvesha’ was a 400-kg DRDO hyperspectral satellite.",
+   "ty": "numerical",
+   "tq": "Use the payload mass and technical description as identifying clues.",
+   "sec": "Launch failures and orbital re-entries"
+  },
+  {
+   "s": "Which of the following is correctly associated with the PSLV-C62 co-passengers?",
+   "o": [
+    "AayulSAT was a navigation satellite, while MOI-1 was a solar coronagraph.",
+    "AayulSAT was a weather satellite, while MOI-1 was a lunar lander.",
+    "AayulSAT was the first on-orbit refuelling demonstrator, while MOI-1 was an AI image laboratory.",
+    "Both AayulSAT and MOI-1 were foreign communication satellites."
+   ],
+   "a": 2,
+   "x": "AayulSAT was identified as the first on-orbit refuelling demonstrator and MOI-1 as an AI image laboratory among the PSLV-C62 co-passengers.",
+   "ty": "application",
+   "tq": "Match each unusual payload description with its correct satellite name.",
+   "sec": "Launch failures and orbital re-entries"
+  },
+  {
+   "s": "What additional institutional step was associated with the investigation of the PSLV failure reported on 3 February 2026?",
+   "o": [
+    "A parliamentary committee replaced the launch team.",
+    "The mission was transferred to NASA for investigation.",
+    "The investigation was cancelled after re-entry.",
+    "An external team joined the failure probe."
+   ],
+   "a": 3,
+   "x": "An external team joined the PSLV failure probe, as reported on 3 February 2026.",
+   "ty": "fact",
+   "tq": "Identify the procedural response rather than a technical payload fact.",
+   "sec": "Launch failures and orbital re-entries"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched with a re-entry experiment?",
+   "o": [
+    "SRE-1 — PSLV-C7, 2007",
+    "CARE — PSLV-C7, 2007",
+    "SRE-1 — LVM3, 2014",
+    "POEM-3 — PSLV-C53, 2022"
+   ],
+   "a": 0,
+   "x": "SRE-1 was associated with PSLV-C7 in 2007. CARE was associated with LVM3 in 2014, and POEM-3 with PSLV-C58 in 2024.",
+   "ty": "match",
+   "tq": "Match each experiment with its vehicle and year before considering the distractors.",
+   "sec": "Launch failures and orbital re-entries"
+  },
+  {
+   "s": "POEM platforms are best described as:",
+   "o": [
+    "Ground-based radar imaging stations",
+    "Spent PS4 stages used as orbital laboratories",
+    "Reusable crew capsules for ISS missions",
+    "Foreign customer satellites launched by PSLV"
+   ],
+   "a": 1,
+   "x": "POEM platforms use the spent PS4 stage as an orbital laboratory.",
+   "ty": "application",
+   "tq": "Interpret the platform’s function from its structural origin and orbital use.",
+   "sec": "Launch failures and orbital re-entries"
+  },
+  {
+   "s": "Which sequence correctly lists the POEM missions in chronological order?",
+   "o": [
+    "POEM-3, POEM-2, POEM",
+    "POEM, POEM-2, POEM-3",
+    "POEM-2, POEM, POEM-3",
+    "POEM, POEM-3, POEM-2"
+   ],
+   "a": 1,
+   "x": "POEM flew on PSLV-C53 in 2022, POEM-2 on C55 in 2023, and POEM-3 on C58 on 1 January 2024.",
+   "ty": "chronology",
+   "tq": "Arrange the missions by their launch years and vehicle sequence.",
+   "sec": "Launch failures and orbital re-entries"
+  },
+  {
+   "s": "What was planned for the PS4 stage and the Spanish KID capsule on PSLV-C62?",
+   "o": [
+    "PS4 de-boost and re-entry of the KID capsule",
+    "PS4 docking with the Bharatiya Antariksh Station",
+    "KID deployment into GTO for communication",
+    "PS4 conversion into a NavIC satellite"
+   ],
+   "a": 0,
+   "x": "PSLV-C62 planned a PS4 de-boost and the re-entry of a Spanish KID capsule.",
+   "ty": "fact",
+   "tq": "Distinguish a planned orbital disposal experiment from a payload deployment objective.",
+   "sec": "Launch failures and orbital re-entries"
+  },
+  {
+   "s": "NISAR is a joint mission of ISRO and NASA that is notable for being the world’s first:",
+   "o": [
+    "Dual-frequency radar satellite",
+    "Satellite docking experiment",
+    "Commercial LVM3 mission",
+    "All-women-built satellite"
+   ],
+   "a": 0,
+   "x": "NISAR is the world’s first dual-frequency radar satellite, combining NASA’s L-band and ISRO’s S-band SAR.",
+   "ty": "fact",
+   "tq": "Identify the unique first from the mission’s technical configuration.",
+   "sec": "Joint missions → partner agency + objective"
+  },
+  {
+   "s": "Which set of phenomena is specifically covered by NISAR’s Earth-observation objectives?",
+   "o": [
+    "Solar corona, lunar craters and exoplanets",
+    "Only cloud formation and cyclone naming",
+    "Glaciers, earthquakes, subsidence and biomass",
+    "Navigation signals, broadband and satellite docking"
+   ],
+   "a": 2,
+   "x": "NISAR observes glaciers, earthquakes, land subsidence and biomass, among other Earth-system features.",
+   "ty": "application",
+   "tq": "Select the group of applications consistent with an Earth-observation radar mission.",
+   "sec": "Joint missions → partner agency + objective"
+  },
+  {
+   "s": "TRISHNA is a joint mission with which agency and is intended for what purpose?",
+   "o": [
+    "JAXA; lunar polar exploration",
+    "CNES of France; thermal infrared imaging for natural resources",
+    "NASA; dual-frequency radar imaging of Earth",
+    "ESA; formation flying to study the solar corona"
+   ],
+   "a": 1,
+   "x": "TRISHNA is being developed with France’s CNES for thermal infrared imaging of natural resources; it is at the initial stage.",
+   "ty": "fact",
+   "tq": "Separate the French thermal-imaging mission from the NASA and ESA missions.",
+   "sec": "Joint missions → partner agency + objective"
+  },
+  {
+   "s": "Proba-3 is associated with which objective?",
+   "o": [
+    "Thermal infrared imaging of terrestrial natural resources",
+    "Direct-to-smartphone broadband",
+    "Two-spacecraft formation flying to study the Sun’s corona",
+    "On-orbit refuelling demonstration"
+   ],
+   "a": 2,
+   "x": "ESA’s Proba-3 uses two-spacecraft formation flying to study the Sun’s corona.",
+   "ty": "fact",
+   "tq": "Match the agency mission with its distinctive two-spacecraft objective.",
+   "sec": "Joint missions → partner agency + objective"
+  },
+  {
+   "s": "Which of the following statements is correct regarding other international space cooperation involving India?",
+   "o": [
+    "ISRO and JAXA have studied a joint lunar polar mission, and Axiom-4 with NASA and Axiom Space took Shubhanshu Shukla to the ISS.",
+    "ISRO and ESA have completed a joint Mars landing, and Axiom-4 took an Indian astronaut to the Moon.",
+    "ISRO and CNES jointly operated SpaDeX, and Axiom-4 studied the solar corona.",
+    "ISRO and NASA jointly built WESAT, and Axiom-4 launched NavIC satellites."
+   ],
+   "a": 0,
+   "x": "ISRO and JAXA have studied a joint lunar polar mission. Axiom-4, involving NASA and Axiom Space, took Shubhanshu Shukla to the International Space Station.",
+   "ty": "statements",
+   "tq": "Separate proposed cooperation, completed missions and the correct destination.",
+   "sec": "Joint missions → partner agency + objective"
+  }
+ ]
+}

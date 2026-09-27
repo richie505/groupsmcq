@@ -1,0 +1,708 @@
+{
+ "book": 3,
+ "row": 118,
+ "chunk": 0,
+ "section": "Tourism, logistics and other services in Andhra Pradesh",
+ "subsections": [
+  "AP Retail Trade Policy 2015-20 - objectives, employment target",
+  "AP Tourism Policy - period, industry status, incentives, budget hotels",
+  "Tourist arrivals in AP - domestic, foreign, top destinations",
+  "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit",
+  "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 50,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Under the Andhra Pradesh Retail Trade Policy 2015–20, how many additional jobs were targeted in the retail sector by 2020?",
+   "o": [
+    "10,000",
+    "15,000",
+    "20,000",
+    "25,000"
+   ],
+   "a": 2,
+   "x": "The policy targeted 20,000 additional jobs in the retail sector by 2020.",
+   "ty": "numerical",
+   "tq": "Use a direct numerical recall question for the employment target.",
+   "sec": "AP Retail Trade Policy 2015-20 - objectives, employment target  [APPSC]"
+  },
+  {
+   "s": "The current Andhra Pradesh Tourism Policy is applicable for which period?",
+   "o": [
+    "2024–29",
+    "2020–25",
+    "2022–27",
+    "2025–30"
+   ],
+   "a": 0,
+   "x": "The current policy is the Andhra Pradesh Tourism Policy 2024–29, aligned with Swarna Andhra @2047.",
+   "ty": "fact",
+   "tq": "Discriminate between closely spaced policy periods.",
+   "sec": "AP Tourism Policy - period, industry status, incentives, budget hotels  [APPSC]"
+  },
+  {
+   "s": "The Andhra Pradesh Tourism Policy 2024–29 is aligned with which long-term vision?",
+   "o": [
+    "Swarna Andhra @2047",
+    "Viksit Bharat @2047",
+    "Andhra Pradesh Growth Mission @2040",
+    "Amaravati Vision @2035"
+   ],
+   "a": 0,
+   "x": "The Andhra Pradesh Tourism Policy 2024–29 is aligned with Swarna Andhra @2047.",
+   "ty": "fact",
+   "tq": "Test the exact official title of the associated vision.",
+   "sec": "AP Tourism Policy - period, industry status, incentives, budget hotels  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the Andhra Pradesh Tourism Policy 2024–29:\n1. Tourism and hospitality have been accorded industry status across all segments.\n2. Tailor-made packages are provided for Mega and Ultra Mega projects.\n3. The policy provides only non-fiscal incentives.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. The policy provides fiscal, recurring and special incentives in addition to non-fiscal incentives, so statement 3 is false.",
+   "ty": "statements",
+   "tq": "Find the false exclusivity in statement 3 and retain the two supported policy features.",
+   "sec": "AP Tourism Policy - period, industry status, incentives, budget hotels  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT a non-fiscal measure mentioned under the Andhra Pradesh Tourism Policy?",
+   "o": [
+    "Universal exemption from all statutory clearances",
+    "Single-desk clearances",
+    "Investment Facilitation Cell at Vijayawada",
+    "Investment tracker"
+   ],
+   "a": 0,
+   "x": "The non-fiscal measures include a single desk, an Investment Facilitation Cell at Vijayawada, an investment tracker and Destination Management Organisations. Universal exemption from all statutory clearances is not provided.",
+   "ty": "negative",
+   "tq": "Reject the extreme claim of universal exemption while identifying the listed facilitation measures.",
+   "sec": "AP Tourism Policy - period, industry status, incentives, budget hotels  [APPSC]"
+  },
+  {
+   "s": "Under the single-desk mechanism of the Andhra Pradesh Tourism Policy, how many clearances are specified for the pre-establishment and pre-operation stages respectively?",
+   "o": [
+    "13 and 13",
+    "11 and 11",
+    "13 and 11",
+    "11 and 13"
+   ],
+   "a": 2,
+   "x": "The single desk covers 13 pre-establishment clearances and 11 pre-operation clearances.",
+   "ty": "numerical",
+   "tq": "Separate the two stages before comparing the paired numbers.",
+   "sec": "AP Tourism Policy - period, industry status, incentives, budget hotels  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the Andhra Pradesh Tourism Policy 2024–29?",
+   "o": [
+    "Investment Facilitation Cell — Visakhapatnam",
+    "Investment Facilitation Cell — Vijayawada",
+    "Investment tracker — Tirupati only",
+    "Destination Management Organisations — Amaravati only"
+   ],
+   "a": 1,
+   "x": "The Investment Facilitation Cell is located at Vijayawada. The policy also includes an investment tracker and Destination Management Organisations without restricting them to the locations stated in the other options.",
+   "ty": "fact",
+   "tq": "Use the location trap by matching the facilitation body with its specified headquarters.",
+   "sec": "AP Tourism Policy - period, industry status, incentives, budget hotels  [APPSC]"
+  },
+  {
+   "s": "Which of the following targets is associated with the Andhra Pradesh Tourism Policy?",
+   "o": [
+    "Tourism to contribute over 15% of GVA and 15% of the workforce",
+    "Tourism to contribute over 10% of GVA and 10% of the workforce",
+    "Tourism to contribute over 25% of GVA and 25% of the workforce",
+    "Tourism to contribute over 20% of GVA and 20% of the workforce"
+   ],
+   "a": 3,
+   "x": "The policy targets tourism exceeding 20% of the State GVA and 20% of the workforce.",
+   "ty": "comparison",
+   "tq": "Match the paired percentage targets without reversing the two indicators.",
+   "sec": "AP Tourism Policy - period, industry status, incentives, budget hotels  [APPSC]"
+  },
+  {
+   "s": "The Andhra Pradesh Tourism Policy aims to place Andhra Pradesh among which group of destinations in India?",
+   "o": [
+    "Top five destinations",
+    "Top three destinations",
+    "Top ten destinations",
+    "Top fifteen destinations"
+   ],
+   "a": 1,
+   "x": "One of the policy targets is to make Andhra Pradesh one of India’s top three destinations.",
+   "ty": "fact",
+   "tq": "Test the exact rank target using nearby numerical distractors.",
+   "sec": "AP Tourism Policy - period, industry status, incentives, budget hotels  [APPSC]"
+  },
+  {
+   "s": "Budget hotels were promoted in Andhra Pradesh mainly with which objective?",
+   "o": [
+    "To attract tourists",
+    "To restrict private investment in tourism",
+    "To replace all luxury hotels",
+    "To provide accommodation exclusively to government employees"
+   ],
+   "a": 0,
+   "x": "Budget hotels were promoted mainly to attract tourists by expanding affordable accommodation facilities.",
+   "ty": "application",
+   "tq": "Identify the practical tourism objective rather than an absolute or exclusionary claim.",
+   "sec": "AP Tourism Policy - period, industry status, incentives, budget hotels  [APPSC]"
+  },
+  {
+   "s": "Which of the following developments was reported in 2026 in relation to Andhra Pradesh tourism?",
+   "o": [
+    "Swarna Andhra Tourism Vision 2047 was unveiled at the FAITH conclave.",
+    "The State withdrew from all national tourism schemes.",
+    "All beach tourism projects were cancelled.",
+    "The tourism policy was discontinued before 2024."
+   ],
+   "a": 0,
+   "x": "Swarna Andhra Tourism Vision 2047 was unveiled at the FAITH conclave in July 2026.",
+   "ty": "fact",
+   "tq": "Distinguish the genuine current-affairs development from sweeping negative claims.",
+   "sec": "AP Tourism Policy - period, industry status, incentives, budget hotels  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Andhra Pradesh won the ‘Best Tourism Promotion State’ award at GTM 2026.\n2. A draft MICE policy was proposed for Visakhapatnam and Vijayawada.\n3. Swarna Andhra Tourism Vision 2047 was unveiled at the FAITH conclave.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Andhra Pradesh received the GTM 2026 award, a draft MICE policy was proposed for Visakhapatnam and Vijayawada, and the tourism vision was unveiled at the FAITH conclave.",
+   "ty": "statements",
+   "tq": "Use the all-inclusive option when all three current tourism developments are supported.",
+   "sec": "AP Tourism Policy - period, industry status, incentives, budget hotels  [APPSC]"
+  },
+  {
+   "s": "What was the total number of tourist arrivals in Andhra Pradesh during 2025–26?",
+   "o": [
+    "28.58 crore",
+    "32.42 crore",
+    "36.42 crore",
+    "39.62 crore"
+   ],
+   "a": 2,
+   "x": "Andhra Pradesh recorded 36.42 crore total tourist arrivals during 2025–26.",
+   "ty": "numerical",
+   "tq": "Select the correct year-value pair from the tourism-arrival figures.",
+   "sec": "Tourist arrivals in AP - domestic, foreign, top destinations"
+  },
+  {
+   "s": "What was the total number of tourist arrivals in Andhra Pradesh during 2023–24?",
+   "o": [
+    "26.85 crore",
+    "28.58 crore",
+    "30.85 crore",
+    "32.58 crore"
+   ],
+   "a": 1,
+   "x": "The total tourist arrivals in Andhra Pradesh during 2023–24 were 28.58 crore.",
+   "ty": "numerical",
+   "tq": "Test the earlier value in the two-year comparison table.",
+   "sec": "Tourist arrivals in AP - domestic, foreign, top destinations"
+  },
+  {
+   "s": "Foreign tourist arrivals in Andhra Pradesh increased from approximately 1.70 lakh in 2023–24 to which figure in 2025–26?",
+   "o": [
+    "2.17 lakh",
+    "2.49 lakh",
+    "2.72 lakh",
+    "3.27 lakh"
+   ],
+   "a": 2,
+   "x": "Foreign tourist arrivals rose from 1.70 lakh to 2.72 lakh, representing approximately 49% growth.",
+   "ty": "numerical",
+   "tq": "Track the direction and magnitude of change in a two-year data comparison.",
+   "sec": "Tourist arrivals in AP - domestic, foreign, top destinations"
+  },
+  {
+   "s": "The approximate growth in foreign tourist arrivals in Andhra Pradesh between 2023–24 and 2025–26 was:",
+   "o": [
+    "29%",
+    "39%",
+    "49%",
+    "59%"
+   ],
+   "a": 2,
+   "x": "Foreign tourist arrivals increased by approximately 49% between the two periods.",
+   "ty": "numerical",
+   "tq": "Test the percentage associated with the stated numerical change.",
+   "sec": "Tourist arrivals in AP - domestic, foreign, top destinations"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with the hub-and-spoke tourism model of Andhra Pradesh?",
+   "o": [
+    "Visakhapatnam — beach and cruise",
+    "Araku — spiritual tourism",
+    "Rajahmundry — hill and eco-tourism",
+    "Gandikota — river tourism"
+   ],
+   "a": 0,
+   "x": "Visakhapatnam is identified with beach and cruise tourism. Araku is associated with hill and eco-tourism, Rajahmundry with river tourism and Gandikota with heritage and adventure.",
+   "ty": "match",
+   "tq": "Start from the sure destination-theme pair and reject the swapped tourism identities.",
+   "sec": "Tourist arrivals in AP - domestic, foreign, top destinations"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Tourism hub)\n a. Tirupati\n b. Araku\n c. Amaravati\n d. Gandikota\n\nList-II (Tourism character)\n i. Heritage and adventure\n ii. Spiritual\n iii. Hill and eco-tourism\n iv. Heritage and Buddhist\n\nSelect the correct answer using the codes given below.",
+   "o": [
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iii, b–ii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–ii, b–iv, c–iii, d–i"
+   ],
+   "a": 0,
+   "x": "Tirupati is spiritual, Araku is hill and eco-tourism, Amaravati is heritage and Buddhist, and Gandikota is heritage and adventure.",
+   "ty": "match",
+   "tq": "Start from the distinctive Tirupati–spiritual and Gandikota–adventure pairs.",
+   "sec": "Tourist arrivals in AP - domestic, foreign, top destinations"
+  },
+  {
+   "s": "Which of the following is NOT one of the seven anchor hubs identified for Andhra Pradesh tourism?",
+   "o": [
+    "Gandikota",
+    "Rajahmundry",
+    "Kakinada",
+    "Srisailam"
+   ],
+   "a": 2,
+   "x": "The seven anchor hubs are Visakhapatnam, Tirupati, Araku, Rajahmundry, Amaravati, Srisailam and Gandikota. Kakinada is not included in this list.",
+   "ty": "negative",
+   "tq": "Find the place outside the fixed seven-member list.",
+   "sec": "Tourist arrivals in AP - domestic, foreign, top destinations"
+  },
+  {
+   "s": "Which project under Swadesh Darshan 2.0 in Andhra Pradesh was sanctioned at a cost of ₹29.87 crore?",
+   "o": [
+    "Ahobilam",
+    "Annavaram temple",
+    "Gandikota Fort and Gorge",
+    "Borra Caves, Araku"
+   ],
+   "a": 3,
+   "x": "Borra Caves in Araku, ASR district, is the Andhra Pradesh project under Swadesh Darshan 2.0 with a cost of ₹29.87 crore.",
+   "ty": "fact",
+   "tq": "Match the scheme with its project and sanctioned amount.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "The PRASHAD project at Simhachalam concerns which temple and cost?",
+   "o": [
+    "Ahobilam temple — ₹25 crore",
+    "Sri Varaha Lakshmi Narasimha temple — ₹54.04 crore",
+    "Kanaka Durga temple — ₹54.04 crore",
+    "Annavaram temple — ₹25.32 crore"
+   ],
+   "a": 1,
+   "x": "The PRASHAD project at Simhachalam is for the Varaha Lakshmi Narasimha temple and has a cost of ₹54.04 crore.",
+   "ty": "fact",
+   "tq": "Avoid the temple-and-cost swap among the PRASHAD projects.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "Which one of the following is correctly matched?",
+   "o": [
+    "PRASHAD — Annavaram temple — ₹25.32 crore",
+    "SASCI — Gandikota Fort and Gorge — ₹25.32 crore",
+    "Swadesh Darshan 2.0 — Simhachalam temple — ₹54.04 crore",
+    "CBDD — Borra Caves — ₹29.87 crore"
+   ],
+   "a": 0,
+   "x": "The PRASHAD project at Annavaram temple has a cost of ₹25.32 crore. The other options incorrectly interchange schemes, projects or costs.",
+   "ty": "match",
+   "tq": "Use the scheme-project-cost triple to detect swapped authorities and figures.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "Gandikota Fort and Gorge was sanctioned under SASCI at a cost of:",
+   "o": [
+    "₹25 crore",
+    "₹54.04 crore",
+    "₹77.91 crore",
+    "₹94.44 crore"
+   ],
+   "a": 2,
+   "x": "The SASCI project for Gandikota Fort and Gorge was sanctioned at ₹77.91 crore.",
+   "ty": "numerical",
+   "tq": "Match the infrastructure project with its distinct sanctioned amount.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "The Havelock Bridge and Pushkar Ghat project at Rajahmundry was sanctioned under SASCI at a cost of:",
+   "o": [
+    "₹77.91 crore",
+    "₹84.44 crore",
+    "₹94.44 crore",
+    "₹104.44 crore"
+   ],
+   "a": 2,
+   "x": "The Havelock Bridge and Pushkar Ghat project at Rajahmundry was sanctioned under SASCI at ₹94.44 crore.",
+   "ty": "numerical",
+   "tq": "Distinguish the two SASCI projects by their different costs.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "CBDD projects under Swadesh Darshan 2.0 in Andhra Pradesh include which of the following?",
+   "o": [
+    "Simhachalam and Annavaram",
+    "Borra Caves and Gandikota",
+    "Ahobilam and Nagarjunasagar",
+    "Salihundam and Ghantasala"
+   ],
+   "a": 2,
+   "x": "The CBDD projects are Ahobilam, described as spiritual, and Nagarjunasagar, described as heritage and adventure. Each has a cost of ₹25 crore.",
+   "ty": "fact",
+   "tq": "Identify the correct sub-scheme project pair rather than mixing projects across schemes.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "CBDD, in the context of tourism development, stands for:",
+   "o": [
+    "Capital Based Destination Design",
+    "Central Buddhist Development Districts",
+    "Coastal Beach Development Division",
+    "Challenge Based Destination Development"
+   ],
+   "a": 3,
+   "x": "CBDD stands for Challenge Based Destination Development.",
+   "ty": "confusable",
+   "tq": "Test the exact expansion of a similar-looking scheme acronym.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "SASCI stands for:",
+   "o": [
+    "State Assistance Scheme for Cultural Infrastructure",
+    "Special Assistance to States for Capital Investment",
+    "State Authority for Sustainable Circuit Infrastructure",
+    "Special Allocation Scheme for Coastal Investment"
+   ],
+   "a": 1,
+   "x": "SASCI means Special Assistance to States for Capital Investment.",
+   "ty": "confusable",
+   "tq": "Use the official expansion rather than a plausible but incorrect administrative expansion.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "Consider the following statements about the national tourism schemes:\n1. Swadesh Darshan develops thematic circuits.\n2. PRASHAD develops pilgrimage sites.\n3. Swadesh Darshan 1.0 had 76 projects sanctioned in January 2015.\n4. Of those 76 projects, 75 had been completed.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Swadesh Darshan focuses on thematic circuits, PRASHAD on pilgrimage sites, and Swadesh Darshan 1.0 had 76 sanctioned projects, of which 75 were completed.",
+   "ty": "statements",
+   "tq": "Combine scheme functions with the numerical completion record before selecting the inclusive option.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "Which of the following correctly states the national project position under the tourism schemes?",
+   "o": [
+    "Swadesh Darshan 2.0 — 76 projects; PRASHAD — 75 projects",
+    "Swadesh Darshan 2.0 — 75 projects; PRASHAD — 76 projects",
+    "Swadesh Darshan 2.0 — 52 projects; PRASHAD — 54 projects",
+    "Swadesh Darshan 2.0 — 54 projects; PRASHAD — 52 projects"
+   ],
+   "a": 2,
+   "x": "Swadesh Darshan 2.0 had 52 projects, while PRASHAD had 54 projects sanctioned nationally.",
+   "ty": "comparison",
+   "tq": "Compare the two scheme totals without reversing their order.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "The national PRASHAD programme had how many projects with a total outlay of ₹1,726.74 crore?",
+   "o": [
+    "44",
+    "54",
+    "64",
+    "74"
+   ],
+   "a": 1,
+   "x": "PRASHAD had 54 projects with a total cost of ₹1,726.74 crore.",
+   "ty": "numerical",
+   "tq": "Pair the project count with the scheme’s total financial outlay.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "Which sequence correctly represents the directions associated with the Chief Minister’s tourism-work deadlines?",
+   "o": [
+    "All PRASAD and Swadesh Darshan works by May 2026; Havelock Bridge opened by December 2026",
+    "All works by December 2026; Havelock Bridge opened by May 2026",
+    "All works by May 2025; Havelock Bridge opened by December 2025",
+    "All works by January 2026; Havelock Bridge opened by May 2026"
+   ],
+   "a": 0,
+   "x": "The Chief Minister wanted all PRASAD and Swadesh Darshan works completed by May 2026 and the Havelock Bridge opened by December 2026.",
+   "ty": "chronology",
+   "tq": "Separate the earlier completion deadline from the later bridge-opening deadline.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "Andhra Pradesh is described as the birthplace of which form of Buddhism and has approximately how many Buddhist monuments?",
+   "o": [
+    "Vajrayana Buddhism; 60 monuments",
+    "Mahayana Buddhism; 40 monuments",
+    "Theravada Buddhism; 20 monuments",
+    "Zen Buddhism; 80 monuments"
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh is described as the birthplace of Mahayana Buddhism and has approximately 40 Buddhist monuments.",
+   "ty": "fact",
+   "tq": "Test the paired identity and approximate number together.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "Which of the following is NOT included among the Buddhist circuit sites identified in Andhra Pradesh?",
+   "o": [
+    "Srisailam",
+    "Amaravati",
+    "Bojjannakonda and Sankaram",
+    "Salihundam"
+   ],
+   "a": 0,
+   "x": "The listed Buddhist sites include Amaravati, Thotlakonda, Bavikonda, Bojjannakonda, Sankaram, Salihundam and Ghantasala. Srisailam is not included in this Buddhist-site list.",
+   "ty": "negative",
+   "tq": "Find the place outside the specified Buddhist circuit list.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "Salihundam is popularly described as the:",
+   "o": [
+    "Ajanta of Andhra Pradesh",
+    "Kashi of the Eastern Coast",
+    "Tibet of Andhra Pradesh",
+    "Varanasi of Andhra Pradesh"
+   ],
+   "a": 2,
+   "x": "Salihundam is described as the ‘Tibet of Andhra Pradesh’ in the context of Buddhist tourism.",
+   "ty": "fact",
+   "tq": "Recall the distinctive sobriquet associated with the Buddhist site.",
+   "sec": "Central tourism schemes in AP - Swadesh Darshan, PRASHAD, Buddhist circuit"
+  },
+  {
+   "s": "Which body is the nodal agency for branding, promotion and investment in Andhra Pradesh tourism?",
+   "o": [
+    "Destination Management Organisation of India",
+    "Andhra Pradesh State Road Transport Corporation",
+    "AP Tourism Development Corporation",
+    "AP Tourism Authority"
+   ],
+   "a": 3,
+   "x": "The AP Tourism Authority, or APTA, is the nodal agency for branding, promotion and investment.",
+   "ty": "fact",
+   "tq": "Distinguish the policy and investment authority from the operational tourism corporation.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "Which one of the following correctly describes APTDC?",
+   "o": [
+    "It is a privately owned promotional agency with no operational assets.",
+    "It is the national authority administering PRASHAD across India.",
+    "It is an international body responsible for cruise tourism.",
+    "It is the fully state-owned operational arm of tourism in Andhra Pradesh."
+   ],
+   "a": 3,
+   "x": "AP Tourism Development Corporation is the fully state-owned operational arm of Andhra Pradesh tourism.",
+   "ty": "fact",
+   "tq": "Use the ownership-and-function distinction to reject wrong-body options.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "Which of the following represents the reported operational profile of APTDC?",
+   "o": [
+    "43 hotels, 839 rooms, 32 buses and 9 divisions",
+    "23 hotels, 843 rooms, 39 buses and 7 divisions",
+    "39 hotels, 843 rooms, 23 buses and 7 divisions",
+    "39 hotels, 483 rooms, 23 buses and 5 divisions"
+   ],
+   "a": 2,
+   "x": "APTDC has 39 hotels with 843 rooms, 23 buses and 7 divisions.",
+   "ty": "numerical",
+   "tq": "Read the multi-part institutional profile as a complete numerical combination.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "APTDC recorded revenue of how much in 2024–25?",
+   "o": [
+    "₹96.80 crore",
+    "₹106.80 crore",
+    "₹116.80 crore",
+    "₹126.80 crore"
+   ],
+   "a": 1,
+   "x": "APTDC recorded revenue of ₹106.80 crore in 2024–25.",
+   "ty": "numerical",
+   "tq": "Select the exact revenue figure from closely spaced numerical options.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "Which of the following activities is associated with APTDC?\n1. Operation of Haritha hotels\n2. Boating\n3. Sound-and-light shows\n4. Ropeways at Srisailam\nSelect the correct answer using the codes given below.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "APTDC operates Haritha hotels, boating facilities, sound-and-light shows and ropeways at Srisailam.",
+   "ty": "statements",
+   "tq": "Use the all-inclusive option when all listed operational activities belong to the corporation.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "How many thematic tourism circuits are identified in Andhra Pradesh, and which distribution is correct?",
+   "o": [
+    "25: 2 Buddhist, 10 temple, 5 beach, 4 river cruise, 3 eco-tourism, 2 sea cruise and 1 seaplane",
+    "25: 2 Buddhist, 10 temple, 4 beach, 5 river cruise, 3 eco-tourism, 2 sea cruise and 1 seaplane",
+    "25: 2 Buddhist, 8 temple, 5 beach, 4 river cruise, 3 eco-tourism, 2 sea cruise and 1 seaplane",
+    "27: 2 Buddhist, 10 temple, 5 beach, 4 river cruise, 3 eco-tourism, 2 sea cruise and 1 seaplane"
+   ],
+   "a": 0,
+   "x": "There are more than 25 thematic circuits: 2 Buddhist, 10 temple, 5 beach, 4 river cruise, 3 eco-tourism, 2 sea cruise and 1 seaplane circuit.",
+   "ty": "numerical",
+   "tq": "Check both the total description and the category-wise distribution.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "Which beach in Andhra Pradesh has received Blue Flag recognition?",
+   "o": [
+    "Bapatla Beach",
+    "Suryalanka Beach",
+    "Kakinada Beach",
+    "Rushikonda Beach"
+   ],
+   "a": 3,
+   "x": "Rushikonda Beach has received Blue Flag recognition.",
+   "ty": "fact",
+   "tq": "Test the exact location associated with an environmental tourism certification.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "With regard to beach development in Andhra Pradesh, which statement is correct?",
+   "o": [
+    "Nine beaches were proposed and none was shortlisted.",
+    "Twenty-one beaches were proposed and all were shortlisted.",
+    "Twenty-one beaches were proposed, of which nine were shortlisted.",
+    "Nine beaches were proposed, of which twenty-one were shortlisted."
+   ],
+   "a": 2,
+   "x": "Twenty-one additional beaches were proposed and nine were shortlisted.",
+   "ty": "comparison",
+   "tq": "Avoid reversing the proposed and shortlisted counts.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "The International Cruise Terminal at Visakhapatnam serves as the base for which tourism circuits?",
+   "o": [
+    "Seaplane circuits only",
+    "River-cruise circuits",
+    "Sea-cruise circuits",
+    "Buddhist circuits"
+   ],
+   "a": 2,
+   "x": "The International Cruise Terminal at Visakhapatnam is the base for the sea-cruise circuits.",
+   "ty": "confusable",
+   "tq": "Distinguish sea-cruise infrastructure from river-cruise and seaplane facilities.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "The Prakasam Barrage water aerodrome is associated with which programme?",
+   "o": [
+    "SASCI",
+    "RCS-UDAN",
+    "PRASHAD",
+    "Swadesh Darshan 1.0"
+   ],
+   "a": 1,
+   "x": "The Prakasam Barrage water aerodrome falls under the RCS-UDAN programme.",
+   "ty": "fact",
+   "tq": "Match the infrastructure facility with the correct national programme.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "The Visakhapatnam–Bhogapuram Coastal Corridor is approximately:",
+   "o": [
+    "45–50 km",
+    "25–30 km",
+    "35–40 km",
+    "55–60 km"
+   ],
+   "a": 3,
+   "x": "The Visakhapatnam–Bhogapuram Coastal Corridor is approximately 55–60 km long.",
+   "ty": "numerical",
+   "tq": "Select the correct range rather than a nearby but unsupported corridor length.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "Andhra Pradesh has requested that Vizag Beach Road be shifted from which CRZ category to which category?",
+   "o": [
+    "CRZ-4 to CRZ-3",
+    "CRZ-3 to CRZ-2",
+    "CRZ-2 to CRZ-3",
+    "CRZ-1 to CRZ-2"
+   ],
+   "a": 1,
+   "x": "The request is to move Vizag Beach Road from CRZ-3 to CRZ-2.",
+   "ty": "confusable",
+   "tq": "Track the direction of regulatory-category change without reversing the two CRZ numbers.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "The beach-shack policy proposed for Andhra Pradesh was modelled on the policy of:",
+   "o": [
+    "Goa",
+    "Kerala",
+    "Tamil Nadu",
+    "Odisha"
+   ],
+   "a": 0,
+   "x": "The proposed Andhra Pradesh beach-shack policy was modelled on Goa’s policy.",
+   "ty": "fact",
+   "tq": "Use a nearby-state distractor set to test the model policy’s origin.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "Which of the following is NOT listed among the examples associated with Andhra Pradesh temple tourism circuits?",
+   "o": [
+    "Lepakshi",
+    "Tirupati",
+    "Simhachalam",
+    "Srisailam"
+   ],
+   "a": 0,
+   "x": "The listed examples are Tirupati, Srisailam, Simhachalam, Annavaram and Kanaka Durga. Lepakshi is not included in the stated list.",
+   "ty": "negative",
+   "tq": "Find the location outside the specified temple-tourism examples.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  },
+  {
+   "s": "Which of the following private hotel-location pairs is correctly matched?",
+   "o": [
+    "Oberoi — Peruru, Tirupati",
+    "Hyatt — Gandikota only",
+    "Oberoi — Visakhapatnam Cruise Terminal",
+    "Hyatt — Annavaram only"
+   ],
+   "a": 0,
+   "x": "Oberoi is associated with Peruru near Tirupati. Private hotel investments also include Gandikota and Annavaram, while Hyatt is associated with Tirupati.",
+   "ty": "match",
+   "tq": "Start with the precise hotel-location pair and reject the altered or exclusive alternatives.",
+   "sec": "Tourism infrastructure and bodies - APTDC, APTA, beaches, cruise terminal, temples"
+  }
+ ]
+}

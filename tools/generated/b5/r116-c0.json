@@ -1,0 +1,808 @@
+{
+ "book": 5,
+ "row": 116,
+ "chunk": 0,
+ "section": "Epidemic and pandemic challenges in India - major outbreaks, lessons from COVID-19",
+ "subsections": [
+  "COVID-19 vaccines - developer, platform, route; Vaccine Maitri, COVAX",
+  "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC",
+  "SARS-CoV-2 basics",
+  "Outbreak terminology",
+  "COVID-19 in India - waves, CoWIN, social impact",
+  "State COVID containment initiatives",
+  "Major outbreaks in India"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 57,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nVaccine — Platform or route",
+   "o": [
+    "Covaxin — Inactivated whole virus, injection",
+    "Covishield — Protein subunit vaccine",
+    "Corbevax — DNA vaccine",
+    "Sputnik V — mRNA vaccine"
+   ],
+   "a": 0,
+   "x": "Covaxin is based on an inactivated whole-virus platform and is administered by injection. Covishield is a viral-vector vaccine, Corbevax is a protein-subunit vaccine and Sputnik V is a viral-vector vaccine.",
+   "ty": "match",
+   "tq": "Start from the sure vaccine-platform pair and eliminate swapped platforms.",
+   "sec": "COVID-19 vaccines - developer, platform, route; Vaccine Maitri, COVAX  [APPSC]"
+  },
+  {
+   "s": "Covaxin was developed by Bharat Biotech in association with which institutions or body combination?",
+   "o": [
+    "ICMR-NIV",
+    "Oxford-AstraZeneca",
+    "Gamaleya Institute",
+    "WHO-Gavi-CEPI"
+   ],
+   "a": 0,
+   "x": "Covaxin was developed by Bharat Biotech with the Indian Council of Medical Research and the National Institute of Virology.",
+   "ty": "fact",
+   "tq": "Use the developer-association distinction rather than confusing vaccine platform with developer.",
+   "sec": "COVID-19 vaccines - developer, platform, route; Vaccine Maitri, COVAX  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding Covishield:\n1. It was based on the Oxford-AstraZeneca vaccine.\n2. It was manufactured in India by the Serum Institute of India.\n3. It used an adenovirus viral-vector platform.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Covishield was the Oxford-AstraZeneca vaccine made in India by the Serum Institute and used an adenovirus viral vector.",
+   "ty": "statements",
+   "tq": "Check whether all statements describe the same vaccine before selecting the combined option.",
+   "sec": "COVID-19 vaccines - developer, platform, route; Vaccine Maitri, COVAX  [APPSC]"
+  },
+  {
+   "s": "Which of the following vaccines was described as the world's first intranasal COVID-19 vaccine approved for the primary two-dose schedule and the heterologous booster?",
+   "o": [
+    "Corbevax",
+    "ZyCoV-D",
+    "iNCOVACC",
+    "Gemcovac-OM"
+   ],
+   "a": 2,
+   "x": "iNCOVACC, developed by Bharat Biotech, was described as the world's first intranasal COVID-19 vaccine approved for the primary two-dose schedule and the heterologous booster.",
+   "ty": "fact",
+   "tq": "Use the distinctive route and approval description to identify the vaccine.",
+   "sec": "COVID-19 vaccines - developer, platform, route; Vaccine Maitri, COVAX  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?\n\n1. Corbevax — Biological E, Hyderabad\n2. ZyCoV-D — Zydus\n3. Gemcovac-OM — Gennova, India",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three matches are correct. Corbevax was associated with Biological E in Hyderabad, ZyCoV-D with Zydus, and Gemcovac-OM with Gennova, India.",
+   "ty": "statements",
+   "tq": "Verify each developer-name association independently before using the combined option.",
+   "sec": "COVID-19 vaccines - developer, platform, route; Vaccine Maitri, COVAX  [APPSC]"
+  },
+  {
+   "s": "Corbevax is a vaccine based on which platform?",
+   "o": [
+    "mRNA",
+    "Protein subunit using the receptor-binding domain",
+    "DNA delivered through a needle-free injector",
+    "Inactivated whole virus"
+   ],
+   "a": 1,
+   "x": "Corbevax is a protein-subunit vaccine based on the receptor-binding domain, or RBD. It was delivered under the National Biopharma Mission.",
+   "ty": "fact",
+   "tq": "Distinguish the platform from the manufacturing mission associated with the vaccine.",
+   "sec": "COVID-19 vaccines - developer, platform, route; Vaccine Maitri, COVAX  [APPSC]"
+  },
+  {
+   "s": "Which vaccine was described as the world's first DNA vaccine approved for use in humans and was administered through a needle-free injector?",
+   "o": [
+    "iNCOVACC",
+    "Covishield",
+    "Covaxin",
+    "ZyCoV-D"
+   ],
+   "a": 3,
+   "x": "ZyCoV-D, developed by Zydus, was described as the world's first DNA vaccine approved for humans and used a needle-free injector.",
+   "ty": "fact",
+   "tq": "Match the unusual delivery route and platform with the correct vaccine.",
+   "sec": "COVID-19 vaccines - developer, platform, route; Vaccine Maitri, COVAX  [APPSC]"
+  },
+  {
+   "s": "Which of the following vaccines used an mRNA platform?\n\n1. Moderna\n2. Pfizer-BioNTech\n3. Gemcovac-OM",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "Moderna, Pfizer-BioNTech and Gemcovac-OM are all identified with the mRNA platform.",
+   "ty": "statements",
+   "tq": "Group all items sharing the same platform and reject the vector and protein-subunit alternatives.",
+   "sec": "COVID-19 vaccines - developer, platform, route; Vaccine Maitri, COVAX  [APPSC]"
+  },
+  {
+   "s": "Which one of the following was available through government centres as a free COVID-19 vaccine, along with Covaxin and Covishield?",
+   "o": [
+    "ZyCoV-D",
+    "Gemcovac-OM",
+    "Sputnik V",
+    "Corbevax"
+   ],
+   "a": 3,
+   "x": "Government centres provided Covaxin, Covishield and Corbevax free. Sputnik V, ZyCoV-D, Covovax, Gemcovac and iNCOVACC were also given through private centres.",
+   "ty": "fact",
+   "tq": "Use the government-versus-private availability distinction as the discriminator.",
+   "sec": "COVID-19 vaccines - developer, platform, route; Vaccine Maitri, COVAX  [APPSC]"
+  },
+  {
+   "s": "Vaccine Maitri primarily supplied COVID-19 vaccines to which group of countries?",
+   "o": [
+    "Only countries in Europe",
+    "Only high-income countries",
+    "Low- and middle-income countries",
+    "Only countries belonging to NATO"
+   ],
+   "a": 2,
+   "x": "Vaccine Maitri supplied vaccines to low- and middle-income countries. It was an international vaccine-support initiative of India.",
+   "ty": "fact",
+   "tq": "Watch for the scope trap created by restrictive words such as only.",
+   "sec": "COVID-19 vaccines - developer, platform, route; Vaccine Maitri, COVAX  [APPSC]"
+  },
+  {
+   "s": "COVAX was the global equitable-access pillar co-led by which combination?",
+   "o": [
+    "WHO, Gavi and CEPI",
+    "WHO, IMF and World Bank",
+    "UNEP, ILO and WTO",
+    "Gavi, NATO and UNICEF"
+   ],
+   "a": 0,
+   "x": "COVAX was co-led by the World Health Organization, Gavi and the Coalition for Epidemic Preparedness Innovations.",
+   "ty": "match",
+   "tq": "Identify the exact institutional trio instead of substituting other international bodies.",
+   "sec": "COVID-19 vaccines - developer, platform, route; Vaccine Maitri, COVAX  [APPSC]"
+  },
+  {
+   "s": "Ebola virus was first found in 1976 near which river and in which country?",
+   "o": [
+    "Nile River, Uganda",
+    "Ebola River, Democratic Republic of the Congo",
+    "Niger River, Nigeria",
+    "Congo River, Republic of the Congo"
+   ],
+   "a": 1,
+   "x": "Ebola virus was first found in 1976 near the Ebola River in the Democratic Republic of the Congo.",
+   "ty": "fact",
+   "tq": "Combine the year, geographical feature and country rather than relying on the river name alone.",
+   "sec": "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about Ebola:\n1. Its genus is Orthoebolavirus.\n2. It belongs to the family Filoviridae.\n3. The Zaire species is regarded as the deadliest.\n4. Fruit bats are identified as its reservoir.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2, 3 and 4 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. Ebola is associated with the genus Orthoebolavirus, family Filoviridae, fruit-bat reservoirs and the particularly deadly Zaire species.",
+   "ty": "statements",
+   "tq": "Test the complete classification-reservoir cluster through an all-inclusive option.",
+   "sec": "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC  [APPSC]"
+  },
+  {
+   "s": "How many species are associated with the genus Orthoebolavirus in the classification stated for Ebola?",
+   "o": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "a": 2,
+   "x": "The genus Orthoebolavirus is stated to comprise six species.",
+   "ty": "numerical",
+   "tq": "Separate the exact numerical value from nearby plausible counts.",
+   "sec": "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nOutbreak — Intermediate host",
+   "o": [
+    "SARS — Civet cats",
+    "MERS — Pangolins",
+    "H1N1 — Dromedary camels",
+    "Ebola — Civet cats"
+   ],
+   "a": 0,
+   "x": "Civet cats were identified as the intermediate host associated with SARS. Dromedary camels are associated with MERS, while pangolins were suspected intermediate hosts for SARS-CoV-2.",
+   "ty": "match",
+   "tq": "Discriminate between closely related outbreak-host associations.",
+   "sec": "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC  [APPSC]"
+  },
+  {
+   "s": "The virus responsible for MERS is known as:",
+   "o": [
+    "SARS-CoV-1",
+    "SARS-CoV-2",
+    "Influenza A H1N1",
+    "MERS-CoV"
+   ],
+   "a": 3,
+   "x": "MERS is caused by MERS-CoV. SARS was caused by SARS-CoV-1, whereas COVID-19 is caused by SARS-CoV-2.",
+   "ty": "confusable",
+   "tq": "Distinguish similar coronavirus names by linking each virus to its outbreak.",
+   "sec": "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC  [APPSC]"
+  },
+  {
+   "s": "Arrange the following events relating to H1N1 in chronological order:\nA. WHO declared an H1N1 pandemic.\nB. H1N1 was first reported in North America.\nC. The year 2009 outbreak occurred.",
+   "o": [
+    "B, C, A",
+    "C, B, A",
+    "B, A, C",
+    "A, B, C"
+   ],
+   "a": 0,
+   "x": "H1N1 was first reported in North America in 2009, the outbreak occurred in that year, and WHO declared the pandemic in June 2009. Thus the sequence is B, C, A.",
+   "ty": "chronology",
+   "tq": "Use the fixed month of the declaration as the final chronological anchor.",
+   "sec": "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?\n\n1. H1N1 — Influenza A subtype\n2. H5N1 — Avian influenza A\n3. MERS — 2012 outbreak\n4. SARS — 2002–03 outbreak",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four associations are correct. H1N1 is an Influenza A subtype, H5N1 is avian influenza A, MERS is associated with 2012 and SARS with 2002–03.",
+   "ty": "statements",
+   "tq": "Check each outbreak against its virus type or period before selecting the complete combination.",
+   "sec": "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC  [APPSC]"
+  },
+  {
+   "s": "The Bundibugyo virus outbreak in the Democratic Republic of the Congo and Uganda was declared a PHEIC in:",
+   "o": [
+    "May 2025",
+    "May 2026",
+    "January 2024",
+    "August 2026"
+   ],
+   "a": 1,
+   "x": "The Bundibugyo virus outbreak in the Democratic Republic of the Congo's Ituri region and Uganda was declared a Public Health Emergency of International Concern in May 2026.",
+   "ty": "numerical",
+   "tq": "Use the exact month-year combination to distinguish the declaration from earlier PHEICs.",
+   "sec": "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC  [APPSC]"
+  },
+  {
+   "s": "Which of the following statements regarding the 2026 Bundibugyo outbreak is NOT correct?",
+   "o": [
+    "The fourth India-Africa Forum Summit was postponed.",
+    "It involved the Democratic Republic of the Congo and Uganda.",
+    "It was officially declared a pandemic emergency.",
+    "It was declared a PHEIC in May 2026."
+   ],
+   "a": 2,
+   "x": "The outbreak was declared a PHEIC but not a pandemic emergency. It involved the Democratic Republic of the Congo and Uganda, and the fourth India-Africa Forum Summit was postponed.",
+   "ty": "negative",
+   "tq": "Find the single reversed or overstated institutional description.",
+   "sec": "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC  [APPSC]"
+  },
+  {
+   "s": "The 2014–16 West African Ebola outbreak mainly affected which countries?",
+   "o": [
+    "Guinea, Liberia and Sierra Leone",
+    "Uganda, Kenya and Tanzania",
+    "Mali, Niger and Chad",
+    "Nigeria, Ghana and Senegal"
+   ],
+   "a": 0,
+   "x": "The 2014–16 West African Ebola outbreak mainly affected Guinea, Liberia and Sierra Leone.",
+   "ty": "fact",
+   "tq": "Identify the three-country cluster rather than selecting neighbouring regional states.",
+   "sec": "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC  [APPSC]"
+  },
+  {
+   "s": "Which one of the following combinations contains only diseases or outbreaks that were declared PHEICs before or during the COVID-19 period listed?",
+   "o": [
+    "H1N1 2009, polio 2014 and Zika 2016",
+    "SARS 2002, MERS 2012 and H5N1 2015",
+    "Nipah 2018, SARS-CoV-2 2019 and dengue 2020",
+    "Cholera 2011, Ebola 2012 and malaria 2016"
+   ],
+   "a": 0,
+   "x": "The listed earlier PHEICs included H1N1 in 2009, polio in 2014 and Zika in 2016. The listed PHEIC chronology also included Ebola in 2014 and 2019 and COVID-19 on 30 January 2020.",
+   "ty": "statements",
+   "tq": "Use chronology and exact PHEIC status to eliminate plausible but unsupported outbreaks.",
+   "sec": "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC  [APPSC]"
+  },
+  {
+   "s": "Which one of the following was NOT included among the earlier PHEIC declarations listed?",
+   "o": [
+    "COVID-19 on 30 January 2020",
+    "Mpox in 2022 and 2024",
+    "Ebola in 2014 and 2019",
+    "MERS in 2012 and 2015"
+   ],
+   "a": 3,
+   "x": "The listed earlier PHEICs included mpox in 2022 and 2024, COVID-19 on 30 January 2020 and Ebola in 2014 and 2019. MERS in 2012 and 2015 was not included in that list.",
+   "ty": "negative",
+   "tq": "Find the outbreak absent from the specified PHEIC chronology.",
+   "sec": "Global outbreaks - Ebola, SARS, MERS, H1N1, H5N1; PHEIC  [APPSC]"
+  },
+  {
+   "s": "SARS-CoV-2 causes which disease, and what does its name signify?",
+   "o": [
+    "MERS, meaning Middle East Respiratory Syndrome",
+    "COVID-19, meaning Coronavirus Disease 2019",
+    "SARS, meaning Severe Acute Respiratory Syndrome",
+    "H1N1, meaning Human Influenza 2019"
+   ],
+   "a": 1,
+   "x": "SARS-CoV-2 causes COVID-19, which stands for Coronavirus Disease 2019.",
+   "ty": "confusable",
+   "tq": "Separate the virus name from the disease name and its formal expansion.",
+   "sec": "SARS-CoV-2 basics  [APPSC]"
+  },
+  {
+   "s": "SARS-CoV-2 was first identified in which place and month-year?",
+   "o": [
+    "Beijing, China, January 2020",
+    "Wuhan, Hubei, China, December 2019",
+    "Wuhan, Hubei, China, March 2020",
+    "Shanghai, China, December 2018"
+   ],
+   "a": 1,
+   "x": "SARS-CoV-2 was first identified in Wuhan in Hubei province of China in December 2019.",
+   "ty": "fact",
+   "tq": "Combine location and time rather than selecting the correct place with a wrong date.",
+   "sec": "SARS-CoV-2 basics  [APPSC]"
+  },
+  {
+   "s": "Which receptor enables SARS-CoV-2 to enter human cells?",
+   "o": [
+    "RBD receptor",
+    "ACE2 receptor",
+    "H1 receptor",
+    "CD4 receptor"
+   ],
+   "a": 1,
+   "x": "SARS-CoV-2 enters cells through the ACE2 receptor.",
+   "ty": "fact",
+   "tq": "Identify the precise receptor instead of confusing it with a viral protein or immune-cell marker.",
+   "sec": "SARS-CoV-2 basics  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding SARS-CoV-2:\n1. Bats are identified as its natural reservoir.\n2. Pangolins were suspected as an intermediate host.\n3. It was first identified in Wuhan in December 2019.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Bats are identified as the natural reservoir, pangolins were suspected as an intermediate host, and the virus was first identified in Wuhan in December 2019.",
+   "ty": "statements",
+   "tq": "Link reservoir, suspected intermediate host and first-identification facts in one cluster.",
+   "sec": "SARS-CoV-2 basics  [APPSC]"
+  },
+  {
+   "s": "WHO declared COVID-19 a pandemic on:",
+   "o": [
+    "30 January 2020",
+    "11 March 2020",
+    "24 February 2022",
+    "16 January 2021"
+   ],
+   "a": 1,
+   "x": "WHO declared COVID-19 a pandemic on 11 March 2020. The date 30 January 2020 refers to the declaration of COVID-19 as a PHEIC.",
+   "ty": "confusable",
+   "tq": "Discriminate between the PHEIC date and the later pandemic declaration date.",
+   "sec": "SARS-CoV-2 basics  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?\n\nVariant — First association mentioned",
+   "o": [
+    "Alpha — United Kingdom",
+    "Beta — Brazil",
+    "Gamma — South Africa",
+    "Delta — Southern Africa"
+   ],
+   "a": 0,
+   "x": "Alpha was associated with the United Kingdom. Beta was associated with South Africa, Gamma with Brazil, Delta was first found in India and Omicron with southern Africa.",
+   "ty": "match",
+   "tq": "Use the variant-location pairs and detect the deliberate regional swaps.",
+   "sec": "SARS-CoV-2 basics  [APPSC]"
+  },
+  {
+   "s": "Which COVID-19 variant was first found in India?",
+   "o": [
+    "Delta",
+    "Beta",
+    "Omicron",
+    "Alpha"
+   ],
+   "a": 0,
+   "x": "The Delta variant was first found in India. Alpha was associated with the United Kingdom, Beta with South Africa and Omicron with southern Africa.",
+   "ty": "fact",
+   "tq": "Test one distinctive variant-location association directly.",
+   "sec": "SARS-CoV-2 basics  [APPSC]"
+  },
+  {
+   "s": "A disease remains constantly present at a baseline level in a particular area. This condition is termed:",
+   "o": [
+    "Epizootic",
+    "Epidemic",
+    "Endemic",
+    "Pandemic"
+   ],
+   "a": 2,
+   "x": "A disease constantly present at a baseline level in an area is described as endemic.",
+   "ty": "application",
+   "tq": "Apply the definition to a short public-health situation rather than memorising the term in isolation.",
+   "sec": "Outbreak terminology  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched?\n\nTerm — Meaning",
+   "o": [
+    "Epidemic — Epidemic among animals",
+    "Pandemic — Spread across countries and continents",
+    "Endemic — Sudden severe outbreak in a region",
+    "Epizootic — Constant human disease at baseline level"
+   ],
+   "a": 1,
+   "x": "A pandemic is an epidemic that spreads across countries and continents. Epizootic refers to an epidemic among animals, while endemic refers to constant baseline presence.",
+   "ty": "match",
+   "tq": "Distinguish the four near-sounding terms by their geographical or host scope.",
+   "sec": "Outbreak terminology  [APPSC]"
+  },
+  {
+   "s": "An epidemic occurring among animals is called:",
+   "o": [
+    "Endemic",
+    "Zoonotic endemicity",
+    "Epizootic",
+    "Pandemic"
+   ],
+   "a": 2,
+   "x": "An epidemic among animals is termed an epizootic.",
+   "ty": "fact",
+   "tq": "Break the terminology into its host-specific meaning and reject human-population terms.",
+   "sec": "Outbreak terminology  [APPSC]"
+  },
+  {
+   "s": "Arrange the following COVID-19 events in chronological order:\nA. Omicron third wave in India\nB. First COVID-19 case in Kerala\nC. Delta second wave\nD. Peak of the first wave",
+   "o": [
+    "B, D, C, A",
+    "D, B, C, A",
+    "B, C, D, A",
+    "A, C, D, B"
+   ],
+   "a": 0,
+   "x": "The first case in Kerala occurred on 30 January 2020, the first wave peaked in September 2020, the Delta second wave occurred in April–May 2021 and the Omicron third wave came in January 2022.",
+   "ty": "chronology",
+   "tq": "Fix the first and last events, then place the two intervening waves by date.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "The first COVID-19 case in India was reported in which State and on what date?",
+   "o": [
+    "Maharashtra, 30 January 2020",
+    "Kerala, 30 January 2020",
+    "Delhi, 11 March 2020",
+    "Kerala, 16 January 2021"
+   ],
+   "a": 1,
+   "x": "The first COVID-19 case in India was reported in Kerala on 30 January 2020.",
+   "ty": "fact",
+   "tq": "Pair the correct State with the exact date and reject date-state swaps.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "The Delta second wave in India mainly occurred during:",
+   "o": [
+    "January–March 2020",
+    "September–October 2020",
+    "January–February 2022",
+    "April–May 2021"
+   ],
+   "a": 3,
+   "x": "The Delta second wave in India ran during April–May 2021.",
+   "ty": "numerical",
+   "tq": "Use the wave label and month range together to distinguish successive waves.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "Which of the following formed part of India's COVID-19 strategy?\n\n1. Test-track-treat-vaccinate\n2. COVID-appropriate behaviour\n3. A three-tier facility arrangement\n4. MHA Empowered Groups",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four were components of India's COVID-19 response strategy: test-track-treat-vaccinate, COVID-appropriate behaviour, MHA Empowered Groups and a three-tier facility arrangement.",
+   "ty": "statements",
+   "tq": "Recognise the complete policy cluster and avoid excluding the administrative component.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "As on 1 January 2022, the number of government and private laboratories reported for COVID-19 testing was respectively:",
+   "o": [
+    "1,753 and 1,753",
+    "1,753 and 1,364",
+    "1,364 and 1,364",
+    "1,364 and 1,753"
+   ],
+   "a": 3,
+   "x": "There were 1,364 government laboratories and 1,753 private laboratories by 1 January 2022.",
+   "ty": "numerical",
+   "tq": "Read paired figures in the stated order and avoid reversing government and private categories.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "COVID-19 vaccination in India began on:",
+   "o": [
+    "17 July 2022",
+    "21 December 2023",
+    "16 January 2021",
+    "30 January 2020"
+   ],
+   "a": 2,
+   "x": "COVID-19 vaccination in India began on 16 January 2021 under the guidance of NEGVAC.",
+   "ty": "fact",
+   "tq": "Distinguish the programme start date from later cumulative-dose milestones.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "Which body guided India's COVID-19 vaccination programme?",
+   "o": [
+    "COVAX",
+    "New India Assurance",
+    "MHA Empowered Groups",
+    "NEGVAC"
+   ],
+   "a": 3,
+   "x": "India's vaccination programme was guided by the National Expert Group on Vaccine Administration for COVID-19, or NEGVAC.",
+   "ty": "fact",
+   "tq": "Identify the body responsible for vaccine guidance rather than insurance or containment administration.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I: Digital vaccination function\n(a) Booking\n(b) Tracking\n(c) Digital certification\n\nList-II: Platform\n(i) CoWIN\n(ii) PM CARES for Children\n(iii) PMGKP\n\nChoose the correct answer:",
+   "o": [
+    "a–i, b–ii, c–iii",
+    "a–ii, b–iii, c–i",
+    "a–i, b–i, c–i",
+    "a–iii, b–i, c–ii"
+   ],
+   "a": 2,
+   "x": "CoWIN handled booking, tracking and digital certificates. Therefore all three functions are matched with CoWIN.",
+   "ty": "match",
+   "tq": "Identify the single platform responsible for all three digital vaccination functions.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs correctly represents the COVID-19 vaccination milestones in India?",
+   "o": [
+    "200 crore doses by 21 December 2023; 220.67 crore by 17 July 2022",
+    "200 crore doses by 24 February 2022; 220.67 crore by 11 March 2020",
+    "200 crore doses by 17 July 2022; 220.67 crore by 21 December 2023",
+    "200 crore doses by 16 January 2021; 220.67 crore by 30 January 2020"
+   ],
+   "a": 2,
+   "x": "India crossed 200 crore doses by 17 July 2022 and 220.67 crore doses by 21 December 2023.",
+   "ty": "numerical",
+   "tq": "Match each cumulative figure with its later date and reject reversed milestones.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "The percentages of the Indian population reported to have received the first and second COVID-19 doses were respectively:",
+   "o": [
+    "97% and 97%",
+    "90% and 97%",
+    "90% and 90%",
+    "97% and 90%"
+   ],
+   "a": 3,
+   "x": "The reported coverage was 97% for the first dose and 90% for the second dose.",
+   "ty": "numerical",
+   "tq": "Keep the two coverage percentages in dose order instead of reversing them.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "The Lancet report released on 24 February 2022 estimated that approximately how many children in India lost a parent or caregiver?",
+   "o": [
+    "9 lakh",
+    "19 lakh",
+    "29 lakh",
+    "39 lakh"
+   ],
+   "a": 1,
+   "x": "The report estimated that about 19 lakh children in India lost a parent or caregiver. This question does not distinguish only children who lost both parents.",
+   "ty": "numerical",
+   "tq": "Use the approximate figure and distinguish it from other child-impact estimates.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "Which statement regarding PM CARES for Children is correct?",
+   "o": [
+    "It covers children who lost both parents, the surviving parent or a guardian, with support at 23 years.",
+    "It covers only children who lost one parent and provides no education support.",
+    "It provides only health insurance to COVID-19 patients of all ages.",
+    "It is an international vaccine-access mechanism."
+   ],
+   "a": 0,
+   "x": "PM CARES for Children covers children who lost both parents, the surviving parent or a guardian. It provides health insurance and education support, with financial support at 23 years.",
+   "ty": "application",
+   "tq": "Test the scheme's beneficiary categories and benefit structure together.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "Which organisation projected that 8.9 million additional child labourers could be present by the end of 2022?",
+   "o": [
+    "WHO and Gavi",
+    "UNEP and IPCC",
+    "UNICEF and ILO",
+    "World Bank and IMF"
+   ],
+   "a": 2,
+   "x": "UNICEF and the International Labour Organization projected 8.9 million more child labourers by the end of 2022.",
+   "ty": "numerical",
+   "tq": "Match the social-impact projection with the correct international organisations.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "The PMGKP insurance scheme provided health workers with insurance cover of:",
+   "o": [
+    "Rs 1 crore",
+    "Rs 5 lakh",
+    "Rs 25 lakh",
+    "Rs 50 lakh"
+   ],
+   "a": 3,
+   "x": "The PMGKP insurance scheme provided Rs 50 lakh cover for health workers and was implemented by New India Assurance.",
+   "ty": "numerical",
+   "tq": "Separate the exact insurance amount from nearby round-value distractors.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "Which agency implemented the PMGKP insurance scheme for health workers?",
+   "o": [
+    "New India Assurance",
+    "Serum Institute of India",
+    "Gavi",
+    "National Health Authority"
+   ],
+   "a": 0,
+   "x": "PMGKP insurance for health workers was implemented by New India Assurance.",
+   "ty": "fact",
+   "tq": "Use the implementing-agency trap to distinguish an insurer from health-policy bodies.",
+   "sec": "COVID-19 in India - waves, CoWIN, social impact  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?\n\nInitiative — State",
+   "o": [
+    "Bhilwara model — Rajasthan",
+    "Dharavi model — Maharashtra",
+    "Break the Chain — Kerala",
+    "Door-to-door fever surveys by village volunteers — Gujarat"
+   ],
+   "a": 3,
+   "x": "Door-to-door fever surveys by village volunteers were an Andhra Pradesh initiative, not a Gujarat initiative. The other three pairs are correctly matched.",
+   "ty": "negative",
+   "tq": "Find the single wrong State association among familiar containment models.",
+   "sec": "State COVID containment initiatives  [APPSC]"
+  },
+  {
+   "s": "The Dharavi model, popularly associated with the expression “chasing the virus”, was implemented in:",
+   "o": [
+    "Andhra Pradesh",
+    "Kerala",
+    "Bhilwara, Rajasthan",
+    "Mumbai, Maharashtra"
+   ],
+   "a": 3,
+   "x": "The Dharavi model was implemented in Dharavi, Mumbai, Maharashtra, and was associated with the strategy of chasing the virus.",
+   "ty": "fact",
+   "tq": "Link the named model with its location and avoid confusing it with another State model.",
+   "sec": "State COVID containment initiatives  [APPSC]"
+  },
+  {
+   "s": "Door-to-door fever surveys conducted by village volunteers were a COVID-19 containment initiative of:",
+   "o": [
+    "Andhra Pradesh",
+    "Maharashtra",
+    "Odisha",
+    "Rajasthan"
+   ],
+   "a": 0,
+   "x": "Andhra Pradesh conducted door-to-door fever surveys through village volunteers as a containment initiative.",
+   "ty": "fact",
+   "tq": "Identify the State from the distinctive operational method rather than the model name.",
+   "sec": "State COVID containment initiatives  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is correctly matched with a major outbreak in India?\n\n1. Nipah — Kerala from 2018 onwards\n2. Zika — Kerala, 2021\n3. Chandipura — Gujarat, 2024\n4. Plague — Surat, Gujarat, 1994",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four pairs are correct. The listed outbreaks occurred in the stated States and years or periods.",
+   "ty": "statements",
+   "tq": "Check each disease-location-year association before accepting the complete combination.",
+   "sec": "Major outbreaks in India  [other exams]"
+  },
+  {
+   "s": "Which vector-disease pair is correctly matched?",
+   "o": [
+    "Zika — Aedes mosquito",
+    "Chandipura — Rat flea",
+    "Plague — Sandfly",
+    "Avian influenza — Aedes mosquito"
+   ],
+   "a": 0,
+   "x": "Zika is spread by Aedes mosquitoes. Chandipura is associated with sandflies, while plague is transmitted through rat fleas.",
+   "ty": "match",
+   "tq": "Match each disease with its vector and detect cross-swapped vectors.",
+   "sec": "Major outbreaks in India  [other exams]"
+  },
+  {
+   "s": "Chandipura outbreak in 2024 was reported in which State and was spread by which vector?",
+   "o": [
+    "Maharashtra and rat flea",
+    "West Bengal and dromedary camel",
+    "Kerala and Aedes mosquito",
+    "Gujarat and sandfly"
+   ],
+   "a": 3,
+   "x": "The Chandipura outbreak occurred in Gujarat in 2024 and was spread by sandflies.",
+   "ty": "fact",
+   "tq": "Combine place, year and vector to avoid partial-match distractors.",
+   "sec": "Major outbreaks in India  [other exams]"
+  },
+  {
+   "s": "The causative organism of the plague outbreak reported in Surat in 1994 was:",
+   "o": [
+    "Chandipura virus",
+    "Influenza A virus",
+    "Yersinia pestis",
+    "Orthoebolavirus"
+   ],
+   "a": 2,
+   "x": "The plague outbreak in Surat, Gujarat, in 1994 was associated with Yersinia pestis and transmission through rat fleas.",
+   "ty": "fact",
+   "tq": "Distinguish a bacterial causative organism from viral outbreak agents.",
+   "sec": "Major outbreaks in India  [other exams]"
+  },
+  {
+   "s": "The first Indian outbreak of avian influenza was reported at Navapur in:",
+   "o": [
+    "Gujarat in 1994",
+    "Maharashtra in 2006",
+    "West Bengal in 2021",
+    "Kerala in 2018"
+   ],
+   "a": 1,
+   "x": "The first Indian outbreak of avian influenza was reported at Navapur in Maharashtra in 2006.",
+   "ty": "fact",
+   "tq": "Combine the first-outbreak location with the year and State.",
+   "sec": "Major outbreaks in India  [other exams]"
+  }
+ ]
+}

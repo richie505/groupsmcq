@@ -1,0 +1,415 @@
+{
+ "book": 5,
+ "row": 115,
+ "chunk": 0,
+ "section": "Recent trends in India's disease burden - communicable and non-communicable diseases",
+ "subsections": [
+  "Dual and triple burden - communicable, NCDs, injuries; shares in deaths and DALYs",
+  "Lifestyle disease risk factors - trans fats, obesity, sedentary life, tobacco, alcohol",
+  "Communicable vs lifestyle diseases - classification, odd-one-out",
+  "Leading causes of death - India and the world",
+  "Epidemiological transition - stages, India, AP",
+  "Emerging and re-emerging infections - TB, dengue, Nipah, Zika, avian flu"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 30,
+ "rejected": {
+  "invalid": 1,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The term 'triple burden' in public health refers to the simultaneous presence of:",
+   "o": [
+    "Infections, pollution and climate change",
+    "Malnutrition, obesity and mental illness",
+    "Maternal diseases, childhood diseases and old-age diseases",
+    "Communicable diseases, non-communicable diseases and injuries"
+   ],
+   "a": 3,
+   "x": "The triple burden combines communicable diseases, non-communicable diseases and injuries such as road accidents and trauma.",
+   "ty": "fact",
+   "tq": "Use the defining components of the term rather than confusing it with the dual burden.",
+   "sec": "Dual and triple burden - communicable, NCDs, injuries; shares in deaths and DALYs  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. Non-communicable diseases account for 57% of all deaths in India.\n2. Cardiovascular disease is the leading cause of death in India.\n3. The share of non-communicable diseases in deaths has declined from 61.8% in 2016 to 37.9% in 1990.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. Statement 3 reverses the trend: the recorded share was 37.9% in 1990 and 61.8% in 2016 in the cited study.",
+   "ty": "statements",
+   "tq": "Check the direction of the numerical trend before selecting the coded combination.",
+   "sec": "Dual and triple burden - communicable, NCDs, injuries; shares in deaths and DALYs  [APPSC]"
+  },
+  {
+   "s": "Dual burden of malnutrition means the coexistence of:",
+   "o": [
+    "Vitamin deficiency with infectious diseases",
+    "Childhood wasting and maternal anaemia",
+    "Undernutrition with adult overweight and obesity",
+    "Food insecurity with occupational injuries"
+   ],
+   "a": 2,
+   "x": "The dual burden of malnutrition refers to undernutrition existing alongside adult overweight and obesity.",
+   "ty": "fact",
+   "tq": "Distinguish the nutritional dual burden from the public-health dual burden of communicable and non-communicable diseases.",
+   "sec": "Dual and triple burden - communicable, NCDs, injuries; shares in deaths and DALYs  [APPSC]"
+  },
+  {
+   "s": "According to NFHS-5 data for 2019–21, which of the following statements is correct regarding overweight or obesity?",
+   "o": [
+    "24% of women and 23% of men were overweight or obese.",
+    "34% of women and 33% of men were overweight or obese.",
+    "23% of women and 24% of men were overweight or obese.",
+    "14% of women and 13% of men were overweight or obese."
+   ],
+   "a": 0,
+   "x": "NFHS-5 reported overweight or obesity among 24% of women and 23% of men for 2019–21.",
+   "ty": "numerical",
+   "tq": "Read the sex-wise figures carefully; the close reversal is the intended trap.",
+   "sec": "Lifestyle disease risk factors - trans fats, obesity, sedentary life, tobacco, alcohol  [APPSC]"
+  },
+  {
+   "s": "Which of the following is the correct matching of a programme with its broad focus?",
+   "o": [
+    "Eat Right India—healthy food choices; Fit India—physical activity",
+    "Eat Right India—wastewater surveillance; Fit India—vaccination",
+    "Eat Right India—road safety; Fit India—tobacco regulation",
+    "Eat Right India—vector control; Fit India—air-quality monitoring"
+   ],
+   "a": 0,
+   "x": "Eat Right India promotes healthier food choices, while Fit India promotes physical activity and fitness.",
+   "ty": "match",
+   "tq": "Start from the familiar programme-purpose pair and reject unrelated public-health functions.",
+   "sec": "Lifestyle disease risk factors - trans fats, obesity, sedentary life, tobacco, alcohol  [APPSC]"
+  },
+  {
+   "s": "The Food Safety and Standards Authority of India has capped trans fat in fats and oils at:",
+   "o": [
+    "1%",
+    "2%",
+    "5%",
+    "10%"
+   ],
+   "a": 1,
+   "x": "FSSAI has capped trans fat in fats and oils at 2%.",
+   "ty": "numerical",
+   "tq": "Use the precise regulatory limit rather than the broader dietary-risk information.",
+   "sec": "Lifestyle disease risk factors - trans fats, obesity, sedentary life, tobacco, alcohol  [APPSC]"
+  },
+  {
+   "s": "The United Nations General Assembly declaration on non-communicable diseases and mental health includes which of the following newer areas or determinants?\n1. Oral health and lung health\n2. Childhood cancer\n3. Air pollution and lead\n4. Digital harms such as screen time\nSelect the correct answer using the code given below.",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The declaration covers oral and lung health, childhood cancer, air pollution, lead and digital harms such as screen time. It also calls for stronger regulation of tobacco, trans fats and e-cigarettes.",
+   "ty": "statements",
+   "tq": "When all listed items belong to the stated expansion of scope, select the complete combination.",
+   "sec": "Lifestyle disease risk factors - trans fats, obesity, sedentary life, tobacco, alcohol  [APPSC]"
+  },
+  {
+   "s": "Which one of the following is NOT a communicable disease?",
+   "o": [
+    "Chikungunya",
+    "Typhoid",
+    "Hypertension",
+    "Nipah"
+   ],
+   "a": 2,
+   "x": "Hypertension is a non-communicable lifestyle-related disease. Chikungunya, typhoid and Nipah are communicable diseases.",
+   "ty": "negative",
+   "tq": "Classify each option by whether it is caused by a transmissible pathogen.",
+   "sec": "Communicable vs lifestyle diseases - classification, odd-one-out  [APPSC]"
+  },
+  {
+   "s": "Which one of the following sets consists entirely of the four major non-communicable disease groups?",
+   "o": [
+    "Obesity, malaria, stroke and typhoid",
+    "Malaria, dengue, tuberculosis and cholera",
+    "Cardiovascular diseases, cancers, chronic respiratory diseases and diabetes",
+    "Hypertension, chikungunya, cancer and Nipah"
+   ],
+   "a": 2,
+   "x": "The four major NCD groups are cardiovascular diseases, cancers, chronic respiratory diseases and diabetes.",
+   "ty": "fact",
+   "tq": "Look for a set in which every item belongs to the same classification, not merely one or two items.",
+   "sec": "Communicable vs lifestyle diseases - classification, odd-one-out  [APPSC]"
+  },
+  {
+   "s": "Meningococcal meningitis is primarily transmitted through:",
+   "o": [
+    "The bite of Aedes mosquitoes",
+    "Contaminated freshwater snails",
+    "Respiratory droplets from person to person",
+    "The bite of Culex mosquitoes"
+   ],
+   "a": 2,
+   "x": "Meningococcal meningitis spreads from person to person through respiratory droplets. Vomiting and neck stiffness are among its symptoms.",
+   "ty": "confusable",
+   "tq": "Separate a respiratory-droplet infection from mosquito-borne diseases by identifying the mode of transmission.",
+   "sec": "Communicable vs lifestyle diseases - classification, odd-one-out  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly distinguishes the leading causes of death in India and in the world?",
+   "o": [
+    "Tuberculosis leads in India, while dengue is the single biggest killer in the world.",
+    "Cardiovascular diseases lead in India, while ischaemic heart disease is the single biggest killer in the world.",
+    "Cancer leads in India, while cardiovascular disease is absent from the global ranking.",
+    "Injuries lead in India, while chronic respiratory disease is the single biggest global killer."
+   ],
+   "a": 1,
+   "x": "Cardiovascular diseases are the leading cause of death in India, while WHO estimates identify ischaemic heart disease as the world's single biggest killer.",
+   "ty": "comparison",
+   "tq": "Keep the country-level and global-level comparisons separate before matching the two answers.",
+   "sec": "Leading causes of death - India and the world  [other exams]"
+  },
+  {
+   "s": "The India State-Level Disease Burden Initiative is associated with which combination of institutions and study?",
+   "o": [
+    "ICMR, PHFI and IHME; Global Burden of Disease study",
+    "WHO, UNICEF and FAO; World Health Survey",
+    "NCDC, FSSAI and NITI Aayog; National Family Health Survey",
+    "ICMR, ISRO and DRDO; Census of India"
+   ],
+   "a": 0,
+   "x": "The estimates are produced through the ICMR-PHFI-IHME India State-Level Disease Burden Initiative, which forms part of the Global Burden of Disease study.",
+   "ty": "match",
+   "tq": "Match the institutional group with the named study rather than with a nearby health survey.",
+   "sec": "Leading causes of death - India and the world  [other exams]"
+  },
+  {
+   "s": "Consider the following statements regarding non-communicable disease mortality in India:\n1. The probability of dying from an NCD rose in India between 2001 and 2019.\n2. The rise was especially noted among women over 40 and men over 55.\n3. Most countries reduced NCD deaths during the same period.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: most countries reduced NCD deaths, whereas India's probability of dying from an NCD rose, particularly in the specified age-sex groups.",
+   "ty": "statements",
+   "tq": "Compare the general international trend with India's contrasting trend and retain all supported statements.",
+   "sec": "Leading causes of death - India and the world  [other exams]"
+  },
+  {
+   "s": "Arrange the following stages of epidemiological transition in the correct chronological order:\nA. Age of Degenerative and Man-Made Diseases\nB. Age of Pestilence and Famine\nC. Age of Receding Pandemics",
+   "o": [
+    "B, C, A",
+    "C, B, A",
+    "B, A, C",
+    "A, C, B"
+   ],
+   "a": 0,
+   "x": "Omran's sequence proceeds from the Age of Pestilence and Famine to the Age of Receding Pandemics and then to the Age of Degenerative and Man-Made Diseases.",
+   "ty": "chronology",
+   "tq": "Identify the initial high-infection stage and the final NCD-dominant stage, then place the intermediate stage.",
+   "sec": "Epidemiological transition - stages, India, AP  [APPSC]"
+  },
+  {
+   "s": "Which stage of epidemiological transition is characterised by declining infectious deaths due to improvements in sanitation and vaccination?",
+   "o": [
+    "Age of Pestilence and Famine",
+    "Age of Degenerative and Man-Made Diseases",
+    "Age of Receding Pandemics",
+    "Age of Nutritional Transition"
+   ],
+   "a": 2,
+   "x": "In the Age of Receding Pandemics, infectious deaths decline as sanitation and vaccination improve.",
+   "ty": "fact",
+   "tq": "Associate the stage with its defining health pattern rather than its name alone.",
+   "sec": "Epidemiological transition - stages, India, AP  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements:\n1. India is undergoing a linear shift from infectious diseases to non-communicable diseases.\n2. Life expectancy in India rose from 49.7 years in 1973 to 70.3 years in 2023.\n3. Maternal mortality ratio has fallen by 86% since 1990.\n4. Under-five mortality rate has fallen by 78% since 1990.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly describe the epidemiological and mortality transition reported for India.",
+   "ty": "statements",
+   "tq": "Check each numerical and trend statement independently before selecting the complete combination.",
+   "sec": "Epidemiological transition - stages, India, AP  [APPSC]"
+  },
+  {
+   "s": "The stage of epidemiological transition in which non-communicable diseases dominate is known as:",
+   "o": [
+    "Age of Epidemic Expansion",
+    "Age of Receding Pandemics",
+    "Age of Pestilence and Famine",
+    "Age of Degenerative and Man-Made Diseases"
+   ],
+   "a": 3,
+   "x": "NCDs dominate in the Age of Degenerative and Man-Made Diseases.",
+   "ty": "fact",
+   "tq": "Use the characteristic pattern of each stage to distinguish the final transition stage.",
+   "sec": "Epidemiological transition - stages, India, AP  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly identifies the ICMR initiatives associated with tuberculosis and malaria respectively?",
+   "o": [
+    "India TB Research Consortium and MERA",
+    "MERA and India TB Research Consortium",
+    "PHEOC and MERA",
+    "NCDC and India TB Research Consortium"
+   ],
+   "a": 0,
+   "x": "The India TB Research Consortium is associated with tuberculosis, while MERA is the ICMR initiative associated with malaria.",
+   "ty": "match",
+   "tq": "Use the disease-specific association and beware of reversing the two initiatives.",
+   "sec": "Emerging and re-emerging infections - TB, dengue, Nipah, Zika, avian flu"
+  },
+  {
+   "s": "A national tuberculosis prevalence survey in India is notable because it covers:",
+   "o": [
+    "All States and Union Territories",
+    "Only high-burden districts",
+    "Only metropolitan cities",
+    "All States but not Union Territories"
+   ],
+   "a": 0,
+   "x": "The national TB prevalence survey covers all States and Union Territories.",
+   "ty": "fact",
+   "tq": "Watch for restrictive words such as 'only' and distinguish complete national coverage from partial coverage.",
+   "sec": "Emerging and re-emerging infections - TB, dengue, Nipah, Zika, avian flu"
+  },
+  {
+   "s": "Consider the following pairs:\n1. Dengue — Aedes mosquito\n2. Chikungunya — Aedes mosquito\n3. Zika — Aedes mosquito\n4. Japanese encephalitis — Culex mosquito\nWhich of the pairs given above are correctly matched?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "Dengue, chikungunya and Zika are carried by Aedes mosquitoes, whereas Japanese encephalitis is carried by Culex mosquitoes.",
+   "ty": "statements",
+   "tq": "Start with the repeated Aedes association and verify the contrasting Culex pair.",
+   "sec": "Emerging and re-emerging infections - TB, dengue, Nipah, Zika, avian flu"
+  },
+  {
+   "s": "In January 2026, two Nipah cases were reported in:",
+   "o": [
+    "Kerala",
+    "Assam",
+    "Maharashtra",
+    "West Bengal"
+   ],
+   "a": 3,
+   "x": "Two Nipah cases were reported in West Bengal in January 2026.",
+   "ty": "numerical",
+   "tq": "Link the disease, number of cases, place and month instead of relying only on the disease's usual geographic association.",
+   "sec": "Emerging and re-emerging infections - TB, dengue, Nipah, Zika, avian flu"
+  },
+  {
+   "s": "Which agency's Public Health Emergency Operations Centre was activated following the two Nipah cases reported in January 2026?",
+   "o": [
+    "FSSAI",
+    "ICMR",
+    "WHO",
+    "NCDC"
+   ],
+   "a": 3,
+   "x": "The NCDC's Public Health Emergency Operations Centre, or PHEOC, was activated in response to the reported Nipah cases.",
+   "ty": "fact",
+   "tq": "Apply the 'who would do this job?' method to distinguish the public-health response authority.",
+   "sec": "Emerging and re-emerging infections - TB, dengue, Nipah, Zika, avian flu"
+  },
+  {
+   "s": "Which one of the following statements regarding infectious disease surveillance in India is correct?",
+   "o": [
+    "NCDC wastewater surveillance covers 10 cities and excludes antimicrobial resistance.",
+    "ICMR wastewater surveillance declined from 50 to 5 cities and tracks only one virus.",
+    "ICMR wastewater surveillance expanded from 5 to 50 cities and tracks 10 viruses, along with antimicrobial resistance.",
+    "The programme tracks only dengue and chikungunya and does not include avian influenza."
+   ],
+   "a": 2,
+   "x": "ICMR's wastewater surveillance expanded from 5 to 50 cities, tracks 10 viruses including avian influenza, and also monitors antimicrobial resistance.",
+   "ty": "numerical",
+   "tq": "Check the direction of expansion, the number of cities and the scope of surveillance together.",
+   "sec": "Emerging and re-emerging infections - TB, dengue, Nipah, Zika, avian flu"
+  },
+  {
+   "s": "Which of the following diseases was specifically included among the viruses tracked by ICMR wastewater surveillance?",
+   "o": [
+    "Cholera",
+    "Avian influenza",
+    "Malaria",
+    "Typhoid"
+   ],
+   "a": 1,
+   "x": "Avian influenza is among the viruses tracked by the ICMR wastewater surveillance programme.",
+   "ty": "fact",
+   "tq": "Distinguish a viral surveillance target from bacterial and protozoan diseases.",
+   "sec": "Emerging and re-emerging infections - TB, dengue, Nipah, avian flu"
+  },
+  {
+   "s": "In August 2026, a spike was reported in cases of:",
+   "o": [
+    "Zika",
+    "Nipah",
+    "Japanese encephalitis",
+    "H1N1"
+   ],
+   "a": 3,
+   "x": "H1N1 cases spiked in August 2026.",
+   "ty": "fact",
+   "tq": "Use the date-specific current-affairs association and avoid substituting another emerging infection.",
+   "sec": "Emerging and re-emerging infections - TB, dengue, Nipah, avian flu"
+  },
+  {
+   "s": "Which one of the following public-health measures was undertaken in Andhra Pradesh in relation to scrub typhus?",
+   "o": [
+    "A ban on all poultry products was imposed.",
+    "Task forces were set up.",
+    "A national TB prevalence survey was discontinued.",
+    "A Culex eradication mission was launched."
+   ],
+   "a": 1,
+   "x": "Andhra Pradesh set up task forces for scrub typhus under the cited state health measures.",
+   "ty": "fact",
+   "tq": "Identify the exact administrative response and reject measures not stated for the disease.",
+   "sec": "Emerging and re-emerging infections - TB, dengue, Nipah, Zika, avian flu"
+  },
+  {
+   "s": "Assertion (A): India is experiencing a triple burden of disease.\nReason (R): Injuries such as road accidents and trauma are added to the existing burden of communicable and non-communicable diseases.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "The assertion is true, and the reason correctly explains the use of 'triple burden': injuries are added to communicable and non-communicable diseases.",
+   "ty": "assertion_reason",
+   "tq": "Test whether the reason supplies the defining third component and directly explains the assertion.",
+   "sec": "Dual and triple burden - communicable, NCDs, injuries; shares in deaths and DALYs  [APPSC]"
+  },
+  {
+   "s": "Assertion (A): Cardiovascular disease is the leading cause of death in India.\nReason (R): Ischaemic heart disease is the single biggest killer according to WHO estimates for the world.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 1,
+   "x": "Both statements are true, but the reason refers to the global WHO estimate and does not explain the India-specific ranking.",
+   "ty": "assertion_reason",
+   "tq": "Separate two true statements that apply to different geographic levels before judging the explanatory link.",
+   "sec": "Leading causes of death - India and the world  [other exams]"
+  }
+ ]
+}

@@ -1,0 +1,443 @@
+{
+ "book": 5,
+ "row": 98,
+ "chunk": 0,
+ "section": "Environmental pollution - types, sources and impacts (overview)",
+ "subsections": [
+  "Major pollution disasters - year, place, pollutant",
+  "Pollution type - major primary source - impacts",
+  "Global environmental conferences - venue, year, outputs",
+  "Environmental research and monitoring bodies - headquarters",
+  "Toxic pollutants and their sources",
+  "Pollutant classification"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 32,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "The Los Angeles smog episode of 1943 was primarily associated with which of the following?",
+   "o": [
+    "Photochemical smog formed by sunlight acting on nitrogen oxides and hydrocarbons from vehicle exhaust",
+    "Methyl mercury released into an industrial water body",
+    "Radioactive pollution caused by a reactor leak",
+    "Classical smog caused by sulphur dioxide and water vapour at low temperature"
+   ],
+   "a": 0,
+   "x": "The Los Angeles smog was photochemical smog, produced when sunlight acted on nitrogen oxides and hydrocarbons from vehicle exhaust, particularly at about 24–32°C.",
+   "ty": "fact",
+   "tq": "Identify the event by linking its characteristic pollutant mixture and atmospheric condition.",
+   "sec": "Major pollution disasters - year, place, pollutant"
+  },
+  {
+   "s": "Consider the following statements regarding the London smog of December 1952:\n1. It occurred from 5 to 11 December 1952.\n2. It was classical smog formed from water vapour and sulphur dioxide or hydrogen sulphide on dust at low temperature.\n3. It caused approximately 4,000 deaths.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. The London episode lasted from 5 to 11 December 1952 and involved classical smog under low-temperature conditions, causing about 4,000 deaths.",
+   "ty": "statements",
+   "tq": "Check the date, pollutant combination and quantified impact together.",
+   "sec": "Major pollution disasters - year, place, pollutant"
+  },
+  {
+   "s": "Minamata disease was caused by the release of which pollutant into the environment?",
+   "o": [
+    "Styrene vapour from a polymer plant",
+    "Hydrogen sulphide from domestic combustion",
+    "Methyl mercury in industrial effluent",
+    "Methyl isocyanate from a pesticide unit"
+   ],
+   "a": 2,
+   "x": "Minamata disease resulted from methyl mercury in industrial effluent. The mercury was biomagnified in fish and entered the human food chain.",
+   "ty": "fact",
+   "tq": "Use the pollutant-to-disaster association to distinguish closely related industrial incidents.",
+   "sec": "Major pollution disasters - year, place, pollutant"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Fukushima — Styrene vapour leak",
+    "Bhopal gas tragedy — Methyl isocyanate",
+    "Chernobyl — Radioactive leak from a reactor",
+    "LG Polymers, Visakhapatnam — Styrene vapour leak"
+   ],
+   "a": 0,
+   "x": "Fukushima involved a hydrogen explosion and radioactive leak after an earthquake-tsunami. The styrene vapour leak occurred at LG Polymers in Visakhapatnam in 2020.",
+   "ty": "negative",
+   "tq": "Find the swapped pollutant in a disaster–pollutant matching question.",
+   "sec": "Major pollution disasters - year, place, pollutant"
+  },
+  {
+   "s": "The Bhopal gas tragedy took place during which period and involved the leakage of which substance?",
+   "o": [
+    "2–3 December 1984; methyl isocyanate",
+    "5–11 December 1952; sulphur dioxide",
+    "7 May 2020; styrene vapour",
+    "26 April 1986; radioactive material"
+   ],
+   "a": 0,
+   "x": "The Bhopal gas tragedy occurred on 2–3 December 1984 when methyl isocyanate leaked from Union Carbide’s pesticide unit. More than 2,500 deaths were reported in the cited assessment.",
+   "ty": "numerical",
+   "tq": "Pair the exact date range with the distinctive industrial chemical.",
+   "sec": "Major pollution disasters - year, place, pollutant"
+  },
+  {
+   "s": "Arrange the following pollution disasters in chronological order:\nA. Chernobyl disaster\nB. Minamata disease\nC. Los Angeles smog\nD. Bhopal gas tragedy",
+   "o": [
+    "C, B, D, A",
+    "B, C, D, A",
+    "C, D, B, A",
+    "B, C, A, D"
+   ],
+   "a": 0,
+   "x": "The correct sequence is Los Angeles smog (1943), Minamata disease (1956), Bhopal gas tragedy (1984), and Chernobyl (1986).",
+   "ty": "chronology",
+   "tq": "Place the earliest and latest events first, then resolve the middle sequence.",
+   "sec": "Major pollution disasters - year, place, pollutant"
+  },
+  {
+   "s": "The LG Polymers pollution disaster of 7 May 2020 occurred at which location?",
+   "o": [
+    "Bhopal, Madhya Pradesh",
+    "R.R. Venkatapuram, Visakhapatnam, Andhra Pradesh",
+    "Chernobyl, Ukraine",
+    "Minamata, Japan"
+   ],
+   "a": 1,
+   "x": "The LG Polymers styrene vapour leak occurred at R.R. Venkatapuram in Visakhapatnam, Andhra Pradesh, on 7 May 2020.",
+   "ty": "fact",
+   "tq": "Use the precise location to distinguish a recent industrial disaster from older global events.",
+   "sec": "Major pollution disasters - year, place, pollutant"
+  },
+  {
+   "s": "Which of the following is the major primary source of air pollution identified for assessment purposes?",
+   "o": [
+    "Chemical fertilisers and pesticides",
+    "Construction debris alone",
+    "Sewage discharge",
+    "Industrial emissions and vehicle exhaust"
+   ],
+   "a": 3,
+   "x": "The major primary sources of air pollution are industrial emissions, including sulphur dioxide, nitrogen oxides and particulate matter, together with vehicle exhaust.",
+   "ty": "fact",
+   "tq": "Match each pollution type with its principal source rather than its impact.",
+   "sec": "Pollution type - major primary source - impacts"
+  },
+  {
+   "s": "Consider the following statements:\n1. Sewage discharge and industrial effluents are major primary sources of water pollution.\n2. Water pollution can cause water-borne diseases, eutrophication and fish kills.\n3. Water pollution primarily causes loss of soil fertility and imbalance of soil fauna.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Loss of soil fertility and imbalance of soil fauna are key impacts of soil pollution, not the principal impacts listed for water pollution.",
+   "ty": "statements",
+   "tq": "Separate the source and impacts of water pollution from those of soil pollution.",
+   "sec": "Pollution type - major primary source - impacts"
+  },
+  {
+   "s": "Which one of the following correctly describes soil pollution and its major impacts?",
+   "o": [
+    "Vehicle exhaust and industrial emissions; poor visibility and acid rain",
+    "Construction and traffic; hearing loss and sleep loss",
+    "Chemical fertilisers, pesticides and industrial waste; loss of fertility and imbalance of soil fauna",
+    "Sewage and industrial effluents; eutrophication and fish kills"
+   ],
+   "a": 2,
+   "x": "Chemical fertilisers, pesticides and industrial waste are major sources of soil pollution, which can reduce soil fertility, contaminate crops and disturb soil fauna.",
+   "ty": "comparison",
+   "tq": "Compare source–impact pairs across the four pollution categories.",
+   "sec": "Pollution type - major primary source - impacts"
+  },
+  {
+   "s": "Which of the following is the most appropriate combination for noise pollution?",
+   "o": [
+    "Sewage, effluents and fertilisers; eutrophication and fish kills",
+    "Vehicle exhaust and sunlight; radioactive contamination",
+    "Construction, traffic and loudspeakers; hearing loss, stress and sleep loss",
+    "Coal combustion and smelters; biomagnification in fish"
+   ],
+   "a": 2,
+   "x": "Construction activity, traffic and loudspeakers are major sources of noise pollution, whose listed impacts include hearing loss, stress and sleep loss.",
+   "ty": "comparison",
+   "tq": "Select the complete source–impact combination rather than a single familiar keyword.",
+   "sec": "Pollution type - major primary source - impacts"
+  },
+  {
+   "s": "According to the cited estimate, air pollution causes approximately how many deaths globally each year?",
+   "o": [
+    "3.8 million",
+    "4 million",
+    "7 million",
+    "10 million"
+   ],
+   "a": 2,
+   "x": "The cited estimate places annual deaths from air pollution at about 7 million globally. Household air pollution alone accounts for about 3.8 million.",
+   "ty": "numerical",
+   "tq": "Distinguish the broad air-pollution estimate from the narrower household-air-pollution estimate.",
+   "sec": "Pollution type - major primary source - impacts"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "Marble cancer — acid rain caused by sulphur dioxide",
+    "Biomagnification — carbon dioxide",
+    "Greenhouse effect — DDT",
+    "Lung cancer — methyl mercury alone"
+   ],
+   "a": 0,
+   "x": "Marble cancer is associated with acid rain, particularly sulphur dioxide. Biomagnification is associated with DDT, the greenhouse effect with carbon dioxide, and lung cancer with asbestos or particulates.",
+   "ty": "match",
+   "tq": "Start with the sure pollutant–effect pair and eliminate the swapped associations.",
+   "sec": "Pollution type - major primary source - impacts"
+  },
+  {
+   "s": "Consider the following statements about the 1992 Earth Summit:\n1. The Rio Declaration, Agenda 21 and Forest Principles were among its outputs.\n2. The United Nations Framework Convention on Climate Change and the Convention on Biological Diversity were opened for signature.\n3. The High-Level Political Forum was its principal stated output.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 2 are correct. The High-Level Political Forum is associated with Rio+20 in 2012, not the 1992 Earth Summit.",
+   "ty": "statements",
+   "tq": "Separate the outputs of the 1992 Earth Summit from those of Rio+20.",
+   "sec": "Global environmental conferences - venue, year, outputs"
+  },
+  {
+   "s": "Which of the following was an output of the Rio+20 Conference held in 2012?",
+   "o": [
+    "The Montreal Protocol and Kyoto Protocol",
+    "Agenda 21 and Forest Principles only",
+    "Stockholm Declaration and creation of UNEP",
+    "The Future We Want and initiation of the SDG process"
+   ],
+   "a": 3,
+   "x": "Rio+20, held in Rio de Janeiro in 2012, produced “The Future We Want”, launched the Sustainable Development Goal process and was associated with the High-Level Political Forum.",
+   "ty": "fact",
+   "tq": "Use the conference title and year to identify its characteristic outcome document.",
+   "sec": "Global environmental conferences - venue, year, outputs"
+  },
+  {
+   "s": "Which one of the following pairs is NOT correctly matched?",
+   "o": [
+    "Botanical Survey of India — Kolkata",
+    "CPCB — New Delhi",
+    "Wildlife Institute of India — Dehradun",
+    "Zoological Survey of India — Dehradun"
+   ],
+   "a": 3,
+   "x": "The Zoological Survey of India is headquartered in Kolkata. Dehradun is the headquarters of the Wildlife Institute of India.",
+   "ty": "negative",
+   "tq": "Find the reversed headquarters pair among organisations located in different cities.",
+   "sec": "Environmental research and monitoring bodies - headquarters"
+  },
+  {
+   "s": "The Central Pollution Control Board was established in 1974 under which legislation and was renamed in 1988?",
+   "o": [
+    "Environment Protection Act; renamed as the National Green Tribunal",
+    "Water Act; renamed as the Central Pollution Control Board",
+    "Air Act; renamed as the National Pollution Board",
+    "Wildlife Protection Act; renamed as the Wildlife Board"
+   ],
+   "a": 1,
+   "x": "The CPCB was established in 1974 under the Water Act and was renamed in 1988. Its headquarters are in New Delhi.",
+   "ty": "fact",
+   "tq": "Link the institution with its establishing statute and the date of renaming.",
+   "sec": "Environmental research and monitoring bodies - headquarters"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Body)\na. Wildlife Institute of India\nb. Centre for Science and Environment\nc. Botanical Survey of India\nd. Zoological Survey of India\n\nList-II (Headquarters)\ni. Kolkata\nii. Dehradun\niii. New Delhi\n\nChoose the correct answer using the code given below.",
+   "o": [
+    "a–ii, b–iii, c–i, d–i",
+    "a–i, b–iii, c–ii, d–i",
+    "a–ii, b–i, c–iii, d–iii",
+    "a–iii, b–ii, c–i, d–i"
+   ],
+   "a": 0,
+   "x": "The Wildlife Institute of India is headquartered in Dehradun; CSE in New Delhi; and both the Botanical Survey of India and Zoological Survey of India in Kolkata.",
+   "ty": "match",
+   "tq": "Start from the repeated sure pair: both survey organisations are headquartered in Kolkata.",
+   "sec": "Environmental research and monitoring bodies - headquarters"
+  },
+  {
+   "s": "Lead pollution from motor vehicles and smelters is particularly associated with which health impact?",
+   "o": [
+    "Sleep loss alone",
+    "Brain damage",
+    "Biomagnification in fish only",
+    "Eutrophication"
+   ],
+   "a": 1,
+   "x": "Lead from motor vehicles and smelters can cause brain damage. Lead in household and decorative paints is capped at 90 ppm by the Ministry of Environment, Forest and Climate Change.",
+   "ty": "application",
+   "tq": "Connect a toxic pollutant with its distinctive health effect and regulatory figure.",
+   "sec": "Toxic pollutants and their sources"
+  },
+  {
+   "s": "The permitted lead content in household and decorative paints is capped at which level?",
+   "o": [
+    "90 ppm",
+    "9,000 ppm",
+    "9 ppm",
+    "900 ppm"
+   ],
+   "a": 0,
+   "x": "The lead content in household and decorative paints is capped at 90 parts per million by MoEF&CC.",
+   "ty": "numerical",
+   "tq": "Handle a quantitative regulatory limit by distinguishing the correct order of magnitude.",
+   "sec": "Toxic pollutants and their sources"
+  },
+  {
+   "s": "Which of the following metals may be present in coal ash and contribute to soil pollution when coal ash is improperly disposed?",
+   "o": [
+    "Arsenic, mercury, lead, cadmium and chromium",
+    "Only calcium and sodium",
+    "Chlorine and fluorine alone",
+    "Nitrogen, oxygen and hydrogen only"
+   ],
+   "a": 0,
+   "x": "Coal ash can contain heavy metals such as arsenic, mercury, lead, cadmium and chromium; its disposal can therefore pollute soil.",
+   "ty": "fact",
+   "tq": "Recognise the complete list of heavy metals rather than selecting a single familiar pollutant.",
+   "sec": "Toxic pollutants and their sources"
+  },
+  {
+   "s": "Brominated flame retardants are commonly added to which group of materials and are known for what characteristic?",
+   "o": [
+    "Electronics, plastics, foam and textiles; persistence and endocrine-disrupting effects",
+    "Building stone and soil; radioactive decay",
+    "Drinking water and sewage; eutrophication only",
+    "Fertilisers and livestock feed; rapid biodegradation"
+   ],
+   "a": 0,
+   "x": "Brominated flame retardants are used in electronics, plastics, foam and textiles. They are persistent, can disrupt endocrine function and may be released from e-waste.",
+   "ty": "fact",
+   "tq": "Combine the source material with the pollutant’s environmental property.",
+   "sec": "Toxic pollutants and their sources"
+  },
+  {
+   "s": "Agricultural fertilisers and livestock excreta account for approximately what share of ammonia emissions in the National Capital Region?",
+   "o": [
+    "7–8 percent",
+    "47–50 percent",
+    "77–80 percent",
+    "17–20 percent"
+   ],
+   "a": 2,
+   "x": "Agricultural fertilisers and livestock excreta contribute approximately 77–80% of ammonia emissions in the NCR, according to the cited synthesis report.",
+   "ty": "numerical",
+   "tq": "Distinguish the high percentage range from lower plausible distractor ranges.",
+   "sec": "Toxic pollutants and their sources"
+  },
+  {
+   "s": "Burning tyres, plastics, flex and e-waste in open fires can release which combination of pollutants?",
+   "o": [
+    "Ozone and peroxyacyl nitrate without other pollutants",
+    "Only oxygen and water vapour",
+    "Only carbon dioxide and methane",
+    "Dioxins, furans, carbon monoxide, sulphur dioxide, nitrogen oxides and toxic metals"
+   ],
+   "a": 3,
+   "x": "Such burning can release dioxins, furans, carbon monoxide, sulphur dioxide, nitrogen oxides, lead, cadmium and mercury.",
+   "ty": "application",
+   "tq": "Select the option containing both gaseous pollutants and toxic metals associated with open burning.",
+   "sec": "Toxic pollutants and their sources"
+  },
+  {
+   "s": "Which one of the following is correctly matched with the basis of pollutant classification?",
+   "o": [
+    "Primary pollutant — formed only after atmospheric reaction",
+    "Quantitative pollutant — insecticides and herbicides",
+    "Non-biodegradable pollutant — plastics and DDT",
+    "Point source — farm runoff"
+   ],
+   "a": 2,
+   "x": "Plastics and DDT are examples of non-biodegradable pollutants. Primary pollutants are emitted directly, quantitative pollutants include carbon dioxide, and a point source may be a chimney; farm runoff is diffuse or non-point.",
+   "ty": "match",
+   "tq": "Match examples to the correct classification basis and reject reversed definitions.",
+   "sec": "Pollutant classification"
+  },
+  {
+   "s": "Which of the following represents a secondary pollutant?",
+   "o": [
+    "Sewage discharged into a river",
+    "Plastics emitted as waste",
+    "Carbon dioxide released from combustion",
+    "Ozone formed by atmospheric reactions"
+   ],
+   "a": 3,
+   "x": "Secondary pollutants are formed by reactions in the environment. Ozone and peroxyacyl nitrate are examples, whereas plastics are listed as primary pollutants in the classification table.",
+   "ty": "fact",
+   "tq": "Use the defining distinction between emitted pollutants and reaction products.",
+   "sec": "Pollutant classification"
+  },
+  {
+   "s": "Consider the following statements about pollutant classification:\n1. Carbon dioxide is an example of a quantitative pollutant.\n2. Insecticides and herbicides are examples of qualitative pollutants.\n3. Sewage and heat are non-biodegradable pollutants.\n4. Plastics and DDT are non-biodegradable pollutants.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "x": "Statements 1, 2 and 4 are correct. Sewage and heat are listed as biodegradable pollutants, while plastics and DDT are non-biodegradable.",
+   "ty": "statements",
+   "tq": "Check each classification independently, especially the biodegradable versus non-biodegradable reversal.",
+   "sec": "Pollutant classification"
+  },
+  {
+   "s": "A pollutant emitted from a chimney, one released along a highway by vehicles, and one arising from farm runoff are respectively classified as:",
+   "o": [
+    "Area, point and line sources",
+    "Line, diffuse and point sources",
+    "Diffuse, area and point sources",
+    "Point, line and diffuse sources"
+   ],
+   "a": 3,
+   "x": "A chimney is a point source, vehicles along a highway represent a line source, and farm runoff is a diffuse or non-point source.",
+   "ty": "application",
+   "tq": "Translate source geometry into point, line and diffuse classifications.",
+   "sec": "Pollutant classification"
+  },
+  {
+   "s": "Which of the following is an example of an area source?",
+   "o": [
+    "A highway carrying vehicles",
+    "A thermal power plant chimney",
+    "A mining area",
+    "A single sewage outlet"
+   ],
+   "a": 2,
+   "x": "A mining area is an example of an area source. A chimney is a point source, while a highway is a line source.",
+   "ty": "fact",
+   "tq": "Use the spatial spread of the source to distinguish area from point and line sources.",
+   "sec": "Pollutant classification"
+  },
+  {
+   "s": "Xenobiotics are best described as:",
+   "o": [
+    "Only radioactive elements released by reactors",
+    "Synthetic chemicals foreign to living systems that resist degradation",
+    "Naturally occurring nutrients essential to all organisms",
+    "Biodegradable wastes produced by livestock"
+   ],
+   "a": 1,
+   "x": "Xenobiotics are synthetic chemicals foreign to living systems, such as pesticides, PCBs and plastics, and they generally resist degradation.",
+   "ty": "fact",
+   "tq": "Identify the exact definition and use representative examples to eliminate near matches.",
+   "sec": "Pollutant classification"
+  }
+ ]
+}

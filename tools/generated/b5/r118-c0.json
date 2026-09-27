@@ -1,0 +1,611 @@
+{
+ "book": 5,
+ "row": 118,
+ "chunk": 0,
+ "section": "Health outcomes in India and Andhra Pradesh - IMR, MMR, TFR, life expectancy and nutrition indicators",
+ "subsections": [
+  "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position",
+  "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight",
+  "Forms of malnutrition - undernutrition, overnutrition, micronutrient deficiency",
+  "Drivers of malnutrition - food insecurity, diet, WASH, maternal education",
+  "Life expectancy - Independence vs now, SRS life tables, gender gap, AP",
+  "AP nutrition schemes for pregnant women and children"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 46,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 3,
+  "dupe_of_pyq": 1
+ },
+ "accepted": [
+  {
+   "s": "Infant Mortality Rate (IMR) is defined as the number of deaths of infants below one year of age per how many live births in a year?",
+   "o": [
+    "1,000",
+    "10,000",
+    "1,00,000",
+    "10,00,000"
+   ],
+   "a": 0,
+   "x": "IMR denotes deaths of infants under one year per 1,000 live births in a year.",
+   "ty": "fact",
+   "tq": "Distinguish the population base used for IMR from that used for MMR.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "The Neonatal Mortality Rate (NMR) refers to deaths occurring during which period per 1,000 live births?",
+   "o": [
+    "The first 28 days of life",
+    "The first seven days of life",
+    "The first year of life",
+    "The first six months of life"
+   ],
+   "a": 0,
+   "x": "NMR measures deaths during the first 28 days after birth per 1,000 live births.",
+   "ty": "confusable",
+   "tq": "Discriminate between neonatal, infant and under-five age limits.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "Under-Five Mortality Rate (U5MR) is expressed as the number of deaths of children below five years per",
+   "o": [
+    "1,000 live births",
+    "1,00,000 live births",
+    "1,000 pregnant women",
+    "10,000 children in the population"
+   ],
+   "a": 0,
+   "x": "U5MR is the number of deaths under five years per 1,000 live births.",
+   "ty": "fact",
+   "tq": "Use the exact denominator to separate related mortality indicators.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "Maternal Mortality Ratio (MMR) is measured as maternal deaths per",
+   "o": [
+    "1,00,000 women of reproductive age",
+    "1,00,000 live births",
+    "1,000 live births",
+    "10,000 live births"
+   ],
+   "a": 1,
+   "x": "MMR is expressed as maternal deaths per 1,00,000 live births, unlike IMR, NMR and U5MR, which use a base of 1,000 live births.",
+   "ty": "confusable",
+   "tq": "Split the options by the denominator and identify the distinctive MMR base.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "According to the SRS 2023 figure cited for the latest estimates, India’s IMR was",
+   "o": [
+    "24",
+    "25",
+    "28",
+    "35.2"
+   ],
+   "a": 1,
+   "x": "The IMR was 25 according to SRS 2023, as cited in the Economic Survey 2025-26. The figures 28 and 35.2 refer to older or different sources.",
+   "ty": "numerical",
+   "tq": "Match the latest year with the correct numerical value rather than using a stale estimate.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding India’s IMR trend:\n1. IMR was 40 in 2013.\n2. IMR was 39 in 2014.\n3. IMR was 37 in 2015.\n4. IMR was 34 in 2016.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The reported IMR values were 40, 39, 37 and 34 for 2013, 2014, 2015 and 2016 respectively.",
+   "ty": "statements",
+   "tq": "Check each year-value pair independently before selecting the coded combination.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "The IMR declined from 40 in 2013 to 25 in 2023. This represents a decline of",
+   "o": [
+    "More than 75%",
+    "Less than 25%",
+    "Exactly 25%",
+    "More than 37%"
+   ],
+   "a": 3,
+   "x": "The decline was 15 points from a base of 40, which is 37.5%; hence it was more than 37%.",
+   "ty": "numerical",
+   "tq": "Calculate the percentage change from the original base, not from the final value.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "Which State is credited with having the lowest IMR owing to adequate basic health and education facilities?",
+   "o": [
+    "Madhya Pradesh",
+    "Kerala",
+    "Andhra Pradesh",
+    "Telangana"
+   ],
+   "a": 1,
+   "x": "Kerala has the lowest IMR, attributed to adequate basic health and education facilities.",
+   "ty": "fact",
+   "tq": "Use the state-specific association rather than confusing it with AP or Telangana figures.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "During 1990–2023, the NMR and U5MR declined by approximately",
+   "o": [
+    "NMR 37% and U5MR 32%",
+    "NMR 70% and U5MR 78%",
+    "NMR 32% and U5MR 17%",
+    "NMR 78% and U5MR 70%"
+   ],
+   "a": 1,
+   "x": "The NMR fell by 70%, while the U5MR fell by 78% during 1990–2023.",
+   "ty": "comparison",
+   "tq": "Match each indicator with its distinct trend percentage.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "Which one of the following pairs is correctly matched?",
+   "o": [
+    "U5MR — 41.9 in NFHS-5",
+    "U5MR — 97 in SRS 2018-20",
+    "MMR — 32 in SRS 2020",
+    "NMR — 25 in SRS 2023"
+   ],
+   "a": 0,
+   "x": "NFHS-5 reported U5MR as 41.9. The other figures refer to different indicators or sources.",
+   "ty": "match",
+   "tq": "Start from the sure indicator-source-value pair and reject swapped measures.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "With reference to Andhra Pradesh and India according to the specified SRS data, consider the following statements:\n1. Andhra Pradesh had an IMR of 24 against India’s 28.\n2. Andhra Pradesh had a U5MR of 27 against India’s 32.\n3. Andhra Pradesh had an MMR of 45 against India’s 97.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three comparisons are correct for the cited SRS sources: AP’s IMR, U5MR and MMR were lower than the corresponding Indian figures.",
+   "ty": "statements",
+   "tq": "Compare each state-national pair without reversing the direction of the comparison.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "Which one of the following AP–India pairs is NOT correctly matched?",
+   "o": [
+    "MMR: AP 97; India 45",
+    "Crude birth rate: AP 15.7; India 19.5",
+    "IMR: AP 24; India 28",
+    "Crude death rate: AP 6.3; India 6.0"
+   ],
+   "a": 0,
+   "x": "The MMR was 45 for Andhra Pradesh and 97 for India, not the reverse. The other pairs are correctly stated.",
+   "ty": "negative",
+   "tq": "Find the reversed comparison in a table-based question.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "The IMR, TFR, MMR and institutional delivery percentage reported for Telangana were respectively",
+   "o": [
+    "24, 1.5, 45 and 99.9%",
+    "18, 1.5, 43 and 99.9%",
+    "18, 2.1, 43 and 97%",
+    "25, 1.8, 45 and 98.5%"
+   ],
+   "a": 1,
+   "x": "The cited figures for Telangana were IMR 18, TFR 1.5, MMR 43 and 99.9% institutional deliveries.",
+   "ty": "numerical",
+   "tq": "Retain the order of multiple numerical indicators while matching a state profile.",
+   "sec": "IMR, NMR, U5MR, MMR - definitions, values over years, states, AP position  [APPSC]"
+  },
+  {
+   "s": "Which indicator is defined as low height-for-age, more than two standard deviations below the WHO median?",
+   "o": [
+    "Stunting",
+    "Underweight",
+    "Wasting",
+    "Severe wasting"
+   ],
+   "a": 0,
+   "x": "Stunting is low height-for-age, defined here as more than two standard deviations below the WHO median.",
+   "ty": "fact",
+   "tq": "Distinguish anthropometric indicators by the body measurement they use.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "Low weight-for-height is the characteristic measure of",
+   "o": [
+    "Stunting",
+    "Underweight",
+    "Overweight",
+    "Wasting"
+   ],
+   "a": 3,
+   "x": "Wasting is measured by low weight-for-height. Underweight uses weight-for-age, while stunting uses height-for-age.",
+   "ty": "confusable",
+   "tq": "Swap-test the height, weight and age components carefully.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "Underweight is measured by",
+   "o": [
+    "Low weight-for-height",
+    "High weight-for-age",
+    "Low height-for-age",
+    "Low weight-for-age"
+   ],
+   "a": 3,
+   "x": "Underweight refers to low weight-for-age.",
+   "ty": "fact",
+   "tq": "Identify the exact anthropometric denominator in a confusable group.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly presents the NFHS-5 and NFHS-6 figures for underweight children?",
+   "o": [
+    "35.5% and 29.3%",
+    "32.1% and 31.8%",
+    "35.8% and 32.1%",
+    "19.3% and 5.2%"
+   ],
+   "a": 1,
+   "x": "Underweight declined from 32.1% in NFHS-5 to 31.8% in NFHS-6. The 35.8% figure belongs to NFHS-4.",
+   "ty": "numerical",
+   "tq": "Track both survey round and indicator before choosing the pair.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about nutrition indicators:\n1. Stunting was 35.5% in NFHS-5 and 29.3% in NFHS-6.\n2. Severe wasting was 7.7% in NFHS-5 and 5.2% in NFHS-6.\n3. Wasting was 19.3% in NFHS-5.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements reproduce the cited NFHS values for stunting, severe wasting and wasting.",
+   "ty": "statements",
+   "tq": "Check whether the survey round and severity level have been swapped.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "The decline between NFHS-5 and NFHS-6 was approximately what percentage for stunting and severe wasting respectively?",
+   "o": [
+    "32% and 17%",
+    "17% and 32%",
+    "32% and 32%",
+    "17% and 17%"
+   ],
+   "a": 1,
+   "x": "Stunting fell by approximately 17%, while severe wasting fell by approximately 32%. Underweight showed little change.",
+   "ty": "comparison",
+   "tq": "Match each percentage decline to the correct nutrition indicator.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "Which statement best describes the change in underweight between NFHS-5 and NFHS-6?",
+   "o": [
+    "It remained exactly unchanged at 35.8%.",
+    "It declined by approximately 32%, from 35.8% to 19.3%.",
+    "It declined only marginally from 32.1% to 31.8%.",
+    "It increased sharply from 19.3% to 35.5%."
+   ],
+   "a": 2,
+   "x": "Underweight moved only from 32.1% in NFHS-5 to 31.8% in NFHS-6 and therefore barely changed.",
+   "ty": "application",
+   "tq": "Use the trend wording to distinguish a marginal change from a substantial decline.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "According to NFHS-5, anaemia affected approximately what proportions of children aged 6–59 months and women aged 15–49 years respectively?",
+   "o": [
+    "67.1% and 41.0%",
+    "57.0% and 67.1%",
+    "57.0% and 41.0%",
+    "67.1% and 57.0%"
+   ],
+   "a": 3,
+   "x": "NFHS-5 reported anaemia among 67.1% of children aged 6–59 months and 57.0% of women aged 15–49 years.",
+   "ty": "numerical",
+   "tq": "Keep the age group and percentage in the same order as asked.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "Underweight prevalence was highest among which of the following social groups according to NFHS-5?",
+   "o": [
+    "Other Backward Classes, followed by Scheduled Tribes",
+    "Scheduled Tribes, followed by Scheduled Castes",
+    "Scheduled Castes, followed by Scheduled Tribes",
+    "Urban households, followed by rural households"
+   ],
+   "a": 1,
+   "x": "Underweight was highest among Scheduled Tribes at 44.1%, followed by Scheduled Castes at 39.1%. It was also higher in rural areas.",
+   "ty": "fact",
+   "tq": "Rank the groups using the reported percentages rather than merely identifying both groups.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "The State reported to have high child wasting and underweight in NFHS-6 was",
+   "o": [
+    "Kerala",
+    "Madhya Pradesh",
+    "Andhra Pradesh",
+    "Meghalaya"
+   ],
+   "a": 1,
+   "x": "Madhya Pradesh recorded high child wasting and underweight in NFHS-6, while Meghalaya showed a decline in stunting.",
+   "ty": "fact",
+   "tq": "Distinguish the state associated with high wasting and underweight from the state associated with declining stunting.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "The State associated with a decline in stunting in NFHS-6 was",
+   "o": [
+    "Telangana",
+    "Meghalaya",
+    "Madhya Pradesh",
+    "Andhra Pradesh"
+   ],
+   "a": 1,
+   "x": "Meghalaya showed a decline in stunting in NFHS-6.",
+   "ty": "fact",
+   "tq": "Use the state-outcome association rather than assuming the state with poor outcomes is the answer.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "SOFI 2025 reported India’s wasting rate among children as approximately",
+   "o": [
+    "7.7%",
+    "18.7%",
+    "29.3%",
+    "35.5%"
+   ],
+   "a": 1,
+   "x": "SOFI 2025 reported India’s wasting rate as 18.7%, involving approximately 21 million children.",
+   "ty": "numerical",
+   "tq": "Match the global report with its specific indicator and percentage.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "According to SOFI 2025, the approximate number of stunted under-five children in India was",
+   "o": [
+    "21 million",
+    "24 million",
+    "37.4 million",
+    "67.1 million"
+   ],
+   "a": 2,
+   "x": "SOFI 2025 reported approximately 37.4 million stunted under-five children in India; 21 million was associated with wasting.",
+   "ty": "numerical",
+   "tq": "Separate the two large figures by linking each to its specific nutrition outcome.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "SOFI is published jointly by FAO, IFAD, UNICEF, WFP and",
+   "o": [
+    "UNEP",
+    "WHO",
+    "UNFCCC",
+    "IUCN"
+   ],
+   "a": 1,
+   "x": "The State of Food Insecurity or SOFI report is published jointly by FAO, IFAD, UNICEF, WFP and WHO.",
+   "ty": "match",
+   "tq": "Identify the correct international organisation from a set of nearby environment bodies.",
+   "sec": "Nutrition indicators - stunting, wasting, underweight, anaemia, overweight  [APPSC]"
+  },
+  {
+   "s": "According to the WHO classification, malnutrition in all its forms includes:\n1. Undernutrition, including wasting, stunting and underweight.\n2. Inadequate vitamins and minerals.\n3. Overweight, obesity and diet-related non-communicable diseases.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "WHO’s broad definition includes undernutrition, micronutrient inadequacy, and overnutrition with diet-related non-communicable diseases.",
+   "ty": "statements",
+   "tq": "Recognise the comprehensive definition instead of treating malnutrition as undernutrition alone.",
+   "sec": "Forms of malnutrition - undernutrition, overnutrition, micronutrient deficiency  [APPSC]"
+  },
+  {
+   "s": "The term ‘double burden of malnutrition’ refers to the coexistence of",
+   "o": [
+    "Undernutrition and overnutrition",
+    "Stunting and wasting only",
+    "Anaemia and food insecurity only",
+    "Micronutrient deficiency and sanitation deficiency only"
+   ],
+   "a": 0,
+   "x": "The double burden refers to the simultaneous presence of undernutrition and overnutrition.",
+   "ty": "fact",
+   "tq": "Distinguish the two-burden concept from the broader triple-burden description.",
+   "sec": "Forms of malnutrition - undernutrition, overnutrition, micronutrient deficiency  [APPSC]"
+  },
+  {
+   "s": "SOFI 2025 described India’s malnutrition situation as a triple burden comprising",
+   "o": [
+    "Wasting, stunting and underweight",
+    "Undernutrition, micronutrient deficiency or anaemia, and overweight",
+    "Food insecurity, poverty and poor sanitation",
+    "Obesity, diabetes and hypertension only"
+   ],
+   "a": 1,
+   "x": "The triple burden consists of undernutrition, micronutrient deficiency or anaemia, and overweight.",
+   "ty": "fact",
+   "tq": "Separate the named forms of malnutrition from their social and health drivers.",
+   "sec": "Forms of malnutrition - undernutrition, overnutrition, micronutrient deficiency  [APPSC]"
+  },
+  {
+   "s": "Food insecurity and poverty may contribute to both undernutrition and overnutrition because they can lead to consumption of",
+   "o": [
+    "Only protein-rich foods",
+    "Energy-dense but nutrient-poor foods",
+    "Only locally produced fruits and vegetables",
+    "Micronutrient supplements in excess"
+   ],
+   "a": 1,
+   "x": "Food insecurity and poverty can produce undernutrition while also encouraging consumption of inexpensive energy-dense, nutrient-poor foods that contribute to overnutrition.",
+   "ty": "application",
+   "tq": "Apply the cause-effect relationship to a realistic dietary situation.",
+   "sec": "Drivers of malnutrition - food insecurity, diet, WASH, maternal education  [APPSC]"
+  },
+  {
+   "s": "Which of the following were identified as linked to child nutrition through NFHS tracking?\n1. Sanitation and drinking water\n2. Women’s schooling\n3. Child marriage\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "NFHS tracks sanitation, drinking water, women’s schooling and child marriage, all of which are linked to child nutrition.",
+   "ty": "statements",
+   "tq": "Treat the listed social determinants as a combined set rather than isolating dietary factors.",
+   "sec": "Drivers of malnutrition - food insecurity, diet, WASH, maternal education  [APPSC]"
+  },
+  {
+   "s": "According to NFHS-5, women with 10 or more years of schooling constituted approximately",
+   "o": [
+    "23.3%",
+    "35.5%",
+    "41%",
+    "57.0%"
+   ],
+   "a": 2,
+   "x": "NFHS-5 reported that approximately 41% of women had 10 or more years of schooling.",
+   "ty": "numerical",
+   "tq": "Distinguish the schooling percentage from the child-marriage percentage and anaemia figures.",
+   "sec": "Drivers of malnutrition - food insecurity, diet, WASH, maternal education  [APPSC]"
+  },
+  {
+   "s": "The proportion of women married before the age of 18, as cited from NFHS-5, was",
+   "o": [
+    "18.7%",
+    "23.3%",
+    "41.0%",
+    "44.1%"
+   ],
+   "a": 1,
+   "x": "The cited NFHS-5 figure for women married before age 18 was 23.3%.",
+   "ty": "numerical",
+   "tq": "Match the social indicator with its exact percentage.",
+   "sec": "Drivers of malnutrition - food insecurity, diet, WASH, maternal education  [APPSC]"
+  },
+  {
+   "s": "At the time of Independence, life expectancy in India was approximately",
+   "o": [
+    "32 years",
+    "49.7 years",
+    "68.3 years",
+    "70.3 years"
+   ],
+   "a": 0,
+   "x": "Life expectancy at Independence was approximately 32 years.",
+   "ty": "fact",
+   "tq": "Identify the historical baseline rather than a later SRS life-table value.",
+   "sec": "Life expectancy - Independence vs now, SRS life tables, gender gap, AP  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding SRS abridged life tables for 2016–20:\n1. India’s male life expectancy was 68.6 years.\n2. India’s female life expectancy was 71.4 years.\n3. Andhra Pradesh’s male life expectancy was 69.1 years.\n4. Andhra Pradesh’s female life expectancy was 72.2 years.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements correctly state the SRS abridged life-table values for India and Andhra Pradesh during 2016–20.",
+   "ty": "statements",
+   "tq": "Verify each sex-state-value combination before selecting the complete code.",
+   "sec": "Life expectancy - Independence vs now, SRS life tables, gender gap, AP  [APPSC]"
+  },
+  {
+   "s": "Which of the following correctly describes the gender gap in life expectancy in the cited SRS 2016–20 figures?",
+   "o": [
+    "Men live about three years longer than women in both India and AP.",
+    "There is no gender difference in either India or AP.",
+    "Women live exactly one year longer than men in both India and AP.",
+    "Women live about three years longer than men in both India and AP."
+   ],
+   "a": 3,
+   "x": "Women’s life expectancy exceeded men’s by about 2.8 years in India and 3.1 years in Andhra Pradesh, or approximately three years in both.",
+   "ty": "comparison",
+   "tq": "Compare the paired male and female values before interpreting the direction of the gap.",
+   "sec": "Life expectancy - Independence vs now, SRS life tables, gender gap, AP  [APPSC]"
+  },
+  {
+   "s": "The older SRS life-table figure of 68.3 years referred to India’s life expectancy during",
+   "o": [
+    "2011–15",
+    "2016–20",
+    "2006–10",
+    "2001–05"
+   ],
+   "a": 0,
+   "x": "The older figure of 68.3 years was reported for the SRS period 2011–15.",
+   "ty": "fact",
+   "tq": "Distinguish the older reference period from the later 2016–20 life-table period.",
+   "sec": "Life expectancy - Independence vs now, SRS life tables, gender gap, AP  [APPSC]"
+  },
+  {
+   "s": "Which Andhra Pradesh scheme provides a nutritious meal along with iron and folic acid tablets to pregnant and lactating women through Anganwadis?",
+   "o": [
+    "PMSMA",
+    "LaQshya",
+    "Anna Amrutha Hastam",
+    "JSSK"
+   ],
+   "a": 2,
+   "x": "Anna Amrutha Hastam provides a nutritious meal and iron-folic acid tablets to pregnant and lactating women through Anganwadis.",
+   "ty": "fact",
+   "tq": "Match the scheme name with its specific beneficiary and service.",
+   "sec": "AP nutrition schemes for pregnant women and children  [APPSC]"
+  },
+  {
+   "s": "The primary intended outcomes of Anna Amrutha Hastam include reduction of",
+   "o": [
+    "Infant and maternal mortality",
+    "Only childhood obesity",
+    "Only child marriage",
+    "Crude birth rate and crude death rate"
+   ],
+   "a": 0,
+   "x": "The scheme aims to reduce infant and maternal mortality through nutrition support and iron-folic acid supplementation.",
+   "ty": "application",
+   "tq": "Link the intervention to its stated health outcomes rather than to unrelated demographic indicators.",
+   "sec": "AP nutrition schemes for pregnant women and children  [APPSC]"
+  },
+  {
+   "s": "Which of the following is NOT listed among the other maternal services in Andhra Pradesh?",
+   "o": [
+    "JSY",
+    "PMSMA",
+    "LaQshya",
+    "SOFI"
+   ],
+   "a": 3,
+   "x": "JSY, PMSMA and LaQshya are listed among the maternal services in Andhra Pradesh. SOFI is an international food-security report, not an AP maternal service.",
+   "ty": "negative",
+   "tq": "Find the item belonging to a different category or institution.",
+   "sec": "AP nutrition schemes for pregnant women and children  [APPSC]"
+  },
+  {
+   "s": "Which of the following is a correct list of maternal services mentioned for Andhra Pradesh?",
+   "o": [
+    "JSY, JSSK, PMSMA, PMMVY, SUMAN, LaQshya and MCP cards",
+    "SOFI, NFHS, SRS, WHO and WFP",
+    "IMR, NMR, U5MR, MMR and TFR",
+    "Stunting, wasting, underweight, overweight and anaemia"
+   ],
+   "a": 0,
+   "x": "The listed AP maternal services are JSY, JSSK, PMSMA, PMMVY, SUMAN, LaQshya and MCP cards.",
+   "ty": "match",
+   "tq": "Separate programme names from indicators, surveys and nutrition conditions.",
+   "sec": "AP nutrition schemes for pregnant women and children  [APPSC]"
+  }
+ ]
+}

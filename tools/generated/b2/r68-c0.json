@@ -1,0 +1,542 @@
+{
+ "book": 2,
+ "row": 68,
+ "chunk": 0,
+ "section": "Recognition of national and state parties - criteria and the Symbols Order",
+ "subsections": [
+  "National party criteria - paragraph 6B of the Symbols Order",
+  "National parties - present number and list, recognitions and derecognitions",
+  "Recognising vs registering authority - Symbols Order vs Section 29A RPA",
+  "State party criteria - vote share and seat combinations",
+  "Election Symbols Order 1968 - reserved vs free symbols, split disputes (Sadiq Ali)",
+  "Recognition benefits - symbol, broadcast, star campaigners, proposers",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 38,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 1,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Under paragraph 6B of the Election Symbols (Reservation and Allotment) Order, 1968, a political party is recognised as a National Party if it satisfies which one of the following conditions?",
+   "o": [
+    "It is recognised as a State party in three or more States",
+    "It is recognised as a State party in five or more States",
+    "It is recognised as a State party in four or more States",
+    "It is recognised as a State party in two or more States"
+   ],
+   "a": 2,
+   "x": "Recognition as a State party in four or more States is one of the three alternative conditions for National Party status under paragraph 6B.",
+   "ty": "fact",
+   "tq": "Direct numerical recall using the nearby-state-count trap.",
+   "sec": "National party criteria - paragraph 6B of the Symbols Order"
+  },
+  {
+   "s": "Which of the following correctly represents the vote-and-seat criterion for recognition as a National Party?",
+   "o": [
+    "At least 8% of valid votes in four or more States and at least four Lok Sabha seats",
+    "At least 6% of valid votes in three or more States and at least two Lok Sabha seats",
+    "At least 10% of valid votes in two or more States and at least five Lok Sabha seats",
+    "At least 6% of valid votes in four or more States and at least four Lok Sabha seats"
+   ],
+   "a": 3,
+   "x": "The second route requires at least 6% of valid votes in four or more States at the last Lok Sabha or Assembly elections and at least four Lok Sabha seats.",
+   "ty": "numerical",
+   "tq": "Split the options into vote percentage, State count and seat count.",
+   "sec": "National party criteria - paragraph 6B of the Symbols Order"
+  },
+  {
+   "s": "A political party wins 2% of the total seats in the Lok Sabha, with its elected members coming from not fewer than three States. Under paragraph 6B, this satisfies which requirement for National Party recognition?",
+   "o": [
+    "At least 11 of the 543 Lok Sabha seats",
+    "At least 12 of the 543 Lok Sabha seats",
+    "At least 10 of the 543 Lok Sabha seats",
+    "At least 15 of the 543 Lok Sabha seats"
+   ],
+   "a": 0,
+   "x": "Two per cent of 543 Lok Sabha seats is treated as 11 seats, and these must be won from not fewer than three States.",
+   "ty": "numerical",
+   "tq": "Convert the percentage into the stated seat figure.",
+   "sec": "National party criteria - paragraph 6B of the Symbols Order"
+  },
+  {
+   "s": "Consider the following statements regarding the alternative conditions for recognition as a National Party:\n1. Recognition as a State party in four or more States is sufficient.\n2. Securing at least 6% of valid votes in four or more States and four Lok Sabha seats is sufficient.\n3. Winning at least 2% of total Lok Sabha seats from not fewer than three States is sufficient.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three are alternative conditions under paragraph 6B. A party needs to satisfy any one of them, not all three together.",
+   "ty": "statements",
+   "tq": "Test the word 'any' by checking each independent route.",
+   "sec": "National party criteria - paragraph 6B of the Symbols Order"
+  },
+  {
+   "s": "Which one of the following is NOT a valid criterion for recognition as a National Party under paragraph 6B of the Symbols Order?",
+   "o": [
+    "Recognition as a State party in four or more States",
+    "At least 2% of Lok Sabha seats, won from not fewer than three States",
+    "At least 6% of valid votes in four or more States and four Lok Sabha seats",
+    "At least 15% of valid votes in two States, without any Lok Sabha seat"
+   ],
+   "a": 3,
+   "x": "The 15%-in-two-States route is not a National Party criterion. The valid alternatives are the four-State recognition route, the 6% plus four-seat route, and the 2% Lok Sabha-seat route.",
+   "ty": "negative",
+   "tq": "Find the one percentage-and-seat combination absent from the recognised alternatives.",
+   "sec": "National party criteria - paragraph 6B of the Symbols Order"
+  },
+  {
+   "s": "Which of the following is the correct list of the six National Parties referred to in the current classification?",
+   "o": [
+    "BJP, INC, CPI, NCP, AITC and AAP",
+    "BJP, INC, CPI(M), NCP, AITC and NPP",
+    "BJP, INC, DMK, BSP, NPP and AAP",
+    "BJP, INC, CPI(M), BSP, NPP and AAP"
+   ],
+   "a": 3,
+   "x": "The six listed National Parties are the BJP, INC, CPI(M), BSP, NPP and AAP.",
+   "ty": "fact",
+   "tq": "Direct list recall with nearby recognised and derecognised parties as distractors.",
+   "sec": "National parties - present number and list, recognitions and derecognitions"
+  },
+  {
+   "s": "As on May 2020, the number of National Parties was stated to be:",
+   "o": [
+    "Eight",
+    "Nine",
+    "Seven",
+    "Six"
+   ],
+   "a": 0,
+   "x": "The classification referred to eight National Parties as on May 2020.",
+   "ty": "numerical",
+   "tq": "Distinguish the dated historical count from the present list.",
+   "sec": "National parties - present number and list, recognitions and derecognitions"
+  },
+  {
+   "s": "Which one of the following changes was associated with the Election Commission's April 2023 review of National Party status?",
+   "o": [
+    "DMK, RSP and AIFB were recognised as National Parties",
+    "CPI, NCP and AITC were derecognised and AAP was recognised",
+    "BSP, NPP and AAP were derecognised and CPI was recognised",
+    "INC and BJP were derecognised and AAP was recognised"
+   ],
+   "a": 1,
+   "x": "The April 2023 review derecognised CPI, NCP and AITC and recognised AAP as a National Party.",
+   "ty": "fact",
+   "tq": "Use the date and separate recognition from derecognition.",
+   "sec": "National parties - present number and list, recognitions and derecognitions"
+  },
+  {
+   "s": "Which party was the first party from the North-Eastern region to obtain National Party status?",
+   "o": [
+    "CPI(M)",
+    "AAP",
+    "AITC",
+    "NPP"
+   ],
+   "a": 3,
+   "x": "The National People's Party (NPP), based in Meghalaya, was the first North-Eastern party to obtain National Party status.",
+   "ty": "fact",
+   "tq": "Direct identity recall based on region and status.",
+   "sec": "National parties - present number and list, recognitions and derecognitions"
+  },
+  {
+   "s": "Which of the following combinations consists entirely of parties that are not National Parties?",
+   "o": [
+    "BSP, CPI(M), NPP and AAP",
+    "NPP, AAP, BJP and INC",
+    "DMK, Revolutionary Socialist Party, All India Forward Bloc and Peasants and Workers Party",
+    "BJP, INC, CPI(M) and BSP"
+   ],
+   "a": 2,
+   "x": "DMK, Revolutionary Socialist Party, All India Forward Bloc and Peasants and Workers Party are not National Parties in the classification referred to here.",
+   "ty": "odd_one_out",
+   "tq": "Separate the complete non-National group from the recognised list.",
+   "sec": "National parties - present number and list, recognitions and derecognitions"
+  },
+  {
+   "s": "Which authority is responsible for registration of a political party under Section 29A of the Representation of the People Act, 1951, and for recognition under the Symbols Order, respectively?",
+   "o": [
+    "Election Commission of India and Parliament",
+    "Election Commission of India and Election Commission of India",
+    "President of India and Governor of the concerned State",
+    "Ministry of Law and Justice and Election Commission of India"
+   ],
+   "a": 1,
+   "x": "The Election Commission handles both processes: registration under Section 29A of the RPA, 1951, and recognition under the Election Symbols Order, 1968.",
+   "ty": "comparison",
+   "tq": "Compare the two legal steps while keeping the authority constant.",
+   "sec": "Recognising vs registering authority - Symbols Order vs Section 29A RPA"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Process)\na. Registration of a political party\nb. Recognition as a National or State Party\nc. Allocation and reservation of election symbols\nd. Constitutional basis for the Election Commission\n\nList-II (Provision)\ni. Article 324\nii. Section 29A, RPA 1951\niii. Election Symbols (Reservation and Allotment) Order, 1968\niv. Recognition under the Symbols Order, 1968\n\nSelect the correct answer using the code below.",
+   "o": [
+    "a–ii, b–iv, c–iii, d–i",
+    "a–iv, b–ii, c–iii, d–i",
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iii, b–iv, c–ii, d–i"
+   ],
+   "a": 0,
+   "x": "Registration is under Section 29A; recognition is under the Symbols Order; symbol reservation and allotment are governed by the 1968 Order; Article 324 provides the constitutional basis of the ECI.",
+   "ty": "match",
+   "tq": "Start from the sure statutory pair and then distinguish recognition from allocation.",
+   "sec": "Recognising vs registering authority - Symbols Order vs Section 29A RPA"
+  },
+  {
+   "s": "The Election Symbols (Reservation and Allotment) Order, 1968 is best described as:",
+   "o": [
+    "An Act of Parliament dealing exclusively with National Parties",
+    "An executive notification issued by the Ministry of Home Affairs",
+    "A constitutional provision contained in the Election Commission chapter",
+    "A statutory order of the Election Commission issued under the RPA, 1951 and Article 324"
+   ],
+   "a": 3,
+   "x": "The 1968 Order is a statutory order of the Election Commission under the RPA, 1951 and Article 324. It is neither an Act of Parliament nor a constitutional provision.",
+   "ty": "fact",
+   "tq": "Use the legal-status distinction to reject the familiar but incorrect labels.",
+   "sec": "Recognising vs registering authority - Symbols Order vs Section 29A RPA"
+  },
+  {
+   "s": "Which of the following correctly represents the three statuses through which a political party may be classified?",
+   "o": [
+    "Unregistered; registered but unrecognised; recognised",
+    "Registered; reserved; free",
+    "Recognised; deregistered; dissolved",
+    "Unregistered; provisionally recognised; constitutionally recognised"
+   ],
+   "a": 0,
+   "x": "The three relevant states are unregistered, registered but unrecognised—commonly referred to as an RUPP—and recognised.",
+   "ty": "fact",
+   "tq": "Direct classification recall using the legally distinct middle category.",
+   "sec": "Recognising vs registering authority - Symbols Order vs Section 29A RPA"
+  },
+  {
+   "s": "Which one of the following is NOT among the commitments required in the constitution of a party applying for registration?",
+   "o": [
+    "Commitment to secularism and democracy",
+    "Commitment to a particular religion as the basis of the State",
+    "Commitment to socialism",
+    "Allegiance to the Constitution"
+   ],
+   "a": 1,
+   "x": "The party constitution must pledge allegiance to the Constitution and to socialism, secularism, democracy and national integrity. Commitment to a particular religion as the basis of the State is not a required pledge.",
+   "ty": "negative",
+   "tq": "Identify the incompatible ideological commitment among the statutory pledges.",
+   "sec": "Recognising vs registering authority - Symbols Order vs Section 29A RPA"
+  },
+  {
+   "s": "Consider the following statements regarding deregistration of political parties:\n1. The Election Commission's power to deregister a party is limited.\n2. Fraud may form a basis for deregistration.\n3. Ceasing to uphold the required allegiance may form a basis for deregistration.\n4. The Law Commission's 255th Report recommended a limited power of deregistration.\nWhich of the statements given above are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 3 and 4 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "The ECI's deregistration power is limited and may arise in cases such as fraud, ceasing allegiance or an unlawful declaration. The Law Commission's 255th Report favoured a limited deregistration power.",
+   "ty": "statements",
+   "tq": "Check whether the apparently broad deregistration power is carefully qualified.",
+   "sec": "Recognising vs registering authority - Symbols Order vs Section 29A RPA"
+  },
+  {
+   "s": "Which of the following is one of the routes for recognition of a political party as a State Party?",
+   "o": [
+    "At least 4% of valid votes in an Assembly election and at least one Assembly seat",
+    "At least 6% of valid votes in an Assembly election and at least two Assembly seats",
+    "At least 8% of valid votes in an Assembly election and at least two Assembly seats",
+    "At least 6% of valid votes in an Assembly election and at least four Lok Sabha seats"
+   ],
+   "a": 1,
+   "x": "One route requires at least 6% of valid votes in the Assembly election together with at least two Assembly seats.",
+   "ty": "fact",
+   "tq": "Separate the State-level vote-and-seat combination from the National Party route.",
+   "sec": "State party criteria - vote share and seat combinations"
+  },
+  {
+   "s": "A party obtains at least 6% of valid votes in a Lok Sabha election in a State and wins one Lok Sabha seat from that State. This satisfies which State Party route?",
+   "o": [
+    "The 8% vote-without-seat route",
+    "The 6% Lok Sabha vote plus one Lok Sabha seat route",
+    "The 6% Assembly vote plus two Assembly seats route",
+    "The 3% Assembly seats or three seats route"
+   ],
+   "a": 1,
+   "x": "A party can qualify through at least 6% of valid Lok Sabha votes in the State combined with one Lok Sabha seat from that State.",
+   "ty": "application",
+   "tq": "Apply the election level and seat level separately.",
+   "sec": "State party criteria - vote share and seat combinations"
+  },
+  {
+   "s": "Under the State Party criteria, the route based on Assembly representation requires:",
+   "o": [
+    "5% of Assembly seats or five Assembly seats, whichever is more",
+    "3% of Assembly seats and exactly three Assembly seats",
+    "3% of Assembly seats or three Assembly seats, whichever is more",
+    "2% of Assembly seats or two Assembly seats, whichever is less"
+   ],
+   "a": 2,
+   "x": "The requirement is 3% of the Assembly seats or three seats, whichever is more.",
+   "ty": "numerical",
+   "tq": "Focus on the comparison phrase 'whichever is more'.",
+   "sec": "State party criteria - vote share and seat combinations"
+  },
+  {
+   "s": "Which of the following correctly states the Lok Sabha seat-based route for recognition as a State Party?",
+   "o": [
+    "One Lok Sabha seat for every 50 seats allotted to the State",
+    "One Lok Sabha seat for every 20 seats allotted to the State",
+    "One Lok Sabha seat for every 25 seats allotted to the State",
+    "Two Lok Sabha seats for every 25 seats allotted to the State"
+   ],
+   "a": 2,
+   "x": "A party may qualify by winning one Lok Sabha seat for every 25 Lok Sabha seats allotted to the State.",
+   "ty": "numerical",
+   "tq": "Direct ratio recall using nearby ratio substitutions as traps.",
+   "sec": "State party criteria - vote share and seat combinations"
+  },
+  {
+   "s": "Which statement correctly describes the 8% route for State Party recognition?",
+   "o": [
+    "At least 8% of valid votes in two States, with no seat required",
+    "At least 8% of valid votes in the State and one Lok Sabha seat",
+    "At least 8% of valid votes in the State, with no seat required",
+    "At least 8% of valid votes in the State and at least one Assembly seat"
+   ],
+   "a": 2,
+   "x": "The later-added 8% route requires 8% of valid votes in the State and does not require the party to win a seat.",
+   "ty": "confusable",
+   "tq": "Test the easily forgotten no-seat feature of the 8% route.",
+   "sec": "State party criteria - vote share and seat combinations"
+  },
+  {
+   "s": "Consider the following statements regarding State Party recognition:\n1. A party may qualify through any one of the prescribed routes.\n2. The 8% valid-vote route requires the party to win at least one seat.\n3. The Assembly representation route uses the expression '3% of Assembly seats or 3 seats, whichever is more'.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "x": "Statements 1 and 3 are correct. Statement 2 is false because the 8% route requires no seat.",
+   "ty": "statements",
+   "tq": "Locate the single reversed condition in the otherwise familiar list.",
+   "sec": "State party criteria - vote share and seat combinations"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched under the Election Symbols Order, 1968?",
+   "o": [
+    "Recognised party — reserved symbol",
+    "Recognised party — free symbol only",
+    "Independent candidate — reserved symbol of a recognised party",
+    "RUPP — exclusive use of any reserved symbol"
+   ],
+   "a": 0,
+   "x": "Reserved symbols are exclusively assigned to recognised parties. RUPPs and independents generally receive symbols from the notified free-symbol list.",
+   "ty": "match",
+   "tq": "Distinguish the reserved/free symbol categories before examining the code.",
+   "sec": "Election Symbols Order 1968 - reserved vs free symbols, split disputes (Sadiq Ali)"
+  },
+  {
+   "s": "Which of the following statements about reserved symbols is correct?",
+   "o": [
+    "Two recognised parties in different States may have the same symbol",
+    "A reserved symbol is available to every independent candidate in the concerned State",
+    "A reserved symbol can be used only by one party throughout India",
+    "Reserved symbols are allotted primarily to unregistered parties"
+   ],
+   "a": 0,
+   "x": "Two recognised parties operating in different States may hold the same reserved symbol. The Lotus and Hand are examples associated with recognised parties.",
+   "ty": "fact",
+   "tq": "Use the geographical qualification to avoid the overbroad 'throughout India' trap.",
+   "sec": "Election Symbols Order 1968 - reserved vs free symbols, split disputes (Sadiq Ali)"
+  },
+  {
+   "s": "Free symbols under the Election Symbols Order are primarily meant for:",
+   "o": [
+    "Only candidates nominated by the Election Commission",
+    "Registered but unrecognised political parties and independent candidates",
+    "Only recognised State Parties",
+    "Only National Parties"
+   ],
+   "a": 1,
+   "x": "Free symbols are allotted from a notified list to RUPPs and independent candidates, subject to the applicable conditions.",
+   "ty": "fact",
+   "tq": "Direct category discrimination between reserved and free symbols.",
+   "sec": "Election Symbols Order 1968 - reserved vs free symbols, split disputes (Sadiq Ali)"
+  },
+  {
+   "s": "As per the latest list referred to here, the number of free symbols was:",
+   "o": [
+    "148",
+    "184",
+    "194",
+    "218"
+   ],
+   "a": 1,
+   "x": "The latest referred list, issued in May 2025, contained 184 free symbols.",
+   "ty": "numerical",
+   "tq": "Match the numerical figure with its date and symbol category.",
+   "sec": "Election Symbols Order 1968 - reserved vs free symbols, split disputes (Sadiq Ali)"
+  },
+  {
+   "s": "A registered but unrecognised political party may obtain a common symbol if it contests:",
+   "o": [
+    "One Lok Sabha seat or 3% of Assembly seats",
+    "Four Lok Sabha seats or 10% of Assembly seats",
+    "Three Lok Sabha seats or 8% of Assembly seats",
+    "Two Lok Sabha seats or 5% of Assembly seats"
+   ],
+   "a": 3,
+   "x": "An RUPP can obtain a common symbol when it contests two Lok Sabha seats or 5% of the Assembly seats, subject to the applicable rules.",
+   "ty": "numerical",
+   "tq": "Pair the alternative contest thresholds rather than combining them.",
+   "sec": "Election Symbols Order 1968 - reserved vs free symbols, split disputes (Sadiq Ali)"
+  },
+  {
+   "s": "In a dispute between factions of a recognised political party over its name and election symbol, the Election Commission acts under which provision and applies which test?",
+   "o": [
+    "Paragraph 6B and the 8% vote test",
+    "Section 29A and the 6% vote test",
+    "Paragraph 15 and the Sadiq Ali majority test",
+    "Paragraph 16A and the anti-defection test"
+   ],
+   "a": 2,
+   "x": "Paragraph 15 deals with split disputes. The ECI applies the Sadiq Ali test, principally examining the majority support of the rival factions.",
+   "ty": "fact",
+   "tq": "Pair the correct paragraph with the correct judicially developed test.",
+   "sec": "Election Symbols Order 1968 - reserved vs free symbols, split disputes (Sadiq Ali)"
+  },
+  {
+   "s": "Under paragraph 16A of the Election Symbols Order, the Election Commission may suspend or withdraw recognition of a party for:",
+   "o": [
+    "Using a free symbol in another State",
+    "Failing to win a Lok Sabha seat in every election",
+    "Defying the Model Code of Conduct",
+    "Changing the party constitution after registration"
+   ],
+   "a": 2,
+   "x": "Paragraph 16A empowers the ECI to suspend or withdraw recognition for defiance of the Model Code of Conduct.",
+   "ty": "fact",
+   "tq": "Identify the specific regulatory ground instead of a general electoral failure.",
+   "sec": "Election Symbols Order 1968 - reserved vs free symbols, split disputes (Sadiq Ali)"
+  },
+  {
+   "s": "Which of the following correctly compares recognised parties and RUPPs regarding nomination proposers and star campaigners?",
+   "o": [
+    "Recognised party: one proposer and up to 40 star campaigners; RUPP: ten proposers and 20 star campaigners",
+    "Recognised party: ten proposers and 20 star campaigners; RUPP: one proposer and up to 40 star campaigners",
+    "Recognised party: one proposer and 20 star campaigners; RUPP: ten proposers and up to 40 star campaigners",
+    "Both categories: one proposer and up to 40 star campaigners"
+   ],
+   "a": 0,
+   "x": "A recognised party needs one proposer instead of ten and may have up to 40 star campaigners. An RUPP requires ten proposers and has 20 star campaigners.",
+   "ty": "comparison",
+   "tq": "Read the two benefit columns together and avoid reversing the categories.",
+   "sec": "Recognition benefits - symbol, broadcast, star campaigners, proposers"
+  },
+  {
+   "s": "Which of the following is an additional benefit available to recognised political parties?",
+   "o": [
+    "Automatic recognition as a National Party",
+    "Exclusive use of every free symbol in the State",
+    "Automatic exemption from all election expenditure limits",
+    "Two free sets of electoral rolls and broadcast or telecast time on Akashvani and Doordarshan"
+   ],
+   "a": 3,
+   "x": "Recognised parties receive two free sets of electoral rolls, broadcast or telecast time on Akashvani and Doordarshan, and consultation by the ECI.",
+   "ty": "fact",
+   "tq": "Separate concrete institutional benefits from powers not conferred by recognition.",
+   "sec": "Recognition benefits - symbol, broadcast, star campaigners, proposers"
+  },
+  {
+   "s": "Which of the following statements regarding RUPPs is correct?",
+   "o": [
+    "They must contest at least once in six years or face delisting",
+    "They may disclose all donors only when donations exceed Rs 2,000",
+    "They must contest at least once every year or face derecognition",
+    "They receive a reserved symbol without any condition"
+   ],
+   "a": 0,
+   "x": "An RUPP must contest at least once in six years or it may face delisting. It may receive a common symbol only subject to conditions and has specified donor-disclosure obligations.",
+   "ty": "fact",
+   "tq": "Use the time-limit condition to distinguish RUPP compliance from recognition benefits.",
+   "sec": "Recognition benefits - symbol, broadcast, star campaigners, proposers"
+  },
+  {
+   "s": "Which of the following correctly states the donation-related requirements applicable to RUPPs?",
+   "o": [
+    "No tax or donor-disclosure conditions apply to RUPPs",
+    "Disclosure is required only for donations above Rs 2,000, irrespective of the mode of payment",
+    "Tax exemption only on donations below Rs 20,000, with cash donations permitted up to Rs 2,000",
+    "Tax exemption on donations under Section 12 of the Income Tax Act, 2025, with disclosure of donors above Rs 20,000; donations above Rs 2,000 through cheque or bank transfer"
+   ],
+   "a": 3,
+   "x": "The stated rules provide tax exemption on donations under Section 12 of the Income Tax Act, 2025, require disclosure of donors contributing above Rs 20,000, and require donations above Rs 2,000 to be made through cheque or bank transfer.",
+   "ty": "numerical",
+   "tq": "Keep the two different monetary thresholds separate.",
+   "sec": "Recognition benefits - symbol, broadcast, star campaigners, proposers"
+  },
+  {
+   "s": "Which of the following statements about political parties in Andhra Pradesh is correct?",
+   "o": [
+    "Only TDP is a recognised National Party in Andhra Pradesh",
+    "TDP and YSRCP are recognised State Parties in Andhra Pradesh, but neither is a National Party",
+    "YSRCP is an RUPP and TDP is an unregistered party",
+    "TDP and YSRCP are both National Parties"
+   ],
+   "a": 1,
+   "x": "TDP and YSRCP are recognised State Parties in Andhra Pradesh; neither has National Party status.",
+   "ty": "fact",
+   "tq": "Apply the State-versus-National recognition distinction to the State-specific example.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following developments illustrates a party choosing a merger instead of pursuing a symbol dispute under paragraph 15?",
+   "o": [
+    "TDP merged with YSRCP to obtain National Party status",
+    "NPP merged with AITC to secure a reserved symbol",
+    "Trinamool rebel MPs chose a merger rather than pursuing a symbol claim before the ECI",
+    "AAP chose a merger after losing National Party status in 2023"
+   ],
+   "a": 2,
+   "x": "The Trinamool rebel MPs chose a merger rather than pursuing a paragraph 15 symbol claim before the Election Commission.",
+   "ty": "application",
+   "tq": "Identify the real-world application of the split-dispute provision.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following was identified as a criticism or debate associated with the election-symbol system?",
+   "o": [
+    "The inability of the ECI to decide symbol disputes",
+    "Voter confusion caused by similar symbols",
+    "Decline in the number of RUPPs",
+    "Complete absence of factional litigation"
+   ],
+   "a": 1,
+   "x": "Criticisms include prolonged factional litigation, allegations of bias, rising RUPP numbers and voter confusion arising from similar symbols.",
+   "ty": "negative",
+   "tq": "Select the criticism that belongs to the stated debate rather than its opposite.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Approximately how many of the more than 2,800 RUPPs contested the 2024 elections?",
+   "o": [
+    "About 2,400",
+    "About 250",
+    "About 750",
+    "About 1,500"
+   ],
+   "a": 2,
+   "x": "The stated figure was about 750 contestants out of more than 2,800 registered but unrecognised political parties in 2024.",
+   "ty": "numerical",
+   "tq": "Use the approximate count and denominator together rather than the percentage alone.",
+   "sec": "Universal angles"
+  }
+ ]
+}

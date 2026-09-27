@@ -1,0 +1,529 @@
+{
+ "book": 3,
+ "row": 121,
+ "chunk": 0,
+ "section": "Agro-climatic zones of Andhra Pradesh and their cropping suitability",
+ "subsections": [
+  "Number of agro-climatic zones - pre- and post-bifurcation",
+  "Zone → districts covered (latest Socio-Economic Survey)",
+  "Zone → dominant crops and soils",
+  "Rainfall by zone - drought-prone zones",
+  "Regional Agricultural Research Stations (ANGRAU) per zone",
+  "Agro-ecological subregions (NBSS&LUP)",
+  "Zone-based contingency crop planning",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 41,
+ "rejected": {
+  "invalid": 1,
+  "dupe": 4,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which authority and survey currently recognise six agro-climatic zones in Andhra Pradesh?",
+   "o": [
+    "ICAR-CRIDA through district contingency plans",
+    "NBSS&LUP through its national classification",
+    "The AP Socio-Economic Survey through its 2023-24 and 2024-25 editions",
+    "The Planning Commission through the Seventh Plan"
+   ],
+   "a": 2,
+   "x": "The AP Socio-Economic Survey 2023-24 and 2024-25 gives six agro-climatic zones for Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Distinguish the current state survey from national classification agencies and planning bodies.",
+   "sec": "Number of agro-climatic zones - pre- and post-bifurcation"
+  },
+  {
+   "s": "With reference to the number of agro-climatic zones in Andhra Pradesh, consider the following statements:\n1. Older material referred to seven zones in Andhra Pradesh.\n2. The 2017 Group-II key accepted seven zones.\n3. The current AP Socio-Economic Survey gives six zones.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct. Older classifications and the 2017 Group-II key used seven, whereas the current AP Socio-Economic Survey gives six zones.",
+   "ty": "statements",
+   "tq": "Reconcile changing official counts instead of treating all historical keys as identical.",
+   "sec": "Number of agro-climatic zones - pre- and post-bifurcation"
+  },
+  {
+   "s": "The combined, undivided Andhra Pradesh was regarded as having nine agro-climatic zones because it included:",
+   "o": [
+    "Seven Andhra Pradesh zones and two Telangana zones",
+    "Five Andhra Pradesh zones and four Telangana zones",
+    "Nine Andhra Pradesh zones without any Telangana zones",
+    "Six Andhra Pradesh zones and three Telangana zones"
+   ],
+   "a": 3,
+   "x": "Undivided Andhra Pradesh had nine zones: the six zones now in Andhra Pradesh and three zones located in Telangana.",
+   "ty": "numerical",
+   "tq": "Split the total into its constituent regional components.",
+   "sec": "Number of agro-climatic zones - pre- and post-bifurcation"
+  },
+  {
+   "s": "India has how many agro-climatic zones and sub-zones according to the Planning Commission's Seventh Plan classification?",
+   "o": [
+    "15 zones and 72 sub-zones",
+    "20 zones and 72 sub-zones",
+    "20 zones and 60 sub-zones",
+    "15 zones and 60 sub-zones"
+   ],
+   "a": 0,
+   "x": "The Planning Commission's Seventh Plan classification divided India into 15 agro-climatic zones and 72 sub-zones.",
+   "ty": "numerical",
+   "tq": "Keep the national zone count separate from the NBSS&LUP agro-ecological classification.",
+   "sec": "Number of agro-climatic zones - pre- and post-bifurcation"
+  },
+  {
+   "s": "Andhra Pradesh lies in which of the following combinations of India's agro-climatic regions?",
+   "o": [
+    "Lower Gangetic Plains and Coastal Plains of Gujarat",
+    "Eastern Himalayas and Western Himalayas",
+    "Central Highlands and Western Dry Region",
+    "Southern Plateau and Hills and East Coast Plains and Hills"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh falls within the Southern Plateau and Hills region and the East Coast Plains and Hills region.",
+   "ty": "fact",
+   "tq": "Use the geographical-location pair rather than the numerical national classification.",
+   "sec": "Number of agro-climatic zones - pre- and post-bifurcation"
+  },
+  {
+   "s": "Which one of the following districts is included in the North Coastal agro-climatic zone?",
+   "o": [
+    "Chittoor",
+    "Srikakulam",
+    "Kurnool",
+    "Guntur"
+   ],
+   "a": 1,
+   "x": "The North Coastal zone comprises Srikakulam, Vizianagaram and Visakhapatnam.",
+   "ty": "fact",
+   "tq": "Test zone membership through a single district-location association.",
+   "sec": "Zone → districts covered (latest Socio-Economic Survey)"
+  },
+  {
+   "s": "The Godavari agro-climatic zone, as listed in the Socio-Economic Survey, comprises:",
+   "o": [
+    "Krishna and Guntur",
+    "Srikakulam and Vizianagaram",
+    "Kurnool and Anantapuramu",
+    "East Godavari and West Godavari"
+   ],
+   "a": 3,
+   "x": "The Godavari zone includes East Godavari and West Godavari.",
+   "ty": "fact",
+   "tq": "Distinguish river-based zone membership from neighbouring coastal and scarce-rainfall zones.",
+   "sec": "Zone → districts covered (latest Socio-Economic Survey)"
+  },
+  {
+   "s": "Which of the following is the correct set of districts for the Krishna agro-climatic zone?",
+   "o": [
+    "East Godavari, West Godavari and Krishna",
+    "Kurnool, Anantapuramu and Prakasam",
+    "Krishna, Guntur and Prakasam",
+    "Chittoor, YSR Kadapa and SPS Nellore"
+   ],
+   "a": 2,
+   "x": "The Krishna zone is listed with Krishna, Guntur and Prakasam districts.",
+   "ty": "fact",
+   "tq": "Use the complete district set to avoid substituting districts from adjacent zones.",
+   "sec": "Zone → districts covered (latest Socio-Economic Survey)"
+  },
+  {
+   "s": "The Southern agro-climatic zone includes which of the following districts?",
+   "o": [
+    "Krishna, Guntur and Prakasam",
+    "Srikakulam, Visakhapatnam and SPS Nellore",
+    "Kurnool, Anantapuramu and YSR Kadapa",
+    "Chittoor, YSR Kadapa and SPS Nellore"
+   ],
+   "a": 3,
+   "x": "The Southern zone comprises Chittoor, YSR Kadapa and SPS Nellore.",
+   "ty": "fact",
+   "tq": "Match the regional label with its listed district group.",
+   "sec": "Zone → districts covered (latest Socio-Economic Survey)"
+  },
+  {
+   "s": "Consider the following statements regarding Andhra Pradesh's agro-climatic zone listing:\n1. The zones continue to be listed against the 13 old districts.\n2. They have been fully re-cut according to the April 2022 district reorganisation.\n3. Andhra Pradesh now has 28 districts according to the cited current reference.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 3 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "The zones remain listed against the 13 old districts and have not been re-cut after the April 2022 reorganisation. The cited current reference states that Andhra Pradesh has 28 districts; therefore statement 2 is false.",
+   "ty": "statements",
+   "tq": "Spot the reversed claim about whether an old classification was updated.",
+   "sec": "Zone → districts covered (latest Socio-Economic Survey)"
+  },
+  {
+   "s": "Which of the following pairs correctly represents the naming pattern of Andhra Pradesh's six agro-climatic zones?",
+   "o": [
+    "One river-based, three direction-based and two altitude-based zones",
+    "Two river-based, three direction-based and one physical-condition-based zone",
+    "Three river-based, two direction-based and one soil-based zone",
+    "Two river-based, two direction-based and two physical-condition-based zones"
+   ],
+   "a": 3,
+   "x": "Godavari and Krishna are river-based; North Coastal and Southern are direction-based; Scarce Rainfall and High Altitude and Tribal Areas refer to physical conditions.",
+   "ty": "comparison",
+   "tq": "Classify labels by their underlying naming basis.",
+   "sec": "Zone → districts covered (latest Socio-Economic Survey)"
+  },
+  {
+   "s": "Which one of the following is NOT correctly matched?",
+   "o": [
+    "Godavari — Fertile deltaic alluvium",
+    "Scarce Rainfall — Red and black soils",
+    "High Altitude and Tribal — Deltaic alluvium",
+    "North Coastal — High rainfall and laterite soils"
+   ],
+   "a": 2,
+   "x": "High Altitude and Tribal areas are characterised by hill soils, not deltaic alluvium. Fertile deltaic alluvium is associated with the Godavari zone.",
+   "ty": "negative",
+   "tq": "Find the soil-setting mismatch using the physical character of each zone.",
+   "sec": "Zone → dominant crops and soils"
+  },
+  {
+   "s": "Which agro-climatic zone of Andhra Pradesh is popularly associated with the description 'rice bowl' and is also an aquaculture hub?",
+   "o": [
+    "Southern",
+    "Godavari",
+    "Scarce Rainfall",
+    "North Coastal"
+   ],
+   "a": 1,
+   "x": "The Godavari zone, characterised by fertile deltaic alluvium, is described as a rice bowl and an aquaculture hub.",
+   "ty": "fact",
+   "tq": "Link a well-known regional description with its geographical zone.",
+   "sec": "Zone → dominant crops and soils"
+  },
+  {
+   "s": "Paddy, chillies and cotton are the principal crops associated with which zone?",
+   "o": [
+    "North Coastal",
+    "Godavari",
+    "High Altitude and Tribal",
+    "Krishna"
+   ],
+   "a": 3,
+   "x": "The Krishna zone, consisting of deltaic and coastal plains, is associated with paddy, chillies and cotton.",
+   "ty": "fact",
+   "tq": "Use the crop combination to identify the corresponding zone.",
+   "sec": "Zone → dominant crops and soils"
+  },
+  {
+   "s": "Which of the following statements about the North Coastal agro-climatic zone is correct?",
+   "o": [
+    "It has red and black soils and is dominated by groundnut cultivation.",
+    "It consists chiefly of fertile deltaic alluvium and is an aquaculture hub.",
+    "It has hill soils and is mainly associated with coffee.",
+    "It has high rainfall and laterite soils and supports plantation crops and paddy."
+   ],
+   "a": 3,
+   "x": "The North Coastal zone has high rainfall and laterite soils, supporting plantation crops and paddy.",
+   "ty": "application",
+   "tq": "Combine soil, rainfall and crop clues rather than relying on the zone name alone.",
+   "sec": "Zone → dominant crops and soils"
+  },
+  {
+   "s": "The Southern agro-climatic zone is best characterised by:",
+   "o": [
+    "Laterite soils with exclusively plantation crops",
+    "High-altitude hill soils and coffee plantations alone",
+    "Varied terrain from plains to hills with mixed dryland and irrigated crops",
+    "Uniform deltaic plains and intensive aquaculture"
+   ],
+   "a": 2,
+   "x": "The Southern zone has varied terrain ranging from plains to hills and supports both dryland and irrigated crops.",
+   "ty": "comparison",
+   "tq": "Choose the option that preserves the zone's internal variation and avoids extreme words.",
+   "sec": "Zone → dominant crops and soils"
+  },
+  {
+   "s": "Which crop-zone pair is correctly matched?",
+   "o": [
+    "Scarce Rainfall — Groundnut and dryland crops",
+    "High Altitude and Tribal — Cotton and paddy in deltaic plains",
+    "Godavari — Coffee on hill soils",
+    "North Coastal — Groundnut as the principal dryland crop"
+   ],
+   "a": 0,
+   "x": "The Scarce Rainfall zone has red and black soils and is associated with groundnut and other dryland crops. The High Altitude and Tribal zone is associated with coffee and plantation crops.",
+   "ty": "match",
+   "tq": "Start from the sure crop-soil association and reject mismatched settings.",
+   "sec": "Zone → dominant crops and soils"
+  },
+  {
+   "s": "Consider the following statements regarding soils and agriculture in Andhra Pradesh:\n1. Andhra Pradesh has 22 soil categories.\n2. Ten soil categories are predominant.\n3. The predominant categories cover over 88 per cent of the state.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "The AP Socio-Economic Survey 2024-25 records 22 soil categories, of which 10 are predominant and cover over 88 per cent of the state.",
+   "ty": "statements",
+   "tq": "Retain all linked numerical details when the statements form a complete data set.",
+   "sec": "Zone → dominant crops and soils"
+  },
+  {
+   "s": "In India's cotton geography, Andhra Pradesh is placed in the:",
+   "o": [
+    "Eastern cotton zone with West Bengal and Odisha",
+    "Northern cotton zone with Punjab and Haryana",
+    "Western cotton zone with Gujarat and Rajasthan",
+    "Southern cotton zone with Telangana and Karnataka"
+   ],
+   "a": 3,
+   "x": "Andhra Pradesh belongs to the Southern cotton zone along with Telangana and Karnataka.",
+   "ty": "fact",
+   "tq": "Use the neighbouring-state combination to identify the correct cotton region.",
+   "sec": "Zone → dominant crops and soils"
+  },
+  {
+   "s": "Which agro-climatic zone of Andhra Pradesh is chronically drought-prone?",
+   "o": [
+    "Godavari Zone",
+    "North Coastal Zone",
+    "Scarce Rainfall Zone",
+    "High Altitude and Tribal Areas Zone"
+   ],
+   "a": 2,
+   "x": "The Scarce Rainfall Zone, covering Kurnool and Anantapuramu, is the chronically drought-prone zone of Andhra Pradesh.",
+   "ty": "fact",
+   "tq": "Match the descriptive label with the climatic condition it directly signifies.",
+   "sec": "Rainfall by zone - drought-prone zones"
+  },
+  {
+   "s": "Which areas receive the highest rainfall among the agro-climatic zones of Andhra Pradesh?",
+   "o": [
+    "Krishna zone and Scarce Rainfall zone",
+    "North Coastal zone and tribal highlands",
+    "Scarce Rainfall zone and Southern plains",
+    "Southern zone and Godavari delta only"
+   ],
+   "a": 1,
+   "x": "The North Coastal zone and the tribal highlands receive the most rainfall among the zones.",
+   "ty": "comparison",
+   "tq": "Compare extremes in rainfall rather than confusing fertile areas with wettest areas.",
+   "sec": "Rainfall by zone - drought-prone zones"
+  },
+  {
+   "s": "During 2024-25, the actual South-West Monsoon rainfall in Andhra Pradesh was:",
+   "o": [
+    "574.7 mm",
+    "681.6 mm",
+    "718.2 mm",
+    "860.0 mm"
+   ],
+   "a": 1,
+   "x": "South-West Monsoon rainfall during 2024-25 was 681.6 mm, compared with the normal of 574.7 mm.",
+   "ty": "numerical",
+   "tq": "Separate actual seasonal rainfall from normal and annual totals.",
+   "sec": "Rainfall by zone - drought-prone zones"
+  },
+  {
+   "s": "The actual North-East Monsoon rainfall in Andhra Pradesh during 2024-25 was:",
+   "o": [
+    "278.7 mm",
+    "285.3 mm",
+    "574.7 mm",
+    "681.6 mm"
+   ],
+   "a": 0,
+   "x": "The North-East Monsoon recorded 278.7 mm in 2024-25 against a normal of 285.3 mm.",
+   "ty": "numerical",
+   "tq": "Distinguish the actual value from its nearby normal value.",
+   "sec": "Rainfall by zone - drought-prone zones"
+  },
+  {
+   "s": "What was the total actual rainfall in Andhra Pradesh during 2024-25, and how did it compare with normal rainfall?",
+   "o": [
+    "960.3 mm, an excess of 11.7 per cent",
+    "718.2 mm, an excess of 11.7 per cent",
+    "860.0 mm, a deficit of 16.5 per cent",
+    "960.3 mm, a deficit of 2.3 per cent"
+   ],
+   "a": 0,
+   "x": "Total rainfall in 2024-25 was 960.3 mm against the normal of 860.0 mm, an excess of 11.7 per cent.",
+   "ty": "numerical",
+   "tq": "Read the total and its deviation together rather than mixing seasonal figures.",
+   "sec": "Rainfall by zone - drought-prone zones"
+  },
+  {
+   "s": "Which statement correctly describes rainfall during 2023-24 in Andhra Pradesh?",
+   "o": [
+    "The total was 718.2 mm, representing a deficit of 16.5 per cent.",
+    "The total was 681.6 mm, representing an excess of 18.6 per cent.",
+    "The total was 860.0 mm, representing a deficit of 2.3 per cent.",
+    "The total was 960.3 mm, representing a deficit of 11.7 per cent."
+   ],
+   "a": 0,
+   "x": "The year 2023-24 was a deficit year, with total rainfall of 718.2 mm, 16.5 per cent below normal.",
+   "ty": "fact",
+   "tq": "Pair the year, total rainfall and deviation before selecting the option.",
+   "sec": "Rainfall by zone - drought-prone zones"
+  },
+  {
+   "s": "According to the cited Kharif 2026 assessment, which statement is correct?",
+   "o": [
+    "All 28 districts were in deficit, with Annamayya, Prakasam, Chittoor, Markapuram and Visakhapatnam among the worst hit.",
+    "Only the Scarce Rainfall districts were in deficit.",
+    "Only the North Coastal districts were declared drought-prone.",
+    "All districts recorded normal rainfall, except the Godavari districts."
+   ],
+   "a": 0,
+   "x": "The Kharif 2026 assessment reported deficit conditions in all 28 districts. Annamayya, Prakasam, Chittoor, Markapuram and Visakhapatnam were identified among the worst hit.",
+   "ty": "fact",
+   "tq": "Reject the restrictive word 'only' and retain the complete current assessment.",
+   "sec": "Rainfall by zone - drought-prone zones"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched with a Regional Agricultural Research Station of ANGRAU?",
+   "o": [
+    "North Coastal — Anakapalle",
+    "Godavari — Tirupati",
+    "Krishna — Nandyal",
+    "Scarce Rainfall — Chintapalle"
+   ],
+   "a": 0,
+   "x": "Anakapalle is the RARS associated with the North Coastal zone. Maruteru, Lam, Nandyal and Chintapalle are associated with other zones.",
+   "ty": "match",
+   "tq": "Start with the sure station-zone pair and eliminate shifted locations.",
+   "sec": "Regional Agricultural Research Stations (ANGRAU) per zone"
+  },
+  {
+   "s": "Match List-I with List-II:\nList-I (Zone)\nA. Godavari\nB. Krishna\nC. Southern\nD. High Altitude and Tribal\n\nList-II (RARS)\n1. Chintapalle\n2. Lam (Guntur)\n3. Maruteru\n4. Tirupati\n\nChoose the correct code:",
+   "o": [
+    "A-3, B-2, C-4, D-1",
+    "A-2, B-3, C-1, D-4",
+    "A-3, B-4, C-2, D-1",
+    "A-1, B-2, C-4, D-3"
+   ],
+   "a": 0,
+   "x": "Godavari has Maruteru, Krishna has Lam (Guntur), Southern has Tirupati, and High Altitude and Tribal has Chintapalle.",
+   "ty": "match",
+   "tq": "Start from a sure pair and check that every remaining station is used once.",
+   "sec": "Regional Agricultural Research Stations (ANGRAU) per zone"
+  },
+  {
+   "s": "Which one of the following is the correct RARS for the Scarce Rainfall zone?",
+   "o": [
+    "Maruteru",
+    "Nandyal",
+    "Anakapalle",
+    "Chintapalle"
+   ],
+   "a": 1,
+   "x": "Nandyal is the Regional Agricultural Research Station associated with the Scarce Rainfall zone.",
+   "ty": "fact",
+   "tq": "Discriminate between research stations belonging to physically different zones.",
+   "sec": "Regional Agricultural Research Stations (ANGRAU) per zone"
+  },
+  {
+   "s": "Which of the following activities is associated with ANGRAU's work across the agro-climatic zones?",
+   "o": [
+    "Drought-resistant paddy, flood-tolerant pulses and pest-resistant cotton research",
+    "Replacement of all dryland crops with sugarcane",
+    "Exclusive research on urban horticulture",
+    "Preparation of national monetary policy"
+   ],
+   "a": 0,
+   "x": "ANGRAU works on drought-resistant paddy, flood-tolerant pulses, pest-resistant cotton, drone-based precision farming and soil restoration in rain-shadow areas.",
+   "ty": "application",
+   "tq": "Identify the option that combines region-specific agricultural research functions.",
+   "sec": "Regional Agricultural Research Stations (ANGRAU) per zone"
+  },
+  {
+   "s": "An agro-ecological zone is formed from an agro-climatic zone by superimposing which factor?",
+   "o": [
+    "Market distance",
+    "Crop procurement price",
+    "Landform",
+    "District population"
+   ],
+   "a": 2,
+   "x": "An agro-ecological zone is a land unit carved out of an agro-climatic zone by superimposing landform, which modifies climate and the length of the growing period.",
+   "ty": "fact",
+   "tq": "Distinguish the additional physical layer used in agro-ecological classification.",
+   "sec": "Agro-ecological subregions (NBSS&LUP)"
+  },
+  {
+   "s": "A district in a drought-prone area adopts pre-monsoon dry sowing under natural farming using residual soil moisture. This practice is known as:",
+   "o": [
+    "PMDS",
+    "NBSS&LUP",
+    "RARS",
+    "CDCA"
+   ],
+   "a": 0,
+   "x": "Pre-monsoon dry sowing is referred to as PMDS and uses residual soil moisture, particularly in drought-prone areas.",
+   "ty": "application",
+   "tq": "Apply the abbreviation to a practical drought-management scenario.",
+   "sec": "Zone-based contingency crop planning"
+  },
+  {
+   "s": "Which institution prepares district agricultural contingency plans?",
+   "o": [
+    "Planning Commission",
+    "ANGRAU alone",
+    "ICAR-CRIDA",
+    "NBSS&LUP"
+   ],
+   "a": 2,
+   "x": "District agricultural contingency plans are prepared by ICAR-CRIDA.",
+   "ty": "fact",
+   "tq": "Identify the responsible agricultural institution rather than a classification agency.",
+   "sec": "Zone-based contingency crop planning"
+  },
+  {
+   "s": "When Kharif sowing falls short in a region, zone-based contingency planning may advise:",
+   "o": [
+    "Complete suspension of cultivation in every zone",
+    "Alternative crops suited to the local conditions",
+    "Uniform crops throughout India",
+    "Only plantation crops irrespective of rainfall"
+   ],
+   "a": 1,
+   "x": "Zone-based planning provides region-specific interventions, including advice on alternative crops when Kharif sowing is inadequate.",
+   "ty": "application",
+   "tq": "Choose the adaptive intervention that follows from region-specific planning.",
+   "sec": "Zone-based contingency crop planning"
+  },
+  {
+   "s": "Assertion (A): Andhra Pradesh has regional disparities in irrigation and farm income.\nReason (R): Its six agro-climatic zones are associated with uneven water distribution.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "x": "Both statements are true, and uneven water distribution across the six agro-climatic zones contributes directly to disparities in irrigation and farm income.",
+   "ty": "assertion_reason",
+   "tq": "Check whether the reason explains the stated regional disparity.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which State has ten agro-climatic zones, in contrast to Andhra Pradesh's current six-zone classification?",
+   "o": [
+    "Odisha",
+    "Karnataka",
+    "Telangana",
+    "Tamil Nadu"
+   ],
+   "a": 1,
+   "x": "Karnataka has 10 agro-climatic zones, whereas the current Andhra Pradesh classification has six.",
+   "ty": "comparison",
+   "tq": "Use the numerical comparison without confusing neighbouring-state classifications.",
+   "sec": "Universal angles"
+  }
+ ]
+}

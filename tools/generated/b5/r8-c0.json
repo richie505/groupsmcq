@@ -1,0 +1,556 @@
+{
+ "book": 5,
+ "row": 8,
+ "chunk": 0,
+ "section": "National strategies and missions in S&T - Quantum Mission, Supercomputing, Deep Ocean, Bio-E3, Anusandhan NRF",
+ "subsections": [
+  "National Supercomputing Mission - PARAM systems, agencies, AIRAWAT",
+  "National Quantum Mission - approval, outlay, hubs, qubit targets",
+  "Indian supercomputer history",
+  "Deep Ocean Mission - ministry, components, Samudrayaan",
+  "Bio-E3 Policy",
+  "Anusandhan National Research Foundation",
+  "Mission → ministry + approval + outlay"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 43,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 5,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "Which of the following institutions jointly steers the National Supercomputing Mission?",
+   "o": [
+    "DST and MeitY",
+    "NITI Aayog and MeitY",
+    "DBT and MoES",
+    "DRDO and ISRO"
+   ],
+   "a": 0,
+   "x": "The mission is jointly steered by the Department of Science and Technology and the Ministry of Electronics and Information Technology.",
+   "ty": "fact",
+   "tq": "Identify the correct pair of nodal agencies rather than the implementing institutions.",
+   "sec": "National Supercomputing Mission - PARAM systems, agencies, AIRAWAT  [APPSC]"
+  },
+  {
+   "s": "The supercomputers established under the National Supercomputing Mission are linked through the National Supercomputing Grid over the:",
+   "o": [
+    "National Optical Fibre Network",
+    "BharatNet exclusively",
+    "National Knowledge Network",
+    "National Information Infrastructure"
+   ],
+   "a": 2,
+   "x": "The systems are linked on the National Supercomputing Grid over the National Knowledge Network.",
+   "ty": "fact",
+   "tq": "Test the exact network name and reject nearby connectivity terms.",
+   "sec": "National Supercomputing Mission - PARAM systems, agencies, AIRAWAT  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements regarding the status of the National Supercomputing Mission:\n1. Forty systems with aggregate capacity exceeding 64 PF are planned.\n2. Thirty-seven systems have been commissioned with 39 PF at 37 locations.\n3. Three additional systems of about 27 PF are based on the indigenous RUDRA server.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements correctly describe the status and planned expansion of the mission as reflected in the 2026 update.",
+   "ty": "statements",
+   "tq": "Check each numerical statement separately, especially the distinction between planned and commissioned systems.",
+   "sec": "National Supercomputing Mission - PARAM systems, agencies, AIRAWAT  [APPSC]"
+  },
+  {
+   "s": "The additional National Supercomputing Mission systems include a National Facility of approximately:",
+   "o": [
+    "10 PF",
+    "15 PF",
+    "25 PF",
+    "20 PF"
+   ],
+   "a": 3,
+   "x": "The additional systems include a National Facility of approximately 20 PF.",
+   "ty": "numerical",
+   "tq": "Use the embedded figure within a larger capacity estimate.",
+   "sec": "National Supercomputing Mission - PARAM systems, agencies, AIRAWAT  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly represents the indigenous technology stack of the National Supercomputing Mission?",
+   "o": [
+    "Rudra server board, Trinetra interconnect and AlmaLinux software",
+    "AUM processor, Vajra interconnect and Ubuntu software only",
+    "PARAM board, Shakti interconnect and Windows software",
+    "Rudra board, Garuda interconnect and proprietary software exclusively"
+   ],
+   "a": 0,
+   "x": "The indigenous stack comprises the Rudra server board, Trinetra interconnect and open-source AlmaLinux software.",
+   "ty": "match",
+   "tq": "Match the technical components as a complete stack and beware of the ‘exclusively’ trap.",
+   "sec": "National Supercomputing Mission - PARAM systems, agencies, AIRAWAT  [APPSC]"
+  },
+  {
+   "s": "Match List-I with List-II:\n\nList-I (System)\n a. PARAM Shivay\n b. PARAM Porul\n c. PARAM Pravega\n d. PARAM Ananta\n\nList-II (Host)\n i. IISc Bengaluru\n ii. IIT Gandhinagar\n iii. IIT (BHU)\n iv. NIT Tiruchirappalli\n\nSelect the correct answer using the codes given below:",
+   "o": [
+    "a–iii, b–iv, c–i, d–ii",
+    "a–iv, b–iii, c–ii, d–i",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–i, b–ii, c–iii, d–iv"
+   ],
+   "a": 0,
+   "x": "PARAM Shivay is at IIT (BHU), PARAM Porul at NIT Tiruchirappalli, PARAM Pravega at IISc Bengaluru and PARAM Ananta at IIT Gandhinagar.",
+   "ty": "match",
+   "tq": "Start from the sure machine–host pair and eliminate codes containing a wrong pair.",
+   "sec": "National Supercomputing Mission - PARAM systems, agencies, AIRAWAT  [APPSC]"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched?",
+   "o": [
+    "PARAM Shakti — IIT Bombay",
+    "PARAM Kamrupa — IIT Guwahati",
+    "PARAM Rudra — IIT Kanpur",
+    "AIRAWAT — IISc Bengaluru"
+   ],
+   "a": 1,
+   "x": "PARAM Kamrupa is hosted at IIT Guwahati. PARAM Shakti is at IIT Madras, PARAM Rudra systems are at Pune, Delhi and Kolkata, and AIRAWAT is at C-DAC, Pune.",
+   "ty": "negative",
+   "tq": "Find the correctly matched pair among closely related supercomputing hosts.",
+   "sec": "National Supercomputing Mission - PARAM systems, agencies, AIRAWAT  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about PARAM Shakti:\n1. It is located at IIT Madras.\n2. It has a capacity of 3.1 PF.\n3. Forty per cent of its capacity is available to outside researchers.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "PARAM Shakti is at IIT Madras, has 3.1 PF capacity and reserves 40 per cent capacity for outside researchers.",
+   "ty": "statements",
+   "tq": "Combine location, capacity and usage-share facts in a coded statement question.",
+   "sec": "National Supercomputing Mission - PARAM systems, agencies, AIRAWAT  [APPSC]"
+  },
+  {
+   "s": "Which statement correctly distinguishes the Rudra server from the AUM programme?",
+   "o": [
+    "AUM is the interconnect used in all PARAM systems, whereas Rudra is a software platform.",
+    "Rudra is a server board used for the mission, whereas AUM is a separate C-DAC HPC chip programme.",
+    "Rudra is an HPC chip programme, whereas AUM is the mission’s open-source operating system.",
+    "Both Rudra and AUM are names of the same processor."
+   ],
+   "a": 1,
+   "x": "The Rudra machines are built on the Rudra server, while AUM is a separate C-DAC high-performance computing chip programme.",
+   "ty": "confusable",
+   "tq": "Discriminate between look-alike technical names by identifying their different functions.",
+   "sec": "National Supercomputing Mission - PARAM systems, agencies, AIRAWAT  [APPSC]"
+  },
+  {
+   "s": "AIRAWAT, the artificial-intelligence supercomputer associated with the National Supercomputing Mission, is located at:",
+   "o": [
+    "NCMRWF, Noida",
+    "IIT Madras",
+    "C-DAC, Pune",
+    "IISc Bengaluru"
+   ],
+   "a": 2,
+   "x": "AIRAWAT is located at C-DAC, Pune.",
+   "ty": "fact",
+   "tq": "Test the host institution of a named machine rather than its ranking.",
+   "sec": "National Supercomputing Mission - PARAM systems, agencies, AIRAWAT  [APPSC]"
+  },
+  {
+   "s": "Which one of the following correctly describes the National Quantum Mission?",
+   "o": [
+    "A MeitY mission with an outlay of ₹10,371.92 crore for 2024–29",
+    "A DBT mission with an outlay of ₹4,077 crore for five years",
+    "A MoES mission with an outlay of ₹76,000 crore for 2021–26",
+    "A DST mission with an outlay of ₹6,003.65 crore for 2023–24 to 2030–31"
+   ],
+   "a": 3,
+   "x": "The mission is under DST, has an outlay of ₹6,003.65 crore and covers eight years from 2023–24 to 2030–31.",
+   "ty": "comparison",
+   "tq": "Compare mission ministry, outlay and period together to avoid cross-matching with other missions.",
+   "sec": "National Quantum Mission - approval, outlay, hubs, qubit targets  [APPSC]"
+  },
+  {
+   "s": "The National Quantum Mission aims to develop intermediate-scale quantum computers containing approximately:",
+   "o": [
+    "50–1000 physical qubits",
+    "5–50 physical qubits",
+    "1000–5000 logical qubits",
+    "5000–10,000 physical qubits"
+   ],
+   "a": 0,
+   "x": "The target is intermediate-scale computers with 50 to 1000 physical qubits within eight years.",
+   "ty": "numerical",
+   "tq": "Use the exact numerical range and distinguish physical qubits from logical qubits.",
+   "sec": "National Quantum Mission - approval, outlay, hubs, qubit targets  [APPSC]"
+  },
+  {
+   "s": "Which of the following are targets or technological areas of the National Quantum Mission?\n1. Satellite QKD over 2000 km within India\n2. Inter-city QKD over 2000 km\n3. Quantum links with other countries\n4. Development of magnetometers and atomic clocks\nSelect the correct answer using the codes given below:",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four listed areas form part of the National Quantum Mission’s targets and technological objectives.",
+   "ty": "statements",
+   "tq": "Use the all-inclusive option only after verifying every listed application.",
+   "sec": "National Quantum Mission - approval, outlay, hubs, qubit targets  [APPSC]"
+  },
+  {
+   "s": "Match the thematic hub of the National Quantum Mission with its host:\n\nList-I (Thematic hub)\n a. Quantum Computing\n b. Quantum Communication\n c. Quantum Sensing and Metrology\n d. Quantum Materials and Devices\n\nList-II (Host)\n i. IIT Delhi\n ii. IIT Bombay\n iii. IISc Bengaluru\n iv. IIT Madras\n\nSelect the correct answer using the codes given below:",
+   "o": [
+    "a–iii, b–iv, c–ii, d–i",
+    "a–iv, b–iii, c–i, d–ii",
+    "a–ii, b–i, c–iv, d–iii",
+    "a–i, b–ii, c–iii, d–iv"
+   ],
+   "a": 0,
+   "x": "Quantum Computing is hosted by IISc Bengaluru, Quantum Communication by IIT Madras, Quantum Sensing and Metrology by IIT Bombay, and Quantum Materials and Devices by IIT Delhi.",
+   "ty": "match",
+   "tq": "Begin with the distinctive hub–host pair and eliminate codes systematically.",
+   "sec": "National Quantum Mission - approval, outlay, hubs, qubit targets  [APPSC]"
+  },
+  {
+   "s": "The Central Fabrication Facilities under the National Quantum Mission are located at:",
+   "o": [
+    "IIT Madras, IIT Guwahati, IIT Delhi and BARC",
+    "IIT Delhi, IISc, IIT Bombay and IIT Kanpur",
+    "IISc, IIT Hyderabad, IIT Kanpur and ISRO",
+    "IIT Bombay, IIT Roorkee, NAL and DRDO"
+   ],
+   "a": 1,
+   "x": "The Central Fabrication Facilities are established at IIT Delhi, IISc, IIT Bombay and IIT Kanpur, with an indicated allocation of about ₹720 crore.",
+   "ty": "fact",
+   "tq": "Test the complete institutional list and avoid replacing one member with a nearby technical institution.",
+   "sec": "National Quantum Mission - approval, outlay, hubs, qubit targets  [APPSC]"
+  },
+  {
+   "s": "Which of the following is correctly matched with a start-up supported under the National Quantum Mission?",
+   "o": [
+    "PQuest — 64-qubit QPU",
+    "QpiAI — Quantum Diamond Microscope",
+    "Prenishq — 500 km QKD network",
+    "QNu Labs — 500 km QKD network and QShield"
+   ],
+   "a": 3,
+   "x": "QNu Labs is associated with a 500 km QKD network and QShield. QpiAI is associated with a 64-qubit QPU, PQuest with a Quantum Diamond Microscope, and Prenishq with a diode laser.",
+   "ty": "negative",
+   "tq": "Use the one-correct-pair method for start-up and technology associations.",
+   "sec": "National Quantum Mission - approval, outlay, hubs, qubit targets  [APPSC]"
+  },
+  {
+   "s": "Arrange the following events in chronological order:\nA. Launch of the National Supercomputing Mission\nB. Approval of the National Quantum Mission\nC. Approval of the Deep Ocean Mission\nD. Introduction of the Bio-E3 Policy\n\nSelect the correct answer using the codes given below:",
+   "o": [
+    "A, C, B, D",
+    "C, A, B, D",
+    "A, B, C, D",
+    "C, B, A, D"
+   ],
+   "a": 0,
+   "x": "The National Supercomputing Mission was launched in 2015, the Deep Ocean Mission was approved in 2021, the National Quantum Mission in 2023 and the Bio-E3 Policy was introduced in 2024.",
+   "ty": "chronology",
+   "tq": "Fix the earliest and latest events first, then place the middle approvals by year.",
+   "sec": "National Supercomputing Mission - PARAM systems, agencies, AIRAWAT  [APPSC]"
+  },
+  {
+   "s": "India’s supercomputing programme began in the:",
+   "o": [
+    "Early 1970s",
+    "Late 1980s",
+    "Late 1990s",
+    "Early 1990s"
+   ],
+   "a": 1,
+   "x": "India’s supercomputing programme began in the late 1980s.",
+   "ty": "fact",
+   "tq": "Distinguish the programme’s beginning from the launch of a particular machine.",
+   "sec": "Indian supercomputer history  [APPSC]"
+  },
+  {
+   "s": "Vijay Bhatkar is associated with which description?",
+   "o": [
+    "Father of Indian supercomputing",
+    "Architect of the Deep Ocean Mission",
+    "Founder of India’s quantum communication mission",
+    "Chairperson of the ANRF Governing Board"
+   ],
+   "a": 0,
+   "x": "Vijay Bhatkar is recognised as the father of Indian supercomputing.",
+   "ty": "fact",
+   "tq": "Match the personality with the precise title used in the field.",
+   "sec": "Indian supercomputer history  [APPSC]"
+  },
+  {
+   "s": "Match the Indian supercomputer with its developer or site:\n\nList-I\n a. Flosolver\n b. Anupam\n c. Pratyush\n d. Mihir\n\nList-II\n i. NCMRWF, Noida\n ii. NAL Bengaluru\n iii. BARC\n iv. IITM Pune\n\nSelect the correct answer using the codes given below:",
+   "o": [
+    "a–ii, b–iii, c–iv, d–i",
+    "a–iii, b–ii, c–i, d–iv",
+    "a–iv, b–i, c–ii, d–iii",
+    "a–i, b–iv, c–iii, d–ii"
+   ],
+   "a": 0,
+   "x": "Flosolver is associated with NAL Bengaluru, Anupam with BARC, Pratyush with IITM Pune and Mihir with NCMRWF, Noida.",
+   "ty": "match",
+   "tq": "Start with a sure site association and verify that no List-II item is reused.",
+   "sec": "Indian supercomputer history  [APPSC]"
+  },
+  {
+   "s": "Consider the following statements about the Deep Ocean Mission:\n1. It is under the Ministry of Earth Sciences.\n2. It was approved in June 2021.\n3. It has an outlay of ₹4,077 crore over five years.\n4. It is one of the nine PM-STIAC missions.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "x": "All four statements are correct. The mission is also intended to support the blue economy.",
+   "ty": "statements",
+   "tq": "Verify ministry, approval date, outlay and institutional classification separately.",
+   "sec": "Deep Ocean Mission - ministry, components, Samudrayaan  [other exams]"
+  },
+  {
+   "s": "Which of the following is NOT a stated focus or implication of the Deep Ocean Mission?",
+   "o": [
+    "Deep-sea exploration and mining",
+    "Development of quantum computers with 50–1000 qubits",
+    "Multiple focus areas including Samudrayaan-related activities",
+    "Support for the blue economy"
+   ],
+   "a": 1,
+   "x": "Quantum computing targets belong to the National Quantum Mission, not the Deep Ocean Mission. The Deep Ocean Mission supports the blue economy and deep-sea exploration and mining.",
+   "ty": "negative",
+   "tq": "Find the out-of-domain statement by separating ocean objectives from quantum objectives.",
+   "sec": "Deep Ocean Mission - ministry, components, Samudrayaan  [other exams]"
+  },
+  {
+   "s": "Which of the following statements about Samudrayaan is correct?",
+   "o": [
+    "It involves a four-member crewed aircraft for atmospheric exploration up to 6000 km.",
+    "It is a bio-manufacturing programme for marine organisms.",
+    "It is a satellite QKD mission designed for a 2000 km link.",
+    "It involves Matsya 6000, an indigenous submersible for a three-member crew and a depth target of 6000 m."
+   ],
+   "a": 3,
+   "x": "Samudrayaan involves the indigenous Matsya 6000 submersible, designed for a three-member crew, deep-sea mining and exploration, with a target depth of 6000 m.",
+   "ty": "application",
+   "tq": "Identify the mission from its vehicle, crew size, purpose and depth target.",
+   "sec": "Deep Ocean Mission - ministry, components, Samudrayaan  [other exams]"
+  },
+  {
+   "s": "Bio-E3 stands for:",
+   "o": [
+    "Biological Engineering for Energy, Ecology and Education",
+    "Biotechnology for Employment, Electronics and Education",
+    "Biotechnology for Economy, Environment and Employment",
+    "Bioeconomy, Environment and Energy Expansion"
+   ],
+   "a": 2,
+   "x": "Bio-E3 means Biotechnology for Economy, Environment and Employment.",
+   "ty": "confusable",
+   "tq": "Expand the acronym precisely and reject substitutions for the three E terms.",
+   "sec": "Bio-E3 Policy"
+  },
+  {
+   "s": "The Bio-E3 Policy primarily seeks to:",
+   "o": [
+    "Build a bio-manufacturing ecosystem",
+    "Create a national quantum communication network",
+    "Replace the National Knowledge Network",
+    "Establish a deep-sea mining fleet"
+   ],
+   "a": 0,
+   "x": "The Bio-E3 Policy is intended to build a bio-manufacturing ecosystem.",
+   "ty": "fact",
+   "tq": "Identify the principal objective rather than one of the policy’s thematic sectors.",
+   "sec": "Bio-E3 Policy"
+  },
+  {
+   "s": "India’s bioeconomy was valued at over which amount in 2024?",
+   "o": [
+    "US$265 billion",
+    "US$65 billion",
+    "US$165 billion",
+    "US$105 billion"
+   ],
+   "a": 2,
+   "x": "India’s bioeconomy was valued at over US$165 billion in 2024.",
+   "ty": "numerical",
+   "tq": "Recall the exact scale figure and distinguish it from public-sector mission outlays.",
+   "sec": "Bio-E3 Policy"
+  },
+  {
+   "s": "Which of the following is NOT listed as a thematic sector of the Bio-E3 Policy?",
+   "o": [
+    "Carbon capture",
+    "Functional foods and smart proteins",
+    "Climate-resilient agriculture",
+    "Inter-city quantum key distribution"
+   ],
+   "a": 3,
+   "x": "Inter-city quantum key distribution is a National Quantum Mission objective, not a Bio-E3 thematic sector. The other three are listed Bio-E3 sectors.",
+   "ty": "negative",
+   "tq": "Find the sector borrowed from a neighbouring science mission.",
+   "sec": "Bio-E3 Policy"
+  },
+  {
+   "s": "Biopharma SHAKTI, announced in Budget 2026–27, involves an outlay of:",
+   "o": [
+    "₹10,000 crore over five years",
+    "₹4,077 crore over five years",
+    "₹6,003.65 crore over eight years",
+    "₹76,000 crore over ten years"
+   ],
+   "a": 0,
+   "x": "Biopharma SHAKTI has an outlay of ₹10,000 crore over five years and concerns biologics and biosimilars.",
+   "ty": "numerical",
+   "tq": "Separate the policy’s budgetary initiative from the outlays of other national missions.",
+   "sec": "Bio-E3 Policy"
+  },
+  {
+   "s": "Which set correctly identifies the next plans associated with DBT under the Bio-E3 framework?",
+   "o": [
+    "Biomanufacturing hubs, biofoundries and Moolankur hubs",
+    "Quantum hubs, QKD nodes and atomic-clock centres",
+    "Matsya vehicles, blue-economy ports and ocean observatories",
+    "Rudra servers, Trinetra links and PARAM facilities"
+   ],
+   "a": 0,
+   "x": "DBT’s next plans include biomanufacturing hubs, biofoundries and Moolankur hubs.",
+   "ty": "fact",
+   "tq": "Group related programme components and distinguish them from other mission vocabularies.",
+   "sec": "Bio-E3 Policy"
+  },
+  {
+   "s": "Who is the ex officio President of the Governing Board of the Anusandhan National Research Foundation?",
+   "o": [
+    "The Cabinet Secretary",
+    "The Union Minister of Science and Technology",
+    "The Prime Minister",
+    "The President of India"
+   ],
+   "a": 2,
+   "x": "The Prime Minister is the ex officio President of the ANRF Governing Board.",
+   "ty": "fact",
+   "tq": "Identify the office-holder by constitutional or statutory position, not by ministerial association.",
+   "sec": "Anusandhan National Research Foundation"
+  },
+  {
+   "s": "The Anusandhan National Research Foundation subsumed which institution?",
+   "o": [
+    "SERB",
+    "NCMRWF",
+    "C-DAC",
+    "PM-STIAC"
+   ],
+   "a": 0,
+   "x": "ANRF subsumed the Science and Engineering Research Board, or SERB.",
+   "ty": "confusable",
+   "tq": "Discriminate between a predecessor research body and mission advisory or implementing bodies.",
+   "sec": "Anusandhan National Research Foundation"
+  },
+  {
+   "s": "The ₹1 lakh crore RDI Fund is associated with the ANRF through a:",
+   "o": [
+    "Five-tier public-sector banking fund",
+    "State-level technology innovation fund",
+    "Single-tier sovereign wealth fund",
+    "Two-tier Special Purpose Fund"
+   ],
+   "a": 3,
+   "x": "ANRF is the custodian of the ₹1 lakh crore RDI Fund through a two-tier Special Purpose Fund.",
+   "ty": "numerical",
+   "tq": "Combine the fund amount with its institutional mechanism.",
+   "sec": "Anusandhan National Research Foundation"
+  },
+  {
+   "s": "Which of the following is NOT listed as an ANRF scheme?",
+   "o": [
+    "PAIR",
+    "JC Bose Grant",
+    "Matsya 6000 Fellowship",
+    "MAHA-EV"
+   ],
+   "a": 2,
+   "x": "PAIR, MAHA-EV and the JC Bose Grant are listed ANRF schemes. Matsya 6000 Fellowship is not listed as an ANRF scheme.",
+   "ty": "negative",
+   "tq": "Identify the unrelated programme by comparing scheme names across missions.",
+   "sec": "Anusandhan National Research Foundation"
+  },
+  {
+   "s": "Which one of the following correctly matches a mission with its ministry and outlay?",
+   "o": [
+    "IndiaAI Mission — MeitY — ₹10,371.92 crore",
+    "Semicon India — DST — ₹6,003.65 crore",
+    "NQM — MeitY — ₹76,000 crore",
+    "NM-ICPS — MoES — ₹4,077 crore"
+   ],
+   "a": 0,
+   "x": "The IndiaAI Mission is under MeitY with an outlay of ₹10,371.92 crore. Semicon India is under MeitY with ₹76,000 crore, NQM is under DST with ₹6,003.65 crore, and NM-ICPS is under DST.",
+   "ty": "match",
+   "tq": "Match all three dimensions—mission, ministry and outlay—before selecting the pair.",
+   "sec": "Mission → ministry + approval + outlay"
+  },
+  {
+   "s": "The IndiaAI Mission, approved in 2024, includes provision for more than:",
+   "o": [
+    "50,000 GPUs",
+    "10,000 GPUs",
+    "1,000 GPUs",
+    "5,000 GPUs"
+   ],
+   "a": 1,
+   "x": "The IndiaAI Mission includes provision for more than 10,000 GPUs.",
+   "ty": "numerical",
+   "tq": "Recall the quantitative capacity attached to the mission rather than its total outlay alone.",
+   "sec": "Mission → ministry + approval + outlay"
+  },
+  {
+   "s": "Which of the following statements regarding the Semicon India or ISM programme is correct?",
+   "o": [
+    "It is a DBT programme approved in 2024 with an outlay of ₹10,000 crore.",
+    "It is an MoES programme approved in 2021 with an outlay of ₹4,077 crore.",
+    "It is a MeitY programme approved in 2021 with an outlay of ₹76,000 crore.",
+    "It is a DST programme approved in 2023 with an outlay of ₹6,003.65 crore."
+   ],
+   "a": 2,
+   "x": "Semicon India or ISM is under MeitY, was approved in 2021 and has an outlay of ₹76,000 crore.",
+   "ty": "fact",
+   "tq": "Use the ministry–year–outlay combination to avoid mission substitution.",
+   "sec": "Mission → ministry + approval + outlay"
+  },
+  {
+   "s": "The National Mission on Interdisciplinary Cyber-Physical Systems (NM-ICPS) was approved in 2018 under DST with how many Technology Innovation Hubs?",
+   "o": [
+    "9",
+    "18",
+    "25",
+    "37"
+   ],
+   "a": 2,
+   "x": "NM-ICPS was approved in 2018 under DST and provides for 25 Technology Innovation Hubs.",
+   "ty": "numerical",
+   "tq": "Link the mission’s approval year and ministry with its distinctive hub count.",
+   "sec": "Mission → ministry + approval + outlay"
+  },
+  {
+   "s": "Which of the following is correctly matched with the National Geospatial Mission?",
+   "o": [
+    "DST through Survey of India — Budget 2025–26 — runs till 2031",
+    "MeitY — 2021 — runs till 2026",
+    "MoES — 2023 — runs till 2030",
+    "DBT — 2024 — runs till 2035"
+   ],
+   "a": 0,
+   "x": "The National Geospatial Mission is associated with DST through the Survey of India, appears in Budget 2025–26 and runs till 2031.",
+   "ty": "match",
+   "tq": "Match the implementing authority, budget year and duration as a three-part combination.",
+   "sec": "Mission → ministry + approval + outlay"
+  }
+ ]
+}

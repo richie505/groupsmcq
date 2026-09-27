@@ -1,0 +1,216 @@
+{
+ "book": 5,
+ "row": 119,
+ "chunk": 1,
+ "section": "Health financing in India - public expenditure, out-of-pocket spending and insurance",
+ "subsections": [
+  "15th Finance Commission health grants - components",
+  "Government vs private share - NHA estimates",
+  "Universal angles"
+ ],
+ "model": "gpt-5.6-luna",
+ "generated": 14,
+ "rejected": {
+  "invalid": 0,
+  "dupe": 0,
+  "dupe_of_pyq": 0
+ },
+ "accepted": [
+  {
+   "s": "The 15th Finance Commission recommended health grants of approximately what amount through local governments for the period 2021–2026?",
+   "o": [
+    "₹50,051 crore",
+    "₹60,051 crore",
+    "₹70,051 crore",
+    "₹80,051 crore"
+   ],
+   "a": 2,
+   "x": "The 15th Finance Commission recommended health grants amounting to ₹70,051 crore through local governments for 2021–2026.",
+   "ty": "numerical",
+   "tq": "Use the exact figure and period to eliminate nearby numerical distractors.",
+   "sec": "15th Finance Commission health grants - components"
+  },
+  {
+   "s": "Which of the following is NOT a component supported through the 15th Finance Commission health grants to local governments?",
+   "o": [
+    "Diagnostic infrastructure for sub-centres and PHCs",
+    "Construction of exclusively private tertiary-care hospitals",
+    "Urban health and wellness centres",
+    "Block public health units"
+   ],
+   "a": 1,
+   "x": "The grants support diagnostic infrastructure for sub-centres and PHCs, block public health units, urban health and wellness centres, and buildings for building-less SCs, PHCs and CHCs. Exclusively private tertiary-care hospitals are not listed as a component.",
+   "ty": "negative",
+   "tq": "Find the option that falls outside the stated public-health infrastructure components.",
+   "sec": "15th Finance Commission health grants - components"
+  },
+  {
+   "s": "Consider the following statements regarding the health grants recommended by the 15th Finance Commission:\n1. They are routed through local governments.\n2. They include provision for buildings for building-less SCs, PHCs and CHCs.\n3. They are intended only for urban health and wellness centres.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because the grants cover several components, including rural and block-level infrastructure as well as urban health and wellness centres.",
+   "ty": "statements",
+   "tq": "Reject the restrictive word ‘only’ by checking the complete list of components.",
+   "sec": "15th Finance Commission health grants - components"
+  },
+  {
+   "s": "Which one of the following correctly describes the trend in the government share of Total Health Expenditure (THE) in India?",
+   "o": [
+    "It remained unchanged at 43.7% during both periods.",
+    "It increased from 28.6% in 2013–14 to 43.7%.",
+    "It declined from 43.7% in 2013–14 to 28.6%.",
+    "It increased from 28.6% in 2013–14 to 39.4%."
+   ],
+   "a": 1,
+   "x": "The government share of THE rose to 43.7%, compared with 28.6% in 2013–14.",
+   "ty": "comparison",
+   "tq": "Read the direction of change before comparing the two percentages.",
+   "sec": "Government vs private share - NHA estimates"
+  },
+  {
+   "s": "With reference to India’s National Health Accounts estimates, consider the following statements:\n1. The government share of Total Health Expenditure was 43.7% in the latest estimate mentioned.\n2. The government share was 28.6% in 2013–14.\n3. Household out-of-pocket expenditure constituted 43.4% of Total Health Expenditure in the latest estimate mentioned.\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "x": "All three statements are correct: the government share was 43.7%, compared with 28.6% in 2013–14, while household out-of-pocket expenditure was 43.4% of THE in the cited estimate.",
+   "ty": "statements",
+   "tq": "Verify each percentage independently before selecting the combined code.",
+   "sec": "Government vs private share - NHA estimates"
+  },
+  {
+   "s": "The principal source of the remaining share of health expenditure, after accounting for the government share in the cited National Health Accounts estimate, is identified as:",
+   "o": [
+    "Local-body property tax alone",
+    "Corporate tax revenue",
+    "Foreign development assistance alone",
+    "Household out-of-pocket expenditure"
+   ],
+   "a": 3,
+   "x": "The remaining share is described as being mostly household out-of-pocket expenditure, which accounted for 43.4% of THE in the cited estimate.",
+   "ty": "fact",
+   "tq": "Distinguish the major financing source from unrelated public-revenue sources.",
+   "sec": "Government vs private share - NHA estimates"
+  },
+  {
+   "s": "Which of the following pairs is correctly matched in relation to health expenditure indicators?\n\n a. SHA 2011 — Base used for National Health Accounts estimates\n b. Government health expenditure — Highest during the COVID-19 period\n c. Household out-of-pocket expenditure — Fell during COVID-19 to 39.4% of THE\n d. Government share in 2013–14 — 43.7%",
+   "o": [
+    "a and b only",
+    "a, b and c only",
+    "b, c and d only",
+    "a, b, c and d"
+   ],
+   "a": 1,
+   "x": "Pairs a, b and c are correctly matched. Pair d is incorrect: the government share in 2013–14 was 28.6%, whereas 43.7% refers to the later estimate.",
+   "ty": "match",
+   "tq": "Check each pair against the associated base year, period and percentage.",
+   "sec": "Government vs private share - NHA estimates"
+  },
+  {
+   "s": "Assertion (A): Household out-of-pocket expenditure as a share of Total Health Expenditure fell during the COVID-19 period.\nReason (R): It accounted for 39.4% of Total Health Expenditure during that period.",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 1,
+   "x": "Both statements are true. The figure of 39.4% describes the level of OOPE during COVID-19, but it does not by itself explain why the share fell; therefore, R is not the correct explanation of A.",
+   "ty": "assertion_reason",
+   "tq": "Separate evidence of a level from a causal explanation of a trend.",
+   "sec": "Government vs private share - NHA estimates"
+  },
+  {
+   "s": "Arrange the following in chronological order:\nA. National Health Accounts reference base of SHA 2011\nB. Government share of 28.6% in 2013–14\nC. Period during which government health expenditure was highest during COVID-19\nD. National Health Accounts estimate reporting a government share of 43.7%",
+   "o": [
+    "A, B, C, D",
+    "B, A, C, D",
+    "A, C, B, D",
+    "B, C, A, D"
+   ],
+   "a": 0,
+   "x": "The sequence proceeds from the SHA 2011 reference base to the 2013–14 comparison year, then to the COVID-19 period, followed by the later estimate reporting a 43.7% government share.",
+   "ty": "chronology",
+   "tq": "Fix the definite year 2013–14 and the COVID-19 period before placing the later estimate.",
+   "sec": "Government vs private share - NHA estimates"
+  },
+  {
+   "s": "Which of the following correctly reflects the current discussion on universal health coverage in India?",
+   "o": [
+    "The target was withdrawn after the COVID-19 period.",
+    "The 2.5% public-health-spending target has been achieved according to recent assessments.",
+    "The target applies exclusively to private health insurance expenditure.",
+    "Recent assessments indicate that the 2.5% target remains unmet."
+   ],
+   "a": 3,
+   "x": "The NHA 2022–23 assessment and the parliamentary panel discussion on the ‘missing middle’ both indicate that the 2.5% target remains unmet.",
+   "ty": "fact",
+   "tq": "Identify the precise status of the target rather than assuming that a stated target was achieved.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "The parliamentary discussion on the ‘missing middle’ in health coverage primarily reinforces which conclusion?",
+   "o": [
+    "The 2.5% health-spending target remains unmet.",
+    "Household out-of-pocket expenditure has been eliminated.",
+    "Insurance is the sole necessary solution for universal health coverage.",
+    "Universal health coverage has already been fully achieved."
+   ],
+   "a": 0,
+   "x": "The parliamentary panel’s discussion on the ‘missing middle’, along with the NHA 2022–23 assessment, confirms that the 2.5% target remains unmet.",
+   "ty": "application",
+   "tq": "Link the policy discussion to the specific unresolved financing target.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "In August 2026, Praja Arogya Vedika sought which combination of measures from the Andhra Pradesh Health Minister?\n\n1. Enactment of a Right to Health Act\n2. Withdrawal of public-private partnerships in government medical colleges\n3. Reduction of public spending on primary care\nWhich of the statements given above are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "x": "Praja Arogya Vedika sought a Right to Health Act and withdrawal of PPPs in government medical colleges. It did not seek reduction of public spending on primary care.",
+   "ty": "statements",
+   "tq": "Separate the two stated demands from the reversed policy position in statement 3.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "Which of the following is regarded as a criticism of insurance-led health financing models?",
+   "o": [
+    "They provide universal outpatient coverage in all circumstances.",
+    "They increase coverage without necessarily increasing the availability of care.",
+    "They reduce coverage while automatically increasing the quality of care.",
+    "They eliminate the need for primary healthcare expenditure."
+   ],
+   "a": 1,
+   "x": "A stated criticism is that insurance-led models may expand coverage without a corresponding increase in actual care. Greater spending on primary care and outpatient care is suggested as part of the corrective approach.",
+   "ty": "fact",
+   "tq": "Distinguish nominal financial coverage from actual access to healthcare.",
+   "sec": "Universal angles"
+  },
+  {
+   "s": "According to the debated reform approach to universal healthcare, which combination is considered necessary to address the limitations of insurance-led models?\n\n1. Greater spending on primary care\n2. Improved outpatient department coverage\n3. Exclusive dependence on insurance expansion\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "x": "Statements 1 and 2 are correct. Statement 3 is false because exclusive dependence on insurance expansion is precisely the limitation criticised in the insurance-led approach.",
+   "ty": "statements",
+   "tq": "Reject the extreme word ‘exclusive’ and identify the complementary primary-care measures.",
+   "sec": "Universal angles"
+  }
+ ]
+}
