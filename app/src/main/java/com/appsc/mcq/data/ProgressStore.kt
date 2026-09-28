@@ -26,6 +26,9 @@ class ProgressStore(context: Context) {
     private val answers = HashMap<String, Boolean>()
     private val seen = HashSet<String>()
     private val daily = HashMap<String, Int>()
+    /** Bookmarked question ids, newest first. */
+    private val saved = LinkedHashSet<String>()
+    private val savedFile = File(context.filesDir, "saved.txt")
 
     /** Bumped on every change; read by all getters so Compose tracks them. */
     private var rev by mutableIntStateOf(0)
@@ -43,7 +46,8 @@ class ProgressStore(context: Context) {
 
     /** Reads the answer log. Call once, off the main thread, before the UI uses the store. */
     fun load() {
-        if (!log.exists()) return
+        runCatching { if (savedFile.exists()) savedFile.readLines().filter { it.isNotBlank() }.forEach { saved += it } }
+        if (!log.exists()) { rev++; return }
         runCatching {
             log.forEachLine { line ->
                 val p = line.split('\t')
@@ -63,6 +67,24 @@ class ProgressStore(context: Context) {
         rev++
         val line = "${q.id}\t$mark\t${q.book}\t$today\n"
         io.execute { runCatching { FileWriter(log, true).use { it.write(line) } } }
+    }
+
+    fun isSaved(id: String): Boolean {
+        rev
+        return id in saved
+    }
+
+    /** Bookmarked ids, most recently saved first. */
+    fun savedIds(): List<String> {
+        rev
+        return saved.toList().asReversed()
+    }
+
+    fun toggleSaved(id: String) {
+        if (!saved.remove(id)) saved += id
+        rev++
+        val snapshot = saved.joinToString("\n")
+        io.execute { runCatching { savedFile.writeText(snapshot) } }
     }
 
     fun result(id: String): Boolean? {

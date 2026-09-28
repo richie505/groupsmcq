@@ -17,7 +17,8 @@ MCQ-only practice app for APPSC Group-I + Group-II. It follows the same 90-day p
   Revision/Sunday days add a *Retry mistakes* card; mock days (Phase 3) give a timed mock paper.
 - **Plan** — all 90 days with each day's target progress.
 - **Subjects** — the 6 books → topics → sections, each with its PYQs and its notes MCQs.
-- **Mistakes** — every wrong answer until you get it right, all subjects or per subject.
+- **Review** — *Saved for revision*: every question you starred (☆ on any question), listed with its answer and
+  explanation to read over (no quiz); and *Mistakes*: every wrong answer until you get it right.
 - **Progress** — accuracy by subject and source, 14-day activity, mock history, and settings
   (daily PYQ target, notes MCQ target, mock size).
 - **Mock test** — N questions (default 150) over all six subjects from the sections studied so far,

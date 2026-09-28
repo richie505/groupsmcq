@@ -4,6 +4,7 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onLast
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.test.core.app.ApplicationProvider
@@ -22,6 +23,7 @@ import com.appsc.mcq.ui.screens.PlanScreen
 import com.appsc.mcq.ui.screens.ProgressScreen
 import com.appsc.mcq.ui.screens.QuizScreen
 import com.appsc.mcq.ui.screens.RowScreen
+import com.appsc.mcq.ui.screens.SavedScreen
 import com.appsc.mcq.ui.screens.SubjectsScreen
 import com.appsc.mcq.ui.screens.TodayScreen
 import com.appsc.mcq.ui.theme.McqTheme
@@ -48,6 +50,7 @@ class ScreensTest {
         override fun day(n: Int) { calls += "day/$n" }
         override fun book(id: Int) { calls += "book/$id" }
         override fun row(book: Int, row: Int) { calls += "row/$book/$row" }
+        override fun saved() { calls += "saved" }
         override fun back() { calls += "back" }
     }
 
@@ -146,7 +149,27 @@ class ScreensTest {
 
     @Test fun mistakesAndProgress() {
         show { MistakesScreen(nav) }
+        waitFor("Saved for revision")
         waitFor("All subjects")
+    }
+
+    @Test fun bookmarkAndSavedList() {
+        val src = QuizSource("tc", 0, 1)
+        val first = runBlocking { app.repo.questions(com.appsc.mcq.data.Sets.pool(app.repo, app.store, src).take(1)).first() }
+        show { QuizScreen(src, "all", nav) }
+        waitFor("Question 1 of")
+        rule.onNodeWithContentDescription("Save for revision").performClick()
+        rule.waitUntil(5_000) { app.store.isSaved(first.id) }
+        assert(app.store.savedIds().first() == first.id)
+    }
+
+    @Test fun savedScreenShowsAnswers() {
+        val ids = app.repo.index.row(Origin.NOTES, 2, ScreensTestHelper.firstRow(app, 2)).take(2)
+        ids.forEach { if (!app.store.isSaved(it)) app.store.toggleSaved(it) }
+        val q = runBlocking { app.repo.questions(ids).first() }
+        show { SavedScreen(nav) }
+        waitFor("Show explanation")
+        waitFor(q.options[q.answer])
     }
 
     @Test fun progress() {

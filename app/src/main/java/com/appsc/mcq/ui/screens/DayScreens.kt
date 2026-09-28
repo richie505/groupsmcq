@@ -70,6 +70,7 @@ interface Nav {
     fun day(n: Int)
     fun book(id: Int)
     fun row(book: Int, row: Int)
+    fun saved()
     fun back()
 }
 
@@ -259,7 +260,7 @@ private fun TargetCard(day: PlanDay, target: DayTarget, origin: Origin, nav: Nav
     )
 }
 
-/** The day's current-affairs block: questions of the Book 6 section it names (notes MCQs first, then PYQs). */
+/** The day's current-affairs block: MCQs from the Current Affairs notes section it names (G-1 … G-18). */
 @Composable
 private fun CurrentAffairsCard(day: PlanDay, target: DayTarget, nav: Nav) {
     val app = LocalApp.current
@@ -270,7 +271,7 @@ private fun CurrentAffairsCard(day: PlanDay, target: DayTarget, nav: Nav) {
     val extra = (pools?.ca?.size ?: 0) - total
     val round = pools?.caRound ?: 0
     PracticeCard(
-        title = "Current affairs",
+        title = "Current affairs notes MCQs",
         subtitle = (pools?.caTitle ?: "") + when {
             done >= total -> " · target done!" + if (extra > 0) " $extra more in this section" else ""
             round == 0 -> " · first read · target $total"

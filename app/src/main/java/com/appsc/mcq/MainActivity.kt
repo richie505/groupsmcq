@@ -14,7 +14,7 @@ import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.BarChart
 import androidx.compose.material.icons.outlined.CalendarMonth
-import androidx.compose.material.icons.outlined.ErrorOutline
+import androidx.compose.material.icons.outlined.StarOutline
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.automirrored.outlined.LibraryBooks
 import androidx.compose.material3.HorizontalDivider
@@ -61,6 +61,7 @@ import com.appsc.mcq.ui.screens.PlanScreen
 import com.appsc.mcq.ui.screens.ProgressScreen
 import com.appsc.mcq.ui.screens.QuizScreen
 import com.appsc.mcq.ui.screens.RowScreen
+import com.appsc.mcq.ui.screens.SavedScreen
 import com.appsc.mcq.ui.screens.SubjectsScreen
 import com.appsc.mcq.ui.screens.TodayScreen
 import com.appsc.mcq.ui.theme.C
@@ -98,7 +99,7 @@ private val tabs = listOf(
     Tab("today", "Today", Icons.Outlined.Home),
     Tab("plan", "Plan", Icons.Outlined.CalendarMonth),
     Tab("subjects", "Subjects", Icons.AutoMirrored.Outlined.LibraryBooks),
-    Tab("mistakes", "Mistakes", Icons.Outlined.ErrorOutline),
+    Tab("mistakes", "Review", Icons.Outlined.StarOutline),
     Tab("progress", "Progress", Icons.Outlined.BarChart),
 )
 
@@ -108,6 +109,7 @@ private class NavImpl(private val nav: NavHostController) : Nav {
     override fun day(n: Int) = nav.navigate("day/$n")
     override fun book(id: Int) = nav.navigate("book/$id")
     override fun row(book: Int, row: Int) = nav.navigate("row/$book/$row")
+    override fun saved() = nav.navigate("saved")
     override fun back() {
         nav.popBackStack()
     }
@@ -129,6 +131,7 @@ private fun AppRoot() {
                 composable("subjects") { SubjectsScreen(actions) }
                 composable("mistakes") { MistakesScreen(actions) }
                 composable("progress") { ProgressScreen() }
+                composable("saved") { SavedScreen(actions) }
                 composable(
                     "quiz/{k}/{b}/{i}/{m}",
                     listOf(

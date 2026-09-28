@@ -19,6 +19,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ErrorOutline
+import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.filled.Remove
 import androidx.compose.material.icons.outlined.CheckCircle
 import androidx.compose.material.icons.outlined.LocalFireDepartment
@@ -56,8 +57,24 @@ fun MistakesScreen(nav: Nav) {
     val wrong = store.wrongIds()
     val byBook = remember(wrong) { wrong.groupingBy { app.repo.index.locate(it)?.second ?: 0 }.eachCount() }
     Column(Modifier.fillMaxSize()) {
-        TopBar("Mistakes")
+        TopBar("Review")
         LazyColumn(Modifier.fillMaxSize()) {
+            item {
+                val n = store.savedIds().size
+                PracticeCard(
+                    title = "Saved for revision",
+                    subtitle = if (n == 0) "Tap ☆ on any question to keep it here" else "$n questions, with answers and explanations",
+                    icon = Icons.Filled.Star,
+                    iconBg = C.MedSoft,
+                    iconFg = C.Med,
+                    done = 0,
+                    correct = 0,
+                    total = 0,
+                    onStart = { nav.saved() },
+                    startLabel = if (n == 0) null else "Open saved list",
+                )
+            }
+            item { SectionHeader("Mistakes") }
             item {
                 Text(
                     "Every question you got wrong, PYQs and notes MCQs, until you answer it right. Each retry shows the technique that would have reached the key.",

@@ -176,7 +176,7 @@ def main():
 
     # Each plan day's pools, in study order: PYQs APPSC first then newest year; notes MCQs in notes order.
     # Current affairs: the day's "Current affairs" block names one Book 6 section ("Book 6 pp 2-6, G-1 ...");
-    # its pool is that section's notes MCQs then its PYQs, and "round" counts how often the plan has
+    # its pool is that section's notes MCQs (MCQs from the Current Affairs notes only), and "round" counts how often the plan has
     # returned to it, so each revision round's target is the next slice of the pool, not a repeat.
     def order_pyq(ids):
         return sorted(ids, key=lambda i: (0 if meta[i][0] else 1, -meta[i][1]))
@@ -197,7 +197,7 @@ def main():
         if m and m.group(1) in ca_code_row:
             row = ca_code_row[m.group(1)]
             ids = index["rows"].get(f"6:{row}", [[], []])
-            day["c"] = ids[1] + order_pyq([i for i in ids[0] if i not in set(ids[1])])
+            day["c"] = ids[1]
             day["cr"] = ca_rounds.get(row, 0)
             day["ct"] = f"{m.group(1)} {m.group(2).strip()}"
             day["crow"] = row

@@ -27,6 +27,9 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Cancel
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.material.icons.outlined.StarBorder
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
@@ -240,13 +243,35 @@ private val TYPE_LABEL = mapOf(
 
 private val SUBJECT = mapOf(1 to "History", 2 to "Polity", 3 to "Economy", 4 to "Geography", 5 to "Sci-Tech & Env", 6 to "Current Affairs")
 
-@OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
 @Composable
 internal fun QuestionHeader(q: Question) {
+    Row(verticalAlignment = Alignment.Top) {
+        QuestionTags(q, Modifier.weight(1f))
+        BookmarkButton(q.id)
+    }
+}
+
+/** ☆ / ★ : save a question to the revision list. */
+@Composable
+internal fun BookmarkButton(id: String) {
+    val store = LocalApp.current.store
+    val on = store.isSaved(id)
+    IconButton(onClick = { store.toggleSaved(id) }, modifier = Modifier.size(40.dp)) {
+        Icon(
+            if (on) Icons.Filled.Star else Icons.Outlined.StarBorder,
+            if (on) "Remove from saved" else "Save for revision",
+            tint = if (on) C.Med else C.Faint,
+        )
+    }
+}
+
+@OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
+@Composable
+internal fun QuestionTags(q: Question, modifier: Modifier = Modifier) {
     FlowRow(
         horizontalArrangement = Arrangement.spacedBy(6.dp),
         verticalArrangement = Arrangement.spacedBy(6.dp),
-        modifier = Modifier.padding(vertical = 6.dp),
+        modifier = modifier.padding(vertical = 6.dp),
     ) {
         if (q.origin == Origin.PYQ) {
             Tag("PYQ", C.ExamBg, C.ExamInk)
