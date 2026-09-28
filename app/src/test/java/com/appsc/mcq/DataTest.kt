@@ -38,12 +38,13 @@ class DataTest {
                 if (q.flashcard) {
                     flashcards++
                     assertTrue("flashcard ${q.id} has an answer", q.answerText.isNotBlank() && q.options.isEmpty() && q.answer == 0)
+                    assertTrue(q.id, Techniques.hints(q).isEmpty())
                 } else {
                     assertTrue(q.id, q.options.size >= 2)
+                    assertTrue(q.id, q.answer in -1 until q.options.size)
+                    Techniques.hints(q)
+                    if (q.answer >= 0) Techniques.review(q, (q.answer + 1) % q.options.size)
                 }
-                assertTrue(q.id, q.answer in -1 until q.options.size)
-                Techniques.hints(q)
-                if (q.answer >= 0) Techniques.review(q, (q.answer + 1) % q.options.size)
             }
             total += qs.size
         }
