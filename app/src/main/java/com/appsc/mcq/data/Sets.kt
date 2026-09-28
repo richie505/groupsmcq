@@ -29,6 +29,17 @@ object Sets {
         }
     }
 
+    /** Sections a source's questions should be loaded from first (see [Repository.questions]). */
+    fun preferredRows(repo: Repository, src: QuizSource): List<Triple<Origin, Int, Int>> = when (src.kind) {
+        "tc", "xc" -> repo.index.dayPools(src.index)?.caRow?.takeIf { it >= 0 }
+            ?.let { listOf(Triple(Origin.NOTES, 6, it), Triple(Origin.PYQ, 6, it)) } ?: emptyList()
+        "tp", "xp" -> repo.day(src.index).rows.map { Triple(Origin.PYQ, it.book, it.row) }
+        "tn", "xn" -> repo.day(src.index).rows.map { Triple(Origin.NOTES, it.book, it.row) }
+        "rp" -> listOf(Triple(Origin.PYQ, src.book, src.index))
+        "rn" -> listOf(Triple(Origin.NOTES, src.book, src.index))
+        else -> emptyList()
+    }
+
     /**
      * mode: "new" = every question not attempted yet (the whole set in one run), "wrong" = answered wrong,
      * "all" = every question. The caller freezes the result for the round.

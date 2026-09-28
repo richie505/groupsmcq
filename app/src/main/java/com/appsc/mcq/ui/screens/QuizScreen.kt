@@ -87,7 +87,7 @@ fun QuizScreen(src: QuizSource, mode: String, nav: Nav) {
     var round by rememberSaveable { mutableIntStateOf(0) }
     // The round's ids are frozen and saved, so rotation or the app being killed never reshuffles the run.
     val setIds = rememberSaveable(round, currentMode) { ArrayList(Sets.pick(pool, store, currentMode)) }
-    val questions by produceState<List<Question>?>(null, setIds) { value = app.repo.questions(setIds) }
+    val questions by produceState<List<Question>?>(null, setIds) { value = app.repo.questions(setIds, Sets.preferredRows(app.repo, src)) }
 
     Column(Modifier.fillMaxSize()) {
         TopBar(quizTitle(src), onBack = nav::back)

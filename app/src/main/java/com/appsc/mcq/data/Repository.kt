@@ -118,10 +118,15 @@ class Repository(private val context: Context) {
         return qs
     }
 
-    /** The questions for [ids], in the same order; ids that cannot be found are skipped. */
-    suspend fun questions(ids: List<String>): List<Question> {
+    /**
+     * The questions for [ids], in the same order; ids that cannot be found are skipped.
+     * A question filed under several sections is taken from [prefer] first, so it carries the subject
+     * of the section being practised (the technique hints depend on it).
+     */
+    suspend fun questions(ids: List<String>, prefer: List<Triple<Origin, Int, Int>> = emptyList()): List<Question> {
         val byId = HashMap<String, Question>(ids.size * 2)
-        val sections = ids.mapNotNull { index.locate(it) }.distinct()
+        for ((o, b, r) in prefer) row(o, b, r).forEach { byId.putIfAbsent(it.id, it) }
+        val sections = ids.filter { it !in byId }.mapNotNull { index.locate(it) }.distinct()
         for ((o, b, r) in sections) row(o, b, r).forEach { byId.putIfAbsent(it.id, it) }
         return ids.mapNotNull { byId[it] }
     }

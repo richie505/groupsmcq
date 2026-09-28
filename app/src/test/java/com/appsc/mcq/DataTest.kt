@@ -52,8 +52,9 @@ class DataTest {
         for (d in caDays) {
             val t = repo.index.caTarget(d.n, 40)
             assertTrue("day ${d.n}", t.isNotEmpty() && t.size <= 40 && t.toSet().size == t.size)
-            assertEquals(t.size, repo.questions(t).size)
-            assertTrue("day ${d.n} CA is Book 6", repo.questions(t).all { it.book == 6 })
+            val qs = repo.questions(t, Sets.preferredRows(repo, QuizSource("tc", 0, d.n)))
+            assertEquals(t.size, qs.size)
+            assertTrue("day ${d.n} CA is Book 6", qs.all { it.book == 6 })
         }
         // a later revision round of the same section starts with different questions
         val first = caDays.first()
