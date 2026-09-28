@@ -3,6 +3,7 @@ name: Build APK
 on:
   push:
     branches: ["**"]
+    tags: ["v*"]
     paths-ignore: ["tools/generated/**", "**.md"]
   workflow_dispatch:
   workflow_call:
@@ -11,6 +12,9 @@ on:
         description: Branch to build
         type: string
         required: false
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -30,6 +34,15 @@ jobs:
         run: ./gradlew --no-daemon testDebugUnitTest
       - name: Build release APK
         run: ./gradlew --no-daemon assembleRelease
+      - name: Name the APK for the release (tags only)
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: cp app/build/outputs/apk/release/app-release.apk "APPSC-MCQ-90-${GITHUB_REF_NAME}.apk"
+      - name: Publish to the GitHub release (tags only)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          name: APPSC MCQ 90 ${{ github.ref_name }}
+          files: APPSC-MCQ-90-*.apk
       - uses: actions/upload-artifact@v4
         if: failure()
         with:

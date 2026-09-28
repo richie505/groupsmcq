@@ -3,8 +3,12 @@ name: Build Windows app
 on:
   push:
     branches: ["**"]
+    tags: ["v*"]
     paths-ignore: ["tools/generated/**", "**.md"]
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   windows:
@@ -32,6 +36,14 @@ jobs:
             desktop/build/compose/binaries/main/msi/*.msi
             APPSC-MCQ-90-portable.zip
           if-no-files-found: error
+      - name: Publish to the GitHub release (tags only)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          name: APPSC MCQ 90 ${{ github.ref_name }}
+          files: |
+            desktop/build/compose/binaries/main/exe/*.exe
+            APPSC-MCQ-90-portable.zip
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
