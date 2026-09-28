@@ -56,7 +56,7 @@ fun MockScreen(dayN: Int, nav: Nav) {
     val app = LocalApp.current
     val day = app.repo.day(dayN)
     val ids = rememberSaveable(dayN) { ArrayList(Sets.mock(app.repo, app.store, day, app.store.mockSize)) }
-    val set by produceState<List<Question>?>(null, ids) { value = app.repo.questions(ids).filter { it.scored } }
+    val set by produceState<List<Question>?>(null, ids) { value = app.repo.questions(ids).filter { it.scored && !it.flashcard } }
     var submitted by rememberSaveable { mutableStateOf(false) }
     var askLeave by remember { mutableStateOf(false) }
     val leave: () -> Unit = {

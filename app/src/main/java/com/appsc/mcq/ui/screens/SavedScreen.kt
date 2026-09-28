@@ -104,6 +104,13 @@ private fun SavedItem(q: Question) {
         QuestionHeader(q)
         Text(q.stem, style = TextStyle(fontSize = 15.sp, lineHeight = 22.sp, fontWeight = FontWeight.Medium, color = if (kept) C.Ink else C.Faint))
         Spacer(Modifier.height(6.dp))
+        if (q.flashcard) {
+            Text(
+                "Answer: ${q.answerText}",
+                style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Green, fontWeight = FontWeight.SemiBold),
+                modifier = Modifier.padding(top = 2.dp, end = 12.dp),
+            )
+        }
         q.options.forEachIndexed { i, o ->
             val key = i == q.answer
             Text(

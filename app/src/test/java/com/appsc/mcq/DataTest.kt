@@ -28,12 +28,19 @@ class DataTest {
         assertEquals(90, repo.plan.days.size)
         assertEquals(6, repo.catalog.size)
         var total = 0
+        var flashcards = 0
         for (b in 1..6) for (o in Origin.entries) {
             val ids = repo.index.book(o, b)
             val qs = repo.questions(ids)
             assertEquals("book $b $o: every indexed id loads", ids.size, qs.size)
             for (q in qs) {
-                assertTrue(q.id, q.options.size >= 2 && q.stem.isNotBlank())
+                assertTrue(q.id, q.stem.isNotBlank())
+                if (q.flashcard) {
+                    flashcards++
+                    assertTrue("flashcard ${q.id} has an answer", q.answerText.isNotBlank() && q.options.isEmpty() && q.answer == 0)
+                } else {
+                    assertTrue(q.id, q.options.size >= 2)
+                }
                 assertTrue(q.id, q.answer in -1 until q.options.size)
                 Techniques.hints(q)
                 if (q.answer >= 0) Techniques.review(q, (q.answer + 1) % q.options.size)
@@ -41,6 +48,7 @@ class DataTest {
             total += qs.size
         }
         assertTrue("expected a full bank, got $total", total > 90_000)
+        assertTrue("flashcards included, got $flashcards", flashcards >= 1_800)
     }
 
     @Test

@@ -176,19 +176,29 @@ private fun QuizRound(
                     QuestionHeader(q)
                     QuestionBody(q)
                     Spacer(Modifier.height(14.dp))
-                    q.options.forEachIndexed { i, opt ->
-                        OptionCard(i, opt, picked, if (q.scored) q.answer else -1, reveal = true) {
+                    if (q.flashcard) {
+                        Flashcard(q, picked) { knew ->
                             if (picks[index] < 0) {
-                                picks = picks.copyOf().also { it[index] = i }
-                                store.record(q, i)
+                                val p = if (knew) 0 else 1
+                                picks = picks.copyOf().also { it[index] = p }
+                                store.record(q, p)
                             }
                         }
-                    }
-                    if (answered) {
-                        Spacer(Modifier.height(8.dp))
-                        if (q.scored) Explanation(q, picked) else UnscoredNote(q)
                     } else {
-                        HintBox(q)
+                        q.options.forEachIndexed { i, opt ->
+                            OptionCard(i, opt, picked, if (q.scored) q.answer else -1, reveal = true) {
+                                if (picks[index] < 0) {
+                                    picks = picks.copyOf().also { it[index] = i }
+                                    store.record(q, i)
+                                }
+                            }
+                        }
+                        if (answered) {
+                            Spacer(Modifier.height(8.dp))
+                            if (q.scored) Explanation(q, picked) else UnscoredNote(q)
+                        } else {
+                            HintBox(q)
+                        }
                     }
                     Spacer(Modifier.height(20.dp))
                 }
@@ -277,7 +287,8 @@ internal fun QuestionTags(q: Question, modifier: Modifier = Modifier) {
             Tag("PYQ", C.ExamBg, C.ExamInk)
             if (q.appsc) Tag("APPSC", C.ExamBg, C.ExamInk)
             if (q.source.isNotBlank()) Tag(q.source)
-            if (q.cancelled) Tag("Cancelled", C.HighSoft, C.High) else if (!q.scored) Tag("No key", C.MedSoft, C.Med)
+            if (q.flashcard) Tag("Flashcard", C.AccentSoft, C.Accent)
+            else if (q.cancelled) Tag("Cancelled", C.HighSoft, C.High) else if (!q.scored) Tag("No key", C.MedSoft, C.Med)
         } else {
             Tag("Notes MCQ", C.AccentSoft, C.Accent)
             TYPE_LABEL[q.type]?.let { Tag(it) }
@@ -324,6 +335,60 @@ internal fun OptionCard(i: Int, text: String, picked: Int, answer: Int, reveal: 
         Text(text, style = TextStyle(fontSize = 15.sp, lineHeight = 21.sp, color = ink), modifier = Modifier.weight(1f))
         if (answered && isAnswer) Icon(Icons.Filled.CheckCircle, null, tint = C.Green, modifier = Modifier.size(22.dp))
         if (answered && isPicked && !isAnswer && answer >= 0) Icon(Icons.Filled.Cancel, null, tint = C.High, modifier = Modifier.size(22.dp))
+    }
+}
+
+/**
+ * A PYQ printed with its answer only (no options): recall it, reveal, then grade yourself.
+ * "Didn't know" counts as a wrong answer, so it comes back in Mistakes and "Retry wrong answers".
+ */
+@Composable
+internal fun Flashcard(q: Question, picked: Int, onGrade: (Boolean) -> Unit) {
+    var revealed by rememberSaveable(q.id) { mutableStateOf(picked >= 0) }
+    if (!revealed && picked < 0) {
+        OutlinedButton(
+            onClick = { revealed = true },
+            modifier = Modifier.fillMaxWidth().height(52.dp),
+            shape = RoundedCornerShape(12.dp),
+        ) { Text("Show answer", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.Accent)) }
+        Text(
+            "This paper printed only the answer, so there are no options. Recall it, then check.",
+            style = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, color = C.Muted),
+            modifier = Modifier.padding(top = 8.dp),
+        )
+        return
+    }
+    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(C.AccentSoft).padding(16.dp)) {
+        Label("ANSWER", C.Accent)
+        Text(
+            q.answerText.ifBlank { "—" },
+            style = TextStyle(fontSize = 18.sp, lineHeight = 25.sp, fontWeight = FontWeight.SemiBold, color = C.Navy),
+            modifier = Modifier.padding(top = 4.dp),
+        )
+        if (q.explanation.isNotBlank()) {
+            Text(q.explanation, style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 8.dp))
+        }
+    }
+    Spacer(Modifier.height(12.dp))
+    if (picked < 0) {
+        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            OutlinedButton(
+                onClick = { onGrade(false) },
+                modifier = Modifier.weight(1f).height(50.dp),
+                shape = RoundedCornerShape(12.dp),
+            ) { Text("Didn't know", color = C.High) }
+            Button(
+                onClick = { onGrade(true) },
+                modifier = Modifier.weight(1f).height(50.dp),
+                shape = RoundedCornerShape(12.dp),
+                colors = ButtonDefaults.buttonColors(containerColor = C.Green),
+            ) { Text("I knew it") }
+        }
+    } else {
+        Text(
+            if (picked == 0) "Marked as known" else "Marked as not known — it will come back in Mistakes",
+            style = TextStyle(fontSize = 14.sp, color = if (picked == 0) C.Green else C.High, fontWeight = FontWeight.Medium),
+        )
     }
 }
 
@@ -554,7 +619,11 @@ internal fun androidx.compose.foundation.lazy.LazyListScope.reviewList(set: List
                 Column {
                     Text(q.stem, style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Ink), maxLines = 3)
                     Text(
-                        if (!q.scored) (if (q.cancelled) "Cancelled by APPSC" else "No official key") else "Answer: ${q.options.getOrElse(q.answer) { "" }}",
+                        when {
+                            q.flashcard -> "Answer: ${q.answerText}"
+                            !q.scored -> if (q.cancelled) "Cancelled by APPSC" else "No official key"
+                            else -> "Answer: ${q.options.getOrElse(q.answer) { "" }}"
+                        },
                         style = TextStyle(fontSize = 13.sp, color = C.Green),
                         modifier = Modifier.padding(top = 2.dp),
                     )

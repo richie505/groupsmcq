@@ -164,7 +164,7 @@ class Repository(private val context: Context) {
         while (r.hasNext()) {
             var id = ""; var s = ""; var o: List<String> = emptyList(); var a = -1; var src = ""; var ap = false
             var x = ""; var n: List<String> = emptyList(); var k = 's'; var cx = false; var t: List<List<String>> = emptyList()
-            var ty = ""; var tq = ""; var sec = ""
+            var ty = ""; var tq = ""; var sec = ""; var at = ""
             r.beginObject()
             while (r.hasNext()) {
                 when (r.nextName()) {
@@ -188,15 +188,19 @@ class Repository(private val context: Context) {
                     "ty" -> ty = r.nextString()
                     "tq" -> tq = r.nextString()
                     "sec" -> sec = r.nextString()
+                    "at" -> at = r.stringOrNull() ?: ""
                     else -> r.skipValue()
                 }
             }
             r.endObject()
-            if (id.isNotEmpty() && o.size >= 2) {
+            val flash = k == 'f' && at.isNotBlank()
+            if (id.isNotEmpty() && (o.size >= 2 || flash)) {
                 out += Question(
-                    id = id, stem = s, table = t, options = o, answer = if (a in o.indices) a else -1, source = src, appsc = ap,
-                    explanation = x, notes = n, kind = k, cancelled = cx, book = book, origin = origin, row = row,
-                    type = ty, technique = tq, section = sec,
+                    id = id, stem = s, table = t, options = if (flash) emptyList() else o,
+                    // flashcards are self-graded: 0 = "I knew it", 1 = "Didn't know"
+                    answer = if (flash) 0 else if (a in o.indices) a else -1,
+                    source = src, appsc = ap, explanation = x, notes = n, kind = k, cancelled = cx, book = book, origin = origin, row = row,
+                    type = ty, technique = tq, section = sec, answerText = at.removePrefix("ANS.").trim(),
                 )
             }
         }

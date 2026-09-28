@@ -5,7 +5,7 @@ MCQ-only practice app for APPSC Group-I + Group-II. It follows the same 90-day p
 
 | Source | What it is | Where it comes from |
 |---|---|---|
-| **PYQs** | 29,061 unique previous-year MCQs (APPSC, UPSC, other states), filed under the notes sections | the notes app's PYQ bank (`source/pyq/`) |
+| **PYQs** | 30,876 unique previous-year questions (incl. 1,815 answer-only flashcards) (APPSC, UPSC, other states), filed under the notes sections | the notes app's PYQ bank (`source/pyq/`) |
 | **Notes MCQs** | APPSC-style MCQs written from the Combined Notes (6 books) | generated with your OpenAI key by `tools/generate_notes_mcqs.py` |
 
 ## In the app

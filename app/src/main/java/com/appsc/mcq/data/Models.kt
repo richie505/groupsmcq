@@ -23,7 +23,7 @@ data class Question(
     val appsc: Boolean,
     val explanation: String,
     val notes: List<String>,
-    /** 's' scored, 'u' unscored (no official key / cancelled). */
+    /** 's' scored, 'u' unscored (no official key / cancelled), 'f' flashcard (answer only: self-graded, answer 0 = "knew it"). */
     val kind: Char = 's',
     val cancelled: Boolean = false,
     /** Subject (book) the question is filed under: 1 History … 6 Current Affairs. Drives the technique hints. */
@@ -35,7 +35,10 @@ data class Question(
     val type: String = "",
     val technique: String = "",
     val section: String = "",
+    /** Flashcards: the printed answer. */
+    val answerText: String = "",
 ) {
+    val flashcard get() = kind == 'f'
     val scored get() = kind != 'u' && answer >= 0
     val year: Int get() = Regex("""(19|20)\d\d""").findAll(source).lastOrNull()?.value?.toInt() ?: 0
 }

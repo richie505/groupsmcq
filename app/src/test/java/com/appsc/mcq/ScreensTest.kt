@@ -138,6 +138,26 @@ class ScreensTest {
         waitFor("Question 1 of")
     }
 
+    @Test fun flashcardRevealAndGrade() {
+        // find a section whose first PYQ is a flashcard and run it
+        val (b, r, q) = runBlocking {
+            var hit: Triple<Int, Int, com.appsc.mcq.data.Question>? = null
+            loop@ for (b in 1..6) for (r in app.repo.catalog[b - 1].rows.indices) {
+                val first = app.repo.row(Origin.PYQ, b, r).firstOrNull() ?: continue
+                if (first.flashcard) { hit = Triple(b, r, first); break@loop }
+            }
+            hit!!
+        }
+        show { QuizScreen(QuizSource("rp", b, r), "all", nav) }
+        waitFor("Question 1 of")
+        waitFor("Flashcard")
+        rule.onNodeWithText("Show answer").performClick()
+        waitFor(q.answerText)
+        rule.onNodeWithText("Didn't know").performClick()
+        waitFor("Marked as not known")
+        rule.waitUntil(5_000) { app.store.result(q.id) == false }
+    }
+
     @Test fun pyqQuizLoads() {
         show { QuizScreen(QuizSource("tp", 0, 5), "all", nav) }
         waitFor("Question 1 of")

@@ -48,10 +48,15 @@ def build_pyqs(book, seen_ids, stats):
         for key, qs in src[sect].items():
             lst, local = [], set()
             for q in qs:
-                if q.get("k") == "f" or len(q.get("o", [])) < 2:
-                    stats["flashcards_dropped"] += 1
+                flash = q.get("k") == "f"
+                if flash and not str(q.get("at", "")).strip():
+                    stats["flashcards_without_answer"] += 1
                     continue
-                i = qid("p", q["s"], q["o"])
+                if not flash and len(q.get("o", [])) < 2:
+                    stats["no_options_dropped"] += 1
+                    continue
+                # flashcards (answer only, no options) are keyed on question + answer text
+                i = qid("p", q["s"], ["ANS " + str(q["at"])] if flash else q["o"])
                 if i in local:  # the same question twice in one row
                     stats["pyq_dupes_in_row"] += 1
                     continue
@@ -61,8 +66,11 @@ def build_pyqs(book, seen_ids, stats):
                 else:
                     seen_ids.add(i)
                     stats["pyq_unique"] += 1
-                q2 = {k: v for k, v in q.items() if k in ("s", "o", "a", "src", "ap", "k", "t", "x", "n", "cx")}
+                q2 = {k: v for k, v in q.items() if k in ("s", "o", "a", "src", "ap", "k", "t", "x", "n", "cx", "at")}
                 q2["id"] = i
+                if flash:
+                    stats["flashcards"] += 1
+                    q2["o"], q2["a"] = [], -1
                 lst.append(q2)
             if lst:
                 out[sect][key] = lst
@@ -122,7 +130,8 @@ def pyq_token_index(pyq):
         for qs in pyq[sect].values():
             for q in qs:
                 table = " ".join(" ".join(r) for r in q.get("t", []))
-                idx.add(content_tokens(q["s"] + " " + table + " " + (q["o"][q["a"]] if 0 <= q.get("a", -1) < len(q["o"]) else "")))
+                ans = q["o"][q["a"]] if 0 <= q.get("a", -1) < len(q["o"]) else str(q.get("at", ""))
+                idx.add(content_tokens(q["s"] + " " + table + " " + ans))
     return idx
 
 
@@ -149,7 +158,7 @@ def main():
     write_json(OUT / "catalog.json", catalog)
     (OUT / "plan.json").write_text((SRC / "plan.json").read_text())
 
-    stats = {k: 0 for k in ("pyq_unique", "pyq_cross_filed", "pyq_dupes_in_row", "flashcards_dropped",
+    stats = {k: 0 for k in ("pyq_unique", "pyq_cross_filed", "pyq_dupes_in_row", "flashcards", "flashcards_without_answer", "no_options_dropped",
                             "notes_mcqs", "notes_exact_dupes", "notes_near_dupes", "notes_dupe_of_pyq")}
     per_book = {}
     seen_ids = set()
@@ -216,7 +225,9 @@ def check(index):
     ids_in_files = set()
     for f in (OUT / "q").rglob("*.json"):
         for q in json.loads(f.read_text()):
-            assert q.get("id") and q.get("s") and len(q.get("o", [])) >= 2, f"bad question in {f}"
+            flash = q.get("k") == "f"
+            assert q.get("id") and q.get("s"), f"bad question in {f}"
+            assert (flash and str(q.get("at", "")).strip()) or len(q.get("o", [])) >= 2, f"no options/answer in {f}: {q['id']}"
             assert -1 <= q.get("a", -1) < len(q["o"]), f"answer out of range in {f}: {q['id']}"
             ids_in_files.add(q["id"])
     listed = {i for v in index["rows"].values() for part in v for i in part} | {i for v in index["units"].values() for i in v}
