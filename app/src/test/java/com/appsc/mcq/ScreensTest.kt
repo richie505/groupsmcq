@@ -81,9 +81,13 @@ class ScreensTest {
         waitFor("PYQ practice")
         rule.onNodeWithText("PYQ practice").performClick()
         assert(calls.last().startsWith("quiz/tp/0/1")) { calls.toString() }
-        waitFor("Current affairs")
-        rule.onNodeWithText("Current affairs").performClick()
+        waitFor("Current affairs notes MCQs")
+        rule.onNodeWithText("Current affairs notes MCQs").performClick()
         assert(calls.last().startsWith("quiz/tc/0/1")) { calls.toString() }
+        // today's CA section is listed with the day's sections
+        waitFor("Current affairs · G-1")
+        rule.onNodeWithText("Current affairs · G-1", substring = true).performClick()
+        assert(calls.last() == "row/6/0") { calls.toString() }
     }
 
     @Test fun currentAffairsQuiz() {

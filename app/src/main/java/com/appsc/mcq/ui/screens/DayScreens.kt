@@ -215,10 +215,11 @@ fun LazyListScope.dayBody(day: PlanDay, target: DayTarget, nav: Nav) {
     item { TargetCard(day, target, Origin.NOTES, nav) }
     if (target.ca.isNotEmpty()) item { CurrentAffairsCard(day, target, nav) }
     if (day.type == "revision" || day.type == "sunday") item { MistakesCard(nav) }
-    item { SectionHeader("Today's sections (${day.rows.size})") }
+    item { SectionHeader("Today's sections (${day.rows.size + if (target.ca.isNotEmpty()) 1 else 0})") }
     items(day.rows, key = { "${it.book}-${it.row}" }) { r ->
         RowItem(r.book, r.row, r.topic, r.priority, nav)
     }
+    if (target.ca.isNotEmpty()) item(key = "ca") { CaSectionItem(day, nav) }
 }
 
 @Composable
@@ -333,6 +334,14 @@ private fun MistakesCard(nav: Nav) {
         onStart = if (n == 0) null else { { nav.quiz("w", 0, 0, "wrong") } },
         startLabel = if (n == 0) null else "Retry $n",
     )
+}
+
+/** Today's current-affairs section (from the plan's CA block), listed with the day's sections. */
+@Composable
+private fun CaSectionItem(day: PlanDay, nav: Nav) {
+    val pools = LocalApp.current.repo.index.dayPools(day.n) ?: return
+    if (pools.caRow < 0) return
+    RowItem(6, pools.caRow, "Current affairs · ${pools.caTitle}", "", nav)
 }
 
 /** One section (syllabus row) with its PYQ and notes MCQ progress. */
