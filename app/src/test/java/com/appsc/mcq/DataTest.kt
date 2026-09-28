@@ -5,6 +5,8 @@ import com.appsc.mcq.data.Origin
 import com.appsc.mcq.data.ProgressStore
 import com.appsc.mcq.data.QuizSource
 import com.appsc.mcq.data.Repository
+import com.appsc.mcq.platform.androidRepository
+import com.appsc.mcq.platform.androidStore
 import com.appsc.mcq.data.Sets
 import com.appsc.mcq.data.Techniques
 import kotlinx.coroutines.runBlocking
@@ -23,7 +25,7 @@ class DataTest {
 
     @Test
     fun everyQuestionLoadsAndAnalyses() = runBlocking {
-        val repo = Repository(ctx)
+        val repo = androidRepository(ctx)
         repo.load()
         assertEquals(90, repo.plan.days.size)
         assertEquals(6, repo.catalog.size)
@@ -54,7 +56,7 @@ class DataTest {
 
     @Test
     fun currentAffairsTargetsFollowThePlan() = runBlocking {
-        val repo = Repository(ctx)
+        val repo = androidRepository(ctx)
         repo.load()
         val caDays = repo.plan.days.filter { repo.index.dayPools(it.n)?.ca?.isNotEmpty() == true }
         assertEquals("days with a current affairs block", 73, caDays.size)
@@ -73,9 +75,9 @@ class DataTest {
 
     @Test
     fun everyDayHasTargetsAndMockDaysHaveAPaper() = runBlocking {
-        val repo = Repository(ctx)
+        val repo = androidRepository(ctx)
         repo.load()
-        val store = ProgressStore(ctx).also { it.load() }
+        val store = androidStore(ctx).also { it.load() }
         for (d in repo.plan.days) {
             if (d.isMock) {
                 val ids = Sets.mock(repo, store, d, 150)

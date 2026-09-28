@@ -64,6 +64,8 @@ dependencies {
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.material:material-icons-extended")
+    // streaming JSON reader shared with the Windows app (same API as android.util.JsonReader)
+    implementation("com.google.code.gson:gson:2.11.0")
 
     // JVM tests that run the real screens and data (no device needed): ./gradlew testDebugUnitTest
     testImplementation("junit:junit:4.13.2")

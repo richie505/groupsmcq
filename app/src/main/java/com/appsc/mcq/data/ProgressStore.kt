@@ -1,6 +1,5 @@
 package com.appsc.mcq.data
 
-import android.content.Context
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
@@ -18,9 +17,8 @@ import java.util.concurrent.Executors
  * line for an id wins. Composables observe changes through [rev]: every reader function reads it, so
  * a screen recomposes after an answer without any list being rebuilt.
  */
-class ProgressStore(context: Context) {
-    private val prefs = context.getSharedPreferences("mcq", Context.MODE_PRIVATE)
-    private val log = File(context.filesDir, "answers.log")
+class ProgressStore(dir: File, private val prefs: KeyValueStore) {
+    private val log = File(dir, "answers.log")
     private val io = Executors.newSingleThreadExecutor()
 
     private val answers = HashMap<String, Boolean>()
@@ -28,7 +26,7 @@ class ProgressStore(context: Context) {
     private val daily = HashMap<String, Int>()
     /** Bookmarked question ids, newest first. */
     private val saved = LinkedHashSet<String>()
-    private val savedFile = File(context.filesDir, "saved.txt")
+    private val savedFile = File(dir, "saved.txt")
 
     /** Bumped on every change; read by all getters so Compose tracks them. */
     private var rev by mutableIntStateOf(0)
@@ -41,7 +39,7 @@ class ProgressStore(context: Context) {
         private set
     var mockSize by mutableIntStateOf(prefs.getInt(KEY_MOCK_SIZE, 150))
         private set
-    var mocks by mutableStateOf(decodeMocks(prefs.getStringSet(KEY_MOCKS, emptySet()) ?: emptySet()))
+    var mocks by mutableStateOf(decodeMocks(prefs.getStringSet(KEY_MOCKS)))
         private set
 
     /** Reads the answer log. Call once, off the main thread, before the UI uses the store. */
@@ -143,27 +141,27 @@ class ProgressStore(context: Context) {
 
     fun changePyqTarget(delta: Int) {
         pyqTarget = (pyqTarget + delta).coerceIn(10, 1000)
-        prefs.edit().putInt(KEY_PYQ_TARGET, pyqTarget).apply()
+        prefs.putInt(KEY_PYQ_TARGET, pyqTarget)
     }
 
     fun changeNotesTarget(delta: Int) {
         notesTarget = (notesTarget + delta).coerceIn(10, 1000)
-        prefs.edit().putInt(KEY_NOTES_TARGET, notesTarget).apply()
+        prefs.putInt(KEY_NOTES_TARGET, notesTarget)
     }
 
     fun changeCaTarget(delta: Int) {
         caTarget = (caTarget + delta).coerceIn(10, 500)
-        prefs.edit().putInt(KEY_CA_TARGET, caTarget).apply()
+        prefs.putInt(KEY_CA_TARGET, caTarget)
     }
 
     fun changeMockSize(delta: Int) {
         mockSize = (mockSize + delta).coerceIn(30, 200)
-        prefs.edit().putInt(KEY_MOCK_SIZE, mockSize).apply()
+        prefs.putInt(KEY_MOCK_SIZE, mockSize)
     }
 
     fun addMock(r: MockResult) {
         mocks = (listOf(r) + mocks).take(50)
-        prefs.edit().putStringSet(KEY_MOCKS, mocks.mapIndexed { i, m -> "$i\t${m.date}\t${m.day}\t${m.total}\t${m.correct}\t${m.wrong}" }.toSet()).apply()
+        prefs.putStringSet(KEY_MOCKS, mocks.mapIndexed { i, m -> "$i\t${m.date}\t${m.day}\t${m.total}\t${m.correct}\t${m.wrong}" }.toSet())
     }
 
     private fun decodeMocks(raw: Set<String>): List<MockResult> =

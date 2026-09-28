@@ -11,7 +11,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.activity.compose.BackHandler
+import com.appsc.mcq.platform.PlatformBackHandler
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -66,7 +66,7 @@ fun MockScreen(dayN: Int, nav: Nav) {
             askLeave = true
         }
     }
-    BackHandler(onBack = leave)
+    PlatformBackHandler(onBack = leave)
 
     if (askLeave) {
         AlertDialog(

@@ -1,9 +1,7 @@
 package com.appsc.mcq.data
 
-import android.content.Context
-import android.util.JsonReader
-import android.util.JsonToken
-import android.util.LruCache
+import com.google.gson.stream.JsonReader
+import com.google.gson.stream.JsonToken
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
@@ -80,10 +78,10 @@ class QIndex(
 }
 
 /** Loads the plan, the catalogue, the id index and (on demand) the questions of single sections. */
-class Repository(private val context: Context) {
+class Repository(private val assets: AssetSource) {
 
-    val plan: Plan by lazy { context.assets.open("plan.json").use { parsePlan(reader(it)) } }
-    val catalog: List<BookInfo> by lazy { context.assets.open("catalog.json").use { parseCatalog(reader(it)) } }
+    val plan: Plan by lazy { assets.open("plan.json").use { parsePlan(reader(it)) } }
+    val catalog: List<BookInfo> by lazy { assets.open("catalog.json").use { parseCatalog(reader(it)) } }
 
     @Volatile
     private var idx: QIndex? = null
@@ -98,23 +96,26 @@ class Repository(private val context: Context) {
         withContext(Dispatchers.IO) {
             plan
             catalog
-            idx = context.assets.open("index.json").use { parseIndex(reader(it)) }
+            idx = assets.open("index.json").use { parseIndex(reader(it)) }
         }
     }
 
     // ---- questions (per section file, cached) ----
 
-    private val cache = LruCache<String, List<Question>>(160)
+    /** Recently used sections (access-ordered, capped), so moving between screens never re-reads a file. */
+    private val cache = object : LinkedHashMap<String, List<Question>>(64, 0.75f, true) {
+        override fun removeEldestEntry(eldest: MutableMap.MutableEntry<String, List<Question>>?) = size > 160
+    }
 
     /** Questions of one section from one source. */
     suspend fun row(origin: Origin, book: Int, row: Int): List<Question> {
         val key = "${origin.code}$book/r$row"
-        cache.get(key)?.let { return it }
+        synchronized(cache) { cache[key] }?.let { return it }
         val qs = withContext(Dispatchers.IO) {
             if (index.row(origin, book, row).isEmpty()) emptyList()
-            else runCatching { context.assets.open("q/$key.json").use { parseQuestions(reader(it), book, origin, row) } }.getOrDefault(emptyList())
+            else runCatching { assets.open("q/$key.json").use { parseQuestions(reader(it), book, origin, row) } }.getOrDefault(emptyList())
         }
-        cache.put(key, qs)
+        synchronized(cache) { cache[key] = qs }
         return qs
     }
 

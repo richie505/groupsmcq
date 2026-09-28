@@ -1,4 +1,4 @@
-# APPSC MCQ 90 (Android)
+# APPSC MCQ 90 (Android + Windows)
 
 MCQ-only practice app for APPSC Group-I + Group-II. It follows the same 90-day plan as the notes app
 ([Group-app](https://github.com/richie505/Group-app)) and has two question sources:
@@ -91,3 +91,24 @@ Every push also builds the APK in GitHub Actions (**Build APK**). Builds are sig
 `source/` is copied from the notes app's `app/src/main/assets/` (`book*.json` → `source/notes/`,
 `mcq*.json` → `source/pyq/pyq*.json`, `plan.json`, `index.json`). Copy them again after the notes app
 changes, then rebuild the assets.
+
+## Windows app (.exe)
+
+`desktop/` is the Windows version: the same screens, question bank and progress rules as the Android
+app (it compiles the shared code in `app/src/main/java`; only `desktop/src/main/kotlin` — the window,
+and `platform/DesktopPlatform.kt` — is Windows-specific). Offline; it bundles its own Java runtime.
+
+- **Download:** Actions → **Build Windows app** → artifact `appsc-mcq-windows`:
+  `APPSC MCQ 90-<version>.exe` (installer: Start-menu entry + desktop shortcut, per-user, no admin),
+  the same as `.msi`, and `APPSC-MCQ-90-portable.zip` (unzip, run `APPSC MCQ 90.exe`).
+- **Progress** is kept in `%APPDATA%\APPSC MCQ 90` (answers, saved questions, settings), so installing
+  a newer version keeps it.
+- **Keyboard:** `1`–`4` answer · `Enter`/`→` next · `←` previous · flashcards: `Space` show answer,
+  `Y` knew it / `N` didn't know.
+
+Build it yourself (on Windows, JDK 17):
+
+```
+gradlew -PskipAndroid :desktop:test :desktop:packageExe      # desktop/build/compose/binaries/main/exe/
+gradlew -PskipAndroid :desktop:run                           # just run it
+```

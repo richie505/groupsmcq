@@ -1,0 +1,39 @@
+name: Build Windows app
+
+on:
+  push:
+    branches: ["**"]
+    paths-ignore: ["tools/generated/**", "**.md"]
+  workflow_dispatch:
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+      # The question bank (app/src/main/assets) is committed, so the Windows build uses it as is.
+      - name: Tests (question bank loads; app starts, switches tabs, opens a quiz)
+        run: ./gradlew --no-daemon -PskipAndroid :desktop:test
+      - name: Build installer (.exe), MSI and portable app
+        run: ./gradlew --no-daemon -PskipAndroid :desktop:packageExe :desktop:packageMsi :desktop:createDistributable
+      - name: Zip the portable app
+        shell: pwsh
+        run: Compress-Archive -Path "desktop/build/compose/binaries/main/app/APPSC MCQ 90" -DestinationPath "APPSC-MCQ-90-portable.zip"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: appsc-mcq-windows
+          path: |
+            desktop/build/compose/binaries/main/exe/*.exe
+            desktop/build/compose/binaries/main/msi/*.msi
+            APPSC-MCQ-90-portable.zip
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: windows-test-reports
+          path: desktop/build/reports/tests/

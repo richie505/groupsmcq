@@ -3,6 +3,7 @@ package com.appsc.mcq.ui.screens
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.focusable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -48,6 +49,13 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.input.key.Key
+import androidx.compose.ui.input.key.KeyEventType
+import androidx.compose.ui.input.key.key
+import androidx.compose.ui.input.key.onPreviewKeyEvent
+import androidx.compose.ui.input.key.type
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -155,8 +163,34 @@ private fun QuizRound(
     val q = set[index]
     val picked = picks[index]
     val answered = picked >= 0
+    var revealed by rememberSaveable(key, index) { mutableStateOf(false) }
 
-    Column(Modifier.fillMaxSize()) {
+    fun choose(i: Int) {
+        if (picks[index] >= 0) return
+        picks = picks.copyOf().also { it[index] = i }
+        store.record(q, i)
+    }
+
+    // Keyboard (Windows app, or a phone with a keyboard): 1-4 answer, Enter / Right next, Left previous,
+    // flashcards: Space shows the answer, then Y = I knew it, N = didn't know.
+    val focus = remember { FocusRequester() }
+    LaunchedEffect(index) { runCatching { focus.requestFocus() } }
+    val keys = Modifier.focusRequester(focus).focusable().onPreviewKeyEvent { e ->
+        if (e.type != KeyEventType.KeyDown) return@onPreviewKeyEvent false
+        val digit = listOf(Key.One, Key.Two, Key.Three, Key.Four, Key.Five).indexOf(e.key)
+            .takeIf { it >= 0 } ?: listOf(Key.NumPad1, Key.NumPad2, Key.NumPad3, Key.NumPad4, Key.NumPad5).indexOf(e.key)
+        when {
+            !q.flashcard && digit in q.options.indices -> { choose(digit); true }
+            q.flashcard && !answered && (e.key == Key.Spacebar || (e.key == Key.Enter && !revealed)) -> { revealed = true; true }
+            q.flashcard && revealed && !answered && e.key == Key.Y -> { choose(0); true }
+            q.flashcard && revealed && !answered && e.key == Key.N -> { choose(1); true }
+            (e.key == Key.Enter || e.key == Key.NumPadEnter || e.key == Key.DirectionRight) && answered -> { index++; true }
+            e.key == Key.DirectionLeft && index > 0 -> { index--; true }
+            else -> false
+        }
+    }
+
+    Column(Modifier.fillMaxSize().then(keys)) {
         Column(Modifier.padding(horizontal = 20.dp, vertical = 10.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
@@ -177,21 +211,10 @@ private fun QuizRound(
                     QuestionBody(q)
                     Spacer(Modifier.height(14.dp))
                     if (q.flashcard) {
-                        Flashcard(q, picked) { knew ->
-                            if (picks[index] < 0) {
-                                val p = if (knew) 0 else 1
-                                picks = picks.copyOf().also { it[index] = p }
-                                store.record(q, p)
-                            }
-                        }
+                        Flashcard(q, picked, revealed, onReveal = { revealed = true }) { knew -> choose(if (knew) 0 else 1) }
                     } else {
                         q.options.forEachIndexed { i, opt ->
-                            OptionCard(i, opt, picked, if (q.scored) q.answer else -1, reveal = true) {
-                                if (picks[index] < 0) {
-                                    picks = picks.copyOf().also { it[index] = i }
-                                    store.record(q, i)
-                                }
-                            }
+                            OptionCard(i, opt, picked, if (q.scored) q.answer else -1, reveal = true) { choose(i) }
                         }
                         if (answered) {
                             Spacer(Modifier.height(8.dp))
@@ -343,11 +366,10 @@ internal fun OptionCard(i: Int, text: String, picked: Int, answer: Int, reveal: 
  * "Didn't know" counts as a wrong answer, so it comes back in Mistakes and "Retry wrong answers".
  */
 @Composable
-internal fun Flashcard(q: Question, picked: Int, onGrade: (Boolean) -> Unit) {
-    var revealed by rememberSaveable(q.id) { mutableStateOf(picked >= 0) }
+internal fun Flashcard(q: Question, picked: Int, revealed: Boolean, onReveal: () -> Unit, onGrade: (Boolean) -> Unit) {
     if (!revealed && picked < 0) {
         OutlinedButton(
-            onClick = { revealed = true },
+            onClick = onReveal,
             modifier = Modifier.fillMaxWidth().height(52.dp),
             shape = RoundedCornerShape(12.dp),
         ) { Text("Show answer", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.Accent)) }

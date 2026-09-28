@@ -12,6 +12,8 @@ import com.appsc.mcq.data.Origin
 import com.appsc.mcq.data.ProgressStore
 import com.appsc.mcq.data.QuizSource
 import com.appsc.mcq.data.Repository
+import com.appsc.mcq.platform.androidRepository
+import com.appsc.mcq.platform.androidStore
 import com.appsc.mcq.ui.components.AppState
 import com.appsc.mcq.ui.components.LocalApp
 import com.appsc.mcq.ui.screens.BookScreen
@@ -57,8 +59,8 @@ class ScreensTest {
     @Before
     fun setUp() {
         val ctx = ApplicationProvider.getApplicationContext<android.content.Context>()
-        val repo = Repository(ctx)
-        val store = ProgressStore(ctx)
+        val repo = androidRepository(ctx)
+        val store = androidStore(ctx)
         runBlocking { repo.load() }
         store.load()
         app = AppState(repo, store)
