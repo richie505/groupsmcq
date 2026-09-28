@@ -98,7 +98,8 @@ changes, then rebuild the assets.
 app (it compiles the shared code in `app/src/main/java`; only `desktop/src/main/kotlin` — the window,
 and `platform/DesktopPlatform.kt` — is Windows-specific). Offline; it bundles its own Java runtime.
 
-- **Download:** the repo's **Releases** page (each `v*` tag publishes the Windows installer, the portable zip
+- **Download:** the repo's **Releases** page (every build of the main branch updates the release of the current
+  version with the Windows installer, the portable zip
   and the Android APK), or Actions → **Build Windows app** → artifact `appsc-mcq-windows`:
   `APPSC MCQ 90-<version>.exe` (installer: Start-menu entry + desktop shortcut, per-user, no admin),
   the same as `.msi`, and `APPSC-MCQ-90-portable.zip` (unzip, run `APPSC MCQ 90.exe`).

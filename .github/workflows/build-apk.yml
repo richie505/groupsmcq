@@ -3,7 +3,6 @@ name: Build APK
 on:
   push:
     branches: ["**"]
-    tags: ["v*"]
     paths-ignore: ["tools/generated/**", "**.md"]
   workflow_dispatch:
   workflow_call:
@@ -34,14 +33,20 @@ jobs:
         run: ./gradlew --no-daemon testDebugUnitTest
       - name: Build release APK
         run: ./gradlew --no-daemon assembleRelease
-      - name: Name the APK for the release (tags only)
-        if: startsWith(github.ref, 'refs/tags/v')
-        run: cp app/build/outputs/apk/release/app-release.apk "APPSC-MCQ-90-${GITHUB_REF_NAME}.apk"
-      - name: Publish to the GitHub release (tags only)
-        if: startsWith(github.ref, 'refs/tags/v')
+      - name: Release version
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+        id: ver
+        run: |
+          v=$(sed -n 's/.*packageVersion = "\(.*\)".*/\1/p' desktop/build.gradle.kts)
+          echo "v=v$v" >> "$GITHUB_OUTPUT"
+          cp app/build/outputs/apk/release/app-release.apk "APPSC-MCQ-90-$v.apk"
+      - name: Publish to the GitHub release
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
         uses: softprops/action-gh-release@v2
         with:
-          name: APPSC MCQ 90 ${{ github.ref_name }}
+          tag_name: ${{ steps.ver.outputs.v }}
+          target_commitish: ${{ github.sha }}
+          name: APPSC MCQ 90 ${{ steps.ver.outputs.v }}
           files: APPSC-MCQ-90-*.apk
       - uses: actions/upload-artifact@v4
         if: failure()
