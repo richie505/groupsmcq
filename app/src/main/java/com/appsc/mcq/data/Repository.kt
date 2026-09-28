@@ -15,16 +15,42 @@ import java.time.LocalDate
  * Question ids of every section, topic and plan day (assets/index.json). Small enough to keep in memory;
  * it answers every count and target without touching the questions themselves.
  */
+/** A plan day's pools. [ca] is the current-affairs pool of the Book 6 section the day's CA block names. */
+class DayPools(
+    val pyq: List<String>,
+    val notes: List<String>,
+    val ca: List<String> = emptyList(),
+    /** How many times the plan has already covered this CA section (0 = first read). */
+    val caRound: Int = 0,
+    val caTitle: String = "",
+    val caRow: Int = -1,
+)
+
 class QIndex(
     private val rows: Map<String, Pair<List<String>, List<String>>>,
-    private val days: Map<Int, Pair<List<String>, List<String>>>,
+    private val days: Map<Int, DayPools>,
 ) {
     fun row(origin: Origin, book: Int, row: Int): List<String> =
         rows["$book:$row"]?.let { if (origin == Origin.PYQ) it.first else it.second } ?: emptyList()
 
     /** A plan day's pool: PYQs (APPSC first, newest first) or notes MCQs (notes order). */
     fun day(origin: Origin, n: Int): List<String> =
-        days[n]?.let { if (origin == Origin.PYQ) it.first else it.second } ?: emptyList()
+        days[n]?.let { if (origin == Origin.PYQ) it.pyq else it.notes } ?: emptyList()
+
+    fun dayPools(n: Int): DayPools? = days[n]
+
+    /**
+     * A day's current-affairs target: [size] questions of its CA pool. Each revision round of the same
+     * section takes the next slice (wrapping round), so revisiting a section brings new questions first.
+     */
+    fun caTarget(n: Int, size: Int): List<String> {
+        val d = days[n] ?: return emptyList()
+        val pool = d.ca
+        if (pool.isEmpty()) return emptyList()
+        if (size >= pool.size) return pool
+        val start = (d.caRound.toLong() * size % pool.size).toInt()
+        return List(size) { pool[(start + it) % pool.size] }
+    }
 
     private val bookIds = HashMap<String, List<String>>()
 
@@ -175,7 +201,7 @@ class Repository(private val context: Context) {
 
     private fun parseIndex(r: JsonReader): QIndex {
         val rows = HashMap<String, Pair<List<String>, List<String>>>()
-        val days = HashMap<Int, Pair<List<String>, List<String>>>()
+        val days = HashMap<Int, DayPools>()
         fun pair(): Pair<List<String>, List<String>> {
             r.beginArray()
             val p = r.strings()
@@ -187,7 +213,27 @@ class Repository(private val context: Context) {
         while (r.hasNext()) {
             when (r.nextName()) {
                 "rows" -> { r.beginObject(); while (r.hasNext()) { val k = r.nextName(); rows[k] = pair() }; r.endObject() }
-                "days" -> { r.beginObject(); while (r.hasNext()) { val k = r.nextName().toInt(); days[k] = pair() }; r.endObject() }
+                "days" -> {
+                    r.beginObject()
+                    while (r.hasNext()) {
+                        val k = r.nextName().toInt()
+                        var p: List<String> = emptyList(); var n: List<String> = emptyList(); var c: List<String> = emptyList()
+                        var cr = 0; var ct = ""; var crow = -1
+                        r.beginObject()
+                        while (r.hasNext()) when (r.nextName()) {
+                            "p" -> p = r.strings()
+                            "n" -> n = r.strings()
+                            "c" -> c = r.strings()
+                            "cr" -> cr = r.nextInt()
+                            "ct" -> ct = r.nextString()
+                            "crow" -> crow = r.nextInt()
+                            else -> r.skipValue()
+                        }
+                        r.endObject()
+                        days[k] = DayPools(p, n, c, cr, ct, crow)
+                    }
+                    r.endObject()
+                }
                 else -> r.skipValue()
             }
         }

@@ -165,6 +165,7 @@ fun ProgressScreen() {
                     Column(Modifier.padding(vertical = 6.dp)) {
                         Stepper("PYQ target per day", store.pyqTarget, "Drawn from the day's sections, APPSC first", { store.changePyqTarget(-10) }, { store.changePyqTarget(10) })
                         Stepper("Notes MCQ target per day", store.notesTarget, "From the Combined Notes of the day's sections", { store.changeNotesTarget(-10) }, { store.changeNotesTarget(10) })
+                        Stepper("Current affairs target per day", store.caTarget, "From the day's Book 6 section; revision rounds take the next set", { store.changeCaTarget(-10) }, { store.changeCaTarget(10) })
                         Stepper("Mock test size", store.mockSize, "One minute per question", { store.changeMockSize(-10) }, { store.changeMockSize(10) })
                     }
                 }

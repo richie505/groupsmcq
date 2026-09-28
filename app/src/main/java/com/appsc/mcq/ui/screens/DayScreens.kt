@@ -25,6 +25,7 @@ import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.ErrorOutline
 import androidx.compose.material.icons.filled.History
+import androidx.compose.material.icons.filled.Newspaper
 import androidx.compose.material.icons.filled.Quiz
 import androidx.compose.material.icons.filled.Timer
 import androidx.compose.material.icons.outlined.AutoStories
@@ -81,8 +82,13 @@ fun dayTarget(day: PlanDay): DayTarget {
     val app = LocalApp.current
     val p = app.store.pyqTarget
     val n = app.store.notesTarget
-    return remember(day.n, p, n) {
-        DayTarget(app.repo.index.day(Origin.PYQ, day.n).take(p), app.repo.index.day(Origin.NOTES, day.n).take(n))
+    val c = app.store.caTarget
+    return remember(day.n, p, n, c) {
+        DayTarget(
+            app.repo.index.day(Origin.PYQ, day.n).take(p),
+            app.repo.index.day(Origin.NOTES, day.n).take(n),
+            app.repo.index.caTarget(day.n, c),
+        )
     }
 }
 
@@ -175,7 +181,7 @@ private fun HeroCard(
                 style = TextStyle(fontSize = 14.sp, color = Color(0xFFFFEDD5)),
             )
             if (!day.isMock) {
-                val ids = target.pyq + target.notes
+                val ids = target.pyq + target.notes + target.ca
                 val done = store.stats(ids).first
                 if (ids.isNotEmpty()) {
                     Spacer(Modifier.height(14.dp))
@@ -206,6 +212,7 @@ fun LazyListScope.dayBody(day: PlanDay, target: DayTarget, nav: Nav) {
     item { SectionHeader("Daily targets") }
     item { TargetCard(day, target, Origin.PYQ, nav) }
     item { TargetCard(day, target, Origin.NOTES, nav) }
+    if (target.ca.isNotEmpty()) item { CurrentAffairsCard(day, target, nav) }
     if (day.type == "revision" || day.type == "sunday") item { MistakesCard(nav) }
     item { SectionHeader("Today's sections (${day.rows.size})") }
     items(day.rows, key = { "${it.book}-${it.row}" }) { r ->
@@ -244,6 +251,44 @@ private fun TargetCard(day: PlanDay, target: DayTarget, origin: Origin, nav: Nav
         onWrong = { nav.quiz(if (pyq) "tp" else "tn", 0, day.n, "wrong") },
         startLabel = when {
             total == 0 -> null
+            done == 0 -> "Start · all $total"
+            done < total -> "Continue · ${total - done} left"
+            extra > 0 -> "Practise $extra more"
+            else -> "Practise all again"
+        },
+    )
+}
+
+/** The day's current-affairs block: questions of the Book 6 section it names (notes MCQs first, then PYQs). */
+@Composable
+private fun CurrentAffairsCard(day: PlanDay, target: DayTarget, nav: Nav) {
+    val app = LocalApp.current
+    val pools = app.repo.index.dayPools(day.n)
+    val ids = target.ca
+    val (done, correct, wrong) = app.store.stats(ids)
+    val total = ids.size
+    val extra = (pools?.ca?.size ?: 0) - total
+    val round = pools?.caRound ?: 0
+    PracticeCard(
+        title = "Current affairs",
+        subtitle = (pools?.caTitle ?: "") + when {
+            done >= total -> " · target done!" + if (extra > 0) " $extra more in this section" else ""
+            round == 0 -> " · first read · target $total"
+            else -> " · revision ${round} · next $total questions"
+        },
+        icon = Icons.Filled.Newspaper,
+        iconBg = C.SeeBg,
+        iconFg = C.SeeInk,
+        done = done,
+        correct = correct,
+        wrong = wrong,
+        total = total,
+        onStart = {
+            if (done >= total && extra > 0) nav.quiz("xc", 0, day.n)
+            else nav.quiz("tc", 0, day.n, if (done >= total) "all" else "new")
+        },
+        onWrong = { nav.quiz("tc", 0, day.n, "wrong") },
+        startLabel = when {
             done == 0 -> "Start · all $total"
             done < total -> "Continue · ${total - done} left"
             extra > 0 -> "Practise $extra more"
@@ -376,8 +421,11 @@ fun PlanScreen(nav: Nav) {
     // all 90 targets at once (needs every bank; done in the background)
     val p = app.store.pyqTarget
     val nt = app.store.notesTarget
-    val targets = remember(p, nt) {
-        plan.days.associate { it.n to (app.repo.index.day(Origin.PYQ, it.n).take(p) + app.repo.index.day(Origin.NOTES, it.n).take(nt)) }
+    val ct = app.store.caTarget
+    val targets = remember(p, nt, ct) {
+        plan.days.associate {
+            it.n to (app.repo.index.day(Origin.PYQ, it.n).take(p) + app.repo.index.day(Origin.NOTES, it.n).take(nt) + app.repo.index.caTarget(it.n, ct))
+        }
     }
     LaunchedEffect(todayIndex) { if (todayIndex > 2) listState.scrollToItem(todayIndex + 1) }
 
@@ -386,7 +434,7 @@ fun PlanScreen(nav: Nav) {
         LazyColumn(Modifier.fillMaxSize(), state = listState) {
             item {
                 Text(
-                    "Targets per study day: ${app.store.pyqTarget} PYQs + ${app.store.notesTarget} notes MCQs from that day's sections (change them in Progress → Settings). Mock days: a timed ${app.store.mockSize}-question paper.",
+                    "Targets per study day: ${app.store.pyqTarget} PYQs + ${app.store.notesTarget} notes MCQs from that day's sections + ${app.store.caTarget} current affairs MCQs from its CA section (change them in Progress → Settings). Mock days: a timed ${app.store.mockSize}-question paper.",
                     style = TextStyle(fontSize = 13.sp, lineHeight = 19.sp, color = C.Muted),
                     modifier = Modifier.padding(horizontal = 20.dp, vertical = 12.dp),
                 )

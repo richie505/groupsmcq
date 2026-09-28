@@ -78,6 +78,15 @@ class ScreensTest {
         waitFor("PYQ practice")
         rule.onNodeWithText("PYQ practice").performClick()
         assert(calls.last().startsWith("quiz/tp/0/1")) { calls.toString() }
+        waitFor("Current affairs")
+        rule.onNodeWithText("Current affairs").performClick()
+        assert(calls.last().startsWith("quiz/tc/0/1")) { calls.toString() }
+    }
+
+    @Test fun currentAffairsQuiz() {
+        show { QuizScreen(QuizSource("tc", 0, 1), "all", nav) }
+        waitFor("Question 1 of")
+        waitFor("Current Affairs")
     }
 
     @Test fun mockDay() {

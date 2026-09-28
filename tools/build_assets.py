@@ -175,6 +175,14 @@ def main():
         }
 
     # Each plan day's pools, in study order: PYQs APPSC first then newest year; notes MCQs in notes order.
+    # Current affairs: the day's "Current affairs" block names one Book 6 section ("Book 6 pp 2-6, G-1 ...");
+    # its pool is that section's notes MCQs then its PYQs, and "round" counts how often the plan has
+    # returned to it, so each revision round's target is the next slice of the pool, not a repeat.
+    def order_pyq(ids):
+        return sorted(ids, key=lambda i: (0 if meta[i][0] else 1, -meta[i][1]))
+
+    ca_code_row = {c: i for i, r in enumerate(catalog["books"][5]["rows"]) for c in r["codes"] if c.startswith("G-")}
+    ca_rounds = {}
     for d in plan["days"]:
         pp, nn, sp, sn = [], [], set(), set()
         for r in d["rows"]:
@@ -183,8 +191,18 @@ def main():
             ids = index["rows"].get(f"{r['ref'][0]}:{r['ref'][1]}", [[], []])
             pp += [i for i in ids[0] if not (i in sp or sp.add(i))]
             nn += [i for i in ids[1] if not (i in sn or sn.add(i))]
-        pp.sort(key=lambda i: (0 if meta[i][0] else 1, -meta[i][1]))
-        index["days"][str(d["n"])] = [pp, nn]
+        day = {"p": order_pyq(pp), "n": nn}
+        ca_text = " ".join(t["task"] for t in d.get("tasks", []) if "current affairs" in t["block"].lower())
+        m = re.search(r"(G-\d+)\s+([^:]+)", ca_text)
+        if m and m.group(1) in ca_code_row:
+            row = ca_code_row[m.group(1)]
+            ids = index["rows"].get(f"6:{row}", [[], []])
+            day["c"] = ids[1] + order_pyq([i for i in ids[0] if i not in set(ids[1])])
+            day["cr"] = ca_rounds.get(row, 0)
+            day["ct"] = f"{m.group(1)} {m.group(2).strip()}"
+            day["crow"] = row
+            ca_rounds[row] = day["cr"] + 1
+        index["days"][str(d["n"])] = day
     write_json(OUT / "index.json", index)
 
     stats["books"] = per_book

@@ -68,6 +68,8 @@ fun quizTitle(src: QuizSource): String = when (src.kind) {
     "tn" -> "Day ${src.index} · Notes MCQ target"
     "xp" -> "Day ${src.index} · more PYQs"
     "xn" -> "Day ${src.index} · more notes MCQs"
+    "tc" -> "Day ${src.index} · Current affairs"
+    "xc" -> "Day ${src.index} · more current affairs"
     "rp" -> "Section PYQs"
     "rn" -> "Section notes MCQs"
     "u" -> "Topic PYQs"

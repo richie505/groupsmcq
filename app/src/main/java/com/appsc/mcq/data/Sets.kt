@@ -10,7 +10,7 @@ object Sets {
 
     /**
      * Ids behind a quiz source, each once.
-     * kinds: "tp"/"tn" a day's target (PYQ / notes), "xp"/"xn" the rest of that day's sections beyond the target,
+     * kinds: "tp"/"tn"/"tc" a day's target (PYQ / notes / current affairs), "xp"/"xn"/"xc" the rest of that day's pool,
      * "rp"/"rn" one section, "w" mistakes (book 0 = all subjects).
      */
     fun pool(repo: Repository, store: ProgressStore, src: QuizSource): List<String> {
@@ -20,6 +20,8 @@ object Sets {
             "tn" -> idx.day(Origin.NOTES, src.index).take(store.notesTarget)
             "xp" -> idx.day(Origin.PYQ, src.index).drop(store.pyqTarget)
             "xn" -> idx.day(Origin.NOTES, src.index).drop(store.notesTarget)
+            "tc" -> idx.caTarget(src.index, store.caTarget)
+            "xc" -> idx.caTarget(src.index, store.caTarget).toSet().let { t -> idx.dayPools(src.index)?.ca?.filter { it !in t } ?: emptyList() }
             "rp" -> idx.row(Origin.PYQ, src.book, src.index)
             "rn" -> idx.row(Origin.NOTES, src.book, src.index)
             "w" -> store.wrongIds().filter { src.book == 0 || idx.locate(it)?.second == src.book }

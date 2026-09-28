@@ -34,6 +34,8 @@ class ProgressStore(context: Context) {
         private set
     var notesTarget by mutableIntStateOf(prefs.getInt(KEY_NOTES_TARGET, 60))
         private set
+    var caTarget by mutableIntStateOf(prefs.getInt(KEY_CA_TARGET, 40))
+        private set
     var mockSize by mutableIntStateOf(prefs.getInt(KEY_MOCK_SIZE, 150))
         private set
     var mocks by mutableStateOf(decodeMocks(prefs.getStringSet(KEY_MOCKS, emptySet()) ?: emptySet()))
@@ -127,6 +129,11 @@ class ProgressStore(context: Context) {
         prefs.edit().putInt(KEY_NOTES_TARGET, notesTarget).apply()
     }
 
+    fun changeCaTarget(delta: Int) {
+        caTarget = (caTarget + delta).coerceIn(10, 500)
+        prefs.edit().putInt(KEY_CA_TARGET, caTarget).apply()
+    }
+
     fun changeMockSize(delta: Int) {
         mockSize = (mockSize + delta).coerceIn(30, 200)
         prefs.edit().putInt(KEY_MOCK_SIZE, mockSize).apply()
@@ -148,6 +155,7 @@ class ProgressStore(context: Context) {
         const val KEY_PYQ_TARGET = "pyq_target"
         const val KEY_NOTES_TARGET = "notes_target"
         const val KEY_MOCK_SIZE = "mock_size"
+        const val KEY_CA_TARGET = "ca_target"
         const val KEY_MOCKS = "mocks"
     }
 }

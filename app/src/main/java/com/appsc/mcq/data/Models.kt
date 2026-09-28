@@ -92,7 +92,7 @@ data class Plan(
 )
 
 /** One day's targets: the question ids to finish from each source. */
-data class DayTarget(val pyq: List<String>, val notes: List<String>)
+data class DayTarget(val pyq: List<String>, val notes: List<String>, val ca: List<String> = emptyList())
 
 data class MockResult(val date: String, val day: Int, val total: Int, val correct: Int, val wrong: Int) {
     val net: Float get() = correct - wrong / 3f

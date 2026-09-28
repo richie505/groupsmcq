@@ -44,6 +44,24 @@ class DataTest {
     }
 
     @Test
+    fun currentAffairsTargetsFollowThePlan() = runBlocking {
+        val repo = Repository(ctx)
+        repo.load()
+        val caDays = repo.plan.days.filter { repo.index.dayPools(it.n)?.ca?.isNotEmpty() == true }
+        assertEquals("days with a current affairs block", 73, caDays.size)
+        for (d in caDays) {
+            val t = repo.index.caTarget(d.n, 40)
+            assertTrue("day ${d.n}", t.isNotEmpty() && t.size <= 40 && t.toSet().size == t.size)
+            assertEquals(t.size, repo.questions(t).size)
+            assertTrue("day ${d.n} CA is Book 6", repo.questions(t).all { it.book == 6 })
+        }
+        // a later revision round of the same section starts with different questions
+        val first = caDays.first()
+        val again = caDays.first { it.n != first.n && repo.index.dayPools(it.n)!!.caRow == repo.index.dayPools(first.n)!!.caRow }
+        assertTrue(repo.index.caTarget(first.n, 40).first() != repo.index.caTarget(again.n, 40).first())
+    }
+
+    @Test
     fun everyDayHasTargetsAndMockDaysHaveAPaper() = runBlocking {
         val repo = Repository(ctx)
         repo.load()
